@@ -31,18 +31,18 @@ Assert.AreEqual("DATE \\@ \"dddd, MMMM dd, yyyy\"", field.GetFieldCode());
 Assert.That(DateTime.Parse(field.Result), Is.EqualTo(DateTime.Today).Within(1).Days);
 ```
 
-Montre comment obtenir le code de champ d'un champ.
+Montre comment obtenir le code de champ d’un champ.
 
 ```csharp
-// Ouvre un document qui contient un MERGEFIELD dans un champ IF.
+// Ouvre un document qui contient un MERGEFIELD à l'intérieur d'un champ IF.
 Document doc = new Document(MyDir + "Nested fields.docx");
 FieldIf fieldIf = (FieldIf)doc.Range.Fields[0];
 
-// Il existe deux manières d'obtenir le code de champ d'un champ :
-// 1 - Omettre ses champs intérieurs :
+// Il existe deux manières d'obtenir le code du champ d'un champ :
+// 1 - Omettre ses champs internes :
 Assert.AreEqual(" IF  > 0 \" (surplus of ) \" \"\" ", fieldIf.GetFieldCode(false));
 
-// 2 - Inclure ses champs intérieurs :
+// 2 - Inclut ses champs internes :
 Assert.AreEqual($" IF \u0013 MERGEFIELD NetIncome \u0014\u0015 > 0 \" (surplus of \u0013 MERGEFIELD  NetIncome \\f $ \u0014\u0015) \" \"\" ",
     fieldIf.GetFieldCode(true));
 
@@ -68,22 +68,22 @@ public string GetFieldCode(bool includeChildFieldCodes)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| includeChildFieldCodes | Boolean | `Vrai` si les codes de champ enfant doivent être inclus. |
+| includeChildFieldCodes | Boolean | `vrai` si les codes de champ enfant doivent être inclus. |
 
 ### Exemples
 
-Montre comment obtenir le code de champ d'un champ.
+Montre comment obtenir le code de champ d’un champ.
 
 ```csharp
-// Ouvre un document qui contient un MERGEFIELD dans un champ IF.
+// Ouvre un document qui contient un MERGEFIELD à l'intérieur d'un champ IF.
 Document doc = new Document(MyDir + "Nested fields.docx");
 FieldIf fieldIf = (FieldIf)doc.Range.Fields[0];
 
-// Il existe deux manières d'obtenir le code de champ d'un champ :
-// 1 - Omettre ses champs intérieurs :
+// Il existe deux manières d'obtenir le code du champ d'un champ :
+// 1 - Omettre ses champs internes :
 Assert.AreEqual(" IF  > 0 \" (surplus of ) \" \"\" ", fieldIf.GetFieldCode(false));
 
-// 2 - Inclure ses champs intérieurs :
+// 2 - Inclut ses champs internes :
 Assert.AreEqual($" IF \u0013 MERGEFIELD NetIncome \u0014\u0015 > 0 \" (surplus of \u0013 MERGEFIELD  NetIncome \\f $ \u0014\u0015) \" \"\" ",
     fieldIf.GetFieldCode(true));
 

@@ -16,13 +16,13 @@ public void Execute(IMailMergeDataSource dataSource)
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| dataSource | IMailMergeDataSource | Un objeto que implementa la interfaz de fuente de datos de combinación de correspondencia personalizada. |
+| dataSource | IMailMergeDataSource | Un objeto que implementa la interfaz de origen de datos de combinación de correspondencia personalizada. |
 
 ### Observaciones
 
-Utilice este método para completar los campos de combinación de correspondencia en el documento con valores de cualquier fuente de datos, como una lista, una tabla hash u objetos. Necesitas escribir tu propia clase que implementa el[`IMailMergeDataSource`](../../imailmergedatasource/) interfaz.
+Utilice este método para completar campos de combinación de correspondencia en el documento con valores de cualquier fuente de datos, como una lista, tabla hash u objetos. Necesitas escribir tu propia clase que implemente el[`IMailMergeDataSource`](../../imailmergedatasource/) interfaz.
 
-Puede utilizar este método sólo cuando[`IsBidiTextSupportedOnUpdate`](../../../aspose.words.fields/fieldoptions/isbiditextsupportedonupdate/)es falso, es decir, no necesita compatibilidad con idiomas de derecha a izquierda (como árabe o hebreo).
+Puede utilizar este método sólo cuando[`IsBidiTextSupportedOnUpdate`](../../../aspose.words.fields/fieldoptions/isbiditextsupportedonupdate/) es`FALSO`, es decir, no necesita compatibilidad con idiomas de derecha a izquierda (como árabe o hebreo).
 
 Este método ignora laRemoveUnusedRegions opción.
 
@@ -45,14 +45,14 @@ public void Execute(string[] fieldNames, object[] values)
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| fieldNames | String[] | Matriz de nombres de campos de combinación. Los nombres de campo no distinguen entre mayúsculas y minúsculas. Si se encuentra un nombre de campo que no se encuentra en el documento, se ignora. |
-| values | Object[] | Matriz de valores que se insertará en los campos de combinación. El número de elementos en esta matriz debe ser el mismo que el número de elementos en fieldNames. |
+| fieldNames | String[] | Matriz de nombres de campos de combinación. Los nombres de los campos no distinguen entre mayúsculas y minúsculas. Si se encuentra un nombre de campo que no se encuentra en el documento, se ignora. |
+| values | Object[] | Matriz de valores que se insertarán en los campos de combinación. El número de elementos de esta matriz debe ser el mismo que el número de elementos de*fieldNames*. |
 
 ### Observaciones
 
-Utilice este método para completar los campos de combinación de correspondencia en el documento con valores de una matriz de objetos.
+Utilice este método para completar campos de combinación de correspondencia en el documento con valores de una matriz de objetos.
 
-Este método fusiona datos para un solo registro. La matriz de nombres de campo y la matriz de valores representan los datos de un solo registro.
+Este método combina datos de un solo registro. La matriz de nombres de campo y la matriz de valores representan los datos de un solo registro.
 
 Este método no utiliza regiones de combinación de correspondencia.
 
@@ -60,20 +60,20 @@ Este método ignora laRemoveUnusedRegions opción.
 
 ### Ejemplos
 
-Muestra cómo combinar una imagen de un URI como datos de combinación de correspondencia en un MERGEFIELD.
+Muestra cómo fusionar una imagen de un URI como datos de combinación de correspondencia en un MERGEFIELD.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// MERGEFIELDs con etiquetas "Imagen:" recibirán una imagen durante una combinación de correspondencia.
-// La cadena después de los dos puntos en la etiqueta "Imagen:" corresponde a un nombre de columna
+// Los MERGEFIELD con etiquetas "Imagen:" recibirán una imagen durante una combinación de correspondencia.
+// La cadena después de los dos puntos en la etiqueta "Imagen:" corresponde al nombre de una columna
 // en la fuente de datos cuyas celdas contienen URI de archivos de imagen.
 builder.InsertField("MERGEFIELD  Image:logo_FromWeb ");
 builder.InsertField("MERGEFIELD  Image:logo_FromFileSystem ");
 
-  // Cree una fuente de datos que contenga URI de imágenes que fusionaremos.
-// Un URI puede ser una URL web que apunte a una imagen o un nombre de archivo del sistema de archivos local de un archivo de imagen.
+ // Crea una fuente de datos que contiene los URI de las imágenes que fusionaremos.
+// Un URI puede ser una URL web que apunta a una imagen o un nombre de archivo del sistema de archivos local de un archivo de imagen.
 string[] columns = { "logo_FromWeb", "logo_FromFileSystem" };
 object[] URIs = { ImageUrl, ImageDir + "Logo.jpg" };
 
@@ -102,7 +102,7 @@ doc.MailMerge.Execute(new string[] { "FullName", "Company", "Address", "City" },
 
 // Envía el documento al navegador del cliente.
 Assert.That(() => doc.Save(response, "Artifacts/MailMerge.ExecuteArray.docx", ContentDisposition.Inline, null),
-    Throws.TypeOf<ArgumentNullException>()); //Lanzado porque HttpResponse es nulo en la prueba.
+    Throws.TypeOf<ArgumentNullException>()); // Lanzado porque HttpResponse es nulo en la prueba.
 
 // Tendremos que cerrar esta respuesta manualmente para asegurarnos de no agregar ningún contenido superfluo al documento después de guardarlo.
 Assert.That(() => response.End(), Throws.TypeOf<NullReferenceException>());
@@ -118,7 +118,7 @@ Assert.That(() => response.End(), Throws.TypeOf<NullReferenceException>());
 
 ## Execute(DataTable) {#execute_2}
 
-Realiza la combinación de correspondencia de un DataTable en el documento.
+Realiza combinación de correspondencia desde una tabla de datos en el documento.
 
 ```csharp
 public void Execute(DataTable table)
@@ -130,13 +130,13 @@ public void Execute(DataTable table)
 
 ### Observaciones
 
-Use este método para completar los campos de combinación de correspondencia en el documento con valores de a  **Tabla de datos**.
+Utilice este método para completar los campos de combinación de correspondencia en el documento con valores de a  **Tabla de datos**.
 
-Todos los registros de la tabla se combinan en el documento.
+Todos los registros de la tabla se fusionan en el documento.
 
-Puede usar el campo SIGUIENTE en el documento de Word para causar **Unificación de correo** objeto para seleccionar siguiente registro del **Tabla de datos** y continuar fusionando. Esto se puede usar al crear documentos como etiquetas postales.
+Puede utilizar el campo SIGUIENTE en el documento de Word para provocar[`MailMerge`](../) objeto para seleccionar siguiente registro del **Tabla de datos** y continuar fusionando. Esto se puede utilizar al crear documentos como etiquetas postales.
 
-Cuando **Unificación de correo**el objeto llega al final del documento principal y todavía hay más filas en el **Tabla de datos**, copia todo el contenido de el documento principal y lo agrega al final del documento de destino utilizando un salto de sección como separador.
+Cuando[`MailMerge`](../) El objeto llega al final del documento principal y todavía hay más filas en el **Tabla de datos**, copia el contenido completo de el documento principal y lo agrega al final del documento de destino usando un salto de sección como separador.
 
 Este método ignora laRemoveUnusedRegions opción.
 
@@ -153,8 +153,8 @@ public void ExecuteDataTable()
     table.Rows.Add(new object[] { "Thomas Hardy", "120 Hanover Sq., London" });
     table.Rows.Add(new object[] { "Paolo Accorti", "Via Monte Bianco 34, Torino" });
 
-    // A continuación se muestran dos formas de usar un DataTable como fuente de datos para una combinación de correspondencia.
-    // 1: use la tabla completa para la combinación de correspondencia para crear un documento de combinación de correspondencia de salida para cada fila de la tabla:
+    // A continuación se muestran dos formas de utilizar una tabla de datos como fuente de datos para una combinación de correspondencia.
+    // 1 - Utilice toda la tabla para la combinación de correspondencia para crear un documento de combinación de correspondencia de salida para cada fila de la tabla:
     Document doc = CreateSourceDocExecuteDataTable();
 
     doc.MailMerge.Execute(table);
@@ -170,7 +170,7 @@ public void ExecuteDataTable()
 }
 
 /// <summary>
-/// Crea un documento de origen de combinación de correspondencia.
+/// Crea un documento fuente de combinación de correspondencia.
 /// </summary>
 private static Document CreateSourceDocExecuteDataTable()
 {
@@ -195,7 +195,7 @@ private static Document CreateSourceDocExecuteDataTable()
 
 ## Execute(IDataReader) {#execute_4}
 
-Realiza la combinación de correspondencia de IDataReader en el documento.
+Realiza combinación de correspondencia desde **Lector de datos** en el documento.
 
 ```csharp
 public void Execute(IDataReader dataReader)
@@ -207,9 +207,9 @@ public void Execute(IDataReader dataReader)
 
 ### Observaciones
 
-Puedes pasar **SqlDataReader** o **OleDbDataReader** objeto en el método this como parámetro porque ambos implementaron **IDataReader** interfaz.
+Puedes pasar **Lector de datos SQL** o **Lector de datos OleDb** objeto en el método this como parámetro porque ambos implementaron **Lector de datos** interfaz.
 
-Tenga en cuenta que este método no usa regiones de combinación de correspondencia y para varios registros, el documento crecerá repitiendo todo el documento.
+Tenga en cuenta que este método no utiliza regiones de combinación de correspondencia y, para registros múltiples, el documento crecerá repitiendo todo el documento.
 
 Este método ignora laRemoveUnusedRegions opción.
 
@@ -230,31 +230,35 @@ builder.InsertField(" MERGEFIELD QuantityPerUnit");
 builder.Write(" for $");
 builder.InsertField(" MERGEFIELD UnitPrice");
 
-// Crear una cadena de conexión que apunte al archivo de base de datos "Northwind"
+// Crea una cadena de conexión que apunta al archivo de base de datos "Northwind"
 // en nuestro sistema de archivos local, abra una conexión y configure una consulta SQL.
-string connectionString = @"Driver={Microsoft Access Driver (*.mdb)};Dbq=" + DatabaseDir + "Northwind.mdb";
-string query = 
-    @"SELECT Products.ProductName, Suppliers.CompanyName, Products.QuantityPerUnit, {fn ROUND(Products.UnitPrice,2)} as UnitPrice
+string connectionString = @"Provider = Microsoft.ACE.OLEDB.12.0; Data Source=" + DatabaseDir + "Northwind.accdb";
+string query =
+    @"SELECT Products.ProductName, Suppliers.CompanyName, Products.QuantityPerUnit, Products.UnitPrice
     FROM Products 
     INNER JOIN Suppliers 
     ON Products.SupplierID = Suppliers.SupplierID";
 
-using (OdbcConnection connection = new OdbcConnection())
+using (OleDbConnection connection = new OleDbConnection(connectionString))
 {
-    connection.ConnectionString = connectionString;
-    connection.Open();
-
     // Cree un comando SQL que generará datos para nuestra combinación de correspondencia.
-    // Los nombres de las columnas de la tabla que devolverá esta sentencia SELECT
+    // Los nombres de las columnas de la tabla que devolverá esta instrucción SELECT
     // deberá corresponder a los campos de combinación que colocamos arriba.
-    OdbcCommand command = connection.CreateCommand();
+    OleDbCommand command = new OleDbCommand(query, connection);
     command.CommandText = query;
-
-    // Esto ejecutará el comando y almacenará los datos en el lector.
-    OdbcDataReader reader = command.ExecuteReader(CommandBehavior.CloseConnection);
-
-    // Tome los datos del lector y utilícelos en la combinación de correspondencia.
-    doc.MailMerge.Execute(reader);
+    try
+    {                    
+        connection.Open();                 
+        using (OleDbDataReader reader = command.ExecuteReader())
+        {
+            // Toma los datos del lector y úsalos en la combinación de correspondencia.
+            doc.MailMerge.Execute(reader);
+        }
+    }
+    catch (Exception ex)
+    {
+        Console.WriteLine(ex.Message);
+    }                
 }
 
 doc.Save(ArtifactsDir + "MailMerge.ExecuteDataReader.docx");
@@ -270,7 +274,7 @@ doc.Save(ArtifactsDir + "MailMerge.ExecuteDataReader.docx");
 
 ## Execute(DataView) {#execute_3}
 
-Realiza la combinación de correspondencia de un DataView en el documento.
+Realiza combinación de correspondencia desde un **Vista de datos** en el documento.
 
 ```csharp
 public void Execute(DataView dataView)
@@ -282,9 +286,9 @@ public void Execute(DataView dataView)
 
 ### Observaciones
 
-Este método es útil si recupera datos en un **Tabla de datos** pero luego necesita aplicar un filtro u ordenar antes de la combinación de correspondencia.
+Este método es útil si recupera datos en un **Tabla de datos** pero entonces necesita aplicar un filtro u ordenar antes de combinar correspondencia.
 
-Tenga en cuenta que este método no usa regiones de combinación de correspondencia y para varios registros, el documento crecerá repitiendo todo el documento.
+Tenga en cuenta que este método no utiliza regiones de combinación de correspondencia y, para registros múltiples, el documento crecerá repitiendo todo el documento.
 
 Este método ignora laRemoveUnusedRegions opción.
 
@@ -300,7 +304,7 @@ builder.InsertField(" MERGEFIELD Name");
 builder.Write(" for passing with a grade of ");
 builder.InsertField(" MERGEFIELD Grade");
 
-// Cree una tabla de datos de la que nuestra combinación de correo obtendrá datos.
+// Cree una tabla de datos de la que nuestra combinación de correspondencia obtendrá datos.
 DataTable table = new DataTable("ExamResults");
 table.Columns.Add("Name");
 table.Columns.Add("Grade");
@@ -309,14 +313,14 @@ table.Rows.Add(new object[] { "Jane Doe", "81" });
 table.Rows.Add(new object[] { "John Cardholder", "47" });
 table.Rows.Add(new object[] { "Joe Bloggs", "75" });
 
-// Podemos usar una vista de datos para modificar los datos de combinación de correo sin realizar cambios en la tabla de datos en sí.
+// Podemos usar una vista de datos para modificar los datos de combinación de correspondencia sin realizar cambios en la tabla de datos en sí.
 DataView view = new DataView(table);
 view.Sort = "Grade DESC";
 view.RowFilter = "Grade >= 50";
 
-// Nuestra vista de datos ordena las entradas en orden descendente a lo largo de la columna "Grado"
-// y filtra las filas con valores inferiores a 50 en esa columna.
-// Tres de las cuatro filas se ajustan a esos criterios para que el documento de salida contenga tres documentos combinados.
+// Nuestra vista de datos ordena las entradas en orden descendente a lo largo de la columna "Calificación"
+// y filtra filas con valores inferiores a 50 en esa columna.
+// Tres de las cuatro filas cumplen esos criterios, por lo que el documento de salida contendrá tres documentos combinados.
 doc.MailMerge.Execute(view);
 
 doc.Save(ArtifactsDir + "MailMerge.ExecuteDataView.docx");
@@ -332,7 +336,7 @@ doc.Save(ArtifactsDir + "MailMerge.ExecuteDataView.docx");
 
 ## Execute(DataRow) {#execute_1}
 
-Realiza la combinación de correspondencia de un DataRow en el documento.
+Realiza combinación de correspondencia desde un **fila de datos** en el documento.
 
 ```csharp
 public void Execute(DataRow row)
@@ -340,11 +344,11 @@ public void Execute(DataRow row)
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| row | DataRow | Fila que contiene los datos que se insertarán en los campos de combinación de correspondencia. Los nombres de los campos no distinguen entre mayúsculas y minúsculas. Si se encuentra un nombre de campo que no se encuentra en el documento, se ignora. |
+| row | DataRow | Fila que contiene datos que se insertarán en los campos de combinación de correspondencia. Los nombres de los campos no distinguen entre mayúsculas y minúsculas. Si se encuentra un nombre de campo que no se encuentra en el documento, se ignora. |
 
 ### Observaciones
 
-Utilice este método para completar los campos de combinación de correspondencia en el documento con valores de un **Fila de datos**.
+Utilice este método para completar campos de combinación de correspondencia en el documento con valores de un **fila de datos**.
 
 Este método ignora laRemoveUnusedRegions opción.
 
@@ -361,8 +365,8 @@ public void ExecuteDataTable()
     table.Rows.Add(new object[] { "Thomas Hardy", "120 Hanover Sq., London" });
     table.Rows.Add(new object[] { "Paolo Accorti", "Via Monte Bianco 34, Torino" });
 
-    // A continuación se muestran dos formas de usar un DataTable como fuente de datos para una combinación de correspondencia.
-    // 1: use la tabla completa para la combinación de correspondencia para crear un documento de combinación de correspondencia de salida para cada fila de la tabla:
+    // A continuación se muestran dos formas de utilizar una tabla de datos como fuente de datos para una combinación de correspondencia.
+    // 1 - Utilice toda la tabla para la combinación de correspondencia para crear un documento de combinación de correspondencia de salida para cada fila de la tabla:
     Document doc = CreateSourceDocExecuteDataTable();
 
     doc.MailMerge.Execute(table);
@@ -378,7 +382,7 @@ public void ExecuteDataTable()
 }
 
 /// <summary>
-/// Crea un documento de origen de combinación de correspondencia.
+/// Crea un documento fuente de combinación de correspondencia.
 /// </summary>
 private static Document CreateSourceDocExecuteDataTable()
 {

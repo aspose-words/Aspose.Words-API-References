@@ -1,14 +1,14 @@
 ---
 title: SvgSaveOptions.ExportEmbeddedImages
 second_title: Aspose.Words for .NET API 参考
-description: SvgSaveOptions 财产. 指定图像是否应作为base64 嵌入到SVG 文档中 注意设置此标志可以显着增加输出SVG 文件的大小
+description: SvgSaveOptions 财产. 指定图像是否应作为 base64 嵌入到 SVG 文档中 请注意设置此标志会显着增加输出 SVG 文件的大小
 type: docs
 weight: 20
 url: /zh/net/aspose.words.saving/svgsaveoptions/exportembeddedimages/
 ---
 ## SvgSaveOptions.ExportEmbeddedImages property
 
-指定图像是否应作为base64 嵌入到SVG 文档中。 注意设置此标志可以显着增加输出SVG 文件的大小。
+指定图像是否应作为 base64 嵌入到 SVG 文档中。 请注意，设置此标志会显着增加输出 SVG 文件的大小。
 
 ```csharp
 public bool ExportEmbeddedImages { get; set; }
@@ -40,7 +40,7 @@ public void SvgResourceFolder()
 }
 
 /// <summary>
-/// 在转换为 .svg 时计算并打印包含的资源的 URI。
+/// 计算并打印 包含的资源转换为 .svg 时的 URI。
 /// </summary>
 private class ResourceUriPrinter : IResourceSavingCallback
 {

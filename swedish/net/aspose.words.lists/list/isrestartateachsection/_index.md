@@ -1,14 +1,14 @@
 ---
 title: List.IsRestartAtEachSection
 second_title: Aspose.Words för .NET API Referens
-description: List fast egendom. Anger om listan ska startas om vid varje avsnitt. Standardvärdet är falsk .
+description: List fast egendom. Anger om listan ska startas om vid varje avsnitt. Standardvärdet ärfalsk .
 type: docs
 weight: 50
 url: /sv/net/aspose.words.lists/list/isrestartateachsection/
 ---
 ## List.IsRestartAtEachSection property
 
-Anger om listan ska startas om vid varje avsnitt. Standardvärdet är **falsk** .
+Anger om listan ska startas om vid varje avsnitt. Standardvärdet är`falsk` .
 
 ```csharp
 public bool IsRestartAtEachSection { get; set; }

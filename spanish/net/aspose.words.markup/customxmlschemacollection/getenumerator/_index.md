@@ -1,14 +1,14 @@
 ---
 title: CustomXmlSchemaCollection.GetEnumerator
 second_title: Referencia de API de Aspose.Words para .NET
-description: CustomXmlSchemaCollection método. Devuelve un objeto enumerador que se puede usar para iterar sobre todos los elementos de la colección.
+description: CustomXmlSchemaCollection método. Devuelve un objeto enumerador que se puede utilizar para iterar sobre todos los elementos de la colección.
 type: docs
 weight: 60
 url: /es/net/aspose.words.markup/customxmlschemacollection/getenumerator/
 ---
 ## CustomXmlSchemaCollection.GetEnumerator method
 
-Devuelve un objeto enumerador que se puede usar para iterar sobre todos los elementos de la colección.
+Devuelve un objeto enumerador que se puede utilizar para iterar sobre todos los elementos de la colección.
 
 ```csharp
 public IEnumerator<string> GetEnumerator()
@@ -28,8 +28,8 @@ CustomXmlPart xmlPart = doc.CustomXmlParts.Add(xmlPartId, xmlPartContent);
 // Agregar una asociación de esquema XML.
 xmlPart.Schemas.Add("http://www.w3.org/2001/XMLSchema");
 
-// Clonar la colección de asociaciones de esquemas XML de la parte XML personalizada,
-// y luego agregue un par de esquemas nuevos al clon.
+// Clonar la colección de asociaciones de esquemas XML del elemento XML personalizado,
+// y luego agrega un par de esquemas nuevos al clon.
 CustomXmlSchemaCollection schemas = xmlPart.Schemas.Clone();
 schemas.Add("http://www.w3.org/2001/XMLSchema-instance");
 schemas.Add("http://schemas.microsoft.com/office/2006/metadata/contentType");
@@ -51,7 +51,7 @@ schemas.RemoveAt(2);
 // 2 - Eliminar un esquema por valor:
 schemas.Remove("http://www.w3.org/2001/XMLSchema");
 
-// 3 - Usa el método "Borrar" para vaciar la colección de una vez.
+// 3 - Utilice el método "Borrar" para vaciar la colección de una vez.
 schemas.Clear();
 
 Assert.AreEqual(0, schemas.Count);

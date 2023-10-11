@@ -3,7 +3,7 @@ title: FieldOptions.BuiltInTemplatesPaths
 second_title: Справочник по API Aspose.Words для .NET
 description: FieldOptions свойство. Получает или задает пути к встроенным шаблонам MS Word.
 type: docs
-weight: 20
+weight: 30
 url: /ru/net/aspose.words.fields/fieldoptions/builtintemplatespaths/
 ---
 ## FieldOptions.BuiltInTemplatesPaths property
@@ -16,9 +16,9 @@ public string[] BuiltInTemplatesPaths { get; set; }
 
 ### Примечания
 
-Это свойство используется[`FieldAutoText`](../../fieldautotext/) а также[`FieldGlossary`](../../fieldglossary/) полей, если указанная запись автотекста не найдена в[`AttachedTemplate`](../../../aspose.words/document/attachedtemplate/) шаблон.
+Это свойство используется[`FieldAutoText`](../../fieldautotext/) и[`FieldGlossary`](../../fieldglossary/) поля, если указанная запись автоматического текста не найдена в[`AttachedTemplate`](../../../aspose.words/document/attachedtemplate/) шаблон.
 
-По умолчанию MS Word хранит встроенные шаблоны в папке c:\Users\&lt;username&gt;\AppData\Roaming\Microsoft\Document Building Blocks\1033\16\Built-In Building Blocks.dotx and C:\Users\&lt;username&gt;\ Файлы AppData\Roaming\Microsoft\Templates\Normal.dotm.
+По умолчанию MS Word хранит встроенные шаблоны в папках c:\Users\&lt;имя пользователя&gt;\AppData\Roaming\Microsoft\Document Building Blocks\1033\16\Built-In Building Blocks.dotx и C:\Users\&lt;имя пользователя&gt;\. Файлы AppData\Roaming\Microsoft\Templates\Normal.dotm.
 
 ### Примеры
 
@@ -27,7 +27,7 @@ public string[] BuiltInTemplatesPaths { get; set; }
 ```csharp
 Document doc = new Document();
 
-// Создайте глоссарий и добавьте в него стандартный блок автотекста.
+// Создаем документ глоссария и добавляем в него стандартный блок автотекста.
 doc.GlossaryDocument = new GlossaryDocument();
 BuildingBlock buildingBlock = new BuildingBlock(doc.GlossaryDocument);
 buildingBlock.Name = "MyBlock";
@@ -37,7 +37,7 @@ buildingBlock.Description = "MyBlock description";
 buildingBlock.Behavior = BuildingBlockBehavior.Paragraph;
 doc.GlossaryDocument.AppendChild(buildingBlock);
 
-// Создадим источник и добавим его как текст в наш строительный блок.
+// Создаем источник и добавляем его в виде текста в наш строительный блок.
 Document buildingBlockSource = new Document();
 DocumentBuilder buildingBlockSourceBuilder = new DocumentBuilder(buildingBlockSource);
 buildingBlockSourceBuilder.Writeln("Hello World!");
@@ -45,19 +45,19 @@ buildingBlockSourceBuilder.Writeln("Hello World!");
 Node buildingBlockContent = doc.GlossaryDocument.ImportNode(buildingBlockSource.FirstSection, true);
 buildingBlock.AppendChild(buildingBlockContent);
 
-// Установить файл, который содержит части, которые наш документ или прикрепленный к нему шаблон могут не содержать.
+// Устанавливаем файл, содержащий части, которые не могут содержаться в нашем документе или прикрепленном к нему шаблоне.
 doc.FieldOptions.BuiltInTemplatesPaths = new[] { MyDir + "Busniess brochure.dotx" };
 
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Ниже приведены два способа использования полей для отображения содержимого нашего стандартного блока.
+// Ниже приведены два способа использования полей для отображения содержимого нашего строительного блока.
 // 1 - Использование поля АВТОТЕКСТ:
 FieldAutoText fieldAutoText = (FieldAutoText)builder.InsertField(FieldType.FieldAutoText, true);
 fieldAutoText.EntryName = "MyBlock";
 
 Assert.AreEqual(" AUTOTEXT  MyBlock", fieldAutoText.GetFieldCode());
 
-// 2 - Использование поля ГЛОССАРИЙ:
+// 2 – Использование поля ГЛОССАРИЙ:
 FieldGlossary fieldGlossary = (FieldGlossary)builder.InsertField(FieldType.FieldGlossary, true);
 fieldGlossary.EntryName = "MyBlock";
 

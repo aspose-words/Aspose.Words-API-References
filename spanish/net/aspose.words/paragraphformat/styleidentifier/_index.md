@@ -3,7 +3,7 @@ title: ParagraphFormat.StyleIdentifier
 second_title: Referencia de API de Aspose.Words para .NET
 description: ParagraphFormat propiedad. Obtiene o establece el identificador de estilo independiente de la configuración regional del estilo de párrafo aplicado a este formato.
 type: docs
-weight: 340
+weight: 350
 url: /es/net/aspose.words/paragraphformat/styleidentifier/
 ---
 ## ParagraphFormat.StyleIdentifier property
@@ -16,21 +16,21 @@ public StyleIdentifier StyleIdentifier { get; set; }
 
 ### Ejemplos
 
-Muestra cómo insertar una tabla de contenido (TOC) en un documento utilizando estilos de título como entradas.
+Muestra cómo insertar una tabla de contenido (TOC) en un documento utilizando estilos de encabezado como entradas.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Inserta una tabla de contenido para la primera página del documento.
-// Configure la tabla para recoger párrafos con encabezados de niveles 1 a 3.
-// Además, configure sus entradas para que sean hipervínculos que nos llevarán
-// a la ubicación del encabezado cuando se hace clic con el botón izquierdo en Microsoft Word.
+// Insertar una tabla de contenido para la primera página del documento.
+// Configurar la tabla para recoger párrafos con títulos de niveles 1 a 3.
+// Además, configura sus entradas para que sean hipervínculos que nos llevarán
+// a la ubicación del encabezado cuando se hace clic izquierdo en Microsoft Word.
 builder.InsertTableOfContents("\\o \"1-3\" \\h \\z \\u");
 builder.InsertBreak(BreakType.PageBreak);
 
 // Complete la tabla de contenido agregando párrafos con estilos de encabezado.
-// Cada encabezado con un nivel entre 1 y 3 creará una entrada en la tabla.
+// Cada uno de estos encabezados con un nivel entre 1 y 3 creará una entrada en la tabla.
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
 builder.Writeln("Heading 1");
 

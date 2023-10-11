@@ -3,7 +3,7 @@ title: ChartAxis.Type
 second_title: Référence de l'API Aspose.Words pour .NET
 description: ChartAxis propriété. Renvoie le type de laxe.
 type: docs
-weight: 260
+weight: 290
 url: /fr/net/aspose.words.drawing.charts/chartaxis/type/
 ---
 ## ChartAxis.Type property
@@ -16,22 +16,23 @@ public ChartAxisType Type { get; }
 
 ### Exemples
 
-Montre comment créer un type de série de graphiques approprié pour un type de graphique.
+Montre comment créer un type approprié de série de graphiques pour un type de graphique.
 
 ```csharp
+public void ChartSeriesCollection()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
     // Il existe plusieurs façons de remplir la collection de séries d'un graphique.
-    // Différents schémas de série sont destinés à différents types de graphiques.
-    // 1 - Diagramme à colonnes avec colonnes regroupées et regroupées le long de l'axe X par catégorie :
+    // Différents schémas de séries sont destinés à différents types de graphiques.
+    // 1 - Diagramme à colonnes avec des colonnes regroupées et regroupées le long de l'axe X par catégorie :
     Chart chart = AppendChart(builder, ChartType.Column, 500, 300);
 
     string[] categories = { "Category 1", "Category 2", "Category 3" };
 
     // Insère deux séries de valeurs décimales contenant une valeur pour chaque catégorie respective.
-    // Ce graphique à colonnes aura trois groupes, chacun avec deux colonnes.
+    // Cet histogramme aura trois groupes, chacun avec deux colonnes.
     chart.Series.Add("Series 1", categories, new [] { 76.6, 82.1, 91.6 });
     chart.Series.Add("Series 2", categories, new [] { 64.2, 79.5, 94.0 });
 
@@ -39,7 +40,7 @@ Montre comment créer un type de série de graphiques approprié pour un type de
     Assert.AreEqual(ChartAxisType.Category, chart.AxisX.Type);
     Assert.AreEqual(ChartAxisType.Value, chart.AxisY.Type);
 
-    // 2 - Graphique en aires avec des dates réparties sur l'axe des abscisses :
+    // 2 - Graphique en aires avec dates réparties le long de l'axe X :
     chart = AppendChart(builder, ChartType.Area, 500, 300);
 
     DateTime[] dates = { new DateTime(2014, 3, 31),
@@ -50,7 +51,7 @@ Montre comment créer un type de série de graphiques approprié pour un type de
     };
 
     // Insère une série avec une valeur décimale pour chaque date respective.
-    // Les dates seront distribuées le long d'un axe X linéaire,
+    // Les dates seront réparties le long d'un axe X linéaire,
     // et les valeurs ajoutées à cette série créeront des points de données.
     chart.Series.Add("Series 1", dates, new [] { 15.8, 21.5, 22.9, 28.7, 33.1 });
 
@@ -62,7 +63,7 @@ Montre comment créer un type de série de graphiques approprié pour un type de
 
     // Chaque série aura besoin de deux tableaux décimaux de longueur égale.
     // Le premier tableau contient les valeurs X et le second contient les valeurs Y correspondantes
-    // de points de données sur le graphique du graphique.
+    // des points de données sur le graphique du graphique.
     chart.Series.Add("Series 1", 
         new[] { 3.1, 3.5, 6.3, 4.1, 2.2, 8.3, 1.2, 3.6 }, 
         new[] { 3.1, 6.3, 4.6, 0.9, 8.5, 4.2, 2.3, 9.9 });
@@ -73,7 +74,7 @@ Montre comment créer un type de série de graphiques approprié pour un type de
     Assert.AreEqual(ChartAxisType.Value, chart.AxisX.Type);
     Assert.AreEqual(ChartAxisType.Value, chart.AxisY.Type);
 
-    // 4 - Graphique à bulles :
+    // 4 - Graphique à bulles :
     chart = AppendChart(builder, ChartType.Bubble, 500, 300);
 
     // Chaque série aura besoin de trois tableaux décimaux de longueur égale.
@@ -88,7 +89,7 @@ Montre comment créer un type de série de graphiques approprié pour un type de
 }
 
 /// <summary>
-/// Insérez un graphique à l'aide d'un générateur de document d'un ChartType, d'une largeur et d'une hauteur spécifiés, et supprimez ses données de démonstration.
+/// Insère un graphique à l'aide d'un générateur de documents d'un ChartType, d'une largeur et d'une hauteur spécifiés, et supprime ses données de démonstration.
 /// </summary>
 private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, double width, double height)
 {

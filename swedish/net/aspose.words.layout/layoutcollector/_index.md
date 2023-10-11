@@ -3,12 +3,14 @@ title: Class LayoutCollector
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Layout.LayoutCollector klass. Denna klass gör det möjligt att beräkna sidnummer för dokumentnoder.
 type: docs
-weight: 3120
+weight: 3320
 url: /sv/net/aspose.words.layout/layoutcollector/
 ---
 ## LayoutCollector class
 
 Denna klass gör det möjligt att beräkna sidnummer för dokumentnoder.
+
+För att lära dig mer, besök[Konvertera till fastsidesformat](https://docs.aspose.com/words/net/converting-to-fixed-page-format/) dokumentationsartikel.
 
 ```csharp
 public class LayoutCollector
@@ -38,11 +40,11 @@ public class LayoutCollector
 
 ### Anmärkningar
 
-När du skapar en`LayoutCollector` och ange a[`Document`](../../aspose.words/document/)dokumentobjekt att bifoga till, samlaren kommer att spela in mappning av dokumentnoder till layoutobjekt när dokumentet formateras till sidor.
+När du skapar en`LayoutCollector` och ange a[`Document`](../../aspose.words/document/) dokumentobjekt att bifoga till, samlaren kommer att spela in mappning av dokumentnoder till layoutobjekt när dokumentet formateras till sidor.
 
-Du kommer att kunna ta reda på vilken sida en viss dokumentnod (t.ex. körning, stycke eller tabellcell) finns genom att använda[`GetStartPageIndex`](./getstartpageindex/) ,[`GetEndPageIndex`](./getendpageindex/) och[`GetNumPagesSpanned`](./getnumpagesspanned/) metoder. Dessa metoder bygger automatiskt en sidlayoutmodell av dokumentet och uppdaterar fält om det behövs.
+Du kommer att kunna ta reda på vilken sida en viss dokumentnod (t.ex. körning, stycke eller tabellcell) finns genom att använda[`GetStartPageIndex`](./getstartpageindex/) ,[`GetEndPageIndex`](./getendpageindex/) och[`GetNumPagesSpanned`](./getnumpagesspanned/)metoder. Dessa metoder bygger automatiskt en sidlayoutmodell av dokumentet och uppdaterar fält om det behövs.
 
-När du inte längre behöver samla in layoutinformation är det bäst att ställa in[`Document`](./document/) egenskapen till null för att undvika onödig insamling av fler layoutmappningar.
+När du inte längre behöver samla in layoutinformation är det bäst att ställa in[`Document`](./document/) egendom till`null` för att undvika onödig insamling av fler layoutmappningar.
 
 ### Exempel
 

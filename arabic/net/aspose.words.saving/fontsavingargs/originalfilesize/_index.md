@@ -1,14 +1,14 @@
 ---
 title: FontSavingArgs.OriginalFileSize
 second_title: Aspose.Words لمراجع .NET API
-description: FontSavingArgs ملكية. يحصل على حجم ملف الخط الأصلي.
+description: FontSavingArgs ملكية. الحصول على حجم ملف الخط الأصلي.
 type: docs
 weight: 110
 url: /ar/net/aspose.words.saving/fontsavingargs/originalfilesize/
 ---
 ## FontSavingArgs.OriginalFileSize property
 
-يحصل على حجم ملف الخط الأصلي.
+الحصول على حجم ملف الخط الأصلي.
 
 ```csharp
 public int OriginalFileSize { get; }
@@ -16,25 +16,26 @@ public int OriginalFileSize { get; }
 
 ### ملاحظات
 
-تحتوي هذه الخاصية على حجم الملف الأصلي للخط الحالي إذا كان معروفًا. وإلا يمكن أن يكون صفرًا.
+تحتوي هذه الخاصية على حجم الملف الأصلي للخط الحالي إذا كان معروفًا. وإلا فإنه يمكن أن يكون صفر.
 
 ### أمثلة
 
-يوضح كيفية تحديد منطق مخصص لتصدير الخطوط عند الحفظ بتنسيق HTML.
+يوضح كيفية تحديد المنطق المخصص لتصدير الخطوط عند الحفظ إلى HTML.
 
 ```csharp
+public void SaveExportedFonts()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
     // تكوين كائن SaveOptions لتصدير الخطوط إلى ملفات منفصلة.
-    // تعيين رد اتصال يعالج حفظ الخط بطريقة مخصصة.
+    // قم بتعيين رد اتصال يتعامل مع حفظ الخط بطريقة مخصصة.
     HtmlSaveOptions options = new HtmlSaveOptions
     {
         ExportFontResources = true,
         FontSavingCallback = new HandleFontSaving()
     };
 
-    // ستصدر رد النداء ملفات .ttf وحفظها بجانب المستند الناتج.
+    // سيقوم رد الاتصال بتصدير ملفات .ttf وحفظها بجانب المستند الناتج.
     doc.Save(ArtifactsDir + "HtmlSaveOptions.SaveExportedFonts.html", options);
 
     foreach (string fontFilename in Array.FindAll(Directory.GetFiles(ArtifactsDir), s => s.EndsWith(".ttf")))
@@ -42,8 +43,10 @@ public int OriginalFileSize { get; }
         Console.WriteLine(fontFilename);
     }
 
+}
+
 /// <summary>
-/// يطبع معلومات حول الخطوط المصدرة ويحفظها في نفس مجلد النظام المحلي مثل إخراجها .html.
+/// يطبع معلومات حول الخطوط المصدرة ويحفظها في نفس مجلد النظام المحلي مثل مخرجاتها .html.
 /// </summary>
 public class HandleFontSaving : IFontSavingCallback
 {
@@ -60,11 +63,11 @@ public class HandleFontSaving : IFontSavingCallback
         Assert.True(args.IsExportNeeded);
         Assert.True(args.IsSubsettingNeeded);
 
-        // هناك طريقتان لحفظ الخط الذي تم تصديره.
-        // 1 - احفظه في موقع نظام ملفات محلي:
+        // هناك طريقتان لحفظ الخط المُصدَّر.
+        // 1 - احفظه في موقع نظام الملفات المحلي:
         args.FontFileName = args.OriginalFileName.Split(Path.DirectorySeparatorChar).Last();
 
-        // 2 - احفظه في دفق:
+        // 2 - احفظه في الدفق:
         args.FontStream =
             new FileStream(ArtifactsDir + args.OriginalFileName.Split(Path.DirectorySeparatorChar).Last(), FileMode.Create);
         Assert.False(args.KeepFontStreamOpen);

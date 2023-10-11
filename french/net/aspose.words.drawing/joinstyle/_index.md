@@ -3,7 +3,7 @@ title: Enum JoinStyle
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Aspose.Words.Drawing.JoinStyle énumération. Style de jointure de ligne.
 type: docs
-weight: 960
+weight: 1090
 url: /fr/net/aspose.words.drawing/joinstyle/
 ---
 ## JoinStyle enumeration
@@ -20,11 +20,11 @@ public enum JoinStyle
 | --- | --- | --- |
 | Bevel | `0` | Joindre les bords par une ligne droite. |
 | Miter | `1` | Étendre les bords jusqu'à ce qu'ils se rejoignent. |
-| Round | `2` | Dessinez un arc entre les deux arêtes. |
+| Round | `2` | Tracez un arc entre les deux bords. |
 
 ### Exemples
 
-Spectacles pour créer une variété de formes.
+Montre pour créer une variété de formes.
 
 ```csharp
 Document doc = new Document();
@@ -49,7 +49,7 @@ Assert.AreEqual(JoinStyle.Miter, arrow.Stroke.JoinStyle);
 
 builder.InsertNode(arrow);
 
-// 2 - Ligne diagonale noire épaisse aux extrémités arrondies :
+// 2 - Ligne diagonale noire épaisse aux extrémités arrondies :
 Shape line = new Shape(doc, ShapeType.Line);
 line.Top = 40;
 line.Width = 200;
@@ -59,7 +59,7 @@ line.Stroke.EndCap = EndCap.Round;
 
 builder.InsertNode(line);
 
-// 3 - Flèche avec un remplissage vert :
+// 3 - Flèche avec un remplissage vert :
 Shape filledInArrow = new Shape(doc, ShapeType.Arrow);
 filledInArrow.Width = 200;
 filledInArrow.Height = 40;
@@ -69,7 +69,7 @@ filledInArrow.Fill.Visible = true;
 
 builder.InsertNode(filledInArrow);
 
-// 4 - Flèche d'orientation renversée remplie du logo Aspose :
+// 4 - Flèche d'orientation inversée remplie du logo Aspose :
 Shape filledInArrowImg = new Shape(doc, ShapeType.Arrow);
 filledInArrowImg.Width = 200;
 filledInArrowImg.Height = 40;
@@ -82,7 +82,7 @@ using (MemoryStream stream = new MemoryStream(imageBytes))
 {
     Image image = Image.FromStream(stream);
     // Lorsque nous inversons l'orientation de notre flèche, nous inversons également l'image que contient la flèche.
-    // Retournez l'image dans l'autre sens pour annuler cela avant d'obtenir la forme pour l'afficher.
+    // Retournez l'image dans l'autre sens pour l'annuler avant que la forme ne l'affiche.
     image.RotateFlip(RotateFlipType.RotateNoneFlipXY);
 
     filledInArrowImg.ImageData.SetImage(image);

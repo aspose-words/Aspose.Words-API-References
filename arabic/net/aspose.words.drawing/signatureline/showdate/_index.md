@@ -1,14 +1,14 @@
 ---
 title: SignatureLine.ShowDate
 second_title: Aspose.Words لمراجع .NET API
-description: SignatureLine ملكية. الحصول على أو تعيين قيمة تشير إلى أن تاريخ التوقيع يظهر في سطر التوقيع. القيمة الافتراضية لهذه الخاصية هي حقيقي .
+description: SignatureLine ملكية. الحصول على أو تعيين قيمة تشير إلى أن تاريخ التوقيع يظهر في سطر التوقيع. القيمة الافتراضية لهذه الخاصية هيحقيقي .
 type: docs
 weight: 90
 url: /ar/net/aspose.words.drawing/signatureline/showdate/
 ---
 ## SignatureLine.ShowDate property
 
-الحصول على أو تعيين قيمة تشير إلى أن تاريخ التوقيع يظهر في سطر التوقيع. القيمة الافتراضية لهذه الخاصية هي **حقيقي** .
+الحصول على أو تعيين قيمة تشير إلى أن تاريخ التوقيع يظهر في سطر التوقيع. القيمة الافتراضية لهذه الخاصية هي`حقيقي` .
 
 ```csharp
 public bool ShowDate { get; set; }
@@ -33,16 +33,16 @@ SignatureLineOptions options = new SignatureLineOptions
     SignerTitle = "Senior Manager"
 };
 
-// أدخل شكلًا يحتوي على سطر توقيع ، سنظهر مظهره
-// تخصيص باستخدام كائن "SignatureLineOptions" الذي أنشأناه أعلاه.
-// إذا أدخلنا شكلًا تنشأ إحداثياته في الركن الأيمن السفلي من الصفحة ،
-// سنحتاج إلى توفير إحداثيات سالبة س و ص لإبراز الشكل.
+// قم بإدراج شكل يحتوي على سطر التوقيع، وسنقوم بمظهره
+// التخصيص باستخدام كائن "SignatureLineOptions" الذي أنشأناه أعلاه.
+// إذا قمنا بإدراج شكل تقع إحداثياته في الركن الأيمن السفلي من الصفحة،
+// سنحتاج إلى توفير إحداثيات x وy السالبة لعرض الشكل.
 Shape shape = builder.InsertSignatureLine(options, RelativeHorizontalPosition.RightMargin, -170.0, 
         RelativeVerticalPosition.BottomMargin, -60.0, WrapType.None);
 
 Assert.True(shape.IsSignatureLine);
 
-// تحقق من خصائص خط التوقيع الخاص بنا عبر كائن الشكل الخاص به.
+// التحقق من خصائص خط التوقيع الخاص بنا عبر كائن الشكل الخاص به.
 SignatureLine signatureLine = shape.SignatureLine;
 
 Assert.AreEqual("john.doe@management.com", signatureLine.Email);

@@ -20,19 +20,19 @@ public void Load(string fileName)
 
 ### Örnekler
 
-Yerel dosya sistemindeki bir XML belgesine/bir XML belgesinden yazı tipi yedek ayarlarının nasıl yükleneceğini ve kaydedileceğini gösterir.
+Yazı tipi geri dönüş ayarlarının yerel dosya sistemindeki bir XML belgesine/bir XML belgesinden nasıl yükleneceğini ve kaydedileceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// Bir dizi yazı tipi yedek ayarını tanımlayan bir XML belgesi yükleyin.
+// Bir dizi yazı tipi geri dönüş ayarını tanımlayan bir XML belgesi yükleyin.
 FontSettings fontSettings = new FontSettings();
 fontSettings.FallbackSettings.Load(MyDir + "Font fallback rules.xml");
 
 doc.FontSettings = fontSettings;
 doc.Save(ArtifactsDir + "FontSettings.LoadFontFallbackSettingsFromFile.pdf");
 
-// Belgemizin mevcut yazı tipi yedek ayarlarını bir XML belgesi olarak kaydedin.
+// Belgemizin mevcut yazı tipi yedek ayarlarını XML belgesi olarak kaydedin.
 doc.FontSettings.FallbackSettings.Save(ArtifactsDir + "FallbackSettings.xml");
 ```
 
@@ -46,7 +46,7 @@ doc.FontSettings.FallbackSettings.Save(ArtifactsDir + "FallbackSettings.xml");
 
 ## Load(Stream) {#load}
 
-XML akışından yedek ayarları yükler.
+XML akışından geri dönüş ayarlarını yükler.
 
 ```csharp
 public void Load(Stream stream)
@@ -58,12 +58,12 @@ public void Load(Stream stream)
 
 ### Örnekler
 
-Bir akışa/akıştan yazı tipi yedek ayarlarının nasıl yükleneceğini ve kaydedileceğini gösterir.
+Yazı tipi geri dönüş ayarlarının bir akışa nasıl yüklenip kaydedileceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// Bir dizi yazı tipi yedek ayarını tanımlayan bir XML belgesi yükleyin.
+// Bir dizi yazı tipi geri dönüş ayarını tanımlayan bir XML belgesi yükleyin.
 using (FileStream fontFallbackStream = new FileStream(MyDir + "Font fallback rules.xml", FileMode.Open))
 {
     FontSettings fontSettings = new FontSettings();
@@ -74,7 +74,7 @@ using (FileStream fontFallbackStream = new FileStream(MyDir + "Font fallback rul
 
 doc.Save(ArtifactsDir + "FontSettings.LoadFontFallbackSettingsFromStream.pdf");
 
-// Belgemizin mevcut yazı tipi yedek ayarlarını bir XML belgesi olarak kaydetmek için bir akış kullanın.
+// Belgemizin mevcut yazı tipi geri dönüş ayarlarını XML belgesi olarak kaydetmek için bir akış kullanın.
 using (FileStream fontFallbackStream =
     new FileStream(ArtifactsDir + "FallbackSettings.xml", FileMode.Create))
 {

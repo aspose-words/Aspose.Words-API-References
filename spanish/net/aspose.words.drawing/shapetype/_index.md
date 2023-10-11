@@ -3,7 +3,7 @@ title: Enum ShapeType
 second_title: Referencia de API de Aspose.Words para .NET
 description: Aspose.Words.Drawing.ShapeType enumeración. Especifica el tipo de forma en un documento de Microsoft Word.
 type: docs
-weight: 1140
+weight: 1290
 url: /es/net/aspose.words.drawing/shapetype/
 ---
 ## ShapeType enumeration
@@ -19,7 +19,7 @@ public enum ShapeType
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
 | Image | `75` | La forma es una imagen. |
-| TextBox | `202` | La forma es un cuadro de texto. Tenga en cuenta que las formas de muchos otros tipos también pueden tener texto dentro de ellas. Una forma no tiene que tener este tipo para contener texto. |
+| TextBox | `202` | La forma es un cuadro de texto. Tenga en cuenta que las formas de muchos otros tipos también pueden tener texto dentro. Una forma no tiene que tener este tipo para contener texto. |
 | Group | `-1` | La forma es una forma de grupo. |
 | OleObject | `-2` | La forma es un objeto OLE. |
 | OleControl | `201` | La forma es un control ActiveX. |
@@ -158,46 +158,46 @@ public enum ShapeType
 | FlowChartMagneticDrum | `133` |  |
 | FlowChartDisplay | `134` |  |
 | FlowChartDelay | `135` |  |
-| TextPlainText | `136` | objeto WordArt. |
-| TextStop | `137` | objeto WordArt. |
-| TextTriangle | `138` | objeto WordArt. |
-| TextTriangleInverted | `139` | objeto WordArt. |
-| TextChevron | `140` | objeto WordArt. |
-| TextChevronInverted | `141` | objeto WordArt. |
-| TextRingInside | `142` | objeto WordArt. |
-| TextRingOutside | `143` | objeto WordArt. |
-| TextArchUpCurve | `144` | objeto WordArt. |
-| TextArchDownCurve | `145` | objeto WordArt. |
-| TextCircleCurve | `146` | objeto WordArt. |
-| TextButtonCurve | `147` | objeto WordArt. |
-| TextArchUpPour | `148` | objeto WordArt. |
-| TextArchDownPour | `149` | objeto WordArt. |
-| TextCirclePour | `150` | objeto WordArt. |
-| TextButtonPour | `151` | objeto WordArt. |
-| TextCurveUp | `152` | objeto WordArt. |
-| TextCurveDown | `153` | objeto WordArt. |
-| TextCascadeUp | `154` | objeto WordArt. |
-| TextCascadeDown | `155` | objeto WordArt. |
-| TextWave1 | `156` | objeto WordArt. |
-| TextWave2 | `157` | objeto WordArt. |
-| TextWave3 | `158` | objeto WordArt. |
-| TextWave4 | `159` | objeto WordArt. |
-| TextInflate | `160` | objeto WordArt. |
-| TextDeflate | `161` | objeto WordArt. |
-| TextInflateBottom | `162` | objeto WordArt. |
-| TextDeflateBottom | `163` | objeto WordArt. |
-| TextInflateTop | `164` | objeto WordArt. |
-| TextDeflateTop | `165` | objeto WordArt. |
-| TextDeflateInflate | `166` | objeto WordArt. |
-| TextDeflateInflateDeflate | `167` | objeto WordArt. |
-| TextFadeRight | `168` | objeto WordArt. |
-| TextFadeLeft | `169` | objeto WordArt. |
-| TextFadeUp | `170` | objeto WordArt. |
-| TextFadeDown | `171` | objeto WordArt. |
-| TextSlantUp | `172` | objeto WordArt. |
-| TextSlantDown | `173` | objeto WordArt. |
-| TextCanUp | `174` | objeto WordArt. |
-| TextCanDown | `175` | objeto WordArt. |
+| TextPlainText | `136` | Objeto de WordArt. |
+| TextStop | `137` | Objeto de WordArt. |
+| TextTriangle | `138` | Objeto de WordArt. |
+| TextTriangleInverted | `139` | Objeto de WordArt. |
+| TextChevron | `140` | Objeto de WordArt. |
+| TextChevronInverted | `141` | Objeto de WordArt. |
+| TextRingInside | `142` | Objeto de WordArt. |
+| TextRingOutside | `143` | Objeto de WordArt. |
+| TextArchUpCurve | `144` | Objeto de WordArt. |
+| TextArchDownCurve | `145` | Objeto de WordArt. |
+| TextCircleCurve | `146` | Objeto de WordArt. |
+| TextButtonCurve | `147` | Objeto de WordArt. |
+| TextArchUpPour | `148` | Objeto de WordArt. |
+| TextArchDownPour | `149` | Objeto de WordArt. |
+| TextCirclePour | `150` | Objeto de WordArt. |
+| TextButtonPour | `151` | Objeto de WordArt. |
+| TextCurveUp | `152` | Objeto de WordArt. |
+| TextCurveDown | `153` | Objeto de WordArt. |
+| TextCascadeUp | `154` | Objeto de WordArt. |
+| TextCascadeDown | `155` | Objeto de WordArt. |
+| TextWave1 | `156` | Objeto de WordArt. |
+| TextWave2 | `157` | Objeto de WordArt. |
+| TextWave3 | `158` | Objeto de WordArt. |
+| TextWave4 | `159` | Objeto de WordArt. |
+| TextInflate | `160` | Objeto de WordArt. |
+| TextDeflate | `161` | Objeto de WordArt. |
+| TextInflateBottom | `162` | Objeto de WordArt. |
+| TextDeflateBottom | `163` | Objeto de WordArt. |
+| TextInflateTop | `164` | Objeto de WordArt. |
+| TextDeflateTop | `165` | Objeto de WordArt. |
+| TextDeflateInflate | `166` | Objeto de WordArt. |
+| TextDeflateInflateDeflate | `167` | Objeto de WordArt. |
+| TextFadeRight | `168` | Objeto de WordArt. |
+| TextFadeLeft | `169` | Objeto de WordArt. |
+| TextFadeUp | `170` | Objeto de WordArt. |
+| TextFadeDown | `171` | Objeto de WordArt. |
+| TextSlantUp | `172` | Objeto de WordArt. |
+| TextSlantDown | `173` | Objeto de WordArt. |
+| TextCanUp | `174` | Objeto de WordArt. |
+| TextCanDown | `175` | Objeto de WordArt. |
 | FlowChartAlternateProcess | `176` |  |
 | FlowChartOffpageConnector | `177` |  |
 | Callout90 | `178` |  |
@@ -223,12 +223,12 @@ public enum ShapeType
 | ActionButtonDocument | `198` |  |
 | ActionButtonSound | `199` |  |
 | ActionButtonMovie | `200` |  |
-| SingleCornerSnipped | `203` | Cortar objeto de rectángulo de una sola esquina. |
-| TopCornersSnipped | `204` | Recorte el rectángulo de la esquina del mismo lado. |
-| DiagonalCornersSnipped | `205` | Rectángulo de esquina diagonal de corte. |
-| TopCornersOneRoundedOneSnipped | `206` | Recorte y redondee el rectángulo de una sola esquina. |
+| SingleCornerSnipped | `203` | Recortar objeto rectángulo de una sola esquina. |
+| TopCornersSnipped | `204` | Recorta el rectángulo de la esquina del mismo lado. |
+| DiagonalCornersSnipped | `205` | Recortar rectángulo de esquina diagonal. |
+| TopCornersOneRoundedOneSnipped | `206` | Recorta y redondea un rectángulo de una sola esquina. |
 | SingleCornerRounded | `207` | Rectángulo redondo de una sola esquina. |
-| TopCornersRounded | `208` | Rectángulo de esquina redondeado del mismo lado. |
+| TopCornersRounded | `208` | Redondear el rectángulo de la esquina del mismo lado. |
 | DiagonalCornersRounded | `209` | Rectángulo de esquina diagonal redondeada. |
 | Heptagon | `210` | Heptágono. |
 | Cloud | `211` | Nube. |
@@ -236,25 +236,25 @@ public enum ShapeType
 | Seal7 | `213` | Estrella de siete puntas. |
 | Seal10 | `214` | Estrella de diez puntas. |
 | Seal12 | `215` | Estrella de doce puntas. |
-| SwooshArrow | `216` | Flecha Swoosh. |
+| SwooshArrow | `216` | Flecha swoosh. |
 | Teardrop | `217` | Lágrima. |
 | SquareTabs | `218` | Pestañas cuadradas. |
-| PlaqueTabs | `219` | Pestañas placa. |
-| Pie | `220` | Pie. |
+| PlaqueTabs | `219` | Pestañas de placa. |
+| Pie | `220` | Pastel. |
 | WedgePie | `221` | Pastel de cuña. |
 | InverseLine | `222` | Línea inversa. |
-| MathPlus | `223` | Más matemáticas. |
+| MathPlus | `223` | Matemáticas más. |
 | MathMinus | `224` | Matemáticas menos. |
 | MathMultiply | `225` | Multiplicación matemática. |
 | MathDivide | `226` | División matemática. |
-| MathEqual | `227` | Igualdad matemática. |
+| MathEqual | `227` | Matemáticas igual. |
 | MathNotEqual | `228` | Matemáticas no iguales. |
 | NonIsoscelesTrapezoid | `229` | Trapezoide no isósceles. |
 | LeftRightCircularArrow | `230` | Flecha circular izquierda-derecha. |
 | LeftRightRibbon | `231` | Cinta izquierda-derecha. |
 | LeftCircularArrow | `232` | Flecha circular izquierda. |
-| Frame | `233` | Cuadro. |
-| HalfFrame | `234` | Medio cuadro. |
+| Frame | `233` | Marco. |
+| HalfFrame | `234` | Medio fotograma. |
 | Funnel | `235` | Embudo. |
 | Gear6 | `236` | Engranaje de seis dientes. |
 | Gear9 | `237` | Engranaje de nueve dientes. |
@@ -277,7 +277,7 @@ Muestra cómo insertar una forma con una imagen del sistema de archivos local en
 Document doc = new Document();
 
 // El constructor público de la clase "Shape" creará una forma con el tipo de marcado "ShapeMarkupLanguage.Vml".
-// Si necesita crear una forma de un tipo no primitivo, como SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
+// Si necesita crear una forma de tipo no primitivo, como SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
 // TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded o DiagonalCornersRounded,
 // utilice DocumentBuilder.InsertShape.
 Shape shape = new Shape(doc, ShapeType.Image);
@@ -305,10 +305,10 @@ builder.InsertShape(ShapeType.Cloud, RelativeHorizontalPosition.RightMargin, 0,
 builder.InsertShape(ShapeType.MathPlus, RelativeHorizontalPosition.RightMargin, 0,
     RelativeVerticalPosition.Page, 0, 0, 0, WrapType.None);
 
-// Para corregir la identificación de tipos de formas, debe trabajar con formas como DML.
+// Para corregir la identificación de tipos de formas, necesita trabajar con formas como DML.
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(SaveFormat.Docx)
 {
-    // El cumplimiento "Estricto" o "Transicional" permite guardar la forma como DML.
+    // El cumplimiento "estricto" o "transicional" permite guardar la forma como DML.
     Compliance = OoxmlCompliance.Iso29500_2008_Transitional
 };
 

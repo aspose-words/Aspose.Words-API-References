@@ -3,7 +3,7 @@ title: Enum MultiplePagesType
 second_title: Aspose.Words for .NET API Referansı
 description: Aspose.Words.Settings.MultiplePagesType Sıralama. Belgenin nasıl yazdırılacağını belirtir.
 type: docs
-weight: 5570
+weight: 5870
 url: /tr/net/aspose.words.settings/multiplepagestype/
 ---
 ## MultiplePagesType enumeration
@@ -18,12 +18,12 @@ public enum MultiplePagesType
 
 | İsim | Değer | Tanım |
 | --- | --- | --- |
-| Normal | `0` | Normal yazdırma, birden fazla sayfa belirtilmedi. |
+| Normal | `0` | Normal yazdırma, birden fazla sayfa belirtilmemiş. |
 | MirrorMargins | `1` | Karşılıklı sayfalarda sol ve sağ kenar boşluklarını değiştirir. |
 | TwoPagesPerSheet | `2` | Yaprak başına iki sayfa yazdırır. |
 | BookFoldPrinting | `3` | Belgenin kitap katlama olarak yazdırılıp yazdırılmayacağını belirtir. |
-| BookFoldPrintingReverse | `4` | Belgenin ters kitap katı olarak yazdırılıp yazdırılmayacağını belirtir. |
-| Default | `0` | Varsayılan değerNormal |
+| BookFoldPrintingReverse | `4` | Belgenin ters kitap katlama olarak yazdırılıp yazdırılmayacağını belirtir. |
+| Default | `0` | Varsayılan değer:Normal |
 
 ### Ayrıca bakınız
 

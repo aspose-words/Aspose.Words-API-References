@@ -3,7 +3,7 @@ title: Enum ChartAxisType
 second_title: Aspose.Words for .NET API Referansı
 description: Aspose.Words.Drawing.Charts.ChartAxisType Sıralama. Grafik ekseninin türünü belirtir.
 type: docs
-weight: 620
+weight: 660
 url: /tr/net/aspose.words.drawing.charts/chartaxistype/
 ---
 ## ChartAxisType enumeration
@@ -18,36 +18,37 @@ public enum ChartAxisType
 
 | İsim | Değer | Tanım |
 | --- | --- | --- |
-| Category | `0` | Bir grafiğin kategori ekseni. |
-| Series | `1` | Bir grafiğin seri ekseni. |
-| Value | `2` | Bir grafiğin değer ekseni. |
+| Category | `0` | Grafiğin kategori ekseni. |
+| Series | `1` | Grafiğin seri ekseni. |
+| Value | `2` | Grafiğin değer ekseni. |
 
 ### Örnekler
 
-Bir grafik türü için uygun bir grafik serisi türünün nasıl oluşturulacağını gösterir.
+Bir grafik türü için uygun türde bir grafik serisinin nasıl oluşturulacağını gösterir.
 
 ```csharp
+public void ChartSeriesCollection()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
     // Bir grafiğin seri koleksiyonunu doldurmanın birkaç yolu vardır.
-    // Farklı grafik türleri için farklı seri şemaları amaçlanmıştır.
-    // 1 - X ekseni boyunca kategoriye göre gruplandırılmış ve bantlanmış sütunlara sahip sütun grafiği:
+    // Farklı seri şemaları, farklı grafik türleri için tasarlanmıştır.
+    // 1 - X ekseni boyunca kategoriye göre gruplandırılmış ve şeritlenmiş sütunlara sahip sütun grafiği:
     Chart chart = AppendChart(builder, ChartType.Column, 500, 300);
 
     string[] categories = { "Category 1", "Category 2", "Category 3" };
 
-    // Her ilgili kategori için bir değer içeren iki dizi ondalık değer girin.
-    // Bu sütun grafiği, her biri iki sütunlu üç gruba sahip olacaktır.
+    // İlgili her kategori için bir değer içeren iki ondalık değer serisi ekleyin.
+    // Bu sütun grafiğinde her biri iki sütunlu üç grup bulunacaktır.
     chart.Series.Add("Series 1", categories, new [] { 76.6, 82.1, 91.6 });
     chart.Series.Add("Series 2", categories, new [] { 64.2, 79.5, 94.0 });
 
-    // Kategoriler X ekseni boyunca dağıtılır ve değerler Y ekseni boyunca dağıtılır.
+    // Kategoriler X ekseni boyunca, değerler ise Y ekseni boyunca dağıtılır.
     Assert.AreEqual(ChartAxisType.Category, chart.AxisX.Type);
     Assert.AreEqual(ChartAxisType.Value, chart.AxisY.Type);
 
-    // 2 - Tarihleri X ekseni boyunca dağıtılmış alan grafiği:
+    // 2 - Tarihlerin X ekseni boyunca dağıtıldığı alan grafiği:
     chart = AppendChart(builder, ChartType.Area, 500, 300);
 
     DateTime[] dates = { new DateTime(2014, 3, 31),
@@ -57,7 +58,7 @@ Bir grafik türü için uygun bir grafik serisi türünün nasıl oluşturulaca�
         new DateTime(2020, 9, 7)
     };
 
-    // Her ilgili tarih için ondalık değere sahip bir dizi ekleyin.
+    // İlgili her tarih için ondalık değere sahip bir seri ekleyin.
     // Tarihler doğrusal bir X ekseni boyunca dağıtılacak,
     // ve bu seriye eklenen değerler veri noktaları oluşturacaktır.
     chart.Series.Add("Series 1", dates, new [] { 15.8, 21.5, 22.9, 28.7, 33.1 });
@@ -68,9 +69,9 @@ Bir grafik türü için uygun bir grafik serisi türünün nasıl oluşturulaca�
     // 3 - 2B dağılım grafiği:
     chart = AppendChart(builder, ChartType.Scatter, 500, 300);
 
-    // Her dizi, eşit uzunlukta iki ondalık diziye ihtiyaç duyacaktır.
+    // Her serinin eşit uzunlukta iki ondalık diziye ihtiyacı olacaktır.
     // İlk dizi X değerlerini içerir ve ikincisi karşılık gelen Y değerlerini içerir
-    // grafiğin grafiğindeki veri noktalarının sayısı.
+    // grafiğin grafiğindeki veri noktalarının.
     chart.Series.Add("Series 1", 
         new[] { 3.1, 3.5, 6.3, 4.1, 2.2, 8.3, 1.2, 3.6 }, 
         new[] { 3.1, 6.3, 4.6, 0.9, 8.5, 4.2, 2.3, 9.9 });
@@ -84,9 +85,9 @@ Bir grafik türü için uygun bir grafik serisi türünün nasıl oluşturulaca�
     // 4 - Kabarcık grafiği:
     chart = AppendChart(builder, ChartType.Bubble, 500, 300);
 
-    // Her dizi, eşit uzunlukta üç ondalık diziye ihtiyaç duyacaktır.
+    // Her serinin eşit uzunlukta üç ondalık diziye ihtiyacı olacaktır.
     // İlk dizi X değerlerini içerir, ikincisi karşılık gelen Y değerlerini içerir,
-    // ve üçüncüsü, grafiğin veri noktalarının her biri için çapları içerir.
+    // ve üçüncüsü grafiğin veri noktalarının her biri için çapları içerir.
     chart.Series.Add("Series 1", 
         new [] { 1.1, 5.0, 9.8 }, 
         new [] { 1.2, 4.9, 9.9 }, 
@@ -96,7 +97,7 @@ Bir grafik türü için uygun bir grafik serisi türünün nasıl oluşturulaca�
 }
 
 /// <summary>
-/// Belirtilen ChartType, genişlik ve yüksekliğe sahip bir belge oluşturucu kullanarak bir grafik ekleyin ve demo verilerini kaldırın.
+/// Belirtilen ChartType, genişlik ve yükseklikteki belge oluşturucuyu kullanarak bir grafik ekleyin ve demo verilerini kaldırın.
 /// </summary>
 private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, double width, double height)
 {

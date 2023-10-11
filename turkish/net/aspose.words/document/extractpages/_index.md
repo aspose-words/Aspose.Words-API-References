@@ -1,14 +1,14 @@
 ---
 title: Document.ExtractPages
 second_title: Aspose.Words for .NET API Referansı
-description: Document yöntem. Document belirtilen sayfa aralığını temsil eden nesne.
+description: Document yöntem. Şunu döndürürDocument belirtilen sayfa aralığını temsil eden nesne.
 type: docs
-weight: 580
+weight: 620
 url: /tr/net/aspose.words/document/extractpages/
 ---
 ## Document.ExtractPages method
 
-[`Document`](../) belirtilen sayfa aralığını temsil eden nesne.
+Şunu döndürür:[`Document`](../) belirtilen sayfa aralığını temsil eden nesne.
 
 ```csharp
 public Document ExtractPages(int index, int count)
@@ -16,16 +16,16 @@ public Document ExtractPages(int index, int count)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| index | Int32 | Ayıklanacak ilk sayfanın sıfır tabanlı dizini. |
+| index | Int32 | Çıkarılacak ilk sayfanın sıfır tabanlı dizini. |
 | count | Int32 | Çıkarılacak sayfa sayısı. |
 
 ### Notlar
 
-Ortaya çıkan belge, 'Belirli sayfaları yazdır' işlemini gerçekleştirmişiz gibi MS Word'dekine benzemelidir – numaralandırma, üstbilgiler/altbilgiler ve çapraz tablolar düzeni korunacaktır. Ancak çok sayıda nüans nedeniyle, sayfa sayısını azaltırken, mizanpajın tam eşleşmesi, çok fazla çaba gerektiren sessiz ve karmaşık bir iştir. Belge karmaşıklığına bağlı olarak, kaynak belgeyle karşılaştırıldığında ortaya çıkan belge içeriği düzeninde küçük farklılıklar olabilir. çok takdir edilecektir.
+Ortaya çıkan belge, sanki 'Belirli sayfaları yazdır' işlemini gerçekleştirmişiz gibi MS Word'dekine benzemelidir - numaralandırma, üstbilgiler/altbilgiler ve çapraz tablo düzeni korunacaktır. Ancak çok sayıda nüans nedeniyle, görünen sayfa sayısını azaltırken mizanpajın tam olarak eşleştirilmesi, oldukça fazla çaba gerektiren, oldukça karmaşık bir iştir. Belgenin karmaşıklığına bağlı olarak, ortaya çıkan belge içeriği düzeninde, kaynak belgeyle karşılaştırıldığında küçük farklılıklar olabilir. Herhangi bir geri bildirim, çok takdir ediyorum.
 
 ### Örnekler
 
-Belgeden belirtilen sayfa aralığının nasıl alınacağını gösterir.
+Belgeden belirli aralıktaki sayfaların nasıl alınacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Layout entities.docx");

@@ -3,7 +3,7 @@ title: ImageData.ToImage
 second_title: Aspose.Words för .NET API Referens
 description: ImageData metod. Får bilden lagrad i formen som enImage objekt.
 type: docs
-weight: 220
+weight: 230
 url: /sv/net/aspose.words.drawing/imagedata/toimage/
 ---
 ## ImageData.ToImage method

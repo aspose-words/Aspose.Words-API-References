@@ -16,7 +16,7 @@ public float ImageContrast { get; set; }
 
 ### Osservazioni
 
-Questa proprietà ha effetto solo durante il salvataggio in formati di immagine raster.
+Questa proprietà ha effetto solo quando si salva in formati di immagine raster.
 
 Il valore predefinito è 0,5. Il valore deve essere compreso tra 0 e 1.
 
@@ -33,10 +33,10 @@ builder.Writeln("Hello world!");
 builder.InsertImage(ImageDir + "Logo.jpg");
 
 // Quando salviamo il documento come immagine, possiamo passare un oggetto SaveOptions a
-// modifica l'immagine mentre l'operazione di salvataggio la rende.
+// modifica l'immagine mentre l'operazione di salvataggio ne esegue il rendering.
 ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Png)
 {
-    // Possiamo regolare queste proprietà per cambiare la luminosità e il contrasto dell'immagine.
+    // Possiamo regolare queste proprietà per modificare la luminosità e il contrasto dell'immagine.
     // Entrambi sono su una scala 0-1 e sono a 0,5 per impostazione predefinita.
     ImageBrightness = 0.3f,
     ImageContrast = 0.7f,
@@ -47,8 +47,8 @@ ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Png)
     HorizontalResolution = 72f,
     VerticalResolution = 72f,
 
-    // Possiamo ridimensionare l'immagine usando questa proprietà. Il valore predefinito è 1,0, per un ridimensionamento del 100%.
-    // Possiamo usare questa proprietà per negare qualsiasi cambiamento nelle dimensioni dell'immagine che potrebbe causare la modifica della risoluzione.
+    // Possiamo ridimensionare l'immagine utilizzando questa proprietà. Il valore predefinito è 1,0, per un ridimensionamento del 100%.
+    // Possiamo utilizzare questa proprietà per annullare eventuali modifiche nelle dimensioni dell'immagine che la modifica della risoluzione causerebbe.
     Scale = 96f / 72f
 };
 

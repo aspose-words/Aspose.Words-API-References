@@ -1,15 +1,17 @@
 ---
 title: Glyph.Clone
 second_title: Aspose.Words für .NET-API-Referenz
-description: Glyph methode. 
+description: Glyph methode. Gibt einen Klon dieser Instanz zurück.
 type: docs
 weight: 60
 url: /de/net/aspose.words.shaping/glyph/clone/
 ---
 ## Glyph.Clone method
 
+Gibt einen Klon dieser Instanz zurück.
+
 ```csharp
-public Glyph Clone()
+public virtual Glyph Clone()
 ```
 
 ### Siehe auch

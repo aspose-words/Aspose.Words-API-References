@@ -3,7 +3,7 @@ title: ShapeBase.ZOrder
 second_title: Aspose.Words for .NET API Referansı
 description: ShapeBase mülk. Çakışan şekillerin görüntülenme sırasını belirler.
 type: docs
-weight: 550
+weight: 610
 url: /tr/net/aspose.words.drawing/shapebase/zorder/
 ---
 ## ShapeBase.ZOrder property
@@ -20,11 +20,11 @@ Yalnızca üst düzey şekiller için etkilidir.
 
 Varsayılan değer 0'dır.
 
-Sayı, yığınlama önceliğini temsil eder. Daha yüksek numaralı bir şekil, daha düşük numaralı bir şeklin ("önünde") örtüşüyormuş gibi görüntülenecektir .
+Sayı istifleme önceliğini temsil eder. Daha yüksek sayıya sahip bir şekil, sanki daha düşük sayıya sahip bir şeklin ("önünde") üst üste binmiş gibi görüntülenecektir .
 
-Üst üste binen şekillerin sırası, başlıktaki ve belgenin main metnindeki şekiller için bağımsızdır.
+Çakışan şekillerin sırası, başlıktaki ve belgenin main metnindeki şekillerden bağımsızdır.
 
-Bir grup şeklindeki alt şekillerin görüntülenme sırası, grup şekli içindeki order tarafından belirlenir.
+Bir grup şeklindeki alt şekillerin görüntülenme sırası, grup şekli içindeki order ile belirlenir.
 
 ### Örnekler
 
@@ -34,9 +34,9 @@ Bir grup şeklindeki alt şekillerin görüntülenme sırası, grup şekli için
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Birbiriyle kısmen örtüşen üç farklı renkli dikdörtgen ekleyin.
-// Başka bir şekille örtüşen bir şekil eklediğimizde Aspose.Words yeni şekli eski şeklin üzerine yerleştirir.
-// Açık yeşil dikdörtgen, açık mavi dikdörtgenin üzerine gelecek ve onu kısmen gizleyecektir,
+// Kısmen birbiriyle örtüşen üç farklı renkli dikdörtgen ekleyin.
+// Başka bir şeklin üzerine binen bir şekil eklediğimizde Aspose.Words yeni şekli eski şeklin üzerine yerleştirir.
+// Açık yeşil dikdörtgen, açık mavi dikdörtgenin üzerine binecek ve onu kısmen gizleyecektir,
 // ve açık mavi dikdörtgen turuncu dikdörtgeni gizleyecektir.
 Shape shape = builder.InsertShape(ShapeType.Rectangle, RelativeHorizontalPosition.LeftMargin, 100,
     RelativeVerticalPosition.TopMargin, 100, 200, 200, WrapType.None);
@@ -52,12 +52,12 @@ shape.FillColor = Color.LightGreen;
 
 Shape[] shapes = doc.GetChildNodes(NodeType.Shape, true).OfType<Shape>().ToArray();
 
-// Bir şeklin "ZOrder" özelliği, üst üste binen diğer şekiller arasında yığma önceliğini belirler.
-// Örtüşen iki şekil farklı "ZOrder" değerlerine sahipse,
- // Microsoft Word, değeri yüksek olan şekli, değeri düşük olan şeklin üzerine yerleştirir.
-// İlk turuncu dikdörtgeni ikinci açık mavi dikdörtgenin üzerine yerleştirmek için şekillerimizin "ZOrder" değerlerini ayarlayın
+// Bir şeklin "ZOrder" özelliği, onun diğer örtüşen şekiller arasında istiflenme önceliğini belirler.
+// Üst üste binen iki şeklin farklı "ZOrder" değerleri varsa,
+// Microsoft Word, değeri yüksek olan şekli, değeri düşük olan şeklin üzerine yerleştirecektir. 
+// Şekillerimizin "ZOrder" değerlerini, ilk turuncu dikdörtgeni ikinci açık mavi dikdörtgenin üzerine yerleştirecek şekilde ayarlayın
 // ve üçüncü açık yeşil dikdörtgenin üzerindeki ikinci açık mavi dikdörtgen.
-// Bu, orijinal istifleme sırasını tersine çevirir.
+// Bu, orijinal yığınlama sırasını tersine çevirecektir.
 shapes[0].ZOrder = 3;
 shapes[1].ZOrder = 2;
 shapes[2].ZOrder = 1;

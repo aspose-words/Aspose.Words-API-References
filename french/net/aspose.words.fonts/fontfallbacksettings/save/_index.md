@@ -1,14 +1,14 @@
 ---
 title: FontFallbackSettings.Save
 second_title: Référence de l'API Aspose.Words pour .NET
-description: FontFallbackSettings méthode. Enregistre les paramètres de secours actuels dans le flux.
+description: FontFallbackSettings méthode. Enregistre les paramètres de secours actuels dans stream.
 type: docs
 weight: 50
 url: /fr/net/aspose.words.fonts/fontfallbacksettings/save/
 ---
 ## Save(Stream) {#save}
 
-Enregistre les paramètres de secours actuels dans le flux.
+Enregistre les paramètres de secours actuels dans stream.
 
 ```csharp
 public void Save(Stream outputStream)
@@ -20,12 +20,12 @@ public void Save(Stream outputStream)
 
 ### Exemples
 
-Montre comment charger et enregistrer les paramètres de remplacement des polices vers/depuis un flux.
+Montre comment charger et enregistrer les paramètres de secours des polices vers/depuis un flux.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// Charge un document XML qui définit un ensemble de paramètres de remplacement de police.
+// Charge un document XML qui définit un ensemble de paramètres de secours de police.
 using (FileStream fontFallbackStream = new FileStream(MyDir + "Font fallback rules.xml", FileMode.Open))
 {
     FontSettings fontSettings = new FontSettings();
@@ -36,7 +36,7 @@ using (FileStream fontFallbackStream = new FileStream(MyDir + "Font fallback rul
 
 doc.Save(ArtifactsDir + "FontSettings.LoadFontFallbackSettingsFromStream.pdf");
 
-// Utilisez un flux pour enregistrer les paramètres de remplacement de police actuels de notre document en tant que document XML.
+// Utiliser un flux pour enregistrer les paramètres de secours de police actuels de notre document en tant que document XML.
 using (FileStream fontFallbackStream =
     new FileStream(ArtifactsDir + "FallbackSettings.xml", FileMode.Create))
 {
@@ -54,7 +54,7 @@ using (FileStream fontFallbackStream =
 
 ## Save(string) {#save_1}
 
-Enregistre les paramètres de secours actuels dans le fichier.
+Enregistre les paramètres de secours actuels dans un fichier.
 
 ```csharp
 public void Save(string fileName)
@@ -66,19 +66,19 @@ public void Save(string fileName)
 
 ### Exemples
 
-Montre comment charger et enregistrer les paramètres de remplacement des polices vers/depuis un document XML dans le système de fichiers local.
+Montre comment charger et enregistrer les paramètres de secours des polices vers/depuis un document XML dans le système de fichiers local.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// Charge un document XML qui définit un ensemble de paramètres de remplacement de police.
+// Charge un document XML qui définit un ensemble de paramètres de secours de police.
 FontSettings fontSettings = new FontSettings();
 fontSettings.FallbackSettings.Load(MyDir + "Font fallback rules.xml");
 
 doc.FontSettings = fontSettings;
 doc.Save(ArtifactsDir + "FontSettings.LoadFontFallbackSettingsFromFile.pdf");
 
-// Enregistrez les paramètres de remplacement de police actuels de notre document en tant que document XML.
+// Enregistrez les paramètres de secours de police actuels de notre document en tant que document XML.
 doc.FontSettings.FallbackSettings.Save(ArtifactsDir + "FallbackSettings.xml");
 ```
 

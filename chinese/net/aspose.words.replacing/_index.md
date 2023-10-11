@@ -1,12 +1,12 @@
 ---
 title: Aspose.Words.Replacing
 second_title: Aspose.Words for .NET API 参考
-description: 这 Aspose.Words.替换命名空间提供类来对文档树进行查找/替换操作来操作
+description: 这 Aspose.Words.Replacing命名空间提供了一些类用于在文档树上进行查找/替换操作操作 
 type: docs
-weight: 200
+weight: 210
 url: /zh/net/aspose.words.replacing/
 ---
-这 **Aspose.Words.替换**命名空间提供类来对文档树进行查找/替换操作来操作。
+这 **Aspose.Words.Replacing**命名空间提供了一些类，用于在文档树上进行查找/替换操作操作 。
 
 ## 课程
 
@@ -24,6 +24,6 @@ url: /zh/net/aspose.words.replacing/
 | 枚举 | 描述 |
 | --- | --- |
 | [FindReplaceDirection](./findreplacedirection/) | 指定替换操作的方向。 |
-| [ReplaceAction](./replaceaction/) | 允许用户指定在替换操作期间当前匹配发生的情况。 |
+| [ReplaceAction](./replaceaction/) | 允许用户指定在替换操作期间当前匹配会发生什么情况。 |
 
 

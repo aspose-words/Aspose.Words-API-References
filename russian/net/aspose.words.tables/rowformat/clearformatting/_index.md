@@ -1,14 +1,14 @@
 ---
 title: RowFormat.ClearFormatting
 second_title: Справочник по API Aspose.Words для .NET
-description: RowFormat метод. Восстанавливает форматирование строки по умолчанию.
+description: RowFormat метод. Сбрасывает формат строки по умолчанию.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.tables/rowformat/clearformatting/
 ---
 ## RowFormat.ClearFormatting method
 
-Восстанавливает форматирование строки по умолчанию.
+Сбрасывает формат строки по умолчанию.
 
 ```csharp
 public void ClearFormatting()
@@ -16,7 +16,7 @@ public void ClearFormatting()
 
 ### Примеры
 
-Показывает, как построить таблицу с пользовательскими границами.
+Показывает, как создать таблицу с настраиваемыми границами.
 
 ```csharp
 Document doc = new Document();
@@ -24,8 +24,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.StartTable();
 
-// Установка параметров форматирования таблицы для конструктора документов
-// применит их к каждой строке и ячейке, которые мы добавляем вместе с ней.
+// Установка параметров форматирования таблицы для построителя документов
+// будет применять их к каждой строке и ячейке, которые мы добавляем вместе с ними.
 builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
 builder.CellFormat.ClearFormatting();
@@ -48,8 +48,8 @@ builder.InsertCell();
 builder.Write("Row 1, Col 2");
 builder.EndRow();
 
-// Изменение форматирования применит его к текущей ячейке,
-// и любые новые ячейки, которые мы впоследствии создадим с помощью конструктора.
+// При изменении форматирования оно будет применено к текущей ячейке,
+// и любые новые ячейки, которые мы создадим впоследствии с помощью построителя.
 // Это не повлияет на ячейки, которые мы добавили ранее.
 builder.CellFormat.Shading.ClearFormatting();
 

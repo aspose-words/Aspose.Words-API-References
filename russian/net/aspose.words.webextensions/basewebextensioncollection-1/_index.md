@@ -1,14 +1,16 @@
 ---
 title: Class BaseWebExtensionCollectionT
 second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.WebExtensions.BaseWebExtensionCollection1T сорт. Базовый класс дляTaskPaneCollection WebExtensionBindingCollection  WebExtensionPropertyCollection а такжеWebExtensionReferenceCollection коллекции.
+description: Aspose.Words.WebExtensions.BaseWebExtensionCollection1T сорт. Базовый класс дляTaskPaneCollection WebExtensionBindingCollection  WebExtensionPropertyCollection иWebExtensionReferenceCollection коллекции.
 type: docs
-weight: 6390
+weight: 6700
 url: /ru/net/aspose.words.webextensions/basewebextensioncollection-1/
 ---
 ## BaseWebExtensionCollection&lt;T&gt; class
 
-Базовый класс для[`TaskPaneCollection`](../taskpanecollection/) ,[`WebExtensionBindingCollection`](../webextensionbindingcollection/) , [`WebExtensionPropertyCollection`](../webextensionpropertycollection/) а также[`WebExtensionReferenceCollection`](../webextensionreferencecollection/) коллекции.
+Базовый класс для[`TaskPaneCollection`](../taskpanecollection/) ,[`WebExtensionBindingCollection`](../webextensionbindingcollection/) , [`WebExtensionPropertyCollection`](../webextensionpropertycollection/) и[`WebExtensionReferenceCollection`](../webextensionreferencecollection/) коллекции.
+
+Чтобы узнать больше, посетите[Работа с надстройками Office](https://docs.aspose.com/words/net/work-with-office-add-ins/) статья документации.
 
 ```csharp
 public abstract class BaseWebExtensionCollection<T> : IEnumerable<T>
@@ -17,7 +19,7 @@ public abstract class BaseWebExtensionCollection<T> : IEnumerable<T>
 
 | Параметр | Описание |
 | --- | --- |
-| T | Тип предмета коллекции. |
+| T | Тип элемента коллекции. |
 
 ## Характеристики
 
@@ -32,8 +34,8 @@ public abstract class BaseWebExtensionCollection<T> : IEnumerable<T>
 | --- | --- |
 | [Add](../../aspose.words.webextensions/basewebextensioncollection-1/add/)(T) | Добавляет указанный элемент в коллекцию. |
 | [Clear](../../aspose.words.webextensions/basewebextensioncollection-1/clear/)() | Удаляет все элементы из коллекции. |
-| [GetEnumerator](../../aspose.words.webextensions/basewebextensioncollection-1/getenumerator/)() | Возвращает перечислитель, который может выполнять итерацию по коллекции. |
-| [Remove](../../aspose.words.webextensions/basewebextensioncollection-1/remove/)(int) | Удаляет элемент с указанным индексом из коллекции. |
+| [GetEnumerator](../../aspose.words.webextensions/basewebextensioncollection-1/getenumerator/)() | Возвращает перечислитель, который может перебирать коллекцию. |
+| [Remove](../../aspose.words.webextensions/basewebextensioncollection-1/remove/)(int) | Удаляет элемент по указанному индексу из коллекции. |
 
 ### Примеры
 
@@ -44,7 +46,7 @@ Document doc = new Document(MyDir + "Web extension.docx");
 
 Assert.AreEqual(1, doc.WebExtensionTaskPanes.Count);
 
-// Вывести все свойства веб-расширения документа.
+// Распечатываем все свойства веб-расширения документа.
 WebExtensionPropertyCollection webExtensionPropertyCollection = doc.WebExtensionTaskPanes[0].WebExtension.Properties;
 using (IEnumerator<WebExtensionProperty> enumerator = webExtensionPropertyCollection.GetEnumerator())
 {
@@ -55,7 +57,7 @@ using (IEnumerator<WebExtensionProperty> enumerator = webExtensionPropertyCollec
     }
 }
 
-// Удалить веб-расширение.
+// Удаляем веб-расширение.
 doc.WebExtensionTaskPanes.Remove(0);
 
 Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);

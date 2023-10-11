@@ -1,14 +1,14 @@
 ---
 title: MailMerge.UnconditionalMergeFieldsAndRegions
 second_title: Справочник по API Aspose.Words для .NET
-description: MailMerge свойство. Получает или задает значение указывающее объединяются ли поля слияния и области слияния независимо от условия родительского поля IF.
+description: MailMerge свойство. Получает или задает значение указывающее объединяются ли поля слияния и области слияния независимо от состояния родительского поля IF.
 type: docs
 weight: 140
 url: /ru/net/aspose.words.mailmerging/mailmerge/unconditionalmergefieldsandregions/
 ---
 ## MailMerge.UnconditionalMergeFieldsAndRegions property
 
-Получает или задает значение, указывающее, объединяются ли поля слияния и области слияния независимо от условия родительского поля IF.
+Получает или задает значение, указывающее, объединяются ли поля слияния и области слияния независимо от состояния родительского поля IF.
 
 ```csharp
 public bool UnconditionalMergeFieldsAndRegions { get; set; }
@@ -16,26 +16,26 @@ public bool UnconditionalMergeFieldsAndRegions { get; set; }
 
 ### Примечания
 
-Значение по умолчанию: **ЛОЖЬ** .
+Значение по умолчанию:`ЛОЖЬ` .
 
 ### Примеры
 
-Показывает, как объединять поля или регионы независимо от условия родительского поля ЕСЛИ.
+Показывает, как объединить поля или регионы независимо от состояния родительского поля IF.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Вставляем поле MERGEFIELD, вложенное в поле IF.
-// Поскольку оператор поля IF неверен, он не будет отображать результат MERGEFIELD.
-// MERGEFIELD также не получит никаких данных во время слияния почты.
+// Вставляем MERGEFIELD, вложенный в поле IF.
+// Поскольку оператор поля IF является ложным, он не будет отображать результат MERGEFIELD.
+// MERGEFIELD также не будет получать никаких данных во время слияния почты.
 FieldIf fieldIf = (FieldIf)builder.InsertField(" IF 1 = 2 ");
 builder.MoveTo(fieldIf.Separator);
 builder.InsertField(" MERGEFIELD  FullName ");
 
-// Если мы установим флаг "UnconditionalMergeFieldsAndRegions" в "true",
-// наше слияние почты будет вставлять данные в неотображаемые поля, такие как наше MERGEFIELD, а также во все остальные.
-// Если мы установим флаг "UnconditionalMergeFieldsAndRegions" в "false",
+// Если мы установим флаг «UnconditionalMergeFieldsAndRegions» в значение «true»,
+// наше слияние почты вставит данные в неотображаемые поля, такие как MERGEFIELD, а также во все остальные.
+// Если мы установим флаг «UnconditionalMergeFieldsAndRegions» в значение «false»,
 // наше слияние почты не будет вставлять данные в поля MERGEFIELD, скрытые полями IF с ложными утверждениями.
 doc.MailMerge.UnconditionalMergeFieldsAndRegions = countAllMergeFields;
 

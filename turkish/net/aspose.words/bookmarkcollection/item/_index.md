@@ -1,14 +1,14 @@
 ---
 title: BookmarkCollection.Item
 second_title: Aspose.Words for .NET API Referansı
-description: BookmarkCollection mülk. Belirtilen dizinde bir yer imi döndürür.
+description: BookmarkCollection mülk. Belirtilen dizindeki yer işaretini döndürür.
 type: docs
 weight: 20
 url: /tr/net/aspose.words/bookmarkcollection/item/
 ---
 ## BookmarkCollection indexer (1 of 2)
 
-Belirtilen dizinde bir yer imi döndürür.
+Belirtilen dizindeki yer işaretini döndürür.
 
 ```csharp
 public Bookmark this[int index] { get; }
@@ -20,37 +20,36 @@ public Bookmark this[int index] { get; }
 
 ### Notlar
 
-Endeks sıfır tabanlıdır.
+Endeks sıfır bazlıdır.
 
-Negatif dizinlere izin verilir ve koleksiyonun arkasından erişimi gösterir. Örneğin -1 son öğe anlamına gelir, -2 sondan önceki saniye anlamına gelir vb.
+Negatif dizinlere izin verilir ve koleksiyonun arkasından erişimi belirtir. Örneğin -1 son öğe anlamına gelir, -2 sondan önceki ikinci öğe anlamına gelir ve bu şekilde devam eder.
 
-Dizin, listedeki öğe sayısından büyük veya ona eşitse, bu, boş bir başvuru döndürür.
+Dizin listedeki öğe sayısından büyük veya ona eşitse bu, boş bir başvuru döndürür.
 
-İndeks negatifse ve mutlak değeri listedeki öğe sayısından büyükse, bu bir boş başvuru döndürür.
+Dizin negatifse ve mutlak değeri listedeki öğe sayısından büyükse bu, boş bir başvuru döndürür.
 
 ### Örnekler
 
-Yer imlerinin nasıl ekleneceğini ve içeriklerinin nasıl güncelleneceğini gösterir.
+Yer işaretlerinin nasıl ekleneceğini ve içeriklerinin nasıl güncelleneceğini gösterir.
 
 ```csharp
 public void CreateUpdateAndPrintBookmarks()
 {
-    // Üç yer imi içeren bir belge oluşturun, ardından içeriklerini yazdırmak için özel bir belge ziyaretçi uygulaması kullanın.
+    // Üç yer imine sahip bir belge oluşturun, ardından içeriklerini yazdırmak için özel bir belge ziyaretçisi uygulaması kullanın.
     Document doc = CreateDocumentWithBookmarks(3);
     BookmarkCollection bookmarks = doc.Range.Bookmarks;
-
     PrintAllBookmarkInfo(bookmarks);
 
-    // Yer imi koleksiyonundaki yer imlerine dizin veya isme göre erişilebilir ve adları güncellenebilir.
+    // Yer imleri koleksiyonundaki yer imlerine dizine veya isme göre erişilebilir ve adları güncellenebilir.
     bookmarks[0].Name = $"{bookmarks[0].Name}_NewName";
     bookmarks["MyBookmark_2"].Text = $"Updated text contents of {bookmarks[1].Name}";
 
-    // Güncellenen değerleri görmek için tüm yer imlerini yeniden yazdırın.
+    // Güncellenen değerleri görmek için tüm yer imlerini tekrar yazdırın.
     PrintAllBookmarkInfo(bookmarks);
 }
 
 /// <summary>
-/// Belirli sayıda yer imi içeren bir belge oluşturun.
+/// Belirli sayıda yer işaretine sahip bir belge oluşturun.
 /// </summary>
 private static Document CreateDocumentWithBookmarks(int numberOfBookmarks)
 {
@@ -78,7 +77,7 @@ private static void PrintAllBookmarkInfo(BookmarkCollection bookmarks)
 {
     BookmarkInfoPrinter bookmarkVisitor = new BookmarkInfoPrinter();
 
-    // İçeriğini yazdıracak bir ziyaretçiyi kabul etmek için koleksiyondaki her yer işaretini alın.
+    // Koleksiyondaki her yer iminin, içeriğini yazdıracak bir ziyaretçiyi kabul etmesini sağlayın.
     using (IEnumerator<Bookmark> enumerator = bookmarks.GetEnumerator())
     {
         while (enumerator.MoveNext())
@@ -126,7 +125,7 @@ public class BookmarkInfoPrinter : DocumentVisitor
 
 ## BookmarkCollection indexer (2 of 2)
 
-Ada göre bir yer imi döndürür.
+Ada göre bir yer imini döndürür.
 
 ```csharp
 public Bookmark this[string bookmarkName] { get; }
@@ -134,35 +133,34 @@ public Bookmark this[string bookmarkName] { get; }
 
 | Parametre | Tanım |
 | --- | --- |
-| bookmarkName | Yer işaretinin büyük/küçük harfe duyarsız adı. |
+| bookmarkName | Yer işaretinin büyük/küçük harfe duyarlı olmayan adı. |
 
 ### Notlar
 
-Belirtilen ada sahip yer imi bulunamazsa null döndürür.
+İadeler`hükümsüz`Belirtilen ada sahip yer imi bulunamazsa.
 
 ### Örnekler
 
-Yer imlerinin nasıl ekleneceğini ve içeriklerinin nasıl güncelleneceğini gösterir.
+Yer işaretlerinin nasıl ekleneceğini ve içeriklerinin nasıl güncelleneceğini gösterir.
 
 ```csharp
 public void CreateUpdateAndPrintBookmarks()
 {
-    // Üç yer imi içeren bir belge oluşturun, ardından içeriklerini yazdırmak için özel bir belge ziyaretçi uygulaması kullanın.
+    // Üç yer imine sahip bir belge oluşturun, ardından içeriklerini yazdırmak için özel bir belge ziyaretçisi uygulaması kullanın.
     Document doc = CreateDocumentWithBookmarks(3);
     BookmarkCollection bookmarks = doc.Range.Bookmarks;
-
     PrintAllBookmarkInfo(bookmarks);
 
-    // Yer imi koleksiyonundaki yer imlerine dizin veya isme göre erişilebilir ve adları güncellenebilir.
+    // Yer imleri koleksiyonundaki yer imlerine dizine veya isme göre erişilebilir ve adları güncellenebilir.
     bookmarks[0].Name = $"{bookmarks[0].Name}_NewName";
     bookmarks["MyBookmark_2"].Text = $"Updated text contents of {bookmarks[1].Name}";
 
-    // Güncellenen değerleri görmek için tüm yer imlerini yeniden yazdırın.
+    // Güncellenen değerleri görmek için tüm yer imlerini tekrar yazdırın.
     PrintAllBookmarkInfo(bookmarks);
 }
 
 /// <summary>
-/// Belirli sayıda yer imi içeren bir belge oluşturun.
+/// Belirli sayıda yer işaretine sahip bir belge oluşturun.
 /// </summary>
 private static Document CreateDocumentWithBookmarks(int numberOfBookmarks)
 {
@@ -190,7 +188,7 @@ private static void PrintAllBookmarkInfo(BookmarkCollection bookmarks)
 {
     BookmarkInfoPrinter bookmarkVisitor = new BookmarkInfoPrinter();
 
-    // İçeriğini yazdıracak bir ziyaretçiyi kabul etmek için koleksiyondaki her yer işaretini alın.
+    // Koleksiyondaki her yer iminin, içeriğini yazdıracak bir ziyaretçiyi kabul etmesini sağlayın.
     using (IEnumerator<Bookmark> enumerator = bookmarks.GetEnumerator())
     {
         while (enumerator.MoveNext())

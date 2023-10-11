@@ -1,14 +1,16 @@
 ---
 title: Class JsonDataLoadOptions
 second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Reporting.JsonDataLoadOptions klas. Repräsentiert Optionen zum Analysieren von JSONDaten.
+description: Aspose.Words.Reporting.JsonDataLoadOptions klas. Stellt Optionen zum Parsen von JSONDaten dar.
 type: docs
-weight: 4420
+weight: 4680
 url: /de/net/aspose.words.reporting/jsondataloadoptions/
 ---
 ## JsonDataLoadOptions class
 
-Repräsentiert Optionen zum Analysieren von JSON-Daten.
+Stellt Optionen zum Parsen von JSON-Daten dar.
+
+Um mehr zu erfahren, besuchen Sie die[LINQ-Reporting-Engine](https://docs.aspose.com/words/net/linq-reporting-engine/) Dokumentationsartikel.
 
 ```csharp
 public class JsonDataLoadOptions
@@ -24,9 +26,10 @@ public class JsonDataLoadOptions
 
 | Name | Beschreibung |
 | --- | --- |
-| [AlwaysGenerateRootObject](../../aspose.words.reporting/jsondataloadoptions/alwaysgeneraterootobject/) { get; set; } | Ruft ein Flag ab oder setzt es, das angibt, ob eine generierte Datenquelle immer ein Objekt für ein JSON-root -Element enthält. Wenn ein JSON-Stammelement eine einzelne komplexe Eigenschaft enthält, wird ein solches Objekt standardmäßig nicht erstellt. |
-| [ExactDateTimeParseFormats](../../aspose.words.reporting/jsondataloadoptions/exactdatetimeparseformats/) { get; set; } | Ruft genaue Formate für die Analyse von JSON-Datums-/Uhrzeitwerten beim Laden von JSON ab oder legt diese fest. Die Voreinstellung ist **Null** . |
-| [SimpleValueParseMode](../../aspose.words.reporting/jsondataloadoptions/simplevalueparsemode/) { get; set; } | Ruft einen Modus zum Analysieren einfacher JSON-Werte (Null, Boolean, Zahl, Ganzzahl und Zeichenfolge) beim Laden von JSON ab oder legt diesen fest. Ein solcher Modus wirkt sich nicht auf die Analyse von Datums- und Uhrzeitwerten aus. Der Standardwert ist Loose . |
+| [AlwaysGenerateRootObject](../../aspose.words.reporting/jsondataloadoptions/alwaysgeneraterootobject/) { get; set; } | Ruft ein Flag ab oder legt es fest, das angibt, ob eine generierte Datenquelle immer ein Objekt für ein JSON-Root -Element enthält. Wenn ein JSON-Root-Element eine einzelne komplexe Eigenschaft enthält, wird ein solches Objekt standardmäßig nicht erstellt. |
+| [ExactDateTimeParseFormats](../../aspose.words.reporting/jsondataloadoptions/exactdatetimeparseformats/) { get; set; } | Ruft genaue Formate zum Parsen von JSON-Datums-/Uhrzeitwerten beim Laden von JSON ab oder legt diese fest. Die Standardeinstellung ist`Null` . |
+| [PreserveSpaces](../../aspose.words.reporting/jsondataloadoptions/preservespaces/) { get; set; } | Ruft ein Flag ab oder setzt es, das angibt, ob führende und nachfolgende Leerzeichen beim Laden von string -Werten von JSON-Daten beibehalten werden sollen. |
+| [SimpleValueParseMode](../../aspose.words.reporting/jsondataloadoptions/simplevalueparsemode/) { get; set; } | Ruft einen Modus zum Parsen einfacher JSON-Werte (Null, Boolescher Wert, Zahl, Ganzzahl und Zeichenfolge) ab oder legt diesen fest. beim Laden von JSON. Ein solcher Modus hat keinen Einfluss auf das Parsen von Datums-/Uhrzeitwerten. Der Standardwert ist Loose . |
 
 ### Bemerkungen
 

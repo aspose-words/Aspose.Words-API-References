@@ -22,8 +22,8 @@ public string VariableName { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 下面是使用 DOCPROPERTY 字段的两种方式。
-// 1 - 显示一个内置属性：
+// 下面是使用 DOCPROPERTY 字段的两种方法。
+// 1 - 显示内置属性：
 // 为“Category”内置属性设置自定义值，然后插入引用它的 DOCPROPERTY 字段。
 doc.BuiltInDocumentProperties.Category = "My category";
 

@@ -1,14 +1,14 @@
 ---
 title: Enum OdtSaveMeasureUnit
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Saving.OdtSaveMeasureUnit énumération. Unités de mesure spécifiées à appliquer au contenu de document mesurable tel que la forme les largeurs et autres lors de lenregistrement.
+description: Aspose.Words.Saving.OdtSaveMeasureUnit énumération. Unités de mesure spécifiées à appliquer au contenu mesurable du document tel que la forme les largeurs et autres lors de lenregistrement.
 type: docs
-weight: 5040
+weight: 5320
 url: /fr/net/aspose.words.saving/odtsavemeasureunit/
 ---
 ## OdtSaveMeasureUnit enumeration
 
-Unités de mesure spécifiées à appliquer au contenu de document mesurable tel que la forme, les largeurs et autres lors de l'enregistrement.
+Unités de mesure spécifiées à appliquer au contenu mesurable du document tel que la forme, les largeurs et autres lors de l'enregistrement.
 
 ```csharp
 public enum OdtSaveMeasureUnit
@@ -28,11 +28,11 @@ Montre comment utiliser différentes unités de mesure pour définir les paramè
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// Lorsque nous exportons le document vers .odt, nous pouvons utiliser un objet OdtSaveOptions pour modifier la façon dont nous enregistrons le document.
+// Lorsque nous exportons le document au format .odt, nous pouvons utiliser un objet OdtSaveOptions pour modifier la façon dont nous enregistrons le document.
 // Nous pouvons définir la propriété "MeasureUnit" sur "OdtSaveMeasureUnit.Centimeters"
-// pour définir le contenu tel que les paramètres de style à l'aide du système métrique utilisé par Open Office. 
+ // pour définir le contenu tel que les paramètres de style à l'aide du système métrique utilisé par Open Office.
 // Nous pouvons définir la propriété "MeasureUnit" sur "OdtSaveMeasureUnit.Inches"
-// pour définir le contenu tel que les paramètres de style à l'aide du système impérial, utilisé par Microsoft Word.
+// pour définir le contenu tel que les paramètres de style en utilisant le système impérial, utilisé par Microsoft Word.
 OdtSaveOptions saveOptions = new OdtSaveOptions
 {
     MeasureUnit = odtSaveMeasureUnit

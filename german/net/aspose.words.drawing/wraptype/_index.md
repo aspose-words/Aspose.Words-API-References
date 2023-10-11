@@ -3,7 +3,7 @@ title: Enum WrapType
 second_title: Aspose.Words für .NET-API-Referenz
 description: Aspose.Words.Drawing.WrapType opsomming. Gibt an wie Text um eine Form oder ein Bild gewickelt wird.
 type: docs
-weight: 1250
+weight: 1400
 url: /de/net/aspose.words.drawing/wraptype/
 ---
 ## WrapType enumeration
@@ -18,22 +18,22 @@ public enum WrapType
 
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
-| None | `3` | Kein Textumbruch um die Form. Die Form wird hinter oder vor Text platziert. |
-| Inline | `0` | Die Form bleibt auf derselben Ebene wie Text und wird als Zeichen behandelt. |
-| TopBottom | `1` | Der Text endet am oberen Rand der Form und beginnt in der Zeile unterhalb der Form neu. |
-| Square | `2` | Fliesst Text um alle Seiten des quadratischen Begrenzungsrahmens der Form herum. |
+| None | `3` | Kein Textumbruch um die Form. Die Form wird hinter oder vor dem Text platziert. |
+| Inline | `0` | Die Form bleibt auf derselben Ebene wie der Text und wird als Zeichen behandelt. |
+| TopBottom | `1` | Der Text stoppt am oberen Rand der Form und beginnt in der Zeile unterhalb der Form neu. |
+| Square | `2` | Wickelt Text um alle Seiten des quadratischen Begrenzungsrahmens der Form. |
 | Tight | `4` | Wickelt sich eng um die Kanten der Form, anstatt um den Begrenzungsrahmen. |
-| Through | `5` | Dasselbe wie Tight, aber wickelt sich in alle Teile der Form, die offen sind. |
+| Through | `5` | Wie „Tight“, aber umhüllt alle offenen Teile der Form. |
 
 ### Beispiele
 
-Zeigt, wie ein schwebendes Bild in der Mitte einer Seite eingefügt wird.
+Zeigt, wie man ein schwebendes Bild in der Mitte einer Seite einfügt.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Fügen Sie ein schwebendes Bild ein, das hinter dem überlappenden Text angezeigt wird, und richten Sie es an der Mitte der Seite aus.
+// Fügen Sie ein schwebendes Bild ein, das hinter dem überlappenden Text erscheint, und richten Sie es in der Mitte der Seite aus.
 Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
 shape.WrapType = WrapType.None;
 shape.BehindText = true;
@@ -45,7 +45,7 @@ shape.VerticalAlignment = VerticalAlignment.Center;
 doc.Save(ArtifactsDir + "Image.CreateFloatingPageCenter.docx");
 ```
 
-Zeigt, wie ein Bild eingefügt und als Wasserzeichen verwendet wird.
+Zeigt, wie man ein Bild einfügt und es als Wasserzeichen verwendet.
 
 ```csharp
 Document doc = new Document();
@@ -67,7 +67,7 @@ shape.Top = (builder.PageSetup.PageHeight - shape.Height) / 2;
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertWatermark.docx");
 ```
 
-Zeigt, wie ein Bild eingefügt und als Wasserzeichen verwendet wird (.NetStandard 2.0).
+Zeigt, wie man ein Bild einfügt und es als Wasserzeichen verwendet (.NetStandard 2.0).
 
 ```csharp
 Document doc = new Document();

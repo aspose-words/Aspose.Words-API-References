@@ -1,14 +1,14 @@
 ---
 title: DigitalSignature.IsValid
 second_title: Aspose.Words für .NET-API-Referenz
-description: DigitalSignature eigendom. Gibt wahr zurück wenn diese digitale Signatur gültig ist und das Dokument nicht manipuliert wurde.
+description: DigitalSignature eigendom. Gibt zurückWAHR wenn diese digitale Signatur gültig ist und das Dokument nicht manipuliert wurde.
 type: docs
 weight: 40
 url: /de/net/aspose.words.digitalsignatures/digitalsignature/isvalid/
 ---
 ## DigitalSignature.IsValid property
 
-Gibt wahr zurück, wenn diese digitale Signatur gültig ist und das Dokument nicht manipuliert wurde.
+Gibt zurück`WAHR` wenn diese digitale Signatur gültig ist und das Dokument nicht manipuliert wurde.
 
 ```csharp
 public bool IsValid { get; }

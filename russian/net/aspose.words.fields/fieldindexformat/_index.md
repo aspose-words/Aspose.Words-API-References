@@ -3,7 +3,7 @@ title: Enum FieldIndexFormat
 second_title: Справочник по API Aspose.Words для .NET
 description: Aspose.Words.Fields.FieldIndexFormat перечисление. Определяет форматированиеFieldIndex поля в документе.
 type: docs
-weight: 1920
+weight: 2070
 url: /ru/net/aspose.words.fields/fieldindexformat/
 ---
 ## FieldIndexFormat enumeration
@@ -19,10 +19,10 @@ public enum FieldIndexFormat
 | Имя | Ценность | Описание |
 | --- | --- | --- |
 | Template | `0` | Из шаблона. |
-| Classic | `1` | Классический. |
+| Classic | `1` | Классика. |
 | Fancy | `2` | Изысканный. |
 | Modern | `3` | Современный. |
-| Bulleted | `4` | Пуля. |
+| Bulleted | `4` | Маркировано. |
 | Formal | `5` | Формальный. |
 | Simple | `6` | Простой. |
 

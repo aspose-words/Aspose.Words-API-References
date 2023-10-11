@@ -16,7 +16,7 @@ public IEnumerator<Node> GetEnumerator()
 
 ### Return_Value
 
-Un IEnumerator.
+Un IEnumérateur.
 
 ### Voir également
 

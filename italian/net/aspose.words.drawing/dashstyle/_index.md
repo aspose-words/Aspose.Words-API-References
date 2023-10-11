@@ -3,7 +3,7 @@ title: Enum DashStyle
 second_title: Aspose.Words per .NET API Reference
 description: Aspose.Words.Drawing.DashStyle enum. Stile linea tratteggiata.
 type: docs
-weight: 800
+weight: 930
 url: /it/net/aspose.words.drawing/dashstyle/
 ---
 ## DashStyle enumeration
@@ -18,7 +18,7 @@ public enum DashStyle
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
-| Solid | `0` | Penna fissa (continua). |
+| Solid | `0` | Penna continua (continua). |
 | ShortDash | `1` | Stile trattino di sistema. |
 | ShortDot | `2` | Stile trattino di sistema. |
 | ShortDashDot | `3` | Stile trattino di sistema. |
@@ -26,10 +26,10 @@ public enum DashStyle
 | Dot | `5` | Stile punto quadrato. |
 | Dash | `6` | Stile trattino. |
 | LongDash | `7` | Stile trattino lungo. |
-| DashDot | `8` | Trattino trattino corto. |
-| LongDashDot | `9` | trattino lungo trattino corto. |
-| LongDashDotDot | `10` | trattino lungo trattino corto trattino corto. |
-| Default | `0` | ComeSolid . |
+| DashDot | `8` | Trattino corto. |
+| LongDashDot | `9` | Trattino lungo trattino corto. |
+| LongDashDotDot | `10` | Trattino lungo trattino corto trattino corto. |
+| Default | `0` | Uguale aSolid . |
 
 ### Esempi
 
@@ -41,7 +41,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Di seguito sono riportati quattro esempi di forme che possiamo inserire nei nostri documenti.
 // 1 - Linea rossa tratteggiata, orizzontale, semitrasparente
-// con una freccia a sinistra e un diamante a destra:
+// con una freccia all'estremità sinistra e un diamante all'estremità destra:
 Shape arrow = new Shape(doc, ShapeType.Line);
 arrow.Width = 200;
 arrow.Stroke.Color = Color.Red;
@@ -58,7 +58,7 @@ Assert.AreEqual(JoinStyle.Miter, arrow.Stroke.JoinStyle);
 
 builder.InsertNode(arrow);
 
-// 2 - Linea diagonale nera spessa con estremità arrotondate:
+// 2 - Spessa linea diagonale nera con estremità arrotondate:
 Shape line = new Shape(doc, ShapeType.Line);
 line.Top = 40;
 line.Width = 200;
@@ -78,7 +78,7 @@ filledInArrow.Fill.Visible = true;
 
 builder.InsertNode(filledInArrow);
 
-// 4 - Freccia con orientamento capovolto riempita con il logo Aspose:
+// 4 - Freccia con orientamento invertito riempito con il logo Aspose:
 Shape filledInArrowImg = new Shape(doc, ShapeType.Arrow);
 filledInArrowImg.Width = 200;
 filledInArrowImg.Height = 40;
@@ -90,8 +90,8 @@ byte[] imageBytes = File.ReadAllBytes(ImageDir + "Logo.jpg");
 using (MemoryStream stream = new MemoryStream(imageBytes))
 {
     Image image = Image.FromStream(stream);
-    // Quando capovolgiamo l'orientamento della nostra freccia, capovolgiamo anche l'immagine contenuta nella freccia.
-    // Capovolgi l'immagine nell'altro modo per annullarlo prima che la forma la visualizzi.
+    // Quando invertiamo l'orientamento della nostra freccia, invertiamo anche l'immagine che la freccia contiene.
+    // Capovolgi l'immagine nell'altro modo per annullarla prima di ottenere la forma per visualizzarla.
     image.RotateFlip(RotateFlipType.RotateNoneFlipXY);
 
     filledInArrowImg.ImageData.SetImage(image);

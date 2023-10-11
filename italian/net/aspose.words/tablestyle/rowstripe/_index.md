@@ -1,14 +1,14 @@
 ---
 title: TableStyle.RowStripe
 second_title: Aspose.Words per .NET API Reference
-description: TableStyle proprietà. Ottiene o imposta un numero di righe da includere nella fascia quando lo stile specifica la fascia di riga pari/dispari.
+description: TableStyle proprietà. Ottiene o imposta un numero di righe da includere nella suddivisione quando lo stile specifica la suddivisione delle righe pari/dispari.
 type: docs
 weight: 120
 url: /it/net/aspose.words/tablestyle/rowstripe/
 ---
 ## TableStyle.RowStripe property
 
-Ottiene o imposta un numero di righe da includere nella fascia quando lo stile specifica la fascia di riga pari/dispari.
+Ottiene o imposta un numero di righe da includere nella suddivisione quando lo stile specifica la suddivisione delle righe pari/dispari.
 
 ```csharp
 public int RowStripe { get; set; }
@@ -23,10 +23,10 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Possiamo configurare uno stile condizionale di una tabella per applicare un colore diverso alla riga/colonna,
-// in base al fatto che la riga/colonna sia pari o dispari, creando un motivo a colori alternato.
-// Possiamo anche applicare un numero n alla riga/colonna,
+// in base al fatto che la riga/colonna sia pari o dispari, creando uno schema di colori alternati.
+// Possiamo anche applicare un numero n alla fasciatura di riga/colonna,
 // significa che il colore si alterna dopo ogni n righe/colonne invece di una.
-// Crea una tabella in cui singole colonne e righe verranno raggruppate, le colonne saranno raggruppate in tre.
+// Crea una tabella in cui singole colonne e righe uniranno le colonne in tre.
 Table table = builder.StartTable();
 for (int i = 0; i < 15; i++)
 {
@@ -50,13 +50,13 @@ tableStyle.RowStripe = 3;
 tableStyle.ConditionalStyles[ConditionalStyleType.OddRowBanding].Shading.BackgroundPatternColor = Color.LightBlue;
 tableStyle.ConditionalStyles[ConditionalStyleType.EvenRowBanding].Shading.BackgroundPatternColor = Color.LightCyan;
 
-// Imposta un colore da applicare a ogni colonna pari, che sostituirà qualsiasi colorazione di riga personalizzata.
+// Imposta un colore da applicare a ogni colonna pari, che sovrascriverà qualsiasi colorazione di riga personalizzata.
 tableStyle.ColumnStripe = 1;
 tableStyle.ConditionalStyles[ConditionalStyleType.EvenColumnBanding].Shading.BackgroundPatternColor = Color.LightSalmon;
 
 table.Style = tableStyle;
 
-// La proprietà "StyleOptions" abilita il raggruppamento delle righe per impostazione predefinita.
+// La proprietà "StyleOptions" abilita la suddivisione delle righe per impostazione predefinita.
 Assert.AreEqual(TableStyleOptions.FirstRow | TableStyleOptions.FirstColumn | TableStyleOptions.RowBands,
     table.StyleOptions);
 

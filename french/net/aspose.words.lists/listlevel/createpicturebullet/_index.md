@@ -16,11 +16,11 @@ public void CreatePictureBullet()
 
 ### Remarques
 
-Veuillez noter que NumberStyle sera défini sur Bullet et NumberFormat sur "\xF0B7" pour afficher correctement la puce de l'image. L'image de la croix rouge sera définie comme une image de puce lors de la création. Pour le changer, veuillez utiliser[`ImageData`](../imagedata/).
+Veuillez noter,[`NumberStyle`](../numberstyle/) sera réglé surBullet et [`NumberFormat`](../numberformat/) sur "\xF0B7" pour afficher correctement la puce d'image. L'image de la croix rouge sera définie comme image de puce lors de la création. Pour la modifier, veuillez utiliser[`ImageData`](../imagedata/).
 
 ### Exemples
 
-Montre comment définir une icône d'image personnalisée pour les étiquettes d'éléments de liste.
+Montre comment définir une icône d’image personnalisée pour les étiquettes des éléments de liste.
 
 ```csharp
 Document doc = new Document();
@@ -28,7 +28,7 @@ Document doc = new Document();
 List list = doc.Lists.Add(ListTemplate.BulletCircle);
 
 // Crée une puce d'image pour le niveau de liste actuel et définit une image à partir d'un système de fichiers local
-// comme l'icône que les puces de ce niveau de liste afficheront.
+// comme icône que les puces de ce niveau de liste afficheront.
 list.ListLevels[0].CreatePictureBullet();
 list.ListLevels[0].ImageData.SetImage(ImageDir + "Logo icon.ico");
 

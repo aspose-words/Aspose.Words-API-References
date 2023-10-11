@@ -1,14 +1,14 @@
 ---
 title: FieldPageRef.InsertRelativePosition
 second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldPageRef propriété. Obtient ou définit sil faut insérer une position relative du paragraphe marqué dun signet.
+description: FieldPageRef propriété. Obtient ou définit sil faut insérer une position relative du paragraphe marqué par un signet.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.fields/fieldpageref/insertrelativeposition/
 ---
 ## FieldPageRef.InsertRelativePosition property
 
-Obtient ou définit s'il faut insérer une position relative du paragraphe marqué d'un signet.
+Obtient ou définit s'il faut insérer une position relative du paragraphe marqué par un signet.
 
 ```csharp
 public bool InsertRelativePosition { get; set; }
@@ -16,13 +16,13 @@ public bool InsertRelativePosition { get; set; }
 
 ### Exemples
 
-Indique d'insérer des champs PAGEREF pour afficher l'emplacement relatif des signets.
+Permet d'insérer des champs PAGEREF pour afficher l'emplacement relatif des signets.
 
 ```csharp
 public void FieldPageRef()
 {
     Document doc = new Document();
-    DocumentBuilder builder = new DocumentBuilder(doc);
+    DocumentBuilder builder = new DocumentBuilder(doc);            
 
     InsertAndNameBookmark(builder, "MyBookmark1");
 
@@ -31,7 +31,7 @@ public void FieldPageRef()
     Assert.AreEqual(" PAGEREF  MyBookmark3 \\h", 
         InsertFieldPageRef(builder, "MyBookmark3", true, false, "Hyperlink to Bookmark3, on page: ").GetFieldCode());
 
-    // Nous pouvons utiliser le drapeau \p pour obtenir le champ PAGEREF à afficher
+    // Nous pouvons utiliser le drapeau \p pour afficher le champ PAGEREF
     // la position du signet par rapport à la position du champ.
     // Bookmark1 est sur la même page et au-dessus de ce champ, donc le résultat affiché de ce champ sera "au-dessus".
     Assert.AreEqual(" PAGEREF  MyBookmark1 \\h \\p", 
@@ -49,11 +49,13 @@ public void FieldPageRef()
     builder.InsertBreak(BreakType.PageBreak);
     InsertAndNameBookmark(builder, "MyBookmark3");
 
+    doc.UpdatePageLayout();
     doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.PAGEREF.docx");
+}
 
 /// <summary>
-/// Utilise un générateur de document pour insérer un champ PAGEREF et définit ses propriétés.
+/// Utilise un générateur de documents pour insérer un champ PAGEREF et définit ses propriétés.
 /// </summary>
 private static FieldPageRef InsertFieldPageRef(DocumentBuilder builder, string bookmarkName, bool insertHyperlink, bool insertRelativePosition, string textBefore)
 {
@@ -69,7 +71,7 @@ private static FieldPageRef InsertFieldPageRef(DocumentBuilder builder, string b
 }
 
 /// <summary>
-/// Utilise un générateur de document pour insérer un signet nommé.
+/// Utilise un générateur de documents pour insérer un signet nommé.
 /// </summary>
 private static void InsertAndNameBookmark(DocumentBuilder builder, string bookmarkName)
 {

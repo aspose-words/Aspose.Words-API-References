@@ -1,14 +1,14 @@
 ---
 title: ImageSize.ImageSize
 second_title: Справочник по API Aspose.Words для .NET
-description: ImageSize строитель. Инициализирует ширину и высоту заданными значениями в пикселях. Инициализирует разрешение до 96 dpi.
+description: ImageSize строитель. Инициализирует ширину и высоту заданными значениями в пикселях. Инициализирует разрешение 96 dpi.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.drawing/imagesize/imagesize/
 ---
 ## ImageSize(int, int) {#constructor}
 
-Инициализирует ширину и высоту заданными значениями в пикселях. Инициализирует разрешение до 96 dpi.
+Инициализирует ширину и высоту заданными значениями в пикселях. Инициализирует разрешение 96 dpi.
 
 ```csharp
 public ImageSize(int widthPixels, int heightPixels)

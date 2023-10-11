@@ -23,7 +23,7 @@ Document doc = new Document(MyDir + "Tables.docx");
 Table table = doc.FirstSection.Body.Tables[0];
 Cell firstCell = table.FirstRow.FirstCell;
 
-// Usa la proprietà "CellFormat" di una cella per impostare la formattazione che modifica l'aspetto di quella cella.
+// Utilizza la proprietà "CellFormat" di una cella per impostare la formattazione che modifica l'aspetto di quella cella.
 firstCell.CellFormat.Width = 30;
 firstCell.CellFormat.Orientation = TextOrientation.Downward;
 firstCell.CellFormat.Shading.ForegroundPatternColor = Color.LightGreen;
@@ -43,11 +43,11 @@ Table firstTable = doc.FirstSection.Body.Tables[0];
 // 2 - Utilizzando il metodo "GetChild":
 Table secondTable = (Table)doc.GetChild(NodeType.Table, 1, true);
 
-// Aggiunge tutte le righe dalla tabella corrente alla successiva.
+// Aggiunge tutte le righe della tabella corrente a quella successiva.
 while (secondTable.HasChildNodes)
     firstTable.Rows.Add(secondTable.FirstRow);
 
-// Rimuove il contenitore della tabella vuoto.
+// Rimuove il contenitore della tabella vuota.
 secondTable.Remove();
 
 doc.Save(ArtifactsDir + "Table.CombineTables.docx");
@@ -71,13 +71,13 @@ builder.InsertCell();
 builder.Write("U.K.");
 builder.EndTable();
 
-// Usa la proprietà "RowFormat" della prima riga per modificare la formattazione
-// del contenuto di tutte le celle in questa riga.
+// Utilizza la proprietà "RowFormat" della prima riga per modificare la formattazione
+// del contenuto di tutte le celle di questa riga.
 RowFormat rowFormat = table.FirstRow.RowFormat;
 rowFormat.Height = 25;
 rowFormat.Borders[BorderType.Bottom].Color = Color.Red;
 
-// Usa la proprietà "CellFormat" della prima cella nell'ultima riga per modificare la formattazione del contenuto di quella cella.
+// Utilizza la proprietà "CellFormat" della prima cella nell'ultima riga per modificare la formattazione del contenuto di quella cella.
 CellFormat cellFormat = table.LastRow.FirstCell.CellFormat;
 cellFormat.Width = 100;
 cellFormat.Shading.BackgroundPatternColor = Color.Orange;

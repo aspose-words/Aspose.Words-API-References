@@ -1,14 +1,14 @@
 ---
 title: FieldCollection.RemoveAt
 second_title: Aspose.Words لمراجع .NET API
-description: FieldCollection طريقة. يزيل حقل في الفهرس المحدد من هذه المجموعة ومن المستند.
+description: FieldCollection طريقة. إزالة حقل في الفهرس المحدد من هذه المجموعة ومن المستند.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.fields/fieldcollection/removeat/
 ---
 ## FieldCollection.RemoveAt method
 
-يزيل حقل في الفهرس المحدد من هذه المجموعة ومن المستند.
+إزالة حقل في الفهرس المحدد من هذه المجموعة ومن المستند.
 
 ```csharp
 public void RemoveAt(int index)
@@ -52,7 +52,7 @@ Assert.AreEqual(4, fields.Count);
 fields.RemoveAt(2);
 Assert.AreEqual(3, fields.Count);
 
-// 4 - قم بإزالة جميع الحقول من المجموعة مرة واحدة:
+// 4 - قم بإزالة كافة الحقول من المجموعة مرة واحدة:
 fields.Clear();
 Assert.AreEqual(0, fields.Count);
 ```

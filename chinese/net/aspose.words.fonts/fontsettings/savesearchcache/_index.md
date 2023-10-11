@@ -20,14 +20,13 @@ public void SaveSearchCache(Stream outputStream)
 
 ### 评论
 
-看[`SetFontsSources`](../setfontssources/)更多信息的方法描述。
+看[`SetFontsSources`](../setfontssources/)方法描述以获取更多信息。
 
 ### 例子
 
-显示如何加快字体缓存初始化过程。
+展示如何加快字体缓存初始化过程。
 
 ```csharp
-[Test]
 public void LoadFontSearchCache()
 {
     const string cacheKey1 = "Arvo";
@@ -55,8 +54,8 @@ public void LoadFontSearchCache()
 }
 
 /// <summary>
-/// 仅在需要时才加载字体数据，而不是将其存储在内存中
-/// 对于“FontSettings”对象的整个生命周期。
+/// 仅在需要时加载字体数据而不是将其存储在内存中
+/// 在“FontSettings”对象的整个生命周期内。
 /// </summary>
 private class SearchCacheStream : StreamFontSource
 {

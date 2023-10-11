@@ -16,19 +16,19 @@ public void CreatePictureBullet()
 
 ### Observaciones
 
-Tenga en cuenta que NumberStyle se establecerá en Bullet y NumberFormat en "\xF0B7" para mostrar correctamente la imagen de viñeta. La imagen de la cruz roja se establecerá como imagen de viñeta al crearla. Para cambiarlo, utilice[`ImageData`](../imagedata/).
+Tenga en cuenta,[`NumberStyle`](../numberstyle/) se establecerá enBullet y [`NumberFormat`](../numberformat/) a "\xF0B7" para mostrar correctamente la imagen con viñetas. La imagen de la cruz roja se establecerá como imagen con viñetas al crearla. Para cambiarla, utilice[`ImageData`](../imagedata/).
 
 ### Ejemplos
 
-Muestra cómo configurar un icono de imagen personalizado para las etiquetas de los elementos de la lista.
+Muestra cómo configurar un ícono de imagen personalizado para las etiquetas de elementos de la lista.
 
 ```csharp
 Document doc = new Document();
 
 List list = doc.Lists.Add(ListTemplate.BulletCircle);
 
-// Crear una viñeta de imagen para el nivel de lista actual y establecer una imagen desde un sistema de archivos local
-// como el icono que mostrarán las viñetas para este nivel de lista.
+// Crea una viñeta de imagen para el nivel de lista actual y establece una imagen desde un sistema de archivos local
+// como el icono que mostrarán las viñetas de este nivel de lista.
 list.ListLevels[0].CreatePictureBullet();
 list.ListLevels[0].ImageData.SetImage(ImageDir + "Logo icon.ico");
 

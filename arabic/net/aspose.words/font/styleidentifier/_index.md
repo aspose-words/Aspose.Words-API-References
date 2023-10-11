@@ -1,14 +1,14 @@
 ---
 title: Font.StyleIdentifier
 second_title: Aspose.Words لمراجع .NET API
-description: Font ملكية. الحصول على أو تعيين معرف النمط المستقل للإعدادات المحلية لنمط الحرف المطبق على هذا التنسيق.
+description: Font ملكية. الحصول على أو تعيين معرف النمط المحلي المستقل لنمط الأحرف المطبق على هذا التنسيق.
 type: docs
 weight: 410
 url: /ar/net/aspose.words/font/styleidentifier/
 ---
 ## Font.StyleIdentifier property
 
-الحصول على أو تعيين معرف النمط المستقل للإعدادات المحلية لنمط الحرف المطبق على هذا التنسيق.
+الحصول على أو تعيين معرف النمط المحلي المستقل لنمط الأحرف المطبق على هذا التنسيق.
 
 ```csharp
 public StyleIdentifier StyleIdentifier { get; set; }
@@ -27,12 +27,12 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Font.StyleName = "Emphasis";
 builder.Writeln("Text originally in \"Emphasis\" style");
 
-// 2 - استخدام معرّف نمط مضمن:
+// 2 - استخدام معرف النمط المدمج:
 builder.Font.StyleIdentifier = StyleIdentifier.IntenseEmphasis;
 builder.Writeln("Text originally in \"Intense Emphasis\" style");
 
-// تحويل جميع استخدامات نمط إلى آخر ،
-// باستخدام الأساليب المذكورة أعلاه للإشارة إلى الأنماط القديمة والجديدة.
+// تحويل كافة الاستخدامات من نمط إلى آخر،
+// استخدام الطرق المذكورة أعلاه للإشارة إلى الأنماط القديمة والجديدة.
 foreach (Run run in doc.GetChildNodes(NodeType.Run, true).OfType<Run>())
 {
     if (run.Font.StyleName == "Emphasis")

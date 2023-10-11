@@ -1,14 +1,14 @@
 ---
 title: ChartDataLabelCollection.ShowPercentage
 second_title: Aspose.Words för .NET API Referens
-description: ChartDataLabelCollection fast egendom. Gör det möjligt att ange om ett procentvärde ska visas för dataetiketterna för hela serien. Standardvärdet är falsk . Gäller endast cirkeldiagram.
+description: ChartDataLabelCollection fast egendom. Gör det möjligt att ange om ett procentvärde ska visas för dataetiketterna för hela serien. Standardvärdet ärfalsk . Gäller endast cirkeldiagram.
 type: docs
-weight: 100
+weight: 120
 url: /sv/net/aspose.words.drawing.charts/chartdatalabelcollection/showpercentage/
 ---
 ## ChartDataLabelCollection.ShowPercentage property
 
-Gör det möjligt att ange om ett procentvärde ska visas för dataetiketterna för hela serien. Standardvärdet är **falsk** . Gäller endast cirkeldiagram.
+Gör det möjligt att ange om ett procentvärde ska visas för dataetiketterna för hela serien. Standardvärdet är`falsk` . Gäller endast cirkeldiagram.
 
 ```csharp
 public bool ShowPercentage { get; set; }

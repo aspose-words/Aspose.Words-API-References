@@ -1,14 +1,14 @@
 ---
 title: ChartDataLabel.Separator
 second_title: Référence de l'API Aspose.Words pour .NET
-description: ChartDataLabel propriété. Obtient ou définit le séparateur de chaîne utilisé pour les étiquettes de données sur un graphique. La valeur par défaut est une virgule sauf pour les graphiques circulaires affichant uniquement le nom de la catégorie et le pourcentage lorsquun saut de ligne doit être utilisé à la place.
+description: ChartDataLabel propriété. Obtient ou définit le séparateur de chaîne utilisé pour les étiquettes de données sur un graphique. La valeur par défaut est une virgule sauf pour les diagrammes circulaires affichant uniquement le nom de la catégorie et le pourcentage lorsquun saut de ligne doit être utilisé à la place.
 type: docs
-weight: 50
+weight: 70
 url: /fr/net/aspose.words.drawing.charts/chartdatalabel/separator/
 ---
 ## ChartDataLabel.Separator property
 
-Obtient ou définit le séparateur de chaîne utilisé pour les étiquettes de données sur un graphique. La valeur par défaut est une virgule, sauf pour les graphiques circulaires affichant uniquement le nom de la catégorie et le pourcentage, lorsqu'un saut de ligne doit être utilisé à la place.
+Obtient ou définit le séparateur de chaîne utilisé pour les étiquettes de données sur un graphique. La valeur par défaut est une virgule, sauf pour les diagrammes circulaires affichant uniquement le nom de la catégorie et le pourcentage, lorsqu'un saut de ligne doit être utilisé à la place.
 
 ```csharp
 public string Separator { get; set; }
@@ -16,9 +16,10 @@ public string Separator { get; set; }
 
 ### Exemples
 
-Montre comment appliquer des étiquettes aux points de données dans un graphique en courbes.
+Montre comment appliquer des étiquettes aux points de données dans un graphique linéaire.
 
 ```csharp
+public void DataLabels()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -31,7 +32,7 @@ Montre comment appliquer des étiquettes aux points de données dans un graphiqu
     Assert.AreEqual("Series 2", chart.Series[1].Name);
     Assert.AreEqual("Series 3", chart.Series[2].Name);
 
-    // Appliquez des étiquettes de données à chaque série du graphique.
+    // Applique des étiquettes de données à chaque série du graphique.
     // Ces étiquettes apparaîtront à côté de chaque point de données dans le graphique et afficheront sa valeur.
     foreach (ChartSeries series in chart.Series)
     {
@@ -59,7 +60,7 @@ Montre comment appliquer des étiquettes aux points de données dans un graphiqu
 }
 
 /// <summary>
-/// Appliquez des étiquettes de données avec un format de nombre et un séparateur personnalisés à plusieurs points de données d'une série.
+/// Appliquez des étiquettes de données avec un format numérique personnalisé et un séparateur à plusieurs points de données d'une série.
 /// </summary>
 private static void ApplyDataLabels(ChartSeries series, int labelsCount, string numberFormat, string separator)
 {

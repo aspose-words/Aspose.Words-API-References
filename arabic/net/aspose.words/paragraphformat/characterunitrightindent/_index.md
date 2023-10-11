@@ -1,14 +1,14 @@
 ---
 title: ParagraphFormat.CharacterUnitRightIndent
 second_title: Aspose.Words لمراجع .NET API
-description: ParagraphFormat ملكية. الحصول على أو تعيين قيمة المسافة البادئة اليمنى بالأحرف للفقرات المحددة.
+description: ParagraphFormat ملكية. الحصول على أو تعيين قيمة المسافة البادئة الصحيحة بالأحرف للفقرات المحددة.
 type: docs
-weight: 80
+weight: 90
 url: /ar/net/aspose.words/paragraphformat/characterunitrightindent/
 ---
 ## ParagraphFormat.CharacterUnitRightIndent property
 
-الحصول على أو تعيين قيمة المسافة البادئة اليمنى (بالأحرف) للفقرات المحددة.
+الحصول على أو تعيين قيمة المسافة البادئة الصحيحة (بالأحرف) للفقرات المحددة.
 
 ```csharp
 public double CharacterUnitRightIndent { get; set; }
@@ -23,15 +23,15 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ParagraphFormat format = doc.FirstSection.Body.FirstParagraph.ParagraphFormat;
 
-// يوجد أدناه خمسة خيارات مسافات مختلفة ، إلى جانب الخصائص التي يؤثر تكوينها بشكل غير مباشر.
-// 1 - مسافة بادئة يسرى:
+// فيما يلي خمسة خيارات مختلفة للتباعد، بالإضافة إلى الخصائص التي يؤثر تكوينها بشكل غير مباشر.
+// 1 - المسافة البادئة اليسرى:
 Assert.AreEqual(format.LeftIndent, 0.0d);
 
 format.CharacterUnitLeftIndent = 10.0;
 
 Assert.AreEqual(format.LeftIndent, 120.0d);
 
-// 2 - مسافة بادئة يمنى:
+// 2 - المسافة البادئة اليمنى:
 Assert.AreEqual(format.RightIndent, 0.0d); 
 
 format.CharacterUnitRightIndent = -5.5;

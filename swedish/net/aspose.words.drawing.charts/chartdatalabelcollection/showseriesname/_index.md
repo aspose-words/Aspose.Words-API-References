@@ -1,14 +1,14 @@
 ---
 title: ChartDataLabelCollection.ShowSeriesName
 second_title: Aspose.Words för .NET API Referens
-description: ChartDataLabelCollection fast egendom. Returnerar eller ställer in en boolesk för att indikera visningsbeteendet för serienamnet för dataetiketterna för hela serien.  Sannför att visa serienamnet. Falsk att gömma. Som standard falsk .
+description: ChartDataLabelCollection fast egendom. Returnerar eller ställer in en boolesk för att indikera visningsbeteendet för serienamnet för dataetiketterna för hela serien. Sann för att visa serienamnetfalsk att gömma. Som standardfalsk .
 type: docs
-weight: 110
+weight: 130
 url: /sv/net/aspose.words.drawing.charts/chartdatalabelcollection/showseriesname/
 ---
 ## ChartDataLabelCollection.ShowSeriesName property
 
-Returnerar eller ställer in en boolesk för att indikera visningsbeteendet för serienamnet för dataetiketterna för hela serien.  **Sann**för att visa serienamnet. **Falsk** att gömma. Som standard **falsk** .
+Returnerar eller ställer in en boolesk för att indikera visningsbeteendet för serienamnet för dataetiketterna för hela serien. `Sann` för att visa serienamnet;`falsk` att gömma. Som standard`falsk` .
 
 ```csharp
 public bool ShowSeriesName { get; set; }
@@ -31,7 +31,7 @@ Chart chart = builder.InsertChart(ChartType.Bubble, 500, 300).Chart;
 // Rensa diagrammets demodataserie för att börja med ett rent diagram.
 chart.Series.Clear();
 
-  // Lägg till en anpassad serie med X/Y-koordinater och diameter för var och en av bubblorna.
+// Lägg till en anpassad serie med X/Y-koordinater och diameter för var och en av bubblorna.
 ChartSeries series = chart.Series.Add("Aspose Test Series",
     new[] { 2.9, 3.5, 1.1, 4.0, 4.0 },
     new[] { 1.9, 8.5, 2.1, 6.0, 1.5 },

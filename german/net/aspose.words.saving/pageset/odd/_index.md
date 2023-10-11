@@ -16,7 +16,7 @@ public static PageSet Odd { get; }
 
 ### Bemerkungen
 
-Ungerade Seiten haben gerade Indizes, da Seitenindizes nullbasiert sind.
+Ungerade Seiten haben gerade Indizes, da Seitenindizes auf Null basieren.
 
 ### Siehe auch
 

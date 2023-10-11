@@ -1,14 +1,16 @@
 ---
 title: Class TableSubstitutionRule
 second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Fonts.TableSubstitutionRule clase. Regla de sustitución de fuente de tabla.
+description: Aspose.Words.Fonts.TableSubstitutionRule clase. Regla de sustitución de fuentes de tabla.
 type: docs
-weight: 2880
+weight: 3060
 url: /es/net/aspose.words.fonts/tablesubstitutionrule/
 ---
 ## TableSubstitutionRule class
 
-Regla de sustitución de fuente de tabla.
+Regla de sustitución de fuentes de tabla.
+
+Para obtener más información, visite el[Trabajar con fuentes](https://docs.aspose.com/words/net/working-with-fonts/) artículo de documentación.
 
 ```csharp
 public class TableSubstitutionRule : FontSubstitutionRule
@@ -24,20 +26,20 @@ public class TableSubstitutionRule : FontSubstitutionRule
 
 | Nombre | Descripción |
 | --- | --- |
-| [AddSubstitutes](../../aspose.words.fonts/tablesubstitutionrule/addsubstitutes/)(string, params string[]) | Agrega nombres de fuente sustitutos para el nombre de fuente original dado. |
-| [GetSubstitutes](../../aspose.words.fonts/tablesubstitutionrule/getsubstitutes/)(string) | Devuelve una matriz que contiene nombres de fuente sustitutos para el nombre de fuente original especificado. |
-| [Load](../../aspose.words.fonts/tablesubstitutionrule/load/#load)(Stream) | Carga la configuración de sustitución de tablas desde el flujo XML. |
+| [AddSubstitutes](../../aspose.words.fonts/tablesubstitutionrule/addsubstitutes/)(string, params string[]) | Agrega nombres de fuentes sustitutos para el nombre de fuente original dado. |
+| [GetSubstitutes](../../aspose.words.fonts/tablesubstitutionrule/getsubstitutes/)(string) | Devuelve una matriz que contiene nombres de fuentes sustitutos para el nombre de fuente original especificado. |
+| [Load](../../aspose.words.fonts/tablesubstitutionrule/load/#load)(Stream) | Carga la configuración de sustitución de tablas desde la secuencia XML. |
 | [Load](../../aspose.words.fonts/tablesubstitutionrule/load/#load_1)(string) | Carga la configuración de sustitución de tablas desde un archivo XML. |
-| [LoadAndroidSettings](../../aspose.words.fonts/tablesubstitutionrule/loadandroidsettings/)() | Carga la configuración de sustitución de tablas predefinida para la plataforma Linux. |
+| [LoadAndroidSettings](../../aspose.words.fonts/tablesubstitutionrule/loadandroidsettings/)() | Carga la configuración de sustitución de tablas predefinida para la plataforma Android. |
 | [LoadLinuxSettings](../../aspose.words.fonts/tablesubstitutionrule/loadlinuxsettings/)() | Carga la configuración de sustitución de tablas predefinida para la plataforma Linux. |
 | [LoadWindowsSettings](../../aspose.words.fonts/tablesubstitutionrule/loadwindowssettings/)() | Carga la configuración de sustitución de tablas predefinida para la plataforma Windows. |
-| [Save](../../aspose.words.fonts/tablesubstitutionrule/save/#save)(Stream) | Guarda la configuración actual de sustitución de tablas en stream. |
-| [Save](../../aspose.words.fonts/tablesubstitutionrule/save/#save_1)(string) | Guarda la configuración actual de sustitución de tablas en el archivo. |
-| [SetSubstitutes](../../aspose.words.fonts/tablesubstitutionrule/setsubstitutes/)(string, params string[]) | Anula los nombres de fuente sustitutos para el nombre de fuente original dado. |
+| [Save](../../aspose.words.fonts/tablesubstitutionrule/save/#save)(Stream) | Guarda la configuración de sustitución de tabla actual en la secuencia. |
+| [Save](../../aspose.words.fonts/tablesubstitutionrule/save/#save_1)(string) | Guarda la configuración de sustitución de tabla actual en un archivo. |
+| [SetSubstitutes](../../aspose.words.fonts/tablesubstitutionrule/setsubstitutes/)(string, params string[]) | Anular nombres de fuente sustitutos para el nombre de fuente original dado. |
 
 ### Observaciones
 
-Esta regla define la lista de nombres de fuentes sustitutas que se utilizarán si la fuente original no está disponible. Se comprobarán las sustitutas para el nombre de la fuente y el[`AltName`](../fontinfo/altname/) (si lo hay).
+Esta regla define la lista de nombres de fuentes sustitutas que se utilizarán si la fuente original no está disponible. Se verificarán los sustitutos para el nombre de la fuente y el[`AltName`](../fontinfo/altname/) (si corresponde).
 
 ### Ejemplos
 
@@ -61,13 +63,13 @@ tableSubstitutionRule.Save(ArtifactsDir + "FontSettings.TableSubstitutionRule.Wi
 
 // Linux tiene su propia tabla de sustitución.
 // Hay varias fuentes sustitutas para "Times New Roman CE".
-// Si el primer sustituto, "FreeSerif" tampoco está disponible,
-// esta regla recorrerá las demás en la matriz hasta que encuentre una disponible.
+// Si el primer sustituto, "FreeSerif", tampoco está disponible,
+// esta regla recorrerá las demás en la matriz hasta encontrar una disponible.
 tableSubstitutionRule.LoadLinuxSettings();
 Assert.AreEqual(new[] {"FreeSerif", "Liberation Serif", "DejaVu Serif"},
     tableSubstitutionRule.GetSubstitutes("Times New Roman CE").ToArray());
 
-// Guarde la tabla de sustitución de Linux en forma de documento XML mediante un flujo.
+// Guarde la tabla de sustitución de Linux en forma de documento XML mediante una secuencia.
 using (FileStream fileStream = new FileStream(ArtifactsDir + "FontSettings.TableSubstitutionRule.Linux.xml",
     FileMode.Create))
 {

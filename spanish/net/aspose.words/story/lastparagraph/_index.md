@@ -16,7 +16,7 @@ public Paragraph LastParagraph { get; }
 
 ### Ejemplos
 
-Muestra cómo mover la posición del cursor de un DocumentBuilder a un nodo específico.
+Muestra cómo mover la posición del cursor de DocumentBuilder a un nodo específico.
 
 ```csharp
 Document doc = new Document();
@@ -29,13 +29,14 @@ builder.Writeln("Run 1. ");
 // y también siempre termina inmediatamente después de cualquier nodo que el constructor acaba de insertar.
 // Para agregar contenido a una parte diferente del documento,
 // podemos mover el cursor a un nodo diferente con el método "MoveTo".
+builder.MoveTo(doc.FirstSection.Body.FirstParagraph.Runs[0]);
 // El cursor ahora está frente al nodo al que lo movimos.
 // Agregar una segunda ejecución la insertará delante de la primera ejecución.
 builder.Writeln("Run 2. ");
 
 Assert.AreEqual("Run 2. \rRun 1.", doc.GetText().Trim());
 
-// Mueva el cursor al final del documento para continuar agregando texto al final como antes.
+// Mueva el cursor al final del documento para continuar agregando texto hasta el final como antes.
 builder.MoveTo(doc.LastSection.Body.LastParagraph);
 builder.Writeln("Run 3. ");
 

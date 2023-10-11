@@ -3,7 +3,7 @@ title: FieldOptions.LegacyNumberFormat
 second_title: Aspose.Words för .NET API Referens
 description: FieldOptions fast egendom. Hämtar eller ställer in värdet som anger om äldre tidigt än AW 13.10 nummerformat för fält är aktiverat eller inte.
 type: docs
-weight: 140
+weight: 160
 url: /sv/net/aspose.words.fields/fieldoptions/legacynumberformat/
 ---
 ## FieldOptions.LegacyNumberFormat property
@@ -16,11 +16,11 @@ public bool LegacyNumberFormat { get; set; }
 
 ### Anmärkningar
 
-När den här egenskapen är inställd på **Sann**, mallsymbol "#" fungerade som i .net: Ersätter pundtecknet med motsvarande siffra om en sådan finns; annars visas inga symboler i resultatsträngen.
+När den här egenskapen är inställd på`Sann`, mallsymbol "#" fungerade som i .net: Ersätter pundtecknet med motsvarande siffra om en sådan finns; annars visas inga symboler i resultatsträngen.
 
-När den här egenskapen är inställd på **falsk**, mallsymbol "#" fungerar som MS Word: Det här formatobjektet anger de nödvändiga numeriska platserna som ska visas i resultatet. Om resultatet inte innehåller en siffra på den platsen, visar MS Word ett mellanslag. Till exempel, { = 9 + 6 \# $### } visar $15.
+När den här egenskapen är inställd på`falsk`, mallsymbolen "#" fungerar som MS Word: Detta formatobjekt anger de nödvändiga numeriska platserna som ska visas i resultatet. Om resultatet inte innehåller en siffra på den platsen, visar MS Word ett mellanslag. Till exempel, { = 9 + 6 \# $### } visar $15.
 
-Standardvärdet är **falsk**.
+Standardvärdet är`falsk`.
 
 ### Exempel
 

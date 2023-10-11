@@ -20,10 +20,9 @@ Docx ,FlatOpc ,Docm ,Dotm ,Dotx ,Markdown ,Rtf ,WordML ,Doc ,Dot ,Odt ,Ott forma
 
 ### Esempi
 
-Mostra come notificare all'utente se il caricamento del documento ha superato il tempo di caricamento previsto.
+Mostra come avvisare l'utente se il caricamento del documento ha superato il tempo di caricamento previsto.
 
 ```csharp
-[Test]
 public void ProgressCallback()
 {
     LoadingProgressCallback progressCallback = new LoadingProgressCallback();
@@ -38,7 +37,7 @@ public void ProgressCallback()
     {
         Console.WriteLine(exception.Message);
 
-        // Gestisce il problema della durata del caricamento.
+        // Gestisce il problema relativo alla durata del caricamento.
     }
 }
 
@@ -58,7 +57,7 @@ public class LoadingProgressCallback : IDocumentLoadingCallback
     /// <summary>
     /// Metodo di callback chiamato durante il caricamento del documento.
     /// </summary>
-    /// <nome parametro="args">Caricamento argomenti.</param>
+    /// <param name="args">Caricamento degli argomenti.</param>
     public void Notify(DocumentLoadingArgs args)
     {
         DateTime canceledAt = DateTime.Now;
@@ -69,7 +68,7 @@ public class LoadingProgressCallback : IDocumentLoadingCallback
     }
 
     /// <summary>
-    /// Data e ora di avvio del caricamento del documento.
+    /// Data e ora in cui viene avviato il caricamento del documento.
     /// </summary>
     private readonly DateTime mLoadingStartedAt;
 

@@ -1,14 +1,14 @@
 ---
 title: Body.NodeType
 second_title: Aspose.Words für .NET-API-Referenz
-description: Body eigendom. gibt zurück Knotentyp.Body .
+description: Body eigendom. Gibt zurückBody .
 type: docs
 weight: 20
 url: /de/net/aspose.words/body/nodetype/
 ---
 ## Body.NodeType property
 
-gibt zurück **Knotentyp.Body** .
+Gibt zurückBody .
 
 ```csharp
 public override NodeType NodeType { get; }
@@ -30,8 +30,8 @@ builder.Write("Primary footer");
 
 Section section = doc.FirstSection;
 
-// Ein Abschnitt ist ein zusammengesetzter Knoten und kann untergeordnete Knoten enthalten,
-// aber nur, wenn diese untergeordneten Knoten vom Knotentyp "Body" oder "HeaderFooter" sind.
+// Ein Abschnitt ist ein zusammengesetzter Knoten und kann untergeordnete Knoten enthalten.
+// aber nur, wenn diese untergeordneten Knoten vom Knotentyp „Body“ oder „HeaderFooter“ sind.
 foreach (Node node in section)
 {
     switch (node.NodeType)

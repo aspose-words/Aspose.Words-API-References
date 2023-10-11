@@ -1,14 +1,14 @@
 ---
 title: FieldMergeBarcode.ScalingFactor
 second_title: Справочник по API Aspose.Words для .NET
-description: FieldMergeBarcode свойство. Получает или задает масштабный коэффициент для символа. Значение указано в целых процентах допустимые значения 10 1000 .
+description: FieldMergeBarcode свойство. Получает или задает коэффициент масштабирования для символа. Значение указано в целых процентных пунктах допустимые значения 10 1000 .
 type: docs
 weight: 120
 url: /ru/net/aspose.words.fields/fieldmergebarcode/scalingfactor/
 ---
 ## FieldMergeBarcode.ScalingFactor property
 
-Получает или задает масштабный коэффициент для символа. Значение указано в целых процентах, допустимые значения: [10, 1000] .
+Получает или задает коэффициент масштабирования для символа. Значение указано в целых процентных пунктах, допустимые значения: [10, 1000] .
 
 ```csharp
 public string ScalingFactor { get; set; }
@@ -16,19 +16,19 @@ public string ScalingFactor { get; set; }
 
 ### Примеры
 
-Показывает, как выполнять слияние со штрих-кодами QR.
+Показывает, как выполнить объединение почты по QR-штрих-кодам.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Вставьте поле MERGEBARCODE, которое будет принимать значения из источника данных во время слияния.
+// Вставляем поле MERGEBARCODE, которое будет принимать значения из источника данных во время слияния почты.
 // Это поле преобразует все значения в столбце «MyQRCode» источника данных слияния в QR-коды.
 FieldMergeBarcode field = (FieldMergeBarcode)builder.InsertField(FieldType.FieldMergeBarcode, true);
 field.BarcodeType = "QR";
 field.BarcodeValue = "MyQRCode";
 
-// Применение пользовательских цветов и масштабирования.
+// Применяем собственные цвета и масштабирование.
 field.BackgroundColor = "0xF8BD69";
 field.ForegroundColor = "0xB5413B";
 field.ErrorCorrectionLevel = "3";

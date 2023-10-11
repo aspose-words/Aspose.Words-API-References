@@ -8,7 +8,7 @@ url: /de/net/aspose.words/controlchar/nonbreakingspace/
 ---
 ## ControlChar.NonBreakingSpace field
 
-Geschütztes Leerzeichen: "\x00a0".
+Geschütztes Leerzeichen: „\x00a0“.
 
 ```csharp
 public static readonly string NonBreakingSpace;
@@ -16,17 +16,17 @@ public static readonly string NonBreakingSpace;
 
 ### Beispiele
 
-Zeigt, wie einem Dokument verschiedene Steuerzeichen hinzugefügt werden.
+Zeigt, wie man einem Dokument verschiedene Steuerzeichen hinzufügt.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Regelmäßiges Leerzeichen hinzufügen.
+// Ein reguläres Leerzeichen hinzufügen.
 builder.Write("Before space." + ControlChar.SpaceChar + "After space.");
 
-// Fügen Sie ein NBSP hinzu, das ein geschütztes Leerzeichen ist.
-// Im Gegensatz zum regulären Leerzeichen kann dieses Leerzeichen keinen automatischen Zeilenumbruch an seiner Position haben.
+// Fügen Sie ein NBSP hinzu, bei dem es sich um ein geschütztes Leerzeichen handelt.
+// Im Gegensatz zum regulären Leerzeichen kann dieses Leerzeichen an seiner Position keinen automatischen Zeilenumbruch haben.
 builder.Write("Before space." + ControlChar.NonBreakingSpace + "After space.");
 
 // Tabulatorzeichen hinzufügen.
@@ -35,7 +35,7 @@ builder.Write("Before tab." + ControlChar.Tab + "After tab.");
 // Zeilenumbruch hinzufügen.
 builder.Write("Before line break." + ControlChar.LineBreak + "After line break.");
 
-// Fügt eine neue Zeile hinzu und beginnt einen neuen Absatz.
+// Eine neue Zeile hinzufügen und einen neuen Absatz beginnen.
 Assert.AreEqual(1, doc.FirstSection.Body.GetChildNodes(NodeType.Paragraph, true).Count);
 builder.Write("Before line feed." + ControlChar.LineFeed + "After line feed.");
 Assert.AreEqual(2, doc.FirstSection.Body.GetChildNodes(NodeType.Paragraph, true).Count);
@@ -43,22 +43,22 @@ Assert.AreEqual(2, doc.FirstSection.Body.GetChildNodes(NodeType.Paragraph, true)
 // Das Zeilenvorschubzeichen hat zwei Versionen.
 Assert.AreEqual(ControlChar.LineFeed, ControlChar.Lf);
 
-// Carriage Returns und Line Feeds können zusammen durch ein Zeichen dargestellt werden.
+// Wagenrücklauf und Zeilenvorschub können gemeinsam durch ein Zeichen dargestellt werden.
 Assert.AreEqual(ControlChar.CrLf, ControlChar.Cr + ControlChar.Lf);
 
 // Einen Absatzumbruch hinzufügen, der einen neuen Absatz beginnt.
 builder.Write("Before paragraph break." + ControlChar.ParagraphBreak + "After paragraph break.");
 Assert.AreEqual(3, doc.FirstSection.Body.GetChildNodes(NodeType.Paragraph, true).Count);
 
-// Abschnittsumbruch hinzufügen. Dadurch wird kein neuer Abschnitt oder Absatz erstellt.
+// Einen Abschnittsumbruch hinzufügen. Dadurch wird kein neuer Abschnitt oder Absatz erstellt.
 Assert.AreEqual(1, doc.Sections.Count);
 builder.Write("Before section break." + ControlChar.SectionBreak + "After section break.");
 Assert.AreEqual(1, doc.Sections.Count);
 
-// Seitenumbruch hinzufügen.
+// Einen Seitenumbruch hinzufügen.
 builder.Write("Before page break." + ControlChar.PageBreak + "After page break.");
 
-// Ein Seitenumbruch ist derselbe Wert wie ein Abschnittsumbruch.
+// Ein Seitenumbruch hat denselben Wert wie ein Abschnittsumbruch.
 Assert.AreEqual(ControlChar.PageBreak, ControlChar.SectionBreak);
 
 // Einen neuen Abschnitt einfügen und dann seine Spaltenanzahl auf zwei setzen.

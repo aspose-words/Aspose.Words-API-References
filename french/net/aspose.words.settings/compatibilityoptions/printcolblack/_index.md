@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.PrintColBlack
 second_title: Référence de l'API Aspose.Words pour .NET
-description: CompatibilityOptions propriété. Imprimer les couleurs en noir et blanc sans tramage.
+description: CompatibilityOptions propriété. Imprimez les couleurs en noir et blanc sans tramage.
 type: docs
 weight: 400
 url: /fr/net/aspose.words.settings/compatibilityoptions/printcolblack/
 ---
 ## CompatibilityOptions.PrintColBlack property
 
-Imprimer les couleurs en noir et blanc sans tramage.
+Imprimez les couleurs en noir et blanc sans tramage.
 
 ```csharp
 public bool PrintColBlack { get; set; }

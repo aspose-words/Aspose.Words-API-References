@@ -16,21 +16,21 @@ public string Location { get; set; }
 
 ### Примеры
 
-Показывает, чтобы вставить поле GOTOBUTTON.
+Показывает, что нужно вставить поле GOTOBUTTON.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Добавляем поле GOTOBUTTON. Когда мы дважды щелкаем это поле в Microsoft Word,
-// он наведет текстовый курсор на закладку, на имя которой ссылается свойство Location.
+// он переместит текстовый курсор на закладку, на имя которой ссылается свойство Location.
 FieldGoToButton field = (FieldGoToButton)builder.InsertField(FieldType.FieldGoToButton, true);
 field.DisplayText = "My Button";
 field.Location = "MyBookmark";
 
 Assert.AreEqual(" GOTOBUTTON  MyBookmark My Button", field.GetFieldCode());
 
-// Вставьте допустимую закладку для поля, на которое нужно ссылаться.
+// Вставляем действительную закладку для поля, на которое нужно ссылаться.
 builder.InsertBreak(BreakType.PageBreak);
 builder.StartBookmark(field.Location);
 builder.Writeln("Bookmark text contents.");

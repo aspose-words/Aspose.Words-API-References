@@ -3,7 +3,7 @@ title: ParagraphFormat.CharacterUnitFirstLineIndent
 second_title: Aspose.Words för .NET API Referens
 description: ParagraphFormat fast egendom. Hämtar eller ställer in värdet i tecken för första raden eller hängande indrag.
 type: docs
-weight: 60
+weight: 70
 url: /sv/net/aspose.words/paragraphformat/characterunitfirstlineindent/
 ---
 ## ParagraphFormat.CharacterUnitFirstLineIndent property

@@ -19,7 +19,6 @@ public Document Document { get; }
 Показывает, как отслеживать изменения макета с помощью обратного вызова макета.
 
 ```csharp
-[Test]
 public void PageLayoutCallback()
 {
     Document doc = new Document();

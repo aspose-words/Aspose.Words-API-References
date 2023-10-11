@@ -21,7 +21,7 @@ public string UserInitials { get; set; }
 ```csharp
 Document doc = new Document();
 
-// Создаем объект UserInformation и устанавливаем его в качестве источника информации о пользователе для всех создаваемых нами полей.
+// Создайте объект UserInformation и установите его в качестве источника информации о пользователе для любых полей, которые мы создаем.
 UserInformation userInformation = new UserInformation();
 userInformation.Initials = "J. D.";
 doc.FieldOptions.CurrentUser = userInformation;
@@ -35,14 +35,14 @@ Assert.AreEqual(userInformation.Initials, fieldUserInitials.Result);
 Assert.AreEqual(" USERINITIALS ", fieldUserInitials.GetFieldCode());
 Assert.AreEqual("J. D.", fieldUserInitials.Result);
 
- // Мы можем установить это свойство, чтобы наше поле переопределяло значение, хранящееся в настоящее время в объекте UserInformation.
+ // Мы можем установить это свойство, чтобы наше поле переопределяло значение, хранящееся в данный момент в объекте UserInformation.
 fieldUserInitials.UserInitials = "J. C.";
 fieldUserInitials.Update();
 
 Assert.AreEqual(" USERINITIALS  \"J. C.\"", fieldUserInitials.GetFieldCode());
 Assert.AreEqual("J. C.", fieldUserInitials.Result);
 
-// Это не влияет на значение в объекте UserInformation.
+// Это не влияет на значение объекта UserInformation.
 Assert.AreEqual("J. D.", doc.FieldOptions.CurrentUser.Initials);
 
 doc.UpdateFields();

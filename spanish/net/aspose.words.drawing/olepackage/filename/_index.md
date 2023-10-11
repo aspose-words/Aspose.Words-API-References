@@ -1,14 +1,14 @@
 ---
 title: OlePackage.FileName
 second_title: Referencia de API de Aspose.Words para .NET
-description: OlePackage propiedad. Obtiene o establece el nombre de archivo del paquete OLE.
+description: OlePackage propiedad. Obtiene o establece el nombre del archivo del paquete OLE.
 type: docs
 weight: 20
 url: /es/net/aspose.words.drawing/olepackage/filename/
 ---
 ## OlePackage.FileName property
 
-Obtiene o establece el nombre de archivo del paquete OLE.
+Obtiene o establece el nombre del archivo del paquete OLE.
 
 ```csharp
 public string FileName { get; set; }

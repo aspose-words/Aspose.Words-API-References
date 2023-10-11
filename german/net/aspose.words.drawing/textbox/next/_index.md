@@ -1,14 +1,14 @@
 ---
 title: TextBox.Next
 second_title: Aspose.Words für .NET-API-Referenz
-description: TextBox eigendom. Gibt eine TextBox zurück oder legt sie fest die die nächste TextBox in einer Folge von Formen darstellt.
+description: TextBox eigendom. Gibt a zurück oder legt es festTextBox das stellt das nächste darTextBox in einer Folge von Formen.
 type: docs
 weight: 70
 url: /de/net/aspose.words.drawing/textbox/next/
 ---
 ## TextBox.Next property
 
-Gibt eine TextBox zurück oder legt sie fest, die die nächste TextBox in einer Folge von Formen darstellt.
+Gibt a zurück oder legt es fest[`TextBox`](../) das stellt das nächste dar[`TextBox`](../) in einer Folge von Formen.
 
 ```csharp
 public TextBox Next { get; set; }
@@ -62,7 +62,7 @@ if (textBox3.Next == null && textBox3.Previous != null)
 {
     Console.WriteLine("This TextBox is the tail of the sequence");
 
-    // Unterbrechen Sie die Vorwärtsverknüpfung zwischen textBox2 und textBox3 und überprüfen Sie dann, ob sie nicht mehr verknüpft sind.
+    // Unterbrechen Sie die Vorwärtsverknüpfung zwischen textBox2 und textBox3 und stellen Sie dann sicher, dass sie nicht mehr verknüpft sind.
     textBox3.Previous.BreakForwardLink();
 
     Assert.IsTrue(textBox2.Next == null);

@@ -1,14 +1,14 @@
 ---
 title: Section.AppendContent
 second_title: Aspose.Words for .NET API Referansı
-description: Section yöntem. Bu bölümün sonuna kaynak bölümün içeriğinin bir kopyasını ekler.
+description: Section yöntem. Kaynak bölümünün içeriğinin bir kopyasını bu bölümün sonuna ekler.
 type: docs
-weight: 80
+weight: 100
 url: /tr/net/aspose.words/section/appendcontent/
 ---
 ## Section.AppendContent method
 
-Bu bölümün sonuna kaynak bölümün içeriğinin bir kopyasını ekler.
+Kaynak bölümünün içeriğinin bir kopyasını bu bölümün sonuna ekler.
 
 ```csharp
 public void AppendContent(Section sourceSection)
@@ -20,9 +20,9 @@ public void AppendContent(Section sourceSection)
 
 ### Notlar
 
-sadece içeriği[`Body`](../body/) kaynak bölümünün kopyalanması, sayfa düzeni, üstbilgi ve altbilgilerinin kopyalanmaması.
+Yalnızca içeriği[`Body`](../body/) kaynak bölümünün kopyalanması, sayfa düzeni, üstbilgi ve altbilgilerin kopyalanmaması.
 
-Kaynak bölüm farklı bir belgeye aitse düğümler otomatik olarak içe aktarılır.
+Kaynak bölümü farklı bir belgeye aitse düğümler otomatik olarak içe aktarılır.
 
 Hedef belgede yeni bölüm oluşturulmaz.
 
@@ -52,7 +52,7 @@ section.PrependContent(sectionToPrepend);
 Section sectionToAppend = doc.Sections[1];
 section.AppendContent(sectionToAppend);
 
-// "PrependContent" ve "AppendContent" yöntemleri yeni bölüm oluşturmadı.
+// "PrependContent" ve "AppendContent" yöntemleri herhangi bir yeni bölüm oluşturmadı.
 Assert.AreEqual(3, doc.Sections.Count);
 Assert.AreEqual("Section 1" + ControlChar.ParagraphBreak +
                 "Section 3" + ControlChar.ParagraphBreak +

@@ -1,14 +1,14 @@
 ---
 title: FieldOptions.PreProcessCulture
 second_title: Справочник по API Aspose.Words для .NET
-description: FieldOptions свойство. Получает или задает культуру для предварительной обработки значений поля.
+description: FieldOptions свойство. Получает или задает язык и региональные параметры для предварительной обработки значений полей.
 type: docs
-weight: 150
+weight: 170
 url: /ru/net/aspose.words.fields/fieldoptions/preprocessculture/
 ---
 ## FieldOptions.PreProcessCulture property
 
-Получает или задает культуру для предварительной обработки значений поля.
+Получает или задает язык и региональные параметры для предварительной обработки значений полей.
 
 ```csharp
 public CultureInfo PreProcessCulture { get; set; }
@@ -16,9 +16,9 @@ public CultureInfo PreProcessCulture { get; set; }
 
 ### Примечания
 
-В настоящее время это свойство влияет только на значение[`FieldDocProperty`](../../fielddocproperty/) поле.
+В настоящее время это свойство влияет только на стоимость[`FieldDocProperty`](../../fielddocproperty/) поле.
 
-Значение по умолчанию **нулевой** . Когда это свойство установлено в **нулевой** ,[`FieldDocProperty`](../../fielddocproperty/) значение поля предварительно обработано с культурой, контролируемой[`FieldUpdateCultureSource`](../fieldupdateculturesource/) имущество.
+Значение по умолчанию:`нулевой` . Когда для этого свойства установлено значение`нулевой` ,[`FieldDocProperty`](../../fielddocproperty/)значение поля — preprocessed с культурой, контролируемой[`FieldUpdateCultureSource`](../fieldupdateculturesource/) свойство.
 
 ### Примеры
 
@@ -33,8 +33,8 @@ doc.FieldOptions.PreProcessCulture = new CultureInfo("de-DE");
 
 Field field = builder.InsertField(" DOCPROPERTY CreateTime");
 
-// В поле DOCPROPERTY отобразится результат, отформатированный в соответствии с культурой предварительной обработки
-// мы установили немецкий язык. Поле будет отображать дату/время в формате «дд.мм.гггг чч:мм».
+// Поле DOCPROPERTY отобразит результат, отформатированный в соответствии с культурой предварительной обработки.
+// мы установили немецкий язык. В поле будет отображаться дата/время в формате «дд.мм.гггг чч:мм».
 Assert.IsTrue(Regex.Match(field.Result, @"\d{2}[.]\d{2}[.]\d{4} \d{2}[:]\d{2}").Success);
 
 doc.FieldOptions.PreProcessCulture = CultureInfo.InvariantCulture;

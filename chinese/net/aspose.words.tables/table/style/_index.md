@@ -1,14 +1,14 @@
 ---
 title: Table.Style
 second_title: Aspose.Words for .NET API 参考
-description: Table 财产. 获取或设置应用于此表格的表格样式
+description: Table 财产. 获取或设置应用于此表的表格样式
 type: docs
 weight: 270
 url: /zh/net/aspose.words.tables/table/style/
 ---
 ## Table.Style property
 
-获取或设置应用于此表格的表格样式。
+获取或设置应用于此表的表格样式。
 
 ```csharp
 public Style Style { get; set; }
@@ -16,7 +16,7 @@ public Style Style { get; set; }
 
 ### 例子
 
-显示如何为表格创建自定义样式设置。
+演示如何为表格创建自定义样式设置。
 
 ```csharp
 Document doc = new Document();

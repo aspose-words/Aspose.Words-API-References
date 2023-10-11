@@ -1,14 +1,14 @@
 ---
 title: BorderCollection.Horizontal
 second_title: Aspose.Words for .NET API 参考
-description: BorderCollection 财产. 获取单元格或符合段落之间使用的水平边框
+description: BorderCollection 财产. 获取在单元格或一致段落之间使用的水平边框
 type: docs
 weight: 50
 url: /zh/net/aspose.words/bordercollection/horizontal/
 ---
 ## BorderCollection.Horizontal property
 
-获取单元格或符合段落之间使用的水平边框。
+获取在单元格或一致段落之间使用的水平边框。
 
 ```csharp
 public Border Horizontal { get; }
@@ -16,7 +16,7 @@ public Border Horizontal { get; }
 
 ### 例子
 
-显示如何将设置应用于段落格式的水平边框。
+演示如何将水平边框设置应用到段落格式。
 
 ```csharp
 Document doc = new Document();
@@ -28,24 +28,24 @@ borders.Horizontal.Color = Color.Red;
 borders.Horizontal.LineStyle = LineStyle.DashSmallGap;
 borders.Horizontal.LineWidth = 3;
 
-// 将文本写入文档而不创建新段落。
-// 因为下面没有段落，所以水平边框是不可见的。
+// 将文本写入文档，之后不创建新段落。
+// 由于下面没有段落，因此水平边框将不可见。
 builder.Write("Paragraph above horizontal border.");
 
-// 一旦我们添加了第二段，第一段的边框就会变得可见。
+// 一旦我们添加第二个段落，第一个段落的边框将变得可见。
 builder.InsertParagraph();
 builder.Write("Paragraph below horizontal border.");
 
 doc.Save(ArtifactsDir + "Border.HorizontalBorders.docx");
 ```
 
-展示如何将垂直边框设置应用到表格行的格式。
+演示如何将垂直边框设置应用到表格行的格式。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 创建一个带有红色和蓝色内边框的表格。
+// 创建一个具有红色和蓝色内边框的表格。
 Table table = builder.StartTable();
 
 for (int i = 0; i < 3; i++)
@@ -58,12 +58,12 @@ for (int i = 0; i < 3; i++)
     Row row = builder.EndRow();
     BorderCollection borders = row.RowFormat.Borders;
 
-    // 调整将出现在行之间的边框的外观。
+    // 调整行之间出现的边框的外观。
     borders.Horizontal.Color = Color.Red;
     borders.Horizontal.LineStyle = LineStyle.Dot;
     borders.Horizontal.LineWidth = 2.0d;
 
-    // 调整将出现在单元格之间的边框的外观。
+    // 调整单元格之间出现的边框的外观。
     borders.Vertical.Color = Color.Blue;
     borders.Vertical.LineStyle = LineStyle.Dot;
     borders.Vertical.LineWidth = 2.0d;

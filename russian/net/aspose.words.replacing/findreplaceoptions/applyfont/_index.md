@@ -1,14 +1,14 @@
 ---
 title: FindReplaceOptions.ApplyFont
 second_title: Справочник по API Aspose.Words для .NET
-description: FindReplaceOptions свойство. Форматирование текста применяется к новому содержимому.
+description: FindReplaceOptions свойство. Форматирование текста примененное к новому содержимому.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.replacing/findreplaceoptions/applyfont/
 ---
 ## FindReplaceOptions.ApplyFont property
 
-Форматирование текста применяется к новому содержимому.
+Форматирование текста, примененное к новому содержимому.
 
 ```csharp
 public Font ApplyFont { get; }
@@ -19,6 +19,7 @@ public Font ApplyFont { get; }
 Показывает, как применить другой шрифт к новому содержимому с помощью FindReplaceOptions.
 
 ```csharp
+public void ConvertNumbersToHexadecimal()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -27,7 +28,7 @@ public Font ApplyFont { get; }
     builder.Writeln("Numbers that the find-and-replace operation will convert to hexadecimal and highlight:\n" +
                     "123, 456, 789 and 17379.");
 
-    // Мы можем использовать объект «FindReplaceOptions», чтобы изменить процесс поиска и замены.
+    // Мы можем использовать объект «FindReplaceOptions» для изменения процесса поиска и замены.
     FindReplaceOptions options = new FindReplaceOptions();
 
     // Установите для свойства HighlightColor цвет фона, который мы хотим применить к результирующему тексту операции.
@@ -49,7 +50,7 @@ public Font ApplyFont { get; }
 
 /// <summary>
 /// Заменяет числовые совпадения поиска и замены их шестнадцатеричными эквивалентами.
-/// Ведет журнал каждой замены.
+/// Ведёт журнал каждой замены.
 /// </summary>
 private class NumberHexer : IReplacingCallback
 {

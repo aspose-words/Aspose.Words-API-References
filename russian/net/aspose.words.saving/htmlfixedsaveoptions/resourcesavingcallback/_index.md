@@ -1,14 +1,14 @@
 ---
 title: HtmlFixedSaveOptions.ResourceSavingCallback
 second_title: Справочник по API Aspose.Words для .NET
-description: HtmlFixedSaveOptions свойство. Позволяет управлять сохранением ресурсов изображений шрифтов и css при экспорте документа в фиксированный формат страницы Html.
+description: HtmlFixedSaveOptions свойство. Позволяет контролировать сохранение ресурсов изображений шрифтов и CSS при экспорте документа в формат Html с фиксированной страницей.
 type: docs
 weight: 130
 url: /ru/net/aspose.words.saving/htmlfixedsaveoptions/resourcesavingcallback/
 ---
 ## HtmlFixedSaveOptions.ResourceSavingCallback property
 
-Позволяет управлять сохранением ресурсов (изображений, шрифтов и css) при экспорте документа в фиксированный формат страницы Html.
+Позволяет контролировать сохранение ресурсов (изображений, шрифтов и CSS) при экспорте документа в формат Html с фиксированной страницей.
 
 ```csharp
 public IResourceSavingCallback ResourceSavingCallback { get; set; }
@@ -35,7 +35,7 @@ public void HtmlFixedResourceFolder()
         ResourceSavingCallback = callback
     };
 
-    // Папка, указанная в ResourcesFolderAlias, будет содержать ресурсы вместо ResourcesFolder.
+    // Папка, указанная ResourcesFolderAlias, будет содержать ресурсы вместо ResourcesFolder.
     // Мы должны убедиться, что папка существует, прежде чем потоки смогут поместить в нее свои ресурсы.
     Directory.CreateDirectory(options.ResourcesFolderAlias);
 
@@ -50,13 +50,13 @@ public void HtmlFixedResourceFolder()
 }
 
 /// <summary>
-/// Подсчитывает и печатает URI ресурсов, содержащихся в по мере их преобразования в фиксированный HTML.
+/// Подсчитывает и печатает URI ресурсов, содержащихся в них, при их преобразовании в фиксированный HTML.
 /// </summary>
 private class ResourceUriPrinter : IResourceSavingCallback
 {
     void IResourceSavingCallback.ResourceSaving(ResourceSavingArgs args)
     {
-        // Если мы зададим псевдоним папки в объекте SaveOptions, мы сможем распечатать его отсюда.
+        // Если мы установим псевдоним папки в объекте SaveOptions, мы сможем распечатать его отсюда.
         mText.AppendLine($"Resource #{++mSavedResourceCount} \"{args.ResourceFileName}\"");
 
         string extension = Path.GetExtension(args.ResourceFileName);
@@ -65,8 +65,8 @@ private class ResourceUriPrinter : IResourceSavingCallback
             case ".ttf":
             case ".woff":
             {
-                // По умолчанию 'ResourceFileUri' использует системную папку для шрифтов.
-                // Чтобы избежать проблем на других платформах, вы должны явно указать путь к шрифтам.
+                // По умолчанию ResourceFileUri использует системную папку для шрифтов.
+                // Чтобы избежать проблем на других платформах, необходимо явно указать путь к шрифтам.
                 args.ResourceFileUri = ArtifactsDir + Path.DirectorySeparatorChar + args.ResourceFileName;
                 break;
             }

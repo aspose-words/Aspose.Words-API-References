@@ -1,14 +1,14 @@
 ---
 title: GeneralFormatCollection.Item
 second_title: Aspose.Words لمراجع .NET API
-description: GeneralFormatCollection ملكية. الحصول على تنسيق عام بالفهرس المحدد .
+description: GeneralFormatCollection ملكية. الحصول على تنسيق عام في الفهرس المحدد.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/generalformatcollection/item/
 ---
 ## GeneralFormatCollection indexer
 
-الحصول على تنسيق عام بالفهرس المحدد .
+الحصول على تنسيق عام في الفهرس المحدد.
 
 ```csharp
 public GeneralFormat this[int index] { get; }
@@ -16,11 +16,11 @@ public GeneralFormat this[int index] { get; }
 
 | معامل | وصف |
 | --- | --- |
-| index | فهرس التنسيق العام. |
+| index | فهرس الشكل العام. |
 
 ### قيمة الإرجاع
 
-شكل عام.
+صيغة عامة.
 
 ### أمثلة
 
@@ -30,7 +30,7 @@ public GeneralFormat this[int index] { get; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// استخدم منشئ المستندات لإدراج حقل يعرض نتيجة بدون أي تنسيق مطبق.
+// استخدم منشئ المستندات لإدراج حقل يعرض نتيجة بدون تطبيق أي تنسيق.
 Field field = builder.InsertField("= 2 + 3");
 
 Assert.AreEqual("= 2 + 3", field.GetFieldCode());
@@ -46,7 +46,7 @@ field.Update();
 Assert.AreEqual("= 2 + 3 \\# $###.00", field.GetFieldCode());
 Assert.AreEqual("$  5.00", field.Result);
 
-// 2 - تنسيق التاريخ / الوقت:
+// 2 - تنسيق التاريخ/الوقت:
 field = builder.InsertField("DATE");
 format = field.Format;
 format.DateTimeFormat = "dddd, MMMM dd, yyyy";
@@ -72,7 +72,7 @@ Assert.AreEqual("LVIII", field.Result);
 Assert.AreEqual(2, format.GeneralFormats.Count);
 Assert.AreEqual(GeneralFormat.LowercaseRoman, format.GeneralFormats[0]);
 
-// يمكننا إزالة التنسيقات الخاصة بنا لإعادة نتيجة الحقل إلى شكله الأصلي.
+// يمكننا إزالة التنسيقات الخاصة بنا لإعادة نتيجة الحقل إلى شكلها الأصلي.
 format.GeneralFormats.Remove(GeneralFormat.LowercaseRoman);
 format.GeneralFormats.RemoveAt(0);
 Assert.AreEqual(0, format.GeneralFormats.Count);

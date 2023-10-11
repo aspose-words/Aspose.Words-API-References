@@ -1,14 +1,14 @@
 ---
 title: Font.UnderlineColor
 second_title: Aspose.Words für .NET-API-Referenz
-description: Font eigendom. Ruft die Farbe der auf die Schriftart angewendeten Unterstreichung ab oder legt sie fest.
+description: Font eigendom. Ruft die Farbe der auf die Schriftart angewendeten Unterstreichung ab oder legt diese fest.
 type: docs
 weight: 540
 url: /de/net/aspose.words/font/underlinecolor/
 ---
 ## Font.UnderlineColor property
 
-Ruft die Farbe der auf die Schriftart angewendeten Unterstreichung ab oder legt sie fest.
+Ruft die Farbe der auf die Schriftart angewendeten Unterstreichung ab oder legt diese fest.
 
 ```csharp
 public Color UnderlineColor { get; set; }

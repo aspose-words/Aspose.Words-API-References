@@ -1,14 +1,14 @@
 ---
 title: Shape.HasImage
 second_title: Referencia de API de Aspose.Words para .NET
-description: Shape propiedad. Devuelve verdadero si la forma tiene bytes de imagen o vincula una imagen.
+description: Shape propiedad. Devolucionesverdadero si la forma tiene bytes de imagen o vincula una imagen.
 type: docs
 weight: 80
 url: /es/net/aspose.words.drawing/shape/hasimage/
 ---
 ## Shape.HasImage property
 
-Devuelve verdadero si la forma tiene bytes de imagen o vincula una imagen.
+Devoluciones`verdadero` si la forma tiene bytes de imagen o vincula una imagen.
 
 ```csharp
 public bool HasImage { get; }
@@ -37,7 +37,7 @@ Muestra cómo extraer imágenes de un documento y guardarlas en el sistema de ar
 Document doc = new Document(MyDir + "Images.docx");
 
 // Obtener la colección de formas del documento,
-// y guarde los datos de imagen de cada forma con una imagen como un archivo en el sistema de archivos local.
+// y guarda los datos de la imagen de cada forma con una imagen como un archivo en el sistema de archivos local.
 NodeCollection shapes = doc.GetChildNodes(NodeType.Shape, true);
 
 Assert.AreEqual(9, shapes.Count(s => ((Shape)s).HasImage));
@@ -47,8 +47,8 @@ foreach (Shape shape in shapes.OfType<Shape>())
 {
     if (shape.HasImage)
     {
-        // Los datos de imagen de las formas pueden contener imágenes de muchos formatos de imagen posibles. 
-        // Podemos determinar una extensión de archivo para cada imagen automáticamente, en función de su formato.
+         // Los datos de imagen de las formas pueden contener imágenes de muchos formatos de imagen posibles.
+        // Podemos determinar una extensión de archivo para cada imagen automáticamente, según su formato.
         string imageFileName =
             $"File.ExtractImages.{imageIndex}{FileFormatUtil.ImageTypeToExtension(shape.ImageData.ImageType)}";
         shape.ImageData.Save(ArtifactsDir + imageFileName);

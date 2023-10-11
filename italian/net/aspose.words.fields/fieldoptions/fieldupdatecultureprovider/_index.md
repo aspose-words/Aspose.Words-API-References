@@ -3,7 +3,7 @@ title: FieldOptions.FieldUpdateCultureProvider
 second_title: Aspose.Words per .NET API Reference
 description: FieldOptions proprietà. Ottiene o imposta un provider che restituisce un oggetto cultura specifico per ogni campo particolare.
 type: docs
-weight: 90
+weight: 100
 url: /it/net/aspose.words.fields/fieldoptions/fieldupdatecultureprovider/
 ---
 ## FieldOptions.FieldUpdateCultureProvider property
@@ -16,16 +16,15 @@ public IFieldUpdateCultureProvider FieldUpdateCultureProvider { get; set; }
 
 ### Osservazioni
 
-Il provider è richiesto quando il valore di[`FieldUpdateCultureSource`](../fieldupdateculturesource/) è **FieldUpdateCultureSource.FieldCode**.
+Il provider viene richiesto quando il valore di[`FieldUpdateCultureSource`](../fieldupdateculturesource/) ÈFieldCode.
 
-Se il provider è presente, l'oggetto cultura restituito viene utilizzato per l'aggiornamento del campo. In caso contrario, vengono utilizzate le impostazioni cultura del sistema.
+Se il provider è presente, l'oggetto cultura restituito viene utilizzato per l'aggiornamento del campo. Altrimenti viene utilizzata una cultura di sistema.
 
 ### Esempi
 
-Mostra come specificare una lingua che analizzi la formattazione di data/ora per ogni campo.
+Mostra come specificare una lingua che analizza la formattazione di data/ora per ogni campo.
 
 ```csharp
-[Test]
 public void DefineDateTimeFormatting()
 {
     Document doc = new Document();
@@ -35,7 +34,7 @@ public void DefineDateTimeFormatting()
 
     doc.FieldOptions.FieldUpdateCultureSource = FieldUpdateCultureSource.FieldCode;
 
-    // Imposta un provider che restituisca un oggetto cultura specifico per ogni campo.
+    // Imposta un provider che restituisce un oggetto cultura specifico per ciascun campo.
     doc.FieldOptions.FieldUpdateCultureProvider = new FieldUpdateCultureProvider();
 
     FieldTime fieldDate = (FieldTime)doc.Range.Fields[0];
@@ -46,7 +45,7 @@ public void DefineDateTimeFormatting()
 }
 
 /// <summary>
-/// Fornisce un oggetto CultureInfo da utilizzare durante l'aggiornamento di un campo.
+/// Fornisce un oggetto CultureInfo che deve essere utilizzato durante l'aggiornamento di un campo.
 /// </summary>
 private class FieldUpdateCultureProvider : IFieldUpdateCultureProvider
 {

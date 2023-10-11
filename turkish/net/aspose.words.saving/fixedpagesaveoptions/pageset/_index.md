@@ -16,7 +16,7 @@ public PageSet PageSet { get; set; }
 
 ### Örnekler
 
-Tam sayfa dizinlerine göre sayfaların nasıl çıkarılacağını gösterir.
+Tam sayfa indekslerine göre sayfaların nasıl çıkarılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -29,18 +29,18 @@ for (int i = 1; i < 6; i++)
     builder.InsertBreak(BreakType.PageBreak);
 }
 
-// Belgenin "Kaydet" yöntemine aktarabileceğimiz bir "XpsSaveOptions" nesnesi oluşturun
-// bu yöntemin belgeyi .XPS'ye dönüştürme şeklini değiştirmek için.
+// Belgenin "Save" yöntemine aktarabileceğimiz bir "XpsSaveOptions" nesnesi oluşturun
+// bu yöntemin belgeyi .XPS'e dönüştürme biçimini değiştirmek için.
 XpsSaveOptions xpsOptions = new XpsSaveOptions();
 
-// XPS çıktısına kaydedilecek belge sayfaları kümesini seçmek için "PageSet" özelliğini kullanın.
-// Bu durumda, sıfır tabanlı bir dizin aracılığıyla yalnızca üç sayfa seçeceğiz: sayfa 1, sayfa 2 ve sayfa 4.
+// XPS çıktısı olarak kaydedilecek belge sayfalarının bir kümesini seçmek için "PageSet" özelliğini kullanın.
+// Bu durumda, sıfır tabanlı bir dizin aracılığıyla yalnızca üç sayfayı seçeceğiz: sayfa 1, sayfa 2 ve sayfa 4.
 xpsOptions.PageSet = new PageSet(0, 1, 3);
 
 doc.Save(ArtifactsDir + "XpsSaveOptions.ExportExactPages.xps", xpsOptions);
 ```
 
-Bir belgedeki yalnızca bazı sayfaların nasıl PDF'ye dönüştürüleceğini gösterir.
+Bir belgedeki sayfaların yalnızca bazılarının PDF'ye nasıl dönüştürüleceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -54,14 +54,14 @@ builder.Writeln("Page 3.");
 
 using (Stream stream = File.Create(ArtifactsDir + "PdfSaveOptions.OnePage.pdf"))
 {
-    // Belgenin "Kaydet" yöntemine aktarabileceğimiz bir "PdfSaveOptions" nesnesi oluşturun
-    // bu yöntemin belgeyi .PDF'ye dönüştürme şeklini değiştirmek için.
+    // Belgenin "Save" yöntemine aktarabileceğimiz bir "PdfSaveOptions" nesnesi oluşturun
+    // bu yöntemin belgeyi .PDF'ye dönüştürme biçimini değiştirmek için.
     PdfSaveOptions options = new PdfSaveOptions();
 
-    // İkinci sayfadan başlayarak belgenin bir bölümünü oluşturmak için "PageIndex"i "1" olarak ayarlayın.
+    // Belgenin ikinci sayfadan başlayarak bir kısmını oluşturmak için "PageIndex"i "1" olarak ayarlayın.
     options.PageSet = new PageSet(1);
 
-    // Bu belge, ikinci sayfadan başlayarak yalnızca ikinci sayfayı içerecek olan bir sayfa içerecektir.
+    // Bu belge ikinci sayfadan başlayarak yalnızca ikinci sayfayı içerecek bir sayfa içerecektir.
     doc.Save(stream, options);
 }
 ```
@@ -79,12 +79,12 @@ for (int i = 0; i < 5; i++)
         builder.InsertBreak(BreakType.PageBreak);
 }
 
-// Belgenin "Kaydet" yöntemine aktarabileceğimiz bir "PdfSaveOptions" nesnesi oluşturun
-// bu yöntemin belgeyi .PDF'ye dönüştürme şeklini değiştirmek için.
+// Belgenin "Save" yöntemine aktarabileceğimiz bir "PdfSaveOptions" nesnesi oluşturun
+// bu yöntemin belgeyi .PDF'ye dönüştürme biçimini değiştirmek için.
 PdfSaveOptions options = new PdfSaveOptions();
 
-// Aşağıda, bir sayfa kümesini filtrelemek için kullanabileceğimiz üç PageSet özelliği bulunmaktadır.
-// sayfa numaralarının paritesine göre bir çıktı PDF belgesine kaydedilecek belgemiz.
+// Aşağıda, bir grup sayfayı filtrelemek için kullanabileceğimiz üç PageSet özelliği bulunmaktadır.
+// belgemizi sayfa numaralarının denkliğine göre çıktı PDF belgesine kaydedeceğiz.
 // 1 - Yalnızca çift sayılı sayfaları kaydedin:
 options.PageSet = PageSet.Even;
 

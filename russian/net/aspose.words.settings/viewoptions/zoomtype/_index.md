@@ -39,12 +39,12 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 
-// Установите для свойства "ZoomType" значение "ZoomType.PageWidth", чтобы получить Microsoft Word
+// Установите для свойства «ZoomType» значение «ZoomType.PageWidth», чтобы получить Microsoft Word
 // для автоматического масштабирования документа по ширине страницы.
-// Установите для свойства "ZoomType" значение "ZoomType.FullPage", чтобы получить Microsoft Word
-// для автоматического масштабирования документа, чтобы была видна вся первая страница.
-// Установите для свойства "ZoomType" значение "ZoomType.TextFit", чтобы получить Microsoft Word
-// для автоматического масштабирования документа, чтобы он соответствовал внутренним полям текста первой страницы.
+// Установите для свойства «ZoomType» значение «ZoomType.FullPage», чтобы получить Microsoft Word
+// для автоматического масштабирования документа, чтобы сделать видимой всю первую страницу.
+// Установите для свойства «ZoomType» значение «ZoomType.TextFit», чтобы получить Microsoft Word
+// для автоматического масштабирования документа по размеру внутренних полей текста первой страницы.
 doc.ViewOptions.ZoomType = zoomType;
 
 doc.Save(ArtifactsDir + "ViewOptions.SetZoomType.doc");

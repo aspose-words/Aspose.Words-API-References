@@ -16,21 +16,21 @@ public int DefaultBookmarksOutlineLevel { get; set; }
 
 ### Osservazioni
 
-Il livello dei segnalibri individuali può essere specificato utilizzando[`BookmarksOutlineLevels`](../bookmarksoutlinelevels/) proprietà.
+È possibile specificare il livello dei singoli segnalibri utilizzando[`BookmarksOutlineLevels`](../bookmarksoutlinelevels/) proprietà.
 
-Specificare 0 e i segnalibri di Word non verranno visualizzati nella struttura del documento. Specificare 1 e i segnalibri di Word verranno visualizzati nella struttura del documento al livello 1; 2 per il livello 2 e così via.
+Specifica 0 e i segnalibri di Word non verranno visualizzati nella struttura del documento. Specifica 1 e i segnalibri di Word verranno visualizzati nella struttura del documento al livello 1; 2 per il livello 2 e così via.
 
 Il valore predefinito è 0. L'intervallo valido è compreso tra 0 e 9.
 
 ### Esempi
 
-Mostra per elaborare i segnalibri nelle intestazioni/piè di pagina in un documento di cui stiamo effettuando il rendering in PDF.
+Mostra per elaborare i segnalibri nelle intestazioni/piè di pagina in un documento che stiamo convertendo in PDF.
 
 ```csharp
 Document doc = new Document(MyDir + "Bookmarks in headers and footers.docx");
 
 // Crea un oggetto "PdfSaveOptions" che possiamo passare al metodo "Save" del documento
-// per modificare il modo in cui quel metodo converte il documento in .PDF.
+// per modificare il modo in cui il metodo converte il documento in .PDF.
 PdfSaveOptions saveOptions = new PdfSaveOptions();
 
 // Imposta la proprietà "PageMode" su "PdfPageMode.UseOutlines" per visualizzare il riquadro di navigazione della struttura nel PDF di output.
@@ -41,7 +41,7 @@ saveOptions.PageMode = PdfPageMode.UseOutlines;
 saveOptions.OutlineOptions.DefaultBookmarksOutlineLevel = 1;
 
 // Imposta la proprietà "HeaderFooterBookmarksExportMode" su "HeaderFooterBookmarksExportMode.None" su
-// non esporta i segnalibri che si trovano all'interno di intestazioni/piè di pagina.
+// non esporta alcun segnalibro che si trova all'interno di intestazioni/piè di pagina.
 // Imposta la proprietà "HeaderFooterBookmarksExportMode" su "HeaderFooterBookmarksExportMode.First" su
 // esporta solo i segnalibri nell'intestazione/piè di pagina della prima sezione.
 // Imposta la proprietà "HeaderFooterBookmarksExportMode" su "HeaderFooterBookmarksExportMode.All" su

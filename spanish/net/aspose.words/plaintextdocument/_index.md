@@ -3,12 +3,14 @@ title: Class PlainTextDocument
 second_title: Referencia de API de Aspose.Words para .NET
 description: Aspose.Words.PlainTextDocument clase. Permite extraer la representación en texto plano del contenido del documento.
 type: docs
-weight: 4190
+weight: 4440
 url: /es/net/aspose.words/plaintextdocument/
 ---
 ## PlainTextDocument class
 
 Permite extraer la representación en texto plano del contenido del documento.
+
+Para obtener más información, visite el[Trabajar con documento de texto](https://docs.aspose.com/words/net/working-with-text-document/) artículo de documentación.
 
 ```csharp
 public class PlainTextDocument
@@ -18,8 +20,8 @@ public class PlainTextDocument
 
 | Nombre | Descripción |
 | --- | --- |
-| [PlainTextDocument](plaintextdocument/#constructor)(Stream) | Crea un documento de texto sin formato a partir de una secuencia. Detecta automáticamente el formato de archivo. |
-| [PlainTextDocument](plaintextdocument/#constructor_2)(string) | Crea un documento de texto sin formato a partir de un archivo. Detecta automáticamente el formato de archivo. |
+| [PlainTextDocument](plaintextdocument/#constructor)(Stream) | Crea un documento de texto sin formato a partir de una secuencia. Detecta automáticamente el formato del archivo. |
+| [PlainTextDocument](plaintextdocument/#constructor_2)(string) | Crea un documento de texto sin formato a partir de un archivo. Detecta automáticamente el formato del archivo. |
 | [PlainTextDocument](plaintextdocument/#constructor_1)(Stream, LoadOptions) | Crea un documento de texto sin formato a partir de una secuencia. Permite especificar opciones adicionales como una contraseña de cifrado. |
 | [PlainTextDocument](plaintextdocument/#constructor_3)(string, LoadOptions) | Crea un documento de texto sin formato a partir de un archivo. Permite especificar opciones adicionales como una contraseña de cifrado. |
 

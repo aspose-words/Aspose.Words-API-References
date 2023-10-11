@@ -3,7 +3,7 @@ title: Enum RevisionsView
 second_title: Aspose.Words لمراجع .NET API
 description: Aspose.Words.RevisionsView تعداد. يسمح بتحديد ما إذا كان سيتم العمل مع النسخة الأصلية أو المنقحة من المستند.
 type: docs
-weight: 4550
+weight: 4810
 url: /ar/net/aspose.words/revisionsview/
 ---
 ## RevisionsView enumeration
@@ -18,12 +18,12 @@ public enum RevisionsView
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| Original | `0` | تحديد الإصدار الأصلي من المستند. |
-| Final | `1` | تحديد نسخة منقحة من المستند. |
+| Original | `0` | يحدد النسخة الأصلية للمستند. |
+| Final | `1` | يحدد النسخة المنقحة من المستند. |
 
 ### أمثلة
 
-يوضح كيفية التبديل بين العرض الذي تمت مراجعته وعرضه الأصلي للمستند.
+يوضح كيفية التبديل بين العرض الأصلي والمراجع للمستند.
 
 ```csharp
 Document doc = new Document(MyDir + "Revisions at list levels.docx");

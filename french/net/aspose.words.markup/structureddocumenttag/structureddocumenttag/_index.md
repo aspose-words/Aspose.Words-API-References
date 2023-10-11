@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTag.StructuredDocumentTag
 second_title: Référence de l'API Aspose.Words pour .NET
-description: StructuredDocumentTag constructeur. Initialise une nouvelle instance du Balise de document structurée classe.
+description: StructuredDocumentTag constructeur. Initialise une nouvelle instance du Balise de document structuré classe.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.markup/structureddocumenttag/structureddocumenttag/
 ---
 ## StructuredDocumentTag constructor
 
-Initialise une nouvelle instance du **Balise de document structurée** classe.
+Initialise une nouvelle instance du **Balise de document structuré** classe.
 
 ```csharp
 public StructuredDocumentTag(DocumentBase doc, SdtType type, MarkupLevel level)
@@ -36,7 +36,7 @@ Les types de SDT suivants peuvent être créés :
 
 ### Exemples
 
-Montrez comment créer une balise de document structurée sous la forme d'une case à cocher.
+Montrez comment créer une balise de document structuré sous la forme d'une case à cocher.
 
 ```csharp
 Document doc = new Document();
@@ -45,7 +45,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 StructuredDocumentTag sdtCheckBox =
     new StructuredDocumentTag(doc, SdtType.Checkbox, MarkupLevel.Inline) {Checked = true};
 
-// Nous pouvons définir les symboles utilisés pour représenter l'état coché/décoché d'un contrôle de contenu de case à cocher.
+// Nous pouvons définir les symboles utilisés pour représenter l'état coché/non coché d'un contrôle de contenu de case à cocher.
 sdtCheckBox.SetCheckedSymbol(0x00A9, "Times New Roman");
 sdtCheckBox.SetUncheckedSymbol(0x00AE, "Times New Roman");
 

@@ -1,14 +1,14 @@
 ---
 title: Border.LineWidth
 second_title: Aspose.Words لمراجع .NET API
-description: Border ملكية. الحصول على أو تحديد عرض الحد بالنقاط .
+description: Border ملكية. الحصول على أو تعيين عرض الحدود بالنقاط.
 type: docs
 weight: 50
 url: /ar/net/aspose.words/border/linewidth/
 ---
 ## Border.LineWidth property
 
-الحصول على أو تحديد عرض الحد بالنقاط .
+الحصول على أو تعيين عرض الحدود بالنقاط.
 
 ```csharp
 public double LineWidth { get; set; }
@@ -16,11 +16,11 @@ public double LineWidth { get; set; }
 
 ### ملاحظات
 
-إذا قمت بتعيين عرض الخط أكبر من الصفر عندما يكون نمط الخط بلا شيء ، فسيتم تغيير نمط الخط تلقائيًا إلى سطر واحد.
+إذا قمت بتعيين عرض الخط أكبر من الصفر عندما يكون نمط الخط بلا شيء، فسيتم تغيير نمط الخط is تلقائيًا إلى سطر واحد.
 
 ### أمثلة
 
-يوضح كيفية إدراج سلسلة محاطة بحد في المستند.
+يوضح كيفية إدراج سلسلة محاطة بحد في مستند.
 
 ```csharp
 Document doc = new Document();

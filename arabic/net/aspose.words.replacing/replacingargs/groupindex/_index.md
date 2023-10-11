@@ -1,14 +1,14 @@
 ---
 title: ReplacingArgs.GroupIndex
 second_title: Aspose.Words لمراجع .NET API
-description: ReplacingArgs ملكية. يحدد  عن طريق الفهرس  مجموعة تم التقاطها في ملفMatch الذي سيتم استبداله بامتدادReplacement السلسلة .
+description: ReplacingArgs ملكية. يحدد حسب الفهرس المجموعة الملتقطة فيMatch الذي سيتم استبداله بـReplacement سلسلة.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.replacing/replacingargs/groupindex/
 ---
 ## ReplacingArgs.GroupIndex property
 
-يحدد ، عن طريق الفهرس ، مجموعة تم التقاطها في ملف[`Match`](../match/) الذي سيتم استبداله بامتداد[`Replacement`](../replacement/) السلسلة .
+يحدد، حسب الفهرس، المجموعة الملتقطة في[`Match`](../match/) الذي سيتم استبداله بـ[`Replacement`](../replacement/) سلسلة.
 
 ```csharp
 public int GroupIndex { get; set; }
@@ -16,15 +16,16 @@ public int GroupIndex { get; set; }
 
 ### ملاحظات
 
-`GroupIndex` له تأثير فقط عندما[`GroupName`](../groupname/) باطل.
+`GroupIndex`له تأثير فقط عندما[`GroupName`](../groupname/) يكون`باطل`.
 
 الافتراضي هو صفر.
 
 ### أمثلة
 
-يوضح كيفية تطبيق خط مختلف على محتوى جديد عبر FindReplaceOptions.
+يوضح كيفية تطبيق خط مختلف على المحتوى الجديد عبر FindReplaceOptions.
 
 ```csharp
+public void ConvertNumbersToHexadecimal()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -36,7 +37,7 @@ public int GroupIndex { get; set; }
     // يمكننا استخدام كائن "FindReplaceOptions" لتعديل عملية البحث والاستبدال.
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // اضبط خاصية "HighlightColor" على لون الخلفية الذي نريد تطبيقه على النص الناتج للعملية.
+    // قم بتعيين خاصية "HighlightColor" على لون الخلفية الذي نريد تطبيقه على النص الناتج عن العملية.
     options.ApplyFont.HighlightColor = Color.LightGray;
 
     NumberHexer numberHexer = new NumberHexer();

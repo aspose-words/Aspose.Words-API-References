@@ -3,7 +3,7 @@ title: Stroke.StartArrowWidth
 second_title: Aspose.Words för .NET API Referens
 description: Stroke fast egendom. Definierar pilspetsens bredd för början av ett slag.
 type: docs
-weight: 170
+weight: 190
 url: /sv/net/aspose.words.drawing/stroke/startarrowwidth/
 ---
 ## Stroke.StartArrowWidth property

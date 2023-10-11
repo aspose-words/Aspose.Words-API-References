@@ -16,9 +16,9 @@ public int Id { get; }
 
 ### Примечания
 
-Область должна быть разграничена с помощью[`EditableRangeStart`](../editablerangestart/) а также[`EditableRangeEnd`](../editablerangeend/)
+Территория должна быть разграничена с помощью[`EditableRangeStart`](../editablerangestart/) и[`EditableRangeEnd`](../editablerangeend/)
 
-Редактируемые идентификаторы диапазонов должны быть уникальными в документе, и Aspose.Words автоматически поддерживает редактируемые идентификаторы диапазонов при загрузке, сохранении и объединении документов.
+Идентификаторы редактируемого диапазона должны быть уникальными во всем документе, и Aspose.Words автоматически поддерживает идентификаторы редактируемого диапазона при загрузке, сохранении и объединении документов.
 
 ### Примеры
 
@@ -37,8 +37,8 @@ EditableRangeStart editableRangeStart = builder.StartEditableRange();
 builder.Writeln("This paragraph is inside an editable range, and can be edited.");
 EditableRangeEnd editableRangeEnd = builder.EndEditableRange();
 
-// Правильно сформированный редактируемый диапазон имеет начальный узел и конечный узел.
-// Эти узлы имеют совпадающие идентификаторы и охватывают редактируемые узлы.
+// Правильно сформированный редактируемый диапазон имеет начальный и конечный узлы.
+// Эти узлы имеют совпадающие идентификаторы и включают в себя редактируемые узлы.
 EditableRange editableRange = editableRangeStart.EditableRange;
 
 Assert.AreEqual(editableRangeStart.Id, editableRange.Id);
@@ -50,8 +50,8 @@ Assert.AreEqual(editableRangeStart.Id, editableRangeEnd.EditableRangeStart.Id);
 Assert.AreEqual(editableRange.Id, editableRangeStart.EditableRange.Id);
 Assert.AreEqual(editableRangeEnd.Id, editableRange.EditableRangeEnd.Id);
 
-// Мы можем получить доступ к типам узлов каждой части следующим образом. Редактируемый диапазон сам по себе не является узлом,
-// но объект, который состоит из начала, конца и заключенного в них содержимого.
+// Мы можем получить доступ к типам узлов каждой части следующим образом. Редактируемый диапазон сам по себе не является узлом.
+// но сущность, состоящая из начала, конца и их содержимого.
 Assert.AreEqual(NodeType.EditableRangeStart, editableRangeStart.NodeType);
 Assert.AreEqual(NodeType.EditableRangeEnd, editableRangeEnd.NodeType);
 
@@ -59,7 +59,7 @@ builder.Writeln("This paragraph is outside the editable range, and cannot be edi
 
 doc.Save(ArtifactsDir + "EditableRange.CreateAndRemove.docx");
 
-// Удалить редактируемый диапазон. Все узлы, которые были внутри диапазона, останутся нетронутыми.
+// Удалить редактируемый диапазон. Все узлы, находившиеся внутри диапазона, останутся нетронутыми.
 editableRange.Remove();
 ```
 

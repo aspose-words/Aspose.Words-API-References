@@ -3,7 +3,7 @@ title: Enum PdfFontEmbeddingMode
 second_title: Справочник по API Aspose.Words для .NET
 description: Aspose.Words.Saving.PdfFontEmbeddingMode перечисление. Указывает как Aspose.Words должен встраивать шрифты.
 type: docs
-weight: 5190
+weight: 5470
 url: /ru/net/aspose.words.saving/pdffontembeddingmode/
 ---
 ## PdfFontEmbeddingMode enumeration
@@ -24,28 +24,28 @@ public enum PdfFontEmbeddingMode
 
 ### Примеры
 
-Показывает, как настроить Aspose.Words, чтобы пропустить встраивание шрифтов Arial и Times New Roman в документ PDF.
+Показывает, как настроить Aspose.Words для пропуска встраивания шрифтов Arial и Times New Roman в PDF-документ.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// «Arial» — стандартный шрифт, «Courier New» — нестандартный шрифт.
+// «Arial» — стандартный шрифт, а «Courier New» — нестандартный шрифт.
 builder.Font.Name = "Arial";
 builder.Writeln("Hello world!");
 builder.Font.Name = "Courier New";
 builder.Writeln("The quick brown fox jumps over the lazy dog.");
 
-// Создаем объект "PdfSaveOptions", который мы можем передать в метод "Сохранить" документа
-// для изменения того, как этот метод преобразует документ в .PDF.
+// Создаем объект «PdfSaveOptions», который мы можем передать методу «Save» документа.
+// чтобы изменить способ преобразования этого метода в .PDF.
 PdfSaveOptions options = new PdfSaveOptions();
 
-// Установите для свойства "EmbedFullFonts" значение "true", чтобы встроить каждый глиф каждого встроенного шрифта в выходной PDF-файл.
+// Установите для свойства «EmbedFullFonts» значение «true», чтобы встроить каждый глиф каждого встроенного шрифта в выходной PDF-файл.
 options.EmbedFullFonts = true;
 
-// Установите для свойства «FontEmbeddingMode» значение «EmbedAll», чтобы встроить все шрифты в выходной PDF-файл.
-// Установите для свойства «FontEmbeddingMode» значение «EmbedNonstandard», чтобы разрешить встраивание только нестандартных шрифтов в выходной PDF-файл.
-// Установите для свойства «FontEmbeddingMode» значение «EmbedNone», чтобы не встраивать какие-либо шрифты в выходной PDF-файл.
+// Установите для свойства FontEmbeddingMode значение «EmbedAll», чтобы встроить все шрифты в выходной PDF-файл.
+// Установите для свойства FontEmbeddingMode значение «EmbedNonstandard», чтобы разрешить встраивание только нестандартных шрифтов в выходной PDF-файл.
+// Установите для свойства FontEmbeddingMode значение «EmbedNone», чтобы не встраивать шрифты в выходной PDF-файл.
 options.FontEmbeddingMode = pdfFontEmbeddingMode;
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.EmbedWindowsFonts.pdf", options);
@@ -59,7 +59,7 @@ switch (pdfFontEmbeddingMode)
         Assert.That(480000, Is.LessThan(new FileInfo(ArtifactsDir + "PdfSaveOptions.EmbedWindowsFonts.pdf").Length));
         break;
     case PdfFontEmbeddingMode.EmbedNone:
-        Assert.That(4217, Is.AtLeast(new FileInfo(ArtifactsDir + "PdfSaveOptions.EmbedWindowsFonts.pdf").Length));
+        Assert.That(4255, Is.AtLeast(new FileInfo(ArtifactsDir + "PdfSaveOptions.EmbedWindowsFonts.pdf").Length));
         break;
 }
 ```

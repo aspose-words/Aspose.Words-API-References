@@ -1,14 +1,14 @@
 ---
 title: Font.ClearFormatting
 second_title: Aspose.Words für .NET-API-Referenz
-description: Font methode. Setzt auf Standardschriftformatierung zurück.
+description: Font methode. Setzt die Standardschriftartformatierung zurück.
 type: docs
 weight: 550
 url: /de/net/aspose.words/font/clearformatting/
 ---
 ## Font.ClearFormatting method
 
-Setzt auf Standardschriftformatierung zurück.
+Setzt die Standardschriftartformatierung zurück.
 
 ```csharp
 public void ClearFormatting()
@@ -16,11 +16,11 @@ public void ClearFormatting()
 
 ### Bemerkungen
 
-Entfernt alle explizit für das Objekt angegebenen Schriftformatierungen von which  **Schriftart** abgerufen wurde, wird die Schriftartformatierung von dem entsprechenden übergeordneten Element geerbt.
+Entfernt alle explizit für das Objekt angegebenen Schriftartformatierungen aus which [`Font`](../) wurde erhalten, sodass die Schriftartformatierung vom entsprechenden übergeordneten Element geerbt wird.
 
 ### Beispiele
 
-Zeigt, wie ein Hyperlink-Feld eingefügt wird.
+Zeigt, wie ein Hyperlinkfeld eingefügt wird.
 
 ```csharp
 Document doc = new Document();
@@ -28,15 +28,15 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Write("For more information, please visit the ");
 
-// Hyperlink einfügen und mit benutzerdefinierter Formatierung hervorheben.
-// Der Hyperlink ist ein anklickbares Textstück, das uns zu der in der URL angegebenen Stelle führt.
+// Einen Hyperlink einfügen und ihn mit benutzerdefinierter Formatierung hervorheben.
+// Der Hyperlink ist ein anklickbarer Text, der uns zu dem in der URL angegebenen Ort führt.
 builder.Font.Color = Color.Blue;
 builder.Font.Underline = Underline.Single;
-builder.InsertHyperlink("Google website", "https://www.google.com", falsch);
+builder.InsertHyperlink("Google website", "https://www.google.com", false);
 builder.Font.ClearFormatting();
 builder.Writeln(".");
 
-// Strg + Linksklick auf den Link im Text in Microsoft Word bringt uns über ein neues Webbrowser-Fenster zur URL.
+// Strg + Linksklick auf den Link im Text in Microsoft Word führt uns über ein neues Webbrowser-Fenster zur URL.
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertHyperlink.docx");
 ```
 

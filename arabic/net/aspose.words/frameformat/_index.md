@@ -1,14 +1,14 @@
 ---
 title: Class FrameFormat
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.FrameFormat فصل. يمثل التنسيق المرتبط بالإطار للفقرة.
+description: Aspose.Words.FrameFormat فصل. يمثل التنسيق المتعلق بالإطار للفقرة.
 type: docs
-weight: 2890
+weight: 3070
 url: /ar/net/aspose.words/frameformat/
 ---
 ## FrameFormat class
 
-يمثل التنسيق المرتبط بالإطار للفقرة.
+يمثل التنسيق المتعلق بالإطار للفقرة.
 
 ```csharp
 public class FrameFormat
@@ -19,27 +19,27 @@ public class FrameFormat
 | اسم | وصف |
 | --- | --- |
 | [Height](../../aspose.words/frameformat/height/) { get; } | الحصول على ارتفاع الإطار المحدد. |
-| [HeightRule](../../aspose.words/frameformat/heightrule/) { get; } | يحصل على قاعدة تحديد ارتفاع الإطار المحدد. |
-| [HorizontalAlignment](../../aspose.words/frameformat/horizontalalignment/) { get; } | يحصل على محاذاة أفقية للإطار المحدد. |
-| [HorizontalDistanceFromText](../../aspose.words/frameformat/horizontaldistancefromtext/) { get; } | الحصول على مسافة أفقية بين الإطار والنص المحيط بالنقاط . |
-| [HorizontalPosition](../../aspose.words/frameformat/horizontalposition/) { get; } | يحصل على مسافة أفقية بين حافة الإطار والعنصر المحدد بواسطة[`RelativeHorizontalPosition`](./relativehorizontalposition/) الملكية . |
-| [IsFrame](../../aspose.words/frameformat/isframe/) { get; } | إرجاع صحيح إذا كانت الفقرة إطار. |
-| [RelativeHorizontalPosition](../../aspose.words/frameformat/relativehorizontalposition/) { get; } | الحصول على الموضع الأفقي النسبي للإطار. |
-| [RelativeVerticalPosition](../../aspose.words/frameformat/relativeverticalposition/) { get; } | الحصول على الموضع الرأسي النسبي للإطار . |
-| [VerticalAlignment](../../aspose.words/frameformat/verticalalignment/) { get; } | يحصل على محاذاة رأسية للإطار المحدد. |
-| [VerticalDistanceFromText](../../aspose.words/frameformat/verticaldistancefromtext/) { get; } | يحدد المسافة العمودية (بالنقاط) بين الإطار والنص المحيط. |
-| [VerticalPosition](../../aspose.words/frameformat/verticalposition/) { get; } | يحصل على مسافة عمودية بين حافة الإطار والعنصر المحدد بواسطة[`RelativeVerticalPosition`](./relativeverticalposition/) الملكية . |
-| [Width](../../aspose.words/frameformat/width/) { get; } | الحصول على عرض الإطار المحدد بالنقاط . |
+| [HeightRule](../../aspose.words/frameformat/heightrule/) { get; } | الحصول على قاعدة تحديد ارتفاع الإطار المحدد. |
+| [HorizontalAlignment](../../aspose.words/frameformat/horizontalalignment/) { get; } | الحصول على المحاذاة الأفقية للإطار المحدد. |
+| [HorizontalDistanceFromText](../../aspose.words/frameformat/horizontaldistancefromtext/) { get; } | يحصل على المسافة الأفقية بين الإطار والنص المحيط بالنقاط. |
+| [HorizontalPosition](../../aspose.words/frameformat/horizontalposition/) { get; } | يحصل على المسافة الأفقية بين حافة الإطار والعنصر المحدد بواسطة[`RelativeHorizontalPosition`](./relativehorizontalposition/) الملكية. |
+| [IsFrame](../../aspose.words/frameformat/isframe/) { get; } | إرجاع`حقيقي` إذا كانت الفقرة عبارة عن إطار. |
+| [RelativeHorizontalPosition](../../aspose.words/frameformat/relativehorizontalposition/) { get; } | يحصل على الموضع الأفقي النسبي للإطار. |
+| [RelativeVerticalPosition](../../aspose.words/frameformat/relativeverticalposition/) { get; } | يحصل على الموضع الرأسي النسبي للإطار. |
+| [VerticalAlignment](../../aspose.words/frameformat/verticalalignment/) { get; } | الحصول على المحاذاة الرأسية للإطار المحدد. |
+| [VerticalDistanceFromText](../../aspose.words/frameformat/verticaldistancefromtext/) { get; } | يحدد المسافة الرأسية (بالنقاط) بين الإطار والنص المحيط. |
+| [VerticalPosition](../../aspose.words/frameformat/verticalposition/) { get; } | يحصل على المسافة العمودية بين حافة الإطار والعنصر المحدد بواسطة[`RelativeVerticalPosition`](./relativeverticalposition/) الملكية. |
+| [Width](../../aspose.words/frameformat/width/) { get; } | الحصول على عرض الإطار المحدد بالنقاط. |
 
 ### ملاحظات
 
-يتم إنشاء هذا الكائن دائمًا. إذا كانت الفقرة عبارة عن إطار ، فستحتوي جميع الخصائص على قيم خاصة بها ، وإلا فسيتم تعيين جميع الخصائص على قيمها الافتراضية.
+يتم إنشاء هذا الكائن دائمًا. إذا كانت الفقرة عبارة عن إطار، فستحتوي جميع الخصائص على قيم خاصة بها، وإلا فسيتم تعيين جميع الخصائص إلى إعداداتها الافتراضية.
 
 يستخدم[`IsFrame`](./isframe/) للتحقق مما إذا كانت الفقرة عبارة عن إطار.
 
 ### أمثلة
 
-يوضح كيفية الحصول على معلومات حول خصائص التنسيق للفقرات التي هي إطارات.
+يوضح كيفية الحصول على معلومات حول خصائص تنسيق الفقرات التي تكون إطارات.
 
 ```csharp
 Document doc = new Document(MyDir + "Paragraph frame.docx");

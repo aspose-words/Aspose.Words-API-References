@@ -1,14 +1,16 @@
 ---
 title: Class FieldMergeBarcode
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Fields.FieldMergeBarcode فصل. تنفيذ حقل MERGEBARCODE .
+description: Aspose.Words.Fields.FieldMergeBarcode فصل. ينفذ حقل MERGEBARCODE.
 type: docs
-weight: 1990
+weight: 2140
 url: /ar/net/aspose.words.fields/fieldmergebarcode/
 ---
 ## FieldMergeBarcode class
 
-تنفيذ حقل MERGEBARCODE .
+ينفذ حقل MERGEBARCODE.
+
+لمعرفة المزيد، قم بزيارة[العمل مع الحقول](https://docs.aspose.com/words/net/working-with-fields/) مقالة توثيقية.
 
 ```csharp
 public class FieldMergeBarcode : Field
@@ -24,55 +26,55 @@ public class FieldMergeBarcode : Field
 
 | اسم | وصف |
 | --- | --- |
-| [AddStartStopChar](../../aspose.words.fields/fieldmergebarcode/addstartstopchar/) { get; set; } | الحصول على أو تحديد ما إذا كان سيتم إضافة أحرف بدء / إيقاف لأنواع الباركود NW7 و CODE39. |
-| [BackgroundColor](../../aspose.words.fields/fieldmergebarcode/backgroundcolor/) { get; set; } | الحصول على أو تحديد لون خلفية رمز الباركود. القيم الصالحة موجودة في النطاق [0 ، 0xFFFFFF] |
-| [BarcodeType](../../aspose.words.fields/fieldmergebarcode/barcodetype/) { get; set; } | الحصول على نوع الرمز الشريطي أو تعيينه (QR ، وما إلى ذلك) |
-| [BarcodeValue](../../aspose.words.fields/fieldmergebarcode/barcodevalue/) { get; set; } | الحصول على قيمة الرمز الشريطي أو تعيينها. |
-| [CaseCodeStyle](../../aspose.words.fields/fieldmergebarcode/casecodestyle/) { get; set; } | الحصول على أو تحديد نمط رمز الحالة لنوع الرمز الشريطي ITF14. القيم الصالحة هي [STD &#x7C; EXT &#x7C; ADD] |
-| [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | يحصل على النص الذي يمثل نتيجة الحقل المعروض. |
-| [DisplayText](../../aspose.words.fields/fieldmergebarcode/displaytext/) { get; set; } | الحصول على أو تحديد ما إذا كان سيتم عرض بيانات الباركود (نص) مع الصورة. |
+| [AddStartStopChar](../../aspose.words.fields/fieldmergebarcode/addstartstopchar/) { get; set; } | الحصول على أو تعيين ما إذا كان سيتم إضافة أحرف البدء/الإيقاف لأنواع الرموز الشريطية NW7 وCODE39. |
+| [BackgroundColor](../../aspose.words.fields/fieldmergebarcode/backgroundcolor/) { get; set; } | الحصول على أو تعيين لون خلفية رمز الباركود. القيم الصالحة موجودة في النطاق [0, 0xFFFFFF] |
+| [BarcodeType](../../aspose.words.fields/fieldmergebarcode/barcodetype/) { get; set; } | الحصول على نوع الرمز الشريطي أو تعيينه (QR، وما إلى ذلك) |
+| [BarcodeValue](../../aspose.words.fields/fieldmergebarcode/barcodevalue/) { get; set; } | الحصول على قيمة الباركود أو تحديدها. |
+| [CaseCodeStyle](../../aspose.words.fields/fieldmergebarcode/casecodestyle/) { get; set; } | الحصول على أو تعيين نمط رمز الحالة لنوع الرمز الشريطي ITF14. القيم الصالحة هي [STD&#x7C;EXT&#x7C;ADD] |
+| [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | الحصول على النص الذي يمثل نتيجة الحقل المعروض. |
+| [DisplayText](../../aspose.words.fields/fieldmergebarcode/displaytext/) { get; set; } | الحصول على أو تعيين ما إذا كان سيتم عرض بيانات الباركود (النص) مع الصورة. |
 | [End](../../aspose.words.fields/field/end/) { get; } | يحصل على العقدة التي تمثل نهاية الحقل. |
-| [ErrorCorrectionLevel](../../aspose.words.fields/fieldmergebarcode/errorcorrectionlevel/) { get; set; } | الحصول على أو تعيين مستوى تصحيح الخطأ لرمز الاستجابة السريعة. القيم الصالحة هي [0 ، 3] . |
-| [FixCheckDigit](../../aspose.words.fields/fieldmergebarcode/fixcheckdigit/) { get; set; } | الحصول على أو تحديد ما إذا كان سيتم إصلاح رقم التحقق إذا كان غير صالح. |
-| [ForegroundColor](../../aspose.words.fields/fieldmergebarcode/foregroundcolor/) { get; set; } | الحصول على أو تحديد اللون الأمامي لرمز الباركود. القيم الصالحة موجودة في النطاق [0 ، 0xFFFFFF] |
-| [Format](../../aspose.words.fields/field/format/) { get; } | يحصل على أ[`FieldFormat`](../fieldformat/) كائن يوفر وصولاً مكتوبًا إلى تنسيق الحقل. |
-| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | الحصول على أو تحديد ما إذا كانت النتيجة الحالية للحقل لم تعد صحيحة (قديمة) بسبب التعديلات الأخرى التي تم إجراؤها على المستند. |
-| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | تحديد ما إذا كان الحقل مغلقًا أم لا (يجب عدم إعادة حساب النتيجة). |
-| [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | الحصول على أو تحديد LCID للحقل. |
-| [PosCodeStyle](../../aspose.words.fields/fieldmergebarcode/poscodestyle/) { get; set; } | الحصول على أو تعيين نمط الرمز الشريطي لنقطة البيع (أنواع الرموز الشريطية UPCA &#x7C; UPCE &#x7C; EAN13 &#x7C; EAN8). القيم الصالحة (غير حساسة لحالة الأحرف) هي [STD &#x7C; SUP2 &#x7C; SUP5 &#x7C; CASE] . |
+| [ErrorCorrectionLevel](../../aspose.words.fields/fieldmergebarcode/errorcorrectionlevel/) { get; set; } | الحصول على أو تعيين مستوى تصحيح الخطأ لرمز الاستجابة السريعة. القيم الصالحة هي [0، 3]. |
+| [FixCheckDigit](../../aspose.words.fields/fieldmergebarcode/fixcheckdigit/) { get; set; } | الحصول على أو تحديد ما إذا كان سيتم إصلاح رقم الشيك إذا كان غير صالح. |
+| [ForegroundColor](../../aspose.words.fields/fieldmergebarcode/foregroundcolor/) { get; set; } | الحصول على أو تعيين اللون الأمامي لرمز الباركود. القيم الصالحة موجودة في النطاق [0, 0xFFFFFF] |
+| [Format](../../aspose.words.fields/field/format/) { get; } | يحصل على[`FieldFormat`](../fieldformat/) الكائن الذي يوفر الوصول المكتوب إلى تنسيق الحقل. |
+| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | الحصول على أو تعيين ما إذا كانت النتيجة الحالية للحقل لم تعد صحيحة (قديمة) بسبب تعديلات أخرى تم إجراؤها على المستند. |
+| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | الحصول على أو تعيين ما إذا كان الحقل مقفلاً (لا ينبغي إعادة حساب النتيجة). |
+| [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | الحصول على أو تعيين LCID الخاص بالحقل. |
+| [PosCodeStyle](../../aspose.words.fields/fieldmergebarcode/poscodestyle/) { get; set; } | الحصول على أو تعيين نمط الرمز الشريطي لنقطة البيع (أنواع الرموز الشريطية UPCA&#x7C;UPCE&#x7C;EAN13&#x7C;EAN8). القيم الصالحة (غير حساسة لحالة الأحرف) هي [STD&#x7C;SUP2&#x7C;SUP5&#x7C;CASE]. |
 | [Result](../../aspose.words.fields/field/result/) { get; set; } | الحصول على أو تعيين النص الموجود بين فاصل الحقل ونهاية الحقل. |
-| [ScalingFactor](../../aspose.words.fields/fieldmergebarcode/scalingfactor/) { get; set; } | الحصول على أو تعيين عامل تحجيم للرمز. القيمة بالنقاط المئوية الكاملة والقيم الصالحة هي [10 ، 1000] |
-| [Separator](../../aspose.words.fields/field/separator/) { get; } | يحصل على العقدة التي تمثل فاصل المجال. يمكن أن يكون فارغًا. |
+| [ScalingFactor](../../aspose.words.fields/fieldmergebarcode/scalingfactor/) { get; set; } | الحصول على أو تحديد عامل القياس للرمز. القيمة بنقاط مئوية كاملة والقيم الصالحة هي [10, 1000] |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | يحصل على العقدة التي تمثل فاصل الحقول. يمكن ان يكون`باطل` . |
 | [Start](../../aspose.words.fields/field/start/) { get; } | يحصل على العقدة التي تمثل بداية الحقل. |
-| [SymbolHeight](../../aspose.words.fields/fieldmergebarcode/symbolheight/) { get; set; } | الحصول على ارتفاع الرمز أو تحديده. الوحدات في TWIPS (1/1440 بوصة). |
-| [SymbolRotation](../../aspose.words.fields/fieldmergebarcode/symbolrotation/) { get; set; } | الحصول على أو تعيين تدوير رمز الباركود. القيم الصالحة هي [0 ، 3] |
-| virtual [Type](../../aspose.words.fields/field/type/) { get; } | يحصل على نوع حقل Microsoft Word . |
+| [SymbolHeight](../../aspose.words.fields/fieldmergebarcode/symbolheight/) { get; set; } | الحصول على أو تحديد ارتفاع الرمز. الوحدات في TWIPS (1/1440 بوصة). |
+| [SymbolRotation](../../aspose.words.fields/fieldmergebarcode/symbolrotation/) { get; set; } | الحصول على أو ضبط دوران رمز الباركود. القيم الصالحة هي [0, 3] |
+| virtual [Type](../../aspose.words.fields/field/type/) { get; } | الحصول على نوع حقل Microsoft Word. |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل) . يتم تضمين كل من رمز الحقل ونتيجة الحقل للحقول الفرعية. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل) . |
-| [Remove](../../aspose.words.fields/field/remove/)() | يزيل الحقل من المستند. إرجاع عقدة بعد الحقل مباشرة. إذا كانت نهاية الحقل هي آخر child من العقدة الأصلية ، يتم إرجاع فقرته الأصلية. إذا تمت إزالة الحقل بالفعل ، يعود **لا شيء** . |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل). يتم تضمين كل من رمز الحقل ونتيجة الحقل للحقول الفرعية. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل). |
+| [Remove](../../aspose.words.fields/field/remove/)() | إزالة الحقل من المستند. إرجاع عقدة مباشرة بعد الحقل. إذا كانت نهاية الحقل هي الطفل الأخير للعقدة الأصلية، فسيتم إرجاع الفقرة الأصلية الخاصة به. إذا تمت إزالة الحقل بالفعل، فسيتم إرجاعه`باطل` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | يقوم بإلغاء ربط الحقل. |
-| [Update](../../aspose.words.fields/field/update/)() | يقوم بالتحديث الميداني. يرمي إذا تم تحديث الحقل بالفعل. |
-| [Update](../../aspose.words.fields/field/update/)(bool) | يقوم بإجراء تحديث ميداني. يرمي إذا تم تحديث الحقل بالفعل. |
+| [Update](../../aspose.words.fields/field/update/)() | يقوم بإجراء التحديث الميداني. يتم الرمي إذا تم تحديث الحقل بالفعل. |
+| [Update](../../aspose.words.fields/field/update/)(bool) | إجراء تحديث ميداني. يتم الرمي إذا تم تحديث الحقل بالفعل. |
 
 ### ملاحظات
 
-دمج البريد في رمز شريطي .
+رمز شريطي لدمج البريد.
 
 ### أمثلة
 
-يوضح كيفية تنفيذ دمج المراسلات على الباركود ITF14.
+يوضح كيفية إجراء دمج البريد على الرموز الشريطية ITF14.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// أدخل حقل MERGEBARCODE ، والذي سيقبل القيم من مصدر البيانات أثناء دمج البريد.
-// سيحول هذا الحقل جميع القيم الموجودة في عمود "MyITF14Barcode" الخاص بمصدر بيانات الدمج إلى رموز شريطية لـ ITF14.
+// أدخل حقل MERGEBARCODE، الذي سيقبل القيم من مصدر البيانات أثناء دمج البريد.
+// سيقوم هذا الحقل بتحويل كافة القيم الموجودة في عمود "MyITF14Barcode" الخاص بمصدر بيانات الدمج إلى رموز شريطية ITF14.
 FieldMergeBarcode field = (FieldMergeBarcode)builder.InsertField(FieldType.FieldMergeBarcode, true);
 field.BarcodeType = "ITF14";
 field.BarcodeValue = "MyITF14Barcode";
@@ -81,9 +83,9 @@ field.CaseCodeStyle = "STD";
 Assert.AreEqual(FieldType.FieldMergeBarcode, field.Type);
 Assert.AreEqual(" MERGEBARCODE  MyITF14Barcode ITF14 \\c STD", field.GetFieldCode());
 
-// قم بإنشاء DataTable بعمود بنفس الاسم مثل BarcodeValue الخاص بحقل MERGEBARCODE.
-// سيقوم دمج البريد بإنشاء صفحة جديدة لكل صف. ستحتوي كل صفحة على حقل DISPLAYBARCODE ،
-// الذي سيعرض الرمز الشريطي ITF14 بالقيمة من الصف المدمج.
+// قم بإنشاء DataTable بعمود يحمل نفس اسم قيمة BarcodeValue لحقل MERGEBARCODE الخاص بنا.
+// سيؤدي دمج البريد إلى إنشاء صفحة جديدة لكل صف. ستحتوي كل صفحة على حقل DISPLAYBARCODE،
+// والذي سيعرض الرمز الشريطي ITF14 بالقيمة من الصف المدمج.
 DataTable table = new DataTable("Barcodes");
 table.Columns.Add("MyITF14Barcode");
 table.Rows.Add(new[] { "09312345678907" });
@@ -101,28 +103,28 @@ Assert.AreEqual("DISPLAYBARCODE \"1234567891234\" ITF14 \\c STD",
 doc.Save(ArtifactsDir + "Field.MERGEBARCODE.ITF14.docx");
 ```
 
-يوضح كيفية تنفيذ دمج المراسلات على الرموز الشريطية CODE39.
+يوضح كيفية إجراء دمج البريد على الرموز الشريطية CODE39.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// أدخل حقل MERGEBARCODE ، والذي سيقبل القيم من مصدر البيانات أثناء دمج البريد.
-// سيقوم هذا الحقل بتحويل جميع القيم الموجودة في عمود "MyCODE39Barcode" الخاص بمصدر بيانات الدمج إلى الرموز الشريطية CODE39.
+// أدخل حقل MERGEBARCODE، الذي سيقبل القيم من مصدر البيانات أثناء دمج البريد.
+// سيقوم هذا الحقل بتحويل كافة القيم الموجودة في عمود "MyCODE39Barcode" الخاص بمصدر بيانات الدمج إلى رموز شريطية CODE39.
 FieldMergeBarcode field = (FieldMergeBarcode)builder.InsertField(FieldType.FieldMergeBarcode, true);
 field.BarcodeType = "CODE39";
 field.BarcodeValue = "MyCODE39Barcode";
 
-// تحرير مظهره لعرض أحرف البداية / الإيقاف.
+// قم بتحرير مظهره لعرض أحرف البداية/الإيقاف.
 field.AddStartStopChar = true;
 
 Assert.AreEqual(FieldType.FieldMergeBarcode, field.Type);
 Assert.AreEqual(" MERGEBARCODE  MyCODE39Barcode CODE39 \\d", field.GetFieldCode());
 builder.Writeln();
 
-// قم بإنشاء DataTable بعمود بنفس الاسم مثل BarcodeValue الخاص بحقل MERGEBARCODE.
-// سيقوم دمج البريد بإنشاء صفحة جديدة لكل صف. ستحتوي كل صفحة على حقل DISPLAYBARCODE ،
-// الذي سيعرض الرمز الشريطي CODE39 بالقيمة من الصف المدمج.
+// قم بإنشاء DataTable بعمود يحمل نفس اسم قيمة BarcodeValue لحقل MERGEBARCODE الخاص بنا.
+// سيؤدي دمج البريد إلى إنشاء صفحة جديدة لكل صف. ستحتوي كل صفحة على حقل DISPLAYBARCODE،
+// والذي سيعرض الرمز الشريطي CODE39 بالقيمة من الصف المدمج.
 DataTable table = new DataTable("Barcodes");
 table.Columns.Add("MyCODE39Barcode");
 table.Rows.Add(new[] { "12345ABCDE" });
@@ -140,14 +142,14 @@ Assert.AreEqual("DISPLAYBARCODE \"67890FGHIJ\" CODE39 \\d",
 doc.Save(ArtifactsDir + "Field.MERGEBARCODE.CODE39.docx");
 ```
 
-يوضح كيفية تنفيذ دمج البريد على الرموز الشريطية EAN13.
+يوضح كيفية إجراء دمج البريد على الرموز الشريطية EAN13.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// أدخل حقل MERGEBARCODE ، والذي سيقبل القيم من مصدر البيانات أثناء دمج البريد.
-// سيحول هذا الحقل جميع القيم الموجودة في عمود "MyEAN13Barcode" الخاص بمصدر بيانات الدمج إلى رموز شريطية لـ EAN13.
+// أدخل حقل MERGEBARCODE، الذي سيقبل القيم من مصدر البيانات أثناء دمج البريد.
+// سيقوم هذا الحقل بتحويل كافة القيم الموجودة في عمود "MyEAN13Barcode" الخاص بمصدر بيانات الدمج إلى رموز شريطية EAN13.
 FieldMergeBarcode field = (FieldMergeBarcode)builder.InsertField(FieldType.FieldMergeBarcode, true);
 field.BarcodeType = "EAN13";
 field.BarcodeValue = "MyEAN13Barcode";
@@ -161,9 +163,9 @@ Assert.AreEqual(FieldType.FieldMergeBarcode, field.Type);
 Assert.AreEqual(" MERGEBARCODE  MyEAN13Barcode EAN13 \\t \\p CASE \\x", field.GetFieldCode());
 builder.Writeln();
 
-// قم بإنشاء DataTable بعمود بنفس الاسم مثل BarcodeValue الخاص بحقل MERGEBARCODE.
-// سيقوم دمج البريد بإنشاء صفحة جديدة لكل صف. ستحتوي كل صفحة على حقل DISPLAYBARCODE ،
-// الذي سيعرض الرمز الشريطي EAN13 بالقيمة من الصف المدمج.
+// قم بإنشاء DataTable بعمود يحمل نفس اسم قيمة BarcodeValue لحقل MERGEBARCODE الخاص بنا.
+// سيؤدي دمج البريد إلى إنشاء صفحة جديدة لكل صف. ستحتوي كل صفحة على حقل DISPLAYBARCODE،
+// والذي سيعرض الرمز الشريطي EAN13 بالقيمة من الصف المدمج.
 DataTable table = new DataTable("Barcodes");
 table.Columns.Add("MyEAN13Barcode");
 table.Rows.Add(new[] { "501234567890" });
@@ -181,19 +183,19 @@ Assert.AreEqual("DISPLAYBARCODE \"123456789012\" EAN13 \\t \\p CASE \\x",
 doc.Save(ArtifactsDir + "Field.MERGEBARCODE.EAN13.docx");
 ```
 
-يوضح كيفية إجراء دمج المراسلات على رموز QR الشريطية.
+يوضح كيفية إجراء دمج البريد على رموز QR الشريطية.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// أدخل حقل MERGEBARCODE ، والذي سيقبل القيم من مصدر البيانات أثناء دمج البريد.
-// سيحول هذا الحقل جميع القيم الموجودة في عمود "MyQRCode" الخاص بمصدر بيانات الدمج إلى أكواد QR.
+// أدخل حقل MERGEBARCODE، الذي سيقبل القيم من مصدر البيانات أثناء دمج البريد.
+// سيقوم هذا الحقل بتحويل كافة القيم الموجودة في عمود "MyQRCode" الخاص بمصدر بيانات الدمج إلى رموز QR.
 FieldMergeBarcode field = (FieldMergeBarcode)builder.InsertField(FieldType.FieldMergeBarcode, true);
 field.BarcodeType = "QR";
 field.BarcodeValue = "MyQRCode";
 
-// تطبيق ألوان وقياسات مخصصة.
+// تطبيق الألوان والقياس المخصص.
 field.BackgroundColor = "0xF8BD69";
 field.ForegroundColor = "0xB5413B";
 field.ErrorCorrectionLevel = "3";
@@ -206,9 +208,9 @@ Assert.AreEqual(" MERGEBARCODE  MyQRCode QR \\b 0xF8BD69 \\f 0xB5413B \\q 3 \\s 
     field.GetFieldCode());
 builder.Writeln();
 
-// قم بإنشاء DataTable بعمود بنفس الاسم مثل BarcodeValue الخاص بحقل MERGEBARCODE.
-// سيقوم دمج البريد بإنشاء صفحة جديدة لكل صف. ستحتوي كل صفحة على حقل DISPLAYBARCODE ،
-// الذي سيعرض رمز الاستجابة السريعة بالقيمة من الصف المدمج.
+// قم بإنشاء DataTable بعمود يحمل نفس اسم قيمة BarcodeValue لحقل MERGEBARCODE الخاص بنا.
+// سيؤدي دمج البريد إلى إنشاء صفحة جديدة لكل صف. ستحتوي كل صفحة على حقل DISPLAYBARCODE،
+// والذي سيعرض رمز الاستجابة السريعة بالقيمة من الصف المدمج.
 DataTable table = new DataTable("Barcodes");
 table.Columns.Add("MyQRCode");
 table.Rows.Add(new[] { "ABC123" });

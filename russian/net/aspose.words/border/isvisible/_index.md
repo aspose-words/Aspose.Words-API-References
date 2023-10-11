@@ -1,14 +1,14 @@
 ---
 title: Border.IsVisible
 second_title: Справочник по API Aspose.Words для .NET
-description: Border свойство. Возвращает true если LineStyle не LineStyle.None.
+description: Border свойство. Возвращаетистинный еслиLineStyle не являетсяNone .
 type: docs
 weight: 30
 url: /ru/net/aspose.words/border/isvisible/
 ---
 ## Border.IsVisible property
 
-Возвращает true, если LineStyle не LineStyle.None.
+Возвращает`истинный` если[`LineStyle`](../linestyle/) не являетсяNone .
 
 ```csharp
 public bool IsVisible { get; }
@@ -30,8 +30,8 @@ Assert.AreEqual(3.0d, borders[0].LineWidth);
 Assert.AreEqual(LineStyle.Single, borders[0].LineStyle);
 Assert.True(borders[0].IsVisible);
 
-// Мы можем сразу удалить границу, запустив метод ClearFormatting. 
-// Выполнение этого метода на каждой границе абзаца удалит все его границы.
+ // Мы можем сразу удалить границу, запустив метод ClearFormatting.
+// Запуск этого метода на каждой границе абзаца удалит все его границы.
 foreach (Border border in borders)
     border.ClearFormatting();
 

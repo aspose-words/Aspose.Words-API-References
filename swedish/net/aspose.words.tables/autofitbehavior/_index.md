@@ -3,7 +3,7 @@ title: Enum AutoFitBehavior
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Tables.AutoFitBehavior uppräkning. Bestämmer hur Aspose.Words ändrar storlek på tabellen när du anroparAutoFit metod.
 type: docs
-weight: 5930
+weight: 6230
 url: /sv/net/aspose.words.tables/autofitbehavior/
 ---
 ## AutoFitBehavior enumeration

@@ -1,14 +1,14 @@
 ---
 title: Enum PdfTextCompression
 second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Saving.PdfTextCompression Sıralama. PDF dosyasındaki resimler dışında tüm içeriğe uygulanan sıkıştırma türünü belirtir.
+description: Aspose.Words.Saving.PdfTextCompression Sıralama. PDF dosyasındaki resimler hariç tüm içeriğe uygulanan sıkıştırma türünü belirtir.
 type: docs
-weight: 5250
+weight: 5530
 url: /tr/net/aspose.words.saving/pdftextcompression/
 ---
 ## PdfTextCompression enumeration
 
-PDF dosyasındaki resimler dışında tüm içeriğe uygulanan sıkıştırma türünü belirtir.
+PDF dosyasındaki resimler hariç tüm içeriğe uygulanan sıkıştırma türünü belirtir.
 
 ```csharp
 public enum PdfTextCompression
@@ -19,7 +19,7 @@ public enum PdfTextCompression
 | İsim | Değer | Tanım |
 | --- | --- | --- |
 | None | `0` | Sıkıştırma yok. |
-| Flate | `1` | Düz (ZIP) sıkıştırma. |
+| Flate | `1` | Düzleştir (ZIP) sıkıştırma. |
 
 ### Örnekler
 
@@ -33,14 +33,14 @@ for (int i = 0; i < 100; i++)
     builder.Writeln("Lorem ipsum dolor sit amet, consectetur adipiscing elit, " +
                     "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
 
-// Belgenin "Kaydet" yöntemine aktarabileceğimiz bir "PdfSaveOptions" nesnesi oluşturun
-// bu yöntemin belgeyi .PDF'ye dönüştürme şeklini değiştirmek için.
+// Belgenin "Save" yöntemine aktarabileceğimiz bir "PdfSaveOptions" nesnesi oluşturun
+// bu yöntemin belgeyi .PDF'ye dönüştürme biçimini değiştirmek için.
 PdfSaveOptions options = new PdfSaveOptions();
 
-// "TextCompression" özelliğini "PdfTextCompression.None" olarak ayarlayın
+// Herhangi bir uygulama yapmamak için "TextCompression" özelliğini "PdfTextCompression.None" olarak ayarlayın
 // belgeyi PDF'ye kaydettiğimizde metne sıkıştırma.
 // ZIP sıkıştırmasını uygulamak için "TextCompression" özelliğini "PdfTextCompression.Flate" olarak ayarlayın
-// belgeyi PDF'ye kaydettiğimizde metne. Belge ne kadar büyük olursa, bunun yaratacağı etki de o kadar büyük olur.
+// belgeyi PDF'ye kaydettiğimizde metne. Belge ne kadar büyük olursa, bunun etkisi de o kadar büyük olur.
 options.TextCompression = pdfTextCompression;
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.TextCompression.pdf", options);

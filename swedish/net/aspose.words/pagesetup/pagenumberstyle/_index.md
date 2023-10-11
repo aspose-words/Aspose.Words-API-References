@@ -3,7 +3,7 @@ title: PageSetup.PageNumberStyle
 second_title: Aspose.Words för .NET API Referens
 description: PageSetup fast egendom. Hämtar eller ställer in sidnummerformatet.
 type: docs
-weight: 310
+weight: 320
 url: /sv/net/aspose.words/pagesetup/pagenumberstyle/
 ---
 ## PageSetup.PageNumberStyle property

@@ -22,7 +22,7 @@ Mostra informazioni sui caratteri presenti nel documento vuoto.
 Document doc = new Document();
 
 // Un documento vuoto contiene 3 caratteri predefiniti. Ogni carattere nel documento
-// avrà un oggetto FontInfo corrispondente che contiene i dettagli su quel font.
+// avrà un oggetto FontInfo corrispondente che contiene dettagli su quel carattere.
 Assert.AreEqual(3, doc.FontInfos.Count);
 
 Assert.True(doc.FontInfos.Contains("Times New Roman"));

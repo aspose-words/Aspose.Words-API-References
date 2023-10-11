@@ -1,14 +1,14 @@
 ---
 title: Enum EditorType
 second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.EditorType Sıralama. Geçerli kullanıcının bir belge içinde düzenlenebilir bir aralık tarafından tanımlanan tek bir aralığını düzenlemesine izin verilip verilmeyeceğini belirlemek için takma ad olarak kullanılabilecek olası takma adlar veya düzenleme grupları kümesini belirtir.
+description: Aspose.Words.EditorType Sıralama. Geçerli kullanıcının bir belge içindeki düzenlenebilir bir aralık tarafından tanımlanan tek bir aralığını düzenlemesine izin verilip verilmeyeceğini belirlemek için takma ad olarak kullanılabilecek olası takma adlar veya düzenleme grupları kümesini belirtir.
 type: docs
-weight: 1300
+weight: 1450
 url: /tr/net/aspose.words/editortype/
 ---
 ## EditorType enumeration
 
-Geçerli kullanıcının bir belge içinde düzenlenebilir bir aralık tarafından tanımlanan tek bir aralığını düzenlemesine izin verilip verilmeyeceğini belirlemek için takma ad olarak kullanılabilecek olası takma adlar (veya düzenleme grupları) kümesini belirtir.
+Geçerli kullanıcının bir belge içindeki düzenlenebilir bir aralık tarafından tanımlanan tek bir aralığını düzenlemesine izin verilip verilmeyeceğini belirlemek için takma ad olarak kullanılabilecek olası takma adlar (veya düzenleme grupları) kümesini belirtir.
 
 ```csharp
 public enum EditorType
@@ -18,14 +18,14 @@ public enum EditorType
 
 | İsim | Değer | Tanım |
 | --- | --- | --- |
-| Unspecified | `0` | Düzenleyici türünün belirtilmediği anlamına gelir. |
-| Administrators | `1` | Yöneticiler grubuyla ilişkili kullanıcıların, belge koruması etkinleştirildiğinde bu düzenleme türünü kullanarak düzenlenebilir aralıkları düzenlemesine izin verileceğini belirtir. |
-| Contributors | `2` | Katkıda Bulunanlar grubuyla ilişkili kullanıcıların, belge koruması etkinleştirildiğinde bu düzenleme türünü kullanarak düzenlenebilir aralıkları düzenlemesine izin verileceğini belirtir. |
+| Unspecified | `0` | Düzenleyici tipinin belirtilmediği anlamına gelir. |
+| Administrators | `1` | Yöneticiler grubuyla ilişkili kullanıcıların, belge koruması etkinleştirildiğinde bu düzenleme türünü kullanarak düzenlenebilir aralıkları düzenlemelerine izin verileceğini belirtir. |
+| Contributors | `2` | Katkıda Bulunanlar grubuyla ilişkili kullanıcıların, belge koruması etkinleştirildiğinde bu düzenleme türünü kullanarak düzenlenebilir aralıkları düzenlemelerine izin verileceğini belirtir. |
 | Current | `3` | Geçerli grupla ilişkili kullanıcıların, belge koruması etkinleştirildiğinde this düzenleme türünü kullanarak düzenlenebilir aralıkları düzenlemesine izin verileceğini belirtir. |
-| Editors | `4` | Düzenleyiciler grubuyla ilişkili kullanıcıların, belge koruması etkinleştirildiğinde this düzenleme türünü kullanarak düzenlenebilir aralıkları düzenlemesine izin verileceğini belirtir. |
-| Everyone | `5` | Belge koruması etkinleştirildiğinde, belgeyi açan tüm kullanıcıların bu düzenleme türünü kullanarak düzenlenebilir aralıkları düzenlemesine izin verileceğini belirtir. |
-| None | `6` | Belge koruması etkinleştirildiğinde, belgeyi açan kullanıcıların hiçbirinin bu düzenleme türünü kullanarak düzenlenebilir aralıkları düzenlemesine izin verilmeyeceğini belirtir. |
-| Owners | `7` | Sahipler grubuyla ilişkili kullanıcıların, belge koruması etkinleştirildiğinde this düzenleme türünü kullanarak düzenlenebilir aralıkları düzenlemesine izin verileceğini belirtir. |
+| Editors | `4` | Düzenleyiciler grubuyla ilişkili kullanıcıların, belge koruması etkinleştirildiğinde this düzenleme türünü kullanarak düzenlenebilir aralıkları düzenlemelerine izin verileceğini belirtir. |
+| Everyone | `5` | Belgeyi açan tüm kullanıcıların, belge koruması etkinleştirildiğinde bu edit türünü kullanarak düzenlenebilir aralıkları düzenlemesine izin verileceğini belirtir. |
+| None | `6` | Belgeyi açan hiçbir kullanıcının, belge koruması etkinleştirildiğinde bu düzenleme türünü kullanarak düzenlenebilir aralıkları düzenlemesine izin verilmeyeceğini belirtir. |
+| Owners | `7` | Sahipler grubuyla ilişkili kullanıcıların, belge koruması etkinleştirildiğinde this düzenleme türünü kullanarak düzenlenebilir aralıkları düzenlemelerine izin verileceğini belirtir. |
 | Default | `0` | Şununla aynıUnspecified . |
 
 ### Örnekler
@@ -42,8 +42,8 @@ public void Visitor()
     builder.Writeln("Hello world! Since we have set the document's protection level to read-only," +
                     " we cannot edit this paragraph without the password.");
 
-    // Belgeleri yazmaya karşı koruduğumuzda, düzenlenebilir aralıklar, kullanıcıların düzenleyebileceği belirli alanları seçmemize izin verir.
-    // İzin verilen düzenleyiciler listesini daraltmanın birbirini dışlayan iki yolu vardır.
+    // Belgeleri yazmaya karşı koruduğumuzda, düzenlenebilir aralıklar kullanıcıların düzenleyebileceği belirli alanları seçmemize olanak tanır.
+    // İzin verilen düzenleyicilerin listesini daraltmanın birbirini dışlayan iki yolu vardır.
     // 1 - Bir kullanıcı belirtin:
     EditableRange editableRange = builder.StartEditableRange().EditableRange;
     editableRange.SingleUser = "john.doe@myoffice.com";
@@ -52,7 +52,7 @@ public void Visitor()
 
     Assert.AreEqual(EditorType.Unspecified, editableRange.EditorGroup);
 
-    // 2 - İzin verilen kullanıcıların aşağıdakilerle ilişkilendirildiği bir grup belirtin:
+    // 2 - İzin verilen kullanıcıların ilişkilendirildiği bir grup belirtin:
     editableRange = builder.StartEditableRange().EditableRange;
     editableRange.EditorGroup = EditorType.Administrators;
     builder.Writeln($"This paragraph is inside the first editable range, can only be edited by {editableRange.EditorGroup}.");
@@ -62,7 +62,7 @@ public void Visitor()
 
     builder.Writeln("This paragraph is outside the editable range, and cannot be edited by anybody.");
 
-    // Belgedeki her düzenlenebilir aralığın ayrıntılarını ve içeriğini yazdırın.
+    // Belgedeki düzenlenebilir her aralığın ayrıntılarını ve içeriğini yazdırın.
     EditableRangePrinter editableRangePrinter = new EditableRangePrinter();
 
     doc.Accept(editableRangePrinter);
@@ -71,7 +71,7 @@ public void Visitor()
 }
 
 /// <summary>
-/// Bir dizgede ziyaret edilen düzenlenebilir aralıkların özelliklerini ve içeriğini toplar.
+/// Ziyaret edilen düzenlenebilir aralıkların özelliklerini ve içeriğini bir dizede toplar.
 /// </summary>
 public class EditableRangePrinter : DocumentVisitor
 {
@@ -92,7 +92,7 @@ public class EditableRangePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Belgede bir EditableRangeStart düğümüyle karşılaşıldığında çağrılır.
+    /// Belgede EditableRangeStart düğümüyle karşılaşıldığında çağrılır.
     /// </summary>
     public override VisitorAction VisitEditableRangeStart(EditableRangeStart editableRangeStart)
     {
@@ -110,7 +110,7 @@ public class EditableRangePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Belgede bir EditableRangeEnd düğümüyle karşılaşıldığında çağrılır.
+    /// Belgede EditableRangeEnd düğümüyle karşılaşıldığında çağrılır.
     /// </summary>
     public override VisitorAction VisitEditableRangeEnd(EditableRangeEnd editableRangeEnd)
     {

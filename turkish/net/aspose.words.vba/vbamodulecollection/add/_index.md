@@ -26,7 +26,7 @@ VbaProject project = new VbaProject();
 project.Name = "Aspose.Project";
 doc.VbaProject = project;
 
-// Yeni bir modül oluşturun ve bir makro kaynak kodu belirleyin.
+// Yeni bir modül oluşturun ve bir makro kaynak kodu belirtin.
 VbaModule module = new VbaModule();
 module.Name = "Aspose.Module";
 module.Type = VbaModuleType.ProceduralModule;

@@ -1,14 +1,14 @@
 ---
 title: Field.Result
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Field propriété. Obtient ou définit le texte qui se trouve entre le séparateur de champ et la fin du champ.
+description: Field propriété. Obtient ou définit le texte situé entre le séparateur de champ et la fin du champ.
 type: docs
 weight: 70
 url: /fr/net/aspose.words.fields/field/result/
 ---
 ## Field.Result property
 
-Obtient ou définit le texte qui se trouve entre le séparateur de champ et la fin du champ.
+Obtient ou définit le texte situé entre le séparateur de champ et la fin du champ.
 
 ```csharp
 public string Result { get; set; }

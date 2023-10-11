@@ -1,14 +1,14 @@
 ---
 title: HtmlLoadOptions.IgnoreNoscriptElements
 second_title: Aspose.Words لمراجع .NET API
-description: HtmlLoadOptions ملكية. الحصول على أو تعيين قيمة تشير إلى تجاهل عناصر HTML noscript . القيمة الافتراضية هيخاطئة .
+description: HtmlLoadOptions ملكية. الحصول على قيمة أو تعيينها تشير إلى ما إذا كان سيتم تجاهل عناصر HTML noscript أم لا. القيمة الافتراضية هيخطأ شنيع .
 type: docs
 weight: 40
 url: /ar/net/aspose.words.loading/htmlloadoptions/ignorenoscriptelements/
 ---
 ## HtmlLoadOptions.IgnoreNoscriptElements property
 
-الحصول على أو تعيين قيمة تشير إلى تجاهل عناصر HTML &lt;noscript&gt; . القيمة الافتراضية هي`خاطئة` .
+الحصول على قيمة أو تعيينها تشير إلى ما إذا كان سيتم تجاهل عناصر HTML &lt;noscript&gt; أم لا. القيمة الافتراضية هي`خطأ شنيع` .
 
 ```csharp
 public bool IgnoreNoscriptElements { get; set; }
@@ -16,7 +16,7 @@ public bool IgnoreNoscriptElements { get; set; }
 
 ### ملاحظات
 
-مثل MS Word ، لا تدعم Aspose.Words النصوص وتقوم افتراضيًا بتحميل محتوى &lt;noscript&gt; element إلى المستند الناتج. ومع ذلك ، في معظم المتصفحات ، يتم دعم البرامج النصية والمحتوى من &lt;noscript&gt; غير مرئي. تعيين هذه الخاصية إلى`حقيقي` يفرض على Aspose.Words تجاهل جميع عناصر &lt;noscript&gt; ويساعد في إنتاج مستندات تبدو أقرب إلى ما يظهر في المتصفحات .
+مثل MS Word، لا يدعم Aspose.Words البرامج النصية ويقوم افتراضيًا بتحميل محتوى &lt;noscript&gt; Elements في المستند الناتج. ومع ذلك، في معظم المتصفحات، تكون البرامج النصية مدعومة ولا يكون المحتوى من &lt;noscript&gt; مرئيًا. تعيين هذه الخاصية إلى`حقيقي` يجبر Aspose.Words على تجاهل كافة العناصر &lt;noscript&gt; ويساعد في إنتاج مستندات تبدو أقرب إلى ما يتم رؤيته في المتصفحات.
 
 ### أمثلة
 

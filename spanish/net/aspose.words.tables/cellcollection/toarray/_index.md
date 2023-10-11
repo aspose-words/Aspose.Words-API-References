@@ -1,14 +1,14 @@
 ---
 title: CellCollection.ToArray
 second_title: Referencia de API de Aspose.Words para .NET
-description: CellCollection método. Copia todas las celdas de la colección a una nueva matriz de celdas.
+description: CellCollection método. Copia todas las celdas de la colección en una nueva matriz de celdas.
 type: docs
 weight: 20
 url: /es/net/aspose.words.tables/cellcollection/toarray/
 ---
 ## CellCollection.ToArray method
 
-Copia todas las celdas de la colección a una nueva matriz de celdas.
+Copia todas las celdas de la colección en una nueva matriz de celdas.
 
 ```csharp
 public Cell[] ToArray()
@@ -16,7 +16,7 @@ public Cell[] ToArray()
 
 ### Valor_devuelto
 
-Una matriz de celdas.
+Una serie de células.
 
 ### Ejemplos
 

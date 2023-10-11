@@ -3,7 +3,7 @@ title: DocumentBuilder.InsertSignatureLine
 second_title: Aspose.Words för .NET API Referens
 description: DocumentBuilder metod. Infogar en signaturrad vid den aktuella positionen.
 type: docs
-weight: 420
+weight: 450
 url: /sv/net/aspose.words/documentbuilder/insertsignatureline/
 ---
 ## InsertSignatureLine(SignatureLineOptions) {#insertsignatureline}

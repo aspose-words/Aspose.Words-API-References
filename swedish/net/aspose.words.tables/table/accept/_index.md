@@ -20,30 +20,30 @@ public override bool Accept(DocumentVisitor visitor)
 
 ### Returvärde
 
-Sant om alla noder besöktes; false om DocumentVisitor stoppade operationen innan alla noder besöktes.
+Sant om alla noder besöktes; falskt om[`DocumentVisitor`](../../../aspose.words/documentvisitor/) stoppade operationen innan du besökte alla noder.
 
 ### Anmärkningar
 
-Räknar upp denna nod och alla dess barn. Varje nod anropar en motsvarande metod på DocumentVisitor.
+Räknar upp denna nod och alla dess barn. Varje nod anropar en motsvarande metod[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
 
 För mer information se Visitor design mönster.
 
-Anropar DocumentVisitor.VisitTableStart, anropar sedan Acceptera för alla underordnade noder i section och anropar DocumentVisitor.VisitTableEnd i slutet.
+Samtal[`VisitTableStart`](../../../aspose.words/documentvisitor/visittablestart/) , sedan ringer[`Accept`](../../../aspose.words/node/accept/) för alla underordnade noder i avsnittet och anrop[`VisitTableEnd`](../../../aspose.words/documentvisitor/visittableend/) i slutet.
 
 ### Exempel
 
 Visar hur man använder en DocumentVisitor-implementering för att ta bort allt dolt innehåll från ett dokument.
 
 ```csharp
+public void RemoveHiddenContentFromDocument()
 {
     Document doc = new Document(MyDir + "Hidden content.docx");
-
     RemoveHiddenContentVisitor hiddenContentRemover = new RemoveHiddenContentVisitor();
 
     // Nedan finns tre typer av fält som kan acceptera en dokumentbesökare,
     // som gör det möjligt för den att besöka den accepterande noden och sedan korsa dess underordnade noder på ett djupt-först sätt.
     // 1 - Styckenod:
-    Paragraph para = (Paragraph) doc.GetChild(NodeType.Paragraph, 4, true);
+    Paragraph para = (Paragraph)doc.GetChild(NodeType.Paragraph, 4, true);
     para.Accept(hiddenContentRemover);
 
     // 2 - Tabellnod:
@@ -54,6 +54,7 @@ Visar hur man använder en DocumentVisitor-implementering för att ta bort allt 
     doc.Accept(hiddenContentRemover);
 
     doc.Save(ArtifactsDir + "Font.RemoveHiddenContentFromDocument.docx");
+}
 
 /// <summary>
 /// Tar bort alla besökta noder markerade som "dolt innehåll".

@@ -1,14 +1,14 @@
 ---
 title: List.Document
 second_title: Aspose.Words für .NET-API-Referenz
-description: List eigendom. Ruft das Besitzerdokument ab.
+description: List eigendom. Ruft das Eigentümerdokument ab.
 type: docs
 weight: 10
 url: /de/net/aspose.words.lists/list/document/
 ---
 ## List.Document property
 
-Ruft das Besitzerdokument ab.
+Ruft das Eigentümerdokument ab.
 
 ```csharp
 public DocumentBase Document { get; }
@@ -20,17 +20,15 @@ Eine Liste hat immer ein übergeordnetes Dokument und ist nur im Kontext dieses 
 
 ### Beispiele
 
-Zeigt, wie Eigentümerdokumenteigenschaften von Listen überprüft werden.
+Zeigt, wie Besitzerdokumenteigenschaften von Listen überprüft werden.
 
 ```csharp
 Document doc = new Document();
 
 ListCollection lists = doc.Lists;
-
 Assert.AreEqual(doc, lists.Document);
 
 List list = lists.Add(ListTemplate.BulletDefault);
-
 Assert.AreEqual(doc, list.Document);
 
 Console.WriteLine("Current list count: " + lists.Count);

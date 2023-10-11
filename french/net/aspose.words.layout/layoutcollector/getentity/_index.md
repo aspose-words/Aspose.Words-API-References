@@ -16,28 +16,28 @@ public object GetEntity(Node node)
 
 ### Remarques
 
-Cette méthode ne fonctionne que pour[`Paragraph`](../../../aspose.words/paragraph/) nœuds, ainsi que des nœuds en ligne indivisibles, par exemple[`BookmarkStart`](../../../aspose.words/bookmarkstart/) ou[`Shape`](../../../aspose.words.drawing/shape/) Cela ne fonctionne pas pour[`Run`](../../../aspose.words/run/) ,[`Cell`](../../../aspose.words.tables/cell/)[`Row`](../../../aspose.words.tables/row/) ou[`Table`](../../../aspose.words.tables/table/) nœuds et nœuds dans l'en-tête/le pied de page.
+Cette méthode ne fonctionne que pour[`Paragraph`](../../../aspose.words/paragraph/) nœuds, ainsi que des nœuds en ligne indivisibles, par exemple[`BookmarkStart`](../../../aspose.words/bookmarkstart/) ou[`Shape`](../../../aspose.words.drawing/shape/) . Ça ne marche pas pour[`Run`](../../../aspose.words/run/) ,[`Cell`](../../../aspose.words.tables/cell/)[`Row`](../../../aspose.words.tables/row/) ou[`Table`](../../../aspose.words.tables/table/) nœuds et nœuds dans l’en-tête/pied de page.
 
-Notez que l'entité retournée pour un[`Paragraph`](../../../aspose.words/paragraph/) node est une étendue de saut de paragraphe. Utilisez la méthode appropriée pour remonter jusqu'à la lignée parentale
+Notez que l'entité est revenue pour un[`Paragraph`](../../../aspose.words/paragraph/) Le nœud est une étendue de saut de paragraphe. Utilisez la méthode appropriée pour remonter jusqu'à la lignée parente
 
-Si vous devez naviguer vers un[`Run`](../../../aspose.words/run/) de texte, vous pouvez insérer un signet juste avant it , puis accéder au signet à la place.
+Si vous devez accéder à un[`Run`](../../../aspose.words/run/) de texte, vous pouvez alors insérer un signet juste avant it , puis accéder au signet à la place.
 
-Si vous devez naviguer vers un[`Cell`](../../../aspose.words.tables/cell/) nœud, vous pouvez passer à un[`Paragraph`](../../../aspose.words/paragraph/) nœud dans cette cellule, puis remontez vers une entité parente. La même approche peut être utilisée pour[`Row`](../../../aspose.words.tables/row/) et[`Table`](../../../aspose.words.tables/table/) nœuds.
+Si vous devez accéder à un[`Cell`](../../../aspose.words.tables/cell/) nœud, vous pouvez alors passer à un[`Paragraph`](../../../aspose.words/paragraph/) dans cette cellule, puis remontez vers une entité parent. La même approche peut être utilisée pour[`Row`](../../../aspose.words.tables/row/) et[`Table`](../../../aspose.words.tables/table/) nœuds.
 
 ### Exemples
 
-Montre comment voir les plages de pages couvertes par un nœud.
+Montre comment afficher les plages de pages couvertes par un nœud.
 
 ```csharp
 Document doc = new Document();
 LayoutCollector layoutCollector = new LayoutCollector(doc);
 
-// Appelez la méthode "GetNumPagesSpanned" pour compter le nombre de pages sur lesquelles s'étend le contenu de notre document.
+// Appelez la méthode "GetNumPagesSpanned" pour compter le nombre de pages que couvre le contenu de notre document.
 // Puisque le document est vide, ce nombre de pages est actuellement nul.
 Assert.AreEqual(doc, layoutCollector.Document);
 Assert.AreEqual(0, layoutCollector.GetNumPagesSpanned(doc));
 
-// Remplir le document avec 5 pages de contenu.
+// Remplit le document avec 5 pages de contenu.
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Write("Section 1");
 builder.InsertBreak(BreakType.PageBreak);
@@ -47,7 +47,7 @@ builder.Write("Section 2");
 builder.InsertBreak(BreakType.PageBreak);
 builder.InsertBreak(BreakType.PageBreak);
 
-// Avant le collecteur de disposition, nous devons appeler la méthode "UpdatePageLayout" pour nous donner
+// Avant le collecteur de mise en page, nous devons appeler la méthode "UpdatePageLayout" pour nous donner
 // un chiffre précis pour toute métrique liée à la mise en page, telle que le nombre de pages.
 Assert.AreEqual(0, layoutCollector.GetNumPagesSpanned(doc));
 
@@ -56,7 +56,7 @@ doc.UpdatePageLayout();
 
 Assert.AreEqual(5, layoutCollector.GetNumPagesSpanned(doc));
 
-// Nous pouvons voir les numéros des pages de début et de fin de n'importe quel nœud et leurs étendues de page globales.
+// Nous pouvons voir les numéros des pages de début et de fin de n'importe quel nœud et leurs étendues globales de pages.
 NodeCollection nodes = doc.GetChildNodes(NodeType.Any, true);
 foreach (Node node in nodes)
 {
@@ -71,7 +71,7 @@ LayoutEnumerator layoutEnumerator = new LayoutEnumerator(doc);
 
 Assert.AreEqual(LayoutEntityType.Page, layoutEnumerator.Type);
 
-// Le LayoutEnumerator peut traverser la collection d'entités de mise en page comme un arbre.
+// Le LayoutEnumerator peut parcourir la collection d'entités de mise en page comme un arbre.
 // Nous pouvons également l'appliquer à l'entité de mise en page correspondante de n'importe quel nœud.
 layoutEnumerator.Current = layoutCollector.GetEntity(doc.GetChild(NodeType.Paragraph, 1, true));
 

@@ -1,14 +1,14 @@
 ---
 title: FieldFormat.NumericFormat
 second_title: Referencia de API de Aspose.Words para .NET
-description: FieldFormat propiedad. Obtiene o establece un formato que se aplica a un resultado de campo numérico. Corresponde al  switch.
+description: FieldFormat propiedad. Obtiene o establece un formato que se aplica al resultado de un campo numérico. Corresponde al  switch.
 type: docs
 weight: 30
 url: /es/net/aspose.words.fields/fieldformat/numericformat/
 ---
 ## FieldFormat.NumericFormat property
 
-Obtiene o establece un formato que se aplica a un resultado de campo numérico. Corresponde al \# switch.
+Obtiene o establece un formato que se aplica al resultado de un campo numérico. Corresponde al \# switch.
 
 ```csharp
 public string NumericFormat { get; set; }
@@ -22,7 +22,7 @@ Muestra cómo dar formato a los resultados de los campos.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Use un generador de documentos para insertar un campo que muestre un resultado sin formato aplicado.
+// Utilice un generador de documentos para insertar un campo que muestre un resultado sin formato aplicado.
 Field field = builder.InsertField("= 2 + 3");
 
 Assert.AreEqual("= 2 + 3", field.GetFieldCode());

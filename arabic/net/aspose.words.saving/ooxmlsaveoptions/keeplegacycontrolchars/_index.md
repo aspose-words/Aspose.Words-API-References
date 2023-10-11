@@ -16,14 +16,14 @@ public bool KeepLegacyControlChars { get; set; }
 
 ### أمثلة
 
-يوضح كيفية دعم أحرف التحكم القديمة عند التحويل إلى docx.
+يوضح كيفية دعم أحرف التحكم القديمة عند التحويل إلى .docx.
 
 ```csharp
 Document doc = new Document(MyDir + "Legacy control character.doc");
 
-// عندما نحفظ المستند بتنسيق OOXML ، يمكننا إنشاء كائن OoxmlSaveOptions
+// عندما نحفظ المستند بتنسيق OOXML، يمكننا إنشاء كائن OoxmlSaveOptions
 // ثم قم بتمريره إلى طريقة حفظ المستند لتعديل كيفية حفظ المستند.
-// اضبط خاصية "KeepLegacyControlChars" على "true" للاحتفاظ بها
+// اضبط خاصية "KeepLegacyControlChars" على "صحيح" للمحافظة عليها
 // الحرف القديم "ShortDateTime" أثناء الحفظ.
 // اضبط خاصية "KeepLegacyControlChars" على "خطأ" لإزالتها
 // الحرف القديم "ShortDateTime" من مستند الإخراج.

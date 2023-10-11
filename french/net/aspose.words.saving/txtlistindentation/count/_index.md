@@ -1,14 +1,14 @@
 ---
 title: TxtListIndentation.Count
 second_title: Référence de l'API Aspose.Words pour .NET
-description: TxtListIndentation propriété. Obtient ou définit le nombreCharacter à utiliser comme indentation par niveau de liste. La valeur par défaut est 0 cela signifie quil ny a pas dindentation.
+description: TxtListIndentation propriété. Obtient ou définit combienCharacter à utiliser comme indentation pour un niveau de liste. La valeur par défaut est 0 cela signifie pas dindentation.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.saving/txtlistindentation/count/
 ---
 ## TxtListIndentation.Count property
 
-Obtient ou définit le nombre[`Character`](../character/) à utiliser comme indentation par niveau de liste. La valeur par défaut est 0, cela signifie qu'il n'y a pas d'indentation.
+Obtient ou définit combien[`Character`](../character/) à utiliser comme indentation pour un niveau de liste. La valeur par défaut est 0, cela signifie pas d'indentation.
 
 ```csharp
 public int Count { get; set; }
@@ -16,7 +16,7 @@ public int Count { get; set; }
 
 ### Exemples
 
-Montre comment configurer l'indentation de la liste lors de l'enregistrement d'un document en texte brut.
+Montre comment configurer l’indentation de liste lors de l’enregistrement d’un document en texte brut.
 
 ```csharp
 Document doc = new Document();
@@ -30,16 +30,16 @@ builder.Writeln("Item 2");
 builder.ListFormat.ListIndent(); 
 builder.Write("Item 3");
 
-// Crée un objet "TxtSaveOptions", que nous pouvons passer à la méthode "Save" du document
+// Crée un objet "TxtSaveOptions", que l'on peut passer à la méthode "Save" du document
 // pour modifier la façon dont nous enregistrons le document en texte brut.
 TxtSaveOptions txtSaveOptions = new TxtSaveOptions();
 
-// Définissez la propriété "Caractère" pour attribuer un caractère à utiliser
-// pour le rembourrage qui simule l'indentation de la liste en clair.
+// Définissez la propriété "Character" pour attribuer un caractère à utiliser
+// pour un remplissage qui simule l'indentation de liste en texte brut.
 txtSaveOptions.ListIndentation.Character = ' ';
 
-// Définissez la propriété "Count" pour spécifier le nombre de fois
-// pour placer le caractère de remplissage pour chaque niveau d'indentation de la liste.
+// Définit la propriété "Count" pour spécifier le nombre de fois
+// pour placer le caractère de remplissage pour chaque niveau de retrait de liste.
 txtSaveOptions.ListIndentation.Count = 3;
 
 doc.Save(ArtifactsDir + "TxtSaveOptions.TxtListIndentation.txt", txtSaveOptions);

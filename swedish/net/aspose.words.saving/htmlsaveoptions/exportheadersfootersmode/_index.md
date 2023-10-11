@@ -3,7 +3,7 @@ title: HtmlSaveOptions.ExportHeadersFootersMode
 second_title: Aspose.Words för .NET API Referens
 description: HtmlSaveOptions fast egendom. Anger hur sidhuvuden och sidfötter matas ut till HTML MHTML eller EPUB. Standardvärdet ärPerSection för HTML/MHTML ochNone för EPUB.
 type: docs
-weight: 170
+weight: 160
 url: /sv/net/aspose.words.saving/htmlsaveoptions/exportheadersfootersmode/
 ---
 ## HtmlSaveOptions.ExportHeadersFootersMode property

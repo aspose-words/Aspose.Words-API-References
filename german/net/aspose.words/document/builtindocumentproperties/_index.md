@@ -16,16 +16,16 @@ public BuiltInDocumentProperties BuiltInDocumentProperties { get; }
 
 ### Beispiele
 
-Zeigt, wie Sie mit integrierten Dokumenteigenschaften arbeiten.
+Zeigt, wie mit integrierten Dokumenteigenschaften gearbeitet wird.
 
 ```csharp
 Document doc = new Document(MyDir + "Properties.docx");
 
-// Das "Document"-Objekt enthält einige seiner Metadaten in seinen Mitgliedern.
+// Das Objekt „Document“ enthält einige seiner Metadaten in seinen Mitgliedern.
 Console.WriteLine($"Document filename:\n\t \"{doc.OriginalFileName}\"");
 
-// Das Dokument speichert auch Metadaten in seinen eingebauten Eigenschaften.
-// Jede eingebaute Eigenschaft ist ein Mitglied des "BuiltInDocumentProperties"-Objekts des Dokuments.
+// Das Dokument speichert auch Metadaten in seinen integrierten Eigenschaften.
+// Jede integrierte Eigenschaft ist Mitglied des „BuiltInDocumentProperties“-Objekts des Dokuments.
 Console.WriteLine("Built-in Properties:");
 foreach (DocumentProperty docProperty in doc.BuiltInDocumentProperties)
 {

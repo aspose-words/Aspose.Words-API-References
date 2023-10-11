@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTagRangeStart.StructuredDocumentTagRangeStart
 second_title: Aspose.Words لمراجع .NET API
-description: StructuredDocumentTagRangeStart البناء. يقوم بتهيئة مثيل جديد لملف يبدأ نطاق علامة المستند المنظمة فئة .
+description: StructuredDocumentTagRangeStart البناء. تهيئة مثيل جديد لـ يبدأ نطاق علامات المستند المنظم فئة.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.markup/structureddocumenttagrangestart/structureddocumenttagrangestart/
 ---
 ## StructuredDocumentTagRangeStart constructor
 
-يقوم بتهيئة مثيل جديد لملف **يبدأ نطاق علامة المستند المنظمة** فئة .
+تهيئة مثيل جديد لـ **يبدأ نطاق علامات المستند المنظم** فئة.
 
 ```csharp
 public StructuredDocumentTagRangeStart(DocumentBase doc, SdtType type)
@@ -17,7 +17,7 @@ public StructuredDocumentTagRangeStart(DocumentBase doc, SdtType type)
 | معامل | يكتب | وصف |
 | --- | --- | --- |
 | doc | DocumentBase | وثيقة المالك. |
-| type | SdtType | نوع عقدة المعاملة الخاصة والتفضيلية. |
+| type | SdtType | نوع العقدة SDT. |
 
 ### ملاحظات
 
@@ -35,9 +35,10 @@ public StructuredDocumentTagRangeStart(DocumentBase doc, SdtType type)
 
 ### أمثلة
 
-يوضح كيفية إنشاء / إزالة علامة مستند منظم ومحتوياته.
+يوضح كيفية إنشاء/إزالة علامة المستند المنظمة ومحتواها.
 
 ```csharp
+public void SdtRangeExtendedMethods()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -46,7 +47,7 @@ public StructuredDocumentTagRangeStart(DocumentBase doc, SdtType type)
 
     InsertStructuredDocumentTagRanges(doc, out StructuredDocumentTagRangeStart rangeStart);
 
-    // يزيل علامة المستند المهيكلة النطاق ، لكنه يحتفظ بالمحتوى بالداخل.
+    // يزيل علامة المستند المنظمة ذات النطاق، لكنه يحتفظ بالمحتوى بداخله.
     rangeStart.RemoveSelfOnly();
 
     rangeStart = (StructuredDocumentTagRangeStart)doc.GetChild(
@@ -64,7 +65,7 @@ public StructuredDocumentTagRangeStart(DocumentBase doc, SdtType type)
     Node paragraphNode = rangeStart.LastOrDefault();
     Assert.AreEqual("StructuredDocumentTag element", paragraphNode?.GetText().Trim());
 
-    // يزيل علامة المستند المهيكلة النطاق والمحتوى بالداخل.
+    // يزيل علامة المستند المنظمة والمحتويات الموجودة بداخله.
     rangeStart.RemoveAllChildren();
 
     paragraphNode = rangeStart.LastOrDefault();

@@ -3,7 +3,7 @@ title: Document.ProtectionType
 second_title: Aspose.Words för .NET API Referens
 description: Document fast egendom. Får den för närvarande aktiva dokumentskyddstypen.
 type: docs
-weight: 310
+weight: 330
 url: /sv/net/aspose.words/document/protectiontype/
 ---
 ## Document.ProtectionType property
@@ -16,7 +16,7 @@ public ProtectionType ProtectionType { get; }
 
 ### Anmärkningar
 
-Den här egenskapen gör det möjligt att hämta den aktuella dokumentskyddstypen. För att ändra dokumentskyddstypen använd[`Protect`](../protect/) och[`Unprotect`](../unprotect/)metoder.
+Den här egenskapen gör det möjligt att hämta den aktuella dokumentskyddstypen. För att ändra dokumentskyddstypen använd[`Protect`](../protect/) och[`Unprotect`](../unprotect/) metoder.
 
 När ett dokument är skyddat kan användaren endast göra begränsade ändringar, som att lägga till kommentarer, göra ändringar eller fylla i ett formulär.
 

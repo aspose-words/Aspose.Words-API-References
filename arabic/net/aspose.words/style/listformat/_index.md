@@ -1,14 +1,14 @@
 ---
 title: Style.ListFormat
 second_title: Aspose.Words لمراجع .NET API
-description: Style ملكية. يوفر الوصول إلى خصائص تنسيق القائمة الخاصة بنمط الفقرة.
+description: Style ملكية. يوفر الوصول إلى خصائص تنسيق القائمة لنمط الفقرة.
 type: docs
-weight: 100
+weight: 110
 url: /ar/net/aspose.words/style/listformat/
 ---
 ## Style.ListFormat property
 
-يوفر الوصول إلى خصائص تنسيق القائمة الخاصة بنمط الفقرة.
+يوفر الوصول إلى خصائص تنسيق القائمة لنمط الفقرة.
 
 ```csharp
 public ListFormat ListFormat { get; }
@@ -16,11 +16,11 @@ public ListFormat ListFormat { get; }
 
 ### ملاحظات
 
-هذه الخاصية صالحة فقط لأنماط الفقرة . بالنسبة لأنواع الأنماط الأخرى ، تُرجع هذه الخاصية قيمة خالية.
+هذه الخاصية صالحة فقط لأنماط الفقرة. بالنسبة لأنواع الأنماط الأخرى، تُرجع هذه الخاصية`باطل`.
 
 ### أمثلة
 
-يوضح كيفية إنشاء نمط فقرة واستخدامه مع تنسيق القائمة.
+يوضح كيفية إنشاء نمط فقرة واستخدامه بتنسيق القائمة.
 
 ```csharp
 Document doc = new Document();
@@ -36,7 +36,7 @@ style.ParagraphFormat.SpaceAfter = 12;
 style.ListFormat.List = doc.Lists.Add(ListTemplate.BulletDefault);
 style.ListFormat.ListLevelNumber = 0;
 
-// قم بتطبيق نمط الفقرة على الفقرة الحالية لمنشئ الوثيقة ، ثم أضف بعض النص.
+// قم بتطبيق نمط الفقرة على الفقرة الحالية لمنشئ المستند، ثم قم بإضافة بعض النص.
 builder.ParagraphFormat.Style = style;
 builder.Writeln("Hello World: MyStyle1, bulleted list.");
 

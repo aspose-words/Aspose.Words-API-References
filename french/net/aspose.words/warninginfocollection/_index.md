@@ -3,12 +3,14 @@ title: Class WarningInfoCollection
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Aspose.Words.WarningInfoCollection classe. Représente une collection typée deWarningInfo objets.
 type: docs
-weight: 6330
+weight: 6640
 url: /fr/net/aspose.words/warninginfocollection/
 ---
 ## WarningInfoCollection class
 
 Représente une collection typée de[`WarningInfo`](../warninginfo/) objets.
+
+Pour en savoir plus, visitez le[Programmation avec des documents](https://docs.aspose.com/words/net/programming-with-documents/) article documentaire.
 
 ```csharp
 public class WarningInfoCollection : IEnumerable<WarningInfo>, IWarningCallback
@@ -32,33 +34,35 @@ public class WarningInfoCollection : IEnumerable<WarningInfo>, IWarningCallback
 | Nom | La description |
 | --- | --- |
 | [Clear](../../aspose.words/warninginfocollection/clear/)() | Supprime tous les éléments de la collection. |
-| [GetEnumerator](../../aspose.words/warninginfocollection/getenumerator/)() | Renvoie un objet énumérateur qui peut être utilisé pour itérer sur tous les éléments de la collection. |
+| [GetEnumerator](../../aspose.words/warninginfocollection/getenumerator/)() | Renvoie un objet énumérateur qui peut être utilisé pour parcourir tous les éléments de la collection. |
 | [Warning](../../aspose.words/warninginfocollection/warning/)(WarningInfo) | Implémente le[`IWarningCallback`](../iwarningcallback/) interface. Ajoute un avertissement à cette collection. |
 
 ### Remarques
 
-Vous pouvez utiliser cet objet de collection comme la forme la plus simple de[`IWarningCallback`](../iwarningcallback/)implémentation pour rassembler tous les avertissements générés par Aspose.Words lors d'une opération de chargement ou de sauvegarde. Créez une instance de cette classe et affectez-la au[`WarningCallback`](../../aspose.words.loading/loadoptions/warningcallback/) ou[`WarningCallback`](../documentbase/warningcallback/) propriété.
+Vous pouvez utiliser cet objet de collection comme la forme la plus simple de[`IWarningCallback`](../iwarningcallback/) implémentation pour rassembler tous les avertissements générés par Aspose.Words lors d'une opération de chargement ou de sauvegarde. Créez une instance de cette classe et attribuez-la au[`WarningCallback`](../../aspose.words.loading/loadoptions/warningcallback/) ou[`WarningCallback`](../documentbase/warningcallback/) propriété.
 
 ### Exemples
 
-Montre comment définir la propriété pour rechercher la correspondance la plus proche pour une police manquante à partir des sources de polices disponibles.
+Montre comment définir la propriété permettant de trouver la correspondance la plus proche pour une police manquante à partir des sources de polices disponibles.
 
 ```csharp
-[Test]
 public void EnableFontSubstitution()
 {
     // Ouvre un document contenant du texte formaté avec une police qui n'existe dans aucune de nos sources de polices.
     Document doc = new Document(MyDir + "Missing font.docx");
 
-    // Affecte un rappel pour gérer les avertissements de substitution de police.
+    // Attribue un rappel pour gérer les avertissements de substitution de police.
     HandleDocumentSubstitutionWarnings substitutionWarningHandler = new HandleDocumentSubstitutionWarnings();
     doc.WarningCallback = substitutionWarningHandler;
 
-    // Définir un nom de police par défaut et activer la substitution de police.
+    // Définit un nom de police par défaut et active la substitution de police.
     FontSettings fontSettings = new FontSettings();
     fontSettings.SubstitutionSettings.DefaultFontSubstitution.DefaultFontName = "Arial";
     ;
     fontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
+
+    // Les métriques de police d'origine doivent être utilisées après la substitution de police.
+    doc.LayoutOptions.KeepOriginalFontMetrics = true;
 
     // Nous recevrons un avertissement de substitution de police si nous enregistrons un document avec une police manquante.
     doc.FontSettings = fontSettings;
@@ -68,7 +72,7 @@ public void EnableFontSubstitution()
         while (warnings.MoveNext())
             Console.WriteLine(warnings.Current.Description);
 
-    // Nous pouvons également vérifier les avertissements dans la collection et les effacer.
+    // Nous pouvons également vérifier les avertissements de la collection et les effacer.
     Assert.AreEqual(WarningSource.Layout, substitutionWarningHandler.FontWarnings[0].Source);
     Assert.AreEqual(
         "Font '28 Days Later' has not been found. Using 'Calibri' font instead. Reason: alternative name from document.",
@@ -82,7 +86,7 @@ public void EnableFontSubstitution()
 public class HandleDocumentSubstitutionWarnings : IWarningCallback
 {
     /// <summary>
-    /// Appelé chaque fois qu'un avertissement se produit lors du chargement/sauvegarde.
+    /// Appelé à chaque fois qu'un avertissement se produit lors du chargement/sauvegarde.
     /// </summary>
     public void Warning(WarningInfo info)
     {

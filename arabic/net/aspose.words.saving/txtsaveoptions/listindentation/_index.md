@@ -1,14 +1,14 @@
 ---
 title: TxtSaveOptions.ListIndentation
 second_title: Aspose.Words لمراجع .NET API
-description: TxtSaveOptions ملكية. الحصول على كائن ListIndentation الذي يحدد عدد الأحرف التي يجب استخدامها والمسافة البادئة لمستويات القائمة.
+description: TxtSaveOptions ملكية. يحصل علىTxtListIndentation كائن يحدد عدد الأحرف التي سيتم استخدامها لتحديد المسافة البادئة لمستويات القائمة. بشكل افتراضي يكون عدد الأحرف 0 صفرًا وهذا يعني عدم وجود مسافة بادئة.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.saving/txtsaveoptions/listindentation/
 ---
 ## TxtSaveOptions.ListIndentation property
 
-الحصول على كائن ListIndentation الذي يحدد عدد الأحرف التي يجب استخدامها والمسافة البادئة لمستويات القائمة.
+يحصل على[`TxtListIndentation`](../../txtlistindentation/) كائن يحدد عدد الأحرف التي سيتم استخدامها لتحديد المسافة البادئة لمستويات القائمة. بشكل افتراضي، يكون عدد الأحرف '\0' صفرًا، وهذا يعني عدم وجود مسافة بادئة.
 
 ```csharp
 public TxtListIndentation ListIndentation { get; }
@@ -16,7 +16,7 @@ public TxtListIndentation ListIndentation { get; }
 
 ### أمثلة
 
-يوضح كيفية تكوين مسافة بادئة للقائمة عند حفظ مستند إلى نص عادي.
+يوضح كيفية تكوين المسافة البادئة للقائمة عند حفظ مستند إلى نص عادي.
 
 ```csharp
 Document doc = new Document();
@@ -30,16 +30,16 @@ builder.Writeln("Item 2");
 builder.ListFormat.ListIndent(); 
 builder.Write("Item 3");
 
-// قم بإنشاء كائن "TxtSaveOptions" ، والذي يمكننا تمريره إلى طريقة "Save" الخاصة بالمستند
-// لتعديل كيفية حفظ المستند على نص عادي.
+// قم بإنشاء كائن "TxtSaveOptions"، والذي يمكننا تمريره إلى طريقة "حفظ" المستند
+// لتعديل كيفية حفظ المستند إلى نص عادي.
 TxtSaveOptions txtSaveOptions = new TxtSaveOptions();
 
 // قم بتعيين خاصية "الحرف" لتعيين حرف لاستخدامه
-// للحشو الذي يحاكي المسافة البادئة للقائمة في نص عادي.
+// للحشوة التي تحاكي المسافة البادئة للقائمة في النص العادي.
 txtSaveOptions.ListIndentation.Character = ' ';
 
-// قم بتعيين خاصية "Count" لتحديد عدد المرات
-// لوضع حرف المساحة المتروكة لكل مستوى مسافة بادئة للقائمة.
+// قم بتعيين خاصية "العدد" لتحديد عدد المرات
+// لوضع حرف الحشو لكل مستوى من مستويات المسافة البادئة في القائمة.
 txtSaveOptions.ListIndentation.Count = 3;
 
 doc.Save(ArtifactsDir + "TxtSaveOptions.TxtListIndentation.txt", txtSaveOptions);

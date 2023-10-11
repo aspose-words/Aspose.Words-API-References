@@ -3,7 +3,7 @@ title: Enum FontFamily
 second_title: Referencia de API de Aspose.Words para .NET
 description: Aspose.Words.Fonts.FontFamily enumeración. Representa la familia de fuentes.
 type: docs
-weight: 2730
+weight: 2910
 url: /es/net/aspose.words.fonts/fontfamily/
 ---
 ## FontFamily enumeration
@@ -18,16 +18,16 @@ public enum FontFamily
 
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
-| Auto | `0` | Especifica un nombre de familia genérico. Este nombre se usa cuando la información sobre una fuente no existe o no importa. Se utiliza la fuente predeterminada. |
+| Auto | `0` | Especifica un apellido genérico. Este nombre se utiliza cuando la información sobre una fuente no existe o no importa. Se utiliza la fuente predeterminada. |
 | Roman | `1` | Especifica una fuente proporcional con serifas. Un ejemplo es Times New Roman. |
-| Swiss | `2` | Especifica una fuente proporcional sin gracias. Un ejemplo es Arial. |
-| Modern | `3` | Especifica una fuente monoespaciada con o sin serifas. Las fuentes monoespaciadas son generalmente modernas; los ejemplos incluyen Pica, Elite y Courier New. |
-| Script | `4` | Especifica una fuente que está diseñada para parecerse a la escritura a mano; los ejemplos incluyen Script y Cursive. |
-| Decorative | `5` | Especifica una fuente novedosa. Un ejemplo es inglés antiguo. |
+| Swiss | `2` | Especifica una fuente proporcional sin serifas. Un ejemplo es Arial. |
+| Modern | `3` | Especifica una fuente monoespaciada con o sin serifas. Las fuentes monoespaciadas suelen ser modernas; los ejemplos incluyen Pica, Elite y Courier New. |
+| Script | `4` | Especifica una fuente diseñada para parecerse a escritura a mano; los ejemplos incluyen escritura y cursiva. |
+| Decorative | `5` | Especifica una fuente novedosa. Un ejemplo es el inglés antiguo. |
 
 ### Observaciones
 
-Una familia de fuentes es un conjunto de fuentes que tienen un ancho de trazo común y características serif.
+Una familia de fuentes es un conjunto de fuentes que tienen características serif y ancho de trazo comunes.
 
 ### Ejemplos
 

@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTag.NodeType
 second_title: Справочник по API Aspose.Words для .NET
-description: StructuredDocumentTag свойство. Возвращает NodeType.StructuredDocumentTag .
+description: StructuredDocumentTag свойство. ВозвращаетStructuredDocumentTag .
 type: docs
 weight: 220
 url: /ru/net/aspose.words.markup/structureddocumenttag/nodetype/
 ---
 ## StructuredDocumentTag.NodeType property
 
-Возвращает **NodeType.StructuredDocumentTag** .
+ВозвращаетStructuredDocumentTag .
 
 ```csharp
 public override NodeType NodeType { get; }
@@ -16,14 +16,14 @@ public override NodeType NodeType { get; }
 
 ### Примеры
 
-Показывает, как работать со стилями для элементов управления содержимым.
+Показывает, как работать со стилями элементов управления содержимым.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Ниже приведены два способа применения стиля из документа к тегу структурированного документа.
-// 1 - Применить объект стиля из коллекции стилей документа:
+// Ниже приведены два способа применения стиля документа к тегу структурированного документа.
+// 1 — применить объект стиля из коллекции стилей документа:
 Style quoteStyle = doc.Styles[StyleIdentifier.Quote];
 StructuredDocumentTag sdtPlainText =
     new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Inline) { Style = quoteStyle };
@@ -42,6 +42,8 @@ NodeCollection tags = doc.GetChildNodes(NodeType.StructuredDocumentTag, true);
 foreach (Node node in tags)
 {
     StructuredDocumentTag sdt = (StructuredDocumentTag)node;
+
+    Console.WriteLine(sdt.WordOpenXMLMinimal);
 
     Assert.AreEqual(StyleIdentifier.Quote, sdt.Style.StyleIdentifier);
     Assert.AreEqual("Quote", sdt.StyleName);

@@ -1,14 +1,14 @@
 ---
 title: FieldHyperlink.ScreenTip
 second_title: Aspose.Words für .NET-API-Referenz
-description: FieldHyperlink eigendom. Ruft den QuickInfoText für den Hyperlink ab oder legt ihn fest.
+description: FieldHyperlink eigendom. Ruft den QuickInfoText für den Hyperlink ab oder legt diesen fest.
 type: docs
 weight: 50
 url: /de/net/aspose.words.fields/fieldhyperlink/screentip/
 ---
 ## FieldHyperlink.ScreenTip property
 
-Ruft den QuickInfo-Text für den Hyperlink ab oder legt ihn fest.
+Ruft den QuickInfo-Text für den Hyperlink ab oder legt diesen fest.
 
 ```csharp
 public string ScreenTip { get; set; }
@@ -16,7 +16,7 @@ public string ScreenTip { get; set; }
 
 ### Beispiele
 
-Zeigt, wie HYPERLINK-Felder verwendet werden, um auf Dokumente im lokalen Dateisystem zu verlinken.
+Zeigt, wie HYPERLINK-Felder zum Verknüpfen mit Dokumenten im lokalen Dateisystem verwendet werden.
 
 ```csharp
 Document doc = new Document();
@@ -25,7 +25,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 FieldHyperlink field = (FieldHyperlink)builder.InsertField(FieldType.FieldHyperlink, true);
 
 // Wenn wir in Microsoft Word auf dieses HYPERLINK-Feld klicken,
-// Es öffnet das verknüpfte Dokument und setzt dann den Cursor auf das angegebene Lesezeichen.
+// Es öffnet das verknüpfte Dokument und platziert den Cursor dann auf dem angegebenen Lesezeichen.
 field.Address = MyDir + "Bookmarks.docx";
 field.SubAddress = "MyBookmark3";
 field.ScreenTip = "Open " + field.Address + " on bookmark " + field.SubAddress + " in a new window";

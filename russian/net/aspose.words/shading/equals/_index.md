@@ -1,14 +1,14 @@
 ---
 title: Shading.Equals
 second_title: Справочник по API Aspose.Words для .NET
-description: Shading метод. Определяет равен ли указанный Shading по значению текущему Shading.
+description: Shading метод. Определяет задано ли указанноеShading по значению равен текущемуShading .
 type: docs
-weight: 50
+weight: 90
 url: /ru/net/aspose.words/shading/equals/
 ---
 ## Equals(Shading) {#equals}
 
-Определяет, равен ли указанный Shading по значению текущему Shading.
+Определяет, задано ли указанное[`Shading`](../) по значению равен текущему[`Shading`](../) .
 
 ```csharp
 public bool Equals(Shading rhs)

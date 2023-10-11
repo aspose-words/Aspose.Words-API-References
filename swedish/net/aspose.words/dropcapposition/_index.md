@@ -3,7 +3,7 @@ title: Enum DropCapPosition
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.DropCapPosition uppräkning. Anger positionen för en drop captext.
 type: docs
-weight: 1260
+weight: 1410
 url: /sv/net/aspose.words/dropcapposition/
 ---
 ## DropCapPosition enumeration

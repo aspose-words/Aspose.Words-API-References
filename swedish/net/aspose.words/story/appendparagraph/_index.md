@@ -16,7 +16,7 @@ public Paragraph AppendParagraph(string text)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| text | String | Texten till stycket. Kan vara null eller tom sträng. |
+| text | String | Texten till stycket. Kan vara`null` eller tom sträng. |
 
 ### Returvärde
 

@@ -34,21 +34,21 @@ FieldCollection fields = doc.Range.Fields;
 
 Assert.AreEqual(6, fields.Count);
 
-// Ниже приведены четыре способа удаления полей из набора полей.
+// Ниже приведены четыре способа удаления полей из коллекции полей.
 // 1 - Получить поле для удаления самого себя:
 fields[0].Remove();
 Assert.AreEqual(5, fields.Count);
 
-// 2 - Получить коллекцию для удаления поля, которое мы передаем в метод ее удаления:
+// 2 — Получение коллекции для удаления поля, которое мы передаем методу удаления:
 Field lastField = fields[3];
 fields.Remove(lastField);
 Assert.AreEqual(4, fields.Count);
 
-// 3 - Удалить поле из коллекции по индексу:
+// 3 — Удалить поле из коллекции по индексу:
 fields.RemoveAt(2);
 Assert.AreEqual(3, fields.Count);
 
-// 4 - Удалить сразу все поля из коллекции:
+// 4 - Удалить все поля из коллекции сразу:
 fields.Clear();
 Assert.AreEqual(0, fields.Count);
 ```
@@ -56,6 +56,7 @@ Assert.AreEqual(0, fields.Count);
 Показывает, как работать с коллекцией полей.
 
 ```csharp
+public void FieldCollection()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -72,7 +73,7 @@ Assert.AreEqual(0, fields.Count);
 
     Assert.AreEqual(6, fields.Count);
 
-    // Перебираем коллекцию полей и печатаем содержимое и тип
+    // Перебираем коллекцию полей, выводим содержимое и печатаем
     // каждого поля с использованием пользовательской реализации посетителя.
     FieldVisitor fieldVisitor = new FieldVisitor();
 
@@ -94,9 +95,10 @@ Assert.AreEqual(0, fields.Count);
     }
 
     Console.WriteLine(fieldVisitor.GetText());
+}
 
 /// <summary>
-/// Реализация посетителя документа, которая печатает информацию о поле.
+/// Реализация посетителя документа, который печатает информацию о поле.
 /// </summary>
 public class FieldVisitor : DocumentVisitor
 {
@@ -106,7 +108,7 @@ public class FieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Получает обычный текст документа, который накопил посетитель.
+    /// Получает открытый текст документа, накопленный посетителем.
     /// </summary>
     public string GetText()
     {

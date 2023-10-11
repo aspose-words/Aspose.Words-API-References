@@ -1,14 +1,14 @@
 ---
 title: Document.OriginalLoadFormat
 second_title: Aspose.Words per .NET API Reference
-description: Document proprietà. Ottiene il formato del documento originale che è stato caricato in questo oggetto.
+description: Document proprietà. Ottiene il formato del documento originale caricato in questo oggetto.
 type: docs
-weight: 280
+weight: 300
 url: /it/net/aspose.words/document/originalloadformat/
 ---
 ## Document.OriginalLoadFormat property
 
-Ottiene il formato del documento originale che è stato caricato in questo oggetto.
+Ottiene il formato del documento originale caricato in questo oggetto.
 
 ```csharp
 public LoadFormat OriginalLoadFormat { get; }
@@ -16,7 +16,7 @@ public LoadFormat OriginalLoadFormat { get; }
 
 ### Osservazioni
 
-Se hai creato un nuovo documento vuoto, restituisce ilDoc valore.
+Se hai creato un nuovo documento vuoto, restituisce il fileDoc valore.
 
 ### Esempi
 

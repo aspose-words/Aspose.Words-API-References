@@ -26,8 +26,8 @@ Table table = builder.StartTable();
 builder.InsertCell();
 builder.Write("Row 1, cell 1.");
 
-// Avvia una seconda riga, quindi configura la sua altezza. Il builder applicherà queste impostazioni a
-// la sua riga corrente, così come tutte le nuove righe che crea in seguito.
+// Inizia una seconda riga e quindi configura la sua altezza. Il builder applicherà queste impostazioni a
+// la riga corrente, nonché le eventuali nuove righe create in seguito.
 builder.EndRow();
 
 RowFormat rowFormat = builder.RowFormat;
@@ -70,7 +70,7 @@ builder.Font.Bold = true;
 
 // La configurazione delle opzioni di formattazione in un generatore di documenti le applicherà
 // alla cella/riga corrente in cui si trova il cursore,
-// così come tutte le nuove celle e righe create usando quel builder.
+// così come qualsiasi nuova cella e riga creata utilizzando quel builder.
 builder.Write("Header Row,\n Cell 1");
 builder.InsertCell();
 builder.Write("Header Row,\n Cell 2");

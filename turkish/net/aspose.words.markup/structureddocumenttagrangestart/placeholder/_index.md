@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTagRangeStart.Placeholder
 second_title: Aspose.Words for .NET API Referansı
-description: StructuredDocumentTagRangeStart mülk. BuildingBlock bu yapılandırılmış belge etiketi çalıştırma içeriği boş olduğunda görüntülenmesi gereken yer tutucu metni içeren ilişkili eşlenen XML öğesi belirtilen aracılığıyla boş olduğundaXmlMapping eleman veyaIsShowingPlaceholderText eleman doğrudur.
+description: StructuredDocumentTagRangeStart mülk. AlırBuildingBlockbu yapılandırılmış belge etiketi çalıştırma içerikleri boş olduğunda görüntülenmesi gereken yer tutucu metni içerir ilgili eşlenen XML öğesi belirtilen aracılığıyla boşturXmlMapping eleman veyaIsShowingPlaceholderText elemandoğru .
 type: docs
 weight: 110
 url: /tr/net/aspose.words.markup/structureddocumenttagrangestart/placeholder/
 ---
 ## StructuredDocumentTagRangeStart.Placeholder property
 
-[`BuildingBlock`](../../../aspose.words.buildingblocks/buildingblock/) bu yapılandırılmış belge etiketi çalıştırma içeriği boş olduğunda görüntülenmesi gereken yer tutucu metni içeren, ilişkili eşlenen XML öğesi, belirtilen aracılığıyla boş olduğunda[`XmlMapping`](../xmlmapping/) eleman veya[`IsShowingPlaceholderText`](../isshowingplaceholdertext/) eleman doğrudur.
+Alır[`BuildingBlock`](../../../aspose.words.buildingblocks/buildingblock/)bu yapılandırılmış belge etiketi çalıştırma içerikleri boş olduğunda görüntülenmesi gereken yer tutucu metni içerir, ilgili eşlenen XML öğesi, belirtilen aracılığıyla boştur[`XmlMapping`](../xmlmapping/) eleman veya[`IsShowingPlaceholderText`](../isshowingplaceholdertext/) eleman`doğru` .
 
 ```csharp
 public BuildingBlock Placeholder { get; }
@@ -16,7 +16,7 @@ public BuildingBlock Placeholder { get; }
 
 ### Notlar
 
-Boş olabilir; bu, yer tutucunun bu yapılandırılmış belge etiketi için geçerli olmadığı anlamına gelir.
+Olabilir`hükümsüz`, bu, yer tutucunun bu yapılandırılmış belge etiketi için geçerli olmadığı anlamına gelir.
 
 ### Ayrıca bakınız
 

@@ -16,7 +16,7 @@ public Section ParentSection { get; }
 
 ### Observaciones
 
-**Sección principal** es equivalente a`(Sección)Nodo principal`.
+`ParentSection` es equivalente a[`ParentNode`](../../node/parentnode/) lanzado a[`Section`](../../section/).
 
 ### Ejemplos
 
@@ -32,7 +32,7 @@ builder.Write("Section 2");
 builder.InsertBreak(BreakType.SectionBreakNewPage);
 builder.Write("Section 3");
 
-// Vaya a la primera sección y cree un encabezado y un pie de página. Por defecto,
+// Pasa a la primera sección y crea un encabezado y un pie de página. Por defecto,
 // el encabezado y el pie de página solo aparecerán en las páginas de la sección que los contiene.
 builder.MoveToSection(0);
 
@@ -46,25 +46,25 @@ builder.Write("This is the footer, which will be displayed in sections 1, 2 and 
 // para permitir que la sección de enlace muestre los encabezados/pies de página de la sección enlazada.
 doc.Sections[1].HeadersFooters.LinkToPrevious(true);
 
-// Cada sección aún tendrá sus propios objetos de encabezado/pie de página. Cuando vinculamos secciones,
-// la sección de enlace mostrará el encabezado/pie de página de la sección enlazada manteniendo el suyo propio.
+// Cada sección seguirá teniendo sus propios objetos de encabezado/pie de página. Cuando vinculamos secciones,
+// la sección de enlace mostrará el encabezado/pie de página de la sección enlazada manteniendo los suyos propios.
 Assert.AreNotEqual(doc.Sections[0].HeadersFooters[0], doc.Sections[1].HeadersFooters[0]);
 Assert.AreNotEqual(doc.Sections[0].HeadersFooters[0].ParentSection, doc.Sections[1].HeadersFooters[0].ParentSection);
 
-// Vincular los encabezados/pies de página de la tercera sección a los encabezados/pies de página de la segunda sección.
+// Vincula los encabezados/pies de página de la tercera sección a los encabezados/pies de página de la segunda sección.
 // La segunda sección ya enlaza con el encabezado/pie de página de la primera sección,
-// por lo que vincular a la segunda sección creará una cadena de enlaces.
-// La primera, la segunda y ahora la tercera sección mostrarán los encabezados de la primera sección.
+// por lo que vincular a la segunda sección creará una cadena de vínculos.
+// La primera, segunda y ahora tercera sección mostrarán los encabezados de la primera sección.
 doc.Sections[2].HeadersFooters.LinkToPrevious(true);
 
-// Podemos desvincular el encabezado/pie de página de una sección anterior pasando "falso" al llamar al método LinkToPrevious.
+// Podemos desvincular el encabezado/pie de página de una sección anterior pasando "false" al llamar al método LinkToPrevious.
 doc.Sections[2].HeadersFooters.LinkToPrevious(false);
 
 // También podemos seleccionar solo un tipo específico de encabezado/pie de página para vincular usando este método.
 // La tercera sección ahora tendrá el mismo pie de página que la segunda y la primera sección, pero no el encabezado.
 doc.Sections[2].HeadersFooters.LinkToPrevious(HeaderFooterType.FooterPrimary, true);
 
-// Los encabezados/pies de página de la primera sección no pueden vincularse a nada porque no hay una sección anterior.
+// El encabezado/pie de página de la primera sección no puede vincularse a nada porque no existe una sección anterior.
 Assert.AreEqual(2, doc.Sections[0].HeadersFooters.Count);
 Assert.AreEqual(2, doc.Sections[0].HeadersFooters.Count(hf => !((HeaderFooter)hf).IsLinkedToPrevious));
 

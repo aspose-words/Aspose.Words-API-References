@@ -1,14 +1,14 @@
 ---
 title: Enum MailMergeMainDocumentType
 second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Settings.MailMergeMainDocumentType enum. Specifica i tipi possibili per un documento di origine stampa unione.
+description: Aspose.Words.Settings.MailMergeMainDocumentType enum. Specifica i tipi possibili per un documento di origine di stampa unione.
 type: docs
-weight: 5540
+weight: 5840
 url: /it/net/aspose.words.settings/mailmergemaindocumenttype/
 ---
 ## MailMergeMainDocumentType enumeration
 
-Specifica i tipi possibili per un documento di origine stampa unione.
+Specifica i tipi possibili per un documento di origine di stampa unione.
 
 ```csharp
 public enum MailMergeMainDocumentType
@@ -19,11 +19,11 @@ public enum MailMergeMainDocumentType
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
 | NotAMergeDocument | `0` | Questo documento non è un documento di stampa unione. |
-| FormLetters | `1` | Specifica che il documento di origine della stampa unione è del tipo lettera modulo. |
-| MailingLabels | `2` | Specifica che il documento di origine della stampa unione è del tipo di etichetta postale. |
-| Envelopes | `4` | Specifica che il documento di origine della stampa unione è di tipo busta. |
+| FormLetters | `1` | Specifica che il documento di origine della stampa unione è del tipo lettera tipo. |
+| MailingLabels | `2` | Specifica che il documento di origine della stampa unione è del tipo etichetta postale. |
+| Envelopes | `4` | Specifica che il documento di origine della stampa unione è del tipo busta. |
 | Catalog | `8` | Specifica che il documento di origine della stampa unione è di tipo catalogo. |
-| Email | `16` | Specifica che il documento di origine della stampa unione è del tipo di messaggio di posta elettronica. |
+| Email | `16` | Specifica che il documento di origine della stampa unione è del tipo messaggio di posta elettronica. |
 | Fax | `32` | Specifica che il documento di origine della stampa unione è di tipo fax. |
 | Default | `0` | Uguale aNotAMergeDocument |
 
@@ -72,7 +72,7 @@ odso.FirstRowContainsColumnNames = true;
 Assert.AreNotSame(odso, odso.Clone());
 Assert.AreNotSame(settings, settings.Clone());
 
-// L'apertura di questo documento in Microsoft Word eseguirà la stampa unione prima di visualizzare il contenuto. 
+ // L'apertura di questo documento in Microsoft Word eseguirà la stampa unione prima di visualizzarne il contenuto.
 doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ```
 

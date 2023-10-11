@@ -1,14 +1,14 @@
 ---
 title: Enum FontSourceType
 second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Fonts.FontSourceType enum. Specifica il tipo di origine del carattere.
+description: Aspose.Words.Fonts.FontSourceType enum. Specifica il tipo di fonte di carattere.
 type: docs
-weight: 2810
+weight: 2990
 url: /it/net/aspose.words.fonts/fontsourcetype/
 ---
 ## FontSourceType enumeration
 
-Specifica il tipo di origine del carattere.
+Specifica il tipo di fonte di carattere.
 
 ```csharp
 public enum FontSourceType
@@ -18,11 +18,11 @@ public enum FontSourceType
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
-| FontFile | `0` | A[`FileFontSource`](../filefontsource/) oggetto che rappresenta un singolo file di font. |
+| FontFile | `0` | A[`FileFontSource`](../filefontsource/) oggetto che rappresenta un file di carattere singolo. |
 | FontsFolder | `1` | A[`FolderFontSource`](../folderfontsource/) oggetto che rappresenta la cartella con i file dei caratteri. |
-| MemoryFont | `2` | A[`MemoryFontSource`](../memoryfontsource/) oggetto che rappresenta un singolo font in memoria. |
-| SystemFonts | `3` | A[`SystemFontSource`](../systemfontsource/) oggetto che rappresenta tutti i font installati nel sistema. |
-| FontStream | `4` | A[`StreamFontSource`](../streamfontsource/) oggetto che rappresenta un flusso con dati del carattere. |
+| MemoryFont | `2` | A[`MemoryFontSource`](../memoryfontsource/) oggetto che rappresenta un singolo carattere in memoria. |
+| SystemFonts | `3` | A[`SystemFontSource`](../systemfontsource/) oggetto che rappresenta tutti i caratteri installati nel sistema. |
+| FontStream | `4` | A[`StreamFontSource`](../streamfontsource/) oggetto che rappresenta uno stream con dati di carattere. |
 
 ### Esempi
 

@@ -1,14 +1,14 @@
 ---
 title: HtmlLoadOptions.PreferredControlType
 second_title: Aspose.Words for .NET API 参考
-description: HtmlLoadOptions 财产. 获取或设置将表示导入的 input 和 select 元素的首选文档节点类型 默认值为FormField.
+description: HtmlLoadOptions 财产. 获取或设置表示导入的 input 和 select 元素的文档节点的首选类型 默认值为FormField.
 type: docs
 weight: 50
 url: /zh/net/aspose.words.loading/htmlloadoptions/preferredcontroltype/
 ---
 ## HtmlLoadOptions.PreferredControlType property
 
-获取或设置将表示导入的 &lt;input&gt; 和 &lt;select&gt; 元素的首选文档节点类型。 默认值为FormField.
+获取或设置表示导入的 &lt;input&gt; 和 &lt;select&gt; 元素的文档节点的首选类型。 默认值为FormField.
 
 ```csharp
 public HtmlControlType PreferredControlType { get; set; }
@@ -16,11 +16,11 @@ public HtmlControlType PreferredControlType { get; set; }
 
 ### 评论
 
-请注意，设置此属性并不能保证所有导入的控件都是指定的类型。 如果 HTML 控件不能用首选类型的文档节点表示，Aspose.Words 将使用 兼容的[`HtmlControlType`](../../htmlcontroltype/)对于那个控件。
+请注意，设置此属性并不能保证所有导入的控件都属于指定类型。 如果 HTML 控件无法用首选类型的文档节点表示，Aspose.Words 将使用 兼容的[`HtmlControlType`](../../htmlcontroltype/)对于该控件.
 
 ### 例子
 
-演示如何设置将表示导入的 &lt;input&gt; 和 &lt;select&gt; 元素的首选文档节点类型。
+演示如何设置表示导入的 &lt;input&gt; 和 &lt;select&gt; 元素的文档节点的首选类型。
 
 ```csharp
 const string html = @"

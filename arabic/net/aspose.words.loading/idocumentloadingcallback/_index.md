@@ -1,14 +1,14 @@
 ---
 title: Interface IDocumentLoadingCallback
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Loading.IDocumentLoadingCallback واجهه المستخدم. قم بتنفيذ هذه الواجهة إذا كنت تريد استدعاء طريقتك المخصصة أثناء تحميل مستند.
+description: Aspose.Words.Loading.IDocumentLoadingCallback واجهه المستخدم. قم بتنفيذ هذه الواجهة إذا كنت تريد أن يكون لديك طريقتك المخصصة التي يتم استدعاؤها أثناء تحميل المستند.
 type: docs
-weight: 3430
+weight: 3630
 url: /ar/net/aspose.words.loading/idocumentloadingcallback/
 ---
 ## IDocumentLoadingCallback interface
 
-قم بتنفيذ هذه الواجهة إذا كنت تريد استدعاء طريقتك المخصصة أثناء تحميل مستند.
+قم بتنفيذ هذه الواجهة إذا كنت تريد أن يكون لديك طريقتك المخصصة التي يتم استدعاؤها أثناء تحميل المستند.
 
 ```csharp
 public interface IDocumentLoadingCallback
@@ -18,14 +18,13 @@ public interface IDocumentLoadingCallback
 
 | اسم | وصف |
 | --- | --- |
-| [Notify](../../aspose.words.loading/idocumentloadingcallback/notify/)(DocumentLoadingArgs) | يتم استدعاء هذا لإخطار تقدم تحميل المستند. |
+| [Notify](../../aspose.words.loading/idocumentloadingcallback/notify/)(DocumentLoadingArgs) | يتم استدعاؤه للإخطار بتقدم تحميل المستند. |
 
 ### أمثلة
 
 يوضح كيفية إعلام المستخدم إذا تجاوز تحميل المستند وقت التحميل المتوقع.
 
 ```csharp
-[Test]
 public void ProgressCallback()
 {
     LoadingProgressCallback progressCallback = new LoadingProgressCallback();
@@ -40,17 +39,17 @@ public void ProgressCallback()
     {
         Console.WriteLine(exception.Message);
 
-        // معالجة مشكلة مدة التحميل.
+        // التعامل مع مشكلة مدة التحميل.
     }
 }
 
 /// <summary>
-/// إلغاء تحميل مستند بعد ثوان "MaxDuration".
+/// قم بإلغاء تحميل مستند بعد ثواني "MaxDuration".
 /// </summary>
 public class LoadingProgressCallback : IDocumentLoadingCallback
 {
     /// <summary>
-    /// تحكم.
+    /// نسبة مئوية.
     /// </summary>
     public LoadingProgressCallback()
     {
@@ -58,9 +57,9 @@ public class LoadingProgressCallback : IDocumentLoadingCallback
     }
 
     /// <summary>
-    /// طريقة رد الاتصال التي تم استدعاؤها أثناء تحميل المستند.
+    /// طريقة رد الاتصال التي يتم استدعاؤها أثناء تحميل المستند.
     /// </summary>
-    /// < param name = "args" > تحميل الوسائط. < / param >
+    /// <param name="args">جاري تحميل الوسائط.</param>
     public void Notify(DocumentLoadingArgs args)
     {
         DateTime canceledAt = DateTime.Now;
@@ -71,12 +70,12 @@ public class LoadingProgressCallback : IDocumentLoadingCallback
     }
 
     /// <summary>
-    /// تاريخ ووقت بدء تحميل المستند.
+    /// التاريخ والوقت الذي يبدأ فيه تحميل المستند.
     /// </summary>
     private readonly DateTime mLoadingStartedAt;
 
     /// <summary>
-    /// أقصى مدة مسموح بها بالثانية.
+    /// الحد الأقصى للمدة المسموح بها بالثواني.
     /// </summary>
     private const double MaxDuration = 0.5;
 }

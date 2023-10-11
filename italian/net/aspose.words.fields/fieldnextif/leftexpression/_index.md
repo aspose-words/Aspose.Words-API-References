@@ -16,15 +16,16 @@ public string LeftExpression { get; set; }
 
 ### Esempi
 
-Mostra come utilizzare i campi NEXT/NEXTIF per unire più righe in una pagina durante una stampa unione.
+Mostra come utilizzare i campi NEXT/NEXTIF per unire più righe in un'unica pagina durante una stampa unione.
 
 ```csharp
+public void FieldNext()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
     // Crea un'origine dati per la nostra stampa unione con 3 righe.
-    // Una stampa unione che utilizza questa tabella normalmente creerebbe un documento di 3 pagine.
+    // Una stampa unione che utilizza questa tabella creerebbe normalmente un documento di 3 pagine.
     DataTable table = new DataTable("Employees");
     table.Columns.Add("Courtesy Title");
     table.Columns.Add("First Name");
@@ -37,9 +38,9 @@ Mostra come utilizzare i campi NEXT/NEXTIF per unire più righe in una pagina du
 
     // Se abbiamo più campi di unione con lo stesso FieldName,
     // riceveranno i dati dalla stessa riga dell'origine dati e visualizzeranno lo stesso valore dopo l'unione.
-    // Un campo NEXT indica alla stampa unione di spostarsi istantaneamente in basso di una riga,
+    // Un campo NEXT indica immediatamente alla stampa unione di spostarsi di una riga verso il basso,
     // il che significa che tutti i MERGEFIELD che seguono il campo NEXT riceveranno i dati dalla riga successiva.
-    // Assicurati di non saltare mai alla riga successiva mentre sei già nell'ultima riga.
+    // Assicurati di non provare mai a saltare alla riga successiva mentre sei già sull'ultima riga.
     FieldNext fieldNext = (FieldNext)builder.InsertField(FieldType.FieldNext, true);
 
     Assert.AreEqual(" NEXT ", fieldNext.GetFieldCode());
@@ -49,7 +50,7 @@ Mostra come utilizzare i campi NEXT/NEXTIF per unire più righe in una pagina du
     InsertMergeFields(builder, "Second row: ");
 
     // Un campo NEXTIF ha la stessa funzione di un campo NEXT,
-    // ma passa alla riga successiva solo se un'istruzione costruita dalle seguenti 3 proprietà è vera.
+    // ma salta alla riga successiva solo se un'istruzione costruita dalle seguenti 3 proprietà è vera.
     FieldNextIf fieldNextIf = (FieldNextIf)builder.InsertField(FieldType.FieldNextIf, true);
     fieldNextIf.LeftExpression = "5";
     fieldNextIf.RightExpression = "2 + 3";
@@ -57,9 +58,9 @@ Mostra come utilizzare i campi NEXT/NEXTIF per unire più righe in una pagina du
 
     Assert.AreEqual(" NEXTIF  5 = \"2 + 3\"", fieldNextIf.GetFieldCode());
 
-    // Se il confronto affermato dal campo sopra è corretto,
+    // Se il confronto affermato dal campo precedente è corretto,
     // i seguenti 3 campi di unione prenderanno i dati dalla terza riga.
-    // In caso contrario, questi campi prenderanno nuovamente i dati dalla riga 2.
+    // Altrimenti, questi campi prenderanno nuovamente i dati dalla riga 2.
     InsertMergeFields(builder, "Third row: ");
 
     doc.MailMerge.Execute(table);
@@ -67,6 +68,7 @@ Mostra come utilizzare i campi NEXT/NEXTIF per unire più righe in una pagina du
      // La nostra origine dati ha 3 righe e le abbiamo saltate due volte.
     // Il nostro documento di output avrà 1 pagina con i dati di tutte e 3 le righe.
     doc.Save(ArtifactsDir + "Field.NEXT.NEXTIF.docx");
+}
 
 /// <summary>
 /// Utilizza un generatore di documenti per inserire MERGEFIELD per un'origine dati che contiene colonne denominate "Titolo di cortesia", "Nome" e "Cognome".
@@ -80,7 +82,7 @@ public void InsertMergeFields(DocumentBuilder builder, string firstFieldTextBefo
 }
 
 /// <summary>
-/// Utilizza un generatore di documenti per inserire un MERRGEFIELD con proprietà specificate.
+/// Utilizza un generatore di documenti per inserire un MERRGEFIELD con le proprietà specificate.
 /// </summary>
 public void InsertMergeField(DocumentBuilder builder, string fieldName, string textBefore, string textAfter)
 {

@@ -3,7 +3,7 @@ title: CellFormat.VerticalMerge
 second_title: Referencia de API de Aspose.Words para .NET
 description: CellFormat propiedad. Especifica cómo se fusiona la celda con otras celdas verticalmente.
 type: docs
-weight: 120
+weight: 130
 url: /es/net/aspose.words.tables/cellformat/verticalmerge/
 ---
 ## CellFormat.VerticalMerge property
@@ -16,9 +16,9 @@ public CellMerge VerticalMerge { get; set; }
 
 ### Observaciones
 
-Las celdas solo se pueden fusionar verticalmente si sus límites izquierdo y derecho son idénticos.
+Las celdas sólo se pueden fusionar verticalmente si sus límites izquierdo y derecho son idénticos.
 
-Cuando las celdas se combinan verticalmente, las áreas de visualización de las celdas combinadas se consolidan. El área consolidada se utiliza para mostrar el contenido de la primera celda combinada verticalmente y todas las demás celdas combinadas verticalmente deben estar vacías.
+Cuando las celdas se fusionan verticalmente, las áreas de visualización de las celdas fusionadas se consolidan. El área consolidada se utiliza para mostrar el contenido de la primera celda fusionada verticalmente y todas las demás celdas fusionadas verticalmente deben estar vacías.
 
 ### Ejemplos
 
@@ -51,14 +51,14 @@ public string PrintCellMergeType(Cell cell)
 }
 ```
 
-Muestra cómo fusionar celdas de tabla verticalmente.
+Muestra cómo fusionar celdas de tablas verticalmente.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Inserta una celda en la primera columna de la primera fila.
-// Esta celda será la primera en un rango de celdas combinadas verticalmente.
+// Esta celda será la primera de un rango de celdas fusionadas verticalmente.
 builder.InsertCell();
 builder.CellFormat.VerticalMerge = CellMerge.First;
 builder.Write("Text in merged cells.");
@@ -70,7 +70,7 @@ builder.CellFormat.VerticalMerge = CellMerge.None;
 builder.Write("Text in unmerged cell.");
 builder.EndRow();
 
-// Inserta una celda en la primera columna de la segunda fila. 
+ // Inserta una celda en la primera columna de la segunda fila.
 // En lugar de agregar contenido de texto, fusionaremos esta celda con la primera celda que agregamos directamente arriba.
 builder.InsertCell();
 builder.CellFormat.VerticalMerge = CellMerge.Previous;

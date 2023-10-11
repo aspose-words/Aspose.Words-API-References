@@ -1,14 +1,14 @@
 ---
 title: Interface IMailMergeDataSourceRoot
 second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.MailMerging.IMailMergeDataSourceRoot interfaz. Implemente esta interfaz para permitir la combinación de correspondencia desde una fuente de datos personalizada con datos maestrodetalle.
+description: Aspose.Words.MailMerging.IMailMergeDataSourceRoot interfaz. Implemente esta interfaz para permitir la combinación de correspondencia desde una fuente de datos personalizada con datos maestrosdetallados.
 type: docs
-weight: 3600
+weight: 3820
 url: /es/net/aspose.words.mailmerging/imailmergedatasourceroot/
 ---
 ## IMailMergeDataSourceRoot interface
 
-Implemente esta interfaz para permitir la combinación de correspondencia desde una fuente de datos personalizada con datos maestro-detalle.
+Implemente esta interfaz para permitir la combinación de correspondencia desde una fuente de datos personalizada con datos maestros-detallados.
 
 ```csharp
 public interface IMailMergeDataSourceRoot
@@ -18,11 +18,11 @@ public interface IMailMergeDataSourceRoot
 
 | Nombre | Descripción |
 | --- | --- |
-| [GetDataSource](../../aspose.words.mailmerging/imailmergedatasourceroot/getdatasource/)(string) | El motor de combinación de correspondencia de Aspose.Words invoca este método cuando encuentra el comienzo de una región de combinación de correspondencia de nivel superior. |
+| [GetDataSource](../../aspose.words.mailmerging/imailmergedatasourceroot/getdatasource/)(string) | El motor de combinación de correspondencia Aspose.Words invoca este método cuando encuentra el comienzo de una región de combinación de correspondencia de nivel superior. |
 
 ### Ejemplos
 
-Realiza la combinación de correo desde una fuente de datos personalizada con datos maestro-detalle.
+Realiza una combinación de correspondencia desde una fuente de datos personalizada con datos maestros-detalles.
 
 ```csharp
 public void CustomDataSourceRoot()
@@ -31,7 +31,7 @@ public void CustomDataSourceRoot()
     string[] mailMergeRegions = { "Vancouver", "Seattle" };
     Document doc = CreateSourceDocumentWithMailMergeRegions(mailMergeRegions);
 
-    // Crear dos fuentes de datos para la combinación de correspondencia.
+    // Crea dos fuentes de datos para la combinación de correspondencia.
     EmployeeList employeesWashingtonBranch = new EmployeeList();
     employeesWashingtonBranch.Add(new Employee("John Doe", "Sales"));
     employeesWashingtonBranch.Add(new Employee("Jane Doe", "Management"));
@@ -41,15 +41,15 @@ public void CustomDataSourceRoot()
     employeesSeattleBranch.Add(new Employee("Joe Bloggs", "Sales"));
 
     // Registrar nuestras fuentes de datos por nombre en una raíz de fuente de datos.
-    // Si estamos a punto de usar esta fuente de datos raíz en una combinación de correo con regiones,
-    // el nombre registrado de cada origen debe coincidir con el nombre de una región de combinación de correspondencia existente en el documento de origen de combinación de correspondencia.
+    // Si vamos a utilizar esta raíz de origen de datos en una combinación de correspondencia con regiones,
+    // el nombre registrado de cada fuente debe coincidir con el nombre de una región de combinación de correspondencia existente en el documento fuente de combinación de correspondencia.
     DataSourceRoot sourceRoot = new DataSourceRoot();
     sourceRoot.RegisterSource(mailMergeRegions[0], new EmployeeListMailMergeSource(employeesWashingtonBranch));
     sourceRoot.RegisterSource(mailMergeRegions[1], new EmployeeListMailMergeSource(employeesSeattleBranch));
 
     // Dado que tenemos regiones de combinación de correspondencia consecutivas, normalmente tendríamos que realizar dos combinaciones de correspondencia.
-    // Sin embargo, una fuente de combinación de correo con una raíz de datos puede completar varias regiones
-    // si la raíz contiene tablas con los nombres/nombres de columna correspondientes.
+    // Sin embargo, una fuente de combinación de correspondencia con una raíz de datos puede completar varias regiones
+    // si la raíz contiene tablas con nombres/nombres de columnas correspondientes.
     doc.MailMerge.ExecuteWithRegions(sourceRoot);
 
     doc.Save(ArtifactsDir + "MailMergeCustom.CustomDataSourceRoot.docx");
@@ -93,7 +93,7 @@ private class Employee
 }
 
 /// <summary>
-/// Un ejemplo de una colección tipada que contiene sus objetos de "datos".
+/// Un ejemplo de una colección escrita que contiene sus objetos de "datos".
 /// </summary>
 private class EmployeeList : ArrayList
 {
@@ -106,8 +106,8 @@ private class EmployeeList : ArrayList
 
 /// <summary>
 /// Raíz de la fuente de datos que se puede pasar directamente a una combinación de correspondencia que puede registrar y contener muchas fuentes de datos secundarias.
-/// Todas estas fuentes deben implementar IMailMergeDataSource, y están registradas y diferenciadas por un nombre
-/// que corresponde a una región de combinación de correo que leerá los datos respectivos.
+/// Todas estas fuentes deben implementar IMailMergeDataSource y están registradas y diferenciadas por un nombre
+/// que corresponde a una región de combinación de correspondencia que leerá los datos respectivos.
 /// </summary>
 private class DataSourceRoot : IMailMergeDataSourceRoot
 {
@@ -138,7 +138,7 @@ private class EmployeeListMailMergeSource : IMailMergeDataSource
     }
 
     /// <summary>
-    /// Una implementación estándar para pasar al siguiente registro en una colección.
+    /// Una implementación estándar para pasar al siguiente registro de una colección.
     /// </summary>
     public bool MoveNext()
     {
@@ -159,7 +159,7 @@ private class EmployeeListMailMergeSource : IMailMergeDataSource
     }
 
     /// <summary>
-    /// El nombre de la fuente de datos. Usado por Aspose.Words solo cuando se ejecuta la combinación de correspondencia con regiones repetibles.
+    /// El nombre de la fuente de datos. Utilizado por Aspose.Words solo cuando se ejecuta combinación de correspondencia con regiones repetibles.
     /// </summary>
     public string TableName
     {
@@ -180,7 +180,7 @@ private class EmployeeListMailMergeSource : IMailMergeDataSource
                 fieldValue = mEmployees[mRecordIndex].Department;
                 return true;
             default:
-                // Devuelve "falso" al motor de combinación de correspondencia de Aspose.Words para indicar
+                // Devuelve "falso" al motor de combinación de correspondencia Aspose.Words para indicar
                 // que no pudimos encontrar un campo con este nombre.
                 fieldValue = null;
                 return false;

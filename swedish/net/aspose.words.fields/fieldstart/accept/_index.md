@@ -33,6 +33,7 @@ För mer information se Visitor design mönster.
 Visar hur man arbetar med en samling fält.
 
 ```csharp
+public void FieldCollection()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -71,6 +72,7 @@ Visar hur man arbetar med en samling fält.
     }
 
     Console.WriteLine(fieldVisitor.GetText());
+}
 
 /// <summary>
 /// Dokumentbesökarimplementering som skriver ut fältinformation.

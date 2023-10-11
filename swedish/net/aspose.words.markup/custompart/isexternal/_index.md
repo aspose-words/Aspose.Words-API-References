@@ -1,14 +1,14 @@
 ---
 title: CustomPart.IsExternal
 second_title: Aspose.Words för .NET API Referens
-description: CustomPart fast egendom. Falsk om denna anpassade del lagras i OOXMLpaketet.Sann om den här anpassade delen är ett externt mål.
+description: CustomPart fast egendom. False om denna anpassade del lagras i OOXMLpaketet. Sant om den här anpassade delen är ett externt mål.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.markup/custompart/isexternal/
 ---
 ## CustomPart.IsExternal property
 
-`Falsk` om denna anpassade del lagras i OOXML-paketet.`Sann` om den här anpassade delen är ett externt mål.
+False om denna anpassade del lagras i OOXML-paketet. Sant om den här anpassade delen är ett externt mål.
 
 ```csharp
 public bool IsExternal { get; set; }

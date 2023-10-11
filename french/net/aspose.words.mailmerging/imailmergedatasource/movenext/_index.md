@@ -16,7 +16,7 @@ public bool MoveNext()
 
 ### Return_Value
 
-Vrai si déplacé vers l'enregistrement suivant avec succès. Faux si la fin de la source de données est atteinte.
+`vrai` s'il est déplacé vers l'enregistrement suivant avec succès ;`FAUX` si atteint la fin de la source de données.
 
 ### Exemples
 
@@ -31,11 +31,13 @@ public void CustomDataSource()
     builder.InsertParagraph();
     builder.InsertField(" MERGEFIELD Address ");
 
-    List<Customer> customers = new List<Customer>();
-    customers.Add(new Customer("Thomas Hardy", "120 Hanover Sq., London"));
-    customers.Add(new Customer("Paolo Accorti", "Via Monte Bianco 34, Torino"));
+    List<Customer> customers = new List<Customer>
+    {
+        new Customer("Thomas Hardy", "120 Hanover Sq., London"),
+        new Customer("Paolo Accorti", "Via Monte Bianco 34, Torino")
+    };
 
-    // Pour utiliser un objet personnalisé comme source de données, il doit implémenter l'interface IMailMergeDataSource. 
+     // Pour utiliser un objet personnalisé comme source de données, il doit implémenter l'interface IMailMergeDataSource.
     CustomerMailMergeDataSource dataSource = new CustomerMailMergeDataSource(customers);
 
     doc.MailMerge.Execute(dataSource);
@@ -59,8 +61,8 @@ public class Customer
 }
 
 /// <summary>
-/// Une source de données de publipostage personnalisée que vous implémentez pour autoriser Aspose.Words 
-/// pour fusionner les données de vos objets Customer dans des documents Microsoft Word.
+ /// Une source de données de publipostage personnalisée que vous implémentez pour autoriser Aspose.Words
+/// pour fusionner les données de vos objets Client dans des documents Microsoft Word.
 /// </summary>
 public class CustomerMailMergeDataSource : IMailMergeDataSource
 {
@@ -73,7 +75,7 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
     }
 
     /// <summary>
-    /// Le nom de la source de données. Utilisé par Aspose.Words uniquement lors de l'exécution d'un publipostage avec des régions répétables.
+    /// Le nom de la source de données. Utilisé par Aspose.Words uniquement lors de l’exécution d’un publipostage avec des régions répétables.
     /// </summary>
     public string TableName
     {

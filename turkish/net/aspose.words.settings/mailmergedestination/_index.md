@@ -1,14 +1,14 @@
 ---
 title: Enum MailMergeDestination
 second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Settings.MailMergeDestination Sıralama. Bir belge üzerinde adres mektup birleştirme gerçekleştirildiğinde oluşturulabilecek olası sonuçları belirtir.
+description: Aspose.Words.Settings.MailMergeDestination Sıralama. Bir belge üzerinde adresmektup birleştirme gerçekleştirildiğinde oluşturulabilecek olası sonuçları belirtir.
 type: docs
-weight: 5530
+weight: 5830
 url: /tr/net/aspose.words.settings/mailmergedestination/
 ---
 ## MailMergeDestination enumeration
 
-Bir belge üzerinde adres mektup birleştirme gerçekleştirildiğinde oluşturulabilecek olası sonuçları belirtir.
+Bir belge üzerinde adres-mektup birleştirme gerçekleştirildiğinde oluşturulabilecek olası sonuçları belirtir.
 
 ```csharp
 public enum MailMergeDestination
@@ -18,15 +18,15 @@ public enum MailMergeDestination
 
 | İsim | Değer | Tanım |
 | --- | --- | --- |
-| NewDocument | `0` | Uyumlu barındırma uygulamalarının, belirli bir belge içindeki alanları belirtilen harici veri kaynağından gelen verilerle doldurarak yeni belgeler oluşturacağını belirtir. |
-| Printer | `1` | Uyumlu barındırma uygulamalarının, belirli bir belgedeki alanlarının belirtilen harici veri kaynağından gelen harici verilerle doldurulmasından kaynaklanan belgeleri yazdıracağını belirtir. |
-| Email | `2` | Uyumlu barındırma uygulamalarının, belirli bir belge içindeki alanları belirtilen harici veri kaynağından gelen verilerle doldurmasından kaynaklanan belgeleri kullanarak e-postalar oluşturacağını belirtir. |
-| Fax | `4` | Uyumlu barındırma uygulamalarının, belirli bir belge içindeki alanları belirtilen harici veri kaynağından gelen verilerle doldurmasından kaynaklanan belgeleri kullanarak fakslar oluşturacağını belirtir. |
+| NewDocument | `0` | Uyumlu barındırma uygulamalarının, belirli bir belgedeki alanlarını belirtilen harici veri kaynağından alınan verilerle doldurarak yeni belgeler oluşturacağını belirtir. |
+| Printer | `1` | Uyumlu barındırma uygulamalarının, belirli bir belge içindeki alanlarının belirtilen harici veri kaynağından gelen harici verilerle doldurulması sonucunda elde edilen belgeleri yazdıracağını belirtir. |
+| Email | `2` | Uyumlu barındırma uygulamalarının, belirli bir belge içindeki alanları belirtilen harici veri kaynağından alınan verilerle doldurma sonucu ortaya çıkan belgeleri kullanarak e-postalar oluşturacağını belirtir. |
+| Fax | `4` | Uyumlu barındırma uygulamalarının, belirli bir belge içindeki alanları belirtilen harici veri kaynağından alınan verilerle doldurma sonucu ortaya çıkan belgeleri kullanarak faks oluşturacağını belirtir. |
 | Default | `0` | Şuna eşittir:NewDocument değer. |
 
 ### Örnekler
 
-Office Veri Kaynağı Nesnesindeki verilerle adres mektup birleştirmenin nasıl yürütüleceğini gösterir.
+Bir Office Veri Kaynağı Nesnesinden alınan verilerle adres-mektup birleştirmenin nasıl yürütüleceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -39,9 +39,9 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// "|" ile ASCII dosyası biçiminde bir veri kaynağı oluşturun karakter
-// sütunları ayıran sınırlayıcı görevi görür. İlk satır, üç sütunun adını içerir,
-// ve sonraki her satır, kendi değerlerine sahip bir satırdır.
+// ASCII dosyası biçiminde "|" işaretli bir veri kaynağı oluşturun karakter
+// sütunları ayıran sınırlayıcı görevi görüyor. İlk satır üç sütunun adını içerir,
+// ve sonraki her satır, ilgili değerlerin bulunduğu bir satırdır.
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };
 string dataSrcFilename = ArtifactsDir + "MailMerge.MailMergeSettings.DataSource.txt";
@@ -69,7 +69,7 @@ odso.FirstRowContainsColumnNames = true;
 Assert.AreNotSame(odso, odso.Clone());
 Assert.AreNotSame(settings, settings.Clone());
 
-// Bu belgeyi Microsoft Word'de açmak, içeriği görüntülemeden önce adres mektup birleştirmeyi yürütecektir. 
+ // Bu belgeyi Microsoft Word'de açmak, içerikleri görüntülemeden önce adres-mektup birleştirme işlemini gerçekleştirecektir.
 doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ```
 

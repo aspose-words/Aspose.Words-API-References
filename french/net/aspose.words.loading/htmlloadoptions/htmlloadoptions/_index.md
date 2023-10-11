@@ -16,17 +16,17 @@ public HtmlLoadOptions()
 
 ### Exemples
 
-Montre comment prendre en charge les commentaires conditionnels lors du chargement d'un document HTML.
+Montre comment prendre en charge les commentaires conditionnels lors du chargement d’un document HTML.
 
 ```csharp
 HtmlLoadOptions loadOptions = new HtmlLoadOptions();
 
-// Si la valeur est true, alors nous prenons en compte le code VML lors de l'analyse du document chargé.
+// Si la valeur est vraie, alors nous prenons en compte le code VML lors de l'analyse du document chargé.
 loadOptions.SupportVml = supportVml;
 
 // Ce document contient une image JPEG dans "<!--[if gte vml 1]>" Mots clés,
 // et une image PNG différente dans "<![if !vml]>" Mots clés.
-// Si nous définissons le drapeau "SupportVml" sur "true", alors Aspose.Words chargera le JPEG.
+// Si nous définissons l'indicateur "SupportVml" sur "true", alors Aspose.Words chargera le JPEG.
 // Si nous définissons cet indicateur sur "false", alors Aspose.Words ne chargera que le PNG.
 Document doc = new Document(MyDir + "VML conditional.htm", loadOptions);
 
@@ -46,7 +46,7 @@ else
 
 ## HtmlLoadOptions(string) {#constructor_2}
 
-Un raccourci pour initialiser une nouvelle instance de cette classe avec le mot de passe spécifié pour charger un document chiffré.
+Un raccourci pour initialiser une nouvelle instance de cette classe avec le mot de passe spécifié pour charger un document crypté.
 
 ```csharp
 public HtmlLoadOptions(string password)
@@ -54,14 +54,14 @@ public HtmlLoadOptions(string password)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| password | String | Le mot de passe pour ouvrir un document crypté. Peut être une chaîne nulle ou vide. |
+| password | String | Le mot de passe pour ouvrir un document crypté. Peut être`nul` ou une chaîne vide. |
 
 ### Exemples
 
 Montre comment chiffrer un document HTML, puis l'ouvrir à l'aide d'un mot de passe.
 
 ```csharp
-// Crée et signe un document HTML chiffré à partir d'un .docx chiffré.
+// Créez et signez un document HTML chiffré à partir d'un .docx chiffré.
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw");
 
 SignOptions signOptions = new SignOptions
@@ -75,8 +75,8 @@ string inputFileName = MyDir + "Encrypted.docx";
 string outputFileName = ArtifactsDir + "HtmlLoadOptions.EncryptedHtml.html";
 DigitalSignatureUtil.Sign(inputFileName, outputFileName, certificateHolder, signOptions);
 
-// Pour charger et lire ce document, nous aurons besoin de passer son déchiffrement
-// mot de passe à l'aide d'un objet HtmlLoadOptions.
+// Pour charger et lire ce document, il faudra réussir son décryptage
+// mot de passe utilisant un objet HtmlLoadOptions.
 HtmlLoadOptions loadOptions = new HtmlLoadOptions("docPassword");
 
 Assert.AreEqual(signOptions.DecryptionPassword, loadOptions.Password);
@@ -104,17 +104,17 @@ public HtmlLoadOptions(LoadFormat loadFormat, string password, string baseUri)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| loadFormat | LoadFormat | Format du document à charger. |
-| password | String | Le mot de passe pour ouvrir un document crypté. Peut être une chaîne nulle ou vide. |
-| baseUri | String | La chaîne qui sera utilisée pour résoudre les URI relatifs en absolus. Peut être une chaîne nulle ou vide. |
+| loadFormat | LoadFormat | Le format du document à charger. |
+| password | String | Le mot de passe pour ouvrir un document crypté. Peut être`nul` ou une chaîne vide. |
+| baseUri | String | Chaîne qui sera utilisée pour résoudre les URI relatifs en absolus. Peut être`nul` ou une chaîne vide. |
 
 ### Exemples
 
-Montre comment spécifier un URI de base lors de l'ouverture d'un document html.
+Montre comment spécifier un URI de base lors de l'ouverture d'un document HTML.
 
 ```csharp
-// Supposons que nous voulions charger un document .html contenant une image liée par une URI relative
-// alors que l'image est dans un endroit différent. Dans ce cas, nous devrons résoudre l'URI relatif en un absolu.
+// Supposons que nous voulions charger un document .html contenant une image liée par un URI relatif
+// alors que l'image se trouve à un emplacement différent. Dans ce cas, nous devrons résoudre l’URI relatif en un URI absolu.
  // Nous pouvons fournir un URI de base en utilisant un objet HtmlLoadOptions.
 HtmlLoadOptions loadOptions = new HtmlLoadOptions(LoadFormat.Html, "", ImageDir);
 
@@ -122,7 +122,7 @@ Assert.AreEqual(LoadFormat.Html, loadOptions.LoadFormat);
 
 Document doc = new Document(MyDir + "Missing image.html", loadOptions);
 
-// Alors que l'image était cassée dans l'entrée .html, notre URI de base personnalisé nous a aidés à réparer le lien.
+// Alors que l'image était cassée dans l'entrée .html, notre URI de base personnalisé nous a aidé à réparer le lien.
 Shape imageShape = (Shape)doc.GetChildNodes(NodeType.Shape, true)[0];
 Assert.True(imageShape.IsImage);
 

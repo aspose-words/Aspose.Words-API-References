@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.NoSpaceRaiseLower
 second_title: Aspose.Words لمراجع .NET API
-description: CompatibilityOptions ملكية. لا تزيد ارتفاع السطر للنص المرتفع / المنخفض.
+description: CompatibilityOptions ملكية. لا تقم بزيادة ارتفاع السطر للنص المرتفع/المنخفض.
 type: docs
 weight: 360
 url: /ar/net/aspose.words.settings/compatibilityoptions/nospaceraiselower/
 ---
 ## CompatibilityOptions.NoSpaceRaiseLower property
 
-لا تزيد ارتفاع السطر للنص المرتفع / المنخفض.
+لا تقم بزيادة ارتفاع السطر للنص المرتفع/المنخفض.
 
 ```csharp
 public bool NoSpaceRaiseLower { get; set; }

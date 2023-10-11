@@ -3,12 +3,14 @@ title: Class Frameset
 second_title: Aspose.Words for .NET API Referansı
 description: Aspose.Words.Framesets.Frameset sınıf. Bir çerçeve sayfasını veya çerçeveler sayfasındaki tek bir çerçeveyi temsil eder.
 type: docs
-weight: 2900
+weight: 3080
 url: /tr/net/aspose.words.framesets/frameset/
 ---
 ## Frameset class
 
 Bir çerçeve sayfasını veya çerçeveler sayfasındaki tek bir çerçeveyi temsil eder.
+
+Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Belgelerle Programlama](https://docs.aspose.com/words/net/programming-with-documents/) dokümantasyon makalesi.
 
 ```csharp
 public class Frameset
@@ -24,20 +26,20 @@ public class Frameset
 
 | İsim | Tanım |
 | --- | --- |
-| [ChildFramesets](../../aspose.words.framesets/frameset/childframesets/) { get; } | Alt çerçeveler ve çerçeve sayfaları koleksiyonunu alır. |
-| [FrameDefaultUrl](../../aspose.words.framesets/frameset/framedefaulturl/) { get; set; } | Bu çerçevede görüntülenecek web sayfası URL'sini veya belge dosya adını alır veya ayarlar. |
-| [IsFrameLinkToFile](../../aspose.words.framesets/frameset/isframelinktofile/) { get; set; } | Web sayfası veya belge dosyası adının içinde belirtilmiş olup olmadığını gösteren bir değer alır veya ayarlar.[`FrameDefaultUrl`](./framedefaulturl/) özellik, çerçevenin bağlantılı olduğu harici bir kaynaktır. |
+| [ChildFramesets](../../aspose.words.framesets/frameset/childframesets/) { get; } | Alt çerçevelerin ve çerçeve sayfalarının koleksiyonunu alır. |
+| [FrameDefaultUrl](../../aspose.words.framesets/frameset/framedefaulturl/) { get; set; } | Bu çerçevede görüntülenecek web sayfası URL'sini veya belge dosyası adını alır veya ayarlar. |
+| [IsFrameLinkToFile](../../aspose.words.framesets/frameset/isframelinktofile/) { get; set; } | Web sayfası veya belge dosya adının the 'de belirtilip belirtilmediğini belirten bir değer alır veya ayarlar.[`FrameDefaultUrl`](./framedefaulturl/) özellik, çerçevenin bağlı olduğu harici bir kaynaktır. |
 
 ### Notlar
 
-[`ChildFramesets`](./childframesets/) özellik öğeleri içerir, bu örnek bir çerçeve sayfasıdır, aksi takdirde tek bir çerçevedir.
+Eğer[`ChildFramesets`](./childframesets/) özelliği öğeler içeriyor, bu örnek bir çerçeve sayfasıdır, aksi takdirde tek bir çerçevedir.
 
 ### Örnekler
 
 Sayfadaki çerçevelere nasıl erişileceğini gösterir.
 
 ```csharp
-// Belge, diğer belgelere bağlantı içeren birkaç çerçeve içeriyor.
+// Belge, diğer belgelere bağlantılar içeren birkaç çerçeve içerir.
 Document doc = new Document(MyDir + "Frameset.docx");
 
 // Varsayılan URL'yi (bir web sayfası URL'si veya yerel belge) veya çerçevenin harici bir kaynak olup olmadığını kontrol edebiliriz.

@@ -1,14 +1,14 @@
 ---
 title: Document.Compliance
 second_title: Справочник по API Aspose.Words для .NET
-description: Document свойство. Получает версию соответствия OOXML определенную из содержимого загруженного документа. Имеет смысл только для документов OOXML.
+description: Document свойство. Получает версию соответствия OOXML определенную на основе содержимого загруженного документа. Имеет смысл только для документов OOXML.
 type: docs
 weight: 60
 url: /ru/net/aspose.words/document/compliance/
 ---
 ## Document.Compliance property
 
-Получает версию соответствия OOXML, определенную из содержимого загруженного документа. Имеет смысл только для документов OOXML.
+Получает версию соответствия OOXML, определенную на основе содержимого загруженного документа. Имеет смысл только для документов OOXML.
 
 ```csharp
 public OoxmlCompliance Compliance { get; }
@@ -16,14 +16,14 @@ public OoxmlCompliance Compliance { get; }
 
 ### Примечания
 
-Если вы создали новый пустой документ или загрузили не OOXML, document возвращаетEcma376_2006 ценность.
+Если вы создали новый пустой документ или загрузили документ, отличный от OOXML, document возвращаетEcma376_2006 ценить.
 
 ### Примеры
 
-Показывает, как прочитать версию загруженного документа, совместимую с Open Office XML.
+Показывает, как прочитать версию загруженного документа, соответствующую требованиям Open Office XML.
 
 ```csharp
-// Версия соответствия зависит от документов, созданных разными версиями Microsoft Word.
+// Версия соответствия различается для документов, созданных в разных версиях Microsoft Word.
 Document doc = new Document(MyDir + "Document.doc");
 
 Assert.AreEqual(doc.Compliance, OoxmlCompliance.Ecma376_2006);

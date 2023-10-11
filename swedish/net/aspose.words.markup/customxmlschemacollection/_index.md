@@ -3,12 +3,14 @@ title: Class CustomXmlSchemaCollection
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Markup.CustomXmlSchemaCollection klass. En samling strängar som representerar XMLscheman som är associerade med en anpassad XMLdel.
 type: docs
-weight: 3720
+weight: 3960
 url: /sv/net/aspose.words.markup/customxmlschemacollection/
 ---
 ## CustomXmlSchemaCollection class
 
 En samling strängar som representerar XML-scheman som är associerade med en anpassad XML-del.
+
+För att lära dig mer, besök[Strukturerade dokumenttaggar eller innehållskontroll](https://docs.aspose.com/words/net/working-with-content-control-sdt/) dokumentationsartikel.
 
 ```csharp
 public class CustomXmlSchemaCollection : IEnumerable<string>

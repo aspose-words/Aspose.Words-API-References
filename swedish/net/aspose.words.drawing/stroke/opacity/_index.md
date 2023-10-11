@@ -3,7 +3,7 @@ title: Stroke.Opacity
 second_title: Aspose.Words för .NET API Referens
 description: Stroke fast egendom. Definierar graden av genomskinlighet för ett streck. Giltigt intervall är från 0 till 1.
 type: docs
-weight: 140
+weight: 160
 url: /sv/net/aspose.words.drawing/stroke/opacity/
 ---
 ## Stroke.Opacity property

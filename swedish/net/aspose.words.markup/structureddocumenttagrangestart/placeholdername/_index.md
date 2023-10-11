@@ -10,7 +10,7 @@ url: /sv/net/aspose.words.markup/structureddocumenttagrangestart/placeholdername
 
 Hämtar eller sätter Namn på[`BuildingBlock`](../../../aspose.words.buildingblocks/buildingblock/) som innehåller platshållartext.
 
-Byggblock med detta namn[`Name`](../../../aspose.words.buildingblocks/buildingblock/name/) måste vara närvarande i[`GlossaryDocument`](../../../aspose.words/document/glossarydocument/) annarsInvalidOperationException kommer att inträffa.
+[`BuildingBlock`](../../../aspose.words.buildingblocks/buildingblock/) med detta namn[`Name`](../../../aspose.words.buildingblocks/buildingblock/name/) måste vara närvarande i[`GlossaryDocument`](../../../aspose.words/document/glossarydocument/) annarsInvalidOperationException kommer att inträffa.
 
 ```csharp
 public string PlaceholderName { get; set; }

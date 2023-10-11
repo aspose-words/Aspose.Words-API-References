@@ -1,14 +1,14 @@
 ---
 title: VbaReferenceCollection.Item
 second_title: Aspose.Words für .NET-API-Referenz
-description: VbaReferenceCollection eigendom. erhältVbaReference Objekt am angegebenen Index.
+description: VbaReferenceCollection eigendom. Ruft abVbaReference Objekt am angegebenen Index.
 type: docs
 weight: 20
 url: /de/net/aspose.words.vba/vbareferencecollection/item/
 ---
 ## VbaReferenceCollection indexer
 
-erhält[`VbaReference`](../../vbareference/) Objekt am angegebenen Index.
+Ruft ab[`VbaReference`](../../vbareference/) Objekt am angegebenen Index.
 
 ```csharp
 public VbaReference this[int index] { get; }
@@ -16,7 +16,7 @@ public VbaReference this[int index] { get; }
 
 | Parameter | Beschreibung |
 | --- | --- |
-| index | Der nullbasierte Index des abzurufenden Verweises. |
+| index | Der nullbasierte Index der abzurufenden Referenz. |
 
 ### Siehe auch
 

@@ -16,17 +16,17 @@ public bool KeepLegacyControlChars { get; set; }
 
 ### Примеры
 
-Показывает, как поддерживать устаревшие управляющие символы при преобразовании в .docx.
+Показывает, как поддерживать устаревшие управляющие символы при преобразовании в формат .docx.
 
 ```csharp
 Document doc = new Document(MyDir + "Legacy control character.doc");
 
 // Когда мы сохраняем документ в формате OOXML, мы можем создать объект OoxmlSaveOptions
-// и затем передаем его в метод сохранения документа, чтобы изменить способ сохранения документа.
-// Установите для свойства "KeepLegacyControlChars" значение "true", чтобы сохранить
-// устаревший символ "ShortDateTime" при сохранении.
-// Установите для свойства "KeepLegacyControlChars" значение "false", чтобы удалить
-// устаревший символ "ShortDateTime" из выходного документа.
+// а затем передаем его методу сохранения документа, чтобы изменить способ сохранения документа.
+// Установите для свойства KeepLegacyControlChars значение true, чтобы сохранить
+// устаревший символ «ShortDateTime» при сохранении.
+// Установите для свойства «KeepLegacyControlChars» значение «false», чтобы удалить
+// устаревший символ «ShortDateTime» из выходного документа.
 OoxmlSaveOptions so = new OoxmlSaveOptions(SaveFormat.Docx);
 so.KeepLegacyControlChars = keepLegacyControlChars;
 

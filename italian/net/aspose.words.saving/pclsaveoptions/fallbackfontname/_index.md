@@ -1,14 +1,14 @@
 ---
 title: PclSaveOptions.FallbackFontName
 second_title: Aspose.Words per .NET API Reference
-description: PclSaveOptions proprietà. Nome del font che verrà utilizzato se non viene trovato alcun font previsto nella stampante e nelle raccolte di font integrate.
+description: PclSaveOptions proprietà. Nome del carattere che verrà utilizzato se non viene trovato alcun carattere previsto nelle raccolte di caratteri della stampante e incorporati.
 type: docs
 weight: 20
 url: /it/net/aspose.words.saving/pclsaveoptions/fallbackfontname/
 ---
 ## PclSaveOptions.FallbackFontName property
 
-Nome del font che verrà utilizzato se non viene trovato alcun font previsto nella stampante e nelle raccolte di font integrate.
+Nome del carattere che verrà utilizzato se non viene trovato alcun carattere previsto nelle raccolte di caratteri della stampante e incorporati.
 
 ```csharp
 public string FallbackFontName { get; set; }
@@ -20,7 +20,7 @@ Se non viene trovato alcun fallback, viene generato un avviso e viene utilizzato
 
 ### Esempi
 
-Mostra come dichiarare un font che una stampante applicherà al testo stampato come sostituto nel caso in cui il font originale non fosse disponibile.
+Mostra come dichiarare un carattere che una stampante applicherà al testo stampato come sostituto qualora il carattere originale non fosse disponibile.
 
 ```csharp
 Document doc = new Document();
@@ -32,8 +32,8 @@ builder.Write("Hello world!");
 PclSaveOptions saveOptions = new PclSaveOptions();
 saveOptions.FallbackFontName = "Times New Roman";
 
-// Questo documento indicherà alla stampante di applicare "Times New Roman" al testo con il carattere mancante.
-// Se anche "Times New Roman" non è disponibile, la stampante utilizzerà per impostazione predefinita il carattere "Arial".
+// Questo documento istruirà la stampante ad applicare "Times New Roman" al testo con il carattere mancante.
+// Se anche "Times New Roman" non fosse disponibile, la stampante utilizzerà per impostazione predefinita il carattere "Arial".
 doc.Save(ArtifactsDir + "PclSaveOptions.SetPrinterFont.pcl", saveOptions);
 ```
 

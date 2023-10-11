@@ -1,14 +1,14 @@
 ---
 title: GraphicsQualityOptions.CompositingMode
 second_title: Référence de l'API Aspose.Words pour .NET
-description: GraphicsQualityOptions propriété. Obtient ou définit une valeur qui spécifie comment les images composées sont dessinées sur ce Graphics.
+description: GraphicsQualityOptions propriété. Obtient ou définit une valeur qui spécifie la manière dont les images composées sont dessinées sur ce Graphics.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.saving/graphicsqualityoptions/compositingmode/
 ---
 ## GraphicsQualityOptions.CompositingMode property
 
-Obtient ou définit une valeur qui spécifie comment les images composées sont dessinées sur ce Graphics.
+Obtient ou définit une valeur qui spécifie la manière dont les images composées sont dessinées sur ce Graphics.
 
 ```csharp
 public CompositingMode? CompositingMode { get; set; }
@@ -16,7 +16,7 @@ public CompositingMode? CompositingMode { get; set; }
 
 ### Exemples
 
-Montre comment définir les options de qualité de rendu lors de la conversion de documents en formats d'image.
+Montre comment définir les options de qualité de rendu lors de la conversion de documents aux formats d'image.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

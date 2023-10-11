@@ -1,14 +1,14 @@
 ---
 title: CustomPartCollection.GetEnumerator
 second_title: Référence de l'API Aspose.Words pour .NET
-description: CustomPartCollection méthode. Renvoie un objet énumérateur qui peut être utilisé pour itérer sur tous les éléments de la collection.
+description: CustomPartCollection méthode. Renvoie un objet énumérateur qui peut être utilisé pour parcourir tous les éléments de la collection.
 type: docs
 weight: 70
 url: /fr/net/aspose.words.markup/custompartcollection/getenumerator/
 ---
 ## CustomPartCollection.GetEnumerator method
 
-Renvoie un objet énumérateur qui peut être utilisé pour itérer sur tous les éléments de la collection.
+Renvoie un objet énumérateur qui peut être utilisé pour parcourir tous les éléments de la collection.
 
 ```csharp
 public IEnumerator<CustomPart> GetEnumerator()
@@ -16,14 +16,14 @@ public IEnumerator<CustomPart> GetEnumerator()
 
 ### Exemples
 
-Montre comment accéder à la collection de parties personnalisées arbitraires d'un document.
+Montre comment accéder à la collection de pièces personnalisées arbitraires d’un document.
 
 ```csharp
 Document doc = new Document(MyDir + "Custom parts OOXML package.docx");
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);
 
-// Clone la deuxième partie, puis ajoute le clone à la collection.
+// Clonez la deuxième partie, puis ajoutez le clone à la collection.
 CustomPart clonedPart = doc.PackageCustomParts[1].Clone();
 doc.PackageCustomParts.Add(clonedPart);
 Assert.AreEqual(3, doc.PackageCustomParts.Count);
@@ -45,7 +45,7 @@ using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator
     }
 }
 
-// Nous pouvons supprimer des éléments de cette collection individuellement ou tous à la fois.
+// Nous pouvons supprimer des éléments de cette collection individuellement ou tous en même temps.
 doc.PackageCustomParts.RemoveAt(2);
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);

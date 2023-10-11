@@ -22,8 +22,8 @@ Mostra come supportare i caratteri di controllo legacy durante la conversione in
 Document doc = new Document(MyDir + "Legacy control character.doc");
 
 // Quando salviamo il documento in un formato OOXML, possiamo creare un oggetto OoxmlSaveOptions
-// e quindi passalo al metodo di salvataggio del documento per modificare il modo in cui salviamo il documento.
-// Imposta la proprietà "KeepLegacyControlChars" su "true" per preservare
+// e poi passarlo al metodo di salvataggio del documento per modificare il modo in cui salviamo il documento.
+// Imposta la proprietà "KeepLegacyControlChars" su "true" per preservarla
 // il carattere legacy "ShortDateTime" durante il salvataggio.
 // Imposta la proprietà "KeepLegacyControlChars" su "false" per rimuoverla
 // il carattere legacy "ShortDateTime" dal documento di output.

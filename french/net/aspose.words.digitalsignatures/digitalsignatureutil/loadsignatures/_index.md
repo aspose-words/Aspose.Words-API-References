@@ -24,18 +24,18 @@ Collecte de signatures numériques. Renvoie une collection vide si le fichier n'
 
 ### Exemples
 
-Montre comment charger des signatures à partir d'un document signé numériquement.
+Montre comment charger des signatures à partir d’un document signé numériquement.
 
 ```csharp
 // Il existe deux manières de charger la collection de signatures numériques d'un document signé à l'aide de la classe DigitalSignatureUtil.
-// 1 - Charger à partir d'un document à partir d'un nom de fichier du système de fichiers local :
+// 1 - Chargement à partir d'un document à partir d'un nom de fichier du système de fichiers local :
 DigitalSignatureCollection digitalSignatures = 
     DigitalSignatureUtil.LoadSignatures(MyDir + "Digitally signed.docx");
 
 // Si cette collection n'est pas vide, alors nous pouvons vérifier que le document est signé numériquement.
 Assert.AreEqual(1, digitalSignatures.Count);
 
-// 2 - Charger depuis un document depuis un FileStream :
+// 2 - Chargement depuis un document depuis un FileStream :
 using (Stream stream = new FileStream(MyDir + "Digitally signed.docx", FileMode.Open))
 {
     digitalSignatures = DigitalSignatureUtil.LoadSignatures(stream);
@@ -43,10 +43,10 @@ using (Stream stream = new FileStream(MyDir + "Digitally signed.docx", FileMode.
 }
 ```
 
-Montre comment supprimer les signatures numériques d'un document signé numériquement.
+Montre comment supprimer les signatures numériques d’un document signé numériquement.
 
 ```csharp
-// Il existe deux façons d'utiliser la classe DigitalSignatureUtil pour supprimer les signatures numériques
+// Il existe deux manières d'utiliser la classe DigitalSignatureUtil pour supprimer les signatures numériques
 // à partir d'un document signé en enregistrant une copie non signée de celui-ci ailleurs dans le système de fichiers local.
 // 1 - Déterminez les emplacements du document signé et de la copie non signée par les chaînes de nom de fichier :
 DigitalSignatureUtil.RemoveAllSignatures(MyDir + "Digitally signed.docx",
@@ -77,7 +77,7 @@ Assert.That(DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "DigitalSignature
 
 ## LoadSignatures(Stream) {#loadsignatures}
 
-Charge les signatures numériques du document à l'aide du flux.
+Charge les signatures numériques du document à l'aide de stream.
 
 ```csharp
 public static DigitalSignatureCollection LoadSignatures(Stream stream)
@@ -93,18 +93,18 @@ Collecte de signatures numériques. Renvoie une collection vide si le fichier n'
 
 ### Exemples
 
-Montre comment charger des signatures à partir d'un document signé numériquement.
+Montre comment charger des signatures à partir d’un document signé numériquement.
 
 ```csharp
 // Il existe deux manières de charger la collection de signatures numériques d'un document signé à l'aide de la classe DigitalSignatureUtil.
-// 1 - Charger à partir d'un document à partir d'un nom de fichier du système de fichiers local :
+// 1 - Chargement à partir d'un document à partir d'un nom de fichier du système de fichiers local :
 DigitalSignatureCollection digitalSignatures = 
     DigitalSignatureUtil.LoadSignatures(MyDir + "Digitally signed.docx");
 
 // Si cette collection n'est pas vide, alors nous pouvons vérifier que le document est signé numériquement.
 Assert.AreEqual(1, digitalSignatures.Count);
 
-// 2 - Charger depuis un document depuis un FileStream :
+// 2 - Chargement depuis un document depuis un FileStream :
 using (Stream stream = new FileStream(MyDir + "Digitally signed.docx", FileMode.Open))
 {
     digitalSignatures = DigitalSignatureUtil.LoadSignatures(stream);

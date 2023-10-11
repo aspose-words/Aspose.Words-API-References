@@ -3,12 +3,14 @@ title: Class WebExtensionReference
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Aspose.Words.WebExtensions.WebExtensionReference classe. Représente la référence à une extension Web. La référence est utilisée pour identifier lemplacement du fournisseur et la version de lextension .
 type: docs
-weight: 6490
+weight: 6800
 url: /fr/net/aspose.words.webextensions/webextensionreference/
 ---
 ## WebExtensionReference class
 
 Représente la référence à une extension Web. La référence est utilisée pour identifier l'emplacement du fournisseur et la version de l'extension .
+
+Pour en savoir plus, visitez le[Travailler avec les compléments Office](https://docs.aspose.com/words/net/work-with-office-add-ins/) article documentaire.
 
 ```csharp
 public class WebExtensionReference
@@ -25,8 +27,8 @@ public class WebExtensionReference
 | Nom | La description |
 | --- | --- |
 | [Id](../../aspose.words.webextensions/webextensionreference/id/) { get; set; } | Identifiant associé à l'extension Web au sein d'un fournisseur de catalogue. |
-| [Store](../../aspose.words.webextensions/webextensionreference/store/) { get; set; } | Spécifie l'instance du marché où l'extension Web est stockée. |
-| [StoreType](../../aspose.words.webextensions/webextensionreference/storetype/) { get; set; } | Spécifie le type de place de marché. |
+| [Store](../../aspose.words.webextensions/webextensionreference/store/) { get; set; } | Spécifie l'instance de la place de marché où l'extension Web est stockée. |
+| [StoreType](../../aspose.words.webextensions/webextensionreference/storetype/) { get; set; } | Spécifie le type de marché. |
 | [Version](../../aspose.words.webextensions/webextensionreference/version/) { get; set; } | Spécifie la version de l'extension Web. |
 
 ### Voir également

@@ -3,7 +3,7 @@ title: Enum GradientStyle
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Drawing.GradientStyle uppräkning. Anger stilen för en övertoningsfyllning.
 type: docs
-weight: 870
+weight: 1000
 url: /sv/net/aspose.words.drawing/gradientstyle/
 ---
 ## GradientStyle enumeration

@@ -1,14 +1,14 @@
 ---
 title: CompositeNode.GetEnumerator
 second_title: Aspose.Words für .NET-API-Referenz
-description: CompositeNode methode. Bietet Unterstützung für die Iteration für jeden Stil über die untergeordneten Knoten dieses Knotens.
+description: CompositeNode methode. Bietet Unterstützung für die Iteration jedes Stils über die untergeordneten Knoten dieses Knotens.
 type: docs
-weight: 110
+weight: 120
 url: /de/net/aspose.words/compositenode/getenumerator/
 ---
 ## CompositeNode.GetEnumerator method
 
-Bietet Unterstützung für die Iteration für jeden Stil über die untergeordneten Knoten dieses Knotens.
+Bietet Unterstützung für die Iteration jedes Stils über die untergeordneten Knoten dieses Knotens.
 
 ```csharp
 public IEnumerator<Node> GetEnumerator()
@@ -28,18 +28,18 @@ paragraph.AppendChild(new Run(doc, "Hello world! "));
 Shape shape = new Shape(doc, ShapeType.Rectangle);
 shape.Width = 200;
 shape.Height = 200;
-// Beachten Sie, dass die 'CustomNodeId' nicht in einer Ausgabedatei gespeichert wird und nur während der Lebensdauer des Knotens existiert.
+// Beachten Sie, dass die „CustomNodeId“ nicht in einer Ausgabedatei gespeichert wird und nur während der Knotenlebensdauer vorhanden ist.
 shape.CustomNodeId = 100;
 shape.WrapType = WrapType.Inline;
 paragraph.AppendChild(shape);
 
 paragraph.AppendChild(new Run(doc, "Hello again!"));
 
-// Durch die Sammlung der unmittelbaren Kinder des Absatzes iterieren,
-// und drucken Sie alle Läufe oder Formen, die wir darin finden.
-NodeCollection children = paragraph.ChildNodes;
+// Durch die Sammlung der unmittelbar untergeordneten Elemente des Absatzes iterieren,
+// und alle Läufe oder Formen drucken, die wir darin finden.
+NodeCollection children = paragraph.GetChildNodes(NodeType.Any, false);
 
-Assert.AreEqual(3, paragraph.ChildNodes.Count);
+Assert.AreEqual(3, paragraph.GetChildNodes(NodeType.Any, false).Count);
 
 foreach (Node child in children)
     switch (child.NodeType)
@@ -52,6 +52,7 @@ foreach (Node child in children)
             Shape childShape = (Shape)child;
             Console.WriteLine("Shape:");
             Console.WriteLine($"\t{childShape.ShapeType}, {childShape.Width}x{childShape.Height}");
+            break;
     }
 ```
 

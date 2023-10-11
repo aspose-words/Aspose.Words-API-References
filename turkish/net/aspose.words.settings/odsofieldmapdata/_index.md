@@ -1,14 +1,16 @@
 ---
 title: Class OdsoFieldMapData
 second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Settings.OdsoFieldMapData sınıf. Dış veri kaynağındaki bir sütunun belge içindeki önceden tanımlanmış birleştirme alanlarıyla nasıl eşleneceğini belirtir.
+description: Aspose.Words.Settings.OdsoFieldMapData sınıf. Harici veri kaynağındaki bir sütunun belge içindeki önceden tanımlanmış birleştirme alanlarıyla nasıl eşleneceğini belirtir.
 type: docs
-weight: 5600
+weight: 5900
 url: /tr/net/aspose.words.settings/odsofieldmapdata/
 ---
 ## OdsoFieldMapData class
 
-Dış veri kaynağındaki bir sütunun belge içindeki önceden tanımlanmış birleştirme alanlarıyla nasıl eşleneceğini belirtir.
+Harici veri kaynağındaki bir sütunun, belge içindeki önceden tanımlanmış birleştirme alanlarıyla nasıl eşleneceğini belirtir.
+
+Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Adres Mektup Birleştirme ve Raporlama](https://docs.aspose.com/words/net/mail-merge-and-reporting/) dokümantasyon makalesi.
 
 ```csharp
 public class OdsoFieldMapData
@@ -24,30 +26,30 @@ public class OdsoFieldMapData
 
 | İsim | Tanım |
 | --- | --- |
-| [Column](../../aspose.words.settings/odsofieldmapdata/column/) { get; set; } | Belirli bir MERGEFIELD alanının yerel adıyla eşlenecek olan bir harici veri kaynağındaki sütunun sıfır tabanlı dizinini belirtir. Varsayılan değer 0. 'dir. |
-| [MappedName](../../aspose.words.settings/odsofieldmapdata/mappedname/) { get; set; } | tarafından belirtilen sütun numarasıyla eşleştirilecek olan önceden tanımlanmış birleştirme alanı adını belirtir.[`Column`](./column/) bu alan eşleme içindeki özellik. Varsayılan değer boş bir dizedir. |
-| [Name](../../aspose.words.settings/odsofieldmapdata/name/) { get; set; } | tarafından dizini belirtilen sütun için bir dış veri kaynağı içindeki sütun adını belirtir.[`Column`](./column/) property. Varsayılan değer boş bir dizedir. |
-| [Type](../../aspose.words.settings/odsofieldmapdata/type/) { get; set; } | Belirli bir adres mektup birleştirme alanının, verilen harici veri kaynağındaki bir sütunla eşlenip eşlenmediğini belirtir. Varsayılan değerDefault . |
+| [Column](../../aspose.words.settings/odsofieldmapdata/column/) { get; set; } | Belirli bir MERGEFIELD alanının yerel adıyla eşlenmesi gereken, harici bir veri kaynağı içindeki sütunun sıfır tabanlı dizinini belirtir. Varsayılan değer 0. 'dir |
+| [MappedName](../../aspose.words.settings/odsofieldmapdata/mappedname/) { get; set; } | Tarafından belirtilen sütun numarasına eşlenecek önceden tanımlanmış birleştirme alanı adını belirtir.[`Column`](./column/) bu alan eşlemesindeki özellik. Varsayılan değer boş bir dizedir. |
+| [Name](../../aspose.words.settings/odsofieldmapdata/name/) { get; set; } | dizini tarafından belirtilen sütun için harici veri kaynağı içindeki sütun adını belirtir.[`Column`](./column/)özellik. Varsayılan değer boş bir dizedir. |
+| [Type](../../aspose.words.settings/odsofieldmapdata/type/) { get; set; } | Belirli bir adres-mektup birleştirme alanının, belirtilen dış veri kaynağındaki bir sütunla eşlenip eşlenmediğini belirtir. Varsayılan değer:Default . |
 
 ## yöntemler
 
 | İsim | Tanım |
 | --- | --- |
-| [Clone](../../aspose.words.settings/odsofieldmapdata/clone/)() | Bu nesnenin derin bir klonunu döndürür. |
+| [Clone](../../aspose.words.settings/odsofieldmapdata/clone/)() | Bu nesnenin derin bir kopyasını döndürür. |
 
 ### Notlar
 
-Microsoft Word, ADRESSBLOCK veya GREETINGLINE alanlarında MERGEFIELD veya kullanımı olarak bir belgeye eklenmesine izin verdiği bazı önceden tanımlanmış birleştirme alanı adları sağlar. Belirtilen bilgiler`OdsoFieldMapData` , harici veri kaynağındaki bir sütunun önceden tanımlanmış tek bir birleştirme alanıyla eşlenmesine olanak tanır.
+Microsoft Word, ADDRESSBLOCK veya GREETINGLINE alanlarında MERGEFIELD veya kullanımı olarak bir belgeye eklenmesine olanak tanıyan önceden tanımlanmış bazı birleştirme alanı adları sağlar. Belirtilen bilgiler`OdsoFieldMapData` , harici veri kaynağındaki bir sütunun önceden tanımlanmış tek bir birleştirme alanına eşlenmesine olanak tanır.
 
 ### Örnekler
 
-Alanları birleştirmek için veri kaynağı sütunlarını eşleyen veri koleksiyonuna nasıl erişileceğini gösterir.
+Veri kaynağı sütunlarını birleştirme alanlarıyla eşleştiren veri koleksiyonuna nasıl erişileceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
 
-// Bu koleksiyon, adres mektup birleştirmenin bir veri kaynağındaki sütunları nasıl eşleyeceğini tanımlar
-// önceden tanımlanmış MERGEFIELD, ADRESSBLOCK ve GREETINGLINE alanlarına.
+// Bu koleksiyon, adres-mektup birleştirmenin bir veri kaynağındaki sütunları nasıl eşleyeceğini tanımlar
+// önceden tanımlanmış MERGEFIELD, ADDRESSBLOCK ve GREETINGLINE alanlarına.
 OdsoFieldMapDataCollection dataCollection = doc.MailMergeSettings.Odso.FieldMapDatas;
 Assert.AreEqual(30, dataCollection.Count);
 
@@ -68,12 +70,12 @@ using (IEnumerator<OdsoFieldMapData> enumerator = dataCollection.GetEnumerator()
 // Bu koleksiyondaki öğeleri klonlayın.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// "RemoveAt" yöntem öğelerini dizine göre ayrı ayrı kullanın.
+// "RemoveAt" yönteminin öğelerini ayrı ayrı dizine göre kullanın.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(29, dataCollection.Count);
 
-// Tüm koleksiyonu bir kerede temizlemek için "Clear" yöntemini kullanın.
+// Koleksiyonun tamamını bir kerede temizlemek için "Temizle" yöntemini kullanın.
 dataCollection.Clear();
 
 Assert.AreEqual(0, dataCollection.Count);

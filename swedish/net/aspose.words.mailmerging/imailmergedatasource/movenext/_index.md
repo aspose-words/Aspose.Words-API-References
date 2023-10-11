@@ -16,7 +16,7 @@ public bool MoveNext()
 
 ### Returvärde
 
-Sant om den flyttas till nästa post framgångsrikt. Falskt om slutet av datakällan nås.
+`Sann` om flyttas till nästa post framgångsrikt;`falsk` om du har nått slutet av datakällan.
 
 ### Exempel
 
@@ -31,11 +31,13 @@ public void CustomDataSource()
     builder.InsertParagraph();
     builder.InsertField(" MERGEFIELD Address ");
 
-    List<Customer> customers = new List<Customer>();
-    customers.Add(new Customer("Thomas Hardy", "120 Hanover Sq., London"));
-    customers.Add(new Customer("Paolo Accorti", "Via Monte Bianco 34, Torino"));
+    List<Customer> customers = new List<Customer>
+    {
+        new Customer("Thomas Hardy", "120 Hanover Sq., London"),
+        new Customer("Paolo Accorti", "Via Monte Bianco 34, Torino")
+    };
 
-    // För att använda ett anpassat objekt som en datakälla måste det implementera IMailMergeDataSource-gränssnittet. 
+     // För att använda ett anpassat objekt som en datakälla måste det implementera IMailMergeDataSource-gränssnittet.
     CustomerMailMergeDataSource dataSource = new CustomerMailMergeDataSource(customers);
 
     doc.MailMerge.Execute(dataSource);
@@ -59,7 +61,7 @@ public class Customer
 }
 
 /// <summary>
-/// En anpassad kopplingsdatakälla som du implementerar för att tillåta Aspose.Words 
+ /// En anpassad kopplingsdatakälla som du implementerar för att tillåta Aspose.Words
 /// för att sammanfoga data från dina kundobjekt till Microsoft Word-dokument.
 /// </summary>
 public class CustomerMailMergeDataSource : IMailMergeDataSource

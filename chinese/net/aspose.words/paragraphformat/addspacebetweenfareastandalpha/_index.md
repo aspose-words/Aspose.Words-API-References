@@ -1,14 +1,14 @@
 ---
 title: ParagraphFormat.AddSpaceBetweenFarEastAndAlpha
 second_title: Aspose.Words for .NET API 参考
-description: ParagraphFormat 财产. 获取或设置一个标志指示是否在当前段落的拉丁文本区域 和东亚文本区域之间自动调整字符间距
+description: ParagraphFormat 财产. 获取或设置一个标志指示当前段落中拉丁文本的regions 和东亚文本区域之间的字符间距是否自动调整
 type: docs
 weight: 10
 url: /zh/net/aspose.words/paragraphformat/addspacebetweenfareastandalpha/
 ---
 ## ParagraphFormat.AddSpaceBetweenFarEastAndAlpha property
 
-获取或设置一个标志，指示是否在当前段落的拉丁文本区域 和东亚文本区域之间自动调整字符间距。
+获取或设置一个标志，指示当前段落中拉丁文本的regions 和东亚文本区域之间的字符间距是否自动调整。
 
 ```csharp
 public bool AddSpaceBetweenFarEastAndAlpha { get; set; }
@@ -36,7 +36,7 @@ paragraphFormat.AddSpaceBetweenFarEastAndAlpha = true;
 paragraphFormat.AddSpaceBetweenFarEastAndDigit = true;
 paragraphFormat.KeepTogether = true;
 
-// “Writeln”方法在追加文本后结束段落
+// “Writeln”方法在附加文本后结束段落
 // 然后开始一个新行，添加一个新段落。
 builder.Writeln("Hello world!");
 

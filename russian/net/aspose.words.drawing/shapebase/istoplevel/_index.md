@@ -1,14 +1,14 @@
 ---
 title: ShapeBase.IsTopLevel
 second_title: Справочник по API Aspose.Words для .NET
-description: ShapeBase свойство. Возвращает true если эта фигура не является дочерней фигурой группы.
+description: ShapeBase свойство. Возвращаетистинныйесли эта фигура не является дочерней фигурой группы.
 type: docs
-weight: 340
+weight: 350
 url: /ru/net/aspose.words.drawing/shapebase/istoplevel/
 ---
 ## ShapeBase.IsTopLevel property
 
-Возвращает true, если эта фигура не является дочерней фигурой группы.
+Возвращает`истинный`если эта фигура не является дочерней фигурой группы.
 
 ```csharp
 public bool IsTopLevel { get; }
@@ -16,7 +16,7 @@ public bool IsTopLevel { get; }
 
 ### Примеры
 
-Показывает, как определить, является ли фигура частью групповой фигуры.
+Показывает, как определить, является ли фигура частью группы фигур.
 
 ```csharp
 Document doc = new Document();
@@ -26,13 +26,13 @@ shape.Width = 200;
 shape.Height = 200;
 shape.WrapType = WrapType.None;
 
-// Фигура по умолчанию не является частью какой-либо групповой фигуры, поэтому свойство «IsTopLevel» имеет значение «true».
+// Фигура по умолчанию не является частью какой-либо формы группы, поэтому для свойства IsTopLevel установлено значение «true».
 Assert.True(shape.IsTopLevel);
 
 GroupShape group = new GroupShape(doc);
 group.AppendChild(shape);
 
-// Как только мы ассимилируем фигуру в групповую, свойство «IsTopLevel» изменится на «false».
+// Как только мы объединим фигуру с фигурой группы, свойство IsTopLevel изменится на «false».
 Assert.False(shape.IsTopLevel);
 ```
 

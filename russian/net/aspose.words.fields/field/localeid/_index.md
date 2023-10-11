@@ -16,21 +16,21 @@ public int LocaleId { get; set; }
 
 ### Примеры
 
-Показывает, как вставить поле и работать с его локалью.
+Показывает, как вставить поле и работать с его языковым стандартом.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Вставьте поле DATE, а затем напечатайте дату, которую оно будет отображать.
+// Вставляем поле ДАТА, а затем печатаем дату, которую оно будет отображать.
 // Текущая культура вашего потока определяет формат даты.
 Field field = builder.InsertField(@"DATE");
 Console.WriteLine($"Today's date, as displayed in the \"{CultureInfo.CurrentCulture.EnglishName}\" culture: {field.Result}");
 
 Assert.AreEqual(1033, field.LocaleId);
 // Изменение культуры нашего потока повлияет на результат поля DATE.
-// Другой способ заставить поле DATE отображать дату в другом языке и региональных параметрах — использовать его свойство LocaleId.
-// Этот способ позволяет нам избежать изменения культуры потока, чтобы получить этот эффект.
+// Другой способ заставить поле ДАТА отображать дату в другой культуре — использовать его свойство LocaleId.
+// Этот способ позволяет нам избежать изменения культуры потока для достижения такого эффекта.
 doc.FieldOptions.FieldUpdateCultureSource = FieldUpdateCultureSource.FieldCode;
 CultureInfo de = new CultureInfo("de-DE");
 field.LocaleId = de.LCID;

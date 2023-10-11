@@ -18,20 +18,20 @@ public static LoadFormat ContentTypeToLoadFormat(string contentType)
 
 | eccezione | condizione |
 | --- | --- |
-| ArgumentException | Lancia quando non può convertire. |
+| ArgumentException | Lancia quando non è possibile convertire. |
 
 ### Esempi
 
 Mostra come trovare il formato di caricamento/salvataggio Aspose corrispondente da ciascuna stringa del tipo di supporto.
 
 ```csharp
-// I metodi ContentTypeToSaveFormat/ContentTypeToLoadFormat accettano solo nomi di tipi di media IANA ufficiali, noti anche come tipi MIME. 
+ // I metodi ContentTypeToSaveFormat/ContentTypeToLoadFormat accettano solo nomi di tipi di media IANA ufficiali, noti anche come tipi MIME.
 // Tutti i tipi di media validi sono elencati qui: https://www.iana.org/assignments/media-types/media-types.xhtml.
 
-// Il tentativo di associare un SaveFormat a una stringa di tipo multimediale parziale non funzionerà.
+// Il tentativo di associare SaveFormat a una stringa di tipo multimediale parziale non funzionerà.
 Assert.Throws<ArgumentException>(() => FileFormatUtil.ContentTypeToSaveFormat("jpeg"));
 
-// Se Aspose.Words non ha un formato di salvataggio/caricamento corrispondente per un tipo di contenuto, verrà generata anche un'eccezione.
+// Se Aspose.Words non dispone di un formato di salvataggio/caricamento corrispondente per un tipo di contenuto, verrà generata anche un'eccezione.
 Assert.Throws<ArgumentException>(() => FileFormatUtil.ContentTypeToSaveFormat("application/zip"));
 
 // I file dei tipi elencati di seguito possono essere salvati, ma non caricati utilizzando Aspose.Words.
@@ -47,7 +47,7 @@ Assert.AreEqual(SaveFormat.Pdf, FileFormatUtil.ContentTypeToSaveFormat("applicat
 Assert.AreEqual(SaveFormat.Svg, FileFormatUtil.ContentTypeToSaveFormat("image/svg+xml"));
 Assert.AreEqual(SaveFormat.Epub, FileFormatUtil.ContentTypeToSaveFormat("application/epub+zip"));
 
-// Per i tipi di file che possono essere salvati e caricati, possiamo abbinare un tipo di supporto sia a un formato di caricamento che a un formato di salvataggio.
+// Per i tipi di file che possono essere salvati e caricati, possiamo abbinare un tipo di supporto sia al formato di caricamento che al formato di salvataggio.
 Assert.AreEqual(LoadFormat.Doc, FileFormatUtil.ContentTypeToLoadFormat("application/msword"));
 Assert.AreEqual(SaveFormat.Doc, FileFormatUtil.ContentTypeToSaveFormat("application/msword"));
 

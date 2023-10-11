@@ -17,14 +17,14 @@ public FieldDatabaseDataTable GetQueryResult(string fileName, string connection,
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| fileName | String | Le chemin d'accès complet et le nom de fichier de la base de données spécifiée dans le commutateur de champ \d. |
+| fileName | String | Le chemin complet et le nom de fichier de la base de données spécifiés dans le commutateur de champ \d. |
 | connection | String | La connexion aux données spécifiées dans le commutateur de champ \c. |
 | query | String | Ensemble d'instructions SQL qui interrogent la base de données spécifiée dans le commutateur de champ \s. |
 | field | FieldDatabase | Le champ en cours de mise à jour. |
 
 ### Return_Value
 
-La[`FieldDatabaseDataTable`](../../fielddatabasedatatable/) instance qui doit être utilisée pour la mise à jour du champ.
+Le[`FieldDatabaseDataTable`](../../fielddatabasedatatable/) instance qui doit être utilisée pour la mise à jour du champ.
 
 ### Voir également
 

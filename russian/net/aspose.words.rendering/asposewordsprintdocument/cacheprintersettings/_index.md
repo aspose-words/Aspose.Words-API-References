@@ -1,14 +1,14 @@
 ---
 title: AsposeWordsPrintDocument.CachePrinterSettings
 second_title: Справочник по API Aspose.Words для .NET
-description: AsposeWordsPrintDocument метод. Читает и кэширует некоторые поляPrinterSettings для сокращения времени печати.
+description: AsposeWordsPrintDocument метод. Считывает и кэширует некоторые поляPrinterSettings для сокращения времени печати.
 type: docs
-weight: 20
+weight: 40
 url: /ru/net/aspose.words.rendering/asposewordsprintdocument/cacheprintersettings/
 ---
 ## AsposeWordsPrintDocument.CachePrinterSettings method
 
-Читает и кэширует некоторые поляPrinterSettings для сокращения времени печати.
+Считывает и кэширует некоторые поляPrinterSettings для сокращения времени печати.
 
 ```csharp
 public void CachePrinterSettings()
@@ -16,7 +16,7 @@ public void CachePrinterSettings()
 
 ### Примечания
 
-Этот метод вызывается перед началом печати, если он не был выполнен ранее.
+Этот метод вызывается перед началом печати, если он не выполнялся ранее.
 
 ### Примеры
 
@@ -27,10 +27,10 @@ Document doc = new Document(MyDir + "Rendering.docx");
 
 PrintPreviewDialog previewDlg = new PrintPreviewDialog();
 
-// Вызовите метод "Show", чтобы форма предварительного просмотра печати отображалась сверху.
+// Вызовите метод «Show», чтобы форма предварительного просмотра отображалась сверху.
 previewDlg.Show();
 
-// Инициализируем диалог печати количеством страниц в документе.
+// Инициализируем диалоговое окно печати, указав количество страниц в документе.
 PrintDialog printDlg = new PrintDialog();
 printDlg.AllowSomePages = true;
 printDlg.PrinterSettings.MinimumPage = 1;
@@ -41,22 +41,27 @@ printDlg.PrinterSettings.ToPage = doc.PageCount;
 if (printDlg.ShowDialog() != DialogResult.OK)
     return;
 
-// Создаем реализацию "Aspose.Words" документа печати .NET,
-// и затем передать настройки принтера из диалогового окна.
+// Создаем реализацию Aspose.Words документа печати .NET,
+// а затем передаем настройки принтера из диалогового окна.
 AsposeWordsPrintDocument awPrintDoc = new AsposeWordsPrintDocument(doc);
 awPrintDoc.PrinterSettings = printDlg.PrinterSettings;
 
-// Используйте метод "CachePrinterSettings", чтобы сократить время первого вызова метода "Печать".
+// Указываем новый режим цветной печати.
+awPrintDoc.ColorMode = ColorPrintMode.GrayscaleAuto;
+
+// Используйте метод «CachePrinterSettings», чтобы сократить время первого вызова метода «Печать».
 awPrintDoc.CachePrinterSettings();
 
-// Вызываем метод «Скрыть», а затем метод «InvalidatePreview», чтобы предварительный просмотр отображался сверху.
+// Вызовите методы «Hide», а затем «InvalidatePreview», чтобы предварительный просмотр печати отображался сверху.
 previewDlg.Hide();
 previewDlg.PrintPreviewControl.InvalidatePreview();
 
-// Передайте документ печати "Aspose.Words" в диалоговое окно .NET Print Preview.
+// Передаем документ для печати Aspose.Words в диалоговое окно предварительного просмотра печати .NET.
 previewDlg.Document = awPrintDoc;
-
 previewDlg.ShowDialog();
+
+awPrintDoc.Print();            
+Console.WriteLine($"The numer of pages printed in color are {awPrintDoc.ColorPagesPrinted}.");
 ```
 
 ### Смотрите также

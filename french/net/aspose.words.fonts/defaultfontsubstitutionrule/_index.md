@@ -3,12 +3,14 @@ title: Class DefaultFontSubstitutionRule
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Aspose.Words.Fonts.DefaultFontSubstitutionRule classe. Règle de substitution de police par défaut.
 type: docs
-weight: 2660
+weight: 2840
 url: /fr/net/aspose.words.fonts/defaultfontsubstitutionrule/
 ---
 ## DefaultFontSubstitutionRule class
 
 Règle de substitution de police par défaut.
+
+Pour en savoir plus, visitez le[Travailler avec des polices](https://docs.aspose.com/words/net/working-with-fonts/) article documentaire.
 
 ```csharp
 public class DefaultFontSubstitutionRule : FontSubstitutionRule
@@ -23,7 +25,7 @@ public class DefaultFontSubstitutionRule : FontSubstitutionRule
 
 ### Remarques
 
-Cette règle définit un seul nom de police par défaut à utiliser pour la substitution si la police d'origine n'est pas disponible.
+Cette règle définit un nom de police par défaut unique à utiliser pour la substitution si la police d'origine n'est pas disponible.
 
 ### Exemples
 
@@ -41,11 +43,11 @@ DefaultFontSubstitutionRule defaultFontSubstitutionRule =
 Assert.True(defaultFontSubstitutionRule.Enabled);
 Assert.AreEqual("Times New Roman", defaultFontSubstitutionRule.DefaultFontName);
 
-// Définit le substitut de police par défaut sur "Courier New".
+// Définissez le substitut de police par défaut sur "Courier New".
 defaultFontSubstitutionRule.DefaultFontName = "Courier New";
 
-// A l'aide d'un constructeur de document, ajoutez du texte dans une police dont nous n'avons pas besoin pour voir la substitution se produire,
-// puis affichez le résultat dans un PDF.
+// A l'aide d'un générateur de documents, on ajoute du texte dans une police dont on n'est pas obligé pour voir la substitution s'effectuer,
+// puis affiche le résultat dans un PDF.
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Font.Name = "Missing Font";

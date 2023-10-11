@@ -1,14 +1,14 @@
 ---
 title: FieldFormat.NumericFormat
 second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldFormat propriété. Obtient ou définit une mise en forme appliquée à un résultat de champ numérique. Correspond au commutateur .
+description: FieldFormat propriété. Obtient ou définit une mise en forme appliquée au résultat dun champ numérique. Correspond au  switch.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.fields/fieldformat/numericformat/
 ---
 ## FieldFormat.NumericFormat property
 
-Obtient ou définit une mise en forme appliquée à un résultat de champ numérique. Correspond au commutateur \#.
+Obtient ou définit une mise en forme appliquée au résultat d'un champ numérique. Correspond au \# switch.
 
 ```csharp
 public string NumericFormat { get; set; }
@@ -16,13 +16,13 @@ public string NumericFormat { get; set; }
 
 ### Exemples
 
-Montre comment formater les résultats de champ.
+Montre comment formater les résultats des champs.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Utilisez un générateur de document pour insérer un champ qui affiche un résultat sans format appliqué.
+// Utilisez un générateur de documents pour insérer un champ qui affiche un résultat sans aucun format appliqué.
 Field field = builder.InsertField("= 2 + 3");
 
 Assert.AreEqual("= 2 + 3", field.GetFieldCode());
@@ -30,7 +30,7 @@ Assert.AreEqual("5", field.Result);
 
 // Nous pouvons appliquer un format au résultat d'un champ en utilisant les propriétés du champ.
 // Vous trouverez ci-dessous trois types de formats que nous pouvons appliquer au résultat d'un champ.
-// 1 - Format numérique :
+// 1 - Format numérique :
 FieldFormat format = field.Format;
 format.NumericFormat = "$###.00";
 field.Update();
@@ -64,7 +64,7 @@ Assert.AreEqual("LVIII", field.Result);
 Assert.AreEqual(2, format.GeneralFormats.Count);
 Assert.AreEqual(GeneralFormat.LowercaseRoman, format.GeneralFormats[0]);
 
-// Nous pouvons supprimer nos formats pour rétablir le résultat du champ dans sa forme d'origine.
+// Nous pouvons supprimer nos formats pour rétablir le résultat du champ dans sa forme originale.
 format.GeneralFormats.Remove(GeneralFormat.LowercaseRoman);
 format.GeneralFormats.RemoveAt(0);
 Assert.AreEqual(0, format.GeneralFormats.Count);

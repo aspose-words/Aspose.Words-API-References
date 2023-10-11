@@ -1,14 +1,14 @@
 ---
 title: ImageSaveOptions.Clone
 second_title: Aspose.Words for .NET API Referansı
-description: ImageSaveOptions yöntem. Bu nesnenin derin bir klonunu oluşturur.
+description: ImageSaveOptions yöntem. Bu nesnenin derin bir kopyasını oluşturur.
 type: docs
-weight: 200
+weight: 210
 url: /tr/net/aspose.words.saving/imagesaveoptions/clone/
 ---
 ## ImageSaveOptions.Clone method
 
-Bu nesnenin derin bir klonunu oluşturur.
+Bu nesnenin derin bir kopyasını oluşturur.
 
 ```csharp
 public ImageSaveOptions Clone()
@@ -16,7 +16,7 @@ public ImageSaveOptions Clone()
 
 ### Örnekler
 
-Bir belgenin bir görüntüye dönüştürüleceği piksel başına bit oranının nasıl seçileceğini gösterir.
+Bir belgenin görüntüye dönüştürüleceği piksel başına bit oranının nasıl seçileceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -28,9 +28,9 @@ Document doc = new Document();
 
             Assert.That(20000, Is.LessThan(new FileInfo(ImageDir + "Logo.jpg").Length));
 
-            // Belgeyi bir resim olarak kaydettiğimizde, bir SaveOptions nesnesini şuraya aktarabiliriz:
+            // Belgeyi resim olarak kaydettiğimizde, bir SaveOptions nesnesini iletebiliriz
             // kaydetme işleminin oluşturacağı görüntü için bir piksel formatı seçin.
-            // Piksel başına çeşitli bit oranları, oluşturulan görüntünün kalitesini ve dosya boyutunu etkiler.
+            // Piksel başına çeşitli bit oranları, oluşturulan görüntünün kalitesini ve dosya boyutunu etkileyecektir.
             ImageSaveOptions imageSaveOptions = new ImageSaveOptions(SaveFormat.Png);
             imageSaveOptions.PixelFormat = imagePixelFormat;
 

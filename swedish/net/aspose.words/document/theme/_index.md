@@ -3,7 +3,7 @@ title: Document.Theme
 second_title: Aspose.Words för .NET API Referens
 description: Document fast egendom. FårTheme objekt för detta dokument.
 type: docs
-weight: 400
+weight: 420
 url: /sv/net/aspose.words/document/theme/
 ---
 ## Document.Theme property

@@ -16,7 +16,7 @@ public NumeralFormat NumeralFormat { get; set; }
 
 ### Observaciones
 
-Si se cambia el valor de esta propiedad y el diseño de la página ya está construido entonces [`UpdatePageLayout`](../../../aspose.words/document/updatepagelayout/) se invoca automáticamente para actualizar cualquier cambio.
+Si se cambia el valor de esta propiedad y el diseño de la página ya está creado entonces [`UpdatePageLayout`](../../../aspose.words/document/updatepagelayout/) se invoca automáticamente para actualizar cualquier cambio.
 
 ### Ejemplos
 
@@ -33,14 +33,14 @@ builder.Writeln("1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 50, 100");
 // para modificar cómo ese método convierte el documento a .PDF.
 PdfSaveOptions options = new PdfSaveOptions();
 
-// Establecer la propiedad "NumeralFormat" en "NumeralFormat.ArabicIndic" para
+// Establece la propiedad "NumeralFormat" en "NumeralFormat.ArabicIndic" para
 // usa glifos del rango U+0660 a U+0669 como números.
-// Establecer la propiedad "NumeralFormat" en "NumeralFormat.Context" para
-// busque la configuración regional para determinar qué número de glifos usar.
-// Establecer la propiedad "NumeralFormat" en "NumeralFormat.EasternArabicIndic" para
+// Establece la propiedad "NumeralFormat" en "NumeralFormat.Context" para
+// busca la configuración regional para determinar qué cantidad de glifos usar.
+// Establece la propiedad "NumeralFormat" en "NumeralFormat.EasternArabicIndic" para
 // usa glifos del rango U+06F0 a U+06F9 como números.
-// Establezca la propiedad "NumeralFormat" en "NumeralFormat.European" para usar números europeos.
-// Establezca la propiedad "NumeralFormat" en "NumeralFormat.System" para determinar el conjunto de símbolos de la configuración regional.
+// Establece la propiedad "NumeralFormat" en "NumeralFormat.European" para utilizar números europeos.
+// Establezca la propiedad "NumeralFormat" en "NumeralFormat.System" para determinar el conjunto de símbolos a partir de la configuración regional.
 options.NumeralFormat = numeralFormat;
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.SetNumeralFormat.pdf", options);

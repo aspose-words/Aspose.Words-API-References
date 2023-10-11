@@ -3,12 +3,14 @@ title: Class UserInformation
 second_title: Aspose.Words für .NET-API-Referenz
 description: Aspose.Words.Fields.UserInformation klas. Gibt Informationen über den Benutzer an.
 type: docs
-weight: 2610
+weight: 2790
 url: /de/net/aspose.words.fields/userinformation/
 ---
 ## UserInformation class
 
 Gibt Informationen über den Benutzer an.
+
+Um mehr zu erfahren, besuchen Sie die[Arbeiten mit Feldern](https://docs.aspose.com/words/net/working-with-fields/) Dokumentationsartikel.
 
 ```csharp
 public class UserInformation
@@ -25,8 +27,8 @@ public class UserInformation
 | Name | Beschreibung |
 | --- | --- |
 | static [DefaultUser](../../aspose.words.fields/userinformation/defaultuser/) { get; } | Standardbenutzerinformationen. |
-| [Address](../../aspose.words.fields/userinformation/address/) { get; set; } | Ruft die Postanschrift des Benutzers ab oder legt sie fest. |
-| [Initials](../../aspose.words.fields/userinformation/initials/) { get; set; } | Ruft die Initialen des Benutzers ab oder legt sie fest. |
+| [Address](../../aspose.words.fields/userinformation/address/) { get; set; } | Ruft die Postanschrift des Benutzers ab oder legt diese fest. |
+| [Initials](../../aspose.words.fields/userinformation/initials/) { get; set; } | Ruft die Initialen des Benutzers ab oder legt diese fest. |
 | [Name](../../aspose.words.fields/userinformation/name/) { get; set; } | Ruft den Namen des Benutzers ab oder legt ihn fest. |
 
 ### Beispiele
@@ -47,12 +49,12 @@ UserInformation userInformation = new UserInformation
 doc.FieldOptions.CurrentUser = userInformation;
 
 // Felder USERNAME, USERINITIALS und USERADDRESS einfügen, die Werte von anzeigen
-// die entsprechenden Eigenschaften des oben erstellten UserInformation-Objekts. 
+ // die jeweiligen Eigenschaften des UserInformation-Objekts, das wir oben erstellt haben.
 Assert.AreEqual(userInformation.Name, builder.InsertField(" USERNAME ").Result);
 Assert.AreEqual(userInformation.Initials, builder.InsertField(" USERINITIALS ").Result);
 Assert.AreEqual(userInformation.Address, builder.InsertField(" USERADDRESS ").Result);
 
-// Das Feldoptionsobjekt hat auch einen statischen Standardbenutzer, auf den sich Felder aus allen Dokumenten beziehen können.
+// Das Feldoptionsobjekt verfügt außerdem über einen statischen Standardbenutzer, auf den Felder aus allen Dokumenten verweisen können.
 UserInformation.DefaultUser.Name = "Default User";
 UserInformation.DefaultUser.Initials = "D. U.";
 UserInformation.DefaultUser.Address = "One Microsoft Way";

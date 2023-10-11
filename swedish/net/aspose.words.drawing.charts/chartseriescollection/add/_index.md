@@ -1,14 +1,14 @@
 ---
 title: ChartSeriesCollection.Add
 second_title: Aspose.Words för .NET API Referens
-description: ChartSeriesCollection metod. Lägger till nyttChartSeriestill denna samling. Använd den här metoden för att lägga till serier till alla typer av stapel kolumn linje och ytdiagram.
+description: ChartSeriesCollection metod. Lägger till nyttChartSeries till denna samling. Använd den här metoden för att lägga till serier till alla typer av stapel kolumn linje och ytdiagram.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.drawing.charts/chartseriescollection/add/
 ---
 ## Add(string, string[], double[]) {#add_3}
 
-Lägger till nytt[`ChartSeries`](../../chartseries/)till denna samling. Använd den här metoden för att lägga till serier till alla typer av stapel-, kolumn-, linje- och ytdiagram.
+Lägger till nytt[`ChartSeries`](../../chartseries/) till denna samling. Använd den här metoden för att lägga till serier till alla typer av stapel-, kolumn-, linje- och ytdiagram.
 
 ```csharp
 public ChartSeries Add(string seriesName, string[] categories, double[] values)
@@ -23,6 +23,7 @@ Nyligen tillagd[`ChartSeries`](../../chartseries/) objekt.
 Visar hur man skapar en lämplig typ av diagramserie för en graftyp.
 
 ```csharp
+public void ChartSeriesCollection()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -81,7 +82,7 @@ Visar hur man skapar en lämplig typ av diagramserie för en graftyp.
     chart = AppendChart(builder, ChartType.Bubble, 500, 300);
 
     // Varje serie kommer att behöva tre decimalmatriser av samma längd.
-    // Den första matrisen innehåller X-värden och den andra innehåller motsvarande Y-värden，
+    // Den första matrisen innehåller X-värden, den andra innehåller motsvarande Y-värden,
     // och den tredje innehåller diametrar för var och en av grafens datapunkter.
     chart.Series.Add("Series 1", 
         new [] { 1.1, 5.0, 9.8 }, 
@@ -129,6 +130,7 @@ Nyligen tillagd[`ChartSeries`](../../chartseries/) objekt.
 Visar hur man skapar en lämplig typ av diagramserie för en graftyp.
 
 ```csharp
+public void ChartSeriesCollection()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -187,7 +189,7 @@ Visar hur man skapar en lämplig typ av diagramserie för en graftyp.
     chart = AppendChart(builder, ChartType.Bubble, 500, 300);
 
     // Varje serie kommer att behöva tre decimalmatriser av samma längd.
-    // Den första matrisen innehåller X-värden och den andra innehåller motsvarande Y-värden，
+    // Den första matrisen innehåller X-värden, den andra innehåller motsvarande Y-värden,
     // och den tredje innehåller diametrar för var och en av grafens datapunkter.
     chart.Series.Add("Series 1", 
         new [] { 1.1, 5.0, 9.8 }, 
@@ -231,6 +233,7 @@ public ChartSeries Add(string seriesName, DateTime[] dates, double[] values)
 Visar hur man skapar en lämplig typ av diagramserie för en graftyp.
 
 ```csharp
+public void ChartSeriesCollection()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -289,7 +292,7 @@ Visar hur man skapar en lämplig typ av diagramserie för en graftyp.
     chart = AppendChart(builder, ChartType.Bubble, 500, 300);
 
     // Varje serie kommer att behöva tre decimalmatriser av samma längd.
-    // Den första matrisen innehåller X-värden och den andra innehåller motsvarande Y-värden，
+    // Den första matrisen innehåller X-värden, den andra innehåller motsvarande Y-värden,
     // och den tredje innehåller diametrar för var och en av grafens datapunkter.
     chart.Series.Add("Series 1", 
         new [] { 1.1, 5.0, 9.8 }, 
@@ -322,7 +325,7 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
 
 ## Add(string, double[], double[], double[]) {#add_1}
 
-Lägger till nytt[`ChartSeries`](../../chartseries/) till denna samling. Använd den här metoden för att lägga till serier till alla typer av bubbeldiagram.
+Lägger till nytt[`ChartSeries`](../../chartseries/)till denna samling. Använd den här metoden för att lägga till serier till alla typer av bubbeldiagram.
 
 ```csharp
 public ChartSeries Add(string seriesName, double[] xValues, double[] yValues, double[] bubbleSizes)
@@ -337,6 +340,7 @@ Nyligen tillagd[`ChartSeries`](../../chartseries/) objekt.
 Visar hur man skapar en lämplig typ av diagramserie för en graftyp.
 
 ```csharp
+public void ChartSeriesCollection()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -395,7 +399,7 @@ Visar hur man skapar en lämplig typ av diagramserie för en graftyp.
     chart = AppendChart(builder, ChartType.Bubble, 500, 300);
 
     // Varje serie kommer att behöva tre decimalmatriser av samma längd.
-    // Den första matrisen innehåller X-värden och den andra innehåller motsvarande Y-värden，
+    // Den första matrisen innehåller X-värden, den andra innehåller motsvarande Y-värden,
     // och den tredje innehåller diametrar för var och en av grafens datapunkter.
     chart.Series.Add("Series 1", 
         new [] { 1.1, 5.0, 9.8 }, 

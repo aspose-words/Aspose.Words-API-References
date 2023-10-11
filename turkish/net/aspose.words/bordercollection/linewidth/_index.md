@@ -1,14 +1,14 @@
 ---
 title: BorderCollection.LineWidth
 second_title: Aspose.Words for .NET API Referansı
-description: BorderCollection mülk. Kenarlık genişliğini nokta olarak alır veya ayarlar.
+description: BorderCollection mülk. Kenarlık genişliğini nokta cinsinden alır veya ayarlar.
 type: docs
 weight: 90
 url: /tr/net/aspose.words/bordercollection/linewidth/
 ---
 ## BorderCollection.LineWidth property
 
-Kenarlık genişliğini nokta olarak alır veya ayarlar.
+Kenarlık genişliğini nokta cinsinden alır veya ayarlar.
 
 ```csharp
 public double LineWidth { get; set; }
@@ -18,7 +18,7 @@ public double LineWidth { get; set; }
 
 Koleksiyondaki ilk kenarlığın genişliğini döndürür.
 
-Çapraz kenarlıklar hariç koleksiyondaki tüm kenarlıkların genişliğini ayarlar.
+Koleksiyondaki çapraz kenarlıklar hariç tüm kenarlıkların genişliğini ayarlar.
 
 ### Örnekler
 

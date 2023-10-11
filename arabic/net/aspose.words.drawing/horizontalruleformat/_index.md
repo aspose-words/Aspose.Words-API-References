@@ -1,14 +1,16 @@
 ---
 title: Class HorizontalRuleFormat
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Drawing.HorizontalRuleFormat فصل. يمثل تنسيق القاعدة الأفقية .
+description: Aspose.Words.Drawing.HorizontalRuleFormat فصل. يمثل تنسيق القاعدة الأفقي.
 type: docs
-weight: 920
+weight: 1050
 url: /ar/net/aspose.words.drawing/horizontalruleformat/
 ---
 ## HorizontalRuleFormat class
 
-يمثل تنسيق القاعدة الأفقية .
+يمثل تنسيق القاعدة الأفقي.
+
+لمعرفة المزيد، قم بزيارة[العمل مع الأشكال](https://docs.aspose.com/words/net/working-with-shapes/) مقالة توثيقية.
 
 ```csharp
 public class HorizontalRuleFormat
@@ -18,15 +20,15 @@ public class HorizontalRuleFormat
 
 | اسم | وصف |
 | --- | --- |
-| [Alignment](../../aspose.words.drawing/horizontalruleformat/alignment/) { get; set; } | الحصول على محاذاة القاعدة الأفقية أو تعيينها. |
+| [Alignment](../../aspose.words.drawing/horizontalruleformat/alignment/) { get; set; } | الحصول على أو تعيين محاذاة القاعدة الأفقية. |
 | [Color](../../aspose.words.drawing/horizontalruleformat/color/) { get; set; } | الحصول على أو تعيين لون الفرشاة الذي يملأ القاعدة الأفقية. |
 | [Height](../../aspose.words.drawing/horizontalruleformat/height/) { get; set; } | الحصول على أو تحديد ارتفاع القاعدة الأفقية. |
-| [NoShade](../../aspose.words.drawing/horizontalruleformat/noshade/) { get; set; } | يشير إلى وجود تظليل ثلاثي الأبعاد للقاعدة الأفقية . إذا كان هذا صحيحًا ، فإن القاعدة الأفقية بدون تظليل ثلاثي الأبعاد ويتم استخدام لون خالص . |
-| [WidthPercent](../../aspose.words.drawing/horizontalruleformat/widthpercent/) { get; set; } | الحصول على أو تحديد طول القاعدة الأفقية المحددة كنسبة مئوية من عرض النافذة. |
+| [NoShade](../../aspose.words.drawing/horizontalruleformat/noshade/) { get; set; } | يشير إلى وجود تظليل ثلاثي الأبعاد للقاعدة الأفقية. إذا`حقيقي`، ثم تكون القاعدة الأفقية بدون تظليل ثلاثي الأبعاد ويتم استخدام اللون الصلب. |
+| [WidthPercent](../../aspose.words.drawing/horizontalruleformat/widthpercent/) { get; set; } | الحصول على أو تعيين طول القاعدة الأفقية المحددة معبرًا عنها كنسبة مئوية من عرض النافذة. |
 
 ### أمثلة
 
-يوضح كيفية إدراج شكل تسطير أفقي ، وتخصيص تنسيقه.
+يوضح كيفية إدراج شكل قاعدة أفقية، وتخصيص تنسيقه.
 
 ```csharp
 Document doc = new Document();

@@ -1,14 +1,14 @@
 ---
 title: Paragraph.AppendField
 second_title: Aspose.Words لمراجع .NET API
-description: Paragraph طريقة. لإلحاق حقل بهذه الفقرة .
+description: Paragraph طريقة. إلحاق حقل بهذه الفقرة.
 type: docs
-weight: 240
+weight: 260
 url: /ar/net/aspose.words/paragraph/appendfield/
 ---
 ## AppendField(FieldType, bool) {#appendfield}
 
-لإلحاق حقل بهذه الفقرة .
+إلحاق حقل بهذه الفقرة.
 
 ```csharp
 public Field AppendField(FieldType fieldType, bool updateField)
@@ -16,29 +16,29 @@ public Field AppendField(FieldType fieldType, bool updateField)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| fieldType | FieldType | نوع الحقل المطلوب إلحاقه. |
+| fieldType | FieldType | نوع الحقل المراد إلحاقه. |
 | updateField | Boolean | يحدد ما إذا كان سيتم تحديث الحقل على الفور. |
 
 ### قيمة الإرجاع
 
-أ[`Field`](../../../aspose.words.fields/field/) الذي يمثل الحقل الملحق.
+أ[`Field`](../../../aspose.words.fields/field/) كائن يمثل الحقل الملحق.
 
 ### أمثلة
 
-يُظهر طرقًا مختلفة لإلحاق الحقول بفقرة.
+يعرض طرقًا مختلفة لإلحاق الحقول بالفقرة.
 
 ```csharp
 Document doc = new Document();
 Paragraph paragraph = doc.FirstSection.Body.FirstParagraph;
 
-// فيما يلي ثلاث طرق لإلحاق حقل بنهاية فقرة.
-// 1 - قم بإلحاق حقل التاريخ باستخدام نوع الحقل ، ثم قم بتحديثه:
+// فيما يلي ثلاث طرق لإلحاق حقل بنهاية الفقرة.
+// 1 - قم بإلحاق حقل التاريخ باستخدام نوع الحقل، ثم قم بتحديثه:
 paragraph.AppendField(FieldType.FieldDate, true);
 
-// 2 - قم بإلحاق حقل TIME باستخدام رمز الحقل: 
+ // 2 - إلحاق حقل الوقت باستخدام رمز الحقل:
 paragraph.AppendField(" TIME  \\@ \"HH:mm:ss\" ");
 
-// 3 - قم بإلحاق حقل QUOTE باستخدام رمز الحقل ، واحصل عليه لعرض قيمة العنصر النائب:
+// 3 - قم بإلحاق حقل عرض أسعار باستخدام رمز الحقل، واجعله يعرض قيمة عنصر نائب:
 paragraph.AppendField(" QUOTE \"Real value\"", "Placeholder value");
 
 Assert.AreEqual("Placeholder value", doc.Range.Fields[2].Result);
@@ -63,7 +63,7 @@ doc.Save(ArtifactsDir + "Paragraph.AppendField.docx");
 
 ## AppendField(string) {#appendfield_1}
 
-لإلحاق حقل بهذه الفقرة .
+إلحاق حقل بهذه الفقرة.
 
 ```csharp
 public Field AppendField(string fieldCode)
@@ -71,28 +71,28 @@ public Field AppendField(string fieldCode)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| fieldCode | String | رمز الحقل المطلوب إلحاقه (بدون الأقواس المتعرجة). |
+| fieldCode | String | رمز الحقل المراد إلحاقه (بدون الأقواس المتعرجة). |
 
 ### قيمة الإرجاع
 
-أ[`Field`](../../../aspose.words.fields/field/) الذي يمثل الحقل الملحق.
+أ[`Field`](../../../aspose.words.fields/field/) كائن يمثل الحقل الملحق.
 
 ### أمثلة
 
-يُظهر طرقًا مختلفة لإلحاق الحقول بفقرة.
+يعرض طرقًا مختلفة لإلحاق الحقول بالفقرة.
 
 ```csharp
 Document doc = new Document();
 Paragraph paragraph = doc.FirstSection.Body.FirstParagraph;
 
-// فيما يلي ثلاث طرق لإلحاق حقل بنهاية فقرة.
-// 1 - قم بإلحاق حقل التاريخ باستخدام نوع الحقل ، ثم قم بتحديثه:
+// فيما يلي ثلاث طرق لإلحاق حقل بنهاية الفقرة.
+// 1 - قم بإلحاق حقل التاريخ باستخدام نوع الحقل، ثم قم بتحديثه:
 paragraph.AppendField(FieldType.FieldDate, true);
 
-// 2 - قم بإلحاق حقل TIME باستخدام رمز الحقل: 
+ // 2 - إلحاق حقل الوقت باستخدام رمز الحقل:
 paragraph.AppendField(" TIME  \\@ \"HH:mm:ss\" ");
 
-// 3 - قم بإلحاق حقل QUOTE باستخدام رمز الحقل ، واحصل عليه لعرض قيمة العنصر النائب:
+// 3 - قم بإلحاق حقل عرض أسعار باستخدام رمز الحقل، واجعله يعرض قيمة عنصر نائب:
 paragraph.AppendField(" QUOTE \"Real value\"", "Placeholder value");
 
 Assert.AreEqual("Placeholder value", doc.Range.Fields[2].Result);
@@ -116,7 +116,7 @@ doc.Save(ArtifactsDir + "Paragraph.AppendField.docx");
 
 ## AppendField(string, string) {#appendfield_2}
 
-لإلحاق حقل بهذه الفقرة .
+إلحاق حقل بهذه الفقرة.
 
 ```csharp
 public Field AppendField(string fieldCode, string fieldValue)
@@ -124,29 +124,29 @@ public Field AppendField(string fieldCode, string fieldValue)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| fieldCode | String | رمز الحقل المطلوب إلحاقه (بدون الأقواس المتعرجة). |
-| fieldValue | String | قيمة الحقل المطلوب إلحاقها. تمرير فارغ للحقول التي ليس لها قيمة. |
+| fieldCode | String | رمز الحقل المراد إلحاقه (بدون الأقواس المتعرجة). |
+| fieldValue | String | قيمة الحقل المراد إلحاقه. يمر`باطل` للحقول التي ليس لها قيمة. |
 
 ### قيمة الإرجاع
 
-أ[`Field`](../../../aspose.words.fields/field/) الذي يمثل الحقل الملحق.
+أ[`Field`](../../../aspose.words.fields/field/) كائن يمثل الحقل الملحق.
 
 ### أمثلة
 
-يُظهر طرقًا مختلفة لإلحاق الحقول بفقرة.
+يعرض طرقًا مختلفة لإلحاق الحقول بالفقرة.
 
 ```csharp
 Document doc = new Document();
 Paragraph paragraph = doc.FirstSection.Body.FirstParagraph;
 
-// فيما يلي ثلاث طرق لإلحاق حقل بنهاية فقرة.
-// 1 - قم بإلحاق حقل التاريخ باستخدام نوع الحقل ، ثم قم بتحديثه:
+// فيما يلي ثلاث طرق لإلحاق حقل بنهاية الفقرة.
+// 1 - قم بإلحاق حقل التاريخ باستخدام نوع الحقل، ثم قم بتحديثه:
 paragraph.AppendField(FieldType.FieldDate, true);
 
-// 2 - قم بإلحاق حقل TIME باستخدام رمز الحقل: 
+ // 2 - إلحاق حقل الوقت باستخدام رمز الحقل:
 paragraph.AppendField(" TIME  \\@ \"HH:mm:ss\" ");
 
-// 3 - قم بإلحاق حقل QUOTE باستخدام رمز الحقل ، واحصل عليه لعرض قيمة العنصر النائب:
+// 3 - قم بإلحاق حقل عرض أسعار باستخدام رمز الحقل، واجعله يعرض قيمة عنصر نائب:
 paragraph.AppendField(" QUOTE \"Real value\"", "Placeholder value");
 
 Assert.AreEqual("Placeholder value", doc.Range.Fields[2].Result);

@@ -3,7 +3,7 @@ title: Enum ShapeMarkupLanguage
 second_title: Справочник по API Aspose.Words для .NET
 description: Aspose.Words.Drawing.ShapeMarkupLanguage перечисление. Указывает язык разметки используемый для фигуры.
 type: docs
-weight: 1130
+weight: 1280
 url: /ru/net/aspose.words.drawing/shapemarkuplanguage/
 ---
 ## ShapeMarkupLanguage enumeration
@@ -18,7 +18,7 @@ public enum ShapeMarkupLanguage : byte
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| Dml | `0` | Язык разметки чертежа используется для определения формы. |
+| Dml | `0` | Язык разметки чертежей используется для определения формы. |
 | Vml | `1` | Язык векторной разметки используется для определения формы. |
 
 ### Примеры
@@ -36,9 +36,9 @@ builder.InsertImage(ImageDir + "Transparent background logo.png");
 
 Assert.AreEqual(ShapeMarkupLanguage.Vml, ((Shape)doc.GetChild(NodeType.Shape, 0, true)).MarkupLanguage);
 
-// Стандарт OOXML "ISO/IEC 29500:2008" не поддерживает формы VML.
-// Если мы установим для свойства "Соответствие" объекта SaveOptions значение "OoxmlCompliance.Iso29500_2008_Strict",
- // любой документ, который мы сохраняем при передаче этого объекта, должен соответствовать этому стандарту.
+// Стандарт OOXML «ISO/IEC 29500:2008» не поддерживает формы VML.
+// Если мы установим для свойства «Соответствие» объекта SaveOptions значение «OoxmlCompliance.Iso29500_2008_Strict»,
+ // любой документ, который мы сохраняем при передаче этого объекта, должен будет соответствовать этому стандарту.
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions
 {
     Compliance = OoxmlCompliance.Iso29500_2008_Strict,
@@ -47,7 +47,7 @@ OoxmlSaveOptions saveOptions = new OoxmlSaveOptions
 
 doc.Save(ArtifactsDir + "OoxmlSaveOptions.Iso29500Strict.docx", saveOptions);
 
-// Наш сохраненный документ определяет форму с помощью DML, чтобы соответствовать стандарту OOXML "ISO/IEC 29500:2008".
+// Наш сохраненный документ определяет форму с использованием DML, чтобы соответствовать стандарту OOXML «ISO/IEC 29500:2008».
 doc = new Document(ArtifactsDir + "OoxmlSaveOptions.Iso29500Strict.docx");
 
 Assert.AreEqual(ShapeMarkupLanguage.Dml, ((Shape)doc.GetChild(NodeType.Shape, 0, true)).MarkupLanguage);

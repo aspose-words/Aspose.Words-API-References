@@ -3,7 +3,7 @@ title: Enum FontFamily
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Fonts.FontFamily uppräkning. Representerar teckensnittsfamiljen.
 type: docs
-weight: 2730
+weight: 2910
 url: /sv/net/aspose.words.fonts/fontfamily/
 ---
 ## FontFamily enumeration

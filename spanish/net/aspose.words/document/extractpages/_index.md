@@ -1,14 +1,14 @@
 ---
 title: Document.ExtractPages
 second_title: Referencia de API de Aspose.Words para .NET
-description: Document método. Devuelve elDocument objeto que representa el rango especificado de páginas.
+description: Document método. Devuelve elDocument objeto que representa un rango específico de páginas.
 type: docs
-weight: 580
+weight: 620
 url: /es/net/aspose.words/document/extractpages/
 ---
 ## Document.ExtractPages method
 
-Devuelve el[`Document`](../) objeto que representa el rango especificado de páginas.
+Devuelve el[`Document`](../) objeto que representa un rango específico de páginas.
 
 ```csharp
 public Document ExtractPages(int index, int count)
@@ -21,7 +21,7 @@ public Document ExtractPages(int index, int count)
 
 ### Observaciones
 
-El documento resultante debe verse como el de MS Word, como si hubiéramos realizado 'Imprimir páginas específicas': la numeración, encabezados/pies de página y el diseño de tablas cruzadas se mantendrán. Pero debido a una gran cantidad de matices, que aparecen mientras se reduce el número de páginas, la coincidencia completa del diseño es una tarea complicada y silenciosa que requiere mucho esfuerzo. Dependiendo de la complejidad del documento, puede haber ligeras diferencias en el diseño del contenido del documento resultante en comparación con el documento de origen. Cualquier comentario sería ser muy apreciado.
+El documento resultante debería verse como el de MS Word, como si hubiéramos realizado 'Imprimir páginas específicas'; se conservarán la numeración, encabezados/pies de página y el diseño de tablas cruzadas. Pero debido a una gran cantidad de matices, que aparecen aunque se reduce el número de páginas, la coincidencia total del diseño es una tarea silenciosa y complicada que requiere mucho esfuerzo. Dependiendo de la complejidad del documento, puede haber ligeras diferencias en el diseño del contenido del documento resultante en comparación con el documento de origen. Cualquier comentario sería útil será muy apreciado.
 
 ### Ejemplos
 

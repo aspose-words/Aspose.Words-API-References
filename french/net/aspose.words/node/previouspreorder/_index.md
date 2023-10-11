@@ -1,14 +1,14 @@
 ---
 title: Node.PreviousPreOrder
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Node méthode. Obtient le nœud précédent selon lalgorithme de parcours de larbre de préordre.
+description: Node méthode. Obtient le nœud précédent selon lalgorithme de traversée darbre de précommande.
 type: docs
 weight: 140
 url: /fr/net/aspose.words/node/previouspreorder/
 ---
 ## Node.PreviousPreOrder method
 
-Obtient le nœud précédent selon l'algorithme de parcours de l'arbre de pré-ordre.
+Obtient le nœud précédent selon l'algorithme de traversée d'arbre de pré-commande.
 
 ```csharp
 public Node PreviousPreOrder(Node rootNode)
@@ -16,15 +16,15 @@ public Node PreviousPreOrder(Node rootNode)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| rootNode | Node | Le nœud supérieur (limite) de traversée. |
+| rootNode | Node | Le nœud supérieur (limite) du parcours. |
 
 ### Return_Value
 
-Noeud précédent dans l'ordre de précommande. Null si atteint le rootNode.
+Nœud précédent en précommande. Nul si atteint le*rootNode*.
 
 ### Exemples
 
-Montre comment parcourir l'arborescence de nœuds du document à l'aide de l'algorithme de parcours de pré-commande et supprimer toute forme rencontrée avec une image.
+Montre comment parcourir l'arborescence des nœuds du document à l'aide de l'algorithme de parcours de pré-ordre et supprimer toute forme rencontrée avec une image.
 
 ```csharp
 Document doc = new Document(MyDir + "Images.docx");

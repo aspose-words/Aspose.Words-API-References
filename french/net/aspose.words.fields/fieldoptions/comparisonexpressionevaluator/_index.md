@@ -1,14 +1,14 @@
 ---
 title: FieldOptions.ComparisonExpressionEvaluator
 second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldOptions propriété. Obtient ou définit lévaluateur dexpressions de comparaison de champs.
+description: FieldOptions propriété. Obtient ou définit lévaluateur des expressions de comparaison de champs.
 type: docs
-weight: 30
+weight: 40
 url: /fr/net/aspose.words.fields/fieldoptions/comparisonexpressionevaluator/
 ---
 ## FieldOptions.ComparisonExpressionEvaluator property
 
-Obtient ou définit l'évaluateur d'expressions de comparaison de champs.
+Obtient ou définit l'évaluateur des expressions de comparaison de champs.
 
 ```csharp
 public IComparisonExpressionEvaluator ComparisonExpressionEvaluator { get; set; }
@@ -28,7 +28,7 @@ public void ConditionEvaluationExtensionPoint(string fieldCode, sbyte comparison
 
     DocumentBuilder builder = new DocumentBuilder();
 
-    // Codes de champ que nous utilisons dans cet exemple :
+    // Codes de champs que nous utilisons dans cet exemple :
     // 1. " SI {0} {1} {2} \"vrai argument\" \"faux argument\" ".
     // 2. " COMPARER {0} {1} {2} ".
     Field field = builder.InsertField(string.Format(fieldCode, left, @operator, right), null);

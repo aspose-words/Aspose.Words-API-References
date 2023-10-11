@@ -3,7 +3,7 @@ title: GlossaryDocument.GetBuildingBlock
 second_title: Referencia de API de Aspose.Words para .NET
 description: GlossaryDocument método. Encuentra un bloque de creación utilizando la galería la categoría y el nombre especificados.
 type: docs
-weight: 70
+weight: 90
 url: /es/net/aspose.words.buildingblocks/glossarydocument/getbuildingblock/
 ---
 ## GlossaryDocument.GetBuildingBlock method
@@ -17,22 +17,22 @@ public BuildingBlock GetBuildingBlock(BuildingBlockGallery gallery, string categ
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
 | gallery | BuildingBlockGallery | Los criterios de la galería. |
-| category | String | Los criterios de categoría. Puede ser nulo, en cuyo caso no se utilizará para la comparación. |
+| category | String | Los criterios de categoría. Puede ser`nulo`, en cuyo caso no se utilizará para comparación. |
 | name | String | Los criterios de nombre del bloque de creación. |
 
 ### Valor_devuelto
 
-El bloque de creación coincidente o nulo si no se encontró una coincidencia.
+El bloque de construcción correspondiente o`nulo` si no se encontró una coincidencia.
 
 ### Observaciones
 
-Este es un método conveniente que itera sobre todos los bloques de construcción en esta colección y devuelve el primer bloque de construcción que coincide con la galería, la categoría y el nombre especificados.
+Este es un método conveniente que itera sobre todos los bloques de construcción en esta colección y devuelve el primer bloque de construcción que coincide con la galería, categoría y nombre especificados.
 
-Microsoft Word organiza los bloques de construcción en galerías. Las galerías están predefinidas usando el[`BuildingBlockGallery`](../../buildingblockgallery/) enum. Dentro de cada galería, los bloques de creación se pueden organizar en una o más categorías. El nombre de la categoría es una cadena. Cada bloque de construcción tiene un nombre. No se garantiza que un nombre de building block sea único.
+Microsoft Word organiza los bloques de construcción en galerías. Las galerías están predefinidas usando el[`BuildingBlockGallery`](../../buildingblockgallery/) enum. Dentro de cada galería, los bloques de construcción se pueden organizar en una o más categorías. El nombre de la categoría es una cadena. Cada bloque de construcción tiene un nombre. No se garantiza que un nombre de building block sea único.
 
 ### Ejemplos
 
-Muestra formas de acceder a los componentes básicos en un documento de glosario.
+Muestra formas de acceder a bloques de construcción en un documento de glosario.
 
 ```csharp
 public void GlossaryDocument()
@@ -51,7 +51,7 @@ public void GlossaryDocument()
     doc.GlossaryDocument = glossaryDoc;
 
     // Hay varias formas de acceder a los bloques de construcción.
-    // 1 - Obtener los primeros/últimos bloques de construcción de la colección:
+    // 1 - Obtener el primer/último bloque de construcción de la colección:
     Assert.AreEqual("Block 1", glossaryDoc.FirstBuildingBlock.Name);
     Assert.AreEqual("Block 5", glossaryDoc.LastBuildingBlock.Name);
 
@@ -59,7 +59,7 @@ public void GlossaryDocument()
     Assert.AreEqual("Block 2", glossaryDoc.BuildingBlocks[1].Name);
     Assert.AreEqual("Block 3", glossaryDoc.BuildingBlocks.ToArray()[2].Name);
 
-    // 3 - Obtenga el primer bloque de construcción que coincida con una galería, nombre y categoría:
+    // 3 - Obtener el primer bloque de construcción que coincida con una galería, nombre y categoría:
     Assert.AreEqual("Block 4", 
         glossaryDoc.GetBuildingBlock(BuildingBlockGallery.All, "(Empty Category)", "Block 4").Name);
 
@@ -67,16 +67,15 @@ public void GlossaryDocument()
     // que le dará a cada BuildingBlock en el GlossaryDocument un GUID único
     GlossaryDocVisitor visitor = new GlossaryDocVisitor();
     glossaryDoc.Accept(visitor);
-
     Console.WriteLine(visitor.GetText());
 
-    // En Microsoft Word, podemos acceder a los bloques de construcción a través de "Insertar" -> "Piezas rápidas" -> "Organizador de bloques de construcción".
+    // En Microsoft Word, podemos acceder a los bloques de construcción mediante "Insertar" -> "Partes rápidas" -> "Organizador de bloques de construcción".
     doc.Save(ArtifactsDir + "BuildingBlocks.GlossaryDocument.dotx"); 
 }
 
 /// <summary>
-/// Otorga a cada bloque de creación de un documento de glosario visitado un GUID único.
-/// Almacena los pares de bloques de creación de GUID en un diccionario.
+/// Proporciona a cada bloque de construcción de un documento de glosario visitado un GUID único.
+/// Almacena los pares de bloques de construcción GUID en un diccionario.
 /// </summary>
 public class GlossaryDocVisitor : DocumentVisitor
 {

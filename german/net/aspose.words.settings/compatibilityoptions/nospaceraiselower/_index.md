@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.NoSpaceRaiseLower
 second_title: Aspose.Words für .NET-API-Referenz
-description: CompatibilityOptions eigendom. Zeilenhöhe für erhabenen/erniedrigten Text nicht erhöhen.
+description: CompatibilityOptions eigendom. Erhöhen Sie die Zeilenhöhe für erhöhten/verringerten Text nicht.
 type: docs
 weight: 360
 url: /de/net/aspose.words.settings/compatibilityoptions/nospaceraiselower/
 ---
 ## CompatibilityOptions.NoSpaceRaiseLower property
 
-Zeilenhöhe für erhabenen/erniedrigten Text nicht erhöhen.
+Erhöhen Sie die Zeilenhöhe für erhöhten/verringerten Text nicht.
 
 ```csharp
 public bool NoSpaceRaiseLower { get; set; }

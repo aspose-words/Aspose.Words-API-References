@@ -1,14 +1,14 @@
 ---
 title: List.IsRestartAtEachSection
 second_title: Aspose.Words für .NET-API-Referenz
-description: List eigendom. Gibt an ob die Liste bei jedem Abschnitt neu gestartet werden soll. Der Standardwert ist FALSCH .
+description: List eigendom. Gibt an ob die Liste in jedem Abschnitt neu gestartet werden soll. Der Standardwert istFALSCH .
 type: docs
 weight: 50
 url: /de/net/aspose.words.lists/list/isrestartateachsection/
 ---
 ## List.IsRestartAtEachSection property
 
-Gibt an, ob die Liste bei jedem Abschnitt neu gestartet werden soll. Der Standardwert ist **FALSCH** .
+Gibt an, ob die Liste in jedem Abschnitt neu gestartet werden soll. Der Standardwert ist`FALSCH` .
 
 ```csharp
 public bool IsRestartAtEachSection { get; set; }
@@ -33,8 +33,8 @@ doc.Lists.Add(ListTemplate.NumberDefault);
 Aspose.Words.Lists.List list = doc.Lists[0];
 list.IsRestartAtEachSection = restartListAtEachSection;
 
-// Die Eigenschaft "IsRestartAtEachSection" ist nur anwendbar, wenn
-// Die OOXML-Konformitätsstufe des Dokuments entspricht einem neueren Standard als "OoxmlComplianceCore.Ecma376".
+// Die Eigenschaft „IsRestartAtEachSection“ ist nur anwendbar, wenn
+// Die OOXML-Konformitätsstufe des Dokuments entspricht einem Standard, der neuer als „OoxmlComplianceCore.Ecma376“ ist.
 OoxmlSaveOptions options = new OoxmlSaveOptions
 {
     Compliance = OoxmlCompliance.Iso29500_2008_Transitional

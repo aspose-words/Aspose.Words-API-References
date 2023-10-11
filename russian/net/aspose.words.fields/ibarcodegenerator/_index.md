@@ -1,14 +1,14 @@
 ---
 title: Interface IBarcodeGenerator
 second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Fields.IBarcodeGenerator интерфейс. Открытый интерфейс для пользовательского генератора штрихкода. Реализация должна быть предоставлена пользователем.
+description: Aspose.Words.Fields.IBarcodeGenerator интерфейс. Открытый интерфейс для пользовательского генератора штрихкодов. Реализация должна быть предоставлена пользователем.
 type: docs
-weight: 2500
+weight: 2660
 url: /ru/net/aspose.words.fields/ibarcodegenerator/
 ---
 ## IBarcodeGenerator interface
 
-Открытый интерфейс для пользовательского генератора штрих-кода. Реализация должна быть предоставлена пользователем.
+Открытый интерфейс для пользовательского генератора штрих-кодов. Реализация должна быть предоставлена пользователем.
 
 ```csharp
 public interface IBarcodeGenerator
@@ -18,12 +18,12 @@ public interface IBarcodeGenerator
 
 | Имя | Описание |
 | --- | --- |
-| [GetBarcodeImage](../../aspose.words.fields/ibarcodegenerator/getbarcodeimage/)(BarcodeParameters) | Сгенерировать изображение штрих-кода, используя набор параметров (для поля DisplayBarcode). |
-| [GetOldBarcodeImage](../../aspose.words.fields/ibarcodegenerator/getoldbarcodeimage/)(BarcodeParameters) | Генерировать изображение штрих-кода, используя набор параметров (для поля старого штрих-кода). |
+| [GetBarcodeImage](../../aspose.words.fields/ibarcodegenerator/getbarcodeimage/)(BarcodeParameters) | Создать изображение штрих-кода, используя набор параметров (для поля DisplayBarcode). |
+| [GetOldBarcodeImage](../../aspose.words.fields/ibarcodegenerator/getoldbarcodeimage/)(BarcodeParameters) | Создать изображение штрих-кода, используя набор параметров (для поля «старомодный штрих-код»). |
 
 ### Примечания
 
-Экземпляр генератора должен быть пропущен через[`BarcodeGenerator`](../fieldoptions/barcodegenerator/) свойство.
+Экземпляр генератора должен быть передан через[`BarcodeGenerator`](../fieldoptions/barcodegenerator/) свойство.
 
 ### Примеры
 
@@ -32,9 +32,8 @@ public interface IBarcodeGenerator
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
-
 // Мы можем использовать собственную реализацию IBarcodeGenerator для генерации штрих-кодов,
-// и затем вставляем их в документ как изображения.
+// а затем вставляем их в документ как изображения.
 doc.FieldOptions.BarcodeGenerator = new CustomBarcodeGenerator();
 
 // Ниже приведены четыре примера различных типов штрих-кодов, которые мы можем создать с помощью нашего генератора.

@@ -3,7 +3,7 @@ title: Comment.RemoveReply
 second_title: Aspose.Words för .NET API Referens
 description: Comment metod. Tar bort det angivna svaret på denna kommentar.
 type: docs
-weight: 140
+weight: 170
 url: /sv/net/aspose.words/comment/removereply/
 ---
 ## Comment.RemoveReply method

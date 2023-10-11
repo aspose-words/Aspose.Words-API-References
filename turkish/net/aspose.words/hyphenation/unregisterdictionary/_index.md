@@ -1,16 +1,16 @@
 ---
 title: Hyphenation.UnregisterDictionary
 second_title: Aspose.Words for .NET API Referansı
-description: Hyphenation yöntem. Belirtilen dil için bir tireleme sözlüğünün kaydını siler.
+description: Hyphenation yöntem. Belirtilen dil için tireleme sözlüğünün kaydını siler.
 type: docs
 weight: 50
 url: /tr/net/aspose.words/hyphenation/unregisterdictionary/
 ---
 ## Hyphenation.UnregisterDictionary method
 
-Belirtilen dil için bir tireleme sözlüğünün kaydını siler.
+Belirtilen dil için tireleme sözlüğünün kaydını siler.
 
-Bu, Null sözlüğü kaydetmekten farklıdır. Bir sözlüğün kaydını iptal etmek, belirtilen dil için geri aramayı etkinleştirir.
+Bu, Null sözlüğünün kaydedilmesinden farklıdır. Bir sözlüğün kaydının silinmesi, belirtilen dil için geri aramayı etkinleştirir.
 
 ```csharp
 public static void UnregisterDictionary(string language)
@@ -22,21 +22,21 @@ public static void UnregisterDictionary(string language)
 
 ### Örnekler
 
-Tireleme sözlüğünün nasıl kaydedileceğini gösterir.
+Bir tireleme sözlüğünün nasıl kaydedileceğini gösterir.
 
 ```csharp
-// Tireleme sözlüğü, sözlüğün dili için tireleme kurallarını tanımlayan dizelerin bir listesini içerir.
-// Bir belge, bir kelimenin bölünebileceği ve bir sonraki satırda devam edebileceği metin satırları içerdiğinde,
+// Bir tireleme sözlüğü, sözlüğün dili için tireleme kurallarını tanımlayan dizelerin bir listesini içerir.
+// Bir belge, bir kelimenin bölünüp sonraki satırda devam edebileceği metin satırları içerdiğinde,
 // tireleme, o kelimenin alt dizeleri için sözlüğün dize listesine bakacaktır.
 // Sözlük bir alt dize içeriyorsa, tireleme sözcüğü iki satıra böler
-// alt dizeye göre ve ilk yarıya kısa çizgi ekleyin.
+// alt dizenin yanında ve ilk yarıya bir kısa çizgi ekleyin.
 // Yerel dosya sisteminden bir sözlük dosyasını "de-CH" yerel ayarına kaydedin.
 Hyphenation.RegisterDictionary("de-CH", MyDir + "hyph_de_CH.dic");
 
 Assert.True(Hyphenation.IsDictionaryRegistered("de-CH"));
 
-// Sözlüğümüzün yerel ayarıyla eşleşen metin içeren bir belge açın,
-// ve sabit sayfa kaydetme biçiminde kaydedin. Bu belgedeki metin tirelenir.
+// Sözlüğümüzün yerel ayarıyla eşleşen metni içeren bir belge açın,
+// ve onu sabit sayfa kaydetme formatında kaydedin. Bu belgedeki metin tirelenecektir.
 Document doc = new Document(MyDir + "German text.docx");
 
 Assert.True(doc.FirstSection.Body.FirstParagraph.Runs.OfType<Run>().All(
@@ -44,8 +44,8 @@ Assert.True(doc.FirstSection.Body.FirstParagraph.Runs.OfType<Run>().All(
 
 doc.Save(ArtifactsDir + "Hyphenation.Dictionary.Registered.pdf");
 
-// Sözlüğün kaydını sildikten sonra belgeyi yeniden yükleyin,
-// ve onu tireli metne sahip olmayacak başka bir PDF'ye kaydedin.
+// Sözlüğün kaydını kaldırdıktan sonra belgeyi yeniden yükleyin,
+// ve onu tireli metin içermeyecek başka bir PDF'ye kaydedin.
 Hyphenation.UnregisterDictionary("de-CH");
 
 Assert.False(Hyphenation.IsDictionaryRegistered("de-CH"));

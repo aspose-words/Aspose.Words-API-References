@@ -3,7 +3,7 @@ title: ParagraphFormat.SpaceAfter
 second_title: Aspose.Words för .NET API Referens
 description: ParagraphFormat fast egendom. Hämtar eller ställer in mängden mellanrum i poäng efter stycket.
 type: docs
-weight: 290
+weight: 300
 url: /sv/net/aspose.words/paragraphformat/spaceafter/
 ---
 ## ParagraphFormat.SpaceAfter property
@@ -22,7 +22,7 @@ public double SpaceAfter { get; set; }
 
 ### Anmärkningar
 
-Har ingen effekt när[`SpaceAfterAuto`](../spaceafterauto/) är sant.
+Har ingen effekt när[`SpaceAfterAuto`](../spaceafterauto/) är`Sann`.
 
 Giltiga värden sträcker sig från 0 till 1584 inklusive.
 

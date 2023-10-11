@@ -1,14 +1,14 @@
 ---
 title: Cell.Tables
 second_title: Aspose.Words لمراجع .NET API
-description: Cell ملكية. الحصول على مجموعة من الجداول التي هي توابع مباشرة للخلية.
+description: Cell ملكية. الحصول على مجموعة من الجداول التي تعتبر فرعية مباشرة للخلية.
 type: docs
-weight: 100
+weight: 120
 url: /ar/net/aspose.words.tables/cell/tables/
 ---
 ## Cell.Tables property
 
-الحصول على مجموعة من الجداول التي هي توابع مباشرة للخلية.
+الحصول على مجموعة من الجداول التي تعتبر فرعية مباشرة للخلية.
 
 ```csharp
 public TableCollection Tables { get; }
@@ -23,7 +23,6 @@ public void CalculateDepthOfNestedTables()
 {
     Document doc = new Document(MyDir + "Nested tables.docx");
     NodeCollection tables = doc.GetChildNodes(NodeType.Table, true);
-
     for (int i = 0; i < tables.Count; i++)
     {
         Table table = (Table)tables[i];
@@ -32,7 +31,7 @@ public void CalculateDepthOfNestedTables()
         int count = GetChildTableCount(table);
         Console.WriteLine("Table #{0} has {1} tables directly within its cells", i, count);
 
-        // اكتشف ما إذا كان الجدول متداخلًا داخل جدول آخر ، وإذا كان الأمر كذلك ، فبأي عمق.
+        // اكتشف ما إذا كان الجدول متداخلاً داخل جدول آخر، وإذا كان الأمر كذلك، فبأي عمق.
         int tableDepth = GetNestedDepthOfTable(table);
 
         if (tableDepth > 0)
@@ -44,7 +43,7 @@ public void CalculateDepthOfNestedTables()
 }
 
 /// <summary>
-/// لحساب المستوى الذي يتداخل فيه الجدول داخل جداول أخرى.
+/// يحسب مستوى تداخل الجدول داخل الجداول الأخرى.
 /// </summary>
 /// <returns>
 /// عدد صحيح يشير إلى عمق تداخل الجدول (عدد عقد الجدول الأصل).
@@ -64,12 +63,12 @@ private static int GetNestedDepthOfTable(Table table)
 }
 
 /// <summary>
-/// يحدد ما إذا كان الجدول يحتوي على أي جدول تابع مباشر داخل خلاياه.
-/// لا تجتاز هذه الجداول بشكل متكرر للتحقق من وجود المزيد من الجداول.
+/// تحديد ما إذا كان الجدول يحتوي على أي جدول فرعي مباشر داخل خلاياه.
+/// لا تقم بالتنقل عبر تلك الجداول بشكل متكرر للتحقق من وجود جداول أخرى.
 /// </summary>
 /// <returns>
-/// يعود صحيحاً إذا احتوت خلية فرعية واحدة على الأقل على جدول.
-/// ترجع خطأ إذا لم تكن هناك خلايا في الجدول تحتوي على جدول.
+/// يُرجع صحيحًا إذا كانت هناك خلية فرعية واحدة على الأقل تحتوي على جدول.
+/// يُرجع خطأ إذا لم تكن هناك خلايا في الجدول تحتوي على جدول.
 /// </returns>
 private static int GetChildTableCount(Table table)
 {

@@ -3,7 +3,7 @@ title: HtmlSaveOptions.ExportFontsAsBase64
 second_title: Справочник по API Aspose.Words для .NET
 description: HtmlSaveOptions свойство. Указывает должны ли ресурсы шрифтов быть встроены в HTML в кодировке Base64. Значение по умолчаниюЛОЖЬ .
 type: docs
-weight: 160
+weight: 150
 url: /ru/net/aspose.words.saving/htmlsaveoptions/exportfontsasbase64/
 ---
 ## HtmlSaveOptions.ExportFontsAsBase64 property
@@ -16,11 +16,11 @@ public bool ExportFontsAsBase64 { get; set; }
 
 ### Примечания
 
-По умолчанию шрифты записываются в отдельные файлы. Если этот параметр установлен на`истинный`, шрифты будут встроены в CSS документа в кодировке Base64.
+По умолчанию шрифты записываются в отдельные файлы. Если для этой опции установлено значение`истинный`, шрифты будут встроены в CSS документа в кодировке Base64.
 
 ### Примеры
 
-Показывает, как встраивать шрифты в сохраненный HTML-документ.
+Показывает, как встроить шрифты в сохраненный HTML-документ.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

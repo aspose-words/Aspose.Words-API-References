@@ -1,14 +1,14 @@
 ---
 title: Paragraph.ListFormat
 second_title: Aspose.Words for .NET API 参考
-description: Paragraph 财产. 提供对段落列表格式属性的访问
+description: Paragraph 财产. 提供对段落的列表格式属性的访问
 type: docs
 weight: 150
 url: /zh/net/aspose.words/paragraph/listformat/
 ---
 ## Paragraph.ListFormat property
 
-提供对段落列表格式属性的访问。
+提供对段落的列表格式属性的访问。
 
 ```csharp
 public ListFormat ListFormat { get; }
@@ -16,7 +16,7 @@ public ListFormat ListFormat { get; }
 
 ### 例子
 
-显示如何输出文档中作为列表项的所有段落。
+演示如何输出文档中作为列表项的所有段落。
 
 ```csharp
 Document doc = new Document();

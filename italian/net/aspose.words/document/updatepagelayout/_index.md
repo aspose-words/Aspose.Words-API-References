@@ -1,14 +1,14 @@
 ---
 title: Document.UpdatePageLayout
 second_title: Aspose.Words per .NET API Reference
-description: Document metodo. Ricostruisce il layout di pagina del documento.
+description: Document metodo. Ricostruisce limpaginazione del documento.
 type: docs
-weight: 750
+weight: 790
 url: /it/net/aspose.words/document/updatepagelayout/
 ---
 ## Document.UpdatePageLayout method
 
-Ricostruisce il layout di pagina del documento.
+Ricostruisce l'impaginazione del documento.
 
 ```csharp
 public void UpdatePageLayout()
@@ -16,9 +16,9 @@ public void UpdatePageLayout()
 
 ### Osservazioni
 
-Questo metodo formatta un documento in pagine e aggiorna i campi relativi al numero di pagina nel documento come come PAGE, PAGES, PAGEREF e REF. Le informazioni aggiornate sul layout di pagina sono necessarie per un corretto rendering del documento in formati a pagina fissa.
+Questo metodo formatta un documento in pagine e aggiorna i campi relativi al numero di pagina nel documento come come PAGE, PAGES, PAGEREF e REF. Le informazioni aggiornate sul layout della pagina sono necessarie per un corretto rendering del documento nei formati a pagina fissa.
 
-Questo metodo viene richiamato automaticamente quando si converte per la prima volta un documento in PDF, XPS, un'immagine o lo si stampa. Tuttavia, se si modifica il documento dopo il rendering e si tenta di eseguirne di nuovo il rendering, Aspose.Words non aggiornerà automaticamente il layout della pagina. In questo caso dovresti chiamare`UpdatePageLayout` prima di di nuovo.
+Questo metodo viene richiamato automaticamente quando si converte per la prima volta un documento in PDF, XPS, immagine o lo si stampa. Tuttavia, se si modifica il documento dopo il rendering e quindi si tenta di eseguirne nuovamente il rendering, Aspose.Words non aggiornerà automaticamente il layout della pagina. In questo caso dovresti chiamare`UpdatePageLayout` prima rendering di nuovo.
 
 ### Esempi
 
@@ -34,9 +34,10 @@ doc.Save(ArtifactsDir + "Document.UpdatePageLayout.1.pdf");
 // Modifica il documento in qualche modo.
 doc.Styles["Normal"].Font.Size = 6;
 doc.Sections[0].PageSetup.Orientation = Aspose.Words.Orientation.Landscape;
+doc.Sections[0].PageSetup.Margins = Margins.Mirrored;
 
  // Nella versione corrente di Aspose.Words, la modifica del documento non viene ricostruita automaticamente
-// il layout di pagina memorizzato nella cache. Se desideriamo il layout memorizzato nella cache
+// il layout della pagina memorizzata nella cache. Se desideriamo il layout memorizzato nella cache
 // per rimanere aggiornati, dovremo aggiornarlo manualmente.
 doc.UpdatePageLayout();
 

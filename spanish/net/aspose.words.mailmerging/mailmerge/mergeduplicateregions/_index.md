@@ -1,14 +1,14 @@
 ---
 title: MailMerge.MergeDuplicateRegions
 second_title: Referencia de API de Aspose.Words para .NET
-description: MailMerge propiedad. Obtiene o establece un valor que indica si todas las regiones de combinación de correo del documento con el nombre de un origen de datos se deben combinar al ejecutar una combinación de correo con regiones en el origen de datos o solo la primera.
+description: MailMerge propiedad. Obtiene o establece un valor que indica si todas las regiones de combinación de correspondencia del documento con el nombre de una fuente de datos deben fusionarse al ejecutar una combinación de correspondencia con regiones en la fuente de datos o solo la primera.
 type: docs
 weight: 60
 url: /es/net/aspose.words.mailmerging/mailmerge/mergeduplicateregions/
 ---
 ## MailMerge.MergeDuplicateRegions property
 
-Obtiene o establece un valor que indica si todas las regiones de combinación de correo del documento con el nombre de un origen de datos se deben combinar al ejecutar una combinación de correo con regiones en el origen de datos o solo la primera.
+Obtiene o establece un valor que indica si todas las regiones de combinación de correspondencia del documento con el nombre de una fuente de datos deben fusionarse al ejecutar una combinación de correspondencia con regiones en la fuente de datos o solo la primera.
 
 ```csharp
 public bool MergeDuplicateRegions { get; set; }
@@ -16,7 +16,7 @@ public bool MergeDuplicateRegions { get; set; }
 
 ### Observaciones
 
-El valor predeterminado es **falso** .
+El valor predeterminado es`FALSO` .
 
 ### Ejemplos
 
@@ -28,11 +28,11 @@ public void MergeDuplicateRegions(bool mergeDuplicateRegions)
     Document doc = CreateSourceDocMergeDuplicateRegions();
     DataTable dataTable = CreateSourceTableMergeDuplicateRegions();
 
-    // Si establecemos la propiedad "MergeDuplicateRegions" en "false", la combinación de correspondencia afectará a la primera región,
-    // mientras que los MERGEFIELD del segundo quedarán en el estado anterior a la fusión.
-    // Para fusionar ambas regiones así,
-    // tendríamos que ejecutar la combinación de correo dos veces en una tabla del mismo nombre.
-    // Si establecemos la propiedad "MergeDuplicateRegions" en "true", la combinación de correspondencia afectará a ambas regiones.
+    // Si configuramos la propiedad "MergeDuplicateRegions" en "falso", la combinación de correspondencia afectará a la primera región,
+    // mientras que los MERGEFIELD del segundo se dejarán en el estado previo a la fusión.
+    // Para fusionar ambas regiones de esa manera,
+    // tendríamos que ejecutar la combinación de correspondencia dos veces en una tabla del mismo nombre.
+    // Si configuramos la propiedad "MergeDuplicateRegions" en "true", la combinación de correspondencia afectará a ambas regiones.
     doc.MailMerge.MergeDuplicateRegions = mergeDuplicateRegions;
 
     doc.MailMerge.ExecuteWithRegions(dataTable);

@@ -1,14 +1,14 @@
 ---
 title: Font.StyleName
 second_title: Aspose.Words لمراجع .NET API
-description: Font ملكية. الحصول على اسم نمط الحرف المطبق على هذا التنسيق أو تعيينه.
+description: Font ملكية. الحصول على أو تعيين اسم نمط الأحرف المطبق على هذا التنسيق.
 type: docs
 weight: 420
 url: /ar/net/aspose.words/font/stylename/
 ---
 ## Font.StyleName property
 
-الحصول على اسم نمط الحرف المطبق على هذا التنسيق أو تعيينه.
+الحصول على أو تعيين اسم نمط الأحرف المطبق على هذا التنسيق.
 
 ```csharp
 public string StyleName { get; set; }
@@ -27,12 +27,12 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Font.StyleName = "Emphasis";
 builder.Writeln("Text originally in \"Emphasis\" style");
 
-// 2 - استخدام معرّف نمط مضمن:
+// 2 - استخدام معرف النمط المدمج:
 builder.Font.StyleIdentifier = StyleIdentifier.IntenseEmphasis;
 builder.Writeln("Text originally in \"Intense Emphasis\" style");
 
-// تحويل جميع استخدامات نمط إلى آخر ،
-// باستخدام الأساليب المذكورة أعلاه للإشارة إلى الأنماط القديمة والجديدة.
+// تحويل كافة الاستخدامات من نمط إلى آخر،
+// استخدام الطرق المذكورة أعلاه للإشارة إلى الأنماط القديمة والجديدة.
 foreach (Run run in doc.GetChildNodes(NodeType.Run, true).OfType<Run>())
 {
     if (run.Font.StyleName == "Emphasis")

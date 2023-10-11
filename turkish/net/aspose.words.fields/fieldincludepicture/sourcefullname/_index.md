@@ -16,13 +16,13 @@ public string SourceFullName { get; set; }
 
 ### Örnekler
 
-IMPORT ve INCLUDEPICTURE alanlarını kullanarak resimlerin nasıl ekleneceğini gösterir.
+IMPORT ve INCLUDEPICTURE alanlarını kullanarak görüntülerin nasıl ekleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Aşağıda, yerel dosya sisteminden bağlantılı görüntüleri görüntülemek için kullanabileceğimiz iki benzer alan türü bulunmaktadır.
+// Aşağıda yerel dosya sisteminden bağlantılı görselleri görüntülemek için kullanabileceğimiz iki benzer alan türü bulunmaktadır.
 // 1 - INCLUDEPICTURE alanı:
 FieldIncludePicture fieldIncludePicture = (FieldIncludePicture)builder.InsertField(FieldType.FieldIncludePicture, true);
 fieldIncludePicture.SourceFullName = ImageDir + "Transparent background logo.png";

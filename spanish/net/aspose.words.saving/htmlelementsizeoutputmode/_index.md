@@ -1,14 +1,14 @@
 ---
 title: Enum HtmlElementSizeOutputMode
 second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Saving.HtmlElementSizeOutputMode enumeración. Especifica cómo Aspose.Words exporta los anchos y altos de los elementos a HTML MHTML y EPUB.
+description: Aspose.Words.Saving.HtmlElementSizeOutputMode enumeración. Especifica cómo Aspose.Words exporta anchos y altos de elementos a HTML MHTML y EPUB.
 type: docs
-weight: 4800
+weight: 5060
 url: /es/net/aspose.words.saving/htmlelementsizeoutputmode/
 ---
 ## HtmlElementSizeOutputMode enumeration
 
-Especifica cómo Aspose.Words exporta los anchos y altos de los elementos a HTML, MHTML y EPUB.
+Especifica cómo Aspose.Words exporta anchos y altos de elementos a HTML, MHTML y EPUB.
 
 ```csharp
 public enum HtmlElementSizeOutputMode
@@ -19,12 +19,12 @@ public enum HtmlElementSizeOutputMode
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
 | All | `0` | Se exportan todos los tamaños de elementos, tanto en unidades absolutas como relativas, especificados en el documento. |
-| RelativeOnly | `1` | Los tamaños de los elementos se exportan solo si se especifican en unidades relativas en el documento. Los tamaños fijos no se exportan en este modo. Los agentes visuales calcularán los tamaños faltantes para que el diseño del documento sea más natural. |
-| None | `2` | Los tamaños de los elementos no se exportan. Los agentes visuales crearán el diseño automáticamente de acuerdo con la relación entre los elementos. |
+| RelativeOnly | `1` | Los tamaños de los elementos se exportan solo si se especifican en unidades relativas en el documento. Los tamaños fijos no se exportan en este modo. Los agentes visuales calcularán los tamaños faltantes para hacer que el diseño del documento sea más natural. |
+| None | `2` | Los tamaños de los elementos no se exportan. Los agentes visuales crearán el diseño automáticamente según la relación entre los elementos. |
 
 ### Ejemplos
 
-Muestra cómo conservar las sangrías negativas en el .html de salida.
+Muestra cómo conservar sangrías negativas en el archivo .html de salida.
 
 ```csharp
 Document doc = new Document();
@@ -53,7 +53,7 @@ table.LeftIndent = 36;
 table.PreferredWidth = PreferredWidth.FromPoints(144);
 
 // Cuando guardamos un documento en HTML, Aspose.Words solo conservará las sangrías negativas
-// como el que hemos aplicado a la primera tabla si ponemos el flag "AllowNegativeIndent"
+// como el que hemos aplicado a la primera tabla si configuramos el indicador "AllowNegativeIndent"
 // en un objeto SaveOptions que pasaremos a "true".
 HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.Html)
 {

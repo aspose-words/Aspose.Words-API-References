@@ -16,7 +16,7 @@ public ComparisonEvaluationResult(bool result)
 
 ### 例子
 
-显示如何为 IF 和 COMPARE 字段实施自定义评估。
+展示如何实现 IF 和 COMPARE 字段的自定义评估。
 
 ```csharp
 public void ConditionEvaluationExtensionPoint(string fieldCode, sbyte comparisonResult, string comparisonError,
@@ -29,11 +29,11 @@ public void ConditionEvaluationExtensionPoint(string fieldCode, sbyte comparison
     DocumentBuilder builder = new DocumentBuilder();
 
     // 我们在此示例中使用的字段代码：
-    // 1. " IF {0} {1} {2} \"真参数\" \"假参数\" "。
-    // 2.“比较 {0} {1} {2}”。
+    // 1." IF {0} {1} {2} \"真参数\" \"假参数\" "。
+    // 2.“比较{0} {1} {2}”。
     Field field = builder.InsertField(string.Format(fieldCode, left, @operator, right), null);
 
-    // 如果 "comparisonResult" 未定义，我们用字符串而不是 bool 创建 "ComparisonEvaluationResult"。
+    // 如果“comparisonResult”未定义，我们使用字符串而不是布尔值创建“ComparisonEvaluationResult”。
     ComparisonEvaluationResult result = comparisonResult != -1
         ? new ComparisonEvaluationResult(comparisonResult == 1)
         : comparisonError != null ? new ComparisonEvaluationResult(comparisonError) : null;
@@ -48,7 +48,7 @@ public void ConditionEvaluationExtensionPoint(string fieldCode, sbyte comparison
 }
 
 /// <summary>
-/// FieldIf 和 FieldCompare 的比较表达式计算。
+/// FieldIf 和 FieldCompare 的比较表达式评估。
 /// </summary>
 private class ComparisonExpressionEvaluator : IComparisonExpressionEvaluator
 {
@@ -105,7 +105,7 @@ private class ComparisonExpressionEvaluator : IComparisonExpressionEvaluator
 
 ## ComparisonEvaluationResult(string) {#constructor_1}
 
-使用相应的错误消息创建失败的比较评估结果。
+创建失败的比较评估结果以及相应的错误消息。
 
 ```csharp
 public ComparisonEvaluationResult(string errorMessage)
@@ -113,7 +113,7 @@ public ComparisonEvaluationResult(string errorMessage)
 
 ### 例子
 
-显示如何为 IF 和 COMPARE 字段实施自定义评估。
+展示如何实现 IF 和 COMPARE 字段的自定义评估。
 
 ```csharp
 public void ConditionEvaluationExtensionPoint(string fieldCode, sbyte comparisonResult, string comparisonError,
@@ -126,11 +126,11 @@ public void ConditionEvaluationExtensionPoint(string fieldCode, sbyte comparison
     DocumentBuilder builder = new DocumentBuilder();
 
     // 我们在此示例中使用的字段代码：
-    // 1. " IF {0} {1} {2} \"真参数\" \"假参数\" "。
-    // 2.“比较 {0} {1} {2}”。
+    // 1." IF {0} {1} {2} \"真参数\" \"假参数\" "。
+    // 2.“比较{0} {1} {2}”。
     Field field = builder.InsertField(string.Format(fieldCode, left, @operator, right), null);
 
-    // 如果 "comparisonResult" 未定义，我们用字符串而不是 bool 创建 "ComparisonEvaluationResult"。
+    // 如果“comparisonResult”未定义，我们使用字符串而不是布尔值创建“ComparisonEvaluationResult”。
     ComparisonEvaluationResult result = comparisonResult != -1
         ? new ComparisonEvaluationResult(comparisonResult == 1)
         : comparisonError != null ? new ComparisonEvaluationResult(comparisonError) : null;
@@ -145,7 +145,7 @@ public void ConditionEvaluationExtensionPoint(string fieldCode, sbyte comparison
 }
 
 /// <summary>
-/// FieldIf 和 FieldCompare 的比较表达式计算。
+/// FieldIf 和 FieldCompare 的比较表达式评估。
 /// </summary>
 private class ComparisonExpressionEvaluator : IComparisonExpressionEvaluator
 {

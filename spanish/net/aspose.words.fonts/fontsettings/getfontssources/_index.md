@@ -20,11 +20,11 @@ Una copia de las fuentes de fuentes actuales.
 
 ### Observaciones
 
-El valor devuelto es una copia de los datos que utiliza Aspose.Words. Si cambia las entradas en la matriz devuelta, no tendrá ningún efecto en la representación del documento. Para especificar nuevas fuentes de fuentes use el[`SetFontsSources`](../setfontssources/) método.
+El valor devuelto es una copia de los datos que utiliza Aspose.Words. Si cambia las entradas en la matriz devuelta, no tendrá ningún efecto en la representación del documento. Para especificar nuevas fuentes fuentes use el[`SetFontsSources`](../setfontssources/) método.
 
 ### Ejemplos
 
-Muestra cómo agregar una fuente de fuente a nuestras fuentes de fuente existentes.
+Muestra cómo agregar una fuente de fuente a nuestras fuentes de fuentes existentes.
 
 ```csharp
 Document doc = new Document();
@@ -48,14 +48,14 @@ Assert.True(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName =
 Assert.False(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Amethysta"));
 Assert.False(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Junction Light"));
 
-// Cree una fuente de fuentes a partir de una carpeta que contenga fuentes.
+// Crea una fuente de fuente desde una carpeta que contiene fuentes.
 FolderFontSource folderFontSource = new FolderFontSource(FontsDir, true);
 
-// Aplicar una nueva matriz de fuentes de fuentes que contenga las fuentes de fuentes originales, así como nuestras fuentes personalizadas.
+// Aplique una nueva matriz de fuentes de fuentes que contenga las fuentes de fuentes originales, así como nuestras fuentes personalizadas.
 FontSourceBase[] updatedFontSources = {originalFontSources[0], folderFontSource};
 FontSettings.DefaultInstance.SetFontsSources(updatedFontSources);
 
-// Verifique que Aspose.Words tenga acceso a todas las fuentes requeridas antes de convertir el documento en PDF.
+// Verifique que Aspose.Words tenga acceso a todas las fuentes requeridas antes de procesar el documento en PDF.
 updatedFontSources = FontSettings.DefaultInstance.GetFontsSources();
 
 Assert.True(updatedFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arial"));

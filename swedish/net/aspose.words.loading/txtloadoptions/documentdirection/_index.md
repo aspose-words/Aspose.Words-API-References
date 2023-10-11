@@ -3,7 +3,7 @@ title: TxtLoadOptions.DocumentDirection
 second_title: Aspose.Words för .NET API Referens
 description: TxtLoadOptions fast egendom. Hämtar eller ställer in en dokumentriktning. Standardvärdet ärLeftToRight .
 type: docs
-weight: 30
+weight: 50
 url: /sv/net/aspose.words.loading/txtloadoptions/documentdirection/
 ---
 ## TxtLoadOptions.DocumentDirection property

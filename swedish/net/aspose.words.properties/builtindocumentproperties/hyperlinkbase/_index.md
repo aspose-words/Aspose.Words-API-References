@@ -36,9 +36,9 @@ Assert.False(File.Exists(ArtifactsDir + "Document.docx"));
 doc.Save(ArtifactsDir + "DocumentProperties.HyperlinkBase.BrokenLink.docx");
 
 // Dokumentet vi försöker länka till finns i en annan katalog än den vi planerar att spara dokumentet i.
-// Vi skulle kunna fixa sådana här länkar genom att ange ett absolut filnamn i var och en. 
+ // Vi skulle kunna fixa sådana här länkar genom att ange ett absolut filnamn i var och en.
 // Alternativt kan vi tillhandahålla en baslänk som varje hyperlänk med ett relativt filnamn
-// kommer att läggas till länken när vi klickar på den. 
+ // kommer att läggas till länken när vi klickar på den.
 BuiltInDocumentProperties properties = doc.BuiltInDocumentProperties;
 properties.HyperlinkBase = MyDir;
 

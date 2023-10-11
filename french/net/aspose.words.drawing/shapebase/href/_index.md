@@ -3,7 +3,7 @@ title: ShapeBase.HRef
 second_title: Référence de l'API Aspose.Words pour .NET
 description: ShapeBase propriété. Obtient ou définit ladresse complète du lien hypertexte pour une forme.
 type: docs
-weight: 220
+weight: 230
 url: /fr/net/aspose.words.drawing/shapebase/href/
 ---
 ## ShapeBase.HRef property
@@ -22,26 +22,26 @@ Vous trouverez ci-dessous des exemples de valeurs valides pour cette propriété
 
 URI complet :`https://www.aspose.com/`.
 
-Nom complet du fichier :`C:\\Mes Documents\\SalesReport.doc`.
+Nom complet du fichier :`C:\\Mes documents\\SalesReport.doc`.
 
-URI relative :`../../../ressource.txt`
+URI relatif :`../../../resource.txt`
 
-Nom de fichier relatif :`..\\Mes Documents\\RapportVentes.doc`.
+Nom de fichier relatif :`..\\Mes documents\\SalesReport.doc`.
 
-Signet dans un autre document :`https://www.aspose.com/Products/Default.aspx#Suites`
+Ajouter aux favoris dans un autre document :`https://www.aspose.com/Products/Default.aspx#Suites`
 
-Signet dans ce document :`#BookmakName`.
+Ajouter à vos favoris ce document :`#BookmakName`.
 
 ### Exemples
 
-Montre comment insérer une forme qui contient une image et qui est également un lien hypertexte.
+Montre comment insérer une forme contenant une image et qui constitue également un lien hypertexte.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
-shape.HRef = "https://forum.aspose.com/" ;
+shape.HRef = "https://forum.aspose.com/";
 shape.Target = "New Window";
 shape.ScreenTip = "Aspose.Words Support Forums";
 

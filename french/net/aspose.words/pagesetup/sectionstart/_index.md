@@ -3,7 +3,7 @@ title: PageSetup.SectionStart
 second_title: Référence de l'API Aspose.Words pour .NET
 description: PageSetup propriété. Renvoie ou définit le type de saut de section pour lobjet spécifié.
 type: docs
-weight: 380
+weight: 390
 url: /fr/net/aspose.words/pagesetup/sectionstart/
 ---
 ## PageSetup.SectionStart property
@@ -16,23 +16,23 @@ public SectionStart SectionStart { get; set; }
 
 ### Exemples
 
-Montre comment construire un document Aspose.Words à la main.
+Montre comment construire manuellement un document Aspose.Words.
 
 ```csharp
 Document doc = new Document();
 
 // Un document vierge contient une section, un corps et un paragraphe.
 // Appelez la méthode "RemoveAllChildren" pour supprimer tous ces nœuds,
-// et se retrouver avec un nœud de document sans enfants.
+// et on se retrouve avec un nœud de document sans enfants.
 doc.RemoveAllChildren();
 
-// Ce document n'a plus de nœuds enfants composites auxquels nous pouvons ajouter du contenu.
-// Si nous souhaitons l'éditer, nous devrons repeupler sa collection de nœuds.
-// Tout d'abord, créez une nouvelle section, puis ajoutez-la en tant qu'enfant au nœud de document racine.
+// Ce document n'a désormais aucun nœud enfant composite auquel nous pouvons ajouter du contenu.
+// Si nous souhaitons le modifier, nous devrons repeupler sa collection de nœuds.
+// Commencez par créer une nouvelle section, puis ajoutez-la en tant qu'enfant au nœud du document racine.
 Section section = new Section(doc);
 doc.AppendChild(section);
 
-// Définit certaines propriétés de mise en page pour la section.
+// Définissez certaines propriétés de mise en page pour la section.
 section.PageSetup.SectionStart = SectionStart.NewPage;
 section.PageSetup.PaperSize = PaperSize.Letter;
 
@@ -41,7 +41,7 @@ section.PageSetup.PaperSize = PaperSize.Letter;
 Body body = new Body(doc);
 section.AppendChild(body);
 
-// Crée un paragraphe, définit certaines propriétés de formatage, puis l'ajoute en tant qu'enfant au corps.
+// Créez un paragraphe, définissez certaines propriétés de mise en forme, puis ajoutez-le en tant qu'enfant au corps.
 Paragraph para = new Paragraph(doc);
 
 para.ParagraphFormat.StyleName = "Heading 1";
@@ -49,7 +49,7 @@ para.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
 body.AppendChild(para);
 
-// Enfin, ajoutez du contenu pour faire le document. Créer une course,
+// Enfin, ajoutez du contenu pour faire le document. Créez une course,
 // définit son apparence et son contenu, puis l'ajoute en tant qu'enfant au paragraphe.
 Run run = new Run(doc);
 run.Text = "Hello World!";
@@ -70,13 +70,13 @@ builder.Writeln("This text is in section 1.");
 
 // Les types de saut de section déterminent comment une nouvelle section se sépare de la section précédente.
 // Vous trouverez ci-dessous cinq types de sauts de section.
-// 1 - Commence la section suivante sur une nouvelle page :
+// 1 - Démarre la section suivante sur une nouvelle page :
 builder.InsertBreak(BreakType.SectionBreakNewPage);
 builder.Writeln("This text is in section 2.");
 
 Assert.AreEqual(SectionStart.NewPage, doc.Sections[1].PageSetup.SectionStart);
 
-// 2 - Démarre la section suivante sur la page en cours :
+// 2 - Démarre la section suivante sur la page actuelle :
 builder.InsertBreak(BreakType.SectionBreakContinuous);
 builder.Writeln("This text is in section 3.");
 
@@ -94,7 +94,7 @@ builder.Writeln("This text is in section 5.");
 
 Assert.AreEqual(SectionStart.OddPage, doc.Sections[4].PageSetup.SectionStart);
 
-// 5 - Commence la section suivante sur une nouvelle colonne :
+// 5 - Démarre la section suivante sur une nouvelle colonne :
 TextColumnCollection columns = builder.PageSetup.TextColumns;
 columns.SetCount(2);
 

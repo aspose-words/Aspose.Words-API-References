@@ -3,12 +3,14 @@ title: Class CustomPart
 second_title: Aspose.Words per .NET API Reference
 description: Aspose.Words.Markup.CustomPart classe. Rappresenta una parte personalizzata contenuto arbitrario non definita dallo standard ISO/IEC 29500.
 type: docs
-weight: 3660
+weight: 3900
 url: /it/net/aspose.words.markup/custompart/
 ---
 ## CustomPart class
 
 Rappresenta una parte personalizzata (contenuto arbitrario), non definita dallo standard ISO/IEC 29500.
+
+Per saperne di più, visita il[Tag di documenti strutturati o controllo del contenuto](https://docs.aspose.com/words/net/working-with-content-control-sdt/) articolo di documentazione.
 
 ```csharp
 public class CustomPart
@@ -26,7 +28,7 @@ public class CustomPart
 | --- | --- |
 | [ContentType](../../aspose.words.markup/custompart/contenttype/) { get; set; } | Specifica il tipo di contenuto di questa parte personalizzata. |
 | [Data](../../aspose.words.markup/custompart/data/) { get; set; } | Contiene i dati di questa parte personalizzata. |
-| [IsExternal](../../aspose.words.markup/custompart/isexternal/) { get; set; } | `Falso` se questa parte personalizzata è memorizzata all'interno del pacchetto OOXML.`Vero` se questa parte personalizzata è una destinazione esterna. |
+| [IsExternal](../../aspose.words.markup/custompart/isexternal/) { get; set; } | False se questa parte personalizzata è archiviata nel pacchetto OOXML. Vero se questa parte personalizzata è una destinazione esterna. |
 | [Name](../../aspose.words.markup/custompart/name/) { get; set; } | Ottiene o imposta il nome assoluto di questa parte all'interno del pacchetto OOXML o l'URL di destinazione. |
 | [RelationshipType](../../aspose.words.markup/custompart/relationshiptype/) { get; set; } | Ottiene o imposta il tipo di relazione dalla parte padre a questa parte personalizzata. |
 
@@ -38,13 +40,13 @@ public class CustomPart
 
 ### Osservazioni
 
-Questa classe rappresenta una parte OOXML che è la destinazione di una "relazione sconosciuta". Tutte le relazioni non definite in ISO/IEC 29500 sono considerate "relazioni sconosciute". Le relazioni sconosciute sono consentite all'interno di un documento Office Open XML a condizione che siano conformi alle linee guida del markup delle relazioni.
+Questa classe rappresenta una parte OOXML che è la destinazione di una "relazione sconosciuta". Tutte le relazioni non definite in ISO/IEC 29500 sono considerate "relazioni sconosciute". Le relazioni sconosciute sono consentite all'interno di un documento Office Open XML a condizione che siano conformi alle linee guida per il markup delle relazioni.
 
 Microsoft Word conserva le parti personalizzate durante i cicli di apertura/salvataggio. Alcune informazioni aggiuntive possono essere trovate qui http://blogs.msdn.com/dmahugh/archive/2006/11/25/arbitrary-content-in-an-opc-package.aspx
 
-Aspose.Words esegue anche il roundtrip di parti personalizzate e, inoltre, consente di accedere a livello di codice a tali parti tramite il`CustomPart` e[`CustomPartCollection`](../custompartcollection/) oggetti.
+Aspose.Words esegue anche il roundtrip di parti personalizzate e inoltre consente di accedere a livello di codice a tali parti tramite`CustomPart` E[`CustomPartCollection`](../custompartcollection/) oggetti.
 
-Non confondere le parti personalizzate con i dati XML personalizzati. Uso[`CustomXmlPart`](../customxmlpart/) se hai bisogno di per accedere ai dati XML personalizzati.
+Non confondere le parti personalizzate con i dati XML personalizzati. Utilizzo[`CustomXmlPart`](../customxmlpart/) se hai bisogno di per accedere ai dati XML personalizzati.
 
 ### Esempi
 
@@ -77,7 +79,7 @@ using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator
     }
 }
 
-// Possiamo rimuovere elementi da questa raccolta singolarmente o tutti in una volta.
+// Possiamo rimuovere elementi da questa raccolta individualmente o tutti in una volta.
 doc.PackageCustomParts.RemoveAt(2);
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);

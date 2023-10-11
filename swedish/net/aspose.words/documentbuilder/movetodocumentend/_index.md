@@ -3,7 +3,7 @@ title: DocumentBuilder.MoveToDocumentEnd
 second_title: Aspose.Words för .NET API Referens
 description: DocumentBuilder metod. Flyttar markören till slutet av dokumentet.
 type: docs
-weight: 490
+weight: 520
 url: /sv/net/aspose.words/documentbuilder/movetodocumentend/
 ---
 ## DocumentBuilder.MoveToDocumentEnd method
@@ -23,12 +23,12 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Skapa ett giltigt bokmärke, en enhet som består av noder som omges av en bokmärkesstartnod,
-  // och en bokmärkesslutnod.
+ // och en bokmärkesslutnod.
 builder.StartBookmark("MyBookmark");
 builder.Write("Bookmark contents.");
 builder.EndBookmark("MyBookmark");
 
-NodeCollection firstParagraphNodes = doc.FirstSection.Body.FirstParagraph.ChildNodes;
+NodeCollection firstParagraphNodes = doc.FirstSection.Body.FirstParagraph.GetChildNodes(NodeType.Any, false);
 
 Assert.AreEqual(NodeType.BookmarkStart, firstParagraphNodes[0].NodeType);
 Assert.AreEqual(NodeType.Run, firstParagraphNodes[1].NodeType);

@@ -3,7 +3,7 @@ title: HtmlSaveOptions.ExportImagesAsBase64
 second_title: Aspose.Words per .NET API Reference
 description: HtmlSaveOptions proprietà. Specifica se le immagini vengono salvate in formato Base64 nelloutput HTML MHTML o EPUB. Limpostazione predefinita èfalso .
 type: docs
-weight: 180
+weight: 170
 url: /it/net/aspose.words.saving/htmlsaveoptions/exportimagesasbase64/
 ---
 ## HtmlSaveOptions.ExportImagesAsBase64 property
@@ -16,7 +16,7 @@ public bool ExportImagesAsBase64 { get; set; }
 
 ### Osservazioni
 
-Quando questa proprietà è impostata su`VERO` dati delle immagini vengono esportati direttamente nel file **img** elementi e file separati non vengono creati.
+Quando questa proprietà è impostata su`VERO` i dati delle immagini vengono esportati direttamente nel file **img** non vengono creati elementi e file separati.
 
 ### Esempi
 

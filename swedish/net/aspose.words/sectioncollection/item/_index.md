@@ -42,8 +42,9 @@ doc.Save(ArtifactsDir + "Document.UpdatePageLayout.1.pdf");
 // Ändra dokumentet på något sätt.
 doc.Styles["Normal"].Font.Size = 6;
 doc.Sections[0].PageSetup.Orientation = Aspose.Words.Orientation.Landscape;
+doc.Sections[0].PageSetup.Margins = Margins.Mirrored;
 
-  // I den nuvarande versionen av Aspose.Words återuppbyggs inte ändring av dokumentet automatiskt
+ // I den nuvarande versionen av Aspose.Words återuppbyggs inte ändring av dokumentet automatiskt
 // den cachade sidlayouten. Om vi önskar den cachade layouten
 // för att hålla oss uppdaterade måste vi uppdatera den manuellt.
 doc.UpdatePageLayout();

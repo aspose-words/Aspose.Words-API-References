@@ -22,17 +22,17 @@ Mevcut metnin stilinin nasıl değiştirileceğini gösterir.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Aşağıda, stillere başvurmanın iki yolu vardır.
-// 1 - Stil adını kullanarak:
+// Aşağıda stillere referans vermenin iki yolu verilmiştir.
+// 1 - Stil adının kullanılması:
 builder.Font.StyleName = "Emphasis";
 builder.Writeln("Text originally in \"Emphasis\" style");
 
-// 2 - Yerleşik bir stil tanımlayıcısı kullanma:
+// 2 - Yerleşik bir stil tanımlayıcı kullanma:
 builder.Font.StyleIdentifier = StyleIdentifier.IntenseEmphasis;
 builder.Writeln("Text originally in \"Intense Emphasis\" style");
 
 // Bir stilin tüm kullanımlarını diğerine dönüştürün,
-// eski ve yeni stillere başvurmak için yukarıdaki yöntemleri kullanma.
+// eski ve yeni stillere referans vermek için yukarıdaki yöntemleri kullanıyoruz.
 foreach (Run run in doc.GetChildNodes(NodeType.Run, true).OfType<Run>())
 {
     if (run.Font.StyleName == "Emphasis")

@@ -20,9 +20,9 @@ Ein Array von Knoten.
 
 ### Bemerkungen
 
-Sie sollten keine Knoten hinzufügen/entfernen, während Sie über eine Sammlung von von Knoten iterieren, da dies den Iterator ungültig macht und Aktualisierungen für Live-Sammlungen erfordert.
+Sie sollten keine Knoten hinzufügen/entfernen, während Sie über eine Sammlung von Knoten iterieren, da dies den Iterator ungültig macht und Aktualisierungen für Live-Sammlungen erfordert.
 
-Um Knoten während der Iteration hinzufügen/entfernen zu können, verwenden Sie diese Methode, um Knoten in ein Array mit fester Größe zu kopieren und dann über das Array zu iterieren.
+Um Knoten während der Iteration hinzufügen/entfernen zu können, verwenden Sie diese Methode, um -Knoten in ein Array fester Größe zu kopieren und dann über das Array zu iterieren.
 
 ### Beispiele
 

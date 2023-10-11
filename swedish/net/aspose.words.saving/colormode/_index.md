@@ -3,7 +3,7 @@ title: Enum ColorMode
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Saving.ColorMode uppräkning. Anger hur färger återges.
 type: docs
-weight: 4600
+weight: 4860
 url: /sv/net/aspose.words.saving/colormode/
 ---
 ## ColorMode enumeration

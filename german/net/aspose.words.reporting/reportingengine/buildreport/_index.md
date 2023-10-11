@@ -21,11 +21,11 @@ public bool BuildReport(Document document, object dataSource)
 
 ### Rückgabewert
 
-Ein Flag, das angibt, ob das Parsen des Vorlagendokuments erfolgreich war. Das zurückgegebene Flag ist nur sinnvoll, wenn ein Wert der[`Options`](../options/)Eigenschaft umfasst dieInlineErrorMessages Möglichkeit.
+Ein Flag, das angibt, ob das Parsen des Vorlagendokuments erfolgreich war. Das zurückgegebene Flag ist nur sinnvoll, wenn ein Wert von[`Options`](../options/)Die Eigenschaft umfasst dieInlineErrorMessages Möglichkeit.
 
 ### Bemerkungen
 
-Mit dieser Überladung können Sie auf die Elemente der Datenquelle im Vorlagendokument verweisen, aber Sie können nicht auf das Datenquellenobjekt selbst verweisen. Sie sollten die verwenden`BuildReport` überlasten, um dies zu erreichen.
+Mit dieser Überladung können Sie auf die Mitglieder der Datenquelle im Vorlagendokument verweisen, Sie können jedoch nicht auf das Datenquellenobjekt selbst verweisen. Sie sollten das verwenden`BuildReport` Überlastung, um dies zu erreichen.
 
 Ein Datenquellenobjekt kann einen der folgenden Typen haben:
 
@@ -39,7 +39,7 @@ Ein Datenquellenobjekt kann einen der folgenden Typen haben:
 * IDataRecord
 * DataView
 * DataRowView
-* Jeder andere beliebige nicht dynamische und nicht anonyme .NET-Typ
+* Jeder andere beliebige, nicht dynamische und nicht anonyme .NET-Typ
 
 Informationen zum Arbeiten mit Datenquellen verschiedener Typen in Vorlagendokumenten finden Sie in der Referenz zur Vorlagensyntax (https://docs.aspose.com/display/wordsnet/Template+Syntax).
 
@@ -68,11 +68,11 @@ public bool BuildReport(Document document, object dataSource, string dataSourceN
 
 ### Rückgabewert
 
-Ein Flag, das angibt, ob das Parsen des Vorlagendokuments erfolgreich war. Das zurückgegebene Flag ist nur sinnvoll, wenn ein Wert der[`Options`](../options/)Eigenschaft umfasst dieInlineErrorMessages Möglichkeit.
+Ein Flag, das angibt, ob das Parsen des Vorlagendokuments erfolgreich war. Das zurückgegebene Flag ist nur sinnvoll, wenn ein Wert von[`Options`](../options/)Die Eigenschaft umfasst dieInlineErrorMessages Möglichkeit.
 
 ### Bemerkungen
 
-Mit dieser Überladung können Sie in der Vorlage auf die Member der Datenquelle und das Datenquellenobjekt selbst verweisen. Wenn Sie nicht auf das Datenquellenobjekt selbst verweisen, können Sie es weglassen*dataSourceName* Null übergeben oder verwenden`BuildReport` Überlastung.
+Mit dieser Überladung können Sie in der Vorlage auf die Mitglieder der Datenquelle und das Datenquellenobjekt selbst verweisen. Wenn Sie nicht auf das Datenquellenobjekt selbst verweisen möchten, können Sie es weglassen*dataSourceName* vorbei`Null` oder nutzen Sie die`BuildReport` Überlastung.
 
 Ein Datenquellenobjekt kann einen der folgenden Typen haben:
 
@@ -86,7 +86,7 @@ Ein Datenquellenobjekt kann einen der folgenden Typen haben:
 * IDataRecord
 * DataView
 * DataRowView
-* Jeder andere beliebige nicht dynamische und nicht anonyme .NET-Typ
+* Jeder andere beliebige, nicht dynamische und nicht anonyme .NET-Typ
 
 Informationen zum Arbeiten mit Datenquellen verschiedener Typen in Vorlagendokumenten finden Sie in der Referenz zur Vorlagensyntax (https://docs.aspose.com/display/wordsnet/Template+Syntax).
 
@@ -115,13 +115,13 @@ public bool BuildReport(Document document, object[] dataSources, string[] dataSo
 
 ### Rückgabewert
 
-Ein Flag, das angibt, ob das Parsen des Vorlagendokuments erfolgreich war. Das zurückgegebene Flag ist nur sinnvoll, wenn ein Wert der[`Options`](../options/)Eigenschaft umfasst dieInlineErrorMessages Möglichkeit.
+Ein Flag, das angibt, ob das Parsen des Vorlagendokuments erfolgreich war. Das zurückgegebene Flag ist nur sinnvoll, wenn ein Wert von[`Options`](../options/)Die Eigenschaft umfasst dieInlineErrorMessages Möglichkeit.
 
 ### Bemerkungen
 
-Mit dieser Überladung können Sie auf mehrere Datenquellenobjekte und ihre Member in der Vorlage verweisen. Der Name der ersten Datenquelle kann weggelassen werden (dh eine leere Zeichenfolge oder null sein), wenn Sie auf die Mitglieder der Datenquelle verweisen, aber nicht auf das Datenquellenobjekt selbst. Namen der anderen Datenquellen müssen angegeben und eindeutig sein.
+Mithilfe dieser Überladung können Sie in der Vorlage auf mehrere Datenquellenobjekte und deren Mitglieder verweisen. Der Name der ersten Datenquelle kann weggelassen werden (also ein leerer String sein oder`Null`), wenn Sie auf die Mitglieder der Datenquelle verweisen, nicht jedoch auf das Datenquellenobjekt selbst. Namen der anderen Datenquellen müssen angegeben und eindeutig sein.
 
-Wenn Sie eine einzelne Datenquelle verwenden möchten, ziehen Sie die Verwendung von in Betracht`BuildReport` und`BuildReport` stattdessen überladen.
+Wenn Sie eine einzelne Datenquelle verwenden möchten, sollten Sie die Verwendung von in Betracht ziehen`BuildReport` und`BuildReport` Überladungen stattdessen.
 
 Ein Datenquellenobjekt kann einen der folgenden Typen haben:
 
@@ -135,7 +135,7 @@ Ein Datenquellenobjekt kann einen der folgenden Typen haben:
 * IDataRecord
 * DataView
 * DataRowView
-* Jeder andere beliebige nicht dynamische und nicht anonyme .NET-Typ
+* Jeder andere beliebige, nicht dynamische und nicht anonyme .NET-Typ
 
 Informationen zum Arbeiten mit Datenquellen verschiedener Typen in Vorlagendokumenten finden Sie in der Referenz zur Vorlagensyntax (https://docs.aspose.com/display/wordsnet/Template+Syntax).
 

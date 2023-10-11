@@ -3,7 +3,7 @@ title: LayoutOptions.RevisionOptions
 second_title: Aspose.Words for .NET API 参考
 description: LayoutOptions 财产. 获取修订选项
 type: docs
-weight: 60
+weight: 70
 url: /zh/net/aspose.words.layout/layoutoptions/revisionoptions/
 ---
 ## LayoutOptions.RevisionOptions property
@@ -16,13 +16,13 @@ public RevisionOptions RevisionOptions { get; }
 
 ### 例子
 
-显示如何在呈现的输出文档中更改修订的外观。
+演示如何更改渲染输出文档中修订的外观。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 插入修订，然后将所有修订的颜色更改为绿色。
+// 插入一个修订版本，然后将所有修订版本的颜色更改为绿色。
 builder.Writeln("This is not a revision.");
 doc.StartTrackRevisions("John Doe", DateTime.Now);
 builder.Writeln("This is a revision.");

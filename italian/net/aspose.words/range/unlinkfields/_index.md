@@ -3,7 +3,7 @@ title: Range.UnlinkFields
 second_title: Aspose.Words per .NET API Reference
 description: Range metodo. Scollega i campi in questo intervallo.
 type: docs
-weight: 100
+weight: 110
 url: /it/net/aspose.words/range/unlinkfields/
 ---
 ## Range.UnlinkFields method
@@ -16,7 +16,7 @@ public void UnlinkFields()
 
 ### Osservazioni
 
-Sostituisce tutti i campi in questo intervallo con i risultati più recenti.
+Sostituisce tutti i campi di questo intervallo con i risultati più recenti.
 
 Per scollegare i campi nell'intero documento utilizzare`UnlinkFields`.
 

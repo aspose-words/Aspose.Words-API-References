@@ -1,14 +1,14 @@
 ---
 title: Enum OfficeMathJustification
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Math.OfficeMathJustification تعداد. تحديد مبرر المعادلة .
+description: Aspose.Words.Math.OfficeMathJustification تعداد. يحدد مبرر المعادلة.
 type: docs
-weight: 3900
+weight: 4140
 url: /ar/net/aspose.words.math/officemathjustification/
 ---
 ## OfficeMathJustification enumeration
 
-تحديد مبرر المعادلة .
+يحدد مبرر المعادلة.
 
 ```csharp
 public enum OfficeMathJustification
@@ -18,30 +18,27 @@ public enum OfficeMathJustification
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| CenterGroup | `1` | يبرر مثيلات النص الرياضي إلى اليسار فيما يتعلق ببعضها البعض ، ويضع مجموعة النص الرياضي_ في الوسط (فقرة الرياضيات) فيما يتعلق بالصفحة . |
-| Center | `2` | توسيط كل مثيل من النص الرياضي بشكل فردي بالنسبة للهوامش. |
-| Left | `3` | التبرير الأيسر للفقرة الحسابية . |
-| Right | `4` | التبرير الصحيح للفقرة الرياضيات . |
-| Inline | `7` | موضع مضمّن للرياضيات . |
+| CenterGroup | `1` | ضبط مثيلات النص الرياضي على اليسار بالنسبة لبعضها البعض، وتوسيط مجموعة النص الرياضي (فقرة الرياضيات) بالنسبة للصفحة. |
+| Center | `2` | يقوم بتوسيط كل مثيل للنص الرياضي بشكل فردي فيما يتعلق بالهوامش. |
+| Left | `3` | التبرير الأيسر للفقرة الرياضية. |
+| Right | `4` | التبرير الصحيح للفقرة الرياضية. |
+| Inline | `7` | الموضع المضمّن للرياضيات. |
 | Default | `1` | القيمة الافتراضيةCenterGroup . |
 
 ### أمثلة
 
-يوضح كيفية تعيين تنسيق عرض الرياضيات في المكتب.
+يوضح كيفية ضبط تنسيق عرض الرياضيات المكتبية.
 
 ```csharp
 Document doc = new Document(MyDir + "Office math.docx");
 
 OfficeMath officeMath = (OfficeMath) doc.GetChild(NodeType.OfficeMath, 0, true);
 
-// تكون عُقد OfficeMath التابعة لعقد OfficeMath الأخرى مضمنة دائمًا.
-// العقدة التي نعمل معها هي العقدة الأساسية لتغيير موقعها ونوع عرضها.
+// عقد OfficeMath التابعة لعقد OfficeMath الأخرى تكون دائمًا مضمّنة.
+// العقدة التي نعمل معها هي العقدة الأساسية لتغيير موقعها ونوع العرض.
 Assert.AreEqual(MathObjectType.OMathPara, officeMath.MathObjectType);
 Assert.AreEqual(NodeType.OfficeMath, officeMath.NodeType);
 Assert.AreEqual(officeMath.ParentNode, officeMath.ParentParagraph);
-
-// تستخدم تنسيقات OOXML و WML الخاصية "EquationXmlEncoding".
-Assert.IsNull(officeMath.EquationXmlEncoding);
 
 // تغيير الموقع ونوع العرض لعقدة OfficeMath.
 officeMath.DisplayType = OfficeMathDisplayType.Display;

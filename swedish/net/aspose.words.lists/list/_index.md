@@ -3,12 +3,14 @@ title: Class List
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Lists.List klass. Representerar formatering av en lista.
 type: docs
-weight: 3260
+weight: 3460
 url: /sv/net/aspose.words.lists/list/
 ---
 ## List class
 
 Representerar formatering av en lista.
+
+För att lära dig mer, besök[Arbeta med listor](https://docs.aspose.com/words/net/working-with-lists/) dokumentationsartikel.
 
 ```csharp
 public class List : IComparable<List>
@@ -19,10 +21,10 @@ public class List : IComparable<List>
 | namn | Beskrivning |
 | --- | --- |
 | [Document](../../aspose.words.lists/list/document/) { get; } | Hämtar ägardokumentet. |
-| [IsListStyleDefinition](../../aspose.words.lists/list/isliststyledefinition/) { get; } | Returnerar sant om den här listan är en definition av en liststil. |
-| [IsListStyleReference](../../aspose.words.lists/list/isliststylereference/) { get; } | Returnerar sant om den här listan är en referens till en liststil. |
-| [IsMultiLevel](../../aspose.words.lists/list/ismultilevel/) { get; } | Returnerar sant när listan innehåller 9 nivåer; falskt när 1 nivå. |
-| [IsRestartAtEachSection](../../aspose.words.lists/list/isrestartateachsection/) { get; set; } | Anger om listan ska startas om vid varje avsnitt. Standardvärdet är **falsk** . |
+| [IsListStyleDefinition](../../aspose.words.lists/list/isliststyledefinition/) { get; } | Returnerar`Sann` om den här listan är en definition av en liststil. |
+| [IsListStyleReference](../../aspose.words.lists/list/isliststylereference/) { get; } | Returnerar`Sann` om den här listan är en referens till en liststil. |
+| [IsMultiLevel](../../aspose.words.lists/list/ismultilevel/) { get; } | Returnerar`Sann` när listan innehåller 9 nivåer;`falsk` när 1 nivå. |
+| [IsRestartAtEachSection](../../aspose.words.lists/list/isrestartateachsection/) { get; set; } | Anger om listan ska startas om vid varje avsnitt. Standardvärdet är`falsk` . |
 | [ListId](../../aspose.words.lists/list/listid/) { get; } | Får den unika identifieraren för listan. |
 | [ListLevels](../../aspose.words.lists/list/listlevels/) { get; } | Hämtar samlingen av listnivåer för den här listan. |
 | [Style](../../aspose.words.lists/list/style/) { get; } | Hämtar liststilen som den här listan refererar till eller definierar. |
@@ -34,8 +36,9 @@ public class List : IComparable<List>
 | [CompareTo](../../aspose.words.lists/list/compareto/#compareto)(List) | Jämför den angivna listan med den aktuella listan. |
 | [CompareTo](../../aspose.words.lists/list/compareto/#compareto_1)(object) | Jämför det angivna objektet med det aktuella objektet. |
 | [Equals](../../aspose.words.lists/list/equals/#equals)(List) | Jämför med den angivna listan. |
-| override [Equals](../../aspose.words.lists/list/equals/#equals_1)(object) |  |
+| override [Equals](../../aspose.words.lists/list/equals/#equals_1)(object) | Bestämmer om det angivna objektet har samma värde som det aktuella objektet. |
 | override [GetHashCode](../../aspose.words.lists/list/gethashcode/)() | Beräknar hashkod för detta listobjekt. |
+| [HasSameTemplate](../../aspose.words.lists/list/hassametemplate/)(List) | Returnerar sant om den aktuella listan och den givna listan skapas från samma mall. |
 
 ### Anmärkningar
 
@@ -57,8 +60,8 @@ Visar hur man startar om numrering i en lista genom att kopiera en lista.
 Document doc = new Document();
 
 // En lista låter oss organisera och dekorera uppsättningar av stycken med prefixsymboler och indrag.
-// Vi kan skapa kapslade listor genom att öka indragsnivån. 
-// Vi kan börja och avsluta en lista genom att använda en dokumentbyggares "ListFormat"-egenskap. 
+ // Vi kan skapa kapslade listor genom att öka indragsnivån.
+ // Vi kan börja och avsluta en lista genom att använda en dokumentbyggares "ListFormat"-egenskap.
 // Varje stycke som vi lägger till mellan en listas början och slutet kommer att bli ett objekt i listan.
 // Skapa en lista från en Microsoft Word-mall och anpassa dess första listnivå.
 List list1 = doc.Lists.Add(ListTemplate.NumberArabicParenthesis);
@@ -96,8 +99,8 @@ Visar hur du använder anpassad listformatering på stycken när du använder Do
 Document doc = new Document();
 
 // En lista låter oss organisera och dekorera uppsättningar av stycken med prefixsymboler och indrag.
-// Vi kan skapa kapslade listor genom att öka indragsnivån. 
-// Vi kan börja och avsluta en lista genom att använda en dokumentbyggares "ListFormat"-egenskap. 
+ // Vi kan skapa kapslade listor genom att öka indragsnivån.
+ // Vi kan börja och avsluta en lista genom att använda en dokumentbyggares "ListFormat"-egenskap.
 // Varje stycke som vi lägger till mellan en listas början och slutet kommer att bli ett objekt i listan.
 // Skapa en lista från en Microsoft Word-mall och anpassa de två första av listnivåerna.
 List list = doc.Lists.Add(ListTemplate.NumberDefault);
@@ -153,8 +156,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Assert.False(builder.ListFormat.IsListItem);
 
 // En lista låter oss organisera och dekorera uppsättningar av stycken med prefixsymboler och indrag.
-// Vi kan skapa kapslade listor genom att öka indragsnivån. 
-// Vi kan börja och avsluta en lista genom att använda en dokumentbyggares "ListFormat"-egenskap. 
+ // Vi kan skapa kapslade listor genom att öka indragsnivån.
+ // Vi kan börja och avsluta en lista genom att använda en dokumentbyggares "ListFormat"-egenskap.
 // Varje stycke som vi lägger till mellan en listas början och slutet kommer att bli ett objekt i listan.
 // Nedan finns två typer av listor som vi kan skapa med hjälp av en dokumentbyggare.
 // 1 - En numrerad lista:
@@ -166,7 +169,7 @@ Assert.True(builder.ListFormat.IsListItem);
 // Genom att ställa in egenskapen "ListLevelNumber" kan vi öka listnivån
 // för att starta en fristående underlista vid det aktuella listobjektet.
 // Microsoft Word-listmallen som heter "NumberDefault" använder siffror för att skapa listnivåer för den första listnivån.
-// Djupare listnivåer använder bokstäver och gemener romerska siffror. 
+ // Djupare listnivåer använder bokstäver och gemener romerska siffror.
 for (int i = 0; i < 9; i++)
 {
     builder.ListFormat.ListLevelNumber = i;

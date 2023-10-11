@@ -1,25 +1,25 @@
 ---
 title: Aspose.Words.Notes
 second_title: Aspose.Words für .NET-API-Referenz
-description: Das Aspose.Words.Notes namespace bietet Klassen für die Arbeit mit Microsoft WordEndnoten und Fußnoten.
+description: Der Aspose.Words.NotesDer Namespace stellt Klassen für die Arbeit mit Microsoft WordEndnoten und Fußnoten bereit.
 type: docs
-weight: 170
+weight: 180
 url: /de/net/aspose.words.notes/
 ---
-Das **Aspose.Words.Notes** namespace bietet Klassen für die Arbeit mit Microsoft Word-Endnoten und -Fußnoten.
+Der **Aspose.Words.Notes**Der Namespace stellt Klassen für die Arbeit mit Microsoft Word-Endnoten und -Fußnoten bereit.
 
 ## Klassen
 
 | Klasse | Beschreibung |
 | --- | --- |
-| [EndnoteOptions](./endnoteoptions/) | Repräsentiert die Endnotennummerierungsoptionen für ein Dokument oder einen Abschnitt. |
-| [Footnote](./footnote/) | Repräsentiert einen Container für Text einer Fußnote oder Endnote. |
-| [FootnoteOptions](./footnoteoptions/) | Repräsentiert die Fußnotennummerierungsoptionen für ein Dokument oder einen Abschnitt. |
+| [EndnoteOptions](./endnoteoptions/) | Stellt die Endnotennummerierungsoptionen für ein Dokument oder einen Abschnitt dar. |
+| [Footnote](./footnote/) | Stellt einen Container für den Text einer Fußnote oder Endnote dar. |
+| [FootnoteOptions](./footnoteoptions/) | Stellt die Fußnotennummerierungsoptionen für ein Dokument oder einen Abschnitt dar. |
 ## Aufzählung
 
 | Aufzählung | Beschreibung |
 | --- | --- |
-| [EndnotePosition](./endnoteposition/) | Definiert die Position der Endnote. |
+| [EndnotePosition](./endnoteposition/) | Definiert die Endnotenposition. |
 | [FootnoteNumberingRule](./footnotenumberingrule/) | Legt fest, wann die automatische Fußnoten- oder Endnotennummerierung neu gestartet wird. |
 | [FootnotePosition](./footnoteposition/) | Definiert die Fußnotenposition. |
 | [FootnoteType](./footnotetype/) | Gibt an, ob es sich um eine Fußnote oder eine Endnote handelt. |

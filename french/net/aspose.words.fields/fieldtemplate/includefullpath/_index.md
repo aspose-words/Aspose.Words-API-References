@@ -1,14 +1,14 @@
 ---
 title: FieldTemplate.IncludeFullPath
 second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldTemplate propriété. Obtient ou définit sil faut inclure le nom complet du chemin daccès au fichier.
+description: FieldTemplate propriété. Obtient ou définit sil faut inclure le nom de chemin complet du fichier.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.fields/fieldtemplate/includefullpath/
 ---
 ## FieldTemplate.IncludeFullPath property
 
-Obtient ou définit s'il faut inclure le nom complet du chemin d'accès au fichier.
+Obtient ou définit s'il faut inclure le nom de chemin complet du fichier.
 
 ```csharp
 public bool IncludeFullPath { get; set; }
@@ -16,14 +16,14 @@ public bool IncludeFullPath { get; set; }
 
 ### Exemples
 
-Montre comment utiliser un champ TEMPLATE pour afficher l'emplacement du système de fichiers local du modèle d'un document.
+Montre comment utiliser un champ MODÈLE pour afficher l'emplacement du système de fichiers local du modèle d'un document.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Nous pouvons définir un nom de modèle en utilisant les champs. Cette propriété est utilisée lorsque le "doc.AttachedTemplate" est vide.
-// Si cette propriété est vide, le nom de fichier de modèle par défaut "Normal.dotm" est utilisé.
+// Si cette propriété est vide, le nom de fichier modèle par défaut "Normal.dotm" est utilisé.
 doc.FieldOptions.TemplateName = string.Empty;
 
 FieldTemplate field = (FieldTemplate)builder.InsertField(FieldType.FieldTemplate, false);

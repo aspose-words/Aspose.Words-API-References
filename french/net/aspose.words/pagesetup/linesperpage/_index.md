@@ -16,9 +16,9 @@ public int LinesPerPage { get; set; }
 
 ### Remarques
 
-La valeur minimale de la propriété est 1. La valeur maximale dépend de la hauteur de page et de la taille de police du style Normal . Le pas de ligne minimum est de 136 % de la taille de la police. Par exemple, le nombre maximum de lignes par page de une page Lettre avec des marges d'un pouce est de 39.
+La valeur minimale de la propriété est 1. La valeur maximale dépend de la hauteur de la page et de la taille de la police du style Normal . L'espacement minimum des lignes est de 136 % de la taille de la police. Par exemple, le nombre maximum de lignes par page d'une page de lettre avec des marges d'un pouce est de 39.
 
-Par défaut, la propriété a une valeur sur laquelle le pas de ligne est 1,5 fois supérieur à la taille de police de du style Normal.
+Par défaut, la propriété a une valeur sur laquelle le pas de ligne est 1,5 fois supérieur à la taille de police de le style Normal.
 
 ### Exemples
 
@@ -28,7 +28,7 @@ Montre comment spécifier une limite pour le nombre de lignes que chaque page pe
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Activez le pitching, puis utilisez-le pour définir le nombre de lignes par page dans cette section.
+// Activez le pitch, puis utilisez-le pour définir le nombre de lignes par page dans cette section.
 // Une taille de police suffisamment grande poussera certaines lignes vers le bas sur la page suivante pour éviter les caractères qui se chevauchent.
 builder.PageSetup.LayoutMode = SectionLayoutMode.LineGrid;
 builder.PageSetup.LinesPerPage = 15;

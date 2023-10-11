@@ -1,14 +1,14 @@
 ---
 title: FieldMergingArgsBase.TableName
 second_title: Aspose.Words per .NET API Reference
-description: FieldMergingArgsBase proprietà. Ottiene il nome della tabella di dati per loperazione di unione corrente o una stringa vuota se il nome non è disponibile.
+description: FieldMergingArgsBase proprietà. Ottiene il nome della tabella dati per loperazione di unione corrente o una stringa vuota se il nome non è disponibile.
 type: docs
 weight: 70
 url: /it/net/aspose.words.mailmerging/fieldmergingargsbase/tablename/
 ---
 ## FieldMergingArgsBase.TableName property
 
-Ottiene il nome della tabella di dati per l'operazione di unione corrente o una stringa vuota se il nome non è disponibile.
+Ottiene il nome della tabella dati per l'operazione di unione corrente o una stringa vuota se il nome non è disponibile.
 
 ```csharp
 public string TableName { get; }
@@ -16,15 +16,16 @@ public string TableName { get; }
 
 ### Esempi
 
-Mostra come inserire campi modulo checkbox in MERGEFIELD come unire dati durante la stampa unione.
+Mostra come inserire i campi modulo delle caselle di controllo nei MERGEFIELD come dati di unione durante la stampa unione.
 
 ```csharp
+public void InsertCheckBox()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Usa MERGEFIELD con i tag "TableStart"/"TableEnd" per definire una regione di stampa unione
-    // che appartiene a un'origine dati denominata "StudentCourse" e ha un MERGEFIELD che accetta i dati da una colonna denominata "CourseName".
+    // Utilizza MERGEFIELD con i tag "TableStart"/"TableEnd" per definire un'area di stampa unione
+    // che appartiene a un'origine dati denominata "StudentCourse" e dispone di un MERGEFIELD che accetta dati da una colonna denominata "CourseName".
     builder.StartTable();
     builder.InsertCell();
     builder.InsertField(" MERGEFIELD  TableStart:StudentCourse ");
@@ -40,9 +41,10 @@ Mostra come inserire campi modulo checkbox in MERGEFIELD come unire dati durante
 
     doc.MailMerge.ExecuteWithRegions(dataTable);
     doc.Save(ArtifactsDir + "MailMergeEvent.InsertCheckBox.docx");
+}
 
 /// <summary>
-/// Quando incontra un MERGEFIELD con un nome specifico, inserisce una casella di controllo nel campo del modulo invece di unire il testo dei dati.
+/// Quando incontra un MERGEFIELD con un nome specifico, inserisce un campo modulo con casella di controllo invece del testo dei dati di unione.
 /// </summary>
 private class HandleMergeFieldInsertCheckBox : IFieldMergingCallback
 {
@@ -61,7 +63,7 @@ private class HandleMergeFieldInsertCheckBox : IFieldMergingCallback
 
             string fieldValue = args.FieldValue.ToString();
 
-            // In questo caso, per ogni record index 'n', il valore del campo corrispondente è "Corso n".
+            // In questo caso, per ogni indice di record 'n', il valore del campo corrispondente è "Corso n".
             Assert.AreEqual(char.GetNumericValue(fieldValue[7]), args.RecordIndex);
 
             builder.Write(fieldValue);
@@ -78,7 +80,7 @@ private class HandleMergeFieldInsertCheckBox : IFieldMergingCallback
 }
 
 /// <summary>
-/// Crea un'origine dati per la stampa unione.
+/// Crea un'origine dati di stampa unione.
 /// </summary>
 private static DataTable GetStudentCourseDataTable()
 {

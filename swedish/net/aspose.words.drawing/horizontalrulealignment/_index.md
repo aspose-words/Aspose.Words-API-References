@@ -3,7 +3,7 @@ title: Enum HorizontalRuleAlignment
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Drawing.HorizontalRuleAlignment uppräkning. Representerar justeringen för den angivna horisontella regeln.
 type: docs
-weight: 910
+weight: 1040
 url: /sv/net/aspose.words.drawing/horizontalrulealignment/
 ---
 ## HorizontalRuleAlignment enumeration

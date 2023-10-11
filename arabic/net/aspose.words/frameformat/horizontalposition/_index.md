@@ -1,14 +1,14 @@
 ---
 title: FrameFormat.HorizontalPosition
 second_title: Aspose.Words لمراجع .NET API
-description: FrameFormat ملكية. يحصل على مسافة أفقية بين حافة الإطار والعنصر المحدد بواسطةRelativeHorizontalPosition الملكية .
+description: FrameFormat ملكية. يحصل على المسافة الأفقية بين حافة الإطار والعنصر المحدد بواسطةRelativeHorizontalPosition الملكية.
 type: docs
 weight: 50
 url: /ar/net/aspose.words/frameformat/horizontalposition/
 ---
 ## FrameFormat.HorizontalPosition property
 
-يحصل على مسافة أفقية بين حافة الإطار والعنصر المحدد بواسطة[`RelativeHorizontalPosition`](../relativehorizontalposition/) الملكية .
+يحصل على المسافة الأفقية بين حافة الإطار والعنصر المحدد بواسطة[`RelativeHorizontalPosition`](../relativehorizontalposition/) الملكية.
 
 ```csharp
 public double HorizontalPosition { get; }
@@ -16,7 +16,7 @@ public double HorizontalPosition { get; }
 
 ### أمثلة
 
-يوضح كيفية الحصول على معلومات حول خصائص التنسيق للفقرات التي هي إطارات.
+يوضح كيفية الحصول على معلومات حول خصائص تنسيق الفقرات التي تكون إطارات.
 
 ```csharp
 Document doc = new Document(MyDir + "Paragraph frame.docx");

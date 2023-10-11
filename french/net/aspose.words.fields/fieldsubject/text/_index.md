@@ -16,15 +16,15 @@ public string Text { get; set; }
 
 ### Exemples
 
-Montre comment utiliser le champ SUBJECT.
+Montre comment utiliser le champ SUJET.
 
 ```csharp
 Document doc = new Document();
 
-// Définissez une valeur pour la propriété intégrée "Subject" du document.
+// Définit une valeur pour la propriété intégrée "Sujet" du document.
 doc.BuiltInDocumentProperties.Subject = "My subject";
 
-// Crée un champ SUBJECT pour afficher la valeur de cette propriété intégrée.
+// Créez un champ SUBJECT pour afficher la valeur de cette propriété intégrée.
 DocumentBuilder builder = new DocumentBuilder(doc);
 FieldSubject field = (FieldSubject)builder.InsertField(FieldType.FieldSubject, true);
 field.Update();
@@ -32,8 +32,8 @@ field.Update();
 Assert.AreEqual(" SUBJECT ", field.GetFieldCode());
 Assert.AreEqual("My subject", field.Result);
 
-// Si nous donnons la valeur de la propriété Text du champ SUBJECT et que nous la mettons à jour, le champ
-// remplace la valeur actuelle de la propriété intégrée "Subject" par la valeur de sa propriété Text,
+// Si nous donnons la valeur de la propriété Texte du champ SUJET et que nous la mettons à jour, le champ
+// écrase la valeur actuelle de la propriété intégrée "Sujet" par la valeur de sa propriété Text,
 // puis affiche la nouvelle valeur.
 field.Text = "My new subject";
 field.Update();

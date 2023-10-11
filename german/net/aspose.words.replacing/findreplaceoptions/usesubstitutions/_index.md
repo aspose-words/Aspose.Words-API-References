@@ -1,14 +1,14 @@
 ---
 title: FindReplaceOptions.UseSubstitutions
 second_title: Aspose.Words für .NET-API-Referenz
-description: FindReplaceOptions eigendom. Ruft einen booleschen Wert ab oder legt ihn fest der angibt ob Ersetzungen innerhalb von Ersetzungsmustern erkannt und verwendet werden sollen. Der Standardwert istFALSCH .
+description: FindReplaceOptions eigendom. Ruft einen booleschen Wert ab der angibt ob Ersetzungen innerhalb von Ersetzungsmustern erkannt und verwendet werden sollen oder legt diesen fest. Der Standardwert istFALSCH .
 type: docs
-weight: 160
+weight: 180
 url: /de/net/aspose.words.replacing/findreplaceoptions/usesubstitutions/
 ---
 ## FindReplaceOptions.UseSubstitutions property
 
-Ruft einen booleschen Wert ab oder legt ihn fest, der angibt, ob Ersetzungen innerhalb von Ersetzungsmustern erkannt und verwendet werden sollen. Der Standardwert ist`FALSCH` .
+Ruft einen booleschen Wert ab, der angibt, ob Ersetzungen innerhalb von Ersetzungsmustern erkannt und verwendet werden sollen, oder legt diesen fest. Der Standardwert ist`FALSCH` .
 
 ```csharp
 public bool UseSubstitutions { get; set; }
@@ -20,7 +20,7 @@ Einzelheiten zu Substitutionselementen finden Sie unter: https://docs.microsoft.
 
 ### Beispiele
 
-Zeigt, wie Substitutionen innerhalb von Ersetzungsmustern erkannt und verwendet werden.
+Zeigt, wie Ersetzungen innerhalb von Ersetzungsmustern erkannt und verwendet werden.
 
 ```csharp
 Document doc = new Document();
@@ -33,7 +33,7 @@ Regex regex = new Regex(@"([A-z]+) gave money to ([A-z]+)");
 FindReplaceOptions options = new FindReplaceOptions();
 options.UseSubstitutions = true;
 
-// Die Verwendung des Legacy-Modus unterstützt viele erweiterte Funktionen nicht, daher müssen wir ihn auf "false" setzen.
+// Die Verwendung des Legacy-Modus unterstützt viele erweiterte Funktionen nicht, daher müssen wir ihn auf „false“ setzen.
 options.LegacyMode = false;
 
 doc.Range.Replace(regex, @"$2 took money from $1", options);
@@ -50,12 +50,12 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("John sold a car to Paul.");
 builder.Writeln("Jane sold a house to Joe.");
 
-// Wir können ein "FindReplaceOptions"-Objekt verwenden, um den Suchen-und-Ersetzen-Prozess zu ändern.
+// Wir können ein „FindReplaceOptions“-Objekt verwenden, um den Such- und Ersetzungsprozess zu ändern.
 FindReplaceOptions options = new FindReplaceOptions();
 
-// Setzen Sie die Eigenschaft "UseSubstitutions" auf "true", um zu erhalten
-// die Suchen-und-Ersetzen-Operation zum Erkennen von Substitutionselementen.
-// Setzen Sie die Eigenschaft "UseSubstitutions" auf "false", um Substitutionselemente zu ignorieren.
+// Setzen Sie die Eigenschaft „UseSubstitutions“ auf „true“, um sie abzurufen
+// die Such- und Ersetzungsoperation zum Erkennen von Substitutionselementen.
+// Setzen Sie die Eigenschaft „UseSubstitutions“ auf „false“, um Substitutionselemente zu ignorieren.
 options.UseSubstitutions = useSubstitutions;
 
 Regex regex = new Regex(@"([A-z]+) sold a ([A-z]+) to ([A-z]+)");

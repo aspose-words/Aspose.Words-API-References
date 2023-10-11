@@ -1,14 +1,14 @@
 ---
 title: DocumentVisitor.VisitFootnoteEnd
 second_title: Aspose.Words for .NET API Referansı
-description: DocumentVisitor yöntem. Bir dipnotun veya sonnot metninin numaralandırılması sona erdiğinde çağrılır.
+description: DocumentVisitor yöntem. Dipnot veya sonnot metninin numaralandırılması sona erdiğinde çağrılır.
 type: docs
 weight: 210
 url: /tr/net/aspose.words/documentvisitor/visitfootnoteend/
 ---
 ## DocumentVisitor.VisitFootnoteEnd method
 
-Bir dipnotun veya sonnot metninin numaralandırılması sona erdiğinde çağrılır.
+Dipnot veya sonnot metninin numaralandırılması sona erdiğinde çağrılır.
 
 ```csharp
 public virtual VisitorAction VisitFootnoteEnd(Footnote footnote)
@@ -32,17 +32,17 @@ public void FootnoteToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     FootnoteStructurePrinter visitor = new FootnoteStructurePrinter();
 
-    // Bir belge ziyaretçisini kabul etmek için bir bileşik düğüm aldığımızda, ziyaretçi kabul eden düğümü ziyaret eder,
-    // ve ardından tüm düğümün alt öğelerini derinlik öncelikli bir şekilde çaprazlar.
-    // Ziyaretçi, ziyaret edilen her düğümü okuyabilir ve değiştirebilir.
+    // Bir belge ziyaretçisini kabul edecek bileşik bir düğüm aldığımızda, ziyaretçi kabul eden düğümü ziyaret eder,
+    // ve ardından düğümün tüm alt öğelerini derinlik öncelikli bir şekilde geçer.
+    // Ziyaretçi ziyaret edilen her düğümü okuyabilir ve değiştirebilir.
     doc.Accept(visitor);
 
     Console.WriteLine(visitor.GetText());
 }
 
 /// <summary>
-/// Bir düğümün ikili olmayan alt düğümler ağacında çapraz geçiş yapar.
-/// Karşılaşılan tüm Dipnot düğümlerinin ve bunların alt öğelerinin bir dizesi biçiminde bir harita oluşturur.
+/// Bir düğümün ikili olmayan alt düğüm ağacını geçer.
+/// Karşılaşılan tüm Dipnot düğümleri ve bunların alt öğelerinden oluşan bir dizi biçiminde bir harita oluşturur.
 /// </summary>
 public class FootnoteStructurePrinter : DocumentVisitor
 {
@@ -53,7 +53,7 @@ public class FootnoteStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Ziyaretçi tarafından toplanan belgenin düz metnini alır.
+    /// Ziyaretçinin biriktirdiği belgenin düz metnini alır.
     /// </summary>
     public string GetText()
     {
@@ -73,7 +73,7 @@ public class FootnoteStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Bir Dipnot düğümünün tüm alt düğümleri ziyaret edildikten sonra çağrılır.
+    /// Dipnot düğümünün tüm alt düğümleri ziyaret edildikten sonra çağrılır.
     /// </summary>
     public override VisitorAction VisitFootnoteEnd(Footnote footnote)
     {
@@ -95,9 +95,9 @@ public class FootnoteStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// StringBuilder'a bir satır ekleyin ve ziyaretçinin belge ağacında ne kadar derin olduğuna bağlı olarak girinti yapın.
+    /// StringBuilder'a bir satır ekleyin ve ziyaretçinin belge ağacında ne kadar derin olduğuna bağlı olarak onu girintileyin.
     /// </summary>
-    /// <param name="metin"></param>
+    /// <param adı="metin"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++) mBuilder.Append("|  ");

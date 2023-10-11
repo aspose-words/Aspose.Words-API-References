@@ -3,7 +3,7 @@ title: ChartSeries.Format
 second_title: Aspose.Words för .NET API Referens
 description: ChartSeries fast egendom. Ger tillgång till fyllnings och radformatering av serien.
 type: docs
-weight: 50
+weight: 60
 url: /sv/net/aspose.words.drawing.charts/chartseries/format/
 ---
 ## ChartSeries.Format property

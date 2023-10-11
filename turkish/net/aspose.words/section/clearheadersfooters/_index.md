@@ -3,7 +3,7 @@ title: Section.ClearHeadersFooters
 second_title: Aspose.Words for .NET API Referansı
 description: Section yöntem. Bu bölümün üstbilgilerini ve altbilgilerini temizler.
 type: docs
-weight: 100
+weight: 120
 url: /tr/net/aspose.words/section/clearheadersfooters/
 ---
 ## Section.ClearHeadersFooters method
@@ -16,13 +16,13 @@ public void ClearHeadersFooters()
 
 ### Notlar
 
-Tüm üstbilgilerin ve altbilgilerin metni temizlenir, ancak[`HeaderFooter`](../../headerfooter/) nesnelerin kendileri kaldırılmaz.
+Tüm üstbilgi ve altbilgilerin metni temizlenir, ancak[`HeaderFooter`](../../headerfooter/) nesnelerin kendisi kaldırılmaz.
 
-Bu, bu bölümün üstbilgilerini ve altbilgilerini önceki bölümün üstbilgi ve altbilgilerine bağlı hale getirir.
+Bu, bu bölümün üstbilgilerini ve altbilgilerini önceki bölümün üstbilgilerine ve altbilgilerine bağlı hale getirir.
 
 ### Örnekler
 
-Bir bölümdeki tüm üstbilgilerin ve altbilgilerin içeriğinin nasıl temizleneceğini gösterir.
+Bir bölümdeki tüm üstbilgi ve altbilgilerin içeriğinin nasıl temizleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -41,8 +41,8 @@ Assert.AreEqual(2, doc.FirstSection.HeadersFooters.Count);
 Assert.AreEqual("This is the primary header.", doc.FirstSection.HeadersFooters[HeaderFooterType.HeaderPrimary].GetText().Trim());
 Assert.AreEqual("This is the primary footer.", doc.FirstSection.HeadersFooters[HeaderFooterType.FooterPrimary].GetText().Trim());
 
-// Bu bölümdeki tüm üstbilgileri ve altbilgileri tüm içeriklerinden boşaltın.
-// Üstbilgiler ve altbilgiler hala mevcut olacak ancak görüntülenecek hiçbir şeyleri olmayacak.
+// Bu bölümdeki tüm üstbilgi ve altbilgilerin tüm içeriğini boşaltın.
+// Üstbilgiler ve altbilgiler hala mevcut olacak ancak görüntülenecek hiçbir şey olmayacak.
 doc.FirstSection.ClearHeadersFooters();
 
 Assert.AreEqual(2, doc.FirstSection.HeadersFooters.Count);

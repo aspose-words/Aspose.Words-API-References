@@ -3,12 +3,14 @@ title: Class CustomPart
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Markup.CustomPart klass. Representerar en anpassad godtyckligt innehåll del som inte definieras av ISO/IEC 29500standarden.
 type: docs
-weight: 3660
+weight: 3900
 url: /sv/net/aspose.words.markup/custompart/
 ---
 ## CustomPart class
 
 Representerar en anpassad (godtyckligt innehåll) del, som inte definieras av ISO/IEC 29500-standarden.
+
+För att lära dig mer, besök[Strukturerade dokumenttaggar eller innehållskontroll](https://docs.aspose.com/words/net/working-with-content-control-sdt/) dokumentationsartikel.
 
 ```csharp
 public class CustomPart
@@ -26,7 +28,7 @@ public class CustomPart
 | --- | --- |
 | [ContentType](../../aspose.words.markup/custompart/contenttype/) { get; set; } | Anger innehållstypen för den här anpassade delen. |
 | [Data](../../aspose.words.markup/custompart/data/) { get; set; } | Innehåller data för denna anpassade del. |
-| [IsExternal](../../aspose.words.markup/custompart/isexternal/) { get; set; } | `Falsk` om denna anpassade del lagras i OOXML-paketet.`Sann` om den här anpassade delen är ett externt mål. |
+| [IsExternal](../../aspose.words.markup/custompart/isexternal/) { get; set; } | False om denna anpassade del lagras i OOXML-paketet. Sant om den här anpassade delen är ett externt mål. |
 | [Name](../../aspose.words.markup/custompart/name/) { get; set; } | Hämtar eller ställer in denna dels absoluta namn i OOXML-paketet eller mål-URL. |
 | [RelationshipType](../../aspose.words.markup/custompart/relationshiptype/) { get; set; } | Hämtar eller ställer in relationstypen från den överordnade delen till den här anpassade delen. |
 
@@ -42,7 +44,7 @@ Den här klassen representerar en OOXML-del som är ett mål för en "okänd rel
 
 Microsoft Word bevarar anpassade delar under öppna/spara-cykler. Lite ytterligare information kan hittas här http://blogs.msdn.com/dmahugh/archive/2006/11/25/arbitrary-content-in-an-opc-package.aspx
 
-Aspose.Words gör även anpassade delar tur och retur och tillåter dessutom att programmässigt komma åt sådana delar via`CustomPart` och[`CustomPartCollection`](../custompartcollection/) objekt.
+Aspose.Words gör även anpassade delar tur och retur och tillåter dessutom att programmässigt komma åt sådana delar via`CustomPart` och[`CustomPartCollection`](../custompartcollection/) föremål.
 
 Blanda inte ihop anpassade delar med anpassade XML-data. Använda sig av[`CustomXmlPart`](../customxmlpart/) om du behöver för att komma åt anpassade XML-data.
 

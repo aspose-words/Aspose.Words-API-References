@@ -1,14 +1,14 @@
 ---
 title: Shading.GetHashCode
 second_title: Aspose.Words for .NET API Referansı
-description: Shading yöntem. Bu tür için bir karma işlevi olarak hizmet eder.
+description: Shading yöntem. Bu tür için karma işlevi görevi görür.
 type: docs
-weight: 60
+weight: 100
 url: /tr/net/aspose.words/shading/gethashcode/
 ---
 ## Shading.GetHashCode method
 
-Bu tür için bir karma işlevi olarak hizmet eder.
+Bu tür için karma işlevi görevi görür.
 
 ```csharp
 public override int GetHashCode()

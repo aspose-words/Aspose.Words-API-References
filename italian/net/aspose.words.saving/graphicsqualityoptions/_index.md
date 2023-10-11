@@ -1,14 +1,16 @@
 ---
 title: Class GraphicsQualityOptions
 second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Saving.GraphicsQualityOptions classe. Consente di specificare ulterioriGraphics opzioni di qualità.
+description: Aspose.Words.Saving.GraphicsQualityOptions classe. Permette di specificare ulterioriGraphics opzioni di qualità.
 type: docs
-weight: 4780
+weight: 5040
 url: /it/net/aspose.words.saving/graphicsqualityoptions/
 ---
 ## GraphicsQualityOptions class
 
-Consente di specificare ulterioriGraphics opzioni di qualità.
+Permette di specificare ulterioriGraphics opzioni di qualità.
+
+Per saperne di più, visita il[Salva un documento](https://docs.aspose.com/words/net/save-a-document/) articolo di documentazione.
 
 ```csharp
 public class GraphicsQualityOptions
@@ -24,11 +26,11 @@ public class GraphicsQualityOptions
 
 | Nome | Descrizione |
 | --- | --- |
-| [CompositingMode](../../aspose.words.saving/graphicsqualityoptions/compositingmode/) { get; set; } | Ottiene o imposta un valore che specifica il modo in cui le immagini composte vengono disegnate in questa grafica. |
-| [CompositingQuality](../../aspose.words.saving/graphicsqualityoptions/compositingquality/) { get; set; } | Ottiene o imposta la qualità di rendering delle immagini composte disegnate su questa grafica. |
-| [InterpolationMode](../../aspose.words.saving/graphicsqualityoptions/interpolationmode/) { get; set; } | Ottiene o imposta la modalità di interpolazione associata a questa grafica. |
+| [CompositingMode](../../aspose.words.saving/graphicsqualityoptions/compositingmode/) { get; set; } | Ottiene o imposta un valore che specifica il modo in cui le immagini composte vengono disegnate in questo Graphics. |
+| [CompositingQuality](../../aspose.words.saving/graphicsqualityoptions/compositingquality/) { get; set; } | Ottiene o imposta la qualità di rendering delle immagini composte disegnate in questo Graphics. |
+| [InterpolationMode](../../aspose.words.saving/graphicsqualityoptions/interpolationmode/) { get; set; } | Ottiene o imposta la modalità di interpolazione associata a questo Graphics. |
 | [SmoothingMode](../../aspose.words.saving/graphicsqualityoptions/smoothingmode/) { get; set; } | Ottiene o imposta la qualità di rendering per questa grafica. |
-| [StringFormat](../../aspose.words.saving/graphicsqualityoptions/stringformat/) { get; set; } | Ottiene o imposta le informazioni sul layout del testo (come allineamento, orientamento e tabulazioni), le manipolazioni di visualizzazione (come l'inserimento di puntini di sospensione e la sostituzione di cifre nazionali) e le funzioni OpenType. |
+| [StringFormat](../../aspose.words.saving/graphicsqualityoptions/stringformat/) { get; set; } | Ottiene o imposta informazioni sul layout del testo (come allineamento, orientamento e punti di tabulazione), manipolazioni di visualizzazione (come inserimento di puntini di sospensione e sostituzione di cifre nazionali) e funzionalità OpenType. |
 | [TextRenderingHint](../../aspose.words.saving/graphicsqualityoptions/textrenderinghint/) { get; set; } | Ottiene o imposta la modalità di rendering per il testo associato a questa grafica. |
 | [UseTileFlipMode](../../aspose.words.saving/graphicsqualityoptions/usetileflipmode/) { get; set; } | Ottiene o imposta un flag che indica se WrapMode è TileFlipXY. |
 

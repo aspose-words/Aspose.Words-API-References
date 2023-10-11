@@ -3,7 +3,7 @@ title: Fill.ImageBytes
 second_title: Aspose.Words for .NET API Referansı
 description: Fill mülk. Dolgu dokusunun veya deseninin ham baytlarını alır.
 type: docs
-weight: 80
+weight: 140
 url: /tr/net/aspose.words.drawing/fill/imagebytes/
 ---
 ## Fill.ImageBytes property
@@ -16,19 +16,19 @@ public byte[] ImageBytes { get; }
 
 ### Notlar
 
-Varsayılan değer null'dur.
+Varsayılan değer:`hükümsüz`.
 
 ### Örnekler
 
-Çeşitli şekiller oluşturmak için gösterir.
+Çeşitli şekiller oluşturmayı gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Aşağıda, belgelerimize ekleyebileceğimiz dört şekil örneği verilmiştir.
-// 1 - Noktalı, yatay, yarı saydam kırmızı çizgi
-// sol uçta bir ok ve sağ uçta bir elmas ile:
+// Aşağıda belgelerimize ekleyebileceğimiz dört şekil örneği verilmiştir.
+// 1 - Noktalı, yatay, yarı şeffaf kırmızı çizgi
+// sol uçta bir ok ve sağ uçta bir baklava işaretiyle:
 Shape arrow = new Shape(doc, ShapeType.Line);
 arrow.Width = 200;
 arrow.Stroke.Color = Color.Red;
@@ -65,7 +65,7 @@ filledInArrow.Fill.Visible = true;
 
 builder.InsertNode(filledInArrow);
 
-// 4 - Aspose logosu ile doldurulmuş, yönü ters çevrilmiş ok:
+// 4 - Aspose logosuyla dolu ters çevrilmiş yönlendirmeli ok:
 Shape filledInArrowImg = new Shape(doc, ShapeType.Arrow);
 filledInArrowImg.Width = 200;
 filledInArrowImg.Height = 40;
@@ -77,8 +77,8 @@ byte[] imageBytes = File.ReadAllBytes(ImageDir + "Logo.jpg");
 using (MemoryStream stream = new MemoryStream(imageBytes))
 {
     Image image = Image.FromStream(stream);
-    // Okumuzun yönünü çevirdiğimizde, okun içerdiği görüntüyü de çevirmiş oluyoruz.
-    // Şekli gösterecek şekilde almadan önce bunu iptal etmek için görüntüyü diğer yöne çevirin.
+    // Okumuzun yönünü çevirdiğimizde okun içerdiği görüntüyü de çevirmiş oluyoruz.
+    // Gösterilecek şekli almadan önce bunu iptal etmek için görüntüyü diğer yöne çevirin.
     image.RotateFlip(RotateFlipType.RotateNoneFlipXY);
 
     filledInArrowImg.ImageData.SetImage(image);

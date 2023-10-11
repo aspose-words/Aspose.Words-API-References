@@ -3,12 +3,14 @@ title: Class DigitalSignatureUtil
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.DigitalSignatures.DigitalSignatureUtil klass. Tillhandahåller metoder för att signera dokument.
 type: docs
-weight: 400
+weight: 410
 url: /sv/net/aspose.words.digitalsignatures/digitalsignatureutil/
 ---
 ## DigitalSignatureUtil class
 
 Tillhandahåller metoder för att signera dokument.
+
+För att lära dig mer, besök[Arbeta med digitala signaturer](https://docs.aspose.com/words/net/working-with-digital-signatures/) dokumentationsartikel.
 
 ```csharp
 public static class DigitalSignatureUtil

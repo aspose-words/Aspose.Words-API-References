@@ -1,14 +1,16 @@
 ---
 title: Class ThemeFonts
 second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Themes.ThemeFonts sınıf. Farklı diller için farklı yazı tipleri belirtmeye olanak tanıyan yazı tipi şemasındaki bir yazı tipi koleksiyonunu temsil ederLatin EastAsian veComplexScript .
+description: Aspose.Words.Themes.ThemeFonts sınıf. Yazı tipi şemasındaki yazı tiplerinin bir koleksiyonunu temsil eder ve farklı diller için farklı yazı tipleri belirlemeye olanak tanırLatin EastAsian VeComplexScript .
 type: docs
-weight: 6200
+weight: 6500
 url: /tr/net/aspose.words.themes/themefonts/
 ---
 ## ThemeFonts class
 
-Farklı diller için farklı yazı tipleri belirtmeye olanak tanıyan yazı tipi şemasındaki bir yazı tipi koleksiyonunu temsil eder[`Latin`](./latin/) ,[`EastAsian`](./eastasian/) ve[`ComplexScript`](./complexscript/) .
+Yazı tipi şemasındaki yazı tiplerinin bir koleksiyonunu temsil eder ve farklı diller için farklı yazı tipleri belirlemeye olanak tanır[`Latin`](./latin/) ,[`EastAsian`](./eastasian/) Ve[`ComplexScript`](./complexscript/) .
+
+Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Stiller ve Temalarla Çalışmak](https://docs.aspose.com/words/net/working-with-styles-and-themes/) dokümantasyon makalesi.
 
 ```csharp
 public class ThemeFonts
@@ -19,8 +21,8 @@ public class ThemeFonts
 | İsim | Tanım |
 | --- | --- |
 | [ComplexScript](../../aspose.words.themes/themefonts/complexscript/) { get; set; } | ComplexScript karakterleri için yazı tipi adını belirtir. |
-| [EastAsian](../../aspose.words.themes/themefonts/eastasian/) { get; set; } | Doğu Asya karakterleri için yazı tipi adını belirtir. |
-| [Latin](../../aspose.words.themes/themefonts/latin/) { get; set; } | Latin karakterleri için yazı tipi adını belirtir. |
+| [EastAsian](../../aspose.words.themes/themefonts/eastasian/) { get; set; } | DoğuAsya karakterleri için yazı tipi adını belirtir. |
+| [Latin](../../aspose.words.themes/themefonts/latin/) { get; set; } | Latin karakterler için yazı tipi adını belirtir. |
 
 ### Örnekler
 
@@ -29,24 +31,24 @@ Temalar için özel renklerin ve yazı tiplerinin nasıl ayarlanacağını göst
 ```csharp
 Document doc = new Document(MyDir + "Theme colors.docx");
 
-// "Tema" nesnesi, varsayılan yazı tiplerinin ve renklerin kaynağı olan belge temasına erişmemizi sağlar.
+// "Tema" nesnesi, varsayılan yazı tipleri ve renklerin kaynağı olan belge temasına erişmemizi sağlar.
 Theme theme = doc.Theme;
 
-// "Heading 1" ve "Subtitle" gibi bazı stiller bu yazı tiplerini devralır.
+// "Başlık 1" ve "Altyazı" gibi bazı stiller bu yazı tiplerini devralır.
 theme.MajorFonts.Latin = "Courier New";
 theme.MinorFonts.Latin = "Agency FB";
 
-// Diğer diller de bu temada kendi özel yazı tiplerine sahip olabilir.
+// Bu temada diğer dillerin de kendi özel yazı tipleri olabilir.
 Assert.AreEqual(string.Empty, theme.MajorFonts.ComplexScript);
 Assert.AreEqual(string.Empty, theme.MajorFonts.EastAsian);
 Assert.AreEqual(string.Empty, theme.MinorFonts.ComplexScript);
 Assert.AreEqual(string.Empty, theme.MinorFonts.EastAsian);
 
-// "Renkler" özelliği, Microsoft Word'den renk paletini içerir,
-// gölgelendirmeyi veya yazı tipi rengini değiştirirken görünen.
-// Microsoft Word'de kolayca erişebilmemiz için renk paletine özel renkler uygulayın
-// örneğin yazı tipi rengini "Ana Sayfa" ile değiştirdiğimizde -> "Yazı Tipi" -> "Yazı rengi",
-// veya bir şekil ekleyin ve ardından "Şekil Formatı" ile bunun için bir renk ayarlayın -> "Şekil Stilleri".
+// "Renkler" özelliği Microsoft Word'ün renk paletini içerir,
+// gölgeleme veya yazı tipi rengini değiştirirken görünen.
+// Renk paletine özel renkler uygulayın, böylece Microsoft Word'de bunlara kolayca erişebilelim
+// örneğin yazı tipi rengini "Ana Sayfa" aracılığıyla değiştirdiğimizde -> "Yazı Tipi" -> "Yazı rengi",
+// veya bir şekil ekleyin ve ardından "Şekil Formatı" aracılığıyla bunun için bir renk ayarlayın --> "Şekil Stilleri".
 ThemeColors colors = theme.Colors;
 colors.Dark1 = Color.MidnightBlue;
 colors.Light1 = Color.PaleGreen;
@@ -60,7 +62,7 @@ colors.Accent4 = Color.Gold;
 colors.Accent5 = Color.BlueViolet;
 colors.Accent6 = Color.DarkViolet;
 
-// Tıklanan ve tıklanmayan durumlarındaki köprülere özel renkler uygulayın.
+// Köprülere tıklanmış ve tıklanmamış durumlarında özel renkler uygulayın.
 colors.Hyperlink = Color.Black;
 colors.FollowedHyperlink = Color.Gray;
 

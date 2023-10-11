@@ -1,14 +1,14 @@
 ---
 title: MailMergeSettings.DoNotSupressBlankLines
 second_title: Aspose.Words for .NET API 参考
-description: MailMergeSettings 财产. 指定执行邮件合并的应用程序应如何处理由邮件合并产生的合并文档中的空白行 默认值为错误的.
+description: MailMergeSettings 财产. 指定执行邮件合并的应用程序应如何处理邮件合并产生的合并文档中的空行 默认值为错误的.
 type: docs
 weight: 90
 url: /zh/net/aspose.words.settings/mailmergesettings/donotsupressblanklines/
 ---
 ## MailMergeSettings.DoNotSupressBlankLines property
 
-指定执行邮件合并的应用程序应如何处理由邮件合并产生的合并文档中的空白行。 默认值为`错误的`.
+指定执行邮件合并的应用程序应如何处理邮件合并产生的合并文档中的空行。 默认值为`错误的`.
 
 ```csharp
 public bool DoNotSupressBlankLines { get; set; }
@@ -29,9 +29,9 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// 创建一个ASCII文件形式的数据源，用“|”特点
+// 创建一个ASCII文件形式的数据源，带有“|”特点
 // 充当分隔列的分隔符。第一行包含三列的名称，
-// 之后的每一行都是具有各自值的行。
+// 随后的每一行都是具有各自值的行。
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };
 string dataSrcFilename = ArtifactsDir + "MailMerge.MailMergeSettings.DataSource.txt";
@@ -59,7 +59,7 @@ odso.FirstRowContainsColumnNames = true;
 Assert.AreNotSame(odso, odso.Clone());
 Assert.AreNotSame(settings, settings.Clone());
 
-// 在 Microsoft Word 中打开此文档将在显示内容之前执行邮件合并。 
+ // 在 Microsoft Word 中打开此文档将在显示内容之前执行邮件合并。
 doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ```
 

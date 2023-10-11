@@ -16,7 +16,7 @@ public bool PromptOnceOnMailMerge { get; set; }
 
 ### Exemples
 
-Montre comment utiliser le champ FILLIN pour inviter l'utilisateur à répondre.
+Montre comment utiliser le champ FILLIN pour demander une réponse à l'utilisateur.
 
 ```csharp
 public void FieldFillIn()
@@ -25,12 +25,12 @@ public void FieldFillIn()
     DocumentBuilder builder = new DocumentBuilder(doc);
 
     // Insère un champ FILLIN. Lorsque nous mettons à jour manuellement ce champ dans Microsoft Word,
-    // il nous demandera d'entrer une réponse. Le champ affichera alors la réponse sous forme de texte.
+    // cela nous demandera de saisir une réponse. Le champ affichera alors la réponse sous forme de texte.
     FieldFillIn field = (FieldFillIn)builder.InsertField(FieldType.FieldFillIn, true);
     field.PromptText = "Please enter a response:";
     field.DefaultResponse = "A default response.";
 
-    // On peut aussi utiliser ces champs pour demander à l'utilisateur une réponse unique pour chaque page
+    // On peut également utiliser ces champs pour demander à l'utilisateur une réponse unique pour chaque page
     // créé lors d'un publipostage effectué à l'aide de Microsoft Word.
     field.PromptOnceOnMailMerge = true;
 
@@ -39,16 +39,17 @@ public void FieldFillIn()
     FieldMergeField mergeField = (FieldMergeField)builder.InsertField(FieldType.FieldMergeField, true);
     mergeField.FieldName = "MergeField";
 
-    // Si nous effectuons un publipostage par programme, nous pouvons utiliser un répondant personnalisé
-    // pour modifier automatiquement les réponses des champs FILLIN rencontrés par le publipostage.
+    // Si nous effectuons un publipostage par programme, nous pouvons utiliser un répondant d'invite personnalisé
+    // pour modifier automatiquement les réponses pour les champs FILLIN rencontrés par le publipostage.
     doc.FieldOptions.UserPromptRespondent = new PromptRespondent();
     doc.MailMerge.Execute(new [] { "MergeField" }, new object[] { "" });
 
     doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.FILLIN.docx");
+}
 
 /// <summary>
-/// Ajoute une ligne au début de la réponse par défaut de chaque champ FILLIN lors d'un publipostage.
+/// Ajoute une ligne à la réponse par défaut de chaque champ FILLIN lors d'un publipostage.
 /// </summary>
 private class PromptRespondent : IFieldUserPromptRespondent
 {

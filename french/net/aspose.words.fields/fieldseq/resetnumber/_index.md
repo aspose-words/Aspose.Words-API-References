@@ -1,14 +1,14 @@
 ---
 title: FieldSeq.ResetNumber
 second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldSeq propriété. Obtient ou définit un nombre entier sur lequel réinitialiser le numéro de séquence. Renvoie 1 si le numéro est absent.
+description: FieldSeq propriété. Obtient ou définit un nombre entier auquel réinitialiser le numéro de séquence. Renvoie 1 si le numéro est absent.
 type: docs
 weight: 50
 url: /fr/net/aspose.words.fields/fieldseq/resetnumber/
 ---
 ## FieldSeq.ResetNumber property
 
-Obtient ou définit un nombre entier sur lequel réinitialiser le numéro de séquence. Renvoie -1 si le numéro est absent.
+Obtient ou définit un nombre entier auquel réinitialiser le numéro de séquence. Renvoie -1 si le numéro est absent.
 
 ```csharp
 public string ResetNumber { get; set; }
@@ -16,16 +16,16 @@ public string ResetNumber { get; set; }
 
 ### Exemples
 
-Montre créer une numérotation à l'aide des champs SEQ.
+Affiche la création d'une numérotation à l'aide des champs SEQ.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Les champs SEQ affichent un décompte qui s'incrémente à chaque champ SEQ.
-// Ces champs conservent également des décomptes séparés pour chaque séquence nommée unique
+// Les champs SEQ affichent un nombre qui s'incrémente à chaque champ SEQ.
+// Ces champs conservent également des comptes séparés pour chaque séquence nommée unique
 // identifié par la propriété "SequenceIdentifier" du champ SEQ.
-// Insère un champ SEQ qui affichera la valeur de comptage actuelle de "MaSéquence",
+// Insérez un champ SEQ qui affichera la valeur de comptage actuelle de "MySequence",
 // après avoir utilisé la propriété "ResetNumber" pour la définir sur 100.
 builder.Write("#");
 FieldSeq fieldSeq = (FieldSeq)builder.InsertField(FieldType.FieldSequence, true);
@@ -44,7 +44,7 @@ fieldSeq.Update();
 
 Assert.AreEqual("101", fieldSeq.Result);
 
-// Insère un titre de niveau 1.
+// Insère un en-tête de niveau 1.
 builder.InsertBreak(BreakType.ParagraphBreak);
 builder.ParagraphFormat.Style = doc.Styles["Heading 1"];
 builder.Writeln("This level 1 heading will reset MySequence to 1");

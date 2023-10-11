@@ -1,14 +1,14 @@
 ---
 title: ChartDataLabelCollection.ShowLeaderLines
 second_title: Aspose.Words per .NET API Reference
-description: ChartDataLabelCollection proprietà. Consente di specificare se devono essere visualizzate le linee guida delletichetta dati per le etichette dati dellintera serie. Il valore predefinito è falso .
+description: ChartDataLabelCollection proprietà. Permette di specificare se le linee guida delletichetta dati devono essere mostrate per le etichette dati dellintera serie. Il valore predefinito èfalso .
 type: docs
-weight: 80
+weight: 100
 url: /it/net/aspose.words.drawing.charts/chartdatalabelcollection/showleaderlines/
 ---
 ## ChartDataLabelCollection.ShowLeaderLines property
 
-Consente di specificare se devono essere visualizzate le linee guida dell'etichetta dati per le etichette dati dell'intera serie. Il valore predefinito è **falso** .
+Permette di specificare se le linee guida dell'etichetta dati devono essere mostrate per le etichette dati dell'intera serie. Il valore predefinito è`falso` .
 
 ```csharp
 public bool ShowLeaderLines { get; set; }
@@ -16,9 +16,9 @@ public bool ShowLeaderLines { get; set; }
 
 ### Osservazioni
 
-Si applica solo ai grafici a torta. Le linee guida creano una connessione visiva tra un'etichetta dati e il relativo punto dati.
+Si applica solo ai grafici a torta. Le linee direttrici creano una connessione visiva tra un'etichetta dati e il punto dati corrispondente.
 
-Il valore definito per questa proprietà può essere sovrascritto per una singola etichetta dati utilizzando il [`ShowLeaderLines`](../../chartdatalabel/showleaderlines/) proprietà.
+Il valore definito per questa proprietà può essere sovrascritto per una singola etichetta dati utilizzando the [`ShowLeaderLines`](../../chartdatalabel/showleaderlines/) proprietà.
 
 ### Esempi
 
@@ -30,15 +30,15 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 Chart chart = builder.InsertChart(ChartType.Pie, 500, 300).Chart;
 
-// Cancella la serie di dati demo del grafico per iniziare con un grafico pulito.
+// Cancella le serie di dati dimostrativi del grafico per iniziare con un grafico pulito.
 chart.Series.Clear();
 
-// Inserisce una serie di grafici personalizzata con un nome di categoria per ciascuno dei settori e la relativa tabella di frequenza.
+// Inserisci una serie di grafici personalizzati con un nome di categoria per ciascuno dei settori e la relativa tabella di frequenza.
 ChartSeries series = chart.Series.Add("Aspose Test Series",
     new[] { "Word", "PDF", "Excel" },
     new[] { 2.7, 3.2, 0.8 });
 
-// Abilita le etichette dei dati che visualizzeranno sia la percentuale che la frequenza di ciascun settore e ne modificheranno l'aspetto.
+// Abilita le etichette dati che visualizzeranno sia la percentuale che la frequenza di ciascun settore e ne modificheranno l'aspetto.
 series.HasDataLabels = true;
 ChartDataLabelCollection dataLabels = series.DataLabels;
 dataLabels.ShowLeaderLines = true;

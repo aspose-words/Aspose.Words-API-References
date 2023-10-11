@@ -1,14 +1,14 @@
 ---
 title: FrameFormat.Width
 second_title: Aspose.Words for .NET API Referansı
-description: FrameFormat mülk. Belirtilen çerçevenin genişliğini puan cinsinden alır.
+description: FrameFormat mülk. Belirtilen çerçevenin genişliğini nokta cinsinden alır.
 type: docs
 weight: 120
 url: /tr/net/aspose.words/frameformat/width/
 ---
 ## FrameFormat.Width property
 
-Belirtilen çerçevenin genişliğini puan cinsinden alır.
+Belirtilen çerçevenin genişliğini nokta cinsinden alır.
 
 ```csharp
 public double Width { get; }

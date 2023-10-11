@@ -1,14 +1,14 @@
 ---
 title: Node.PreviousSibling
 second_title: Aspose.Words per .NET API Reference
-description: Node proprietà. Ottiene il nodo immediatamente precedente a questo nodo.
+description: Node proprietà. Ottiene il nodo immediatamente precedente questo nodo.
 type: docs
 weight: 70
 url: /it/net/aspose.words/node/previoussibling/
 ---
 ## Node.PreviousSibling property
 
-Ottiene il nodo immediatamente precedente a questo nodo.
+Ottiene il nodo immediatamente precedente questo nodo.
 
 ```csharp
 public Node PreviousSibling { get; }
@@ -16,11 +16,11 @@ public Node PreviousSibling { get; }
 
 ### Osservazioni
 
-Se non è presente alcun nodo precedente, viene restituito un null.
+Se non è presente alcun nodo precedente, a`nullo` viene restituito.
 
 ### Esempi
 
-Mostra come utilizzare i metodi di Node e CompositeNode per rimuovere una sezione prima dell'ultima sezione nel documento.
+Mostra come utilizzare i metodi Node e CompositeNode per rimuovere una sezione prima dell'ultima sezione nel documento.
 
 ```csharp
 Document doc = new Document();
@@ -30,7 +30,7 @@ builder.Writeln("Section 1 text.");
 builder.InsertBreak(BreakType.SectionBreakContinuous);
 builder.Writeln("Section 2 text.");
 
-// Entrambe le sezioni sono fratelli l'uno dell'altro.
+// Entrambe le sezioni sono sorelle l'una dell'altra.
 Section lastSection = (Section)doc.LastChild;
 Section firstSection = (Section)lastSection.PreviousSibling;
 
@@ -38,7 +38,7 @@ Section firstSection = (Section)lastSection.PreviousSibling;
 if (lastSection.PreviousSibling != null)
     doc.RemoveChild(firstSection);
 
-// La sezione che abbiamo rimosso è stata la prima, lasciando il documento solo con la seconda.
+// La sezione che abbiamo rimosso era la prima, lasciando nel documento solo la seconda.
 Assert.AreEqual("Section 2 text.", doc.GetText().Trim());
 ```
 

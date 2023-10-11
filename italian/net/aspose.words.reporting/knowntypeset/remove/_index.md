@@ -1,14 +1,14 @@
 ---
 title: KnownTypeSet.Remove
 second_title: Aspose.Words per .NET API Reference
-description: KnownTypeSet metodo. Rimuove loggetto specificatoTypeoggetto dal set. TiriArgumentException se type è nullo.
+description: KnownTypeSet metodo. Rimuove loggetto specificatoTypeoggetto dal set. LanciaArgumentException if type Ènullo .
 type: docs
 weight: 50
 url: /it/net/aspose.words.reporting/knowntypeset/remove/
 ---
 ## KnownTypeSet.Remove method
 
-Rimuove l'oggetto specificatoTypeoggetto dal set. TiriArgumentException se *type* è nullo.
+Rimuove l'oggetto specificatoTypeoggetto dal set. LanciaArgumentException if *type* È`nullo` .
 
 ```csharp
 public void Remove(Type type)

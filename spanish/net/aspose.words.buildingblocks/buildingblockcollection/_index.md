@@ -1,14 +1,16 @@
 ---
 title: Class BuildingBlockCollection
 second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.BuildingBlocks.BuildingBlockCollection clase. Una colección deBuildingBlock objetos en el documento.
+description: Aspose.Words.BuildingBlocks.BuildingBlockCollection clase. Una colección deBuildingBlockobjetos en el documento.
 type: docs
-weight: 140
+weight: 150
 url: /es/net/aspose.words.buildingblocks/buildingblockcollection/
 ---
 ## BuildingBlockCollection class
 
-Una colección de[`BuildingBlock`](../buildingblock/) objetos en el documento.
+Una colección de[`BuildingBlock`](../buildingblock/)objetos en el documento.
+
+Para obtener más información, visite el[Modelo de objetos de documento (DOM) de Aspose.Words](https://docs.aspose.com/words/net/aspose-words-document-object-model/) artículo de documentación.
 
 ```csharp
 public class BuildingBlockCollection : NodeCollection
@@ -33,15 +35,15 @@ public class BuildingBlockCollection : NodeCollection
 | [Insert](../../aspose.words/nodecollection/insert/)(int, Node) | Inserta un nodo en la colección en el índice especificado. |
 | [Remove](../../aspose.words/nodecollection/remove/)(Node) | Elimina el nodo de la colección y del documento. |
 | [RemoveAt](../../aspose.words/nodecollection/removeat/)(int) | Elimina el nodo en el índice especificado de la colección y del documento. |
-| [ToArray](../../aspose.words.buildingblocks/buildingblockcollection/toarray/#toarray)() | Copia todos los bloques de construcción de la colección a una nueva matriz de bloques de construcción. (2 methods) |
+| [ToArray](../../aspose.words.buildingblocks/buildingblockcollection/toarray/#toarray)() | Copia todos los bloques de construcción de la colección en una nueva matriz de bloques de construcción. (2 methods) |
 
 ### Observaciones
 
-No crea instancias de esta clase directamente. Para acceder a una colección de bloques de construcción, use el[`BuildingBlocks`](../glossarydocument/buildingblocks/) propiedad.
+No crea instancias de esta clase directamente. Para acceder a una colección de bloques de construcción, utilice el[`BuildingBlocks`](../glossarydocument/buildingblocks/) propiedad.
 
 ### Ejemplos
 
-Muestra formas de acceder a los componentes básicos en un documento de glosario.
+Muestra formas de acceder a bloques de construcción en un documento de glosario.
 
 ```csharp
 public void GlossaryDocument()
@@ -60,7 +62,7 @@ public void GlossaryDocument()
     doc.GlossaryDocument = glossaryDoc;
 
     // Hay varias formas de acceder a los bloques de construcción.
-    // 1 - Obtener los primeros/últimos bloques de construcción de la colección:
+    // 1 - Obtener el primer/último bloque de construcción de la colección:
     Assert.AreEqual("Block 1", glossaryDoc.FirstBuildingBlock.Name);
     Assert.AreEqual("Block 5", glossaryDoc.LastBuildingBlock.Name);
 
@@ -68,7 +70,7 @@ public void GlossaryDocument()
     Assert.AreEqual("Block 2", glossaryDoc.BuildingBlocks[1].Name);
     Assert.AreEqual("Block 3", glossaryDoc.BuildingBlocks.ToArray()[2].Name);
 
-    // 3 - Obtenga el primer bloque de construcción que coincida con una galería, nombre y categoría:
+    // 3 - Obtener el primer bloque de construcción que coincida con una galería, nombre y categoría:
     Assert.AreEqual("Block 4", 
         glossaryDoc.GetBuildingBlock(BuildingBlockGallery.All, "(Empty Category)", "Block 4").Name);
 
@@ -76,16 +78,15 @@ public void GlossaryDocument()
     // que le dará a cada BuildingBlock en el GlossaryDocument un GUID único
     GlossaryDocVisitor visitor = new GlossaryDocVisitor();
     glossaryDoc.Accept(visitor);
-
     Console.WriteLine(visitor.GetText());
 
-    // En Microsoft Word, podemos acceder a los bloques de construcción a través de "Insertar" -> "Piezas rápidas" -> "Organizador de bloques de construcción".
+    // En Microsoft Word, podemos acceder a los bloques de construcción mediante "Insertar" -> "Partes rápidas" -> "Organizador de bloques de construcción".
     doc.Save(ArtifactsDir + "BuildingBlocks.GlossaryDocument.dotx"); 
 }
 
 /// <summary>
-/// Otorga a cada bloque de creación de un documento de glosario visitado un GUID único.
-/// Almacena los pares de bloques de creación de GUID en un diccionario.
+/// Proporciona a cada bloque de construcción de un documento de glosario visitado un GUID único.
+/// Almacena los pares de bloques de construcción GUID en un diccionario.
 /// </summary>
 public class GlossaryDocVisitor : DocumentVisitor
 {

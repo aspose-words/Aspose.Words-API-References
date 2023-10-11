@@ -1,14 +1,14 @@
 ---
 title: LayoutEnumerator.Kind
 second_title: Référence de l'API Aspose.Words pour .NET
-description: LayoutEnumerator propriété. Obtient le genre de lentité actuelle. Cela peut être une chaîne vide mais jamais null.
+description: LayoutEnumerator propriété. Obtient le type de lentité actuelle. Cela peut être une chaîne vide mais jamaisnul .
 type: docs
-weight: 40
+weight: 50
 url: /fr/net/aspose.words.layout/layoutenumerator/kind/
 ---
 ## LayoutEnumerator.Kind property
 
-Obtient le genre de l'entité actuelle. Cela peut être une chaîne vide mais jamais null.
+Obtient le type de l'entité actuelle. Cela peut être une chaîne vide mais jamais`nul` .
 
 ```csharp
 public string Kind { get; }
@@ -16,21 +16,21 @@ public string Kind { get; }
 
 ### Remarques
 
-Il s'agit d'un type plus spécifique de l'entité actuelle, par exemple la durée du signet aSpan le type and peut avoir un genre BOOKMARKSTART ou BOOKMARKEND.
+Il s'agit d'un type plus spécifique de l'entité actuelle, par exemple la durée du signet aSpan type and peut avoir un type BOOKMARKSTART ou BOOKMARKEND.
 
 ### Exemples
 
-Montre des manières de parcourir les entités de mise en page d'un document.
+Montre les moyens de parcourir les entités de mise en page d'un document.
 
 ```csharp
 public void LayoutEnumerator()
 {
-    // Ouvre un document qui contient une variété d'entités de mise en page.
+    // Ouvre un document contenant une variété d'entités de mise en page.
     // Les entités de mise en page sont des pages, des cellules, des lignes, des lignes et d'autres objets inclus dans l'énumération LayoutEntityType.
-    // Chaque entité de mise en page a un espace rectangulaire qu'elle occupe dans le corps du document.
+    // Chaque entité de mise en page occupe un espace rectangulaire dans le corps du document.
     Document doc = new Document(MyDir + "Layout entities.docx");
 
-    // Crée un énumérateur qui peut traverser ces entités comme un arbre.
+    // Créez un énumérateur qui peut parcourir ces entités comme un arbre.
     LayoutEnumerator layoutEnumerator = new LayoutEnumerator(doc);
 
     Assert.AreEqual(doc, layoutEnumerator.Document);
@@ -40,23 +40,23 @@ public void LayoutEnumerator()
     Assert.AreEqual(LayoutEntityType.Page, layoutEnumerator.Type);
     Assert.Throws<InvalidOperationException>(() => Console.WriteLine(layoutEnumerator.Text));
 
-    // Nous pouvons appeler cette méthode pour nous assurer que l'énumérateur sera à la première entité de mise en page.
+    // Nous pouvons appeler cette méthode pour nous assurer que l'énumérateur sera sur la première entité de mise en page.
     layoutEnumerator.Reset();
 
-    // Il y a deux ordres qui déterminent comment l'énumérateur de mise en page continue à traverser les entités de mise en page
+    // Il existe deux ordres qui déterminent la façon dont l'énumérateur de présentation continue de parcourir les entités de présentation
     // lorsqu'il rencontre des entités qui s'étendent sur plusieurs pages.
-    // 1 - Dans l'ordre visuel :
-    // Lorsque vous parcourez les enfants d'une entité qui s'étendent sur plusieurs pages,
+    // 1 - Dans l'ordre visuel :
+    // Lors du déplacement parmi les enfants d'une entité qui s'étendent sur plusieurs pages,
     // la mise en page est prioritaire, et nous passons aux autres éléments enfants de cette page et évitons ceux de la suivante.
     Console.WriteLine("Traversing from first to last, elements between pages separated:");
     TraverseLayoutForward(layoutEnumerator, 1);
 
-    // Notre recenseur est maintenant à la fin de la collecte. Nous pouvons parcourir les entités de mise en page en arrière pour revenir au début.
+    // Notre enquêteur est maintenant à la fin de la collection. Nous pouvons parcourir les entités de mise en page en arrière pour revenir au début.
     Console.WriteLine("Traversing from last to first, elements between pages separated:");
     TraverseLayoutBackward(layoutEnumerator, 1);
 
     // 2 - Dans l'ordre logique :
-    // Lorsque vous parcourez les enfants d'une entité qui s'étendent sur plusieurs pages,
+    // Lors du déplacement parmi les enfants d'une entité qui s'étendent sur plusieurs pages,
     // l'énumérateur se déplacera entre les pages pour parcourir toutes les entités enfants.
     Console.WriteLine("Traversing from first to last, elements between pages mixed:");
     TraverseLayoutForwardLogical(layoutEnumerator, 1);
@@ -66,7 +66,7 @@ public void LayoutEnumerator()
 }
 
 /// <summary>
-/// Enumérer à travers la collection d'entités de mise en page de layoutEnumerator d'avant en arrière,
+/// Énumérer de l'avant vers l'arrière la collection d'entités de mise en page de layoutEnumerator,
 /// en profondeur d'abord, et dans l'ordre "Visuel".
 /// </summary>
 private static void TraverseLayoutForward(LayoutEnumerator layoutEnumerator, int depth)
@@ -84,7 +84,7 @@ private static void TraverseLayoutForward(LayoutEnumerator layoutEnumerator, int
 }
 
 /// <summary>
-/// Enumérer à travers la collection d'entités de mise en page de layoutEnumerator à l'envers,
+/// Énumérer à travers la collection d'entités de mise en page de layoutEnumerator de l'arrière vers l'avant,
 /// en profondeur d'abord, et dans l'ordre "Visuel".
 /// </summary>
 private static void TraverseLayoutBackward(LayoutEnumerator layoutEnumerator, int depth)
@@ -102,8 +102,8 @@ private static void TraverseLayoutBackward(LayoutEnumerator layoutEnumerator, in
 }
 
 /// <summary>
-/// Enumérer à travers la collection d'entités de mise en page de layoutEnumerator d'avant en arrière,
-/// en profondeur d'abord, et dans l'ordre "logique".
+/// Énumérer de l'avant vers l'arrière la collection d'entités de mise en page de layoutEnumerator,
+/// en profondeur d'abord, et dans l'ordre "Logique".
 /// </summary>
 private static void TraverseLayoutForwardLogical(LayoutEnumerator layoutEnumerator, int depth)
 {
@@ -120,8 +120,8 @@ private static void TraverseLayoutForwardLogical(LayoutEnumerator layoutEnumerat
 }
 
 /// <summary>
-/// Enumérer à travers la collection d'entités de mise en page de layoutEnumerator à l'envers,
-/// en profondeur d'abord, et dans l'ordre "logique".
+/// Énumérer à travers la collection d'entités de mise en page de layoutEnumerator de l'arrière vers l'avant,
+/// en profondeur d'abord, et dans l'ordre "Logique".
 /// </summary>
 private static void TraverseLayoutBackwardLogical(LayoutEnumerator layoutEnumerator, int depth)
 {
@@ -138,9 +138,9 @@ private static void TraverseLayoutBackwardLogical(LayoutEnumerator layoutEnumera
 }
 
 /// <summary>
-/// Affiche des informations sur l'entité actuelle de layoutEnumerator dans la console, tout en indentant le texte avec des caractères de tabulation
+/// Imprimer les informations sur l'entité actuelle de layoutEnumerator sur la console, tout en indentant le texte avec des caractères de tabulation
 /// en fonction de sa profondeur par rapport au nœud racine que nous avons fourni dans l'instance du constructeur LayoutEnumerator.
-/// Le rectangle que nous traitons à la fin représente la zone et l'emplacement que l'entité occupe dans le document.
+/// Le rectangle que nous traitons à la fin représente la zone et l'emplacement qu'occupe l'entité dans le document.
 /// </summary>
 private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int indent)
 {
@@ -150,7 +150,7 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
         ? $"{tabs}-> Entity type: {layoutEnumerator.Type}"
         : $"{tabs}-> Entity type & kind: {layoutEnumerator.Type}, {layoutEnumerator.Kind}");
 
-    // Seuls les spans peuvent contenir du texte.
+    // Seules les étendues peuvent contenir du texte.
     if (layoutEnumerator.Type == LayoutEntityType.Span)
         Console.WriteLine($"{tabs}   Span contents: \"{layoutEnumerator.Text}\"");
 

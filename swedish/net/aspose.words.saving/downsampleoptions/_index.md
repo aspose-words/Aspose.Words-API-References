@@ -3,12 +3,14 @@ title: Class DownsampleOptions
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Saving.DownsampleOptions klass. Gör det möjligt att ange alternativ för nedsampling.
 type: docs
-weight: 4710
+weight: 4970
 url: /sv/net/aspose.words.saving/downsampleoptions/
 ---
 ## DownsampleOptions class
 
 Gör det möjligt att ange alternativ för nedsampling.
+
+För att lära dig mer, besök[Spara ett dokument](https://docs.aspose.com/words/net/save-a-document/) dokumentationsartikel.
 
 ```csharp
 public class DownsampleOptions
@@ -26,7 +28,7 @@ public class DownsampleOptions
 | --- | --- |
 | [DownsampleImages](../../aspose.words.saving/downsampleoptions/downsampleimages/) { get; set; } | Anger om bilder ska nedsamplas. |
 | [Resolution](../../aspose.words.saving/downsampleoptions/resolution/) { get; set; } | Anger upplösningen i pixlar per tum som bilderna ska nedsamplas till. |
-| [ResolutionThreshold](../../aspose.words.saving/downsampleoptions/resolutionthreshold/) { get; set; } | Anger tröskelupplösningen i pixlar per tum. Om upplösningen för en bild i dokumentet är mindre än tröskelvärdet, kommer nedsamplingsalgoritmen inte att tillämpas. Ett värde på 0 betyder att tröskelkontrollen inte används och alla bilder som kan minskas i storlek är nedsamplade. |
+| [ResolutionThreshold](../../aspose.words.saving/downsampleoptions/resolutionthreshold/) { get; set; } | Anger tröskelupplösningen i pixlar per tum. Om upplösningen för en bild i dokumentet är lägre än tröskelvärdet, kommer nedsamplingsalgoritmen inte att tillämpas. Ett värde på 0 betyder att tröskelkontrollen inte används och alla bilder som kan minskas i storlek är nedsamplade. |
 
 ### Exempel
 

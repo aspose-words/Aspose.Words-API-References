@@ -1,14 +1,14 @@
 ---
 title: MemoryFontSource.FontData
 second_title: Справочник по API Aspose.Words для .NET
-description: MemoryFontSource свойство. Данные двоичного шрифта.
+description: MemoryFontSource свойство. Двоичные данные шрифта.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.fonts/memoryfontsource/fontdata/
 ---
 ## MemoryFontSource.FontData property
 
-Данные двоичного шрифта.
+Двоичные данные шрифта.
 
 ```csharp
 public byte[] FontData { get; }

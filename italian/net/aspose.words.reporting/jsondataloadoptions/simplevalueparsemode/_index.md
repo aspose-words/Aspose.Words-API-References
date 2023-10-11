@@ -1,14 +1,14 @@
 ---
 title: JsonDataLoadOptions.SimpleValueParseMode
 second_title: Aspose.Words per .NET API Reference
-description: JsonDataLoadOptions proprietà. Ottiene o imposta una modalità per lanalisi dei valori JSON semplici null booleano numero intero e stringa durante il caricamento di JSON. Tale modalità non influisce sullanalisi dei valori di data e ora. Limpostazione predefinita è Loose .
+description: JsonDataLoadOptions proprietà. Ottiene o imposta una modalità per lanalisi di valori semplici JSON null booleano numero numero intero e stringa durante il caricamento di JSON. Tale modalità non influisce sullanalisi dei valori di data e ora. Il valore predefinito è Loose .
 type: docs
-weight: 40
+weight: 50
 url: /it/net/aspose.words.reporting/jsondataloadoptions/simplevalueparsemode/
 ---
 ## JsonDataLoadOptions.SimpleValueParseMode property
 
-Ottiene o imposta una modalità per l'analisi dei valori JSON semplici (null, booleano, numero, intero e stringa) durante il caricamento di JSON. Tale modalità non influisce sull'analisi dei valori di data e ora. L'impostazione predefinita è Loose .
+Ottiene o imposta una modalità per l'analisi di valori semplici JSON (null, booleano, numero, numero intero e stringa) durante il caricamento di JSON. Tale modalità non influisce sull'analisi dei valori di data e ora. Il valore predefinito è Loose .
 
 ```csharp
 public JsonSimpleValueParseMode SimpleValueParseMode { get; set; }

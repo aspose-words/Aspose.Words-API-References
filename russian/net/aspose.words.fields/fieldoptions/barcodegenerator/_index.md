@@ -16,7 +16,7 @@ public IBarcodeGenerator BarcodeGenerator { get; set; }
 
 ### Примечания
 
-Пользовательский генератор штрих-кода должен реализовывать общедоступный интерфейс[`IBarcodeGenerator`](../../ibarcodegenerator/) .
+Пользовательский генератор штрих-кодов должен реализовывать общедоступный интерфейс.[`IBarcodeGenerator`](../../ibarcodegenerator/) .
 
 ### Примеры
 
@@ -25,9 +25,8 @@ public IBarcodeGenerator BarcodeGenerator { get; set; }
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
-
 // Мы можем использовать собственную реализацию IBarcodeGenerator для генерации штрих-кодов,
-// и затем вставляем их в документ как изображения.
+// а затем вставляем их в документ как изображения.
 doc.FieldOptions.BarcodeGenerator = new CustomBarcodeGenerator();
 
 // Ниже приведены четыре примера различных типов штрих-кодов, которые мы можем создать с помощью нашего генератора.

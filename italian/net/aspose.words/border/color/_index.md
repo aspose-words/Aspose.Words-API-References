@@ -16,7 +16,7 @@ public Color Color { get; set; }
 
 ### Esempi
 
-Mostra come inserire una stringa racchiusa da un bordo in un documento.
+Mostra come inserire una stringa circondata da un bordo in un documento.
 
 ```csharp
 Document doc = new Document();

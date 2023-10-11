@@ -3,7 +3,7 @@ title: Interface IMailMergeDataSource
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.MailMerging.IMailMergeDataSource gränssnitt. Implementera detta gränssnitt för att tillåta sammanslagning av epost från en anpassad datakälla till exempel en lista med objekt. Masterdetalj data stöds också.
 type: docs
-weight: 3590
+weight: 3810
 url: /sv/net/aspose.words.mailmerging/imailmergedatasource/
 ---
 ## IMailMergeDataSource interface
@@ -25,7 +25,7 @@ public interface IMailMergeDataSource
 | namn | Beskrivning |
 | --- | --- |
 | [GetChildDataSource](../../aspose.words.mailmerging/imailmergedatasource/getchilddatasource/)(string) | Aspose.Words kopplingsmotor anropar den här metoden när den stöter på början av en kapslad kopplingsregion. |
-| [GetValue](../../aspose.words.mailmerging/imailmergedatasource/getvalue/)(string, out object) | Returnerar ett värde för det angivna fältnamnet eller false om fältet inte hittas. |
+| [GetValue](../../aspose.words.mailmerging/imailmergedatasource/getvalue/)(string, out object) | Returnerar ett värde för det angivna fältnamnet eller`falsk` om fältet inte hittas. |
 | [MoveNext](../../aspose.words.mailmerging/imailmergedatasource/movenext/)() | Avancerar till nästa post i datakällan. |
 
 ### Anmärkningar
@@ -45,11 +45,13 @@ public void CustomDataSource()
     builder.InsertParagraph();
     builder.InsertField(" MERGEFIELD Address ");
 
-    List<Customer> customers = new List<Customer>();
-    customers.Add(new Customer("Thomas Hardy", "120 Hanover Sq., London"));
-    customers.Add(new Customer("Paolo Accorti", "Via Monte Bianco 34, Torino"));
+    List<Customer> customers = new List<Customer>
+    {
+        new Customer("Thomas Hardy", "120 Hanover Sq., London"),
+        new Customer("Paolo Accorti", "Via Monte Bianco 34, Torino")
+    };
 
-    // För att använda ett anpassat objekt som en datakälla måste det implementera IMailMergeDataSource-gränssnittet. 
+     // För att använda ett anpassat objekt som en datakälla måste det implementera IMailMergeDataSource-gränssnittet.
     CustomerMailMergeDataSource dataSource = new CustomerMailMergeDataSource(customers);
 
     doc.MailMerge.Execute(dataSource);
@@ -73,7 +75,7 @@ public class Customer
 }
 
 /// <summary>
-/// En anpassad kopplingsdatakälla som du implementerar för att tillåta Aspose.Words 
+ /// En anpassad kopplingsdatakälla som du implementerar för att tillåta Aspose.Words
 /// för att sammanfoga data från dina kundobjekt till Microsoft Word-dokument.
 /// </summary>
 public class CustomerMailMergeDataSource : IMailMergeDataSource

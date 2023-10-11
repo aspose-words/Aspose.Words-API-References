@@ -3,7 +3,7 @@ title: Shading.GetHashCode
 second_title: Referencia de API de Aspose.Words para .NET
 description: Shading método. Sirve como función hash para este tipo.
 type: docs
-weight: 60
+weight: 100
 url: /es/net/aspose.words/shading/gethashcode/
 ---
 ## Shading.GetHashCode method

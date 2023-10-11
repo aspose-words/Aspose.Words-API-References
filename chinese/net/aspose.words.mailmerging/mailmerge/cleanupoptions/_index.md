@@ -16,7 +16,7 @@ public MailMergeCleanupOptions CleanupOptions { get; set; }
 
 ### 例子
 
-演示如何从合并输出文档中删除邮件合并可能创建的空段落。
+演示如何删除邮件合并可能从合并输出文档中创建的空段落。
 
 ```csharp
 Document doc = new Document();
@@ -49,14 +49,14 @@ else
         "Jane Doe", doc.GetText().Trim());
 ```
 
-显示如何自动删除邮件合并期间未使用的 MERGEFIELD。
+演示如何自动删除邮件合并期间未使用的 MERGEFIELD。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 为邮件合并数据源表的三列创建一个带有 MERGEFIELD 的文档，
-// 然后创建一个只有两列名称与我们的 MERGEFIELD 匹配的表。
+// 使用 MERGEFIELD 为邮件合并数据源表的三列创建一个文档，
+// 然后创建一个只有两列的表，其名称与我们的 MERGEFIELD 匹配。
 builder.InsertField(" MERGEFIELD FirstName ");
 builder.Write(" ");
 builder.InsertField(" MERGEFIELD LastName ");
@@ -69,8 +69,8 @@ dataTable.Columns.Add("LastName");
 dataTable.Rows.Add(new object[] { "John", "Doe" });
 dataTable.Rows.Add(new object[] { "Joe", "Bloggs" });
 
-// 我们的第三个 MERGEFIELD 引用了一个“城市”列，该列在我们的数据源中不存在。
-// 邮件合并会将诸如此类的字段保持在合并前的状态。
+// 我们的第三个 MERGEFIELD 引用了“City”列，该列在我们的数据源中不存在。
+// 邮件合并将使此类字段保持在合并前的状态不变。
 // 将“CleanupOptions”属性设置为“RemoveUnusedFields”将删除所有 MERGEFIELD
 // 在邮件合并期间未使用以清理合并文档。
 doc.MailMerge.CleanupOptions = mailMergeCleanupOptions;

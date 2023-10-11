@@ -1,12 +1,14 @@
 ---
 title: ChartSeries.Marker
 second_title: Aspose.Words per .NET API Reference
-description: ChartSeries proprietà. 
+description: ChartSeries proprietà. Specifica un indicatore di dati. Il marcatore viene creato automaticamente quando richiesto.
 type: docs
-weight: 90
+weight: 100
 url: /it/net/aspose.words.drawing.charts/chartseries/marker/
 ---
 ## ChartSeries.Marker property
+
+Specifica un indicatore di dati. Il marcatore viene creato automaticamente quando richiesto.
 
 ```csharp
 public ChartMarker Marker { get; }

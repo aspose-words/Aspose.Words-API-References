@@ -1,14 +1,14 @@
 ---
 title: FieldMergeField.FieldName
 second_title: Aspose.Words für .NET-API-Referenz
-description: FieldMergeField eigendom. Ruft den Namen eines Datenfelds ab oder setzt ihn.
+description: FieldMergeField eigendom. Ruft den Namen eines Datenfelds ab oder legt diesen fest.
 type: docs
 weight: 10
 url: /de/net/aspose.words.fields/fieldmergefield/fieldname/
 ---
 ## FieldMergeField.FieldName property
 
-Ruft den Namen eines Datenfelds ab oder setzt ihn.
+Ruft den Namen eines Datenfelds ab oder legt diesen fest.
 
 ```csharp
 public string FieldName { get; set; }
@@ -16,13 +16,13 @@ public string FieldName { get; set; }
 
 ### Beispiele
 
-Zeigt, wie MERGEFIELD-Felder verwendet werden, um einen Seriendruck durchzuführen.
+Zeigt, wie MERGEFIELD-Felder zum Durchführen eines Seriendrucks verwendet werden.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Erstellen Sie eine Datentabelle, die als Datenquelle für den Seriendruck verwendet werden soll.
+// Erstellen Sie eine Datentabelle, die als Serienbrief-Datenquelle verwendet werden soll.
 DataTable table = new DataTable("Employees");
 table.Columns.Add("Courtesy Title");
 table.Columns.Add("First Name");
@@ -30,7 +30,7 @@ table.Columns.Add("Last Name");
 table.Rows.Add("Mr.", "John", "Doe");
 table.Rows.Add("Mrs.", "Jane", "Cardholder");
 
-// Ein MERGEFIELD mit einer FieldName-Eigenschaft einfügen, die auf den Namen einer Spalte in der Datenquelle gesetzt ist.
+// Ein MERGEFIELD mit einer FieldName-Eigenschaft einfügen, die auf den Namen einer Spalte in der Datenquelle festgelegt ist.
 FieldMergeField fieldMergeField = (FieldMergeField)builder.InsertField(FieldType.FieldMergeField, true);
 fieldMergeField.FieldName = "Courtesy Title";
 fieldMergeField.IsMapped = true;

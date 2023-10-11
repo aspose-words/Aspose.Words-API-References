@@ -3,12 +3,14 @@ title: Class WebExtensionReferenceCollection
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.WebExtensions.WebExtensionReferenceCollection klass. Anger en lista över webbtilläggsreferenser.
 type: docs
-weight: 6500
+weight: 6810
 url: /sv/net/aspose.words.webextensions/webextensionreferencecollection/
 ---
 ## WebExtensionReferenceCollection class
 
 Anger en lista över webbtilläggsreferenser.
+
+För att lära dig mer, besök[Arbeta med Office-tillägg](https://docs.aspose.com/words/net/work-with-office-add-ins/) dokumentationsartikel.
 
 ```csharp
 public class WebExtensionReferenceCollection : BaseWebExtensionCollection<WebExtensionReference>

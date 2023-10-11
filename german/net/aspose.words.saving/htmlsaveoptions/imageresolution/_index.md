@@ -1,14 +1,14 @@
 ---
 title: HtmlSaveOptions.ImageResolution
 second_title: Aspose.Words für .NET-API-Referenz
-description: HtmlSaveOptions eigendom. Gibt die Ausgabeauflösung für Bilder beim Exportieren in HTML MHTML oder EPUB an. Standard ist96 dpi .
+description: HtmlSaveOptions eigendom. Gibt die Ausgabeauflösung für Bilder beim Exportieren nach HTML MHTML oder EPUB an. Die Standardeinstellung ist96 dpi .
 type: docs
-weight: 350
+weight: 340
 url: /de/net/aspose.words.saving/htmlsaveoptions/imageresolution/
 ---
 ## HtmlSaveOptions.ImageResolution property
 
-Gibt die Ausgabeauflösung für Bilder beim Exportieren in HTML, MHTML oder EPUB an. Standard ist`96 dpi` .
+Gibt die Ausgabeauflösung für Bilder beim Exportieren nach HTML, MHTML oder EPUB an. Die Standardeinstellung ist`96 dpi` .
 
 ```csharp
 public int ImageResolution { get; set; }
@@ -16,11 +16,11 @@ public int ImageResolution { get; set; }
 
 ### Bemerkungen
 
-Diese Eigenschaft wirkt sich auf Rasterbilder aus, wenn[`ScaleImageToShapeSize`](../scaleimagetoshapesize/) ist`Stimmt` und Effekt-Metadateien, die als Rasterbilder exportiert werden. Einige Bildeigenschaften wie Zuschneiden oder Drehung erfordern das Speichern transformierter Bilder, und in diesem Fall werden transformierte Bilder in der gegebenen -Auflösung erstellt.
+Diese Eigenschaft wirkt sich auf Rasterbilder aus, wenn[`ScaleImageToShapeSize`](../scaleimagetoshapesize/) ist`WAHR` und Effektmetadateien, die als Rasterbilder exportiert werden. Einige Bildeigenschaften wie Zuschneiden oder Drehung erfordern das Speichern transformierter Bilder. In diesem Fall werden transformierte Bilder in der angegebenen -Auflösung erstellt.
 
 ### Beispiele
 
-Zeigt, wie Ordner und Ordneraliase für extern gespeicherte Ressourcen festgelegt werden, die Aspose.Words erstellt, wenn ein Dokument in HTML gespeichert wird.
+Zeigt, wie Ordner und Ordneraliase für extern gespeicherte Ressourcen festgelegt werden, die Aspose.Words beim Speichern eines Dokuments in HTML erstellt.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

@@ -1,14 +1,14 @@
 ---
 title: GraphicsQualityOptions.InterpolationMode
 second_title: Aspose.Words لمراجع .NET API
-description: GraphicsQualityOptions ملكية. الحصول على أو تحديد وضع الاستيفاء المرتبط بهذه الرسومات.
+description: GraphicsQualityOptions ملكية. الحصول على أو تعيين وضع الاستيفاء المرتبط بهذه الرسومات.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.saving/graphicsqualityoptions/interpolationmode/
 ---
 ## GraphicsQualityOptions.InterpolationMode property
 
-الحصول على أو تحديد وضع الاستيفاء المرتبط بهذه الرسومات.
+الحصول على أو تعيين وضع الاستيفاء المرتبط بهذه الرسومات.
 
 ```csharp
 public InterpolationMode? InterpolationMode { get; set; }
@@ -16,7 +16,7 @@ public InterpolationMode? InterpolationMode { get; set; }
 
 ### أمثلة
 
-يوضح كيفية تعيين خيارات جودة العرض أثناء تحويل المستندات إلى تنسيقات صور.
+يوضح كيفية تعيين خيارات جودة العرض أثناء تحويل المستندات إلى تنسيقات الصور.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

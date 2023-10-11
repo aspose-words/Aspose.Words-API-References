@@ -1,14 +1,14 @@
 ---
 title: FileFormatUtil.ExtensionToSaveFormat
 second_title: Aspose.Words für .NET-API-Referenz
-description: FileFormatUtil methode. Konvertiert eine Dateinamenerweiterung in aSaveFormat wert.
+description: FileFormatUtil methode. Konvertiert eine Dateinamenerweiterung in eineSaveFormat value.
 type: docs
 weight: 40
 url: /de/net/aspose.words/fileformatutil/extensiontosaveformat/
 ---
 ## FileFormatUtil.ExtensionToSaveFormat method
 
-Konvertiert eine Dateinamenerweiterung in a[`SaveFormat`](../../saveformat/) wert.
+Konvertiert eine Dateinamenerweiterung in eine[`SaveFormat`](../../saveformat/) value.
 
 ```csharp
 public static SaveFormat ExtensionToSaveFormat(string extension)
@@ -16,13 +16,13 @@ public static SaveFormat ExtensionToSaveFormat(string extension)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| extension | String | Die Dateierweiterung. Kann mit oder ohne führenden Punkt sein. Groß- und Kleinschreibung beachten. |
+| extension | String | Die Dateierweiterung. Kann mit oder ohne führenden Punkt sein. Groß- und Kleinschreibung wird nicht beachtet. |
 
 ### Ausnahmen
 
 | Ausnahme | Bedingung |
 | --- | --- |
-| ArgumentNullException | Wird ausgelöst, wenn der Parameter null ist. |
+| ArgumentNullException | Wird ausgelöst, wenn der Parameter vorhanden ist`Null`. |
 
 ### Bemerkungen
 
@@ -33,7 +33,7 @@ Wenn die Erweiterung nicht erkannt werden kann, wird zurückgegebenUnknown.
 Zeigt, wie die FileFormatUtil-Methoden verwendet werden, um das Format eines Dokuments zu erkennen.
 
 ```csharp
-// Laden Sie ein Dokument aus einer Datei, der eine Dateierweiterung fehlt, und erkennen Sie dann das Dateiformat.
+// Laden Sie ein Dokument aus einer Datei, der eine Dateierweiterung fehlt, und ermitteln Sie dann das Dateiformat.
 using (FileStream docStream = File.OpenRead(MyDir + "Word document with missing file extension"))
 {
     FileFormatInfo info = FileFormatUtil.DetectFileFormat(docStream);
@@ -41,15 +41,15 @@ using (FileStream docStream = File.OpenRead(MyDir + "Word document with missing 
 
     Assert.AreEqual(LoadFormat.Doc, loadFormat);
 
-    // Unten sind zwei Methoden zum Konvertieren eines LoadFormats in sein entsprechendes SaveFormat.
-    // 1 - Holen Sie sich die Dateierweiterungszeichenfolge für das LoadFormat, dann erhalten Sie das entsprechende SaveFormat aus dieser Zeichenfolge:
+    // Nachfolgend finden Sie zwei Methoden zum Konvertieren eines LoadFormats in das entsprechende SaveFormat.
+    // 1 – Holen Sie sich die Dateierweiterungszeichenfolge für das LoadFormat und dann das entsprechende SaveFormat aus dieser Zeichenfolge:
     string fileExtension = FileFormatUtil.LoadFormatToExtension(loadFormat);
     SaveFormat saveFormat = FileFormatUtil.ExtensionToSaveFormat(fileExtension);
 
-    // 2 - Konvertiere das LoadFormat direkt in sein SaveFormat:
+    // 2 – Konvertieren Sie das LoadFormat direkt in sein SaveFormat:
     saveFormat = FileFormatUtil.LoadFormatToSaveFormat(loadFormat);
 
-    // Laden Sie ein Dokument aus dem Stream und speichern Sie es dann in der automatisch erkannten Dateierweiterung.
+    // Laden Sie ein Dokument aus dem Stream und speichern Sie es dann mit der automatisch erkannten Dateierweiterung.
     Document doc = new Document(docStream);
 
     Assert.AreEqual(".doc", FileFormatUtil.SaveFormatToExtension(saveFormat));

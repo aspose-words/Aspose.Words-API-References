@@ -1,14 +1,14 @@
 ---
 title: BarcodeParameters.FacingIdentificationMark
 second_title: Справочник по API Aspose.Words для .NET
-description: BarcodeParameters свойство. Тип маркировки лицевой стороны FIM.
+description: BarcodeParameters свойство. Тип идентификационного знака облицовки FIM.
 type: docs
 weight: 90
 url: /ru/net/aspose.words.fields/barcodeparameters/facingidentificationmark/
 ---
 ## BarcodeParameters.FacingIdentificationMark property
 
-Тип маркировки лицевой стороны (FIM).
+Тип идентификационного знака облицовки (FIM).
 
 ```csharp
 public string FacingIdentificationMark { get; set; }
@@ -21,9 +21,8 @@ public string FacingIdentificationMark { get; set; }
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
-
 // Мы можем использовать собственную реализацию IBarcodeGenerator для генерации штрих-кодов,
-// и затем вставляем их в документ как изображения.
+// а затем вставляем их в документ как изображения.
 doc.FieldOptions.BarcodeGenerator = new CustomBarcodeGenerator();
 
 // Ниже приведены четыре примера различных типов штрих-кодов, которые мы можем создать с помощью нашего генератора.

@@ -3,12 +3,14 @@ title: Class ChartDataPoint
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Drawing.Charts.ChartDataPoint klass. Tillåter att ange formatering av en enskild datapunkt på diagrammet.
 type: docs
-weight: 650
+weight: 690
 url: /sv/net/aspose.words.drawing.charts/chartdatapoint/
 ---
 ## ChartDataPoint class
 
 Tillåter att ange formatering av en enskild datapunkt på diagrammet.
+
+För att lära dig mer, besök[Arbeta med diagram](https://docs.aspose.com/words/net/working-with-charts/) dokumentationsartikel.
 
 ```csharp
 public class ChartDataPoint : IChartDataPoint
@@ -18,12 +20,12 @@ public class ChartDataPoint : IChartDataPoint
 
 | namn | Beskrivning |
 | --- | --- |
-| [Bubble3D](../../aspose.words.drawing.charts/chartdatapoint/bubble3d/) { get; set; } |  |
-| [Explosion](../../aspose.words.drawing.charts/chartdatapoint/explosion/) { get; set; } |  |
+| [Bubble3D](../../aspose.words.drawing.charts/chartdatapoint/bubble3d/) { get; set; } | Anger om bubblorna i bubbeldiagrammet ska ha en 3D-effekt på dem. |
+| [Explosion](../../aspose.words.drawing.charts/chartdatapoint/explosion/) { get; set; } | Anger hur mycket datapunkten ska flyttas från mitten av cirkeln. Kan vara negativ, negativ betyder att egenskapen inte är inställd och ingen explosion ska tillämpas. Gäller endast cirkeldiagram. |
 | [Format](../../aspose.words.drawing.charts/chartdatapoint/format/) { get; } | Ger tillgång till fyllnings- och linjeformatering av denna datapunkt. |
 | [Index](../../aspose.words.drawing.charts/chartdatapoint/index/) { get; } | Index för datapunkten som detta objekt tillämpar formatering på. |
-| [InvertIfNegative](../../aspose.words.drawing.charts/chartdatapoint/invertifnegative/) { get; set; } |  |
-| [Marker](../../aspose.words.drawing.charts/chartdatapoint/marker/) { get; } |  |
+| [InvertIfNegative](../../aspose.words.drawing.charts/chartdatapoint/invertifnegative/) { get; set; } | Anger om det överordnade elementet ska invertera sina färger om värdet är negativt. |
+| [Marker](../../aspose.words.drawing.charts/chartdatapoint/marker/) { get; } | Anger diagramdatamarkör. |
 
 ## Metoder
 
@@ -40,7 +42,6 @@ På en serie`ChartDataPoint` objektet är medlem i[`ChartDataPointCollection`](.
 Visar hur man arbetar med datapunkter på ett linjediagram.
 
 ```csharp
-[Test]
 public void ChartDataPoint()
 {
     Document doc = new Document();

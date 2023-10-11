@@ -16,13 +16,13 @@ public bool Shadow { get; set; }
 
 ### Osservazioni
 
-Ottiene il valore dal primo bordo della raccolta.
+Ottiene il valore dal primo bordo nella raccolta.
 
 Imposta il valore per tutti i bordi nella raccolta esclusi i bordi diagonali.
 
 ### Esempi
 
-Mostra come creare un bordo di pagina ondulato verde con un'ombra.
+Mostra come creare un bordo verde ondulato della pagina con un'ombra.
 
 ```csharp
 Document doc = new Document();

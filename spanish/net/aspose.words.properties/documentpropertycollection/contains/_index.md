@@ -1,14 +1,14 @@
 ---
 title: DocumentPropertyCollection.Contains
 second_title: Referencia de API de Aspose.Words para .NET
-description: DocumentPropertyCollection método. Devuelve verdadero si existe una propiedad con el nombre especificado en la colección.
+description: DocumentPropertyCollection método. Devolucionesverdadero si existe una propiedad con el nombre especificado en la colección.
 type: docs
 weight: 40
 url: /es/net/aspose.words.properties/documentpropertycollection/contains/
 ---
 ## DocumentPropertyCollection.Contains method
 
-Devuelve verdadero si existe una propiedad con el nombre especificado en la colección.
+Devoluciones`verdadero` si existe una propiedad con el nombre especificado en la colección.
 
 ```csharp
 public bool Contains(string name)
@@ -20,7 +20,7 @@ public bool Contains(string name)
 
 ### Valor_devuelto
 
-True si la propiedad existe en la colección; falso en caso contrario.
+`verdadero` si la propiedad existe en la colección;`FALSO` de lo contrario.
 
 ### Ejemplos
 
@@ -43,7 +43,7 @@ properties.Add("Authorized Amount", 123.45);
 Assert.AreEqual(1, properties.IndexOf("Authorized Amount"));
 Assert.AreEqual(5, properties.Count);
 
-// Imprime cada propiedad personalizada en el documento.
+// Imprime todas las propiedades personalizadas del documento.
 using (IEnumerator<DocumentProperty> enumerator = properties.GetEnumerator())
 {
     while (enumerator.MoveNext())
@@ -57,7 +57,7 @@ field.Update();
 
 Assert.AreEqual("John Doe", field.Result);
 
-// Podemos encontrar estas propiedades personalizadas en Microsoft Word a través de "Archivo" -> "Propiedades" > "Propiedades avanzadas" > "Disfraz".
+// Podemos encontrar estas propiedades personalizadas en Microsoft Word a través de "Archivo" -> "Propiedades" > "Propiedades avanzadas" > "Costumbre".
 doc.Save(ArtifactsDir + "DocumentProperties.DocumentPropertyCollection.docx");
 
 // A continuación se muestran tres formas de eliminar propiedades personalizadas de un documento.
@@ -73,7 +73,7 @@ properties.Remove("Authorized Revision");
 Assert.False(properties.Contains("Authorized Revision"));
 Assert.AreEqual(3, properties.Count);
 
-// 3 - Vaciar toda la colección a la vez:
+// 3 - Vaciar toda la colección de una vez:
 properties.Clear();
 
 Assert.AreEqual(0, properties.Count);

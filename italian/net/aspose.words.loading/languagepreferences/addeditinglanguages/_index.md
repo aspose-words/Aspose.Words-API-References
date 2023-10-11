@@ -1,14 +1,14 @@
 ---
 title: LanguagePreferences.AddEditingLanguages
 second_title: Aspose.Words per .NET API Reference
-description: LanguagePreferences metodo. Aggiunge lingue di modifica aggiuntive.
+description: LanguagePreferences metodo. Aggiunge ulteriori lingue di modifica.
 type: docs
 weight: 40
 url: /it/net/aspose.words.loading/languagepreferences/addeditinglanguages/
 ---
 ## LanguagePreferences.AddEditingLanguages method
 
-Aggiunge lingue di modifica aggiuntive.
+Aggiunge ulteriori lingue di modifica.
 
 ```csharp
 public void AddEditingLanguages(EditingLanguage[] languages)

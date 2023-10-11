@@ -1,14 +1,14 @@
 ---
 title: FieldCitation.SourceTag
 second_title: Aspose.Words för .NET API Referens
-description: FieldCitation fast egendom. Hämtar eller ställer in ett värde som motsvarar Märkaelementets värde för källan som ska infogas.
+description: FieldCitation fast egendom. Hämtar eller ställer in ett värde som matchar Märka elementets värde för källan som ska infogas.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.fields/fieldcitation/sourcetag/
 ---
 ## FieldCitation.SourceTag property
 
-Hämtar eller ställer in ett värde som motsvarar **Märka**elementets värde för källan som ska infogas.
+Hämtar eller ställer in ett värde som matchar **Märka** elementets värde för källan som ska infogas.
 
 ```csharp
 public string SourceTag { get; set; }
@@ -57,9 +57,9 @@ Assert.AreEqual(" CITATION  Book1 \\m Book2 \\l en-US \\p 19 \\f \"Prefix \" \\s
 // Vi kan använda ett BIBLIOGRAFI-fält för att visa alla källor i dokumentet.
 builder.InsertBreak(BreakType.PageBreak);
 FieldBibliography fieldBibliography = (FieldBibliography)builder.InsertField(FieldType.FieldBibliography, true);
-fieldBibliography.FormatLanguageId = "1124";
+fieldBibliography.FormatLanguageId = "5129";
 
-Assert.AreEqual(" BIBLIOGRAPHY  \\l 1124", fieldBibliography.GetFieldCode());
+Assert.AreEqual(" BIBLIOGRAPHY  \\l 5129", fieldBibliography.GetFieldCode());
 
 doc.UpdateFields();
 doc.Save(ArtifactsDir + "Field.CITATION.docx");

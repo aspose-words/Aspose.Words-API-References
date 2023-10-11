@@ -16,18 +16,18 @@ public StyleCollection Styles { get; }
 
 ### Remarques
 
-Pour plus d'informations, consultez la description du[`StyleCollection`](../../stylecollection/) classer.
+Pour plus d'informations, voir la description du[`StyleCollection`](../../stylecollection/) classe.
 
 ### Exemples
 
-Montre comment accéder à la collection de styles d'un document.
+Montre comment accéder à la collection de styles d’un document.
 
 ```csharp
 Document doc = new Document();
 
 Assert.AreEqual(4, doc.Styles.Count);
 
-// Énumère et liste tous les styles qu'un document créé avec Aspose.Words contient par défaut.
+// Énumère et répertorie tous les styles qu'un document créé à l'aide d'Aspose.Words contient par défaut.
 using (IEnumerator<Style> stylesEnum = doc.Styles.GetEnumerator())
 {
     while (stylesEnum.MoveNext())
@@ -59,11 +59,11 @@ style.ParagraphFormat.SpaceAfter = 12;
 style.ListFormat.List = doc.Lists.Add(ListTemplate.BulletDefault);
 style.ListFormat.ListLevelNumber = 0;
 
-// Appliquez le style de paragraphe au paragraphe actuel du générateur de document, puis ajoutez du texte.
+// Applique le style de paragraphe au paragraphe actuel du générateur de documents, puis ajoute du texte.
 builder.ParagraphFormat.Style = style;
 builder.Writeln("Hello World: MyStyle1, bulleted list.");
 
-// Modifiez le style du générateur de document en un style qui n'a pas de formatage de liste et écrivez un autre paragraphe.
+// Changez le style du générateur de documents en un style sans formatage de liste et écrivez un autre paragraphe.
 builder.ParagraphFormat.Style = doc.Styles["Normal"];
 builder.Writeln("Hello World: Normal.");
 

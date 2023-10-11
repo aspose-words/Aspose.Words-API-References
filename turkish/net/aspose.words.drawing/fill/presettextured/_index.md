@@ -3,7 +3,7 @@ title: Fill.PresetTextured
 second_title: Aspose.Words for .NET API Referansı
 description: Fill yöntem. Dolguyu önceden ayarlanmış bir dokuya ayarlar.
 type: docs
-weight: 180
+weight: 240
 url: /tr/net/aspose.words.drawing/fill/presettextured/
 ---
 ## Fill.PresetTextured method
@@ -29,12 +29,12 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertChart(ChartType.Scatter, 432, 252);
 Chart chart = shape.Chart;
 
-// Varsayılan oluşturulan serileri sil.
+// Varsayılan olarak oluşturulan seriyi silin.
 chart.Series.Clear();
 ChartSeries series = chart.Series.Add("AW Series 1", new[] { 0.7, 1.8, 2.6, 3.9 },
     new[] { 2.7, 3.2, 0.8, 1.7 });
 
-// İşaret biçimlendirmesini ayarla.
+// İşaretçi biçimlendirmesini ayarlayın.
 series.Marker.Size = 40;
 series.Marker.Symbol = MarkerSymbol.Square;
 ChartDataPointCollection dataPoints = series.DataPoints;

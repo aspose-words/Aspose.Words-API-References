@@ -1,14 +1,14 @@
 ---
 title: DocumentBuilder.InsertNode
 second_title: Aspose.Words per .NET API Reference
-description: DocumentBuilder metodo. Inserisce un nodo a livello di testo allinterno del paragrafo corrente prima del cursore.
+description: DocumentBuilder metodo. Inserisce un nodo prima del cursore.
 type: docs
-weight: 360
+weight: 390
 url: /it/net/aspose.words/documentbuilder/insertnode/
 ---
 ## DocumentBuilder.InsertNode method
 
-Inserisce un nodo a livello di testo all'interno del paragrafo corrente prima del cursore.
+Inserisce un nodo prima del cursore.
 
 ```csharp
 public void InsertNode(Node node)
@@ -34,12 +34,12 @@ builder.InsertNode(shape);
 
 doc.Save(ArtifactsDir + "Image.CreateLinkedImage.Embedded.docx");
 
-// Ogni immagine che memorizziamo in forma aumenterà le dimensioni del nostro documento.
+// Ogni immagine che memorizziamo in forma aumenterà la dimensione del nostro documento.
 Assert.True(70000 < new FileInfo(ArtifactsDir + "Image.CreateLinkedImage.Embedded.docx").Length);
 
 doc.FirstSection.Body.FirstParagraph.RemoveAllChildren();
 
-// 2 - Imposta la forma da collegare a un file immagine nel file system locale.
+// 2 - Imposta la forma per collegarsi a un file immagine nel file system locale.
 shape = new Shape(builder.Document, ShapeType.Image);
 shape.WrapType = WrapType.Inline;
 shape.ImageData.SourceFullName = imageFileName;

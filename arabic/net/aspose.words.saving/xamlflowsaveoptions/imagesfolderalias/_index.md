@@ -1,14 +1,14 @@
 ---
 title: XamlFlowSaveOptions.ImagesFolderAlias
 second_title: Aspose.Words لمراجع .NET API
-description: XamlFlowSaveOptions ملكية. يحدد اسم المجلد المستخدم في إنشاء عناوين URI للصورة مكتوبة في مستند XAML . الافتراضي هو عبارة عن سلسلة فارغة.
+description: XamlFlowSaveOptions ملكية. يحدد اسم المجلد المستخدم لإنشاء معرفات URI للصور المكتوبة في مستند XAML. الافتراضي هو سلسلة فارغة.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.saving/xamlflowsaveoptions/imagesfolderalias/
 ---
 ## XamlFlowSaveOptions.ImagesFolderAlias property
 
-يحدد اسم المجلد المستخدم في إنشاء عناوين URI للصورة مكتوبة في مستند XAML . الافتراضي هو عبارة عن سلسلة فارغة.
+يحدد اسم المجلد المستخدم لإنشاء معرفات URI للصور المكتوبة في مستند XAML. الافتراضي هو سلسلة فارغة.
 
 ```csharp
 public string ImagesFolderAlias { get; set; }
@@ -16,41 +16,42 @@ public string ImagesFolderAlias { get; set; }
 
 ### ملاحظات
 
-عندما تقوم بحفظ ملف[`Document`](../../../aspose.words/document/) بتنسيق XAML ، يحتاج Aspose.Words إلى حفظ جميع الصور المضمنة في المستند كملفات قائمة بذاتها.[`ImagesFolder`](../imagesfolder/) يسمح لك بتحديد مكان حفظ الصور و`ImagesFolderAlias` يسمح بتحديد كيفية إنشاء عناوين URI للصورة.
+عندما تقوم بحفظ أ[`Document`](../../../aspose.words/document/) بتنسيق XAML، يحتاج Aspose.Words إلى حفظ كافة الصور المضمنة في المستند كملفات مستقلة.[`ImagesFolder`](../imagesfolder/) يسمح لك بتحديد مكان حفظ الصور و`ImagesFolderAlias` يسمح بتحديد كيفية إنشاء معرفات URI للصورة.
 
-إذا`ImagesFolderAlias` ليست سلسلة فارغة ، ثم صورة URI المكتوبة إلى XAML ستكونImagesFolderAlias + &lt;اسم ملف الصورة&gt;.
+لو`ImagesFolderAlias` ليست سلسلة فارغة، فسيكون URI للصورة المكتوب إلى XAMLImagesFolderAlias + &lt;اسم ملف الصورة&gt;.
 
-إذا`ImagesFolderAlias` عبارة عن سلسلة فارغة ، فسيكون عنوان URI للصورة المكتوب إلى XAMLImagesFolder + &lt;اسم ملف الصورة&gt;.
+لو`ImagesFolderAlias`إذا كانت سلسلة فارغة، فسيكون URI للصورة المكتوبة إلى XAMLImagesFolder + &lt;اسم ملف الصورة&gt;.
 
-إذا`ImagesFolderAlias` تم تعيينه على "." (نقطة) ، فسيتم كتابة اسم ملف الصورة إلى XAML بدون مسار بغض النظر عن الخيارات الأخرى.
+لو`ImagesFolderAlias` تم ضبطه على "." (نقطة)، فسيتم كتابة اسم ملف الصورة إلى XAML بدون مسار بغض النظر عن الخيارات الأخرى.
 
 ### أمثلة
 
-يوضح كيفية طباعة أسماء ملفات الصور المرتبطة التي تم إنشاؤها أثناء تحويل مستند إلى تنسيق .xaml.
+يوضح كيفية طباعة أسماء ملفات الصور المرتبطة التي تم إنشاؤها أثناء تحويل مستند إلى شكل تدفق .xaml.
 
 ```csharp
+public void ImageFolder()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
     ImageUriPrinter callback = new ImageUriPrinter(ArtifactsDir + "XamlFlowImageFolderAlias");
 
-    // قم بإنشاء كائن "XamlFlowSaveOptions" ، والذي يمكننا تمريره إلى طريقة "Save" الخاصة بالمستند
+    // قم بإنشاء كائن "XamlFlowSaveOptions"، والذي يمكننا تمريره إلى طريقة "حفظ" المستند
     // لتعديل كيفية حفظ المستند بتنسيق حفظ XAML.
     XamlFlowSaveOptions options = new XamlFlowSaveOptions();
 
     Assert.AreEqual(SaveFormat.XamlFlow, options.SaveFormat);
 
-    // استخدم خاصية "ImagesFolder" لتعيين مجلد في نظام الملفات المحلي فيه
-    // Aspose.Words ستحفظ جميع الصور المرتبطة بالمستند.
+    // استخدم خاصية "ImagesFolder" لتعيين مجلد في نظام الملفات المحلي الذي
+    // Aspose.Words سيحفظ جميع الصور المرتبطة بالمستند.
     options.ImagesFolder = ArtifactsDir + "XamlFlowImageFolder";
 
     // استخدم خاصية "ImagesFolderAlias" لاستخدام هذا المجلد
-    // عند إنشاء عناوين URI للصور بدلاً من اسم مجلد الصور.
+    // عند إنشاء معرفات URI للصورة بدلاً من اسم مجلد الصور.
     options.ImagesFolderAlias = ArtifactsDir + "XamlFlowImageFolderAlias";
 
     options.ImageSavingCallback = callback;
 
-    // سيحتاج المجلد المحدد بواسطة "ImagesFolderAlias" إلى احتواء الموارد بدلاً من "ImagesFolder".
+    // المجلد المحدد بواسطة "ImagesFolderAlias" سيحتاج إلى أن يحتوي على الموارد بدلاً من "ImagesFolder".
     // يجب أن نتأكد من وجود المجلد قبل أن تتمكن تدفقات رد الاتصال من وضع مواردها فيه.
     Directory.CreateDirectory(options.ImagesFolderAlias);
 
@@ -58,9 +59,10 @@ public string ImagesFolderAlias { get; set; }
 
     foreach (string resource in callback.Resources)
         Console.WriteLine($"{callback.ImagesFolderAlias}/{resource}");
+}
 
 /// <summary>
-/// يعد ويطبع أسماء ملفات الصور أثناء تحويل المستند الأصلي إلى نموذج تدفق .xaml.
+/// يقوم بحساب وطباعة أسماء ملفات الصور أثناء تحويل المستند الأصلي إلى شكل انسيابي .xaml.
 /// </summary>
 private class ImageUriPrinter : IImageSavingCallback
 {
@@ -74,8 +76,8 @@ private class ImageUriPrinter : IImageSavingCallback
     {
         Resources.Add(args.ImageFileName);
 
-        // إذا حددنا اسمًا مستعارًا لمجلد الصور ، فسنحتاج أيضًا إلى
-        // لإعادة توجيه كل دفق لوضع صورته في مجلد الاسم المستعار.
+        // إذا حددنا اسمًا مستعارًا لمجلد الصور، فسنحتاج أيضًا إلى ذلك
+        // لإعادة توجيه كل تيار لوضع صورته في المجلد المستعار.
         args.ImageStream = new FileStream($"{ImagesFolderAlias}/{args.ImageFileName}", FileMode.Create);
         args.KeepImageStreamOpen = false;
     }

@@ -3,7 +3,7 @@ title: DocumentBuilder.InsertSignatureLine
 second_title: Справочник по API Aspose.Words для .NET
 description: DocumentBuilder метод. Вставляет строку подписи в текущую позицию.
 type: docs
-weight: 420
+weight: 450
 url: /ru/net/aspose.words/documentbuilder/insertsignatureline/
 ---
 ## InsertSignatureLine(SignatureLineOptions) {#insertsignatureline}
@@ -16,15 +16,15 @@ public Shape InsertSignatureLine(SignatureLineOptions signatureLineOptions)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| signatureLineOptions | SignatureLineOptions | Объект, в котором хранятся параметры создания строки подписи. |
+| signatureLineOptions | SignatureLineOptions | Объект, хранящий параметры создания строки подписи. |
 
 ### Возвращаемое значение
 
-Только что вставленный узел строки подписи.
+Узел строки подписи, который был только что вставлен.
 
 ### Примеры
 
-Показывает, как подписать документ личным сертификатом и строкой подписи.
+Показывает, как подписать документ личным удостоверением и строкой подписи.
 
 ```csharp
 Document doc = new Document();
@@ -62,8 +62,8 @@ CertificateHolder certHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "a
 DigitalSignatureUtil.Sign(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.docx", 
     ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx", certHolder, signOptions);
 
-// Снова открываем наш сохраненный документ и проверяем, что свойства «IsSigned» и «IsValid» равны «true»,
-// указание на то, что строка подписи содержит подпись.
+// Снова открываем сохраненный документ и проверяем, что свойства «IsSigned» и «IsValid» равны «true»,
+// указываем, что строка подписи содержит подпись.
 doc = new Document(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx");
 Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
 signatureLine = shape.SignatureLine;
@@ -94,16 +94,16 @@ public Shape InsertSignatureLine(SignatureLineOptions signatureLineOptions,
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| signatureLineOptions | SignatureLineOptions | Объект, в котором хранятся параметры создания строки подписи. |
-| horzPos | RelativeHorizontalPosition | Указывает, где отсчитывается расстояние до линии подписи. |
-| left | Double | Расстояние в пунктах от начала координат до левой стороны линии подписи. |
-| vertPos | RelativeVerticalPosition | Указывает, где измеряется расстояние до линии подписи. |
-| top | Double | Расстояние в пунктах от начала координат до верхней стороны линии подписи. |
-| wrapType | WrapType | Указывает, как обтекать текст вокруг строки подписи. |
+| signatureLineOptions | SignatureLineOptions | Объект, хранящий параметры создания строки подписи. |
+| horzPos | RelativeHorizontalPosition | Указывает, откуда измеряется расстояние до линии подписи. |
+| left | Double | Расстояние в пунктах от начала координат до левой части линии подписи. |
+| vertPos | RelativeVerticalPosition | Указывает, откуда измеряется расстояние до линии подписи. |
+| top | Double | Расстояние в пунктах от начала координат до верхней части линии подписи. |
+| wrapType | WrapType | Указывает, как обтекать строку подписи текстом. |
 
 ### Возвращаемое значение
 
-Только что вставленный узел строки подписи.
+Узел строки подписи, который был только что вставлен.
 
 ### Примечания
 
@@ -111,7 +111,7 @@ public Shape InsertSignatureLine(SignatureLineOptions signatureLineOptions,
 
 ### Примеры
 
-Показывает, как вставить встроенную строку подписи в документ.
+Показывает, как вставить в документ встроенную строку подписи.
 
 ```csharp
 Document doc = new Document();
@@ -131,7 +131,7 @@ SignatureLineOptions options = new SignatureLineOptions
 builder.InsertSignatureLine(options, RelativeHorizontalPosition.RightMargin, 2.0,
     RelativeVerticalPosition.Page, 3.0, WrapType.Inline);
 
-// Строку подписи можно подписать в Microsoft Word, дважды щелкнув по ней.
+// Строку подписи можно подписать в Microsoft Word, дважды щелкнув ее.
 doc.Save(ArtifactsDir + "DocumentBuilder.SignatureLineInline.docx");
 ```
 

@@ -3,12 +3,14 @@ title: Class ComparisonExpression
 second_title: Aspose.Words for .NET API Referansı
 description: Aspose.Words.Fields.ComparisonExpression sınıf. Karşılaştırma ifadesi.
 type: docs
-weight: 1340
+weight: 1490
 url: /tr/net/aspose.words.fields/comparisonexpression/
 ---
 ## ComparisonExpression class
 
 Karşılaştırma ifadesi.
+
+Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Alanlarla Çalışmak](https://docs.aspose.com/words/net/working-with-fields/) dokümantasyon makalesi.
 
 ```csharp
 public sealed class ComparisonExpression
@@ -24,7 +26,7 @@ public sealed class ComparisonExpression
 
 ### Örnekler
 
-EĞER ve KARŞILAŞTIR alanları için özel değerlendirmenin nasıl uygulanacağını gösterir.
+IF ve COMPARE alanları için özel değerlendirmenin nasıl uygulanacağını gösterir.
 
 ```csharp
 public void ConditionEvaluationExtensionPoint(string fieldCode, sbyte comparisonResult, string comparisonError,
@@ -38,10 +40,10 @@ public void ConditionEvaluationExtensionPoint(string fieldCode, sbyte comparison
 
     // Bu örnekte kullandığımız alan kodları:
     // 1. " IF {0} {1} {2} \"doğru argüman\" \"yanlış argüman\" ".
-    // 2. " KARŞILAŞTIR {0} {1} {2} ".
+    // 2. " KARŞILAŞTIRIN {0} {1} {2} ".
     Field field = builder.InsertField(string.Format(fieldCode, left, @operator, right), null);
 
-    // "comparisonResult" tanımsız ise bool yerine string ile "ComparisonEvaluationResult" yaratırız.
+    // "ComparisonEvaluationResult" tanımsızsa bool yerine string ile "ComparisonEvaluationResult" oluştururuz.
     ComparisonEvaluationResult result = comparisonResult != -1
         ? new ComparisonEvaluationResult(comparisonResult == 1)
         : comparisonError != null ? new ComparisonEvaluationResult(comparisonError) : null;
@@ -56,7 +58,7 @@ public void ConditionEvaluationExtensionPoint(string fieldCode, sbyte comparison
 }
 
 /// <summary>
-/// FieldIf ve FieldCompare için karşılaştırma ifadeleri değerlendirmesi.
+/// FieldIf ve FieldCompare için karşılaştırma ifadelerinin değerlendirilmesi.
 /// </summary>
 private class ComparisonExpressionEvaluator : IComparisonExpressionEvaluator
 {

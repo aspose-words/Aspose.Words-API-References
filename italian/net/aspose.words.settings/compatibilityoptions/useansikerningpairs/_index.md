@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.UseAnsiKerningPairs
 second_title: Aspose.Words per .NET API Reference
-description: CompatibilityOptions proprietà. Usa coppie di crenatura ANSI da Fonts.
+description: CompatibilityOptions proprietà. Utilizza coppie di crenatura ANSI dai caratteri.
 type: docs
 weight: 610
 url: /it/net/aspose.words.settings/compatibilityoptions/useansikerningpairs/
 ---
 ## CompatibilityOptions.UseAnsiKerningPairs property
 
-Usa coppie di crenatura ANSI da Fonts.
+Utilizza coppie di crenatura ANSI dai caratteri.
 
 ```csharp
 public bool UseAnsiKerningPairs { get; set; }

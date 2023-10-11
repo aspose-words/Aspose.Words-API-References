@@ -1,14 +1,14 @@
 ---
 title: ControlChar.NonBreakingSpaceChar
 second_title: Aspose.Words per .NET API Reference
-description: ControlChar campo. Carattere spazio unificatore char160.
+description: ControlChar campo. Spazio unificatore char160.
 type: docs
 weight: 180
 url: /it/net/aspose.words/controlchar/nonbreakingspacechar/
 ---
 ## ControlChar.NonBreakingSpaceChar field
 
-Carattere spazio unificatore: (char)160.
+Spazio unificatore: (char)160.
 
 ```csharp
 public const char NonBreakingSpaceChar;
@@ -22,20 +22,20 @@ Mostra come aggiungere vari caratteri di controllo a un documento.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Aggiungi uno spazio regolare.
+// Aggiunge uno spazio regolare.
 builder.Write("Before space." + ControlChar.SpaceChar + "After space.");
 
-// Aggiungi un NBSP, che è uno spazio unificatore.
+// Aggiunge un NBSP, che è uno spazio unificatore.
 // A differenza dello spazio normale, questo spazio non può avere un'interruzione di riga automatica nella sua posizione.
 builder.Write("Before space." + ControlChar.NonBreakingSpace + "After space.");
 
-// Aggiungi un carattere di tabulazione.
+// Aggiunge un carattere di tabulazione.
 builder.Write("Before tab." + ControlChar.Tab + "After tab.");
 
-// Aggiungi un'interruzione di riga.
+// Aggiunge un'interruzione di riga.
 builder.Write("Before line break." + ControlChar.LineBreak + "After line break.");
 
-// Aggiungi una nuova riga e inizia un nuovo paragrafo.
+// Aggiunge una nuova riga e inizia un nuovo paragrafo.
 Assert.AreEqual(1, doc.FirstSection.Body.GetChildNodes(NodeType.Paragraph, true).Count);
 builder.Write("Before line feed." + ControlChar.LineFeed + "After line feed.");
 Assert.AreEqual(2, doc.FirstSection.Body.GetChildNodes(NodeType.Paragraph, true).Count);
@@ -46,22 +46,22 @@ Assert.AreEqual(ControlChar.LineFeed, ControlChar.Lf);
 // I ritorni a capo e gli avanzamenti di riga possono essere rappresentati insieme da un carattere.
 Assert.AreEqual(ControlChar.CrLf, ControlChar.Cr + ControlChar.Lf);
 
-// Aggiungi un'interruzione di paragrafo, che avvierà un nuovo paragrafo.
+// Aggiunge un'interruzione di paragrafo, che inizierà un nuovo paragrafo.
 builder.Write("Before paragraph break." + ControlChar.ParagraphBreak + "After paragraph break.");
 Assert.AreEqual(3, doc.FirstSection.Body.GetChildNodes(NodeType.Paragraph, true).Count);
 
-// Aggiungi un'interruzione di sezione. Questo non crea una nuova sezione o paragrafo.
+// Aggiunge un'interruzione di sezione. Ciò non crea una nuova sezione o paragrafo.
 Assert.AreEqual(1, doc.Sections.Count);
 builder.Write("Before section break." + ControlChar.SectionBreak + "After section break.");
 Assert.AreEqual(1, doc.Sections.Count);
 
-// Aggiungi un'interruzione di pagina.
+// Aggiunge un'interruzione di pagina.
 builder.Write("Before page break." + ControlChar.PageBreak + "After page break.");
 
 // Un'interruzione di pagina ha lo stesso valore di un'interruzione di sezione.
 Assert.AreEqual(ControlChar.PageBreak, ControlChar.SectionBreak);
 
-// Inserisce una nuova sezione, quindi imposta il conteggio delle colonne su due.
+// Inserisci una nuova sezione, quindi imposta il numero di colonne su due.
 doc.AppendChild(new Section(doc));
 builder.MoveToSection(1);
 builder.CurrentSection.PageSetup.TextColumns.SetCount(2);
@@ -71,7 +71,7 @@ builder.Write("Text at end of column 1." + ControlChar.ColumnBreak + "Text at be
 
 doc.Save(ArtifactsDir + "ControlChar.InsertControlChars.docx");
 
-// Ci sono controparti char e string per la maggior parte dei caratteri.
+// Esistono controparti char e string per la maggior parte dei caratteri.
 Assert.AreEqual(Convert.ToChar(ControlChar.Cell), ControlChar.CellChar);
 Assert.AreEqual(Convert.ToChar(ControlChar.NonBreakingSpace), ControlChar.NonBreakingSpaceChar);
 Assert.AreEqual(Convert.ToChar(ControlChar.Tab), ControlChar.TabChar);

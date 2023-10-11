@@ -26,7 +26,7 @@ Assert.AreEqual(1, doc.Sections.Count);
 Assert.AreEqual(17, doc.Sections[0].GetChildNodes(NodeType.Any, true).Count);
 Assert.AreEqual("Hello World!\r\rHello Word!\r\r\rHello World!", doc.GetText().Trim());
 
-// Limpia la colección de secciones, lo que eliminará todos los elementos secundarios del documento.
+// Borra la colección de secciones, lo que eliminará todos los elementos secundarios del documento.
 doc.Sections.Clear();
 
 Assert.AreEqual(0, doc.GetChildNodes(NodeType.Any, true).Count);

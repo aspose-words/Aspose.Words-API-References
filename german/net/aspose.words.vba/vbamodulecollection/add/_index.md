@@ -16,17 +16,17 @@ public void Add(VbaModule vbaModule)
 
 ### Beispiele
 
-Zeigt, wie ein VBA-Projekt mithilfe von Makros erstellt wird.
+Zeigt, wie man ein VBA-Projekt mithilfe von Makros erstellt.
 
 ```csharp
 Document doc = new Document();
 
-// Erstellen Sie ein neues VBA-Projekt.
+// Ein neues VBA-Projekt erstellen.
 VbaProject project = new VbaProject();
 project.Name = "Aspose.Project";
 doc.VbaProject = project;
 
-// Erstellen Sie ein neues Modul und geben Sie einen Makroquellcode an.
+// Ein neues Modul erstellen und einen Makroquellcode angeben.
 VbaModule module = new VbaModule();
 module.Name = "Aspose.Module";
 module.Type = VbaModuleType.ProceduralModule;

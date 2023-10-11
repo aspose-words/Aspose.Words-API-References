@@ -1,14 +1,14 @@
 ---
 title: SignOptions.SignTime
 second_title: Aspose.Words für .NET-API-Referenz
-description: SignOptions eigendom. Das Datum der Unterzeichnung. Der Standardwert ist aktuelle Uhrzeit Now .
+description: SignOptions eigendom. Das Datum der Unterzeichnung. Der Standardwert ist aktuelle Uhrzeit Now.
 type: docs
 weight: 70
 url: /de/net/aspose.words.digitalsignatures/signoptions/signtime/
 ---
 ## SignOptions.SignTime property
 
-Das Datum der Unterzeichnung. Der Standardwert ist **aktuelle Uhrzeit** (Now ).
+Das Datum der Unterzeichnung. Der Standardwert ist **aktuelle Uhrzeit** (Now).
 
 ```csharp
 public DateTime SignTime { get; set; }
@@ -16,21 +16,21 @@ public DateTime SignTime { get; set; }
 
 ### Beispiele
 
-Zeigt, wie Dokumente digital signiert werden.
+Zeigt, wie man Dokumente digital signiert.
 
 ```csharp
 // Erstellen Sie ein X.509-Zertifikat aus einem PKCS#12-Speicher, das einen privaten Schlüssel enthalten sollte.
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw");
 
-// Erstellen Sie einen Kommentar und ein Datum, die mit unserer neuen digitalen Signatur angewendet werden.
+// Erstellen Sie einen Kommentar und ein Datum, das mit unserer neuen digitalen Signatur angewendet wird.
 SignOptions signOptions = new SignOptions
 {
     Comments = "My comment", 
     SignTime = DateTime.Now
 };
 
-// Nimm ein unsigniertes Dokument aus dem lokalen Dateisystem über einen Dateistream,
-// Erstellen Sie dann eine signierte Kopie davon, die durch den Dateinamen des Ausgabedateistreams bestimmt wird.
+// Über einen Dateistream ein unsigniertes Dokument aus dem lokalen Dateisystem übernehmen,
+// dann eine signierte Kopie davon erstellen, die durch den Dateinamen des Ausgabedateistreams bestimmt wird.
 using (Stream streamIn = new FileStream(MyDir + "Document.docx", FileMode.Open))
 {
     using (Stream streamOut = new FileStream(ArtifactsDir + "DigitalSignatureUtil.SignDocument.docx", FileMode.OpenOrCreate))

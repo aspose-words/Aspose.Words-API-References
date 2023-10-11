@@ -16,9 +16,9 @@ public TimeZoneInfo CustomTimeZoneInfo { get; set; }
 
 ### Remarques
 
-Cette option est disponible dans le framework .Net à partir de la version 3.5 ou .Net Standard.
+Cette option est disponible soit dans le framework .Net à partir de la version 3.5, soit dans .Net Standard.
 
-Par défaut, Aspose.Words utilise le fuseau horaire local du système lors de l'écriture des champs de date/heure, cette option permet de définir une valeur personnalisée.
+Par défaut, Aspose.Words utilise le fuseau horaire local du système lors de l'écriture des champs date/heure, cette option permet de définir une valeur personnalisée.
 
 ### Voir également
 

@@ -3,7 +3,7 @@ title: Paragraph.AppendField
 second_title: Aspose.Words per .NET API Reference
 description: Paragraph metodo. Aggiunge un campo a questo paragrafo.
 type: docs
-weight: 240
+weight: 260
 url: /it/net/aspose.words/paragraph/appendfield/
 ---
 ## AppendField(FieldType, bool) {#appendfield}
@@ -17,7 +17,7 @@ public Field AppendField(FieldType fieldType, bool updateField)
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
 | fieldType | FieldType | Il tipo di campo da aggiungere. |
-| updateField | Boolean | Specifica se aggiornare il campo immediatamente. |
+| updateField | Boolean | Specifica se aggiornare immediatamente il campo. |
 
 ### Valore di ritorno
 
@@ -35,15 +35,15 @@ Paragraph paragraph = doc.FirstSection.Body.FirstParagraph;
 // 1 - Aggiungi un campo DATA utilizzando un tipo di campo, quindi aggiornalo:
 paragraph.AppendField(FieldType.FieldDate, true);
 
-// 2 - Aggiungi un campo TIME usando un codice campo: 
+ // 2 - Aggiungi un campo TIME utilizzando un codice di campo:
 paragraph.AppendField(" TIME  \\@ \"HH:mm:ss\" ");
 
-// 3 - Aggiungi un campo QUOTE utilizzando un codice di campo e visualizza un valore segnaposto:
+// 3 - Aggiungi un campo QUOTE utilizzando un codice di campo e fai in modo che visualizzi un valore segnaposto:
 paragraph.AppendField(" QUOTE \"Real value\"", "Placeholder value");
 
 Assert.AreEqual("Placeholder value", doc.Range.Fields[2].Result);
 
-// Questo campo mostrerà il suo valore segnaposto fino a quando non lo aggiorneremo.
+// Questo campo mostrerà il suo valore segnaposto finché non lo aggiorneremo.
 doc.UpdateFields();
 
 Assert.AreEqual("Real value", doc.Range.Fields[2].Result);
@@ -89,15 +89,15 @@ Paragraph paragraph = doc.FirstSection.Body.FirstParagraph;
 // 1 - Aggiungi un campo DATA utilizzando un tipo di campo, quindi aggiornalo:
 paragraph.AppendField(FieldType.FieldDate, true);
 
-// 2 - Aggiungi un campo TIME usando un codice campo: 
+ // 2 - Aggiungi un campo TIME utilizzando un codice di campo:
 paragraph.AppendField(" TIME  \\@ \"HH:mm:ss\" ");
 
-// 3 - Aggiungi un campo QUOTE utilizzando un codice di campo e visualizza un valore segnaposto:
+// 3 - Aggiungi un campo QUOTE utilizzando un codice di campo e fai in modo che visualizzi un valore segnaposto:
 paragraph.AppendField(" QUOTE \"Real value\"", "Placeholder value");
 
 Assert.AreEqual("Placeholder value", doc.Range.Fields[2].Result);
 
-// Questo campo mostrerà il suo valore segnaposto fino a quando non lo aggiorneremo.
+// Questo campo mostrerà il suo valore segnaposto finché non lo aggiorneremo.
 doc.UpdateFields();
 
 Assert.AreEqual("Real value", doc.Range.Fields[2].Result);
@@ -125,7 +125,7 @@ public Field AppendField(string fieldCode, string fieldValue)
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
 | fieldCode | String | Il codice di campo da aggiungere (senza parentesi graffe). |
-| fieldValue | String | Il valore del campo da aggiungere. Passa null per i campi che non hanno un valore. |
+| fieldValue | String | Il valore del campo da aggiungere. Passaggio`nullo` per i campi che non hanno un valore. |
 
 ### Valore di ritorno
 
@@ -143,15 +143,15 @@ Paragraph paragraph = doc.FirstSection.Body.FirstParagraph;
 // 1 - Aggiungi un campo DATA utilizzando un tipo di campo, quindi aggiornalo:
 paragraph.AppendField(FieldType.FieldDate, true);
 
-// 2 - Aggiungi un campo TIME usando un codice campo: 
+ // 2 - Aggiungi un campo TIME utilizzando un codice di campo:
 paragraph.AppendField(" TIME  \\@ \"HH:mm:ss\" ");
 
-// 3 - Aggiungi un campo QUOTE utilizzando un codice di campo e visualizza un valore segnaposto:
+// 3 - Aggiungi un campo QUOTE utilizzando un codice di campo e fai in modo che visualizzi un valore segnaposto:
 paragraph.AppendField(" QUOTE \"Real value\"", "Placeholder value");
 
 Assert.AreEqual("Placeholder value", doc.Range.Fields[2].Result);
 
-// Questo campo mostrerà il suo valore segnaposto fino a quando non lo aggiorneremo.
+// Questo campo mostrerà il suo valore segnaposto finché non lo aggiorneremo.
 doc.UpdateFields();
 
 Assert.AreEqual("Real value", doc.Range.Fields[2].Result);

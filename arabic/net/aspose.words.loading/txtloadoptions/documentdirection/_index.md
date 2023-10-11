@@ -1,14 +1,14 @@
 ---
 title: TxtLoadOptions.DocumentDirection
 second_title: Aspose.Words لمراجع .NET API
-description: TxtLoadOptions ملكية. الحصول على أو تحديد اتجاه المستند. القيمة الافتراضية هيLeftToRight .
+description: TxtLoadOptions ملكية. الحصول على اتجاه المستند أو تحديده. القيمة الافتراضية هيLeftToRight .
 type: docs
-weight: 30
+weight: 50
 url: /ar/net/aspose.words.loading/txtloadoptions/documentdirection/
 ---
 ## TxtLoadOptions.DocumentDirection property
 
-الحصول على أو تحديد اتجاه المستند. القيمة الافتراضية هيLeftToRight .
+الحصول على اتجاه المستند أو تحديده. القيمة الافتراضية هيLeftToRight .
 
 ```csharp
 public DocumentDirection DocumentDirection { get; set; }
@@ -16,16 +16,16 @@ public DocumentDirection DocumentDirection { get; set; }
 
 ### أمثلة
 
-يوضح كيفية اكتشاف اتجاه نص مستند عادي.
+يوضح كيفية اكتشاف اتجاه نص مستند النص العادي.
 
 ```csharp
-// قم بإنشاء كائن "TxtLoadOptions" ، والذي يمكننا تمريره إلى مُنشئ المستند
+// قم بإنشاء كائن "TxtLoadOptions"، والذي يمكننا تمريره إلى مُنشئ المستند
 // لتعديل كيفية تحميل مستند نص عادي.
 TxtLoadOptions loadOptions = new TxtLoadOptions();
 
-// اضبط خاصية "DocumentDirection" على "DocumentDirection.Auto" بالكشف تلقائيًا
-// اتجاه كل فقرة من النص يتم تحميل كلمات Aspose.Words من نص عادي.
-// ستقوم خاصية "Bidi" الخاصة بكل فقرة بتخزين اتجاهها.
+// قم بتعيين خاصية "DocumentDirection" على "DocumentDirection.Auto" التي يتم اكتشافها تلقائيًا
+// اتجاه كل فقرة من النص يقوم Aspose.Words بتحميلها من النص العادي.
+// خاصية "Bidi" لكل فقرة ستخزن اتجاهها.
 loadOptions.DocumentDirection = DocumentDirection.Auto;
 
 // كشف النص العبري من اليمين إلى اليسار.
@@ -33,7 +33,7 @@ Document doc = new Document(MyDir + "Hebrew text.txt", loadOptions);
 
 Assert.True(doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Bidi);
 
-// كشف النص الإنجليزي من اليمين إلى اليسار.
+// اكتشاف النص الإنجليزي باعتباره من اليمين إلى اليسار.
 doc = new Document(MyDir + "English text.txt", loadOptions);
 
 Assert.False(doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Bidi);

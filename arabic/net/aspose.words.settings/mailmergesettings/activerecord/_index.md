@@ -1,14 +1,14 @@
 ---
 title: MailMergeSettings.ActiveRecord
 second_title: Aspose.Words لمراجع .NET API
-description: MailMergeSettings ملكية. يحدد الفهرس المستند إلى واحد للسجل من مصدر البيانات والذي سيتم عرضه في Microsoft Word. القيمة الافتراضية هي 1.
+description: MailMergeSettings ملكية. يحدد الفهرس الأحادي للسجل من مصدر البيانات والذي سيتم عرضه في Microsoft Word. القيمة الافتراضية هي 1.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.settings/mailmergesettings/activerecord/
 ---
 ## MailMergeSettings.ActiveRecord property
 
-يحدد الفهرس المستند إلى واحد للسجل من مصدر البيانات والذي سيتم عرضه في Microsoft Word. القيمة الافتراضية هي 1.
+يحدد الفهرس الأحادي للسجل من مصدر البيانات والذي سيتم عرضه في Microsoft Word. القيمة الافتراضية هي 1.
 
 ```csharp
 public int ActiveRecord { get; set; }
@@ -16,7 +16,7 @@ public int ActiveRecord { get; set; }
 
 ### أمثلة
 
-يوضح كيفية تنفيذ دمج البريد أثناء الاتصال بمصدر بيانات خارجي.
+يوضح كيفية تنفيذ عملية دمج البريد أثناء الاتصال بمصدر بيانات خارجي.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
@@ -36,8 +36,8 @@ Console.WriteLine($"UDL connection string:\n\t{odso.UdlConnectString}");
 Console.WriteLine($"Table:\n\t{odso.TableName}");
 Console.WriteLine($"Query:\n\t{doc.MailMergeSettings.Query}");
 
-// يمكننا إعادة ضبط هذه الإعدادات بمسحها. بمجرد القيام بذلك وحفظ المستند ،
-// لن يقوم Microsoft Word بعد الآن بتنفيذ دمج المراسلات عندما نستخدمه لتحميل المستند.
+// يمكننا إعادة ضبط هذه الإعدادات عن طريق مسحها. بمجرد أن نفعل ذلك ونحفظ المستند،
+// لن يقوم Microsoft Word بعد الآن بتنفيذ عملية دمج البريد عندما نستخدمه لتحميل المستند.
 settings.Clear();
 
 doc.Save(ArtifactsDir + "MailMerge.OdsoEmail.docx");

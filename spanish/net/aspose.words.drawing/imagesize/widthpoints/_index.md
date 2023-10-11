@@ -1,14 +1,14 @@
 ---
 title: ImageSize.WidthPoints
 second_title: Referencia de API de Aspose.Words para .NET
-description: ImageSize propiedad. Obtiene el ancho de la imagen en puntos. 1 punto es 1/72 pulgadas.
+description: ImageSize propiedad. Obtiene el ancho de la imagen en puntos. 1 punto es 1/72 de pulgada.
 type: docs
 weight: 70
 url: /es/net/aspose.words.drawing/imagesize/widthpoints/
 ---
 ## ImageSize.WidthPoints property
 
-Obtiene el ancho de la imagen en puntos. 1 punto es 1/72 pulgadas.
+Obtiene el ancho de la imagen en puntos. 1 punto es 1/72 de pulgada.
 
 ```csharp
 public double WidthPoints { get; }
@@ -32,7 +32,7 @@ Muestra cómo cambiar el tamaño de una forma con una imagen.
 #endif
 
             // Cuando insertamos una imagen usando el método "InsertImage", el constructor escala la forma que muestra la imagen para que,
-            // cuando vemos el documento con un zoom del 100 % en Microsoft Word, la forma muestra la imagen en su tamaño real.
+            // cuando vemos el documento usando un zoom del 100% en Microsoft Word, la forma muestra la imagen en su tamaño real.
             Document doc = new Document();
             DocumentBuilder builder = new DocumentBuilder(doc);
             Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
@@ -48,10 +48,10 @@ Muestra cómo cambiar el tamaño de una forma con una imagen.
             Assert.AreEqual(300.0d, shape.Width);
             Assert.AreEqual(300.0d, shape.Height);
 
-              // Reducir el tamaño total de la forma en un 50%.
+             // Reducir el tamaño total de la forma en un 50%.
             shape.Width *= 0.5;
 
-              // Los factores de escala se aplican tanto al ancho como a la altura al mismo tiempo para preservar las proporciones de la forma.
+             // Los factores de escala se aplican tanto al ancho como al alto al mismo tiempo para preservar las proporciones de la forma.
             Assert.AreEqual(150.0d, shape.Width);
             Assert.AreEqual(150.0d, shape.Height);
 

@@ -1,14 +1,14 @@
 ---
 title: Node.Range
 second_title: Aspose.Words für .NET-API-Referenz
-description: Node eigendom. Gibt a zurück Bereich Objekt das den Teil eines Dokuments darstellt das in diesem Knoten enthalten ist.
+description: Node eigendom. Gibt a zurückRange Objekt das den Teil eines Dokuments darstellt der in diesem Knoten enthalten ist.
 type: docs
 weight: 80
 url: /de/net/aspose.words/node/range/
 ---
 ## Node.Range property
 
-Gibt a zurück **Bereich** Objekt, das den Teil eines Dokuments darstellt, das in diesem Knoten enthalten ist.
+Gibt a zurück[`Range`](../../range/) Objekt, das den Teil eines Dokuments darstellt, der in diesem Knoten enthalten ist.
 
 ```csharp
 public Range Range { get; }
@@ -29,7 +29,7 @@ builder.Write("Section 2.");
 
 Assert.AreEqual("Section 1. \fSection 2.", doc.GetText().Trim());
 
-// Entfernen Sie den ersten Abschnitt vollständig, indem Sie alle Knoten entfernen
+// Den ersten Abschnitt vollständig entfernen, indem alle Knoten entfernt werden
 // innerhalb seines Bereichs, einschließlich des Abschnitts selbst.
 doc.Sections[0].Range.Delete();
 

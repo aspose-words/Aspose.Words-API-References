@@ -30,7 +30,7 @@ Assert.True(doc.Frameset.ChildFramesets[0].ChildFramesets[0].IsFrameLinkToFile);
 Assert.AreEqual("Document.docx", doc.Frameset.ChildFramesets[1].FrameDefaultUrl);
 Assert.False(doc.Frameset.ChildFramesets[1].IsFrameLinkToFile);
 
-// Modifiez les propriétés de l'un de nos cadres.
+// Change les propriétés d'un de nos frames.
 doc.Frameset.ChildFramesets[0].ChildFramesets[0].FrameDefaultUrl =
     "https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Absolute%20position%20tab.docx" ;
 doc.Frameset.ChildFramesets[0].ChildFramesets[0].IsFrameLinkToFile = false;

@@ -10,7 +10,7 @@ url: /fr/net/aspose.words.loading/resourceloadingargs/uri/
 
 URI de la ressource utilisée pour le téléchargement si[`ResourceLoading`](../../iresourceloadingcallback/resourceloading/) renvoieDefault.
 
-Initialement, il est défini sur l'URI absolu de la ressource, mais l'utilisateur peut le redéfinir sur n'importe quelle valeur.
+Initialement, il est défini sur l'URI absolu de la ressource, , mais l'utilisateur peut le redéfinir sur n'importe quelle valeur.
 
 ```csharp
 public string Uri { get; set; }

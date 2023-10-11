@@ -3,7 +3,7 @@ title: CompareOptions.Granularity
 second_title: Aspose.Words for .NET API 参考
 description: CompareOptions 财产. 指定是按字符还是按单词跟踪更改 默认值为WordLevel.
 type: docs
-weight: 20
+weight: 30
 url: /zh/net/aspose.words.comparing/compareoptions/granularity/
 ---
 ## CompareOptions.Granularity property
@@ -16,7 +16,7 @@ public Granularity Granularity { get; set; }
 
 ### 例子
 
-显示以在比较文档时指定粒度。
+显示在比较文档时指定粒度。
 
 ```csharp
 Document docA = new Document();
@@ -27,8 +27,8 @@ Document docB = new Document();
 DocumentBuilder builderB = new DocumentBuilder(docB);
 builderB.Writeln("Lorems ipsum dolor sit amet consectetur - \"adipiscing\" elit");
 
-// 指定是否跟踪变化
-// 按字符 ('Granularity.CharLevel')，或按单词 ('Granularity.WordLevel')。
+// 指定是否跟踪更改
+// 按字符 ('Granularity.CharLevel') 或按单词 ('Granularity.WordLevel')。
 Aspose.Words.Comparing.CompareOptions compareOptions = new Aspose.Words.Comparing.CompareOptions();
 compareOptions.Granularity = granularity;
 

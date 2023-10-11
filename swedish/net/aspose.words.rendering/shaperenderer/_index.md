@@ -3,12 +3,14 @@ title: Class ShapeRenderer
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Rendering.ShapeRenderer klass. Tillhandahåller metoder för att rendera en individShape ellerGroupShape till en raster eller vektorbild eller till ett grafikobjekt.
 type: docs
-weight: 4330
+weight: 4590
 url: /sv/net/aspose.words.rendering/shaperenderer/
 ---
 ## ShapeRenderer class
 
 Tillhandahåller metoder för att rendera en individ[`Shape`](../../aspose.words.drawing/shape/) eller[`GroupShape`](../../aspose.words.drawing/groupshape/) till en raster- eller vektorbild eller till ett grafikobjekt.
+
+För att lära dig mer, besök[Arbeta med former](https://docs.aspose.com/words/net/working-with-shapes/) dokumentationsartikel.
 
 ```csharp
 public class ShapeRenderer : NodeRendererBase
@@ -48,6 +50,7 @@ public class ShapeRenderer : NodeRendererBase
 Visar hur man renderar en form med ett grafikobjekt och visar det med ett Windows-formulär.
 
 ```csharp
+public void RenderShapesOnForm()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -145,6 +148,7 @@ private class ShapeForm : Form
         }
     }
 
+    private readonly List<KeyValuePair<ShapeBase, float[]>> mShapesToRender;
 }
 ```
 

@@ -1,14 +1,14 @@
 ---
 title: FieldAdvance.HorizontalPosition
 second_title: Aspose.Words لمراجع .NET API
-description: FieldAdvance ملكية. الحصول على أو تحديد عدد النقاط التي يجب نقل النص الذي يتبع الحقل أفقيًا من الحافة اليسرى للعمود أو الإطار أو مربع النص.
+description: FieldAdvance ملكية. الحصول على أو تعيين عدد النقاط التي يجب من خلالها نقل النص الذي يلي الحقل أفقيًا من الحافة اليسرى للعمود أو الإطار أو مربع النص.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fields/fieldadvance/horizontalposition/
 ---
 ## FieldAdvance.HorizontalPosition property
 
-الحصول على أو تحديد عدد النقاط التي يجب نقل النص الذي يتبع الحقل أفقيًا من الحافة اليسرى للعمود أو الإطار أو مربع النص.
+الحصول على أو تعيين عدد النقاط التي يجب من خلالها نقل النص الذي يلي الحقل أفقيًا من الحافة اليسرى للعمود أو الإطار أو مربع النص.
 
 ```csharp
 public string HorizontalPosition { get; set; }
@@ -24,10 +24,10 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Write("This text is in its normal place.");
 
-// فيما يلي طريقتان لاستخدام حقل ADVANCE لضبط موضع النص الذي يليه.
-// يستمر تطبيق تأثيرات حقل ADVANCE حتى تنتهي الفقرة ،
-// أو يقوم حقل ADVANCE آخر بتحديث قيم الإزاحة / الإحداثيات.
-// 1 - حدد إزاحة اتجاهية:
+// فيما يلي طريقتان لاستخدام حقل ADVANCE لضبط موضع النص الذي يتبعه.
+// يستمر تطبيق تأثيرات حقل ADVANCE حتى تنتهي الفقرة،
+// أو حقل ADVANCE آخر يقوم بتحديث قيم الإزاحة/الإحداثيات.
+// 1 - تحديد إزاحة الاتجاه:
 FieldAdvance field = (FieldAdvance)builder.InsertField(FieldType.FieldAdvance, true);
 field.RightOffset = "5";
 field.UpOffset = "5";

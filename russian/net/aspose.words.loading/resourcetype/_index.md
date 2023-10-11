@@ -3,7 +3,7 @@ title: Enum ResourceType
 second_title: Справочник по API Aspose.Words для .NET
 description: Aspose.Words.Loading.ResourceType перечисление. Тип загружаемого ресурса.
 type: docs
-weight: 3500
+weight: 3700
 url: /ru/net/aspose.words.loading/resourcetype/
 ---
 ## ResourceType enumeration
@@ -27,6 +27,7 @@ public enum ResourceType
 Показывает, как настроить процесс загрузки внешних ресурсов в документ.
 
 ```csharp
+public void ResourceLoadingCallback()
 {
     Document doc = new Document();
     doc.ResourceLoadingCallback = new ImageNameHandler();
@@ -34,7 +35,7 @@ public enum ResourceType
     DocumentBuilder builder = new DocumentBuilder(doc);
 
     // Изображения обычно вставляются с использованием URI или массива байтов.
-    // Каждый экземпляр загрузки ресурсов будет вызывать метод ResourceLoading нашего обратного вызова.
+    // Каждый экземпляр загрузки ресурса будет вызывать метод ResourceLoading нашего обратного вызова.
     builder.InsertImage("Google logo");
     builder.InsertImage("Aspose logo");
     builder.InsertImage("Watermark");
@@ -42,10 +43,11 @@ public enum ResourceType
     Assert.AreEqual(3, doc.GetChildNodes(NodeType.Shape, true).Count);
 
     doc.Save(ArtifactsDir + "DocumentBase.ResourceLoadingCallback.docx");
+}
 
 /// <summary>
 /// Позволяет нам загружать изображения в документ, используя предопределенные сокращения, а не URI.
-/// Это отделит логику загрузки изображения от остальной конструкции документа.
+/// Это позволит отделить логику загрузки изображения от остальной части конструкции документа.
 /// </summary>
 private class ImageNameHandler : IResourceLoadingCallback
 {

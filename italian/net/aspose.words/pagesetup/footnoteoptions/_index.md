@@ -16,7 +16,7 @@ public FootnoteOptions FootnoteOptions { get; }
 
 ### Esempi
 
-Mostra come configurare le opzioni che interessano note a piè di pagina/note di chiusura in una sezione.
+Mostra come configurare le opzioni che influenzano le note a piè di pagina/note di chiusura in una sezione.
 
 ```csharp
 Document doc = new Document();
@@ -26,7 +26,7 @@ builder.Write("Hello world!");
 builder.InsertFootnote(FootnoteType.Footnote, "Footnote reference text.");
 
 // Configura tutte le note a piè di pagina nella prima sezione per riavviare la numerazione da 1
-// ad ogni nuova pagina e si visualizzano direttamente sotto il testo in ogni pagina.
+// ad ogni nuova pagina e vengono visualizzati direttamente sotto il testo su ogni pagina.
 FootnoteOptions footnoteOptions = doc.Sections[0].PageSetup.FootnoteOptions;
 footnoteOptions.Position = FootnotePosition.BeneathText;
 footnoteOptions.RestartRule = FootnoteNumberingRule.RestartPage;

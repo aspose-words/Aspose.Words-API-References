@@ -3,12 +3,14 @@ title: Class RowCollection
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Tables.RowCollection klass. Ger maskinskriven åtkomst till en samling avRow noder.
 type: docs
-weight: 6020
+weight: 6320
 url: /sv/net/aspose.words.tables/rowcollection/
 ---
 ## RowCollection class
 
 Ger maskinskriven åtkomst till en samling av[`Row`](../row/) noder.
+
+För att lära dig mer, besök[Arbeta med tabeller](https://docs.aspose.com/words/net/working-with-tables/) dokumentationsartikel.
 
 ```csharp
 public class RowCollection : NodeCollection
@@ -19,7 +21,7 @@ public class RowCollection : NodeCollection
 | namn | Beskrivning |
 | --- | --- |
 | [Count](../../aspose.words/nodecollection/count/) { get; } | Hämtar antalet noder i samlingen. |
-| [Item](../../aspose.words.tables/rowcollection/item/) { get; } | Hämtar en **Rad** vid det givna indexet. (2 indexers) |
+| [Item](../../aspose.words.tables/rowcollection/item/) { get; } | Hämtar en[`Row`](../row/) vid det givna indexet. (2 indexers) |
 
 ## Metoder
 

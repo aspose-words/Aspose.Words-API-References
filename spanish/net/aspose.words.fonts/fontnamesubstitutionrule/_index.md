@@ -1,14 +1,16 @@
 ---
 title: Class FontNameSubstitutionRule
 second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Fonts.FontNameSubstitutionRule clase. Regla de sustitución de fuente para procesar nombre de fuente.
+description: Aspose.Words.Fonts.FontNameSubstitutionRule clase. Regla de sustitución de fuentes para procesar el nombre de fuente.
 type: docs
-weight: 2770
+weight: 2950
 url: /es/net/aspose.words.fonts/fontnamesubstitutionrule/
 ---
 ## FontNameSubstitutionRule class
 
-Regla de sustitución de fuente para procesar nombre de fuente.
+Regla de sustitución de fuentes para procesar el nombre de fuente.
+
+Para obtener más información, visite el[Trabajar con fuentes](https://docs.aspose.com/words/net/working-with-fonts/) artículo de documentación.
 
 ```csharp
 public class FontNameSubstitutionRule : FontSubstitutionRule
@@ -22,7 +24,7 @@ public class FontNameSubstitutionRule : FontSubstitutionRule
 
 ### Observaciones
 
-De acuerdo con esta regla, Aspose.Words intenta procesar el nombre de la fuente para obtener la sustitución. Particularmente Aspose.Words intenta eliminar los sufijos con los separadores '-' y ',' como lo hace con MS Word.
+Según esta regla, Aspose.Words intenta procesar el nombre de la fuente para obtener la sustitución. Particularmente Aspose.Words intenta eliminar los sufijos con separadores '-', ',' y '(' como lo hace con MS Word.
 
 ### Ver también
 

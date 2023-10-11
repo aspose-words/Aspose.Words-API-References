@@ -1,14 +1,16 @@
 ---
 title: Class TableCollection
 second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Tables.TableCollection сорт. Предоставляет типизированный доступ к коллекцииTable узлы.
+description: Aspose.Words.Tables.TableCollection сорт. Обеспечивает типизированный доступ к коллекцииTable узлы.
 type: docs
-weight: 6060
+weight: 6360
 url: /ru/net/aspose.words.tables/tablecollection/
 ---
 ## TableCollection class
 
-Предоставляет типизированный доступ к коллекции[`Table`](../table/) узлы.
+Обеспечивает типизированный доступ к коллекции[`Table`](../table/) узлы.
+
+Чтобы узнать больше, посетите[Работа с таблицами](https://docs.aspose.com/words/net/working-with-tables/) статья документации.
 
 ```csharp
 public class TableCollection : NodeCollection
@@ -19,7 +21,7 @@ public class TableCollection : NodeCollection
 | Имя | Описание |
 | --- | --- |
 | [Count](../../aspose.words/nodecollection/count/) { get; } | Получает количество узлов в коллекции. |
-| [Item](../../aspose.words.tables/tablecollection/item/) { get; } | Получает **Стол** по данному индексу. (2 indexers) |
+| [Item](../../aspose.words.tables/tablecollection/item/) { get; } | Получает[`Table`](../table/) по данному индексу. (2 indexers) |
 
 ## Методы
 
@@ -28,11 +30,11 @@ public class TableCollection : NodeCollection
 | [Add](../../aspose.words/nodecollection/add/)(Node) | Добавляет узел в конец коллекции. |
 | [Clear](../../aspose.words/nodecollection/clear/)() | Удаляет все узлы из этой коллекции и из документа. |
 | [Contains](../../aspose.words/nodecollection/contains/)(Node) | Определяет, находится ли узел в коллекции. |
-| [GetEnumerator](../../aspose.words/nodecollection/getenumerator/)() | Обеспечивает простую итерацию в стиле foreach по набору узлов. |
-| [IndexOf](../../aspose.words/nodecollection/indexof/)(Node) | Возвращает отсчитываемый от нуля индекс указанного узла. |
+| [GetEnumerator](../../aspose.words/nodecollection/getenumerator/)() | Обеспечивает простую итерацию стиля foreach по коллекции узлов. |
+| [IndexOf](../../aspose.words/nodecollection/indexof/)(Node) | Возвращает индекс указанного узла, начинающийся с нуля. |
 | [Insert](../../aspose.words/nodecollection/insert/)(int, Node) | Вставляет узел в коллекцию по указанному индексу. |
 | [Remove](../../aspose.words/nodecollection/remove/)(Node) | Удаляет узел из коллекции и из документа. |
-| [RemoveAt](../../aspose.words/nodecollection/removeat/)(int) | Удаляет узел с указанным индексом из коллекции и из документа. |
+| [RemoveAt](../../aspose.words/nodecollection/removeat/)(int) | Удаляет узел по указанному индексу из коллекции и из документа. |
 | [ToArray](../../aspose.words.tables/tablecollection/toarray/#toarray_1)() | Копирует все таблицы из коллекции в новый массив таблиц. (2 methods) |
 
 ### Примеры
@@ -64,16 +66,15 @@ public void CalculateDepthOfNestedTables()
 {
     Document doc = new Document(MyDir + "Nested tables.docx");
     NodeCollection tables = doc.GetChildNodes(NodeType.Table, true);
-
     for (int i = 0; i < tables.Count; i++)
     {
         Table table = (Table)tables[i];
 
-        // Узнать, есть ли у каких-либо ячеек в таблице другие таблицы в качестве дочерних.
+        // Выясняем, есть ли в каких-либо ячейках таблицы дочерние другие таблицы.
         int count = GetChildTableCount(table);
         Console.WriteLine("Table #{0} has {1} tables directly within its cells", i, count);
 
-        // Узнать, вложена ли таблица в другую таблицу, и если да, то на какой глубине.
+        // Выясняем, вложена ли таблица в другую таблицу, и если да, то на какой глубине.
         int tableDepth = GetNestedDepthOfTable(table);
 
         if (tableDepth > 0)
@@ -85,7 +86,7 @@ public void CalculateDepthOfNestedTables()
 }
 
 /// <summary>
-/// Вычисляет, на каком уровне таблица вложена в другие таблицы.
+/// Вычисляет уровень вложенности таблицы в другие таблицы.
 /// </summary>
 /// <returns>
 /// Целое число, указывающее глубину вложенности таблицы (количество узлов родительской таблицы).
@@ -105,12 +106,12 @@ private static int GetNestedDepthOfTable(Table table)
 }
 
 /// <summary>
-/// Определяет, содержит ли таблица какие-либо непосредственные дочерние таблицы в своих ячейках.
-/// Не выполняйте рекурсивный обход этих таблиц для проверки наличия других таблиц.
+/// Определяет, содержит ли таблица в своих ячейках какую-либо непосредственную дочернюю таблицу.
+/// Не просматривайте эти таблицы рекурсивно, чтобы проверить наличие дополнительных таблиц.
 /// </summary>
 /// <returns>
 /// Возвращает true, если хотя бы одна дочерняя ячейка содержит таблицу.
-/// Возвращает false, если в таблице нет ячеек, содержащих таблицу.
+/// Возвращает false, если ни одна из ячеек таблицы не содержит таблицу.
 /// </returns>
 private static int GetChildTableCount(Table table)
 {

@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.PrintColBlack
 second_title: Aspose.Words for .NET API Referansı
-description: CompatibilityOptions mülk. Renkleri Taklit Etmeden Siyah Beyaz Bastırın.
+description: CompatibilityOptions mülk. Renkleri Titreme Olmadan Siyah Beyaz Yazdır.
 type: docs
 weight: 400
 url: /tr/net/aspose.words.settings/compatibilityoptions/printcolblack/
 ---
 ## CompatibilityOptions.PrintColBlack property
 
-Renkleri Taklit Etmeden Siyah Beyaz Bastırın.
+Renkleri Titreme Olmadan Siyah Beyaz Yazdır.
 
 ```csharp
 public bool PrintColBlack { get; set; }

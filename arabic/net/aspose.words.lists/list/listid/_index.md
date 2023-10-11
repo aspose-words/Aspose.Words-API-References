@@ -1,14 +1,14 @@
 ---
 title: List.ListId
 second_title: Aspose.Words لمراجع .NET API
-description: List ملكية. الحصول على المعرف الفريد للقائمة .
+description: List ملكية. الحصول على المعرف الفريد للقائمة.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.lists/list/listid/
 ---
 ## List.ListId property
 
-الحصول على المعرف الفريد للقائمة .
+الحصول على المعرف الفريد للقائمة.
 
 ```csharp
 public int ListId { get; }
@@ -16,7 +16,7 @@ public int ListId { get; }
 
 ### ملاحظات
 
-لا تحتاج عادة إلى استخدام هذه الخاصية. ولكن إذا كنت تستخدمه ، فأنت تفعل ذلك عادةً جنبًا إلى جنب مع ملف[`GetListByListId`](../../listcollection/getlistbylistid/) طريقة للعثور على قائمة a بواسطة معرفها.
+لا تحتاج عادةً إلى استخدام هذه الخاصية. ولكن إذا كنت تستخدمه، فإنك عادةً ما تفعل ذلك بالتزامن مع[`GetListByListId`](../../listcollection/getlistbylistid/) طريقة للعثور على قائمة a بواسطة معرفها.
 
 ### أمثلة
 
@@ -26,11 +26,9 @@ public int ListId { get; }
 Document doc = new Document();
 
 ListCollection lists = doc.Lists;
-
 Assert.AreEqual(doc, lists.Document);
 
 List list = lists.Add(ListTemplate.BulletDefault);
-
 Assert.AreEqual(doc, list.Document);
 
 Console.WriteLine("Current list count: " + lists.Count);
@@ -39,7 +37,7 @@ Console.WriteLine("ListId: " + list.ListId);
 Console.WriteLine("List is the same by ListId: " + (lists.GetListByListId(1).Equals(list)));
 ```
 
-يوضح كيفية إخراج كل الفقرات في مستند تكون من عناصر القائمة.
+يوضح كيفية إخراج كافة الفقرات في مستند عبارة عن عناصر قائمة.
 
 ```csharp
 Document doc = new Document();

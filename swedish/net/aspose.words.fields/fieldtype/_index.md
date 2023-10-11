@@ -3,7 +3,7 @@ title: Enum FieldType
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Fields.FieldType uppräkning. Anger Microsoft Wordfälttyper.
 type: docs
-weight: 2390
+weight: 2540
 url: /sv/net/aspose.words.fields/fieldtype/
 ---
 ## FieldType enumeration

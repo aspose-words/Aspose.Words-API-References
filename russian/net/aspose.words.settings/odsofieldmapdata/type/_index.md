@@ -1,14 +1,14 @@
 ---
 title: OdsoFieldMapData.Type
 second_title: Справочник по API Aspose.Words для .NET
-description: OdsoFieldMapData свойство. Указывает сопоставлено ли данное поле слияния со столбцом в данном внешнем источнике данных или нет. Значение по умолчаниюDefault .
+description: OdsoFieldMapData свойство. Указывает сопоставлено ли данное поле слияния почты со столбцом в данном внешнем источнике данных или нет. Значение по умолчаниюDefault .
 type: docs
 weight: 50
 url: /ru/net/aspose.words.settings/odsofieldmapdata/type/
 ---
 ## OdsoFieldMapData.Type property
 
-Указывает, сопоставлено ли данное поле слияния со столбцом в данном внешнем источнике данных или нет. Значение по умолчанию:Default .
+Указывает, сопоставлено ли данное поле слияния почты со столбцом в данном внешнем источнике данных или нет. Значение по умолчанию:Default .
 
 ```csharp
 public OdsoFieldMappingType Type { get; set; }
@@ -21,8 +21,8 @@ public OdsoFieldMappingType Type { get; set; }
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
 
-// Эта коллекция определяет, как слияние почты будет отображать столбцы из источника данных
-// в предопределенные поля MERGEFIELD, ADDRESSBLOCK и GREETINGLINE.
+// Эта коллекция определяет, как слияние почты будет сопоставлять столбцы из источника данных
+// к предопределенным полям MERGEFIELD, ADDRESSBLOCK и GREETINGLINE.
 OdsoFieldMapDataCollection dataCollection = doc.MailMergeSettings.Odso.FieldMapDatas;
 Assert.AreEqual(30, dataCollection.Count);
 
@@ -43,12 +43,12 @@ using (IEnumerator<OdsoFieldMapData> enumerator = dataCollection.GetEnumerator()
 // Клонируем элементы этой коллекции.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// Использовать элементы метода "RemoveAt" по отдельности по индексу.
+// Используйте элементы метода «RemoveAt» индивидуально по индексу.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(29, dataCollection.Count);
 
-// Используйте метод «Очистить», чтобы сразу очистить всю коллекцию.
+// Используйте метод «Очистить», чтобы очистить всю коллекцию сразу.
 dataCollection.Clear();
 
 Assert.AreEqual(0, dataCollection.Count);

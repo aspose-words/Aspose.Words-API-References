@@ -1,14 +1,16 @@
 ---
 title: Class ConditionalStyleCollection
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.ConditionalStyleCollection فصل. يمثل مجموعة منConditionalStyle الكائنات .
+description: Aspose.Words.ConditionalStyleCollection فصل. يمثل مجموعة منConditionalStyle الكائنات.
 type: docs
-weight: 310
+weight: 320
 url: /ar/net/aspose.words/conditionalstylecollection/
 ---
 ## ConditionalStyleCollection class
 
-يمثل مجموعة من[`ConditionalStyle`](../conditionalstyle/) الكائنات .
+يمثل مجموعة من[`ConditionalStyle`](../conditionalstyle/) الكائنات.
+
+لمعرفة المزيد، قم بزيارة[العمل مع الجداول](https://docs.aspose.com/words/net/working-with-tables/) مقالة توثيقية.
 
 ```csharp
 public sealed class ConditionalStyleCollection : IEnumerable<ConditionalStyle>
@@ -19,34 +21,34 @@ public sealed class ConditionalStyleCollection : IEnumerable<ConditionalStyle>
 | اسم | وصف |
 | --- | --- |
 | [BottomLeftCell](../../aspose.words/conditionalstylecollection/bottomleftcell/) { get; } | الحصول على نمط الخلية اليسرى السفلية. |
-| [BottomRightCell](../../aspose.words/conditionalstylecollection/bottomrightcell/) { get; } | الحصول على نمط الخلية الأيمن السفلي. |
+| [BottomRightCell](../../aspose.words/conditionalstylecollection/bottomrightcell/) { get; } | الحصول على نمط الخلية اليمنى السفلية. |
 | [Count](../../aspose.words/conditionalstylecollection/count/) { get; } | الحصول على عدد الأنماط الشرطية في المجموعة. |
-| [EvenColumnBanding](../../aspose.words/conditionalstylecollection/evencolumnbanding/) { get; } | الحصول على نمط نطاقات الأعمدة الزوجية . |
-| [EvenRowBanding](../../aspose.words/conditionalstylecollection/evenrowbanding/) { get; } | يحصل على نمط نطاقات الصف الزوجي . |
-| [FirstColumn](../../aspose.words/conditionalstylecollection/firstcolumn/) { get; } | يحصل على نمط العمود الأول . |
-| [FirstRow](../../aspose.words/conditionalstylecollection/firstrow/) { get; } | يحصل على نمط الصف الأول . |
-| [Item](../../aspose.words/conditionalstylecollection/item/) { get; } | يسترجع أ[`ConditionalStyle`](../conditionalstyle/) الكائن حسب نوع النمط الشرطي. (2 indexers) |
-| [LastColumn](../../aspose.words/conditionalstylecollection/lastcolumn/) { get; } | الحصول على نمط العمود الأخير . |
-| [LastRow](../../aspose.words/conditionalstylecollection/lastrow/) { get; } | يحصل على نمط الصف الأخير . |
-| [OddColumnBanding](../../aspose.words/conditionalstylecollection/oddcolumnbanding/) { get; } | يحصل على نمط نطاقات العمود الفردي . |
-| [OddRowBanding](../../aspose.words/conditionalstylecollection/oddrowbanding/) { get; } | يحصل على نمط نطاقات الصف الفردي . |
-| [TopLeftCell](../../aspose.words/conditionalstylecollection/topleftcell/) { get; } | الحصول على نمط الخلية الأيسر العلوي . |
-| [TopRightCell](../../aspose.words/conditionalstylecollection/toprightcell/) { get; } | الحصول على نمط الخلية الأيمن العلوي . |
+| [EvenColumnBanding](../../aspose.words/conditionalstylecollection/evencolumnbanding/) { get; } | الحصول على نمط ربط الأعمدة الزوجية. |
+| [EvenRowBanding](../../aspose.words/conditionalstylecollection/evenrowbanding/) { get; } | الحصول على نمط ربط الصفوف الزوجية. |
+| [FirstColumn](../../aspose.words/conditionalstylecollection/firstcolumn/) { get; } | الحصول على نمط العمود الأول. |
+| [FirstRow](../../aspose.words/conditionalstylecollection/firstrow/) { get; } | الحصول على نمط الصف الأول. |
+| [Item](../../aspose.words/conditionalstylecollection/item/) { get; } | يسترد أ[`ConditionalStyle`](../conditionalstyle/) كائن حسب نوع النمط الشرطي. (2 indexers) |
+| [LastColumn](../../aspose.words/conditionalstylecollection/lastcolumn/) { get; } | الحصول على نمط العمود الأخير. |
+| [LastRow](../../aspose.words/conditionalstylecollection/lastrow/) { get; } | الحصول على نمط الصف الأخير. |
+| [OddColumnBanding](../../aspose.words/conditionalstylecollection/oddcolumnbanding/) { get; } | الحصول على نمط نطاق الأعمدة الفردي. |
+| [OddRowBanding](../../aspose.words/conditionalstylecollection/oddrowbanding/) { get; } | الحصول على نمط نطاقات الصفوف الفردية. |
+| [TopLeftCell](../../aspose.words/conditionalstylecollection/topleftcell/) { get; } | الحصول على نمط الخلية العلوية اليسرى. |
+| [TopRightCell](../../aspose.words/conditionalstylecollection/toprightcell/) { get; } | الحصول على نمط الخلية العلوي الأيمن. |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| [ClearFormatting](../../aspose.words/conditionalstylecollection/clearformatting/)() | يمسح كل الأنماط الشرطية لنمط الجدول. |
-| [GetEnumerator](../../aspose.words/conditionalstylecollection/getenumerator/)() | إرجاع كائن العداد الذي يمكن استخدامه للتكرار على كافة الأنماط الشرطية في المجموعة. |
+| [ClearFormatting](../../aspose.words/conditionalstylecollection/clearformatting/)() | مسح كافة الأنماط الشرطية لنمط الجدول. |
+| [GetEnumerator](../../aspose.words/conditionalstylecollection/getenumerator/)() | يُرجع كائن العداد الذي يمكن استخدامه للتكرار على جميع الأنماط الشرطية في المجموعة. |
 
 ### ملاحظات
 
-لا يمكن إضافة أو إزالة عناصر من هذه المجموعة. يحتوي على مجموعة دائمة من العناصر: عنصر واحد مقابل_ لكل قيمة من[`ConditionalStyleType`](../conditionalstyletype/) نوع التعداد .
+لا يمكن إضافة أو إزالة عناصر من هذه المجموعة. يحتوي على مجموعة دائمة من العناصر: عنصر واحد for لكل قيمة[`ConditionalStyleType`](../conditionalstyletype/) نوع التعداد.
 
 ### أمثلة
 
-يوضح كيفية التعامل مع أنماط منطقة معينة في الجدول.
+يوضح كيفية العمل مع أنماط مناطق معينة في الجدول.
 
 ```csharp
 Document doc = new Document();
@@ -67,9 +69,9 @@ builder.EndTable();
 // إنشاء نمط جدول مخصص.
 TableStyle tableStyle = (TableStyle)doc.Styles.Add(StyleType.Table, "MyTableStyle1");
 
-// الأنماط الشرطية هي تغييرات تنسيق تؤثر فقط على بعض خلايا الجدول
-// استنادًا إلى المسند ، مثل وجود الخلايا في الصف الأخير.
-// فيما يلي ثلاث طرق للوصول إلى الأنماط الشرطية لنمط الجدول من مجموعة "ConditionalStyles".
+// الأنماط الشرطية هي تغييرات التنسيق التي تؤثر فقط على بعض خلايا الجدول
+// استنادًا إلى المسند، مثل وجود الخلايا في الصف الأخير.
+// فيما يلي ثلاث طرق للوصول إلى الأنماط الشرطية لنمط الجدول من مجموعة "الأنماط الشرطية".
 // 1 - حسب نوع النمط:
 tableStyle.ConditionalStyles[ConditionalStyleType.FirstRow].Shading.BackgroundPatternColor = Color.AliceBlue;
 
@@ -78,17 +80,17 @@ tableStyle.ConditionalStyles[0].Borders.Color = Color.Black;
 tableStyle.ConditionalStyles[0].Borders.LineStyle = LineStyle.DotDash;
 Assert.AreEqual(ConditionalStyleType.FirstRow, tableStyle.ConditionalStyles[0].Type);
 
-// 3 - كممتلكات:
+// 3 - كخاصية:
 tableStyle.ConditionalStyles.FirstRow.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
-// تطبيق تنسيق النص والحشو على الأنماط الشرطية.
+// تطبيق الحشو وتنسيق النص على الأنماط الشرطية.
 tableStyle.ConditionalStyles.LastRow.BottomPadding = 10;
 tableStyle.ConditionalStyles.LastRow.LeftPadding = 10;
 tableStyle.ConditionalStyles.LastRow.RightPadding = 10;
 tableStyle.ConditionalStyles.LastRow.TopPadding = 10;
 tableStyle.ConditionalStyles.LastColumn.Font.Bold = true;
 
-// قائمة بجميع شروط النمط الممكنة.
+// قم بإدراج جميع شروط النمط الممكنة.
 using (IEnumerator<ConditionalStyle> enumerator = tableStyle.ConditionalStyles.GetEnumerator())
 {
     while (enumerator.MoveNext())
@@ -98,10 +100,10 @@ using (IEnumerator<ConditionalStyle> enumerator = tableStyle.ConditionalStyles.G
     }
 }
 
-// قم بتطبيق النمط المخصص ، الذي يحتوي على جميع الأنماط الشرطية ، على الجدول.
+// قم بتطبيق النمط المخصص، الذي يحتوي على كافة الأنماط الشرطية، على الجدول.
 table.Style = tableStyle;
 
-// يطبق أسلوبنا بعض الأنماط الشرطية افتراضيًا.
+// يطبق أسلوبنا بعض الأنماط الشرطية بشكل افتراضي.
 Assert.AreEqual(TableStyleOptions.FirstRow | TableStyleOptions.FirstColumn | TableStyleOptions.RowBands, 
     table.StyleOptions);
 

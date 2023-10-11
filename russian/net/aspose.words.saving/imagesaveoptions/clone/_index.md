@@ -1,14 +1,14 @@
 ---
 title: ImageSaveOptions.Clone
 second_title: Справочник по API Aspose.Words для .NET
-description: ImageSaveOptions метод. Создает глубокий клон этого объекта.
+description: ImageSaveOptions метод. Создает глубокую копию этого объекта.
 type: docs
-weight: 200
+weight: 210
 url: /ru/net/aspose.words.saving/imagesaveoptions/clone/
 ---
 ## ImageSaveOptions.Clone method
 
-Создает глубокий клон этого объекта.
+Создает глубокую копию этого объекта.
 
 ```csharp
 public ImageSaveOptions Clone()
@@ -28,9 +28,9 @@ Document doc = new Document();
 
             Assert.That(20000, Is.LessThan(new FileInfo(ImageDir + "Logo.jpg").Length));
 
-            // Когда мы сохраняем документ как изображение, мы можем передать объект SaveOptions в
-            // выберите формат пикселей для изображения, которое будет сгенерировано операцией сохранения.
-            // Различная скорость передачи битов на пиксель влияет на качество и размер файла сгенерированного изображения.
+            // Когда мы сохраняем документ как изображение, мы можем передать объект SaveOptions
+            // выбираем формат пикселей для изображения, которое будет создано при сохранении.
+            // Различная скорость передачи битов на пиксель будет влиять на качество и размер файла сгенерированного изображения.
             ImageSaveOptions imageSaveOptions = new ImageSaveOptions(SaveFormat.Png);
             imageSaveOptions.PixelFormat = imagePixelFormat;
 

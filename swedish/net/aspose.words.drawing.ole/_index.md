@@ -19,6 +19,6 @@ Innehåller klasser för att arbeta med OLE / ActiveX-kontroller och formulär i
 
 | Uppräkning | Beskrivning |
 | --- | --- |
-| [Forms2OleControlType](./forms2olecontroltype/) |  |
+| [Forms2OleControlType](./forms2olecontroltype/) | Räknar upp typer av Forms 2.0-kontroller. |
 
 

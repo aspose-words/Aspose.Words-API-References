@@ -1,14 +1,14 @@
 ---
 title: CommentCollection.Item
 second_title: Aspose.Words لمراجع .NET API
-description: CommentCollection ملكية. يسترجع أ تعليق في الفهرس المحدد.
+description: CommentCollection ملكية. يسترد أComment في الفهرس المحدد.
 type: docs
 weight: 10
 url: /ar/net/aspose.words/commentcollection/item/
 ---
 ## CommentCollection indexer
 
-يسترجع أ **تعليق** في الفهرس المحدد.
+يسترد أ[`Comment`](../../comment/) في الفهرس المحدد.
 
 ```csharp
 public Comment this[int index] { get; }
@@ -20,17 +20,17 @@ public Comment this[int index] { get; }
 
 ### ملاحظات
 
-المؤشر على أساس الصفر.
+المؤشر قائم على الصفر.
 
-يُسمح بالفهارس السلبية وتشير إلى الوصول من الجزء الخلفي من المجموعة. على سبيل المثال -1 تعني العنصر الأخير ، -2 تعني العنصر الثاني قبل الأخير وهكذا.
+الفهارس السالبة مسموح بها وتشير إلى الوصول من الجزء الخلفي للمجموعة. على سبيل المثال -1 يعني العنصر الأخير، -2 يعني الثاني قبل الأخير وهكذا.
 
-إذا كان الفهرس أكبر من أو يساوي عدد العناصر في القائمة ، فسيُرجع هذا مرجعًا فارغًا.
+إذا كان الفهرس أكبر من أو يساوي عدد العناصر الموجودة في القائمة، فسيُرجع هذا مرجعًا فارغًا.
 
-إذا كان الفهرس سالبًا وكانت قيمته المطلقة أكبر من عدد العناصر في القائمة ، فسيُرجع هذا مرجعًا فارغًا.
+إذا كان الفهرس سالبًا وقيمته المطلقة أكبر من عدد العناصر الموجودة في القائمة، فسيُرجع هذا مرجعًا فارغًا.
 
 ### أمثلة
 
-يوضح كيفية إزالة ردود التعليق.
+يوضح كيفية إزالة ردود التعليقات.
 
 ```csharp
 Document doc = new Document();
@@ -45,13 +45,13 @@ comment.AddReply("Joe Bloggs", "J.B.", DateTime.Now, "Another reply");
 
 Assert.AreEqual(2, comment.Replies.Count()); 
 
-// فيما يلي طريقتان لإزالة الردود من تعليق.
-// 1 - استخدم طريقة "RemoveReply" لإزالة الردود من تعليق بشكل فردي:
+// فيما يلي طريقتان لإزالة الردود من التعليق.
+// 1 - استخدم طريقة "RemoveReply" لإزالة الردود من التعليق بشكل فردي:
 comment.RemoveReply(comment.Replies[0]);
 
 Assert.AreEqual(1, comment.Replies.Count());
 
-// 2 - استخدم طريقة "RemoveAllReplies" لإزالة جميع الردود من تعليق مرة واحدة:
+// 2 - استخدم طريقة "RemoveAllReplies" لإزالة كافة الردود من التعليق مرة واحدة:
 comment.RemoveAllReplies();
 
 Assert.AreEqual(0, comment.Replies.Count());

@@ -3,12 +3,14 @@ title: Class RowFormat
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Tables.RowFormat klass. Representerar all formatering för en tabellrad.
 type: docs
-weight: 6030
+weight: 6330
 url: /sv/net/aspose.words.tables/rowformat/
 ---
 ## RowFormat class
 
 Representerar all formatering för en tabellrad.
+
+För att lära dig mer, besök[Arbeta med tabeller](https://docs.aspose.com/words/net/working-with-tables/) dokumentationsartikel.
 
 ```csharp
 public class RowFormat

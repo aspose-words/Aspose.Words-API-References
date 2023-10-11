@@ -1,14 +1,14 @@
 ---
 title: Table.ClearShading
 second_title: Aspose.Words for .NET API Referansı
-description: Table yöntem. Tablodaki tüm gölgelemeleri kaldırır.
+description: Table yöntem. Masadaki tüm gölgelemeyi kaldırır.
 type: docs
-weight: 380
+weight: 400
 url: /tr/net/aspose.words.tables/table/clearshading/
 ---
 ## Table.ClearShading method
 
-Tablodaki tüm gölgelemeleri kaldırır.
+Masadaki tüm gölgelemeyi kaldırır.
 
 ```csharp
 public void ClearShading()
@@ -25,7 +25,7 @@ Table table = doc.FirstSection.Body.Tables[0];
 // Tabloyu sayfanın ortasına hizalayın.
 table.Alignment = TableAlignment.Center;
 
-// Tablodaki mevcut kenarlıkları ve gölgelemeleri temizleyin.
+// Tablodaki mevcut sınırları ve gölgeleri temizleyin.
 table.ClearBorders();
 table.ClearShading();
 

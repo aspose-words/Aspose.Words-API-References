@@ -1,14 +1,14 @@
 ---
 title: AxisDisplayUnit.CustomUnit
 second_title: Aspose.Words für .NET-API-Referenz
-description: AxisDisplayUnit eigendom. Ruft einen benutzerdefinierten Divisor ab oder legt ihn fest um Anzeigeeinheiten auf der Wertachse zu skalieren.
+description: AxisDisplayUnit eigendom. Ruft einen benutzerdefinierten Divisor ab oder legt diesen fest um Anzeigeeinheiten auf der Werteachse zu skalieren.
 type: docs
 weight: 20
 url: /de/net/aspose.words.drawing.charts/axisdisplayunit/customunit/
 ---
 ## AxisDisplayUnit.CustomUnit property
 
-Ruft einen benutzerdefinierten Divisor ab oder legt ihn fest, um Anzeigeeinheiten auf der Wertachse zu skalieren.
+Ruft einen benutzerdefinierten Divisor ab oder legt diesen fest, um Anzeigeeinheiten auf der Werteachse zu skalieren.
 
 ```csharp
 public double CustomUnit { get; set; }
@@ -16,9 +16,9 @@ public double CustomUnit { get; set; }
 
 ### Bemerkungen
 
-Die Eigenschaft wird von MS Office 2016 New Charts nicht unterstützt. Der Standardwert ist 1.
+Die Eigenschaft wird von den neuen Diagrammen von MS Office 2016 nicht unterstützt. Der Standardwert ist 1.
 
-Durch Festlegen dieser Eigenschaft wird die[`Unit`](../unit/) Eigentum an Custom.
+Durch das Festlegen dieser Eigenschaft wird die festgelegt[`Unit`](../unit/) Eigenschaft zu Custom.
 
 ### Beispiele
 
@@ -34,8 +34,8 @@ Chart chart = shape.Chart;
 Assert.AreEqual(1, chart.Series.Count);
 Assert.AreEqual("Y-Values", chart.Series[0].Name);
 
-// Stellen Sie die kleinen Teilstriche der Y-Achse so ein, dass sie vom Plotbereich weg zeigen,
-// und die großen Teilstriche, um die Achse zu kreuzen.
+// Setzen Sie die kleinen Teilstriche der Y-Achse so, dass sie vom Plotbereich weg zeigen.
+// und die großen Markierungen, um die Achse zu kreuzen.
 ChartAxis axis = chart.AxisY;
 axis.MajorTickMark = AxisTickMark.Cross;
 axis.MinorTickMark = AxisTickMark.Outside;
@@ -45,31 +45,31 @@ axis.MajorUnit = 10;
 axis.MinorUnit = 1;
 
 // Setze die Grenzen der Y-Achse auf -10 und 20.
-// Diese Y-Achse zeigt nun 4 große Teilstriche und 27 kleinere Teilstriche an.
+// Auf dieser Y-Achse werden nun 4 große Teilstriche und 27 kleine Teilstriche angezeigt.
 axis.Scaling.Minimum = new AxisBound(-10);
 axis.Scaling.Maximum = new AxisBound(20);
 
-// Setzen Sie für die X-Achse die Hauptteilstriche alle 10 Einheiten,
-// jeder kleinere Teilstrich bei 2,5 Einheiten.
+// Setzen Sie für die X-Achse alle 10 Einheiten die Hauptteilstriche.
+// jeder kleine Teilstrich bei 2,5 Einheiten.
 axis = chart.AxisX;
 axis.MajorUnit = 10;
 axis.MinorUnit = 2.5;
 
-// Konfigurieren Sie beide Arten von Teilstrichen so, dass sie innerhalb des Diagrammplotbereichs erscheinen.
+// Konfigurieren Sie beide Arten von Teilstrichen so, dass sie im Diagrammbereich angezeigt werden.
 axis.MajorTickMark = AxisTickMark.Inside;
 axis.MinorTickMark = AxisTickMark.Inside;
 
-// Legen Sie die Grenzen der X-Achse so fest, dass die X-Achse 5 große Teilstriche und 12 kleinere Teilstriche umfasst.
+// Legen Sie die Grenzen der X-Achse so fest, dass die X-Achse 5 große Teilstriche und 12 kleine Teilstriche umfasst.
 axis.Scaling.Minimum = new AxisBound(-10);
 axis.Scaling.Maximum = new AxisBound(30);
 axis.TickLabelAlignment = ParagraphAlignment.Right;
 
 Assert.AreEqual(1, axis.TickLabelSpacing);
 
-// Stellen Sie die Tick-Labels so ein, dass ihr Wert in Millionen angezeigt wird.
+// Stellen Sie die Tick-Beschriftungen so ein, dass ihr Wert in Millionen angezeigt wird.
 axis.DisplayUnit.Unit = AxisBuiltInUnit.Millions;
 
-// Wir können einen spezifischeren Wert festlegen, mit dem Tick-Labels ihre Werte anzeigen.
+// Wir können einen spezifischeren Wert festlegen, anhand dessen Tick-Beschriftungen ihre Werte anzeigen.
 // Diese Anweisung entspricht der obigen.
 axis.DisplayUnit.CustomUnit = 1000000;
 doc.Save(ArtifactsDir + "Charts.AxisDisplayUnit.docx");

@@ -3,12 +3,14 @@ title: Class DigitalSignatureCollection
 second_title: Aspose.Words per .NET API Reference
 description: Aspose.Words.DigitalSignatures.DigitalSignatureCollection classe. Fornisce una raccolta di sola lettura di firme digitali allegate a un documento.
 type: docs
-weight: 380
+weight: 390
 url: /it/net/aspose.words.digitalsignatures/digitalsignaturecollection/
 ---
 ## DigitalSignatureCollection class
 
 Fornisce una raccolta di sola lettura di firme digitali allegate a un documento.
+
+Per saperne di più, visita il[Lavora con le firme digitali](https://docs.aspose.com/words/net/working-with-digital-signatures/) articolo di documentazione.
 
 ```csharp
 public class DigitalSignatureCollection : IEnumerable<DigitalSignature>
@@ -25,7 +27,7 @@ public class DigitalSignatureCollection : IEnumerable<DigitalSignature>
 | Nome | Descrizione |
 | --- | --- |
 | [Count](../../aspose.words.digitalsignatures/digitalsignaturecollection/count/) { get; } | Ottiene il numero di elementi contenuti nella raccolta. |
-| [IsValid](../../aspose.words.digitalsignatures/digitalsignaturecollection/isvalid/) { get; } | Restituisce`VERO` se tutte le firme digitali di questa raccolta sono valide e il documento non è stato manomesso Restituisce anche`VERO`se non ci sono firme digitali. Restituisce`falso` se almeno una firma digitale non è valida. |
+| [IsValid](../../aspose.words.digitalsignatures/digitalsignaturecollection/isvalid/) { get; } | Restituisce`VERO` se tutte le firme digitali in questa raccolta sono valide e il documento non è stato manomesso Restituisce anche`VERO` se non sono presenti firme digitali. Restituisce`falso` se almeno una firma digitale non è valida. |
 | [Item](../../aspose.words.digitalsignatures/digitalsignaturecollection/item/) { get; } | Ottiene una firma del documento all'indice specificato. |
 
 ## Metodi
@@ -40,7 +42,7 @@ public class DigitalSignatureCollection : IEnumerable<DigitalSignature>
 
 ### Esempi
 
-Mostra come convalidare e visualizzare le informazioni su ciascuna firma in un documento.
+Mostra come convalidare e visualizzare informazioni su ciascuna firma in un documento.
 
 ```csharp
 Document doc = new Document(MyDir + "Digitally signed.docx");
@@ -63,7 +65,7 @@ Mostra come firmare documenti con certificati X.509.
 // Verifica che un documento non sia firmato.
 Assert.False(FileFormatUtil.DetectFileFormat(MyDir + "Document.docx").HasDigitalSignature);
 
-// Crea un oggetto CertificateHolder da un file PKCS12, che useremo per firmare il documento.
+// Crea un oggetto CertificateHolder da un file PKCS12, che utilizzeremo per firmare il documento.
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw", null);
 
 // Esistono due modi per salvare una copia firmata di un documento nel file system locale:

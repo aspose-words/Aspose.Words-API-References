@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTag.LockContents
 second_title: Aspose.Words for .NET API Referansı
-description: StructuredDocumentTag mülk. true olarak ayarlandığında bu özellik bir kullanıcının bunun içeriğini düzenlemesini engeller. SDT .
+description: StructuredDocumentTag mülk. Olarak ayarlandığındadoğru  bu özellik kullanıcının bu içeriği düzenlemesini yasaklar SDT .
 type: docs
 weight: 200
 url: /tr/net/aspose.words.markup/structureddocumenttag/lockcontents/
 ---
 ## StructuredDocumentTag.LockContents property
 
-true olarak ayarlandığında, bu özellik bir kullanıcının bunun içeriğini düzenlemesini engeller. **SDT** .
+Olarak ayarlandığında`doğru` , bu özellik kullanıcının bu içeriği düzenlemesini yasaklar **SDT** .
 
 ```csharp
 public bool LockContents { get; set; }
@@ -22,7 +22,7 @@ Yapılandırılmış belge etiketlerine düzenleme kısıtlamalarının nasıl u
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Kullanıcıdan onu doldurmasını isteyen bir metin kutusu görevi gören düz metin yapılandırılmış bir belge etiketi ekleyin.
+// Kullanıcının onu doldurmasını isteyen bir metin kutusu görevi gören, düz metin yapılı bir belge etiketi ekleyin.
 StructuredDocumentTag tag = new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Inline);
 
 // Kullanıcının bu metin kutusunun içeriğini düzenlemesini engellemek için "LockContents" özelliğini "true" olarak ayarlayın.
@@ -32,8 +32,8 @@ builder.InsertNode(tag);
 
 tag = new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Inline);
 
-// "LockContentControl" özelliğini, kullanıcının
-// bu yapılandırılmış belge etiketini Microsoft Word'de manuel olarak silme.
+// Kullanıcının şunları yapmasını engellemek için "LockContentControl" özelliğini "true" olarak ayarlayın
+// bu yapılandırılmış belge etiketinin Microsoft Word'de manuel olarak silinmesi.
 tag.LockContentControl = true;
 
 builder.InsertParagraph();

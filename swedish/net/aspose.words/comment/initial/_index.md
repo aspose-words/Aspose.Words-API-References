@@ -16,7 +16,7 @@ public string Initial { get; set; }
 
 ### Anmärkningar
 
-Kan inte vara null.
+Kan inte vara`null`.
 
 Standard är tom sträng.
 

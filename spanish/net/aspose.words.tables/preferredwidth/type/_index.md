@@ -16,7 +16,7 @@ public PreferredWidthType Type { get; }
 
 ### Ejemplos
 
-Muestra cómo verificar el tipo de ancho preferido y el valor de una celda de tabla.
+Muestra cómo verificar el tipo de ancho preferido y el valor de una celda de una tabla.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");

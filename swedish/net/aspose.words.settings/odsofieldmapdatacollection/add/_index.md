@@ -16,7 +16,7 @@ public int Add(OdsoFieldMapData value)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| value | OdsoFieldMapData | Objektet att lägga till. Kan inte vara null. |
+| value | OdsoFieldMapData | Objektet att lägga till. Kan inte vara`null`. |
 
 ### Exempel
 

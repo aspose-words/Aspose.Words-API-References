@@ -1,14 +1,14 @@
 ---
 title: Row.Cells
 second_title: Referencia de API de Aspose.Words para .NET
-description: Row propiedad. Proporciona acceso escrito a la Célula nodos secundarios de la fila.
+description: Row propiedad. Proporciona acceso escrito alCell nodos secundarios de la fila.
 type: docs
 weight: 20
 url: /es/net/aspose.words.tables/row/cells/
 ---
 ## Row.Cells property
 
-Proporciona acceso escrito a la **Célula** nodos secundarios de la fila.
+Proporciona acceso escrito al[`Cell`](../../cell/) nodos secundarios de la fila.
 
 ```csharp
 public CellCollection Cells { get; }

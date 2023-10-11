@@ -1,14 +1,14 @@
 ---
 title: FieldBuilder.AddArgument
 second_title: Aspose.Words for .NET API Referansı
-description: FieldBuilder yöntem. Bir alanın argümanını ekler.
+description: FieldBuilder yöntem. Alanın bağımsız değişkenini ekler.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fields/fieldbuilder/addargument/
 ---
 ## AddArgument(string) {#addargument_4}
 
-Bir alanın argümanını ekler.
+Alanın bağımsız değişkenini ekler.
 
 ```csharp
 public FieldBuilder AddArgument(string argument)
@@ -25,7 +25,7 @@ Alan oluşturucu kullanarak alanların nasıl oluşturulacağını ve ardından 
 ```csharp
 Document doc = new Document();
 
-// Aşağıda, bir alan oluşturucu kullanılarak yapılan üç alan oluşturma örneği verilmiştir.
+// Aşağıda bir saha oluşturucu kullanılarak yapılan üç saha inşaatı örneği verilmiştir.
 // 1 - Tek alan:
 // ƒ (Florin) sembolünü görüntüleyen bir SEMBOL alanı eklemek için bir alan oluşturucu kullanın.
 FieldBuilder builder = new FieldBuilder(FieldType.FieldSymbol);
@@ -38,27 +38,27 @@ Field field = builder.BuildAndInsert(doc.FirstSection.Body.FirstParagraph);
 Assert.AreEqual(" SYMBOL 402 \\f Arial \\s 25 \\u ", field.GetFieldCode());
 
 // 2 - İç içe alan:
-// Başka bir alan oluşturucu tarafından iç alan olarak kullanılan bir formül alanı oluşturmak için bir alan oluşturucu kullanın.
+// Başka bir alan oluşturucu tarafından iç alan olarak kullanılan bir formül alanı oluşturmak için alan oluşturucuyu kullanın.
 FieldBuilder innerFormulaBuilder = new FieldBuilder(FieldType.FieldFormula);
 innerFormulaBuilder.AddArgument(100);
 innerFormulaBuilder.AddArgument("+");
 innerFormulaBuilder.AddArgument(74);
 
 // Başka bir SEMBOL alanı için başka bir oluşturucu oluşturun ve formül alanını ekleyin
- // SYMBOL alanına argümanı olarak yukarıda oluşturduğumuz.
+ // yukarıda oluşturduğumuz SYMBOL alanına argümanı olarak ekledik.
 builder = new FieldBuilder(FieldType.FieldSymbol);
 builder.AddArgument(innerFormulaBuilder);
 field = builder.BuildAndInsert(doc.FirstSection.Body.AppendParagraph(string.Empty));
 
-// Dış SEMBOL alanı, argümanı olarak formül alanı sonucu 174'ü kullanır,
-// karakter numarası 174 olduğundan alanın ® (Kayıtlı İşaret) sembolünü göstermesini sağlar.
+// Dış SEMBOL alanı argüman olarak formül alanı sonucunu (174) kullanacaktır,
+// karakter numarası 174 olduğundan alanın ® (Kayıtlı İşaret) sembolünü göstermesini sağlayacaktır.
 Assert.AreEqual(" SYMBOL \u0013 = 100 + 74 \u0014\u0015 ", field.GetFieldCode());
 
-// 3 - Birden çok iç içe alan ve bağımsız değişken:
-// Şimdi, iki özel dize değerinden birini görüntüleyen bir EĞER alanı oluşturmak için bir oluşturucu kullanacağız,
-// ifadesinin doğru/yanlış değerine bağlı olarak. Doğru/yanlış bir değer elde etmek için
-// EĞER alanının hangi dizeyi görüntülediğini belirleyen EĞER alanı, eşitlik için iki sayısal ifadeyi test edecektir.
-// EĞER alanının içine yerleştireceğimiz iki ifadeyi formül alanları şeklinde sağlayacağız.
+// 3 - Birden fazla iç içe geçmiş alan ve argüman:
+// Şimdi, iki özel dize değerinden birini görüntüleyen bir IF alanı oluşturmak için bir oluşturucu kullanacağız,
+// ifadesinin doğru/yanlış değerine bağlı olarak. Doğru/yanlış değerini elde etmek için
+// IF alanının hangi dizeyi görüntüleyeceğini belirleyen IF alanı, iki sayısal ifadenin eşitliğini test edecektir.
+// IF alanının içine yerleştireceğimiz iki ifadeyi formül alanları şeklinde sağlayacağız.
 FieldBuilder leftExpression = new FieldBuilder(FieldType.FieldFormula);
 leftExpression.AddArgument(2);
 leftExpression.AddArgument("+");
@@ -69,7 +69,7 @@ rightExpression.AddArgument(2.5);
 rightExpression.AddArgument("*");
 rightExpression.AddArgument(5.2);
 
-// Sonra, EĞER alanı için doğru/yanlış çıktı dizeleri olarak hizmet edecek iki alan bağımsız değişkeni oluşturacağız.
+// Daha sonra, IF alanı için doğru/yanlış çıktı dizeleri olarak hizmet edecek iki alan argümanı oluşturacağız.
 // Bu argümanlar sayısal ifadelerimizin çıktı değerlerini yeniden kullanacak.
 FieldArgumentBuilder trueOutput = new FieldArgumentBuilder();
 trueOutput.AddText("True, both expressions amount to ");
@@ -81,7 +81,7 @@ falseOutput.AddField(leftExpression);
 falseOutput.AddNode(new Run(doc, " does not equal "));
 falseOutput.AddField(rightExpression);
 
- // Son olarak, IF alanı için bir tane daha alan oluşturucu oluşturacağız ve tüm ifadeleri birleştireceğiz.
+ // Son olarak IF alanı için bir alan oluşturucu daha oluşturacağız ve tüm ifadeleri birleştireceğiz.
 builder = new FieldBuilder(FieldType.FieldIf);
 builder.AddArgument(leftExpression);
 builder.AddArgument("=");
@@ -108,7 +108,7 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 
 ## AddArgument(int) {#addargument_3}
 
-Bir alanın argümanını ekler.
+Alanın bağımsız değişkenini ekler.
 
 ```csharp
 public FieldBuilder AddArgument(int argument)
@@ -125,7 +125,7 @@ Alan oluşturucu kullanarak alanların nasıl oluşturulacağını ve ardından 
 ```csharp
 Document doc = new Document();
 
-// Aşağıda, bir alan oluşturucu kullanılarak yapılan üç alan oluşturma örneği verilmiştir.
+// Aşağıda bir saha oluşturucu kullanılarak yapılan üç saha inşaatı örneği verilmiştir.
 // 1 - Tek alan:
 // ƒ (Florin) sembolünü görüntüleyen bir SEMBOL alanı eklemek için bir alan oluşturucu kullanın.
 FieldBuilder builder = new FieldBuilder(FieldType.FieldSymbol);
@@ -138,27 +138,27 @@ Field field = builder.BuildAndInsert(doc.FirstSection.Body.FirstParagraph);
 Assert.AreEqual(" SYMBOL 402 \\f Arial \\s 25 \\u ", field.GetFieldCode());
 
 // 2 - İç içe alan:
-// Başka bir alan oluşturucu tarafından iç alan olarak kullanılan bir formül alanı oluşturmak için bir alan oluşturucu kullanın.
+// Başka bir alan oluşturucu tarafından iç alan olarak kullanılan bir formül alanı oluşturmak için alan oluşturucuyu kullanın.
 FieldBuilder innerFormulaBuilder = new FieldBuilder(FieldType.FieldFormula);
 innerFormulaBuilder.AddArgument(100);
 innerFormulaBuilder.AddArgument("+");
 innerFormulaBuilder.AddArgument(74);
 
 // Başka bir SEMBOL alanı için başka bir oluşturucu oluşturun ve formül alanını ekleyin
- // SYMBOL alanına argümanı olarak yukarıda oluşturduğumuz.
+ // yukarıda oluşturduğumuz SYMBOL alanına argümanı olarak ekledik.
 builder = new FieldBuilder(FieldType.FieldSymbol);
 builder.AddArgument(innerFormulaBuilder);
 field = builder.BuildAndInsert(doc.FirstSection.Body.AppendParagraph(string.Empty));
 
-// Dış SEMBOL alanı, argümanı olarak formül alanı sonucu 174'ü kullanır,
-// karakter numarası 174 olduğundan alanın ® (Kayıtlı İşaret) sembolünü göstermesini sağlar.
+// Dış SEMBOL alanı argüman olarak formül alanı sonucunu (174) kullanacaktır,
+// karakter numarası 174 olduğundan alanın ® (Kayıtlı İşaret) sembolünü göstermesini sağlayacaktır.
 Assert.AreEqual(" SYMBOL \u0013 = 100 + 74 \u0014\u0015 ", field.GetFieldCode());
 
-// 3 - Birden çok iç içe alan ve bağımsız değişken:
-// Şimdi, iki özel dize değerinden birini görüntüleyen bir EĞER alanı oluşturmak için bir oluşturucu kullanacağız,
-// ifadesinin doğru/yanlış değerine bağlı olarak. Doğru/yanlış bir değer elde etmek için
-// EĞER alanının hangi dizeyi görüntülediğini belirleyen EĞER alanı, eşitlik için iki sayısal ifadeyi test edecektir.
-// EĞER alanının içine yerleştireceğimiz iki ifadeyi formül alanları şeklinde sağlayacağız.
+// 3 - Birden fazla iç içe geçmiş alan ve argüman:
+// Şimdi, iki özel dize değerinden birini görüntüleyen bir IF alanı oluşturmak için bir oluşturucu kullanacağız,
+// ifadesinin doğru/yanlış değerine bağlı olarak. Doğru/yanlış değerini elde etmek için
+// IF alanının hangi dizeyi görüntüleyeceğini belirleyen IF alanı, iki sayısal ifadenin eşitliğini test edecektir.
+// IF alanının içine yerleştireceğimiz iki ifadeyi formül alanları şeklinde sağlayacağız.
 FieldBuilder leftExpression = new FieldBuilder(FieldType.FieldFormula);
 leftExpression.AddArgument(2);
 leftExpression.AddArgument("+");
@@ -169,7 +169,7 @@ rightExpression.AddArgument(2.5);
 rightExpression.AddArgument("*");
 rightExpression.AddArgument(5.2);
 
-// Sonra, EĞER alanı için doğru/yanlış çıktı dizeleri olarak hizmet edecek iki alan bağımsız değişkeni oluşturacağız.
+// Daha sonra, IF alanı için doğru/yanlış çıktı dizeleri olarak hizmet edecek iki alan argümanı oluşturacağız.
 // Bu argümanlar sayısal ifadelerimizin çıktı değerlerini yeniden kullanacak.
 FieldArgumentBuilder trueOutput = new FieldArgumentBuilder();
 trueOutput.AddText("True, both expressions amount to ");
@@ -181,7 +181,7 @@ falseOutput.AddField(leftExpression);
 falseOutput.AddNode(new Run(doc, " does not equal "));
 falseOutput.AddField(rightExpression);
 
- // Son olarak, IF alanı için bir tane daha alan oluşturucu oluşturacağız ve tüm ifadeleri birleştireceğiz.
+ // Son olarak IF alanı için bir alan oluşturucu daha oluşturacağız ve tüm ifadeleri birleştireceğiz.
 builder = new FieldBuilder(FieldType.FieldIf);
 builder.AddArgument(leftExpression);
 builder.AddArgument("=");
@@ -208,7 +208,7 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 
 ## AddArgument(double) {#addargument_2}
 
-Bir alanın argümanını ekler.
+Alanın bağımsız değişkenini ekler.
 
 ```csharp
 public FieldBuilder AddArgument(double argument)
@@ -225,7 +225,7 @@ Alan oluşturucu kullanarak alanların nasıl oluşturulacağını ve ardından 
 ```csharp
 Document doc = new Document();
 
-// Aşağıda, bir alan oluşturucu kullanılarak yapılan üç alan oluşturma örneği verilmiştir.
+// Aşağıda bir saha oluşturucu kullanılarak yapılan üç saha inşaatı örneği verilmiştir.
 // 1 - Tek alan:
 // ƒ (Florin) sembolünü görüntüleyen bir SEMBOL alanı eklemek için bir alan oluşturucu kullanın.
 FieldBuilder builder = new FieldBuilder(FieldType.FieldSymbol);
@@ -238,27 +238,27 @@ Field field = builder.BuildAndInsert(doc.FirstSection.Body.FirstParagraph);
 Assert.AreEqual(" SYMBOL 402 \\f Arial \\s 25 \\u ", field.GetFieldCode());
 
 // 2 - İç içe alan:
-// Başka bir alan oluşturucu tarafından iç alan olarak kullanılan bir formül alanı oluşturmak için bir alan oluşturucu kullanın.
+// Başka bir alan oluşturucu tarafından iç alan olarak kullanılan bir formül alanı oluşturmak için alan oluşturucuyu kullanın.
 FieldBuilder innerFormulaBuilder = new FieldBuilder(FieldType.FieldFormula);
 innerFormulaBuilder.AddArgument(100);
 innerFormulaBuilder.AddArgument("+");
 innerFormulaBuilder.AddArgument(74);
 
 // Başka bir SEMBOL alanı için başka bir oluşturucu oluşturun ve formül alanını ekleyin
- // SYMBOL alanına argümanı olarak yukarıda oluşturduğumuz.
+ // yukarıda oluşturduğumuz SYMBOL alanına argümanı olarak ekledik.
 builder = new FieldBuilder(FieldType.FieldSymbol);
 builder.AddArgument(innerFormulaBuilder);
 field = builder.BuildAndInsert(doc.FirstSection.Body.AppendParagraph(string.Empty));
 
-// Dış SEMBOL alanı, argümanı olarak formül alanı sonucu 174'ü kullanır,
-// karakter numarası 174 olduğundan alanın ® (Kayıtlı İşaret) sembolünü göstermesini sağlar.
+// Dış SEMBOL alanı argüman olarak formül alanı sonucunu (174) kullanacaktır,
+// karakter numarası 174 olduğundan alanın ® (Kayıtlı İşaret) sembolünü göstermesini sağlayacaktır.
 Assert.AreEqual(" SYMBOL \u0013 = 100 + 74 \u0014\u0015 ", field.GetFieldCode());
 
-// 3 - Birden çok iç içe alan ve bağımsız değişken:
-// Şimdi, iki özel dize değerinden birini görüntüleyen bir EĞER alanı oluşturmak için bir oluşturucu kullanacağız,
-// ifadesinin doğru/yanlış değerine bağlı olarak. Doğru/yanlış bir değer elde etmek için
-// EĞER alanının hangi dizeyi görüntülediğini belirleyen EĞER alanı, eşitlik için iki sayısal ifadeyi test edecektir.
-// EĞER alanının içine yerleştireceğimiz iki ifadeyi formül alanları şeklinde sağlayacağız.
+// 3 - Birden fazla iç içe geçmiş alan ve argüman:
+// Şimdi, iki özel dize değerinden birini görüntüleyen bir IF alanı oluşturmak için bir oluşturucu kullanacağız,
+// ifadesinin doğru/yanlış değerine bağlı olarak. Doğru/yanlış değerini elde etmek için
+// IF alanının hangi dizeyi görüntüleyeceğini belirleyen IF alanı, iki sayısal ifadenin eşitliğini test edecektir.
+// IF alanının içine yerleştireceğimiz iki ifadeyi formül alanları şeklinde sağlayacağız.
 FieldBuilder leftExpression = new FieldBuilder(FieldType.FieldFormula);
 leftExpression.AddArgument(2);
 leftExpression.AddArgument("+");
@@ -269,7 +269,7 @@ rightExpression.AddArgument(2.5);
 rightExpression.AddArgument("*");
 rightExpression.AddArgument(5.2);
 
-// Sonra, EĞER alanı için doğru/yanlış çıktı dizeleri olarak hizmet edecek iki alan bağımsız değişkeni oluşturacağız.
+// Daha sonra, IF alanı için doğru/yanlış çıktı dizeleri olarak hizmet edecek iki alan argümanı oluşturacağız.
 // Bu argümanlar sayısal ifadelerimizin çıktı değerlerini yeniden kullanacak.
 FieldArgumentBuilder trueOutput = new FieldArgumentBuilder();
 trueOutput.AddText("True, both expressions amount to ");
@@ -281,7 +281,7 @@ falseOutput.AddField(leftExpression);
 falseOutput.AddNode(new Run(doc, " does not equal "));
 falseOutput.AddField(rightExpression);
 
- // Son olarak, IF alanı için bir tane daha alan oluşturucu oluşturacağız ve tüm ifadeleri birleştireceğiz.
+ // Son olarak IF alanı için bir alan oluşturucu daha oluşturacağız ve tüm ifadeleri birleştireceğiz.
 builder = new FieldBuilder(FieldType.FieldIf);
 builder.AddArgument(leftExpression);
 builder.AddArgument("=");
@@ -308,7 +308,7 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 
 ## AddArgument(FieldBuilder) {#addargument_1}
 
-Bir başkası tarafından temsil edilen bir alt alan ekler[`FieldBuilder`](../) alanın koduna.
+Başka bir alan tarafından temsil edilen bir alt alan ekler[`FieldBuilder`](../) alanın koduna.
 
 ```csharp
 public FieldBuilder AddArgument(FieldBuilder argument)
@@ -316,7 +316,7 @@ public FieldBuilder AddArgument(FieldBuilder argument)
 
 ### Notlar
 
-Bu aşırı yükleme, bağımsız değişken tek bir alt alandan oluştuğunda kullanılır.
+Bu aşırı yükleme, argüman tek bir alt alandan oluştuğunda kullanılır.
 
 ### Örnekler
 
@@ -325,7 +325,7 @@ Alan oluşturucu kullanarak alanların nasıl oluşturulacağını ve ardından 
 ```csharp
 Document doc = new Document();
 
-// Aşağıda, bir alan oluşturucu kullanılarak yapılan üç alan oluşturma örneği verilmiştir.
+// Aşağıda bir saha oluşturucu kullanılarak yapılan üç saha inşaatı örneği verilmiştir.
 // 1 - Tek alan:
 // ƒ (Florin) sembolünü görüntüleyen bir SEMBOL alanı eklemek için bir alan oluşturucu kullanın.
 FieldBuilder builder = new FieldBuilder(FieldType.FieldSymbol);
@@ -338,27 +338,27 @@ Field field = builder.BuildAndInsert(doc.FirstSection.Body.FirstParagraph);
 Assert.AreEqual(" SYMBOL 402 \\f Arial \\s 25 \\u ", field.GetFieldCode());
 
 // 2 - İç içe alan:
-// Başka bir alan oluşturucu tarafından iç alan olarak kullanılan bir formül alanı oluşturmak için bir alan oluşturucu kullanın.
+// Başka bir alan oluşturucu tarafından iç alan olarak kullanılan bir formül alanı oluşturmak için alan oluşturucuyu kullanın.
 FieldBuilder innerFormulaBuilder = new FieldBuilder(FieldType.FieldFormula);
 innerFormulaBuilder.AddArgument(100);
 innerFormulaBuilder.AddArgument("+");
 innerFormulaBuilder.AddArgument(74);
 
 // Başka bir SEMBOL alanı için başka bir oluşturucu oluşturun ve formül alanını ekleyin
- // SYMBOL alanına argümanı olarak yukarıda oluşturduğumuz.
+ // yukarıda oluşturduğumuz SYMBOL alanına argümanı olarak ekledik.
 builder = new FieldBuilder(FieldType.FieldSymbol);
 builder.AddArgument(innerFormulaBuilder);
 field = builder.BuildAndInsert(doc.FirstSection.Body.AppendParagraph(string.Empty));
 
-// Dış SEMBOL alanı, argümanı olarak formül alanı sonucu 174'ü kullanır,
-// karakter numarası 174 olduğundan alanın ® (Kayıtlı İşaret) sembolünü göstermesini sağlar.
+// Dış SEMBOL alanı argüman olarak formül alanı sonucunu (174) kullanacaktır,
+// karakter numarası 174 olduğundan alanın ® (Kayıtlı İşaret) sembolünü göstermesini sağlayacaktır.
 Assert.AreEqual(" SYMBOL \u0013 = 100 + 74 \u0014\u0015 ", field.GetFieldCode());
 
-// 3 - Birden çok iç içe alan ve bağımsız değişken:
-// Şimdi, iki özel dize değerinden birini görüntüleyen bir EĞER alanı oluşturmak için bir oluşturucu kullanacağız,
-// ifadesinin doğru/yanlış değerine bağlı olarak. Doğru/yanlış bir değer elde etmek için
-// EĞER alanının hangi dizeyi görüntülediğini belirleyen EĞER alanı, eşitlik için iki sayısal ifadeyi test edecektir.
-// EĞER alanının içine yerleştireceğimiz iki ifadeyi formül alanları şeklinde sağlayacağız.
+// 3 - Birden fazla iç içe geçmiş alan ve argüman:
+// Şimdi, iki özel dize değerinden birini görüntüleyen bir IF alanı oluşturmak için bir oluşturucu kullanacağız,
+// ifadesinin doğru/yanlış değerine bağlı olarak. Doğru/yanlış değerini elde etmek için
+// IF alanının hangi dizeyi görüntüleyeceğini belirleyen IF alanı, iki sayısal ifadenin eşitliğini test edecektir.
+// IF alanının içine yerleştireceğimiz iki ifadeyi formül alanları şeklinde sağlayacağız.
 FieldBuilder leftExpression = new FieldBuilder(FieldType.FieldFormula);
 leftExpression.AddArgument(2);
 leftExpression.AddArgument("+");
@@ -369,7 +369,7 @@ rightExpression.AddArgument(2.5);
 rightExpression.AddArgument("*");
 rightExpression.AddArgument(5.2);
 
-// Sonra, EĞER alanı için doğru/yanlış çıktı dizeleri olarak hizmet edecek iki alan bağımsız değişkeni oluşturacağız.
+// Daha sonra, IF alanı için doğru/yanlış çıktı dizeleri olarak hizmet edecek iki alan argümanı oluşturacağız.
 // Bu argümanlar sayısal ifadelerimizin çıktı değerlerini yeniden kullanacak.
 FieldArgumentBuilder trueOutput = new FieldArgumentBuilder();
 trueOutput.AddText("True, both expressions amount to ");
@@ -381,7 +381,7 @@ falseOutput.AddField(leftExpression);
 falseOutput.AddNode(new Run(doc, " does not equal "));
 falseOutput.AddField(rightExpression);
 
- // Son olarak, IF alanı için bir tane daha alan oluşturucu oluşturacağız ve tüm ifadeleri birleştireceğiz.
+ // Son olarak IF alanı için bir alan oluşturucu daha oluşturacağız ve tüm ifadeleri birleştireceğiz.
 builder = new FieldBuilder(FieldType.FieldIf);
 builder.AddArgument(leftExpression);
 builder.AddArgument("=");
@@ -408,7 +408,7 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 
 ## AddArgument(FieldArgumentBuilder) {#addargument}
 
-ile temsil edilen bir alanın argümanını ekler[`FieldArgumentBuilder`](../../fieldargumentbuilder/) alanın koduna.
+Şununla temsil edilen bir alanın bağımsız değişkenini ekler:[`FieldArgumentBuilder`](../../fieldargumentbuilder/) alanın koduna.
 
 ```csharp
 public FieldBuilder AddArgument(FieldArgumentBuilder argument)
@@ -425,7 +425,7 @@ Alan oluşturucu kullanarak alanların nasıl oluşturulacağını ve ardından 
 ```csharp
 Document doc = new Document();
 
-// Aşağıda, bir alan oluşturucu kullanılarak yapılan üç alan oluşturma örneği verilmiştir.
+// Aşağıda bir saha oluşturucu kullanılarak yapılan üç saha inşaatı örneği verilmiştir.
 // 1 - Tek alan:
 // ƒ (Florin) sembolünü görüntüleyen bir SEMBOL alanı eklemek için bir alan oluşturucu kullanın.
 FieldBuilder builder = new FieldBuilder(FieldType.FieldSymbol);
@@ -438,27 +438,27 @@ Field field = builder.BuildAndInsert(doc.FirstSection.Body.FirstParagraph);
 Assert.AreEqual(" SYMBOL 402 \\f Arial \\s 25 \\u ", field.GetFieldCode());
 
 // 2 - İç içe alan:
-// Başka bir alan oluşturucu tarafından iç alan olarak kullanılan bir formül alanı oluşturmak için bir alan oluşturucu kullanın.
+// Başka bir alan oluşturucu tarafından iç alan olarak kullanılan bir formül alanı oluşturmak için alan oluşturucuyu kullanın.
 FieldBuilder innerFormulaBuilder = new FieldBuilder(FieldType.FieldFormula);
 innerFormulaBuilder.AddArgument(100);
 innerFormulaBuilder.AddArgument("+");
 innerFormulaBuilder.AddArgument(74);
 
 // Başka bir SEMBOL alanı için başka bir oluşturucu oluşturun ve formül alanını ekleyin
- // SYMBOL alanına argümanı olarak yukarıda oluşturduğumuz.
+ // yukarıda oluşturduğumuz SYMBOL alanına argümanı olarak ekledik.
 builder = new FieldBuilder(FieldType.FieldSymbol);
 builder.AddArgument(innerFormulaBuilder);
 field = builder.BuildAndInsert(doc.FirstSection.Body.AppendParagraph(string.Empty));
 
-// Dış SEMBOL alanı, argümanı olarak formül alanı sonucu 174'ü kullanır,
-// karakter numarası 174 olduğundan alanın ® (Kayıtlı İşaret) sembolünü göstermesini sağlar.
+// Dış SEMBOL alanı argüman olarak formül alanı sonucunu (174) kullanacaktır,
+// karakter numarası 174 olduğundan alanın ® (Kayıtlı İşaret) sembolünü göstermesini sağlayacaktır.
 Assert.AreEqual(" SYMBOL \u0013 = 100 + 74 \u0014\u0015 ", field.GetFieldCode());
 
-// 3 - Birden çok iç içe alan ve bağımsız değişken:
-// Şimdi, iki özel dize değerinden birini görüntüleyen bir EĞER alanı oluşturmak için bir oluşturucu kullanacağız,
-// ifadesinin doğru/yanlış değerine bağlı olarak. Doğru/yanlış bir değer elde etmek için
-// EĞER alanının hangi dizeyi görüntülediğini belirleyen EĞER alanı, eşitlik için iki sayısal ifadeyi test edecektir.
-// EĞER alanının içine yerleştireceğimiz iki ifadeyi formül alanları şeklinde sağlayacağız.
+// 3 - Birden fazla iç içe geçmiş alan ve argüman:
+// Şimdi, iki özel dize değerinden birini görüntüleyen bir IF alanı oluşturmak için bir oluşturucu kullanacağız,
+// ifadesinin doğru/yanlış değerine bağlı olarak. Doğru/yanlış değerini elde etmek için
+// IF alanının hangi dizeyi görüntüleyeceğini belirleyen IF alanı, iki sayısal ifadenin eşitliğini test edecektir.
+// IF alanının içine yerleştireceğimiz iki ifadeyi formül alanları şeklinde sağlayacağız.
 FieldBuilder leftExpression = new FieldBuilder(FieldType.FieldFormula);
 leftExpression.AddArgument(2);
 leftExpression.AddArgument("+");
@@ -469,7 +469,7 @@ rightExpression.AddArgument(2.5);
 rightExpression.AddArgument("*");
 rightExpression.AddArgument(5.2);
 
-// Sonra, EĞER alanı için doğru/yanlış çıktı dizeleri olarak hizmet edecek iki alan bağımsız değişkeni oluşturacağız.
+// Daha sonra, IF alanı için doğru/yanlış çıktı dizeleri olarak hizmet edecek iki alan argümanı oluşturacağız.
 // Bu argümanlar sayısal ifadelerimizin çıktı değerlerini yeniden kullanacak.
 FieldArgumentBuilder trueOutput = new FieldArgumentBuilder();
 trueOutput.AddText("True, both expressions amount to ");
@@ -481,7 +481,7 @@ falseOutput.AddField(leftExpression);
 falseOutput.AddNode(new Run(doc, " does not equal "));
 falseOutput.AddField(rightExpression);
 
- // Son olarak, IF alanı için bir tane daha alan oluşturucu oluşturacağız ve tüm ifadeleri birleştireceğiz.
+ // Son olarak IF alanı için bir alan oluşturucu daha oluşturacağız ve tüm ifadeleri birleştireceğiz.
 builder = new FieldBuilder(FieldType.FieldIf);
 builder.AddArgument(leftExpression);
 builder.AddArgument("=");

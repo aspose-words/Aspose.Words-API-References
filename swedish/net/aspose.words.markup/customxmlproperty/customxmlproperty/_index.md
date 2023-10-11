@@ -16,9 +16,9 @@ public CustomXmlProperty(string name, string uri, string value)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| name | String | Namnet på fastigheten. Kan inte vara null. |
-| uri | String | Namnutrymmets URI för egendomen. Kan inte vara null. |
-| value | String | Fastighetens värde. Kan inte vara null. |
+| name | String | Namnet på fastigheten. Kan inte vara`null`. |
+| uri | String | Namnutrymmets URI för egendomen. Kan inte vara`null`. |
+| value | String | Fastighetens värde. Kan inte vara`null`. |
 
 ### Exempel
 

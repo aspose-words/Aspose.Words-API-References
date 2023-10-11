@@ -1,14 +1,14 @@
 ---
 title: CustomPart.ContentType
 second_title: Referencia de API de Aspose.Words para .NET
-description: CustomPart propiedad. Especifica el tipo de contenido de esta pieza personalizada.
+description: CustomPart propiedad. Especifica el tipo de contenido de esta parte personalizada.
 type: docs
 weight: 20
 url: /es/net/aspose.words.markup/custompart/contenttype/
 ---
 ## CustomPart.ContentType property
 
-Especifica el tipo de contenido de esta pieza personalizada.
+Especifica el tipo de contenido de esta parte personalizada.
 
 ```csharp
 public string ContentType { get; set; }
@@ -16,9 +16,9 @@ public string ContentType { get; set; }
 
 ### Observaciones
 
-Esta propiedad es aplicable sólo cuando[`IsExternal`](../isexternal/) es`falso`.
+Esta propiedad es aplicable sólo cuando[`IsExternal`](../isexternal/) es`FALSO`.
 
-El valor predeterminado es una cadena vacía. Un valor válido debe ser una cadena no vacía.
+El valor predeterminado es una cadena vacía. Un valor válido debe ser una cadena que no esté vacía.
 
 ### Ejemplos
 
@@ -29,12 +29,12 @@ Document doc = new Document(MyDir + "Custom parts OOXML package.docx");
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);
 
-// Clona la segunda parte, luego agrega el clon a la colección.
+// Clona la segunda parte y luego agrega el clon a la colección.
 CustomPart clonedPart = doc.PackageCustomParts[1].Clone();
 doc.PackageCustomParts.Add(clonedPart);
 Assert.AreEqual(3, doc.PackageCustomParts.Count);
 
-// Enumerar sobre la colección e imprimir cada parte.
+// Enumerar la colección e imprimir cada parte.
 using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator())
 {
     int index = 0;

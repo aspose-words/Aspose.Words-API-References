@@ -1,14 +1,14 @@
 ---
 title: GraphicsQualityOptions.SmoothingMode
 second_title: Referencia de API de Aspose.Words para .NET
-description: GraphicsQualityOptions propiedad. Obtiene o establece la calidad de representación de este Graphics.
+description: GraphicsQualityOptions propiedad. Obtiene o establece la calidad de representación de estos gráficos.
 type: docs
 weight: 50
 url: /es/net/aspose.words.saving/graphicsqualityoptions/smoothingmode/
 ---
 ## GraphicsQualityOptions.SmoothingMode property
 
-Obtiene o establece la calidad de representación de este Graphics.
+Obtiene o establece la calidad de representación de estos gráficos.
 
 ```csharp
 public SmoothingMode? SmoothingMode { get; set; }
@@ -16,7 +16,7 @@ public SmoothingMode? SmoothingMode { get; set; }
 
 ### Ejemplos
 
-Muestra cómo configurar las opciones de calidad de procesamiento al convertir documentos a formatos de imagen.
+Muestra cómo configurar las opciones de calidad de renderizado al convertir documentos a formatos de imagen.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

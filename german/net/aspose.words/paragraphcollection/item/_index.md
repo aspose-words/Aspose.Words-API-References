@@ -1,14 +1,14 @@
 ---
 title: ParagraphCollection.Item
 second_title: Aspose.Words für .NET-API-Referenz
-description: ParagraphCollection eigendom. Ruft a Absatz am angegebenen Index.
+description: ParagraphCollection eigendom. Ruft a abParagraph am angegebenen Index.
 type: docs
 weight: 10
 url: /de/net/aspose.words/paragraphcollection/item/
 ---
 ## ParagraphCollection indexer
 
-Ruft a **Absatz** am angegebenen Index.
+Ruft a ab[`Paragraph`](../../paragraph/) am angegebenen Index.
 
 ```csharp
 public Paragraph this[int index] { get; }
@@ -22,39 +22,39 @@ public Paragraph this[int index] { get; }
 
 Der Index ist nullbasiert.
 
-Negative Indizes sind zulässig und zeigen den Zugriff von der Rückseite der Sammlung an. Zum Beispiel bedeutet -1 das letzte Element, -2 bedeutet das vorletzte und so weiter.
+Negative Indizes sind zulässig und zeigen den Zugriff von der Rückseite der Sammlung an. Beispielsweise bedeutet -1 das letzte Element, -2 das vorletzte und so weiter.
 
-Wenn der Index größer oder gleich der Anzahl der Elemente in der Liste ist, wird eine Nullreferenz zurückgegeben.
+Wenn der Index größer oder gleich der Anzahl der Elemente in der Liste ist, wird ein Nullverweis zurückgegeben.
 
-Wenn der Index negativ ist und sein absoluter Wert größer als die Anzahl der Elemente in der Liste ist, wird eine Nullreferenz zurückgegeben.
+Wenn der Index negativ ist und sein absoluter Wert größer als die Anzahl der Elemente in der Liste ist, wird ein Nullverweis zurückgegeben.
 
 ### Beispiele
 
-Zeigt, wie überprüft wird, ob es sich bei einem Absatz um eine verschobene Überarbeitung handelt.
+Zeigt, wie überprüft wird, ob es sich bei einem Absatz um eine Verschiebungsrevision handelt.
 
 ```csharp
 Document doc = new Document(MyDir + "Revisions.docx");
 
-// Dieses Dokument enthält "Move"-Revisionen, die erscheinen, wenn wir Text mit dem Cursor markieren,
+// Dieses Dokument enthält „Verschieben“-Revisionen, die angezeigt werden, wenn wir Text mit dem Cursor markieren.
 // und ziehen Sie es dann, um es an eine andere Position zu verschieben
-// beim Verfolgen von Revisionen in Microsoft Word über "Review" -> "Änderungen verfolgen".
+// während Überarbeitungen in Microsoft Word über „Überprüfen“ verfolgt werden -> "Änderungen verfolgen".
 Assert.AreEqual(6, doc.Revisions.Count(r => r.RevisionType == RevisionType.Moving));
 
 ParagraphCollection paragraphs = doc.FirstSection.Body.Paragraphs;
 
-// Verschiebungsrevisionen bestehen aus Paaren von "Move from"- und "Move to"-Revisionen. 
-// Diese Überarbeitungen sind potenzielle Änderungen am Dokument, die wir entweder akzeptieren oder ablehnen können.
-// Bevor wir eine Move-Revision akzeptieren/ablehnen, wird das Dokument
-// muss sowohl die Abfahrts- als auch die Ankunftsziele des Textes verfolgen.
-// Der zweite und der vierte Absatz definieren eine solche Überarbeitung und haben daher beide den gleichen Inhalt.
+ // Verschieberevisionen bestehen aus Paaren von „Verschieben von“- und „Verschieben nach“-Revisionen.
+// Bei diesen Überarbeitungen handelt es sich um potenzielle Änderungen am Dokument, die wir entweder akzeptieren oder ablehnen können.
+// Bevor wir eine Verschiebungsrevision akzeptieren/ablehnen, das Dokument
+// muss sowohl das Abflug- als auch das Ankunftsziel des Textes im Auge behalten.
+// Der zweite und der vierte Absatz definieren eine solche Revision und haben daher beide den gleichen Inhalt.
 Assert.AreEqual(paragraphs[1].GetText(), paragraphs[3].GetText());
 
-// Die „Move from“-Revision ist der Absatz, aus dem wir den Text gezogen haben.
-// Wenn wir die Überarbeitung akzeptieren, verschwindet dieser Absatz,
+// Die Revision „Verschieben von“ ist der Absatz, aus dem wir den Text gezogen haben.
+// Wenn wir die Überarbeitung akzeptieren, wird dieser Absatz verschwinden,
 // und der andere bleibt bestehen und ist keine Revision mehr.
 Assert.True(paragraphs[1].IsMoveFromRevision);
 
-// Die Revision „Verschieben nach“ ist der Absatz, in den wir den Text gezogen haben.
+// Die „Verschieben nach“-Revision ist der Absatz, in den wir den Text gezogen haben.
 // Wenn wir die Überarbeitung ablehnen, verschwindet stattdessen dieser Absatz und der andere bleibt bestehen.
 Assert.True(paragraphs[3].IsMoveToRevision);
 ```

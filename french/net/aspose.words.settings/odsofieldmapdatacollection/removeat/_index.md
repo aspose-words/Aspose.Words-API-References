@@ -16,7 +16,7 @@ public void RemoveAt(int index)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| index | Int32 | Index de base zéro de l'élément. |
+| index | Int32 | L'index de base zéro de l'élément. |
 
 ### Exemples
 
@@ -44,15 +44,15 @@ using (IEnumerator<OdsoFieldMapData> enumerator = dataCollection.GetEnumerator()
     }
 }
 
-// Clone les éléments de cette collection.
+// Clonez les éléments de cette collection.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// Utilise les éléments de la méthode "RemoveAt" individuellement par index.
+// Utilisez les éléments de la méthode "RemoveAt" individuellement par index.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(29, dataCollection.Count);
 
-// Utilisez la méthode "Clear" pour effacer toute la collection d'un coup.
+// Utilisez la méthode "Clear" pour effacer toute la collection en une seule fois.
 dataCollection.Clear();
 
 Assert.AreEqual(0, dataCollection.Count);

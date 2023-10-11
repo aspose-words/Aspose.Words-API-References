@@ -48,7 +48,7 @@ doc.Save(ArtifactsDir + "HtmlSaveOptions.Doc2EpubSaveOptions.epub", saveOptions)
 
 ## HtmlSaveOptions(SaveFormat) {#constructor_1}
 
-Initierar en ny instans av denna klass som kan användas för att spara ett document iHtml ,Mhtml ellerEpub format.
+Initierar en ny instans av denna klass som kan användas för att spara ett document iHtml ,Mhtml ,Epub , Azw3 ellerMobi format.
 
 ```csharp
 public HtmlSaveOptions(SaveFormat saveFormat)
@@ -56,7 +56,7 @@ public HtmlSaveOptions(SaveFormat saveFormat)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| saveFormat | SaveFormat | Kan varaHtml ,Mhtml ellerEpub. |
+| saveFormat | SaveFormat | Kan varaHtml ,Mhtml ,Epub , Azw3 ellerMobi . |
 
 ### Exempel
 

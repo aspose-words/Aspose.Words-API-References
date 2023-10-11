@@ -1,12 +1,14 @@
 ---
 title: Cluster.GetWidth
 second_title: Aspose.Words for .NET API Referansı
-description: Cluster yöntem. 
+description: Cluster yöntem. Kümenin genişliğini döndürür.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.shaping/cluster/getwidth/
 ---
 ## Cluster.GetWidth method
+
+Kümenin genişliğini döndürür.
 
 ```csharp
 public float GetWidth(int em, float fontSize)

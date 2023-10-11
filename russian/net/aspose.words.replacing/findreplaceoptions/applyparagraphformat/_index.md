@@ -1,14 +1,14 @@
 ---
 title: FindReplaceOptions.ApplyParagraphFormat
 second_title: Справочник по API Aspose.Words для .NET
-description: FindReplaceOptions свойство. Форматирование абзаца применяется к новому содержимому.
+description: FindReplaceOptions свойство. Форматирование абзацев применено к новому содержимому.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.replacing/findreplaceoptions/applyparagraphformat/
 ---
 ## FindReplaceOptions.ApplyParagraphFormat property
 
-Форматирование абзаца применяется к новому содержимому.
+Форматирование абзацев применено к новому содержимому.
 
 ```csharp
 public ParagraphFormat ApplyParagraphFormat { get; }
@@ -32,10 +32,10 @@ Assert.AreEqual(ParagraphAlignment.Left, paragraphs[0].ParagraphFormat.Alignment
 Assert.AreEqual(ParagraphAlignment.Left, paragraphs[1].ParagraphFormat.Alignment);
 Assert.AreEqual(ParagraphAlignment.Left, paragraphs[2].ParagraphFormat.Alignment);
 
-// Мы можем использовать объект «FindReplaceOptions», чтобы изменить процесс поиска и замены.
+// Мы можем использовать объект «FindReplaceOptions» для изменения процесса поиска и замены.
 FindReplaceOptions options = new FindReplaceOptions();
 
-// Установите для свойства "Выравнивание" значение "ParagraphAlignment.Right", чтобы выровнять каждый абзац по правому краю.
+// Установите для свойства «Alignment» значение «ParagraphAlignment.Right», чтобы выровнять каждый абзац по правому краю.
 // который содержит совпадение, найденное операцией поиска и замены.
 options.ApplyParagraphFormat.Alignment = ParagraphAlignment.Right;
 

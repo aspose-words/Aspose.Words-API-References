@@ -19,6 +19,7 @@ public string LeftExpression { get; set; }
 Visar hur du använder NEXT/NEXTIF-fält för att slå samman flera rader till en sida under en e-postkoppling.
 
 ```csharp
+public void FieldNext()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -64,9 +65,10 @@ Visar hur du använder NEXT/NEXTIF-fält för att slå samman flera rader till e
 
     doc.MailMerge.Execute(table);
 
-      // Vår datakälla har 3 rader, och vi hoppade över rader två gånger.
+     // Vår datakälla har 3 rader, och vi hoppade över rader två gånger.
     // Vårt utdatadokument kommer att ha 1 sida med data från alla tre raderna.
     doc.Save(ArtifactsDir + "Field.NEXT.NEXTIF.docx");
+}
 
 /// <summary>
 /// Använder en dokumentbyggare för att infoga MERGEFIELDs för en datakälla som innehåller kolumner med namnet "Courtesy Title", "First Name" och "Last Name".

@@ -1,14 +1,14 @@
 ---
 title: FieldAddressBlock.ExcludedCountryOrRegionName
 second_title: Aspose.Words لمراجع .NET API
-description: FieldAddressBlock ملكية. الحصول على أو تعيين اسم البلد / المنطقة المستبعدة.
+description: FieldAddressBlock ملكية. الحصول على اسم البلد/المنطقة المستبعدة أو تعيينه.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/fieldaddressblock/excludedcountryorregionname/
 ---
 ## FieldAddressBlock.ExcludedCountryOrRegionName property
 
-الحصول على أو تعيين اسم البلد / المنطقة المستبعدة.
+الحصول على اسم البلد/المنطقة المستبعدة أو تعيينه.
 
 ```csharp
 public string ExcludedCountryOrRegionName { get; set; }
@@ -26,15 +26,15 @@ FieldAddressBlock field = (FieldAddressBlock)builder.InsertField(FieldType.Field
 
 Assert.AreEqual(" ADDRESSBLOCK ", field.GetFieldCode());
 
-// سيتضمن تعيين هذا على "2" جميع البلدان والمناطق ،
-// ما لم يكن هو المحدد في خاصية ExcludedCountryOrRegionName.
+// ضبط هذا على "2" سيشمل جميع البلدان والمناطق،
+// إلا إذا كان هو المحدد في خاصية ExcludedCountryOrRegionName.
 field.IncludeCountryOrRegionName = "2";
 field.FormatAddressOnCountryOrRegion = true;
 field.ExcludedCountryOrRegionName = "United States";
 field.NameAndAddressFormat = "<Title> <Forename> <Surname> <Address Line 1> <Region> <Postcode> <Country>";
 
-// بشكل افتراضي ، ستحتوي هذه الخاصية على معرف اللغة للحرف الأول من المستند.
-// يمكننا تعيين ثقافة مختلفة للمجال لتنسيق النتيجة بهذا الشكل.
+// بشكل افتراضي، ستحتوي هذه الخاصية على معرف اللغة للحرف الأول من المستند.
+// يمكننا تعيين ثقافة مختلفة للحقل لتنسيق النتيجة بهذا الشكل.
 field.LanguageId = new CultureInfo("en-US").LCID.ToString();
 
 Assert.AreEqual(

@@ -1,12 +1,14 @@
 ---
 title: BasicTextShaperCache.BasicTextShaperCache
 second_title: Aspose.Words für .NET-API-Referenz
-description: BasicTextShaperCache constructeur. 
+description: BasicTextShaperCache constructeur. Wrapsfactory und CachesGetTextShaper Ergebnisse.
 type: docs
 weight: 10
 url: /de/net/aspose.words.shaping/basictextshapercache/basictextshapercache/
 ---
 ## BasicTextShaperCache constructor
+
+Wraps*factory* und Caches[`GetTextShaper`](../../itextshaperfactory/gettextshaper/) Ergebnisse.
 
 ```csharp
 public BasicTextShaperCache(ITextShaperFactory factory)

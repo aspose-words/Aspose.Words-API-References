@@ -1,14 +1,14 @@
 ---
 title: Document.ViewOptions
 second_title: Aspose.Words لمراجع .NET API
-description: Document ملكية. يوفر خيارات للتحكم في كيفية عرض المستند في Microsoft Word .
+description: Document ملكية. يوفر خيارات للتحكم في كيفية عرض المستند في Microsoft Word.
 type: docs
-weight: 450
+weight: 470
 url: /ar/net/aspose.words/document/viewoptions/
 ---
 ## Document.ViewOptions property
 
-يوفر خيارات للتحكم في كيفية عرض المستند في Microsoft Word .
+يوفر خيارات للتحكم في كيفية عرض المستند في Microsoft Word.
 
 ```csharp
 public ViewOptions ViewOptions { get; }
@@ -16,7 +16,7 @@ public ViewOptions ViewOptions { get; }
 
 ### أمثلة
 
-يوضح كيفية تعيين عامل تكبير مخصص ، أي الإصدارات القديمة من Microsoft Word سيتم تطبيقها على مستند عند التحميل.
+يوضح كيفية تعيين عامل تكبير مخصص، أي الإصدارات الأقدم من Microsoft Word سيتم تطبيقها على المستند عند التحميل.
 
 ```csharp
 Document doc = new Document();
@@ -32,7 +32,7 @@ Assert.AreEqual(ZoomType.None, doc.ViewOptions.ZoomType);
 doc.Save(ArtifactsDir + "ViewOptions.SetZoomPercentage.doc");
 ```
 
-يوضح كيفية تعيين نوع تكبير مخصص ، أي الإصدارات القديمة من Microsoft Word سيتم تطبيقها على مستند عند التحميل.
+يوضح كيفية تعيين نوع تكبير/تصغير مخصص، والإصدارات الأقدم من Microsoft Word التي سيتم تطبيقها على المستند عند التحميل.
 
 ```csharp
 Document doc = new Document();
@@ -40,11 +40,11 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 
 // قم بتعيين خاصية "ZoomType" على "ZoomType.PageWidth" للحصول على Microsoft Word
-// لتكبير المستند تلقائيًا ليلائم عرض الصفحة.
+// لتكبير المستند تلقائيًا ليناسب عرض الصفحة.
 // قم بتعيين خاصية "ZoomType" على "ZoomType.FullPage" للحصول على Microsoft Word
 // لتكبير المستند تلقائيًا لجعل الصفحة الأولى بأكملها مرئية.
 // قم بتعيين خاصية "ZoomType" على "ZoomType.TextFit" للحصول على Microsoft Word
-// لتكبير المستند تلقائيًا لملاءمة هوامش النص الداخلية للصفحة الأولى.
+// لتكبير المستند تلقائيًا ليناسب هوامش النص الداخلي للصفحة الأولى.
 doc.ViewOptions.ZoomType = zoomType;
 
 doc.Save(ArtifactsDir + "ViewOptions.SetZoomType.doc");

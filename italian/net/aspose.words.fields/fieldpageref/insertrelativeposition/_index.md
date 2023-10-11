@@ -22,18 +22,18 @@ Mostra per inserire i campi PAGEREF per visualizzare la posizione relativa dei s
 public void FieldPageRef()
 {
     Document doc = new Document();
-    DocumentBuilder builder = new DocumentBuilder(doc);
+    DocumentBuilder builder = new DocumentBuilder(doc);            
 
     InsertAndNameBookmark(builder, "MyBookmark1");
 
-    // Inserisce un campo PAGEREF che mostra in quale pagina si trova un segnalibro.
-    // Imposta il flag InsertHyperlink per fare in modo che il campo funzioni anche come collegamento cliccabile al segnalibro.
+    // Inserisci un campo PAGEREF che visualizza la pagina su cui si trova un segnalibro.
+    // Imposta il flag InsertHyperlink per fare in modo che il campo funzioni anche come collegamento selezionabile al segnalibro.
     Assert.AreEqual(" PAGEREF  MyBookmark3 \\h", 
         InsertFieldPageRef(builder, "MyBookmark3", true, false, "Hyperlink to Bookmark3, on page: ").GetFieldCode());
 
     // Possiamo usare il flag \p per visualizzare il campo PAGEREF
     // la posizione del segnalibro rispetto alla posizione del campo.
-    // Bookmark1 è sulla stessa pagina e sopra questo campo, quindi il risultato visualizzato di questo campo sarà "sopra".
+    // Bookmark1 si trova sulla stessa pagina e sopra questo campo, quindi il risultato visualizzato di questo campo sarà "sopra".
     Assert.AreEqual(" PAGEREF  MyBookmark1 \\h \\p", 
         InsertFieldPageRef(builder, "MyBookmark1", true, true, "Bookmark1 is ").GetFieldCode());
 
@@ -41,7 +41,7 @@ public void FieldPageRef()
     Assert.AreEqual(" PAGEREF  MyBookmark2 \\h \\p", 
         InsertFieldPageRef(builder, "MyBookmark2", true, true, "Bookmark2 is ").GetFieldCode());
 
-    // Bookmark3 sarà su una pagina diversa, quindi il campo visualizzerà "on page 2".
+    // Bookmark3 si troverà su una pagina diversa, quindi il campo visualizzerà "a pagina 2".
     Assert.AreEqual(" PAGEREF  MyBookmark3 \\h \\p", 
         InsertFieldPageRef(builder, "MyBookmark3", true, true, "Bookmark3 is ").GetFieldCode());
 
@@ -49,11 +49,13 @@ public void FieldPageRef()
     builder.InsertBreak(BreakType.PageBreak);
     InsertAndNameBookmark(builder, "MyBookmark3");
 
+    doc.UpdatePageLayout();
     doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.PAGEREF.docx");
+}
 
 /// <summary>
-/// Utilizza un generatore di documenti per inserire un campo PAGEREF e ne imposta le proprietà.
+/// Utilizza un generatore di documenti per inserire un campo PAGEREF e impostarne le proprietà.
 /// </summary>
 private static FieldPageRef InsertFieldPageRef(DocumentBuilder builder, string bookmarkName, bool insertHyperlink, bool insertRelativePosition, string textBefore)
 {

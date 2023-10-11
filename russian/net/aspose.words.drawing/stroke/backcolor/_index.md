@@ -16,11 +16,11 @@ public Color BackColor { get; set; }
 
 ### Примечания
 
-Значение по умолчанию для[`Shape`](../../shape/)White.
+Значение по умолчанию для[`Shape`](../../shape/) is White.
 
 ### Примеры
 
-Покажите, как настроить форматирование маркера.
+Покажите, как установить форматирование маркера.
 
 ```csharp
 Document doc = new Document();
@@ -34,7 +34,7 @@ chart.Series.Clear();
 ChartSeries series = chart.Series.Add("AW Series 1", new[] { 0.7, 1.8, 2.6, 3.9 },
     new[] { 2.7, 3.2, 0.8, 1.7 });
 
-// Установить форматирование маркера.
+// Устанавливаем форматирование маркера.
 series.Marker.Size = 40;
 series.Marker.Symbol = MarkerSymbol.Square;
 ChartDataPointCollection dataPoints = series.DataPoints;

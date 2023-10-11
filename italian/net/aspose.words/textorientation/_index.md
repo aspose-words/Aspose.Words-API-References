@@ -3,7 +3,7 @@ title: Enum TextOrientation
 second_title: Aspose.Words per .NET API Reference
 description: Aspose.Words.TextOrientation enum. Specifica lorientamento del testo su una pagina in una cella di tabella o in una cornice di testo.
 type: docs
-weight: 6130
+weight: 6430
 url: /it/net/aspose.words/textorientation/
 ---
 ## TextOrientation enumeration
@@ -21,9 +21,9 @@ public enum TextOrientation
 | Horizontal | `0` | Il testo è disposto orizzontalmente (lr-tb). |
 | Downward | `1` | Il testo viene ruotato di 90 gradi a destra per apparire dall'alto verso il basso (tb-rl). |
 | Upward | `3` | Il testo viene ruotato di 90 gradi a sinistra per apparire dal basso verso l'alto (bt-lr). |
-| HorizontalRotatedFarEast | `4` | Il testo è disposto orizzontalmente, ma i caratteri dell'Estremo Oriente sono ruotati di 90 gradi a sinistra (lr-tb-v). |
-| VerticalFarEast | `5` | I caratteri dell'Estremo Oriente vengono visualizzati in verticale, l'altro testo viene ruotato di 90 gradi a destra per essere visualizzato dall'alto verso il basso (tb-rl-v). |
-| VerticalRotatedFarEast | `7` | I caratteri dell'Estremo Oriente vengono visualizzati in verticale, l'altro testo viene ruotato di 90 gradi a destra per essere visualizzato dall'alto in basso in verticale, quindi da sinistra a destra in orizzontale (tb-lr-v). |
+| HorizontalRotatedFarEast | `4` | Il testo è disposto orizzontalmente, ma i caratteri dell'Estremo Oriente vengono ruotati di 90 gradi a sinistra (lr-tb-v). |
+| VerticalFarEast | `5` | I caratteri dell'Estremo Oriente appaiono in verticale, il resto del testo viene ruotato di 90 gradi a destra per apparire dall'alto verso il basso (tb-rl-v). |
+| VerticalRotatedFarEast | `7` | I caratteri dell'Estremo Oriente vengono visualizzati in verticale, il resto del testo viene ruotato di 90 gradi a destra per apparire dall'alto verso il basso in verticale, quindi da sinistra a destra in orizzontale (tb-lr-v). |
 
 ### Esempi
 
@@ -41,8 +41,8 @@ builder.InsertCell();
 builder.Write("Row 1, cell 2.");
 builder.EndRow();
 
-// Durante la creazione della tabella, il generatore di documenti applicherà i suoi valori di proprietà RowFormat/CellFormat correnti
-// alla riga/cella corrente in cui si trova il cursore e a tutte le nuove righe/celle man mano che le crea.
+// Durante la creazione della tabella, il generatore di documenti applicherà i valori correnti della proprietà RowFormat/CellFormat
+// alla riga/cella corrente in cui si trova il cursore e a qualsiasi nuova riga/cella mentre le crea.
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[0].CellFormat.VerticalAlignment);
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[1].CellFormat.VerticalAlignment);
 
@@ -57,7 +57,7 @@ builder.Write("Row 2, cell 2.");
 builder.EndRow();
 builder.EndTable();
 
-// Le righe e le celle aggiunte in precedenza non sono influenzate retroattivamente dalle modifiche alla formattazione del builder.
+// Le righe e le celle aggiunte in precedenza non vengono influenzate retroattivamente dalle modifiche alla formattazione del builder.
 Assert.AreEqual(0, table.Rows[0].RowFormat.Height);
 Assert.AreEqual(HeightRule.Auto, table.Rows[0].RowFormat.HeightRule);
 Assert.AreEqual(100, table.Rows[1].RowFormat.Height);

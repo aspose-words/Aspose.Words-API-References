@@ -1,18 +1,18 @@
 ---
 title: DigitalSignatureUtil.Sign
 second_title: Referencia de API de Aspose.Words para .NET
-description: DigitalSignatureUtil método. Firma el documento de origen usando dadoCertificateHolder ySignOptions con firma digital y escribe el documento firmado en el flujo de destino.
+description: DigitalSignatureUtil método. Firma el documento fuente utilizando lo indicadoCertificateHolder ySignOptions con firma digital y escribe el documento firmado en el flujo de destino.
 type: docs
 weight: 30
 url: /es/net/aspose.words.digitalsignatures/digitalsignatureutil/sign/
 ---
 ## Sign(Stream, Stream, CertificateHolder, SignOptions) {#sign_1}
 
-Firma el documento de origen usando dado[`CertificateHolder`](../../certificateholder/) y[`SignOptions`](../../signoptions/) con firma digital y escribe el documento firmado en el flujo de destino.
+Firma el documento fuente utilizando lo indicado[`CertificateHolder`](../../certificateholder/) y[`SignOptions`](../../signoptions/) con firma digital y escribe el documento firmado en el flujo de destino.
 
 El documento debe serDoc oDocx.
 
-**La salida se escribirá al comienzo de la transmisión y el tamaño de la transmisión se actualizará con la longitud del contenido.**
+**La salida se escribirá al inicio de la transmisión y el tamaño de la transmisión se actualizará con la longitud del contenido.**
 
 ```csharp
 public static void Sign(Stream srcStream, Stream dstStream, CertificateHolder certHolder, 
@@ -23,7 +23,7 @@ public static void Sign(Stream srcStream, Stream dstStream, CertificateHolder ce
 | --- | --- | --- |
 | srcStream | Stream | La secuencia que contiene el documento a firmar. |
 | dstStream | Stream | La secuencia en la que se escribirá el documento firmado. |
-| certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder/) objeto con el certificado que se usó para firmar el archivo. El certificado del titular DEBE contener claves privadas y tener el indicador X509KeyStorageFlags.Exportable establecido. |
+| certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder/) objeto con certificado que se utilizó para firmar el archivo. El certificado en el titular DEBE contener claves privadas y tener establecido el indicador X509KeyStorageFlags.Exportable. |
 | signOptions | SignOptions | [`SignOptions`](../../signoptions/) objeto con varias opciones de firma. |
 
 ### Ejemplos
@@ -34,15 +34,15 @@ Muestra cómo firmar documentos digitalmente.
 // Cree un certificado X.509 desde un almacén PKCS#12, que debe contener una clave privada.
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw");
 
-// Cree un comentario y una fecha que se aplicará con nuestra nueva firma digital.
+// Crea un comentario y una fecha que se aplicará con nuestra nueva firma digital.
 SignOptions signOptions = new SignOptions
 {
     Comments = "My comment", 
     SignTime = DateTime.Now
 };
 
-// Tome un documento sin firmar del sistema de archivos local a través de un flujo de archivos,
-// luego cree una copia firmada determinada por el nombre de archivo de la secuencia del archivo de salida.
+// Tomar un documento sin firmar del sistema de archivos local a través de una secuencia de archivos,
+// luego crea una copia firmada determinada por el nombre de archivo de la secuencia del archivo de salida.
 using (Stream streamIn = new FileStream(MyDir + "Document.docx", FileMode.Open))
 {
     using (Stream streamOut = new FileStream(ArtifactsDir + "DigitalSignatureUtil.SignDocument.docx", FileMode.OpenOrCreate))
@@ -64,7 +64,7 @@ using (Stream streamIn = new FileStream(MyDir + "Document.docx", FileMode.Open))
 
 ## Sign(string, string, CertificateHolder, SignOptions) {#sign_3}
 
-Firma el documento de origen usando dado[`CertificateHolder`](../../certificateholder/) y[`SignOptions`](../../signoptions/) con firma digital y escribe el documento firmado en el archivo de destino.
+Firma el documento fuente utilizando lo indicado[`CertificateHolder`](../../certificateholder/) y[`SignOptions`](../../signoptions/) con firma digital y escribe el documento firmado en el archivo de destino.
 
 El documento debe serDoc oDocx.
 
@@ -75,17 +75,18 @@ public static void Sign(string srcFileName, string dstFileName, CertificateHolde
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| srcFileName | String | El nombre de archivo del documento a firmar. |
-| dstFileName | String | El nombre de archivo de la salida del documento firmado. |
-| certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder/) objeto con el certificado que se usó para firmar el archivo. El certificado del titular DEBE contener claves privadas y tener el indicador X509KeyStorageFlags.Exportable establecido. |
+| srcFileName | String | El nombre del archivo del documento a firmar. |
+| dstFileName | String | El nombre del archivo del documento firmado. |
+| certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder/) objeto con certificado que se utilizó para firmar el archivo. El certificado en el titular DEBE contener claves privadas y tener establecido el indicador X509KeyStorageFlags.Exportable. |
 | signOptions | SignOptions | [`SignOptions`](../../signoptions/) objeto con varias opciones de firma. |
 
 ### Ejemplos
 
-Muestra cómo agregar una línea de firma a un documento y luego firmarlo con un certificado digital.
+Muestra cómo agregar una línea de firma a un documento y luego firmarlo usando un certificado digital.
 
 ```csharp
-public static void Sign()
+[Description("WORDSNET-16868")]
+        public static void Sign()
         {
             string signeeName = "Ron Williams";
             string srcDocumentPath = MyDir + "Document.docx";
@@ -104,7 +105,7 @@ public static void Sign()
         }
 
         /// <summary>
-        /// Crea una copia de un documento de origen firmado con la información del firmante proporcionada y el certificado X509.
+        /// Crea una copia de un documento fuente firmado utilizando la información del firmante proporcionada y el certificado X509.
         /// </summary>
         private static void SignDocument(string srcDocumentPath, string dstDocumentPath,
             Signee signeeInfo, string certificatePath, string certificatePassword)
@@ -133,7 +134,7 @@ public static void Sign()
                 SignatureLineImage = signeeInfo.Image
             };
 
-            // Sobrescribir el documento sin firmar que guardamos anteriormente con una versión firmada con el certificado.
+            // Sobrescribe el documento sin firmar que guardamos arriba con una versión firmada con el certificado.
             DigitalSignatureUtil.Sign(dstDocumentPath, dstDocumentPath, certificateHolder, signOptions);
         }
 
@@ -204,11 +205,11 @@ public static void Sign()
 
 ## Sign(Stream, Stream, CertificateHolder) {#sign}
 
-Firma el documento de origen usando dado[`CertificateHolder`](../../certificateholder/)con firma digital y escribe el documento firmado en el flujo de destino.
+Firma el documento fuente utilizando lo indicado[`CertificateHolder`](../../certificateholder/)con firma digital y escribe el documento firmado en el flujo de destino.
 
 El documento debe serDoc oDocx.
 
-**La salida se escribirá al comienzo de la transmisión y el tamaño de la transmisión se actualizará con la longitud del contenido.**
+**La salida se escribirá al inicio de la transmisión y el tamaño de la transmisión se actualizará con la longitud del contenido.**
 
 ```csharp
 public static void Sign(Stream srcStream, Stream dstStream, CertificateHolder certHolder)
@@ -218,27 +219,27 @@ public static void Sign(Stream srcStream, Stream dstStream, CertificateHolder ce
 | --- | --- | --- |
 | srcStream | Stream | La secuencia que contiene el documento a firmar. |
 | dstStream | Stream | La secuencia en la que se escribirá el documento firmado. |
-| certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder/) objeto con el certificado que se usó para firmar el archivo. El certificado del titular DEBE contener claves privadas y tener el indicador X509KeyStorageFlags.Exportable establecido. |
+| certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder/) objeto con certificado que se utilizó para firmar el archivo. El certificado en el titular DEBE contener claves privadas y tener establecido el indicador X509KeyStorageFlags.Exportable. |
 
 ### Ejemplos
 
 Muestra cómo firmar documentos con certificados X.509.
 
 ```csharp
-// Verifica que un documento no esté firmado.
+// Verificar que un documento no esté firmado.
 Assert.False(FileFormatUtil.DetectFileFormat(MyDir + "Document.docx").HasDigitalSignature);
 
-// Crear un objeto CertificateHolder a partir de un archivo PKCS12, que usaremos para firmar el documento.
+// Crea un objeto CertificateHolder a partir de un archivo PKCS12, que usaremos para firmar el documento.
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw", null);
 
 // Hay dos formas de guardar una copia firmada de un documento en el sistema de archivos local:
-// 1 - Designar un documento por un nombre de archivo del sistema local y guardar una copia firmada en una ubicación especificada por otro nombre de archivo.
+// 1: designe un documento con un nombre de archivo del sistema local y guarde una copia firmada en una ubicación especificada con otro nombre de archivo.
 DigitalSignatureUtil.Sign(MyDir + "Document.docx", ArtifactsDir + "Document.DigitalSignature.docx", 
     certificateHolder, new SignOptions() { SignTime = DateTime.Now } );
 
 Assert.True(FileFormatUtil.DetectFileFormat(ArtifactsDir + "Document.DigitalSignature.docx").HasDigitalSignature);
 
-// 2 - Tome un documento de un flujo y guarde una copia firmada en otro flujo.
+// 2: tomar un documento de una secuencia y guardar una copia firmada en otra secuencia.
 using (FileStream inDoc = new FileStream(MyDir + "Document.docx", FileMode.Open))
 {
     using (FileStream outDoc = new FileStream(ArtifactsDir + "Document.DigitalSignature.docx", FileMode.Create))
@@ -271,7 +272,7 @@ Assert.AreEqual("CN=Morzal.Me", signedDoc.DigitalSignatures[0].SubjectName);
 
 ## Sign(string, string, CertificateHolder) {#sign_2}
 
-Firma el documento de origen usando dado[`CertificateHolder`](../../certificateholder/) con firma digital y escribe el documento firmado en el archivo de destino.
+Firma el documento fuente utilizando lo indicado[`CertificateHolder`](../../certificateholder/) con firma digital y escribe el documento firmado en el archivo de destino.
 
 El documento debe serDoc oDocx.
 
@@ -281,29 +282,29 @@ public static void Sign(string srcFileName, string dstFileName, CertificateHolde
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| srcFileName | String | El nombre de archivo del documento a firmar. |
-| dstFileName | String | El nombre de archivo de la salida del documento firmado. |
-| certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder/) objeto con el certificado que se usó para firmar el archivo. El certificado del titular DEBE contener claves privadas y tener el indicador X509KeyStorageFlags.Exportable establecido. |
+| srcFileName | String | El nombre del archivo del documento a firmar. |
+| dstFileName | String | El nombre del archivo del documento firmado. |
+| certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder/) objeto con certificado que se utilizó para firmar el archivo. El certificado en el titular DEBE contener claves privadas y tener establecido el indicador X509KeyStorageFlags.Exportable. |
 
 ### Ejemplos
 
 Muestra cómo firmar documentos con certificados X.509.
 
 ```csharp
-// Verifica que un documento no esté firmado.
+// Verificar que un documento no esté firmado.
 Assert.False(FileFormatUtil.DetectFileFormat(MyDir + "Document.docx").HasDigitalSignature);
 
-// Crear un objeto CertificateHolder a partir de un archivo PKCS12, que usaremos para firmar el documento.
+// Crea un objeto CertificateHolder a partir de un archivo PKCS12, que usaremos para firmar el documento.
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw", null);
 
 // Hay dos formas de guardar una copia firmada de un documento en el sistema de archivos local:
-// 1 - Designar un documento por un nombre de archivo del sistema local y guardar una copia firmada en una ubicación especificada por otro nombre de archivo.
+// 1: designe un documento con un nombre de archivo del sistema local y guarde una copia firmada en una ubicación especificada con otro nombre de archivo.
 DigitalSignatureUtil.Sign(MyDir + "Document.docx", ArtifactsDir + "Document.DigitalSignature.docx", 
     certificateHolder, new SignOptions() { SignTime = DateTime.Now } );
 
 Assert.True(FileFormatUtil.DetectFileFormat(ArtifactsDir + "Document.DigitalSignature.docx").HasDigitalSignature);
 
-// 2 - Tome un documento de un flujo y guarde una copia firmada en otro flujo.
+// 2: tomar un documento de una secuencia y guardar una copia firmada en otra secuencia.
 using (FileStream inDoc = new FileStream(MyDir + "Document.docx", FileMode.Open))
 {
     using (FileStream outDoc = new FileStream(ArtifactsDir + "Document.DigitalSignature.docx", FileMode.Create))

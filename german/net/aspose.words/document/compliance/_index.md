@@ -1,14 +1,14 @@
 ---
 title: Document.Compliance
 second_title: Aspose.Words für .NET-API-Referenz
-description: Document eigendom. Ruft die aus dem geladenen Dokumentinhalt ermittelte OOXMLKonformitätsversion ab. Nur für OOXMLDokumente sinnvoll.
+description: Document eigendom. Ruft die aus dem geladenen Dokumentinhalt ermittelte OOXMLKonformitätsversion ab. Ist nur für OOXMLDokumente sinnvoll.
 type: docs
 weight: 60
 url: /de/net/aspose.words/document/compliance/
 ---
 ## Document.Compliance property
 
-Ruft die aus dem geladenen Dokumentinhalt ermittelte OOXML-Konformitätsversion ab. Nur für OOXML-Dokumente sinnvoll.
+Ruft die aus dem geladenen Dokumentinhalt ermittelte OOXML-Konformitätsversion ab. Ist nur für OOXML-Dokumente sinnvoll.
 
 ```csharp
 public OoxmlCompliance Compliance { get; }
@@ -16,14 +16,14 @@ public OoxmlCompliance Compliance { get; }
 
 ### Bemerkungen
 
-Wenn Sie ein neues leeres Dokument erstellt oder kein OOXML geladen haben, gibt document dieEcma376_2006 Wert.
+Wenn Sie ein neues leeres Dokument erstellt oder Nicht-OOXML geladen haben, gibt document das zurückEcma376_2006 Wert.
 
 ### Beispiele
 
 Zeigt, wie die Open Office XML-Konformitätsversion eines geladenen Dokuments gelesen wird.
 
 ```csharp
-// Die Konformitätsversion variiert zwischen Dokumenten, die mit verschiedenen Versionen von Microsoft Word erstellt wurden.
+// Die Compliance-Version variiert zwischen Dokumenten, die mit verschiedenen Versionen von Microsoft Word erstellt wurden.
 Document doc = new Document(MyDir + "Document.doc");
 
 Assert.AreEqual(doc.Compliance, OoxmlCompliance.Ecma376_2006);

@@ -22,10 +22,10 @@ public double DefaultTabStop { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Установите позиции табуляции так, чтобы они появлялись через каждые 72 пункта (1 дюйм).
+// Установите позиции табуляции так, чтобы они появлялись каждые 72 пункта (1 дюйм).
 builder.Document.DefaultTabStop = 72;
 
-// Каждый символ табуляции привязывает текст после него к ближайшей позиции табуляции.
+// Каждый символ табуляции привязывает текст после него к следующей ближайшей позиции табуляции.
 builder.Writeln("Hello" + ControlChar.Tab + "World!");
 builder.Writeln("Hello" + ControlChar.TabChar + "World!");
 ```

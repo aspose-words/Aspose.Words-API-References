@@ -22,6 +22,23 @@ public IStructuredDocumentTag GetById(int id)
 
 如果找不到具有指定标识符的结构化文档标签，则返回 null。
 
+### 例子
+
+展示如何获取结构化文档标签。
+
+```csharp
+Document doc = new Document(MyDir + "Structured document tags by id.docx");
+
+// 通过Id获取结构化文档标签。
+IStructuredDocumentTag sdt = doc.Range.StructuredDocumentTags.GetById(1160505028);
+Console.WriteLine(sdt.IsRanged());
+Console.WriteLine(sdt.Title);
+
+// 根据标题获取结构化文档标签或范围标签。
+sdt = doc.Range.StructuredDocumentTags.GetByTitle("Alias4");
+Console.WriteLine(sdt.Id);
+```
+
 ### 也可以看看
 
 * interface [IStructuredDocumentTag](../../istructureddocumenttag/)

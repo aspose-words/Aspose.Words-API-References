@@ -1,14 +1,14 @@
 ---
 title: ImageData.HasImage
 second_title: Aspose.Words لمراجع .NET API
-description: ImageData ملكية. إرجاع صحيح إذا كان للشكل بايت صورة أو ربط صورة.
+description: ImageData ملكية. إرجاعحقيقي إذا كان الشكل يحتوي على بايتات صورة أو يربط صورة.
 type: docs
 weight: 110
 url: /ar/net/aspose.words.drawing/imagedata/hasimage/
 ---
 ## ImageData.HasImage property
 
-إرجاع صحيح إذا كان للشكل بايت صورة أو ربط صورة.
+إرجاع`حقيقي` إذا كان الشكل يحتوي على بايتات صورة أو يربط صورة.
 
 ```csharp
 public bool HasImage { get; }
@@ -21,11 +21,11 @@ public bool HasImage { get; }
 ```csharp
 Document imgSourceDoc = new Document(MyDir + "Images.docx");
 
-// الأشكال مع مخزن مجموعة العلامات "HasImage" وعرض جميع صور المستند.
+// الأشكال ذات مجموعة العلامات "HasImage" تخزن جميع صور المستند وتعرضها.
 IEnumerable<Shape> shapesWithImages = 
     imgSourceDoc.GetChildNodes(NodeType.Shape, true).Cast<Shape>().Where(s => s.HasImage);
 
-// اذهب من خلال كل شكل واحفظ صورته.
+// تصفح كل شكل واحفظ صورته.
 ImageFormatConverter formatConverter = new ImageFormatConverter();
 
 using (IEnumerator<Shape> enumerator = shapesWithImages.GetEnumerator())

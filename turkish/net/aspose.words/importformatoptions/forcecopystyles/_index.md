@@ -1,14 +1,14 @@
 ---
 title: ImportFormatOptions.ForceCopyStyles
 second_title: Aspose.Words for .NET API Referansı
-description: ImportFormatOptions mülk. Bir boole değeri alır veya ayarlar.KeepSourceFormatting mode. Varsayılan değeryanlış .
+description: ImportFormatOptions mülk. Çakışan stillerin nin kopyalanacağını belirten bir boole değeri alır veya ayarlar.KeepSourceFormatting mode. Varsayılan değerYANLIŞ .
 type: docs
-weight: 20
+weight: 30
 url: /tr/net/aspose.words/importformatoptions/forcecopystyles/
 ---
 ## ImportFormatOptions.ForceCopyStyles property
 
-Bir boole değeri alır veya ayarlar.KeepSourceFormatting mode. Varsayılan değer`yanlış` .
+Çakışan stillerin 'nin kopyalanacağını belirten bir boole değeri alır veya ayarlar.KeepSourceFormatting mode. Varsayılan değer:`YANLIŞ` .
 
 ```csharp
 public bool ForceCopyStyles { get; set; }
@@ -16,18 +16,18 @@ public bool ForceCopyStyles { get; set; }
 
 ### Notlar
 
-Varsayılan olarak, bir hedef belgede eşleşen bir stil zaten varsa, kaynak stil formatting doğrudan düğüm niteliklerine genişletilir ve bu düğümün stili bir varsayılana sıfırlanır.
+Varsayılan olarak, hedef belgede eşleşen bir stil zaten mevcutsa, kaynak stili formatting doğrudan düğüm niteliklerine genişletilir ve bu düğümün stili varsayılana sıfırlanır.
 
-Bu seçenek olarak ayarlandığında`doğru`, kaynak stil benzersiz ada sahip hedef belgeye zorla kopyalanacak ve içe aktarılan düğüme uygulanacaktır.
+Bu seçenek olarak ayarlandığında`doğru`, kaynak stili benzersiz bir adla hedef belgeye zorla kopyalanacak ve içe aktarılan düğüme uygulanacaktır.
 
-Bu durumda, belge hedefindeki içe aktarılan düğümün biçimlendirmesinin korunacağının garanti edilmediğine dikkat edin.
+Bu durumda, hedef document 'de içe aktarılan düğümün formatının korunacağının garanti edilmediğini unutmayın.
 
 ### Örnekler
 
-Benzersiz adlara sahip kaynak stillerin zorla nasıl kopyalanacağını gösterir.
+Benzersiz adlara sahip kaynak stillerinin zorla nasıl kopyalanacağını gösterir.
 
 ```csharp
-// Her iki belge de MyStyle1 ve MyStyle2'yi içerir, MyStyle3 yalnızca bir kaynak belgede bulunur.
+// Her iki belge de MyStyle1 ve MyStyle2'yi içeriyor, MyStyle3 yalnızca kaynak belgede mevcut.
 Document srcDoc = new Document(MyDir + "Styles source.docx");
 Document dstDoc = new Document(MyDir + "Styles destination.docx");
 

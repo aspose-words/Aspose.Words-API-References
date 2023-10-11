@@ -1,14 +1,14 @@
 ---
 title: Enum ComparisonTargetType
 second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Comparing.ComparisonTargetType opsomming. Ermöglicht die Angabe des Basisdokuments das während des Vergleichs verwendet wird. Standardwert istCurrent .
+description: Aspose.Words.Comparing.ComparisonTargetType opsomming. Ermöglicht die Angabe des Basisdokuments das beim Vergleich verwendet wird. Der Standardwert istCurrent .
 type: docs
-weight: 270
+weight: 280
 url: /de/net/aspose.words.comparing/comparisontargettype/
 ---
 ## ComparisonTargetType enumeration
 
-Ermöglicht die Angabe des Basisdokuments, das während des Vergleichs verwendet wird. Standardwert istCurrent .
+Ermöglicht die Angabe des Basisdokuments, das beim Vergleich verwendet wird. Der Standardwert istCurrent .
 
 ```csharp
 public enum ComparisonTargetType
@@ -18,19 +18,19 @@ public enum ComparisonTargetType
 
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
-| Current | `0` | Dieses Dokument dient als Vergleichsgrundlage. |
+| Current | `0` | Dieses Dokument dient als Grundlage für den Vergleich. |
 | New | `1` | Anderes Dokument wird beim Vergleich als Basis verwendet. |
 
 ### Bemerkungen
 
-Bezieht sich auf die Microsoft Word-Option "Änderungen anzeigen in" im Dialogfeld "Dokumente vergleichen".
+Bezieht sich auf die Microsoft Word-Option „Änderungen anzeigen in“ im Dialogfeld „Dokumente vergleichen“.
 
 ### Beispiele
 
-Zeigt, wie bestimmte Arten von Dokumentelementen beim Vergleichen gefiltert werden.
+Zeigt, wie bei einem Vergleich bestimmte Arten von Dokumentelementen gefiltert werden.
 
 ```csharp
-// Erstellen Sie das Originaldokument und füllen Sie es mit verschiedenen Arten von Elementen.
+// Das Originaldokument erstellen und es mit verschiedenen Arten von Elementen füllen.
 Document docOriginal = new Document();
 DocumentBuilder builder = new DocumentBuilder(docOriginal);
 
@@ -78,8 +78,8 @@ firstParagraph.ParagraphFormat.Style = docEdited.Styles[StyleIdentifier.Heading1
 docEdited.FirstSection.HeadersFooters[HeaderFooterType.HeaderPrimary].FirstParagraph.Runs[0].Text =
     "Edited header contents.";
 
-// Beim Vergleichen von Dokumenten wird für jede Änderung im bearbeiteten Dokument eine Revision erstellt.
-// Ein CompareOptions-Objekt hat eine Reihe von Flags, die Revisionen unterdrücken können
+// Beim Vergleichen von Dokumenten wird für jede Bearbeitung im bearbeiteten Dokument eine Revision erstellt.
+// Ein CompareOptions-Objekt verfügt über eine Reihe von Flags, die Revisionen unterdrücken können
 // für jeden jeweiligen Elementtyp, wobei deren Änderung effektiv ignoriert wird.
 Aspose.Words.Comparing.CompareOptions compareOptions = new Aspose.Words.Comparing.CompareOptions();
 compareOptions.IgnoreFormatting = false;

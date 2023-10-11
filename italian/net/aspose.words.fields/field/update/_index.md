@@ -1,14 +1,14 @@
 ---
 title: Field.Update
 second_title: Aspose.Words per .NET API Reference
-description: Field metodo. Esegue laggiornamento del campo. Genera se il campo è già in fase di aggiornamento.
+description: Field metodo. Esegue laggiornamento del campo. Genera un risultato se il campo è già in fase di aggiornamento.
 type: docs
 weight: 140
 url: /it/net/aspose.words.fields/field/update/
 ---
 ## Update() {#update}
 
-Esegue l'aggiornamento del campo. Genera se il campo è già in fase di aggiornamento.
+Esegue l'aggiornamento del campo. Genera un risultato se il campo è già in fase di aggiornamento.
 
 ```csharp
 public void Update()
@@ -23,7 +23,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Inserisce due campi passando un flag che determina se aggiornarli man mano che il builder li inserisce.
-// In alcuni casi, aggiornare i campi potrebbe essere dispendioso dal punto di vista computazionale e potrebbe essere una buona idea posticipare l'aggiornamento.
+// In alcuni casi, l'aggiornamento dei campi potrebbe essere costoso dal punto di vista computazionale e potrebbe essere una buona idea posticipare l'aggiornamento.
 doc.BuiltInDocumentProperties.Author = "John Doe";
 builder.Write("This document was written by ");
 builder.InsertField(FieldType.FieldAuthor, updateInsertedFieldsImmediately);
@@ -45,7 +45,7 @@ else
     Assert.AreEqual(string.Empty, doc.Range.Fields[0].Result);
     Assert.AreEqual(string.Empty, doc.Range.Fields[1].Result);
 
-    // Dovremo aggiornare questi campi usando i metodi di aggiornamento manualmente.
+    // Dovremo aggiornare manualmente questi campi utilizzando i metodi di aggiornamento.
     doc.Range.Fields[0].Update();
 
     Assert.AreEqual("John Doe", doc.Range.Fields[0].Result);
@@ -62,13 +62,13 @@ Mostra come formattare i risultati dei campi.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Utilizza un generatore di documenti per inserire un campo che visualizzi un risultato senza formato applicato.
+// Utilizzare un generatore di documenti per inserire un campo che visualizzi un risultato senza formato applicato.
 Field field = builder.InsertField("= 2 + 3");
 
 Assert.AreEqual("= 2 + 3", field.GetFieldCode());
 Assert.AreEqual("5", field.Result);
 
-// Possiamo applicare un formato al risultato di un campo usando le proprietà del campo.
+// Possiamo applicare un formato al risultato di un campo utilizzando le proprietà del campo.
 // Di seguito sono riportati tre tipi di formati che possiamo applicare al risultato di un campo.
 // 1 - Formato numerico:
 FieldFormat format = field.Format;
@@ -104,7 +104,7 @@ Assert.AreEqual("LVIII", field.Result);
 Assert.AreEqual(2, format.GeneralFormats.Count);
 Assert.AreEqual(GeneralFormat.LowercaseRoman, format.GeneralFormats[0]);
 
-// Possiamo rimuovere i nostri formati per riportare il risultato del campo alla sua forma originale.
+// Possiamo rimuovere i nostri formati per ripristinare il risultato del campo nella sua forma originale.
 format.GeneralFormats.Remove(GeneralFormat.LowercaseRoman);
 format.GeneralFormats.RemoveAt(0);
 Assert.AreEqual(0, format.GeneralFormats.Count);
@@ -125,7 +125,7 @@ Assert.AreEqual(0, format.GeneralFormats.Count);
 
 ## Update(bool) {#update_1}
 
-Esegue un aggiornamento del campo. Genera se il campo è già in fase di aggiornamento.
+Esegue un aggiornamento del campo. Genera un risultato se il campo è già in fase di aggiornamento.
 
 ```csharp
 public void Update(bool ignoreMergeFormat)
@@ -133,11 +133,11 @@ public void Update(bool ignoreMergeFormat)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| ignoreMergeFormat | Boolean | Se`VERO` quindi la formattazione del risultato del campo diretto viene abbandonata, indipendentemente dall'opzione MERGEFORMAT, altrimenti viene eseguito il normale aggiornamento. |
+| ignoreMergeFormat | Boolean | Se`VERO` quindi la formattazione diretta dei risultati del campo viene abbandonata, indipendentemente dall'opzione MERGEFORMAT, altrimenti viene eseguito il normale aggiornamento. |
 
 ### Esempi
 
-Mostra come conservare o eliminare i campi INCLUDEPICTURE durante il caricamento di un documento.
+Mostra come preservare o eliminare i campi INCLUDEPICTURE durante il caricamento di un documento.
 
 ```csharp
 Document doc = new Document();
@@ -152,7 +152,7 @@ using (MemoryStream docStream = new MemoryStream())
     doc.Save(docStream, new OoxmlSaveOptions(SaveFormat.Docx));
 
     // Possiamo impostare un flag in un oggetto LoadOptions per decidere se convertire tutti i campi INCLUDEPICTURE
-    // in forme immagine durante il caricamento di un documento che le contiene.
+    // nelle forme dell'immagine quando si carica un documento che le contiene.
     LoadOptions loadOptions = new LoadOptions
     {
         PreserveIncludePictureField = preserveIncludePictureField

@@ -1,14 +1,14 @@
 ---
 title: Fill.TextureAlignment
 second_title: Aspose.Words لمراجع .NET API
-description: Fill ملكية. الحصول على أو تعيين المحاذاة لتعبئة نسيج التجانب.
+description: Fill ملكية. الحصول على أو تعيين المحاذاة لملء نسيج التجانب.
 type: docs
-weight: 130
+weight: 190
 url: /ar/net/aspose.words.drawing/fill/texturealignment/
 ---
 ## Fill.TextureAlignment property
 
-الحصول على أو تعيين المحاذاة لتعبئة نسيج التجانب.
+الحصول على أو تعيين المحاذاة لملء نسيج التجانب.
 
 ```csharp
 public TextureAlignment TextureAlignment { get; set; }
@@ -28,8 +28,8 @@ Shape shape = builder.InsertShape(ShapeType.Rectangle, 80, 80);
 shape.Fill.PresetTextured(PresetTexture.Canvas);
 shape.Fill.TextureAlignment = TextureAlignment.TopRight;
 
-// استخدم خيار التوافق لتحديد الشكل باستخدام DML إذا كنت تريد الحصول على "TextureAlignment"
-// خاصية بعد حفظ المستند.
+// استخدم خيار الامتثال لتحديد الشكل باستخدام DML إذا كنت تريد الحصول على "TextureAlignment"
+// الخاصية بعد حفظ المستند.
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions { Compliance = OoxmlCompliance.Iso29500_2008_Strict };
 
 doc.Save(ArtifactsDir + "Shape.TextureFill.docx", saveOptions);

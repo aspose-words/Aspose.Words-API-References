@@ -1,14 +1,14 @@
 ---
 title: SignatureLineOptions.Instructions
 second_title: Aspose.Words for .NET API Referansı
-description: SignatureLineOptions mülk. İmza satırını imzalarken görüntülenen talimatları imzalayana alır veya ayarlar. Bu özellik için varsayılan değer boş dize Empty .
+description: SignatureLineOptions mülk. İmza satırını imzalarken görüntülenen imzalayana yönelik talimatları alır veya ayarlar. Bu özelliğin varsayılan değeri boş dize Empty.
 type: docs
 weight: 50
 url: /tr/net/aspose.words/signaturelineoptions/instructions/
 ---
 ## SignatureLineOptions.Instructions property
 
-İmza satırını imzalarken görüntülenen talimatları imzalayana alır veya ayarlar. Bu özellik için varsayılan değer **boş dize** (Empty ).
+İmza satırını imzalarken görüntülenen imzalayana yönelik talimatları alır veya ayarlar. Bu özelliğin varsayılan değeri: **boş dize** (Empty).
 
 ```csharp
 public string Instructions { get; set; }
@@ -16,7 +16,7 @@ public string Instructions { get; set; }
 
 ### Örnekler
 
-Kişisel sertifika ve imza satırı ile bir belgenin nasıl imzalanacağını gösterir.
+Kişisel sertifika ve imza satırı içeren bir belgenin nasıl imzalanacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -54,7 +54,7 @@ CertificateHolder certHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "a
 DigitalSignatureUtil.Sign(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.docx", 
     ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx", certHolder, signOptions);
 
-// Kaydedilmiş belgemizi yeniden açın ve "IsSigned" ve "IsValid" özelliklerinin her ikisinin de "true" değerine eşit olduğunu doğrulayın,
+// Kaydedilen belgemizi yeniden açın ve "IsSigned" ve "IsValid" özelliklerinin her ikisinin de "true" değerine eşit olduğunu doğrulayın,
 // imza satırının bir imza içerdiğini belirtir.
 doc = new Document(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx");
 Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);

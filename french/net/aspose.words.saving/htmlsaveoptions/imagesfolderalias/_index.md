@@ -1,14 +1,14 @@
 ---
 title: HtmlSaveOptions.ImagesFolderAlias
 second_title: Référence de l'API Aspose.Words pour .NET
-description: HtmlSaveOptions propriété. Spécifie le nom du dossier utilisé pour construire les URI dimage écrites dans un document HTML. La valeur par défaut est une chaîne vide.
+description: HtmlSaveOptions propriété. Spécifie le nom du dossier utilisé pour construire les URI dimage écrits dans un document HTML. La valeur par défaut est une chaîne vide.
 type: docs
-weight: 380
+weight: 370
 url: /fr/net/aspose.words.saving/htmlsaveoptions/imagesfolderalias/
 ---
 ## HtmlSaveOptions.ImagesFolderAlias property
 
-Spécifie le nom du dossier utilisé pour construire les URI d'image écrites dans un document HTML. La valeur par défaut est une chaîne vide.
+Spécifie le nom du dossier utilisé pour construire les URI d'image écrits dans un document HTML. La valeur par défaut est une chaîne vide.
 
 ```csharp
 public string ImagesFolderAlias { get; set; }
@@ -16,13 +16,13 @@ public string ImagesFolderAlias { get; set; }
 
 ### Remarques
 
-Lorsque vous enregistrez un[`Document`](../../../aspose.words/document/) au format HTML, Aspose.Words doit enregistrer toutes les images intégrées dans le document en tant que fichiers autonomes.[`ImagesFolder`](../imagesfolder/) vous permet de spécifier où les images seront enregistrées et`ImagesFolderAlias` permet de spécifier comment les URI des images seront construites.
+Lorsque vous enregistrez un[`Document`](../../../aspose.words/document/) au format HTML, Aspose.Words doit enregistrer toutes les images intégrées dans le document en tant que fichiers autonomes.[`ImagesFolder`](../imagesfolder/) permet de préciser où les images seront enregistrées et`ImagesFolderAlias` permet de spécifier comment les URI des images seront construites.
 
-Si`ImagesFolderAlias`n'est pas une chaîne vide, alors l'URI de l'image écrite en HTML seraImagesFolderAlias + &lt;nom du fichier image&gt;.
+Si`ImagesFolderAlias` n'est pas une chaîne vide, alors l'URI de l'image écrite en HTML seraImagesFolderAlias + &lt;nom du fichier image&gt;.
 
 Si`ImagesFolderAlias` est une chaîne vide, alors l'URI de l'image écrite en HTML seraImagesFolder + &lt;nom du fichier image&gt;.
 
-Si`ImagesFolderAlias` est réglé sur '.' (point), alors le nom du fichier image sera écrit en HTML sans chemin quelles que soient les autres options.
+Si`ImagesFolderAlias`est réglé sur '.' (point), alors le nom du fichier image sera écrit en HTML sans chemin quelles que soient les autres options.
 
 Une autre façon de spécifier le nom du dossier pour construire l'image URIs consiste à utiliser[`ResourceFolderAlias`](../resourcefolderalias/).
 

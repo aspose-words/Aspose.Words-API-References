@@ -1,14 +1,14 @@
 ---
 title: SystemFontSource.Type
 second_title: Aspose.Words per .NET API Reference
-description: SystemFontSource proprietà. Restituisce il tipo di origine del carattere.
+description: SystemFontSource proprietà. Restituisce il tipo di fonte del carattere.
 type: docs
 weight: 20
 url: /it/net/aspose.words.fonts/systemfontsource/type/
 ---
 ## SystemFontSource.Type property
 
-Restituisce il tipo di origine del carattere.
+Restituisce il tipo di fonte del carattere.
 
 ```csharp
 public override FontSourceType Type { get; }
@@ -16,13 +16,13 @@ public override FontSourceType Type { get; }
 
 ### Esempi
 
-Mostra come accedere all'origine dei caratteri di sistema di un documento e impostare i caratteri sostitutivi.
+Mostra come accedere all'origine dei caratteri di sistema di un documento e impostare i sostituti dei caratteri.
 
 ```csharp
 Document doc = new Document();
 doc.FontSettings = new FontSettings();
 
-// Per impostazione predefinita, un documento vuoto contiene sempre un'origine del carattere di sistema.
+// Per impostazione predefinita, un documento vuoto contiene sempre un'origine carattere di sistema.
 Assert.AreEqual(1, doc.FontSettings.GetFontsSources().Length);
 
 SystemFontSource systemFontSource = (SystemFontSource) doc.FontSettings.GetFontsSources()[0];
@@ -44,7 +44,7 @@ foreach (string systemFontFolder in SystemFontSource.GetSystemFontFolders())
     Console.WriteLine(systemFontFolder);
 }
 
-// Imposta un carattere che esiste nella directory dei caratteri di Windows come sostituto di uno che non lo è.
+// Imposta un carattere esistente nella directory Fonts di Windows come sostituto di uno che non esiste.
 doc.FontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
 doc.FontSettings.SubstitutionSettings.TableSubstitution.AddSubstitutes("Kreon-Regular", new[] {"Calibri"});
 
@@ -53,7 +53,7 @@ Assert.AreEqual(1,
 Assert.Contains("Calibri",
     doc.FontSettings.SubstitutionSettings.TableSubstitution.GetSubstitutes("Kreon-Regular").ToArray());
 
-// In alternativa, potremmo aggiungere una cartella font source in cui la cartella corrispondente contiene il font.
+// In alternativa, potremmo aggiungere una cartella di origine del carattere in cui la cartella corrispondente contiene il carattere.
 FolderFontSource folderFontSource = new FolderFontSource(FontsDir, false);
 doc.FontSettings.SetFontsSources(new FontSourceBase[] {systemFontSource, folderFontSource});
 Assert.AreEqual(2, doc.FontSettings.GetFontsSources().Length);

@@ -1,14 +1,14 @@
 ---
 title: Enum PageBorderDistanceFrom
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.PageBorderDistanceFrom تعداد. يحدد موضع حد الصفحة بالنسبة لهامش الصفحة.
+description: Aspose.Words.PageBorderDistanceFrom تعداد. يحدد موضع حدود الصفحة بالنسبة لهامش الصفحة.
 type: docs
-weight: 4110
+weight: 4350
 url: /ar/net/aspose.words/pageborderdistancefrom/
 ---
 ## PageBorderDistanceFrom enumeration
 
-يحدد موضع حد الصفحة بالنسبة لهامش الصفحة.
+يحدد موضع حدود الصفحة بالنسبة لهامش الصفحة.
 
 ```csharp
 public enum PageBorderDistanceFrom
@@ -18,12 +18,12 @@ public enum PageBorderDistanceFrom
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| Text | `0` | يتم قياس موضع الحد من هامش الصفحة. |
-| PageEdge | `1` | يتم قياس موضع الحد من حافة الصفحة. |
+| Text | `0` | يتم قياس موضع الحدود من هامش الصفحة. |
+| PageEdge | `1` | يتم قياس موضع الحدود من حافة الصفحة. |
 
 ### أمثلة
 
-يوضح كيفية إنشاء حد شريط أزرق عريض أعلى الصفحة الأولى.
+يوضح كيفية إنشاء حد شريطي أزرق عريض في أعلى الصفحة الأولى.
 
 ```csharp
 Document doc = new Document();

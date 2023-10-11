@@ -3,7 +3,7 @@ title: Interface IFieldDatabaseProvider
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Fields.IFieldDatabaseProvider gränssnitt. Implementera detta gränssnitt för att tillhandahålla data förFieldDatabase fältet när det uppdateras.
 type: docs
-weight: 2520
+weight: 2690
 url: /sv/net/aspose.words.fields/ifielddatabaseprovider/
 ---
 ## IFieldDatabaseProvider interface

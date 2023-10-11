@@ -1,14 +1,14 @@
 ---
 title: OleFormat.IsLocked
 second_title: Referencia de API de Aspose.Words para .NET
-description: OleFormat propiedad. Especifica si el enlace al objeto OLE está bloqueado para actualizaciones.
+description: OleFormat propiedad. Especifica si el vínculo al objeto OLE está bloqueado para no recibir actualizaciones.
 type: docs
 weight: 50
 url: /es/net/aspose.words.drawing/oleformat/islocked/
 ---
 ## OleFormat.IsLocked property
 
-Especifica si el enlace al objeto OLE está bloqueado para actualizaciones.
+Especifica si el vínculo al objeto OLE está bloqueado para no recibir actualizaciones.
 
 ```csharp
 public bool IsLocked { get; set; }
@@ -16,7 +16,7 @@ public bool IsLocked { get; set; }
 
 ### Observaciones
 
-El valor predeterminado es **falso**.
+El valor predeterminado es`FALSO`.
 
 ### Ejemplos
 
@@ -31,7 +31,7 @@ OleFormat oleFormat = shape.OleFormat;
 
 Assert.AreEqual("Excel.Sheet.12", oleFormat.ProgId);
 
-// Nuestro objeto no se actualiza automáticamente ni está bloqueado para actualizaciones.
+// Nuestro objeto no se actualiza automáticamente ni está bloqueado para recibir actualizaciones.
 Assert.False(oleFormat.AutoUpdate);
 Assert.AreEqual(false, oleFormat.IsLocked);
 
@@ -40,13 +40,13 @@ Assert.AreEqual(false, oleFormat.IsLocked);
 Assert.AreEqual(".xlsx", oleFormat.SuggestedExtension);
 
 // A continuación se muestran dos formas de guardar un objeto OLE en un archivo en el sistema de archivos local.
-// 1 - Guárdelo a través de una transmisión:
+// 1 - Guárdalo a través de una secuencia:
 using (FileStream fs = new FileStream(ArtifactsDir + "OLE spreadsheet extracted via stream" + oleFormat.SuggestedExtension, FileMode.Create))
 {
     oleFormat.Save(fs);
 }
 
-// 2 - Guardarlo directamente en un nombre de archivo:
+// 2 - Guárdalo directamente en un nombre de archivo:
 oleFormat.Save(ArtifactsDir + "OLE spreadsheet saved directly" + oleFormat.SuggestedExtension);
 ```
 

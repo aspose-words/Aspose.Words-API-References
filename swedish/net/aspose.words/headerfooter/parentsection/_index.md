@@ -16,7 +16,7 @@ public Section ParentSection { get; }
 
 ### Anmärkningar
 
-**Föräldrasektionen** är ekvivalent med`(Sektion) ParentNode`.
+`ParentSection` är ekvivalent med[`ParentNode`](../../node/parentnode/) gjutna till[`Section`](../../section/).
 
 ### Exempel
 

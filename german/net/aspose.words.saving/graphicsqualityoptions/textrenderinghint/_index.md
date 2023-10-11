@@ -1,14 +1,14 @@
 ---
 title: GraphicsQualityOptions.TextRenderingHint
 second_title: Aspose.Words für .NET-API-Referenz
-description: GraphicsQualityOptions eigendom. Ruft den Wiedergabemodus für Text ab der dieser Grafik zugeordnet ist oder legt ihn fest.
+description: GraphicsQualityOptions eigendom. Ruft den RenderingModus für Text ab der dieser Grafik zugeordnet ist oder legt diesen fest.
 type: docs
 weight: 70
 url: /de/net/aspose.words.saving/graphicsqualityoptions/textrenderinghint/
 ---
 ## GraphicsQualityOptions.TextRenderingHint property
 
-Ruft den Wiedergabemodus für Text ab, der dieser Grafik zugeordnet ist, oder legt ihn fest.
+Ruft den Rendering-Modus für Text ab, der dieser Grafik zugeordnet ist, oder legt diesen fest.
 
 ```csharp
 public TextRenderingHint? TextRenderingHint { get; set; }
@@ -16,7 +16,7 @@ public TextRenderingHint? TextRenderingHint { get; set; }
 
 ### Beispiele
 
-Zeigt, wie Optionen für die Renderqualität beim Konvertieren von Dokumenten in Bildformate festgelegt werden.
+Zeigt, wie Renderqualitätsoptionen beim Konvertieren von Dokumenten in Bildformate festgelegt werden.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

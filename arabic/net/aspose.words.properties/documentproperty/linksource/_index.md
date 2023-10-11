@@ -1,14 +1,14 @@
 ---
 title: DocumentProperty.LinkSource
 second_title: Aspose.Words لمراجع .NET API
-description: DocumentProperty ملكية. يحصل على مصدر خاصية الوثيقة المخصصة المرتبطة.
+description: DocumentProperty ملكية. الحصول على مصدر خاصية المستند المخصص المرتبط.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.properties/documentproperty/linksource/
 ---
 ## DocumentProperty.LinkSource property
 
-يحصل على مصدر خاصية الوثيقة المخصصة المرتبطة.
+الحصول على مصدر خاصية المستند المخصص المرتبط.
 
 ```csharp
 public string LinkSource { get; }
@@ -16,7 +16,7 @@ public string LinkSource { get; }
 
 ### أمثلة
 
-يوضح كيفية ربط خاصية مستند مخصصة بإشارة مرجعية.
+يوضح كيفية ربط خاصية مستند مخصص بإشارة مرجعية.
 
 ```csharp
 Document doc = new Document();
@@ -27,7 +27,7 @@ builder.Write("Hello world!");
 builder.EndBookmark("MyBookmark");
 
 // ربط خاصية مخصصة جديدة بإشارة مرجعية. قيمة هذا العقار
-// ستكون محتويات الإشارة المرجعية التي تشير إليها في عضو "LinkSource".
+// ستكون محتويات الإشارة المرجعية التي تشير إليها في العضو "LinkSource".
 CustomDocumentProperties customProperties = doc.CustomDocumentProperties;
 DocumentProperty customProperty = customProperties.AddLinkToContent("Bookmark", "MyBookmark");
 

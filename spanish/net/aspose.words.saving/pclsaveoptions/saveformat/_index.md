@@ -1,14 +1,14 @@
 ---
 title: PclSaveOptions.SaveFormat
 second_title: Referencia de API de Aspose.Words para .NET
-description: PclSaveOptions propiedad. Especifica el formato en el que se guardará el documento si se utiliza este objeto de opciones de guardado. Solo se puedePcl .
+description: PclSaveOptions propiedad. Especifica el formato en el que se guardará el documento si se utiliza este objeto de opciones de guardado. Sólo se puedePcl .
 type: docs
 weight: 40
 url: /es/net/aspose.words.saving/pclsaveoptions/saveformat/
 ---
 ## PclSaveOptions.SaveFormat property
 
-Especifica el formato en el que se guardará el documento si se utiliza este objeto de opciones de guardado. Solo se puedePcl .
+Especifica el formato en el que se guardará el documento si se utiliza este objeto de opciones de guardado. Sólo se puedePcl .
 
 ```csharp
 public override SaveFormat SaveFormat { get; set; }

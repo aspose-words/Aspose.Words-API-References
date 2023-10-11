@@ -1,14 +1,14 @@
 ---
 title: InlineStory.StoryType
 second_title: Aspose.Words for .NET API Referansı
-description: InlineStory mülk. Öykünün türünü döndürür.
+description: InlineStory mülk. Hikayenin türünü döndürür.
 type: docs
 weight: 100
 url: /tr/net/aspose.words/inlinestory/storytype/
 ---
 ## InlineStory.StoryType property
 
-Öykünün türünü döndürür.
+Hikayenin türünü döndürür.
 
 ```csharp
 public abstract StoryType StoryType { get; }
@@ -23,45 +23,45 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 Footnote footnote = builder.InsertFootnote(FootnoteType.Footnote, null);
 
-// Tablo düğümlerinde, tabloda en az bir hücre olmasını sağlayan bir "EnsureMinimum()" yöntemi bulunur.
+// Tablo düğümleri, tablonun en az bir hücreye sahip olmasını sağlayan bir "EnsureMinimum()" yöntemine sahiptir.
 Table table = new Table(doc);
 table.EnsureMinimum();
 
-// Bir dipnotun içine, referans sayfasının altbilgisinde görünmesini sağlayacak bir tablo yerleştirebiliriz.
+// Dipnotun içine, referans veren sayfanın altbilgisinde görünmesini sağlayacak bir tablo yerleştirebiliriz.
 Assert.That(footnote.Tables, Is.Empty);
 footnote.AppendChild(table);
 Assert.AreEqual(1, footnote.Tables.Count);
 Assert.AreEqual(NodeType.Table, footnote.LastChild.NodeType);
 
-// Bir InlineStory'nin bir "EnsureMinimum()" yöntemi de vardır, ancak bu durumda,
-// düğümün son alt öğesinin bir paragraf olmasını sağlar,
-// Microsoft Word'de kolayca tıklayıp yazı yazabilmemiz için.
+// Bir InlineStory'nin de bir "EnsureMinimum()" yöntemi vardır, ancak bu durumda,
+// düğümün son çocuğunun bir paragraf olmasını sağlar,
+// Microsoft Word'de kolayca tıklayıp metin yazabilmemiz için.
 footnote.EnsureMinimum();
 Assert.AreEqual(NodeType.Paragraph, footnote.LastChild.NodeType);
 
 // Küçük üst simge numarası olan bağlantının görünümünü düzenleyin
-// dipnota işaret eden ana metinde.
+// ana metinde dipnota işaret eden.
 footnote.Font.Name = "Arial";
 footnote.Font.Color = Color.Green;
 
-// Tüm satır içi hikaye düğümlerinin ilgili hikaye türleri vardır.
+// Tüm satır içi hikaye düğümlerinin kendi hikaye türleri vardır.
 Assert.AreEqual(StoryType.Footnotes, footnote.StoryType);
 
-// Yorum, başka bir satır içi hikaye türüdür.
+// Yorum satır içi hikayenin başka bir türüdür.
 Comment comment = (Comment)builder.CurrentParagraph.AppendChild(new Comment(doc, "John Doe", "J. D.", DateTime.Now));
 
-// Satır içi hikaye düğümünün üst paragrafı, ana belge gövdesinden olan paragraf olacaktır.
+// Satır içi hikaye düğümünün ana paragrafı, ana belge gövdesindeki paragraf olacaktır.
 Assert.AreEqual(doc.FirstSection.Body.FirstParagraph, comment.ParentParagraph);
 
-// Ancak, son paragraf yorum metni içeriğindeki paragraftır,
-// bir konuşma balonunda ana belge gövdesinin dışında olacak.
-// Bir yorumun varsayılan olarak herhangi bir alt düğümü olmayacak,
-// böylece burada da bir paragraf yerleştirmek için SureMinimum() yöntemini uygulayabiliriz.
+// Ancak son paragraf yorum metni içeriğindeki paragraftır,
+// bir konuşma balonunun içinde ana belge gövdesinin dışında olacak.
+// Bir yorumda varsayılan olarak herhangi bir alt düğüm bulunmaz,
+// böylece buraya da bir paragraf yerleştirmek için ProvidingMinimum() yöntemini uygulayabiliriz.
 Assert.Null(comment.LastParagraph);
 comment.EnsureMinimum();
 Assert.AreEqual(NodeType.Paragraph, comment.LastChild.NodeType);
 
-// Bir paragrafımız olduğunda, bunu yapmak için oluşturucuyu hareket ettirebilir ve yorumumuzu yazabiliriz.
+// Bir paragrafımız olduğunda, oluşturucuyu bunu yapması için hareket ettirebilir ve yorumumuzu yazabiliriz.
 builder.MoveTo(comment.LastParagraph);
 builder.Write("My comment.");
 

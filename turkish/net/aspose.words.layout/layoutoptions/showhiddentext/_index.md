@@ -1,14 +1,14 @@
 ---
 title: LayoutOptions.ShowHiddenText
 second_title: Aspose.Words for .NET API Referansı
-description: LayoutOptions mülk. Belgedeki gizli metnin işlenip işlenmediğinin göstergesini alır veya ayarlar. Varsayılan Yanlıştır.
+description: LayoutOptions mülk. Belgedeki gizli metnin oluşturulup oluşturulmayacağına ilişkin göstergeyi alır veya ayarlar. VarsayılanYANLIŞ .
 type: docs
-weight: 70
+weight: 80
 url: /tr/net/aspose.words.layout/layoutoptions/showhiddentext/
 ---
 ## LayoutOptions.ShowHiddenText property
 
-Belgedeki gizli metnin işlenip işlenmediğinin göstergesini alır veya ayarlar. Varsayılan Yanlış'tır.
+Belgedeki gizli metnin oluşturulup oluşturulmayacağına ilişkin göstergeyi alır veya ayarlar. Varsayılan:`YANLIŞ` .
 
 ```csharp
 public bool ShowHiddenText { get; set; }
@@ -16,7 +16,7 @@ public bool ShowHiddenText { get; set; }
 
 ### Notlar
 
-Bu özellik, yalnızca metni değil, tüm gizli içeriği etkiler.
+Bu özellik yalnızca metni değil tüm gizli içeriği etkiler.
 
 ### Örnekler
 

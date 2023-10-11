@@ -1,14 +1,14 @@
 ---
 title: NodeCollection.ToArray
 second_title: Referencia de API de Aspose.Words para .NET
-description: NodeCollection método. Copia todos los nodos de la colección a una nueva matriz de nodos.
+description: NodeCollection método. Copia todos los nodos de la colección en una nueva matriz de nodos.
 type: docs
 weight: 110
 url: /es/net/aspose.words/nodecollection/toarray/
 ---
 ## NodeCollection.ToArray method
 
-Copia todos los nodos de la colección a una nueva matriz de nodos.
+Copia todos los nodos de la colección en una nueva matriz de nodos.
 
 ```csharp
 public Node[] ToArray()
@@ -16,17 +16,17 @@ public Node[] ToArray()
 
 ### Valor_devuelto
 
-Una matriz de nodos.
+Una serie de nodos.
 
 ### Observaciones
 
-No debe agregar/eliminar nodos mientras itera sobre una colección de nodos porque invalida el iterador y requiere actualizaciones para colecciones en vivo.
+No debe agregar/eliminar nodos mientras itera sobre una colección de nodos porque invalida el iterador y requiere actualizaciones para las colecciones activas.
 
-Para poder agregar/eliminar nodos durante la iteración, use este método para copiar nodos en una matriz de tamaño fijo y luego iterar sobre la matriz.
+Para poder agregar o eliminar nodos durante la iteración, utilice este método para copiar nodos en una matriz de tamaño fijo y luego iterar sobre la matriz.
 
 ### Ejemplos
 
-Muestra cómo reemplazar todas las formas de cuadro de texto con formas de imagen.
+Muestra cómo reemplazar todas las formas de cuadros de texto con formas de imágenes.
 
 ```csharp
 Document doc = new Document(MyDir + "Textboxes in drawing canvas.docx");

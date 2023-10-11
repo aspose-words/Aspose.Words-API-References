@@ -1,14 +1,14 @@
 ---
 title: FontSourceBase.GetAvailableFonts
 second_title: Aspose.Words لمراجع .NET API
-description: FontSourceBase طريقة. إرجاع قائمة الخطوط المتاحة عبر هذا المصدر.
+description: FontSourceBase طريقة. إرجاع قائمة الخطوط المتوفرة عبر هذا المصدر.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.fonts/fontsourcebase/getavailablefonts/
 ---
 ## FontSourceBase.GetAvailableFonts method
 
-إرجاع قائمة الخطوط المتاحة عبر هذا المصدر.
+إرجاع قائمة الخطوط المتوفرة عبر هذا المصدر.
 
 ```csharp
 public IList<PhysicalFontInfo> GetAvailableFonts()
@@ -19,7 +19,7 @@ public IList<PhysicalFontInfo> GetAvailableFonts()
 يوضح كيفية سرد الخطوط المتاحة.
 
 ```csharp
-// تكوين Aspose.Words لخطوط المصدر من مجلد مخصص ، ثم طباعة كل خط متاح.
+// قم بتكوين Aspose.Words لمصدر الخطوط من مجلد مخصص، ثم قم بطباعة كل خط متاح.
 FontSourceBase[] folderFontSource = { new FolderFontSource(FontsDir, true) };
 
 foreach (PhysicalFontInfo fontInfo in folderFontSource[0].GetAvailableFonts())

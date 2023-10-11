@@ -16,7 +16,7 @@ public HorizontalAlignment RevisionBarsPosition { get; set; }
 
 ### Osservazioni
 
-Valori diCenter eInside non sono consentiti e causerannoArgumentOutOfRangeException.
+Valori diCenter EInside non sono consentiti e causerannoArgumentOutOfRangeException.
 
 ### Guarda anche
 

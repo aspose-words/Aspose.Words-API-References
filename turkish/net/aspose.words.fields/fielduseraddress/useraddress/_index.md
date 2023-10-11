@@ -16,24 +16,24 @@ public string UserAddress { get; set; }
 
 ### Örnekler
 
-USERADDRESS alanının nasıl kullanılacağını gösterir.
+USERAADDRESS alanının nasıl kullanılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 
-// Bir UserInformation nesnesi oluşturun ve oluşturduğumuz tüm alanlar için kullanıcı bilgilerinin kaynağı olarak ayarlayın.
+// Bir UserInformation nesnesi oluşturun ve onu, oluşturduğumuz tüm alanlar için kullanıcı bilgilerinin kaynağı olarak ayarlayın.
 UserInformation userInformation = new UserInformation();
 userInformation.Address = "123 Main Street";
 doc.FieldOptions.CurrentUser = userInformation;
 
-// Mevcut kullanıcının adresini görüntülemek için bir USERADDRESS alanı oluşturun,
+// Geçerli kullanıcının adresini görüntülemek için USERAADDRESS alanı oluşturun,
 // yukarıda oluşturduğumuz UserInformation nesnesinden alınmıştır.
 DocumentBuilder builder = new DocumentBuilder(doc);
 FieldUserAddress fieldUserAddress = (FieldUserAddress)builder.InsertField(FieldType.FieldUserAddress, true);
 Assert.AreEqual(" USERADDRESS ", fieldUserAddress.GetFieldCode());
 Assert.AreEqual("123 Main Street", fieldUserAddress.Result);
 
- // Bu özelliği, alanımızın UserInformation nesnesinde şu anda depolanan değeri geçersiz kılacak şekilde ayarlayabiliriz.
+ // Alanımızın şu anda UserInformation nesnesinde depolanan değeri geçersiz kılmasını sağlamak için bu özelliği ayarlayabiliriz.
 fieldUserAddress.UserAddress = "456 North Road";
 fieldUserAddress.Update();
 

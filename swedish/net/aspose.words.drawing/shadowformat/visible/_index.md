@@ -18,6 +18,21 @@ public bool Visible { get; }
 
 Gillar inte[`Clear`](../clear/) , tilldelar`falsk` to Visible rensar inte formateringen, den döljer bara formeffekten.
 
+### Exempel
+
+Visar hur man arbetar med en skuggformatering för formen.
+
+```csharp
+Document doc = new Document(MyDir + "Shape stroke pattern border.docx");
+Shape shape = (Shape)doc.GetChildNodes(NodeType.Shape, true)[0];
+
+if (shape.ShadowFormat.Visible && shape.ShadowFormat.Type == ShadowType.Shadow2)                
+    shape.ShadowFormat.Type = ShadowType.Shadow7;
+
+if (shape.ShadowFormat.Type == ShadowType.ShadowMixed)            
+    shape.ShadowFormat.Clear();
+```
+
 ### Se även
 
 * class [ShadowFormat](../)

@@ -1,14 +1,14 @@
 ---
 title: DocumentBuilder.CurrentParagraph
 second_title: Справочник по API Aspose.Words для .NET
-description: DocumentBuilder свойство. Получает абзац выбранный в настоящий момент в этом DocumentBuilder.
+description: DocumentBuilder свойство. Получает абзац выбранный в данный момент в этомDocumentBuilder .
 type: docs
 weight: 50
 url: /ru/net/aspose.words/documentbuilder/currentparagraph/
 ---
 ## DocumentBuilder.CurrentParagraph property
 
-Получает абзац, выбранный в настоящий момент в этом DocumentBuilder.
+Получает абзац, выбранный в данный момент в этом[`DocumentBuilder`](../) .
 
 ```csharp
 public Paragraph CurrentParagraph { get; }
@@ -20,46 +20,46 @@ public Paragraph CurrentParagraph { get; }
 
 ### Примеры
 
-Показывает, как перемещать курсор конструктора документов в разные узлы документа.
+Показывает, как перемещать курсор построителя документов в разные узлы документа.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Создать допустимую закладку, объект, состоящий из узлов, заключенных в начальный узел закладки,
+// Создать действительную закладку, объект, состоящий из узлов, заключенных в начальный узел закладки,
  // и конечный узел закладки.
 builder.StartBookmark("MyBookmark");
 builder.Write("Bookmark contents.");
 builder.EndBookmark("MyBookmark");
 
-NodeCollection firstParagraphNodes = doc.FirstSection.Body.FirstParagraph.ChildNodes;
+NodeCollection firstParagraphNodes = doc.FirstSection.Body.FirstParagraph.GetChildNodes(NodeType.Any, false);
 
 Assert.AreEqual(NodeType.BookmarkStart, firstParagraphNodes[0].NodeType);
 Assert.AreEqual(NodeType.Run, firstParagraphNodes[1].NodeType);
 Assert.AreEqual("Bookmark contents.", firstParagraphNodes[1].GetText().Trim());
 Assert.AreEqual(NodeType.BookmarkEnd, firstParagraphNodes[2].NodeType);
 
-// Курсор построителя документа всегда находится перед узлом, который мы добавили последним.
-// Если курсор построителя находится в конце документа, его текущий узел будет нулевым.
-// Предыдущий узел — это последний добавленный нами конечный узел закладки.
-// Добавление новых узлов с помощью построителя добавит их к последнему узлу.
+// Курсор конструктора документов всегда находится перед узлом, который мы в последний раз добавляли с его помощью.
+// Если курсор компоновщика находится в конце документа, его текущий узел будет нулевым.
+// Предыдущий узел — это конечный узел закладки, который мы добавили последним.
+// Добавление новых узлов с помощью компоновщика добавит их к последнему узлу.
 Assert.Null(builder.CurrentNode);
 
 // Если мы хотим отредактировать другую часть документа с помощью конструктора,
-// нам нужно будет подвести его курсор к узлу, который мы хотим отредактировать.
+// нам нужно будет подвести его курсор к узлу, который мы хотим редактировать.
 builder.MoveToBookmark("MyBookmark");
 
-// Перемещение его в закладку переместит его в первый узел в пределах начального и конечного узлов закладки, замкнутого цикла.
+// Перемещение его в закладку переместит его в первый узел в начальном и конечном узлах закладки, вложенный цикл.
 Assert.AreEqual(firstParagraphNodes[1], builder.CurrentNode);
 
-// Мы также можем переместить курсор на отдельный узел вот так.
+// Мы также можем переместить курсор на отдельный узел следующим образом.
 builder.MoveTo(doc.FirstSection.Body.FirstParagraph.GetChildNodes(NodeType.Any, false)[0]);
 
 Assert.AreEqual(NodeType.BookmarkStart, builder.CurrentNode.NodeType);
 Assert.AreEqual(doc.FirstSection.Body.FirstParagraph, builder.CurrentParagraph);
 Assert.IsTrue(builder.IsAtStartOfParagraph);
 
-// Мы можем использовать специальные методы для перехода к началу/концу документа.
+// Мы можем использовать специальные методы для перемещения к началу/концу документа.
 builder.MoveToDocumentEnd();
 
 Assert.IsTrue(builder.IsAtEndOfParagraph);

@@ -1,14 +1,14 @@
 ---
 title: VariableCollection.Item
 second_title: Aspose.Words för .NET API Referens
-description: VariableCollection fast egendom. Hämtar eller ställer in en dokumentvariabel med det skiftlägesokänsliga namnet. nullvärden är inte tillåtna som höger sida av tilldelningen och kommer att ersättas av en tom sträng.
+description: VariableCollection fast egendom. Hämtar eller ställer in en dokumentvariabel med det skiftlägesokänsliga namnet. null värden är inte tillåtna som en höger sida av uppgiften och kommer att ersättas av en tom sträng.
 type: docs
 weight: 20
 url: /sv/net/aspose.words/variablecollection/item/
 ---
 ## VariableCollection indexer (1 of 2)
 
-Hämtar eller ställer in en dokumentvariabel med det skiftlägesokänsliga namnet. null-värden är inte tillåtna som höger sida av tilldelningen och kommer att ersättas av en tom sträng.
+Hämtar eller ställer in en dokumentvariabel med det skiftlägesokänsliga namnet. `null` värden är inte tillåtna som en höger sida av uppgiften och kommer att ersättas av en tom sträng.
 
 ```csharp
 public string this[string name] { get; set; }
@@ -24,7 +24,7 @@ public string this[string name] { get; set; }
 
 ## VariableCollection indexer (2 of 2)
 
-Hämtar eller ställer in en dokumentvariabel vid det angivna indexet. null-värden är inte tillåtna som en höger sida av tilldelningen och kommer att ersättas av en tom sträng.
+Hämtar eller ställer in en dokumentvariabel vid angivet index. `null` värden är inte tillåtna som en höger sida av uppgiften och kommer att ersättas av en tom sträng.
 
 ```csharp
 public string this[int index] { get; set; }

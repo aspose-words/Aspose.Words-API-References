@@ -1,14 +1,14 @@
 ---
 title: CellCollection.Item
 second_title: Aspose.Words per .NET API Reference
-description: CellCollection proprietà. Recupera a Cellula allindice dato.
+description: CellCollection proprietà. Recupera aCell allindice indicato.
 type: docs
 weight: 10
 url: /it/net/aspose.words.tables/cellcollection/item/
 ---
 ## CellCollection indexer
 
-Recupera a **Cellula** all'indice dato.
+Recupera a[`Cell`](../../cell/) all'indice indicato.
 
 ```csharp
 public Cell this[int index] { get; }
@@ -22,15 +22,15 @@ public Cell this[int index] { get; }
 
 L'indice è a base zero.
 
-Gli indici negativi sono consentiti e indicano l'accesso dal retro della raccolta. Ad esempio -1 indica l'ultimo elemento, -2 indica il penultimo e così via.
+Gli indici negativi sono consentiti e indicano l'accesso dal retro della raccolta. Ad esempio -1 significa l'ultimo elemento, -2 significa il penultimo e così via.
 
-Se l'indice è maggiore o uguale al numero di elementi nell'elenco, restituisce un riferimento nullo.
+Se indice è maggiore o uguale al numero di elementi nell'elenco, restituisce un riferimento null.
 
-Se l'indice è negativo e il suo valore assoluto è maggiore del numero di elementi nell'elenco, restituisce un riferimento nullo.
+Se indice è negativo e il suo valore assoluto è maggiore del numero di elementi nell'elenco, restituisce un riferimento null.
 
 ### Esempi
 
-Mostra come scorrere tutte le tabelle nel documento e stampare il contenuto di ogni cella.
+Mostra come scorrere tutte le tabelle del documento e stampare il contenuto di ciascuna cella.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
@@ -54,7 +54,7 @@ for (int i = 0; i < tables.Count; i++)
 
         CellCollection cells = rows[j].Cells;
 
-        // Possiamo usare il metodo "ToArray" su una raccolta di celle per clonarla in un array.
+        // Possiamo utilizzare il metodo "ToArray" su una raccolta di celle per clonarla in un array.
         Assert.AreEqual(cells, cells.ToArray());
         Assert.AreNotSame(cells, cells.ToArray());
 

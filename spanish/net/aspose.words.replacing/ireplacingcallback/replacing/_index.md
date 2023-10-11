@@ -16,13 +16,14 @@ public ReplaceAction Replacing(ReplacingArgs args)
 
 ### Valor_devuelto
 
-A[`ReplaceAction`](../../replaceaction/) valor que especifica la acción a realizar para la coincidencia actual.
+A[`ReplaceAction`](../../replaceaction/) valor que especifica la acción que se tomará para la coincidencia actual.
 
 ### Ejemplos
 
 Muestra cómo reemplazar todas las apariciones de un patrón de expresión regular con otra cadena, mientras realiza un seguimiento de todos esos reemplazos.
 
 ```csharp
+public void ReplaceWithCallback()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -30,10 +31,10 @@ Muestra cómo reemplazar todas las apariciones de un patrón de expresión regul
     builder.Writeln("Our new location in New York City is opening tomorrow. " +
                     "Hope to see all our NYC-based customers at the opening!");
 
-    // Podemos usar un objeto "FindReplaceOptions" para modificar el proceso de buscar y reemplazar.
+    // Podemos utilizar un objeto "FindReplaceOptions" para modificar el proceso de buscar y reemplazar.
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // Establezca una devolución de llamada que realice un seguimiento de los reemplazos que realizará el método "Reemplazar".
+    // Establece una devolución de llamada que rastrea cualquier reemplazo que realizará el método "Replace".
     TextFindAndReplacementLogger logger = new TextFindAndReplacementLogger();
     options.ReplacingCallback = logger;
 
@@ -47,7 +48,7 @@ Muestra cómo reemplazar todas las apariciones de un patrón de expresión regul
 }
 
 /// <summary>
-/// Mantiene un registro de cada reemplazo de texto realizado por una operación de buscar y reemplazar
+/// Mantiene un registro de cada reemplazo de texto realizado mediante una operación de buscar y reemplazar
 /// y anota el valor del texto coincidente original.
 /// </summary>
 private class TextFindAndReplacementLogger : IReplacingCallback
@@ -70,18 +71,21 @@ private class TextFindAndReplacementLogger : IReplacingCallback
 }
 ```
 
-Muestra cómo insertar el contenido de un documento completo como reemplazo de una coincidencia en una operación de buscar y reemplazar.
+Muestra cómo insertar el contenido completo de un documento como reemplazo de una coincidencia en una operación de buscar y reemplazar.
 
 ```csharp
+public void InsertDocumentAtReplace()
 {
     Document mainDoc = new Document(MyDir + "Document insertion destination.docx");
 
-    // Podemos usar un objeto "FindReplaceOptions" para modificar el proceso de buscar y reemplazar.
+    // Podemos utilizar un objeto "FindReplaceOptions" para modificar el proceso de buscar y reemplazar.
     FindReplaceOptions options = new FindReplaceOptions();
     options.ReplacingCallback = new InsertDocumentAtReplaceHandler();
 
     mainDoc.Range.Replace(new Regex("\\[MY_DOCUMENT\\]"), "", options);
     mainDoc.Save(ArtifactsDir + "InsertDocument.InsertDocumentAtReplace.docx");
+
+}
 
 private class InsertDocumentAtReplaceHandler : IReplacingCallback
 {
@@ -93,7 +97,7 @@ private class InsertDocumentAtReplaceHandler : IReplacingCallback
         Paragraph para = (Paragraph)args.MatchNode.ParentNode;
         InsertDocument(para, subDoc);
 
-        // Eliminar el párrafo con el texto coincidente.
+        // Elimina el párrafo con el texto coincidente.
         para.Remove();
 
         return ReplaceAction.Skip;
@@ -115,7 +119,7 @@ private static void InsertDocument(Node insertionDestination, Document docToInse
         foreach (Section srcSection in docToInsert.Sections.OfType<Section>())
             foreach (Node srcNode in srcSection.Body)
             {
-                // Omite el nodo si es el último párrafo vacío en una sección.
+                // Omite el nodo si es el último párrafo vacío de una sección.
                 if (srcNode.NodeType == NodeType.Paragraph)
                 {
                     Paragraph para = (Paragraph)srcNode;

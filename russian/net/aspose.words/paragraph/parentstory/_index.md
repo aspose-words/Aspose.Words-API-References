@@ -1,14 +1,14 @@
 ---
 title: Paragraph.ParentStory
 second_title: Справочник по API Aspose.Words для .NET
-description: Paragraph свойство. Извлекает историю на уровне родительского раздела которую можноBody или жеHeaderFooter .
+description: Paragraph свойство. Извлекает историю на уровне родительского раздела которую можноBody илиHeaderFooter .
 type: docs
 weight: 210
 url: /ru/net/aspose.words/paragraph/parentstory/
 ---
 ## Paragraph.ParentStory property
 
-Извлекает историю на уровне родительского раздела, которую можно[`Body`](../../body/) или же[`HeaderFooter`](../../headerfooter/) .
+Извлекает историю на уровне родительского раздела, которую можно[`Body`](../../body/) или[`HeaderFooter`](../../headerfooter/) .
 
 ```csharp
 public Story ParentStory { get; }
@@ -22,7 +22,7 @@ public Story ParentStory { get; }
 Document doc = new Document();
 
 // Создаем заголовок и добавляем к нему абзац. Текст в этом абзаце
-// появится в верхней части каждой страницы этого раздела над основным текстом.
+// появится вверху каждой страницы этого раздела, над основным текстом.
 HeaderFooter header = new HeaderFooter(doc, HeaderFooterType.HeaderPrimary);
 doc.FirstSection.HeadersFooters.Add(header);
 

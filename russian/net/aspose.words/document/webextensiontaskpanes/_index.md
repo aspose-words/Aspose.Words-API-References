@@ -3,7 +3,7 @@ title: Document.WebExtensionTaskPanes
 second_title: Справочник по API Aspose.Words для .NET
 description: Document свойство. Возвращает коллекцию представляющую список надстроек области задач.
 type: docs
-weight: 470
+weight: 490
 url: /ru/net/aspose.words/document/webextensiontaskpanes/
 ---
 ## Document.WebExtensionTaskPanes property

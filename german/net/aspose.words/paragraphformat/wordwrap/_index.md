@@ -1,14 +1,14 @@
 ---
 title: ParagraphFormat.WordWrap
 second_title: Aspose.Words für .NET-API-Referenz
-description: ParagraphFormat eigendom. Wenn diese Eigenschaft ist FALSCH lateinischer Text in der Mitte eines Wortes kann für den aktuellen Absatz umbrochen werden. Andernfalls wird lateinischer Text von ganzen Wörtern umbrochen.
+description: ParagraphFormat eigendom. Wenn diese Eigenschaft istFALSCH  lateinischer Text in der Mitte eines Wortes kann für den aktuellen Absatz umbrochen werden. Andernfalls wird lateinischer Text durch ganze Wörter umbrochen.
 type: docs
-weight: 400
+weight: 410
 url: /de/net/aspose.words/paragraphformat/wordwrap/
 ---
 ## ParagraphFormat.WordWrap property
 
-Wenn diese Eigenschaft ist **FALSCH** lateinischer Text in der Mitte eines Wortes kann für den aktuellen Absatz umbrochen werden. Andernfalls wird lateinischer Text von ganzen Wörtern umbrochen.
+Wenn diese Eigenschaft ist`FALSCH` , lateinischer Text in der Mitte eines Wortes kann für den aktuellen Absatz umbrochen werden. Andernfalls wird lateinischer Text durch ganze Wörter umbrochen.
 
 ```csharp
 public bool WordWrap { get; set; }

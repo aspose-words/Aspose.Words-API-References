@@ -1,31 +1,32 @@
 ---
 title: Aspose.Words.MailMerging
 second_title: Aspose.Words per .NET API Reference
-description: Il Aspose.Words.MailMerging lo spazio dei nomi contiene le classi del motore di report di stampa unione originale .
+description: IL Aspose.Words.MailMergingnamespace contiene le classi del motore di reporting della posta unione originale.
 type: docs
-weight: 140
+weight: 150
 url: /it/net/aspose.words.mailmerging/
 ---
-Il **Aspose.Words.MailMerging** lo spazio dei nomi contiene le classi del motore di report di stampa unione "originale" .
+IL **Aspose.Words.MailMerging**namespace contiene le classi del motore di reporting della posta unione "originale".
 
 ## Classi
 
 | Classe | Descrizione |
 | --- | --- |
 | [FieldMergingArgs](./fieldmergingargs/) | Fornisce i dati per il **Unisci campo** evento. |
-| [FieldMergingArgsBase](./fieldmergingargsbase/) | Classe base per[`FieldMergingArgs`](../aspose.words.mailmerging/fieldmergingargs/) e[`ImageFieldMergingArgs`](../aspose.words.mailmerging/imagefieldmergingargs/) . |
+| [FieldMergingArgsBase](./fieldmergingargsbase/) | Classe base per[`FieldMergingArgs`](../aspose.words.mailmerging/fieldmergingargs/) E[`ImageFieldMergingArgs`](../aspose.words.mailmerging/imagefieldmergingargs/) . |
 | [ImageFieldMergingArgs](./imagefieldmergingargs/) | Fornisce i dati per il[`ImageFieldMerging`](../aspose.words.mailmerging/ifieldmergingcallback/imagefieldmerging/) evento. |
 | [MailMerge](./mailmerge/) | Rappresenta la funzionalità di stampa unione. |
 | [MailMergeRegionInfo](./mailmergeregioninfo/) | Contiene informazioni su una regione di stampa unione. |
-| [MappedDataFieldCollection](./mappeddatafieldcollection/) | Consente di mappare automaticamente tra i nomi dei campi nell'origine dati e i nomi dei campi di stampa unione nel documento. |
+| [MappedDataFieldCollection](./mappeddatafieldcollection/) | Consente di mappare automaticamente i nomi dei campi nell'origine dati e i nomi dei campi della stampa unione nel documento. |
+| [MustacheTag](./mustachetag/) | Rappresenta il tag "baffi". |
 ## Interfacce
 
 | Interfaccia | Descrizione |
 | --- | --- |
-| [IFieldMergingCallback](./ifieldmergingcallback/) | Implementa questa interfaccia se desideri controllare come i dati vengono inseriti nei campi di unione durante un'operazione di stampa unione. |
+| [IFieldMergingCallback](./ifieldmergingcallback/) | Implementa questa interfaccia se desideri controllare il modo in cui i dati vengono inseriti nei campi di unione durante un'operazione di stampa unione. |
 | [IMailMergeCallback](./imailmergecallback/) | Implementa questa interfaccia se desideri ricevere notifiche durante l'esecuzione della stampa unione. |
-| [IMailMergeDataSource](./imailmergedatasource/) | Implementa questa interfaccia per consentire la stampa unione da un'origine dati personalizzata, come un elenco di oggetti. Sono supportati anche i dati di dettaglio principale. |
-| [IMailMergeDataSourceRoot](./imailmergedatasourceroot/) | Implementa questa interfaccia per consentire la stampa unione da un'origine dati personalizzata con dati master-detail. |
+| [IMailMergeDataSource](./imailmergedatasource/) | Implementa questa interfaccia per consentire la stampa unione da un'origine dati personalizzata, ad esempio un elenco di oggetti. Sono supportati anche i dati anagrafici. |
+| [IMailMergeDataSourceRoot](./imailmergedatasourceroot/) | Implementa questa interfaccia per consentire la stampa unione da un'origine dati personalizzata con dati master-dettagli. |
 ## Enumerazione
 
 | Enumerazione | Descrizione |

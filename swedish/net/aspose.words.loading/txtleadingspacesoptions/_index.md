@@ -3,7 +3,7 @@ title: Enum TxtLeadingSpacesOptions
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Loading.TxtLeadingSpacesOptions uppräkning. Anger tillgängliga alternativ för ledande utrymmeshantering under import frånText fil.
 type: docs
-weight: 3520
+weight: 3720
 url: /sv/net/aspose.words.loading/txtleadingspacesoptions/
 ---
 ## TxtLeadingSpacesOptions enumeration
@@ -45,8 +45,8 @@ TxtLoadOptions loadOptions = new TxtLoadOptions();
 loadOptions.LeadingSpacesOptions = txtLeadingSpacesOptions;
 
 // Ställ in egenskapen "TrailingSpacesOptions" till "TxtTrailingSpacesOptions.Preserve"
-// för att bevara alla blanksteg i slutet av varje rad. 
-// Ställ in egenskapen "TrailingSpacesOptions" till "TxtTrailingSpacesOptions.Trim" till 
+ // för att bevara alla blanksteg i slutet av varje rad.
+ // Ställ in egenskapen "TrailingSpacesOptions" till "TxtTrailingSpacesOptions.Trim" till
 // ta bort alla blanksteg från slutet av varje rad.
 loadOptions.TrailingSpacesOptions = txtTrailingSpacesOptions;
 

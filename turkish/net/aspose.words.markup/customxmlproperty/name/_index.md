@@ -1,14 +1,14 @@
 ---
 title: CustomXmlProperty.Name
 second_title: Aspose.Words for .NET API Referansı
-description: CustomXmlProperty mülk. Özel XML özniteliğinin veya akıllı etiket özelliğinin adını belirtir.
+description: CustomXmlProperty mülk. Özel XML niteliğinin veya akıllı etiket özelliğinin adını belirtir.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.markup/customxmlproperty/name/
 ---
 ## CustomXmlProperty.Name property
 
-Özel XML özniteliğinin veya akıllı etiket özelliğinin adını belirtir.
+Özel XML niteliğinin veya akıllı etiket özelliğinin adını belirtir.
 
 ```csharp
 public string Name { get; }
@@ -16,7 +16,7 @@ public string Name { get; }
 
 ### Notlar
 
-Boş olamaz.
+Olamaz`hükümsüz`.
 
 Varsayılan boş dizedir.
 
@@ -29,19 +29,19 @@ public void Create()
 {
     Document doc = new Document();
 
-    // Microsoft Word ile bir belgede bir akıllı etiket görünür, metninin bir bölümünü bir tür veri olarak tanır,
+    // Microsoft Word'ün metnin bir bölümünü bir tür veri olarak tanıdığı bir belgede akıllı etiket görünür,
     // ad, tarih veya adres gibi ve onu mor noktalı alt çizgi görüntüleyen bir köprüye dönüştürür.
     SmartTag smartTag = new SmartTag(doc);
 
-    // Akıllı etiketler, tanınan metinlerini bütünüyle içeren bileşik düğümlerdir.
-    // Bu akıllı etikete manuel olarak içerik ekleyin.
+    // Akıllı etiketler, tanınan metnin tamamını içeren bileşik düğümlerdir.
+    // İçeriği bu akıllı etikete manuel olarak ekleyin.
     smartTag.AppendChild(new Run(doc, "May 29, 2019"));
 
-    // Microsoft Word, yukarıdaki içeriği bir tarih olarak tanıyabilir.
-    // Akıllı etiketler, içerdikleri veri türünü yansıtmak için "Element" özelliğini kullanır.
+    // Microsoft Word yukarıdaki içerikleri tarih olarak tanıyabilir.
+    // Akıllı etiketler içerdikleri veri türünü yansıtmak için "Element" özelliğini kullanır.
     smartTag.Element = "date";
 
-    // Bazı akıllı etiket türleri, içeriklerini daha fazla özel XML özelliklerine işler.
+    // Bazı akıllı etiket türleri, içeriklerini özel XML özelliklerine göre işler.
     smartTag.Properties.Add(new CustomXmlProperty("Day", string.Empty, "29"));
     smartTag.Properties.Add(new CustomXmlProperty("Month", string.Empty, "5"));
     smartTag.Properties.Add(new CustomXmlProperty("Year", string.Empty, "2019"));
@@ -52,7 +52,7 @@ public void Create()
     doc.FirstSection.Body.FirstParagraph.AppendChild(smartTag);
     doc.FirstSection.Body.FirstParagraph.AppendChild(new Run(doc, " is a date. "));
 
-    // Bir hisse senedi için başka bir akıllı etiket oluşturun.
+    // Hisse senedi takip cihazı için başka bir akıllı etiket oluşturun.
     smartTag = new SmartTag(doc);
     smartTag.Element = "stockticker";
     smartTag.Uri = "urn:schemas-microsoft-com:office:smarttags";
@@ -68,7 +68,7 @@ public void Create()
     // Microsoft Word'ün eski sürümleri akıllı etiketleri destekler.
     doc.Save(ArtifactsDir + "SmartTag.Create.doc");
 
-    // Bir belgeden tüm akıllı etiketleri kaldırmak için "RemoveSmartTags" yöntemini kullanın.
+    // Bir belgedeki tüm akıllı etiketleri kaldırmak için "RemoveSmartTags" yöntemini kullanın.
     Assert.AreEqual(2, doc.GetChildNodes(NodeType.SmartTag, true).Count);
 
     doc.RemoveSmartTags();
@@ -91,7 +91,7 @@ private class SmartTagPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Bir SmartTag düğümünün ziyareti sona erdiğinde çağrılır.
+    /// SmartTag düğümünün ziyareti sonlandırıldığında çağrılır.
     /// </summary>
     public override VisitorAction VisitSmartTagEnd(SmartTag smartTag)
     {

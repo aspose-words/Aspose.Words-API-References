@@ -3,7 +3,7 @@ title: Document.UpdateThumbnail
 second_title: Aspose.Words för .NET API Referens
 description: Document metod. UppdateringarThumbnail av dokumentet enligt de angivna alternativen.
 type: docs
-weight: 760
+weight: 800
 url: /sv/net/aspose.words/document/updatethumbnail/
 ---
 ## UpdateThumbnail(ThumbnailGeneratingOptions) {#updatethumbnail_1}

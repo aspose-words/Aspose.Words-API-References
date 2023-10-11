@@ -3,7 +3,7 @@ title: DocumentBuilder.InsertTextInput
 second_title: Aspose.Words for .NET API Referansı
 description: DocumentBuilder yöntem. Geçerli konuma bir metin formu alanı ekler.
 type: docs
-weight: 450
+weight: 480
 url: /tr/net/aspose.words/documentbuilder/inserttextinput/
 ---
 ## DocumentBuilder.InsertTextInput method
@@ -29,7 +29,7 @@ Yeni eklenen form alanı düğümü.
 
 ### Notlar
 
-Form alanı için bir ad belirtirseniz, aynı ada sahip bir yer imi otomatik olarak oluşturulur.
+Form alanı için bir ad belirlerseniz aynı adla otomatik olarak bir yer imi oluşturulur.
 
 ### Örnekler
 
@@ -39,13 +39,13 @@ Bir belgeye metin giriş formu alanının nasıl ekleneceğini gösterir.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Kullanıcıdan metin girmesini isteyen bir form ekleyin.
+// Kullanıcının metin girmesini isteyen bir form ekleyin.
 builder.InsertTextInput("TextInput", TextFormFieldType.Regular, "", "Enter your text here", 0);
 
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertTextInput.docx");
 ```
 
-Metin girişi form alanının nasıl ekleneceğini gösterir.
+Metin giriş formu alanının nasıl ekleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -53,9 +53,9 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Write("Please enter text here: ");
 
-// Kullanıcının tıklayıp metin girmesine izin verecek bir metin giriş alanı ekleyin.
-// Kullanıcının üzerine yazıp iletebileceği bir yer tutucu metin atayın
-// form alanının içeriğine sınır uygulamamak için maksimum metin uzunluğu 0.
+// Kullanıcının tıklayıp metin girmesine olanak sağlayacak bir metin giriş alanı ekleyin.
+// Kullanıcının üzerine yazıp iletebileceği bazı yer tutucu metinler atayın
+// form alanının içeriğine herhangi bir sınırlama uygulamamak için maksimum metin uzunluğu 0'dır.
 builder.InsertTextInput("TextInput1", TextFormFieldType.Regular, "", "Placeholder text", 0);
 
 // Form alanı, "metin" türünde bir "giriş" html etiketi biçiminde görünecektir.
@@ -67,13 +67,13 @@ Form alanlarının nasıl oluşturulacağını gösterir.
 ```csharp
 DocumentBuilder builder = new DocumentBuilder();
 
-// Form alanları, kullanıcıdan değerleri girmesi istenerek etkileşimde bulunabileceği belgedeki nesnelerdir.
+// Form alanları, belgedeki, kullanıcının değer girmesi istenerek etkileşimde bulunabileceği nesnelerdir.
 // Bunları bir belge oluşturucu kullanarak oluşturabiliriz ve aşağıda bunu yapmanın iki yolu vardır.
 // 1 - Temel metin girişi:
 builder.InsertTextInput("My text input", TextFormFieldType.Regular, 
     "", "Enter your name here", 30);
 
-// 2 - Komut istemi metni ve bir dizi olası değer içeren birleşik giriş kutusu:
+// 2 - Bilgi istemi metnini ve bir dizi olası değeri içeren birleşik giriş kutusu:
 string[] items =
 {
     "-- Select your favorite footwear --", "Sneakers", "Oxfords", "Flip-flops", "Other"

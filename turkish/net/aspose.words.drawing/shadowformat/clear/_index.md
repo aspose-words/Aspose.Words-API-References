@@ -14,6 +14,21 @@ Gölge biçimini temizler.
 public void Clear()
 ```
 
+### Örnekler
+
+Şeklin gölge formatıyla nasıl çalışılacağını gösterir.
+
+```csharp
+Document doc = new Document(MyDir + "Shape stroke pattern border.docx");
+Shape shape = (Shape)doc.GetChildNodes(NodeType.Shape, true)[0];
+
+if (shape.ShadowFormat.Visible && shape.ShadowFormat.Type == ShadowType.Shadow2)                
+    shape.ShadowFormat.Type = ShadowType.Shadow7;
+
+if (shape.ShadowFormat.Type == ShadowType.ShadowMixed)            
+    shape.ShadowFormat.Clear();
+```
+
 ### Ayrıca bakınız
 
 * class [ShadowFormat](../)

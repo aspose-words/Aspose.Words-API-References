@@ -1,14 +1,16 @@
 ---
 title: Class SaveOutputParameters
 second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Saving.SaveOutputParameters klas. Dieses Objekt wird an den Aufrufer zurückgegeben nachdem ein Dokument gespeichert wurde und enthält zusätzliche Informationen die während des Speichervorgangs generiert oder berechnet wurden. Der Aufrufer kann dieses Objekt verwenden oder ignorieren.
+description: Aspose.Words.Saving.SaveOutputParameters klas. Dieses Objekt wird nach dem Speichern eines Dokuments an den Aufrufer zurückgegeben und enthält zusätzliche Informationen darüber dass während des Speichervorgangs generiert oder berechnet wurde. Der Aufrufer kann dieses Objekt verwenden oder ignorieren.
 type: docs
-weight: 5310
+weight: 5590
 url: /de/net/aspose.words.saving/saveoutputparameters/
 ---
 ## SaveOutputParameters class
 
-Dieses Objekt wird an den Aufrufer zurückgegeben, nachdem ein Dokument gespeichert wurde, und enthält zusätzliche Informationen, die während des Speichervorgangs generiert oder berechnet wurden. Der Aufrufer kann dieses Objekt verwenden oder ignorieren.
+Dieses Objekt wird nach dem Speichern eines Dokuments an den Aufrufer zurückgegeben und enthält zusätzliche Informationen darüber, dass während des Speichervorgangs generiert oder berechnet wurde. Der Aufrufer kann dieses Objekt verwenden oder ignorieren.
+
+Um mehr zu erfahren, besuchen Sie die[Speichern Sie ein Dokument](https://docs.aspose.com/words/net/save-a-document/) Dokumentationsartikel.
 
 ```csharp
 public class SaveOutputParameters
@@ -18,11 +20,11 @@ public class SaveOutputParameters
 
 | Name | Beschreibung |
 | --- | --- |
-| [ContentType](../../aspose.words.saving/saveoutputparameters/contenttype/) { get; } | Gibt den Content-Type-String (Internet Media Type) zurück, der den Typ des gespeicherten Dokuments identifiziert. |
+| [ContentType](../../aspose.words.saving/saveoutputparameters/contenttype/) { get; } | Gibt die Content-Type-Zeichenfolge (Internet Media Type) zurück, die den Typ des gespeicherten Dokuments identifiziert. |
 
 ### Beispiele
 
-Zeigt, wie auf die Ausgabeparameter des Speichervorgangs eines Dokuments zugegriffen wird.
+Zeigt, wie auf Ausgabeparameter des Speichervorgangs eines Dokuments zugegriffen wird.
 
 ```csharp
 Document doc = new Document();

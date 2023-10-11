@@ -1,14 +1,14 @@
 ---
 title: ShapeBase.BehindText
 second_title: Aspose.Words for .NET API Referansı
-description: ShapeBase mülk. Şeklin metnin altında mı yoksa üstünde mi olduğunu belirtir.
+description: ShapeBase mülk. Şeklin metnin altında mı yoksa üstünde mi olacağını belirtir.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.drawing/shapebase/behindtext/
 ---
 ## ShapeBase.BehindText property
 
-Şeklin metnin altında mı yoksa üstünde mi olduğunu belirtir.
+Şeklin metnin altında mı yoksa üstünde mi olacağını belirtir.
 
 ```csharp
 public bool BehindText { get; set; }
@@ -18,17 +18,17 @@ public bool BehindText { get; set; }
 
 Yalnızca üst düzey şekiller için etkilidir.
 
-Varsayılan değer **yanlış**.
+Varsayılan değer:`YANLIŞ`.
 
 ### Örnekler
 
-Bir sayfanın ortasına kayan bir görüntünün nasıl ekleneceğini gösterir.
+Sayfanın ortasına kayan bir görüntünün nasıl ekleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Üst üste binen metnin arkasında görünecek kayan bir resim ekleyin ve onu sayfanın ortasına hizalayın.
+// Çakışan metnin arkasında görünecek kayan bir resim ekleyin ve onu sayfanın ortasına hizalayın.
 Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
 shape.WrapType = WrapType.None;
 shape.BehindText = true;

@@ -1,14 +1,14 @@
 ---
 title: RunCollection.Item
 second_title: Aspose.Words för .NET API Referens
-description: RunCollection fast egendom. Hämtar en Springa vid det givna indexet.
+description: RunCollection fast egendom. Hämtar enRun vid det givna indexet.
 type: docs
 weight: 10
 url: /sv/net/aspose.words/runcollection/item/
 ---
 ## RunCollection indexer
 
-Hämtar en **Springa** vid det givna indexet.
+Hämtar en[`Run`](../../run/) vid det givna indexet.
 
 ```csharp
 public Run this[int index] { get; }

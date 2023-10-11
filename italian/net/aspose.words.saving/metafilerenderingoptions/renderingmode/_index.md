@@ -1,14 +1,14 @@
 ---
 title: MetafileRenderingOptions.RenderingMode
 second_title: Aspose.Words per .NET API Reference
-description: MetafileRenderingOptions proprietà. Ottiene o imposta un valore che determina la modalità di rendering delle immagini del metafile.
+description: MetafileRenderingOptions proprietà. Ottiene o imposta un valore che determina la modalità di rendering delle immagini metafile.
 type: docs
-weight: 40
+weight: 60
 url: /it/net/aspose.words.saving/metafilerenderingoptions/renderingmode/
 ---
 ## MetafileRenderingOptions.RenderingMode property
 
-Ottiene o imposta un valore che determina la modalità di rendering delle immagini del metafile.
+Ottiene o imposta un valore che determina la modalità di rendering delle immagini metafile.
 
 ```csharp
 public MetafileRenderingMode RenderingMode { get; set; }
@@ -16,13 +16,14 @@ public MetafileRenderingMode RenderingMode { get; set; }
 
 ### Osservazioni
 
-Il valore predefinito dipende dal formato di salvataggio. Per le immagini lo èBitmap . Per altri formati lo èVectorWithFallback.
+Il valore predefinito dipende dal formato di salvataggio. Per le immagini lo èBitmap . Per gli altri formati lo èVectorWithFallback.
 
 ### Esempi
 
-Mostra aggiunto un fallback al rendering delle bitmap e alla modifica del tipo di avvisi sui record di metafile non supportati.
+Mostra aggiunto un fallback al rendering bitmap e modificando il tipo di avvisi sui record di metafile non supportati.
 
 ```csharp
+public void HandleBinaryRasterWarnings()
 {
     Document doc = new Document(MyDir + "WMF with image.docx");
 
@@ -36,7 +37,7 @@ Mostra aggiunto un fallback al rendering delle bitmap e alla modifica del tipo d
     metafileRenderingOptions.RenderingMode = MetafileRenderingMode.VectorWithFallback;
 
     // Crea un oggetto "PdfSaveOptions" che possiamo passare al metodo "Save" del documento
-    // per modificare il modo in cui quel metodo converte il documento in .PDF e applica la configurazione
+    // per modificare il modo in cui il metodo converte il documento in .PDF e applica la configurazione
     // nel nostro oggetto MetafileRenderingOptions all'operazione di salvataggio.
     PdfSaveOptions saveOptions = new PdfSaveOptions();
     saveOptions.MetafileRenderingOptions = metafileRenderingOptions;
@@ -47,7 +48,7 @@ Mostra aggiunto un fallback al rendering delle bitmap e alla modifica del tipo d
     doc.Save(ArtifactsDir + "PdfSaveOptions.HandleBinaryRasterWarnings.pdf", saveOptions);
 
     Assert.AreEqual(1, callback.Warnings.Count);
-    Assert.AreEqual("'R2_XORPEN' binary raster operation is partly supported.",
+    Assert.AreEqual("'R2_XORPEN' binary raster operation is not supported.",
         callback.Warnings[0].Description);
 }
 

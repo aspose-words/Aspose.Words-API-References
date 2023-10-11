@@ -1,14 +1,14 @@
 ---
 title: SaveOptions.PrettyFormat
 second_title: Referencia de API de Aspose.Words para .NET
-description: SaveOptions propiedad. cuandoverdadero  bonitos formatos de salida cuando corresponda. El valor predeterminado es falso .
+description: SaveOptions propiedad. cuandoverdadero salida con bonitos formatos cuando corresponda. El valor predeterminado esFALSO .
 type: docs
-weight: 120
+weight: 110
 url: /es/net/aspose.words.saving/saveoptions/prettyformat/
 ---
 ## SaveOptions.PrettyFormat property
 
-cuando`verdadero` , bonitos formatos de salida cuando corresponda. El valor predeterminado es **falso** .
+cuando`verdadero` salida con bonitos formatos cuando corresponda. El valor predeterminado es`FALSO` .
 
 ```csharp
 public bool PrettyFormat { get; set; }
@@ -16,11 +16,11 @@ public bool PrettyFormat { get; set; }
 
 ### Observaciones
 
-Ajustado a **verdadero** para hacer que la salida HTML, MHTML, EPUB, WordML, RTF, DOCX y ODT sea legible por humanos. Útil para probar o depurar.
+Ajustado a`verdadero` para hacer que los resultados HTML, MHTML, EPUB, WordML, RTF, DOCX y ODT sean legibles para humanos. Útil para pruebas o depuración.
 
 ### Ejemplos
 
-Muestra cómo mejorar la legibilidad del código sin procesar de un documento .html guardado.
+Muestra cómo mejorar la legibilidad del código sin formato de un documento .html guardado.
 
 ```csharp
 Document doc = new Document();
@@ -31,7 +31,7 @@ HtmlSaveOptions htmlOptions = new HtmlSaveOptions(SaveFormat.Html) { PrettyForma
 
 doc.Save(ArtifactsDir + "HtmlSaveOptions.PrettyFormat.html", htmlOptions);
 
-// Habilitar el formato bonito hace que el código html sin procesar sea más legible al agregar tabulaciones y caracteres de nueva línea.
+// Habilitar el formato bonito hace que el código HTML sin formato sea más legible al agregar tabulaciones y caracteres de nueva línea.
 string html = File.ReadAllText(ArtifactsDir + "HtmlSaveOptions.PrettyFormat.html");
 
 if (usePrettyFormat)

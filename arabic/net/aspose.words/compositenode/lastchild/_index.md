@@ -1,14 +1,14 @@
 ---
 title: CompositeNode.LastChild
 second_title: Aspose.Words لمراجع .NET API
-description: CompositeNode ملكية. الحصول على آخر تابع للعقدة .
+description: CompositeNode ملكية. يحصل على الطفل الأخير للعقدة.
 type: docs
-weight: 60
+weight: 50
 url: /ar/net/aspose.words/compositenode/lastchild/
 ---
 ## CompositeNode.LastChild property
 
-الحصول على آخر تابع للعقدة .
+يحصل على الطفل الأخير للعقدة.
 
 ```csharp
 public Node LastChild { get; }
@@ -16,11 +16,11 @@ public Node LastChild { get; }
 
 ### ملاحظات
 
-إذا لم تكن هناك عقدة فرعية أخيرة ، فسيتم إرجاع قيمة فارغة .
+إذا لم تكن هناك عقدة تابعة أخيرة، أ`باطل` تم إرجاعها.
 
 ### أمثلة
 
-يوضح كيفية استخدام طرق العقدة والعقدة المركبة لإزالة قسم قبل القسم الأخير في المستند.
+يوضح كيفية استخدام طريقتي Node وCompositeNode لإزالة قسم قبل القسم الأخير في المستند.
 
 ```csharp
 Document doc = new Document();
@@ -34,11 +34,11 @@ builder.Writeln("Section 2 text.");
 Section lastSection = (Section)doc.LastChild;
 Section firstSection = (Section)lastSection.PreviousSibling;
 
-// إزالة قسم بناءً على علاقته بأخيه مع قسم آخر.
+// إزالة قسم بناءً على علاقة الأخوة مع قسم آخر.
 if (lastSection.PreviousSibling != null)
     doc.RemoveChild(firstSection);
 
-// كان القسم الذي أزلناه هو الأول ، تاركًا المستند مع الثاني فقط.
+// القسم الذي أزلناه هو الأول، وتركنا الوثيقة مع الثاني فقط.
 Assert.AreEqual("Section 2 text.", doc.GetText().Trim());
 ```
 

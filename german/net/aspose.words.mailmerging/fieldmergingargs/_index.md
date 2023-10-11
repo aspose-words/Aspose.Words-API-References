@@ -1,14 +1,16 @@
 ---
 title: Class FieldMergingArgs
 second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.MailMerging.FieldMergingArgs klas. Liefert Daten für die MergeField Ereignis.
+description: Aspose.Words.MailMerging.FieldMergingArgs klas. Stellt Daten für die bereit MergeField event.
 type: docs
-weight: 3550
+weight: 3770
 url: /de/net/aspose.words.mailmerging/fieldmergingargs/
 ---
 ## FieldMergingArgs class
 
-Liefert Daten für die **MergeField** Ereignis.
+Stellt Daten für die bereit **MergeField** event.
+
+Um mehr zu erfahren, besuchen Sie die[Serienbrief und Berichterstellung](https://docs.aspose.com/words/net/mail-merge-and-reporting/) Dokumentationsartikel.
 
 ```csharp
 public class FieldMergingArgs : FieldMergingArgsBase
@@ -20,22 +22,23 @@ public class FieldMergingArgs : FieldMergingArgsBase
 | --- | --- |
 | [Document](../../aspose.words.mailmerging/fieldmergingargsbase/document/) { get; } | Gibt die zurück[`Document`](../fieldmergingargsbase/document/) Objekt, für das der Seriendruck durchgeführt wird. |
 | [DocumentFieldName](../../aspose.words.mailmerging/fieldmergingargsbase/documentfieldname/) { get; } | Ruft den Namen des Briefvorlagenfelds ab, wie im Dokument angegeben. |
-| [Field](../../aspose.words.mailmerging/fieldmergingargsbase/field/) { get; } | Ruft das Objekt ab, das das aktuelle Briefvorlagenfeld darstellt. |
-| [FieldName](../../aspose.words.mailmerging/fieldmergingargsbase/fieldname/) { get; } | Ruft den Namen des Briefvorlagenfelds in der Datenquelle ab. |
-| [FieldValue](../../aspose.words.mailmerging/fieldmergingargsbase/fieldvalue/) { get; set; } | Ruft den Wert des Felds aus der Datenquelle ab oder legt ihn fest. |
+| [Field](../../aspose.words.mailmerging/fieldmergingargsbase/field/) { get; } | Ruft das Objekt ab, das das aktuelle Zusammenführungsfeld darstellt. |
+| [FieldName](../../aspose.words.mailmerging/fieldmergingargsbase/fieldname/) { get; } | Ruft den Namen des Zusammenführungsfelds in der Datenquelle ab. |
+| [FieldValue](../../aspose.words.mailmerging/fieldmergingargsbase/fieldvalue/) { get; set; } | Ruft den Wert des Felds aus der Datenquelle ab oder legt diesen fest. |
 | [RecordIndex](../../aspose.words.mailmerging/fieldmergingargsbase/recordindex/) { get; } | Ruft den nullbasierten Index des Datensatzes ab, der zusammengeführt wird. |
 | [TableName](../../aspose.words.mailmerging/fieldmergingargsbase/tablename/) { get; } | Ruft den Namen der Datentabelle für den aktuellen Zusammenführungsvorgang oder eine leere Zeichenfolge ab, wenn der Name nicht verfügbar ist. |
-| [Text](../../aspose.words.mailmerging/fieldmergingargs/text/) { get; set; } | Ruft den Text ab oder legt ihn fest, der in das Dokument für das aktuelle Briefvorlagenfeld eingefügt wird. |
+| [Text](../../aspose.words.mailmerging/fieldmergingargs/text/) { get; set; } | Ruft den Text ab, der für das aktuelle Zusammenführungsfeld in das Dokument eingefügt wird, oder legt diesen fest. |
 
 ### Bemerkungen
 
-Das **MergeField** Das Ereignis tritt während des Seriendrucks auf, wenn ein einfaches mail merge -Feld im Dokument gefunden wird. Sie können auf dieses Ereignis reagieren, um Text zurückzugeben, den die Seriendruck-Engine in das Dokument einfügen soll.
+Der **MergeField** Das Ereignis tritt beim Serienbrief auf, wenn im Dokument ein einfaches Feld „mail merge “ gefunden wird. Sie können auf dieses Ereignis reagieren, um Text zurückzugeben, den die Serienbrief-Engine in das Dokument einfügen kann.
 
 ### Beispiele
 
-Zeigt, wie Sie einen Seriendruck mit einem benutzerdefinierten Rückruf ausführen, der Zusammenführungsdaten in Form von HTML-Dokumenten verarbeitet.
+Zeigt, wie ein Serienbrief mit einem benutzerdefinierten Rückruf ausgeführt wird, der Seriendaten in Form von HTML-Dokumenten verarbeitet.
 
 ```csharp
+public void MergeHtml()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -65,13 +68,13 @@ Zeigt, wie Sie einen Seriendruck mit einem benutzerdefinierten Rückruf ausführ
 }
 
 /// <summary>
-/// Wenn der Seriendruck auf ein MERGEFIELD trifft, dessen Name mit dem Präfix "html_" beginnt,
-/// Dieser Callback parst seine Zusammenführungsdaten als HTML-Inhalt und fügt das Ergebnis dem Dokumentspeicherort von MERGEFIELD hinzu.
+/// Wenn der Seriendruck auf ein MERGEFIELD trifft, dessen Name mit dem Präfix „html_“ beginnt,
+/// Dieser Rückruf analysiert seine Zusammenführungsdaten als HTML-Inhalt und fügt das Ergebnis dem Dokumentspeicherort des MERGEFIELD hinzu.
 /// </summary>
 private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 {
     /// <summary>
-    /// Wird aufgerufen, wenn bei einem Seriendruck Daten in einem MERGEFIELD zusammengeführt werden.
+    /// Wird aufgerufen, wenn ein Serienbrief Daten in einem MERGEFIELD zusammenführt.
     /// </summary>
     void IFieldMergingCallback.FieldMerging(FieldMergingArgs args)
     {
@@ -83,7 +86,7 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
             builder.InsertHtml((string)args.FieldValue);
 
             // Da wir den zusammengeführten Inhalt bereits manuell eingefügt haben,
-             // Wir müssen auf dieses Ereignis nicht reagieren, indem wir Inhalte über die Eigenschaft "Text" zurückgeben.
+             // Wir müssen auf dieses Ereignis nicht reagieren, indem wir Inhalte über die Eigenschaft „Text“ zurückgeben.
             args.Text = string.Empty;
         }
     }

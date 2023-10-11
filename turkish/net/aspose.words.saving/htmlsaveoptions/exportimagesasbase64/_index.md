@@ -1,14 +1,14 @@
 ---
 title: HtmlSaveOptions.ExportImagesAsBase64
 second_title: Aspose.Words for .NET API Referansı
-description: HtmlSaveOptions mülk. Görüntülerin HTML MHTML veya EPUB çıktısına Base64 biçiminde kaydedilip kaydedilmeyeceğini belirtir. Varsayılanyanlış .
+description: HtmlSaveOptions mülk. Görüntülerin HTML MHTML veya EPUB çıkışına Base64 formatında kaydedilip kaydedilmeyeceğini belirtir. VarsayılanYANLIŞ .
 type: docs
-weight: 180
+weight: 170
 url: /tr/net/aspose.words.saving/htmlsaveoptions/exportimagesasbase64/
 ---
 ## HtmlSaveOptions.ExportImagesAsBase64 property
 
-Görüntülerin HTML, MHTML veya EPUB çıktısına Base64 biçiminde kaydedilip kaydedilmeyeceğini belirtir. Varsayılan`yanlış` .
+Görüntülerin HTML, MHTML veya EPUB çıkışına Base64 formatında kaydedilip kaydedilmeyeceğini belirtir. Varsayılan:`YANLIŞ` .
 
 ```csharp
 public bool ExportImagesAsBase64 { get; set; }
@@ -16,11 +16,11 @@ public bool ExportImagesAsBase64 { get; set; }
 
 ### Notlar
 
-Bu özellik olarak ayarlandığında`doğru`görüntü verileri doğrudan dışa aktarılır  **resim** öğeler ve ayrı dosyalar oluşturulmaz.
+Bu özellik olarak ayarlandığında`doğru` görüntü verileri doğrudan x000d_'ye aktarılır **img** öğeler ve ayrı dosyalar oluşturulmaz.
 
 ### Örnekler
 
-Kaydedilmiş bir HTML belgesinin içine yazı tiplerinin nasıl gömüleceğini gösterir.
+Kaydedilmiş bir HTML belgesinin içine yazı tiplerinin nasıl yerleştirileceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

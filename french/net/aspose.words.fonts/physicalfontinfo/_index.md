@@ -1,14 +1,16 @@
 ---
 title: Class PhysicalFontInfo
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Fonts.PhysicalFontInfo classe. Spécifie des informations sur la police physique disponible pour le moteur de polices Aspose.Words.
+description: Aspose.Words.Fonts.PhysicalFontInfo classe. Spécifie des informations sur la police physique disponible pour le moteur de police Aspose.Words.
 type: docs
-weight: 2850
+weight: 3030
 url: /fr/net/aspose.words.fonts/physicalfontinfo/
 ---
 ## PhysicalFontInfo class
 
-Spécifie des informations sur la police physique disponible pour le moteur de polices Aspose.Words.
+Spécifie des informations sur la police physique disponible pour le moteur de police Aspose.Words.
+
+Pour en savoir plus, visitez le[Travailler avec des polices](https://docs.aspose.com/words/net/working-with-fonts/) article documentaire.
 
 ```csharp
 public class PhysicalFontInfo
@@ -18,7 +20,7 @@ public class PhysicalFontInfo
 
 | Nom | La description |
 | --- | --- |
-| [FilePath](../../aspose.words.fonts/physicalfontinfo/filepath/) { get; } | Chemin d'accès au fichier de police, le cas échéant. |
+| [FilePath](../../aspose.words.fonts/physicalfontinfo/filepath/) { get; } | Chemin d'accès au fichier de police le cas échéant. |
 | [FontFamilyName](../../aspose.words.fonts/physicalfontinfo/fontfamilyname/) { get; } | Nom de famille de la police. |
 | [FullFontName](../../aspose.words.fonts/physicalfontinfo/fullfontname/) { get; } | Nom complet de la police. |
 | [Version](../../aspose.words.fonts/physicalfontinfo/version/) { get; } | Chaîne de version de la police. |
@@ -28,7 +30,7 @@ public class PhysicalFontInfo
 Montre comment répertorier les polices disponibles.
 
 ```csharp
-// Configurez Aspose.Words pour sourcer les polices à partir d'un dossier personnalisé, puis imprimez toutes les polices disponibles.
+// Configurez Aspose.Words pour rechercher les polices à partir d'un dossier personnalisé, puis imprimez toutes les polices disponibles.
 FontSourceBase[] folderFontSource = { new FolderFontSource(FontsDir, true) };
 
 foreach (PhysicalFontInfo fontInfo in folderFontSource[0].GetAvailableFonts())

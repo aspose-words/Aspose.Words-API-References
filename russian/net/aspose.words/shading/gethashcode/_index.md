@@ -1,14 +1,14 @@
 ---
 title: Shading.GetHashCode
 second_title: Справочник по API Aspose.Words для .NET
-description: Shading метод. Служит хэшфункцией для этого типа.
+description: Shading метод. Служит хешфункцией для этого типа.
 type: docs
-weight: 60
+weight: 100
 url: /ru/net/aspose.words/shading/gethashcode/
 ---
 ## Shading.GetHashCode method
 
-Служит хэш-функцией для этого типа.
+Служит хеш-функцией для этого типа.
 
 ```csharp
 public override int GetHashCode()

@@ -1,14 +1,14 @@
 ---
 title: DocumentBuilder.MoveToHeaderFooter
 second_title: Aspose.Words per .NET API Reference
-description: DocumentBuilder metodo. Sposta il cursore allinizio di unintestazione o un piè di pagina nella sezione corrente.
+description: DocumentBuilder metodo. Sposta il cursore allinizio di unintestazione o piè di pagina nella sezione corrente.
 type: docs
-weight: 520
+weight: 550
 url: /it/net/aspose.words/documentbuilder/movetoheaderfooter/
 ---
 ## DocumentBuilder.MoveToHeaderFooter method
 
-Sposta il cursore all'inizio di un'intestazione o un piè di pagina nella sezione corrente.
+Sposta il cursore all'inizio di un'intestazione o piè di pagina nella sezione corrente.
 
 ```csharp
 public void MoveToHeaderFooter(HeaderFooterType headerFooterType)
@@ -20,17 +20,17 @@ public void MoveToHeaderFooter(HeaderFooterType headerFooterType)
 
 ### Osservazioni
 
-Dopo aver spostato il cursore in un'intestazione o un piè di pagina, puoi utilizzare il resto dei metodi DocumentBuilder per modificare il contenuto dell'intestazione o del piè di pagina.
+Dopo aver spostato il cursore nell'intestazione o nel piè di pagina, puoi utilizzare il resto del file[`DocumentBuilder`](../) Metodi per modificare il contenuto dell'intestazione o del piè di pagina.
 
-Se vuoi creare intestazioni e piè di pagina diversi per la prima pagina, devi da impostare[`DifferentFirstPageHeaderFooter`](../../pagesetup/differentfirstpageheaderfooter/).
+Se desideri creare intestazioni e piè di pagina diversi per la prima pagina, devi impostare [`DifferentFirstPageHeaderFooter`](../../pagesetup/differentfirstpageheaderfooter/).
 
-Se vuoi creare intestazioni e piè di pagina diversi per le pagine pari e dispari, devi per impostare[`OddAndEvenPagesHeaderFooter`](../../pagesetup/oddandevenpagesheaderfooter/).
+Se desideri creare intestazioni e piè di pagina diversi per le pagine pari e dispari, devi impostare [`OddAndEvenPagesHeaderFooter`](../../pagesetup/oddandevenpagesheaderfooter/).
 
-Uso[`MoveToSection`](../movetosection/) per passare dall'intestazione al testo principale.
+Utilizzo[`MoveToSection`](../movetosection/) per uscire dall'intestazione e passare al testo principale.
 
 ### Esempi
 
-Mostra come inserire un'immagine e usarla come filigrana.
+Mostra come inserire un'immagine e utilizzarla come filigrana.
 
 ```csharp
 Document doc = new Document();
@@ -52,7 +52,7 @@ shape.Top = (builder.PageSetup.PageHeight - shape.Height) / 2;
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertWatermark.docx");
 ```
 
-Mostra come inserire un'immagine e usarla come filigrana (.NetStandard 2.0).
+Mostra come inserire un'immagine e utilizzarla come filigrana (.NetStandard 2.0).
 
 ```csharp
 Document doc = new Document();
@@ -84,11 +84,11 @@ Mostra come creare intestazioni e piè di pagina in un documento utilizzando Doc
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Specifica che vogliamo intestazioni e piè di pagina diversi per le prime, pari e dispari.
+// Specifica che vogliamo intestazioni e piè di pagina diversi per le prime pagine, pari e dispari.
 builder.PageSetup.DifferentFirstPageHeaderFooter = true;
 builder.PageSetup.OddAndEvenPagesHeaderFooter = true;
 
-// Crea le intestazioni, quindi aggiungi tre pagine al documento per visualizzare ogni tipo di intestazione.
+// Crea le intestazioni, quindi aggiungi tre pagine al documento per visualizzare ciascun tipo di intestazione.
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderFirst);
 builder.Write("Header for the first page");
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderEven);

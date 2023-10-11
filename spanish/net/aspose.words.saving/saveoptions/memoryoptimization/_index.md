@@ -1,14 +1,14 @@
 ---
 title: SaveOptions.MemoryOptimization
 second_title: Referencia de API de Aspose.Words para .NET
-description: SaveOptions propiedad. Obtiene o establece el valor que determina si se debe realizar la optimización de la memoria antes de guardar el documento. El valor predeterminado para esta propiedad es falso .
+description: SaveOptions propiedad. Obtiene o establece el valor que determina si se debe realizar la optimización de la memoria antes de guardar el documento. El valor predeterminado para esta propiedad esFALSO .
 type: docs
-weight: 110
+weight: 100
 url: /es/net/aspose.words.saving/saveoptions/memoryoptimization/
 ---
 ## SaveOptions.MemoryOptimization property
 
-Obtiene o establece el valor que determina si se debe realizar la optimización de la memoria antes de guardar el documento. El valor predeterminado para esta propiedad es **falso** .
+Obtiene o establece el valor que determina si se debe realizar la optimización de la memoria antes de guardar el documento. El valor predeterminado para esta propiedad es`FALSO` .
 
 ```csharp
 public bool MemoryOptimization { get; set; }
@@ -16,7 +16,7 @@ public bool MemoryOptimization { get; set; }
 
 ### Observaciones
 
-Establecer esta opción en verdadero puede reducir significativamente el consumo de memoria mientras se guardan documentos grandes a costa de un ahorro de tiempo más lento.
+Establecer esta opción en`verdadero` puede reducir significativamente el consumo de memoria y al mismo tiempo guardar documentos grandes a costa de un tiempo de ahorro más lento.
 
 ### Ejemplos
 
@@ -29,7 +29,7 @@ Document doc = new Document(MyDir + "Rendering.docx");
 // para modificar cómo ese método convierte el documento a .PDF.
 SaveOptions saveOptions = SaveOptions.CreateSaveOptions(SaveFormat.Pdf);
 
-// Establezca la propiedad "MemoryOptimization" en "true" para reducir la huella de memoria de las operaciones de guardado de documentos grandes
+// Establece la propiedad "MemoryOptimization" en "true" para reducir el consumo de memoria de las operaciones de guardado de documentos grandes
 // a costa de aumentar la duración de la operación.
 // Establezca la propiedad "MemoryOptimization" en "false" para guardar el documento como PDF normalmente.
 saveOptions.MemoryOptimization = memoryOptimization;

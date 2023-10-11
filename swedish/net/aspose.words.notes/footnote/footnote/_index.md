@@ -1,14 +1,14 @@
 ---
 title: Footnote.Footnote
 second_title: Aspose.Words för .NET API Referens
-description: Footnote byggare. Initierar en instans av Fotnot class.
+description: Footnote byggare. Initierar en instans avFootnote class.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.notes/footnote/footnote/
 ---
 ## Footnote constructor
 
-Initierar en instans av **Fotnot** class.
+Initierar en instans av[`Footnote`](../) class.
 
 ```csharp
 public Footnote(DocumentBase doc, FootnoteType footnoteType)
@@ -21,9 +21,9 @@ public Footnote(DocumentBase doc, FootnoteType footnoteType)
 
 ### Anmärkningar
 
-När **Fotnot** skapas, det tillhör det angivna dokumentet, men är inte ännu en del av dokumentet och **ParentNode** är inget.
+När[`Footnote`](../) skapas, det tillhör det angivna dokumentet, men är inte ännu en del av dokumentet och[`ParentNode`](../../../aspose.words/node/parentnode/) är`null`.
 
-Att lägga till **Fotnot** till dokumentet använd InsertAfter eller InsertBefore på stycket där du vill infoga fotnoten.
+Att lägga till[`Footnote`](../) till dokumentanvändningenNode) ellerNode) på stycket där du vill infoga fotnoten.
 
 ### Exempel
 
@@ -45,7 +45,7 @@ Footnote footnote = builder.InsertFootnote(FootnoteType.Footnote, "Footnote text
 // Detta är den första fotnoten, så referensmärket blir "1".
 Assert.True(footnote.IsAuto);
 
-// Vi kan flytta dokumentbyggaren inuti fotnoten för att redigera dess referenstext. 
+ // Vi kan flytta dokumentbyggaren inuti fotnoten för att redigera dess referenstext.
 builder.MoveTo(footnote.FirstParagraph);
 builder.Write(" More text added by a DocumentBuilder.");
 builder.MoveToDocumentEnd();

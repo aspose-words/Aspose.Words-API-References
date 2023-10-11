@@ -1,14 +1,14 @@
 ---
 title: DocumentBuilder.EndRow
 second_title: Aspose.Words لمراجع .NET API
-description: DocumentBuilder طريقة. إنهاء صف جدول في المستند.
+description: DocumentBuilder طريقة. إنهاء صف الجدول في المستند.
 type: docs
-weight: 220
+weight: 240
 url: /ar/net/aspose.words/documentbuilder/endrow/
 ---
 ## DocumentBuilder.EndRow method
 
-إنهاء صف جدول في المستند.
+إنهاء صف الجدول في المستند.
 
 ```csharp
 public Row EndRow()
@@ -20,9 +20,9 @@ public Row EndRow()
 
 ### ملاحظات
 
-مكالمة **EndRow** لإنهاء صف الجدول. إذا اتصلت[`InsertCell`](../insertcell/) على الفور بعد ذلك ، ثم يستمر الجدول في صف جديد.
+يتصل`EndRow` لإنهاء صف الجدول. إذا اتصلت[`InsertCell`](../insertcell/) على الفور بعد ذلك، ثم يستمر الجدول في صف جديد.
 
-استخدم ال[`RowFormat`](../rowformat/) خاصية لتحديد تنسيق الصف.
+استخدم ال[`RowFormat`](../rowformat/) الخاصية لتحديد تنسيق الصف.
 
 ### أمثلة
 
@@ -33,20 +33,20 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // أدخل خلية في العمود الأول من الصف الأول.
-// ستكون هذه الخلية الأولى في نطاق الخلايا المدمجة عموديًا.
+// ستكون هذه الخلية هي الأولى في نطاق من الخلايا المدمجة رأسياً.
 builder.InsertCell();
 builder.CellFormat.VerticalMerge = CellMerge.First;
 builder.Write("Text in merged cells.");
 
-// أدخل خلية في العمود الثاني من الصف الأول ، ثم قم بإنهاء الصف.
-// أيضًا ، قم بتكوين المنشئ لتعطيل الدمج الرأسي في الخلايا التي تم إنشاؤها.
+// أدخل خلية في العمود الثاني من الصف الأول، ثم قم بإنهاء الصف.
+// أيضًا، قم بتكوين المنشئ لتعطيل الدمج الرأسي في الخلايا التي تم إنشاؤها.
 builder.InsertCell();
 builder.CellFormat.VerticalMerge = CellMerge.None;
 builder.Write("Text in unmerged cell.");
 builder.EndRow();
 
-// أدخل خلية في العمود الأول من الصف الثاني. 
-// بدلاً من إضافة محتويات نصية ، سنقوم بدمج هذه الخلية مع الخلية الأولى التي أضفناها أعلاه مباشرةً.
+ // أدخل خلية في العمود الأول من الصف الثاني.
+// بدلاً من إضافة محتويات نصية، سنقوم بدمج هذه الخلية مع الخلية الأولى التي أضفناها أعلاه مباشرة.
 builder.InsertCell();
 builder.CellFormat.VerticalMerge = CellMerge.Previous;
 
@@ -60,7 +60,7 @@ builder.EndTable();
 doc.Save(ArtifactsDir + "CellFormat.VerticalMerge.docx");
 ```
 
-يوضح كيفية إنشاء جدول منسق بحجم 2 × 2.
+يوضح كيفية إنشاء جدول منسق 2x2.
 
 ```csharp
 Document doc = new Document();
@@ -74,8 +74,8 @@ builder.InsertCell();
 builder.Write("Row 1, cell 2.");
 builder.EndRow();
 
-// أثناء بناء الجدول ، سيقوم منشئ الوثيقة بتطبيق قيم خاصية RowFormat / CellFormat الحالية
-// إلى الصف / الخلية الحالية التي يوجد بها المؤشر وأي صفوف / خلايا جديدة أثناء إنشائها.
+// أثناء إنشاء الجدول، سيطبق منشئ المستندات قيم خاصية RowFormat/CellFormat الحالية الخاصة به
+// إلى الصف/الخلية الحالية التي يوجد بها المؤشر وأي صفوف/خلايا جديدة أثناء إنشائها.
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[0].CellFormat.VerticalAlignment);
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[1].CellFormat.VerticalAlignment);
 
@@ -90,7 +90,7 @@ builder.Write("Row 2, cell 2.");
 builder.EndRow();
 builder.EndTable();
 
-// لا تتأثر الصفوف والخلايا المضافة مسبقًا بأثر رجعي بالتغييرات في تنسيق المنشئ.
+// لا تتأثر الصفوف والخلايا المضافة مسبقًا بأثر رجعي بالتغييرات التي تطرأ على تنسيق المنشئ.
 Assert.AreEqual(0, table.Rows[0].RowFormat.Height);
 Assert.AreEqual(HeightRule.Auto, table.Rows[0].RowFormat.HeightRule);
 Assert.AreEqual(100, table.Rows[1].RowFormat.Height);
@@ -109,8 +109,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.StartTable();
 
-// تعيين خيارات تنسيق الجدول لمنشئ المستندات
-// سيطبقها على كل صف وخلية نضيفها معها.
+// ضبط خيارات تنسيق الجدول لمنشئ المستندات
+// سيتم تطبيقها على كل صف وخلية نضيفها معها.
 builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
 builder.CellFormat.ClearFormatting();
@@ -133,8 +133,8 @@ builder.InsertCell();
 builder.Write("Row 1, Col 2");
 builder.EndRow();
 
-// سيؤدي تغيير التنسيق إلى تطبيقه على الخلية الحالية ،
-// وأي خلايا جديدة ننشئها باستخدام المنشئ بعد ذلك.
+// سيؤدي تغيير التنسيق إلى تطبيقه على الخلية الحالية،
+// وأي خلايا جديدة نقوم بإنشائها مع المُنشئ بعد ذلك.
 // لن يؤثر هذا على الخلايا التي أضفناها سابقًا.
 builder.CellFormat.Shading.ClearFormatting();
 

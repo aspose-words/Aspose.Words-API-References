@@ -3,7 +3,7 @@ title: Enum PresetTexture
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Drawing.PresetTexture uppräkning. Anger textur som ska användas för att fylla en form.
 type: docs
-weight: 1050
+weight: 1180
 url: /sv/net/aspose.words.drawing/presettexture/
 ---
 ## PresetTexture enumeration

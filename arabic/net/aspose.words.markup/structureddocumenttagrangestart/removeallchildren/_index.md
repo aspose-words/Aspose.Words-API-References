@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTagRangeStart.RemoveAllChildren
 second_title: Aspose.Words لمراجع .NET API
-description: StructuredDocumentTagRangeStart طريقة. يزيل كافة العقد الموجودة بين عقدة بدء النطاق وعقدة نهاية النطاق.
+description: StructuredDocumentTagRangeStart طريقة. إزالة كافة العقد بين عقدة بداية النطاق وعقدة نهاية النطاق.
 type: docs
 weight: 230
 url: /ar/net/aspose.words.markup/structureddocumenttagrangestart/removeallchildren/
 ---
 ## StructuredDocumentTagRangeStart.RemoveAllChildren method
 
-يزيل كافة العقد الموجودة بين عقدة بدء النطاق وعقدة نهاية النطاق.
+إزالة كافة العقد بين عقدة بداية النطاق وعقدة نهاية النطاق.
 
 ```csharp
 public void RemoveAllChildren()
@@ -16,9 +16,10 @@ public void RemoveAllChildren()
 
 ### أمثلة
 
-يوضح كيفية إنشاء / إزالة علامة مستند منظم ومحتوياته.
+يوضح كيفية إنشاء/إزالة علامة المستند المنظمة ومحتواها.
 
 ```csharp
+public void SdtRangeExtendedMethods()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -27,7 +28,7 @@ public void RemoveAllChildren()
 
     InsertStructuredDocumentTagRanges(doc, out StructuredDocumentTagRangeStart rangeStart);
 
-    // يزيل علامة المستند المهيكلة النطاق ، لكنه يحتفظ بالمحتوى بالداخل.
+    // يزيل علامة المستند المنظمة ذات النطاق، لكنه يحتفظ بالمحتوى بداخله.
     rangeStart.RemoveSelfOnly();
 
     rangeStart = (StructuredDocumentTagRangeStart)doc.GetChild(
@@ -45,7 +46,7 @@ public void RemoveAllChildren()
     Node paragraphNode = rangeStart.LastOrDefault();
     Assert.AreEqual("StructuredDocumentTag element", paragraphNode?.GetText().Trim());
 
-    // يزيل علامة المستند المهيكلة النطاق والمحتوى بالداخل.
+    // يزيل علامة المستند المنظمة والمحتويات الموجودة بداخله.
     rangeStart.RemoveAllChildren();
 
     paragraphNode = rangeStart.LastOrDefault();

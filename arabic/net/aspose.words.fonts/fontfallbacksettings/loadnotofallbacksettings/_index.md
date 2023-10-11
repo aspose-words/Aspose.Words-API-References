@@ -16,7 +16,7 @@ public void LoadNotoFallbackSettings()
 
 ### أمثلة
 
-يوضح كيفية إضافة الإعدادات الاحتياطية للخط المحددة مسبقًا لخطوط Google Noto.
+يوضح كيفية إضافة إعدادات احتياطية محددة مسبقًا لخطوط Google Noto.
 
 ```csharp
 FontSettings fontSettings = new FontSettings();
@@ -26,9 +26,9 @@ FontSettings fontSettings = new FontSettings();
 // https://www.google.com/get/noto/#sans-lgc
 fontSettings.SetFontsFolder(FontsDir + "Noto", false);
 
- // لاحظ أن الإعدادات المحددة مسبقًا لا تستخدم سوى خطوط Sans-style Noto ذات الوزن العادي.
-// تستخدم بعض خطوط Noto ميزات طباعة متقدمة.
-// قد لا يتم عرض الخطوط التي تتميز بطباعة متقدمة بشكل صحيح نظرًا لأن Aspose.word لا تدعمها حاليًا.
+ // لاحظ أن الإعدادات المحددة مسبقًا تستخدم فقط خطوط Sans-style Noto ذات الوزن العادي.
+// تستخدم بعض خطوط Noto ميزات الطباعة المتقدمة.
+// الخطوط التي تتميز بطباعة متقدمة قد لا يتم عرضها بشكل صحيح لأن Aspose.Words لا تدعمها حاليًا.
 fontSettings.FallbackSettings.LoadNotoFallbackSettings();
 fontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = false;
 fontSettings.SubstitutionSettings.DefaultFontSubstitution.DefaultFontName = "Noto Sans";
@@ -46,18 +46,18 @@ FontSettings fontSettings = new FontSettings();
 doc.FontSettings = fontSettings;
 FontFallbackSettings fontFallbackSettings = fontSettings.FallbackSettings;
 
-// حفظ نظام الخطوط الاحتياطية الافتراضي في مستند XML.
-// على سبيل المثال ، يحتوي أحد العناصر على قيمة "0C00-0C7F" لـ Range وقيمة "Vani" المقابلة لـ FallbackFonts.
-// هذا يعني أنه إذا كان الخط الذي يستخدمه بعض النص لا يحتوي على رموز لكتلة Unicode 0x0C00-0x0C7F ،
-// سيستخدم النظام الاحتياطي رموزًا من بديل الخط "Vani".
+// احفظ نظام الخطوط الاحتياطية الافتراضي في مستند XML.
+// على سبيل المثال، أحد العناصر له قيمة "0C00-0C7F" للنطاق وقيمة "Vani" المقابلة لـ FallbackFonts.
+// هذا يعني أنه إذا كان الخط الذي يستخدمه بعض النص لا يحتوي على رموز لكتلة Unicode 0x0C00-0x0C7F،
+// سيستخدم المخطط الاحتياطي رموزًا من بديل الخط "Vani".
 fontFallbackSettings.Save(ArtifactsDir + "FontSettings.FallbackSettings.Default.xml");
 
-// يوجد أدناه مخططان احتياطيان محددان مسبقًا للخط يمكننا الاختيار من بينهما.
-// 1 - استخدم نظام Microsoft Office الافتراضي ، وهو نفس النظام الافتراضي:
+// يوجد أدناه نظامان احتياطيان محددان مسبقًا للخطوط يمكننا الاختيار من بينهما.
+// 1 - استخدم نظام Microsoft Office الافتراضي، وهو نفس النظام الافتراضي:
 fontFallbackSettings.LoadMsOfficeFallbackSettings();
 fontFallbackSettings.Save(ArtifactsDir + "FontSettings.FallbackSettings.LoadMsOfficeFallbackSettings.xml");
 
-// 2 - استخدم النظام المبني من خطوط Google Noto:
+// 2 - استخدم المخطط المبني من خطوط Google Noto:
 fontFallbackSettings.LoadNotoFallbackSettings();
 fontFallbackSettings.Save(ArtifactsDir + "FontSettings.FallbackSettings.LoadNotoFallbackSettings.xml");
 ```

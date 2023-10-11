@@ -16,7 +16,7 @@ public double LineWidth { get; set; }
 
 ### Remarques
 
-Si vous définissez une largeur de ligne supérieure à zéro lorsque le style de ligne est aucun, le style de ligne est automatiquement remplacé par une seule ligne.
+Si vous définissez une largeur de ligne supérieure à zéro alors que le style de ligne est aucun, le style de ligne is est automatiquement remplacé par une seule ligne.
 
 ### Exemples
 

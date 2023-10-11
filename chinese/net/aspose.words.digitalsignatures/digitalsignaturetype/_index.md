@@ -3,7 +3,7 @@ title: Enum DigitalSignatureType
 second_title: Aspose.Words for .NET API 参考
 description: Aspose.Words.DigitalSignatures.DigitalSignatureType 枚举. 指定数字签名的类型
 type: docs
-weight: 390
+weight: 400
 url: /zh/net/aspose.words.digitalsignatures/digitalsignaturetype/
 ---
 ## DigitalSignatureType enumeration
@@ -19,28 +19,28 @@ public enum DigitalSignatureType
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | Unknown | `0` | 表示错误，未知的数字签名类型。 |
-| CryptoApi | `1` | Microsoft Word 97-2003 .DOC 二进制文档中使用的 Crypto API 签名方法。 |
+| CryptoApi | `1` | Microsoft Word 97-2003 .DOC 二进制文档中使用的加密 API 签名方法。 |
 | XmlDsig | `2` | OOXML 和 OpenDocument 文档中使用的 XmlDsig 签名方法。 |
 
 ### 例子
 
-显示如何使用 X.509 证书签署文档。
+演示如何使用 X.509 证书签署文档。
 
 ```csharp
 // 验证文档是否未签名。
 Assert.False(FileFormatUtil.DetectFileFormat(MyDir + "Document.docx").HasDigitalSignature);
 
-// 从 PKCS12 文件创建一个 CertificateHolder 对象，我们将使用它来签署文档。
+// 从 PKCS12 文件创建一个 CertificateHolder 对象，我们将用它来签署文档。
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw", null);
 
-// 将文档的签名副本保存到本地文件系统有两种方法：
-// 1 - 通过本地系统文件名指定一个文档，并将签名副本保存在另一个文件名指定的位置。
+// 有两种方法将文档的签名副本保存到本地文件系统：
+// 1 - 通过本地系统文件名指定文档，并将签名副本保存在另一个文件名指定的位置。
 DigitalSignatureUtil.Sign(MyDir + "Document.docx", ArtifactsDir + "Document.DigitalSignature.docx", 
     certificateHolder, new SignOptions() { SignTime = DateTime.Now } );
 
 Assert.True(FileFormatUtil.DetectFileFormat(ArtifactsDir + "Document.DigitalSignature.docx").HasDigitalSignature);
 
-// 2 - 从流中获取文档并将签名副本保存到另一个流。
+// 2 - 从流中获取文档并将签名副本保存到另一个流中。
 using (FileStream inDoc = new FileStream(MyDir + "Document.docx", FileMode.Open))
 {
     using (FileStream outDoc = new FileStream(ArtifactsDir + "Document.DigitalSignature.docx", FileMode.Create))

@@ -1,14 +1,14 @@
 ---
 title: HtmlFixedSaveOptions.ExportEmbeddedImages
 second_title: Aspose.Words لمراجع .NET API
-description: HtmlFixedSaveOptions ملكية. يحدد ما إذا كان يجب تضمين الصور في مستند Html بتنسيق Base64 . ملاحظة يمكن أن يؤدي إعداد هذه العلامة إلى زيادة حجم ملف Html الناتج بشكل كبير.
+description: HtmlFixedSaveOptions ملكية. يحدد ما إذا كان يجب تضمين الصور في مستند Html بتنسيق Base64. ملاحظة يمكن أن يؤدي تعيين هذه العلامة إلى زيادة حجم ملف Html الناتج بشكل ملحوظ.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.saving/htmlfixedsaveoptions/exportembeddedimages/
 ---
 ## HtmlFixedSaveOptions.ExportEmbeddedImages property
 
-يحدد ما إذا كان يجب تضمين الصور في مستند Html بتنسيق Base64 . ملاحظة يمكن أن يؤدي إعداد هذه العلامة إلى زيادة حجم ملف Html الناتج بشكل كبير.
+يحدد ما إذا كان يجب تضمين الصور في مستند Html بتنسيق Base64. ملاحظة: يمكن أن يؤدي تعيين هذه العلامة إلى زيادة حجم ملف Html الناتج بشكل ملحوظ.
 
 ```csharp
 public bool ExportEmbeddedImages { get; set; }
@@ -21,12 +21,12 @@ public bool ExportEmbeddedImages { get; set; }
 ```csharp
 Document doc = new Document(MyDir + "Images.docx");
 
-// عندما نقوم بتصدير مستند يحتوي على صور مضمنة إلى .html ،
-// Aspose.Words يمكن أن تضع الصور في موقعين محتملين.
-// سيؤدي تعيين علامة "ExportEmbeddedImages" على "true" إلى تخزين البيانات الأولية
-// لجميع الصور داخل مستند HTML الناتج ، في السمة "src" في < image > العلامات.
-// سيؤدي تعيين هذه العلامة إلى "خطأ" إلى إنشاء ملف صورة في نظام الملفات المحلي لكل صورة ،
-// وتخزين كل هذه الملفات في مجلد منفصل.
+// عندما نقوم بتصدير مستند يحتوي على صور مضمنة إلى .html،
+// يمكن لـ Aspose.Words وضع الصور في موقعين محتملين.
+// سيؤدي تعيين علامة "ExportEmbeddedImages" على "صحيح" إلى تخزين البيانات الأولية
+// لجميع الصور الموجودة في مستند HTML الناتج، في السمة "src" الخاصة بـ <image> العلامات.
+// سيؤدي تعيين هذه العلامة إلى "خطأ" إلى إنشاء ملف صورة في نظام الملفات المحلي لكل صورة،
+// وقم بتخزين كل هذه الملفات في مجلد منفصل.
 HtmlFixedSaveOptions htmlFixedSaveOptions = new HtmlFixedSaveOptions
 {
     ExportEmbeddedImages = exportImages

@@ -1,14 +1,14 @@
 ---
 title: DocumentBuilder.MoveToMergeField
 second_title: Справочник по API Aspose.Words для .NET
-description: DocumentBuilder метод. Перемещает курсор в положение сразу за указанным полем слияния и удаляет поле слияния.
+description: DocumentBuilder метод. Перемещает курсор в позицию сразу за указанным полем слияния и удаляет поле слияния.
 type: docs
-weight: 530
+weight: 560
 url: /ru/net/aspose.words/documentbuilder/movetomergefield/
 ---
 ## MoveToMergeField(string) {#movetomergefield}
 
-Перемещает курсор в положение сразу за указанным полем слияния и удаляет поле слияния.
+Перемещает курсор в позицию сразу за указанным полем слияния и удаляет поле слияния.
 
 ```csharp
 public bool MoveToMergeField(string fieldName)
@@ -16,11 +16,11 @@ public bool MoveToMergeField(string fieldName)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| fieldName | String | Нечувствительное к регистру имя поля слияния. |
+| fieldName | String | Нечувствительное к регистру имя поля слияния почты. |
 
 ### Возвращаемое значение
 
-Истинно, если поле слияния было найдено и курсор был перемещен; ложно в противном случае.
+`истинный` если поле слияния было найдено и курсор был перемещен;`ЛОЖЬ` в противном случае.
 
 ### Примечания
 
@@ -28,14 +28,14 @@ public bool MoveToMergeField(string fieldName)
 
 ### Примеры
 
-Показывает, как заполнить поля MERGEFIELD данными с помощью построителя документов вместо слияния.
+Показывает, как заполнить поля MERGEFIELD данными с помощью построителя документов вместо слияния почты.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Вставляем несколько MERGEFIELDS, которые принимают данные из столбцов с тем же именем в источнике данных во время слияния почты,
-// и затем заполнить их вручную.
+// Вставляем несколько MERGEFIELDS, которые принимают данные из одноименных столбцов в источнике данных во время слияния почты,
+// а затем заполняем их вручную.
 builder.InsertField(" MERGEFIELD Chairman ");
 builder.InsertField(" MERGEFIELD ChiefFinancialOfficer ");
 builder.InsertField(" MERGEFIELD ChiefTechnologyOfficer ");
@@ -58,12 +58,13 @@ doc.Save(ArtifactsDir + "DocumentBuilder.FillMergeFields.docx");
 Показывает, как вставлять поля формы флажка в поля MERGEFIELD в качестве данных слияния во время слияния почты.
 
 ```csharp
+public void InsertCheckBox()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Используйте MERGEFIELD с тегами "TableStart"/"TableEnd" для определения области слияния почты
-    // который принадлежит источнику данных с именем "StudentCourse" и имеет поле MERGEFIELD, которое принимает данные из столбца с именем "CourseName".
+    // Используйте поля MERGEFIELD с тегами "TableStart"/"TableEnd" для определения региона слияния почты.
+    // который принадлежит источнику данных с именем «StudentCourse» и имеет поле MERGEFIELD, которое принимает данные из столбца с именем «CourseName».
     builder.StartTable();
     builder.InsertCell();
     builder.InsertField(" MERGEFIELD  TableStart:StudentCourse ");
@@ -79,6 +80,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.FillMergeFields.docx");
 
     doc.MailMerge.ExecuteWithRegions(dataTable);
     doc.Save(ArtifactsDir + "MailMergeEvent.InsertCheckBox.docx");
+}
 
 /// <summary>
 /// При обнаружении MERGEFIELD с определенным именем вставляет поле формы флажка вместо текста данных слияния.
@@ -100,7 +102,7 @@ private class HandleMergeFieldInsertCheckBox : IFieldMergingCallback
 
             string fieldValue = args.FieldValue.ToString();
 
-            // В этом случае для каждой записи с индексом 'n' соответствующее значение поля равно "Курс n".
+            // В этом случае для каждого индекса записи «n» соответствующее значение поля — «Курс n».
             Assert.AreEqual(char.GetNumericValue(fieldValue[7]), args.RecordIndex);
 
             builder.Write(fieldValue);
@@ -152,17 +154,17 @@ public bool MoveToMergeField(string fieldName, bool isAfter, bool isDeleteField)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| fieldName | String | Нечувствительное к регистру имя поля слияния. |
-| isAfter | Boolean | При значении true курсор перемещается после конца поля. При значении false курсор перемещается перед началом поля. |
-| isDeleteField | Boolean | При значении true удаляет поле слияния. |
+| fieldName | String | Нечувствительное к регистру имя поля слияния почты. |
+| isAfter | Boolean | Когда`истинный` , перемещает курсор после конца поля. Когда`ЛОЖЬ` , перемещает курсор до начала поля. |
+| isDeleteField | Boolean | Когда`истинный`, удаляет поле слияния. |
 
 ### Возвращаемое значение
 
-Истинно, если поле слияния было найдено и курсор был перемещен; ложно в противном случае.
+`истинный` если поле слияния было найдено и курсор был перемещен;`ЛОЖЬ` в противном случае.
 
 ### Примеры
 
-Показывает, как вставлять поля и перемещать к ним курсор конструктора документов.
+Показывает, как вставлять поля и перемещать к ним курсор построителя документов.
 
 ```csharp
 Document doc = new Document();
@@ -170,17 +172,17 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.InsertField(@"MERGEFIELD MyMergeField1 \* MERGEFORMAT");
 builder.InsertField(@"MERGEFIELD MyMergeField2 \* MERGEFORMAT");
 
-// Переместите курсор на первое поле MERGEFIELD.
+// Перемещаем курсор к первому MERGEFIELD.
 builder.MoveToMergeField("MyMergeField1", true, false);
 
-// Обратите внимание, что курсор помещается сразу после первого поля MERGEFIELD и перед вторым.
+// Обратите внимание, что курсор размещается сразу после первого поля MERGEFIELD и перед вторым.
 Assert.AreEqual(doc.Range.Fields[1].Start, builder.CurrentNode);
 Assert.AreEqual(doc.Range.Fields[0].End, builder.CurrentNode.PreviousSibling);
 
-// Если мы хотим отредактировать код поля или содержимое поля с помощью конструктора,
+// Если мы хотим отредактировать код или содержимое поля с помощью построителя,
 // его курсор должен находиться внутри поля.
-// Чтобы поместить его в поле, нам нужно вызвать метод MoveTo построителя документа
-// и передаем начальный узел поля или разделитель в качестве аргумента.
+// Чтобы поместить его внутри поля, нам нужно будет вызвать метод MoveTo конструктора документов
+// и передаем начало поля или узел-разделитель в качестве аргумента.
 builder.Write(" Text between our merge fields. ");
 
 doc.Save(ArtifactsDir + "DocumentBuilder.MergeFields.docx");

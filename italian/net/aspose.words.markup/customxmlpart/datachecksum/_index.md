@@ -1,14 +1,14 @@
 ---
 title: CustomXmlPart.DataChecksum
 second_title: Aspose.Words per .NET API Reference
-description: CustomXmlPart proprietà. Specifica un checksum CRC Cyclic Redundancy Check delData contenuto.
+description: CustomXmlPart proprietà. Specifica un checksum del controllo di ridondanza ciclico CRC diData contenuto.
 type: docs
 weight: 30
 url: /it/net/aspose.words.markup/customxmlpart/datachecksum/
 ---
 ## CustomXmlPart.DataChecksum property
 
-Specifica un checksum CRC (Cyclic Redundancy Check) del[`Data`](../data/) contenuto.
+Specifica un checksum del controllo di ridondanza ciclico (CRC) di[`Data`](../data/) contenuto.
 
 ```csharp
 public long DataChecksum { get; }
@@ -24,7 +24,7 @@ Document doc = new Document();
 StructuredDocumentTag richText = new StructuredDocumentTag(doc, SdtType.RichText, MarkupLevel.Block);
 doc.FirstSection.Body.AppendChild(richText);
 
-// Il checksum è di sola lettura e viene calcolato utilizzando i dati della parte di dati XML personalizzata corrispondente.
+// Il checksum è di sola lettura e calcolato utilizzando i dati della corrispondente parte di dati XML personalizzata.
 richText.XmlMapping.SetMapping(doc.CustomXmlParts.Add(Guid.NewGuid().ToString(),
     "<root><text>ContentControl</text></root>"), "/root/text", "");
 
@@ -37,7 +37,7 @@ richText.XmlMapping.SetMapping(doc.CustomXmlParts.Add(Guid.NewGuid().ToString(),
 long updatedChecksum = richText.XmlMapping.CustomXmlPart.DataChecksum;
 Console.WriteLine(updatedChecksum);
 
-// Abbiamo modificato l'XmlPart del tag e il checksum è stato aggiornato in fase di esecuzione.
+// Abbiamo modificato la XmlPart del tag e il checksum è stato aggiornato in fase di runtime.
 Assert.AreNotEqual(checksum, updatedChecksum);
 ```
 

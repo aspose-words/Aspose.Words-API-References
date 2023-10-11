@@ -3,7 +3,7 @@ title: ShapeBase.Left
 second_title: Aspose.Words för .NET API Referens
 description: ShapeBase fast egendom. Hämtar eller ställer in positionen för den vänstra kanten av formens innehållsblock.
 type: docs
-weight: 360
+weight: 370
 url: /sv/net/aspose.words.drawing/shapebase/left/
 ---
 ## ShapeBase.Left property

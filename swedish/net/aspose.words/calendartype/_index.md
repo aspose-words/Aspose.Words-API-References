@@ -3,7 +3,7 @@ title: Enum CalendarType
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.CalendarType uppräkning. Anger typen av en kalender.
 type: docs
-weight: 180
+weight: 190
 url: /sv/net/aspose.words/calendartype/
 ---
 ## CalendarType enumeration
@@ -29,6 +29,7 @@ public enum CalendarType
 Visar hur man automatiskt tillämpar ett anpassat format på fältresultat när fälten uppdateras.
 
 ```csharp
+public void FieldResultFormatting()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);

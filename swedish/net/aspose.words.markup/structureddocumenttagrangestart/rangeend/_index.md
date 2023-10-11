@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTagRangeStart.RangeEnd
 second_title: Aspose.Words för .NET API Referens
-description: StructuredDocumentTagRangeStart fast egendom. Anger slutet av intervallet om StructuredDocumentTag är en strukturerad dokumenttagg med intervall. returnerar annars null.
+description: StructuredDocumentTagRangeStart fast egendom. Anger slutet av intervallet omStructuredDocumentTag är en strukturerad dokumenttagg med intervall. Returnerar annarsnull .
 type: docs
 weight: 130
 url: /sv/net/aspose.words.markup/structureddocumenttagrangestart/rangeend/
 ---
 ## StructuredDocumentTagRangeStart.RangeEnd property
 
-Anger slutet av intervallet om StructuredDocumentTag är en strukturerad dokumenttagg med intervall. returnerar annars null.
+Anger slutet av intervallet om[`StructuredDocumentTag`](../../structureddocumenttag/) är en strukturerad dokumenttagg med intervall. Returnerar annars`null` .
 
 ```csharp
 public StructuredDocumentTagRangeEnd RangeEnd { get; }

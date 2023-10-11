@@ -1,14 +1,14 @@
 ---
 title: OdsoRecipientData.Active
 second_title: Aspose.Words für .NET-API-Referenz
-description: OdsoRecipientData eigendom. Gibt an ob der Datensatz aus der Datenquelle beim Seriendruck in ein Dokument importiert werden soll. Der Standardwert istStimmt .
+description: OdsoRecipientData eigendom. Gibt an ob der Datensatz aus der Datenquelle in ein Dokument importiert werden soll wenn der Seriendruck durchgeführt wird. Der Standardwert istWAHR .
 type: docs
 weight: 20
 url: /de/net/aspose.words.settings/odsorecipientdata/active/
 ---
 ## OdsoRecipientData.Active property
 
-Gibt an, ob der Datensatz aus der Datenquelle beim Seriendruck in ein Dokument importiert werden soll. Der Standardwert ist`Stimmt` .
+Gibt an, ob der Datensatz aus der Datenquelle in ein Dokument importiert werden soll, wenn der Seriendruck durchgeführt wird. Der Standardwert ist`WAHR` .
 
 ```csharp
 public bool Active { get; set; }
@@ -16,7 +16,7 @@ public bool Active { get; set; }
 
 ### Beispiele
 
-Zeigt, wie auf die Datensammlung zugegriffen wird, die angibt, welche Zusammenführungsdatenquellen-Datensätze bei einem Seriendruck ausgeschlossen werden.
+Zeigt, wie auf die Datensammlung zugegriffen wird, die angibt, welche Zusammenführungsdatenquellendatensätze von einem Serienbrief ausgeschlossen werden.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
@@ -41,7 +41,7 @@ using (IEnumerator<OdsoRecipientData> enumerator = dataCollection.GetEnumerator(
 // Wir können die Elemente in dieser Sammlung klonen.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// Wir können auch einzelne Elemente entfernen oder die gesamte Sammlung auf einmal löschen.
+// Wir können auch Elemente einzeln entfernen oder die gesamte Sammlung auf einmal löschen.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(69, dataCollection.Count);

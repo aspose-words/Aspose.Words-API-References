@@ -3,7 +3,7 @@ title: Enum WatermarkType
 second_title: Aspose.Words لمراجع .NET API
 description: Aspose.Words.WatermarkType تعداد. يحدد نوع العلامة المائية.
 type: docs
-weight: 6380
+weight: 6690
 url: /ar/net/aspose.words/watermarktype/
 ---
 ## WatermarkType enumeration
@@ -20,7 +20,7 @@ public enum WatermarkType
 | --- | --- | --- |
 | Text | `0` | يشير إلى أنه سيتم استخدام النص كعلامة مائية. |
 | Image | `1` | يشير إلى أنه سيتم استخدام الصورة كعلامة مائية. |
-| None | `2` | يشير إلى عدم تعيين العلامة المائية . |
+| None | `2` | يشير إلى عدم تعيين العلامة المائية. |
 
 ### أمثلة
 
@@ -29,10 +29,10 @@ public enum WatermarkType
 ```csharp
 Document doc = new Document();
 
-// أضف علامة مائية بنص عادي.
+// أضف علامة مائية نصية عادية.
 doc.Watermark.SetText("Aspose Watermark");
 
-// إذا كنا نرغب في تحرير تنسيق النص باستخدامه كعلامة مائية ،
+// إذا أردنا تعديل تنسيق النص باستخدامه كعلامة مائية،
 // يمكننا القيام بذلك عن طريق تمرير كائن TextWatermarkOptions عند إنشاء العلامة المائية.
 TextWatermarkOptions textWatermarkOptions = new TextWatermarkOptions();
 textWatermarkOptions.FontFamily = "Arial";

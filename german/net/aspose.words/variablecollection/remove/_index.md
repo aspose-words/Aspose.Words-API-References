@@ -16,7 +16,7 @@ public void Remove(string name)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| name | String | Der Name der Variable ohne Berücksichtigung der Groß-/Kleinschreibung. |
+| name | String | Der Name der Variablen, bei dem die Groß-/Kleinschreibung nicht beachtet wird. |
 
 ### Beispiele
 
@@ -26,7 +26,7 @@ Zeigt, wie mit der Variablensammlung eines Dokuments gearbeitet wird.
 Document doc = new Document();
 VariableCollection variables = doc.Variables;
 
-// Jedes Dokument hat eine Sammlung von Schlüssel/Wert-Paar-Variablen, denen wir Elemente hinzufügen können.
+// Jedes Dokument verfügt über eine Sammlung von Schlüssel/Wert-Paarvariablen, zu denen wir Elemente hinzufügen können.
 variables.Add("Home address", "123 Main St.");
 variables.Add("City", "London");
 variables.Add("Bedrooms", "3");
@@ -44,7 +44,7 @@ Assert.AreEqual("123 Main St.", field.Result);
 // Durch Zuweisen von Werten zu vorhandenen Schlüsseln werden diese aktualisiert.
 variables.Add("Home address", "456 Queen St.");
 
-// Wir müssen dann DOCVARIABLE-Felder aktualisieren, um sicherzustellen, dass sie einen aktuellen Wert anzeigen.
+// Wir müssen dann die DOCVARIABLE-Felder aktualisieren, um sicherzustellen, dass sie einen aktuellen Wert anzeigen.
 Assert.AreEqual("123 Main St.", field.Result);
 
 field.Update();
@@ -60,12 +60,12 @@ Assert.AreEqual(0, variables.IndexOfKey("Bedrooms"));
 Assert.AreEqual(1, variables.IndexOfKey("City"));
 Assert.AreEqual(2, variables.IndexOfKey("Home address"));
 
-// Aufzählung über die Sammlung von Variablen.
+// Über die Sammlung von Variablen aufzählen.
 using (IEnumerator<KeyValuePair<string, string>> enumerator = doc.Variables.GetEnumerator())
     while (enumerator.MoveNext())
         Console.WriteLine($"Name: {enumerator.Current.Key}, Value: {enumerator.Current.Value}");
 
-// Nachfolgend finden Sie drei Möglichkeiten, Dokumentvariablen aus einer Sammlung zu entfernen.
+// Im Folgenden finden Sie drei Möglichkeiten zum Entfernen von Dokumentvariablen aus einer Sammlung.
 // 1 - Nach Namen:
 variables.Remove("City");
 
@@ -76,7 +76,7 @@ variables.RemoveAt(1);
 
 Assert.False(variables.Contains("Home address"));
 
-// 3 - Löschen Sie die gesamte Sammlung auf einmal:
+// 3 – Die gesamte Sammlung auf einmal löschen:
 variables.Clear();
 
 Assert.That(variables, Is.Empty);

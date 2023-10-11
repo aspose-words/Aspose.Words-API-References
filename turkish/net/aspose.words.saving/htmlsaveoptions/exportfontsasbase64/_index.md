@@ -1,14 +1,14 @@
 ---
 title: HtmlSaveOptions.ExportFontsAsBase64
 second_title: Aspose.Words for .NET API Referansı
-description: HtmlSaveOptions mülk. Yazı tipi kaynaklarının Base64 kodlamasında HTMLye gömülmesi gerekip gerekmediğini belirtir. Varsayılanyanlış .
+description: HtmlSaveOptions mülk. Yazı tipi kaynaklarının Base64 kodlamasında HTMLye gömülmesi gerekip gerekmediğini belirtir. VarsayılanYANLIŞ .
 type: docs
-weight: 160
+weight: 150
 url: /tr/net/aspose.words.saving/htmlsaveoptions/exportfontsasbase64/
 ---
 ## HtmlSaveOptions.ExportFontsAsBase64 property
 
-Yazı tipi kaynaklarının Base64 kodlamasında HTML'ye gömülmesi gerekip gerekmediğini belirtir. Varsayılan`yanlış` .
+Yazı tipi kaynaklarının Base64 kodlamasında HTML'ye gömülmesi gerekip gerekmediğini belirtir. Varsayılan:`YANLIŞ` .
 
 ```csharp
 public bool ExportFontsAsBase64 { get; set; }
@@ -16,11 +16,11 @@ public bool ExportFontsAsBase64 { get; set; }
 
 ### Notlar
 
-Varsayılan olarak, yazı tipleri ayrı dosyalara yazılır. Bu seçenek olarak ayarlanırsa`doğru`, yazı tipleri, Base64 kodlamasında belgenin CSS'sine gömülü olacaktır.
+Varsayılan olarak yazı tipleri ayrı dosyalara yazılır. Bu seçenek olarak ayarlanmışsa`doğru`, yazı tipleri Base64 kodlamasında belgenin CSS'sine gömülü olacaktır.
 
 ### Örnekler
 
-Kaydedilmiş bir HTML belgesinin içine yazı tiplerinin nasıl gömüleceğini gösterir.
+Kaydedilmiş bir HTML belgesinin içine yazı tiplerinin nasıl yerleştirileceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

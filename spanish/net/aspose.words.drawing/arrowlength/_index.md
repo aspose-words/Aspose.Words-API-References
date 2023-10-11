@@ -3,7 +3,7 @@ title: Enum ArrowLength
 second_title: Referencia de API de Aspose.Words para .NET
 description: Aspose.Words.Drawing.ArrowLength enumeración. Longitud de la flecha al final de una línea.
 type: docs
-weight: 470
+weight: 480
 url: /es/net/aspose.words.drawing/arrowlength/
 ---
 ## ArrowLength enumeration
@@ -31,8 +31,8 @@ Muestra para crear una variedad de formas.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// A continuación hay cuatro ejemplos de formas que podemos insertar en nuestros documentos.
-// 1 - Línea roja punteada, horizontal, semitransparente
+// A continuación se muestran cuatro ejemplos de formas que podemos insertar en nuestros documentos.
+// 1 - Línea roja punteada, horizontal y semitransparente
 // con una flecha en el extremo izquierdo y un diamante en el extremo derecho:
 Shape arrow = new Shape(doc, ShapeType.Line);
 arrow.Width = 200;
@@ -70,7 +70,7 @@ filledInArrow.Fill.Visible = true;
 
 builder.InsertNode(filledInArrow);
 
-// 4 - Flecha con una orientación invertida rellena con el logotipo de Aspose:
+// 4 - Flecha con orientación invertida rellena con el logotipo de Aspose:
 Shape filledInArrowImg = new Shape(doc, ShapeType.Arrow);
 filledInArrowImg.Width = 200;
 filledInArrowImg.Height = 40;
@@ -82,8 +82,8 @@ byte[] imageBytes = File.ReadAllBytes(ImageDir + "Logo.jpg");
 using (MemoryStream stream = new MemoryStream(imageBytes))
 {
     Image image = Image.FromStream(stream);
-    // Cuando cambiamos la orientación de nuestra flecha, también cambiamos la imagen que contiene la flecha.
-    // Voltea la imagen hacia el otro lado para cancelar esto antes de obtener la forma para mostrarla.
+    // Cuando invertimos la orientación de nuestra flecha, también invertimos la imagen que contiene la flecha.
+    // Voltear la imagen hacia el otro lado para cancelar esto antes de obtener la forma para mostrarla.
     image.RotateFlip(RotateFlipType.RotateNoneFlipXY);
 
     filledInArrowImg.ImageData.SetImage(image);

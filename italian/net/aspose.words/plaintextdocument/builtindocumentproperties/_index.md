@@ -16,7 +16,7 @@ public BuiltInDocumentProperties BuiltInDocumentProperties { get; }
 
 ### Esempi
 
-Mostra come caricare il contenuto di un documento di Microsoft Word in testo normale e quindi accedere alle proprietà integrate del documento originale.
+Mostra come caricare il contenuto di un documento Microsoft Word in testo normale e quindi accedere alle proprietà integrate del documento originale.
 
 ```csharp
 Document doc = new Document();

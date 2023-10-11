@@ -1,14 +1,14 @@
 ---
 title: Document.UpdateThumbnail
 second_title: Aspose.Words لمراجع .NET API
-description: Document طريقة. التحديثاتThumbnail من المستند وفقًا للخيارات المحددة.
+description: Document طريقة. التحديثاتThumbnail للمستند حسب الخيارات المحددة.
 type: docs
-weight: 760
+weight: 800
 url: /ar/net/aspose.words/document/updatethumbnail/
 ---
 ## UpdateThumbnail(ThumbnailGeneratingOptions) {#updatethumbnail_1}
 
-التحديثات[`Thumbnail`](../../../aspose.words.properties/builtindocumentproperties/thumbnail/) من المستند وفقًا للخيارات المحددة.
+التحديثات[`Thumbnail`](../../../aspose.words.properties/builtindocumentproperties/thumbnail/) للمستند حسب الخيارات المحددة.
 
 ```csharp
 public void UpdateThumbnail(ThumbnailGeneratingOptions options)
@@ -20,7 +20,7 @@ public void UpdateThumbnail(ThumbnailGeneratingOptions options)
 
 ### ملاحظات
 
-ملف[`ThumbnailGeneratingOptions`](../../../aspose.words.rendering/thumbnailgeneratingoptions/) يسمح لك بتحديد مصدر الصورة المصغرة والحجم وخيارات أخرى.
+ال[`ThumbnailGeneratingOptions`](../../../aspose.words.rendering/thumbnailgeneratingoptions/) يسمح لك بتحديد مصدر الصورة المصغرة والحجم والخيارات الأخرى. إذا فشلت محاولة إنشاء صورة مصغرة، فلا يغير واحدة.
 
 ### أمثلة
 
@@ -38,7 +38,7 @@ builder.InsertImage(ImageDir + "Logo.jpg");
 doc.UpdateThumbnail();
 doc.Save(ArtifactsDir + "Document.UpdateThumbnail.FirstPage.epub");
 
-// 2 - استخدم أول صورة موجودة في المستند:
+// 2 - استخدم الصورة الأولى الموجودة في المستند:
 ThumbnailGeneratingOptions options = new ThumbnailGeneratingOptions();
 options.ThumbnailSize = new Size(400, 400);
 options.GenerateFromFirstPage = false;
@@ -58,7 +58,7 @@ doc.Save(ArtifactsDir + "Document.UpdateThumbnail.FirstImage.epub");
 
 ## UpdateThumbnail() {#updatethumbnail}
 
-التحديثات[`Thumbnail`](../../../aspose.words.properties/builtindocumentproperties/thumbnail/) من المستند باستخدام الخيارات الافتراضية.
+التحديثات[`Thumbnail`](../../../aspose.words.properties/builtindocumentproperties/thumbnail/) للمستند باستخدام الخيارات الافتراضية.
 
 ```csharp
 public void UpdateThumbnail()
@@ -80,7 +80,7 @@ builder.InsertImage(ImageDir + "Logo.jpg");
 doc.UpdateThumbnail();
 doc.Save(ArtifactsDir + "Document.UpdateThumbnail.FirstPage.epub");
 
-// 2 - استخدم أول صورة موجودة في المستند:
+// 2 - استخدم الصورة الأولى الموجودة في المستند:
 ThumbnailGeneratingOptions options = new ThumbnailGeneratingOptions();
 options.ThumbnailSize = new Size(400, 400);
 options.GenerateFromFirstPage = false;

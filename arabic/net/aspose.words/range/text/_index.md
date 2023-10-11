@@ -1,14 +1,14 @@
 ---
 title: Range.Text
 second_title: Aspose.Words لمراجع .NET API
-description: Range ملكية. يحصل على نص النطاق .
+description: Range ملكية. يحصل على نص النطاق.
 type: docs
-weight: 50
+weight: 60
 url: /ar/net/aspose.words/range/text/
 ---
 ## Range.Text property
 
-يحصل على نص النطاق .
+يحصل على نص النطاق.
 
 ```csharp
 public string Text { get; }
@@ -16,7 +16,7 @@ public string Text { get; }
 
 ### ملاحظات
 
-تتضمن السلسلة التي تم إرجاعها كل عناصر التحكم والأحرف الخاصة كما هو موضح في[`ControlChar`](../../controlchar/).
+تتضمن السلسلة التي تم إرجاعها جميع عناصر التحكم والأحرف الخاصة كما هو موضح في[`ControlChar`](../../controlchar/).
 
 ### أمثلة
 

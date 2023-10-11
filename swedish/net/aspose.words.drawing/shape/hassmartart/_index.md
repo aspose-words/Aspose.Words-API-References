@@ -1,14 +1,14 @@
 ---
 title: Shape.HasSmartArt
 second_title: Aspose.Words för .NET API Referens
-description: Shape fast egendom. Returnerar sant om denna Shape har ett SmartArtobjekt.
+description: Shape fast egendom. ReturnerarSann om det härShape har ett SmartArtobjekt.
 type: docs
 weight: 90
 url: /sv/net/aspose.words.drawing/shape/hassmartart/
 ---
 ## Shape.HasSmartArt property
 
-Returnerar sant om denna Shape har ett SmartArt-objekt.
+Returnerar`Sann` om det här[`Shape`](../) har ett SmartArt-objekt.
 
 ```csharp
 public bool HasSmartArt { get; }

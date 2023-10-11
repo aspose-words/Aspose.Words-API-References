@@ -3,7 +3,7 @@ title: ParagraphFormat.LinesToDrop
 second_title: Справочник по API Aspose.Words для .NET
 description: ParagraphFormat свойство. Получает или задает количество строк текста абзаца используемого для расчета высоты буквицы.
 type: docs
-weight: 200
+weight: 210
 url: /ru/net/aspose.words/paragraphformat/linestodrop/
 ---
 ## ParagraphFormat.LinesToDrop property
@@ -22,13 +22,13 @@ public int LinesToDrop { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Измените свойство «LinesToDrop», чтобы обозначить абзац как буквицу,
+// Измените свойство LinesToDrop, чтобы обозначить абзац как буквицу,
 // что превратит его в большую заглавную букву, которая украсит следующий абзац.
-// Присвойте этому свойству значение 4, чтобы высота буквицы равнялась четырем строкам текста.
+// Присвойте этому свойству значение 4, чтобы буквица имела высоту в четыре текстовые строки.
 builder.ParagraphFormat.LinesToDrop = 4;
 builder.Writeln("H");
 
-// Сбросьте свойство LinesToDrop в 0, чтобы превратить следующий абзац в обычный абзац.
+// Сбрасываем свойство LinesToDrop на 0, чтобы превратить следующий абзац в обычный абзац.
 // Текст в этом абзаце будет обтекать буквицу.
 builder.ParagraphFormat.LinesToDrop = 0;
 builder.Writeln("ello world!");

@@ -1,14 +1,14 @@
 ---
 title: CustomDocumentProperties.Add
 second_title: Aspose.Words for .NET API Referansı
-description: CustomDocumentProperties yöntem. Dosyanın yeni bir özel belge özelliğini oluşturur. PropertyType.String veri türü.
+description: CustomDocumentProperties yöntem. Yeni bir özel belge özelliği oluşturur.String veri türü.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.properties/customdocumentproperties/add/
 ---
 ## Add(string, string) {#add_4}
 
-Dosyanın yeni bir özel belge özelliğini oluşturur. **PropertyType.String** veri türü.
+Yeni bir özel belge özelliği oluşturur.String veri türü.
 
 ```csharp
 public DocumentProperty Add(string name, string value)
@@ -33,7 +33,7 @@ CustomDocumentProperties properties = doc.CustomDocumentProperties;
 
 Assert.AreEqual(0, properties.Count);
 
-// Özel belge özellikleri, belgeye ekleyebileceğimiz anahtar/değer çiftleridir.
+// Özel belge özellikleri, belgeye ekleyebileceğimiz anahtar-değer çiftleridir.
 properties.Add("Authorized", true);
 properties.Add("Authorized By", "John Doe");
 properties.Add("Authorized Date", DateTime.Today);
@@ -58,23 +58,23 @@ field.Update();
 
 Assert.AreEqual("John Doe", field.Result);
 
-// Bu özel özellikleri Microsoft Word'de "Dosya" -> "Özellikler" > "Gelişmiş Özellikler" > "Gelenek".
+// Bu özel özellikleri Microsoft Word'de "Dosya" -> aracılığıyla bulabiliriz. "Özellikler" > "Gelişmiş Özellikler" > "Gelenek".
 doc.Save(ArtifactsDir + "DocumentProperties.DocumentPropertyCollection.docx");
 
-// Aşağıda, bir belgeden özel özellikleri kaldırmanın veya kaldırmanın üç yolu vardır.
+// Aşağıda bir belgeden özel özellikleri kaldırmanın üç yolu bulunmaktadır.
 // 1 - Dizine göre kaldır:
 properties.RemoveAt(1);
 
 Assert.False(properties.Contains("Authorized Amount"));
 Assert.AreEqual(4, properties.Count);
 
-// 2 - Ada göre kaldır:
+// 2 - İsme göre kaldır:
 properties.Remove("Authorized Revision");
 
 Assert.False(properties.Contains("Authorized Revision"));
 Assert.AreEqual(3, properties.Count);
 
-// 3 - Tüm koleksiyonu bir kerede boşaltın:
+// 3 - Koleksiyonun tamamını bir kerede boşaltın:
 properties.Clear();
 
 Assert.AreEqual(0, properties.Count);
@@ -91,7 +91,7 @@ Assert.AreEqual(0, properties.Count);
 
 ## Add(string, int) {#add_2}
 
-Dosyanın yeni bir özel belge özelliğini oluşturur. **PropertyType.Number** veri türü.
+Yeni bir özel belge özelliği oluşturur.Number veri türü.
 
 ```csharp
 public DocumentProperty Add(string name, int value)
@@ -116,7 +116,7 @@ CustomDocumentProperties properties = doc.CustomDocumentProperties;
 
 Assert.AreEqual(0, properties.Count);
 
-// Özel belge özellikleri, belgeye ekleyebileceğimiz anahtar/değer çiftleridir.
+// Özel belge özellikleri, belgeye ekleyebileceğimiz anahtar-değer çiftleridir.
 properties.Add("Authorized", true);
 properties.Add("Authorized By", "John Doe");
 properties.Add("Authorized Date", DateTime.Today);
@@ -141,23 +141,23 @@ field.Update();
 
 Assert.AreEqual("John Doe", field.Result);
 
-// Bu özel özellikleri Microsoft Word'de "Dosya" -> "Özellikler" > "Gelişmiş Özellikler" > "Gelenek".
+// Bu özel özellikleri Microsoft Word'de "Dosya" -> aracılığıyla bulabiliriz. "Özellikler" > "Gelişmiş Özellikler" > "Gelenek".
 doc.Save(ArtifactsDir + "DocumentProperties.DocumentPropertyCollection.docx");
 
-// Aşağıda, bir belgeden özel özellikleri kaldırmanın veya kaldırmanın üç yolu vardır.
+// Aşağıda bir belgeden özel özellikleri kaldırmanın üç yolu bulunmaktadır.
 // 1 - Dizine göre kaldır:
 properties.RemoveAt(1);
 
 Assert.False(properties.Contains("Authorized Amount"));
 Assert.AreEqual(4, properties.Count);
 
-// 2 - Ada göre kaldır:
+// 2 - İsme göre kaldır:
 properties.Remove("Authorized Revision");
 
 Assert.False(properties.Contains("Authorized Revision"));
 Assert.AreEqual(3, properties.Count);
 
-// 3 - Tüm koleksiyonu bir kerede boşaltın:
+// 3 - Koleksiyonun tamamını bir kerede boşaltın:
 properties.Clear();
 
 Assert.AreEqual(0, properties.Count);
@@ -174,7 +174,7 @@ Assert.AreEqual(0, properties.Count);
 
 ## Add(string, DateTime) {#add_3}
 
-Dosyanın yeni bir özel belge özelliğini oluşturur. **PropertyType.DateTime** veri türü.
+Yeni bir özel belge özelliği oluşturur.DateTime veri türü.
 
 ```csharp
 public DocumentProperty Add(string name, DateTime value)
@@ -209,7 +209,7 @@ CustomDocumentProperties properties = doc.CustomDocumentProperties;
 
 Assert.AreEqual(0, properties.Count);
 
-// Özel belge özellikleri, belgeye ekleyebileceğimiz anahtar/değer çiftleridir.
+// Özel belge özellikleri, belgeye ekleyebileceğimiz anahtar-değer çiftleridir.
 properties.Add("Authorized", true);
 properties.Add("Authorized By", "John Doe");
 properties.Add("Authorized Date", DateTime.Today);
@@ -234,23 +234,23 @@ field.Update();
 
 Assert.AreEqual("John Doe", field.Result);
 
-// Bu özel özellikleri Microsoft Word'de "Dosya" -> "Özellikler" > "Gelişmiş Özellikler" > "Gelenek".
+// Bu özel özellikleri Microsoft Word'de "Dosya" -> aracılığıyla bulabiliriz. "Özellikler" > "Gelişmiş Özellikler" > "Gelenek".
 doc.Save(ArtifactsDir + "DocumentProperties.DocumentPropertyCollection.docx");
 
-// Aşağıda, bir belgeden özel özellikleri kaldırmanın veya kaldırmanın üç yolu vardır.
+// Aşağıda bir belgeden özel özellikleri kaldırmanın üç yolu bulunmaktadır.
 // 1 - Dizine göre kaldır:
 properties.RemoveAt(1);
 
 Assert.False(properties.Contains("Authorized Amount"));
 Assert.AreEqual(4, properties.Count);
 
-// 2 - Ada göre kaldır:
+// 2 - İsme göre kaldır:
 properties.Remove("Authorized Revision");
 
 Assert.False(properties.Contains("Authorized Revision"));
 Assert.AreEqual(3, properties.Count);
 
-// 3 - Tüm koleksiyonu bir kerede boşaltın:
+// 3 - Koleksiyonun tamamını bir kerede boşaltın:
 properties.Clear();
 
 Assert.AreEqual(0, properties.Count);
@@ -267,7 +267,7 @@ Assert.AreEqual(0, properties.Count);
 
 ## Add(string, bool) {#add}
 
-Dosyanın yeni bir özel belge özelliğini oluşturur. **PropertyType.Boole** veri türü.
+Yeni bir özel belge özelliği oluşturur.Boolean veri türü.
 
 ```csharp
 public DocumentProperty Add(string name, bool value)
@@ -292,7 +292,7 @@ CustomDocumentProperties properties = doc.CustomDocumentProperties;
 
 Assert.AreEqual(0, properties.Count);
 
-// Özel belge özellikleri, belgeye ekleyebileceğimiz anahtar/değer çiftleridir.
+// Özel belge özellikleri, belgeye ekleyebileceğimiz anahtar-değer çiftleridir.
 properties.Add("Authorized", true);
 properties.Add("Authorized By", "John Doe");
 properties.Add("Authorized Date", DateTime.Today);
@@ -317,23 +317,23 @@ field.Update();
 
 Assert.AreEqual("John Doe", field.Result);
 
-// Bu özel özellikleri Microsoft Word'de "Dosya" -> "Özellikler" > "Gelişmiş Özellikler" > "Gelenek".
+// Bu özel özellikleri Microsoft Word'de "Dosya" -> aracılığıyla bulabiliriz. "Özellikler" > "Gelişmiş Özellikler" > "Gelenek".
 doc.Save(ArtifactsDir + "DocumentProperties.DocumentPropertyCollection.docx");
 
-// Aşağıda, bir belgeden özel özellikleri kaldırmanın veya kaldırmanın üç yolu vardır.
+// Aşağıda bir belgeden özel özellikleri kaldırmanın üç yolu bulunmaktadır.
 // 1 - Dizine göre kaldır:
 properties.RemoveAt(1);
 
 Assert.False(properties.Contains("Authorized Amount"));
 Assert.AreEqual(4, properties.Count);
 
-// 2 - Ada göre kaldır:
+// 2 - İsme göre kaldır:
 properties.Remove("Authorized Revision");
 
 Assert.False(properties.Contains("Authorized Revision"));
 Assert.AreEqual(3, properties.Count);
 
-// 3 - Tüm koleksiyonu bir kerede boşaltın:
+// 3 - Koleksiyonun tamamını bir kerede boşaltın:
 properties.Clear();
 
 Assert.AreEqual(0, properties.Count);
@@ -350,7 +350,7 @@ Assert.AreEqual(0, properties.Count);
 
 ## Add(string, double) {#add_1}
 
-Dosyanın yeni bir özel belge özelliğini oluşturur. **PropertyType.Float** veri türü.
+Yeni bir özel belge özelliği oluşturur.Double veri türü.
 
 ```csharp
 public DocumentProperty Add(string name, double value)
@@ -375,7 +375,7 @@ CustomDocumentProperties properties = doc.CustomDocumentProperties;
 
 Assert.AreEqual(0, properties.Count);
 
-// Özel belge özellikleri, belgeye ekleyebileceğimiz anahtar/değer çiftleridir.
+// Özel belge özellikleri, belgeye ekleyebileceğimiz anahtar-değer çiftleridir.
 properties.Add("Authorized", true);
 properties.Add("Authorized By", "John Doe");
 properties.Add("Authorized Date", DateTime.Today);
@@ -400,23 +400,23 @@ field.Update();
 
 Assert.AreEqual("John Doe", field.Result);
 
-// Bu özel özellikleri Microsoft Word'de "Dosya" -> "Özellikler" > "Gelişmiş Özellikler" > "Gelenek".
+// Bu özel özellikleri Microsoft Word'de "Dosya" -> aracılığıyla bulabiliriz. "Özellikler" > "Gelişmiş Özellikler" > "Gelenek".
 doc.Save(ArtifactsDir + "DocumentProperties.DocumentPropertyCollection.docx");
 
-// Aşağıda, bir belgeden özel özellikleri kaldırmanın veya kaldırmanın üç yolu vardır.
+// Aşağıda bir belgeden özel özellikleri kaldırmanın üç yolu bulunmaktadır.
 // 1 - Dizine göre kaldır:
 properties.RemoveAt(1);
 
 Assert.False(properties.Contains("Authorized Amount"));
 Assert.AreEqual(4, properties.Count);
 
-// 2 - Ada göre kaldır:
+// 2 - İsme göre kaldır:
 properties.Remove("Authorized Revision");
 
 Assert.False(properties.Contains("Authorized Revision"));
 Assert.AreEqual(3, properties.Count);
 
-// 3 - Tüm koleksiyonu bir kerede boşaltın:
+// 3 - Koleksiyonun tamamını bir kerede boşaltın:
 properties.Clear();
 
 Assert.AreEqual(0, properties.Count);

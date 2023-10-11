@@ -1,14 +1,16 @@
 ---
 title: Class RevisionGroupCollection
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.RevisionGroupCollection classe. Une collection deRevisionGroup objets qui représentent des groupes de révision dans le document.
+description: Aspose.Words.RevisionGroupCollection classe. Une collection deRevisionGroup objets qui représentent les groupes de révision dans le document.
 type: docs
-weight: 4530
+weight: 4790
 url: /fr/net/aspose.words/revisiongroupcollection/
 ---
 ## RevisionGroupCollection class
 
-Une collection de[`RevisionGroup`](../revisiongroup/) objets qui représentent des groupes de révision dans le document.
+Une collection de[`RevisionGroup`](../revisiongroup/) objets qui représentent les groupes de révision dans le document.
+
+Pour en savoir plus, visitez le[Suivre les modifications dans un document](https://docs.aspose.com/words/net/track-changes-in-a-document/) article documentaire.
 
 ```csharp
 public sealed class RevisionGroupCollection : IEnumerable<RevisionGroup>
@@ -18,8 +20,8 @@ public sealed class RevisionGroupCollection : IEnumerable<RevisionGroup>
 
 | Nom | La description |
 | --- | --- |
-| [Count](../../aspose.words/revisiongroupcollection/count/) { get; } | Renvoie le nombre de groupes de révision dans la collection. |
-| [Item](../../aspose.words/revisiongroupcollection/item/) { get; } | Renvoie un groupe de révision à l'index spécifié. |
+| [Count](../../aspose.words/revisiongroupcollection/count/) { get; } | Renvoie le nombre de groupes de révisions dans la collection. |
+| [Item](../../aspose.words/revisiongroupcollection/item/) { get; } | Renvoie un groupe de révisions à l'index spécifié. |
 
 ## Méthodes
 
@@ -29,7 +31,7 @@ public sealed class RevisionGroupCollection : IEnumerable<RevisionGroup>
 
 ### Remarques
 
-Vous ne créez pas d'instances de cette classe directement. Utilisez le[`Groups`](../revisioncollection/groups/) propriété pour obtenir les groupes de révision présents dans un document.
+Vous ne créez pas directement des instances de cette classe. Utilisez le[`Groups`](../revisioncollection/groups/) Propriété pour obtenir les groupes de révision présents dans un document.
 
 ### Exemples
 

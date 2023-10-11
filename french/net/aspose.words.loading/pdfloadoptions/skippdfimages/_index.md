@@ -1,14 +1,14 @@
 ---
 title: PdfLoadOptions.SkipPdfImages
 second_title: Référence de l'API Aspose.Words pour .NET
-description: PdfLoadOptions propriété. Obtient ou définit lindicateur indiquant si les images doivent être ignorées lors du chargement du document PDF. La valeur par défaut est False.
+description: PdfLoadOptions propriété. Obtient ou définit lindicateur indiquant si les images doivent être ignorées lors du chargement du document PDF. La valeur par défaut estFAUX .
 type: docs
 weight: 40
 url: /fr/net/aspose.words.loading/pdfloadoptions/skippdfimages/
 ---
 ## PdfLoadOptions.SkipPdfImages property
 
-Obtient ou définit l'indicateur indiquant si les images doivent être ignorées lors du chargement du document PDF. La valeur par défaut est False.
+Obtient ou définit l'indicateur indiquant si les images doivent être ignorées lors du chargement du document PDF. La valeur par défaut est`FAUX` .
 
 ```csharp
 public bool SkipPdfImages { get; set; }
@@ -16,7 +16,7 @@ public bool SkipPdfImages { get; set; }
 
 ### Exemples
 
-Montre comment ignorer des images lors du chargement de fichiers PDF.
+Montre comment ignorer les images lors du chargement de fichiers PDF.
 
 ```csharp
 PdfLoadOptions options = new PdfLoadOptions();

@@ -1,14 +1,14 @@
 ---
 title: MailMerge.CleanupOptions
 second_title: Aspose.Words for .NET API Referansı
-description: MailMerge mülk. Adres mektup birleştirme sırasında hangi öğelerin kaldırılması gerektiğini belirten bir bayrak kümesi alır veya ayarlar.
+description: MailMerge mülk. Adresmektup birleştirme sırasında hangi öğelerin kaldırılması gerektiğini belirten bir dizi işaret alır veya ayarlar.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.mailmerging/mailmerge/cleanupoptions/
 ---
 ## MailMerge.CleanupOptions property
 
-Adres mektup birleştirme sırasında hangi öğelerin kaldırılması gerektiğini belirten bir bayrak kümesi alır veya ayarlar.
+Adres-mektup birleştirme sırasında hangi öğelerin kaldırılması gerektiğini belirten bir dizi işaret alır veya ayarlar.
 
 ```csharp
 public MailMergeCleanupOptions CleanupOptions { get; set; }
@@ -16,7 +16,7 @@ public MailMergeCleanupOptions CleanupOptions { get; set; }
 
 ### Örnekler
 
-Adres mektup birleştirmenin oluşturabileceği boş paragrafların birleştirme çıktı belgesinden nasıl kaldırılacağını gösterir.
+Adres-mektup birleştirmenin birleştirme çıktı belgesinden oluşturabileceği boş paragrafların nasıl kaldırılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -49,14 +49,14 @@ else
         "Jane Doe", doc.GetText().Trim());
 ```
 
-Adres mektup birleştirme sırasında kullanılmayan MERGEFIELD'lerin otomatik olarak nasıl kaldırılacağını gösterir.
+Adres-mektup birleştirme sırasında kullanılmayan MERGEFIELD'lerin otomatik olarak nasıl kaldırılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Adres mektup birleştirme veri kaynağı tablosunun üç sütunu için MERGEFIELD'ler içeren bir belge oluşturun,
-// ve adları MERGEFIELD'lerimizle eşleşen yalnızca iki sütunlu bir tablo oluşturun.
+// Adres-mektup birleştirme veri kaynağı tablosunun üç sütunu için MERGEFIELD'leri içeren bir belge oluşturun,
+// ve ardından adları MERGEFIELD'lerimizle eşleşen yalnızca iki sütunlu bir tablo oluşturun.
 builder.InsertField(" MERGEFIELD FirstName ");
 builder.Write(" ");
 builder.InsertField(" MERGEFIELD LastName ");
@@ -69,10 +69,10 @@ dataTable.Columns.Add("LastName");
 dataTable.Rows.Add(new object[] { "John", "Doe" });
 dataTable.Rows.Add(new object[] { "Joe", "Bloggs" });
 
-// Üçüncü MERGEFIELD veri kaynağımızda mevcut olmayan bir "Şehir" sütununa başvuruyor.
-// Adres mektup birleştirme, bunun gibi alanları birleştirme öncesi durumlarında olduğu gibi bırakacaktır.
+// Üçüncü MERGEFIELD'ımız, veri kaynağımızda bulunmayan bir "Şehir" sütununa başvuruyor.
+// Adres-mektup birleştirme, bunun gibi alanları birleştirme öncesi durumlarında olduğu gibi bırakacaktır.
 // "CleanupOptions" özelliğinin "RemoveUnusedFields" olarak ayarlanması tüm MERGEFIELD'leri kaldıracaktır
-// adres mektup birleştirme sırasında birleştirme belgelerini temizlemek için kullanılmaz.
+// adres-mektup birleştirme sırasında birleştirme belgelerini temizlemek için kullanılmayanlar.
 doc.MailMerge.CleanupOptions = mailMergeCleanupOptions;
 doc.MailMerge.Execute(dataTable);
 

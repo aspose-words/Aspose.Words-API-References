@@ -1,23 +1,23 @@
 ---
 title: Aspose.Words.Comparing
 second_title: Aspose.Words für .NET-API-Referenz
-description: Das Aspose.Words.Comparing namespace stellt Klassen und Aufzählungen bereit die es ermöglichen zusätzliche Optionen beim Vergleichen von Dokumenten anzugeben.
+description: Der Aspose.Words.Comparing Der Namespace stellt Klassen und Aufzählungen bereit mit denen beim Vergleichen von Dokumenten zusätzliche Optionen angegeben werden können.
 type: docs
 weight: 30
 url: /de/net/aspose.words.comparing/
 ---
-Das **Aspose.Words.Comparing** namespace stellt Klassen und Aufzählungen bereit, die es ermöglichen, zusätzliche Optionen beim Vergleichen von Dokumenten anzugeben.
+Der **Aspose.Words.Comparing** Der Namespace stellt Klassen und Aufzählungen bereit, mit denen beim Vergleichen von Dokumenten zusätzliche Optionen angegeben werden können.
 
 ## Klassen
 
 | Klasse | Beschreibung |
 | --- | --- |
-| [CompareOptions](./compareoptions/) | Ermöglicht die Auswahl erweiterter Optionen für den Dokumentenvergleich. |
+| [CompareOptions](./compareoptions/) | Ermöglicht die Auswahl erweiterter Optionen für den Dokumentvergleichsvorgang. |
 ## Aufzählung
 
 | Aufzählung | Beschreibung |
 | --- | --- |
-| [ComparisonTargetType](./comparisontargettype/) | Ermöglicht die Angabe des Basisdokuments, das während des Vergleichs verwendet wird. Standardwert istCurrent . |
-| [Granularity](./granularity/) | Gibt die Granularität der zu verfolgenden Änderungen an, wenn zwei Dokumente verglichen werden. |
+| [ComparisonTargetType](./comparisontargettype/) | Ermöglicht die Angabe des Basisdokuments, das beim Vergleich verwendet wird. Der Standardwert istCurrent . |
+| [Granularity](./granularity/) | Gibt die Granularität der zu verfolgenden Änderungen beim Vergleich zweier Dokumente an. |
 
 

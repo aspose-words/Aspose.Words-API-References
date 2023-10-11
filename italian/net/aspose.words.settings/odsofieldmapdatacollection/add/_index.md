@@ -16,7 +16,7 @@ public int Add(OdsoFieldMapData value)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| value | OdsoFieldMapData | L'oggetto da aggiungere. Non può essere nullo. |
+| value | OdsoFieldMapData | L'oggetto da aggiungere. Non può essere`nullo`. |
 
 ### Esempi
 
@@ -25,8 +25,8 @@ Mostra come accedere alla raccolta di dati che mappa le colonne dell'origine dat
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
 
-// Questa raccolta definisce come una stampa unione mapperà le colonne da un'origine dati
-// ai campi MERGEFIELD, ADDRESSBLOCK e GREETINGLINE.
+// Questa raccolta definisce il modo in cui una stampa unione mapperà le colonne da un'origine dati
+// ai campi MERGEFIELD, ADDRESSBLOCK e GREETINGLINE predefiniti.
 OdsoFieldMapDataCollection dataCollection = doc.MailMergeSettings.Odso.FieldMapDatas;
 Assert.AreEqual(30, dataCollection.Count);
 
@@ -47,12 +47,12 @@ using (IEnumerator<OdsoFieldMapData> enumerator = dataCollection.GetEnumerator()
 // Clona gli elementi in questa raccolta.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// Usa gli elementi del metodo "RemoveAt" individualmente per indice.
+// Utilizza gli elementi del metodo "RemoveAt" singolarmente per indice.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(29, dataCollection.Count);
 
-// Usa il metodo "Cancella" per cancellare l'intera collezione in una volta.
+// Utilizza il metodo "Cancella" per cancellare l'intera raccolta in una volta.
 dataCollection.Clear();
 
 Assert.AreEqual(0, dataCollection.Count);

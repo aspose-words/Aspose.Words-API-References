@@ -3,12 +3,14 @@ title: Class ImageWatermarkOptions
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.ImageWatermarkOptions klass. Innehåller alternativ som kan anges när du lägger till en vattenstämpel med bild.
 type: docs
-weight: 3020
+weight: 3220
 url: /sv/net/aspose.words/imagewatermarkoptions/
 ---
 ## ImageWatermarkOptions class
 
 Innehåller alternativ som kan anges när du lägger till en vattenstämpel med bild.
+
+För att lära dig mer, besök[Arbeta med Watermark](https://docs.aspose.com/words/net/working-with-watermark/) dokumentationsartikel.
 
 ```csharp
 public class ImageWatermarkOptions
@@ -24,7 +26,7 @@ public class ImageWatermarkOptions
 
 | namn | Beskrivning |
 | --- | --- |
-| [IsWashout](../../aspose.words/imagewatermarkoptions/iswashout/) { get; set; } | Hämtar eller ställer in ett booleskt värde som är ansvarigt för utspolningseffekten av vattenstämpeln. Standardvärdet är True. |
+| [IsWashout](../../aspose.words/imagewatermarkoptions/iswashout/) { get; set; } | Hämtar eller ställer in ett booleskt värde som är ansvarigt för utspolningseffekten av vattenstämpeln. Standardvärdet är`Sann` . |
 | [Scale](../../aspose.words/imagewatermarkoptions/scale/) { get; set; } | Hämtar eller ställer in skalfaktorn uttryckt som en bråkdel av bilden. Standardvärdet är 0 - auto. |
 
 ### Se även

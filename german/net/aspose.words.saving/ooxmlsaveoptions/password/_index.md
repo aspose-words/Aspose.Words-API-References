@@ -1,14 +1,14 @@
 ---
 title: OoxmlSaveOptions.Password
 second_title: Aspose.Words für .NET-API-Referenz
-description: OoxmlSaveOptions eigendom. Ruft ein Passwort ab/legt es fest um das Dokument mit dem ECMA376Standardverschlüsselungsalgorithmus zu verschlüsseln.
+description: OoxmlSaveOptions eigendom. Ruft ein Passwort zum Verschlüsseln des Dokuments mit dem StandardVerschlüsselungsalgorithmus ECMA376 ab bzw. legt es fest.
 type: docs
 weight: 50
 url: /de/net/aspose.words.saving/ooxmlsaveoptions/password/
 ---
 ## OoxmlSaveOptions.Password property
 
-Ruft ein Passwort ab/legt es fest, um das Dokument mit dem ECMA376-Standardverschlüsselungsalgorithmus zu verschlüsseln.
+Ruft ein Passwort zum Verschlüsseln des Dokuments mit dem Standard-Verschlüsselungsalgorithmus ECMA376 ab bzw. legt es fest.
 
 ```csharp
 public string Password { get; set; }
@@ -16,11 +16,11 @@ public string Password { get; set; }
 
 ### Bemerkungen
 
-Um das Dokument ohne Verschlüsselung zu speichern, sollte diese Eigenschaft null oder eine leere Zeichenfolge sein.
+Um ein Dokument ohne Verschlüsselung zu speichern, sollte diese Eigenschaft vorhanden sein`Null` oder leere Zeichenfolge.
 
 ### Beispiele
 
-Zeigt, wie Sie ein kennwortverschlüsseltes Office Open XML-Dokument erstellen.
+Zeigt, wie ein kennwortverschlüsseltes Office Open XML-Dokument erstellt wird.
 
 ```csharp
 Document doc = new Document();
@@ -33,7 +33,7 @@ saveOptions.Password = "MyPassword";
 doc.Save(ArtifactsDir + "OoxmlSaveOptions.Password.docx", saveOptions);
 
 // Wir können dieses Dokument nicht mit Microsoft Word oder öffnen
-// Aspose.Words ohne Angabe des korrekten Passworts.
+// Aspose.Words ohne Angabe des richtigen Passworts.
 Assert.Throws<IncorrectPasswordException>(() =>
     doc = new Document(ArtifactsDir + "OoxmlSaveOptions.Password.docx"));
 

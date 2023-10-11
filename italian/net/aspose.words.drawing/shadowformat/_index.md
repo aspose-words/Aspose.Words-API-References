@@ -1,14 +1,16 @@
 ---
 title: Class ShadowFormat
 second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Drawing.ShadowFormat classe. Rappresenta la formattazione ombra per un oggetto.
+description: Aspose.Words.Drawing.ShadowFormat classe. Rappresenta la formattazione shadow per un oggetto.
 type: docs
-weight: 1080
+weight: 1230
 url: /it/net/aspose.words.drawing/shadowformat/
 ---
 ## ShadowFormat class
 
-Rappresenta la formattazione ombra per un oggetto.
+Rappresenta la formattazione shadow per un oggetto.
+
+Per saperne di più, visita il[Lavorare con elementi grafici](https://docs.aspose.com/words/net/working-with-graphic-elements/) articolo di documentazione.
 
 ```csharp
 public class ShadowFormat

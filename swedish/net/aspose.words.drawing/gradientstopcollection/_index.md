@@ -3,12 +3,14 @@ title: Class GradientStopCollection
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Drawing.GradientStopCollection klass. Innehåller en samling avGradientStop objekt.
 type: docs
-weight: 860
+weight: 990
 url: /sv/net/aspose.words.drawing/gradientstopcollection/
 ---
 ## GradientStopCollection class
 
 Innehåller en samling av[`GradientStop`](../gradientstop/) objekt.
+
+För att lära dig mer, besök[Arbeta med grafiska element](https://docs.aspose.com/words/net/working-with-graphic-elements/) dokumentationsartikel.
 
 ```csharp
 public class GradientStopCollection : IEnumerable<GradientStop>
@@ -29,11 +31,11 @@ public class GradientStopCollection : IEnumerable<GradientStop>
 | [GetEnumerator](../../aspose.words.drawing/gradientstopcollection/getenumerator/)() | Returnerar en uppräkning som itererar genom samlingen. |
 | [Insert](../../aspose.words.drawing/gradientstopcollection/insert/)(int, GradientStop) | Infogar en[`GradientStop`](../gradientstop/) till samlingen vid ett specificerat index. |
 | [Remove](../../aspose.words.drawing/gradientstopcollection/remove/)(GradientStop) | Tar bort en angiven[`GradientStop`](../gradientstop/) från samlingen. |
-| [RemoveAt](../../aspose.words.drawing/gradientstopcollection/removeat/)(int) | Tar bort en[`GradientStop`](../gradientstop/)från samlingen vid ett specificerat index. |
+| [RemoveAt](../../aspose.words.drawing/gradientstopcollection/removeat/)(int) | Tar bort en[`GradientStop`](../gradientstop/) från samlingen vid ett specificerat index. |
 
 ### Anmärkningar
 
-Du skapar inte instanser av den här klassen direkt. Använd[`GradientStops`](../fill/gradientstops/) egenskap för att komma åt övertoningsstopp för fyllningsobjekt.
+Du skapar inte instanser av den här klassen direkt. Använd[`GradientStops`](../fill/gradientstops/)egenskap för att komma åt övertoningsstopp för fyllningsobjekt.
 
 ### Exempel
 
@@ -49,8 +51,8 @@ shape.Fill.TwoColorGradient(Color.Green, Color.Red, GradientStyle.Horizontal, Gr
 // Få gradient stoppar samling.
 GradientStopCollection gradientStops = shape.Fill.GradientStops;
 
-// Ändra första gradientstopp.
-gradientStops[0].Color = Color.Aqua;
+// Ändra första gradientstopp.            
+gradientStops[0].Color = Color.Aqua;            
 gradientStops[0].Position = 0.1;
 gradientStops[0].Transparency = 0.25;
 
@@ -69,6 +71,7 @@ gradientStops.Remove(gradientStop);
 
 Assert.AreEqual(2, gradientStops.Count);
 
+Assert.AreEqual(Color.FromArgb(255, 0, 255, 255), gradientStops[0].BaseColor);
 Assert.AreEqual(Color.Aqua.ToArgb(), gradientStops[0].Color.ToArgb());
 Assert.AreEqual(0.1d, gradientStops[0].Position, 0.01d);
 Assert.AreEqual(0.25d, gradientStops[0].Transparency, 0.01d);

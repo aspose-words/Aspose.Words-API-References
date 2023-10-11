@@ -1,14 +1,16 @@
 ---
 title: Class RevisionGroup
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.RevisionGroup فصل. يمثل مجموعة متسلسلةRevision الكائنات .
+description: Aspose.Words.RevisionGroup فصل. يمثل مجموعة متسلسلةRevision الكائنات.
 type: docs
-weight: 4520
+weight: 4780
 url: /ar/net/aspose.words/revisiongroup/
 ---
 ## RevisionGroup class
 
-يمثل مجموعة متسلسلة[`Revision`](../revision/) الكائنات .
+يمثل مجموعة متسلسلة[`Revision`](../revision/) الكائنات.
+
+لمعرفة المزيد، قم بزيارة[تتبع التغييرات في مستند](https://docs.aspose.com/words/net/track-changes-in-a-document/) مقالة توثيقية.
 
 ```csharp
 public class RevisionGroup
@@ -20,7 +22,7 @@ public class RevisionGroup
 | --- | --- |
 | [Author](../../aspose.words/revisiongroup/author/) { get; } | الحصول على مؤلف مجموعة المراجعة هذه. |
 | [RevisionType](../../aspose.words/revisiongroup/revisiontype/) { get; } | الحصول على نوع المراجعات المضمنة في هذه المجموعة. |
-| [Text](../../aspose.words/revisiongroup/text/) { get; } | إرجاع النص الذي تم إدخاله / حذفه / نقله أو وصف تغيير التنسيق. |
+| [Text](../../aspose.words/revisiongroup/text/) { get; } | إرجاع النص المدرج/المحذوف/المنقول أو وصف تغيير التنسيق. |
 
 ### أمثلة
 

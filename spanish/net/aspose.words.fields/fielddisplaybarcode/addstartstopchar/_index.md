@@ -1,14 +1,14 @@
 ---
 title: FieldDisplayBarcode.AddStartStopChar
 second_title: Referencia de API de Aspose.Words para .NET
-description: FieldDisplayBarcode propiedad. Obtiene o establece si se agregan caracteres de inicio/detención para los tipos de código de barras NW7 y CODE39.
+description: FieldDisplayBarcode propiedad. Obtiene o establece si se deben agregar caracteres de inicio/parada para los tipos de códigos de barras NW7 y CODE39.
 type: docs
 weight: 20
 url: /es/net/aspose.words.fields/fielddisplaybarcode/addstartstopchar/
 ---
 ## FieldDisplayBarcode.AddStartStopChar property
 
-Obtiene o establece si se agregan caracteres de inicio/detención para los tipos de código de barras NW7 y CODE39.
+Obtiene o establece si se deben agregar caracteres de inicio/parada para los tipos de códigos de barras NW7 y CODE39.
 
 ```csharp
 public bool AddStartStopChar { get; set; }
@@ -24,7 +24,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 FieldDisplayBarcode field = (FieldDisplayBarcode)builder.InsertField(FieldType.FieldDisplayBarcode, true);
 
-// A continuación se muestran cuatro tipos de códigos de barras, decorados de varias maneras, que puede mostrar el campo DISPLAYBARCODE.
+// A continuación se muestran cuatro tipos de códigos de barras, decorados de diversas formas, que puede mostrar el campo DISPLAYBARCODE.
 // 1 - Código QR con colores personalizados:
 field.BarcodeType = "QR";
 field.BarcodeValue = "ABC123";
@@ -49,7 +49,7 @@ field.FixCheckDigit = true;
 Assert.AreEqual(" DISPLAYBARCODE  501234567890 EAN13 \\t \\p CASE \\x", field.GetFieldCode());
 builder.Writeln();
 
-// 3 - Código de barras CODE39:
+// 3 - código de barras CODE39:
 field = (FieldDisplayBarcode)builder.InsertField(FieldType.FieldDisplayBarcode, true);
 field.BarcodeType = "CODE39";
 field.BarcodeValue = "12345ABCDE";

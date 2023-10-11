@@ -3,7 +3,7 @@ title: Enum HtmlOfficeMathOutputMode
 second_title: Referencia de API de Aspose.Words para .NET
 description: Aspose.Words.Saving.HtmlOfficeMathOutputMode enumeración. Especifica cómo Aspose.Words exporta OfficeMath a HTML MHTML y EPUB.
 type: docs
-weight: 4840
+weight: 5100
 url: /es/net/aspose.words.saving/htmlofficemathoutputmode/
 ---
 ## HtmlOfficeMathOutputMode enumeration
@@ -20,7 +20,7 @@ public enum HtmlOfficeMathOutputMode
 | --- | --- | --- |
 | Image | `0` | OfficeMath se convierte a HTML como imagen especificada por la etiqueta &lt;img&gt;. |
 | MathML | `1` | OfficeMath se convierte a HTML usando MathML. |
-| Text | `2` | OfficeMath se convierte a HTML como una secuencia de ejecuciones especificada por las etiquetas &lt;span&gt;. |
+| Text | `2` | OfficeMath se convierte a HTML como secuencia de ejecuciones especificadas por etiquetas &lt;span&gt;. |
 
 ### Ejemplos
 
@@ -30,13 +30,13 @@ Muestra cómo especificar cómo exportar objetos de Microsoft OfficeMath a HTML.
 Document doc = new Document(MyDir + "Office math.docx");
 
 // Cuando guardamos el documento en HTML, podemos pasar un objeto SaveOptions
-// para determinar cómo la operación de guardado maneja los objetos de OfficeMath.
-// Establecer la propiedad "OfficeMathOutputMode" en "HtmlOfficeMathOutputMode.Image"
-// convertirá cada objeto de OfficeMath en una imagen.
-// Establecer la propiedad "OfficeMathOutputMode" en "HtmlOfficeMathOutputMode.MathML"
-// convertirá cada objeto OfficeMath en MathML.
-// Establecer la propiedad "OfficeMathOutputMode" en "HtmlOfficeMathOutputMode.Text"
-// representará cada fórmula de OfficeMath usando texto HTML sin formato.
+// para determinar cómo la operación de guardar maneja los objetos de OfficeMath.
+// Estableciendo la propiedad "OfficeMathOutputMode" en "HtmlOfficeMathOutputMode.Image"
+// representará cada objeto de OfficeMath en una imagen.
+// Estableciendo la propiedad "OfficeMathOutputMode" en "HtmlOfficeMathOutputMode.MathML"
+// convertirá cada objeto de OfficeMath en MathML.
+// Estableciendo la propiedad "OfficeMathOutputMode" en "HtmlOfficeMathOutputMode.Text"
+// representará cada fórmula de OfficeMath utilizando texto HTML sin formato.
 HtmlSaveOptions options = new HtmlSaveOptions { OfficeMathOutputMode = htmlOfficeMathOutputMode };
 
 doc.Save(ArtifactsDir + "HtmlSaveOptions.OfficeMathOutputMode.html", options);

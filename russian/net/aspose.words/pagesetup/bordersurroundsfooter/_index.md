@@ -20,7 +20,7 @@ public bool BorderSurroundsFooter { get; set; }
 
 ### Примеры
 
-Показывает, как применить границу к странице и верхнему/нижнему колонтитулу.
+Показывает, как применить рамку к странице и верхнему/нижнему колонтитулу.
 
 ```csharp
 Document doc = new Document();
@@ -33,15 +33,15 @@ builder.MoveToHeaderFooter(HeaderFooterType.FooterPrimary);
 builder.Write("This is the footer.");
 builder.MoveToDocumentEnd();
 
-// Вставляем синюю двойную границу.
+// Вставляем синюю рамку в две линии.
 PageSetup pageSetup = doc.Sections[0].PageSetup;
 pageSetup.Borders.LineStyle = LineStyle.Double;
 pageSetup.Borders.Color = Color.Blue;
 
-// Объект PageSetup раздела имеет флаги "BorderSurroundsHeader" и "BorderSurroundsFooter", которые определяют
-// независимо от того, окружает ли граница страницы основной основной текст, также включает верхний или нижний колонтитул соответственно.
-// Установите для флага "BorderSurroundsHeader" значение "true", чтобы окружить заголовок нашей рамкой,
-// а затем установите флаг «BorderSurroundsFooter», чтобы оставить нижний колонтитул за границей.
+// Объект PageSetup раздела имеет флаги «BorderSurroundsHeader» и «BorderSurroundsFooter», которые определяют
+// окружает ли граница страницы основной текст, также включает верхний или нижний колонтитул соответственно.
+// Установите для флага «BorderSurroundsHeader» значение «true», чтобы окружить заголовок нашей рамкой,
+// а затем установите флаг «BorderSurroundsFooter», чтобы нижний колонтитул остался за пределами границы.
 pageSetup.BorderSurroundsHeader = true;
 pageSetup.BorderSurroundsFooter = false;
 

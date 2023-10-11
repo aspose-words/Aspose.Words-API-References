@@ -1,14 +1,14 @@
 ---
 title: MailMergeSettings.Query
 second_title: Aspose.Words per .NET API Reference
-description: MailMergeSettings proprietà. Contiene la stringa Structured Query Language che deve essere eseguita sullorigine dati esterna specificata per restituire la serie di record che devono essere importati nel documento quando viene eseguita loperazione di stampa unione. Il valore predefinito è una stringa vuota.
+description: MailMergeSettings proprietà. Contiene la stringa Structured Query Language che verrà eseguita sullorigine dati esterna specificata per restituire il set di record che verrà importato nel documento quando viene eseguita loperazione di stampa unione. Il valore predefinito è una stringa vuota.
 type: docs
 weight: 160
 url: /it/net/aspose.words.settings/mailmergesettings/query/
 ---
 ## MailMergeSettings.Query property
 
-Contiene la stringa Structured Query Language che deve essere eseguita sull'origine dati esterna specificata per restituire la serie di record che devono essere importati nel documento quando viene eseguita l'operazione di stampa unione. Il valore predefinito è una stringa vuota.
+Contiene la stringa Structured Query Language che verrà eseguita sull'origine dati esterna specificata per restituire il set di record che verrà importato nel documento quando viene eseguita l'operazione di stampa unione. Il valore predefinito è una stringa vuota.
 
 ```csharp
 public string Query { get; set; }
@@ -59,7 +59,7 @@ odso.FirstRowContainsColumnNames = true;
 Assert.AreNotSame(odso, odso.Clone());
 Assert.AreNotSame(settings, settings.Clone());
 
-// L'apertura di questo documento in Microsoft Word eseguirà la stampa unione prima di visualizzare il contenuto. 
+ // L'apertura di questo documento in Microsoft Word eseguirà la stampa unione prima di visualizzarne il contenuto.
 doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ```
 

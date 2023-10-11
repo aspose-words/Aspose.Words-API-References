@@ -1,14 +1,14 @@
 ---
 title: Shape.HasSmartArt
 second_title: Aspose.Words for .NET API 参考
-description: Shape 财产. 如果此 Shape 具有 SmartArt 对象则返回 true
+description: Shape 财产. 返回真的如果这Shape有一个 SmartArt 对象
 type: docs
 weight: 90
 url: /zh/net/aspose.words.drawing/shape/hassmartart/
 ---
 ## Shape.HasSmartArt property
 
-如果此 Shape 具有 SmartArt 对象，则返回 true。
+返回`真的`如果这[`Shape`](../)有一个 SmartArt 对象。
 
 ```csharp
 public bool HasSmartArt { get; }
@@ -16,7 +16,7 @@ public bool HasSmartArt { get; }
 
 ### 例子
 
-演示如何使用 SmartArt 对象计算文档中形状的数量。
+演示如何计算文档中包含 SmartArt 对象的形状数量。
 
 ```csharp
 Document doc = new Document(MyDir + "SmartArt.docx");

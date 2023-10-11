@@ -3,7 +3,7 @@ title: Enum OutlineLevel
 second_title: Aspose.Words für .NET-API-Referenz
 description: Aspose.Words.OutlineLevel opsomming. Gibt die Gliederungsebene eines Absatzes im Dokument an.
 type: docs
-weight: 4090
+weight: 4330
 url: /de/net/aspose.words/outlinelevel/
 ---
 ## OutlineLevel enumeration
@@ -22,7 +22,7 @@ public enum OutlineLevel
 | Level2 | `1` | Der Absatz befindet sich auf Gliederungsebene 2. |
 | Level3 | `2` | Der Absatz befindet sich auf Gliederungsebene 3. |
 | Level4 | `3` | Der Absatz befindet sich auf Gliederungsebene 4. |
-| Level5 | `4` | Der Absatz befindet sich auf Gliederungsebene 5. |
+| Level5 | `4` | Der Absatz befindet sich auf der Gliederungsebene 5. |
 | Level6 | `5` | Der Absatz befindet sich auf Gliederungsebene 6. |
 | Level7 | `6` | Der Absatz befindet sich auf Gliederungsebene 7. |
 | Level8 | `7` | Der Absatz befindet sich auf Gliederungsebene 8. |

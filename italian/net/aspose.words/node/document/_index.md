@@ -16,11 +16,11 @@ public virtual DocumentBase Document { get; }
 
 ### Osservazioni
 
-Il nodo appartiene sempre ad un documento anche se è stato appena creato e non ancora aggiunto all'albero, oppure se è stato rimosso dall'albero.
+Il nodo appartiene sempre ad un documento anche se è appena stato creato e non ancora aggiunto all'albero, oppure se è stato rimosso dall'albero.
 
 ### Esempi
 
-Mostra come creare un nodo e impostare il relativo documento proprietario.
+Mostra come creare un nodo e impostare il documento proprietario.
 
 ```csharp
 Document doc = new Document();
@@ -40,7 +40,7 @@ Assert.AreEqual(string.Empty, doc.GetText().Trim());
 // Poiché il documento possiede questo paragrafo, possiamo applicare uno dei suoi stili al contenuto del paragrafo.
 para.ParagraphFormat.Style = doc.Styles["Heading 1"];
 
-// Aggiungi questo nodo al documento, quindi verifica il suo contenuto.
+// Aggiungi questo nodo al documento, quindi verificane il contenuto.
 doc.FirstSection.Body.AppendChild(para);
 
 Assert.AreEqual(doc.FirstSection.Body, para.ParentNode);

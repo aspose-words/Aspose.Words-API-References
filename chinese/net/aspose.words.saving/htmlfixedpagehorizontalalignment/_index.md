@@ -3,7 +3,7 @@ title: Enum HtmlFixedPageHorizontalAlignment
 second_title: Aspose.Words for .NET API 参考
 description: Aspose.Words.Saving.HtmlFixedPageHorizontalAlignment 枚举. 指定输出 HTML 文档中页面的水平对齐方式
 type: docs
-weight: 4810
+weight: 5070
 url: /zh/net/aspose.words.saving/htmlfixedpagehorizontalalignment/
 ---
 ## HtmlFixedPageHorizontalAlignment enumeration
@@ -18,13 +18,13 @@ public enum HtmlFixedPageHorizontalAlignment
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Left | `0` | 将页面向左对齐。 |
-| Center | `1` | 居中页面。这是默认值。 |
-| Right | `2` | 将页面向右对齐。 |
+| Left | `0` | 将页面左对齐。 |
+| Center | `1` | 中心页面。这是默认值。 |
+| Right | `2` | 页面右对齐。 |
 
 ### 例子
 
-演示如何在将文档保存为 HTML 时设置页面的水平对齐方式。
+演示将文档保存为 HTML 时如何设置页面的水平对齐方式。
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

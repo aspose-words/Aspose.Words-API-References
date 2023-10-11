@@ -30,10 +30,10 @@ builder.InsertParagraph();
 builder.Write("Lorem ipsum dolor sit amet, consectetur adipiscing elit.");
 builder.InsertFootnote(FootnoteType.Endnote, "Lorem ipsum dolor sit amet, consectetur adipiscing elit.");
 
-// Setzen Sie das Flag "IgnoreFootnotes" auf "true", um das Suchen und Ersetzen zu erhalten
+// Setzen Sie das Flag „IgnoreFootnotes“ auf „true“, um das Suchen und Ersetzen zu erhalten
 // Operation zum Ignorieren von Text in Fußnoten.
-// Setzen Sie das Flag "IgnoreFootnotes" auf "false", um das Suchen und Ersetzen zu erhalten
-// Operation, um auch in Fußnoten nach Text zu suchen.
+// Setzen Sie das Flag „IgnoreFootnotes“ auf „false“, um das Suchen und Ersetzen zu erhalten
+// Operation, um auch nach Text in Fußnoten zu suchen.
 FindReplaceOptions options = new FindReplaceOptions { IgnoreFootnotes = isIgnoreFootnotes };
 doc.Range.Replace("Lorem ipsum", "Replaced Lorem ipsum", options);
 ```

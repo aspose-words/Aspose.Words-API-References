@@ -3,12 +3,14 @@ title: Class FileFontSource
 second_title: Справочник по API Aspose.Words для .NET
 description: Aspose.Words.Fonts.FileFontSource сорт. Представляет один файл шрифта TrueType хранящийся в файловой системе.
 type: docs
-weight: 2690
+weight: 2870
 url: /ru/net/aspose.words.fonts/filefontsource/
 ---
 ## FileFontSource class
 
 Представляет один файл шрифта TrueType, хранящийся в файловой системе.
+
+Чтобы узнать больше, посетите[Работа со шрифтами](https://docs.aspose.com/words/net/working-with-fonts/) статья документации.
 
 ```csharp
 public class FileFontSource : FontSourceBase
@@ -18,9 +20,9 @@ public class FileFontSource : FontSourceBase
 
 | Имя | Описание |
 | --- | --- |
-| [FileFontSource](filefontsource/#constructor)(string) | Стор. |
-| [FileFontSource](filefontsource/#constructor_1)(string, int) | Стор. |
-| [FileFontSource](filefontsource/#constructor_2)(string, int, string) | Стор. |
+| [FileFontSource](filefontsource/#constructor)(string) | Cтор. |
+| [FileFontSource](filefontsource/#constructor_1)(string, int) | Cтор. |
+| [FileFontSource](filefontsource/#constructor_2)(string, int, string) | Cтор. |
 
 ## Характеристики
 

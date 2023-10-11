@@ -1,14 +1,14 @@
 ---
 title: FrameFormat.HorizontalDistanceFromText
 second_title: Aspose.Words für .NET-API-Referenz
-description: FrameFormat eigendom. Ruft den horizontalen Abstand zwischen einem Rahmen und dem umgebenden Text in Punkt ab.
+description: FrameFormat eigendom. Ermittelt den horizontalen Abstand zwischen einem Rahmen und dem umgebenden Text in Punkten.
 type: docs
 weight: 40
 url: /de/net/aspose.words/frameformat/horizontaldistancefromtext/
 ---
 ## FrameFormat.HorizontalDistanceFromText property
 
-Ruft den horizontalen Abstand zwischen einem Rahmen und dem umgebenden Text in Punkt ab.
+Ermittelt den horizontalen Abstand zwischen einem Rahmen und dem umgebenden Text in Punkten.
 
 ```csharp
 public double HorizontalDistanceFromText { get; }
@@ -16,7 +16,7 @@ public double HorizontalDistanceFromText { get; }
 
 ### Beispiele
 
-Zeigt, wie Informationen zu Formatierungseigenschaften von Absätzen abgerufen werden, die Rahmen sind.
+Zeigt, wie Sie Informationen zu Formatierungseigenschaften von Absätzen erhalten, die Rahmen sind.
 
 ```csharp
 Document doc = new Document(MyDir + "Paragraph frame.docx");

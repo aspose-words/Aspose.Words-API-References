@@ -1,14 +1,16 @@
 ---
 title: Class SectionCollection
 second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.SectionCollection clase. Una colección de Sección objetos en el documento.
+description: Aspose.Words.SectionCollection clase. Una colección deSection objetos en el documento.
 type: docs
-weight: 5450
+weight: 5740
 url: /es/net/aspose.words/sectioncollection/
 ---
 ## SectionCollection class
 
-Una colección de **Sección** objetos en el documento.
+Una colección de[`Section`](../section/) objetos en el documento.
+
+Para obtener más información, visite el[Trabajar con secciones](https://docs.aspose.com/words/net/working-with-sections/) artículo de documentación.
 
 ```csharp
 public class SectionCollection : NodeCollection
@@ -33,13 +35,13 @@ public class SectionCollection : NodeCollection
 | [Insert](../../aspose.words/nodecollection/insert/)(int, Node) | Inserta un nodo en la colección en el índice especificado. |
 | [Remove](../../aspose.words/nodecollection/remove/)(Node) | Elimina el nodo de la colección y del documento. |
 | [RemoveAt](../../aspose.words/nodecollection/removeat/)(int) | Elimina el nodo en el índice especificado de la colección y del documento. |
-| [ToArray](../../aspose.words/sectioncollection/toarray/#toarray_1)() | Copia todas las secciones de la colección a una nueva matriz de secciones. (2 methods) |
+| [ToArray](../../aspose.words/sectioncollection/toarray/#toarray_1)() | Copia todas las secciones de la colección en una nueva matriz de secciones. (2 methods) |
 
 ### Observaciones
 
-Un documento de Microsoft Word puede contener varias secciones. Para crear una sección en Microsoft Word, seleccione el comando Insertar/Cortar y seleccione un tipo de ruptura. El salto especifica si la sección comienza en una página nueva o en la misma página.
+Un documento de Microsoft Word puede contener varias secciones. Para crear una sección en Microsoft Word, seleccione el comando Insertar/Salir y seleccione un tipo de salto. La ruptura especifica si la sección comienza en una página nueva o en la misma página.
 
-La inserción y eliminación de secciones mediante programación se puede usar para personalizar los documentos producidos durante la combinación de correspondencia. Si un documento debe tener contenido diferente o partes del contenido según algunos criterios, puede crear un documento "maestro" que contenga varias secciones y eliminar algunas de las secciones antes o después de la combinación de correspondencia.
+La inserción y eliminación de secciones mediante programación se puede utilizar para personalizar los documentos producidos durante la combinación de correspondencia. Si un documento necesita tener contenido diferente o partes del contenido dependiendo de algunos criterios, entonces puede crear un documento "maestro" que contenga varias secciones y eliminar algunas de las secciones antes o después de la combinación de correspondencia.
 
 ### Ejemplos
 
@@ -55,12 +57,12 @@ builder.Write("Section 2");
 
 Assert.AreEqual("Section 1\x000cSection 2", doc.GetText().Trim());
 
-// Eliminar la primera sección del documento.
+// Elimina la primera sección del documento.
 doc.Sections.RemoveAt(0);
 
 Assert.AreEqual("Section 2", doc.GetText().Trim());
 
-// Agregue una copia de lo que ahora es la primera sección al final del documento.
+// Adjunte una copia de lo que ahora es la primera sección al final del documento.
 int lastSectionIdx = doc.Sections.Count - 1;
 Section newSection = doc.Sections[lastSectionIdx].Clone();
 doc.Sections.Add(newSection);

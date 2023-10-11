@@ -1,14 +1,14 @@
 ---
 title: ChartAxis.CategoryType
 second_title: Aspose.Words per .NET API Reference
-description: ChartAxis proprietà. Ottiene o imposta il tipo dellasse della categoria.
+description: ChartAxis proprietà. Ottiene o imposta il tipo dellasse delle categorie.
 type: docs
 weight: 30
 url: /it/net/aspose.words.drawing.charts/chartaxis/categorytype/
 ---
 ## ChartAxis.CategoryType property
 
-Ottiene o imposta il tipo dell'asse della categoria.
+Ottiene o imposta il tipo dell'asse delle categorie.
 
 ```csharp
 public AxisCategoryType CategoryType { get; set; }
@@ -29,16 +29,16 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertChart(ChartType.Column, 500, 300);
 Chart chart = shape.Chart;
 
-// Cancella la serie di dati demo del grafico per iniziare con un grafico pulito.
+// Cancella le serie di dati dimostrativi del grafico per iniziare con un grafico pulito.
 chart.Series.Clear();
 
-// Inserisce una serie di grafici con categorie per l'asse X e rispettivi valori numerici per l'asse Y.
+// Inserisci una serie di grafici con categorie per l'asse X e rispettivi valori numerici per l'asse Y.
 chart.Series.Add("Aspose Test Series",
     new[] { "Word", "PDF", "Excel", "GoogleDocs", "Note" },
     new double[] { 640, 320, 280, 120, 150 });
 
 // Gli assi del grafico hanno varie opzioni che possono cambiarne l'aspetto,
-// come la direzione, i tick delle unità maggiori/minori e i segni di graduazione.
+// come la direzione, i segni di graduazione delle unità maggiori/minori e i segni di graduazione.
 ChartAxis xAxis = chart.AxisX;
 xAxis.CategoryType = AxisCategoryType.Category;
 xAxis.Crosses = AxisCrosses.Minimum;
@@ -62,7 +62,7 @@ yAxis.MajorUnit = 100.0d;
 yAxis.MinorUnit = 20.0d;
 yAxis.TickLabelPosition = AxisTickLabelPosition.NextToAxis;
 
-// Gli istogrammi non hanno un asse Z.
+// I grafici a colonne non hanno un asse Z.
 Assert.Null(chart.AxisZ);
 
 doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");

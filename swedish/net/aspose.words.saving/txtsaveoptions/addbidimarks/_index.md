@@ -10,7 +10,7 @@ url: /sv/net/aspose.words.saving/txtsaveoptions/addbidimarks/
 
 Anger om dubbelriktade markeringar ska läggas till före varje BiDi-körning vid export i vanlig textformat.
 
-Standardvärdet är **falsk**.
+Standardvärdet är`falsk`.
 
 ```csharp
 public bool AddBidiMarks { get; set; }

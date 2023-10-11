@@ -1,14 +1,14 @@
 ---
 title: DocumentProperty.ToDateTime
 second_title: Aspose.Words for .NET API Referansı
-description: DocumentProperty yöntem. Özellik değerini UTCde DateTime olarak döndürür.
+description: DocumentProperty yöntem. Özellik değerini şu şekilde döndürür TarihSaat UTC. de
 type: docs
 weight: 80
 url: /tr/net/aspose.words.properties/documentproperty/todatetime/
 ---
 ## DocumentProperty.ToDateTime method
 
-Özellik değerini UTC'de DateTime olarak döndürür.
+Özellik değerini şu şekilde döndürür: **TarihSaat** UTC. 'de
 
 ```csharp
 public DateTime ToDateTime()
@@ -18,7 +18,7 @@ public DateTime ToDateTime()
 
 Özellik türü değilse bir istisna atarDateTime.
 
-Microsoft Word, özel tarih özellikleri için yalnızca tarih bölümünü (saat yok) depolar.
+Microsoft Word, özel tarih özellikleri için yalnızca tarih bölümünü (saati değil) saklar.
 
 ### Örnekler
 

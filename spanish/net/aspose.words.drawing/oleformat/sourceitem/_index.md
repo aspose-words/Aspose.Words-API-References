@@ -1,14 +1,14 @@
 ---
 title: OleFormat.SourceItem
 second_title: Referencia de API de Aspose.Words para .NET
-description: OleFormat propiedad. Obtiene o establece una cadena que se utiliza para identificar la parte del archivo de origen que se vincula.
+description: OleFormat propiedad. Obtiene o establece una cadena que se utiliza para identificar la parte del archivo fuente que se está vinculando.
 type: docs
 weight: 110
 url: /es/net/aspose.words.drawing/oleformat/sourceitem/
 ---
 ## OleFormat.SourceItem property
 
-Obtiene o establece una cadena que se utiliza para identificar la parte del archivo de origen que se vincula.
+Obtiene o establece una cadena que se utiliza para identificar la parte del archivo fuente que se está vinculando.
 
 ```csharp
 public string SourceItem { get; set; }
@@ -18,7 +18,7 @@ public string SourceItem { get; set; }
 
 El valor predeterminado es una cadena vacía.
 
-Por ejemplo, si el archivo de origen es un libro de Microsoft Excel, el`SourceItem` La propiedad podría devolver "Workbook1!R3C1:R4C2" si el objeto OLE contiene solo unas pocas celdas de de la hoja de trabajo.
+Por ejemplo, si el archivo fuente es un libro de Microsoft Excel, el`SourceItem` La propiedad puede devolver "Workbook1!R3C1:R4C2" si el objeto OLE contiene solo unas pocas celdas de la hoja de trabajo.
 
 ### Ejemplos
 
@@ -28,7 +28,7 @@ Muestra cómo insertar objetos OLE vinculados y no vinculados.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Incruste un dibujo de Microsoft Visio en el documento como un objeto OLE.
+// Incrustar un dibujo de Microsoft Visio en el documento como un objeto OLE.
 builder.InsertOleObject(ImageDir + "Microsoft Visio drawing.vsd", "Package", false, false, null);
 
 // Inserte un enlace al archivo en el sistema de archivos local y muéstrelo como un icono.
@@ -59,7 +59,7 @@ Assert.AreEqual("Microsoft Visio drawing.vsd", oleFormat.IconCaption);
 
 doc.Save(ArtifactsDir + "Shape.OleLinks.docx");
 
-// Si el objeto contiene datos OLE, podemos acceder a él usando una secuencia.
+// Si el objeto contiene datos OLE, podemos acceder a él mediante una secuencia.
 using (MemoryStream stream = oleFormat.GetOleEntry("\x0001CompObj"))
 {
     byte[] oleEntryBytes = stream.ToArray();

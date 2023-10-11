@@ -1,14 +1,14 @@
 ---
 title: TextColumnCollection.Spacing
 second_title: Aspose.Words for .NET API Referansı
-description: TextColumnCollection mülk. Sütunlar eşit aralıklarla yerleştirildiğinde her sütun arasındaki boşluk miktarını nokta olarak alır veya ayarlar.
+description: TextColumnCollection mülk. Sütunlar eşit aralıklarla yerleştirildiğinde her sütun arasındaki boşluk miktarını nokta cinsinden alır veya ayarlar.
 type: docs
 weight: 50
 url: /tr/net/aspose.words/textcolumncollection/spacing/
 ---
 ## TextColumnCollection.Spacing property
 
-Sütunlar eşit aralıklarla yerleştirildiğinde, her sütun arasındaki boşluk miktarını nokta olarak alır veya ayarlar.
+Sütunlar eşit aralıklarla yerleştirildiğinde, her sütun arasındaki boşluk miktarını nokta cinsinden alır veya ayarlar.
 
 ```csharp
 public double Spacing { get; set; }
@@ -16,7 +16,7 @@ public double Spacing { get; set; }
 
 ### Notlar
 
-Yalnızca şu durumlarda etkilidir:[`EvenlySpaced`](../evenlyspaced/) ayarlandı **doğru** .
+Yalnızca şu durumlarda etkili olur:[`EvenlySpaced`](../evenlyspaced/) ayarlandı`doğru` .
 
 ### Örnekler
 

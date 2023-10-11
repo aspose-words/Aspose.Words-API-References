@@ -1,14 +1,14 @@
 ---
 title: ImageSaveOptions.Resolution
 second_title: Aspose.Words لمراجع .NET API
-description: ImageSaveOptions ملكية. يضبط الدقة الأفقية والرأسية للصور التي تم إنشاؤها  بالنقاط في البوصة .
+description: ImageSaveOptions ملكية. يضبط الدقة الأفقية والرأسية للصور التي تم إنشاؤها بالنقاط في البوصة.
 type: docs
-weight: 120
+weight: 130
 url: /ar/net/aspose.words.saving/imagesaveoptions/resolution/
 ---
 ## ImageSaveOptions.Resolution property
 
-يضبط الدقة الأفقية والرأسية للصور التي تم إنشاؤها ، بالنقاط في البوصة .
+يضبط الدقة الأفقية والرأسية للصور التي تم إنشاؤها، بالنقاط في البوصة.
 
 ```csharp
 public float Resolution { set; }
@@ -16,11 +16,11 @@ public float Resolution { set; }
 
 ### ملاحظات
 
-هذه الخاصية لها تأثير فقط عند الحفظ بتنسيقات صور نقطية.
+تؤثر هذه الخاصية فقط عند الحفظ في تنسيقات الصور النقطية.
 
 ### أمثلة
 
-يوضح كيفية تحديد دقة أثناء تقديم مستند إلى PNG.
+يوضح كيفية تحديد الدقة أثناء عرض مستند إلى PNG.
 
 ```csharp
 Document doc = new Document();
@@ -32,11 +32,11 @@ Document doc = new Document();
 
             builder.InsertImage(ImageDir + "Logo.jpg");
 
-            // قم بإنشاء كائن "ImageSaveOptions" يمكننا تمريره إلى طريقة "حفظ" المستند
+            // أنشئ كائن "ImageSaveOptions" الذي يمكننا تمريره إلى طريقة "حفظ" المستند
             // لتعديل الطريقة التي تعرض بها هذه الطريقة المستند إلى صورة.
             ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Png);
 
-            // اضبط خاصية "Resolution" على "72" لتقديم المستند بدقة 72 نقطة في البوصة.
+            // اضبط خاصية "الدقة" على "72" لعرض المستند بدقة 72 نقطة في البوصة.
             options.Resolution = 72;
 
             doc.Save(ArtifactsDir + "ImageSaveOptions.Resolution.72dpi.png", options);
@@ -55,7 +55,7 @@ Document doc = new Document();
                 Assert.AreEqual(792, image.Height);
             }
 #endif
-            // اضبط خاصية "Resolution" على "300" لتقديم المستند بدقة 300 نقطة في البوصة.
+            // اضبط خاصية "الدقة" على "300" لعرض المستند بدقة 300 نقطة في البوصة.
             options.Resolution = 300;
 
             doc.Save(ArtifactsDir + "ImageSaveOptions.Resolution.300dpi.png", options);

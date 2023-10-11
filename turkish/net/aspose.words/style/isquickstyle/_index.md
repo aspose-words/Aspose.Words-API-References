@@ -1,14 +1,14 @@
 ---
 title: Style.IsQuickStyle
 second_title: Aspose.Words for .NET API Referansı
-description: Style mülk. Bu stilin MS Word UI içindeki Hızlı Stil galerisinde gösterilip gösterilmeyeceğini belirtir.
+description: Style mülk. Bu stilin MS Word kullanıcı arayüzündeki Hızlı Stil galerisinde gösterilip gösterilmeyeceğini belirtir.
 type: docs
-weight: 70
+weight: 80
 url: /tr/net/aspose.words/style/isquickstyle/
 ---
 ## Style.IsQuickStyle property
 
-Bu stilin MS Word UI içindeki Hızlı Stil galerisinde gösterilip gösterilmeyeceğini belirtir.
+Bu stilin MS Word kullanıcı arayüzündeki Hızlı Stil galerisinde gösterilip gösterilmeyeceğini belirtir.
 
 ```csharp
 public bool IsQuickStyle { get; set; }

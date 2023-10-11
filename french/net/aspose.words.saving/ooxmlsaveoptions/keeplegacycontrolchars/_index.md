@@ -22,8 +22,8 @@ Montre comment prendre en charge les caractères de contrôle hérités lors de 
 Document doc = new Document(MyDir + "Legacy control character.doc");
 
 // Lorsque nous enregistrons le document au format OOXML, nous pouvons créer un objet OoxmlSaveOptions
-// puis passez-le à la méthode d'enregistrement du document pour modifier la façon dont nous enregistrons le document.
-// Définissez la propriété "KeepLegacyControlChars" sur "true" pour conserver
+// puis transmettez-le à la méthode de sauvegarde du document pour modifier la façon dont nous enregistrons le document.
+// Définissez la propriété "KeepLegacyControlChars" sur "true" pour préserver
 // le caractère hérité "ShortDateTime" lors de l'enregistrement.
 // Définissez la propriété "KeepLegacyControlChars" sur "false" pour supprimer
 // le caractère hérité "ShortDateTime" du document de sortie.

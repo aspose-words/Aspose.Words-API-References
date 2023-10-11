@@ -1,14 +1,16 @@
 ---
 title: Class WarningInfo
 second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.WarningInfo classe. Contiene informazioni su un avviso che Aspose.Words ha emesso durante il caricamento o il salvataggio del documento.
+description: Aspose.Words.WarningInfo classe. Contiene informazioni su un avviso emesso da Aspose.Words durante il caricamento o il salvataggio del documento.
 type: docs
-weight: 6320
+weight: 6630
 url: /it/net/aspose.words/warninginfo/
 ---
 ## WarningInfo class
 
-Contiene informazioni su un avviso che Aspose.Words ha emesso durante il caricamento o il salvataggio del documento.
+Contiene informazioni su un avviso emesso da Aspose.Words durante il caricamento o il salvataggio del documento.
+
+Per saperne di più, visita il[Programmazione con documenti](https://docs.aspose.com/words/net/programming-with-documents/) articolo di documentazione.
 
 ```csharp
 public class WarningInfo
@@ -19,7 +21,7 @@ public class WarningInfo
 | Nome | Descrizione |
 | --- | --- |
 | [Description](../../aspose.words/warninginfo/description/) { get; } | Restituisce la descrizione dell'avviso. |
-| [Source](../../aspose.words/warninginfo/source/) { get; } | Restituisce l'origine dell'avviso. |
+| [Source](../../aspose.words/warninginfo/source/) { get; } | Restituisce la fonte dell'avviso. |
 | [WarningType](../../aspose.words/warninginfo/warningtype/) { get; } | Restituisce il tipo di avviso. |
 
 ### Osservazioni
@@ -28,24 +30,26 @@ Non crei istanze di questa classe. Gli oggetti di questa classe vengono creati e
 
 ### Esempi
 
-Mostra come impostare la proprietà per trovare la corrispondenza più vicina per un carattere mancante dalle fonti di carattere disponibili.
+Mostra come impostare la proprietà per trovare la corrispondenza più vicina per un carattere mancante tra le origini dei caratteri disponibili.
 
 ```csharp
-[Test]
 public void EnableFontSubstitution()
 {
-    // Apri un documento che contiene testo formattato con un font che non esiste in nessuna delle nostre fonti di font.
+    // Apre un documento che contiene testo formattato con un carattere che non esiste in nessuna delle nostre fonti di caratteri.
     Document doc = new Document(MyDir + "Missing font.docx");
 
-    // Assegna una richiamata per la gestione degli avvisi di sostituzione dei caratteri.
+    // Assegna una richiamata per gestire gli avvisi di sostituzione dei caratteri.
     HandleDocumentSubstitutionWarnings substitutionWarningHandler = new HandleDocumentSubstitutionWarnings();
     doc.WarningCallback = substitutionWarningHandler;
 
-    // Imposta un nome di carattere predefinito e abilita la sostituzione dei caratteri.
+    // Imposta un nome di carattere predefinito e abilita la sostituzione del carattere.
     FontSettings fontSettings = new FontSettings();
     fontSettings.SubstitutionSettings.DefaultFontSubstitution.DefaultFontName = "Arial";
     ;
     fontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
+
+    // Le metriche dei caratteri originali devono essere utilizzate dopo la sostituzione dei caratteri.
+    doc.LayoutOptions.KeepOriginalFontMetrics = true;
 
     // Riceveremo un avviso di sostituzione del carattere se salviamo un documento con un carattere mancante.
     doc.FontSettings = fontSettings;

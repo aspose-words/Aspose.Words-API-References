@@ -1,14 +1,14 @@
 ---
 title: SignatureLineOptions.AllowComments
 second_title: Aspose.Words för .NET API Referens
-description: SignatureLineOptions fast egendom. Hämtar eller ställer in ett värde som anger att undertecknaren kan lägga till kommentarer i dialogrutan Signera. Standardvärdet för den här egenskapen är falsk .
+description: SignatureLineOptions fast egendom. Hämtar eller ställer in ett värde som anger att undertecknaren kan lägga till kommentarer i dialogrutan Signera. Standardvärdet för den här egenskapen ärfalsk .
 type: docs
 weight: 20
 url: /sv/net/aspose.words/signaturelineoptions/allowcomments/
 ---
 ## SignatureLineOptions.AllowComments property
 
-Hämtar eller ställer in ett värde som anger att undertecknaren kan lägga till kommentarer i dialogrutan Signera. Standardvärdet för den här egenskapen är **falsk** .
+Hämtar eller ställer in ett värde som anger att undertecknaren kan lägga till kommentarer i dialogrutan Signera. Standardvärdet för den här egenskapen är`falsk` .
 
 ```csharp
 public bool AllowComments { get; set; }

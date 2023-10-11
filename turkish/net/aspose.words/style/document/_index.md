@@ -3,7 +3,7 @@ title: Style.Document
 second_title: Aspose.Words for .NET API Referansı
 description: Style mülk. Sahip belgesini alır.
 type: docs
-weight: 40
+weight: 50
 url: /tr/net/aspose.words/style/document/
 ---
 ## Style.Document property

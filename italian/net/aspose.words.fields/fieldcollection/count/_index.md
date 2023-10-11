@@ -1,14 +1,14 @@
 ---
 title: FieldCollection.Count
 second_title: Aspose.Words per .NET API Reference
-description: FieldCollection proprietà. Restituisce il numero dei campi nella raccolta.
+description: FieldCollection proprietà. Restituisce il numero dei campi nella collection.
 type: docs
 weight: 10
 url: /it/net/aspose.words.fields/fieldcollection/count/
 ---
 ## FieldCollection.Count property
 
-Restituisce il numero dei campi nella raccolta.
+Restituisce il numero dei campi nella collection.
 
 ```csharp
 public int Count { get; }
@@ -35,7 +35,7 @@ FieldCollection fields = doc.Range.Fields;
 Assert.AreEqual(6, fields.Count);
 
 // Di seguito sono riportati quattro modi per rimuovere i campi da una raccolta di campi.
-// 1 - Ottieni un campo da rimuovere:
+// 1 - Ottieni un campo per rimuoversi:
 fields[0].Remove();
 Assert.AreEqual(5, fields.Count);
 
@@ -48,7 +48,7 @@ Assert.AreEqual(4, fields.Count);
 fields.RemoveAt(2);
 Assert.AreEqual(3, fields.Count);
 
-// 4 - Rimuovi tutti i campi dalla raccolta in una volta:
+// 4 - Rimuovi tutti i campi dalla raccolta contemporaneamente:
 fields.Clear();
 Assert.AreEqual(0, fields.Count);
 ```
@@ -56,6 +56,7 @@ Assert.AreEqual(0, fields.Count);
 Mostra come lavorare con una raccolta di campi.
 
 ```csharp
+public void FieldCollection()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -72,7 +73,7 @@ Mostra come lavorare con una raccolta di campi.
 
     Assert.AreEqual(6, fields.Count);
 
-    // Esegui l'iterazione sulla raccolta di campi e stampa il contenuto e il tipo
+    // Itera sulla raccolta di campi e stampa contenuto e tipo
     // di ogni campo utilizzando un'implementazione personalizzata del visitatore.
     FieldVisitor fieldVisitor = new FieldVisitor();
 
@@ -94,6 +95,7 @@ Mostra come lavorare con una raccolta di campi.
     }
 
     Console.WriteLine(fieldVisitor.GetText());
+}
 
 /// <summary>
 /// Documenta l'implementazione del visitatore che stampa le informazioni sul campo.
@@ -106,7 +108,7 @@ public class FieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Ottiene il testo normale del documento accumulato dal visitatore.
+    /// Ottiene il testo semplice del documento accumulato dal visitatore.
     /// </summary>
     public string GetText()
     {
@@ -114,7 +116,7 @@ public class FieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando viene rilevato un nodo FieldStart nel documento.
+    /// Chiamato quando nel documento viene incontrato un nodo FieldStart.
     /// </summary>
     public override VisitorAction VisitFieldStart(FieldStart fieldStart)
     {
@@ -126,7 +128,7 @@ public class FieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando viene rilevato un nodo FieldSeparator nel documento.
+    /// Chiamato quando nel documento viene incontrato un nodo FieldSeparator.
     /// </summary>
     public override VisitorAction VisitFieldSeparator(FieldSeparator fieldSeparator)
     {
@@ -136,7 +138,7 @@ public class FieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando viene rilevato un nodo FieldEnd nel documento.
+    /// Chiamato quando nel documento viene incontrato un nodo FieldEnd.
     /// </summary>
     public override VisitorAction VisitFieldEnd(FieldEnd fieldEnd)
     {

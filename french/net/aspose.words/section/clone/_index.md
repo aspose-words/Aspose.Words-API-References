@@ -1,14 +1,14 @@
 ---
 title: Section.Clone
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Section méthode. Crée un doublon de cette section.
+description: Section méthode. Crée un double de cette section.
 type: docs
-weight: 110
+weight: 130
 url: /fr/net/aspose.words/section/clone/
 ---
 ## Section.Clone method
 
-Crée un doublon de cette section.
+Crée un double de cette section.
 
 ```csharp
 public Section Clone()

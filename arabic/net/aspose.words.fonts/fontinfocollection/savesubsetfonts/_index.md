@@ -1,16 +1,16 @@
 ---
 title: FontInfoCollection.SaveSubsetFonts
 second_title: Aspose.Words لمراجع .NET API
-description: FontInfoCollection ملكية. يحدد ما إذا كان سيتم حفظ مجموعة فرعية من خطوط TrueType المضمنة مع المستند أم لا. خاطئة.
+description: FontInfoCollection ملكية. يحدد ما إذا كان سيتم حفظ مجموعة فرعية من خطوط TrueType المضمنة مع المستند أم لا. القيمة الافتراضية لهذه الخاصية هيخطأ شنيع.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.fonts/fontinfocollection/savesubsetfonts/
 ---
 ## FontInfoCollection.SaveSubsetFonts property
 
-يحدد ما إذا كان سيتم حفظ مجموعة فرعية من خطوط TrueType المضمنة مع المستند أم لا. **خاطئة**.
+يحدد ما إذا كان سيتم حفظ مجموعة فرعية من خطوط TrueType المضمنة مع المستند أم لا. القيمة الافتراضية لهذه الخاصية هي`خطأ شنيع`.
 
-يعمل هذا الخيار فقط عندما[`EmbedTrueTypeFonts`](../embedtruetypefonts/) تم تعيين الخاصية على **حقيقي**.
+هذا الخيار يعمل فقط عندما[`EmbedTrueTypeFonts`](../embedtruetypefonts/) تم تعيين الخاصية على`حقيقي`.
 
 ```csharp
 public bool SaveSubsetFonts { get; set; }
@@ -18,11 +18,11 @@ public bool SaveSubsetFonts { get; set; }
 
 ### ملاحظات
 
-يعمل هذا الخيار مع تنسيقات DOC و DOCX و RTF فقط.
+يعمل هذا الخيار مع تنسيقات DOC وDOCX وRTF فقط.
 
 ### أمثلة
 
-يوضح كيفية حفظ مستند بخطوط TrueType المضمنة.
+يوضح كيفية حفظ مستند باستخدام خطوط TrueType المضمنة.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");

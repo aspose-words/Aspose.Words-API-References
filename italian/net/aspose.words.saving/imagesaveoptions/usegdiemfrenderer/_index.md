@@ -3,7 +3,7 @@ title: ImageSaveOptions.UseGdiEmfRenderer
 second_title: Aspose.Words per .NET API Reference
 description: ImageSaveOptions proprietà. Ottiene o imposta un valore che determina se utilizzare il renderer di metafile GDI o Aspose.Words durante il salvataggio in EMF.
 type: docs
-weight: 180
+weight: 190
 url: /it/net/aspose.words.saving/imagesaveoptions/usegdiemfrenderer/
 ---
 ## ImageSaveOptions.UseGdiEmfRenderer property
@@ -16,11 +16,11 @@ public bool UseGdiEmfRenderer { get; set; }
 
 ### Osservazioni
 
-Se impostato su`VERO`Viene utilizzato il renderer di metafile GDI+. Ad esempio, il contenuto viene scritto nell'oggetto GDI+ graphics e salvato nel metafile.
+Se impostato su`VERO` Viene utilizzato il renderer di metafile GDI+. Cioè il contenuto viene scritto nell'oggetto GDI+ graphics e salvato nel metafile.
 
-Se impostato su`falso` Viene utilizzato il renderer di metafile Aspose.Words. Cioè il contenuto viene scritto direttamente nel formato del metafile con Aspose.Words.
+Se impostato su`falso` Viene utilizzato il renderer di metafile Aspose.Words. Cioè il contenuto viene scritto direttamente nel formato metafile con Aspose.Words.
 
-Ha effetto solo durante il salvataggio in EMF.
+Ha effetto solo quando si salva in EMF.
 
 Il salvataggio GDI+ funziona solo su .NET.
 
@@ -46,7 +46,7 @@ Document doc = new Document();
 
             doc.Save(ArtifactsDir + "ImageSaveOptions.Renderer.emf", saveOptions);
 
-            // Il renderer GDI+ di solito crea file più grandi.
+            // Il renderer GDI+ solitamente crea file più grandi.
             if (useGdiEmfRenderer)
 #if NET48 || JAVA
                 Assert.That(300000, Is.LessThan(new FileInfo(ArtifactsDir + "ImageSaveOptions.Renderer.emf").Length));

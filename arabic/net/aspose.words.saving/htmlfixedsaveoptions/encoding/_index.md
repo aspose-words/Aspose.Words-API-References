@@ -1,14 +1,14 @@
 ---
 title: HtmlFixedSaveOptions.Encoding
 second_title: Aspose.Words لمراجع .NET API
-description: HtmlFixedSaveOptions ملكية. يحدد الترميز الذي سيتم استخدامه عند التصدير إلى HTML. القيمة الافتراضية هيترميز UTF8 جديد صحيح UTF8 مع BOM .
+description: HtmlFixedSaveOptions ملكية. يحدد الترميز الذي سيتم استخدامه عند التصدير إلى HTML. القيمة الافتراضية هيترميز UTF8 الجديد صحيح UTF8 مع قائمة مكونات الصنف.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.saving/htmlfixedsaveoptions/encoding/
 ---
 ## HtmlFixedSaveOptions.Encoding property
 
-يحدد الترميز الذي سيتم استخدامه عند التصدير إلى HTML. القيمة الافتراضية هي`ترميز UTF8 جديد (صحيح)` (UTF-8 مع BOM) .
+يحدد الترميز الذي سيتم استخدامه عند التصدير إلى HTML. القيمة الافتراضية هي`ترميز UTF8 الجديد (صحيح)` (UTF-8 مع قائمة مكونات الصنف).
 
 ```csharp
 public Encoding Encoding { get; set; }
@@ -16,7 +16,7 @@ public Encoding Encoding { get; set; }
 
 ### أمثلة
 
-يوضح كيفية تعيين الترميز المراد استخدامه أثناء تصدير مستند إلى HTML.
+يوضح كيفية تعيين الترميز الذي سيتم استخدامه أثناء تصدير مستند إلى HTML.
 
 ```csharp
 Document doc = new Document();
@@ -24,8 +24,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln("Hello World!");
 
-// الترميز الافتراضي هو UTF-8. إذا أردنا تمثيل وثيقتنا باستخدام ترميز مختلف ،
-// يمكننا استخدام كائن SaveOptions لتعيين ترميز معين.
+// الترميز الافتراضي هو UTF-8. إذا أردنا تمثيل وثيقتنا باستخدام ترميز مختلف،
+// يمكننا استخدام كائن SaveOptions لتعيين ترميز محدد.
 HtmlFixedSaveOptions htmlFixedSaveOptions = new HtmlFixedSaveOptions
 {
     Encoding = Encoding.GetEncoding("ASCII")

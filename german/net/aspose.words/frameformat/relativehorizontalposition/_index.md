@@ -1,14 +1,14 @@
 ---
 title: FrameFormat.RelativeHorizontalPosition
 second_title: Aspose.Words für .NET-API-Referenz
-description: FrameFormat eigendom. Ruft die relative horizontale Position eines Rahmens ab.
+description: FrameFormat eigendom. Ermittelt die relative horizontale Position eines Frames.
 type: docs
 weight: 70
 url: /de/net/aspose.words/frameformat/relativehorizontalposition/
 ---
 ## FrameFormat.RelativeHorizontalPosition property
 
-Ruft die relative horizontale Position eines Rahmens ab.
+Ermittelt die relative horizontale Position eines Frames.
 
 ```csharp
 public RelativeHorizontalPosition RelativeHorizontalPosition { get; }
@@ -16,7 +16,7 @@ public RelativeHorizontalPosition RelativeHorizontalPosition { get; }
 
 ### Beispiele
 
-Zeigt, wie Informationen zu Formatierungseigenschaften von Absätzen abgerufen werden, die Rahmen sind.
+Zeigt, wie Sie Informationen zu Formatierungseigenschaften von Absätzen erhalten, die Rahmen sind.
 
 ```csharp
 Document doc = new Document(MyDir + "Paragraph frame.docx");

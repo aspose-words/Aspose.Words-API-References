@@ -1,14 +1,16 @@
 ---
 title: Class DocumentPropertyCollection
 second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Properties.DocumentPropertyCollection сорт. Базовый класс дляBuiltInDocumentProperties а такжеCustomDocumentProperties коллекции.
+description: Aspose.Words.Properties.DocumentPropertyCollection сорт. Базовый класс дляBuiltInDocumentProperties иCustomDocumentProperties коллекции.
 type: docs
-weight: 4230
+weight: 4480
 url: /ru/net/aspose.words.properties/documentpropertycollection/
 ---
 ## DocumentPropertyCollection class
 
-Базовый класс для[`BuiltInDocumentProperties`](../builtindocumentproperties/) а также[`CustomDocumentProperties`](../customdocumentproperties/) коллекции.
+Базовый класс для[`BuiltInDocumentProperties`](../builtindocumentproperties/) и[`CustomDocumentProperties`](../customdocumentproperties/) коллекции.
+
+Чтобы узнать больше, посетите[Работа со свойствами документа](https://docs.aspose.com/words/net/work-with-document-properties/) статья документации.
 
 ```csharp
 public abstract class DocumentPropertyCollection : IEnumerable<DocumentProperty>
@@ -27,21 +29,21 @@ public abstract class DocumentPropertyCollection : IEnumerable<DocumentProperty>
 | Имя | Описание |
 | --- | --- |
 | [Clear](../../aspose.words.properties/documentpropertycollection/clear/)() | Удаляет все свойства из коллекции. |
-| [Contains](../../aspose.words.properties/documentpropertycollection/contains/)(string) | Возвращает значение true, если свойство с указанным именем существует в коллекции. |
-| [GetEnumerator](../../aspose.words.properties/documentpropertycollection/getenumerator/)() | Возвращает объект перечислителя, который можно использовать для перебора всех элементов в коллекции. |
+| [Contains](../../aspose.words.properties/documentpropertycollection/contains/)(string) | Возвращает`истинный` если свойство с указанным именем существует в коллекции. |
+| [GetEnumerator](../../aspose.words.properties/documentpropertycollection/getenumerator/)() | Возвращает объект перечислителя, который можно использовать для перебора всех элементов коллекции. |
 | [IndexOf](../../aspose.words.properties/documentpropertycollection/indexof/)(string) | Получает индекс свойства по имени. |
 | [Remove](../../aspose.words.properties/documentpropertycollection/remove/)(string) | Удаляет свойство с указанным именем из коллекции. |
 | [RemoveAt](../../aspose.words.properties/documentpropertycollection/removeat/)(int) | Удаляет свойство по указанному индексу. |
 
 ### Примечания
 
-Имена свойств нечувствительны к регистру.
+Имена свойств не чувствительны к регистру.
 
 Свойства в коллекции отсортированы в алфавитном порядке по имени.
 
 ### Примеры
 
-Показывает, как работать с пользовательскими свойствами документа.
+Показывает, как работать с настраиваемыми свойствами документа.
 
 ```csharp
 Document doc = new Document();
@@ -60,21 +62,21 @@ properties.Add("Authorized Amount", 123.45);
 Assert.AreEqual(1, properties.IndexOf("Authorized Amount"));
 Assert.AreEqual(5, properties.Count);
 
-// Распечатать каждое пользовательское свойство в документе.
+// Распечатываем все пользовательские свойства в документе.
 using (IEnumerator<DocumentProperty> enumerator = properties.GetEnumerator())
 {
     while (enumerator.MoveNext())
         Console.WriteLine($"Name: \"{enumerator.Current.Name}\"\n\tType: \"{enumerator.Current.Type}\"\n\tValue: \"{enumerator.Current.Value}\"");
 }
 
-// Отображение значения пользовательского свойства с использованием поля DOCPROPERTY.
+// Отображение значения пользовательского свойства с помощью поля DOCPROPERTY.
 DocumentBuilder builder = new DocumentBuilder(doc);
 FieldDocProperty field = (FieldDocProperty)builder.InsertField(" DOCPROPERTY \"Authorized By\"");
 field.Update();
 
 Assert.AreEqual("John Doe", field.Result);
 
-// Мы можем найти эти пользовательские свойства в Microsoft Word через «Файл» -> "Свойства" > "Дополнительные свойства" > "Обычай".
+// Мы можем найти эти пользовательские свойства в Microsoft Word через «Файл» -> gt; «Свойства» > «Дополнительные свойства» > "Обычай".
 doc.Save(ArtifactsDir + "DocumentProperties.DocumentPropertyCollection.docx");
 
 // Ниже приведены три способа удаления пользовательских свойств из документа.

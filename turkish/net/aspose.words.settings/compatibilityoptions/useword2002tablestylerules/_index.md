@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.UseWord2002TableStyleRules
 second_title: Aspose.Words for .NET API Referansı
-description: CompatibilityOptions mülk. Word 2002 Tablo Stili Kurallarını Öykün.
+description: CompatibilityOptions mülk. Word 2002 Tablo Stili Kurallarını Taklit Et.
 type: docs
 weight: 660
 url: /tr/net/aspose.words.settings/compatibilityoptions/useword2002tablestylerules/
 ---
 ## CompatibilityOptions.UseWord2002TableStyleRules property
 
-Word 2002 Tablo Stili Kurallarını Öykün.
+Word 2002 Tablo Stili Kurallarını Taklit Et.
 
 ```csharp
 public bool UseWord2002TableStyleRules { get; set; }

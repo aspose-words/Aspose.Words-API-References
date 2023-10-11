@@ -20,11 +20,11 @@ public List GetListByListId(int listId)
 
 ### Geri dönüş değeri
 
-Liste nesnesini döndürür. Belirtilen tanımlayıcıya sahip bir liste bulunamazsa null döndürür.
+Liste nesnesini döndürür. İadeler`hükümsüz` belirtilen tanımlayıcıya sahip bir liste bulunamazsa.
 
 ### Notlar
 
-Normalde bu yöntemi kullanmanıza gerek yoktur. Çoğu zaman, liste formatting öğesini paragraflara yalnızca[`List`](../../listformat/list/) property [`ListFormat`](../../listformat/) nesne.
+Normalde bu yöntemi kullanmanıza gerek yoktur. Çoğu zaman liste biçimlendirme 'yi paragraflara yalnızca ayarlarla uygularsınız.[`List`](../../listformat/list/) property /[`ListFormat`](../../listformat/) nesne.
 
 ### Örnekler
 
@@ -34,11 +34,9 @@ Listelerin sahip belge özelliklerinin nasıl doğrulanacağını gösterir.
 Document doc = new Document();
 
 ListCollection lists = doc.Lists;
-
 Assert.AreEqual(doc, lists.Document);
 
 List list = lists.Add(ListTemplate.BulletDefault);
-
 Assert.AreEqual(doc, list.Document);
 
 Console.WriteLine("Current list count: " + lists.Count);

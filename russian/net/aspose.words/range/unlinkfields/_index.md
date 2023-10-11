@@ -1,14 +1,14 @@
 ---
 title: Range.UnlinkFields
 second_title: Справочник по API Aspose.Words для .NET
-description: Range метод. Разъединяет поля в этом диапазоне.
+description: Range метод. Отменяет связь полей в этом диапазоне.
 type: docs
-weight: 100
+weight: 110
 url: /ru/net/aspose.words/range/unlinkfields/
 ---
 ## Range.UnlinkFields method
 
-Разъединяет поля в этом диапазоне.
+Отменяет связь полей в этом диапазоне.
 
 ```csharp
 public void UnlinkFields()
@@ -16,9 +16,9 @@ public void UnlinkFields()
 
 ### Примечания
 
-Заменяет все поля в этом диапазоне их самыми последними результатами.
+Заменяет все поля в этом диапазоне самыми последними результатами.
 
-Чтобы разъединить поля во всем документе, используйте`UnlinkFields`.
+Чтобы отменить связь полей во всем документе, используйте`UnlinkFields`.
 
 ### Примеры
 

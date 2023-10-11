@@ -3,7 +3,7 @@ title: DocumentBuilder.MoveToMergeField
 second_title: Aspose.Words per .NET API Reference
 description: DocumentBuilder metodo. Sposta il cursore in una posizione appena oltre il campo di unione specificato e rimuove il campo di unione.
 type: docs
-weight: 530
+weight: 560
 url: /it/net/aspose.words/documentbuilder/movetomergefield/
 ---
 ## MoveToMergeField(string) {#movetomergefield}
@@ -16,26 +16,26 @@ public bool MoveToMergeField(string fieldName)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| fieldName | String | Il nome senza distinzione tra maiuscole e minuscole del campo della stampa unione. |
+| fieldName | String | Il nome del campo di stampa unione senza distinzione tra maiuscole e minuscole. |
 
 ### Valore di ritorno
 
-True se il campo di unione è stato trovato e il cursore è stato spostato; falso altrimenti.
+`VERO` se il campo unione è stato trovato e il cursore è stato spostato;`falso` Altrimenti.
 
 ### Osservazioni
 
-Si noti che questo metodo elimina il campo di unione dal documento dopo aver spostato il cursore.
+Tieni presente che questo metodo elimina il campo di unione dal documento dopo aver spostato il cursore.
 
 ### Esempi
 
-Mostra come riempire MERGEFIELD con i dati con un generatore di documenti invece di una stampa unione.
+Mostra come riempire MERGEFIELD con dati con un generatore di documenti invece che con una stampa unione.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Inserisce alcuni MERGEFIELDS, che accettano dati da colonne con lo stesso nome in un'origine dati durante una stampa unione,
-// e poi riempili manualmente.
+// e poi riempirli manualmente.
 builder.InsertField(" MERGEFIELD Chairman ");
 builder.InsertField(" MERGEFIELD ChiefFinancialOfficer ");
 builder.InsertField(" MERGEFIELD ChiefTechnologyOfficer ");
@@ -55,15 +55,16 @@ builder.Writeln("John Bloggs");
 doc.Save(ArtifactsDir + "DocumentBuilder.FillMergeFields.docx");
 ```
 
-Mostra come inserire campi modulo checkbox in MERGEFIELD come unire dati durante la stampa unione.
+Mostra come inserire i campi modulo delle caselle di controllo nei MERGEFIELD come dati di unione durante la stampa unione.
 
 ```csharp
+public void InsertCheckBox()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Usa MERGEFIELD con i tag "TableStart"/"TableEnd" per definire una regione di stampa unione
-    // che appartiene a un'origine dati denominata "StudentCourse" e ha un MERGEFIELD che accetta i dati da una colonna denominata "CourseName".
+    // Utilizza MERGEFIELD con i tag "TableStart"/"TableEnd" per definire un'area di stampa unione
+    // che appartiene a un'origine dati denominata "StudentCourse" e dispone di un MERGEFIELD che accetta dati da una colonna denominata "CourseName".
     builder.StartTable();
     builder.InsertCell();
     builder.InsertField(" MERGEFIELD  TableStart:StudentCourse ");
@@ -79,9 +80,10 @@ Mostra come inserire campi modulo checkbox in MERGEFIELD come unire dati durante
 
     doc.MailMerge.ExecuteWithRegions(dataTable);
     doc.Save(ArtifactsDir + "MailMergeEvent.InsertCheckBox.docx");
+}
 
 /// <summary>
-/// Quando incontra un MERGEFIELD con un nome specifico, inserisce una casella di controllo nel campo del modulo invece di unire il testo dei dati.
+/// Quando incontra un MERGEFIELD con un nome specifico, inserisce un campo modulo con casella di controllo invece del testo dei dati di unione.
 /// </summary>
 private class HandleMergeFieldInsertCheckBox : IFieldMergingCallback
 {
@@ -100,7 +102,7 @@ private class HandleMergeFieldInsertCheckBox : IFieldMergingCallback
 
             string fieldValue = args.FieldValue.ToString();
 
-            // In questo caso, per ogni record index 'n', il valore del campo corrispondente è "Corso n".
+            // In questo caso, per ogni indice di record 'n', il valore del campo corrispondente è "Corso n".
             Assert.AreEqual(char.GetNumericValue(fieldValue[7]), args.RecordIndex);
 
             builder.Write(fieldValue);
@@ -117,7 +119,7 @@ private class HandleMergeFieldInsertCheckBox : IFieldMergingCallback
 }
 
 /// <summary>
-/// Crea un'origine dati per la stampa unione.
+/// Crea un'origine dati di stampa unione.
 /// </summary>
 private static DataTable GetStudentCourseDataTable()
 {
@@ -152,17 +154,17 @@ public bool MoveToMergeField(string fieldName, bool isAfter, bool isDeleteField)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| fieldName | String | Il nome senza distinzione tra maiuscole e minuscole del campo della stampa unione. |
-| isAfter | Boolean | Se true, sposta il cursore in modo che si trovi dopo la fine del campo. Se false, sposta il cursore in modo che sia prima dell'inizio del campo. |
-| isDeleteField | Boolean | Se true, elimina il campo di unione. |
+| fieldName | String | Il nome del campo di stampa unione senza distinzione tra maiuscole e minuscole. |
+| isAfter | Boolean | Quando`VERO` , sposta il cursore dopo la fine del campo. Quando`falso` , sposta il cursore prima dell'inizio del campo. |
+| isDeleteField | Boolean | Quando`VERO`, elimina il campo di unione. |
 
 ### Valore di ritorno
 
-True se il campo di unione è stato trovato e il cursore è stato spostato; falso altrimenti.
+`VERO` se il campo unione è stato trovato e il cursore è stato spostato;`falso` Altrimenti.
 
 ### Esempi
 
-Mostra come inserire i campi e spostare il cursore del generatore di documenti su di essi.
+Mostra come inserire i campi e spostare su di essi il cursore del generatore di documenti.
 
 ```csharp
 Document doc = new Document();
@@ -173,11 +175,11 @@ builder.InsertField(@"MERGEFIELD MyMergeField2 \* MERGEFORMAT");
 // Sposta il cursore sul primo MERGEFIELD.
 builder.MoveToMergeField("MyMergeField1", true, false);
 
-// Nota che il cursore viene posizionato subito dopo il primo MERGEFIELD e prima del secondo.
+// Nota che il cursore viene posizionato immediatamente dopo il primo MERGEFIELD e prima del secondo.
 Assert.AreEqual(doc.Range.Fields[1].Start, builder.CurrentNode);
 Assert.AreEqual(doc.Range.Fields[0].End, builder.CurrentNode.PreviousSibling);
 
-// Se desideriamo modificare il codice campo o il contenuto del campo utilizzando il builder,
+// Se desideriamo modificare il codice o il contenuto del campo utilizzando il builder,
 // il suo cursore dovrebbe trovarsi all'interno di un campo.
 // Per posizionarlo all'interno di un campo, dovremmo chiamare il metodo MoveTo del generatore di documenti
 // e passa il nodo iniziale o separatore del campo come argomento.

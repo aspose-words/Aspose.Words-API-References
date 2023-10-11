@@ -16,7 +16,7 @@ public bool IsDeleteRevision { get; }
 
 ### 例子
 
-显示如何使用修订段落。
+展示如何使用修订段落。
 
 ```csharp
 Document doc = new Document();
@@ -27,7 +27,7 @@ para.AppendChild(new Run(doc, "Paragraph 1. "));
 body.AppendParagraph("Paragraph 2. ");
 body.AppendParagraph("Paragraph 3. ");
 
-// 以上段落不是修订。
+// 以上段落并非修订。
 // 我们在开始修订跟踪后添加的段落将注册为“插入”修订。
 doc.StartTrackRevisions("John Doe", DateTime.Now);
 
@@ -43,13 +43,13 @@ Assert.AreEqual(4, paragraphs.Count);
 para = paragraphs[2];
 para.Remove();
 
-// 这样的段落将一直保留，直到我们接受或拒绝删除修订。
+// 此类段落将一直保留，直到我们接受或拒绝删除修订。
 // 接受修订将永久删除该段落，
-// 拒绝修订会将其留在文档中，就好像我们从未删除它一样。
+// 拒绝修订会将其保留在文档中，就好像我们从未删除它一样。
 Assert.AreEqual(4, paragraphs.Count);
 Assert.True(para.IsDeleteRevision);
 
-// 接受修订，然后验证段落是否消失。
+// 接受修改，然后验证该段落是否已消失。
 doc.AcceptAllRevisions();
 
 Assert.AreEqual(3, paragraphs.Count);

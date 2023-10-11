@@ -3,7 +3,7 @@ title: Enum ArrowLength
 second_title: Aspose.Words per .NET API Reference
 description: Aspose.Words.Drawing.ArrowLength enum. Lunghezza della freccia alla fine di una riga.
 type: docs
-weight: 470
+weight: 480
 url: /it/net/aspose.words.drawing/arrowlength/
 ---
 ## ArrowLength enumeration
@@ -21,7 +21,7 @@ public enum ArrowLength
 | Short | `0` |  |
 | Medium | `1` |  |
 | Long | `2` |  |
-| Default | `0` | ComeShort . |
+| Default | `0` | Uguale aShort . |
 
 ### Esempi
 
@@ -33,7 +33,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Di seguito sono riportati quattro esempi di forme che possiamo inserire nei nostri documenti.
 // 1 - Linea rossa tratteggiata, orizzontale, semitrasparente
-// con una freccia a sinistra e un diamante a destra:
+// con una freccia all'estremità sinistra e un diamante all'estremità destra:
 Shape arrow = new Shape(doc, ShapeType.Line);
 arrow.Width = 200;
 arrow.Stroke.Color = Color.Red;
@@ -50,7 +50,7 @@ Assert.AreEqual(JoinStyle.Miter, arrow.Stroke.JoinStyle);
 
 builder.InsertNode(arrow);
 
-// 2 - Linea diagonale nera spessa con estremità arrotondate:
+// 2 - Spessa linea diagonale nera con estremità arrotondate:
 Shape line = new Shape(doc, ShapeType.Line);
 line.Top = 40;
 line.Width = 200;
@@ -70,7 +70,7 @@ filledInArrow.Fill.Visible = true;
 
 builder.InsertNode(filledInArrow);
 
-// 4 - Freccia con orientamento capovolto riempita con il logo Aspose:
+// 4 - Freccia con orientamento invertito riempito con il logo Aspose:
 Shape filledInArrowImg = new Shape(doc, ShapeType.Arrow);
 filledInArrowImg.Width = 200;
 filledInArrowImg.Height = 40;
@@ -82,8 +82,8 @@ byte[] imageBytes = File.ReadAllBytes(ImageDir + "Logo.jpg");
 using (MemoryStream stream = new MemoryStream(imageBytes))
 {
     Image image = Image.FromStream(stream);
-    // Quando capovolgiamo l'orientamento della nostra freccia, capovolgiamo anche l'immagine contenuta nella freccia.
-    // Capovolgi l'immagine nell'altro modo per annullarlo prima che la forma la visualizzi.
+    // Quando invertiamo l'orientamento della nostra freccia, invertiamo anche l'immagine che la freccia contiene.
+    // Capovolgi l'immagine nell'altro modo per annullarla prima di ottenere la forma per visualizzarla.
     image.RotateFlip(RotateFlipType.RotateNoneFlipXY);
 
     filledInArrowImg.ImageData.SetImage(image);

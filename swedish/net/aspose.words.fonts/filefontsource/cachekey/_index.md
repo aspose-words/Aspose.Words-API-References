@@ -16,7 +16,7 @@ public string CacheKey { get; }
 
 ### Anmärkningar
 
-Den här nyckeln används för att identifiera cacheobjekt när du sparar/laddar typsnittsökningscache med [`SaveSearchCache`](../../fontsettings/savesearchcache/) och [`SetFontsSources`](../../fontsettings/setfontssources/)metoder.
+Den här nyckeln används för att identifiera cacheobjekt när du sparar/laddar typsnittsökningscache med [`SaveSearchCache`](../../fontsettings/savesearchcache/) och [`SetFontsSources`](../../fontsettings/setfontssources/) metoder.
 
 Om nyckel inte anges då[`FilePath`](../filepath/) kommer att användas som nyckel istället.
 

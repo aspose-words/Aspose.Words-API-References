@@ -1,14 +1,14 @@
 ---
 title: Document.ShadeFormData
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Document propriété. Spécifie sil faut activer lombrage gris sur les champs de formulaire.
+description: Document propriété. Spécifie sil faut activer lombrage gris sur les champs du formulaire.
 type: docs
-weight: 360
+weight: 380
 url: /fr/net/aspose.words/document/shadeformdata/
 ---
 ## Document.ShadeFormData property
 
-Spécifie s'il faut activer l'ombrage gris sur les champs de formulaire.
+Spécifie s'il faut activer l'ombrage gris sur les champs du formulaire.
 
 ```csharp
 public bool ShadeFormData { get; set; }
@@ -25,7 +25,7 @@ builder.Write("Hello world! ");
 builder.InsertTextInput("My form field", TextFormFieldType.Regular, "",
     "Text contents of form field, which are shaded in grey by default.", 0);
 
-// Nous pouvons désactiver l'ombrage gris, de sorte que le texte marqué d'un signet se confond avec l'autre texte.
+// Nous pouvons désactiver l'ombrage gris afin que le texte marqué par un signet se fonde dans l'autre texte.
 doc.ShadeFormData = useGreyShading;
 doc.Save(ArtifactsDir + "Document.ShadeFormData.docx");
 ```

@@ -1,14 +1,14 @@
 ---
 title: Comment.Ancestor
 second_title: Referencia de API de Aspose.Words para .NET
-description: Comment propiedad. Devuelve el objeto Comentario principal. Devuelve nulo para comentarios de nivel superior.
+description: Comment propiedad. Devuelve el padreComment objeto. Devolucionesnulo para comentarios de nivel superior.
 type: docs
 weight: 20
 url: /es/net/aspose.words/comment/ancestor/
 ---
 ## Comment.Ancestor property
 
-Devuelve el objeto Comentario principal. Devuelve nulo para comentarios de nivel superior.
+Devuelve el padre[`Comment`](../) objeto. Devoluciones`nulo` para comentarios de nivel superior.
 
 ```csharp
 public Comment Ancestor { get; }
@@ -22,8 +22,7 @@ Muestra cómo imprimir todos los comentarios de un documento y sus respuestas.
 Document doc = new Document(MyDir + "Comments.docx");
 
 NodeCollection comments = doc.GetChildNodes(NodeType.Comment, true);
-
-// Si un comentario no tiene un antepasado, es un comentario de "nivel superior" en lugar de un comentario de tipo respuesta.
+// Si un comentario no tiene antepasado, es un comentario de "nivel superior" en lugar de un comentario de tipo respuesta.
 // Imprime todos los comentarios de nivel superior junto con las respuestas que puedan tener.
 foreach (Comment comment in comments.OfType<Comment>().Where(c => c.Ancestor == null))
 {

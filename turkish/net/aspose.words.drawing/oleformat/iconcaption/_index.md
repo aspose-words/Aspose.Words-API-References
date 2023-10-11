@@ -10,7 +10,7 @@ url: /tr/net/aspose.words.drawing/oleformat/iconcaption/
 
 OLE nesnesinin simge başlığını alır.
 
-OLE nesnesinin simge olarak gömülü olmaması veya resim yazısının alınamaması durumunda boş dize döndürür.
+OLE nesnesinin simge olarak gömülmemesi veya resim yazısının alınamaması durumunda, boş dize döndürülür.
 
 ```csharp
 public string IconCaption { get; }
@@ -27,17 +27,17 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 // Bir Microsoft Visio çizimini belgeye OLE nesnesi olarak gömün.
 builder.InsertOleObject(ImageDir + "Microsoft Visio drawing.vsd", "Package", false, false, null);
 
-// Yerel dosya sisteminde dosyaya bir bağlantı ekleyin ve onu bir simge olarak görüntüleyin.
+// Yerel dosya sistemindeki dosyaya bir bağlantı ekleyin ve bunu bir simge olarak görüntüleyin.
 builder.InsertOleObject(ImageDir + "Microsoft Visio drawing.vsd", "Package", true, true, null);
 
-// OLE nesnelerinin eklenmesi, bu nesneleri depolayan şekiller oluşturur.
+// OLE nesneleri eklemek, bu nesneleri saklayan şekiller oluşturur.
 Shape[] shapes = doc.GetChildNodes(NodeType.Shape, true).OfType<Shape>().ToArray();
 
 Assert.AreEqual(2, shapes.Length);
 Assert.AreEqual(2, shapes.Count(s => s.ShapeType == ShapeType.OleObject));
 
-// Bir şekil bir OLE nesnesi içeriyorsa, geçerli bir "OleFormat" özelliğine sahip olacaktır,
-// şeklin bazı yönlerini doğrulamak için kullanabileceğimiz.
+// Bir şekil bir OLE nesnesi içeriyorsa geçerli bir "OleFormat" özelliğine sahip olacaktır,
+// bunu şeklin bazı yönlerini doğrulamak için kullanabiliriz.
 OleFormat oleFormat = shapes[0].OleFormat;
 
 Assert.AreEqual(false, oleFormat.IsLink);
@@ -55,7 +55,7 @@ Assert.AreEqual("Microsoft Visio drawing.vsd", oleFormat.IconCaption);
 
 doc.Save(ArtifactsDir + "Shape.OleLinks.docx");
 
-// Nesne OLE verisi içeriyorsa, ona bir akış kullanarak erişebiliriz.
+// Nesne OLE verisi içeriyorsa ona bir akış kullanarak erişebiliriz.
 using (MemoryStream stream = oleFormat.GetOleEntry("\x0001CompObj"))
 {
     byte[] oleEntryBytes = stream.ToArray();

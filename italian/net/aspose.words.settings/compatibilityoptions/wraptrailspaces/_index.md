@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.WrapTrailSpaces
 second_title: Aspose.Words per .NET API Reference
-description: CompatibilityOptions proprietà. Line Wrap Spazi finali.
+description: CompatibilityOptions proprietà. Spazi finali a capo automatico.
 type: docs
 weight: 710
 url: /it/net/aspose.words.settings/compatibilityoptions/wraptrailspaces/
 ---
 ## CompatibilityOptions.WrapTrailSpaces property
 
-Line Wrap Spazi finali.
+Spazi finali a capo automatico.
 
 ```csharp
 public bool WrapTrailSpaces { get; set; }

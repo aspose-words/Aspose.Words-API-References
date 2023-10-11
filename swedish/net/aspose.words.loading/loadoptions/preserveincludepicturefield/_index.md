@@ -1,14 +1,14 @@
 ---
 title: LoadOptions.PreserveIncludePictureField
 second_title: Aspose.Words för .NET API Referens
-description: LoadOptions fast egendom. Hämtar eller ställer in om fältet INCLUDEPICTURE ska bevaras vid läsning av Microsoft Wordformat. Standardvärdet är false.
+description: LoadOptions fast egendom. Hämtar eller ställer in om fältet INCLUDEPICTURE ska bevaras vid läsning av Microsoft Wordformat. Standardvärdet ärfalsk .
 type: docs
 weight: 120
 url: /sv/net/aspose.words.loading/loadoptions/preserveincludepicturefield/
 ---
 ## LoadOptions.PreserveIncludePictureField property
 
-Hämtar eller ställer in om fältet INCLUDEPICTURE ska bevaras vid läsning av Microsoft Word-format. Standardvärdet är false.
+Hämtar eller ställer in om fältet INCLUDEPICTURE ska bevaras vid läsning av Microsoft Word-format. Standardvärdet är`falsk` .
 
 ```csharp
 public bool PreserveIncludePictureField { get; set; }

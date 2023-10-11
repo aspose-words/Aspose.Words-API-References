@@ -3,7 +3,7 @@ title: Range.ToDocument
 second_title: Referencia de API de Aspose.Words para .NET
 description: Range método. Construye un nuevo documento completamente formado que contiene el rango.
 type: docs
-weight: 90
+weight: 100
 url: /es/net/aspose.words/range/todocument/
 ---
 ## Range.ToDocument method

@@ -1,14 +1,14 @@
 ---
 title: ConvertUtil.PixelToPoint
 second_title: Aspose.Words لمراجع .NET API
-description: ConvertUtil طريقة. تحويل وحدات البكسل إلى نقاط بدقة 96 نقطة في البوصة .
+description: ConvertUtil طريقة. تحويل البكسل إلى نقاط بدقة 96 نقطة في البوصة.
 type: docs
 weight: 40
 url: /ar/net/aspose.words/convertutil/pixeltopoint/
 ---
 ## PixelToPoint(double) {#pixeltopoint}
 
-تحويل وحدات البكسل إلى نقاط بدقة 96 نقطة في البوصة .
+تحويل البكسل إلى نقاط بدقة 96 نقطة في البوصة.
 
 ```csharp
 public static double PixelToPoint(double pixels)
@@ -16,11 +16,11 @@ public static double PixelToPoint(double pixels)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| pixels | Double | القيمة المطلوب تحويلها. |
+| pixels | Double | القيمة المراد تحويلها. |
 
 ### ملاحظات
 
-1 بوصة تساوي 72 نقطة .
+1 بوصة تساوي 72 نقطة.
 
 ### أمثلة
 
@@ -30,8 +30,8 @@ public static double PixelToPoint(double pixels)
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// يحدد "إعداد الصفحة" في القسم حجم هوامش الصفحة بالنقاط.
-// يمكننا أيضًا استخدام فئة "ConvertUtil" لاستخدام وحدة قياس مختلفة ،
+// يحدد "إعداد الصفحة" الخاص بالقسم حجم هوامش الصفحة بالنقاط.
+// يمكننا أيضًا استخدام فئة "ConvertUtil" لاستخدام وحدة قياس مختلفة،
 // مثل البكسل عند تحديد الحدود.
 PageSetup pageSetup = builder.PageSetup;
 pageSetup.TopMargin = ConvertUtil.PixelToPoint(100);
@@ -39,7 +39,7 @@ pageSetup.BottomMargin = ConvertUtil.PixelToPoint(200);
 pageSetup.LeftMargin = ConvertUtil.PixelToPoint(225);
 pageSetup.RightMargin = ConvertUtil.PixelToPoint(125);
 
-// البيكسل 0.75 نقطة.
+// البكسل هو 0.75 نقطة.
 Assert.AreEqual(0.75d, ConvertUtil.PixelToPoint(1));
 Assert.AreEqual(1.0d, ConvertUtil.PointToPixel(0.75));
 
@@ -65,7 +65,7 @@ doc.Save(ArtifactsDir + "UtilityClasses.PointsAndPixels.docx");
 
 ## PixelToPoint(double, double) {#pixeltopoint_1}
 
-يحول البكسل إلى نقاط بدقة البكسل المحددة.
+تحويل وحدات البكسل إلى نقاط بدقة بكسل محددة.
 
 ```csharp
 public static double PixelToPoint(double pixels, double resolution)
@@ -73,12 +73,12 @@ public static double PixelToPoint(double pixels, double resolution)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| pixels | Double | القيمة المطلوب تحويلها. |
+| pixels | Double | القيمة المراد تحويلها. |
 | resolution | Double | دقة نقطة في البوصة (نقطة في البوصة). |
 
 ### ملاحظات
 
-1 بوصة تساوي 72 نقطة .
+1 بوصة تساوي 72 نقطة.
 
 ### أمثلة
 
@@ -88,7 +88,7 @@ public static double PixelToPoint(double pixels, double resolution)
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// حدد حجم الهامش العلوي لهذا القسم بالبكسل ، وفقًا لمؤشر DPI مخصص.
+// تحديد حجم الهامش العلوي لهذا القسم بالبكسل، وفقًا لـ DPI المخصص.
 const double myDpi = 192;
 
 PageSetup pageSetup = builder.PageSetup;
@@ -96,13 +96,13 @@ pageSetup.TopMargin = ConvertUtil.PixelToPoint(100, myDpi);
 
 Assert.AreEqual(37.5d, pageSetup.TopMargin, 0.01d);
 
-// عند معدل DPI الافتراضي 96 ، يكون البكسل 0.75 نقطة.
+// عند DPI الافتراضية البالغة 96، يكون البكسل 0.75 نقطة.
 Assert.AreEqual(0.75d, ConvertUtil.PixelToPoint(1));
 
 builder.Writeln($"This Text is {pageSetup.TopMargin} points/{ConvertUtil.PointToPixel(pageSetup.TopMargin, myDpi)} " +
                 $"pixels (at a DPI of {myDpi}) from the top of the page.");
 
-// قم بتعيين DPI جديد واضبط قيمة الهامش الأعلى وفقًا لذلك.
+// قم بتعيين DPI جديد وضبط قيمة الهامش العلوي وفقًا لذلك.
 const double newDpi = 300;
 pageSetup.TopMargin = ConvertUtil.PixelToNewDpi(pageSetup.TopMargin, myDpi, newDpi);
 Assert.AreEqual(59.0d, pageSetup.TopMargin, 0.01d);

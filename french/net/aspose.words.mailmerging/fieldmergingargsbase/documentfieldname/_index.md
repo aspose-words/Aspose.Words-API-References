@@ -16,15 +16,16 @@ public string DocumentFieldName { get; }
 
 ### Remarques
 
-Si vous avez un mappage entre un nom de champ de document et un autre nom de champ de source de données, , il s'agit du nom de champ d'origine tel qu'il est spécifié dans le document.
+Si vous disposez d'un mappage d'un nom de champ de document vers un nom de champ de source de données différent, , il s'agit du nom de champ d'origine tel que spécifié dans le document.
 
-Si vous avez spécifié un préfixe de nom de champ, par exemple "Image:MyFieldName" dans le document, alors **NomChampDocument** renvoie le nom du champ sans le préfixe, c'est-à-dire "MyFieldName".
+Si vous avez spécifié un préfixe de nom de champ, par exemple "Image:MyFieldName" dans le document, alors`DocumentFieldName` renvoie le nom du champ sans le préfixe, c'est-à-dire "MyFieldName".
 
 ### Exemples
 
 Montre comment exécuter un publipostage avec un rappel personnalisé qui gère les données de fusion sous la forme de documents HTML.
 
 ```csharp
+public void MergeHtml()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -72,7 +73,7 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
             builder.InsertHtml((string)args.FieldValue);
 
             // Puisque nous avons déjà inséré manuellement le contenu fusionné,
-             // nous n'aurons pas besoin de répondre à cet événement en renvoyant du contenu via la propriété "Texte".
+             // nous n'aurons pas besoin de répondre à cet événement en renvoyant du contenu via la propriété "Text".
             args.Text = string.Empty;
         }
     }

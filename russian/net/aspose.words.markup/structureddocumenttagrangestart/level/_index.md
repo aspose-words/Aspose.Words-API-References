@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTagRangeStart.Level
 second_title: Справочник по API Aspose.Words для .NET
-description: StructuredDocumentTagRangeStart свойство. Получает уровень на котором этот диапазон тегов структурированного документа начинается в дереве документа.
+description: StructuredDocumentTagRangeStart свойство. Получает уровень на котором в дереве документа находится начало диапазона тегов структурированного документа.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.markup/structureddocumenttagrangestart/level/
 ---
 ## StructuredDocumentTagRangeStart.Level property
 
-Получает уровень, на котором этот диапазон тегов структурированного документа начинается в дереве документа.
+Получает уровень, на котором в дереве документа находится начало диапазона тегов структурированного документа.
 
 ```csharp
 public MarkupLevel Level { get; }
@@ -16,7 +16,7 @@ public MarkupLevel Level { get; }
 
 ### Примеры
 
-Показывает, как получить свойства тегов структурированного документа, состоящего из нескольких разделов.
+Показывает, как получить свойства тегов многосекционного структурированного документа.
 
 ```csharp
 Document doc = new Document(MyDir + "Multi-section structured document tags.docx");

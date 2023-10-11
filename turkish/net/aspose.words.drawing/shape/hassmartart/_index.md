@@ -1,14 +1,14 @@
 ---
 title: Shape.HasSmartArt
 second_title: Aspose.Words for .NET API Referansı
-description: Shape mülk. Bu Shape bir SmartArt nesnesine sahipse true döndürür.
+description: Shape mülk. İadelerdoğru Eğer buShape bir SmartArt nesnesi var.
 type: docs
 weight: 90
 url: /tr/net/aspose.words.drawing/shape/hassmartart/
 ---
 ## Shape.HasSmartArt property
 
-Bu Shape bir SmartArt nesnesine sahipse true döndürür.
+İadeler`doğru` Eğer bu[`Shape`](../) bir SmartArt nesnesi var.
 
 ```csharp
 public bool HasSmartArt { get; }

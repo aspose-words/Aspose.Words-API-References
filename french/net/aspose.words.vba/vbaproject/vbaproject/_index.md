@@ -1,14 +1,14 @@
 ---
 title: VbaProject.VbaProject
 second_title: Référence de l'API Aspose.Words pour .NET
-description: VbaProject constructeur. Crée un VbaProject vide.
+description: VbaProject constructeur. Crée un espace videVbaProject .
 type: docs
 weight: 10
 url: /fr/net/aspose.words.vba/vbaproject/vbaproject/
 ---
 ## VbaProject constructor
 
-Crée un VbaProject vide.
+Crée un espace vide[`VbaProject`](../) .
 
 ```csharp
 public VbaProject()
@@ -21,12 +21,12 @@ Montre comment créer un projet VBA à l'aide de macros.
 ```csharp
 Document doc = new Document();
 
-// Crée un nouveau projet VBA.
+// Créez un nouveau projet VBA.
 VbaProject project = new VbaProject();
 project.Name = "Aspose.Project";
 doc.VbaProject = project;
 
-// Crée un nouveau module et spécifie un code source de macro.
+// Créez un nouveau module et spécifiez un code source de macro.
 VbaModule module = new VbaModule();
 module.Name = "Aspose.Module";
 module.Type = VbaModuleType.ProceduralModule;

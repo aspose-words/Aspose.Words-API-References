@@ -1,14 +1,14 @@
 ---
 title: Node.CustomNodeId
 second_title: Aspose.Words لمراجع .NET API
-description: Node ملكية. يحدد معرف العقدة المخصص .
+description: Node ملكية. يحدد معرف العقدة المخصصة.
 type: docs
 weight: 10
 url: /ar/net/aspose.words/node/customnodeid/
 ---
 ## Node.CustomNodeId property
 
-يحدد معرف العقدة المخصص .
+يحدد معرف العقدة المخصصة.
 
 ```csharp
 public int CustomNodeId { get; set; }
@@ -18,36 +18,36 @@ public int CustomNodeId { get; set; }
 
 الافتراضي هو صفر.
 
-يمكن تعيين هذا المعرف واستخدامه بشكل تعسفي. على سبيل المثال ، كمفتاح للحصول على البيانات الخارجية.
+يمكن تعيين هذا المعرف واستخدامه بشكل تعسفي. على سبيل المثال، كمفتاح للحصول على بيانات خارجية.
 
-ملاحظة مهمة ، القيمة المحددة لا يتم حفظها في ملف الإخراج ولا توجد إلا أثناء عمر العقدة.
+ملاحظة مهمة، لا يتم حفظ القيمة المحددة في ملف الإخراج وتكون موجودة فقط خلال عمر العقدة.
 
 ### أمثلة
 
-يوضح كيفية اجتياز مجموعة العقد المركبة الخاصة بالعقد الفرعية.
+يوضح كيفية اجتياز مجموعة العقد الفرعية للعقدة المركبة.
 
 ```csharp
 Document doc = new Document();
 
-// أضف شريطين وشكل واحد كعقد فرعية إلى الفقرة الأولى من هذا المستند.
+// أضف مسارين وشكلًا واحدًا كعقد فرعية إلى الفقرة الأولى من هذه الوثيقة.
 Paragraph paragraph = (Paragraph)doc.GetChild(NodeType.Paragraph, 0, true);
 paragraph.AppendChild(new Run(doc, "Hello world! "));
 
 Shape shape = new Shape(doc, ShapeType.Rectangle);
 shape.Width = 200;
 shape.Height = 200;
-// لاحظ أن "CustomNodeId" لا يتم حفظه في ملف الإخراج ولا يوجد إلا أثناء عمر العقدة.
+// لاحظ أن "CustomNodeId" لا يتم حفظه في ملف إخراج وهو موجود فقط أثناء عمر العقدة.
 shape.CustomNodeId = 100;
 shape.WrapType = WrapType.Inline;
 paragraph.AppendChild(shape);
 
 paragraph.AppendChild(new Run(doc, "Hello again!"));
 
-// كرر من خلال مجموعة الفقرة للأطفال المباشرين ،
-// وطباعة أي أشكال أو أشكال نجدها بالداخل.
-NodeCollection children = paragraph.ChildNodes;
+// كرر من خلال مجموعة الفقرة من العناصر الفرعية المباشرة،
+// وطباعة أي مسارات أو أشكال نجدها داخلها.
+NodeCollection children = paragraph.GetChildNodes(NodeType.Any, false);
 
-Assert.AreEqual(3, paragraph.ChildNodes.Count);
+Assert.AreEqual(3, paragraph.GetChildNodes(NodeType.Any, false).Count);
 
 foreach (Node child in children)
     switch (child.NodeType)
@@ -60,6 +60,7 @@ foreach (Node child in children)
             Shape childShape = (Shape)child;
             Console.WriteLine("Shape:");
             Console.WriteLine($"\t{childShape.ShapeType}, {childShape.Width}x{childShape.Height}");
+            break;
     }
 ```
 

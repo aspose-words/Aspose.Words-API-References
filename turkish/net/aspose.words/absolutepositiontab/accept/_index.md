@@ -1,14 +1,14 @@
 ---
 title: AbsolutePositionTab.Accept
 second_title: Aspose.Words for .NET API Referansı
-description: AbsolutePositionTab yöntem. Bir ziyaretçiyi kabul eder.
+description: AbsolutePositionTab yöntem. Ziyaretçi kabul eder.
 type: docs
 weight: 10
 url: /tr/net/aspose.words/absolutepositiontab/accept/
 ---
 ## AbsolutePositionTab.Accept method
 
-Bir ziyaretçiyi kabul eder.
+Ziyaretçi kabul eder.
 
 ```csharp
 public override bool Accept(DocumentVisitor visitor)
@@ -20,31 +20,31 @@ public override bool Accept(DocumentVisitor visitor)
 
 ### Geri dönüş değeri
 
-Ziyaretçi numaralandırmanın durmasını isterse yanlış.
+`YANLIŞ` ziyaretçi numaralandırmanın durdurulmasını talep ederse.
 
 ### Notlar
 
-DocumentVisitor.VisitAbsolutePositionTab'i çağırır.
+Aramalar[`VisitAbsolutePositionTab`](../../documentvisitor/visitabsolutepositiontab/).
 
-Daha fazla bilgi için Ziyaretçi tasarım modeline bakın.
+Daha fazla bilgi için Ziyaretçi tasarım desenine bakın.
 
 ### Örnekler
 
-Bir belge ziyaretçisiyle mutlak konum sekmesi karakterlerinin nasıl işleneceğini gösterir.
+Mutlak konum sekmesi karakterlerinin bir belge ziyaretçisiyle nasıl işleneceğini gösterir.
 
 ```csharp
 public void DocumentToTxt()
 {
     Document doc = new Document(MyDir + "Absolute position tab.docx");
 
-    // Bu özel belge ziyaretçisini kabul ederek belgemizin metin içeriğini çıkarın.
+    // Bu özel belge ziyaretçisini kabul ederek belgemizin metin içeriğini çıkartın.
     DocTextExtractor myDocTextExtractor = new DocTextExtractor();
     doc.FirstSection.Body.Accept(myDocTextExtractor);
 
-    // Dize biçiminde eşdeğeri olmayan mutlak konum sekmesi, açıkça bir sekme karakterine dönüştürüldü.
+    // String biçiminde eşdeğeri olmayan mutlak konum sekmesi açıkça bir sekme karakterine dönüştürüldü.
     Assert.AreEqual("Before AbsolutePositionTab\tAfter AbsolutePositionTab", myDocTextExtractor.GetText());
 
-    // Bir AbsolutePositionTab, bir DocumentVisitor'ı kendi başına da kabul edebilir.
+    // AbsolutePositionTab tek başına bir DocumentVisitor'ı da kabul edebilir.
     AbsolutePositionTab absPositionTab = (AbsolutePositionTab)doc.FirstSection.Body.FirstParagraph.GetChild(NodeType.SpecialChar, 0, true);
 
     myDocTextExtractor = new DocTextExtractor();
@@ -73,7 +73,7 @@ public class DocTextExtractor : DocumentVisitor
     }
 
     /// <summary>
-    /// Belgede bir AbsolutePositionTab düğümüyle karşılaşıldığında çağrılır.
+    /// Belgede AbsolutePositionTab düğümüyle karşılaşıldığında çağrılır.
     /// </summary>
     public override VisitorAction VisitAbsolutePositionTab(AbsolutePositionTab tab)
     {
@@ -82,7 +82,7 @@ public class DocTextExtractor : DocumentVisitor
     }
 
     /// <summary>
-    /// Mevcut çıktıya metin ekler. Etkin/devre dışı çıkış bayrağını onurlandırır.
+    /// Geçerli çıktıya metin ekler. Etkin/devre dışı çıkış bayrağını dikkate alır.
     /// </summary>
     private void AppendText(string text)
     {
@@ -90,7 +90,7 @@ public class DocTextExtractor : DocumentVisitor
     }
 
     /// <summary>
-    /// Ziyaretçi tarafından toplanan belgenin düz metni.
+    /// Ziyaretçinin biriktirdiği belgenin düz metni.
     /// </summary>
     public string GetText()
     {

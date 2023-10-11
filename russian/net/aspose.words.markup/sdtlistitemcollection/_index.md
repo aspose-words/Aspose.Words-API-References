@@ -1,14 +1,16 @@
 ---
 title: Class SdtListItemCollection
 second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Markup.SdtListItemCollection сорт. Предоставляет доступ кSdtListItemэлементы тега структурированного документа.
+description: Aspose.Words.Markup.SdtListItemCollection сорт. Обеспечивает доступ кSdtListItem элементы тега структурированного документа.
 type: docs
-weight: 3790
+weight: 4030
 url: /ru/net/aspose.words.markup/sdtlistitemcollection/
 ---
 ## SdtListItemCollection class
 
-Предоставляет доступ к[`SdtListItem`](../sdtlistitem/)элементы тега структурированного документа.
+Обеспечивает доступ к[`SdtListItem`](../sdtlistitem/) элементы тега структурированного документа.
+
+Чтобы узнать больше, посетите[Структурированные теги документа или контроль содержимого](https://docs.aspose.com/words/net/working-with-content-control-sdt/) статья документации.
 
 ```csharp
 public class SdtListItemCollection : IEnumerable<SdtListItem>
@@ -19,8 +21,8 @@ public class SdtListItemCollection : IEnumerable<SdtListItem>
 | Имя | Описание |
 | --- | --- |
 | [Count](../../aspose.words.markup/sdtlistitemcollection/count/) { get; } | Получает количество элементов в коллекции. |
-| [Item](../../aspose.words.markup/sdtlistitemcollection/item/) { get; } | Возвращает[`SdtListItem`](../sdtlistitem/) объект с отсчитываемым от нуля индексом в коллекции. |
-| [SelectedValue](../../aspose.words.markup/sdtlistitemcollection/selectedvalue/) { get; set; } | Определяет текущее выбранное значение в этом списке. Допустимо нулевое значение, означающее, что никакая выбранная в данный момент запись не связана с этой коллекцией элементов списка. |
+| [Item](../../aspose.words.markup/sdtlistitemcollection/item/) { get; } | Возвращает[`SdtListItem`](../sdtlistitem/) объекту с учетом его нулевого индекса в коллекции. |
+| [SelectedValue](../../aspose.words.markup/sdtlistitemcollection/selectedvalue/) { get; set; } | Указывает текущее выбранное значение в этом списке. Допустимо нулевое значение, что означает, что ни одна выбранная в данный момент запись не связана с этой коллекцией элементов списка. |
 
 ## Методы
 
@@ -28,28 +30,28 @@ public class SdtListItemCollection : IEnumerable<SdtListItem>
 | --- | --- |
 | [Add](../../aspose.words.markup/sdtlistitemcollection/add/)(SdtListItem) | Добавляет элемент в эту коллекцию. |
 | [Clear](../../aspose.words.markup/sdtlistitemcollection/clear/)() | Удаляет все элементы из этой коллекции. |
-| [GetEnumerator](../../aspose.words.markup/sdtlistitemcollection/getenumerator/)() | Возвращает объект перечислителя, который можно использовать для перебора всех элементов в коллекции. |
+| [GetEnumerator](../../aspose.words.markup/sdtlistitemcollection/getenumerator/)() | Возвращает объект перечислителя, который можно использовать для перебора всех элементов коллекции. |
 | [RemoveAt](../../aspose.words.markup/sdtlistitemcollection/removeat/)(int) | Удаляет элемент списка по указанному индексу. |
 
 ### Примеры
 
-Показывает, как работать с тегами структурированного документа с раскрывающимся списком.
+Показывает, как работать с тегами структурированных документов с раскрывающимся списком.
 
 ```csharp
 Document doc = new Document();
 StructuredDocumentTag tag = new StructuredDocumentTag(doc, SdtType.DropDownList, MarkupLevel.Block);
 doc.FirstSection.Body.AppendChild(tag);
 
-// Структурированный тег документа с раскрывающимся списком — это форма, которая позволяет пользователю
-// выберите вариант из списка, щелкнув левой кнопкой мыши и открыв форму в Microsoft Word.
-// Свойство "ListItems" содержит все элементы списка, и каждый элемент списка является "SdtListItem".
+// Тег структурированного документа с раскрывающимся списком — это форма, которая позволяет пользователю
+// выбираем вариант из списка, щелкнув левой кнопкой мыши и открыв форму в Microsoft Word.
+// Свойство «ListItems» содержит все элементы списка, и каждый элемент списка является «SdtListItem».
 SdtListItemCollection listItems = tag.ListItems;
 listItems.Add(new SdtListItem("Value 1"));
 
 Assert.AreEqual(listItems[0].DisplayText, listItems[0].Value);
 
-// Добавляем еще 3 элемента списка. Инициализируйте эти элементы, используя другой конструктор для первого элемента.
-// для отображения строк, которые отличаются от их значений.
+// Добавляем еще 3 элемента списка. Инициализируйте эти элементы, используя конструктор, отличный от первого элемента.
+// для отображения строк, отличных от их значений.
 listItems.Add(new SdtListItem("Item 2", "Value 2"));
 listItems.Add(new SdtListItem("Item 3", "Value 3"));
 listItems.Add(new SdtListItem("Item 4", "Value 4"));
@@ -61,7 +63,7 @@ listItems.SelectedValue = listItems[3];
 
 Assert.AreEqual("Value 4", listItems.SelectedValue.Value);
 
-// Перечисляем коллекцию и печатаем каждый элемент.
+// Перебираем коллекцию и печатаем каждый элемент.
 using (IEnumerator<SdtListItem> enumerator = listItems.GetEnumerator())
 {
     while (enumerator.MoveNext())
@@ -74,7 +76,7 @@ listItems.RemoveAt(3);
 
 Assert.AreEqual(3, listItems.Count);
 
-// Так как наш раскрывающийся список настроен на отображение удаленного элемента по умолчанию, укажите существующий элемент для отображения.
+// Поскольку наш раскрывающийся список по умолчанию настроен на отображение удаленного элемента, дайте ему отображаемый элемент, который существует.
 listItems.SelectedValue = listItems[1];
 
 doc.Save(ArtifactsDir + "StructuredDocumentTag.ListItemCollection.docx");

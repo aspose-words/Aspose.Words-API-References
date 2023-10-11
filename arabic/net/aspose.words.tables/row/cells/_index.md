@@ -1,14 +1,14 @@
 ---
 title: Row.Cells
 second_title: Aspose.Words لمراجع .NET API
-description: Row ملكية. يوفر وصولاً مكتوبًا إلى ملف خلية العقد الفرعية للصف .
+description: Row ملكية. يوفر الوصول المكتوب إلىCell العقد الفرعية للصف.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.tables/row/cells/
 ---
 ## Row.Cells property
 
-يوفر وصولاً مكتوبًا إلى ملف **خلية** العقد الفرعية للصف .
+يوفر الوصول المكتوب إلى[`Cell`](../../cell/) العقد الفرعية للصف.
 
 ```csharp
 public CellCollection Cells { get; }
@@ -16,7 +16,7 @@ public CellCollection Cells { get; }
 
 ### أمثلة
 
-يوضح كيفية التكرار عبر جميع الجداول في المستند وطباعة محتويات كل خلية.
+يوضح كيفية التكرار عبر كافة الجداول في المستند وطباعة محتويات كل خلية.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
@@ -30,7 +30,7 @@ for (int i = 0; i < tables.Count; i++)
 
     RowCollection rows = tables[i].Rows;
 
-    // يمكننا استخدام طريقة "ToArray" في مجموعة صف لاستنساخها في مصفوفة.
+    // يمكننا استخدام طريقة "ToArray" في مجموعة صفوف لاستنساخها في مصفوفة.
     Assert.AreEqual(rows, rows.ToArray());
     Assert.AreNotSame(rows, rows.ToArray());
 
@@ -40,7 +40,7 @@ for (int i = 0; i < tables.Count; i++)
 
         CellCollection cells = rows[j].Cells;
 
-        // يمكننا استخدام طريقة "ToArray" على مجموعة خلايا لاستنساخها في مصفوفة.
+        // يمكننا استخدام طريقة "ToArray" في مجموعة خلايا لاستنساخها في مصفوفة.
         Assert.AreEqual(cells, cells.ToArray());
         Assert.AreNotSame(cells, cells.ToArray());
 

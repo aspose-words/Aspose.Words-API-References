@@ -16,13 +16,13 @@ public bool Unlink()
 
 ### Return_Value
 
-`Vrai` si le champ a été dissocié, sinon`faux` .
+`vrai` si le champ a été dissocié, sinon`FAUX` .
 
 ### Remarques
 
 Remplace le champ par son résultat le plus récent.
 
-Certains champs, tels que les champs XE (entrée d'index) et les champs SEQ (séquence), ne peuvent pas être dissociés.
+Certains champs, tels que les champs XE (Index Entry) et SEQ (Sequence), ne peuvent pas être dissociés.
 
 ### Exemples
 

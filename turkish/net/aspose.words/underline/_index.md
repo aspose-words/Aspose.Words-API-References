@@ -1,14 +1,14 @@
 ---
 title: Enum Underline
 second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Underline Sıralama. Bir yazı tipine uygulanan alt çizginin türünü belirtir.
+description: Aspose.Words.Underline Sıralama. Fonta uygulanan alt çizginin türünü belirtir.
 type: docs
-weight: 6210
+weight: 6510
 url: /tr/net/aspose.words/underline/
 ---
 ## Underline enumeration
 
-Bir yazı tipine uygulanan alt çizginin türünü belirtir.
+Fonta uygulanan alt çizginin türünü belirtir.
 
 ```csharp
 public enum Underline
@@ -47,11 +47,11 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Write("For more information, please visit the ");
 
-// Bir köprü ekleyin ve özel biçimlendirme ile vurgulayın.
+// Bir köprü ekleyin ve bunu özel biçimlendirmeyle vurgulayın.
 // Köprü, bizi URL'de belirtilen konuma götürecek tıklanabilir bir metin parçası olacaktır.
 builder.Font.Color = Color.Blue;
 builder.Font.Underline = Underline.Single;
-builder.InsertHyperlink("Google website", "https://www.google.com", yanlış);
+builder.InsertHyperlink("Google website", "https://www.google.com", false);
 builder.Font.ClearFormatting();
 builder.Writeln(".");
 

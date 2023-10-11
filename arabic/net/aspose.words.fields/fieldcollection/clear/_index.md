@@ -1,14 +1,14 @@
 ---
 title: FieldCollection.Clear
 second_title: Aspose.Words لمراجع .NET API
-description: FieldCollection طريقة. يزيل كل حقول هذه المجموعة من الوثيقة ومن هذه المجموعة نفسها.
+description: FieldCollection طريقة. إزالة كافة حقول هذه المجموعة من المستند ومن هذه المجموعة نفسها.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fields/fieldcollection/clear/
 ---
 ## FieldCollection.Clear method
 
-يزيل كل حقول هذه المجموعة من الوثيقة ومن هذه المجموعة نفسها.
+إزالة كافة حقول هذه المجموعة من المستند ومن هذه المجموعة نفسها.
 
 ```csharp
 public void Clear()
@@ -48,7 +48,7 @@ Assert.AreEqual(4, fields.Count);
 fields.RemoveAt(2);
 Assert.AreEqual(3, fields.Count);
 
-// 4 - قم بإزالة جميع الحقول من المجموعة مرة واحدة:
+// 4 - قم بإزالة كافة الحقول من المجموعة مرة واحدة:
 fields.Clear();
 Assert.AreEqual(0, fields.Count);
 ```

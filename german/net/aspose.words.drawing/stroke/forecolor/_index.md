@@ -1,14 +1,14 @@
 ---
 title: Stroke.ForeColor
 second_title: Aspose.Words für .NET-API-Referenz
-description: Stroke eigendom. Ruft die Vordergrundfarbe des Strichs ab oder legt sie fest.
+description: Stroke eigendom. Ruft die Vordergrundfarbe des Strichs ab oder legt diese fest.
 type: docs
-weight: 90
+weight: 110
 url: /de/net/aspose.words.drawing/stroke/forecolor/
 ---
 ## Stroke.ForeColor property
 
-Ruft die Vordergrundfarbe des Strichs ab oder legt sie fest.
+Ruft die Vordergrundfarbe des Strichs ab oder legt diese fest.
 
 ```csharp
 public Color ForeColor { get; set; }
@@ -16,7 +16,7 @@ public Color ForeColor { get; set; }
 
 ### Bemerkungen
 
-Der Standardwert für a[`Shape`](../../shape/) ist Black.
+Der Standardwert für a[`Shape`](../../shape/) is Black.
 
 ### Beispiele
 
@@ -29,7 +29,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertChart(ChartType.Scatter, 432, 252);
 Chart chart = shape.Chart;
 
-// Standardmäßig generierte Serie löschen.
+// Standardmäßig generierte Serien löschen.
 chart.Series.Clear();
 ChartSeries series = chart.Series.Add("AW Series 1", new[] { 0.7, 1.8, 2.6, 3.9 },
     new[] { 2.7, 3.2, 0.8, 1.7 });

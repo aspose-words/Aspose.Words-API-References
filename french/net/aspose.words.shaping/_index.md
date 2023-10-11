@@ -1,33 +1,33 @@
 ---
 title: Aspose.Words.Shaping
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Le Aspose.Words.Shaping lespace de noms contient des classes pour fournir la prise en charge des fonctionnalités OpenType à laide de moteurs de mise en forme de texte externes.
+description: Le Aspose.Words.Shaping Lespace de noms contient des classes pour fournir la prise en charge des fonctionnalités OpenType à laide de moteurs de mise en forme de texte externes.
 type: docs
-weight: 240
+weight: 250
 url: /fr/net/aspose.words.shaping/
 ---
-Le **Aspose.Words.Shaping** l'espace de noms contient des classes pour fournir la prise en charge des fonctionnalités OpenType à l'aide de moteurs de mise en forme de texte externes.
+Le **Aspose.Words.Shaping** L'espace de noms contient des classes pour fournir la prise en charge des fonctionnalités OpenType à l'aide de moteurs de mise en forme de texte externes.
 
 ## Des classes
 
 | Classer | La description |
 | --- | --- |
-| [BasicTextShaperCache](./basictextshapercache/) |  |
-| [Cluster](./cluster/) |  |
-| [Glyph](./glyph/) |  |
+| [BasicTextShaperCache](./basictextshapercache/) | Implémente le cache de base pour[`ITextShaper`](../aspose.words.shaping/itextshaper/) instances. Cette classe est thread-safe. |
+| [Cluster](./cluster/) | Encapsule les points de code et les glyphes composant un graphème. |
+| [Glyph](./glyph/) | Représente un glyphe |
 ## Interfaces
 
 | Interface | La description |
 | --- | --- |
-| [ITextShaper](./itextshaper/) |  |
-| [ITextShaperFactory](./itextshaperfactory/) |  |
+| [ITextShaper](./itextshaper/) | Fournit des méthodes de mise en forme du texte. |
+| [ITextShaperFactory](./itextshaperfactory/) | Une interface d'une usine pour la construction[`ITextShaper`](../aspose.words.shaping/itextshaper/) implémentations. |
 ## Énumération
 
 | Énumération | La description |
 | --- | --- |
-| [Direction](./direction/) |  |
-| [FontFeature](./fontfeature/) |  |
-| [ScriptShapingLevel](./scriptshapinglevel/) |  |
-| [UnicodeScript](./unicodescript/) |  |
+| [Direction](./direction/) | Sens du texte. |
+| [FontFeature](./fontfeature/) | Les fonctionnalités fournissent des informations sur la façon dont les glyphes sont utilisés dans une police pour restituer un script. https://docs.microsoft.com/en-us/typography/opentype/spec/featuretags |
+| [ScriptShapingLevel](./scriptshapinglevel/) | Décrit les niveaux de mise en forme requis par un script. |
+| [UnicodeScript](./unicodescript/) | Propriété de la base de données de caractères Unicode : Script (sc). |
 
 

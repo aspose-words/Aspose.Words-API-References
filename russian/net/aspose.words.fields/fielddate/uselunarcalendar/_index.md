@@ -1,14 +1,14 @@
 ---
 title: FieldDate.UseLunarCalendar
 second_title: Справочник по API Aspose.Words для .NET
-description: FieldDate свойство. Получает или задает использование лунного календаря по хиджре или лунного календаря на иврите.
+description: FieldDate свойство. Получает или задает следует ли использовать лунный календарь Хиджры или еврейский лунный календарь.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.fields/fielddate/uselunarcalendar/
 ---
 ## FieldDate.UseLunarCalendar property
 
-Получает или задает использование лунного календаря по хиджре или лунного календаря на иврите.
+Получает или задает, следует ли использовать лунный календарь Хиджры или еврейский лунный календарь.
 
 ```csharp
 public bool UseLunarCalendar { get; set; }
@@ -16,14 +16,14 @@ public bool UseLunarCalendar { get; set; }
 
 ### Примеры
 
-Показывает, как использовать поля DATE для отображения дат в соответствии с различными типами календарей.
+Показывает, как использовать поля ДАТА для отображения дат в соответствии с различными типами календарей.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Если мы хотим, чтобы текст в документе всегда отображал правильную дату, мы можем использовать поле ДАТА.
-// Ниже приведены три типа культурных календарей, которые поле DATE может использовать для отображения даты.
+// Ниже приведены три типа культурных календарей, которые поле ДАТА может использовать для отображения даты.
 // 1 - Исламский лунный календарь:
 FieldDate field = (FieldDate)builder.InsertField(FieldType.FieldDate, true);
 field.UseLunarCalendar = true;
@@ -42,8 +42,8 @@ field.UseSakaEraCalendar = true;
 Assert.AreEqual(" DATE  \\s", field.GetFieldCode());
 builder.Writeln();
 
-// Вставьте поле ДАТА и установите его тип календаря на тот, который последний раз использовался хост-приложением.
-// В Microsoft Word тип будет самым последним использованным во вставке -> Текст -> Диалоговое окно «Дата и время».
+// Вставляем поле ДАТА и устанавливаем для него тип календаря тот, который последний раз использовался ведущим приложением.
+// В Microsoft Word тип будет последним использованным во вкладке «Вставка» -> gt; Текст -> Диалоговое окно «Дата и время».
 field = (FieldDate)builder.InsertField(FieldType.FieldDate, true);
 field.UseLastFormat = true;
 Assert.AreEqual(" DATE  \\l", field.GetFieldCode());

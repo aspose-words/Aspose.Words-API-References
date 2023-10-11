@@ -3,7 +3,7 @@ title: HtmlSaveOptions.ExportPageSetup
 second_title: Aspose.Words för .NET API Referens
 description: HtmlSaveOptions fast egendom. Anger om sidinställningarna exporteras till HTML MHTML eller EPUB. Standard ärfalsk .
 type: docs
-weight: 230
+weight: 220
 url: /sv/net/aspose.words.saving/htmlsaveoptions/exportpagesetup/
 ---
 ## HtmlSaveOptions.ExportPageSetup property
@@ -52,13 +52,13 @@ if (exportPageSetup)
 {
     Assert.True(outDocContents.Contains(
         "<style type=\"text/css\">" +
-            "@page Section1 { size:419.55pt 595.3pt; margin:36pt 70.85pt }" +
-            "@page Section2 { size:612pt 792pt; margin:70.85pt }" +
-            "div.Section1 { page:Section1 }div.Section2 { page:Section2 }" +
+            "@page Section_1 { size:419.55pt 595.3pt; margin:36pt 70.85pt; -aw-footer-distance:35.4pt; -aw-header-distance:35.4pt }" +
+            "@page Section_2 { size:612pt 792pt; margin:70.85pt; -aw-footer-distance:35.4pt; -aw-header-distance:35.4pt }" +
+            "div.Section_1 { page:Section_1 }div.Section_2 { page:Section_2 }" +
         "</style>"));
 
     Assert.True(outDocContents.Contains(
-        "<div class=\"Section1\">" +
+        "<div class=\"Section_1\">" +
             "<p style=\"margin-top:0pt; margin-bottom:0pt\">" +
                 "<span>Section 1</span>" +
             "</p>" +

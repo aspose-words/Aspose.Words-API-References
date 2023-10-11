@@ -1,16 +1,16 @@
 ---
 title: LanguagePreferences.DefaultEditingLanguage
 second_title: Aspose.Words لمراجع .NET API
-description: LanguagePreferences ملكية. الحصول على أو تعيين لغة التحرير الافتراضية.
+description: LanguagePreferences ملكية. الحصول على لغة التحرير الافتراضية أو تعيينها.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.loading/languagepreferences/defaulteditinglanguage/
 ---
 ## LanguagePreferences.DefaultEditingLanguage property
 
-الحصول على أو تعيين لغة التحرير الافتراضية.
+الحصول على لغة التحرير الافتراضية أو تعيينها.
 
-النظام الأساسيEnglishUS.
+القيمة الافتراضية هيEnglishUS.
 
 ```csharp
 public EditingLanguage DefaultEditingLanguage { get; set; }
@@ -18,7 +18,7 @@ public EditingLanguage DefaultEditingLanguage { get; set; }
 
 ### أمثلة
 
-يوضح كيفية تعيين لغة افتراضية عند تحميل مستند.
+يوضح كيفية تعيين اللغة الافتراضية عند تحميل مستند.
 
 ```csharp
 LoadOptions loadOptions = new LoadOptions();

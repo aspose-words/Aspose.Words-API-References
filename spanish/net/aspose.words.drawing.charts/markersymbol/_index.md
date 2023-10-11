@@ -1,14 +1,14 @@
 ---
 title: Enum MarkerSymbol
 second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Drawing.Charts.MarkerSymbol enumeración. Especifica el estilo del símbolo de marcador.
+description: Aspose.Words.Drawing.Charts.MarkerSymbol enumeración. Especifica el estilo del símbolo del marcador.
 type: docs
-weight: 790
+weight: 920
 url: /es/net/aspose.words.drawing.charts/markersymbol/
 ---
 ## MarkerSymbol enumeration
 
-Especifica el estilo del símbolo de marcador.
+Especifica el estilo del símbolo del marcador.
 
 ```csharp
 public enum MarkerSymbol
@@ -36,7 +36,6 @@ public enum MarkerSymbol
 Muestra cómo trabajar con puntos de datos en un gráfico de líneas.
 
 ```csharp
-[Test]
 public void ChartDataPoint()
 {
     Document doc = new Document();
@@ -50,11 +49,11 @@ public void ChartDataPoint()
     Assert.AreEqual("Series 2", chart.Series[1].Name);
     Assert.AreEqual("Series 3", chart.Series[2].Name);
 
-    // Enfatice los puntos de datos del gráfico haciéndolos aparecer como formas de diamante.
+    // Enfatiza los puntos de datos del gráfico haciéndolos aparecer como formas de diamantes.
     foreach (ChartSeries series in chart.Series) 
         ApplyDataPoints(series, 4, MarkerSymbol.Diamond, 15);
 
-    // Suavizar la línea que representa la primera serie de datos.
+    // Suaviza la línea que representa la primera serie de datos.
     chart.Series[0].Smooth = true;
 
     // Verifique que los puntos de datos de la primera serie no inviertan sus colores si el valor es negativo.
@@ -66,7 +65,7 @@ public void ChartDataPoint()
         }
     }
 
-    // Para un gráfico de aspecto más limpio, podemos borrar el formato individualmente.
+    // Para obtener un gráfico más limpio, podemos borrar el formato individualmente.
     chart.Series[1].DataPoints[2].ClearFormat();
 
     // También podemos eliminar una serie completa de puntos de datos a la vez.
@@ -76,7 +75,7 @@ public void ChartDataPoint()
 }
 
 /// <summary>
-/// Aplica un número de puntos de datos a una serie.
+/// Aplica una cantidad de puntos de datos a una serie.
 /// </summary>
 private static void ApplyDataPoints(ChartSeries series, int dataPointsCount, MarkerSymbol markerSymbol, int dataPointSize)
 {

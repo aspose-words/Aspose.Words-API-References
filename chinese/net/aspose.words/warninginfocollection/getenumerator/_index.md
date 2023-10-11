@@ -1,14 +1,14 @@
 ---
 title: WarningInfoCollection.GetEnumerator
 second_title: Aspose.Words for .NET API 参考
-description: WarningInfoCollection 方法. 返回一个可用于迭代集合中所有项目的枚举器对象
+description: WarningInfoCollection 方法. 返回一个枚举器对象可用于迭代集合中的所有项目
 type: docs
 weight: 50
 url: /zh/net/aspose.words/warninginfocollection/getenumerator/
 ---
 ## WarningInfoCollection.GetEnumerator method
 
-返回一个可用于迭代集合中所有项目的枚举器对象。
+返回一个枚举器对象，可用于迭代集合中的所有项目。
 
 ```csharp
 public IEnumerator<WarningInfo> GetEnumerator()
@@ -19,10 +19,9 @@ public IEnumerator<WarningInfo> GetEnumerator()
 演示如何设置属性以从可用字体源中查找缺失字体的最接近匹配项。
 
 ```csharp
-[Test]
 public void EnableFontSubstitution()
 {
-    // 打开一个文档，其中包含使用我们的任何字体源中都不存在的字体格式化的文本。
+    // 打开一个文档，其中包含使用我们任何字体源中不存在的字体格式化的文本。
     Document doc = new Document(MyDir + "Missing font.docx");
 
     // 分配一个回调来处理字体替换警告。
@@ -34,6 +33,9 @@ public void EnableFontSubstitution()
     fontSettings.SubstitutionSettings.DefaultFontSubstitution.DefaultFontName = "Arial";
     ;
     fontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
+
+    // 字体替换后应使用原始字体规格。
+    doc.LayoutOptions.KeepOriginalFontMetrics = true;
 
     // 如果我们保存缺少字体的文档，我们将收到字体替换警告。
     doc.FontSettings = fontSettings;
@@ -57,7 +59,7 @@ public void EnableFontSubstitution()
 public class HandleDocumentSubstitutionWarnings : IWarningCallback
 {
     /// <summary>
-    /// 在加载/保存过程中每次出现警告时调用。
+    /// 每次加载/保存期间发生警告时调用。
     /// </summary>
     public void Warning(WarningInfo info)
     {

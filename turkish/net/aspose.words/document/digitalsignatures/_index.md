@@ -1,14 +1,14 @@
 ---
 title: Document.DigitalSignatures
 second_title: Aspose.Words for .NET API Referansı
-description: Document mülk. Bu belge için dijital imzaların toplanmasını ve bunların doğrulama sonuçlarını alır.
+description: Document mülk. Bu belge için dijital imzaların toplanmasını ve doğrulama sonuçlarını alır.
 type: docs
 weight: 100
 url: /tr/net/aspose.words/document/digitalsignatures/
 ---
 ## Document.DigitalSignatures property
 
-Bu belge için dijital imzaların toplanmasını ve bunların doğrulama sonuçlarını alır.
+Bu belge için dijital imzaların toplanmasını ve doğrulama sonuçlarını alır.
 
 ```csharp
 public DigitalSignatureCollection DigitalSignatures { get; }
@@ -16,13 +16,13 @@ public DigitalSignatureCollection DigitalSignatures { get; }
 
 ### Notlar
 
-Bu koleksiyon, orijinal belgeden yüklenen dijital imzaları içerir. Bunu kaydettiğinizde bu dijital imzalar kaydedilmeyecek[`Document`](../) nesne dosyasını bir dosyaya veya akışa dönüştürün, çünkü kaydetme veya dönüştürme orijinal 'den farklı bir belge üretecek ve orijinal dijital imzalar artık geçerli olmayacak.
+Bu koleksiyon orijinal belgeden yüklenen dijital imzaları içeriyor. Bunu kaydettiğinizde bu dijital imzalar kaydedilmeyecek[`Document`](../) nesne 'yi bir dosyaya veya akışa aktarın; çünkü kaydetme veya dönüştürme, the orijinalinden farklı bir belge üretecek ve orijinal dijital imzalar artık geçerli olmayacaktır.
 
-Bu koleksiyon asla boş değildir. Belge imzalanmamışsa, sıfır öğe içerecektir.
+Bu koleksiyon asla`hükümsüz`. Belge imzalanmamışsa sıfır öğe içerecektir.
 
 ### Örnekler
 
-Bir belgedeki her imzayla ilgili bilgilerin nasıl doğrulanacağını ve görüntüleneceğini gösterir.
+Bir belgedeki her imza hakkındaki bilgilerin nasıl doğrulanacağını ve görüntüleneceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Digitally signed.docx");
@@ -39,17 +39,17 @@ foreach (DigitalSignature signature in doc.DigitalSignatures)
 }
 ```
 
-X.509 sertifikalarıyla belgelerin nasıl imzalanacağını gösterir.
+X.509 sertifikalarına sahip belgelerin nasıl imzalanacağını gösterir.
 
 ```csharp
 // Bir belgenin imzalanmadığını doğrulayın.
 Assert.False(FileFormatUtil.DetectFileFormat(MyDir + "Document.docx").HasDigitalSignature);
 
-// Belgeyi imzalamak için kullanacağımız bir PKCS12 dosyasından bir CertificateHolder nesnesi oluşturun.
+// Belgeyi imzalamak için kullanacağımız PKCS12 dosyasından bir SertifikaHolder nesnesi oluşturun.
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw", null);
 
-// Belgenin imzalı bir kopyasını yerel dosya sistemine kaydetmenin iki yolu vardır:
-// 1 - Bir belgeyi yerel sistem dosya adıyla atayın ve imzalı bir kopyayı başka bir dosya adıyla belirtilen bir konuma kaydedin.
+// Bir belgenin imzalı bir kopyasını yerel dosya sistemine kaydetmenin iki yolu vardır:
+// 1 - Bir belgeyi yerel sistem dosya adına göre atayın ve imzalı bir kopyasını başka bir dosya adıyla belirtilen konuma kaydedin.
 DigitalSignatureUtil.Sign(MyDir + "Document.docx", ArtifactsDir + "Document.DigitalSignature.docx", 
     certificateHolder, new SignOptions() { SignTime = DateTime.Now } );
 

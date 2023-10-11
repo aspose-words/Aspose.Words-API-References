@@ -1,14 +1,14 @@
 ---
 title: SignOptions.DecryptionPassword
 second_title: Справочник по API Aspose.Words для .NET
-description: SignOptions свойство. Пароль для расшифровки исходного документа. Значение по умолчанию пустой строки Empty .
+description: SignOptions свойство. Пароль для расшифровки исходного документа. Значение по умолчанию пустая строка Empty.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.digitalsignatures/signoptions/decryptionpassword/
 ---
 ## SignOptions.DecryptionPassword property
 
-Пароль для расшифровки исходного документа. Значение по умолчанию: **пустой строки** (Empty ).
+Пароль для расшифровки исходного документа. Значение по умолчанию: **пустая строка** (Empty).
 
 ```csharp
 public string DecryptionPassword { get; set; }
@@ -16,7 +16,7 @@ public string DecryptionPassword { get; set; }
 
 ### Примечания
 
-Если документ OOXML зашифрован, вы должны указать пароль дешифрования для расшифровки исходного документа перед тем, как он будет подписан. Это не требуется для документов в двоичном формате DOC.
+Если документ OOXML зашифрован, вам необходимо предоставить пароль расшифровки для расшифровки исходного документа перед его подписанием. Это не требуется для документов в двоичном формате DOC.
 
 ### Примеры
 

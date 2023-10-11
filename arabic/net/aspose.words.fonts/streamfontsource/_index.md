@@ -1,14 +1,16 @@
 ---
 title: Class StreamFontSource
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Fonts.StreamFontSource فصل. الفئة الأساسية لمصدر خط التدفق المحدد من قبل المستخدم.
+description: Aspose.Words.Fonts.StreamFontSource فصل. الفئة الأساسية لمصدر خط الدفق المحدد من قبل المستخدم.
 type: docs
-weight: 2860
+weight: 3040
 url: /ar/net/aspose.words.fonts/streamfontsource/
 ---
 ## StreamFontSource class
 
-الفئة الأساسية لمصدر خط التدفق المحدد من قبل المستخدم.
+الفئة الأساسية لمصدر خط الدفق المحدد من قبل المستخدم.
+
+لمعرفة المزيد، قم بزيارة[العمل مع الخطوط](https://docs.aspose.com/words/net/working-with-fonts/) مقالة توثيقية.
 
 ```csharp
 public abstract class StreamFontSource : FontSourceBase
@@ -18,31 +20,32 @@ public abstract class StreamFontSource : FontSourceBase
 
 | اسم | وصف |
 | --- | --- |
-| [CacheKey](../../aspose.words.fonts/streamfontsource/cachekey/) { get; } | مفتاح هذا المصدر في ذاكرة التخزين المؤقت . |
-| [Priority](../../aspose.words.fonts/fontsourcebase/priority/) { get; } | إرجاع أولوية مصدر الخط. |
+| [CacheKey](../../aspose.words.fonts/streamfontsource/cachekey/) { get; } | مفتاح هذا المصدر في ذاكرة التخزين المؤقت. |
+| [Priority](../../aspose.words.fonts/fontsourcebase/priority/) { get; } | يُرجع أولوية مصدر الخط. |
 | [Type](../../aspose.words.fonts/streamfontsource/type/) { get; } | إرجاع نوع مصدر الخط. |
-| [WarningCallback](../../aspose.words.fonts/fontsourcebase/warningcallback/) { get; set; } | تم الاتصال أثناء معالجة مصدر الخط عند اكتشاف مشكلة قد تؤدي إلى فقدان الدقة في التنسيق. |
+| [WarningCallback](../../aspose.words.fonts/fontsourcebase/warningcallback/) { get; set; } | يتم استدعاؤه أثناء معالجة مصدر الخط عند اكتشاف مشكلة قد تؤدي إلى فقدان دقة التنسيق. |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| [GetAvailableFonts](../../aspose.words.fonts/fontsourcebase/getavailablefonts/)() | إرجاع قائمة الخطوط المتاحة عبر هذا المصدر. |
-| abstract [OpenFontDataStream](../../aspose.words.fonts/streamfontsource/openfontdatastream/)() | يجب أن تفتح هذه الطريقة الدفق ببيانات الخط عند الطلب. |
+| [GetAvailableFonts](../../aspose.words.fonts/fontsourcebase/getavailablefonts/)() | إرجاع قائمة الخطوط المتوفرة عبر هذا المصدر. |
+| abstract [OpenFontDataStream](../../aspose.words.fonts/streamfontsource/openfontdatastream/)() | يجب أن تفتح هذه الطريقة الدفق ببيانات الخط حسب الطلب. |
 
 ### ملاحظات
 
-من أجل استخدام مصدر خط الدفق ، يجب عليك إنشاء فئة مشتقة من ملف`StreamFontSource` وتقديم تنفيذ[`OpenFontDataStream`](./openfontdatastream/) طريقة.
+من أجل استخدام مصدر خط الدفق، يجب عليك إنشاء فئة مشتقة من`StreamFontSource` وتوفير تنفيذ[`OpenFontDataStream`](./openfontdatastream/) طريقة.
 
-[`OpenFontDataStream`](./openfontdatastream/)يمكن استدعاء الطريقة عدة مرات. لأول مرة سيتم استدعاؤه عندما يقوم Aspose.Words بمسح مصادر الخطوط المتوفرة للحصول على قائمة الخطوط المتاحة. لاحقًا قد يتم استدعاؤه إذا تم استخدام الخط في المستند لتحليل بيانات الخط ولتضمين بيانات الخط في بعض تنسيقات الإخراج.
+[`OpenFontDataStream`](./openfontdatastream/)يمكن استدعاء الطريقة عدة مرات. لأول مرة سيتم استدعاؤه عندما يقوم Aspose.Words بمسح مصادر الخطوط المتوفرة للحصول على قائمة الخطوط المتاحة. قد يتم استدعاؤه لاحقًا إذا تم استخدام الخط في المستند لتحليل بيانات الخط وتضمين بيانات الخط في بعض تنسيقات الإخراج.
 
-`StreamFontSource` قد يكون مفيدًا لأنه يسمح بتحميل بيانات الخط فقط عندما تكون مطلوبة وليس لتخزينها في الذاكرة من أجل[`FontSettings`](../fontsettings/) حياة.
+`StreamFontSource` قد يكون مفيدًا لأنه يسمح بتحميل بيانات الخط فقط عندما تكون مطلوبة وليس تخزينها في الذاكرة[`FontSettings`](../fontsettings/) حياة.
 
 ### أمثلة
 
 يوضح كيفية تحميل الخطوط من الدفق.
 
 ```csharp
+public void StreamFontSourceFileRendering()
 {
     FontSettings fontSettings = new FontSettings();
     fontSettings.SetFontsSources(new FontSourceBase[] {new StreamFontSourceFile()});
@@ -56,8 +59,8 @@ public abstract class StreamFontSource : FontSourceBase
 }
 
 /// <summary>
-/// قم بتحميل بيانات الخط عند الحاجة فقط بدلاً من تخزينها في الذاكرة
-/// لكامل عمر الكائن "FontSettings".
+/// قم بتحميل بيانات الخط فقط عند الحاجة إليها بدلاً من تخزينها في الذاكرة
+/// طوال عمر كائن "FontSettings".
 /// </summary>
 private class StreamFontSourceFile : StreamFontSource
 {

@@ -1,14 +1,14 @@
 ---
 title: BorderCollection.DistanceFromText
 second_title: Aspose.Words لمراجع .NET API
-description: BorderCollection ملكية. الحصول على مسافة الحد أو تحديدها من النص بالنقاط .
+description: BorderCollection ملكية. الحصول على أو تعيين مسافة الحد من النص بالنقاط.
 type: docs
 weight: 40
 url: /ar/net/aspose.words/bordercollection/distancefromtext/
 ---
 ## BorderCollection.DistanceFromText property
 
-الحصول على مسافة الحد أو تحديدها من النص بالنقاط .
+الحصول على أو تعيين مسافة الحد من النص بالنقاط.
 
 ```csharp
 public double DistanceFromText { get; set; }
@@ -18,13 +18,13 @@ public double DistanceFromText { get; set; }
 
 الحصول على المسافة من النص للحد الأول.
 
-يضبط المسافة من النص لكل الحدود في المجموعة باستثناء الحدود القطرية.
+يضبط المسافة من النص لجميع الحدود في المجموعة باستثناء الحدود القطرية.
 
-ليس له أي تأثير وسيتم إعادة تعيينه تلقائيًا إلى الصفر لحدود خلايا الجدول.
+ليس له أي تأثير وسيتم إعادة تعيينه تلقائيًا إلى الصفر بالنسبة لحدود خلايا الجدول.
 
 ### أمثلة
 
-يوضح كيفية إنشاء حد صفحة أخضر مموج بظل.
+يوضح كيفية إنشاء حدود صفحة خضراء متموجة مع الظل.
 
 ```csharp
 Document doc = new Document();

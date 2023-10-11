@@ -3,7 +3,7 @@ title: Enum ImportFormatMode
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Aspose.Words.ImportFormatMode énumération. Spécifie comment le formatage est fusionné lors de limportation de contenu à partir dun autre document.
 type: docs
-weight: 3030
+weight: 3230
 url: /fr/net/aspose.words/importformatmode/
 ---
 ## ImportFormatMode enumeration
@@ -24,23 +24,23 @@ public enum ImportFormatMode
 
 ### Remarques
 
-Lorsque vous copiez des nœuds d'un document à un autre, cette option spécifie comment formatting est résolu lorsque les deux documents ont un style avec le même nom, mais une mise en forme différente.
+Lorsque vous copiez des nœuds d'un document à un autre, cette option spécifie comment formatting est résolu lorsque les deux documents ont un style avec le même nom, mais un formatage différent.
 
 Le formatage est résolu comme suit :
 
 1. Les styles intégrés sont mis en correspondance à l'aide de leur identifiant de style indépendant des paramètres régionaux. Les styles définis par l'utilisateur sont mis en correspondance à l'aide d'un nom de style sensible à la casse.
-2. Si un style correspondant n'est pas trouvé dans le document de destination, le style (et tous les styles référencés par celui-ci) sont copiés dans le document de destination et les nœuds importés sont mis à jour pour référencer le nouveau style.
-3. Si un style correspondant existe déjà dans le document de destination, ce qui se passe dépend du`importFormatModeimportFormatMode` paramètre passé à [`Document.ImportNodeDocument.ImportNode`](../documentbase/importnode/) comme décrit ci-dessous.
+2. Si aucun style correspondant n'est trouvé dans le document de destination, le style (et tous les styles référencés par celui-ci) sont copiés dans le document de destination et les nœuds importés sont mis à jour pour référencer le nouveau style.
+3. Si un style correspondant existe déjà dans le document de destination, ce qui se passe dépend du`modeImportFormat` paramètre passé à [`Document.ImportNode`](../documentbase/importnode/) comme décrit ci-dessous.
 
-Lors de l'utilisation du **Utiliser les styles de destination** si un style correspondant existe déjà dans le document de destination, le style n'est pas copié et les nœuds importés sont mis à jour pour référencer le style existant.
+Lors de l'utilisation duUseDestinationStyles , si un style correspondant existe déjà dans le document de destination, le style n'est pas copié et les nœuds importés sont mis à jour pour référencer le style existant.
 
-L'inconvénient d'utiliser **Utiliser les styles de destination** est que le texte importé pourrait avoir un aspect différent dans le document de destination par rapport au document source. Par exemple, le style "Titre 1" dans le document source utilise la police Arial 16pt et le style "Titre 1" dans le document de destination utilise Times New Police Roman 14pt. Lors de l'importation de texte de style "Titre 1" sans autre mise en forme directe, il apparaîtra en tant que police Times New Roman 14pt dans le document de destination.
+L'inconvénient de l'utilisationUseDestinationStylesest que le texte importé pourrait avoir un aspect différent dans le document de destination par rapport au document source. Par exemple, le style « Titre 1 » dans le document source utilise la police Arial 16 pt et le style « Titre 1 » dans le document de destination utilise Times New. Police Roman 14pt. Lors de l'importation de texte de style « Titre 1 » sans autre formatage direct, il apparaîtra en tant que police Times New Roman 14pt dans le document de destination.
 
-**KeepSourceFormatting**L'option permet de s'assurer que le contenu importé a le même aspect dans le document de destination que dans le document source. Si un style correspondant existe déjà dans le document de destination, la mise en forme du style source est développée dans les attributs de nœud directs et le style est changé en Normal. Si le style n'existe pas dans le document de destination, alors le style source est importé dans le document de destination et appliqué au nœud importé. Notez qu'il n'est pas toujours possible de conserver le style source même s'il n'existe pas dans le document de destination. Dans ce cas, la mise en forme d'un tel style sera étendue aux attributs de nœud directs en faveur de la préservation de la mise en forme originale du nœud.
+KeepSourceFormattingL'option permet de s'assurer que le contenu importé a le même aspect dans le document de destination que dans le document source. Si un style correspondant existe déjà dans le document de destination, le formatage du style source est étendu en attributs de nœud directs et le style est changé en Normal. Si le style n'existe pas dans le document de destination, alors le style source est importé dans le document de destination et appliqué au nœud importé. Notez qu'il n'est pas toujours possible de conserver le style source même s'il n'existe pas dans le document de destination. Dans ce cas, le formatage d'un tel style sera étendu aux attributs de nœud directs en faveur de la préservation du formatage de nœud d'origine.
 
-L'inconvénient d'utiliser **KeepSourceFormatting**est que si vous effectuez plusieurs importations, vous pourriez vous retrouver avec de nombreux styles dans le document de destination et cela pourrait rendre difficile l'utilisation d'un formatage de style cohérent dans Microsoft Word pour ce document.
+L'inconvénient de l'utilisationKeepSourceFormattingest que si vous effectuez plusieurs importations, vous pourriez vous retrouver avec de nombreux styles dans le document de destination, ce qui pourrait rendre difficile l'utilisation d'un formatage de style cohérent dans Microsoft Word pour ce document.
 
-Utilisant **Conserverdifférentsstyles** L'option permet de réutiliser les styles de destination si la mise en forme qu'ils fournissent est identique aux styles du document source. Si le style du document de destination est différent de celui de la source, il est alors importé.
+En utilisantKeepDifferentStyles L'option permet de réutiliser les styles de destination si le formatage qu'ils fournissent est identique aux styles du document source. Si le style du document de destination est différent de celui de la source alors il est importé.
 
 ### Exemples
 

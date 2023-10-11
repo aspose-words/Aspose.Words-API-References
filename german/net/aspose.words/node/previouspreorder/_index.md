@@ -1,14 +1,14 @@
 ---
 title: Node.PreviousPreOrder
 second_title: Aspose.Words für .NET-API-Referenz
-description: Node methode. Ruft den vorherigen Knoten gemäß dem Traversalalgorithmus des Vorbestellungsbaums ab.
+description: Node methode. Ruft den vorherigen Knoten gemäß dem PreOrderTreeTraversalAlgorithmus ab.
 type: docs
 weight: 140
 url: /de/net/aspose.words/node/previouspreorder/
 ---
 ## Node.PreviousPreOrder method
 
-Ruft den vorherigen Knoten gemäß dem Traversalalgorithmus des Vorbestellungsbaums ab.
+Ruft den vorherigen Knoten gemäß dem Pre-Order-Tree-Traversal-Algorithmus ab.
 
 ```csharp
 public Node PreviousPreOrder(Node rootNode)
@@ -16,15 +16,15 @@ public Node PreviousPreOrder(Node rootNode)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| rootNode | Node | Der oberste Knoten (Limit) des Durchlaufs. |
+| rootNode | Node | Der oberste Knoten (Grenze) der Durchquerung. |
 
 ### Rückgabewert
 
-Vorheriger Knoten in Vorbestellungsreihenfolge. Null, wenn der RootNode erreicht wurde.
+Vorheriger Knoten in der Vorbestellungsreihenfolge. Null, wenn erreicht*rootNode*.
 
 ### Beispiele
 
-Zeigt, wie die Knotenstruktur des Dokuments mithilfe des Vorbestellungs-Traversierungsalgorithmus durchlaufen und alle gefundenen Formen mit einem Bild gelöscht werden.
+Zeigt, wie man den Knotenbaum des Dokuments mit dem Vorbestellungs-Traversalalgorithmus durchläuft und alle gefundenen Formen mit einem Bild löscht.
 
 ```csharp
 Document doc = new Document(MyDir + "Images.docx");

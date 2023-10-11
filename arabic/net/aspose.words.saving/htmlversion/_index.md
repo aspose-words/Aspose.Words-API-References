@@ -1,14 +1,14 @@
 ---
 title: Enum HtmlVersion
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Saving.HtmlVersion تعداد. يشير إلى إصدار HTML المستخدم عند حفظ المستندHtml و Mhtml التنسيقات .
+description: Aspose.Words.Saving.HtmlVersion تعداد. يشير إلى إصدار HTML المستخدم عند حفظ المستند فيهHtml و Mhtml التنسيقات.
 type: docs
-weight: 4860
+weight: 5120
 url: /ar/net/aspose.words.saving/htmlversion/
 ---
 ## HtmlVersion enumeration
 
-يشير إلى إصدار HTML المستخدم عند حفظ المستندHtml و Mhtml التنسيقات .
+يشير إلى إصدار HTML المستخدم عند حفظ المستند فيهHtml و Mhtml التنسيقات.
 
 ```csharp
 public enum HtmlVersion
@@ -18,12 +18,12 @@ public enum HtmlVersion
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| Xhtml | `0` | يحفظ المستند وفقًا لمعيار XHTML 1.0 الانتقالي. |
-| Html5 | `1` | يحفظ المستند وفقًا لمعيار HTML 5. |
+| Xhtml | `0` | يحفظ المستند بالتوافق مع معيار XHTML 1.0 الانتقالي. |
+| Html5 | `1` | يحفظ المستند بالتوافق مع معيار HTML 5. |
 
 ### أمثلة
 
-يوضح كيفية عرض عنوان DOCTYPE عند تحويل المستندات إلى معيار Xhtml 1.0 الانتقالي.
+يوضح كيفية عرض عنوان DOCTYPE عند تحويل المستندات إلى المعيار الانتقالي Xhtml 1.0.
 
 ```csharp
 Document doc = new Document();
@@ -40,19 +40,19 @@ HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.Html)
 
 doc.Save(ArtifactsDir + "HtmlSaveOptions.ExportXhtmlTransitional.html", options);
 
-// سوف تحتوي وثيقتنا على عنوان إعلان DOCTYPE فقط إذا قمنا بتعيين علامة "ExportXhtmlTransitional" على "true".
+// ستحتوي وثيقتنا على عنوان إعلان DOCTYPE فقط إذا قمنا بتعيين علامة "ExportXhtmlTransitional" على "true".
 string outDocContents = File.ReadAllText(ArtifactsDir + "HtmlSaveOptions.ExportXhtmlTransitional.html");
 
 if (showDoctypeDeclaration)
     Assert.True(outDocContents.Contains(
         "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"no\"?>\r\n" +
-        "<!DOCTYPE html PUBLIC \"-// W3C // DTD XHTML 1.0 Transitional // EN \ "\" http: //www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd \ "> \ r \ n" +
-        "<html xmlns=\"http://www.w3.org/1999/xhtml\"> ")) ;
+        "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\r\n" +
+        "<html xmlns=\"http://www.w3.org/1999/xhtml\">"));
 else
     Assert.True(outDocContents.Contains("<html>"));
 ```
 
-يوضح كيفية حفظ مستند في إصدار محدد من HTML.
+يوضح كيفية حفظ مستند إلى إصدار محدد من HTML.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

@@ -1,14 +1,14 @@
 ---
 title: Document.UnlinkFields
 second_title: Aspose.Words for .NET API Referansı
-description: Document yöntem. Belgenin tamamındaki alanların bağlantısını kaldırır.
+description: Document yöntem. Tüm belgedeki alanların bağlantısını kaldırır.
 type: docs
-weight: 710
+weight: 750
 url: /tr/net/aspose.words/document/unlinkfields/
 ---
 ## Document.UnlinkFields method
 
-Belgenin tamamındaki alanların bağlantısını kaldırır.
+Tüm belgedeki alanların bağlantısını kaldırır.
 
 ```csharp
 public void UnlinkFields()
@@ -18,7 +18,7 @@ public void UnlinkFields()
 
 Belgenin tamamındaki tüm alanları en son sonuçlarıyla değiştirir.
 
-Belge kullanımının belirli bir bölümündeki alanların bağlantısını kaldırmak için[`UnlinkFields`](../../range/unlinkfields/).
+Belgenin belirli bir bölümündeki alanların bağlantısını kaldırmak için şunu kullanın:[`UnlinkFields`](../../range/unlinkfields/).
 
 ### Örnekler
 

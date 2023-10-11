@@ -1,14 +1,14 @@
 ---
 title: DocumentBuilder.IsAtEndOfParagraph
 second_title: Aspose.Words for .NET API Referansı
-description: DocumentBuilder mülk. İmleç geçerli paragrafın sonundaysa true değerini döndürür.
+description: DocumentBuilder mülk. İadelerdoğru İmleç geçerli paragrafın sonundaysa.
 type: docs
-weight: 100
+weight: 110
 url: /tr/net/aspose.words/documentbuilder/isatendofparagraph/
 ---
 ## DocumentBuilder.IsAtEndOfParagraph property
 
-İmleç geçerli paragrafın sonundaysa true değerini döndürür.
+İadeler`doğru` İmleç geçerli paragrafın sonundaysa.
 
 ```csharp
 public bool IsAtEndOfParagraph { get; }
@@ -16,39 +16,39 @@ public bool IsAtEndOfParagraph { get; }
 
 ### Örnekler
 
-Bir belge oluşturucunun imlecinin bir belgedeki farklı düğümlere nasıl taşınacağını gösterir.
+Belge oluşturucunun imlecinin belgedeki farklı düğümlere nasıl taşınacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Geçerli bir yer imi oluşturun, bir yer imi başlangıç düğümü tarafından çevrelenen düğümlerden oluşan bir varlık,
+// Geçerli bir yer imi, bir yer imi başlangıç düğümünün çevrelediği düğümlerden oluşan bir varlık oluşturun,
  // ve bir yer imi bitiş düğümü.
 builder.StartBookmark("MyBookmark");
 builder.Write("Bookmark contents.");
 builder.EndBookmark("MyBookmark");
 
-NodeCollection firstParagraphNodes = doc.FirstSection.Body.FirstParagraph.ChildNodes;
+NodeCollection firstParagraphNodes = doc.FirstSection.Body.FirstParagraph.GetChildNodes(NodeType.Any, false);
 
 Assert.AreEqual(NodeType.BookmarkStart, firstParagraphNodes[0].NodeType);
 Assert.AreEqual(NodeType.Run, firstParagraphNodes[1].NodeType);
 Assert.AreEqual("Bookmark contents.", firstParagraphNodes[1].GetText().Trim());
 Assert.AreEqual(NodeType.BookmarkEnd, firstParagraphNodes[2].NodeType);
 
-// Belge oluşturucunun imleci her zaman onunla son eklediğimiz düğümün önündedir.
-// Oluşturucunun imleci belgenin sonundaysa, mevcut düğümü boş olur.
-// Önceki düğüm, en son eklediğimiz yer imi bitiş düğümüdür.
-// Oluşturucu ile yeni düğümler eklemek onları son düğüme ekleyecektir.
+// Belge oluşturucunun imleci her zaman en son eklediğimiz düğümün önündedir.
+// Oluşturucunun imleci belgenin sonundaysa, geçerli düğümü boş olacaktır.
+// Önceki düğüm, en son eklediğimiz yer işareti bitiş düğümüdür.
+// Oluşturucuyla yeni düğümler eklemek onları son düğüme ekleyecektir.
 Assert.Null(builder.CurrentNode);
 
-// Oluşturucu ile belgenin farklı bir bölümünü düzenlemek istersek,
+// Oluşturucu ile belgenin farklı bir bölümünü düzenlemek istiyorsak,
 // imlecini düzenlemek istediğimiz düğüme getirmemiz gerekecek.
 builder.MoveToBookmark("MyBookmark");
 
-// Onu bir yer imine taşımak, onu yer imi başlangıç ve bitiş düğümleri içindeki ilk düğüme, ekteki çalıştırmaya taşır.
+// Bunu bir yer imine taşımak, onu yer işareti başlangıç ve bitiş düğümleri içindeki ilk düğüme, yani ekteki çalıştırmaya taşıyacaktır.
 Assert.AreEqual(firstParagraphNodes[1], builder.CurrentNode);
 
-// İmleci bu şekilde tek bir düğüme de taşıyabiliriz.
+// İmleci bunun gibi tek bir düğüme de taşıyabiliriz.
 builder.MoveTo(doc.FirstSection.Body.FirstParagraph.GetChildNodes(NodeType.Any, false)[0]);
 
 Assert.AreEqual(NodeType.BookmarkStart, builder.CurrentNode.NodeType);

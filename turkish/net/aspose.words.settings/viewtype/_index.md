@@ -1,14 +1,14 @@
 ---
 title: Enum ViewType
 second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Settings.ViewType Sıralama. Microsoft Wordde görüntüleme modu için olası değerler.
+description: Aspose.Words.Settings.ViewType Sıralama. Microsoft Worddeki görüntüleme modu için olası değerler.
 type: docs
-weight: 5660
+weight: 5960
 url: /tr/net/aspose.words.settings/viewtype/
 ---
 ## ViewType enumeration
 
-Microsoft Word'de görüntüleme modu için olası değerler.
+Microsoft Word'deki görüntüleme modu için olası değerler.
 
 ```csharp
 public enum ViewType
@@ -18,16 +18,16 @@ public enum ViewType
 
 | İsim | Değer | Tanım |
 | --- | --- | --- |
-| None | `0` | Belge, uygulamanın varsayılan görünümünde işlenecektir. |
-| Reading | `0` | Belge, uygulamanın varsayılan görünümünde işlenecektir. |
-| PageLayout | `1` | Belge, belgeyi yazdırılacağı gibi görüntüleyen bir görünümde açılacaktır. |
-| Outline | `3` | Belge, ana hatlar oluşturmak veya uzun belgeler oluşturmak için optimize edilmiş bir görünümde işlenecektir. |
-| Normal | `4` | Belge, ana hatlar oluşturmak veya uzun belgeler oluşturmak için optimize edilmiş bir görünümde işlenecektir. |
+| None | `0` | Belge, uygulamanın varsayılan görünümünde oluşturulacaktır. |
+| Reading | `0` | Belge, uygulamanın varsayılan görünümünde oluşturulacaktır. |
+| PageLayout | `1` | Belge, belgeyi yazdırılacağı şekliyle görüntüleyen bir görünümde açılacaktır. |
+| Outline | `3` | Belge, uzun belgelerin ana hatlarını çizmek veya oluşturmak için optimize edilmiş bir görünümde oluşturulacaktır. |
+| Normal | `4` | Belge, uzun belgelerin ana hatlarını çizmek veya oluşturmak için optimize edilmiş bir görünümde oluşturulacaktır. |
 | Web | `5` | Belge, bu belgenin bir web sayfasında görüntülenme şeklini taklit eden bir görünümde oluşturulacaktır. |
 
 ### Örnekler
 
-Microsoft Word'ün eski sürümlerinin yükleme sırasında bir belgeye uygulanacağı özel bir yakınlaştırma faktörünün nasıl ayarlanacağını gösterir.
+Microsoft Word'ün eski sürümlerinin yükleme sırasında bir belgeye uygulayacağı özel yakınlaştırma faktörünün nasıl ayarlanacağını gösterir.
 
 ```csharp
 Document doc = new Document();

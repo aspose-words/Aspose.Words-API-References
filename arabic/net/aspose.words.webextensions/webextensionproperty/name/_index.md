@@ -1,14 +1,14 @@
 ---
 title: WebExtensionProperty.Name
 second_title: Aspose.Words لمراجع .NET API
-description: WebExtensionProperty ملكية. تحديد اسم خاصية مخصصة
+description: WebExtensionProperty ملكية. يحدد خاصية مخصصة name
 type: docs
 weight: 20
 url: /ar/net/aspose.words.webextensions/webextensionproperty/name/
 ---
 ## WebExtensionProperty.Name property
 
-تحديد اسم خاصية مخصصة
+يحدد خاصية مخصصة name
 
 ```csharp
 public string Name { get; set; }

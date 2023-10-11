@@ -1,16 +1,16 @@
 ---
 title: TxtSaveOptions.SimplifyListLabels
 second_title: Référence de l'API Aspose.Words pour .NET
-description: TxtSaveOptions propriété. Spécifie si le programme doit simplifier les étiquettes de liste dans le cas où le formatage complexe des étiquettes nest pas correctement représenté par du texte brut.
+description: TxtSaveOptions propriété. Spécifie si le programme doit simplifier les étiquettes de liste dans le cas où le formatage des étiquettes complexes nest pas correctement représenté par du texte brut.
 type: docs
 weight: 70
 url: /fr/net/aspose.words.saving/txtsaveoptions/simplifylistlabels/
 ---
 ## TxtSaveOptions.SimplifyListLabels property
 
-Spécifie si le programme doit simplifier les étiquettes de liste dans le cas où le formatage complexe des étiquettes n'est pas correctement représenté par du texte brut.
+Spécifie si le programme doit simplifier les étiquettes de liste dans le cas où le formatage des étiquettes complexes n'est pas correctement représenté par du texte brut.
 
-Si réglé sur **vrai** , les étiquettes de liste numérotée sont écrites au format numérique simple et les étiquettes de liste détaillée en caractères ASCII simples. La valeur par défaut est **faux**.
+Si réglé sur`vrai` , les étiquettes de liste numérotée sont écrites au format numérique simple et les étiquettes de liste détaillée sous forme de simples caractères ASCII. La valeur par défaut est`FAUX`.
 
 ```csharp
 public bool SimplifyListLabels { get; set; }
@@ -18,7 +18,7 @@ public bool SimplifyListLabels { get; set; }
 
 ### Exemples
 
-Montre comment modifier l'apparence des listes lors de l'enregistrement d'un document en texte brut.
+Montre comment modifier l’apparence des listes lors de l’enregistrement d’un document en texte brut.
 
 ```csharp
 Document doc = new Document();
@@ -36,12 +36,12 @@ builder.Writeln("Item 4");
 builder.ListFormat.ListIndent();
 builder.Write("Item 5");
 
-// Crée un objet "TxtSaveOptions", que nous pouvons passer à la méthode "Save" du document
+// Crée un objet "TxtSaveOptions", que l'on peut passer à la méthode "Save" du document
 // pour modifier la façon dont nous enregistrons le document en texte brut.
 TxtSaveOptions txtSaveOptions = new TxtSaveOptions();
 
-// Définissez la propriété "SimplifyListLabels" sur "true" pour convertir une liste
-// symboles en caractères ASCII plus simples, tels que '*', 'o', '+', '>', etc.
+// Définit la propriété "SimplifyListLabels" sur "true" pour convertir une liste
+// les symboles en caractères ASCII plus simples, tels que '*', 'o', '+', '>', etc.
 // Définissez la propriété "SimplifyListLabels" sur "false" pour conserver autant de symboles de liste d'origine que possible.
 txtSaveOptions.SimplifyListLabels = simplifyListLabels;
 

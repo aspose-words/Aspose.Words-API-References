@@ -1,14 +1,14 @@
 ---
 title: TableStyle.Borders
 second_title: Aspose.Words لمراجع .NET API
-description: TableStyle ملكية. الحصول على مجموعة حدود الخلية الافتراضية للنمط.
+description: TableStyle ملكية. الحصول على مجموعة حدود الخلايا الافتراضية للنمط.
 type: docs
 weight: 40
 url: /ar/net/aspose.words/tablestyle/borders/
 ---
 ## TableStyle.Borders property
 
-الحصول على مجموعة حدود الخلية الافتراضية للنمط.
+الحصول على مجموعة حدود الخلايا الافتراضية للنمط.
 
 ```csharp
 public BorderCollection Borders { get; }

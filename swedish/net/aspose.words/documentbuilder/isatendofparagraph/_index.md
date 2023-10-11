@@ -1,14 +1,14 @@
 ---
 title: DocumentBuilder.IsAtEndOfParagraph
 second_title: Aspose.Words för .NET API Referens
-description: DocumentBuilder fast egendom. Returnerar sant om markören är i slutet av det aktuella stycket.
+description: DocumentBuilder fast egendom. ReturnerarSann om markören är i slutet av det aktuella stycket.
 type: docs
-weight: 100
+weight: 110
 url: /sv/net/aspose.words/documentbuilder/isatendofparagraph/
 ---
 ## DocumentBuilder.IsAtEndOfParagraph property
 
-Returnerar sant om markören är i slutet av det aktuella stycket.
+Returnerar`Sann` om markören är i slutet av det aktuella stycket.
 
 ```csharp
 public bool IsAtEndOfParagraph { get; }
@@ -23,12 +23,12 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Skapa ett giltigt bokmärke, en enhet som består av noder som omges av en bokmärkesstartnod,
-  // och en bokmärkesslutnod.
+ // och en bokmärkesslutnod.
 builder.StartBookmark("MyBookmark");
 builder.Write("Bookmark contents.");
 builder.EndBookmark("MyBookmark");
 
-NodeCollection firstParagraphNodes = doc.FirstSection.Body.FirstParagraph.ChildNodes;
+NodeCollection firstParagraphNodes = doc.FirstSection.Body.FirstParagraph.GetChildNodes(NodeType.Any, false);
 
 Assert.AreEqual(NodeType.BookmarkStart, firstParagraphNodes[0].NodeType);
 Assert.AreEqual(NodeType.Run, firstParagraphNodes[1].NodeType);

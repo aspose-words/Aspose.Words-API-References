@@ -1,14 +1,16 @@
 ---
 title: Class OdsoFieldMapDataCollection
 second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Settings.OdsoFieldMapDataCollection classe. Una raccolta tipizzata diOdsoFieldMapData oggetti.
+description: Aspose.Words.Settings.OdsoFieldMapDataCollection classe. Una raccolta digitata diOdsoFieldMapData oggetti.
 type: docs
-weight: 5610
+weight: 5910
 url: /it/net/aspose.words.settings/odsofieldmapdatacollection/
 ---
 ## OdsoFieldMapDataCollection class
 
-Una raccolta tipizzata di[`OdsoFieldMapData`](../odsofieldmapdata/) oggetti.
+Una raccolta digitata di[`OdsoFieldMapData`](../odsofieldmapdata/) oggetti.
+
+Per saperne di più, visita il[Stampa unione e reporting](https://docs.aspose.com/words/net/mail-merge-and-reporting/) articolo di documentazione.
 
 ```csharp
 public class OdsoFieldMapDataCollection : IEnumerable<OdsoFieldMapData>
@@ -34,7 +36,7 @@ public class OdsoFieldMapDataCollection : IEnumerable<OdsoFieldMapData>
 | [Add](../../aspose.words.settings/odsofieldmapdatacollection/add/)(OdsoFieldMapData) | Aggiunge un oggetto alla fine di questa raccolta. |
 | [Clear](../../aspose.words.settings/odsofieldmapdatacollection/clear/)() | Rimuove tutti gli elementi da questa raccolta. |
 | [GetEnumerator](../../aspose.words.settings/odsofieldmapdatacollection/getenumerator/)() | Restituisce un oggetto enumeratore che può essere utilizzato per scorrere tutti gli elementi della raccolta. |
-| [RemoveAt](../../aspose.words.settings/odsofieldmapdatacollection/removeat/)(int) | Rimuove l'elemento in corrispondenza dell'indice specificato. |
+| [RemoveAt](../../aspose.words.settings/odsofieldmapdatacollection/removeat/)(int) | Rimuove l'elemento all'indice specificato. |
 
 ### Esempi
 
@@ -43,8 +45,8 @@ Mostra come accedere alla raccolta di dati che mappa le colonne dell'origine dat
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
 
-// Questa raccolta definisce come una stampa unione mapperà le colonne da un'origine dati
-// ai campi MERGEFIELD, ADDRESSBLOCK e GREETINGLINE.
+// Questa raccolta definisce il modo in cui una stampa unione mapperà le colonne da un'origine dati
+// ai campi MERGEFIELD, ADDRESSBLOCK e GREETINGLINE predefiniti.
 OdsoFieldMapDataCollection dataCollection = doc.MailMergeSettings.Odso.FieldMapDatas;
 Assert.AreEqual(30, dataCollection.Count);
 
@@ -65,12 +67,12 @@ using (IEnumerator<OdsoFieldMapData> enumerator = dataCollection.GetEnumerator()
 // Clona gli elementi in questa raccolta.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// Usa gli elementi del metodo "RemoveAt" individualmente per indice.
+// Utilizza gli elementi del metodo "RemoveAt" singolarmente per indice.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(29, dataCollection.Count);
 
-// Usa il metodo "Cancella" per cancellare l'intera collezione in una volta.
+// Utilizza il metodo "Cancella" per cancellare l'intera raccolta in una volta.
 dataCollection.Clear();
 
 Assert.AreEqual(0, dataCollection.Count);

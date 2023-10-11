@@ -1,14 +1,14 @@
 ---
 title: DocumentBuilder.EndColumnBookmark
 second_title: Aspose.Words for .NET API 参考
-description: DocumentBuilder 方法. 将文档中的当前位置标记为列书签结束该位置必须在表格单元格中
+description: DocumentBuilder 方法. 将文档中的当前位置标记为列书签末尾该位置必须位于表格单元格中
 type: docs
-weight: 200
+weight: 220
 url: /zh/net/aspose.words/documentbuilder/endcolumnbookmark/
 ---
 ## DocumentBuilder.EndColumnBookmark method
 
-将文档中的当前位置标记为列书签结束。该位置必须在表格单元格中。
+将文档中的当前位置标记为列书签末尾。该位置必须位于表格单元格中。
 
 ```csharp
 public BookmarkEnd EndColumnBookmark(string bookmarkName)
@@ -24,15 +24,15 @@ public BookmarkEnd EndColumnBookmark(string bookmarkName)
 
 ### 评论
 
-列书签涵盖一系列行中的一个或多个列。要创建有效的书签 you 需要同时调用[`StartColumnBookmark`](../startcolumnbookmark/)和`EndColumnBookmark`与相同  **书签名称**范围。
+列书签覆盖一系列行中的一列或多列。要创建有效的书签，you 需要调用两者[`StartColumnBookmark`](../startcolumnbookmark/)和`EndColumnBookmark`与 same *bookmarkName*范围。
 
-保存文档时将忽略格式错误的书签或具有重复名称的书签。
+保存文档时，格式错误的书签或名称重复的书签将被忽略。
 
-插入的实际位置[`BookmarkEnd`](../../bookmarkend/)节点可能与当前的 document builder 位置不同。
+实际插入的位置[`BookmarkEnd`](../../bookmarkend/)节点可能与当前 document builder 位置不同。
 
 ### 例子
 
-显示如何创建列书签。
+展示如何创建列书签。
 
 ```csharp
 Document doc = new Document();
@@ -43,7 +43,7 @@ builder.StartTable();
 builder.InsertCell();
 // 单元格 1,2,4,5 将被添加书签。
 builder.StartColumnBookmark("MyBookmark_1");
-// 保存文档时将忽略格式错误的书签或具有重复名称的书签。
+// 保存文档时，格式错误的书签或名称重复的书签将被忽略。
 builder.StartColumnBookmark("MyBookmark_1");
 builder.StartColumnBookmark("BadStartBookmark");
 builder.Write("Cell 1");

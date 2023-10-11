@@ -1,12 +1,14 @@
 ---
 title: Glyph.GetWidth
 second_title: Справочник по API Aspose.Words для .NET
-description: Glyph метод. 
+description: Glyph метод. Возвращает ширину прогресс глифа в пунктах.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.shaping/glyph/getwidth/
 ---
 ## Glyph.GetWidth method
+
+Возвращает ширину (прогресс) глифа в пунктах.
 
 ```csharp
 public virtual float GetWidth(int em, float fontSize)

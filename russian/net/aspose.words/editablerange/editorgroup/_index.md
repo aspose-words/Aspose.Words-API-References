@@ -1,14 +1,14 @@
 ---
 title: EditableRange.EditorGroup
 second_title: Справочник по API Aspose.Words для .NET
-description: EditableRange свойство. Возвращает или задает псевдоним или группу редактирования который должен использоваться для определения того разрешено ли текущему пользователю редактировать этот редактируемый диапазон.
+description: EditableRange свойство. Возвращает или устанавливает псевдоним или группу редактирования который будет использоваться для определения разрешено ли текущему пользователю редактировать этот редактируемый диапазон.
 type: docs
 weight: 30
 url: /ru/net/aspose.words/editablerange/editorgroup/
 ---
 ## EditableRange.EditorGroup property
 
-Возвращает или задает псевдоним (или группу редактирования), который должен использоваться для определения того, разрешено ли текущему пользователю редактировать этот редактируемый диапазон.
+Возвращает или устанавливает псевдоним (или группу редактирования), который будет использоваться для определения, разрешено ли текущему пользователю редактировать этот редактируемый диапазон.
 
 ```csharp
 public EditorType EditorGroup { get; set; }
@@ -16,7 +16,7 @@ public EditorType EditorGroup { get; set; }
 
 ### Примечания
 
-Один пользователь и группа редакторов не могут быть установлены одновременно для определенного редактируемого диапазона, , если один установлен, другой будет очищен.
+Один пользователь и группа редакторов не могут быть установлены одновременно для определенного редактируемого диапазона, , если один установлен, другой будет пуст.
 
 ### Примеры
 
@@ -37,9 +37,9 @@ builder.Writeln("This paragraph inside the outer editable range and can be edite
 EditableRangeStart innerEditableRangeStart = builder.StartEditableRange();
 builder.Writeln("This paragraph inside both the outer and inner editable ranges and can be edited.");
 
-// В настоящее время курсор вставки узла компоновщика документов находится более чем в одном редактируемом диапазоне.
-// Когда мы хотим закончить редактируемый диапазон в этой ситуации,
-// нам нужно указать, какой из диапазонов мы хотим закончить, передав его узел EditableRangeStart.
+// В настоящее время курсор вставки узла компоновщика документов находится более чем в одном постоянно редактируемом диапазоне.
+// Когда в этой ситуации мы хотим завершить редактируемый диапазон,
+// нам нужно указать, какой из диапазонов мы хотим завершить, передав его узел EditableRangeStart.
 builder.EndEditableRange(innerEditableRangeStart);
 
 builder.Writeln("This paragraph inside the outer editable range and can be edited.");
@@ -49,7 +49,7 @@ builder.EndEditableRange(outerEditableRangeStart);
 builder.Writeln("This paragraph is outside any editable ranges, and cannot be edited.");
 
 // Если область текста имеет два перекрывающихся редактируемых диапазона с указанными группами,
-// объединенная группа пользователей, исключенных обеими группами, не может редактировать его.
+// объединенная группа пользователей, исключенная обеими группами, не может редактировать его.
 outerEditableRangeStart.EditableRange.EditorGroup = EditorType.Everyone;
 innerEditableRangeStart.EditableRange.EditorGroup = EditorType.Contributors;
 
@@ -68,7 +68,7 @@ public void Visitor()
     builder.Writeln("Hello world! Since we have set the document's protection level to read-only," +
                     " we cannot edit this paragraph without the password.");
 
-    // Когда мы защищаем документы от записи, редактируемые диапазоны позволяют нам выбирать определенные области, которые могут редактировать пользователи.
+    // Когда мы защищаем документы от записи, редактируемые диапазоны позволяют нам выбирать определенные области, которые пользователи могут редактировать.
     // Есть два взаимоисключающих способа сузить список разрешенных редакторов.
     // 1 - Указываем пользователя:
     EditableRange editableRange = builder.StartEditableRange().EditableRange;
@@ -78,7 +78,7 @@ public void Visitor()
 
     Assert.AreEqual(EditorType.Unspecified, editableRange.EditorGroup);
 
-    // 2 - Указываем группу, с которой связаны разрешенные пользователи:
+    // 2 - Укажите группу, с которой связаны разрешенные пользователи:
     editableRange = builder.StartEditableRange().EditableRange;
     editableRange.EditorGroup = EditorType.Administrators;
     builder.Writeln($"This paragraph is inside the first editable range, can only be edited by {editableRange.EditorGroup}.");
@@ -88,7 +88,7 @@ public void Visitor()
 
     builder.Writeln("This paragraph is outside the editable range, and cannot be edited by anybody.");
 
-    // Печатаем детали и содержимое каждого редактируемого диапазона в документе.
+    // Распечатываем детали и содержимое каждого редактируемого диапазона в документе.
     EditableRangePrinter editableRangePrinter = new EditableRangePrinter();
 
     doc.Accept(editableRangePrinter);
@@ -148,7 +148,7 @@ public class EditableRangePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Вызывается, когда в документе встречается узел Run. Этот посетитель записывает только те пробеги, которые находятся в редактируемых диапазонах.
+    /// Вызывается, когда в документе встречается узел Run. Этот посетитель записывает только прогоны, находящиеся в пределах редактируемых диапазонов.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {

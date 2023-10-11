@@ -3,7 +3,7 @@ title: Enum VisitorAction
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Aspose.Words.VisitorAction énumération. Permet au visiteur de contrôler lénumération des nœuds.
 type: docs
-weight: 6310
+weight: 6620
 url: /fr/net/aspose.words/visitoraction/
 ---
 ## VisitorAction enumeration
@@ -18,8 +18,8 @@ public enum VisitorAction
 
 | Nom | Évaluer | La description |
 | --- | --- | --- |
-| Continue | `0` | Le visiteur demande que l'énumération continue. |
-| SkipThisNode | `1` | Le visiteur demande à ignorer le nœud actuel et à poursuivre l'énumération. |
+| Continue | `0` | Le visiteur demande la poursuite de l'énumération. |
+| SkipThisNode | `1` | Le visiteur demande d'ignorer le nœud actuel et de continuer l'énumération. |
 | Stop | `2` | Le visiteur demande l'énumération des nœuds à arrêter. |
 
 ### Voir également

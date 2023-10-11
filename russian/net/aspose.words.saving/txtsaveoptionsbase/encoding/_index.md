@@ -1,14 +1,14 @@
 ---
 title: TxtSaveOptionsBase.Encoding
 second_title: Справочник по API Aspose.Words для .NET
-description: TxtSaveOptionsBase свойство. Указывает кодировку используемую при экспорте в текстовые форматы. Значение по умолчанию Кодировка.UTF8 .
+description: TxtSaveOptionsBase свойство. Указывает кодировку которая будет использоваться при экспорте в текстовые форматы. Значение по умолчанию Кодировка.UTF8 .
 type: docs
 weight: 10
 url: /ru/net/aspose.words.saving/txtsaveoptionsbase/encoding/
 ---
 ## TxtSaveOptionsBase.Encoding property
 
-Указывает кодировку, используемую при экспорте в текстовые форматы. Значение по умолчанию: **Кодировка.UTF8** .
+Указывает кодировку, которая будет использоваться при экспорте в текстовые форматы. Значение по умолчанию: **Кодировка.UTF8** .
 
 ```csharp
 public Encoding Encoding { get; set; }
@@ -25,11 +25,11 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 // Добавляем текст с символами вне набора символов ASCII.
 builder.Write("À È Ì Ò Ù.");
 
-// Создаем объект "TxtSaveOptions", который мы можем передать в метод "Сохранить" документа
+// Создаем объект «TxtSaveOptions», который мы можем передать методу «Save» документа.
 // чтобы изменить способ сохранения документа в виде открытого текста.
 TxtSaveOptions txtSaveOptions = new TxtSaveOptions();
 
-// Проверяем, что свойство "Кодировка" содержит соответствующую кодировку для содержимого нашего документа.
+// Убедитесь, что свойство «Кодировка» содержит подходящую кодировку для содержимого нашего документа.
 Assert.AreEqual(System.Text.Encoding.UTF8, txtSaveOptions.Encoding);
 
 doc.Save(ArtifactsDir + "TxtSaveOptions.Encoding.UTF8.txt", txtSaveOptions);

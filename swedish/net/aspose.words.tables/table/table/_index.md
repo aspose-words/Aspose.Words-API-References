@@ -1,14 +1,14 @@
 ---
 title: Table.Table
 second_title: Aspose.Words för .NET API Referens
-description: Table byggare. Initierar en ny instans av Tabell class.
+description: Table byggare. Initierar en ny instans avTable class.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.tables/table/table/
 ---
 ## Table constructor
 
-Initierar en ny instans av **Tabell** class.
+Initierar en ny instans av[`Table`](../) class.
 
 ```csharp
 public Table(DocumentBase doc)
@@ -20,9 +20,9 @@ public Table(DocumentBase doc)
 
 ### Anmärkningar
 
-När **Tabell** skapas, det tillhör det angivna dokumentet, men är inte ännu en del av dokumentet och **ParentNode** är inget.
+När[`Table`](../) skapas, det tillhör det angivna dokumentet, men är inte ännu en del av dokumentet och[`ParentNode`](../../../aspose.words/node/parentnode/) är`null`.
 
-Att lägga till **Tabell** till dokumentet använd InsertAfter eller InsertBefore på berättelsen där du vill att tabellen ska infogas.
+Att lägga till[`Table`](../) till dokumentanvändningenNode) ellerNode) på berättelsen där du vill att tabellen ska infogas.
 
 ### Exempel
 

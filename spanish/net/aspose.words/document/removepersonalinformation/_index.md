@@ -1,14 +1,14 @@
 ---
 title: Document.RemovePersonalInformation
 second_title: Referencia de API de Aspose.Words para .NET
-description: Document propiedad. Obtiene o establece un indicador que indica que Microsoft Word eliminará toda la información del usuario de los comentarios las revisiones y las propiedades del documento al guardar el documento.
+description: Document propiedad. Obtiene o establece una marca que indica que Microsoft Word eliminará toda la información del usuario de los comentarios revisiones y propiedades del documento al guardar el documento.
 type: docs
-weight: 320
+weight: 340
 url: /es/net/aspose.words/document/removepersonalinformation/
 ---
 ## Document.RemovePersonalInformation property
 
-Obtiene o establece un indicador que indica que Microsoft Word eliminará toda la información del usuario de los comentarios, las revisiones y las propiedades del documento al guardar el documento.
+Obtiene o establece una marca que indica que Microsoft Word eliminará toda la información del usuario de los comentarios, revisiones y propiedades del documento al guardar el documento.
 
 ```csharp
 public bool RemovePersonalInformation { get; set; }
@@ -30,12 +30,12 @@ doc.StartTrackRevisions(doc.BuiltInDocumentProperties.Author, DateTime.Now);
 builder.Write("Hello world!");
 doc.StopTrackRevisions();
 
-// Esta marca es equivalente a Archivo -> Opciones -> Centro de confianza -> Configuración del centro de confianza... ->
+// Esta bandera es equivalente a Archivo -> Opciones -> Centro de confianza -> Configuración del Centro de confianza... ->
 // Opciones de privacidad -> "Eliminar información personal de las propiedades del archivo al guardar" en Microsoft Word.
 doc.RemovePersonalInformation = saveWithoutPersonalInfo;
 
 // Esta opción no tendrá efecto durante una operación de guardado realizada con Aspose.Words.
-// Los datos personales se eliminarán de nuestro documento con la bandera establecida cuando lo guardemos manualmente usando Microsoft Word.
+// Los datos personales se eliminarán de nuestro documento con la bandera configurada cuando los guardemos manualmente usando Microsoft Word.
 doc.Save(ArtifactsDir + "Document.RemovePersonalInformation.docx");
 doc = new Document(ArtifactsDir + "Document.RemovePersonalInformation.docx");
 

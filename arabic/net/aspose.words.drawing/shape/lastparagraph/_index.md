@@ -1,14 +1,14 @@
 ---
 title: Shape.LastParagraph
 second_title: Aspose.Words لمراجع .NET API
-description: Shape ملكية. الحصول على آخر فقرة بالشكل .
+description: Shape ملكية. الحصول على الفقرة الأخيرة في الشكل.
 type: docs
 weight: 120
 url: /ar/net/aspose.words.drawing/shape/lastparagraph/
 ---
 ## Shape.LastParagraph property
 
-الحصول على آخر فقرة بالشكل .
+الحصول على الفقرة الأخيرة في الشكل.
 
 ```csharp
 public Paragraph LastParagraph { get; }
@@ -16,7 +16,7 @@ public Paragraph LastParagraph { get; }
 
 ### أمثلة
 
-يوضح كيفية تعيين اتجاه النص داخل مربع نص.
+يوضح كيفية ضبط اتجاه النص داخل مربع النص.
 
 ```csharp
 Document doc = new Document();
@@ -25,7 +25,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape textBoxShape = builder.InsertShape(ShapeType.TextBox, 150, 100);
 TextBox textBox = textBoxShape.TextBox;
 
-// انقل منشئ المستندات إلى داخل TextBox وأضف نصًا.
+// انقل أداة إنشاء المستندات إلى داخل TextBox وأضف نصًا.
 builder.MoveTo(textBoxShape.LastParagraph);
 builder.Writeln("Hello world!");
 builder.Write("Hello again!");

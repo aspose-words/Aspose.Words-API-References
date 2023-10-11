@@ -1,14 +1,14 @@
 ---
 title: PlainTextDocument.CustomDocumentProperties
 second_title: Aspose.Words für .NET-API-Referenz
-description: PlainTextDocument eigendom. erhältCustomDocumentProperties des Dokuments.
+description: PlainTextDocument eigendom. Ruft abCustomDocumentProperties des Dokuments.
 type: docs
 weight: 30
 url: /de/net/aspose.words/plaintextdocument/customdocumentproperties/
 ---
 ## PlainTextDocument.CustomDocumentProperties property
 
-erhält`CustomDocumentProperties` des Dokuments.
+Ruft ab`CustomDocumentProperties` des Dokuments.
 
 ```csharp
 public CustomDocumentProperties CustomDocumentProperties { get; }

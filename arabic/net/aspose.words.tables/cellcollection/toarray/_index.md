@@ -1,14 +1,14 @@
 ---
 title: CellCollection.ToArray
 second_title: Aspose.Words لمراجع .NET API
-description: CellCollection طريقة. نسخ جميع الخلايا من المجموعة إلى صفيف جديد من الخلايا.
+description: CellCollection طريقة. نسخ كافة الخلايا من المجموعة إلى مجموعة جديدة من الخلايا.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.tables/cellcollection/toarray/
 ---
 ## CellCollection.ToArray method
 
-نسخ جميع الخلايا من المجموعة إلى صفيف جديد من الخلايا.
+نسخ كافة الخلايا من المجموعة إلى مجموعة جديدة من الخلايا.
 
 ```csharp
 public Cell[] ToArray()
@@ -16,11 +16,11 @@ public Cell[] ToArray()
 
 ### قيمة الإرجاع
 
-صفيف من الخلايا.
+مصفوفة من الخلايا.
 
 ### أمثلة
 
-يوضح كيفية التكرار عبر جميع الجداول في المستند وطباعة محتويات كل خلية.
+يوضح كيفية التكرار عبر كافة الجداول في المستند وطباعة محتويات كل خلية.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
@@ -34,7 +34,7 @@ for (int i = 0; i < tables.Count; i++)
 
     RowCollection rows = tables[i].Rows;
 
-    // يمكننا استخدام طريقة "ToArray" في مجموعة صف لاستنساخها في مصفوفة.
+    // يمكننا استخدام طريقة "ToArray" في مجموعة صفوف لاستنساخها في مصفوفة.
     Assert.AreEqual(rows, rows.ToArray());
     Assert.AreNotSame(rows, rows.ToArray());
 
@@ -44,7 +44,7 @@ for (int i = 0; i < tables.Count; i++)
 
         CellCollection cells = rows[j].Cells;
 
-        // يمكننا استخدام طريقة "ToArray" على مجموعة خلايا لاستنساخها في مصفوفة.
+        // يمكننا استخدام طريقة "ToArray" في مجموعة خلايا لاستنساخها في مصفوفة.
         Assert.AreEqual(cells, cells.ToArray());
         Assert.AreNotSame(cells, cells.ToArray());
 

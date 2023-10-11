@@ -3,12 +3,14 @@ title: Class Shading
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Shading klass. Innehåller skuggningsattribut för ett objekt.
 type: docs
-weight: 5690
+weight: 5990
 url: /sv/net/aspose.words/shading/
 ---
 ## Shading class
 
 Innehåller skuggningsattribut för ett objekt.
+
+För att lära dig mer, besök[Programmering med dokument](https://docs.aspose.com/words/net/programming-with-documents/) dokumentationsartikel.
 
 ```csharp
 public class Shading : InternableComplexAttr
@@ -18,8 +20,12 @@ public class Shading : InternableComplexAttr
 
 | namn | Beskrivning |
 | --- | --- |
-| [BackgroundPatternColor](../../aspose.words/shading/backgroundpatterncolor/) { get; set; } | Hämtar eller ställer in färgen som appliceras på bakgrunden av Shading-objektet. |
-| [ForegroundPatternColor](../../aspose.words/shading/foregroundpatterncolor/) { get; set; } | Hämtar eller ställer in färgen som appliceras på förgrunden av Shading-objektet. |
+| [BackgroundPatternColor](../../aspose.words/shading/backgroundpatterncolor/) { get; set; } | Hämtar eller ställer in färgen som appliceras på bakgrunden av`Shading` objekt. |
+| [BackgroundPatternThemeColor](../../aspose.words/shading/backgroundpatternthemecolor/) { get; set; } | Hämtar eller ställer in bakgrundsmönsterets temafärg i det tillämpade färgschemat som är associerat med detta`Shading` objekt. |
+| [BackgroundTintAndShade](../../aspose.words/shading/backgroundtintandshade/) { get; set; } | Hämtar eller ställer in ett dubbelt värde som gör en bakgrundstema ljusare eller mörkare. |
+| [ForegroundPatternColor](../../aspose.words/shading/foregroundpatterncolor/) { get; set; } | Hämtar eller ställer in färgen som appliceras på förgrunden av`Shading` objekt. |
+| [ForegroundPatternThemeColor](../../aspose.words/shading/foregroundpatternthemecolor/) { get; set; } | Hämtar eller ställer in förgrundsmönsterfärgen i det tillämpade färgschemat som är associerat med detta`Shading` objekt. |
+| [ForegroundTintAndShade](../../aspose.words/shading/foregroundtintandshade/) { get; set; } | Hämtar eller ställer in ett dubbelt värde som gör en förgrundstemafärg ljusare eller mörkare. |
 | [Texture](../../aspose.words/shading/texture/) { get; set; } | Får eller ställer in skuggningsstrukturen. |
 
 ## Metoder
@@ -28,7 +34,7 @@ public class Shading : InternableComplexAttr
 | --- | --- |
 | [ClearFormatting](../../aspose.words/shading/clearformatting/)() | Tar bort skuggning från objektet. |
 | override [Equals](../../aspose.words/shading/equals/#equals_1)(object) | Bestämmer om det angivna objektet har samma värde som det aktuella objektet. |
-| [Equals](../../aspose.words/shading/equals/#equals)(Shading) | Bestämmer om den angivna skuggningen har samma värde som den aktuella skuggningen. |
+| [Equals](../../aspose.words/shading/equals/#equals)(Shading) | Bestämmer om den angivna`Shading` är lika i värde med strömmen`Shading` . |
 | override [GetHashCode](../../aspose.words/shading/gethashcode/)() | Fungerar som en hashfunktion för denna typ. |
 
 ### Exempel

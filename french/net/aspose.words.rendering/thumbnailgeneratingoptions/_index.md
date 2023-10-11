@@ -3,7 +3,7 @@ title: Class ThumbnailGeneratingOptions
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Aspose.Words.Rendering.ThumbnailGeneratingOptions classe. Peut être utilisé pour spécifier des options supplémentaires lors de la génération dune vignette pour un document.
 type: docs
-weight: 4340
+weight: 4600
 url: /fr/net/aspose.words.rendering/thumbnailgeneratingoptions/
 ---
 ## ThumbnailGeneratingOptions class
@@ -33,7 +33,7 @@ L'utilisateur peut appeler la méthode[`UpdateThumbnail`](../../aspose.words/doc
 
 ### Exemples
 
-Montre comment mettre à jour la vignette d'un document.
+Montre comment mettre à jour la miniature d'un document.
 
 ```csharp
 Document doc = new Document();
@@ -43,11 +43,11 @@ builder.Writeln("Hello world!");
 builder.InsertImage(ImageDir + "Logo.jpg");
 
 // Il existe deux manières de définir une image miniature lors de l'enregistrement d'un document au format .epub.
-// 1 - Utiliser la première page du document :
+// 1 - Utiliser la première page du document :
 doc.UpdateThumbnail();
 doc.Save(ArtifactsDir + "Document.UpdateThumbnail.FirstPage.epub");
 
-// 2 - Utiliser la première image trouvée dans le document :
+// 2 - Utiliser la première image trouvée dans le document :
 ThumbnailGeneratingOptions options = new ThumbnailGeneratingOptions();
 options.ThumbnailSize = new Size(400, 400);
 options.GenerateFromFirstPage = false;

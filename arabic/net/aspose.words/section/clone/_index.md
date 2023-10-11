@@ -1,14 +1,14 @@
 ---
 title: Section.Clone
 second_title: Aspose.Words لمراجع .NET API
-description: Section طريقة. لإنشاء نسخة مكررة من هذا القسم.
+description: Section طريقة. إنشاء نسخة مكررة من هذا القسم.
 type: docs
-weight: 110
+weight: 130
 url: /ar/net/aspose.words/section/clone/
 ---
 ## Section.Clone method
 
-لإنشاء نسخة مكررة من هذا القسم.
+إنشاء نسخة مكررة من هذا القسم.
 
 ```csharp
 public Section Clone()
@@ -16,7 +16,7 @@ public Section Clone()
 
 ### أمثلة
 
-يوضح كيفية إضافة وإزالة أقسام في مستند.
+يوضح كيفية إضافة وإزالة الأقسام في المستند.
 
 ```csharp
 Document doc = new Document();
@@ -33,7 +33,7 @@ doc.Sections.RemoveAt(0);
 
 Assert.AreEqual("Section 2", doc.GetText().Trim());
 
-// قم بإلحاق نسخة مما هو الآن القسم الأول بنهاية المستند.
+// إلحاق نسخة مما هو الآن القسم الأول بنهاية المستند.
 int lastSectionIdx = doc.Sections.Count - 1;
 Section newSection = doc.Sections[lastSectionIdx].Clone();
 doc.Sections.Add(newSection);

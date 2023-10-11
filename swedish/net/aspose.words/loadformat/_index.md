@@ -3,7 +3,7 @@ title: Enum LoadFormat
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.LoadFormat uppräkning. Indikerar formatet på dokumentet som ska laddas.
 type: docs
-weight: 3350
+weight: 3550
 url: /sv/net/aspose.words/loadformat/
 ---
 ## LoadFormat enumeration
@@ -51,11 +51,12 @@ public enum LoadFormat
 Visar hur du sparar en webbsida som en .docx-fil.
 
 ```csharp
-const string url = "http://www.aspose.com/";
+const string url = "https://www.aspose.com/";
 
-using (WebClient client = new WebClient()) 
-{ 
-    using (MemoryStream stream = new MemoryStream(client.DownloadData(url)))
+using (HttpClient client = new HttpClient()) 
+{
+    var bytes = await client.GetByteArrayAsync(url);
+    using (MemoryStream stream = new MemoryStream(bytes))
     {
         // URL:en används igen som en baseUri för att säkerställa att eventuella relativa bildsökvägar hämtas korrekt.
         LoadOptions options = new LoadOptions(LoadFormat.Html, "", url);
@@ -74,7 +75,7 @@ Visar hur du anger en bas-URI när du öppnar ett HTML-dokument.
 ```csharp
 // Anta att vi vill ladda ett .html-dokument som innehåller en bild länkad av en relativ URI
 // medan bilden är på en annan plats. I så fall måste vi lösa den relativa URI till en absolut.
-  // Vi kan tillhandahålla en bas-URI med hjälp av ett HtmlLoadOptions-objekt.
+ // Vi kan tillhandahålla en bas-URI med hjälp av ett HtmlLoadOptions-objekt.
 HtmlLoadOptions loadOptions = new HtmlLoadOptions(LoadFormat.Html, "", ImageDir);
 
 Assert.AreEqual(LoadFormat.Html, loadOptions.LoadFormat);

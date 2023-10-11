@@ -1,14 +1,14 @@
 ---
 title: ListLevel.CustomNumberStyleFormat
 second_title: Aspose.Words لمراجع .NET API
-description: ListLevel ملكية. الحصول على تنسيق نمط الرقم المخصص لمستوى القائمة هذا. على سبيل المثال a ç ĝ ... .
+description: ListLevel ملكية. الحصول على تنسيق نمط الأرقام المخصص لمستوى القائمة هذا. على سبيل المثال أ ç ĝ ....
 type: docs
 weight: 20
 url: /ar/net/aspose.words.lists/listlevel/customnumberstyleformat/
 ---
 ## ListLevel.CustomNumberStyleFormat property
 
-الحصول على تنسيق نمط الرقم المخصص لمستوى القائمة هذا. على سبيل المثال: "a، ç، ĝ، ..." .
+الحصول على تنسيق نمط الأرقام المخصص لمستوى القائمة هذا. على سبيل المثال: "أ، ç، ĝ، ...".
 
 ```csharp
 public string CustomNumberStyleFormat { get; }
@@ -16,7 +16,7 @@ public string CustomNumberStyleFormat { get; }
 
 ### أمثلة
 
-يوضح كيفية الحصول على التنسيق لقائمة بنمط الأرقام المخصص.
+يوضح كيفية الحصول على تنسيق القائمة بنمط الأرقام المخصص.
 
 ```csharp
 Document doc = new Document(MyDir + "List with leading zero.docx");

@@ -1,14 +1,14 @@
 ---
 title: FieldDde.InsertAsPicture
 second_title: Referencia de API de Aspose.Words para .NET
-description: FieldDde propiedad. Obtiene o establece si insertar el objeto vinculado como una imagen.
+description: FieldDde propiedad. Obtiene o establece si se debe insertar el objeto vinculado como una imagen.
 type: docs
 weight: 50
 url: /es/net/aspose.words.fields/fielddde/insertaspicture/
 ---
 ## FieldDde.InsertAsPicture property
 
-Obtiene o establece si insertar el objeto vinculado como una imagen.
+Obtiene o establece si se debe insertar el objeto vinculado como una imagen.
 
 ```csharp
 public bool InsertAsPicture { get; set; }
@@ -16,15 +16,16 @@ public bool InsertAsPicture { get; set; }
 
 ### Ejemplos
 
-Muestra cómo usar varios tipos de campos para vincular a otros documentos en el sistema de archivos local y mostrar su contenido.
+Muestra cómo utilizar varios tipos de campos para vincular a otros documentos en el sistema de archivos local y mostrar su contenido.
 
 ```csharp
+public void FieldLinkedObjectsAsText(InsertLinkedObjectAs insertLinkedObjectAs)
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // A continuación hay tres tipos de campos que podemos usar para mostrar contenidos de un documento vinculado en forma de texto.
-    // 1 - Un campo de ENLACE:
+    // A continuación se muestran tres tipos de campos que podemos usar para mostrar el contenido de un documento vinculado en forma de texto.
+    // 1 - Un campo ENLACE:
     builder.Writeln("FieldLink:\n");
     InsertFieldLink(builder, insertLinkedObjectAs, "Word.Document.8", MyDir + "Document.docx", null, true);
 
@@ -42,12 +43,13 @@ Muestra cómo usar varios tipos de campos para vincular a otros documentos en el
     doc.Save(ArtifactsDir + "Field.LINK.DDE.DDEAUTO.docx");
 }
 
+public void FieldLinkedObjectsAsImage(InsertLinkedObjectAs insertLinkedObjectAs)
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // A continuación se muestran tres tipos de campos que podemos usar para mostrar contenidos de un documento vinculado en forma de imagen.
-    // 1 - Un campo de ENLACE:
+    // A continuación se muestran tres tipos de campos que podemos usar para mostrar el contenido de un documento vinculado en forma de imagen.
+    // 1 - Un campo ENLACE:
     builder.Writeln("FieldLink:\n");
     InsertFieldLink(builder, insertLinkedObjectAs, "Excel.Sheet", MyDir + "MySpreadsheet.xlsx",
         "Sheet1!R2C2", true);
@@ -67,7 +69,7 @@ Muestra cómo usar varios tipos de campos para vincular a otros documentos en el
 }
 
 /// <summary>
-/// Use un generador de documentos para insertar un campo LINK y establezca sus propiedades de acuerdo con los parámetros.
+/// Utilice un generador de documentos para insertar un campo LINK y establecer sus propiedades según los parámetros.
 /// </summary>
 private static void InsertFieldLink(DocumentBuilder builder, InsertLinkedObjectAs insertLinkedObjectAs,
     string progId, string sourceFullName, string sourceItem, bool shouldAutoUpdate)
@@ -105,7 +107,7 @@ private static void InsertFieldLink(DocumentBuilder builder, InsertLinkedObjectA
 }
 
 /// <summary>
-/// Utilice un generador de documentos para insertar un campo DDE y establezca sus propiedades de acuerdo con los parámetros.
+/// Utilice un generador de documentos para insertar un campo DDE y establezca sus propiedades según los parámetros.
 /// </summary>
 private static void InsertFieldDde(DocumentBuilder builder, InsertLinkedObjectAs insertLinkedObjectAs, string progId,
     string sourceFullName, string sourceItem, bool isLinked, bool shouldAutoUpdate)
@@ -144,7 +146,7 @@ private static void InsertFieldDde(DocumentBuilder builder, InsertLinkedObjectAs
 }
 
 /// <summary>
-/// Use un generador de documentos para insertar un campo DDEAUTO y establezca sus propiedades de acuerdo con los parámetros.
+/// Utilice un generador de documentos para insertar un campo DDEAUTO y establecer sus propiedades según los parámetros.
 /// </summary>
 private static void InsertFieldDdeAuto(DocumentBuilder builder, InsertLinkedObjectAs insertLinkedObjectAs,
     string progId, string sourceFullName, string sourceItem, bool isLinked)
@@ -181,12 +183,12 @@ private static void InsertFieldDdeAuto(DocumentBuilder builder, InsertLinkedObje
 
 public enum InsertLinkedObjectAs
 {
-    // ObjetoEnlazadoComoTexto
+    // objeto vinculado como texto
     Text,
     Unicode,
     Html,
     Rtf,
-    // ObjetoEnlazadoComoImagen
+    // objeto vinculado como imagen
     Picture,
     Bitmap
 }

@@ -1,14 +1,14 @@
 ---
 title: CsvDataLoadOptions.QuoteChar
 second_title: Aspose.Words لمراجع .NET API
-description: CsvDataLoadOptions ملكية. الحصول على أو تعيين الحرف المستخدم لاقتباس قيم الحقل.
+description: CsvDataLoadOptions ملكية. الحصول على أو تعيين الحرف المستخدم لاقتباس قيم الحقول.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.reporting/csvdataloadoptions/quotechar/
 ---
 ## CsvDataLoadOptions.QuoteChar property
 
-الحصول على أو تعيين الحرف المستخدم لاقتباس قيم الحقل.
+الحصول على أو تعيين الحرف المستخدم لاقتباس قيم الحقول.
 
 ```csharp
 public char QuoteChar { get; set; }
@@ -16,9 +16,9 @@ public char QuoteChar { get; set; }
 
 ### ملاحظات
 
-القيمة الافتراضية هي "" (علامة اقتباس).
+القيمة الافتراضية هي '"' (علامة الاقتباس).
 
-ضاعف الحرف لوضعه في نص مقتبس.
+قم بمضاعفة الحرف لوضعه في نص مقتبس.
 
 ### أنظر أيضا
 

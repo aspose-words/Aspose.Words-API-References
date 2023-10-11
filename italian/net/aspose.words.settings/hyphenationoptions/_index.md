@@ -1,14 +1,16 @@
 ---
 title: Class HyphenationOptions
 second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Settings.HyphenationOptions classe. Consente di configurare le opzioni di sillabazione del documento.
+description: Aspose.Words.Settings.HyphenationOptions classe. Permette di configurare le opzioni di sillabazione del documento.
 type: docs
-weight: 5500
+weight: 5790
 url: /it/net/aspose.words.settings/hyphenationoptions/
 ---
 ## HyphenationOptions class
 
-Consente di configurare le opzioni di sillabazione del documento.
+Permette di configurare le opzioni di sillabazione del documento.
+
+Per saperne di più, visita il[Lavorare con la sillabazione](https://docs.aspose.com/words/net/working-with-hyphenation/) articolo di documentazione.
 
 ```csharp
 public class HyphenationOptions
@@ -24,9 +26,9 @@ public class HyphenationOptions
 
 | Nome | Descrizione |
 | --- | --- |
-| [AutoHyphenation](../../aspose.words.settings/hyphenationoptions/autohyphenation/) { get; set; } | Ottiene o imposta il valore che determina se la sillabazione automatica è attivata per il documento. Il valore predefinito per questa proprietà è **falso** . |
+| [AutoHyphenation](../../aspose.words.settings/hyphenationoptions/autohyphenation/) { get; set; } | Ottiene o imposta un valore che determina se la sillabazione automatica è attivata per il documento. Il valore predefinito per questa proprietà è`falso` . |
 | [ConsecutiveHyphenLimit](../../aspose.words.settings/hyphenationoptions/consecutivehyphenlimit/) { get; set; } | Ottiene o imposta il numero massimo di righe consecutive che possono terminare con trattini. Il valore predefinito per questa proprietà è 0. |
-| [HyphenateCaps](../../aspose.words.settings/hyphenationoptions/hyphenatecaps/) { get; set; } | Ottiene o imposta il valore che determina se le parole scritte con tutte le lettere maiuscole devono essere tratteggiate. Il valore predefinito per questa proprietà è **VERO** . |
+| [HyphenateCaps](../../aspose.words.settings/hyphenationoptions/hyphenatecaps/) { get; set; } | Ottiene o imposta un valore che determina se le parole scritte in maiuscolo sono sillabate. Il valore predefinito per questa proprietà è`VERO` . |
 | [HyphenationZone](../../aspose.words.settings/hyphenationoptions/hyphenationzone/) { get; set; } | Ottiene o imposta la distanza in 1/20 di punto dal margine destro entro il quale non si desidera sillabare le parole. Il valore predefinito per questa proprietà è 360 (0,25 pollici). |
 
 ### Esempi

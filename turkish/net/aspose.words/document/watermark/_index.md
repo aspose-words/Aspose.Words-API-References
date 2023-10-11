@@ -3,7 +3,7 @@ title: Document.Watermark
 second_title: Aspose.Words for .NET API Referansı
 description: Document mülk. Belge filigranına erişim sağlar.
 type: docs
-weight: 460
+weight: 480
 url: /tr/net/aspose.words/document/watermark/
 ---
 ## Document.Watermark property

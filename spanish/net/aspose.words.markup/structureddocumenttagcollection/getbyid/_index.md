@@ -22,6 +22,23 @@ public IStructuredDocumentTag GetById(int id)
 
 Devuelve nulo si no se puede encontrar la etiqueta del documento estructurado con el identificador especificado.
 
+### Ejemplos
+
+Muestra cómo obtener una etiqueta de documento estructurado.
+
+```csharp
+Document doc = new Document(MyDir + "Structured document tags by id.docx");
+
+// Obtener la etiqueta del documento estructurado por Id.
+IStructuredDocumentTag sdt = doc.Range.StructuredDocumentTags.GetById(1160505028);
+Console.WriteLine(sdt.IsRanged());
+Console.WriteLine(sdt.Title);
+
+// Obtenga la etiqueta del documento estructurado o la etiqueta de rango por Título.
+sdt = doc.Range.StructuredDocumentTags.GetByTitle("Alias4");
+Console.WriteLine(sdt.Id);
+```
+
 ### Ver también
 
 * interface [IStructuredDocumentTag](../../istructureddocumenttag/)

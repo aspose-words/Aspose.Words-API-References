@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTagRangeEnd.StructuredDocumentTagRangeEnd
 second_title: Aspose.Words لمراجع .NET API
-description: StructuredDocumentTagRangeEnd البناء. يقوم بتهيئة مثيل جديد لملف نهاية نطاق علامة المستند المنظم فئة .
+description: StructuredDocumentTagRangeEnd البناء. تهيئة مثيل جديد لـ نهاية نطاق علامات الوثيقة المنظمة فئة.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.markup/structureddocumenttagrangeend/structureddocumenttagrangeend/
 ---
 ## StructuredDocumentTagRangeEnd constructor
 
-يقوم بتهيئة مثيل جديد لملف **نهاية نطاق علامة المستند المنظم** فئة .
+تهيئة مثيل جديد لـ **نهاية نطاق علامات الوثيقة المنظمة** فئة.
 
 ```csharp
 public StructuredDocumentTagRangeEnd(DocumentBase doc, int id)
@@ -17,13 +17,14 @@ public StructuredDocumentTagRangeEnd(DocumentBase doc, int id)
 | معامل | يكتب | وصف |
 | --- | --- | --- |
 | doc | DocumentBase | وثيقة المالك. |
-| id | Int32 | يبدأ معرّف نطاق علامة المستند المنظم المقابل. |
+| id | Int32 | يبدأ معرف نطاق علامات المستند المنظم المقابل. |
 
 ### أمثلة
 
-يوضح كيفية إنشاء / إزالة علامة مستند منظم ومحتوياته.
+يوضح كيفية إنشاء/إزالة علامة المستند المنظمة ومحتواها.
 
 ```csharp
+public void SdtRangeExtendedMethods()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -32,7 +33,7 @@ public StructuredDocumentTagRangeEnd(DocumentBase doc, int id)
 
     InsertStructuredDocumentTagRanges(doc, out StructuredDocumentTagRangeStart rangeStart);
 
-    // يزيل علامة المستند المهيكلة النطاق ، لكنه يحتفظ بالمحتوى بالداخل.
+    // يزيل علامة المستند المنظمة ذات النطاق، لكنه يحتفظ بالمحتوى بداخله.
     rangeStart.RemoveSelfOnly();
 
     rangeStart = (StructuredDocumentTagRangeStart)doc.GetChild(
@@ -50,7 +51,7 @@ public StructuredDocumentTagRangeEnd(DocumentBase doc, int id)
     Node paragraphNode = rangeStart.LastOrDefault();
     Assert.AreEqual("StructuredDocumentTag element", paragraphNode?.GetText().Trim());
 
-    // يزيل علامة المستند المهيكلة النطاق والمحتوى بالداخل.
+    // يزيل علامة المستند المنظمة والمحتويات الموجودة بداخله.
     rangeStart.RemoveAllChildren();
 
     paragraphNode = rangeStart.LastOrDefault();

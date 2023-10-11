@@ -16,15 +16,16 @@ public bool Filled { get; set; }
 
 ### Osservazioni
 
-Questa è una scorciatoia per ilOn proprietà.
+Questa è una scorciatoia per[`Visible`](../../fill/visible/) proprietà.
 
-Il valore predefinito è **VERO**.
+Il valore predefinito è`VERO`.
 
 ### Esempi
 
 Mostra come scorrere tutte le forme in un documento.
 
 ```csharp
+public void VisitShapes()
 {
     Document doc = new Document(MyDir + "Revision shape.docx");
     ShapeAppearancePrinter visitor = new ShapeAppearancePrinter();

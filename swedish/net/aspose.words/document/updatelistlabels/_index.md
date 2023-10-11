@@ -3,7 +3,7 @@ title: Document.UpdateListLabels
 second_title: Aspose.Words för .NET API Referens
 description: Document metod. Uppdaterar listetiketter för alla listobjekt i dokumentet.
 type: docs
-weight: 740
+weight: 780
 url: /sv/net/aspose.words/document/updatelistlabels/
 ---
 ## Document.UpdateListLabels method
@@ -16,7 +16,7 @@ public void UpdateListLabels()
 
 ### Anmärkningar
 
-Denna metod uppdaterar listetikettegenskaper som t.ex[`LabelValue`](../../../aspose.words.lists/listlabel/labelvalue/) och [`LabelString`](../../../aspose.words.lists/listlabel/labelstring/)för varje[`ListLabel`](../../paragraph/listlabel/) objekt i dokumentet.
+Denna metod uppdaterar listetikettegenskaper som t.ex[`LabelValue`](../../../aspose.words.lists/listlabel/labelvalue/) och [`LabelString`](../../../aspose.words.lists/listlabel/labelstring/) för varje[`ListLabel`](../../paragraph/listlabel/)objekt i dokumentet.
 
 Även denna metod kallas ibland implicit när fält i dokumentet uppdateras. Detta är required eftersom vissa fält som kan referera till listnummer (som TOC eller REF) behöver dem vara uppdaterade.
 
@@ -37,7 +37,7 @@ foreach (Paragraph paragraph in paras.OfType<Paragraph>().Where(p => p.ListForma
     Console.WriteLine($"List item paragraph #{paras.IndexOf(paragraph)}");
 
     // Det här är texten vi får när vi matar ut den här noden till textformat.
-    // Denna textutgång kommer att utelämna listetiketter. Trimma alla tecken i styckeformatering. 
+     // Denna textutgång kommer att utelämna listetiketter. Trimma alla tecken i styckeformatering.
     string paragraphText = paragraph.ToString(SaveFormat.Text).Trim();
     Console.WriteLine($"\tExported Text: {paragraphText}");
 

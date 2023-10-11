@@ -1,14 +1,14 @@
 ---
 title: HtmlFixedSaveOptions.ExportEmbeddedSvg
 second_title: Referencia de API de Aspose.Words para .NET
-description: HtmlFixedSaveOptions propiedad. Especifica si los recursos SVG se deben incrustar en el documento HTML. El valor predeterminado esverdadero .
+description: HtmlFixedSaveOptions propiedad. Especifica si los recursos SVG deben incrustarse en el documento HTML. El valor predeterminado esverdadero .
 type: docs
 weight: 70
 url: /es/net/aspose.words.saving/htmlfixedsaveoptions/exportembeddedsvg/
 ---
 ## HtmlFixedSaveOptions.ExportEmbeddedSvg property
 
-Especifica si los recursos SVG se deben incrustar en el documento HTML. El valor predeterminado es`verdadero` .
+Especifica si los recursos SVG deben incrustarse en el documento HTML. El valor predeterminado es`verdadero` .
 
 ```csharp
 public bool ExportEmbeddedSvg { get; set; }
@@ -16,17 +16,17 @@ public bool ExportEmbeddedSvg { get; set; }
 
 ### Ejemplos
 
-Muestra cómo determinar dónde almacenar objetos SVG al exportar un documento a Html.
+Muestra cómo determinar dónde almacenar objetos SVG al exportar un documento a HTML.
 
 ```csharp
 Document doc = new Document(MyDir + "Images.docx");
 
 // Cuando exportamos un documento con objetos SVG a .html,
 // Aspose.Words puede colocar estos objetos en dos ubicaciones posibles.
-// Establecer el indicador "ExportEmbeddedSvg" en "verdadero" incrustará todos los datos sin procesar del objeto SVG
-// dentro del HTML de salida, dentro de <image> etiquetas
+// Establecer el indicador "ExportEmbeddedSvg" en "true" incrustará todos los datos sin procesar del objeto SVG
+// dentro del HTML de salida, dentro de <image> etiquetas.
 // Establecer este indicador en "falso" creará un archivo en el sistema de archivos local para cada objeto SVG.
-// El HTML vinculará a cada archivo usando el atributo "datos" de un <objeto> etiqueta.
+// El HTML se vinculará a cada archivo utilizando el atributo "datos" de un objeto <objeto> etiqueta.
 HtmlFixedSaveOptions htmlFixedSaveOptions = new HtmlFixedSaveOptions
 {
     ExportEmbeddedSvg = exportSvgs

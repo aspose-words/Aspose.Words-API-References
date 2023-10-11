@@ -1,14 +1,16 @@
 ---
 title: Class OdsoRecipientDataCollection
 second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Settings.OdsoRecipientDataCollection klas. Eine getippte Sammlung vonOdsoRecipientData
+description: Aspose.Words.Settings.OdsoRecipientDataCollection klas. Eine typisierte Sammlung vonOdsoRecipientData
 type: docs
-weight: 5640
+weight: 5940
 url: /de/net/aspose.words.settings/odsorecipientdatacollection/
 ---
 ## OdsoRecipientDataCollection class
 
-Eine getippte Sammlung von[`OdsoRecipientData`](../odsorecipientdata/)
+Eine typisierte Sammlung von[`OdsoRecipientData`](../odsorecipientdata/)
+
+Um mehr zu erfahren, besuchen Sie die[Serienbrief und Berichterstellung](https://docs.aspose.com/words/net/mail-merge-and-reporting/) Dokumentationsartikel.
 
 ```csharp
 public class OdsoRecipientDataCollection : IEnumerable<OdsoRecipientData>
@@ -33,12 +35,12 @@ public class OdsoRecipientDataCollection : IEnumerable<OdsoRecipientData>
 | --- | --- |
 | [Add](../../aspose.words.settings/odsorecipientdatacollection/add/)(OdsoRecipientData) | Fügt ein Objekt am Ende dieser Sammlung hinzu. |
 | [Clear](../../aspose.words.settings/odsorecipientdatacollection/clear/)() | Entfernt alle Elemente aus dieser Sammlung. |
-| [GetEnumerator](../../aspose.words.settings/odsorecipientdatacollection/getenumerator/)() | Gibt ein Aufzählungsobjekt zurück, das verwendet werden kann, um alle Elemente in der Sammlung zu durchlaufen. |
+| [GetEnumerator](../../aspose.words.settings/odsorecipientdatacollection/getenumerator/)() | Gibt ein Enumeratorobjekt zurück, das zum Durchlaufen aller Elemente in der Sammlung verwendet werden kann. |
 | [RemoveAt](../../aspose.words.settings/odsorecipientdatacollection/removeat/)(int) | Entfernt das Element am angegebenen Index. |
 
 ### Beispiele
 
-Zeigt, wie auf die Datensammlung zugegriffen wird, die angibt, welche Zusammenführungsdatenquellen-Datensätze bei einem Seriendruck ausgeschlossen werden.
+Zeigt, wie auf die Datensammlung zugegriffen wird, die angibt, welche Zusammenführungsdatenquellendatensätze von einem Serienbrief ausgeschlossen werden.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
@@ -63,7 +65,7 @@ using (IEnumerator<OdsoRecipientData> enumerator = dataCollection.GetEnumerator(
 // Wir können die Elemente in dieser Sammlung klonen.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// Wir können auch einzelne Elemente entfernen oder die gesamte Sammlung auf einmal löschen.
+// Wir können auch Elemente einzeln entfernen oder die gesamte Sammlung auf einmal löschen.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(69, dataCollection.Count);

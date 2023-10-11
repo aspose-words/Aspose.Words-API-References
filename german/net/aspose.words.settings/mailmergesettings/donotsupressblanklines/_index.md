@@ -1,14 +1,14 @@
 ---
 title: MailMergeSettings.DoNotSupressBlankLines
 second_title: Aspose.Words für .NET-API-Referenz
-description: MailMergeSettings eigendom. Gibt an wie eine Anwendung die den Seriendruck ausführt mit Leerzeilen in den zusammengeführten Dokumenten umgehen soll die aus dem Seriendruck resultieren. Der Standardwert istFALSCH .
+description: MailMergeSettings eigendom. Gibt an wie eine Anwendung die den Serienbrief ausführt Leerzeilen in den aus dem Serienbrief resultierenden Seriendokumenten behandeln soll. Der Standardwert istFALSCH .
 type: docs
 weight: 90
 url: /de/net/aspose.words.settings/mailmergesettings/donotsupressblanklines/
 ---
 ## MailMergeSettings.DoNotSupressBlankLines property
 
-Gibt an, wie eine Anwendung, die den Seriendruck ausführt, mit Leerzeilen in den zusammengeführten Dokumenten umgehen soll, die aus dem Seriendruck resultieren. Der Standardwert ist`FALSCH` .
+Gibt an, wie eine Anwendung, die den Serienbrief ausführt, Leerzeilen in den aus dem Serienbrief resultierenden Seriendokumenten behandeln soll. Der Standardwert ist`FALSCH` .
 
 ```csharp
 public bool DoNotSupressBlankLines { get; set; }
@@ -16,7 +16,7 @@ public bool DoNotSupressBlankLines { get; set; }
 
 ### Beispiele
 
-Zeigt, wie ein Seriendruck mit Daten aus einem Office-Datenquellenobjekt ausgeführt wird.
+Zeigt, wie ein Serienbrief mit Daten aus einem Office-Datenquellenobjekt ausgeführt wird.
 
 ```csharp
 Document doc = new Document();
@@ -29,8 +29,8 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// Erstellen Sie eine Datenquelle in Form einer ASCII-Datei, mit dem "|" Charakter
-// fungiert als Trennzeichen, das Spalten trennt. Die erste Zeile enthält die Namen der drei Spalten,
+// Erstellen Sie eine Datenquelle in Form einer ASCII-Datei mit dem Zeichen „|“ Charakter
+// fungiert als Trennzeichen, das die Spalten trennt. Die erste Zeile enthält die Namen der drei Spalten,
 // und jede nachfolgende Zeile ist eine Zeile mit ihren jeweiligen Werten.
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };
@@ -59,7 +59,7 @@ odso.FirstRowContainsColumnNames = true;
 Assert.AreNotSame(odso, odso.Clone());
 Assert.AreNotSame(settings, settings.Clone());
 
-// Beim Öffnen dieses Dokuments in Microsoft Word wird der Seriendruck ausgeführt, bevor der Inhalt angezeigt wird. 
+ // Beim Öffnen dieses Dokuments in Microsoft Word wird der Serienbrief ausgeführt, bevor der Inhalt angezeigt wird.
 doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ```
 

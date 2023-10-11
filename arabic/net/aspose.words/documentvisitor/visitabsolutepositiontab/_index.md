@@ -1,14 +1,14 @@
 ---
 title: DocumentVisitor.VisitAbsolutePositionTab
 second_title: Aspose.Words لمراجع .NET API
-description: DocumentVisitor طريقة. عند استدعائهاAbsolutePositionTab تم مصادفة العقدة في المستند.
+description: DocumentVisitor طريقة. تم الاتصال به عندما أAbsolutePositionTab تمت مصادفة عقدة في المستند.
 type: docs
 weight: 10
 url: /ar/net/aspose.words/documentvisitor/visitabsolutepositiontab/
 ---
 ## DocumentVisitor.VisitAbsolutePositionTab method
 
-عند استدعائها[`AbsolutePositionTab`](../../absolutepositiontab/) تم مصادفة العقدة في المستند.
+تم الاتصال به عندما أ[`AbsolutePositionTab`](../../absolutepositiontab/) تمت مصادفة عقدة في المستند.
 
 ```csharp
 public virtual VisitorAction VisitAbsolutePositionTab(AbsolutePositionTab tab)
@@ -31,14 +31,14 @@ public void DocumentToTxt()
 {
     Document doc = new Document(MyDir + "Absolute position tab.docx");
 
-    // استخراج محتويات النص من وثيقتنا بقبول زائر المستند المخصص هذا.
+    // استخرج محتويات النص من وثيقتنا عن طريق قبول زائر المستند المخصص هذا.
     DocTextExtractor myDocTextExtractor = new DocTextExtractor();
     doc.FirstSection.Body.Accept(myDocTextExtractor);
 
-    // تم تحويل علامة تبويب الموضع المطلق ، التي ليس لها مكافئ في شكل سلسلة ، بشكل صريح إلى حرف جدولة.
+    // تم تحويل علامة تبويب الموضع المطلق، التي ليس لها ما يعادلها في شكل سلسلة، بشكل صريح إلى حرف جدولة.
     Assert.AreEqual("Before AbsolutePositionTab\tAfter AbsolutePositionTab", myDocTextExtractor.GetText());
 
-    // يمكن لـ AbsolutePositionTab قبول DocumentVisitor بنفسه أيضًا.
+    // يمكن لـAbsolutePositionTab قبول DocumentVisitor بمفرده أيضًا.
     AbsolutePositionTab absPositionTab = (AbsolutePositionTab)doc.FirstSection.Body.FirstParagraph.GetChild(NodeType.SpecialChar, 0, true);
 
     myDocTextExtractor = new DocTextExtractor();
@@ -48,7 +48,7 @@ public void DocumentToTxt()
 }
 
 /// <summary>
-/// يجمع محتويات النص لكل عمليات التشغيل في المستند الذي تمت زيارته. يستبدل كل أحرف الجدولة المطلقة بعلامات جدولة عادية.
+/// يجمع محتويات النص لجميع عمليات التشغيل في المستند الذي تمت زيارته. يستبدل كافة أحرف علامات التبويب المطلقة بعلامات تبويب عادية.
 /// </summary>
 public class DocTextExtractor : DocumentVisitor
 {
@@ -58,7 +58,7 @@ public class DocTextExtractor : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاستدعاء عند مواجهة عقدة تشغيل في المستند.
+    /// يتم الاتصال به عند مواجهة عقدة التشغيل في المستند.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -67,7 +67,7 @@ public class DocTextExtractor : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم استدعاؤها عند مواجهة عقدة AbsolutePositionTab في المستند.
+    /// يتم الاتصال به عند مواجهة عقدةAbsolutePositionTab في المستند.
     /// </summary>
     public override VisitorAction VisitAbsolutePositionTab(AbsolutePositionTab tab)
     {
@@ -76,7 +76,7 @@ public class DocTextExtractor : DocumentVisitor
     }
 
     /// <summary>
-    /// يضيف نصًا إلى الإخراج الحالي. يكرم علامة الإخراج الممكنة / المعطلة.
+    /// يضيف نصًا إلى الإخراج الحالي. يكرم علامة الإخراج الممكنة/المعطلة.
     /// </summary>
     private void AppendText(string text)
     {
@@ -84,7 +84,7 @@ public class DocTextExtractor : DocumentVisitor
     }
 
     /// <summary>
-    /// نص عادي للمستند الذي جمعه الزائر.
+    /// نص عادي للوثيقة التي جمعها الزائر.
     /// </summary>
     public string GetText()
     {

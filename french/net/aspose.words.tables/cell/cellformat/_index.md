@@ -1,14 +1,14 @@
 ---
 title: Cell.CellFormat
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Cell propriété. Permet daccéder aux propriétés de formatage de la cellule.
+description: Cell propriété. Donne accès aux propriétés de formatage de la cellule.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.tables/cell/cellformat/
 ---
 ## Cell.CellFormat property
 
-Permet d'accéder aux propriétés de formatage de la cellule.
+Donne accès aux propriétés de formatage de la cellule.
 
 ```csharp
 public CellFormat CellFormat { get; }
@@ -16,7 +16,7 @@ public CellFormat CellFormat { get; }
 
 ### Exemples
 
-Montre comment modifier la mise en forme d'une cellule de tableau.
+Montre comment modifier le formatage d’une cellule de tableau.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
@@ -37,7 +37,7 @@ Montre comment combiner les lignes de deux tables en une seule.
 Document doc = new Document(MyDir + "Tables.docx");
 
 // Vous trouverez ci-dessous deux manières d'obtenir un tableau à partir d'un document.
-// 1 - Depuis la collection "Tables" d'un noeud Body :
+// 1 - Depuis la collection "Tables" d'un nœud Body :
 Table firstTable = doc.FirstSection.Body.Tables[0];
 
 // 2 - Utilisation de la méthode "GetChild" :
@@ -53,7 +53,7 @@ secondTable.Remove();
 doc.Save(ArtifactsDir + "Table.CombineTables.docx");
 ```
 
-Montre comment modifier le format des lignes et des cellules d'un tableau.
+Montre comment modifier le format des lignes et des cellules dans un tableau.
 
 ```csharp
 Document doc = new Document();
@@ -77,7 +77,7 @@ RowFormat rowFormat = table.FirstRow.RowFormat;
 rowFormat.Height = 25;
 rowFormat.Borders[BorderType.Bottom].Color = Color.Red;
 
-// Utilisez la propriété "CellFormat" de la première cellule de la dernière ligne pour modifier la mise en forme du contenu de cette cellule.
+// Utilisez la propriété "CellFormat" de la première cellule de la dernière ligne pour modifier le formatage du contenu de cette cellule.
 CellFormat cellFormat = table.LastRow.FirstCell.CellFormat;
 cellFormat.Width = 100;
 cellFormat.Shading.BackgroundPatternColor = Color.Orange;

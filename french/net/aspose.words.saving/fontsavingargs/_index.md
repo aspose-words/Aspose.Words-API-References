@@ -3,12 +3,14 @@ title: Class FontSavingArgs
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Aspose.Words.Saving.FontSavingArgs classe. Fournit des données pour leFontSaving événement.
 type: docs
-weight: 4770
+weight: 5030
 url: /fr/net/aspose.words.saving/fontsavingargs/
 ---
 ## FontSavingArgs class
 
 Fournit des données pour le[`FontSaving`](../ifontsavingcallback/fontsaving/) événement.
+
+Pour en savoir plus, visitez le[Enregistrer un document](https://docs.aspose.com/words/net/save-a-document/) article documentaire.
 
 ```csharp
 public class FontSavingArgs
@@ -20,11 +22,11 @@ public class FontSavingArgs
 | --- | --- |
 | [Bold](../../aspose.words.saving/fontsavingargs/bold/) { get; } | Indique si la police actuelle est en gras. |
 | [Document](../../aspose.words.saving/fontsavingargs/document/) { get; } | Obtient l'objet document en cours d'enregistrement. |
-| [FontFamilyName](../../aspose.words.saving/fontsavingargs/fontfamilyname/) { get; } | Indique le nom de la famille de polices actuelle. |
+| [FontFamilyName](../../aspose.words.saving/fontsavingargs/fontfamilyname/) { get; } | Indique le nom de la famille de police actuelle. |
 | [FontFileName](../../aspose.words.saving/fontsavingargs/fontfilename/) { get; set; } | Obtient ou définit le nom du fichier (sans chemin) dans lequel la police sera enregistrée. |
 | [FontStream](../../aspose.words.saving/fontsavingargs/fontstream/) { get; set; } | Permet de spécifier le flux dans lequel la police sera enregistrée. |
-| [IsExportNeeded](../../aspose.words.saving/fontsavingargs/isexportneeded/) { get; set; } | Permet de spécifier si la police courante sera exportée en tant que ressource de police. La valeur par défaut est`vrai` . |
-| [IsSubsettingNeeded](../../aspose.words.saving/fontsavingargs/issubsettingneeded/) { get; set; } | Permet de spécifier si la police actuelle sera sous-ensemble avant d'exporter en tant que ressource de police. |
+| [IsExportNeeded](../../aspose.words.saving/fontsavingargs/isexportneeded/) { get; set; } | Permet de spécifier si la police actuelle sera exportée comme ressource de police. La valeur par défaut est`vrai` . |
+| [IsSubsettingNeeded](../../aspose.words.saving/fontsavingargs/issubsettingneeded/) { get; set; } | Permet de spécifier si la police actuelle sera sous-ensemble avant de l'exporter en tant que ressource de police. |
 | [Italic](../../aspose.words.saving/fontsavingargs/italic/) { get; } | Indique si la police actuelle est en italique. |
 | [KeepFontStreamOpen](../../aspose.words.saving/fontsavingargs/keepfontstreamopen/) { get; set; } | Spécifie si Aspose.Words doit garder le flux ouvert ou le fermer après avoir enregistré une police. |
 | [OriginalFileName](../../aspose.words.saving/fontsavingargs/originalfilename/) { get; } | Obtient le nom du fichier de police d'origine avec une extension. |
@@ -32,21 +34,22 @@ public class FontSavingArgs
 
 ### Remarques
 
-Lorsque Aspose.Words enregistre un document au format HTML ou aux formats associés et[`ExportFontResources`](../htmlsaveoptions/exportfontresources/) est défini sur **vrai**, il enregistre chaque sujet de police pour l'exportation dans un fichier séparé.
+Lorsque Aspose.Words enregistre un document au format HTML ou dans des formats associés et[`ExportFontResources`](../htmlsaveoptions/exportfontresources/) est défini sur`vrai`, il enregistre chaque sujet de police pour l'exporter dans un fichier séparé.
 
 `FontSavingArgs` contrôle si une ressource de police particulière doit être exportée et comment.
 
 `FontSavingArgs`permet également de redéfinir la façon dont les noms de fichiers de polices sont générés ou de contourner complètement l'enregistrement des polices dans des fichiers en fournissant vos propres objets de flux.
 
-Pour décider d'enregistrer ou non une ressource de police particulière, utilisez la[`IsExportNeeded`](./isexportneeded/) propriété.
+Pour décider d'enregistrer ou non une ressource de police particulière, utilisez l'option[`IsExportNeeded`](./isexportneeded/) propriété.
 
-Pour enregistrer les polices dans des flux au lieu de fichiers, utilisez la[`FontStream`](./fontstream/) propriété.
+Pour enregistrer les polices dans des flux plutôt que dans des fichiers, utilisez l'option[`FontStream`](./fontstream/) propriété.
 
 ### Exemples
 
-Montre comment définir une logique personnalisée pour l'exportation des polices lors de l'enregistrement au format HTML.
+Montre comment définir une logique personnalisée pour l’exportation des polices lors de l’enregistrement au format HTML.
 
 ```csharp
+public void SaveExportedFonts()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
@@ -66,8 +69,10 @@ Montre comment définir une logique personnalisée pour l'exportation des police
         Console.WriteLine(fontFilename);
     }
 
+}
+
 /// <summary>
-/// Imprime des informations sur les polices exportées et les enregistre dans le même dossier système local que leur sortie .html.
+/// Imprime les informations sur les polices exportées et les enregistre dans le même dossier système local que leur sortie .html.
 /// </summary>
 public class HandleFontSaving : IFontSavingCallback
 {
@@ -84,7 +89,7 @@ public class HandleFontSaving : IFontSavingCallback
         Assert.True(args.IsExportNeeded);
         Assert.True(args.IsSubsettingNeeded);
 
-        // Il existe deux manières d'enregistrer une police exportée.
+        // Il existe deux manières de sauvegarder une police exportée.
         // 1 - Enregistrez-le dans un emplacement du système de fichiers local :
         args.FontFileName = args.OriginalFileName.Split(Path.DirectorySeparatorChar).Last();
 

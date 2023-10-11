@@ -3,7 +3,7 @@ title: Enum ComparisonTargetType
 second_title: Referencia de API de Aspose.Words para .NET
 description: Aspose.Words.Comparing.ComparisonTargetType enumeración. Permite especificar el documento base que se utilizará durante la comparación. El valor predeterminado esCurrent .
 type: docs
-weight: 270
+weight: 280
 url: /es/net/aspose.words.comparing/comparisontargettype/
 ---
 ## ComparisonTargetType enumeration
@@ -30,11 +30,11 @@ Se relaciona con la opción "Mostrar cambios en" de Microsoft Word en el cuadro 
 Muestra cómo filtrar tipos específicos de elementos del documento al realizar una comparación.
 
 ```csharp
-// Cree el documento original y rellénelo con varios tipos de elementos.
+// Crea el documento original y complétalo con varios tipos de elementos.
 Document docOriginal = new Document();
 DocumentBuilder builder = new DocumentBuilder(docOriginal);
 
-// Texto de párrafo referenciado con una nota al final:
+// Texto del párrafo al que se hace referencia con una nota al final:
 builder.Writeln("Hello world! This is the first paragraph.");
 builder.InsertFootnote(FootnoteType.Endnote, "Original endnote text.");
 
@@ -60,7 +60,7 @@ Comment newComment = new Comment(docOriginal, "John Doe", "J.D.", DateTime.Now);
 newComment.SetText("Original comment.");
 builder.CurrentParagraph.AppendChild(newComment);
 
-// Encabezado:
+// encabezado:
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 builder.Writeln("Original header contents.");
 
@@ -79,7 +79,7 @@ docEdited.FirstSection.HeadersFooters[HeaderFooterType.HeaderPrimary].FirstParag
     "Edited header contents.";
 
 // La comparación de documentos crea una revisión para cada edición en el documento editado.
-// Un objeto CompareOptions tiene una serie de banderas que pueden suprimir las revisiones
+// Un objeto CompareOptions tiene una serie de indicadores que pueden suprimir revisiones
 // en cada tipo respectivo de elemento, ignorando efectivamente su cambio.
 Aspose.Words.Comparing.CompareOptions compareOptions = new Aspose.Words.Comparing.CompareOptions();
 compareOptions.IgnoreFormatting = false;

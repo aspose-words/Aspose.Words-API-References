@@ -1,14 +1,14 @@
 ---
 title: HtmlSaveOptions.ImagesFolder
 second_title: Aspose.Words per .NET API Reference
-description: HtmlSaveOptions proprietà. Specifica la cartella fisica in cui vengono salvate le immagini durante lesportazione di un documento in formato HTML. Limpostazione predefinita è una stringa vuota.
+description: HtmlSaveOptions proprietà. Specifica la cartella fisica in cui vengono salvate le immagini durante lesportazione di un documento in formato HTML. Il valore predefinito è una stringa vuota.
 type: docs
-weight: 370
+weight: 360
 url: /it/net/aspose.words.saving/htmlsaveoptions/imagesfolder/
 ---
 ## HtmlSaveOptions.ImagesFolder property
 
-Specifica la cartella fisica in cui vengono salvate le immagini durante l'esportazione di un documento in formato HTML. L'impostazione predefinita è una stringa vuota.
+Specifica la cartella fisica in cui vengono salvate le immagini durante l'esportazione di un documento in formato HTML. Il valore predefinito è una stringa vuota.
 
 ```csharp
 public string ImagesFolder { get; set; }
@@ -16,11 +16,11 @@ public string ImagesFolder { get; set; }
 
 ### Osservazioni
 
-Quando salvi un[`Document`](../../../aspose.words/document/) in formato HTML, Aspose.Words deve salvare tutte le immagini incorporate nel documento come file standalone.`ImagesFolder` consente di specificare dove verranno salvate le immagini e[`ImagesFolderAlias`](../imagesfolderalias/) permette di specificare come verranno costruiti gli URI dell'immagine.
+Quando salvi un file[`Document`](../../../aspose.words/document/) in formato HTML, Aspose.Words deve salvare tutte le immagini incorporate nel documento come file autonomi.`ImagesFolder` ti consente di specificare dove verranno salvate le immagini e[`ImagesFolderAlias`](../imagesfolderalias/) consente di specificare come verranno costruiti gli URI dell'immagine.
 
-Se si salva un documento in un file e si fornisce un nome file, Aspose.Words, per impostazione predefinita, salva le immagini nella stessa cartella in cui è salvato il file del documento. Uso`ImagesFolder` per ignorare questo comportamento.
+Se salvi un documento in un file e fornisci un nome file, Aspose.Words, per impostazione predefinita, salva le immagini nella stessa cartella in cui è salvato il file del documento. Utilizzo`ImagesFolder` per sovrascrivere questo comportamento.
 
-Se salvi un documento in uno stream, Aspose.Words non ha una cartella in cui salvare le immagini, , ma deve comunque salvare le immagini da qualche parte. In questo caso, è necessario specificare una cartella accessibile nel file`ImagesFolder` proprietà o fornire flussi personalizzati tramite the[`ImageSavingCallback`](../imagesavingcallback/) gestore di eventi.
+Se salvi un documento in uno stream, Aspose.Words non ha una cartella in cui salvare le immagini, ma deve comunque salvare le immagini da qualche parte. In questo caso, devi specificare una cartella accessibile nel file`ImagesFolder` proprietà o fornire flussi personalizzati tramite the[`ImageSavingCallback`](../imagesavingcallback/) gestore di eventi.
 
 Se la cartella specificata da`ImagesFolder` non esiste, verrà creato automaticamente.
 

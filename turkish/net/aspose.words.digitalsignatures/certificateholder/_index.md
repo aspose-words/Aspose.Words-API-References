@@ -1,14 +1,16 @@
 ---
 title: Class CertificateHolder
 second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.DigitalSignatures.CertificateHolder sınıf. Şunun sahibini temsil eder X509Sertifika2 misal.
+description: Aspose.Words.DigitalSignatures.CertificateHolder sınıf. Sahibini temsil eder X509Sertifika2 örnek.
 type: docs
-weight: 360
+weight: 370
 url: /tr/net/aspose.words.digitalsignatures/certificateholder/
 ---
 ## CertificateHolder class
 
-Şunun sahibini temsil eder: **X509Sertifika2** misal.
+Sahibini temsil eder **X509Sertifika2** örnek.
+
+Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Dijital İmzalarla Çalışma](https://docs.aspose.com/words/net/working-with-digital-signatures/) dokümantasyon makalesi.
 
 ```csharp
 public class CertificateHolder
@@ -24,18 +26,18 @@ public class CertificateHolder
 
 | İsim | Tanım |
 | --- | --- |
-| static [Create](../../aspose.words.digitalsignatures/certificateholder/create/#create)(byte[], SecureString) | PKCS12 deposunun bayt dizisini ve parolasını kullanarak CertificateHolder nesnesi oluşturur. |
-| static [Create](../../aspose.words.digitalsignatures/certificateholder/create/#create_1)(byte[], string) | PKCS12 deposunun bayt dizisini ve parolasını kullanarak CertificateHolder nesnesi oluşturur. |
-| static [Create](../../aspose.words.digitalsignatures/certificateholder/create/#create_2)(string, string) | PKCS12 deposunun yolunu ve parolasını kullanarak CertificateHolder nesnesi oluşturur. |
-| static [Create](../../aspose.words.digitalsignatures/certificateholder/create/#create_3)(string, string, string) | PKCS12 deposunun yolunu, parolasını ve diğer adı kullanarak, hangi özel anahtar ve sertifikanın bulunacağını kullanarak CertificateHolder nesnesi oluşturur. |
+| static [Create](../../aspose.words.digitalsignatures/certificateholder/create/#create)(byte[], SecureString) | Oluşturur`CertificateHolder` PKCS12 deposunun bayt dizisini ve parolasını kullanan nesne. |
+| static [Create](../../aspose.words.digitalsignatures/certificateholder/create/#create_1)(byte[], string) | Oluşturur`CertificateHolder` PKCS12 deposunun bayt dizisini ve parolasını kullanan nesne. |
+| static [Create](../../aspose.words.digitalsignatures/certificateholder/create/#create_2)(string, string) | Oluşturur`CertificateHolder` PKCS12 deposunun yolunu ve şifresini kullanan nesne. |
+| static [Create](../../aspose.words.digitalsignatures/certificateholder/create/#create_3)(string, string, string) | Oluşturur`CertificateHolder` PKCS12 deposunun yolunu, şifresini ve takma adını kullanarak hangi özel anahtar ve sertifikanın bulunacağını kullanan nesne. |
 
 ### Notlar
 
-**Sertifika sahibi** yalnızca statik fabrika yöntemleriyle oluşturulabilir. Bir örneğini içerir **X509Sertifika2** özel, genel anahtarları ve sertifika zincirlerini sisteme tanıtmak için kullanılır. Bu sınıf,[`DigitalSignatureUtil`](../digitalsignatureutil/) ve[`PdfDigitalSignatureDetails`](../../aspose.words.saving/pdfdigitalsignaturedetails/) ile eski yöntemler yerineX509Certificate2 parametreler olarak.
+`CertificateHolder` yalnızca statik fabrika yöntemleriyle oluşturulabilir. Bir örneğini içerir **X509Sertifika2** sisteme özel, genel anahtarlar ve sertifika zincirlerini tanıtmak için kullanılır. Bu sınıf,[`DigitalSignatureUtil`](../digitalsignatureutil/) Ve[`PdfDigitalSignatureDetails`](../../aspose.words.saving/pdfdigitalsignaturedetails/) ile eski yöntemler yerineX509Certificate2 parametreler olarak.
 
 ### Örnekler
 
-Şifreli belge dosyasının nasıl imzalanacağını gösterir.
+Şifrelenmiş belge dosyasının nasıl imzalanacağını gösterir.
 
 ```csharp
 // PKCS#12 deposundan özel anahtar içermesi gereken bir X.509 sertifikası oluşturun.
@@ -49,7 +51,7 @@ SignOptions signOptions = new SignOptions
     DecryptionPassword = "docPassword"
 };
 
-// İmzasız giriş belgesi için yerel bir sistem dosya adı ve dijital olarak imzalanmış yeni kopyası için bir çıkış dosya adı ayarlayın.
+// İmzasız giriş belgesi için yerel bir sistem dosya adı ve dijital olarak imzalanmış yeni kopyası için bir çıktı dosya adı belirleyin.
 string inputFileName = MyDir + "Encrypted.docx";
 string outputFileName = ArtifactsDir + "DigitalSignatureUtil.DecryptionPassword.docx";
 
@@ -69,8 +71,8 @@ SignOptions signOptions = new SignOptions
     SignTime = DateTime.Now
 };
 
-// Dosya akışı yoluyla yerel dosya sisteminden imzasız bir belge alın,
-// ardından çıktı dosyası akışının dosya adıyla belirlenen imzalı bir kopyasını oluşturun.
+// İmzasız bir belgeyi dosya akışı aracılığıyla yerel dosya sisteminden alın,
+// ardından çıktı dosyası akışının dosya adına göre belirlenen imzalı bir kopyasını oluşturun.
 using (Stream streamIn = new FileStream(MyDir + "Document.docx", FileMode.Open))
 {
     using (Stream streamOut = new FileStream(ArtifactsDir + "DigitalSignatureUtil.SignDocument.docx", FileMode.OpenOrCreate))
@@ -80,10 +82,11 @@ using (Stream streamIn = new FileStream(MyDir + "Document.docx", FileMode.Open))
 }
 ```
 
-Belgeye imza satırının nasıl ekleneceğini ve ardından dijital sertifika kullanarak nasıl imzalanacağını gösterir.
+Bir belgeye imza satırının nasıl ekleneceğini ve ardından dijital sertifika kullanarak nasıl imzalanacağını gösterir.
 
 ```csharp
-public static void Sign()
+[Description("WORDSNET-16868")]
+        public static void Sign()
         {
             string signeeName = "Ron Williams";
             string srcDocumentPath = MyDir + "Document.docx";
@@ -102,7 +105,7 @@ public static void Sign()
         }
 
         /// <summary>
-        /// Sağlanan imza sahibi bilgileri ve X509 sertifikası kullanılarak imzalanmış bir kaynak belgenin bir kopyasını oluşturur.
+        /// Sağlanan imza sahibi bilgileri ve X509 sertifikası kullanılarak imzalanan kaynak belgenin bir kopyasını oluşturur.
         /// </summary>
         private static void SignDocument(string srcDocumentPath, string dstDocumentPath,
             Signee signeeInfo, string certificatePath, string certificatePassword)
@@ -110,7 +113,7 @@ public static void Sign()
             Document document = new Document(srcDocumentPath);
             DocumentBuilder builder = new DocumentBuilder(document);
 
-            // Bir imza satırı, belgede imzaladığımız bir imzayı gösterecek bir nesne yapılandırın ve ekleyin.
+            // Belgede, imzaladığımız imzayı görüntüleyecek bir nesne olan bir imza satırı yapılandırın ve ekleyin.
             SignatureLineOptions signatureLineOptions = new SignatureLineOptions
             {
                 Signer = signeeInfo.Name, 
@@ -120,7 +123,7 @@ public static void Sign()
             SignatureLine signatureLine = builder.InsertSignatureLine(signatureLineOptions).SignatureLine;
             signatureLine.Id = signeeInfo.PersonId;
 
-            // İlk olarak belgemizin imzasız bir versiyonunu kaydedeceğiz.
+            // Öncelikle belgemizin imzasız bir versiyonunu kaydedeceğiz.
             builder.Document.Save(dstDocumentPath);
 
             CertificateHolder certificateHolder = CertificateHolder.Create(certificatePath, certificatePassword);
@@ -131,13 +134,13 @@ public static void Sign()
                 SignatureLineImage = signeeInfo.Image
             };
 
-            // Yukarıda kaydettiğimiz imzasız belgenin üzerine sertifika kullanılarak imzalanmış bir sürüm yazın.
+            // Yukarıda kaydettiğimiz imzasız belgenin üzerine, sertifika kullanılarak imzalanmış bir sürüm yazın.
             DigitalSignatureUtil.Sign(dstDocumentPath, dstDocumentPath, certificateHolder, signOptions);
         }
 
 #if NET48 || JAVA
         /// <summary>
-        /// Bir görüntüyü bir bayt dizisine dönüştürür.
+        /// Bir görüntüyü bayt dizisine dönüştürür.
         /// </summary>
         private static byte[] ImageToByteArray(Image imageIn)
         {

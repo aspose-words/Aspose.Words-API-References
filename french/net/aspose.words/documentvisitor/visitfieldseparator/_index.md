@@ -1,14 +1,14 @@
 ---
 title: DocumentVisitor.VisitFieldSeparator
 second_title: Référence de l'API Aspose.Words pour .NET
-description: DocumentVisitor méthode. Appelé lorsquun séparateur de champs est rencontré dans le document.
+description: DocumentVisitor méthode. Appelé lorsquun séparateur de champ est rencontré dans le document.
 type: docs
 weight: 190
 url: /fr/net/aspose.words/documentvisitor/visitfieldseparator/
 ---
 ## DocumentVisitor.VisitFieldSeparator method
 
-Appelé lorsqu'un séparateur de champs est rencontré dans le document.
+Appelé lorsqu'un séparateur de champ est rencontré dans le document.
 
 ```csharp
 public virtual VisitorAction VisitFieldSeparator(FieldSeparator fieldSeparator)
@@ -16,21 +16,21 @@ public virtual VisitorAction VisitFieldSeparator(FieldSeparator fieldSeparator)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| fieldSeparator | FieldSeparator | L'objet visité. |
+| fieldSeparator | FieldSeparator | L'objet qui est visité. |
 
 ### Return_Value
 
-UN[`VisitorAction`](../../visitoraction/) valeur qui spécifie comment poursuivre l'énumération.
+UN[`VisitorAction`](../../visitoraction/) valeur qui spécifie comment continuer l’énumération.
 
 ### Remarques
 
-Le séparateur de champ sépare le code de champ de la valeur de champ dans le document. Notez que certains champs n'ont qu'un code de champ et n'ont pas de séparateur de champ ni de valeur de champ.
+Le séparateur de champ sépare le code du champ de la valeur du champ dans le document. Notez que certains champs ont uniquement un code de champ et n'ont pas de séparateur de champ ni de valeur de champ.
 
-Pour plus d'informations voir[`VisitFieldStart`](../visitfieldstart/)
+Pour plus d'informations, voir[`VisitFieldStart`](../visitfieldstart/)
 
 ### Exemples
 
-Montre comment imprimer la structure de nœud de chaque champ dans un document.
+Montre comment imprimer la structure des nœuds de chaque champ d'un document.
 
 ```csharp
 public void FieldToText()
@@ -38,8 +38,8 @@ public void FieldToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     FieldStructurePrinter visitor = new FieldStructurePrinter();
 
-    // Lorsque nous obtenons un nœud composite pour accepter un visiteur de document, le visiteur visite le nœud acceptant,
-    // puis parcourt tous les enfants du nœud en profondeur d'abord.
+    // Lorsque nous obtenons qu'un nœud composite accepte un visiteur de document, le visiteur visite le nœud accepteur,
+    // puis parcourt tous les enfants du nœud en profondeur.
     // Le visiteur peut lire et modifier chaque nœud visité.
     doc.Accept(visitor);
 
@@ -64,7 +64,7 @@ public class FieldStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Appelé lorsqu'un noeud Run est rencontré dans le document.
+    /// Appelé lorsqu'un nœud Run est rencontré dans le document.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -111,7 +111,7 @@ public class FieldStructurePrinter : DocumentVisitor
     /// Ajoutez une ligne au StringBuilder et indentez-la en fonction de la profondeur du visiteur
     /// dans l'arborescence des nœuds enfants du champ.
     /// </summary>
-    /// <nom du paramètre="texte"></param>
+    /// <param name="text"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++)

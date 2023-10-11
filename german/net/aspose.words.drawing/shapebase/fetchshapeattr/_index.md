@@ -1,14 +1,14 @@
 ---
 title: ShapeBase.FetchShapeAttr
 second_title: Aspose.Words für .NET-API-Referenz
-description: ShapeBase methode. Reserviert für Systemnutzung. IShapeAttrSource.
+description: ShapeBase methode. Reserviert für die Systemnutzung. IShapeAttrSource.
 type: docs
-weight: 580
+weight: 640
 url: /de/net/aspose.words.drawing/shapebase/fetchshapeattr/
 ---
 ## ShapeBase.FetchShapeAttr method
 
-Reserviert für Systemnutzung. IShapeAttrSource.
+Reserviert für die Systemnutzung. IShapeAttrSource.
 
 ```csharp
 [EditorBrowsable(EditorBrowsableState.Never)]

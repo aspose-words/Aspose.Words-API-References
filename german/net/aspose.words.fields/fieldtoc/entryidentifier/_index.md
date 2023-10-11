@@ -1,14 +1,14 @@
 ---
 title: FieldToc.EntryIdentifier
 second_title: Aspose.Words für .NET-API-Referenz
-description: FieldToc eigendom. Ruft eine Zeichenfolge ab oder legt sie fest die mit den Typkennungen der eingeschlossenen TCFelder übereinstimmen sollte.
+description: FieldToc eigendom. Ruft eine Zeichenfolge ab oder legt diese fest die mit den Typkennungen der enthaltenen TCFelder übereinstimmen soll.
 type: docs
 weight: 50
 url: /de/net/aspose.words.fields/fieldtoc/entryidentifier/
 ---
 ## FieldToc.EntryIdentifier property
 
-Ruft eine Zeichenfolge ab oder legt sie fest, die mit den Typkennungen der eingeschlossenen TC-Felder übereinstimmen sollte.
+Ruft eine Zeichenfolge ab oder legt diese fest, die mit den Typkennungen der enthaltenen TC-Felder übereinstimmen soll.
 
 ```csharp
 public string EntryIdentifier { get; set; }
@@ -19,34 +19,36 @@ public string EntryIdentifier { get; set; }
 Zeigt, wie man ein TOC-Feld einfügt und filtert, welche TC-Felder als Einträge enden.
 
 ```csharp
+public void FieldTocEntryIdentifier()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Fügen Sie ein TOC-Feld ein, das alle TC-Felder in ein Inhaltsverzeichnis kompiliert.
+    // Ein TOC-Feld einfügen, das alle TC-Felder in einem Inhaltsverzeichnis zusammenstellt.
     FieldToc fieldToc = (FieldToc)builder.InsertField(FieldType.FieldTOC, true);
 
-    // Konfigurieren Sie das Feld nur so, dass es TC-Einträge vom Typ "A" und einer Eintragsebene zwischen 1 und 3 aufnimmt.
+    // Konfigurieren Sie das Feld nur für die Aufnahme von TC-Einträgen vom Typ „A“ und einer Eintragsebene zwischen 1 und 3.
     fieldToc.EntryIdentifier = "A";
     fieldToc.EntryLevelRange = "1-3";
 
     Assert.AreEqual(" TOC  \\f A \\l 1-3", fieldToc.GetFieldCode());
 
-    // Diese beiden Einträge erscheinen in der Tabelle.
+    // Diese beiden Einträge werden in der Tabelle angezeigt.
     builder.InsertBreak(BreakType.PageBreak);
     InsertTocEntry(builder, "TC field 1", "A", "1");
     InsertTocEntry(builder, "TC field 2", "A", "2");
 
     Assert.AreEqual(" TC  \"TC field 1\" \\n \\f A \\l 1", doc.Range.Fields[1].GetFieldCode());
 
-    // Dieser Eintrag wird in der Tabelle weggelassen, da er einen anderen Typ als "A" hat.
+    // Dieser Eintrag wird in der Tabelle weggelassen, da er einen anderen Typ als „A“ hat.
     InsertTocEntry(builder, "TC field 3", "B", "1");
 
-    // Dieser Eintrag wird aus der Tabelle weggelassen, da er eine Eintragsebene außerhalb des Bereichs 1-3 hat.
+    // Dieser Eintrag wird in der Tabelle weggelassen, da sein Eintragsniveau außerhalb des Bereichs 1-3 liegt.
     InsertTocEntry(builder, "TC field 4", "A", "5");
 
     doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.TC.docx");
+}
 
 /// <summary>
 /// Verwenden Sie einen Document Builder, um ein TC-Feld einzufügen.

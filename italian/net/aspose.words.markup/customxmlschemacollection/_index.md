@@ -3,12 +3,14 @@ title: Class CustomXmlSchemaCollection
 second_title: Aspose.Words per .NET API Reference
 description: Aspose.Words.Markup.CustomXmlSchemaCollection classe. Una raccolta di stringhe che rappresentano schemi XML associati a una parte XML personalizzata.
 type: docs
-weight: 3720
+weight: 3960
 url: /it/net/aspose.words.markup/customxmlschemacollection/
 ---
 ## CustomXmlSchemaCollection class
 
 Una raccolta di stringhe che rappresentano schemi XML associati a una parte XML personalizzata.
+
+Per saperne di più, visita il[Tag di documenti strutturati o controllo del contenuto](https://docs.aspose.com/words/net/working-with-content-control-sdt/) articolo di documentazione.
 
 ```csharp
 public class CustomXmlSchemaCollection : IEnumerable<string>
@@ -19,7 +21,7 @@ public class CustomXmlSchemaCollection : IEnumerable<string>
 | Nome | Descrizione |
 | --- | --- |
 | [Count](../../aspose.words.markup/customxmlschemacollection/count/) { get; } | Ottiene il numero di elementi contenuti nella raccolta. |
-| [Item](../../aspose.words.markup/customxmlschemacollection/item/) { get; set; } | Ottiene o imposta l'elemento in corrispondenza dell'indice specificato. |
+| [Item](../../aspose.words.markup/customxmlschemacollection/item/) { get; set; } | Ottiene o imposta l'elemento nell'indice specificato. |
 
 ## Metodi
 
@@ -31,11 +33,11 @@ public class CustomXmlSchemaCollection : IEnumerable<string>
 | [GetEnumerator](../../aspose.words.markup/customxmlschemacollection/getenumerator/)() | Restituisce un oggetto enumeratore che può essere utilizzato per scorrere tutti gli elementi della raccolta. |
 | [IndexOf](../../aspose.words.markup/customxmlschemacollection/indexof/)(string) | Restituisce l'indice in base zero del valore specificato nella raccolta. |
 | [Remove](../../aspose.words.markup/customxmlschemacollection/remove/)(string) | Rimuove il valore specificato dalla raccolta. |
-| [RemoveAt](../../aspose.words.markup/customxmlschemacollection/removeat/)(int) | Rimuove un valore in corrispondenza dell'indice specificato. |
+| [RemoveAt](../../aspose.words.markup/customxmlschemacollection/removeat/)(int) | Rimuove un valore nell'indice specificato. |
 
 ### Osservazioni
 
-Non crei istanze di questa classe. Si accede alla raccolta di schemi XML di un codice XML personalizzato part tramite il file[`Schemas`](../customxmlpart/schemas/) proprietà.
+Non crei istanze di questa classe. È possibile accedere alla raccolta di schemi XML di un part XML personalizzato tramite il file[`Schemas`](../customxmlpart/schemas/) proprietà.
 
 ### Esempi
 
@@ -48,13 +50,13 @@ string xmlPartId = Guid.NewGuid().ToString("B");
 string xmlPartContent = "<root><text>Hello, World!</text></root>";
 CustomXmlPart xmlPart = doc.CustomXmlParts.Add(xmlPartId, xmlPartContent);
 
-// Aggiunge un'associazione dello schema XML.
+// Aggiunge un'associazione allo schema XML.
 xmlPart.Schemas.Add("http://www.w3.org/2001/XMLSchema");
 
-// Clona la raccolta di associazioni dello schema XML della parte XML personalizzata,
-// e quindi aggiungi un paio di nuovi schemi al clone.
+// Clona la raccolta di associazioni di schemi XML della parte XML personalizzata,
+// e poi aggiungi un paio di nuovi schemi al clone.
 CustomXmlSchemaCollection schemas = xmlPart.Schemas.Clone();
-schemas.Add("http://www.w3.org/2001/XMLSchema-instance");
+schemas.Add("http://www.w3.org/2001/XMLSchema-istanza");
 schemas.Add("http://schemas.microsoft.com/office/2006/metadata/contentType");
 
 Assert.AreEqual(3, schemas.Count);
@@ -68,13 +70,13 @@ using (IEnumerator<string> enumerator = schemas.GetEnumerator())
 }
 
 // Di seguito sono riportati tre modi per rimuovere gli schemi dalla raccolta.
-// 1 - Rimuove uno schema per indice:
+// 1 - Rimuovi uno schema per indice:
 schemas.RemoveAt(2);
 
-// 2 - Rimuove uno schema per valore:
+// 2 - Rimuovi uno schema per valore:
 schemas.Remove("http://www.w3.org/2001/XMLSchema");
 
-// 3 - Usa il metodo "Cancella" per svuotare la raccolta in una volta.
+// 3 - Utilizza il metodo "Clear" per svuotare immediatamente la raccolta.
 schemas.Clear();
 
 Assert.AreEqual(0, schemas.Count);

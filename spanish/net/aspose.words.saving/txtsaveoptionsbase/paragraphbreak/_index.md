@@ -30,13 +30,13 @@ builder.Writeln("Paragraph 1.");
 builder.Writeln("Paragraph 2.");
 builder.Write("Paragraph 3.");
 
-// Crear un objeto "TxtSaveOptions", que podemos pasar al método "Guardar" del documento
-// para modificar cómo guardamos el documento en texto sin formato.
+// Crea un objeto "TxtSaveOptions", que podemos pasar al método "Guardar" del documento.
+// para modificar cómo guardamos el documento en texto plano.
 TxtSaveOptions txtSaveOptions = new TxtSaveOptions();
 
 Assert.AreEqual(SaveFormat.Text, txtSaveOptions.SaveFormat);
 
-// Establecer "ParagraphBreak" en un valor personalizado que deseamos poner al final de cada párrafo.
+// Establece "ParagraphBreak" en un valor personalizado que deseamos poner al final de cada párrafo.
 txtSaveOptions.ParagraphBreak = " End of paragraph.\n\n\t";
 
 doc.Save(ArtifactsDir + "TxtSaveOptions.ParagraphBreak.txt", txtSaveOptions);

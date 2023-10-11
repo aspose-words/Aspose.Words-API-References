@@ -16,11 +16,11 @@ public double InternalMarginTop { get; set; }
 
 ### Remarques
 
-La valeur par défaut est 1/20 pouce.
+La valeur par défaut est 1/20 de pouce.
 
 ### Exemples
 
-Montre comment définir les marges internes d'une zone de texte.
+Montre comment définir les marges internes d’une zone de texte.
 
 ```csharp
 Document doc = new Document();

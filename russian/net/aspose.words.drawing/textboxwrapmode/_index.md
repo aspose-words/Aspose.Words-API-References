@@ -1,14 +1,14 @@
 ---
 title: Enum TextBoxWrapMode
 second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Drawing.TextBoxWrapMode перечисление. Указывает как текст обтекает фигуру.
+description: Aspose.Words.Drawing.TextBoxWrapMode перечисление. Указывает как текст переносится внутри фигуры.
 type: docs
-weight: 1190
+weight: 1340
 url: /ru/net/aspose.words.drawing/textboxwrapmode/
 ---
 ## TextBoxWrapMode enumeration
 
-Указывает, как текст обтекает фигуру.
+Указывает, как текст переносится внутри фигуры.
 
 ```csharp
 public enum TextBoxWrapMode
@@ -18,7 +18,7 @@ public enum TextBoxWrapMode
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| Square | `0` | Текст обтекает фигуру. |
+| Square | `0` | Текст переносится внутри фигуры. |
 | None | `2` | Текст не переносится внутри фигуры. |
 
 ### Примеры
@@ -32,10 +32,10 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape textBoxShape = builder.InsertShape(ShapeType.TextBox, 300, 300);
 TextBox textBox = textBoxShape.TextBox;
 
-// Установите для свойства "TextBoxWrapMode" значение "TextBoxWrapMode.None", чтобы увеличить ширину текстового поля
+// Установите для свойства TextBoxWrapMode значение TextBoxWrapMode.None, чтобы увеличить ширину текстового поля.
 // для размещения текста, если он достаточно большой.
-// Установите для свойства "TextBoxWrapMode" значение "TextBoxWrapMode.Square", чтобы
-// обернуть весь текст внутри текстового поля, сохранив его размеры.
+// Установите для свойства TextBoxWrapMode значение TextBoxWrapMode.Square, чтобы
+// переносим весь текст внутрь текстового поля, сохраняя его размеры.
 textBox.TextBoxWrapMode = textBoxWrapMode;
 
 builder.MoveTo(textBoxShape.LastParagraph);

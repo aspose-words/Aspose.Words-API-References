@@ -1,14 +1,14 @@
 ---
 title: ComHelper.OpenIStream
 second_title: Aspose.Words for .NET API Referansı
-description: ComHelper yöntem. Bir COM uygulamasının birDocument bir IStream nesnesinden.
+description: ComHelper yöntem. COM uygulamasının bir dosya yüklemesine izin verir.Document bir IStream nesnesinden.
 type: docs
 weight: 30
 url: /tr/net/aspose.words/comhelper/openistream/
 ---
 ## ComHelper.OpenIStream method
 
-Bir COM uygulamasının bir[`Document`](../../document/) bir IStream nesnesinden.
+COM uygulamasının bir dosya yüklemesine izin verir.[`Document`](../../document/) bir IStream nesnesinden.
 
 ```csharp
 public Document OpenIStream(IStream stream)
@@ -20,7 +20,7 @@ public Document OpenIStream(IStream stream)
 
 ### Geri dönüş değeri
 
-A[`Document`](../../document/) Word belgesini temsil eden nesne.
+A[`Document`](../../document/)Bir Word belgesini temsil eden nesne.
 
 ### Ayrıca bakınız
 

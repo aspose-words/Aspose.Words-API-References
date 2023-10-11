@@ -3,7 +3,7 @@ title: HtmlSaveOptions.ExportOriginalUrlForLinkedImages
 second_title: Справочник по API Aspose.Words для .NET
 description: HtmlSaveOptions свойство. Указывает следует ли использовать исходный URLадрес в качестве URLадреса связанных изображений. Значение по умолчаниюЛОЖЬ .
 type: docs
-weight: 210
+weight: 200
 url: /ru/net/aspose.words.saving/htmlsaveoptions/exportoriginalurlforlinkedimages/
 ---
 ## HtmlSaveOptions.ExportOriginalUrlForLinkedImages property
@@ -16,9 +16,9 @@ public bool ExportOriginalUrlForLinkedImages { get; set; }
 
 ### Примечания
 
-Если установлено значение`истинный`[`SourceFullName`](../../../aspose.words.drawing/imagedata/sourcefullname/) значение используется , поскольку URL связанных изображений и связанных изображений не загружаются в папку документа или[`ImagesFolder`](../imagesfolder/).
+Если установлено значение`истинный`[`SourceFullName`](../../../aspose.words.drawing/imagedata/sourcefullname/) используется значение , поскольку URL-адрес связанных изображений и связанные изображения не загружаются в папку документа или[`ImagesFolder`](../imagesfolder/).
 
-Если установлено значение`ЛОЖЬ` связанные изображения загружаются в папку документа или[`ImagesFolder`](../imagesfolder/) и URL каждого связанного изображения создается в зависимости от папки документа,[`ImagesFolder`](../imagesfolder/) и[`ImagesFolderAlias`](../imagesfolderalias/) характеристики.
+Если установлено значение`ЛОЖЬ`связанные изображения загружаются в папкуfolder документа или[`ImagesFolder`](../imagesfolder/) и URL-адрес каждого связанного изображения создается в зависимости от папки документа,[`ImagesFolder`](../imagesfolder/) и[`ImagesFolderAlias`](../imagesfolderalias/) характеристики.
 
 ### Примеры
 
@@ -36,7 +36,7 @@ HtmlSaveOptions options = new HtmlSaveOptions
     FontsFolder = ArtifactsDir + "Fonts",
     ImagesFolder = ArtifactsDir + "Images",
     ResourceFolder = ArtifactsDir + "Resources",
-    FontsFolderAlias = "http://example.com/шрифты",
+    FontsFolderAlias = "http://example.com/fonts",
     ImagesFolderAlias = "http://example.com/images",
     ResourceFolderAlias = "http://example.com/resources",
     ExportOriginalUrlForLinkedImages = true

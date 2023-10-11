@@ -16,13 +16,13 @@ public bool IgnoreFields { get; set; }
 
 ### 评论
 
-此选项影响整个字段（ 之间的所有节点FieldStart和FieldEnd）。
+此选项影响整个字段（ 之间的所有节点）FieldStart和FieldEnd）。
 
-要仅忽略域代码，请使用相应的选项[`IgnoreFieldCodes`](../ignorefieldcodes/).
+要仅忽略字段代码，请使用相应的选项[`IgnoreFieldCodes`](../ignorefieldcodes/)。
 
 ### 例子
 
-显示如何忽略字段内的文本。
+演示如何忽略字段内的文本。
 
 ```csharp
 Document doc = new Document();
@@ -37,7 +37,7 @@ FindReplaceOptions options = new FindReplaceOptions();
 // 将“IgnoreFields”标志设置为“true”以获取查找和替换
 // 忽略字段内文本的操作。
 // 将“IgnoreFields”标志设置为“false”以获取查找和替换
-// 也可以在字段内搜索文本的操作。
+// 还可以搜索字段内文本的操作。
 options.IgnoreFields = ignoreTextInsideFields;
 
 doc.Range.Replace("Hello", "Greetings", options);

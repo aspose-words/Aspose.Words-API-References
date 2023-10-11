@@ -1,14 +1,14 @@
 ---
 title: NodeRendererBase.RenderToScale
 second_title: Référence de l'API Aspose.Words pour .NET
-description: NodeRendererBase méthode. Rend la forme en unGraphics objet à une échelle spécifiée.
+description: NodeRendererBase méthode. Rend la forme dans unGraphics objet à une échelle spécifiée.
 type: docs
 weight: 70
 url: /fr/net/aspose.words.rendering/noderendererbase/rendertoscale/
 ---
 ## NodeRendererBase.RenderToScale method
 
-Rend la forme en unGraphics objet à une échelle spécifiée.
+Rend la forme dans unGraphics objet à une échelle spécifiée.
 
 ```csharp
 public SizeF RenderToScale(Graphics graphics, float x, float y, float scale)
@@ -17,27 +17,28 @@ public SizeF RenderToScale(Graphics graphics, float x, float y, float scale)
 | Paramètre | Taper | La description |
 | --- | --- | --- |
 | graphics | Graphics | L'objet vers lequel effectuer le rendu. |
-| x | Single | Coordonnée X (en unités universelles) du coin supérieur gauche de la forme rendue. |
-| y | Single | Coordonnée Y (en unités universelles) du coin supérieur gauche de la forme rendue. |
+| x | Single | La coordonnée X (en unités mondiales) du coin supérieur gauche de la forme rendue. |
+| y | Single | La coordonnée Y (en unités mondiales) du coin supérieur gauche de la forme rendue. |
 | scale | Single | L'échelle de rendu de la forme (1,0 correspond à 100 %). |
 
 ### Return_Value
 
-La largeur et la hauteur (en unités universelles) de la forme rendue.
+La largeur et la hauteur (en unités mondiales) de la forme rendue.
 
 ### Exemples
 
-Montre comment rendre une forme avec un objet Graphics et l'afficher à l'aide d'un Windows Form.
+Montre comment restituer une forme avec un objet Graphics et l’afficher à l’aide d’un Windows Form.
 
 ```csharp
+public void RenderShapesOnForm()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
     ShapeForm shapeForm = new ShapeForm(new Size(1017, 840));
 
-    // Vous trouverez ci-dessous deux manières d'utiliser la classe "ShapeRenderer" pour restituer une forme à un objet Graphics.
-    // 1 - Créez une forme avec un graphique et affichez-la à une échelle spécifique.
+    // Vous trouverez ci-dessous deux manières d'utiliser la classe "ShapeRenderer" pour restituer une forme dans un objet Graphics.
+    // 1 - Créez une forme avec un graphique et restituez-la à une échelle spécifique.
     Chart chart = builder.InsertChart(ChartType.Pie, 500, 400).Chart;
     chart.Series.Clear();
     chart.Series.Add("Desktop Browser Market Share (Oct. 2020)",
@@ -48,7 +49,7 @@ Montre comment rendre une forme avec un objet Graphics et l'afficher à l'aide d
 
     shapeForm.AddShapeToRenderToScale(chartShape, 0, 0, 1.5f);
 
-    // 2 - Créez un groupe de formes et rendez-le à une taille spécifique.
+    // 2 - Créez un groupe de formes et affichez-le à une taille spécifique.
     GroupShape group = new GroupShape(doc);
     group.Bounds = new RectangleF(0, 0, 100, 100);
     group.CoordSize = new Size(500, 500);
@@ -127,6 +128,7 @@ private class ShapeForm : Form
         }
     }
 
+    private readonly List<KeyValuePair<ShapeBase, float[]>> mShapesToRender;
 }
 ```
 

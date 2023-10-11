@@ -1,14 +1,14 @@
 ---
 title: TableStyle.LeftPadding
 second_title: Aspose.Words لمراجع .NET API
-description: TableStyle ملكية. الحصول على أو تحديد مقدار المساحة بالنقاط لإضافتها إلى يسار محتويات خلايا الجدول.
+description: TableStyle ملكية. الحصول على أو تعيين مقدار المسافة بالنقاط المراد إضافتها إلى يسار محتويات خلايا الجدول.
 type: docs
 weight: 100
 url: /ar/net/aspose.words/tablestyle/leftpadding/
 ---
 ## TableStyle.LeftPadding property
 
-الحصول على أو تحديد مقدار المساحة (بالنقاط) لإضافتها إلى يسار محتويات خلايا الجدول.
+الحصول على أو تعيين مقدار المسافة (بالنقاط) المراد إضافتها إلى يسار محتويات خلايا الجدول.
 
 ```csharp
 public double LeftPadding { get; set; }

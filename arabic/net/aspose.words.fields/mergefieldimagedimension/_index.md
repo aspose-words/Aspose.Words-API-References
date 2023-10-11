@@ -1,14 +1,16 @@
 ---
 title: Class MergeFieldImageDimension
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Fields.MergeFieldImageDimension فصل. يمثل بُعد الصورة أي العرض أو الارتفاع المستخدم عبر عملية دمج المراسلات.
+description: Aspose.Words.Fields.MergeFieldImageDimension فصل. يمثل بُعد الصورة أي العرض أو الارتفاع المستخدم عبر عملية دمج البريد.
 type: docs
-weight: 2570
+weight: 2750
 url: /ar/net/aspose.words.fields/mergefieldimagedimension/
 ---
 ## MergeFieldImageDimension class
 
-يمثل بُعد الصورة (أي العرض أو الارتفاع) المستخدم عبر عملية دمج المراسلات.
+يمثل بُعد الصورة (أي العرض أو الارتفاع) المستخدم عبر عملية دمج البريد.
+
+لمعرفة المزيد، قم بزيارة[العمل مع الحقول](https://docs.aspose.com/words/net/working-with-fields/) مقالة توثيقية.
 
 ```csharp
 public class MergeFieldImageDimension
@@ -18,29 +20,30 @@ public class MergeFieldImageDimension
 
 | اسم | وصف |
 | --- | --- |
-| [MergeFieldImageDimension](mergefieldimagedimension/#constructor)(double) | ينشئ مثيلًا لأبعاد الصورة بالقيمة المحددة بالنقاط. |
-| [MergeFieldImageDimension](mergefieldimagedimension/#constructor_1)(double, MergeFieldImageDimensionUnit) | ينشئ مثيلًا لأبعاد الصورة بالقيمة المحددة والوحدة المحددة. |
+| [MergeFieldImageDimension](mergefieldimagedimension/#constructor)(double) | إنشاء مثيل لأبعاد الصورة بالقيمة المحددة بالنقاط. |
+| [MergeFieldImageDimension](mergefieldimagedimension/#constructor_1)(double, MergeFieldImageDimensionUnit) | إنشاء مثيل لأبعاد الصورة بالقيمة المحددة والوحدة المحددة. |
 
 ## الخصائص
 
 | اسم | وصف |
 | --- | --- |
-| [Unit](../../aspose.words.fields/mergefieldimagedimension/unit/) { get; set; } | الوحدة . |
-| [Value](../../aspose.words.fields/mergefieldimagedimension/value/) { get; set; } | القيمة . |
+| [Unit](../../aspose.words.fields/mergefieldimagedimension/unit/) { get; set; } | الوحدة. |
+| [Value](../../aspose.words.fields/mergefieldimagedimension/value/) { get; set; } | القيمة. |
 
 ### ملاحظات
 
-للإشارة إلى أنه يجب إدراج الصورة بأبعادها الأصلية أثناء دمج المراسلات ، يجب عليك تعيين قيمة سالبة إلى[`Value`](./value/) الملكية .
+للإشارة إلى أنه يجب إدراج الصورة بأبعادها الأصلية أثناء عملية دمج البريد، يجب عليك تعيين قيمة سالبة إلى[`Value`](./value/) الملكية.
 
 ### أمثلة
 
-يوضح كيفية تعيين أبعاد الصور حيث تقبلها MERGEFIELDS أثناء دمج البريد.
+يوضح كيفية تعيين أبعاد الصور كما يقبلها MERGEFIELDS أثناء دمج البريد.
 
 ```csharp
+public void MergeFieldImageDimension()
 {
     Document doc = new Document();
 
-    // أدخل MERGEFIELD الذي سيقبل الصور من مصدر أثناء دمج البريد. استخدم رمز الحقل للرجوع إليه
+    // أدخل MERGEFIELD الذي سيقبل الصور من المصدر أثناء دمج البريد. استخدم رمز الحقل للرجوع إليه
     // عمود في مصدر البيانات يحتوي على أسماء ملفات النظام المحلي للصور التي نرغب في استخدامها في دمج البريد.
     DocumentBuilder builder = new DocumentBuilder(doc);
     FieldMergeField field = (FieldMergeField)builder.InsertField("MERGEFIELD Image:ImageColumn");
@@ -48,22 +51,23 @@ public class MergeFieldImageDimension
     // يجب أن يحتوي مصدر البيانات على عمود يسمى "ImageColumn".
     Assert.AreEqual("Image:ImageColumn", field.FieldName);
 
-    // إنشاء مصدر بيانات مناسب.
+    // قم بإنشاء مصدر بيانات مناسب.
     DataTable dataTable = new DataTable("Images");
     dataTable.Columns.Add(new DataColumn("ImageColumn"));
     dataTable.Rows.Add(ImageDir + "Logo.jpg");
     dataTable.Rows.Add(ImageDir + "Transparent background logo.png");
     dataTable.Rows.Add(ImageDir + "Enhanced Windows MetaFile.emf");
 
-    // تكوين رد اتصال لتعديل أحجام الصور في وقت الدمج ، ثم تنفيذ دمج البريد.
+    // قم بتكوين رد اتصال لتعديل أحجام الصور في وقت الدمج، ثم قم بتنفيذ عملية دمج البريد.
     doc.MailMerge.FieldMergingCallback = new MergedImageResizer(200, 200, MergeFieldImageDimensionUnit.Point);
     doc.MailMerge.Execute(dataTable);
 
     doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.MERGEFIELD.ImageDimension.docx");
+}
 
 /// <summary>
-/// يعين حجم كل الصور المدمجة في البريد على عرض وارتفاع محددين.
+/// يضبط حجم جميع الصور المدمجة بالبريد على عرض وارتفاع محددين.
 /// </summary>
 private class MergedImageResizer : IFieldMergingCallback
 {

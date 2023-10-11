@@ -16,22 +16,22 @@ public Document Document { get; set; }
 
 ### Notlar
 
-Belge düğümlerinin sayfa dizinlerine erişmeniz gerekiyorsa, bu özelliği, belgenin sayfa düzeni oluşturulmadan önce bir belge örneğini, işaret edecek şekilde ayarlamanız gerekir. Bu özelliği ayarlamak en iyisidir`hükümsüz`ardından, aksi takdirde toplayıcı, belgenin sayfa düzeninin sonraki yeniden oluşturma işlemlerinden bilgi toplamaya devam eder.
+Belge düğümlerinin sayfa dizinlerine erişmeniz gerekiyorsa, belgenin sayfa düzeni oluşturulmadan önce bu özelliği bir belge örneğine, işaret edecek şekilde ayarlamanız gerekir. Bu özelliği şu şekilde ayarlamak en iyisidir:`hükümsüz` daha sonra aksi takdirde toplayıcı, belgenin sayfa düzeninin sonraki yeniden oluşturmalarından bilgi toplamaya devam eder.
 
 ### Örnekler
 
-Bir düğümün yaydığı sayfa aralıklarının nasıl görüneceğini gösterir.
+Bir düğümün kapsadığı sayfa aralıklarının nasıl görüleceğini gösterir.
 
 ```csharp
 Document doc = new Document();
 LayoutCollector layoutCollector = new LayoutCollector(doc);
 
 // Belgemizin içeriğinin kaç sayfaya yayıldığını saymak için "GetNumPagesSpanned" yöntemini çağırın.
-// Belge boş olduğundan, o sayfa sayısı şu anda sıfırdır.
+// Belge boş olduğundan bu sayfa sayısı şu anda sıfırdır.
 Assert.AreEqual(doc, layoutCollector.Document);
 Assert.AreEqual(0, layoutCollector.GetNumPagesSpanned(doc));
 
-// Belgeyi 5 sayfa içerikle doldurun.
+// Belgeyi 5 sayfalık içerikle doldurun.
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Write("Section 1");
 builder.InsertBreak(BreakType.PageBreak);
@@ -41,8 +41,8 @@ builder.Write("Section 2");
 builder.InsertBreak(BreakType.PageBreak);
 builder.InsertBreak(BreakType.PageBreak);
 
-// layout toplayıcıdan önce bize verecek "UpdatePageLayout" yöntemini çağırmamız gerekiyor.
-// sayfa sayısı gibi mizanpajla ilgili herhangi bir ölçüm için doğru bir rakam.
+// Düzen toplayıcıdan önce, bize bilgi vermesi için "UpdatePageLayout" yöntemini çağırmamız gerekiyor
+// sayfa sayısı gibi düzen ile ilgili herhangi bir ölçüm için doğru bir rakam.
 Assert.AreEqual(0, layoutCollector.GetNumPagesSpanned(doc));
 
 layoutCollector.Clear();
@@ -50,7 +50,7 @@ doc.UpdatePageLayout();
 
 Assert.AreEqual(5, layoutCollector.GetNumPagesSpanned(doc));
 
-// Herhangi bir düğümün başlangıç ve bitiş sayfalarının numaralarını ve bunların genel sayfa aralıklarını görebiliriz.
+// Herhangi bir düğümün başlangıç ve bitiş sayfalarının sayısını ve genel sayfa aralıklarını görebiliriz.
 NodeCollection nodes = doc.GetChildNodes(NodeType.Any, true);
 foreach (Node node in nodes)
 {
@@ -60,13 +60,13 @@ foreach (Node node in nodes)
         $" spanning {layoutCollector.GetNumPagesSpanned(node)} pages.");
 }
 
-// Bir LayoutEnumerator kullanarak düzen varlıklarını yineleyebiliriz.
+// LayoutEnumerator kullanarak düzen varlıkları üzerinde yineleme yapabiliriz.
 LayoutEnumerator layoutEnumerator = new LayoutEnumerator(doc);
 
 Assert.AreEqual(LayoutEntityType.Page, layoutEnumerator.Type);
 
-// LayoutEnumerator, bir ağaç gibi düzen varlıklarının koleksiyonunu geçebilir.
-// Herhangi bir düğümün karşılık gelen düzen varlığına da uygulayabiliriz.
+// LayoutEnumerator, düzen varlıkları koleksiyonunu bir ağaç gibi geçebilir.
+// Bunu herhangi bir düğümün karşılık gelen düzen varlığına da uygulayabiliriz.
 layoutEnumerator.Current = layoutCollector.GetEntity(doc.GetChild(NodeType.Paragraph, 1, true));
 
 Assert.AreEqual(LayoutEntityType.Span, layoutEnumerator.Type);

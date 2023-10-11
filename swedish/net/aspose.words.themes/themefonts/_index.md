@@ -3,12 +3,14 @@ title: Class ThemeFonts
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Themes.ThemeFonts klass. Representerar en samling teckensnitt i teckensnittsschemat vilket gör det möjligt att ange olika teckensnitt för olika språkLatin EastAsian ochComplexScript .
 type: docs
-weight: 6200
+weight: 6500
 url: /sv/net/aspose.words.themes/themefonts/
 ---
 ## ThemeFonts class
 
 Representerar en samling teckensnitt i teckensnittsschemat, vilket gör det möjligt att ange olika teckensnitt för olika språk[`Latin`](./latin/) ,[`EastAsian`](./eastasian/) och[`ComplexScript`](./complexscript/) .
+
+För att lära dig mer, besök[Arbeta med stilar och teman](https://docs.aspose.com/words/net/working-with-styles-and-themes/) dokumentationsartikel.
 
 ```csharp
 public class ThemeFonts

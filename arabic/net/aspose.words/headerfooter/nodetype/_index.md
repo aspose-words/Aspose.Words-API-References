@@ -1,14 +1,14 @@
 ---
 title: HeaderFooter.NodeType
 second_title: Aspose.Words لمراجع .NET API
-description: HeaderFooter ملكية. عوائد NodeType.HeaderFooter .
+description: HeaderFooter ملكية. إرجاعHeaderFooter .
 type: docs
 weight: 50
 url: /ar/net/aspose.words/headerfooter/nodetype/
 ---
 ## HeaderFooter.NodeType property
 
-عوائد **NodeType.HeaderFooter** .
+إرجاعHeaderFooter .
 
 ```csharp
 public override NodeType NodeType { get; }
@@ -16,7 +16,7 @@ public override NodeType NodeType { get; }
 
 ### أمثلة
 
-يوضح كيفية التكرار من خلال العناصر الفرعية لعقدة مركبة.
+يوضح كيفية التكرار من خلال أبناء العقدة المركبة.
 
 ```csharp
 Document doc = new Document();
@@ -30,8 +30,8 @@ builder.Write("Primary footer");
 
 Section section = doc.FirstSection;
 
-// A القسم هو عقدة مركبة ويمكن أن يحتوي على عقد فرعية ،
-// ولكن فقط إذا كانت هذه العقد الفرعية من نوع العقدة "Body" أو "HeaderFooter".
+// القسم عبارة عن عقدة مركبة ويمكن أن يحتوي على عقد فرعية،
+// ولكن فقط إذا كانت تلك العقد الفرعية من نوع العقدة "Body" أو "HeaderFooter".
 foreach (Node node in section)
 {
     switch (node.NodeType)

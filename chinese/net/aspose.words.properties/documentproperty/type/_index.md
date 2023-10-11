@@ -16,16 +16,16 @@ public PropertyType Type { get; }
 
 ### 例子
 
-显示如何使用内置文档属性。
+展示如何使用内置文档属性。
 
 ```csharp
 Document doc = new Document(MyDir + "Properties.docx");
 
-// “文档”对象在其成员中包含一些元数据。
+// “Document”对象在其成员中包含一些元数据。
 Console.WriteLine($"Document filename:\n\t \"{doc.OriginalFileName}\"");
 
-// 文档还在其内置属性中存储元数据。
-// 每个内置属性都是文档“BuiltInDocumentProperties”对象的成员。
+// 该文档还将元数据存储在其内置属性中。
+// 每个内置属性都是文档的“BuiltInDocumentProperties”对象的成员。
 Console.WriteLine("Built-in Properties:");
 foreach (DocumentProperty docProperty in doc.BuiltInDocumentProperties)
 {
@@ -60,7 +60,7 @@ properties.Add("Authorized Date", DateTime.Today);
 properties.Add("Authorized Revision", doc.BuiltInDocumentProperties.RevisionNumber);
 properties.Add("Authorized Amount", 123.45);
 
-// 集合按字母顺序对自定义属性进行排序。
+// 该集合按字母顺序对自定义属性进行排序。
 Assert.AreEqual(1, properties.IndexOf("Authorized Amount"));
 Assert.AreEqual(5, properties.Count);
 
@@ -78,7 +78,7 @@ field.Update();
 
 Assert.AreEqual("John Doe", field.Result);
 
-// 我们可以通过“文件”在 Microsoft Word 中找到这些自定义属性 -> “属性” > “高级属性”> “风俗”。
+// 我们可以通过“文件”-> 在 Microsoft Word 中找到这些自定义属性“属性”> “高级属性”> “风俗”。
 doc.Save(ArtifactsDir + "DocumentProperties.DocumentPropertyCollection.docx");
 
 // 以下是从文档中删除自定义属性的三种方法。
@@ -94,7 +94,7 @@ properties.Remove("Authorized Revision");
 Assert.False(properties.Contains("Authorized Revision"));
 Assert.AreEqual(3, properties.Count);
 
-// 3 - 一次清空整个集合：
+// 3 - 立即清空整个集合：
 properties.Clear();
 
 Assert.AreEqual(0, properties.Count);

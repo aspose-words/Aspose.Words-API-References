@@ -1,23 +1,28 @@
 ---
 title: Aspose.Words.Rendering
 second_title: Aspose.Words für .NET-API-Referenz
-description: Das Aspose.Words.Renderingnamespace stellt Klassen bereit die es ermöglichen das Drucken oder Rendern von Dokumenten anzupassen.
+description: Der Aspose.Words.Rendering Der Namespace stellt Klassen bereit mit denen das Drucken oder Rendern von Dokumenten angepasst werden kann.
 type: docs
-weight: 190
+weight: 200
 url: /de/net/aspose.words.rendering/
 ---
-Das **Aspose.Words.Rendering**namespace stellt Klassen bereit, die es ermöglichen das Drucken oder Rendern von Dokumenten anzupassen.
+Der **Aspose.Words.Rendering** Der Namespace stellt Klassen bereit, mit denen das Drucken oder Rendern von Dokumenten angepasst werden kann.
 
 ## Klassen
 
 | Klasse | Beschreibung |
 | --- | --- |
 | [AsposeWordsPrintDocument](./asposewordsprintdocument/) | Stellt eine Standardimplementierung zum Drucken von a bereit[`Document`](../aspose.words/document/) innerhalb des .NET-Druckframeworks. |
-| [NodeRendererBase](./noderendererbase/) | Basisklasse für[`ShapeRenderer`](../aspose.words.rendering/shaperenderer/) und[`OfficeMathRenderer`](../aspose.words.rendering/officemathrenderer/) . |
-| [OfficeMathRenderer](./officemathrenderer/) | Stellt Methoden bereit, um eine Person zu rendern[`OfficeMath`](../aspose.words.math/officemath/) in ein Raster- oder Vektorbild oder in ein Grafikobjekt. |
+| [NodeRendererBase](./noderendererbase/) | Basisklasse für[`ShapeRenderer`](../aspose.words.rendering/shaperenderer/) Und[`OfficeMathRenderer`](../aspose.words.rendering/officemathrenderer/) . |
+| [OfficeMathRenderer](./officemathrenderer/) | Stellt Methoden zum Rendern einer Person bereit[`OfficeMath`](../aspose.words.math/officemath/) zu einem Raster- oder Vektorbild oder zu einem Grafikobjekt. |
 | [PageInfo](./pageinfo/) | Stellt Informationen zu einer bestimmten Dokumentseite dar. |
-| [PrinterSettingsContainer](./printersettingscontainer/) | Repräsentiert einen Speicher für einige Parameter vonPrinterSettings Objekt. |
-| [ShapeRenderer](./shaperenderer/) | Stellt Methoden bereit, um eine Person zu rendern[`Shape`](../aspose.words.drawing/shape/) oder[`GroupShape`](../aspose.words.drawing/groupshape/) in ein Raster- oder Vektorbild oder in ein Grafikobjekt. |
-| [ThumbnailGeneratingOptions](./thumbnailgeneratingoptions/) | Kann verwendet werden, um zusätzliche Optionen beim Generieren von Miniaturansichten für ein Dokument anzugeben. |
+| [PrinterSettingsContainer](./printersettingscontainer/) | Stellt einen Speicher für einige Parameter von darPrinterSettings Objekt. |
+| [ShapeRenderer](./shaperenderer/) | Stellt Methoden zum Rendern einer Person bereit[`Shape`](../aspose.words.drawing/shape/) oder[`GroupShape`](../aspose.words.drawing/groupshape/) zu einem Raster- oder Vektorbild oder zu einem Grafikobjekt. |
+| [ThumbnailGeneratingOptions](./thumbnailgeneratingoptions/) | Kann verwendet werden, um beim Generieren einer Miniaturansicht für ein Dokument zusätzliche Optionen anzugeben. |
+## Aufzählung
+
+| Aufzählung | Beschreibung |
+| --- | --- |
+| [ColorPrintMode](./colorprintmode/) | Gibt an, wie nicht farbige Seiten gedruckt werden, wenn das Gerät Farbdruck unterstützt. |
 
 

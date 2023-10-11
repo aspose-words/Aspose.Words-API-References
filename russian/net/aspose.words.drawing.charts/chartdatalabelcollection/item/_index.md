@@ -3,7 +3,7 @@ title: ChartDataLabelCollection.Item
 second_title: Справочник по API Aspose.Words для .NET
 description: ChartDataLabelCollection свойство. ВозвращаетChartDataLabel для указанного индекса.
 type: docs
-weight: 20
+weight: 40
 url: /ru/net/aspose.words.drawing.charts/chartdatalabelcollection/item/
 ---
 ## ChartDataLabelCollection indexer
@@ -19,6 +19,7 @@ public ChartDataLabel this[int index] { get; }
 Показывает, как применять метки к точкам данных на линейной диаграмме.
 
 ```csharp
+public void DataLabels()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -31,15 +32,15 @@ public ChartDataLabel this[int index] { get; }
     Assert.AreEqual("Series 2", chart.Series[1].Name);
     Assert.AreEqual("Series 3", chart.Series[2].Name);
 
-    // Применяем метки данных к каждому ряду на диаграмме.
-    // Эти метки будут отображаться рядом с каждой точкой данных на графике и отображать ее значение.
+    // Применяем метки данных к каждой серии диаграммы.
+    // Эти метки появятся рядом с каждой точкой данных на графике и отобразят ее значение.
     foreach (ChartSeries series in chart.Series)
     {
         ApplyDataLabels(series, 4, "000.0", ", ");
         Assert.AreEqual(4, series.DataLabels.Count);
     }
 
-    // Изменить строку-разделитель для каждой метки данных в серии.
+    // Измените строку-разделитель для каждой метки данных в серии.
     using (IEnumerator<ChartDataLabel> enumerator = chart.Series[0].DataLabels.GetEnumerator())
     {
         while (enumerator.MoveNext())
@@ -52,14 +53,14 @@ public ChartDataLabel this[int index] { get; }
     // Чтобы график выглядел чище, мы можем удалить метки данных по отдельности.
     chart.Series[1].DataLabels[2].ClearFormat();
 
-    // Мы также можем сразу удалить целую серию его меток данных.
+    // Мы также можем сразу удалить целую серию меток данных.
     chart.Series[2].DataLabels.ClearFormat();
 
     doc.Save(ArtifactsDir + "Charts.DataLabels.docx");
 }
 
 /// <summary>
-/// Применить метки данных с пользовательским числовым форматом и разделителем к нескольким точкам данных в ряду.
+/// Примените метки данных с произвольным числовым форматом и разделителем к нескольким точкам данных в серии.
 /// </summary>
 private static void ApplyDataLabels(ChartSeries series, int labelsCount, string numberFormat, string separator)
 {

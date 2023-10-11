@@ -16,15 +16,16 @@ public bool Filled { get; set; }
 
 ### Примечания
 
-Это ярлык дляOn имущество.
+Это ярлык для[`Visible`](../../fill/visible/) свойство.
 
-Значение по умолчанию **истинный**.
+Значение по умолчанию:`истинный`.
 
 ### Примеры
 
 Показывает, как перебирать все фигуры в документе.
 
 ```csharp
+public void VisitShapes()
 {
     Document doc = new Document(MyDir + "Revision shape.docx");
     ShapeAppearancePrinter visitor = new ShapeAppearancePrinter();
@@ -34,7 +35,7 @@ public bool Filled { get; set; }
 }
 
 /// <summary>
-/// Регистрирует связанную с внешним видом информацию о посещенных фигурах.
+/// Регистрирует информацию о внешнем виде посещенных фигур.
 /// </summary>
 private class ShapeAppearancePrinter : DocumentVisitor
 {
@@ -46,7 +47,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Добавляет строку в StringBuilder с одним предшествующим символом табуляции для каждого уровня отступа.
+    /// Добавляет строку в StringBuilder с одним добавленным символом табуляции для каждого уровня отступа.
     /// </summary>
     private void AppendLine(string text)
     {
@@ -56,7 +57,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Вернуть весь текст, который накопил StringBuilder.
+    /// Возвращаем весь текст, накопленный StringBuilder.
     /// </summary>
     public string GetText()
     {

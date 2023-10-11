@@ -1,14 +1,14 @@
 ---
 title: Font.NoProofing
 second_title: Aspose.Words für .NET-API-Referenz
-description: Font eigendom. Wahr wenn die Rechtschreibung der formatierten Zeichen nicht geprüft werden soll.
+description: Font eigendom. True wenn die formatierten Zeichen nicht auf Rechtschreibung überprüft werden sollen.
 type: docs
 weight: 280
 url: /de/net/aspose.words/font/noproofing/
 ---
 ## Font.NoProofing property
 
-Wahr, wenn die Rechtschreibung der formatierten Zeichen nicht geprüft werden soll.
+True, wenn die formatierten Zeichen nicht auf Rechtschreibung überprüft werden sollen.
 
 ```csharp
 public bool NoProofing { get; set; }
@@ -16,15 +16,15 @@ public bool NoProofing { get; set; }
 
 ### Beispiele
 
-Zeigt, wie verhindert wird, dass Text von Microsoft Word auf Rechtschreibprüfung geprüft wird.
+Zeigt, wie Sie verhindern können, dass Text von Microsoft Word auf Rechtschreibung geprüft wird.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Normalerweise hebt Microsoft Word Rechtschreibfehler mit einer gezackten roten Unterstreichung hervor.
-// Wir können das "NoProofing"-Flag deaktivieren, um einen Textabschnitt zu erstellen, der
-// umgeht die Rechtschreibprüfung, während sie vollständig deaktiviert wird.
+// Normalerweise hebt Microsoft Word Rechtschreibfehler durch eine gezackte rote Unterstreichung hervor.
+// Wir können das Flag „NoProofing“ deaktivieren, um einen Teil des Textes zu erstellen
+// umgeht die Rechtschreibprüfung und deaktiviert sie vollständig.
 builder.Font.NoProofing = true;
 
 builder.Writeln("Proofing has been disabled, so these spelking errrs will not display red lines underneath.");

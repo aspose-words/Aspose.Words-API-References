@@ -1,14 +1,14 @@
 ---
 title: ImageWatermarkOptions.IsWashout
 second_title: Aspose.Words for .NET API 参考
-description: ImageWatermarkOptions 财产. 获取或设置一个布尔值负责水印的冲刷效果 默认值为True
+description: ImageWatermarkOptions 财产. 获取或设置一个布尔值该值负责水印的冲刷效果 默认值为真的.
 type: docs
 weight: 20
 url: /zh/net/aspose.words/imagewatermarkoptions/iswashout/
 ---
 ## ImageWatermarkOptions.IsWashout property
 
-获取或设置一个布尔值，负责水印的冲刷效果。 默认值为True。
+获取或设置一个布尔值，该值负责水印的冲刷效果。 默认值为`真的`.
 
 ```csharp
 public bool IsWashout { get; set; }

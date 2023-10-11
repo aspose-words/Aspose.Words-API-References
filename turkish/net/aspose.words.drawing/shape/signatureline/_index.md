@@ -1,14 +1,14 @@
 ---
 title: Shape.SignatureLine
 second_title: Aspose.Words for .NET API Referansı
-description: Shape mülk. AlırSignatureLine şekil bir imza satırı ise nesne. İadeler hükümsüz aksi halde.
+description: Shape mülk. AlırSignatureLine Şekil bir imza çizgisiyse nesne. İadelerhükümsüz aksi halde.
 type: docs
 weight: 160
 url: /tr/net/aspose.words.drawing/shape/signatureline/
 ---
 ## Shape.SignatureLine property
 
-Alır`SignatureLine` şekil bir imza satırı ise nesne. İadeler **hükümsüz** aksi halde.
+Alır[`SignatureLine`](../../signatureline/) Şekil bir imza çizgisiyse nesne. İadeler`hükümsüz` aksi halde.
 
 ```csharp
 public SignatureLine SignatureLine { get; }
@@ -16,11 +16,11 @@ public SignatureLine SignatureLine { get; }
 
 ### Notlar
 
-kullanarak belgeye yeni SignatureLines ekleyebilirsiniz.[`InsertSignatureLine`](../../../aspose.words/documentbuilder/insertsignatureline/) and
+Yeni ekleyebilirsiniz[`SignatureLine`](../../signatureline/) kullanarak belgeye[`InsertSignatureLine`](../../../aspose.words/documentbuilder/insertsignatureline/) ve
 
 ### Örnekler
 
-İmza için bir satırın nasıl oluşturulacağını ve belgeye nasıl ekleneceğini gösterir.
+İmza için nasıl satır oluşturulacağını ve bunun belgeye nasıl ekleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -37,10 +37,10 @@ SignatureLineOptions options = new SignatureLineOptions
     SignerTitle = "Senior Manager"
 };
 
-// Görünüşünü değiştireceğimiz bir imza satırı içerecek bir şekil ekleyin
-// yukarıda oluşturduğumuz "SignatureLineOptions" nesnesini kullanarak özelleştirelim.
+// Görünümünü belirleyeceğimiz, imza çizgisi içeren bir şekil ekleyin
+// yukarıda oluşturduğumuz "SignatureLineOptions" nesnesini kullanarak özelleştirin.
 // Koordinatları sayfanın sağ alt köşesinden başlayan bir şekil eklersek,
-// şekli görüntüye getirmek için negatif x ve y koordinatlarını sağlamamız gerekecek.
+// şekli görünür hale getirmek için negatif x ve y koordinatlarını sağlamamız gerekecek.
 Shape shape = builder.InsertSignatureLine(options, RelativeHorizontalPosition.RightMargin, -170.0, 
         RelativeVerticalPosition.BottomMargin, -60.0, WrapType.None);
 

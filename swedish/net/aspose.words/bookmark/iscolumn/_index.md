@@ -1,14 +1,14 @@
 ---
 title: Bookmark.IsColumn
 second_title: Aspose.Words för .NET API Referens
-description: Bookmark fast egendom. Returnerar Sann om detta bokmärke är ett tabellkolumnbokmärke.
+description: Bookmark fast egendom. ReturnerarSann om detta bokmärke är ett tabellkolumnbokmärke.
 type: docs
 weight: 40
 url: /sv/net/aspose.words/bookmark/iscolumn/
 ---
 ## Bookmark.IsColumn property
 
-Returnerar **Sann** om detta bokmärke är ett tabellkolumnbokmärke.
+Returnerar`Sann` om detta bokmärke är ett tabellkolumnbokmärke.
 
 ```csharp
 public bool IsColumn { get; }

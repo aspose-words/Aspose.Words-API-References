@@ -3,7 +3,7 @@ title: CompositeNode.GetChild
 second_title: Aspose.Words för .NET API Referens
 description: CompositeNode metod. Returnerar en Nte underordnad nod som matchar den angivna typen.
 type: docs
-weight: 90
+weight: 100
 url: /sv/net/aspose.words/compositenode/getchild/
 ---
 ## CompositeNode.GetChild method
@@ -18,17 +18,17 @@ public Node GetChild(NodeType nodeType, int index, bool isDeep)
 | --- | --- | --- |
 | nodeType | NodeType | Anger typen av underordnad nod. |
 | index | Int32 | Nollbaserat index för den underordnade noden att välja. Negativa index är också tillåtna och indikerar åtkomst från slutet, det vill säga -1 betyder den sista noden. |
-| isDeep | Boolean | Sant att välja från alla underordnade noder rekursivt. Falskt för att välja endast bland omedelbara barn. Se anmärkningar för mer info. |
+| isDeep | Boolean | `Sann` för att välja från alla underordnade noder rekursivt; `falsk`att endast välja bland närmaste barn. Se anmärkningar för mer info. |
 
 ### Returvärde
 
-Den underordnade noden som matchar kriterierna eller null om ingen matchande nod hittas.
+Den underordnade noden som matchar kriterierna eller`null` om ingen matchande nod hittas.
 
 ### Anmärkningar
 
-Om index ligger utanför intervallet returneras en noll.
+Om index ligger utanför intervallet, a`null` returneras.
 
-Observera att uppmärkningsnoder (StructuredDocumentTag ochSmartTag) korsas även när isDeep = false och GetChild anropas för non-markup nodtyp. Till exempel om den första körningen i en para är inslagen i en StructuredDocumentTag, kommer den fortfarande att returneras av GetChild(NodeType.Run, 0, false).
+Observera att uppmärkningsnoder (StructuredDocumentTag ochSmartTag ) korsas även när*isDeep* =`falsk` och`GetChild` anropas för non-markup nodtyp. Till exempel om den första körningen i en para är inslagen i en[`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/) , kommer den fortfarande att returneras av`GetChild`(Run , 0,`falsk`).
 
 ### Exempel
 
@@ -79,9 +79,9 @@ paragraph.AppendChild(new Run(doc, "Hello again!"));
 
 // Iterera genom styckets samling av närmaste barn,
 // och skriv ut alla körningar eller former som vi hittar inom.
-NodeCollection children = paragraph.ChildNodes;
+NodeCollection children = paragraph.GetChildNodes(NodeType.Any, false);
 
-Assert.AreEqual(3, paragraph.ChildNodes.Count);
+Assert.AreEqual(3, paragraph.GetChildNodes(NodeType.Any, false).Count);
 
 foreach (Node child in children)
     switch (child.NodeType)
@@ -94,6 +94,7 @@ foreach (Node child in children)
             Shape childShape = (Shape)child;
             Console.WriteLine("Shape:");
             Console.WriteLine($"\t{childShape.ShapeType}, {childShape.Width}x{childShape.Height}");
+            break;
     }
 ```
 

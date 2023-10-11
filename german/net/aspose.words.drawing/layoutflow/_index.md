@@ -1,14 +1,14 @@
 ---
 title: Enum LayoutFlow
 second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Drawing.LayoutFlow opsomming. Bestimmt den Fluss des Textlayouts in einer Textbox.
+description: Aspose.Words.Drawing.LayoutFlow opsomming. Bestimmt den Fluss des Textlayouts in einem Textfeld.
 type: docs
-weight: 970
+weight: 1100
 url: /de/net/aspose.words.drawing/layoutflow/
 ---
 ## LayoutFlow enumeration
 
-Bestimmt den Fluss des Textlayouts in einer Textbox.
+Bestimmt den Fluss des Textlayouts in einem Textfeld.
 
 ```csharp
 public enum LayoutFlow
@@ -27,7 +27,7 @@ public enum LayoutFlow
 
 ### Beispiele
 
-Zeigt, wie Sie einem Textfeld Text hinzufügen und seine Ausrichtung ändern
+Zeigt, wie man einem Textfeld Text hinzufügt und seine Ausrichtung ändert
 
 ```csharp
 Document doc = new Document();

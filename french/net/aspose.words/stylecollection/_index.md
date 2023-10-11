@@ -1,14 +1,16 @@
 ---
 title: Class StyleCollection
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.StyleCollection classe. Une collection dobjets Style qui représentent à la fois les styles intégrés et définis par lutilisateur dans un document.
+description: Aspose.Words.StyleCollection classe. Une collection deStyle objets qui représentent à la fois les styles intégrés et définis par lutilisateur dans un document.
 type: docs
-weight: 5840
+weight: 6140
 url: /fr/net/aspose.words/stylecollection/
 ---
 ## StyleCollection class
 
-Une collection d'objets Style qui représentent à la fois les styles intégrés et définis par l'utilisateur dans un document.
+Une collection de[`Style`](../style/) objets qui représentent à la fois les styles intégrés et définis par l'utilisateur dans un document.
+
+Pour en savoir plus, visitez le[Travailler avec des styles et des thèmes](https://docs.aspose.com/words/net/working-with-styles-and-themes/) article documentaire.
 
 ```csharp
 public class StyleCollection : IEnumerable<Style>
@@ -19,7 +21,7 @@ public class StyleCollection : IEnumerable<Style>
 | Nom | La description |
 | --- | --- |
 | [Count](../../aspose.words/stylecollection/count/) { get; } | Obtient le nombre de styles dans la collection. |
-| [DefaultFont](../../aspose.words/stylecollection/defaultfont/) { get; } | Récupère la mise en forme du texte par défaut du document. |
+| [DefaultFont](../../aspose.words/stylecollection/defaultfont/) { get; } | Obtient le formatage du texte par défaut du document. |
 | [DefaultParagraphFormat](../../aspose.words/stylecollection/defaultparagraphformat/) { get; } | Obtient le formatage de paragraphe par défaut du document. |
 | [Document](../../aspose.words/stylecollection/document/) { get; } | Obtient le document propriétaire. |
 | [Item](../../aspose.words/stylecollection/item/) { get; } | Obtient un style par nom ou alias. (3 indexers) |
@@ -51,11 +53,11 @@ style.ParagraphFormat.SpaceAfter = 12;
 style.ListFormat.List = doc.Lists.Add(ListTemplate.BulletDefault);
 style.ListFormat.ListLevelNumber = 0;
 
-// Appliquez le style de paragraphe au paragraphe actuel du générateur de document, puis ajoutez du texte.
+// Applique le style de paragraphe au paragraphe actuel du générateur de documents, puis ajoute du texte.
 builder.ParagraphFormat.Style = style;
 builder.Writeln("Hello World: MyStyle1, bulleted list.");
 
-// Modifiez le style du générateur de document en un style qui n'a pas de formatage de liste et écrivez un autre paragraphe.
+// Changez le style du générateur de documents en un style sans formatage de liste et écrivez un autre paragraphe.
 builder.ParagraphFormat.Style = doc.Styles["Normal"];
 builder.Writeln("Hello World: Normal.");
 

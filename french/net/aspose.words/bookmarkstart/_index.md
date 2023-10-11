@@ -3,12 +3,14 @@ title: Class BookmarkStart
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Aspose.Words.BookmarkStart classe. Représente le début dun signet dans un document Word.
 type: docs
-weight: 60
+weight: 70
 url: /fr/net/aspose.words/bookmarkstart/
 ---
 ## BookmarkStart class
 
 Représente le début d'un signet dans un document Word.
+
+Pour en savoir plus, visitez le[Travailler avec des signets](https://docs.aspose.com/words/net/working-with-bookmarks/) article documentaire.
 
 ```csharp
 public class BookmarkStart : Node
@@ -24,39 +26,39 @@ public class BookmarkStart : Node
 
 | Nom | La description |
 | --- | --- |
-| [Bookmark](../../aspose.words/bookmarkstart/bookmark/) { get; } | Obtient l'objet façade qui encapsule le début et la fin de ce signet. |
+| [Bookmark](../../aspose.words/bookmarkstart/bookmark/) { get; } | Obtient l'objet de façade qui encapsule le début et la fin de ce signet. |
 | [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Spécifie l'identifiant de nœud personnalisé. |
-| virtual [Document](../../aspose.words/node/document/) { get; } | Obtient le document auquel ce nœud appartient. |
-| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Renvoie true si ce nœud peut contenir d'autres nœuds. |
+| virtual [Document](../../aspose.words/node/document/) { get; } | Obtient le document auquel appartient ce nœud. |
+| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Retours`vrai` si ce nœud peut contenir d'autres nœuds. |
 | [Name](../../aspose.words/bookmarkstart/name/) { get; set; } | Obtient ou définit le nom du signet. |
 | [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Obtient le nœud suivant immédiatement ce nœud. |
 | override [NodeType](../../aspose.words/bookmarkstart/nodetype/) { get; } | RetoursBookmarkStart . |
 | [ParentNode](../../aspose.words/node/parentnode/) { get; } | Obtient le parent immédiat de ce nœud. |
 | [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Obtient le nœud précédant immédiatement ce nœud. |
-| [Range](../../aspose.words/node/range/) { get; } | Renvoie un **Intervalle** objet qui représente la partie d'un document contenue dans ce nœud. |
+| [Range](../../aspose.words/node/range/) { get; } | Renvoie un[`Range`](../range/) objet qui représente la partie d'un document contenue dans ce nœud. |
 
 ## Méthodes
 
 | Nom | La description |
 | --- | --- |
 | override [Accept](../../aspose.words/bookmarkstart/accept/)(DocumentVisitor) | Accepte un visiteur. |
-| [Clone](../../aspose.words/node/clone/)(bool) | Crée un doublon du nœud. |
+| [Clone](../../aspose.words/node/clone/)(bool) | Crée un duplicata du nœud. |
 | [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Obtient le premier ancêtre du spécifié[`NodeType`](../nodetype/) . |
 | [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Obtient le premier ancêtre du type d'objet spécifié. |
 | override [GetText](../../aspose.words/bookmarkstart/gettext/)() | Renvoie une chaîne vide. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Obtient le nœud suivant selon l'algorithme de traversée de l'arbre de pré-ordre. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Obtient le nœud précédent selon l'algorithme de parcours de l'arbre de pré-ordre. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Obtient le nœud suivant selon l'algorithme de traversée de l'arbre de pré-commande. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Obtient le nœud précédent selon l'algorithme de traversée d'arbre de pré-commande. |
 | [Remove](../../aspose.words/node/remove/)() | Se supprime du parent. |
 | [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Exporte le contenu du nœud dans une chaîne au format spécifié. |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Exporte le contenu du nœud dans une chaîne à l'aide des options d'enregistrement spécifiées. |
+| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Exporte le contenu du nœud dans une chaîne à l'aide des options de sauvegarde spécifiées. |
 
 ### Remarques
 
-Un signet complet dans un document Word consiste en un`BookmarkStart` et une correspondance[`BookmarkEnd`](../bookmarkend/) avec le même nom de signet.
+Un signet complet dans un document Word se compose d'un`BookmarkStart` et un correspondant[`BookmarkEnd`](../bookmarkend/) avec le même nom de signet.
 
-`BookmarkStart` et[`BookmarkEnd`](../bookmarkend/) ne sont que des marqueurs à l'intérieur d'un document qui spécifient où le signet commence et se termine.
+`BookmarkStart` et[`BookmarkEnd`](../bookmarkend/) ne sont que des marqueurs à l'intérieur d'un document qui spécifient où commence et se termine le signet.
 
-Utilisez le[`Bookmark`](./bookmark/) classe comme une "façade" pour travailler avec un bookmark comme un seul objet.
+Utilisez le[`Bookmark`](./bookmark/) classe comme "façade" pour travailler avec un bookmark comme objet unique.
 
 ### Exemples
 
@@ -68,10 +70,9 @@ public void CreateUpdateAndPrintBookmarks()
     // Créez un document avec trois signets, puis utilisez une implémentation de visiteur de document personnalisée pour imprimer leur contenu.
     Document doc = CreateDocumentWithBookmarks(3);
     BookmarkCollection bookmarks = doc.Range.Bookmarks;
-
     PrintAllBookmarkInfo(bookmarks);
 
-    // Les signets sont accessibles dans la collection de signets par index ou nom, et leurs noms peuvent être mis à jour.
+    // Les signets sont accessibles dans la collection de signets par index ou par nom, et leurs noms peuvent être mis à jour.
     bookmarks[0].Name = $"{bookmarks[0].Name}_NewName";
     bookmarks["MyBookmark_2"].Text = $"Updated text contents of {bookmarks[1].Name}";
 
@@ -108,7 +109,7 @@ private static void PrintAllBookmarkInfo(BookmarkCollection bookmarks)
 {
     BookmarkInfoPrinter bookmarkVisitor = new BookmarkInfoPrinter();
 
-    // Obtient chaque signet de la collection pour accepter un visiteur qui imprimera son contenu.
+    // Demande à chaque signet de la collection d'accepter un visiteur qui imprimera son contenu.
     using (IEnumerator<Bookmark> enumerator = bookmarks.GetEnumerator())
     {
         while (enumerator.MoveNext())

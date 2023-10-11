@@ -3,12 +3,14 @@ title: Class Odso
 second_title: Referencia de API de Aspose.Words para .NET
 description: Aspose.Words.Settings.Odso clase. Especifica la configuración del objeto de origen de datos de Office ODSO para un origen de datos de combinación de correspondencia.
 type: docs
-weight: 5580
+weight: 5880
 url: /es/net/aspose.words.settings/odso/
 ---
 ## Odso class
 
 Especifica la configuración del objeto de origen de datos de Office (ODSO) para un origen de datos de combinación de correspondencia.
+
+Para obtener más información, visite el[Combinación de correspondencia e informes](https://docs.aspose.com/words/net/mail-merge-and-reporting/) artículo de documentación.
 
 ```csharp
 public class Odso
@@ -24,14 +26,14 @@ public class Odso
 
 | Nombre | Descripción |
 | --- | --- |
-| [ColumnDelimiter](../../aspose.words.settings/odso/columndelimiter/) { get; set; } | Especifica el carácter que se interpretará como el delimitador de columna utilizado para separar columnas dentro de fuentes de datos externas. El valor predeterminado es 0, lo que significa que no hay un delimitador de columna definido. |
+| [ColumnDelimiter](../../aspose.words.settings/odso/columndelimiter/) { get; set; } | Especifica el carácter que se interpretará como el delimitador de columna utilizado para separar columnas dentro de fuentes de datos externas. El valor predeterminado es 0, lo que significa que no hay ningún delimitador de columna definido. |
 | [DataSource](../../aspose.words.settings/odso/datasource/) { get; set; } | Especifica la ubicación de la fuente de datos externa que se conectará a un documento para realizar la combinación de correspondencia. El valor predeterminado es una cadena vacía. |
-| [DataSourceType](../../aspose.words.settings/odso/datasourcetype/) { get; set; } | Especifica el tipo de origen de datos externo al que se conectará como parte de la información de conexión de ODSO para esta combinación de correspondencia. El valor predeterminado esDefault . |
-| [FieldMapDatas](../../aspose.words.settings/odso/fieldmapdatas/) { get; set; } | Obtiene o establece una colección de objetos que especifican cómo se asignan las columnas del origen de datos externo a los nombres de campo de combinación predefinidos en el documento. Este objeto nunca es nulo. |
-| [FirstRowContainsColumnNames](../../aspose.words.settings/odso/firstrowcontainscolumnnames/) { get; set; } | Especifica que una aplicación de hospedaje tratará la primera fila de datos en la fuente de datos externa especificada como una fila de encabezado que contiene los nombres de cada columna en la fuente de datos. El valor predeterminado es`falso` . |
-| [RecipientDatas](../../aspose.words.settings/odso/recipientdatas/) { get; set; } | Obtiene o establece una colección de objetos que especifican la inclusión/exclusión de registros individuales en la combinación de correspondencia. Este objeto nunca es nulo. |
+| [DataSourceType](../../aspose.words.settings/odso/datasourcetype/) { get; set; } | Especifica el tipo de origen de datos externo al que se conectará como parte de la información de conexión ODSO para esta combinación de correspondencia. El valor predeterminado esDefault . |
+| [FieldMapDatas](../../aspose.words.settings/odso/fieldmapdatas/) { get; set; } | Obtiene o establece una colección de objetos que especifican cómo se asignan las columnas de la fuente de datos externa a los nombres de campos de combinación predefinidos en el documento. Este objeto nunca se`nulo` . |
+| [FirstRowContainsColumnNames](../../aspose.words.settings/odso/firstrowcontainscolumnnames/) { get; set; } | Especifica que una aplicación de alojamiento tratará la primera fila de datos en el origen de datos externo especificado como una fila de encabezado que contiene los nombres de cada columna en el origen de datos. El valor predeterminado es`FALSO` . |
+| [RecipientDatas](../../aspose.words.settings/odso/recipientdatas/) { get; set; } | Obtiene o establece una colección de objetos que especifican la inclusión/exclusión de registros individuales en la combinación de correspondencia. Este objeto nunca`nulo` . |
 | [TableName](../../aspose.words.settings/odso/tablename/) { get; set; } | Especifica el conjunto particular de datos al que se conectará una fuente dentro de una fuente de datos externa. El valor predeterminado es una cadena vacía. |
-| [UdlConnectString](../../aspose.words.settings/odso/udlconnectstring/) { get; set; } | Especifica la cadena de conexión de enlace de datos universal (UDL) utilizada para conectarse a una fuente de datos externa. El valor predeterminado es una cadena vacía. |
+| [UdlConnectString](../../aspose.words.settings/odso/udlconnectstring/) { get; set; } | Especifica la cadena de conexión Universal Data Link (UDL) utilizada para conectarse a una fuente de datos externa. El valor predeterminado es una cadena vacía. |
 
 ## Métodos
 
@@ -41,15 +43,15 @@ public class Odso
 
 ### Observaciones
 
-ODSO parece ser la "nueva" forma en que las versiones más nuevas de Microsoft Word prefieren usar al especificar ciertos tipos de fuentes de datos para un documento de combinación de correspondencia. ODSO probablemente apareció por primera vez en Microsoft Word 2000.
+ODSO parece ser la forma "nueva" que las versiones más recientes de Microsoft Word prefieren usar al especificar ciertos tipos de fuentes de datos para un documento de combinación de correspondencia. ODSO probablemente apareció por primera vez en Microsoft Word 2000.
 
-El uso de ODSO está mal documentado y la mejor manera de aprender a usar las propiedades de este objeto es crear un documento con una fuente de datos deseada manualmente en Microsoft Word y luego abrir ese documento usando Aspose.Words y examinar las propiedades. del[`MailMergeSettings`](../../aspose.words/document/mailmergesettings/) y [`Odso`](../mailmergesettings/odso/) objetos. Este es un buen enfoque si desea aprender cómo configurar mediante programación una fuente de datos, por ejemplo.
+El uso de ODSO está poco documentado y la mejor manera de aprender a usar las propiedades de este objeto es crear un documento con la fuente de datos deseada manualmente en Microsoft Word y luego abrir ese documento usando Aspose.Words y examinar las propiedades. del[`MailMergeSettings`](../../aspose.words/document/mailmergesettings/) y [`Odso`](../mailmergesettings/odso/)objetos. Este es un buen enfoque si desea aprender cómo configurar mediante programación una fuente de datos, por ejemplo.
 
-Normalmente no necesita crear objetos de esta clase directamente porque ODSO settings siempre está disponible a través de la[`Odso`](../mailmergesettings/odso/) propiedad.
+Normalmente no es necesario crear objetos de esta clase directamente porque ODSO settings siempre está disponible a través de[`Odso`](../mailmergesettings/odso/) propiedad.
 
 ### Ejemplos
 
-Muestra cómo ejecutar una combinación de correo con datos de un objeto de origen de datos de Office.
+Muestra cómo ejecutar una combinación de correspondencia con datos de un objeto de origen de datos de Office.
 
 ```csharp
 Document doc = new Document();
@@ -62,8 +64,8 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// Crear una fuente de datos en forma de archivo ASCII, con el "|" personaje
-// actuando como el delimitador que separa las columnas. La primera línea contiene los nombres de las tres columnas,
+// Crea una fuente de datos en forma de archivo ASCII, con el "|" personaje
+// actuando como delimitador que separa las columnas. La primera línea contiene los nombres de las tres columnas,
 // y cada línea subsiguiente es una fila con sus respectivos valores.
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };
@@ -92,7 +94,7 @@ odso.FirstRowContainsColumnNames = true;
 Assert.AreNotSame(odso, odso.Clone());
 Assert.AreNotSame(settings, settings.Clone());
 
-// Al abrir este documento en Microsoft Word, se ejecutará la combinación de correspondencia antes de mostrar el contenido. 
+ // Al abrir este documento en Microsoft Word se ejecutará la combinación de correspondencia antes de mostrar el contenido.
 doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ```
 

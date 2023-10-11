@@ -3,7 +3,7 @@ title: Document.Compare
 second_title: Aspose.Words for .NET API Referansı
 description: Document yöntem. Bu belgeyi düzenleme ve biçim revizyonlarının sayısı olarak değişiklik üreten başka bir belgeyle karşılaştırırRevision .
 type: docs
-weight: 540
+weight: 580
 url: /tr/net/aspose.words/document/compare/
 ---
 ## Compare(Document, string, DateTime) {#compare}
@@ -17,17 +17,12 @@ public void Compare(Document document, string author, DateTime dateTime)
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
 | document | Document | Karşılaştırılacak belge. |
-| author | String | Düzeltmeler için kullanılacak yazarın baş harfleri. |
-| dateTime | DateTime | Revizyonlar için kullanılacak tarih ve saat. |
+| author | String | Düzeltmelerde kullanılacak yazarın baş harfleri. |
+| dateTime | DateTime | Düzeltmeler için kullanılacak tarih ve saat. |
 
 ### Notlar
 
-Aşağıdaki belge düğümleri şu anda karşılaştırılmıyor:
-
-* [`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/)
-* Öğe3
-
-Belgelerde karşılaştırma yapılmadan revizyon yapılmamalıdır.
+Dokümanlarda karşılaştırma yapılmadan önce revizyon yapılmamalıdır.
 
 ### Örnekler
 
@@ -42,18 +37,19 @@ Document docEdited = new Document();
 builder = new DocumentBuilder(docEdited);
 builder.Writeln("This is the edited document.");
 
-// Belgeleri revizyonlarla karşılaştırmak bir istisna oluşturur.
+// Dokümanların revizyonlarla karşılaştırılması bir istisna oluşturacaktır.
 if (docOriginal.Revisions.Count == 0 && docEdited.Revisions.Count == 0)
     docOriginal.Compare(docEdited, "authorName", DateTime.Now);
 
-// Karşılaştırmadan sonra orijinal belge yeni bir revizyon kazanacak
-// düzenlenen belgede farklı olan her öğe için.
+// Karşılaştırma sonrasında orijinal doküman yeni bir revizyona kavuşacak
+// düzenlenen belgedeki farklı olan her öğe için.
+foreach (Revision r in docOriginal.Revisions)
 {
     Console.WriteLine($"Revision type: {r.RevisionType}, on a node of type \"{r.ParentNode.NodeType}\"");
     Console.WriteLine($"\tChanged text: \"{r.ParentNode.GetText()}\"");
 }
 
-// Bu revizyonları kabul etmek, orijinal belgeyi düzenlenmiş belgeye dönüştürecektir.
+// Bu revizyonların kabul edilmesi orijinal belgeyi düzenlenen belgeye dönüştürecektir.
 docOriginal.Revisions.AcceptAll();
 
 Assert.AreEqual(docOriginal.GetText(), docEdited.GetText());
@@ -69,7 +65,7 @@ Assert.AreEqual(docOriginal.GetText(), docEdited.GetText());
 
 ## Compare(Document, string, DateTime, CompareOptions) {#compare_1}
 
-Bu belgeyi, bir dizi düzenleme ve biçim revizyonu olarak değişiklikler üreten başka bir belgeyle karşılaştırır[`Revision`](../../revision/) . Şunu kullanarak karşılaştırma seçeneklerini belirlemeye izin verir:[`CompareOptions`](../../../aspose.words.comparing/compareoptions/) .
+Bu belgeyi, bir dizi düzenleme ve biçim revizyonu şeklinde değişiklik üreten başka bir belgeyle karşılaştırır[`Revision`](../../revision/) . Karşılaştırma seçeneklerini belirtmeye olanak sağlar.[`CompareOptions`](../../../aspose.words.comparing/compareoptions/) .
 
 ```csharp
 public void Compare(Document document, string author, DateTime dateTime, CompareOptions options)
@@ -77,14 +73,14 @@ public void Compare(Document document, string author, DateTime dateTime, Compare
 
 ### Örnekler
 
-Karşılaştırma yaparken belirli türdeki belge öğelerinin nasıl filtreleneceğini gösterir.
+Karşılaştırma yaparken belirli belge öğesi türlerinin nasıl filtreleneceğini gösterir.
 
 ```csharp
-// Orijinal belgeyi oluşturun ve onu çeşitli öğelerle doldurun.
+// Orijinal belgeyi oluşturun ve onu çeşitli türde öğelerle doldurun.
 Document docOriginal = new Document();
 DocumentBuilder builder = new DocumentBuilder(docOriginal);
 
-// Son notla başvurulan paragraf metni:
+// Son notla referans verilen paragraf metni:
 builder.Writeln("Hello world! This is the first paragraph.");
 builder.InsertFootnote(FootnoteType.Endnote, "Original endnote text.");
 
@@ -114,7 +110,7 @@ builder.CurrentParagraph.AppendChild(newComment);
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 builder.Writeln("Original header contents.");
 
-// Belgemizin bir klonunu oluşturun ve klonlanan belgenin öğelerinin her biri üzerinde hızlı bir düzenleme yapın.
+// Belgemizin bir kopyasını oluşturun ve kopyalanan belgenin her bir öğesi üzerinde hızlı bir düzenleme yapın.
 Document docEdited = (Document)docOriginal.Clone(true);
 Paragraph firstParagraph = docEdited.FirstSection.Body.FirstParagraph;
 
@@ -128,9 +124,9 @@ firstParagraph.ParagraphFormat.Style = docEdited.Styles[StyleIdentifier.Heading1
 docEdited.FirstSection.HeadersFooters[HeaderFooterType.HeaderPrimary].FirstParagraph.Runs[0].Text =
     "Edited header contents.";
 
-// Belgeleri karşılaştırmak, düzenlenen belgedeki her düzenleme için bir revizyon oluşturur.
-// Bir CompareOptions nesnesi, revizyonları bastırabilen bir dizi işarete sahiptir.
-// her ilgili öğe türünde, değişikliklerini etkin bir şekilde yok sayar.
+// Belgelerin karşılaştırılması, düzenlenen belgedeki her düzenleme için bir revizyon oluşturur.
+// CompareOptions nesnesinde revizyonları bastırabilecek bir dizi bayrak bulunur
+// ilgili her öğe türü üzerinde, değişikliklerini etkili bir şekilde göz ardı ederek.
 Aspose.Words.Comparing.CompareOptions compareOptions = new Aspose.Words.Comparing.CompareOptions();
 compareOptions.IgnoreFormatting = false;
 compareOptions.IgnoreCaseChanges = false;

@@ -1,16 +1,16 @@
 ---
 title: FindReplaceOptions.SmartParagraphBreakReplacement
 second_title: Aspose.Words لمراجع .NET API
-description: FindReplaceOptions ملكية. الحصول على أو تحديد قيمة منطقية تشير إلى أنه يُسمح باستبدال فقرة break في حالة عدم وجود فقرة شقيقة تالية.
+description: FindReplaceOptions ملكية. الحصول على قيمة منطقية أو تعيينها تشير إلى أنه مسموح باستبدال الفقرة Break عندما لا تكون هناك فقرة شقيقة تالية.
 type: docs
-weight: 140
+weight: 160
 url: /ar/net/aspose.words.replacing/findreplaceoptions/smartparagraphbreakreplacement/
 ---
 ## FindReplaceOptions.SmartParagraphBreakReplacement property
 
-الحصول على أو تحديد قيمة منطقية تشير إلى أنه يُسمح باستبدال فقرة break في حالة عدم وجود فقرة شقيقة تالية.
+الحصول على قيمة منطقية أو تعيينها تشير إلى أنه مسموح باستبدال الفقرة Break عندما لا تكون هناك فقرة شقيقة تالية.
 
-النظام الأساسي`خاطئة`.
+القيمة الافتراضية هي`خطأ شنيع`.
 
 ```csharp
 public bool SmartParagraphBreakReplacement { get; set; }
@@ -18,17 +18,17 @@ public bool SmartParagraphBreakReplacement { get; set; }
 
 ### ملاحظات
 
-يسمح هذا الخيار باستبدال فاصل الفقرة في حالة عدم وجود فقرة أخوية تالية يمكن نقل جميع العقد child إليها ، من خلال البحث عن أي فقرة تالية (وليس بالضرورة شقيقة) بعد استبدال الفقرة.
+يسمح هذا الخيار باستبدال فاصل الفقرة في حالة عدم وجود فقرة فرعية تالية يمكن نقل جميع العقد التابعة لها، وذلك من خلال البحث عن أي فقرة تالية (ليست بالضرورة فرعية) بعد الفقرة التي يتم استبدالها.
 
 ### أمثلة
 
-يوضح كيفية إزالة فقرة من خلية جدول مع جدول متداخل.
+يوضح كيفية إزالة فقرة من خلية جدول تحتوي على جدول متداخل.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// إنشاء جدول مع فقرة وجدول داخلي في الخلية الأولى.
+// إنشاء جدول يحتوي على فقرة وجدول داخلي في الخلية الأولى.
 builder.StartTable();
 builder.InsertCell();
 builder.Write("TEXT1");
@@ -39,9 +39,9 @@ builder.EndTable();
 builder.Writeln();
 
 FindReplaceOptions options = new FindReplaceOptions();
-// عندما يتم تعيين الخيار التالي على "صواب" ، فإن Aspose.Words سيزيل نص الفقرة
-// بالكامل بعلامة الفقرة الخاصة بها. خلاف ذلك ، فإن Aspose.Words ستحاكي Word وتزيلها
-// فقط نص الفقرة ويترك علامة الفقرة كما هي (عندما يتبع الجدول النص).
+// عندما يتم تعيين الخيار التالي على "صحيح"، سيقوم Aspose.Words بإزالة نص الفقرة
+// بالكامل مع علامة الفقرة الخاصة به. وإلا، فإن Aspose.Words سوف يحاكي Word ويزيله
+// نص الفقرة فقط ويترك علامة الفقرة سليمة (عندما يتبع الجدول النص).
 options.SmartParagraphBreakReplacement = isSmartParagraphBreakReplacement;
 doc.Range.Replace(new Regex(@"TEXT1&p"), "", options);
 

@@ -3,7 +3,7 @@ title: Enum MultiplePagesType
 second_title: Referencia de API de Aspose.Words para .NET
 description: Aspose.Words.Settings.MultiplePagesType enumeración. Especifica cómo se imprime el documento.
 type: docs
-weight: 5570
+weight: 5870
 url: /es/net/aspose.words.settings/multiplepagestype/
 ---
 ## MultiplePagesType enumeration
@@ -22,7 +22,7 @@ public enum MultiplePagesType
 | MirrorMargins | `1` | Intercambia los márgenes izquierdo y derecho en páginas opuestas. |
 | TwoPagesPerSheet | `2` | Imprime dos páginas por hoja. |
 | BookFoldPrinting | `3` | Especifica si se debe imprimir el documento como un pliegue de libro. |
-| BookFoldPrintingReverse | `4` | Especifica si se imprimirá el documento como un pliegue de libro inverso. |
+| BookFoldPrintingReverse | `4` | Especifica si se debe imprimir el documento como libro plegado inverso. |
 | Default | `0` | El valor predeterminado esNormal |
 
 ### Ver también

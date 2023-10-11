@@ -18,23 +18,23 @@ public static LoadFormat ContentTypeToLoadFormat(string contentType)
 
 | Ausnahme | Bedingung |
 | --- | --- |
-| ArgumentException | Wirft, wenn nicht konvertiert werden kann. |
+| ArgumentException | Wirft, wenn keine Konvertierung möglich ist. |
 
 ### Beispiele
 
 Zeigt, wie Sie das entsprechende Aspose-Lade-/Speicherformat aus jeder Medientypzeichenfolge finden.
 
 ```csharp
-// Die ContentTypeToSaveFormat/ContentTypeToLoadFormat-Methoden akzeptieren nur offizielle IANA-Medientypnamen, auch als MIME-Typen bekannt. 
+ // Die ContentTypeToSaveFormat/ContentTypeToLoadFormat-Methoden akzeptieren nur offizielle IANA-Medientypnamen, auch MIME-Typen genannt.
 // Alle gültigen Medientypen sind hier aufgelistet: https://www.iana.org/assignments/media-types/media-types.xhtml.
 
-// Der Versuch, ein SaveFormat mit einem partiellen Medientyp-String zu verknüpfen, funktioniert nicht.
+// Der Versuch, ein SaveFormat mit einer teilweisen Medientypzeichenfolge zu verknüpfen, funktioniert nicht.
 Assert.Throws<ArgumentException>(() => FileFormatUtil.ContentTypeToSaveFormat("jpeg"));
 
-// Wenn Aspose.Words kein entsprechendes Speicher-/Ladeformat für einen Inhaltstyp hat, wird auch eine Ausnahme ausgelöst.
+// Wenn Aspose.Words kein entsprechendes Speicher-/Ladeformat für einen Inhaltstyp hat, wird ebenfalls eine Ausnahme ausgelöst.
 Assert.Throws<ArgumentException>(() => FileFormatUtil.ContentTypeToSaveFormat("application/zip"));
 
-// Dateien der unten aufgeführten Typen können gespeichert, aber nicht mit Aspose.Words geladen werden.
+// Dateien der unten aufgeführten Typen können mit Aspose.Words gespeichert, aber nicht geladen werden.
 Assert.Throws<ArgumentException>(() => FileFormatUtil.ContentTypeToLoadFormat("image/jpeg"));
 
 Assert.AreEqual(SaveFormat.Jpeg, FileFormatUtil.ContentTypeToSaveFormat("image/jpeg"));

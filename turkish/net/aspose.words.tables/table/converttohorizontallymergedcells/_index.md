@@ -1,14 +1,14 @@
 ---
 title: Table.ConvertToHorizontallyMergedCells
 second_title: Aspose.Words for .NET API Referansı
-description: Table yöntem. Genişliğe göre yatay olarak birleştirilmiş hücreleri genişliklerine göre birleştirilmiş hücrelere dönüştürür.HorizontalMerge .
+description: Table yöntem. Yatay olarak genişliğe göre birleştirilmiş hücreleri genişliğe göre birleştirilmiş hücrelere dönüştürürHorizontalMerge .
 type: docs
-weight: 390
+weight: 410
 url: /tr/net/aspose.words.tables/table/converttohorizontallymergedcells/
 ---
 ## Table.ConvertToHorizontallyMergedCells method
 
-Genişliğe göre yatay olarak birleştirilmiş hücreleri, genişliklerine göre birleştirilmiş hücrelere dönüştürür.[`HorizontalMerge`](../../cellformat/horizontalmerge/) .
+Yatay olarak genişliğe göre birleştirilmiş hücreleri, genişliğe göre birleştirilmiş hücrelere dönüştürür[`HorizontalMerge`](../../cellformat/horizontalmerge/) .
 
 ```csharp
 public void ConvertToHorizontallyMergedCells()
@@ -18,19 +18,19 @@ public void ConvertToHorizontallyMergedCells()
 
 Tablo hücreleri, birleştirme bayrakları kullanılarak yatay olarak birleştirilebilir[`HorizontalMerge`](../../cellformat/horizontalmerge/) veya hücre genişliğini kullanarak[`Width`](../../cellformat/width/).
 
-Tablo hücresi genişlik özelliğiyle birleştirildiğinde[`HorizontalMerge`](../../cellformat/horizontalmerge/) anlamsızdır, ancak bazen birleştirme bayraklarına sahip olmak daha uygun bir yoldur.
+Tablo hücresi genişlik özelliğine göre birleştirildiğinde[`HorizontalMerge`](../../cellformat/horizontalmerge/) anlamsızdır ancak bazen birleştirme bayraklarına sahip olmak daha uygun bir yoldur.
 
-Genişliğe göre yatay olarak birleştirilmiş tablo hücrelerini birleştirme bayraklarıyla birleştirilmiş hücrelere dönüştürmek için bu yöntemi kullanın.
+Genişliğe göre yatay olarak birleştirilen tablo hücrelerini, birleştirme bayraklarıyla birleştirilen hücrelere dönüştürmek için bu yöntemi kullanın.
 
 ### Örnekler
 
-Genişliğe göre yatay olarak birleştirilmiş hücrelerin CellFormat.HorizontalMerge tarafından birleştirilmiş hücrelere nasıl dönüştürüleceğini gösterir.
+Genişliğe göre yatay olarak birleştirilen hücrelerin CellFormat.HorizontalMerge tarafından birleştirilen hücrelere nasıl dönüştürüleceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Table with merged cells.docx");
 
 // Microsoft Word artık birleştirme bayrakları yazmıyor, bunun yerine birleştirilmiş hücreleri genişliğe göre tanımlıyor.
-// Aspose.Words varsayılan olarak bir satırda yalnızca 5 hücre tanımlar ve bunların hiçbirinde yatay birleştirme bayrağı yoktur,
+// Aspose.Words varsayılan olarak arka arkaya yalnızca 5 hücre tanımlar ve bunların hiçbirinde yatay birleştirme bayrağı yoktur,
 // yatay birleştirme gerçekleşmeden önce satırda 7 hücre olmasına rağmen.
 Table table = doc.FirstSection.Body.Tables[0];
 Row row = table.Rows[0];
@@ -39,8 +39,8 @@ Assert.AreEqual(5, row.Cells.Count);
 Assert.True(row.Cells.All(c => ((Cell)c).CellFormat.HorizontalMerge == CellMerge.None));
 
 // Yatay olarak birleştirilmiş hücreleri dönüştürmek için "ConvertToHorizontallyMergedCells" yöntemini kullanın
-// genişliğine göre hücreye yatay olarak bayraklarla birleştirilir.
-// Şimdi 7 hücremiz var ve bazılarının yatay birleştirme değerleri var.
+// hücrenin genişliğine göre yatay olarak bayraklarla birleştirilir.
+// Artık 7 hücremiz var ve bunların bazılarının yatay birleştirme değerleri var.
 table.ConvertToHorizontallyMergedCells();
 row = table.Rows[0];
 

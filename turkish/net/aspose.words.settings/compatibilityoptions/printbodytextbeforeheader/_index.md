@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.PrintBodyTextBeforeHeader
 second_title: Aspose.Words for .NET API Referansı
-description: CompatibilityOptions mülk. Üst Bilgi/Alt Bilgi İçeriğinden Önce Gövde Metni Yazdır.
+description: CompatibilityOptions mülk. Gövde Metnini Üstbilgi/Altbilgi İçeriğinden Önce Yazdır.
 type: docs
 weight: 390
 url: /tr/net/aspose.words.settings/compatibilityoptions/printbodytextbeforeheader/
 ---
 ## CompatibilityOptions.PrintBodyTextBeforeHeader property
 
-Üst Bilgi/Alt Bilgi İçeriğinden Önce Gövde Metni Yazdır.
+Gövde Metnini Üstbilgi/Altbilgi İçeriğinden Önce Yazdır.
 
 ```csharp
 public bool PrintBodyTextBeforeHeader { get; set; }

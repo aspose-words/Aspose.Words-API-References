@@ -3,12 +3,14 @@ title: Class TableCollection
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Tables.TableCollection klass. Ger maskinskriven åtkomst till en samling avTable noder.
 type: docs
-weight: 6060
+weight: 6360
 url: /sv/net/aspose.words.tables/tablecollection/
 ---
 ## TableCollection class
 
 Ger maskinskriven åtkomst till en samling av[`Table`](../table/) noder.
+
+För att lära dig mer, besök[Arbeta med tabeller](https://docs.aspose.com/words/net/working-with-tables/) dokumentationsartikel.
 
 ```csharp
 public class TableCollection : NodeCollection
@@ -19,7 +21,7 @@ public class TableCollection : NodeCollection
 | namn | Beskrivning |
 | --- | --- |
 | [Count](../../aspose.words/nodecollection/count/) { get; } | Hämtar antalet noder i samlingen. |
-| [Item](../../aspose.words.tables/tablecollection/item/) { get; } | Hämtar en **Tabell** vid det givna indexet. (2 indexers) |
+| [Item](../../aspose.words.tables/tablecollection/item/) { get; } | Hämtar en[`Table`](../table/) vid det givna indexet. (2 indexers) |
 
 ## Metoder
 
@@ -64,7 +66,6 @@ public void CalculateDepthOfNestedTables()
 {
     Document doc = new Document(MyDir + "Nested tables.docx");
     NodeCollection tables = doc.GetChildNodes(NodeType.Table, true);
-
     for (int i = 0; i < tables.Count; i++)
     {
         Table table = (Table)tables[i];

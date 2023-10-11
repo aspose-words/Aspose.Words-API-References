@@ -16,14 +16,14 @@ public void Update()
 
 ### Beispiele
 
-Zeigt, wie ein Feld mithilfe von FieldType in ein Dokument eingefügt wird.
+Zeigt, wie man mithilfe von FieldType ein Feld in ein Dokument einfügt.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Fügen Sie zwei Felder ein, während Sie ein Flag übergeben, das bestimmt, ob sie aktualisiert werden, wenn der Builder sie einfügt.
-// In einigen Fällen kann das Aktualisieren von Feldern rechenintensiv sein, und es kann eine gute Idee sein, die Aktualisierung zu verschieben.
+// Zwei Felder einfügen und dabei ein Flag übergeben, das bestimmt, ob sie aktualisiert werden, wenn der Builder sie einfügt.
+// In manchen Fällen kann das Aktualisieren von Feldern rechenintensiv sein, und es kann eine gute Idee sein, die Aktualisierung zu verschieben.
 doc.BuiltInDocumentProperties.Author = "John Doe";
 builder.Write("This document was written by ");
 builder.InsertField(FieldType.FieldAuthor, updateInsertedFieldsImmediately);
@@ -45,7 +45,7 @@ else
     Assert.AreEqual(string.Empty, doc.Range.Fields[0].Result);
     Assert.AreEqual(string.Empty, doc.Range.Fields[1].Result);
 
-    // Wir müssen diese Felder mit den Aktualisierungsmethoden manuell aktualisieren.
+    // Wir müssen diese Felder mithilfe der Aktualisierungsmethoden manuell aktualisieren.
     doc.Range.Fields[0].Update();
 
     Assert.AreEqual("John Doe", doc.Range.Fields[0].Result);
@@ -62,13 +62,13 @@ Zeigt, wie Feldergebnisse formatiert werden.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Verwenden Sie einen Dokumentenersteller, um ein Feld einzufügen, das ein Ergebnis ohne angewendetes Format anzeigt.
+// Verwenden Sie einen Dokument-Builder, um ein Feld einzufügen, das ein Ergebnis ohne angewendetes Format anzeigt.
 Field field = builder.InsertField("= 2 + 3");
 
 Assert.AreEqual("= 2 + 3", field.GetFieldCode());
 Assert.AreEqual("5", field.Result);
 
-// Wir können ein Format auf das Ergebnis eines Felds anwenden, indem wir die Eigenschaften des Felds verwenden.
+// Wir können mithilfe der Eigenschaften des Felds ein Format auf das Ergebnis eines Felds anwenden.
 // Nachfolgend sind drei Arten von Formaten aufgeführt, die wir auf das Ergebnis eines Felds anwenden können.
 // 1 - Numerisches Format:
 FieldFormat format = field.Format;
@@ -104,7 +104,7 @@ Assert.AreEqual("LVIII", field.Result);
 Assert.AreEqual(2, format.GeneralFormats.Count);
 Assert.AreEqual(GeneralFormat.LowercaseRoman, format.GeneralFormats[0]);
 
-// Wir können unsere Formate entfernen, um das Ergebnis des Felds auf seine ursprüngliche Form zurückzusetzen.
+// Wir können unsere Formate entfernen, um das Ergebnis des Feldes in seine ursprüngliche Form zurückzusetzen.
 format.GeneralFormats.Remove(GeneralFormat.LowercaseRoman);
 format.GeneralFormats.RemoveAt(0);
 Assert.AreEqual(0, format.GeneralFormats.Count);
@@ -133,7 +133,7 @@ public void Update(bool ignoreMergeFormat)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| ignoreMergeFormat | Boolean | Wenn`Stimmt` dann wird die direkte Feldergebnisformatierung unabhängig vom Schalter MERGEFORMAT aufgegeben, andernfalls wird eine normale Aktualisierung durchgeführt. |
+| ignoreMergeFormat | Boolean | Wenn`WAHR` dann wird die Formatierung der direkten Feldergebnisse unabhängig vom MERGEFORMAT-Schalter aufgegeben, andernfalls wird eine normale Aktualisierung durchgeführt. |
 
 ### Beispiele
 
@@ -151,8 +151,8 @@ using (MemoryStream docStream = new MemoryStream())
 {
     doc.Save(docStream, new OoxmlSaveOptions(SaveFormat.Docx));
 
-    // Wir können ein Flag in einem LoadOptions-Objekt setzen, um zu entscheiden, ob alle INCLUDEPICTURE-Felder konvertiert werden sollen
-    // in Bildformen, wenn ein Dokument geladen wird, das sie enthält.
+    // Wir können in einem LoadOptions-Objekt ein Flag setzen, um zu entscheiden, ob alle INCLUDEPICTURE-Felder konvertiert werden sollen
+    // in Bildformen konvertieren, wenn ein Dokument geladen wird, das diese enthält.
     LoadOptions loadOptions = new LoadOptions
     {
         PreserveIncludePictureField = preserveIncludePictureField

@@ -1,14 +1,14 @@
 ---
 title: FieldDatabaseDataTable.Rows
 second_title: Aspose.Words لمراجع .NET API
-description: FieldDatabaseDataTable ملكية. يحصل على الصفوف التي تنتمي إلى هذا الجدول .
+description: FieldDatabaseDataTable ملكية. الحصول على الصفوف التي تنتمي إلى هذا الجدول.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.fields/fielddatabasedatatable/rows/
 ---
 ## FieldDatabaseDataTable.Rows property
 
-يحصل على الصفوف التي تنتمي إلى هذا الجدول .
+الحصول على الصفوف التي تنتمي إلى هذا الجدول.
 
 ```csharp
 public IList<FieldDatabaseDataRow> Rows { get; }

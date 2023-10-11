@@ -3,7 +3,7 @@ title: DocumentBuilder.RowFormat
 second_title: Referencia de API de Aspose.Words para .NET
 description: DocumentBuilder propiedad. Devuelve un objeto que representa las propiedades de formato de fila de la tabla actual.
 type: docs
-weight: 160
+weight: 180
 url: /es/net/aspose.words/documentbuilder/rowformat/
 ---
 ## DocumentBuilder.RowFormat property
@@ -16,7 +16,7 @@ public RowFormat RowFormat { get; }
 
 ### Ejemplos
 
-Muestra cómo formatear filas con un generador de documentos.
+Muestra cómo dar formato a filas con un generador de documentos.
 
 ```csharp
 Document doc = new Document();
@@ -26,8 +26,8 @@ Table table = builder.StartTable();
 builder.InsertCell();
 builder.Write("Row 1, cell 1.");
 
-// Comience una segunda fila y luego configure su altura. El constructor aplicará esta configuración a
-// su fila actual, así como cualquier fila nueva que cree después.
+// Inicie una segunda fila y luego configure su altura. El constructor aplicará esta configuración a
+// su fila actual, así como cualquier fila nueva que cree posteriormente.
 builder.EndRow();
 
 RowFormat rowFormat = builder.RowFormat;
@@ -38,7 +38,7 @@ builder.InsertCell();
 builder.Write("Row 2, cell 1.");
 builder.EndTable();
 
-// La primera fila no se vio afectada por la reconfiguración del relleno y aún conserva los valores predeterminados.
+// La primera fila no se vio afectada por la reconfiguración del relleno y aún mantiene los valores predeterminados.
 Assert.AreEqual(0.0d, table.Rows[0].RowFormat.Height);
 Assert.AreEqual(HeightRule.Auto, table.Rows[0].RowFormat.HeightRule);
 
@@ -48,7 +48,7 @@ Assert.AreEqual(HeightRule.Exactly, table.Rows[1].RowFormat.HeightRule);
 doc.Save(ArtifactsDir + "DocumentBuilder.SetRowFormatting.docx");
 ```
 
-Muestra cómo crear una tabla de 2x2 con formato.
+Muestra cómo crear una tabla formateada de 2x2.
 
 ```csharp
 Document doc = new Document();
@@ -62,7 +62,7 @@ builder.InsertCell();
 builder.Write("Row 1, cell 2.");
 builder.EndRow();
 
-// Mientras crea la tabla, el generador de documentos aplicará sus valores de propiedad RowFormat/CellFormat actuales
+// Mientras crea la tabla, el creador de documentos aplicará sus valores actuales de propiedad RowFormat/CellFormat
 // a la fila/celda actual en la que se encuentra el cursor y a cualquier fila/celda nueva a medida que las crea.
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[0].CellFormat.VerticalAlignment);
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[1].CellFormat.VerticalAlignment);
@@ -78,7 +78,7 @@ builder.Write("Row 2, cell 2.");
 builder.EndRow();
 builder.EndTable();
 
-// Las filas y celdas añadidas previamente no se ven afectadas retroactivamente por los cambios en el formato del constructor.
+// Las filas y celdas agregadas anteriormente no se ven afectadas retroactivamente por los cambios en el formato del constructor.
 Assert.AreEqual(0, table.Rows[0].RowFormat.Height);
 Assert.AreEqual(HeightRule.Auto, table.Rows[0].RowFormat.HeightRule);
 Assert.AreEqual(100, table.Rows[1].RowFormat.Height);
@@ -97,8 +97,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.StartTable();
 
-// Establecer opciones de formato de tabla para un generador de documentos
-// los aplicará a cada fila y celda que agreguemos con él.
+// Configurar opciones de formato de tabla para un creador de documentos
+// los aplicará a cada fila y celda que agreguemos con ella.
 builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
 builder.CellFormat.ClearFormatting();
@@ -122,8 +122,8 @@ builder.Write("Row 1, Col 2");
 builder.EndRow();
 
 // Cambiar el formato lo aplicará a la celda actual,
-// y cualquier celda nueva que creemos con el constructor después.
-// Esto no afectará a las celdas que hemos agregado previamente.
+// y cualquier celda nueva que creemos con el constructor posteriormente.
+// Esto no afectará a las celdas que hayamos añadido anteriormente.
 builder.CellFormat.Shading.ClearFormatting();
 
 builder.InsertCell();

@@ -3,7 +3,7 @@ title: Enum ImagePixelFormat
 second_title: Referencia de API de Aspose.Words para .NET
 description: Aspose.Words.Saving.ImagePixelFormat enumeración. Especifica el formato de píxeles para las imágenes generadas de las páginas del documento.
 type: docs
-weight: 4960
+weight: 5220
 url: /es/net/aspose.words.saving/imagepixelformat/
 ---
 ## ImagePixelFormat enumeration
@@ -32,7 +32,7 @@ public enum ImagePixelFormat
 
 ### Ejemplos
 
-Muestra cómo seleccionar una tasa de bits por píxel con la que convertir un documento en una imagen.
+Muestra cómo seleccionar una velocidad de bits por píxel con la que representar un documento en una imagen.
 
 ```csharp
 Document doc = new Document();
@@ -45,8 +45,8 @@ Document doc = new Document();
             Assert.That(20000, Is.LessThan(new FileInfo(ImageDir + "Logo.jpg").Length));
 
             // Cuando guardamos el documento como una imagen, podemos pasar un objeto SaveOptions a
-            // seleccione un formato de píxel para la imagen que generará la operación de guardado.
-            // Varias tasas de bits por píxel afectarán la calidad y el tamaño del archivo de la imagen generada.
+            // selecciona un formato de píxel para la imagen que generará la operación de guardado.
+            // Varias velocidades de bits por píxel afectarán la calidad y el tamaño del archivo de la imagen generada.
             ImageSaveOptions imageSaveOptions = new ImageSaveOptions(SaveFormat.Png);
             imageSaveOptions.PixelFormat = imagePixelFormat;
 

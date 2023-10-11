@@ -3,7 +3,7 @@ title: GlossaryDocument.GetBuildingBlock
 second_title: Aspose.Words für .NET-API-Referenz
 description: GlossaryDocument methode. Findet einen Baustein anhand der angegebenen Galerie Kategorie und des angegebenen Namens.
 type: docs
-weight: 70
+weight: 90
 url: /de/net/aspose.words.buildingblocks/glossarydocument/getbuildingblock/
 ---
 ## GlossaryDocument.GetBuildingBlock method
@@ -16,23 +16,23 @@ public BuildingBlock GetBuildingBlock(BuildingBlockGallery gallery, string categ
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| gallery | BuildingBlockGallery | Die Kriterien der Galerie. |
-| category | String | Die Kategoriekriterien. Kann null sein, in diesem Fall wird es nicht zum Vergleich verwendet. |
-| name | String | Die Kriterien für den Namen des Bausteins. |
+| gallery | BuildingBlockGallery | Die Galeriekriterien. |
+| category | String | Die Kategoriekriterien. Kann sein`Null`In diesem Fall wird es nicht zum Vergleich herangezogen. |
+| name | String | Die Kriterien für den Bausteinnamen. |
 
 ### Rückgabewert
 
-Der übereinstimmende Baustein oder null, wenn keine Übereinstimmung gefunden wurde.
+Der passende Baustein bzw`Null` wenn keine Übereinstimmung gefunden wurde.
 
 ### Bemerkungen
 
-Dies ist eine bequeme Methode, die alle Bausteine in dieser Sammlung durchläuft und den ersten Baustein zurückgibt, der mit der angegebenen Galerie, Kategorie und dem angegebenen Namen übereinstimmt.
+Dies ist eine praktische Methode, die alle Bausteine in dieser Sammlung durchläuft und den ersten Baustein zurückgibt, der mit der angegebenen Galerie, Kategorie und dem angegebenen Namen übereinstimmt.
 
-Microsoft Word organisiert Bausteine in Galerien. Die Galerien werden mit dem vordefiniert[`BuildingBlockGallery`](../../buildingblockgallery/) enum. Innerhalb jeder Galerie können Bausteine in einer oder mehreren Kategorien organisiert werden. Der Kategoriename ist eine Zeichenfolge. Jeder Baustein hat einen Namen. Die Eindeutigkeit eines Baustein -Namens ist nicht garantiert.
+Microsoft Word organisiert Bausteine in Galerien. Die Galerien sind mit vordefiniert[`BuildingBlockGallery`](../../buildingblockgallery/) enum. Innerhalb jeder Galerie können Bausteine in einer oder mehreren Kategorien organisiert werden. Der Kategoriename ist eine Zeichenfolge. Jeder Baustein hat einen Namen. Es kann nicht garantiert werden, dass der Name eines Bausteins eindeutig ist.
 
 ### Beispiele
 
-Zeigt Wege für den Zugriff auf Bausteine in einem Glossardokument.
+Zeigt Möglichkeiten für den Zugriff auf Bausteine in einem Glossardokument.
 
 ```csharp
 public void GlossaryDocument()
@@ -51,26 +51,25 @@ public void GlossaryDocument()
     doc.GlossaryDocument = glossaryDoc;
 
     // Es gibt verschiedene Möglichkeiten, auf Bausteine zuzugreifen.
-    // 1 - Holen Sie sich die ersten/letzten Bausteine in der Sammlung:
+    // 1 – Holen Sie sich die ersten/letzten Bausteine in der Sammlung:
     Assert.AreEqual("Block 1", glossaryDoc.FirstBuildingBlock.Name);
     Assert.AreEqual("Block 5", glossaryDoc.LastBuildingBlock.Name);
 
-    // 2 - Holen Sie sich einen Baustein nach Index:
+    // 2 – Einen Baustein nach Index abrufen:
     Assert.AreEqual("Block 2", glossaryDoc.BuildingBlocks[1].Name);
     Assert.AreEqual("Block 3", glossaryDoc.BuildingBlocks.ToArray()[2].Name);
 
-    // 3 - Holen Sie sich den ersten Baustein, der zu einer Galerie, einem Namen und einer Kategorie passt:
+    // 3 – Holen Sie sich den ersten Baustein, der einer Galerie, einem Namen und einer Kategorie entspricht:
     Assert.AreEqual("Block 4", 
         glossaryDoc.GetBuildingBlock(BuildingBlockGallery.All, "(Empty Category)", "Block 4").Name);
 
-    // Wir werden dies mit einem benutzerdefinierten Besucher tun,
-    // was jedem BuildingBlock im GlossaryDocument eine eindeutige GUID gibt
+    // Wir werden das mit einem benutzerdefinierten Besucher tun,
+    // wodurch jedem BuildingBlock im GlossaryDocument eine eindeutige GUID zugewiesen wird
     GlossaryDocVisitor visitor = new GlossaryDocVisitor();
     glossaryDoc.Accept(visitor);
-
     Console.WriteLine(visitor.GetText());
 
-    // In Microsoft Word erreichen wir die Bausteine über "Einfügen" -> "Schnelle Teile" -> "Baustein-Organizer".
+    // In Microsoft Word können wir über „Einfügen“ -> auf die Bausteine zugreifen. „Schnellteile“ -> „Baustein-Organizer“.
     doc.Save(ArtifactsDir + "BuildingBlocks.GlossaryDocument.dotx"); 
 }
 

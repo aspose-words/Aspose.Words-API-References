@@ -25,7 +25,7 @@ Aspose.Words no actualiza esta propiedad.
 Muestra cómo trabajar con propiedades de documentos en la categoría "Origen".
 
 ```csharp
-// Abrir un documento que hayamos creado y editado con Microsoft Word.
+//Abrir un documento que hemos creado y editado usando Microsoft Word.
 Document doc = new Document(MyDir + "Properties.docx");
 BuiltInDocumentProperties properties = doc.BuiltInDocumentProperties;
 

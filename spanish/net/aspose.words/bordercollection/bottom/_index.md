@@ -16,13 +16,13 @@ public Border Bottom { get; }
 
 ### Ejemplos
 
-Muestra cómo aplicar borde y color de sombreado al crear una tabla.
+Muestra cómo aplicar colores de borde y sombreado mientras construye una tabla.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Inicie una tabla y establezca un color/grosor predeterminado para sus bordes.
+// Inicia una tabla y establece un color/grosor predeterminado para sus bordes.
 Table table = builder.StartTable();
 table.SetBorders(LineStyle.Single, 2.0, Color.Black);
 
@@ -35,7 +35,7 @@ builder.CellFormat.Shading.BackgroundPatternColor = Color.Orange;
 builder.Writeln("Row 1, Cell 2.");
 builder.EndRow();
 
-// Restablece el formato de celda para deshabilitar los colores de fondo
+// Restablecer el formato de celda para deshabilitar los colores de fondo
 // establece un grosor de borde personalizado para todas las celdas nuevas creadas por el constructor,
 // luego construye una segunda fila.
 builder.CellFormat.ClearFormatting();

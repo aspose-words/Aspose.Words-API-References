@@ -3,12 +3,14 @@ title: Class ImageSize
 second_title: Referencia de API de Aspose.Words para .NET
 description: Aspose.Words.Drawing.ImageSize clase. Contiene información sobre el tamaño y la resolución de la imagen.
 type: docs
-weight: 940
+weight: 1070
 url: /es/net/aspose.words.drawing/imagesize/
 ---
 ## ImageSize class
 
 Contiene información sobre el tamaño y la resolución de la imagen.
+
+Para obtener más información, visite el[Trabajar con imágenes](https://docs.aspose.com/words/net/working-with-images/) artículo de documentación.
 
 ```csharp
 public class ImageSize
@@ -18,19 +20,19 @@ public class ImageSize
 
 | Nombre | Descripción |
 | --- | --- |
-| [ImageSize](imagesize/#constructor)(int, int) | Inicializa el ancho y el alto a los valores dados en píxeles. Inicializa la resolución a 96 ppp. |
-| [ImageSize](imagesize/#constructor_1)(int, int, double, double) | Inicializa ancho, alto y resolución a los valores dados. |
+| [ImageSize](imagesize/#constructor)(int, int) | Inicializa el ancho y el alto con los valores dados en píxeles. Inicializa la resolución a 96 ppp. |
+| [ImageSize](imagesize/#constructor_1)(int, int, double, double) | Inicializa el ancho, alto y resolución a los valores dados. |
 
 ## Propiedades
 
 | Nombre | Descripción |
 | --- | --- |
 | [HeightPixels](../../aspose.words.drawing/imagesize/heightpixels/) { get; } | Obtiene la altura de la imagen en píxeles. |
-| [HeightPoints](../../aspose.words.drawing/imagesize/heightpoints/) { get; } | Obtiene la altura de la imagen en puntos. 1 punto es 1/72 pulgadas. |
+| [HeightPoints](../../aspose.words.drawing/imagesize/heightpoints/) { get; } | Obtiene la altura de la imagen en puntos. 1 punto es 1/72 de pulgada. |
 | [HorizontalResolution](../../aspose.words.drawing/imagesize/horizontalresolution/) { get; } | Obtiene la resolución horizontal en DPI. |
 | [VerticalResolution](../../aspose.words.drawing/imagesize/verticalresolution/) { get; } | Obtiene la resolución vertical en DPI. |
 | [WidthPixels](../../aspose.words.drawing/imagesize/widthpixels/) { get; } | Obtiene el ancho de la imagen en píxeles. |
-| [WidthPoints](../../aspose.words.drawing/imagesize/widthpoints/) { get; } | Obtiene el ancho de la imagen en puntos. 1 punto es 1/72 pulgadas. |
+| [WidthPoints](../../aspose.words.drawing/imagesize/widthpoints/) { get; } | Obtiene el ancho de la imagen en puntos. 1 punto es 1/72 de pulgada. |
 
 ### Ejemplos
 
@@ -50,7 +52,7 @@ Muestra cómo cambiar el tamaño de una forma con una imagen.
 #endif
 
             // Cuando insertamos una imagen usando el método "InsertImage", el constructor escala la forma que muestra la imagen para que,
-            // cuando vemos el documento con un zoom del 100 % en Microsoft Word, la forma muestra la imagen en su tamaño real.
+            // cuando vemos el documento usando un zoom del 100% en Microsoft Word, la forma muestra la imagen en su tamaño real.
             Document doc = new Document();
             DocumentBuilder builder = new DocumentBuilder(doc);
             Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
@@ -66,10 +68,10 @@ Muestra cómo cambiar el tamaño de una forma con una imagen.
             Assert.AreEqual(300.0d, shape.Width);
             Assert.AreEqual(300.0d, shape.Height);
 
-              // Reducir el tamaño total de la forma en un 50%.
+             // Reducir el tamaño total de la forma en un 50%.
             shape.Width *= 0.5;
 
-              // Los factores de escala se aplican tanto al ancho como a la altura al mismo tiempo para preservar las proporciones de la forma.
+             // Los factores de escala se aplican tanto al ancho como al alto al mismo tiempo para preservar las proporciones de la forma.
             Assert.AreEqual(150.0d, shape.Width);
             Assert.AreEqual(150.0d, shape.Height);
 

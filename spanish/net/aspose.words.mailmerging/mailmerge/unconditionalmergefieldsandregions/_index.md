@@ -1,14 +1,14 @@
 ---
 title: MailMerge.UnconditionalMergeFieldsAndRegions
 second_title: Referencia de API de Aspose.Words para .NET
-description: MailMerge propiedad. Obtiene o establece un valor que indica si los campos de fusión y las regiones de fusión se fusionan independientemente de la condición del campo IF principal.
+description: MailMerge propiedad. Obtiene o establece un valor que indica si los campos de combinación y las regiones de combinación se combinan independientemente de la condición del campo IF principal.
 type: docs
 weight: 140
 url: /es/net/aspose.words.mailmerging/mailmerge/unconditionalmergefieldsandregions/
 ---
 ## MailMerge.UnconditionalMergeFieldsAndRegions property
 
-Obtiene o establece un valor que indica si los campos de fusión y las regiones de fusión se fusionan independientemente de la condición del campo IF principal.
+Obtiene o establece un valor que indica si los campos de combinación y las regiones de combinación se combinan independientemente de la condición del campo IF principal.
 
 ```csharp
 public bool UnconditionalMergeFieldsAndRegions { get; set; }
@@ -16,7 +16,7 @@ public bool UnconditionalMergeFieldsAndRegions { get; set; }
 
 ### Observaciones
 
-El valor predeterminado es **falso** .
+El valor predeterminado es`FALSO` .
 
 ### Ejemplos
 
@@ -28,15 +28,15 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Inserta un MERGEFIELD anidado dentro de un campo IF.
 // Dado que la declaración del campo IF es falsa, no mostrará el resultado de MERGEFIELD.
-// El MERGEFIELD tampoco recibirá ningún dato durante una combinación de correspondencia.
+// MERGEFIELD tampoco recibirá ningún dato durante una combinación de correspondencia.
 FieldIf fieldIf = (FieldIf)builder.InsertField(" IF 1 = 2 ");
 builder.MoveTo(fieldIf.Separator);
 builder.InsertField(" MERGEFIELD  FullName ");
 
-// Si establecemos el indicador "UnconditionalMergeFieldsAndRegions" en "verdadero",
-// nuestra combinación de correo insertará datos en los campos que no se muestran, como nuestro MERGEFIELD y todos los demás.
-// Si establecemos el indicador "UnconditionalMergeFieldsAndRegions" en "falso",
-// nuestra combinación de correo no insertará datos en MERGEFIELD ocultos por campos IF con declaraciones falsas.
+// Si configuramos el indicador "UnconditionalMergeFieldsAndRegions" en "true",
+// nuestra combinación de correspondencia insertará datos en campos no mostrados, como nuestro MERGEFIELD y todos los demás.
+// Si configuramos el indicador "UnconditionalMergeFieldsAndRegions" en "falso",
+// nuestra combinación de correspondencia no insertará datos en MERGEFIELD ocultos por campos IF con declaraciones falsas.
 doc.MailMerge.UnconditionalMergeFieldsAndRegions = countAllMergeFields;
 
 DataTable dataTable = new DataTable();

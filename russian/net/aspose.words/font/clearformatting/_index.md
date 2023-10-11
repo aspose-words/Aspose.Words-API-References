@@ -1,14 +1,14 @@
 ---
 title: Font.ClearFormatting
 second_title: Справочник по API Aspose.Words для .NET
-description: Font метод. Восстанавливает форматирование шрифта по умолчанию.
+description: Font метод. Сбрасывает формат шрифта по умолчанию.
 type: docs
 weight: 550
 url: /ru/net/aspose.words/font/clearformatting/
 ---
 ## Font.ClearFormatting method
 
-Восстанавливает форматирование шрифта по умолчанию.
+Сбрасывает формат шрифта по умолчанию.
 
 ```csharp
 public void ClearFormatting()
@@ -16,7 +16,7 @@ public void ClearFormatting()
 
 ### Примечания
 
-Удаляет все форматирование шрифта, указанное явно для объекта, из которого  **Шрифт** был получен, поэтому форматирование шрифта будет унаследовано от соответствующего родителя.
+Удаляет все форматирование шрифта, явно указанное для объекта, из которого [`Font`](../) был получен, поэтому форматирование шрифта будет унаследовано от соответствующего родительского элемента.
 
 ### Примеры
 
@@ -28,8 +28,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Write("For more information, please visit the ");
 
-// Вставьте гиперссылку и подчеркните ее с помощью пользовательского форматирования.
-// Гиперссылка будет кликабельным фрагментом текста, который приведет нас к месту, указанному в URL-адресе.
+// Вставьте гиперссылку и подчеркните ее с помощью специального форматирования.
+// Гиперссылка будет интерактивным фрагментом текста, который приведет нас к месту, указанному в URL-адресе.
 builder.Font.Color = Color.Blue;
 builder.Font.Underline = Underline.Single;
 builder.InsertHyperlink("Google website", "https://www.google.com", false);

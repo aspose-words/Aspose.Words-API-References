@@ -3,7 +3,7 @@ title: Fill.FillType
 second_title: Aspose.Words for .NET API 参考
 description: Fill 财产. 获取填充类型
 type: docs
-weight: 20
+weight: 60
 url: /zh/net/aspose.words.drawing/fill/filltype/
 ---
 ## Fill.FillType property

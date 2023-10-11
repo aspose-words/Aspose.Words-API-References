@@ -16,11 +16,11 @@ public bool MoveNext()
 
 ### Valor_devuelto
 
-Verdadero si se movió al siguiente registro con éxito. Falso si se alcanzó el final de la fuente de datos.
+`verdadero` si se pasó al siguiente registro con éxito;`FALSO` si se alcanza el final de la fuente de datos.
 
 ### Ejemplos
 
-Muestra cómo ejecutar una combinación de correspondencia con una fuente de datos en forma de un objeto personalizado.
+Muestra cómo ejecutar una combinación de correspondencia con una fuente de datos en forma de objeto personalizado.
 
 ```csharp
 public void CustomDataSource()
@@ -31,11 +31,13 @@ public void CustomDataSource()
     builder.InsertParagraph();
     builder.InsertField(" MERGEFIELD Address ");
 
-    List<Customer> customers = new List<Customer>();
-    customers.Add(new Customer("Thomas Hardy", "120 Hanover Sq., London"));
-    customers.Add(new Customer("Paolo Accorti", "Via Monte Bianco 34, Torino"));
+    List<Customer> customers = new List<Customer>
+    {
+        new Customer("Thomas Hardy", "120 Hanover Sq., London"),
+        new Customer("Paolo Accorti", "Via Monte Bianco 34, Torino")
+    };
 
-    // Para usar un objeto personalizado como fuente de datos, debe implementar la interfaz IMailMergeDataSource. 
+     // Para utilizar un objeto personalizado como fuente de datos, debe implementar la interfaz IMailMergeDataSource.
     CustomerMailMergeDataSource dataSource = new CustomerMailMergeDataSource(customers);
 
     doc.MailMerge.Execute(dataSource);
@@ -59,8 +61,8 @@ public class Customer
 }
 
 /// <summary>
-/// Una fuente de datos de combinación de correspondencia personalizada que implementa para permitir Aspose.Words 
-/// para combinar datos de sus objetos de Cliente en documentos de Microsoft Word.
+ /// Una fuente de datos de combinación de correspondencia personalizada que implementas para permitir Aspose.Words
+/// para combinar datos de correspondencia de sus objetos de Cliente en documentos de Microsoft Word.
 /// </summary>
 public class CustomerMailMergeDataSource : IMailMergeDataSource
 {
@@ -73,7 +75,7 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
     }
 
     /// <summary>
-    /// El nombre de la fuente de datos. Usado por Aspose.Words solo cuando se ejecuta la combinación de correspondencia con regiones repetibles.
+    /// El nombre de la fuente de datos. Utilizado por Aspose.Words solo cuando se ejecuta combinación de correspondencia con regiones repetibles.
     /// </summary>
     public string TableName
     {
@@ -94,7 +96,7 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
                 fieldValue = mCustomers[mRecordIndex].Address;
                 return true;
             default:
-                // Devuelve "falso" al motor de combinación de correspondencia de Aspose.Words para indicar
+                // Devuelve "falso" al motor de combinación de correspondencia Aspose.Words para indicar
                 // que no pudimos encontrar un campo con este nombre.
                 fieldValue = null;
                 return false;
@@ -102,7 +104,7 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
     }
 
     /// <summary>
-    /// Una implementación estándar para pasar al siguiente registro en una colección.
+    /// Una implementación estándar para pasar al siguiente registro de una colección.
     /// </summary>
     public bool MoveNext()
     {

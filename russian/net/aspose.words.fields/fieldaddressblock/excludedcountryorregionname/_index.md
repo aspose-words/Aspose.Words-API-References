@@ -1,14 +1,14 @@
 ---
 title: FieldAddressBlock.ExcludedCountryOrRegionName
 second_title: Справочник по API Aspose.Words для .NET
-description: FieldAddressBlock свойство. Получает или задает название исключенной страны/региона.
+description: FieldAddressBlock свойство. Получает или задает имя исключенной страны или региона.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/fieldaddressblock/excludedcountryorregionname/
 ---
 ## FieldAddressBlock.ExcludedCountryOrRegionName property
 
-Получает или задает название исключенной страны/региона.
+Получает или задает имя исключенной страны или региона.
 
 ```csharp
 public string ExcludedCountryOrRegionName { get; set; }
@@ -26,8 +26,8 @@ FieldAddressBlock field = (FieldAddressBlock)builder.InsertField(FieldType.Field
 
 Assert.AreEqual(" ADDRESSBLOCK ", field.GetFieldCode());
 
-// Установка этого параметра на "2" будет включать все страны и регионы,
-// если только он не указан в свойстве ExcludedCountryOrRegionName.
+// Установка значения «2» будет включать все страны и регионы,
+// если только оно не указано в свойстве ExcludedCountryOrRegionName.
 field.IncludeCountryOrRegionName = "2";
 field.FormatAddressOnCountryOrRegion = true;
 field.ExcludedCountryOrRegionName = "United States";

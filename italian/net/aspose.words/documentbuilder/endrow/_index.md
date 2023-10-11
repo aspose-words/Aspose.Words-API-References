@@ -3,7 +3,7 @@ title: DocumentBuilder.EndRow
 second_title: Aspose.Words per .NET API Reference
 description: DocumentBuilder metodo. Termina una riga della tabella nel documento.
 type: docs
-weight: 220
+weight: 240
 url: /it/net/aspose.words/documentbuilder/endrow/
 ---
 ## DocumentBuilder.EndRow method
@@ -16,24 +16,24 @@ public Row EndRow()
 
 ### Valore di ritorno
 
-Il nodo di riga appena terminato.
+Il nodo riga appena terminato.
 
 ### Osservazioni
 
-Chiamata **Fine riga** per terminare una riga della tabella. Se chiami[`InsertCell`](../insertcell/) immediatamente dopodiché, la tabella continua su una nuova riga.
+Chiamata`EndRow` per terminare una riga della tabella. Se chiami[`InsertCell`](../insertcell/) immediatamente dopo, la tabella continua su una nuova riga.
 
-Utilizzare il[`RowFormat`](../rowformat/) proprietà per specificare la formattazione della riga.
+Usa il[`RowFormat`](../rowformat/) proprietà per specificare la formattazione della riga.
 
 ### Esempi
 
-Mostra come unire le celle di una tabella verticalmente.
+Mostra come unire verticalmente le celle della tabella.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Inserisce una cella nella prima colonna della prima riga.
-// Questa cella sarà la prima in un intervallo di celle unite verticalmente.
+// Inserisci una cella nella prima colonna della prima riga.
+// Questa cella sarà la prima di un intervallo di celle unite verticalmente.
 builder.InsertCell();
 builder.CellFormat.VerticalMerge = CellMerge.First;
 builder.Write("Text in merged cells.");
@@ -45,12 +45,12 @@ builder.CellFormat.VerticalMerge = CellMerge.None;
 builder.Write("Text in unmerged cell.");
 builder.EndRow();
 
-// Inserisce una cella nella prima colonna della seconda riga. 
+ // Inserisci una cella nella prima colonna della seconda riga.
 // Invece di aggiungere contenuti di testo, uniremo questa cella con la prima cella che abbiamo aggiunto direttamente sopra.
 builder.InsertCell();
 builder.CellFormat.VerticalMerge = CellMerge.Previous;
 
-// Inserisce un'altra cella indipendente nella seconda colonna della seconda riga.
+// Inserisci un'altra cella indipendente nella seconda colonna della seconda riga.
 builder.InsertCell();
 builder.CellFormat.VerticalMerge = CellMerge.None;
 builder.Write("Text in unmerged cell.");
@@ -74,8 +74,8 @@ builder.InsertCell();
 builder.Write("Row 1, cell 2.");
 builder.EndRow();
 
-// Durante la creazione della tabella, il generatore di documenti applicherà i suoi valori di proprietà RowFormat/CellFormat correnti
-// alla riga/cella corrente in cui si trova il cursore e a tutte le nuove righe/celle man mano che le crea.
+// Durante la creazione della tabella, il generatore di documenti applicherà i valori correnti della proprietà RowFormat/CellFormat
+// alla riga/cella corrente in cui si trova il cursore e a qualsiasi nuova riga/cella mentre le crea.
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[0].CellFormat.VerticalAlignment);
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[1].CellFormat.VerticalAlignment);
 
@@ -90,7 +90,7 @@ builder.Write("Row 2, cell 2.");
 builder.EndRow();
 builder.EndTable();
 
-// Le righe e le celle aggiunte in precedenza non sono influenzate retroattivamente dalle modifiche alla formattazione del builder.
+// Le righe e le celle aggiunte in precedenza non vengono influenzate retroattivamente dalle modifiche alla formattazione del builder.
 Assert.AreEqual(0, table.Rows[0].RowFormat.Height);
 Assert.AreEqual(HeightRule.Auto, table.Rows[0].RowFormat.HeightRule);
 Assert.AreEqual(100, table.Rows[1].RowFormat.Height);
@@ -134,8 +134,8 @@ builder.Write("Row 1, Col 2");
 builder.EndRow();
 
 // La modifica della formattazione la applicherà alla cella corrente,
-// e tutte le nuove celle che creiamo con il builder in seguito.
-// Ciò non influirà sulle celle che abbiamo aggiunto in precedenza.
+// e tutte le nuove celle che creeremo successivamente con il builder.
+// Ciò non influenzerà le celle che abbiamo aggiunto in precedenza.
 builder.CellFormat.Shading.ClearFormatting();
 
 builder.InsertCell();

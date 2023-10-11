@@ -1,14 +1,14 @@
 ---
 title: Odso.FieldMapDatas
 second_title: Aspose.Words för .NET API Referens
-description: Odso fast egendom. Hämtar eller ställer in en samling objekt som anger hur kolumner från den externa datakällan mappas till de fördefinierade sammanslagningsfältsnamnen i dokumentet. Detta objekt är aldrig null.
+description: Odso fast egendom. Hämtar eller ställer in en samling objekt som anger hur kolumner från den externa datakällan mappas till de fördefinierade sammanslagningsfältsnamnen i dokumentet. Detta objekt är aldrignull .
 type: docs
 weight: 50
 url: /sv/net/aspose.words.settings/odso/fieldmapdatas/
 ---
 ## Odso.FieldMapDatas property
 
-Hämtar eller ställer in en samling objekt som anger hur kolumner från den externa datakällan mappas till de fördefinierade sammanslagningsfältsnamnen i dokumentet. Detta objekt är aldrig null.
+Hämtar eller ställer in en samling objekt som anger hur kolumner från den externa datakällan mappas till de fördefinierade sammanslagningsfältsnamnen i dokumentet. Detta objekt är aldrig`null` .
 
 ```csharp
 public OdsoFieldMapDataCollection FieldMapDatas { get; set; }

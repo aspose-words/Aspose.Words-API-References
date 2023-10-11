@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTag.Style
 second_title: Referencia de API de Aspose.Words para .NET
-description: StructuredDocumentTag propiedad. Obtiene o establece el Estilo de la etiqueta del documento estructurado.
+description: StructuredDocumentTag propiedad. Obtiene o establece el estilo de la etiqueta del documento estructurado.
 type: docs
 weight: 260
 url: /es/net/aspose.words.markup/structureddocumenttag/style/
 ---
 ## StructuredDocumentTag.Style property
 
-Obtiene o establece el Estilo de la etiqueta del documento estructurado.
+Obtiene o establece el estilo de la etiqueta del documento estructurado.
 
 ```csharp
 public Style Style { get; set; }
@@ -16,7 +16,7 @@ public Style Style { get; set; }
 
 ### Observaciones
 
-SoloCharacter estilo oParagraph Se puede establecer un estilo con un estilo de carácter vinculado.
+solamenteCharacter estilo oParagraph Se puede configurar el estilo con el estilo de carácter vinculado.
 
 ### Ejemplos
 
@@ -32,7 +32,7 @@ Style quoteStyle = doc.Styles[StyleIdentifier.Quote];
 StructuredDocumentTag sdtPlainText =
     new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Inline) { Style = quoteStyle };
 
-// 2 - Hacer referencia a un estilo en el documento por su nombre:
+// 2 - Referencia a un estilo en el documento por nombre:
 StructuredDocumentTag sdtRichText =
     new StructuredDocumentTag(doc, SdtType.RichText, MarkupLevel.Inline) { StyleName = "Quote" };
 
@@ -46,6 +46,8 @@ NodeCollection tags = doc.GetChildNodes(NodeType.StructuredDocumentTag, true);
 foreach (Node node in tags)
 {
     StructuredDocumentTag sdt = (StructuredDocumentTag)node;
+
+    Console.WriteLine(sdt.WordOpenXMLMinimal);
 
     Assert.AreEqual(StyleIdentifier.Quote, sdt.Style.StyleIdentifier);
     Assert.AreEqual("Quote", sdt.StyleName);

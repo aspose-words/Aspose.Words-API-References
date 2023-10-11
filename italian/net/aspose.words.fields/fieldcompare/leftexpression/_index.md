@@ -16,7 +16,7 @@ public string LeftExpression { get; set; }
 
 ### Esempi
 
-Mostra come confrontare le espressioni utilizzando un campo CONFRONTA.
+Mostra come confrontare le espressioni utilizzando un campo COMPARE.
 
 ```csharp
 Document doc = new Document();
@@ -28,7 +28,7 @@ field.ComparisonOperator = "<";
 field.RightExpression = "2";
 field.Update();
 
-// Il campo CONFRONTA mostra uno "0" o un "1", a seconda della verità della sua affermazione.
+// Il campo COMPARE visualizza uno "0" o un "1", a seconda della verità della sua affermazione.
 // Il risultato di questa affermazione è falso, quindi questo campo visualizzerà uno "0".
 Assert.AreEqual(" COMPARE  3 < 2", field.GetFieldCode());
 Assert.AreEqual("0", field.Result);
@@ -41,7 +41,7 @@ field.ComparisonOperator = "=";
 field.RightExpression = "2 + 3";
 field.Update();
 
-// Questo campo mostra un "1" poiché l'affermazione è vera.
+// Questo campo visualizza un "1" poiché l'affermazione è vera.
 Assert.AreEqual(" COMPARE  5 = \"2 + 3\"", field.GetFieldCode());
 Assert.AreEqual("1", field.Result);
 

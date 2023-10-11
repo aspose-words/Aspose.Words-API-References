@@ -1,14 +1,14 @@
 ---
 title: FieldMergingArgsBase.FieldValue
 second_title: Aspose.Words لمراجع .NET API
-description: FieldMergingArgsBase ملكية. الحصول على أو تعيين قيمة الحقل من مصدر البيانات.
+description: FieldMergingArgsBase ملكية. الحصول على قيمة الحقل أو تعيينها من مصدر البيانات.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.mailmerging/fieldmergingargsbase/fieldvalue/
 ---
 ## FieldMergingArgsBase.FieldValue property
 
-الحصول على أو تعيين قيمة الحقل من مصدر البيانات.
+الحصول على قيمة الحقل أو تعيينها من مصدر البيانات.
 
 ```csharp
 public object FieldValue { get; set; }
@@ -16,18 +16,19 @@ public object FieldValue { get; set; }
 
 ### ملاحظات
 
-تحتوي هذه الخاصية على قيمة تم تحديدها للتو من مصدر البيانات لهذا الحقل بواسطة محرك دمج المراسلات. يمكنك أيضًا استبدال القيمة عن طريق تعيين الخاصية.
+تحتوي هذه الخاصية على قيمة تم تحديدها للتو من مصدر البيانات الخاص بك لهذا الحقل بواسطة محرك دمج المراسلات. يمكنك أيضًا استبدال القيمة عن طريق تعيين الخاصية.
 
 ### أمثلة
 
-يوضح كيفية تحرير القيم التي تتلقاها MERGEFIELDs عند حدوث دمج مراسلات.
+يوضح كيفية تحرير القيم التي تتلقاها MERGEFIELDs عند حدوث عملية دمج البريد.
 
 ```csharp
+public void FieldFormats()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // أدخل بعض MERGEFIELDs مع رموز تبديل التنسيق التي ستحرر القيم التي سيتلقاها أثناء دمج البريد.
+    // قم بإدراج بعض MERGEFIELDs مع مفاتيح التنسيق التي ستقوم بتحرير القيم التي ستتلقاها أثناء دمج البريد.
     builder.InsertField("MERGEFIELD text_Field1 \\* Caps", null);
     builder.Write(", ");
     builder.InsertField("MERGEFIELD text_Field2 \\* Upper", null);
@@ -44,13 +45,13 @@ public object FieldValue { get; set; }
 }
 
 /// <summary>
-/// يقوم بتحرير القيم التي تتلقاها MERGEFIELDs أثناء دمج المراسلات.
-/// يجب أن يحتوي اسم MERGEFIELD على بادئة حتى يسري رد النداء هذا على قيمته.
+/// يقوم بتحرير القيم التي تتلقاها MERGEFIELDs أثناء دمج البريد.
+/// يجب أن يحتوي اسم MERGEFIELD على بادئة حتى يصبح رد الاتصال هذا ساري المفعول على قيمته.
 /// </summary>
 private class FieldValueMergingCallback : IFieldMergingCallback
 {
     /// <summary>
-    /// يتم الاستدعاء عندما يقوم دمج المراسلات بدمج البيانات في MERGEFIELD.
+    /// يتم الاتصال به عندما يقوم دمج البريد بدمج البيانات في MERGEFIELD.
     /// </summary>
     void IFieldMergingCallback.FieldMerging(FieldMergingArgs e)
     {

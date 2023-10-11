@@ -1,14 +1,14 @@
 ---
 title: HtmlLoadOptions.IgnoreNoscriptElements
 second_title: Referencia de API de Aspose.Words para .NET
-description: HtmlLoadOptions propiedad. Obtiene o establece un valor que indica si se deben ignorar los elementos HTML noscript. El valor predeterminado esfalso .
+description: HtmlLoadOptions propiedad. Obtiene o establece un valor que indica si se ignoran los elementos HTML noscript. El valor predeterminado esFALSO .
 type: docs
 weight: 40
 url: /es/net/aspose.words.loading/htmlloadoptions/ignorenoscriptelements/
 ---
 ## HtmlLoadOptions.IgnoreNoscriptElements property
 
-Obtiene o establece un valor que indica si se deben ignorar los elementos HTML &lt;noscript&gt;. El valor predeterminado es`falso` .
+Obtiene o establece un valor que indica si se ignoran los elementos HTML &lt;noscript&gt;. El valor predeterminado es`FALSO` .
 
 ```csharp
 public bool IgnoreNoscriptElements { get; set; }
@@ -16,11 +16,11 @@ public bool IgnoreNoscriptElements { get; set; }
 
 ### Observaciones
 
-Al igual que MS Word, Aspose.Words no admite secuencias de comandos y, de forma predeterminada, carga contenido de &lt;noscript&gt; elementos en el documento resultante. En la mayoría de los navegadores, sin embargo, los scripts son compatibles y el contenido de &lt;noscript&gt; no es visible. Estableciendo esta propiedad en`verdadero` obliga a Aspose.Words a ignorar todos los elementos &lt;noscript&gt; y ayuda a producir documentos que se parecen más a lo que se ve en los navegadores.
+Al igual que MS Word, Aspose.Words no admite scripts y, de forma predeterminada, carga el contenido de &lt;noscript&gt; elements en el documento resultante. Sin embargo, en la mayoría de los navegadores se admiten scripts y el contenido de &lt;noscript&gt; no es visible. Estableciendo esta propiedad en`verdadero` obliga a Aspose.Words a ignorar todos los elementos &lt;noscript&gt; y ayuda a producir documentos que se parecen más a lo que se ve en los navegadores.
 
 ### Ejemplos
 
-Muestra cómo ignorar elementos HTML &lt;noscript&gt;.
+Muestra cómo ignorar los elementos HTML &lt;noscript&gt;.
 
 ```csharp
 const string html = @"

@@ -1,14 +1,14 @@
 ---
 title: Forms2OleControlCollection.Item
 second_title: Aspose.Words for .NET API Referansı
-description: Forms2OleControlCollection mülk. AlırForms2OleControlbelirtilen dizindeki nesne.
+description: Forms2OleControlCollection mülk. AlırForms2OleControl belirtilen dizindeki nesne.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.drawing.ole/forms2olecontrolcollection/item/
 ---
 ## Forms2OleControlCollection indexer
 
-Alır[`Forms2OleControl`](../../forms2olecontrol/)belirtilen dizindeki nesne.
+Alır[`Forms2OleControl`](../../forms2olecontrol/) belirtilen dizindeki nesne.
 
 ```csharp
 public Forms2OleControl this[int index] { get; }
@@ -28,7 +28,7 @@ Assert.AreEqual("6e182020-f460-11ce-9bcd-00aa00608e01", shape.OleFormat.Clsid.To
 
 Forms2OleControl oleControl = (Forms2OleControl)shape.OleFormat.OleControl;
 
-// Bazı OLE denetimleri, bu belgedeki üç seçenek düğmeli gibi alt denetimler içerebilir.
+// Bazı OLE kontrolleri, bu belgedeki gibi üç seçenek düğmeli alt kontroller içerebilir.
 Forms2OleControlCollection oleControlCollection = oleControl.ChildNodes;
 
 Assert.AreEqual(3, oleControlCollection.Count);

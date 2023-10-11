@@ -16,14 +16,15 @@ public Document Document { get; }
 
 ### Exemples
 
-Montre comment impliquer un rappel d'enregistrement d'image dans un processus de conversion HTML.
+Montre comment impliquer un rappel d’enregistrement d’image dans un processus de conversion HTML.
 
 ```csharp
+public void ImageSavingCallback()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
     // Lorsque nous enregistrons le document au format HTML, nous pouvons passer un objet SaveOptions pour désigner un rappel
-    // pour personnaliser le processus d'enregistrement de l'image.
+    // pour personnaliser le processus de sauvegarde de l'image.
     HtmlSaveOptions options = new HtmlSaveOptions();
     options.ImageSavingCallback = new ImageShapePrinter();
 
@@ -32,7 +33,7 @@ Montre comment impliquer un rappel d'enregistrement d'image dans un processus de
 
 /// <summary>
 /// Imprime les propriétés de chaque image au fur et à mesure que le processus d'enregistrement l'enregistre dans un fichier image dans le système de fichiers local
-/// lors de l'export d'un document en HTML.
+/// lors de l'export d'un document au format HTML.
 /// </summary>
 private class ImageShapePrinter : IImageSavingCallback
 {

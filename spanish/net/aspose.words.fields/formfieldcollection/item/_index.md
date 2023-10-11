@@ -20,17 +20,17 @@ public FormField this[int index] { get; }
 
 ### Observaciones
 
-El índice está basado en cero.
+El índice tiene base cero.
 
-Los índices negativos están permitidos e indican el acceso desde la parte posterior de la colección. Por ejemplo, -1 significa el último elemento, -2 significa el penúltimo y así sucesivamente.
+Se permiten índices negativos e indican el acceso desde la parte posterior de la colección. Por ejemplo, -1 significa el último elemento, -2 significa el penúltimo y así sucesivamente.
 
-Si el índice es mayor o igual que el número de elementos en la lista, esto devuelve una referencia nula.
+Si el índice es mayor o igual que el número de elementos de la lista, esto devuelve una referencia nula.
 
 Si el índice es negativo y su valor absoluto es mayor que el número de elementos de la lista, esto devuelve una referencia nula.
 
 ### Ejemplos
 
-Muestra cómo insertar diferentes tipos de campos de formulario en un documento y procesarlos con una implementación de visitante de documentos.
+Muestra cómo insertar diferentes tipos de campos de formulario en un documento y procesarlos mediante una implementación de visitante de documentos.
 
 ```csharp
 public void Visitor()
@@ -38,7 +38,7 @@ public void Visitor()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Use un generador de documentos para insertar un cuadro combinado.
+    // Utilice un generador de documentos para insertar un cuadro combinado.
     builder.Write("Choose a value from this combo box: ");
     FormField comboBox = builder.InsertComboBox("MyComboBox", new[] { "One", "Two", "Three" }, 0);
     comboBox.CalculateOnExit = true;
@@ -48,7 +48,7 @@ public void Visitor()
 
     builder.InsertBreak(BreakType.ParagraphBreak);
 
-    // Use un generador de documentos para insertar una casilla de verificación.
+    // Utilice un generador de documentos para insertar una casilla de verificación.
     builder.Write("Click this check box to tick/untick it: ");
     FormField checkBox = builder.InsertCheckBox("MyCheckBox", false, 50);
     checkBox.IsCheckBoxExactSize = true;
@@ -62,7 +62,7 @@ public void Visitor()
 
     builder.InsertBreak(BreakType.ParagraphBreak);
 
-    // Use un generador de documentos para insertar un campo de formulario de entrada de texto.
+    // Utilice un generador de documentos para insertar un campo de formulario de entrada de texto.
     builder.Write("Enter text here: ");
     FormField textInput = builder.InsertTextInput("MyTextInput", TextFormFieldType.Regular, "", "Placeholder text", 50);
     textInput.EntryMacro = "EntryMacro";
@@ -77,7 +77,7 @@ public void Visitor()
     FormFieldCollection formFields = doc.Range.FormFields;
     Assert.AreEqual(3, formFields.Count);
 
-    // Los campos muestran nuestros campos de formulario. Podemos ver sus códigos de campo abriendo este documento
+    // Los campos muestran nuestros campos de formulario. Podemos ver sus códigos de campo abriendo este documento.
     // en Microsoft y presionando Alt + F9. Estos campos no tienen interruptores,
     // y los miembros del objeto FormField gobiernan completamente el contenido de sus campos de formulario.
     Assert.AreEqual(3, doc.Range.Fields.Count);
@@ -85,7 +85,7 @@ public void Visitor()
     Assert.AreEqual(" FORMCHECKBOX \u0001", doc.Range.Fields[1].GetFieldCode());
     Assert.AreEqual(" FORMTEXT \u0001", doc.Range.Fields[2].GetFieldCode());
 
-    // Permitir que cada campo de formulario acepte un visitante del documento.
+    // Permitir que cada campo del formulario acepte un visitante del documento.
     FormFieldVisitor formFieldVisitor = new FormFieldVisitor();
 
     using (IEnumerator<FormField> fieldEnumerator = formFields.GetEnumerator())
@@ -99,7 +99,7 @@ public void Visitor()
 }
 
 /// <summary>
-/// Implementación de visitante que imprime detalles de los campos de formulario que visita. 
+ /// Implementación del visitante que imprime detalles de los campos del formulario que visita.
 /// </summary>
 public class FormFieldVisitor : DocumentVisitor
 {
@@ -109,7 +109,7 @@ public class FormFieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Llamado cuando se encuentra un nodo FormField en el documento.
+    /// Se llama cuando se encuentra un nodo FormField en el documento.
     /// </summary>
     public override VisitorAction VisitFormField(FormField formField)
     {
@@ -148,7 +148,7 @@ public class FormFieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Obtiene el texto sin formato del documento que fue acumulado por el visitante.
+    /// Obtiene el texto sin formato del documento acumulado por el visitante.
     /// </summary>
     public string GetText()
     {
@@ -178,15 +178,15 @@ public FormField this[string bookmarkName] { get; }
 
 | Parámetro | Descripción |
 | --- | --- |
-| bookmarkName | Nombre de marcador que no distingue entre mayúsculas y minúsculas. |
+| bookmarkName | Nombre del marcador que no distingue entre mayúsculas y minúsculas. |
 
 ### Observaciones
 
-Devuelve nulo si no se puede encontrar el campo de formulario con el nombre de marcador especificado.
+Devoluciones`nulo` si no se puede encontrar el campo del formulario con el nombre del marcador especificado.
 
 ### Ejemplos
 
-Muestra cómo insertar diferentes tipos de campos de formulario en un documento y procesarlos con una implementación de visitante de documentos.
+Muestra cómo insertar diferentes tipos de campos de formulario en un documento y procesarlos mediante una implementación de visitante de documentos.
 
 ```csharp
 public void Visitor()
@@ -194,7 +194,7 @@ public void Visitor()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Use un generador de documentos para insertar un cuadro combinado.
+    // Utilice un generador de documentos para insertar un cuadro combinado.
     builder.Write("Choose a value from this combo box: ");
     FormField comboBox = builder.InsertComboBox("MyComboBox", new[] { "One", "Two", "Three" }, 0);
     comboBox.CalculateOnExit = true;
@@ -204,7 +204,7 @@ public void Visitor()
 
     builder.InsertBreak(BreakType.ParagraphBreak);
 
-    // Use un generador de documentos para insertar una casilla de verificación.
+    // Utilice un generador de documentos para insertar una casilla de verificación.
     builder.Write("Click this check box to tick/untick it: ");
     FormField checkBox = builder.InsertCheckBox("MyCheckBox", false, 50);
     checkBox.IsCheckBoxExactSize = true;
@@ -218,7 +218,7 @@ public void Visitor()
 
     builder.InsertBreak(BreakType.ParagraphBreak);
 
-    // Use un generador de documentos para insertar un campo de formulario de entrada de texto.
+    // Utilice un generador de documentos para insertar un campo de formulario de entrada de texto.
     builder.Write("Enter text here: ");
     FormField textInput = builder.InsertTextInput("MyTextInput", TextFormFieldType.Regular, "", "Placeholder text", 50);
     textInput.EntryMacro = "EntryMacro";
@@ -233,7 +233,7 @@ public void Visitor()
     FormFieldCollection formFields = doc.Range.FormFields;
     Assert.AreEqual(3, formFields.Count);
 
-    // Los campos muestran nuestros campos de formulario. Podemos ver sus códigos de campo abriendo este documento
+    // Los campos muestran nuestros campos de formulario. Podemos ver sus códigos de campo abriendo este documento.
     // en Microsoft y presionando Alt + F9. Estos campos no tienen interruptores,
     // y los miembros del objeto FormField gobiernan completamente el contenido de sus campos de formulario.
     Assert.AreEqual(3, doc.Range.Fields.Count);
@@ -241,7 +241,7 @@ public void Visitor()
     Assert.AreEqual(" FORMCHECKBOX \u0001", doc.Range.Fields[1].GetFieldCode());
     Assert.AreEqual(" FORMTEXT \u0001", doc.Range.Fields[2].GetFieldCode());
 
-    // Permitir que cada campo de formulario acepte un visitante del documento.
+    // Permitir que cada campo del formulario acepte un visitante del documento.
     FormFieldVisitor formFieldVisitor = new FormFieldVisitor();
 
     using (IEnumerator<FormField> fieldEnumerator = formFields.GetEnumerator())
@@ -255,7 +255,7 @@ public void Visitor()
 }
 
 /// <summary>
-/// Implementación de visitante que imprime detalles de los campos de formulario que visita. 
+ /// Implementación del visitante que imprime detalles de los campos del formulario que visita.
 /// </summary>
 public class FormFieldVisitor : DocumentVisitor
 {
@@ -265,7 +265,7 @@ public class FormFieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Llamado cuando se encuentra un nodo FormField en el documento.
+    /// Se llama cuando se encuentra un nodo FormField en el documento.
     /// </summary>
     public override VisitorAction VisitFormField(FormField formField)
     {
@@ -304,7 +304,7 @@ public class FormFieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Obtiene el texto sin formato del documento que fue acumulado por el visitante.
+    /// Obtiene el texto sin formato del documento acumulado por el visitante.
     /// </summary>
     public string GetText()
     {

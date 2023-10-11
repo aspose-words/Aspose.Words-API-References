@@ -3,7 +3,7 @@ title: PageInfo.GetSizeInPixels
 second_title: Aspose.Words för .NET API Referens
 description: PageInfo metod. Beräknar sidstorleken i pixlar för en angiven zoomfaktor och upplösning.
 type: docs
-weight: 80
+weight: 90
 url: /sv/net/aspose.words.rendering/pageinfo/getsizeinpixels/
 ---
 ## GetSizeInPixels(float, float) {#getsizeinpixels}

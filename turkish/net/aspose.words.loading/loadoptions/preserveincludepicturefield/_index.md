@@ -1,14 +1,14 @@
 ---
 title: LoadOptions.PreserveIncludePictureField
 second_title: Aspose.Words for .NET API Referansı
-description: LoadOptions mülk. Microsoft Word biçimlerini okurken INCLUDEPICTURE alanının korunup korunmayacağını alır veya ayarlar. Varsayılan değer falsedir.
+description: LoadOptions mülk. Microsoft Word formatlarını okurken INCLUDEPICTURE alanının korunup korunmayacağını alır veya ayarlar. Varsayılan değerYANLIŞ .
 type: docs
 weight: 120
 url: /tr/net/aspose.words.loading/loadoptions/preserveincludepicturefield/
 ---
 ## LoadOptions.PreserveIncludePictureField property
 
-Microsoft Word biçimlerini okurken INCLUDEPICTURE alanının korunup korunmayacağını alır veya ayarlar. Varsayılan değer false'dir.
+Microsoft Word formatlarını okurken INCLUDEPICTURE alanının korunup korunmayacağını alır veya ayarlar. Varsayılan değer:`YANLIŞ` .
 
 ```csharp
 public bool PreserveIncludePictureField { get; set; }
@@ -16,9 +16,9 @@ public bool PreserveIncludePictureField { get; set; }
 
 ### Notlar
 
-Varsayılan olarak, INCLUDEPICTURE alanı bir şekil nesnesine dönüştürülür. Korunacak alana ihtiyacınız varsa, örneğin, onu programlı olarak güncellemek istiyorsanız, bunu geçersiz kılabilirsiniz. Ancak this yaklaşımının Aspose.Words için yaygın olmadığını unutmayın. Kendi sorumluluğunuzda kullanın.
+Varsayılan olarak INCLUDEPICTURE alanı bir şekil nesnesine dönüştürülür. Korunacak alana ihtiyacınız varsa, örneğin alanı programlı olarak güncellemek istiyorsanız bunu geçersiz kılabilirsiniz. Ancak this yaklaşımının Aspose.Words için yaygın olmadığını unutmayın. Riski size ait olmak üzere kullanın.
 
-Olası kullanım durumlarından biri, resmin kaynak path yolunu dinamik olarak değiştirmek için alt alan olarak bir MERGEFIELD kullanmak olabilir. Bu durumda, modelde korunmak için INCLUDEPICTURE'a ihtiyacınız vardır.
+Olası kullanım durumlarından biri, resmin kaynak path yolunu dinamik olarak değiştirmek için MERGEFIELD'ı alt alan olarak kullanmak olabilir. Bu durumda modelde korunacak INCLUDEPICTURE'a ihtiyacınız var.
 
 ### Örnekler
 
@@ -36,8 +36,8 @@ using (MemoryStream docStream = new MemoryStream())
 {
     doc.Save(docStream, new OoxmlSaveOptions(SaveFormat.Docx));
 
-    // Tüm INCLUDEPICTURE alanlarının dönüştürülüp dönüştürülmeyeceğine karar vermek için LoadOptions nesnesinde bir bayrak ayarlayabiliriz
-    // onları içeren bir belge yüklerken görüntü şekillerine.
+    // Tüm INCLUDEPICTURE alanlarının dönüştürülüp dönüştürülmeyeceğine karar vermek için LoadOptions nesnesine bir bayrak ayarlayabiliriz
+    // bunları içeren bir belge yüklenirken görüntü şekillerine.
     LoadOptions loadOptions = new LoadOptions
     {
         PreserveIncludePictureField = preserveIncludePictureField

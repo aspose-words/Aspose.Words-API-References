@@ -1,14 +1,14 @@
 ---
 title: DocSaveOptions.SaveFormat
 second_title: Aspose.Words per .NET API Reference
-description: DocSaveOptions proprietà. Specifica il formato in cui verrà salvato il documento se viene utilizzato questo oggetto opzioni di salvataggio. Può essereDoc oDot .
+description: DocSaveOptions proprietà. Specifica il formato in cui il documento verrà salvato se viene utilizzato questo oggetto opzioni di salvataggio. Può essereDoc ODot .
 type: docs
 weight: 40
 url: /it/net/aspose.words.saving/docsaveoptions/saveformat/
 ---
 ## DocSaveOptions.SaveFormat property
 
-Specifica il formato in cui verrà salvato il documento se viene utilizzato questo oggetto opzioni di salvataggio. Può essereDoc oDot .
+Specifica il formato in cui il documento verrà salvato se viene utilizzato questo oggetto opzioni di salvataggio. Può essereDoc ODot .
 
 ```csharp
 public override SaveFormat SaveFormat { get; set; }
@@ -29,7 +29,7 @@ DocSaveOptions options = new DocSaveOptions(SaveFormat.Doc);
 // Nota che questo non crittografa in alcun modo il contenuto del documento.
 options.Password = "MyPassword";
 
-// Se il documento contiene una lista di distribuzione, possiamo conservarla durante il salvataggio impostando questo flag su true.
+// Se il documento contiene una lista di distribuzione, possiamo preservarla durante il salvataggio impostando questo flag su true.
 options.SaveRoutingSlip = true;
 
 doc.Save(ArtifactsDir + "DocSaveOptions.SaveAsDoc.doc", options);

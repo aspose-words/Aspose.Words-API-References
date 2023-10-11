@@ -3,7 +3,7 @@ title: ImportFormatOptions.ForceCopyStyles
 second_title: Aspose.Words för .NET API Referens
 description: ImportFormatOptions fast egendom. Hämtar eller ställer in ett booleskt värde som anger antingen att kopiera motstridiga stilar inKeepSourceFormatting mode. Standardvärdet ärfalsk .
 type: docs
-weight: 20
+weight: 30
 url: /sv/net/aspose.words/importformatoptions/forcecopystyles/
 ---
 ## ImportFormatOptions.ForceCopyStyles property
@@ -16,7 +16,7 @@ public bool ForceCopyStyles { get; set; }
 
 ### Anmärkningar
 
-Som standard, om en matchande stil redan finns i ett måldokument, expanderas källformatet formatting till direkta nodattribut och stilen för denna nod återställs till en standard.
+Som standard, om en matchande stil redan finns i ett måldokument, utökas källformatet formatting till direkta nodattribut och stilen för denna nod återställs till en standard.
 
 När detta alternativ är inställt på`Sann`, kommer källformatet att tvångskopieras till måldokument med unikt namn och tillämpas på den importerade noden.
 

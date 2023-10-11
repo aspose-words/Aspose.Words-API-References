@@ -1,14 +1,14 @@
 ---
 title: BarcodeParameters.PosCodeStyle
 second_title: Aspose.Words per .NET API Reference
-description: BarcodeParameters proprietà. Stile di un codice a barre del punto vendita tipi di codici a barre UPCAUPCEEAN13EAN8. I valori validi senza distinzione tra maiuscole e minuscole sono STDSUP2SUP5CASE.
+description: BarcodeParameters proprietà. Stile del codice a barre del punto vendita tipi di codice a barre UPCAUPCEEAN13EAN8. I valori validi senza distinzione tra maiuscole e minuscole sono STDSUP2SUP5CASE.
 type: docs
 weight: 140
 url: /it/net/aspose.words.fields/barcodeparameters/poscodestyle/
 ---
 ## BarcodeParameters.PosCodeStyle property
 
-Stile di un codice a barre del punto vendita (tipi di codici a barre UPCA&#x7C;UPCE&#x7C;EAN13&#x7C;EAN8). I valori validi (senza distinzione tra maiuscole e minuscole) sono [STD&#x7C;SUP2&#x7C;SUP5&#x7C;CASE].
+Stile del codice a barre del punto vendita (tipi di codice a barre UPCA&#x7C;UPCE&#x7C;EAN13&#x7C;EAN8). I valori validi (senza distinzione tra maiuscole e minuscole) sono [STD&#x7C;SUP2&#x7C;SUP5&#x7C;CASE].
 
 ```csharp
 public string PosCodeStyle { get; set; }
@@ -21,14 +21,13 @@ Mostra come utilizzare un generatore di codici a barre.
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
-
 // Possiamo utilizzare un'implementazione IBarcodeGenerator personalizzata per generare codici a barre,
-// e quindi inserirli nel documento come immagini.
+// e poi inserirli nel documento come immagini.
 doc.FieldOptions.BarcodeGenerator = new CustomBarcodeGenerator();
 
 // Di seguito sono riportati quattro esempi di diversi tipi di codici a barre che possiamo creare utilizzando il nostro generatore.
-// Per ogni codice a barre, specifichiamo un nuovo set di parametri del codice a barre, quindi generiamo l'immagine.
-// Successivamente, possiamo inserire l'immagine nel documento o salvarla nel file system locale.
+// Per ciascun codice a barre, specifichiamo un nuovo set di parametri del codice a barre, quindi generiamo l'immagine.
+// Successivamente possiamo inserire l'immagine nel documento o salvarla nel file system locale.
 // 1 - Codice QR:
 BarcodeParameters barcodeParameters = new BarcodeParameters
 {

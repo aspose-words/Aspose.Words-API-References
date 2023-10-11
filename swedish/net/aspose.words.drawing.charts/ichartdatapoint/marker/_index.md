@@ -19,7 +19,6 @@ public ChartMarker Marker { get; }
 Visar hur man arbetar med datapunkter på ett linjediagram.
 
 ```csharp
-[Test]
 public void ChartDataPoint()
 {
     Document doc = new Document();

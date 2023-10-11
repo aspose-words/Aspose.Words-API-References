@@ -1,14 +1,14 @@
 ---
 title: Style.BaseStyleName
 second_title: Aspose.Words für .NET-API-Referenz
-description: Style eigendom. Ermittelt/setzt den Namen des Stils auf dem dieser Stil basiert.
+description: Style eigendom. Ruft den Namen des Stils ab auf dem dieser Stil basiert bzw. legt ihn fest.
 type: docs
-weight: 20
+weight: 30
 url: /de/net/aspose.words/style/basestylename/
 ---
 ## Style.BaseStyleName property
 
-Ermittelt/setzt den Namen des Stils, auf dem dieser Stil basiert.
+Ruft den Namen des Stils ab, auf dem dieser Stil basiert, bzw. legt ihn fest.
 
 ```csharp
 public string BaseStyleName { get; set; }
@@ -16,7 +16,7 @@ public string BaseStyleName { get; set; }
 
 ### Bemerkungen
 
-Dies ist ein leerer String, wenn der Stil nicht auf einem anderen Stil basiert, und er kann auf einen leeren String gesetzt werden.
+Dies ist eine leere Zeichenfolge, wenn der Stil nicht auf einem anderen Stil basiert, und er kann auf eine leere Zeichenfolge gesetzt werden.
 
 ### Beispiele
 
@@ -25,14 +25,14 @@ Zeigt, wie Stilaliase verwendet werden.
 ```csharp
 Document doc = new Document(MyDir + "Style with alias.docx");
 
-// Dieses Dokument enthält einen Stil namens "MyStyle,MyStyle Alias 1,MyStyle Alias 2".
-// Wenn der Name eines Stils mehrere Werte hat, die durch Kommas getrennt sind, ist jede Klausel ein separater Alias.
+// Dieses Dokument enthält einen Stil namens „MyStyle,MyStyle Alias 1,MyStyle Alias 2“.
+// Wenn der Name eines Stils mehrere durch Kommas getrennte Werte hat, ist jede Klausel ein separater Alias.
 Style style = doc.Styles["MyStyle"];
 Assert.AreEqual(new [] { "MyStyle Alias 1", "MyStyle Alias 2" }, style.Aliases);
 Assert.AreEqual("Title", style.BaseStyleName);
 Assert.AreEqual("MyStyle Char", style.LinkedStyleName);
 
-// Wir können auf einen Stil mit seinem Alias und seinem Namen verweisen.
+// Wir können einen Stil sowohl über seinen Alias als auch über seinen Namen referenzieren.
 Assert.AreEqual(doc.Styles["MyStyle Alias 1"], doc.Styles["MyStyle Alias 2"]);
 
 DocumentBuilder builder = new DocumentBuilder(doc);

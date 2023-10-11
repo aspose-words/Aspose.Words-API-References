@@ -3,7 +3,7 @@ title: ParagraphFormat.Style
 second_title: Aspose.Words för .NET API Referens
 description: ParagraphFormat fast egendom. Hämtar eller ställer in styckeformatet som tillämpas på denna formatering.
 type: docs
-weight: 330
+weight: 340
 url: /sv/net/aspose.words/paragraphformat/style/
 ---
 ## ParagraphFormat.Style property

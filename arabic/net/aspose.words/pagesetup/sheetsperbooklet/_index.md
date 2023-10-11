@@ -3,7 +3,7 @@ title: PageSetup.SheetsPerBooklet
 second_title: Aspose.Words لمراجع .NET API
 description: PageSetup ملكية. إرجاع أو تعيين عدد الصفحات التي سيتم تضمينها في كل كتيب.
 type: docs
-weight: 390
+weight: 400
 url: /ar/net/aspose.words/pagesetup/sheetsperbooklet/
 ---
 ## PageSetup.SheetsPerBooklet property
@@ -21,7 +21,7 @@ public int SheetsPerBooklet { get; set; }
 ```csharp
 Document doc = new Document();
 
-// أدخل نصًا يمتد عبر 16 صفحة.
+// أدخل نصًا يمتد إلى 16 صفحة.
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("My Booklet:");
 
@@ -31,9 +31,9 @@ for (int i = 0; i < 15; i++)
     builder.Write($"Booklet face #{i}");
 }
 
-// تكوين خاصية "إعداد الصفحة" للقسم الأول لطباعة المستند في شكل طية كتاب.
-// عندما نطبع هذا المستند على كلا الجانبين ، يمكننا أن نأخذ الصفحات لتكديسها
-// وقم بطيها جميعًا في المنتصف مرة واحدة. ستصطف محتويات المستند في طية كتاب.
+// قم بتكوين خاصية "PageSetup" للقسم الأول لطباعة المستند على شكل طية كتاب.
+// عندما نطبع هذه الوثيقة على كلا الجانبين، يمكننا أخذ الصفحات لتكديسها
+// وقم بطيها جميعًا في المنتصف مرة واحدة. سوف تصطف محتويات المستند في طية الكتاب.
 PageSetup pageSetup = doc.Sections[0].PageSetup;
 pageSetup.MultiplePages = MultiplePagesType.BookFoldPrinting;
 

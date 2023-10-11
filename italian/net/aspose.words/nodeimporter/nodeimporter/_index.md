@@ -25,7 +25,6 @@ public NodeImporter(DocumentBase srcDoc, DocumentBase dstDoc, ImportFormatMode i
 Mostra come inserire il contenuto di un documento in un segnalibro in un altro documento.
 
 ```csharp
-[Test]
 public void InsertAtBookmark()
 {
     Document doc = new Document();
@@ -62,7 +61,7 @@ static void InsertDocument(Node insertionDestination, Document docToInsert)
             new NodeImporter(docToInsert, insertionDestination.Document, ImportFormatMode.KeepSourceFormatting);
 
         // Passa attraverso tutti i nodi a livello di blocco nel corpo della sezione,
-        // quindi clona e inserisci ogni nodo che non sia l'ultimo paragrafo vuoto di una sezione.
+        // quindi clona e inserisce ogni nodo che non sia l'ultimo paragrafo vuoto di una sezione.
         foreach (Section srcSection in docToInsert.Sections.OfType<Section>())
             foreach (Node srcNode in srcSection.Body)
             {
@@ -114,14 +113,14 @@ public NodeImporter(DocumentBase srcDoc, DocumentBase dstDoc, ImportFormatMode i
 
 ### Esempi
 
-Mostra come risolvere un conflitto durante l'importazione di documenti che hanno elenchi con lo stesso identificatore di definizione elenco.
+Mostra come risolvere un'interferenza durante l'importazione di documenti che presentano elenchi con lo stesso identificatore di definizione di elenco.
 
 ```csharp
 Document srcDoc = new Document(MyDir + "List with the same definition identifier - source.docx");
 Document dstDoc = new Document(MyDir + "List with the same definition identifier - destination.docx");
 
 // Imposta la proprietà "KeepSourceNumbering" su "true" per applicare un ID di definizione elenco diverso
-// in stili identici a quelli di Aspose.Words li importa nei documenti di destinazione.
+// a stili identici poiché Aspose.Words li importa nei documenti di destinazione.
 ImportFormatOptions importFormatOptions = new ImportFormatOptions { KeepSourceNumbering = true };
 
 dstDoc.AppendDocument(srcDoc, ImportFormatMode.UseDestinationStyles, importFormatOptions);
@@ -131,18 +130,18 @@ dstDoc.UpdateListLabels();
 Mostra come risolvere i conflitti di numerazione degli elenchi nei documenti di origine e di destinazione.
 
 ```csharp
-// Apre un documento con uno schema di numerazione elenco personalizzato, quindi clonalo.
-// Poiché entrambi hanno lo stesso formato di numerazione, i formati si scontreranno se importiamo un documento nell'altro.
+// Apre un documento con uno schema di numerazione dell'elenco personalizzato, quindi clonalo.
+// Poiché entrambi hanno lo stesso formato di numerazione, i formati entreranno in conflitto se importiamo un documento nell'altro.
 Document srcDoc = new Document(MyDir + "Custom list numbering.docx");
 Document dstDoc = srcDoc.Clone();
 
 // Quando importiamo il clone del documento nell'originale e poi lo aggiungiamo,
-// quindi si uniranno i due elenchi con lo stesso formato di elenco.
-// Se impostiamo il flag "KeepSourceNumbering" su "false", l'elenco dal documento clone
-// che aggiungiamo all'originale continuerà la numerazione dell'elenco a cui lo aggiungiamo.
-// Questo unirà efficacemente le due liste in una sola.
-// Se impostiamo il flag "KeepSourceNumbering" su "true", il documento clona
-// list manterrà la sua numerazione originale, facendo apparire le due liste come liste separate. 
+// quindi i due elenchi con lo stesso formato di elenco verranno uniti.
+// Se impostiamo il flag "KeepSourceNumbering" su "false", l'elenco dal clone del documento
+// che aggiungiamo all'originale porterà avanti la numerazione dell'elenco a cui lo aggiungiamo.
+// Ciò unirà effettivamente i due elenchi in uno solo.
+// Se impostiamo il flag "KeepSourceNumbering" su "true", il documento verrà clone
+ // la lista manterrà la sua numerazione originale, facendo apparire le due liste come liste separate.
 ImportFormatOptions importFormatOptions = new ImportFormatOptions();
 importFormatOptions.KeepSourceNumbering = keepSourceNumbering;
 

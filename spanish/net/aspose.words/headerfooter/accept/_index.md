@@ -20,19 +20,19 @@ public override bool Accept(DocumentVisitor visitor)
 
 ### Valor_devuelto
 
-True si se visitaron todos los nodos; false si DocumentVisitor detuvo la operación antes de visitar todos los nodos.
+Verdadero si se visitaron todos los nodos; falso si[`DocumentVisitor`](../../documentvisitor/) detuvo la operación antes de visitar todos los nodos.
 
 ### Observaciones
 
-Enumera sobre este nodo y todos sus hijos. Cada nodo llama a un método correspondiente en DocumentVisitor.
+Enumera este nodo y todos sus hijos. Cada nodo llama a un método correspondiente en[`DocumentVisitor`](../../documentvisitor/).
 
 Para obtener más información, consulte el patrón de diseño Visitante.
 
-Llama a DocumentVisitor.VisitHeaderFooterStart, luego llama a Accept para todos los nodos secundarios de la sección y llama a DocumentVisitor.VisitHeaderFooterEnd al final.
+llamadas[`VisitHeaderFooterStart`](../../documentvisitor/visitheaderfooterstart/) , luego llama[`Accept`](../../node/accept/) para todos los nodos secundarios de la sección y llamadas[`VisitHeaderFooterEnd`](../../documentvisitor/visitheaderfooterend/) al final.
 
 ### Ejemplos
 
-Muestra cómo imprimir la estructura de nodos de cada encabezado y pie de página en un documento.
+Muestra cómo imprimir la estructura de nodos de cada encabezado y pie de página de un documento.
 
 ```csharp
 public void HeaderFooterToText()
@@ -40,8 +40,8 @@ public void HeaderFooterToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     HeaderFooterStructurePrinter visitor = new HeaderFooterStructurePrinter();
 
-    // Cuando conseguimos que un nodo compuesto acepte un documento visitante, el visitante visita el nodo de aceptación,
-    // y luego atraviesa todos los elementos secundarios del nodo en profundidad.
+    // Cuando conseguimos que un nodo compuesto acepte un visitante del documento, el visitante visita el nodo receptor,
+    // y luego atraviesa todos los hijos del nodo en profundidad.
     // El visitante puede leer y modificar cada nodo visitado.
     doc.Accept(visitor);
 
@@ -70,7 +70,7 @@ public class HeaderFooterStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Llamado cuando se encuentra un nodo Ejecutar en el documento.
+    /// Se llama cuando se encuentra un nodo Ejecutar en el documento.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -80,7 +80,7 @@ public class HeaderFooterStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Llamado cuando se encuentra un nodo HeaderFooter en el documento.
+    /// Se llama cuando se encuentra un nodo HeaderFooter en el documento.
     /// </summary>
     public override VisitorAction VisitHeaderFooterStart(HeaderFooter headerFooter)
     {
@@ -92,7 +92,7 @@ public class HeaderFooterStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Llamado después de que se hayan visitado todos los nodos secundarios de un nodo HeaderFooter.
+    /// Se llama después de que se hayan visitado todos los nodos secundarios de un nodo HeaderFooter.
     /// </summary>
     public override VisitorAction VisitHeaderFooterEnd(HeaderFooter headerFooter)
     {
@@ -104,9 +104,9 @@ public class HeaderFooterStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Agregue una línea al StringBuilder, y sangre dependiendo de qué tan profundo esté el visitante en el árbol del documento.
+    /// Agrega una línea al StringBuilder y sangra dependiendo de qué tan profundo esté el visitante en el árbol del documento.
     /// </summary>
-    /// <parámetro nombre="texto"></parámetro>
+    /// <param nombre="texto"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++) mBuilder.Append("|  ");

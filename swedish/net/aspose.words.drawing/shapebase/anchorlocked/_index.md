@@ -16,7 +16,7 @@ public bool AnchorLocked { get; set; }
 
 ### Anmärkningar
 
-Standardvärdet är **falsk**.
+Standardvärdet är`falsk`.
 
 Har effekt endast för former på högsta nivå.
 

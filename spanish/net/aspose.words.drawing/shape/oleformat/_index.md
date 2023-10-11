@@ -1,14 +1,14 @@
 ---
 title: Shape.OleFormat
 second_title: Referencia de API de Aspose.Words para .NET
-description: Shape propiedad. Proporciona acceso a los datos OLE de una forma. Para una forma que no es un objeto OLE o un control ActiveX devuelve nulo.
+description: Shape propiedad. Proporciona acceso a los datos OLE de una forma. Para una forma que no es un objeto OLE o control ActiveX devuelvenulo .
 type: docs
 weight: 140
 url: /es/net/aspose.words.drawing/shape/oleformat/
 ---
 ## Shape.OleFormat property
 
-Proporciona acceso a los datos OLE de una forma. Para una forma que no es un objeto OLE o un control ActiveX, devuelve nulo.
+Proporciona acceso a los datos OLE de una forma. Para una forma que no es un objeto OLE o control ActiveX, devuelve`nulo` .
 
 ```csharp
 public OleFormat OleFormat { get; }
@@ -16,9 +16,10 @@ public OleFormat OleFormat { get; }
 
 ### Ejemplos
 
-Muestra cómo iterar sobre todas las formas en un documento.
+Muestra cómo iterar sobre todas las formas de un documento.
 
 ```csharp
+public void VisitShapes()
 {
     Document doc = new Document(MyDir + "Revision shape.docx");
     ShapeAppearancePrinter visitor = new ShapeAppearancePrinter();
@@ -40,7 +41,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Agrega una línea a StringBuilder con un carácter de tabulación antepuesto para cada nivel de sangría.
+    /// Agrega una línea al StringBuilder con un carácter de tabulación antepuesto para cada nivel de sangría.
     /// </summary>
     private void AppendLine(string text)
     {
@@ -50,7 +51,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Devolver todo el texto que ha acumulado el StringBuilder.
+    /// Devuelve todo el texto que ha acumulado StringBuilder.
     /// </summary>
     public string GetText()
     {
@@ -58,7 +59,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Llamado cuando este visitante visita el inicio de un nodo Shape.
+    /// Se llama cuando este visitante visita el inicio de un nodo Shape.
     /// </summary>
     public override VisitorAction VisitShapeStart(Shape shape)
     {
@@ -94,7 +95,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Llamado cuando este visitante visita el final de un nodo Shape.
+    /// Se llama cuando este visitante visita el final de un nodo Shape.
     /// </summary>
     public override VisitorAction VisitShapeEnd(Shape shape)
     {
@@ -106,7 +107,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Llamado cuando este visitante visita el inicio de un nodo GroupShape.
+    /// Se llama cuando este visitante visita el inicio de un nodo GroupShape.
     /// </summary>
     public override VisitorAction VisitGroupShapeStart(GroupShape groupShape)
     {
@@ -117,7 +118,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Llamado cuando este visitante visita el final de un nodo GroupShape.
+    /// Se llama cuando este visitante visita el final de un nodo GroupShape.
     /// </summary>
     public override VisitorAction VisitGroupShapeEnd(GroupShape groupShape)
     {

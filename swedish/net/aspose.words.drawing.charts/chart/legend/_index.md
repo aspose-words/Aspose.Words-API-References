@@ -3,7 +3,7 @@ title: Chart.Legend
 second_title: Aspose.Words för .NET API Referens
 description: Chart fast egendom. Ger tillgång till diagramförklaringsegenskaperna.
 type: docs
-weight: 40
+weight: 50
 url: /sv/net/aspose.words.drawing.charts/chart/legend/
 ---
 ## Chart.Legend property

@@ -16,7 +16,7 @@ public override SaveFormat SaveFormat { get; set; }
 
 ### Beispiele
 
-Zeigt, wie ein Rückruf verwendet wird, um die URIs externer Ressourcen zu drucken, die beim Konvertieren eines Dokuments in HTML erstellt wurden.
+Zeigt, wie Sie einen Rückruf verwenden, um die URIs externer Ressourcen zu drucken, die beim Konvertieren eines Dokuments in HTML erstellt wurden.
 
 ```csharp
 public void HtmlFixedResourceFolder()
@@ -56,7 +56,7 @@ private class ResourceUriPrinter : IResourceSavingCallback
 {
     void IResourceSavingCallback.ResourceSaving(ResourceSavingArgs args)
     {
-        // Wenn wir im SaveOptions-Objekt einen Ordner-Alias festlegen, können wir ihn von hier aus drucken.
+        // Wenn wir im SaveOptions-Objekt einen Ordneralias festlegen, können wir ihn von hier aus drucken.
         mText.AppendLine($"Resource #{++mSavedResourceCount} \"{args.ResourceFileName}\"");
 
         string extension = Path.GetExtension(args.ResourceFileName);
@@ -65,7 +65,7 @@ private class ResourceUriPrinter : IResourceSavingCallback
             case ".ttf":
             case ".woff":
             {
-                // Standardmäßig verwendet 'ResourceFileUri' den Systemordner für Schriftarten.
+                // Standardmäßig verwendet „ResourceFileUri“ den Systemordner für Schriftarten.
                 // Um Probleme auf anderen Plattformen zu vermeiden, müssen Sie den Pfad für die Schriftarten explizit angeben.
                 args.ResourceFileUri = ArtifactsDir + Path.DirectorySeparatorChar + args.ResourceFileName;
                 break;
@@ -74,8 +74,8 @@ private class ResourceUriPrinter : IResourceSavingCallback
 
         mText.AppendLine("\t" + args.ResourceFileUri);
 
-        // Wenn wir in der Eigenschaft "ResourcesFolderAlias" einen Ordner angegeben haben,
-        // Wir müssen auch jeden Stream umleiten, um seine Ressource in diesen Ordner zu legen.
+        // Wenn wir in der Eigenschaft „ResourcesFolderAlias“ einen Ordner angegeben haben,
+        // Wir müssen auch jeden Stream umleiten, um seine Ressource in diesem Ordner abzulegen.
         args.ResourceStream = new FileStream(args.ResourceFileUri, FileMode.Create);
         args.KeepResourceStreamOpen = false;
     }

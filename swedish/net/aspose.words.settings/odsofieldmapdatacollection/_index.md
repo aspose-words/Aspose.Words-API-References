@@ -3,12 +3,14 @@ title: Class OdsoFieldMapDataCollection
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Settings.OdsoFieldMapDataCollection klass. En maskinskriven samling avOdsoFieldMapData objekt.
 type: docs
-weight: 5610
+weight: 5910
 url: /sv/net/aspose.words.settings/odsofieldmapdatacollection/
 ---
 ## OdsoFieldMapDataCollection class
 
 En maskinskriven samling av[`OdsoFieldMapData`](../odsofieldmapdata/) objekt.
+
+För att lära dig mer, besök[Mail Merge och rapportering](https://docs.aspose.com/words/net/mail-merge-and-reporting/) dokumentationsartikel.
 
 ```csharp
 public class OdsoFieldMapDataCollection : IEnumerable<OdsoFieldMapData>

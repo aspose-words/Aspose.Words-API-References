@@ -1,14 +1,14 @@
 ---
 title: Cell.Cell
 second_title: Aspose.Words für .NET-API-Referenz
-description: Cell constructeur. Initialisiert eine neue Instanz von Zelle Klasse.
+description: Cell constructeur. Initialisiert eine neue Instanz vonCell Klasse.
 type: docs
 weight: 10
 url: /de/net/aspose.words.tables/cell/cell/
 ---
 ## Cell constructor
 
-Initialisiert eine neue Instanz von **Zelle** Klasse.
+Initialisiert eine neue Instanz von[`Cell`](../) Klasse.
 
 ```csharp
 public Cell(DocumentBase doc)
@@ -16,17 +16,17 @@ public Cell(DocumentBase doc)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| doc | DocumentBase | Das Besitzerdokument. |
+| doc | DocumentBase | Das Eigentümerdokument. |
 
 ### Bemerkungen
 
-Wann **Zelle** erstellt wird, gehört es zum angegebenen Dokument, ist aber noch nicht Teil des Dokuments und **Elternknoten** ist Null.
+Wann[`Cell`](../) erstellt wird, gehört es zum angegebenen Dokument, ist aber noch nicht Teil des Dokuments und[`ParentNode`](../../../aspose.words/node/parentnode/) Ist`Null`.
 
-Anhängen **Zelle** zum Dokument verwenden Sie InsertAfter oder InsertBefore in der Zeile, in der Sie die Zelle einfügen möchten.
+Anhängen[`Cell`](../) zur DokumentenverwendungNode) oderNode) in der Zeile, in der die Zelle eingefügt werden soll.
 
 ### Beispiele
 
-Zeigt, wie Sie eine verschachtelte Tabelle erstellen, ohne einen Document Builder zu verwenden.
+Zeigt, wie man eine verschachtelte Tabelle erstellt, ohne einen Document Builder zu verwenden.
 
 ```csharp
 public void CreateNestedTable()
@@ -37,7 +37,7 @@ public void CreateNestedTable()
     Table outerTable = CreateTable(doc, 3, 4, "Outer Table");
     doc.FirstSection.Body.AppendChild(outerTable);
 
-    // Erstellen Sie eine weitere Tabelle mit zwei Zeilen und zwei Spalten und fügen Sie sie dann in die erste Zelle der ersten Tabelle ein.
+    // Erstelle eine weitere Tabelle mit zwei Zeilen und zwei Spalten und füge sie dann in die erste Zelle der ersten Tabelle ein.
     Table innerTable = CreateTable(doc, 2, 2, "Inner Table");
     outerTable.FirstRow.FirstCell.AppendChild(innerTable);
 
@@ -66,10 +66,10 @@ private static Table CreateTable(Document doc, int rowCount, int cellCount, stri
         }
     }
 
-    // Sie können die Eigenschaften "Titel" und "Beschreibung" verwenden, um Ihrer Tabelle jeweils einen Titel und eine Beschreibung hinzuzufügen.
+    // Mit den Eigenschaften „Title“ und „Description“ können Sie Ihrer Tabelle einen Titel bzw. eine Beschreibung hinzufügen.
     // Die Tabelle muss mindestens eine Zeile haben, bevor wir diese Eigenschaften verwenden können.
-    // Diese Eigenschaften sind sinnvoll für ISO/IEC 29500-konforme .docx-Dokumente (siehe Klasse OoxmlCompliance).
-    // Wenn wir das Dokument in Pre-ISO/IEC 29500-Formaten speichern, ignoriert Microsoft Word diese Eigenschaften.
+    // Diese Eigenschaften sind für ISO/IEC 29500-konforme .docx-Dokumente von Bedeutung (siehe die OoxmlCompliance-Klasse).
+    // Wenn wir das Dokument in Formaten vor ISO/IEC 29500 speichern, ignoriert Microsoft Word diese Eigenschaften.
     table.Title = "Aspose table title";
     table.Description = "Aspose table description";
 

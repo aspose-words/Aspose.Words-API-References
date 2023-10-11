@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTag.IsTemporary
 second_title: Aspose.Words for .NET API Referansı
-description: StructuredDocumentTag mülk. Bunun olup olmadığını belirtir SDT content değiştirildiğinde WordProcessingML belgesinden kaldırılacaktır.
+description: StructuredDocumentTag mülk. Bunun olup olmadığını belirtir SDT içeriği değiştirildiğinde WordProcessingML belgesinden kaldırılacaktır.
 type: docs
 weight: 160
 url: /tr/net/aspose.words.markup/structureddocumenttag/istemporary/
 ---
 ## StructuredDocumentTag.IsTemporary property
 
-Bunun olup olmadığını belirtir **SDT** content değiştirildiğinde WordProcessingML belgesinden kaldırılacaktır.
+Bunun olup olmadığını belirtir **SDT** içeriği değiştirildiğinde WordProcessingML belgesinden kaldırılacaktır.
 
 ```csharp
 public bool IsTemporary { get; set; }
@@ -16,17 +16,17 @@ public bool IsTemporary { get; set; }
 
 ### Örnekler
 
-Tek kullanımlık kontrollerin nasıl yapıldığını gösterir.
+Tek kullanımlık kontrollerin nasıl yapılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 
-// Düz metin yapılandırılmış bir belge etiketi ekleyin,
-// kullanıcının metin girebileceği bir düz metin biçimi olarak işlev görecektir.
+// Düz metin yapılı bir belge etiketi ekleyin,
+// kullanıcının metin girebileceği düz metin formu görevi görecek.
 StructuredDocumentTag tag = new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Inline);
 
-// Yapılandırılmış belge etiketinin kaybolmasını sağlamak için "IsTemporary" özelliğini "true" olarak ayarlayın ve
-// kullanıcı Microsoft Word'de bir kez düzenledikten sonra içeriğini belgeye asimile edin.
+// Yapılandırılmış belge etiketinin kaybolması için "IsTemporary" özelliğini "true" olarak ayarlayın ve
+// kullanıcı onu Microsoft Word'de bir kez düzenledikten sonra içeriğini belgeye asimile et.
 // Kullanıcının içeriği düzenlemesine izin vermek için "IsTemporary" özelliğini "false" olarak ayarlayın
 // yapılandırılmış belge etiketinin herhangi bir sayıda.
 tag.IsTemporary = isTemporary;
@@ -40,7 +40,7 @@ tag = new StructuredDocumentTag(doc, SdtType.Checkbox, MarkupLevel.Inline);
 tag.Checked = true;
 
 // Onay kutusunun bir sembol haline gelmesi için "IsTemporary" özelliğini "true" olarak ayarlayın
-// kullanıcı Microsoft Word'de tıkladığında.
+// kullanıcı Microsoft Word'de buna tıkladığında.
 // Kullanıcının onay kutusunu herhangi bir sayıda tıklamasına izin vermek için "IsTemporary" özelliğini "false" olarak ayarlayın.
 tag.IsTemporary = isTemporary;
 

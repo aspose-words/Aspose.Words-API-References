@@ -1,14 +1,14 @@
 ---
 title: DocumentBuilder.Document
 second_title: Aspose.Words لمراجع .NET API
-description: DocumentBuilder ملكية. يحصل أو يحدد ملفDocument الكائن الذي يرتبط به هذا الكائن .
+description: DocumentBuilder ملكية. الحصول على أو تعيينDocumentالكائن الذي يرتبط به هذا الكائن.
 type: docs
-weight: 80
+weight: 90
 url: /ar/net/aspose.words/documentbuilder/document/
 ---
 ## DocumentBuilder.Document property
 
-يحصل أو يحدد ملف`Document` الكائن الذي يرتبط به هذا الكائن .
+الحصول على أو تعيين`Document`الكائن الذي يرتبط به هذا الكائن.
 
 ```csharp
 public Document Document { get; set; }
@@ -16,19 +16,19 @@ public Document Document { get; set; }
 
 ### أمثلة
 
-يوضح كيفية تطبيق إعدادات إعداد الصفحة وإعادتها إلى أقسام في مستند.
+يوضح كيفية تطبيق إعدادات إعداد الصفحة وإعادتها إلى الأقسام الموجودة في المستند.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// قم بتعديل خصائص إعداد الصفحة للقسم الحالي للمنشئ وإضافة نص.
+// تعديل خصائص إعداد الصفحة للقسم الحالي للمنشئ وإضافة نص.
 builder.PageSetup.Orientation = Orientation.Landscape;
 builder.PageSetup.VerticalAlignment = PageVerticalAlignment.Center;
 builder.Writeln("This is the first section, which landscape oriented with vertically centered text.");
 
-// إذا بدأنا قسمًا جديدًا باستخدام أداة إنشاء المستندات ،
-// سيرث خصائص إعداد الصفحة الحالية للمنشئ.
+// إذا بدأنا قسمًا جديدًا باستخدام أداة إنشاء المستندات،
+// سوف يرث خصائص إعداد الصفحة الحالية للمنشئ.
 builder.InsertBreak(BreakType.SectionBreakNewPage);
 
 Assert.AreEqual(Orientation.Landscape, doc.Sections[1].PageSetup.Orientation);

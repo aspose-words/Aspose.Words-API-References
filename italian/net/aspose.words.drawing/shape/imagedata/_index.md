@@ -1,14 +1,14 @@
 ---
 title: Shape.ImageData
 second_title: Aspose.Words per .NET API Reference
-description: Shape proprietà. Fornisce laccesso allimmagine della forma. Restituisce null se la forma non può avere unimmagine.
+description: Shape proprietà. Fornisce laccesso allimmagine della forma. Restituiscenullo se la forma non può avere unimmagine.
 type: docs
 weight: 110
 url: /it/net/aspose.words.drawing/shape/imagedata/
 ---
 ## Shape.ImageData property
 
-Fornisce l'accesso all'immagine della forma. Restituisce null se la forma non può avere un'immagine.
+Fornisce l'accesso all'immagine della forma. Restituisce`nullo` se la forma non può avere un'immagine.
 
 ```csharp
 public ImageData ImageData { get; }
@@ -32,8 +32,8 @@ foreach (Shape shape in shapes.OfType<Shape>())
 {
     if (shape.HasImage)
     {
-        // I dati immagine delle forme possono contenere immagini di molti possibili formati immagine. 
-        // Possiamo determinare automaticamente un'estensione di file per ogni immagine, in base al suo formato.
+         // I dati immagine delle forme possono contenere immagini di molti possibili formati immagine.
+        // Possiamo determinare automaticamente un'estensione di file per ciascuna immagine, in base al suo formato.
         string imageFileName =
             $"File.ExtractImages.{imageIndex}{FileFormatUtil.ImageTypeToExtension(shape.ImageData.ImageType)}";
         shape.ImageData.Save(ArtifactsDir + imageFileName);
@@ -60,12 +60,12 @@ builder.InsertNode(shape);
 
 doc.Save(ArtifactsDir + "Image.CreateLinkedImage.Embedded.docx");
 
-// Ogni immagine che memorizziamo in forma aumenterà le dimensioni del nostro documento.
+// Ogni immagine che memorizziamo in forma aumenterà la dimensione del nostro documento.
 Assert.True(70000 < new FileInfo(ArtifactsDir + "Image.CreateLinkedImage.Embedded.docx").Length);
 
 doc.FirstSection.Body.FirstParagraph.RemoveAllChildren();
 
-// 2 - Imposta la forma da collegare a un file immagine nel file system locale.
+// 2 - Imposta la forma per collegarsi a un file immagine nel file system locale.
 shape = new Shape(builder.Document, ShapeType.Image);
 shape.WrapType = WrapType.Inline;
 shape.ImageData.SourceFullName = imageFileName;

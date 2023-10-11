@@ -1,14 +1,14 @@
 ---
 title: TextColumn.SpaceAfter
 second_title: Aspose.Words für .NET-API-Referenz
-description: TextColumn eigendom. Holt oder setzt den Abstand zwischen dieser Spalte und der nächsten Spalte in Punkt. Für die letzte Spalte nicht erforderlich.
+description: TextColumn eigendom. Ruft den Abstand zwischen dieser Spalte und der nächsten Spalte in Punkten ab oder legt diesen fest. Für die letzte Spalte nicht erforderlich.
 type: docs
 weight: 10
 url: /de/net/aspose.words/textcolumn/spaceafter/
 ---
 ## TextColumn.SpaceAfter property
 
-Holt oder setzt den Abstand zwischen dieser Spalte und der nächsten Spalte in Punkt. Für die letzte Spalte nicht erforderlich.
+Ruft den Abstand zwischen dieser Spalte und der nächsten Spalte in Punkten ab oder legt diesen fest. Für die letzte Spalte nicht erforderlich.
 
 ```csharp
 public double SpaceAfter { get; set; }
@@ -16,7 +16,7 @@ public double SpaceAfter { get; set; }
 
 ### Beispiele
 
-Zeigt, wie Spalten mit ungleichmäßigen Abständen erstellt werden.
+Zeigt, wie ungleichmäßig verteilte Spalten erstellt werden.
 
 ```csharp
 Document doc = new Document();
@@ -27,7 +27,7 @@ TextColumnCollection columns = pageSetup.TextColumns;
 columns.EvenlySpaced = false;
 columns.SetCount(2);
 
-// Bestimmen Sie den verfügbaren Platz zum Anordnen von Spalten.
+// Bestimmen Sie den verfügbaren Platz für die Anordnung der Spalten.
 double contentWidth = pageSetup.PageWidth - pageSetup.LeftMargin - pageSetup.RightMargin;
 
 Assert.AreEqual(470.30d, contentWidth, 0.01d);

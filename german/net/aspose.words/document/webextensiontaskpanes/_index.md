@@ -3,7 +3,7 @@ title: Document.WebExtensionTaskPanes
 second_title: Aspose.Words für .NET-API-Referenz
 description: Document eigendom. Gibt eine Sammlung zurück die eine Liste von AufgabenbereichAddIns darstellt.
 type: docs
-weight: 470
+weight: 490
 url: /de/net/aspose.words/document/webextensiontaskpanes/
 ---
 ## Document.WebExtensionTaskPanes property

@@ -19,6 +19,7 @@ public IEnumerator<Field> GetEnumerator()
 展示如何使用字段集合。
 
 ```csharp
+public void FieldCollection()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -57,6 +58,7 @@ public IEnumerator<Field> GetEnumerator()
     }
 
     Console.WriteLine(fieldVisitor.GetText());
+}
 
 /// <summary>
 /// 打印字段信息的文档访问者实现。

@@ -3,7 +3,7 @@ title: PageInfo.GetSizeInPixels
 second_title: Aspose.Words لمراجع .NET API
 description: PageInfo طريقة. حساب حجم الصفحة بالبكسل لعامل تكبير ودقة محددين.
 type: docs
-weight: 80
+weight: 90
 url: /ar/net/aspose.words.rendering/pageinfo/getsizeinpixels/
 ---
 ## GetSizeInPixels(float, float) {#getsizeinpixels}
@@ -16,8 +16,8 @@ public Size GetSizeInPixels(float scale, float dpi)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| scale | Single | عامل التكبير (1.0 هو 100٪). |
-| dpi | Single | الدقة (أفقيًا وعموديًا) للتحويل من النقاط إلى البكسل (نقطة في البوصة). |
+| scale | Single | عامل التكبير (1.0 هو 100%). |
+| dpi | Single | الدقة (الأفقية والعمودية) للتحويل من النقاط إلى البكسل (نقطة في البوصة). |
 
 ### قيمة الإرجاع
 
@@ -41,8 +41,8 @@ public Size GetSizeInPixels(float scale, float horizontalDpi, float verticalDpi)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| scale | Single | عامل التكبير (1.0 هو 100٪). |
-| horizontalDpi | Single | الدقة الأفقية للتحويل من النقاط إلى البكسل (نقاط في البوصة). |
+| scale | Single | عامل التكبير (1.0 هو 100%). |
+| horizontalDpi | Single | الدقة الأفقية المطلوب تحويلها من النقاط إلى البكسل (نقطة في البوصة). |
 | verticalDpi | Single | الدقة الرأسية للتحويل من النقاط إلى البكسل (نقطة في البوصة). |
 
 ### قيمة الإرجاع
@@ -56,8 +56,8 @@ public Size GetSizeInPixels(float scale, float horizontalDpi, float verticalDpi)
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// يحتوي القسم الأول على صفحتين. سنقوم بتعيين درج ورق طابعة مختلف لكل واحد ،
-// الذي سيتطابق رقمه مع نوع مصدر الورق. هذه المصادر وأنواعها سوف تختلف
+// القسم الأول يحتوي على صفحتين. سنقوم بتخصيص درج ورق طابعة مختلف لكل واحد،
+// الذي سيتطابق رقمه مع نوع مصدر الورق. وسوف تختلف هذه المصادر وأنواعها
 // اعتمادًا على برنامج تشغيل الطابعة المثبت.
 PrinterSettings.PaperSourceCollection paperSources = new PrinterSettings().PaperSources;
 
@@ -71,7 +71,7 @@ float dpi = 96;
 
 for (int i = 0; i < doc.PageCount; i++)
 {
-    // تحتوي كل صفحة على كائن PageInfo ، والفهرس الخاص به هو رقم الصفحة المعنية.
+    // تحتوي كل صفحة على كائن PageInfo، والفهرس الخاص به هو رقم الصفحة المعنية.
     PageInfo pageInfo = doc.GetPageInfo(i);
 
     // اطبع اتجاه الصفحة وأبعادها.
@@ -81,7 +81,7 @@ for (int i = 0; i < doc.PageCount; i++)
     Console.WriteLine($"\tSize in points:\t{pageInfo.SizeInPoints}");
     Console.WriteLine($"\tSize in pixels:\t{pageInfo.GetSizeInPixels(1.0f, 96)} at {scale * 100}% scale, {dpi} dpi");
 
-    // اطبع معلومات علبة المصدر.
+    // اطبع معلومات الدرج المصدر.
     Console.WriteLine($"\tTray:\t{pageInfo.PaperTray}");
     PaperSource source = pageInfo.GetSpecifiedPrinterPaperSource(paperSources, paperSources[0]);
     Console.WriteLine($"\tSuitable print source:\t{source.SourceName}, kind: {source.Kind}");

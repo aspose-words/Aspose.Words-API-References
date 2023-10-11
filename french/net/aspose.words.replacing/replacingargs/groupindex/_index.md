@@ -1,14 +1,14 @@
 ---
 title: ReplacingArgs.GroupIndex
 second_title: Référence de l'API Aspose.Words pour .NET
-description: ReplacingArgs propriété. Identifie par index un groupe capturé dans laMatch qui doit être remplacé par leReplacement chaîne.
+description: ReplacingArgs propriété. Identifie par index un groupe capturé dans leMatch qui doit être remplacé par leReplacement chaîne.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.replacing/replacingargs/groupindex/
 ---
 ## ReplacingArgs.GroupIndex property
 
-Identifie, par index, un groupe capturé dans la[`Match`](../match/) qui doit être remplacé par le[`Replacement`](../replacement/) chaîne.
+Identifie, par index, un groupe capturé dans le[`Match`](../match/) qui doit être remplacé par le[`Replacement`](../replacement/) chaîne.
 
 ```csharp
 public int GroupIndex { get; set; }
@@ -16,15 +16,16 @@ public int GroupIndex { get; set; }
 
 ### Remarques
 
-`GroupIndex` n'a d'effet que lorsque[`GroupName`](../groupname/) est nul.
+`GroupIndex`n'a d'effet que lorsque[`GroupName`](../groupname/) est`nul`.
 
 La valeur par défaut est zéro.
 
 ### Exemples
 
-Montre comment appliquer une police différente à un nouveau contenu via FindReplaceOptions.
+Montre comment appliquer une police différente au nouveau contenu via FindReplaceOptions.
 
 ```csharp
+public void ConvertNumbersToHexadecimal()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -36,7 +37,7 @@ Montre comment appliquer une police différente à un nouveau contenu via FindRe
     // Nous pouvons utiliser un objet "FindReplaceOptions" pour modifier le processus de recherche et de remplacement.
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // Définissez la propriété "HighlightColor" sur une couleur d'arrière-plan que nous voulons appliquer au texte résultant de l'opération.
+    // Définissez la propriété "HighlightColor" sur une couleur d'arrière-plan que nous souhaitons appliquer au texte résultant de l'opération.
     options.ApplyFont.HighlightColor = Color.LightGray;
 
     NumberHexer numberHexer = new NumberHexer();
@@ -55,7 +56,7 @@ Montre comment appliquer une police différente à un nouveau contenu via FindRe
 
 /// <summary>
 /// Remplace les correspondances numériques de recherche et de remplacement par leurs équivalents hexadécimaux.
-/// Maintient un journal de chaque remplacement.
+/// Tient un journal de chaque remplacement.
 /// </summary>
 private class NumberHexer : IReplacingCallback
 {

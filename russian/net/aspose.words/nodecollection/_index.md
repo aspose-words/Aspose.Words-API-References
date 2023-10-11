@@ -1,14 +1,16 @@
 ---
 title: Class NodeCollection
 second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.NodeCollection сорт. Представляет набор узлов определенного типа.
+description: Aspose.Words.NodeCollection сорт. Представляет коллекцию узлов определенного типа.
 type: docs
-weight: 3960
+weight: 4200
 url: /ru/net/aspose.words/nodecollection/
 ---
 ## NodeCollection class
 
-Представляет набор узлов определенного типа.
+Представляет коллекцию узлов определенного типа.
+
+Чтобы узнать больше, посетите[Объектная модель документа Aspose.Words (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) статья документации.
 
 ```csharp
 public class NodeCollection : IEnumerable<Node>
@@ -28,28 +30,28 @@ public class NodeCollection : IEnumerable<Node>
 | [Add](../../aspose.words/nodecollection/add/)(Node) | Добавляет узел в конец коллекции. |
 | [Clear](../../aspose.words/nodecollection/clear/)() | Удаляет все узлы из этой коллекции и из документа. |
 | [Contains](../../aspose.words/nodecollection/contains/)(Node) | Определяет, находится ли узел в коллекции. |
-| [GetEnumerator](../../aspose.words/nodecollection/getenumerator/)() | Обеспечивает простую итерацию в стиле foreach по набору узлов. |
-| [IndexOf](../../aspose.words/nodecollection/indexof/)(Node) | Возвращает отсчитываемый от нуля индекс указанного узла. |
+| [GetEnumerator](../../aspose.words/nodecollection/getenumerator/)() | Обеспечивает простую итерацию стиля foreach по коллекции узлов. |
+| [IndexOf](../../aspose.words/nodecollection/indexof/)(Node) | Возвращает индекс указанного узла, начинающийся с нуля. |
 | [Insert](../../aspose.words/nodecollection/insert/)(int, Node) | Вставляет узел в коллекцию по указанному индексу. |
 | [Remove](../../aspose.words/nodecollection/remove/)(Node) | Удаляет узел из коллекции и из документа. |
-| [RemoveAt](../../aspose.words/nodecollection/removeat/)(int) | Удаляет узел с указанным индексом из коллекции и из документа. |
+| [RemoveAt](../../aspose.words/nodecollection/removeat/)(int) | Удаляет узел по указанному индексу из коллекции и из документа. |
 | [ToArray](../../aspose.words/nodecollection/toarray/)() | Копирует все узлы из коллекции в новый массив узлов. |
 
 ### Примечания
 
-**NodeCollection** не владеет узлами, которые он содержит, скорее, это просто выбор узлов указанного типа, но узлы хранятся в дереве под соответствующими родительскими узлами.
+`NodeCollection` не владеет узлами, которые он содержит, а представляет собой просто выбор узлов указанного типа, но узлы хранятся в дереве под соответствующими родительскими узлами.
 
-**NodeCollection**поддерживает индексированный доступ, итерацию и предоставляет методы добавления и удаления.
+`NodeCollection`поддерживает индексированный доступ, итерацию и предоставляет методы добавления и удаления.
 
-**NodeCollection** коллекция является «живой», т. е. изменения дочерних элементов узла object , из которого она была создана, немедленно отражаются в узлах, возвращаемых **NodeCollection** свойства и методы.
+`NodeCollection` коллекция является «живой», т.е. изменения в дочерних элементах узла object , из которого она была создана, немедленно отражаются в узлах, возвращаемых функцией`NodeCollection` свойства и методы.
 
-**NodeCollection** возвращается[`GetChildNodes`](../compositenode/getchildnodes/) , а также служит базовым классом для коллекций типизированных узлов, таких как[`SectionCollection`](../sectioncollection/) , [`ParagraphCollection`](../paragraphcollection/) и т.п.
+`NodeCollection` возвращается[`GetChildNodes`](../compositenode/getchildnodes/) , а также служит базовым классом для коллекций типизированных узлов, таких как[`SectionCollection`](../sectioncollection/) , [`ParagraphCollection`](../paragraphcollection/) и т. д.
 
-**NodeCollection** может быть «плоским» и содержать только непосредственных потомков узла, из которого он был создан , или он может быть «глубоким» и содержать всех потомков.
+`NodeCollection` может быть «плоским» и содержать только непосредственных дочерних элементов узла, из которого он был создан, или он может быть «глубоким» и содержать всех дочерних элементов.
 
 ### Примеры
 
-Показывает, как заменить все фигуры текстового поля фигурами изображения.
+Показывает, как заменить все фигуры текстовых полей фигурами изображений.
 
 ```csharp
 Document doc = new Document(MyDir + "Textboxes in drawing canvas.docx");

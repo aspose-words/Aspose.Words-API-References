@@ -3,7 +3,7 @@ title: DocumentBuilder.EndRow
 second_title: Référence de l'API Aspose.Words pour .NET
 description: DocumentBuilder méthode. Termine une ligne de tableau dans le document.
 type: docs
-weight: 220
+weight: 240
 url: /fr/net/aspose.words/documentbuilder/endrow/
 ---
 ## DocumentBuilder.EndRow method
@@ -20,20 +20,20 @@ Le nœud de ligne qui vient d'être terminé.
 
 ### Remarques
 
-Appel **EndRow** pour terminer une ligne du tableau. Si vous appelez[`InsertCell`](../insertcell/) immédiatement après cela, le tableau continue sur une nouvelle ligne.
+Appel`EndRow` pour terminer une ligne de tableau. Si tu appelles[`InsertCell`](../insertcell/) immédiatement après cela, le tableau continue sur une nouvelle ligne.
 
 Utilisez le[`RowFormat`](../rowformat/) propriété pour spécifier le formatage des lignes.
 
 ### Exemples
 
-Montre comment fusionner verticalement des cellules de tableau.
+Montre comment fusionner verticalement les cellules d’un tableau.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Insère une cellule dans la première colonne de la première ligne.
-// Cette cellule sera la première d'une série de cellules fusionnées verticalement.
+// Cette cellule sera la première d'une plage de cellules fusionnées verticalement.
 builder.InsertCell();
 builder.CellFormat.VerticalMerge = CellMerge.First;
 builder.Write("Text in merged cells.");
@@ -45,8 +45,8 @@ builder.CellFormat.VerticalMerge = CellMerge.None;
 builder.Write("Text in unmerged cell.");
 builder.EndRow();
 
-// Insère une cellule dans la première colonne de la deuxième ligne. 
-// Au lieu d'ajouter du contenu textuel, nous fusionnerons cette cellule avec la première cellule que nous avons ajoutée directement au-dessus.
+ // Insère une cellule dans la première colonne de la deuxième ligne.
+// Au lieu d'ajouter du contenu textuel, nous fusionnerons cette cellule avec la première cellule que nous avons ajoutée directement ci-dessus.
 builder.InsertCell();
 builder.CellFormat.VerticalMerge = CellMerge.Previous;
 
@@ -90,7 +90,7 @@ builder.Write("Row 2, cell 2.");
 builder.EndRow();
 builder.EndTable();
 
-// Les lignes et les cellules ajoutées précédemment ne sont pas affectées rétroactivement par les modifications apportées à la mise en forme du générateur.
+// Les lignes et cellules précédemment ajoutées ne sont pas affectées rétroactivement par les modifications apportées au formatage du générateur.
 Assert.AreEqual(0, table.Rows[0].RowFormat.Height);
 Assert.AreEqual(HeightRule.Auto, table.Rows[0].RowFormat.HeightRule);
 Assert.AreEqual(100, table.Rows[1].RowFormat.Height);
@@ -109,7 +109,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.StartTable();
 
-// Définition des options de formatage de tableau pour un générateur de document
+// Définition des options de formatage de tableau pour un générateur de documents
 // les appliquera à chaque ligne et cellule que nous ajouterons avec.
 builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
@@ -133,8 +133,8 @@ builder.InsertCell();
 builder.Write("Row 1, Col 2");
 builder.EndRow();
 
-// Changer la mise en forme l'appliquera à la cellule courante,
-// et toutes les nouvelles cellules que nous créons avec le constructeur par la suite.
+// Changer le formatage l'appliquera à la cellule actuelle,
+// et toutes les nouvelles cellules que nous créons ensuite avec le constructeur.
 // Cela n'affectera pas les cellules que nous avons ajoutées précédemment.
 builder.CellFormat.Shading.ClearFormatting();
 
@@ -146,7 +146,7 @@ builder.Write("Row 2, Col 2");
 
 builder.EndRow();
 
-// Augmente la hauteur de ligne pour s'adapter au texte vertical.
+// Augmente la hauteur de la ligne pour l'adapter au texte vertical.
 builder.InsertCell();
 builder.RowFormat.Height = 150;
 builder.CellFormat.Orientation = TextOrientation.Upward;

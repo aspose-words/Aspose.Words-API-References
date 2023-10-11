@@ -1,17 +1,17 @@
 ---
 title: OleControl.Name
 second_title: Referencia de API de Aspose.Words para .NET
-description: OleControl propiedad. Obtiene el nombre del control ActiveX.
+description: OleControl propiedad. Obtiene o establece el nombre del control ActiveX.
 type: docs
 weight: 20
 url: /es/net/aspose.words.drawing.ole/olecontrol/name/
 ---
 ## OleControl.Name property
 
-Obtiene el nombre del control ActiveX.
+Obtiene o establece el nombre del control ActiveX.
 
 ```csharp
-public string Name { get; }
+public string Name { get; set; }
 ```
 
 ### Ejemplos
@@ -24,7 +24,7 @@ Document doc = new Document(MyDir + "ActiveX controls.docx");
 Shape shape = (Shape) doc.GetChild(NodeType.Shape, 0, true);
 OleControl oleControl = shape.OleFormat.OleControl;
 
-Assert.AreEqual(null, oleControl.Name);
+Assert.AreEqual("CheckBox1", oleControl.Name);
 
 if (oleControl.IsForms2OleControl)
 {
@@ -34,6 +34,10 @@ if (oleControl.IsForms2OleControl)
     Assert.AreEqual(true, checkBox.Enabled);
     Assert.AreEqual(Forms2OleControlType.CheckBox, checkBox.Type);
     Assert.AreEqual(null, checkBox.ChildNodes);
+    Assert.AreEqual(string.Empty, checkBox.GroupName);
+
+    // Tenga en cuenta que no puede configurar GroupName para un marco.
+    checkBox.GroupName = "Aspose group name";
 }
 ```
 

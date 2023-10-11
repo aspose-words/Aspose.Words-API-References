@@ -16,7 +16,7 @@ public LineStyle LineStyle { get; set; }
 
 ### Observaciones
 
-Si establece el estilo de línea en ninguno, el ancho de línea se cambia automáticamente a cero.
+Si establece el estilo de línea en ninguno, el ancho de línea cambia automáticamente a cero.
 
 ### Ejemplos
 

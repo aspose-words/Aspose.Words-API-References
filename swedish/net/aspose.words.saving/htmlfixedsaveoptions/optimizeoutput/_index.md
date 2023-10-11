@@ -1,14 +1,14 @@
 ---
 title: HtmlFixedSaveOptions.OptimizeOutput
 second_title: Aspose.Words för .NET API Referens
-description: HtmlFixedSaveOptions fast egendom. Flagga anger om det krävs för att optimera utdata. Om denna flagga ställs in redundanta kapslade dukar och tomma dukar tas bort sammanlänkas även grannglyfer med samma formatering. Obs Noggrannheten i innehållsvisningen kan påverkas den här egenskapen är satt till true. Standard är true.
+description: HtmlFixedSaveOptions fast egendom. Flagga indikerar om det krävs för att optimera utdata. Om denna flagga ställs in redundanta kapslade dukar och tomma dukar tas bort sammanlänkas även grannglyfer med samma formatering. Obs Noggrannheten i innehållsvisningen kan påverkas den här egenskapen är inställd påSann . Standard ärSann .
 type: docs
 weight: 100
 url: /sv/net/aspose.words.saving/htmlfixedsaveoptions/optimizeoutput/
 ---
 ## HtmlFixedSaveOptions.OptimizeOutput property
 
-Flagga anger om det krävs för att optimera utdata. Om denna flagga ställs in redundanta kapslade dukar och tomma dukar tas bort, sammanlänkas även grannglyfer med samma formatering. Obs! Noggrannheten i innehållsvisningen kan påverkas den här egenskapen är satt till true. Standard är true.
+Flagga indikerar om det krävs för att optimera utdata. Om denna flagga ställs in redundanta kapslade dukar och tomma dukar tas bort, sammanlänkas även grannglyfer med samma formatering. Obs! Noggrannheten i innehållsvisningen kan påverkas den här egenskapen är inställd på`Sann` . Standard är`Sann` .
 
 ```csharp
 public override bool OptimizeOutput { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: TextBox.BreakForwardLink
 second_title: Référence de l'API Aspose.Words pour .NET
-description: TextBox méthode. Brise le lien vers le prochain TextBox.
+description: TextBox méthode. Rompt le lien vers le suivantTextBox .
 type: docs
-weight: 120
+weight: 130
 url: /fr/net/aspose.words.drawing/textbox/breakforwardlink/
 ---
 ## TextBox.BreakForwardLink method
 
-Brise le lien vers le prochain TextBox.
+Rompt le lien vers le suivant[`TextBox`](../) .
 
 ```csharp
 public void BreakForwardLink()
@@ -16,7 +16,7 @@ public void BreakForwardLink()
 
 ### Remarques
 
-BreakForwardLink() ne rompt pas tous les autres liens dans la séquence actuelle de formes. Par exemple : la séquence 1-2-3-4 et BreakForwardLink dans la 2ème zone de texte créeront deux séquences 1-2, 3-4.
+`BreakForwardLink`ne rompt pas tous les autres liens dans la séquence actuelle de formes. Par exemple : séquence 1-2-3-4 et`BreakForwardLink` dans la 2ème zone de texte créera deux séquences 1-2, 3-4.
 
 ### Exemples
 
@@ -41,14 +41,14 @@ builder.Writeln();
 Shape textBoxShape4 = builder.InsertShape(ShapeType.TextBox, 100, 100);
 TextBox textBox4 = textBoxShape4.TextBox;
 
-// Crée des liens entre certaines des zones de texte.
+// Crée des liens entre certaines zones de texte.
 if (textBox1.IsValidLinkTarget(textBox2))
     textBox1.Next = textBox2;
 
 if (textBox2.IsValidLinkTarget(textBox3))
     textBox2.Next = textBox3;
 
-// Seule une zone de texte vide peut avoir un lien.
+// Seule une zone de texte vide peut contenir un lien.
 Assert.True(textBox3.IsValidLinkTarget(textBox4));
 
 builder.MoveTo(textBoxShape4.LastParagraph);

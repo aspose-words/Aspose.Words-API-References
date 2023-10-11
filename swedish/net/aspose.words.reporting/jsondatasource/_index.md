@@ -3,12 +3,14 @@ title: Class JsonDataSource
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Reporting.JsonDataSource klass. Ger tillgång till data för en JSONfil eller ström som ska användas i en rapport.
 type: docs
-weight: 4430
+weight: 4690
 url: /sv/net/aspose.words.reporting/jsondatasource/
 ---
 ## JsonDataSource class
 
 Ger tillgång till data för en JSON-fil eller ström som ska användas i en rapport.
+
+För att lära dig mer, besök[LINQ Reporting Engine](https://docs.aspose.com/words/net/linq-reporting-engine/) dokumentationsartikel.
 
 ```csharp
 public class JsonDataSource
@@ -39,7 +41,7 @@ I malldokument kan du arbeta med inskrivna värden för JSON-element. För enkel
 
 Motorn känner automatiskt igen värden för de extra typerna på deras JSON-representationer.
 
-För att åsidosätta standardbeteendet för JSON-dataladdning, initiera och skicka ett[`JsonDataLoadOptions`](../jsondataloadoptions/)instans till en konstruktor av denna klass.
+För att åsidosätta standardbeteendet för JSON-dataladdning, initiera och skicka ett[`JsonDataLoadOptions`](../jsondataloadoptions/) instans till en konstruktor av denna klass.
 
 ### Se även
 

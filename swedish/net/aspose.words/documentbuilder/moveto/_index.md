@@ -3,7 +3,7 @@ title: DocumentBuilder.MoveTo
 second_title: Aspose.Words för .NET API Referens
 description: DocumentBuilder metod. Flyttar markören till en inlinenod eller till slutet av ett stycke.
 type: docs
-weight: 460
+weight: 490
 url: /sv/net/aspose.words/documentbuilder/moveto/
 ---
 ## DocumentBuilder.MoveTo method
@@ -22,9 +22,9 @@ public void MoveTo(Node node)
 
 Närnod är en nod på inline-nivå, flyttas markören till denna node och ytterligare innehåll kommer att infogas före den noden.
 
-Närnod är en **Paragraf**, flyttas markören till slutet av stycket och ytterligare innehåll kommer att infogas strax före styckebrytningen.
+Närnod är en[`Paragraph`](../../paragraph/), flyttas markören till slutet av stycket och ytterligare innehåll kommer att infogas strax före styckebrytningen.
 
-Närnodär en nod på blocknivå men inte ett stycke, flyttas markören till slutet av första stycket till nod på blocknivå och ytterligare innehåll kommer att infogas strax före styckebrytningen.
+Närnod är en nod på blocknivå men inte en[`Paragraph`](../../paragraph/), flyttas markören till slutet av det första stycket till node på blocknivå och ytterligare innehåll kommer att infogas strax före styckebrytningen.
 
 ### Exempel
 
@@ -41,6 +41,7 @@ builder.Writeln("Run 1. ");
 // och det hamnar också alltid omedelbart efter någon nod som byggaren precis infogat.
 // För att lägga till innehåll till en annan del av dokumentet,
 // vi kan flytta markören till en annan nod med "MoveTo"-metoden.
+builder.MoveTo(doc.FirstSection.Body.FirstParagraph.Runs[0]);
 // Markören är nu framför noden som vi flyttade den till.
 // Om du lägger till en andra körning infogas den framför den första körningen.
 builder.Writeln("Run 2. ");
@@ -61,12 +62,12 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Skapa ett giltigt bokmärke, en enhet som består av noder som omges av en bokmärkesstartnod,
-  // och en bokmärkesslutnod.
+ // och en bokmärkesslutnod.
 builder.StartBookmark("MyBookmark");
 builder.Write("Bookmark contents.");
 builder.EndBookmark("MyBookmark");
 
-NodeCollection firstParagraphNodes = doc.FirstSection.Body.FirstParagraph.ChildNodes;
+NodeCollection firstParagraphNodes = doc.FirstSection.Body.FirstParagraph.GetChildNodes(NodeType.Any, false);
 
 Assert.AreEqual(NodeType.BookmarkStart, firstParagraphNodes[0].NodeType);
 Assert.AreEqual(NodeType.Run, firstParagraphNodes[1].NodeType);

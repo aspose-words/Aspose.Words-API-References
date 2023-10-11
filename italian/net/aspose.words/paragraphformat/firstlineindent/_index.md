@@ -3,14 +3,14 @@ title: ParagraphFormat.FirstLineIndent
 second_title: Aspose.Words per .NET API Reference
 description: ParagraphFormat proprietà. Ottiene o imposta il valore in punti per una prima riga o un rientro sporgente.
 type: docs
-weight: 110
+weight: 120
 url: /it/net/aspose.words/paragraphformat/firstlineindent/
 ---
 ## ParagraphFormat.FirstLineIndent property
 
 Ottiene o imposta il valore (in punti) per una prima riga o un rientro sporgente.
 
-Usa valori positivi per impostare il rientro della prima riga e valori negativi per impostare il rientro sporgente.
+Utilizza valori positivi per impostare il rientro della prima riga e valori negativi per impostare il rientro sporgente.
 
 ```csharp
 public double FirstLineIndent { get; set; }
@@ -39,7 +39,7 @@ paragraphFormat.AddSpaceBetweenFarEastAndDigit = true;
 paragraphFormat.KeepTogether = true;
 
 // Il metodo "Writeln" termina il paragrafo dopo aver aggiunto il testo
-// e quindi inizia una nuova riga, aggiungendo un nuovo paragrafo.
+// e poi inizia una nuova riga, aggiungendo un nuovo paragrafo.
 builder.Writeln("Hello world!");
 
 Assert.True(builder.CurrentParagraph.IsEndOfDocument);

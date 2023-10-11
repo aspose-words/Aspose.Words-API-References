@@ -1,14 +1,14 @@
 ---
 title: Shading.GetHashCode
 second_title: Aspose.Words لمراجع .NET API
-description: Shading طريقة. يعمل كدالة تجزئة لهذا النوع.
+description: Shading طريقة. بمثابة وظيفة تجزئة لهذا النوع.
 type: docs
-weight: 60
+weight: 100
 url: /ar/net/aspose.words/shading/gethashcode/
 ---
 ## Shading.GetHashCode method
 
-يعمل كدالة تجزئة لهذا النوع.
+بمثابة وظيفة تجزئة لهذا النوع.
 
 ```csharp
 public override int GetHashCode()

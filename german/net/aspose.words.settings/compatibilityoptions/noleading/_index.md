@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.NoLeading
 second_title: Aspose.Words für .NET-API-Referenz
-description: CompatibilityOptions eigendom. Keinen Zeilenabstand zwischen Textzeilen einfügen.
+description: CompatibilityOptions eigendom. Fügen Sie keinen Zeilenabstand zwischen Textzeilen ein.
 type: docs
 weight: 350
 url: /de/net/aspose.words.settings/compatibilityoptions/noleading/
 ---
 ## CompatibilityOptions.NoLeading property
 
-Keinen Zeilenabstand zwischen Textzeilen einfügen.
+Fügen Sie keinen Zeilenabstand zwischen Textzeilen ein.
 
 ```csharp
 public bool NoLeading { get; set; }

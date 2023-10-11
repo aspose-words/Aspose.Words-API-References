@@ -1,14 +1,14 @@
 ---
 title: InlineStory.IsMoveToRevision
 second_title: Aspose.Words för .NET API Referens
-description: InlineStory fast egendom. Returnerar Sann om detta objekt flyttades infogades i Microsoft Word medan ändringsspårning var aktiverad.
+description: InlineStory fast egendom. ReturnerarSann om detta objekt flyttades infogades i Microsoft Word medan ändringsspårning var aktiverad.
 type: docs
 weight: 60
 url: /sv/net/aspose.words/inlinestory/ismovetorevision/
 ---
 ## InlineStory.IsMoveToRevision property
 
-Returnerar **Sann** om detta objekt flyttades (infogades) i Microsoft Word medan ändringsspårning var aktiverad.
+Returnerar`Sann` om detta objekt flyttades (infogades) i Microsoft Word medan ändringsspårning var aktiverad.
 
 ```csharp
 public bool IsMoveToRevision { get; }

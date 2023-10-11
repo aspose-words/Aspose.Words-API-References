@@ -3,7 +3,7 @@ title: Enum PageBorderAppliesTo
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.PageBorderAppliesTo uppräkning. Anger vilka sidor som sidkanten skrivs ut på.
 type: docs
-weight: 4100
+weight: 4340
 url: /sv/net/aspose.words/pageborderappliesto/
 ---
 ## PageBorderAppliesTo enumeration

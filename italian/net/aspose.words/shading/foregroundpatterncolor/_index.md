@@ -1,14 +1,14 @@
 ---
 title: Shading.ForegroundPatternColor
 second_title: Aspose.Words per .NET API Reference
-description: Shading proprietà. Ottiene o imposta il colore applicato al primo piano delloggetto Shading.
+description: Shading proprietà. Ottiene o imposta il colore applicato al primo piano del fileShading oggetto.
 type: docs
-weight: 20
+weight: 40
 url: /it/net/aspose.words/shading/foregroundpatterncolor/
 ---
 ## Shading.ForegroundPatternColor property
 
-Ottiene o imposta il colore applicato al primo piano dell'oggetto Shading.
+Ottiene o imposta il colore applicato al primo piano del file[`Shading`](../) oggetto.
 
 ```csharp
 public Color ForegroundPatternColor { get; set; }

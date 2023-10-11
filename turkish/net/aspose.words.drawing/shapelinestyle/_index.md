@@ -1,14 +1,14 @@
 ---
 title: Enum ShapeLineStyle
 second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Drawing.ShapeLineStyle Sıralama. Bir dizinin bileşik çizgi stilini belirtir.Shape .
+description: Aspose.Words.Drawing.ShapeLineStyle Sıralama. Bir öğenin bileşik çizgi stilini belirtir.Shape .
 type: docs
-weight: 1120
+weight: 1270
 url: /tr/net/aspose.words.drawing/shapelinestyle/
 ---
 ## ShapeLineStyle enumeration
 
-Bir dizinin bileşik çizgi stilini belirtir.[`Shape`](../shape/) .
+Bir öğenin bileşik çizgi stilini belirtir.[`Shape`](../shape/) .
 
 ```csharp
 public enum ShapeLineStyle
@@ -19,11 +19,11 @@ public enum ShapeLineStyle
 | İsim | Değer | Tanım |
 | --- | --- | --- |
 | Single | `0` | Tek satır. |
-| Double | `1` | Eşit genişlikte çift satır. |
-| ThickThin | `2` | Çift çizgiler, biri kalın, biri ince. |
-| ThinThick | `3` | Çift çizgiler, biri ince, biri kalın. |
+| Double | `1` | Eşit genişlikte çift çizgi. |
+| ThickThin | `2` | Çift çizgi, biri kalın, biri ince. |
+| ThinThick | `3` | Çift çizgi, biri ince, biri kalın. |
 | Triple | `4` | Üç çizgi, ince, kalın, ince. |
-| Default | `0` | Varsayılan değerSingle . |
+| Default | `0` | Varsayılan değer:Single . |
 
 ### Örnekler
 
@@ -36,11 +36,11 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertShape(ShapeType.Rectangle, RelativeHorizontalPosition.LeftMargin, 100,
     RelativeVerticalPosition.TopMargin, 100, 200, 200, WrapType.None);
 
-// Dikdörtgen gibi temel şekillerin iki görünür parçası vardır.
-// 1 - Şeklin anahattı içindeki alana uygulanan dolgu:
+// Dikdörtgen gibi temel şekillerin iki görünür kısmı vardır.
+// 1 - Şeklin ana hatları içindeki alana uygulanan dolgu:
 shape.Fill.ForeColor = Color.White;
 
-// 2 - Şeklin ana hatlarını belirleyen kontur:
+// 2 - Şeklin ana hatlarını işaretleyen kontur:
 // Bu şeklin konturunun çeşitli özelliklerini değiştirin.
 Stroke stroke = shape.Stroke;
 stroke.On = true;
@@ -50,6 +50,7 @@ stroke.DashStyle = DashStyle.ShortDashDotDot;
 stroke.JoinStyle = JoinStyle.Miter;
 stroke.EndCap = EndCap.Square;
 stroke.LineStyle = ShapeLineStyle.Triple;
+stroke.Fill.TwoColorGradient(Color.Red, Color.Blue, GradientStyle.Vertical, GradientVariant.Variant1);
 
 doc.Save(ArtifactsDir + "Shape.Stroke.docx");
 ```

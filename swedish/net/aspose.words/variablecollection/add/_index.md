@@ -17,7 +17,7 @@ public void Add(string name, string value)
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
 | name | String | Det skiftlägesokänsliga namnet på variabeln som ska läggas till. |
-| value | String | Variabelns värde. Värdet kan inte vara null, om värdet är null kommer tom sträng att användas istället. |
+| value | String | Variabelns värde. Värdet kan inte vara`null`, om värdet är null kommer tom sträng att användas istället. |
 
 ### Exempel
 

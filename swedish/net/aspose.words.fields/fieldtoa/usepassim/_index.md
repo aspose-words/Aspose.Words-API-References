@@ -1,14 +1,14 @@
 ---
 title: FieldToa.UsePassim
 second_title: Aspose.Words för .NET API Referens
-description: FieldToa fast egendom. Hämtar eller ställer in om fem eller flera olika sidreferenser till same auktoritet ska ersättas med passim som används för att indikera att ett ord eller avsnitt förekommer ofta i det citerade arbetet.
+description: FieldToa fast egendom. Hämtar eller ställer in om fem eller flera olika sidreferenser till same auktoritet ska ersättas med passim som används för att indikera att ett ord eller en passage förekommer ofta i det citerade arbetet.
 type: docs
 weight: 110
 url: /sv/net/aspose.words.fields/fieldtoa/usepassim/
 ---
 ## FieldToa.UsePassim property
 
-Hämtar eller ställer in om fem eller flera olika sidreferenser till same auktoritet ska ersättas med "passim", som används för att indikera att ett ord eller avsnitt förekommer ofta i det citerade arbetet.
+Hämtar eller ställer in om fem eller flera olika sidreferenser till same auktoritet ska ersättas med "passim", som används för att indikera att ett ord eller en passage förekommer ofta i det citerade arbetet.
 
 ```csharp
 public bool UsePassim { get; set; }
@@ -19,6 +19,7 @@ public bool UsePassim { get; set; }
 Visar hur man bygger och anpassar en tabell över myndigheter med hjälp av TOA- och TA-fält.
 
 ```csharp
+public void FieldTOA()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -119,6 +120,7 @@ Visar hur man bygger och anpassar en tabell över myndigheter med hjälp av TOA-
 
     doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.TOA.TA.docx");
+}
 
 private static FieldTA InsertToaEntry(DocumentBuilder builder, string entryCategory, string longCitation)
 {

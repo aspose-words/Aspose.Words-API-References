@@ -20,11 +20,11 @@ Questa proprietà influisce sul comportamento della forma in Microsoft Word. Asp
 
 Questa proprietà è applicabile solo alle forme di livello superiore.
 
-Il valore predefinito è **VERO**.
+Il valore predefinito è`VERO`.
 
 ### Esempi
 
-Mostra come lavorare con le proprietà delle tabelle mobili.
+Mostra come utilizzare le proprietà delle tabelle mobili.
 
 ```csharp
 Document doc = new Document(MyDir + "Table wrapped by text.docx");
@@ -37,12 +37,12 @@ if (table.TextWrapping == TextWrapping.Around)
     Assert.AreEqual(RelativeVerticalPosition.Paragraph, table.VerticalAnchor);
     Assert.AreEqual(false, table.AllowOverlap);
 
-    // Solo margine, pagina, colonna disponibile in RelativeHorizontalPosition per il setter di ancoraggio orizzontale.
-    // Verrà generata ArgumentException per qualsiasi altro valore.
+    // Solo margine, pagina e colonna disponibili in RelativeHorizontalPosition per il setter orizzontali.
+    // L'ArgumentException verrà generata per qualsiasi altro valore.
     table.HorizontalAnchor = RelativeHorizontalPosition.Column;
 
-    // Solo margine, pagina, paragrafo disponibile in posizione verticale relativa per il setter di ancoraggio verticale.
-    // Verrà generata ArgumentException per qualsiasi altro valore.
+    // Solo margine, pagina e paragrafo disponibili in RelativeVerticalPosition per il setter VerticalAnchor.
+    // L'ArgumentException verrà generata per qualsiasi altro valore.
     table.VerticalAnchor = RelativeVerticalPosition.Page;
 }
 ```

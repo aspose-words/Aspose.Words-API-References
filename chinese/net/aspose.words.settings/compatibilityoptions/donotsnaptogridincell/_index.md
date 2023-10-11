@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.DoNotSnapToGridInCell
 second_title: Aspose.Words for .NET API 参考
-description: CompatibilityOptions 财产. 不对齐到包含对象的表格单元格中的文档网格
+description: CompatibilityOptions 财产. 不要与对象的表格单元格中的文档网格对齐
 type: docs
 weight: 170
 url: /zh/net/aspose.words.settings/compatibilityoptions/donotsnaptogridincell/
 ---
 ## CompatibilityOptions.DoNotSnapToGridInCell property
 
-不对齐到包含对象的表格单元格中的文档网格。
+不要与对象的表格单元格中的文档网格对齐。
 
 ```csharp
 public bool DoNotSnapToGridInCell { get; set; }

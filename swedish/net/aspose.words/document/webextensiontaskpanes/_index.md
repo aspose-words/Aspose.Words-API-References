@@ -3,7 +3,7 @@ title: Document.WebExtensionTaskPanes
 second_title: Aspose.Words för .NET API Referens
 description: Document fast egendom. Returnerar en samling som representerar en lista över tillägg i aktivitetsfönstret.
 type: docs
-weight: 470
+weight: 490
 url: /sv/net/aspose.words/document/webextensiontaskpanes/
 ---
 ## Document.WebExtensionTaskPanes property

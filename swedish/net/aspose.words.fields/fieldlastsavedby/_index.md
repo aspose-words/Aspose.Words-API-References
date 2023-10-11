@@ -3,12 +3,14 @@ title: Class FieldLastSavedBy
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Fields.FieldLastSavedBy klass. Implementerar fältet LASTSAVEDBY.
 type: docs
-weight: 1950
+weight: 2100
 url: /sv/net/aspose.words.fields/fieldlastsavedby/
 ---
 ## FieldLastSavedBy class
 
 Implementerar fältet LASTSAVEDBY.
+
+För att lära dig mer, besök[Arbeta med Fields](https://docs.aspose.com/words/net/working-with-fields/) dokumentationsartikel.
 
 ```csharp
 public class FieldLastSavedBy : Field
@@ -31,7 +33,7 @@ public class FieldLastSavedBy : Field
 | [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Hämtar eller ställer in om fältet är låst (ska inte räkna om resultatet). |
 | [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | Hämtar eller ställer in LCID för fältet. |
 | [Result](../../aspose.words.fields/field/result/) { get; set; } | Hämtar eller ställer in text som är mellan fältavgränsaren och fältslutet. |
-| [Separator](../../aspose.words.fields/field/separator/) { get; } | Hämtar noden som representerar fältseparatorn. Kan vara null. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | Hämtar noden som representerar fältseparatorn. Kan vara`null` . |
 | [Start](../../aspose.words.fields/field/start/) { get; } | Hämtar noden som representerar början av fältet. |
 | virtual [Type](../../aspose.words.fields/field/type/) { get; } | Hämtar fälttypen Microsoft Word. |
 
@@ -41,7 +43,7 @@ public class FieldLastSavedBy : Field
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Returnerar text mellan fältstart och fältavgränsare (eller fältslut om det inte finns någon avgränsare). Både fältkod och fältresultat för underordnade fält ingår. |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Returnerar text mellan fältstart och fältavgränsare (eller fältslut om det inte finns någon avgränsare). |
-| [Remove](../../aspose.words.fields/field/remove/)() | Tar bort fältet från dokumentet. Returnerar en nod direkt efter fältet. Om fältets slut är den sista child av dess överordnade nod, returnerar dess överordnade stycke. Om fältet redan är borttaget, returneras **null** . |
+| [Remove](../../aspose.words.fields/field/remove/)() | Tar bort fältet från dokumentet. Returnerar en nod direkt efter fältet. Om fältets slut är den sista child av dess överordnade nod, returnerar dess överordnade stycke. Om fältet redan är borttaget, returneras`null` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Utför fältavlänkningen. |
 | [Update](../../aspose.words.fields/field/update/)() | Utför fältuppdateringen. Kastar om fältet redan uppdateras. |
 | [Update](../../aspose.words.fields/field/update/)(bool) | Utför en fältuppdatering. Kastar om fältet redan uppdateras. |
@@ -59,7 +61,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Om vi skapar ett dokument i Microsoft Word kommer det att ha användarens namn i den inbyggda egenskapen "Senast sparad av".
-  // Om vi skapar ett dokument programmatiskt kommer den här egenskapen att vara null och vi måste tilldela ett värde.
+ // Om vi skapar ett dokument programmatiskt kommer den här egenskapen att vara null och vi måste tilldela ett värde.
 doc.BuiltInDocumentProperties.LastSavedBy = "John Doe";
 
 // Vi kan använda fältet LASTSAVEDBY för att visa värdet på den här egenskapen i dokumentet.

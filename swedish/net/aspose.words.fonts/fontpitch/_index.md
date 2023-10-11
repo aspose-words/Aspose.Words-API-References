@@ -3,7 +3,7 @@ title: Enum FontPitch
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Fonts.FontPitch uppräkning. Representerar teckensnittets tonhöjd.
 type: docs
-weight: 2780
+weight: 2960
 url: /sv/net/aspose.words.fonts/fontpitch/
 ---
 ## FontPitch enumeration

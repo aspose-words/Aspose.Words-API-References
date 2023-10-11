@@ -3,7 +3,7 @@ title: PdfSaveOptions.DownsampleOptions
 second_title: Aspose.Words för .NET API Referens
 description: PdfSaveOptions fast egendom. Gör det möjligt att ange alternativ för nedsampling.
 type: docs
-weight: 90
+weight: 100
 url: /sv/net/aspose.words.saving/pdfsaveoptions/downsampleoptions/
 ---
 ## PdfSaveOptions.DownsampleOptions property

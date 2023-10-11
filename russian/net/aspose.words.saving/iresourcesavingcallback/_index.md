@@ -1,14 +1,14 @@
 ---
 title: Interface IResourceSavingCallback
 second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Saving.IResourceSavingCallback интерфейс. Реализуйте этот интерфейс если вы хотите контролировать как Aspose.Words сохраняет внешние ресурсы изображения шрифты и css при сохранении документа на фиксированную страницу HTML или SVG.
+description: Aspose.Words.Saving.IResourceSavingCallback интерфейс. Реализуйте этот интерфейс если хотите контролировать как Aspose.Words сохраняет внешние ресурсы изображения шрифты и CSS при сохранении документа в HTML или SVG с фиксированной страницей.
 type: docs
-weight: 4930
+weight: 5190
 url: /ru/net/aspose.words.saving/iresourcesavingcallback/
 ---
 ## IResourceSavingCallback interface
 
-Реализуйте этот интерфейс, если вы хотите контролировать, как Aspose.Words сохраняет внешние ресурсы (изображения, шрифты и css) при сохранении документа на фиксированную страницу HTML или SVG.
+Реализуйте этот интерфейс, если хотите контролировать, как Aspose.Words сохраняет внешние ресурсы (изображения, шрифты и CSS) при сохранении документа в HTML или SVG с фиксированной страницей.
 
 ```csharp
 public interface IResourceSavingCallback
@@ -44,7 +44,7 @@ public void ResourceSavingCallback()
 private class FontSavingCallback : IResourceSavingCallback
 {
     /// <summary>
-    /// Вызывается, когда Aspose.Words сохраняет внешний ресурс на фиксированной странице HTML или SVG.
+    /// Вызывается, когда Aspose.Words сохраняет внешний ресурс в HTML или SVG фиксированной страницы.
     /// </summary>
     public void ResourceSaving(ResourceSavingArgs args)
     {
@@ -81,7 +81,7 @@ public void HtmlFixedResourceFolder()
         ResourceSavingCallback = callback
     };
 
-    // Папка, указанная в ResourcesFolderAlias, будет содержать ресурсы вместо ResourcesFolder.
+    // Папка, указанная ResourcesFolderAlias, будет содержать ресурсы вместо ResourcesFolder.
     // Мы должны убедиться, что папка существует, прежде чем потоки смогут поместить в нее свои ресурсы.
     Directory.CreateDirectory(options.ResourcesFolderAlias);
 
@@ -96,13 +96,13 @@ public void HtmlFixedResourceFolder()
 }
 
 /// <summary>
-/// Подсчитывает и печатает URI ресурсов, содержащихся в по мере их преобразования в фиксированный HTML.
+/// Подсчитывает и печатает URI ресурсов, содержащихся в них, при их преобразовании в фиксированный HTML.
 /// </summary>
 private class ResourceUriPrinter : IResourceSavingCallback
 {
     void IResourceSavingCallback.ResourceSaving(ResourceSavingArgs args)
     {
-        // Если мы зададим псевдоним папки в объекте SaveOptions, мы сможем распечатать его отсюда.
+        // Если мы установим псевдоним папки в объекте SaveOptions, мы сможем распечатать его отсюда.
         mText.AppendLine($"Resource #{++mSavedResourceCount} \"{args.ResourceFileName}\"");
 
         string extension = Path.GetExtension(args.ResourceFileName);
@@ -111,8 +111,8 @@ private class ResourceUriPrinter : IResourceSavingCallback
             case ".ttf":
             case ".woff":
             {
-                // По умолчанию 'ResourceFileUri' использует системную папку для шрифтов.
-                // Чтобы избежать проблем на других платформах, вы должны явно указать путь к шрифтам.
+                // По умолчанию ResourceFileUri использует системную папку для шрифтов.
+                // Чтобы избежать проблем на других платформах, необходимо явно указать путь к шрифтам.
                 args.ResourceFileUri = ArtifactsDir + Path.DirectorySeparatorChar + args.ResourceFileName;
                 break;
             }

@@ -1,14 +1,14 @@
 ---
 title: SpecialChar.GetText
 second_title: Aspose.Words لمراجع .NET API
-description: SpecialChar طريقة. يحصل على الحرف الخاص الذي تمثله هذه العقدة .
+description: SpecialChar طريقة. الحصول على الحرف الخاص الذي تمثله هذه العقدة.
 type: docs
 weight: 30
 url: /ar/net/aspose.words/specialchar/gettext/
 ---
 ## SpecialChar.GetText method
 
-يحصل على الحرف الخاص الذي تمثله هذه العقدة .
+الحصول على الحرف الخاص الذي تمثله هذه العقدة.
 
 ```csharp
 public override string GetText()

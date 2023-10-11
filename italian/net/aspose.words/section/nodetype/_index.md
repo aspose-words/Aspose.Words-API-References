@@ -1,14 +1,14 @@
 ---
 title: Section.NodeType
 second_title: Aspose.Words per .NET API Reference
-description: Section proprietà. Restituisce NodeType.Sezione .
+description: Section proprietà. RestituisceSection .
 type: docs
 weight: 40
 url: /it/net/aspose.words/section/nodetype/
 ---
 ## Section.NodeType property
 
-Restituisce **NodeType.Sezione** .
+RestituisceSection .
 
 ```csharp
 public override NodeType NodeType { get; }
@@ -19,19 +19,20 @@ public override NodeType NodeType { get; }
 Mostra come attraversare l'albero dei nodi figlio di un nodo composito.
 
 ```csharp
+public void RecurseChildren()
 {
     Document doc = new Document(MyDir + "Paragraphs.docx");
 
-    // Qualsiasi nodo che può contenere nodi figlio, come il documento stesso, è composto.
+    // Qualsiasi nodo che può contenere nodi secondari, come il documento stesso, è composito.
     Assert.True(doc.IsComposite);
 
-    // Richiama la funzione ricorsiva che passerà attraverso e stamperà tutti i nodi figlio di un nodo composito.
+    // Richiama la funzione ricorsiva che esaminerà e stamperà tutti i nodi figli di un nodo composito.
     TraverseAllNodes(doc, 0);
 }
 
 /// <summary>
 /// Attraversa ricorsivamente un albero di nodi durante la stampa del tipo di ciascun nodo
-/// con un rientro a seconda della profondità e del contenuto di tutti i nodi inline.
+/// con un rientro che dipende dalla profondità e dal contenuto di tutti i nodi in linea.
 /// </summary>
 public void TraverseAllNodes(CompositeNode parentNode, int depth)
 {
@@ -39,7 +40,7 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
     {
         Console.Write($"{new string('\t', depth)}{Node.NodeTypeToString(childNode.NodeType)}");
 
-        // Ricorre nel nodo se si tratta di un nodo composito. In caso contrario, stampa il suo contenuto se si tratta di un nodo inline.
+        // Ricorsione nel nodo se è un nodo composito. Altrimenti, stampa il suo contenuto se è un nodo in linea.
         if (childNode.IsComposite)
         {
             Console.WriteLine();

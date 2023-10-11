@@ -3,7 +3,7 @@ title: Enum LineStyle
 second_title: Aspose.Words per .NET API Reference
 description: Aspose.Words.LineStyle enum. Specifica lo stile della linea di aBorder .
 type: docs
-weight: 3250
+weight: 3450
 url: /it/net/aspose.words/linestyle/
 ---
 ## LineStyle enumeration
@@ -48,7 +48,7 @@ public enum LineStyle
 
 ### Esempi
 
-Mostra come inserire una stringa racchiusa da un bordo in un documento.
+Mostra come inserire una stringa circondata da un bordo in un documento.
 
 ```csharp
 Document doc = new Document();

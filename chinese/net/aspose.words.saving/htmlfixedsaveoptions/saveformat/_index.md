@@ -1,14 +1,14 @@
 ---
 title: HtmlFixedSaveOptions.SaveFormat
 second_title: Aspose.Words for .NET API 参考
-description: HtmlFixedSaveOptions 财产. 指定使用此保存选项对象时文档将保存的格式 只能是HtmlFixed.
+description: HtmlFixedSaveOptions 财产. 指定使用此保存选项对象时保存文档的格式 只能是HtmlFixed.
 type: docs
 weight: 170
 url: /zh/net/aspose.words.saving/htmlfixedsaveoptions/saveformat/
 ---
 ## HtmlFixedSaveOptions.SaveFormat property
 
-指定使用此保存选项对象时文档将保存的格式。 只能是HtmlFixed.
+指定使用此保存选项对象时保存文档的格式。 只能是HtmlFixed.
 
 ```csharp
 public override SaveFormat SaveFormat { get; set; }
@@ -35,8 +35,8 @@ public void HtmlFixedResourceFolder()
         ResourceSavingCallback = callback
     };
 
-    // ResourcesFolderAlias 指定的文件夹将包含资源而不是 ResourcesFolder。
-    // 我们必须确保文件夹存在，然后流才能将其资源放入其中。
+    // 由 ResourcesFolderAlias 指定的文件夹将包含资源而不是 ResourcesFolder。
+    // 我们必须确保该文件夹存在，然后流才能将其资源放入其中。
     Directory.CreateDirectory(options.ResourcesFolderAlias);
 
     doc.Save(ArtifactsDir + "HtmlFixedSaveOptions.HtmlFixedResourceFolder.html", options);
@@ -50,7 +50,7 @@ public void HtmlFixedResourceFolder()
 }
 
 /// <summary>
-/// 在转换为固定 HTML 时计算并打印包含的资源的 URI。
+/// 计算并打印 包含的资源的 URI，因为它们被转换为固定的 HTML。
 /// </summary>
 private class ResourceUriPrinter : IResourceSavingCallback
 {
@@ -65,8 +65,8 @@ private class ResourceUriPrinter : IResourceSavingCallback
             case ".ttf":
             case ".woff":
             {
-                // 默认情况下，'ResourceFileUri' 使用系统文件夹来存放字体。
-                // 为了避免在其他平台上出现问题，您必须明确指定字体的路径。
+                // 默认情况下，“ResourceFileUri”使用系统文件夹来存储字体。
+                // 为了避免在其他平台上出现问题，您必须显式指定字体的路径。
                 args.ResourceFileUri = ArtifactsDir + Path.DirectorySeparatorChar + args.ResourceFileName;
                 break;
             }
@@ -75,7 +75,7 @@ private class ResourceUriPrinter : IResourceSavingCallback
         mText.AppendLine("\t" + args.ResourceFileUri);
 
         // 如果我们在“ResourcesFolderAlias”属性中指定了一个文件夹，
-        // 我们还需要重定向每个流以将其资源放在该文件夹中。
+        // 我们还需要重定向每个流以将其资源放入该文件夹中。
         args.ResourceStream = new FileStream(args.ResourceFileUri, FileMode.Create);
         args.KeepResourceStreamOpen = false;
     }

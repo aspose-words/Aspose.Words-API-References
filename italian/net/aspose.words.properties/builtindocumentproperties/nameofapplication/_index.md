@@ -19,7 +19,7 @@ public string NameOfApplication { get; set; }
 Mostra come lavorare con le proprietà del documento nella categoria "Origine".
 
 ```csharp
-// Apri un documento che abbiamo creato e modificato utilizzando Microsoft Word.
+// Apre un documento che abbiamo creato e modificato utilizzando Microsoft Word.
 Document doc = new Document(MyDir + "Properties.docx");
 BuiltInDocumentProperties properties = doc.BuiltInDocumentProperties;
 

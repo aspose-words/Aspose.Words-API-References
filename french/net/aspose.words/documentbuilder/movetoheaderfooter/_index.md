@@ -3,7 +3,7 @@ title: DocumentBuilder.MoveToHeaderFooter
 second_title: Référence de l'API Aspose.Words pour .NET
 description: DocumentBuilder méthode. Déplace le curseur au début dun entête ou dun pied de page dans la section actuelle.
 type: docs
-weight: 520
+weight: 550
 url: /fr/net/aspose.words/documentbuilder/movetoheaderfooter/
 ---
 ## DocumentBuilder.MoveToHeaderFooter method
@@ -16,17 +16,17 @@ public void MoveToHeaderFooter(HeaderFooterType headerFooterType)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| headerFooterType | HeaderFooterType | Spécifie l'en-tête ou le pied de page vers lequel se déplacer. |
+| headerFooterType | HeaderFooterType | Spécifie l’en-tête ou le pied de page vers lequel se déplacer. |
 
 ### Remarques
 
-Après avoir déplacé le curseur dans un en-tête ou un pied de page, vous pouvez utiliser le reste des méthodes DocumentBuilder pour modifier le contenu de l'en-tête ou du pied de page.
+Après avoir déplacé le curseur dans un en-tête ou un pied de page, vous pouvez utiliser le reste de[`DocumentBuilder`](../) Méthodes pour modifier le contenu de l'en-tête ou du pied de page.
 
-Si vous souhaitez créer des en-têtes et des pieds de page différents pour la première page, vous devez définir[`DifferentFirstPageHeaderFooter`](../../pagesetup/differentfirstpageheaderfooter/).
+Si vous souhaitez créer des en-têtes et des pieds de page différents pour la première page, vous avez besoin de pour définir[`DifferentFirstPageHeaderFooter`](../../pagesetup/differentfirstpageheaderfooter/).
 
-Si vous souhaitez créer des en-têtes et des pieds de page différents pour les pages paires et impaires, vous devez définir[`OddAndEvenPagesHeaderFooter`](../../pagesetup/oddandevenpagesheaderfooter/).
+Si vous souhaitez créer des en-têtes et des pieds de page différents pour les pages paires et impaires, vous avez besoin de pour définir[`OddAndEvenPagesHeaderFooter`](../../pagesetup/oddandevenpagesheaderfooter/).
 
-Utilisation[`MoveToSection`](../movetosection/) pour passer de l'en-tête au texte principal.
+Utiliser[`MoveToSection`](../movetosection/) pour sortir de l'en-tête et entrer dans le texte principal.
 
 ### Exemples
 
@@ -36,7 +36,7 @@ Montre comment insérer une image et l'utiliser comme filigrane.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Insérez l'image dans l'en-tête afin qu'elle soit visible sur chaque page.
+// Insère l'image dans l'en-tête afin qu'elle soit visible sur chaque page.
 Image image = Image.FromFile(ImageDir + "Transparent background logo.png");
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 Shape shape = builder.InsertImage(image);
@@ -58,7 +58,7 @@ Montre comment insérer une image et l'utiliser comme filigrane (.NetStandard 2.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Insérez l'image dans l'en-tête afin qu'elle soit visible sur chaque page.
+// Insère l'image dans l'en-tête afin qu'elle soit visible sur chaque page.
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 
 using (SKBitmap image = SKBitmap.Decode(ImageDir + "Transparent background logo.png"))
@@ -84,11 +84,11 @@ Montre comment créer des en-têtes et des pieds de page dans un document à l'a
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Spécifiez que nous voulons des en-têtes et des pieds de page différents pour les premières pages, paires et impaires.
+// Spécifie que nous voulons des en-têtes et pieds de page différents pour les premières pages, paires et impaires.
 builder.PageSetup.DifferentFirstPageHeaderFooter = true;
 builder.PageSetup.OddAndEvenPagesHeaderFooter = true;
 
-// Crée les en-têtes, puis ajoute trois pages au document pour afficher chaque type d'en-tête.
+// Créez les en-têtes, puis ajoutez trois pages au document pour afficher chaque type d'en-tête.
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderFirst);
 builder.Write("Header for the first page");
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderEven);

@@ -1,14 +1,14 @@
 ---
 title: ChartTitle.Overlay
 second_title: Aspose.Words för .NET API Referens
-description: ChartTitle fast egendom. Bestämmer om andra diagramelement ska tillåtas överlappa titeln. Som standard är överlagringen falsk.
+description: ChartTitle fast egendom. Bestämmer om andra diagramelement ska tillåtas att överlappa titel. Som standard är överlagringfalsk .
 type: docs
-weight: 10
+weight: 20
 url: /sv/net/aspose.words.drawing.charts/charttitle/overlay/
 ---
 ## ChartTitle.Overlay property
 
-Bestämmer om andra diagramelement ska tillåtas överlappa titeln. Som standard är överlagringen falsk.
+Bestämmer om andra diagramelement ska tillåtas att överlappa titel. Som standard är överlagring`falsk` .
 
 ```csharp
 public bool Overlay { get; set; }
@@ -30,7 +30,7 @@ Chart chart = chartShape.Chart;
 ChartTitle title = chart.Title;
 title.Text = "My Chart";
 
-  // Ställ in egenskapen "Show" till "true" för att göra titeln synlig.
+ // Ställ in egenskapen "Show" till "true" för att göra titeln synlig.
 title.Show = true;
 
 // Ställ in egenskapen "Overlay" på "true" Ge andra diagramelement mer utrymme genom att tillåta dem att överlappa titeln

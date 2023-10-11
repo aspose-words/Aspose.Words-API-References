@@ -3,7 +3,7 @@ title: Enum WatermarkLayout
 second_title: Referencia de API de Aspose.Words para .NET
 description: Aspose.Words.WatermarkLayout enumeración. Define el diseño de la marca de agua en relación con el centro de la marca de agua.
 type: docs
-weight: 6370
+weight: 6680
 url: /es/net/aspose.words/watermarklayout/
 ---
 ## WatermarkLayout enumeration
@@ -18,8 +18,8 @@ public enum WatermarkLayout
 
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
-| Horizontal | `0` | Diseño de marca de agua horizontal. Corresponde a 0 grados de giro. |
-| Diagonal | `315` | Diseño de marca de agua en diagonal. Corresponde a 315 grados de rotación. |
+| Horizontal | `0` | Diseño de marca de agua horizontal. Corresponde a 0 grados de rotación. |
+| Diagonal | `315` | Diseño de marca de agua diagonal. Corresponde a 315 grados de rotación. |
 
 ### Ejemplos
 
@@ -28,7 +28,7 @@ Muestra cómo crear una marca de agua de texto.
 ```csharp
 Document doc = new Document();
 
-// Agregue una marca de agua de texto sin formato.
+// Agrega una marca de agua de texto sin formato.
 doc.Watermark.SetText("Aspose Watermark");
 
 // Si deseamos editar el formato del texto usándolo como marca de agua,

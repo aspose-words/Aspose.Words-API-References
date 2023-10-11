@@ -3,7 +3,7 @@ title: DigitalSignature.ToString
 second_title: Справочник по API Aspose.Words для .NET
 description: DigitalSignature метод. Возвращает удобную для пользователя строку отображающую значение этого объекта.
 type: docs
-weight: 80
+weight: 90
 url: /ru/net/aspose.words.digitalsignatures/digitalsignature/tostring/
 ---
 ## DigitalSignature.ToString method

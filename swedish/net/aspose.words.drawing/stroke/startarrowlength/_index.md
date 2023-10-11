@@ -3,7 +3,7 @@ title: Stroke.StartArrowLength
 second_title: Aspose.Words för .NET API Referens
 description: Stroke fast egendom. Definierar pilspetsens längd för början av ett slag.
 type: docs
-weight: 150
+weight: 170
 url: /sv/net/aspose.words.drawing/stroke/startarrowlength/
 ---
 ## Stroke.StartArrowLength property

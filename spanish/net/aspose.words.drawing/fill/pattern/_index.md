@@ -3,7 +3,7 @@ title: Fill.Pattern
 second_title: Referencia de API de Aspose.Words para .NET
 description: Fill propiedad. Obtiene unPatternType para el relleno.
 type: docs
-weight: 100
+weight: 160
 url: /es/net/aspose.words.drawing/fill/pattern/
 ---
 ## Fill.Pattern property

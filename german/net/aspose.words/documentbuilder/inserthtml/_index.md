@@ -3,7 +3,7 @@ title: DocumentBuilder.InsertHtml
 second_title: Aspose.Words für .NET-API-Referenz
 description: DocumentBuilder methode. Fügt einen HTMLString in das Dokument ein.
 type: docs
-weight: 330
+weight: 360
 url: /de/net/aspose.words/documentbuilder/inserthtml/
 ---
 ## InsertHtml(string) {#inserthtml}
@@ -16,7 +16,7 @@ public void InsertHtml(string html)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| html | String | Eine HTML-Zeichenfolge, die in das Dokument eingefügt werden soll. |
+| html | String | Eine HTML-Zeichenfolge zum Einfügen in das Dokument. |
 
 ### Bemerkungen
 
@@ -24,7 +24,7 @@ Mit dieser Methode können Sie ein HTML-Fragment oder ein ganzes HTML-Dokument e
 
 ### Beispiele
 
-Zeigt, wie Sie mit einem Document Builder HTML-Inhalte in ein Dokument einfügen.
+Zeigt, wie man mit einem Document Builder HTML-Inhalte in ein Dokument einfügt.
 
 ```csharp
 Document doc = new Document();
@@ -37,7 +37,7 @@ const string html = "<p align='right'>Paragraph right</p>" +
 
 builder.InsertHtml(html);
 
-// Durch das Einfügen von HTML-Code wird die Formatierung jedes Elements in die entsprechende Textformatierung des Dokuments geparst.
+// Durch das Einfügen von HTML-Code wird die Formatierung jedes Elements in eine entsprechende Dokumenttextformatierung analysiert.
 ParagraphCollection paragraphs = doc.FirstSection.Body.Paragraphs;
 
 Assert.AreEqual("Paragraph right", paragraphs[0].GetText().Trim());
@@ -56,9 +56,10 @@ Assert.AreEqual("Heading 1", paragraphs[3].ParagraphFormat.Style.Name);
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertHtml.docx");
 ```
 
-Zeigt, wie Sie einen Seriendruck mit einem benutzerdefinierten Rückruf ausführen, der Zusammenführungsdaten in Form von HTML-Dokumenten verarbeitet.
+Zeigt, wie ein Serienbrief mit einem benutzerdefinierten Rückruf ausgeführt wird, der Seriendaten in Form von HTML-Dokumenten verarbeitet.
 
 ```csharp
+public void MergeHtml()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -88,13 +89,13 @@ Zeigt, wie Sie einen Seriendruck mit einem benutzerdefinierten Rückruf ausführ
 }
 
 /// <summary>
-/// Wenn der Seriendruck auf ein MERGEFIELD trifft, dessen Name mit dem Präfix "html_" beginnt,
-/// Dieser Callback parst seine Zusammenführungsdaten als HTML-Inhalt und fügt das Ergebnis dem Dokumentspeicherort von MERGEFIELD hinzu.
+/// Wenn der Seriendruck auf ein MERGEFIELD trifft, dessen Name mit dem Präfix „html_“ beginnt,
+/// Dieser Rückruf analysiert seine Zusammenführungsdaten als HTML-Inhalt und fügt das Ergebnis dem Dokumentspeicherort des MERGEFIELD hinzu.
 /// </summary>
 private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 {
     /// <summary>
-    /// Wird aufgerufen, wenn bei einem Seriendruck Daten in einem MERGEFIELD zusammengeführt werden.
+    /// Wird aufgerufen, wenn ein Serienbrief Daten in einem MERGEFIELD zusammenführt.
     /// </summary>
     void IFieldMergingCallback.FieldMerging(FieldMergingArgs args)
     {
@@ -106,7 +107,7 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
             builder.InsertHtml((string)args.FieldValue);
 
             // Da wir den zusammengeführten Inhalt bereits manuell eingefügt haben,
-             // Wir müssen auf dieses Ereignis nicht reagieren, indem wir Inhalte über die Eigenschaft "Text" zurückgeben.
+             // Wir müssen auf dieses Ereignis nicht reagieren, indem wir Inhalte über die Eigenschaft „Text“ zurückgeben.
             args.Text = string.Empty;
         }
     }
@@ -136,20 +137,20 @@ public void InsertHtml(string html, bool useBuilderFormatting)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| html | String | Eine HTML-Zeichenfolge, die in das Dokument eingefügt werden soll. |
-| useBuilderFormatting | Boolean | Ein Wert, der angibt, ob die Formatierung angegeben ist in[`DocumentBuilder`](../) wird als Basisformatierung für aus HTML importierten Text verwendet. |
+| html | String | Eine HTML-Zeichenfolge zum Einfügen in das Dokument. |
+| useBuilderFormatting | Boolean | Ein Wert, der angibt, ob die Formatierung in angegeben ist[`DocumentBuilder`](../) wird als Basisformatierung für aus HTML importierten Text verwendet. |
 
 ### Bemerkungen
 
 Mit dieser Methode können Sie ein HTML-Fragment oder ein ganzes HTML-Dokument einfügen.
 
-Wann*useBuilderFormatting* ist`FALSCH` , [`DocumentBuilder`](../) die Formatierung wird ignoriert und die Formatierung des eingefügten text basiert auf der Standard-HTML-Formatierung. Als Ergebnis sieht der Text so aus, wie er in Browsern gerendert wird.
+Wann*useBuilderFormatting* Ist`FALSCH` , [`DocumentBuilder`](../)Die Formatierung wird ignoriert und die Formatierung des eingefügten Textes basiert auf der Standard-HTML-Formatierung. Dadurch sieht der Text so aus, wie er in Browsern gerendert wird.
 
-Wann*useBuilderFormatting* ist`Stimmt` , Formatierung des eingefügten Textes basiert auf[`DocumentBuilder`](../) Formatierung, und der Text sieht aus als wäre er mit eingefügt worden[`Write`](../write/) .
+Wann*useBuilderFormatting* Ist`WAHR` , Die Formatierung des eingefügten Textes basiert auf[`DocumentBuilder`](../) Formatierung, und der Text sieht aus, als wäre er mit eingefügt worden[`Write`](../write/) .
 
 ### Beispiele
 
-Zeigt, wie die Formatierung eines Document Builders beim Einfügen von HTML-Inhalt angewendet wird.
+Zeigt, wie die Formatierung eines Document Builders beim Einfügen von HTML-Inhalten angewendet wird.
 
 ```csharp
 Document doc = new Document();
@@ -163,13 +164,13 @@ builder.InsertHtml(
 
 ParagraphCollection paragraphs = doc.FirstSection.Body.Paragraphs;
 
-// Für den ersten Absatz ist eine Ausrichtung angegeben. Wenn InsertHtml den HTML-Code parst,
-// Der im HTML-Code gefundene Wert für die Absatzausrichtung ersetzt immer den Wert des Document Builder.
+// Für den ersten Absatz ist eine Ausrichtung angegeben. Wenn InsertHtml den HTML-Code analysiert,
+// Der im HTML-Code gefundene Absatzausrichtungswert ersetzt immer den Wert des Document Builders.
 Assert.AreEqual("Paragraph 1.", paragraphs[0].GetText().Trim());
 Assert.AreEqual(ParagraphAlignment.Right, paragraphs[0].ParagraphFormat.Alignment);
 
 // Für den zweiten Absatz ist keine Ausrichtung angegeben. Der Ausrichtungswert kann ausgefüllt werden
-// durch den Wert des Builders, abhängig von dem Flag, das wir an die InsertHtml-Methode übergeben haben.
+// durch den Builder-Wert, abhängig von der Flagge, die wir an die InsertHtml-Methode übergeben haben.
 Assert.AreEqual("Paragraph 2.", paragraphs[1].GetText().Trim());
 Assert.AreEqual(useBuilderFormatting ? ParagraphAlignment.Distributed : ParagraphAlignment.Left,
     paragraphs[1].ParagraphFormat.Alignment);
@@ -187,7 +188,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertHtmlWithFormatting.docx");
 
 ## InsertHtml(string, HtmlInsertOptions) {#inserthtml_1}
 
-Fügt einen HTML-String in das Dokument ein. Ermöglicht die Angabe zusätzlicher Optionen.
+Fügt eine HTML-Zeichenfolge in das Dokument ein. Ermöglicht die Angabe zusätzlicher Optionen.
 
 ```csharp
 public void InsertHtml(string html, HtmlInsertOptions options)
@@ -195,8 +196,8 @@ public void InsertHtml(string html, HtmlInsertOptions options)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| html | String | Eine HTML-Zeichenfolge, die in das Dokument eingefügt werden soll. |
-| options | HtmlInsertOptions | Optionen, die verwendet werden, wenn eine HTML-Zeichenfolge eingefügt wird. |
+| html | String | Eine HTML-Zeichenfolge zum Einfügen in das Dokument. |
+| options | HtmlInsertOptions | Optionen, die beim Einfügen einer HTML-Zeichenfolge verwendet werden. |
 
 ### Bemerkungen
 
@@ -215,10 +216,10 @@ builder.InsertParagraph();
 builder.InsertField(" MERGEFIELD EMAIL ");
 builder.InsertParagraph();
 
-// Standardmäßig fügt "DocumentBuilder.InsertHtml" ein HTML-Fragment ein, das mit einem HTML-Element auf Blockebene endet,
-// Normalerweise schließt es dieses Element auf Blockebene und fügt einen Absatzumbruch ein.
+// Standardmäßig fügt „DocumentBuilder.InsertHtml“ ein HTML-Fragment ein, das mit einem HTML-Element auf Blockebene endet.
+// Normalerweise wird das Element auf Blockebene geschlossen und ein Absatzumbruch eingefügt.
 // Als Ergebnis erscheint nach dem eingefügten Dokument ein neuer leerer Absatz.
-// Wenn wir "HtmlInsertOptions.RemoveLastEmptyParagraph" angeben, werden diese zusätzlichen leeren Absätze entfernt.
+// Wenn wir „HtmlInsertOptions.RemoveLastEmptyParagraph“ angeben, werden diese zusätzlichen leeren Absätze entfernt.
 builder.MoveToMergeField("NAME");
 builder.InsertHtml("<p>John Smith</p>", HtmlInsertOptions.UseBuilderFormatting | HtmlInsertOptions.RemoveLastEmptyParagraph);
 builder.MoveToMergeField("EMAIL");

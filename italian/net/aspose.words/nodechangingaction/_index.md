@@ -3,7 +3,7 @@ title: Enum NodeChangingAction
 second_title: Aspose.Words per .NET API Reference
 description: Aspose.Words.NodeChangingAction enum. Specifica il tipo di modifica del nodo.
 type: docs
-weight: 3940
+weight: 4180
 url: /it/net/aspose.words/nodechangingaction/
 ---
 ## NodeChangingAction enumeration
@@ -18,14 +18,15 @@ public enum NodeChangingAction
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
-| Insert | `0` | È in corso l'inserimento di un nodo nell'albero. |
-| Remove | `1` | È in corso la rimozione di un nodo dall'albero. |
+| Insert | `0` | Un nodo viene inserito nell'albero. |
+| Remove | `1` | Un nodo viene rimosso dall'albero. |
 
 ### Esempi
 
 Mostra come utilizzare un NodeChangingCallback per monitorare le modifiche all'albero del documento in tempo reale mentre lo modifichiamo.
 
 ```csharp
+public void NodeChangingCallback()
 {
     Document doc = new Document();
     doc.NodeChangingCallback = new NodeChangingPrinter();

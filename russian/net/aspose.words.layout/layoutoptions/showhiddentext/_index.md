@@ -1,14 +1,14 @@
 ---
 title: LayoutOptions.ShowHiddenText
 second_title: Справочник по API Aspose.Words для .NET
-description: LayoutOptions свойство. Получает или задает индикацию того визуализируется ли скрытый текст в документе. Значение по умолчанию  False.
+description: LayoutOptions свойство. Получает или задает индикатор того отображается ли скрытый текст в документе. Значение по умолчаниюЛОЖЬ .
 type: docs
-weight: 70
+weight: 80
 url: /ru/net/aspose.words.layout/layoutoptions/showhiddentext/
 ---
 ## LayoutOptions.ShowHiddenText property
 
-Получает или задает индикацию того, визуализируется ли скрытый текст в документе. Значение по умолчанию — False.
+Получает или задает индикатор того, отображается ли скрытый текст в документе. Значение по умолчанию:`ЛОЖЬ` .
 
 ```csharp
 public bool ShowHiddenText { get; set; }
@@ -20,12 +20,12 @@ public bool ShowHiddenText { get; set; }
 
 ### Примеры
 
-Показывает, как скрыть текст в визуализируемом выходном документе.
+Показывает, как скрыть текст в визуализированном выходном документе.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
-// Вставляем скрытый текст, затем указываем, хотим ли мы исключить его из визуализируемого документа.
+// Вставляем скрытый текст, затем указываем, хотим ли мы исключить его из отображаемого документа.
 builder.Writeln("This text is not hidden.");
 builder.Font.Hidden = true;
 builder.Writeln("This text is hidden.");

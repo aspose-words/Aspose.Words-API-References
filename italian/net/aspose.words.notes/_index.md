@@ -1,12 +1,12 @@
 ---
 title: Aspose.Words.Notes
 second_title: Aspose.Words per .NET API Reference
-description: Il Aspose.Words.Notes namespace fornisce classi per lavorare con note di chiusura e note a piè di pagina di Microsoft Word.
+description: IL Aspose.Words.Notesnamespace fornisce classi per lavorare con le note di chiusura e a piè di pagina di Microsoft Word.
 type: docs
-weight: 170
+weight: 180
 url: /it/net/aspose.words.notes/
 ---
-Il **Aspose.Words.Notes** namespace fornisce classi per lavorare con note di chiusura e note a piè di pagina di Microsoft Word.
+IL **Aspose.Words.Notes**namespace fornisce classi per lavorare con le note di chiusura e a piè di pagina di Microsoft Word.
 
 ## Classi
 
@@ -19,9 +19,9 @@ Il **Aspose.Words.Notes** namespace fornisce classi per lavorare con note di chi
 
 | Enumerazione | Descrizione |
 | --- | --- |
-| [EndnotePosition](./endnoteposition/) | Definisce la posizione della nota di chiusura. |
-| [FootnoteNumberingRule](./footnotenumberingrule/) | Determina quando viene riavviata la numerazione automatica delle note a piè di pagina o di chiusura. |
+| [EndnotePosition](./endnoteposition/) | Definisce la posizione della nota finale. |
+| [FootnoteNumberingRule](./footnotenumberingrule/) | Determina quando riavvia la numerazione automatica delle note a piè di pagina o delle note di chiusura. |
 | [FootnotePosition](./footnoteposition/) | Definisce la posizione della nota a piè di pagina. |
-| [FootnoteType](./footnotetype/) | Specifica se si tratta di una nota a piè di pagina o di una nota di chiusura. |
+| [FootnoteType](./footnotetype/) | Specifica se si tratta di una nota a piè di pagina o di chiusura. |
 
 

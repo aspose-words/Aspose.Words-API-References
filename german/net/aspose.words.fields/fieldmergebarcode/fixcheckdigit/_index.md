@@ -16,19 +16,19 @@ public bool FixCheckDigit { get; set; }
 
 ### Beispiele
 
-Zeigt, wie Sie einen Seriendruck für EAN13-Barcodes durchführen.
+Zeigt, wie ein Serienbrief für EAN13-Barcodes durchgeführt wird.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Fügen Sie ein MERGEBARCODE-Feld ein, das während eines Seriendrucks Werte aus einer Datenquelle akzeptiert.
-// Dieses Feld konvertiert alle Werte in der Spalte "MyEAN13Barcode" einer Zusammenführungsdatenquelle in EAN13-Barcodes.
+// Ein MERGEBARCODE-Feld einfügen, das während eines Seriendrucks Werte aus einer Datenquelle akzeptiert.
+// Dieses Feld konvertiert alle Werte in der Spalte „MyEAN13Barcode“ einer Zusammenführungsdatenquelle in EAN13-Barcodes.
 FieldMergeBarcode field = (FieldMergeBarcode)builder.InsertField(FieldType.FieldMergeBarcode, true);
 field.BarcodeType = "EAN13";
 field.BarcodeValue = "MyEAN13Barcode";
 
-// Zeigt den numerischen Wert des Barcodes unter den Balken an.
+// Den numerischen Wert des Barcodes unter den Balken anzeigen.
 field.DisplayText = true;
 field.PosCodeStyle = "CASE";
 field.FixCheckDigit = true;
@@ -38,7 +38,7 @@ Assert.AreEqual(" MERGEBARCODE  MyEAN13Barcode EAN13 \\t \\p CASE \\x", field.Ge
 builder.Writeln();
 
 // Erstellen Sie eine DataTable mit einer Spalte mit demselben Namen wie der BarcodeValue unseres MERGEBARCODE-Felds.
-// Der Seriendruck erstellt für jede Zeile eine neue Seite. Jede Seite enthält ein DISPLAYBARCODE-Feld,
+// Der Serienbrief erstellt für jede Zeile eine neue Seite. Jede Seite enthält ein DISPLAYBARCODE-Feld.
 // wodurch ein EAN13-Barcode mit dem Wert aus der zusammengeführten Zeile angezeigt wird.
 DataTable table = new DataTable("Barcodes");
 table.Columns.Add("MyEAN13Barcode");

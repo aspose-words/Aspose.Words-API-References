@@ -1,14 +1,14 @@
 ---
 title: VbaProject.References
 second_title: Aspose.Words für .NET-API-Referenz
-description: VbaProject eigendom. Ruft eine Sammlung von VBAProjektreferenzen ab.
+description: VbaProject eigendom. Ruft eine Sammlung von VBAProjektverweisen ab.
 type: docs
 weight: 60
 url: /de/net/aspose.words.vba/vbaproject/references/
 ---
 ## VbaProject.References property
 
-Ruft eine Sammlung von VBA-Projektreferenzen ab.
+Ruft eine Sammlung von VBA-Projektverweisen ab.
 
 ```csharp
 public VbaReferenceCollection References { get; }

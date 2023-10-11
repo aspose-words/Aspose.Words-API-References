@@ -16,7 +16,7 @@ public double Height { get; set; }
 
 ### Ejemplos
 
-Muestra cómo formatear filas con un generador de documentos.
+Muestra cómo dar formato a filas con un generador de documentos.
 
 ```csharp
 Document doc = new Document();
@@ -26,8 +26,8 @@ Table table = builder.StartTable();
 builder.InsertCell();
 builder.Write("Row 1, cell 1.");
 
-// Comience una segunda fila y luego configure su altura. El constructor aplicará esta configuración a
-// su fila actual, así como cualquier fila nueva que cree después.
+// Inicie una segunda fila y luego configure su altura. El constructor aplicará esta configuración a
+// su fila actual, así como cualquier fila nueva que cree posteriormente.
 builder.EndRow();
 
 RowFormat rowFormat = builder.RowFormat;
@@ -38,7 +38,7 @@ builder.InsertCell();
 builder.Write("Row 2, cell 1.");
 builder.EndTable();
 
-// La primera fila no se vio afectada por la reconfiguración del relleno y aún conserva los valores predeterminados.
+// La primera fila no se vio afectada por la reconfiguración del relleno y aún mantiene los valores predeterminados.
 Assert.AreEqual(0.0d, table.Rows[0].RowFormat.Height);
 Assert.AreEqual(HeightRule.Auto, table.Rows[0].RowFormat.HeightRule);
 
@@ -48,7 +48,7 @@ Assert.AreEqual(HeightRule.Exactly, table.Rows[1].RowFormat.HeightRule);
 doc.Save(ArtifactsDir + "DocumentBuilder.SetRowFormatting.docx");
 ```
 
-Muestra cómo crear una tabla con formato utilizando DocumentBuilder.
+Muestra cómo crear una tabla formateada usando DocumentBuilder.
 
 ```csharp
 Document doc = new Document();
@@ -58,7 +58,7 @@ Table table = builder.StartTable();
 builder.InsertCell();
 table.LeftIndent = 20;
 
-// Establecer algunas opciones de formato para el texto y la apariencia de la tabla.
+// Establece algunas opciones de formato para el texto y la apariencia de la tabla.
 builder.RowFormat.Height = 40;
 builder.RowFormat.HeightRule = HeightRule.AtLeast;
 builder.CellFormat.Shading.BackgroundPatternColor = Color.FromArgb(198, 217, 241);
@@ -68,9 +68,9 @@ builder.Font.Size = 16;
 builder.Font.Name = "Arial";
 builder.Font.Bold = true;
 
-// La configuración de las opciones de formato en un generador de documentos las aplicará
+// Configurar las opciones de formato en un generador de documentos las aplicará
 // a la celda/fila actual en la que se encuentra el cursor,
-// así como las nuevas celdas y filas creadas con ese constructor.
+// así como cualquier celda y fila nueva creada con ese generador.
 builder.Write("Header Row,\n Cell 1");
 builder.InsertCell();
 builder.Write("Header Row,\n Cell 2");
@@ -78,8 +78,8 @@ builder.InsertCell();
 builder.Write("Header Row,\n Cell 3");
 builder.EndRow();
 
-// Reconfigure los objetos de formato del constructor para nuevas filas y celdas que estamos a punto de crear.
-// El constructor no los aplicará a la primera fila ya creada para que se destaque como una fila de encabezado.
+// Reconfigurar los objetos de formato del constructor para las nuevas filas y celdas que estamos a punto de crear.
+// El constructor no los aplicará a la primera fila ya creada para que se destaque como fila de encabezado.
 builder.CellFormat.Shading.BackgroundPatternColor = Color.White;
 builder.CellFormat.VerticalAlignment = CellVerticalAlignment.Center;
 builder.RowFormat.Height = 30;

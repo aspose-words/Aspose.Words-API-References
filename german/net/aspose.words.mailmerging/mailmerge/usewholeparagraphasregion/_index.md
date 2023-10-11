@@ -1,14 +1,14 @@
 ---
 title: MailMerge.UseWholeParagraphAsRegion
 second_title: Aspose.Words für .NET-API-Referenz
-description: MailMerge eigendom. Ruft einen Wert ab oder legt einen Wert fest der angibt ob der gesamte Absatz mit TableStart oder TableEndFeld oder ein bestimmter Bereich zwischen TableStart und TableEndFeldern in den Seriendruckbereich aufgenommen werden soll.
+description: MailMerge eigendom. Ruft einen Wert ab oder legt diesen fest der angibt ob ein ganzer Absatz vorhanden ist TableStart oder TableEnd field oder ein bestimmter Bereich dazwischen TableStart Und TableEnd Felder sollten in den Serienbriefbereich aufgenommen werden.
 type: docs
 weight: 160
 url: /de/net/aspose.words.mailmerging/mailmerge/usewholeparagraphasregion/
 ---
 ## MailMerge.UseWholeParagraphAsRegion property
 
-Ruft einen Wert ab oder legt einen Wert fest, der angibt, ob der gesamte Absatz mit TableStart- oder TableEnd-Feld oder ein bestimmter Bereich zwischen TableStart- und TableEnd-Feldern in den Seriendruckbereich aufgenommen werden soll.
+Ruft einen Wert ab oder legt diesen fest, der angibt, ob ein ganzer Absatz vorhanden ist **TableStart** oder **TableEnd** field oder ein bestimmter Bereich dazwischen **TableStart** Und **TableEnd** Felder sollten in den Serienbriefbereich aufgenommen werden.
 
 ```csharp
 public bool UseWholeParagraphAsRegion { get; set; }
@@ -16,7 +16,7 @@ public bool UseWholeParagraphAsRegion { get; set; }
 
 ### Bemerkungen
 
-Der Standardwert ist **Stimmt** .
+Der Standardwert ist`WAHR` .
 
 ### Beispiele
 
@@ -28,12 +28,12 @@ public void UseWholeParagraphAsRegion(bool useWholeParagraphAsRegion)
     Document doc = CreateSourceDocWithNestedMergeRegions();
     DataTable dataTable = CreateSourceTableDataTableForOneRegion();
 
-    // Standardmäßig kann ein Absatz nicht mehr als einem Seriendruckbereich angehören.
+    // Standardmäßig kann ein Absatz zu maximal einem Serienbriefbereich gehören.
     // Der Inhalt unseres Dokuments erfüllt diese Kriterien nicht.
-    // Wenn wir das Flag "UseWholeParagraphAsRegion" auf "true" setzen,
+    // Wenn wir das Flag „UseWholeParagraphAsRegion“ auf „true“ setzen,
     // Das Ausführen eines Seriendrucks für dieses Dokument löst eine Ausnahme aus.
-    // Wenn wir das Flag "UseWholeParagraphAsRegion" auf "false" setzen,
-    // Wir können für dieses Dokument einen Seriendruck ausführen.
+    // Wenn wir das Flag „UseWholeParagraphAsRegion“ auf „false“ setzen,
+    // Wir können einen Serienbrief für dieses Dokument ausführen.
     doc.MailMerge.UseWholeParagraphAsRegion = useWholeParagraphAsRegion;
 
     if (useWholeParagraphAsRegion)
@@ -41,8 +41,8 @@ public void UseWholeParagraphAsRegion(bool useWholeParagraphAsRegion)
     else
         doc.MailMerge.ExecuteWithRegions(dataTable);
 
-    // Der Seriendruck füllt unsere erste Region, während die zweite Region ungenutzt bleibt
-    // da es die Region ist, die die Regel bricht.
+    // Der Serienbrief füllt unsere erste Region, während die zweite Region ungenutzt bleibt
+    // da es die Region ist, die gegen die Regel verstößt.
     doc.Save(ArtifactsDir + "MailMerge.UseWholeParagraphAsRegion.docx");
 }
 
@@ -69,7 +69,7 @@ private static Document CreateSourceDocWithNestedMergeRegions()
 }
 
 /// <summary>
-/// Erstellen Sie eine Datentabelle, die während eines Seriendrucks eine Region füllen kann.
+/// Erstellen Sie eine Datentabelle, die während eines Seriendrucks einen Bereich füllen kann.
 /// </summary>
 private static DataTable CreateSourceTableDataTableForOneRegion()
 {

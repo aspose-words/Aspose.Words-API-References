@@ -3,7 +3,7 @@ title: HtmlSaveOptions.ExportTextInputFormFieldAsText
 second_title: Aspose.Words för .NET API Referens
 description: HtmlSaveOptions fast egendom. Styr hur formulärfält för textinmatning sparas i HTML eller MHTML. Standardvärdet ärfalsk .
 type: docs
-weight: 270
+weight: 260
 url: /sv/net/aspose.words.saving/htmlsaveoptions/exporttextinputformfieldastext/
 ---
 ## HtmlSaveOptions.ExportTextInputFormFieldAsText property

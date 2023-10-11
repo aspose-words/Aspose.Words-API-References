@@ -18,7 +18,7 @@ public DigitalSignatureCollection DigitalSignatures { get; }
 
 Den här samlingen innehåller digitala signaturer som laddades från originaldokumentet. Dessa digitala signaturer kommer inte att sparas när du sparar detta[`Document`](../) object till en fil eller ström eftersom att spara eller konvertera kommer att producera ett dokument som skiljer sig från originalet och de ursprungliga digitala signaturerna kommer inte längre att vara giltiga.
 
-Denna samling är aldrig null. Om dokumentet inte är signerat kommer det att innehålla noll element.
+Denna samling är aldrig`null`. Om dokumentet inte är signerat kommer det att innehålla noll element.
 
 ### Exempel
 

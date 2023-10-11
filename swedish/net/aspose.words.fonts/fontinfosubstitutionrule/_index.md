@@ -3,12 +3,14 @@ title: Class FontInfoSubstitutionRule
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Fonts.FontInfoSubstitutionRule klass. Regel för ersättning av teckensnittsinformation.
 type: docs
-weight: 2760
+weight: 2940
 url: /sv/net/aspose.words.fonts/fontinfosubstitutionrule/
 ---
 ## FontInfoSubstitutionRule class
 
 Regel för ersättning av teckensnittsinformation.
+
+För att lära dig mer, besök[Arbeta med teckensnitt](https://docs.aspose.com/words/net/working-with-fonts/) dokumentationsartikel.
 
 ```csharp
 public class FontInfoSubstitutionRule : FontSubstitutionRule
@@ -22,14 +24,13 @@ public class FontInfoSubstitutionRule : FontSubstitutionRule
 
 ### Anmärkningar
 
-Enligt denna regel utvärderar Aspose.Words alla relaterade fält i[`FontInfo`](../fontinfo/) (Panose, Sig etc) för det saknade teckensnittet och hittar den närmaste matchningen bland de tillgängliga teckensnittskällorna. Om[`FontInfo`](../fontinfo/) är not tillgängligt för det saknade teckensnittet kommer ingenting att göras.
+Enligt denna regel utvärderar Aspose.Words alla relaterade fält i[`FontInfo`](../fontinfo/) (Panose, Sig etc) för det saknade teckensnittet och hittar den närmaste matchningen bland de tillgängliga teckensnittskällorna. Om[`FontInfo`](../fontinfo/)är not tillgängligt för det saknade teckensnittet kommer ingenting att göras.
 
 ### Exempel
 
 Visar hur du ställer in egenskapen för att hitta den närmaste matchningen för ett saknat teckensnitt från tillgängliga teckensnittskällor.
 
 ```csharp
-[Test]
 public void EnableFontSubstitution()
 {
     // Öppna ett dokument som innehåller text formaterad med ett teckensnitt som inte finns i någon av våra teckensnittskällor.
@@ -44,6 +45,9 @@ public void EnableFontSubstitution()
     fontSettings.SubstitutionSettings.DefaultFontSubstitution.DefaultFontName = "Arial";
     ;
     fontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
+
+    // Original teckensnittsmått bör användas efter teckensnittsersättning.
+    doc.LayoutOptions.KeepOriginalFontMetrics = true;
 
     // Vi kommer att få en varning för ersättning av teckensnitt om vi sparar ett dokument med ett teckensnitt som saknas.
     doc.FontSettings = fontSettings;

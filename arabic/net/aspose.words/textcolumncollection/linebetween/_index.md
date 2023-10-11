@@ -1,14 +1,14 @@
 ---
 title: TextColumnCollection.LineBetween
 second_title: Aspose.Words لمراجع .NET API
-description: TextColumnCollection ملكية. متى حقيقي  يضيف خطًا رأسيًا بين الأعمدة.
+description: TextColumnCollection ملكية. متىحقيقييضيف خطًا رأسيًا بين الأعمدة.
 type: docs
 weight: 40
 url: /ar/net/aspose.words/textcolumncollection/linebetween/
 ---
 ## TextColumnCollection.LineBetween property
 
-متى **حقيقي** ، يضيف خطًا رأسيًا بين الأعمدة.
+متى`حقيقي`يضيف خطًا رأسيًا بين الأعمدة.
 
 ```csharp
 public bool LineBetween { get; set; }
@@ -22,9 +22,9 @@ public bool LineBetween { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// تكوين كائن PageSetup للقسم الحالي لتقسيم النص إلى عدة أعمدة.
+// قم بتكوين كائن PageSetup للقسم الحالي لتقسيم النص إلى عدة أعمدة.
 // اضبط خاصية "LineBetween" على "true" لوضع خط فاصل بين الأعمدة.
-// اضبط الخاصية LineBetween على القيمة false لترك المسافة بين الأعمدة فارغة.
+// اضبط خاصية "LineBetween" على "خطأ" لترك المسافة بين الأعمدة فارغة.
 TextColumnCollection columns = builder.PageSetup.TextColumns;
 columns.LineBetween = lineBetween;
 columns.SetCount(3);

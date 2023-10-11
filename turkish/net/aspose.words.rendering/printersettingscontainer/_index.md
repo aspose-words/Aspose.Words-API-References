@@ -1,14 +1,16 @@
 ---
 title: Class PrinterSettingsContainer
 second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Rendering.PrinterSettingsContainer sınıf. Bazı parametreler için bir depolamayı temsil ederPrinterSettings nesne.
+description: Aspose.Words.Rendering.PrinterSettingsContainer sınıf. Bazı parametreler için bir depolama alanını temsil ederPrinterSettings nesne.
 type: docs
-weight: 4320
+weight: 4580
 url: /tr/net/aspose.words.rendering/printersettingscontainer/
 ---
 ## PrinterSettingsContainer class
 
-Bazı parametreler için bir depolamayı temsil ederPrinterSettings nesne.
+Bazı parametreler için bir depolama alanını temsil ederPrinterSettings nesne.
+
+Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Bir Belgeyi Programlı Olarak Yazdırma veya İletişim Kutularını Kullanma](https://docs.aspose.com/words/net/print-a-document-programmatically-or-using-dialogs/) dokümantasyon makalesi.
 
 ```csharp
 public class PrinterSettingsContainer
@@ -24,21 +26,21 @@ public class PrinterSettingsContainer
 
 | İsim | Tanım |
 | --- | --- |
-| [DefaultPageSettingsPaperSource](../../aspose.words.rendering/printersettingscontainer/defaultpagesettingspapersource/) { get; } | Bkz.PaperSource nın-ninDefaultPageSettings . |
+| [DefaultPageSettingsPaperSource](../../aspose.words.rendering/printersettingscontainer/defaultpagesettingspapersource/) { get; } | Bkz.PaperSource ile ilgiliDefaultPageSettings . |
 | [PaperSizes](../../aspose.words.rendering/printersettingscontainer/papersizes/) { get; } | Bkz.PaperSizes . |
 | [PaperSources](../../aspose.words.rendering/printersettingscontainer/papersources/) { get; } | Bkz.PaperSources . |
 
 ### Notlar
 
-Şunun verilerine erişim:PrinterSettings uzun zaman alır. `PrinterSettingsContainer` parametreleri önbelleğe alırPrinterSettings , böylece yazdırma daha hızlı çalışır.
+Verilerine erişimPrinterSettings uzun zaman alır. `PrinterSettingsContainer` parametreleri önbelleğe alırPrinterSettings , böylece yazdırma daha hızlı çalışır.
 
 ### Örnekler
 
-Yazıcınızın kağıt kaynaklarına ve boyutlarına nasıl erişileceğini ve bunların listeleneceğini gösterir.
+Yazıcınızın kağıt kaynaklarına ve boyutlarına nasıl erişeceğinizi ve bunları listeleyeceğinizi gösterir.
 
 ```csharp
-// "PrinterSettingsContainer", bir "PrinterSettings" nesnesi içeriyor,
-// farklı yazıcı sürücüleri için benzersiz veriler içeren.
+// "PrinterSettingsContainer" bir "PrinterSettings" nesnesi içerir,
+// farklı yazıcı sürücüleri için benzersiz veriler içerir.
 PrinterSettingsContainer container = new PrinterSettingsContainer(new PrinterSettings());
 
 Console.WriteLine($"This printer contains {container.PaperSources.Count} printer paper sources:");
@@ -49,12 +51,12 @@ foreach (PaperSource paperSource in container.PaperSources)
                       $"RawKind: {paperSource.RawKind} {(isDefault ? "(Default)" : "")}");
 }
 
-// "PaperSizes" özelliği, yazıcıya kullanması talimatını verecek kağıt boyutlarının listesini içerir.
+// "PaperSizes" özelliği, yazıcının kullanması talimatını verecek kağıt boyutlarının listesini içerir.
 // Hem PrinterSource hem de PrinterSize bir "RawKind" özelliği içerir,
-// bu, PaperSourceKind enum'da listelenen bir kağıt türüne eşittir.
-// Yazdırılan sayfa ile aynı "RawKind" değerine sahip bir kağıt kaynağı varsa,
+// bu, PaperSourceKind numaralandırmasında listelenen kağıt türüne eşittir.
+// Yazdırılan sayfayla aynı "RawKind" değerine sahip bir kağıt kaynağı varsa,
 // yazıcı, sağlanan kağıt kaynağını ve boyutunu kullanarak sayfayı yazdıracaktır.
-// Aksi takdirde, yazıcı varsayılan olarak "DefaultPageSettingsPaperSource" özelliği tarafından belirlenen kaynağa geçer.
+// Aksi takdirde, yazıcı varsayılan olarak "DefaultPageSettingsPaperSource" özelliği tarafından belirlenen kaynağı kullanacaktır.
 Console.WriteLine($"{container.PaperSizes.Count} paper sizes:");
 foreach (System.Drawing.Printing.PaperSize paperSize in container.PaperSizes)
 {

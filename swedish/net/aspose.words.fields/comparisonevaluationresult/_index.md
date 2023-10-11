@@ -3,12 +3,14 @@ title: Class ComparisonEvaluationResult
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Fields.ComparisonEvaluationResult klass. Resultatet av jämförelseutvärderingen.
 type: docs
-weight: 1330
+weight: 1480
 url: /sv/net/aspose.words.fields/comparisonevaluationresult/
 ---
 ## ComparisonEvaluationResult class
 
 Resultatet av jämförelseutvärderingen.
+
+För att lära dig mer, besök[Arbeta med Fields](https://docs.aspose.com/words/net/working-with-fields/) dokumentationsartikel.
 
 ```csharp
 public sealed class ComparisonEvaluationResult

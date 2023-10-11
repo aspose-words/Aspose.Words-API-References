@@ -20,11 +20,11 @@ Hiérarchie des régions.
 
 ### Remarques
 
-La hiérarchie est renvoyée sous la forme de[`MailMergeRegionInfo`](../../mailmergeregioninfo/) classer.
+La hiérarchie est renvoyée sous la forme de[`MailMergeRegionInfo`](../../mailmergeregioninfo/) classe.
 
 ### Exemples
 
-Montre comment vérifier les régions de fusion et publipostage.
+Montre comment vérifier les régions de publipostage.
 
 ```csharp
 Document doc = new Document(MyDir + "Mail merge regions.docx");
@@ -32,7 +32,7 @@ Document doc = new Document(MyDir + "Mail merge regions.docx");
 // Renvoie une hiérarchie complète des régions de fusion contenant les MERGEFIELD disponibles dans le document.
 MailMergeRegionInfo regionInfo = doc.MailMerge.GetRegionsHierarchy();
 
-// Récupère les régions supérieures dans le document.
+// Récupère les principales régions du document.
 IList<MailMergeRegionInfo> topRegions = regionInfo.Regions;
 
 Assert.AreEqual(2, topRegions.Count);

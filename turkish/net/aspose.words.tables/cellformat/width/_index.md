@@ -1,14 +1,14 @@
 ---
 title: CellFormat.Width
 second_title: Aspose.Words for .NET API Referansı
-description: CellFormat mülk. Nokta olarak hücrenin genişliğini alır.
+description: CellFormat mülk. Hücrenin genişliğini nokta olarak alır.
 type: docs
-weight: 130
+weight: 140
 url: /tr/net/aspose.words.tables/cellformat/width/
 ---
 ## CellFormat.Width property
 
-Nokta olarak hücrenin genişliğini alır.
+Hücrenin genişliğini nokta olarak alır.
 
 ```csharp
 public double Width { get; set; }
@@ -16,13 +16,13 @@ public double Width { get; set; }
 
 ### Notlar
 
-Genişlik, Aspose tarafından belge yükleme ve kaydetme ile ilgili olarak hesaplanır. Şu anda, tablo, hücre ve belge özelliklerinin her kombinasyonu desteklenmemektedir. Döndürülen değer, bazı belgeler için doğru olmayabilir. belge MS Word'de açıldığında MS Word tarafından hesaplanan hücre genişliği.
+Genişlik, Aspose.Words tarafından belge yükleme ve kaydetme sırasında hesaplanır. Şu anda tablo, hücre ve belge özelliklerinin her kombinasyonu desteklenmemektedir. Döndürülen değer bazı belgeler için doğru olmayabilir. Belge MS Word'de açıldığında MS Word tarafından hesaplanan hücre genişliği.
 
-Bu özelliğin ayarlanması önerilmez. Hücrenin gerçekten ayarlanmış genişliğe sahip olacağının garantisi yoktur. Genişlik, hücre içeriğini otomatik sığdırma tablo düzeninde barındıracak şekilde ayarlanabilir. Diğer satırlardaki hücrelerin genişlikleri çakışabilir settings. Tablo, kapsayıcıya sığacak veya tablo genişliği ayarlarını karşılayacak şekilde yeniden boyutlandırılabilir. [`PreferredWidth`](../preferredwidth/) hücre genişliğini ayarlamak için. Bu özellik setlerini ayarlamak için[`PreferredWidth`](../preferredwidth/)dolaylı olarak 15.8. sürümünden beri
+Bu özelliğin ayarlanması önerilmez. Hücrenin gerçekte ayarlanan genişliğe sahip olacağına dair bir garanti yoktur. Genişlik, hücre içeriklerini otomatik sığdırma tablosu düzeninde barındıracak şekilde ayarlanabilir. Diğer satırlardaki hücreler çakışan genişliğe sahip olabilir settings. Tablo, kaba sığacak veya tablo genişliği ayarlarını karşılayacak şekilde yeniden boyutlandırılabilir. Kullanmayı düşünün[`PreferredWidth`](../preferredwidth/) hücre genişliğini ayarlamak için. Bu özellik setlerini ayarlama[`PreferredWidth`](../preferredwidth/)15.8. sürümünden beri örtülü olarak
 
 ### Örnekler
 
-Belge oluşturucu ile hücrelerin nasıl biçimlendirileceğini gösterir.
+Belge oluşturucuyla hücrelerin nasıl biçimlendirileceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -32,8 +32,8 @@ Table table = builder.StartTable();
 builder.InsertCell();
 builder.Write("Row 1, cell 1.");
 
-// İkinci bir hücre ekleyin ve ardından hücre metni doldurma seçeneklerini yapılandırın.
-// Oluşturucu bu ayarları geçerli hücresine uygular ve daha sonra yeni hücreler oluşturur.
+// İkinci bir hücre ekleyin ve ardından hücre metni dolgu seçeneklerini yapılandırın.
+// Oluşturucu bu ayarları mevcut hücresine uygulayacak ve daha sonra oluşturulacak yeni hücrelere uygulayacaktır.
 builder.InsertCell();
 
 CellFormat cellFormat = builder.CellFormat;
@@ -47,7 +47,7 @@ builder.Write("Row 1, cell 2.");
 builder.EndRow();
 builder.EndTable();
 
-// İlk hücre, dolgu yeniden yapılandırmasından etkilenmedi ve hala varsayılan değerleri tutuyor.
+// İlk hücre dolgunun yeniden yapılandırılmasından etkilenmedi ve hala varsayılan değerleri koruyor.
 Assert.AreEqual(0.0d, table.FirstRow.Cells[0].CellFormat.Width);
 Assert.AreEqual(5.4d, table.FirstRow.Cells[0].CellFormat.LeftPadding);
 Assert.AreEqual(5.4d, table.FirstRow.Cells[0].CellFormat.RightPadding);
@@ -60,11 +60,11 @@ Assert.AreEqual(30.0d, table.FirstRow.Cells[1].CellFormat.RightPadding);
 Assert.AreEqual(30.0d, table.FirstRow.Cells[1].CellFormat.TopPadding);
 Assert.AreEqual(30.0d, table.FirstRow.Cells[1].CellFormat.BottomPadding);
 
-// İlk hücre, komşu hücrenin boyutuna uyacak şekilde çıktı belgesinde büyümeye devam edecektir.
+// İlk hücre, çıktı belgesinde komşu hücrenin boyutuna uyacak şekilde büyümeye devam edecek.
 doc.Save(ArtifactsDir + "DocumentBuilder.SetCellFormatting.docx");
 ```
 
-Özel kenarlıklı bir tablonun nasıl oluşturulacağını gösterir.
+Özel kenarlıklara sahip bir tablonun nasıl oluşturulacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -72,8 +72,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.StartTable();
 
-// Bir belge oluşturucu için tablo biçimlendirme seçeneklerini ayarlama
-// onları eklediğimiz her satıra ve hücreye uygulayacak.
+// Belge oluşturucu için tablo biçimlendirme seçeneklerini ayarlama
+// bunları eklediğimiz her satıra ve hücreye uygulayacaktır.
 builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
 builder.CellFormat.ClearFormatting();
@@ -96,8 +96,8 @@ builder.InsertCell();
 builder.Write("Row 1, Col 2");
 builder.EndRow();
 
-// Biçimlendirmeyi değiştirmek, onu geçerli hücreye uygular,
-// ve daha sonra oluşturucu ile oluşturduğumuz yeni hücreler.
+// Biçimlendirmeyi değiştirmek onu geçerli hücreye uygulayacaktır,
+// ve daha sonra oluşturucuyla oluşturduğumuz yeni hücreler.
 // Bu daha önce eklediğimiz hücreleri etkilemeyecektir.
 builder.CellFormat.Shading.ClearFormatting();
 
@@ -109,7 +109,7 @@ builder.Write("Row 2, Col 2");
 
 builder.EndRow();
 
-// Dikey metne sığdırmak için satır yüksekliğini artırın.
+// Dikey metne sığacak şekilde satır yüksekliğini artırın.
 builder.InsertCell();
 builder.RowFormat.Height = 150;
 builder.CellFormat.Orientation = TextOrientation.Upward;

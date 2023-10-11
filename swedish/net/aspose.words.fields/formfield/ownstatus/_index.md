@@ -16,7 +16,7 @@ public bool OwnStatus { get; set; }
 
 ### Anmärkningar
 
-Om det är sant, visas texten som anges av egenskapen StatusText. Om den är falsk, visas texten för AutoText-posten som anges av egenskapen StatusText.
+Om`Sann` , texten som anges av[`StatusText`](../statustext/) egenskapen visas. If`falsk` , texten i AutoText-posten som anges av[`StatusText`](../statustext/) egenskapen visas.
 
 ### Exempel
 
@@ -89,7 +89,7 @@ public void Visitor()
 }
 
 /// <summary>
-/// Besöksimplementering som skriver ut detaljer om formulärfält som den besöker. 
+ /// Besöksimplementering som skriver ut detaljer om formulärfält som den besöker.
 /// </summary>
 public class FormFieldVisitor : DocumentVisitor
 {

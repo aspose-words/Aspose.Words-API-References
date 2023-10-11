@@ -3,7 +3,7 @@ title: FindReplaceOptions.SmartParagraphBreakReplacement
 second_title: Aspose.Words för .NET API Referens
 description: FindReplaceOptions fast egendom. Hämtar eller ställer in ett booleskt värde som anger att det är tillåtet att ersätta stycke break när det inte finns något nästa syskonstycke.
 type: docs
-weight: 140
+weight: 160
 url: /sv/net/aspose.words.replacing/findreplaceoptions/smartparagraphbreakreplacement/
 ---
 ## FindReplaceOptions.SmartParagraphBreakReplacement property
@@ -18,7 +18,7 @@ public bool SmartParagraphBreakReplacement { get; set; }
 
 ### Anmärkningar
 
-Det här alternativet gör det möjligt att ersätta styckebrytning när det inte finns något nästa syskonstycke som alla child -noder kan flyttas till, genom att hitta valfritt (inte nödvändigtvis syskon) nästa stycke efter stycket som ersätts.
+Det här alternativet gör det möjligt att ersätta styckebrytning när det inte finns något nästa syskonstycke dit alla child -noder kan flyttas, genom att hitta valfritt (inte nödvändigtvis syskon) nästa stycke efter stycket som ersätts.
 
 ### Exempel
 

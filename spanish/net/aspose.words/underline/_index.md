@@ -3,7 +3,7 @@ title: Enum Underline
 second_title: Referencia de API de Aspose.Words para .NET
 description: Aspose.Words.Underline enumeración. Indica el tipo de subrayado aplicado a una fuente.
 type: docs
-weight: 6210
+weight: 6510
 url: /es/net/aspose.words/underline/
 ---
 ## Underline enumeration
@@ -47,7 +47,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Write("For more information, please visit the ");
 
-// Inserte un hipervínculo y enfatícelo con un formato personalizado.
+// Inserta un hipervínculo y enfatízalo con un formato personalizado.
 // El hipervínculo será un fragmento de texto en el que se puede hacer clic y que nos llevará a la ubicación especificada en la URL.
 builder.Font.Color = Color.Blue;
 builder.Font.Underline = Underline.Single;

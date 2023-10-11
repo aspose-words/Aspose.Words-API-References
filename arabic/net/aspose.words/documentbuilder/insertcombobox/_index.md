@@ -1,14 +1,14 @@
 ---
 title: DocumentBuilder.InsertComboBox
 second_title: Aspose.Words لمراجع .NET API
-description: DocumentBuilder طريقة. يتم إدراج حقل نموذج مربع تحرير وسرد في الموضع الحالي.
+description: DocumentBuilder طريقة. إدراج حقل نموذج combobox في الموضع الحالي.
 type: docs
-weight: 280
+weight: 300
 url: /ar/net/aspose.words/documentbuilder/insertcombobox/
 ---
 ## DocumentBuilder.InsertComboBox method
 
-يتم إدراج حقل نموذج مربع تحرير وسرد في الموضع الحالي.
+إدراج حقل نموذج combobox في الموضع الحالي.
 
 ```csharp
 public FormField InsertComboBox(string name, string[] items, int selectedIndex)
@@ -16,8 +16,8 @@ public FormField InsertComboBox(string name, string[] items, int selectedIndex)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| name | String | اسم حقل النموذج. يمكن أن تكون سلسلة فارغة. سيتم قطع القيمة التي تزيد عن 20 حرفًا. |
-| items | String[] | عناصر ComboBox. الحد الأقصى 25 قطعة. |
+| name | String | اسم حقل النموذج. يمكن أن تكون سلسلة فارغة. سيتم اقتطاع القيمة الأطول من 20 حرفًا. |
+| items | String[] | عناصر ComboBox. الحد الأقصى هو 25 مادة. |
 | selectedIndex | Int32 | فهرس العنصر المحدد في ComboBox. |
 
 ### قيمة الإرجاع
@@ -26,11 +26,11 @@ public FormField InsertComboBox(string name, string[] items, int selectedIndex)
 
 ### ملاحظات
 
-إذا قمت بتحديد اسم لحقل النموذج ، فسيتم إنشاء إشارة مرجعية تلقائيًا بنفس الاسم.
+إذا قمت بتحديد اسم لحقل النموذج، فسيتم إنشاء إشارة مرجعية تلقائيًا بنفس الاسم.
 
 ### أمثلة
 
-يوضح كيفية إدراج حقل نموذج مربع تحرير وسرد في مستند.
+يوضح كيفية إدراج حقل نموذج مربع التحرير والسرد في المستند.
 
 ```csharp
 Document doc = new Document();
@@ -50,12 +50,12 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertComboBox.docx");
 DocumentBuilder builder = new DocumentBuilder();
 
 // حقول النموذج هي كائنات في المستند يمكن للمستخدم التفاعل معها من خلال مطالبته بإدخال القيم.
-// يمكننا إنشاؤها باستخدام أداة إنشاء المستندات ، وفيما يلي طريقتان للقيام بذلك.
-// 1 - الإدخال الأساسي للنص:
+// يمكننا إنشاؤها باستخدام أداة إنشاء المستندات، وفيما يلي طريقتان للقيام بذلك.
+// 1 - إدخال النص الأساسي:
 builder.InsertTextInput("My text input", TextFormFieldType.Regular, 
     "", "Enter your name here", 30);
 
-// 2 - مربع تحرير وسرد مع نص موجه ومجموعة من القيم الممكنة:
+// 2 - مربع تحرير وسرد يحتوي على نص موجه ونطاق من القيم المحتملة:
 string[] items =
 {
     "-- Select your favorite footwear --", "Sneakers", "Oxfords", "Flip-flops", "Other"

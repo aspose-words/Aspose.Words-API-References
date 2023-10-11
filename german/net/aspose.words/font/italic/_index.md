@@ -1,14 +1,14 @@
 ---
 title: Font.Italic
 second_title: Aspose.Words für .NET-API-Referenz
-description: Font eigendom. Wahr wenn die Schriftart kursiv formatiert ist.
+description: Font eigendom. True wenn die Schriftart kursiv formatiert ist.
 type: docs
 weight: 160
 url: /de/net/aspose.words/font/italic/
 ---
 ## Font.Italic property
 
-Wahr, wenn die Schriftart kursiv formatiert ist.
+True, wenn die Schriftart kursiv formatiert ist.
 
 ```csharp
 public bool Italic { get; set; }
@@ -16,7 +16,7 @@ public bool Italic { get; set; }
 
 ### Beispiele
 
-Zeigt, wie kursiver Text mit einem Document Builder geschrieben wird.
+Zeigt, wie man mit einem Document Builder kursiven Text schreibt.
 
 ```csharp
 Document doc = new Document();

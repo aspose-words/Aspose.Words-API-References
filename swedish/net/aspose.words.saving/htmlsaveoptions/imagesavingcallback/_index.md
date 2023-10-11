@@ -3,7 +3,7 @@ title: HtmlSaveOptions.ImageSavingCallback
 second_title: Aspose.Words för .NET API Referens
 description: HtmlSaveOptions fast egendom. Gör det möjligt att styra hur bilder sparas när ett dokument sparas i HTML MHTML eller EPUB.
 type: docs
-weight: 360
+weight: 350
 url: /sv/net/aspose.words.saving/htmlsaveoptions/imagesavingcallback/
 ---
 ## HtmlSaveOptions.ImageSavingCallback property

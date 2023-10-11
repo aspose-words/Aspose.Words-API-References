@@ -1,14 +1,14 @@
 ---
 title: ChartMarker.Format
 second_title: Aspose.Words für .NET-API-Referenz
-description: ChartMarker eigendom. Bietet Zugriff auf die Füll und Linienformatierung dieser Markierung.
+description: ChartMarker eigendom. Bietet Zugriff auf die Füll und Zeilenformatierung dieser Markierung.
 type: docs
 weight: 10
 url: /de/net/aspose.words.drawing.charts/chartmarker/format/
 ---
 ## ChartMarker.Format property
 
-Bietet Zugriff auf die Füll- und Linienformatierung dieser Markierung.
+Bietet Zugriff auf die Füll- und Zeilenformatierung dieser Markierung.
 
 ```csharp
 public ChartFormat Format { get; }
@@ -25,7 +25,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertChart(ChartType.Scatter, 432, 252);
 Chart chart = shape.Chart;
 
-// Standardmäßig generierte Serie löschen.
+// Standardmäßig generierte Serien löschen.
 chart.Series.Clear();
 ChartSeries series = chart.Series.Add("AW Series 1", new[] { 0.7, 1.8, 2.6, 3.9 },
     new[] { 2.7, 3.2, 0.8, 1.7 });

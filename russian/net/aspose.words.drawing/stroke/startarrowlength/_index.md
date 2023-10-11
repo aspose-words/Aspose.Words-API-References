@@ -1,14 +1,14 @@
 ---
 title: Stroke.StartArrowLength
 second_title: Справочник по API Aspose.Words для .NET
-description: Stroke свойство. Определяет длину стрелки для начала штриха.
+description: Stroke свойство. Определяет длину наконечника стрелки для начала штриха.
 type: docs
-weight: 150
+weight: 170
 url: /ru/net/aspose.words.drawing/stroke/startarrowlength/
 ---
 ## Stroke.StartArrowLength property
 
-Определяет длину стрелки для начала штриха.
+Определяет длину наконечника стрелки для начала штриха.
 
 ```csharp
 public ArrowLength StartArrowLength { get; set; }
@@ -16,18 +16,18 @@ public ArrowLength StartArrowLength { get; set; }
 
 ### Примечания
 
-Значение по умолчаниюMedium.
+Значение по умолчанию:Medium.
 
 ### Примеры
 
-Показывает создание различных фигур.
+Показывает создание разнообразных фигур.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Ниже приведены четыре примера фигур, которые мы можем вставить в наши документы.
-// 1 - Пунктирная, горизонтальная, полупрозрачная красная линия
+// 1 - Пунктирная горизонтальная полупрозрачная красная линия
 // со стрелкой на левом конце и ромбом на правом конце:
 Shape arrow = new Shape(doc, ShapeType.Line);
 arrow.Width = 200;
@@ -65,7 +65,7 @@ filledInArrow.Fill.Visible = true;
 
 builder.InsertNode(filledInArrow);
 
-// 4 - Стрелка с перевернутой ориентацией, заполненная логотипом Aspose:
+// 4 — Стрелка с перевернутой ориентацией, заполненная логотипом Aspose:
 Shape filledInArrowImg = new Shape(doc, ShapeType.Arrow);
 filledInArrowImg.Width = 200;
 filledInArrowImg.Height = 40;
@@ -77,8 +77,8 @@ byte[] imageBytes = File.ReadAllBytes(ImageDir + "Logo.jpg");
 using (MemoryStream stream = new MemoryStream(imageBytes))
 {
     Image image = Image.FromStream(stream);
-    // Когда мы меняем ориентацию нашей стрелки, мы также меняем изображение, которое содержит стрелка.
-    // Переверните изображение другим способом, чтобы отменить это, прежде чем получить форму для его отображения.
+    // Когда мы меняем ориентацию нашей стрелки, мы также переворачиваем изображение, которое содержит стрелка.
+    // Переверните изображение в другую сторону, чтобы отменить это, прежде чем получить форму для его отображения.
     image.RotateFlip(RotateFlipType.RotateNoneFlipXY);
 
     filledInArrowImg.ImageData.SetImage(image);

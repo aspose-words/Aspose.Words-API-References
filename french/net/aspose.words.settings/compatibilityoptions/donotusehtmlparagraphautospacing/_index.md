@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.DoNotUseHTMLParagraphAutoSpacing
 second_title: Référence de l'API Aspose.Words pour .NET
-description: CompatibilityOptions propriété. Utiliser un espacement de paragraphe fixe pour le réglage HTML automatique.
+description: CompatibilityOptions propriété. Utiliser lespacement de paragraphe fixe pour le réglage automatique HTML.
 type: docs
 weight: 210
 url: /fr/net/aspose.words.settings/compatibilityoptions/donotusehtmlparagraphautospacing/
 ---
 ## CompatibilityOptions.DoNotUseHTMLParagraphAutoSpacing property
 
-Utiliser un espacement de paragraphe fixe pour le réglage HTML automatique.
+Utiliser l'espacement de paragraphe fixe pour le réglage automatique HTML.
 
 ```csharp
 public bool DoNotUseHTMLParagraphAutoSpacing { get; set; }

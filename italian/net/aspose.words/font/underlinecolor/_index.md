@@ -16,7 +16,7 @@ public Color UnderlineColor { get; set; }
 
 ### Esempi
 
-Mostra come configurare lo stile e il colore di una sottolineatura del testo.
+Mostra come configurare lo stile e il colore della sottolineatura del testo.
 
 ```csharp
 Document doc = new Document();

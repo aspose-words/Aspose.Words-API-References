@@ -3,7 +3,7 @@ title: CompareOptions.IgnoreFormatting
 second_title: Aspose.Words för .NET API Referens
 description: CompareOptions fast egendom. True indikerar att formatering ignoreras. Som standard ignoreras inte dokumentformatering.
 type: docs
-weight: 80
+weight: 90
 url: /sv/net/aspose.words.comparing/compareoptions/ignoreformatting/
 ---
 ## CompareOptions.IgnoreFormatting property
@@ -40,7 +40,7 @@ Shape textBox = builder.InsertShape(ShapeType.TextBox, 150, 20);
 builder.MoveTo(textBox.FirstParagraph);
 builder.Write("Original textbox contents");
 
-// DATE-fält:
+// DATUMfält:
 builder.MoveTo(docOriginal.FirstSection.Body.AppendParagraph(""));
 builder.InsertField(" DATE ");
 

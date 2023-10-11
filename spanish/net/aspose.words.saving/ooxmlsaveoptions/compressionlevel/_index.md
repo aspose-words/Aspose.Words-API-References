@@ -24,11 +24,11 @@ Document doc = new Document(MyDir + "Big document.docx");
 // Cuando guardamos el documento en formato OOXML, podemos crear un objeto OoxmlSaveOptions
 // y luego pasarlo al método de guardado del documento para modificar cómo guardamos el documento.
 // Establezca la propiedad "CompressionLevel" en "CompressionLevel.Maximum" para aplicar la compresión más fuerte y más lenta.
-// Establecer la propiedad "CompressionLevel" en "CompressionLevel.Normal" para aplicar
-// la compresión predeterminada que usa Aspose.Words al guardar documentos OOXML.
-// Establezca la propiedad "CompressionLevel" en "CompressionLevel.Fast" para aplicar una compresión más rápida y más débil.
-// Establecer la propiedad "CompressionLevel" en "CompressionLevel.SuperFast" para aplicar
-// la compresión predeterminada que usa Microsoft Word.
+// Establece la propiedad "CompressionLevel" en "CompressionLevel.Normal" para aplicar
+// la compresión predeterminada que utiliza Aspose.Words al guardar documentos OOXML.
+// Establece la propiedad "CompressionLevel" en "CompressionLevel.Fast" para aplicar una compresión más rápida y más débil.
+// Establece la propiedad "CompressionLevel" en "CompressionLevel.SuperFast" para aplicar
+// la compresión predeterminada que utiliza Microsoft Word.
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(SaveFormat.Docx);
 saveOptions.CompressionLevel = compressionLevel;
 

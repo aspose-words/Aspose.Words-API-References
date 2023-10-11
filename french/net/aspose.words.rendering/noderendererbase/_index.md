@@ -3,12 +3,14 @@ title: Class NodeRendererBase
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Aspose.Words.Rendering.NodeRendererBase classe. Classe de base pourShapeRenderer etOfficeMathRenderer .
 type: docs
-weight: 4290
+weight: 4550
 url: /fr/net/aspose.words.rendering/noderendererbase/
 ---
 ## NodeRendererBase class
 
 Classe de base pour[`ShapeRenderer`](../shaperenderer/) et[`OfficeMathRenderer`](../officemathrenderer/) .
+
+Pour en savoir plus, visitez le[Travailler avec des formes](https://docs.aspose.com/words/net/working-with-shapes/) article documentaire.
 
 ```csharp
 public abstract class NodeRendererBase
@@ -32,14 +34,14 @@ public abstract class NodeRendererBase
 | [GetOpaqueBoundsInPixels](../../aspose.words.rendering/noderendererbase/getopaqueboundsinpixels/#getopaqueboundsinpixels_1)(float, float, float) | Calcule les limites opaques de la forme en pixels pour un facteur de zoom et une résolution spécifiés. |
 | [GetSizeInPixels](../../aspose.words.rendering/noderendererbase/getsizeinpixels/#getsizeinpixels)(float, float) | Calcule la taille de la forme en pixels pour un facteur de zoom et une résolution spécifiés. |
 | [GetSizeInPixels](../../aspose.words.rendering/noderendererbase/getsizeinpixels/#getsizeinpixels_1)(float, float, float) | Calcule la taille de la forme en pixels pour un facteur de zoom et une résolution spécifiés. |
-| [RenderToScale](../../aspose.words.rendering/noderendererbase/rendertoscale/)(Graphics, float, float, float) | Rend la forme en unGraphics objet à une échelle spécifiée. |
-| [RenderToSize](../../aspose.words.rendering/noderendererbase/rendertosize/)(Graphics, float, float, float, float) | Rend la forme en unGraphics objet à une taille spécifiée. |
-| [Save](../../aspose.words.rendering/noderendererbase/save/#save)(Stream, ImageSaveOptions) | Rend la forme dans une image et enregistre dans un flux. |
+| [RenderToScale](../../aspose.words.rendering/noderendererbase/rendertoscale/)(Graphics, float, float, float) | Rend la forme dans unGraphics objet à une échelle spécifiée. |
+| [RenderToSize](../../aspose.words.rendering/noderendererbase/rendertosize/)(Graphics, float, float, float, float) | Rend la forme dans unGraphics objet à une taille spécifiée. |
+| [Save](../../aspose.words.rendering/noderendererbase/save/#save)(Stream, ImageSaveOptions) | Rend la forme dans une image et l'enregistre dans un flux. |
 | [Save](../../aspose.words.rendering/noderendererbase/save/#save_1)(string, ImageSaveOptions) | Rend la forme dans une image et l'enregistre dans un fichier. |
 
 ### Exemples
 
-Montre comment mesurer et mettre à l'échelle des formes.
+Montre comment mesurer et mettre à l’échelle des formes.
 
 ```csharp
 Document doc = new Document(MyDir + "Office math.docx");
@@ -58,13 +60,13 @@ Assert.AreEqual(13.0f, renderer.BoundsInPoints.Height, 0.1f);
 Assert.AreEqual(119.0f, renderer.OpaqueBoundsInPoints.Width, 0.2f);
 Assert.AreEqual(14.2f, renderer.OpaqueBoundsInPoints.Height, 0.1f);
 
-// Obtient la taille de la forme en pixels, avec une mise à l'échelle linéaire à un DPI spécifique.
+// Obtenez la taille de la forme en pixels, avec une mise à l'échelle linéaire vers un DPI spécifique.
 Rectangle bounds = renderer.GetBoundsInPixels(1.0f, 96.0f);
 
 Assert.AreEqual(159, bounds.Width);
 Assert.AreEqual(18, bounds.Height);
 
-// Obtient la taille de la forme en pixels, mais avec un DPI différent pour les dimensions horizontales et verticales.
+// Récupère la taille de la forme en pixels, mais avec un DPI différent pour les dimensions horizontales et verticales.
 bounds = renderer.GetBoundsInPixels(1.0f, 96.0f, 150.0f);
 Assert.AreEqual(159, bounds.Width);
 Assert.AreEqual(28, bounds.Height);

@@ -1,14 +1,14 @@
 ---
 title: OoxmlSaveOptions.OoxmlSaveOptions
 second_title: Referencia de API de Aspose.Words para .NET
-description: OoxmlSaveOptions constructor. Inicializa una nueva instancia de esta clase que se puede usar para guardar un documento en elDocx formato.
+description: OoxmlSaveOptions constructor. Inicializa una nueva instancia de esta clase que se puede utilizar para guardar un documento en elDocx formato.
 type: docs
 weight: 10
 url: /es/net/aspose.words.saving/ooxmlsaveoptions/ooxmlsaveoptions/
 ---
 ## OoxmlSaveOptions() {#constructor}
 
-Inicializa una nueva instancia de esta clase que se puede usar para guardar un documento en elDocx formato.
+Inicializa una nueva instancia de esta clase que se puede utilizar para guardar un documento en elDocx formato.
 
 ```csharp
 public OoxmlSaveOptions()
@@ -30,8 +30,8 @@ builder.InsertImage(ImageDir + "Transparent background logo.png");
 Assert.AreEqual(ShapeMarkupLanguage.Vml, ((Shape)doc.GetChild(NodeType.Shape, 0, true)).MarkupLanguage);
 
 // El estándar OOXML "ISO/IEC 29500:2008" no admite formas VML.
-// Si establecemos la propiedad "Compliance" del objeto SaveOptions en "OoxmlCompliance.Iso29500_2008_Strict",
-  // cualquier documento que guardemos al pasar este objeto tendrá que seguir ese estándar.
+// Si configuramos la propiedad "Cumplimiento" del objeto SaveOptions en "OoxmlCompliance.Iso29500_2008_Strict",
+ // cualquier documento que guardemos al pasar este objeto tendrá que seguir ese estándar.
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions
 {
     Compliance = OoxmlCompliance.Iso29500_2008_Strict,
@@ -56,7 +56,7 @@ Assert.AreEqual(ShapeMarkupLanguage.Dml, ((Shape)doc.GetChild(NodeType.Shape, 0,
 
 ## OoxmlSaveOptions(SaveFormat) {#constructor_1}
 
-Inicializa una nueva instancia de esta clase que se puede usar para guardar un documento en elDocx , Docm ,Dotx ,Dotm or FlatOpc formato.
+Inicializa una nueva instancia de esta clase que se puede utilizar para guardar un documento en elDocx , Docm ,Dotx ,Dotm o FlatOpc formato.
 
 ```csharp
 public OoxmlSaveOptions(SaveFormat saveFormat)
@@ -75,9 +75,9 @@ Document doc = new Document(MyDir + "Legacy control character.doc");
 
 // Cuando guardamos el documento en formato OOXML, podemos crear un objeto OoxmlSaveOptions
 // y luego pasarlo al método de guardado del documento para modificar cómo guardamos el documento.
-// Establecer la propiedad "KeepLegacyControlChars" en "true" para conservar
-// el carácter heredado "ShortDateTime" al guardar.
-// Establecer la propiedad "KeepLegacyControlChars" en "falso" para eliminar
+// Establece la propiedad "KeepLegacyControlChars" en "true" para preservar
+// el carácter heredado "ShortDateTime" mientras se guarda.
+// Establece la propiedad "KeepLegacyControlChars" en "false" para eliminar
 // el carácter heredado "ShortDateTime" del documento de salida.
 OoxmlSaveOptions so = new OoxmlSaveOptions(SaveFormat.Docx);
 so.KeepLegacyControlChars = keepLegacyControlChars;

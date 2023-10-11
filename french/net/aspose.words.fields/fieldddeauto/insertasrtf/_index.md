@@ -1,14 +1,14 @@
 ---
 title: FieldDdeAuto.InsertAsRtf
 second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldDdeAuto propriété. Obtient ou définit sil faut insérer lobjet lié au format texte enrichi RTF.
+description: FieldDdeAuto propriété. Obtient ou définit sil faut insérer lobjet lié au format de texte enrichi RTF.
 type: docs
 weight: 50
 url: /fr/net/aspose.words.fields/fieldddeauto/insertasrtf/
 ---
 ## FieldDdeAuto.InsertAsRtf property
 
-Obtient ou définit s'il faut insérer l'objet lié au format texte enrichi (RTF).
+Obtient ou définit s'il faut insérer l'objet lié au format de texte enrichi (RTF).
 
 ```csharp
 public bool InsertAsRtf { get; set; }
@@ -16,19 +16,20 @@ public bool InsertAsRtf { get; set; }
 
 ### Exemples
 
-Montre comment utiliser divers types de champs pour créer des liens vers d'autres documents dans le système de fichiers local et afficher leur contenu.
+Montre comment utiliser différents types de champs pour créer des liens vers d’autres documents dans le système de fichiers local et afficher leur contenu.
 
 ```csharp
+public void FieldLinkedObjectsAsText(InsertLinkedObjectAs insertLinkedObjectAs)
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
     // Vous trouverez ci-dessous trois types de champs que nous pouvons utiliser pour afficher le contenu d'un document lié sous forme de texte.
-    // 1 - Un champ LIEN :
+    // 1 - Un champ LIEN :
     builder.Writeln("FieldLink:\n");
     InsertFieldLink(builder, insertLinkedObjectAs, "Word.Document.8", MyDir + "Document.docx", null, true);
 
-    // 2 - Un champ DDE :
+    // 2 - Un champ DDE :
     builder.Writeln("FieldDde:\n");
     InsertFieldDde(builder, insertLinkedObjectAs, "Excel.Sheet", MyDir + "Spreadsheet.xlsx",
         "Sheet1!R1C1", true, true);
@@ -42,17 +43,18 @@ Montre comment utiliser divers types de champs pour créer des liens vers d'autr
     doc.Save(ArtifactsDir + "Field.LINK.DDE.DDEAUTO.docx");
 }
 
+public void FieldLinkedObjectsAsImage(InsertLinkedObjectAs insertLinkedObjectAs)
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
     // Vous trouverez ci-dessous trois types de champs que nous pouvons utiliser pour afficher le contenu d'un document lié sous la forme d'une image.
-    // 1 - Un champ LIEN :
+    // 1 - Un champ LIEN :
     builder.Writeln("FieldLink:\n");
     InsertFieldLink(builder, insertLinkedObjectAs, "Excel.Sheet", MyDir + "MySpreadsheet.xlsx",
         "Sheet1!R2C2", true);
 
-    // 2 - Un champ DDE :
+    // 2 - Un champ DDE :
     builder.Writeln("FieldDde:\n");
     InsertFieldDde(builder, insertLinkedObjectAs, "Excel.Sheet", MyDir + "Spreadsheet.xlsx",
         "Sheet1!R1C1", true, true);
@@ -67,7 +69,7 @@ Montre comment utiliser divers types de champs pour créer des liens vers d'autr
 }
 
 /// <summary>
-/// Utilisez un générateur de document pour insérer un champ LINK et définir ses propriétés en fonction de paramètres.
+/// Utilisez un générateur de documents pour insérer un champ LINK et définir ses propriétés en fonction de paramètres.
 /// </summary>
 private static void InsertFieldLink(DocumentBuilder builder, InsertLinkedObjectAs insertLinkedObjectAs,
     string progId, string sourceFullName, string sourceItem, bool shouldAutoUpdate)
@@ -105,7 +107,7 @@ private static void InsertFieldLink(DocumentBuilder builder, InsertLinkedObjectA
 }
 
 /// <summary>
-/// Utilisez un générateur de document pour insérer un champ DDE et définissez ses propriétés en fonction des paramètres.
+/// Utilisez un générateur de documents pour insérer un champ DDE et définissez ses propriétés en fonction de paramètres.
 /// </summary>
 private static void InsertFieldDde(DocumentBuilder builder, InsertLinkedObjectAs insertLinkedObjectAs, string progId,
     string sourceFullName, string sourceItem, bool isLinked, bool shouldAutoUpdate)
@@ -144,7 +146,7 @@ private static void InsertFieldDde(DocumentBuilder builder, InsertLinkedObjectAs
 }
 
 /// <summary>
-/// Utilisez un générateur de document pour insérer un champ DDEAUTO, et définissez ses propriétés en fonction de paramètres.
+/// Utilisez un générateur de documents pour insérer un champ DDEAUTO et définir ses propriétés en fonction de paramètres.
 /// </summary>
 private static void InsertFieldDdeAuto(DocumentBuilder builder, InsertLinkedObjectAs insertLinkedObjectAs,
     string progId, string sourceFullName, string sourceItem, bool isLinked)
@@ -181,12 +183,12 @@ private static void InsertFieldDdeAuto(DocumentBuilder builder, InsertLinkedObje
 
 public enum InsertLinkedObjectAs
 {
-    // ObjetLiéCommeTexte
+    // ObjetLienCommeTexte
     Text,
     Unicode,
     Html,
     Rtf,
-    // ObjetLiéCommeImage
+    // LinkedObjectAsImage
     Picture,
     Bitmap
 }

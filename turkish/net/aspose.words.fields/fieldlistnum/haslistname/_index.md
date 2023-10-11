@@ -1,14 +1,14 @@
 ---
 title: FieldListNum.HasListName
 second_title: Aspose.Words for .NET API Referansı
-description: FieldListNum mülk. Soyut numaralandırma tanımının adının alan kodu tarafından sağlanıp sağlanmadığını gösteren bir değer döndürür.
+description: FieldListNum mülk. Soyut numaralandırma tanımının adının alanın kodu tarafından sağlanıp sağlanmadığını belirten bir değer döndürür.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fields/fieldlistnum/haslistname/
 ---
 ## FieldListNum.HasListName property
 
-Soyut numaralandırma tanımının adının alan kodu tarafından sağlanıp sağlanmadığını gösteren bir değer döndürür.
+Soyut numaralandırma tanımının adının alanın kodu tarafından sağlanıp sağlanmadığını belirten bir değer döndürür.
 
 ```csharp
 public bool HasListName { get; }
@@ -23,46 +23,46 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // LISTNUM alanları, her LISTNUM alanında artan bir sayı görüntüler.
-// Bu alanlar ayrıca, onları numaralı listeleri taklit etmek için kullanmamıza izin veren çeşitli seçeneklere sahiptir.
+// Bu alanlar aynı zamanda onları numaralandırılmış listeleri taklit etmek için kullanmamıza izin veren çeşitli seçeneklere de sahiptir.
 FieldListNum field = (FieldListNum)builder.InsertField(FieldType.FieldListNum, true);
 
-// Listeler varsayılan olarak 1'den saymaya başlar, ancak bu sayıyı 0 gibi farklı bir değere ayarlayabiliriz.
-// Bu alan "0)" gösterecektir.
+// Listeler varsayılan olarak 1'den saymaya başlar ancak bu sayıyı 0 gibi farklı bir değere de ayarlayabiliriz.
+// Bu alanda "0)" görüntülenecektir.
 field.StartingNumber = "0";
 builder.Writeln("Paragraph 1");
 
 Assert.AreEqual(" LISTNUM  \\s 0", field.GetFieldCode());
 
- // LISTNUM alanları, her liste düzeyi için ayrı sayıları korur.
+ // LISTNUM alanları her liste düzeyi için ayrı sayıları korur.
 // LISTNUM alanını başka bir LISTNUM alanıyla aynı paragrafa ekleme
 // sayı yerine liste düzeyini artırır.
-// Bir sonraki alan yukarıda başlattığımız sayıma devam edecek ve liste düzeyinde 1 değerini gösterecek.
+// Bir sonraki alan yukarıda başlattığımız sayıma devam edecek ve liste düzeyi 1'de "1" değerini görüntüleyecektir.
 builder.InsertField(FieldType.FieldListNum, true);
 
-// Bu alan liste düzeyinde bir sayıma başlar. "1" değerini görüntüler.
+// Bu alan liste düzeyinde 2'den bir sayım başlatacaktır. "1" değerini görüntüleyecektir.
 builder.InsertField(FieldType.FieldListNum, true);
 
-// Bu alan liste düzeyinde bir sayıma başlar. "1" değerini görüntüler.
-// Farklı liste düzeylerinin farklı biçimlendirmeleri vardır,
-// böylece bu alanlar birleştirilmiş "1)a)i)" değerini gösterecek.
+// Bu alan liste düzeyinde 3'ten bir sayım başlatacaktır. "1" değerini görüntüleyecektir.
+// Farklı liste seviyelerinin farklı formatları vardır,
+// böylece bu alanlar bir araya getirildiğinde "1)a)i)" değeri görüntülenecektir.
 builder.InsertField(FieldType.FieldListNum, true);
 builder.Writeln("Paragraph 2");
 
-// Ekleyeceğimiz sonraki LISTNUM alanı, saymaya liste düzeyinde devam edecek
-// önceki LISTNUM alanının açık olduğunu.
+// Ekleyeceğimiz bir sonraki LISTNUM alanı liste düzeyinde sayıma devam edecek
+// önceki LISTNUM alanının açık olduğu.
 // Farklı bir liste düzeyine atlamak için "ListLevel" özelliğini kullanabiliriz.
-// Bu LISTNUM alanı 3. liste seviyesinde kalsaydı, "ii)" gösterirdi,
-// ancak 2. listeye taşıdığımız için saymaya o seviyede devam ediyor ve "b)" gösteriyor.
+// Bu LISTNUM alanı liste düzeyi 3'te kalırsa "ii)" görüntülenir,
+// ama liste düzeyi 2'ye taşıdığımız için o düzeyde saymaya devam ediyor ve "b)" gösteriyor.
 field = (FieldListNum)builder.InsertField(FieldType.FieldListNum, true);
 field.ListLevel = "2";
 builder.Writeln("Paragraph 3");
 
 Assert.AreEqual(" LISTNUM  \\l 2", field.GetFieldCode());
 
-// Alanın farklı bir AUTONUM alan türüne öykünmesini sağlamak için ListName özelliğini ayarlayabiliriz.
-// "NumberDefault", AUTONUM'a öykünür, "OutlineDefault", AUTONUMOUT'a öykünür,
-// ve "LegalDefault", AUTONUMLGL alanlarını öykünür.
-// Başlangıç numarası 1 olan "OutlineDefault" liste adı, "I" öğesinin görüntülenmesine neden olur.
+// Alanın farklı bir AUTONUM alan tipini taklit etmesini sağlamak için ListName özelliğini ayarlayabiliriz.
+// "NumberDefault" AUTONUM'u taklit eder, "OutlineDefault" AUTONUMOUT'u taklit eder,
+// ve "LegalDefault", AUTONUMLGL alanlarını taklit eder.
+// Başlangıç numarası 1 olan "OutlineDefault" liste adı, "I." görüntülenmesiyle sonuçlanacaktır.
 field = (FieldListNum)builder.InsertField(FieldType.FieldListNum, true);
 field.StartingNumber = "1";
 field.ListName = "OutlineDefault";
@@ -71,8 +71,8 @@ builder.Writeln("Paragraph 4");
 Assert.IsTrue(field.HasListName);
 Assert.AreEqual(" LISTNUM  OutlineDefault \\s 1", field.GetFieldCode());
 
-// ListName önceki alandan taşınmaz, bu yüzden her yeni alan için onu ayarlamamız gerekecek.
-// Bu alan saymaya farklı liste adı ile devam eder ve "II." gösterir.
+// ListName önceki alandan taşınmaz, dolayısıyla onu her yeni alan için ayarlamamız gerekecek.
+// Bu alan farklı liste adı ile sayıma devam eder ve "II." değerini görüntüler.
 field = (FieldListNum)builder.InsertField(FieldType.FieldListNum, true);
 field.ListName = "OutlineDefault";
 builder.Writeln("Paragraph 5");

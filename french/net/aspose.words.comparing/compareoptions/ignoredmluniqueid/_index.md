@@ -1,14 +1,14 @@
 ---
 title: CompareOptions.IgnoreDmlUniqueId
 second_title: Référence de l'API Aspose.Words pour .NET
-description: CompareOptions propriété. Spécifie sil faut ignorer la différence dans lID unique de DrawingML. La valeur par défaut est faux .
+description: CompareOptions propriété. Spécifie sil faut ignorer la différence dans lID unique de DrawingML. La valeur par défaut estFAUX .
 type: docs
-weight: 50
+weight: 60
 url: /fr/net/aspose.words.comparing/compareoptions/ignoredmluniqueid/
 ---
 ## CompareOptions.IgnoreDmlUniqueId property
 
-Spécifie s'il faut ignorer la différence dans l'ID unique de DrawingML. La valeur par défaut est **faux** .
+Spécifie s'il faut ignorer la différence dans l'ID unique de DrawingML. La valeur par défaut est`FAUX` .
 
 ```csharp
 public bool IgnoreDmlUniqueId { get; set; }

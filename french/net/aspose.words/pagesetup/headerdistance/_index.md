@@ -16,7 +16,7 @@ public double HeaderDistance { get; set; }
 
 ### Exemples
 
-Montre comment ajuster la taille du papier, l'orientation, les marges, ainsi que d'autres paramètres pour une section.
+Montre comment ajuster le format du papier, l’orientation, les marges, ainsi que d’autres paramètres pour une section.
 
 ```csharp
 Document doc = new Document();

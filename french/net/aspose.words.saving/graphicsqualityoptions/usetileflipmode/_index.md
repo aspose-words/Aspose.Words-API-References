@@ -16,15 +16,15 @@ public bool UseTileFlipMode { get; set; }
 
 ### Remarques
 
-LaWrapMode spécifie comment une texture ou un dégradé est carrelé lorsqu'il est plus petit que la zone à remplir.
+LeWrapMode spécifie comment une texture ou un dégradé est carrelé lorsqu'il est plus petit que la zone à remplir.
 
 Par défaut utiliseTile (spécifie le carrelage sans retournement). Cela provoque un rendu inexact de l'image mise à l'échelle (avec une haute résolution).
 
-Cette propriété permet de basculer WrapMode versTileFlipXY (spécifie que les tuiles sont retournées horizontalement lorsque vous vous déplacez le long d'une ligne et retournées verticalement lorsque vous vous déplacez le long d'une colonne).
+Cette propriété permet de passer WrapMode àTileFlipXY (spécifie que les tuiles sont retournées horizontalement lorsque vous vous déplacez le long d'une ligne et retournées verticalement lorsque vous vous déplacez le long d'une colonne).
 
 ### Exemples
 
-Montre comment empêcher la ligne blanche d'apparaître lors du rendu avec une haute résolution.
+Montre comment éviter l'apparition d'une ligne blanche lors d'un rendu avec une haute résolution.
 
 ```csharp
 Document doc = new Document(MyDir + "Shape high dpi.docx");

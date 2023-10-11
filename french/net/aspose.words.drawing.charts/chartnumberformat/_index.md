@@ -1,14 +1,16 @@
 ---
 title: Class ChartNumberFormat
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Drawing.Charts.ChartNumberFormat classe. Représente la mise en forme numérique de lélément parent.
+description: Aspose.Words.Drawing.Charts.ChartNumberFormat classe. Représente le formatage numérique de lélément parent.
 type: docs
-weight: 720
+weight: 770
 url: /fr/net/aspose.words.drawing.charts/chartnumberformat/
 ---
 ## ChartNumberFormat class
 
-Représente la mise en forme numérique de l'élément parent.
+Représente le formatage numérique de l'élément parent.
+
+Pour en savoir plus, visitez le[Travailler avec des graphiques](https://docs.aspose.com/words/net/working-with-charts/) article documentaire.
 
 ```csharp
 public class ChartNumberFormat
@@ -23,7 +25,7 @@ public class ChartNumberFormat
 
 ### Exemples
 
-Montre comment définir la mise en forme des valeurs de graphique.
+Montre comment définir le formatage des valeurs du graphique.
 
 ```csharp
 Document doc = new Document();
@@ -32,19 +34,19 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertChart(ChartType.Column, 500, 300);
 Chart chart = shape.Chart;
 
-// Effacez la série de données de démonstration du graphique pour commencer avec un graphique propre.
+// Efface la série de données de démonstration du graphique pour commencer avec un graphique propre.
 chart.Series.Clear();
 
-// Ajoute une série personnalisée au graphique avec des catégories pour l'axe X,
+// Ajout d'une série personnalisée au graphique avec des catégories pour l'axe X,
  // et de grandes valeurs numériques respectives pour l'axe Y.
 chart.Series.Add("Aspose Test Series",
     new [] { "Word", "PDF", "Excel", "GoogleDocs", "Note" },
     new double[] { 1900000, 850000, 2100000, 600000, 1500000 });
 
- // Définissez le format numérique des étiquettes de graduation de l'axe Y pour ne pas grouper les chiffres avec des virgules.
+ // Définit le format numérique des étiquettes de graduation de l'axe Y pour ne pas regrouper les chiffres avec des virgules.
 chart.AxisY.NumberFormat.FormatCode = "#,##0";
 
-// Cet indicateur peut remplacer la valeur ci-dessus et tirer le format numérique de la cellule source.
+// Cet indicateur peut remplacer la valeur ci-dessus et extraire le format numérique de la cellule source.
 Assert.False(chart.AxisY.NumberFormat.IsLinkedToSource);
 
 doc.Save(ArtifactsDir + "Charts.SetNumberFormatToChartAxis.docx");

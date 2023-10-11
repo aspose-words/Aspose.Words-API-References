@@ -1,14 +1,14 @@
 ---
 title: CellFormat.Shading
 second_title: Aspose.Words för .NET API Referens
-description: CellFormat fast egendom. Returnerar ett Shadingobjekt som refererar till skuggformateringen för cellen.
+description: CellFormat fast egendom. Returnerar enShading objekt som hänvisar till skuggformateringen för cellen.
 type: docs
-weight: 90
+weight: 100
 url: /sv/net/aspose.words.tables/cellformat/shading/
 ---
 ## CellFormat.Shading property
 
-Returnerar ett Shading-objekt som refererar till skuggformateringen för cellen.
+Returnerar en[`Shading`](../../../aspose.words/shading/) objekt som hänvisar till skuggformateringen för cellen.
 
 ```csharp
 public Shading Shading { get; }

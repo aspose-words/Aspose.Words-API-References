@@ -1,14 +1,14 @@
 ---
 title: ShapeBase.HorizontalAlignment
 second_title: Aspose.Words per .NET API Reference
-description: ShapeBase proprietà. Specifica come posizionare la forma orizzontalmente.
+description: ShapeBase proprietà. Specifica come viene posizionata la forma orizzontalmente.
 type: docs
-weight: 210
+weight: 220
 url: /it/net/aspose.words.drawing/shapebase/horizontalalignment/
 ---
 ## ShapeBase.HorizontalAlignment property
 
-Specifica come posizionare la forma orizzontalmente.
+Specifica come viene posizionata la forma orizzontalmente.
 
 ```csharp
 public HorizontalAlignment HorizontalAlignment { get; set; }
@@ -18,7 +18,7 @@ public HorizontalAlignment HorizontalAlignment { get; set; }
 
 Il valore predefinito èNone.
 
-Ha effetto solo per le forme mobili di livello superiore.
+Ha effetto solo per le forme fluttuanti di livello superiore.
 
 ### Esempi
 

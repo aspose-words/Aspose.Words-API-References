@@ -1,14 +1,14 @@
 ---
 title: XmlMapping.StoreItemId
 second_title: Aspose.Words for .NET API 参考
-description: XmlMapping 财产. 为自定义 XML 数据部分指定自定义 XML 数据标识符 将用于评估XPath表达式.
+description: XmlMapping 财产. 指定自定义 XML 数据部分的自定义 XML 数据标识符其中 应用于评估XPath表达式.
 type: docs
 weight: 40
 url: /zh/net/aspose.words.markup/xmlmapping/storeitemid/
 ---
 ## XmlMapping.StoreItemId property
 
-为自定义 XML 数据部分指定自定义 XML 数据标识符， 将用于评估[`XPath`](../xpath/)表达式.
+指定自定义 XML 数据部分的自定义 XML 数据标识符，其中 应用于评估[`XPath`](../xpath/)表达式.
 
 ```csharp
 public string StoreItemId { get; }
@@ -16,7 +16,7 @@ public string StoreItemId { get; }
 
 ### 例子
 
-显示如何获取 XML 部件的自定义 XML 数据标识符。
+演示如何获取 XML 部件的自定义 XML 数据标识符。
 
 ```csharp
 Document doc = new Document(MyDir + "Custom XML part in structured document tag.docx");

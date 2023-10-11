@@ -1,14 +1,14 @@
 ---
 title: AxisBound.Equals
 second_title: Aspose.Words per .NET API Reference
-description: AxisBound metodo. Determina se loggetto specificato è uguale in valore alloggetto corrente.
+description: AxisBound metodo. Determina se loggetto specificato ha un valore uguale alloggetto corrente.
 type: docs
 weight: 50
 url: /it/net/aspose.words.drawing.charts/axisbound/equals/
 ---
 ## AxisBound.Equals method
 
-Determina se l'oggetto specificato è uguale in valore all'oggetto corrente.
+Determina se l'oggetto specificato ha un valore uguale all'oggetto corrente.
 
 ```csharp
 public override bool Equals(object obj)

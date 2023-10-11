@@ -1,14 +1,14 @@
 ---
 title: Document.SpellingChecked
 second_title: Referencia de API de Aspose.Words para .NET
-description: Document propiedad. Devoluciones verdadero si se ha revisado la ortografía del documento.
+description: Document propiedad. Devolucionesverdadero si se ha revisado la ortografía del documento.
 type: docs
-weight: 390
+weight: 410
 url: /es/net/aspose.words/document/spellingchecked/
 ---
 ## Document.SpellingChecked property
 
-Devoluciones **verdadero** si se ha revisado la ortografía del documento.
+Devoluciones`verdadero` si se ha revisado la ortografía del documento.
 
 ```csharp
 public bool SpellingChecked { get; set; }
@@ -16,7 +16,7 @@ public bool SpellingChecked { get; set; }
 
 ### Observaciones
 
-Para volver a revisar la ortografía en el documento, establezca esta propiedad en **falso** .
+Para volver a revisar la ortografía del documento, establezca esta propiedad en`FALSO` .
 
 ### Ejemplos
 
@@ -28,9 +28,9 @@ Document doc = new Document();
 // La cadena con errores ortográficos.
 doc.FirstSection.Body.FirstParagraph.Runs.Add(new Run(doc, "The speeling in this documentz is all broked."));
 
-  // La verificación de ortografía/gramática comienza si establecemos las propiedades en falso.
-// Podemos ver todos los errores en Microsoft Word a través de Revisar -> ortografía y Gramática.
-// Tenga en cuenta que Microsoft Word no inicia automáticamente la revisión gramatical/ortográfica para los formatos de documento DOC y RTF.
+ // La revisión ortográfica/gramatical comienza si configuramos las propiedades en falso.
+// Podemos ver todos los errores en Microsoft Word mediante Revisar -> Ortografía y Gramática.
+// Tenga en cuenta que Microsoft Word no inicia la revisión gramatical/ortográfica automáticamente para los formatos de documentos DOC y RTF.
 doc.SpellingChecked = checkSpellingGrammar;
 doc.GrammarChecked = checkSpellingGrammar;
 

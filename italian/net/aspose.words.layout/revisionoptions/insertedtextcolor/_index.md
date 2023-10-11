@@ -1,14 +1,14 @@
 ---
 title: RevisionOptions.InsertedTextColor
 second_title: Aspose.Words per .NET API Reference
-description: RevisionOptions proprietà. Consente di specificare il colore da utilizzare per il contenuto inseritoInsertion . Il valore predefinito èByAuthor .
+description: RevisionOptions proprietà. Permette di specificare il colore da utilizzare per il contenuto inseritoInsertion . Il valore predefinito èByAuthor .
 type: docs
 weight: 40
 url: /it/net/aspose.words.layout/revisionoptions/insertedtextcolor/
 ---
 ## RevisionOptions.InsertedTextColor property
 
-Consente di specificare il colore da utilizzare per il contenuto inseritoInsertion . Il valore predefinito èByAuthor .
+Permette di specificare il colore da utilizzare per il contenuto inseritoInsertion . Il valore predefinito èByAuthor .
 
 ```csharp
 public RevisionColor InsertedTextColor { get; set; }

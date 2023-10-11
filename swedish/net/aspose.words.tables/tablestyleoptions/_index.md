@@ -3,7 +3,7 @@ title: Enum TableStyleOptions
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Tables.TableStyleOptions uppräkning. Anger hur tabellstil tillämpas på en tabell.
 type: docs
-weight: 6070
+weight: 6370
 url: /sv/net/aspose.words.tables/tablestyleoptions/
 ---
 ## TableStyleOptions enumeration

@@ -20,13 +20,13 @@ public bool Unlink()
 
 ### 评论
 
-用其最新结果替换该字段。
+将字段替换为其最新结果。
 
 某些字段，例如 XE（索引条目）字段和 SEQ（序列）字段，无法取消链接。
 
 ### 例子
 
-显示如何取消链接字段。
+展示如何取消链接字段。
 
 ```csharp
 Document doc = new Document(MyDir + "Linked fields.docx");

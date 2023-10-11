@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTag.FullDate
 second_title: Aspose.Words لمراجع .NET API
-description: StructuredDocumentTag ملكية. يحدد التاريخ الكامل والوقت الذي تم إدخاله مؤخرًا في هذا المعاملة الخاصة والتفضيلية .
+description: StructuredDocumentTag ملكية. يحدد التاريخ والوقت الكاملين لآخر إدخال في هذا المعاملة الخاصة والتفضيلية .
 type: docs
 weight: 130
 url: /ar/net/aspose.words.markup/structureddocumenttag/fulldate/
 ---
 ## StructuredDocumentTag.FullDate property
 
-يحدد التاريخ الكامل والوقت الذي تم إدخاله مؤخرًا في هذا **المعاملة الخاصة والتفضيلية** .
+يحدد التاريخ والوقت الكاملين لآخر إدخال في هذا **المعاملة الخاصة والتفضيلية** .
 
 ```csharp
 public DateTime FullDate { get; set; }
@@ -16,36 +16,36 @@ public DateTime FullDate { get; set; }
 
 ### ملاحظات
 
-الوصول إلى هذه الخاصية سيعمل فقط من أجلDate نوع SDT .
+الوصول إلى هذه الخاصية سوف يعمل فقط من أجلDate نوع المعاملة الخاصة والتفضيلية.
 
-سيحدث استثناء لجميع أنواع المعاملة الخاصة والتفضيلية الأخرى.
+بالنسبة لجميع أنواع SDT الأخرى، سيحدث استثناء.
 
 ### أمثلة
 
-يوضح كيفية مطالبة المستخدم بإدخال تاريخ بعلامة مستند منظم.
+يوضح كيفية مطالبة المستخدم بإدخال تاريخ باستخدام علامة مستند منظمة.
 
 ```csharp
 Document doc = new Document();
 
-// أدخل علامة مستند منظم تطالب المستخدم بإدخال تاريخ.
-// في Microsoft Word ، يُعرف هذا العنصر باسم "عنصر تحكم محتوى منتقي التاريخ".
-// عندما نضغط على السهم الموجود في الطرف الأيمن من هذه العلامة في Microsoft Word ،
-// سنرى نافذة منبثقة في شكل تقويم قابل للنقر.
+// أدخل علامة مستند منظمة تطالب المستخدم بإدخال تاريخ.
+// في Microsoft Word، يُعرف هذا العنصر باسم "التحكم في محتوى منتقي التاريخ".
+// عندما نضغط على السهم الموجود على الجانب الأيمن من هذه العلامة في Microsoft Word،
+// سوف نرى نافذة منبثقة على شكل تقويم قابل للنقر عليه.
 // يمكننا استخدام تلك النافذة المنبثقة لتحديد التاريخ الذي ستعرضه العلامة.
 StructuredDocumentTag sdtDate = new StructuredDocumentTag(doc, SdtType.Date, MarkupLevel.Inline);
 
-// عرض التاريخ حسب اللغة العربية السعودية.
+// عرض التاريخ حسب لغة المملكة العربية السعودية.
 sdtDate.DateDisplayLocale = CultureInfo.GetCultureInfo("ar-SA").LCID;
 
-// اضبط التنسيق الذي تريد عرض التاريخ به.
+// قم بتعيين التنسيق الذي سيتم عرض التاريخ به.
 sdtDate.DateDisplayFormat = "dd MMMM, yyyy";
 sdtDate.DateStorageFormat = SdtDateStorageFormat.DateTime;
 
 // عرض التاريخ حسب التقويم الهجري.
 sdtDate.CalendarType = SdtCalendarType.Hijri;
 
-// قبل أن يختار المستخدم تاريخًا في Microsoft Word ، ستعرض العلامة النص "انقر هنا لإدخال تاريخ.".
-// وفقًا لتقويم العلامة ، قم بتعيين الخاصية "FullDate" للحصول على العلامة لعرض التاريخ الافتراضي.
+// قبل أن يختار المستخدم تاريخًا في Microsoft Word، ستعرض العلامة النص "انقر هنا لإدخال التاريخ".
+// وفقًا لتقويم العلامة، قم بتعيين خاصية "التاريخ الكامل" حتى تعرض العلامة تاريخًا افتراضيًا.
 sdtDate.FullDate = new DateTime(1440, 10, 20);
 
 DocumentBuilder builder = new DocumentBuilder(doc);

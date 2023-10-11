@@ -3,7 +3,7 @@ title: ImageSaveOptions.Clone
 second_title: Référence de l'API Aspose.Words pour .NET
 description: ImageSaveOptions méthode. Crée un clone profond de cet objet.
 type: docs
-weight: 200
+weight: 210
 url: /fr/net/aspose.words.saving/imagesaveoptions/clone/
 ---
 ## ImageSaveOptions.Clone method
@@ -16,7 +16,7 @@ public ImageSaveOptions Clone()
 
 ### Exemples
 
-Montre comment sélectionner un taux de bit par pixel avec lequel rendre un document en image.
+Montre comment sélectionner un débit bit par pixel avec lequel restituer un document en image.
 
 ```csharp
 Document doc = new Document();
@@ -28,13 +28,13 @@ Document doc = new Document();
 
             Assert.That(20000, Is.LessThan(new FileInfo(ImageDir + "Logo.jpg").Length));
 
-            // Lorsque nous enregistrons le document en tant qu'image, nous pouvons passer un objet SaveOptions à
-            // sélectionne un format de pixel pour l'image que l'opération de sauvegarde va générer.
-            // Divers taux de bit par pixel affecteront la qualité et la taille du fichier de l'image générée.
+            // Lorsque nous enregistrons le document sous forme d'image, nous pouvons passer un objet SaveOptions à
+            // sélectionne un format de pixel pour l'image que l'opération de sauvegarde générera.
+            // Différents débits bit par pixel affecteront la qualité et la taille du fichier de l'image générée.
             ImageSaveOptions imageSaveOptions = new ImageSaveOptions(SaveFormat.Png);
             imageSaveOptions.PixelFormat = imagePixelFormat;
 
-            // Nous pouvons cloner des instances ImageSaveOptions.
+            // Nous pouvons cloner les instances ImageSaveOptions.
             Assert.AreNotEqual(imageSaveOptions, imageSaveOptions.Clone());
 
             doc.Save(ArtifactsDir + "ImageSaveOptions.PixelFormat.png", imageSaveOptions);

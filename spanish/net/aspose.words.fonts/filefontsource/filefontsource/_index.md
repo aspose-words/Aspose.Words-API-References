@@ -1,14 +1,14 @@
 ---
 title: FileFontSource.FileFontSource
 second_title: Referencia de API de Aspose.Words para .NET
-description: FileFontSource constructor. Director
+description: FileFontSource constructor. Director.
 type: docs
 weight: 10
 url: /es/net/aspose.words.fonts/filefontsource/filefontsource/
 ---
 ## FileFontSource(string) {#constructor}
 
-Director
+Director.
 
 ```csharp
 public FileFontSource(string filePath)
@@ -44,7 +44,7 @@ Assert.AreEqual(0, fileFontSource.Priority);
 
 ## FileFontSource(string, int) {#constructor_1}
 
-Director
+Director.
 
 ```csharp
 public FileFontSource(string filePath, int priority)
@@ -81,7 +81,7 @@ Assert.AreEqual(0, fileFontSource.Priority);
 
 ## FileFontSource(string, int, string) {#constructor_2}
 
-Director
+Director.
 
 ```csharp
 public FileFontSource(string filePath, int priority, string cacheKey)
@@ -95,10 +95,9 @@ public FileFontSource(string filePath, int priority, string cacheKey)
 
 ### Ejemplos
 
-Muestra cómo acelerar el proceso de inicialización de caché de fuentes.
+Muestra cómo acelerar el proceso de inicialización de la caché de fuentes.
 
 ```csharp
-[Test]
 public void LoadFontSearchCache()
 {
     const string cacheKey1 = "Arvo";
@@ -126,7 +125,7 @@ public void LoadFontSearchCache()
 }
 
 /// <summary>
-/// Cargue los datos de la fuente solo cuando sea necesario en lugar de almacenarlos en la memoria
+/// Carga los datos de la fuente solo cuando sea necesario en lugar de almacenarlos en la memoria
 /// durante toda la vida útil del objeto "FontSettings".
 /// </summary>
 private class SearchCacheStream : StreamFontSource

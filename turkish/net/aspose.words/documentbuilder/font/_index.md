@@ -1,14 +1,14 @@
 ---
 title: DocumentBuilder.Font
 second_title: Aspose.Words for .NET API Referansı
-description: DocumentBuilder mülk. Geçerli yazı tipi biçimlendirme özelliklerini temsil eden bir nesne döndürür.
+description: DocumentBuilder mülk. Geçerli yazı tipi biçimlendirme özelliklerini temsil eden bir nesneyi döndürür.
 type: docs
-weight: 90
+weight: 100
 url: /tr/net/aspose.words/documentbuilder/font/
 ---
 ## DocumentBuilder.Font property
 
-Geçerli yazı tipi biçimlendirme özelliklerini temsil eden bir nesne döndürür.
+Geçerli yazı tipi biçimlendirme özelliklerini temsil eden bir nesneyi döndürür.
 
 ```csharp
 public Font Font { get; }
@@ -16,13 +16,13 @@ public Font Font { get; }
 
 ### Notlar
 
-Kullanmak **Yazı tipi** yazı tipi biçimlendirme özelliklerine erişmek ve bunları değiştirmek için.
+Kullanmak`Font` yazı tipi biçimlendirme özelliklerine erişmek ve bunları değiştirmek için.
 
-Metin eklemeden önce yazı tipi biçimlendirmesini belirtin.
+Metin eklemeden önce yazı tipi formatını belirtin.
 
 ### Örnekler
 
-Kenarlıkla çevrili bir dizenin belgeye nasıl ekleneceğini gösterir.
+Kenarlıkla çevrelenmiş bir dizenin belgeye nasıl ekleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -57,9 +57,9 @@ builder.Font.Size = 16;
 builder.Font.Name = "Arial";
 builder.Font.Bold = true;
 
-// Bir belge oluşturucuda biçimlendirme seçeneklerini yapılandırmak bunları uygular
-// imlecinin bulunduğu geçerli hücreye/satıra,
-// ve bu oluşturucu kullanılarak oluşturulan tüm yeni hücreler ve satırlar.
+// Belge oluşturucudaki biçimlendirme seçeneklerini yapılandırmak bunları uygulayacaktır
+// imlecin bulunduğu geçerli hücreye/satıra,
+// ve ayrıca bu oluşturucu kullanılarak oluşturulan yeni hücreler ve satırlar.
 builder.Write("Header Row,\n Cell 1");
 builder.InsertCell();
 builder.Write("Header Row,\n Cell 2");
@@ -67,8 +67,8 @@ builder.InsertCell();
 builder.Write("Header Row,\n Cell 3");
 builder.EndRow();
 
-// Oluşturmak üzere olduğumuz yeni satırlar ve hücreler için oluşturucunun biçimlendirme nesnelerini yeniden yapılandırın.
-// Oluşturucu, bunları bir başlık satırı olarak öne çıkması için önceden oluşturulmuş ilk satıra uygulamayacaktır.
+// Oluşturucunun biçimlendirme nesnelerini, yapmak üzere olduğumuz yeni satırlar ve hücreler için yeniden yapılandırın.
+// Oluşturucu bunları zaten oluşturulmuş olan ilk satıra uygulamayacaktır, böylece başlık satırı olarak öne çıkacaktır.
 builder.CellFormat.Shading.BackgroundPatternColor = Color.White;
 builder.CellFormat.VerticalAlignment = CellVerticalAlignment.Center;
 builder.RowFormat.Height = 30;

@@ -3,7 +3,7 @@ title: Interface IFieldUserPromptRespondent
 second_title: Referencia de API de Aspose.Words para .NET
 description: Aspose.Words.Fields.IFieldUserPromptRespondent interfaz. Representa al encuestado ante las indicaciones del usuario durante la actualización del campo.
 type: docs
-weight: 2560
+weight: 2740
 url: /es/net/aspose.words.fields/ifielduserpromptrespondent/
 ---
 ## IFieldUserPromptRespondent interface
@@ -18,31 +18,30 @@ public interface IFieldUserPromptRespondent
 
 | Nombre | Descripción |
 | --- | --- |
-| [Respond](../../aspose.words.fields/ifielduserpromptrespondent/respond/)(string, string) | Cuando se implementa, devuelve una respuesta del usuario al solicitarlo. Su implementación debería devolver **nulo** para indicar que el usuario no respondió al aviso (es decir, el usuario presionó el botón Cancelar en la ventana del aviso). |
+| [Respond](../../aspose.words.fields/ifielduserpromptrespondent/respond/)(string, string) | Cuando se implementa, devuelve una respuesta del usuario cuando se le solicita. Su implementación debería devolver`nulo` para indicar que el usuario no ha respondido al mensaje (es decir, el usuario ha presionado el botón Cancelar en la ventana del mensaje). |
 
 ### Observaciones
 
-Los campos ASK y FILLIN son ejemplos de campos que solicitan al usuario alguna respuesta. Implemente esta interface y asígnela al[`UserPromptRespondent`](../fieldoptions/userpromptrespondent/) propiedad para establecer interacción entre el campo update y el usuario.
+Los campos PREGUNTAR y FILLIN son ejemplos de campos que solicitan al usuario alguna respuesta. Implemente esta interfaz y asígnela al[`UserPromptRespondent`](../fieldoptions/userpromptrespondent/) propiedad para establecer la interacción entre el campo update y el usuario.
 
 ### Ejemplos
 
 Muestra cómo crear un campo ASK y establecer sus propiedades.
 
 ```csharp
-[Test]
 public void FieldAsk()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Coloque un campo donde se colocará la respuesta a nuestro campo ASK.
+    // Colocar un campo donde se colocará la respuesta a nuestro campo ASK.
     FieldRef fieldRef = (FieldRef)builder.InsertField(FieldType.FieldRef, true);
     fieldRef.BookmarkName = "MyAskField";
     builder.Writeln();
 
     Assert.AreEqual(" REF  MyAskField", fieldRef.GetFieldCode());
 
-    // Inserte el campo ASK y edite sus propiedades para hacer referencia a nuestro campo REF por nombre de marcador.
+    // Inserte el campo ASK y edite sus propiedades para hacer referencia a nuestro campo REF por el nombre del marcador.
     FieldAsk fieldAsk = (FieldAsk)builder.InsertField(FieldType.FieldAsk, true);
     fieldAsk.BookmarkName = "MyAskField";
     fieldAsk.PromptText = "Please provide a response for this ASK field";
@@ -54,7 +53,7 @@ public void FieldAsk()
         " ASK  MyAskField \"Please provide a response for this ASK field\" \\d \"Response from within the field.\" \\o",
         fieldAsk.GetFieldCode());
 
-    // Los campos ASK aplican la respuesta predeterminada a sus respectivos campos REF durante una combinación de correspondencia.
+    // Los campos PREGUNTAR aplican la respuesta predeterminada a sus respectivos campos REF durante una combinación de correspondencia.
     DataTable table = new DataTable("My Table");
     table.Columns.Add("Column 1");
     table.Rows.Add("Row 1");
@@ -63,16 +62,17 @@ public void FieldAsk()
     FieldMergeField fieldMergeField = (FieldMergeField)builder.InsertField(FieldType.FieldMergeField, true);
     fieldMergeField.FieldName = "Column 1";
 
-    // Podemos modificar o anular la respuesta predeterminada en nuestros campos ASK con un contestador personalizado,
+    // Podemos modificar o anular la respuesta predeterminada en nuestros campos PREGUNTAR con un respondedor personalizado,
     // que ocurrirá durante una combinación de correspondencia.
     doc.FieldOptions.UserPromptRespondent = new MyPromptRespondent();
     doc.MailMerge.Execute(table);
 
     doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.ASK.docx");
+}
 
 /// <summary>
-/// Antepone texto a la respuesta predeterminada de un campo ASK durante una combinación de correspondencia.
+/// Antepone texto a la respuesta predeterminada de un campo PREGUNTAR durante una combinación de correspondencia.
 /// </summary>
 private class MyPromptRespondent : IFieldUserPromptRespondent
 {

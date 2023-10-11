@@ -1,14 +1,14 @@
 ---
 title: Enum ShapeType
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Drawing.ShapeType تعداد. يحدد نوع الشكل في مستند Microsoft Word .
+description: Aspose.Words.Drawing.ShapeType تعداد. يحدد نوع الشكل في مستند Microsoft Word.
 type: docs
-weight: 1140
+weight: 1290
 url: /ar/net/aspose.words.drawing/shapetype/
 ---
 ## ShapeType enumeration
 
-يحدد نوع الشكل في مستند Microsoft Word .
+يحدد نوع الشكل في مستند Microsoft Word.
 
 ```csharp
 public enum ShapeType
@@ -19,11 +19,11 @@ public enum ShapeType
 | اسم | قيمة | وصف |
 | --- | --- | --- |
 | Image | `75` | الشكل عبارة عن صورة. |
-| TextBox | `202` | الشكل عبارة عن مربع نص. لاحظ أن الأشكال من العديد من الأنواع الأخرى يمكن أن تحتوي أيضًا على نص بداخلها أيضًا . لا يجب أن يحتوي الشكل على هذا النوع ليحتوي على نص. |
-| Group | `-1` | الشكل عبارة عن شكل مجموعة. |
-| OleObject | `-2` | الشكل عبارة عن كائن OLE . |
+| TextBox | `202` | الشكل عبارة عن مربع نص. لاحظ أن الأشكال من العديد من الأنواع الأخرى يمكن أن تحتوي أيضًا على نص بداخلها. ليس من الضروري أن يحتوي الشكل على هذا النوع حتى يحتوي على نص. |
+| Group | `-1` | الشكل هو شكل المجموعة. |
+| OleObject | `-2` | الشكل عبارة عن كائن OLE. |
 | OleControl | `201` | الشكل عبارة عن عنصر تحكم ActiveX. |
-| NonPrimitive | `0` | شكل رسمه المستخدم ويتكون من عدة مقاطع و / أو رؤوس (منحنى أو شكل حر أو خربشة). |
+| NonPrimitive | `0` | شكل رسمه المستخدم ويتكون من أجزاء و/أو رؤوس متعددة (منحنى أو شكل حر أو خربشة). |
 | Rectangle | `1` |  |
 | RoundRectangle | `2` |  |
 | Ellipse | `3` |  |
@@ -122,7 +122,7 @@ public enum ShapeType
 | VerticalScroll | `97` |  |
 | HorizontalScroll | `98` |  |
 | CircularArrow | `99` |  |
-| CustomShape | `100` | يبدو أن نوع الشكل هذا قد تم تعيينه للأشكال التي ليست جزءًا من المجموعة القياسية لـ_ الأشكال التلقائية في Microsoft Word. على سبيل المثال ، إذا قمت بإدراج شكل تلقائي جديد من ClipArt. |
+| CustomShape | `100` | يبدو أن نوع الشكل هذا قد تم تعيينه للأشكال التي لا تعد جزءًا من المجموعة القياسية للأشكال التلقائية في Microsoft Word. على سبيل المثال، إذا قمت بإدراج شكل تلقائي جديد من ClipArt. |
 | UturnArrow | `101` |  |
 | CurvedRightArrow | `102` |  |
 | CurvedLeftArrow | `103` |  |
@@ -158,46 +158,46 @@ public enum ShapeType
 | FlowChartMagneticDrum | `133` |  |
 | FlowChartDisplay | `134` |  |
 | FlowChartDelay | `135` |  |
-| TextPlainText | `136` | كائن WordArt . |
-| TextStop | `137` | كائن WordArt . |
-| TextTriangle | `138` | كائن WordArt . |
-| TextTriangleInverted | `139` | كائن WordArt . |
-| TextChevron | `140` | كائن WordArt . |
-| TextChevronInverted | `141` | كائن WordArt . |
-| TextRingInside | `142` | كائن WordArt . |
-| TextRingOutside | `143` | كائن WordArt . |
-| TextArchUpCurve | `144` | كائن WordArt . |
-| TextArchDownCurve | `145` | كائن WordArt . |
-| TextCircleCurve | `146` | كائن WordArt . |
-| TextButtonCurve | `147` | كائن WordArt . |
-| TextArchUpPour | `148` | كائن WordArt . |
-| TextArchDownPour | `149` | كائن WordArt . |
-| TextCirclePour | `150` | كائن WordArt . |
-| TextButtonPour | `151` | كائن WordArt . |
-| TextCurveUp | `152` | كائن WordArt . |
-| TextCurveDown | `153` | كائن WordArt . |
-| TextCascadeUp | `154` | كائن WordArt . |
-| TextCascadeDown | `155` | كائن WordArt . |
-| TextWave1 | `156` | كائن WordArt . |
-| TextWave2 | `157` | كائن WordArt . |
-| TextWave3 | `158` | كائن WordArt . |
-| TextWave4 | `159` | كائن WordArt . |
-| TextInflate | `160` | كائن WordArt . |
-| TextDeflate | `161` | كائن WordArt . |
-| TextInflateBottom | `162` | كائن WordArt . |
-| TextDeflateBottom | `163` | كائن WordArt . |
-| TextInflateTop | `164` | كائن WordArt . |
-| TextDeflateTop | `165` | كائن WordArt . |
-| TextDeflateInflate | `166` | كائن WordArt . |
-| TextDeflateInflateDeflate | `167` | كائن WordArt . |
-| TextFadeRight | `168` | كائن WordArt . |
-| TextFadeLeft | `169` | كائن WordArt . |
-| TextFadeUp | `170` | كائن WordArt . |
-| TextFadeDown | `171` | كائن WordArt . |
-| TextSlantUp | `172` | كائن WordArt . |
-| TextSlantDown | `173` | كائن WordArt . |
-| TextCanUp | `174` | كائن WordArt . |
-| TextCanDown | `175` | كائن WordArt . |
+| TextPlainText | `136` | كائن WordArt. |
+| TextStop | `137` | كائن WordArt. |
+| TextTriangle | `138` | كائن WordArt. |
+| TextTriangleInverted | `139` | كائن WordArt. |
+| TextChevron | `140` | كائن WordArt. |
+| TextChevronInverted | `141` | كائن WordArt. |
+| TextRingInside | `142` | كائن WordArt. |
+| TextRingOutside | `143` | كائن WordArt. |
+| TextArchUpCurve | `144` | كائن WordArt. |
+| TextArchDownCurve | `145` | كائن WordArt. |
+| TextCircleCurve | `146` | كائن WordArt. |
+| TextButtonCurve | `147` | كائن WordArt. |
+| TextArchUpPour | `148` | كائن WordArt. |
+| TextArchDownPour | `149` | كائن WordArt. |
+| TextCirclePour | `150` | كائن WordArt. |
+| TextButtonPour | `151` | كائن WordArt. |
+| TextCurveUp | `152` | كائن WordArt. |
+| TextCurveDown | `153` | كائن WordArt. |
+| TextCascadeUp | `154` | كائن WordArt. |
+| TextCascadeDown | `155` | كائن WordArt. |
+| TextWave1 | `156` | كائن WordArt. |
+| TextWave2 | `157` | كائن WordArt. |
+| TextWave3 | `158` | كائن WordArt. |
+| TextWave4 | `159` | كائن WordArt. |
+| TextInflate | `160` | كائن WordArt. |
+| TextDeflate | `161` | كائن WordArt. |
+| TextInflateBottom | `162` | كائن WordArt. |
+| TextDeflateBottom | `163` | كائن WordArt. |
+| TextInflateTop | `164` | كائن WordArt. |
+| TextDeflateTop | `165` | كائن WordArt. |
+| TextDeflateInflate | `166` | كائن WordArt. |
+| TextDeflateInflateDeflate | `167` | كائن WordArt. |
+| TextFadeRight | `168` | كائن WordArt. |
+| TextFadeLeft | `169` | كائن WordArt. |
+| TextFadeUp | `170` | كائن WordArt. |
+| TextFadeDown | `171` | كائن WordArt. |
+| TextSlantUp | `172` | كائن WordArt. |
+| TextSlantDown | `173` | كائن WordArt. |
+| TextCanUp | `174` | كائن WordArt. |
+| TextCanDown | `175` | كائن WordArt. |
 | FlowChartAlternateProcess | `176` |  |
 | FlowChartOffpageConnector | `177` |  |
 | Callout90 | `178` |  |
@@ -223,63 +223,63 @@ public enum ShapeType
 | ActionButtonDocument | `198` |  |
 | ActionButtonSound | `199` |  |
 | ActionButtonMovie | `200` |  |
-| SingleCornerSnipped | `203` | قص كائن مستطيل ذو زاوية واحدة . |
-| TopCornersSnipped | `204` | قص مستطيل زاوية الجانب نفسه. |
-| DiagonalCornersSnipped | `205` | مستطيل ذو زاوية قطرية قص . |
-| TopCornersOneRoundedOneSnipped | `206` | مستطيل ذو زاوية واحدة مقتصة ودائرية . |
-| SingleCornerRounded | `207` | مستطيل ذو زاوية واحدة مستديرة . |
-| TopCornersRounded | `208` | مستطيل ذو زاوية جانبية مستديرة. |
-| DiagonalCornersRounded | `209` | مستطيل ذو زاوية قطرية دائرية . |
-| Heptagon | `210` | سباعي . |
-| Cloud | `211` | سحابة . |
-| Seal6 | `212` | نجمة سداسية . |
-| Seal7 | `213` | نجمة ذات سبع نقاط . |
-| Seal10 | `214` | نجمة ذات عشر نقاط . |
-| Seal12 | `215` | نجمة اثني عشر . |
-| SwooshArrow | `216` | سهم Swoosh . |
-| Teardrop | `217` | دمعة . |
-| SquareTabs | `218` | علامات تبويب مربعة. |
-| PlaqueTabs | `219` | علامات تبويب البلاك. |
-| Pie | `220` | فطيرة . |
-| WedgePie | `221` | فطيرة الوتد . |
-| InverseLine | `222` | خط معكوس . |
-| MathPlus | `223` | الرياضيات زائد . |
-| MathMinus | `224` | رياضيات ناقص . |
-| MathMultiply | `225` | ضرب الرياضيات . |
-| MathDivide | `226` | قسم الرياضيات . |
-| MathEqual | `227` | رياضيات متساوية . |
-| MathNotEqual | `228` | الرياضيات لا تساوي. |
+| SingleCornerSnipped | `203` | قص كائن مستطيل ذو زاوية واحدة. |
+| TopCornersSnipped | `204` | قص مستطيل الزاوية من نفس الجانب. |
+| DiagonalCornersSnipped | `205` | قص مستطيل الزاوية القطرية. |
+| TopCornersOneRoundedOneSnipped | `206` | مستطيل ذو زاوية واحدة مقصوص ومستدير. |
+| SingleCornerRounded | `207` | مستطيل مستدير ذو زاوية واحدة. |
+| TopCornersRounded | `208` | مستطيل مستدير الزاوية بنفس الجانب. |
+| DiagonalCornersRounded | `209` | مستطيل ذو زاوية قطرية مستديرة. |
+| Heptagon | `210` | السباعي. |
+| Cloud | `211` | السحابة. |
+| Seal6 | `212` | النجمة السداسية. |
+| Seal7 | `213` | النجمة السباعية. |
+| Seal10 | `214` | نجمة ذات عشرة رؤوس. |
+| Seal12 | `215` | نجمة ذات اثني عشر نقطة. |
+| SwooshArrow | `216` | سهم سووش. |
+| Teardrop | `217` | دمعة. |
+| SquareTabs | `218` | علامات التبويب المربعة. |
+| PlaqueTabs | `219` | علامات تبويب اللوحة. |
+| Pie | `220` | الفطيرة. |
+| WedgePie | `221` | فطيرة الإسفين. |
+| InverseLine | `222` | خط معكوس. |
+| MathPlus | `223` | الرياضيات زائد. |
+| MathMinus | `224` | الرياضيات ناقص. |
+| MathMultiply | `225` | ضرب الرياضيات. |
+| MathDivide | `226` | القسمة الرياضية. |
+| MathEqual | `227` | الرياضيات تساوي. |
+| MathNotEqual | `228` | الرياضيات غير متساوية. |
 | NonIsoscelesTrapezoid | `229` | شبه منحرف غير متساوي الساقين. |
 | LeftRightCircularArrow | `230` | سهم دائري من اليسار إلى اليمين. |
-| LeftRightRibbon | `231` | شريط من اليسار إلى اليمين . |
-| LeftCircularArrow | `232` | سهم دائري أيسر . |
-| Frame | `233` | إطار . |
-| HalfFrame | `234` | نصف إطار . |
-| Funnel | `235` | قمع . |
-| Gear6 | `236` | معدات بستة أسنان . |
-| Gear9 | `237` | معدات تسع أسنان . |
-| Decagon | `238` | عشري . |
-| Dodecagon | `239` | Dodecagon. |
-| DiagonalStripe | `240` | شريط قطري . |
-| Corner | `241` | ركن . |
-| CornerTabs | `242` | علامات تبويب الزاوية. |
-| Chord | `243` | وتر. |
-| ChartPlus | `244` | مخطط زائد . |
-| ChartStar | `245` | نجمة المخطط . |
+| LeftRightRibbon | `231` | الشريط من اليسار إلى اليمين. |
+| LeftCircularArrow | `232` | سهم دائري لليسار. |
+| Frame | `233` | الإطار. |
+| HalfFrame | `234` | نصف إطار. |
+| Funnel | `235` | مسار التحويل. |
+| Gear6 | `236` | ترس ذو ستة أسنان. |
+| Gear9 | `237` | ترس ذو تسعة أسنان. |
+| Decagon | `238` | عشري الأضلاع. |
+| Dodecagon | `239` | دوديكاجون. |
+| DiagonalStripe | `240` | شريط قطري. |
+| Corner | `241` | الزاوية. |
+| CornerTabs | `242` | علامات التبويب الزاوية. |
+| Chord | `243` | الوتر. |
+| ChartPlus | `244` | مخطط زائد. |
+| ChartStar | `245` | نجمة المخطط. |
 | ChartX | `246` | الرسم البياني X. |
-| MinValue | `-2` | محجوزة لاستخدام النظام . |
+| MinValue | `-2` | محجوز لاستخدام النظام. |
 
 ### أمثلة
 
-يوضح كيفية إدراج شكل بصورة من نظام الملفات المحلي في مستند.
+يوضح كيفية إدراج شكل به صورة من نظام الملفات المحلي في مستند.
 
 ```csharp
 Document doc = new Document();
 
-// سيقوم المُنشئ العام لفئة "الشكل" بإنشاء شكل بنوع علامة "ShapeMarkupLanguage.Vml".
-// إذا كنت بحاجة إلى إنشاء شكل من نوع غير بدائي ، مثل SingleCornerSnipped و TopCornersSnipped و DiagonalCornersSnipped ،
-// TopCornersOneRoundedOneSnipped أو SingleCornerRounded أو TopCornersRounded أو DiagonalCornersRounded
-// الرجاء استخدام DocumentBuilder.InsertShape.
+// سيقوم المنشئ العام لفئة "الشكل" بإنشاء شكل بنوع الترميز "ShapeMarkupLanguage.Vml".
+// إذا كنت بحاجة إلى إنشاء شكل من النوع غير البدائي، مثل SingleCornerSnipped، وTopCornersSnipped، وDiagonalCornerSnipped،
+// TopCornersOneRoundedOneSnipped، أو SingleCornerRounded، أو TopCornersRounded، أو DiagonalCornersRounded،
+// يرجى استخدام DocumentBuilder.InsertShape.
 Shape shape = new Shape(doc, ShapeType.Image);
 shape.ImageData.SetImage(ImageDir + "Windows MetaFile.wmf");
 shape.Width = 100;
@@ -290,7 +290,7 @@ doc.FirstSection.Body.FirstParagraph.AppendChild(shape);
 doc.Save(ArtifactsDir + "Image.FromFile.docx");
 ```
 
-يوضح كيف تتعرف Aspose. Words على الأشكال.
+يوضح كيفية تحديد Aspose.Words للأشكال.
 
 ```csharp
 Document doc = new Document();
@@ -305,10 +305,10 @@ builder.InsertShape(ShapeType.Cloud, RelativeHorizontalPosition.RightMargin, 0,
 builder.InsertShape(ShapeType.MathPlus, RelativeHorizontalPosition.RightMargin, 0,
     RelativeVerticalPosition.Page, 0, 0, 0, WrapType.None);
 
-// لتصحيح تحديد أنواع الأشكال ، تحتاج إلى العمل مع الأشكال مثل DML.
+// لتصحيح تحديد أنواع الأشكال، عليك العمل مع الأشكال مثل DML.
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(SaveFormat.Docx)
 {
-    يسمح التوافق "الصارم" أو "الانتقالي" بحفظ الشكل على هيئة DML.
+    // يسمح الامتثال "الصارم" أو "الانتقالي" بحفظ الشكل بتنسيق DML.
     Compliance = OoxmlCompliance.Iso29500_2008_Transitional
 };
 

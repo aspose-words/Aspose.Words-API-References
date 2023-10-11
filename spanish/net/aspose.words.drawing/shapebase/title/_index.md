@@ -3,7 +3,7 @@ title: ShapeBase.Title
 second_title: Referencia de API de Aspose.Words para .NET
 description: ShapeBase propiedad. Obtiene o establece el título título del objeto de forma actual.
 type: docs
-weight: 490
+weight: 530
 url: /es/net/aspose.words.drawing/shapebase/title/
 ---
 ## ShapeBase.Title property
@@ -18,7 +18,7 @@ public string Title { get; set; }
 
 El valor predeterminado es una cadena vacía.
 
-No puede ser nulo, pero puede ser una cadena vacía.
+No puede ser`nulo`, pero puede ser una cadena vacía.
 
 ### Ejemplos
 
@@ -28,7 +28,7 @@ Muestra cómo establecer el título de una forma.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Cree una forma, asígnele un título y luego agréguela al documento.
+// Crea una forma, dale un título y luego agrégala al documento.
 Shape shape = new Shape(doc, ShapeType.Cube);
 shape.Width = 200;
 shape.Height = 200;

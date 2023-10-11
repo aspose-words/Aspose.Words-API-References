@@ -16,7 +16,7 @@ public XmlDataSource(string xmlPath)
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| xmlPath | String | La ruta al archivo XML que se utilizará como fuente de datos. |
+| xmlPath | String | La ruta al archivo XML que se utilizará como origen de datos. |
 
 ### Ver también
 
@@ -28,7 +28,7 @@ public XmlDataSource(string xmlPath)
 
 ## XmlDataSource(Stream) {#constructor}
 
-Crea una nueva fuente de datos con datos de un flujo XML utilizando las opciones predeterminadas para la carga de datos XML.
+Crea una nueva fuente de datos con datos de una secuencia XML usando opciones predeterminadas para la carga de datos XML.
 
 ```csharp
 public XmlDataSource(Stream xmlStream)
@@ -36,7 +36,7 @@ public XmlDataSource(Stream xmlStream)
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| xmlStream | Stream | El flujo de datos XML que se utilizará como fuente de datos. |
+| xmlStream | Stream | El flujo de datos XML que se utilizará como origen de datos. |
 
 ### Ver también
 
@@ -48,7 +48,7 @@ public XmlDataSource(Stream xmlStream)
 
 ## XmlDataSource(string, string) {#constructor_6}
 
-Crea un nuevo origen de datos con datos de un archivo XML utilizando un archivo de definición de esquema XML. Las opciones predeterminadas se utilizan para la carga de datos XML.
+Crea una nueva fuente de datos con datos de un archivo XML utilizando un archivo de definición de esquema XML. Las opciones predeterminadas se utilizan para la carga de datos XML.
 
 ```csharp
 public XmlDataSource(string xmlPath, string xmlSchemaPath)
@@ -56,7 +56,7 @@ public XmlDataSource(string xmlPath, string xmlSchemaPath)
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| xmlPath | String | La ruta al archivo XML que se utilizará como fuente de datos. |
+| xmlPath | String | La ruta al archivo XML que se utilizará como origen de datos. |
 | xmlSchemaPath | String | La ruta al archivo de definición de esquema XML que proporciona el esquema para el archivo XML . |
 
 ### Ver también
@@ -69,7 +69,7 @@ public XmlDataSource(string xmlPath, string xmlSchemaPath)
 
 ## XmlDataSource(Stream, Stream) {#constructor_2}
 
-Crea un nuevo origen de datos con datos de un flujo XML mediante un flujo de definición de esquema XML. Las opciones predeterminadas se utilizan para la carga de datos XML.
+Crea una nueva fuente de datos con datos de una secuencia XML utilizando una secuencia de definición de esquema XML. Las opciones predeterminadas se utilizan para la carga de datos XML.
 
 ```csharp
 public XmlDataSource(Stream xmlStream, Stream xmlSchemaStream)
@@ -77,8 +77,8 @@ public XmlDataSource(Stream xmlStream, Stream xmlSchemaStream)
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| xmlStream | Stream | El flujo de datos XML que se utilizará como fuente de datos. |
-| xmlSchemaStream | Stream | El flujo de definición de esquema XML que proporciona un esquema para los datos XML. |
+| xmlStream | Stream | El flujo de datos XML que se utilizará como origen de datos. |
+| xmlSchemaStream | Stream | La secuencia de definición de esquema XML que proporciona el esquema para los datos XML. |
 
 ### Ver también
 
@@ -98,7 +98,7 @@ public XmlDataSource(string xmlPath, XmlDataLoadOptions options)
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| xmlPath | String | La ruta al archivo XML que se utilizará como fuente de datos. |
+| xmlPath | String | La ruta al archivo XML que se utilizará como origen de datos. |
 | options | XmlDataLoadOptions | Opciones para la carga de datos XML. |
 
 ### Ver también
@@ -112,7 +112,7 @@ public XmlDataSource(string xmlPath, XmlDataLoadOptions options)
 
 ## XmlDataSource(Stream, XmlDataLoadOptions) {#constructor_1}
 
-Crea una nueva fuente de datos con datos de un flujo XML utilizando las opciones especificadas para la carga de datos XML.
+Crea una nueva fuente de datos con datos de una secuencia XML utilizando las opciones especificadas para la carga de datos XML.
 
 ```csharp
 public XmlDataSource(Stream xmlStream, XmlDataLoadOptions options)
@@ -120,7 +120,7 @@ public XmlDataSource(Stream xmlStream, XmlDataLoadOptions options)
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| xmlStream | Stream | El flujo de datos XML que se utilizará como fuente de datos. |
+| xmlStream | Stream | El flujo de datos XML que se utilizará como origen de datos. |
 | options | XmlDataLoadOptions | Opciones para la carga de datos XML. |
 
 ### Ver también
@@ -134,7 +134,7 @@ public XmlDataSource(Stream xmlStream, XmlDataLoadOptions options)
 
 ## XmlDataSource(string, string, XmlDataLoadOptions) {#constructor_7}
 
-Crea un nuevo origen de datos con datos de un archivo XML utilizando un archivo de definición de esquema XML. Las opciones especificadas se utilizan para la carga de datos XML.
+Crea una nueva fuente de datos con datos de un archivo XML utilizando un archivo de definición de esquema XML. Las opciones especificadas se utilizan para la carga de datos XML.
 
 ```csharp
 public XmlDataSource(string xmlPath, string xmlSchemaPath, XmlDataLoadOptions options)
@@ -142,7 +142,7 @@ public XmlDataSource(string xmlPath, string xmlSchemaPath, XmlDataLoadOptions op
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| xmlPath | String | La ruta al archivo XML que se utilizará como fuente de datos. |
+| xmlPath | String | La ruta al archivo XML que se utilizará como origen de datos. |
 | xmlSchemaPath | String | La ruta al archivo de definición de esquema XML que proporciona el esquema para el archivo XML . |
 | options | XmlDataLoadOptions | Opciones para la carga de datos XML. |
 
@@ -157,7 +157,7 @@ public XmlDataSource(string xmlPath, string xmlSchemaPath, XmlDataLoadOptions op
 
 ## XmlDataSource(Stream, Stream, XmlDataLoadOptions) {#constructor_3}
 
-Crea un nuevo origen de datos con datos de un flujo XML mediante un flujo de definición de esquema XML. Las opciones especificadas se utilizan para la carga de datos XML.
+Crea una nueva fuente de datos con datos de una secuencia XML utilizando una secuencia de definición de esquema XML. Las opciones especificadas se utilizan para la carga de datos XML.
 
 ```csharp
 public XmlDataSource(Stream xmlStream, Stream xmlSchemaStream, XmlDataLoadOptions options)
@@ -165,8 +165,8 @@ public XmlDataSource(Stream xmlStream, Stream xmlSchemaStream, XmlDataLoadOption
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| xmlStream | Stream | El flujo de datos XML que se utilizará como fuente de datos. |
-| xmlSchemaStream | Stream | El flujo de definición de esquema XML que proporciona un esquema para los datos XML. |
+| xmlStream | Stream | El flujo de datos XML que se utilizará como origen de datos. |
+| xmlSchemaStream | Stream | La secuencia de definición de esquema XML que proporciona el esquema para los datos XML. |
 | options | XmlDataLoadOptions | Opciones para la carga de datos XML. |
 
 ### Ver también

@@ -3,12 +3,14 @@ title: Class ConvertUtil
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.ConvertUtil klass. Tillhandahåller hjälpfunktioner för att konvertera mellan olika måttenheter.
 type: docs
-weight: 350
+weight: 360
 url: /sv/net/aspose.words/convertutil/
 ---
 ## ConvertUtil class
 
 Tillhandahåller hjälpfunktioner för att konvertera mellan olika måttenheter.
+
+För att lära dig mer, besök[Konvertera mellan måttenheter](https://docs.aspose.com/words/net/convert-between-measurement-units/) dokumentationsartikel.
 
 ```csharp
 public static class ConvertUtil

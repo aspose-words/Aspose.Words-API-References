@@ -3,7 +3,7 @@ title: ChartSeries.LegendEntry
 second_title: Справочник по API Aspose.Words для .NET
 description: ChartSeries свойство. Получает запись легенды для этой серии диаграмм.
 type: docs
-weight: 80
+weight: 90
 url: /ru/net/aspose.words.drawing.charts/chartseries/legendentry/
 ---
 ## ChartSeries.LegendEntry property

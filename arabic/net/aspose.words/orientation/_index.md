@@ -1,14 +1,14 @@
 ---
 title: Enum Orientation
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Orientation تعداد. يحدد اتجاه الصفحة .
+description: Aspose.Words.Orientation تعداد. يحدد اتجاه الصفحة.
 type: docs
-weight: 4080
+weight: 4320
 url: /ar/net/aspose.words/orientation/
 ---
 ## Orientation enumeration
 
-يحدد اتجاه الصفحة .
+يحدد اتجاه الصفحة.
 
 ```csharp
 public enum Orientation
@@ -18,24 +18,24 @@ public enum Orientation
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| Portrait | `1` | اتجاه الصفحة العمودي (ضيق وطويل). |
-| Landscape | `2` | اتجاه الصفحة الأفقي (واسع وقصير) . |
+| Portrait | `1` | اتجاه الصفحة عمودي (ضيق وطويل). |
+| Landscape | `2` | اتجاه الصفحة أفقي (عريض وقصير). |
 
 ### أمثلة
 
-يوضح كيفية تطبيق إعدادات إعداد الصفحة وإعادتها إلى أقسام في مستند.
+يوضح كيفية تطبيق إعدادات إعداد الصفحة وإعادتها إلى الأقسام الموجودة في المستند.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// قم بتعديل خصائص إعداد الصفحة للقسم الحالي للمنشئ وإضافة نص.
+// تعديل خصائص إعداد الصفحة للقسم الحالي للمنشئ وإضافة نص.
 builder.PageSetup.Orientation = Orientation.Landscape;
 builder.PageSetup.VerticalAlignment = PageVerticalAlignment.Center;
 builder.Writeln("This is the first section, which landscape oriented with vertically centered text.");
 
-// إذا بدأنا قسمًا جديدًا باستخدام أداة إنشاء المستندات ،
-// سيرث خصائص إعداد الصفحة الحالية للمنشئ.
+// إذا بدأنا قسمًا جديدًا باستخدام أداة إنشاء المستندات،
+// سوف يرث خصائص إعداد الصفحة الحالية للمنشئ.
 builder.InsertBreak(BreakType.SectionBreakNewPage);
 
 Assert.AreEqual(Orientation.Landscape, doc.Sections[1].PageSetup.Orientation);

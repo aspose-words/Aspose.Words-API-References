@@ -1,14 +1,14 @@
 ---
 title: List.IsListStyleReference
 second_title: Référence de l'API Aspose.Words pour .NET
-description: List propriété. Renvoie vrai si cette liste est une référence à un style de liste.
+description: List propriété. Retoursvrai si cette liste est une référence à un style de liste.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.lists/list/isliststylereference/
 ---
 ## List.IsListStyleReference property
 
-Renvoie vrai si cette liste est une référence à un style de liste.
+Retours`vrai` si cette liste est une référence à un style de liste.
 
 ```csharp
 public bool IsListStyleReference { get; }
@@ -16,18 +16,18 @@ public bool IsListStyleReference { get; }
 
 ### Remarques
 
-Notez que la modification des propriétés d'une liste qui fait référence au style de liste n'a aucun effet. La mise en forme de liste spécifiée dans le style de liste lui-même est toujours prioritaire.
+Notez que la modification des propriétés d'une liste qui est une référence au style de liste n'a aucun effet. Le formatage de liste spécifié dans le style de liste lui-même est toujours prioritaire.
 
 ### Exemples
 
-Montre comment créer un style de liste et l'utiliser dans un document.
+Montre comment créer un style de liste et l’utiliser dans un document.
 
 ```csharp
 Document doc = new Document();
 
 // Une liste nous permet d'organiser et de décorer des ensembles de paragraphes avec des symboles de préfixe et des retraits.
-// Nous pouvons créer des listes imbriquées en augmentant le niveau d'indentation. 
-// Nous pouvons commencer et terminer une liste en utilisant la propriété "ListFormat" d'un générateur de document. 
+ // Nous pouvons créer des listes imbriquées en augmentant le niveau d'indentation.
+ // Nous pouvons commencer et terminer une liste en utilisant la propriété "ListFormat" d'un générateur de documents.
 // Chaque paragraphe que nous ajoutons entre le début et la fin d'une liste deviendra un élément de la liste.
 // Nous pouvons contenir un objet List entier dans un style.
 Style listStyle = doc.Styles.Add(StyleType.List, "MyListStyle");
@@ -39,7 +39,7 @@ Assert.False(list1.IsListStyleReference);
 Assert.True(list1.IsMultiLevel);
 Assert.AreEqual(listStyle, list1.Style);
 
-// Modifie l'apparence de tous les niveaux de liste dans notre liste.
+// Change l'apparence de tous les niveaux de liste dans notre liste.
 foreach (ListLevel level in list1.ListLevels)
 {
     level.Font.Name = "Verdana";
@@ -58,7 +58,7 @@ Assert.False(list2.IsListStyleDefinition);
 Assert.True(list2.IsListStyleReference);
 Assert.AreEqual(listStyle, list2.Style);
 
-// Ajoutez des éléments de liste que notre liste formatera.
+// Ajoutez quelques éléments de liste que notre liste formatera.
 builder.ListFormat.List = list2;
 builder.Writeln("Item 1");
 builder.Writeln("Item 2");

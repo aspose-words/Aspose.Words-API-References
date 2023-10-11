@@ -26,8 +26,8 @@ UserInformation userInformation = new UserInformation();
 userInformation.Address = "123 Main Street";
 doc.FieldOptions.CurrentUser = userInformation;
 
-// Crée un champ USERADDRESS pour afficher l'adresse de l'utilisateur courant,
-// tiré de l'objet UserInformation que nous avons créé ci-dessus.
+// Crée un champ USERADDRESS pour afficher l'adresse de l'utilisateur actuel,
+// extrait de l'objet UserInformation que nous avons créé ci-dessus.
 DocumentBuilder builder = new DocumentBuilder(doc);
 FieldUserAddress fieldUserAddress = (FieldUserAddress)builder.InsertField(FieldType.FieldUserAddress, true);
 Assert.AreEqual(" USERADDRESS ", fieldUserAddress.GetFieldCode());

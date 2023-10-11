@@ -1,14 +1,14 @@
 ---
 title: Interface IPageLayoutCallback
 second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Layout.IPageLayoutCallback interfaccia. Implementa questa interfaccia se desideri che il tuo metodo personalizzato venga chiamato durante la creazione e il rendering del modello di layout di pagina.
+description: Aspose.Words.Layout.IPageLayoutCallback interfaccia. Implementa questa interfaccia se desideri che il tuo metodo personalizzato venga chiamato durante la creazione e il rendering del modello di layout della pagina.
 type: docs
-weight: 3110
+weight: 3310
 url: /it/net/aspose.words.layout/ipagelayoutcallback/
 ---
 ## IPageLayoutCallback interface
 
-Implementa questa interfaccia se desideri che il tuo metodo personalizzato venga chiamato durante la creazione e il rendering del modello di layout di pagina.
+Implementa questa interfaccia se desideri che il tuo metodo personalizzato venga chiamato durante la creazione e il rendering del modello di layout della pagina.
 
 ```csharp
 public interface IPageLayoutCallback
@@ -18,24 +18,23 @@ public interface IPageLayoutCallback
 
 | Nome | Descrizione |
 | --- | --- |
-| [Notify](../../aspose.words.layout/ipagelayoutcallback/notify/)(PageLayoutCallbackArgs) | Viene chiamato per notificare l'avanzamento della creazione del layout e del rendering. |
+| [Notify](../../aspose.words.layout/ipagelayoutcallback/notify/)(PageLayoutCallbackArgs) | Viene richiamato per notificare la creazione del layout e l'avanzamento del rendering. |
 
 ### Osservazioni
 
-L'uso principale di questa interfaccia è consentire al codice dell'applicazione di interrompere il processo di compilazione.
+L'utilizzo principale di questa interfaccia è consentire al codice dell'applicazione di interrompere il processo di compilazione.
 
-È possibile costruire un modello di layout di pagina solo per poche pagine all'inizio del documento, quindi interrompere il processo ed eseguire il rendering solo di ciò che è già stato creato.
+È possibile creare un modello di layout di pagina solo per poche pagine all'inizio del documento, quindi interrompere il processo e visualizzare solo ciò che è già stato creato.
 
-Nota, tuttavia, che i risultati del rendering potrebbero non corrispondere a ciò che verrebbe visualizzato per ciascuna pagina se il processo fosse terminato.
+Tieni presente, tuttavia, che i risultati del rendering potrebbero non corrispondere a ciò che verrebbe visualizzato per ciascuna pagina se il processo fosse terminato.
 
-Questa tecnica potrebbe non funzionare per tutti i documenti o potrebbe non riuscire completamente.
+Questa tecnica potrebbe non funzionare per tutti i documenti o potrebbe fallire completamente.
 
 ### Esempi
 
-Mostra come tenere traccia delle modifiche al layout con una richiamata del layout.
+Mostra come tenere traccia delle modifiche al layout con un callback del layout.
 
 ```csharp
-[Test]
 public void PageLayoutCallback()
 {
     Document doc = new Document();
@@ -51,8 +50,8 @@ public void PageLayoutCallback()
 }
 
 /// <summary>
-/// Avvisa quando salviamo il documento in un formato pagina fisso
-/// ed esegue il rendering di una pagina su cui eseguiamo un riflusso della pagina in un'immagine nel file system locale.
+/// Ci avvisa quando salviamo il documento in un formato di pagina fisso
+/// ed esegue il rendering di una pagina su cui eseguiamo il reflow della pagina su un'immagine nel file system locale.
 /// </summary>
 private class RenderPageLayoutCallback : IPageLayoutCallback
 {

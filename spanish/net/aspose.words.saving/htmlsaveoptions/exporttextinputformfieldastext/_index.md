@@ -1,14 +1,14 @@
 ---
 title: HtmlSaveOptions.ExportTextInputFormFieldAsText
 second_title: Referencia de API de Aspose.Words para .NET
-description: HtmlSaveOptions propiedad. Controla cómo se guardan los campos de formulario de entrada de texto en HTML o MHTML. El valor predeterminado esfalso .
+description: HtmlSaveOptions propiedad. Controla cómo se guardan los campos del formulario de entrada de texto en HTML o MHTML. El valor predeterminado esFALSO .
 type: docs
-weight: 270
+weight: 260
 url: /es/net/aspose.words.saving/htmlsaveoptions/exporttextinputformfieldastext/
 ---
 ## HtmlSaveOptions.ExportTextInputFormFieldAsText property
 
-Controla cómo se guardan los campos de formulario de entrada de texto en HTML o MHTML. El valor predeterminado es`falso` .
+Controla cómo se guardan los campos del formulario de entrada de texto en HTML o MHTML. El valor predeterminado es`FALSO` .
 
 ```csharp
 public bool ExportTextInputFormFieldAsText { get; set; }
@@ -16,7 +16,7 @@ public bool ExportTextInputFormFieldAsText { get; set; }
 
 ### Observaciones
 
-cuando se establece en`verdadero` , exporta campos de formulario de entrada de texto como texto normal. cuando`falso`, exporta campos de formulario de entrada de texto de Word como elementos INPUT en HTML.
+Cuando se establece en`verdadero` , exporta campos de formulario de entrada de texto como texto normal. cuando`FALSO`, exporta campos de formulario de entrada de texto de Word como elementos INPUT en HTML.
 
 Al exportar a EPUB, los campos del formulario de entrada de texto siempre se guardan como texto debido a los requisitos de este formato.
 
@@ -34,7 +34,7 @@ if (Directory.Exists(imagesDir))
 
 Directory.CreateDirectory(imagesDir);
 
-// Establecer una opción para exportar campos de formulario como texto sin formato en lugar de elementos de entrada HTML.
+// Establece una opción para exportar campos de formulario como texto sin formato en lugar de elementos de entrada HTML.
 HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.Html)
 {
     ExportTextInputFormFieldAsText = true, 

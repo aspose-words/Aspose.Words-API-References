@@ -3,7 +3,7 @@ title: DigitalSignature.SignTime
 second_title: Справочник по API Aspose.Words для .NET
 description: DigitalSignature свойство. Получает время подписания документа.
 type: docs
-weight: 60
+weight: 70
 url: /ru/net/aspose.words.digitalsignatures/digitalsignature/signtime/
 ---
 ## DigitalSignature.SignTime property

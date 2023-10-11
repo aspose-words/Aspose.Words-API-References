@@ -16,17 +16,17 @@ public void SetFontsSources(FontSourceBase[] sources)
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| sources | FontSourceBase[] | Una matriz de fuentes que contienen fuentes TrueType. |
+| sources | FontSourceBase[] | Una variedad de fuentes que contienen fuentes TrueType. |
 
 ### Observaciones
 
-De forma predeterminada, Aspose.Words busca las fuentes instaladas en el sistema.
+De forma predeterminada, Aspose.Words busca fuentes instaladas en el sistema.
 
-Establecer esta propiedad restablece la memoria caché de todas las fuentes cargadas anteriormente.
+Establecer esta propiedad restablece el caché de todas las fuentes cargadas anteriormente.
 
 ### Ejemplos
 
-Muestra cómo agregar una fuente de fuente a nuestras fuentes de fuente existentes.
+Muestra cómo agregar una fuente de fuente a nuestras fuentes de fuentes existentes.
 
 ```csharp
 Document doc = new Document();
@@ -50,14 +50,14 @@ Assert.True(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName =
 Assert.False(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Amethysta"));
 Assert.False(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Junction Light"));
 
-// Cree una fuente de fuentes a partir de una carpeta que contenga fuentes.
+// Crea una fuente de fuente desde una carpeta que contiene fuentes.
 FolderFontSource folderFontSource = new FolderFontSource(FontsDir, true);
 
-// Aplicar una nueva matriz de fuentes de fuentes que contenga las fuentes de fuentes originales, así como nuestras fuentes personalizadas.
+// Aplique una nueva matriz de fuentes de fuentes que contenga las fuentes de fuentes originales, así como nuestras fuentes personalizadas.
 FontSourceBase[] updatedFontSources = {originalFontSources[0], folderFontSource};
 FontSettings.DefaultInstance.SetFontsSources(updatedFontSources);
 
-// Verifique que Aspose.Words tenga acceso a todas las fuentes requeridas antes de convertir el documento en PDF.
+// Verifique que Aspose.Words tenga acceso a todas las fuentes requeridas antes de procesar el documento en PDF.
 updatedFontSources = FontSettings.DefaultInstance.GetFontsSources();
 
 Assert.True(updatedFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arial"));
@@ -81,7 +81,7 @@ FontSettings.DefaultInstance.SetFontsSources(originalFontSources);
 
 ## SetFontsSources(FontSourceBase[], Stream) {#setfontssources_1}
 
-Establece las fuentes en las que Aspose.Words busca las fuentes TrueType y, además, carga la caché de búsqueda de fuentes previamente guardada.
+Establece las fuentes donde Aspose.Words busca fuentes TrueType y, además, carga la caché de búsqueda de fuentes previamente guardada .
 
 ```csharp
 public void SetFontsSources(FontSourceBase[] sources, Stream cacheInputStream)
@@ -89,23 +89,22 @@ public void SetFontsSources(FontSourceBase[] sources, Stream cacheInputStream)
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| sources | FontSourceBase[] | Una matriz de fuentes que contienen fuentes TrueType. |
-| cacheInputStream | Stream | Flujo de entrada con caché de búsqueda de fuente guardada. |
+| sources | FontSourceBase[] | Una variedad de fuentes que contienen fuentes TrueType. |
+| cacheInputStream | Stream | Flujo de entrada con caché de búsqueda de fuentes guardadas. |
 
 ### Observaciones
 
-Cargar la memoria caché de búsqueda de fuentes previamente guardada acelerará el proceso de inicialización de la memoria caché de fuentes. Es especialmente útil cuando el acceso a fuentes de fuentes es complicado (por ejemplo, cuando las fuentes se cargan a través de la red).
+Cargar la caché de búsqueda de fuentes previamente guardada acelerará el proceso de inicialización de la caché de fuentes. Es especialmente útil cuando el acceso a las fuentes de fuentes es complicado (por ejemplo, cuando las fuentes se cargan a través de la red).
 
-Al guardar y cargar la caché de búsqueda de fuentes, las fuentes en las fuentes proporcionadas se identifican a través de la clave de caché. Para las fuentes en el[`SystemFontSource`](../../systemfontsource/) y[`FolderFontSource`](../../folderfontsource/) la clave de caché es la ruta al archivo de fuente. Para[`MemoryFontSource`](../../memoryfontsource/) y[`StreamFontSource`](../../streamfontsource/) la clave de caché está definida en el[`CacheKey`](../../memoryfontsource/cachekey/) y[`CacheKey`](../../streamfontsource/cachekey/) propiedades respectivamente. Para el[`FileFontSource`](../../filefontsource/) la clave de caché es[`CacheKey`](../../filefontsource/cachekey/) propiedad o una ruta de archivo si el[`CacheKey`](../../filefontsource/cachekey/) es **nulo**.
+Al guardar y cargar el caché de búsqueda de fuentes, las fuentes en las fuentes proporcionadas se identifican mediante la clave de caché. Para las fuentes en el[`SystemFontSource`](../../systemfontsource/) y[`FolderFontSource`](../../folderfontsource/) La clave de caché es la ruta al archivo de fuente. Para[`MemoryFontSource`](../../memoryfontsource/) y[`StreamFontSource`](../../streamfontsource/) La clave de caché está definida en el[`CacheKey`](../../memoryfontsource/cachekey/) y[`CacheKey`](../../streamfontsource/cachekey/) propiedades respectivamente. Para el[`FileFontSource`](../../filefontsource/) la clave de caché es[`CacheKey`](../../filefontsource/cachekey/) propiedad o una ruta de archivo si el[`CacheKey`](../../filefontsource/cachekey/) es`nulo`.
 
-Se recomienda encarecidamente proporcionar las mismas fuentes de fuentes al cargar el caché que en el momento en que se guardó el caché. Cualquier cambio en las fuentes de fuentes (por ejemplo, agregar fuentes nuevas, mover archivos de fuentes o cambiar la clave de caché) puede dar lugar a la fuente inexacta resolviendo por Aspose.Words.
+Se recomienda encarecidamente proporcionar las mismas fuentes de fuentes al cargar el caché que en el momento en que se guardó. Cualquier cambio en las fuentes de fuentes (por ejemplo, agregar nuevas fuentes, mover archivos de fuentes o cambiar la clave de caché) puede provocar que la fuente sea inexacta. resolviendo por Aspose.Words.
 
 ### Ejemplos
 
-Muestra cómo acelerar el proceso de inicialización de caché de fuentes.
+Muestra cómo acelerar el proceso de inicialización de la caché de fuentes.
 
 ```csharp
-[Test]
 public void LoadFontSearchCache()
 {
     const string cacheKey1 = "Arvo";
@@ -133,7 +132,7 @@ public void LoadFontSearchCache()
 }
 
 /// <summary>
-/// Cargue los datos de la fuente solo cuando sea necesario en lugar de almacenarlos en la memoria
+/// Carga los datos de la fuente solo cuando sea necesario en lugar de almacenarlos en la memoria
 /// durante toda la vida útil del objeto "FontSettings".
 /// </summary>
 private class SearchCacheStream : StreamFontSource

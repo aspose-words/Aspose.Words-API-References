@@ -1,14 +1,16 @@
 ---
 title: Class Border
 second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Border clase. Representa un borde de un objeto.
+description: Aspose.Words.Border clase. Representa el borde de un objeto.
 type: docs
-weight: 70
+weight: 80
 url: /es/net/aspose.words/border/
 ---
 ## Border class
 
-Representa un borde de un objeto.
+Representa el borde de un objeto.
+
+Para obtener más información, visite el[Programación con documentos](https://docs.aspose.com/words/net/programming-with-documents/) artículo de documentación.
 
 ```csharp
 public class Border : InternableComplexAttr
@@ -19,11 +21,13 @@ public class Border : InternableComplexAttr
 | Nombre | Descripción |
 | --- | --- |
 | [Color](../../aspose.words/border/color/) { get; set; } | Obtiene o establece el color del borde. |
-| [DistanceFromText](../../aspose.words/border/distancefromtext/) { get; set; } | Obtiene o establece la distancia del borde al texto o al borde de la página en puntos. |
-| [IsVisible](../../aspose.words/border/isvisible/) { get; } | Devuelve verdadero si LineStyle no es LineStyle.None. |
+| [DistanceFromText](../../aspose.words/border/distancefromtext/) { get; set; } | Obtiene o establece la distancia del borde desde el texto o desde el borde de la página en puntos. |
+| [IsVisible](../../aspose.words/border/isvisible/) { get; } | Devoluciones`verdadero` Si el[`LineStyle`](./linestyle/) no esNone . |
 | [LineStyle](../../aspose.words/border/linestyle/) { get; set; } | Obtiene o establece el estilo del borde. |
 | [LineWidth](../../aspose.words/border/linewidth/) { get; set; } | Obtiene o establece el ancho del borde en puntos. |
-| [Shadow](../../aspose.words/border/shadow/) { get; set; } | Obtiene o establece un valor que indica si el borde tiene sombra. |
+| [Shadow](../../aspose.words/border/shadow/) { get; set; } | Obtiene o establece un valor que indica si el borde tiene una sombra. |
+| [ThemeColor](../../aspose.words/border/themecolor/) { get; set; } | Obtiene o establece el color del tema en el esquema de color aplicado asociado con este objeto Borde. |
+| [TintAndShade](../../aspose.words/border/tintandshade/) { get; set; } | Obtiene o establece un valor doble que aclara u oscurece un color. |
 
 ## Métodos
 
@@ -36,7 +40,7 @@ public class Border : InternableComplexAttr
 
 ### Observaciones
 
-Los bordes se pueden aplicar a varios elementos del documento, incluido el párrafo, tirada de texto dentro de un párrafo o una celda de tabla.
+Los bordes se pueden aplicar a varios elementos del documento, incluido el párrafo, corrida de texto dentro de un párrafo o una celda de una tabla.
 
 ### Ejemplos
 
@@ -61,12 +65,14 @@ Muestra cómo insertar un párrafo con un borde superior.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-Border topBorder = builder.ParagraphFormat.Borders[BorderType.Top];
-topBorder.Color = Color.Red;
+Border topBorder = builder.ParagraphFormat.Borders.Top;
 topBorder.LineWidth = 4.0d;
 topBorder.LineStyle = LineStyle.DashSmallGap;
+// Establece ThemeColor solo cuando LineWidth o LineStyle están configurados.
+topBorder.ThemeColor = ThemeColor.Accent1;
+topBorder.TintAndShade = 0.25d;
 
-builder.Writeln("Text with a red top border.");
+builder.Writeln("Text with a top border.");
 
 doc.Save(ArtifactsDir + "Border.ParagraphTopBorder.docx");
 ```

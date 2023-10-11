@@ -3,7 +3,7 @@ title: ParagraphFormat.Bidi
 second_title: Aspose.Words per .NET API Reference
 description: ParagraphFormat proprietà. Ottiene o imposta se si tratta di un paragrafo da destra a sinistra.
 type: docs
-weight: 40
+weight: 50
 url: /it/net/aspose.words/paragraphformat/bidi/
 ---
 ## ParagraphFormat.Bidi property
@@ -16,11 +16,11 @@ public bool Bidi { get; set; }
 
 ### Osservazioni
 
-Se true, le corse e altri oggetti inline in questo paragrafo sono disposti da destra a sinistra.
+Quando`VERO`, le sequenze e gli altri oggetti in linea in questo paragrafo sono disposti da destra a sinistra.
 
 ### Esempi
 
-Mostra come rilevare la direzione del testo del documento in testo normale.
+Mostra come rilevare la direzione del testo di un documento di testo normale.
 
 ```csharp
 // Crea un oggetto "TxtLoadOptions", che possiamo passare al costruttore di un documento
@@ -37,7 +37,7 @@ Document doc = new Document(MyDir + "Hebrew text.txt", loadOptions);
 
 Assert.True(doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Bidi);
 
-// Rileva il testo inglese come da destra a sinistra.
+// Rileva il testo inglese da destra a sinistra.
 doc = new Document(MyDir + "English text.txt", loadOptions);
 
 Assert.False(doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Bidi);
@@ -69,8 +69,8 @@ foreach (Paragraph para in doc.GetChildNodes(NodeType.Paragraph, true))
     para.ParagraphFormat.Bidi = true;
 }
 
-// Se abilitiamo una lingua di modifica da destra a sinistra in Microsoft Word, i nostri campi visualizzeranno dei numeri.
-// Altrimenti visualizzeranno "###".
+// Se abilitiamo una lingua di modifica da destra a sinistra in Microsoft Word, i nostri campi visualizzeranno numeri.
+// Altrimenti, verrà visualizzato "###".
 doc.Save(ArtifactsDir + "Field.BIDIOUTLINE.docx");
 ```
 

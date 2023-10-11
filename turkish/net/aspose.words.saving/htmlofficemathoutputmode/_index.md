@@ -3,7 +3,7 @@ title: Enum HtmlOfficeMathOutputMode
 second_title: Aspose.Words for .NET API Referansı
 description: Aspose.Words.Saving.HtmlOfficeMathOutputMode Sıralama. Aspose.Wordsün OfficeMathi HTML MHTML ve EPUBa nasıl aktardığını belirtir.
 type: docs
-weight: 4840
+weight: 5100
 url: /tr/net/aspose.words.saving/htmlofficemathoutputmode/
 ---
 ## HtmlOfficeMathOutputMode enumeration
@@ -18,25 +18,25 @@ public enum HtmlOfficeMathOutputMode
 
 | İsim | Değer | Tanım |
 | --- | --- | --- |
-| Image | `0` | OfficeMath, &lt;img&gt; etiketi tarafından belirtilen resim olarak HTML'ye dönüştürülür. |
+| Image | `0` | OfficeMath, &lt;img&gt; etiketiyle belirtilen resim olarak HTML'ye dönüştürülür. |
 | MathML | `1` | OfficeMath, MathML. kullanılarak HTML'ye dönüştürülür |
-| Text | `2` | OfficeMath, &lt;span&gt; etiketleri tarafından belirtilen çalıştırma dizisi olarak HTML'ye dönüştürülür. |
+| Text | `2` | OfficeMath, &lt;span&gt; etiketleri tarafından belirtilen çalıştırma sırası olarak HTML'ye dönüştürülür. |
 
 ### Örnekler
 
-Microsoft OfficeMath nesnelerinin HTML'ye nasıl dışa aktarılacağının nasıl belirleneceğini gösterir.
+Microsoft OfficeMath nesnelerinin HTML'ye nasıl aktarılacağının nasıl belirleneceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Office math.docx");
 
-// Belgeyi HTML'ye kaydettiğimizde, SaveOptions nesnesini iletebiliriz
-// kaydetme işleminin OfficeMath nesnelerini nasıl işlediğini belirlemek için.
+// Belgeyi HTML'ye kaydettiğimizde SaveOptions nesnesini iletebiliriz
+// kaydetme işleminin OfficeMath nesnelerini nasıl işleyeceğini belirlemek için.
 // "OfficeMathOutputMode" özelliğinin "HtmlOfficeMathOutputMode.Image" olarak ayarlanması
 // her OfficeMath nesnesini bir görüntüye dönüştürecek.
 // "OfficeMathOutputMode" özelliğinin "HtmlOfficeMathOutputMode.MathML" olarak ayarlanması
 // her OfficeMath nesnesini MathML'ye dönüştürecek.
 // "OfficeMathOutputMode" özelliğinin "HtmlOfficeMathOutputMode.Text" olarak ayarlanması
-// her OfficeMath formülünü düz HTML metni kullanarak temsil edecektir.
+// her OfficeMath formülünü düz HTML metni kullanarak temsil edecek.
 HtmlSaveOptions options = new HtmlSaveOptions { OfficeMathOutputMode = htmlOfficeMathOutputMode };
 
 doc.Save(ArtifactsDir + "HtmlSaveOptions.OfficeMathOutputMode.html", options);

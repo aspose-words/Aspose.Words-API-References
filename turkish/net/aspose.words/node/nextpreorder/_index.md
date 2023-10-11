@@ -16,15 +16,15 @@ public Node NextPreOrder(Node rootNode)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| rootNode | Node | Geçişin üst düğümü (sınır). |
+| rootNode | Node | Geçişin üst düğümü (sınırı). |
 
 ### Geri dönüş değeri
 
-Ön sipariş sırasına göre sonraki düğüm. RootNode'a ulaşılırsa boş.
+Ön sipariş sırasına göre sonraki düğüm. Ulaşıldığında boş*rootNode*.
 
 ### Örnekler
 
-Ön sipariş geçiş algoritmasını kullanarak belgenin düğüm ağacında nasıl geçileceğini ve bir görüntüyle karşılaşılan tüm şekillerin nasıl silineceğini gösterir.
+Ön sipariş geçiş algoritmasını kullanarak belgenin düğüm ağacında nasıl geçiş yapılacağını ve karşılaşılan herhangi bir şeklin görüntüyle nasıl silineceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Images.docx");

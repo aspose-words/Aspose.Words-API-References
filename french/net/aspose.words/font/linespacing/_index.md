@@ -1,14 +1,14 @@
 ---
 title: Font.LineSpacing
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Font propriété. Renvoie linterligne de cette police en points.
+description: Font propriété. Renvoie lespacement des lignes de cette police en points.
 type: docs
 weight: 190
 url: /fr/net/aspose.words/font/linespacing/
 ---
 ## Font.LineSpacing property
 
-Renvoie l'interligne de cette police (en points).
+Renvoie l'espacement des lignes de cette police (en points).
 
 ```csharp
 public double LineSpacing { get; }
@@ -16,13 +16,13 @@ public double LineSpacing { get; }
 
 ### Exemples
 
-Montre comment obtenir l'interligne d'une police, en points.
+Montre comment obtenir l’interligne d’une police, en points.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Définir différentes polices pour le DocumentBuilder et vérifier leur interligne.
+// Définissez différentes polices pour DocumentBuilder et vérifiez leur espacement des lignes.
 builder.Font.Name = "Calibri";
 Assert.AreEqual(14.6484375d, builder.Font.LineSpacing);
 

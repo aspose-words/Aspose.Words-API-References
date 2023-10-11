@@ -1,14 +1,14 @@
 ---
 title: SvgSaveOptions.ShowPageBorder
 second_title: Aspose.Words لمراجع .NET API
-description: SvgSaveOptions ملكية. التحكم في إضافة حد إلى مخطط الصفحة. الإعداد الافتراضي هوحقيقي .
+description: SvgSaveOptions ملكية. يتحكم في إضافة حد إلى المخطط التفصيلي للصفحة. الإعداد الافتراضي هوحقيقي .
 type: docs
 weight: 80
 url: /ar/net/aspose.words.saving/svgsaveoptions/showpageborder/
 ---
 ## SvgSaveOptions.ShowPageBorder property
 
-التحكم في إضافة حد إلى مخطط الصفحة. الإعداد الافتراضي هو`حقيقي` .
+يتحكم في إضافة حد إلى المخطط التفصيلي للصفحة. الإعداد الافتراضي هو`حقيقي` .
 
 ```csharp
 public bool ShowPageBorder { get; set; }
@@ -16,12 +16,12 @@ public bool ShowPageBorder { get; set; }
 
 ### أمثلة
 
-يوضح كيفية محاكاة خصائص الصور عند تحويل مستند docx إلى .svg.
+يوضح كيفية محاكاة خصائص الصور عند تحويل مستند .docx إلى .svg.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
 
-// تكوين كائن SvgSaveOptions للحفظ بدون حدود صفحة أو نص قابل للتحديد.
+// قم بتكوين كائن SvgSaveOptions للحفظ بدون حدود للصفحة أو نص قابل للتحديد.
 SvgSaveOptions options = new SvgSaveOptions
 {
     FitToViewPort = true,

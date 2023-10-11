@@ -1,14 +1,14 @@
 ---
 title: ChartDataLabel.ShowLeaderLines
 second_title: Aspose.Words per .NET API Reference
-description: ChartDataLabel proprietà. Consente di specificare se è necessario visualizzare le linee guida delletichetta dati. Il valore predefinito è false.
+description: ChartDataLabel proprietà. Permette di specificare se è necessario mostrare le linee guida delletichetta dati. Il valore predefinito èfalso .
 type: docs
-weight: 90
+weight: 110
 url: /it/net/aspose.words.drawing.charts/chartdatalabel/showleaderlines/
 ---
 ## ChartDataLabel.ShowLeaderLines property
 
-Consente di specificare se è necessario visualizzare le linee guida dell'etichetta dati. Il valore predefinito è false.
+Permette di specificare se è necessario mostrare le linee guida dell'etichetta dati. Il valore predefinito è`falso` .
 
 ```csharp
 public bool ShowLeaderLines { get; set; }
@@ -16,13 +16,14 @@ public bool ShowLeaderLines { get; set; }
 
 ### Osservazioni
 
-Si applica solo ai grafici a torta. Le linee guida creano una connessione visiva tra un'etichetta dati e il relativo punto dati.
+Si applica solo ai grafici a torta. Le linee direttrici creano una connessione visiva tra un'etichetta dati e il punto dati corrispondente.
 
 ### Esempi
 
 Mostra come applicare etichette ai punti dati in un grafico a linee.
 
 ```csharp
+public void DataLabels()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -43,7 +44,7 @@ Mostra come applicare etichette ai punti dati in un grafico a linee.
         Assert.AreEqual(4, series.DataLabels.Count);
     }
 
-    // Modifica la stringa di separazione per ogni etichetta di dati in una serie.
+    // Modifica la stringa di separazione per ogni etichetta dati in una serie.
     using (IEnumerator<ChartDataLabel> enumerator = chart.Series[0].DataLabels.GetEnumerator())
     {
         while (enumerator.MoveNext())
@@ -63,7 +64,7 @@ Mostra come applicare etichette ai punti dati in un grafico a linee.
 }
 
 /// <summary>
-/// Applica etichette dati con formato numerico personalizzato e separatore a più punti dati di una serie.
+/// Applica etichette dati con formato numerico personalizzato e separatore a diversi punti dati in una serie.
 /// </summary>
 private static void ApplyDataLabels(ChartSeries series, int labelsCount, string numberFormat, string separator)
 {

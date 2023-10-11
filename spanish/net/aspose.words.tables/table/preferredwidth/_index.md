@@ -20,7 +20,7 @@ El valor predeterminado es[`Auto`](../../preferredwidth/auto/).
 
 ### Ejemplos
 
-Muestra cómo configurar una tabla para que se ajuste automáticamente al 50 % del ancho de la página.
+Muestra cómo configurar una tabla para que se ajuste automáticamente al 50% del ancho de la página.
 
 ```csharp
 Document doc = new Document();

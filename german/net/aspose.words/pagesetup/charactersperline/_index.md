@@ -1,14 +1,14 @@
 ---
 title: PageSetup.CharactersPerLine
 second_title: Aspose.Words für .NET-API-Referenz
-description: PageSetup eigendom. Ruft die Anzahl der Zeichen pro Zeile im Dokumentraster ab oder legt sie fest.
+description: PageSetup eigendom. Ruft die Anzahl der Zeichen pro Zeile im Dokumentraster ab oder legt diese fest.
 type: docs
 weight: 100
 url: /de/net/aspose.words/pagesetup/charactersperline/
 ---
 ## PageSetup.CharactersPerLine property
 
-Ruft die Anzahl der Zeichen pro Zeile im Dokumentraster ab oder legt sie fest.
+Ruft die Anzahl der Zeichen pro Zeile im Dokumentraster ab oder legt diese fest.
 
 ```csharp
 public int CharactersPerLine { get; set; }
@@ -16,23 +16,23 @@ public int CharactersPerLine { get; set; }
 
 ### Bemerkungen
 
-Der Mindestwert der Eigenschaft ist 1. Der Höchstwert hängt von der Seitenbreite und der Schriftgröße des Stils Normal ab. Der minimale Zeichenabstand beträgt 90 Prozent der Schriftgröße. Beispielsweise beträgt die maximale Anzahl von Zeichen pro Zeile einer Letter-Seite mit 1-Zoll-Rändern 43.
+Der Mindestwert der Eigenschaft ist 1. Der Höchstwert hängt von der Seitenbreite und der Schriftgröße des Normal -Stils ab. Der Mindestzeichenabstand beträgt 90 Prozent der Schriftgröße. Beispielsweise beträgt die maximale Anzahl von Zeichen pro Zeile einer Letter-Seite mit 1-Zoll-Rändern 43.
 
-Standardmäßig hat die Eigenschaft einen Wert, bei dem der Zeichenabstand gleich der Schriftgröße des Stils Normal ist.
+Standardmäßig hat die Eigenschaft einen Wert, bei dem der Zeichenabstand der Schriftgröße des Stils „Normal “ entspricht.
 
 ### Beispiele
 
-Zeigt, wie man a für die Anzahl der Zeichen angibt, die jede Zeile haben darf.
+Zeigt, wie man a für die Anzahl der Zeichen angibt, die jede Zeile enthalten darf.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Aktivieren Sie Pitching und verwenden Sie es dann, um die Anzahl der Zeichen pro Zeile in diesem Abschnitt festzulegen.
+// Pitching aktivieren und dann verwenden, um die Anzahl der Zeichen pro Zeile in diesem Abschnitt festzulegen.
 builder.PageSetup.LayoutMode = SectionLayoutMode.Grid;
 builder.PageSetup.CharactersPerLine = 10;
 
-// Die Anzahl der Zeichen hängt auch von der Schriftgröße ab.
+// Die Anzahl der Zeichen hängt auch von der Größe der Schriftart ab.
 doc.Styles["Normal"].Font.Size = 20;
 
 Assert.AreEqual(8, doc.FirstSection.PageSetup.CharactersPerLine);

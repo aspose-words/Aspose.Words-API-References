@@ -18,15 +18,15 @@ public string AttachedTemplate { get; set; }
 
 | eccezione | condizione |
 | --- | --- |
-| ArgumentNullException | Genera se si tenta di impostare un valore null. |
+| ArgumentNullException | Genera se tenti di impostare su a`nullo` valore. |
 
 ### Osservazioni
 
-Stringa vuota significa che il documento è allegato al modello Normale.
+Una stringa vuota significa che il documento è allegato al modello Normal.
 
 ### Esempi
 
-Mostra come impostare un modello predefinito per i documenti che non hanno modelli allegati.
+Mostra come impostare un modello predefinito per i documenti a cui non sono allegati modelli.
 
 ```csharp
 Document doc = new Document();
@@ -36,8 +36,8 @@ doc.AutomaticallyUpdateStyles = true;
 
 Assert.AreEqual(string.Empty, doc.AttachedTemplate);
 
-// Poiché non esiste un documento modello, il documento non aveva un punto in cui tenere traccia delle modifiche allo stile.
-// Usa un oggetto SaveOptions per impostare automaticamente un modello
+// Poiché non esiste un documento modello, il documento non aveva un posto dove tenere traccia delle modifiche di stile.
+// Utilizza un oggetto SaveOptions per impostare automaticamente un modello
 // se un documento che stiamo salvando non ne ha uno.
 SaveOptions options = SaveOptions.CreateSaveOptions("Document.DefaultTemplate.docx");
 options.DefaultTemplate = MyDir + "Business brochure.dotx";

@@ -1,14 +1,14 @@
 ---
 title: BookmarkCollection.RemoveAt
 second_title: Aspose.Words for .NET API Referansı
-description: BookmarkCollection yöntem. Belirtilen dizindeki bir yer işaretini kaldırır.
+description: BookmarkCollection yöntem. Belirtilen dizindeki yer imini kaldırır.
 type: docs
 weight: 60
 url: /tr/net/aspose.words/bookmarkcollection/removeat/
 ---
 ## BookmarkCollection.RemoveAt method
 
-Belirtilen dizindeki bir yer işaretini kaldırır.
+Belirtilen dizindeki yer imini kaldırır.
 
 ```csharp
 public void RemoveAt(int index)
@@ -20,7 +20,7 @@ public void RemoveAt(int index)
 
 ### Örnekler
 
-Bir belgeden yer imlerinin nasıl kaldırılacağını gösterir.
+Yer işaretlerinin bir belgeden nasıl kaldırılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -43,31 +43,31 @@ BookmarkCollection bookmarks = doc.Range.Bookmarks;
 Assert.AreEqual(5, bookmarks.Count);
 
 // Yer imlerini kaldırmanın birkaç yolu vardır.
-// 1 - Yer iminin Kaldır yöntemini çağırma:
+// 1 - Yer iminin Kaldır yöntemini çağırmak:
 bookmarks["MyBookmark_1"].Remove();
 
 Assert.False(bookmarks.Any(b => b.Name == "MyBookmark_1"));
 
-// 2 - Yer imini koleksiyonun Remove yöntemine geçirme:
+// 2 - Yer işaretini koleksiyonun Remove yöntemine geçirme:
 Bookmark bookmark = doc.Range.Bookmarks[0];
 doc.Range.Bookmarks.Remove(bookmark);
 
 Assert.False(bookmarks.Any(b => b.Name == "MyBookmark_2"));
 
-// 3 - Koleksiyondan bir yer iminin isme göre kaldırılması:
+// 3 - Koleksiyondan bir yer imini ada göre kaldırmak:
 doc.Range.Bookmarks.Remove("MyBookmark_3");
 
 Assert.False(bookmarks.Any(b => b.Name == "MyBookmark_3"));
 
-// 4 - Yer imi koleksiyonundaki bir dizindeki yer imini kaldırma:
+// 4 - Yer imi koleksiyonundaki bir dizindeki yer işaretini kaldırma:
 doc.Range.Bookmarks.RemoveAt(0);
 
 Assert.False(bookmarks.Any(b => b.Name == "MyBookmark_4"));
 
-// Tüm yer imi koleksiyonunu temizleyebiliriz.
+// Yer imi koleksiyonunun tamamını temizleyebiliriz.
 bookmarks.Clear();
 
-// Yer imlerinin içindeki metin hala belgede mevcut.
+// Yer imlerinin içindeki metin hâlâ belgede mevcut.
 Assert.That(bookmarks, Is.Empty);
 Assert.AreEqual("Text inside MyBookmark_1.\r" +
                 "Text inside MyBookmark_2.\r" +

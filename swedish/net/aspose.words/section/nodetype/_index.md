@@ -1,14 +1,14 @@
 ---
 title: Section.NodeType
 second_title: Aspose.Words för .NET API Referens
-description: Section fast egendom. Returnerar NodeType.Section .
+description: Section fast egendom. ReturnerarSection .
 type: docs
 weight: 40
 url: /sv/net/aspose.words/section/nodetype/
 ---
 ## Section.NodeType property
 
-Returnerar **NodeType.Section** .
+ReturnerarSection .
 
 ```csharp
 public override NodeType NodeType { get; }
@@ -19,6 +19,7 @@ public override NodeType NodeType { get; }
 Visar hur man korsar en sammansatt nods träd med undernoder.
 
 ```csharp
+public void RecurseChildren()
 {
     Document doc = new Document(MyDir + "Paragraphs.docx");
 

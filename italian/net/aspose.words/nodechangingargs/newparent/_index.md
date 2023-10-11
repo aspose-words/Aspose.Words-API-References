@@ -1,14 +1,14 @@
 ---
 title: NodeChangingArgs.NewParent
 second_title: Aspose.Words per .NET API Reference
-description: NodeChangingArgs proprietà. Ottiene il genitore del nodo che verrà impostato al termine delloperazione.
+description: NodeChangingArgs proprietà. Ottiene il nodo principale che verrà impostato al termine delloperazione.
 type: docs
 weight: 20
 url: /it/net/aspose.words/nodechangingargs/newparent/
 ---
 ## NodeChangingArgs.NewParent property
 
-Ottiene il genitore del nodo che verrà impostato al termine dell'operazione.
+Ottiene il nodo principale che verrà impostato al termine dell'operazione.
 
 ```csharp
 public Node NewParent { get; }
@@ -19,6 +19,7 @@ public Node NewParent { get; }
 Mostra come utilizzare un NodeChangingCallback per monitorare le modifiche all'albero del documento in tempo reale mentre lo modifichiamo.
 
 ```csharp
+public void NodeChangingCallback()
 {
     Document doc = new Document();
     doc.NodeChangingCallback = new NodeChangingPrinter();

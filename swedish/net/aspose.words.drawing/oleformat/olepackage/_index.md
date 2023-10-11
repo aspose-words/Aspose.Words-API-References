@@ -1,14 +1,14 @@
 ---
 title: OleFormat.OlePackage
 second_title: Aspose.Words för .NET API Referens
-description: OleFormat fast egendom. Ge åtkomst tillOlePackage om OLEobjekt är ett OLEpaket. Returnerar null annars.
+description: OleFormat fast egendom. Ge åtkomst tillOlePackage om OLEobjekt är ett OLE Package. Returnerarnull annars.
 type: docs
 weight: 80
 url: /sv/net/aspose.words.drawing/oleformat/olepackage/
 ---
 ## OleFormat.OlePackage property
 
-Ge åtkomst till[`OlePackage`](../../olepackage/) om OLE-objekt är ett OLE-paket. Returnerar null annars.
+Ge åtkomst till[`OlePackage`](../../olepackage/) om OLE-objekt är ett OLE Package. Returnerar`null` annars.
 
 ```csharp
 public OlePackage OlePackage { get; }
@@ -16,7 +16,7 @@ public OlePackage OlePackage { get; }
 
 ### Anmärkningar
 
-OLE Package är en äldre teknik som gör det möjligt att linda in alla filformat som inte finns i OLE-registret för ett Windows-system till ett generiskt paket som gör det möjligt att bädda in nästan vad som helst i ett dokument. Se[`OlePackage`](../../olepackage/)skriv för mer info.
+OLE Package är en äldre teknik som gör det möjligt att linda in alla filformat som inte finns i OLE-registret för ett Windows-system till ett generiskt paket som gör det möjligt att bädda in nästan vad som helst i ett dokument. Se[`OlePackage`](../../olepackage/) skriv för mer info.
 
 ### Exempel
 

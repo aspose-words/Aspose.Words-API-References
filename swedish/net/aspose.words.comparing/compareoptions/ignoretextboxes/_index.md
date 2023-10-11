@@ -3,7 +3,7 @@ title: CompareOptions.IgnoreTextboxes
 second_title: Aspose.Words för .NET API Referens
 description: CompareOptions fast egendom. Anger om skillnader i data i textrutor ska jämföras. Som standard ignoreras inte textrutor.
 type: docs
-weight: 110
+weight: 120
 url: /sv/net/aspose.words.comparing/compareoptions/ignoretextboxes/
 ---
 ## CompareOptions.IgnoreTextboxes property
@@ -40,7 +40,7 @@ Shape textBox = builder.InsertShape(ShapeType.TextBox, 150, 20);
 builder.MoveTo(textBox.FirstParagraph);
 builder.Write("Original textbox contents");
 
-// DATE-fält:
+// DATUMfält:
 builder.MoveTo(docOriginal.FirstSection.Body.AppendParagraph(""));
 builder.InsertField(" DATE ");
 

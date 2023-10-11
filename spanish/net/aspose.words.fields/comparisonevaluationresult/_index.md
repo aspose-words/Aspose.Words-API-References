@@ -3,12 +3,14 @@ title: Class ComparisonEvaluationResult
 second_title: Referencia de API de Aspose.Words para .NET
 description: Aspose.Words.Fields.ComparisonEvaluationResult clase. El resultado de la evaluación de comparación.
 type: docs
-weight: 1330
+weight: 1480
 url: /es/net/aspose.words.fields/comparisonevaluationresult/
 ---
 ## ComparisonEvaluationResult class
 
 El resultado de la evaluación de comparación.
+
+Para obtener más información, visite el[Trabajar con campos](https://docs.aspose.com/words/net/working-with-fields/) artículo de documentación.
 
 ```csharp
 public sealed class ComparisonEvaluationResult
@@ -26,11 +28,11 @@ public sealed class ComparisonEvaluationResult
 | Nombre | Descripción |
 | --- | --- |
 | [ErrorMessage](../../aspose.words.fields/comparisonevaluationresult/errormessage/) { get; } | Obtiene el mensaje de error del resultado de la evaluación de comparación fallida. |
-| [Result](../../aspose.words.fields/comparisonevaluationresult/result/) { get; } | Obtiene el resultado de la evaluación de la comparación. |
+| [Result](../../aspose.words.fields/comparisonevaluationresult/result/) { get; } | Obtiene el resultado de la evaluación de comparación. |
 
 ### Ejemplos
 
-Muestra cómo implementar una evaluación personalizada para los campos IF y COMPARE.
+Muestra cómo implementar una evaluación personalizada para los campos SI y COMPARAR.
 
 ```csharp
 public void ConditionEvaluationExtensionPoint(string fieldCode, sbyte comparisonResult, string comparisonError,
@@ -47,7 +49,7 @@ public void ConditionEvaluationExtensionPoint(string fieldCode, sbyte comparison
     // 2. " COMPARAR {0} {1} {2} ".
     Field field = builder.InsertField(string.Format(fieldCode, left, @operator, right), null);
 
-    // Si el "Resultado de comparación" no está definido, creamos "Resultado de evaluación de comparación" con una cadena, en lugar de bool.
+    // Si el "resultado de comparación" no está definido, creamos "Resultado de evaluación de comparación" con una cadena, en lugar de bool.
     ComparisonEvaluationResult result = comparisonResult != -1
         ? new ComparisonEvaluationResult(comparisonResult == 1)
         : comparisonError != null ? new ComparisonEvaluationResult(comparisonError) : null;

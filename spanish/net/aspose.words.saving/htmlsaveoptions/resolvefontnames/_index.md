@@ -1,14 +1,14 @@
 ---
 title: HtmlSaveOptions.ResolveFontNames
 second_title: Referencia de API de Aspose.Words para .NET
-description: HtmlSaveOptions propiedad. Especifica si los nombres de familia de fuentes utilizados en el documento se resuelven y sustituyen de acuerdo con FontSettings cuando se escribe en formatos basados en HTML.
+description: HtmlSaveOptions propiedad. Especifica si los nombres de familias de fuentes utilizados en el documento se resuelven y sustituyen de acuerdo con FontSettings cuando se escribe en formatos basados en HTML.
 type: docs
 weight: 410
 url: /es/net/aspose.words.saving/htmlsaveoptions/resolvefontnames/
 ---
 ## HtmlSaveOptions.ResolveFontNames property
 
-Especifica si los nombres de familia de fuentes utilizados en el documento se resuelven y sustituyen de acuerdo con [`FontSettings`](../../../aspose.words/document/fontsettings/) cuando se escribe en formatos basados en HTML.
+Especifica si los nombres de familias de fuentes utilizados en el documento se resuelven y sustituyen de acuerdo con [`FontSettings`](../../../aspose.words/document/fontsettings/) cuando se escribe en formatos basados en HTML.
 
 ```csharp
 public bool ResolveFontNames { get; set; }
@@ -16,9 +16,9 @@ public bool ResolveFontNames { get; set; }
 
 ### Observaciones
 
-De forma predeterminada, esta opción está establecida en`falso` los nombres de las familias de fuentes se escriben en HTML como se especifica en los documentos de origen. Eso es,[`FontSettings`](../../../aspose.words/document/fontsettings/) se ignoran y no se realiza ninguna resolución o sustitución de nombres de familias de fuentes.
+De forma predeterminada, esta opción está configurada en`FALSO` y los nombres de las familias de fuentes se escriben en HTML como se especifica en los documentos fuente. Eso es,[`FontSettings`](../../../aspose.words/document/fontsettings/) se ignoran y no se realiza ninguna resolución o sustitución de nombres de familias de fuentes.
 
-Si esta opción se establece en`verdadero` , Aspose.Words utiliza[`FontSettings`](../../../aspose.words/document/fontsettings/) para resolver cada nombre de familia de fuentes especificado en un documento de origen en el nombre de una familia de fuentes disponible, realizando la sustitución de fuentes según sea necesario.
+Si esta opción está configurada en`verdadero` , Aspose. Usos de palabras[`FontSettings`](../../../aspose.words/document/fontsettings/) para resolver cada nombre de familia de fuentes especificado en un documento fuente en el nombre de una familia de fuentes disponible, realizando la sustitución de fuentes según sea necesario.
 
 ### Ejemplos
 
@@ -48,7 +48,7 @@ doc.FontSettings = fontSettings;
 
 HtmlSaveOptions saveOptions = new HtmlSaveOptions(SaveFormat.Html)
 {
-    // De forma predeterminada, esta opción se establece en 'False' y Aspose.Words escribe los nombres de fuentes como se especifica en el documento de origen
+    // De forma predeterminada, esta opción está configurada en 'Falso' y Aspose.Words escribe los nombres de las fuentes como se especifica en el documento fuente
     ResolveFontNames = resolveFontNames
 };
 

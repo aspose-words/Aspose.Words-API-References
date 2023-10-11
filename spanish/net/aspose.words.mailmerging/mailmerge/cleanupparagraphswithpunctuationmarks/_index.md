@@ -18,7 +18,7 @@ public bool CleanupParagraphsWithPunctuationMarks { get; set; }
 
 El valor predeterminado es`verdadero` .
 
-Aquí está la lista completa de signos de puntuación limpiables:
+Aquí está la lista completa de signos de puntuación que se pueden limpiar:
 
 * !
 * ,
@@ -49,7 +49,7 @@ mergeFieldOption2.FieldName = "Option_2";
 doc.MailMerge.CleanupOptions = MailMergeCleanupOptions.RemoveEmptyParagraphs;
 
 // Establecer la propiedad "CleanupParagraphsWithPunctuationMarks" en "true" también contará los párrafos
-// con signos de puntuación como vacíos y obtendrá la operación de combinación de correspondencia para eliminarlos también.
+// con signos de puntuación vacíos y obtendrá la operación de combinación de correspondencia para eliminarlos también.
 // Establecer la propiedad "CleanupParagraphsWithPunctuationMarks" en "false"
 // eliminará los párrafos vacíos, pero no los que tengan signos de puntuación.
 // Esta es una lista de signos de puntuación a los que se refiere esta propiedad: "!", ",", ".", ":", ";", "?", "¡", "¿".

@@ -1,14 +1,14 @@
 ---
 title: TableStyle.RightPadding
 second_title: Справочник по API Aspose.Words для .NET
-description: TableStyle свойство. Получает или задает количество места в пунктах которое нужно добавить справа от содержимого ячеек таблицы.
+description: TableStyle свойство. Получает или задает объем места в пунктах добавляемый справа от содержимого ячеек таблицы.
 type: docs
 weight: 110
 url: /ru/net/aspose.words/tablestyle/rightpadding/
 ---
 ## TableStyle.RightPadding property
 
-Получает или задает количество места (в пунктах), которое нужно добавить справа от содержимого ячеек таблицы.
+Получает или задает объем места (в пунктах), добавляемый справа от содержимого ячеек таблицы.
 
 ```csharp
 public double RightPadding { get; set; }
@@ -16,7 +16,7 @@ public double RightPadding { get; set; }
 
 ### Примеры
 
-Показывает, как создавать пользовательские настройки стиля для таблицы.
+Показывает, как создать пользовательские настройки стиля для таблицы.
 
 ```csharp
 Document doc = new Document();

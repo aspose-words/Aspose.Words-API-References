@@ -3,7 +3,7 @@ title: Document.ExpandTableStylesToDirectFormatting
 second_title: Aspose.Words för .NET API Referens
 description: Document metod. Konverterar formatering som anges i tabellstilar till direkt formatering på tabeller i dokumentet.
 type: docs
-weight: 570
+weight: 610
 url: /sv/net/aspose.words/document/expandtablestylestodirectformatting/
 ---
 ## Document.ExpandTableStylesToDirectFormatting method

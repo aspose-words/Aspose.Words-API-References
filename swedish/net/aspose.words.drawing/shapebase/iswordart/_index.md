@@ -1,14 +1,14 @@
 ---
 title: ShapeBase.IsWordArt
 second_title: Aspose.Words för .NET API Referens
-description: ShapeBase fast egendom. Returnerar sant om den här formen är ett WordArtobjekt.
+description: ShapeBase fast egendom. ReturnerarSann om den här formen är ett WordArtobjekt.
 type: docs
-weight: 350
+weight: 360
 url: /sv/net/aspose.words.drawing/shapebase/iswordart/
 ---
 ## ShapeBase.IsWordArt property
 
-Returnerar sant om den här formen är ett WordArt-objekt.
+Returnerar`Sann` om den här formen är ett WordArt-objekt.
 
 ```csharp
 public bool IsWordArt { get; }
@@ -23,6 +23,7 @@ Fungerar till 2007 kompatibilitetsläge. Under 2010 och högre kompatibilitetsl�
 Visar hur man arbetar med WordArt.
 
 ```csharp
+public void InsertTextPaths()
 {
     Document doc = new Document();
 
@@ -88,6 +89,7 @@ Visar hur man arbetar med WordArt.
     shape.TextPath.TextPathAlignment = TextPathAlignment.Right;
 
     doc.Save(ArtifactsDir + "Shape.InsertTextPaths.docx");
+}
 
 /// <summary>
 /// Infoga ett nytt stycke med en WordArt-form inuti.

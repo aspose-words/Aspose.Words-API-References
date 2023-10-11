@@ -21,7 +21,7 @@ Montre comment imiter les propriétés des images lors de la conversion d'un doc
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
 
-// Configurez l'objet SvgSaveOptions pour enregistrer sans bordures de page ni texte sélectionnable.
+// Configurez l'objet SvgSaveOptions pour qu'il soit enregistré sans bordure de page ni texte sélectionnable.
 SvgSaveOptions options = new SvgSaveOptions
 {
     FitToViewPort = true,

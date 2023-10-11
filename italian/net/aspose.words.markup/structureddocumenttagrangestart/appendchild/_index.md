@@ -20,7 +20,7 @@ public Node AppendChild(Node newChild)
 
 ### Valore di ritorno
 
-Il nodo è stato aggiunto.
+Il nodo ha aggiunto.
 
 ### Guarda anche
 

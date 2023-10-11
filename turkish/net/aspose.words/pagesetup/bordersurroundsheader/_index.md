@@ -1,14 +1,14 @@
 ---
 title: PageSetup.BorderSurroundsHeader
 second_title: Aspose.Words for .NET API Referansı
-description: PageSetup mülk. Sayfa kenarlığının üstbilgiyi içerip içermediğini belirtir.
+description: PageSetup mülk. Sayfa kenarlığının üstbilgiyi içerip içermediğini veya hariç tuttuğunu belirtir.
 type: docs
 weight: 70
 url: /tr/net/aspose.words/pagesetup/bordersurroundsheader/
 ---
 ## PageSetup.BorderSurroundsHeader property
 
-Sayfa kenarlığının üstbilgiyi içerip içermediğini belirtir.
+Sayfa kenarlığının üstbilgiyi içerip içermediğini veya hariç tuttuğunu belirtir.
 
 ```csharp
 public bool BorderSurroundsHeader { get; set; }
@@ -16,11 +16,11 @@ public bool BorderSurroundsHeader { get; set; }
 
 ### Notlar
 
-Bu özelliğin değiştirilmesinin belgedeki tüm bölümleri etkilediğini unutmayın.
+Bu özelliğin değiştirilmesinin belgedeki tüm bölümleri etkileyeceğini unutmayın.
 
 ### Örnekler
 
-Sayfaya ve üstbilgiye/altbilgiye nasıl kenarlık uygulanacağını gösterir.
+Sayfaya ve üstbilgi/altbilgiye nasıl kenarlık uygulanacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -33,15 +33,15 @@ builder.MoveToHeaderFooter(HeaderFooterType.FooterPrimary);
 builder.Write("This is the footer.");
 builder.MoveToDocumentEnd();
 
-// Çift çizgili mavi bir kenarlık ekleyin.
+// Mavi çift çizgili bir kenarlık ekleyin.
 PageSetup pageSetup = doc.Sections[0].PageSetup;
 pageSetup.Borders.LineStyle = LineStyle.Double;
 pageSetup.Borders.Color = Color.Blue;
 
-// Bir bölümün PageSetup nesnesi, aşağıdakileri belirleyen "BorderSurroundsHeader" ve "BorderSurroundsFooter" bayraklarına sahiptir.
-// bir sayfa kenarlığının ana gövde metnini çevreleyip çevrelemediği, sırasıyla üstbilgi veya altbilgiyi de içerir.
+// Bir bölümün PageSetup nesnesi, belirleyen "BorderSurroundsHeader" ve "BorderSurroundsFooter" bayraklarına sahiptir.
+// sayfa kenarlığının ana gövde metnini çevreleyip çevrelemediği, sırasıyla üstbilgi veya altbilgiyi de içerip içermediği.
 // Başlığı kenarlığımızla çevrelemek için "BorderSurroundsHeader" bayrağını "true" olarak ayarlayın,
-// ve sonra "BorderSurroundsFooter" bayrağını altbilgiyi sınırın dışında bırakacak şekilde ayarlayın.
+// ve ardından altbilgiyi sınırın dışında bırakacak şekilde "BorderSurroundsFooter" bayrağını ayarlayın.
 pageSetup.BorderSurroundsHeader = true;
 pageSetup.BorderSurroundsFooter = false;
 

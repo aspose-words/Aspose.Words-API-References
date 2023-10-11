@@ -3,7 +3,7 @@ title: Enum BuildingBlockBehavior
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.BuildingBlocks.BuildingBlockBehavior uppräkning. Anger beteendet som ska tillämpas på innehållet i byggblocket när det infogas i huvuddokumentet.
 type: docs
-weight: 130
+weight: 140
 url: /sv/net/aspose.words.buildingblocks/buildingblockbehavior/
 ---
 ## BuildingBlockBehavior enumeration
@@ -71,7 +71,6 @@ public void CreateAndInsert()
     // Själva blocket är ett avsnitt som innehåller texten.
     Assert.AreEqual($"Text inside {customBlock.Name}\f", customBlock.FirstSection.Body.FirstParagraph.GetText());
     Assert.AreEqual(customBlock.FirstSection, customBlock.LastSection);
-
     // Nu kan vi infoga det i dokumentet som ett nytt avsnitt.
     doc.AppendChild(doc.ImportNode(customBlock.FirstSection, true));
 

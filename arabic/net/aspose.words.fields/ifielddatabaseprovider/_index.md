@@ -1,14 +1,14 @@
 ---
 title: Interface IFieldDatabaseProvider
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Fields.IFieldDatabaseProvider واجهه المستخدم. قم بتنفيذ هذه الواجهة لتوفير بيانات لملفFieldDatabase الحقل عند تحديثه.
+description: Aspose.Words.Fields.IFieldDatabaseProvider واجهه المستخدم. قم بتنفيذ هذه الواجهة لتوفير بيانات لـFieldDatabase الحقل عند تحديثه.
 type: docs
-weight: 2520
+weight: 2690
 url: /ar/net/aspose.words.fields/ifielddatabaseprovider/
 ---
 ## IFieldDatabaseProvider interface
 
-قم بتنفيذ هذه الواجهة لتوفير بيانات لملف[`FieldDatabase`](../fielddatabase/) الحقل عند تحديثه.
+قم بتنفيذ هذه الواجهة لتوفير بيانات لـ[`FieldDatabase`](../fielddatabase/) الحقل عند تحديثه.
 
 ```csharp
 public interface IFieldDatabaseProvider
@@ -18,7 +18,7 @@ public interface IFieldDatabaseProvider
 
 | اسم | وصف |
 | --- | --- |
-| [GetQueryResult](../../aspose.words.fields/ifielddatabaseprovider/getqueryresult/)(string, string, string, FieldDatabase) | إرجاع نتيجة الاستعلام . |
+| [GetQueryResult](../../aspose.words.fields/ifielddatabaseprovider/getqueryresult/)(string, string, string, FieldDatabase) | إرجاع نتيجة الاستعلام. |
 
 ### أنظر أيضا
 

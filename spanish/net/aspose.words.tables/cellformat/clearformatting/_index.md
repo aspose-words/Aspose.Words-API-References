@@ -3,7 +3,7 @@ title: CellFormat.ClearFormatting
 second_title: Referencia de API de Aspose.Words para .NET
 description: CellFormat método. Restablece el formato de celda predeterminado. No cambia el ancho de la celda.
 type: docs
-weight: 150
+weight: 160
 url: /es/net/aspose.words.tables/cellformat/clearformatting/
 ---
 ## CellFormat.ClearFormatting method
@@ -21,8 +21,8 @@ Muestra cómo combinar las filas de dos tablas en una.
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
 
-// A continuación hay dos formas de obtener una tabla de un documento.
-// 1 - De la colección "Tables" de un nodo Body:
+// A continuación se muestran dos formas de obtener una tabla de un documento.
+// 1 - De la colección "Tablas" de un nodo Cuerpo:
 Table firstTable = doc.FirstSection.Body.Tables[0];
 
 // 2 - Usando el método "GetChild":

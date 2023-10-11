@@ -1,14 +1,14 @@
 ---
 title: FieldInfo.InfoType
 second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldInfo propriété. Obtient ou définit le type de la propriété de document à insérer.
+description: FieldInfo propriété. Obtient ou définit le type de propriété de document à insérer.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.fields/fieldinfo/infotype/
 ---
 ## FieldInfo.InfoType property
 
-Obtient ou définit le type de la propriété de document à insérer.
+Obtient ou définit le type de propriété de document à insérer.
 
 ```csharp
 public string InfoType { get; set; }
@@ -34,7 +34,7 @@ Assert.AreEqual("My comment", field.Result);
 builder.Writeln();
 
 // Définition d'une valeur pour la propriété NewValue du champ et mise à jour
-// le champ écrasera également la propriété intégrée correspondante avec la nouvelle valeur.
+// le champ écrasera également la propriété intégrée correspondante par la nouvelle valeur.
 field = (FieldInfo)builder.InsertField(FieldType.FieldInfo, true);
 field.InfoType = "Comments";
 field.NewValue = "New comment";

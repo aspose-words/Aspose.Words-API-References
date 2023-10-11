@@ -1,14 +1,14 @@
 ---
 title: Font.ThemeFontBi
 second_title: Aspose.Words för .NET API Referens
-description: Font fast egendom. Hämtar eller ställer in temateckensnittet i det tillämpade teckensnittsschemat som är associerat med detta teckensnittsobjekt i ett dokument med höger till vänster språk.
+description: Font fast egendom. Hämtar eller ställer in temateckensnittet i det tillämpade teckensnittsschemat som är associerat med dettaFont object i ett dokument på högertillvänsterspråk.
 type: docs
 weight: 490
 url: /sv/net/aspose.words/font/themefontbi/
 ---
 ## Font.ThemeFontBi property
 
-Hämtar eller ställer in temateckensnittet i det tillämpade teckensnittsschemat som är associerat med detta teckensnittsobjekt i ett dokument med höger till vänster språk.
+Hämtar eller ställer in temateckensnittet i det tillämpade teckensnittsschemat som är associerat med detta[`Font`](../) object i ett dokument på höger-till-vänster-språk.
 
 ```csharp
 public ThemeFont ThemeFontBi { get; set; }

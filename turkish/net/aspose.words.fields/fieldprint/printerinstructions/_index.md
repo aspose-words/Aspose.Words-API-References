@@ -16,7 +16,7 @@ public string PrinterInstructions { get; set; }
 
 ### Örnekler
 
-YAZDIR alanı eklemeyi gösterir.
+PRINT alanının eklenmesini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -24,15 +24,15 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Write("My paragraph");
 
-// YAZDIR alanı, yazıcıya talimat gönderebilir.
+// PRINT alanı yazıcıya talimat gönderebilir.
 FieldPrint field = (FieldPrint)builder.InsertField(FieldType.FieldPrint, true);
 
-// Yazıcının yönergeleri yerine getireceği alanı ayarlayın.
+// Yazıcının talimatları uygulayacağı alanı ayarlayın.
 // Bu durumda PRINT alanımızı içeren paragraf olacaktır.
 field.PostScriptGroup = "para";
 
 // Belgemizi yazdırmak için PostScript'i destekleyen bir yazıcı kullandığımızda,
-// bu komut, "field.PostScriptGroup" içinde belirttiğimiz tüm alanı beyaza çevirecektir.
+// bu komut "field.PostScriptGroup"ta belirttiğimiz alanın tamamını beyaza çevirecektir.
 field.PrinterInstructions = "erasepage";
 
 Assert.AreEqual(" PRINT  erasepage \\p para", field.GetFieldCode());

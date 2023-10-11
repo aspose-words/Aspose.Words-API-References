@@ -17,15 +17,15 @@ public void AddPrinterFont(string fontFullName, string fontPclName)
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
 | fontFullName | String | Yazı tipinin tam adı (örn. "Times New Roman Kalın İtalik"). |
-| fontPclName | String | PCl belgesinde kullanılan yazı tipinin adı. |
+| fontPclName | String | Pcl belgesinde kullanılan yazı tipinin adı. |
 
 ### Notlar
 
-Herhangi bir yazıcıda Pcl özelliklerine göre oluşturulacak 52 yazı tipi vardır. Ancak üreticiler cihazlarına başka yazı tipleri ekleyebilir.
+Pcl spesifikasyonuna göre herhangi bir yazıcıda yerleşik olarak bulunması gereken 52 yazı tipi vardır. Ancak üreticiler cihazlarına başka yazı tipleri de ekleyebilirler.
 
 ### Örnekler
 
-Belirli bir yazı tipinin tüm örneklerini farklı bir yazı tipiyle değiştirmek için bir yazıcının nasıl alınacağını gösterir.
+Belirli bir yazı tipinin tüm örneklerini farklı bir yazı tipiyle değiştirmek için yazıcının nasıl alınacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -37,7 +37,7 @@ builder.Write("Hello world!");
 PclSaveOptions saveOptions = new PclSaveOptions();
 saveOptions.AddPrinterFont("Courier New", "Courier");
 
-// Bu belgeyi yazdırırken, yazıcı "Courier New" yazı tipini kullanacaktır.
+// Bu belgeyi yazdırırken yazıcı "Courier New" yazı tipini kullanacaktır
 // belgemizin "Courier" yazı tipini kullandığı yerlere erişmek için.
 doc.Save(ArtifactsDir + "PclSaveOptions.AddPrinterFont.pcl", saveOptions);
 ```

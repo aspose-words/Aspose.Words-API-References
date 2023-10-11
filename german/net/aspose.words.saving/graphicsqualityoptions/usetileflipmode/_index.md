@@ -16,15 +16,15 @@ public bool UseTileFlipMode { get; set; }
 
 ### Bemerkungen
 
-DasWrapMode gibt an, wie eine Textur oder ein Farbverlauf gekachelt wird, wenn er/sie kleiner ist als der zu füllende Bereich.
+DerWrapMode Gibt an, wie eine Textur oder ein Farbverlauf gekachelt wird, wenn sie kleiner als der zu füllende Bereich ist.
 
-Standardmäßig verwendetTile (Gibt Kacheln ohne Spiegeln an). Dies führt zu einer ungenauen Wiedergabe des skalierten Bildes (mit hoher Auflösung).
+Standardmäßig verwendetTile (gibt Kacheln ohne Spiegeln an). Dies führt zu einer ungenauen Darstellung des skalierten Bildes (mit hoher Auflösung).
 
-Mit dieser Eigenschaft kann WrapMode auf umgeschaltet werdenTileFlipXY (gibt an, dass Kacheln horizontal gedreht werden, wenn Sie sich entlang einer Reihe bewegen, und vertikal gedreht werden, wenn Sie sich entlang einer Spalte bewegen).
+Mit dieser Eigenschaft kann WrapMode auf umgeschaltet werdenTileFlipXY (Gibt an, dass Kacheln horizontal gespiegelt werden, wenn Sie sich entlang einer Zeile bewegen, und vertikal gespiegelt werden, wenn Sie sich entlang einer Spalte bewegen.)
 
 ### Beispiele
 
-Zeigt, wie verhindert wird, dass die weiße Linie beim Rendern mit hoher Auflösung erscheint.
+Zeigt, wie verhindert werden kann, dass beim Rendern mit hoher Auflösung eine weiße Linie erscheint.
 
 ```csharp
 Document doc = new Document(MyDir + "Shape high dpi.docx");

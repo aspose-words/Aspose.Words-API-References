@@ -3,7 +3,7 @@ title: DocumentBuilder.InsertCheckBox
 second_title: Aspose.Words för .NET API Referens
 description: DocumentBuilder metod. Infogar ett kryssrutaformulär på den aktuella positionen.
 type: docs
-weight: 270
+weight: 290
 url: /sv/net/aspose.words/documentbuilder/insertcheckbox/
 ---
 ## InsertCheckBox(string, bool, int) {#insertcheckbox_1}

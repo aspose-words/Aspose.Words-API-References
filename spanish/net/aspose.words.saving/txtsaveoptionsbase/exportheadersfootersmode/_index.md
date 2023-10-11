@@ -40,16 +40,16 @@ builder.Writeln("Page 2");
 builder.InsertBreak(BreakType.PageBreak); 
 builder.Write("Page 3");
 
-// Crear un objeto "TxtSaveOptions", que podemos pasar al método "Guardar" del documento
-// para modificar cómo guardamos el documento en texto sin formato.
+// Crea un objeto "TxtSaveOptions", que podemos pasar al método "Guardar" del documento.
+// para modificar cómo guardamos el documento en texto plano.
 TxtSaveOptions saveOptions = new TxtSaveOptions();
 
-// Establecer la propiedad "ExportHeadersFootersMode" en "TxtExportHeadersFootersMode.None"
+// Establece la propiedad "ExportHeadersFootersMode" en "TxtExportHeadersFootersMode.None"
 // para no exportar ningún encabezado/pie de página.
-// Establecer la propiedad "ExportHeadersFootersMode" en "TxtExportHeadersFootersMode.PrimaryOnly"
+// Establece la propiedad "ExportHeadersFootersMode" en "TxtExportHeadersFootersMode.PrimaryOnly"
 // para exportar solo encabezados/pies de página principales.
-// Establecer la propiedad "ExportHeadersFootersMode" en "TxtExportHeadersFootersMode.AllAtEnd"
-// para colocar todos los encabezados y pies de página de todos los cuerpos de sección al final del documento.
+// Establece la propiedad "ExportHeadersFootersMode" en "TxtExportHeadersFootersMode.AllAtEnd"
+// para colocar todos los encabezados y pies de página de todos los cuerpos de las secciones al final del documento.
 saveOptions.ExportHeadersFootersMode = txtExportHeadersFootersMode;
 
 doc.Save(ArtifactsDir + "TxtSaveOptions.ExportHeadersFooters.txt", saveOptions);

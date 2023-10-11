@@ -1,14 +1,14 @@
 ---
 title: FieldInfo.NewValue
 second_title: Aspose.Words für .NET-API-Referenz
-description: FieldInfo eigendom. Ruft einen optionalen Wert ab der die Eigenschaft aktualisiert oder legt ihn fest.
+description: FieldInfo eigendom. Ruft einen optionalen Wert ab der die Eigenschaft aktualisiert oder legt diesen fest.
 type: docs
 weight: 30
 url: /de/net/aspose.words.fields/fieldinfo/newvalue/
 ---
 ## FieldInfo.NewValue property
 
-Ruft einen optionalen Wert ab, der die Eigenschaft aktualisiert, oder legt ihn fest.
+Ruft einen optionalen Wert ab, der die Eigenschaft aktualisiert, oder legt diesen fest.
 
 ```csharp
 public string NewValue { get; set; }
@@ -22,7 +22,7 @@ Zeigt, wie mit INFO-Feldern gearbeitet wird.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Legen Sie einen Wert für die eingebaute Eigenschaft "Comments" fest und fügen Sie dann ein INFO-Feld ein, um den Wert dieser Eigenschaft anzuzeigen.
+// Legen Sie einen Wert für die integrierte Eigenschaft „Kommentare“ fest und fügen Sie dann ein INFO-Feld ein, um den Wert dieser Eigenschaft anzuzeigen.
 doc.BuiltInDocumentProperties.Comments = "My comment";
 FieldInfo field = (FieldInfo)builder.InsertField(FieldType.FieldInfo, true);
 field.InfoType = "Comments";
@@ -33,8 +33,8 @@ Assert.AreEqual("My comment", field.Result);
 
 builder.Writeln();
 
-// Festlegen eines Werts für die NewValue-Eigenschaft des Felds und Aktualisieren
-// Das Feld überschreibt auch die entsprechende eingebaute Eigenschaft mit dem neuen Wert.
+// Einen Wert für die NewValue-Eigenschaft des Felds festlegen und aktualisieren
+// Das Feld überschreibt auch die entsprechende integrierte Eigenschaft mit dem neuen Wert.
 field = (FieldInfo)builder.InsertField(FieldType.FieldInfo, true);
 field.InfoType = "Comments";
 field.NewValue = "New comment";

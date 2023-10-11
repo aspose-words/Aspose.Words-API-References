@@ -1,14 +1,14 @@
 ---
 title: HtmlSaveOptions.ImageResolution
 second_title: Référence de l'API Aspose.Words pour .NET
-description: HtmlSaveOptions propriété. Spécifie la résolution de sortie des images lors de lexportation vers HTML MHTML ou EPUB. La valeur par défaut est96 ppp .
+description: HtmlSaveOptions propriété. Spécifie la résolution de sortie des images lors de lexportation au format HTML MHTML ou EPUB. La valeur par défaut est96 ppp .
 type: docs
-weight: 350
+weight: 340
 url: /fr/net/aspose.words.saving/htmlsaveoptions/imageresolution/
 ---
 ## HtmlSaveOptions.ImageResolution property
 
-Spécifie la résolution de sortie des images lors de l'exportation vers HTML, MHTML ou EPUB. La valeur par défaut est`96 ppp` .
+Spécifie la résolution de sortie des images lors de l'exportation au format HTML, MHTML ou EPUB. La valeur par défaut est`96 ppp` .
 
 ```csharp
 public int ImageResolution { get; set; }
@@ -16,7 +16,7 @@ public int ImageResolution { get; set; }
 
 ### Remarques
 
-Cette propriété affecte les images raster lorsque[`ScaleImageToShapeSize`](../scaleimagetoshapesize/) est`vrai` et les métafichiers d'effets exportés sous forme d'images raster. Certaines propriétés d'image telles que cropping ou rotation nécessitent d'enregistrer les images transformées et dans ce cas, les images transformées sont créées dans la résolution given .
+Cette propriété affecte les images raster lorsque[`ScaleImageToShapeSize`](../scaleimagetoshapesize/) est`vrai` et métafichiers d'effets exportés sous forme d'images raster. Certaines propriétés d'image telles que cropping ou rotation nécessitent l'enregistrement des images transformées et dans ce cas, les images transformées sont créées dans la résolution donnée .
 
 ### Exemples
 

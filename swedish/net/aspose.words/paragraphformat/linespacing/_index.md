@@ -3,7 +3,7 @@ title: ParagraphFormat.LineSpacing
 second_title: Aspose.Words för .NET API Referens
 description: ParagraphFormat fast egendom. Hämtar eller ställer in radavståndet i punkter för stycket.
 type: docs
-weight: 180
+weight: 190
 url: /sv/net/aspose.words/paragraphformat/linespacing/
 ---
 ## ParagraphFormat.LineSpacing property
@@ -16,9 +16,9 @@ public double LineSpacing { get; set; }
 
 ### Anmärkningar
 
-När egenskapen LineSpacingRule är inställd på AtMinst, kan radavståndet vara större än eller lika med, men aldrig mindre än det angivna värdet för LineSpacing.
+När[`LineSpacingRule`](../linespacingrule/) egenskapen är inställd påAtLeast , radavståndet kan vara större än eller lika med, men aldrig mindre än det angivna`LineSpacing` värde.
 
-När LineSpacingRule-egenskapen är inställd på Exactly, ändras radavståndet aldrig from det angivna LineSpacing-värdet, även om ett större teckensnitt används i stycket.
+När[`LineSpacingRule`](../linespacingrule/) egenskapen är inställd påExactly , radavståndet ändras aldrig från det angivna`LineSpacing` värde, även om ett större teckensnitt används inom stycket.
 
 ### Exempel
 

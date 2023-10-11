@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTag.BuildingBlockGallery
 second_title: Aspose.Words for .NET API Referansı
-description: StructuredDocumentTag mülk. Bunun için yapı taşı türünü belirtir SDT . Boş olamaz.
+description: StructuredDocumentTag mülk. Bunun için yapı taşının türünü belirtir SDT . Olamazhükümsüz .
 type: docs
 weight: 40
 url: /tr/net/aspose.words.markup/structureddocumenttag/buildingblockgallery/
 ---
 ## StructuredDocumentTag.BuildingBlockGallery property
 
-Bunun için yapı taşı türünü belirtir **SDT** . Boş olamaz.
+Bunun için yapı taşının türünü belirtir **SDT** . Olamaz`hükümsüz` .
 
 ```csharp
 public string BuildingBlockGallery { get; set; }
@@ -16,13 +16,13 @@ public string BuildingBlockGallery { get; set; }
 
 ### Notlar
 
-Bu mülke erişmek yalnızcaBuildingBlockGallery and DocPartObj SDT türleri. için salt okunurdur **SDT**belge parçası türünün.
+Bu özelliğe erişim yalnızca şunun için işe yarayacaktır:BuildingBlockGallery ve DocPartObj SDT türleri. Bunun için salt okunurdur **SDT** belge parçası türünün.
 
-Diğer tüm SDT türleri için istisna oluşacaktır.
+Diğer tüm SDT türleri için istisna meydana gelecektir.
 
 ### Örnekler
 
-Yapı taşı olarak yapılandırılmış bir belge etiketinin nasıl ekleneceğini ve kategorisini ve galerisini nasıl ayarlayacağını gösterir.
+Yapılandırılmış belge etiketinin yapı taşı olarak nasıl ekleneceğini ve kategorisi ile galerisinin nasıl ayarlanacağını gösterir.
 
 ```csharp
 Document doc = new Document();

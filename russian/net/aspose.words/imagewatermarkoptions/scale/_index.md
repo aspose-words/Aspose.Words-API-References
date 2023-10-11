@@ -1,14 +1,14 @@
 ---
 title: ImageWatermarkOptions.Scale
 second_title: Справочник по API Aspose.Words для .NET
-description: ImageWatermarkOptions свойство. Получает или задает коэффициент масштабирования выраженный в виде доли изображения. Значение по умолчанию 0  auto.
+description: ImageWatermarkOptions свойство. Получает или задает масштабный коэффициент выраженный как часть изображения. Значение по умолчанию 0  auto. .
 type: docs
 weight: 30
 url: /ru/net/aspose.words/imagewatermarkoptions/scale/
 ---
 ## ImageWatermarkOptions.Scale property
 
-Получает или задает коэффициент масштабирования, выраженный в виде доли изображения. Значение по умолчанию 0 - auto.
+Получает или задает масштабный коэффициент, выраженный как часть изображения. Значение по умолчанию: 0 — auto. .
 
 ```csharp
 public double Scale { get; set; }
@@ -18,7 +18,7 @@ public double Scale { get; set; }
 
 | исключение | условие |
 | --- | --- |
-| ArgumentOutOfRangeException | Выдает, когда аргумент находится вне диапазона допустимых значений. |
+| ArgumentOutOfRangeException | Выдает, когда аргумент выходит за пределы допустимого диапазона значений. |
 
 ### Примечания
 
@@ -33,8 +33,8 @@ public double Scale { get; set; }
 ```csharp
 Document doc = new Document();
 
-            // Изменяем внешний вид водяного знака изображения с помощью объекта ImageWatermarkOptions,
-            // затем передать его при создании водяного знака из файла изображения.
+            // Измените внешний вид водяного знака изображения с помощью объекта ImageWatermarkOptions,
+            // затем передаем его при создании водяного знака из файла изображения.
             ImageWatermarkOptions imageWatermarkOptions = new ImageWatermarkOptions();
             imageWatermarkOptions.Scale = 5;
             imageWatermarkOptions.IsWashout = false;

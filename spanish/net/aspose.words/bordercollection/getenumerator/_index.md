@@ -1,14 +1,14 @@
 ---
 title: BorderCollection.GetEnumerator
 second_title: Referencia de API de Aspose.Words para .NET
-description: BorderCollection método. Devuelve un objeto enumerador que se puede usar para iterar sobre todos los bordes de la colección.
+description: BorderCollection método. Devuelve un objeto enumerador que se puede utilizar para iterar sobre todos los bordes de la colección.
 type: docs
 weight: 160
 url: /es/net/aspose.words/bordercollection/getenumerator/
 ---
 ## BorderCollection.GetEnumerator method
 
-Devuelve un objeto enumerador que se puede usar para iterar sobre todos los bordes de la colección.
+Devuelve un objeto enumerador que se puede utilizar para iterar sobre todos los bordes de la colección.
 
 ```csharp
 public IEnumerator<Border> GetEnumerator()

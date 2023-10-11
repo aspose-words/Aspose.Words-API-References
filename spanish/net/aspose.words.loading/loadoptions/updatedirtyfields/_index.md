@@ -1,14 +1,14 @@
 ---
 title: LoadOptions.UpdateDirtyFields
 second_title: Referencia de API de Aspose.Words para .NET
-description: LoadOptions propiedad. Especifica si actualizar los campos con elsucio atributo.
+description: LoadOptions propiedad. Especifica si se deben actualizar los campos con elsucio atributo.
 type: docs
 weight: 160
 url: /es/net/aspose.words.loading/loadoptions/updatedirtyfields/
 ---
 ## LoadOptions.UpdateDirtyFields property
 
-Especifica si actualizar los campos con el`sucio` atributo.
+Especifica si se deben actualizar los campos con el`sucio` atributo.
 
 ```csharp
 public bool UpdateDirtyFields { get; set; }
@@ -16,25 +16,25 @@ public bool UpdateDirtyFields { get; set; }
 
 ### Ejemplos
 
-Muestra cómo usar una propiedad especial para actualizar el resultado del campo.
+Muestra cómo utilizar una propiedad especial para actualizar el resultado del campo.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Proporcione el valor de propiedad "Autor" integrado del documento y luego muéstrelo con un campo.
+// Proporcione el valor de propiedad "Autor" incorporado del documento y luego muéstrelo con un campo.
 doc.BuiltInDocumentProperties.Author = "John Doe";
 FieldAuthor field = (FieldAuthor)builder.InsertField(FieldType.FieldAuthor, true);
 
 Assert.False(field.IsDirty);
 Assert.AreEqual("John Doe", field.Result);
 
-// Actualizar la propiedad. El campo aún muestra el valor anterior.
+// Actualiza la propiedad. El campo todavía muestra el valor anterior.
 doc.BuiltInDocumentProperties.Author = "John & Jane Doe";
 
 Assert.AreEqual("John Doe", field.Result);
 
-// Dado que el valor del campo está desactualizado, podemos marcarlo como "sucio".
+// Dado que el valor del campo no está actualizado, podemos marcarlo como "sucio".
 // Este valor permanecerá desactualizado hasta que actualicemos el campo manualmente con el método Field.Update().
 field.IsDirty = true;
 

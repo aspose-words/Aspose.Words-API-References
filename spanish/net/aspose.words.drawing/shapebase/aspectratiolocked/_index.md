@@ -16,9 +16,9 @@ public bool AspectRatioLocked { get; set; }
 
 ### Observaciones
 
-El valor predeterminado depende de la[`ShapeType`](../shapetype/) , para ShapeType.Image es **verdadero** pero para los otros tipos de forma es **falso**.
+El valor predeterminado depende del[`ShapeType`](../../shapetype/) , Para elImage es`verdadero` pero para los otros tipos de formas es`FALSO`.
 
-Solo tiene efecto para las formas de nivel superior.
+Tiene efecto sólo para formas de nivel superior.
 
 ### Ejemplos
 
@@ -32,10 +32,10 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 // ocho controladores de tamaño alrededor de su perímetro, en los que podemos hacer clic y arrastrar para cambiar su tamaño.
 Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
 
-// Establecer la propiedad "AspectRatioLocked" en "true" para conservar la relación de aspecto de la forma
-// al usar cualquiera de los cuatro controladores de tamaño diagonal, que cambian tanto el alto como el ancho de la imagen.
+// Establece la propiedad "AspectRatioLocked" en "true" para preservar la relación de aspecto de la forma
+// cuando se utiliza cualquiera de los cuatro controladores de tamaño diagonal, que cambian tanto la altura como el ancho de la imagen.
 // El uso de cualquier controlador de tamaño ortogonal que cambie la altura o el ancho seguirá cambiando la relación de aspecto.
-// Establecer la propiedad "AspectRatioLocked" en "falso" para permitirnos
+// Establece la propiedad "AspectRatioLocked" en "false" para permitirnos
 // cambia libremente la relación de aspecto de la imagen con todos los controladores de tamaño.
 shape.AspectRatioLocked = lockAspectRatio;
 

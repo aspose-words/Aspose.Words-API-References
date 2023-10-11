@@ -1,14 +1,14 @@
 ---
 title: XamlFixedSaveOptions.ResourcesFolderAlias
 second_title: Aspose.Words für .NET-API-Referenz
-description: XamlFixedSaveOptions eigendom. Gibt den Namen des Ordners an der zum Erstellen von BildURIs verwendet wird die in ein XAMLDokument mit festen Seiten geschrieben werden. Standard istNull .
+description: XamlFixedSaveOptions eigendom. Gibt den Namen des Ordners an der zum Erstellen von BildURIs verwendet wird die in ein XAMLDokument mit fester Seite geschrieben werden. Der Standardwert istNull .
 type: docs
 weight: 40
 url: /de/net/aspose.words.saving/xamlfixedsaveoptions/resourcesfolderalias/
 ---
 ## XamlFixedSaveOptions.ResourcesFolderAlias property
 
-Gibt den Namen des Ordners an, der zum Erstellen von Bild-URIs verwendet wird, die in ein XAML-Dokument mit festen Seiten geschrieben werden. Standard ist`Null` .
+Gibt den Namen des Ordners an, der zum Erstellen von Bild-URIs verwendet wird, die in ein XAML-Dokument mit fester Seite geschrieben werden. Der Standardwert ist`Null` .
 
 ```csharp
 public string ResourcesFolderAlias { get; set; }
@@ -16,11 +16,11 @@ public string ResourcesFolderAlias { get; set; }
 
 ### Bemerkungen
 
-Beim Speichern von a[`Document`](../../../aspose.words/document/) im XAML-Format mit festen Seiten muss Aspose.Words alle in das Dokument eingebetteten -Bilder als eigenständige Dateien speichern.[`ResourcesFolder`](../resourcesfolder/) Mit können Sie angeben, wo die Bilder gespeichert werden und`ResourcesFolderAlias` ermöglicht die Angabe, wie die Bild-URIs aufgebaut werden.
+Wenn Sie a speichern[`Document`](../../../aspose.words/document/) Im XAML-Format mit fester Seite muss Aspose.Words alle im Dokument eingebetteten -Bilder als eigenständige Dateien speichern.[`ResourcesFolder`](../resourcesfolder/) Mit können Sie angeben, wo die Bilder gespeichert werden`ResourcesFolderAlias` ermöglicht die Angabe, wie die Bild-URIs erstellt werden.
 
 ### Beispiele
 
-Zeigt, wie die URIs verknüpfter Ressourcen gedruckt werden, die beim Konvertieren eines Dokuments in eine .xaml-Datei mit fester Form erstellt wurden.
+Zeigt, wie die URIs verknüpfter Ressourcen gedruckt werden, die beim Konvertieren eines Dokuments in eine .xaml-Festform erstellt wurden.
 
 ```csharp
 public void ResourceFolder()
@@ -34,18 +34,18 @@ public void ResourceFolder()
 
     Assert.AreEqual(SaveFormat.XamlFixed, options.SaveFormat);
 
-    // Verwenden Sie die Eigenschaft "ResourcesFolder", um einen Ordner im lokalen Dateisystem zuzuweisen, in den
+    // Mit der Eigenschaft „ResourcesFolder“ einen Ordner im lokalen Dateisystem zuweisen, in den
     // Aspose.Words speichert alle verknüpften Ressourcen des Dokuments, wie Bilder und Schriftarten.
     options.ResourcesFolder = ArtifactsDir + "XamlFixedResourceFolder";
 
-    // Verwenden Sie die Eigenschaft "ResourcesFolderAlias", um diesen Ordner zu verwenden
+    // Verwenden Sie die Eigenschaft „ResourcesFolderAlias“, um diesen Ordner zu verwenden
     // beim Erstellen von Bild-URIs anstelle des Namens des Ressourcenordners.
     options.ResourcesFolderAlias = ArtifactsDir + "XamlFixedFolderAlias";
 
     options.ResourceSavingCallback = callback;
 
-    // Ein durch "ResourcesFolderAlias" angegebener Ordner muss die Ressourcen anstelle von "ResourcesFolder" enthalten.
-    // Wir müssen sicherstellen, dass der Ordner existiert, bevor die Streams des Callbacks ihre Ressourcen darin ablegen können.
+    // Ein durch „ResourcesFolderAlias“ angegebener Ordner muss die Ressourcen anstelle von „ResourcesFolder“ enthalten.
+    // Wir müssen sicherstellen, dass der Ordner vorhanden ist, bevor die Streams des Rückrufs ihre Ressourcen darin ablegen können.
     Directory.CreateDirectory(options.ResourcesFolderAlias);
 
     doc.Save(ArtifactsDir + "XamlFixedSaveOptions.ResourceFolder.xaml", options);
@@ -55,7 +55,7 @@ public void ResourceFolder()
 }
 
 /// <summary>
-/// Zählt und druckt URIs von Ressourcen, die während der Konvertierung in feste .xaml-Dateien erstellt wurden.
+/// Zählt und druckt URIs von Ressourcen, die während der Konvertierung in feste .xaml erstellt wurden.
 /// </summary>
 private class ResourceUriPrinter : IResourceSavingCallback
 {
@@ -68,8 +68,8 @@ private class ResourceUriPrinter : IResourceSavingCallback
     {
         Resources.Add($"Resource \"{args.ResourceFileName}\"\n\t{args.ResourceFileUri}");
 
-        // Wenn wir einen Ressourcenordner-Alias angeben, benötigen wir auch
-        // Um jeden Stream umzuleiten, um seine Ressource in den Alias-Ordner zu legen.
+        // Wenn wir einen Ressourcenordner-Alias angeben würden, würden wir auch Folgendes benötigen
+        // um jeden Stream umzuleiten, um seine Ressource im Alias-Ordner abzulegen.
         args.ResourceStream = new FileStream(args.ResourceFileUri, FileMode.Create);
         args.KeepResourceStreamOpen = false;
     }

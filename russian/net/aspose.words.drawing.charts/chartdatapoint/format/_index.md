@@ -1,14 +1,14 @@
 ---
 title: ChartDataPoint.Format
 second_title: Справочник по API Aspose.Words для .NET
-description: ChartDataPoint свойство. Предоставляет доступ к заполнению и форматированию строки этой точки данных.
+description: ChartDataPoint свойство. Предоставляет доступ к форматированию заливки и строк этой точки данных.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.drawing.charts/chartdatapoint/format/
 ---
 ## ChartDataPoint.Format property
 
-Предоставляет доступ к заполнению и форматированию строки этой точки данных.
+Предоставляет доступ к форматированию заливки и строк этой точки данных.
 
 ```csharp
 public ChartFormat Format { get; }
@@ -16,7 +16,7 @@ public ChartFormat Format { get; }
 
 ### Примеры
 
-Показывает, как задать индивидуальное форматирование для категорий гистограммы.
+Показывает, как установить индивидуальное форматирование для категорий гистограммы.
 
 ```csharp
 Document doc = new Document();
@@ -28,12 +28,12 @@ Chart chart = shape.Chart;
 // Удалить созданную по умолчанию серию.
 chart.Series.Clear();
 
-// Добавление новой серии.
+// Добавляем новую серию.
 ChartSeries series = chart.Series.Add("Series 1",
     new[] { "Category 1", "Category 2", "Category 3", "Category 4" },
     new double[] { 1, 2, 3, 4 });
 
-// Установить форматирование столбца.
+// Устанавливаем форматирование столбца.
 ChartDataPointCollection dataPoints = series.DataPoints;
 dataPoints[0].Format.Fill.PresetTextured(PresetTexture.Denim);
 dataPoints[1].Format.Fill.ForeColor = Color.Red;

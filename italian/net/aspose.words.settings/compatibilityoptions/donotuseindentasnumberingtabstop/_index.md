@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.DoNotUseIndentAsNumberingTabStop
 second_title: Aspose.Words per .NET API Reference
-description: CompatibilityOptions proprietà. Ignora il rientro sporgente quando si crea un punto di tabulazione dopo la numerazione.
+description: CompatibilityOptions proprietà. Ignora il rientro sporgente durante la creazione di una tabulazione dopo la numerazione.
 type: docs
 weight: 220
 url: /it/net/aspose.words.settings/compatibilityoptions/donotuseindentasnumberingtabstop/
 ---
 ## CompatibilityOptions.DoNotUseIndentAsNumberingTabStop property
 
-Ignora il rientro sporgente quando si crea un punto di tabulazione dopo la numerazione.
+Ignora il rientro sporgente durante la creazione di una tabulazione dopo la numerazione.
 
 ```csharp
 public bool DoNotUseIndentAsNumberingTabStop { get; set; }

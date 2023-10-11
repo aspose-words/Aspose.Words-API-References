@@ -1,14 +1,14 @@
 ---
 title: Shading.ForegroundPatternColor
 second_title: Aspose.Words für .NET-API-Referenz
-description: Shading eigendom. Ruft die Farbe ab oder legt sie fest die auf den Vordergrund des ShadingObjekts angewendet wird.
+description: Shading eigendom. Ruft die Farbe ab die auf den Vordergrund des angewendet wird oder legt diese festShading Objekt.
 type: docs
-weight: 20
+weight: 40
 url: /de/net/aspose.words/shading/foregroundpatterncolor/
 ---
 ## Shading.ForegroundPatternColor property
 
-Ruft die Farbe ab oder legt sie fest, die auf den Vordergrund des Shading-Objekts angewendet wird.
+Ruft die Farbe ab, die auf den Vordergrund des angewendet wird, oder legt diese fest[`Shading`](../) Objekt.
 
 ```csharp
 public Color ForegroundPatternColor { get; set; }
@@ -16,7 +16,7 @@ public Color ForegroundPatternColor { get; set; }
 
 ### Beispiele
 
-Zeigt, wie Text mit Rändern und Schattierungen verziert wird.
+Zeigt, wie Text mit Rändern und Schattierungen dekoriert wird.
 
 ```csharp
 Document doc = new Document();

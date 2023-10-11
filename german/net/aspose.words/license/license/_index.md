@@ -19,7 +19,7 @@ public License()
 Zeigt, wie eine Lizenz für Aspose.Words mithilfe einer Lizenzdatei im lokalen Dateisystem initialisiert wird.
 
 ```csharp
-// Legen Sie die Lizenz für unser Produkt Aspose.Words fest, indem Sie den Dateinamen des lokalen Dateisystems einer gültigen Lizenzdatei übergeben.
+// Legen Sie die Lizenz für unser Aspose.Words-Produkt fest, indem Sie den Dateinamen des lokalen Dateisystems einer gültigen Lizenzdatei übergeben.
 string licenseFileName = Path.Combine(LicenseDir, "Aspose.Words.NET.lic");
 
 License license = new License();
@@ -30,8 +30,8 @@ string licenseCopyFileName = Path.Combine(AssemblyDir, "Aspose.Words.NET.lic");
 File.Copy(licenseFileName, licenseCopyFileName);
 
 // Wenn wir den Namen einer Datei ohne Pfad übergeben,
-// die SetLicense durchsucht mehrere lokale Dateisystemspeicherorte nach dieser Datei.
-// Einer dieser Speicherorte ist der "bin"-Ordner, der eine Kopie unserer Lizenzdatei enthält.
+// SetLicense durchsucht mehrere lokale Dateisystemspeicherorte nach dieser Datei.
+// Einer dieser Speicherorte ist der Ordner „bin“, der eine Kopie unserer Lizenzdatei enthält.
 license.SetLicense("Aspose.Words.NET.lic");
 ```
 

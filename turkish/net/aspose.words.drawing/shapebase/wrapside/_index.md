@@ -1,14 +1,14 @@
 ---
 title: ShapeBase.WrapSide
 second_title: Aspose.Words for .NET API Referansı
-description: ShapeBase mülk. Metnin şeklin etrafına nasıl sarılacağını belirtir.
+description: ShapeBase mülk. Metnin şeklin etrafına nasıl sarıldığını belirtir.
 type: docs
-weight: 530
+weight: 590
 url: /tr/net/aspose.words.drawing/shapebase/wrapside/
 ---
 ## ShapeBase.WrapSide property
 
-Metnin şeklin etrafına nasıl sarılacağını belirtir.
+Metnin şeklin etrafına nasıl sarıldığını belirtir.
 
 ```csharp
 public WrapSide WrapSide { get; set; }
@@ -16,7 +16,7 @@ public WrapSide WrapSide { get; set; }
 
 ### Notlar
 
-Varsayılan değerBoth.
+Varsayılan değer:Both.
 
 Yalnızca üst düzey şekiller için etkilidir.
 

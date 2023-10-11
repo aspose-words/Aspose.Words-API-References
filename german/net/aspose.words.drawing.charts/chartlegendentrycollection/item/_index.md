@@ -1,14 +1,14 @@
 ---
 title: ChartLegendEntryCollection.Item
 second_title: Aspose.Words für .NET-API-Referenz
-description: ChartLegendEntryCollection eigendom. gibt zurückChartLegendEntry für den angegebenen Index.
+description: ChartLegendEntryCollection eigendom. Gibt zurückChartLegendEntry für den angegebenen Index.
 type: docs
 weight: 20
 url: /de/net/aspose.words.drawing.charts/chartlegendentrycollection/item/
 ---
 ## ChartLegendEntryCollection indexer
 
-gibt zurück[`ChartLegendEntry`](../../chartlegendentry/) für den angegebenen Index.
+Gibt zurück[`ChartLegendEntry`](../../chartlegendentry/) für den angegebenen Index.
 
 ```csharp
 public ChartLegendEntry this[int index] { get; }

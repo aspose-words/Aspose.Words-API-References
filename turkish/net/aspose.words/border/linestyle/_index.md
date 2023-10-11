@@ -16,11 +16,11 @@ public LineStyle LineStyle { get; set; }
 
 ### Notlar
 
-Çizgi stilini yok olarak ayarlarsanız, çizgi genişliği otomatik olarak sıfıra değiştirilir.
+Çizgi stilini yok olarak ayarlarsanız çizgi genişliği otomatik olarak sıfıra değiştirilir.
 
 ### Örnekler
 
-Kenarlıkla çevrili bir dizenin belgeye nasıl ekleneceğini gösterir.
+Kenarlıkla çevrelenmiş bir dizenin belgeye nasıl ekleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();

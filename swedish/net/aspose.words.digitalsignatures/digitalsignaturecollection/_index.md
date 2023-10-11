@@ -3,12 +3,14 @@ title: Class DigitalSignatureCollection
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.DigitalSignatures.DigitalSignatureCollection klass. Ger en skrivskyddad samling av digitala signaturer bifogade till ett dokument.
 type: docs
-weight: 380
+weight: 390
 url: /sv/net/aspose.words.digitalsignatures/digitalsignaturecollection/
 ---
 ## DigitalSignatureCollection class
 
 Ger en skrivskyddad samling av digitala signaturer bifogade till ett dokument.
+
+För att lära dig mer, besök[Arbeta med digitala signaturer](https://docs.aspose.com/words/net/working-with-digital-signatures/) dokumentationsartikel.
 
 ```csharp
 public class DigitalSignatureCollection : IEnumerable<DigitalSignature>
@@ -25,7 +27,7 @@ public class DigitalSignatureCollection : IEnumerable<DigitalSignature>
 | namn | Beskrivning |
 | --- | --- |
 | [Count](../../aspose.words.digitalsignatures/digitalsignaturecollection/count/) { get; } | Hämtar antalet element som finns i samlingen. |
-| [IsValid](../../aspose.words.digitalsignatures/digitalsignaturecollection/isvalid/) { get; } | Returnerar`Sann` om alla digitala signaturer i denna samling är giltiga och dokumentet inte har manipulerats returneras också`Sann`om det inte finns några digitala signaturer. Returnerar`falsk` om minst en digital signatur är ogiltig. |
+| [IsValid](../../aspose.words.digitalsignatures/digitalsignaturecollection/isvalid/) { get; } | Returnerar`Sann` om alla digitala signaturer i denna samling är giltiga och dokumentet inte har manipulerats returneras också`Sann` om det inte finns några digitala signaturer. Returnerar`falsk` om minst en digital signatur är ogiltig. |
 | [Item](../../aspose.words.digitalsignatures/digitalsignaturecollection/item/) { get; } | Får en dokumentsignatur vid det angivna indexet. |
 
 ## Metoder

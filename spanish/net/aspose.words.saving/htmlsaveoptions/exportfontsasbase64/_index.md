@@ -1,14 +1,14 @@
 ---
 title: HtmlSaveOptions.ExportFontsAsBase64
 second_title: Referencia de API de Aspose.Words para .NET
-description: HtmlSaveOptions propiedad. Especifica si los recursos de fuentes se deben incrustar en HTML en codificación Base64. El valor predeterminado esfalso .
+description: HtmlSaveOptions propiedad. Especifica si los recursos de fuentes deben incrustarse en HTML en codificación Base64. El valor predeterminado esFALSO .
 type: docs
-weight: 160
+weight: 150
 url: /es/net/aspose.words.saving/htmlsaveoptions/exportfontsasbase64/
 ---
 ## HtmlSaveOptions.ExportFontsAsBase64 property
 
-Especifica si los recursos de fuentes se deben incrustar en HTML en codificación Base64. El valor predeterminado es`falso` .
+Especifica si los recursos de fuentes deben incrustarse en HTML en codificación Base64. El valor predeterminado es`FALSO` .
 
 ```csharp
 public bool ExportFontsAsBase64 { get; set; }
@@ -16,7 +16,7 @@ public bool ExportFontsAsBase64 { get; set; }
 
 ### Observaciones
 
-De forma predeterminada, las fuentes se escriben en archivos independientes. Si esta opción se establece en`verdadero`, las fuentes se incrustarán en el CSS del documento en codificación Base64.
+De forma predeterminada, las fuentes se escriben en archivos separados. Si esta opción está configurada en`verdadero`, las fuentes se incrustarán en el CSS del documento en codificación Base64.
 
 ### Ejemplos
 

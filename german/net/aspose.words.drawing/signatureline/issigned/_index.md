@@ -1,14 +1,14 @@
 ---
 title: SignatureLine.IsSigned
 second_title: Aspose.Words für .NET-API-Referenz
-description: SignatureLine eigendom. Gibt an dass die Signaturzeile mit einer digitalen Signatur signiert ist.
+description: SignatureLine eigendom. Zeigt an dass die Signaturzeile mit einer digitalen Signatur signiert ist.
 type: docs
 weight: 60
 url: /de/net/aspose.words.drawing/signatureline/issigned/
 ---
 ## SignatureLine.IsSigned property
 
-Gibt an, dass die Signaturzeile mit einer digitalen Signatur signiert ist.
+Zeigt an, dass die Signaturzeile mit einer digitalen Signatur signiert ist.
 
 ```csharp
 public bool IsSigned { get; }
@@ -16,7 +16,7 @@ public bool IsSigned { get; }
 
 ### Beispiele
 
-Zeigt, wie ein Dokument mit einem persönlichen Zertifikat und einer Signaturzeile signiert wird.
+Zeigt, wie man ein Dokument mit einem persönlichen Zertifikat und einer Signaturzeile signiert.
 
 ```csharp
 Document doc = new Document();
@@ -54,7 +54,7 @@ CertificateHolder certHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "a
 DigitalSignatureUtil.Sign(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.docx", 
     ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx", certHolder, signOptions);
 
-// Öffnen Sie unser gespeichertes Dokument erneut und überprüfen Sie, ob die Eigenschaften "IsSigned" und "IsValid" beide gleich "true" sind,
+// Öffnen Sie unser gespeichertes Dokument erneut und überprüfen Sie, ob die Eigenschaften „IsSigned“ und „IsValid“ beide den Wert „true“ haben.
 // zeigt an, dass die Signaturzeile eine Signatur enthält.
 doc = new Document(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx");
 Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);

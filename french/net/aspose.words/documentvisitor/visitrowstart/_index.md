@@ -1,14 +1,14 @@
 ---
 title: DocumentVisitor.VisitRowStart
 second_title: Référence de l'API Aspose.Words pour .NET
-description: DocumentVisitor méthode. Appelé lorsque lénumération dune ligne de table a commencé.
+description: DocumentVisitor méthode. Appelé lorsque lénumération dune ligne du tableau a commencé.
 type: docs
 weight: 350
 url: /fr/net/aspose.words/documentvisitor/visitrowstart/
 ---
 ## DocumentVisitor.VisitRowStart method
 
-Appelé lorsque l'énumération d'une ligne de table a commencé.
+Appelé lorsque l'énumération d'une ligne du tableau a commencé.
 
 ```csharp
 public virtual VisitorAction VisitRowStart(Row row)
@@ -16,15 +16,15 @@ public virtual VisitorAction VisitRowStart(Row row)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| row | Row | L'objet visité. |
+| row | Row | L'objet qui est visité. |
 
 ### Return_Value
 
-UN[`VisitorAction`](../../visitoraction/) valeur qui spécifie comment poursuivre l'énumération.
+UN[`VisitorAction`](../../visitoraction/) valeur qui spécifie comment continuer l’énumération.
 
 ### Exemples
 
-Montre comment imprimer la structure de nœud de chaque table dans un document.
+Montre comment imprimer la structure des nœuds de chaque table d'un document.
 
 ```csharp
 public void TableToText()
@@ -32,8 +32,8 @@ public void TableToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     TableStructurePrinter visitor = new TableStructurePrinter();
 
-    // Lorsque nous obtenons un nœud composite pour accepter un visiteur de document, le visiteur visite le nœud acceptant,
-    // puis parcourt tous les enfants du nœud en profondeur d'abord.
+    // Lorsque nous obtenons qu'un nœud composite accepte un visiteur de document, le visiteur visite le nœud accepteur,
+    // puis parcourt tous les enfants du nœud en profondeur.
     // Le visiteur peut lire et modifier chaque nœud visité.
     doc.Accept(visitor);
 
@@ -58,8 +58,8 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Appelé lorsqu'un noeud Run est rencontré dans le document.
-    /// Les exécutions qui ne sont pas dans les tables ne sont pas enregistrées.
+    /// Appelé lorsqu'un nœud Run est rencontré dans le document.
+    /// Les exécutions qui ne se trouvent pas dans les tables ne sont pas enregistrées.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -69,7 +69,7 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Appelé lorsqu'un tableau est rencontré dans le document.
+    /// Appelé lorsqu'une table est rencontrée dans le document.
     /// </summary>
     public override VisitorAction VisitTableStart(Table table)
     {
@@ -133,7 +133,7 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Appelé lorsqu'un noeud Cellule est rencontré dans le document.
+    /// Appelé lorsqu'un nœud Cell est rencontré dans le document.
     /// </summary>
     public override VisitorAction VisitCellStart(Cell cell)
     {
@@ -152,7 +152,7 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Appelé après que tous les nœuds enfants d'un nœud Cell aient été visités.
+    /// Appelé après que tous les nœuds enfants d'un nœud Cell ont été visités.
     /// </summary>
     public override VisitorAction VisitCellEnd(Cell cell)
     {
@@ -165,7 +165,7 @@ public class TableStructurePrinter : DocumentVisitor
     /// Ajoutez une ligne au StringBuilder et indentez-la en fonction de la profondeur du visiteur
     /// dans l'arborescence des nœuds enfants de la table actuelle.
     /// </summary>
-    /// <nom du paramètre="texte"></param>
+    /// <param name="text"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++)

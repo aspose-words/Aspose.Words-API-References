@@ -3,7 +3,7 @@ title: PdfSaveOptions.DisplayDocTitle
 second_title: Aspose.Words för .NET API Referens
 description: PdfSaveOptions fast egendom. En flagga som anger om fönstrets namnlist ska visa dokumenttiteln hämtad från titelposten i dokumentinformationslexikonet.
 type: docs
-weight: 70
+weight: 80
 url: /sv/net/aspose.words.saving/pdfsaveoptions/displaydoctitle/
 ---
 ## PdfSaveOptions.DisplayDocTitle property

@@ -1,14 +1,14 @@
 ---
 title: EditableRangeEnd.EditableRangeStart
 second_title: Aspose.Words per .NET API Reference
-description: EditableRangeEnd proprietà. Corrispondente EditableRangeStart ricevuto da ID.
+description: EditableRangeEnd proprietà. CorrispondenteEditableRangeStart  ricevuto da ID.
 type: docs
 weight: 10
 url: /it/net/aspose.words/editablerangeend/editablerangestart/
 ---
 ## EditableRangeEnd.EditableRangeStart property
 
-Corrispondente EditableRangeStart, ricevuto da ID.
+Corrispondente[`EditableRangeStart`](../../editablerangestart/) , ricevuto da ID.
 
 ```csharp
 public EditableRangeStart EditableRangeStart { get; }
@@ -38,14 +38,14 @@ EditableRange editableRange = editableRangeStart.EditableRange;
 Assert.AreEqual(editableRangeStart.Id, editableRange.Id);
 Assert.AreEqual(editableRangeEnd.Id, editableRange.Id);
 
-// Diverse parti dell'intervallo modificabile si collegano tra loro.
+// Parti diverse dell'intervallo modificabile si collegano tra loro.
 Assert.AreEqual(editableRangeStart.Id, editableRange.EditableRangeStart.Id);
 Assert.AreEqual(editableRangeStart.Id, editableRangeEnd.EditableRangeStart.Id);
 Assert.AreEqual(editableRange.Id, editableRangeStart.EditableRange.Id);
 Assert.AreEqual(editableRangeEnd.Id, editableRange.EditableRangeEnd.Id);
 
-// Possiamo accedere ai tipi di nodo di ciascuna parte in questo modo. L'intervallo modificabile stesso non è un nodo,
-// ma un'entità che consiste in un inizio, una fine e il loro contenuto racchiuso.
+// Possiamo accedere ai tipi di nodo di ciascuna parte in questo modo. L'intervallo modificabile in sé non è un nodo,
+// ma un'entità che consiste in un inizio, una fine e il contenuto racchiuso.
 Assert.AreEqual(NodeType.EditableRangeStart, editableRangeStart.NodeType);
 Assert.AreEqual(NodeType.EditableRangeEnd, editableRangeEnd.NodeType);
 

@@ -24,17 +24,16 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Detta DATABAS-fält kommer att köra en fråga på en databas och visa resultatet i en tabell.
 FieldDatabase field = (FieldDatabase)builder.InsertField(FieldType.FieldDatabase, true);
-field.FileName = MyDir + @"Database\Northwind.mdb";
-field.Connection = "DSN=MS Access Databases";
+field.FileName = DatabaseDir + "Northwind.accdb";
+field.Connection = "Provider=Microsoft.ACE.OLEDB.12.0";
 field.Query = "SELECT * FROM [Products]";
 
-Assert.AreEqual($" DATABASE  \\d \"{DatabaseDir.Replace("\\", "\\\\") + "Northwind.mdb"}\" \\c \"DSN=MS Access Databases\" \\s \"SELECT * FROM [Products]\"", 
-    field.GetFieldCode());
+Assert.AreEqual($" DATABASE  \\d {DatabaseDir.Replace("\\", "\\\\") + "Northwind.accdb"} \\c Provider=Microsoft.ACE.OLEDB.12.0 \\s \"SELECT * FROM [Products]\"", field.GetFieldCode());
 
 // Infoga ett annat DATABAS-fält med en mer komplex fråga som sorterar alla produkter i fallande ordning efter bruttoförsäljning.
 field = (FieldDatabase)builder.InsertField(FieldType.FieldDatabase, true);
-field.FileName = MyDir + @"Database\Northwind.mdb";
-field.Connection = "DSN=MS Access Databases";
+field.FileName = DatabaseDir + "Northwind.accdb";
+field.Connection = "Provider=Microsoft.ACE.OLEDB.12.0";
 field.Query =
     "SELECT [Products].ProductName, FORMAT(SUM([Order Details].UnitPrice * (1 - [Order Details].Discount) * [Order Details].Quantity), 'Currency') AS GrossSales " +
     "FROM([Products] " +
@@ -59,7 +58,9 @@ field.FormatAttributes = "63";
 field.InsertHeadings = true;
 field.InsertOnceOnMailMerge = true;
 
+doc.FieldOptions.FieldDatabaseProvider = new OleDbFieldDatabaseProvider();
 doc.UpdateFields();
+
 doc.Save(ArtifactsDir + "Field.DATABASE.docx");
 ```
 

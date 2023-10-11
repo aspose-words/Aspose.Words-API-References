@@ -1,14 +1,14 @@
 ---
 title: CleanupOptions.DuplicateStyle
 second_title: Aspose.Words för .NET API Referens
-description: CleanupOptions fast egendom. Hämtar/ställer in en flagga som indikerar om dubblettstilar ska tas bort från dokumentet. Standardvärdet är falsk .
+description: CleanupOptions fast egendom. Hämtar/ställer in en flagga som indikerar om dubblettstilar ska tas bort från dokumentet. Standardvärdet ärfalsk .
 type: docs
 weight: 20
 url: /sv/net/aspose.words/cleanupoptions/duplicatestyle/
 ---
 ## CleanupOptions.DuplicateStyle property
 
-Hämtar/ställer in en flagga som indikerar om dubblettstilar ska tas bort från dokumentet. Standardvärdet är **falsk** .
+Hämtar/ställer in en flagga som indikerar om dubblettstilar ska tas bort från dokumentet. Standardvärdet är`falsk` .
 
 ```csharp
 public bool DuplicateStyle { get; set; }

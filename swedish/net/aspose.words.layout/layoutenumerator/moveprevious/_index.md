@@ -3,7 +3,7 @@ title: LayoutEnumerator.MovePrevious
 second_title: Aspose.Words för .NET API Referens
 description: LayoutEnumerator metod. Flyttar till föregående syskonenhet.
 type: docs
-weight: 140
+weight: 150
 url: /sv/net/aspose.words.layout/layoutenumerator/moveprevious/
 ---
 ## LayoutEnumerator.MovePrevious method

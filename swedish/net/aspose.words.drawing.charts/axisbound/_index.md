@@ -3,12 +3,14 @@ title: Class AxisBound
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Drawing.Charts.AxisBound klass. Representerar lägsta eller maximala gräns för axelvärden.
 type: docs
-weight: 500
+weight: 510
 url: /sv/net/aspose.words.drawing.charts/axisbound/
 ---
 ## AxisBound class
 
 Representerar lägsta eller maximala gräns för axelvärden.
+
+För att lära dig mer, besök[Arbeta med diagram](https://docs.aspose.com/words/net/working-with-charts/) dokumentationsartikel.
 
 ```csharp
 public sealed class AxisBound
@@ -78,6 +80,8 @@ xAxis.MajorUnit = 7.0d;
 xAxis.MajorTickMark = AxisTickMark.Cross;
 xAxis.MinorUnit = 1.0d;
 xAxis.MinorTickMark = AxisTickMark.Outside;
+xAxis.HasMajorGridlines = true;
+xAxis.HasMinorGridlines = true;
 
 // Definiera Y-axelegenskaper för decimalvärden.
 ChartAxis yAxis = chart.AxisY;
@@ -87,6 +91,8 @@ yAxis.MinorUnit = 50.0d;
 yAxis.DisplayUnit.Unit = AxisBuiltInUnit.Hundreds;
 yAxis.Scaling.Minimum = new AxisBound(100);
 yAxis.Scaling.Maximum = new AxisBound(700);
+yAxis.HasMajorGridlines = true;
+yAxis.HasMinorGridlines = true;
 
 doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 ```

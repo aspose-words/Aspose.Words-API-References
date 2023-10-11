@@ -3,7 +3,7 @@ title: Enum ShapeMarkupLanguage
 second_title: Aspose.Words for .NET API Referansı
 description: Aspose.Words.Drawing.ShapeMarkupLanguage Sıralama. Şekil için kullanılan İşaretleme dilini belirtir.
 type: docs
-weight: 1130
+weight: 1280
 url: /tr/net/aspose.words.drawing/shapemarkuplanguage/
 ---
 ## ShapeMarkupLanguage enumeration
@@ -19,18 +19,18 @@ public enum ShapeMarkupLanguage : byte
 | İsim | Değer | Tanım |
 | --- | --- | --- |
 | Dml | `0` | Şekli tanımlamak için Çizim İşaretleme Dili kullanılır. |
-| Vml | `1` | Vektör İşaretleme Dili, şekli tanımlamak için kullanılır. |
+| Vml | `1` | Şekli tanımlamak için Vektör İşaretleme Dili kullanılır. |
 
 ### Örnekler
 
-Kaydedilmiş bir belgenin uyulması için bir OOXML uyumluluk özelliğinin nasıl ayarlanacağını gösterir.
+Kaydedilen bir belge için uyulması gereken OOXML uyumluluk spesifikasyonunun nasıl ayarlanacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Uyumluluk seçeneklerini Microsoft Word 2003 ile uyumlu olacak şekilde yapılandırırsak,
-// bir resim eklemek, şeklini VML kullanarak tanımlayacaktır.
+// Uyumluluk seçeneklerini Microsoft Word 2003'e uyacak şekilde yapılandırırsak,
+// bir görüntünün eklenmesi, VML kullanılarak şeklinin tanımlanmasını sağlayacaktır.
 doc.CompatibilityOptions.OptimizeFor(MsWordVersion.Word2003);
 builder.InsertImage(ImageDir + "Transparent background logo.png");
 
@@ -47,7 +47,7 @@ OoxmlSaveOptions saveOptions = new OoxmlSaveOptions
 
 doc.Save(ArtifactsDir + "OoxmlSaveOptions.Iso29500Strict.docx", saveOptions);
 
-// Kayıtlı belgemiz, "ISO/IEC 29500:2008" OOXML standardına uymak için DML kullanarak şekli tanımlar.
+// Kaydedilen belgemiz, "ISO/IEC 29500:2008" OOXML standardına uymak için DML kullanarak şekli tanımlar.
 doc = new Document(ArtifactsDir + "OoxmlSaveOptions.Iso29500Strict.docx");
 
 Assert.AreEqual(ShapeMarkupLanguage.Dml, ((Shape)doc.GetChild(NodeType.Shape, 0, true)).MarkupLanguage);

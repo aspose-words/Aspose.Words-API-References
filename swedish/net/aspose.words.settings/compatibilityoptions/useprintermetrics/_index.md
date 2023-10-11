@@ -16,7 +16,7 @@ public bool UsePrinterMetrics { get; set; }
 
 ### Anmärkningar
 
-Skrivarmått kan variera beroende på drivrutiner som används. Till exempel ger Windows "Microsoft OpenXPS Class Driver 2" och "Microsoft Print to PDF" något olika mätvärden. Därför kan det slutliga dokumentets layout ändras om det här alternativet är aktiverat.
+Skrivarmått kan skilja sig åt beroende på drivrutiner som används. Till exempel ger Windows "Microsoft OpenXPS Class Driver 2" och "Microsoft Print to PDF" något olika mätvärden. Därför kan det slutliga dokumentets layout ändras om det här alternativet är aktiverat.
 
 ### Se även
 

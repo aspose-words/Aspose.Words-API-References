@@ -1,14 +1,14 @@
 ---
 title: BorderCollection.GetEnumerator
 second_title: Справочник по API Aspose.Words для .NET
-description: BorderCollection метод. Возвращает объект перечислителя который можно использовать для перебора всех границ в коллекции.
+description: BorderCollection метод. Возвращает объект перечислителя который можно использовать для обхода всех границ коллекции.
 type: docs
 weight: 160
 url: /ru/net/aspose.words/bordercollection/getenumerator/
 ---
 ## BorderCollection.GetEnumerator method
 
-Возвращает объект перечислителя, который можно использовать для перебора всех границ в коллекции.
+Возвращает объект перечислителя, который можно использовать для обхода всех границ коллекции.
 
 ```csharp
 public IEnumerator<Border> GetEnumerator()
@@ -16,13 +16,13 @@ public IEnumerator<Border> GetEnumerator()
 
 ### Примеры
 
-Показывает, как перебирать и редактировать все границы в объекте формата абзаца.
+Показывает, как перебирать и редактировать все границы объекта формата абзаца.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Настройте параметры формата абзаца компоновщика, чтобы создать зеленую волнистую границу со всех сторон.
+// Настройте параметры формата абзаца в конструкторе, чтобы создать зеленую волнистую рамку со всех сторон.
 BorderCollection borders = builder.ParagraphFormat.Borders;
 
 using (IEnumerator<Border> enumerator = borders.GetEnumerator())
@@ -36,7 +36,7 @@ using (IEnumerator<Border> enumerator = borders.GetEnumerator())
     }
 }
 
-// Вставить абзац. Наши настройки границы будут определять внешний вид ее границы.
+// Вставляем абзац. Наши настройки границы будут определять внешний вид границы.
 builder.Writeln("Hello world!");
 
 doc.Save(ArtifactsDir + "BorderCollection.GetBordersEnumerator.docx");

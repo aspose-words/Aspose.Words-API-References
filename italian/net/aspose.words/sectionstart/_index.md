@@ -3,7 +3,7 @@ title: Enum SectionStart
 second_title: Aspose.Words per .NET API Reference
 description: Aspose.Words.SectionStart enum. Il tipo di interruzione allinizio della sezione.
 type: docs
-weight: 5470
+weight: 5760
 url: /it/net/aspose.words/sectionstart/
 ---
 ## SectionStart enumeration
@@ -18,7 +18,7 @@ public enum SectionStart
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
-| Continuous | `0` | La nuova sezione inizia nella stessa pagina della sezione precedente. |
+| Continuous | `0` | La nuova sezione inizia sulla stessa pagina della sezione precedente. |
 | NewColumn | `1` | La sezione inizia da una nuova colonna. |
 | NewPage | `2` | La sezione inizia da una nuova pagina. |
 | EvenPage | `3` | La sezione inizia su una nuova pagina pari. |
@@ -32,13 +32,13 @@ Mostra come costruire manualmente un documento Aspose.Words.
 Document doc = new Document();
 
 // Un documento vuoto contiene una sezione, un corpo e un paragrafo.
-// Chiama il metodo "RemoveAllChildren" per rimuovere tutti quei nodi,
-// e finisci con un nodo documento senza figli.
+// Chiama il metodo "RemoveAllChildren" per rimuovere tutti questi nodi,
+// e finiamo con un nodo documento senza figli.
 doc.RemoveAllChildren();
 
-// Questo documento ora non ha nodi figlio compositi a cui possiamo aggiungere contenuto.
+// Questo documento ora non ha nodi secondari compositi a cui possiamo aggiungere contenuto.
 // Se desideriamo modificarlo, dovremo ripopolare la sua raccolta di nodi.
-// Innanzitutto, crea una nuova sezione, quindi aggiungila come figlio al nodo del documento radice.
+// Innanzitutto, crea una nuova sezione, quindi aggiungila come figlia al nodo del documento root.
 Section section = new Section(doc);
 doc.AppendChild(section);
 
@@ -46,12 +46,12 @@ doc.AppendChild(section);
 section.PageSetup.SectionStart = SectionStart.NewPage;
 section.PageSetup.PaperSize = PaperSize.Letter;
 
-// Una sezione ha bisogno di un corpo, che conterrà e visualizzerà tutto il suo contenuto
+// Una sezione necessita di un corpo, che conterrà e visualizzerà tutto il suo contenuto
 // nella pagina tra l'intestazione e il piè di pagina della sezione.
 Body body = new Body(doc);
 section.AppendChild(body);
 
-// Crea un paragrafo, imposta alcune proprietà di formattazione e quindi aggiungilo come figlio al corpo.
+// Crea un paragrafo, imposta alcune proprietà di formattazione e quindi lo aggiunge come figlio al corpo.
 Paragraph para = new Paragraph(doc);
 
 para.ParagraphFormat.StyleName = "Heading 1";
@@ -59,8 +59,8 @@ para.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
 body.AppendChild(para);
 
-// Infine, aggiungi del contenuto per fare il documento. Crea una corsa,
-// imposta l'aspetto e il contenuto, quindi aggiungilo come figlio al paragrafo.
+// Infine, aggiungi del contenuto per realizzare il documento. Crea una corsa,
+// ne imposta l'aspetto e il contenuto, quindi lo aggiunge come figlio al paragrafo.
 Run run = new Run(doc);
 run.Text = "Hello World!";
 run.Font.Color = Color.Red;
@@ -71,22 +71,22 @@ Assert.AreEqual("Hello World!", doc.GetText().Trim());
 doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 ```
 
-Mostra come specificare come una nuova sezione si separa dalla precedente.
+Mostra come specificare il modo in cui una nuova sezione si separa dalla precedente.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("This text is in section 1.");
 
-// I tipi di interruzione di sezione determinano come una nuova sezione si separa dalla sezione precedente.
+// I tipi di interruzione di sezione determinano il modo in cui una nuova sezione si separa dalla sezione precedente.
 // Di seguito sono riportati cinque tipi di interruzioni di sezione.
-// 1 - Inizia la sezione successiva in una nuova pagina:
+// 1 - Inizia la sezione successiva su una nuova pagina:
 builder.InsertBreak(BreakType.SectionBreakNewPage);
 builder.Writeln("This text is in section 2.");
 
 Assert.AreEqual(SectionStart.NewPage, doc.Sections[1].PageSetup.SectionStart);
 
-// 2 - Inizia la sezione successiva nella pagina corrente:
+// 2 - Avvia la sezione successiva nella pagina corrente:
 builder.InsertBreak(BreakType.SectionBreakContinuous);
 builder.Writeln("This text is in section 3.");
 

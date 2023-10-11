@@ -1,14 +1,14 @@
 ---
 title: LoadOptions.WarningCallback
 second_title: Aspose.Words لمراجع .NET API
-description: LoadOptions ملكية. تم الاستدعاء أثناء عملية التحميل  عند اكتشاف مشكلة قد تؤدي إلى فقدان دقة البيانات أو التنسيق.
+description: LoadOptions ملكية. يتم استدعاؤه أثناء عملية التحميل عند اكتشاف مشكلة قد تؤدي إلى فقدان دقة البيانات أو التنسيق.
 type: docs
 weight: 170
 url: /ar/net/aspose.words.loading/loadoptions/warningcallback/
 ---
 ## LoadOptions.WarningCallback property
 
-تم الاستدعاء أثناء عملية التحميل ، عند اكتشاف مشكلة قد تؤدي إلى فقدان دقة البيانات أو التنسيق.
+يتم استدعاؤه أثناء عملية التحميل، عند اكتشاف مشكلة قد تؤدي إلى فقدان دقة البيانات أو التنسيق.
 
 ```csharp
 public IWarningCallback WarningCallback { get; set; }
@@ -16,23 +16,25 @@ public IWarningCallback WarningCallback { get; set; }
 
 ### أمثلة
 
-يوضح كيفية طباعة وتخزين التحذيرات التي تحدث أثناء تحميل المستند.
+يوضح كيفية طباعة وتخزين التحذيرات التي تحدث أثناء تحميل المستندات.
 
 ```csharp
+public void LoadOptionsWarningCallback()
 {
-    // إنشاء كائن LoadOptions جديد وتعيين سمة WarningCallback الخاصة به
+    // قم بإنشاء كائن LoadOptions جديد وقم بتعيين سمة وارنكالباك الخاصة به
     // كمثال لتطبيق IWarningCallback الخاص بنا.
     LoadOptions loadOptions = new LoadOptions();
     loadOptions.WarningCallback = new DocumentLoadingWarningCallback();
 
-    // سيطبع رد الاتصال لدينا جميع التحذيرات التي تظهر أثناء عملية التحميل.
+    // سوف يقوم رد الاتصال الخاص بنا بطباعة جميع التحذيرات التي تظهر أثناء عملية التحميل.
     Document doc = new Document(MyDir + "Document.docx", loadOptions);
 
     List<WarningInfo> warnings = ((DocumentLoadingWarningCallback)loadOptions.WarningCallback).GetWarnings();
     Assert.AreEqual(3, warnings.Count);
+}
 
 /// <summary>
-/// IWarningCallback الذي يطبع التحذيرات وتفاصيلها فور ظهورها أثناء تحميل المستند.
+/// IWarningCallback الذي يطبع التحذيرات وتفاصيلها عند ظهورها أثناء تحميل المستند.
 /// </summary>
 private class DocumentLoadingWarningCallback : IWarningCallback
 {

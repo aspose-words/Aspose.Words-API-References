@@ -48,10 +48,10 @@ Visar hur man ändrar storlek på en form med en bild.
             Assert.AreEqual(300.0d, shape.Width);
             Assert.AreEqual(300.0d, shape.Height);
 
-              // Minska formens totala storlek med 50 %.
+             // Minska formens totala storlek med 50 %.
             shape.Width *= 0.5;
 
-              // Skalningsfaktorer gäller för både bredden och höjden samtidigt för att bevara formens proportioner.
+             // Skalningsfaktorer gäller för både bredden och höjden samtidigt för att bevara formens proportioner.
             Assert.AreEqual(150.0d, shape.Width);
             Assert.AreEqual(150.0d, shape.Height);
 

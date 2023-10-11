@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTagRangeStart.RemoveSelfOnly
 second_title: Aspose.Words für .NET-API-Referenz
-description: StructuredDocumentTagRangeStart methode. Entfernt diesen Bereichsanfang und entsprechende Bereichsendknoten des strukturierten DokumentTags  behält aber seinen Inhalt im Dokumentbaum.
+description: StructuredDocumentTagRangeStart methode. Entfernt diesen Bereichsanfang und die entsprechenden Bereichsendknoten des strukturierten DokumentTags  behält aber seinen Inhalt im Dokumentbaum.
 type: docs
 weight: 240
 url: /de/net/aspose.words.markup/structureddocumenttagrangestart/removeselfonly/
 ---
 ## StructuredDocumentTagRangeStart.RemoveSelfOnly method
 
-Entfernt diesen Bereichsanfang und entsprechende Bereichsendknoten des strukturierten Dokument-Tags, , behält aber seinen Inhalt im Dokumentbaum.
+Entfernt diesen Bereichsanfang und die entsprechenden Bereichsendknoten des strukturierten Dokument-Tags, , behält aber seinen Inhalt im Dokumentbaum.
 
 ```csharp
 public void RemoveSelfOnly()
@@ -19,6 +19,7 @@ public void RemoveSelfOnly()
 Zeigt, wie strukturierte Dokument-Tags und deren Inhalt erstellt/entfernt werden.
 
 ```csharp
+public void SdtRangeExtendedMethods()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -27,7 +28,7 @@ Zeigt, wie strukturierte Dokument-Tags und deren Inhalt erstellt/entfernt werden
 
     InsertStructuredDocumentTagRanges(doc, out StructuredDocumentTagRangeStart rangeStart);
 
-    // Entfernt bereichsbezogenes strukturiertes Dokument-Tag, behält aber Inhalt darin.
+    // Entfernt das strukturierte Dokument-Tag, behält aber den Inhalt bei.
     rangeStart.RemoveSelfOnly();
 
     rangeStart = (StructuredDocumentTagRangeStart)doc.GetChild(
@@ -45,7 +46,7 @@ Zeigt, wie strukturierte Dokument-Tags und deren Inhalt erstellt/entfernt werden
     Node paragraphNode = rangeStart.LastOrDefault();
     Assert.AreEqual("StructuredDocumentTag element", paragraphNode?.GetText().Trim());
 
-    // Entfernt bereichsbezogenes strukturiertes Dokument-Tag und Inhalt darin.
+    // Entfernt strukturierte Dokument-Tags und Inhalte darin.
     rangeStart.RemoveAllChildren();
 
     paragraphNode = rangeStart.LastOrDefault();

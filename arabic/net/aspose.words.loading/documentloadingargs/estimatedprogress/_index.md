@@ -1,14 +1,14 @@
 ---
 title: DocumentLoadingArgs.EstimatedProgress
 second_title: Aspose.Words لمراجع .NET API
-description: DocumentLoadingArgs ملكية. النسبة المئوية التقديرية الإجمالية للتقدم .
+description: DocumentLoadingArgs ملكية. النسبة المئوية الإجمالية المقدرة للتقدم.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.loading/documentloadingargs/estimatedprogress/
 ---
 ## DocumentLoadingArgs.EstimatedProgress property
 
-النسبة المئوية التقديرية الإجمالية للتقدم .
+النسبة المئوية الإجمالية المقدرة للتقدم.
 
 ```csharp
 public double EstimatedProgress { get; }

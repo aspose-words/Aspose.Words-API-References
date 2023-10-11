@@ -1,14 +1,14 @@
 ---
 title: Enum NumberStyle
 second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.NumberStyle Sıralama. Bir liste dipnotlar ve son notlar sayfa numaraları için sayı stilini belirtir.
+description: Aspose.Words.NumberStyle Sıralama. Bir listenin dipnotların ve son notların sayfa numaralarının sayı stilini belirtir.
 type: docs
-weight: 4070
+weight: 4310
 url: /tr/net/aspose.words/numberstyle/
 ---
 ## NumberStyle enumeration
 
-Bir liste, dipnotlar ve son notlar, sayfa numaraları için sayı stilini belirtir.
+Bir listenin, dipnotların ve son notların, sayfa numaralarının sayı stilini belirtir.
 
 ```csharp
 public enum NumberStyle
@@ -19,80 +19,80 @@ public enum NumberStyle
 | İsim | Değer | Tanım |
 | --- | --- | --- |
 | Arabic | `0` | Arapça numaralandırma (1, 2, 3, ...) |
-| UppercaseRoman | `1` | Büyük harf Roman (I, II, III, ...) |
-| LowercaseRoman | `2` | Küçük Roman (i, ii, iii, ...) |
+| UppercaseRoman | `1` | Büyük harf Roma (I, II, III, ...) |
+| LowercaseRoman | `2` | Küçük harf Roma (i, ii, iii, ...) |
 | UppercaseLetter | `3` | Büyük Harf (A, B, C, ...) |
 | LowercaseLetter | `4` | Küçük harf (a, b, c, ...) |
 | Ordinal | `5` | Sıra (1., 2., 3., ...) |
-| Number | `6` | Numaralandırılmış (Bir, İki, Üç, ...) |
+| Number | `6` | Numaralı (Bir, İki, Üç, ...) |
 | OrdinalText | `7` | Sıra (metin) (Birinci, İkinci, Üçüncü, ...) |
 | Hex | `8` | Onaltılı: 8, 9, A, B, C, D, E, F, 10, 11, 12 |
 | ChicagoManual | `9` | Chicago Stil El Kitabı: *, †, † |
-| Kanji | `10` | Ideograph-digital |
+| Kanji | `10` | İdeograph-digital |
 | KanjiDigit | `11` | Japonca sayma |
 | AiueoHalfWidth | `12` | Aiueo |
 | IrohaHalfWidth | `13` | Iroha |
 | ArabicFullWidth | `14` | Tam genişlikte Arapça: 1, 2, 3, 4 |
-| ArabicHalfWidth | `15` | Yarım genişlikte Arapça: 1, 2, 3, 4 |
-| KanjiTraditional | `16` | Japonca yasal |
-| KanjiTraditional2 | `17` | Japonca dijital on bin |
-| NumberInCircle | `18` | Kapalı çevreler |
+| ArabicHalfWidth | `15` | Yarı genişlikte Arapça: 1, 2, 3, 4 |
+| KanjiTraditional | `16` | Japonca legal |
+| KanjiTraditional2 | `17` | Japon dijital on bin |
+| NumberInCircle | `18` | Kapalı daireler |
 | DecimalFullWidth | `19` | Ondalık tam genişlik: 1, 2, 3, 4 |
 | Aiueo | `20` | Aiueo tam genişlik |
 | Iroha | `21` | Iroha tam genişlik |
-| LeadingZero | `22` | Başta Sıfır (01, 02,..., 09, 10, 11,..., 99, 100, 101,...) |
+| LeadingZero | `22` | Baştaki Sıfır (01, 02,..., 09, 10, 11,..., 99, 100, 101,...) |
 | Bullet | `23` | Madde işareti (metindeki karakter kodunu kontrol edin) |
-| Ganada | `24` | Korece Ganada |
+| Ganada | `24` | Kore Ganadası |
 | Chosung | `25` | Kore Chosung |
 | GB1 | `26` | Kapalı tam durak |
 | GB2 | `27` | Kapalı parantez |
-| GB3 | `28` | Kapalı daire Chinese |
+| GB3 | `28` | Kapalı daire Çince |
 | GB4 | `29` | İdeograf kapalı daire |
-| Zodiac1 | `30` | İdeograf geleneksel |
-| Zodiac2 | `31` | İdeograf Zodiac |
-| Zodiac3 | `32` | İdeograf Burç geleneksel |
-| TradChinNum1 | `33` | Tayvanlı sayma |
-| TradChinNum2 | `34` | Ideograph yasal geleneksel |
-| TradChinNum3 | `35` | bin Tayvanlı sayılıyor |
-| TradChinNum4 | `36` | Tayvanlı digital |
+| Zodiac1 | `30` | Geleneksel ideograf |
+| Zodiac2 | `31` | İdeograf Burcu |
+| Zodiac3 | `32` | Geleneksel İdeograf Burcu |
+| TradChinNum1 | `33` | Tayvan sayımı |
+| TradChinNum2 | `34` | İdeograf yasal geleneksel |
+| TradChinNum3 | `35` | Tayvanlı sayma bin |
+| TradChinNum4 | `36` | Tayvan dijital |
 | SimpChinNum1 | `37` | Çince sayma |
-| SimpChinNum2 | `38` | Çince yasal basitleştirilmiş |
+| SimpChinNum2 | `38` | Basitleştirilmiş Çince yasal |
 | SimpChinNum3 | `39` | Çince sayma bin |
 | SimpChinNum4 | `40` | Çince (uygulanmadı) |
-| HanjaRead | `41` | Korece dijital |
+| HanjaRead | `41` | Kore dijitali |
 | HanjaReadDigit | `42` | Korece sayma |
-| Hangul | `43` | Kore yasal |
-| Hanja | `44` | Kore digital2 |
+| Hangul | `43` | Kore legal |
+| Hanja | `44` | Kore dijital2 |
 | Hebrew1 | `45` | İbranice-1 |
 | Arabic1 | `46` | Arapça alpha |
 | Hebrew2 | `47` | İbranice-2 |
 | Arabic2 | `48` | Arapça abjad |
-| HindiLetter1 | `49` | Hintçe ünlüler |
-| HindiLetter2 | `50` | Hintçe ünsüzleri |
+| HindiLetter1 | `49` | Hintçe sesli harfler |
+| HindiLetter2 | `50` | Hintçe ünsüzler |
 | HindiArabic | `51` | Hintçe sayılar |
-| HindiCardinalText | `52` | Hintçe açıklayıcı (kardinaller) |
+| HindiCardinalText | `52` | Hintçe tanımlayıcı (kardinaller) |
 | ThaiLetter | `53` | Tay harfleri |
-| ThaiArabic | `54` | Tay numaraları |
-| ThaiCardinalText | `55` | Tayca açıklayıcı (kardinaller) |
-| VietCardinalText | `56` | Vietnamca açıklayıcı (kardinaller) |
-| NumberInDash | `57` | Sayfa numarası biçimi: - 1 -, - 2 -, - 3 -, - 4 - |
+| ThaiArabic | `54` | Tayland rakamları |
+| ThaiCardinalText | `55` | Tayca tanımlayıcı (kardinaller) |
+| VietCardinalText | `56` | Vietnamca tanımlayıcı (kardinaller) |
+| NumberInDash | `57` | Sayfa numarası formatı: - 1 -, - 2 -, - 3 -, - 4 - |
 | LowercaseRussian | `58` | Küçük Rus alfabesi |
 | UppercaseRussian | `59` | Büyük Rus alfabesi |
-| None | `255` | Madde işareti veya sayı yok. |
-| Custom | `65280` | Özel sayı biçimi. Yalnızca DOCX biçimi tarafından desteklenir. |
+| None | `255` | Madde işareti veya numara yok. |
+| Custom | `65280` | Özel sayı biçimi. Yalnızca DOCX formatı tarafından desteklenir. |
 
 ### Örnekler
 
-DocumentBuilder kullanılırken paragraflara özel liste biçimlendirmesinin nasıl uygulanacağını gösterir.
+DocumentBuilder kullanılırken özel liste formatının paragraflara nasıl uygulanacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 
-// Liste, önek sembolleri ve girintilerle paragraf kümelerini düzenlememize ve süslememize olanak tanır.
-// Girinti seviyesini artırarak iç içe listeler oluşturabiliriz. 
-// Bir belge oluşturucunun "ListFormat" özelliğini kullanarak bir listeyi başlatabilir ve bitirebiliriz. 
-// Bir listenin başlangıcı ile bitişi arasına eklediğimiz her paragraf listede bir öğe haline gelecektir.
-// Bir Microsoft Word şablonundan bir liste oluşturun ve liste düzeylerinin ilk ikisini özelleştirin.
+// Liste, paragraf kümelerini önek sembolleri ve girintilerle düzenlememize ve süslememize olanak tanır.
+ // Girinti seviyesini artırarak iç içe listeler oluşturabiliriz.
+ // Bir listeyi belge oluşturucunun "ListFormat" özelliğini kullanarak başlatabilir ve sonlandırabiliriz.
+// Bir listenin başı ile sonu arasına eklediğimiz her paragraf, listede bir öğe haline gelecektir.
+// Microsoft Word şablonundan bir liste oluşturun ve liste seviyelerinin ilk ikisini özelleştirin.
 List list = doc.Lists.Add(ListTemplate.NumberDefault);
 
 ListLevel listLevel = list.ListLevels[0];
@@ -113,7 +113,7 @@ listLevel.Font.Name = "Wingdings";
 listLevel.Font.Color = Color.Blue;
 listLevel.Font.Size = 24;
 
-// Bu NumberFormat değeri, yıldız şeklinde madde işareti listesi sembolleri oluşturacaktır.
+// Bu NumberFormat değeri yıldız şekilli madde işareti listesi sembolleri oluşturacaktır.
 listLevel.NumberFormat = "\xf0af";
 listLevel.TrailingCharacter = ListTrailingCharacter.Space;
 listLevel.NumberPosition = 144;

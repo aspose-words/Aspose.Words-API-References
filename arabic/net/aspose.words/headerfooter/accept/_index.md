@@ -1,14 +1,14 @@
 ---
 title: HeaderFooter.Accept
 second_title: Aspose.Words لمراجع .NET API
-description: HeaderFooter طريقة. يقبل الزائر .
+description: HeaderFooter طريقة. يقبل الزائر.
 type: docs
 weight: 70
 url: /ar/net/aspose.words/headerfooter/accept/
 ---
 ## HeaderFooter.Accept method
 
-يقبل الزائر .
+يقبل الزائر.
 
 ```csharp
 public override bool Accept(DocumentVisitor visitor)
@@ -20,19 +20,19 @@ public override bool Accept(DocumentVisitor visitor)
 
 ### قيمة الإرجاع
 
-صحيح إذا تمت زيارة جميع العقد ؛ خطأ إذا أوقف برنامج DocumentVisitor العملية قبل زيارة جميع العقد.
+صحيح إذا تمت زيارة جميع العقد؛ كاذبة إذا[`DocumentVisitor`](../../documentvisitor/) أوقفت العملية قبل زيارة كافة العقد.
 
 ### ملاحظات
 
-يعدّ فوق هذه العقدة وجميع توابعها. تستدعي كل عقدة طريقة مقابلة في DocumentVisitor.
+يعدد هذه العقدة وجميع أبنائها. تستدعي كل عقدة الطريقة المقابلة لها[`DocumentVisitor`](../../documentvisitor/).
 
-لمزيد من المعلومات ، راجع نمط تصميم الزائر.
+لمزيد من المعلومات، راجع نمط تصميم الزائر.
 
-يدعو DocumentVisitor.VisitHeaderFooterStart ، ثم يستدعي Accept لجميع العقد الفرعية من section ويستدعي DocumentVisitor.VisitHeaderFooterEnd في النهاية.
+المكالمات[`VisitHeaderFooterStart`](../../documentvisitor/visitheaderfooterstart/) ، ثم يتصل[`Accept`](../../node/accept/) لجميع العقد التابعة للقسم والمكالمات[`VisitHeaderFooterEnd`](../../documentvisitor/visitheaderfooterend/) في النهاية.
 
 ### أمثلة
 
-يوضح كيفية طباعة بنية العقدة لكل رأس وتذييل في مستند.
+يوضح كيفية طباعة بنية العقدة لكل رأس وتذييل في المستند.
 
 ```csharp
 public void HeaderFooterToText()
@@ -40,21 +40,21 @@ public void HeaderFooterToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     HeaderFooterStructurePrinter visitor = new HeaderFooterStructurePrinter();
 
-    // عندما نحصل على عقدة مركبة لقبول زائر المستند ، يزور الزائر عقدة القبول ،
-    // ثم يعبر جميع أبناء العقدة بطريقة العمق أولاً.
-    // يمكن للزائر قراءة كل عقدة تمت زيارتها وتعديلها.
+    // عندما نحصل على عقدة مركبة لقبول زائر المستند، يقوم الزائر بزيارة العقدة المقبولة،
+    // ثم يجتاز جميع أبناء العقدة بطريقة العمق الأول.
+    // يمكن للزائر قراءة وتعديل كل عقدة تمت زيارتها.
     doc.Accept(visitor);
 
     Console.WriteLine(visitor.GetText());
 
-    // طريقة بديلة للوصول إلى رأس / تذييلات المستند قسمًا تلو الآخر عن طريق الوصول إلى المجموعة.
+    // هناك طريقة بديلة للوصول إلى رأس/تذييلات المستند قسمًا تلو الآخر وهي الوصول إلى المجموعة.
     HeaderFooter[] headerFooters = doc.FirstSection.HeadersFooters.ToArray();
     Assert.AreEqual(3, headerFooters.Length);
 }
 
 /// <summary>
-/// يتجاوز الشجرة غير الثنائية للعقد الفرعية للعقد.
-/// ينشئ خريطة في شكل سلسلة لكل عقد HeaderFooter التي تمت مواجهتها وأبنائها.
+/// يجتاز الشجرة غير الثنائية للعقدة التابعة.
+/// ينشئ خريطة على شكل سلسلة لجميع عقد HeaderFooter التي تمت مواجهتها وأبناءها.
 /// </summary>
 public class HeaderFooterStructurePrinter : DocumentVisitor
 {
@@ -70,7 +70,7 @@ public class HeaderFooterStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاستدعاء عند مواجهة عقدة تشغيل في المستند.
+    /// يتم الاتصال به عند مواجهة عقدة التشغيل في المستند.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -80,7 +80,7 @@ public class HeaderFooterStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاستدعاء عند مواجهة عقدة HeaderFooter في المستند.
+    /// يتم الاتصال به عند مواجهة عقدة HeaderFooter في المستند.
     /// </summary>
     public override VisitorAction VisitHeaderFooterStart(HeaderFooter headerFooter)
     {
@@ -92,7 +92,7 @@ public class HeaderFooterStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم استدعاؤها بعد زيارة جميع العقد الفرعية لعقدة HeaderFooter.
+    /// يتم الاتصال به بعد زيارة كافة العقد التابعة لعقدة HeaderFooter.
     /// </summary>
     public override VisitorAction VisitHeaderFooterEnd(HeaderFooter headerFooter)
     {
@@ -104,9 +104,9 @@ public class HeaderFooterStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// قم بإلحاق سطر بـ StringBuilder ، وقم بعمل مسافة بادئة له اعتمادًا على مدى عمق الزائر في شجرة المستند.
+    /// ألحق سطرًا بـ StringBuilder، ثم ضع مسافة بادئة له اعتمادًا على مدى عمق الزائر في شجرة المستندات.
     /// </summary>
-    /// < param name = "text" > < / param >
+    /// <param name="text"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++) mBuilder.Append("|  ");

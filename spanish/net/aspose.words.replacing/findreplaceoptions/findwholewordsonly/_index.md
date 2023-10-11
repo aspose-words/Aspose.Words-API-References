@@ -1,14 +1,14 @@
 ---
 title: FindReplaceOptions.FindWholeWordsOnly
 second_title: Referencia de API de Aspose.Words para .NET
-description: FindReplaceOptions propiedad. True indica que oldValue debe ser una palabra independiente.
+description: FindReplaceOptions propiedad. Verdadero indica que oldValue debe ser una palabra independiente.
 type: docs
 weight: 50
 url: /es/net/aspose.words.replacing/findreplaceoptions/findwholewordsonly/
 ---
 ## FindReplaceOptions.FindWholeWordsOnly property
 
-True indica que oldValue debe ser una palabra independiente.
+Verdadero indica que oldValue debe ser una palabra independiente.
 
 ```csharp
 public bool FindWholeWordsOnly { get; set; }
@@ -24,11 +24,11 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln("Jackson will meet you in Jacksonville.");
 
-// Podemos usar un objeto "FindReplaceOptions" para modificar el proceso de buscar y reemplazar.
+// Podemos utilizar un objeto "FindReplaceOptions" para modificar el proceso de buscar y reemplazar.
 FindReplaceOptions options = new FindReplaceOptions();
 
-// Establezca el indicador "FindWholeWordsOnly" en "true" para reemplazar el texto encontrado si no forma parte de otra palabra.
-// Establezca el indicador "FindWholeWordsOnly" en "falso" para reemplazar todo el texto independientemente de su entorno.
+// Establece el indicador "FindWholeWordsOnly" en "true" para reemplazar el texto encontrado si no forma parte de otra palabra.
+// Establece el indicador "FindWholeWordsOnly" en "false" para reemplazar todo el texto independientemente de su entorno.
 options.FindWholeWordsOnly = findWholeWordsOnly;
 
 doc.Range.Replace("Jackson", "Louis", options);

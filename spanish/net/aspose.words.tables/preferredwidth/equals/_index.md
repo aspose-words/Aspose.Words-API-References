@@ -1,14 +1,14 @@
 ---
 title: PreferredWidth.Equals
 second_title: Referencia de API de Aspose.Words para .NET
-description: PreferredWidth método. Determina si el PreferredWidth especificado tiene el mismo valor que el PreferredWidth actual.
+description: PreferredWidth método. Determina si el especificadoPreferredWidth es igual en valor a la corrientePreferredWidth .
 type: docs
 weight: 60
 url: /es/net/aspose.words.tables/preferredwidth/equals/
 ---
 ## Equals(PreferredWidth) {#equals}
 
-Determina si el PreferredWidth especificado tiene el mismo valor que el PreferredWidth actual.
+Determina si el especificado[`PreferredWidth`](../) es igual en valor a la corriente[`PreferredWidth`](../) .
 
 ```csharp
 public bool Equals(PreferredWidth other)
@@ -24,13 +24,13 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Table table = builder.StartTable();
 
 // Hay dos formas de aplicar la clase "PreferredWidth" a las celdas de la tabla.
-// 1 - Establecer un ancho preferido absoluto basado en puntos:
+// 1 - Establece un ancho preferido absoluto basado en puntos:
 builder.InsertCell();
 builder.CellFormat.PreferredWidth = PreferredWidth.FromPoints(40);
 builder.CellFormat.Shading.BackgroundPatternColor = Color.LightYellow;
 builder.Writeln($"Cell with a width of {builder.CellFormat.PreferredWidth}.");
 
-// 2 - Establecer un ancho preferido relativo basado en el porcentaje del ancho de la tabla:
+// 2 - Establece un ancho relativo preferido basado en el porcentaje del ancho de la tabla:
 builder.InsertCell();
 builder.CellFormat.PreferredWidth = PreferredWidth.FromPercent(20);
 builder.CellFormat.Shading.BackgroundPatternColor = Color.LightBlue;
@@ -77,13 +77,13 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Table table = builder.StartTable();
 
 // Hay dos formas de aplicar la clase "PreferredWidth" a las celdas de la tabla.
-// 1 - Establecer un ancho preferido absoluto basado en puntos:
+// 1 - Establece un ancho preferido absoluto basado en puntos:
 builder.InsertCell();
 builder.CellFormat.PreferredWidth = PreferredWidth.FromPoints(40);
 builder.CellFormat.Shading.BackgroundPatternColor = Color.LightYellow;
 builder.Writeln($"Cell with a width of {builder.CellFormat.PreferredWidth}.");
 
-// 2 - Establecer un ancho preferido relativo basado en el porcentaje del ancho de la tabla:
+// 2 - Establece un ancho relativo preferido basado en el porcentaje del ancho de la tabla:
 builder.InsertCell();
 builder.CellFormat.PreferredWidth = PreferredWidth.FromPercent(20);
 builder.CellFormat.Shading.BackgroundPatternColor = Color.LightBlue;

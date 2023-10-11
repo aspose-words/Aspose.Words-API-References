@@ -1,14 +1,14 @@
 ---
 title: Interface IHyphenationCallback
 second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.IHyphenationCallback interfaz. Implementado por clases que pueden registrar diccionarios de guiones.
+description: Aspose.Words.IHyphenationCallback interfaz. Implementado por clases que pueden registrar diccionarios de separación de palabras.
 type: docs
-weight: 2990
+weight: 3190
 url: /es/net/aspose.words/ihyphenationcallback/
 ---
 ## IHyphenationCallback interface
 
-Implementado por clases que pueden registrar diccionarios de guiones.
+Implementado por clases que pueden registrar diccionarios de separación de palabras.
 
 ```csharp
 public interface IHyphenationCallback
@@ -18,32 +18,33 @@ public interface IHyphenationCallback
 
 | Nombre | Descripción |
 | --- | --- |
-| [RequestDictionary](../../aspose.words/ihyphenationcallback/requestdictionary/)(string) | Notifica a la aplicación que no se encontró el diccionario de partición de palabras para el idioma especificado y es posible que deba registrarse. |
+| [RequestDictionary](../../aspose.words/ihyphenationcallback/requestdictionary/)(string) | Notifica a la aplicación que no se encontró el diccionario de separación de palabras para el idioma especificado y que es posible que sea necesario registrarlo. |
 
 ### Ejemplos
 
 Muestra cómo abrir y registrar un diccionario desde un archivo.
 
 ```csharp
+public void RegisterDictionary()
 {
-    // Configure una devolución de llamada que rastree las advertencias que ocurren durante el registro del diccionario de división de palabras.
+    // Configure una devolución de llamada que rastree las advertencias que ocurren durante el registro del diccionario de separación de palabras.
     WarningInfoCollection warningInfoCollection = new WarningInfoCollection();
     Hyphenation.WarningCallback = warningInfoCollection;
 
-    // Registre un diccionario de partición de palabras en inglés (EE. UU.) por transmisión.
+    // Registre un diccionario de separación de palabras en inglés (EE. UU.) por secuencia.
     Stream dictionaryStream = new FileStream(MyDir + "hyph_en_US.dic", FileMode.Open);
     Hyphenation.RegisterDictionary("en-US", dictionaryStream);
 
     Assert.AreEqual(0, warningInfoCollection.Count);
 
-    // Abra un documento con una configuración regional que Microsoft Word no pueda separar con guiones en una máquina en inglés, como el alemán.
+    // Abra un documento con una configuración regional en la que Microsoft Word no puede dividir con guiones en una máquina en inglés, como el alemán.
     Document doc = new Document(MyDir + "German text.docx");
 
-    // Para dividir ese documento al guardarlo, necesitamos un diccionario de partición para el código de idioma "de-CH".
+    // Para dividir ese documento con guiones al guardarlo, necesitamos un diccionario de separación de palabras para el código de idioma "de-CH".
     // Esta devolución de llamada manejará la solicitud automática de ese diccionario.
     Hyphenation.Callback = new CustomHyphenationDictionaryRegister();
 
-    // Cuando guardemos el documento, la separación de palabras en alemán tendrá efecto.
+    // Cuando guardemos el documento, la separación de palabras en alemán entrará en vigor.
     doc.Save(ArtifactsDir + "Hyphenation.RegisterDictionary.pdf");
 
     // Este diccionario contiene dos patrones idénticos, lo que activará una advertencia.
@@ -55,7 +56,7 @@ Muestra cómo abrir y registrar un diccionario desde un archivo.
 }
 
 /// <summary>
-/// Asocia códigos de idioma ISO con nombres de archivo del sistema local para archivos de diccionario de división de palabras.
+/// Asocia códigos de idioma ISO con nombres de archivos del sistema local para archivos de diccionario de separación de palabras.
 /// </summary>
 private class CustomHyphenationDictionaryRegister : IHyphenationCallback
 {

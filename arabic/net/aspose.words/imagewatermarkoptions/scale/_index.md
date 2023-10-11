@@ -1,14 +1,14 @@
 ---
 title: ImageWatermarkOptions.Scale
 second_title: Aspose.Words لمراجع .NET API
-description: ImageWatermarkOptions ملكية. الحصول على عامل القياس أو تعيينه ككسر من الصورة. القيمة الافتراضية هي 0  auto .
+description: ImageWatermarkOptions ملكية. الحصول على أو تعيين عامل القياس المعبر عنه بجزء صغير من الصورة. القيمة الافتراضية هي 0  auto.
 type: docs
 weight: 30
 url: /ar/net/aspose.words/imagewatermarkoptions/scale/
 ---
 ## ImageWatermarkOptions.Scale property
 
-الحصول على عامل القياس أو تعيينه ككسر من الصورة. القيمة الافتراضية هي 0 - auto .
+الحصول على أو تعيين عامل القياس المعبر عنه بجزء صغير من الصورة. القيمة الافتراضية هي 0 - auto.
 
 ```csharp
 public double Scale { get; set; }
@@ -18,13 +18,13 @@ public double Scale { get; set; }
 
 | استثناء | حالة |
 | --- | --- |
-| ArgumentOutOfRangeException | يظهر عندما تكون الوسيطة خارج نطاق القيم الصالحة. |
+| ArgumentOutOfRangeException | يتم طرحه عندما تكون الوسيطة خارج نطاق القيم الصالحة. |
 
 ### ملاحظات
 
 تتراوح القيم الصالحة من 0 إلى 65.5 ضمناً.
 
-يعني المقياس التلقائي أنه سيتم تغيير حجم العلامة المائية إلى أقصى عرض لها وأقصى ارتفاع لها بالنسبة إلى هوامش الصفحة.
+يعني المقياس التلقائي أنه سيتم تغيير حجم العلامة المائية إلى الحد الأقصى للعرض والحد الأقصى للارتفاع بالنسبة إلى هوامش الصفحة.
 
 ### أمثلة
 
@@ -33,8 +33,8 @@ public double Scale { get; set; }
 ```csharp
 Document doc = new Document();
 
-            // قم بتعديل مظهر العلامة المائية للصورة باستخدام كائن ImageWatermarkOptions ،
-            // ثم مررها أثناء إنشاء علامة مائية من ملف صورة.
+            // تعديل مظهر العلامة المائية للصورة باستخدام كائن ImageWatermarkOptions،
+            // ثم قم بتمريرها أثناء إنشاء علامة مائية من ملف صورة.
             ImageWatermarkOptions imageWatermarkOptions = new ImageWatermarkOptions();
             imageWatermarkOptions.Scale = 5;
             imageWatermarkOptions.IsWashout = false;

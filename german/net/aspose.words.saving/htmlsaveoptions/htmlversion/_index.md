@@ -1,14 +1,14 @@
 ---
 title: HtmlSaveOptions.HtmlVersion
 second_title: Aspose.Words für .NET-API-Referenz
-description: HtmlSaveOptions eigendom. Gibt die Version des HTMLStandards an die verwendet werden soll wenn das Dokument in HTML oder MHTML gespeichert wird. Der Standardwert istXhtml .
+description: HtmlSaveOptions eigendom. Gibt die Version des HTMLStandards an die beim Speichern des Dokuments in HTML oder MHTML verwendet werden soll. Der Standardwert istXhtml .
 type: docs
-weight: 340
+weight: 330
 url: /de/net/aspose.words.saving/htmlsaveoptions/htmlversion/
 ---
 ## HtmlSaveOptions.HtmlVersion property
 
-Gibt die Version des HTML-Standards an, die verwendet werden soll, wenn das Dokument in HTML oder MHTML gespeichert wird. Der Standardwert istXhtml .
+Gibt die Version des HTML-Standards an, die beim Speichern des Dokuments in HTML oder MHTML verwendet werden soll. Der Standardwert istXhtml .
 
 ```csharp
 public HtmlVersion HtmlVersion { get; set; }
@@ -33,7 +33,7 @@ HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.Html)
 
 doc.Save(ArtifactsDir + "HtmlSaveOptions.ExportXhtmlTransitional.html", options);
 
-// Unser Dokument enthält nur dann eine DOCTYPE-Deklarationsüberschrift, wenn wir das Flag "ExportXhtmlTransitional" auf "true" gesetzt haben.
+// Unser Dokument enthält nur dann eine DOCTYPE-Deklarationsüberschrift, wenn wir das Flag „ExportXhtmlTransitional“ auf „true“ gesetzt haben.
 string outDocContents = File.ReadAllText(ArtifactsDir + "HtmlSaveOptions.ExportXhtmlTransitional.html");
 
 if (showDoctypeDeclaration)
@@ -58,7 +58,7 @@ HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.Html)
 
 doc.Save(ArtifactsDir + "HtmlSaveOptions.HtmlVersions.html", options);
 
-// Unsere HTML-Dokumente werden geringfügige Unterschiede aufweisen, um mit verschiedenen HTML-Versionen kompatibel zu sein.
+// Unsere HTML-Dokumente weisen geringfügige Unterschiede auf, um mit verschiedenen HTML-Versionen kompatibel zu sein.
 string outDocContents = File.ReadAllText(ArtifactsDir + "HtmlSaveOptions.HtmlVersions.html");
 
 switch (htmlVersion)

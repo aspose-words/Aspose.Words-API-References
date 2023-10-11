@@ -3,12 +3,14 @@ title: Class XmlDataLoadOptions
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Reporting.XmlDataLoadOptions klass. Representerar alternativ för XMLdataladdning.
 type: docs
-weight: 4480
+weight: 4740
 url: /sv/net/aspose.words.reporting/xmldataloadoptions/
 ---
 ## XmlDataLoadOptions class
 
 Representerar alternativ för XML-dataladdning.
+
+För att lära dig mer, besök[LINQ Reporting Engine](https://docs.aspose.com/words/net/linq-reporting-engine/) dokumentationsartikel.
 
 ```csharp
 public class XmlDataLoadOptions

@@ -3,12 +3,14 @@ title: Class BuiltInDocumentProperties
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Properties.BuiltInDocumentProperties klass. En samling inbyggda dokumentegenskaper.
 type: docs
-weight: 4200
+weight: 4450
 url: /sv/net/aspose.words.properties/builtindocumentproperties/
 ---
 ## BuiltInDocumentProperties class
 
 En samling inbyggda dokumentegenskaper.
+
+För att lära dig mer, besök[Arbeta med dokumentegenskaper](https://docs.aspose.com/words/net/work-with-document-properties/) dokumentationsartikel.
 
 ```csharp
 public class BuiltInDocumentProperties : DocumentPropertyCollection
@@ -25,8 +27,8 @@ public class BuiltInDocumentProperties : DocumentPropertyCollection
 | [CharactersWithSpaces](../../aspose.words.properties/builtindocumentproperties/characterswithspaces/) { get; set; } | Representerar en uppskattning av antalet tecken (inklusive mellanslag) i dokumentet. |
 | [Comments](../../aspose.words.properties/builtindocumentproperties/comments/) { get; set; } | Hämtar eller ställer in dokumentkommentarerna. |
 | [Company](../../aspose.words.properties/builtindocumentproperties/company/) { get; set; } | Hämtar eller ställer in företagsegenskapen. |
-| [ContentStatus](../../aspose.words.properties/builtindocumentproperties/contentstatus/) { get; set; } | Hämtar eller ställer in innehållsstatus för dokumentet. |
-| [ContentType](../../aspose.words.properties/builtindocumentproperties/contenttype/) { get; set; } | Hämtar eller ställer in innehållsstatus för dokumentet. |
+| [ContentStatus](../../aspose.words.properties/builtindocumentproperties/contentstatus/) { get; set; } | Hämtar eller ställer inContentStatus av dokumentet. |
+| [ContentType](../../aspose.words.properties/builtindocumentproperties/contenttype/) { get; set; } | Hämtar eller ställer inContentType av dokumentet. |
 | [Count](../../aspose.words.properties/documentpropertycollection/count/) { get; } | Får antal föremål i samlingen. |
 | [CreatedTime](../../aspose.words.properties/builtindocumentproperties/createdtime/) { get; set; } | Hämtar eller ställer in datum för dokumentets skapande i UTC. |
 | [HeadingPairs](../../aspose.words.properties/builtindocumentproperties/headingpairs/) { get; set; } | Anger dokumentrubriker och deras namn. |
@@ -59,7 +61,7 @@ public class BuiltInDocumentProperties : DocumentPropertyCollection
 | namn | Beskrivning |
 | --- | --- |
 | [Clear](../../aspose.words.properties/documentpropertycollection/clear/)() | Tar bort alla egenskaper från samlingen. |
-| [Contains](../../aspose.words.properties/documentpropertycollection/contains/)(string) | Returnerar sant om en egenskap med det angivna namnet finns i samlingen. |
+| [Contains](../../aspose.words.properties/documentpropertycollection/contains/)(string) | Returnerar`Sann` om en egenskap med det angivna namnet finns i samlingen. |
 | [GetEnumerator](../../aspose.words.properties/documentpropertycollection/getenumerator/)() | Returnerar ett uppräkningsobjekt som kan användas för att iterera över alla objekt i samlingen. |
 | [IndexOf](../../aspose.words.properties/documentpropertycollection/indexof/)(string) | Hämtar indexet för en egenskap efter namn. |
 | [Remove](../../aspose.words.properties/documentpropertycollection/remove/)(string) | Tar bort en egenskap med det angivna namnet från samlingen. |

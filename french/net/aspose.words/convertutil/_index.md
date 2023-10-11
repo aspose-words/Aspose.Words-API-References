@@ -3,12 +3,14 @@ title: Class ConvertUtil
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Aspose.Words.ConvertUtil classe. Fournit des fonctions dassistance pour convertir entre différentes unités de mesure.
 type: docs
-weight: 350
+weight: 360
 url: /fr/net/aspose.words/convertutil/
 ---
 ## ConvertUtil class
 
 Fournit des fonctions d'assistance pour convertir entre différentes unités de mesure.
+
+Pour en savoir plus, visitez le[Convertir entre les unités de mesure](https://docs.aspose.com/words/net/convert-between-measurement-units/) article documentaire.
 
 ```csharp
 public static class ConvertUtil
@@ -25,11 +27,11 @@ public static class ConvertUtil
 | static [PixelToPoint](../../aspose.words/convertutil/pixeltopoint/#pixeltopoint_1)(double, double) | Convertit les pixels en points à la résolution de pixels spécifiée. |
 | static [PointToInch](../../aspose.words/convertutil/pointtoinch/)(double) | Convertit les points en pouces. |
 | static [PointToPixel](../../aspose.words/convertutil/pointtopixel/#pointtopixel)(double) | Convertit les points en pixels à 96 dpi. |
-| static [PointToPixel](../../aspose.words/convertutil/pointtopixel/#pointtopixel_1)(double, double) | Convertit les points en pixels à la résolution en pixels spécifiée. |
+| static [PointToPixel](../../aspose.words/convertutil/pointtopixel/#pointtopixel_1)(double, double) | Convertit les points en pixels à la résolution de pixels spécifiée. |
 
 ### Exemples
 
-Montre comment ajuster la taille du papier, l'orientation, les marges, ainsi que d'autres paramètres pour une section.
+Montre comment ajuster le format du papier, l’orientation, les marges, ainsi que d’autres paramètres pour une section.
 
 ```csharp
 Document doc = new Document();
@@ -56,8 +58,8 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // La "Mise en page" d'une section définit la taille des marges de la page en points.
-// On peut aussi utiliser la classe "ConvertUtil" pour utiliser une unité de mesure plus familière,
-// tels que les pouces lors de la définition des limites.
+// On peut également utiliser la classe "ConvertUtil" pour utiliser une unité de mesure plus familière,
+// comme les pouces lors de la définition des limites.
 PageSetup pageSetup = builder.PageSetup;
 pageSetup.TopMargin = ConvertUtil.InchToPoint(1.0);
 pageSetup.BottomMargin = ConvertUtil.InchToPoint(2.0);
@@ -68,7 +70,7 @@ pageSetup.RightMargin = ConvertUtil.InchToPoint(1.5);
 Assert.AreEqual(72.0d, ConvertUtil.InchToPoint(1));
 Assert.AreEqual(1.0d, ConvertUtil.PointToInch(72));
 
-// Ajoutez du contenu pour montrer les nouvelles marges.
+// Ajoutez du contenu pour démontrer les nouvelles marges.
 builder.Writeln($"This Text is {pageSetup.LeftMargin} points/{ConvertUtil.PointToInch(pageSetup.LeftMargin)} inches from the left, " +
                 $"{pageSetup.RightMargin} points/{ConvertUtil.PointToInch(pageSetup.RightMargin)} inches from the right, " +
                 $"{pageSetup.TopMargin} points/{ConvertUtil.PointToInch(pageSetup.TopMargin)} inches from the top, " +

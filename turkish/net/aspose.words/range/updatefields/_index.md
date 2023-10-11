@@ -3,7 +3,7 @@ title: Range.UpdateFields
 second_title: Aspose.Words for .NET API Referansı
 description: Range yöntem. Bu aralıktaki belge alanlarının değerlerini günceller.
 type: docs
-weight: 110
+weight: 120
 url: /tr/net/aspose.words/range/updatefields/
 ---
 ## Range.UpdateFields method
@@ -16,19 +16,19 @@ public void UpdateFields()
 
 ### Notlar
 
-Bir belgeyi açtığınızda, değiştirdiğinizde ve sonra kaydettiğinizde, Aspose.Words alanları otomatik olarak güncellemez, onları olduğu gibi tutar. Bu nedenle, document 'yi programlı olarak değiştirdiyseniz ve emin olmak istiyorsanız, kaydetmeden önce genellikle bu yöntemi çağırmak istersiniz. uygun (hesaplanmış) alan değerleri kaydedilen belgede görünür.
+Bir belgeyi açtığınızda, değiştirdiğinizde ve ardından kaydettiğinizde Aspose.Words, alanları otomatik olarak güncellemez, onları olduğu gibi tutar. Bu nedenle, document dosyasını programlı olarak değiştirdiyseniz ve emin olmak istiyorsanız, genellikle kaydetmeden önce bu yöntemi çağırmak istersiniz. kaydedilen belgede uygun (hesaplanan) alan değerleri görünür.
 
-Adres mektup birleştirme yürütüldükten sonra alanları güncellemeye gerek yoktur çünkü adres mektup birleştirme bir tür update alanıdır ve belgedeki tüm alanları otomatik olarak günceller.
+Adres-mektup birleştirmeyi yürüttükten sonra alanları güncellemeye gerek yoktur çünkü adres-mektup birleştirme bir tür update alanıdır ve belgedeki tüm alanları otomatik olarak günceller.
 
 Bu yöntem tüm alan türlerini güncellemez. Desteklenen alan türlerinin ayrıntılı listesi için Programcı Kılavuzu'na bakın.
 
-Bu yöntem, sayfa düzeni algoritmalarıyla ilgili alanları güncellemez (örn. PAGE, PAGES, PAGEREF). Bir belge oluşturduğunuzda veya çağırdığınızda sayfa düzeniyle ilgili alanlar güncellenir.[`UpdatePageLayout`](../../document/updatepagelayout/).
+Bu yöntem, sayfa düzeni algoritmalarıyla ilgili alanları (örn. PAGE, PAGES, PAGEREF) güncellemez. Sayfa düzeniyle ilgili alanlar, bir belgeyi oluşturduğunuzda veya çağrı yaptığınızda güncellenir.[`UpdatePageLayout`](../../document/updatepagelayout/).
 
-Tüm belge kullanımındaki alanları güncellemek için[`UpdateFields`](../../document/updatefields/).
+Belgenin tamamındaki alanları güncellemek için şunu kullanın:[`UpdateFields`](../../document/updatefields/).
 
 ### Örnekler
 
-Bir aralıktaki tüm alanların nasıl güncelleneceğini gösterir.
+Bir aralıktaki tüm alanların nasıl güncelleştirileceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -38,10 +38,10 @@ builder.InsertField(" DOCPROPERTY Category");
 builder.InsertBreak(BreakType.SectionBreakEvenPage);
 builder.InsertField(" DOCPROPERTY Category");
 
-// Yukarıdaki DOCPROPERTY alanları, bu yerleşik belge özelliğinin değerini görüntüleyecektir.
+// Yukarıdaki DOCPROPERTY alanları bu yerleşik belge özelliğinin değerini görüntüleyecektir.
 doc.BuiltInDocumentProperties.Category = "MyCategory";
 
-// Bir belge özelliğinin değerini güncellersek, onu görüntülemek için tüm DOCPROPERTY alanlarını güncellememiz gerekecek.
+// Bir belge özelliğinin değerini güncellersek, onu görüntülemek için tüm DOCPROPERTY alanlarını güncellememiz gerekecektir.
 Assert.AreEqual(string.Empty, doc.Range.Fields[0].Result);
 Assert.AreEqual(string.Empty, doc.Range.Fields[1].Result);
 

@@ -3,7 +3,7 @@ title: ShapeBase.MarkupLanguage
 second_title: Aspose.Words för .NET API Referens
 description: ShapeBase fast egendom. Får MarkupLanguage som används för detta grafiska objekt.
 type: docs
-weight: 370
+weight: 390
 url: /sv/net/aspose.words.drawing/shapebase/markuplanguage/
 ---
 ## ShapeBase.MarkupLanguage property

@@ -3,7 +3,7 @@ title: Enum TableStyleOptions
 second_title: Справочник по API Aspose.Words для .NET
 description: Aspose.Words.Tables.TableStyleOptions перечисление. Указывает как стиль таблицы применяется к таблице.
 type: docs
-weight: 6070
+weight: 6370
 url: /ru/net/aspose.words.tables/tablestyleoptions/
 ---
 ## TableStyleOptions enumeration
@@ -24,28 +24,28 @@ public enum TableStyleOptions
 | LastRow | `40` | Применить условное форматирование последней строки. |
 | FirstColumn | `80` | Применить условное форматирование 1 первого столбца. |
 | LastColumn | `100` | Применить условное форматирование последнего столбца. |
-| RowBands | `200` | Применить условное форматирование для группирования строк. |
-| ColumnBands | `400` | Применить условное форматирование группирования столбцов. |
-| Default2003 | `600` | Применяется чередование строк и столбцов. Это значение Microsoft Word по умолчанию для старых форматов, таких как DOC, WML и RTF. |
+| RowBands | `200` | Применить условное форматирование группировки строк. |
+| ColumnBands | `400` | Применить условное форматирование группировки столбцов. |
+| Default2003 | `600` | Применено группирование строк и столбцов. Это значение Microsoft Word по умолчанию для старых форматов, таких как DOC, WML и RTF. . |
 | Default | `2A0` | Это настройки Microsoft Word по умолчанию. |
 
 ### Примеры
 
-Показывает, как создать новую таблицу при применении стиля.
+Показывает, как построить новую таблицу с применением стиля.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 Table table = builder.StartTable();
 
-// Мы должны вставить хотя бы одну строку, прежде чем задавать какое-либо форматирование таблицы.
+// Мы должны вставить хотя бы одну строку, прежде чем устанавливать какое-либо форматирование таблицы.
 builder.InsertCell();
 
-// Установить используемый стиль таблицы на основе идентификатора стиля.
+// Установите используемый стиль таблицы на основе идентификатора стиля.
 // Обратите внимание, что не все стили таблиц доступны при сохранении в формате .doc.
 table.StyleIdentifier = StyleIdentifier.MediumShading1Accent1;
 
-// Частично применяем стиль к функциям таблицы на основе предикатов, затем строим таблицу.
+// Частично применить стиль к функциям таблицы на основе предикатов, затем построить таблицу.
 table.StyleOptions =
     TableStyleOptions.FirstColumn | TableStyleOptions.RowBands | TableStyleOptions.FirstRow;
 table.AutoFit(AutoFitBehavior.AutoFitToContents);

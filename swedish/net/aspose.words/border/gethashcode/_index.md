@@ -3,7 +3,7 @@ title: Border.GetHashCode
 second_title: Aspose.Words för .NET API Referens
 description: Border metod. Fungerar som en hashfunktion för denna typ.
 type: docs
-weight: 90
+weight: 110
 url: /sv/net/aspose.words/border/gethashcode/
 ---
 ## Border.GetHashCode method
@@ -29,7 +29,6 @@ builder.Write("Paragraph 2.");
 // dessa stycken, deras gränssamlingar delar samma element.
 BorderCollection firstParagraphBorders = doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Borders;
 BorderCollection secondParagraphBorders = builder.CurrentParagraph.ParagraphFormat.Borders;
-
 for (int i = 0; i < firstParagraphBorders.Count; i++)
 {
     Assert.IsTrue(firstParagraphBorders[i].Equals(secondParagraphBorders[i]));

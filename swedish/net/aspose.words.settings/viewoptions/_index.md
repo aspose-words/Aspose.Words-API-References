@@ -3,12 +3,14 @@ title: Class ViewOptions
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Settings.ViewOptions klass. Ger olika alternativ som styr hur ett dokument visas i Microsoft Word.
 type: docs
-weight: 5650
+weight: 5950
 url: /sv/net/aspose.words.settings/viewoptions/
 ---
 ## ViewOptions class
 
 Ger olika alternativ som styr hur ett dokument visas i Microsoft Word.
+
+För att lära dig mer, besök[Arbeta med alternativ och utseende av Word-dokument](https://docs.aspose.com/words/net/work-with-word-document-options-and-appearance/) dokumentationsartikel.
 
 ```csharp
 public class ViewOptions

@@ -16,7 +16,7 @@ public virtual FieldType Type { get; }
 
 ### Beispiele
 
-Zeigt, wie ein Feld mithilfe eines Feldcodes in ein Dokument eingefügt wird.
+Zeigt, wie man mithilfe eines Feldcodes ein Feld in ein Dokument einfügt.
 
 ```csharp
 Document doc = new Document();

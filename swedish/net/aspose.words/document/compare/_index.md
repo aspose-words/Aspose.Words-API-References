@@ -3,7 +3,7 @@ title: Document.Compare
 second_title: Aspose.Words för .NET API Referens
 description: Document metod. Jämför detta dokument med ett annat dokument som ger ändringar som antal redigeringar och formatrevisionerRevision .
 type: docs
-weight: 540
+weight: 580
 url: /sv/net/aspose.words/document/compare/
 ---
 ## Compare(Document, string, DateTime) {#compare}
@@ -21,11 +21,6 @@ public void Compare(Document document, string author, DateTime dateTime)
 | dateTime | DateTime | Datum och tid som ska användas för revisioner. |
 
 ### Anmärkningar
-
-Följande dokumentnoder jämförs inte för tillfället:
-
-* [`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/)
-* Artikel 3
 
 Dokument får inte ha revideringar före jämförelse.
 
@@ -48,6 +43,7 @@ if (docOriginal.Revisions.Count == 0 && docEdited.Revisions.Count == 0)
 
 // Efter jämförelsen kommer originaldokumentet att få en ny version
 // för varje element som är olika i det redigerade dokumentet.
+foreach (Revision r in docOriginal.Revisions)
 {
     Console.WriteLine($"Revision type: {r.RevisionType}, on a node of type \"{r.ParentNode.NodeType}\"");
     Console.WriteLine($"\tChanged text: \"{r.ParentNode.GetText()}\"");
@@ -101,7 +97,7 @@ Shape textBox = builder.InsertShape(ShapeType.TextBox, 150, 20);
 builder.MoveTo(textBox.FirstParagraph);
 builder.Write("Original textbox contents");
 
-// DATE-fält:
+// DATUMfält:
 builder.MoveTo(docOriginal.FirstSection.Body.AppendParagraph(""));
 builder.InsertField(" DATE ");
 

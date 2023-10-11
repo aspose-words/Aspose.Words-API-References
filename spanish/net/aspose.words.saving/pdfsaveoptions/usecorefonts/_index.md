@@ -1,14 +1,14 @@
 ---
 title: PdfSaveOptions.UseCoreFonts
 second_title: Referencia de API de Aspose.Words para .NET
-description: PdfSaveOptions propiedad. Obtiene o establece un valor que determina si se sustituyen o no las fuentes TrueType Arial Times New Roman Courier New y Symbol con fuentes principales PDF Type 1.
+description: PdfSaveOptions propiedad. Obtiene o establece un valor que determina si se sustituyen o no las fuentes TrueType Arial Times New Roman Courier New y Symbol con fuentes PDF Type 1 principales.
 type: docs
-weight: 280
+weight: 310
 url: /es/net/aspose.words.saving/pdfsaveoptions/usecorefonts/
 ---
 ## PdfSaveOptions.UseCoreFonts property
 
-Obtiene o establece un valor que determina si se sustituyen o no las fuentes TrueType Arial, Times New Roman, Courier New y Symbol con fuentes principales PDF Type 1.
+Obtiene o establece un valor que determina si se sustituyen o no las fuentes TrueType Arial, Times New Roman, Courier New y Symbol con fuentes PDF Type 1 principales.
 
 ```csharp
 public bool UseCoreFonts { get; set; }
@@ -16,17 +16,17 @@ public bool UseCoreFonts { get; set; }
 
 ### Observaciones
 
-El valor predeterminado es`falso` . Cuando este valor se establece en`verdadero` Las fuentes Arial, Times New Roman, Courier New y Symbol se reemplazan en el documento PDF con la fuente Type 1 principal correspondiente.
+El valor predeterminado es`FALSO` . Cuando este valor se establece en`verdadero` Las fuentes Arial, Times New Roman, Courier New y Symbol se reemplazan en el documento PDF con la fuente principal Tipo 1 correspondiente.
 
-Las fuentes principales de PDF, o sus métricas de fuente y fuentes de sustitución adecuadas, deben estar disponibles para cualquier aplicación de visualización de PDF x000d_.
+Las fuentes PDF principales, o sus métricas de fuentes y las fuentes de sustitución adecuadas, deben estar disponibles para cualquier aplicación de visualización de PDF.
 
 Esta configuración solo funciona para el texto en codificación ANSI (Windows-1252). El texto que no sea ANSI se escribirá con fuente TrueType incrustada independientemente de esta configuración.
 
-El cumplimiento de PDF/A y PDF/UA requiere que se incrusten todas las fuentes.`falso` el valor se usará automáticamente al guardar en PDF/A y PDF/UA.
+El cumplimiento de PDF/A y PDF/UA requiere que todas las fuentes estén incrustadas.`FALSO` El valor se utilizará automáticamente al guardar en PDF/A y PDF/UA.
 
-Las fuentes principales no son compatibles cuando se guarda en formato PDF 2.0.`falso`el valor se usará automáticamente al guardar en PDF 2.0.
+Las fuentes principales no son compatibles al guardar en formato PDF 2.0.`FALSO` El valor se utilizará automáticamente al guardar en PDF 2.0.
 
-Esta opción tiene una prioridad más alta que[`FontEmbeddingMode`](../fontembeddingmode/) opción.
+Esta opción tiene mayor prioridad que[`FontEmbeddingMode`](../fontembeddingmode/) opción.
 
 ### Ejemplos
 
@@ -45,9 +45,9 @@ builder.Writeln("The quick brown fox jumps over the lazy dog.");
 // para modificar cómo ese método convierte el documento a .PDF.
 PdfSaveOptions options = new PdfSaveOptions();
 
-// Establecer la propiedad "UseCoreFonts" en "true" para reemplazar algunas fuentes,
+// Establece la propiedad "UseCoreFonts" en "true" para reemplazar algunas fuentes,
 // incluyendo las dos fuentes de nuestro documento, con sus equivalentes en PDF Tipo 1.
-// Establezca la propiedad "UseCoreFonts" en "false" para no aplicar fuentes PDF Type 1.
+// Establece la propiedad "UseCoreFonts" en "false" para no aplicar fuentes PDF Tipo 1.
 options.UseCoreFonts = useCoreFonts;
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.EmbedCoreFonts.pdf", options);

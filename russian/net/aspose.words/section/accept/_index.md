@@ -16,19 +16,19 @@ public override bool Accept(DocumentVisitor visitor)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| visitor | DocumentVisitor | Посетитель, который будет посещать узлы. |
+| visitor | DocumentVisitor | Посетитель, который посетит узлы. |
 
 ### Возвращаемое значение
 
-Истинно, если все узлы были посещены; false, если DocumentVisitor остановил операцию перед посещением всех узлов.
+Истинно, если были посещены все узлы; ложь, если[`DocumentVisitor`](../../documentvisitor/) остановил операцию перед посещением всех узлов.
 
 ### Примечания
 
-Перечисляет этот узел и все его дочерние элементы. Каждый узел вызывает соответствующий метод в DocumentVisitor.
+Перечисляет этот узел и все его дочерние элементы. Каждый узел вызывает соответствующий метод[`DocumentVisitor`](../../documentvisitor/).
 
 Дополнительные сведения см. в шаблоне проектирования «Посетитель».
 
-Вызывает DocumentVisitor.VisitSectionStart, затем вызывает Accept для всех дочерних узлов section и вызывает DocumentVisitor.VisitSectionEnd в конце.
+Звонки[`VisitSectionStart`](../../documentvisitor/visitsectionstart/) , затем звонит[`Accept`](../../node/accept/) для всех дочерних узловsection и вызовов[`VisitSectionEnd`](../../documentvisitor/visitsectionend/) в конце.
 
 ### Смотрите также
 

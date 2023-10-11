@@ -1,14 +1,14 @@
 ---
 title: HtmlSaveOptions.FontsFolderAlias
 second_title: Aspose.Words per .NET API Reference
-description: HtmlSaveOptions proprietà. Specifica il nome della cartella utilizzata per costruire gli URI dei caratteri scritti in un documento HTML. Limpostazione predefinita è una stringa vuota.
+description: HtmlSaveOptions proprietà. Specifica il nome della cartella utilizzata per costruire gli URI dei caratteri scritti in un documento HTML. Il valore predefinito è una stringa vuota.
 type: docs
-weight: 330
+weight: 320
 url: /it/net/aspose.words.saving/htmlsaveoptions/fontsfolderalias/
 ---
 ## HtmlSaveOptions.FontsFolderAlias property
 
-Specifica il nome della cartella utilizzata per costruire gli URI dei caratteri scritti in un documento HTML. L'impostazione predefinita è una stringa vuota.
+Specifica il nome della cartella utilizzata per costruire gli URI dei caratteri scritti in un documento HTML. Il valore predefinito è una stringa vuota.
 
 ```csharp
 public string FontsFolderAlias { get; set; }
@@ -16,15 +16,15 @@ public string FontsFolderAlias { get; set; }
 
 ### Osservazioni
 
-Quando salvi un[`Document`](../../../aspose.words/document/) in formato HTML e[`ExportFontResources`](../exportfontresources/) è impostato su`VERO` , Aspose.Words deve salvare i caratteri utilizzati nel documento come file autonomi. [`FontsFolder`](../fontsfolder/) consente di specificare dove verranno salvati i caratteri e `FontsFolderAlias` consente di specificare come verranno costruiti gli URI dei font.
+Quando salvi un file[`Document`](../../../aspose.words/document/) in formato HTML e[`ExportFontResources`](../exportfontresources/) è impostato su`VERO` , Aspose.Words deve salvare i caratteri utilizzati nel documento come file autonomi. [`FontsFolder`](../fontsfolder/) ti permette di specificare dove verranno salvati i caratteri e `FontsFolderAlias` permette di specificare come verranno costruiti gli URI dei caratteri.
 
-Se`FontsFolderAlias` non è una stringa vuota, lo sarà l'URI del carattere scritto in HTMLFontsFolderAlias + &lt;nome file font&gt;.
+Se`FontsFolderAlias` non è una stringa vuota, lo sarà l'URI del carattere scritto in HTMLFontsFolderAlias + &lt;nome file carattere&gt;.
 
-Se`FontsFolderAlias` è una stringa vuota, quindi sarà l'URI del carattere scritto in HTMLFontsFolder + &lt;nome file font&gt;.
+Se`FontsFolderAlias` è una stringa vuota, lo sarà l'URI del carattere scritto in HTMLCartella Fonts + &lt;nome file font&gt;.
 
-Se`FontsFolderAlias`è impostato per '.' (punto), quindi il nome del file del carattere verrà scritto in HTML senza percorso indipendentemente dalle altre opzioni.
+Se`FontsFolderAlias`è impostato per '.' (punto), il nome del file del carattere verrà scritto in HTML senza percorso indipendentemente dalle altre opzioni.
 
-Un modo alternativo per specificare il nome della cartella in cui costruire il font URIs consiste nell'usare[`ResourceFolderAlias`](../resourcefolderalias/).
+Un modo alternativo per specificare il nome della cartella per costruire gli URI del carattere consiste nell'utilizzare[`ResourceFolderAlias`](../resourcefolderalias/).
 
 ### Esempi
 
@@ -42,8 +42,8 @@ HtmlSaveOptions options = new HtmlSaveOptions
     FontsFolder = ArtifactsDir + "Fonts",
     ImagesFolder = ArtifactsDir + "Images",
     ResourceFolder = ArtifactsDir + "Resources",
-    FontsFolderAlias = "http://example.com/fonts",
-    ImagesFolderAlias = "http://example.com/images",
+    FontsFolderAlias = "http://esempio.com/fonts",
+    ImagesFolderAlias = "http://esempio.com/immagini",
     ResourceFolderAlias = "http://esempio.com/risorse",
     ExportOriginalUrlForLinkedImages = true
 };

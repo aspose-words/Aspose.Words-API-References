@@ -1,14 +1,16 @@
 ---
 title: Class FieldShape
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Fields.FieldShape فصل. تنفيذ حقل الشكل .
+description: Aspose.Words.Fields.FieldShape فصل. ينفذ حقل الشكل.
 type: docs
-weight: 2260
+weight: 2410
 url: /ar/net/aspose.words.fields/fieldshape/
 ---
 ## FieldShape class
 
-تنفيذ حقل الشكل .
+ينفذ حقل الشكل.
+
+لمعرفة المزيد، قم بزيارة[العمل مع الحقول](https://docs.aspose.com/words/net/working-with-fields/) مقالة توثيقية.
 
 ```csharp
 public class FieldShape : Field
@@ -24,28 +26,28 @@ public class FieldShape : Field
 
 | اسم | وصف |
 | --- | --- |
-| [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | يحصل على النص الذي يمثل نتيجة الحقل المعروض. |
+| [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | الحصول على النص الذي يمثل نتيجة الحقل المعروض. |
 | [End](../../aspose.words.fields/field/end/) { get; } | يحصل على العقدة التي تمثل نهاية الحقل. |
-| [Format](../../aspose.words.fields/field/format/) { get; } | يحصل على أ[`FieldFormat`](../fieldformat/) كائن يوفر وصولاً مكتوبًا إلى تنسيق الحقل. |
-| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | الحصول على أو تحديد ما إذا كانت النتيجة الحالية للحقل لم تعد صحيحة (قديمة) بسبب التعديلات الأخرى التي تم إجراؤها على المستند. |
-| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | تحديد ما إذا كان الحقل مغلقًا أم لا (يجب عدم إعادة حساب النتيجة). |
-| [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | الحصول على أو تحديد LCID للحقل. |
+| [Format](../../aspose.words.fields/field/format/) { get; } | يحصل على[`FieldFormat`](../fieldformat/) الكائن الذي يوفر الوصول المكتوب إلى تنسيق الحقل. |
+| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | الحصول على أو تعيين ما إذا كانت النتيجة الحالية للحقل لم تعد صحيحة (قديمة) بسبب تعديلات أخرى تم إجراؤها على المستند. |
+| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | الحصول على أو تعيين ما إذا كان الحقل مقفلاً (لا ينبغي إعادة حساب النتيجة). |
+| [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | الحصول على أو تعيين LCID الخاص بالحقل. |
 | [Result](../../aspose.words.fields/field/result/) { get; set; } | الحصول على أو تعيين النص الموجود بين فاصل الحقل ونهاية الحقل. |
-| [Separator](../../aspose.words.fields/field/separator/) { get; } | يحصل على العقدة التي تمثل فاصل المجال. يمكن أن يكون فارغًا. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | يحصل على العقدة التي تمثل فاصل الحقول. يمكن ان يكون`باطل` . |
 | [Start](../../aspose.words.fields/field/start/) { get; } | يحصل على العقدة التي تمثل بداية الحقل. |
-| [Text](../../aspose.words.fields/fieldshape/text/) { get; set; } | الحصول على النص المراد استرداده أو تعيينه . |
-| virtual [Type](../../aspose.words.fields/field/type/) { get; } | يحصل على نوع حقل Microsoft Word . |
+| [Text](../../aspose.words.fields/fieldshape/text/) { get; set; } | الحصول على النص أو تعيينه لاسترداده. |
+| virtual [Type](../../aspose.words.fields/field/type/) { get; } | الحصول على نوع حقل Microsoft Word. |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل) . يتم تضمين كل من رمز الحقل ونتيجة الحقل للحقول الفرعية. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل) . |
-| [Remove](../../aspose.words.fields/field/remove/)() | يزيل الحقل من المستند. إرجاع عقدة بعد الحقل مباشرة. إذا كانت نهاية الحقل هي آخر child من العقدة الأصلية ، يتم إرجاع فقرته الأصلية. إذا تمت إزالة الحقل بالفعل ، يعود **لا شيء** . |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل). يتم تضمين كل من رمز الحقل ونتيجة الحقل للحقول الفرعية. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل). |
+| [Remove](../../aspose.words.fields/field/remove/)() | إزالة الحقل من المستند. إرجاع عقدة مباشرة بعد الحقل. إذا كانت نهاية الحقل هي الطفل الأخير للعقدة الأصلية، فسيتم إرجاع الفقرة الأصلية الخاصة به. إذا تمت إزالة الحقل بالفعل، فسيتم إرجاعه`باطل` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | يقوم بإلغاء ربط الحقل. |
-| [Update](../../aspose.words.fields/field/update/)() | يقوم بالتحديث الميداني. يرمي إذا تم تحديث الحقل بالفعل. |
-| [Update](../../aspose.words.fields/field/update/)(bool) | يقوم بإجراء تحديث ميداني. يرمي إذا تم تحديث الحقل بالفعل. |
+| [Update](../../aspose.words.fields/field/update/)() | يقوم بإجراء التحديث الميداني. يتم الرمي إذا تم تحديث الحقل بالفعل. |
+| [Update](../../aspose.words.fields/field/update/)(bool) | إجراء تحديث ميداني. يتم الرمي إذا تم تحديث الحقل بالفعل. |
 
 ### ملاحظات
 
@@ -53,21 +55,21 @@ public class FieldShape : Field
 
 ### أمثلة
 
-يوضح كيفية إنشاء قوائم متوافقة مع اللغة ذات الاتجاه من اليمين إلى اليسار باستخدام حقول BIDIOUTLINE.
+يوضح كيفية إنشاء قوائم متوافقة مع اللغة من اليمين إلى اليسار باستخدام حقول BIDIOUTLINE.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// فقرات أرقام الحقول BIDIOUTLINE مثل حقول AUTONUM / LISTNUM ،
-// ولكنه يكون مرئيًا فقط عند تمكين لغة تحرير من اليمين إلى اليسار ، مثل العبرية أو العربية.
-// سيعرض الحقل التالي ".1" ، المكافئ RTL لرقم القائمة "1.".
+// يقوم حقل BIDIOUTLINE بترقيم الفقرات مثل حقول AUTONUM/LISTNUM،
+// ولكنه يكون مرئيًا فقط عند تمكين لغة التحرير من اليمين إلى اليسار، مثل العبرية أو العربية.
+// سيعرض الحقل التالي ".1"، وهو ما يعادل رقم القائمة "1." من اليمين إلى اليسار (RTL).
 FieldBidiOutline field = (FieldBidiOutline)builder.InsertField(FieldType.FieldBidiOutline, true);
 builder.Writeln("שלום");
 
 Assert.AreEqual(" BIDIOUTLINE ", field.GetFieldCode());
 
-// أضف حقلين BIDIOUTLINE آخرين ، والذي سيعرض ".2" و ".3".
+// أضف حقلين آخرين لـ BIDIOUTLINE، حيث سيتم عرض ".2" و".3".
 builder.InsertField(FieldType.FieldBidiOutline, true);
 builder.Writeln("שלום");
 builder.InsertField(FieldType.FieldBidiOutline, true);
@@ -79,32 +81,32 @@ foreach (Paragraph para in doc.GetChildNodes(NodeType.Paragraph, true))
     para.ParagraphFormat.Bidi = true;
 }
 
-// إذا قمنا بتمكين لغة تحرير من اليمين إلى اليسار في Microsoft Word ، فستعرض الحقول الخاصة بنا الأرقام.
-// وإلا فسيتم عرض "###".
+// إذا قمنا بتمكين لغة التحرير من اليمين إلى اليسار في Microsoft Word، فستعرض حقولنا أرقامًا.
+// وإلا فسوف يعرضون "###".
 doc.Save(ArtifactsDir + "Field.BIDIOUTLINE.docx");
 ```
 
-يوضح كيفية معالجة بعض حقول Microsoft Word القديمة مثل SHAPE و EMBED أثناء التحميل.
+يوضح كيفية التعامل مع بعض حقول Microsoft Word القديمة مثل SHAPE وEMBED أثناء التحميل.
 
 ```csharp
 // افتح مستندًا تم إنشاؤه في Microsoft Word 2003.
 Document doc = new Document(MyDir + "Legacy fields.doc");
 
-// إذا فتحنا مستند Word وضغطنا على Alt + F9 ، فسنرى شكل وحقل EMBED.
-// حقل الشكل هو نقطة الارتساء / قماش الرسم لكائن شكل تلقائي مع تمكين نمط التفاف "سطري مع النص".
-// يحتوي حقل EMBED على نفس الوظيفة ، ولكن بالنسبة لكائن مضمن ،
+// إذا فتحنا مستند Word واضغطنا على Alt+F9، فسنرى شكلًا وحقل EMBED.
+// حقل SHAPE هو نقطة الارتساء/اللوحة القماشية لكائن الشكل التلقائي مع تمكين نمط الالتفاف "سطري مع النص".
+// حقل EMBED له نفس الوظيفة، ولكن بالنسبة للكائن المضمن،
 // مثل جدول بيانات من مستند Excel خارجي.
-// ومع ذلك ، لن تظهر هذه الحقول في مجموعة الحقول الخاصة بالمستند.
+// ومع ذلك، لن تظهر هذه الحقول في مجموعة حقول المستند.
 Assert.AreEqual(0, doc.Range.Fields.Count);
 
-// تدعم الإصدارات القديمة من Microsoft Word هذه الحقول فقط.
-// ستؤدي عملية تحميل المستند إلى تحويل هذه الحقول إلى كائنات شكل ،
-// التي يمكننا الوصول إليها في مجموعة عقدة المستند.
+// هذه الحقول مدعومة فقط في الإصدارات القديمة من Microsoft Word.
+// ستقوم عملية تحميل المستند بتحويل هذه الحقول إلى كائنات الشكل،
+// والتي يمكننا الوصول إليها في مجموعة عقدة المستند.
 NodeCollection shapes = doc.GetChildNodes(NodeType.Shape, true);
 Assert.AreEqual(3, shapes.Count);
 
-// تتوافق عقدة الشكل الأولى مع حقل الشكل في مستند الإدخال ،
-// وهي اللوحة القماشية المضمنة للشكل التلقائي.
+// تتوافق عقدة الشكل الأولى مع حقل SHAPE في مستند الإدخال،
+// وهي اللوحة المضمنة للشكل التلقائي.
 Shape shape = (Shape)shapes[0];
 Assert.AreEqual(ShapeType.Image, shape.ShapeType);
 
@@ -112,7 +114,7 @@ Assert.AreEqual(ShapeType.Image, shape.ShapeType);
 shape = (Shape)shapes[1];
 Assert.AreEqual(ShapeType.Can, shape.ShapeType);
 
-// الشكل الثالث هو ما كان حقل EMBED الذي يحتوي على جدول البيانات الخارجي.
+// الشكل الثالث هو حقل EMBED الذي يحتوي على جدول البيانات الخارجي.
 shape = (Shape)shapes[2];
 Assert.AreEqual(ShapeType.OleObject, shape.ShapeType);
 ```

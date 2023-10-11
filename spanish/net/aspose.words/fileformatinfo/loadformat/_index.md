@@ -16,11 +16,11 @@ public LoadFormat LoadFormat { get; }
 
 ### Observaciones
 
-Cuando se cifra un documento OOXML, no es posible determinar si es un documento de Excel, Word o PowerPoint sin descifrarlo primero, por lo que para un documento OOXML cifrado, esta propiedad siempre devolveráDocx.
+Cuando un documento OOXML está cifrado, no es posible determinar si es un documento de Excel, Word o PowerPoint sin descifrarlo primero, por lo que para un documento OOXML cifrado esta propiedad siempre devolveráDocx.
 
 ### Ejemplos
 
-Muestra cómo usar la clase FileFormatUtil para detectar el formato y el cifrado del documento.
+Muestra cómo utilizar la clase FileFormatUtil para detectar el formato y el cifrado del documento.
 
 ```csharp
 Document doc = new Document();
@@ -39,10 +39,10 @@ Assert.AreEqual(".odt", FileFormatUtil.LoadFormatToExtension(info.LoadFormat));
 Assert.True(info.IsEncrypted);
 ```
 
-Muestra cómo usar la clase FileFormatUtil para detectar el formato del documento y la presencia de firmas digitales.
+Muestra cómo utilizar la clase FileFormatUtil para detectar el formato del documento y la presencia de firmas digitales.
 
 ```csharp
-// Use una instancia de FileFormatInfo para verificar que un documento no esté firmado digitalmente.
+// Utilice una instancia de FileFormatInfo para verificar que un documento no esté firmado digitalmente.
 FileFormatInfo info = FileFormatUtil.DetectFileFormat(MyDir + "Document.docx");
 
 Assert.AreEqual(".docx", FileFormatUtil.LoadFormatToExtension(info.LoadFormat));
@@ -52,7 +52,7 @@ CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.p
 DigitalSignatureUtil.Sign(MyDir + "Document.docx", ArtifactsDir + "File.DetectDigitalSignatures.docx",
     certificateHolder, new SignOptions() { SignTime = DateTime.Now });
 
-// Use un nuevo FileFormatInstance para confirmar que está firmado.
+// Utilice un nuevo FileFormatInstance para confirmar que está firmado.
 info = FileFormatUtil.DetectFileFormat(ArtifactsDir + "File.DetectDigitalSignatures.docx");
 
 Assert.True(info.HasDigitalSignature);
@@ -61,10 +61,10 @@ Assert.True(info.HasDigitalSignature);
 Assert.AreEqual(1, DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "File.DetectDigitalSignatures.docx").Count);
 ```
 
-Muestra cómo usar los métodos FileFormatUtil para detectar el formato de un documento.
+Muestra cómo utilizar los métodos FileFormatUtil para detectar el formato de un documento.
 
 ```csharp
-// Cargue un documento de un archivo al que le falta una extensión de archivo y luego detecte su formato de archivo.
+// Cargue un documento desde un archivo al que le falta una extensión de archivo y luego detecte su formato de archivo.
 using (FileStream docStream = File.OpenRead(MyDir + "Word document with missing file extension"))
 {
     FileFormatInfo info = FileFormatUtil.DetectFileFormat(docStream);
@@ -73,11 +73,11 @@ using (FileStream docStream = File.OpenRead(MyDir + "Word document with missing 
     Assert.AreEqual(LoadFormat.Doc, loadFormat);
 
     // A continuación se muestran dos métodos para convertir un LoadFormat a su SaveFormat correspondiente.
-    // 1 - Obtenga la cadena de extensión de archivo para LoadFormat, luego obtenga el SaveFormat correspondiente de esa cadena:
+    // 1 - Obtenga la cadena de extensión del archivo para LoadFormat, luego obtenga el SaveFormat correspondiente de esa cadena:
     string fileExtension = FileFormatUtil.LoadFormatToExtension(loadFormat);
     SaveFormat saveFormat = FileFormatUtil.ExtensionToSaveFormat(fileExtension);
 
-    // 2 - Convertir el LoadFormat directamente a su SaveFormat:
+    // 2 - Convertir LoadFormat directamente a su SaveFormat:
     saveFormat = FileFormatUtil.LoadFormatToSaveFormat(loadFormat);
 
     // Cargue un documento de la secuencia y luego guárdelo en la extensión de archivo detectada automáticamente.

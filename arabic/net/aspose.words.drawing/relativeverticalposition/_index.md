@@ -1,14 +1,14 @@
 ---
 title: Enum RelativeVerticalPosition
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Drawing.RelativeVerticalPosition تعداد. يحدد ما هو الموضع الرأسي لشكل أو إطار نص نسبي .
+description: Aspose.Words.Drawing.RelativeVerticalPosition تعداد. يحدد الموضع الرأسي للشكل أو إطار النص النسبي.
 type: docs
-weight: 1070
+weight: 1210
 url: /ar/net/aspose.words.drawing/relativeverticalposition/
 ---
 ## RelativeVerticalPosition enumeration
 
-يحدد ما هو الموضع الرأسي لشكل أو إطار نص نسبي .
+يحدد الموضع الرأسي للشكل أو إطار النص النسبي.
 
 ```csharp
 public enum RelativeVerticalPosition
@@ -18,14 +18,14 @@ public enum RelativeVerticalPosition
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| Margin | `0` | تحديد أن الوضع الرأسي يجب أن يكون متناسبًا مع هوامش الصفحة. |
-| Page | `1` | يتم وضع الكائن بالنسبة إلى الحافة العلوية للصفحة. |
-| Paragraph | `2` | يتم وضع الكائن بالنسبة إلى الجزء العلوي من الفقرة التي تحتوي على نقطة الارتساء. |
-| Line | `3` | غير موثق . |
-| TopMargin | `4` | تحديد أن الوضع الرأسي يجب أن يكون متعلقًا بالهامش العلوي للصفحة الحالية. |
-| BottomMargin | `5` | تحديد أن الوضع الرأسي يجب أن يكون متناسبًا مع الهامش السفلي للصفحة الحالية. |
-| InsideMargin | `6` | تحديد أن الوضع الرأسي يجب أن يكون متعلقًا بالهامش الداخلي للصفحة الحالية. |
-| OutsideMargin | `7` | تحديد أن الوضع الرأسي يجب أن يكون متعلقًا بالهامش الخارجي للصفحة الحالية. |
+| Margin | `0` | يحدد أن الموضع الرأسي يجب أن يكون متناسبًا مع هوامش الصفحة. |
+| Page | `1` | تم وضع الكائن بالنسبة إلى الحافة العلوية للصفحة. |
+| Paragraph | `2` | يتم وضع الكائن بالنسبة إلى أعلى الفقرة التي تحتوي على نقطة الارتساء. |
+| Line | `3` | غير موثقة. |
+| TopMargin | `4` | يحدد أن الموضع الرأسي يجب أن يكون متناسبًا مع الهامش العلوي للصفحة الحالية. |
+| BottomMargin | `5` | يحدد أن الموضع الرأسي يجب أن يكون متناسبًا مع الهامش السفلي للصفحة الحالية. |
+| InsideMargin | `6` | يحدد أن الموضع الرأسي يجب أن يكون متناسبًا مع الهامش الداخلي للصفحة الحالية. |
+| OutsideMargin | `7` | يحدد أن الموضع الرأسي يجب أن يكون متناسبًا مع الهامش الخارجي للصفحة الحالية. |
 | TableDefault | `0` | القيمة الافتراضية هيMargin . |
 | TextFrameDefault | `2` | القيمة الافتراضية هيParagraph . |
 
@@ -37,7 +37,7 @@ public enum RelativeVerticalPosition
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// أدخل صورة عائمة ستظهر خلف النص المتداخل وقم بمحاذاة مركز الصفحة.
+// أدخل صورة عائمة ستظهر خلف النص المتداخل وقم بمحاذاتها مع منتصف الصفحة.
 Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
 shape.WrapType = WrapType.None;
 shape.BehindText = true;
@@ -62,7 +62,7 @@ Shape shape = builder.InsertImage(image);
 shape.WrapType = WrapType.None;
 shape.BehindText = true;
 
-// ضع الصورة في منتصف الصفحة.
+// ضع الصورة في وسط الصفحة.
 shape.RelativeHorizontalPosition = RelativeHorizontalPosition.Page;
 shape.RelativeVerticalPosition = RelativeVerticalPosition.Page;
 shape.Left = (builder.PageSetup.PageWidth - shape.Width) / 2;
@@ -87,7 +87,7 @@ using (SKBitmap image = SKBitmap.Decode(ImageDir + "Transparent background logo.
     shape.WrapType = WrapType.None;
     shape.BehindText = true;
 
-    // ضع الصورة في منتصف الصفحة.
+    // ضع الصورة في وسط الصفحة.
     shape.RelativeHorizontalPosition = RelativeHorizontalPosition.Page;
     shape.RelativeVerticalPosition = RelativeVerticalPosition.Page;
     shape.Left = (builder.PageSetup.PageWidth - shape.Width) / 2;

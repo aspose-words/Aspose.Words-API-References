@@ -1,14 +1,14 @@
 ---
 title: Document.TrackRevisions
 second_title: Справочник по API Aspose.Words для .NET
-description: Document свойство. Истинный если изменения отслеживаются при редактировании этого документа в Microsoft Word.
+description: Document свойство. True если изменения отслеживаются при редактировании этого документа в Microsoft Word.
 type: docs
-weight: 410
+weight: 430
 url: /ru/net/aspose.words/document/trackrevisions/
 ---
 ## Document.TrackRevisions property
 
-**Истинный** если изменения отслеживаются при редактировании этого документа в Microsoft Word.
+True, если изменения отслеживаются при редактировании этого документа в Microsoft Word.
 
 ```csharp
 public bool TrackRevisions { get; set; }
@@ -16,24 +16,24 @@ public bool TrackRevisions { get; set; }
 
 ### Примечания
 
-Установка этого параметра только указывает Microsoft Word, включена или выключена дорожка changes . Это свойство не влияет на изменения в документе, которые вы делаете программно через Aspose.Words.
+Установка этого параметра только указывает Microsoft Word, включена или выключена дорожка Changes . Это свойство не влияет на изменения в документе, которые вы делаете программно через Aspose.Words.
 
 Если вы хотите автоматически отслеживать изменения, вносимые Aspose.Words программно в этот документ, используйте[`StartTrackRevisions`](../starttrackrevisions/) метод.
 
 ### Примеры
 
-Показывает, как работать с исправлениями в документе.
+Показывает, как работать с изменениями в документе.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Обычное редактирование документа не считается правкой.
+// Обычное редактирование документа не считается ревизией.
 builder.Write("This does not count as a revision. ");
 
 Assert.IsFalse(doc.HasRevisions);
 
-// Чтобы зарегистрировать наши правки как ревизии, нам нужно объявить автора, а затем начать их отслеживать.
+// Чтобы зарегистрировать наши правки как версии, нам нужно объявить автора, а затем начать их отслеживать.
 doc.StartTrackRevisions("John Doe", DateTime.Now);
 
 builder.Write("This is revision #1. ");
@@ -41,13 +41,13 @@ builder.Write("This is revision #1. ");
 Assert.IsTrue(doc.HasRevisions);
 Assert.AreEqual(1, doc.Revisions.Count);
 
-// Этот флаг соответствует "Обзору" -> "Отслеживание" -> Опция «Отслеживать изменения» в Microsoft Word.
-// Метод StartTrackRevisions не влияет на его значение,
-// и документ отслеживает версии программно, несмотря на то, что имеет значение "false".
-// Если мы откроем этот документ с помощью Microsoft Word, он не будет отслеживать редакции.
+// Этот флаг соответствует «Обзору» -> «Отслеживание» -> Опция «Отслеживать изменения» в Microsoft Word.
+// Метод "StartTrackRevisions" не влияет на его значение,
+// и документ отслеживает изменения программно, несмотря на то, что он имеет значение «false».
+// Если мы откроем этот документ с помощью Microsoft Word, он не будет отслеживать изменения.
 Assert.IsFalse(doc.TrackRevisions);
 
-// Мы добавили текст с помощью конструктора документов, поэтому первая ревизия является ревизией типа вставки.
+// Мы добавили текст с помощью построителя документов, поэтому первая редакция является ревизией типа вставки.
 Revision revision = doc.Revisions[0];
 Assert.AreEqual("John Doe", revision.Author);
 Assert.AreEqual("This is revision #1. ", revision.ParentNode.GetText());
@@ -62,12 +62,12 @@ doc.FirstSection.Body.FirstParagraph.Runs[0].Remove();
 Assert.AreEqual(RevisionType.Deletion, doc.Revisions[0].RevisionType);
 Assert.AreEqual(2, doc.Revisions.Count);
 
-// Вставляемые ревизии отображаются в теле документа даже до того, как мы принимаем/отклоняем ревизию.
-// Отклонение ревизии удалит ее узлы из тела. И наоборот, узлы, из которых состоят ревизии удаления
-// также задерживаемся в документе, пока не примем исправление.
+// Вставленные версии отображаются в теле документа еще до того, как мы примем/отклоним редакцию.
+// Отклонение ревизии приведет к удалению ее узлов из тела. И наоборот, узлы, составляющие ревизию, удаляют.
+// также задерживаемся в документе, пока не примем редакцию.
 Assert.AreEqual("This does not count as a revision. This is revision #1.", doc.GetText().Trim());
 
-// Принятие удаления ревизии удалит ее родительский узел из текста абзаца
+// Принятие удаления ревизии приведет к удалению родительского узла из текста абзаца
 // а затем удалить саму ревизию коллекции.
 doc.Revisions[0].Accept();
 
@@ -77,7 +77,7 @@ Assert.AreEqual("This is revision #1.", doc.GetText().Trim());
 builder.Writeln("");
 builder.Write("This is revision #2.");
 
-// Теперь переместите узел, чтобы создать перемещаемый тип ревизии.
+// Теперь переместим узел, чтобы создать движущийся тип ревизии.
 Node node = doc.FirstSection.Body.Paragraphs[1];
 Node endNode = doc.FirstSection.Body.Paragraphs[1].NextSibling;
 Node referenceNode = doc.FirstSection.Body.Paragraphs[0];

@@ -1,14 +1,14 @@
 ---
 title: FindReplaceOptions.ReplacingCallback
 second_title: Справочник по API Aspose.Words для .NET
-description: FindReplaceOptions свойство. Определенный пользователем метод который вызывается перед каждой заменой.
+description: FindReplaceOptions свойство. Пользовательский метод который вызывается перед каждой заменой.
 type: docs
-weight: 130
+weight: 150
 url: /ru/net/aspose.words.replacing/findreplaceoptions/replacingcallback/
 ---
 ## FindReplaceOptions.ReplacingCallback property
 
-Определенный пользователем метод, который вызывается перед каждой заменой.
+Пользовательский метод, который вызывается перед каждой заменой.
 
 ```csharp
 public IReplacingCallback ReplacingCallback { get; set; }
@@ -16,9 +16,10 @@ public IReplacingCallback ReplacingCallback { get; set; }
 
 ### Примеры
 
-Показывает, как заменить все вхождения шаблона регулярного выражения другой строкой, отслеживая все такие замены.
+Показывает, как заменить все вхождения шаблона регулярного выражения другой строкой, отслеживая при этом все такие замены.
 
 ```csharp
+public void ReplaceWithCallback()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -26,7 +27,7 @@ public IReplacingCallback ReplacingCallback { get; set; }
     builder.Writeln("Our new location in New York City is opening tomorrow. " +
                     "Hope to see all our NYC-based customers at the opening!");
 
-    // Мы можем использовать объект «FindReplaceOptions», чтобы изменить процесс поиска и замены.
+    // Мы можем использовать объект «FindReplaceOptions» для изменения процесса поиска и замены.
     FindReplaceOptions options = new FindReplaceOptions();
 
     // Установите обратный вызов, который отслеживает любые замены, которые сделает метод "Replace".
@@ -43,7 +44,7 @@ public IReplacingCallback ReplacingCallback { get; set; }
 }
 
 /// <summary>
-/// Ведет журнал каждой замены текста, выполненной операцией поиска и замены
+/// Ведёт журнал каждой замены текста, выполненной операцией поиска и замены
 /// и отмечает значение исходного совпавшего текста.
 /// </summary>
 private class TextFindAndReplacementLogger : IReplacingCallback
@@ -69,6 +70,7 @@ private class TextFindAndReplacementLogger : IReplacingCallback
 Показывает, как применить другой шрифт к новому содержимому с помощью FindReplaceOptions.
 
 ```csharp
+public void ConvertNumbersToHexadecimal()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -77,7 +79,7 @@ private class TextFindAndReplacementLogger : IReplacingCallback
     builder.Writeln("Numbers that the find-and-replace operation will convert to hexadecimal and highlight:\n" +
                     "123, 456, 789 and 17379.");
 
-    // Мы можем использовать объект «FindReplaceOptions», чтобы изменить процесс поиска и замены.
+    // Мы можем использовать объект «FindReplaceOptions» для изменения процесса поиска и замены.
     FindReplaceOptions options = new FindReplaceOptions();
 
     // Установите для свойства HighlightColor цвет фона, который мы хотим применить к результирующему тексту операции.
@@ -99,7 +101,7 @@ private class TextFindAndReplacementLogger : IReplacingCallback
 
 /// <summary>
 /// Заменяет числовые совпадения поиска и замены их шестнадцатеричными эквивалентами.
-/// Ведет журнал каждой замены.
+/// Ведёт журнал каждой замены.
 /// </summary>
 private class NumberHexer : IReplacingCallback
 {

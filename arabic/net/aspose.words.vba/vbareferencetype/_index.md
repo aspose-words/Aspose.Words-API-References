@@ -1,14 +1,14 @@
 ---
 title: Enum VbaReferenceType
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Vba.VbaReferenceType تعداد. يسمح بتحديد نوع ملفVbaReference الكائن .
+description: Aspose.Words.Vba.VbaReferenceType تعداد. يسمح بتحديد نوع aVbaReference الكائن.
 type: docs
-weight: 6300
+weight: 6610
 url: /ar/net/aspose.words.vba/vbareferencetype/
 ---
 ## VbaReferenceType enumeration
 
-يسمح بتحديد نوع ملف[`VbaReference`](../vbareference/) الكائن .
+يسمح بتحديد نوع a[`VbaReference`](../vbareference/) الكائن.
 
 ```csharp
 public enum VbaReferenceType
@@ -18,17 +18,16 @@ public enum VbaReferenceType
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| Registered | `13` | تحديد نوع مرجع مكتبة نوع التنفيذ. |
-| Project | `14` | تم تحديد نوع مرجعي خارجي لمشروع VBA . |
-| Original | `51` | تحديد نوع مرجع مكتبة نوع التنفيذ الأصلي. |
+| Registered | `13` | يحدد نوع مرجع مكتبة نوع التنفيذ التلقائي. |
+| Project | `14` | تحديد نوع مرجع مشروع VBA خارجي. |
+| Original | `51` | يحدد النوع المرجعي الأصلي لمكتبة نوع التنفيذ التلقائي. |
 | Control | `47` | يحدد نوع مرجع مكتبة النوع الملتوي. |
 
 ### أمثلة
 
-يوضح كيفية الحصول على / إزالة عنصر من مجموعة مرجع VBA.
+يوضح كيفية الحصول على/إزالة عنصر من المجموعة المرجعية لـ VBA.
 
 ```csharp
-[Test]
 public void RemoveVbaReference()
 {
     const string brokenPath = @"X:\broken.dll";
@@ -54,7 +53,7 @@ public void RemoveVbaReference()
 }
 
 /// <summary>
-/// إرجاع سلسلة تمثل مسار LibId لمرجع محدد. 
+ /// إرجاع سلسلة تمثل مسار LibId لمرجع محدد.
 /// </summary>
 private static string GetLibIdPath(VbaReference reference)
 {
@@ -72,7 +71,7 @@ private static string GetLibIdPath(VbaReference reference)
 }
 
 /// <summary>
-/// إرجاع المسار من معرف محدد لمكتبة نوع التنفيذ التلقائي.
+/// إرجاع المسار من معرف محدد لمكتبة نوع الأتمتة.
 /// </summary>
 private static string GetLibIdReferencePath(string libIdReference)
 {
@@ -87,7 +86,7 @@ private static string GetLibIdReferencePath(string libIdReference)
 }
 
 /// <summary>
-/// إرجاع المسار من معرف محدد لمكتبة نوع التنفيذ التلقائي.
+/// إرجاع المسار من معرف محدد لمكتبة نوع الأتمتة.
 /// </summary>
 private static string GetLibIdProjectPath(string libIdProject)
 {

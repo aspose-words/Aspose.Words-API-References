@@ -3,7 +3,7 @@ title: Enum WatermarkType
 second_title: Aspose.Words für .NET-API-Referenz
 description: Aspose.Words.WatermarkType opsomming. Gibt den Wasserzeichentyp an.
 type: docs
-weight: 6380
+weight: 6690
 url: /de/net/aspose.words/watermarktype/
 ---
 ## WatermarkType enumeration
@@ -20,19 +20,19 @@ public enum WatermarkType
 | --- | --- | --- |
 | Text | `0` | Gibt an, dass der Text als Wasserzeichen verwendet wird. |
 | Image | `1` | Gibt an, dass das Bild als Wasserzeichen verwendet wird. |
-| None | `2` | Zeigt an, dass kein Wasserzeichen gesetzt ist. |
+| None | `2` | Zeigt an, dass kein Wasserzeichen festgelegt ist. |
 
 ### Beispiele
 
-Zeigt, wie ein Textwasserzeichen erstellt wird.
+Zeigt, wie man ein Textwasserzeichen erstellt.
 
 ```csharp
 Document doc = new Document();
 
-// Fügen Sie ein Nur-Text-Wasserzeichen hinzu.
+// Ein reines Textwasserzeichen hinzufügen.
 doc.Watermark.SetText("Aspose Watermark");
 
-// Wenn wir die Textformatierung als Wasserzeichen bearbeiten möchten,
+// Wenn wir die Textformatierung bearbeiten und ihn als Wasserzeichen verwenden möchten,
 // Wir können dies tun, indem wir beim Erstellen des Wasserzeichens ein TextWatermarkOptions-Objekt übergeben.
 TextWatermarkOptions textWatermarkOptions = new TextWatermarkOptions();
 textWatermarkOptions.FontFamily = "Arial";

@@ -1,14 +1,14 @@
 ---
 title: PageSetup.HeaderDistance
 second_title: Aspose.Words für .NET-API-Referenz
-description: PageSetup eigendom. Gibt den Abstand in Punkt zwischen der Kopfzeile und dem oberen Rand der Seite zurück oder legt ihn fest.
+description: PageSetup eigendom. Gibt den Abstand in Punkten zwischen der Kopfzeile und dem oberen Rand der Seite zurück oder legt diesen fest.
 type: docs
 weight: 170
 url: /de/net/aspose.words/pagesetup/headerdistance/
 ---
 ## PageSetup.HeaderDistance property
 
-Gibt den Abstand (in Punkt) zwischen der Kopfzeile und dem oberen Rand der Seite zurück oder legt ihn fest.
+Gibt den Abstand (in Punkten) zwischen der Kopfzeile und dem oberen Rand der Seite zurück oder legt diesen fest.
 
 ```csharp
 public double HeaderDistance { get; set; }

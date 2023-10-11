@@ -3,7 +3,7 @@ title: ChartAxis.MajorUnitScale
 second_title: Référence de l'API Aspose.Words pour .NET
 description: ChartAxis propriété. Renvoie ou définit la valeur déchelle pour les graduations principales sur laxe des catégories de temps.
 type: docs
-weight: 120
+weight: 140
 url: /fr/net/aspose.words.drawing.charts/chartaxis/majorunitscale/
 ---
 ## ChartAxis.MajorUnitScale property
@@ -20,7 +20,7 @@ La propriété n'a d'effet que pour les axes de catégorie de temps.
 
 ### Exemples
 
-Montre comment manipuler les graduations et les valeurs affichées d'un axe de graphique.
+Montre comment manipuler les graduations et les valeurs affichées d’un axe de graphique.
 
 ```csharp
 Document doc = new Document();
@@ -32,7 +32,7 @@ Chart chart = shape.Chart;
 Assert.AreEqual(1, chart.Series.Count);
 Assert.AreEqual("Y-Values", chart.Series[0].Name);
 
-// Définissez les graduations mineures de l'axe Y pour qu'elles pointent loin de la zone de tracé,
+// Définit les graduations mineures de l'axe Y pour qu'elles pointent à l'opposé de la zone de tracé,
 // et les graduations principales pour traverser l'axe.
 ChartAxis axis = chart.AxisY;
 axis.MajorTickMark = AxisTickMark.Cross;
@@ -42,7 +42,7 @@ axis.MinorTickMark = AxisTickMark.Outside;
 axis.MajorUnit = 10;
 axis.MinorUnit = 1;
 
-// Définissez les limites de l'axe Y sur -10 et 20.
+// Définit les limites de l'axe Y sur -10 et 20.
 // Cet axe Y affichera désormais 4 graduations majeures et 27 graduations mineures.
 axis.Scaling.Minimum = new AxisBound(-10);
 axis.Scaling.Maximum = new AxisBound(20);
@@ -53,21 +53,21 @@ axis = chart.AxisX;
 axis.MajorUnit = 10;
 axis.MinorUnit = 2.5;
 
-// Configurez les deux types de graduations pour qu'elles apparaissent à l'intérieur de la zone de tracé du graphique.
+// Configure les deux types de graduations pour qu'elles apparaissent à l'intérieur de la zone de tracé du graphique.
 axis.MajorTickMark = AxisTickMark.Inside;
 axis.MinorTickMark = AxisTickMark.Inside;
 
-// Définissez les limites de l'axe X de sorte que l'axe X s'étende sur 5 repères majeurs et 12 repères mineurs.
+// Définissez les limites de l'axe X de sorte que l'axe X s'étende sur 5 graduations principales et 12 graduations mineures.
 axis.Scaling.Minimum = new AxisBound(-10);
 axis.Scaling.Maximum = new AxisBound(30);
 axis.TickLabelAlignment = ParagraphAlignment.Right;
 
 Assert.AreEqual(1, axis.TickLabelSpacing);
 
-// Définissez les étiquettes de graduation pour afficher leur valeur en millions.
+// Définit les étiquettes de graduation pour afficher leur valeur en millions.
 axis.DisplayUnit.Unit = AxisBuiltInUnit.Millions;
 
-// Nous pouvons définir une valeur plus spécifique par laquelle les étiquettes de coche afficheront leurs valeurs.
+// Nous pouvons définir une valeur plus spécifique par laquelle les étiquettes de ticks afficheront leurs valeurs.
 // Cette instruction est équivalente à celle ci-dessus.
 axis.DisplayUnit.CustomUnit = 1000000;
 doc.Save(ArtifactsDir + "Charts.AxisDisplayUnit.docx");

@@ -45,7 +45,7 @@ foreach (DocumentProperty docProperty in doc.BuiltInDocumentProperties)
 }
 ```
 
-Mostra come lavorare con le proprietà personalizzate di un documento.
+Mostra come utilizzare le proprietà personalizzate di un documento.
 
 ```csharp
 Document doc = new Document();
@@ -53,7 +53,7 @@ CustomDocumentProperties properties = doc.CustomDocumentProperties;
 
 Assert.AreEqual(0, properties.Count);
 
-// Le proprietà del documento personalizzate sono coppie chiave-valore che possiamo aggiungere al documento.
+// Le proprietà personalizzate del documento sono coppie chiave-valore che possiamo aggiungere al documento.
 properties.Add("Authorized", true);
 properties.Add("Authorized By", "John Doe");
 properties.Add("Authorized Date", DateTime.Today);
@@ -94,7 +94,7 @@ properties.Remove("Authorized Revision");
 Assert.False(properties.Contains("Authorized Revision"));
 Assert.AreEqual(3, properties.Count);
 
-// 3 - Svuota l'intera collezione in una volta:
+// 3 - Svuota l'intera raccolta in una volta:
 properties.Clear();
 
 Assert.AreEqual(0, properties.Count);

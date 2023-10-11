@@ -22,13 +22,11 @@ public void Add(Node node)
 
 | eccezione | condizione |
 | --- | --- |
-| NotSupportedException | Il **NodeCollection** è una collezione "profonda". |
+| NotSupportedException | IL[`NodeCollection`](../) è una collezione "profonda". |
 
 ### Osservazioni
 
 Il nodo viene inserito come figlio nell'oggetto nodo da cui è stata creata la raccolta.
-
-Se il newChild è già nell'albero, viene prima rimosso.
 
 Se il nodo da inserire è stato creato da un altro documento, dovresti usare [`ImportNode`](../../documentbase/importnode/) per importare il nodo nel documento corrente. Il nodo importato può quindi essere inserito nel documento corrente.
 

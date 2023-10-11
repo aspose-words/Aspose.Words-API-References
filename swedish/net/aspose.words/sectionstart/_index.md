@@ -3,7 +3,7 @@ title: Enum SectionStart
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.SectionStart uppräkning. Typen av avbrott i början av avsnittet.
 type: docs
-weight: 5470
+weight: 5760
 url: /sv/net/aspose.words/sectionstart/
 ---
 ## SectionStart enumeration

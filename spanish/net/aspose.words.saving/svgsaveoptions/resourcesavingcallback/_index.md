@@ -1,14 +1,14 @@
 ---
 title: SvgSaveOptions.ResourceSavingCallback
 second_title: Referencia de API de Aspose.Words para .NET
-description: SvgSaveOptions propiedad. Permite controlar cómo se guardan los recursos imágenes cuando un documento se exporta a formato SVG.
+description: SvgSaveOptions propiedad. Permite controlar cómo se guardan los recursos imágenes cuando se exporta un documento a formato SVG.
 type: docs
 weight: 40
 url: /es/net/aspose.words.saving/svgsaveoptions/resourcesavingcallback/
 ---
 ## SvgSaveOptions.ResourceSavingCallback property
 
-Permite controlar cómo se guardan los recursos (imágenes) cuando un documento se exporta a formato SVG.
+Permite controlar cómo se guardan los recursos (imágenes) cuando se exporta un documento a formato SVG.
 
 ```csharp
 public IResourceSavingCallback ResourceSavingCallback { get; set; }
@@ -40,7 +40,7 @@ public void SvgResourceFolder()
 }
 
 /// <summary>
-/// Cuenta e imprime los URI de los recursos contenidos en cuando se convierten a .svg.
+/// Cuenta e imprime los URI de los recursos contenidos en a medida que se convierten a .svg.
 /// </summary>
 private class ResourceUriPrinter : IResourceSavingCallback
 {

@@ -1,14 +1,14 @@
 ---
 title: CleanupOptions.DuplicateStyle
 second_title: Référence de l'API Aspose.Words pour .NET
-description: CleanupOptions propriété. Obtient/définit un indicateur indiquant si les styles en double doivent être supprimés du document. La valeur par défaut est faux .
+description: CleanupOptions propriété. Obtient/définit un indicateur indiquant si les styles en double doivent être supprimés du document. La valeur par défaut estFAUX .
 type: docs
 weight: 20
 url: /fr/net/aspose.words/cleanupoptions/duplicatestyle/
 ---
 ## CleanupOptions.DuplicateStyle property
 
-Obtient/définit un indicateur indiquant si les styles en double doivent être supprimés du document. La valeur par défaut est **faux** .
+Obtient/définit un indicateur indiquant si les styles en double doivent être supprimés du document. La valeur par défaut est`FAUX` .
 
 ```csharp
 public bool DuplicateStyle { get; set; }
@@ -21,8 +21,8 @@ Montre comment supprimer les styles dupliqués du document.
 ```csharp
 Document doc = new Document();
 
-// Ajoute deux styles au document avec des propriétés identiques,
-// mais des noms différents. Le deuxième style est considéré comme un doublon du premier.
+// Ajout de deux styles au document avec des propriétés identiques,
+// mais des noms différents. Le deuxième style est considéré comme un double du premier.
 Style myStyle = doc.Styles.Add(StyleType.Paragraph, "MyStyle1");
 myStyle.Font.Size = 14;
 myStyle.Font.Name = "Courier New";
@@ -35,7 +35,7 @@ duplicateStyle.Font.Color = Color.Blue;
 
 Assert.AreEqual(6, doc.Styles.Count);
 
-// Appliquez les deux styles à différents paragraphes du document.
+// Applique les deux styles à différents paragraphes du document.
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.ParagraphFormat.StyleName = myStyle.Name;
 builder.Writeln("Hello world!");

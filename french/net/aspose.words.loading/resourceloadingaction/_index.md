@@ -3,12 +3,14 @@ title: Enum ResourceLoadingAction
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Aspose.Words.Loading.ResourceLoadingAction énumération. Spécifie le mode de chargement des ressources.
 type: docs
-weight: 3480
+weight: 3680
 url: /fr/net/aspose.words.loading/resourceloadingaction/
 ---
 ## ResourceLoadingAction enumeration
 
 Spécifie le mode de chargement des ressources.
+
+Pour en savoir plus, visitez le[Spécifier les options de chargement](https://docs.aspose.com/words/net/specify-load-options/) article documentaire.
 
 ```csharp
 public enum ResourceLoadingAction
@@ -20,13 +22,14 @@ public enum ResourceLoadingAction
 | --- | --- | --- |
 | Default | `0` | Aspose.Words chargera cette ressource comme d'habitude. |
 | Skip | `1` | Aspose.Words ignorera le chargement de cette ressource. Seul le lien sans données sera stocké pour une image, la feuille de style CSS sera ignorée pour le format HTML. |
-| UserProvided | `2` | Aspose.Words utilisera le tableau d'octets fourni par l'utilisateur dans[`SetData`](../resourceloadingargs/setdata/) en tant que données de ressource. |
+| UserProvided | `2` | Aspose.Words utilisera le tableau d'octets fourni par l'utilisateur dans[`SetData`](../resourceloadingargs/setdata/) comme données de ressources. |
 
 ### Exemples
 
 Montre comment personnaliser le processus de chargement de ressources externes dans un document.
 
 ```csharp
+public void ResourceLoadingCallback()
 {
     Document doc = new Document();
     doc.ResourceLoadingCallback = new ImageNameHandler();
@@ -34,7 +37,7 @@ Montre comment personnaliser le processus de chargement de ressources externes d
     DocumentBuilder builder = new DocumentBuilder(doc);
 
     // Les images sont généralement insérées à l'aide d'un URI ou d'un tableau d'octets.
-    // Chaque instance d'un chargement de ressources appellera la méthode ResourceLoading de notre rappel.
+    // Chaque instance d'un chargement de ressource appellera la méthode ResourceLoading de notre rappel.
     builder.InsertImage("Google logo");
     builder.InsertImage("Aspose logo");
     builder.InsertImage("Watermark");
@@ -42,9 +45,10 @@ Montre comment personnaliser le processus de chargement de ressources externes d
     Assert.AreEqual(3, doc.GetChildNodes(NodeType.Shape, true).Count);
 
     doc.Save(ArtifactsDir + "DocumentBase.ResourceLoadingCallback.docx");
+}
 
 /// <summary>
-/// Nous permet de charger des images dans un document en utilisant des raccourcis prédéfinis, par opposition aux URI.
+/// Nous permet de charger des images dans un document à l'aide de raccourcis prédéfinis, par opposition aux URI.
 /// Cela séparera la logique de chargement de l'image du reste de la construction du document.
 /// </summary>
 private class ImageNameHandler : IResourceLoadingCallback
@@ -59,7 +63,7 @@ private class ImageNameHandler : IResourceLoadingCallback
                 case "Google logo":
                     using (WebClient webClient = new WebClient())
                     {
-                        args.SetData(webClient.DownloadData("http://www.google.com/images/logos/ps_logo2.png") );
+                        args.SetData(webClient.DownloadData("http://www.google.com/images/logos/ps_logo2.png"));
                     }
 
                     return ResourceLoadingAction.UserProvided;

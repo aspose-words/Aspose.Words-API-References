@@ -16,21 +16,21 @@ public IMailMergeDataSource GetChildDataSource(string tableName)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| tableName | String | Le nom de la région de fusion et publipostage tel qu'il est spécifié dans le modèle de document. Insensible à la casse. |
+| tableName | String | Nom de la région de publipostage tel que spécifié dans le document modèle. Insensible à la casse. |
 
 ### Return_Value
 
-Un objet de source de données qui donnera accès aux enregistrements de données de la table spécifiée.
+Un objet source de données qui donnera accès aux enregistrements de données de la table spécifiée.
 
 ### Remarques
 
-Lorsque les moteurs de publipostage Aspose.Words remplissent une région de publipostage avec des données et rencontrent le début d'une région de publipostage nested sous la forme de MERGEFIELD TableStart:TableName, il appelle`GetChildDataSource` sur l'objet source de données current . Votre implémentation doit renvoyer un nouvel objet de source de données qui donnera accès aux enregistrements child de l'enregistrement parent actuel. Aspose.Words utilisera la source de données renvoyée pour remplir la région de publipostage imbriquée.
+Lorsque les moteurs de publipostage Aspose.Words remplissent une région de publipostage avec des données et rencontrent le début d'une région de publipostage imbriquée sous la forme de MERGEFIELD TableStart:TableName, il invoque`GetChildDataSource` sur l'objet source de données current . Votre implémentation doit renvoyer un nouvel objet source de données qui donnera accès aux enregistrements child de l'enregistrement parent actuel. Aspose.Words utilisera la source de données renvoyée pour remplir la région de publipostage imbriquée.
 
 Vous trouverez ci-dessous les règles que la mise en œuvre de`GetChildDataSource` doit suivre.
 
-Si la table représentée par cet objet de source de données a une table enfant (détail) associée avec le nom spécifié, , votre implémentation doit alors renvoyer un nouveau[`IMailMergeDataSource`](../) objet qui fournira access aux enregistrements enfants de l'enregistrement actuel. Un exemple de ceci est la relation Orders / OrderDetails. Supposons que le courant[`IMailMergeDataSource`](../) object représente la table Commandes et possède un enregistrement de commande en cours. Ensuite, Aspose.Words rencontre "MERGEFIELD TableStart:OrderDetails" dans le document et appelle`GetChildDataSource` . Vous devez créer et retourner un[`IMailMergeDataSource`](../) objet qui permettra à Aspose.Words d'accéder à l'enregistrement OrderDetails pour la commande en cours.
+Si la table représentée par cet objet source de données a une table enfant (détail) associée avec le nom spécifié, alors votre implémentation doit renvoyer un nouveau[`IMailMergeDataSource`](../)objet qui fournira access aux enregistrements enfants de l'enregistrement actuel. Un exemple de ceci est la relation Orders / OrderDetails. Supposons que le courant[`IMailMergeDataSource`](../) object représente la table Commandes et possède un enregistrement de commande actuel. Ensuite, Aspose.Words rencontre "MERGEFIELD TableStart:OrderDetails" dans le document et invoque`GetChildDataSource` . Vous devez créer et renvoyer un[`IMailMergeDataSource`](../) Objet qui permettra à Aspose.Words d'accéder à l'enregistrement OrderDetails pour la commande en cours.
 
-Si cet objet de source de données n'a pas de relation avec la table avec le nom spécifié, alors vous devez return a[`IMailMergeDataSource`](../)objet qui donnera accès à tous les enregistrements de la table spécifiée.
+Si cet objet source de données n'a pas de relation avec la table portant le nom spécifié, vous devez alors renvoyer un[`IMailMergeDataSource`](../) objet qui donnera accès à tous les enregistrements de la table spécifiée.
 
 Si une table portant le nom spécifié n'existe pas, votre implémentation doit renvoyer`nul` .
 
@@ -47,11 +47,13 @@ public void CustomDataSource()
     builder.InsertParagraph();
     builder.InsertField(" MERGEFIELD Address ");
 
-    List<Customer> customers = new List<Customer>();
-    customers.Add(new Customer("Thomas Hardy", "120 Hanover Sq., London"));
-    customers.Add(new Customer("Paolo Accorti", "Via Monte Bianco 34, Torino"));
+    List<Customer> customers = new List<Customer>
+    {
+        new Customer("Thomas Hardy", "120 Hanover Sq., London"),
+        new Customer("Paolo Accorti", "Via Monte Bianco 34, Torino")
+    };
 
-    // Pour utiliser un objet personnalisé comme source de données, il doit implémenter l'interface IMailMergeDataSource. 
+     // Pour utiliser un objet personnalisé comme source de données, il doit implémenter l'interface IMailMergeDataSource.
     CustomerMailMergeDataSource dataSource = new CustomerMailMergeDataSource(customers);
 
     doc.MailMerge.Execute(dataSource);
@@ -75,8 +77,8 @@ public class Customer
 }
 
 /// <summary>
-/// Une source de données de publipostage personnalisée que vous implémentez pour autoriser Aspose.Words 
-/// pour fusionner les données de vos objets Customer dans des documents Microsoft Word.
+ /// Une source de données de publipostage personnalisée que vous implémentez pour autoriser Aspose.Words
+/// pour fusionner les données de vos objets Client dans des documents Microsoft Word.
 /// </summary>
 public class CustomerMailMergeDataSource : IMailMergeDataSource
 {
@@ -89,7 +91,7 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
     }
 
     /// <summary>
-    /// Le nom de la source de données. Utilisé par Aspose.Words uniquement lors de l'exécution d'un publipostage avec des régions répétables.
+    /// Le nom de la source de données. Utilisé par Aspose.Words uniquement lors de l’exécution d’un publipostage avec des régions répétables.
     /// </summary>
     public string TableName
     {

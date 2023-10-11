@@ -16,7 +16,7 @@ public string DisplayResult { get; }
 
 ### Observaciones
 
-El[`UpdateListLabels`](../../../aspose.words/document/updatelistlabels/) se debe llamar al método para obtener el valor correcto para the [`FieldListNum`](../../fieldlistnum/) ,[`FieldAutoNum`](../../fieldautonum/) ,[`FieldAutoNumOut`](../../fieldautonumout/) y[`FieldAutoNumLgl`](../../fieldautonumlgl/) campos.
+El[`UpdateListLabels`](../../../aspose.words/document/updatelistlabels/) Se debe llamar al método para obtener el valor correcto para the [`FieldListNum`](../../fieldlistnum/) ,[`FieldAutoNum`](../../fieldautonum/) ,[`FieldAutoNumOut`](../../fieldautonumout/) y[`FieldAutoNumLgl`](../../fieldautonumlgl/) campos.
 
 ### Ejemplos
 
@@ -31,12 +31,12 @@ FieldAuthor fieldAuthor = (FieldAuthor)builder.InsertField(FieldType.FieldAuthor
 fieldAuthor.AuthorName = "John Doe";
 
 // Podemos usar la propiedad DisplayResult para verificar qué texto exacto
-// un campo se mostraría en su lugar en el documento.
+// se mostrará un campo en su lugar en el documento.
 Assert.AreEqual(string.Empty, fieldAuthor.DisplayResult);
 
-  // Los campos no mantienen valores de resultados precisos en tiempo real.
-// Para asegurarnos de que nuestros campos muestren resultados precisos en cualquier momento,
-// como justo antes de una operación de guardado, necesitamos actualizarlos manualmente.
+ // Los campos no mantienen valores de resultados precisos en tiempo real.
+// Para asegurarnos de que nuestros campos muestren resultados precisos en cualquier momento dado,
+// como justo antes de una operación de guardar, debemos actualizarlos manualmente.
 fieldAuthor.Update();
 
 Assert.AreEqual("John Doe", fieldAuthor.DisplayResult);

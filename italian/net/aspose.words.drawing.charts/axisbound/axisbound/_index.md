@@ -16,7 +16,7 @@ public AxisBound()
 
 ### Esempi
 
-Mostra come impostare i limiti dell'asse personalizzati.
+Mostra come impostare i limiti degli assi personalizzati.
 
 ```csharp
 Document doc = new Document();
@@ -25,21 +25,21 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape chartShape = builder.InsertChart(ChartType.Scatter, 450, 300);
 Chart chart = chartShape.Chart;
 
-// Cancella la serie di dati demo del grafico per iniziare con un grafico pulito.
+// Cancella le serie di dati dimostrativi del grafico per iniziare con un grafico pulito.
 chart.Series.Clear();
 
-// Aggiungi una serie con due array decimali. Il primo array contiene i valori X,
+// Aggiunge una serie con due array decimali. Il primo array contiene i valori X,
 // e il secondo contiene i valori Y corrispondenti per i punti nel grafico a dispersione.
 chart.Series.Add("Series 1", 
     new[] { 1.1, 5.4, 7.9, 3.5, 2.1, 9.7 }, 
     new[] { 2.1, 0.3, 0.6, 3.3, 1.4, 1.9 });
 
 // Per impostazione predefinita, il ridimensionamento predefinito viene applicato agli assi X e Y del grafico,
-// in modo che entrambi i loro intervalli siano abbastanza grandi da comprendere ogni valore X e Y di ogni serie.
+// in modo che entrambi gli intervalli siano sufficientemente grandi da comprendere ogni valore X e Y di ogni serie.
 Assert.True(chart.AxisX.Scaling.Minimum.IsAuto);
 
-// Possiamo definire i nostri limiti dell'asse.
-// In questo caso, faremo in modo che i righelli dell'asse X e Y mostrino un intervallo da 0 a 10.
+// Possiamo definire i limiti dei nostri assi.
+// In questo caso, faremo in modo che i righelli dell'asse X e Y mostrino un intervallo compreso tra 0 e 10.
 chart.AxisX.Scaling.Minimum = new AxisBound(0);
 chart.AxisX.Scaling.Maximum = new AxisBound(10);
 chart.AxisY.Scaling.Minimum = new AxisBound(0);
@@ -62,9 +62,9 @@ DateTime[] dates = { new DateTime(1973, 5, 11),
 
 chart.Series.Add("Series 1", dates, new[] { 3.0, 4.7, 5.9, 7.1, 8.9 });
 
-// Possiamo anche impostare i limiti dell'asse sotto forma di date, limitando il grafico a un punto.
-// L'impostazione dell'intervallo su 1980-1990 ometterà i due valori della serie
-// che sono al di fuori dell'intervallo del grafico.
+// Possiamo impostare i limiti degli assi anche sotto forma di date, limitando il grafico a un periodo.
+// Impostando l'intervallo su 1980-1990 verranno omessi i due valori della serie
+// che sono fuori dall'intervallo del grafico.
 chart.AxisX.Scaling.Minimum = new AxisBound(new DateTime(1980, 1, 1));
 chart.AxisX.Scaling.Maximum = new AxisBound(new DateTime(1990, 1, 1));
 
@@ -98,7 +98,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertChart(ChartType.Line, 500, 300);
 Chart chart = shape.Chart;
 
-// Cancella la serie di dati demo del grafico per iniziare con un grafico pulito.
+// Cancella le serie di dati dimostrativi del grafico per iniziare con un grafico pulito.
 chart.Series.Clear();
 
 // Aggiunge una serie personalizzata contenente valori di data/ora per l'asse X e rispettivi valori decimali per l'asse Y.
@@ -121,6 +121,8 @@ xAxis.MajorUnit = 7.0d;
 xAxis.MajorTickMark = AxisTickMark.Cross;
 xAxis.MinorUnit = 1.0d;
 xAxis.MinorTickMark = AxisTickMark.Outside;
+xAxis.HasMajorGridlines = true;
+xAxis.HasMinorGridlines = true;
 
 // Definisce le proprietà dell'asse Y per i valori decimali.
 ChartAxis yAxis = chart.AxisY;
@@ -130,6 +132,8 @@ yAxis.MinorUnit = 50.0d;
 yAxis.DisplayUnit.Unit = AxisBuiltInUnit.Hundreds;
 yAxis.Scaling.Minimum = new AxisBound(100);
 yAxis.Scaling.Maximum = new AxisBound(700);
+yAxis.HasMajorGridlines = true;
+yAxis.HasMinorGridlines = true;
 
 doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 ```
@@ -144,7 +148,7 @@ doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 
 ## AxisBound(DateTime) {#constructor_2}
 
-Crea un limite dell'asse rappresentato come valore datetime.
+Crea un limite dell'asse rappresentato come valore data/ora.
 
 ```csharp
 public AxisBound(DateTime datetime)
@@ -161,7 +165,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertChart(ChartType.Line, 500, 300);
 Chart chart = shape.Chart;
 
-// Cancella la serie di dati demo del grafico per iniziare con un grafico pulito.
+// Cancella le serie di dati dimostrativi del grafico per iniziare con un grafico pulito.
 chart.Series.Clear();
 
 // Aggiunge una serie personalizzata contenente valori di data/ora per l'asse X e rispettivi valori decimali per l'asse Y.
@@ -184,6 +188,8 @@ xAxis.MajorUnit = 7.0d;
 xAxis.MajorTickMark = AxisTickMark.Cross;
 xAxis.MinorUnit = 1.0d;
 xAxis.MinorTickMark = AxisTickMark.Outside;
+xAxis.HasMajorGridlines = true;
+xAxis.HasMinorGridlines = true;
 
 // Definisce le proprietà dell'asse Y per i valori decimali.
 ChartAxis yAxis = chart.AxisY;
@@ -193,6 +199,8 @@ yAxis.MinorUnit = 50.0d;
 yAxis.DisplayUnit.Unit = AxisBuiltInUnit.Hundreds;
 yAxis.Scaling.Minimum = new AxisBound(100);
 yAxis.Scaling.Maximum = new AxisBound(700);
+yAxis.HasMajorGridlines = true;
+yAxis.HasMinorGridlines = true;
 
 doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 ```

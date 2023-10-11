@@ -18,7 +18,7 @@ public Shape Shape { get; set; }
 
 Cuando se especifica esta propiedad, el motor de combinación de correspondencia ignora todas las demás propiedades como[`ImageFileName`](../imagefilename/) o[`ImageStream`](../imagestream/) y simplemente inserta la forma en el documento.
 
-Utilice esta propiedad para controlar por completo el proceso de fusión de un campo de fusión de imágenes. Por ejemplo, puede especificar[`WrapType`](../../../aspose.words.drawing/shapebase/wraptype/) cualquier otra propiedad de forma para afinar el nodo resultante. Sin embargo, tenga en cuenta que usted es responsable de proporcionar el contenido de la forma.
+Utilice esta propiedad para controlar completamente el proceso de combinación de un campo de combinación de imágenes. Por ejemplo, puede especificar[`WrapType`](../../../aspose.words.drawing/shapebase/wraptype/) o cualquier otra propiedad de forma para ajustar el nodo resultante. Sin embargo, tenga en cuenta que usted es responsable de proporcionar el contenido de la forma.
 
 ### Ver también
 

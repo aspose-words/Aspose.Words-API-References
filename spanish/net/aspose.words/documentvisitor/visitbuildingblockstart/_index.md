@@ -1,14 +1,14 @@
 ---
 title: DocumentVisitor.VisitBuildingBlockStart
 second_title: Referencia de API de Aspose.Words para .NET
-description: DocumentVisitor método. Llamado cuando ha comenzado la enumeración de un bloque de creación.
+description: DocumentVisitor método. Se llama cuando ha comenzado la enumeración de un bloque de construcción.
 type: docs
 weight: 70
 url: /es/net/aspose.words/documentvisitor/visitbuildingblockstart/
 ---
 ## DocumentVisitor.VisitBuildingBlockStart method
 
-Llamado cuando ha comenzado la enumeración de un bloque de creación.
+Se llama cuando ha comenzado la enumeración de un bloque de construcción.
 
 ```csharp
 public virtual VisitorAction VisitBuildingBlockStart(BuildingBlock block)
@@ -24,11 +24,11 @@ A[`VisitorAction`](../../visitoraction/) valor que especifica cómo continuar la
 
 ### Observaciones
 
-Nota: un nodo de bloque de creación y sus elementos secundarios no se visitan cuando ejecuta a Visitor sobre un[`Document`](../../document/) Si desea ejecutar un Visitante sobre un bloque de construcción , debe ejecutar el visitante sobre[`GlossaryDocument`](../../../aspose.words.buildingblocks/glossarydocument/) or llamar[`Accept`](../../../aspose.words.buildingblocks/buildingblock/accept/) .
+Nota: Un nodo de bloque de creación y sus hijos no se visitan cuando ejecuta a Visitor sobre un[`Document`](../../document/) . Si desea ejecutar un visitante sobre un bloque de construcción , debe ejecutar el visitante sobre[`GlossaryDocument`](../../../aspose.words.buildingblocks/glossarydocument/) or llamada[`Accept`](../../../aspose.words.buildingblocks/buildingblock/accept/) .
 
 ### Ejemplos
 
-Muestra formas de acceder a los componentes básicos en un documento de glosario.
+Muestra formas de acceder a bloques de construcción en un documento de glosario.
 
 ```csharp
 public void GlossaryDocument()
@@ -47,7 +47,7 @@ public void GlossaryDocument()
     doc.GlossaryDocument = glossaryDoc;
 
     // Hay varias formas de acceder a los bloques de construcción.
-    // 1 - Obtener los primeros/últimos bloques de construcción de la colección:
+    // 1 - Obtener el primer/último bloque de construcción de la colección:
     Assert.AreEqual("Block 1", glossaryDoc.FirstBuildingBlock.Name);
     Assert.AreEqual("Block 5", glossaryDoc.LastBuildingBlock.Name);
 
@@ -55,7 +55,7 @@ public void GlossaryDocument()
     Assert.AreEqual("Block 2", glossaryDoc.BuildingBlocks[1].Name);
     Assert.AreEqual("Block 3", glossaryDoc.BuildingBlocks.ToArray()[2].Name);
 
-    // 3 - Obtenga el primer bloque de construcción que coincida con una galería, nombre y categoría:
+    // 3 - Obtener el primer bloque de construcción que coincida con una galería, nombre y categoría:
     Assert.AreEqual("Block 4", 
         glossaryDoc.GetBuildingBlock(BuildingBlockGallery.All, "(Empty Category)", "Block 4").Name);
 
@@ -63,16 +63,15 @@ public void GlossaryDocument()
     // que le dará a cada BuildingBlock en el GlossaryDocument un GUID único
     GlossaryDocVisitor visitor = new GlossaryDocVisitor();
     glossaryDoc.Accept(visitor);
-
     Console.WriteLine(visitor.GetText());
 
-    // En Microsoft Word, podemos acceder a los bloques de construcción a través de "Insertar" -> "Piezas rápidas" -> "Organizador de bloques de construcción".
+    // En Microsoft Word, podemos acceder a los bloques de construcción mediante "Insertar" -> "Partes rápidas" -> "Organizador de bloques de construcción".
     doc.Save(ArtifactsDir + "BuildingBlocks.GlossaryDocument.dotx"); 
 }
 
 /// <summary>
-/// Otorga a cada bloque de creación de un documento de glosario visitado un GUID único.
-/// Almacena los pares de bloques de creación de GUID en un diccionario.
+/// Proporciona a cada bloque de construcción de un documento de glosario visitado un GUID único.
+/// Almacena los pares de bloques de construcción GUID en un diccionario.
 /// </summary>
 public class GlossaryDocVisitor : DocumentVisitor
 {

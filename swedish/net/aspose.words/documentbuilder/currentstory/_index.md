@@ -1,14 +1,14 @@
 ---
 title: DocumentBuilder.CurrentStory
 second_title: Aspose.Words för .NET API Referens
-description: DocumentBuilder fast egendom. Hämtar berättelsen som för närvarande är vald i denna DocumentBuilder.
+description: DocumentBuilder fast egendom. Hämtar berättelsen som för närvarande är vald i dennaDocumentBuilder .
 type: docs
 weight: 70
 url: /sv/net/aspose.words/documentbuilder/currentstory/
 ---
 ## DocumentBuilder.CurrentStory property
 
-Hämtar berättelsen som för närvarande är vald i denna DocumentBuilder.
+Hämtar berättelsen som för närvarande är vald i denna[`DocumentBuilder`](../) .
 
 ```csharp
 public Story CurrentStory { get; }

@@ -20,15 +20,15 @@ Cet éditeur peut être stocké sous l'une des formes suivantes :
 
 DOMAIN\Username - pour les utilisateurs dont l'accès doit être authentifié à l'aide des informations d'identification de domaine de l'utilisateur actuel.
 
-user@domain.com - pour les utilisateurs dont l'accès doit être authentifié en utilisant l'adresse e-mail de l'utilisateur comme informations d'identification.
+user@domain.com - pour les utilisateurs dont l'accès doit être authentifié en utilisant l'adresse e-mail de l'utilisateur comme identifiant.
 
-user - pour les utilisateurs dont l'accès doit être authentifié à l'aide des informations d'identification de la machine de l'utilisateur actuel.
+utilisateur - pour les utilisateurs dont l'accès doit être authentifié à l'aide des informations d'identification de la machine de l'utilisateur actuel.
 
 Un seul utilisateur et un groupe d'éditeurs ne peuvent pas être définis simultanément pour la plage modifiable spécifique, si l'un est défini, l'autre sera clair.
 
 ### Exemples
 
-Montre comment limiter les droits de modification des plages modifiables à un groupe/utilisateur spécifique.
+Montre comment limiter les droits d'édition des plages modifiables à un groupe/utilisateur spécifique.
 
 ```csharp
 public void Visitor()
@@ -60,7 +60,7 @@ public void Visitor()
 
     builder.Writeln("This paragraph is outside the editable range, and cannot be edited by anybody.");
 
-    // Affiche les détails et le contenu de chaque plage modifiable du document.
+    // Imprimer les détails et le contenu de chaque plage modifiable du document.
     EditableRangePrinter editableRangePrinter = new EditableRangePrinter();
 
     doc.Accept(editableRangePrinter);
@@ -120,7 +120,7 @@ public class EditableRangePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Appelé lorsqu'un noeud Run est rencontré dans le document. Ce visiteur n'enregistre que les exécutions qui se trouvent dans des plages modifiables.
+    /// Appelé lorsqu'un nœud Run est rencontré dans le document. Ce visiteur enregistre uniquement les exécutions situées dans des plages modifiables.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {

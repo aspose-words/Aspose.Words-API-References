@@ -16,7 +16,7 @@ public void RemoveField()
 
 ### Notlar
 
-Form alanıyla ilişkili bir yer imi varsa, yer imi kaldırılmaz.
+Form alanıyla ilişkilendirilmiş bir yer imi varsa yer imi kaldırılmaz.
 
 ### Örnekler
 

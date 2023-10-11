@@ -1,14 +1,14 @@
 ---
 title: BorderCollection.Horizontal
 second_title: Aspose.Words لمراجع .NET API
-description: BorderCollection ملكية. الحصول على الحد الأفقي المستخدم بين الخلايا أو مطابقة الفقرات.
+description: BorderCollection ملكية. يحصل على الحد الأفقي المستخدم بين الخلايا أو الفقرات المطابقة.
 type: docs
 weight: 50
 url: /ar/net/aspose.words/bordercollection/horizontal/
 ---
 ## BorderCollection.Horizontal property
 
-الحصول على الحد الأفقي المستخدم بين الخلايا أو مطابقة الفقرات.
+يحصل على الحد الأفقي المستخدم بين الخلايا أو الفقرات المطابقة.
 
 ```csharp
 public Border Horizontal { get; }
@@ -22,17 +22,17 @@ public Border Horizontal { get; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// إنشاء حد أفقي أحمر للفقرة. أي فقرات يتم إنشاؤها بعد ذلك سوف ترث إعدادات الحدود هذه.
+// قم بإنشاء حد أفقي أحمر للفقرة. أي فقرات تم إنشاؤها بعد ذلك سوف ترث إعدادات الحدود هذه.
 BorderCollection borders = doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Borders;
 borders.Horizontal.Color = Color.Red;
 borders.Horizontal.LineStyle = LineStyle.DashSmallGap;
 borders.Horizontal.LineWidth = 3;
 
-// اكتب نصًا إلى المستند دون إنشاء فقرة جديدة بعد ذلك.
-// نظرًا لعدم وجود فقرة أسفلها ، لن يكون الحد الأفقي مرئيًا.
+// اكتب نصًا في المستند دون إنشاء فقرة جديدة بعد ذلك.
+// نظرًا لعدم وجود فقرة أسفلها، لن يكون الحد الأفقي مرئيًا.
 builder.Write("Paragraph above horizontal border.");
 
-// بمجرد إضافة فقرة ثانية ، ستصبح حدود الفقرة الأولى مرئية.
+// بمجرد إضافة فقرة ثانية، ستصبح حدود الفقرة الأولى مرئية.
 builder.InsertParagraph();
 builder.Write("Paragraph below horizontal border.");
 
@@ -45,7 +45,7 @@ doc.Save(ArtifactsDir + "Border.HorizontalBorders.docx");
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// قم بإنشاء جدول بحدود داخلية باللونين الأحمر والأزرق.
+// أنشئ جدولًا بحدود داخلية حمراء وزرقاء.
 Table table = builder.StartTable();
 
 for (int i = 0; i < 3; i++)
@@ -58,12 +58,12 @@ for (int i = 0; i < 3; i++)
     Row row = builder.EndRow();
     BorderCollection borders = row.RowFormat.Borders;
 
-    // ضبط مظهر الحدود التي ستظهر بين الصفوف.
+    // اضبط مظهر الحدود التي ستظهر بين الصفوف.
     borders.Horizontal.Color = Color.Red;
     borders.Horizontal.LineStyle = LineStyle.Dot;
     borders.Horizontal.LineWidth = 2.0d;
 
-    // ضبط مظهر الحدود التي ستظهر بين الخلايا.
+    // اضبط مظهر الحدود التي ستظهر بين الخلايا.
     borders.Vertical.Color = Color.Blue;
     borders.Vertical.LineStyle = LineStyle.Dot;
     borders.Vertical.LineWidth = 2.0d;

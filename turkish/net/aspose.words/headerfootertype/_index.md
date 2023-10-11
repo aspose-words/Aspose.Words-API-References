@@ -1,14 +1,14 @@
 ---
 title: Enum HeaderFooterType
 second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.HeaderFooterType Sıralama. Bir Word dosyasında bulunan üst bilgi veya alt bilgi türünü tanımlar.
+description: Aspose.Words.HeaderFooterType Sıralama. Word dosyasında bulunan üstbilgi veya altbilginin türünü tanımlar.
 type: docs
-weight: 2940
+weight: 3120
 url: /tr/net/aspose.words/headerfootertype/
 ---
 ## HeaderFooterType enumeration
 
-Bir Word dosyasında bulunan üst bilgi veya alt bilgi türünü tanımlar.
+Word dosyasında bulunan üstbilgi veya altbilginin türünü tanımlar.
 
 ```csharp
 public enum HeaderFooterType
@@ -19,15 +19,15 @@ public enum HeaderFooterType
 | İsim | Değer | Tanım |
 | --- | --- | --- |
 | HeaderEven | `0` | Çift sayılı sayfalar için başlık. |
-| HeaderPrimary | `1` | Birincil başlık, tek numaralı sayfalar için de kullanılır. |
-| FooterEven | `2` | Çift sayılı sayfalar için alt bilgi. |
-| FooterPrimary | `3` | Birincil altbilgi, tek numaralı sayfalar için de kullanılır. |
-| HeaderFirst | `4` | Bölümün ilk sayfası için başlık. |
+| HeaderPrimary | `1` | Birincil başlık, tek sayılı sayfalar için de kullanılır. |
+| FooterEven | `2` | Çift sayılı sayfalar için altbilgi. |
+| FooterPrimary | `3` | Birincil altbilgi, tek sayılı sayfalar için de kullanılır. |
+| HeaderFirst | `4` | Bölümün ilk sayfasının başlığı. |
 | FooterFirst | `5` | Bölümün ilk sayfası için alt bilgi. |
 
 ### Örnekler
 
-DocumentBuilder kullanılarak bir belgede nasıl üstbilgi ve altbilgi oluşturulacağını gösterir.
+DocumentBuilder'ı kullanarak bir belgede üstbilgilerin ve altbilgilerin nasıl oluşturulacağını gösterir.
 
 ```csharp
 Document doc = new Document();

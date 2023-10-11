@@ -32,7 +32,7 @@ builder.InsertShape(ShapeType.DiagonalCornersRounded, 50, 50);
 
 // Si necesita crear formas "no primitivas", como SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
 // TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded o DiagonalCornersRounded,
-// luego guarde el documento con cumplimiento "Estricto" o "Transicional", lo que permite guardar la forma como DML.
+// luego guarda el documento con cumplimiento "Estricto" o "Transicional", lo que permite guardar la forma como DML.
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(SaveFormat.Docx);
 saveOptions.Compliance = OoxmlCompliance.Iso29500_2008_Transitional;
 
@@ -50,8 +50,8 @@ doc.Lists.Add(ListTemplate.NumberDefault);
 Aspose.Words.Lists.List list = doc.Lists[0];
 list.IsRestartAtEachSection = restartListAtEachSection;
 
-// La propiedad "IsRestartAtEachSection" solo será aplicable cuando
-// el nivel de cumplimiento de OOXML del documento corresponde a un estándar más nuevo que "OoxmlComplianceCore.Ecma376".
+// La propiedad "IsRestartAtEachSection" sólo será aplicable cuando
+// el nivel de cumplimiento OOXML del documento es un estándar más reciente que "OoxmlComplianceCore.Ecma376".
 OoxmlSaveOptions options = new OoxmlSaveOptions
 {
     Compliance = OoxmlCompliance.Iso29500_2008_Transitional
@@ -86,8 +86,8 @@ builder.InsertImage(ImageDir + "Transparent background logo.png");
 Assert.AreEqual(ShapeMarkupLanguage.Vml, ((Shape)doc.GetChild(NodeType.Shape, 0, true)).MarkupLanguage);
 
 // El estándar OOXML "ISO/IEC 29500:2008" no admite formas VML.
-// Si establecemos la propiedad "Compliance" del objeto SaveOptions en "OoxmlCompliance.Iso29500_2008_Strict",
-  // cualquier documento que guardemos al pasar este objeto tendrá que seguir ese estándar.
+// Si configuramos la propiedad "Cumplimiento" del objeto SaveOptions en "OoxmlCompliance.Iso29500_2008_Strict",
+ // cualquier documento que guardemos al pasar este objeto tendrá que seguir ese estándar.
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions
 {
     Compliance = OoxmlCompliance.Iso29500_2008_Strict,

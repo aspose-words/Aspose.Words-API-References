@@ -3,7 +3,7 @@ title: PdfSaveOptions.CustomPropertiesExport
 second_title: Référence de l'API Aspose.Words pour .NET
 description: PdfSaveOptions propriété. Obtient ou définit une valeur déterminant la manièreCustomDocumentProperties sont exportés vers un fichier PDF.
 type: docs
-weight: 50
+weight: 60
 url: /fr/net/aspose.words.saving/pdfsaveoptions/custompropertiesexport/
 ---
 ## PdfSaveOptions.CustomPropertiesExport property
@@ -18,7 +18,7 @@ public PdfCustomPropertiesExport CustomPropertiesExport { get; set; }
 
 La valeur par défaut estNone.
 
-Metadata la valeur n'est pas prise en charge lors de l'enregistrement au format PDF/A. Standard sera utilisé à la place pour PDF/A-1 et PDF/A-2 and None pour PDF/A-4.
+Metadata la valeur n'est pas prise en charge lors de l'enregistrement au format PDF/A. Standard sera utilisé à la place pour PDF/A-1 et PDF/A-2 et None pour PDF/A-4.
 
 Standard la valeur n'est pas prise en charge lors de l'enregistrement au format PDF 2.0. Metadata sera utilisé à la place.
 
@@ -31,13 +31,13 @@ Document doc = new Document();
 
 doc.CustomDocumentProperties.Add("Company", "My value");
 
-// Crée un objet "PdfSaveOptions" que nous pouvons passer à la méthode "Save" du document
+// Crée un objet "PdfSaveOptions" que l'on peut passer à la méthode "Save" du document
 // pour modifier la façon dont cette méthode convertit le document en .PDF.
 PdfSaveOptions options = new PdfSaveOptions();
 
 // Définissez la propriété "CustomPropertiesExport" sur "PdfCustomPropertiesExport.None" pour la supprimer
- // propriétés de document personnalisées lorsque nous enregistrons le document au format .PDF.
-// Définissez la propriété "CustomPropertiesExport" sur "PdfCustomPropertiesExport.Standard"
+// Propriétés personnalisées du document lorsque nous enregistrons le document au format .PDF.
+// Définit la propriété "CustomPropertiesExport" sur "PdfCustomPropertiesExport.Standard"
 // pour conserver les propriétés personnalisées dans le document PDF de sortie.
 // Définissez la propriété "CustomPropertiesExport" sur "PdfCustomPropertiesExport.Metadata"
 // pour conserver les propriétés personnalisées dans un paquet XMP.

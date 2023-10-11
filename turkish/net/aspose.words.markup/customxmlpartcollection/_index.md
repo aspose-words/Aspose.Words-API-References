@@ -1,14 +1,16 @@
 ---
 title: Class CustomXmlPartCollection
 second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Markup.CustomXmlPartCollection sınıf. Özel XML Parçaları koleksiyonunu temsil eder. öğelerCustomXmlPart nesneler.
+description: Aspose.Words.Markup.CustomXmlPartCollection sınıf. Özel XML Parçalarının bir koleksiyonunu temsil eder. ÖğelerCustomXmlPart nesneler.
 type: docs
-weight: 3690
+weight: 3930
 url: /tr/net/aspose.words.markup/customxmlpartcollection/
 ---
 ## CustomXmlPartCollection class
 
-Özel XML Parçaları koleksiyonunu temsil eder. öğeler[`CustomXmlPart`](../customxmlpart/) nesneler.
+Özel XML Parçalarının bir koleksiyonunu temsil eder. Öğeler[`CustomXmlPart`](../customxmlpart/) nesneler.
+
+Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Yapılandırılmış Belge Etiketleri veya İçerik Kontrolü](https://docs.aspose.com/words/net/working-with-content-control-sdt/) dokümantasyon makalesi.
 
 ```csharp
 public class CustomXmlPartCollection : IEnumerable<CustomXmlPart>
@@ -24,7 +26,7 @@ public class CustomXmlPartCollection : IEnumerable<CustomXmlPart>
 
 | İsim | Tanım |
 | --- | --- |
-| [Count](../../aspose.words.markup/customxmlpartcollection/count/) { get; } | Koleksiyonda bulunan öğelerin sayısını alır. |
+| [Count](../../aspose.words.markup/customxmlpartcollection/count/) { get; } | Koleksiyonda yer alan öğelerin sayısını alır. |
 | [Item](../../aspose.words.markup/customxmlpartcollection/item/) { get; set; } | Belirtilen dizindeki bir öğeyi alır veya ayarlar. |
 
 ## yöntemler
@@ -32,16 +34,16 @@ public class CustomXmlPartCollection : IEnumerable<CustomXmlPart>
 | İsim | Tanım |
 | --- | --- |
 | [Add](../../aspose.words.markup/customxmlpartcollection/add/#add_1)(CustomXmlPart) | Koleksiyona bir öğe ekler. |
-| [Add](../../aspose.words.markup/customxmlpartcollection/add/#add)(string, string) | Belirtilen XML ile yeni bir XML bölümü oluşturur ve onu koleksiyona ekler. |
+| [Add](../../aspose.words.markup/customxmlpartcollection/add/#add)(string, string) | Belirtilen XML ile yeni bir XML parçası oluşturur ve bunu koleksiyona ekler. |
 | [Clear](../../aspose.words.markup/customxmlpartcollection/clear/)() | Koleksiyondaki tüm öğeleri kaldırır. |
-| [Clone](../../aspose.words.markup/customxmlpartcollection/clone/)() | Bu koleksiyonun ve öğelerinin derin bir kopyasını oluşturur. |
-| [GetById](../../aspose.words.markup/customxmlpartcollection/getbyid/)(string) | Tanımlayıcısına göre özel bir XML parçası bulur ve döndürür. |
-| [GetEnumerator](../../aspose.words.markup/customxmlpartcollection/getenumerator/)() | Koleksiyondaki tüm öğeler üzerinde yineleme yapmak için kullanılabilecek bir Numaralandırıcı nesnesi döndürür. |
+| [Clone](../../aspose.words.markup/customxmlpartcollection/clone/)() | Bu koleksiyonun ve içindeki öğelerin derin bir kopyasını oluşturur. |
+| [GetById](../../aspose.words.markup/customxmlpartcollection/getbyid/)(string) | Özel bir XML parçasını tanımlayıcısına göre bulur ve döndürür. |
+| [GetEnumerator](../../aspose.words.markup/customxmlpartcollection/getenumerator/)() | Koleksiyondaki tüm öğeler üzerinde yineleme yapmak için kullanılabilecek bir numaralandırıcı nesnesini döndürür. |
 | [RemoveAt](../../aspose.words.markup/customxmlpartcollection/removeat/)(int) | Belirtilen dizindeki bir öğeyi kaldırır. |
 
 ### Notlar
 
-Normalde bu sınıfın örneklerini oluşturmanız gerekmez. Bir belgede saklanan özel XML verilerine [`CustomXmlParts`](../../aspose.words/document/customxmlparts/) Emlak.
+Normalde bu sınıfın örneklerini oluşturmanıza gerek yoktur. Bir belgede saklanan özel XML verilerine erişebilirsiniz.[`CustomXmlParts`](../../aspose.words/document/customxmlparts/) mülk.
 
 ### Örnekler
 
@@ -50,9 +52,9 @@ Normalde bu sınıfın örneklerini oluşturmanız gerekmez. Bir belgede saklana
 ```csharp
 Document doc = new Document();
 
-// Veri içeren bir XML parçası oluşturun ve bunu belgenin koleksiyonuna ekleyin.
+// Veri içeren bir XML bölümü oluşturun ve onu belgenin koleksiyonuna ekleyin.
 // Microsoft Word'de "Geliştirici" sekmesini etkinleştirirsek,
-// Bu koleksiyondaki öğeleri, birkaç varsayılan öğeyle birlikte "XML Eşleme Panosu"nda bulabiliriz.
+// bu koleksiyondaki öğeleri birkaç varsayılan öğeyle birlikte "XML Eşleme Bölmesi"nde bulabiliriz.
 string xmlPartId = Guid.NewGuid().ToString("B");
 string xmlPartContent = "<root><text>Hello world!</text></root>";
 CustomXmlPart xmlPart = doc.CustomXmlParts.Add(xmlPartId, xmlPartContent);
@@ -60,14 +62,14 @@ CustomXmlPart xmlPart = doc.CustomXmlParts.Add(xmlPartId, xmlPartContent);
 Assert.AreEqual(Encoding.ASCII.GetBytes(xmlPartContent), xmlPart.Data);
 Assert.AreEqual(xmlPartId, xmlPart.Id);
 
-// Aşağıda, XML bölümlerine başvurmanın iki yolu vardır.
+// Aşağıda XML parçalarına başvurmanın iki yolu verilmiştir.
 // 1 - Özel XML parça koleksiyonundaki bir dizine göre:
 Assert.AreEqual(xmlPart, doc.CustomXmlParts[0]);
 
-// 2 - GUID ile:
+// 2 - GUID'e göre:
 Assert.AreEqual(xmlPart, doc.CustomXmlParts.GetById(xmlPartId));
 
-// Bir XML şeması ilişkilendirmesi ekleyin.
+// Bir XML şeması ilişkisi ekleyin.
 xmlPart.Schemas.Add("http://www.w3.org/2001/XMLSchema");
 
 // Bir parçayı klonlayın ve ardından onu koleksiyona ekleyin.
@@ -94,11 +96,11 @@ doc.CustomXmlParts.RemoveAt(1);
 
 Assert.AreEqual(1, doc.CustomXmlParts.Count);
 
-// XML parça koleksiyonunu klonlayın ve ardından tüm öğelerini bir kerede kaldırmak için "Temizle" yöntemini kullanın.
+// XML parça koleksiyonunu kopyalayın ve ardından tüm öğelerini bir kerede kaldırmak için "Temizle" yöntemini kullanın.
 CustomXmlPartCollection customXmlParts = doc.CustomXmlParts.Clone();
 customXmlParts.Clear();
 
-// Parçamızın içeriğini gösterecek ve onu belge gövdesine ekleyecek yapılandırılmış bir belge etiketi oluşturun.
+// Parçamızın içeriğini görüntüleyecek yapılandırılmış bir belge etiketi oluşturun ve bunu belge gövdesine ekleyin.
 StructuredDocumentTag tag = new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Block);
 tag.XmlMapping.SetMapping(xmlPart, "/root[1]/text[1]", string.Empty);
 

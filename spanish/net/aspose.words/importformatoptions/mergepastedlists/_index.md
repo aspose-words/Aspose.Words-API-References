@@ -1,14 +1,14 @@
 ---
 title: ImportFormatOptions.MergePastedLists
 second_title: Referencia de API de Aspose.Words para .NET
-description: ImportFormatOptions propiedad. Obtiene o establece un valor booleano que especifica si las listas pegadas se fusionarán con las listas circundantes. El valor predeterminado esfalso .
+description: ImportFormatOptions propiedad. Obtiene o establece un valor booleano que especifica si las listas pegadas se fusionarán con las listas circundantes. El valor predeterminado esFALSO .
 type: docs
-weight: 60
+weight: 70
 url: /es/net/aspose.words/importformatoptions/mergepastedlists/
 ---
 ## ImportFormatOptions.MergePastedLists property
 
-Obtiene o establece un valor booleano que especifica si las listas pegadas se fusionarán con las listas circundantes. El valor predeterminado es`falso` .
+Obtiene o establece un valor booleano que especifica si las listas pegadas se fusionarán con las listas circundantes. El valor predeterminado es`FALSO` .
 
 ```csharp
 public bool MergePastedLists { get; set; }
@@ -24,7 +24,7 @@ Document dstDoc = new Document(MyDir + "List destination.docx");
 
 ImportFormatOptions options = new ImportFormatOptions { MergePastedLists = true };
 
-// Establezca la propiedad "MergePastedLists" en "verdadero". Las listas pegadas se fusionarán con las listas circundantes.
+// Establece la propiedad "MergePastedLists" en "verdadero". Las listas pegadas se fusionarán con las listas circundantes.
 dstDoc.AppendDocument(srcDoc, ImportFormatMode.UseDestinationStyles, options);
 
 dstDoc.Save(ArtifactsDir + "Document.MergePastedLists.docx");

@@ -1,14 +1,14 @@
 ---
 title: FieldOptions.FieldIndexFormat
 second_title: Aspose.Words لمراجع .NET API
-description: FieldOptions ملكية. يحصل أو يحدد أFieldIndexFormat الذي يمثل تنسيق ملفFieldIndexالحقول في المستند.
+description: FieldOptions ملكية. الحصول على أو تعيين aFieldIndexFormat الذي يمثل التنسيق لـFieldIndex الحقول في الوثيقة.
 type: docs
-weight: 80
+weight: 90
 url: /ar/net/aspose.words.fields/fieldoptions/fieldindexformat/
 ---
 ## FieldOptions.FieldIndexFormat property
 
-يحصل أو يحدد أ`FieldIndexFormat` الذي يمثل تنسيق ملف[`FieldIndex`](../../fieldindex/)الحقول في المستند.
+الحصول على أو تعيين a`FieldIndexFormat` الذي يمثل التنسيق لـ[`FieldIndex`](../../fieldindex/) الحقول في الوثيقة.
 
 ```csharp
 public FieldIndexFormat FieldIndexFormat { get; set; }

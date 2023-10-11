@@ -1,16 +1,16 @@
 ---
 title: FindReplaceOptions.SmartParagraphBreakReplacement
 second_title: Aspose.Words for .NET API Referansı
-description: FindReplaceOptions mülk. Sonraki kardeş paragraf olmadığında break paragrafının değiştirilmesine izin verildiğini belirten bir boole değeri alır veya ayarlar.
+description: FindReplaceOptions mülk. Sonraki eş paragraf olmadığında break paragrafının değiştirilmesine izin verildiğini belirten bir boole değeri alır veya ayarlar.
 type: docs
-weight: 140
+weight: 160
 url: /tr/net/aspose.words.replacing/findreplaceoptions/smartparagraphbreakreplacement/
 ---
 ## FindReplaceOptions.SmartParagraphBreakReplacement property
 
-Sonraki kardeş paragraf olmadığında break paragrafının değiştirilmesine izin verildiğini belirten bir boole değeri alır veya ayarlar.
+Sonraki eş paragraf olmadığında break paragrafının değiştirilmesine izin verildiğini belirten bir boole değeri alır veya ayarlar.
 
-Varsayılan değer`yanlış`.
+Varsayılan değer:`YANLIŞ`.
 
 ```csharp
 public bool SmartParagraphBreakReplacement { get; set; }
@@ -18,7 +18,7 @@ public bool SmartParagraphBreakReplacement { get; set; }
 
 ### Notlar
 
-Bu seçenek, tüm child düğümlerinin taşınabileceği bir sonraki kardeş paragraf olmadığında, değiştirilen paragraftan sonra herhangi bir (her zaman kardeş olması gerekmez) sonraki paragrafı bularak paragraf sonunu değiştirmeye olanak tanır.
+Bu seçenek, tüm alt düğümlerinin taşınabileceği bir sonraki kardeş paragraf olmadığında, paragraf değiştirildikten sonra herhangi bir sonraki paragrafı (kardeş olması gerekmez) bularak paragraf sonunun değiştirilmesine olanak tanır.
 
 ### Örnekler
 
@@ -39,9 +39,9 @@ builder.EndTable();
 builder.Writeln();
 
 FindReplaceOptions options = new FindReplaceOptions();
-// Aşağıdaki seçenek 'true' olarak ayarlandığında, Aspose.Words paragrafın metnini kaldıracak
-// tamamen paragraf işaretiyle. Aksi takdirde, Aspose.Words Word'ü taklit edecek ve kaldıracaktır.
-// sadece paragrafın metnidir ve paragraf işaretini olduğu gibi bırakır (bir tablo metni takip ettiğinde).
+// Aşağıdaki seçenek 'true' olarak ayarlandığında Aspose.Words paragraf metnini kaldıracaktır
+// paragraf işaretiyle tamamen. Aksi takdirde Aspose.Words, Word'ü taklit edecek ve kaldıracaktır.
+// yalnızca paragrafın metni ve paragraf işaretini olduğu gibi bırakır (bir tablo metni takip ettiğinde).
 options.SmartParagraphBreakReplacement = isSmartParagraphBreakReplacement;
 doc.Range.Replace(new Regex(@"TEXT1&p"), "", options);
 

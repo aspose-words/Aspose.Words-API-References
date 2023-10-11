@@ -20,7 +20,7 @@ public PageSet(int page)
 
 ### Observaciones
 
-Si se encuentra una página que no está en el documento, se generará una excepción durante el procesamiento. MaxValue significa la última página del documento.
+Si se encuentra una página que no está en el documento, se generará una excepción durante la representación. MaxValue significa la última página del documento.
 
 ### Ver también
 
@@ -44,29 +44,29 @@ public PageSet(params int[] pages)
 
 ### Observaciones
 
-Si se encuentra una página que no está en el documento, se generará una excepción durante el procesamiento. MaxValue significa la última página del documento.
+Si se encuentra una página que no está en el documento, se generará una excepción durante la representación. MaxValue significa la última página del documento.
 
 ### Ejemplos
 
-Muestra cómo extraer páginas basándose en índices de página exactos.
+Muestra cómo extraer páginas basándose en índices de páginas exactos.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Agregue cinco páginas al documento.
+// Agrega cinco páginas al documento.
 for (int i = 1; i < 6; i++)
 {
     builder.Write("Page " + i);
     builder.InsertBreak(BreakType.PageBreak);
 }
 
-// Crear un objeto "XpsSaveOptions", que podemos pasar al método "Guardar" del documento
+// Crea un objeto "XpsSaveOptions", que podemos pasar al método "Guardar" del documento.
 // para modificar cómo ese método convierte el documento a .XPS.
 XpsSaveOptions xpsOptions = new XpsSaveOptions();
 
-// Use la propiedad "PageSet" para seleccionar un conjunto de páginas del documento para guardar en XPS de salida.
-// En este caso, elegiremos, a través de un índice basado en cero, solo tres páginas: página 1, página 2 y página 4.
+// Utilice la propiedad "PageSet" para seleccionar un conjunto de páginas del documento para guardar en XPS de salida.
+// En este caso, elegiremos, mediante un índice de base cero, solo tres páginas: página 1, página 2 y página 4.
 xpsOptions.PageSet = new PageSet(0, 1, 3);
 
 doc.Save(ArtifactsDir + "XpsSaveOptions.ExportExactPages.xps", xpsOptions);
@@ -90,15 +90,15 @@ public PageSet(params PageRange[] ranges)
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| ranges | PageRange[] | Matriz de rangos de página. |
+| ranges | PageRange[] | Matriz de rangos de páginas. |
 
 ### Observaciones
 
-Si se encuentra un rango que comienza después de la última página del documento, se generará una excepción durante el procesamiento. Todos los rangos que terminan después de la última página se truncan para que quepan en el documento.
+Si se encuentra un rango que comienza después de la última página del documento, se generará una excepción durante la representación. Todos los rangos que terminan después de la última página se truncan para caber en el documento.
 
 ### Ejemplos
 
-Muestra cómo extraer páginas en función de intervalos de páginas exactos.
+Muestra cómo extraer páginas según rangos de páginas exactos.
 
 ```csharp
 Document doc = new Document(MyDir + "Images.docx");

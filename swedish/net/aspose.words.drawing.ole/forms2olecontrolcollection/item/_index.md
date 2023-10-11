@@ -1,14 +1,14 @@
 ---
 title: Forms2OleControlCollection.Item
 second_title: Aspose.Words för .NET API Referens
-description: Forms2OleControlCollection fast egendom. BlirForms2OleControlobjekt vid angivet index.
+description: Forms2OleControlCollection fast egendom. BlirForms2OleControl objekt vid ett angivet index.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.drawing.ole/forms2olecontrolcollection/item/
 ---
 ## Forms2OleControlCollection indexer
 
-Blir[`Forms2OleControl`](../../forms2olecontrol/)objekt vid angivet index.
+Blir[`Forms2OleControl`](../../forms2olecontrol/) objekt vid ett angivet index.
 
 ```csharp
 public Forms2OleControl this[int index] { get; }

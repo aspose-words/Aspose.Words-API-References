@@ -1,14 +1,14 @@
 ---
 title: ListLevel.CreatePictureBullet
 second_title: Aspose.Words per .NET API Reference
-description: ListLevel metodo. Crea un punto elenco immagine per il livello di elenco corrente.
+description: ListLevel metodo. Crea la forma di un punto elenco per il livello di elenco corrente.
 type: docs
 weight: 150
 url: /it/net/aspose.words.lists/listlevel/createpicturebullet/
 ---
 ## ListLevel.CreatePictureBullet method
 
-Crea un punto elenco immagine per il livello di elenco corrente.
+Crea la forma di un punto elenco per il livello di elenco corrente.
 
 ```csharp
 public void CreatePictureBullet()
@@ -16,11 +16,11 @@ public void CreatePictureBullet()
 
 ### Osservazioni
 
-Nota, NumberStyle sarà impostato su Bullet e NumberFormat su "\xF0B7" per visualizzare correttamente l'immagine bullet. L'immagine della croce rossa verrà impostata come immagine bullet durante la creazione. Per cambiarlo si prega di utilizzare[`ImageData`](../imagedata/).
+Notare che,[`NumberStyle`](../numberstyle/) sarà impostato suBullet e [`NumberFormat`](../numberformat/) su "\xF0B7" per visualizzare correttamente l'immagine del punto elenco. L'immagine della croce rossa verrà impostata come immagine del punto elenco al momento della creazione. Per modificarla, utilizzare[`ImageData`](../imagedata/).
 
 ### Esempi
 
-Mostra come impostare un'icona immagine personalizzata per le etichette delle voci di elenco.
+Mostra come impostare un'icona immagine personalizzata per le etichette degli elementi dell'elenco.
 
 ```csharp
 Document doc = new Document();
@@ -28,7 +28,7 @@ Document doc = new Document();
 List list = doc.Lists.Add(ListTemplate.BulletCircle);
 
 // Crea un punto elenco immagine per il livello di elenco corrente e imposta un'immagine da un file system locale
-// come l'icona che verranno visualizzati i punti elenco per questo livello di elenco.
+// come icona che verrà visualizzata dai punti elenco per questo livello di elenco.
 list.ListLevels[0].CreatePictureBullet();
 list.ListLevels[0].ImageData.SetImage(ImageDir + "Logo icon.ico");
 

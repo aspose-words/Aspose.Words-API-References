@@ -3,7 +3,7 @@ title: ChartAxis.MajorUnit
 second_title: Aspose.Words för .NET API Referens
 description: ChartAxis fast egendom. Returnerar eller ställer in avståndet mellan stora bockmarkeringar.
 type: docs
-weight: 100
+weight: 120
 url: /sv/net/aspose.words.drawing.charts/chartaxis/majorunit/
 ---
 ## ChartAxis.MajorUnit property
@@ -18,7 +18,7 @@ public double MajorUnit { get; set; }
 
 Giltigt intervall för ett värde är större än noll. Egenskapen har effekt för tidskategori och värdeaxlar.
 
-Om du ställer in den här egenskapen ställer du in[`MajorUnitIsAuto`](../majorunitisauto/) egendom till **falsk**.
+Om du ställer in den här egenskapen ställer du in[`MajorUnitIsAuto`](../majorunitisauto/) egendom till`falsk`.
 
 ### Exempel
 

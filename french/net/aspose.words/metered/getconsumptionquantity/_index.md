@@ -16,21 +16,21 @@ public static decimal GetConsumptionQuantity()
 
 ### Return_Value
 
-quantité consommée
+quantité de consommation
 
 ### Exemples
 
-Montre comment activer une licence au compteur et suivre le crédit/la consommation.
+Montre comment activer une licence avec compteur et suivre le crédit/la consommation.
 
 ```csharp
-// Créez une nouvelle licence avec compteur, puis imprimez ses statistiques d'utilisation.
+// Créez une nouvelle licence limitée, puis imprimez ses statistiques d'utilisation.
 Metered metered = new Metered();
 metered.SetMeteredKey("MyPublicKey", "MyPrivateKey");
 
 Console.WriteLine($"Credit before operation: {Metered.GetConsumptionCredit()}");
 Console.WriteLine($"Consumption quantity before operation: {Metered.GetConsumptionQuantity()}");
 
-// Opérez en utilisant Aspose.Words, puis imprimez à nouveau nos statistiques mesurées pour voir combien nous avons dépensé.
+// Fonctionne en utilisant Aspose.Words, puis imprime à nouveau nos statistiques mesurées pour voir combien nous avons dépensé.
 Document doc = new Document(MyDir + "Document.docx");
 doc.Save(ArtifactsDir + "Metered.Usage.pdf");
 

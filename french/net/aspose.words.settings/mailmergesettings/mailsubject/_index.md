@@ -1,14 +1,14 @@
 ---
 title: MailMergeSettings.MailSubject
 second_title: Référence de l'API Aspose.Words pour .NET
-description: MailMergeSettings propriété. Spécifie le texte qui doit apparaître dans la ligne dobjet des emails ou fax produits lors du publipostage. La valeur par défaut est une chaîne vide.
+description: MailMergeSettings propriété. Spécifie le texte qui doit apparaître dans la ligne dobjet des emails ou des fax produits lors du publipostage. La valeur par défaut est une chaîne vide.
 type: docs
 weight: 130
 url: /fr/net/aspose.words.settings/mailmergesettings/mailsubject/
 ---
 ## MailMergeSettings.MailSubject property
 
-Spécifie le texte qui doit apparaître dans la ligne d'objet des e-mails ou fax produits lors du publipostage. La valeur par défaut est une chaîne vide.
+Spécifie le texte qui doit apparaître dans la ligne d'objet des e-mails ou des fax produits lors du publipostage. La valeur par défaut est une chaîne vide.
 
 ```csharp
 public string MailSubject { get; set; }

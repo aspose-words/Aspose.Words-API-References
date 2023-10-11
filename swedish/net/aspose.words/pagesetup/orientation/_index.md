@@ -3,7 +3,7 @@ title: PageSetup.Orientation
 second_title: Aspose.Words för .NET API Referens
 description: PageSetup fast egendom. Returnerar eller ställer in sidans orientering.
 type: docs
-weight: 280
+weight: 290
 url: /sv/net/aspose.words/pagesetup/orientation/
 ---
 ## PageSetup.Orientation property
@@ -16,7 +16,7 @@ public Orientation Orientation { get; set; }
 
 ### Anmärkningar
 
-Skiftande **Orientering** byten[`PageWidth`](../pagewidth/) och[`PageHeight`](../pageheight/).
+Skiftande`Orientation` byten[`PageWidth`](../pagewidth/) och[`PageHeight`](../pageheight/).
 
 ### Exempel
 

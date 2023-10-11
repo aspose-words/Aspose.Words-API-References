@@ -3,12 +3,14 @@ title: Class GeneralFormatCollection
 second_title: Aspose.Words für .NET-API-Referenz
 description: Aspose.Words.Fields.GeneralFormatCollection klas. Stellt eine typisierte Sammlung allgemeiner Formate dar.
 type: docs
-weight: 2490
+weight: 2650
 url: /de/net/aspose.words.fields/generalformatcollection/
 ---
 ## GeneralFormatCollection class
 
 Stellt eine typisierte Sammlung allgemeiner Formate dar.
+
+Um mehr zu erfahren, besuchen Sie die[Arbeiten mit Feldern](https://docs.aspose.com/words/net/working-with-fields/) Dokumentationsartikel.
 
 ```csharp
 public class GeneralFormatCollection : IEnumerable<GeneralFormat>
@@ -26,7 +28,7 @@ public class GeneralFormatCollection : IEnumerable<GeneralFormat>
 | Name | Beschreibung |
 | --- | --- |
 | [Add](../../aspose.words.fields/generalformatcollection/add/)(GeneralFormat) | Fügt der Sammlung ein allgemeines Format hinzu. |
-| [GetEnumerator](../../aspose.words.fields/generalformatcollection/getenumerator/)() | Gibt ein Aufzählungsobjekt zurück. |
+| [GetEnumerator](../../aspose.words.fields/generalformatcollection/getenumerator/)() | Gibt ein Enumeratorobjekt zurück. |
 | [Remove](../../aspose.words.fields/generalformatcollection/remove/)(GeneralFormat) | Entfernt alle Vorkommen des angegebenen allgemeinen Formats aus der Sammlung. |
 | [RemoveAt](../../aspose.words.fields/generalformatcollection/removeat/)(int) | Entfernt ein allgemeines Formatvorkommen am angegebenen Index. |
 
@@ -38,13 +40,13 @@ Zeigt, wie Feldergebnisse formatiert werden.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Verwenden Sie einen Dokumentenersteller, um ein Feld einzufügen, das ein Ergebnis ohne angewendetes Format anzeigt.
+// Verwenden Sie einen Dokument-Builder, um ein Feld einzufügen, das ein Ergebnis ohne angewendetes Format anzeigt.
 Field field = builder.InsertField("= 2 + 3");
 
 Assert.AreEqual("= 2 + 3", field.GetFieldCode());
 Assert.AreEqual("5", field.Result);
 
-// Wir können ein Format auf das Ergebnis eines Felds anwenden, indem wir die Eigenschaften des Felds verwenden.
+// Wir können mithilfe der Eigenschaften des Felds ein Format auf das Ergebnis eines Felds anwenden.
 // Nachfolgend sind drei Arten von Formaten aufgeführt, die wir auf das Ergebnis eines Felds anwenden können.
 // 1 - Numerisches Format:
 FieldFormat format = field.Format;
@@ -80,7 +82,7 @@ Assert.AreEqual("LVIII", field.Result);
 Assert.AreEqual(2, format.GeneralFormats.Count);
 Assert.AreEqual(GeneralFormat.LowercaseRoman, format.GeneralFormats[0]);
 
-// Wir können unsere Formate entfernen, um das Ergebnis des Felds auf seine ursprüngliche Form zurückzusetzen.
+// Wir können unsere Formate entfernen, um das Ergebnis des Feldes in seine ursprüngliche Form zurückzusetzen.
 format.GeneralFormats.Remove(GeneralFormat.LowercaseRoman);
 format.GeneralFormats.RemoveAt(0);
 Assert.AreEqual(0, format.GeneralFormats.Count);

@@ -1,14 +1,16 @@
 ---
 title: Class FormFieldCollection
 second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Fields.FormFieldCollection klas. Eine Sammlung von Formularfeld Objekte die alle Formularfelder in einem Bereich darstellen.
+description: Aspose.Words.Fields.FormFieldCollection klas. Eine Sammlung vonFormField Objekte die alle Formularfelder in einem Bereich darstellen.
 type: docs
-weight: 2470
+weight: 2630
 url: /de/net/aspose.words.fields/formfieldcollection/
 ---
 ## FormFieldCollection class
 
-Eine Sammlung von **Formularfeld** Objekte, die alle Formularfelder in einem Bereich darstellen.
+Eine Sammlung von[`FormField`](../formfield/) Objekte, die alle Formularfelder in einem Bereich darstellen.
+
+Um mehr zu erfahren, besuchen Sie die[Arbeiten mit Formularfeldern](https://docs.aspose.com/words/net/working-with-form-fields/) Dokumentationsartikel.
 
 ```csharp
 public class FormFieldCollection : IEnumerable<FormField>
@@ -26,7 +28,7 @@ public class FormFieldCollection : IEnumerable<FormField>
 | Name | Beschreibung |
 | --- | --- |
 | [Clear](../../aspose.words.fields/formfieldcollection/clear/)() | Entfernt alle Formularfelder aus dieser Sammlung und aus dem Dokument. |
-| [GetEnumerator](../../aspose.words.fields/formfieldcollection/getenumerator/)() | Gibt ein Aufzählungsobjekt zurück. |
+| [GetEnumerator](../../aspose.words.fields/formfieldcollection/getenumerator/)() | Gibt ein Enumeratorobjekt zurück. |
 | [Remove](../../aspose.words.fields/formfieldcollection/remove/)(string) | Entfernt ein Formularfeld mit dem angegebenen Namen. |
 | [RemoveAt](../../aspose.words.fields/formfieldcollection/removeat/)(int) | Entfernt ein Formularfeld am angegebenen Index. |
 
@@ -50,7 +52,7 @@ public void Visitor()
 
     builder.InsertBreak(BreakType.ParagraphBreak);
 
-    // Verwenden Sie einen Dokumentenersteller, um ein Kontrollkästchen einzufügen.
+    // Verwenden Sie einen Dokumentersteller, um ein Kontrollkästchen einzufügen.
     builder.Write("Click this check box to tick/untick it: ");
     FormField checkBox = builder.InsertCheckBox("MyCheckBox", false, 50);
     checkBox.IsCheckBoxExactSize = true;
@@ -64,7 +66,7 @@ public void Visitor()
 
     builder.InsertBreak(BreakType.ParagraphBreak);
 
-    // Verwenden Sie einen Dokumentenersteller, um ein Texteingabeformularfeld einzufügen.
+    // Verwenden Sie einen Dokumentersteller, um ein Texteingabeformularfeld einzufügen.
     builder.Write("Enter text here: ");
     FormField textInput = builder.InsertTextInput("MyTextInput", TextFormFieldType.Regular, "", "Placeholder text", 50);
     textInput.EntryMacro = "EntryMacro";
@@ -80,8 +82,8 @@ public void Visitor()
     Assert.AreEqual(3, formFields.Count);
 
     // Felder zeigen unsere Formularfelder an. Wir können ihre Feldcodes sehen, indem wir dieses Dokument öffnen
-    // in Microsoft und Drücken von Alt + F9. Diese Felder haben keine Schalter,
-    // und Mitglieder des FormField-Objekts bestimmen vollständig den Inhalt ihrer Formularfelder.
+    // in Microsoft und drücken Sie Alt + F9. Diese Felder haben keine Schalter,
+    // und Mitglieder des FormField-Objekts steuern vollständig den Inhalt ihrer Formularfelder.
     Assert.AreEqual(3, doc.Range.Fields.Count);
     Assert.AreEqual(" FORMDROPDOWN \u0001", doc.Range.Fields[0].GetFieldCode());
     Assert.AreEqual(" FORMCHECKBOX \u0001", doc.Range.Fields[1].GetFieldCode());
@@ -101,7 +103,7 @@ public void Visitor()
 }
 
 /// <summary>
-/// Besucherimplementierung, die Details der besuchten Formularfelder ausgibt. 
+ /// Besucherimplementierung, die Details der besuchten Formularfelder ausgibt.
 /// </summary>
 public class FormFieldVisitor : DocumentVisitor
 {
@@ -142,7 +144,7 @@ public class FormFieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Fügt der aktuellen Ausgabe Zeilenumbruchtext hinzu.
+    /// Fügt der aktuellen Ausgabe durch Zeilenumbrüche terminierten Text hinzu.
     /// </summary>
     private void AppendLine(string text)
     {
@@ -150,7 +152,7 @@ public class FormFieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Ruft den Klartext des Dokuments ab, das vom Besucher angesammelt wurde.
+    /// Ruft den Klartext des vom Besucher gesammelten Dokuments ab.
     /// </summary>
     public string GetText()
     {

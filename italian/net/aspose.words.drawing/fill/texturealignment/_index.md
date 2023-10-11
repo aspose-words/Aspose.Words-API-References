@@ -1,14 +1,14 @@
 ---
 title: Fill.TextureAlignment
 second_title: Aspose.Words per .NET API Reference
-description: Fill proprietà. Ottiene o imposta lallineamento per il riempimento della trama delle piastrelle.
+description: Fill proprietà. Ottiene o imposta lallineamento per il riempimento della texture delle tessere.
 type: docs
-weight: 130
+weight: 190
 url: /it/net/aspose.words.drawing/fill/texturealignment/
 ---
 ## Fill.TextureAlignment property
 
-Ottiene o imposta l'allineamento per il riempimento della trama delle piastrelle.
+Ottiene o imposta l'allineamento per il riempimento della texture delle tessere.
 
 ```csharp
 public TextureAlignment TextureAlignment { get; set; }
@@ -16,7 +16,7 @@ public TextureAlignment TextureAlignment { get; set; }
 
 ### Esempi
 
-Mostra come riempire e affiancare la trama all'interno della forma.
+Mostra come riempire e affiancare la texture all'interno della forma.
 
 ```csharp
 Document doc = new Document();
@@ -28,7 +28,7 @@ Shape shape = builder.InsertShape(ShapeType.Rectangle, 80, 80);
 shape.Fill.PresetTextured(PresetTexture.Canvas);
 shape.Fill.TextureAlignment = TextureAlignment.TopRight;
 
-// Usa l'opzione di conformità per definire la forma usando DML se vuoi ottenere "TextureAlignment"
+// Utilizza l'opzione di conformità per definire la forma utilizzando DML se desideri ottenere "TextureAlignment"
 // proprietà dopo il salvataggio del documento.
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions { Compliance = OoxmlCompliance.Iso29500_2008_Strict };
 

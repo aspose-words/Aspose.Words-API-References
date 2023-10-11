@@ -26,7 +26,7 @@ Zeigt, wie interne Ränder für ein Textfeld festgelegt werden.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Fügen Sie ein weiteres Textfeld mit bestimmten Rändern ein.
+// Ein weiteres Textfeld mit bestimmten Rändern einfügen.
 Shape textBoxShape = builder.InsertShape(ShapeType.TextBox, 100, 100);
 TextBox textBox = textBoxShape.TextBox;
 textBox.InternalMarginTop = 15;

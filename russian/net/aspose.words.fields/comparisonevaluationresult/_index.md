@@ -1,14 +1,16 @@
 ---
 title: Class ComparisonEvaluationResult
 second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Fields.ComparisonEvaluationResult сорт. Результат оценки сравнения.
+description: Aspose.Words.Fields.ComparisonEvaluationResult сорт. Результат сравнения.
 type: docs
-weight: 1330
+weight: 1480
 url: /ru/net/aspose.words.fields/comparisonevaluationresult/
 ---
 ## ComparisonEvaluationResult class
 
-Результат оценки сравнения.
+Результат сравнения.
+
+Чтобы узнать больше, посетите[Работа с полями](https://docs.aspose.com/words/net/working-with-fields/) статья документации.
 
 ```csharp
 public sealed class ComparisonEvaluationResult
@@ -18,19 +20,19 @@ public sealed class ComparisonEvaluationResult
 
 | Имя | Описание |
 | --- | --- |
-| [ComparisonEvaluationResult](comparisonevaluationresult/#constructor)(bool) | Создает результат оценки сравнения. |
-| [ComparisonEvaluationResult](comparisonevaluationresult/#constructor_1)(string) | Создает ошибочный результат оценки сравнения с соответствующим сообщением об ошибке. |
+| [ComparisonEvaluationResult](comparisonevaluationresult/#constructor)(bool) | Создает результат сравнения. |
+| [ComparisonEvaluationResult](comparisonevaluationresult/#constructor_1)(string) | Создает неудавшийся результат сравнения с соответствующим сообщением об ошибке. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [ErrorMessage](../../aspose.words.fields/comparisonevaluationresult/errormessage/) { get; } | Получает сообщение об ошибке неудачного результата оценки сравнения. |
-| [Result](../../aspose.words.fields/comparisonevaluationresult/result/) { get; } | Получает результат оценки сравнения. |
+| [ErrorMessage](../../aspose.words.fields/comparisonevaluationresult/errormessage/) { get; } | Получает сообщение об ошибке результата неудачной оценки сравнения. |
+| [Result](../../aspose.words.fields/comparisonevaluationresult/result/) { get; } | Получает результат сравнения. |
 
 ### Примеры
 
-Показывает, как реализовать пользовательскую оценку для полей ЕСЛИ и СРАВНИТЬ.
+Показывает, как реализовать пользовательскую оценку для полей IF и COMPARE.
 
 ```csharp
 public void ConditionEvaluationExtensionPoint(string fieldCode, sbyte comparisonResult, string comparisonError,
@@ -43,11 +45,11 @@ public void ConditionEvaluationExtensionPoint(string fieldCode, sbyte comparison
     DocumentBuilder builder = new DocumentBuilder();
 
     // Коды полей, которые мы используем в этом примере:
-    // 1. " ЕСЛИ {0} {1} {2} \"верный аргумент\" \"ложный аргумент\" ".
-    // 2. "СРАВНИТЬ {0} {1} {2}".
+    // 1. " ЕСЛИ {0} {1} {2} \"истинный аргумент\" \"ложный аргумент\" ".
+    // 2. " СРАВНИТЬ {0} {1} {2} ".
     Field field = builder.InsertField(string.Format(fieldCode, left, @operator, right), null);
 
-    // Если "comparisonResult" не определен, мы создаем "ComparisonEvaluationResult" со строкой вместо логического значения.
+    // Если «comparisonResult» не определен, мы создаем «ComparisonEvaluationResult» со строкой вместо bool.
     ComparisonEvaluationResult result = comparisonResult != -1
         ? new ComparisonEvaluationResult(comparisonResult == 1)
         : comparisonError != null ? new ComparisonEvaluationResult(comparisonError) : null;

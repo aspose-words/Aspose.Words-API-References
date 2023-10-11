@@ -1,14 +1,14 @@
 ---
 title: Field.Remove
 second_title: Aspose.Words for .NET API Referansı
-description: Field yöntem. Alanı belgeden kaldırır. Alandan hemen sonra bir düğüm döndürür. Alanın sonu üst düğümünün son çocuğu ise üst paragrafını döndürür. Alan zaten kaldırılmışsa döner hükümsüz .
+description: Field yöntem. Alanı belgeden kaldırır. Alanın hemen ardından bir düğüm döndürür. Alanın sonu üst düğümünün son child si ise üst paragrafını döndürür. Alan zaten kaldırılmışsa şunu döndürürhükümsüz .
 type: docs
 weight: 120
 url: /tr/net/aspose.words.fields/field/remove/
 ---
 ## Field.Remove method
 
-Alanı belgeden kaldırır. Alandan hemen sonra bir düğüm döndürür. Alanın sonu, üst düğümünün son çocuğu ise, üst paragrafını döndürür. Alan zaten kaldırılmışsa, döner **hükümsüz** .
+Alanı belgeden kaldırır. Alanın hemen ardından bir düğüm döndürür. Alanın sonu, üst düğümünün son child 'si ise, üst paragrafını döndürür. Alan zaten kaldırılmışsa şunu döndürür:`hükümsüz` .
 
 ```csharp
 public Node Remove()
@@ -34,8 +34,8 @@ FieldCollection fields = doc.Range.Fields;
 
 Assert.AreEqual(6, fields.Count);
 
-// Bir alan koleksiyonundan alanları kaldırmanın dört yolu aşağıdadır.
-// 1 - Kendisini kaldırmak için bir alan alın:
+// Aşağıda alanları bir alan koleksiyonundan kaldırmanın dört yolu verilmiştir.
+// 1 - Kendini kaldıracak bir alan edinin:
 fields[0].Remove();
 Assert.AreEqual(5, fields.Count);
 
@@ -48,7 +48,7 @@ Assert.AreEqual(4, fields.Count);
 fields.RemoveAt(2);
 Assert.AreEqual(3, fields.Count);
 
-// 4 - Koleksiyondaki tüm alanları bir kerede kaldırın:
+// 4 - Koleksiyondaki tüm alanları tek seferde kaldırın:
 fields.Clear();
 Assert.AreEqual(0, fields.Count);
 ```
@@ -56,25 +56,26 @@ Assert.AreEqual(0, fields.Count);
 ÖZEL alanların nasıl işleneceğini gösterir.
 
 ```csharp
+public void FieldPrivate()
 {
-    // .docx formatına çevirdiğimiz Corel WordPerfect belgesini açın.
+    // .docx formatına dönüştürdüğümüz bir Corel WordPerfect belgesini açın.
     Document doc = new Document(MyDir + "Field sample - PRIVATE.docx");
 
     // Yüklediğimiz gibi WordPerfect 5.x/6.x belgeleri ÖZEL alanlar içerebilir.
     // Microsoft Word, yükleme/kaydetme işlemleri sırasında ÖZEL alanları korur,
-    // ama onlar için hiçbir işlevsellik sağlamaz.
+    // ancak onlar için hiçbir işlevsellik sağlamaz.
     FieldPrivate field = (FieldPrivate)doc.Range.Fields[0];
 
     Assert.AreEqual(" PRIVATE \"My value\" ", field.GetFieldCode());
     Assert.AreEqual(FieldType.FieldPrivate, field.Type);
 
-    // Belge oluşturucu kullanarak ÖZEL alanlar da ekleyebiliriz.
+    // Ayrıca bir belge oluşturucu kullanarak ÖZEL alanlar da ekleyebiliriz.
     DocumentBuilder builder = new DocumentBuilder(doc);
     builder.InsertField(FieldType.FieldPrivate, true);
 
-    // Bu alanlar, hassas bilgileri korumanın uygun bir yolu değildir.
-    // WordPerfect'in eski sürümleriyle geriye dönük uyumluluk gerekli olmadıkça,
-    // bu alanları güvenle kaldırabiliriz. Bunu bir DocumentVisiitor uygulaması kullanarak yapabiliriz.
+    // Bu alanlar hassas bilgileri korumanın uygun bir yolu değildir.
+    // WordPerfect'in eski sürümleriyle geriye dönük uyumluluk gerekli olmadığı sürece,
+    // bu alanları güvenle kaldırabiliriz. Bunu DocumentVisiitor uygulamasını kullanarak yapabiliriz.
     Assert.AreEqual(2, doc.Range.Fields.Count);
 
     FieldPrivateRemover remover = new FieldPrivateRemover();
@@ -100,8 +101,8 @@ public class FieldPrivateRemover : DocumentVisitor
     }
 
     /// <summary>
-    /// Belgede bir FieldEnd düğümüyle karşılaşıldığında çağrılır.
-    /// Düğüm bir ÖZEL alana aitse, tüm alan kaldırılır.
+    /// Belgede FieldEnd düğümüyle karşılaşıldığında çağrılır.
+    /// Düğüm ÖZEL bir alana aitse alanın tamamı kaldırılır.
     /// </summary>
     public override VisitorAction VisitFieldEnd(FieldEnd fieldEnd)
     {

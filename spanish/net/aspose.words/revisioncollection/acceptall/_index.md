@@ -27,12 +27,13 @@ Document docEdited = new Document();
 builder = new DocumentBuilder(docEdited);
 builder.Writeln("This is the edited document.");
 
-// La comparación de documentos con revisiones generará una excepción.
+// Comparar documentos con revisiones generará una excepción.
 if (docOriginal.Revisions.Count == 0 && docEdited.Revisions.Count == 0)
     docOriginal.Compare(docEdited, "authorName", DateTime.Now);
 
 // Después de la comparación, el documento original obtendrá una nueva revisión
-// por cada elemento que sea diferente en el documento editado.
+// para cada elemento que sea diferente en el documento editado.
+foreach (Revision r in docOriginal.Revisions)
 {
     Console.WriteLine($"Revision type: {r.RevisionType}, on a node of type \"{r.ParentNode.NodeType}\"");
     Console.WriteLine($"\tChanged text: \"{r.ParentNode.GetText()}\"");

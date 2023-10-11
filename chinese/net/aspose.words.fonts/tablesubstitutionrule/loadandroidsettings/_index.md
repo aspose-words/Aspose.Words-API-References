@@ -1,14 +1,14 @@
 ---
 title: TableSubstitutionRule.LoadAndroidSettings
 second_title: Aspose.Words for .NET API 参考
-description: TableSubstitutionRule 方法. 为 Linux 平台加载预定义的表替换设置
+description: TableSubstitutionRule 方法. 加载 Android 平台的预定义表替换设置
 type: docs
 weight: 40
 url: /zh/net/aspose.words.fonts/tablesubstitutionrule/loadandroidsettings/
 ---
 ## TableSubstitutionRule.LoadAndroidSettings method
 
-为 Linux 平台加载预定义的表替换设置。
+加载 Android 平台的预定义表替换设置。
 
 ```csharp
 public void LoadAndroidSettings()

@@ -3,7 +3,7 @@ title: DocumentBuilder.EndRow
 second_title: Справочник по API Aspose.Words для .NET
 description: DocumentBuilder метод. Завершает строку таблицы в документе.
 type: docs
-weight: 220
+weight: 240
 url: /ru/net/aspose.words/documentbuilder/endrow/
 ---
 ## DocumentBuilder.EndRow method
@@ -16,13 +16,13 @@ public Row EndRow()
 
 ### Возвращаемое значение
 
-Только что законченный узел строки.
+Узел строки, который только что был завершен.
 
 ### Примечания
 
-Вызов **Конечная строка** для завершения строки таблицы. Если вы позвоните[`InsertCell`](../insertcell/) немедленно после этого таблица продолжается с новой строки.
+Вызов`EndRow` завершить строку таблицы. Если вы позвоните[`InsertCell`](../insertcell/) немедленно после этого таблица продолжается в новой строке.
 
-Использовать[`RowFormat`](../rowformat/) свойство для указания форматирования строки.
+Использовать[`RowFormat`](../rowformat/) свойство для указания форматирования строк.
 
 ### Примеры
 
@@ -38,19 +38,19 @@ builder.InsertCell();
 builder.CellFormat.VerticalMerge = CellMerge.First;
 builder.Write("Text in merged cells.");
 
-// Вставляем ячейку во второй столбец первой строки, затем заканчиваем строку.
-// Также настройте конструктор на отключение вертикального слияния в созданных ячейках.
+// Вставляем ячейку во второй столбец первой строки, затем завершаем строку.
+// Также настройте построитель, чтобы отключить вертикальное слияние в созданных ячейках.
 builder.InsertCell();
 builder.CellFormat.VerticalMerge = CellMerge.None;
 builder.Write("Text in unmerged cell.");
 builder.EndRow();
 
-// Вставляем ячейку в первый столбец второй строки. 
-// Вместо того, чтобы добавлять текстовое содержимое, мы объединим эту ячейку с первой ячейкой, которую мы добавили непосредственно выше.
+ // Вставляем ячейку в первый столбец второй строки.
+// Вместо добавления текстового содержимого мы объединим эту ячейку с первой ячейкой, которую мы добавили непосредственно выше.
 builder.InsertCell();
 builder.CellFormat.VerticalMerge = CellMerge.Previous;
 
-// Вставить еще одну независимую ячейку во второй столбец второй строки.
+// Вставляем еще одну независимую ячейку во второй столбец второй строки.
 builder.InsertCell();
 builder.CellFormat.VerticalMerge = CellMerge.None;
 builder.Write("Text in unmerged cell.");
@@ -60,7 +60,7 @@ builder.EndTable();
 doc.Save(ArtifactsDir + "CellFormat.VerticalMerge.docx");
 ```
 
-Показывает, как построить отформатированную таблицу 2x2.
+Показывает, как построить форматированную таблицу 2x2.
 
 ```csharp
 Document doc = new Document();
@@ -74,8 +74,8 @@ builder.InsertCell();
 builder.Write("Row 1, cell 2.");
 builder.EndRow();
 
-// При построении таблицы построитель документов применит текущие значения свойств RowFormat/CellFormat
-// к текущей строке/ячейке, в которой находится его курсор, и к любым новым строкам/ячейкам по мере их создания.
+// При построении таблицы построитель документов будет применять текущие значения свойств RowFormat/CellFormat
+// к текущей строке/ячейке, в которой находится курсор, и к любым новым строкам/ячейкам по мере их создания.
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[0].CellFormat.VerticalAlignment);
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[1].CellFormat.VerticalAlignment);
 
@@ -90,7 +90,7 @@ builder.Write("Row 2, cell 2.");
 builder.EndRow();
 builder.EndTable();
 
-// На ранее добавленные строки и ячейки изменения форматирования построителя не влияют задним числом.
+// Ранее добавленные строки и ячейки не имеют обратной силы при изменении форматирования построителя.
 Assert.AreEqual(0, table.Rows[0].RowFormat.Height);
 Assert.AreEqual(HeightRule.Auto, table.Rows[0].RowFormat.HeightRule);
 Assert.AreEqual(100, table.Rows[1].RowFormat.Height);
@@ -101,7 +101,7 @@ Assert.AreEqual(TextOrientation.Downward, table.Rows[1].Cells[1].CellFormat.Orie
 doc.Save(ArtifactsDir + "DocumentBuilder.BuildTable.docx");
 ```
 
-Показывает, как построить таблицу с пользовательскими границами.
+Показывает, как создать таблицу с настраиваемыми границами.
 
 ```csharp
 Document doc = new Document();
@@ -109,8 +109,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.StartTable();
 
-// Установка параметров форматирования таблицы для конструктора документов
-// применит их к каждой строке и ячейке, которые мы добавляем вместе с ней.
+// Установка параметров форматирования таблицы для построителя документов
+// будет применять их к каждой строке и ячейке, которые мы добавляем вместе с ними.
 builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
 builder.CellFormat.ClearFormatting();
@@ -133,8 +133,8 @@ builder.InsertCell();
 builder.Write("Row 1, Col 2");
 builder.EndRow();
 
-// Изменение форматирования применит его к текущей ячейке,
-// и любые новые ячейки, которые мы впоследствии создадим с помощью конструктора.
+// При изменении форматирования оно будет применено к текущей ячейке,
+// и любые новые ячейки, которые мы создадим впоследствии с помощью построителя.
 // Это не повлияет на ячейки, которые мы добавили ранее.
 builder.CellFormat.Shading.ClearFormatting();
 

@@ -1,14 +1,14 @@
 ---
 title: ComparisonEvaluationResult.ComparisonEvaluationResult
 second_title: Aspose.Words für .NET-API-Referenz
-description: ComparisonEvaluationResult constructeur. Erstellt ein Vergleichsbewertungsergebnis.
+description: ComparisonEvaluationResult constructeur. Erstellt ein Vergleichsauswertungsergebnis.
 type: docs
 weight: 10
 url: /de/net/aspose.words.fields/comparisonevaluationresult/comparisonevaluationresult/
 ---
 ## ComparisonEvaluationResult(bool) {#constructor}
 
-Erstellt ein Vergleichsbewertungsergebnis.
+Erstellt ein Vergleichsauswertungsergebnis.
 
 ```csharp
 public ComparisonEvaluationResult(bool result)
@@ -30,10 +30,10 @@ public void ConditionEvaluationExtensionPoint(string fieldCode, sbyte comparison
 
     // Feldcodes, die wir in diesem Beispiel verwenden:
     // 1. " IF {0} {1} {2} \"wahres Argument\" \"falsches Argument\" ".
-    // 2. " VERGLEICHEN {0} {1} {2} ".
+    // 2. " COMPARE {0} {1} {2} ".
     Field field = builder.InsertField(string.Format(fieldCode, left, @operator, right), null);
 
-    // Wenn "comparisonResult" nicht definiert ist, erstellen wir "ComparisonEvaluationResult" mit String statt mit bool.
+    // Wenn „comparisonResult“ undefiniert ist, erstellen wir „ComparisonEvaluationResult“ mit einer Zeichenfolge anstelle von bool.
     ComparisonEvaluationResult result = comparisonResult != -1
         ? new ComparisonEvaluationResult(comparisonResult == 1)
         : comparisonError != null ? new ComparisonEvaluationResult(comparisonError) : null;
@@ -127,10 +127,10 @@ public void ConditionEvaluationExtensionPoint(string fieldCode, sbyte comparison
 
     // Feldcodes, die wir in diesem Beispiel verwenden:
     // 1. " IF {0} {1} {2} \"wahres Argument\" \"falsches Argument\" ".
-    // 2. " VERGLEICHEN {0} {1} {2} ".
+    // 2. " COMPARE {0} {1} {2} ".
     Field field = builder.InsertField(string.Format(fieldCode, left, @operator, right), null);
 
-    // Wenn "comparisonResult" nicht definiert ist, erstellen wir "ComparisonEvaluationResult" mit String statt mit bool.
+    // Wenn „comparisonResult“ undefiniert ist, erstellen wir „ComparisonEvaluationResult“ mit einer Zeichenfolge anstelle von bool.
     ComparisonEvaluationResult result = comparisonResult != -1
         ? new ComparisonEvaluationResult(comparisonResult == 1)
         : comparisonError != null ? new ComparisonEvaluationResult(comparisonError) : null;

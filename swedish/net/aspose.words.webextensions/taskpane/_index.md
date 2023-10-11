@@ -3,12 +3,14 @@ title: Class TaskPane
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.WebExtensions.TaskPane klass. Representerar ett tilläggsaktivitetsfönsterobjekt.
 type: docs
-weight: 6400
+weight: 6710
 url: /sv/net/aspose.words.webextensions/taskpane/
 ---
 ## TaskPane class
 
 Representerar ett tilläggsaktivitetsfönsterobjekt.
+
+För att lära dig mer, besök[Arbeta med Office-tillägg](https://docs.aspose.com/words/net/work-with-office-add-ins/) dokumentationsartikel.
 
 ```csharp
 public class TaskPane

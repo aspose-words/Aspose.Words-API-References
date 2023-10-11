@@ -1,14 +1,14 @@
 ---
 title: ChartDataLabelCollection.ClearFormat
 second_title: Referencia de API de Aspose.Words para .NET
-description: ChartDataLabelCollection método. Borra el formato de todosChartDataLabel en esta colección.
+description: ChartDataLabelCollection método. Borra el formato de todoChartDataLabel en esta colección.
 type: docs
-weight: 130
+weight: 150
 url: /es/net/aspose.words.drawing.charts/chartdatalabelcollection/clearformat/
 ---
 ## ChartDataLabelCollection.ClearFormat method
 
-Borra el formato de todos[`ChartDataLabel`](../../chartdatalabel/) en esta colección.
+Borra el formato de todo[`ChartDataLabel`](../../chartdatalabel/) en esta colección.
 
 ```csharp
 public void ClearFormat()
@@ -19,6 +19,7 @@ public void ClearFormat()
 Muestra cómo aplicar etiquetas a puntos de datos en un gráfico de líneas.
 
 ```csharp
+public void DataLabels()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -31,7 +32,7 @@ Muestra cómo aplicar etiquetas a puntos de datos en un gráfico de líneas.
     Assert.AreEqual("Series 2", chart.Series[1].Name);
     Assert.AreEqual("Series 3", chart.Series[2].Name);
 
-    // Aplicar etiquetas de datos a cada serie en el gráfico.
+    // Aplicar etiquetas de datos a cada serie del gráfico.
     // Estas etiquetas aparecerán junto a cada punto de datos en el gráfico y mostrarán su valor.
     foreach (ChartSeries series in chart.Series)
     {
@@ -39,7 +40,7 @@ Muestra cómo aplicar etiquetas a puntos de datos en un gráfico de líneas.
         Assert.AreEqual(4, series.DataLabels.Count);
     }
 
-    // Cambia la cadena separadora para cada etiqueta de datos en una serie.
+    // Cambia la cadena separadora para cada etiqueta de datos de una serie.
     using (IEnumerator<ChartDataLabel> enumerator = chart.Series[0].DataLabels.GetEnumerator())
     {
         while (enumerator.MoveNext())
@@ -49,7 +50,7 @@ Muestra cómo aplicar etiquetas a puntos de datos en un gráfico de líneas.
         }
     }
 
-    // Para un gráfico de aspecto más limpio, podemos eliminar las etiquetas de datos de forma individual.
+    // Para obtener un gráfico más limpio, podemos eliminar las etiquetas de datos individualmente.
     chart.Series[1].DataLabels[2].ClearFormat();
 
     // También podemos eliminar una serie completa de sus etiquetas de datos a la vez.

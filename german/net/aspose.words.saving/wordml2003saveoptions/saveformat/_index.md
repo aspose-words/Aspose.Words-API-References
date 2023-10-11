@@ -23,15 +23,15 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 
-// Erstellen Sie ein „WordML2003SaveOptions“-Objekt, das an die „Save“-Methode des Dokuments übergeben wird
+// Erstellen Sie ein „WordML2003SaveOptions“-Objekt, um es an die „Save“-Methode des Dokuments zu übergeben
 // um zu ändern, wie wir das Dokument im WordML-Speicherformat speichern.
 WordML2003SaveOptions options = new WordML2003SaveOptions();
 
 Assert.AreEqual(SaveFormat.WordML, options.SaveFormat);
 
-// Setzen Sie die Eigenschaft "PrettyFormat" auf "true", um die Einrückung von Tabulatorzeichen anzuwenden und
+// Setzen Sie die Eigenschaft „PrettyFormat“ auf „true“, um den Tabulatorzeicheneinzug anzuwenden und
 // Zeilenumbrüche, um den Rohinhalt des Ausgabedokuments leichter lesbar zu machen.
-// Setzen Sie die Eigenschaft "PrettyFormat" auf "false", um den Rohinhalt des Dokuments in einem fortlaufenden Textkörper zu speichern.
+// Setzen Sie die Eigenschaft „PrettyFormat“ auf „false“, um den Rohinhalt des Dokuments in einem fortlaufenden Textkörper zu speichern.
 options.PrettyFormat = prettyFormat;
 
 doc.Save(ArtifactsDir + "WordML2003SaveOptions.PrettyFormat.xml", options);

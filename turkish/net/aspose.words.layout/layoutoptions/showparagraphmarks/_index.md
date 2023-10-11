@@ -1,14 +1,14 @@
 ---
 title: LayoutOptions.ShowParagraphMarks
 second_title: Aspose.Words for .NET API Referansı
-description: LayoutOptions mülk. Paragraf işaretlerinin oluşturulup oluşturulmadığının göstergesini alır veya ayarlar. Varsayılan Falsedır.
+description: LayoutOptions mülk. Paragraf işaretlerinin oluşturulup oluşturulmayacağına ilişkin göstergeyi alır veya ayarlar. VarsayılanYANLIŞ .
 type: docs
-weight: 80
+weight: 90
 url: /tr/net/aspose.words.layout/layoutoptions/showparagraphmarks/
 ---
 ## LayoutOptions.ShowParagraphMarks property
 
-Paragraf işaretlerinin oluşturulup oluşturulmadığının göstergesini alır veya ayarlar. Varsayılan, False'dır.
+Paragraf işaretlerinin oluşturulup oluşturulmayacağına ilişkin göstergeyi alır veya ayarlar. Varsayılan:`YANLIŞ` .
 
 ```csharp
 public bool ShowParagraphMarks { get; set; }
@@ -21,8 +21,8 @@ public bool ShowParagraphMarks { get; set; }
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
-// Bazı paragraflar ekleyin, ardından paragrafların sonlarını göstermek için paragraf işaretlerini etkinleştirin
-// belgeyi oluşturduğumuzda bir pilcrow (¶) sembolü ile.
+// Birkaç paragraf ekleyin, ardından paragraf sonlarını göstermek için paragraf işaretlerini etkinleştirin
+// belgeyi oluşturduğumuzda pilcrow (¶) sembolüyle.
 builder.Writeln("Hello world!");
 builder.Writeln("Hello again!");
 

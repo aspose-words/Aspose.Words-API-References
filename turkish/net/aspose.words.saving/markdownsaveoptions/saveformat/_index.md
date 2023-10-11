@@ -3,7 +3,7 @@ title: MarkdownSaveOptions.SaveFormat
 second_title: Aspose.Words for .NET API Referansı
 description: MarkdownSaveOptions mülk. Bu kaydetme seçenekleri nesnesi kullanılırsa belgenin kaydedileceği biçimi belirtir. YalnızcaMarkdown .
 type: docs
-weight: 50
+weight: 70
 url: /tr/net/aspose.words.saving/markdownsaveoptions/saveformat/
 ---
 ## MarkdownSaveOptions.SaveFormat property

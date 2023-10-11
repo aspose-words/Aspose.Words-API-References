@@ -22,7 +22,7 @@ Montre comment combiner les lignes de deux tables en une seule.
 Document doc = new Document(MyDir + "Tables.docx");
 
 // Vous trouverez ci-dessous deux manières d'obtenir un tableau à partir d'un document.
-// 1 - Depuis la collection "Tables" d'un noeud Body :
+// 1 - Depuis la collection "Tables" d'un nœud Body :
 Table firstTable = doc.FirstSection.Body.Tables[0];
 
 // 2 - Utilisation de la méthode "GetChild" :

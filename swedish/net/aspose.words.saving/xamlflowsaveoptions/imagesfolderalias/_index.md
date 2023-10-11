@@ -20,7 +20,7 @@ När du sparar en[`Document`](../../../aspose.words/document/) i XAML-format må
 
 Om`ImagesFolderAlias` inte är en tom sträng, så blir bilden URI written till XAMLImagesFolderAlias + &lt;bildfilnamn&gt;.
 
-Om`ImagesFolderAlias` är en tom sträng, kommer bildens URI som är skriven till XAML att varaImagesFolder + &lt;bildfilnamn&gt;.
+Om`ImagesFolderAlias`är en tom sträng, kommer bildens URI som är skriven till XAML att varaImagesFolder + &lt;bildfilnamn&gt;.
 
 Om`ImagesFolderAlias` är satt till '.' (prick), då kommer bildfilens namn att skrivas till XAML utan sökväg oavsett andra alternativ.
 
@@ -29,6 +29,7 @@ Om`ImagesFolderAlias` är satt till '.' (prick), då kommer bildfilens namn att 
 Visar hur man skriver ut filnamnen på länkade bilder som skapats när ett dokument konverteras till flödesformat .xaml.
 
 ```csharp
+public void ImageFolder()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
@@ -58,6 +59,7 @@ Visar hur man skriver ut filnamnen på länkade bilder som skapats när ett doku
 
     foreach (string resource in callback.Resources)
         Console.WriteLine($"{callback.ImagesFolderAlias}/{resource}");
+}
 
 /// <summary>
 /// Räknar och skriver ut filnamn på bilder medan deras överordnade dokument konverteras till flödesformen .xaml.

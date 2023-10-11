@@ -3,7 +3,7 @@ title: Aspose.Words.Markup
 second_title: Aspose.Words för .NET API Referens
 description: De Aspose.Words.Markup namnutrymmet innehåller klasser som representerar kunddefinierad semantik i ett dokument smarta taggar anpassade XML och strukturerade dokumenttaggar innehållskontroller.
 type: docs
-weight: 150
+weight: 160
 url: /sv/net/aspose.words.markup/
 ---
 De **Aspose.Words.Markup** namnutrymmet innehåller klasser som representerar kunddefinierad semantik i ett dokument: smarta taggar, anpassade XML och strukturerade dokumenttaggar (innehållskontroller).
@@ -20,7 +20,7 @@ De **Aspose.Words.Markup** namnutrymmet innehåller klasser som representerar ku
 | [CustomXmlPropertyCollection](./customxmlpropertycollection/) | Representerar en samling anpassade XML-attribut eller egenskaper för smarta taggar. |
 | [CustomXmlSchemaCollection](./customxmlschemacollection/) | En samling strängar som representerar XML-scheman som är associerade med en anpassad XML-del. |
 | [SdtListItem](./sdtlistitem/) | Detta element specificerar ett enda listobjekt inom en förälderComboBox ellerDropDownList strukturerad dokumenttagg. |
-| [SdtListItemCollection](./sdtlistitemcollection/) | Ger tillgång till[`SdtListItem`](../aspose.words.markup/sdtlistitem/)element i en strukturerad dokumenttagg. |
+| [SdtListItemCollection](./sdtlistitemcollection/) | Ger tillgång till[`SdtListItem`](../aspose.words.markup/sdtlistitem/) element i en strukturerad dokumenttagg. |
 | [SmartTag](./smarttag/) | Detta element specificerar närvaron av en smart tagg runt en eller flera inline structures (körningar, bilder, fält, etc.) i ett stycke. |
 | [StructuredDocumentTag](./structureddocumenttag/) | Representerar en strukturerad dokumenttagg (SDT eller innehållskontroll) i ett dokument. |
 | [StructuredDocumentTagCollection](./structureddocumenttagcollection/) | En samling av[`IStructuredDocumentTag`](../aspose.words.markup/istructureddocumenttag/) instanser som representerar de strukturerade dokumenttaggarna i det angivna intervallet. |

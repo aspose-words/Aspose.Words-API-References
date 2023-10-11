@@ -3,7 +3,7 @@ title: Stroke.ImageBytes
 second_title: Aspose.Words för .NET API Referens
 description: Stroke fast egendom. Definierar bilden för en linjebild eller mönsterfyllning.
 type: docs
-weight: 100
+weight: 120
 url: /sv/net/aspose.words.drawing/stroke/imagebytes/
 ---
 ## Stroke.ImageBytes property

@@ -1,14 +1,14 @@
 ---
 title: LoadOptions.BaseUri
 second_title: Aspose.Words for .NET API Referansı
-description: LoadOptions mülk. Belgede bulunan göreli URIleri gerektiğinde mutlak URIlere çözümlemek için kullanılacak dizeyi alır veya ayarlar. Boş veya boş dize olabilir. Varsayılan null.
+description: LoadOptions mülk. Gerektiğinde belgede bulunan göreli URIleri mutlak URIlere çözümlemek için kullanılacak dizeyi alır veya ayarlar. Olabilirhükümsüz veya boş dize. Varsayılanhükümsüz .
 type: docs
 weight: 20
 url: /tr/net/aspose.words.loading/loadoptions/baseuri/
 ---
 ## LoadOptions.BaseUri property
 
-Belgede bulunan göreli URI'leri gerektiğinde mutlak URI'lere çözümlemek için kullanılacak dizeyi alır veya ayarlar. Boş veya boş dize olabilir. Varsayılan null.
+Gerektiğinde belgede bulunan göreli URI'leri mutlak URI'lere çözümlemek için kullanılacak dizeyi alır veya ayarlar. Olabilir`hükümsüz` veya boş dize. Varsayılan:`hükümsüz` .
 
 ```csharp
 public string BaseUri { get; set; }
@@ -16,10 +16,10 @@ public string BaseUri { get; set; }
 
 ### Notlar
 
-Bu özellik, aşağıdaki durumlarda göreli URI'leri mutlak olarak çözümlemek için kullanılır:
+Bu özellik, aşağıdaki durumlarda göreceli URI'leri mutlak olarak çözümlemek için kullanılır:
 
-1. Bir akıştan bir HTML belgesi yüklerken ve belge, göreli URI'leri olan görüntüler içeriyor ve BASE HTML öğesinde belirtilen bir temel URI'ye sahip değil.
-2. Bir belgeyi PDF'ye ve diğer biçimlere kaydederken, ilgili URIs kullanılarak bağlanan resimleri almak için, böylece resimler çıktı belgesine kaydedilebilir.
+1. Bir akıştan bir HTML belgesi yüklerken ve belge göreli URI'leri olan görüntüler içeriyor ve BASE HTML öğesinde belirtilen bir temel URI'ye sahip değil.
+2. Bir belgeyi PDF'ye ve diğer formatlara kaydederken, ilgili URIs kullanılarak bağlanan görüntüleri almak ve böylece görüntülerin çıktı belgesine kaydedilmesini sağlamak.
 
 ### Örnekler
 
@@ -28,8 +28,8 @@ Temel URI kullanarak bir akıştan görüntüler içeren bir HTML belgesinin nas
 ```csharp
 using (Stream stream = File.OpenRead(MyDir + "Document.html"))
 {
-    // Yüklerken temel klasörün URI'sini iletin
-    // böylece HTML belgesinde göreli URI'leri olan herhangi bir resim bulunabilir.
+    // Temel klasörü yüklerken URI'yi iletin
+    // böylece HTML belgesindeki ilgili URI'lere sahip tüm görseller bulunabilir.
     LoadOptions loadOptions = new LoadOptions();
     loadOptions.BaseUri = ImageDir;
 

@@ -16,7 +16,7 @@ public Color HighlightColor { get; set; }
 
 ### Ejemplos
 
-Muestra cómo dar formato a una tirada de texto utilizando su propiedad de fuente.
+Muestra cómo dar formato a una serie de texto usando su propiedad de fuente.
 
 ```csharp
 Document doc = new Document();

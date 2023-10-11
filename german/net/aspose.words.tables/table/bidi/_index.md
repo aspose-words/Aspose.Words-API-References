@@ -1,14 +1,14 @@
 ---
 title: Table.Bidi
 second_title: Aspose.Words für .NET-API-Referenz
-description: Table eigendom. Ruft ab oder legt fest ob es sich um eine rechtsnachlinksTabelle handelt.
+description: Table eigendom. Ruft ab oder legt fest ob es sich um eine von rechts nach links verlaufende Tabelle handelt.
 type: docs
 weight: 80
 url: /de/net/aspose.words.tables/table/bidi/
 ---
 ## Table.Bidi property
 
-Ruft ab oder legt fest, ob es sich um eine rechts-nach-links-Tabelle handelt.
+Ruft ab oder legt fest, ob es sich um eine von rechts nach links verlaufende Tabelle handelt.
 
 ```csharp
 public bool Bidi { get; set; }
@@ -16,13 +16,13 @@ public bool Bidi { get; set; }
 
 ### Bemerkungen
 
-Wann`Stimmt`, werden die Zellen in dieser Zeile von rechts nach links angeordnet.
+Wann`WAHR`, sind die Zellen in dieser Zeile von rechts nach links angeordnet.
 
 Der Standardwert ist`FALSCH`.
 
 ### Beispiele
 
-Zeigt, wie benutzerdefinierte Stileinstellungen für die Tabelle erstellt werden.
+Zeigt, wie Sie benutzerdefinierte Stileinstellungen für die Tabelle erstellen.
 
 ```csharp
 Document doc = new Document();

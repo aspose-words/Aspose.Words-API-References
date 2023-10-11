@@ -1,14 +1,14 @@
 ---
 title: OleFormat.AutoUpdate
 second_title: Aspose.Words لمراجع .NET API
-description: OleFormat ملكية. يحدد ما إذا كان الارتباط إلى كائن OLE يتم تحديثه تلقائيًا أم لا في Microsoft Word.
+description: OleFormat ملكية. يحدد ما إذا كان الارتباط بكائن OLE سيتم تحديثه تلقائيًا أم لا في Microsoft Word.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.drawing/oleformat/autoupdate/
 ---
 ## OleFormat.AutoUpdate property
 
-يحدد ما إذا كان الارتباط إلى كائن OLE يتم تحديثه تلقائيًا أم لا في Microsoft Word.
+يحدد ما إذا كان الارتباط بكائن OLE سيتم تحديثه تلقائيًا أم لا في Microsoft Word.
 
 ```csharp
 public bool AutoUpdate { get; set; }
@@ -16,7 +16,7 @@ public bool AutoUpdate { get; set; }
 
 ### ملاحظات
 
-النظام الأساسي **خاطئة**.
+القيمة الافتراضية هي`خطأ شنيع`.
 
 ### أمثلة
 
@@ -26,7 +26,7 @@ public bool AutoUpdate { get; set; }
 Document doc = new Document(MyDir + "OLE spreadsheet.docm");
 Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
 
-// كائن OLE في الشكل الأول هو جدول بيانات Microsoft Excel.
+// كائن OLE الموجود في الشكل الأول هو جدول بيانات Microsoft Excel.
 OleFormat oleFormat = shape.OleFormat;
 
 Assert.AreEqual("Excel.Sheet.12", oleFormat.ProgId);
@@ -35,18 +35,18 @@ Assert.AreEqual("Excel.Sheet.12", oleFormat.ProgId);
 Assert.False(oleFormat.AutoUpdate);
 Assert.AreEqual(false, oleFormat.IsLocked);
 
-// إذا كنا نخطط لحفظ كائن OLE في ملف في نظام الملفات المحلي ،
-// يمكننا استخدام خاصية "اقتراح ملحق" لتحديد امتداد الملف المطلوب تطبيقه على الملف.
+// إذا كنا نخطط لحفظ كائن OLE في ملف في نظام الملفات المحلي،
+// يمكننا استخدام خاصية "SuggestedExtension" لتحديد امتداد الملف الذي سيتم تطبيقه على الملف.
 Assert.AreEqual(".xlsx", oleFormat.SuggestedExtension);
 
-// فيما يلي طريقتان لحفظ كائن OLE إلى ملف في نظام الملفات المحلي.
-// 1 - احفظه عبر تيار:
+// فيما يلي طريقتان لحفظ كائن OLE في ملف في نظام الملفات المحلي.
+// 1 - احفظه عبر الدفق:
 using (FileStream fs = new FileStream(ArtifactsDir + "OLE spreadsheet extracted via stream" + oleFormat.SuggestedExtension, FileMode.Create))
 {
     oleFormat.Save(fs);
 }
 
-// 2 - احفظه مباشرة في اسم ملف:
+// 2 - احفظه مباشرة في اسم الملف:
 oleFormat.Save(ArtifactsDir + "OLE spreadsheet saved directly" + oleFormat.SuggestedExtension);
 ```
 

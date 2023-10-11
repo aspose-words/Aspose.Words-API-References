@@ -1,14 +1,16 @@
 ---
 title: Class CustomXmlPropertyCollection
 second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Markup.CustomXmlPropertyCollection сорт. Представляет набор настраиваемых XMLатрибутов или свойств смарттегов.
+description: Aspose.Words.Markup.CustomXmlPropertyCollection сорт. Представляет коллекцию пользовательских атрибутов XML или свойств смарттегов.
 type: docs
-weight: 3710
+weight: 3950
 url: /ru/net/aspose.words.markup/customxmlpropertycollection/
 ---
 ## CustomXmlPropertyCollection class
 
-Представляет набор настраиваемых XML-атрибутов или свойств смарт-тегов.
+Представляет коллекцию пользовательских атрибутов XML или свойств смарт-тегов.
+
+Чтобы узнать больше, посетите[Структурированные теги документа или контроль содержимого](https://docs.aspose.com/words/net/working-with-content-control-sdt/) статья документации.
 
 ```csharp
 public class CustomXmlPropertyCollection : IEnumerable<CustomXmlProperty>
@@ -28,7 +30,7 @@ public class CustomXmlPropertyCollection : IEnumerable<CustomXmlProperty>
 | [Add](../../aspose.words.markup/customxmlpropertycollection/add/)(CustomXmlProperty) | Добавляет свойство в коллекцию. |
 | [Clear](../../aspose.words.markup/customxmlpropertycollection/clear/)() | Удаляет все элементы из коллекции. |
 | [Contains](../../aspose.words.markup/customxmlpropertycollection/contains/)(string) | Определяет, содержит ли коллекция свойство с заданным именем. |
-| [GetEnumerator](../../aspose.words.markup/customxmlpropertycollection/getenumerator/)() | Возвращает объект перечислителя, который можно использовать для перебора всех элементов в коллекции. |
+| [GetEnumerator](../../aspose.words.markup/customxmlpropertycollection/getenumerator/)() | Возвращает объект перечислителя, который можно использовать для перебора всех элементов коллекции. |
 | [IndexOfKey](../../aspose.words.markup/customxmlpropertycollection/indexofkey/)(string) | Возвращает отсчитываемый от нуля индекс указанного свойства в коллекции. |
 | [Remove](../../aspose.words.markup/customxmlpropertycollection/remove/)(string) | Удаляет свойство с указанным именем из коллекции. |
 | [RemoveAt](../../aspose.words.markup/customxmlpropertycollection/removeat/)(int) | Удаляет свойство по указанному индексу. |
@@ -44,17 +46,17 @@ public class CustomXmlPropertyCollection : IEnumerable<CustomXmlProperty>
 ```csharp
 Document doc = new Document(MyDir + "Smart tags.doc");
 
-// Смарт-тег появляется в документе, в котором Microsoft Word распознает часть своего текста как некую форму данных,
-// таких как имя, дата или адрес, и преобразует их в гиперссылку, которая подчеркнута фиолетовой пунктирной линией.
-// В Word 2003 мы можем включить смарт-теги через "Инструменты" -> "Параметры автозамены..." -> «Смарттеги».
+// Смарт-тег появляется в документе, когда Microsoft Word распознает часть его текста как некоторую форму данных,
+// например, имя, дата или адрес, и преобразует его в гиперссылку, подчеркнутую фиолетовым пунктиром.
+// В Word 2003 мы можем включить смарт-теги через «Инструменты» -> > "Параметры автозамены..." -> «СмартТеги».
 // В нашем входном документе есть три объекта, которые Microsoft Word зарегистрировал как смарт-теги.
-// Смарт-теги могут быть вложенными, поэтому в этой коллекции их больше.
+// Смарт-теги могут быть вложенными, поэтому эта коллекция содержит больше.
 SmartTag[] smartTags = doc.GetChildNodes(NodeType.SmartTag, true).OfType<SmartTag>().ToArray();
 
 Assert.AreEqual(8, smartTags.Length);
 
 // Элемент «Свойства» смарт-тега содержит его метаданные, которые будут разными для каждого типа смарт-тега.
-// Свойства смарт-тега типа «дата» содержат его год, месяц и день.
+// Свойства смарт-тега типа «дата» содержат год, месяц и день.
 CustomXmlPropertyCollection properties = smartTags[7].Properties;
 
 Assert.AreEqual(4, properties.Count);
@@ -85,7 +87,7 @@ properties.Remove("Year");
 
 Assert.AreEqual(2, properties.Count);
 
-// 3 - Очистить сразу всю коллекцию:
+// 3 - Очистить всю коллекцию сразу:
 properties.Clear();
 
 Assert.AreEqual(0, properties.Count);

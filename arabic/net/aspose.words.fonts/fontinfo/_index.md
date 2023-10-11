@@ -1,14 +1,16 @@
 ---
 title: Class FontInfo
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Fonts.FontInfo فصل. يحدد معلومات حول الخط المستخدم في الوثيقة.
+description: Aspose.Words.Fonts.FontInfo فصل. يحدد معلومات حول الخط المستخدم في المستند.
 type: docs
-weight: 2740
+weight: 2920
 url: /ar/net/aspose.words.fonts/fontinfo/
 ---
 ## FontInfo class
 
-يحدد معلومات حول الخط المستخدم في الوثيقة.
+يحدد معلومات حول الخط المستخدم في المستند.
+
+لمعرفة المزيد، قم بزيارة[العمل مع الخطوط](https://docs.aspose.com/words/net/working-with-fonts/) مقالة توثيقية.
 
 ```csharp
 public class FontInfo
@@ -20,22 +22,22 @@ public class FontInfo
 | --- | --- |
 | [AltName](../../aspose.words.fonts/fontinfo/altname/) { get; set; } | الحصول على الاسم البديل للخط أو تعيينه. |
 | [Charset](../../aspose.words.fonts/fontinfo/charset/) { get; set; } | الحصول على مجموعة الأحرف للخط أو تعيينها. |
-| [Family](../../aspose.words.fonts/fontinfo/family/) { get; set; } | الحصول على عائلة الخط التي ينتمي إليها هذا الخط أو تعيينها. |
-| [IsTrueType](../../aspose.words.fonts/fontinfo/istruetype/) { get; set; } | يشير إلى أن هذا الخط هو خط TrueType أو OpenType بدلاً من الخط النقطي أو المتجه. |
-| [Name](../../aspose.words.fonts/fontinfo/name/) { get; } | يحصل على اسم الخط. |
+| [Family](../../aspose.words.fonts/fontinfo/family/) { get; set; } | الحصول على عائلة الخطوط التي ينتمي إليها هذا الخط أو تعيينها. |
+| [IsTrueType](../../aspose.words.fonts/fontinfo/istruetype/) { get; set; } | يشير إلى أن هذا الخط هو خط TrueType أو OpenType بدلاً من الخط النقطي أو المتجه. الافتراضي هو`حقيقي` . |
+| [Name](../../aspose.words.fonts/fontinfo/name/) { get; } | الحصول على اسم الخط. |
 | [Panose](../../aspose.words.fonts/fontinfo/panose/) { get; set; } | الحصول على رقم تصنيف محرف PANOSE أو تعيينه. |
-| [Pitch](../../aspose.words.fonts/fontinfo/pitch/) { get; set; } | تشير درجة الصوت إلى ما إذا كان الخط ثابتًا أو متباعدًا بشكل متناسب أو يعتمد على إعداد افتراضي. |
+| [Pitch](../../aspose.words.fonts/fontinfo/pitch/) { get; set; } | تشير درجة الصوت إلى ما إذا كان الخط ثابتًا أو متباعدًا بشكل متناسب أو يعتمد على الإعداد الافتراضي. |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| [GetEmbeddedFont](../../aspose.words.fonts/fontinfo/getembeddedfont/)(EmbeddedFontFormat, EmbeddedFontStyle) | الحصول على ملف خط مضمن محدد . |
-| [GetEmbeddedFontAsOpenType](../../aspose.words.fonts/fontinfo/getembeddedfontasopentype/)(EmbeddedFontStyle) | يحصل على ملف خط مضمن بتنسيق OpenType. يتم تحويل الخطوط في تنسيق OpenType المضمن إلى OpenType. |
+| [GetEmbeddedFont](../../aspose.words.fonts/fontinfo/getembeddedfont/)(EmbeddedFontFormat, EmbeddedFontStyle) | يحصل على ملف خط مضمن محدد. |
+| [GetEmbeddedFontAsOpenType](../../aspose.words.fonts/fontinfo/getembeddedfontasopentype/)(EmbeddedFontStyle) | يحصل على ملف خط مضمن بتنسيق OpenType. يتم تحويل الخطوط بتنسيق OpenType المضمن إلى OpenType. |
 
 ### ملاحظات
 
-لا تقوم بإنشاء نسخ من هذه الفئة مباشرة. استخدم ملف[`FontInfos`](../../aspose.words/documentbase/fontinfos/) للوصول إلى مجموعة الخطوط المحددة في المستند.
+لا تقم بإنشاء مثيلات هذه الفئة مباشرة. استخدم[`FontInfos`](../../aspose.words/documentbase/fontinfos/) خاصية الوصول إلى مجموعة الخطوط المحددة في المستند.
 
 ### أمثلة
 
@@ -45,7 +47,7 @@ public class FontInfo
 Document doc = new Document(MyDir + "Embedded font.docx");
 
 FontInfoCollection allFonts = doc.FontInfos;
-// طباعة جميع الخطوط المستخدمة وغير المستخدمة في المستند.
+// اطبع جميع الخطوط المستخدمة وغير المستخدمة في المستند.
 for (int i = 0; i < allFonts.Count; i++)
 {
     Console.WriteLine($"Font index #{i}");

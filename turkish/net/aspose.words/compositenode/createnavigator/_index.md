@@ -1,14 +1,14 @@
 ---
 title: CompositeNode.CreateNavigator
 second_title: Aspose.Words for .NET API Referansı
-description: CompositeNode yöntem. Sistem kullanımı için ayrılmıştır. IXPathNavigable.
+description: CompositeNode yöntem. Düğümlerin arasında geçiş yapmak ve düğümleri okumak için kullanılabilecek gezgini oluşturur.
 type: docs
-weight: 80
+weight: 90
 url: /tr/net/aspose.words/compositenode/createnavigator/
 ---
 ## CompositeNode.CreateNavigator method
 
-Sistem kullanımı için ayrılmıştır. IXPathNavigable.
+Düğümlerin arasında geçiş yapmak ve düğümleri okumak için kullanılabilecek gezgini oluşturur.
 
 ```csharp
 [EditorBrowsable(EditorBrowsableState.Never)]
@@ -17,9 +17,10 @@ public XPathNavigator CreateNavigator()
 
 ### Örnekler
 
-Bir XPathNavigator'ın nasıl oluşturulacağını ve ardından düğümleri geçmek ve okumak için nasıl kullanılacağını gösterir.
+Bir XPathNavigator'ın nasıl oluşturulacağını ve ardından düğümlerin arasında geçiş yapmak ve düğümleri okumak için nasıl kullanılacağını gösterir.
 
 ```csharp
+public void NodeXPathNavigator()
 {
     Document doc = new Document();
     XPathNavigator navigator = doc.CreateNavigator();
@@ -30,9 +31,9 @@ Bir XPathNavigator'ın nasıl oluşturulacağını ve ardından düğümleri ge�
         Assert.AreEqual(false, navigator.MoveToNext());
         Assert.AreEqual(1, navigator.SelectChildren(XPathNodeType.All).Count);
 
-        // Belge ağacında belge, ilk bölüm,
-        // gövde ve düğümler olarak ilk paragraf, her biri bir öncekinin tek çocuğu.
-        // Gezginin geçmesi için ağaca bazı dallar vermek için birkaç tane daha ekleyebiliriz.
+        // Belge ağacında belgenin ilk bölümü bulunur,
+        // gövde ve ilk paragraf düğüm olarak; her biri bir öncekinin tek çocuğu olacak.
+        // Ağaca, gezginin geçebileceği birkaç dal vermek için birkaç tane daha ekleyebiliriz.
         DocumentBuilder docBuilder = new DocumentBuilder(doc);
         docBuilder.Write("Section 1, Paragraph 1. ");
         docBuilder.InsertParagraph();
@@ -45,12 +46,13 @@ Bir XPathNavigator'ın nasıl oluşturulacağını ve ardından düğümleri ge�
         StringBuilder stringBuilder = new StringBuilder();
         MapDocument(navigator, stringBuilder, 0);
         Console.Write(stringBuilder.ToString());
+    }
 }
 
 /// <summary>
-/// Bileşik düğümün tüm alt öğelerini çaprazlar ve yapıyı bir dizin ağacı stilinde eşler.
-/// Boşluk girintisi miktarı, ilk düğüme göre derinliği gösterir.
-/// Geçerli düğümün metin içeriğini yalnızca bir Run ise yazdırır.
+/// Bileşik bir düğümün tüm alt öğelerini çaprazlar ve yapıyı bir dizin ağacı tarzında eşler.
+/// Boşluk girintisinin miktarı, ilk düğüme göre derinliği belirtir.
+/// Geçerli düğümün metin içeriğini yalnızca Çalıştırma olması durumunda yazdırır.
 /// </summary>
 private static void MapDocument(XPathNavigator navigator, StringBuilder stringBuilder, int depth)
 {

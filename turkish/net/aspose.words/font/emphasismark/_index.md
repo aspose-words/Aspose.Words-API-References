@@ -16,7 +16,7 @@ public EmphasisMark EmphasisMark { get; set; }
 
 ### Örnekler
 
-Glif karakterinin üstünde/altında işlenen ek karakterin nasıl ekleneceğini gösterir.
+Glif karakterinin üstünde/altında oluşturulan ek karakterlerin nasıl ekleneceğini gösterir.
 
 ```csharp
 DocumentBuilder builder = new DocumentBuilder();

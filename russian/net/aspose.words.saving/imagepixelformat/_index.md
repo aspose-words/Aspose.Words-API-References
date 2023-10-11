@@ -1,14 +1,14 @@
 ---
 title: Enum ImagePixelFormat
 second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Saving.ImagePixelFormat перечисление. Указывает формат пикселей для сгенерированных изображений страниц документа.
+description: Aspose.Words.Saving.ImagePixelFormat перечисление. Определяет формат пикселей для создаваемых изображений страниц документа.
 type: docs
-weight: 4960
+weight: 5220
 url: /ru/net/aspose.words.saving/imagepixelformat/
 ---
 ## ImagePixelFormat enumeration
 
-Указывает формат пикселей для сгенерированных изображений страниц документа.
+Определяет формат пикселей для создаваемых изображений страниц документа.
 
 ```csharp
 public enum ImagePixelFormat
@@ -24,11 +24,11 @@ public enum ImagePixelFormat
 | Format24BppRgb | `3` | 24 бита на пиксель, RGB. |
 | Format32BppRgb | `4` | 32 бита на пиксель, RGB. |
 | Format32BppArgb | `5` | 32 бита на пиксель, ARGB. |
-| Format32BppPArgb | `6` | 32 бита на пиксель, ARGB, альфа-канал с предварительным умножением. |
+| Format32BppPArgb | `6` | 32 бита на пиксель, ARGB, предварительно умноженная альфа. |
 | Format48BppRgb | `7` | 48 бит на пиксель, RGB. |
 | Format64BppArgb | `8` | 64 бита на пиксель, ARGB. |
-| Format64BppPArgb | `9` | 64 бита на пиксель, ARGB, альфа-канал с предварительным умножением. |
-| Format1bppIndexed | `10` | 1 бит на пиксель, индексировано. |
+| Format64BppPArgb | `9` | 64 бита на пиксель, ARGB, предварительно умноженная альфа. |
+| Format1bppIndexed | `10` | 1 бит на пиксель, индексированный. |
 
 ### Примеры
 
@@ -44,9 +44,9 @@ Document doc = new Document();
 
             Assert.That(20000, Is.LessThan(new FileInfo(ImageDir + "Logo.jpg").Length));
 
-            // Когда мы сохраняем документ как изображение, мы можем передать объект SaveOptions в
-            // выберите формат пикселей для изображения, которое будет сгенерировано операцией сохранения.
-            // Различная скорость передачи битов на пиксель влияет на качество и размер файла сгенерированного изображения.
+            // Когда мы сохраняем документ как изображение, мы можем передать объект SaveOptions
+            // выбираем формат пикселей для изображения, которое будет создано при сохранении.
+            // Различная скорость передачи битов на пиксель будет влиять на качество и размер файла сгенерированного изображения.
             ImageSaveOptions imageSaveOptions = new ImageSaveOptions(SaveFormat.Png);
             imageSaveOptions.PixelFormat = imagePixelFormat;
 

@@ -1,14 +1,14 @@
 ---
 title: Shape.FirstParagraph
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Shape propriété. Récupère le premier paragraphe de la forme.
+description: Shape propriété. Obtient le premier paragraphe de la forme.
 type: docs
 weight: 60
 url: /fr/net/aspose.words.drawing/shape/firstparagraph/
 ---
 ## Shape.FirstParagraph property
 
-Récupère le premier paragraphe de la forme.
+Obtient le premier paragraphe de la forme.
 
 ```csharp
 public Paragraph FirstParagraph { get; }
@@ -16,7 +16,7 @@ public Paragraph FirstParagraph { get; }
 
 ### Exemples
 
-Montre comment créer et mettre en forme une zone de texte.
+Montre comment créer et formater une zone de texte.
 
 ```csharp
 Document doc = new Document();
@@ -31,7 +31,7 @@ textBox.Width = 200;
 textBox.HorizontalAlignment = HorizontalAlignment.Center;
 textBox.VerticalAlignment = VerticalAlignment.Top;
 
-// Ajoute un paragraphe à la zone de texte et ajoute une suite de texte que la zone de texte affichera.
+// Ajoutez un paragraphe à la zone de texte et ajoutez une séquence de texte que la zone de texte affichera.
 textBox.AppendChild(new Paragraph(doc));
 Paragraph para = textBox.FirstParagraph;
 para.ParagraphFormat.Alignment = ParagraphAlignment.Center;

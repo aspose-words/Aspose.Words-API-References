@@ -1,14 +1,14 @@
 ---
 title: VariableCollection.GetEnumerator
 second_title: Referencia de API de Aspose.Words para .NET
-description: VariableCollection método. Devuelve un objeto enumerador que se puede usar para iterar sobre todas las variables de la colección.
+description: VariableCollection método. Devuelve un objeto enumerador que se puede utilizar para iterar sobre todas las variables de la colección.
 type: docs
 weight: 60
 url: /es/net/aspose.words/variablecollection/getenumerator/
 ---
 ## VariableCollection.GetEnumerator method
 
-Devuelve un objeto enumerador que se puede usar para iterar sobre todas las variables de la colección.
+Devuelve un objeto enumerador que se puede utilizar para iterar sobre todas las variables de la colección.
 
 ```csharp
 public IEnumerator<KeyValuePair<string, string>> GetEnumerator()
@@ -56,12 +56,12 @@ Assert.AreEqual(0, variables.IndexOfKey("Bedrooms"));
 Assert.AreEqual(1, variables.IndexOfKey("City"));
 Assert.AreEqual(2, variables.IndexOfKey("Home address"));
 
-// Enumerar sobre la colección de variables.
+// Enumerar la colección de variables.
 using (IEnumerator<KeyValuePair<string, string>> enumerator = doc.Variables.GetEnumerator())
     while (enumerator.MoveNext())
         Console.WriteLine($"Name: {enumerator.Current.Key}, Value: {enumerator.Current.Value}");
 
-// A continuación se muestran tres formas de eliminar variables de documentos de una colección.
+// A continuación se muestran tres formas de eliminar variables de documento de una colección.
 // 1 - Por nombre:
 variables.Remove("City");
 

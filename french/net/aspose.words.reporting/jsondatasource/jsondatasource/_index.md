@@ -1,14 +1,14 @@
 ---
 title: JsonDataSource.JsonDataSource
 second_title: Référence de l'API Aspose.Words pour .NET
-description: JsonDataSource constructeur. Crée une nouvelle source de données avec les données dun fichier JSON en utilisant les options par défaut pour lanalyse des données JSON.
+description: JsonDataSource constructeur. Crée une nouvelle source de données avec les données dun fichier JSON en utilisant les options par défaut pour analyser les données JSON.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.reporting/jsondatasource/jsondatasource/
 ---
 ## JsonDataSource(string) {#constructor_2}
 
-Crée une nouvelle source de données avec les données d'un fichier JSON en utilisant les options par défaut pour l'analyse des données JSON.
+Crée une nouvelle source de données avec les données d'un fichier JSON en utilisant les options par défaut pour analyser les données JSON.
 
 ```csharp
 public JsonDataSource(string jsonPath)
@@ -16,7 +16,7 @@ public JsonDataSource(string jsonPath)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| jsonPath | String | Chemin d'accès au fichier JSON à utiliser comme source de données. |
+| jsonPath | String | Le chemin d'accès au fichier JSON à utiliser comme source de données. |
 
 ### Voir également
 
@@ -28,7 +28,7 @@ public JsonDataSource(string jsonPath)
 
 ## JsonDataSource(Stream) {#constructor}
 
-Crée une nouvelle source de données avec les données d'un flux JSON en utilisant les options par défaut pour l'analyse des données JSON.
+Crée une nouvelle source de données avec les données d'un flux JSON à l'aide des options par défaut pour analyser les données JSON.
 
 ```csharp
 public JsonDataSource(Stream jsonStream)
@@ -56,7 +56,7 @@ public JsonDataSource(string jsonPath, JsonDataLoadOptions options)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| jsonPath | String | Chemin d'accès au fichier JSON à utiliser comme source de données. |
+| jsonPath | String | Le chemin d'accès au fichier JSON à utiliser comme source de données. |
 | options | JsonDataLoadOptions | Options d'analyse des données JSON. |
 
 ### Voir également

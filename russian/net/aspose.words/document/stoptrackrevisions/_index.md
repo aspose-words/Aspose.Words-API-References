@@ -3,7 +3,7 @@ title: Document.StopTrackRevisions
 second_title: Справочник по API Aspose.Words для .NET
 description: Document метод. Останавливает автоматическую маркировку изменений документа как редакций.
 type: docs
-weight: 700
+weight: 740
 url: /ru/net/aspose.words/document/stoptrackrevisions/
 ---
 ## Document.StopTrackRevisions method
@@ -22,7 +22,7 @@ public void StopTrackRevisions()
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Редактирование документа обычно не считается редакцией, пока мы не начнем их отслеживать.
+// Редактирование документа обычно не считается редакцией, пока мы не начнем его отслеживать.
 builder.Write("Hello world! ");
 
 Assert.AreEqual(0, doc.Revisions.Count);
@@ -37,7 +37,7 @@ Assert.True(doc.FirstSection.Body.Paragraphs[0].Runs[1].IsInsertRevision);
 Assert.AreEqual("John Doe", doc.Revisions[0].Author);
 Assert.That(doc.Revisions[0].DateTime, Is.EqualTo(DateTime.Now).Within(10).Milliseconds);
 
-// Остановить отслеживание ревизий, чтобы не считать будущие правки ревизиями.
+// Прекратить отслеживание редакций, чтобы будущие изменения не считались редакциями.
 doc.StopTrackRevisions();
 builder.Write("Hello again! ");
 
@@ -45,7 +45,7 @@ Assert.AreEqual(1, doc.Revisions.Count);
 Assert.False(doc.FirstSection.Body.Paragraphs[0].Runs[2].IsInsertRevision);
 
 // Создание ревизий дает им дату и время операции.
-// Мы можем отключить это, передав DateTime.MinValue, когда начинаем отслеживать ревизии.
+// Мы можем отключить это, передав DateTime.MinValue, когда начинаем отслеживать версии.
 doc.StartTrackRevisions("John Doe", DateTime.MinValue);
 builder.Write("Hello again! ");
 
@@ -55,7 +55,7 @@ Assert.AreEqual(DateTime.MinValue, doc.Revisions[1].DateTime);
 
 // Мы можем принять/отклонить эти изменения программно
 // путем вызова таких методов, как Document.AcceptAllRevisions, или метода Accept каждой ревизии.
-// В Microsoft Word мы можем обработать их вручную через "Рецензирование" -> "Изменения".
+// В Microsoft Word мы можем обработать их вручную через «Просмотр» ->> "Изменения".
 doc.Save(ArtifactsDir + "Document.StartTrackRevisions.docx");
 ```
 

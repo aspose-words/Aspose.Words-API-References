@@ -3,7 +3,7 @@ title: DocumentBuilder.StartColumnBookmark
 second_title: Referencia de API de Aspose.Words para .NET
 description: DocumentBuilder método. Marca la posición actual en el documento como inicio de marcador de columna. La posición debe estar en una celda de la tabla.
 type: docs
-weight: 590
+weight: 630
 url: /es/net/aspose.words/documentbuilder/startcolumnbookmark/
 ---
 ## DocumentBuilder.StartColumnBookmark method
@@ -24,11 +24,11 @@ El nodo de inicio del marcador que se acaba de crear.
 
 ### Observaciones
 
-Un marcador de columna cubre una o más columnas en un rango de filas. Para crear un marcador válido you necesita llamar a ambos`StartColumnBookmark` y[`EndColumnBookmark`](../endcolumnbookmark/) con el mismo  **marcadorNombre** parámetro.
+Un marcador de columna cubre una o más columnas en un rango de filas. Para crear un marcador válido, you necesita llamar a ambos`StartColumnBookmark` y[`EndColumnBookmark`](../endcolumnbookmark/) con el mismo *bookmarkName*parámetro.
 
-Los marcadores mal formados o los marcadores con nombres duplicados se ignorarán cuando se guarde el documento.
+Los marcadores mal formados o con nombres duplicados se ignorarán cuando se guarde el documento.
 
-La posición real del insertado[`BookmarkStart`](../../bookmarkstart/) el nodo puede diferir de la posición actual del generador document .
+La posición real del insertado.[`BookmarkStart`](../../bookmarkstart/) El nodo puede diferir de la posición actual del constructor document .
 
 ### Ejemplos
 
@@ -41,9 +41,9 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.StartTable();
 
 builder.InsertCell();
-// Las celdas 1,2,4,5 se marcarán.
+// Las celdas 1,2,4,5 se marcarán como favoritas.
 builder.StartColumnBookmark("MyBookmark_1");
-// Los marcadores mal formados o los marcadores con nombres duplicados se ignorarán cuando se guarde el documento.
+// Los marcadores mal formados o con nombres duplicados se ignorarán cuando se guarde el documento.
 builder.StartColumnBookmark("MyBookmark_1");
 builder.StartColumnBookmark("BadStartBookmark");
 builder.Write("Cell 1");

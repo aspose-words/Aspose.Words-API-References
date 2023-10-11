@@ -1,14 +1,14 @@
 ---
 title: ImageSize.ImageSize
 second_title: Aspose.Words لمراجع .NET API
-description: ImageSize البناء. يقوم بتهيئة العرض والارتفاع للقيم المحددة بالبكسل. يقوم بتهيئة الدقة إلى 96 نقطة في البوصة. _
+description: ImageSize البناء. تهيئة العرض والارتفاع للقيم المحددة بالبكسل. تهيئة الدقة إلى 96 نقطة في البوصة.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.drawing/imagesize/imagesize/
 ---
 ## ImageSize(int, int) {#constructor}
 
-يقوم بتهيئة العرض والارتفاع للقيم المحددة بالبكسل. يقوم بتهيئة الدقة إلى 96 نقطة في البوصة. _
+تهيئة العرض والارتفاع للقيم المحددة بالبكسل. تهيئة الدقة إلى 96 نقطة في البوصة.
 
 ```csharp
 public ImageSize(int widthPixels, int heightPixels)
@@ -29,7 +29,7 @@ public ImageSize(int widthPixels, int heightPixels)
 
 ## ImageSize(int, int, double, double) {#constructor_1}
 
-يقوم بتهيئة العرض والارتفاع والدقة للقيم المحددة.
+تهيئة العرض والارتفاع والدقة للقيم المحددة.
 
 ```csharp
 public ImageSize(int widthPixels, int heightPixels, double horizontalResolution, 

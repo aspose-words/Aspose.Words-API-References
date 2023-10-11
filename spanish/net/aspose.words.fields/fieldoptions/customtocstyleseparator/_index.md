@@ -1,14 +1,14 @@
 ---
 title: FieldOptions.CustomTocStyleSeparator
 second_title: Referencia de API de Aspose.Words para .NET
-description: FieldOptions propiedad. Obtiene o establece un separador de estilo personalizado para el modificador t enFieldToc campo.
+description: FieldOptions propiedad. Obtiene o establece un separador de estilo personalizado para el modificador tFieldToc campo.
 type: docs
-weight: 50
+weight: 60
 url: /es/net/aspose.words.fields/fieldoptions/customtocstyleseparator/
 ---
 ## FieldOptions.CustomTocStyleSeparator property
 
-Obtiene o establece un separador de estilo personalizado para el modificador \t en[`FieldToc`](../../fieldtoc/) campo.
+Obtiene o establece un separador de estilo personalizado para el modificador \t[`FieldToc`](../../fieldtoc/) campo.
 
 ```csharp
 public string CustomTocStyleSeparator { get; set; }
@@ -16,43 +16,44 @@ public string CustomTocStyleSeparator { get; set; }
 
 ### Observaciones
 
-Por defecto, los estilos personalizados definidos por el interruptor \t en el[`FieldToc`](../../fieldtoc/) están separados por un delimitador tomado de la referencia cultural actual. Esta propiedad anula ese comportamiento al especificar un delimitador definido por el usuario.
+De forma predeterminada, los estilos personalizados definidos por el modificador \t en el[`FieldToc`](../../fieldtoc/)Los campos están separados por un delimitador tomado de la cultura actual. Esta propiedad anula ese comportamiento al especificar un delimitador definido por el usuario.
 
 ### Ejemplos
 
-Muestra cómo insertar una TOC y llenarla con entradas basadas en estilos de títulos.
+Muestra cómo insertar una tabla de contenido y completarla con entradas basadas en estilos de título.
 
 ```csharp
+public void FieldToc()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
     builder.StartBookmark("MyBookmark");
 
-    // Inserte un campo TOC, que compilará todos los encabezados en una tabla de contenido.
+    // Inserte un campo TOC, que compilará todos los títulos en una tabla de contenido.
     // Para cada encabezado, este campo creará una línea con el texto en ese estilo de encabezado a la izquierda,
     // y la página en la que aparece el encabezado a la derecha.
     FieldToc field = (FieldToc)builder.InsertField(FieldType.FieldTOC, true);
 
     // Usa la propiedad BookmarkName para enumerar solo los encabezados
-    // que aparecen dentro de los límites de un marcador con el nombre "MyBookmark".
+    // que aparecen dentro de los límites de un marcador con el nombre "MiMarcador".
     field.BookmarkName = "MyBookmark";
 
-    // El texto con un estilo de encabezado incorporado, como "Título 1", aplicado al mismo contará como un encabezado.
-    // Podemos nombrar estilos adicionales para que el TOC los recoja como encabezados en esta propiedad y sus niveles de TOC.
+    // El texto con un estilo de título incorporado, como "Título 1", aplicado contará como un título.
+    // Podemos nombrar estilos adicionales que el TOC seleccionará como encabezados en esta propiedad y sus niveles de TOC.
     field.CustomStyles = "Quote; 6; Intense Quote; 7";
 
-    // Por defecto, los niveles de Estilos/TOC están separados en la propiedad CustomStyles por una coma,
+    // De forma predeterminada, los niveles de estilos/TOC están separados en la propiedad CustomStyles por una coma.
     // pero podemos establecer un delimitador personalizado en esta propiedad.
     doc.FieldOptions.CustomTocStyleSeparator = ";";
 
-    // Configure el campo para excluir cualquier encabezado que tenga niveles de TOC fuera de este rango.
+    // Configure el campo para excluir cualquier título que tenga niveles de TOC fuera de este rango.
     field.HeadingLevelRange = "1-3";
 
     // El TOC no mostrará los números de página de los encabezados cuyos niveles de TOC estén dentro de este rango.
     field.PageNumberOmittingLevelRange = "2-5";
 
-      // Establecer una cadena personalizada que separará cada encabezado de su número de página.
+     // Establece una cadena personalizada que separará cada título de su número de página.
     field.EntrySeparator = "-";
     field.InsertHyperlinks = true;
     field.HideInWebLayout = false;
@@ -66,11 +67,11 @@ Muestra cómo insertar una TOC y llenarla con entradas basadas en estilos de tí
     InsertNewPageWithHeading(builder, "Third entry", "Quote");
     InsertNewPageWithHeading(builder, "Fourth entry", "Intense Quote");
 
-    // Estos dos encabezados tendrán los números de página omitidos porque están dentro del rango "2-5".
+    // Se omitirán los números de página de estos dos encabezados porque están dentro del rango "2-5".
     InsertNewPageWithHeading(builder, "Fifth entry", "Heading 2");
     InsertNewPageWithHeading(builder, "Sixth entry", "Heading 3");
 
-    // Esta entrada no aparece porque "Título 4" está fuera del rango "1-3" que hemos establecido anteriormente.
+    // Esta entrada no aparece porque el "Título 4" está fuera del rango "1-3" que establecimos anteriormente.
     InsertNewPageWithHeading(builder, "Seventh entry", "Heading 4");
 
     builder.EndBookmark("MyBookmark");
@@ -84,6 +85,7 @@ Muestra cómo insertar una TOC y llenarla con entradas basadas en estilos de tí
     field.UpdatePageNumbers();
     doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.TOC.docx");
+}
 
 /// <summary>
 /// Comienza una nueva página e inserta un párrafo de un estilo específico.

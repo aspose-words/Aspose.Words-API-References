@@ -1,14 +1,14 @@
 ---
 title: BarcodeParameters.PosCodeStyle
 second_title: Referencia de API de Aspose.Words para .NET
-description: BarcodeParameters propiedad. Estilo de un código de barras de Punto de Venta tipos de código de barras UPCAUPCEEAN13EAN8. Los valores válidos sin distinción entre mayúsculas y minúsculas son STDSUP2SUP5CASE.
+description: BarcodeParameters propiedad. Estilo de un código de barras de Punto de Venta tipos de códigos de barras UPCAUPCEEAN13EAN8. Los valores válidos sin distinguir entre mayúsculas y minúsculas son STDSUP2SUP5CASE.
 type: docs
 weight: 140
 url: /es/net/aspose.words.fields/barcodeparameters/poscodestyle/
 ---
 ## BarcodeParameters.PosCodeStyle property
 
-Estilo de un código de barras de Punto de Venta (tipos de código de barras UPCA&#x7C;UPCE&#x7C;EAN13&#x7C;EAN8). Los valores válidos (sin distinción entre mayúsculas y minúsculas) son [STD&#x7C;SUP2&#x7C;SUP5&#x7C;CASE].
+Estilo de un código de barras de Punto de Venta (tipos de códigos de barras UPCA&#x7C;UPCE&#x7C;EAN13&#x7C;EAN8). Los valores válidos (sin distinguir entre mayúsculas y minúsculas) son [STD&#x7C;SUP2&#x7C;SUP5&#x7C;CASE].
 
 ```csharp
 public string PosCodeStyle { get; set; }
@@ -16,20 +16,19 @@ public string PosCodeStyle { get; set; }
 
 ### Ejemplos
 
-Muestra cómo utilizar un generador de código de barras.
+Muestra cómo utilizar un generador de códigos de barras.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
-
 // Podemos usar una implementación personalizada de IBarcodeGenerator para generar códigos de barras,
 // y luego insertarlos en el documento como imágenes.
 doc.FieldOptions.BarcodeGenerator = new CustomBarcodeGenerator();
 
-// A continuación hay cuatro ejemplos de diferentes tipos de códigos de barras que podemos crear usando nuestro generador.
+// A continuación se muestran cuatro ejemplos de diferentes tipos de códigos de barras que podemos crear usando nuestro generador.
 // Para cada código de barras, especificamos un nuevo conjunto de parámetros de código de barras y luego generamos la imagen.
 // Luego, podemos insertar la imagen en el documento o guardarla en el sistema de archivos local.
-// 1 - Código QR:
+// 1 - código QR:
 BarcodeParameters barcodeParameters = new BarcodeParameters
 {
     BarcodeType = "QR",
@@ -61,7 +60,7 @@ img = doc.FieldOptions.BarcodeGenerator.GetBarcodeImage(barcodeParameters);
 img.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.EAN13.jpg");
 builder.InsertImage(img);
 
-// 3 - Código de barras CODE39:
+// 3 - código de barras CODE39:
 barcodeParameters = new BarcodeParameters
 {
     BarcodeType = "CODE39",
@@ -73,7 +72,7 @@ img = doc.FieldOptions.BarcodeGenerator.GetBarcodeImage(barcodeParameters);
 img.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.CODE39.jpg");
 builder.InsertImage(img);
 
-// 4 - código de barras ITF14:
+// 4 - Código de barras ITF14:
 barcodeParameters = new BarcodeParameters
 {
     BarcodeType = "ITF14",

@@ -3,12 +3,14 @@ title: Class TxtListIndentation
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Saving.TxtListIndentation klass. Anger hur listnivåer dras in när dokumentet exporteras tillText format.
 type: docs
-weight: 5370
+weight: 5650
 url: /sv/net/aspose.words.saving/txtlistindentation/
 ---
 ## TxtListIndentation class
 
 Anger hur listnivåer dras in när dokumentet exporteras tillText format.
+
+För att lära dig mer, besök[Spara ett dokument](https://docs.aspose.com/words/net/save-a-document/) dokumentationsartikel.
 
 ```csharp
 public class TxtListIndentation

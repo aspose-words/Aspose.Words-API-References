@@ -1,14 +1,14 @@
 ---
 title: HtmlSaveOptions.CssClassNamePrefix
 second_title: Aspose.Words per .NET API Reference
-description: HtmlSaveOptions proprietà. Specifica un prefisso che viene aggiunto a tutti i nomi delle classi CSS. Il valore predefinito è una stringa vuota e i nomi delle classi CSS generati non hanno un prefisso comune.
+description: HtmlSaveOptions proprietà. Specifica un prefisso che viene aggiunto a tutti i nomi delle classi CSS. Il valore predefinito è una stringa vuota e i nomi delle classi CSS generati non hanno prefisso comune.
 type: docs
 weight: 30
 url: /it/net/aspose.words.saving/htmlsaveoptions/cssclassnameprefix/
 ---
 ## HtmlSaveOptions.CssClassNamePrefix property
 
-Specifica un prefisso che viene aggiunto a tutti i nomi delle classi CSS. Il valore predefinito è una stringa vuota e i nomi delle classi CSS generati non hanno un prefisso comune.
+Specifica un prefisso che viene aggiunto a tutti i nomi delle classi CSS. Il valore predefinito è una stringa vuota e i nomi delle classi CSS generati non hanno prefisso comune.
 
 ```csharp
 public string CssClassNamePrefix { get; set; }
@@ -22,13 +22,13 @@ public string CssClassNamePrefix { get; set; }
 
 ### Osservazioni
 
-Se questo valore non è vuoto, tutte le classi CSS generate da Aspose.Words inizieranno con il prefisso specificato. Ciò potrebbe essere utile, ad esempio, se aggiungi CSS personalizzato ai documenti generati e desideri prevenire conflitti di nome di classe .
+Se questo valore non è vuoto, tutte le classi CSS generate da Aspose.Words inizieranno con il prefisso specificato. Ciò potrebbe essere utile, ad esempio, se aggiungi CSS personalizzati ai documenti generati e desideri prevenire conflitti di nomi class .
 
-Se il valore non è`nullo` o vuoto, deve essere un identificatore CSS valido.
+Se il valore non lo è`nullo` o vuoto, deve essere un identificatore CSS valido.
 
 ### Esempi
 
-Mostra come salvare un documento in HTML e aggiungere un prefisso a tutti i suoi nomi di classe CSS.
+Mostra come salvare un documento in HTML e aggiungere un prefisso a tutti i nomi delle classi CSS.
 
 ```csharp
 Document doc = new Document(MyDir + "Paragraphs.docx");

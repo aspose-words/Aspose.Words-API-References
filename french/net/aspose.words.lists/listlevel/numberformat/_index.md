@@ -16,24 +16,24 @@ public string NumberFormat { get; set; }
 
 ### Remarques
 
-Parmi les caractères de texte normaux, la chaîne peut contenir des caractères d'espace réservé \x0000 à \x0008 représentant les numéros des niveaux de liste correspondants.
+Parmi les caractères de texte normaux, la chaîne peut contenir des caractères fictifs \x0000 à \x0008 représentant les nombres des niveaux de liste correspondants.
 
-Par exemple, la chaîne "\x0000.\x0001)" générera une liste label qui ressemble à quelque chose comme "1.5)". Le nombre "1" est le nombre actuel de le 1er niveau de liste, le nombre "5" est le nombre actuel du 2ème niveau de liste.
+Par exemple, la chaîne "\x0000.\x0001)" générera une liste label qui ressemble à "1.5)". Le nombre "1" est le numéro actuel de le 1er niveau de liste, le chiffre "5" est le numéro actuel du 2ème niveau de liste.
 
 Null n'est pas autorisé, mais une chaîne vide signifiant qu'aucun nombre n'est valide.
 
 ### Exemples
 
-Montre comment appliquer une mise en forme de liste personnalisée aux paragraphes lors de l'utilisation de DocumentBuilder.
+Montre comment appliquer une mise en forme de liste personnalisée aux paragraphes lors de l’utilisation de DocumentBuilder.
 
 ```csharp
 Document doc = new Document();
 
 // Une liste nous permet d'organiser et de décorer des ensembles de paragraphes avec des symboles de préfixe et des retraits.
-// Nous pouvons créer des listes imbriquées en augmentant le niveau d'indentation. 
-// Nous pouvons commencer et terminer une liste en utilisant la propriété "ListFormat" d'un générateur de document. 
+ // Nous pouvons créer des listes imbriquées en augmentant le niveau d'indentation.
+ // Nous pouvons commencer et terminer une liste en utilisant la propriété "ListFormat" d'un générateur de documents.
 // Chaque paragraphe que nous ajoutons entre le début et la fin d'une liste deviendra un élément de la liste.
-// Crée une liste à partir d'un modèle Microsoft Word et personnalise les deux premiers de ses niveaux de liste.
+// Créez une liste à partir d'un modèle Microsoft Word et personnalisez les deux premiers niveaux de liste.
 List list = doc.Lists.Add(ListTemplate.NumberDefault);
 
 ListLevel listLevel = list.ListLevels[0];
@@ -78,45 +78,45 @@ builder.ListFormat.RemoveNumbers();
 builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 ```
 
-Affiche des méthodes avancées de personnalisation des étiquettes de liste.
+Présente des méthodes avancées de personnalisation des étiquettes de liste.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Une liste nous permet d'organiser et de décorer des ensembles de paragraphes avec des symboles de préfixe et des retraits.
-// Nous pouvons créer des listes imbriquées en augmentant le niveau d'indentation. 
-// Nous pouvons commencer et terminer une liste en utilisant la propriété "ListFormat" d'un générateur de document. 
+ // Nous pouvons créer des listes imbriquées en augmentant le niveau d'indentation.
+ // Nous pouvons commencer et terminer une liste en utilisant la propriété "ListFormat" d'un générateur de documents.
 // Chaque paragraphe que nous ajoutons entre le début et la fin d'une liste deviendra un élément de la liste.
 List list = doc.Lists.Add(ListTemplate.NumberDefault);
 
 // Les étiquettes de niveau 1 seront formatées selon le style de paragraphe "Titre 1" et auront un préfixe.
-// Celles-ci ressembleront à "Appendix A", "Appendix B"...
+// Ceux-ci ressembleront à "Annexe A", "Annexe B"...
 list.ListLevels[0].NumberFormat = "Appendix \x0000";
 list.ListLevels[0].NumberStyle = NumberStyle.UppercaseLetter;
 list.ListLevels[0].LinkedStyle = doc.Styles["Heading 1"];
 
 // Les étiquettes de niveau 2 afficheront les numéros actuels des premier et deuxième niveaux de liste et auront des zéros non significatifs.
-// Si le premier niveau de liste est à 1, alors les étiquettes de liste de celles-ci ressembleront à "Section (1.01)", "Section (1.02)"...
+// Si le premier niveau de liste est à 1, alors les étiquettes de liste de ceux-ci ressembleront à "Section (1.01)", "Section (1.02)"...
 list.ListLevels[1].NumberFormat = "Section (\x0000.\x0001)";
 list.ListLevels[1].NumberStyle = NumberStyle.LeadingZero;
 
-// Notez que le niveau supérieur utilise la numérotation en lettres majuscules.
-// Nous pouvons définir la propriété "IsLegal" pour utiliser des chiffres arabes pour les niveaux de liste supérieurs.
+// Notez que le niveau supérieur utilise la numérotation UppercaseLetter.
+// Nous pouvons définir la propriété "IsLegal" pour qu'elle utilise des nombres arabes pour les niveaux de liste supérieurs.
 list.ListLevels[1].IsLegal = true;
 list.ListLevels[1].RestartAfterLevel = 0;
 
-// Les étiquettes de niveau 3 seront des chiffres romains majuscules avec un préfixe et un suffixe et recommenceront à chaque élément de niveau 1 de la liste.
+// Les étiquettes de niveau 3 seront des chiffres romains majuscules avec un préfixe et un suffixe et redémarreront à chaque élément de niveau 1 de la liste.
 // Ces étiquettes de liste ressembleront à "-I-", "-II-"...
 list.ListLevels[2].NumberFormat = "-\x0002-";
 list.ListLevels[2].NumberStyle = NumberStyle.UppercaseRoman;
 list.ListLevels[2].RestartAfterLevel = 1;
 
-// Met les étiquettes de tous les niveaux de liste en gras.
+// Mettez les étiquettes de tous les niveaux de liste en gras.
 foreach (ListLevel level in list.ListLevels)
     level.Font.Bold = true;
 
-// Applique le formatage de la liste au paragraphe courant.
+// Applique le formatage de la liste au paragraphe actuel.
 builder.ListFormat.List = list;
 
 // Créez des éléments de liste qui afficheront nos trois niveaux de liste.

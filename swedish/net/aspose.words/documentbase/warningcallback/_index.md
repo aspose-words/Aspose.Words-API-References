@@ -1,14 +1,14 @@
 ---
 title: DocumentBase.WarningCallback
 second_title: Aspose.Words för .NET API Referens
-description: DocumentBase fast egendom. Anropas under olika dokumentbehandlingsprocedurer när ett problem upptäcks som kan resultera i data eller formateringsförlust.
+description: DocumentBase fast egendom. Anropas under olika dokumentbehandlingsprocedurer när ett problem upptäcks som kan resultera i förlust av data eller formatering.
 type: docs
 weight: 90
 url: /sv/net/aspose.words/documentbase/warningcallback/
 ---
 ## DocumentBase.WarningCallback property
 
-Anropas under olika dokumentbehandlingsprocedurer när ett problem upptäcks som kan resultera i data- eller formateringsförlust.
+Anropas under olika dokumentbehandlingsprocedurer när ett problem upptäcks som kan resultera i förlust av data eller formatering.
 
 ```csharp
 public IWarningCallback WarningCallback { get; set; }
@@ -23,6 +23,7 @@ Dokument kan generera varningar i vilket skede som helst av dess existens, så d
 Visar hur man använder IWarningCallback-gränssnittet för att övervaka varningar för teckensnittsersättning.
 
 ```csharp
+public void SubstitutionWarning()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -46,9 +47,10 @@ Visar hur man använder IWarningCallback-gränssnittet för att övervaka varnin
 
     FontSettings.DefaultInstance.SetFontsSources(originalFontSources);
 
+    Assert.True(callback.FontSubstitutionWarnings[0].WarningType == WarningType.FontSubstitution);
     Assert.True(callback.FontSubstitutionWarnings[0].Description
         .Equals(
-            "Font 'Times New Roman' has not been found. Using 'Fanwood' font instead. Reason: first available font."));
+            "Font 'Times New Roman' has not been found. Using 'Fanwood' font instead. Reason: first available font.", StringComparison.Ordinal));
 }
 
 private class FontSubstitutionWarningCollector : IWarningCallback
@@ -69,7 +71,6 @@ private class FontSubstitutionWarningCollector : IWarningCallback
 Visar hur du ställer in egenskapen för att hitta den närmaste matchningen för ett saknat teckensnitt från tillgängliga teckensnittskällor.
 
 ```csharp
-[Test]
 public void EnableFontSubstitution()
 {
     // Öppna ett dokument som innehåller text formaterad med ett teckensnitt som inte finns i någon av våra teckensnittskällor.
@@ -84,6 +85,9 @@ public void EnableFontSubstitution()
     fontSettings.SubstitutionSettings.DefaultFontSubstitution.DefaultFontName = "Arial";
     ;
     fontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
+
+    // Original teckensnittsmått bör användas efter teckensnittsersättning.
+    doc.LayoutOptions.KeepOriginalFontMetrics = true;
 
     // Vi kommer att få en varning för ersättning av teckensnitt om vi sparar ett dokument med ett teckensnitt som saknas.
     doc.FontSettings = fontSettings;

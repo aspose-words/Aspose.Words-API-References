@@ -3,7 +3,7 @@ title: Enum WatermarkType
 second_title: Referencia de API de Aspose.Words para .NET
 description: Aspose.Words.WatermarkType enumeración. Especifica el tipo de marca de agua.
 type: docs
-weight: 6380
+weight: 6690
 url: /es/net/aspose.words/watermarktype/
 ---
 ## WatermarkType enumeration
@@ -29,7 +29,7 @@ Muestra cómo crear una marca de agua de texto.
 ```csharp
 Document doc = new Document();
 
-// Agregue una marca de agua de texto sin formato.
+// Agrega una marca de agua de texto sin formato.
 doc.Watermark.SetText("Aspose Watermark");
 
 // Si deseamos editar el formato del texto usándolo como marca de agua,

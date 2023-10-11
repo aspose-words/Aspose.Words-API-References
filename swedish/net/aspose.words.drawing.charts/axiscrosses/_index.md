@@ -3,7 +3,7 @@ title: Enum AxisCrosses
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Drawing.Charts.AxisCrosses uppräkning. Anger möjliga korsningspunkter för en axel.
 type: docs
-weight: 530
+weight: 540
 url: /sv/net/aspose.words.drawing.charts/axiscrosses/
 ---
 ## AxisCrosses enumeration

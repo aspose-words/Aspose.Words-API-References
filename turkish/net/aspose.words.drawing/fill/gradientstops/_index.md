@@ -1,14 +1,14 @@
 ---
 title: Fill.GradientStops
 second_title: Aspose.Words for .NET API Referansı
-description: Fill mülk. Bir koleksiyon alırGradientStop dolgu için nesneler.
+description: Fill mülk. Şunlardan oluşan bir koleksiyon alırGradientStop dolgu için nesneler.
 type: docs
-weight: 50
+weight: 110
 url: /tr/net/aspose.words.drawing/fill/gradientstops/
 ---
 ## Fill.GradientStops property
 
-Bir koleksiyon alır[`GradientStop`](../../gradientstop/) dolgu için nesneler.
+Şunlardan oluşan bir koleksiyon alır:[`GradientStop`](../../gradientstop/) dolgu için nesneler.
 
 ```csharp
 public GradientStopCollection GradientStops { get; }
@@ -16,7 +16,7 @@ public GradientStopCollection GradientStops { get; }
 
 ### Örnekler
 
-Degrade dolguya degrade duraklarının nasıl ekleneceğini gösterir.
+Degrade dolgusuna degrade duraklarının nasıl ekleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -25,11 +25,11 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertShape(ShapeType.Rectangle, 80, 80);
 shape.Fill.TwoColorGradient(Color.Green, Color.Red, GradientStyle.Horizontal, GradientVariant.Variant2);
 
-// Degrade durak koleksiyonunu alın.
+// Degrade durakları koleksiyonunu alın.
 GradientStopCollection gradientStops = shape.Fill.GradientStops;
 
-// İlk degrade durağını değiştir.
-gradientStops[0].Color = Color.Aqua;
+// İlk degrade durağını değiştirin.            
+gradientStops[0].Color = Color.Aqua;            
 gradientStops[0].Position = 0.1;
 gradientStops[0].Transparency = 0.25;
 
@@ -48,6 +48,7 @@ gradientStops.Remove(gradientStop);
 
 Assert.AreEqual(2, gradientStops.Count);
 
+Assert.AreEqual(Color.FromArgb(255, 0, 255, 255), gradientStops[0].BaseColor);
 Assert.AreEqual(Color.Aqua.ToArgb(), gradientStops[0].Color.ToArgb());
 Assert.AreEqual(0.1d, gradientStops[0].Position, 0.01d);
 Assert.AreEqual(0.25d, gradientStops[0].Transparency, 0.01d);
@@ -56,8 +57,8 @@ Assert.AreEqual(Color.Chocolate.ToArgb(), gradientStops[1].Color.ToArgb());
 Assert.AreEqual(0.75d, gradientStops[1].Position, 0.01d);
 Assert.AreEqual(0.3d, gradientStops[1].Transparency, 0.01d);
 
-// DML kullanarak şekli tanımlamak için uyumluluk seçeneğini kullanın
-// Belge kaydedildikten sonra "GradientStops" özelliğini almak istiyorsanız.
+// Şekli DML kullanarak tanımlamak için uyumluluk seçeneğini kullanın
+// belge kaydedildikten sonra "GradientStops" özelliğini almak istiyorsanız.
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions { Compliance = OoxmlCompliance.Iso29500_2008_Strict };
 
 doc.Save(ArtifactsDir + "Shape.GradientStops.docx", saveOptions);

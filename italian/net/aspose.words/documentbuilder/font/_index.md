@@ -1,14 +1,14 @@
 ---
 title: DocumentBuilder.Font
 second_title: Aspose.Words per .NET API Reference
-description: DocumentBuilder proprietà. Restituisce un oggetto che rappresenta le proprietà di formattazione del carattere correnti.
+description: DocumentBuilder proprietà. Restituisce un oggetto che rappresenta le proprietà di formattazione del carattere corrente.
 type: docs
-weight: 90
+weight: 100
 url: /it/net/aspose.words/documentbuilder/font/
 ---
 ## DocumentBuilder.Font property
 
-Restituisce un oggetto che rappresenta le proprietà di formattazione del carattere correnti.
+Restituisce un oggetto che rappresenta le proprietà di formattazione del carattere corrente.
 
 ```csharp
 public Font Font { get; }
@@ -16,13 +16,13 @@ public Font Font { get; }
 
 ### Osservazioni
 
-Uso **Font** per accedere e modificare le proprietà di formattazione dei caratteri.
+Utilizzo`Font` per accedere e modificare le proprietà di formattazione dei caratteri.
 
 Specificare la formattazione del carattere prima di inserire il testo.
 
 ### Esempi
 
-Mostra come inserire una stringa racchiusa da un bordo in un documento.
+Mostra come inserire una stringa circondata da un bordo in un documento.
 
 ```csharp
 Document doc = new Document();
@@ -59,7 +59,7 @@ builder.Font.Bold = true;
 
 // La configurazione delle opzioni di formattazione in un generatore di documenti le applicherà
 // alla cella/riga corrente in cui si trova il cursore,
-// così come tutte le nuove celle e righe create usando quel builder.
+// così come qualsiasi nuova cella e riga creata utilizzando quel builder.
 builder.Write("Header Row,\n Cell 1");
 builder.InsertCell();
 builder.Write("Header Row,\n Cell 2");

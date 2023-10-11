@@ -3,7 +3,7 @@ title: CompositeNode.GetEnumerator
 second_title: Référence de l'API Aspose.Words pour .NET
 description: CompositeNode méthode. Fournit la prise en charge de chaque itération de style sur les nœuds enfants de ce nœud.
 type: docs
-weight: 110
+weight: 120
 url: /fr/net/aspose.words/compositenode/getenumerator/
 ---
 ## CompositeNode.GetEnumerator method
@@ -16,12 +16,12 @@ public IEnumerator<Node> GetEnumerator()
 
 ### Exemples
 
-Montre comment parcourir la collection de nœuds enfants d'un nœud composite.
+Montre comment parcourir la collection de nœuds enfants d’un nœud composite.
 
 ```csharp
 Document doc = new Document();
 
-// Ajoutez deux passages et une forme en tant que nœuds enfants au premier paragraphe de ce document.
+// Ajoutez deux tracés et une forme en tant que nœuds enfants au premier paragraphe de ce document.
 Paragraph paragraph = (Paragraph)doc.GetChild(NodeType.Paragraph, 0, true);
 paragraph.AppendChild(new Run(doc, "Hello world! "));
 
@@ -35,11 +35,11 @@ paragraph.AppendChild(shape);
 
 paragraph.AppendChild(new Run(doc, "Hello again!"));
 
-// Parcourt la collection d'enfants immédiats du paragraphe,
-// et imprimez toutes les pistes ou formes que nous trouvons à l'intérieur.
-NodeCollection children = paragraph.ChildNodes;
+// Parcourir la collection d'enfants immédiats du paragraphe,
+// et imprimons toutes les courses ou formes que nous trouvons à l'intérieur.
+NodeCollection children = paragraph.GetChildNodes(NodeType.Any, false);
 
-Assert.AreEqual(3, paragraph.ChildNodes.Count);
+Assert.AreEqual(3, paragraph.GetChildNodes(NodeType.Any, false).Count);
 
 foreach (Node child in children)
     switch (child.NodeType)
@@ -52,6 +52,7 @@ foreach (Node child in children)
             Shape childShape = (Shape)child;
             Console.WriteLine("Shape:");
             Console.WriteLine($"\t{childShape.ShapeType}, {childShape.Width}x{childShape.Height}");
+            break;
     }
 ```
 

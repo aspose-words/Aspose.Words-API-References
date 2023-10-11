@@ -1,14 +1,14 @@
 ---
 title: PdfSaveOptions.Clone
 second_title: Aspose.Words for .NET API Referansı
-description: PdfSaveOptions yöntem. Bu nesnenin derin bir klonunu oluşturur.
+description: PdfSaveOptions yöntem. Bu nesnenin derin bir kopyasını oluşturur.
 type: docs
-weight: 310
+weight: 340
 url: /tr/net/aspose.words.saving/pdfsaveoptions/clone/
 ---
 ## PdfSaveOptions.Clone method
 
-Bu nesnenin derin bir klonunu oluşturur.
+Bu nesnenin derin bir kopyasını oluşturur.
 
 ```csharp
 public PdfSaveOptions Clone()
@@ -16,13 +16,13 @@ public PdfSaveOptions Clone()
 
 ### Örnekler
 
-PDF'ye kaydetmeden hemen önce bir belgedeki tüm alanların nasıl güncelleneceğini gösterir.
+Bir belgedeki tüm alanların PDF'ye kaydedilmeden hemen önce nasıl güncelleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// SAYFA ve SAYILAR alanları ile metin ekleyin. Bu alanlar gerçek zamanlı olarak doğru değeri göstermez.
+// PAGE ve NUMPAGES alanlarıyla metin ekleyin. Bu alanlar gerçek zamanlı olarak doğru değeri göstermez.
 // "Field.Update()" ve "Document.UpdateFields()" gibi güncelleme yöntemlerini kullanarak bunları manuel olarak güncellememiz gerekecek.
 // her seferinde doğru değerleri göstermelerine ihtiyacımız var.
 builder.Write("Page ");
@@ -32,14 +32,14 @@ builder.InsertField("NUMPAGES", "");
 builder.InsertBreak(BreakType.PageBreak);
 builder.Writeln("Hello World!");
 
-// Belgenin "Kaydet" yöntemine aktarabileceğimiz bir "PdfSaveOptions" nesnesi oluşturun
-// bu yöntemin belgeyi .PDF'ye dönüştürme şeklini değiştirmek için.
+// Belgenin "Save" yöntemine aktarabileceğimiz bir "PdfSaveOptions" nesnesi oluşturun
+// bu yöntemin belgeyi .PDF'ye dönüştürme biçimini değiştirmek için.
 PdfSaveOptions options = new PdfSaveOptions();
 
-// Kaydetme işleminden hemen önce bir belgedeki tüm alanları güncellememek için "UpdateFields" özelliğini "false" olarak ayarlayın.
+// Bir belgedeki tüm alanların kaydetme işleminden hemen önce güncellenmemesi için "UpdateFields" özelliğini "false" olarak ayarlayın.
 // Kaydetmeden önce tüm alanlarımızın güncel olacağını biliyorsak bu tercih edilen seçenektir.
 // Tüm belgeyi yinelemek için "UpdateFields" özelliğini "true" olarak ayarlayın
-// alanları ve bunları PDF olarak kaydetmeden önce güncelleyin. Bu, tüm alanların görüntülenmesini sağlayacaktır.
+// alanlar ve PDF olarak kaydetmeden önce bunları güncelleyin. Bu, tüm alanların görüntülenmesini sağlayacaktır
 // PDF'deki en doğru değerler.
 options.UpdateFields = updateFields;
 

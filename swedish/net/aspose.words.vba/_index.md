@@ -3,7 +3,7 @@ title: Aspose.Words.Vba
 second_title: Aspose.Words för .NET API Referens
 description: De Aspose.Words.Vba namnutrymme tillhandahåller klasser för att arbeta med VBAprojekt.
 type: docs
-weight: 270
+weight: 280
 url: /sv/net/aspose.words.vba/
 ---
 De **Aspose.Words.Vba** namnutrymme tillhandahåller klasser för att arbeta med VBA-projekt.
@@ -12,6 +12,7 @@ De **Aspose.Words.Vba** namnutrymme tillhandahåller klasser för att arbeta med
 
 | Klass | Beskrivning |
 | --- | --- |
+| [VbaExecutableAttribute](./vbaexecutableattribute/) |  |
 | [VbaModule](./vbamodule/) | Ger tillgång till VBA-projektmodul. |
 | [VbaModuleCollection](./vbamodulecollection/) | Representerar en samling av[`VbaModule`](../aspose.words.vba/vbamodule/) objekt. |
 | [VbaProject](./vbaproject/) | Ger tillgång till VBA-projektinformation. Ett VBA-projekt inuti dokumentet definieras som en samling VBA-moduler. |

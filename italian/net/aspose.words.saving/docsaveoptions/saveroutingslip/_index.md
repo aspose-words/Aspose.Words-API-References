@@ -1,14 +1,14 @@
 ---
 title: DocSaveOptions.SaveRoutingSlip
 second_title: Aspose.Words per .NET API Reference
-description: DocSaveOptions proprietà. Quandofalso  I dati RoutingSlip non vengono salvati nel documento di output. Il valore predefinito è VERO .
+description: DocSaveOptions proprietà. Quandofalso  i dati RoutingSlip non vengono salvati nel documento di output. Il valore predefinito èVERO .
 type: docs
 weight: 60
 url: /it/net/aspose.words.saving/docsaveoptions/saveroutingslip/
 ---
 ## DocSaveOptions.SaveRoutingSlip property
 
-Quando`falso` , I dati RoutingSlip non vengono salvati nel documento di output. Il valore predefinito è **VERO** .
+Quando`falso` , i dati RoutingSlip non vengono salvati nel documento di output. Il valore predefinito è`VERO` .
 
 ```csharp
 public bool SaveRoutingSlip { get; set; }
@@ -29,7 +29,7 @@ DocSaveOptions options = new DocSaveOptions(SaveFormat.Doc);
 // Nota che questo non crittografa in alcun modo il contenuto del documento.
 options.Password = "MyPassword";
 
-// Se il documento contiene una lista di distribuzione, possiamo conservarla durante il salvataggio impostando questo flag su true.
+// Se il documento contiene una lista di distribuzione, possiamo preservarla durante il salvataggio impostando questo flag su true.
 options.SaveRoutingSlip = true;
 
 doc.Save(ArtifactsDir + "DocSaveOptions.SaveAsDoc.doc", options);

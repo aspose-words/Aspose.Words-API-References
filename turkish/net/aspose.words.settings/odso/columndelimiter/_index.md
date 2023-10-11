@@ -1,14 +1,14 @@
 ---
 title: Odso.ColumnDelimiter
 second_title: Aspose.Words for .NET API Referansı
-description: Odso mülk. Harici veri kaynakları içindeki sütunları ayırmak için kullanılan sütun sınırlayıcı olarak yorumlanacak karakteri belirtir. Varsayılan değer 0dır yani tanımlanmış sütun sınırlayıcı yoktur.
+description: Odso mülk. Harici veri kaynaklarındaki sütunları ayırmak için kullanılan sütun sınırlayıcı olarak yorumlanacak karakteri belirtir. Varsayılan değer 0dır bu tanımlanmış bir sütun sınırlayıcı olmadığı anlamına gelir.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.settings/odso/columndelimiter/
 ---
 ## Odso.ColumnDelimiter property
 
-Harici veri kaynakları içindeki sütunları ayırmak için kullanılan sütun sınırlayıcı olarak yorumlanacak karakteri belirtir. Varsayılan değer 0'dır, yani tanımlanmış sütun sınırlayıcı yoktur.
+Harici veri kaynaklarındaki sütunları ayırmak için kullanılan sütun sınırlayıcı olarak yorumlanacak karakteri belirtir. Varsayılan değer 0'dır; bu, tanımlanmış bir sütun sınırlayıcı olmadığı anlamına gelir.
 
 ```csharp
 public char ColumnDelimiter { get; set; }
@@ -16,11 +16,11 @@ public char ColumnDelimiter { get; set; }
 
 ### Notlar
 
-RK Bunun kullanıldığını hiç görmedim.
+RK Bunu hiç kullanımda görmedim.
 
 ### Örnekler
 
-Office Veri Kaynağı Nesnesindeki verilerle adres mektup birleştirmenin nasıl yürütüleceğini gösterir.
+Bir Office Veri Kaynağı Nesnesinden alınan verilerle adres-mektup birleştirmenin nasıl yürütüleceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -33,9 +33,9 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// "|" ile ASCII dosyası biçiminde bir veri kaynağı oluşturun karakter
-// sütunları ayıran sınırlayıcı görevi görür. İlk satır, üç sütunun adını içerir,
-// ve sonraki her satır, kendi değerlerine sahip bir satırdır.
+// ASCII dosyası biçiminde "|" işaretli bir veri kaynağı oluşturun karakter
+// sütunları ayıran sınırlayıcı görevi görüyor. İlk satır üç sütunun adını içerir,
+// ve sonraki her satır, ilgili değerlerin bulunduğu bir satırdır.
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };
 string dataSrcFilename = ArtifactsDir + "MailMerge.MailMergeSettings.DataSource.txt";
@@ -63,7 +63,7 @@ odso.FirstRowContainsColumnNames = true;
 Assert.AreNotSame(odso, odso.Clone());
 Assert.AreNotSame(settings, settings.Clone());
 
-// Bu belgeyi Microsoft Word'de açmak, içeriği görüntülemeden önce adres mektup birleştirmeyi yürütecektir. 
+ // Bu belgeyi Microsoft Word'de açmak, içerikleri görüntülemeden önce adres-mektup birleştirme işlemini gerçekleştirecektir.
 doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ```
 

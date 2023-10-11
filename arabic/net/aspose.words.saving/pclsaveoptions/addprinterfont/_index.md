@@ -16,16 +16,16 @@ public void AddPrinterFont(string fontFullName, string fontPclName)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| fontFullName | String | الاسم الكامل للخط (على سبيل المثال ، "Times New Roman Bold Italic"). |
+| fontFullName | String | الاسم الكامل للخط (على سبيل المثال "Times New Roman Bold Italic"). |
 | fontPclName | String | اسم الخط المستخدم في مستند Pcl. |
 
 ### ملاحظات
 
-هناك 52 خطًا يتم تضمينها في أي طابعة وفقًا لمواصفات Pcl . ومع ذلك يمكن للمصنّعين إضافة بعض الخطوط الأخرى إلى أجهزتهم.
+هناك 52 خطًا سيتم إنشاؤها في أي طابعة وفقًا لمواصفات Pcl. ومع ذلك، يمكن للشركات المصنعة إضافة بعض الخطوط الأخرى إلى أجهزتها.
 
 ### أمثلة
 
-يوضح كيفية جعل الطابعة تستبدل جميع مثيلات خط معين بخط مختلف.
+يوضح كيفية جعل الطابعة تستبدل كافة مثيلات خط معين بخط مختلف.
 
 ```csharp
 Document doc = new Document();
@@ -37,7 +37,7 @@ builder.Write("Hello world!");
 PclSaveOptions saveOptions = new PclSaveOptions();
 saveOptions.AddPrinterFont("Courier New", "Courier");
 
-// عند طباعة هذا المستند ، ستستخدم الطابعة الخط "Courier New"
+// عند طباعة هذا المستند، ستستخدم الطابعة الخط "Courier New".
 // للوصول إلى الأماكن التي استخدمت فيها وثيقتنا الخط "Courier".
 doc.Save(ArtifactsDir + "PclSaveOptions.AddPrinterFont.pcl", saveOptions);
 ```

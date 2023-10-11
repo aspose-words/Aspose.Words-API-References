@@ -3,7 +3,7 @@ title: MarkdownSaveOptions.TableContentAlignment
 second_title: Référence de l'API Aspose.Words pour .NET
 description: MarkdownSaveOptions propriété. Obtient ou définit une valeur qui spécifie comment aligner le contenu des tables lors de lexportation vers leMarkdown format. La valeur par défaut estAuto .
 type: docs
-weight: 60
+weight: 80
 url: /fr/net/aspose.words.saving/markdownsaveoptions/tablecontentalignment/
 ---
 ## MarkdownSaveOptions.TableContentAlignment property

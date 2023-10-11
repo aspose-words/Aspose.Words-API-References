@@ -1,14 +1,14 @@
 ---
 title: Field.Type
 second_title: Aspose.Words per .NET API Reference
-description: Field proprietà. Ottiene il tipo di campo di Microsoft Word.
+description: Field proprietà. Ottiene il tipo di campo Microsoft Word.
 type: docs
 weight: 100
 url: /it/net/aspose.words.fields/field/type/
 ---
 ## Field.Type property
 
-Ottiene il tipo di campo di Microsoft Word.
+Ottiene il tipo di campo Microsoft Word.
 
 ```csharp
 public virtual FieldType Type { get; }
@@ -16,7 +16,7 @@ public virtual FieldType Type { get; }
 
 ### Esempi
 
-Mostra come inserire un campo in un documento utilizzando un codice campo.
+Mostra come inserire un campo in un documento utilizzando un codice di campo.
 
 ```csharp
 Document doc = new Document();

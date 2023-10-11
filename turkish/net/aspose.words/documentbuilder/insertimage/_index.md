@@ -1,14 +1,14 @@
 ---
 title: DocumentBuilder.InsertImage
 second_title: Aspose.Words for .NET API Referansı
-description: DocumentBuilder yöntem. Bir .NETten bir görüntü eklerImage nesnesini belgeye yerleştirin. Resim satır içi ve 100 ölçekte eklenir.
+description: DocumentBuilder yöntem. .NETten bir görüntü eklerImage nesnesini belgeye ekleyin. Resim satır içi ve 100 ölçekte eklenir.
 type: docs
-weight: 350
+weight: 380
 url: /tr/net/aspose.words/documentbuilder/insertimage/
 ---
 ## InsertImage(Image) {#insertimage_3}
 
-Bir .NET'ten bir görüntü eklerImage nesnesini belgeye yerleştirin. Resim satır içi ve %100 ölçekte eklenir.
+.NET'ten bir görüntü eklerImage nesnesini belgeye ekleyin. Resim satır içi ve %100 ölçekte eklenir.
 
 ```csharp
 public Shape InsertImage(Image image)
@@ -24,11 +24,11 @@ Yeni eklenen görüntü düğümü.
 
 ### Notlar
 
-öğesini kullanarak görüntü boyutunu, konumunu, konumlandırma yöntemini ve diğer ayarları değiştirebilirsiniz.[`Shape`](../../../aspose.words.drawing/shape/) Bu yöntemle döndürülen nesne.
+'yi kullanarak görüntü boyutunu, konumunu, konumlandırma yöntemini ve diğer ayarları değiştirebilirsiniz.[`Shape`](../../../aspose.words.drawing/shape/) Bu yöntemle döndürülen nesne.
 
 ### Örnekler
 
-Bir nesneden belgeye nasıl resim ekleneceğini gösterir.
+Bir nesneden bir görüntünün belgeye nasıl ekleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -36,8 +36,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 Image image = Image.FromFile(ImageDir + "Logo.jpg");
 
-// Aşağıda, bir Image nesnesi örneğinden görüntü eklemenin üç yolu bulunmaktadır.
-// 1 - Görüntünün orijinal boyutlarına göre varsayılan bir boyuta sahip satır içi şekil:
+// Aşağıda bir Image nesne örneğinden bir görsel eklemenin üç yolu verilmiştir.
+// 1 - Görüntünün orijinal boyutlarına göre varsayılan boyuta sahip satır içi şekil:
 builder.InsertImage(image);
 
 builder.InsertBreak(BreakType.PageBreak);
@@ -73,7 +73,7 @@ public Shape InsertImage(string fileName)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| fileName | String | Resmin bulunduğu dosya. Herhangi bir geçerli yerel veya uzak URI olabilir. |
+| fileName | String | Resmin bulunduğu dosya. Geçerli herhangi bir yerel veya uzak URI olabilir. |
 
 ### Geri dönüş değeri
 
@@ -81,9 +81,9 @@ Yeni eklenen görüntü düğümü.
 
 ### Notlar
 
-Uzak bir URI belirtirseniz, bu aşırı yükleme, resmi document 'ye eklemeden önce otomatik olarak indirecektir.
+Bu aşırı yükleme, uzak bir URI belirtirseniz, document dosyasına eklenmeden önce görüntüyü otomatik olarak indirecektir.
 
-öğesini kullanarak görüntü boyutunu, konumunu, konumlandırma yöntemini ve diğer ayarları değiştirebilirsiniz.[`Shape`](../../../aspose.words.drawing/shape/) Bu yöntemle döndürülen nesne.
+'yi kullanarak görüntü boyutunu, konumunu, konumlandırma yöntemini ve diğer ayarları değiştirebilirsiniz.[`Shape`](../../../aspose.words.drawing/shape/) Bu yöntemle döndürülen nesne.
 
 ### Örnekler
 
@@ -93,7 +93,7 @@ Belgeye gif görüntüsünün nasıl ekleneceğini gösterir.
 DocumentBuilder builder = new DocumentBuilder();
 
 // Yol veya bayt dizisini kullanarak gif resmi ekleyebiliriz.
-// Yalnızca DocumentBuilder, Word 2010 veya daha yüksek bir sürüme optimize edilmişse çalışır.
+// Yalnızca DocumentBuilder'ın Word 2010 veya daha yüksek bir sürüme göre optimize edilmesi durumunda çalışır.
 // Görüntü baytlarına erişimin Gif'in Png'ye dönüştürülmesine neden olduğunu unutmayın.
 Shape gifImage = builder.InsertImage(ImageDir + "Graphics Interchange Format.gif");
 
@@ -102,14 +102,14 @@ gifImage = builder.InsertImage(File.ReadAllBytes(ImageDir + "Graphics Interchang
 builder.Document.Save(ArtifactsDir + "InsertGif.docx");
 ```
 
-Bir belgeye resim içeren bir şeklin nasıl ekleneceğini gösterir.
+Görüntü içeren bir şeklin belgeye nasıl ekleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Aşağıda, belge oluşturucunun "InsertShape" yönteminin kullanıldığı iki konum bulunmaktadır.
-// şeklin göstereceği görüntüyü kaynaklayabilir.
+// Aşağıda belge oluşturucunun "InsertShape" yönteminin bulunduğu iki konum bulunmaktadır
+// şeklin görüntüleyeceği görüntüyü kaynaklayabiliriz.
 // 1 - Bir görüntü dosyasının yerel dosya sistemi dosya adını iletin:
 builder.Write("Image from local file: ");
 builder.InsertImage(ImageDir + "Logo.jpg");
@@ -123,13 +123,13 @@ builder.Writeln();
 doc.Save(ArtifactsDir + "Image.FromUrl.docx");
 ```
 
-Bir sayfanın ortasına kayan bir görüntünün nasıl ekleneceğini gösterir.
+Sayfanın ortasına kayan bir görüntünün nasıl ekleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Üst üste binen metnin arkasında görünecek kayan bir resim ekleyin ve onu sayfanın ortasına hizalayın.
+// Çakışan metnin arkasında görünecek kayan bir resim ekleyin ve onu sayfanın ortasına hizalayın.
 Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
 shape.WrapType = WrapType.None;
 shape.BehindText = true;
@@ -150,26 +150,26 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.InsertImage(ImageDir + "Scalable Vector Graphics.svg");
 
 // Aspose.Words, SVG görüntüsünü svgBlip uzantılı PNG olarak belgeye ekler
-// orijinal vektör SVG görüntü temsilini içeren.
+// orijinal vektör SVG görüntü temsilini içerir.
 doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertSvgImage.SvgWithSvgBlip.docx");
 
-// Aspose.Words, tıpkı Microsoft Word'ün eski formatta yaptığı gibi, SVG görüntüsünü PNG olarak belgeye ekler.
+// Aspose.Words, Microsoft Word'ün eski formatta yaptığı gibi SVG görüntüsünü belgeye PNG olarak ekler.
 doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertSvgImage.Svg.doc");
 
 doc.CompatibilityOptions.OptimizeFor(MsWordVersion.Word2003);
 
-// Aspose.Words, görüntüyü vektör temsilinde tutmak için belgeye SVG görüntüsünü EMF meta dosyası olarak ekler.
+// Aspose.Words, görüntüyü vektör temsilinde tutmak için SVG görüntüsünü belgeye EMF meta dosyası olarak ekler.
 doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertSvgImage.Emf.docx");
 ```
 
-Yerel dosya sisteminden bir görüntünün bir belgeye nasıl ekleneceğini gösterir.
+Yerel dosya sisteminden bir görüntünün belgeye nasıl ekleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Aşağıda, yerel bir sistem dosya adından bir görüntü eklemenin üç yolu vardır.
-// 1 - Görüntünün orijinal boyutlarına göre varsayılan bir boyuta sahip satır içi şekil:
+// Aşağıda yerel sistem dosya adından resim eklemenin üç yolu verilmiştir.
+// 1 - Görüntünün orijinal boyutlarına göre varsayılan boyuta sahip satır içi şekil:
 builder.InsertImage(ImageDir + "Logo.jpg");
 
 builder.InsertBreak(BreakType.PageBreak);
@@ -214,11 +214,11 @@ Yeni eklenen görüntü düğümü.
 
 ### Notlar
 
-öğesini kullanarak görüntü boyutunu, konumunu, konumlandırma yöntemini ve diğer ayarları değiştirebilirsiniz.[`Shape`](../../../aspose.words.drawing/shape/) Bu yöntemle döndürülen nesne.
+'yi kullanarak görüntü boyutunu, konumunu, konumlandırma yöntemini ve diğer ayarları değiştirebilirsiniz.[`Shape`](../../../aspose.words.drawing/shape/) Bu yöntemle döndürülen nesne.
 
 ### Örnekler
 
-Bir akıştan bir görüntüyle bir şeklin bir belgeye nasıl ekleneceğini gösterir.
+Akıştaki görüntü içeren bir şeklin belgeye nasıl ekleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -233,7 +233,7 @@ using (Stream stream = File.OpenRead(ImageDir + "Logo.jpg"))
 doc.Save(ArtifactsDir + "Image.FromStream.docx");
 ```
 
-Bir akıştan bir belgeye nasıl resim ekleneceğini gösterir.
+Bir akıştan bir görüntünün belgeye nasıl ekleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -241,8 +241,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 using (Stream stream = File.OpenRead(ImageDir + "Logo.jpg"))
 {
-    // Aşağıda, bir akıştan görüntü eklemenin üç yolu vardır.
-    // 1 - Görüntünün orijinal boyutlarına göre varsayılan bir boyuta sahip satır içi şekil:
+    // Aşağıda bir akıştan resim eklemenin üç yolu verilmiştir.
+    // 1 - Görüntünün orijinal boyutlarına göre varsayılan boyuta sahip satır içi şekil:
     builder.InsertImage(stream);
 
     builder.InsertBreak(BreakType.PageBreak);
@@ -271,7 +271,7 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromStream.docx");
 
 ## InsertImage(byte[]) {#insertimage}
 
-Belgeye bir bayt dizisinden bir görüntü ekler. Resim satır içi ve %100 ölçekte eklenir.
+Bayt dizisinden belgeye bir görüntü ekler. Resim satır içi ve %100 ölçekte eklenir.
 
 ```csharp
 public Shape InsertImage(byte[] imageBytes)
@@ -287,11 +287,11 @@ Yeni eklenen görüntü düğümü.
 
 ### Notlar
 
-öğesini kullanarak görüntü boyutunu, konumunu, konumlandırma yöntemini ve diğer ayarları değiştirebilirsiniz.[`Shape`](../../../aspose.words.drawing/shape/) Bu yöntemle döndürülen nesne.
+'yi kullanarak görüntü boyutunu, konumunu, konumlandırma yöntemini ve diğer ayarları değiştirebilirsiniz.[`Shape`](../../../aspose.words.drawing/shape/) Bu yöntemle döndürülen nesne.
 
 ### Örnekler
 
-Bir bayt dizisinden bir görüntünün belgeye nasıl ekleneceğini gösterir.
+Bayt dizisinden bir görüntünün belgeye nasıl ekleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -304,8 +304,8 @@ using (MemoryStream ms = new MemoryStream())
     image.Save(ms, ImageFormat.Png);
     byte[] imageByteArray = ms.ToArray();
 
-    // Aşağıda bir bayt dizisinden görüntü eklemenin üç yolu vardır.
-    // 1 - Görüntünün orijinal boyutlarına göre varsayılan bir boyuta sahip satır içi şekil:
+    // Aşağıda bayt dizisinden resim eklemenin üç yolu verilmiştir.
+    // 1 - Görüntünün orijinal boyutlarına göre varsayılan boyuta sahip satır içi şekil:
     builder.InsertImage(imageByteArray);
 
     builder.InsertBreak(BreakType.PageBreak);
@@ -323,13 +323,13 @@ using (MemoryStream ms = new MemoryStream())
 doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromByteArray.docx");
 ```
 
-Bir bayt dizisinden bir görüntünün bir belgeye nasıl ekleneceğini gösterir (.NetStandard 2.0).
+Bayt dizisinden bir görüntünün bir belgeye nasıl ekleneceğini gösterir (.NetStandard 2.0).
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Görüntünün kodunun çözülmesi onu .png biçimine dönüştürecektir.
+// Görüntünün kodunun çözülmesi onu .png formatına dönüştürecektir.
 using (SKBitmap bitmap = SKBitmap.Decode(ImageDir + "Logo.jpg"))
 {
     using (SKImage image = SKImage.FromBitmap(bitmap))
@@ -338,8 +338,8 @@ using (SKBitmap bitmap = SKBitmap.Decode(ImageDir + "Logo.jpg"))
         {
             byte[] imageByteArray = data.ToArray();
 
-            // Aşağıda bir bayt dizisinden görüntü eklemenin üç yolu vardır.
-            // 1 - Görüntünün orijinal boyutlarına göre varsayılan bir boyuta sahip satır içi şekil:
+            // Aşağıda bayt dizisinden resim eklemenin üç yolu verilmiştir.
+            // 1 - Görüntünün orijinal boyutlarına göre varsayılan boyuta sahip satır içi şekil:
             builder.InsertImage(imageByteArray);
 
             builder.InsertBreak(BreakType.PageBreak);
@@ -370,7 +370,7 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromByteArrayNetStanda
 
 ## InsertImage(Image, double, double) {#insertimage_5}
 
-Bir .NET'ten satır içi görüntü eklerImage nesneyi belgeye ekler ve onu belirtilen boyuta ölçeklendirir.
+.NET'ten satır içi görüntü eklerImage nesnesini belgeye ekler ve onu belirtilen boyuta ölçeklendirir.
 
 ```csharp
 public Shape InsertImage(Image image, double width, double height)
@@ -379,8 +379,8 @@ public Shape InsertImage(Image image, double width, double height)
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
 | image | Image | Belgeye eklenecek resim. |
-| width | Double | Nokta cinsinden görüntünün genişliği. %100 ölçek istemek için negatif veya sıfır değeri olabilir. |
-| height | Double | Nokta cinsinden görüntünün yüksekliği. %100 ölçek istemek için negatif veya sıfır değeri olabilir. |
+| width | Double | Nokta cinsinden görüntünün genişliği. %100 ölçek istemek için negatif veya sıfır değer olabilir. |
+| height | Double | Nokta cinsinden görüntünün yüksekliği. %100 ölçek istemek için negatif veya sıfır değer olabilir. |
 
 ### Geri dönüş değeri
 
@@ -388,11 +388,11 @@ Yeni eklenen görüntü düğümü.
 
 ### Notlar
 
-öğesini kullanarak görüntü boyutunu, konumunu, konumlandırma yöntemini ve diğer ayarları değiştirebilirsiniz.[`Shape`](../../../aspose.words.drawing/shape/) Bu yöntemle döndürülen nesne.
+'yi kullanarak görüntü boyutunu, konumunu, konumlandırma yöntemini ve diğer ayarları değiştirebilirsiniz.[`Shape`](../../../aspose.words.drawing/shape/) Bu yöntemle döndürülen nesne.
 
 ### Örnekler
 
-Bir nesneden belgeye nasıl resim ekleneceğini gösterir.
+Bir nesneden bir görüntünün belgeye nasıl ekleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -400,8 +400,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 Image image = Image.FromFile(ImageDir + "Logo.jpg");
 
-// Aşağıda, bir Image nesnesi örneğinden görüntü eklemenin üç yolu bulunmaktadır.
-// 1 - Görüntünün orijinal boyutlarına göre varsayılan bir boyuta sahip satır içi şekil:
+// Aşağıda bir Image nesne örneğinden bir görsel eklemenin üç yolu verilmiştir.
+// 1 - Görüntünün orijinal boyutlarına göre varsayılan boyuta sahip satır içi şekil:
 builder.InsertImage(image);
 
 builder.InsertBreak(BreakType.PageBreak);
@@ -418,17 +418,17 @@ builder.InsertImage(image, RelativeHorizontalPosition.Margin, 100, RelativeVerti
 doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromImageObject.docx");
 ```
 
-Bir nesneden bir belgeye nasıl resim ekleneceğini gösterir (.NetStandard 2.0).
+Bir nesneden bir görüntünün belgeye nasıl ekleneceğini gösterir (.NetStandard 2.0).
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Görüntünün kodunun çözülmesi onu .png biçimine dönüştürecektir.
+// Görüntünün kodunun çözülmesi onu .png formatına dönüştürecektir.
 using (SKBitmap bitmap = SKBitmap.Decode(ImageDir + "Logo.jpg"))
 {
-    // Aşağıda, bir Image nesnesi örneğinden görüntü eklemenin üç yolu bulunmaktadır.
-    // 1 - Görüntünün orijinal boyutlarına göre varsayılan bir boyuta sahip satır içi şekil:
+    // Aşağıda bir Image nesne örneğinden bir görsel eklemenin üç yolu verilmiştir.
+    // 1 - Görüntünün orijinal boyutlarına göre varsayılan boyuta sahip satır içi şekil:
     builder.InsertImage(bitmap);
 
     builder.InsertBreak(BreakType.PageBreak);
@@ -457,7 +457,7 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromImageObjectNetStan
 
 ## InsertImage(string, double, double) {#insertimage_11}
 
-Bir dosyadan veya URL'den belgeye satır içi bir resim ekler ve onu belirtilen boyuta ölçeklendirir.
+Bir dosyadan veya URL'den belgeye satır içi bir resim ekler ve bunu belirtilen boyuta ölçeklendirir.
 
 ```csharp
 public Shape InsertImage(string fileName, double width, double height)
@@ -465,9 +465,9 @@ public Shape InsertImage(string fileName, double width, double height)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| fileName | String | Görüntüyü içeren dosya. |
-| width | Double | Nokta cinsinden görüntünün genişliği. %100 ölçek istemek için negatif veya sıfır değeri olabilir. |
-| height | Double | Nokta cinsinden görüntünün yüksekliği. %100 ölçek istemek için negatif veya sıfır değeri olabilir. |
+| fileName | String | Resmin bulunduğu dosya. |
+| width | Double | Nokta cinsinden görüntünün genişliği. %100 ölçek istemek için negatif veya sıfır değer olabilir. |
+| height | Double | Nokta cinsinden görüntünün yüksekliği. %100 ölçek istemek için negatif veya sıfır değer olabilir. |
 
 ### Geri dönüş değeri
 
@@ -475,18 +475,18 @@ Yeni eklenen görüntü düğümü.
 
 ### Notlar
 
-öğesini kullanarak görüntü boyutunu, konumunu, konumlandırma yöntemini ve diğer ayarları değiştirebilirsiniz.[`Shape`](../../../aspose.words.drawing/shape/) Bu yöntemle döndürülen nesne.
+'yi kullanarak görüntü boyutunu, konumunu, konumlandırma yöntemini ve diğer ayarları değiştirebilirsiniz.[`Shape`](../../../aspose.words.drawing/shape/) Bu yöntemle döndürülen nesne.
 
 ### Örnekler
 
-Yerel dosya sisteminden bir görüntünün bir belgeye nasıl ekleneceğini gösterir.
+Yerel dosya sisteminden bir görüntünün belgeye nasıl ekleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Aşağıda, yerel bir sistem dosya adından bir görüntü eklemenin üç yolu vardır.
-// 1 - Görüntünün orijinal boyutlarına göre varsayılan bir boyuta sahip satır içi şekil:
+// Aşağıda yerel sistem dosya adından resim eklemenin üç yolu verilmiştir.
+// 1 - Görüntünün orijinal boyutlarına göre varsayılan boyuta sahip satır içi şekil:
 builder.InsertImage(ImageDir + "Logo.jpg");
 
 builder.InsertBreak(BreakType.PageBreak);
@@ -515,7 +515,7 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromFilename.docx");
 
 ## InsertImage(Stream, double, double) {#insertimage_8}
 
-Bir akıştan belgeye satır içi bir görüntü ekler ve onu belirtilen boyuta ölçeklendirir.
+Bir akıştan belgeye satır içi bir görüntü ekler ve bunu belirtilen boyuta ölçeklendirir.
 
 ```csharp
 public Shape InsertImage(Stream stream, double width, double height)
@@ -524,8 +524,8 @@ public Shape InsertImage(Stream stream, double width, double height)
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
 | stream | Stream | Görüntüyü içeren akış. |
-| width | Double | Nokta cinsinden görüntünün genişliği. %100 ölçek istemek için negatif veya sıfır değeri olabilir. |
-| height | Double | Nokta cinsinden görüntünün yüksekliği. %100 ölçek istemek için negatif veya sıfır değeri olabilir. |
+| width | Double | Nokta cinsinden görüntünün genişliği. %100 ölçek istemek için negatif veya sıfır değer olabilir. |
+| height | Double | Nokta cinsinden görüntünün yüksekliği. %100 ölçek istemek için negatif veya sıfır değer olabilir. |
 
 ### Geri dönüş değeri
 
@@ -533,11 +533,11 @@ Yeni eklenen görüntü düğümü.
 
 ### Notlar
 
-öğesini kullanarak görüntü boyutunu, konumunu, konumlandırma yöntemini ve diğer ayarları değiştirebilirsiniz.[`Shape`](../../../aspose.words.drawing/shape/) Bu yöntemle döndürülen nesne.
+'yi kullanarak görüntü boyutunu, konumunu, konumlandırma yöntemini ve diğer ayarları değiştirebilirsiniz.[`Shape`](../../../aspose.words.drawing/shape/) Bu yöntemle döndürülen nesne.
 
 ### Örnekler
 
-Bir akıştan bir belgeye nasıl resim ekleneceğini gösterir.
+Bir akıştan bir görüntünün belgeye nasıl ekleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -545,8 +545,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 using (Stream stream = File.OpenRead(ImageDir + "Logo.jpg"))
 {
-    // Aşağıda, bir akıştan görüntü eklemenin üç yolu vardır.
-    // 1 - Görüntünün orijinal boyutlarına göre varsayılan bir boyuta sahip satır içi şekil:
+    // Aşağıda bir akıştan resim eklemenin üç yolu verilmiştir.
+    // 1 - Görüntünün orijinal boyutlarına göre varsayılan boyuta sahip satır içi şekil:
     builder.InsertImage(stream);
 
     builder.InsertBreak(BreakType.PageBreak);
@@ -575,7 +575,7 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromStream.docx");
 
 ## InsertImage(byte[], double, double) {#insertimage_2}
 
-Belgeye bir bayt dizisinden satır içi bir görüntü ekler ve onu belirtilen boyuta ölçekler.
+Bayt dizisinden satır içi bir görüntüyü belgeye ekler ve bunu belirtilen boyuta ölçeklendirir.
 
 ```csharp
 public Shape InsertImage(byte[] imageBytes, double width, double height)
@@ -584,8 +584,8 @@ public Shape InsertImage(byte[] imageBytes, double width, double height)
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
 | imageBytes | Byte[] | Görüntüyü içeren bayt dizisi. |
-| width | Double | Nokta cinsinden görüntünün genişliği. %100 ölçek istemek için negatif veya sıfır değeri olabilir. |
-| height | Double | Nokta cinsinden görüntünün yüksekliği. %100 ölçek istemek için negatif veya sıfır değeri olabilir. |
+| width | Double | Nokta cinsinden görüntünün genişliği. %100 ölçek istemek için negatif veya sıfır değer olabilir. |
+| height | Double | Nokta cinsinden görüntünün yüksekliği. %100 ölçek istemek için negatif veya sıfır değer olabilir. |
 
 ### Geri dönüş değeri
 
@@ -593,11 +593,11 @@ Yeni eklenen görüntü düğümü.
 
 ### Notlar
 
-öğesini kullanarak görüntü boyutunu, konumunu, konumlandırma yöntemini ve diğer ayarları değiştirebilirsiniz.[`Shape`](../../../aspose.words.drawing/shape/) Bu yöntemle döndürülen nesne.
+'yi kullanarak görüntü boyutunu, konumunu, konumlandırma yöntemini ve diğer ayarları değiştirebilirsiniz.[`Shape`](../../../aspose.words.drawing/shape/) Bu yöntemle döndürülen nesne.
 
 ### Örnekler
 
-Bir bayt dizisinden bir görüntünün belgeye nasıl ekleneceğini gösterir.
+Bayt dizisinden bir görüntünün belgeye nasıl ekleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -610,8 +610,8 @@ using (MemoryStream ms = new MemoryStream())
     image.Save(ms, ImageFormat.Png);
     byte[] imageByteArray = ms.ToArray();
 
-    // Aşağıda bir bayt dizisinden görüntü eklemenin üç yolu vardır.
-    // 1 - Görüntünün orijinal boyutlarına göre varsayılan bir boyuta sahip satır içi şekil:
+    // Aşağıda bayt dizisinden resim eklemenin üç yolu verilmiştir.
+    // 1 - Görüntünün orijinal boyutlarına göre varsayılan boyuta sahip satır içi şekil:
     builder.InsertImage(imageByteArray);
 
     builder.InsertBreak(BreakType.PageBreak);
@@ -629,13 +629,13 @@ using (MemoryStream ms = new MemoryStream())
 doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromByteArray.docx");
 ```
 
-Bir bayt dizisinden bir görüntünün bir belgeye nasıl ekleneceğini gösterir (.NetStandard 2.0).
+Bayt dizisinden bir görüntünün bir belgeye nasıl ekleneceğini gösterir (.NetStandard 2.0).
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Görüntünün kodunun çözülmesi onu .png biçimine dönüştürecektir.
+// Görüntünün kodunun çözülmesi onu .png formatına dönüştürecektir.
 using (SKBitmap bitmap = SKBitmap.Decode(ImageDir + "Logo.jpg"))
 {
     using (SKImage image = SKImage.FromBitmap(bitmap))
@@ -644,8 +644,8 @@ using (SKBitmap bitmap = SKBitmap.Decode(ImageDir + "Logo.jpg"))
         {
             byte[] imageByteArray = data.ToArray();
 
-            // Aşağıda bir bayt dizisinden görüntü eklemenin üç yolu vardır.
-            // 1 - Görüntünün orijinal boyutlarına göre varsayılan bir boyuta sahip satır içi şekil:
+            // Aşağıda bayt dizisinden resim eklemenin üç yolu verilmiştir.
+            // 1 - Görüntünün orijinal boyutlarına göre varsayılan boyuta sahip satır içi şekil:
             builder.InsertImage(imageByteArray);
 
             builder.InsertBreak(BreakType.PageBreak);
@@ -676,7 +676,7 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromByteArrayNetStanda
 
 ## InsertImage(Image, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) {#insertimage_4}
 
-Bir .NET'ten bir görüntü eklerImage belirtilen konum ve boyutta nesne.
+.NET'ten bir görüntü eklerImage belirtilen konum ve boyuttaki nesne.
 
 ```csharp
 public Shape InsertImage(Image image, RelativeHorizontalPosition horzPos, double left, 
@@ -686,13 +686,13 @@ public Shape InsertImage(Image image, RelativeHorizontalPosition horzPos, double
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
 | image | Image | Belgeye eklenecek resim. |
-| horzPos | RelativeHorizontalPosition | Görüntüye olan uzaklığın nereden ölçüldüğünü belirtir. |
-| left | Double | Görüntünün başlangıç noktasından sol tarafına nokta cinsinden uzaklık. |
-| vertPos | RelativeVerticalPosition | Görüntüye olan uzaklığın nereden ölçüleceğini belirtir. |
-| top | Double | Görüntünün başlangıç noktasından üst tarafına nokta cinsinden uzaklık. |
-| width | Double | Nokta cinsinden görüntünün genişliği. %100 ölçek istemek için negatif veya sıfır değeri olabilir. |
-| height | Double | Nokta cinsinden görüntünün yüksekliği. %100 ölçek istemek için negatif veya sıfır değeri olabilir. |
-| wrapType | WrapType | Metnin görüntünün etrafına nasıl kaydırılacağını belirtir. |
+| horzPos | RelativeHorizontalPosition | Görüntüye olan mesafenin nereden ölçüleceğini belirtir. |
+| left | Double | Nokta cinsinden görüntünün başlangıç noktasından sol tarafına olan uzaklık. |
+| vertPos | RelativeVerticalPosition | Görüntüye olan mesafenin nereden ölçüldüğünü belirtir. |
+| top | Double | Orijinden görüntünün üst kısmına kadar olan nokta cinsinden uzaklık. |
+| width | Double | Nokta cinsinden görüntünün genişliği. %100 ölçek istemek için negatif veya sıfır değer olabilir. |
+| height | Double | Nokta cinsinden görüntünün yüksekliği. %100 ölçek istemek için negatif veya sıfır değer olabilir. |
+| wrapType | WrapType | Metnin görüntünün etrafına nasıl sarılacağını belirtir. |
 
 ### Geri dönüş değeri
 
@@ -700,11 +700,11 @@ Yeni eklenen görüntü düğümü.
 
 ### Notlar
 
-öğesini kullanarak görüntü boyutunu, konumunu, konumlandırma yöntemini ve diğer ayarları değiştirebilirsiniz.[`Shape`](../../../aspose.words.drawing/shape/) Bu yöntemle döndürülen nesne.
+'yi kullanarak görüntü boyutunu, konumunu, konumlandırma yöntemini ve diğer ayarları değiştirebilirsiniz.[`Shape`](../../../aspose.words.drawing/shape/) Bu yöntemle döndürülen nesne.
 
 ### Örnekler
 
-Bir nesneden belgeye nasıl resim ekleneceğini gösterir.
+Bir nesneden bir görüntünün belgeye nasıl ekleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -712,8 +712,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 Image image = Image.FromFile(ImageDir + "Logo.jpg");
 
-// Aşağıda, bir Image nesnesi örneğinden görüntü eklemenin üç yolu bulunmaktadır.
-// 1 - Görüntünün orijinal boyutlarına göre varsayılan bir boyuta sahip satır içi şekil:
+// Aşağıda bir Image nesne örneğinden bir görsel eklemenin üç yolu verilmiştir.
+// 1 - Görüntünün orijinal boyutlarına göre varsayılan boyuta sahip satır içi şekil:
 builder.InsertImage(image);
 
 builder.InsertBreak(BreakType.PageBreak);
@@ -730,17 +730,17 @@ builder.InsertImage(image, RelativeHorizontalPosition.Margin, 100, RelativeVerti
 doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromImageObject.docx");
 ```
 
-Bir nesneden bir belgeye nasıl resim ekleneceğini gösterir (.NetStandard 2.0).
+Bir nesneden bir görüntünün belgeye nasıl ekleneceğini gösterir (.NetStandard 2.0).
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Görüntünün kodunun çözülmesi onu .png biçimine dönüştürecektir.
+// Görüntünün kodunun çözülmesi onu .png formatına dönüştürecektir.
 using (SKBitmap bitmap = SKBitmap.Decode(ImageDir + "Logo.jpg"))
 {
-    // Aşağıda, bir Image nesnesi örneğinden görüntü eklemenin üç yolu bulunmaktadır.
-    // 1 - Görüntünün orijinal boyutlarına göre varsayılan bir boyuta sahip satır içi şekil:
+    // Aşağıda bir Image nesne örneğinden bir görsel eklemenin üç yolu verilmiştir.
+    // 1 - Görüntünün orijinal boyutlarına göre varsayılan boyuta sahip satır içi şekil:
     builder.InsertImage(bitmap);
 
     builder.InsertBreak(BreakType.PageBreak);
@@ -772,7 +772,7 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromImageObjectNetStan
 
 ## InsertImage(string, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) {#insertimage_10}
 
-Belirtilen konum ve boyutta bir dosyadan veya URL'den bir resim ekler.
+Bir dosyadan veya URL'den belirtilen konuma ve boyuta bir resim ekler.
 
 ```csharp
 public Shape InsertImage(string fileName, RelativeHorizontalPosition horzPos, double left, 
@@ -781,14 +781,14 @@ public Shape InsertImage(string fileName, RelativeHorizontalPosition horzPos, do
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| fileName | String | Görüntüyü içeren dosya. |
-| horzPos | RelativeHorizontalPosition | Görüntüye olan uzaklığın nereden ölçüldüğünü belirtir. |
-| left | Double | Görüntünün başlangıç noktasından sol tarafına nokta cinsinden uzaklık. |
-| vertPos | RelativeVerticalPosition | Görüntüye olan uzaklığın nereden ölçüleceğini belirtir. |
-| top | Double | Görüntünün başlangıç noktasından üst tarafına nokta cinsinden uzaklık. |
-| width | Double | Nokta cinsinden görüntünün genişliği. %100 ölçek istemek için negatif veya sıfır değeri olabilir. |
-| height | Double | Nokta cinsinden görüntünün yüksekliği. %100 ölçek istemek için negatif veya sıfır değeri olabilir. |
-| wrapType | WrapType | Metnin görüntünün etrafına nasıl kaydırılacağını belirtir. |
+| fileName | String | Resmin bulunduğu dosya. |
+| horzPos | RelativeHorizontalPosition | Görüntüye olan mesafenin nereden ölçüleceğini belirtir. |
+| left | Double | Nokta cinsinden görüntünün başlangıç noktasından sol tarafına olan uzaklık. |
+| vertPos | RelativeVerticalPosition | Görüntüye olan mesafenin nereden ölçüldüğünü belirtir. |
+| top | Double | Orijinden görüntünün üst kısmına kadar olan nokta cinsinden uzaklık. |
+| width | Double | Nokta cinsinden görüntünün genişliği. %100 ölçek istemek için negatif veya sıfır değer olabilir. |
+| height | Double | Nokta cinsinden görüntünün yüksekliği. %100 ölçek istemek için negatif veya sıfır değer olabilir. |
+| wrapType | WrapType | Metnin görüntünün etrafına nasıl sarılacağını belirtir. |
 
 ### Geri dönüş değeri
 
@@ -796,7 +796,7 @@ Yeni eklenen görüntü düğümü.
 
 ### Notlar
 
-öğesini kullanarak görüntü boyutunu, konumunu, konumlandırma yöntemini ve diğer ayarları değiştirebilirsiniz.[`Shape`](../../../aspose.words.drawing/shape/) Bu yöntemle döndürülen nesne.
+'yi kullanarak görüntü boyutunu, konumunu, konumlandırma yöntemini ve diğer ayarları değiştirebilirsiniz.[`Shape`](../../../aspose.words.drawing/shape/) Bu yöntemle döndürülen nesne.
 
 ### Örnekler
 
@@ -806,7 +806,7 @@ Bir resmin nasıl ekleneceğini gösterir.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Bir görüntüyü kaynaklamak ve ardından onu kayan bir şekil olarak eklemek için bir belge oluşturucu kullanmanın iki yolu vardır.
+// Bir görüntüyü kaynaklamak ve ardından onu kayan bir şekil olarak eklemek için belge oluşturucuyu kullanmanın iki yolu vardır.
 // 1 - Yerel dosya sistemindeki bir dosyadan:
 builder.InsertImage(ImageDir + "Transparent background logo.png", RelativeHorizontalPosition.Margin, 100,
     RelativeVerticalPosition.Margin, 0, 200, 200, WrapType.Square);
@@ -818,33 +818,33 @@ builder.InsertImage(ImageUrl, RelativeHorizontalPosition.Margin, 100,
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertFloatingImage.docx");
 ```
 
-Boyutlarını koruyarak yerel dosya sisteminden bir belgeye nasıl resim ekleneceğini gösterir.
+Yerel dosya sisteminden bir görüntünün boyutlarını koruyarak belgeye nasıl ekleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// InsertImage yöntemi, görüntü verilerinde geçirilen görüntü ile kayan bir şekil oluşturur.
-// Şeklin boyutlarını bu metoda geçirerek belirtebiliriz.
+// InsertImage yöntemi, görüntü verilerinde iletilen görüntüyle birlikte kayan bir şekil oluşturur.
+// Şeklin boyutlarını bu yönteme geçirerek belirtebiliriz.
 Shape imageShape = builder.InsertImage(ImageDir + "Logo.jpg", RelativeHorizontalPosition.Margin, 0,
     RelativeVerticalPosition.Margin, 0, -1, -1, WrapType.Square);
 
-// Negatif değerleri istenen boyutlar olarak iletmek otomatik olarak tanımlayacaktır
-// şeklin boyutları, görüntüsünün boyutlarına göre.
+// İstenilen boyutlar olarak negatif değerlerin iletilmesi otomatik olarak tanımlanacaktır
+// şeklin boyutları, görüntünün boyutlarına göre belirlenir.
 Assert.AreEqual(300.0d, imageShape.Width);
 Assert.AreEqual(300.0d, imageShape.Height);
 
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertImageOriginalSize.docx");
 ```
 
-Yerel dosya sisteminden bir görüntünün bir belgeye nasıl ekleneceğini gösterir.
+Yerel dosya sisteminden bir görüntünün belgeye nasıl ekleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Aşağıda, yerel bir sistem dosya adından bir görüntü eklemenin üç yolu vardır.
-// 1 - Görüntünün orijinal boyutlarına göre varsayılan bir boyuta sahip satır içi şekil:
+// Aşağıda yerel sistem dosya adından resim eklemenin üç yolu verilmiştir.
+// 1 - Görüntünün orijinal boyutlarına göre varsayılan boyuta sahip satır içi şekil:
 builder.InsertImage(ImageDir + "Logo.jpg");
 
 builder.InsertBreak(BreakType.PageBreak);
@@ -886,13 +886,13 @@ public Shape InsertImage(Stream stream, RelativeHorizontalPosition horzPos, doub
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
 | stream | Stream | Görüntüyü içeren akış. |
-| horzPos | RelativeHorizontalPosition | Görüntüye olan uzaklığın nereden ölçüldüğünü belirtir. |
-| left | Double | Görüntünün başlangıç noktasından sol tarafına nokta cinsinden uzaklık. |
-| vertPos | RelativeVerticalPosition | Görüntüye olan uzaklığın nereden ölçüleceğini belirtir. |
-| top | Double | Görüntünün başlangıç noktasından üst tarafına nokta cinsinden uzaklık. |
-| width | Double | Nokta cinsinden görüntünün genişliği. %100 ölçek istemek için negatif veya sıfır değeri olabilir. |
-| height | Double | Nokta cinsinden görüntünün yüksekliği. %100 ölçek istemek için negatif veya sıfır değeri olabilir. |
-| wrapType | WrapType | Metnin görüntünün etrafına nasıl kaydırılacağını belirtir. |
+| horzPos | RelativeHorizontalPosition | Görüntüye olan mesafenin nereden ölçüleceğini belirtir. |
+| left | Double | Nokta cinsinden görüntünün başlangıç noktasından sol tarafına olan uzaklık. |
+| vertPos | RelativeVerticalPosition | Görüntüye olan mesafenin nereden ölçüldüğünü belirtir. |
+| top | Double | Orijinden görüntünün üst kısmına kadar olan nokta cinsinden uzaklık. |
+| width | Double | Nokta cinsinden görüntünün genişliği. %100 ölçek istemek için negatif veya sıfır değer olabilir. |
+| height | Double | Nokta cinsinden görüntünün yüksekliği. %100 ölçek istemek için negatif veya sıfır değer olabilir. |
+| wrapType | WrapType | Metnin görüntünün etrafına nasıl sarılacağını belirtir. |
 
 ### Geri dönüş değeri
 
@@ -900,11 +900,11 @@ Yeni eklenen görüntü düğümü.
 
 ### Notlar
 
-öğesini kullanarak görüntü boyutunu, konumunu, konumlandırma yöntemini ve diğer ayarları değiştirebilirsiniz.[`Shape`](../../../aspose.words.drawing/shape/) Bu yöntemle döndürülen nesne.
+'yi kullanarak görüntü boyutunu, konumunu, konumlandırma yöntemini ve diğer ayarları değiştirebilirsiniz.[`Shape`](../../../aspose.words.drawing/shape/) Bu yöntemle döndürülen nesne.
 
 ### Örnekler
 
-Bir akıştan bir belgeye nasıl resim ekleneceğini gösterir.
+Bir akıştan bir görüntünün belgeye nasıl ekleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -912,8 +912,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 using (Stream stream = File.OpenRead(ImageDir + "Logo.jpg"))
 {
-    // Aşağıda, bir akıştan görüntü eklemenin üç yolu vardır.
-    // 1 - Görüntünün orijinal boyutlarına göre varsayılan bir boyuta sahip satır içi şekil:
+    // Aşağıda bir akıştan resim eklemenin üç yolu verilmiştir.
+    // 1 - Görüntünün orijinal boyutlarına göre varsayılan boyuta sahip satır içi şekil:
     builder.InsertImage(stream);
 
     builder.InsertBreak(BreakType.PageBreak);
@@ -955,13 +955,13 @@ public Shape InsertImage(byte[] imageBytes, RelativeHorizontalPosition horzPos, 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
 | imageBytes | Byte[] | Görüntüyü içeren bayt dizisi. |
-| horzPos | RelativeHorizontalPosition | Görüntüye olan uzaklığın nereden ölçüldüğünü belirtir. |
-| left | Double | Görüntünün başlangıç noktasından sol tarafına nokta cinsinden uzaklık. |
-| vertPos | RelativeVerticalPosition | Görüntüye olan uzaklığın nereden ölçüleceğini belirtir. |
-| top | Double | Görüntünün başlangıç noktasından üst tarafına nokta cinsinden uzaklık. |
-| width | Double | Nokta cinsinden görüntünün genişliği. %100 ölçek istemek için negatif veya sıfır değeri olabilir. |
-| height | Double | Nokta cinsinden görüntünün yüksekliği. %100 ölçek istemek için negatif veya sıfır değeri olabilir. |
-| wrapType | WrapType | Metnin görüntünün etrafına nasıl kaydırılacağını belirtir. |
+| horzPos | RelativeHorizontalPosition | Görüntüye olan mesafenin nereden ölçüleceğini belirtir. |
+| left | Double | Nokta cinsinden görüntünün başlangıç noktasından sol tarafına olan uzaklık. |
+| vertPos | RelativeVerticalPosition | Görüntüye olan mesafenin nereden ölçüldüğünü belirtir. |
+| top | Double | Orijinden görüntünün üst kısmına kadar olan nokta cinsinden uzaklık. |
+| width | Double | Nokta cinsinden görüntünün genişliği. %100 ölçek istemek için negatif veya sıfır değer olabilir. |
+| height | Double | Nokta cinsinden görüntünün yüksekliği. %100 ölçek istemek için negatif veya sıfır değer olabilir. |
+| wrapType | WrapType | Metnin görüntünün etrafına nasıl sarılacağını belirtir. |
 
 ### Geri dönüş değeri
 
@@ -969,11 +969,11 @@ Yeni eklenen görüntü düğümü.
 
 ### Notlar
 
-öğesini kullanarak görüntü boyutunu, konumunu, konumlandırma yöntemini ve diğer ayarları değiştirebilirsiniz.[`Shape`](../../../aspose.words.drawing/shape/) Bu yöntemle döndürülen nesne.
+'yi kullanarak görüntü boyutunu, konumunu, konumlandırma yöntemini ve diğer ayarları değiştirebilirsiniz.[`Shape`](../../../aspose.words.drawing/shape/) Bu yöntemle döndürülen nesne.
 
 ### Örnekler
 
-Bir bayt dizisinden bir görüntünün belgeye nasıl ekleneceğini gösterir.
+Bayt dizisinden bir görüntünün belgeye nasıl ekleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -986,8 +986,8 @@ using (MemoryStream ms = new MemoryStream())
     image.Save(ms, ImageFormat.Png);
     byte[] imageByteArray = ms.ToArray();
 
-    // Aşağıda bir bayt dizisinden görüntü eklemenin üç yolu vardır.
-    // 1 - Görüntünün orijinal boyutlarına göre varsayılan bir boyuta sahip satır içi şekil:
+    // Aşağıda bayt dizisinden resim eklemenin üç yolu verilmiştir.
+    // 1 - Görüntünün orijinal boyutlarına göre varsayılan boyuta sahip satır içi şekil:
     builder.InsertImage(imageByteArray);
 
     builder.InsertBreak(BreakType.PageBreak);
@@ -1005,13 +1005,13 @@ using (MemoryStream ms = new MemoryStream())
 doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromByteArray.docx");
 ```
 
-Bir bayt dizisinden bir görüntünün bir belgeye nasıl ekleneceğini gösterir (.NetStandard 2.0).
+Bayt dizisinden bir görüntünün bir belgeye nasıl ekleneceğini gösterir (.NetStandard 2.0).
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Görüntünün kodunun çözülmesi onu .png biçimine dönüştürecektir.
+// Görüntünün kodunun çözülmesi onu .png formatına dönüştürecektir.
 using (SKBitmap bitmap = SKBitmap.Decode(ImageDir + "Logo.jpg"))
 {
     using (SKImage image = SKImage.FromBitmap(bitmap))
@@ -1020,8 +1020,8 @@ using (SKBitmap bitmap = SKBitmap.Decode(ImageDir + "Logo.jpg"))
         {
             byte[] imageByteArray = data.ToArray();
 
-            // Aşağıda bir bayt dizisinden görüntü eklemenin üç yolu vardır.
-            // 1 - Görüntünün orijinal boyutlarına göre varsayılan bir boyuta sahip satır içi şekil:
+            // Aşağıda bayt dizisinden resim eklemenin üç yolu verilmiştir.
+            // 1 - Görüntünün orijinal boyutlarına göre varsayılan boyuta sahip satır içi şekil:
             builder.InsertImage(imageByteArray);
 
             builder.InsertBreak(BreakType.PageBreak);

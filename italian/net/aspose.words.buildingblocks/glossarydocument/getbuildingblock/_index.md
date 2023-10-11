@@ -1,14 +1,14 @@
 ---
 title: GlossaryDocument.GetBuildingBlock
 second_title: Aspose.Words per .NET API Reference
-description: GlossaryDocument metodo. Trova un building block utilizzando la galleria la categoria e il nome specificati.
+description: GlossaryDocument metodo. Trova un blocco predefinito utilizzando la raccolta la categoria e il nome specificati.
 type: docs
-weight: 70
+weight: 90
 url: /it/net/aspose.words.buildingblocks/glossarydocument/getbuildingblock/
 ---
 ## GlossaryDocument.GetBuildingBlock method
 
-Trova un building block utilizzando la galleria, la categoria e il nome specificati.
+Trova un blocco predefinito utilizzando la raccolta, la categoria e il nome specificati.
 
 ```csharp
 public BuildingBlock GetBuildingBlock(BuildingBlockGallery gallery, string category, string name)
@@ -17,22 +17,22 @@ public BuildingBlock GetBuildingBlock(BuildingBlockGallery gallery, string categ
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
 | gallery | BuildingBlockGallery | I criteri della galleria. |
-| category | String | I criteri di categoria. Può essere nullo, nel qual caso non verrà utilizzato per il confronto. |
-| name | String | I criteri del nome del blocco predefinito. |
+| category | String | I criteri di categoria. Può essere`nullo`, nel qual caso non verrà utilizzato per il confronto. |
+| name | String | I criteri per il nome del blocco predefinito. |
 
 ### Valore di ritorno
 
-Il blocco predefinito corrispondente o null se non è stata trovata una corrispondenza.
+L'elemento costitutivo corrispondente o`nullo` se non è stata trovata una corrispondenza.
 
 ### Osservazioni
 
-Questo è un metodo pratico che esegue l'iterazione su tutti i building block in questa raccolta e restituisce il primo building block che corrisponde a la galleria, la categoria e il nome specificati.
+Questo è un metodo pratico che esegue l'iterazione su tutti i blocchi predefiniti in questa raccolta e restituisce il primo blocco predefinito che corrisponde a la galleria, la categoria e il nome specificati.
 
-Microsoft Word organizza i blocchi costitutivi in gallerie. Le gallerie sono predefinite utilizzando il[`BuildingBlockGallery`](../../buildingblockgallery/) enum. All'interno di ogni galleria, i blocchi predefiniti possono essere organizzati in una o più categorie. Il nome della categoria è una stringa. Ogni blocco ha un nome. Non è garantito che un nome building block sia univoco.
+Microsoft Word organizza gli elementi costitutivi in gallerie. Le galleries sono predefinite utilizzando il file[`BuildingBlockGallery`](../../buildingblockgallery/) enum. All'interno di ciascuna galleria, gli elementi costitutivi possono essere organizzati in una o più categorie. Il nome della categoria è una stringa. Ogni elemento costitutivo ha un nome. Non è garantito che il nome di un building block sia univoco.
 
 ### Esempi
 
-Mostra le modalità di accesso ai blocchi predefiniti in un documento di glossario.
+Mostra le modalità di accesso agli elementi costitutivi in un documento di glossario.
 
 ```csharp
 public void GlossaryDocument()
@@ -51,32 +51,31 @@ public void GlossaryDocument()
     doc.GlossaryDocument = glossaryDoc;
 
     // Esistono vari modi per accedere ai blocchi predefiniti.
-    // 1 - Ottieni i primi/ultimi blocchi di costruzione della collezione:
+    // 1 - Ottieni il primo/ultimo elemento costitutivo della raccolta:
     Assert.AreEqual("Block 1", glossaryDoc.FirstBuildingBlock.Name);
     Assert.AreEqual("Block 5", glossaryDoc.LastBuildingBlock.Name);
 
-    // 2 - Ottieni un building block per indice:
+    // 2 - Ottieni un elemento costitutivo per indice:
     Assert.AreEqual("Block 2", glossaryDoc.BuildingBlocks[1].Name);
     Assert.AreEqual("Block 3", glossaryDoc.BuildingBlocks.ToArray()[2].Name);
 
-    // 3 - Ottieni il primo building block che corrisponde a una galleria, un nome e una categoria:
+    // 3 - Ottieni il primo elemento costitutivo che corrisponde a una galleria, un nome e una categoria:
     Assert.AreEqual("Block 4", 
         glossaryDoc.GetBuildingBlock(BuildingBlockGallery.All, "(Empty Category)", "Block 4").Name);
 
     // Lo faremo utilizzando un visitatore personalizzato,
-    // che darà a ogni BuildingBlock nel GlossaryDocument un GUID univoco
+    // che assegnerà a ogni BuildingBlock nel GlossaryDocument un GUID univoco
     GlossaryDocVisitor visitor = new GlossaryDocVisitor();
     glossaryDoc.Accept(visitor);
-
     Console.WriteLine(visitor.GetText());
 
-    // In Microsoft Word, possiamo accedere ai blocchi predefiniti tramite "Inserisci" -> "Parti rapide" -> "Organizzatore di blocchi di costruzione".
+    // In Microsoft Word possiamo accedere agli elementi costitutivi tramite "Inserisci" -> "Parti rapide" -> "Organizzatore di blocchi di costruzione" .
     doc.Save(ArtifactsDir + "BuildingBlocks.GlossaryDocument.dotx"); 
 }
 
 /// <summary>
-/// Fornisce a ciascun elemento costitutivo in un documento del glossario visitato un GUID univoco.
-/// Memorizza le coppie di blocchi GUID in un dizionario.
+/// Assegna a ogni elemento costitutivo in un documento di glossario visitato un GUID univoco.
+/// Memorizza le coppie di blocchi predefiniti GUID in un dizionario.
 /// </summary>
 public class GlossaryDocVisitor : DocumentVisitor
 {

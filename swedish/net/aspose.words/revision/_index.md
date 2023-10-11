@@ -3,12 +3,14 @@ title: Class Revision
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Revision klass. Representerar en revision spårad ändring i en dokumentnod eller stil. AnvändRevisionType för att kontrollera typen av denna version.
 type: docs
-weight: 4500
+weight: 4760
 url: /sv/net/aspose.words/revision/
 ---
 ## Revision class
 
 Representerar en revision (spårad ändring) i en dokumentnod eller stil. Använd[`RevisionType`](./revisiontype/) för att kontrollera typen av denna version.
+
+För att lära dig mer, besök[Spåra ändringar i ett dokument](https://docs.aspose.com/words/net/track-changes-in-a-document/) dokumentationsartikel.
 
 ```csharp
 public class Revision
@@ -18,9 +20,9 @@ public class Revision
 
 | namn | Beskrivning |
 | --- | --- |
-| [Author](../../aspose.words/revision/author/) { get; set; } | Hämtar eller ställer in författaren till denna version. Kan inte vara tom sträng eller null. |
+| [Author](../../aspose.words/revision/author/) { get; set; } | Hämtar eller ställer in författaren till denna version. Kan inte vara tom sträng eller`null` . |
 | [DateTime](../../aspose.words/revision/datetime/) { get; set; } | Hämtar eller ställer in datum/tid för denna revision. |
-| [Group](../../aspose.words/revision/group/) { get; } | Hämtar revisionsgruppen. Returnerar null om revisionen inte tillhör någon grupp. |
+| [Group](../../aspose.words/revision/group/) { get; } | Hämtar revisionsgruppen. Returnerar`null` om revisionen inte tillhör någon grupp. |
 | [ParentNode](../../aspose.words/revision/parentnode/) { get; } | Hämtar den omedelbara överordnade noden (ägaren) till denna version. Den här egenskapen kommer att fungera för alla andra versionstyper änStyleDefinitionChange . |
 | [ParentStyle](../../aspose.words/revision/parentstyle/) { get; } | Hämtar den omedelbara överordnade stilen (ägaren) för denna version. Den här egenskapen fungerar endast förStyleDefinitionChange revisionstyp. |
 | [RevisionType](../../aspose.words/revision/revisiontype/) { get; } | Hämtar typen av denna version. |

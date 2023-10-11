@@ -27,6 +27,7 @@ Använder sig av[`IImageSavingCallback`](../../iimagesavingcallback/) du kan int
 Visar hur man involverar en bildsparande återuppringning i en HTML-konverteringsprocess.
 
 ```csharp
+public void ImageSavingCallback()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 

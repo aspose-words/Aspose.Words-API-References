@@ -1,14 +1,14 @@
 ---
 title: Font.AutoColor
 second_title: Referencia de API de Aspose.Words para .NET
-description: Font propiedad. Devuelve el color actual calculado del texto blanco o negro que se utilizará para el color automático. Si el color no es automático devuelveColor .
+description: Font propiedad. Devuelve el color calculado actual del texto blanco o negro que se utilizará para el color automático. Si el color no es automático devuelveColor .
 type: docs
 weight: 20
 url: /es/net/aspose.words/font/autocolor/
 ---
 ## Font.AutoColor property
 
-Devuelve el color actual calculado del texto (blanco o negro) que se utilizará para el 'color automático'. Si el color no es 'automático', devuelve[`Color`](../color/) .
+Devuelve el color calculado actual del texto (blanco o negro) que se utilizará para el 'color automático'. Si el color no es 'automático', devuelve[`Color`](../color/) .
 
 ```csharp
 public Color AutoColor { get; }
@@ -20,18 +20,18 @@ Cuando el texto tiene 'color automático', el color real del texto se calcula au
 
 ### Ejemplos
 
-Muestra cómo mejorar la legibilidad seleccionando automáticamente el color del texto en función del brillo de su fondo.
+Muestra cómo mejorar la legibilidad seleccionando automáticamente el color del texto según el brillo de su fondo.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Si el objeto Font de una ejecución no especifica el color del texto, automáticamente
-// seleccione blanco o negro dependiendo del color de fondo.
+// Si el objeto Fuente de una ejecución no especifica el color del texto, automáticamente
+// seleccione blanco o negro según el color del fondo.
 Assert.AreEqual(Color.Empty.ToArgb(), builder.Font.Color.ToArgb());
 
-// El color predeterminado para el texto es negro. Si el color del fondo es oscuro, el texto negro será difícil de ver.
-// Para resolver este problema, la propiedad AutoColor mostrará este texto en blanco.
+// El color predeterminado del texto es negro. Si el color del fondo es oscuro, será difícil ver el texto negro.
+// Para solucionar este problema, la propiedad AutoColor mostrará este texto en blanco.
 builder.Font.Shading.BackgroundPatternColor = Color.DarkBlue;
 
 builder.Writeln("The text color automatically chosen for this run is white.");

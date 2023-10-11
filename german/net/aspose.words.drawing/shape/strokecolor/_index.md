@@ -35,18 +35,18 @@ builder.Writeln("Hello world!");
 Shape shape = builder.InsertShape(ShapeType.CloudCallout, RelativeHorizontalPosition.LeftMargin, 25,
     RelativeVerticalPosition.TopMargin, 25, 250, 150, WrapType.None);
 
-// Verwenden Sie die Eigenschaft "StrokeColor", um die Farbe des Umrisses der Form festzulegen.
+// Verwenden Sie die Eigenschaft „StrokeColor“, um die Farbe des Umrisses der Form festzulegen.
 shape.StrokeColor = Color.CadetBlue;
 
-// Verwenden Sie die Eigenschaft "FillColor", um die Farbe des Innenbereichs der Form festzulegen.
+// Verwenden Sie die Eigenschaft „FillColor“, um die Farbe des Innenbereichs der Form festzulegen.
 shape.FillColor = Color.LightBlue;
 
-// Die Eigenschaft "Deckkraft" bestimmt, wie transparent die Farbe auf einer Skala von 0-1 ist,
-// wobei 1 vollständig undurchsichtig und 0 unsichtbar ist.
-// Die Formfüllung ist standardmäßig vollständig undurchsichtig, sodass wir den Text, auf dem sich diese Form befindet, nicht sehen können.
+// Die Eigenschaft „Opacity“ bestimmt, wie transparent die Farbe auf einer Skala von 0-1 ist,
+// wobei 1 völlig undurchsichtig und 0 unsichtbar ist.
+// Die Formfüllung ist standardmäßig vollständig undurchsichtig, sodass wir den Text, über dem sich diese Form befindet, nicht sehen können.
 Assert.AreEqual(1.0d, shape.Fill.Opacity);
 
-// Setzen Sie die Deckkraft der Füllfarbe der Form auf einen niedrigeren Wert, damit wir den Text darunter sehen können.
+// Stellen Sie die Deckkraft der Formfüllfarbe auf einen niedrigeren Wert ein, damit wir den Text darunter sehen können.
 shape.Fill.Opacity = 0.3;
 
 doc.Save(ArtifactsDir + "Shape.Fill.docx");
@@ -55,6 +55,7 @@ doc.Save(ArtifactsDir + "Shape.Fill.docx");
 Zeigt, wie alle Formen in einem Dokument durchlaufen werden.
 
 ```csharp
+public void VisitShapes()
 {
     Document doc = new Document(MyDir + "Revision shape.docx");
     ShapeAppearancePrinter visitor = new ShapeAppearancePrinter();
@@ -64,7 +65,7 @@ Zeigt, wie alle Formen in einem Dokument durchlaufen werden.
 }
 
 /// <summary>
-/// Protokolliert erscheinungsbezogene Informationen über besuchte Shapes.
+/// Protokolliert darstellungsbezogene Informationen zu besuchten Formen.
 /// </summary>
 private class ShapeAppearancePrinter : DocumentVisitor
 {
@@ -76,7 +77,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Hängt eine Zeile mit einem vorangestellten Tabulatorzeichen für jede Einzugsebene an den StringBuilder an.
+    /// Hängt eine Zeile an den StringBuilder an, wobei für jede Einrückungsebene ein Tabulatorzeichen vorangestellt wird.
     /// </summary>
     private void AppendLine(string text)
     {
@@ -86,7 +87,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Den gesamten Text zurückgeben, den der StringBuilder angesammelt hat.
+    /// Den gesamten Text zurückgeben, den der StringBuilder gesammelt hat.
     /// </summary>
     public string GetText()
     {

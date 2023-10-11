@@ -3,7 +3,7 @@ title: Enum MailMergeDestination
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Settings.MailMergeDestination uppräkning. Anger möjliga resultat som kan genereras när en epostsammanslagning utförs på ett dokument.
 type: docs
-weight: 5530
+weight: 5830
 url: /sv/net/aspose.words.settings/mailmergedestination/
 ---
 ## MailMergeDestination enumeration
@@ -21,7 +21,7 @@ public enum MailMergeDestination
 | NewDocument | `0` | Anger att överensstämmande värdapplikationer ska generera nya dokument genom att fylla i fälten i ett givet dokument med data från den angivna externa datakällan. |
 | Printer | `1` | Anger att överensstämmande värdapplikationer ska skriva ut de dokument som blir resultatet av att fylla i -fälten i ett givet dokument med externa data från den angivna externa datakällan. |
 | Email | `2` | Anger att överensstämmande värdapplikationer ska generera e-postmeddelanden med de dokument som är resultatet av att fyller i fälten i ett givet dokument med data från den angivna externa datakällan. |
-| Fax | `4` | Anger att överensstämmande värdapplikationer ska generera fax med hjälp av de dokument som är resultatet av att fylla i fälten i ett givet dokument med data från den angivna externa datakällan. |
+| Fax | `4` | Anger att överensstämmande värdapplikationer ska generera fax med hjälp av de dokument som är resultatet av att fyller i fälten i ett givet dokument med data från den angivna externa datakällan. |
 | Default | `0` | är lika medNewDocument värde. |
 
 ### Exempel
@@ -69,7 +69,7 @@ odso.FirstRowContainsColumnNames = true;
 Assert.AreNotSame(odso, odso.Clone());
 Assert.AreNotSame(settings, settings.Clone());
 
-// Att öppna detta dokument i Microsoft Word kommer att köra sammanslagningen innan innehållet visas. 
+ // Att öppna detta dokument i Microsoft Word kommer att köra sammanslagningen innan innehållet visas.
 doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ```
 

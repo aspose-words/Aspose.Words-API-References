@@ -3,7 +3,7 @@ title: ChartSeries.Format
 second_title: Referencia de API de Aspose.Words para .NET
 description: ChartSeries propiedad. Proporciona acceso al formato de relleno y línea de la serie.
 type: docs
-weight: 50
+weight: 60
 url: /es/net/aspose.words.drawing.charts/chartseries/format/
 ---
 ## ChartSeries.Format property
@@ -16,7 +16,7 @@ public ChartFormat Format { get; }
 
 ### Ejemplos
 
-Siembras cómo configurar el color de la serie.
+Muestra cómo configurar el color de la serie.
 
 ```csharp
 Document doc = new Document();
@@ -27,13 +27,13 @@ Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
 Chart chart = shape.Chart;
 ChartSeriesCollection seriesColl = chart.Series;
 
-// Elimina la serie generada por defecto.
+// Eliminar la serie generada por defecto.
 seriesColl.Clear();
 
-// Crear matriz de nombres de categoría.
+// Crea una matriz de nombres de categorías.
 string[] categories = new[] { "Category 1", "Category 2" };
 
-// Agregando nueva serie. Las matrices de valores y categorías deben tener el mismo tamaño.
+// Añadiendo nuevas series. Las matrices de valores y categorías deben tener el mismo tamaño.
 ChartSeries series1 = seriesColl.Add("Series 1", categories, new double[] { 1, 2 });
 ChartSeries series2 = seriesColl.Add("Series 2", categories, new double[] { 3, 4 });
 ChartSeries series3 = seriesColl.Add("Series 3", categories, new double[] { 5, 6 });

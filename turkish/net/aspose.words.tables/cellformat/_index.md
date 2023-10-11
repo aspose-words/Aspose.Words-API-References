@@ -3,12 +3,14 @@ title: Class CellFormat
 second_title: Aspose.Words for .NET API Referansı
 description: Aspose.Words.Tables.CellFormat sınıf. Bir tablo hücresinin tüm biçimlendirmesini temsil eder.
 type: docs
-weight: 5960
+weight: 6260
 url: /tr/net/aspose.words.tables/cellformat/
 ---
 ## CellFormat class
 
 Bir tablo hücresinin tüm biçimlendirmesini temsil eder.
+
+Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Tablolarla Çalışmak](https://docs.aspose.com/words/net/working-with-tables/) dokümantasyon makalesi.
 
 ```csharp
 public class CellFormat
@@ -18,31 +20,32 @@ public class CellFormat
 
 | İsim | Tanım |
 | --- | --- |
-| [Borders](../../aspose.words.tables/cellformat/borders/) { get; } | Hücrenin kenarlıklarının koleksiyonunu alır. |
-| [BottomPadding](../../aspose.words.tables/cellformat/bottompadding/) { get; set; } | Hücre içeriğinin altına eklenecek boşluk miktarını (puan olarak) döndürür veya ayarlar. |
-| [FitText](../../aspose.words.tables/cellformat/fittext/) { get; set; } | Doğruysa, her paragrafı hücrenin genişliğine sıkıştırarak hücreye metin sığdırır. |
-| [HorizontalMerge](../../aspose.words.tables/cellformat/horizontalmerge/) { get; set; } | Hücrenin, satırdaki diğer hücrelerle yatay olarak nasıl birleştirileceğini belirtir. |
-| [LeftPadding](../../aspose.words.tables/cellformat/leftpadding/) { get; set; } | Hücre içeriğinin soluna eklenecek boşluk miktarını (puan olarak) döndürür veya ayarlar. |
-| [Orientation](../../aspose.words.tables/cellformat/orientation/) { get; set; } | Tablo hücresindeki metnin yönünü döndürür veya ayarlar. |
+| [Borders](../../aspose.words.tables/cellformat/borders/) { get; } | Hücrenin sınırlarının toplanmasını alır. |
+| [BottomPadding](../../aspose.words.tables/cellformat/bottompadding/) { get; set; } | Hücre içeriğinin altına eklenecek alan miktarını (nokta cinsinden) döndürür veya ayarlar. |
+| [FitText](../../aspose.words.tables/cellformat/fittext/) { get; set; } | Eğer`doğru` , her paragrafı hücrenin genişliğine sıkıştırarak metni hücreye sığdırır. |
+| [HideMark](../../aspose.words.tables/cellformat/hidemark/) { get; set; } |  |
+| [HorizontalMerge](../../aspose.words.tables/cellformat/horizontalmerge/) { get; set; } | Hücrenin satırdaki diğer hücrelerle yatay olarak nasıl birleştirileceğini belirtir. |
+| [LeftPadding](../../aspose.words.tables/cellformat/leftpadding/) { get; set; } | Hücre içeriğinin soluna eklenecek alan miktarını (nokta cinsinden) döndürür veya ayarlar. |
+| [Orientation](../../aspose.words.tables/cellformat/orientation/) { get; set; } | Bir tablo hücresindeki metnin yönünü döndürür veya ayarlar. |
 | [PreferredWidth](../../aspose.words.tables/cellformat/preferredwidth/) { get; set; } | Hücrenin tercih edilen genişliğini döndürür veya ayarlar. |
-| [RightPadding](../../aspose.words.tables/cellformat/rightpadding/) { get; set; } | Hücre içeriğinin sağına eklenecek boşluk miktarını (puan olarak) döndürür veya ayarlar. |
-| [Shading](../../aspose.words.tables/cellformat/shading/) { get; } | Hücrenin gölgelendirme biçimlendirmesine başvuran bir Shading nesnesi döndürür. |
-| [TopPadding](../../aspose.words.tables/cellformat/toppadding/) { get; set; } | Hücre içeriğinin üzerine eklenecek boşluk miktarını (puan olarak) döndürür veya ayarlar. |
+| [RightPadding](../../aspose.words.tables/cellformat/rightpadding/) { get; set; } | Hücre içeriğinin sağına eklenecek alan miktarını (nokta cinsinden) döndürür veya ayarlar. |
+| [Shading](../../aspose.words.tables/cellformat/shading/) { get; } | Bir değeri döndürür[`Shading`](../../aspose.words/shading/) hücrenin gölgelendirme formatını ifade eden nesne. |
+| [TopPadding](../../aspose.words.tables/cellformat/toppadding/) { get; set; } | Hücre içeriğinin üzerine eklenecek alan miktarını (nokta cinsinden) döndürür veya ayarlar. |
 | [VerticalAlignment](../../aspose.words.tables/cellformat/verticalalignment/) { get; set; } | Hücredeki metnin dikey hizalamasını döndürür veya ayarlar. |
 | [VerticalMerge](../../aspose.words.tables/cellformat/verticalmerge/) { get; set; } | Hücrenin diğer hücrelerle dikey olarak nasıl birleştirileceğini belirtir. |
-| [Width](../../aspose.words.tables/cellformat/width/) { get; set; } | Nokta olarak hücrenin genişliğini alır. |
-| [WrapText](../../aspose.words.tables/cellformat/wraptext/) { get; set; } | Doğruysa, hücre için metni kaydırın. |
+| [Width](../../aspose.words.tables/cellformat/width/) { get; set; } | Hücrenin genişliğini nokta olarak alır. |
+| [WrapText](../../aspose.words.tables/cellformat/wraptext/) { get; set; } | Eğer`doğru` , hücrenin metnini kaydır. |
 
 ## yöntemler
 
 | İsim | Tanım |
 | --- | --- |
-| [ClearFormatting](../../aspose.words.tables/cellformat/clearformatting/)() | Varsayılan hücre biçimlendirmesine sıfırlar. Hücrenin genişliğini değiştirmez. |
-| [SetPaddings](../../aspose.words.tables/cellformat/setpaddings/)(double, double, double, double) | Hücre içeriğinin soluna/üstüne/sağına/altına eklenecek boşluk miktarını (puan olarak) ayarlar. |
+| [ClearFormatting](../../aspose.words.tables/cellformat/clearformatting/)() | Varsayılan hücre formatına sıfırlar. Hücrenin genişliğini değiştirmez. |
+| [SetPaddings](../../aspose.words.tables/cellformat/setpaddings/)(double, double, double, double) | Hücre içeriğinin sol/üst/sağ/alt kısmına eklenecek alan miktarını (nokta cinsinden) ayarlar. |
 
 ### Örnekler
 
-Bir tablo hücresinin biçimlendirmesinin nasıl değiştirileceğini gösterir.
+Bir tablo hücresinin formatının nasıl değiştirileceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
@@ -57,7 +60,7 @@ firstCell.CellFormat.Shading.ForegroundPatternColor = Color.LightGreen;
 doc.Save(ArtifactsDir + "Table.CellFormat.docx");
 ```
 
-Tablodaki satırların ve hücrelerin biçiminin nasıl değiştirileceğini gösterir.
+Bir tablodaki satırların ve hücrelerin biçiminin nasıl değiştirileceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -81,7 +84,7 @@ RowFormat rowFormat = table.FirstRow.RowFormat;
 rowFormat.Height = 25;
 rowFormat.Borders[BorderType.Bottom].Color = Color.Red;
 
-// Bu hücrenin içeriğinin biçimlendirmesini değiştirmek için son satırdaki ilk hücrenin "CellFormat" özelliğini kullanın.
+// Hücrenin içeriğinin biçimlendirmesini değiştirmek için son satırdaki ilk hücrenin "CellFormat" özelliğini kullanın.
 CellFormat cellFormat = table.LastRow.FirstCell.CellFormat;
 cellFormat.Width = 100;
 cellFormat.Shading.BackgroundPatternColor = Color.Orange;
@@ -89,7 +92,7 @@ cellFormat.Shading.BackgroundPatternColor = Color.Orange;
 doc.Save(ArtifactsDir + "Table.RowCellFormat.docx");
 ```
 
-Özel kenarlıklı bir tablonun nasıl oluşturulacağını gösterir.
+Özel kenarlıklara sahip bir tablonun nasıl oluşturulacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -97,8 +100,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.StartTable();
 
-// Bir belge oluşturucu için tablo biçimlendirme seçeneklerini ayarlama
-// onları eklediğimiz her satıra ve hücreye uygulayacak.
+// Belge oluşturucu için tablo biçimlendirme seçeneklerini ayarlama
+// bunları eklediğimiz her satıra ve hücreye uygulayacaktır.
 builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
 builder.CellFormat.ClearFormatting();
@@ -121,8 +124,8 @@ builder.InsertCell();
 builder.Write("Row 1, Col 2");
 builder.EndRow();
 
-// Biçimlendirmeyi değiştirmek, onu geçerli hücreye uygular,
-// ve daha sonra oluşturucu ile oluşturduğumuz yeni hücreler.
+// Biçimlendirmeyi değiştirmek onu geçerli hücreye uygulayacaktır,
+// ve daha sonra oluşturucuyla oluşturduğumuz yeni hücreler.
 // Bu daha önce eklediğimiz hücreleri etkilemeyecektir.
 builder.CellFormat.Shading.ClearFormatting();
 
@@ -134,7 +137,7 @@ builder.Write("Row 2, Col 2");
 
 builder.EndRow();
 
-// Dikey metne sığdırmak için satır yüksekliğini artırın.
+// Dikey metne sığacak şekilde satır yüksekliğini artırın.
 builder.InsertCell();
 builder.RowFormat.Height = 150;
 builder.CellFormat.Orientation = TextOrientation.Upward;

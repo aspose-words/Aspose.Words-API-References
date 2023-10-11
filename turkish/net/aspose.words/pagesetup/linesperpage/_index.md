@@ -16,20 +16,20 @@ public int LinesPerPage { get; set; }
 
 ### Notlar
 
-Özelliğin minimum değeri 1'dir. Maksimum değer, Normal stilinin sayfa yüksekliğine ve yazı tipi boyutuna bağlıdır. Minimum satır aralığı, yazı tipi boyutunun yüzde 136'sıdır. Örneğin, bir inç kenar boşluklu bir Letter sayfasının sayfası başına maksimum satır sayısı 39'dur.
+Özelliğin minimum değeri 1'dir. Maksimum değer, Normal stilinin sayfa yüksekliğine ve yazı tipi boyutuna bağlıdır. Minimum satır aralığı yazı tipi boyutunun yüzde 136'sıdır. Örneğin, bir inç kenar boşluklarına sahip bir Letter sayfasının sayfası başına maksimum satır sayısı 39'dur.
 
-Varsayılan olarak özelliğin, satır aralığının Normal stildeki yazı tipi boyutundan 1,5 kat daha büyük olduğu bir değeri vardır.
+Varsayılan olarak özellik, satır aralığının Normal stildeki yazı tipi boyutundan 1,5 kat daha büyük olduğu bir değere sahiptir.
 
 ### Örnekler
 
-Her sayfanın sahip olabileceği satır sayısı için bir sınırın nasıl belirleneceğini gösterir.
+Her sayfanın sahip olabileceği satır sayısına ilişkin sınırın nasıl belirleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Adım atmayı etkinleştirin ve ardından bu bölümde sayfa başına satır sayısını ayarlamak için kullanın.
-// Yeterince büyük bir yazı tipi boyutu, üst üste binen karakterleri önlemek için bazı satırları bir sonraki sayfaya itecektir.
+// Perdelemeyi etkinleştirin ve ardından bu bölümdeki sayfa başına satır sayısını ayarlamak için bunu kullanın.
+// Yeterince büyük bir yazı tipi boyutu, karakterlerin çakışmasını önlemek için bazı satırları sonraki sayfaya doğru itecektir.
 builder.PageSetup.LayoutMode = SectionLayoutMode.LineGrid;
 builder.PageSetup.LinesPerPage = 15;
 

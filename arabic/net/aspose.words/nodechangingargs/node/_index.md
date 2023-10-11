@@ -1,14 +1,14 @@
 ---
 title: NodeChangingArgs.Node
 second_title: Aspose.Words لمراجع .NET API
-description: NodeChangingArgs ملكية. يحصل على ملفNode التي تتم إضافتها أو إزالتها.
+description: NodeChangingArgs ملكية. يحصل علىNode التي تتم إضافتها أو إزالتها.
 type: docs
 weight: 30
 url: /ar/net/aspose.words/nodechangingargs/node/
 ---
 ## NodeChangingArgs.Node property
 
-يحصل على ملف`Node` التي تتم إضافتها أو إزالتها.
+يحصل على`Node` التي تتم إضافتها أو إزالتها.
 
 ```csharp
 public Node Node { get; }
@@ -16,30 +16,32 @@ public Node Node { get; }
 
 ### أمثلة
 
-يوضح كيفية تخصيص تغيير العقدة مع رد الاتصال.
+يوضح كيفية تخصيص تغيير العقدة من خلال رد الاتصال.
 
 ```csharp
+public void FontChangeViaCallback()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // تعيين استدعاء تغيير العقدة إلى التنفيذ المخصص ،
-    // ثم قم بإضافة / إزالة العقد للحصول عليها لإنشاء سجل.
+    // قم بتعيين رد الاتصال المتغير للعقدة على التنفيذ المخصص،
+    // ثم قم بإضافة/إزالة العقد للحصول على سجل.
     HandleNodeChangingFontChanger callback = new HandleNodeChangingFontChanger();
     doc.NodeChangingCallback = callback;
 
     builder.Writeln("Hello world!");
     builder.Writeln("Hello again!");
-    builder.InsertField(" HYPERLINK \"https://www.google.com/ \ "") ;
+    builder.InsertField(" HYPERLINK \"https://www.google.com/\" ");
     builder.InsertShape(ShapeType.Rectangle, 300, 300);
 
     doc.Range.Fields[0].Remove();
 
     Console.WriteLine(callback.GetLog());
+}
 
 /// <summary>
-/// يسجل تاريخ ووقت كل إدخال وإزالة عقدة.
-/// يعين اسم / حجم خط مخصص لمحتويات نص عقد التشغيل.
+/// يسجل تاريخ ووقت كل إدخال وإزالة للعقدة.
+/// يعين اسم/حجم خط مخصص لمحتويات النص في عقد التشغيل.
 /// </summary>
 public class HandleNodeChangingFontChanger : INodeChangingCallback
 {

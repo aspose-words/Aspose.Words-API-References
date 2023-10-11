@@ -20,21 +20,21 @@ public override bool Accept(DocumentVisitor visitor)
 
 ### 返回值
 
-如果访问了所有节点，则为真；如果 DocumentVisitor 在访问所有节点之前停止操作，则返回 false。
+如果访问了所有节点，则为 True；假如果[`DocumentVisitor`](../../../aspose.words/documentvisitor/)在访问所有节点之前停止操作。
 
 ### 评论
 
-枚举此节点及其所有子节点。每个节点调用 DocumentVisitor 上的相应方法。
+枚举该节点及其所有子节点。每个节点调用相应的方法[`DocumentVisitor`](../../../aspose.words/documentvisitor/)。
 
-有关更多信息，请参阅访问者设计模式。
+有关更多信息，请参阅访客设计模式。
 
-来电[`VisitGlossaryDocumentStart`](../../../aspose.words/documentvisitor/visitglossarydocumentstart/)，然后调用[`Accept`](../../../aspose.words/node/accept/) 为这个节点的所有子节点然后调用[`VisitGlossaryDocumentEnd`](../../../aspose.words/documentvisitor/visitglossarydocumentend/) 在最后。
+通话[`VisitGlossaryDocumentStart`](../../../aspose.words/documentvisitor/visitglossarydocumentstart/)，然后调用[`Accept`](../../../aspose.words/node/accept/) 该节点的所有子节点然后调用[`VisitGlossaryDocumentEnd`](../../../aspose.words/documentvisitor/visitglossarydocumentend/) 在最后。
 
-注意：当您执行 a Visitor over a 时，不会访问词汇表文档节点及其子节点[`Document`](../../../aspose.words/document/).如果要在 a 词汇表文档上执行访问者，则需要调用`Accept`.
+注意：当您在 a Visitor 上执行 a Visitor 时，不会访问词汇表文档节点及其子节点。[`Document`](../../../aspose.words/document/) 。如果你想对a 词汇表文档执行Visitor，你需要调用`Accept`.
 
 ### 例子
 
-显示访问词汇表文档中构建块的方法。
+显示访问术语表文档中的构建块的方法。
 
 ```csharp
 public void GlossaryDocument()
@@ -52,7 +52,7 @@ public void GlossaryDocument()
 
     doc.GlossaryDocument = glossaryDoc;
 
-    // 有多种访问构建块的方法。
+    // 访问构建块的方式有多种。
     // 1 - 获取集合中的第一个/最后一个构建块：
     Assert.AreEqual("Block 1", glossaryDoc.FirstBuildingBlock.Name);
     Assert.AreEqual("Block 5", glossaryDoc.LastBuildingBlock.Name);
@@ -69,15 +69,14 @@ public void GlossaryDocument()
     // 这将为 GlossaryDocument 中的每个 BuildingBlock 提供唯一的 GUID
     GlossaryDocVisitor visitor = new GlossaryDocVisitor();
     glossaryDoc.Accept(visitor);
-
     Console.WriteLine(visitor.GetText());
 
-    // 在 Microsoft Word 中，我们可以通过“插入”-> 访问构建块“快速零件”-> “积木组织者”。
+    // 在 Microsoft Word 中，我们可以通过“插入”-> 来访问构建块“快速零件”-> “积木组织者”。
     doc.Save(ArtifactsDir + "BuildingBlocks.GlossaryDocument.dotx"); 
 }
 
 /// <summary>
-/// 为访问的词汇表文档中的每个构建块提供唯一的 GUID。
+/// 为访问的术语表文档中的每个构建块提供唯一的 GUID。
 /// 将 GUID 构建块对存储在字典中。
 /// </summary>
 public class GlossaryDocVisitor : DocumentVisitor

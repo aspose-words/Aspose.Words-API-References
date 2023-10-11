@@ -22,7 +22,7 @@ public double LineSpacing { get; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Установите разные шрифты для DocumentBuilder и проверьте межстрочный интервал.
+// Установите разные шрифты для DocumentBuilder и проверьте их межстрочный интервал.
 builder.Font.Name = "Calibri";
 Assert.AreEqual(14.6484375d, builder.Font.LineSpacing);
 

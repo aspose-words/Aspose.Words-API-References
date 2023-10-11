@@ -1,14 +1,14 @@
 ---
 title: Run.Run
 second_title: Aspose.Words för .NET API Referens
-description: Run byggare. Initierar en ny instans av Springa class.
+description: Run byggare. Initierar en ny instans avRun class.
 type: docs
 weight: 10
 url: /sv/net/aspose.words/run/run/
 ---
 ## Run(DocumentBase) {#constructor}
 
-Initierar en ny instans av **Springa** class.
+Initierar en ny instans av[`Run`](../) class.
 
 ```csharp
 public Run(DocumentBase doc)
@@ -20,9 +20,9 @@ public Run(DocumentBase doc)
 
 ### Anmärkningar
 
-När **Springa** skapas, det tillhör det angivna dokumentet, men är inte ännu en del av dokumentet och **ParentNode** är inget.
+När[`Run`](../) skapas, det tillhör det angivna dokumentet, men är inte ännu en del av dokumentet och[`ParentNode`](../../node/parentnode/) är`null`.
 
-Att lägga till **Springa** till dokumentet använd InsertAfter eller InsertBefore på det stycke där du vill att körningen ska infogas.
+Att lägga till[`Run`](../) till dokumentanvändningenNode) ellerNode) på stycket där du vill att körningen ska infogas.
 
 ### Exempel
 
@@ -95,9 +95,9 @@ public Run(DocumentBase doc, string text)
 
 ### Anmärkningar
 
-När **Springa** skapas, det tillhör det angivna dokumentet, men är inte ännu en del av dokumentet och **ParentNode** är inget.
+När[`Run`](../) skapas, det tillhör det angivna dokumentet, men är inte ännu en del av dokumentet och[`ParentNode`](../../node/parentnode/) är`null`.
 
-Att lägga till **Springa** till dokumentet använd InsertAfter eller InsertBefore på det stycke där du vill att körningen ska infogas.
+Att lägga till[`Run`](../) till dokumentanvändningenNode) ellerNode) på stycket där du vill att körningen ska infogas.
 
 ### Exempel
 

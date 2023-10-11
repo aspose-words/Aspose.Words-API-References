@@ -16,7 +16,7 @@ public Paragraph LastParagraph { get; }
 
 ### Exemples
 
-Montre comment appliquer des paramètres aux bordures verticales au format d'une ligne de tableau.
+Montre comment appliquer les paramètres des bordures verticales au format d’une ligne de tableau.
 
 ```csharp
 Document doc = new Document();

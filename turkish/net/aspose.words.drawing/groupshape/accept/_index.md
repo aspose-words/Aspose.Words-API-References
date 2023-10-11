@@ -1,14 +1,14 @@
 ---
 title: GroupShape.Accept
 second_title: Aspose.Words for .NET API Referansı
-description: GroupShape yöntem. Bir ziyaretçiyi kabul eder.
+description: GroupShape yöntem. Ziyaretçi kabul eder.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.drawing/groupshape/accept/
 ---
 ## GroupShape.Accept method
 
-Bir ziyaretçiyi kabul eder.
+Ziyaretçi kabul eder.
 
 ```csharp
 public override bool Accept(DocumentVisitor visitor)
@@ -20,19 +20,19 @@ public override bool Accept(DocumentVisitor visitor)
 
 ### Geri dönüş değeri
 
-Tüm düğümler ziyaret edildiyse doğrudur; DocumentVisitor tüm düğümleri ziyaret etmeden önce işlemi durdurduysa false.
+Tüm düğümler ziyaret edilmişse doğrudur; yanlış ise[`DocumentVisitor`](../../../aspose.words/documentvisitor/) tüm düğümleri ziyaret etmeden işlemi durdurdu.
 
 ### Notlar
 
-Bu düğüm ve tüm alt öğeleri üzerinde numaralandırır. Her düğüm, DocumentVisitor'da karşılık gelen bir yöntemi çağırır.
+Bu düğümü ve tüm alt öğelerini numaralandırır. Her düğüm kendisine karşılık gelen bir yöntemi çağırır.[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
 
-Daha fazla bilgi için Ziyaretçi tasarım modeline bakın.
+Daha fazla bilgi için Ziyaretçi tasarım desenine bakın.
 
-Çağrılar[`VisitGroupShapeStart`](../../../aspose.words/documentvisitor/visitgroupshapestart/) , sonra arar[`Accept`](../../../aspose.words/node/accept/) bu grup şeklinin ve çağrılarının tüm alt şekilleri için[`VisitGroupShapeEnd`](../../../aspose.words/documentvisitor/visitgroupshapeend/) sonunda.
+Çağrılar[`VisitGroupShapeStart`](../../../aspose.words/documentvisitor/visitgroupshapestart/) , ardından arar[`Accept`](../../../aspose.words/node/accept/) bu grup şeklinin ve çağrılarının tüm alt şekilleri için[`VisitGroupShapeEnd`](../../../aspose.words/documentvisitor/visitgroupshapeend/) sonunda.
 
 ### Örnekler
 
-Bir grup şeklin nasıl oluşturulacağını ve içeriğini bir belge ziyaretçisi kullanarak nasıl yazdırılacağını gösterir.
+Bir şekil grubunun nasıl oluşturulacağını ve bir belge ziyaretçisi kullanılarak içeriğinin nasıl yazdırılacağını gösterir.
 
 ```csharp
 public void GroupOfShapes()
@@ -40,8 +40,8 @@ public void GroupOfShapes()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped gibi "NonPrimitive" şekiller oluşturmanız gerekiyorsa,
-    // TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded, DiagonalCornersRounded
+    // SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped gibi "Primitive Olmayan" şekiller oluşturmanız gerekiyorsa,
+    // ÜstKöşelerBirYuvarlakBirKesilmiş, TekKöşeYuvarlak, ÜstKöşelerYuvarlak, ÇaprazKöşelerYuvarlak
     // lütfen DocumentBuilder.InsertShape yöntemlerini kullanın.
     Shape balloon = new Shape(doc, ShapeType.Balloon)
     {
@@ -72,7 +72,7 @@ public void GroupOfShapes()
 }
 
 /// <summary>
-/// Ziyaret edilen bir şekil grubunun içeriğini konsola yazdırır.
+/// Ziyaret edilen şekil grubunun içeriğini konsola yazdırır.
 /// </summary>
 public class ShapeGroupPrinter : DocumentVisitor
 {

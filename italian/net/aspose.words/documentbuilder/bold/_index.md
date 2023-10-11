@@ -16,14 +16,14 @@ public bool Bold { get; set; }
 
 ### Esempi
 
-Mostra come riempire MERGEFIELD con i dati con un generatore di documenti invece di una stampa unione.
+Mostra come riempire MERGEFIELD con dati con un generatore di documenti invece che con una stampa unione.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Inserisce alcuni MERGEFIELDS, che accettano dati da colonne con lo stesso nome in un'origine dati durante una stampa unione,
-// e poi riempili manualmente.
+// e poi riempirli manualmente.
 builder.InsertField(" MERGEFIELD Chairman ");
 builder.InsertField(" MERGEFIELD ChiefFinancialOfficer ");
 builder.InsertField(" MERGEFIELD ChiefTechnologyOfficer ");

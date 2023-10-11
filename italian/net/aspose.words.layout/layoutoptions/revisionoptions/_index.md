@@ -3,7 +3,7 @@ title: LayoutOptions.RevisionOptions
 second_title: Aspose.Words per .NET API Reference
 description: LayoutOptions proprietà. Ottiene le opzioni di revisione.
 type: docs
-weight: 60
+weight: 70
 url: /it/net/aspose.words.layout/layoutoptions/revisionoptions/
 ---
 ## LayoutOptions.RevisionOptions property

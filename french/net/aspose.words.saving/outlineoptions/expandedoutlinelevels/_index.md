@@ -57,22 +57,22 @@ builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading5;
 builder.Writeln("Heading 1.2.2.2.1");
 builder.Writeln("Heading 1.2.2.2.2");
 
-// Crée un objet "PdfSaveOptions" que nous pouvons passer à la méthode "Save" du document
+// Crée un objet "PdfSaveOptions" que l'on peut passer à la méthode "Save" du document
 // pour modifier la façon dont cette méthode convertit le document en .PDF.
 PdfSaveOptions options = new PdfSaveOptions();
 
-// Le document PDF de sortie contiendra un plan, qui est une table des matières qui répertorie les en-têtes dans le corps du document.
-// Cliquer sur une entrée dans ce plan nous amènera à l'emplacement de son en-tête respectif.
-// Définissez la propriété "HeadingsOutlineLevels" sur "4" pour exclure tous les titres dont les niveaux sont supérieurs à 4 du plan.
+// Le document PDF de sortie contiendra un plan, qui est une table des matières répertoriant les titres dans le corps du document.
+// Cliquer sur une entrée de ce plan nous amènera à l'emplacement de son en-tête respectif.
+// Définissez la propriété "HeadingsOutlineLevels" sur "4" pour exclure du plan tous les titres dont les niveaux sont supérieurs à 4.
 options.OutlineOptions.HeadingsOutlineLevels = 4;
 
-// Si une entrée de plan comporte des entrées ultérieures d'un niveau supérieur entre elle-même et l'entrée suivante du même niveau ou d'un niveau inférieur,
-// une flèche apparaîtra à gauche de l'entrée. Cette entrée est le "propriétaire" de plusieurs de ces "sous-entrées".
+// Si une entrée de plan a des entrées ultérieures d'un niveau supérieur entre elle et l'entrée suivante du même niveau ou d'un niveau inférieur,
+// une flèche apparaîtra à gauche de l'entrée. Cette entrée est le « propriétaire » de plusieurs de ces « sous-entrées ».
 // Dans notre document, les entrées de plan du 5ème niveau de titre sont des sous-entrées de la deuxième entrée de plan de 4ème niveau,
- // les entrées de niveau 4 et 5 sont des sous-entrées de la deuxième entrée de niveau 3, et ainsi de suite.
-// Dans l'outline, on peut cliquer sur la flèche de l'entrée "propriétaire" pour réduire/développer toutes ses sous-entrées.
-// Définissez la propriété "ExpandedOutlineLevels" sur "2" pour développer automatiquement toutes les entrées de plan de niveau 2 et inférieur
- // et réduire toutes les entrées de niveau et 3 et plus lorsque nous ouvrons le document.
+// les entrées de 4ème et 5ème niveau de titre sont des sous-entrées de la deuxième entrée de 3ème niveau, et ainsi de suite.
+// Dans le plan, on peut cliquer sur la flèche de l'entrée "propriétaire" pour réduire/développer toutes ses sous-entrées.
+// Définissez la propriété "ExpandedOutlineLevels" sur "2" pour développer automatiquement toutes les entrées de titre de niveau 2 et inférieur.
+// et réduit toutes les entrées de niveau 3 et supérieur lorsque nous ouvrons le document.
 options.OutlineOptions.ExpandedOutlineLevels = 2;
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.ExpandedOutlineLevels.pdf", options);

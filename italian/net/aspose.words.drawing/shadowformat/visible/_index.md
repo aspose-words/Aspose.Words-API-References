@@ -16,7 +16,22 @@ public bool Visible { get; }
 
 ### Osservazioni
 
-Diverso[`Clear`](../clear/) , assegnazione`falso` su Visibile non cancella la formattazione, nasconde solo l'effetto forma.
+A differenza[`Clear`](../clear/) , assegnando`falso` a Visibile non cancella la formattazione, nasconde solo l'effetto forma.
+
+### Esempi
+
+Mostra come utilizzare la formattazione dell'ombra per la forma.
+
+```csharp
+Document doc = new Document(MyDir + "Shape stroke pattern border.docx");
+Shape shape = (Shape)doc.GetChildNodes(NodeType.Shape, true)[0];
+
+if (shape.ShadowFormat.Visible && shape.ShadowFormat.Type == ShadowType.Shadow2)                
+    shape.ShadowFormat.Type = ShadowType.Shadow7;
+
+if (shape.ShadowFormat.Type == ShadowType.ShadowMixed)            
+    shape.ShadowFormat.Clear();
+```
 
 ### Guarda anche
 

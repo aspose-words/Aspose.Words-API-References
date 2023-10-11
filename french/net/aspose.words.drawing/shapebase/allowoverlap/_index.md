@@ -20,7 +20,7 @@ Cette propriété affecte le comportement de la forme dans Microsoft Word. Aspos
 
 Cette propriété s'applique uniquement aux formes de niveau supérieur.
 
-La valeur par défaut est **vrai**.
+La valeur par défaut est`vrai`.
 
 ### Exemples
 
@@ -37,11 +37,11 @@ if (table.TextWrapping == TextWrapping.Around)
     Assert.AreEqual(RelativeVerticalPosition.Paragraph, table.VerticalAnchor);
     Assert.AreEqual(false, table.AllowOverlap);
 
-    // Uniquement Margin, Page, Column disponibles dans RelativeHorizontalPosition pour le setter HorizontalAnchor.
+    // Seules les marges, pages et colonnes sont disponibles dans RelativeHorizontalPosition pour le setter HorizontalAnchor.
     // L'ArgumentException sera levée pour toutes les autres valeurs.
     table.HorizontalAnchor = RelativeHorizontalPosition.Column;
 
-    // Uniquement Margin, Page, Paragraph disponible dans RelativeVerticalPosition pour le setter VerticalAnchor.
+    // Seules les marges, pages et paragraphes sont disponibles dans RelativeVerticalPosition pour le setter VerticalAnchor.
     // L'ArgumentException sera levée pour toutes les autres valeurs.
     table.VerticalAnchor = RelativeVerticalPosition.Page;
 }

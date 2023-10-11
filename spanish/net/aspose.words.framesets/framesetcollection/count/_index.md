@@ -1,14 +1,14 @@
 ---
 title: FramesetCollection.Count
 second_title: Referencia de API de Aspose.Words para .NET
-description: FramesetCollection propiedad. Obtiene el número de fotogramas o páginas de fotogramas que contiene la colección.
+description: FramesetCollection propiedad. Obtiene el número de cuadros o páginas de cuadros contenidos en la colección.
 type: docs
 weight: 20
 url: /es/net/aspose.words.framesets/framesetcollection/count/
 ---
 ## FramesetCollection.Count property
 
-Obtiene el número de fotogramas o páginas de fotogramas que contiene la colección.
+Obtiene el número de cuadros o páginas de cuadros contenidos en la colección.
 
 ```csharp
 public int Count { get; }

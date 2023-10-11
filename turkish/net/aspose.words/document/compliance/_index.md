@@ -16,14 +16,14 @@ public OoxmlCompliance Compliance { get; }
 
 ### Notlar
 
-Yeni bir boş belge oluşturduysanız veya OOXML olmayan belgeyi yüklediyseniz ,Ecma376_2006 değer.
+Yeni bir boş belge oluşturduysanız veya OOXML olmayan bir belge yüklediyseniz document şunu döndürür:Ecma376_2006 değer.
 
 ### Örnekler
 
 Yüklenen bir belgenin Open Office XML uyumluluk sürümünün nasıl okunacağını gösterir.
 
 ```csharp
-// Uyumluluk sürümü, Microsoft Word'ün farklı sürümleri tarafından oluşturulan belgeler arasında değişiklik gösterir.
+// Uyumluluk sürümü, Microsoft Word'ün farklı sürümleri tarafından oluşturulan belgeler arasında farklılık gösterir.
 Document doc = new Document(MyDir + "Document.doc");
 
 Assert.AreEqual(doc.Compliance, OoxmlCompliance.Ecma376_2006);

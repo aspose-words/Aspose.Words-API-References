@@ -3,7 +3,7 @@ title: Enum VbaModuleType
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Vba.VbaModuleType uppräkning. Anger typen av modell i ett VBAprojekt.
 type: docs
-weight: 6260
+weight: 6570
 url: /sv/net/aspose.words.vba/vbamoduletype/
 ---
 ## VbaModuleType enumeration

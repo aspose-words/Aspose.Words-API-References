@@ -16,11 +16,11 @@ public string[] GetFieldNamesForRegion(string regionName)
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| regionName | String | Nombre de la región (sin distinción entre mayúsculas y minúsculas). |
+| regionName | String | Nombre de la región (no distingue entre mayúsculas y minúsculas). |
 
 ### Observaciones
 
-Devuelve los nombres completos de los campos de combinación, incluido el prefijo opcional. No elimina los nombres de campo duplicados.
+Devuelve nombres completos de campos de combinación, incluido el prefijo opcional. No elimina nombres de campos duplicados.
 
 Si el documento contiene varias regiones con el mismo nombre, se procesa la primera región.
 
@@ -34,13 +34,13 @@ Muestra cómo crear, enumerar y leer regiones de combinación de correspondencia
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// etiquetas "TableStart" y "TableEnd", que van dentro de MERGEFIELD,
-// denota las cadenas que significan el comienzo y el final de las regiones de combinación de correspondencia.
+// Etiquetas "TableStart" y "TableEnd", que van dentro de MERGEFIELD,
+// denota las cadenas que indican el inicio y el final de las regiones de combinación de correspondencia.
 Assert.AreEqual("TableStart", doc.MailMerge.RegionStartTag);
 Assert.AreEqual("TableEnd", doc.MailMerge.RegionEndTag);
 
-// Utilice estas etiquetas para iniciar y finalizar una región de combinación de correo denominada "MailMergeRegion1",
-// que contendrá MERGEFIELDs para dos columnas.
+// Utilice estas etiquetas para iniciar y finalizar una región de combinación de correspondencia denominada "MailMergeRegion1",
+// que contendrá MERGEFIELD para dos columnas.
 builder.InsertField(" MERGEFIELD TableStart:MailMergeRegion1");
 builder.InsertField(" MERGEFIELD Column1");
 builder.Write(", ");
@@ -70,7 +70,7 @@ builder.InsertField(" MERGEFIELD TableEnd:MailMergeRegion1");
 regions = doc.MailMerge.GetRegionsByName("MailMergeRegion1");
 
 Assert.AreEqual(2, regions.Count);
-// Compruebe que la segunda región ahora tiene una región principal.
+// Compruebe que la segunda región ahora tenga una región principal.
 Assert.AreEqual("MailMergeRegion1", regions[1].ParentRegion.Name);
 
 mergeFieldNames = doc.MailMerge.GetFieldNamesForRegion("MailMergeRegion1", 1);
@@ -96,14 +96,14 @@ public string[] GetFieldNamesForRegion(string regionName, int regionIndex)
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| regionName | String | Nombre de la región (sin distinción entre mayúsculas y minúsculas). |
-| regionIndex | Int32 | Índice de región (basado en cero). |
+| regionName | String | Nombre de la región (no distingue entre mayúsculas y minúsculas). |
+| regionIndex | Int32 | Índice de región (base cero). |
 
 ### Observaciones
 
-Devuelve los nombres completos de los campos de combinación, incluido el prefijo opcional. No elimina los nombres de campo duplicados.
+Devuelve nombres completos de campos de combinación, incluido el prefijo opcional. No elimina nombres de campos duplicados.
 
-Si el documento contiene varias regiones con el mismo nombre, se procesa la región N (basada en cero).
+Si el documento contiene varias regiones con el mismo nombre, se procesa la enésima región (de base cero).
 
 Se crea una nueva matriz de cadenas en cada llamada.
 
@@ -115,13 +115,13 @@ Muestra cómo crear, enumerar y leer regiones de combinación de correspondencia
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// etiquetas "TableStart" y "TableEnd", que van dentro de MERGEFIELD,
-// denota las cadenas que significan el comienzo y el final de las regiones de combinación de correspondencia.
+// Etiquetas "TableStart" y "TableEnd", que van dentro de MERGEFIELD,
+// denota las cadenas que indican el inicio y el final de las regiones de combinación de correspondencia.
 Assert.AreEqual("TableStart", doc.MailMerge.RegionStartTag);
 Assert.AreEqual("TableEnd", doc.MailMerge.RegionEndTag);
 
-// Utilice estas etiquetas para iniciar y finalizar una región de combinación de correo denominada "MailMergeRegion1",
-// que contendrá MERGEFIELDs para dos columnas.
+// Utilice estas etiquetas para iniciar y finalizar una región de combinación de correspondencia denominada "MailMergeRegion1",
+// que contendrá MERGEFIELD para dos columnas.
 builder.InsertField(" MERGEFIELD TableStart:MailMergeRegion1");
 builder.InsertField(" MERGEFIELD Column1");
 builder.Write(", ");
@@ -151,7 +151,7 @@ builder.InsertField(" MERGEFIELD TableEnd:MailMergeRegion1");
 regions = doc.MailMerge.GetRegionsByName("MailMergeRegion1");
 
 Assert.AreEqual(2, regions.Count);
-// Compruebe que la segunda región ahora tiene una región principal.
+// Compruebe que la segunda región ahora tenga una región principal.
 Assert.AreEqual("MailMergeRegion1", regions[1].ParentRegion.Name);
 
 mergeFieldNames = doc.MailMerge.GetFieldNamesForRegion("MailMergeRegion1", 1);

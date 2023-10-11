@@ -16,11 +16,11 @@ public int CustomNodeId { get; set; }
 
 ### Bemerkungen
 
-Standard ist Null.
+Der Standardwert ist Null.
 
-Diese Kennung kann beliebig gesetzt und verwendet werden. Beispielsweise als Schlüssel zum Abrufen externer Daten.
+Dieser Bezeichner kann beliebig festgelegt und verwendet werden. Zum Beispiel als Schlüssel zum Abrufen externer Daten.
 
-Wichtiger Hinweis, der angegebene Wert wird nicht in einer Ausgabedatei gespeichert und existiert nur während der Lebensdauer des Knotens.
+Wichtiger Hinweis: Der angegebene Wert wird nicht in einer Ausgabedatei gespeichert und existiert nur während der Knotenlebensdauer.
 
 ### Beispiele
 
@@ -36,18 +36,18 @@ paragraph.AppendChild(new Run(doc, "Hello world! "));
 Shape shape = new Shape(doc, ShapeType.Rectangle);
 shape.Width = 200;
 shape.Height = 200;
-// Beachten Sie, dass die 'CustomNodeId' nicht in einer Ausgabedatei gespeichert wird und nur während der Lebensdauer des Knotens existiert.
+// Beachten Sie, dass die „CustomNodeId“ nicht in einer Ausgabedatei gespeichert wird und nur während der Knotenlebensdauer vorhanden ist.
 shape.CustomNodeId = 100;
 shape.WrapType = WrapType.Inline;
 paragraph.AppendChild(shape);
 
 paragraph.AppendChild(new Run(doc, "Hello again!"));
 
-// Durch die Sammlung der unmittelbaren Kinder des Absatzes iterieren,
-// und drucken Sie alle Läufe oder Formen, die wir darin finden.
-NodeCollection children = paragraph.ChildNodes;
+// Durch die Sammlung der unmittelbar untergeordneten Elemente des Absatzes iterieren,
+// und alle Läufe oder Formen drucken, die wir darin finden.
+NodeCollection children = paragraph.GetChildNodes(NodeType.Any, false);
 
-Assert.AreEqual(3, paragraph.ChildNodes.Count);
+Assert.AreEqual(3, paragraph.GetChildNodes(NodeType.Any, false).Count);
 
 foreach (Node child in children)
     switch (child.NodeType)
@@ -60,6 +60,7 @@ foreach (Node child in children)
             Shape childShape = (Shape)child;
             Console.WriteLine("Shape:");
             Console.WriteLine($"\t{childShape.ShapeType}, {childShape.Width}x{childShape.Height}");
+            break;
     }
 ```
 

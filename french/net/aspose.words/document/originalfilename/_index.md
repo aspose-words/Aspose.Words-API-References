@@ -3,7 +3,7 @@ title: Document.OriginalFileName
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Document propriété. Obtient le nom de fichier dorigine du document.
 type: docs
-weight: 270
+weight: 290
 url: /fr/net/aspose.words/document/originalfilename/
 ---
 ## Document.OriginalFileName property
@@ -16,11 +16,11 @@ public string OriginalFileName { get; }
 
 ### Remarques
 
-Renvoie null si le document a été chargé à partir d'un flux ou créé vide.
+Retour`nul` si le document a été chargé à partir d'un flux ou créé vierge.
 
 ### Exemples
 
-Montre comment récupérer les détails de l'opération de chargement d'un document.
+Montre comment récupérer les détails de l’opération de chargement d’un document.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
@@ -40,15 +40,15 @@ using (FileStream docStream = File.OpenRead(MyDir + "Word document with missing 
 
     Assert.AreEqual(LoadFormat.Doc, loadFormat);
 
-    // Vous trouverez ci-dessous deux méthodes de conversion d'un LoadFormat en son SaveFormat correspondant.
-    // 1 - Récupère la chaîne d'extension de fichier pour le LoadFormat, puis récupère le SaveFormat correspondant à partir de cette chaîne :
+    // Vous trouverez ci-dessous deux méthodes pour convertir un LoadFormat en son SaveFormat correspondant.
+    // 1 - Récupère la chaîne d'extension de fichier pour LoadFormat, puis récupère le SaveFormat correspondant à partir de cette chaîne :
     string fileExtension = FileFormatUtil.LoadFormatToExtension(loadFormat);
     SaveFormat saveFormat = FileFormatUtil.ExtensionToSaveFormat(fileExtension);
 
-    // 2 - Convertit directement le LoadFormat en son SaveFormat :
+    // 2 - Convertir le LoadFormat directement en son SaveFormat :
     saveFormat = FileFormatUtil.LoadFormatToSaveFormat(loadFormat);
 
-    // Chargez un document à partir du flux, puis enregistrez-le dans l'extension de fichier détectée automatiquement.
+    // Charge un document à partir du flux, puis enregistre-le sous l'extension de fichier automatiquement détectée.
     Document doc = new Document(docStream);
 
     Assert.AreEqual(".doc", FileFormatUtil.SaveFormatToExtension(saveFormat));

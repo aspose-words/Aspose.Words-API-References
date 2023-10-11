@@ -10,9 +10,9 @@ url: /tr/net/aspose.words/ihyphenationcallback/requestdictionary/
 
 Belirtilen dil için tireleme sözlüğünün bulunamadığını ve kaydedilmesi gerekebileceğini uygulamaya bildirir.
 
-Uygulama bir sözlük bulmalı ve onu kullanarak kaydetmelidir.[`RegisterDictionary`](../../hyphenation/registerdictionary/)yöntemler.
+Uygulama bir sözlük bulmalı ve onu kullanarak kaydetmelidir[`RegisterDictionary`](../../hyphenation/registerdictionary/) yöntemler.
 
-Sözlük, belirtilen dil uygulaması için kullanılamıyorsa, aynı dil için başka çağrıları devre dışı bırakabilir [`RegisterDictionary`](../../hyphenation/registerdictionary/) boş değerle.
+Belirtilen dil uygulaması için sözlük mevcut değilse, aynı dil için başka çağrıları devre dışı bırakabilirsiniz kullanarak[`RegisterDictionary`](../../hyphenation/registerdictionary/) ile`hükümsüz` değer.
 
 ```csharp
 public void RequestDictionary(string language)
@@ -24,13 +24,14 @@ public void RequestDictionary(string language)
 
 ### Notlar
 
-Bu yöntemle oluşturulan istisnalar, sayfa düzeni işleminin yürütülmesini durduracaktır.
+Bu yöntemle oluşturulan istisnalar, sayfa düzeni işleminin yürütülmesini iptal edecektir.
 
 ### Örnekler
 
-Bir dosyadan bir sözlüğün nasıl açılacağını ve kaydedileceğini gösterir.
+Bir dosyadan sözlüğün nasıl açılacağını ve kaydedileceğini gösterir.
 
 ```csharp
+public void RegisterDictionary()
 {
     // Tireleme sözlüğü kaydı sırasında oluşan uyarıları izleyen bir geri arama ayarlayın.
     WarningInfoCollection warningInfoCollection = new WarningInfoCollection();
@@ -42,11 +43,11 @@ Bir dosyadan bir sözlüğün nasıl açılacağını ve kaydedileceğini göste
 
     Assert.AreEqual(0, warningInfoCollection.Count);
 
-    // Almanca gibi bir İngilizce makinede Microsoft Word'ün tireleyemeyeceği bir yerel ayara sahip bir belge açın.
+    // Almanca gibi İngilizce bir makinede Microsoft Word'ün tireleme yapamayacağı bir yerel ayara sahip bir belge açın.
     Document doc = new Document(MyDir + "German text.docx");
 
-    // Bu belgeyi kaydettikten sonra tirelemek için "de-CH" dil kodu için bir tireleme sözlüğüne ihtiyacımız var.
-    // Bu geri arama, o sözlük için otomatik isteği işleyecektir.
+    // Bu belgeyi kaydettikten sonra tirelemek için, "de-CH" dil koduna yönelik bir tireleme sözlüğüne ihtiyacımız var.
+    // Bu geri çağırma söz konusu sözlük için otomatik isteği yerine getirecektir.
     Hyphenation.Callback = new CustomHyphenationDictionaryRegister();
 
     // Belgeyi kaydettiğimizde Almanca tireleme geçerli olacaktır.
@@ -61,7 +62,7 @@ Bir dosyadan bir sözlüğün nasıl açılacağını ve kaydedileceğini göste
 }
 
 /// <summary>
-/// Tireleme sözlüğü dosyaları için ISO dil kodlarını yerel sistem dosya adlarıyla ilişkilendirir.
+/// Tireleme sözlük dosyaları için ISO dil kodlarını yerel sistem dosya adlarıyla ilişkilendirir.
 /// </summary>
 private class CustomHyphenationDictionaryRegister : IHyphenationCallback
 {

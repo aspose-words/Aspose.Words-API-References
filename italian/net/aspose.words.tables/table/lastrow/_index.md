@@ -1,14 +1,14 @@
 ---
 title: Table.LastRow
 second_title: Aspose.Words per .NET API Reference
-description: Table proprietà. Restituisce lultimo Riga nodo nella tabella.
+description: Table proprietà. Restituisce lultimoRow nodo nella tabella.
 type: docs
 weight: 180
 url: /it/net/aspose.words.tables/table/lastrow/
 ---
 ## Table.LastRow property
 
-Restituisce l'ultimo **Riga** nodo nella tabella.
+Restituisce l'ultimo[`Row`](../../row/) nodo nella tabella.
 
 ```csharp
 public Row LastRow { get; }

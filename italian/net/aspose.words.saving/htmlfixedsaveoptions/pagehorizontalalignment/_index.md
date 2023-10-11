@@ -1,14 +1,14 @@
 ---
 title: HtmlFixedSaveOptions.PageHorizontalAlignment
 second_title: Aspose.Words per .NET API Reference
-description: HtmlFixedSaveOptions proprietà. Specifica lallineamento orizzontale delle pagine in un documento HTML. Il valore predefinito èHtmlFixedHorizontalPageAlignment.Center .
+description: HtmlFixedSaveOptions proprietà. Specifica lallineamento orizzontale delle pagine in un documento HTML. Il valore predefinito èCenter .
 type: docs
 weight: 110
 url: /it/net/aspose.words.saving/htmlfixedsaveoptions/pagehorizontalalignment/
 ---
 ## HtmlFixedSaveOptions.PageHorizontalAlignment property
 
-Specifica l'allineamento orizzontale delle pagine in un documento HTML. Il valore predefinito è`HtmlFixedHorizontalPageAlignment.Center` .
+Specifica l'allineamento orizzontale delle pagine in un documento HTML. Il valore predefinito èCenter .
 
 ```csharp
 public HtmlFixedPageHorizontalAlignment PageHorizontalAlignment { get; set; }
@@ -16,7 +16,7 @@ public HtmlFixedPageHorizontalAlignment PageHorizontalAlignment { get; set; }
 
 ### Esempi
 
-Mostra come impostare l'allineamento orizzontale delle pagine durante il salvataggio di un documento in formato HTML.
+Mostra come impostare l'allineamento orizzontale delle pagine durante il salvataggio di un documento in HTML.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

@@ -1,14 +1,14 @@
 ---
 title: VbaProject.VbaProject
 second_title: Aspose.Words لمراجع .NET API
-description: VbaProject البناء. ينشئ مشروع VbaProject فارغًا .
+description: VbaProject البناء. إنشاء فراغVbaProject .
 type: docs
 weight: 10
 url: /ar/net/aspose.words.vba/vbaproject/vbaproject/
 ---
 ## VbaProject constructor
 
-ينشئ مشروع VbaProject فارغًا .
+إنشاء فراغ[`VbaProject`](../) .
 
 ```csharp
 public VbaProject()
@@ -26,13 +26,13 @@ VbaProject project = new VbaProject();
 project.Name = "Aspose.Project";
 doc.VbaProject = project;
 
-// إنشاء وحدة نمطية جديدة وتحديد شفرة مصدر الماكرو.
+// أنشئ وحدة نمطية جديدة وحدد كود مصدر الماكرو.
 VbaModule module = new VbaModule();
 module.Name = "Aspose.Module";
 module.Type = VbaModuleType.ProceduralModule;
 module.SourceCode = "New source code";
 
-// أضف الوحدة إلى مشروع VBA.
+// أضف الوحدة النمطية إلى مشروع VBA.
 doc.VbaProject.Modules.Add(module);
 
 doc.Save(ArtifactsDir + "VbaProject.CreateVBAMacros.docm");

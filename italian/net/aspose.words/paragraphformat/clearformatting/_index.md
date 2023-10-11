@@ -1,14 +1,14 @@
 ---
 title: ParagraphFormat.ClearFormatting
 second_title: Aspose.Words per .NET API Reference
-description: ParagraphFormat metodo. Ripristina la formattazione predefinita del paragrafo.
+description: ParagraphFormat metodo. Ripristina la formattazione del paragrafo predefinita.
 type: docs
-weight: 410
+weight: 420
 url: /it/net/aspose.words/paragraphformat/clearformatting/
 ---
 ## ParagraphFormat.ClearFormatting method
 
-Ripristina la formattazione predefinita del paragrafo.
+Ripristina la formattazione del paragrafo predefinita.
 
 ```csharp
 public void ClearFormatting()
@@ -16,21 +16,21 @@ public void ClearFormatting()
 
 ### Osservazioni
 
-La formattazione predefinita del paragrafo è in stile Normale, allineato a sinistra, nessun rientro, nessuna spaziatura, nessun bordo e nessuna ombreggiatura.
+La formattazione predefinita del paragrafo è lo stile Normale, allineato a sinistra, senza rientro, senza spaziatura, senza bordi e senza ombreggiatura.
 
 ### Esempi
 
-Mostra come annidare un elenco all'interno di un altro elenco.
+Mostra come nidificare un elenco all'interno di un altro elenco.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Un elenco ci consente di organizzare e decorare insiemi di paragrafi con simboli e rientri prefissi.
-// Possiamo creare liste nidificate aumentando il livello di rientro. 
-// Possiamo iniziare e terminare un elenco utilizzando la proprietà "ListFormat" di un generatore di documenti. 
+// Un elenco ci consente di organizzare e decorare insiemi di paragrafi con simboli di prefisso e rientri.
+ // Possiamo creare elenchi nidificati aumentando il livello di rientro.
+ // Possiamo iniziare e terminare un elenco utilizzando la proprietà "ListFormat" del generatore di documenti.
 // Ogni paragrafo che aggiungiamo tra l'inizio e la fine di un elenco diventerà un elemento nell'elenco.
-// Crea un elenco di struttura per le intestazioni.
+// Crea un elenco struttura per le intestazioni.
 List outlineList = doc.Lists.Add(ListTemplate.OutlineNumbers);
 builder.ListFormat.List = outlineList;
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
@@ -54,12 +54,12 @@ builder.Writeln("Bulleted list item 1.");
 builder.Writeln("Bulleted list item 2.");
 builder.ParagraphFormat.ClearFormatting();
 
-// Torna all'elenco numerato.
+// Ripristina l'elenco numerato.
 builder.ListFormat.List = numberedList;
 builder.Writeln("Numbered list item 2.");
 builder.Writeln("Numbered list item 3.");
 
-// Torna all'elenco di struttura.
+// Ripristina l'elenco delle strutture.
 builder.ListFormat.List = outlineList;
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
 builder.Writeln("This is my Chapter 2");

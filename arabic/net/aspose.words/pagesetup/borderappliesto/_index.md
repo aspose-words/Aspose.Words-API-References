@@ -1,14 +1,14 @@
 ---
 title: PageSetup.BorderAppliesTo
 second_title: Aspose.Words لمراجع .NET API
-description: PageSetup ملكية. يحدد الصفحات التي تتم طباعة حد الصفحة عليها.
+description: PageSetup ملكية. يحدد الصفحات التي سيتم طباعة حدود الصفحة عليها.
 type: docs
 weight: 30
 url: /ar/net/aspose.words/pagesetup/borderappliesto/
 ---
 ## PageSetup.BorderAppliesTo property
 
-يحدد الصفحات التي تتم طباعة حد الصفحة عليها.
+يحدد الصفحات التي سيتم طباعة حدود الصفحة عليها.
 
 ```csharp
 public PageBorderAppliesTo BorderAppliesTo { get; set; }
@@ -16,7 +16,7 @@ public PageBorderAppliesTo BorderAppliesTo { get; set; }
 
 ### أمثلة
 
-يوضح كيفية إنشاء حد شريط أزرق عريض أعلى الصفحة الأولى.
+يوضح كيفية إنشاء حد شريطي أزرق عريض في أعلى الصفحة الأولى.
 
 ```csharp
 Document doc = new Document();

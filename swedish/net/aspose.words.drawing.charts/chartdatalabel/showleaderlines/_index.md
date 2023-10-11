@@ -1,14 +1,14 @@
 ---
 title: ChartDataLabel.ShowLeaderLines
 second_title: Aspose.Words för .NET API Referens
-description: ChartDataLabel fast egendom. Tillåter att ange om dataetikettens ledarlinjer behöver visas. Standardvärdet är falskt.
+description: ChartDataLabel fast egendom. Tillåter att ange om dataetikettens ledarlinjer behöver visas. Standardvärdet ärfalsk .
 type: docs
-weight: 90
+weight: 110
 url: /sv/net/aspose.words.drawing.charts/chartdatalabel/showleaderlines/
 ---
 ## ChartDataLabel.ShowLeaderLines property
 
-Tillåter att ange om dataetikettens ledarlinjer behöver visas. Standardvärdet är falskt.
+Tillåter att ange om dataetikettens ledarlinjer behöver visas. Standardvärdet är`falsk` .
 
 ```csharp
 public bool ShowLeaderLines { get; set; }
@@ -23,6 +23,7 @@ Gäller endast cirkeldiagram. Ledarlinjer skapar en visuell koppling mellan en d
 Visar hur man applicerar etiketter på datapunkter i ett linjediagram.
 
 ```csharp
+public void DataLabels()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);

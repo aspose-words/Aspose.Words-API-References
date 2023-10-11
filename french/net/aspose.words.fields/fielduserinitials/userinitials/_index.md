@@ -26,8 +26,8 @@ UserInformation userInformation = new UserInformation();
 userInformation.Initials = "J. D.";
 doc.FieldOptions.CurrentUser = userInformation;
 
-// Crée un champ USERINITIALS pour afficher les initiales de l'utilisateur courant,
-// tiré de l'objet UserInformation que nous avons créé ci-dessus.
+// Crée un champ USERINITIALS pour afficher les initiales de l'utilisateur actuel,
+// extrait de l'objet UserInformation que nous avons créé ci-dessus.
 DocumentBuilder builder = new DocumentBuilder(doc);
 FieldUserInitials fieldUserInitials = (FieldUserInitials)builder.InsertField(FieldType.FieldUserInitials, true);
 Assert.AreEqual(userInformation.Initials, fieldUserInitials.Result);

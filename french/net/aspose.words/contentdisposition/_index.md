@@ -1,14 +1,14 @@
 ---
 title: Enum ContentDisposition
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.ContentDisposition énumération. Énumère différentes manières de présenter le document sur le navigateur client.
+description: Aspose.Words.ContentDisposition énumération. Énumère différentes manières de présenter le document dans le navigateur client.
 type: docs
-weight: 330
+weight: 340
 url: /fr/net/aspose.words/contentdisposition/
 ---
 ## ContentDisposition enumeration
 
-Énumère différentes manières de présenter le document sur le navigateur client.
+Énumère différentes manières de présenter le document dans le navigateur client.
 
 ```csharp
 public enum ContentDisposition
@@ -23,7 +23,7 @@ public enum ContentDisposition
 
 ### Remarques
 
-Notez que le comportement réel sur le navigateur client peut être affecté par la configuration de sécurité du navigateur.
+Notez que le comportement réel du navigateur client peut être affecté par la configuration de sécurité du navigateur.
 
 ### Exemples
 

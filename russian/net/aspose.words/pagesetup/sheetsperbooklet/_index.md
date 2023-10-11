@@ -1,14 +1,14 @@
 ---
 title: PageSetup.SheetsPerBooklet
 second_title: Справочник по API Aspose.Words для .NET
-description: PageSetup свойство. Возвращает или задает количество страниц которые должны быть включены в каждый буклет.
+description: PageSetup свойство. Возвращает или задает количество страниц которые будут включены в каждый буклет.
 type: docs
-weight: 390
+weight: 400
 url: /ru/net/aspose.words/pagesetup/sheetsperbooklet/
 ---
 ## PageSetup.SheetsPerBooklet property
 
-Возвращает или задает количество страниц, которые должны быть включены в каждый буклет.
+Возвращает или задает количество страниц, которые будут включены в каждый буклет.
 
 ```csharp
 public int SheetsPerBooklet { get; set; }
@@ -16,12 +16,12 @@ public int SheetsPerBooklet { get; set; }
 
 ### Примеры
 
-Показывает, как настроить документ, который можно распечатать в виде книжки.
+Показывает, как настроить документ, который можно распечатать в виде сгиба книги.
 
 ```csharp
 Document doc = new Document();
 
-// Вставить текст, занимающий 16 страниц.
+// Вставляем текст, занимающий 16 страниц.
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("My Booklet:");
 
@@ -31,13 +31,13 @@ for (int i = 0; i < 15; i++)
     builder.Write($"Booklet face #{i}");
 }
 
-// Настройте свойство «PageSetup» первого раздела для печати документа в виде книжной складки.
-// Когда мы печатаем этот документ с обеих сторон, мы можем взять страницы, чтобы сложить их
-// и складываем их все сразу посередине. Содержимое документа выровняется в книжную складку.
+// Настройте свойство «PageSetup» первого раздела для печати документа в виде сгиба книги.
+// Когда мы печатаем этот документ с обеих сторон, мы можем взять страницы и сложить их друг на друга
+// и складываем их все сразу посередине. Содержимое документа выстроится в книжную складку.
 PageSetup pageSetup = doc.Sections[0].PageSetup;
 pageSetup.MultiplePages = MultiplePagesType.BookFoldPrinting;
 
-// Мы можем указать только количество листов, кратное 4.
+// Мы можем указать количество листов только кратное 4.
 pageSetup.SheetsPerBooklet = 4;
 
 doc.Save(ArtifactsDir + "PageSetup.Booklet.docx");

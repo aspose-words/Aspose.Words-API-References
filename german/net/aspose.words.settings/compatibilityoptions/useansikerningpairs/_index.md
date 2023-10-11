@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.UseAnsiKerningPairs
 second_title: Aspose.Words für .NET-API-Referenz
-description: CompatibilityOptions eigendom. Verwenden Sie ANSIKerningPaare aus Schriftarten.
+description: CompatibilityOptions eigendom. ANSIKerningPaare aus Schriftarten verwenden.
 type: docs
 weight: 610
 url: /de/net/aspose.words.settings/compatibilityoptions/useansikerningpairs/
 ---
 ## CompatibilityOptions.UseAnsiKerningPairs property
 
-Verwenden Sie ANSI-Kerning-Paare aus Schriftarten.
+ANSI-Kerning-Paare aus Schriftarten verwenden.
 
 ```csharp
 public bool UseAnsiKerningPairs { get; set; }

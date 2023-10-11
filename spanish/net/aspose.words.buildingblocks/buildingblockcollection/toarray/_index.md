@@ -1,14 +1,14 @@
 ---
 title: BuildingBlockCollection.ToArray
 second_title: Referencia de API de Aspose.Words para .NET
-description: BuildingBlockCollection método. Copia todos los bloques de construcción de la colección a una nueva matriz de bloques de construcción.
+description: BuildingBlockCollection método. Copia todos los bloques de construcción de la colección en una nueva matriz de bloques de construcción.
 type: docs
 weight: 20
 url: /es/net/aspose.words.buildingblocks/buildingblockcollection/toarray/
 ---
 ## BuildingBlockCollection.ToArray method
 
-Copia todos los bloques de construcción de la colección a una nueva matriz de bloques de construcción.
+Copia todos los bloques de construcción de la colección en una nueva matriz de bloques de construcción.
 
 ```csharp
 public BuildingBlock[] ToArray()
@@ -16,11 +16,11 @@ public BuildingBlock[] ToArray()
 
 ### Valor_devuelto
 
-Una matriz de bloques de construcción.
+Una serie de bloques de construcción.
 
 ### Ejemplos
 
-Muestra formas de acceder a los componentes básicos en un documento de glosario.
+Muestra formas de acceder a bloques de construcción en un documento de glosario.
 
 ```csharp
 public void GlossaryDocument()
@@ -39,7 +39,7 @@ public void GlossaryDocument()
     doc.GlossaryDocument = glossaryDoc;
 
     // Hay varias formas de acceder a los bloques de construcción.
-    // 1 - Obtener los primeros/últimos bloques de construcción de la colección:
+    // 1 - Obtener el primer/último bloque de construcción de la colección:
     Assert.AreEqual("Block 1", glossaryDoc.FirstBuildingBlock.Name);
     Assert.AreEqual("Block 5", glossaryDoc.LastBuildingBlock.Name);
 
@@ -47,7 +47,7 @@ public void GlossaryDocument()
     Assert.AreEqual("Block 2", glossaryDoc.BuildingBlocks[1].Name);
     Assert.AreEqual("Block 3", glossaryDoc.BuildingBlocks.ToArray()[2].Name);
 
-    // 3 - Obtenga el primer bloque de construcción que coincida con una galería, nombre y categoría:
+    // 3 - Obtener el primer bloque de construcción que coincida con una galería, nombre y categoría:
     Assert.AreEqual("Block 4", 
         glossaryDoc.GetBuildingBlock(BuildingBlockGallery.All, "(Empty Category)", "Block 4").Name);
 
@@ -55,16 +55,15 @@ public void GlossaryDocument()
     // que le dará a cada BuildingBlock en el GlossaryDocument un GUID único
     GlossaryDocVisitor visitor = new GlossaryDocVisitor();
     glossaryDoc.Accept(visitor);
-
     Console.WriteLine(visitor.GetText());
 
-    // En Microsoft Word, podemos acceder a los bloques de construcción a través de "Insertar" -> "Piezas rápidas" -> "Organizador de bloques de construcción".
+    // En Microsoft Word, podemos acceder a los bloques de construcción mediante "Insertar" -> "Partes rápidas" -> "Organizador de bloques de construcción".
     doc.Save(ArtifactsDir + "BuildingBlocks.GlossaryDocument.dotx"); 
 }
 
 /// <summary>
-/// Otorga a cada bloque de creación de un documento de glosario visitado un GUID único.
-/// Almacena los pares de bloques de creación de GUID en un diccionario.
+/// Proporciona a cada bloque de construcción de un documento de glosario visitado un GUID único.
+/// Almacena los pares de bloques de construcción GUID en un diccionario.
 /// </summary>
 public class GlossaryDocVisitor : DocumentVisitor
 {

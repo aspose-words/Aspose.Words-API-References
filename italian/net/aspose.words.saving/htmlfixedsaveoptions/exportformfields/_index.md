@@ -16,7 +16,7 @@ public bool ExportFormFields { get; set; }
 
 ### Esempi
 
-Mostra come esportare i campi del modulo in HTML.
+Mostra come esportare i campi del modulo in Html.
 
 ```csharp
 Document doc = new Document();
@@ -25,10 +25,10 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.InsertCheckBox("CheckBox", false, 15);
 
 // Quando esportiamo un documento con campi modulo in .html,
-// ci sono due modi in cui Aspose.Words può esportare i campi modulo.
-// L'impostazione del flag "ExportFormFields" su "true" li esporterà come oggetti interattivi.
-// Impostando questo flag su "false" verranno visualizzati i campi del modulo come testo normale.
-// Questo li bloccherà al loro valore attuale e impedirà al lettore del nostro documento HTML
+// ci sono due modi in cui Aspose.Words può esportare i campi del modulo.
+// Impostando il flag "ExportFormFields" su "true" li esporterai come oggetti interattivi.
+// Impostando questo flag su "false" verranno visualizzati i campi del modulo come testo semplice.
+// Questo li congelerà al loro valore corrente e impedirà la lettura del nostro documento HTML
 // dalla possibilità di interagire con loro.
 HtmlFixedSaveOptions htmlFixedSaveOptions = new HtmlFixedSaveOptions
 {

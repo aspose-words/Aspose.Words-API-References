@@ -16,9 +16,9 @@ public bool Bidi { get; set; }
 
 ### Remarques
 
-Lorsque`vrai`, les cellules de cette ligne sont disposées de droite à gauche.
+Quand`vrai`, les cellules de cette ligne sont disposées de droite à gauche.
 
-La valeur par défaut est`faux`.
+La valeur par défaut est`FAUX`.
 
 ### Exemples
 

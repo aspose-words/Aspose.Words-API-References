@@ -16,7 +16,7 @@ public string ListLevel { get; set; }
 
 ### Exemples
 
-Montre comment numéroter des paragraphes avec des champs LISTNUM.
+Montre comment numéroter les paragraphes avec les champs LISTNUM.
 
 ```csharp
 Document doc = new Document();
@@ -39,10 +39,10 @@ Assert.AreEqual(" LISTNUM  \\s 0", field.GetFieldCode());
 // Le champ suivant continuera le décompte que nous avons commencé ci-dessus et affichera une valeur de "1" au niveau de liste 1.
 builder.InsertField(FieldType.FieldListNum, true);
 
-// Ce champ commencera un décompte au niveau 2 de la liste. Il affichera une valeur de "1".
+// Ce champ lancera un décompte au niveau de liste 2. Il affichera une valeur de "1".
 builder.InsertField(FieldType.FieldListNum, true);
 
-// Ce champ commencera un décompte au niveau 3 de la liste. Il affichera une valeur de "1".
+// Ce champ lancera un décompte au niveau de liste 3. Il affichera une valeur de "1".
 // Différents niveaux de liste ont un formatage différent,
 // donc ces champs combinés afficheront une valeur de "1)a)i)".
 builder.InsertField(FieldType.FieldListNum, true);
@@ -50,16 +50,16 @@ builder.Writeln("Paragraph 2");
 
 // Le prochain champ LISTNUM que nous insérons continuera le décompte au niveau de la liste
 // que le champ LISTNUM précédent était activé.
-// Nous pouvons utiliser la propriété "ListLevel" pour passer à un niveau de liste différent.
-// Si ce champ LISTNUM restait au niveau 3 de la liste, il afficherait "ii)",
-// mais, puisque nous l'avons déplacé au niveau 2 de la liste, il continue le décompte à ce niveau et affiche "b)".
+// Nous pouvons utiliser la propriété "ListLevel" pour passer à un autre niveau de liste.
+// Si ce champ LISTNUM restait au niveau de liste 3, il afficherait "ii)",
+// mais, puisque nous l'avons déplacé au niveau de liste 2, il continue le décompte à ce niveau et affiche "b)".
 field = (FieldListNum)builder.InsertField(FieldType.FieldListNum, true);
 field.ListLevel = "2";
 builder.Writeln("Paragraph 3");
 
 Assert.AreEqual(" LISTNUM  \\l 2", field.GetFieldCode());
 
-// Nous pouvons définir la propriété ListName pour que le champ émule un autre type de champ AUTONUM.
+// Nous pouvons définir la propriété ListName pour que le champ émule un type de champ AUTONUM différent.
 // "NumberDefault" émule AUTONUM, "OutlineDefault" émule AUTONUMOUT,
 // et "LegalDefault" émule les champs AUTONUMLGL.
 // Le nom de la liste "OutlineDefault" avec 1 comme numéro de départ entraînera l'affichage de "I.".

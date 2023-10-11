@@ -16,12 +16,12 @@ public void ClearFormatting()
 
 ### Örnekler
 
-Bir belgedeki tüm paragraflardan tüm kenarlıkların nasıl kaldırılacağını gösterir.
+Bir belgedeki tüm paragraflardaki kenarlıkların nasıl kaldırılacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Borders.docx");
 
-// Bu belgenin ilk paragrafı, bu ayarlarla görünür sınırlara sahiptir.
+// Bu belgenin ilk paragrafında bu ayarlarla görünür kenarlıklar var.
 BorderCollection firstParagraphBorders = doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Borders;
 
 Assert.AreEqual(Color.Red.ToArgb(), firstParagraphBorders.Color.ToArgb());

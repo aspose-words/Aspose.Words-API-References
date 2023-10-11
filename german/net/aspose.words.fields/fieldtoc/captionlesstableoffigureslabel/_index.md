@@ -1,14 +1,14 @@
 ---
 title: FieldToc.CaptionlessTableOfFiguresLabel
 second_title: Aspose.Words für .NET-API-Referenz
-description: FieldToc eigendom. Ruft den Namen der Sequenzkennung ab oder legt ihn fest die beim Erstellen eines Abbildungsverzeichnisses verwendet wird das die Beschriftung und Nummer von nicht enthält.
+description: FieldToc eigendom. Ruft den Namen des Sequenzbezeichners ab der beim Erstellen eines Abbildungsverzeichnisses ohne Beschriftung und Nummer verwendet wird oder legt diesen fest.
 type: docs
 weight: 30
 url: /de/net/aspose.words.fields/fieldtoc/captionlesstableoffigureslabel/
 ---
 ## FieldToc.CaptionlessTableOfFiguresLabel property
 
-Ruft den Namen der Sequenzkennung ab oder legt ihn fest, die beim Erstellen eines Abbildungsverzeichnisses verwendet wird, das die Beschriftung und Nummer von nicht enthält.
+Ruft den Namen des Sequenzbezeichners ab, der beim Erstellen eines Abbildungsverzeichnisses ohne Beschriftung und Nummer verwendet wird, oder legt diesen fest.
 
 ```csharp
 public string CaptionlessTableOfFiguresLabel { get; set; }

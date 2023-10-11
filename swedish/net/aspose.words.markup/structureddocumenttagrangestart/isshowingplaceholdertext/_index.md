@@ -10,7 +10,7 @@ url: /sv/net/aspose.words.markup/structureddocumenttagrangestart/isshowingplaceh
 
 Anger om innehållet i denna strukturerade dokumenttagg ska tolkas till att innehålla platshållartext (i motsats till vanligt textinnehåll i den strukturerade dokumenttaggen).
 
-om satt till sant, ska detta tillstånd återupptas (visar platshållartext) när det här dokumentet öppnas.
+om satt till`Sann` , ska detta tillstånd återupptas (visar platshållartext) när det här dokumentet öppnas.
 
 ```csharp
 public bool IsShowingPlaceholderText { get; set; }

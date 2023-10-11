@@ -16,7 +16,7 @@ public bool IsImageAvailable { get; }
 
 ### Anmärkningar
 
-Vissa bilder i dokumentet kan vara otillgängliga, till exempel eftersom image är länkad och länken är otillgänglig eller inte pekar på en giltig bild. I det här fallet exporterar Aspose.Words en ikon med ett rött kors. Den här egenskapen returnerar `Sann` om originalbilden är tillgänglig; returnerar`falsk` om den ursprungliga -bilden inte är tillgänglig och en "ingen bild"-ikon kommer att erbjudas för att spara.
+Vissa bilder i dokumentet kan vara otillgängliga, till exempel eftersom image är länkad och länken är otillgänglig eller inte pekar på en giltig bild. I det här fallet exporterar Aspose.Words en ikon med ett rött kors. Den här egenskapen returnerar `Sann` om originalbilden är tillgänglig; returnerar`falsk`om den ursprungliga -bilden inte är tillgänglig och en "ingen bild"-ikon kommer att erbjudas för att spara.
 
 När du sparar en gruppform eller en form som inte kräver någon bild är denna egenskap alltid`Sann`.
 
@@ -25,6 +25,7 @@ När du sparar en gruppform eller en form som inte kräver någon bild är denna
 Visar hur man involverar en bildsparande återuppringning i en HTML-konverteringsprocess.
 
 ```csharp
+public void ImageSavingCallback()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 

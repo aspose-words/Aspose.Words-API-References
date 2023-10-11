@@ -3,7 +3,7 @@ title: LayoutEnumerator.MovePreviousLogical
 second_title: Aspose.Words för .NET API Referens
 description: LayoutEnumerator metod. Flyttar till föregående syskonentitet i en logisk ordning. När rader i ett stycke uppdelat över sidorna upprepas kommer denna metod att flyttas till föregående rad även om den finns på en annan sida.
 type: docs
-weight: 150
+weight: 160
 url: /sv/net/aspose.words.layout/layoutenumerator/movepreviouslogical/
 ---
 ## LayoutEnumerator.MovePreviousLogical method

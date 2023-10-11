@@ -1,14 +1,14 @@
 ---
 title: ShapeBase.WrapType
 second_title: Aspose.Words لمراجع .NET API
-description: ShapeBase ملكية. يحدد ما إذا كان الشكل مضمنًا أم عائمًا. بالنسبة للأشكال العائمة  يحدد وضع الالتفاف للنص حول الشكل.
+description: ShapeBase ملكية. يحدد ما إذا كان الشكل سطريًا أم عائمًا. للأشكال العائمة يحدد وضع الالتفاف للنص حول الشكل.
 type: docs
-weight: 540
+weight: 600
 url: /ar/net/aspose.words.drawing/shapebase/wraptype/
 ---
 ## ShapeBase.WrapType property
 
-يحدد ما إذا كان الشكل مضمنًا أم عائمًا. بالنسبة للأشكال العائمة ، يحدد وضع الالتفاف للنص حول الشكل.
+يحدد ما إذا كان الشكل سطريًا أم عائمًا. للأشكال العائمة يحدد وضع الالتفاف للنص حول الشكل.
 
 ```csharp
 public WrapType WrapType { get; set; }
@@ -16,9 +16,9 @@ public WrapType WrapType { get; set; }
 
 ### ملاحظات
 
-النظام الأساسيNone.
+القيمة الافتراضية هيNone.
 
-له تأثير فقط لأشكال المستوى الأعلى.
+له تأثير فقط على أشكال المستوى الأعلى.
 
 ### أمثلة
 
@@ -28,7 +28,7 @@ public WrapType WrapType { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// أدخل صورة عائمة ستظهر خلف النص المتداخل وقم بمحاذاة مركز الصفحة.
+// أدخل صورة عائمة ستظهر خلف النص المتداخل وقم بمحاذاتها مع منتصف الصفحة.
 Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
 shape.WrapType = WrapType.None;
 shape.BehindText = true;
@@ -51,11 +51,11 @@ textBox.WrapType = WrapType.None;
 textBox.Height = 50;
 textBox.Width = 200;
 
-// تعيين المحاذاة الأفقية والعمودية للنص داخل الشكل.
+// قم بتعيين المحاذاة الأفقية والرأسية للنص داخل الشكل.
 textBox.HorizontalAlignment = HorizontalAlignment.Center;
 textBox.VerticalAlignment = VerticalAlignment.Top;
 
-// أضف فقرة إلى مربع النص وأضف سلسلة من النص الذي سيعرضه مربع النص.
+// أضف فقرة إلى مربع النص وأضف سلسلة من النص سيعرضها مربع النص.
 textBox.AppendChild(new Paragraph(doc));
 Paragraph para = textBox.FirstParagraph;
 para.ParagraphFormat.Alignment = ParagraphAlignment.Center;

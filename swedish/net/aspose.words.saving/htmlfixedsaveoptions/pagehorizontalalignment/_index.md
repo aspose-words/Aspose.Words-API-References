@@ -1,14 +1,14 @@
 ---
 title: HtmlFixedSaveOptions.PageHorizontalAlignment
 second_title: Aspose.Words för .NET API Referens
-description: HtmlFixedSaveOptions fast egendom. Anger den horisontella justeringen av sidor i ett HTMLdokument. Standardvärdet ärHtmlFixedHorizontalPageAlignment.Center .
+description: HtmlFixedSaveOptions fast egendom. Anger den horisontella justeringen av sidor i ett HTMLdokument. Standardvärdet ärCenter .
 type: docs
 weight: 110
 url: /sv/net/aspose.words.saving/htmlfixedsaveoptions/pagehorizontalalignment/
 ---
 ## HtmlFixedSaveOptions.PageHorizontalAlignment property
 
-Anger den horisontella justeringen av sidor i ett HTML-dokument. Standardvärdet är`HtmlFixedHorizontalPageAlignment.Center` .
+Anger den horisontella justeringen av sidor i ett HTML-dokument. Standardvärdet ärCenter .
 
 ```csharp
 public HtmlFixedPageHorizontalAlignment PageHorizontalAlignment { get; set; }

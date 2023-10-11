@@ -3,7 +3,7 @@ title: ShapeBase.GetShapeRenderer
 second_title: Aspose.Words لمراجع .NET API
 description: ShapeBase طريقة. إنشاء وإرجاع كائن يمكن استخدامه لتحويل هذا الشكل إلى صورة.
 type: docs
-weight: 600
+weight: 660
 url: /ar/net/aspose.words.drawing/shapebase/getshaperenderer/
 ---
 ## ShapeBase.GetShapeRenderer method
@@ -20,11 +20,11 @@ public ShapeRenderer GetShapeRenderer()
 
 ### ملاحظات
 
-تستدعي هذه الطريقة فقط[`ShapeRenderer`](../../../aspose.words.rendering/shaperenderer/) المُنشئ ويمرر هذا الكائن كمعامل.
+هذه الطريقة تستدعي فقط[`ShapeRenderer`](../../../aspose.words.rendering/shaperenderer/) منشئ ويمرر هذا الكائن كمعلمة.
 
 ### أمثلة
 
-يوضح كيفية استخدام عارض الأشكال لتصدير الأشكال إلى الملفات في نظام الملفات المحلي.
+يوضح كيفية استخدام عارض الأشكال لتصدير الأشكال إلى الملفات الموجودة في نظام الملفات المحلي.
 
 ```csharp
 Document doc = new Document(MyDir + "Various shapes.docx");
@@ -32,10 +32,10 @@ Shape[] shapes = doc.GetChildNodes(NodeType.Shape, true).OfType<Shape>().ToArray
 
 Assert.AreEqual(7, shapes.Length);
 
-// هناك 7 أشكال في المستند ، بما في ذلك شكل مجموعة واحد مع شكلين فرعيين.
-// سنقدم كل شكل إلى ملف صورة في نظام الملفات المحلي
-// أثناء تجاهل أشكال المجموعة نظرًا لعدم ظهورها.
-// هذا سينتج 6 ملفات صور.
+// يوجد 7 أشكال في المستند، بما في ذلك شكل مجموعة واحد وشكلين فرعيين.
+// سنقوم بتحويل كل شكل إلى ملف صورة في نظام الملفات المحلي
+// مع تجاهل أشكال المجموعة نظرًا لعدم ظهورها.
+// سيؤدي هذا إلى إنتاج 6 ملفات صور.
 foreach (Shape shape in doc.GetChildNodes(NodeType.Shape, true).OfType<Shape>())
 {
     ShapeRenderer renderer = shape.GetShapeRenderer();

@@ -16,22 +16,23 @@ public Stream ImageStream { get; set; }
 
 ### Bemerkungen
 
-Mit dieser Eigenschaft können Sie während HTML Bilder in Streams statt in Dateien speichern.
+Mit dieser Eigenschaft können Sie Bilder während HTML in Streams statt in Dateien speichern.
 
-Der Standardwert ist`Null` . Wenn diese Eigenschaft ist`Null` , wird das Bild in einer Datei gespeichert, die in der angegeben ist[`ImageFileName`](../imagefilename/) Eigentum.
+Der Standardwert ist`Null` . Wenn diese Eigenschaft ist`Null` , wird das Bild in einer im angegebenen Datei gespeichert[`ImageFileName`](../imagefilename/) Eigentum.
 
-Verwenden[`IImageSavingCallback`](../../iimagesavingcallback/) Sie können ein Bild nicht durch eines anderen ersetzen. Es ist nur für die Kontrolle über den Speicherort von Bildern gedacht.
+Benutzen[`IImageSavingCallback`](../../iimagesavingcallback/) Sie können ein Bild nicht durch ein anderes ersetzen. Es dient lediglich der Kontrolle über den Speicherort von Bildern.
 
 ### Beispiele
 
-Zeigt, wie ein Callback zum Speichern von Bildern in einen HTML-Konvertierungsprozess einbezogen wird.
+Zeigt, wie ein Rückruf zum Speichern von Bildern in einen HTML-Konvertierungsprozess einbezogen wird.
 
 ```csharp
+public void ImageSavingCallback()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
     // Wenn wir das Dokument im HTML-Format speichern, können wir ein SaveOptions-Objekt übergeben, um einen Rückruf festzulegen
-    // um den Bildspeicherprozess anzupassen.
+    // um den Bildspeichervorgang anzupassen.
     HtmlSaveOptions options = new HtmlSaveOptions();
     options.ImageSavingCallback = new ImageShapePrinter();
 
@@ -39,8 +40,8 @@ Zeigt, wie ein Callback zum Speichern von Bildern in einen HTML-Konvertierungspr
 }
 
 /// <summary>
-/// Druckt die Eigenschaften jedes Bildes, während der Speicherprozess es in einer Bilddatei im lokalen Dateisystem speichert
-/// während des Exports eines Dokuments nach HTML.
+/// Druckt die Eigenschaften jedes Bildes, während der Speichervorgang es in einer Bilddatei im lokalen Dateisystem speichert
+/// beim Exportieren eines Dokuments nach HTML.
 /// </summary>
 private class ImageShapePrinter : IImageSavingCallback
 {

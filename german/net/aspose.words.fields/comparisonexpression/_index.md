@@ -3,12 +3,14 @@ title: Class ComparisonExpression
 second_title: Aspose.Words für .NET-API-Referenz
 description: Aspose.Words.Fields.ComparisonExpression klas. Der Vergleichsausdruck.
 type: docs
-weight: 1340
+weight: 1490
 url: /de/net/aspose.words.fields/comparisonexpression/
 ---
 ## ComparisonExpression class
 
 Der Vergleichsausdruck.
+
+Um mehr zu erfahren, besuchen Sie die[Arbeiten mit Feldern](https://docs.aspose.com/words/net/working-with-fields/) Dokumentationsartikel.
 
 ```csharp
 public sealed class ComparisonExpression
@@ -20,7 +22,7 @@ public sealed class ComparisonExpression
 | --- | --- |
 | [ComparisonOperator](../../aspose.words.fields/comparisonexpression/comparisonoperator/) { get; } | Ruft den Vergleichsoperator ab. |
 | [LeftExpression](../../aspose.words.fields/comparisonexpression/leftexpression/) { get; } | Ruft den linken Ausdruck ab. |
-| [RightExpression](../../aspose.words.fields/comparisonexpression/rightexpression/) { get; } | Bekommt den richtigen Ausdruck. |
+| [RightExpression](../../aspose.words.fields/comparisonexpression/rightexpression/) { get; } | Erhält den richtigen Ausdruck. |
 
 ### Beispiele
 
@@ -38,10 +40,10 @@ public void ConditionEvaluationExtensionPoint(string fieldCode, sbyte comparison
 
     // Feldcodes, die wir in diesem Beispiel verwenden:
     // 1. " IF {0} {1} {2} \"wahres Argument\" \"falsches Argument\" ".
-    // 2. " VERGLEICHEN {0} {1} {2} ".
+    // 2. " COMPARE {0} {1} {2} ".
     Field field = builder.InsertField(string.Format(fieldCode, left, @operator, right), null);
 
-    // Wenn "comparisonResult" nicht definiert ist, erstellen wir "ComparisonEvaluationResult" mit String statt mit bool.
+    // Wenn „comparisonResult“ undefiniert ist, erstellen wir „ComparisonEvaluationResult“ mit einer Zeichenfolge anstelle von bool.
     ComparisonEvaluationResult result = comparisonResult != -1
         ? new ComparisonEvaluationResult(comparisonResult == 1)
         : comparisonError != null ? new ComparisonEvaluationResult(comparisonError) : null;

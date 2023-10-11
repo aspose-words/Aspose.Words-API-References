@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.UnderlineTabInNumList
 second_title: Aspose.Words لمراجع .NET API
-description: CompatibilityOptions ملكية. وضع خط تحت الترقيم التالي للحرف .
+description: CompatibilityOptions ملكية. وضع خط تحت الحرف التالي للترقيم.
 type: docs
 weight: 590
 url: /ar/net/aspose.words.settings/compatibilityoptions/underlinetabinnumlist/
 ---
 ## CompatibilityOptions.UnderlineTabInNumList property
 
-وضع خط تحت الترقيم التالي للحرف .
+وضع خط تحت الحرف التالي للترقيم.
 
 ```csharp
 public bool UnderlineTabInNumList { get; set; }

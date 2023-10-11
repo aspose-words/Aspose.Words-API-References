@@ -1,14 +1,14 @@
 ---
 title: Node.ParentNode
 second_title: Aspose.Words für .NET-API-Referenz
-description: Node eigendom. Ruft den unmittelbar übergeordneten Knoten dieses Knotens ab.
+description: Node eigendom. Ruft das unmittelbare übergeordnete Element dieses Knotens ab.
 type: docs
 weight: 60
 url: /de/net/aspose.words/node/parentnode/
 ---
 ## Node.ParentNode property
 
-Ruft den unmittelbar übergeordneten Knoten dieses Knotens ab.
+Ruft das unmittelbare übergeordnete Element dieses Knotens ab.
 
 ```csharp
 public CompositeNode ParentNode { get; }
@@ -16,7 +16,7 @@ public CompositeNode ParentNode { get; }
 
 ### Bemerkungen
 
-Wenn ein Knoten gerade erstellt und noch nicht zum Baum hinzugefügt oder aus dem Baum entfernt wurde, ist der Elternknoten null.
+Wenn ein Knoten gerade erst erstellt und noch nicht zum Baum hinzugefügt wurde, oder wenn er aus dem Baum entfernt wurde, ist es der übergeordnete Knoten`Null`.
 
 ### Beispiele
 
@@ -30,8 +30,8 @@ Paragraph para = doc.FirstSection.Body.FirstParagraph;
 Run run = new Run(doc, "Hello world!");
 para.AppendChild(run);
 
-// Der Absatz ist der Elternknoten des Laufknotens. Wir können diese Linie verfolgen
-// bis zum Dokumentknoten, der die Wurzel des Knotenbaums des Dokuments ist.
+// Der Absatz ist der übergeordnete Knoten des Ausführungsknotens. Wir können diese Abstammung verfolgen
+// bis zum Dokumentknoten, der die Wurzel des Knotenbaums des Dokuments darstellt.
 Assert.AreEqual(para, run.ParentNode);
 Assert.AreEqual(doc.FirstSection.Body, para.ParentNode);
 Assert.AreEqual(doc.FirstSection, doc.FirstSection.Body.ParentNode);
@@ -45,20 +45,20 @@ Document doc = new Document();
 Paragraph para = new Paragraph(doc);
 para.AppendChild(new Run(doc, "Hello world!"));
 
-// Wir haben diesen Absatz noch nicht als Kind an einen zusammengesetzten Knoten angehängt.
+// Wir haben diesen Absatz noch nicht als untergeordnetes Element an einen zusammengesetzten Knoten angehängt.
 Assert.IsNull(para.ParentNode);
 
 // Wenn ein Knoten ein geeigneter untergeordneter Knotentyp eines anderen zusammengesetzten Knotens ist,
-// Wir können es nur dann als Kind anhängen, wenn beide Knoten dasselbe Eigentümerdokument haben.
+// Wir können es nur dann als Kind anhängen, wenn beide Knoten das gleiche Besitzerdokument haben.
 // Das Eigentümerdokument ist das Dokument, das wir an den Konstruktor des Knotens übergeben haben.
-// Wir haben diesen Absatz nicht an das Dokument angehängt, daher enthält das Dokument keinen Text.
+// Wir haben diesen Absatz nicht an das Dokument angehängt, daher enthält das Dokument seinen Text nicht.
 Assert.AreEqual(para.Document, doc);
 Assert.AreEqual(string.Empty, doc.GetText().Trim());
 
-// Da dieser Absatz dem Dokument gehört, können wir einen seiner Stile auf den Inhalt des Absatzes anwenden.
+// Da das Dokument Eigentümer dieses Absatzes ist, können wir einen seiner Stile auf den Inhalt des Absatzes anwenden.
 para.ParagraphFormat.Style = doc.Styles["Heading 1"];
 
-// Fügen Sie diesen Knoten dem Dokument hinzu und überprüfen Sie dann seinen Inhalt.
+// Fügen Sie diesen Knoten zum Dokument hinzu und überprüfen Sie dann seinen Inhalt.
 doc.FirstSection.Body.AppendChild(para);
 
 Assert.AreEqual(doc.FirstSection.Body, para.ParentNode);

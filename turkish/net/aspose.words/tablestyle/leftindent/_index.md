@@ -22,8 +22,8 @@ Bir tablonun konumunun nasıl ayarlanacağını gösterir.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Aşağıda bir tabloyu yatay olarak hizalamanın iki yolu vardır.
-// 1 - Orta gibi sayfadaki bir konuma hizalamak için "Hizalama" özelliğini kullanın:
+// Aşağıda bir tabloyu yatay olarak hizalamanın iki yolu verilmiştir.
+// 1 - Sayfanın merkezi gibi bir konuma hizalamak için "Hizalama" özelliğini kullanın:
 TableStyle tableStyle = (TableStyle)doc.Styles.Add(StyleType.Table, "MyTableStyle1");
 tableStyle.Alignment = TableAlignment.Center;
 tableStyle.Borders.Color = Color.Blue;
@@ -38,7 +38,7 @@ table.PreferredWidth = PreferredWidth.FromPoints(300);
 
 table.Style = tableStyle;
 
-// 2 - Sayfanın sol kenarından bir girinti belirtmek için "LeftIndent" kullanın:
+// 2 - Sayfanın sol kenar boşluğundan bir girinti belirtmek için "LeftIndent" seçeneğini kullanın:
 tableStyle = (TableStyle)doc.Styles.Add(StyleType.Table, "MyTableStyle2");
 tableStyle.LeftIndent = 55;
 tableStyle.Borders.Color = Color.Green;

@@ -1,14 +1,14 @@
 ---
 title: DocumentBuilder.Font
 second_title: Aspose.Words für .NET-API-Referenz
-description: DocumentBuilder eigendom. Gibt ein Objekt zurück das aktuelle Schriftformatierungseigenschaften darstellt.
+description: DocumentBuilder eigendom. Gibt ein Objekt zurück das die aktuellen Schriftartformatierungseigenschaften darstellt.
 type: docs
-weight: 90
+weight: 100
 url: /de/net/aspose.words/documentbuilder/font/
 ---
 ## DocumentBuilder.Font property
 
-Gibt ein Objekt zurück, das aktuelle Schriftformatierungseigenschaften darstellt.
+Gibt ein Objekt zurück, das die aktuellen Schriftartformatierungseigenschaften darstellt.
 
 ```csharp
 public Font Font { get; }
@@ -16,13 +16,13 @@ public Font Font { get; }
 
 ### Bemerkungen
 
-Verwenden **Schriftart** zum Aufrufen und Ändern von Schriftformatierungseigenschaften.
+Verwenden`Font` um auf die Eigenschaften der Schriftartformatierung zuzugreifen und diese zu ändern.
 
-Legen Sie die Schriftartformatierung fest, bevor Sie Text einfügen.
+Geben Sie vor dem Einfügen von Text die Schriftartformatierung an.
 
 ### Beispiele
 
-Zeigt, wie eine von einem Rahmen umgebene Zeichenfolge in ein Dokument eingefügt wird.
+Zeigt, wie man eine von einem Rahmen umgebene Zeichenfolge in ein Dokument einfügt.
 
 ```csharp
 Document doc = new Document();
@@ -37,7 +37,7 @@ builder.Write("Text surrounded by green border.");
 doc.Save(ArtifactsDir + "Border.FontBorder.docx");
 ```
 
-Zeigt, wie eine formatierte Tabelle mit DocumentBuilder erstellt wird.
+Zeigt, wie man mit DocumentBuilder eine formatierte Tabelle erstellt.
 
 ```csharp
 Document doc = new Document();
@@ -57,7 +57,7 @@ builder.Font.Size = 16;
 builder.Font.Name = "Arial";
 builder.Font.Bold = true;
 
-// Wenn Sie die Formatierungsoptionen in einem Dokumentersteller konfigurieren, werden sie angewendet
+// Wenn Sie die Formatierungsoptionen in einem Dokument-Builder konfigurieren, werden diese angewendet
 // zur aktuellen Zelle/Zeile, in der sich der Cursor befindet,
 // sowie alle neuen Zellen und Zeilen, die mit diesem Builder erstellt wurden.
 builder.Write("Header Row,\n Cell 1");
@@ -67,8 +67,8 @@ builder.InsertCell();
 builder.Write("Header Row,\n Cell 3");
 builder.EndRow();
 
-// Rekonfiguriere die Formatierungsobjekte des Builders für neue Zeilen und Zellen, die wir gleich erstellen werden.
-// Der Builder wendet diese nicht auf die erste bereits erstellte Zeile an, damit sie als Kopfzeile hervorsticht.
+// Konfigurieren Sie die Formatierungsobjekte des Builders für neue Zeilen und Zellen neu, die wir erstellen möchten.
+// Der Builder wendet diese nicht auf die erste bereits erstellte Zeile an, sodass diese als Kopfzeile hervorsticht.
 builder.CellFormat.Shading.BackgroundPatternColor = Color.White;
 builder.CellFormat.VerticalAlignment = CellVerticalAlignment.Center;
 builder.RowFormat.Height = 30;

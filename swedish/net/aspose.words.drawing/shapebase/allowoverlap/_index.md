@@ -20,7 +20,7 @@ Den här egenskapen påverkar beteendet hos formen i Microsoft Word. Aspose.Word
 
 Den här egenskapen är endast tillämplig på former på toppnivå.
 
-Standardvärdet är **Sann**.
+Standardvärdet är`Sann`.
 
 ### Exempel
 

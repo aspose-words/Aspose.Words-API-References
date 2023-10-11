@@ -16,21 +16,21 @@ public string PageRangeSeparator { get; set; }
 
 ### 例子
 
-显示如何将书签的跨页指定为 INDEX 字段条目的页面范围。
+演示如何将书签的跨页指定为 INDEX 字段条目的页面范围。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 创建一个 INDEX 字段，它将为文档中找到的每个 XE 字段显示一个条目。
-// 每个条目都会在左侧显示 XE 字段的 Text 属性值，
+// 创建一个 INDEX 字段，它将显示文档中找到的每个 XE 字段的条目。
+// 每个条目都会在左侧显示XE字段的Text属性值，
 // 以及右侧包含 XE 字段的页码。
-// INDEX 条目将收集所有在“Text”属性中具有匹配值的 XE 字段
+// INDEX 条目将收集“Text”属性中具有匹配值的所有 XE 字段
 // 进入一个条目，而不是为每个 XE 字段创建一个条目。
 FieldIndex index = (FieldIndex)builder.InsertField(FieldType.FieldIndex, true);
 
-// 对于显示页面范围的 INDEX 条目，我们可以指定一个分隔符字符串
-// 它将出现在第一页的编号和最后一页的编号之间。
+// 对于显示页面范围的 INDEX 条目，我们可以指定分隔符字符串
+// 将出现在第一页的页码和最后一页的页码之间。
 index.PageNumberSeparator = ", on page(s) ";
 index.PageRangeSeparator = " to ";
 
@@ -48,9 +48,9 @@ indexEntry.PageRangeBookmarkName = "MyBookmark";
 Assert.AreEqual(" XE  \"My entry\" \\r MyBookmark", indexEntry.GetFieldCode());
 Assert.AreEqual("MyBookmark", indexEntry.PageRangeBookmarkName);
 
-// 插入一个从第 3 页开始到第 5 页结束的书签。
+// 插入从第 3 页开始到第 5 页结束的书签。
 // 引用此书签的 XE 字段的 INDEX 条目将显示此页面范围。
-// 在我们的表格中，INDEX 条目将显示“我的条目，在第 3 到 5 页上”。
+// 在我们的表中，INDEX 条目将显示“我的条目，第 3 至 5 页”。
 builder.InsertBreak(BreakType.PageBreak);
 builder.StartBookmark("MyBookmark");
 builder.Write("Start of MyBookmark");
@@ -59,6 +59,7 @@ builder.InsertBreak(BreakType.PageBreak);
 builder.Write("End of MyBookmark");
 builder.EndBookmark("MyBookmark");
 
+doc.UpdatePageLayout();
 doc.UpdateFields();
 doc.Save(ArtifactsDir + "Field.INDEX.XE.PageRangeBookmark.docx");
 ```

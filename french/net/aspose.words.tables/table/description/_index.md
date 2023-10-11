@@ -1,14 +1,14 @@
 ---
 title: Table.Description
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Table propriété. Obtient ou définit la description de ce tableau. Il fournit une représentation textuelle alternative des informations contenues dans le tableau.
+description: Table propriété. Obtient ou définit la description de cette table. Il fournit une représentation textuelle alternative des informations contenues dans la table.
 type: docs
 weight: 110
 url: /fr/net/aspose.words.tables/table/description/
 ---
 ## Table.Description property
 
-Obtient ou définit la description de ce tableau. Il fournit une représentation textuelle alternative des informations contenues dans le tableau.
+Obtient ou définit la description de cette table. Il fournit une représentation textuelle alternative des informations contenues dans la table.
 
 ```csharp
 public string Description { get; set; }
@@ -18,22 +18,22 @@ public string Description { get; set; }
 
 La valeur par défaut est une chaîne vide.
 
-Cette propriété est significative pour les documents DOCX conformes ISO/IEC 29500 ([`OoxmlCompliance`](../../../aspose.words.saving/ooxmlcompliance/)). Lorsqu'elle est enregistrée dans des formats pré-ISO/IEC 29500, la propriété est ignorée.
+Cette propriété est significative pour les documents DOCX conformes à la norme ISO/IEC 29500 ([`OoxmlCompliance`](../../../aspose.words.saving/ooxmlcompliance/)). Lorsqu'elle est enregistrée dans des formats antérieurs à ISO/IEC 29500, la propriété est ignorée.
 
 ### Exemples
 
-Montre comment créer un tableau imbriqué sans utiliser de générateur de document.
+Montre comment créer un tableau imbriqué sans utiliser de générateur de documents.
 
 ```csharp
 public void CreateNestedTable()
 {
     Document doc = new Document();
 
-    // Crée le tableau externe avec trois lignes et quatre colonnes, puis l'ajoute au document.
+    // Créez le tableau externe avec trois lignes et quatre colonnes, puis ajoutez-le au document.
     Table outerTable = CreateTable(doc, 3, 4, "Outer Table");
     doc.FirstSection.Body.AppendChild(outerTable);
 
-    // Crée un autre tableau avec deux lignes et deux colonnes, puis insère-le dans la première cellule du premier tableau.
+    // Créez un autre tableau avec deux lignes et deux colonnes puis insérez-le dans la première cellule du premier tableau.
     Table innerTable = CreateTable(doc, 2, 2, "Inner Table");
     outerTable.FirstRow.FirstCell.AppendChild(innerTable);
 
@@ -63,9 +63,9 @@ private static Table CreateTable(Document doc, int rowCount, int cellCount, stri
     }
 
     // Vous pouvez utiliser les propriétés "Titre" et "Description" pour ajouter respectivement un titre et une description à votre tableau.
-    // La table doit avoir au moins une ligne avant que nous puissions utiliser ces propriétés.
+    // Le tableau doit avoir au moins une ligne avant de pouvoir utiliser ces propriétés.
     // Ces propriétés sont significatives pour les documents .docx conformes à la norme ISO/IEC 29500 (voir la classe OoxmlCompliance).
-    // Si nous enregistrons le document dans des formats pré-ISO/IEC 29500, Microsoft Word ignore ces propriétés.
+    // Si nous enregistrons le document aux formats pré-ISO/IEC 29500, Microsoft Word ignore ces propriétés.
     table.Title = "Aspose table title";
     table.Description = "Aspose table description";
 

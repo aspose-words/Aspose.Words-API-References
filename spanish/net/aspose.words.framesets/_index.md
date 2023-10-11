@@ -1,12 +1,12 @@
 ---
 title: Aspose.Words.Framesets
 second_title: Referencia de API de Aspose.Words para .NET
-description: los Aspose.Words.Framesets El espacio de nombres proporciona clases y enumeraciones que representan una página de marcos o un solo marco en una página de marcos.
+description: El Aspose.Words.Conjuntos de marcos El espacio de nombres proporciona clases y enumeraciones que representan una página de marcos o un solo marco en una página de marcos.
 type: docs
 weight: 100
 url: /es/net/aspose.words.framesets/
 ---
-los **Aspose.Words.Framesets** El espacio de nombres proporciona clases y enumeraciones que representan una página de marcos o un solo marco en una página de marcos.
+El **Aspose.Words.Conjuntos de marcos** El espacio de nombres proporciona clases y enumeraciones que representan una página de marcos o un solo marco en una página de marcos.
 
 ## Clases
 

@@ -1,17 +1,17 @@
 ---
 title: OleControl.IsForms2OleControl
 second_title: Référence de l'API Aspose.Words pour .NET
-description: OleControl propriété. Renvoie vrai si le contrôle est unForms2OleControl .
+description: OleControl propriété. Retoursvrai si le contrôle est unForms2OleControl .
 type: docs
 weight: 10
 url: /fr/net/aspose.words.drawing.ole/olecontrol/isforms2olecontrol/
 ---
 ## OleControl.IsForms2OleControl property
 
-Renvoie vrai si le contrôle est un[`Forms2OleControl`](../../forms2olecontrol/) .
+Retours`vrai` si le contrôle est un[`Forms2OleControl`](../../forms2olecontrol/) .
 
 ```csharp
-public virtual bool IsForms2OleControl { get; }
+public bool IsForms2OleControl { get; }
 ```
 
 ### Exemples
@@ -24,7 +24,7 @@ Document doc = new Document(MyDir + "ActiveX controls.docx");
 Shape shape = (Shape) doc.GetChild(NodeType.Shape, 0, true);
 OleControl oleControl = shape.OleFormat.OleControl;
 
-Assert.AreEqual(null, oleControl.Name);
+Assert.AreEqual("CheckBox1", oleControl.Name);
 
 if (oleControl.IsForms2OleControl)
 {
@@ -34,6 +34,10 @@ if (oleControl.IsForms2OleControl)
     Assert.AreEqual(true, checkBox.Enabled);
     Assert.AreEqual(Forms2OleControlType.CheckBox, checkBox.Type);
     Assert.AreEqual(null, checkBox.ChildNodes);
+    Assert.AreEqual(string.Empty, checkBox.GroupName);
+
+    // Notez que vous ne pouvez pas définir GroupName pour un Frame.
+    checkBox.GroupName = "Aspose group name";
 }
 ```
 

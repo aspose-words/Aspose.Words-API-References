@@ -1,14 +1,14 @@
 ---
 title: CellFormat.HorizontalMerge
 second_title: Aspose.Words per .NET API Reference
-description: CellFormat proprietà. Specifica come la cella viene unita orizzontalmente con altre celle nella riga.
+description: CellFormat proprietà. Specifica come la cella viene unita orizzontalmente con le altre celle nella riga.
 type: docs
-weight: 40
+weight: 50
 url: /it/net/aspose.words.tables/cellformat/horizontalmerge/
 ---
 ## CellFormat.HorizontalMerge property
 
-Specifica come la cella viene unita orizzontalmente con altre celle nella riga.
+Specifica come la cella viene unita orizzontalmente con le altre celle nella riga.
 
 ```csharp
 public CellMerge HorizontalMerge { get; set; }
@@ -16,25 +16,25 @@ public CellMerge HorizontalMerge { get; set; }
 
 ### Esempi
 
-Mostra come unire le celle di una tabella orizzontalmente.
+Mostra come unire le celle della tabella orizzontalmente.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Inserisce una cella nella prima colonna della prima riga.
-// Questa cella sarà la prima in un intervallo di celle unite orizzontalmente.
+// Inserisci una cella nella prima colonna della prima riga.
+// Questa cella sarà la prima di un intervallo di celle unite orizzontalmente.
 builder.InsertCell();
 builder.CellFormat.HorizontalMerge = CellMerge.First;
 builder.Write("Text in merged cells.");
 
-// Inserisce una cella nella seconda colonna della prima riga. Invece di aggiungere contenuti di testo,
+// Inserisci una cella nella seconda colonna della prima riga. Invece di aggiungere contenuti di testo,
 // uniremo questa cella con la prima cella che abbiamo aggiunto direttamente a sinistra.
 builder.InsertCell();
 builder.CellFormat.HorizontalMerge = CellMerge.Previous;
 builder.EndRow();
 
-// Inserisce altre due celle non unite nella seconda riga.
+// Inserisci altre due celle non unite nella seconda riga.
 builder.CellFormat.HorizontalMerge = CellMerge.None;
 builder.InsertCell();
 builder.Write("Text in unmerged cell.");

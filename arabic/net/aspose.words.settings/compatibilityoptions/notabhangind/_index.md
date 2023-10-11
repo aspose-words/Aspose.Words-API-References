@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.NoTabHangInd
 second_title: Aspose.Words لمراجع .NET API
-description: CompatibilityOptions ملكية. لا تقم بإنشاء إيقاف علامة تبويب مخصص لمسافة بادئة معلقة.
+description: CompatibilityOptions ملكية. لا تقم بإنشاء علامة جدولة مخصصة للمسافة البادئة المعلقة.
 type: docs
 weight: 370
 url: /ar/net/aspose.words.settings/compatibilityoptions/notabhangind/
 ---
 ## CompatibilityOptions.NoTabHangInd property
 
-لا تقم بإنشاء إيقاف علامة تبويب مخصص لمسافة بادئة معلقة.
+لا تقم بإنشاء علامة جدولة مخصصة للمسافة البادئة المعلقة.
 
 ```csharp
 public bool NoTabHangInd { get; set; }

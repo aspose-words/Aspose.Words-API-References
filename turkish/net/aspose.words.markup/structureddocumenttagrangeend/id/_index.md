@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTagRangeEnd.Id
 second_title: Aspose.Words for .NET API Referansı
-description: StructuredDocumentTagRangeEnd mülk. Bunun için benzersiz bir salt okunur kalıcı sayısal kimlik belirtir YapılandırılmışBelgeEtiketAralığı node. Karşılık gelenStructuredDocumentTagRangeStart düğüm aynıId .
+description: StructuredDocumentTagRangeEnd mülk. Bunun için benzersiz salt okunur kalıcı bir sayısal kimlik belirtir YapılandırılmışBelgeTagAralığı node. Karşılık gelenStructuredDocumentTagRangeStart düğüm aynısına sahipId .
 type: docs
 weight: 20
 url: /tr/net/aspose.words.markup/structureddocumenttagrangeend/id/
 ---
 ## StructuredDocumentTagRangeEnd.Id property
 
-Bunun için benzersiz bir salt okunur kalıcı sayısal kimlik belirtir **YapılandırılmışBelgeEtiketAralığı** node. Karşılık gelen[`StructuredDocumentTagRangeStart`](../../structureddocumenttagrangestart/) düğüm aynı[`Id`](../../structureddocumenttagrangestart/id/) .
+Bunun için benzersiz, salt okunur, kalıcı bir sayısal kimlik belirtir **YapılandırılmışBelgeTagAralığı** node. Karşılık gelen[`StructuredDocumentTagRangeStart`](../../structureddocumenttagrangestart/) düğüm aynısına sahip[`Id`](../../structureddocumenttagrangestart/id/) .
 
 ```csharp
 public int Id { get; }

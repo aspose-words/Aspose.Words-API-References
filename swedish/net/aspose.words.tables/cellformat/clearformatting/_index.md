@@ -3,7 +3,7 @@ title: CellFormat.ClearFormatting
 second_title: Aspose.Words för .NET API Referens
 description: CellFormat metod. Återställer till standardcellformatering. Ändrar inte cellens bredd.
 type: docs
-weight: 150
+weight: 160
 url: /sv/net/aspose.words.tables/cellformat/clearformatting/
 ---
 ## CellFormat.ClearFormatting method

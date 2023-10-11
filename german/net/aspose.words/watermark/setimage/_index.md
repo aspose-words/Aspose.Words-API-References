@@ -1,14 +1,14 @@
 ---
 title: Watermark.SetImage
 second_title: Aspose.Words für .NET-API-Referenz
-description: Watermark methode. Fügt Bildwasserzeichen in das Dokument ein.
+description: Watermark methode. Fügt dem Dokument ein Bildwasserzeichen hinzu.
 type: docs
 weight: 30
 url: /de/net/aspose.words/watermark/setimage/
 ---
 ## SetImage(Image) {#setimage}
 
-Fügt Bildwasserzeichen in das Dokument ein.
+Fügt dem Dokument ein Bildwasserzeichen hinzu.
 
 ```csharp
 public void SetImage(Image image)
@@ -22,7 +22,7 @@ public void SetImage(Image image)
 
 | Ausnahme | Bedingung |
 | --- | --- |
-| ArgumentNullException | Wird ausgelöst, wenn das Bild null ist. |
+| ArgumentNullException | Wird ausgelöst, wenn das Bild vorhanden ist`Null` . |
 
 ### Siehe auch
 
@@ -34,7 +34,7 @@ public void SetImage(Image image)
 
 ## SetImage(Image, ImageWatermarkOptions) {#setimage_1}
 
-Fügt Bildwasserzeichen in das Dokument ein.
+Fügt dem Dokument ein Bildwasserzeichen hinzu.
 
 ```csharp
 public void SetImage(Image image, ImageWatermarkOptions options)
@@ -49,21 +49,21 @@ public void SetImage(Image image, ImageWatermarkOptions options)
 
 | Ausnahme | Bedingung |
 | --- | --- |
-| ArgumentNullException | Wird ausgelöst, wenn das Bild null ist. |
+| ArgumentNullException | Wird ausgelöst, wenn das Bild vorhanden ist`Null` . |
 
 ### Bemerkungen
 
-Wenn[`ImageWatermarkOptions`](../../imagewatermarkoptions/) null ist, wird das Wasserzeichen mit Standardoptionen gesetzt.
+Wenn[`ImageWatermarkOptions`](../../imagewatermarkoptions/) Ist`Null`, das Wasserzeichen wird mit Standardoptionen eingestellt.
 
 ### Beispiele
 
-Zeigt, wie ein Wasserzeichen aus einem Bild im lokalen Dateisystem erstellt wird.
+Zeigt, wie man aus einem Bild im lokalen Dateisystem ein Wasserzeichen erstellt.
 
 ```csharp
 Document doc = new Document();
 
-            // Ändere das Aussehen des Bildwasserzeichens mit einem ImageWatermarkOptions-Objekt,
-            // Übergeben Sie es dann, während Sie ein Wasserzeichen aus einer Bilddatei erstellen.
+            // Ändern Sie das Erscheinungsbild des Bildwasserzeichens mit einem ImageWatermarkOptions-Objekt.
+            // Übergebe es dann beim Erstellen eines Wasserzeichens aus einer Bilddatei.
             ImageWatermarkOptions imageWatermarkOptions = new ImageWatermarkOptions();
             imageWatermarkOptions.Scale = 5;
             imageWatermarkOptions.IsWashout = false;
@@ -91,7 +91,7 @@ Document doc = new Document();
 
 ## SetImage(string, ImageWatermarkOptions) {#setimage_2}
 
-Fügt Bildwasserzeichen in das Dokument ein.
+Fügt dem Dokument ein Bildwasserzeichen hinzu.
 
 ```csharp
 public void SetImage(string imagePath, ImageWatermarkOptions options)
@@ -106,11 +106,11 @@ public void SetImage(string imagePath, ImageWatermarkOptions options)
 
 | Ausnahme | Bedingung |
 | --- | --- |
-| ArgumentNullException | Wird ausgelöst, wenn der Pfad null ist. |
+| ArgumentNullException | Wird ausgelöst, wenn der Pfad vorhanden ist`Null` . |
 
 ### Bemerkungen
 
-Wenn[`ImageWatermarkOptions`](../../imagewatermarkoptions/) null ist, wird das Wasserzeichen mit Standardoptionen gesetzt.
+Wenn[`ImageWatermarkOptions`](../../imagewatermarkoptions/) Ist`Null`, das Wasserzeichen wird mit Standardoptionen eingestellt.
 
 ### Siehe auch
 

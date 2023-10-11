@@ -20,7 +20,7 @@ public Document OpenIStream(IStream stream)
 
 ### Returvärde
 
-A[`Document`](../../document/) objekt som representerar ett Word-dokument.
+A[`Document`](../../document/)objekt som representerar ett Word-dokument.
 
 ### Se även
 

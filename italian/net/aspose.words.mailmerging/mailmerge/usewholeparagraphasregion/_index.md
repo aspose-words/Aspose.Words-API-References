@@ -1,14 +1,14 @@
 ---
 title: MailMerge.UseWholeParagraphAsRegion
 second_title: Aspose.Words per .NET API Reference
-description: MailMerge proprietà. Ottiene o imposta un valore che indica se lintero paragrafo con il campo TableStart o TableEnd o un particolare intervallo tra i campi TableStart e TableEnd deve essere incluso nellarea della stampa unione.
+description: MailMerge proprietà. Ottiene o imposta un valore che indica se è presente lintero paragrafo Inizio tabella O Fine tabella field o un intervallo particolare compreso tra Inizio tabella E Fine tabella i campi devono essere inclusi nella regione della stampa unione.
 type: docs
 weight: 160
 url: /it/net/aspose.words.mailmerging/mailmerge/usewholeparagraphasregion/
 ---
 ## MailMerge.UseWholeParagraphAsRegion property
 
-Ottiene o imposta un valore che indica se l'intero paragrafo con il campo TableStart o TableEnd o un particolare intervallo tra i campi TableStart e TableEnd deve essere incluso nell'area della stampa unione.
+Ottiene o imposta un valore che indica se è presente l'intero paragrafo **Inizio tabella** O **Fine tabella** field o un intervallo particolare compreso tra **Inizio tabella** E **Fine tabella** i campi devono essere inclusi nella regione della stampa unione.
 
 ```csharp
 public bool UseWholeParagraphAsRegion { get; set; }
@@ -16,11 +16,11 @@ public bool UseWholeParagraphAsRegion { get; set; }
 
 ### Osservazioni
 
-Il valore predefinito è **VERO** .
+Il valore predefinito è`VERO` .
 
 ### Esempi
 
-Mostra la relazione tra le aree e i paragrafi della stampa unione.
+Mostra la relazione tra aree di stampa unione e paragrafi.
 
 ```csharp
 public void UseWholeParagraphAsRegion(bool useWholeParagraphAsRegion)
@@ -28,8 +28,8 @@ public void UseWholeParagraphAsRegion(bool useWholeParagraphAsRegion)
     Document doc = CreateSourceDocWithNestedMergeRegions();
     DataTable dataTable = CreateSourceTableDataTableForOneRegion();
 
-    // Per impostazione predefinita, un paragrafo può appartenere a non più di un'area di stampa unione.
-    // I contenuti del nostro documento non soddisfano questi criteri.
+    // Per impostazione predefinita, un paragrafo non può appartenere a più di una regione di stampa unione.
+    // Il contenuto del nostro documento non soddisfa questi criteri.
     // Se impostiamo il flag "UseWholeParagraphAsRegion" su "true",
     // l'esecuzione di una stampa unione su questo documento genererà un'eccezione.
     // Se impostiamo il flag "UseWholeParagraphAsRegion" su "false",
@@ -41,7 +41,7 @@ public void UseWholeParagraphAsRegion(bool useWholeParagraphAsRegion)
     else
         doc.MailMerge.ExecuteWithRegions(dataTable);
 
-    // La stampa unione popola la nostra prima regione lasciando la seconda inutilizzata
+    // La stampa unione popola la nostra prima regione lasciando la seconda regione inutilizzata
     // poiché è la regione che infrange la regola.
     doc.Save(ArtifactsDir + "MailMerge.UseWholeParagraphAsRegion.docx");
 }
@@ -69,7 +69,7 @@ private static Document CreateSourceDocWithNestedMergeRegions()
 }
 
 /// <summary>
-/// Crea una tabella di dati che può popolare una regione durante una stampa unione.
+/// Crea una tabella dati che possa popolare una regione durante una stampa unione.
 /// </summary>
 private static DataTable CreateSourceTableDataTableForOneRegion()
 {

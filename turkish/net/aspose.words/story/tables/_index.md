@@ -1,14 +1,14 @@
 ---
 title: Story.Tables
 second_title: Aspose.Words for .NET API Referansı
-description: Story mülk. Öykünün doğrudan alt öğeleri olan tabloların bir koleksiyonunu alır.
+description: Story mülk. Hikayenin doğrudan alt öğeleri olan tabloların bir koleksiyonunu alır.
 type: docs
 weight: 50
 url: /tr/net/aspose.words/story/tables/
 ---
 ## Story.Tables property
 
-Öykünün doğrudan alt öğeleri olan tabloların bir koleksiyonunu alır.
+Hikayenin doğrudan alt öğeleri olan tabloların bir koleksiyonunu alır.
 
 ```csharp
 public TableCollection Tables { get; }

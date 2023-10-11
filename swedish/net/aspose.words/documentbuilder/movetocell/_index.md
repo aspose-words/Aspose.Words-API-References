@@ -3,7 +3,7 @@ title: DocumentBuilder.MoveToCell
 second_title: Aspose.Words för .NET API Referens
 description: DocumentBuilder metod. Flyttar markören till en tabellcell i det aktuella avsnittet.
 type: docs
-weight: 480
+weight: 510
 url: /sv/net/aspose.words/documentbuilder/movetocell/
 ---
 ## DocumentBuilder.MoveToCell method

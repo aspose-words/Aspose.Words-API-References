@@ -1,14 +1,14 @@
 ---
 title: Row.Cells
 second_title: Aspose.Words per .NET API Reference
-description: Row proprietà. Fornisce laccesso tipizzato al file Cellula nodi figlio della riga.
+description: Row proprietà. Fornisce laccesso digitato aCell nodi figlio della riga.
 type: docs
 weight: 20
 url: /it/net/aspose.words.tables/row/cells/
 ---
 ## Row.Cells property
 
-Fornisce l'accesso tipizzato al file **Cellula** nodi figlio della riga.
+Fornisce l'accesso digitato a[`Cell`](../../cell/) nodi figlio della riga.
 
 ```csharp
 public CellCollection Cells { get; }
@@ -16,7 +16,7 @@ public CellCollection Cells { get; }
 
 ### Esempi
 
-Mostra come scorrere tutte le tabelle nel documento e stampare il contenuto di ogni cella.
+Mostra come scorrere tutte le tabelle del documento e stampare il contenuto di ciascuna cella.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
@@ -40,7 +40,7 @@ for (int i = 0; i < tables.Count; i++)
 
         CellCollection cells = rows[j].Cells;
 
-        // Possiamo usare il metodo "ToArray" su una raccolta di celle per clonarla in un array.
+        // Possiamo utilizzare il metodo "ToArray" su una raccolta di celle per clonarla in un array.
         Assert.AreEqual(cells, cells.ToArray());
         Assert.AreNotSame(cells, cells.ToArray());
 

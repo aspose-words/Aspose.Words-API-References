@@ -3,7 +3,7 @@ title: ShapeBase.GetShapeRenderer
 second_title: Aspose.Words för .NET API Referens
 description: ShapeBase metod. Skapar och returnerar ett objekt som kan användas för att återge denna form till en bild.
 type: docs
-weight: 600
+weight: 660
 url: /sv/net/aspose.words.drawing/shapebase/getshaperenderer/
 ---
 ## ShapeBase.GetShapeRenderer method

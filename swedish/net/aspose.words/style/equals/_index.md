@@ -1,14 +1,14 @@
 ---
 title: Style.Equals
 second_title: Aspose.Words för .NET API Referens
-description: Style metod. Jämförs med den angivna stilen. Stilar Istds jämförs endast för inbyggda stilar. Formatmallars standarder ingår inte i jämförelsen. Basstil länkad stil och nästa styckestil jämförs rekursivt.
+description: Style metod. Jämförs med den angivna stilen. Stilar Istds jämförs endast för inbyggda stilar. Standardinställningar för format ingår inte i jämförelsen. Basstil länkad stil och nästa styckestil jämförs rekursivt.
 type: docs
-weight: 170
+weight: 190
 url: /sv/net/aspose.words/style/equals/
 ---
 ## Style.Equals method
 
-Jämförs med den angivna stilen. Stilar Istds jämförs endast för inbyggda stilar. Formatmallars standarder ingår inte i jämförelsen. Basstil, länkad stil och nästa styckestil jämförs rekursivt.
+Jämförs med den angivna stilen. Stilar Istds jämförs endast för inbyggda stilar. Standardinställningar för format ingår inte i jämförelsen. Basstil, länkad stil och nästa styckestil jämförs rekursivt.
 
 ```csharp
 public bool Equals(Style style)

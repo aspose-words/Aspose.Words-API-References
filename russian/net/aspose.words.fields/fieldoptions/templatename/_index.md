@@ -3,7 +3,7 @@ title: FieldOptions.TemplateName
 second_title: Справочник по API Aspose.Words для .NET
 description: FieldOptions свойство. Получает или задает имя файла шаблона используемого документом.
 type: docs
-weight: 170
+weight: 190
 url: /ru/net/aspose.words.fields/fieldoptions/templatename/
 ---
 ## FieldOptions.TemplateName property
@@ -16,9 +16,9 @@ public string TemplateName { get; set; }
 
 ### Примечания
 
-Это свойство используется[`FieldTemplate`](../../fieldtemplate/) поле, если[`AttachedTemplate`](../../../aspose.words/document/attachedtemplate/) свойство пусто.
+Это свойство используется[`FieldTemplate`](../../fieldtemplate/) поле, если[`AttachedTemplate`](../../../aspose.words/document/attachedtemplate/) недвижимость пуста.
 
-Если это свойство пусто, имя файла шаблона по умолчанию`Обычный.dotm` используется.
+Если это свойство пусто, имя файла шаблона по умолчанию`Нормальный.dotm` используется.
 
 ### Примеры
 
@@ -29,7 +29,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Мы можем установить имя шаблона, используя поля. Это свойство используется, когда «doc.AttachedTemplate» пуст.
-// Если это свойство пусто, используется имя файла шаблона по умолчанию "Normal.dotm".
+// Если это свойство пусто, используется имя файла шаблона по умолчанию «Normal.dotm».
 doc.FieldOptions.TemplateName = string.Empty;
 
 FieldTemplate field = (FieldTemplate)builder.InsertField(FieldType.FieldTemplate, false);

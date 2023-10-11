@@ -16,7 +16,7 @@ public EmphasisMark EmphasisMark { get; set; }
 
 ### Ejemplos
 
-Muestra cómo agregar caracteres adicionales representados arriba/abajo del carácter de glifo.
+Muestra cómo agregar caracteres adicionales representados encima/debajo del carácter de glifo.
 
 ```csharp
 DocumentBuilder builder = new DocumentBuilder();

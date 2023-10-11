@@ -1,14 +1,14 @@
 ---
 title: FieldIncludePicture.ResizeVertically
 second_title: Referencia de API de Aspose.Words para .NET
-description: FieldIncludePicture propiedad. Obtiene o establece si cambiar el tamaño de la imagen verticalmente desde la fuente.
+description: FieldIncludePicture propiedad. Obtiene o establece si se debe cambiar el tamaño de la imagen verticalmente desde el origen.
 type: docs
 weight: 50
 url: /es/net/aspose.words.fields/fieldincludepicture/resizevertically/
 ---
 ## FieldIncludePicture.ResizeVertically property
 
-Obtiene o establece si cambiar el tamaño de la imagen verticalmente desde la fuente.
+Obtiene o establece si se debe cambiar el tamaño de la imagen verticalmente desde el origen.
 
 ```csharp
 public bool ResizeVertically { get; set; }
@@ -16,14 +16,14 @@ public bool ResizeVertically { get; set; }
 
 ### Ejemplos
 
-Muestra cómo insertar imágenes usando los campos IMPORT e INCLUDEPICTURE.
+Muestra cómo insertar imágenes usando los campos IMPORTAR e INCLUDEPICTURE.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// A continuación hay dos tipos de campos similares que podemos usar para mostrar imágenes vinculadas desde el sistema de archivos local.
-// 1 - El campo INCLUYE IMAGEN:
+// A continuación se muestran dos tipos de campos similares que podemos usar para mostrar imágenes vinculadas desde el sistema de archivos local.
+// 1 - El campo INCLUDEPICTURE:
 FieldIncludePicture fieldIncludePicture = (FieldIncludePicture)builder.InsertField(FieldType.FieldIncludePicture, true);
 fieldIncludePicture.SourceFullName = ImageDir + "Transparent background logo.png";
 

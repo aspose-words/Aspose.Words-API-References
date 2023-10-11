@@ -1,14 +1,16 @@
 ---
 title: Class SectionCollection
 second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.SectionCollection classe. Una raccolta di Sezione oggetti nel documento.
+description: Aspose.Words.SectionCollection classe. Una raccolta diSection oggetti nel documento.
 type: docs
-weight: 5450
+weight: 5740
 url: /it/net/aspose.words/sectioncollection/
 ---
 ## SectionCollection class
 
-Una raccolta di **Sezione** oggetti nel documento.
+Una raccolta di[`Section`](../section/) oggetti nel documento.
+
+Per saperne di più, visita il[Lavorare con le sezioni](https://docs.aspose.com/words/net/working-with-sections/) articolo di documentazione.
 
 ```csharp
 public class SectionCollection : NodeCollection
@@ -19,7 +21,7 @@ public class SectionCollection : NodeCollection
 | Nome | Descrizione |
 | --- | --- |
 | [Count](../../aspose.words/nodecollection/count/) { get; } | Ottiene il numero di nodi nella raccolta. |
-| [Item](../../aspose.words/sectioncollection/item/) { get; } | Recupera una sezione in corrispondenza dell'indice specificato. (2 indexers) |
+| [Item](../../aspose.words/sectioncollection/item/) { get; } | Recupera una sezione all'indice specificato. (2 indexers) |
 
 ## Metodi
 
@@ -32,14 +34,14 @@ public class SectionCollection : NodeCollection
 | [IndexOf](../../aspose.words/nodecollection/indexof/)(Node) | Restituisce l'indice in base zero del nodo specificato. |
 | [Insert](../../aspose.words/nodecollection/insert/)(int, Node) | Inserisce un nodo nella raccolta in corrispondenza dell'indice specificato. |
 | [Remove](../../aspose.words/nodecollection/remove/)(Node) | Rimuove il nodo dalla raccolta e dal documento. |
-| [RemoveAt](../../aspose.words/nodecollection/removeat/)(int) | Rimuove il nodo in corrispondenza dell'indice specificato dalla raccolta e dal documento. |
+| [RemoveAt](../../aspose.words/nodecollection/removeat/)(int) | Rimuove il nodo all'indice specificato dalla raccolta e dal documento. |
 | [ToArray](../../aspose.words/sectioncollection/toarray/#toarray_1)() | Copia tutte le sezioni dalla raccolta in un nuovo array di sezioni. (2 methods) |
 
 ### Osservazioni
 
-Un documento di Microsoft Word può contenere più sezioni. Per creare una sezione in un Microsoft Word, seleziona il comando Inserisci/Interrompi e seleziona un tipo di interruzione. L'interruzione specifica se la sezione inizia su una nuova pagina o sulla stessa pagina.
+Un documento di Microsoft Word può contenere più sezioni. Per creare una sezione in Microsoft Word, seleziona il comando Inserisci/Interrompi e seleziona un tipo di interruzione. L'interruzione specifica se la sezione inizia su una nuova pagina o sulla stessa pagina.
 
-L'inserimento e la rimozione di sezioni a livello di codice possono essere utilizzati per personalizzare i documenti prodotti durante la stampa unione. Se un documento deve avere contenuto o parti di differenti a seconda di alcuni criteri, puoi creare un documento "master" che contenga più sezioni ed eliminare alcune delle sezioni prima o dopo la stampa unione.
+L'inserimento e la rimozione di sezioni a livello di codice può essere utilizzato per personalizzare i documenti prodotti durante la stampa unione. Se un documento deve avere contenuti diversi o parti del contenuto in base ad alcuni criteri, puoi creare un documento "principale" che contenga più sezioni ed eliminare alcune sezioni prima o dopo la stampa unione.
 
 ### Esempi
 
@@ -60,7 +62,7 @@ doc.Sections.RemoveAt(0);
 
 Assert.AreEqual("Section 2", doc.GetText().Trim());
 
-// Aggiungi una copia di quella che ora è la prima sezione alla fine del documento.
+// Aggiunge una copia di quella che ora è la prima sezione alla fine del documento.
 int lastSectionIdx = doc.Sections.Count - 1;
 Section newSection = doc.Sections[lastSectionIdx].Clone();
 doc.Sections.Add(newSection);

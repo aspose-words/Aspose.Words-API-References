@@ -3,12 +3,14 @@ title: Class FileCorruptedException
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.FileCorruptedException klass. Kastas under dokumentladdning när dokumentet verkar vara skadat och omöjligt att ladda.
 type: docs
-weight: 2620
+weight: 2800
 url: /sv/net/aspose.words/filecorruptedexception/
 ---
 ## FileCorruptedException class
 
 Kastas under dokumentladdning, när dokumentet verkar vara skadat och omöjligt att ladda.
+
+För att lära dig mer, besök[Programmering med dokument](https://docs.aspose.com/words/net/programming-with-documents/) dokumentationsartikel.
 
 ```csharp
 public class FileCorruptedException : Exception

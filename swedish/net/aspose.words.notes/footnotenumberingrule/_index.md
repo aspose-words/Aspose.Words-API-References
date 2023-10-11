@@ -3,7 +3,7 @@ title: Enum FootnoteNumberingRule
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Notes.FootnoteNumberingRule uppräkning. Bestämmer när automatisk fotnots eller slutnotsnumrering startar om.
 type: docs
-weight: 4030
+weight: 4270
 url: /sv/net/aspose.words.notes/footnotenumberingrule/
 ---
 ## FootnoteNumberingRule enumeration
@@ -32,7 +32,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Fotnoter och slutnoter är ett sätt att bifoga en referens eller en sidokommentar till text
-// som inte stör flödet i huvudtexten. 
+ // som inte stör flödet i huvudtexten.
 // Att infoga en fotnot/slutnot lägger till en liten upphöjd referenssymbol
 // vid huvudtexten där vi infogar fotnoten/slutnoten.
 // Varje fotnot/slutnot skapar också en post, som består av en symbol som matchar referensen

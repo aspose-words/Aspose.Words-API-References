@@ -16,7 +16,7 @@ public Document Document { get; }
 
 ### Örnekler
 
-Bir belgeyi HTML'ye dönüştürürken oluşturulan harici kaynakları izlemek için bir geri aramanın nasıl kullanılacağını gösterir.
+Bir belgeyi HTML'ye dönüştürürken oluşturulan harici kaynakları izlemek için geri aramanın nasıl kullanılacağını gösterir.
 
 ```csharp
 public void ResourceSavingCallback()
@@ -38,7 +38,7 @@ public void ResourceSavingCallback()
 private class FontSavingCallback : IResourceSavingCallback
 {
     /// <summary>
-    /// Aspose.Words harici bir kaynağı sabit sayfa HTML veya SVG'ye kaydettiğinde çağrılır.
+    /// Aspose.Words harici bir kaynağı sabit sayfa HTML'sine veya SVG'ye kaydettiğinde çağrılır.
     /// </summary>
     public void ResourceSaving(ResourceSavingArgs args)
     {

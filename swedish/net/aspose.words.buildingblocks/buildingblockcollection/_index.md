@@ -1,14 +1,16 @@
 ---
 title: Class BuildingBlockCollection
 second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.BuildingBlocks.BuildingBlockCollection klass. En samling avBuildingBlock objekt i dokumentet.
+description: Aspose.Words.BuildingBlocks.BuildingBlockCollection klass. En samling avBuildingBlockobjekt i dokumentet.
 type: docs
-weight: 140
+weight: 150
 url: /sv/net/aspose.words.buildingblocks/buildingblockcollection/
 ---
 ## BuildingBlockCollection class
 
-En samling av[`BuildingBlock`](../buildingblock/) objekt i dokumentet.
+En samling av[`BuildingBlock`](../buildingblock/)objekt i dokumentet.
+
+För att lära dig mer, besök[Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) dokumentationsartikel.
 
 ```csharp
 public class BuildingBlockCollection : NodeCollection
@@ -76,7 +78,6 @@ public void GlossaryDocument()
     // som kommer att ge varje byggnadsblock i ordlistadokumentet en unik GUID
     GlossaryDocVisitor visitor = new GlossaryDocVisitor();
     glossaryDoc.Accept(visitor);
-
     Console.WriteLine(visitor.GetText());
 
     // I Microsoft Word kan vi komma åt byggstenarna via "Infoga" -> "Snabbdelar" -> "Byggstensarrangör".

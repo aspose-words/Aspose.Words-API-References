@@ -1,14 +1,14 @@
 ---
 title: Fill.PresetTexture
 second_title: Aspose.Words for .NET API 参考
-description: Fill 财产. 得到一个PresetTexture用于填充
+description: Fill 财产. 获得PresetTexture用于填充.
 type: docs
-weight: 110
+weight: 170
 url: /zh/net/aspose.words.drawing/fill/presettexture/
 ---
 ## Fill.PresetTexture property
 
-得到一个[`PresetTexture`](../../presettexture/)用于填充。
+获得[`PresetTexture`](../../presettexture/)用于填充.
 
 ```csharp
 public PresetTexture PresetTexture { get; }

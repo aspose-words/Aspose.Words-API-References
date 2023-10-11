@@ -1,14 +1,14 @@
 ---
 title: CustomPartCollection.Count
 second_title: Aspose.Words for .NET API Referansı
-description: CustomPartCollection mülk. Koleksiyonda bulunan öğelerin sayısını alır.
+description: CustomPartCollection mülk. Koleksiyonda yer alan öğelerin sayısını alır.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.markup/custompartcollection/count/
 ---
 ## CustomPartCollection.Count property
 
-Koleksiyonda bulunan öğelerin sayısını alır.
+Koleksiyonda yer alan öğelerin sayısını alır.
 
 ```csharp
 public int Count { get; }
@@ -16,19 +16,19 @@ public int Count { get; }
 
 ### Örnekler
 
-Bir belgenin isteğe bağlı özel parça koleksiyonuna nasıl erişileceğini gösterir.
+Bir belgenin rastgele özel parça koleksiyonuna nasıl erişileceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Custom parts OOXML package.docx");
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);
 
-// İkinci bölümü klonlayın, ardından klonu koleksiyona ekleyin.
+// İkinci kısmı klonlayın, ardından klonu koleksiyona ekleyin.
 CustomPart clonedPart = doc.PackageCustomParts[1].Clone();
 doc.PackageCustomParts.Add(clonedPart);
 Assert.AreEqual(3, doc.PackageCustomParts.Count);
 
-// Koleksiyon üzerinde numaralandırın ve her parçayı yazdırın.
+// Koleksiyonun üzerinde numaralandırın ve her parçayı yazdırın.
 using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator())
 {
     int index = 0;
@@ -45,7 +45,7 @@ using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator
     }
 }
 
-// Bu koleksiyondaki öğeleri tek tek veya bir kerede kaldırabiliriz.
+// Bu koleksiyondaki öğeleri tek tek veya hepsini birden kaldırabiliriz.
 doc.PackageCustomParts.RemoveAt(2);
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);

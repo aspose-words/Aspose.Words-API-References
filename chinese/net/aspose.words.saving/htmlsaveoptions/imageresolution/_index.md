@@ -3,7 +3,7 @@ title: HtmlSaveOptions.ImageResolution
 second_title: Aspose.Words for .NET API 参考
 description: HtmlSaveOptions 财产. 指定导出为 HTMLMHTML 或 EPUB 时图像的输出分辨率 默认为96 dpi.
 type: docs
-weight: 350
+weight: 340
 url: /zh/net/aspose.words.saving/htmlsaveoptions/imageresolution/
 ---
 ## HtmlSaveOptions.ImageResolution property
@@ -16,7 +16,7 @@ public int ImageResolution { get; set; }
 
 ### 评论
 
-此属性会在以下情况下影响光栅图像[`ScaleImageToShapeSize`](../scaleimagetoshapesize/) 是`真的`和效果图元文件导出为光栅图像。某些图像属性（例如cropping 或旋转）需要保存转换后的图像，在这种情况下，转换后的图像以 given 分辨率创建。
+该属性在以下情况下影响光栅图像：[`ScaleImageToShapeSize`](../scaleimagetoshapesize/) 是`真的`和效果图元文件导出为光栅图像。某些图像属性（例如cropping 或旋转）需要保存变换后的图像，在这种情况下，变换后的图像是以给定的 分辨率创建的。
 
 ### 例子
 

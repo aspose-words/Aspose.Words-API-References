@@ -1,14 +1,14 @@
 ---
 title: HtmlSaveOptions.SaveFormat
 second_title: Aspose.Words för .NET API Referens
-description: HtmlSaveOptions fast egendom. Anger formatet som dokumentet kommer att sparas i om detta sparaalternativobjekt används. Kan varaHtml Mhtml ellerEpub .
+description: HtmlSaveOptions fast egendom. Anger formatet som dokumentet kommer att sparas i om detta sparaalternativobjekt används. Kan varaHtml Mhtml Epub  Azw3 ellerMobi .
 type: docs
 weight: 440
 url: /sv/net/aspose.words.saving/htmlsaveoptions/saveformat/
 ---
 ## HtmlSaveOptions.SaveFormat property
 
-Anger formatet som dokumentet kommer att sparas i om detta sparaalternativ-objekt används. Kan varaHtml ,Mhtml ellerEpub .
+Anger formatet som dokumentet kommer att sparas i om detta sparaalternativ-objekt används. Kan varaHtml ,Mhtml ,Epub , Azw3 ellerMobi .
 
 ```csharp
 public override SaveFormat SaveFormat { get; set; }

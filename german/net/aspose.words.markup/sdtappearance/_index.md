@@ -3,7 +3,7 @@ title: Enum SdtAppearance
 second_title: Aspose.Words für .NET-API-Referenz
 description: Aspose.Words.Markup.SdtAppearance opsomming. Gibt das Erscheinungsbild eines strukturierten DokumentTags an.
 type: docs
-weight: 3750
+weight: 3990
 url: /de/net/aspose.words.markup/sdtappearance/
 ---
 ## SdtAppearance enumeration
@@ -19,9 +19,9 @@ public enum SdtAppearance
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
 | BoundingBox | `0` | Stellt ein strukturiertes Dokument-Tag dar, das als schattiertes Rechteck oder Begrenzungsrahmen angezeigt wird. |
-| Tags | `1` | Stellt ein strukturiertes Dokument-Tag dar, das als Start- und Endmarkierung angezeigt wird. |
+| Tags | `1` | Stellt ein strukturiertes Dokument-Tag dar, das als Start- und Endmarkierungen angezeigt wird. |
 | Hidden | `2` | Stellt ein strukturiertes Dokument-Tag dar, das nicht angezeigt wird. |
-| Default | `0` | Standardmäßig aufBoundingBox . |
+| Default | `0` | Standardmäßig istBoundingBox . |
 
 ### Siehe auch
 

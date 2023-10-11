@@ -1,14 +1,14 @@
 ---
 title: ShapeBase.HRef
 second_title: Referencia de API de Aspose.Words para .NET
-description: ShapeBase propiedad. Obtiene o establece la dirección de hipervínculo completa para una forma.
+description: ShapeBase propiedad. Obtiene o establece la dirección completa del hipervínculo para una forma.
 type: docs
-weight: 220
+weight: 230
 url: /es/net/aspose.words.drawing/shapebase/href/
 ---
 ## ShapeBase.HRef property
 
-Obtiene o establece la dirección de hipervínculo completa para una forma.
+Obtiene o establece la dirección completa del hipervínculo para una forma.
 
 ```csharp
 public string HRef { get; set; }
@@ -18,19 +18,19 @@ public string HRef { get; set; }
 
 El valor predeterminado es una cadena vacía.
 
-continuación se muestran ejemplos de valores válidos para esta propiedad:
+A continuación se muestran ejemplos de valores válidos para esta propiedad:
 
-URI completo:`https://www.aspose.com/`.
+URI completa:`https://www.aspose.com/`.
 
 Nombre completo del archivo:`C:\\Mis documentos\\SalesReport.doc`.
 
-URI relativo:`../../../recurso.txt`
+URI relativa:`../../../recurso.txt`
 
-Nombre de archivo relativo:`..\\Mis Documentos\\InformeVentas.doc`.
+Nombre de archivo relativo:`..\\Mis documentos\\SalesReport.doc`.
 
-Marcador dentro de otro documento:`https://www.aspose.com/Products/Default.aspx#Suites`
+Marcar dentro de otro documento:`https://www.aspose.com/Products/Default.aspx#Suites`
 
-Marcar dentro de este documento:`#BookmakNombre`.
+Marcar dentro de este documento:`#NombreDeBookmak`.
 
 ### Ejemplos
 
@@ -41,7 +41,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
-shape.HRef = "https://foro.aspose.com/";
+shape.HRef = "https://forum.aspose.com/";
 shape.Target = "New Window";
 shape.ScreenTip = "Aspose.Words Support Forums";
 

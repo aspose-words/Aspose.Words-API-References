@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTag.NodeType
 second_title: Referencia de API de Aspose.Words para .NET
-description: StructuredDocumentTag propiedad. Devoluciones NodeType.StructuredDocumentTag .
+description: StructuredDocumentTag propiedad. DevolucionesStructuredDocumentTag .
 type: docs
 weight: 220
 url: /es/net/aspose.words.markup/structureddocumenttag/nodetype/
 ---
 ## StructuredDocumentTag.NodeType property
 
-Devoluciones **NodeType.StructuredDocumentTag** .
+DevolucionesStructuredDocumentTag .
 
 ```csharp
 public override NodeType NodeType { get; }
@@ -28,7 +28,7 @@ Style quoteStyle = doc.Styles[StyleIdentifier.Quote];
 StructuredDocumentTag sdtPlainText =
     new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Inline) { Style = quoteStyle };
 
-// 2 - Hacer referencia a un estilo en el documento por su nombre:
+// 2 - Referencia a un estilo en el documento por nombre:
 StructuredDocumentTag sdtRichText =
     new StructuredDocumentTag(doc, SdtType.RichText, MarkupLevel.Inline) { StyleName = "Quote" };
 
@@ -42,6 +42,8 @@ NodeCollection tags = doc.GetChildNodes(NodeType.StructuredDocumentTag, true);
 foreach (Node node in tags)
 {
     StructuredDocumentTag sdt = (StructuredDocumentTag)node;
+
+    Console.WriteLine(sdt.WordOpenXMLMinimal);
 
     Assert.AreEqual(StyleIdentifier.Quote, sdt.Style.StyleIdentifier);
     Assert.AreEqual("Quote", sdt.StyleName);

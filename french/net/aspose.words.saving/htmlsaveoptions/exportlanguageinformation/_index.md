@@ -1,14 +1,14 @@
 ---
 title: HtmlSaveOptions.ExportLanguageInformation
 second_title: Référence de l'API Aspose.Words pour .NET
-description: HtmlSaveOptions propriété. Spécifie si les informations de langue sont exportées vers HTML MHTML ou EPUB. La valeur par défaut estfaux .
+description: HtmlSaveOptions propriété. Spécifie si les informations de langue sont exportées au format HTML MHTML ou EPUB. La valeur par défaut estFAUX .
 type: docs
-weight: 190
+weight: 180
 url: /fr/net/aspose.words.saving/htmlsaveoptions/exportlanguageinformation/
 ---
 ## HtmlSaveOptions.ExportLanguageInformation property
 
-Spécifie si les informations de langue sont exportées vers HTML, MHTML ou EPUB. La valeur par défaut est`faux` .
+Spécifie si les informations de langue sont exportées au format HTML, MHTML ou EPUB. La valeur par défaut est`FAUX` .
 
 ```csharp
 public bool ExportLanguageInformation { get; set; }
@@ -20,7 +20,7 @@ Lorsque cette propriété est définie sur`vrai` Sorties Aspose.Words **langue**
 
 ### Exemples
 
-Montre comment conserver les informations de langue lors de l'enregistrement au format .html.
+Montre comment conserver les informations de langue lors de l’enregistrement au format .html.
 
 ```csharp
 Document doc = new Document();
@@ -38,10 +38,10 @@ builder.Write("Привет, мир!");
 
 // Lors de l'enregistrement du document au format HTML, nous pouvons passer un objet SaveOptions
 // pour conserver ou supprimer les paramètres régionaux de chaque texte formaté.
-// Si nous définissons le drapeau "ExportLanguageInformation" sur "true",
+// Si on met le flag "ExportLanguageInformation" à "true",
 // le document HTML de sortie contiendra les paramètres régionaux dans les attributs "lang" de <span> Mots clés.
-// Si nous définissons le drapeau "ExportLanguageInformation" sur "false",
-// le texte du document HTML de sortie ne contiendra aucune information sur les paramètres régionaux.
+// Si nous définissons le flag "ExportLanguageInformation" sur "false",
+// le texte du document HTML de sortie ne contiendra aucune information locale.
 HtmlSaveOptions options = new HtmlSaveOptions
 {
     ExportLanguageInformation = exportLanguageInformation,

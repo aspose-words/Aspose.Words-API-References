@@ -1,14 +1,14 @@
 ---
 title: SignatureLineOptions.Signer
 second_title: Aspose.Words för .NET API Referens
-description: SignatureLineOptions fast egendom. Hämtar eller ställer in föreslagen undertecknare av signaturraden. Standardvärdet för den här egenskapen är tom sträng Empty .
+description: SignatureLineOptions fast egendom. Hämtar eller ställer in föreslagen undertecknare av signaturraden. Standardvärdet för den här egenskapen är tom sträng Empty.
 type: docs
 weight: 70
 url: /sv/net/aspose.words/signaturelineoptions/signer/
 ---
 ## SignatureLineOptions.Signer property
 
-Hämtar eller ställer in föreslagen undertecknare av signaturraden. Standardvärdet för den här egenskapen är **tom sträng** (Empty ).
+Hämtar eller ställer in föreslagen undertecknare av signaturraden. Standardvärdet för den här egenskapen är **tom sträng** (Empty).
 
 ```csharp
 public string Signer { get; set; }
@@ -19,7 +19,8 @@ public string Signer { get; set; }
 Visar hur man lägger till en signaturrad i ett dokument och sedan signerar den med ett digitalt certifikat.
 
 ```csharp
-public static void Sign()
+[Description("WORDSNET-16868")]
+        public static void Sign()
         {
             string signeeName = "Ron Williams";
             string srcDocumentPath = MyDir + "Document.docx";

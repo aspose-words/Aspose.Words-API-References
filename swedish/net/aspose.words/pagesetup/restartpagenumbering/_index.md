@@ -1,14 +1,14 @@
 ---
 title: PageSetup.RestartPageNumbering
 second_title: Aspose.Words för .NET API Referens
-description: PageSetup fast egendom. Sann om sidnumreringen startar om i början av avsnittet.
+description: PageSetup fast egendom. Sant om sidnumreringen startar om i början av avsnittet.
 type: docs
-weight: 350
+weight: 360
 url: /sv/net/aspose.words/pagesetup/restartpagenumbering/
 ---
 ## PageSetup.RestartPageNumbering property
 
-**Sann** om sidnumreringen startar om i början av avsnittet.
+Sant om sidnumreringen startar om i början av avsnittet.
 
 ```csharp
 public bool RestartPageNumbering { get; set; }
@@ -16,7 +16,7 @@ public bool RestartPageNumbering { get; set; }
 
 ### Anmärkningar
 
-Om inställd på **falsk** , den **Starta om Sidnumrering**egenskapen kommer att åsidosätta the [`PageStartingNumber`](../pagestartingnumber/) egenskap så att sidnumreringen kan fortsätta från föregående avsnitt.
+Om inställd på`falsk` , den`RestartPageNumbering` egenskapen kommer att åsidosätta the [`PageStartingNumber`](../pagestartingnumber/) egenskap så att sidnumreringen kan fortsätta från föregående avsnitt.
 
 ### Exempel
 

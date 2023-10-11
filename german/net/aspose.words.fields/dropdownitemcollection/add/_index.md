@@ -1,14 +1,14 @@
 ---
 title: DropDownItemCollection.Add
 second_title: Aspose.Words für .NET-API-Referenz
-description: DropDownItemCollection methode. Fügt eine Zeichenfolge am Ende der Sammlung hinzu.
+description: DropDownItemCollection methode. Fügt am Ende der Sammlung eine Zeichenfolge hinzu.
 type: docs
 weight: 30
 url: /de/net/aspose.words.fields/dropdownitemcollection/add/
 ---
 ## DropDownItemCollection.Add method
 
-Fügt eine Zeichenfolge am Ende der Sammlung hinzu.
+Fügt am Ende der Sammlung eine Zeichenfolge hinzu.
 
 ```csharp
 public int Add(string value)
@@ -16,7 +16,7 @@ public int Add(string value)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| value | String | Die Zeichenfolge, die am Ende der Auflistung hinzugefügt werden soll. |
+| value | String | Die Zeichenfolge, die am Ende der Sammlung hinzugefügt werden soll. |
 
 ### Rückgabewert
 
@@ -24,13 +24,13 @@ Der nullbasierte Index, an dem das neue Element eingefügt wird.
 
 ### Beispiele
 
-Zeigt, wie ein Kombinationsfeldfeld eingefügt und die Elemente in seiner Elementauflistung bearbeitet werden.
+Zeigt, wie man ein Kombinationsfeldfeld einfügt und die Elemente in seiner Elementsammlung bearbeitet.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Fügen Sie ein Kombinationsfeld ein und überprüfen Sie dann seine Sammlung von Dropdown-Elementen.
+// Ein Kombinationsfeld einfügen und dann seine Sammlung von Dropdown-Elementen überprüfen.
 // In Microsoft Word klickt der Benutzer auf das Kombinationsfeld,
 // und wählen Sie dann eines der anzuzeigenden Textelemente in der Sammlung aus.
 string[] items = { "One", "Two", "Three" };
@@ -42,25 +42,25 @@ Assert.AreEqual("One", dropDownItems[0]);
 Assert.AreEqual(1, dropDownItems.IndexOf("Two"));
 Assert.IsTrue(dropDownItems.Contains("Three"));
 
-// Es gibt zwei Möglichkeiten, ein neues Element zu einer bestehenden Sammlung von Dropdown-Box-Elementen hinzuzufügen.
-// 1 - Ein Element an das Ende der Sammlung anhängen:
+// Es gibt zwei Möglichkeiten, ein neues Element zu einer vorhandenen Sammlung von Dropdown-Box-Elementen hinzuzufügen.
+// 1 – Ein Element an das Ende der Sammlung anhängen:
 dropDownItems.Add("Four");
 
-// 2 - Ein Element vor einem anderen Element an einem angegebenen Index einfügen:
+// 2 – Ein Element vor einem anderen Element an einem angegebenen Index einfügen:
 dropDownItems.Insert(3, "Three and a half");
 
 Assert.AreEqual(5, dropDownItems.Count);
 
-// Iteriere über die Sammlung und drucke jedes Element.
+// Durch die Sammlung iterieren und jedes Element ausgeben.
 using (IEnumerator<string> dropDownCollectionEnumerator = dropDownItems.GetEnumerator())
     while (dropDownCollectionEnumerator.MoveNext())
         Console.WriteLine(dropDownCollectionEnumerator.Current);
 
 // Es gibt zwei Möglichkeiten, Elemente aus einer Sammlung von Dropdown-Elementen zu entfernen.
-// 1 - Entferne ein Element, dessen Inhalt dem übergebenen String entspricht:
+// 1 – Ein Element entfernen, dessen Inhalt der übergebenen Zeichenfolge entspricht:
 dropDownItems.Remove("Four");
 
-// 2 - Entfernen Sie ein Element an einem Index:
+// 2 – Ein Element an einem Index entfernen:
 dropDownItems.RemoveAt(3);
 
 Assert.AreEqual(3, dropDownItems.Count);
@@ -69,7 +69,7 @@ Assert.IsFalse(dropDownItems.Contains("Four"));
 
 doc.Save(ArtifactsDir + "FormFields.DropDownItemCollection.html");
 
-// Die gesamte Sammlung von Dropdown-Elementen leeren.
+// Leeren Sie die gesamte Sammlung von Dropdown-Elementen.
 dropDownItems.Clear();
 ```
 

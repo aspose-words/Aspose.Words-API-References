@@ -3,7 +3,7 @@ title: PageInfo.PaperTray
 second_title: Aspose.Words för .NET API Referens
 description: PageInfo fast egendom. Hämtar pappersfacket fack för den här sidan som specificerats i dokumentet. Värdet är implementeringsskrivarspecifikt.
 type: docs
-weight: 40
+weight: 50
 url: /sv/net/aspose.words.rendering/pageinfo/papertray/
 ---
 ## PageInfo.PaperTray property

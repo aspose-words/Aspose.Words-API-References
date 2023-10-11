@@ -16,7 +16,7 @@ public string[] GetFieldNames()
 
 ### أمثلة
 
-يوضح كيفية الحصول على أسماء حقول دمج المراسلات التي يستخدمها أحد الحقول.
+يوضح كيفية الحصول على أسماء حقول دمج البريد التي يستخدمها الحقل.
 
 ```csharp
 Document doc = new Document(MyDir + "Field sample - ADDRESSBLOCK.docx");

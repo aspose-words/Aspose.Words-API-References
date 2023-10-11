@@ -3,7 +3,7 @@ title: Aspose.Words.Replacing
 second_title: Aspose.Words för .NET API Referens
 description: De Aspose.Words.Replacer namespace tillhandahåller klasser för att manipulate med sök/ersättoperationer över dokumentträdet.
 type: docs
-weight: 200
+weight: 210
 url: /sv/net/aspose.words.replacing/
 ---
 De **Aspose.Words.Replacer** namespace tillhandahåller klasser för att manipulate med sök-/ersätt-operationer över dokumentträdet.

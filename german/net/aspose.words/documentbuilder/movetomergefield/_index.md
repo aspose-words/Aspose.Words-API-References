@@ -1,14 +1,14 @@
 ---
 title: DocumentBuilder.MoveToMergeField
 second_title: Aspose.Words für .NET-API-Referenz
-description: DocumentBuilder methode. Bewegt den Cursor an eine Position direkt hinter dem angegebenen Briefvorlagenfeld und entfernt das Briefvorlagenfeld.
+description: DocumentBuilder methode. Bewegt den Cursor an eine Position direkt hinter dem angegebenen Zusammenführungsfeld und entfernt das Zusammenführungsfeld.
 type: docs
-weight: 530
+weight: 560
 url: /de/net/aspose.words/documentbuilder/movetomergefield/
 ---
 ## MoveToMergeField(string) {#movetomergefield}
 
-Bewegt den Cursor an eine Position direkt hinter dem angegebenen Briefvorlagenfeld und entfernt das Briefvorlagenfeld.
+Bewegt den Cursor an eine Position direkt hinter dem angegebenen Zusammenführungsfeld und entfernt das Zusammenführungsfeld.
 
 ```csharp
 public bool MoveToMergeField(string fieldName)
@@ -16,25 +16,25 @@ public bool MoveToMergeField(string fieldName)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| fieldName | String | Der Name des Seriendruckfelds ohne Berücksichtigung der Groß-/Kleinschreibung. |
+| fieldName | String | Der Name des Serienbrieffelds ohne Berücksichtigung der Groß-/Kleinschreibung. |
 
 ### Rückgabewert
 
-True, wenn das Briefvorlagenfeld gefunden und der Cursor bewegt wurde; falsch sonst.
+`WAHR` wenn das Zusammenführungsfeld gefunden und der Cursor bewegt wurde;`FALSCH` ansonsten.
 
 ### Bemerkungen
 
-Beachten Sie, dass diese Methode das Briefvorlagenfeld aus dem Dokument löscht, nachdem Sie den Cursor bewegt haben.
+Beachten Sie, dass diese Methode das Serienbrieffeld aus dem Dokument löscht, nachdem der Cursor bewegt wurde.
 
 ### Beispiele
 
-Zeigt, wie MERGEFIELDs mit Daten mit einem Document Builder anstelle eines Seriendrucks gefüllt werden.
+Zeigt, wie MERGEFIELDs mit einem Dokumentenersteller anstelle eines Seriendrucks mit Daten gefüllt werden.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Einfügen einiger MERGEFIELDS, die Daten aus gleichnamigen Spalten in eine Datenquelle beim Seriendruck übernehmen,
+// Fügen Sie einige MERGEFIELDS ein, die während eines Seriendrucks Daten aus gleichnamigen Spalten in einer Datenquelle akzeptieren.
 // und füllen Sie sie dann manuell aus.
 builder.InsertField(" MERGEFIELD Chairman ");
 builder.InsertField(" MERGEFIELD ChiefFinancialOfficer ");
@@ -55,15 +55,16 @@ builder.Writeln("John Bloggs");
 doc.Save(ArtifactsDir + "DocumentBuilder.FillMergeFields.docx");
 ```
 
-Zeigt, wie Kontrollkästchen-Formularfelder während des Seriendrucks als Zusammenführungsdaten in MERGEFIELDs eingefügt werden.
+Zeigt, wie Kontrollkästchen-Formularfelder als Seriendaten während des Seriendrucks in MERGEFIELDs eingefügt werden.
 
 ```csharp
+public void InsertCheckBox()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Verwenden Sie MERGEFIELDs mit den Tags "TableStart"/"TableEnd", um einen Seriendruckbereich zu definieren
-    // die zu einer Datenquelle namens "StudentCourse" gehört und ein MERGEFIELD hat, das Daten aus einer Spalte namens "CourseName" akzeptiert.
+    // Verwenden Sie MERGEFIELDs mit den Tags „TableStart“/„TableEnd“, um einen Seriendruckbereich zu definieren
+    // das zu einer Datenquelle namens „StudentCourse“ gehört und über ein MERGEFIELD verfügt, das Daten aus einer Spalte namens „CourseName“ akzeptiert.
     builder.StartTable();
     builder.InsertCell();
     builder.InsertField(" MERGEFIELD  TableStart:StudentCourse ");
@@ -79,14 +80,15 @@ Zeigt, wie Kontrollkästchen-Formularfelder während des Seriendrucks als Zusamm
 
     doc.MailMerge.ExecuteWithRegions(dataTable);
     doc.Save(ArtifactsDir + "MailMergeEvent.InsertCheckBox.docx");
+}
 
 /// <summary>
-/// Wenn ein MERGEFIELD mit einem bestimmten Namen gefunden wird, wird ein Kontrollkästchen-Formularfeld anstelle des Datentexts für die Zusammenführung eingefügt.
+/// Wenn ein MERGEFIELD mit einem bestimmten Namen gefunden wird, wird anstelle des Zusammenführungsdatentextes ein Kontrollkästchen-Formularfeld eingefügt.
 /// </summary>
 private class HandleMergeFieldInsertCheckBox : IFieldMergingCallback
 {
     /// <summary>
-    /// Wird aufgerufen, wenn bei einem Seriendruck Daten in einem MERGEFIELD zusammengeführt werden.
+    /// Wird aufgerufen, wenn ein Serienbrief Daten in einem MERGEFIELD zusammenführt.
     /// </summary>
     void IFieldMergingCallback.FieldMerging(FieldMergingArgs args)
     {
@@ -100,7 +102,7 @@ private class HandleMergeFieldInsertCheckBox : IFieldMergingCallback
 
             string fieldValue = args.FieldValue.ToString();
 
-            // In diesem Fall ist für jeden Datensatzindex 'n' der entsprechende Feldwert "Kurs n".
+            // In diesem Fall ist für jeden Datensatzindex „n“ der entsprechende Feldwert „Kurs n“.
             Assert.AreEqual(char.GetNumericValue(fieldValue[7]), args.RecordIndex);
 
             builder.Write(fieldValue);
@@ -117,7 +119,7 @@ private class HandleMergeFieldInsertCheckBox : IFieldMergingCallback
 }
 
 /// <summary>
-/// Erstellt eine Seriendruck-Datenquelle.
+/// Erstellt eine Serienbrief-Datenquelle.
 /// </summary>
 private static DataTable GetStudentCourseDataTable()
 {
@@ -144,7 +146,7 @@ private static DataTable GetStudentCourseDataTable()
 
 ## MoveToMergeField(string, bool, bool) {#movetomergefield_1}
 
-Verschiebt das Briefvorlagenfeld in das angegebene Briefvorlagenfeld.
+Verschiebt das Zusammenführungsfeld in das angegebene Zusammenführungsfeld.
 
 ```csharp
 public bool MoveToMergeField(string fieldName, bool isAfter, bool isDeleteField)
@@ -152,13 +154,13 @@ public bool MoveToMergeField(string fieldName, bool isAfter, bool isDeleteField)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| fieldName | String | Der Name des Seriendruckfelds ohne Berücksichtigung der Groß-/Kleinschreibung. |
-| isAfter | Boolean | Wenn wahr, wird der Cursor hinter das Feldende verschoben. Wenn falsch, wird der Cursor vor den Feldanfang verschoben. |
-| isDeleteField | Boolean | Wenn wahr, wird das Briefvorlagenfeld gelöscht. |
+| fieldName | String | Der Name des Serienbrieffelds ohne Berücksichtigung der Groß-/Kleinschreibung. |
+| isAfter | Boolean | Wann`WAHR` , bewegt den Cursor hinter das Feldende. Wann`FALSCH` , bewegt den Cursor vor den Feldanfang. |
+| isDeleteField | Boolean | Wann`WAHR`, löscht das Zusammenführungsfeld. |
 
 ### Rückgabewert
 
-True, wenn das Briefvorlagenfeld gefunden und der Cursor bewegt wurde; falsch sonst.
+`WAHR` wenn das Zusammenführungsfeld gefunden und der Cursor bewegt wurde;`FALSCH` ansonsten.
 
 ### Beispiele
 
@@ -177,10 +179,10 @@ builder.MoveToMergeField("MyMergeField1", true, false);
 Assert.AreEqual(doc.Range.Fields[1].Start, builder.CurrentNode);
 Assert.AreEqual(doc.Range.Fields[0].End, builder.CurrentNode.PreviousSibling);
 
-// Wenn wir den Feldcode oder den Inhalt des Felds mit dem Builder bearbeiten möchten,
-// sein Cursor müsste sich in einem Feld befinden.
-// Um es in einem Feld zu platzieren, müssten wir die MoveTo-Methode des Dokumentenerstellers aufrufen
-// und übergeben Sie den Start- oder Trennknoten des Felds als Argument.
+// Wenn wir den Feldcode oder den Inhalt des Feldes mit dem Builder bearbeiten möchten,
+// sein Cursor müsste sich innerhalb eines Feldes befinden.
+// Um es in einem Feld zu platzieren, müssten wir die MoveTo-Methode des Document Builders aufrufen
+// und den Start- oder Trennknoten des Feldes als Argument übergeben.
 builder.Write(" Text between our merge fields. ");
 
 doc.Save(ArtifactsDir + "DocumentBuilder.MergeFields.docx");

@@ -16,14 +16,14 @@ public OoxmlCompliance Compliance { get; }
 
 ### Remarques
 
-Si vous avez créé un nouveau document vierge ou chargé un document non OOXML renvoie leEcma376_2006 évaluer.
+Si vous avez créé un nouveau document vierge ou chargé un document non OOXML, document renvoie leEcma376_2006 valeur.
 
 ### Exemples
 
-Montre comment lire la version de conformité Open Office XML d'un document chargé.
+Montre comment lire la version de conformité Open Office XML d’un document chargé.
 
 ```csharp
-// La version de conformité varie entre les documents créés par différentes versions de Microsoft Word.
+// La version de conformité varie selon les documents créés par différentes versions de Microsoft Word.
 Document doc = new Document(MyDir + "Document.doc");
 
 Assert.AreEqual(doc.Compliance, OoxmlCompliance.Ecma376_2006);

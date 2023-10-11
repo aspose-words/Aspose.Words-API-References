@@ -1,14 +1,14 @@
 ---
 title: IFieldResultFormatter.FormatDateTime
 second_title: Aspose.Words for .NET API Referansı
-description: IFieldResultFormatter yöntem. Aspose.Words bir tarih/saat formatı anahtarı uyguladığında çağrılır yani  dd.MM.yyyy.
+description: IFieldResultFormatter yöntem. Aspose.Words tarih/saat formatı geçişini uyguladığında çağrılır yani  dd.MM.yyyy.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fields/ifieldresultformatter/formatdatetime/
 ---
 ## IFieldResultFormatter.FormatDateTime method
 
-Aspose.Words bir tarih/saat formatı anahtarı uyguladığında çağrılır, yani \@ "dd.MM.yyyy".
+Aspose.Words tarih/saat formatı geçişini uyguladığında çağrılır, yani \@ "dd.MM.yyyy".
 
 ```csharp
 public string FormatDateTime(DateTime value, string format, CalendarType calendarType)
@@ -16,22 +16,23 @@ public string FormatDateTime(DateTime value, string format, CalendarType calenda
 
 ### Notlar
 
-Uygulama geri dönmelidir **hükümsüz** varsayılan biçimlendirmenin uygulanması gerektiğini belirtmek için.
+Uygulama geri dönmeli`hükümsüz` varsayılan biçimlendirmenin uygulanması gerektiğini belirtmek için.
 
 ### Örnekler
 
-Alanlar güncellenirken alan sonuçlarına otomatik olarak özel bir biçimin nasıl uygulanacağını gösterir.
+Alanlar güncellenirken özel bir biçimin alan sonuçlarına otomatik olarak nasıl uygulanacağını gösterir.
 
 ```csharp
+public void FieldResultFormatting()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
     FieldResultFormatter formatter = new FieldResultFormatter("${0}", "Date: {0}", "Item # {0}:");
     doc.FieldOptions.ResultFormatter = formatter;
 
-    // Alan sonucu biçimlendiricimiz, yeni oluşturulan alanlara üç tür biçimde özel bir biçim uygular.
+    // Alan sonucu biçimlendiricimiz, yeni oluşturulan alanlara üç tür formatta özel bir format uygular.
     // Alan sonucu biçimlendiricileri, güncellendikçe alanlara yeni biçimlendirme uygular,
-    // bu InsertField yöntemi aşırı yüklemesini kullanarak onları oluşturur oluşturmaz gerçekleşir.
+    // bu, bunları InsertField yöntemi aşırı yüklemesini kullanarak oluşturduğumuz anda gerçekleşir.
     // 1 - Sayısal:
     builder.InsertField(" = 2 + 3 \\# $###");
 
@@ -54,8 +55,8 @@ Alanlar güncellenirken alan sonuçlarına otomatik olarak özel bir biçimin na
 }
 
 /// <summary>
-/// Biçimlendirmeye sahip alanlar güncellendiğinde, bu biçimlendirici onların biçimlendirmesini geçersiz kılar
-/// her çağrıyı izlerken özel bir formatla.
+/// Biçimlendirmeli alanlar güncellendiğinde bu biçimlendirici onların biçimlendirmesini geçersiz kılacaktır
+/// her çağrıyı takip ederken özel bir formatla.
 /// </summary>
 private class FieldResultFormatter : IFieldResultFormatter
 {

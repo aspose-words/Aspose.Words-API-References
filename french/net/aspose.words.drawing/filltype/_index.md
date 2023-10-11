@@ -3,7 +3,7 @@ title: Enum FillType
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Aspose.Words.Drawing.FillType énumération. Spécifie le type de remplissage pour un objet remplissable.
 type: docs
-weight: 830
+weight: 960
 url: /fr/net/aspose.words.drawing/filltype/
 ---
 ## FillType enumeration
@@ -18,11 +18,11 @@ public enum FillType
 
 | Nom | Évaluer | La description |
 | --- | --- | --- |
-| Solid | `1` | Remplissage uni. |
+| Solid | `1` | Remplissage solide. |
 | Patterned | `2` | Remplissage à motifs. |
 | Gradient | `3` | Remplissage dégradé. |
 | Textured | `4` | Remplissage texturé. |
-| Background | `5` | Le remplissage est identique à l'arrière-plan. |
+| Background | `5` | Le remplissage est le même que l'arrière-plan. |
 | Picture | `6` | Remplissage d'image. |
 
 ### Voir également

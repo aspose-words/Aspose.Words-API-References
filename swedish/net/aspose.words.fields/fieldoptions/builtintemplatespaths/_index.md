@@ -3,7 +3,7 @@ title: FieldOptions.BuiltInTemplatesPaths
 second_title: Aspose.Words för .NET API Referens
 description: FieldOptions fast egendom. Hämtar eller ställer in sökvägar för MS Words inbyggda mallar.
 type: docs
-weight: 20
+weight: 30
 url: /sv/net/aspose.words.fields/fieldoptions/builtintemplatespaths/
 ---
 ## FieldOptions.BuiltInTemplatesPaths property

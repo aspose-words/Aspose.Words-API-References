@@ -16,14 +16,14 @@ public bool ResizeHorizontally { get; set; }
 
 ### Exemples
 
-Montre comment insérer des images à l'aide des champs IMPORT et INCLUDEPICTURE.
+Montre comment insérer des images à l’aide des champs IMPORT et INCLUDEPICTURE.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Vous trouverez ci-dessous deux types de champs similaires que nous pouvons utiliser pour afficher des images liées à partir du système de fichiers local.
-// 1 - Le champ INCLUDEPICTURE :
+// Vous trouverez ci-dessous deux types de champs similaires que nous pouvons utiliser pour afficher des images liées depuis le système de fichiers local.
+// 1 - Le champ INCLUDEPICTURE :
 FieldIncludePicture fieldIncludePicture = (FieldIncludePicture)builder.InsertField(FieldType.FieldIncludePicture, true);
 fieldIncludePicture.SourceFullName = ImageDir + "Transparent background logo.png";
 

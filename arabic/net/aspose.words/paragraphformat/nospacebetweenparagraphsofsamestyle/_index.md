@@ -1,14 +1,14 @@
 ---
 title: ParagraphFormat.NoSpaceBetweenParagraphsOfSameStyle
 second_title: Aspose.Words لمراجع .NET API
-description: ParagraphFormat ملكية. عندما يكون صحيحًا SpaceBefore وSpaceAfter سيتم تجاهله_ بين فقرات نفس النمط.
+description: ParagraphFormat ملكية. متىحقيقي SpaceBefore وSpaceAfter سيتم تجاهل بين الفقرات ذات نفس النمط.
 type: docs
-weight: 230
+weight: 240
 url: /ar/net/aspose.words/paragraphformat/nospacebetweenparagraphsofsamestyle/
 ---
 ## ParagraphFormat.NoSpaceBetweenParagraphsOfSameStyle property
 
-عندما يكون صحيحًا ،[`SpaceBefore`](../spacebefore/) و[`SpaceAfter`](../spaceafter/) سيتم تجاهله_ بين فقرات نفس النمط.
+متى`حقيقي` ,[`SpaceBefore`](../spacebefore/) و[`SpaceAfter`](../spaceafter/) سيتم تجاهل بين الفقرات ذات نفس النمط.
 
 ```csharp
 public bool NoSpaceBetweenParagraphsOfSameStyle { get; set; }
@@ -16,7 +16,7 @@ public bool NoSpaceBetweenParagraphsOfSameStyle { get; set; }
 
 ### ملاحظات
 
-لا يسري هذا الإعداد إلا عند تطبيقه على نمط فقرة. إذا تم تطبيقه على فقرة مباشرة ، فلن يكون لها أي تأثير.
+لا يسري هذا الإعداد إلا عند تطبيقه على نمط الفقرة. إذا تم تطبيقه على فقرة مباشرة، فلن يكون له أي تأثير.
 
 ### أمثلة
 
@@ -26,14 +26,14 @@ public bool NoSpaceBetweenParagraphsOfSameStyle { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// قم بتطبيق قدر كبير من المسافات قبل وبعد الفقرات التي سينشئها هذا المنشئ.
+// قم بتطبيق قدر كبير من التباعد قبل وبعد الفقرات التي سينشئها هذا المنشئ.
 builder.ParagraphFormat.SpaceBefore = 24;
 builder.ParagraphFormat.SpaceAfter = 24;
 
-// اضبط علامة "NoSpaceBetweenParagraphsOfSameStyle" على "true" لتطبيقها
-// لا توجد مسافات بين الفقرات بنفس النمط ، والتي ستجمع الفقرات المتشابهة.
+// قم بتعيين علامة "NoSpaceBetweenParagraphsOfSameStyle" على "صحيح" للتطبيق
+// لا توجد مسافات بين الفقرات ذات النمط نفسه، مما يؤدي إلى تجميع الفقرات المتشابهة.
 // اترك علامة "NoSpaceBetweenParagraphsOfSameStyle" على أنها "خطأ"
-// لتطبيق التباعد بالتساوي على كل فقرة.
+// لتطبيق المسافات بالتساوي على كل فقرة.
 builder.ParagraphFormat.NoSpaceBetweenParagraphsOfSameStyle = noSpaceBetweenParagraphsOfSameStyle;
 
 builder.ParagraphFormat.Style = doc.Styles["Normal"];

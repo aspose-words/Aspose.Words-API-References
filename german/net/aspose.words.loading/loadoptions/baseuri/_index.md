@@ -1,14 +1,14 @@
 ---
 title: LoadOptions.BaseUri
 second_title: Aspose.Words für .NET-API-Referenz
-description: LoadOptions eigendom. Ruft die Zeichenfolge ab oder legt sie fest die verwendet wird um im Dokument gefundene relative URIs bei Bedarf in absolute URIs aufzulösen. Kann null oder eine leere Zeichenfolge sein. Standard ist null.
+description: LoadOptions eigendom. Ruft die Zeichenfolge ab oder legt diese fest die bei Bedarf zum Auflösen relativer URIs im Dokument in absolute URIs verwendet wird. Kann seinNull oder leere Zeichenfolge. Standard istNull .
 type: docs
 weight: 20
 url: /de/net/aspose.words.loading/loadoptions/baseuri/
 ---
 ## LoadOptions.BaseUri property
 
-Ruft die Zeichenfolge ab oder legt sie fest, die verwendet wird, um im Dokument gefundene relative URIs bei Bedarf in absolute URIs aufzulösen. Kann null oder eine leere Zeichenfolge sein. Standard ist null.
+Ruft die Zeichenfolge ab oder legt diese fest, die bei Bedarf zum Auflösen relativer URIs im Dokument in absolute URIs verwendet wird. Kann sein`Null` oder leere Zeichenfolge. Standard ist`Null` .
 
 ```csharp
 public string BaseUri { get; set; }
@@ -16,14 +16,14 @@ public string BaseUri { get; set; }
 
 ### Bemerkungen
 
-Diese Eigenschaft wird verwendet, um relative URIs in den folgenden Fällen in absolute aufzulösen:
+Diese Eigenschaft wird verwendet, um in den folgenden Fällen relative URIs in absolute aufzulösen:
 
-1. Wenn ein HTML-Dokument aus einem Stream geladen wird und das Dokument Bilder mit relativen URIs enthält und kein Basis-URI im BASE-HTML-Element angegeben ist.
-2. Beim Speichern eines Dokuments in PDF und anderen Formaten zum Abrufen von Bildern, die mit relativen URIs verknüpft sind, damit die Bilder im Ausgabedokument gespeichert werden können.
+1. Wenn ein HTML-Dokument aus einem Stream geladen wird und das Dokument Bilder mit relativen URIs enthält und im BASE-HTML-Element kein Basis-URI angegeben ist.
+2. Beim Speichern eines Dokuments im PDF- und anderen Format, um mit relativen URIs verknüpfte Bilder abzurufen, damit die Bilder im Ausgabedokument gespeichert werden können.
 
 ### Beispiele
 
-Zeigt, wie ein HTML-Dokument mit Bildern aus einem Stream mit einem Basis-URI geöffnet wird.
+Zeigt, wie man mithilfe eines Basis-URI ein HTML-Dokument mit Bildern aus einem Stream öffnet.
 
 ```csharp
 using (Stream stream = File.OpenRead(MyDir + "Document.html"))
@@ -35,7 +35,7 @@ using (Stream stream = File.OpenRead(MyDir + "Document.html"))
 
     Document doc = new Document(stream, loadOptions);
 
-    // Prüfen, ob die erste Form des Dokuments ein gültiges Bild enthält.
+    // Überprüfen Sie, ob die erste Form des Dokuments ein gültiges Bild enthält.
     Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
 
     Assert.IsTrue(shape.IsImage);

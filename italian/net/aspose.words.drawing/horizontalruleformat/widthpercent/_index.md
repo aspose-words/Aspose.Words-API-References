@@ -1,14 +1,14 @@
 ---
 title: HorizontalRuleFormat.WidthPercent
 second_title: Aspose.Words per .NET API Reference
-description: HorizontalRuleFormat proprietà. Ottiene o imposta la lunghezza della regola orizzontale specificata espressa come percentuale della larghezza della finestra.
+description: HorizontalRuleFormat proprietà. Ottiene o imposta la lunghezza della linea orizzontale specificata espressa come percentuale della larghezza della finestra.
 type: docs
 weight: 50
 url: /it/net/aspose.words.drawing/horizontalruleformat/widthpercent/
 ---
 ## HorizontalRuleFormat.WidthPercent property
 
-Ottiene o imposta la lunghezza della regola orizzontale specificata espressa come percentuale della larghezza della finestra.
+Ottiene o imposta la lunghezza della linea orizzontale specificata espressa come percentuale della larghezza della finestra.
 
 ```csharp
 public double WidthPercent { get; set; }
@@ -18,7 +18,7 @@ public double WidthPercent { get; set; }
 
 | eccezione | condizione |
 | --- | --- |
-| ArgumentOutOfRangeException | Viene generato quando l'argomento non rientrava nell'intervallo di valori validi. |
+| ArgumentOutOfRangeException | Viene generato quando l'argomento non rientra nell'intervallo di valori validi. |
 
 ### Osservazioni
 

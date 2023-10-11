@@ -1,14 +1,14 @@
 ---
 title: Shape.FirstParagraph
 second_title: Aspose.Words for .NET API Referansı
-description: Shape mülk. Şekildeki ilk paragrafı alır.
+description: Shape mülk. Şeklin ilk paragrafını alır.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.drawing/shape/firstparagraph/
 ---
 ## Shape.FirstParagraph property
 
-Şekildeki ilk paragrafı alır.
+Şeklin ilk paragrafını alır.
 
 ```csharp
 public Paragraph FirstParagraph { get; }

@@ -1,14 +1,14 @@
 ---
 title: ImportFormatOptions.IgnoreHeaderFooter
 second_title: Referencia de API de Aspose.Words para .NET
-description: ImportFormatOptions propiedad. Obtiene o establece un valor booleano que especifica que se ignora el formato de origen del contenido de encabezados/pies de página siKeepSourceFormatting se utiliza el modo. El valor predeterminado esverdadero .
+description: ImportFormatOptions propiedad. Obtiene o establece un valor booleano que especifica que el formato de origen del contenido de encabezados/pies de página se ignora siKeepSourceFormatting Se utiliza el modo. El valor predeterminado esverdadero .
 type: docs
-weight: 30
+weight: 40
 url: /es/net/aspose.words/importformatoptions/ignoreheaderfooter/
 ---
 ## ImportFormatOptions.IgnoreHeaderFooter property
 
-Obtiene o establece un valor booleano que especifica que se ignora el formato de origen del contenido de encabezados/pies de página siKeepSourceFormatting se utiliza el modo. El valor predeterminado es`verdadero` .
+Obtiene o establece un valor booleano que especifica que el formato de origen del contenido de encabezados/pies de página se ignora siKeepSourceFormatting Se utiliza el modo. El valor predeterminado es`verdadero` .
 
 ```csharp
 public bool IgnoreHeaderFooter { get; set; }
@@ -16,7 +16,7 @@ public bool IgnoreHeaderFooter { get; set; }
 
 ### Ejemplos
 
-Muestra cómo especificar ignorar o no el formato de origen del contenido de los encabezados y pies de página.
+Muestra cómo especificar ignorar o no el formato de origen del contenido de encabezados/pies de página.
 
 ```csharp
 Document dstDoc = new Document(MyDir + "Document.docx");

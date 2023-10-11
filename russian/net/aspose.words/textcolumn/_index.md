@@ -1,14 +1,16 @@
 ---
 title: Class TextColumn
 second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.TextColumn сорт. Представляет один текстовый столбец. Текстовая колонка является членомTextColumnCollection коллекция.  Текстовые столбцы коллекция включает все столбцы в разделе документа.
+description: Aspose.Words.TextColumn сорт. Представляет один текстовый столбец.TextColumn является членомTextColumnCollection коллекция. TextColumn коллекция включает в себя все столбцы раздела документа.
 type: docs
-weight: 6090
+weight: 6390
 url: /ru/net/aspose.words/textcolumn/
 ---
 ## TextColumn class
 
-Представляет один текстовый столбец. **Текстовая колонка** является членом[`TextColumnCollection`](../textcolumncollection/) коллекция.  **Текстовые столбцы** коллекция включает все столбцы в разделе документа.
+Представляет один текстовый столбец.`TextColumn` является членом[`TextColumnCollection`](../textcolumncollection/) коллекция. `TextColumn` коллекция включает в себя все столбцы раздела документа.
+
+Чтобы узнать больше, посетите[Работа с разделами](https://docs.aspose.com/words/net/working-with-sections/) статья документации.
 
 ```csharp
 public class TextColumn
@@ -23,13 +25,13 @@ public class TextColumn
 
 ### Примечания
 
-**Текстовая колонка** объекты используются только для указания столбцов с пользовательской шириной и интервалом. Если вы хотите, чтобы столбцы в документе имели одинаковую ширину, установите TextColumns.[`EvenlySpaced`](../textcolumncollection/evenlyspaced/) к **истинный**.
+`TextColumn` объекты используются только для указания столбцов с произвольной шириной и интервалом. Если вы хотите столбцы в документе иметь одинаковую ширину, установите TextColumns.[`EvenlySpaced`](../textcolumncollection/evenlyspaced/) к`истинный`.
 
-Когда новый **Текстовая колонка** создается, его ширина и интервал равны нулю.
+Когда новый`TextColumn` создается, его ширина и интервал установлены на ноль.
 
 ### Примеры
 
-Показывает, как создавать неравномерно расположенные столбцы.
+Показывает, как создавать столбцы с неравномерным расположением друг от друга.
 
 ```csharp
 Document doc = new Document();
@@ -40,17 +42,17 @@ TextColumnCollection columns = pageSetup.TextColumns;
 columns.EvenlySpaced = false;
 columns.SetCount(2);
 
-// Определяем количество места, которое у нас есть для размещения столбцов.
+// Определим количество свободного места для размещения столбцов.
 double contentWidth = pageSetup.PageWidth - pageSetup.LeftMargin - pageSetup.RightMargin;
 
 Assert.AreEqual(470.30d, contentWidth, 0.01d);
 
-// Сделать первый столбец узким.
+// Установите узкий первый столбец.
 TextColumn column = columns[0];
 column.Width = 100;
 column.SpaceAfter = 20;
 
-// Устанавливаем второй столбец так, чтобы он занимал оставшееся пространство, доступное на полях страницы.
+// Установите второй столбец так, чтобы он занял оставшееся пространство, доступное в пределах полей страницы.
 column = columns[1];
 column.Width = contentWidth - column.Width - column.SpaceAfter;
 

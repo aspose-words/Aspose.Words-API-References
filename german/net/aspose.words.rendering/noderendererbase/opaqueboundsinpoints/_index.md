@@ -16,7 +16,7 @@ public RectangleF OpaqueBoundsInPoints { get; }
 
 ### Bemerkungen
 
-Diese Eigenschaft gibt den undurchsichtigen (dh transparente Teile der Form werden ignoriert) Begrenzungsrahmen der Form zurück. Die Begrenzungen berücksichtigen die Rotation der Form.
+Diese Eigenschaft gibt den undurchsichtigen (dh transparente Teile der Form werden ignoriert) Begrenzungsrahmen der Form zurück. Die Grenzen berücksichtigen die Drehung der Form.
 
 ### Beispiele
 
@@ -35,17 +35,17 @@ Assert.AreEqual(13.0f, renderer.SizeInPoints.Height, 0.1f);
 Assert.AreEqual(119.0f, renderer.BoundsInPoints.Width, 0.2f);
 Assert.AreEqual(13.0f, renderer.BoundsInPoints.Height, 0.1f);
 
-// Shapes mit transparenten Teilen können unterschiedliche Werte in den "OpaqueBoundsInPoints"-Eigenschaften enthalten.
+// Formen mit transparenten Teilen können unterschiedliche Werte in den „OpaqueBoundsInPoints“-Eigenschaften enthalten.
 Assert.AreEqual(119.0f, renderer.OpaqueBoundsInPoints.Width, 0.2f);
 Assert.AreEqual(14.2f, renderer.OpaqueBoundsInPoints.Height, 0.1f);
 
-// Holen Sie sich die Formgröße in Pixel, mit linearer Skalierung auf eine bestimmte DPI.
+// Ermittelt die Formgröße in Pixeln mit linearer Skalierung auf eine bestimmte DPI.
 Rectangle bounds = renderer.GetBoundsInPixels(1.0f, 96.0f);
 
 Assert.AreEqual(159, bounds.Width);
 Assert.AreEqual(18, bounds.Height);
 
-// Holen Sie sich die Formgröße in Pixel, aber mit einem anderen DPI für die horizontalen und vertikalen Dimensionen.
+// Ermittelt die Formgröße in Pixeln, jedoch mit unterschiedlichen DPI-Werten für die horizontalen und vertikalen Abmessungen.
 bounds = renderer.GetBoundsInPixels(1.0f, 96.0f, 150.0f);
 Assert.AreEqual(159, bounds.Width);
 Assert.AreEqual(28, bounds.Height);

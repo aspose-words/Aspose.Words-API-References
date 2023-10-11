@@ -1,14 +1,14 @@
 ---
 title: Paragraph.IsEndOfSection
 second_title: Aspose.Words لمراجع .NET API
-description: Paragraph ملكية. صحيح إذا كانت هذه الفقرة هي الفقرة الأخيرة في ملف الجسم قصة النص الرئيسي من أ الجزء  خطأ بخلاف ذلك.
+description: Paragraph ملكية. صحيح إذا كانت هذه الفقرة هي الفقرة الأخيرة فيBody قصة النص الرئيسي من أSection  كاذبة خلاف ذلك.
 type: docs
 weight: 80
 url: /ar/net/aspose.words/paragraph/isendofsection/
 ---
 ## Paragraph.IsEndOfSection property
 
-صحيح إذا كانت هذه الفقرة هي الفقرة الأخيرة في ملف **الجسم** (قصة النص الرئيسي) من أ **الجزء** ؛ خطأ بخلاف ذلك.
+صحيح إذا كانت هذه الفقرة هي الفقرة الأخيرة في[`Body`](../../body/) (قصة النص الرئيسي) من أ[`Section`](../../section/) ; كاذبة خلاف ذلك.
 
 ```csharp
 public bool IsEndOfSection { get; }
@@ -16,10 +16,9 @@ public bool IsEndOfSection { get; }
 
 ### أمثلة
 
-يوضح كيفية إدراج محتويات أحد المستندات في إشارة مرجعية في مستند آخر.
+يوضح كيفية إدراج محتويات مستند واحد في إشارة مرجعية في مستند آخر.
 
 ```csharp
-[Test]
 public void InsertAtBookmark()
 {
     Document doc = new Document();
@@ -44,7 +43,7 @@ public void InsertAtBookmark()
 }
 
 /// <summary>
-/// يدخل محتويات الوثيقة بعد العقدة المحددة.
+/// إدراج محتويات المستند بعد العقدة المحددة.
 /// </summary>
 static void InsertDocument(Node insertionDestination, Document docToInsert)
 {
@@ -55,8 +54,8 @@ static void InsertDocument(Node insertionDestination, Document docToInsert)
         NodeImporter importer =
             new NodeImporter(docToInsert, insertionDestination.Document, ImportFormatMode.KeepSourceFormatting);
 
-        // حلقة خلال جميع العقد على مستوى الكتلة في جسم القسم ،
-        // ثم استنساخ وأدخل كل عقدة ليست آخر فقرة فارغة من القسم.
+        // قم بالتكرار عبر جميع العقد على مستوى الكتلة في نص القسم،
+        // ثم انسخ وأدخل كل عقدة ليست آخر فقرة فارغة في القسم.
         foreach (Section srcSection in docToInsert.Sections.OfType<Section>())
             foreach (Node srcNode in srcSection.Body)
             {

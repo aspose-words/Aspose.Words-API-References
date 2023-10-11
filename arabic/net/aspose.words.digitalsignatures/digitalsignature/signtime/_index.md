@@ -1,14 +1,14 @@
 ---
 title: DigitalSignature.SignTime
 second_title: Aspose.Words لمراجع .NET API
-description: DigitalSignature ملكية. يحصل على الوقت الذي تم فيه توقيع المستند.
+description: DigitalSignature ملكية. الحصول على الوقت الذي تم فيه توقيع المستند.
 type: docs
-weight: 60
+weight: 70
 url: /ar/net/aspose.words.digitalsignatures/digitalsignature/signtime/
 ---
 ## DigitalSignature.SignTime property
 
-يحصل على الوقت الذي تم فيه توقيع المستند.
+الحصول على الوقت الذي تم فيه توقيع المستند.
 
 ```csharp
 public DateTime SignTime { get; }
@@ -16,7 +16,7 @@ public DateTime SignTime { get; }
 
 ### أمثلة
 
-يوضح كيفية التحقق من صحة المعلومات وعرضها حول كل توقيع في مستند.
+يوضح كيفية التحقق من صحة وعرض المعلومات حول كل توقيع في المستند.
 
 ```csharp
 Document doc = new Document(MyDir + "Digitally signed.docx");

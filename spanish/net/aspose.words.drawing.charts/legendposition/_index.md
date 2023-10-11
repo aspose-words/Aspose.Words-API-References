@@ -1,14 +1,14 @@
 ---
 title: Enum LegendPosition
 second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Drawing.Charts.LegendPosition enumeración. Especifica las posiciones posibles para la leyenda de un gráfico.
+description: Aspose.Words.Drawing.Charts.LegendPosition enumeración. Especifica las posibles posiciones para la leyenda de un gráfico.
 type: docs
-weight: 780
+weight: 910
 url: /es/net/aspose.words.drawing.charts/legendposition/
 ---
 ## LegendPosition enumeration
 
-Especifica las posiciones posibles para la leyenda de un gráfico.
+Especifica las posibles posiciones para la leyenda de un gráfico.
 
 ```csharp
 public enum LegendPosition

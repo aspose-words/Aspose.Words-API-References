@@ -1,14 +1,14 @@
 ---
 title: SaveOptions.PrettyFormat
 second_title: Aspose.Words für .NET-API-Referenz
-description: SaveOptions eigendom. WannStimmt  gibt gegebenenfalls hübsche Formate aus. Standardwert ist FALSCH .
+description: SaveOptions eigendom. WannWAHR hübsche Ausgabeformate sofern zutreffend. Der Standardwert istFALSCH .
 type: docs
-weight: 120
+weight: 110
 url: /de/net/aspose.words.saving/saveoptions/prettyformat/
 ---
 ## SaveOptions.PrettyFormat property
 
-Wann`Stimmt` , gibt gegebenenfalls hübsche Formate aus. Standardwert ist **FALSCH** .
+Wann`WAHR` hübsche Ausgabeformate, sofern zutreffend. Der Standardwert ist`FALSCH` .
 
 ```csharp
 public bool PrettyFormat { get; set; }
@@ -16,11 +16,11 @@ public bool PrettyFormat { get; set; }
 
 ### Bemerkungen
 
-Einstellen **Stimmt** HTML-, MHTML-, EPUB-, WordML-, RTF-, DOCX- und ODT-Ausgabe für Menschen lesbar zu machen. Nützlich zum Testen oder Debuggen.
+Einstellen`WAHR` um HTML-, MHTML-, EPUB-, WordML-, RTF-, DOCX- und ODT-Ausgaben für Menschen lesbar zu machen. Nützlich zum Testen oder Debuggen.
 
 ### Beispiele
 
-Zeigt, wie die Lesbarkeit des Rohcodes eines gespeicherten HTML-Dokuments verbessert wird.
+Zeigt, wie die Lesbarkeit des Rohcodes eines gespeicherten HTML-Dokuments verbessert werden kann.
 
 ```csharp
 Document doc = new Document();
@@ -31,7 +31,7 @@ HtmlSaveOptions htmlOptions = new HtmlSaveOptions(SaveFormat.Html) { PrettyForma
 
 doc.Save(ArtifactsDir + "HtmlSaveOptions.PrettyFormat.html", htmlOptions);
 
-// Das Aktivieren des hübschen Formats macht den rohen HTML-Code besser lesbar, indem Tabstopps und neue Zeilenzeichen hinzugefügt werden.
+// Durch die Aktivierung des hübschen Formats wird der rohe HTML-Code durch Hinzufügen von Tabstopp- und Zeilenumbruchzeichen besser lesbar.
 string html = File.ReadAllText(ArtifactsDir + "HtmlSaveOptions.PrettyFormat.html");
 
 if (usePrettyFormat)

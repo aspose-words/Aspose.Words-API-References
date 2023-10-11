@@ -16,9 +16,9 @@ public double TintAndShade { get; set; }
 
 ### Remarques
 
-Les valeurs autorisées sont comprises entre -1 (la plus sombre) et 1 (la plus claire) pour cette propriété. Zéro (0) est neutre. Tenter de définir cette propriété sur une valeur inférieure à -1 ou supérieure à 1 entraîne unArgumentOutOfRangeException.
+Les valeurs autorisées sont comprises entre -1 (le plus sombre) et 1 (le plus clair) pour cette propriété. Zéro (0) est neutre. Tenter de définir cette propriété sur une valeur inférieure à -1 ou supérieure à 1 entraîne unArgumentOutOfRangeException.
 
-La définition de cette propriété pour l'objet Font avec des couleurs non thématiques entraîne unInvalidOperationException.
+Définir cette propriété pour[`Font`](../) objet avec des couleurs non thématiques entraîne unInvalidOperationException.
 
 ### Exemples
 
@@ -30,7 +30,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln();
 
-// Crée un style avec les propriétés de police du thème.
+// Créez un style avec les propriétés de police du thème.
 Style style = doc.Styles.Add(StyleType.Paragraph, "ThemedStyle");
 style.Font.ThemeFont = ThemeFont.Major;
 style.Font.ThemeColor = ThemeColor.Accent5;

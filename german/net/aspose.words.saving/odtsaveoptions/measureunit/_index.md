@@ -20,16 +20,16 @@ Open Office verwendet Zentimeter, wenn Längen, Breiten und andere messbare Form
 
 ### Beispiele
 
-Zeigt, wie verschiedene Maßeinheiten zum Definieren von Stilparametern eines gespeicherten ODT-Dokuments verwendet werden.
+Zeigt, wie Sie verschiedene Maßeinheiten verwenden, um Stilparameter eines gespeicherten ODT-Dokuments zu definieren.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
 // Wenn wir das Dokument in .odt exportieren, können wir ein OdtSaveOptions-Objekt verwenden, um zu ändern, wie wir das Dokument speichern.
-// Wir können die Eigenschaft "MeasureUnit" auf "OdtSaveMeasureUnit.Centimeters" setzen
-// zum Definieren von Inhalten wie Stilparametern unter Verwendung des metrischen Systems, das Open Office verwendet. 
-// Wir können die Eigenschaft "MeasureUnit" auf "OdtSaveMeasureUnit.Inches" setzen
-// zum Definieren von Inhalten wie Stilparametern unter Verwendung des imperialen Systems, das Microsoft Word verwendet.
+// Wir können die Eigenschaft „MeasureUnit“ auf „OdtSaveMeasureUnit.Centimeters“ setzen
+ // um Inhalte wie Stilparameter mithilfe des metrischen Systems zu definieren, das Open Office verwendet.
+// Wir können die Eigenschaft „MeasureUnit“ auf „OdtSaveMeasureUnit.Inches“ setzen.
+// um Inhalte wie Stilparameter mithilfe des imperialen Systems zu definieren, das Microsoft Word verwendet.
 OdtSaveOptions saveOptions = new OdtSaveOptions
 {
     MeasureUnit = odtSaveMeasureUnit

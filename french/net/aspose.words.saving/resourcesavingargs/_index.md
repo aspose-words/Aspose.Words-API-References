@@ -3,12 +3,14 @@ title: Class ResourceSavingArgs
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Aspose.Words.Saving.ResourceSavingArgs classe. Fournit des données pour leResourceSaving événement.
 type: docs
-weight: 5280
+weight: 5560
 url: /fr/net/aspose.words.saving/resourcesavingargs/
 ---
 ## ResourceSavingArgs class
 
 Fournit des données pour le[`ResourceSaving`](../iresourcesavingcallback/resourcesaving/) événement.
+
+Pour en savoir plus, visitez le[Enregistrer un document](https://docs.aspose.com/words/net/save-a-document/) article documentaire.
 
 ```csharp
 public class ResourceSavingArgs
@@ -21,18 +23,18 @@ public class ResourceSavingArgs
 | [Document](../../aspose.words.saving/resourcesavingargs/document/) { get; } | Obtient l'objet document en cours d'enregistrement. |
 | [KeepResourceStreamOpen](../../aspose.words.saving/resourcesavingargs/keepresourcestreamopen/) { get; set; } | Spécifie si Aspose.Words doit garder le flux ouvert ou le fermer après avoir enregistré une ressource. |
 | [ResourceFileName](../../aspose.words.saving/resourcesavingargs/resourcefilename/) { get; set; } | Obtient ou définit le nom du fichier (sans chemin) dans lequel la ressource sera enregistrée. |
-| [ResourceFileUri](../../aspose.words.saving/resourcesavingargs/resourcefileuri/) { get; set; } | Obtient ou définit l'URI (Uniform Resource Identifier) utilisé pour référencer le fichier de ressources à partir du document. |
+| [ResourceFileUri](../../aspose.words.saving/resourcesavingargs/resourcefileuri/) { get; set; } | Obtient ou définit l'identificateur de ressource uniforme (URI) utilisé pour référencer le fichier de ressources du document. |
 | [ResourceStream](../../aspose.words.saving/resourcesavingargs/resourcestream/) { get; set; } | Permet de spécifier le flux dans lequel la ressource sera enregistrée. |
 
 ### Remarques
 
-Par défaut, lorsque Aspose.Words enregistre un document en HTML ou SVG à page fixe, il enregistre chaque ressource dans un fichier séparé. Aspose.Words utilise le nom de fichier du document et un numéro unique pour générer un nom de fichier unique pour chaque ressource trouvée dans le document.
+Par défaut, lorsque Aspose.Words enregistre un document sur une page fixe HTML ou SVG, il enregistre chaque ressource dans un fichier distinct. Aspose.Words utilise le nom du fichier du document et un numéro unique pour générer un nom de fichier unique pour chaque ressource trouvée dans le document.
 
-`ResourceSavingArgs` permet de redéfinir la façon dont les noms de fichiers de ressources sont générés ou de contourner complètement l'enregistrement des ressources dans des fichiers en fournissant vos propres objets de flux.
+`ResourceSavingArgs` permet de redéfinir la façon dont les noms de fichiers de ressources sont générés ou de contourner complètement la sauvegarde des ressources dans des fichiers en fournissant vos propres objets de flux.
 
 Pour appliquer votre propre logique pour générer des noms de fichiers de ressources, utilisez le [`ResourceFileName`](./resourcefilename/) propriété.
 
-Pour enregistrer les ressources dans des flux au lieu de fichiers, utilisez la[`ResourceStream`](./resourcestream/) propriété.
+Pour enregistrer les ressources dans des flux plutôt que dans des fichiers, utilisez l'option[`ResourceStream`](./resourcestream/) propriété.
 
 ### Exemples
 
@@ -58,7 +60,7 @@ public void ResourceSavingCallback()
 private class FontSavingCallback : IResourceSavingCallback
 {
     /// <summary>
-    /// Appelé quand Aspose.Words enregistre une ressource externe dans une page fixe HTML ou SVG.
+    /// Appelé lorsque Aspose.Words enregistre une ressource externe dans une page HTML ou SVG fixe.
     /// </summary>
     public void ResourceSaving(ResourceSavingArgs args)
     {

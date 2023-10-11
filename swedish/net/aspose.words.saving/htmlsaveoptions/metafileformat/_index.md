@@ -3,7 +3,7 @@ title: HtmlSaveOptions.MetafileFormat
 second_title: Aspose.Words för .NET API Referens
 description: HtmlSaveOptions fast egendom. Anger i vilket format metafiler sparas vid export till HTML MHTML eller EPUB. Standardvärdet ärPng  vilket betyder att metafiler renderas till raster PNGbilder.
 type: docs
-weight: 390
+weight: 380
 url: /sv/net/aspose.words.saving/htmlsaveoptions/metafileformat/
 ---
 ## HtmlSaveOptions.MetafileFormat property

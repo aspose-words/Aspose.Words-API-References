@@ -3,7 +3,7 @@ title: DocumentBuilder.StartEditableRange
 second_title: Référence de l'API Aspose.Words pour .NET
 description: DocumentBuilder méthode. Marque la position actuelle dans le document comme début de plage modifiable.
 type: docs
-weight: 600
+weight: 640
 url: /fr/net/aspose.words/documentbuilder/starteditablerange/
 ---
 ## DocumentBuilder.StartEditableRange method
@@ -20,9 +20,9 @@ Le nœud de début de plage modifiable qui vient d'être créé.
 
 ### Remarques
 
-La plage modifiable dans un document peut chevaucher et s'étendre sur n'importe quelle plage. Pour créer une plage modifiable valide, vous devez appeler les deux`StartEditableRange` et[`EndEditableRange`](../endeditablerange/) ou[`EndEditableRange`](../endeditablerange/)méthodes.
+La plage modifiable dans un document peut se chevaucher et s'étendre sur n'importe quelle plage. Pour créer une plage modifiable valide, vous devez appeler les deux`StartEditableRange` et[`EndEditableRange`](../endeditablerange/) ou[`EndEditableRange`](../endeditablerange/) méthodes.
 
-Une plage modifiable mal formée sera ignorée lors de l'enregistrement du document.
+La plage modifiable mal formée sera ignorée lors de l’enregistrement du document.
 
 ### Exemples
 
@@ -36,14 +36,14 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world! Since we have set the document's protection level to read-only, " +
                 "we cannot edit this paragraph without the password.");
 
-// Crée deux plages modifiables imbriquées.
+// Créez deux plages modifiables imbriquées.
 EditableRangeStart outerEditableRangeStart = builder.StartEditableRange();
 builder.Writeln("This paragraph inside the outer editable range and can be edited.");
 
 EditableRangeStart innerEditableRangeStart = builder.StartEditableRange();
 builder.Writeln("This paragraph inside both the outer and inner editable ranges and can be edited.");
 
-// Actuellement, le curseur d'insertion de nœud du générateur de document se trouve dans plusieurs plages modifiables en cours.
+// Actuellement, le curseur d'insertion de nœud du générateur de documents se trouve dans plusieurs plages modifiables en cours.
 // Lorsque nous voulons terminer une plage modifiable dans cette situation,
 // nous devons spécifier laquelle des plages nous souhaitons terminer en passant son nœud EditableRangeStart.
 builder.EndEditableRange(innerEditableRangeStart);
@@ -54,7 +54,7 @@ builder.EndEditableRange(outerEditableRangeStart);
 
 builder.Writeln("This paragraph is outside any editable ranges, and cannot be edited.");
 
-// Si une zone de texte a deux plages modifiables qui se chevauchent avec des groupes spécifiés,
+// Si une zone de texte comporte deux plages modifiables qui se chevauchent avec des groupes spécifiés,
 // le groupe combiné d'utilisateurs exclus par les deux groupes ne peut pas le modifier.
 outerEditableRangeStart.EditableRange.EditorGroup = EditorType.Everyone;
 innerEditableRangeStart.EditableRange.EditorGroup = EditorType.Contributors;
@@ -72,7 +72,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world! Since we have set the document's protection level to read-only," +
                 " we cannot edit this paragraph without the password.");
 
-// Les plages modifiables nous permettent de laisser des parties de documents protégés ouvertes pour modification.
+// Les plages modifiables nous permettent de laisser des parties de documents protégés ouvertes pour l'édition.
 EditableRangeStart editableRangeStart = builder.StartEditableRange();
 builder.Writeln("This paragraph is inside an editable range, and can be edited.");
 EditableRangeEnd editableRangeEnd = builder.EndEditableRange();

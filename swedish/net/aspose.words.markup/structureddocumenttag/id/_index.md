@@ -20,7 +20,7 @@ Id-attribut ska följa dessa regler:
 
 * Dokumentet ska endast behålla SDT-ID om hela dokumentet är klonat[`Clone`](../../../aspose.words/document/clone/).
 * Under[`ImportNode`](../../../aspose.words/documentbase/importnode/) Id ska behållas om import inte orsakar konflikter med andra SDT Id i måldokumentet.
-* Om flera SDT-noder anger samma decimaltalsvärde för Id-attributet, ska den första SDT i dokumentet behålla detta ursprungliga Id, och alla efterföljande SDT-noder ska ha nya identifierare tilldelade när dokumentet laddas.
+* Om flera SDT-noder anger samma decimaltalsvärde för Id-attributet, så ska den första SDT i dokumentet behålla detta ursprungliga Id, och alla efterföljande SDT-noder ska ha nya identifierare tilldelade när dokumentet laddas.
 * Under fristående SDTINodeCloningListener) operation nytt unikt ID kommer att genereras för den klonade SDT-noden.
 * Om Id inte anges i källdokumentet ska SDT-noden ha en ny unik identifierare tilldelad när dokumentet laddas.
 
@@ -61,7 +61,7 @@ tag.EndCharacterFont.Name = "Arial Black";
 tag.Multiline = true;
 
 // Ställ in egenskapen "Appearance" till "SdtAppearance.Tags" för att visa taggar runt innehåll.
-  // Som standard visas strukturerad dokumenttagg som BoundingBox.
+ // Som standard visas strukturerad dokumenttagg som BoundingBox.
 tag.Appearance = SdtAppearance.Tags;
 
 DocumentBuilder builder = new DocumentBuilder(doc);

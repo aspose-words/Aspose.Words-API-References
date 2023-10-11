@@ -1,14 +1,14 @@
 ---
 title: Shape.Accept
 second_title: Aspose.Words for .NET API Referansı
-description: Shape yöntem. Bir ziyaretçiyi kabul eder.
+description: Shape yöntem. Ziyaretçi kabul eder.
 type: docs
 weight: 240
 url: /tr/net/aspose.words.drawing/shape/accept/
 ---
 ## Shape.Accept method
 
-Bir ziyaretçiyi kabul eder.
+Ziyaretçi kabul eder.
 
 ```csharp
 public override bool Accept(DocumentVisitor visitor)
@@ -20,21 +20,22 @@ public override bool Accept(DocumentVisitor visitor)
 
 ### Geri dönüş değeri
 
-Tüm düğümler ziyaret edildiyse doğrudur; DocumentVisitor tüm düğümleri ziyaret etmeden önce işlemi durdurduysa false.
+Tüm düğümler ziyaret edilmişse doğrudur; yanlış ise[`DocumentVisitor`](../../../aspose.words/documentvisitor/) tüm düğümleri ziyaret etmeden işlemi durdurdu.
 
 ### Notlar
 
-Bu düğüm ve tüm alt öğeleri üzerinde numaralandırır. Her düğüm, DocumentVisitor'da karşılık gelen bir yöntemi çağırır.
+Bu düğümü ve tüm alt öğelerini numaralandırır. Her düğüm kendisine karşılık gelen bir yöntemi çağırır.[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
 
-Daha fazla bilgi için Ziyaretçi tasarım modeline bakın.
+Daha fazla bilgi için Ziyaretçi tasarım desenine bakın.
 
-Çağrılar[`VisitShapeStart`](../../../aspose.words/documentvisitor/visitshapestart/) , sonra arar[`Accept`](../../../aspose.words/node/accept/) şeklin tüm alt düğümleri ve çağrılar için[`VisitShapeEnd`](../../../aspose.words/documentvisitor/visitshapeend/) sonunda.
+Çağrılar[`VisitShapeStart`](../../../aspose.words/documentvisitor/visitshapestart/) , ardından arar[`Accept`](../../../aspose.words/node/accept/) Şeklin ve çağrıların tüm alt düğümleri için [`VisitShapeEnd`](../../../aspose.words/documentvisitor/visitshapeend/) sonunda.
 
 ### Örnekler
 
 Bir belgedeki tüm şekillerin nasıl yineleneceğini gösterir.
 
 ```csharp
+public void VisitShapes()
 {
     Document doc = new Document(MyDir + "Revision shape.docx");
     ShapeAppearancePrinter visitor = new ShapeAppearancePrinter();
@@ -44,7 +45,7 @@ Bir belgedeki tüm şekillerin nasıl yineleneceğini gösterir.
 }
 
 /// <summary>
-/// Ziyaret edilen şekiller hakkında görünümle ilgili bilgileri günlüğe kaydeder.
+/// Ziyaret edilen şekillerle ilgili görünümle ilgili bilgileri günlüğe kaydeder.
 /// </summary>
 private class ShapeAppearancePrinter : DocumentVisitor
 {
@@ -56,7 +57,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Her girinti düzeyi için başına bir sekme karakteri eklenerek StringBuilder'a bir satır ekler.
+    /// Her girinti düzeyi için başına bir sekme karakteri eklenmiş bir satırı StringBuilder'a ekler.
     /// </summary>
     private void AppendLine(string text)
     {
@@ -66,7 +67,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// StringBuilder'ın topladığı tüm metni döndür.
+    /// StringBuilder'ın biriktirdiği tüm metni döndürün.
     /// </summary>
     public string GetText()
     {
@@ -122,7 +123,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Bu ziyaretçi GroupShape düğümünün başlangıcını ziyaret ettiğinde çağrılır.
+    /// Bu ziyaretçi bir GroupShape düğümünün başlangıcını ziyaret ettiğinde çağrılır.
     /// </summary>
     public override VisitorAction VisitGroupShapeStart(GroupShape groupShape)
     {
@@ -133,7 +134,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Bu ziyaretçi GroupShape düğümünün sonunu ziyaret ettiğinde çağrılır.
+    /// Bu ziyaretçi bir GroupShape düğümünün sonunu ziyaret ettiğinde çağrılır.
     /// </summary>
     public override VisitorAction VisitGroupShapeEnd(GroupShape groupShape)
     {

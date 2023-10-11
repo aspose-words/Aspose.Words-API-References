@@ -1,14 +1,14 @@
 ---
 title: FieldPrint.PrinterInstructions
 second_title: Referencia de API de Aspose.Words para .NET
-description: FieldPrint propiedad. Obtiene o establece los caracteres del código de control o instrucciones PostScript específicos de la impresora.
+description: FieldPrint propiedad. Obtiene o establece los caracteres del código de control específicos de la impresora o las instrucciones PostScript.
 type: docs
 weight: 30
 url: /es/net/aspose.words.fields/fieldprint/printerinstructions/
 ---
 ## FieldPrint.PrinterInstructions property
 
-Obtiene o establece los caracteres del código de control o instrucciones PostScript específicos de la impresora.
+Obtiene o establece los caracteres del código de control específicos de la impresora o las instrucciones PostScript.
 
 ```csharp
 public string PrinterInstructions { get; set; }
@@ -16,7 +16,7 @@ public string PrinterInstructions { get; set; }
 
 ### Ejemplos
 
-Muestra para insertar un campo IMPRIMIR.
+Muestra para insertar un campo PRINT.
 
 ```csharp
 Document doc = new Document();
@@ -27,12 +27,12 @@ builder.Write("My paragraph");
 // El campo PRINT puede enviar instrucciones a la impresora.
 FieldPrint field = (FieldPrint)builder.InsertField(FieldType.FieldPrint, true);
 
-// Establecer el área para que la impresora realice las instrucciones.
-// En este caso, será el párrafo que contiene nuestro campo PRINT.
+// Establece el área para que la impresora realice instrucciones.
+// En este caso será el párrafo que contiene nuestro campo PRINT.
 field.PostScriptGroup = "para";
 
-// Cuando usamos una impresora que soporta PostScript para imprimir nuestro documento,
-// este comando convertirá en blanco toda el área que especificamos en "field.PostScriptGroup".
+// Cuando utilizamos una impresora que admite PostScript para imprimir nuestro documento,
+// este comando convertirá en blanca toda el área que especificamos en "field.PostScriptGroup".
 field.PrinterInstructions = "erasepage";
 
 Assert.AreEqual(" PRINT  erasepage \\p para", field.GetFieldCode());

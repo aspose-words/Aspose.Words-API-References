@@ -3,7 +3,7 @@ title: Enum FieldIfComparisonResult
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Fields.FieldIfComparisonResult uppräkning. Anger resultatet av IFfältets tillståndsutvärdering.
 type: docs
-weight: 1860
+weight: 2010
 url: /sv/net/aspose.words.fields/fieldifcomparisonresult/
 ---
 ## FieldIfComparisonResult enumeration

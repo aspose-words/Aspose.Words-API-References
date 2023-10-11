@@ -18,9 +18,9 @@ public object[] HeadingPairs { get; set; }
 
 Her başlık çifti bu dizide iki öğeyi kaplar.
 
-Çiftin ilk elemanı birString ve başlık adını belirtir. Çiftin ikinci öğesi birInt32 ve bu başlık için Document bölümlerinin sayısını belirtir.[`TitlesOfParts`](../titlesofparts/) Emlak.
+Çiftin ilk elemanı birString ve başlık adını belirtir. Çiftin ikinci elemanı birInt32 ve bu başlık için document parçalarının sayısını belirtir.[`TitlesOfParts`](../titlesofparts/) mülk.
 
-Bu özellikteki tüm başlık çiftleri için sayıların toplam toplamı, bu özellikteki öğelerin sayısına eşit olmalıdır.[`TitlesOfParts`](../titlesofparts/) Emlak.
+Bu özellikteki tüm başlık çiftleri için toplam sayım toplamı, içindeki öğelerin sayısına eşit olmalıdır.[`TitlesOfParts`](../titlesofparts/) mülk.
 
 Aspose.Words bu özelliği güncellemez.
 
@@ -31,13 +31,13 @@ Aspose.Words bu özelliği güncellemez.
 ```csharp
 Document doc = new Document(MyDir + "Heading pairs and titles of parts.docx");
 
-// Bu koleksiyonların birleşik değerlerini şuradan bulabiliriz:
-// "Dosya" -> "Özellikler" -> "Gelişmiş Özellikler" -> "İçindekiler" sekmesi.
-// HeadingPairs özelliği, <string, int> çiftler ki
+// Bu koleksiyonların birleştirilmiş değerlerini şu şekilde bulabiliriz:
+// "Dosya" -> "Özellikler" -> "Gelişmiş Özellikler" --> "İçerik" sekmesi.
+// HeadingPairs özelliği <string, int> bunu eşleştir
 // bir başlığın kaç belge parçasına yayılacağını belirler.
 object[] headingPairs = doc.BuiltInDocumentProperties.HeadingPairs;
 
-// TitlesOfParts özelliği, yukarıdaki başlıklara ait olan parçaların isimlerini içerir.
+// TitlesOfParts özelliği yukarıdaki başlıklara ait parçaların adlarını içerir.
 string[] titlesOfParts = doc.BuiltInDocumentProperties.TitlesOfParts;
 
 int headingPairsIndex = 0;

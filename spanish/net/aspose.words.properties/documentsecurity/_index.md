@@ -1,14 +1,14 @@
 ---
 title: Enum DocumentSecurity
 second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Properties.DocumentSecurity enumeración. Se utiliza como valor para elSecurity property. Especifica el nivel de seguridad de un documento como un valor numérico.
+description: Aspose.Words.Properties.DocumentSecurity enumeración. Se utiliza como valor para elSecurity propiedad. Especifica el nivel de seguridad de un documento como un valor numérico.
 type: docs
-weight: 4240
+weight: 4490
 url: /es/net/aspose.words.properties/documentsecurity/
 ---
 ## DocumentSecurity enumeration
 
-Se utiliza como valor para el[`Security`](../builtindocumentproperties/security/) property. Especifica el nivel de seguridad de un documento como un valor numérico.
+Se utiliza como valor para el[`Security`](../builtindocumentproperties/security/) propiedad. Especifica el nivel de seguridad de un documento como un valor numérico.
 
 ```csharp
 [Flags]
@@ -21,20 +21,20 @@ public enum DocumentSecurity
 | --- | --- | --- |
 | None | `0` | No hay estados de seguridad especificados por la propiedad. |
 | PasswordProtected | `1` | El documento está protegido con contraseña. (La nota nunca se ha visto en un documento hasta ahora). |
-| ReadOnlyRecommended | `2` | El documento que se abrirá como solo lectura si es posible, pero la configuración se puede anular. |
-| ReadOnlyEnforced | `4` | El documento que siempre se abrirá en modo de solo lectura. |
-| ReadOnlyExceptAnnotations | `8` | El documento siempre se abrirá en modo de solo lectura excepto para las anotaciones. |
+| ReadOnlyRecommended | `2` | El documento se abrirá como de solo lectura si es posible, pero la configuración se puede anular. |
+| ReadOnlyEnforced | `4` | El documento que siempre se abrirá como solo lectura. |
+| ReadOnlyExceptAnnotations | `8` | El documento siempre se abrirá como solo lectura, excepto para las anotaciones. |
 
 ### Ejemplos
 
-Muestra cómo usar las propiedades del documento para mostrar el nivel de seguridad de un documento.
+Muestra cómo utilizar las propiedades del documento para mostrar el nivel de seguridad de un documento.
 
 ```csharp
 Document doc = new Document();
 
 Assert.AreEqual(DocumentSecurity.None, doc.BuiltInDocumentProperties.Security);
 
-// Si configuramos un documento para que sea de solo lectura, mostrará este estado utilizando la propiedad integrada "Seguridad".
+// Si configuramos un documento para que sea de solo lectura, mostrará este estado usando la propiedad incorporada "Seguridad".
 doc.WriteProtection.ReadOnlyRecommended = true;
 doc.Save(ArtifactsDir + "DocumentProperties.Security.ReadOnlyRecommended.docx");
 

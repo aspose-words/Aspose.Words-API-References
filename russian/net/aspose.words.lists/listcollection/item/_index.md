@@ -16,17 +16,15 @@ public List this[int index] { get; }
 
 ### Примеры
 
-Показывает, как проверить свойства документа владельца списков.
+Показывает, как проверить свойства документов владельцев списков.
 
 ```csharp
 Document doc = new Document();
 
 ListCollection lists = doc.Lists;
-
 Assert.AreEqual(doc, lists.Document);
 
 List list = lists.Add(ListTemplate.BulletDefault);
-
 Assert.AreEqual(doc, list.Document);
 
 Console.WriteLine("Current list count: " + lists.Count);
@@ -35,7 +33,7 @@ Console.WriteLine("ListId: " + list.ListId);
 Console.WriteLine("List is the same by ListId: " + (lists.GetListByListId(1).Equals(list)));
 ```
 
-Показывает, как применить форматирование существующего списка к набору абзацев.
+Показывает, как применить форматирование существующего списка к коллекции абзацев.
 
 ```csharp
 Document doc = new Document();

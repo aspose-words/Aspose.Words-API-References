@@ -24,10 +24,10 @@ Visar hur man infogar ett bokmärke.
 
 ```csharp
 Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
+DocumentBuilder builder = new DocumentBuilder(doc);            
 
 // Ett giltigt bokmärke har ett namn, en BookmarkStart och en BookmarkEnd-nod.
-// Alla blanksteg i namnen på bokmärken kommer att konverteras till understreck om vi öppnar det sparade dokumentet med Microsoft Word. 
+// Alla blanksteg i namnen på bokmärken kommer att konverteras till understreck om vi öppnar det sparade dokumentet med Microsoft Word.
 // Om vi markerar bokmärkets namn i Microsoft Word via Infoga -> Länkar -> Bokmärk och tryck på "Gå till",
 // markören hoppar till texten mellan BookmarkStart och BookmarkEnd noderna.
 builder.StartBookmark("My Bookmark");
@@ -48,7 +48,6 @@ public void CreateUpdateAndPrintBookmarks()
     // Skapa ett dokument med tre bokmärken och använd sedan en anpassad dokumentbesökarimplementering för att skriva ut innehållet.
     Document doc = CreateDocumentWithBookmarks(3);
     BookmarkCollection bookmarks = doc.Range.Bookmarks;
-
     PrintAllBookmarkInfo(bookmarks);
 
     // Bokmärken kan nås i bokmärkessamlingen genom index eller namn, och deras namn kan uppdateras.

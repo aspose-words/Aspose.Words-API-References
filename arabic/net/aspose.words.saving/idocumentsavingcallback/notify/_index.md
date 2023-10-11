@@ -1,14 +1,14 @@
 ---
 title: IDocumentSavingCallback.Notify
 second_title: Aspose.Words لمراجع .NET API
-description: IDocumentSavingCallback طريقة. يسمى هذا للإبلاغ عن تقدم حفظ المستندات.
+description: IDocumentSavingCallback طريقة. يتم استدعاؤه للإخطار بتقدم عملية حفظ المستند.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.saving/idocumentsavingcallback/notify/
 ---
 ## IDocumentSavingCallback.Notify method
 
-يسمى هذا للإبلاغ عن تقدم حفظ المستندات.
+يتم استدعاؤه للإخطار بتقدم عملية حفظ المستند.
 
 ```csharp
 public void Notify(DocumentSavingArgs args)
@@ -20,20 +20,20 @@ public void Notify(DocumentSavingArgs args)
 
 ### ملاحظات
 
-الاستخدامات الأساسية لهذه الواجهة هي السماح لكود التطبيق بالحصول على حالة التقدم وإحباط عملية الحفظ.
+الاستخدامات الأساسية لهذه الواجهة هي السماح لرمز التطبيق بالحصول على حالة التقدم وإلغاء عملية الحفظ.
 
-يجب طرح استثناء من رد نداء التقدم للإجهاض ويجب أن يتم تسجيله في كود المستهلك.
+يجب طرح استثناء من رد اتصال التقدم للإجهاض ويجب اكتشافه في كود المستهلك.
 
 ### أمثلة
 
-يوضح كيفية إدارة مستند أثناء الحفظ في html.
+يوضح كيفية إدارة مستند أثناء حفظه في html.
 
 ```csharp
 public void ProgressCallback(SaveFormat saveFormat, string ext)
 {
     Document doc = new Document(MyDir + "Big document.docx");
 
-    // يتم دعم التنسيقات التالية: Html و Mhtml و Epub.
+    // يتم دعم التنسيقات التالية: Html، Mhtml، Epub.
     HtmlSaveOptions saveOptions = new HtmlSaveOptions(saveFormat)
     {
         ProgressCallback = new SavingProgressCallback()
@@ -45,12 +45,12 @@ public void ProgressCallback(SaveFormat saveFormat, string ext)
 }
 
 /// <summary>
-/// حفظ رد الاتصال التقدم. إلغاء حفظ مستند بعد "MaxDuration" ثواني.
+/// رد اتصال حفظ التقدم. قم بإلغاء حفظ مستند بعد ثواني "MaxDuration".
 /// </summary>
 public class SavingProgressCallback : IDocumentSavingCallback
 {
     /// <summary>
-    /// تحكم.
+    /// نسبة مئوية.
     /// </summary>
     public SavingProgressCallback()
     {
@@ -58,9 +58,9 @@ public class SavingProgressCallback : IDocumentSavingCallback
     }
 
     /// <summary>
-    /// طريقة رد الاتصال التي تم استدعاؤها أثناء حفظ المستند.
+    /// طريقة رد الاتصال التي يتم استدعاؤها أثناء حفظ المستند.
     /// </summary>
-    /// < param name = "args" > حفظ الوسائط. < / param >
+    /// <param name="args">حفظ الوسائط.</param>
     public void Notify(DocumentSavingArgs args)
     {
         DateTime canceledAt = DateTime.Now;
@@ -70,12 +70,12 @@ public class SavingProgressCallback : IDocumentSavingCallback
     }
 
     /// <summary>
-    /// تاريخ ووقت بدء حفظ المستند.
+    /// التاريخ والوقت الذي يبدأ فيه حفظ المستندات.
     /// </summary>
     private readonly DateTime mSavingStartedAt;
 
     /// <summary>
-    /// أقصى مدة مسموح بها بالثانية.
+    /// الحد الأقصى للمدة المسموح بها بالثواني.
     /// </summary>
     private const double MaxDuration = 0.1d;
 }
@@ -88,7 +88,7 @@ public void ProgressCallback(SaveFormat saveFormat, string ext)
 {
     Document doc = new Document(MyDir + "Big document.docx");
 
-    // يتم دعم التنسيقات التالية: Docx و FlatOpc و Docm و Dotm و Dotx.
+    // يتم دعم التنسيقات التالية: Docx، FlatOpc، Docm، Dotm، Dotx.
     OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(saveFormat)
     {
         ProgressCallback = new SavingProgressCallback()
@@ -100,12 +100,12 @@ public void ProgressCallback(SaveFormat saveFormat, string ext)
 }
 
 /// <summary>
-/// حفظ رد الاتصال التقدم. إلغاء حفظ مستند بعد "MaxDuration" ثواني.
+/// رد اتصال حفظ التقدم. قم بإلغاء حفظ مستند بعد ثواني "MaxDuration".
 /// </summary>
 public class SavingProgressCallback : IDocumentSavingCallback
 {
     /// <summary>
-    /// تحكم.
+    /// نسبة مئوية.
     /// </summary>
     public SavingProgressCallback()
     {
@@ -113,9 +113,9 @@ public class SavingProgressCallback : IDocumentSavingCallback
     }
 
     /// <summary>
-    /// طريقة رد الاتصال التي تم استدعاؤها أثناء حفظ المستند.
+    /// طريقة رد الاتصال التي يتم استدعاؤها أثناء حفظ المستند.
     /// </summary>
-    /// < param name = "args" > حفظ الوسائط. < / param >
+    /// <param name="args">حفظ الوسائط.</param>
     public void Notify(DocumentSavingArgs args)
     {
         DateTime canceledAt = DateTime.Now;
@@ -125,12 +125,12 @@ public class SavingProgressCallback : IDocumentSavingCallback
     }
 
     /// <summary>
-    /// تاريخ ووقت بدء حفظ المستند.
+    /// التاريخ والوقت الذي يبدأ فيه حفظ المستندات.
     /// </summary>
     private readonly DateTime mSavingStartedAt;
 
     /// <summary>
-    /// أقصى مدة مسموح بها بالثانية.
+    /// الحد الأقصى للمدة المسموح بها بالثواني.
     /// </summary>
     private const double MaxDuration = 0.01d;
 }
@@ -143,7 +143,7 @@ public void ProgressCallback(SaveFormat saveFormat, string ext)
 {
     Document doc = new Document(MyDir + "Big document.docx");
 
-    // يتم دعم التنسيقات التالية: XamlFlow و XamlFlowPack.
+    // يتم دعم التنسيقات التالية: XamlFlow، XamlFlowPack.
     XamlFlowSaveOptions saveOptions = new XamlFlowSaveOptions(saveFormat)
     {
         ProgressCallback = new SavingProgressCallback()
@@ -155,12 +155,12 @@ public void ProgressCallback(SaveFormat saveFormat, string ext)
 }
 
 /// <summary>
-/// حفظ رد الاتصال التقدم. إلغاء حفظ مستند بعد "MaxDuration" ثواني.
+/// رد اتصال حفظ التقدم. قم بإلغاء حفظ مستند بعد ثواني "MaxDuration".
 /// </summary>
 public class SavingProgressCallback : IDocumentSavingCallback
 {
     /// <summary>
-    /// تحكم.
+    /// نسبة مئوية.
     /// </summary>
     public SavingProgressCallback()
     {
@@ -168,9 +168,9 @@ public class SavingProgressCallback : IDocumentSavingCallback
     }
 
     /// <summary>
-    /// طريقة رد الاتصال التي تم استدعاؤها أثناء حفظ المستند.
+    /// طريقة رد الاتصال التي يتم استدعاؤها أثناء حفظ المستند.
     /// </summary>
-    /// < param name = "args" > حفظ الوسائط. < / param >
+    /// <param name="args">حفظ الوسائط.</param>
     public void Notify(DocumentSavingArgs args)
     {
         DateTime canceledAt = DateTime.Now;
@@ -180,12 +180,12 @@ public class SavingProgressCallback : IDocumentSavingCallback
     }
 
     /// <summary>
-    /// تاريخ ووقت بدء حفظ المستند.
+    /// التاريخ والوقت الذي يبدأ فيه حفظ المستندات.
     /// </summary>
     private readonly DateTime mSavingStartedAt;
 
     /// <summary>
-    /// أقصى مدة مسموح بها بالثانية.
+    /// الحد الأقصى للمدة المسموح بها بالثواني.
     /// </summary>
     private const double MaxDuration = 0.01d;
 }

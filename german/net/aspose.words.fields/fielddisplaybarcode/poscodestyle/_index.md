@@ -1,14 +1,14 @@
 ---
 title: FieldDisplayBarcode.PosCodeStyle
 second_title: Aspose.Words für .NET-API-Referenz
-description: FieldDisplayBarcode eigendom. Ruft den Stil eines PointofSaleBarcodes ab oder legt ihn fest Barcodetypen UPCAUPCEEAN13EAN8. Die gültigen Werte Groß/Kleinschreibung wird nicht beachtet sind STDSUP2SUP5CASE.
+description: FieldDisplayBarcode eigendom. Ruft den Stil eines PointofSaleBarcodes ab BarcodeTypen UPCAUPCEEAN13EAN8 oder legt diesen fest. Die gültigen Werte ohne Berücksichtigung der Groß und Kleinschreibung sind STDSUP2SUP5CASE.
 type: docs
 weight: 110
 url: /de/net/aspose.words.fields/fielddisplaybarcode/poscodestyle/
 ---
 ## FieldDisplayBarcode.PosCodeStyle property
 
-Ruft den Stil eines Point-of-Sale-Barcodes ab oder legt ihn fest (Barcodetypen UPCA&#x7C;UPCE&#x7C;EAN13&#x7C;EAN8). Die gültigen Werte (Groß-/Kleinschreibung wird nicht beachtet) sind [STD&#x7C;SUP2&#x7C;SUP5&#x7C;CASE].
+Ruft den Stil eines Point-of-Sale-Barcodes ab (Barcode-Typen UPCA&#x7C;UPCE&#x7C;EAN13&#x7C;EAN8) oder legt diesen fest. Die gültigen Werte (ohne Berücksichtigung der Groß- und Kleinschreibung) sind [STD&#x7C;SUP2&#x7C;SUP5&#x7C;CASE].
 
 ```csharp
 public string PosCodeStyle { get; set; }
@@ -24,7 +24,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 FieldDisplayBarcode field = (FieldDisplayBarcode)builder.InsertField(FieldType.FieldDisplayBarcode, true);
 
-// Unten sind vier Arten von Strichcodes, die auf verschiedene Arten dekoriert sind und die das DISPLAYBARCODE-Feld anzeigen kann.
+// Unten sind vier Arten von Barcodes aufgeführt, die auf unterschiedliche Weise dekoriert sind und die im Feld DISPLAYBARCODE angezeigt werden können.
 // 1 - QR-Code mit benutzerdefinierten Farben:
 field.BarcodeType = "QR";
 field.BarcodeValue = "ABC123";
@@ -38,7 +38,7 @@ field.SymbolRotation = "0";
 Assert.AreEqual(" DISPLAYBARCODE  ABC123 QR \\b 0xF8BD69 \\f 0xB5413B \\q 3 \\s 250 \\h 1000 \\r 0", field.GetFieldCode());
 builder.Writeln();
 
-// 2 - EAN13-Barcode, wobei die Ziffern unter den Balken angezeigt werden:
+// 2 – EAN13-Barcode, mit den unter den Balken angezeigten Ziffern:
 field = (FieldDisplayBarcode)builder.InsertField(FieldType.FieldDisplayBarcode, true);
 field.BarcodeType = "EAN13";
 field.BarcodeValue = "501234567890";
@@ -49,7 +49,7 @@ field.FixCheckDigit = true;
 Assert.AreEqual(" DISPLAYBARCODE  501234567890 EAN13 \\t \\p CASE \\x", field.GetFieldCode());
 builder.Writeln();
 
-// 3 - CODE39-Strichcode:
+// 3 - CODE39-Barcode:
 field = (FieldDisplayBarcode)builder.InsertField(FieldType.FieldDisplayBarcode, true);
 field.BarcodeType = "CODE39";
 field.BarcodeValue = "12345ABCDE";
@@ -58,7 +58,7 @@ field.AddStartStopChar = true;
 Assert.AreEqual(" DISPLAYBARCODE  12345ABCDE CODE39 \\d", field.GetFieldCode());
 builder.Writeln();
 
-// 4 - ITF4-Barcode mit einem bestimmten Fallcode:
+// 4 – ITF4-Barcode, mit einem angegebenen Fallcode:
 field = (FieldDisplayBarcode)builder.InsertField(FieldType.FieldDisplayBarcode, true);
 field.BarcodeType = "ITF14";
 field.BarcodeValue = "09312345678907";

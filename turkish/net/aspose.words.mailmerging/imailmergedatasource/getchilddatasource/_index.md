@@ -1,14 +1,14 @@
 ---
 title: IMailMergeDataSource.GetChildDataSource
 second_title: Aspose.Words for .NET API Referansı
-description: IMailMergeDataSource yöntem. Aspose.Words adres mektup birleştirme motoru iç içe bir adres mektup birleştirme bölgesinin başlangıcıyla karşılaştığında bu yöntemi çağırır.
+description: IMailMergeDataSource yöntem. Aspose.Words adresmektup birleştirme motoru iç içe adresmektup birleştirme bölgesinin başlangıcıyla karşılaştığında bu yöntemi çağırır.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.mailmerging/imailmergedatasource/getchilddatasource/
 ---
 ## IMailMergeDataSource.GetChildDataSource method
 
-Aspose.Words adres mektup birleştirme motoru, iç içe bir adres mektup birleştirme bölgesinin başlangıcıyla karşılaştığında bu yöntemi çağırır.
+Aspose.Words adres-mektup birleştirme motoru, iç içe adres-mektup birleştirme bölgesinin başlangıcıyla karşılaştığında bu yöntemi çağırır.
 
 ```csharp
 public IMailMergeDataSource GetChildDataSource(string tableName)
@@ -16,7 +16,7 @@ public IMailMergeDataSource GetChildDataSource(string tableName)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| tableName | String | Şablon belgesinde belirtilen adres mektup birleştirme bölgesinin adı. Büyük/küçük harfe duyarsız. |
+| tableName | String | Şablon belgesinde belirtildiği gibi adres-mektup birleştirme bölgesinin adı. Büyük/küçük harfe duyarlı değildir. |
 
 ### Geri dönüş değeri
 
@@ -24,19 +24,19 @@ Belirtilen tablonun veri kayıtlarına erişim sağlayacak bir veri kaynağı ne
 
 ### Notlar
 
-Aspose.Words adres mektup birleştirme motorları bir adres mektup birleştirme bölgesini verilerle doldurduğunda ve MERGEFIELD TableStart:TableName biçiminde bir iç içe adres mektup birleştirme bölgesinin başlangıcıyla karşılaştığında,`GetChildDataSource` current veri kaynağı nesnesinde. Uygulamanızın, geçerli üst kaydın child kayıtlarına erişim sağlayacak yeni bir veri kaynağı nesnesi döndürmesi gerekiyor. Aspose.Words, iç içe adres mektup birleştirme bölgesini doldurmak için döndürülen veri kaynağını kullanır.
+Aspose.Words adres-mektup birleştirme motorları bir adres-mektup birleştirme bölgesini verilerle doldurduğunda ve MERGEFIELD TableStart:TableName biçiminde bir Nested adres-mektup birleştirme bölgesinin başlangıcıyla karşılaştığında, onu çağırır.`GetChildDataSource` current veri kaynağı nesnesinde. Uygulamanızın, geçerli üst kaydın child kayıtlarına erişim sağlayacak yeni bir veri kaynağı nesnesi döndürmesi gerekiyor. Aspose.Words, iç içe adres-mektup birleştirme bölgesini doldurmak için döndürülen veri kaynağını kullanacaktır.
 
-Aşağıda, uygulamanın`GetChildDataSource` takip etmelisin.
+Aşağıda uygulanması gereken kurallar verilmiştir.`GetChildDataSource` takip etmelisin.
 
-Bu veri kaynağı nesnesi tarafından temsil edilen tablo, belirtilen ada sahip ilgili bir alt (detay) tabloya sahipse, o zaman uygulamanızın yeni bir tablo döndürmesi gerekir.[`IMailMergeDataSource`](../) geçerli kaydın alt kayıtlarına erişim sağlayacak nesne. Buna bir örnek Orders / OrderDetails ilişkisidir. Diyelim ki mevcut[`IMailMergeDataSource`](../) object , Siparişler tablosunu temsil eder ve güncel bir sipariş kaydına sahiptir. Ardından, Aspose.Words belgede "MERGEFIELD TableStart:OrderDetails" ile karşılaşır ve onu çağırır`GetChildDataSource` . oluşturmanız ve döndürmeniz gerekir.[`IMailMergeDataSource`](../) Aspose.Words'ün mevcut sipariş için OrderDetails kaydına erişmesini sağlayacak nesnesi.
+Bu veri kaynağı nesnesi tarafından temsil edilen tablonun belirtilen adla ilgili bir alt (ayrıntı) tablosu varsa, o zaman uygulamanızın yeni bir tablo döndürmesi gerekir[`IMailMergeDataSource`](../)Geçerli kaydın alt kayıtlarına erişim sağlayacak nesne. Buna bir örnek Orders / OrderDetails ilişkisidir. Diyelim ki mevcut[`IMailMergeDataSource`](../) object , Siparişler tablosunu temsil eder ve geçerli bir sipariş kaydına sahiptir. Daha sonra Aspose.Words, belgede "MERGEFIELD TableStart:OrderDetails" ile karşılaşır ve onu çağırır.`GetChildDataSource` . Bir oluşturmanız ve döndürmeniz gerekir.[`IMailMergeDataSource`](../) Aspose.Words'ün mevcut sipariş için OrderDetails kaydına erişmesini sağlayacak nesnesi.
 
-Bu veri kaynağı nesnesinin belirtilen ada sahip tabloyla bir ilişkisi yoksa, o zaman a döndürmeniz gerekir.[`IMailMergeDataSource`](../)belirtilen tablonun tüm kayıtlarına erişim sağlayacak nesne.
+Bu veri kaynağı nesnesinin belirtilen addaki tabloyla ilişkisi yoksa, return a değerini döndürmeniz gerekir[`IMailMergeDataSource`](../) belirtilen tablonun tüm kayıtlarına erişim sağlayacak nesne.
 
-Belirtilen ada sahip bir tablo yoksa, uygulamanız geri dönmelidir`hükümsüz` .
+Belirtilen adda bir tablo mevcut değilse uygulamanız geri dönmelidir`hükümsüz` .
 
 ### Örnekler
 
-Özel nesne biçimindeki bir veri kaynağıyla adres mektup birleştirmenin nasıl yürütüleceğini gösterir.
+Özel nesne biçimindeki bir veri kaynağıyla adres-mektup birleştirmenin nasıl yürütüleceğini gösterir.
 
 ```csharp
 public void CustomDataSource()
@@ -47,11 +47,13 @@ public void CustomDataSource()
     builder.InsertParagraph();
     builder.InsertField(" MERGEFIELD Address ");
 
-    List<Customer> customers = new List<Customer>();
-    customers.Add(new Customer("Thomas Hardy", "120 Hanover Sq., London"));
-    customers.Add(new Customer("Paolo Accorti", "Via Monte Bianco 34, Torino"));
+    List<Customer> customers = new List<Customer>
+    {
+        new Customer("Thomas Hardy", "120 Hanover Sq., London"),
+        new Customer("Paolo Accorti", "Via Monte Bianco 34, Torino")
+    };
 
-    // Özel bir nesneyi veri kaynağı olarak kullanmak için IMailMergeDataSource arabirimini uygulaması gerekir. 
+     // Özel bir nesneyi veri kaynağı olarak kullanmak için IMailMergeDataSource arayüzünü uygulaması gerekir.
     CustomerMailMergeDataSource dataSource = new CustomerMailMergeDataSource(customers);
 
     doc.MailMerge.Execute(dataSource);
@@ -60,7 +62,7 @@ public void CustomDataSource()
 }
 
 /// <summary>
-/// Uygulamanızda bir "veri varlığı" sınıfı örneği.
+/// Uygulamanızdaki "veri varlığı" sınıfına bir örnek.
 /// </summary>
 public class Customer
 {
@@ -75,8 +77,8 @@ public class Customer
 }
 
 /// <summary>
-/// Aspose.Words'e izin vermek için uyguladığınız özel bir adres mektup birleştirme veri kaynağı 
-/// Müşteri nesnelerinizden Microsoft Word belgelerine adres mektup birleştirme verileri.
+ /// Aspose.Words'e izin vermek için uyguladığınız özel bir adres-mektup birleştirme veri kaynağı
+/// Müşteri nesnelerinizdeki posta birleştirme verilerini Microsoft Word belgelerine aktarmak için.
 /// </summary>
 public class CustomerMailMergeDataSource : IMailMergeDataSource
 {
@@ -84,12 +86,12 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
     {
         mCustomers = customers;
 
-        // Veri kaynağını başlattığımızda, konumu ilk kayıttan önce olmalıdır.
+        // Veri kaynağını başlattığımızda konumu ilk kayıttan önce olmalıdır.
         mRecordIndex = -1;
     }
 
     /// <summary>
-    /// Veri kaynağının adı. Aspose.Words tarafından yalnızca tekrarlanabilir bölgelerle adres mektup birleştirme yürütülürken kullanılır.
+    /// Veri kaynağının adı. Aspose.Words tarafından yalnızca tekrarlanabilir bölgelerle adres-mektup birleştirme yürütülürken kullanılır.
     /// </summary>
     public string TableName
     {
@@ -97,7 +99,7 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
     }
 
     /// <summary>
-    /// Aspose.Words, her veri alanı için bir değer almak için bu yöntemi çağırır.
+    /// Aspose.Words her veri alanı için bir değer elde etmek amacıyla bu yöntemi çağırır.
     /// </summary>
     public bool GetValue(string fieldName, out object fieldValue)
     {
@@ -110,7 +112,7 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
                 fieldValue = mCustomers[mRecordIndex].Address;
                 return true;
             default:
-                // Belirtmek için Aspose.Words adres mektup birleştirme motoruna "false" döndür
+                // Aspose.Words adres-mektup birleştirme motoruna şunu belirtmek için "yanlış" değerini döndürün
                 // bu isimde bir alan bulamadık.
                 fieldValue = null;
                 return false;

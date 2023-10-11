@@ -1,14 +1,14 @@
 ---
 title: Table.SetBorder
 second_title: Aspose.Words for .NET API Referansı
-description: Table yöntem. Belirtilen tablo kenarlığını belirtilen çizgi stili genişlik ve renge ayarlar.
+description: Table yöntem. Belirtilen tablo kenarlığını belirtilen çizgi stiline genişliğine ve rengine ayarlar.
 type: docs
-weight: 410
+weight: 430
 url: /tr/net/aspose.words.tables/table/setborder/
 ---
 ## Table.SetBorder method
 
-Belirtilen tablo kenarlığını belirtilen çizgi stili, genişlik ve renge ayarlar.
+Belirtilen tablo kenarlığını belirtilen çizgi stiline, genişliğine ve rengine ayarlar.
 
 ```csharp
 public void SetBorder(BorderType borderType, LineStyle lineStyle, double lineWidth, Color color, 
@@ -19,7 +19,7 @@ public void SetBorder(BorderType borderType, LineStyle lineStyle, double lineWid
 | --- | --- | --- |
 | borderType | BorderType | Tablo kenarlığı değiştirilecek. |
 | lineStyle | LineStyle | Uygulanacak çizgi stili. |
-| lineWidth | Double | Ayarlanacak çizgi genişliği (nokta olarak). |
+| lineWidth | Double | Ayarlanacak çizgi genişliği (nokta cinsinden). |
 | color | Color | Kenarlık için kullanılacak renk. |
 | isOverrideCellBorders | Boolean | Ne zaman`doğru`, mevcut tüm açık hücre sınırlarının kaldırılmasına neden olur. |
 
@@ -34,7 +34,7 @@ Table table = doc.FirstSection.Body.Tables[0];
 // Tabloyu sayfanın ortasına hizalayın.
 table.Alignment = TableAlignment.Center;
 
-// Tablodaki mevcut kenarlıkları ve gölgelemeleri temizleyin.
+// Tablodaki mevcut sınırları ve gölgeleri temizleyin.
 table.ClearBorders();
 table.ClearShading();
 

@@ -3,12 +3,14 @@ title: Class RunCollection
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.RunCollection klass. Ger maskinskriven åtkomst till en samling avRun noder.
 type: docs
-weight: 4570
+weight: 4830
 url: /sv/net/aspose.words/runcollection/
 ---
 ## RunCollection class
 
 Ger maskinskriven åtkomst till en samling av[`Run`](../run/) noder.
+
+För att lära dig mer, besök[Programmering med dokument](https://docs.aspose.com/words/net/programming-with-documents/) dokumentationsartikel.
 
 ```csharp
 public class RunCollection : NodeCollection
@@ -19,7 +21,7 @@ public class RunCollection : NodeCollection
 | namn | Beskrivning |
 | --- | --- |
 | [Count](../../aspose.words/nodecollection/count/) { get; } | Hämtar antalet noder i samlingen. |
-| [Item](../../aspose.words/runcollection/item/) { get; } | Hämtar en **Springa** vid det givna indexet. (2 indexers) |
+| [Item](../../aspose.words/runcollection/item/) { get; } | Hämtar en[`Run`](../run/) vid det givna indexet. (2 indexers) |
 
 ## Metoder
 

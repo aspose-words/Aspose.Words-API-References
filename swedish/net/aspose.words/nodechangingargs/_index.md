@@ -3,12 +3,14 @@ title: Class NodeChangingArgs
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.NodeChangingArgs klass. Tillhandahåller data för metoder förINodeChangingCallback gränssnitt.
 type: docs
-weight: 3950
+weight: 4190
 url: /sv/net/aspose.words/nodechangingargs/
 ---
 ## NodeChangingArgs class
 
 Tillhandahåller data för metoder för[`INodeChangingCallback`](../inodechangingcallback/) gränssnitt.
+
+För att lära dig mer, besök[Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) dokumentationsartikel.
 
 ```csharp
 public class NodeChangingArgs
@@ -28,6 +30,7 @@ public class NodeChangingArgs
 Visar hur du anpassar nodbyte med en återuppringning.
 
 ```csharp
+public void FontChangeViaCallback()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -45,6 +48,7 @@ Visar hur du anpassar nodbyte med en återuppringning.
     doc.Range.Fields[0].Remove();
 
     Console.WriteLine(callback.GetLog());
+}
 
 /// <summary>
 /// Loggar datum och tid för varje nod insättning och borttagning.

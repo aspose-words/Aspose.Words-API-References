@@ -1,14 +1,14 @@
 ---
 title: ListLevel.GetEffectiveValue
 second_title: Aspose.Words per .NET API Reference
-description: ListLevel metodo. Riporta la rappresentazione di stringa delListLevel oggetto per lindice specificato della voce di elenco. I parametri specificano ilNumberStyle e un formato opzionale string utilizzato quandoCustom è specificato.
+description: ListLevel metodo. Riporta la rappresentazione in stringa del fileListLeveloggetto per lindice specificato dellelemento dellelenco. I parametri specificano ilNumberStyle e un formato opzionale string utilizzato quandoCustom è specificato.
 type: docs
 weight: 190
 url: /it/net/aspose.words.lists/listlevel/geteffectivevalue/
 ---
 ## ListLevel.GetEffectiveValue method
 
-Riporta la rappresentazione di stringa del[`ListLevel`](../) oggetto per l'indice specificato della voce di elenco. I parametri specificano il[`NumberStyle`](../../../aspose.words/numberstyle/) e un formato opzionale string utilizzato quandoCustom è specificato.
+Riporta la rappresentazione in stringa del file[`ListLevel`](../)oggetto per l'indice specificato dell'elemento dell'elenco. I parametri specificano il[`NumberStyle`](../../../aspose.words/numberstyle/) e un formato opzionale string utilizzato quandoCustom è specificato.
 
 ```csharp
 public static string GetEffectiveValue(int index, NumberStyle numberStyle, 
@@ -17,24 +17,24 @@ public static string GetEffectiveValue(int index, NumberStyle numberStyle,
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| index | Int32 | L'indice della voce dell'elenco (deve essere compreso tra 1 e 32767). |
+| index | Int32 | L'indice dell'elemento dell'elenco (deve essere compreso tra 1 e 32767). |
 | numberStyle | NumberStyle | Il[`NumberStyle`](../../../aspose.words/numberstyle/) del[`ListLevel`](../) oggetto. |
-| customNumberStyleFormat | String | La stringa di formato opzionale utilizzata quandoCustom è specificato (ad es. "a, ç, ĝ, ..."). Negli altri casi, questo parametro deve essere nullo o vuoto. |
+| customNumberStyleFormat | String | La stringa di formato opzionale utilizzata quandoCustom è specificato (es. "a, ç, ĝ, ..."). Negli altri casi questo parametro deve essere`nullo` o vuoto. |
 
 ### Valore di ritorno
 
-La rappresentazione di stringa di[`ListLevel`](../) oggetto, descritto dal parametro numberStyle e dal parametro customNumberStyleFormat, nella voce di elenco nella posizione determinata dal parametro index.
+La rappresentazione di stringa di[`ListLevel`](../) oggetto, descritto da*numberStyle* parametro e il*customNumberStyleFormat* parametro, nella voce di elenco nella posizione determinata dal*index* parametro.
 
 ### Eccezioni
 
 | eccezione | condizione |
 | --- | --- |
-| ArgumentException | customNumberStyleFormat è nullo o vuoto quando numberStyle è personalizzato.-o-- customNumberStyleFormat non è nullo o vuoto quando numberStyle non è personalizzato.-o-- customNumberStyleFormat non è valido. |
+| ArgumentException | *customNumberStyleFormat* È`nullo` o vuoto quando il*numberStyle* è personalizzato.-o- *customNumberStyleFormat* non è`nullo` o vuoto quando il*numberStyle* non è personalizzato.-o- *customNumberStyleFormat* non è valido. |
 | ArgumentOutOfRangeException | l'indice è fuori intervallo. |
 
 ### Esempi
 
-Mostra come ottenere il formato per un elenco con lo stile numerico personalizzato.
+Mostra come ottenere il formato di un elenco con lo stile numero personalizzato.
 
 ```csharp
 Document doc = new Document(MyDir + "List with leading zero.docx");

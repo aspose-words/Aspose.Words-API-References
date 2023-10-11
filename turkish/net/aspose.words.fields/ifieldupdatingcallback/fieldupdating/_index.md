@@ -8,7 +8,7 @@ url: /tr/net/aspose.words.fields/ifieldupdatingcallback/fieldupdating/
 ---
 ## IFieldUpdatingCallback.FieldUpdating method
 
-Bir alan güncellenmeden hemen önce çağrılan kullanıcı tanımlı bir yöntem.
+Bir alan güncellenmeden hemen önce çağrılan, kullanıcı tanımlı bir yöntem.
 
 ```csharp
 public void FieldUpdating(Field field)
@@ -16,9 +16,10 @@ public void FieldUpdating(Field field)
 
 ### Örnekler
 
-Bir alan güncellemesi sırasında geri arama yöntemlerinin nasıl kullanılacağını gösterir.
+Alan güncellemesi sırasında geri çağırma yöntemlerinin nasıl kullanılacağını gösterir.
 
 ```csharp
+public void FieldUpdatingCallbackTest()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -41,7 +42,7 @@ Bir alan güncellemesi sırasında geri arama yöntemlerinin nasıl kullanılaca
 /// <summary>
 /// Bir alan güncellemesi sırasında kendi özel yöntemlerinizin çağrılmasını istiyorsanız bu arayüzü uygulayın.
 /// </summary>
-public class FieldUpdatingCallback : IFieldUpdatingCallback
+public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgressCallback
 {
     public FieldUpdatingCallback()
     {
@@ -66,6 +67,12 @@ public class FieldUpdatingCallback : IFieldUpdatingCallback
     void IFieldUpdatingCallback.FieldUpdated(Field field)
     {
         FieldUpdatedCalls.Add(field.Result);
+    }
+
+    void IFieldUpdatingProgressCallback.Notify(FieldUpdatingProgressArgs args)
+    {
+        Console.WriteLine($"{args.UpdateCompleted}/{args.TotalFieldsCount}");
+        Console.WriteLine($"{args.UpdatedFieldsCount}");
     }
 
     public IList<string> FieldUpdatedCalls { get; }

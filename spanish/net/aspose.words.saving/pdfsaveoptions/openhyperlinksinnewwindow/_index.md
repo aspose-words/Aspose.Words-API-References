@@ -1,14 +1,14 @@
 ---
 title: PdfSaveOptions.OpenHyperlinksInNewWindow
 second_title: Referencia de API de Aspose.Words para .NET
-description: PdfSaveOptions propiedad. Obtiene o establece un valor que determina si los hipervínculos en el documento PDF de salida deben abrirse en una nueva ventana o pestaña de un navegador.
+description: PdfSaveOptions propiedad. Obtiene o establece un valor que determina si los hipervínculos en el documento PDF de salida se fuerzan a abrirse en una nueva ventana o pestaña de un navegador.
 type: docs
-weight: 200
+weight: 230
 url: /es/net/aspose.words.saving/pdfsaveoptions/openhyperlinksinnewwindow/
 ---
 ## PdfSaveOptions.OpenHyperlinksInNewWindow property
 
-Obtiene o establece un valor que determina si los hipervínculos en el documento PDF de salida deben abrirse en una nueva ventana (o pestaña) de un navegador.
+Obtiene o establece un valor que determina si los hipervínculos en el documento PDF de salida se fuerzan a abrirse en una nueva ventana (o pestaña) de un navegador.
 
 ```csharp
 public bool OpenHyperlinksInNewWindow { get; set; }
@@ -16,28 +16,28 @@ public bool OpenHyperlinksInNewWindow { get; set; }
 
 ### Observaciones
 
-El valor predeterminado es`falso` . Cuando este valor se establece en`verdadero` los hipervínculos se guardan con código JavaScript. El código JavaScript es`app.launchURL("URL", verdadero);`, donde`URL` es un hipervínculo.
+El valor predeterminado es`FALSO` . Cuando este valor se establece en`verdadero` los hipervínculos se guardan usando código JavaScript. El código JavaScript es`app.launchURL("URL", verdadero);` , donde`URL` es un hipervínculo.
 
-Tenga en cuenta que si esta opción se establece en`verdadero` los hipervínculos no pueden funcionar en algunos lectores de PDF, por ejemplo, Chrome, Firefox.
+Tenga en cuenta que si esta opción está configurada en`verdadero` los hipervínculos no pueden funcionar en algunos lectores de PDF, por ejemplo, Chrome, Firefox.
 
-Las acciones de JavaScript están prohibidas por el cumplimiento de PDF/A-1 y PDF/A-2.`falso` se usará automáticamente cuando guarde en PDF/A-1 y PDF/A-2.
+Las acciones de JavaScript están prohibidas por el cumplimiento de PDF/A-1 y PDF/A-2.`FALSO`se utilizará automáticamente cuando guarde en PDF/A-1 y PDF/A-2.
 
 ### Ejemplos
 
-Muestra cómo guardar hipervínculos en un documento que convertimos a PDF para que se abran nuevas páginas cuando hacemos clic en ellos.
+Muestra cómo guardar hipervínculos en un documento que convertimos a PDF para que abran nuevas páginas cuando hagamos clic en ellos.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
-builder.InsertHyperlink("Testlink", @"https://www.google.com/search?q=%20aspose", falso);
+builder.InsertHyperlink("Testlink", @"https://www.google.com/search?q=%20aspose", false);
 
 // Crea un objeto "PdfSaveOptions" que podemos pasar al método "Guardar" del documento
 // para modificar cómo ese método convierte el documento a .PDF.
 PdfSaveOptions options = new PdfSaveOptions();
 
-// Establezca la propiedad "OpenHyperlinksInNewWindow" en "true" para guardar todos los hipervínculos usando código Javascript
+// Establece la propiedad "OpenHyperlinksInNewWindow" en "true" para guardar todos los hipervínculos usando código Javascript
 // que obliga a los lectores a abrir estos enlaces en nuevas ventanas/pestañas del navegador.
-// Establezca la propiedad "OpenHyperlinksInNewWindow" en "false" para guardar todos los hipervínculos normalmente.
+// Establece la propiedad "OpenHyperlinksInNewWindow" en "false" para guardar todos los hipervínculos normalmente.
 options.OpenHyperlinksInNewWindow = openHyperlinksInNewWindow;
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.OpenHyperlinksInNewWindow.pdf", options);

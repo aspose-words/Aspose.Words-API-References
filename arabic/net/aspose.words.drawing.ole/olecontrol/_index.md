@@ -3,12 +3,14 @@ title: Class OleControl
 second_title: Aspose.Words لمراجع .NET API
 description: Aspose.Words.Drawing.Ole.OleControl فصل. يمثل عنصر تحكم OLE ActiveX.
 type: docs
-weight: 1010
+weight: 1140
 url: /ar/net/aspose.words.drawing.ole/olecontrol/
 ---
 ## OleControl class
 
 يمثل عنصر تحكم OLE ActiveX.
+
+لمعرفة المزيد، قم بزيارة[العمل مع كائنات Ole](https://docs.aspose.com/words/net/working-with-ole-objects/) مقالة توثيقية.
 
 ```csharp
 public class OleControl
@@ -18,8 +20,8 @@ public class OleControl
 
 | اسم | وصف |
 | --- | --- |
-| virtual [IsForms2OleControl](../../aspose.words.drawing.ole/olecontrol/isforms2olecontrol/) { get; } | إرجاع صحيح إذا كان عنصر التحكم[`Forms2OleControl`](../forms2olecontrol/) . |
-| [Name](../../aspose.words.drawing.ole/olecontrol/name/) { get; } | الحصول على اسم عنصر تحكم ActiveX . |
+| [IsForms2OleControl](../../aspose.words.drawing.ole/olecontrol/isforms2olecontrol/) { get; } | إرجاع`حقيقي` إذا كان التحكم أ[`Forms2OleControl`](../forms2olecontrol/) . |
+| [Name](../../aspose.words.drawing.ole/olecontrol/name/) { get; set; } | الحصول على اسم عنصر تحكم ActiveX أو تعيينه. |
 
 ### أمثلة
 
@@ -31,7 +33,7 @@ Document doc = new Document(MyDir + "ActiveX controls.docx");
 Shape shape = (Shape) doc.GetChild(NodeType.Shape, 0, true);
 OleControl oleControl = shape.OleFormat.OleControl;
 
-Assert.AreEqual(null, oleControl.Name);
+Assert.AreEqual("CheckBox1", oleControl.Name);
 
 if (oleControl.IsForms2OleControl)
 {
@@ -41,6 +43,10 @@ if (oleControl.IsForms2OleControl)
     Assert.AreEqual(true, checkBox.Enabled);
     Assert.AreEqual(Forms2OleControlType.CheckBox, checkBox.Type);
     Assert.AreEqual(null, checkBox.ChildNodes);
+    Assert.AreEqual(string.Empty, checkBox.GroupName);
+
+    // لاحظ أنه لا يمكنك تعيين اسم المجموعة للإطار.
+    checkBox.GroupName = "Aspose group name";
 }
 ```
 

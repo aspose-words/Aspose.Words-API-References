@@ -1,14 +1,14 @@
 ---
 title: CompareOptions.Target
 second_title: Aspose.Words لمراجع .NET API
-description: CompareOptions ملكية. يحدد المستند الذي يجب استخدامه كهدف أثناء المقارنة.
+description: CompareOptions ملكية. يحدد الوثيقة التي سيتم استخدامها كهدف أثناء المقارنة.
 type: docs
-weight: 120
+weight: 130
 url: /ar/net/aspose.words.comparing/compareoptions/target/
 ---
 ## CompareOptions.Target property
 
-يحدد المستند الذي يجب استخدامه كهدف أثناء المقارنة.
+يحدد الوثيقة التي سيتم استخدامها كهدف أثناء المقارنة.
 
 ```csharp
 public ComparisonTargetType Target { get; set; }
@@ -16,18 +16,18 @@ public ComparisonTargetType Target { get; set; }
 
 ### أمثلة
 
-يوضح كيفية تصفية أنواع معينة من عناصر المستند عند إجراء مقارنة.
+يوضح كيفية تصفية أنواع معينة من عناصر المستند عند إجراء المقارنة.
 
 ```csharp
 // أنشئ المستند الأصلي واملأه بأنواع مختلفة من العناصر.
 Document docOriginal = new Document();
 DocumentBuilder builder = new DocumentBuilder(docOriginal);
 
-// نص فقرة مشار إليه بتعليق ختامي:
+// نص الفقرة المشار إليه بتعليق ختامي:
 builder.Writeln("Hello world! This is the first paragraph.");
 builder.InsertFootnote(FootnoteType.Endnote, "Original endnote text.");
 
-// الطاولة:
+// طاولة:
 builder.StartTable();
 builder.InsertCell();
 builder.Write("Original cell 1 text");
@@ -49,11 +49,11 @@ Comment newComment = new Comment(docOriginal, "John Doe", "J.D.", DateTime.Now);
 newComment.SetText("Original comment.");
 builder.CurrentParagraph.AppendChild(newComment);
 
-// العنوان:
+// الرأس:
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 builder.Writeln("Original header contents.");
 
-// قم بإنشاء نسخة من وثيقتنا وقم بإجراء تعديل سريع على كل عنصر من عناصر المستند المنسوخ.
+// أنشئ نسخة من المستند الخاص بنا وقم بإجراء تحرير سريع على كل عنصر من عناصر المستند المستنسخ.
 Document docEdited = (Document)docOriginal.Clone(true);
 Paragraph firstParagraph = docEdited.FirstSection.Body.FirstParagraph;
 
@@ -67,9 +67,9 @@ firstParagraph.ParagraphFormat.Style = docEdited.Styles[StyleIdentifier.Heading1
 docEdited.FirstSection.HeadersFooters[HeaderFooterType.HeaderPrimary].FirstParagraph.Runs[0].Text =
     "Edited header contents.";
 
-// تؤدي المقارنة بين المستندات إلى إنشاء مراجعة لكل تحرير في المستند المحرر.
+// تؤدي مقارنة المستندات إلى إنشاء مراجعة لكل تعديل في المستند الذي تم تحريره.
 // يحتوي كائن CompareOptions على سلسلة من العلامات التي يمكنها منع المراجعات
-// على كل نوع من العناصر ، متجاهلاً تغييرها بشكل فعال.
+// على كل نوع من العناصر، مع تجاهل التغيير بشكل فعال.
 Aspose.Words.Comparing.CompareOptions compareOptions = new Aspose.Words.Comparing.CompareOptions();
 compareOptions.IgnoreFormatting = false;
 compareOptions.IgnoreCaseChanges = false;

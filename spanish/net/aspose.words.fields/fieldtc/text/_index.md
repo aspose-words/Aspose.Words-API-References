@@ -19,6 +19,7 @@ public string Text { get; set; }
 Muestra cómo insertar un campo TOC y filtrar qué campos TC terminan como entradas.
 
 ```csharp
+public void FieldTocEntryIdentifier()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -47,9 +48,10 @@ Muestra cómo insertar un campo TOC y filtrar qué campos TC terminan como entra
 
     doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.TC.docx");
+}
 
 /// <summary>
-/// Use un generador de documentos para insertar un campo TC.
+/// Utilice un generador de documentos para insertar un campo TC.
 /// </summary>
 public void InsertTocEntry(DocumentBuilder builder, string text, string typeIdentifier, string entryLevel)
 {

@@ -1,14 +1,14 @@
 ---
 title: HtmlFixedSaveOptions.SaveFontFaceCssSeparately
 second_title: Aspose.Words for .NET API 参考
-description: HtmlFixedSaveOptions 财产. 标志指示当使用外部样式表保存文档时即当ExportEmbeddedCss 是错误的. 默认值为错误的所有CSS规则都写入单个文件styles.css.
+description: HtmlFixedSaveOptions 财产. 标志指示当使用外部样式表保存文档时即当ExportEmbeddedCss 是错误的. 默认值为错误的所有 CSS 规则都写入单个文件styles.css.
 type: docs
 weight: 160
 url: /zh/net/aspose.words.saving/htmlfixedsaveoptions/savefontfacecssseparately/
 ---
 ## HtmlFixedSaveOptions.SaveFontFaceCssSeparately property
 
-标志指示当使用外部样式表保存文档时（即，当[`ExportEmbeddedCss`](../exportembeddedcss/) 是`错误的`). 默认值为`错误的`，所有CSS规则都写入单个文件“styles.css”.
+标志指示当使用外部样式表保存文档时（即，当[`ExportEmbeddedCss`](../exportembeddedcss/) 是`错误的`). 默认值为`错误的`，所有 CSS 规则都写入单个文件“styles.css”.
 
 ```csharp
 public bool SaveFontFaceCssSeparately { get; set; }
@@ -20,7 +20,7 @@ public bool SaveFontFaceCssSeparately { get; set; }
 
 ### 例子
 
-展示了如何将 CSS 放入一个单独的文件中，并为它的所有 CSS 类名添加一个前缀。
+演示如何将 CSS 放入单独的文件中并为其所有 CSS 类名称添加前缀。
 
 ```csharp
 Document doc = new Document(MyDir + "Bookmarks.docx");

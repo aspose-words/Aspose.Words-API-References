@@ -16,7 +16,7 @@ public int Count { get; }
 
 ### Exemples
 
-Montre comment accéder à un contrôle OLE incorporé dans un document et ses contrôles enfants.
+Montre comment accéder à un contrôle OLE incorporé dans un document et à ses contrôles enfants.
 
 ```csharp
 Document doc = new Document(MyDir + "OLE ActiveX controls.docm");

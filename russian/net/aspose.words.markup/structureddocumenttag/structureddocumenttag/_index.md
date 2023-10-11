@@ -36,7 +36,7 @@ public StructuredDocumentTag(DocumentBase doc, SdtType type, MarkupLevel level)
 
 ### Примеры
 
-Покажите, как создать тег структурированного документа в виде флажка.
+Покажите, как создать структурированный тег документа в виде флажка.
 
 ```csharp
 Document doc = new Document();
@@ -45,7 +45,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 StructuredDocumentTag sdtCheckBox =
     new StructuredDocumentTag(doc, SdtType.Checkbox, MarkupLevel.Inline) {Checked = true};
 
-// Мы можем установить символы, используемые для представления отмеченного/не отмеченного состояния элемента управления содержимым флажка.
+// Мы можем установить символы, используемые для представления отмеченного/неотмеченного состояния элемента управления содержимым флажка.
 sdtCheckBox.SetCheckedSymbol(0x00A9, "Times New Roman");
 sdtCheckBox.SetUncheckedSymbol(0x00AE, "Times New Roman");
 

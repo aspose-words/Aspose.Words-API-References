@@ -1,14 +1,14 @@
 ---
 title: ParagraphFormat.LineUnitBefore
 second_title: Aspose.Words für .NET-API-Referenz
-description: ParagraphFormat eigendom. Ruft den Abstand in Gitternetzlinien vor den Absätzen ab oder legt ihn fest.
+description: ParagraphFormat eigendom. Ruft den Abstand in Gitterlinien vor den Absätzen ab oder legt diesen fest.
 type: docs
-weight: 220
+weight: 230
 url: /de/net/aspose.words/paragraphformat/lineunitbefore/
 ---
 ## ParagraphFormat.LineUnitBefore property
 
-Ruft den Abstand (in Gitternetzlinien) vor den Absätzen ab oder legt ihn fest.
+Ruft den Abstand (in Gitterlinien) vor den Absätzen ab oder legt diesen fest.
 
 ```csharp
 public double LineUnitBefore { get; set; }
@@ -16,14 +16,14 @@ public double LineUnitBefore { get; set; }
 
 ### Beispiele
 
-Zeigt, wie Sie Absatzabstände und Einzüge ändern.
+Zeigt, wie Absatzabstände und Einzüge geändert werden.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ParagraphFormat format = doc.FirstSection.Body.FirstParagraph.ParagraphFormat;
 
-// Unten sind fünf verschiedene Abstandsoptionen, zusammen mit den Eigenschaften, die ihre Konfiguration indirekt beeinflusst.
+// Nachfolgend finden Sie fünf verschiedene Abstandsoptionen sowie die Eigenschaften, die sich durch ihre Konfiguration indirekt auswirken.
 // 1 - Linker Einzug:
 Assert.AreEqual(format.LeftIndent, 0.0d);
 

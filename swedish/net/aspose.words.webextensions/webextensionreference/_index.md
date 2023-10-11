@@ -3,12 +3,14 @@ title: Class WebExtensionReference
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.WebExtensions.WebExtensionReference klass. Representerar referensen till ett webbtillägg. Referensen används för att identifiera leverantörens plats och version av tillägget .
 type: docs
-weight: 6490
+weight: 6800
 url: /sv/net/aspose.words.webextensions/webextensionreference/
 ---
 ## WebExtensionReference class
 
 Representerar referensen till ett webbtillägg. Referensen används för att identifiera leverantörens plats och version av tillägget .
+
+För att lära dig mer, besök[Arbeta med Office-tillägg](https://docs.aspose.com/words/net/work-with-office-add-ins/) dokumentationsartikel.
 
 ```csharp
 public class WebExtensionReference

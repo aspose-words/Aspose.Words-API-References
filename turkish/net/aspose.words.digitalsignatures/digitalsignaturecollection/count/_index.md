@@ -1,14 +1,14 @@
 ---
 title: DigitalSignatureCollection.Count
 second_title: Aspose.Words for .NET API Referansı
-description: DigitalSignatureCollection mülk. Koleksiyonda bulunan öğelerin sayısını alır.
+description: DigitalSignatureCollection mülk. Koleksiyonda yer alan öğelerin sayısını alır.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.digitalsignatures/digitalsignaturecollection/count/
 ---
 ## DigitalSignatureCollection.Count property
 
-Koleksiyonda bulunan öğelerin sayısını alır.
+Koleksiyonda yer alan öğelerin sayısını alır.
 
 ```csharp
 public int Count { get; }
@@ -16,17 +16,17 @@ public int Count { get; }
 
 ### Örnekler
 
-X.509 sertifikalarıyla belgelerin nasıl imzalanacağını gösterir.
+X.509 sertifikalarına sahip belgelerin nasıl imzalanacağını gösterir.
 
 ```csharp
 // Bir belgenin imzalanmadığını doğrulayın.
 Assert.False(FileFormatUtil.DetectFileFormat(MyDir + "Document.docx").HasDigitalSignature);
 
-// Belgeyi imzalamak için kullanacağımız bir PKCS12 dosyasından bir CertificateHolder nesnesi oluşturun.
+// Belgeyi imzalamak için kullanacağımız PKCS12 dosyasından bir SertifikaHolder nesnesi oluşturun.
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw", null);
 
-// Belgenin imzalı bir kopyasını yerel dosya sistemine kaydetmenin iki yolu vardır:
-// 1 - Bir belgeyi yerel sistem dosya adıyla atayın ve imzalı bir kopyayı başka bir dosya adıyla belirtilen bir konuma kaydedin.
+// Bir belgenin imzalı bir kopyasını yerel dosya sistemine kaydetmenin iki yolu vardır:
+// 1 - Bir belgeyi yerel sistem dosya adına göre atayın ve imzalı bir kopyasını başka bir dosya adıyla belirtilen konuma kaydedin.
 DigitalSignatureUtil.Sign(MyDir + "Document.docx", ArtifactsDir + "Document.DigitalSignature.docx", 
     certificateHolder, new SignOptions() { SignTime = DateTime.Now } );
 

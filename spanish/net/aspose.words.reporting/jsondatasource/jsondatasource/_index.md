@@ -16,7 +16,7 @@ public JsonDataSource(string jsonPath)
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| jsonPath | String | La ruta al archivo JSON que se usará como fuente de datos. |
+| jsonPath | String | La ruta al archivo JSON que se utilizará como fuente de datos. |
 
 ### Ver también
 
@@ -28,7 +28,7 @@ public JsonDataSource(string jsonPath)
 
 ## JsonDataSource(Stream) {#constructor}
 
-Crea una nueva fuente de datos con datos de un flujo JSON usando opciones predeterminadas para analizar datos JSON.
+Crea una nueva fuente de datos con datos de una secuencia JSON usando opciones predeterminadas para analizar datos JSON.
 
 ```csharp
 public JsonDataSource(Stream jsonStream)
@@ -48,7 +48,7 @@ public JsonDataSource(Stream jsonStream)
 
 ## JsonDataSource(string, JsonDataLoadOptions) {#constructor_3}
 
-Crea una nueva fuente de datos con datos de un archivo JSON utilizando las opciones especificadas para analizar datos JSON.
+Crea una nueva fuente de datos con datos de un archivo JSON usando las opciones especificadas para analizar datos JSON.
 
 ```csharp
 public JsonDataSource(string jsonPath, JsonDataLoadOptions options)
@@ -56,7 +56,7 @@ public JsonDataSource(string jsonPath, JsonDataLoadOptions options)
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| jsonPath | String | La ruta al archivo JSON que se usará como fuente de datos. |
+| jsonPath | String | La ruta al archivo JSON que se utilizará como fuente de datos. |
 | options | JsonDataLoadOptions | Opciones para analizar datos JSON. |
 
 ### Ver también
@@ -70,7 +70,7 @@ public JsonDataSource(string jsonPath, JsonDataLoadOptions options)
 
 ## JsonDataSource(Stream, JsonDataLoadOptions) {#constructor_1}
 
-Crea una nueva fuente de datos con datos de un flujo JSON usando las opciones especificadas para analizar datos JSON.
+Crea una nueva fuente de datos con datos de una secuencia JSON utilizando las opciones especificadas para analizar datos JSON.
 
 ```csharp
 public JsonDataSource(Stream jsonStream, JsonDataLoadOptions options)

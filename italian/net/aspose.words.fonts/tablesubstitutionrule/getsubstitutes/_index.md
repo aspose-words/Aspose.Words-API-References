@@ -24,13 +24,13 @@ Elenco di nomi di caratteri alternativi.
 
 ### Esempi
 
-Mostra come accedere all'origine dei caratteri di sistema di un documento e impostare i caratteri sostitutivi.
+Mostra come accedere all'origine dei caratteri di sistema di un documento e impostare i sostituti dei caratteri.
 
 ```csharp
 Document doc = new Document();
 doc.FontSettings = new FontSettings();
 
-// Per impostazione predefinita, un documento vuoto contiene sempre un'origine del carattere di sistema.
+// Per impostazione predefinita, un documento vuoto contiene sempre un'origine carattere di sistema.
 Assert.AreEqual(1, doc.FontSettings.GetFontsSources().Length);
 
 SystemFontSource systemFontSource = (SystemFontSource) doc.FontSettings.GetFontsSources()[0];
@@ -52,7 +52,7 @@ foreach (string systemFontFolder in SystemFontSource.GetSystemFontFolders())
     Console.WriteLine(systemFontFolder);
 }
 
-// Imposta un carattere che esiste nella directory dei caratteri di Windows come sostituto di uno che non lo è.
+// Imposta un carattere esistente nella directory Fonts di Windows come sostituto di uno che non esiste.
 doc.FontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
 doc.FontSettings.SubstitutionSettings.TableSubstitution.AddSubstitutes("Kreon-Regular", new[] {"Calibri"});
 
@@ -61,7 +61,7 @@ Assert.AreEqual(1,
 Assert.Contains("Calibri",
     doc.FontSettings.SubstitutionSettings.TableSubstitution.GetSubstitutes("Kreon-Regular").ToArray());
 
-// In alternativa, potremmo aggiungere una cartella font source in cui la cartella corrispondente contiene il font.
+// In alternativa, potremmo aggiungere una cartella di origine del carattere in cui la cartella corrispondente contiene il carattere.
 FolderFontSource folderFontSource = new FolderFontSource(FontsDir, false);
 doc.FontSettings.SetFontsSources(new FontSourceBase[] {systemFontSource, folderFontSource});
 Assert.AreEqual(2, doc.FontSettings.GetFontsSources().Length);
@@ -82,12 +82,12 @@ Document doc = new Document();
 FontSettings fontSettings = new FontSettings();
 doc.FontSettings = fontSettings;
 
-// Crea una nuova regola di sostituzione delle tabelle e carica la tabella di sostituzione dei caratteri predefinita di Windows.
+// Crea una nuova regola di sostituzione della tabella e carica la tabella di sostituzione dei caratteri Windows predefinita.
 TableSubstitutionRule tableSubstitutionRule = fontSettings.SubstitutionSettings.TableSubstitution;
 
 // Se selezioniamo i caratteri esclusivamente dalla nostra cartella, avremo bisogno di una tabella di sostituzione personalizzata.
 // Non avremo più accesso ai font di Microsoft Windows,
-// come "Arial" o "Times New Roman" poiché non esistono nella nostra nuova cartella dei caratteri.
+// come "Arial" o "Times New Roman" poiché non esistono nella nostra nuova cartella di caratteri.
 FolderFontSource folderFontSource = new FolderFontSource(FontsDir, false);
 fontSettings.SetFontsSources(new FontSourceBase[] {folderFontSource});
 
@@ -101,11 +101,11 @@ using (FileStream fileStream = new FileStream(MyDir + "Font substitution rules.x
 // 2 - Direttamente da un file:
 tableSubstitutionRule.Load(MyDir + "Font substitution rules.xml");
 
-// Dal momento che non abbiamo più accesso ad "Arial", la nostra tabella dei caratteri proverà prima a sostituirlo con "Carattere inesistente".
-// Non abbiamo questo font in modo che si sposterà sul successivo sostituto, "Kreon", che si trova nella cartella "MyFonts".
+// Poiché non abbiamo più accesso ad "Arial", la nostra tabella dei caratteri proverà prima a sostituirlo con "Font non esistente".
+// Non abbiamo questo carattere quindi verrà spostato nel successivo sostituto, "Kreon", trovato nella cartella "MyFonts".
 Assert.AreEqual(new[] {"Missing Font", "Kreon"}, tableSubstitutionRule.GetSubstitutes("Arial").ToArray());
 
-// Possiamo espandere questa tabella a livello di codice. Aggiungeremo una voce che sostituisce "Times New Roman" con "Arvo"
+// Possiamo espandere questa tabella a livello di codice. Aggiungeremo una voce che sostituirà "Times New Roman" con "Arvo"
 Assert.Null(tableSubstitutionRule.GetSubstitutes("Times New Roman"));
 tableSubstitutionRule.AddSubstitutes("Times New Roman", "Arvo");
 Assert.AreEqual(new[] {"Arvo"}, tableSubstitutionRule.GetSubstitutes("Times New Roman").ToArray());
@@ -120,7 +120,7 @@ tableSubstitutionRule.SetSubstitutes("Times New Roman", new[] {"Squarish Sans CT
 Assert.AreEqual(new[] {"Squarish Sans CT", "M+ 2m"},
     tableSubstitutionRule.GetSubstitutes("Times New Roman").ToArray());
 
-// La scrittura di testo in caratteri a cui non abbiamo accesso invocherà le nostre regole di sostituzione.
+// Scrivere testo in caratteri a cui non abbiamo accesso invocherà le nostre regole di sostituzione.
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Font.Name = "Arial";
 builder.Writeln("Text written in Arial, to be substituted by Kreon.");

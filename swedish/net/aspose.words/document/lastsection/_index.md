@@ -3,7 +3,7 @@ title: Document.LastSection
 second_title: Aspose.Words för .NET API Referens
 description: Document fast egendom. Hämtar det sista avsnittet i dokumentet.
 type: docs
-weight: 220
+weight: 240
 url: /sv/net/aspose.words/document/lastsection/
 ---
 ## Document.LastSection property

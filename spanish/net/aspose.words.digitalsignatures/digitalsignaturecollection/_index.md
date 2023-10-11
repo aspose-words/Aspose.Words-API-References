@@ -3,12 +3,14 @@ title: Class DigitalSignatureCollection
 second_title: Referencia de API de Aspose.Words para .NET
 description: Aspose.Words.DigitalSignatures.DigitalSignatureCollection clase. Proporciona una colección de solo lectura de firmas digitales adjuntas a un documento.
 type: docs
-weight: 380
+weight: 390
 url: /es/net/aspose.words.digitalsignatures/digitalsignaturecollection/
 ---
 ## DigitalSignatureCollection class
 
 Proporciona una colección de solo lectura de firmas digitales adjuntas a un documento.
+
+Para obtener más información, visite el[Trabajar con firmas digitales](https://docs.aspose.com/words/net/working-with-digital-signatures/) artículo de documentación.
 
 ```csharp
 public class DigitalSignatureCollection : IEnumerable<DigitalSignature>
@@ -24,15 +26,15 @@ public class DigitalSignatureCollection : IEnumerable<DigitalSignature>
 
 | Nombre | Descripción |
 | --- | --- |
-| [Count](../../aspose.words.digitalsignatures/digitalsignaturecollection/count/) { get; } | Obtiene el número de elementos que contiene la colección. |
-| [IsValid](../../aspose.words.digitalsignatures/digitalsignaturecollection/isvalid/) { get; } | Devoluciones`verdadero` si todas las firmas digitales de esta colección son válidas y el documento no ha sido manipulado También devuelve`verdadero`si no hay firmas digitales. Devuelve`falso` si al menos una firma digital no es válida. |
-| [Item](../../aspose.words.digitalsignatures/digitalsignaturecollection/item/) { get; } | Obtiene una firma de documento en el índice especificado. |
+| [Count](../../aspose.words.digitalsignatures/digitalsignaturecollection/count/) { get; } | Obtiene el número de elementos contenidos en la colección. |
+| [IsValid](../../aspose.words.digitalsignatures/digitalsignaturecollection/isvalid/) { get; } | Devoluciones`verdadero` si todas las firmas digitales de esta colección son válidas y el documento no ha sido manipulado También devuelve`verdadero` si no hay firmas digitales. Devuelve`FALSO` si al menos una firma digital no es válida. |
+| [Item](../../aspose.words.digitalsignatures/digitalsignaturecollection/item/) { get; } | Obtiene la firma de un documento en el índice especificado. |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
-| [GetEnumerator](../../aspose.words.digitalsignatures/digitalsignaturecollection/getenumerator/)() | Devuelve un objeto de enumerador de diccionario que se puede usar para iterar sobre todos los elementos de la colección. |
+| [GetEnumerator](../../aspose.words.digitalsignatures/digitalsignaturecollection/getenumerator/)() | Devuelve un objeto enumerador de diccionario que se puede utilizar para iterar sobre todos los elementos de la colección. |
 
 ### Observaciones
 
@@ -60,20 +62,20 @@ foreach (DigitalSignature signature in doc.DigitalSignatures)
 Muestra cómo firmar documentos con certificados X.509.
 
 ```csharp
-// Verifica que un documento no esté firmado.
+// Verificar que un documento no esté firmado.
 Assert.False(FileFormatUtil.DetectFileFormat(MyDir + "Document.docx").HasDigitalSignature);
 
-// Crear un objeto CertificateHolder a partir de un archivo PKCS12, que usaremos para firmar el documento.
+// Crea un objeto CertificateHolder a partir de un archivo PKCS12, que usaremos para firmar el documento.
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw", null);
 
 // Hay dos formas de guardar una copia firmada de un documento en el sistema de archivos local:
-// 1 - Designar un documento por un nombre de archivo del sistema local y guardar una copia firmada en una ubicación especificada por otro nombre de archivo.
+// 1: designe un documento con un nombre de archivo del sistema local y guarde una copia firmada en una ubicación especificada con otro nombre de archivo.
 DigitalSignatureUtil.Sign(MyDir + "Document.docx", ArtifactsDir + "Document.DigitalSignature.docx", 
     certificateHolder, new SignOptions() { SignTime = DateTime.Now } );
 
 Assert.True(FileFormatUtil.DetectFileFormat(ArtifactsDir + "Document.DigitalSignature.docx").HasDigitalSignature);
 
-// 2 - Tome un documento de un flujo y guarde una copia firmada en otro flujo.
+// 2: tomar un documento de una secuencia y guardar una copia firmada en otra secuencia.
 using (FileStream inDoc = new FileStream(MyDir + "Document.docx", FileMode.Open))
 {
     using (FileStream outDoc = new FileStream(ArtifactsDir + "Document.DigitalSignature.docx", FileMode.Create))

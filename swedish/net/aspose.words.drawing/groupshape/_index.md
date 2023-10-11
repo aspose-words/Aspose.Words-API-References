@@ -3,12 +3,14 @@ title: Class GroupShape
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Drawing.GroupShape klass. Representerar en grupp av former i ett dokument.
 type: docs
-weight: 890
+weight: 1020
 url: /sv/net/aspose.words.drawing/groupshape/
 ---
 ## GroupShape class
 
 Representerar en grupp av former i ett dokument.
+
+För att lära dig mer, besök[Hur man lägger till gruppform i ett Word-dokument](https://docs.aspose.com/words/net/how-to-add-group-shape-into-a-word-document/) dokumentationsartikel.
 
 ```csharp
 public class GroupShape : ShapeBase
@@ -33,8 +35,7 @@ public class GroupShape : ShapeBase
 | [Bounds](../../aspose.words.drawing/shapebase/bounds/) { get; set; } | Hämtar eller ställer in platsen och storleken på formens innehållsblock. |
 | [BoundsInPoints](../../aspose.words.drawing/shapebase/boundsinpoints/) { get; } | Hämtar platsen och storleken på formens innehållande block i punkter, i förhållande till ankaret för den översta formen. |
 | [BoundsWithEffects](../../aspose.words.drawing/shapebase/boundswitheffects/) { get; } | Får den slutliga omfattningen som detta formobjekt har efter applicering av ritningseffekter. Värdet mäts i punkter. |
-| [CanHaveImage](../../aspose.words.drawing/shapebase/canhaveimage/) { get; } | Returnerar sant om formtypen tillåter att formen har en bild. |
-| [ChildNodes](../../aspose.words/compositenode/childnodes/) { get; } | Hämtar alla omedelbara underordnade noder för denna nod. |
+| [CanHaveImage](../../aspose.words.drawing/shapebase/canhaveimage/) { get; } | Returnerar`Sann` om formtypen tillåter att formen har en bild. |
 | [CoordOrigin](../../aspose.words.drawing/shapebase/coordorigin/) { get; set; } | Koordinaterna i det övre vänstra hörnet av det innehållande blocket med denna form. |
 | [CoordSize](../../aspose.words.drawing/shapebase/coordsize/) { get; set; } | Bredden och höjden på koordinatutrymmet inuti det innehållande blocket med denna form. |
 | [Count](../../aspose.words/compositenode/count/) { get; } | Hämtar antalet omedelbara barn till denna nod. |
@@ -48,26 +49,28 @@ public class GroupShape : ShapeBase
 | [FirstChild](../../aspose.words/compositenode/firstchild/) { get; } | Får det första barnet i noden. |
 | [FlipOrientation](../../aspose.words.drawing/shapebase/fliporientation/) { get; set; } | Ändrar orienteringen för en form. |
 | [Font](../../aspose.words.drawing/shapebase/font/) { get; } | Ger tillgång till teckensnittsformateringen för detta objekt. |
-| [HasChildNodes](../../aspose.words/compositenode/haschildnodes/) { get; } | Returnerar sant om denna nod har några underordnade noder. |
+| [HasChildNodes](../../aspose.words/compositenode/haschildnodes/) { get; } | Returnerar`Sann` om denna nod har några undernoder. |
 | [Height](../../aspose.words.drawing/shapebase/height/) { get; set; } | Hämtar eller ställer in höjden på formens innehållsblock. |
+| [HeightRelative](../../aspose.words.drawing/shapebase/heightrelative/) { get; set; } | Hämtar eller ställer in värdet som representerar procentandelen av formens relativa höjd. |
 | [HorizontalAlignment](../../aspose.words.drawing/shapebase/horizontalalignment/) { get; set; } | Anger hur formen placeras horisontellt. |
 | [HRef](../../aspose.words.drawing/shapebase/href/) { get; set; } | Hämtar eller ställer in den fullständiga hyperlänkadressen för en form. |
-| override [IsComposite](../../aspose.words/compositenode/iscomposite/) { get; } | Returnerar sant eftersom denna nod kan ha underordnade noder. |
+| override [IsComposite](../../aspose.words/compositenode/iscomposite/) { get; } | Returnerar`Sann` eftersom denna nod kan ha underordnade noder. |
 | [IsDecorative](../../aspose.words.drawing/shapebase/isdecorative/) { get; set; } | Hämtar eller ställer in flaggan som anger om formen är dekorativ i dokumentet. |
 | [IsDeleteRevision](../../aspose.words.drawing/shapebase/isdeleterevision/) { get; } | Returnerar sant om detta objekt raderades i Microsoft Word medan ändringsspårning var aktiverad. |
-| [IsGroup](../../aspose.words.drawing/shapebase/isgroup/) { get; } | Returnerar sant om detta är en gruppform. |
-| [IsHorizontalRule](../../aspose.words.drawing/shapebase/ishorizontalrule/) { get; } | Returnerar sant om denna form är en horisontell regel. |
-| [IsImage](../../aspose.words.drawing/shapebase/isimage/) { get; } | Returnerar sant om denna form är en bildform. |
+| [IsGroup](../../aspose.words.drawing/shapebase/isgroup/) { get; } | Returnerar`Sann` om detta är en gruppform. |
+| [IsHorizontalRule](../../aspose.words.drawing/shapebase/ishorizontalrule/) { get; } | Returnerar`Sann` om denna form är en horisontell regel. |
+| [IsImage](../../aspose.words.drawing/shapebase/isimage/) { get; } | Returnerar`Sann` om denna form är en bildform. |
 | [IsInline](../../aspose.words.drawing/shapebase/isinline/) { get; } | Ett snabbt sätt att avgöra om denna form är placerad i linje med text. |
 | [IsInsertRevision](../../aspose.words.drawing/shapebase/isinsertrevision/) { get; } | Returnerar sant om det här objektet infogades i Microsoft Word medan ändringsspårning var aktiverad. |
 | [IsLayoutInCell](../../aspose.words.drawing/shapebase/islayoutincell/) { get; set; } | Hämtar eller sätter en flagga som indikerar om formen visas inuti en tabell eller utanför den. |
-| [IsMoveFromRevision](../../aspose.words.drawing/shapebase/ismovefromrevision/) { get; } | Returnerar **Sann** om det här objektet flyttades (borttogs) i Microsoft Word medan ändringsspårning var aktiverad. |
-| [IsMoveToRevision](../../aspose.words.drawing/shapebase/ismovetorevision/) { get; } | Returnerar **Sann** om detta objekt flyttades (infogades) i Microsoft Word medan ändringsspårning var aktiverad. |
-| [IsSignatureLine](../../aspose.words.drawing/shapebase/issignatureline/) { get; } | Indikerar att formen är en SignatureLine. |
-| [IsTopLevel](../../aspose.words.drawing/shapebase/istoplevel/) { get; } | Returnerar sant om denna form inte är ett underordnat till en gruppform. |
-| [IsWordArt](../../aspose.words.drawing/shapebase/iswordart/) { get; } | Returnerar sant om den här formen är ett WordArt-objekt. |
+| [IsMoveFromRevision](../../aspose.words.drawing/shapebase/ismovefromrevision/) { get; } | Returnerar`Sann` om det här objektet flyttades (borttogs) i Microsoft Word medan ändringsspårning var aktiverad. |
+| [IsMoveToRevision](../../aspose.words.drawing/shapebase/ismovetorevision/) { get; } | Returnerar`Sann` om detta objekt flyttades (infogades) i Microsoft Word medan ändringsspårning var aktiverad. |
+| [IsSignatureLine](../../aspose.words.drawing/shapebase/issignatureline/) { get; } | Indikerar att formen är en[`SignatureLine`](../signatureline/) . |
+| [IsTopLevel](../../aspose.words.drawing/shapebase/istoplevel/) { get; } | Returnerar`Sann`om denna form inte är ett underordnat till en gruppform. |
+| [IsWordArt](../../aspose.words.drawing/shapebase/iswordart/) { get; } | Returnerar`Sann` om den här formen är ett WordArt-objekt. |
 | [LastChild](../../aspose.words/compositenode/lastchild/) { get; } | Hämtar nodens sista underordnade. |
 | [Left](../../aspose.words.drawing/shapebase/left/) { get; set; } | Hämtar eller ställer in positionen för den vänstra kanten av formens innehållsblock. |
+| [LeftRelative](../../aspose.words.drawing/shapebase/leftrelative/) { get; set; } | Hämtar eller ställer in värdet som representerar formens relativa vänstra position i procent. |
 | [MarkupLanguage](../../aspose.words.drawing/shapebase/markuplanguage/) { get; } | Får MarkupLanguage som används för detta grafiska objekt. |
 | [Name](../../aspose.words.drawing/shapebase/name/) { get; set; } | Hämtar eller ställer in det valfria formnamnet. |
 | [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Hämtar noden omedelbart efter denna nod. |
@@ -75,9 +78,11 @@ public class GroupShape : ShapeBase
 | [ParentNode](../../aspose.words/node/parentnode/) { get; } | Hämtar den omedelbara föräldern till denna nod. |
 | [ParentParagraph](../../aspose.words.drawing/shapebase/parentparagraph/) { get; } | Returnerar det omedelbara överordnade stycket. |
 | [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Hämtar noden omedelbart före denna nod. |
-| [Range](../../aspose.words/node/range/) { get; } | Returnerar en **Räckvidd** objekt som representerar den del av ett dokument som finns i denna nod. |
+| [Range](../../aspose.words/node/range/) { get; } | Returnerar en[`Range`](../../aspose.words/range/) objekt som representerar den del av ett dokument som finns i denna nod. |
 | [RelativeHorizontalPosition](../../aspose.words.drawing/shapebase/relativehorizontalposition/) { get; set; } | Anger i förhållande till vad formen är placerad horisontellt. |
+| [RelativeHorizontalSize](../../aspose.words.drawing/shapebase/relativehorizontalsize/) { get; set; } | Hämtar eller ställer in värdet på formens relativa storlek i horisontell riktning. |
 | [RelativeVerticalPosition](../../aspose.words.drawing/shapebase/relativeverticalposition/) { get; set; } | Anger i förhållande till vad formen är placerad vertikalt. |
+| [RelativeVerticalSize](../../aspose.words.drawing/shapebase/relativeverticalsize/) { get; set; } | Hämtar eller ställer in värdet på formens relativa storlek i vertikal riktning. |
 | [Right](../../aspose.words.drawing/shapebase/right/) { get; } | Får positionen för den högra kanten av det innehållande blocket av formen. |
 | [Rotation](../../aspose.words.drawing/shapebase/rotation/) { get; set; } | Definierar vinkeln (i grader) som en form roteras. Positivt värde motsvarar medurs rotationsvinkel. |
 | [ScreenTip](../../aspose.words.drawing/shapebase/screentip/) { get; set; } | Definierar texten som visas när muspekaren rör sig över formen. |
@@ -87,8 +92,10 @@ public class GroupShape : ShapeBase
 | [Target](../../aspose.words.drawing/shapebase/target/) { get; set; } | Hämtar eller ställer in målramen för formhyperlänken. |
 | [Title](../../aspose.words.drawing/shapebase/title/) { get; set; } | Hämtar eller ställer in titeln (bildtexten) för det aktuella formobjektet. |
 | [Top](../../aspose.words.drawing/shapebase/top/) { get; set; } | Hämtar eller ställer in positionen för den övre kanten av formens innehållsblock. |
+| [TopRelative](../../aspose.words.drawing/shapebase/toprelative/) { get; set; } | Hämtar eller ställer in värdet som representerar formens relativa topposition i procent. |
 | [VerticalAlignment](../../aspose.words.drawing/shapebase/verticalalignment/) { get; set; } | Anger hur formen är placerad vertikalt. |
 | [Width](../../aspose.words.drawing/shapebase/width/) { get; set; } | Hämtar eller ställer in bredden på formens innehållsblock. |
+| [WidthRelative](../../aspose.words.drawing/shapebase/widthrelative/) { get; set; } | Hämtar eller ställer in värdet som representerar procentandelen av formens relativa bredd. |
 | [WrapSide](../../aspose.words.drawing/shapebase/wrapside/) { get; set; } | Anger hur texten lindas runt formen. |
 | [WrapType](../../aspose.words.drawing/shapebase/wraptype/) { get; set; } | Definierar om formen är inline eller flytande. För flytande former definierar lindningsläget för text runt formen. |
 | [ZOrder](../../aspose.words.drawing/shapebase/zorder/) { get; set; } | Bestämmer visningsordningen för överlappande former. |
@@ -98,10 +105,12 @@ public class GroupShape : ShapeBase
 | namn | Beskrivning |
 | --- | --- |
 | override [Accept](../../aspose.words.drawing/groupshape/accept/)(DocumentVisitor) | Accepterar en besökare. |
+| override [AcceptEnd](../../aspose.words.drawing/groupshape/acceptend/)(DocumentVisitor) |  |
+| override [AcceptStart](../../aspose.words.drawing/groupshape/acceptstart/)(DocumentVisitor) |  |
 | [AdjustWithEffects](../../aspose.words.drawing/shapebase/adjustwitheffects/)(RectangleF) | Lägger till källrektangelvärdena för effektomfattningen och returnerar den sista rektangeln. |
-| [AppendChild](../../aspose.words/compositenode/appendchild/)(Node) | Lägger till den angivna noden i slutet av listan över underordnade noder för denna nod. |
+| [AppendChild&lt;T&gt;](../../aspose.words/compositenode/appendchild/)(T) |  |
 | [Clone](../../aspose.words/node/clone/)(bool) | Skapar en dubblett av noden. |
-| [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | Reserverad för systemanvändning. IXPathNavigable. |
+| [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | Skapar navigator som kan användas för att korsa och läsa noder. |
 | [FetchInheritedShapeAttr](../../aspose.words.drawing/shapebase/fetchinheritedshapeattr/)(int) | Reserverad för systemanvändning. IShapeAttrSource. |
 | [FetchShapeAttr](../../aspose.words.drawing/shapebase/fetchshapeattr/)(int) | Reserverad för systemanvändning. IShapeAttrSource. |
 | [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Hämtar den första förfadern till den angivna[`NodeType`](../../aspose.words/nodetype/) . |
@@ -113,19 +122,19 @@ public class GroupShape : ShapeBase
 | [GetShapeRenderer](../../aspose.words.drawing/shapebase/getshaperenderer/)() | Skapar och returnerar ett objekt som kan användas för att återge denna form till en bild. |
 | override [GetText](../../aspose.words/compositenode/gettext/)() | Hämtar texten för denna nod och alla dess underordnade. |
 | [IndexOf](../../aspose.words/compositenode/indexof/)(Node) | Returnerar indexet för den angivna undernoden i den underordnade nodmatrisen. |
-| [InsertAfter](../../aspose.words/compositenode/insertafter/)(Node, Node) | Infogar den angivna noden omedelbart efter den angivna referensnoden. |
-| [InsertBefore](../../aspose.words/compositenode/insertbefore/)(Node, Node) | Infogar den angivna noden omedelbart före den angivna referensnoden. |
+| [InsertAfter&lt;T&gt;](../../aspose.words/compositenode/insertafter/)(T, Node) |  |
+| [InsertBefore&lt;T&gt;](../../aspose.words/compositenode/insertbefore/)(T, Node) |  |
 | [LocalToParent](../../aspose.words.drawing/shapebase/localtoparent/)(PointF) | Konverterar ett värde från det lokala koordinatutrymmet till koordinatutrymmet för den överordnade formen. |
 | [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Hämtar nästa nod enligt algoritmen för förbeställningsträdet. |
-| [PrependChild](../../aspose.words/compositenode/prependchild/)(Node) | Lägger till den angivna noden i början av listan över underordnade noder för denna nod. |
+| [PrependChild&lt;T&gt;](../../aspose.words/compositenode/prependchild/)(T) |  |
 | [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Hämtar föregående nod enligt algoritmen för förbeställningsträdet. |
 | [Remove](../../aspose.words/node/remove/)() | Tar bort sig själv från föräldern. |
 | [RemoveAllChildren](../../aspose.words/compositenode/removeallchildren/)() | Tar bort alla undernoder för den aktuella noden. |
-| [RemoveChild](../../aspose.words/compositenode/removechild/)(Node) | Tar bort den angivna underordnade noden. |
+| [RemoveChild&lt;T&gt;](../../aspose.words/compositenode/removechild/)(T) |  |
 | [RemoveShapeAttr](../../aspose.words.drawing/shapebase/removeshapeattr/)(int) | Reserverad för systemanvändning. IShapeAttrSource. |
-| [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | Tar bort alla[`SmartTag`](../../aspose.words.markup/smarttag/) underliggande noder till den aktuella noden. |
+| [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | Tar bort alla[`SmartTag`](../../aspose.words.markup/smarttag/)underliggande noder till den aktuella noden. |
 | [SelectNodes](../../aspose.words/compositenode/selectnodes/)(string) | Väljer en lista med noder som matchar XPath-uttrycket. |
-| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(string) | Väljer den första noden som matchar XPath-uttrycket. |
+| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(string) | Väljer den första[`Node`](../../aspose.words/node/) som matchar XPath-uttrycket. |
 | [SetShapeAttr](../../aspose.words.drawing/shapebase/setshapeattr/)(int, object) | Reserverad för systemanvändning. IShapeAttrSource. |
 | [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Exporterar innehållet i noden till en sträng i angivet format. |
 | [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Exporterar innehållet i noden till en sträng med de angivna sparalternativen. |

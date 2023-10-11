@@ -3,7 +3,7 @@ title: MetafileRenderingOptions.UseEmfEmbeddedToWmf
 second_title: Aspose.Words för .NET API Referens
 description: MetafileRenderingOptions fast egendom. Hämtar eller ställer in ett värde som bestämmer hur WMFmetafiler med inbäddade EMFmetafiler ska renderas.
 type: docs
-weight: 60
+weight: 70
 url: /sv/net/aspose.words.saving/metafilerenderingoptions/useemfembeddedtowmf/
 ---
 ## MetafileRenderingOptions.UseEmfEmbeddedToWmf property

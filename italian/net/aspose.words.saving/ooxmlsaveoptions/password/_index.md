@@ -16,7 +16,7 @@ public string Password { get; set; }
 
 ### Osservazioni
 
-Per salvare il documento senza crittografia questa proprietà dovrebbe essere una stringa nulla o vuota.
+Per salvare il documento senza crittografia, questa proprietà dovrebbe essere`nullo` o stringa vuota.
 
 ### Esempi
 

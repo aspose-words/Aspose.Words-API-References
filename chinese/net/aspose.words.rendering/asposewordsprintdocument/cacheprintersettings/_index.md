@@ -1,14 +1,14 @@
 ---
 title: AsposeWordsPrintDocument.CachePrinterSettings
 second_title: Aspose.Words for .NET API 参考
-description: AsposeWordsPrintDocument 方法. 读取并缓存PrinterSettings 以减少打印时间
+description: AsposeWordsPrintDocument 方法. 读取并缓存一些字段PrinterSettings 减少打印时间
 type: docs
-weight: 20
+weight: 40
 url: /zh/net/aspose.words.rendering/asposewordsprintdocument/cacheprintersettings/
 ---
 ## AsposeWordsPrintDocument.CachePrinterSettings method
 
-读取并缓存PrinterSettings 以减少打印时间。
+读取并缓存一些字段PrinterSettings 减少打印时间。
 
 ```csharp
 public void CachePrinterSettings()
@@ -16,18 +16,18 @@ public void CachePrinterSettings()
 
 ### 评论
 
-如果之前没有执行此方法，则在打印开始之前调用此方法。
+如果之前没有执行过，则在打印开始之前调用此方法。
 
 ### 例子
 
-显示如何选择页面范围和打印机来打印文档，然后打开打印预览。
+演示如何选择页面范围和用于打印文档的打印机，然后显示打印预览。
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
 PrintPreviewDialog previewDlg = new PrintPreviewDialog();
 
-// 调用“Show”方法让打印预览表单显示在顶部。
+// 调用“Show”方法使打印预览表单显示在顶部。
 previewDlg.Show();
 
 // 使用文档中的页数初始化打印对话框。
@@ -46,17 +46,22 @@ if (printDlg.ShowDialog() != DialogResult.OK)
 AsposeWordsPrintDocument awPrintDoc = new AsposeWordsPrintDocument(doc);
 awPrintDoc.PrinterSettings = printDlg.PrinterSettings;
 
-// 使用“CachePrinterSettings”方法减少第一次调用“Print”方法的时间。
+// 指定新的彩色打印模式。
+awPrintDoc.ColorMode = ColorPrintMode.GrayscaleAuto;
+
+// 使用“CachePrinterSettings”方法来减少第一次调用“Print”方法的时间。
 awPrintDoc.CachePrinterSettings();
 
-// 调用“Hide”，然后调用“InvalidatePreview”方法让打印预览显示在顶部。
+// 调用“Hide”，然后调用“InvalidatePreview”方法以使打印预览显示在顶部。
 previewDlg.Hide();
 previewDlg.PrintPreviewControl.InvalidatePreview();
 
-// 将“Aspose.Words”打印文档传递给 .NET 打印预览对话框。
+// 将“Aspose.Words”打印文档传递到.NET 打印预览对话框。
 previewDlg.Document = awPrintDoc;
-
 previewDlg.ShowDialog();
+
+awPrintDoc.Print();            
+Console.WriteLine($"The numer of pages printed in color are {awPrintDoc.ColorPagesPrinted}.");
 ```
 
 ### 也可以看看

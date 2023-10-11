@@ -3,12 +3,14 @@ title: Class ListCollection
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Lists.ListCollection klass. Lagrar och hanterar formatering av punktlistor och numrerade listor som används i ett dokument.
 type: docs
-weight: 3270
+weight: 3470
 url: /sv/net/aspose.words.lists/listcollection/
 ---
 ## ListCollection class
 
 Lagrar och hanterar formatering av punktlistor och numrerade listor som används i ett dokument.
+
+För att lära dig mer, besök[Arbeta med listor](https://docs.aspose.com/words/net/working-with-lists/) dokumentationsartikel.
 
 ```csharp
 public class ListCollection : IEnumerable<List>
@@ -42,7 +44,7 @@ För att skapa en ny lista baserad på en fördefinierad listmall eller baserad 
 
 För att skapa en ny lista med formatering identisk med en befintlig lista, använd[`AddCopy`](./addcopy/) metod.
 
-För att göra ett stycke punktat eller numrerat måste du tillämpa listformatering på ett stycke genom att tilldela en[`List`](../list/) invända mot the [`List`](../listformat/list/) egendom av[`ListFormat`](../listformat/).
+För att göra ett stycke punktat eller numrerat måste du tillämpa listformatering på ett stycke genom att tilldela en[`List`](../list/)invända mot the [`List`](../listformat/list/) egendom av[`ListFormat`](../listformat/).
 
 För att ta bort listformatering från ett stycke, använd[`RemoveNumbers`](../listformat/removenumbers/) metod.
 
@@ -94,8 +96,8 @@ Visar hur man startar om numrering i en lista genom att kopiera en lista.
 Document doc = new Document();
 
 // En lista låter oss organisera och dekorera uppsättningar av stycken med prefixsymboler och indrag.
-// Vi kan skapa kapslade listor genom att öka indragsnivån. 
-// Vi kan börja och avsluta en lista genom att använda en dokumentbyggares "ListFormat"-egenskap. 
+ // Vi kan skapa kapslade listor genom att öka indragsnivån.
+ // Vi kan börja och avsluta en lista genom att använda en dokumentbyggares "ListFormat"-egenskap.
 // Varje stycke som vi lägger till mellan en listas början och slutet kommer att bli ett objekt i listan.
 // Skapa en lista från en Microsoft Word-mall och anpassa dess första listnivå.
 List list1 = doc.Lists.Add(ListTemplate.NumberArabicParenthesis);
@@ -136,8 +138,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Assert.False(builder.ListFormat.IsListItem);
 
 // En lista låter oss organisera och dekorera uppsättningar av stycken med prefixsymboler och indrag.
-// Vi kan skapa kapslade listor genom att öka indragsnivån. 
-// Vi kan börja och avsluta en lista genom att använda en dokumentbyggares "ListFormat"-egenskap. 
+ // Vi kan skapa kapslade listor genom att öka indragsnivån.
+ // Vi kan börja och avsluta en lista genom att använda en dokumentbyggares "ListFormat"-egenskap.
 // Varje stycke som vi lägger till mellan en listas början och slutet kommer att bli ett objekt i listan.
 // Nedan finns två typer av listor som vi kan skapa med hjälp av en dokumentbyggare.
 // 1 - En numrerad lista:
@@ -149,7 +151,7 @@ Assert.True(builder.ListFormat.IsListItem);
 // Genom att ställa in egenskapen "ListLevelNumber" kan vi öka listnivån
 // för att starta en fristående underlista vid det aktuella listobjektet.
 // Microsoft Word-listmallen som heter "NumberDefault" använder siffror för att skapa listnivåer för den första listnivån.
-// Djupare listnivåer använder bokstäver och gemener romerska siffror. 
+ // Djupare listnivåer använder bokstäver och gemener romerska siffror.
 for (int i = 0; i < 9; i++)
 {
     builder.ListFormat.ListLevelNumber = i;

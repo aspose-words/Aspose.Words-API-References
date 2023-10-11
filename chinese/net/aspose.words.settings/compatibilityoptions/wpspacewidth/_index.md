@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.WPSpaceWidth
 second_title: Aspose.Words for .NET API 参考
-description: CompatibilityOptions 财产. 指定是否像在 WordPerfect 5.x 中那样设置空格的宽度
+description: CompatibilityOptions 财产. 指定是否像 WordPerfect 5.x. 中那样设置空格宽度
 type: docs
 weight: 700
 url: /zh/net/aspose.words.settings/compatibilityoptions/wpspacewidth/
 ---
 ## CompatibilityOptions.WPSpaceWidth property
 
-指定是否像在 WordPerfect 5.x 中那样设置空格的宽度。
+指定是否像 WordPerfect 5.x. 中那样设置空格宽度
 
 ```csharp
 public bool WPSpaceWidth { get; set; }

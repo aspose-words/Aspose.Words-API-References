@@ -3,7 +3,7 @@ title: Document.Clone
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Document méthode. Effectue une copie complète duDocument .
 type: docs
-weight: 530
+weight: 570
 url: /fr/net/aspose.words/document/clone/
 ---
 ## Document.Clone method
@@ -29,7 +29,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Write("Hello world!");
 
 // Le clonage produira un nouveau document avec le même contenu que l'original,
-// mais avec une copie unique de chacun des nœuds du document d'origine.
+// mais avec une copie unique de chacun des nœuds du document original.
 Document clone = doc.Clone();
 
 Assert.AreEqual(doc.FirstSection.Body.FirstParagraph.Runs[0].GetText(), 

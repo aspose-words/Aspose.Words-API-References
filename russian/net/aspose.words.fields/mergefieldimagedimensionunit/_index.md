@@ -1,14 +1,14 @@
 ---
 title: Enum MergeFieldImageDimensionUnit
 second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Fields.MergeFieldImageDimensionUnit перечисление. Определяет единицу измерения изображения т. е. ширину или высоту используемую в процессе слияния.
+description: Aspose.Words.Fields.MergeFieldImageDimensionUnit перечисление. Указывает единицу измерения изображения т. е. ширину или высоту используемую в процессе слияния почты.
 type: docs
-weight: 2580
+weight: 2760
 url: /ru/net/aspose.words.fields/mergefieldimagedimensionunit/
 ---
 ## MergeFieldImageDimensionUnit enumeration
 
-Определяет единицу измерения изображения (т. е. ширину или высоту), используемую в процессе слияния.
+Указывает единицу измерения изображения (т. е. ширину или высоту), используемую в процессе слияния почты.
 
 ```csharp
 public enum MergeFieldImageDimensionUnit
@@ -19,40 +19,42 @@ public enum MergeFieldImageDimensionUnit
 | Имя | Ценность | Описание |
 | --- | --- | --- |
 | Point | `0` | Точка (т.е. 1/72 дюйма). |
-| Percent | `1` | Процент от исходного значения размера изображения. |
+| Percent | `1` | Процент значения размера исходного изображения. |
 
 ### Примеры
 
-Показывает, как установить размеры изображений, поскольку MERGEFIELDS принимает их во время слияния.
+Показывает, как установить размеры изображений, поскольку MERGEFIELDS принимает их во время слияния почты.
 
 ```csharp
+public void MergeFieldImageDimension()
 {
     Document doc = new Document();
 
-    // Вставьте MERGEFIELD, которое будет принимать изображения из источника во время слияния почты. Используйте код поля для ссылки
-    // столбец в источнике данных, содержащий локальные системные имена файлов изображений, которые мы хотим использовать при слиянии.
+    // Вставляем MERGEFIELD, который будет принимать изображения из источника во время слияния почты. Используйте код поля для ссылки
+    // столбец в источнике данных, содержащий имена локальных системных файлов изображений, которые мы хотим использовать при слиянии писем.
     DocumentBuilder builder = new DocumentBuilder(doc);
     FieldMergeField field = (FieldMergeField)builder.InsertField("MERGEFIELD Image:ImageColumn");
 
-    // В источнике данных должен быть такой столбец с именем "ImageColumn".
+    // Источник данных должен иметь такой столбец с именем «ImageColumn».
     Assert.AreEqual("Image:ImageColumn", field.FieldName);
 
-    // Создадим подходящий источник данных.
+    // Создаем подходящий источник данных.
     DataTable dataTable = new DataTable("Images");
     dataTable.Columns.Add(new DataColumn("ImageColumn"));
     dataTable.Rows.Add(ImageDir + "Logo.jpg");
     dataTable.Rows.Add(ImageDir + "Transparent background logo.png");
     dataTable.Rows.Add(ImageDir + "Enhanced Windows MetaFile.emf");
 
-    // Настройте обратный вызов для изменения размеров изображений во время слияния, затем выполните слияние.
+    // Настройте обратный вызов для изменения размеров изображений во время слияния, а затем выполните слияние почты.
     doc.MailMerge.FieldMergingCallback = new MergedImageResizer(200, 200, MergeFieldImageDimensionUnit.Point);
     doc.MailMerge.Execute(dataTable);
 
     doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.MERGEFIELD.ImageDimension.docx");
+}
 
 /// <summary>
-/// Устанавливает размер всех изображений, объединенных почтой, в одну определенную ширину и высоту.
+/// Устанавливает размер всех объединенных изображений почты в одну определенную ширину и высоту.
 /// </summary>
 private class MergedImageResizer : IFieldMergingCallback
 {

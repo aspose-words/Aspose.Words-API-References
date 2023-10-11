@@ -16,7 +16,7 @@ public ListFormat ListFormat { get; }
 
 ### Örnekler
 
-Liste öğeleri olan bir belgedeki tüm paragrafların nasıl çıktısının alınacağını gösterir.
+Bir belgedeki liste öğesi olan tüm paragrafların çıktısının nasıl alınacağını gösterir.
 
 ```csharp
 Document doc = new Document();

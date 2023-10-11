@@ -1,14 +1,14 @@
 ---
 title: TextBox.Parent
 second_title: Справочник по API Aspose.Words для .NET
-description: TextBox свойство. Получает родительскую фигуру для TextBox.
+description: TextBox свойство. Получает родительскую фигуру дляTextBox .
 type: docs
-weight: 80
+weight: 90
 url: /ru/net/aspose.words.drawing/textbox/parent/
 ---
 ## TextBox.Parent property
 
-Получает родительскую фигуру для TextBox.
+Получает родительскую фигуру для[`TextBox`](../) .
 
 ```csharp
 public Shape Parent { get; }

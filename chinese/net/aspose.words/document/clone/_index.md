@@ -1,14 +1,14 @@
 ---
 title: Document.Clone
 second_title: Aspose.Words for .NET API 参考
-description: Document 方法. 对Document.
+description: Document 方法. 执行深度复制Document.
 type: docs
-weight: 530
+weight: 570
 url: /zh/net/aspose.words/document/clone/
 ---
 ## Document.Clone method
 
-对[`Document`](../).
+执行深度复制[`Document`](../).
 
 ```csharp
 public Document Clone()
@@ -28,8 +28,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Write("Hello world!");
 
-// 克隆将产生一个与原始文件内容相同的新文档，
-// 但是每个原始文档的节点都有一个唯一的副本。
+// 克隆将产生一个与原始内容相同的新文档，
+// 但具有每个原始文档节点的唯一副本。
 Document clone = doc.Clone();
 
 Assert.AreEqual(doc.FirstSection.Body.FirstParagraph.Runs[0].GetText(), 

@@ -3,7 +3,7 @@ title: DocumentBuilder.Writeln
 second_title: Aspose.Words for .NET API Referansı
 description: DocumentBuilder yöntem. Belgeye bir dize ve paragraf sonu ekler.
 type: docs
-weight: 630
+weight: 670
 url: /tr/net/aspose.words/documentbuilder/writeln/
 ---
 ## Writeln(string) {#writeln_1}
@@ -20,7 +20,7 @@ public void Writeln(string text)
 
 ### Notlar
 
-tarafından belirtilen geçerli yazı tipi ve paragraf biçimlendirmesi[`Font`](../font/) ve[`ParagraphFormat`](../paragraphformat/) özellikler kullanılır.
+Geçerli yazı tipi ve paragraf formatı,[`Font`](../font/) Ve[`ParagraphFormat`](../paragraphformat/) özellikler kullanılır.
 
 ### Örnekler
 
@@ -38,8 +38,8 @@ builder.InsertCell();
 builder.Write("Row 1, cell 2.");
 builder.EndRow();
 
-// Tabloyu oluştururken, belge oluşturucu mevcut RowFormat/CellFormat özellik değerlerini uygulayacaktır
-// imlecinin içinde bulunduğu geçerli satıra/hücreye ve bunları oluştururken yeni satırlara/hücrelere.
+// Tabloyu oluştururken belge oluşturucu mevcut RowFormat/CellFormat özellik değerlerini uygulayacaktır
+// imlecin bulunduğu geçerli satıra/hücreye ve onları oluştururken yeni satırlara/hücrelere.
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[0].CellFormat.VerticalAlignment);
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[1].CellFormat.VerticalAlignment);
 
@@ -75,7 +75,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.BuildTable.docx");
 
 ## Writeln() {#writeln}
 
-Belgeye bir paragraf sonu ekler.
+Belgeye paragraf sonu ekler.
 
 ```csharp
 public void Writeln()
@@ -83,11 +83,11 @@ public void Writeln()
 
 ### Notlar
 
-aramalar[`InsertParagraph`](../insertparagraph/).
+Aramalar[`InsertParagraph`](../insertparagraph/).
 
 ### Örnekler
 
-DocumentBuilder kullanılarak bir belgede nasıl üstbilgi ve altbilgi oluşturulacağını gösterir.
+DocumentBuilder'ı kullanarak bir belgede üstbilgilerin ve altbilgilerin nasıl oluşturulacağını gösterir.
 
 ```csharp
 Document doc = new Document();

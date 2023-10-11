@@ -1,14 +1,14 @@
 ---
 title: IBarcodeGenerator.GetBarcodeImage
 second_title: Справочник по API Aspose.Words для .NET
-description: IBarcodeGenerator метод. Сгенерировать изображение штрихкода используя набор параметров для поля DisplayBarcode.
+description: IBarcodeGenerator метод. Создать изображение штрихкода используя набор параметров для поля DisplayBarcode.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/ibarcodegenerator/getbarcodeimage/
 ---
 ## IBarcodeGenerator.GetBarcodeImage method
 
-Сгенерировать изображение штрих-кода, используя набор параметров (для поля DisplayBarcode).
+Создать изображение штрих-кода, используя набор параметров (для поля DisplayBarcode).
 
 ```csharp
 public Image GetBarcodeImage(BarcodeParameters parameters)
@@ -29,9 +29,8 @@ public Image GetBarcodeImage(BarcodeParameters parameters)
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
-
 // Мы можем использовать собственную реализацию IBarcodeGenerator для генерации штрих-кодов,
-// и затем вставляем их в документ как изображения.
+// а затем вставляем их в документ как изображения.
 doc.FieldOptions.BarcodeGenerator = new CustomBarcodeGenerator();
 
 // Ниже приведены четыре примера различных типов штрих-кодов, которые мы можем создать с помощью нашего генератора.

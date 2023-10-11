@@ -3,7 +3,7 @@ title: Enum TextureAlignment
 second_title: Referencia de API de Aspose.Words para .NET
 description: Aspose.Words.Drawing.TextureAlignment enumeración. Especifica la alineación para el mosaico del relleno de textura.
 type: docs
-weight: 1220
+weight: 1370
 url: /es/net/aspose.words.drawing/texturealignment/
 ---
 ## TextureAlignment enumeration
@@ -19,13 +19,13 @@ public enum TextureAlignment
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
 | TopLeft | `0` | Alineación de textura superior izquierda. |
-| Top | `1` | Alineación textura superior. |
+| Top | `1` | Alineación de textura superior. |
 | TopRight | `2` | Alineación de textura superior derecha. |
 | Left | `3` | Alineación de textura izquierda. |
-| Center | `4` | Centrar alineación textura. |
+| Center | `4` | Alineación central de textura. |
 | Right | `5` | Alineación de textura derecha. |
 | BottomLeft | `6` | Alineación de textura inferior izquierda. |
-| Bottom | `7` | Alineación textura inferior. |
+| Bottom | `7` | Alineación de textura inferior. |
 | BottomRight | `8` | Alineación de textura inferior derecha. |
 | None | `9` | Ninguna alineación de textura. |
 
@@ -43,7 +43,7 @@ Shape shape = builder.InsertShape(ShapeType.Rectangle, 80, 80);
 shape.Fill.PresetTextured(PresetTexture.Canvas);
 shape.Fill.TextureAlignment = TextureAlignment.TopRight;
 
-// Use la opción de cumplimiento para definir la forma usando DML si desea obtener "TextureAlignment"
+// Utilice la opción de cumplimiento para definir la forma usando DML si desea obtener "TextureAlignment"
 // propiedad después de guardar el documento.
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions { Compliance = OoxmlCompliance.Iso29500_2008_Strict };
 

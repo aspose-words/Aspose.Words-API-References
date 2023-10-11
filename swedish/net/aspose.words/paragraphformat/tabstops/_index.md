@@ -3,7 +3,7 @@ title: ParagraphFormat.TabStops
 second_title: Aspose.Words för .NET API Referens
 description: ParagraphFormat fast egendom. Hämtar samlingen av anpassade tabbstopp definierade för detta objekt.
 type: docs
-weight: 380
+weight: 390
 url: /sv/net/aspose.words/paragraphformat/tabstops/
 ---
 ## ParagraphFormat.TabStops property

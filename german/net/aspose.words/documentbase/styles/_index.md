@@ -1,14 +1,14 @@
 ---
 title: DocumentBase.Styles
 second_title: Aspose.Words für .NET-API-Referenz
-description: DocumentBase eigendom. Gibt eine Sammlung von Stilen zurück die im Dokument definiert sind.
+description: DocumentBase eigendom. Gibt eine Sammlung von im Dokument definierten Stilen zurück.
 type: docs
 weight: 80
 url: /de/net/aspose.words/documentbase/styles/
 ---
 ## DocumentBase.Styles property
 
-Gibt eine Sammlung von Stilen zurück, die im Dokument definiert sind.
+Gibt eine Sammlung von im Dokument definierten Stilen zurück.
 
 ```csharp
 public StyleCollection Styles { get; }
@@ -16,7 +16,7 @@ public StyleCollection Styles { get; }
 
 ### Bemerkungen
 
-Weitere Informationen finden Sie in der Beschreibung der[`StyleCollection`](../../stylecollection/) Klasse.
+Weitere Informationen finden Sie in der Beschreibung des[`StyleCollection`](../../stylecollection/) Klasse.
 
 ### Beispiele
 
@@ -27,7 +27,7 @@ Document doc = new Document();
 
 Assert.AreEqual(4, doc.Styles.Count);
 
-// Aufzählen und Auflisten aller Stile, die ein mit Aspose.Words erstelltes Dokument standardmäßig enthält.
+// Alle Stile aufzählen und auflisten, die ein mit Aspose.Words erstelltes Dokument standardmäßig enthält.
 using (IEnumerator<Style> stylesEnum = doc.Styles.GetEnumerator())
 {
     while (stylesEnum.MoveNext())
@@ -43,13 +43,13 @@ using (IEnumerator<Style> stylesEnum = doc.Styles.GetEnumerator())
 }
 ```
 
-Zeigt, wie Sie ein Absatzformat mit Listenformatierung erstellen und verwenden.
+Zeigt, wie ein Absatzstil mit Listenformatierung erstellt und verwendet wird.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Einen benutzerdefinierten Absatzstil erstellen.
+// Erstellen Sie einen benutzerdefinierten Absatzstil.
 Style style = doc.Styles.Add(StyleType.Paragraph, "MyStyle1");
 style.Font.Size = 24;
 style.Font.Name = "Verdana";
@@ -59,11 +59,11 @@ style.ParagraphFormat.SpaceAfter = 12;
 style.ListFormat.List = doc.Lists.Add(ListTemplate.BulletDefault);
 style.ListFormat.ListLevelNumber = 0;
 
-// Den Absatzstil auf den aktuellen Absatz des Document Builder anwenden und dann etwas Text hinzufügen.
+// Den Absatzstil auf den aktuellen Absatz des Document Builders anwenden und dann etwas Text hinzufügen.
 builder.ParagraphFormat.Style = style;
 builder.Writeln("Hello World: MyStyle1, bulleted list.");
 
-// Ändern Sie den Stil des Document Builder in einen Stil ohne Listenformatierung und schreiben Sie einen weiteren Absatz.
+// Ändern Sie den Stil des Document Builders in einen Stil ohne Listenformatierung und schreiben Sie einen weiteren Absatz.
 builder.ParagraphFormat.Style = doc.Styles["Normal"];
 builder.Writeln("Hello World: Normal.");
 

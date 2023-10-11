@@ -16,13 +16,13 @@ public Color Color { get; set; }
 
 ### Bemerkungen
 
-Gibt die Farbe des ersten Rahmens in der Auflistung zurück.
+Gibt die Farbe des ersten Rahmens in der Sammlung zurück.
 
-Legt die Farbe aller Rahmen in der Sammlung mit Ausnahme diagonaler Rahmen fest.
+Legt die Farbe aller Rahmen in der Sammlung fest, mit Ausnahme der diagonalen Ränder.
 
 ### Beispiele
 
-Zeigt, wie Sie einen grünen wellenförmigen Seitenrand mit einem Schatten erstellen.
+Zeigt, wie man einen grünen, wellenförmigen Seitenrand mit einem Schatten erstellt.
 
 ```csharp
 Document doc = new Document();

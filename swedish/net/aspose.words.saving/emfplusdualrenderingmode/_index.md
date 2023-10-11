@@ -3,7 +3,7 @@ title: Enum EmfPlusDualRenderingMode
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Saving.EmfPlusDualRenderingMode uppräkning. Anger hur Aspose.Words ska återge EMF Dual metafiler.
 type: docs
-weight: 4720
+weight: 4980
 url: /sv/net/aspose.words.saving/emfplusdualrenderingmode/
 ---
 ## EmfPlusDualRenderingMode enumeration

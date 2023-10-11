@@ -1,14 +1,14 @@
 ---
 title: Table.SetShading
 second_title: Aspose.Words for .NET API 参考
-description: Table 方法. 为整个表的指定值设置底纹
+description: Table 方法. 将整个表的底纹设置为指定值
 type: docs
-weight: 430
+weight: 450
 url: /zh/net/aspose.words.tables/table/setshading/
 ---
 ## Table.SetShading method
 
-为整个表的指定值设置底纹。
+将整个表的底纹设置为指定值。
 
 ```csharp
 public void SetShading(TextureIndex texture, Color foregroundColor, Color backgroundColor)
@@ -22,7 +22,7 @@ public void SetShading(TextureIndex texture, Color foregroundColor, Color backgr
 
 ### 例子
 
-显示如何将轮廓边框应用于表格。
+演示如何将轮廓边框应用到表格。
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
@@ -35,7 +35,7 @@ table.Alignment = TableAlignment.Center;
 table.ClearBorders();
 table.ClearShading();
 
-// 为表格的轮廓添加绿色边框。
+// 将绿色边框添加到表格的轮廓。
 table.SetBorder(BorderType.Left, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Right, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Top, LineStyle.Single, 1.5, Color.Green, true);

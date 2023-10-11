@@ -1,14 +1,16 @@
 ---
 title: Class HeaderFooterCollection
 second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.HeaderFooterCollection sınıf. Yazılı erişim sağlarHeaderFooter düğümler Bölüm .
+description: Aspose.Words.HeaderFooterCollection sınıf. Yazılı erişim sağlarHeaderFooter bir düğümSection .
 type: docs
-weight: 2930
+weight: 3110
 url: /tr/net/aspose.words/headerfootercollection/
 ---
 ## HeaderFooterCollection class
 
-Yazılı erişim sağlar[`HeaderFooter`](../headerfooter/) düğümler **Bölüm** .
+Yazılı erişim sağlar[`HeaderFooter`](../headerfooter/) bir düğüm[`Section`](../section/) .
+
+Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Üstbilgiler ve Altbilgilerle Çalışmak](https://docs.aspose.com/words/net/working-with-headers-and-footers/) dokümantasyon makalesi.
 
 ```csharp
 public class HeaderFooterCollection : NodeCollection
@@ -19,35 +21,35 @@ public class HeaderFooterCollection : NodeCollection
 | İsim | Tanım |
 | --- | --- |
 | [Count](../../aspose.words/nodecollection/count/) { get; } | Koleksiyondaki düğüm sayısını alır. |
-| [Item](../../aspose.words/headerfootercollection/item/) { get; } | Bir **Üstbilgi Altbilgi** verilen dizinde. (3 indexers) |
+| [Item](../../aspose.words/headerfootercollection/item/) { get; } | Bir öğeyi alır[`HeaderFooter`](../headerfooter/) verilen dizinde. (3 indexers) |
 
 ## yöntemler
 
 | İsim | Tanım |
 | --- | --- |
 | [Add](../../aspose.words/nodecollection/add/)(Node) | Koleksiyonun sonuna bir düğüm ekler. |
-| [Clear](../../aspose.words/nodecollection/clear/)() | Bu koleksiyondaki ve belgedeki tüm düğümleri kaldırır. |
-| [Contains](../../aspose.words/nodecollection/contains/)(Node) | Koleksiyonda bir düğüm olup olmadığını belirler. |
-| [GetEnumerator](../../aspose.words/nodecollection/getenumerator/)() | Düğüm koleksiyonu üzerinde basit bir "foreach" stili yineleme sağlar. |
+| [Clear](../../aspose.words/nodecollection/clear/)() | Tüm düğümleri bu koleksiyondan ve belgeden kaldırır. |
+| [Contains](../../aspose.words/nodecollection/contains/)(Node) | Bir düğümün koleksiyonda olup olmadığını belirler. |
+| [GetEnumerator](../../aspose.words/nodecollection/getenumerator/)() | Düğümlerin koleksiyonu üzerinde basit bir "foreach" stili yinelemesi sağlar. |
 | [IndexOf](../../aspose.words/nodecollection/indexof/)(Node) | Belirtilen düğümün sıfır tabanlı dizinini döndürür. |
 | [Insert](../../aspose.words/nodecollection/insert/)(int, Node) | Belirtilen dizindeki koleksiyona bir düğüm ekler. |
-| [LinkToPrevious](../../aspose.words/headerfootercollection/linktoprevious/#linktoprevious_1)(bool) | Tüm üstbilgileri ve altbilgileri önceki bölümdeki karşılık gelen üstbilgi ve altbilgilere bağlar veya bağlantısını kaldırır. |
-| [LinkToPrevious](../../aspose.words/headerfootercollection/linktoprevious/#linktoprevious)(HeaderFooterType, bool) | Belirtilen üstbilgi veya altbilgiyi önceki bölümdeki karşılık gelen üstbilgi veya altbilgiye bağlar veya bağlantısını kaldırır. |
+| [LinkToPrevious](../../aspose.words/headerfootercollection/linktoprevious/#linktoprevious_1)(bool) | Tüm üstbilgileri ve altbilgileri önceki bölümdeki karşılık gelen üstbilgilerine ve altbilgilerine bağlar veya bağlantısını kaldırır. |
+| [LinkToPrevious](../../aspose.words/headerfootercollection/linktoprevious/#linktoprevious)(HeaderFooterType, bool) | Belirtilen üstbilgiyi veya altbilgiyi önceki bölümdeki ilgili üstbilgiye veya altbilgiye bağlar veya bağlantısını kaldırır. |
 | [Remove](../../aspose.words/nodecollection/remove/)(Node) | Düğümü koleksiyondan ve belgeden kaldırır. |
 | [RemoveAt](../../aspose.words/nodecollection/removeat/)(int) | Belirtilen dizindeki düğümü koleksiyondan ve belgeden kaldırır. |
-| [ToArray](../../aspose.words/headerfootercollection/toarray/#toarray)() | Tümünü kopyalar`ÜstbilgiAltbilgi` koleksiyondan yeni bir diziye s`ÜstbilgiAltbilgi` s. (2 methods) |
+| [ToArray](../../aspose.words/headerfootercollection/toarray/#toarray)() | Tümünü kopyalar`BaşlıkAltbilgi` koleksiyondan yeni bir diziye`BaşlıkAltbilgi` s. (2 methods) |
 
 ### Notlar
 
-En fazla bir tane olabilir **Üstbilgi Altbilgi**
+En fazla bir tane olabilir[`HeaderFooter`](../headerfooter/)
 
-her biri için[`HeaderFooterType`](../headerfootertype/) per  **Bölüm** .
+her biri için[`HeaderFooterType`](../headerfootertype/) per [`Section`](../section/) .
 
-**Üstbilgi Altbilgi** nesneler koleksiyondaki herhangi bir sırada oluşabilir.
+[`HeaderFooter`](../headerfooter/) nesneler koleksiyonda herhangi bir sırada bulunabilir.
 
 ### Örnekler
 
-Bir belgeden tüm alt bilgilerin nasıl silineceğini gösterir.
+Bir belgedeki tüm altbilgilerin nasıl silineceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Header and footer types.docx");
@@ -55,7 +57,7 @@ Document doc = new Document(MyDir + "Header and footer types.docx");
 // Her bölümü yineleyin ve her türden altbilgiyi kaldırın.
 foreach (Section section in doc.OfType<Section>())
 {
-    //Üç çeşit altbilgi ve üstbilgi türü vardır.
+    // Üç çeşit altbilgi ve başlık türü vardır.
     // 1 - Bir bölümün yalnızca ilk sayfasında görünen "İlk" üstbilgi/altbilgi.
     HeaderFooter footer = section.HeadersFooters[HeaderFooterType.FooterFirst];
     footer?.Remove();
@@ -64,7 +66,7 @@ foreach (Section section in doc.OfType<Section>())
     footer = section.HeadersFooters[HeaderFooterType.FooterPrimary];
     footer?.Remove();
 
-     // 3 - Çift sayfalarda görünen "Eşit" üstbilgi/altbilgi.
+     // 3 - Çift sayfalarda görünen "Çift" üstbilgi/altbilgi.
     footer = section.HeadersFooters[HeaderFooterType.FooterEven];
     footer?.Remove();
 
@@ -80,7 +82,7 @@ doc.Save(ArtifactsDir + "HeaderFooter.RemoveFooters.docx");
 Document doc = new Document();
 
 // Bir başlık oluşturun ve ona bir paragraf ekleyin. O paragraftaki metin
-// bu bölümün her sayfasının başında, ana gövde metninin üstünde görünecektir.
+// bu bölümün her sayfasının üst kısmında, ana metin metninin üstünde görünecektir.
 HeaderFooter header = new HeaderFooter(doc, HeaderFooterType.HeaderPrimary);
 doc.FirstSection.HeadersFooters.Add(header);
 
@@ -89,7 +91,7 @@ Paragraph para = header.AppendParagraph("My header.");
 Assert.True(header.IsHeader);
 Assert.True(para.IsEndOfHeaderFooter);
 
-// Bir alt bilgi oluşturun ve ona bir paragraf ekleyin. O paragraftaki metin
+// Bir altbilgi oluşturun ve ona bir paragraf ekleyin. O paragraftaki metin
 // bu bölümün her sayfasının altında, ana gövde metninin altında görünecektir.
 HeaderFooter footer = new HeaderFooter(doc, HeaderFooterType.FooterPrimary);
 doc.FirstSection.HeadersFooters.Add(footer);

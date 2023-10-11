@@ -1,14 +1,16 @@
 ---
 title: Class Metered
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Metered classe. Fournit des méthodes pour définir la clé mesurée.
+description: Aspose.Words.Metered classe. Fournit des méthodes pour définir une clé mesurée.
 type: docs
-weight: 3920
+weight: 4160
 url: /fr/net/aspose.words/metered/
 ---
 ## Metered class
 
-Fournit des méthodes pour définir la clé mesurée.
+Fournit des méthodes pour définir une clé mesurée.
+
+Pour en savoir plus, visitez le[Licence et abonnement](https://docs.aspose.com/words/net/licensing/) article documentaire.
 
 ```csharp
 public class Metered
@@ -24,7 +26,7 @@ public class Metered
 
 | Nom | La description |
 | --- | --- |
-| [SetMeteredKey](../../aspose.words/metered/setmeteredkey/)(string, string) | Définit la clé publique et privée mesurée. Si vous achetez une licence mesurée, lorsque vous démarrez l'application, cette API doit être appelée, normalement, cela suffit. Cependant, si vous ne parvenez toujours pas à télécharger les données de consommation et dépassez 24 heures, la licence sera définie sur le statut d'évaluation, pour éviter ce cas, vous devez vérifier régulièrement le statut de la licence, s'il s'agit du statut d'évaluation, appelez à nouveau cette API. |
+| [SetMeteredKey](../../aspose.words/metered/setmeteredkey/)(string, string) | Définit les clés publiques et privées mesurées. Si vous achetez une licence limitée, au démarrage de l'application, cette API doit être appelée, normalement, cela suffit. Cependant, si vous ne parvenez toujours pas à télécharger les données de consommation et dépassez 24 heures, la licence sera définie sur le statut d'évaluation, pour éviter un tel cas, vous devez vérifier régulièrement l'état de la licence, s'il s'agit du statut d'évaluation, appelez à nouveau cette API. |
 | static [GetConsumptionCredit](../../aspose.words/metered/getconsumptioncredit/)() | Obtient un crédit de consommation |
 | static [GetConsumptionQuantity](../../aspose.words/metered/getconsumptionquantity/)() | Obtient la taille du fichier de consommation |
 
@@ -45,17 +47,17 @@ Dim matered As Metered = New Metered
 matered.SetMeteredKey("PublicKey", "PrivateKey")
 ```
 
-Montre comment activer une licence au compteur et suivre le crédit/la consommation.
+Montre comment activer une licence avec compteur et suivre le crédit/la consommation.
 
 ```csharp
-// Créez une nouvelle licence avec compteur, puis imprimez ses statistiques d'utilisation.
+// Créez une nouvelle licence limitée, puis imprimez ses statistiques d'utilisation.
 Metered metered = new Metered();
 metered.SetMeteredKey("MyPublicKey", "MyPrivateKey");
 
 Console.WriteLine($"Credit before operation: {Metered.GetConsumptionCredit()}");
 Console.WriteLine($"Consumption quantity before operation: {Metered.GetConsumptionQuantity()}");
 
-// Opérez en utilisant Aspose.Words, puis imprimez à nouveau nos statistiques mesurées pour voir combien nous avons dépensé.
+// Fonctionne en utilisant Aspose.Words, puis imprime à nouveau nos statistiques mesurées pour voir combien nous avons dépensé.
 Document doc = new Document(MyDir + "Document.docx");
 doc.Save(ArtifactsDir + "Metered.Usage.pdf");
 

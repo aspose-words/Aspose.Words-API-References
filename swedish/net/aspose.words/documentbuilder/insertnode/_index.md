@@ -1,14 +1,14 @@
 ---
 title: DocumentBuilder.InsertNode
 second_title: Aspose.Words för .NET API Referens
-description: DocumentBuilder metod. Infogar en nod på textnivå i det aktuella stycket före markören.
+description: DocumentBuilder metod. Infogar en nod före markören.
 type: docs
-weight: 360
+weight: 390
 url: /sv/net/aspose.words/documentbuilder/insertnode/
 ---
 ## DocumentBuilder.InsertNode method
 
-Infogar en nod på textnivå i det aktuella stycket före markören.
+Infogar en nod före markören.
 
 ```csharp
 public void InsertNode(Node node)

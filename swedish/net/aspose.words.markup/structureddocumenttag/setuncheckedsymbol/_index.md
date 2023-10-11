@@ -3,7 +3,7 @@ title: StructuredDocumentTag.SetUncheckedSymbol
 second_title: Aspose.Words för .NET API Referens
 description: StructuredDocumentTag metod. Ställer in symbolen som används för att representera det omarkerade tillståndet för en innehållskontroll i kryssrutan.
 type: docs
-weight: 360
+weight: 390
 url: /sv/net/aspose.words.markup/structureddocumenttag/setuncheckedsymbol/
 ---
 ## StructuredDocumentTag.SetUncheckedSymbol method

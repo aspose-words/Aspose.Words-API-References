@@ -16,15 +16,16 @@ public string GroupName { get; set; }
 
 ### Примечания
 
-Когда имя группы равно null,[`GroupIndex`](../groupindex/) используется для идентификации группы.
+Когда имя группы`нулевой` ,[`GroupIndex`](../groupindex/) используется для идентификации группы.
 
-Значение по умолчанию равно нулю.
+По умолчанию`нулевой`.
 
 ### Примеры
 
 Показывает, как применить другой шрифт к новому содержимому с помощью FindReplaceOptions.
 
 ```csharp
+public void ConvertNumbersToHexadecimal()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -33,7 +34,7 @@ public string GroupName { get; set; }
     builder.Writeln("Numbers that the find-and-replace operation will convert to hexadecimal and highlight:\n" +
                     "123, 456, 789 and 17379.");
 
-    // Мы можем использовать объект «FindReplaceOptions», чтобы изменить процесс поиска и замены.
+    // Мы можем использовать объект «FindReplaceOptions» для изменения процесса поиска и замены.
     FindReplaceOptions options = new FindReplaceOptions();
 
     // Установите для свойства HighlightColor цвет фона, который мы хотим применить к результирующему тексту операции.
@@ -55,7 +56,7 @@ public string GroupName { get; set; }
 
 /// <summary>
 /// Заменяет числовые совпадения поиска и замены их шестнадцатеричными эквивалентами.
-/// Ведет журнал каждой замены.
+/// Ведёт журнал каждой замены.
 /// </summary>
 private class NumberHexer : IReplacingCallback
 {

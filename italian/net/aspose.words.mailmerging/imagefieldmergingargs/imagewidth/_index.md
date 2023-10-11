@@ -16,24 +16,25 @@ public MergeFieldImageDimension ImageWidth { get; set; }
 
 ### Osservazioni
 
-Il valore di questa proprietà deriva inizialmente dal codice di MERGEFIELD corrispondente, contenuto nel documento modello . Per sovrascrivere il valore iniziale, dovresti assegnare un'istanza di [`MergeFieldImageDimension`](../../../aspose.words.fields/mergefieldimagedimension/) class su questa proprietà o impostare le proprietà per l'istanza di[`MergeFieldImageDimension`](../../../aspose.words.fields/mergefieldimagedimension/) classe, restituito da questa proprietà.
+Il valore di questa proprietà proviene inizialmente dal codice MERGEFIELD corrispondente, contenuto nel documento template . Per sovrascrivere il valore iniziale, dovresti assegnare un'istanza di [`MergeFieldImageDimension`](../../../aspose.words.fields/mergefieldimagedimension/) class su questa proprietà o impostare le proprietà per l'istanza di[`MergeFieldImageDimension`](../../../aspose.words.fields/mergefieldimagedimension/) classe, restituita da questa proprietà.
 
-Per indicare che deve essere applicato il valore originale della larghezza dell'immagine, è necessario assegnare il **nullo** valore su questa proprietà o impostare il[`Value`](../../../aspose.words.fields/mergefieldimagedimension/value/) proprietà per l'istanza di[`MergeFieldImageDimension`](../../../aspose.words.fields/mergefieldimagedimension/) classe, restituita da questa proprietà, a un valore negativo.
+Per indicare che deve essere applicato il valore originale della larghezza dell'immagine, è necessario assegnare il file`nullo` su questa proprietà o imposta il file[`Value`](../../../aspose.words.fields/mergefieldimagedimension/value/) proprietà per l'istanza di[`MergeFieldImageDimension`](../../../aspose.words.fields/mergefieldimagedimension/) classe, restituita da questa proprietà, su un valore negativo.
 
 ### Esempi
 
-Mostra come impostare le dimensioni delle immagini quando MERGEFIELDS le accetta durante una stampa unione.
+Mostra come impostare le dimensioni delle immagini poiché MERGEFIELDS le accetta durante una stampa unione.
 
 ```csharp
+public void MergeFieldImageDimension()
 {
     Document doc = new Document();
 
-    // Inserisce un MERGEFIELD che accetterà immagini da un'origine durante una stampa unione. Utilizzare il codice di campo per fare riferimento
-    // una colonna nell'origine dati contenente i nomi dei file di sistema locali delle immagini che desideriamo utilizzare nella stampa unione.
+    // Inserisci un MERGEFIELD che accetterà le immagini da una fonte durante una stampa unione. Utilizzare il codice di campo come riferimento
+    // una colonna nell'origine dati contenente i nomi dei file di sistema locale delle immagini che desideriamo utilizzare nella stampa unione.
     DocumentBuilder builder = new DocumentBuilder(doc);
     FieldMergeField field = (FieldMergeField)builder.InsertField("MERGEFIELD Image:ImageColumn");
 
-    // L'origine dati dovrebbe avere una tale colonna denominata "ImageColumn".
+    // L'origine dati dovrebbe avere una colonna denominata "ImageColumn".
     Assert.AreEqual("Image:ImageColumn", field.FieldName);
 
     // Crea un'origine dati adatta.
@@ -43,15 +44,16 @@ Mostra come impostare le dimensioni delle immagini quando MERGEFIELDS le accetta
     dataTable.Rows.Add(ImageDir + "Transparent background logo.png");
     dataTable.Rows.Add(ImageDir + "Enhanced Windows MetaFile.emf");
 
-    // Configura una richiamata per modificare le dimensioni delle immagini al momento dell'unione, quindi esegui la stampa unione.
+    // Configura una richiamata per modificare le dimensioni delle immagini al momento dell'unione, quindi esegue la stampa unione.
     doc.MailMerge.FieldMergingCallback = new MergedImageResizer(200, 200, MergeFieldImageDimensionUnit.Point);
     doc.MailMerge.Execute(dataTable);
 
     doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.MERGEFIELD.ImageDimension.docx");
+}
 
 /// <summary>
-/// Imposta la dimensione di tutte le immagini unite alla posta su una larghezza e un'altezza definite.
+/// Imposta la dimensione di tutte le immagini unite tramite posta su una larghezza e un'altezza definite.
 /// </summary>
 private class MergedImageResizer : IFieldMergingCallback
 {

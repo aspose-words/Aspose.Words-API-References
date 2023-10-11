@@ -16,7 +16,7 @@ public int IndexOf(Node node)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| node | Node | Der zu lokalisierende Knoten. |
+| node | Node | Der zu suchende Knoten. |
 
 ### Rückgabewert
 
@@ -24,11 +24,11 @@ Der nullbasierte Index des Knotens innerhalb der Sammlung, falls gefunden; ander
 
 ### Bemerkungen
 
-Diese Methode führt eine lineare Suche durch; Daher ist die durchschnittliche Ausführungszeit proportional zu Count.
+Diese Methode führt eine lineare Suche durch; Daher ist die durchschnittliche Ausführungszeit proportional zu[`Count`](../count/).
 
 ### Beispiele
 
-Zeigt, wie der Index eines Knotens in einer Auflistung abgerufen wird.
+Zeigt, wie der Index eines Knotens in einer Sammlung abgerufen wird.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");

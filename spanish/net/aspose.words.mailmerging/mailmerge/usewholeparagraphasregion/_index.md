@@ -1,14 +1,14 @@
 ---
 title: MailMerge.UseWholeParagraphAsRegion
 second_title: Referencia de API de Aspose.Words para .NET
-description: MailMerge propiedad. Obtiene o establece un valor que indica si el párrafo completo con el campo TableStart o TableEnd o un rango particular entre los campos TableStart y TableEnd debe incluirse en la región de combinación de correspondencia.
+description: MailMerge propiedad. Obtiene o establece un valor que indica si el párrafo completo con Inicio de tabla o Fin de la tabla field o rango particular entre Inicio de tabla y Fin de la tabla Los campos deben incluirse en la región de combinación de correspondencia.
 type: docs
 weight: 160
 url: /es/net/aspose.words.mailmerging/mailmerge/usewholeparagraphasregion/
 ---
 ## MailMerge.UseWholeParagraphAsRegion property
 
-Obtiene o establece un valor que indica si el párrafo completo con el campo TableStart o TableEnd o un rango particular entre los campos TableStart y TableEnd debe incluirse en la región de combinación de correspondencia.
+Obtiene o establece un valor que indica si el párrafo completo con **Inicio de tabla** o **Fin de la tabla** field o rango particular entre **Inicio de tabla** y **Fin de la tabla** Los campos deben incluirse en la región de combinación de correspondencia.
 
 ```csharp
 public bool UseWholeParagraphAsRegion { get; set; }
@@ -16,11 +16,11 @@ public bool UseWholeParagraphAsRegion { get; set; }
 
 ### Observaciones
 
-El valor predeterminado es **verdadero** .
+El valor predeterminado es`verdadero` .
 
 ### Ejemplos
 
-Muestra la relación entre las regiones de combinación de correspondencia y los párrafos.
+Muestra la relación entre regiones y párrafos de combinación de correspondencia.
 
 ```csharp
 public void UseWholeParagraphAsRegion(bool useWholeParagraphAsRegion)
@@ -30,9 +30,9 @@ public void UseWholeParagraphAsRegion(bool useWholeParagraphAsRegion)
 
     // De forma predeterminada, un párrafo no puede pertenecer a más de una región de combinación de correspondencia.
     // El contenido de nuestro documento no cumple con estos criterios.
-    // Si establecemos el indicador "UseWholeParagraphAsRegion" en "true",
+    // Si configuramos el indicador "UseWholeParagraphAsRegion" en "true",
     // ejecutar una combinación de correspondencia en este documento generará una excepción.
-    // Si establecemos el indicador "UseWholeParagraphAsRegion" en "falso",
+    // Si configuramos el indicador "UseWholeParagraphAsRegion" en "falso",
     // podremos ejecutar una combinación de correspondencia en este documento.
     doc.MailMerge.UseWholeParagraphAsRegion = useWholeParagraphAsRegion;
 
@@ -41,13 +41,13 @@ public void UseWholeParagraphAsRegion(bool useWholeParagraphAsRegion)
     else
         doc.MailMerge.ExecuteWithRegions(dataTable);
 
-    // La combinación de correspondencia llena nuestra primera región mientras deja la segunda región sin usar
-    // ya que es la región la que rompe la regla.
+    // La combinación de correspondencia completa nuestra primera región y deja la segunda región sin usar
+    // ya que es la región la que infringe la regla.
     doc.Save(ArtifactsDir + "MailMerge.UseWholeParagraphAsRegion.docx");
 }
 
 /// <summary>
-/// Cree un documento con dos regiones de combinación de correspondencia que comparten un párrafo.
+/// Crea un documento con dos regiones de combinación de correspondencia que comparten un párrafo.
 /// </summary>
 private static Document CreateSourceDocWithNestedMergeRegions()
 {
@@ -69,7 +69,7 @@ private static Document CreateSourceDocWithNestedMergeRegions()
 }
 
 /// <summary>
-/// Cree una tabla de datos que pueda llenar una región durante una combinación de correspondencia.
+/// Cree una tabla de datos que pueda completar una región durante una combinación de correspondencia.
 /// </summary>
 private static DataTable CreateSourceTableDataTableForOneRegion()
 {

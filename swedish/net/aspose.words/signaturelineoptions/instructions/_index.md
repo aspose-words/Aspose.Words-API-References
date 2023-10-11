@@ -1,14 +1,14 @@
 ---
 title: SignatureLineOptions.Instructions
 second_title: Aspose.Words för .NET API Referens
-description: SignatureLineOptions fast egendom. Hämtar eller ställer in instruktioner till undertecknaren som visas när signaturraden signeras. Standardvärdet för den här egenskapen är tom sträng Empty .
+description: SignatureLineOptions fast egendom. Hämtar eller ställer in instruktioner till undertecknaren som visas när signaturraden signeras. Standardvärdet för den här egenskapen är tom sträng Empty.
 type: docs
 weight: 50
 url: /sv/net/aspose.words/signaturelineoptions/instructions/
 ---
 ## SignatureLineOptions.Instructions property
 
-Hämtar eller ställer in instruktioner till undertecknaren som visas när signaturraden signeras. Standardvärdet för den här egenskapen är **tom sträng** (Empty ).
+Hämtar eller ställer in instruktioner till undertecknaren som visas när signaturraden signeras. Standardvärdet för den här egenskapen är **tom sträng** (Empty).
 
 ```csharp
 public string Instructions { get; set; }

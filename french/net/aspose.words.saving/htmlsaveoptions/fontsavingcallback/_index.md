@@ -1,14 +1,14 @@
 ---
 title: HtmlSaveOptions.FontSavingCallback
 second_title: Référence de l'API Aspose.Words pour .NET
-description: HtmlSaveOptions propriété. Permet de contrôler la manière dont les polices sont enregistrées lorsquun document est enregistré au format HTML MHTML ou EPUB.
+description: HtmlSaveOptions propriété. Permet de contrôler la façon dont les polices sont enregistrées lorsquun document est enregistré au format HTML MHTML ou EPUB.
 type: docs
-weight: 310
+weight: 300
 url: /fr/net/aspose.words.saving/htmlsaveoptions/fontsavingcallback/
 ---
 ## HtmlSaveOptions.FontSavingCallback property
 
-Permet de contrôler la manière dont les polices sont enregistrées lorsqu'un document est enregistré au format HTML, MHTML ou EPUB.
+Permet de contrôler la façon dont les polices sont enregistrées lorsqu'un document est enregistré au format HTML, MHTML ou EPUB.
 
 ```csharp
 public IFontSavingCallback FontSavingCallback { get; set; }
@@ -16,9 +16,10 @@ public IFontSavingCallback FontSavingCallback { get; set; }
 
 ### Exemples
 
-Montre comment définir une logique personnalisée pour l'exportation des polices lors de l'enregistrement au format HTML.
+Montre comment définir une logique personnalisée pour l’exportation des polices lors de l’enregistrement au format HTML.
 
 ```csharp
+public void SaveExportedFonts()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
@@ -38,8 +39,10 @@ Montre comment définir une logique personnalisée pour l'exportation des police
         Console.WriteLine(fontFilename);
     }
 
+}
+
 /// <summary>
-/// Imprime des informations sur les polices exportées et les enregistre dans le même dossier système local que leur sortie .html.
+/// Imprime les informations sur les polices exportées et les enregistre dans le même dossier système local que leur sortie .html.
 /// </summary>
 public class HandleFontSaving : IFontSavingCallback
 {
@@ -56,7 +59,7 @@ public class HandleFontSaving : IFontSavingCallback
         Assert.True(args.IsExportNeeded);
         Assert.True(args.IsSubsettingNeeded);
 
-        // Il existe deux manières d'enregistrer une police exportée.
+        // Il existe deux manières de sauvegarder une police exportée.
         // 1 - Enregistrez-le dans un emplacement du système de fichiers local :
         args.FontFileName = args.OriginalFileName.Split(Path.DirectorySeparatorChar).Last();
 

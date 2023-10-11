@@ -20,7 +20,7 @@ Cette propriété renvoie la taille du cadre de délimitation réel (tel que ren
 
 ### Exemples
 
-Montre comment mesurer et mettre à l'échelle des formes.
+Montre comment mesurer et mettre à l’échelle des formes.
 
 ```csharp
 Document doc = new Document(MyDir + "Office math.docx");
@@ -39,13 +39,13 @@ Assert.AreEqual(13.0f, renderer.BoundsInPoints.Height, 0.1f);
 Assert.AreEqual(119.0f, renderer.OpaqueBoundsInPoints.Width, 0.2f);
 Assert.AreEqual(14.2f, renderer.OpaqueBoundsInPoints.Height, 0.1f);
 
-// Obtient la taille de la forme en pixels, avec une mise à l'échelle linéaire à un DPI spécifique.
+// Obtenez la taille de la forme en pixels, avec une mise à l'échelle linéaire vers un DPI spécifique.
 Rectangle bounds = renderer.GetBoundsInPixels(1.0f, 96.0f);
 
 Assert.AreEqual(159, bounds.Width);
 Assert.AreEqual(18, bounds.Height);
 
-// Obtient la taille de la forme en pixels, mais avec un DPI différent pour les dimensions horizontales et verticales.
+// Récupère la taille de la forme en pixels, mais avec un DPI différent pour les dimensions horizontales et verticales.
 bounds = renderer.GetBoundsInPixels(1.0f, 96.0f, 150.0f);
 Assert.AreEqual(159, bounds.Width);
 Assert.AreEqual(28, bounds.Height);

@@ -1,14 +1,14 @@
 ---
 title: DocumentBuilder.InsertFootnote
 second_title: Aspose.Words per .NET API Reference
-description: DocumentBuilder metodo. Inserisce una nota a piè di pagina o una nota di chiusura nel documento.
+description: DocumentBuilder metodo. Inserisce una nota a piè di pagina o di chiusura nel documento.
 type: docs
-weight: 310
+weight: 340
 url: /it/net/aspose.words/documentbuilder/insertfootnote/
 ---
 ## InsertFootnote(FootnoteType, string) {#insertfootnote}
 
-Inserisce una nota a piè di pagina o una nota di chiusura nel documento.
+Inserisce una nota a piè di pagina o di chiusura nel documento.
 
 ```csharp
 public Footnote InsertFootnote(FootnoteType footnoteType, string footnoteText)
@@ -21,7 +21,7 @@ public Footnote InsertFootnote(FootnoteType footnoteType, string footnoteText)
 
 ### Valore di ritorno
 
-Restituisce un oggetto nota a piè di pagina che è stato appena creato.
+Restituisce un oggetto nota a piè di pagina appena creato.
 
 ### Esempi
 
@@ -32,19 +32,19 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Inserisci del testo e contrassegnalo con una nota a piè di pagina con la proprietà IsAuto impostata su "true" per impostazione predefinita,
-// quindi il marcatore visto nel corpo del testo sarà numerato automaticamente a "1",
+// quindi il marcatore visto nel corpo del testo verrà numerato automaticamente a "1",
 // e la nota a piè di pagina apparirà in fondo alla pagina.
 builder.Write("This text will be referenced by a footnote.");
 builder.InsertFootnote(FootnoteType.Footnote, "Footnote comment regarding referenced text.");
 
-// Inserisci più testo e contrassegnalo con una nota di chiusura con un segno di riferimento personalizzato,
+// Inserisci altro testo e contrassegnalo con una nota di chiusura con un segno di riferimento personalizzato,
 // che verrà utilizzato al posto del numero "2" e imposterà "IsAuto" su false.
 builder.Write("This text will be referenced by an endnote.");
 builder.InsertFootnote(FootnoteType.Endnote, "Endnote comment regarding referenced text.", "CustomMark");
 
-// Le note a piè di pagina appaiono sempre in fondo al testo di riferimento,
+// Le note a piè di pagina appaiono sempre alla fine del testo a cui fanno riferimento,
 // quindi questa interruzione di pagina non influirà sulla nota a piè di pagina.
-// D'altra parte, le note di chiusura sono sempre alla fine del documento
+// D'altra parte, le note finali sono sempre alla fine del documento
 // in modo che questa interruzione di pagina spinga la nota di chiusura alla pagina successiva.
 builder.InsertBreak(BreakType.PageBreak);
 
@@ -63,7 +63,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertFootnote.docx");
 
 ## InsertFootnote(FootnoteType, string, string) {#insertfootnote_1}
 
-Inserisce una nota a piè di pagina o una nota di chiusura nel documento.
+Inserisce una nota a piè di pagina o di chiusura nel documento.
 
 ```csharp
 public Footnote InsertFootnote(FootnoteType footnoteType, string footnoteText, string referenceMark)
@@ -77,7 +77,7 @@ public Footnote InsertFootnote(FootnoteType footnoteType, string footnoteText, s
 
 ### Valore di ritorno
 
-Restituisce un oggetto nota a piè di pagina che è stato appena creato.
+Restituisce un oggetto nota a piè di pagina appena creato.
 
 ### Esempi
 
@@ -88,19 +88,19 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Inserisci del testo e contrassegnalo con una nota a piè di pagina con la proprietà IsAuto impostata su "true" per impostazione predefinita,
-// quindi il marcatore visto nel corpo del testo sarà numerato automaticamente a "1",
+// quindi il marcatore visto nel corpo del testo verrà numerato automaticamente a "1",
 // e la nota a piè di pagina apparirà in fondo alla pagina.
 builder.Write("This text will be referenced by a footnote.");
 builder.InsertFootnote(FootnoteType.Footnote, "Footnote comment regarding referenced text.");
 
-// Inserisci più testo e contrassegnalo con una nota di chiusura con un segno di riferimento personalizzato,
+// Inserisci altro testo e contrassegnalo con una nota di chiusura con un segno di riferimento personalizzato,
 // che verrà utilizzato al posto del numero "2" e imposterà "IsAuto" su false.
 builder.Write("This text will be referenced by an endnote.");
 builder.InsertFootnote(FootnoteType.Endnote, "Endnote comment regarding referenced text.", "CustomMark");
 
-// Le note a piè di pagina appaiono sempre in fondo al testo di riferimento,
+// Le note a piè di pagina appaiono sempre alla fine del testo a cui fanno riferimento,
 // quindi questa interruzione di pagina non influirà sulla nota a piè di pagina.
-// D'altra parte, le note di chiusura sono sempre alla fine del documento
+// D'altra parte, le note finali sono sempre alla fine del documento
 // in modo che questa interruzione di pagina spinga la nota di chiusura alla pagina successiva.
 builder.InsertBreak(BreakType.PageBreak);
 

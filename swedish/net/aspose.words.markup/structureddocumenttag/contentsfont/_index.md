@@ -51,7 +51,7 @@ tag.EndCharacterFont.Name = "Arial Black";
 tag.Multiline = true;
 
 // Ställ in egenskapen "Appearance" till "SdtAppearance.Tags" för att visa taggar runt innehåll.
-  // Som standard visas strukturerad dokumenttagg som BoundingBox.
+ // Som standard visas strukturerad dokumenttagg som BoundingBox.
 tag.Appearance = SdtAppearance.Tags;
 
 DocumentBuilder builder = new DocumentBuilder(doc);

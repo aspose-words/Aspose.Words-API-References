@@ -16,14 +16,14 @@ public bool Shadow { get; set; }
 
 ### Örnekler
 
-Gölge ile biçimlendirilmiş bir metin dizisinin nasıl oluşturulacağını gösterir.
+Gölgeyle biçimlendirilmiş bir metin dizisinin nasıl oluşturulacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Bir ofset gölge efekti uygulamak için Gölge bayrağını ayarlayın,
-// harfler sayfanın üzerinde yüzüyormuş gibi görünmesini sağlar.
+// Gölge bayrağını ofset gölge efekti uygulayacak şekilde ayarlayın,
+// harflerin sayfanın üzerinde yüzüyormuş gibi görünmesini sağlıyoruz.
 builder.Font.Shadow = true;
 builder.Font.Size = 36;
 

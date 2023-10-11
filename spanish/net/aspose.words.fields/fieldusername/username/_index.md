@@ -21,22 +21,22 @@ Muestra cómo utilizar el campo NOMBRE DE USUARIO.
 ```csharp
 Document doc = new Document();
 
-// Cree un objeto UserInformation y configúrelo como la fuente de información del usuario para cualquier campo que creemos.
+// Crea un objeto UserInformation y configúralo como fuente de información del usuario para cualquier campo que creemos.
 UserInformation userInformation = new UserInformation();
 userInformation.Name = "John Doe";
 doc.FieldOptions.CurrentUser = userInformation;
 
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Crear un campo NOMBRE DE USUARIO para mostrar el nombre del usuario actual,
-// tomado del objeto UserInformation que creamos arriba.
+// Crea un campo NOMBRE DE USUARIO para mostrar el nombre del usuario actual,
+// tomado del objeto UserInformation que creamos anteriormente.
 FieldUserName fieldUserName = (FieldUserName)builder.InsertField(FieldType.FieldUserName, true);
 Assert.AreEqual(userInformation.Name, fieldUserName.Result);
 
 Assert.AreEqual(" USERNAME ", fieldUserName.GetFieldCode());
 Assert.AreEqual("John Doe", fieldUserName.Result);
 
-  // Podemos establecer esta propiedad para que nuestro campo anule el valor actualmente almacenado en el objeto UserInformation.
+ // Podemos configurar esta propiedad para que nuestro campo anule el valor actualmente almacenado en el objeto UserInformation.
 fieldUserName.UserName = "Jane Doe";
 fieldUserName.Update();
 

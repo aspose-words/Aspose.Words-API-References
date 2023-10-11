@@ -1,14 +1,16 @@
 ---
 title: Class ChartSeriesCollection
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Drawing.Charts.ChartSeriesCollection فصل. يمثل مجموعة من أChartSeries .
+description: Aspose.Words.Drawing.Charts.ChartSeriesCollection فصل. يمثل مجموعة منChartSeries .
 type: docs
-weight: 740
+weight: 790
 url: /ar/net/aspose.words.drawing.charts/chartseriescollection/
 ---
 ## ChartSeriesCollection class
 
-يمثل مجموعة من أ[`ChartSeries`](../chartseries/) .
+يمثل مجموعة من[`ChartSeries`](../chartseries/) .
+
+لمعرفة المزيد، قم بزيارة[العمل مع الرسوم البيانية](https://docs.aspose.com/words/net/working-with-charts/) مقالة توثيقية.
 
 ```csharp
 public class ChartSeriesCollection : IEnumerable<ChartSeries>
@@ -25,17 +27,17 @@ public class ChartSeriesCollection : IEnumerable<ChartSeries>
 
 | اسم | وصف |
 | --- | --- |
-| [Add](../../aspose.words.drawing.charts/chartseriescollection/add/#add_2)(string, DateTime[], double[]) | إضافة جديد[`ChartSeries`](../chartseries/) إلى هذه المجموعة. استخدم هذه الطريقة لإضافة سلسلة إلى أي نوع من المخططات المساحية والرادار والأسهم. |
-| [Add](../../aspose.words.drawing.charts/chartseriescollection/add/#add)(string, double[], double[]) | إضافة جديد[`ChartSeries`](../chartseries/) إلى هذه المجموعة . استخدم هذه الطريقة لإضافة سلسلة إلى أي نوع من المخططات المبعثرة. |
-| [Add](../../aspose.words.drawing.charts/chartseriescollection/add/#add_3)(string, string[], double[]) | إضافة جديد[`ChartSeries`](../chartseries/)إلى هذه المجموعة . استخدم هذه الطريقة لإضافة سلسلة إلى أي نوع من المخططات الشريطية والعمودية والخطية والسطحية. |
-| [Add](../../aspose.words.drawing.charts/chartseriescollection/add/#add_1)(string, double[], double[], double[]) | إضافة جديد[`ChartSeries`](../chartseries/) إلى هذه المجموعة. استخدم هذه الطريقة لإضافة سلسلة إلى أي نوع من المخططات الفقاعية. |
+| [Add](../../aspose.words.drawing.charts/chartseriescollection/add/#add_2)(string, DateTime[], double[]) | يضيف الجديد[`ChartSeries`](../chartseries/) إلى هذه المجموعة. استخدم هذه الطريقة لإضافة سلسلة إلى أي نوع من المخططات المساحية والرادارية والأسهم. |
+| [Add](../../aspose.words.drawing.charts/chartseriescollection/add/#add)(string, double[], double[]) | يضيف الجديد[`ChartSeries`](../chartseries/) إلى هذه المجموعة. استخدم هذه الطريقة لإضافة سلسلة إلى أي نوع من المخططات المبعثرة. |
+| [Add](../../aspose.words.drawing.charts/chartseriescollection/add/#add_3)(string, string[], double[]) | يضيف الجديد[`ChartSeries`](../chartseries/) إلى هذه المجموعة. استخدم هذه الطريقة لإضافة سلسلة إلى أي نوع من المخططات الشريطية والعمودية والخطية والسطحية. |
+| [Add](../../aspose.words.drawing.charts/chartseriescollection/add/#add_1)(string, double[], double[], double[]) | يضيف الجديد[`ChartSeries`](../chartseries/)إلى هذه المجموعة. استخدم هذه الطريقة لإضافة سلسلة إلى أي نوع من المخططات الفقاعية. |
 | [Clear](../../aspose.words.drawing.charts/chartseriescollection/clear/)() | يزيل الكل[`ChartSeries`](../chartseries/) من هذه المجموعة. |
-| [GetEnumerator](../../aspose.words.drawing.charts/chartseriescollection/getenumerator/)() | إرجاع كائن العداد . |
+| [GetEnumerator](../../aspose.words.drawing.charts/chartseriescollection/getenumerator/)() | يُرجع كائن العداد. |
 | [RemoveAt](../../aspose.words.drawing.charts/chartseriescollection/removeat/)(int) | يزيل أ[`ChartSeries`](../chartseries/) في الفهرس المحدد. |
 
 ### أمثلة
 
-يوضح كيفية إضافة وإزالة بيانات السلاسل في مخطط.
+يوضح كيفية إضافة وإزالة بيانات السلسلة في مخطط.
 
 ```csharp
 Document doc = new Document();
@@ -60,21 +62,19 @@ using (IEnumerator<ChartSeries> enumerator = chart.Series.GetEnumerator())
     }
 }
 
-// هذه هي أسماء الفئات في الرسم البياني.
+// هذه هي أسماء الفئات الموجودة في المخطط.
 string[] categories = { "Category 1", "Category 2", "Category 3", "Category 4" };
 
 // يمكننا إضافة سلسلة بقيم جديدة للفئات الموجودة.
 // سيحتوي هذا المخطط الآن على أربع مجموعات من أربعة أعمدة.
 chart.Series.Add("Series 4", categories, new[] { 4.4, 7.0, 3.5, 2.1 });
-
-// يمكن أيضًا إزالة سلسلة المخططات بالفهرس ، مثل هذا.
-// سيؤدي ذلك إلى إزالة إحدى السلاسل التجريبية الثلاثة المرفقة مع الرسم البياني.
+// يمكن أيضًا إزالة سلسلة المخططات عن طريق الفهرس، مثل هذا.
+// سيؤدي هذا إلى إزالة إحدى السلاسل التجريبية الثلاثة المرفقة مع المخطط.
 chartData.RemoveAt(2);
 
 Assert.False(chartData.Any(s => s.Name == "Series 3"));
-
-// يمكننا أيضًا مسح جميع بيانات الرسم البياني مرة واحدة بهذه الطريقة.
-// عند إنشاء مخطط جديد ، فهذه هي الطريقة لمسح جميع البيانات التجريبية
+// يمكننا أيضًا مسح جميع بيانات المخطط مرة واحدة باستخدام هذه الطريقة.
+// عند إنشاء مخطط جديد، هذه هي الطريقة لمسح كافة البيانات التجريبية
 // قبل أن نبدأ العمل على مخطط فارغ.
 chartData.Clear();
 ```

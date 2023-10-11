@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTagRangeStart.RangeEnd
 second_title: Aspose.Words für .NET-API-Referenz
-description: StructuredDocumentTagRangeStart eigendom. Gibt das Ende des Bereichs an wenn das StructuredDocumentTag ein BereichsTag für strukturierte Dokumente ist. Gibt andernfalls null zurück.
+description: StructuredDocumentTagRangeStart eigendom. Gibt das Ende des Bereichs an wenn derStructuredDocumentTag ist ein strukturiertes DokumentTag mit Bereich. Andernfalls wird zurückgegebenNull .
 type: docs
 weight: 130
 url: /de/net/aspose.words.markup/structureddocumenttagrangestart/rangeend/
 ---
 ## StructuredDocumentTagRangeStart.RangeEnd property
 
-Gibt das Ende des Bereichs an, wenn das StructuredDocumentTag ein Bereichs-Tag für strukturierte Dokumente ist. Gibt andernfalls null zurück.
+Gibt das Ende des Bereichs an, wenn der[`StructuredDocumentTag`](../../structureddocumenttag/) ist ein strukturiertes Dokument-Tag mit Bereich. Andernfalls wird zurückgegeben`Null` .
 
 ```csharp
 public StructuredDocumentTagRangeEnd RangeEnd { get; }

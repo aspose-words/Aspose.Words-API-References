@@ -1,14 +1,14 @@
 ---
 title: ParagraphFormat.LineSpacing
 second_title: Aspose.Words for .NET API Referansı
-description: ParagraphFormat mülk. Paragraf için satır aralığını nokta olarak alır veya ayarlar.
+description: ParagraphFormat mülk. Paragrafın satır aralığını nokta cinsinden alır veya ayarlar.
 type: docs
-weight: 180
+weight: 190
 url: /tr/net/aspose.words/paragraphformat/linespacing/
 ---
 ## ParagraphFormat.LineSpacing property
 
-Paragraf için satır aralığını (nokta olarak) alır veya ayarlar.
+Paragrafın satır aralığını (nokta cinsinden) alır veya ayarlar.
 
 ```csharp
 public double LineSpacing { get; set; }
@@ -16,9 +16,9 @@ public double LineSpacing { get; set; }
 
 ### Notlar
 
-LineSpacingRule özelliği AtLeast olarak ayarlandığında, satır aralığı, değerinden büyük veya ona eşit olabilir, ancak asla belirtilen LineSpacing değerinden küçük olamaz.
+Ne zaman[`LineSpacingRule`](../linespacingrule/) özellik şu şekilde ayarlandı:AtLeast satır aralığı, 'den büyük veya ona eşit olabilir ancak asla belirtilenden az olamaz`LineSpacing` değer.
 
-LineSpacingRule özelliği Tam olarak olarak ayarlandığında, paragraf içinde daha büyük bir yazı tipi kullanılsa bile satır aralığı hiçbir zaman belirtilen LineSpacing değerinden değişmez.
+Ne zaman[`LineSpacingRule`](../linespacingrule/) özellik şu şekilde ayarlandı:Exactly , satır aralığı hiçbir zaman belirtilen from değişmez`LineSpacing` Paragrafta daha büyük bir yazı tipi kullanılsa bile değer.
 
 ### Örnekler
 
@@ -28,11 +28,11 @@ Satır aralığıyla nasıl çalışılacağını gösterir.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Aşağıdaki satır aralığını kullanarak tanımlayabileceğimiz üç satır aralığı kuralı:
+// Aşağıda, aşağıdakileri kullanarak tanımlayabileceğimiz üç satır aralığı kuralı verilmiştir:
 // paragraflar arasındaki boşluğu yapılandırmak için paragrafın "LineSpacingRule" özelliği.
 // 1 - Minimum boşluk miktarını ayarlayın.
-// Bu, herhangi bir boyuttaki metin satırlarına dikey dolgu verecektir
-// minimum satır yüksekliğini korumak için çok küçük.
+// Bu, her boyuttaki metin satırlarına dikey dolgu sağlar
+// bu minimum satır yüksekliğini korumak için çok küçük.
 builder.ParagraphFormat.LineSpacingRule = LineSpacingRule.AtLeast;
 builder.ParagraphFormat.LineSpacing = 20;
 
@@ -40,15 +40,15 @@ builder.Writeln("Minimum line spacing of 20.");
 builder.Writeln("Minimum line spacing of 20.");
 
 // 2 - Tam aralığı ayarlayın.
-// Boşluk için çok büyük olan yazı tipi boyutlarının kullanılması metni kesecektir.
+// Boşluk için çok büyük yazı tipi boyutlarının kullanılması metnin kesilmesine neden olur.
 builder.ParagraphFormat.LineSpacingRule = LineSpacingRule.Exactly;
 builder.ParagraphFormat.LineSpacing = 5;
 
 builder.Writeln("Line spacing of exactly 5.");
 builder.Writeln("Line spacing of exactly 5.");
 
-// 3 - Boşluğu, varsayılan olarak 12 punto olan varsayılan satır aralığının katı olarak ayarlayın.
-// Bu tür boşluk, farklı yazı tipi boyutlarına ölçeklenir.
+// 3 - Aralığı, varsayılan olarak 12 punto olan varsayılan satır aralığının katı olarak ayarlayın.
+// Bu tür boşluklar farklı yazı tipi boyutlarına göre ölçeklenecektir.
 builder.ParagraphFormat.LineSpacingRule = LineSpacingRule.Multiple;
 builder.ParagraphFormat.LineSpacing = 18;
 

@@ -1,14 +1,14 @@
 ---
 title: ShapeBase.IsGroup
 second_title: Referencia de API de Aspose.Words para .NET
-description: ShapeBase propiedad. Devuelve verdadero si se trata de una forma de grupo.
+description: ShapeBase propiedad. Devolucionesverdadero si se trata de una forma de grupo.
 type: docs
-weight: 250
+weight: 260
 url: /es/net/aspose.words.drawing/shapebase/isgroup/
 ---
 ## ShapeBase.IsGroup property
 
-Devuelve verdadero si se trata de una forma de grupo.
+Devoluciones`verdadero` si se trata de una forma de grupo.
 
 ```csharp
 public bool IsGroup { get; }
@@ -16,7 +16,7 @@ public bool IsGroup { get; }
 
 ### Ejemplos
 
-Muestra cómo crear un grupo de formas e imprimir su contenido mediante un visitante de documentos.
+Muestra cómo crear un grupo de formas e imprimir su contenido utilizando un visitante de documentos.
 
 ```csharp
 public void GroupOfShapes()
@@ -24,7 +24,7 @@ public void GroupOfShapes()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Si necesita crear formas "No primitivas", como SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
+    // Si necesita crear formas "no primitivas", como SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
     // TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded, DiagonalCornersRounded
     // utilice los métodos DocumentBuilder.InsertShape.
     Shape balloon = new Shape(doc, ShapeType.Balloon)

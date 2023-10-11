@@ -20,26 +20,26 @@ public Style AddCopy(Style style)
 
 ### Rückgabewert
 
-Kopierter Stil, gebrauchsfertig.
+Kopierter Stil zur Verwendung bereit.
 
 ### Bemerkungen
 
 Der zu kopierende Stil kann sowohl zum selben Dokument als auch zu einem anderen Dokument gehören.
 
-Verknüpfter Stil wird kopiert.
+Der verknüpfte Stil wird kopiert.
 
 Diese Methode kopiert keine Basisstile.
 
-Wenn die Sammlung bereits einen Stil mit demselben Namen enthält, wird der neue Name automatisch generiert, indem das Suffix "_number" beginnend mit 0 hinzugefügt wird, z. B. "Normal_0", "Überschrift 1_1" usw. Verwenden[`Name`](../../style/name/) setter zum Ändern des Namens des importierten Stils.
+Wenn die Sammlung bereits einen Stil mit demselben Namen enthält, wird automatisch ein neuer Name generiert, indem das Suffix „_Nummer“ hinzugefügt wird, das bei 0 beginnt, z. B. „Normal_0“, „Überschrift 1_1“ usw. Verwendung[`Name`](../../style/name/) Setter zum Ändern des Namens des importierten Stils.
 
 ### Beispiele
 
-Zeigt, wie Sie einen Stil aus einem Dokument in ein anderes Dokument importieren.
+Zeigt, wie ein Stil aus einem Dokument in ein anderes Dokument importiert wird.
 
 ```csharp
 Document srcDoc = new Document();
 
-// Erstellen Sie einen benutzerdefinierten Stil für das Quelldokument.
+// Einen benutzerdefinierten Stil für das Quelldokument erstellen.
 Style srcStyle = srcDoc.Styles.Add(StyleType.Paragraph, "MyStyle");
 srcStyle.Font.Color = Color.Red;
 
@@ -52,20 +52,20 @@ Assert.AreEqual("MyStyle", newStyle.Name);
 Assert.AreEqual(Color.Red.ToArgb(), newStyle.Font.Color.ToArgb());
 ```
 
-Zeigt, wie Sie den Stil eines Dokuments klonen.
+Zeigt, wie der Stil eines Dokuments geklont wird.
 
 ```csharp
 Document doc = new Document();
 
 // Die AddCopy-Methode erstellt eine Kopie des angegebenen Stils und
-// generiert automatisch einen neuen Namen für den Stil, z. B. "Überschrift 1_0".
+// generiert automatisch einen neuen Namen für den Stil, z. B. „Überschrift 1_0“.
 Style newStyle = doc.Styles.AddCopy(doc.Styles["Heading 1"]);
 
-// Verwenden Sie die "Name"-Eigenschaft des Stils, um den identifizierenden Namen des Stils zu ändern.
+// Verwenden Sie die Eigenschaft „Name“ des Stils, um den identifizierenden Namen des Stils zu ändern.
 newStyle.Name = "My Heading 1";
 
 // Unser Dokument hat jetzt zwei identisch aussehende Stile mit unterschiedlichen Namen.
-// Das Ändern der Einstellungen eines der Stile wirkt sich nicht auf den anderen aus.
+// Das Ändern der Einstellungen eines Stils hat keinen Einfluss auf den anderen.
 newStyle.Font.Color = Color.Red;
 
 Assert.AreEqual("My Heading 1", newStyle.Name);

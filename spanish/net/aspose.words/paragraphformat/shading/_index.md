@@ -1,14 +1,14 @@
 ---
 title: ParagraphFormat.Shading
 second_title: Referencia de API de Aspose.Words para .NET
-description: ParagraphFormat propiedad. Devuelve un objeto Shading que hace referencia al formato de sombreado del párrafo.
+description: ParagraphFormat propiedad. Devuelve unShading objeto que hace referencia al formato de sombreado del párrafo.
 type: docs
-weight: 270
+weight: 280
 url: /es/net/aspose.words/paragraphformat/shading/
 ---
 ## ParagraphFormat.Shading property
 
-Devuelve un objeto Shading que hace referencia al formato de sombreado del párrafo.
+Devuelve un[`Shading`](../../shading/) objeto que hace referencia al formato de sombreado del párrafo.
 
 ```csharp
 public Shading Shading { get; }

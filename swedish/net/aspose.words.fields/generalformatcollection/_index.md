@@ -3,12 +3,14 @@ title: Class GeneralFormatCollection
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Fields.GeneralFormatCollection klass. Representerar en maskinskriven samling allmänna format.
 type: docs
-weight: 2490
+weight: 2650
 url: /sv/net/aspose.words.fields/generalformatcollection/
 ---
 ## GeneralFormatCollection class
 
 Representerar en maskinskriven samling allmänna format.
+
+För att lära dig mer, besök[Arbeta med Fields](https://docs.aspose.com/words/net/working-with-fields/) dokumentationsartikel.
 
 ```csharp
 public class GeneralFormatCollection : IEnumerable<GeneralFormat>

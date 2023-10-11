@@ -1,14 +1,14 @@
 ---
 title: Paragraph.IsEndOfDocument
 second_title: Aspose.Words für .NET-API-Referenz
-description: Paragraph eigendom. Wahr wenn dieser Absatz der letzte Absatz im letzten Abschnitt des Dokuments ist.
+description: Paragraph eigendom. True wenn dieser Absatz der letzte Absatz im letzten Abschnitt des Dokuments ist.
 type: docs
 weight: 60
 url: /de/net/aspose.words/paragraph/isendofdocument/
 ---
 ## Paragraph.IsEndOfDocument property
 
-Wahr, wenn dieser Absatz der letzte Absatz im letzten Abschnitt des Dokuments ist.
+True, wenn dieser Absatz der letzte Absatz im letzten Abschnitt des Dokuments ist.
 
 ```csharp
 public bool IsEndOfDocument { get; }
@@ -16,7 +16,7 @@ public bool IsEndOfDocument { get; }
 
 ### Beispiele
 
-Zeigt, wie Sie einen Absatz in das Dokument einfügen.
+Zeigt, wie ein Absatz in das Dokument eingefügt wird.
 
 ```csharp
 Document doc = new Document();
@@ -36,7 +36,7 @@ paragraphFormat.AddSpaceBetweenFarEastAndAlpha = true;
 paragraphFormat.AddSpaceBetweenFarEastAndDigit = true;
 paragraphFormat.KeepTogether = true;
 
-// Die Methode "Writeln" beendet den Absatz nach dem Anhängen von Text
+// Die Methode „Writeln“ beendet den Absatz nach dem Anhängen von Text
 // und beginnt dann eine neue Zeile und fügt einen neuen Absatz hinzu.
 builder.Writeln("Hello world!");
 

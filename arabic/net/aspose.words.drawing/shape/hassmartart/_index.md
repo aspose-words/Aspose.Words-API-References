@@ -1,14 +1,14 @@
 ---
 title: Shape.HasSmartArt
 second_title: Aspose.Words لمراجع .NET API
-description: Shape ملكية. إرجاع صحيح إذا كان هذا الشكل يحتوي على كائن SmartArt.
+description: Shape ملكية. إرجاعحقيقي اذا هذاShape يحتوي على كائن SmartArt.
 type: docs
 weight: 90
 url: /ar/net/aspose.words.drawing/shape/hassmartart/
 ---
 ## Shape.HasSmartArt property
 
-إرجاع صحيح إذا كان هذا الشكل يحتوي على كائن SmartArt.
+إرجاع`حقيقي` اذا هذا[`Shape`](../) يحتوي على كائن SmartArt.
 
 ```csharp
 public bool HasSmartArt { get; }

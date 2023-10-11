@@ -3,7 +3,7 @@ title: Enum RevisionsView
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.RevisionsView uppräkning. Låter dig ange om du vill arbeta med den ursprungliga eller reviderade versionen av ett dokument.
 type: docs
-weight: 4550
+weight: 4810
 url: /sv/net/aspose.words/revisionsview/
 ---
 ## RevisionsView enumeration

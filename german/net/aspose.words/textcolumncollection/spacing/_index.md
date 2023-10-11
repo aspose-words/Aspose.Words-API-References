@@ -1,14 +1,14 @@
 ---
 title: TextColumnCollection.Spacing
 second_title: Aspose.Words für .NET-API-Referenz
-description: TextColumnCollection eigendom. Ruft bei gleichmäßigen Spaltenabständen den Abstand zwischen den einzelnen Spalten in Punkten ab oder legt ihn fest.
+description: TextColumnCollection eigendom. Wenn die Spalten gleichmäßig verteilt sind wird der Abstand zwischen den einzelnen Spalten in Punkten abgerufen oder festgelegt.
 type: docs
 weight: 50
 url: /de/net/aspose.words/textcolumncollection/spacing/
 ---
 ## TextColumnCollection.Spacing property
 
-Ruft bei gleichmäßigen Spaltenabständen den Abstand zwischen den einzelnen Spalten in Punkten ab oder legt ihn fest.
+Wenn die Spalten gleichmäßig verteilt sind, wird der Abstand zwischen den einzelnen Spalten in Punkten abgerufen oder festgelegt.
 
 ```csharp
 public double Spacing { get; set; }
@@ -16,11 +16,11 @@ public double Spacing { get; set; }
 
 ### Bemerkungen
 
-Hat nur Wirkung, wenn[`EvenlySpaced`](../evenlyspaced/) ist eingestellt auf **Stimmt** .
+Hat nur Wirkung, wenn[`EvenlySpaced`](../evenlyspaced/) ist eingestellt auf`WAHR` .
 
 ### Beispiele
 
-Zeigt, wie mehrere gleichmäßig verteilte Spalten in einem Abschnitt erstellt werden.
+Zeigt, wie Sie mehrere gleichmäßig verteilte Spalten in einem Abschnitt erstellen.
 
 ```csharp
 Document doc = new Document();

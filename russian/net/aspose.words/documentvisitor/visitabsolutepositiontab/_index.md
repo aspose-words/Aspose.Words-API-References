@@ -1,14 +1,14 @@
 ---
 title: DocumentVisitor.VisitAbsolutePositionTab
 second_title: Справочник по API Aspose.Words для .NET
-description: DocumentVisitor метод. Вызывается когдаAbsolutePositionTab узел встречается в документе.
+description: DocumentVisitor метод. Вызывается когдаAbsolutePositionTab в документе встречается узел.
 type: docs
 weight: 10
 url: /ru/net/aspose.words/documentvisitor/visitabsolutepositiontab/
 ---
 ## DocumentVisitor.VisitAbsolutePositionTab method
 
-Вызывается, когда[`AbsolutePositionTab`](../../absolutepositiontab/) узел встречается в документе.
+Вызывается, когда[`AbsolutePositionTab`](../../absolutepositiontab/) в документе встречается узел.
 
 ```csharp
 public virtual VisitorAction VisitAbsolutePositionTab(AbsolutePositionTab tab)
@@ -24,18 +24,18 @@ public virtual VisitorAction VisitAbsolutePositionTab(AbsolutePositionTab tab)
 
 ### Примеры
 
-Показывает, как обрабатывать символы табуляции абсолютной позиции с помощью посетителя документа.
+Показывает, как обрабатывать символы табуляции абсолютного положения с помощью посетителя документа.
 
 ```csharp
 public void DocumentToTxt()
 {
     Document doc = new Document(MyDir + "Absolute position tab.docx");
 
-    // Извлеките текстовое содержимое нашего документа, приняв этого пользовательского посетителя документа.
+    // Извлекаем текстовое содержимое нашего документа, приняв этого пользовательского посетителя документа.
     DocTextExtractor myDocTextExtractor = new DocTextExtractor();
     doc.FirstSection.Body.Accept(myDocTextExtractor);
 
-    // Табуляция с абсолютной позицией, не имеющая эквивалента в строковой форме, была явно преобразована в символ табуляции.
+    // Абсолютная позиция табуляции, не имеющая эквивалента в строковой форме, была явно преобразована в символ табуляции.
     Assert.AreEqual("Before AbsolutePositionTab\tAfter AbsolutePositionTab", myDocTextExtractor.GetText());
 
     // AbsolutePositionTab также может принимать DocumentVisitor сам по себе.
@@ -48,7 +48,7 @@ public void DocumentToTxt()
 }
 
 /// <summary>
-/// Собирает текстовое содержимое всех прогонов в посещаемом документе. Заменяет все символы абсолютной табуляции на обычные табуляции.
+/// Собирает текстовое содержимое всех прогонов в посещенном документе. Заменяет все абсолютные символы табуляции обычными табуляциями.
 /// </summary>
 public class DocTextExtractor : DocumentVisitor
 {
@@ -76,7 +76,7 @@ public class DocTextExtractor : DocumentVisitor
     }
 
     /// <summary>
-    /// Добавляет текст к текущему выводу. Учитывает включенный/отключенный выходной флаг.
+    /// Добавляет текст в текущий вывод. Учитывает включенный/отключенный выходной флаг.
     /// </summary>
     private void AppendText(string text)
     {
@@ -84,7 +84,7 @@ public class DocTextExtractor : DocumentVisitor
     }
 
     /// <summary>
-    /// Простой текст документа, который накопил посетитель.
+    /// Простой текст документа, накопленного посетителем.
     /// </summary>
     public string GetText()
     {

@@ -1,14 +1,14 @@
 ---
 title: Cell.FirstParagraph
 second_title: Aspose.Words for .NET API Referansı
-description: Cell mülk. En yakın alt öğeler arasında ilk paragrafı alır.
+description: Cell mülk. Birinci paragrafın ilk paragrafını alır.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.tables/cell/firstparagraph/
 ---
 ## Cell.FirstParagraph property
 
-En yakın alt öğeler arasında ilk paragrafı alır.
+Birinci paragrafın ilk paragrafını alır.
 
 ```csharp
 public Paragraph FirstParagraph { get; }
@@ -16,13 +16,13 @@ public Paragraph FirstParagraph { get; }
 
 ### Örnekler
 
-Belge oluşturucu kullanarak iç içe tablonun nasıl oluşturulacağını gösterir.
+Belge oluşturucu kullanılarak iç içe tablonun nasıl oluşturulacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Dış tabloyu oluşturun.
+// Dış tabloyu oluşturuyoruz.
 Cell cell = builder.InsertCell();
 builder.Writeln("Outer Table Cell 1");
 builder.InsertCell();
@@ -47,11 +47,11 @@ public void CreateNestedTable()
 {
     Document doc = new Document();
 
-    // Üç satır ve dört sütunlu dış tabloyu oluşturun ve ardından belgeye ekleyin.
+    // Üç satır ve dört sütundan oluşan dış tabloyu oluşturup belgeye ekleyin.
     Table outerTable = CreateTable(doc, 3, 4, "Outer Table");
     doc.FirstSection.Body.AppendChild(outerTable);
 
-    // İki satır ve iki sütun içeren başka bir tablo oluşturun ve ardından bunu ilk tablonun ilk hücresine ekleyin.
+    // İki satır ve iki sütundan oluşan başka bir tablo oluşturun ve bunu ilk tablonun ilk hücresine ekleyin.
     Table innerTable = CreateTable(doc, 2, 2, "Inner Table");
     outerTable.FirstRow.FirstCell.AppendChild(innerTable);
 
@@ -59,7 +59,7 @@ public void CreateNestedTable()
 }
 
 /// <summary>
-/// Her hücrede verilen boyutlar ve metin ile belgede yeni bir tablo oluşturur.
+/// Her hücrede verilen boyut ve metinle belgede yeni bir tablo oluşturur.
 /// </summary>
 private static Table CreateTable(Document doc, int rowCount, int cellCount, string cellText)
 {
@@ -80,10 +80,10 @@ private static Table CreateTable(Document doc, int rowCount, int cellCount, stri
         }
     }
 
-    // Tablonuza sırasıyla başlık ve açıklama eklemek için "Title" ve "Description" özelliklerini kullanabilirsiniz.
-    // Bu özellikleri kullanabilmemiz için tablonun en az bir satırı olmalıdır.
-    // Bu özellikler, ISO/IEC 29500 uyumlu .docx belgeleri için anlamlıdır (bkz. OoxmlCompliance sınıfı).
-    // Belgeyi ISO/IEC 29500 öncesi formatlarda kaydedersek, Microsoft Word bu özellikleri yok sayar.
+    // Tablonuza sırasıyla başlık ve açıklama eklemek için "Başlık" ve "Açıklama" özelliklerini kullanabilirsiniz.
+    // Bu özellikleri kullanabilmemiz için tablonun en az bir satıra sahip olması gerekir.
+    // Bu özellikler ISO/IEC 29500 uyumlu .docx belgeleri için anlamlıdır (bkz. OoxmlCompliance sınıfı).
+    // Belgeyi ISO/IEC 29500 öncesi formatlarda kaydedersek, Microsoft Word bu özellikleri göz ardı eder.
     table.Title = "Aspose table title";
     table.Description = "Aspose table description";
 

@@ -3,12 +3,14 @@ title: Class DocumentBuilder
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.DocumentBuilder klass. Ger metoder för att infoga text bilder och annat innehåll specificera teckensnitt stycke och avsnittsformatering.
 type: docs
-weight: 440
+weight: 450
 url: /sv/net/aspose.words/documentbuilder/
 ---
 ## DocumentBuilder class
 
 Ger metoder för att infoga text, bilder och annat innehåll, specificera teckensnitt, stycke och avsnittsformatering.
+
+För att lära dig mer, besök[Översikt över dokumentbyggaren](https://docs.aspose.com/words/net/document-builder-overview/) dokumentationsartikel.
 
 ```csharp
 public class DocumentBuilder
@@ -28,13 +30,15 @@ public class DocumentBuilder
 | [Bold](../../aspose.words/documentbuilder/bold/) { get; set; } | Sant om teckensnittet är formaterat med fet stil. |
 | [CellFormat](../../aspose.words/documentbuilder/cellformat/) { get; } | Returnerar ett objekt som representerar aktuella tabellcellsformateringsegenskaper. |
 | [CurrentNode](../../aspose.words/documentbuilder/currentnode/) { get; } | Hämtar noden som för närvarande är vald i denna DocumentBuilder. |
-| [CurrentParagraph](../../aspose.words/documentbuilder/currentparagraph/) { get; } | Hämtar stycket som för närvarande är valt i denna DocumentBuilder. |
-| [CurrentSection](../../aspose.words/documentbuilder/currentsection/) { get; } | Hämtar avsnittet som för närvarande är valt i denna DocumentBuilder. |
-| [CurrentStory](../../aspose.words/documentbuilder/currentstory/) { get; } | Hämtar berättelsen som för närvarande är vald i denna DocumentBuilder. |
-| [Document](../../aspose.words/documentbuilder/document/) { get; set; } | Hämtar eller ställer in[`Document`](./document/) objekt som detta objekt är kopplat till. |
+| [CurrentParagraph](../../aspose.words/documentbuilder/currentparagraph/) { get; } | Hämtar stycket som för närvarande är valt i detta`DocumentBuilder` . |
+| [CurrentSection](../../aspose.words/documentbuilder/currentsection/) { get; } | Hämtar avsnittet som för närvarande är valt i detta`DocumentBuilder` . |
+| [CurrentStory](../../aspose.words/documentbuilder/currentstory/) { get; } | Hämtar berättelsen som för närvarande är vald i denna`DocumentBuilder` . |
+| [CurrentStructuredDocumentTag](../../aspose.words/documentbuilder/currentstructureddocumenttag/) { get; } | Hämtar den strukturerade dokumenttaggen som för närvarande är vald i denna`DocumentBuilder` . |
+| [Document](../../aspose.words/documentbuilder/document/) { get; set; } | Hämtar eller ställer in[`Document`](./document/)objekt som detta objekt är kopplat till. |
 | [Font](../../aspose.words/documentbuilder/font/) { get; } | Returnerar ett objekt som representerar aktuella teckensnittsformateringsegenskaper. |
-| [IsAtEndOfParagraph](../../aspose.words/documentbuilder/isatendofparagraph/) { get; } | Returnerar sant om markören är i slutet av det aktuella stycket. |
-| [IsAtStartOfParagraph](../../aspose.words/documentbuilder/isatstartofparagraph/) { get; } | Returnerar sant om markören är i början av det aktuella stycket (ingen text före markören). |
+| [IsAtEndOfParagraph](../../aspose.words/documentbuilder/isatendofparagraph/) { get; } | Returnerar`Sann` om markören är i slutet av det aktuella stycket. |
+| [IsAtEndOfStructuredDocumentTag](../../aspose.words/documentbuilder/isatendofstructureddocumenttag/) { get; } | Returnerar **Sann** om markören är i slutet av en strukturerad dokumenttagg. |
+| [IsAtStartOfParagraph](../../aspose.words/documentbuilder/isatstartofparagraph/) { get; } | Returnerar`Sann` om markören är i början av det aktuella stycket (ingen text före markören). |
 | [Italic](../../aspose.words/documentbuilder/italic/) { get; set; } | Sant om teckensnittet är formaterat som kursivt. |
 | [ListFormat](../../aspose.words/documentbuilder/listformat/) { get; } | Returnerar ett objekt som representerar aktuella listformateringsegenskaper. |
 | [PageSetup](../../aspose.words/documentbuilder/pagesetup/) { get; } | Returnerar ett objekt som representerar aktuell siduppsättning och avsnittsegenskaper. |
@@ -62,6 +66,7 @@ public class DocumentBuilder
 | [InsertComboBox](../../aspose.words/documentbuilder/insertcombobox/)(string, string[], int) | Infogar ett formulärfält i kombinationsrutan på den aktuella positionen. |
 | [InsertDocument](../../aspose.words/documentbuilder/insertdocument/#insertdocument)(Document, ImportFormatMode) | Infogar ett dokument vid markörens position. |
 | [InsertDocument](../../aspose.words/documentbuilder/insertdocument/#insertdocument_1)(Document, ImportFormatMode, ImportFormatOptions) | Infogar ett dokument vid markörens position. |
+| [InsertDocumentInline](../../aspose.words/documentbuilder/insertdocumentinline/)(Document, ImportFormatMode, ImportFormatOptions) |  |
 | [InsertField](../../aspose.words/documentbuilder/insertfield/#insertfield_1)(string) | Infogar ett Word-fält i ett dokument och uppdaterar fältresultatet. |
 | [InsertField](../../aspose.words/documentbuilder/insertfield/#insertfield)(FieldType, bool) | Infogar ett Word-fält i ett dokument och uppdaterar eventuellt fältresultatet. |
 | [InsertField](../../aspose.words/documentbuilder/insertfield/#insertfield_2)(string, string) | Infogar ett Word-fält i ett dokument utan att uppdatera fältresultatet. |
@@ -84,7 +89,7 @@ public class DocumentBuilder
 | [InsertImage](../../aspose.words/documentbuilder/insertimage/#insertimage_4)(Image, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) | Infogar en bild från ett .NETImage objekt vid angiven position och storlek. |
 | [InsertImage](../../aspose.words/documentbuilder/insertimage/#insertimage_7)(Stream, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) | Infogar en bild från en ström vid angiven position och storlek. |
 | [InsertImage](../../aspose.words/documentbuilder/insertimage/#insertimage_10)(string, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) | Infogar en bild från en fil eller URL på angiven position och storlek. |
-| [InsertNode](../../aspose.words/documentbuilder/insertnode/)(Node) | Infogar en nod på textnivå i det aktuella stycket före markören. |
+| [InsertNode](../../aspose.words/documentbuilder/insertnode/)(Node) | Infogar en nod före markören. |
 | [InsertOleObject](../../aspose.words/documentbuilder/insertoleobject/#insertoleobject)(Stream, string, bool, Stream) | Infogar ett inbäddat OLE-objekt från en ström i dokumentet. |
 | [InsertOleObject](../../aspose.words/documentbuilder/insertoleobject/#insertoleobject_1)(string, bool, bool, Stream) | Infogar ett inbäddat eller länkat OLE-objekt från en fil i dokumentet. Upptäcker OLE-objekttyp med filtillägg. |
 | [InsertOleObject](../../aspose.words/documentbuilder/insertoleobject/#insertoleobject_2)(string, string, bool, bool, Stream) | Infogar ett inbäddat eller länkat OLE-objekt från en fil i dokumentet. Upptäcker OLE-objekttyp med hjälp av given progID-parameter. |
@@ -115,6 +120,8 @@ public class DocumentBuilder
 | [MoveToMergeField](../../aspose.words/documentbuilder/movetomergefield/#movetomergefield_1)(string, bool, bool) | Flyttar kopplingsfältet till det angivna kopplingsfältet. |
 | [MoveToParagraph](../../aspose.words/documentbuilder/movetoparagraph/)(int, int) | Flyttar markören till ett stycke i det aktuella avsnittet. |
 | [MoveToSection](../../aspose.words/documentbuilder/movetosection/)(int) | Flyttar markören till början av brödtexten i ett angivet avsnitt. |
+| [MoveToStructuredDocumentTag](../../aspose.words/documentbuilder/movetostructureddocumenttag/#movetostructureddocumenttag_1)(int, int) | Flyttar markören till en strukturerad dokumenttagg i det aktuella avsnittet. |
+| [MoveToStructuredDocumentTag](../../aspose.words/documentbuilder/movetostructureddocumenttag/#movetostructureddocumenttag)(StructuredDocumentTag, int) | Flyttar markören till den strukturerade dokumenttaggen. |
 | [PopFont](../../aspose.words/documentbuilder/popfont/)() | Hämtar teckenformatering som tidigare sparats i stacken. |
 | [PushFont](../../aspose.words/documentbuilder/pushfont/)() | Sparar aktuell teckenformatering i stacken. |
 | [StartBookmark](../../aspose.words/documentbuilder/startbookmark/)(string) | Markerar den aktuella positionen i dokumentet som en bokmärkesstart. |
@@ -127,21 +134,21 @@ public class DocumentBuilder
 
 ### Anmärkningar
 
-**DocumentBuilder** gör processen att bygga en **Dokumentera** lättare.  **Dokumentera**är ett sammansatt objekt som består av ett träd av noder och även om det är möjligt att infoga content noder direkt i trädet, kräver det god förståelse för trädstrukturen.  **DocumentBuilder** är en "fasad" för den komplexa strukturen av **Dokumentera** och låter infoga innehåll och formatering snabbt och enkelt.
+`DocumentBuilder` gör processen att bygga en[`Document`](../document/) lättare. [`Document`](../document/) är ett sammansatt objekt som består av ett träd av noder och även om det är möjligt att infoga content noder direkt i trädet, kräver det god förståelse för trädstrukturen. `DocumentBuilder` är en "fasad" för den komplexa strukturen av[`Document`](../document/) och låter infoga innehåll och formatering snabbt och enkelt.
 
-Skapa en **DocumentBuilder** och associera det med en[`Document`](./document/).
+Skapa en`DocumentBuilder` och associera det med en[`Document`](../document/).
 
-De **DocumentBuilder** har en intern markör där texten kommer att infogas när du ringer[`Write`](./write/) ,[`Writeln`](./writeln/) ,[`InsertBreak`](./insertbreak/) och andra metoder. Du kan navigera i **DocumentBuilder** markören till en annan plats i ett dokument med hjälp av olika MoveToXXX-metoder.
+De`DocumentBuilder` har en intern markör där texten kommer att infogas när du ringer[`Write`](./write/) ,[`Writeln`](./writeln/) ,[`InsertBreak`](./insertbreak/) och andra metoder. Du kan navigera i`DocumentBuilder` markören till en annan plats i ett dokument med hjälp av olika MoveToXXX-metoder.
 
-Använd[`Font`](./font/) egenskap för att ange teckenformatering som kommer att gälla för all text som infogas från den aktuella positionen i dokumentet och framåt.
+Använd[`Font`](./font/)egenskap för att ange teckenformatering som kommer att gälla för all text som infogas från den aktuella positionen i dokumentet och framåt.
 
 Använd[`ParagraphFormat`](./paragraphformat/) egenskap för att ange styckeformatering för aktuell och alla stycken som kommer att infogas.
 
-Använd[`PageSetup`](./pagesetup/)egenskap för att ange sid- och avsnittsegenskaper för avsnittet current och alla avsnitt som kommer att infogas.
+Använd[`PageSetup`](./pagesetup/) egenskap för att ange sid- och avsnittsegenskaper för avsnittet current och alla avsnitt som kommer att infogas.
 
 Använd[`CellFormat`](./cellformat/) och[`RowFormat`](./rowformat/) egenskaper för att specificera formateringsegenskaper för tabellceller och rader. Använder[`InsertCell`](./insertcell/) och [`EndRow`](./endrow/) metoder för att bygga en tabell.
 
-Anteckna det **Font** , **ParagraphFormat** och **Utskriftsformat** egenskaper uppdateras när du navigerar till en annan plats i dokumentet för att återspegla formateringsegenskaper som är tillgängliga på den nya platsen.
+Anteckna det[`Font`](./font/) ,[`ParagraphFormat`](./paragraphformat/) och[`PageSetup`](./pagesetup/) egenskaper uppdateras när du navigerar till en annan plats i dokumentet för att återspegla formateringsegenskaper som är tillgängliga på den nya platsen.
 
 ### Exempel
 

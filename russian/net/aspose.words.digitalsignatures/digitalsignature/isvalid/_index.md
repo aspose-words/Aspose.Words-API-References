@@ -1,14 +1,14 @@
 ---
 title: DigitalSignature.IsValid
 second_title: Справочник по API Aspose.Words для .NET
-description: DigitalSignature свойство. Возвращает true если эта цифровая подпись действительна и документ не был подделан.
+description: DigitalSignature свойство. Возвращаетистинный если эта цифровая подпись действительна и документ не был подделан.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.digitalsignatures/digitalsignature/isvalid/
 ---
 ## DigitalSignature.IsValid property
 
-Возвращает true, если эта цифровая подпись действительна и документ не был подделан.
+Возвращает`истинный` если эта цифровая подпись действительна и документ не был подделан.
 
 ```csharp
 public bool IsValid { get; }

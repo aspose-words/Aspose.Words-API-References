@@ -1,14 +1,14 @@
 ---
 title: TextBox.IsValidLinkTarget
 second_title: Aspose.Words für .NET-API-Referenz
-description: TextBox methode. Legt fest ob diese TextBox mit der ZielTextbox verknüpft werden kann.
+description: TextBox methode. Legt fest ob dies der Fall istTextBox kann mit dem Ziel verknüpft werdenTextBox .
 type: docs
-weight: 130
+weight: 140
 url: /de/net/aspose.words.drawing/textbox/isvalidlinktarget/
 ---
 ## TextBox.IsValidLinkTarget method
 
-Legt fest, ob diese TextBox mit der Ziel-Textbox verknüpft werden kann.
+Legt fest, ob dies der Fall ist[`TextBox`](../) kann mit dem Ziel verknüpft werden[`TextBox`](../) .
 
 ```csharp
 public bool IsValidLinkTarget(TextBox target)
@@ -62,7 +62,7 @@ if (textBox3.Next == null && textBox3.Previous != null)
 {
     Console.WriteLine("This TextBox is the tail of the sequence");
 
-    // Unterbrechen Sie die Vorwärtsverknüpfung zwischen textBox2 und textBox3 und überprüfen Sie dann, ob sie nicht mehr verknüpft sind.
+    // Unterbrechen Sie die Vorwärtsverknüpfung zwischen textBox2 und textBox3 und stellen Sie dann sicher, dass sie nicht mehr verknüpft sind.
     textBox3.Previous.BreakForwardLink();
 
     Assert.IsTrue(textBox2.Next == null);

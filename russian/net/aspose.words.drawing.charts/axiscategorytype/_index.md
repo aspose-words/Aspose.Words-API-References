@@ -1,14 +1,14 @@
 ---
 title: Enum AxisCategoryType
 second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Drawing.Charts.AxisCategoryType перечисление. Определяет тип оси категорий.
+description: Aspose.Words.Drawing.Charts.AxisCategoryType перечисление. Указывает тип оси категорий.
 type: docs
-weight: 520
+weight: 530
 url: /ru/net/aspose.words.drawing.charts/axiscategorytype/
 ---
 ## AxisCategoryType enumeration
 
-Определяет тип оси категорий.
+Указывает тип оси категорий.
 
 ```csharp
 public enum AxisCategoryType
@@ -20,7 +20,7 @@ public enum AxisCategoryType
 | --- | --- | --- |
 | Automatic | `0` | Указывает, что тип оси категорий определяется автоматически на основе данных. |
 | Category | `1` | Указывает ось произвольного набора категорий. |
-| Time | `2` | Задает ось категории времени. |
+| Time | `2` | Указывает ось категории времени. |
 
 ### Примеры
 
@@ -33,16 +33,16 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertChart(ChartType.Column, 500, 300);
 Chart chart = shape.Chart;
 
-// Очистить серию демонстрационных данных диаграммы, чтобы начать с чистой диаграммы.
+// Очистите ряд демонстрационных данных диаграммы, чтобы начать с чистой диаграммы.
 chart.Series.Clear();
 
-// Вставьте серию диаграммы с категориями для оси X и соответствующими числовыми значениями для оси Y.
+// Вставляем серию диаграмм с категориями для оси X и соответствующими числовыми значениями для оси Y.
 chart.Series.Add("Aspose Test Series",
     new[] { "Word", "PDF", "Excel", "GoogleDocs", "Note" },
     new double[] { 640, 320, 280, 120, 150 });
 
 // Оси диаграммы имеют различные параметры, которые могут изменить их внешний вид,
-// такие как их направление, основные/второстепенные деления единиц и деления.
+// такие как их направление, такты основных/второстепенных единиц и деления.
 ChartAxis xAxis = chart.AxisX;
 xAxis.CategoryType = AxisCategoryType.Category;
 xAxis.Crosses = AxisCrosses.Minimum;

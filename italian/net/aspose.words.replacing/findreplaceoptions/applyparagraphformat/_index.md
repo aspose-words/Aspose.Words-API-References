@@ -16,7 +16,7 @@ public ParagraphFormat ApplyParagraphFormat { get; }
 
 ### Esempi
 
-Mostra come aggiungere la formattazione ai paragrafi in cui un'operazione trova e sostituisci ha trovato corrispondenze.
+Mostra come aggiungere formattazione ai paragrafi in cui un'operazione di ricerca e sostituzione ha trovato corrispondenze.
 
 ```csharp
 Document doc = new Document();
@@ -32,14 +32,14 @@ Assert.AreEqual(ParagraphAlignment.Left, paragraphs[0].ParagraphFormat.Alignment
 Assert.AreEqual(ParagraphAlignment.Left, paragraphs[1].ParagraphFormat.Alignment);
 Assert.AreEqual(ParagraphAlignment.Left, paragraphs[2].ParagraphFormat.Alignment);
 
-// Possiamo usare un oggetto "FindReplaceOptions" per modificare il processo di ricerca e sostituzione.
+// Possiamo utilizzare un oggetto "FindReplaceOptions" per modificare il processo di ricerca e sostituzione.
 FindReplaceOptions options = new FindReplaceOptions();
 
 // Imposta la proprietà "Alignment" su "ParagraphAlignment.Right" per allineare a destra ogni paragrafo
-// che contiene una corrispondenza trovata dall'operazione trova e sostituisci.
+// che contiene una corrispondenza trovata dall'operazione di ricerca e sostituzione.
 options.ApplyParagraphFormat.Alignment = ParagraphAlignment.Right;
 
-// Sostituisci ogni punto fermo prima di un'interruzione di paragrafo con un punto esclamativo.
+// Sostituisci ogni punto che precede l'interruzione di paragrafo con un punto esclamativo.
 int count = doc.Range.Replace(".&p", "!&p", options);
 
 Assert.AreEqual(2, count);

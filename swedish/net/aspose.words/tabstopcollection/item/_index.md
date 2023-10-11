@@ -82,7 +82,7 @@ public TabStop this[double position] { get; }
 
 ### Anmärkningar
 
-Returnerar null om inget tabbstopp hittas på den angivna positionen.
+Returnerar`null` om inget tabbstopp hittas på angiven position.
 
 ### Exempel
 

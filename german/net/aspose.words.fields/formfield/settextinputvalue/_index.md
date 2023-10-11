@@ -16,11 +16,11 @@ public void SetTextInputValue(object newValue)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| newValue | Object | Kann eine Zeichenfolge, eine Zahl oder ein DateTime-Objekt sein. |
+| newValue | Object | Kann eine Zeichenfolge, eine Zahl oder ein sein **Terminzeit** Objekt. |
 
 ### Bemerkungen
 
-Das[`TextInputDefault`](../textinputdefault/) Wert wird angewendet, wenn*newValue* ist`Null`.
+Der[`TextInputDefault`](../textinputdefault/)Wert wird angewendet, wenn*newValue* Ist`Null`.
 
 ### Beispiele
 
@@ -42,7 +42,7 @@ public void Visitor()
 
     builder.InsertBreak(BreakType.ParagraphBreak);
 
-    // Verwenden Sie einen Dokumentenersteller, um ein Kontrollkästchen einzufügen.
+    // Verwenden Sie einen Dokumentersteller, um ein Kontrollkästchen einzufügen.
     builder.Write("Click this check box to tick/untick it: ");
     FormField checkBox = builder.InsertCheckBox("MyCheckBox", false, 50);
     checkBox.IsCheckBoxExactSize = true;
@@ -56,7 +56,7 @@ public void Visitor()
 
     builder.InsertBreak(BreakType.ParagraphBreak);
 
-    // Verwenden Sie einen Dokumentenersteller, um ein Texteingabeformularfeld einzufügen.
+    // Verwenden Sie einen Dokumentersteller, um ein Texteingabeformularfeld einzufügen.
     builder.Write("Enter text here: ");
     FormField textInput = builder.InsertTextInput("MyTextInput", TextFormFieldType.Regular, "", "Placeholder text", 50);
     textInput.EntryMacro = "EntryMacro";
@@ -72,8 +72,8 @@ public void Visitor()
     Assert.AreEqual(3, formFields.Count);
 
     // Felder zeigen unsere Formularfelder an. Wir können ihre Feldcodes sehen, indem wir dieses Dokument öffnen
-    // in Microsoft und Drücken von Alt + F9. Diese Felder haben keine Schalter,
-    // und Mitglieder des FormField-Objekts bestimmen vollständig den Inhalt ihrer Formularfelder.
+    // in Microsoft und drücken Sie Alt + F9. Diese Felder haben keine Schalter,
+    // und Mitglieder des FormField-Objekts steuern vollständig den Inhalt ihrer Formularfelder.
     Assert.AreEqual(3, doc.Range.Fields.Count);
     Assert.AreEqual(" FORMDROPDOWN \u0001", doc.Range.Fields[0].GetFieldCode());
     Assert.AreEqual(" FORMCHECKBOX \u0001", doc.Range.Fields[1].GetFieldCode());
@@ -93,7 +93,7 @@ public void Visitor()
 }
 
 /// <summary>
-/// Besucherimplementierung, die Details der besuchten Formularfelder ausgibt. 
+ /// Besucherimplementierung, die Details der besuchten Formularfelder ausgibt.
 /// </summary>
 public class FormFieldVisitor : DocumentVisitor
 {
@@ -134,7 +134,7 @@ public class FormFieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Fügt der aktuellen Ausgabe Zeilenumbruchtext hinzu.
+    /// Fügt der aktuellen Ausgabe durch Zeilenumbrüche terminierten Text hinzu.
     /// </summary>
     private void AppendLine(string text)
     {
@@ -142,7 +142,7 @@ public class FormFieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Ruft den Klartext des Dokuments ab, das vom Besucher angesammelt wurde.
+    /// Ruft den Klartext des vom Besucher gesammelten Dokuments ab.
     /// </summary>
     public string GetText()
     {

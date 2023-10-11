@@ -1,14 +1,14 @@
 ---
 title: ImageData.IsLink
 second_title: Référence de l'API Aspose.Words pour .NET
-description: ImageData propriété. Renvoie vrai si limage est liée à la forme quandSourceFullName est spécifié.
+description: ImageData propriété. Retoursvrai si limage est liée à la forme quandSourceFullName est spécifié.
 type: docs
 weight: 150
 url: /fr/net/aspose.words.drawing/imagedata/islink/
 ---
 ## ImageData.IsLink property
 
-Renvoie vrai si l'image est liée à la forme (quand[`SourceFullName`](../sourcefullname/) est spécifié).
+Retours`vrai` si l'image est liée à la forme (quand[`SourceFullName`](../sourcefullname/) est spécifié).
 
 ```csharp
 public bool IsLink { get; }
@@ -16,7 +16,7 @@ public bool IsLink { get; }
 
 ### Exemples
 
-Montre comment modifier les données d'image d'une forme.
+Montre comment modifier les données d’image d’une forme.
 
 ```csharp
 Document imgSourceDoc = new Document(MyDir + "Images.docx");
@@ -24,7 +24,7 @@ Shape sourceShape = (Shape)imgSourceDoc.GetChildNodes(NodeType.Shape, true)[0];
 
 Document dstDoc = new Document();
 
-// Importe une forme depuis le document source et l'ajoute au premier paragraphe.
+// Importez une forme depuis le document source et ajoutez-la au premier paragraphe.
 Shape importedShape = (Shape)dstDoc.ImportNode(sourceShape, true);
 dstDoc.FirstSection.Body.FirstParagraph.AppendChild(importedShape);
 
@@ -38,7 +38,7 @@ Assert.True(imageData.HasImage);
 Assert.AreEqual(4, imageData.Borders.Count);
 Assert.AreEqual(Color.Empty, imageData.Borders[0].Color);
 
-// Cette image n'est pas liée à une autre forme ou à un autre fichier image dans le système de fichiers local.
+// Cette image n'est pas liée à une autre forme ou fichier image dans le système de fichiers local.
 Assert.False(imageData.IsLink);
 Assert.False(imageData.IsLinkOnly);
 
@@ -48,24 +48,24 @@ imageData.Brightness = 0.8;
 imageData.Contrast = 1.0;
 
 // Les valeurs de luminosité et de contraste ci-dessus ont créé une image avec beaucoup de blanc.
-// Nous pouvons sélectionner une couleur avec la propriété ChromaKey pour la remplacer par de la transparence, comme le blanc.
+// Nous pouvons sélectionner une couleur avec la propriété ChromaKey à remplacer par de la transparence, comme le blanc.
 imageData.ChromaKey = Color.White;
 
-// Importez à nouveau la forme source et définissez l'image sur monochrome.
+// Importez à nouveau la forme source et définissez l'image en monochrome.
 importedShape = (Shape)dstDoc.ImportNode(sourceShape, true);
 dstDoc.FirstSection.Body.FirstParagraph.AppendChild(importedShape);
 
 importedShape.ImageData.GrayScale = true;
 
 // Importez à nouveau la forme source pour créer une troisième image et définissez-la sur BiLevel.
-// BiLevel définit chaque pixel sur noir ou blanc, selon la couleur la plus proche de la couleur d'origine.
+// BiLevel définit chaque pixel en noir ou en blanc, selon la couleur la plus proche de la couleur d'origine.
 importedShape = (Shape)dstDoc.ImportNode(sourceShape, true);
 dstDoc.FirstSection.Body.FirstParagraph.AppendChild(importedShape);
 
 importedShape.ImageData.BiLevel = true;
 
-// Le recadrage est déterminé sur une échelle de 0 à 1. Recadrage d'un côté de 0,3
-// recadrera 30 % de l'image du côté recadré.
+// Le recadrage est déterminé sur une échelle de 0 à 1. Recadrer un côté de 0,3
+// recadrera 30 % de l'image sur le côté recadré.
 importedShape.ImageData.CropBottom = 0.3;
 importedShape.ImageData.CropLeft = 0.3;
 importedShape.ImageData.CropTop = 0.3;

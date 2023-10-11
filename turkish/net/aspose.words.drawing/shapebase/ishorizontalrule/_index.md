@@ -1,14 +1,14 @@
 ---
 title: ShapeBase.IsHorizontalRule
 second_title: Aspose.Words for .NET API Referansı
-description: ShapeBase mülk. Bu şekil yatay bir kural ise true değerini döndürür.
+description: ShapeBase mülk. İadelerdoğru eğer bu şekil yatay bir kural ise.
 type: docs
-weight: 260
+weight: 270
 url: /tr/net/aspose.words.drawing/shapebase/ishorizontalrule/
 ---
 ## ShapeBase.IsHorizontalRule property
 
-Bu şekil yatay bir kural ise true değerini döndürür.
+İadeler`doğru` eğer bu şekil yatay bir kural ise.
 
 ```csharp
 public bool IsHorizontalRule { get; }
@@ -16,7 +16,7 @@ public bool IsHorizontalRule { get; }
 
 ### Örnekler
 
-Yatay bir kural şeklinin nasıl ekleneceğini ve biçimlendirmesinin nasıl özelleştirileceğini gösterir.
+Yatay kural şeklinin nasıl ekleneceğini ve biçimlendirmesinin nasıl özelleştirileceğini gösterir.
 
 ```csharp
 Document doc = new Document();

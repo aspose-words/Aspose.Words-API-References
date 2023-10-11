@@ -3,7 +3,7 @@ title: DocumentBuilder.RowFormat
 second_title: Aspose.Words för .NET API Referens
 description: DocumentBuilder fast egendom. Returnerar ett objekt som representerar aktuella tabellradsformateringsegenskaper.
 type: docs
-weight: 160
+weight: 180
 url: /sv/net/aspose.words/documentbuilder/rowformat/
 ---
 ## DocumentBuilder.RowFormat property

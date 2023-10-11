@@ -1,14 +1,14 @@
 ---
 title: XamlFixedSaveOptions.ResourcesFolderAlias
 second_title: Aspose.Words per .NET API Reference
-description: XamlFixedSaveOptions proprietà. Specifica il nome della cartella utilizzata per costruire URI immagine scritti in un documento Xaml a pagina fissa. Il valore predefinito ènullo .
+description: XamlFixedSaveOptions proprietà. Specifica il nome della cartella utilizzata per costruire URI di immagine scritti in un documento Xaml a pagina fissa. Limpostazione predefinita ènullo .
 type: docs
 weight: 40
 url: /it/net/aspose.words.saving/xamlfixedsaveoptions/resourcesfolderalias/
 ---
 ## XamlFixedSaveOptions.ResourcesFolderAlias property
 
-Specifica il nome della cartella utilizzata per costruire URI immagine scritti in un documento Xaml a pagina fissa. Il valore predefinito è`nullo` .
+Specifica il nome della cartella utilizzata per costruire URI di immagine scritti in un documento Xaml a pagina fissa. L'impostazione predefinita è`nullo` .
 
 ```csharp
 public string ResourcesFolderAlias { get; set; }
@@ -16,11 +16,11 @@ public string ResourcesFolderAlias { get; set; }
 
 ### Osservazioni
 
-Quando salvi un[`Document`](../../../aspose.words/document/) in formato Xaml a pagina fissa, Aspose.Words deve salvare tutte le immagini incorporate nel documento come file autonomi.[`ResourcesFolder`](../resourcesfolder/) consente di specificare dove verranno salvate le immagini e`ResourcesFolderAlias` permette di specificare come verranno costruiti gli URI dell'immagine.
+Quando salvi un file[`Document`](../../../aspose.words/document/) nel formato Xaml a pagina fissa, Aspose.Words deve salvare tutte le immagini incorporate nel documento come file autonomi.[`ResourcesFolder`](../resourcesfolder/) ti consente di specificare dove verranno salvate le immagini e`ResourcesFolderAlias` consente di specificare come verranno costruiti gli URI dell'immagine.
 
 ### Esempi
 
-Mostra come stampare gli URI delle risorse collegate create durante la conversione di un documento in .xaml in formato fisso.
+Mostra come stampare gli URI delle risorse collegate create durante la conversione di un documento in formato .xaml.
 
 ```csharp
 public void ResourceFolder()
@@ -39,13 +39,13 @@ public void ResourceFolder()
     options.ResourcesFolder = ArtifactsDir + "XamlFixedResourceFolder";
 
     // Utilizzare la proprietà "ResourcesFolderAlias" per utilizzare questa cartella
-    // durante la creazione di URI di immagine invece del nome della cartella delle risorse.
+    // quando si costruiscono URI di immagine invece del nome della cartella delle risorse.
     options.ResourcesFolderAlias = ArtifactsDir + "XamlFixedFolderAlias";
 
     options.ResourceSavingCallback = callback;
 
     // Una cartella specificata da "ResourcesFolderAlias" dovrà contenere le risorse invece di "ResourcesFolder".
-    // Dobbiamo assicurarci che la cartella esista prima che i flussi di callback possano inserirvi le proprie risorse.
+    // Dobbiamo garantire che la cartella esista prima che i flussi di callback possano inserirvi le proprie risorse.
     Directory.CreateDirectory(options.ResourcesFolderAlias);
 
     doc.Save(ArtifactsDir + "XamlFixedSaveOptions.ResourceFolder.xaml", options);
@@ -68,8 +68,8 @@ private class ResourceUriPrinter : IResourceSavingCallback
     {
         Resources.Add($"Resource \"{args.ResourceFileName}\"\n\t{args.ResourceFileUri}");
 
-        // Se avessimo specificato un alias per la cartella delle risorse, avremmo anche bisogno
-        // per reindirizzare ogni flusso per inserire la sua risorsa nella cartella alias.
+        // Se specificassimo un alias della cartella delle risorse, avremmo anche bisogno
+        // per reindirizzare ciascun flusso per inserire la relativa risorsa nella cartella alias.
         args.ResourceStream = new FileStream(args.ResourceFileUri, FileMode.Create);
         args.KeepResourceStreamOpen = false;
     }

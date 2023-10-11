@@ -1,14 +1,14 @@
 ---
 title: SvgSaveOptions.TextOutputMode
 second_title: Aspose.Words لمراجع .NET API
-description: SvgSaveOptions ملكية. الحصول على أو تعيين قيمة تحدد كيفية عرض النص بتنسيق SVG.
+description: SvgSaveOptions ملكية. الحصول على أو تعيين قيمة تحدد كيفية عرض النص في SVG.
 type: docs
 weight: 90
 url: /ar/net/aspose.words.saving/svgsaveoptions/textoutputmode/
 ---
 ## SvgSaveOptions.TextOutputMode property
 
-الحصول على أو تعيين قيمة تحدد كيفية عرض النص بتنسيق SVG.
+الحصول على أو تعيين قيمة تحدد كيفية عرض النص في SVG.
 
 ```csharp
 public SvgTextOutputMode TextOutputMode { get; set; }
@@ -16,18 +16,18 @@ public SvgTextOutputMode TextOutputMode { get; set; }
 
 ### ملاحظات
 
-استخدم هذه الخاصية للحصول على أو ضبط الوضع الخاص بكيفية عرض النص داخل المستند عند الحفظ بتنسيق SVG.
+استخدم هذه الخاصية للحصول على أو تعيين الوضع الذي يجب أن يتم به عرض النص داخل المستند عند الحفظ بتنسيق SVG.
 
-النظام الأساسيUseTargetMachineFonts.
+القيمة الافتراضية هيUseTargetMachineFonts.
 
 ### أمثلة
 
-يوضح كيفية محاكاة خصائص الصور عند تحويل مستند docx إلى .svg.
+يوضح كيفية محاكاة خصائص الصور عند تحويل مستند .docx إلى .svg.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
 
-// تكوين كائن SvgSaveOptions للحفظ بدون حدود صفحة أو نص قابل للتحديد.
+// قم بتكوين كائن SvgSaveOptions للحفظ بدون حدود للصفحة أو نص قابل للتحديد.
 SvgSaveOptions options = new SvgSaveOptions
 {
     FitToViewPort = true,

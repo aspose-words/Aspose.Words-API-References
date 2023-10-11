@@ -1,14 +1,14 @@
 ---
 title: Font.Size
 second_title: Aspose.Words für .NET-API-Referenz
-description: Font eigendom. Liest oder setzt die Schriftgröße in Punkt.
+description: Font eigendom. Ruft die Schriftgröße in Punkten ab oder legt sie fest.
 type: docs
 weight: 340
 url: /de/net/aspose.words/font/size/
 ---
 ## Font.Size property
 
-Liest oder setzt die Schriftgröße in Punkt.
+Ruft die Schriftgröße in Punkten ab oder legt sie fest.
 
 ```csharp
 public double Size { get; set; }
@@ -16,7 +16,7 @@ public double Size { get; set; }
 
 ### Beispiele
 
-Zeigt, wie ein Textverlauf mithilfe seiner Eigenschaft font formatiert wird.
+Zeigt, wie eine Textzeile mithilfe ihrer Schriftarteigenschaft formatiert wird.
 
 ```csharp
 Document doc = new Document();
@@ -37,7 +37,7 @@ Zeigt, wie formatierter Text mit DocumentBuilder eingefügt wird.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Schriftartformatierung angeben, dann Text hinzufügen.
+// Geben Sie die Schriftartformatierung an und fügen Sie dann Text hinzu.
 Aspose.Words.Font font = builder.Font;
 font.Size = 16;
 font.Bold = true;

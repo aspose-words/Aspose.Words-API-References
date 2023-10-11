@@ -18,7 +18,7 @@ public string AttachedTemplate { get; set; }
 
 | istisna | şart |
 | --- | --- |
-| ArgumentNullException | Boş bir değere ayarlamaya çalışırsanız atar. |
+| ArgumentNullException | Ayarlamaya çalışırsanız fırlatır`hükümsüz` değer. |
 
 ### Notlar
 
@@ -26,19 +26,19 @@ Boş dize, belgenin Normal şablona eklendiği anlamına gelir.
 
 ### Örnekler
 
-Ekli şablonları olmayan belgeler için varsayılan bir şablonun nasıl ayarlanacağını gösterir.
+Ekli şablonları olmayan belgeler için varsayılan şablonun nasıl ayarlanacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 
-// Otomatik stil güncellemeyi etkinleştir, ancak şablon belgesi ekleme.
+// Otomatik stil güncellemeyi etkinleştirin ancak şablon belgesi eklemeyin.
 doc.AutomaticallyUpdateStyles = true;
 
 Assert.AreEqual(string.Empty, doc.AttachedTemplate);
 
-// Şablon belgesi olmadığından, belgenin stil değişikliklerini izleyecek hiçbir yeri yoktu.
-// Bir şablonu otomatik olarak ayarlamak için SaveOptions nesnesini kullanın
-// kaydettiğimiz bir belge yoksa.
+// Şablon belge olmadığından belgenin stil değişikliklerini izleyecek yeri yoktu.
+// Şablonu otomatik olarak ayarlamak için SaveOptions nesnesini kullanın
+// eğer kaydettiğimiz belgede belge yoksa.
 SaveOptions options = SaveOptions.CreateSaveOptions("Document.DefaultTemplate.docx");
 options.DefaultTemplate = MyDir + "Business brochure.dotx";
 

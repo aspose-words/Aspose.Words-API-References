@@ -1,14 +1,14 @@
 ---
 title: FontConfigSubstitutionRule.IsFontConfigAvailable
 second_title: Aspose.Words for .NET API Referansı
-description: FontConfigSubstitutionRule yöntem. fontconfig yardımcı programının kullanılabilir olup olmadığını kontrol edin.
+description: FontConfigSubstitutionRule yöntem. Fontconfig yardımcı programının mevcut olup olmadığını kontrol edin.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fonts/fontconfigsubstitutionrule/isfontconfigavailable/
 ---
 ## FontConfigSubstitutionRule.IsFontConfigAvailable method
 
-fontconfig yardımcı programının kullanılabilir olup olmadığını kontrol edin.
+Fontconfig yardımcı programının mevcut olup olmadığını kontrol edin.
 
 ```csharp
 public bool IsFontConfigAvailable()
@@ -26,7 +26,7 @@ FontConfigSubstitutionRule fontConfigSubstitution =
 bool isWindows = new[] {PlatformID.Win32NT, PlatformID.Win32S, PlatformID.Win32Windows, PlatformID.WinCE}
     .Any(p => Environment.OSVersion.Platform == p);
 
-// FontConfigSubstitutionRule nesnesi, Windows/Windows olmayan platformlarda farklı çalışır.
+// FontConfigSubstitutionRule nesnesi Windows/Windows dışı platformlarda farklı çalışır.
 // Windows'ta kullanılamaz.
 if (isWindows)
 {
@@ -37,7 +37,7 @@ if (isWindows)
 bool isLinuxOrMac =
     new[] {PlatformID.Unix, PlatformID.MacOSX}.Any(p => Environment.OSVersion.Platform == p);
 
-// Linux/Mac'te ona erişimimiz olacak ve işlemler yapabileceğiz.
+// Linux/Mac'te buna erişimimiz olacak ve işlemleri gerçekleştirebileceğiz.
 if (isLinuxOrMac)
 {
     Assert.True(fontConfigSubstitution.Enabled);

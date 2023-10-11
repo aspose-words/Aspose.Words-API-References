@@ -3,7 +3,7 @@ title: Run.Accept
 second_title: Aspose.Words für .NET-API-Referenz
 description: Run methode. Akzeptiert einen Besucher.
 type: docs
-weight: 40
+weight: 60
 url: /de/net/aspose.words/run/accept/
 ---
 ## Run.Accept method
@@ -16,17 +16,17 @@ public override bool Accept(DocumentVisitor visitor)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| visitor | DocumentVisitor | Der Besucher, der den Knoten besucht. |
+| visitor | DocumentVisitor | Der Besucher, der den Knoten besuchen wird. |
 
 ### Rückgabewert
 
-False, wenn der Besucher angefordert hat, dass die Enumeration beendet wird.
+`FALSCH` wenn der Besucher das Stoppen der Aufzählung angefordert hat.
 
 ### Bemerkungen
 
-Ruft DocumentVisitor.VisitRun auf.
+Anrufe[`VisitRun`](../../documentvisitor/visitrun/).
 
-Weitere Informationen finden Sie im Besucher-Entwurfsmuster.
+Weitere Informationen finden Sie im Visitor-Entwurfsmuster.
 
 ### Beispiele
 
@@ -38,21 +38,21 @@ public void HeaderFooterToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     HeaderFooterStructurePrinter visitor = new HeaderFooterStructurePrinter();
 
-    // Wenn wir einen zusammengesetzten Knoten dazu bringen, einen Dokumentbesucher zu akzeptieren, besucht der Besucher den akzeptierenden Knoten,
-    // und durchläuft dann alle untergeordneten Elemente des Knotens mit der Tiefe zuerst.
+    // Wenn wir einen zusammengesetzten Knoten erhalten, der einen Dokumentbesucher akzeptiert, besucht der Besucher den akzeptierenden Knoten.
+    // und durchläuft dann alle untergeordneten Knoten des Knotens in einer Tiefe-zuerst-Methode.
     // Der Besucher kann jeden besuchten Knoten lesen und ändern.
     doc.Accept(visitor);
 
     Console.WriteLine(visitor.GetText());
 
-    // Eine alternative Möglichkeit, abschnittsweise auf die Kopf-/Fußzeile eines Dokuments zuzugreifen, ist der Zugriff auf die Sammlung.
+    // Eine alternative Möglichkeit, abschnittsweise auf die Kopf-/Fußzeilen eines Dokuments zuzugreifen, ist der Zugriff auf die Sammlung.
     HeaderFooter[] headerFooters = doc.FirstSection.HeadersFooters.ToArray();
     Assert.AreEqual(3, headerFooters.Length);
 }
 
 /// <summary>
 /// Durchläuft den nicht-binären Baum der untergeordneten Knoten eines Knotens.
-/// Erstellt eine Karte in Form eines Strings aller angetroffenen HeaderFooter-Knoten und ihrer Kinder.
+/// Erstellt eine Karte in Form einer Zeichenfolge aller gefundenen HeaderFooter-Knoten und ihrer untergeordneten Knoten.
 /// </summary>
 public class HeaderFooterStructurePrinter : DocumentVisitor
 {
@@ -102,7 +102,7 @@ public class HeaderFooterStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Eine Zeile an den StringBuilder anhängen und einrücken, je nachdem, wie tief der Besucher in den Dokumentenbaum eindringt.
+    /// Hängen Sie eine Zeile an den StringBuilder an und rücken Sie sie ein, je nachdem, wie tief sich der Besucher im Dokumentbaum befindet.
     /// </summary>
     /// <param name="text"></param>
     private void IndentAndAppendLine(string text)

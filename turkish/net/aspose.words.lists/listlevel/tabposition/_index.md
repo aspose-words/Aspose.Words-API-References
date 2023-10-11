@@ -1,14 +1,14 @@
 ---
 title: ListLevel.TabPosition
 second_title: Aspose.Words for .NET API Referansı
-description: ListLevel mülk. Liste düzeyi için sekme konumunu puan olarak döndürür veya ayarlar.
+description: ListLevel mülk. Liste düzeyi için sekme konumunu nokta cinsinden döndürür veya ayarlar.
 type: docs
 weight: 120
 url: /tr/net/aspose.words.lists/listlevel/tabposition/
 ---
 ## ListLevel.TabPosition property
 
-Liste düzeyi için sekme konumunu (puan olarak) döndürür veya ayarlar.
+Liste düzeyi için sekme konumunu (nokta cinsinden) döndürür veya ayarlar.
 
 ```csharp
 public double TabPosition { get; set; }
@@ -16,20 +16,20 @@ public double TabPosition { get; set; }
 
 ### Notlar
 
-Sadece ne zaman etkilidir[`TrailingCharacter`](../trailingcharacter/) bir sekmedir.
+Yalnızca şu durumlarda etkili olur:[`TrailingCharacter`](../trailingcharacter/) bir sekmedir.
 
 ### Örnekler
 
-DocumentBuilder kullanılırken paragraflara özel liste biçimlendirmesinin nasıl uygulanacağını gösterir.
+DocumentBuilder kullanılırken özel liste formatının paragraflara nasıl uygulanacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 
-// Liste, önek sembolleri ve girintilerle paragraf kümelerini düzenlememize ve süslememize olanak tanır.
-// Girinti seviyesini artırarak iç içe listeler oluşturabiliriz. 
-// Bir belge oluşturucunun "ListFormat" özelliğini kullanarak bir listeyi başlatabilir ve bitirebiliriz. 
-// Bir listenin başlangıcı ile bitişi arasına eklediğimiz her paragraf listede bir öğe haline gelecektir.
-// Bir Microsoft Word şablonundan bir liste oluşturun ve liste düzeylerinin ilk ikisini özelleştirin.
+// Liste, paragraf kümelerini önek sembolleri ve girintilerle düzenlememize ve süslememize olanak tanır.
+ // Girinti seviyesini artırarak iç içe listeler oluşturabiliriz.
+ // Bir listeyi belge oluşturucunun "ListFormat" özelliğini kullanarak başlatabilir ve sonlandırabiliriz.
+// Bir listenin başı ile sonu arasına eklediğimiz her paragraf, listede bir öğe haline gelecektir.
+// Microsoft Word şablonundan bir liste oluşturun ve liste seviyelerinin ilk ikisini özelleştirin.
 List list = doc.Lists.Add(ListTemplate.NumberDefault);
 
 ListLevel listLevel = list.ListLevels[0];
@@ -50,7 +50,7 @@ listLevel.Font.Name = "Wingdings";
 listLevel.Font.Color = Color.Blue;
 listLevel.Font.Size = 24;
 
-// Bu NumberFormat değeri, yıldız şeklinde madde işareti listesi sembolleri oluşturacaktır.
+// Bu NumberFormat değeri yıldız şekilli madde işareti listesi sembolleri oluşturacaktır.
 listLevel.NumberFormat = "\xf0af";
 listLevel.TrailingCharacter = ListTrailingCharacter.Space;
 listLevel.NumberPosition = 144;

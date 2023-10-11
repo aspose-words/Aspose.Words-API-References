@@ -1,14 +1,14 @@
 ---
 title: ImageSaveOptions.PixelFormat
 second_title: Aspose.Words لمراجع .NET API
-description: ImageSaveOptions ملكية. الحصول على أو تحديد تنسيق البكسل للصور التي تم إنشاؤها.
+description: ImageSaveOptions ملكية. الحصول على أو تعيين تنسيق البكسل للصور التي تم إنشاؤها.
 type: docs
-weight: 110
+weight: 120
 url: /ar/net/aspose.words.saving/imagesaveoptions/pixelformat/
 ---
 ## ImageSaveOptions.PixelFormat property
 
-الحصول على أو تحديد تنسيق البكسل للصور التي تم إنشاؤها.
+الحصول على أو تعيين تنسيق البكسل للصور التي تم إنشاؤها.
 
 ```csharp
 public ImagePixelFormat PixelFormat { get; set; }
@@ -16,15 +16,15 @@ public ImagePixelFormat PixelFormat { get; set; }
 
 ### ملاحظات
 
-هذه الخاصية لها تأثير فقط عند الحفظ بتنسيقات صور نقطية.
+تؤثر هذه الخاصية فقط عند الحفظ في تنسيقات الصور النقطية.
 
-النظام الأساسيFormat32BppArgb.
+القيمة الافتراضية هيFormat32BppArgb.
 
-قد يختلف تنسيق البكسل للصورة الناتجة عن القيمة المحددة بسبب عمل GDI +.
+قد يختلف تنسيق البكسل للصورة الناتجة عن القيمة المحددة بسبب عمل GDI+.
 
 ### أمثلة
 
-يوضح كيفية تحديد معدل بت لكل بكسل لتقديم مستند إلى صورة.
+يوضح كيفية تحديد معدل بت لكل بكسل لعرض مستند على صورة.
 
 ```csharp
 Document doc = new Document();
@@ -36,13 +36,13 @@ Document doc = new Document();
 
             Assert.That(20000, Is.LessThan(new FileInfo(ImageDir + "Logo.jpg").Length));
 
-            // عندما نحفظ المستند كصورة ، يمكننا تمرير كائن SaveOptions إليه
-            // حدد تنسيق بكسل للصورة التي ستنشئها عملية الحفظ.
+            // عندما نحفظ المستند كصورة، يمكننا تمرير كائن SaveOptions إليه
+            // حدد تنسيق البكسل للصورة التي ستنشئها عملية الحفظ.
             // ستؤثر معدلات البت المختلفة لكل بكسل على جودة الصورة التي تم إنشاؤها وحجمها.
             ImageSaveOptions imageSaveOptions = new ImageSaveOptions(SaveFormat.Png);
             imageSaveOptions.PixelFormat = imagePixelFormat;
 
-            // يمكننا استنساخ أمثلة ImageSaveOptions.
+            // يمكننا استنساخ مثيلات ImageSaveOptions.
             Assert.AreNotEqual(imageSaveOptions, imageSaveOptions.Clone());
 
             doc.Save(ArtifactsDir + "ImageSaveOptions.PixelFormat.png", imageSaveOptions);

@@ -3,7 +3,7 @@ title: ImageSaveOptions.JpegQuality
 second_title: Aspose.Words för .NET API Referens
 description: ImageSaveOptions fast egendom. Hämtar eller ställer in ett värde som bestämmer kvaliteten på de genererade JPEGbilderna.
 type: docs
-weight: 70
+weight: 80
 url: /sv/net/aspose.words.saving/imagesaveoptions/jpegquality/
 ---
 ## ImageSaveOptions.JpegQuality property

@@ -1,14 +1,14 @@
 ---
 title: DocumentBuilder.EndColumnBookmark
 second_title: Aspose.Words per .NET API Reference
-description: DocumentBuilder metodo. Contrassegna la posizione corrente nel documento come fine di un segnalibro di colonna. La posizione deve essere in una cella di tabella.
+description: DocumentBuilder metodo. Contrassegna la posizione corrente nel documento come fine segnalibro di colonna. La posizione deve essere in una cella della tabella.
 type: docs
-weight: 200
+weight: 220
 url: /it/net/aspose.words/documentbuilder/endcolumnbookmark/
 ---
 ## DocumentBuilder.EndColumnBookmark method
 
-Contrassegna la posizione corrente nel documento come fine di un segnalibro di colonna. La posizione deve essere in una cella di tabella.
+Contrassegna la posizione corrente nel documento come fine segnalibro di colonna. La posizione deve essere in una cella della tabella.
 
 ```csharp
 public BookmarkEnd EndColumnBookmark(string bookmarkName)
@@ -24,15 +24,15 @@ Il nodo finale del segnalibro appena creato.
 
 ### Osservazioni
 
-Un segnalibro di colonna copre una o più colonne in un intervallo di righe. Per creare un segnalibro valido devi chiamare entrambi[`StartColumnBookmark`](../startcolumnbookmark/) e`EndColumnBookmark` con lo stesso  **bookmarkName** parametro.
+Un segnalibro di colonna copre una o più colonne in un intervallo di righe. Per creare un segnalibro valido devi chiamarli entrambi[`StartColumnBookmark`](../startcolumnbookmark/) E`EndColumnBookmark` con lo stesso *bookmarkName*parametro.
 
-I segnalibri di formato errato o i segnalibri con nomi duplicati verranno ignorati quando il documento viene salvato.
+I segnalibri formati in modo errato o i segnalibri con nomi duplicati verranno ignorati quando il documento viene salvato.
 
-La posizione effettiva dell'inserito[`BookmarkEnd`](../../bookmarkend/) node può differire dalla posizione del builder document corrente.
+La posizione effettiva dell'inserito[`BookmarkEnd`](../../bookmarkend/) il nodo potrebbe differire dalla posizione corrente del document builder.
 
 ### Esempi
 
-Mostra come creare un segnalibro di una colonna.
+Mostra come creare un segnalibro di colonna.
 
 ```csharp
 Document doc = new Document();
@@ -41,9 +41,9 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.StartTable();
 
 builder.InsertCell();
-// Le celle 1,2,4,5 verranno inserite nei segnalibri.
+// Le celle 1,2,4,5 verranno aggiunte ai segnalibri.
 builder.StartColumnBookmark("MyBookmark_1");
-// I segnalibri formati male oi segnalibri con nomi duplicati verranno ignorati quando il documento viene salvato.
+// I segnalibri formati in modo errato o i segnalibri con nomi duplicati verranno ignorati quando il documento viene salvato.
 builder.StartColumnBookmark("MyBookmark_1");
 builder.StartColumnBookmark("BadStartBookmark");
 builder.Write("Cell 1");

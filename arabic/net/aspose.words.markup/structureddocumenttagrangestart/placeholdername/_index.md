@@ -1,16 +1,16 @@
 ---
 title: StructuredDocumentTagRangeStart.PlaceholderName
 second_title: Aspose.Words لمراجع .NET API
-description: StructuredDocumentTagRangeStart ملكية. يحصل أو يحدد اسمBuildingBlock تحتوي على نص عنصر نائب.
+description: StructuredDocumentTagRangeStart ملكية. الحصول على أو تعيين اسمBuildingBlock تحتوي على نص نائب.
 type: docs
 weight: 120
 url: /ar/net/aspose.words.markup/structureddocumenttagrangestart/placeholdername/
 ---
 ## StructuredDocumentTagRangeStart.PlaceholderName property
 
-يحصل أو يحدد اسم[`BuildingBlock`](../../../aspose.words.buildingblocks/buildingblock/) تحتوي على نص عنصر نائب.
+الحصول على أو تعيين اسم[`BuildingBlock`](../../../aspose.words.buildingblocks/buildingblock/) تحتوي على نص نائب.
 
-BuildingBlock بهذا الاسم[`Name`](../../../aspose.words.buildingblocks/buildingblock/name/) يجب أن يكون موجودًا في[`GlossaryDocument`](../../../aspose.words/document/glossarydocument/) خلاف ذلكInvalidOperationException سوف يحدث.
+[`BuildingBlock`](../../../aspose.words.buildingblocks/buildingblock/) بهذا الاسم[`Name`](../../../aspose.words.buildingblocks/buildingblock/name/) يجب أن يكون موجودا في[`GlossaryDocument`](../../../aspose.words/document/glossarydocument/) خلاف ذلكInvalidOperationException سوف يحدث.
 
 ```csharp
 public string PlaceholderName { get; set; }

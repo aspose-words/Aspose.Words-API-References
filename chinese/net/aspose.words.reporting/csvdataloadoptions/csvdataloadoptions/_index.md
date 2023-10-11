@@ -24,7 +24,7 @@ public CsvDataLoadOptions()
 
 ## CsvDataLoadOptions(bool) {#constructor_1}
 
-初始化此类的新实例，并在第一行指定 CSV 数据是否包含列名称 。
+初始化此类的新实例，并指定 CSV 数据是否在第一行包含列名称 。
 
 ```csharp
 public CsvDataLoadOptions(bool hasHeaders)

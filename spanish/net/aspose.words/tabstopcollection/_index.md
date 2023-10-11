@@ -1,14 +1,16 @@
 ---
 title: Class TabStopCollection
 second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.TabStopCollection clase. Una colección deTabStopobjetos que representan tabulaciones personalizadas para un párrafo o un estilo.
+description: Aspose.Words.TabStopCollection clase. Una colección deTabStop objetos que representan pestañas personalizadas para un párrafo o un estilo.
 type: docs
-weight: 5910
+weight: 6210
 url: /es/net/aspose.words/tabstopcollection/
 ---
 ## TabStopCollection class
 
-Una colección de[`TabStop`](../tabstop/)objetos que representan tabulaciones personalizadas para un párrafo o un estilo.
+Una colección de[`TabStop`](../tabstop/) objetos que representan pestañas personalizadas para un párrafo o un estilo.
+
+Para obtener más información, visite el[Modelo de objetos de documento (DOM) de Aspose.Words](https://docs.aspose.com/words/net/aspose-words-document-object-model/) artículo de documentación.
 
 ```csharp
 public class TabStopCollection : InternableComplexAttr
@@ -31,7 +33,7 @@ public class TabStopCollection : InternableComplexAttr
 | [Before](../../aspose.words/tabstopcollection/before/)(double) | Obtiene una primera tabulación a la izquierda de la posición especificada. |
 | [Clear](../../aspose.words/tabstopcollection/clear/)() | Elimina todas las posiciones de tabulación. |
 | override [Equals](../../aspose.words/tabstopcollection/equals/#equals_1)(object) | Determina si el objeto especificado tiene el mismo valor que el objeto actual. |
-| [Equals](../../aspose.words/tabstopcollection/equals/#equals)(TabStopCollection) | Determina si la TabStopCollection especificada tiene el mismo valor que la TabStopCollection actual. |
+| [Equals](../../aspose.words/tabstopcollection/equals/#equals)(TabStopCollection) | Determina si el especificado`TabStopCollection` es igual en valor a la corriente`TabStopCollection` . |
 | override [GetHashCode](../../aspose.words/tabstopcollection/gethashcode/)() | Sirve como función hash para este tipo. |
 | [GetIndexByPosition](../../aspose.words/tabstopcollection/getindexbyposition/)(double) | Obtiene el índice de una tabulación con la posición especificada en puntos. |
 | [GetPositionByIndex](../../aspose.words/tabstopcollection/getpositionbyindex/)(int) | Obtiene la posición (en puntos) de la tabulación en el índice especificado. |
@@ -40,9 +42,9 @@ public class TabStopCollection : InternableComplexAttr
 
 ### Observaciones
 
-En los documentos de Microsoft Word, se puede definir una tabulación en las propiedades de un estilo de párrafo o directamente en las propiedades de un párrafo. Un estilo puede estar basado en otro estilo. Por lo tanto, el conjunto completo de tabulaciones para un objeto determinado es una combinación de tabulaciones definidas directamente en este objeto y tabulaciones heredadas de los estilos principales.
+En los documentos de Microsoft Word, una tabulación se puede definir en las propiedades de un estilo parrafo o directamente en las propiedades de un párrafo. Un estilo puede basarse en otro estilo. Por lo tanto, el conjunto completo de tabulaciones para un objeto determinado es una combinación de tabulaciones definidas directamente en este objeto y tabulaciones heredadas de los estilos principales.
 
-En Aspose.Words, cuando obtienes un **Paradas de tabulación** colección para un párrafo o un estilo, contiene solo las tabulaciones personalizadas definidas directamente para este párrafo o estilo. La colección no incluye las tabulaciones definidas en los estilos principales o las tabulaciones predeterminadas.
+En Aspose.Words, cuando obtienes un`TabStopCollection`para un párrafo o un estilo, contiene solo las tabulaciones personalizadas definidas directamente para este párrafo o estilo. La colección no incluye tabulaciones definidas en los estilos principales o tabulaciones predeterminadas.
 
 ### Ejemplos
 
@@ -62,18 +64,18 @@ Assert.AreEqual(2, tabStops.Count);
 Assert.IsFalse(tabStops[0].IsClear);
 Assert.IsFalse(tabStops[0].Equals(tabStops[1]));
 
-// Cada carácter de "tabulador" lleva el cursor del constructor a la ubicación de la siguiente tabulación.
+// Cada carácter de "tabulación" lleva el cursor del constructor a la ubicación de la siguiente tabulación.
 builder.Writeln("Start\tTab 1\tTab 2");
 
 ParagraphCollection paragraphs = doc.FirstSection.Body.Paragraphs;
 
 Assert.AreEqual(2, paragraphs.Count);
 
-// Cada párrafo obtiene su colección de tabulaciones, que clona sus valores de la colección de tabulaciones del generador de documentos.
+// Cada párrafo obtiene su colección de tabulaciones, que clona sus valores de la colección de tabulaciones del creador de documentos.
 Assert.AreEqual(paragraphs[0].ParagraphFormat.TabStops, paragraphs[1].ParagraphFormat.TabStops);
 Assert.AreNotSame(paragraphs[0].ParagraphFormat.TabStops, paragraphs[1].ParagraphFormat.TabStops);
 
-// Una colección de tabulaciones puede señalarnos TabStops antes y después de ciertas posiciones.
+// Una colección de tabulaciones puede indicarnos TabStops antes y después de ciertas posiciones.
 Assert.AreEqual(72.0, tabStops.Before(100.0).Position);
 Assert.AreEqual(432.0, tabStops.After(100.0).Position);
 

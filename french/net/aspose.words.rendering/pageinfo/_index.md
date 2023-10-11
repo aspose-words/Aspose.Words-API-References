@@ -3,12 +3,14 @@ title: Class PageInfo
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Aspose.Words.Rendering.PageInfo classe. Représente des informations sur une page de document particulière.
 type: docs
-weight: 4310
+weight: 4570
 url: /fr/net/aspose.words.rendering/pageinfo/
 ---
 ## PageInfo class
 
 Représente des informations sur une page de document particulière.
+
+Pour en savoir plus, visitez le[Le rendu](https://docs.aspose.com/words/net/rendering/) article documentaire.
 
 ```csharp
 public class PageInfo
@@ -18,9 +20,10 @@ public class PageInfo
 
 | Nom | La description |
 | --- | --- |
+| [Colored](../../aspose.words.rendering/pageinfo/colored/) { get; } | Retours`vrai` si la page contient du contenu coloré. |
 | [HeightInPoints](../../aspose.words.rendering/pageinfo/heightinpoints/) { get; } | Obtient la hauteur de la page en points. |
-| [Landscape](../../aspose.words.rendering/pageinfo/landscape/) { get; } | Renvoie true si l'orientation de page spécifiée dans le document pour cette page est paysage. |
-| [PaperSize](../../aspose.words.rendering/pageinfo/papersize/) { get; } | Obtient la taille du papier sous forme d'énumération. |
+| [Landscape](../../aspose.words.rendering/pageinfo/landscape/) { get; } | Retours`vrai` si l'orientation de la page spécifiée dans le document pour cette page est paysage. |
+| [PaperSize](../../aspose.words.rendering/pageinfo/papersize/) { get; } | Obtient le format du papier sous forme d'énumération. |
 | [PaperTray](../../aspose.words.rendering/pageinfo/papertray/) { get; } | Obtient le bac à papier (bac) pour cette page comme spécifié dans le document. La valeur est spécifique à l'implémentation (imprimante). |
 | [SizeInPoints](../../aspose.words.rendering/pageinfo/sizeinpoints/) { get; } | Obtient la taille de la page en points. |
 | [WidthInPoints](../../aspose.words.rendering/pageinfo/widthinpoints/) { get; } | Obtient la largeur de la page en points. |
@@ -29,24 +32,24 @@ public class PageInfo
 
 | Nom | La description |
 | --- | --- |
-| [GetDotNetPaperSize](../../aspose.words.rendering/pageinfo/getdotnetpapersize/)(PaperSizeCollection) | Obtient lePaperSize objet adapté à l'impression la page représentée par ce`PageInfo` . |
+| [GetDotNetPaperSize](../../aspose.words.rendering/pageinfo/getdotnetpapersize/)(PaperSizeCollection) | Obtient lePaperSize objet adapté à l'impression la page représentée par ceci`PageInfo` . |
 | [GetSizeInPixels](../../aspose.words.rendering/pageinfo/getsizeinpixels/#getsizeinpixels)(float, float) | Calcule la taille de la page en pixels pour un facteur de zoom et une résolution spécifiés. |
 | [GetSizeInPixels](../../aspose.words.rendering/pageinfo/getsizeinpixels/#getsizeinpixels_1)(float, float, float) | Calcule la taille de la page en pixels pour un facteur de zoom et une résolution spécifiés. |
-| [GetSpecifiedPrinterPaperSource](../../aspose.words.rendering/pageinfo/getspecifiedprinterpapersource/)(PaperSourceCollection, PaperSource) | Obtient lePaperSource objet adapté à l'impression la page représentée par ce`PageInfo` . |
+| [GetSpecifiedPrinterPaperSource](../../aspose.words.rendering/pageinfo/getspecifiedprinterpapersource/)(PaperSourceCollection, PaperSource) | Obtient lePaperSource objet adapté à l'impression la page représentée par ceci`PageInfo` . |
 
 ### Remarques
 
-La largeur et la hauteur de la page renvoyées par cet objet représentent la taille "finale" de la page, par exemple, elles sont déjà tournées dans la bonne orientation.
+La largeur et la hauteur de la page renvoyées par cet objet représentent la taille "finale" de la page, par exemple elles sont déjà pivotées dans la bonne orientation.
 
 ### Exemples
 
-Montre comment imprimer des informations sur la taille et l'orientation de la page pour chaque page d'un document Word.
+Montre comment imprimer les informations sur la taille et l’orientation de chaque page d’un document Word.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// La première section comporte 2 pages. Nous attribuerons un bac à papier d'imprimante différent à chacun,
-// dont le numéro correspondra à un type de source papier. Ces sources et leurs types varieront
+// La première section comporte 2 pages. Nous attribuerons à chacun un bac à papier d'imprimante différent,
+// dont le numéro correspondra à une sorte de source papier. Ces sources et leurs types varient
 // en fonction du pilote d'imprimante installé.
 PrinterSettings.PaperSourceCollection paperSources = new PrinterSettings().PaperSources;
 
@@ -60,10 +63,10 @@ float dpi = 96;
 
 for (int i = 0; i < doc.PageCount; i++)
 {
-    // Chaque page a un objet PageInfo, dont l'index est le numéro de la page respective.
+    // Chaque page possède un objet PageInfo, dont l'index est le numéro de la page respective.
     PageInfo pageInfo = doc.GetPageInfo(i);
 
-    // Affiche l'orientation et les dimensions de la page.
+    // Imprime l'orientation et les dimensions de la page.
     Console.WriteLine($"Page {i + 1}:");
     Console.WriteLine($"\tOrientation:\t{(pageInfo.Landscape ? "Landscape" : "Portrait")}");
     Console.WriteLine($"\tPaper size:\t\t{pageInfo.PaperSize} ({pageInfo.WidthInPoints:F0}x{pageInfo.HeightInPoints:F0}pt)");

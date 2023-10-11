@@ -3,7 +3,7 @@ title: DocumentBuilder.InsertDocument
 second_title: Referencia de API de Aspose.Words para .NET
 description: DocumentBuilder método. Inserta un documento en la posición del cursor.
 type: docs
-weight: 290
+weight: 310
 url: /es/net/aspose.words/documentbuilder/insertdocument/
 ---
 ## InsertDocument(Document, ImportFormatMode) {#insertdocument}
@@ -17,7 +17,7 @@ public Node InsertDocument(Document srcDoc, ImportFormatMode importFormatMode)
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
 | srcDoc | Document | Documento fuente para insertar. |
-| importFormatMode | ImportFormatMode | Especifica cómo fusionar el formato de estilo que entra en conflicto. |
+| importFormatMode | ImportFormatMode | Especifica cómo fusionar el formato de estilo que choca. |
 
 ### Valor_devuelto
 
@@ -67,7 +67,7 @@ public Node InsertDocument(Document srcDoc, ImportFormatMode importFormatMode,
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
 | srcDoc | Document | Documento fuente para insertar. |
-| importFormatMode | ImportFormatMode | Especifica cómo fusionar el formato de estilo que entra en conflicto. |
+| importFormatMode | ImportFormatMode | Especifica cómo fusionar el formato de estilo que choca. |
 | importFormatOptions | ImportFormatOptions | Permite especificar opciones que afectan el formato de un documento de resultados. |
 
 ### Valor_devuelto
@@ -95,12 +95,12 @@ builder.ParagraphFormat.StyleName = myStyle.Name;
 builder.Writeln("Hello world!");
 
 // Clona el documento y edita el estilo "MyStyle" del clon, para que tenga un color diferente al del original.
-// Si insertamos el clon en el documento original, los dos estilos con el mismo nombre provocarán un conflicto.
+// Si insertamos el clon en el documento original, los dos estilos con el mismo nombre provocarán un choque.
 Document srcDoc = dstDoc.Clone();
 srcDoc.Styles["MyStyle"].Font.Color = Color.Red;
 
 // Cuando habilitamos SmartStyleBehavior y usamos el modo de formato de importación KeepSourceFormatting,
-// Aspose.Words resolverá los conflictos de estilos convirtiendo los estilos del documento de origen.
+// Aspose.Words resolverá los conflictos de estilos convirtiendo los estilos del documento fuente.
 // con los mismos nombres que los estilos de destino en atributos de párrafo directo.
 ImportFormatOptions options = new ImportFormatOptions();
 options.SmartStyleBehavior = true;

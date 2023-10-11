@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTag.CalendarType
 second_title: Referencia de API de Aspose.Words para .NET
-description: StructuredDocumentTag propiedad. Especifica el tipo de calendario para este SDT . El valor predeterminado esDefault
+description: StructuredDocumentTag propiedad. Especifica el tipo de calendario para este TED . El valor predeterminado esDefault
 type: docs
 weight: 50
 url: /es/net/aspose.words.markup/structureddocumenttag/calendartype/
 ---
 ## StructuredDocumentTag.CalendarType property
 
-Especifica el tipo de calendario para este **SDT** . El valor predeterminado esDefault
+Especifica el tipo de calendario para este **TED** . El valor predeterminado esDefault
 
 ```csharp
 public SdtCalendarType CalendarType { get; set; }
@@ -16,9 +16,9 @@ public SdtCalendarType CalendarType { get; set; }
 
 ### Observaciones
 
-El acceso a esta propiedad solo funcionará paraDate Tipo SDT.
+Acceder a esta propiedad sólo funcionará paraDate Tipo SDT.
 
-Para todos los demás tipos de SDT, se producirá una excepción.
+Para todos los demás tipos de SDT se producirá una excepción.
 
 ### Ejemplos
 
@@ -28,20 +28,20 @@ Muestra cómo solicitar al usuario que ingrese una fecha con una etiqueta de doc
 Document doc = new Document();
 
 // Inserte una etiqueta de documento estructurado que solicite al usuario que ingrese una fecha.
-// En Microsoft Word, este elemento se conoce como "control de contenido del selector de fechas".
+// En Microsoft Word, este elemento se conoce como "control de contenido del selector de fecha".
 // Cuando hacemos clic en la flecha en el extremo derecho de esta etiqueta en Microsoft Word,
 // veremos una ventana emergente en forma de calendario en el que se puede hacer clic.
-// Podemos usar esa ventana emergente para seleccionar una fecha que mostrará la etiqueta.
+// Podemos usar esa ventana emergente para seleccionar una fecha en la que se mostrará la etiqueta.
 StructuredDocumentTag sdtDate = new StructuredDocumentTag(doc, SdtType.Date, MarkupLevel.Inline);
 
-// Muestra la fecha, de acuerdo con la configuración regional árabe de Arabia Saudita.
+// Muestra la fecha, según la configuración regional árabe de Arabia Saudita.
 sdtDate.DateDisplayLocale = CultureInfo.GetCultureInfo("ar-SA").LCID;
 
-// Establecer el formato con el que mostrar la fecha.
+// Establece el formato con el que mostrar la fecha.
 sdtDate.DateDisplayFormat = "dd MMMM, yyyy";
 sdtDate.DateStorageFormat = SdtDateStorageFormat.DateTime;
 
-// Mostrar la fecha según el calendario Hijri.
+// Muestra la fecha según el calendario Hijri.
 sdtDate.CalendarType = SdtCalendarType.Hijri;
 
 // Antes de que el usuario elija una fecha en Microsoft Word, la etiqueta mostrará el texto "Haga clic aquí para ingresar una fecha".

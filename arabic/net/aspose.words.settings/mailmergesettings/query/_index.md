@@ -1,14 +1,14 @@
 ---
 title: MailMergeSettings.Query
 second_title: Aspose.Words لمراجع .NET API
-description: MailMergeSettings ملكية. يحتوي على سلسلة لغة الاستعلام الهيكلية التي يجب تشغيلها مقابل مصدر البيانات الخارجي المحدد إلى لإرجاع مجموعة السجلات التي يجب استيرادها إلى المستند عند تنفيذ عملية دمج المراسلات . القيمة الافتراضية هي سلسلة فارغة .
+description: MailMergeSettings ملكية. يحتوي على سلسلة لغة الاستعلام الهيكلية التي سيتم تشغيلها مقابل مصدر البيانات الخارجي المحدد لإرجاع مجموعة السجلات التي سيتم استيرادها إلى المستند عند تنفيذ عملية دمج البريد. القيمة الافتراضية هي سلسلة فارغة.
 type: docs
 weight: 160
 url: /ar/net/aspose.words.settings/mailmergesettings/query/
 ---
 ## MailMergeSettings.Query property
 
-يحتوي على سلسلة لغة الاستعلام الهيكلية التي يجب تشغيلها مقابل مصدر البيانات الخارجي المحدد إلى لإرجاع مجموعة السجلات التي يجب استيرادها إلى المستند عند تنفيذ عملية دمج المراسلات . القيمة الافتراضية هي سلسلة فارغة .
+يحتوي على سلسلة لغة الاستعلام الهيكلية التي سيتم تشغيلها مقابل مصدر البيانات الخارجي المحدد لإرجاع مجموعة السجلات التي سيتم استيرادها إلى المستند عند تنفيذ عملية دمج البريد. القيمة الافتراضية هي سلسلة فارغة.
 
 ```csharp
 public string Query { get; set; }
@@ -29,9 +29,9 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// إنشاء مصدر بيانات في شكل ملف ASCII ، باستخدام "|" حرف
-// يعمل كمحدد يفصل بين الأعمدة. يحتوي السطر الأول على أسماء الأعمدة الثلاثة ،
-// وكل سطر لاحق هو صف بقيمها الخاصة.
+// قم بإنشاء مصدر بيانات على شكل ملف ASCII، باستخدام "|" شخصية
+// يعمل كمحدد يفصل بين الأعمدة. السطر الأول يحتوي على أسماء الأعمدة الثلاثة،
+// وكل سطر لاحق عبارة عن صف بقيمه الخاصة.
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };
 string dataSrcFilename = ArtifactsDir + "MailMerge.MailMergeSettings.DataSource.txt";
@@ -59,7 +59,7 @@ odso.FirstRowContainsColumnNames = true;
 Assert.AreNotSame(odso, odso.Clone());
 Assert.AreNotSame(settings, settings.Clone());
 
-// سيؤدي فتح هذا المستند في Microsoft Word إلى تنفيذ دمج البريد قبل عرض المحتويات. 
+ // سيؤدي فتح هذا المستند في Microsoft Word إلى تنفيذ دمج البريد قبل عرض المحتويات.
 doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ```
 

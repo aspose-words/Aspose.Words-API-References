@@ -16,7 +16,7 @@ public DocumentBuilder()
 
 ### Примечания
 
-Создает новый **DocumentBuilder** объект и присоединяет его к новому[`Document`](../document/) объект.
+Создает новый[`DocumentBuilder`](../) объект и присоединяет его к новому[`Document`](../../document/) объект.
 
 ### Примеры
 
@@ -26,7 +26,7 @@ public DocumentBuilder()
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Задайте форматирование шрифта, затем добавьте текст.
+// Укажите форматирование шрифта, затем добавьте текст.
 Aspose.Words.Font font = builder.Font;
 font.Size = 16;
 font.Bold = true;
@@ -55,11 +55,11 @@ public DocumentBuilder(Document doc)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| doc | Document | Объект Document для присоединения. |
+| doc | Document | [`Document`](../../document/) объект, к которому можно прикрепиться. |
 
 ### Примечания
 
-Создает новый **DocumentBuilder** объект, присоединяется к указанному[`Document`](../document/) object. Курсор находится в начале документа.
+Создает новый[`DocumentBuilder`](../) объект, прикрепляется к указанному[`Document`](../../document/)object. Курсор расположен в начале документа.
 
 ### Примеры
 
@@ -73,7 +73,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.PageSetup.DifferentFirstPageHeaderFooter = true;
 builder.PageSetup.OddAndEvenPagesHeaderFooter = true;
 
-// Создайте заголовки, затем добавьте в документ три страницы для отображения каждого типа заголовков.
+// Создайте заголовки, затем добавьте в документ три страницы для отображения каждого типа заголовка.
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderFirst);
 builder.Write("Header for the first page");
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderEven);
@@ -97,15 +97,15 @@ doc.Save(ArtifactsDir + "DocumentBuilder.HeadersAndFooters.docx");
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Вставляем оглавление для первой страницы документа.
-// Настройте таблицу так, чтобы она выбирала абзацы с заголовками уровней от 1 до 3.
-// Кроме того, установите его записи в качестве гиперссылок, которые приведут нас
+// Вставляем оглавление первой страницы документа.
+// Настройте таблицу так, чтобы она подбирала абзацы с заголовками уровней от 1 до 3.
+// Также сделайте его записи гиперссылками, которые приведут нас
 // к местоположению заголовка при щелчке левой кнопкой мыши в Microsoft Word.
 builder.InsertTableOfContents("\\o \"1-3\" \\h \\z \\u");
 builder.InsertBreak(BreakType.PageBreak);
 
 // Заполняем оглавление, добавляя абзацы со стилями заголовков.
-// Каждый такой заголовок с уровнем от 1 до 3 создаст запись в таблице.
+// Каждый такой заголовок уровня от 1 до 3 создаст запись в таблице.
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
 builder.Writeln("Heading 1");
 
@@ -133,7 +133,7 @@ builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading2;
 builder.Writeln("Heading 3.2");
 builder.Writeln("Heading 3.3");
 
-// Оглавление — это поле типа, которое необходимо обновить для отображения актуального результата.
+// Оглавление — это поле типа, которое необходимо обновить, чтобы отобразить актуальный результат.
 doc.UpdateFields();
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertToc.docx");
 ```

@@ -26,7 +26,7 @@ Zeigt, wie die Details zu den in einem Dokument vorhandenen Schriftarten gedruck
 Document doc = new Document(MyDir + "Embedded font.docx");
 
 FontInfoCollection allFonts = doc.FontInfos;
-// Drucken Sie alle verwendeten und nicht verwendeten Schriftarten im Dokument.
+// Alle verwendeten und nicht verwendeten Schriftarten im Dokument drucken.
 for (int i = 0; i < allFonts.Count; i++)
 {
     Console.WriteLine($"Font index #{i}");

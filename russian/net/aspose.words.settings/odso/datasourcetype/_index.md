@@ -1,14 +1,14 @@
 ---
 title: Odso.DataSourceType
 second_title: Справочник по API Aspose.Words для .NET
-description: Odso свойство. Указывает тип внешнего источника данных к которому необходимо подключиться как часть информации о подключении ODSO для этого слияния. Значение по умолчаниюDefault .
+description: Odso свойство. Указывает тип внешнего источника данных к которому необходимо подключиться как часть информации о соединении ODSO для этого слияния почты. Значение по умолчаниюDefault .
 type: docs
 weight: 40
 url: /ru/net/aspose.words.settings/odso/datasourcetype/
 ---
 ## Odso.DataSourceType property
 
-Указывает тип внешнего источника данных, к которому необходимо подключиться, как часть информации о подключении ODSO для этого слияния. Значение по умолчанию:Default .
+Указывает тип внешнего источника данных, к которому необходимо подключиться, как часть информации о соединении ODSO для этого слияния почты. Значение по умолчанию:Default .
 
 ```csharp
 public OdsoDataSourceType DataSourceType { get; set; }
@@ -16,7 +16,7 @@ public OdsoDataSourceType DataSourceType { get; set; }
 
 ### Примечания
 
-Этот параметр является всего лишь предложением типа источника данных, который используется для этого слияния.
+Этот параметр представляет собой всего лишь вариант типа источника данных, который используется для этого слияния почты.
 
 ### Примеры
 
@@ -33,7 +33,7 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// Создаем источник данных в виде ASCII-файла с символом "|" персонаж
+// Создаем источник данных в виде ASCII-файла с символом "|" характер
 // действует как разделитель, разделяющий столбцы. Первая строка содержит имена трех столбцов,
 // и каждая последующая строка представляет собой строку с соответствующими значениями.
 string[] lines = { "FirstName|LastName|Message",
@@ -63,7 +63,7 @@ odso.FirstRowContainsColumnNames = true;
 Assert.AreNotSame(odso, odso.Clone());
 Assert.AreNotSame(settings, settings.Clone());
 
-// Открытие этого документа в Microsoft Word приведет к выполнению слияния перед отображением содержимого. 
+ // Открытие этого документа в Microsoft Word приведет к выполнению слияния почты перед отображением содержимого.
 doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ```
 

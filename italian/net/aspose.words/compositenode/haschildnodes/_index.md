@@ -1,14 +1,14 @@
 ---
 title: CompositeNode.HasChildNodes
 second_title: Aspose.Words per .NET API Reference
-description: CompositeNode proprietà. Restituisce true se questo nodo ha nodi figlio.
+description: CompositeNode proprietà. RestituisceVERO se questo nodo ha nodi figli.
 type: docs
-weight: 40
+weight: 30
 url: /it/net/aspose.words/compositenode/haschildnodes/
 ---
 ## CompositeNode.HasChildNodes property
 
-Restituisce true se questo nodo ha nodi figlio.
+Restituisce`VERO` se questo nodo ha nodi figli.
 
 ```csharp
 public bool HasChildNodes { get; }
@@ -28,11 +28,11 @@ Table firstTable = doc.FirstSection.Body.Tables[0];
 // 2 - Utilizzando il metodo "GetChild":
 Table secondTable = (Table)doc.GetChild(NodeType.Table, 1, true);
 
-// Aggiunge tutte le righe dalla tabella corrente alla successiva.
+// Aggiunge tutte le righe della tabella corrente a quella successiva.
 while (secondTable.HasChildNodes)
     firstTable.Rows.Add(secondTable.FirstRow);
 
-// Rimuove il contenitore della tabella vuoto.
+// Rimuove il contenitore della tabella vuota.
 secondTable.Remove();
 
 doc.Save(ArtifactsDir + "Table.CombineTables.docx");

@@ -1,14 +1,14 @@
 ---
 title: RtfSaveOptions.SaveImagesAsWmf
 second_title: Aspose.Words för .NET API Referens
-description: RtfSaveOptions fast egendom. När sant kommer alla bilder att sparas som WMF.
+description: RtfSaveOptions fast egendom. NärSann alla bilder kommer att sparas som WMF.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.saving/rtfsaveoptions/saveimagesaswmf/
 ---
 ## RtfSaveOptions.SaveImagesAsWmf property
 
-När sant kommer alla bilder att sparas som WMF.
+När`Sann` alla bilder kommer att sparas som WMF.
 
 ```csharp
 public bool SaveImagesAsWmf { get; set; }

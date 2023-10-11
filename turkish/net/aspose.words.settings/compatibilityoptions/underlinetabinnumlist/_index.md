@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.UnderlineTabInNumList
 second_title: Aspose.Words for .NET API Referansı
-description: CompatibilityOptions mülk. Numaralandırmadan Sonra Karakterin Altını Çizin.
+description: CompatibilityOptions mülk. Alt Çizgi Takip Karakteri Takip Numaralandırma.
 type: docs
 weight: 590
 url: /tr/net/aspose.words.settings/compatibilityoptions/underlinetabinnumlist/
 ---
 ## CompatibilityOptions.UnderlineTabInNumList property
 
-Numaralandırmadan Sonra Karakterin Altını Çizin.
+Alt Çizgi Takip Karakteri Takip Numaralandırma.
 
 ```csharp
 public bool UnderlineTabInNumList { get; set; }

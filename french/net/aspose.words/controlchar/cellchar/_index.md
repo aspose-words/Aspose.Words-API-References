@@ -1,14 +1,14 @@
 ---
 title: ControlChar.CellChar
 second_title: Référence de l'API Aspose.Words pour .NET
-description: ControlChar champ. Caractère de fin de cellule de tableau ou de fin de ligne de tableau  char7 ou a.
+description: ControlChar champ. Fin dune cellule de tableau ou fin dune ligne de tableau  char7 ou a.
 type: docs
 weight: 20
 url: /fr/net/aspose.words/controlchar/cellchar/
 ---
 ## ControlChar.CellChar field
 
-Caractère de fin de cellule de tableau ou de fin de ligne de tableau : (char)7 ou "\a".
+Fin d'une cellule de tableau ou fin d'une ligne de tableau : (char)7 ou "\a".
 
 ```csharp
 public const char CellChar;
@@ -22,7 +22,7 @@ Montre comment ajouter divers caractères de contrôle à un document.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Ajoute un espace normal.
+// Ajoute un espace régulier.
 builder.Write("Before space." + ControlChar.SpaceChar + "After space.");
 
 // Ajoutez un NBSP, qui est un espace insécable.
@@ -46,11 +46,11 @@ Assert.AreEqual(ControlChar.LineFeed, ControlChar.Lf);
 // Les retours chariot et les sauts de ligne peuvent être représentés ensemble par un seul caractère.
 Assert.AreEqual(ControlChar.CrLf, ControlChar.Cr + ControlChar.Lf);
 
-// Ajoute un saut de paragraphe, qui commencera un nouveau paragraphe.
+// Ajoute un saut de paragraphe, qui démarrera un nouveau paragraphe.
 builder.Write("Before paragraph break." + ControlChar.ParagraphBreak + "After paragraph break.");
 Assert.AreEqual(3, doc.FirstSection.Body.GetChildNodes(NodeType.Paragraph, true).Count);
 
-// Ajoute un saut de section. Cela ne crée pas une nouvelle section ou un nouveau paragraphe.
+// Ajout d'un saut de section. Cela ne crée pas une nouvelle section ou un nouveau paragraphe.
 Assert.AreEqual(1, doc.Sections.Count);
 builder.Write("Before section break." + ControlChar.SectionBreak + "After section break.");
 Assert.AreEqual(1, doc.Sections.Count);
@@ -71,7 +71,7 @@ builder.Write("Text at end of column 1." + ControlChar.ColumnBreak + "Text at be
 
 doc.Save(ArtifactsDir + "ControlChar.InsertControlChars.docx");
 
-// Il existe des équivalents char et string pour la plupart des caractères.
+// Il existe des équivalents char et chaîne pour la plupart des caractères.
 Assert.AreEqual(Convert.ToChar(ControlChar.Cell), ControlChar.CellChar);
 Assert.AreEqual(Convert.ToChar(ControlChar.NonBreakingSpace), ControlChar.NonBreakingSpaceChar);
 Assert.AreEqual(Convert.ToChar(ControlChar.Tab), ControlChar.TabChar);

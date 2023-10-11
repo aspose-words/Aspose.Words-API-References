@@ -1,14 +1,16 @@
 ---
 title: Class CustomXmlProperty
 second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Markup.CustomXmlProperty sınıf. Tek bir özel XML özniteliğini veya bir akıllı etiket özelliğini temsil eder.
+description: Aspose.Words.Markup.CustomXmlProperty sınıf. Tek bir özel XML niteliğini veya akıllı etiket özelliğini temsil eder.
 type: docs
-weight: 3700
+weight: 3940
 url: /tr/net/aspose.words.markup/customxmlproperty/
 ---
 ## CustomXmlProperty class
 
-Tek bir özel XML özniteliğini veya bir akıllı etiket özelliğini temsil eder.
+Tek bir özel XML niteliğini veya akıllı etiket özelliğini temsil eder.
+
+Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Yapılandırılmış Belge Etiketleri veya İçerik Kontrolü](https://docs.aspose.com/words/net/working-with-content-control-sdt/) dokümantasyon makalesi.
 
 ```csharp
 public class CustomXmlProperty
@@ -24,13 +26,13 @@ public class CustomXmlProperty
 
 | İsim | Tanım |
 | --- | --- |
-| [Name](../../aspose.words.markup/customxmlproperty/name/) { get; } | Özel XML özniteliğinin veya akıllı etiket özelliğinin adını belirtir. |
+| [Name](../../aspose.words.markup/customxmlproperty/name/) { get; } | Özel XML niteliğinin veya akıllı etiket özelliğinin adını belirtir. |
 | [Uri](../../aspose.words.markup/customxmlproperty/uri/) { get; set; } | Özel XML özniteliğinin veya akıllı etiket özelliğinin ad alanı URI'sini alır veya ayarlar. |
 | [Value](../../aspose.words.markup/customxmlproperty/value/) { get; set; } | Özel XML özniteliğinin veya akıllı etiket özelliğinin değerini alır veya ayarlar. |
 
 ### Notlar
 
-Bir öğe olarak kullanılır[`CustomXmlPropertyCollection`](../customxmlpropertycollection/) Toplamak.
+Bir eşya olarak kullanılır[`CustomXmlPropertyCollection`](../customxmlpropertycollection/) Toplamak.
 
 ### Örnekler
 
@@ -41,19 +43,19 @@ public void Create()
 {
     Document doc = new Document();
 
-    // Microsoft Word ile bir belgede bir akıllı etiket görünür, metninin bir bölümünü bir tür veri olarak tanır,
+    // Microsoft Word'ün metnin bir bölümünü bir tür veri olarak tanıdığı bir belgede akıllı etiket görünür,
     // ad, tarih veya adres gibi ve onu mor noktalı alt çizgi görüntüleyen bir köprüye dönüştürür.
     SmartTag smartTag = new SmartTag(doc);
 
-    // Akıllı etiketler, tanınan metinlerini bütünüyle içeren bileşik düğümlerdir.
-    // Bu akıllı etikete manuel olarak içerik ekleyin.
+    // Akıllı etiketler, tanınan metnin tamamını içeren bileşik düğümlerdir.
+    // İçeriği bu akıllı etikete manuel olarak ekleyin.
     smartTag.AppendChild(new Run(doc, "May 29, 2019"));
 
-    // Microsoft Word, yukarıdaki içeriği bir tarih olarak tanıyabilir.
-    // Akıllı etiketler, içerdikleri veri türünü yansıtmak için "Element" özelliğini kullanır.
+    // Microsoft Word yukarıdaki içerikleri tarih olarak tanıyabilir.
+    // Akıllı etiketler içerdikleri veri türünü yansıtmak için "Element" özelliğini kullanır.
     smartTag.Element = "date";
 
-    // Bazı akıllı etiket türleri, içeriklerini daha fazla özel XML özelliklerine işler.
+    // Bazı akıllı etiket türleri, içeriklerini özel XML özelliklerine göre işler.
     smartTag.Properties.Add(new CustomXmlProperty("Day", string.Empty, "29"));
     smartTag.Properties.Add(new CustomXmlProperty("Month", string.Empty, "5"));
     smartTag.Properties.Add(new CustomXmlProperty("Year", string.Empty, "2019"));
@@ -64,7 +66,7 @@ public void Create()
     doc.FirstSection.Body.FirstParagraph.AppendChild(smartTag);
     doc.FirstSection.Body.FirstParagraph.AppendChild(new Run(doc, " is a date. "));
 
-    // Bir hisse senedi için başka bir akıllı etiket oluşturun.
+    // Hisse senedi takip cihazı için başka bir akıllı etiket oluşturun.
     smartTag = new SmartTag(doc);
     smartTag.Element = "stockticker";
     smartTag.Uri = "urn:schemas-microsoft-com:office:smarttags";
@@ -80,7 +82,7 @@ public void Create()
     // Microsoft Word'ün eski sürümleri akıllı etiketleri destekler.
     doc.Save(ArtifactsDir + "SmartTag.Create.doc");
 
-    // Bir belgeden tüm akıllı etiketleri kaldırmak için "RemoveSmartTags" yöntemini kullanın.
+    // Bir belgedeki tüm akıllı etiketleri kaldırmak için "RemoveSmartTags" yöntemini kullanın.
     Assert.AreEqual(2, doc.GetChildNodes(NodeType.SmartTag, true).Count);
 
     doc.RemoveSmartTags();
@@ -103,7 +105,7 @@ private class SmartTagPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Bir SmartTag düğümünün ziyareti sona erdiğinde çağrılır.
+    /// SmartTag düğümünün ziyareti sonlandırıldığında çağrılır.
     /// </summary>
     public override VisitorAction VisitSmartTagEnd(SmartTag smartTag)
     {

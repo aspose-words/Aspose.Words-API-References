@@ -1,14 +1,14 @@
 ---
 title: ImageSaveOptions.ImageColorMode
 second_title: Справочник по API Aspose.Words для .NET
-description: ImageSaveOptions свойство. Получает или задает цветовой режим для сгенерированных изображений.
+description: ImageSaveOptions свойство. Получает или задает цветовой режим для создаваемых изображений.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.saving/imagesaveoptions/imagecolormode/
 ---
 ## ImageSaveOptions.ImageColorMode property
 
-Получает или задает цветовой режим для сгенерированных изображений.
+Получает или задает цветовой режим для создаваемых изображений.
 
 ```csharp
 public ImageColorMode ImageColorMode { get; set; }
@@ -16,13 +16,13 @@ public ImageColorMode ImageColorMode { get; set; }
 
 ### Примечания
 
-Это свойство действует только при сохранении в форматы растровых изображений.
+Это свойство действует только при сохранении в форматах растровых изображений.
 
-Значение по умолчаниюNone.
+Значение по умолчанию:None.
 
 ### Примеры
 
-Показывает, как установить цветовой режим при отображении документов.
+Показывает, как установить цветовой режим при рендеринге документов.
 
 ```csharp
 Document doc = new Document();
@@ -34,14 +34,14 @@ Document doc = new Document();
 
             Assert.That(20000, Is.LessThan(new FileInfo(ImageDir + "Logo.jpg").Length));
 
-            // Когда мы сохраняем документ как изображение, мы можем передать объект SaveOptions в
-            // выбор цветового режима для изображения, которое будет сгенерировано операцией сохранения.
-            // Если мы установим для свойства "ImageColorMode" значение "ImageColorMode.BlackAndWhite",
-            // операция сохранения применит уменьшение цвета в градациях серого при рендеринге документа.
-             // Если мы установим для свойства "ImageColorMode" значение "ImageColorMode.Grayscale",
+            // Когда мы сохраняем документ как изображение, мы можем передать объект SaveOptions
+            // выбираем цветовой режим для изображения, которое будет создано при сохранении.
+            // Если мы установим для свойства «ImageColorMode» значение «ImageColorMode.BlackAndWhite»,
+            // операция сохранения будет применять уменьшение цвета в оттенках серого при рендеринге документа.
+            // Если мы установим для свойства «ImageColorMode» значение «ImageColorMode.Grayscale»,
             // операция сохранения преобразует документ в монохромное изображение.
-            // Если мы установим для свойства "ImageColorMode" значение "Нет", операция сохранения применит метод по умолчанию
-            // и сохранить все цвета документа в выходном изображении.
+            // Если мы установим для свойства «ImageColorMode» значение «Нет», операция сохранения будет применять метод по умолчанию
+            // и сохраним все цвета документа в выходном изображении.
             ImageSaveOptions imageSaveOptions = new ImageSaveOptions(SaveFormat.Png);
             imageSaveOptions.ImageColorMode = imageColorMode;
 

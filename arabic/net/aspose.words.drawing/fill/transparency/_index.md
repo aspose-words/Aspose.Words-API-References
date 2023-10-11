@@ -1,14 +1,14 @@
 ---
 title: Fill.Transparency
 second_title: Aspose.Words لمراجع .NET API
-description: Fill ملكية. الحصول على درجة شفافية التعبئة المحددة أو تعيينها كقيمة بين 0.0 معتم و 1.0 مسح .
+description: Fill ملكية. الحصول على أو تعيين درجة شفافية التعبئة المحددة كقيمة تتراوح بين 0.0 معتم و1.0 واضح.
 type: docs
-weight: 140
+weight: 200
 url: /ar/net/aspose.words.drawing/fill/transparency/
 ---
 ## Fill.Transparency property
 
-الحصول على درجة شفافية التعبئة المحددة أو تعيينها كقيمة بين 0.0 (معتم) و 1.0 (مسح) .
+الحصول على أو تعيين درجة شفافية التعبئة المحددة كقيمة تتراوح بين 0.0 (معتم) و1.0 (واضح).
 
 ```csharp
 public double Transparency { get; set; }
@@ -16,7 +16,7 @@ public double Transparency { get; set; }
 
 ### ملاحظات
 
-هذه الخاصية هي عكس الممتلكات[`Opacity`](../opacity/).
+هذه الخاصية هي عكس الملكية[`Opacity`](../opacity/).
 
 ### أنظر أيضا
 

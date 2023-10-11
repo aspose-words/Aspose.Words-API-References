@@ -1,14 +1,14 @@
 ---
 title: Enum TextureAlignment
 second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Drawing.TextureAlignment Sıralama. Doku dolgusunun döşenmesi için hizalamayı belirtir.
+description: Aspose.Words.Drawing.TextureAlignment Sıralama. Doku dolgusunun döşemesi için hizalamayı belirtir.
 type: docs
-weight: 1220
+weight: 1370
 url: /tr/net/aspose.words.drawing/texturealignment/
 ---
 ## TextureAlignment enumeration
 
-Doku dolgusunun döşenmesi için hizalamayı belirtir.
+Doku dolgusunun döşemesi için hizalamayı belirtir.
 
 ```csharp
 public enum TextureAlignment
@@ -27,7 +27,7 @@ public enum TextureAlignment
 | BottomLeft | `6` | Sol alt doku hizalaması. |
 | Bottom | `7` | Alt doku hizalaması. |
 | BottomRight | `8` | Sağ alt doku hizalaması. |
-| None | `9` | Doku hizalaması yok. |
+| None | `9` | Hiçbiri doku hizalaması. |
 
 ### Örnekler
 
@@ -43,8 +43,8 @@ Shape shape = builder.InsertShape(ShapeType.Rectangle, 80, 80);
 shape.Fill.PresetTextured(PresetTexture.Canvas);
 shape.Fill.TextureAlignment = TextureAlignment.TopRight;
 
-// "TextureAlignment" almak istiyorsanız DML kullanarak şekli tanımlamak için uyumluluk seçeneğini kullanın
-// belge kaydedildikten sonra özellik.
+// "TextureAlignment" elde etmek istiyorsanız şekli DML kullanarak tanımlamak için uyumluluk seçeneğini kullanın
+// belge kaydedildikten sonraki özellik.
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions { Compliance = OoxmlCompliance.Iso29500_2008_Strict };
 
 doc.Save(ArtifactsDir + "Shape.TextureFill.docx", saveOptions);

@@ -1,14 +1,14 @@
 ---
 title: LoadOptions.Password
 second_title: Aspose.Words für .NET-API-Referenz
-description: LoadOptions eigendom. Ruft das Passwort zum Öffnen eines verschlüsselten Dokuments ab oder legt es fest. Kann null oder eine leere Zeichenfolge sein. Standard ist null.
+description: LoadOptions eigendom. Ruft das Passwort zum Öffnen eines verschlüsselten Dokuments ab oder legt es fest. Kann seinNull oder leere Zeichenfolge. Standard istNull .
 type: docs
 weight: 110
 url: /de/net/aspose.words.loading/loadoptions/password/
 ---
 ## LoadOptions.Password property
 
-Ruft das Passwort zum Öffnen eines verschlüsselten Dokuments ab oder legt es fest. Kann null oder eine leere Zeichenfolge sein. Standard ist null.
+Ruft das Passwort zum Öffnen eines verschlüsselten Dokuments ab oder legt es fest. Kann sein`Null` oder leere Zeichenfolge. Standard ist`Null` .
 
 ```csharp
 public string Password { get; set; }
@@ -16,17 +16,17 @@ public string Password { get; set; }
 
 ### Bemerkungen
 
-Sie müssen das Passwort kennen, um ein verschlüsseltes Dokument zu öffnen. Wenn das Dokument nicht verschlüsselt ist, setzen Sie dies auf null oder eine leere Zeichenfolge.
+Sie müssen das Passwort kennen, um ein verschlüsseltes Dokument zu öffnen. Wenn das Dokument nicht verschlüsselt ist, stellen Sie dies auf ein`Null` oder leere Zeichenfolge.
 
 ### Beispiele
 
-Zeigt, wie verschlüsselte Dokumentdateien signiert werden.
+Zeigt, wie eine verschlüsselte Dokumentdatei signiert wird.
 
 ```csharp
 // Erstellen Sie ein X.509-Zertifikat aus einem PKCS#12-Speicher, das einen privaten Schlüssel enthalten sollte.
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw");
 
-// Erstellen Sie einen Kommentar, ein Datum und ein Entschlüsselungspasswort, das mit unserer neuen digitalen Signatur angewendet wird.
+// Erstellen Sie einen Kommentar, ein Datum und ein Entschlüsselungskennwort, das mit unserer neuen digitalen Signatur angewendet wird.
 SignOptions signOptions = new SignOptions
 {
     Comments = "Comment",

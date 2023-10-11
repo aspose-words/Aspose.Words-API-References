@@ -3,7 +3,7 @@ title: Enum ContinuousSectionRestart
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Layout.ContinuousSectionRestart uppräkning. Representerar olika beteenden vid beräkning av sidnummer i ett kontinuerligt avsnitt som startar om sidnumreringen.
 type: docs
-weight: 3100
+weight: 3300
 url: /sv/net/aspose.words.layout/continuoussectionrestart/
 ---
 ## ContinuousSectionRestart enumeration

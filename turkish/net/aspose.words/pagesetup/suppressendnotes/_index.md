@@ -1,14 +1,14 @@
 ---
 title: PageSetup.SuppressEndnotes
 second_title: Aspose.Words for .NET API Referansı
-description: PageSetup mülk. Doğru son notlar bir sonraki bölümün sonunda son notları gizlemeyen yazdırılırsa. Bastırılmış son notlar o bölümdeki son notlardan önce yazdırılır.
+description: PageSetup mülk. Son notlar son notları gizlemeyen bir sonraki bölümün sonunda yazdırılıyorsa doğrudur. Bastırılmış son notlar o bölümdeki son notlardan önce yazdırılır.
 type: docs
-weight: 400
+weight: 410
 url: /tr/net/aspose.words/pagesetup/suppressendnotes/
 ---
 ## PageSetup.SuppressEndnotes property
 
-**Doğru** son notlar, bir sonraki bölümün sonunda, son notları gizlemeyen yazdırılırsa. Bastırılmış son notlar, o bölümdeki son notlardan önce yazdırılır.
+Son notlar, son notları gizlemeyen bir sonraki bölümün sonunda yazdırılıyorsa doğrudur. Bastırılmış son notlar, o bölümdeki son notlardan önce yazdırılır.
 
 ```csharp
 public bool SuppressEndnotes { get; set; }
@@ -19,31 +19,33 @@ public bool SuppressEndnotes { get; set; }
 Her bölümün sonunda son notların nasıl saklanacağını ve konumlarının nasıl değiştirileceğini gösterir.
 
 ```csharp
+public void SuppressEndnotes()
 {
     Document doc = new Document();
     doc.RemoveAllChildren();
 
-     // Varsayılan olarak, bir belge sonunda tüm son notları derler.
+     // Varsayılan olarak bir belge tüm son notları sonunda derler.
     Assert.AreEqual(EndnotePosition.EndOfDocument, doc.EndnoteOptions.Position);
 
     // Belgenin "EndnoteOptions" nesnesinin "Position" özelliğini kullanıyoruz
-     // bunun yerine her bölümün sonunda son notları toplamak için.
+     // bunun yerine her bölümün sonundaki son notları toplamak için.
     doc.EndnoteOptions.Position = EndnotePosition.EndOfSection;
 
     InsertSectionWithEndnote(doc, "Section 1", "Endnote 1, will stay in section 1");
     InsertSectionWithEndnote(doc, "Section 2", "Endnote 2, will be pushed down to section 3");
     InsertSectionWithEndnote(doc, "Section 3", "Endnote 3, will stay in section 3");
 
-    // Bölümleri ilgili son notlarını gösterecek şekilde alırken "SuppressEndnotes" bayrağını ayarlayabiliriz
-    // varsayılan davranışa geri dönmek ve son notlarını iletmek için bir bölümün "PageSetup" nesnesinin "true" değerine
-    // sonraki bölüme geçiyoruz.
+    // İlgili son notlarını gösterecek bölümleri alırken, "Endnotes'ı Bastır" bayrağını ayarlayabiliriz
+    // varsayılan davranışa geri dönmek ve son notlarını iletmek için bir bölümün "PageSetup" nesnesini "true" olarak ayarlayın
+    //sonraki bölüme geçiyoruz.
     PageSetup pageSetup = doc.Sections[1].PageSetup;
     pageSetup.SuppressEndnotes = true;
 
     doc.Save(ArtifactsDir + "PageSetup.SuppressEndnotes.docx");
+}
 
 /// <summary>
-/// Belgeye metin ve son not içeren bir bölüm ekleyin.
+/// Belgeye metin içeren bir bölüm ve son not ekleyin.
 /// </summary>
 private static void InsertSectionWithEndnote(Document doc, string sectionBodyText, string endnoteText)
 {

@@ -36,7 +36,7 @@ doc.Protect(ProtectionType.AllowOnlyFormFields);
 doc.Sections[0].ProtectedForForms = false;
 
 // In diesem Ausgabedokument können wir den ersten Abschnitt frei bearbeiten,
-// und wir können nur den Inhalt des Formularfelds im zweiten Abschnitt bearbeiten.
+// und wir können den Inhalt des Formularfelds nur im zweiten Abschnitt bearbeiten.
 doc.Save(ArtifactsDir + "Section.Protect.docx");
 ```
 

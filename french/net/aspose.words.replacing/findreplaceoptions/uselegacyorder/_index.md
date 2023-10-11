@@ -1,14 +1,14 @@
 ---
 title: FindReplaceOptions.UseLegacyOrder
 second_title: Référence de l'API Aspose.Words pour .NET
-description: FindReplaceOptions propriété. True indique quune recherche de texte est effectuée séquentiellement de haut en bas en tenant compte des zones de texte. La valeur par défaut est false.
+description: FindReplaceOptions propriété. True indique quune recherche de texte est effectuée séquentiellement de haut en bas en tenant compte des zones de texte. La valeur par défaut estFAUX .
 type: docs
-weight: 150
+weight: 170
 url: /fr/net/aspose.words.replacing/findreplaceoptions/uselegacyorder/
 ---
 ## FindReplaceOptions.UseLegacyOrder property
 
-True indique qu'une recherche de texte est effectuée séquentiellement de haut en bas en tenant compte des zones de texte. La valeur par défaut est false.
+True indique qu'une recherche de texte est effectuée séquentiellement de haut en bas en tenant compte des zones de texte. La valeur par défaut est`FAUX` .
 
 ```csharp
 public bool UseLegacyOrder { get; set; }
@@ -16,17 +16,15 @@ public bool UseLegacyOrder { get; set; }
 
 ### Exemples
 
-Montre comment modifier l'ordre de recherche des nœuds lors de l'exécution d'une opération de recherche et de remplacement de texte.
+Montre comment modifier l’ordre de recherche des nœuds lors de l’exécution d’une opération de recherche et de remplacement de texte.
 
 ```csharp
-[TestCase(true)] // ExSaut
-[TestCase(false)] // ExSaut
 public void UseLegacyOrder(bool useLegacyOrder)
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Insérez trois exécutions que nous pouvons rechercher à l'aide d'un modèle regex.
+    // Insère trois exécutions que nous pouvons rechercher à l'aide d'un modèle regex.
     // Placez l'une de ces exécutions dans une zone de texte.
     builder.Writeln("[tag 1]");
     Shape textBox = builder.InsertShape(ShapeType.TextBox, 100, 50);
@@ -37,14 +35,14 @@ public void UseLegacyOrder(bool useLegacyOrder)
     // Nous pouvons utiliser un objet "FindReplaceOptions" pour modifier le processus de recherche et de remplacement.
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // Attribuez un rappel personnalisé à la propriété "ReplacingCallback".
+    // Attribue un rappel personnalisé à la propriété "ReplacingCallback".
     TextReplacementTracker callback = new TextReplacementTracker();
     options.ReplacingCallback = callback;
 
-    // Si nous définissons la propriété "UseLegacyOrder" sur "true", le
-    // L'opération de recherche et de remplacement passera par toutes les exécutions en dehors d'une zone de texte
-    // avant de passer par ceux à l'intérieur d'une zone de texte.
-    // Si nous définissons la propriété "UseLegacyOrder" sur "false", le
+    // Si nous définissons la propriété "UseLegacyOrder" à "true", le
+    // L'opération de recherche et de remplacement parcourra toutes les exécutions en dehors d'une zone de texte
+    // avant de passer en revue ceux qui se trouvent à l'intérieur d'une zone de texte.
+    // Si on fixe la propriété "UseLegacyOrder" à "false", le
     // L'opération de recherche et de remplacement parcourra toutes les exécutions d'une plage dans un ordre séquentiel.
     options.UseLegacyOrder = useLegacyOrder;
 

@@ -3,7 +3,7 @@ title: Stroke.Color2
 second_title: Aspose.Words för .NET API Referens
 description: Stroke fast egendom. Definierar en andra färg för en linje.
 type: docs
-weight: 30
+weight: 40
 url: /sv/net/aspose.words.drawing/stroke/color2/
 ---
 ## Stroke.Color2 property

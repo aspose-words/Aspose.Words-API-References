@@ -1,14 +1,16 @@
 ---
 title: Class ResourceSavingArgs
 second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Saving.ResourceSavingArgs sınıf. için veri sağlarResourceSaving olay.
+description: Aspose.Words.Saving.ResourceSavingArgs sınıf. Şunun için veri sağlarResourceSaving olay.
 type: docs
-weight: 5280
+weight: 5560
 url: /tr/net/aspose.words.saving/resourcesavingargs/
 ---
 ## ResourceSavingArgs class
 
-için veri sağlar[`ResourceSaving`](../iresourcesavingcallback/resourcesaving/) olay.
+Şunun için veri sağlar:[`ResourceSaving`](../iresourcesavingcallback/resourcesaving/) olay.
+
+Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Bir Belgeyi Kaydet](https://docs.aspose.com/words/net/save-a-document/) dokümantasyon makalesi.
 
 ```csharp
 public class ResourceSavingArgs
@@ -19,24 +21,24 @@ public class ResourceSavingArgs
 | İsim | Tanım |
 | --- | --- |
 | [Document](../../aspose.words.saving/resourcesavingargs/document/) { get; } | Şu anda kaydedilmekte olan belge nesnesini alır. |
-| [KeepResourceStreamOpen](../../aspose.words.saving/resourcesavingargs/keepresourcestreamopen/) { get; set; } | Aspose.Words'ün bir kaynağı kaydettikten sonra akışı açık tutması mı yoksa kapatması mı gerektiğini belirtir. |
+| [KeepResourceStreamOpen](../../aspose.words.saving/resourcesavingargs/keepresourcestreamopen/) { get; set; } | Aspose.Words'ün kaynağı kaydettikten sonra akışı açık mı tutması yoksa kapatması mı gerektiğini belirtir. |
 | [ResourceFileName](../../aspose.words.saving/resourcesavingargs/resourcefilename/) { get; set; } | Kaynağın kaydedileceği dosya adını (yol olmadan) alır veya ayarlar. |
-| [ResourceFileUri](../../aspose.words.saving/resourcesavingargs/resourcefileuri/) { get; set; } | Belgeden kaynak dosyasına başvurmak için kullanılan tek tip kaynak tanımlayıcısını (URI) alır veya ayarlar. |
+| [ResourceFileUri](../../aspose.words.saving/resourcesavingargs/resourcefileuri/) { get; set; } | Belgedeki kaynak dosyasına başvuruda bulunmak için kullanılan tek tip kaynak tanımlayıcıyı (URI) alır veya ayarlar. |
 | [ResourceStream](../../aspose.words.saving/resourcesavingargs/resourcestream/) { get; set; } | Kaynağın kaydedileceği akışı belirtmeye izin verir. |
 
 ### Notlar
 
-Varsayılan olarak Aspose.Words bir belgeyi sabit sayfa HTML veya SVG'ye kaydettiğinde, her kaynağı ayrı bir dosyasına kaydeder. Aspose.Words, belgede bulunan her kaynak için benzersiz dosya adı oluşturmak için belge dosya adını ve benzersiz bir numarayı kullanır.
+Varsayılan olarak Aspose.Words bir belgeyi sabit sayfa HTML'sine veya SVG'ye kaydettiğinde, her kaynağı ayrı bir dosyaya kaydeder. Aspose.Words, belgede bulunan her kaynak için benzersiz bir dosya adı oluşturmak amacıyla belge dosya adını ve benzersiz bir numarayı kullanır.
 
-`ResourceSavingArgs` kaynak dosya adlarının nasıl oluşturulacağını yeniden tanımlamanıza veya kendi akış nesnelerinizi sağlayarak kaynakların dosyalara kaydedilmesini tamamen engellemenize olanak tanır.
+`ResourceSavingArgs` kaynak dosyası adlarının nasıl oluşturulduğunu yeniden tanımlamanıza veya kendi akış nesnelerinizi sağlayarak kaynakların dosyalara kaydedilmesini tamamen engellemenize olanak tanır.
 
-Kaynak dosya adları oluşturmak üzere kendi mantığınızı uygulamak için [`ResourceFileName`](./resourcefilename/) Emlak.
+Kaynak dosya adlarını oluşturmak için kendi mantığınızı uygulamak için kullanın[`ResourceFileName`](./resourcefilename/) mülk.
 
-Kaynakları dosyalar yerine akışlara kaydetmek için[`ResourceStream`](./resourcestream/) Emlak.
+Kaynakları dosyalar yerine akışlara kaydetmek için[`ResourceStream`](./resourcestream/) mülk.
 
 ### Örnekler
 
-Bir belgeyi HTML'ye dönüştürürken oluşturulan harici kaynakları izlemek için bir geri aramanın nasıl kullanılacağını gösterir.
+Bir belgeyi HTML'ye dönüştürürken oluşturulan harici kaynakları izlemek için geri aramanın nasıl kullanılacağını gösterir.
 
 ```csharp
 public void ResourceSavingCallback()
@@ -58,7 +60,7 @@ public void ResourceSavingCallback()
 private class FontSavingCallback : IResourceSavingCallback
 {
     /// <summary>
-    /// Aspose.Words harici bir kaynağı sabit sayfa HTML veya SVG'ye kaydettiğinde çağrılır.
+    /// Aspose.Words harici bir kaynağı sabit sayfa HTML'sine veya SVG'ye kaydettiğinde çağrılır.
     /// </summary>
     public void ResourceSaving(ResourceSavingArgs args)
     {

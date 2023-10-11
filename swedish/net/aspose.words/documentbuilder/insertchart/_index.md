@@ -3,7 +3,7 @@ title: DocumentBuilder.InsertChart
 second_title: Aspose.Words för .NET API Referens
 description: DocumentBuilder metod. Infogar ett diagramobjekt i dokumentet och skalar det till angiven storlek.
 type: docs
-weight: 260
+weight: 280
 url: /sv/net/aspose.words/documentbuilder/insertchart/
 ---
 ## InsertChart(ChartType, double, double) {#insertchart_1}
@@ -38,6 +38,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 Chart chart = builder.InsertChart(ChartType.Pie, ConvertUtil.PixelToPoint(300), 
     ConvertUtil.PixelToPoint(300)).Chart;
+chart.Series.Clear();
 chart.Series.Add("My fruit",
     new[] { "Apples", "Bananas", "Cherries" },
     new[] { 1.3, 2.2, 1.5 });

@@ -3,7 +3,7 @@ title: CellFormat.Width
 second_title: Référence de l'API Aspose.Words pour .NET
 description: CellFormat propriété. Obtient la largeur de la cellule en points.
 type: docs
-weight: 130
+weight: 140
 url: /fr/net/aspose.words.tables/cellformat/width/
 ---
 ## CellFormat.Width property
@@ -18,11 +18,11 @@ public double Width { get; set; }
 
 La largeur est calculée par Aspose.Words lors du chargement et de l'enregistrement du document. Actuellement, toutes les combinaisons de propriétés de tableau, de cellule et de document ne sont pas prises en charge. La valeur renvoyée peut ne pas être exacte pour certains documents. Elle peut ne pas correspondre exactement à la largeur de cellule calculée par MS Word lorsque le document est ouvert dans MS Word.
 
-La définition de cette propriété n'est pas recommandée. Il n'y a aucune garantie que la cellule aura réellement la largeur définie. La largeur peut être ajustée pour s'adapter au contenu de la cellule dans une disposition de tableau à ajustement automatique. Les cellules des autres lignes peuvent avoir une largeur conflictuelle settings. Le tableau peut être redimensionné pour tenir dans le conteneur ou pour respecter les paramètres de largeur du tableau. Envisagez d'utiliser[`PreferredWidth`](../preferredwidth/) pour définir la largeur de la cellule. La définition de cette propriété définit[`PreferredWidth`](../preferredwidth/)implicitement depuis la version 15.8.
+La définition de cette propriété n'est pas recommandée. Il n'y a aucune garantie que la cellule aura réellement la largeur définie. La largeur peut être ajustée pour s'adapter au contenu de la cellule dans une disposition de tableau à ajustement automatique. Les cellules des autres lignes peuvent avoir une largeur conflictuelle settings. Le tableau peut être redimensionné pour s'adapter au conteneur ou pour répondre aux paramètres de largeur du tableau. Envisagez d'utiliser[`PreferredWidth`](../preferredwidth/) pour définir la largeur de la cellule. Définir ces jeux de propriétés[`PreferredWidth`](../preferredwidth/)implicitement depuis la version 15.8.
 
 ### Exemples
 
-Montre comment formater des cellules avec un générateur de document.
+Montre comment formater des cellules avec un générateur de documents.
 
 ```csharp
 Document doc = new Document();
@@ -32,8 +32,8 @@ Table table = builder.StartTable();
 builder.InsertCell();
 builder.Write("Row 1, cell 1.");
 
-// Insérez une deuxième cellule, puis configurez les options de remplissage du texte de la cellule.
-// Le générateur appliquera ces paramètres à sa cellule actuelle et à toutes les nouvelles cellules créées par la suite.
+// Insère une deuxième cellule, puis configure les options de remplissage du texte des cellules.
+// Le générateur appliquera ces paramètres à sa cellule actuelle, et toutes les nouvelles cellules créées par la suite.
 builder.InsertCell();
 
 CellFormat cellFormat = builder.CellFormat;
@@ -47,7 +47,7 @@ builder.Write("Row 1, cell 2.");
 builder.EndRow();
 builder.EndTable();
 
-// La première cellule n'a pas été affectée par la reconfiguration du rembourrage et contient toujours les valeurs par défaut.
+// La première cellule n'a pas été affectée par la reconfiguration du remplissage et contient toujours les valeurs par défaut.
 Assert.AreEqual(0.0d, table.FirstRow.Cells[0].CellFormat.Width);
 Assert.AreEqual(5.4d, table.FirstRow.Cells[0].CellFormat.LeftPadding);
 Assert.AreEqual(5.4d, table.FirstRow.Cells[0].CellFormat.RightPadding);
@@ -60,7 +60,7 @@ Assert.AreEqual(30.0d, table.FirstRow.Cells[1].CellFormat.RightPadding);
 Assert.AreEqual(30.0d, table.FirstRow.Cells[1].CellFormat.TopPadding);
 Assert.AreEqual(30.0d, table.FirstRow.Cells[1].CellFormat.BottomPadding);
 
-// La première cellule grandira toujours dans le document de sortie pour correspondre à la taille de sa cellule voisine.
+// La première cellule continuera à s'agrandir dans le document de sortie pour correspondre à la taille de sa cellule voisine.
 doc.Save(ArtifactsDir + "DocumentBuilder.SetCellFormatting.docx");
 ```
 
@@ -72,7 +72,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.StartTable();
 
-// Définition des options de formatage de tableau pour un générateur de document
+// Définition des options de formatage de tableau pour un générateur de documents
 // les appliquera à chaque ligne et cellule que nous ajouterons avec.
 builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
@@ -96,8 +96,8 @@ builder.InsertCell();
 builder.Write("Row 1, Col 2");
 builder.EndRow();
 
-// Changer la mise en forme l'appliquera à la cellule courante,
-// et toutes les nouvelles cellules que nous créons avec le constructeur par la suite.
+// Changer le formatage l'appliquera à la cellule actuelle,
+// et toutes les nouvelles cellules que nous créons ensuite avec le constructeur.
 // Cela n'affectera pas les cellules que nous avons ajoutées précédemment.
 builder.CellFormat.Shading.ClearFormatting();
 
@@ -109,7 +109,7 @@ builder.Write("Row 2, Col 2");
 
 builder.EndRow();
 
-// Augmente la hauteur de ligne pour s'adapter au texte vertical.
+// Augmente la hauteur de la ligne pour l'adapter au texte vertical.
 builder.InsertCell();
 builder.RowFormat.Height = 150;
 builder.CellFormat.Orientation = TextOrientation.Upward;

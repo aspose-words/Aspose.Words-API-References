@@ -16,7 +16,7 @@ public bool UseUmAlQuraCalendar { get; set; }
 
 ### Örnekler
 
-Belgenin oluşturulma tarihini/saatini görüntülemek için OLUŞTURMA TARİHİ alanının nasıl kullanılacağını gösterir.
+Belgenin oluşturulma tarihini/saatini görüntülemek için CREATEDATE alanının nasıl kullanılacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
@@ -24,8 +24,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.MoveToDocumentEnd();
 builder.Writeln(" Date this document was created:");
 
-// Belgenin oluşturulduğu tarih ve saati görüntülemek için CREATEDATE alanını kullanabiliriz.
-// Aşağıda, CREATEDATE alanının tarih/saati gösterebileceği üç farklı takvim türü bulunmaktadır.
+// Belgenin oluşturulma tarihini ve saatini görüntülemek için CREATEDATE alanını kullanabiliriz.
+// Aşağıda CREATEDATE alanının tarih/saati görüntüleyebileceği üç farklı takvim türü bulunmaktadır.
 // 1 - İslami Ay Takvimi:
 builder.Write("According to the Lunar Calendar - ");
 FieldCreateDate field = (FieldCreateDate)builder.InsertField(FieldType.FieldCreateDate, true);

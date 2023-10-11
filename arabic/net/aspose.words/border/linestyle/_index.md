@@ -1,14 +1,14 @@
 ---
 title: Border.LineStyle
 second_title: Aspose.Words لمراجع .NET API
-description: Border ملكية. الحصول على نمط الحدود أو تعيينه .
+description: Border ملكية. الحصول على نمط الحدود أو تعيينه.
 type: docs
 weight: 40
 url: /ar/net/aspose.words/border/linestyle/
 ---
 ## Border.LineStyle property
 
-الحصول على نمط الحدود أو تعيينه .
+الحصول على نمط الحدود أو تعيينه.
 
 ```csharp
 public LineStyle LineStyle { get; set; }
@@ -16,11 +16,11 @@ public LineStyle LineStyle { get; set; }
 
 ### ملاحظات
 
-إذا قمت بتعيين نمط الخط إلى لا شيء ، فسيتم تغيير عرض الخط تلقائيًا إلى صفر.
+إذا قمت بتعيين نمط الخط على لا شيء، فسيتم تغيير عرض الخط تلقائيًا إلى صفر.
 
 ### أمثلة
 
-يوضح كيفية إدراج سلسلة محاطة بحد في المستند.
+يوضح كيفية إدراج سلسلة محاطة بحد في مستند.
 
 ```csharp
 Document doc = new Document();

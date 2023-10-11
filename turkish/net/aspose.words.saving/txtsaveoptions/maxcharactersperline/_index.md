@@ -25,7 +25,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Write("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. " +
               "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.");
 
-// Bir satır için izin verilen maksimum karakter olarak 30 karakter ayarlayın.
+// Bir satır başına izin verilen maksimum karakter sayısı olarak 30 karakter ayarlayın.
 TxtSaveOptions saveOptions = new TxtSaveOptions { MaxCharactersPerLine = 30 };
 
 doc.Save(ArtifactsDir + "TxtSaveOptions.MaxCharactersPerLine.txt", saveOptions);

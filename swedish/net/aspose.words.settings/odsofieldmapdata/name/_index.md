@@ -1,14 +1,14 @@
 ---
 title: OdsoFieldMapData.Name
 second_title: Aspose.Words för .NET API Referens
-description: OdsoFieldMapData fast egendom. Anger kolumnnamnet inom en extern datakälla för kolumnen vars index anges avColumn property. Standardvärdet är en tom sträng.
+description: OdsoFieldMapData fast egendom. Anger kolumnnamnet inom en extern datakälla för kolumnen vars index anges avColumnproperty. Standardvärdet är en tom sträng.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.settings/odsofieldmapdata/name/
 ---
 ## OdsoFieldMapData.Name property
 
-Anger kolumnnamnet inom en extern datakälla för kolumnen vars index anges av[`Column`](../column/) property. Standardvärdet är en tom sträng.
+Anger kolumnnamnet inom en extern datakälla för kolumnen vars index anges av[`Column`](../column/)property. Standardvärdet är en tom sträng.
 
 ```csharp
 public string Name { get; set; }

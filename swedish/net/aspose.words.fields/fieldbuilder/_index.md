@@ -3,12 +3,14 @@ title: Class FieldBuilder
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Fields.FieldBuilder klass. Bygger ett fält från fältkodtokens argument och switchar.
 type: docs
-weight: 1510
+weight: 1660
 url: /sv/net/aspose.words.fields/fieldbuilder/
 ---
 ## FieldBuilder class
 
 Bygger ett fält från fältkodtokens (argument och switchar).
+
+För att lära dig mer, besök[Arbeta med Fields](https://docs.aspose.com/words/net/working-with-fields/) dokumentationsartikel.
 
 ```csharp
 public class FieldBuilder
@@ -99,7 +101,7 @@ falseOutput.AddField(leftExpression);
 falseOutput.AddNode(new Run(doc, " does not equal "));
 falseOutput.AddField(rightExpression);
 
-  // Slutligen kommer vi att skapa ytterligare en fältbyggare för IF-fältet och kombinera alla uttryck.
+ // Slutligen kommer vi att skapa ytterligare en fältbyggare för IF-fältet och kombinera alla uttryck.
 builder = new FieldBuilder(FieldType.FieldIf);
 builder.AddArgument(leftExpression);
 builder.AddArgument("=");

@@ -1,14 +1,14 @@
 ---
 title: Interface IResourceLoadingCallback
 second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Loading.IResourceLoadingCallback 界面. 如果您想控制 Aspose.Words 在 导入文档并使用插入图像时如何加载外部资源请实现此接口DocumentBuilder.
+description: Aspose.Words.Loading.IResourceLoadingCallback 界面. 如果您想控制 Aspose.Words 在 导入文档并插入图像时如何加载外部资源请实现此接口DocumentBuilder.
 type: docs
-weight: 3440
+weight: 3640
 url: /zh/net/aspose.words.loading/iresourceloadingcallback/
 ---
 ## IResourceLoadingCallback interface
 
-如果您想控制 Aspose.Words 在 导入文档并使用插入图像时如何加载外部资源，请实现此接口[`DocumentBuilder`](../../aspose.words/documentbuilder/).
+如果您想控制 Aspose.Words 在 导入文档并插入图像时如何加载外部资源，请实现此接口[`DocumentBuilder`](../../aspose.words/documentbuilder/).
 
 ```csharp
 public interface IResourceLoadingCallback
@@ -18,21 +18,22 @@ public interface IResourceLoadingCallback
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ResourceLoading](../../aspose.words.loading/iresourceloadingcallback/resourceloading/)(ResourceLoadingArgs) | 在 Aspose.Words 加载任何外部资源时调用。 |
+| [ResourceLoading](../../aspose.words.loading/iresourceloadingcallback/resourceloading/)(ResourceLoadingArgs) | Aspose.Words 加载任何外部资源时调用。 |
 
 ### 例子
 
-展示如何自定义将外部资源加载到文档中的过程。
+演示如何自定义将外部资源加载到文档中的过程。
 
 ```csharp
+public void ResourceLoadingCallback()
 {
     Document doc = new Document();
     doc.ResourceLoadingCallback = new ImageNameHandler();
 
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // 通常使用 URI 或字节数组插入图像。
-    // 每个资源加载实例都会调用我们回调的 ResourceLoading 方法。
+    // 图像通常使用 URI 或字节数组插入。
+    // 资源加载的每个实例都会调用回调的 ResourceLoading 方法。
     builder.InsertImage("Google logo");
     builder.InsertImage("Aspose logo");
     builder.InsertImage("Watermark");
@@ -40,17 +41,18 @@ public interface IResourceLoadingCallback
     Assert.AreEqual(3, doc.GetChildNodes(NodeType.Shape, true).Count);
 
     doc.Save(ArtifactsDir + "DocumentBase.ResourceLoadingCallback.docx");
+}
 
 /// <summary>
-/// 允许我们使用预定义的速记而不是 URI 将图像加载到文档中。
-/// 这会将图像加载逻辑与文档构建的其余部分分开。
+/// 允许我们使用预定义的速记方式（而不是 URI）将图像加载到文档中。
+/// 这会将图像加载逻辑与文档构造的其余部分分开。
 /// </summary>
 private class ImageNameHandler : IResourceLoadingCallback
 {
     public ResourceLoadingAction ResourceLoading(ResourceLoadingArgs args)
     {
-        // 如果此回调在加载图像时遇到图像速记之一，
-        // 它将为每个定义的速记应用唯一的逻辑，而不是将其视为 URI。
+        // 如果此回调在加载图像时遇到图像简写之一，
+        // 它将为每个定义的简写应用独特的逻辑，而不是将其视为 URI。
         if (args.ResourceType == ResourceType.Image)
             switch (args.OriginalUri)
             {

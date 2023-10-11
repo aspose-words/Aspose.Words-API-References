@@ -16,7 +16,7 @@ public Dml3DEffectsRenderingMode Dml3DEffectsRenderingMode { get; set; }
 
 ### Notlar
 
-Varsayılan değerBasic .
+Varsayılan değer:Basic .
 
 ### Ayrıca bakınız
 

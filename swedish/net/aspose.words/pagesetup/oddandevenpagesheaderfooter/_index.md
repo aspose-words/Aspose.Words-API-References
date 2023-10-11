@@ -1,14 +1,14 @@
 ---
 title: PageSetup.OddAndEvenPagesHeaderFooter
 second_title: Aspose.Words för .NET API Referens
-description: PageSetup fast egendom. Sannom dokumentet har olika sidhuvuden och sidfötter för udda och jämna sidor.
+description: PageSetup fast egendom. Sant om dokumentet har olika sidhuvuden och sidfötter för udda och jämna sidor.
 type: docs
-weight: 270
+weight: 280
 url: /sv/net/aspose.words/pagesetup/oddandevenpagesheaderfooter/
 ---
 ## PageSetup.OddAndEvenPagesHeaderFooter property
 
-**Sann**om dokumentet har olika sidhuvuden och sidfötter för udda och jämna sidor.
+Sant om dokumentet har olika sidhuvuden och sidfötter för udda och jämna sidor.
 
 ```csharp
 public bool OddAndEvenPagesHeaderFooter { get; set; }
@@ -56,7 +56,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Nedan finns två typer av sidhuvud/sidfötter.
 // 1 - Den "Primära" sidhuvudet/sidfoten, som visas på varje sida i avsnittet.
-// Vi kan åsidosätta den primära sidhuvudet/sidfoten med en första och en jämn sidhuvud/sidfot.
+ // Vi kan åsidosätta den primära sidhuvudet/sidfoten med en första och en jämn sidhuvud/sidfot.
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 builder.Writeln("Primary header.");
 

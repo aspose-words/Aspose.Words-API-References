@@ -1,14 +1,16 @@
 ---
 title: Class CertificateHolder
 second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.DigitalSignatures.CertificateHolder сорт. Представляет владельца X509Сертификат2 пример.
+description: Aspose.Words.DigitalSignatures.CertificateHolder сорт. Обозначает владельца X509Сертификат2 экземпляр.
 type: docs
-weight: 360
+weight: 370
 url: /ru/net/aspose.words.digitalsignatures/certificateholder/
 ---
 ## CertificateHolder class
 
-Представляет владельца **X509Сертификат2** пример.
+Обозначает владельца **X509Сертификат2** экземпляр.
+
+Чтобы узнать больше, посетите[Работа с цифровыми подписями](https://docs.aspose.com/words/net/working-with-digital-signatures/) статья документации.
 
 ```csharp
 public class CertificateHolder
@@ -18,20 +20,20 @@ public class CertificateHolder
 
 | Имя | Описание |
 | --- | --- |
-| [Certificate](../../aspose.words.digitalsignatures/certificateholder/certificate/) { get; } | Возвращает экземпляр **X509Сертификат2** который содержит закрытые, открытые ключи и цепочку сертификатов. |
+| [Certificate](../../aspose.words.digitalsignatures/certificateholder/certificate/) { get; } | Возвращает экземпляр **X509Сертификат2** который содержит частные, открытые ключи и цепочку сертификатов. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| static [Create](../../aspose.words.digitalsignatures/certificateholder/create/#create)(byte[], SecureString) | Создает объект CertificateHolder, используя массив байтов хранилища PKCS12 и его пароль. |
-| static [Create](../../aspose.words.digitalsignatures/certificateholder/create/#create_1)(byte[], string) | Создает объект CertificateHolder, используя массив байтов хранилища PKCS12 и его пароль. |
-| static [Create](../../aspose.words.digitalsignatures/certificateholder/create/#create_2)(string, string) | Создает объект CertificateHolder, используя путь к хранилищу PKCS12 и его пароль. |
-| static [Create](../../aspose.words.digitalsignatures/certificateholder/create/#create_3)(string, string, string) | Создает объект CertificateHolder, используя путь к хранилищу PKCS12, его пароль и псевдоним, с помощью которого будут найдены закрытый ключ и сертификат. |
+| static [Create](../../aspose.words.digitalsignatures/certificateholder/create/#create)(byte[], SecureString) | Создает`CertificateHolder` объект, использующий массив байтов хранилища PKCS12 и его пароль. |
+| static [Create](../../aspose.words.digitalsignatures/certificateholder/create/#create_1)(byte[], string) | Создает`CertificateHolder` объект, использующий массив байтов хранилища PKCS12 и его пароль. |
+| static [Create](../../aspose.words.digitalsignatures/certificateholder/create/#create_2)(string, string) | Создает`CertificateHolder` объект, используя путь к хранилищу PKCS12 и его пароль. |
+| static [Create](../../aspose.words.digitalsignatures/certificateholder/create/#create_3)(string, string, string) | Создает`CertificateHolder` объект, используя путь к хранилищу PKCS12, его пароль и псевдоним, по которому будут найдены закрытый ключ и сертификат. |
 
 ### Примечания
 
-**Владелец сертификата** могут быть созданы только статическими фабричными методами. Содержит экземпляр **X509Сертификат2** который используется для введения в систему закрытых, открытых ключей и цепочек сертификатов. Этот класс применяется в[`DigitalSignatureUtil`](../digitalsignatureutil/) а также[`PdfDigitalSignatureDetails`](../../aspose.words.saving/pdfdigitalsignaturedetails/) вместо устаревших методов с X509Certificate2 как параметры.
+`CertificateHolder` может быть создан только статическими фабричными методами. Он содержит экземпляр **X509Сертификат2** который используется для введения в систему частных, открытых ключей и цепочек сертификатов. Этот класс применяется в[`DigitalSignatureUtil`](../digitalsignatureutil/) и[`PdfDigitalSignatureDetails`](../../aspose.words.saving/pdfdigitalsignaturedetails/) вместо устаревших методов с X509Certificate2 в качестве параметров.
 
 ### Примеры
 
@@ -62,15 +64,15 @@ DigitalSignatureUtil.Sign(inputFileName, outputFileName, certificateHolder, sign
 // Создайте сертификат X.509 из хранилища PKCS#12, который должен содержать закрытый ключ.
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw");
 
-// Создайте комментарий и дату, которые будут применяться с нашей новой цифровой подписью.
+// Создаем комментарий и дату, которые будут применяться с нашей новой цифровой подписью.
 SignOptions signOptions = new SignOptions
 {
     Comments = "My comment", 
     SignTime = DateTime.Now
 };
 
-// Берём неподписанный документ из локальной файловой системы через файловый поток,
-// затем создайте его подписанную копию, определяемую именем файла выходного файлового потока.
+// Берем неподписанный документ из локальной файловой системы через файловый поток,
+// затем создаем его подписанную копию, определенную именем файла потока выходного файла.
 using (Stream streamIn = new FileStream(MyDir + "Document.docx", FileMode.Open))
 {
     using (Stream streamOut = new FileStream(ArtifactsDir + "DigitalSignatureUtil.SignDocument.docx", FileMode.OpenOrCreate))
@@ -80,10 +82,11 @@ using (Stream streamIn = new FileStream(MyDir + "Document.docx", FileMode.Open))
 }
 ```
 
-Показывает, как добавить строку подписи в документ, а затем подписать его с помощью цифрового сертификата.
+Показывает, как добавить в документ строку подписи, а затем подписать его с помощью цифрового сертификата.
 
 ```csharp
-public static void Sign()
+[Description("WORDSNET-16868")]
+        public static void Sign()
         {
             string signeeName = "Ron Williams";
             string srcDocumentPath = MyDir + "Document.docx";
@@ -102,7 +105,7 @@ public static void Sign()
         }
 
         /// <summary>
-        /// Создает копию исходного документа, подписанную с использованием предоставленной информации о подписывающей стороне и сертификата X509.
+        /// Создает копию исходного документа, подписанного с использованием предоставленной информации о подписанте и сертификата X509.
         /// </summary>
         private static void SignDocument(string srcDocumentPath, string dstDocumentPath,
             Signee signeeInfo, string certificatePath, string certificatePassword)
@@ -120,7 +123,7 @@ public static void Sign()
             SignatureLine signatureLine = builder.InsertSignatureLine(signatureLineOptions).SignatureLine;
             signatureLine.Id = signeeInfo.PersonId;
 
-            // Во-первых, мы сохраним неподписанную версию нашего документа.
+            // Сначала мы сохраним неподписанную версию нашего документа.
             builder.Document.Save(dstDocumentPath);
 
             CertificateHolder certificateHolder = CertificateHolder.Create(certificatePath, certificatePassword);
@@ -131,7 +134,7 @@ public static void Sign()
                 SignatureLineImage = signeeInfo.Image
             };
 
-            // Перезаписать неподписанный документ, который мы сохранили выше, версией, подписанной с использованием сертификата.
+            // Перезаписываем неподписанный документ, который мы сохранили выше, версией, подписанной с использованием сертификата.
             DigitalSignatureUtil.Sign(dstDocumentPath, dstDocumentPath, certificateHolder, signOptions);
         }
 

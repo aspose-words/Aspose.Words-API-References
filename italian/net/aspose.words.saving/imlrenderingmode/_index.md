@@ -1,14 +1,14 @@
 ---
 title: Enum ImlRenderingMode
 second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Saving.ImlRenderingMode enum. Specifica la modalità di rendering degli oggetti Ink InkML in formati di pagina fissi.
+description: Aspose.Words.Saving.ImlRenderingMode enum. Specifica la modalità di rendering degli oggetti input penna InkML nei formati di pagina fissi.
 type: docs
-weight: 4990
+weight: 5250
 url: /it/net/aspose.words.saving/imlrenderingmode/
 ---
 ## ImlRenderingMode enumeration
 
-Specifica la modalità di rendering degli oggetti Ink (InkML) in formati di pagina fissi.
+Specifica la modalità di rendering degli oggetti input penna (InkML) nei formati di pagina fissi.
 
 ```csharp
 public enum ImlRenderingMode
@@ -18,19 +18,19 @@ public enum ImlRenderingMode
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
-| Fallback | `0` | Se la forma di fallback è disponibile per l'oggetto Ink (InkML), Aspose.Words esegue il rendering della forma di fallback invece di InkML. |
-| InkML | `1` | Aspose.Words ignora l'oggetto della forma di fallback dell'inchiostro (InkML) ed esegue il rendering di InkML stesso. Questa è la modalità predefinita. |
+| Fallback | `0` | Se la forma di fallback è disponibile per l'oggetto ink (InkML), Aspose.Words esegue il rendering della forma di fallback invece di InkML. |
+| InkML | `1` | Aspose.Words ignora la forma di riserva dell'oggetto Ink (InkML) ed esegue il rendering di InkML stesso. Questa è la modalità predefinita. |
 
 ### Esempi
 
-Mostra come eseguire il rendering di un oggetto Ink.
+Mostra come eseguire il rendering dell'oggetto Ink.
 
 ```csharp
 Document doc = new Document(MyDir + "Ink object.docx");
 
-// Imposta 'ImlRenderingMode.InkML' ignora l'oggetto Fallback Shape of Ink (InkML) ed esegue il rendering di InkML stesso.
+// Imposta 'ImlRenderingMode.InkML' ignora la forma fallback dell'oggetto Ink (InkML) ed esegue il rendering di InkML stesso.
 // Se il risultato del rendering non è soddisfacente,
-// usa 'ImlRenderingMode.Fallback' per ottenere un risultato simile alle versioni precedenti.
+// utilizzare 'ImlRenderingMode.Fallback' per ottenere un risultato simile alle versioni precedenti.
 ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.Jpeg)
 {
     ImlRenderingMode = ImlRenderingMode.InkML

@@ -3,7 +3,7 @@ title: DocumentBuilder.MoveToCell
 second_title: Aspose.Words for .NET API Referansı
 description: DocumentBuilder yöntem. İmleci geçerli bölümdeki bir tablo hücresine taşır.
 type: docs
-weight: 480
+weight: 510
 url: /tr/net/aspose.words/documentbuilder/movetocell/
 ---
 ## DocumentBuilder.MoveToCell method
@@ -23,13 +23,13 @@ public void MoveToCell(int tableIndex, int rowIndex, int columnIndex, int charac
 
 ### Notlar
 
-Gezinme, mevcut bölümün mevcut hikayesi içinde gerçekleştirilir.
+Gezinme, geçerli bölümün geçerli öyküsü içinde gerçekleştirilir.
 
-İndeks parametreleri için, indeks 0'dan büyük veya 0'a eşit olduğunda, ilk eleman 0 olmak üzere, başlangıç olan bir indeks belirtir. Dizin 0'dan küçük olduğunda, son öğe olan -1 olmak üzere sondan bir dizin belirledi.
+İndeks parametreleri için, indeks 0'dan büyük veya ona eşit olduğunda, ilk öğe 0 olacak şekilde başlangıç 'den bir indeks belirtir. İndeks 0'dan küçük olduğunda, son öğe -1 olacak şekilde, from dizini belirtilir.
 
 ### Örnekler
 
-Bir belge oluşturucunun imlecinin tablodaki bir hücreye nasıl taşınacağını gösterir.
+Belge oluşturucunun imlecinin tablodaki bir hücreye nasıl taşınacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -44,11 +44,11 @@ builder.InsertCell();
 builder.InsertCell();
 builder.EndTable();
 
-// Tabloyu EndTable yöntemiyle sonlandırdığımız için,
+// EndTable metodu ile tabloyu sonlandırdığımız için,
 // belge oluşturucunun imleci şu anda tablonun dışında.
 // Bu imleç, Microsoft Word'ün yanıp sönen metin imleciyle aynı işleve sahiptir.
 // Oluşturucunun MoveTo yöntemleri kullanılarak belgede farklı bir konuma da taşınabilir.
-// İmleci tablonun içinde belirli bir hücreye taşıyabiliriz.
+// İmleci tablonun içindeki belirli bir hücreye geri taşıyabiliriz.
 builder.MoveToCell(0, 1, 1, 0);
 builder.Write("Column 2, cell 2.");
 

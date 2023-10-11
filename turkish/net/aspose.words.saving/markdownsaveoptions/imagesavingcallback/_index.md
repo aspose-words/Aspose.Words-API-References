@@ -1,14 +1,14 @@
 ---
 title: MarkdownSaveOptions.ImageSavingCallback
 second_title: Aspose.Words for .NET API Referansı
-description: MarkdownSaveOptions mülk. Bir belge konumuna kaydedildiğinde resimlerin nasıl kaydedileceğini kontrol etmenizi sağlarMarkdown biçim.
+description: MarkdownSaveOptions mülk. Bir belge ye kaydedildiğinde görüntülerin nasıl kaydedileceğini kontrol etmenize izin verirMarkdown format.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.saving/markdownsaveoptions/imagesavingcallback/
 ---
 ## MarkdownSaveOptions.ImageSavingCallback property
 
-Bir belge konumuna kaydedildiğinde resimlerin nasıl kaydedileceğini kontrol etmenizi sağlarMarkdown biçim.
+Bir belge 'ye kaydedildiğinde görüntülerin nasıl kaydedileceğini kontrol etmenize izin verirMarkdown format.
 
 ```csharp
 public IImageSavingCallback ImageSavingCallback { get; set; }
@@ -16,20 +16,21 @@ public IImageSavingCallback ImageSavingCallback { get; set; }
 
 ### Örnekler
 
-Markdown belgesine kaydetme sırasında görüntü adının nasıl yeniden adlandırılacağını gösterir.
+Markdown belgesine kaydederken görüntü adının nasıl yeniden adlandırılacağını gösterir.
 
 ```csharp
+public void RenameImages()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
     MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
 
-    // Görüntü içeren bir belgeyi Markdown'a dönüştürürsek, birkaç görüntüye bağlanan bir Markdown dosyası elde ederiz.
+    // Eğer görseller içeren bir belgeyi Markdown'a dönüştürürsek, birden fazla görsele bağlantı veren bir Markdown dosyası elde ederiz.
     // Her görüntü yerel dosya sisteminde bir dosya biçiminde olacaktır.
-    // Her görüntünün adını ve dosya sistemi konumunu özelleştirebilen bir geri arama da vardır.
+    // Her görüntünün adını ve dosya sistemi konumunu özelleştirebilen bir geri çağırma da vardır.
     saveOptions.ImageSavingCallback = new SavedImageRename("MarkdownSaveOptions.HandleDocument.md");
 
-    // Geri aramamızın ImageSaving() metodu bu sefer çalıştırılacaktır.
+    // Geri çağrımızın ImageSaving() yöntemi şu anda çalıştırılacak.
     doc.Save(ArtifactsDir + "MarkdownSaveOptions.HandleDocument.md", saveOptions);
 
     Assert.AreEqual(1,
@@ -43,7 +44,7 @@ Markdown belgesine kaydetme sırasında görüntü adının nasıl yeniden adlan
 }
 
 /// <summary>
-/// Bir Markdown belgesi kaydedildiğinde oluşturulan kayıtlı görüntüleri yeniden adlandırır.
+/// Markdown belgesi kaydedildiğinde üretilen kayıtlı görüntüleri yeniden adlandırır.
 /// </summary>
 public class SavedImageRename : IImageSavingCallback
 {

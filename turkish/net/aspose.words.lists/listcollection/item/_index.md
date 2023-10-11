@@ -22,11 +22,9 @@ Listelerin sahip belge özelliklerinin nasıl doğrulanacağını gösterir.
 Document doc = new Document();
 
 ListCollection lists = doc.Lists;
-
 Assert.AreEqual(doc, lists.Document);
 
 List list = lists.Add(ListTemplate.BulletDefault);
-
 Assert.AreEqual(doc, list.Document);
 
 Console.WriteLine("Current list count: " + lists.Count);
@@ -35,7 +33,7 @@ Console.WriteLine("ListId: " + list.ListId);
 Console.WriteLine("List is the same by ListId: " + (lists.GetListByListId(1).Equals(list)));
 ```
 
-Varolan bir listenin liste biçimlendirmesinin bir paragraf koleksiyonuna nasıl uygulanacağını gösterir.
+Mevcut bir listenin liste formatının bir paragraf koleksiyonuna nasıl uygulanacağını gösterir.
 
 ```csharp
 Document doc = new Document();

@@ -1,14 +1,14 @@
 ---
 title: ReplacingArgs.GroupIndex
 second_title: Aspose.Words per .NET API Reference
-description: ReplacingArgs proprietà. Identifica per indice un gruppo acquisito nel fileMatch che deve essere sostituito con ilReplacement stringa.
+description: ReplacingArgs proprietà. Identifica per indice un gruppo catturato nel fileMatch che va sostituito con ilReplacement stringa.
 type: docs
 weight: 10
 url: /it/net/aspose.words.replacing/replacingargs/groupindex/
 ---
 ## ReplacingArgs.GroupIndex property
 
-Identifica, per indice, un gruppo acquisito nel file[`Match`](../match/) che deve essere sostituito con il[`Replacement`](../replacement/) stringa.
+Identifica, per indice, un gruppo catturato nel file[`Match`](../match/) che va sostituito con il[`Replacement`](../replacement/) stringa.
 
 ```csharp
 public int GroupIndex { get; set; }
@@ -16,15 +16,16 @@ public int GroupIndex { get; set; }
 
 ### Osservazioni
 
-`GroupIndex` ha effetto solo quando[`GroupName`](../groupname/) è zero.
+`GroupIndex`ha effetto solo quando[`GroupName`](../groupname/) È`nullo`.
 
-Il valore predefinito è zero.
+L'impostazione predefinita è zero.
 
 ### Esempi
 
 Mostra come applicare un carattere diverso al nuovo contenuto tramite FindReplaceOptions.
 
 ```csharp
+public void ConvertNumbersToHexadecimal()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -33,10 +34,10 @@ Mostra come applicare un carattere diverso al nuovo contenuto tramite FindReplac
     builder.Writeln("Numbers that the find-and-replace operation will convert to hexadecimal and highlight:\n" +
                     "123, 456, 789 and 17379.");
 
-    // Possiamo usare un oggetto "FindReplaceOptions" per modificare il processo di ricerca e sostituzione.
+    // Possiamo utilizzare un oggetto "FindReplaceOptions" per modificare il processo di ricerca e sostituzione.
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // Imposta la proprietà "HighlightColor" su un colore di sfondo che vogliamo applicare al testo risultante dell'operazione.
+    // Imposta la proprietà "HighlightColor" su un colore di sfondo che vogliamo applicare al testo risultante dall'operazione.
     options.ApplyFont.HighlightColor = Color.LightGray;
 
     NumberHexer numberHexer = new NumberHexer();

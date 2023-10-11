@@ -3,7 +3,7 @@ title: Comment.RemoveAllReplies
 second_title: Referencia de API de Aspose.Words para .NET
 description: Comment método. Elimina todas las respuestas a este comentario.
 type: docs
-weight: 130
+weight: 160
 url: /es/net/aspose.words/comment/removeallreplies/
 ---
 ## Comment.RemoveAllReplies method
@@ -16,11 +16,11 @@ public void RemoveAllReplies()
 
 ### Observaciones
 
-Todos los nodos constituyentes de las respuestas se eliminarán del documento.
+Todos los nodos que constituyen las respuestas se eliminarán del documento.
 
 ### Ejemplos
 
-Muestra cómo eliminar las respuestas a los comentarios.
+Muestra cómo eliminar respuestas a comentarios.
 
 ```csharp
 Document doc = new Document();
@@ -35,13 +35,13 @@ comment.AddReply("Joe Bloggs", "J.B.", DateTime.Now, "Another reply");
 
 Assert.AreEqual(2, comment.Replies.Count()); 
 
-// A continuación se muestran dos formas de eliminar las respuestas de un comentario.
-// 1 - Utilice el método "RemoveReply" para eliminar las respuestas de un comentario individualmente:
+// A continuación se muestran dos formas de eliminar respuestas de un comentario.
+// 1 - Utiliza el método "RemoveReply" para eliminar las respuestas de un comentario individualmente:
 comment.RemoveReply(comment.Replies[0]);
 
 Assert.AreEqual(1, comment.Replies.Count());
 
-// 2 - Usa el método "RemoveAllReplies" para eliminar todas las respuestas de un comentario a la vez:
+// 2 - Utilice el método "RemoveAllReplies" para eliminar todas las respuestas de un comentario a la vez:
 comment.RemoveAllReplies();
 
 Assert.AreEqual(0, comment.Replies.Count());

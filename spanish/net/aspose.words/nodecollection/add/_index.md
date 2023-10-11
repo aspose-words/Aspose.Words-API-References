@@ -22,30 +22,28 @@ public void Add(Node node)
 
 | excepción | condición |
 | --- | --- |
-| NotSupportedException | los **Colección de nodos** es una colección "profunda". |
+| NotSupportedException | El[`NodeCollection`](../) Es una colección "profunda". |
 
 ### Observaciones
 
-El nodo se inserta como elemento secundario en el objeto de nodo a partir del cual se creó la colección.
+El nodo se inserta como hijo en el objeto de nodo a partir del cual se creó la colección.
 
-Si newChild ya está en el árbol, primero se elimina.
-
-Si el nodo que se está insertando se creó a partir de otro documento, debe usar [`ImportNode`](../../documentbase/importnode/) para importar el nodo al documento actual. El nodo importado se puede insertar en el documento actual.
+Si el nodo que se está insertando se creó a partir de otro documento, debe usar [`ImportNode`](../../documentbase/importnode/) para importar el nodo al documento actual. El nodo importado luego se puede insertar en el documento actual.
 
 ### Ejemplos
 
-Muestra cómo preparar un nuevo nodo de sección para su edición.
+Muestra cómo preparar un nuevo nodo de sección para editarlo.
 
 ```csharp
 Document doc = new Document();
 
-// Un documento en blanco viene con una sección, que tiene un cuerpo, que a su vez tiene un párrafo.
-// Podemos agregar contenido a este documento agregando elementos como líneas de texto, formas o tablas a ese párrafo.
+// Un documento en blanco viene con una sección, la cual tiene un cuerpo, que a su vez tiene un párrafo.
+// Podemos agregar contenido a este documento agregando elementos como textos, formas o tablas a ese párrafo.
 Assert.AreEqual(NodeType.Section, doc.GetChild(NodeType.Any, 0, true).NodeType);
 Assert.AreEqual(NodeType.Body, doc.Sections[0].GetChild(NodeType.Any, 0, true).NodeType);
 Assert.AreEqual(NodeType.Paragraph, doc.Sections[0].Body.GetChild(NodeType.Any, 0, true).NodeType);
 
-// Si agregamos una nueva sección como esta, no tendrá un cuerpo ni ningún otro nodo secundario.
+// Si agregamos una nueva sección como esta, no tendrá cuerpo ni ningún otro nodo secundario.
 doc.Sections.Add(new Section(doc));
 
 Assert.AreEqual(0, doc.Sections[1].GetChildNodes(NodeType.Any, true).Count);

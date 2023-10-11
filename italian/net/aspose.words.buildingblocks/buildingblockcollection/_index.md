@@ -1,14 +1,16 @@
 ---
 title: Class BuildingBlockCollection
 second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.BuildingBlocks.BuildingBlockCollection classe. Una raccolta diBuildingBlock oggetti nel documento.
+description: Aspose.Words.BuildingBlocks.BuildingBlockCollection classe. Una raccolta diBuildingBlockoggetti nel documento.
 type: docs
-weight: 140
+weight: 150
 url: /it/net/aspose.words.buildingblocks/buildingblockcollection/
 ---
 ## BuildingBlockCollection class
 
-Una raccolta di[`BuildingBlock`](../buildingblock/) oggetti nel documento.
+Una raccolta di[`BuildingBlock`](../buildingblock/)oggetti nel documento.
+
+Per saperne di più, visita il[Modello oggetto documento Aspose.Words (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) articolo di documentazione.
 
 ```csharp
 public class BuildingBlockCollection : NodeCollection
@@ -19,7 +21,7 @@ public class BuildingBlockCollection : NodeCollection
 | Nome | Descrizione |
 | --- | --- |
 | [Count](../../aspose.words/nodecollection/count/) { get; } | Ottiene il numero di nodi nella raccolta. |
-| [Item](../../aspose.words.buildingblocks/buildingblockcollection/item/) { get; } | Recupera un building block in corrispondenza dell'indice specificato. (2 indexers) |
+| [Item](../../aspose.words.buildingblocks/buildingblockcollection/item/) { get; } | Recupera un blocco predefinito in corrispondenza dell'indice specificato. (2 indexers) |
 
 ## Metodi
 
@@ -32,16 +34,16 @@ public class BuildingBlockCollection : NodeCollection
 | [IndexOf](../../aspose.words/nodecollection/indexof/)(Node) | Restituisce l'indice in base zero del nodo specificato. |
 | [Insert](../../aspose.words/nodecollection/insert/)(int, Node) | Inserisce un nodo nella raccolta in corrispondenza dell'indice specificato. |
 | [Remove](../../aspose.words/nodecollection/remove/)(Node) | Rimuove il nodo dalla raccolta e dal documento. |
-| [RemoveAt](../../aspose.words/nodecollection/removeat/)(int) | Rimuove il nodo in corrispondenza dell'indice specificato dalla raccolta e dal documento. |
-| [ToArray](../../aspose.words.buildingblocks/buildingblockcollection/toarray/#toarray)() | Copia tutti i blocchi predefiniti dalla raccolta in una nuova matrice di blocchi predefiniti. (2 methods) |
+| [RemoveAt](../../aspose.words/nodecollection/removeat/)(int) | Rimuove il nodo all'indice specificato dalla raccolta e dal documento. |
+| [ToArray](../../aspose.words.buildingblocks/buildingblockcollection/toarray/#toarray)() | Copia tutti i blocchi costitutivi dalla raccolta in una nuova serie di blocchi costitutivi. (2 methods) |
 
 ### Osservazioni
 
-Non crei direttamente istanze di questa classe. Per accedere a una raccolta di blocchi predefiniti, utilizzare il file[`BuildingBlocks`](../glossarydocument/buildingblocks/) proprietà.
+Non crei direttamente istanze di questa classe. Per accedere a una raccolta di elementi costitutivi utilizzare il file[`BuildingBlocks`](../glossarydocument/buildingblocks/) proprietà.
 
 ### Esempi
 
-Mostra le modalità di accesso ai blocchi predefiniti in un documento di glossario.
+Mostra le modalità di accesso agli elementi costitutivi in un documento di glossario.
 
 ```csharp
 public void GlossaryDocument()
@@ -60,32 +62,31 @@ public void GlossaryDocument()
     doc.GlossaryDocument = glossaryDoc;
 
     // Esistono vari modi per accedere ai blocchi predefiniti.
-    // 1 - Ottieni i primi/ultimi blocchi di costruzione della collezione:
+    // 1 - Ottieni il primo/ultimo elemento costitutivo della raccolta:
     Assert.AreEqual("Block 1", glossaryDoc.FirstBuildingBlock.Name);
     Assert.AreEqual("Block 5", glossaryDoc.LastBuildingBlock.Name);
 
-    // 2 - Ottieni un building block per indice:
+    // 2 - Ottieni un elemento costitutivo per indice:
     Assert.AreEqual("Block 2", glossaryDoc.BuildingBlocks[1].Name);
     Assert.AreEqual("Block 3", glossaryDoc.BuildingBlocks.ToArray()[2].Name);
 
-    // 3 - Ottieni il primo building block che corrisponde a una galleria, un nome e una categoria:
+    // 3 - Ottieni il primo elemento costitutivo che corrisponde a una galleria, un nome e una categoria:
     Assert.AreEqual("Block 4", 
         glossaryDoc.GetBuildingBlock(BuildingBlockGallery.All, "(Empty Category)", "Block 4").Name);
 
     // Lo faremo utilizzando un visitatore personalizzato,
-    // che darà a ogni BuildingBlock nel GlossaryDocument un GUID univoco
+    // che assegnerà a ogni BuildingBlock nel GlossaryDocument un GUID univoco
     GlossaryDocVisitor visitor = new GlossaryDocVisitor();
     glossaryDoc.Accept(visitor);
-
     Console.WriteLine(visitor.GetText());
 
-    // In Microsoft Word, possiamo accedere ai blocchi predefiniti tramite "Inserisci" -> "Parti rapide" -> "Organizzatore di blocchi di costruzione".
+    // In Microsoft Word possiamo accedere agli elementi costitutivi tramite "Inserisci" -> "Parti rapide" -> "Organizzatore di blocchi di costruzione" .
     doc.Save(ArtifactsDir + "BuildingBlocks.GlossaryDocument.dotx"); 
 }
 
 /// <summary>
-/// Fornisce a ciascun elemento costitutivo in un documento del glossario visitato un GUID univoco.
-/// Memorizza le coppie di blocchi GUID in un dizionario.
+/// Assegna a ogni elemento costitutivo in un documento di glossario visitato un GUID univoco.
+/// Memorizza le coppie di blocchi predefiniti GUID in un dizionario.
 /// </summary>
 public class GlossaryDocVisitor : DocumentVisitor
 {

@@ -1,14 +1,14 @@
 ---
 title: FieldDatabase.FileName
 second_title: Aspose.Words für .NET-API-Referenz
-description: FieldDatabase eigendom. Holt oder setzt den vollständigen Pfad und Dateinamen der Datenbank
+description: FieldDatabase eigendom. Ruft den vollständigen Pfad und Dateinamen der Datenbank ab oder legt diesen fest
 type: docs
 weight: 30
 url: /de/net/aspose.words.fields/fielddatabase/filename/
 ---
 ## FieldDatabase.FileName property
 
-Holt oder setzt den vollständigen Pfad und Dateinamen der Datenbank
+Ruft den vollständigen Pfad und Dateinamen der Datenbank ab oder legt diesen fest
 
 ```csharp
 public string FileName { get; set; }
@@ -16,7 +16,7 @@ public string FileName { get; set; }
 
 ### Beispiele
 
-Zeigt, wie Daten aus einer Datenbank extrahiert und als Feld in ein Dokument eingefügt werden.
+Zeigt, wie man Daten aus einer Datenbank extrahiert und als Feld in ein Dokument einfügt.
 
 ```csharp
 Document doc = new Document();
@@ -24,17 +24,16 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Dieses DATABASE-Feld führt eine Abfrage in einer Datenbank aus und zeigt das Ergebnis in einer Tabelle an.
 FieldDatabase field = (FieldDatabase)builder.InsertField(FieldType.FieldDatabase, true);
-field.FileName = MyDir + @"Database\Northwind.mdb";
-field.Connection = "DSN=MS Access Databases";
+field.FileName = DatabaseDir + "Northwind.accdb";
+field.Connection = "Provider=Microsoft.ACE.OLEDB.12.0";
 field.Query = "SELECT * FROM [Products]";
 
-Assert.AreEqual($" DATABASE  \\d \"{DatabaseDir.Replace("\\", "\\\\") + "Northwind.mdb"}\" \\c \"DSN=MS Access Databases\" \\s \"SELECT * FROM [Products]\"", 
-    field.GetFieldCode());
+Assert.AreEqual($" DATABASE  \\d {DatabaseDir.Replace("\\", "\\\\") + "Northwind.accdb"} \\c Provider=Microsoft.ACE.OLEDB.12.0 \\s \"SELECT * FROM [Products]\"", field.GetFieldCode());
 
-// Fügen Sie ein weiteres DATABASE-Feld mit einer komplexeren Abfrage ein, die alle Produkte in absteigender Reihenfolge nach Bruttoumsatz sortiert.
+// Ein weiteres DATABASE-Feld mit einer komplexeren Abfrage einfügen, die alle Produkte in absteigender Reihenfolge nach Bruttoumsatz sortiert.
 field = (FieldDatabase)builder.InsertField(FieldType.FieldDatabase, true);
-field.FileName = MyDir + @"Database\Northwind.mdb";
-field.Connection = "DSN=MS Access Databases";
+field.FileName = DatabaseDir + "Northwind.accdb";
+field.Connection = "Provider=Microsoft.ACE.OLEDB.12.0";
 field.Query =
     "SELECT [Products].ProductName, FORMAT(SUM([Order Details].UnitPrice * (1 - [Order Details].Discount) * [Order Details].Quantity), 'Currency') AS GrossSales " +
     "FROM([Products] " +
@@ -42,24 +41,26 @@ field.Query =
     "GROUP BY[Products].ProductName " +
     "ORDER BY SUM([Order Details].UnitPrice* (1 - [Order Details].Discount) * [Order Details].Quantity) DESC";
 
-// Diese Eigenschaften haben dieselbe Funktion wie LIMIT- und TOP-Klauseln.
+// Diese Eigenschaften haben die gleiche Funktion wie LIMIT- und TOP-Klauseln.
 // Konfigurieren Sie sie so, dass nur die Zeilen 1 bis 10 des Abfrageergebnisses in der Tabelle des Felds angezeigt werden.
 field.FirstRecord = "1";
 field.LastRecord = "10";
 
-// Diese Eigenschaft ist der Index des Formats, das wir für unsere Tabelle verwenden möchten. Die Liste der Tabellenformate befindet sich im Menü "Tabellen-AutoFormat...".
-// das erscheint, wenn wir ein DATENBANK-Feld in Microsoft Word erstellen. Index #10 entspricht dem Format „Bunte 3“.
+// Diese Eigenschaft ist der Index des Formats, das wir für unsere Tabelle verwenden möchten. Die Liste der Tabellenformate finden Sie im Menü „Table AutoFormat…“.
+// das angezeigt wird, wenn wir ein DATABASE-Feld in Microsoft Word erstellen. Index Nr. 10 entspricht dem Format „Bunte 3“.
 field.TableFormat = "10";
 
-// Die Eigenschaft FormatAttribute ist eine Zeichenfolgendarstellung einer Ganzzahl, die mehrere Flags speichert.
-// Wir können das Format, auf das die TableFormat-Eigenschaft zeigt, partiell anwenden, indem wir verschiedene Flags in dieser Eigenschaft setzen.
+// Die FormatAttribute-Eigenschaft ist eine String-Darstellung einer Ganzzahl, die mehrere Flags speichert.
+// Wir können das Format, auf das die TableFormat-Eigenschaft verweist, teilweise anwenden, indem wir in dieser Eigenschaft verschiedene Flags setzen.
 // Die von uns verwendete Zahl ist die Summe einer Kombination von Werten, die verschiedenen Aspekten des Tabellenstils entsprechen.
-// 63 steht für 1 (Rahmen) + 2 (Schattierung) + 4 (Schriftart) + 8 (Farbe) + 16 (Autofit) + 32 (Überschriftenzeilen).
+// 63 steht für 1 (Ränder) + 2 (Schattierung) + 4 (Schriftart) + 8 (Farbe) + 16 (automatische Anpassung) + 32 (Überschriftenzeilen).
 field.FormatAttributes = "63";
 field.InsertHeadings = true;
 field.InsertOnceOnMailMerge = true;
 
+doc.FieldOptions.FieldDatabaseProvider = new OleDbFieldDatabaseProvider();
 doc.UpdateFields();
+
 doc.Save(ArtifactsDir + "Field.DATABASE.docx");
 ```
 

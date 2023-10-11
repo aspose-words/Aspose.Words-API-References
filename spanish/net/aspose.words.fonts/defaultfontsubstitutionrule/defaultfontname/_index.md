@@ -20,7 +20,7 @@ El valor predeterminado es 'Times New Roman'.
 
 ### Ejemplos
 
-Muestra cómo configurar la regla de sustitución de fuente predeterminada.
+Muestra cómo configurar la regla de sustitución de fuentes predeterminada.
 
 ```csharp
 Document doc = new Document();
@@ -28,17 +28,17 @@ FontSettings fontSettings = new FontSettings();
 doc.FontSettings = fontSettings;
 
 // Obtenga la regla de sustitución predeterminada dentro de FontSettings.
-// Esta regla sustituirá todas las fuentes faltantes con "Times New Roman".
+// Esta regla sustituirá todas las fuentes que falten por "Times New Roman".
 DefaultFontSubstitutionRule defaultFontSubstitutionRule =
     fontSettings.SubstitutionSettings.DefaultFontSubstitution;
 Assert.True(defaultFontSubstitutionRule.Enabled);
 Assert.AreEqual("Times New Roman", defaultFontSubstitutionRule.DefaultFontName);
 
-// Establecer el sustituto de fuente predeterminado en "Courier New".
+// Establece el sustituto de fuente predeterminado en "Courier New".
 defaultFontSubstitutionRule.DefaultFontName = "Courier New";
 
-// Usando un generador de documentos, agregue algo de texto en una fuente que no tengamos que ver que se lleva a cabo la sustitución,
-// y luego renderiza el resultado en un PDF.
+// Utilizando un generador de documentos, agrega texto en una fuente que no tengamos que ver cómo se realiza la sustitución,
+// y luego renderizar el resultado en un PDF.
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Font.Name = "Missing Font";
@@ -65,13 +65,13 @@ Assert.AreEqual(1, fontSources.Length);
 Assert.True(fontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arial"));
 Assert.False(fontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arvo"));
 
-// Establecer la propiedad "DefaultFontName" en "Courier New" para,
-  // mientras renderiza el documento, aplique esa fuente en todos los casos cuando otra fuente no esté disponible.
+// Establece la propiedad "DefaultFontName" en "Courier New" para,
+ // mientras renderiza el documento, aplique esa fuente en todos los casos en que no haya otra fuente disponible.
 FontSettings.DefaultInstance.SubstitutionSettings.DefaultFontSubstitution.DefaultFontName = "Courier New";
 
 Assert.True(fontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Courier New"));
 
-// Aspose.Words ahora usará la fuente predeterminada en lugar de las fuentes faltantes durante cualquier llamada de procesamiento.
+// Aspose.Words ahora usará la fuente predeterminada en lugar de las fuentes faltantes durante cualquier llamada de renderizado.
 doc.Save(ArtifactsDir + "FontSettings.DefaultFontName.pdf");
 ```
 

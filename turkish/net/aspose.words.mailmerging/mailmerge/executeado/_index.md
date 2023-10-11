@@ -1,14 +1,14 @@
 ---
 title: MailMerge.ExecuteADO
 second_title: Aspose.Words for .NET API Referansı
-description: MailMerge yöntem. Bir ADO Recordset nesnesinden belgeye adres mektup birleştirme gerçekleştirir.
+description: MailMerge yöntem. Bir ADO Recordset nesnesinden belgeye adresmektup birleştirme gerçekleştirir.
 type: docs
 weight: 190
 url: /tr/net/aspose.words.mailmerging/mailmerge/executeado/
 ---
 ## MailMerge.ExecuteADO method
 
-Bir ADO Recordset nesnesinden belgeye adres mektup birleştirme gerçekleştirir.
+Bir ADO Recordset nesnesinden belgeye adres-mektup birleştirme gerçekleştirir.
 
 ```csharp
 public void ExecuteADO(object recordset)
@@ -20,11 +20,11 @@ public void ExecuteADO(object recordset)
 
 ### Notlar
 
-Bu yöntem, ASP veya Visual Basic 6.0 kullanılarak oluşturulmuş bir uygulama gibi yönetilmeyen koddan Aspose.Words sınıflarını as COM nesneleri kullanmayı düşündüğünüzde kullanışlıdır.
+Bu yöntem, Aspose.Words sınıflarını as COM nesnelerini, örneğin ASP veya Visual Basic 6.0 kullanılarak oluşturulan bir uygulama gibi yönetilmeyen koddan kullanmayı planladığınızda kullanışlıdır.
 
-Bu yöntem yok sayarRemoveUnusedRegions seçenek.
+Bu yöntem göz ardı edilirRemoveUnusedRegions seçenek.
 
-Daha fazla bilgi için MailMerge.Execute(DataTable) açıklamasına bakın.
+Daha fazla bilgi için açıklamasına bakın[`Execute`](../execute/).
 
 ### Örnekler
 
@@ -50,37 +50,37 @@ Doc.MailMerge.ExecuteADO RS
 Doc.Save "C:\MyPath\CustomerLabels Out VBScript.doc"
 ```
 
-Bir ADO veri kümesindeki verilerle adres mektup birleştirmenin nasıl çalıştırılacağını gösterir.
+ADO veri kümesindeki verilerle adres-mektup birleştirmenin nasıl çalıştırılacağını gösterir.
 
 ```csharp
 public void ExecuteADO()
 {
     Document doc = CreateSourceDocADOMailMerge();
 
-    // ADO DataSets ile çalışmak için Microsoft ActiveX Data Objects kitaplığına bir referans eklememiz gerekecek,
-    // .NET dağıtımına dahil olan ve "adodb.dll" içinde depolanan.
+    // ADO DataSets ile çalışmak için Microsoft ActiveX Data Objects kütüphanesine bir referans eklememiz gerekecek,
+    // .NET dağıtımına dahil edilir ve "adodb.dll" dosyasında saklanır.
     ADODB.Connection connection = new ADODB.Connection();
 
     // "Northwind" veritabanı dosyasına işaret eden bir bağlantı dizesi oluşturun
-    // yerel dosya sistemimizde ve bir bağlantı açın.
-    string connectionString = @"Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" + DatabaseDir + "Northwind.mdb";
+    // yerel dosya sistemimizde bir bağlantı açın.
+    string connectionString = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=" + DatabaseDir + "Northwind.accdb";
     connection.Open(connectionString);
 
-    // Veritabanımızda bir SQL komutu çalıştırarak DataSet'imizi doldurun.
-    // Sonuç tablosundaki sütunların adlarının karşılık gelmesi gerekecek
-    // verilerimizi barındıracak MERGEFIELDS değerlerine.
+    // Veritabanımız üzerinde bir SQL komutu çalıştırarak DataSet'imizi dolduruyoruz.
+    // Sonuç tablosundaki sütunların adlarının eşleşmesi gerekecek
+    // MERGEFIELDS'in verilerimizi barındıracak değerlerine.
     const string command = @"SELECT ProductName, QuantityPerUnit, UnitPrice FROM Products";
 
     ADODB.Recordset recordset = new ADODB.Recordset();
     recordset.Open(command, connection);
 
-    // Adres mektup birleştirmeyi yürütün ve belgeyi kaydedin.
+    // Adres-mektup birleştirmeyi yürütün ve belgeyi kaydedin.
     doc.MailMerge.ExecuteADO(recordset);
     doc.Save(ArtifactsDir + "MailMerge.ExecuteADO.docx");
 }
 
 /// <summary>
-/// Boş bir belge oluşturun ve onu adres mektup birleştirme yürütüldüğünde verileri kabul edecek MERGEFIELDS ile doldurun.
+/// Boş bir belge oluşturun ve bunu, adres-mektup birleştirme yürütüldüğünde verileri kabul edecek MERGEFIELDS ile doldurun.
 /// </summary>
 private static Document CreateSourceDocADOMailMerge()
 {

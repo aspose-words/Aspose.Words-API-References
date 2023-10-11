@@ -1,14 +1,14 @@
 ---
 title: MailMerge.UseWholeParagraphAsRegion
 second_title: Aspose.Words لمراجع .NET API
-description: MailMerge ملكية. الحصول على أو تعيين قيمة تشير إلى ما إذا كان يجب تضمين فقرة كاملة مع TableStart أو TableEnd field أو نطاق معين بين حقول TableStart و TableEnd في منطقة دمج المراسلات.
+description: MailMerge ملكية. الحصول على أو تعيين قيمة تشير إلى ما إذا كانت الفقرة بأكملها بها TableStart أو نهاية الجدول field أو نطاق معين بين TableStart و نهاية الجدول يجب تضمين الحقول في منطقة دمج البريد.
 type: docs
 weight: 160
 url: /ar/net/aspose.words.mailmerging/mailmerge/usewholeparagraphasregion/
 ---
 ## MailMerge.UseWholeParagraphAsRegion property
 
-الحصول على أو تعيين قيمة تشير إلى ما إذا كان يجب تضمين فقرة كاملة مع TableStart أو TableEnd field أو نطاق معين بين حقول TableStart و TableEnd في منطقة دمج المراسلات.
+الحصول على أو تعيين قيمة تشير إلى ما إذا كانت الفقرة بأكملها بها **TableStart** أو **نهاية الجدول** field أو نطاق معين بين **TableStart** و **نهاية الجدول** يجب تضمين الحقول في منطقة دمج البريد.
 
 ```csharp
 public bool UseWholeParagraphAsRegion { get; set; }
@@ -16,11 +16,11 @@ public bool UseWholeParagraphAsRegion { get; set; }
 
 ### ملاحظات
 
-القيمة الافتراضية هي **حقيقي** .
+القيمة الافتراضية هي`حقيقي` .
 
 ### أمثلة
 
-إظهار العلاقة بين مناطق دمج المراسلات والفقرات.
+إظهار العلاقة بين مناطق دمج البريد والفقرات.
 
 ```csharp
 public void UseWholeParagraphAsRegion(bool useWholeParagraphAsRegion)
@@ -28,12 +28,12 @@ public void UseWholeParagraphAsRegion(bool useWholeParagraphAsRegion)
     Document doc = CreateSourceDocWithNestedMergeRegions();
     DataTable dataTable = CreateSourceTableDataTableForOneRegion();
 
-    // بشكل افتراضي ، لا يمكن أن تنتمي فقرة إلى أكثر من منطقة واحدة لدمج المراسلات.
+    // بشكل افتراضي، لا يمكن أن تنتمي الفقرة إلى أكثر من منطقة واحدة لدمج البريد.
     // محتويات وثيقتنا لا تفي بهذه المعايير.
-    // إذا قمنا بتعيين علامة "UseWholeParagraphAsRegion" على "true" ،
-    // سيؤدي تشغيل دمج المراسلات في هذا المستند إلى طرح استثناء.
-    // إذا قمنا بتعيين علامة "UseWholeParagraphAsRegion" على "false" ،
-    // سنتمكن من تنفيذ دمج المراسلات في هذا المستند.
+    // إذا قمنا بتعيين علامة "UseWholeParagraphAsRegion" على "صحيح"،
+    // سيؤدي تشغيل دمج البريد في هذا المستند إلى حدوث استثناء.
+    // إذا قمنا بتعيين علامة "UseWholeParagraphAsRegion" على "خطأ"،
+    // سنكون قادرين على تنفيذ دمج البريد في هذا المستند.
     doc.MailMerge.UseWholeParagraphAsRegion = useWholeParagraphAsRegion;
 
     if (useWholeParagraphAsRegion)
@@ -42,12 +42,12 @@ public void UseWholeParagraphAsRegion(bool useWholeParagraphAsRegion)
         doc.MailMerge.ExecuteWithRegions(dataTable);
 
     // يملأ دمج المراسلات منطقتنا الأولى مع ترك المنطقة الثانية غير مستخدمة
-    // لأنها المنطقة التي تخرق القاعدة.
+    // بما أن المنطقة هي التي تكسر القاعدة.
     doc.Save(ArtifactsDir + "MailMerge.UseWholeParagraphAsRegion.docx");
 }
 
 /// <summary>
-/// إنشاء مستند مع منطقتين لدمج المراسلات تشتركان في فقرة واحدة.
+/// قم بإنشاء مستند يحتوي على منطقتين لدمج البريد تتشاركان في فقرة واحدة.
 /// </summary>
 private static Document CreateSourceDocWithNestedMergeRegions()
 {
@@ -69,7 +69,7 @@ private static Document CreateSourceDocWithNestedMergeRegions()
 }
 
 /// <summary>
-/// إنشاء جدول بيانات يمكنه ملء منطقة واحدة أثناء دمج البريد.
+/// قم بإنشاء جدول بيانات يمكنه ملء منطقة واحدة أثناء دمج البريد.
 /// </summary>
 private static DataTable CreateSourceTableDataTableForOneRegion()
 {

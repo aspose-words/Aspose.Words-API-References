@@ -1,14 +1,14 @@
 ---
 title: ImageData.ToImage
 second_title: Aspose.Words für .NET-API-Referenz
-description: ImageData methode. Ruft das in der Form gespeicherte Bild als a abImage Objekt.
+description: ImageData methode. Ruft das in der Form gespeicherte Bild als abImage Objekt.
 type: docs
-weight: 220
+weight: 230
 url: /de/net/aspose.words.drawing/imagedata/toimage/
 ---
 ## ImageData.ToImage method
 
-Ruft das in der Form gespeicherte Bild als a abImage Objekt.
+Ruft das in der Form gespeicherte Bild als abImage Objekt.
 
 ```csharp
 public Image ToImage()
@@ -16,9 +16,9 @@ public Image ToImage()
 
 ### Bemerkungen
 
-Ein neuerImage -Objekt wird bei jedem Aufruf dieser Methode erstellt.
+Ein neuerImage Das Objekt wird bei jedem Aufruf dieser Methode erstellt.
 
-Es liegt in der Verantwortung des Aufrufers, das Bildobjekt zu entsorgen.
+Es liegt in der Verantwortung des Aufrufers, über das Bildobjekt zu verfügen.
 
 ### Beispiele
 
@@ -27,11 +27,11 @@ Zeigt, wie alle Bilder eines Dokuments im Dateisystem gespeichert werden.
 ```csharp
 Document imgSourceDoc = new Document(MyDir + "Images.docx");
 
-// Shapes mit gesetztem "HasImage"-Flag speichern und zeigen alle Bilder des Dokuments an.
+// Formen mit gesetztem „HasImage“-Flag speichern und zeigen alle Bilder des Dokuments an.
 IEnumerable<Shape> shapesWithImages = 
     imgSourceDoc.GetChildNodes(NodeType.Shape, true).Cast<Shape>().Where(s => s.HasImage);
 
-// Gehe durch jede Form und speichere ihr Bild.
+// Jede Form durchgehen und ihr Bild speichern.
 ImageFormatConverter formatConverter = new ImageFormatConverter();
 
 using (IEnumerator<Shape> enumerator = shapesWithImages.GetEnumerator())

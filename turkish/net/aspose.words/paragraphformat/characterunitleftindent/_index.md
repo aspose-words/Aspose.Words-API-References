@@ -1,14 +1,14 @@
 ---
 title: ParagraphFormat.CharacterUnitLeftIndent
 second_title: Aspose.Words for .NET API Referansı
-description: ParagraphFormat mülk. Belirtilen paragraflar için sol girinti değerini karakter olarak alır veya ayarlar.
+description: ParagraphFormat mülk. Belirtilen paragraflar için sol girinti değerini karakter cinsinden alır veya ayarlar.
 type: docs
-weight: 70
+weight: 80
 url: /tr/net/aspose.words/paragraphformat/characterunitleftindent/
 ---
 ## ParagraphFormat.CharacterUnitLeftIndent property
 
-Belirtilen paragraflar için sol girinti değerini (karakter olarak) alır veya ayarlar.
+Belirtilen paragraflar için sol girinti değerini (karakter cinsinden) alır veya ayarlar.
 
 ```csharp
 public double CharacterUnitLeftIndent { get; set; }
@@ -23,7 +23,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ParagraphFormat format = doc.FirstSection.Body.FirstParagraph.ParagraphFormat;
 
-// Aşağıda, yapılandırmalarının dolaylı olarak etkilediği özelliklerle birlikte beş farklı boşluk seçeneği bulunmaktadır.
+// Aşağıda, konfigürasyonlarının dolaylı olarak etkilediği özelliklerle birlikte beş farklı aralık seçeneği bulunmaktadır.
 // 1 - Sol girinti:
 Assert.AreEqual(format.LeftIndent, 0.0d);
 
@@ -52,7 +52,7 @@ format.LineUnitBefore = 5.1;
 
 Assert.AreEqual(format.SpaceBefore, 61.1d, 0.1d);
 
-// 5 - Paragraflardan sonra satır aralığı:
+// 5 - Paragraflardan sonraki satır aralığı:
 Assert.AreEqual(format.SpaceAfter, 0.0d);
 
 format.LineUnitAfter = 10.9;

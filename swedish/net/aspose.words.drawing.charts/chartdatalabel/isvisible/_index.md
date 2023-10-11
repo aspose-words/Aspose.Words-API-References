@@ -1,14 +1,14 @@
 ---
 title: ChartDataLabel.IsVisible
 second_title: Aspose.Words för .NET API Referens
-description: ChartDataLabel fast egendom. Returnerar sant om denna dataetikett har något att visa.
+description: ChartDataLabel fast egendom. ReturnerarSann om denna dataetikett har något att visa.
 type: docs
-weight: 30
+weight: 50
 url: /sv/net/aspose.words.drawing.charts/chartdatalabel/isvisible/
 ---
 ## ChartDataLabel.IsVisible property
 
-Returnerar sant om denna dataetikett har något att visa.
+Returnerar`Sann` om denna dataetikett har något att visa.
 
 ```csharp
 public bool IsVisible { get; }
@@ -19,6 +19,7 @@ public bool IsVisible { get; }
 Visar hur man applicerar etiketter på datapunkter i ett linjediagram.
 
 ```csharp
+public void DataLabels()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);

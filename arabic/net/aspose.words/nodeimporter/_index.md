@@ -1,14 +1,16 @@
 ---
 title: Class NodeImporter
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.NodeImporter فصل. يسمح بإجراء الاستيراد المتكرر للعقد بكفاءة من مستند إلى آخر.
+description: Aspose.Words.NodeImporter فصل. يسمح بإجراء الاستيراد المتكرر للعقد من مستند إلى آخر بكفاءة.
 type: docs
-weight: 3970
+weight: 4210
 url: /ar/net/aspose.words/nodeimporter/
 ---
 ## NodeImporter class
 
-يسمح بإجراء الاستيراد المتكرر للعقد بكفاءة من مستند إلى آخر.
+يسمح بإجراء الاستيراد المتكرر للعقد من مستند إلى آخر بكفاءة.
+
+لمعرفة المزيد، قم بزيارة[نموذج كائن مستند Aspose.Words (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) مقالة توثيقية.
 
 ```csharp
 public class NodeImporter
@@ -18,35 +20,34 @@ public class NodeImporter
 
 | اسم | وصف |
 | --- | --- |
-| [NodeImporter](nodeimporter/#constructor)(DocumentBase, DocumentBase, ImportFormatMode) | يقوم بتهيئة مثيل جديد لملف`NodeImporter` فئة . |
-| [NodeImporter](nodeimporter/#constructor_1)(DocumentBase, DocumentBase, ImportFormatMode, ImportFormatOptions) | يقوم بتهيئة مثيل جديد لملف`NodeImporter` فئة . |
+| [NodeImporter](nodeimporter/#constructor)(DocumentBase, DocumentBase, ImportFormatMode) | تهيئة مثيل جديد لـ`NodeImporter` فئة. |
+| [NodeImporter](nodeimporter/#constructor_1)(DocumentBase, DocumentBase, ImportFormatMode, ImportFormatOptions) | تهيئة مثيل جديد لـ`NodeImporter` فئة. |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| [ImportNode](../../aspose.words/nodeimporter/importnode/)(Node, bool) | يستورد عقدة من وثيقة إلى أخرى. |
+| [ImportNode](../../aspose.words/nodeimporter/importnode/)(Node, bool) | يستورد عقدة من مستند إلى آخر. |
 
 ### ملاحظات
 
-يوفر Aspose.Words وظائف لسهولة نسخ ونقل الأجزاء بين مستندات Microsoft Word. يُعرف هذا باسم "عقد الاستيراد" . قبل أن تتمكن من إدراج جزء من مستند إلى آخر ، تحتاج إلى "استيراده".
+يوفر Aspose.Words وظيفة لسهولة نسخ ونقل fragments بين مستندات Microsoft Word. يُعرف هذا باسم "استيراد العقد". قبل أن تتمكن من إدراج جزء من مستند إلى آخر، تحتاج إلى "استيراده". يؤدي الاستيراد إلى إنشاء نسخة عميقة من العقدة الأصلية، جاهزة للإدراج في مستند الوجهة .
 
-إن أبسط طريقة لاستيراد عقدة هي استخدام ملحق[`ImportNode`](../documentbase/importnode/) طريقة المقدمة من[`DocumentBase`](../documentbase/) هدف.
+إن أبسط طريقة لاستيراد عقدة هي استخدام[`ImportNode`](../documentbase/importnode/) method المقدمة من[`DocumentBase`](../documentbase/) هدف.
 
-ومع ذلك ، عندما تحتاج إلى استيراد عقد من مستند إلى آخر عدة مرات ، فمن الأفضل استخدام`NodeImporter` صف دراسي. ال`NodeImporter` تسمح الفئة بتقليل عدد الأنماط والقوائم التي تم إنشاؤها في المستند الوجهة.
+ومع ذلك، عندما تحتاج إلى استيراد العقد من مستند إلى آخر عدة مرات، فمن الأفضل استخدام`NodeImporter` فصل. ال`NodeImporter` تسمح فئة بتقليل عدد الأنماط والقوائم التي تم إنشاؤها في المستند الوجهة.
 
-يمثل نسخ أو نقل أجزاء من مستند Microsoft Word إلى مستند آخر عددًا_ من التحديات التقنية لشركة Aspose.Words. في مستند Word ، يتم تخزين الأنماط والقائمة بتنسيق بشكل مركزي ، بشكل منفصل عن نص المستند. تشير الفقرات وتشغيلات النص فقط إلى الأنماط بواسطة معرفات داخلية فريدة.
+يمثل نسخ أو نقل الأجزاء من مستند Microsoft Word إلى مستند آخر عددًا من التحديات التقنية لـ Aspose.Words. في مستند Word، يتم تخزين الأنماط وتنسيق القائمة مركزيًا، بشكل منفصل عن نص المستند. تشير الفقرات وعمليات النص فقط إلى الأنماط بواسطة معرفات فريدة داخلية.
 
-تنشأ التحديات من حقيقة أن الأنماط والقوائم مختلفة في المستندات المختلفة. _ على سبيل المثال ، لنسخ فقرة منسقة بنمط العنوان 1 من مستند إلى آخر ، يجب مراعاة عدد من الأشياء: قرر ما إذا كنت تريد انسخ نمط العنوان 1 من المستند المصدر إلى المستند الوجهة ، واستنساخ الفقرة ، وقم بتحديث الفقرة المستنسخة بحيث تشير إلى نمط العنوان 1 الصحيح في المستند الوجهة. يجب تحليل المراجع (بناءً على style ونمط الفقرة التالي) وربما نسخها أيضًا وما إلى ذلك. _ توجد مشكلات مماثلة عند نسخ فقرات ذات تعداد نقطي أو رقمي لأن Microsoft Word يخزن تعريفات القوائم بشكل منفصل عن النص.
+تنشأ التحديات من حقيقة اختلاف الأنماط والقوائم في المستندات المختلفة. على سبيل المثال، لنسخ فقرة منسقة بنمط العنوان 1 من مستند إلى آخر، يجب أخذ عدد من الأشياء في الاعتبار: تحديد ما إذا كنت تريد ذلك أم لا انسخ نمط العنوان 1 من المستند المصدر إلى المستند الوجهة، واستنسخ الفقرة، وقم بتحديث الفقرة المستنسخة بحيث تشير إلى نمط العنوان 1 الصحيح في المستند الوجهة. إذا كان لا بد من نسخ النمط، فسيتم نسخ جميع الأنماط التي يتضمنها يجب تحليل المراجع (المعتمدة على style ونمط الفقرة التالية) وربما نسخها أيضًا وما إلى ذلك. توجد مشكلات مماثلة عند نسخ فقرات ذات تعداد نقطي أو رقمي لأن Microsoft Word يخزن تعريفات القائمة بشكل منفصل عن النص.
 
-ال`NodeImporter`فئة هي مثل السياق ، الذي يحمل "جداول الترجمة" أثناء الاستيراد. يترجم بشكل صحيح بين الأنماط والقوائم في المصدر و_ المستندات.
+ال`NodeImporter`تشبه الفئة السياق الذي يحتوي على "جداول الترجمة" أثناء الاستيراد. إنه يترجم بشكل صحيح بين الأنماط والقوائم في المستندات المصدر و الوجهة.
 
 ### أمثلة
 
-يوضح كيفية إدراج محتويات أحد المستندات في إشارة مرجعية في مستند آخر.
+يوضح كيفية إدراج محتويات مستند واحد في إشارة مرجعية في مستند آخر.
 
 ```csharp
-[Test]
 public void InsertAtBookmark()
 {
     Document doc = new Document();
@@ -71,7 +72,7 @@ public void InsertAtBookmark()
 }
 
 /// <summary>
-/// يدخل محتويات الوثيقة بعد العقدة المحددة.
+/// إدراج محتويات المستند بعد العقدة المحددة.
 /// </summary>
 static void InsertDocument(Node insertionDestination, Document docToInsert)
 {
@@ -82,8 +83,8 @@ static void InsertDocument(Node insertionDestination, Document docToInsert)
         NodeImporter importer =
             new NodeImporter(docToInsert, insertionDestination.Document, ImportFormatMode.KeepSourceFormatting);
 
-        // حلقة خلال جميع العقد على مستوى الكتلة في جسم القسم ،
-        // ثم استنساخ وأدخل كل عقدة ليست آخر فقرة فارغة من القسم.
+        // قم بالتكرار عبر جميع العقد على مستوى الكتلة في نص القسم،
+        // ثم انسخ وأدخل كل عقدة ليست آخر فقرة فارغة في القسم.
         foreach (Section srcSection in docToInsert.Sections.OfType<Section>())
             foreach (Node srcNode in srcSection.Body)
             {

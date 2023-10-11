@@ -3,7 +3,7 @@ title: Enum NumeralFormat
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Saving.NumeralFormat uppräkning. Indikerar symboluppsättningen som används för att representera siffror vid återgivning till fasta sidformat.
 type: docs
-weight: 5030
+weight: 5310
 url: /sv/net/aspose.words.saving/numeralformat/
 ---
 ## NumeralFormat enumeration

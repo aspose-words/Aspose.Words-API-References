@@ -1,14 +1,14 @@
 ---
 title: WebExtensionProperty.Name
 second_title: Aspose.Words for .NET API Referansı
-description: WebExtensionProperty mülk. Özel bir özellik adı belirtir
+description: WebExtensionProperty mülk. Özel bir özellik adını belirtir
 type: docs
 weight: 20
 url: /tr/net/aspose.words.webextensions/webextensionproperty/name/
 ---
 ## WebExtensionProperty.Name property
 
-Özel bir özellik adı belirtir
+Özel bir özellik adını belirtir
 
 ```csharp
 public string Name { get; set; }

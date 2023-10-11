@@ -1,14 +1,14 @@
 ---
 title: FieldDocVariable.VariableName
 second_title: Справочник по API Aspose.Words для .NET
-description: FieldDocVariable свойство. Получает или задает имя переменной документа для извлечения.
+description: FieldDocVariable свойство. Получает или задает имя извлекаемой переменной документа.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/fielddocvariable/variablename/
 ---
 ## FieldDocVariable.VariableName property
 
-Получает или задает имя переменной документа для извлечения.
+Получает или задает имя извлекаемой переменной документа.
 
 ```csharp
 public string VariableName { get; set; }
@@ -23,8 +23,8 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Ниже приведены два способа использования полей DOCPROPERTY.
-// 1 - Показать встроенное свойство:
-// Установите пользовательское значение для встроенного свойства «Категория», затем вставьте поле DOCPROPERTY, которое на него ссылается.
+// 1 - Отобразить встроенное свойство:
+// Установите пользовательское значение для встроенного свойства «Категория», затем вставьте поле DOCPROPERTY, которое ссылается на него.
 doc.BuiltInDocumentProperties.Category = "My category";
 
 FieldDocProperty fieldDocProperty = (FieldDocProperty)builder.InsertField(" DOCPROPERTY Category ");
@@ -35,8 +35,8 @@ Assert.AreEqual("My category", fieldDocProperty.Result);
 
 builder.InsertParagraph();
 
-// 2 - Отобразить пользовательскую переменную документа:
-// Определяем пользовательскую переменную, затем ссылаемся на эту переменную с помощью поля DOCPROPERTY.
+// 2 - Отображение пользовательской переменной документа:
+// Определить пользовательскую переменную, затем ссылаться на эту переменную с помощью поля DOCPROPERTY.
 Assert.That(doc.Variables, Is.Empty);
 doc.Variables.Add("My variable", "My variable's value");
 

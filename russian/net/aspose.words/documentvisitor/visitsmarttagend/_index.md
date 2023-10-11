@@ -1,14 +1,14 @@
 ---
 title: DocumentVisitor.VisitSmartTagEnd
 second_title: Справочник по API Aspose.Words для .NET
-description: DocumentVisitor метод. Вызывается после окончания перечисления смарттега.
+description: DocumentVisitor метод. Вызывается когда перечисление смарттега завершено.
 type: docs
 weight: 410
 url: /ru/net/aspose.words/documentvisitor/visitsmarttagend/
 ---
 ## DocumentVisitor.VisitSmartTagEnd method
 
-Вызывается после окончания перечисления смарт-тега.
+Вызывается, когда перечисление смарт-тега завершено.
 
 ```csharp
 public virtual VisitorAction VisitSmartTagEnd(SmartTag smartTag)
@@ -24,7 +24,7 @@ public virtual VisitorAction VisitSmartTagEnd(SmartTag smartTag)
 
 ### Примеры
 
-Показывает, как распечатать структуру узла каждого смарт-тега в документе.
+Показывает, как распечатать структуру узлов каждого смарт-тега в документе.
 
 ```csharp
 public void SmartTagToText()
@@ -32,16 +32,16 @@ public void SmartTagToText()
     Document doc = new Document(MyDir + "Smart tags.doc");
     SmartTagStructurePrinter visitor = new SmartTagStructurePrinter();
 
-    // Когда составной узел принимает посетителя документа, посетитель посещает принимающий узел,
-    // а затем обходит все дочерние элементы узла в порядке глубины.
-    // Посетитель может читать и изменять каждый посещаемый узел.
+    // Когда мы получаем составной узел для приема посетителя документа, посетитель посещает принимающий узел,
+    // а затем обходит все дочерние узлы в глубину.
+    // Посетитель может читать и изменять каждый посещенный узел.
     doc.Accept(visitor);
 
     Console.WriteLine(visitor.GetText());
 }
 
 /// <summary>
-/// Обходит небинарное дерево дочерних узлов узла.
+/// Обходит недвоичное дерево дочерних узлов узла.
 /// Создает карту в виде строки всех встреченных узлов SmartTag и их дочерних элементов.
 /// </summary>
 public class SmartTagStructurePrinter : DocumentVisitor
@@ -53,7 +53,7 @@ public class SmartTagStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Получает обычный текст документа, который накопил посетитель.
+    /// Получает открытый текст документа, накопленный посетителем.
     /// </summary>
     public string GetText()
     {
@@ -95,7 +95,7 @@ public class SmartTagStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Добавляем строку в StringBuilder и делаем отступ в зависимости от того, насколько глубоко посетитель находится в дереве документа.
+    /// Добавляем строку к StringBuilder и отступаем от нее в зависимости от того, насколько глубоко посетитель находится в дереве документа.
     /// </summary>
     /// <param name="text"></param>
     private void IndentAndAppendLine(string text)

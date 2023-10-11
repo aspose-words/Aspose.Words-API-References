@@ -1,12 +1,14 @@
 ---
 title: Class Glyph
 second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Shaping.Glyph classe. 
+description: Aspose.Words.Shaping.Glyph classe. Rappresenta un glifo
 type: docs
-weight: 5740
+weight: 6040
 url: /it/net/aspose.words.shaping/glyph/
 ---
 ## Glyph class
+
+Rappresenta un glifo
 
 ```csharp
 public class Glyph
@@ -16,23 +18,23 @@ public class Glyph
 
 | Nome | Descrizione |
 | --- | --- |
-| [Glyph](glyph/)(int, short, short, short) |  |
+| [Glyph](glyph/)(int, short, short, short) | Inizializza la nuova istanza di questa classe. |
 
 ## Proprietà
 
 | Nome | Descrizione |
 | --- | --- |
-| [Advance](../../aspose.words.shaping/glyph/advance/) { get; set; } |  |
-| [AdvanceOffset](../../aspose.words.shaping/glyph/advanceoffset/) { get; } |  |
-| [AscenderOffset](../../aspose.words.shaping/glyph/ascenderoffset/) { get; } |  |
-| [GlyphIndex](../../aspose.words.shaping/glyph/glyphindex/) { get; } |  |
+| [Advance](../../aspose.words.shaping/glyph/advance/) { get; set; } | Larghezza avanzata che indica il posizionamento del glifo successivo. |
+| [AdvanceOffset](../../aspose.words.shaping/glyph/advanceoffset/) { get; } | Offset orizzontale (x) rispetto alla posizione del glifo. Utilizzato principalmente per allegare segni (come i segni diacritici) ai caratteri di base. |
+| [AscenderOffset](../../aspose.words.shaping/glyph/ascenderoffset/) { get; } | Offset verticale (y) rispetto alla posizione del glifo. Utilizzato principalmente per allegare segni (come i segni diacritici) ai caratteri di base. |
+| [GlyphIndex](../../aspose.words.shaping/glyph/glyphindex/) { get; } | Indice del glifo (GID) nel carattere fisico. |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| [Clone](../../aspose.words.shaping/glyph/clone/)() |  |
-| virtual [GetWidth](../../aspose.words.shaping/glyph/getwidth/)(int, float) |  |
+| virtual [Clone](../../aspose.words.shaping/glyph/clone/)() | Restituisce un clone di questa istanza. |
+| virtual [GetWidth](../../aspose.words.shaping/glyph/getwidth/)(int, float) | Restituisce la larghezza (avanzamento) del glifo in punti. |
 
 ### Guarda anche
 

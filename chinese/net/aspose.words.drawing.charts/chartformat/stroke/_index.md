@@ -1,14 +1,14 @@
 ---
 title: ChartFormat.Stroke
 second_title: Aspose.Words for .NET API 参考
-description: ChartFormat 财产. 获取父图表元素的行格式
+description: ChartFormat 财产. 获取父图表元素的线条格式
 type: docs
-weight: 20
+weight: 40
 url: /zh/net/aspose.words.drawing.charts/chartformat/stroke/
 ---
 ## ChartFormat.Stroke property
 
-获取父图表元素的行格式。
+获取父图表元素的线条格式。
 
 ```csharp
 public Stroke Stroke { get; }

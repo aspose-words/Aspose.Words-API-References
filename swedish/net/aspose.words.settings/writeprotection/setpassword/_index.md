@@ -16,7 +16,7 @@ public void SetPassword(string password)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| password | String | Lösenordet att ställa in. Kan inte vara null, men kan vara en tom sträng. |
+| password | String | Lösenordet att ställa in. Kan inte vara`null`, men kan vara en tom sträng. |
 
 ### Anmärkningar
 
@@ -30,7 +30,6 @@ Visar hur man skyddar ett dokument med ett lösenord.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world! This document is protected.");
-
 // Ange ett lösenord på upp till 15 tecken och verifiera sedan dokumentets skyddsstatus.
 doc.WriteProtection.SetPassword("MyPassword");
 doc.WriteProtection.ReadOnlyRecommended = true;

@@ -1,14 +1,14 @@
 ---
 title: CustomPart.IsExternal
 second_title: Aspose.Words for .NET API Referansı
-description: CustomPart mülk. Yanlış bu özel parça OOXML paketinin içinde saklanıyorsa.Doğru bu özel parça harici bir hedefse.
+description: CustomPart mülk. Bu özel parça OOXML paketinin içinde saklanıyorsa yanlış. Bu özel parça harici bir hedefse doğrudur.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.markup/custompart/isexternal/
 ---
 ## CustomPart.IsExternal property
 
-`Yanlış` bu özel parça OOXML paketinin içinde saklanıyorsa.`Doğru` bu özel parça harici bir hedefse.
+Bu özel parça OOXML paketinin içinde saklanıyorsa yanlış. Bu özel parça harici bir hedefse doğrudur.
 
 ```csharp
 public bool IsExternal { get; set; }
@@ -16,23 +16,23 @@ public bool IsExternal { get; set; }
 
 ### Notlar
 
-Varsayılan değer`yanlış`.
+Varsayılan değer:`YANLIŞ`.
 
 ### Örnekler
 
-Bir belgenin isteğe bağlı özel parça koleksiyonuna nasıl erişileceğini gösterir.
+Bir belgenin rastgele özel parça koleksiyonuna nasıl erişileceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Custom parts OOXML package.docx");
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);
 
-// İkinci bölümü klonlayın, ardından klonu koleksiyona ekleyin.
+// İkinci kısmı klonlayın, ardından klonu koleksiyona ekleyin.
 CustomPart clonedPart = doc.PackageCustomParts[1].Clone();
 doc.PackageCustomParts.Add(clonedPart);
 Assert.AreEqual(3, doc.PackageCustomParts.Count);
 
-// Koleksiyon üzerinde numaralandırın ve her parçayı yazdırın.
+// Koleksiyonun üzerinde numaralandırın ve her parçayı yazdırın.
 using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator())
 {
     int index = 0;
@@ -49,7 +49,7 @@ using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator
     }
 }
 
-// Bu koleksiyondaki öğeleri tek tek veya bir kerede kaldırabiliriz.
+// Bu koleksiyondaki öğeleri tek tek veya hepsini birden kaldırabiliriz.
 doc.PackageCustomParts.RemoveAt(2);
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);

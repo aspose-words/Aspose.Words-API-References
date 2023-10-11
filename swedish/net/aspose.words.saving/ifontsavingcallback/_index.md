@@ -3,7 +3,7 @@ title: Interface IFontSavingCallback
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Saving.IFontSavingCallback gränssnitt. Implementera detta gränssnitt om du vill ta emot meddelanden och kontrollera hur Aspose.Words sparar teckensnitt när du exporterar ett dokument till HTMLformat.
 type: docs
-weight: 4900
+weight: 5160
 url: /sv/net/aspose.words.saving/ifontsavingcallback/
 ---
 ## IFontSavingCallback interface
@@ -25,6 +25,7 @@ public interface IFontSavingCallback
 Visar hur man definierar anpassad logik för att exportera teckensnitt när man sparar till HTML.
 
 ```csharp
+public void SaveExportedFonts()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
@@ -43,6 +44,8 @@ Visar hur man definierar anpassad logik för att exportera teckensnitt när man 
     {
         Console.WriteLine(fontFilename);
     }
+
+}
 
 /// <summary>
 /// Skriver ut information om exporterade teckensnitt och sparar dem i samma lokala systemmapp som deras utdata .html.

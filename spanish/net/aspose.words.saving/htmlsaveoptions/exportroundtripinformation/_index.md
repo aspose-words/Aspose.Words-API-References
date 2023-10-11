@@ -1,14 +1,14 @@
 ---
 title: HtmlSaveOptions.ExportRoundtripInformation
 second_title: Referencia de API de Aspose.Words para .NET
-description: HtmlSaveOptions propiedad. Especifica si se escribe la información de ida y vuelta al guardar en HTML MHTML o EPUB. El valor predeterminado esverdadero para HTML yfalso para MHTML y EPUB.
+description: HtmlSaveOptions propiedad. Especifica si se escribe la información de ida y vuelta al guardar en HTML MHTML o EPUB. El valor predeterminado esverdadero para HTML yFALSO para MHTML y EPUB.
 type: docs
-weight: 250
+weight: 240
 url: /es/net/aspose.words.saving/htmlsaveoptions/exportroundtripinformation/
 ---
 ## HtmlSaveOptions.ExportRoundtripInformation property
 
-Especifica si se escribe la información de ida y vuelta al guardar en HTML, MHTML o EPUB. El valor predeterminado es`verdadero` para HTML y`falso` para MHTML y EPUB.
+Especifica si se escribe la información de ida y vuelta al guardar en HTML, MHTML o EPUB. El valor predeterminado es`verdadero` para HTML y`FALSO` para MHTML y EPUB.
 
 ```csharp
 public bool ExportRoundtripInformation { get; set; }
@@ -16,11 +16,11 @@ public bool ExportRoundtripInformation { get; set; }
 
 ### Observaciones
 
-Guardar la información de ida y vuelta permite restaurar las propiedades del documento, como las tabulaciones, los comentarios , los encabezados y los pies de página durante la carga de los documentos HTML en un[`Document`](../../../aspose.words/document/) objeto.
+Guardar la información de ida y vuelta permite restaurar propiedades del documento, como tabulaciones, comentarios , encabezados y pies de página durante la carga de documentos HTML nuevamente en un[`Document`](../../../aspose.words/document/) objeto.
 
 Cuando`verdadero`, la información de ida y vuelta se exporta como -aw-* CSS properties de los elementos HTML correspondientes.
 
-Cuando`falso`, no genera información de ida y vuelta en los archivos producidos.
+Cuando`FALSO`, hace que no se envíe información de ida y vuelta a los archivos producidos.
 
 ### Ejemplos
 
@@ -30,16 +30,16 @@ Muestra cómo conservar elementos ocultos al convertir a .html.
 Document doc = new Document(MyDir + "Rendering.docx");
 
 // Al convertir un documento a .html, algunos elementos como marcadores ocultos, posiciones de formas originales,
-// o las notas al pie se eliminarán o se convertirán en texto sin formato y se perderán efectivamente.
-// Guardar con un objeto HtmlSaveOptions con ExportRoundtripInformation establecido en verdadero conservará estos elementos.
+// o las notas a pie de página se eliminarán o se convertirán a texto sin formato y, efectivamente, se perderán.
+// Guardar con un objeto HtmlSaveOptions con ExportRoundtripInformation establecido en verdadero preservará estos elementos.
 
 // Cuando guardamos el documento en HTML, podemos pasar un objeto SaveOptions para determinar
-// cómo la operación de guardado exportará elementos del documento que HTML no admite o no utiliza,
+// cómo la operación de guardar exportará elementos del documento que HTML no admite ni utiliza,
 // como marcadores ocultos y posiciones de formas originales.
-// Si establecemos el indicador "ExportRoundtripInformation" en "true", la operación de guardado conservará estos elementos.
-// Si establecemos el indicador "ExportRoundTripInformation" en "falso", la operación de guardar descartará estos elementos.
-// Querremos conservar dichos elementos si tenemos la intención de cargar el HTML guardado usando Aspose.Words,
-// ya que podrían ser útiles una vez más.
+// Si configuramos el indicador "ExportRoundtripInformation" en "verdadero", la operación de guardar preservará estos elementos.
+// Si configuramos el indicador "ExportRoundTripInformation" en "falso", la operación de guardar descartará estos elementos.
+// Querremos conservar dichos elementos si pretendemos cargar el HTML guardado usando Aspose.Words,
+// ya que podrían ser de utilidad una vez más.
 HtmlSaveOptions options = new HtmlSaveOptions { ExportRoundtripInformation = exportRoundtripInformation };
 
 doc.Save(ArtifactsDir + "HtmlSaveOptions.RoundTripInformation.html", options);

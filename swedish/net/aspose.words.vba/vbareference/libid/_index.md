@@ -26,7 +26,6 @@ Beroende på referenstyp kan värdet på den här egenskapen vara:
 Visar hur man hämtar/tar bort ett element från VBA-referenssamlingen.
 
 ```csharp
-[Test]
 public void RemoveVbaReference()
 {
     const string brokenPath = @"X:\broken.dll";
@@ -52,7 +51,7 @@ public void RemoveVbaReference()
 }
 
 /// <summary>
-/// Returnerar en sträng som representerar LibId-sökvägen för en angiven referens. 
+ /// Returnerar en sträng som representerar LibId-sökvägen för en angiven referens.
 /// </summary>
 private static string GetLibIdPath(VbaReference reference)
 {

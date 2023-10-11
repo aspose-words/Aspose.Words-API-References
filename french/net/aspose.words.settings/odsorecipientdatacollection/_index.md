@@ -3,12 +3,14 @@ title: Class OdsoRecipientDataCollection
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Aspose.Words.Settings.OdsoRecipientDataCollection classe. Une collection typée deOdsoRecipientData
 type: docs
-weight: 5640
+weight: 5940
 url: /fr/net/aspose.words.settings/odsorecipientdatacollection/
 ---
 ## OdsoRecipientDataCollection class
 
 Une collection typée de[`OdsoRecipientData`](../odsorecipientdata/)
+
+Pour en savoir plus, visitez le[Fusion et publipostage et création de rapports](https://docs.aspose.com/words/net/mail-merge-and-reporting/) article documentaire.
 
 ```csharp
 public class OdsoRecipientDataCollection : IEnumerable<OdsoRecipientData>
@@ -33,7 +35,7 @@ public class OdsoRecipientDataCollection : IEnumerable<OdsoRecipientData>
 | --- | --- |
 | [Add](../../aspose.words.settings/odsorecipientdatacollection/add/)(OdsoRecipientData) | Ajoute un objet à la fin de cette collection. |
 | [Clear](../../aspose.words.settings/odsorecipientdatacollection/clear/)() | Supprime tous les éléments de cette collection. |
-| [GetEnumerator](../../aspose.words.settings/odsorecipientdatacollection/getenumerator/)() | Renvoie un objet énumérateur qui peut être utilisé pour itérer sur tous les éléments de la collection. |
+| [GetEnumerator](../../aspose.words.settings/odsorecipientdatacollection/getenumerator/)() | Renvoie un objet énumérateur qui peut être utilisé pour parcourir tous les éléments de la collection. |
 | [RemoveAt](../../aspose.words.settings/odsorecipientdatacollection/removeat/)(int) | Supprime l'élément à l'index spécifié. |
 
 ### Exemples
@@ -63,7 +65,7 @@ using (IEnumerator<OdsoRecipientData> enumerator = dataCollection.GetEnumerator(
 // Nous pouvons cloner les éléments de cette collection.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// Nous pouvons également supprimer des éléments individuellement ou effacer toute la collection en une seule fois.
+// Nous pouvons également supprimer des éléments individuellement ou effacer toute la collection en même temps.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(69, dataCollection.Count);

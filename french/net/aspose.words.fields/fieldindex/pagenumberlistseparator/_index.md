@@ -22,10 +22,10 @@ Montre comment modifier le séparateur de numéro de page dans un champ INDEX.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Crée un champ INDEX qui affichera une entrée pour chaque champ XE trouvé dans le document.
+// Créez un champ INDEX qui affichera une entrée pour chaque champ XE trouvé dans le document.
 // Chaque entrée affichera la valeur de la propriété Text du champ XE sur le côté gauche,
 // et le numéro de la page qui contient le champ XE à droite.
-// L'entrée INDEX regroupera les champs XE avec des valeurs correspondantes dans la propriété "Texte"
+// L'entrée INDEX regroupera les champs XE avec les valeurs correspondantes dans la propriété "Texte"
 // en une seule entrée au lieu de créer une entrée pour chaque champ XE.
 FieldIndex index = (FieldIndex)builder.InsertField(FieldType.FieldIndex, true);
 
@@ -38,7 +38,7 @@ index.PageNumberListSeparator = " & ";
 Assert.AreEqual(" INDEX  \\e \", on page(s) \" \\l \" & \"", index.GetFieldCode());
 Assert.True(index.HasPageNumberSeparator);
 
-// Après avoir inséré ces champs XE, le champ INDEX affichera "Première entrée, sur la ou les pages 2 & 3 & 4".
+// Après avoir inséré ces champs XE, le champ INDEX affichera "Première entrée, sur les pages 2 & 3 & 4".
 builder.InsertBreak(BreakType.PageBreak);
 FieldXE indexEntry = (FieldXE)builder.InsertField(FieldType.FieldIndexEntry, true);
 indexEntry.Text = "First entry";
@@ -53,6 +53,7 @@ builder.InsertBreak(BreakType.PageBreak);
 indexEntry = (FieldXE)builder.InsertField(FieldType.FieldIndexEntry, true);
 indexEntry.Text = "First entry";
 
+doc.UpdatePageLayout();
 doc.UpdateFields();
 doc.Save(ArtifactsDir + "Field.INDEX.XE.PageNumberList.docx");
 ```

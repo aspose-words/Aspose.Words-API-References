@@ -1,14 +1,14 @@
 ---
 title: AsposeWordsPrintDocument.CachePrinterSettings
 second_title: Aspose.Words für .NET-API-Referenz
-description: AsposeWordsPrintDocument methode. Liest und speichert einige Felder vonPrinterSettings um die Druckzeit zu reduzieren.
+description: AsposeWordsPrintDocument methode. Liest und speichert einige Felder vonPrinterSettings zur Reduzierung der Druckzeit.
 type: docs
-weight: 20
+weight: 40
 url: /de/net/aspose.words.rendering/asposewordsprintdocument/cacheprintersettings/
 ---
 ## AsposeWordsPrintDocument.CachePrinterSettings method
 
-Liest und speichert einige Felder vonPrinterSettings um die Druckzeit zu reduzieren.
+Liest und speichert einige Felder vonPrinterSettings zur Reduzierung der Druckzeit.
 
 ```csharp
 public void CachePrinterSettings()
@@ -16,7 +16,7 @@ public void CachePrinterSettings()
 
 ### Bemerkungen
 
-Diese Methode wird vor Beginn des Druckens aufgerufen, wenn sie nicht vorher ausgeführt wurde.
+Diese Methode wird vor Beginn des Druckvorgangs aufgerufen, sofern sie nicht zuvor ausgeführt wurde.
 
 ### Beispiele
 
@@ -27,10 +27,10 @@ Document doc = new Document(MyDir + "Rendering.docx");
 
 PrintPreviewDialog previewDlg = new PrintPreviewDialog();
 
-// Rufen Sie die "Show"-Methode auf, damit das Druckvorschau-Formular oben angezeigt wird.
+// Rufen Sie die Methode „Show“ auf, damit das Druckvorschauformular oben angezeigt wird.
 previewDlg.Show();
 
-// Den Druckdialog mit der Anzahl der Seiten im Dokument initialisieren.
+// Druckdialog mit der Anzahl der Seiten im Dokument initialisieren.
 PrintDialog printDlg = new PrintDialog();
 printDlg.AllowSomePages = true;
 printDlg.PrinterSettings.MinimumPage = 1;
@@ -41,22 +41,27 @@ printDlg.PrinterSettings.ToPage = doc.PageCount;
 if (printDlg.ShowDialog() != DialogResult.OK)
     return;
 
-// Erstellen Sie die "Aspose.Words"-Implementierung des .NET-Druckdokuments,
-// und dann die Druckereinstellungen aus dem Dialog übergeben.
+// Erstellen Sie die „Aspose.Words“-Implementierung des .NET-Druckdokuments,
+// und übergeben Sie dann die Druckereinstellungen aus dem Dialog.
 AsposeWordsPrintDocument awPrintDoc = new AsposeWordsPrintDocument(doc);
 awPrintDoc.PrinterSettings = printDlg.PrinterSettings;
 
-// Verwenden Sie die Methode "CachePrinterSettings", um die Zeit des ersten Aufrufs der Methode "Print" zu reduzieren.
+// Geben Sie den neuen Farbdruckmodus an.
+awPrintDoc.ColorMode = ColorPrintMode.GrayscaleAuto;
+
+// Verwenden Sie die Methode „CachePrinterSettings“, um die Zeit des ersten Aufrufs der Methode „Print“ zu verkürzen.
 awPrintDoc.CachePrinterSettings();
 
-// Rufen Sie die "Hide"- und dann die "InvalidatePreview"-Methode auf, damit die Druckvorschau oben angezeigt wird.
+// Rufen Sie die Methoden „Hide“ und dann „InvalidatePreview“ auf, damit die Druckvorschau oben angezeigt wird.
 previewDlg.Hide();
 previewDlg.PrintPreviewControl.InvalidatePreview();
 
-// Übergeben Sie das Druckdokument "Aspose.Words" an das .NET-Druckvorschau-Dialogfeld.
+// Übergeben Sie das Druckdokument „Aspose.Words“ an das .NET-Druckvorschau-Dialogfeld.
 previewDlg.Document = awPrintDoc;
-
 previewDlg.ShowDialog();
+
+awPrintDoc.Print();            
+Console.WriteLine($"The numer of pages printed in color are {awPrintDoc.ColorPagesPrinted}.");
 ```
 
 ### Siehe auch

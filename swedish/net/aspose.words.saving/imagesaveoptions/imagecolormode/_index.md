@@ -38,7 +38,7 @@ Document doc = new Document();
             // välj ett färgläge för bilden som sparas.
             // Om vi ställer in egenskapen "ImageColorMode" till "ImageColorMode.BlackAndWhite",
             // sparoperationen kommer att tillämpa gråskalefärgreduktion medan dokumentet renderas.
-              // Om vi ställer in egenskapen "ImageColorMode" till "ImageColorMode.Grayscale",
+            // Om vi ställer in egenskapen "ImageColorMode" till "ImageColorMode.Grayscale",
             // sparoperationen kommer att göra dokumentet till en monokrom bild.
             // Om vi ställer in egenskapen "ImageColorMode" till "None", kommer sparoperationen att tillämpa standardmetoden
             // och bevara alla dokumentets färger i utdatabilden.

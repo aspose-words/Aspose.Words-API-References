@@ -1,14 +1,14 @@
 ---
 title: DocSaveOptions.AlwaysCompressMetafiles
 second_title: Aspose.Words لمراجع .NET API
-description: DocSaveOptions ملكية. متىخاطئة  لا يتم ضغط ملفات التعريف الصغيرة لسبب الأداء. القيمة الافتراضية هي حقيقي  يتم ضغط كافة ملفات التعريف بغض النظر عن حجمها.
+description: DocSaveOptions ملكية. متىخطأ شنيع  لا يتم ضغط ملفات التعريف الصغيرة لأسباب تتعلق بالأداء. القيمة الافتراضية هيحقيقي يتم ضغط كافة ملفات التعريف بغض النظر عن حجمها.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.saving/docsaveoptions/alwayscompressmetafiles/
 ---
 ## DocSaveOptions.AlwaysCompressMetafiles property
 
-متى`خاطئة` ، لا يتم ضغط ملفات التعريف الصغيرة لسبب الأداء. القيمة الافتراضية هي **حقيقي** ، يتم ضغط كافة ملفات التعريف بغض النظر عن حجمها.
+متى`خطأ شنيع` ، لا يتم ضغط ملفات التعريف الصغيرة لأسباب تتعلق بالأداء. القيمة الافتراضية هي`حقيقي` يتم ضغط كافة ملفات التعريف بغض النظر عن حجمها.
 
 ```csharp
 public bool AlwaysCompressMetafiles { get; set; }
@@ -22,9 +22,9 @@ public bool AlwaysCompressMetafiles { get; set; }
 // افتح مستندًا يحتوي على صيغة Microsoft Equation 3.0.
 Document doc = new Document(MyDir + "Microsoft equation object.docx");
 
-// عندما نحفظ مستندًا ، لا يتم ضغط ملفات التعريف الأصغر لأسباب تتعلق بالأداء.
+// عندما نحفظ مستندًا، لا يتم ضغط ملفات التعريف الأصغر لأسباب تتعلق بالأداء.
 // يمكننا تعيين علامة في كائن SaveOptions لضغط كل ملف تعريف عند الحفظ.
-// بعض المحررين مثل LibreOffice لا يمكنهم قراءة ملفات التعريف غير المضغوطة.
+// لا يستطيع بعض المحررين مثل LibreOffice قراءة ملفات التعريف غير المضغوطة.
 DocSaveOptions saveOptions = new DocSaveOptions();
 saveOptions.AlwaysCompressMetafiles = compressAllMetafiles;
 

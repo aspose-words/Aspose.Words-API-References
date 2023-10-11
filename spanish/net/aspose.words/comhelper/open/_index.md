@@ -1,14 +1,14 @@
 ---
 title: ComHelper.Open
 second_title: Referencia de API de Aspose.Words para .NET
-description: ComHelper método. Permite que una aplicación COM cargue unDocument de un archivo.
+description: ComHelper método. Permite que una aplicación COM cargue unDocument desde un archivo.
 type: docs
 weight: 20
 url: /es/net/aspose.words/comhelper/open/
 ---
 ## Open(string) {#open_1}
 
-Permite que una aplicación COM cargue un[`Document`](../../document/) de un archivo.
+Permite que una aplicación COM cargue un[`Document`](../../document/) desde un archivo.
 
 ```csharp
 public Document Open(string fileName)
@@ -20,11 +20,11 @@ public Document Open(string fileName)
 
 ### Valor_devuelto
 
-A[`Document`](../../document/) objeto que representa un documento de Word.
+A[`Document`](../../document/)Objeto que representa un documento de Word.
 
 ### Observaciones
 
-Este método es igual que llamar al[`Document`](../../document/) constructor con un parámetro de nombre de archivo.
+Este método es lo mismo que llamar al[`Document`](../../document/) constructor con un parámetro de nombre de archivo.
 
 ### Ejemplos
 
@@ -38,7 +38,7 @@ Dim doc
 Set doc = helper.Open(fileName)
 ```
 
-Muestra cómo abrir documentos utilizando la clase ComHelper.
+Muestra cómo abrir documentos usando la clase ComHelper.
 
 ```csharp
 // La clase ComHelper nos permite cargar documentos desde clientes COM.
@@ -49,7 +49,7 @@ Document doc = comHelper.Open(MyDir + "Document.docx");
 
 Assert.AreEqual("Hello World!\r\rHello Word!\r\r\rHello World!", doc.GetText().Trim());
 
-// 2 - De un flujo:
+// 2 - Desde una secuencia:
 using (FileStream stream = new FileStream(MyDir + "Document.docx", FileMode.Open))
 {
     doc = comHelper.Open(stream);
@@ -69,7 +69,7 @@ using (FileStream stream = new FileStream(MyDir + "Document.docx", FileMode.Open
 
 ## Open(Stream) {#open}
 
-Permite cargar una aplicación COM[`Document`](../../document/) de un arroyo.
+Permite cargar una aplicación COM[`Document`](../../document/) de una secuencia.
 
 ```csharp
 public Document Open(Stream stream)
@@ -77,19 +77,19 @@ public Document Open(Stream stream)
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| stream | Stream | Un objeto de flujo de .NET que contiene el documento que se va a cargar. |
+| stream | Stream | Un objeto de secuencia .NET que contiene el documento que se va a cargar. |
 
 ### Valor_devuelto
 
-A[`Document`](../../document/) objeto que representa un documento de Word.
+A[`Document`](../../document/)Objeto que representa un documento de Word.
 
 ### Observaciones
 
-Este método es igual que llamar al[`Document`](../../document/) constructor con un parámetro de flujo.
+Este método es lo mismo que llamar al[`Document`](../../document/) constructor con un parámetro de flujo.
 
 ### Ejemplos
 
-Muestra cómo abrir documentos utilizando la clase ComHelper.
+Muestra cómo abrir documentos usando la clase ComHelper.
 
 ```csharp
 // La clase ComHelper nos permite cargar documentos desde clientes COM.
@@ -100,7 +100,7 @@ Document doc = comHelper.Open(MyDir + "Document.docx");
 
 Assert.AreEqual("Hello World!\r\rHello Word!\r\r\rHello World!", doc.GetText().Trim());
 
-// 2 - De un flujo:
+// 2 - Desde una secuencia:
 using (FileStream stream = new FileStream(MyDir + "Document.docx", FileMode.Open))
 {
     doc = comHelper.Open(stream);

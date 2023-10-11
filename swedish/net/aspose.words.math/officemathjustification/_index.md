@@ -3,7 +3,7 @@ title: Enum OfficeMathJustification
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Math.OfficeMathJustification uppräkning. Anger motiveringen av ekvationen.
 type: docs
-weight: 3900
+weight: 4140
 url: /sv/net/aspose.words.math/officemathjustification/
 ---
 ## OfficeMathJustification enumeration
@@ -39,9 +39,6 @@ OfficeMath officeMath = (OfficeMath) doc.GetChild(NodeType.OfficeMath, 0, true);
 Assert.AreEqual(MathObjectType.OMathPara, officeMath.MathObjectType);
 Assert.AreEqual(NodeType.OfficeMath, officeMath.NodeType);
 Assert.AreEqual(officeMath.ParentNode, officeMath.ParentParagraph);
-
-// OOXML- och WML-format använder egenskapen "EquationXmlEncoding".
-Assert.IsNull(officeMath.EquationXmlEncoding);
 
 // Ändra plats och visningstyp för OfficeMath-noden.
 officeMath.DisplayType = OfficeMathDisplayType.Display;

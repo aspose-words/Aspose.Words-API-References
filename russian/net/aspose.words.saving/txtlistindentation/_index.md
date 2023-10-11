@@ -3,12 +3,14 @@ title: Class TxtListIndentation
 second_title: Справочник по API Aspose.Words для .NET
 description: Aspose.Words.Saving.TxtListIndentation сорт. Определяет отступ уровней списка при экспорте документа вText формат.
 type: docs
-weight: 5370
+weight: 5650
 url: /ru/net/aspose.words.saving/txtlistindentation/
 ---
 ## TxtListIndentation class
 
 Определяет отступ уровней списка при экспорте документа вText формат.
+
+Чтобы узнать больше, посетите[Сохранить документ](https://docs.aspose.com/words/net/save-a-document/) статья документации.
 
 ```csharp
 public class TxtListIndentation
@@ -24,8 +26,8 @@ public class TxtListIndentation
 
 | Имя | Описание |
 | --- | --- |
-| [Character](../../aspose.words.saving/txtlistindentation/character/) { get; set; } | Получает или задает, какой символ использовать для отступа уровней списка. Значение по умолчанию — '\0', что означает отсутствие отступа. |
-| [Count](../../aspose.words.saving/txtlistindentation/count/) { get; set; } | Получает или устанавливает количество[`Character`](./character/) для использования в качестве отступа на один уровень списка. Значение по умолчанию равно 0, что означает отсутствие отступа. |
+| [Character](../../aspose.words.saving/txtlistindentation/character/) { get; set; } | Получает или задает, какой символ использовать для отступов уровней списка. Значение по умолчанию — «\0», что означает отсутствие отступов. |
+| [Count](../../aspose.words.saving/txtlistindentation/count/) { get; set; } | Получает или задает количество[`Character`](./character/) использовать в качестве отступа для одного уровня списка. Значение по умолчанию — 0, что означает отсутствие отступов. |
 
 ### Примеры
 
@@ -43,15 +45,15 @@ builder.Writeln("Item 2");
 builder.ListFormat.ListIndent(); 
 builder.Write("Item 3");
 
-// Создаем объект "TxtSaveOptions", который мы можем передать в метод "Сохранить" документа
+// Создаем объект «TxtSaveOptions», который мы можем передать методу «Save» документа.
 // чтобы изменить способ сохранения документа в виде открытого текста.
 TxtSaveOptions txtSaveOptions = new TxtSaveOptions();
 
-// Установите свойство «Персонаж», чтобы назначить символ для использования
+// Установите свойство «Символ», чтобы назначить используемый символ
 // для заполнения, имитирующего отступ списка в открытом тексте.
 txtSaveOptions.ListIndentation.Character = ' ';
 
-// Установите свойство "Count", чтобы указать количество раз
+// Установите свойство «Count», чтобы указать количество раз
 // для размещения символа заполнения для каждого уровня отступа списка.
 txtSaveOptions.ListIndentation.Count = 3;
 

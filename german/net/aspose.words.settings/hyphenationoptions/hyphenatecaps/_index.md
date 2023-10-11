@@ -1,14 +1,14 @@
 ---
 title: HyphenationOptions.HyphenateCaps
 second_title: Aspose.Words für .NET-API-Referenz
-description: HyphenationOptions eigendom. Erhält oder legt einen Wert fest der bestimmt ob Wörter die ausschließlich in Großbuchstaben geschrieben sind getrennt werden. Der Standardwert für diese Eigenschaft ist Stimmt .
+description: HyphenationOptions eigendom. Ruft den Wert ab oder legt diesen fest der bestimmt ob in Großbuchstaben geschriebene Wörter getrennt werden. Der Standardwert für diese Eigenschaft istWAHR .
 type: docs
 weight: 40
 url: /de/net/aspose.words.settings/hyphenationoptions/hyphenatecaps/
 ---
 ## HyphenationOptions.HyphenateCaps property
 
-Erhält oder legt einen Wert fest, der bestimmt, ob Wörter, die ausschließlich in Großbuchstaben geschrieben sind, getrennt werden. Der Standardwert für diese Eigenschaft ist **Stimmt** .
+Ruft den Wert ab oder legt diesen fest, der bestimmt, ob in Großbuchstaben geschriebene Wörter getrennt werden. Der Standardwert für diese Eigenschaft ist`WAHR` .
 
 ```csharp
 public bool HyphenateCaps { get; set; }

@@ -3,7 +3,7 @@ title: Enum VerticalAlignment
 second_title: Referencia de API de Aspose.Words para .NET
 description: Aspose.Words.Drawing.VerticalAlignment enumeración. Especifica la alineación vertical de una forma flotante un marco de texto o una tabla flotante.
 type: docs
-weight: 1230
+weight: 1380
 url: /es/net/aspose.words.drawing/verticalalignment/
 ---
 ## VerticalAlignment enumeration
@@ -18,9 +18,9 @@ public enum VerticalAlignment
 
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
-| None | `0` | El objeto se posiciona explícitamente, generalmente usando su **Parte superior** propiedad. |
+| None | `0` | El objeto se posiciona explícitamente, generalmente usando su **Arriba** propiedad. |
 | Top | `1` | Especifica que el objeto estará en la parte superior de la base de alineación vertical. |
-| Center | `2` | Especifica que el objeto debe estar centrado con respecto a la base de alineación vertical. |
+| Center | `2` | Especifica que el objeto estará centrado con respecto a la base de alineación vertical. |
 | Bottom | `3` | Especifica que el objeto estará en la parte inferior de la base de alineación vertical. |
 | Inside | `4` | Especifica que el objeto estará dentro de la base de alineación horizontal. |
 | Outside | `5` | Especifica que el objeto estará fuera de la base de alineación vertical. |

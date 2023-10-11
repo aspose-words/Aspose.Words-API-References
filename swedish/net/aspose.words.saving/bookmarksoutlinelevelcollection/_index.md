@@ -3,12 +3,14 @@ title: Class BookmarksOutlineLevelCollection
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Saving.BookmarksOutlineLevelCollection klass. En samling individuella bokmärken konturnivå.
 type: docs
-weight: 4590
+weight: 4850
 url: /sv/net/aspose.words.saving/bookmarksoutlinelevelcollection/
 ---
 ## BookmarksOutlineLevelCollection class
 
 En samling individuella bokmärken konturnivå.
+
+För att lära dig mer, besök[Arbeta med bokmärken](https://docs.aspose.com/words/net/working-with-bookmarks/) dokumentationsartikel.
 
 ```csharp
 public class BookmarksOutlineLevelCollection : IEnumerable<KeyValuePair<string, int>>
@@ -34,7 +36,7 @@ public class BookmarksOutlineLevelCollection : IEnumerable<KeyValuePair<string, 
 | [Add](../../aspose.words.saving/bookmarksoutlinelevelcollection/add/)(string, int) | Lägger till ett bokmärke i samlingen. |
 | [Clear](../../aspose.words.saving/bookmarksoutlinelevelcollection/clear/)() | Tar bort alla element från samlingen. |
 | [Contains](../../aspose.words.saving/bookmarksoutlinelevelcollection/contains/)(string) | Bestämmer om samlingen innehåller ett bokmärke med det angivna namnet. |
-| [GetEnumerator](../../aspose.words.saving/bookmarksoutlinelevelcollection/getenumerator/)() |  |
+| [GetEnumerator](../../aspose.words.saving/bookmarksoutlinelevelcollection/getenumerator/)() | Returnerar ett uppräkningsobjekt som kan användas för att iterera över alla objekt i samlingen. |
 | [IndexOfKey](../../aspose.words.saving/bookmarksoutlinelevelcollection/indexofkey/)(string) | Returnerar det nollbaserade indexet för det angivna bokmärket i samlingen. |
 | [Remove](../../aspose.words.saving/bookmarksoutlinelevelcollection/remove/)(string) | Tar bort ett bokmärke med det angivna namnet från samlingen. |
 | [RemoveAt](../../aspose.words.saving/bookmarksoutlinelevelcollection/removeat/)(int) | Tar bort ett bokmärke vid det angivna indexet. |

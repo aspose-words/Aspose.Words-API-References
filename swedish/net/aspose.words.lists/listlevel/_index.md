@@ -3,12 +3,14 @@ title: Class ListLevel
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Lists.ListLevel klass. Definierar formatering för en listnivå.
 type: docs
-weight: 3300
+weight: 3500
 url: /sv/net/aspose.words.lists/listlevel/
 ---
 ## ListLevel class
 
 Definierar formatering för en listnivå.
+
+För att lära dig mer, besök[Arbeta med listor](https://docs.aspose.com/words/net/working-with-lists/) dokumentationsartikel.
 
 ```csharp
 public class ListLevel
@@ -41,7 +43,7 @@ public class ListLevel
 | [DeletePictureBullet](../../aspose.words.lists/listlevel/deletepicturebullet/)() | Tar bort bildpunkt för den aktuella listnivån. |
 | [Equals](../../aspose.words.lists/listlevel/equals/#equals)(ListLevel) | Jämför med den angivna ListLevel. |
 | override [GetHashCode](../../aspose.words.lists/listlevel/gethashcode/)() | Beräknar hashkod för detta objekt. |
-| static [GetEffectiveValue](../../aspose.words.lists/listlevel/geteffectivevalue/)(int, NumberStyle, string) | Rapporterar strängrepresentationen av`ListLevel` objekt för det angivna index för listobjektet. Parametrar anger[`NumberStyle`](../../aspose.words/numberstyle/) och ett valfritt format string används närCustom anges. |
+| static [GetEffectiveValue](../../aspose.words.lists/listlevel/geteffectivevalue/)(int, NumberStyle, string) | Rapporterar strängrepresentationen av`ListLevel`objekt för det angivna index för listobjektet. Parametrar anger[`NumberStyle`](../../aspose.words/numberstyle/) och ett valfritt format string används närCustom anges. |
 
 ### Anmärkningar
 
@@ -57,8 +59,8 @@ Visar hur du använder anpassad listformatering på stycken när du använder Do
 Document doc = new Document();
 
 // En lista låter oss organisera och dekorera uppsättningar av stycken med prefixsymboler och indrag.
-// Vi kan skapa kapslade listor genom att öka indragsnivån. 
-// Vi kan börja och avsluta en lista genom att använda en dokumentbyggares "ListFormat"-egenskap. 
+ // Vi kan skapa kapslade listor genom att öka indragsnivån.
+ // Vi kan börja och avsluta en lista genom att använda en dokumentbyggares "ListFormat"-egenskap.
 // Varje stycke som vi lägger till mellan en listas början och slutet kommer att bli ett objekt i listan.
 // Skapa en lista från en Microsoft Word-mall och anpassa de två första av listnivåerna.
 List list = doc.Lists.Add(ListTemplate.NumberDefault);

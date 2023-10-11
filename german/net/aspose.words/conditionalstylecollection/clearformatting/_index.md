@@ -33,19 +33,19 @@ builder.EndTable();
 TableStyle tableStyle = (TableStyle)doc.Styles.Add(StyleType.Table, "MyTableStyle1");
 table.Style = tableStyle;
 
-// Setzen Sie den Tabellenstil so, dass die Ränder der ersten Zeile der Tabelle rot eingefärbt werden.
+// Legen Sie den Tabellenstil fest, um die Ränder der ersten Zeile der Tabelle rot zu färben.
 tableStyle.ConditionalStyles.FirstRow.Borders.Color = Color.Red;
 
-// Setzen Sie den Tabellenstil so, dass die Ränder der letzten Zeile der Tabelle blau eingefärbt werden.
+// Legen Sie den Tabellenstil fest, um die Ränder der letzten Tabellenzeile blau zu färben.
 tableStyle.ConditionalStyles.LastRow.Borders.Color = Color.Blue;
 
-// Im Folgenden finden Sie zwei Möglichkeiten, die Methode "ClearFormatting" zu verwenden, um die bedingten Stile zu löschen.
-// 1 - Löschen Sie die bedingten Stile für einen bestimmten Teil einer Tabelle:
+// Nachfolgend finden Sie zwei Möglichkeiten, die Methode „ClearFormatting“ zum Löschen der bedingten Stile zu verwenden.
+// 1 – Bedingte Stile für einen bestimmten Teil einer Tabelle löschen:
 tableStyle.ConditionalStyles[0].ClearFormatting();
 
 Assert.AreEqual(Color.Empty, tableStyle.ConditionalStyles.FirstRow.Borders.Color);
 
-// 2 - Löschen Sie die bedingten Stile für die gesamte Tabelle:
+// 2 – Bedingte Stile für die gesamte Tabelle löschen:
 tableStyle.ConditionalStyles.ClearFormatting();
 
 Assert.True(tableStyle.ConditionalStyles.All(s => s.Borders.Color == Color.Empty));

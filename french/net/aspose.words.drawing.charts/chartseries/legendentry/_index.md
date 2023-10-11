@@ -3,7 +3,7 @@ title: ChartSeries.LegendEntry
 second_title: Référence de l'API Aspose.Words pour .NET
 description: ChartSeries propriété. Obtient une entrée de légende pour cette série de graphiques.
 type: docs
-weight: 80
+weight: 90
 url: /fr/net/aspose.words.drawing.charts/chartseries/legendentry/
 ---
 ## ChartSeries.LegendEntry property

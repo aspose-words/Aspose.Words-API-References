@@ -3,12 +3,14 @@ title: Class ParagraphFormat
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.ParagraphFormat klass. Representerar all formatering för ett stycke.
 type: docs
-weight: 4180
+weight: 4420
 url: /sv/net/aspose.words/paragraphformat/
 ---
 ## ParagraphFormat class
 
 Representerar all formatering för ett stycke.
+
+För att lära dig mer, besök[Arbeta med paragrafer](https://docs.aspose.com/words/net/working-with-paragraphs/) dokumentationsartikel.
 
 ```csharp
 public class ParagraphFormat
@@ -21,6 +23,7 @@ public class ParagraphFormat
 | [AddSpaceBetweenFarEastAndAlpha](../../aspose.words/paragraphformat/addspacebetweenfareastandalpha/) { get; set; } | Hämtar eller ställer in en flagga som anger om teckenavståndet automatiskt justeras mellan regions av latinsk text och regioner av östasiatisk text i det aktuella stycket. |
 | [AddSpaceBetweenFarEastAndDigit](../../aspose.words/paragraphformat/addspacebetweenfareastanddigit/) { get; set; } | Hämtar eller ställer in en flagga som anger om teckenavståndet automatiskt justeras mellan regions av siffror och regioner av östasiatisk text i det aktuella stycket. |
 | [Alignment](../../aspose.words/paragraphformat/alignment/) { get; set; } | Hämtar eller ställer in textjustering för stycket. |
+| [BaselineAlignment](../../aspose.words/paragraphformat/baselinealignment/) { get; set; } | Hämtar eller ställer in teckensnitt vertikalt på en linje. |
 | [Bidi](../../aspose.words/paragraphformat/bidi/) { get; set; } | Hämtar eller ställer in om detta är ett stycke från höger till vänster. |
 | [Borders](../../aspose.words/paragraphformat/borders/) { get; } | Hämtar samling av kanter för stycket. |
 | [CharacterUnitFirstLineIndent](../../aspose.words/paragraphformat/characterunitfirstlineindent/) { get; set; } | Hämtar eller ställer in värdet (i tecken) för första raden eller hängande indrag. |
@@ -40,12 +43,12 @@ public class ParagraphFormat
 | [LinesToDrop](../../aspose.words/paragraphformat/linestodrop/) { get; set; } | Hämtar eller ställer in antalet rader i stycketexten som används för att beräkna fallhöjden. |
 | [LineUnitAfter](../../aspose.words/paragraphformat/lineunitafter/) { get; set; } | Hämtar eller ställer in mängden mellanrum (i rutnätslinjer) efter styckena. |
 | [LineUnitBefore](../../aspose.words/paragraphformat/lineunitbefore/) { get; set; } | Hämtar eller ställer in mängden mellanrum (i rutnätslinjer) före styckena. |
-| [NoSpaceBetweenParagraphsOfSameStyle](../../aspose.words/paragraphformat/nospacebetweenparagraphsofsamestyle/) { get; set; } | När sant,[`SpaceBefore`](./spacebefore/) och[`SpaceAfter`](./spaceafter/) kommer att ignoreras mellan styckena i samma stil. |
+| [NoSpaceBetweenParagraphsOfSameStyle](../../aspose.words/paragraphformat/nospacebetweenparagraphsofsamestyle/) { get; set; } | När`Sann` ,[`SpaceBefore`](./spacebefore/) och[`SpaceAfter`](./spaceafter/) kommer att ignoreras mellan styckena i samma stil. |
 | [OutlineLevel](../../aspose.words/paragraphformat/outlinelevel/) { get; set; } | Anger konturnivån för stycket i dokumentet. |
 | [PageBreakBefore](../../aspose.words/paragraphformat/pagebreakbefore/) { get; set; } | Sant om en sidbrytning tvingas före stycket. |
 | [RightIndent](../../aspose.words/paragraphformat/rightindent/) { get; set; } | Hämtar eller ställer in värdet (i poäng) som representerar höger indrag för stycke. |
-| [Shading](../../aspose.words/paragraphformat/shading/) { get; } | Returnerar ett Shading-objekt som refererar till skuggformateringen för stycket. |
-| [SnapToGrid](../../aspose.words/paragraphformat/snaptogrid/) { get; set; } | Anger om det aktuella stycket ska använda dokumentrutnätslinjerna per sida-inställningar när innehållet i stycket läggs ut. |
+| [Shading](../../aspose.words/paragraphformat/shading/) { get; } | Returnerar en[`Shading`](../shading/) objekt som hänvisar till skuggningsformateringen för stycket. |
+| [SnapToGrid](../../aspose.words/paragraphformat/snaptogrid/) { get; set; } | Anger om det aktuella stycket ska använda dokumentrutnätslinjerna per sida settings när man lägger ut innehållet i stycket. |
 | [SpaceAfter](../../aspose.words/paragraphformat/spaceafter/) { get; set; } | Hämtar eller ställer in mängden mellanrum (i poäng) efter stycket. |
 | [SpaceAfterAuto](../../aspose.words/paragraphformat/spaceafterauto/) { get; set; } | Sant om mängden avstånd efter stycket ställs in automatiskt. |
 | [SpaceBefore](../../aspose.words/paragraphformat/spacebefore/) { get; set; } | Hämtar eller ställer in mängden avstånd (i poäng) före stycket. |
@@ -57,7 +60,7 @@ public class ParagraphFormat
 | [SuppressLineNumbers](../../aspose.words/paragraphformat/suppresslinenumbers/) { get; set; } | Anger om det aktuella styckets rader ska undantas från radnumrering som tillämpas i det överordnade avsnittet. |
 | [TabStops](../../aspose.words/paragraphformat/tabstops/) { get; } | Hämtar samlingen av anpassade tabbstopp definierade för detta objekt. |
 | [WidowControl](../../aspose.words/paragraphformat/widowcontrol/) { get; set; } | Sant om första och sista raden i stycket ska vara kvar på samma sida som resten av stycket. |
-| [WordWrap](../../aspose.words/paragraphformat/wordwrap/) { get; set; } | Om den här egenskapen är **falsk** latinsk text i mitten av ett ord kan lindas för det aktuella stycket. Annars är latinsk text omsluten av hela ord. |
+| [WordWrap](../../aspose.words/paragraphformat/wordwrap/) { get; set; } | Om den här egenskapen är`falsk` , latinsk text i mitten av ett ord kan lindas för det aktuella stycket. Annars är latinsk text omsluten av hela ord. |
 
 ## Metoder
 

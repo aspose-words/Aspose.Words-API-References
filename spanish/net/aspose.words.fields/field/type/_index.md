@@ -16,7 +16,7 @@ public virtual FieldType Type { get; }
 
 ### Ejemplos
 
-Muestra cómo insertar un campo en un documento utilizando un código de campo.
+Muestra cómo insertar un campo en un documento usando un código de campo.
 
 ```csharp
 Document doc = new Document();

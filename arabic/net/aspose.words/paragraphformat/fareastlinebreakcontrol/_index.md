@@ -1,14 +1,14 @@
 ---
 title: ParagraphFormat.FarEastLineBreakControl
 second_title: Aspose.Words لمراجع .NET API
-description: ParagraphFormat ملكية. الحصول على أو تعيين علامة تشير إلى ما إذا كان يتم تطبيق قواعد فصل الأسطر في شرق آسيا على الفقرة الحالية.
+description: ParagraphFormat ملكية. الحصول على علامة تشير إلى ما إذا كانت قواعد فصل الأسطر في شرق آسيا مطبقة على الفقرة الحالية أو تعيينها.
 type: docs
-weight: 100
+weight: 110
 url: /ar/net/aspose.words/paragraphformat/fareastlinebreakcontrol/
 ---
 ## ParagraphFormat.FarEastLineBreakControl property
 
-الحصول على أو تعيين علامة تشير إلى ما إذا كان يتم تطبيق قواعد فصل الأسطر في شرق آسيا على الفقرة الحالية.
+الحصول على علامة تشير إلى ما إذا كانت قواعد فصل الأسطر في شرق آسيا مطبقة على الفقرة الحالية أو تعيينها.
 
 ```csharp
 public bool FarEastLineBreakControl { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: Shape.SignatureLine
 second_title: Aspose.Words لمراجع .NET API
-description: Shape ملكية. يحصلSignatureLine الكائن إذا كان الشكل عبارة عن خط توقيع. عائدات لا شيء خلاف ذلك.
+description: Shape ملكية. يحصلSignatureLine كائن إذا كان الشكل عبارة عن خط توقيع. عائداتباطل وإلا.
 type: docs
 weight: 160
 url: /ar/net/aspose.words.drawing/shape/signatureline/
 ---
 ## Shape.SignatureLine property
 
-يحصل`SignatureLine` الكائن إذا كان الشكل عبارة عن خط توقيع. عائدات **لا شيء** خلاف ذلك.
+يحصل[`SignatureLine`](../../signatureline/) كائن إذا كان الشكل عبارة عن خط توقيع. عائدات`باطل` وإلا.
 
 ```csharp
 public SignatureLine SignatureLine { get; }
@@ -16,7 +16,7 @@ public SignatureLine SignatureLine { get; }
 
 ### ملاحظات
 
-يمكنك إدراج خطوط التوقيع الجديدة في المستند باستخدام[`InsertSignatureLine`](../../../aspose.words/documentbuilder/insertsignatureline/) و
+يمكنك إدراج جديد[`SignatureLine`](../../signatureline/) في المستند باستخدام[`InsertSignatureLine`](../../../aspose.words/documentbuilder/insertsignatureline/) و
 
 ### أمثلة
 
@@ -37,16 +37,16 @@ SignatureLineOptions options = new SignatureLineOptions
     SignerTitle = "Senior Manager"
 };
 
-// أدخل شكلًا يحتوي على سطر توقيع ، سنظهر مظهره
-// تخصيص باستخدام كائن "SignatureLineOptions" الذي أنشأناه أعلاه.
-// إذا أدخلنا شكلًا تنشأ إحداثياته في الركن الأيمن السفلي من الصفحة ،
-// سنحتاج إلى توفير إحداثيات سالبة س و ص لإبراز الشكل.
+// قم بإدراج شكل يحتوي على سطر التوقيع، وسنقوم بمظهره
+// التخصيص باستخدام كائن "SignatureLineOptions" الذي أنشأناه أعلاه.
+// إذا قمنا بإدراج شكل تقع إحداثياته في الركن الأيمن السفلي من الصفحة،
+// سنحتاج إلى توفير إحداثيات x وy السالبة لعرض الشكل.
 Shape shape = builder.InsertSignatureLine(options, RelativeHorizontalPosition.RightMargin, -170.0, 
         RelativeVerticalPosition.BottomMargin, -60.0, WrapType.None);
 
 Assert.True(shape.IsSignatureLine);
 
-// تحقق من خصائص خط التوقيع الخاص بنا عبر كائن الشكل الخاص به.
+// التحقق من خصائص خط التوقيع الخاص بنا عبر كائن الشكل الخاص به.
 SignatureLine signatureLine = shape.SignatureLine;
 
 Assert.AreEqual("john.doe@management.com", signatureLine.Email);

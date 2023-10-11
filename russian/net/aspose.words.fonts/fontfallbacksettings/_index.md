@@ -1,14 +1,16 @@
 ---
 title: Class FontFallbackSettings
 second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Fonts.FontFallbackSettings сорт. Задает настройки резервного механизма шрифта.
+description: Aspose.Words.Fonts.FontFallbackSettings сорт. Задает настройки механизма резервного шрифта.
 type: docs
-weight: 2720
+weight: 2900
 url: /ru/net/aspose.words.fonts/fontfallbacksettings/
 ---
 ## FontFallbackSettings class
 
-Задает настройки резервного механизма шрифта.
+Задает настройки механизма резервного шрифта.
+
+Чтобы узнать больше, посетите[Работа со шрифтами](https://docs.aspose.com/words/net/working-with-fonts/) статья документации.
 
 ```csharp
 public class FontFallbackSettings
@@ -20,10 +22,10 @@ public class FontFallbackSettings
 | --- | --- |
 | [BuildAutomatic](../../aspose.words.fonts/fontfallbacksettings/buildautomatic/)() | Автоматически создает резервные настройки путем сканирования доступных шрифтов. |
 | [Load](../../aspose.words.fonts/fontfallbacksettings/load/#load)(Stream) | Загружает резервные настройки из потока XML. |
-| [Load](../../aspose.words.fonts/fontfallbacksettings/load/#load_1)(string) | Загружает резервные настройки шрифта из файла XML. |
-| [LoadMsOfficeFallbackSettings](../../aspose.words.fonts/fontfallbacksettings/loadmsofficefallbacksettings/)() | Загружает предопределенные резервные настройки, имитирующие резервный вариант Microsoft Word и использующие офисные шрифты Microsoft. |
-| [LoadNotoFallbackSettings](../../aspose.words.fonts/fontfallbacksettings/loadnotofallbacksettings/)() | Загружает предварительно определенные резервные настройки, в которых используются шрифты Google Noto. |
-| [Save](../../aspose.words.fonts/fontfallbacksettings/save/#save)(Stream) | Сохраняет текущие резервные настройки в потоке. |
+| [Load](../../aspose.words.fonts/fontfallbacksettings/load/#load_1)(string) | Загружает настройки резервного шрифта из XML-файла. |
+| [LoadMsOfficeFallbackSettings](../../aspose.words.fonts/fontfallbacksettings/loadmsofficefallbacksettings/)() | Загружает предопределенные резервные настройки, которые имитируют резервный вариант Microsoft Word и используют шрифты Microsoft Office. |
+| [LoadNotoFallbackSettings](../../aspose.words.fonts/fontfallbacksettings/loadnotofallbacksettings/)() | Загружает предопределенные резервные настройки, в которых используются шрифты Google Noto. |
+| [Save](../../aspose.words.fonts/fontfallbacksettings/save/#save)(Stream) | Сохраняет текущие резервные настройки в потоковом режиме. |
 | [Save](../../aspose.words.fonts/fontfallbacksettings/save/#save_1)(string) | Сохраняет текущие резервные настройки в файл. |
 
 ### Примечания
@@ -32,7 +34,7 @@ public class FontFallbackSettings
 
 ### Примеры
 
-Показывает, как распределять резервные шрифты по диапазонам кодов символов Unicode.
+Показывает, как распределять резервные шрифты по диапазонам кодов символов Юникода.
 
 ```csharp
 Document doc = new Document();
@@ -41,28 +43,28 @@ FontSettings fontSettings = new FontSettings();
 doc.FontSettings = fontSettings;
 FontFallbackSettings fontFallbackSettings = fontSettings.FallbackSettings;
 
-// Настройте наши параметры шрифта так, чтобы исходные шрифты были только из папки «MyFonts».
+// Настройте наши настройки шрифтов так, чтобы исходные шрифты были только из папки «MyFonts».
 FolderFontSource folderFontSource = new FolderFontSource(FontsDir, false);
 fontSettings.SetFontsSources(new FontSourceBase[] {folderFontSource});
 
 // Вызов метода "BuildAutomatic" сгенерирует резервную схему, которая
-// распределяет доступные шрифты по как можно большему количеству кодов символов Unicode.
-// В нашем случае он имеет доступ только к нескольким шрифтам в папке «MyFonts».
+// распределяет доступные шрифты по как можно большему количеству кодов символов Юникода.
+// В нашем случае у него есть доступ только к небольшому количеству шрифтов в папке «MyFonts».
 fontFallbackSettings.BuildAutomatic();
 fontFallbackSettings.Save(ArtifactsDir + "FontSettings.FallbackSettingsCustom.BuildAutomatic.xml");
 
-// Мы также можем загрузить пользовательскую схему подстановки из файла, подобного этому.
-// Эта схема применяет шрифт «AllegroOpen» к блокам Unicode «0000-00ff», шрифт «AllegroOpen» к блокам «0100-024f»,
-// и шрифт "M+ 2m" во всех других диапазонах, которые другие шрифты в схеме не охватывают.
+// Мы также можем загрузить собственную схему замены из такого файла.
+// Эта схема применяет шрифт «AllegroOpen» к блокам Юникода «0000-00ff», шрифт «AllegroOpen» к блокам «0100-024f»,
+// и шрифт «M+ 2m» во всех остальных диапазонах, которые не охватываются другими шрифтами в схеме.
 fontFallbackSettings.Load(MyDir + "Custom font fallback settings.xml");
 
-// Создайте конструктор документов и установите для него шрифт, которого нет ни в одном из наших источников.
-// Наши настройки шрифта вызовут резервную схему для символов, которые мы набираем, используя недоступный шрифт.
+// Создаем конструктор документов и устанавливаем для него шрифт, которого нет ни в одном из наших источников.
+// Наши настройки шрифта будут вызывать резервную схему для символов, которые мы печатаем с использованием недоступного шрифта.
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Font.Name = "Missing Font";
 
-// Используйте построитель для печати каждого символа Unicode от 0x0021 до 0x052F,
-// с описательными строками, разделяющими блоки Unicode, которые мы определили в нашей собственной схеме отката шрифта.
+// Используйте конструктор для печати каждого символа Юникода от 0x0021 до 0x052F,
+// с описательными линиями, разделяющими блоки Юникода, которые мы определили в нашей резервной схеме пользовательского шрифта.
 for (int i = 0x0021; i < 0x0530; i++)
 {
     switch (i)

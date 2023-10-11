@@ -1,14 +1,14 @@
 ---
 title: FieldSymbol.FontName
 second_title: Aspose.Words für .NET-API-Referenz
-description: FieldSymbol eigendom. Ruft den Namen der Schriftart des vom Feld abgerufenen Zeichens ab oder legt ihn fest.
+description: FieldSymbol eigendom. Ruft den Namen der Schriftart des vom Feld abgerufenen Zeichens ab oder legt diesen fest.
 type: docs
 weight: 40
 url: /de/net/aspose.words.fields/fieldsymbol/fontname/
 ---
 ## FieldSymbol.FontName property
 
-Ruft den Namen der Schriftart des vom Feld abgerufenen Zeichens ab oder legt ihn fest.
+Ruft den Namen der Schriftart des vom Feld abgerufenen Zeichens ab oder legt diesen fest.
 
 ```csharp
 public string FontName { get; set; }
@@ -22,11 +22,11 @@ Zeigt, wie das SYMBOL-Feld verwendet wird.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Nachfolgend finden Sie drei Möglichkeiten, ein SYMBOL-Feld zu verwenden, um ein einzelnes Zeichen anzuzeigen.
-// 1 - Fügen Sie ein SYMBOL-Feld hinzu, das das Symbol © (Copyright) anzeigt, das durch einen ANSI-Zeichencode angegeben wird:
+// Nachfolgend finden Sie drei Möglichkeiten, ein SYMBOL-Feld zur Anzeige eines einzelnen Zeichens zu verwenden.
+// 1 – Fügen Sie ein SYMBOL-Feld hinzu, das das Symbol © (Copyright) anzeigt, das durch einen ANSI-Zeichencode angegeben wird:
 FieldSymbol field = (FieldSymbol)builder.InsertField(FieldType.FieldSymbol, true);
 
-// Der ANSI-Zeichencode "U+00A9" oder "169" in Ganzzahlform ist für das Copyright-Symbol reserviert.
+// Der ANSI-Zeichencode „U+00A9“ oder „169“ in Ganzzahlform ist für das Copyright-Symbol reserviert.
 field.CharacterCode = 0x00a9.ToString();
 field.IsAnsi = true;
 
@@ -34,10 +34,10 @@ Assert.AreEqual(" SYMBOL  169 \\a", field.GetFieldCode());
 
 builder.Writeln(" Line 1");
 
-// 2 - Fügen Sie ein SYMBOL-Feld hinzu, das das Symbol ∞ (Unendlich) anzeigt, und ändern Sie sein Aussehen:
+// 2 – Fügen Sie ein SYMBOL-Feld hinzu, das das Symbol ∞ (Unendlichkeit) anzeigt, und ändern Sie sein Erscheinungsbild:
 field = (FieldSymbol)builder.InsertField(FieldType.FieldSymbol, true);
 
-// In Unicode belegt das Unendlichkeitszeichen den "221E"-Code.
+// In Unicode belegt das Unendlichkeitssymbol den Code „221E“.
 field.CharacterCode = 0x221E.ToString();
 field.IsUnicode = true;
 
@@ -46,14 +46,14 @@ field.IsUnicode = true;
 field.FontName = "Calibri";
 field.FontSize = "24";
 
-// Wir können dieses Flag für große Symbole setzen, damit sie den Rest des Textes in ihrer Zeile nicht nach unten drücken.
+// Wir können dieses Flag für große Symbole setzen, damit sie den Rest des Textes in ihrer Zeile nicht nach unten verschieben.
 field.DontAffectsLineSpacing = true;
 
 Assert.AreEqual(" SYMBOL  8734 \\u \\f Calibri \\s 24 \\h", field.GetFieldCode());
 
 builder.Writeln("Line 2");
 
-// 3 - Fügen Sie ein SYMBOL-Feld hinzu, das das Zeichen あ anzeigt,
+// 3 – Fügen Sie ein SYMBOL-Feld hinzu, das das あ-Zeichen anzeigt,
 // mit einer Schriftart, die die Codepage Shift-JIS (Windows-932) unterstützt:
 field = (FieldSymbol)builder.InsertField(FieldType.FieldSymbol, true);
 field.FontName = "MS Gothic";

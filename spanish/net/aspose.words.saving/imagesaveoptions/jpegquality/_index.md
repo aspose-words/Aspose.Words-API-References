@@ -3,7 +3,7 @@ title: ImageSaveOptions.JpegQuality
 second_title: Referencia de API de Aspose.Words para .NET
 description: ImageSaveOptions propiedad. Obtiene o establece un valor que determina la calidad de las imágenes JPEG generadas.
 type: docs
-weight: 70
+weight: 80
 url: /es/net/aspose.words.saving/imagesaveoptions/jpegquality/
 ---
 ## ImageSaveOptions.JpegQuality property
@@ -16,9 +16,9 @@ public int JpegQuality { get; set; }
 
 ### Observaciones
 
-Solo tiene efecto cuando se guarda en JPEG.
+Tiene efecto sólo al guardar en JPEG.
 
-Utilice esta propiedad para obtener o establecer la calidad de las imágenes generadas al guardarlas en formato JPEG. El valor puede variar de 0 a 100, donde 0 significa la peor calidad pero la compresión máxima y 100 significa la mejor calidad pero la compresión mínima.
+Utilice esta propiedad para obtener o establecer la calidad de las imágenes generadas al guardarlas en formato JPEG. El valor puede variar de 0 a 100, donde 0 significa peor calidad pero compresión máxima y 100 significa mejor calidad pero compresión mínima.
 
 El valor predeterminado es 95.
 
@@ -35,16 +35,16 @@ builder.InsertImage(ImageDir + "Logo.jpg");
 // para modificar la forma en que ese método convierte el documento en una imagen.
 ImageSaveOptions imageOptions = new ImageSaveOptions(SaveFormat.Jpeg);
 
-// Establezca la propiedad "JpegQuality" en "10" para usar una compresión más fuerte al renderizar el documento.
-// Esto reducirá el tamaño del archivo del documento, pero la imagen mostrará artefactos de compresión más prominentes.
+// Establece la propiedad "JpegQuality" en "10" para utilizar una compresión más fuerte al renderizar el documento.
+// Esto reducirá el tamaño del archivo del documento, pero la imagen mostrará artefactos de compresión más destacados.
 imageOptions.JpegQuality = 10;
 
 doc.Save(ArtifactsDir + "ImageSaveOptions.JpegQuality.HighCompression.jpg", imageOptions);
 
 Assert.That(20000, Is.AtLeast(new FileInfo(ArtifactsDir + "ImageSaveOptions.JpegQuality.HighCompression.jpg").Length));
 
-// Establezca la propiedad "JpegQuality" en "100" para usar una compresión más débil al procesar el documento.
-// Esto mejorará la calidad de la imagen a costa de aumentar el tamaño del archivo.
+// Establece la propiedad "JpegQuality" en "100" para utilizar una compresión más débil al renderizar el documento.
+// Esto mejorará la calidad de la imagen a costa de un mayor tamaño de archivo.
 imageOptions.JpegQuality = 100;
 
 doc.Save(ArtifactsDir + "ImageSaveOptions.JpegQuality.HighQuality.jpg", imageOptions);

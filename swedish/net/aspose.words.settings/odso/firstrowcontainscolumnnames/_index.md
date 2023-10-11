@@ -1,14 +1,14 @@
 ---
 title: Odso.FirstRowContainsColumnNames
 second_title: Aspose.Words för .NET API Referens
-description: Odso fast egendom. Anger att ett värdprogram ska behandla den första raden med data i den angivna externa data källan som en rubrikrad som innehåller namnen på varje kolumn i datakällan. Standardvärdet ärfalsk .
+description: Odso fast egendom. Anger att en värdapplikation ska behandla den första raden med data i den angivna externa data källan som en rubrikrad som innehåller namnen på varje kolumn i datakällan. Standardvärdet ärfalsk .
 type: docs
 weight: 60
 url: /sv/net/aspose.words.settings/odso/firstrowcontainscolumnnames/
 ---
 ## Odso.FirstRowContainsColumnNames property
 
-Anger att ett värdprogram ska behandla den första raden med data i den angivna externa data -källan som en rubrikrad som innehåller namnen på varje kolumn i datakällan. Standardvärdet är`falsk` .
+Anger att en värdapplikation ska behandla den första raden med data i den angivna externa data -källan som en rubrikrad som innehåller namnen på varje kolumn i datakällan. Standardvärdet är`falsk` .
 
 ```csharp
 public bool FirstRowContainsColumnNames { get; set; }
@@ -63,7 +63,7 @@ odso.FirstRowContainsColumnNames = true;
 Assert.AreNotSame(odso, odso.Clone());
 Assert.AreNotSame(settings, settings.Clone());
 
-// Att öppna detta dokument i Microsoft Word kommer att köra sammanslagningen innan innehållet visas. 
+ // Att öppna detta dokument i Microsoft Word kommer att köra sammanslagningen innan innehållet visas.
 doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ```
 

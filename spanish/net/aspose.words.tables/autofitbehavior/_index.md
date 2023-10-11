@@ -1,14 +1,14 @@
 ---
 title: Enum AutoFitBehavior
 second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Tables.AutoFitBehavior enumeración. Determina cómo Aspose.Words cambia el tamaño de la tabla cuando invoca elAutoFit método.
+description: Aspose.Words.Tables.AutoFitBehavior enumeración. Determina cómo Aspose.Words cambia el tamaño de la tabla cuando invocas elAutoFit método.
 type: docs
-weight: 5930
+weight: 6230
 url: /es/net/aspose.words.tables/autofitbehavior/
 ---
 ## AutoFitBehavior enumeration
 
-Determina cómo Aspose.Words cambia el tamaño de la tabla cuando invoca el[`AutoFit`](../table/autofit/) método.
+Determina cómo Aspose.Words cambia el tamaño de la tabla cuando invocas el[`AutoFit`](../table/autofit/) método.
 
 ```csharp
 public enum AutoFitBehavior
@@ -18,13 +18,13 @@ public enum AutoFitBehavior
 
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
-| AutoFitToContents | `0` | Aspose.Words habilita la opción AutoFit, elimina el ancho preferido de la tabla y todas las celdas y luego actualiza el diseño de la tabla. |
-| AutoFitToWindow | `1` | Cuando usa este valor, Aspose.Words habilita la opción AutoFit, establece el ancho preferido para la tabla al 100 %, elimina los anchos preferidos de todas las celdas y luego actualiza el diseño de la tabla. |
-| FixedColumnWidths | `2` | Aspose.Words deshabilita la opción AutoFit y elimina el preferido de la tabla. |
+| AutoFitToContents | `0` | Aspose.Words habilita la opción AutoFit, elimina el ancho preferido de la tabla y de todas las celdas y luego actualiza el diseño de la tabla. |
+| AutoFitToWindow | `1` | Cuando usa este valor, Aspose.Words habilita la opción AutoAjustar, establece el ancho preferido para la tabla en 100%, elimina los anchos preferidos de todas las celdas y luego actualiza el diseño de la tabla. |
+| FixedColumnWidths | `2` | Aspose.Words desactiva la opción AutoFit y elimina el preferido de la tabla. |
 
 ### Ejemplos
 
-Muestra cómo construir una nueva tabla mientras se aplica un estilo.
+Muestra cómo crear una nueva tabla mientras se aplica un estilo.
 
 ```csharp
 Document doc = new Document();
@@ -34,11 +34,11 @@ Table table = builder.StartTable();
 // Debemos insertar al menos una fila antes de configurar cualquier formato de tabla.
 builder.InsertCell();
 
-// Establezca el estilo de tabla utilizado en función del identificador de estilo.
+// Establece el estilo de tabla utilizado según el identificador de estilo.
 // Tenga en cuenta que no todos los estilos de tabla están disponibles al guardar en formato .doc.
 table.StyleIdentifier = StyleIdentifier.MediumShading1Accent1;
 
-// Aplique parcialmente el estilo a las características de la tabla en función de los predicados, luego construya la tabla.
+// Aplique parcialmente el estilo a las características de la tabla según los predicados y luego cree la tabla.
 table.StyleOptions =
     TableStyleOptions.FirstColumn | TableStyleOptions.RowBands | TableStyleOptions.FirstRow;
 table.AutoFit(AutoFitBehavior.AutoFitToContents);
@@ -70,7 +70,7 @@ builder.EndRow();
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertTableWithStyle.docx");
 ```
 
-Muestra cómo crear una tabla de 2x2 con formato.
+Muestra cómo crear una tabla formateada de 2x2.
 
 ```csharp
 Document doc = new Document();
@@ -84,7 +84,7 @@ builder.InsertCell();
 builder.Write("Row 1, cell 2.");
 builder.EndRow();
 
-// Mientras crea la tabla, el generador de documentos aplicará sus valores de propiedad RowFormat/CellFormat actuales
+// Mientras crea la tabla, el creador de documentos aplicará sus valores actuales de propiedad RowFormat/CellFormat
 // a la fila/celda actual en la que se encuentra el cursor y a cualquier fila/celda nueva a medida que las crea.
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[0].CellFormat.VerticalAlignment);
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[1].CellFormat.VerticalAlignment);
@@ -100,7 +100,7 @@ builder.Write("Row 2, cell 2.");
 builder.EndRow();
 builder.EndTable();
 
-// Las filas y celdas añadidas previamente no se ven afectadas retroactivamente por los cambios en el formato del constructor.
+// Las filas y celdas agregadas anteriormente no se ven afectadas retroactivamente por los cambios en el formato del constructor.
 Assert.AreEqual(0, table.Rows[0].RowFormat.Height);
 Assert.AreEqual(HeightRule.Auto, table.Rows[0].RowFormat.HeightRule);
 Assert.AreEqual(100, table.Rows[1].RowFormat.Height);

@@ -1,14 +1,14 @@
 ---
 title: LayoutOptions.ShowParagraphMarks
 second_title: Aspose.Words för .NET API Referens
-description: LayoutOptions fast egendom. Hämtar eller ställer in en indikation på om stycketecken renderas. Standard är False.
+description: LayoutOptions fast egendom. Hämtar eller ställer in en indikation på om stycketecken återges. Standard ärfalsk .
 type: docs
-weight: 80
+weight: 90
 url: /sv/net/aspose.words.layout/layoutoptions/showparagraphmarks/
 ---
 ## LayoutOptions.ShowParagraphMarks property
 
-Hämtar eller ställer in en indikation på om stycketecken renderas. Standard är False.
+Hämtar eller ställer in en indikation på om stycketecken återges. Standard är`falsk` .
 
 ```csharp
 public bool ShowParagraphMarks { get; set; }

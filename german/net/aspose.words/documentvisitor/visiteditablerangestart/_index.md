@@ -1,14 +1,14 @@
 ---
 title: DocumentVisitor.VisitEditableRangeStart
 second_title: Aspose.Words für .NET-API-Referenz
-description: DocumentVisitor methode. Wird aufgerufen wenn im Dokument ein Anfang eines bearbeitbaren Bereichs gefunden wird.
+description: DocumentVisitor methode. Wird aufgerufen wenn im Dokument der Anfang eines bearbeitbaren Bereichs gefunden wird.
 type: docs
 weight: 170
 url: /de/net/aspose.words/documentvisitor/visiteditablerangestart/
 ---
 ## DocumentVisitor.VisitEditableRangeStart method
 
-Wird aufgerufen, wenn im Dokument ein Anfang eines bearbeitbaren Bereichs gefunden wird.
+Wird aufgerufen, wenn im Dokument der Anfang eines bearbeitbaren Bereichs gefunden wird.
 
 ```csharp
 public virtual VisitorAction VisitEditableRangeStart(EditableRangeStart editableRangeStart)
@@ -20,7 +20,7 @@ public virtual VisitorAction VisitEditableRangeStart(EditableRangeStart editable
 
 ### Rückgabewert
 
-EIN[`VisitorAction`](../../visitoraction/) Wert, der angibt, wie die Enumeration fortgesetzt werden soll.
+A[`VisitorAction`](../../visitoraction/) Wert, der angibt, wie die Enumeration fortgesetzt werden soll.
 
 ### Beispiele
 
@@ -32,8 +32,8 @@ public void EditableRangeToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     EditableRangeStructurePrinter visitor = new EditableRangeStructurePrinter();
 
-    // Wenn wir einen zusammengesetzten Knoten dazu bringen, einen Dokumentbesucher zu akzeptieren, besucht der Besucher den akzeptierenden Knoten,
-    // und durchläuft dann alle untergeordneten Elemente des Knotens mit der Tiefe zuerst.
+    // Wenn wir einen zusammengesetzten Knoten erhalten, der einen Dokumentbesucher akzeptiert, besucht der Besucher den akzeptierenden Knoten.
+    // und durchläuft dann alle untergeordneten Knoten des Knotens in einer Tiefe-zuerst-Methode.
     // Der Besucher kann jeden besuchten Knoten lesen und ändern.
     doc.Accept(visitor);
 
@@ -42,7 +42,7 @@ public void EditableRangeToText()
 
 /// <summary>
 /// Durchläuft den nicht-binären Baum der untergeordneten Knoten eines Knotens.
-/// Erstellt eine Karte in Form eines Strings aller angetroffenen EditableRange-Knoten und ihrer Kinder.
+/// Erstellt eine Karte in Form einer Zeichenfolge aller gefundenen EditableRange-Knoten und ihrer untergeordneten Knoten.
 /// </summary>
 public class EditableRangeStructurePrinter : DocumentVisitor
 {
@@ -53,7 +53,7 @@ public class EditableRangeStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Ruft den Klartext des Dokuments ab, das vom Besucher angesammelt wurde.
+    /// Ruft den Klartext des vom Besucher gesammelten Dokuments ab.
     /// </summary>
     public string GetText()
     {
@@ -85,7 +85,7 @@ public class EditableRangeStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Wird aufgerufen, wenn der Besuch eines EditableRange-Knotens beendet ist.
+    /// Wird aufgerufen, wenn der Besuch eines EditableRange-Knotens beendet wird.
     /// </summary>
     public override VisitorAction VisitEditableRangeEnd(EditableRangeEnd editableRangeEnd)
     {
@@ -97,7 +97,7 @@ public class EditableRangeStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Eine Zeile an den StringBuilder anhängen und einrücken, je nachdem, wie tief der Besucher in den Dokumentenbaum eindringt.
+    /// Hängen Sie eine Zeile an den StringBuilder an und rücken Sie sie ein, je nachdem, wie tief sich der Besucher im Dokumentbaum befindet.
     /// </summary>
     /// <param name="text"></param>
     private void IndentAndAppendLine(string text)

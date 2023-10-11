@@ -1,14 +1,14 @@
 ---
 title: List.IsListStyleReference
 second_title: Aspose.Words för .NET API Referens
-description: List fast egendom. Returnerar sant om den här listan är en referens till en liststil.
+description: List fast egendom. ReturnerarSann om den här listan är en referens till en liststil.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.lists/list/isliststylereference/
 ---
 ## List.IsListStyleReference property
 
-Returnerar sant om den här listan är en referens till en liststil.
+Returnerar`Sann` om den här listan är en referens till en liststil.
 
 ```csharp
 public bool IsListStyleReference { get; }
@@ -26,8 +26,8 @@ Visar hur du skapar en liststil och använder den i ett dokument.
 Document doc = new Document();
 
 // En lista låter oss organisera och dekorera uppsättningar av stycken med prefixsymboler och indrag.
-// Vi kan skapa kapslade listor genom att öka indragsnivån. 
-// Vi kan börja och avsluta en lista genom att använda en dokumentbyggares "ListFormat"-egenskap. 
+ // Vi kan skapa kapslade listor genom att öka indragsnivån.
+ // Vi kan börja och avsluta en lista genom att använda en dokumentbyggares "ListFormat"-egenskap.
 // Varje stycke som vi lägger till mellan en listas början och slutet kommer att bli ett objekt i listan.
 // Vi kan innehålla ett helt List-objekt i en stil.
 Style listStyle = doc.Styles.Add(StyleType.List, "MyListStyle");

@@ -3,7 +3,7 @@ title: Document.WriteProtection
 second_title: Aspose.Words for .NET API Referansı
 description: Document mülk. Belge yazma koruması seçeneklerine erişim sağlar.
 type: docs
-weight: 480
+weight: 500
 url: /tr/net/aspose.words/document/writeprotection/
 ---
 ## Document.WriteProtection property
@@ -22,15 +22,14 @@ Bir belgenin parolayla nasıl korunacağını gösterir.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world! This document is protected.");
-
-// En fazla 15 karakter uzunluğunda bir parola girin ve ardından belgenin koruma durumunu doğrulayın.
+// En fazla 15 karakter uzunluğunda bir şifre girin ve ardından belgenin koruma durumunu doğrulayın.
 doc.WriteProtection.SetPassword("MyPassword");
 doc.WriteProtection.ReadOnlyRecommended = true;
 
 Assert.IsTrue(doc.WriteProtection.IsWriteProtected);
 Assert.IsTrue(doc.WriteProtection.ValidatePassword("MyPassword"));
 
-// Koruma, belgenin programlı olarak düzenlenmesini engellemez ve içeriği şifrelemez.
+// Koruma, belgenin programlı olarak düzenlenmesini engellemez veya içeriği şifrelemez.
 doc.Save(ArtifactsDir + "Document.WriteProtection.docx");
 doc = new Document(ArtifactsDir + "Document.WriteProtection.docx");
 

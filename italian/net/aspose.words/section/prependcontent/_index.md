@@ -3,7 +3,7 @@ title: Section.PrependContent
 second_title: Aspose.Words per .NET API Reference
 description: Section metodo. Inserisce una copia del contenuto della sezione sorgente allinizio di questa sezione.
 type: docs
-weight: 140
+weight: 160
 url: /it/net/aspose.words/section/prependcontent/
 ---
 ## Section.PrependContent method
@@ -20,11 +20,11 @@ public void PrependContent(Section sourceSection)
 
 ### Osservazioni
 
-Solo contenuto di[`Body`](../body/) della sezione di origine viene copiato, l'impostazione della pagina, le intestazioni e i piè di pagina di non vengono copiati.
+Solo contenuto di[`Body`](../body/) della sezione sorgente viene copiata, l'impostazione della pagina, le intestazioni e i piè di pagina non vengono copiati.
 
-I nodi vengono importati automaticamente se la sezione di origine appartiene a un documento diverso.
+I nodi vengono importati automaticamente se la sezione sorgente appartiene ad un documento diverso.
 
-Nessuna nuova sezione viene creata nel documento di destinazione.
+Non viene creata alcuna nuova sezione nel documento di destinazione.
 
 ### Esempi
 
@@ -44,11 +44,11 @@ Section section = doc.Sections[2];
 
 Assert.AreEqual("Section 3" + ControlChar.SectionBreak, section.GetText());
 
-// Inserisce il contenuto della prima sezione all'inizio della terza sezione.
+// Inserisci il contenuto della prima sezione all'inizio della terza sezione.
 Section sectionToPrepend = doc.Sections[0];
 section.PrependContent(sectionToPrepend);
 
-// Inserisce il contenuto della seconda sezione alla fine della terza sezione.
+// Inserisci il contenuto della seconda sezione alla fine della terza sezione.
 Section sectionToAppend = doc.Sections[1];
 section.AppendContent(sectionToAppend);
 

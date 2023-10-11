@@ -1,14 +1,14 @@
 ---
 title: ShapeBase.ShapeType
 second_title: Aspose.Words لمراجع .NET API
-description: ShapeBase ملكية. يحصل على نوع الشكل.
+description: ShapeBase ملكية. الحصول على نوع الشكل.
 type: docs
-weight: 460
+weight: 500
 url: /ar/net/aspose.words.drawing/shapebase/shapetype/
 ---
 ## ShapeBase.ShapeType property
 
-يحصل على نوع الشكل.
+الحصول على نوع الشكل.
 
 ```csharp
 public ShapeType ShapeType { get; }
@@ -16,7 +16,7 @@ public ShapeType ShapeType { get; }
 
 ### أمثلة
 
-يوضح كيفية إنشاء مجموعة من الأشكال وطباعة محتوياتها باستخدام زائر المستند.
+يوضح كيفية إنشاء مجموعة من الأشكال، وطباعة محتوياتها باستخدام زائر المستند.
 
 ```csharp
 public void GroupOfShapes()
@@ -24,9 +24,9 @@ public void GroupOfShapes()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // إذا كنت تريد إنشاء أشكال "غير أساسية" ، مثل SingleCornerSnipped و TopCornersSnipped و DiagonalCornersSnipped ،
+    // إذا كنت بحاجة إلى إنشاء أشكال "NonPrimitive"، مثل SingleCornerSnipped، وTopCornersSnipped، وDiagonalCornerSnipped،
     // TopCornersOneRoundedOneSnipped، SingleCornerRounded، TopCornersRounded، DiagonalCornersRounded
-    // الرجاء استخدام أساليب DocumentBuilder.InsertShape.
+    // يرجى استخدام أساليب DocumentBuilder.InsertShape.
     Shape balloon = new Shape(doc, ShapeType.Balloon)
     {
         Width = 200, 
@@ -56,7 +56,7 @@ public void GroupOfShapes()
 }
 
 /// <summary>
-/// يطبع محتويات مجموعة شكل تمت زيارتها على وحدة التحكم.
+/// يطبع محتويات مجموعة الأشكال التي تمت زيارتها إلى وحدة التحكم.
 /// </summary>
 public class ShapeGroupPrinter : DocumentVisitor
 {

@@ -1,14 +1,14 @@
 ---
 title: DocumentVisitor.VisitStructuredDocumentTagEnd
 second_title: Aspose.Words لمراجع .NET API
-description: DocumentVisitor طريقة. يتم استدعاؤها عند انتهاء تعداد علامة مستند منظم.
+description: DocumentVisitor طريقة. يتم استدعاؤه عند انتهاء تعداد علامة المستند المنظمة.
 type: docs
 weight: 440
 url: /ar/net/aspose.words/documentvisitor/visitstructureddocumenttagend/
 ---
 ## DocumentVisitor.VisitStructuredDocumentTagEnd method
 
-يتم استدعاؤها عند انتهاء تعداد علامة مستند منظم.
+يتم استدعاؤه عند انتهاء تعداد علامة المستند المنظمة.
 
 ```csharp
 public virtual VisitorAction VisitStructuredDocumentTagEnd(StructuredDocumentTag sdt)
@@ -24,7 +24,7 @@ public virtual VisitorAction VisitStructuredDocumentTagEnd(StructuredDocumentTag
 
 ### أمثلة
 
-يوضح كيفية طباعة بنية العقدة لكل علامة مستند منظم في مستند.
+يوضح كيفية طباعة بنية العقدة لكل علامة مستند منظمة في المستند.
 
 ```csharp
 public void StructuredDocumentTagToText()
@@ -32,17 +32,17 @@ public void StructuredDocumentTagToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     StructuredDocumentTagNodePrinter visitor = new StructuredDocumentTagNodePrinter();
 
-    // عندما نحصل على عقدة مركبة لقبول زائر المستند ، يزور الزائر عقدة القبول ،
-    // ثم يعبر جميع أبناء العقدة بطريقة العمق أولاً.
-    // يمكن للزائر قراءة كل عقدة تمت زيارتها وتعديلها.
+    // عندما نحصل على عقدة مركبة لقبول زائر المستند، يقوم الزائر بزيارة العقدة المقبولة،
+    // ثم يجتاز جميع أبناء العقدة بطريقة العمق الأول.
+    // يمكن للزائر قراءة وتعديل كل عقدة تمت زيارتها.
     doc.Accept(visitor);
 
     Console.WriteLine(visitor.GetText());
 }
 
 /// <summary>
-/// يتجاوز الشجرة غير الثنائية للعقد الفرعية للعقد.
-/// ينشئ خريطة في شكل سلسلة لكل عقد StructuredDocumentTag وأطفالها.
+/// يجتاز الشجرة غير الثنائية للعقدة التابعة.
+/// ينشئ خريطة في شكل سلسلة من جميع العقد StructuredDocumentTag التي تمت مواجهتها وأبناءها.
 /// </summary>
 public class StructuredDocumentTagNodePrinter : DocumentVisitor
 {
@@ -61,7 +61,7 @@ public class StructuredDocumentTagNodePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاستدعاء عند مواجهة عقدة تشغيل في المستند.
+    /// يتم الاتصال به عند مواجهة عقدة التشغيل في المستند.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -71,7 +71,7 @@ public class StructuredDocumentTagNodePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم استدعاؤها عند مصادفة عقدة StructuredDocumentTag في المستند.
+    /// يتم استدعاؤه عند مواجهة عقدة StructuredDocumentTag في المستند.
     /// </summary>
     public override VisitorAction VisitStructuredDocumentTagStart(StructuredDocumentTag sdt)
     {
@@ -82,7 +82,7 @@ public class StructuredDocumentTagNodePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم استدعاؤها بعد زيارة جميع العقد الفرعية لعقدة StructuredDocumentTag.
+    /// يتم الاتصال به بعد زيارة جميع العقد التابعة لعقدة StructuredDocumentTag.
     /// </summary>
     public override VisitorAction VisitStructuredDocumentTagEnd(StructuredDocumentTag sdt)
     {
@@ -93,9 +93,9 @@ public class StructuredDocumentTagNodePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// قم بإلحاق سطر بـ StringBuilder وقم بعمل مسافة بادئة له اعتمادًا على مدى عمق الزائر في شجرة المستند.
+    /// ألحق سطرًا بـ StringBuilder وقم بوضع مسافة بادئة له اعتمادًا على مدى عمق الزائر في شجرة المستندات.
     /// </summary>
-    /// < param name = "text" > < / param >
+    /// <param name="text"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++) mBuilder.Append("|  ");

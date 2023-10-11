@@ -3,7 +3,7 @@ title: CellFormat.Orientation
 second_title: Aspose.Words för .NET API Referens
 description: CellFormat fast egendom. Returnerar eller ställer in orienteringen för text i en tabellcell.
 type: docs
-weight: 60
+weight: 70
 url: /sv/net/aspose.words.tables/cellformat/orientation/
 ---
 ## CellFormat.Orientation property

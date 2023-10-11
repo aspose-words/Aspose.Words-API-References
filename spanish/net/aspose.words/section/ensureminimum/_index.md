@@ -1,14 +1,14 @@
 ---
 title: Section.EnsureMinimum
 second_title: Referencia de API de Aspose.Words para .NET
-description: Section método. Asegura que la sección tenga Cuerpo con un Párrafo.
+description: Section método. Asegura que la sección tieneBody con unoParagraph .
 type: docs
-weight: 130
+weight: 150
 url: /es/net/aspose.words/section/ensureminimum/
 ---
 ## Section.EnsureMinimum method
 
-Asegura que la sección tenga Cuerpo con un Párrafo.
+Asegura que la sección tiene[`Body`](../body/) con uno[`Paragraph`](../../paragraph/) .
 
 ```csharp
 public void EnsureMinimum()
@@ -16,18 +16,18 @@ public void EnsureMinimum()
 
 ### Ejemplos
 
-Muestra cómo preparar un nuevo nodo de sección para su edición.
+Muestra cómo preparar un nuevo nodo de sección para editarlo.
 
 ```csharp
 Document doc = new Document();
 
-// Un documento en blanco viene con una sección, que tiene un cuerpo, que a su vez tiene un párrafo.
-// Podemos agregar contenido a este documento agregando elementos como líneas de texto, formas o tablas a ese párrafo.
+// Un documento en blanco viene con una sección, la cual tiene un cuerpo, que a su vez tiene un párrafo.
+// Podemos agregar contenido a este documento agregando elementos como textos, formas o tablas a ese párrafo.
 Assert.AreEqual(NodeType.Section, doc.GetChild(NodeType.Any, 0, true).NodeType);
 Assert.AreEqual(NodeType.Body, doc.Sections[0].GetChild(NodeType.Any, 0, true).NodeType);
 Assert.AreEqual(NodeType.Paragraph, doc.Sections[0].Body.GetChild(NodeType.Any, 0, true).NodeType);
 
-// Si agregamos una nueva sección como esta, no tendrá un cuerpo ni ningún otro nodo secundario.
+// Si agregamos una nueva sección como esta, no tendrá cuerpo ni ningún otro nodo secundario.
 doc.Sections.Add(new Section(doc));
 
 Assert.AreEqual(0, doc.Sections[1].GetChildNodes(NodeType.Any, true).Count);

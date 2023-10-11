@@ -1,14 +1,14 @@
 ---
 title: FieldAdvance.RightOffset
 second_title: Справочник по API Aspose.Words для .NET
-description: FieldAdvance свойство. Получает или задает число точек на которое следует сдвинуть вправо текст следующий за полем.
+description: FieldAdvance свойство. Получает или задает количество пунктов на которое текст следующий за полем должен быть перемещен вправо.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.fields/fieldadvance/rightoffset/
 ---
 ## FieldAdvance.RightOffset property
 
-Получает или задает число точек, на которое следует сдвинуть вправо текст, следующий за полем.
+Получает или задает количество пунктов, на которое текст, следующий за полем, должен быть перемещен вправо.
 
 ```csharp
 public string RightOffset { get; set; }
@@ -24,10 +24,10 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Write("This text is in its normal place.");
 
-// Ниже приведены два способа использования поля ADVANCE для настройки положения текста, следующего за ним.
-// Эффекты поля ADVANCE продолжают применяться до конца абзаца,
+// Ниже приведены два способа использования поля ADVANCE для настройки положения следующего за ним текста.
+// Эффекты поля ADVANCE продолжают применяться до тех пор, пока не закончится абзац,
 // или другое поле ADVANCE обновляет значения смещения/координаты.
-// 1 - Указываем смещение направления:
+// 1 - Укажите смещение по направлению:
 FieldAdvance field = (FieldAdvance)builder.InsertField(FieldType.FieldAdvance, true);
 field.RightOffset = "5";
 field.UpOffset = "5";
@@ -44,7 +44,7 @@ Assert.AreEqual(" ADVANCE  \\d 5 \\l 100", field.GetFieldCode());
 
 builder.Writeln("This text is moved down and to the left, overlapping the previous text.");
 
-// 2 - Переместить текст в позицию, заданную координатами:
+// 2 - Переместить текст в позицию, указанную координатами:
 field = (FieldAdvance)builder.InsertField(FieldType.FieldAdvance, true);
 field.HorizontalPosition = "-100";
 field.VerticalPosition = "200";

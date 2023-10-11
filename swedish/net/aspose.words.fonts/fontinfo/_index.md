@@ -3,12 +3,14 @@ title: Class FontInfo
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Fonts.FontInfo klass. Anger information om ett teckensnitt som används i dokumentet.
 type: docs
-weight: 2740
+weight: 2920
 url: /sv/net/aspose.words.fonts/fontinfo/
 ---
 ## FontInfo class
 
 Anger information om ett teckensnitt som används i dokumentet.
+
+För att lära dig mer, besök[Arbeta med teckensnitt](https://docs.aspose.com/words/net/working-with-fonts/) dokumentationsartikel.
 
 ```csharp
 public class FontInfo
@@ -21,7 +23,7 @@ public class FontInfo
 | [AltName](../../aspose.words.fonts/fontinfo/altname/) { get; set; } | Hämtar eller ställer in det alternativa namnet för teckensnittet. |
 | [Charset](../../aspose.words.fonts/fontinfo/charset/) { get; set; } | Hämtar eller ställer in teckenuppsättningen för teckensnittet. |
 | [Family](../../aspose.words.fonts/fontinfo/family/) { get; set; } | Hämtar eller ställer in teckensnittsfamiljen som detta teckensnitt tillhör. |
-| [IsTrueType](../../aspose.words.fonts/fontinfo/istruetype/) { get; set; } | Indikerar att detta teckensnitt är ett TrueType- eller OpenType-teckensnitt i motsats till ett raster- eller vektorteckensnitt. Standard är true. |
+| [IsTrueType](../../aspose.words.fonts/fontinfo/istruetype/) { get; set; } | Indikerar att detta teckensnitt är ett TrueType- eller OpenType-teckensnitt i motsats till ett raster- eller vektorteckensnitt. Standard är`Sann` . |
 | [Name](../../aspose.words.fonts/fontinfo/name/) { get; } | Hämtar namnet på teckensnittet. |
 | [Panose](../../aspose.words.fonts/fontinfo/panose/) { get; set; } | Hämtar eller ställer in PANOSE-typsnittsklassificeringsnumret. |
 | [Pitch](../../aspose.words.fonts/fontinfo/pitch/) { get; set; } | Tonhöjden indikerar om teckensnittet har fast tonhöjd, proportionellt fördelat eller är beroende av en standardinställning. |

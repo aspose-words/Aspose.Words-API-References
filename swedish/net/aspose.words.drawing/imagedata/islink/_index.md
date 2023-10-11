@@ -1,14 +1,14 @@
 ---
 title: ImageData.IsLink
 second_title: Aspose.Words för .NET API Referens
-description: ImageData fast egendom. Returnerar sant om bilden är länkad till formen närSourceFullName anges.
+description: ImageData fast egendom. ReturnerarSann om bilden är länkad till formen närSourceFullName anges.
 type: docs
 weight: 150
 url: /sv/net/aspose.words.drawing/imagedata/islink/
 ---
 ## ImageData.IsLink property
 
-Returnerar sant om bilden är länkad till formen (när[`SourceFullName`](../sourcefullname/) anges).
+Returnerar`Sann` om bilden är länkad till formen (när[`SourceFullName`](../sourcefullname/) anges).
 
 ```csharp
 public bool IsLink { get; }

@@ -3,7 +3,7 @@ title: Stroke.On
 second_title: Aspose.Words för .NET API Referens
 description: Stroke fast egendom. Definierar om sökvägen ska streckas.
 type: docs
-weight: 130
+weight: 150
 url: /sv/net/aspose.words.drawing/stroke/on/
 ---
 ## Stroke.On property
@@ -16,7 +16,7 @@ public bool On { get; set; }
 
 ### Anmärkningar
 
-Standardvärdet för a[`Shape`](../../shape/) är **Sann**.
+Standardvärdet för a[`Shape`](../../shape/) är`Sann`.
 
 ### Exempel
 
@@ -43,6 +43,7 @@ stroke.DashStyle = DashStyle.ShortDashDotDot;
 stroke.JoinStyle = JoinStyle.Miter;
 stroke.EndCap = EndCap.Square;
 stroke.LineStyle = ShapeLineStyle.Triple;
+stroke.Fill.TwoColorGradient(Color.Red, Color.Blue, GradientStyle.Vertical, GradientVariant.Variant1);
 
 doc.Save(ArtifactsDir + "Shape.Stroke.docx");
 ```

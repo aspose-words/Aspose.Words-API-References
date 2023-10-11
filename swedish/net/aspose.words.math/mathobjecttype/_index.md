@@ -3,7 +3,7 @@ title: Enum MathObjectType
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Math.MathObjectType uppräkning. Anger typen av ett Office Mathobjekt.
 type: docs
-weight: 3870
+weight: 4110
 url: /sv/net/aspose.words.math/mathobjecttype/
 ---
 ## MathObjectType enumeration

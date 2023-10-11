@@ -20,14 +20,13 @@ public void SaveSearchCache(Stream outputStream)
 
 ### Notlar
 
-Görmek[`SetFontsSources`](../setfontssources/) daha fazla bilgi için yöntem açıklaması.
+Görmek[`SetFontsSources`](../setfontssources/) Daha fazla bilgi için yöntem açıklaması.
 
 ### Örnekler
 
 Yazı tipi önbelleği başlatma işleminin nasıl hızlandırılacağını gösterir.
 
 ```csharp
-[Test]
 public void LoadFontSearchCache()
 {
     const string cacheKey1 = "Arvo";
@@ -55,8 +54,8 @@ public void LoadFontSearchCache()
 }
 
 /// <summary>
-/// Yazı tipi verilerini bellekte saklamak yerine yalnızca gerektiğinde yükleyin
-/// "FontSettings" nesnesinin tüm kullanım ömrü boyunca.
+/// Yazı tipi verilerini belleğe kaydetmek yerine yalnızca gerektiğinde yükleyin
+/// "FontSettings" nesnesinin tüm ömrü boyunca.
 /// </summary>
 private class SearchCacheStream : StreamFontSource
 {

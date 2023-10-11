@@ -1,14 +1,14 @@
 ---
 title: Stroke.StartArrowType
 second_title: Aspose.Words for .NET API Referansı
-description: Stroke mülk. Bir vuruşun başlangıcı için ok ucunu tanımlar.
+description: Stroke mülk. Konturun başlangıcı için ok ucunu tanımlar.
 type: docs
-weight: 160
+weight: 180
 url: /tr/net/aspose.words.drawing/stroke/startarrowtype/
 ---
 ## Stroke.StartArrowType property
 
-Bir vuruşun başlangıcı için ok ucunu tanımlar.
+Konturun başlangıcı için ok ucunu tanımlar.
 
 ```csharp
 public ArrowType StartArrowType { get; set; }
@@ -16,19 +16,19 @@ public ArrowType StartArrowType { get; set; }
 
 ### Notlar
 
-Varsayılan değerNone.
+Varsayılan değer:None.
 
 ### Örnekler
 
-Çeşitli şekiller oluşturmak için gösterir.
+Çeşitli şekiller oluşturmayı gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Aşağıda, belgelerimize ekleyebileceğimiz dört şekil örneği verilmiştir.
-// 1 - Noktalı, yatay, yarı saydam kırmızı çizgi
-// sol uçta bir ok ve sağ uçta bir elmas ile:
+// Aşağıda belgelerimize ekleyebileceğimiz dört şekil örneği verilmiştir.
+// 1 - Noktalı, yatay, yarı şeffaf kırmızı çizgi
+// sol uçta bir ok ve sağ uçta bir baklava işaretiyle:
 Shape arrow = new Shape(doc, ShapeType.Line);
 arrow.Width = 200;
 arrow.Stroke.Color = Color.Red;
@@ -65,7 +65,7 @@ filledInArrow.Fill.Visible = true;
 
 builder.InsertNode(filledInArrow);
 
-// 4 - Aspose logosu ile doldurulmuş, yönü ters çevrilmiş ok:
+// 4 - Aspose logosuyla dolu ters çevrilmiş yönlendirmeli ok:
 Shape filledInArrowImg = new Shape(doc, ShapeType.Arrow);
 filledInArrowImg.Width = 200;
 filledInArrowImg.Height = 40;
@@ -77,8 +77,8 @@ byte[] imageBytes = File.ReadAllBytes(ImageDir + "Logo.jpg");
 using (MemoryStream stream = new MemoryStream(imageBytes))
 {
     Image image = Image.FromStream(stream);
-    // Okumuzun yönünü çevirdiğimizde, okun içerdiği görüntüyü de çevirmiş oluyoruz.
-    // Şekli gösterecek şekilde almadan önce bunu iptal etmek için görüntüyü diğer yöne çevirin.
+    // Okumuzun yönünü çevirdiğimizde okun içerdiği görüntüyü de çevirmiş oluyoruz.
+    // Gösterilecek şekli almadan önce bunu iptal etmek için görüntüyü diğer yöne çevirin.
     image.RotateFlip(RotateFlipType.RotateNoneFlipXY);
 
     filledInArrowImg.ImageData.SetImage(image);

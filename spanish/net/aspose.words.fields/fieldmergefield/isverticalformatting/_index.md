@@ -1,14 +1,14 @@
 ---
 title: FieldMergeField.IsVerticalFormatting
 second_title: Referencia de API de Aspose.Words para .NET
-description: FieldMergeField propiedad. Obtiene o establece si habilitar la conversión de caracteres para formato vertical.
+description: FieldMergeField propiedad. Obtiene o establece si se habilita la conversión de caracteres para el formato vertical.
 type: docs
 weight: 40
 url: /es/net/aspose.words.fields/fieldmergefield/isverticalformatting/
 ---
 ## FieldMergeField.IsVerticalFormatting property
 
-Obtiene o establece si habilitar la conversión de caracteres para formato vertical.
+Obtiene o establece si se habilita la conversión de caracteres para el formato vertical.
 
 ```csharp
 public bool IsVerticalFormatting { get; set; }
@@ -36,13 +36,13 @@ fieldMergeField.FieldName = "Courtesy Title";
 fieldMergeField.IsMapped = true;
 fieldMergeField.IsVerticalFormatting = false;
 
-// Podemos aplicar texto antes y después del valor que acepta este campo cuando se produce la fusión.
+// Podemos aplicar texto antes y después del valor que acepta este campo cuando se realiza la fusión.
 fieldMergeField.TextBefore = "Dear ";
 fieldMergeField.TextAfter = " ";
 
 Assert.AreEqual(" MERGEFIELD  \"Courtesy Title\" \\m \\b \"Dear \" \\f \" \"", fieldMergeField.GetFieldCode());
 
-// Inserte otro MERGEFIELD para una columna diferente en la fuente de datos.
+// Inserta otro MERGEFIELD para una columna diferente en la fuente de datos.
 fieldMergeField = (FieldMergeField)builder.InsertField(FieldType.FieldMergeField, true);
 fieldMergeField.FieldName = "Last Name";
 fieldMergeField.TextAfter = ":";

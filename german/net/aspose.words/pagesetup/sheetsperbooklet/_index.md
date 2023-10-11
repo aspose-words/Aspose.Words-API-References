@@ -1,14 +1,14 @@
 ---
 title: PageSetup.SheetsPerBooklet
 second_title: Aspose.Words für .NET-API-Referenz
-description: PageSetup eigendom. Gibt die Anzahl der Seiten zurück die in jeder Broschüre enthalten sein sollen oder legt sie fest.
+description: PageSetup eigendom. Gibt die Anzahl der Seiten zurück die in jede Broschüre aufgenommen werden sollen oder legt sie fest.
 type: docs
-weight: 390
+weight: 400
 url: /de/net/aspose.words/pagesetup/sheetsperbooklet/
 ---
 ## PageSetup.SheetsPerBooklet property
 
-Gibt die Anzahl der Seiten zurück, die in jeder Broschüre enthalten sein sollen, oder legt sie fest.
+Gibt die Anzahl der Seiten zurück, die in jede Broschüre aufgenommen werden sollen, oder legt sie fest.
 
 ```csharp
 public int SheetsPerBooklet { get; set; }
@@ -16,7 +16,7 @@ public int SheetsPerBooklet { get; set; }
 
 ### Beispiele
 
-Zeigt, wie ein Dokument konfiguriert wird, das als Buchfalz gedruckt werden kann.
+Zeigt, wie ein Dokument konfiguriert wird, das als Buchfalte gedruckt werden kann.
 
 ```csharp
 Document doc = new Document();
@@ -31,9 +31,9 @@ for (int i = 0; i < 15; i++)
     builder.Write($"Booklet face #{i}");
 }
 
-// Konfigurieren Sie die "PageSetup"-Eigenschaft des ersten Abschnitts, um das Dokument in Form einer Buchfaltung zu drucken.
-// Wenn wir dieses Dokument auf beiden Seiten drucken, können wir die Seiten nehmen, um sie zu stapeln
-// und alle auf einmal in der Mitte falten. Der Inhalt des Dokuments wird in einer Buchfalte ausgerichtet.
+// Konfigurieren Sie die Eigenschaft „PageSetup“ des ersten Abschnitts, um das Dokument in Form einer Buchfalte zu drucken.
+// Wenn wir dieses Dokument auf beiden Seiten drucken, können wir die Seiten zum Stapeln verwenden
+// und alle auf einmal in der Mitte falten. Der Inhalt des Dokuments wird in einer Buchfalte angeordnet.
 PageSetup pageSetup = doc.Sections[0].PageSetup;
 pageSetup.MultiplePages = MultiplePagesType.BookFoldPrinting;
 

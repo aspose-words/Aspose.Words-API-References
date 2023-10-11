@@ -3,12 +3,14 @@ title: Class DocumentSavingArgs
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Saving.DocumentSavingArgs klass. Ett argument passerat inNotify .
 type: docs
-weight: 4690
+weight: 4950
 url: /sv/net/aspose.words.saving/documentsavingargs/
 ---
 ## DocumentSavingArgs class
 
 Ett argument passerat in[`Notify`](../idocumentsavingcallback/notify/) .
+
+För att lära dig mer, besök[Spara ett dokument](https://docs.aspose.com/words/net/save-a-document/) dokumentationsartikel.
 
 ```csharp
 public sealed class DocumentSavingArgs

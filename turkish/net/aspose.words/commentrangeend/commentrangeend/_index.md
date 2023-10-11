@@ -16,14 +16,14 @@ public CommentRangeEnd(DocumentBase doc, int id)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| doc | DocumentBase | Sahip belgesi. |
+| doc | DocumentBase | Sahibi belgesi. |
 | id | Int32 | Bu nesnenin bağlı olduğu yorum tanımlayıcısı. |
 
 ### Notlar
 
-Ne zaman[`CommentRangeEnd`](../) oluşturulur, belirtilen belgeye aittir, ancak henüz belgenin bir parçası değil ve[`ParentNode`](../../node/parentnode/) boş.
+Ne zaman[`CommentRangeEnd`](../) oluşturulduysa, belirtilen belgeye aittir ancak henüz değildir ve belgenin bir parçası değildir ve[`ParentNode`](../../node/parentnode/) dır-dir`hükümsüz`.
 
-eklemek için[`CommentRangeEnd`](../) belgeye, yorumun eklenmesini istediğiniz paragrafta InsertAfter veya InsertBefore kullanın.
+Eklemek için[`CommentRangeEnd`](../) belgede yorumun eklenmesini istediğiniz paragrafta InsertAfter veya InsertBefore kullanın.
 
 ### Örnekler
 
@@ -43,14 +43,14 @@ public void CreateCommentsAndPrintAllInfo()
 
     newComment.SetText("Comment regarding text.");
 
-    // Belgeye metin ekleyin, bir yorum aralığında çarpıtın ve ardından yorumunuzu ekleyin.
+    // Belgeye metin ekleyin, onu bir yorum aralığında çarpıtın ve ardından yorumunuzu ekleyin.
     Paragraph para = doc.FirstSection.Body.FirstParagraph;
     para.AppendChild(new CommentRangeStart(doc, newComment.Id));
     para.AppendChild(new Run(doc, "Commented text."));
     para.AppendChild(new CommentRangeEnd(doc, newComment.Id));
     para.AppendChild(newComment); 
 
-    // Yoruma iki cevap ekleyin.
+    // Yoruma iki yanıt ekleyin.
     newComment.AddReply("John Doe", "JD", DateTime.Now, "New reply.");
     newComment.AddReply("John Doe", "JD", DateTime.Now, "Another reply.");
 
@@ -64,20 +64,20 @@ private static void PrintAllCommentInfo(NodeCollection comments)
 {
     CommentInfoPrinter commentVisitor = new CommentInfoPrinter();
 
-    // Tüm üst düzey yorumları yineleyin. Yanıt türündeki yorumların aksine, üst düzey yorumların atası yoktur.
+    // Tüm üst düzey yorumları yineleyin. Yanıt türü yorumların aksine, üst düzey yorumların kökeni yoktur.
     foreach (Comment comment in comments.Where(c => ((Comment)c).Ancestor == null))
     {
-        // İlk olarak, yorum aralığının başlangıcını ziyaret edin.
+        // İlk olarak yorum aralığının başlangıcını ziyaret edin.
         CommentRangeStart commentRangeStart = (CommentRangeStart)comment.PreviousSibling.PreviousSibling.PreviousSibling;
         commentRangeStart.Accept(commentVisitor);
 
-        // Ardından, yorumu ve sahip olabileceği yanıtları ziyaret edin.
+        // Ardından yorumu ve alabileceği yanıtları ziyaret edin.
         comment.Accept(commentVisitor);
 
         foreach (Comment reply in comment.Replies)
             reply.Accept(commentVisitor);
 
-        // Son olarak, yorum aralığının sonunu ziyaret edin ve ardından ziyaretçinin metin içeriğini yazdırın.
+        // Son olarak yorum aralığının sonunu ziyaret edin ve ardından ziyaretçinin metin içeriğini yazdırın.
         CommentRangeEnd commentRangeEnd = (CommentRangeEnd)comment.PreviousSibling;
         commentRangeEnd.Accept(commentVisitor);
 
@@ -86,7 +86,7 @@ private static void PrintAllCommentInfo(NodeCollection comments)
 }
 
 /// <summary>
-/// Belgede karşılaşılan tüm yorum ve yorum aralıklarının bilgi ve içeriğini yazdırır.
+/// Belgede karşılaşılan tüm yorumların ve yorum aralıklarının bilgilerini ve içeriğini yazdırır.
 /// </summary>
 public class CommentInfoPrinter : DocumentVisitor
 {
@@ -97,7 +97,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Ziyaretçi tarafından toplanan belgenin düz metnini alır.
+    /// Ziyaretçinin biriktirdiği belgenin düz metnini alır.
     /// </summary>
     public string GetText()
     {
@@ -115,7 +115,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Belgede bir CommentRangeStart düğümüyle karşılaşıldığında çağrılır.
+    /// Belgede CommentRangeStart düğümüyle karşılaşıldığında çağrılır.
     /// </summary>
     public override VisitorAction VisitCommentRangeStart(CommentRangeStart commentRangeStart)
     {
@@ -127,7 +127,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Belgede bir CommentRangeEnd düğümüyle karşılaşıldığında çağrılır.
+    /// Belgede CommentRangeEnd düğümüyle karşılaşıldığında çağrılır.
     /// </summary>
     public override VisitorAction VisitCommentRangeEnd(CommentRangeEnd commentRangeEnd)
     {
@@ -152,7 +152,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Belgede bir Yorum düğümünün ziyareti sona erdiğinde çağrılır.
+    /// Belgede bir Yorum düğümünün ziyareti sonlandırıldığında çağrılır.
     /// </summary>
     public override VisitorAction VisitCommentEnd(Comment comment)
     {
@@ -164,9 +164,9 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// StringBuilder'a bir satır ekleyin ve ziyaretçinin belge ağacında ne kadar derin olduğuna bağlı olarak girinti yapın.
+    /// StringBuilder'a bir satır ekleyin ve ziyaretçinin belge ağacında ne kadar derin olduğuna bağlı olarak onu girintileyin.
     /// </summary>
-    /// <param name="metin"></param>
+    /// <param adı="metin"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++)

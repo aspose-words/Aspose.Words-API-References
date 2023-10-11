@@ -1,14 +1,14 @@
 ---
 title: Hyphenation.Callback
 second_title: Aspose.Words für .NET-API-Referenz
-description: Hyphenation eigendom. Ruft die CallbackSchnittstelle ab oder legt sie fest die zum Anfordern von Wörterbüchern verwendet wird wenn das Seitenlayout des Dokuments erstellt wird. Dies ermöglicht das verzögerte Laden von Wörterbüchern was bei der Verarbeitung von Dokumenten in vielen Sprachen nützlich sein kann.
+description: Hyphenation eigendom. Ruft die Rückrufschnittstelle ab oder legt sie fest die zum Anfordern von Wörterbüchern verwendet wird wenn das Seitenlayout des Dokuments erstellt wird. Dies ermöglicht ein verzögertes Laden von Wörterbüchern was bei der Verarbeitung von Dokumenten in vielen Sprachen nützlich sein kann.
 type: docs
 weight: 10
 url: /de/net/aspose.words/hyphenation/callback/
 ---
 ## Hyphenation.Callback property
 
-Ruft die Callback-Schnittstelle ab oder legt sie fest, die zum Anfordern von Wörterbüchern verwendet wird, wenn das Seitenlayout des Dokuments erstellt wird. Dies ermöglicht das verzögerte Laden von Wörterbüchern, was bei der Verarbeitung von Dokumenten in vielen Sprachen nützlich sein kann.
+Ruft die Rückrufschnittstelle ab oder legt sie fest, die zum Anfordern von Wörterbüchern verwendet wird, wenn das Seitenlayout des Dokuments erstellt wird. Dies ermöglicht ein verzögertes Laden von Wörterbüchern, was bei der Verarbeitung von Dokumenten in vielen Sprachen nützlich sein kann.
 
 ```csharp
 public static IHyphenationCallback Callback { get; set; }
@@ -16,25 +16,26 @@ public static IHyphenationCallback Callback { get; set; }
 
 ### Beispiele
 
-Zeigt, wie ein Wörterbuch aus einer Datei geöffnet und registriert wird.
+Zeigt, wie man ein Wörterbuch aus einer Datei öffnet und registriert.
 
 ```csharp
+public void RegisterDictionary()
 {
     // Richten Sie einen Rückruf ein, der Warnungen verfolgt, die während der Registrierung des Silbentrennungswörterbuchs auftreten.
     WarningInfoCollection warningInfoCollection = new WarningInfoCollection();
     Hyphenation.WarningCallback = warningInfoCollection;
 
-    // Registrieren Sie ein englisches (US) Silbentrennungswörterbuch nach Stream.
+    // Registrieren Sie ein englisches (US) Silbentrennungswörterbuch per Stream.
     Stream dictionaryStream = new FileStream(MyDir + "hyph_en_US.dic", FileMode.Open);
     Hyphenation.RegisterDictionary("en-US", dictionaryStream);
 
     Assert.AreEqual(0, warningInfoCollection.Count);
 
-    // Öffnen Sie ein Dokument mit einem Gebietsschema, das Microsoft Word auf einem englischen Computer nicht trennen darf, z. B. Deutsch.
+    // Öffnen Sie ein Dokument mit einem Gebietsschema, das Microsoft Word auf einem englischen Computer, z. B. Deutsch, nicht trennen darf.
     Document doc = new Document(MyDir + "German text.docx");
 
-    // Um dieses Dokument beim Speichern zu trennen, benötigen wir ein Silbentrennungswörterbuch für den Sprachcode "de-CH".
-    // Dieser Rückruf behandelt die automatische Anfrage für dieses Wörterbuch.
+    // Um dieses Dokument beim Speichern zu trennen, benötigen wir ein Silbentrennungswörterbuch für den Sprachcode „de-CH“.
+    // Dieser Rückruf verarbeitet die automatische Anfrage für dieses Wörterbuch.
     Hyphenation.Callback = new CustomHyphenationDictionaryRegister();
 
     // Wenn wir das Dokument speichern, wird die deutsche Silbentrennung wirksam.

@@ -1,14 +1,14 @@
 ---
 title: FieldDatabaseDataRow.FieldDatabaseDataRow
 second_title: Aspose.Words for .NET API 参考
-description: FieldDatabaseDataRow 构造函数. 初始化FieldDatabaseDataRow类.
+description: FieldDatabaseDataRow 构造函数. 初始化一个新实例FieldDatabaseDataRow类.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.fields/fielddatabasedatarow/fielddatabasedatarow/
 ---
 ## FieldDatabaseDataRow constructor
 
-初始化[`FieldDatabaseDataRow`](../)类.
+初始化一个新实例[`FieldDatabaseDataRow`](../)类.
 
 ```csharp
 public FieldDatabaseDataRow(params string[] values)

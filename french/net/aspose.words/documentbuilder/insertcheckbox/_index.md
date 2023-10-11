@@ -3,7 +3,7 @@ title: DocumentBuilder.InsertCheckBox
 second_title: Référence de l'API Aspose.Words pour .NET
 description: DocumentBuilder méthode. Insère un champ de formulaire de case à cocher à la position actuelle.
 type: docs
-weight: 270
+weight: 290
 url: /fr/net/aspose.words/documentbuilder/insertcheckbox/
 ---
 ## InsertCheckBox(string, bool, int) {#insertcheckbox_1}
@@ -16,17 +16,17 @@ public FormField InsertCheckBox(string name, bool checkedValue, int size)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| name | String | Nom du champ de formulaire. Peut être une chaîne vide. La valeur supérieure à 20 caractères sera tronquée. |
-| checkedValue | Boolean | État coché du champ de formulaire de case à cocher. |
+| name | String | Le nom du champ du formulaire. Peut être une chaîne vide. La valeur de plus de 20 caractères sera tronquée. |
+| checkedValue | Boolean | Statut vérifié du champ du formulaire de case à cocher. |
 | size | Int32 | Spécifie la taille de la case à cocher en points. Spécifiez 0 pour MS Word pour calculer automatiquement la taille de la case à cocher. |
 
 ### Return_Value
 
-Le nœud de champ de formulaire qui vient d'être inséré.
+Le nœud du champ de formulaire qui vient d’être inséré.
 
 ### Remarques
 
-Si vous spécifiez un nom pour le champ de formulaire, un signet est automatiquement créé avec le même nom.
+Si vous spécifiez un nom pour le champ du formulaire, un signet est automatiquement créé avec le même nom.
 
 ### Exemples
 
@@ -36,7 +36,7 @@ Montre comment insérer des cases à cocher dans le document.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Insérer des cases à cocher de différentes tailles et des statuts cochés par défaut.
+// Insère des cases à cocher de différentes tailles et des statuts cochés par défaut.
 builder.Write("Unchecked check box of a default size: ");
 builder.InsertCheckBox(string.Empty, false, false, 0);
 builder.InsertParagraph();
@@ -45,7 +45,7 @@ builder.Write("Large checked check box: ");
 builder.InsertCheckBox("CheckBox_Default", true, true, 50);
 builder.InsertParagraph();
 
-// Les champs de formulaire ont une limite de longueur de nom de 20 caractères.
+// Les champs de formulaire ont une longueur de nom limitée à 20 caractères.
 builder.Write("Very large checked check box: ");
 builder.InsertCheckBox("CheckBox_OnlyCheckedValue", true, 100);
 
@@ -74,18 +74,18 @@ public FormField InsertCheckBox(string name, bool defaultValue, bool checkedValu
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| name | String | Nom du champ de formulaire. Peut être une chaîne vide. La valeur supérieure à 20 caractères sera tronquée. |
-| defaultValue | Boolean | Valeur par défaut du champ de formulaire de case à cocher. |
-| checkedValue | Boolean | État coché actuel du champ de formulaire de case à cocher. |
+| name | String | Le nom du champ du formulaire. Peut être une chaîne vide. La valeur de plus de 20 caractères sera tronquée. |
+| defaultValue | Boolean | Valeur par défaut du champ du formulaire de case à cocher. |
+| checkedValue | Boolean | Statut actuellement vérifié du champ du formulaire de case à cocher. |
 | size | Int32 | Spécifie la taille de la case à cocher en points. Spécifiez 0 pour MS Word pour calculer automatiquement la taille de la case à cocher. |
 
 ### Return_Value
 
-Le nœud de champ de formulaire qui vient d'être inséré.
+Le nœud du champ de formulaire qui vient d’être inséré.
 
 ### Remarques
 
-Si vous spécifiez un nom pour le champ de formulaire, un signet est automatiquement créé avec le même nom.
+Si vous spécifiez un nom pour le champ du formulaire, un signet est automatiquement créé avec le même nom.
 
 ### Exemples
 
@@ -95,7 +95,7 @@ Montre comment insérer des cases à cocher dans le document.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Insérer des cases à cocher de différentes tailles et des statuts cochés par défaut.
+// Insère des cases à cocher de différentes tailles et des statuts cochés par défaut.
 builder.Write("Unchecked check box of a default size: ");
 builder.InsertCheckBox(string.Empty, false, false, 0);
 builder.InsertParagraph();
@@ -104,7 +104,7 @@ builder.Write("Large checked check box: ");
 builder.InsertCheckBox("CheckBox_Default", true, true, 50);
 builder.InsertParagraph();
 
-// Les champs de formulaire ont une limite de longueur de nom de 20 caractères.
+// Les champs de formulaire ont une longueur de nom limitée à 20 caractères.
 builder.Write("Very large checked check box: ");
 builder.InsertCheckBox("CheckBox_OnlyCheckedValue", true, 100);
 

@@ -3,12 +3,14 @@ title: Class FieldHyperlink
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Fields.FieldHyperlink klass. Implementerar HYPERLINKfältet
 type: docs
-weight: 1840
+weight: 1990
 url: /sv/net/aspose.words.fields/fieldhyperlink/
 ---
 ## FieldHyperlink class
 
 Implementerar HYPERLINK-fältet
+
+För att lära dig mer, besök[Arbeta med Fields](https://docs.aspose.com/words/net/working-with-fields/) dokumentationsartikel.
 
 ```csharp
 public class FieldHyperlink : Field
@@ -35,7 +37,7 @@ public class FieldHyperlink : Field
 | [OpenInNewWindow](../../aspose.words.fields/fieldhyperlink/openinnewwindow/) { get; set; } | Hämtar eller ställer in om destinationsplatsen ska öppnas i ett nytt webbläsarfönster. |
 | [Result](../../aspose.words.fields/field/result/) { get; set; } | Hämtar eller ställer in text som är mellan fältavgränsaren och fältslutet. |
 | [ScreenTip](../../aspose.words.fields/fieldhyperlink/screentip/) { get; set; } | Hämtar eller ställer in skärmtipstexten för hyperlänken. |
-| [Separator](../../aspose.words.fields/field/separator/) { get; } | Hämtar noden som representerar fältseparatorn. Kan vara null. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | Hämtar noden som representerar fältseparatorn. Kan vara`null` . |
 | [Start](../../aspose.words.fields/field/start/) { get; } | Hämtar noden som representerar början av fältet. |
 | [SubAddress](../../aspose.words.fields/fieldhyperlink/subaddress/) { get; set; } | Hämtar eller ställer in en plats i filen, till exempel ett bokmärke, där denna hyperlänk hoppar. |
 | [Target](../../aspose.words.fields/fieldhyperlink/target/) { get; set; } | Hämtar eller ställer in målet som länken ska omdirigeras till. |
@@ -47,7 +49,7 @@ public class FieldHyperlink : Field
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Returnerar text mellan fältstart och fältavgränsare (eller fältslut om det inte finns någon avgränsare). Både fältkod och fältresultat för underordnade fält ingår. |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Returnerar text mellan fältstart och fältavgränsare (eller fältslut om det inte finns någon avgränsare). |
-| [Remove](../../aspose.words.fields/field/remove/)() | Tar bort fältet från dokumentet. Returnerar en nod direkt efter fältet. Om fältets slut är den sista child av dess överordnade nod, returnerar dess överordnade stycke. Om fältet redan är borttaget, returneras **null** . |
+| [Remove](../../aspose.words.fields/field/remove/)() | Tar bort fältet från dokumentet. Returnerar en nod direkt efter fältet. Om fältets slut är den sista child av dess överordnade nod, returnerar dess överordnade stycke. Om fältet redan är borttaget, returneras`null` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Utför fältavlänkningen. |
 | [Update](../../aspose.words.fields/field/update/)() | Utför fältuppdateringen. Kastar om fältet redan uppdateras. |
 | [Update](../../aspose.words.fields/field/update/)(bool) | Utför en fältuppdatering. Kastar om fältet redan uppdateras. |

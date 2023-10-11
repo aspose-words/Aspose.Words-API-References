@@ -1,14 +1,14 @@
 ---
 title: ImageFieldMergingArgs.ImageStream
 second_title: Справочник по API Aspose.Words для .NET
-description: ImageFieldMergingArgs свойство. Указывает поток из которого механизм слияния считывает изображение.
+description: ImageFieldMergingArgs свойство. Указывает поток из которого механизм слияния почты читает изображение.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.mailmerging/imagefieldmergingargs/imagestream/
 ---
 ## ImageFieldMergingArgs.ImageStream property
 
-Указывает поток, из которого механизм слияния считывает изображение.
+Указывает поток, из которого механизм слияния почты читает изображение.
 
 ```csharp
 public Stream ImageStream { get; set; }
@@ -16,11 +16,11 @@ public Stream ImageStream { get; set; }
 
 ### Примечания
 
-Aspose.Words закрывает этот поток после слияния изображения с документом.
+Aspose.Words закрывает этот поток после объединения изображения с документом.
 
 ### Примеры
 
-Показывает, как вставить изображения, хранящиеся в поле BLOB базы данных, в отчет.
+Показывает, как вставлять в отчет изображения, хранящиеся в BLOB-поле базы данных.
 
 ```csharp
 public void ImageFromBlob()
@@ -29,14 +29,14 @@ public void ImageFromBlob()
 
     doc.MailMerge.FieldMergingCallback = new HandleMergeImageFieldFromBlob();
 
-    string connString = $"Provider=Microsoft.Jet.OLEDB.4.0;Data Source={DatabaseDir + "Northwind.mdb"};";
+    string connString = $"Provider=Microsoft.ACE.OLEDB.12.0;Data Source={DatabaseDir + "Northwind.accdb"};";
     string query = "SELECT FirstName, LastName, Title, Address, City, Region, Country, PhotoBLOB FROM Employees";
 
     using (OleDbConnection conn = new OleDbConnection(connString))
     {
         conn.Open();
 
-        // Откройте средство чтения данных, которое должно быть в режиме чтения всех записей одновременно.
+        // Открытие устройства чтения данных, которое должно находиться в режиме одновременного чтения всех записей.
         OleDbCommand cmd = new OleDbCommand(query, conn);
         IDataReader dataReader = cmd.ExecuteReader();
 
@@ -44,6 +44,7 @@ public void ImageFromBlob()
     }
 
     doc.Save(ArtifactsDir + "MailMergeEvent.ImageFromBlob.docx");
+}
 
 private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
 {
@@ -53,7 +54,7 @@ private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
     }
 
     /// <summary>
-    /// Это вызывается, когда слияние встречает MERGEFIELD в документе с тегом «Image:» в его имени.
+    /// Это вызывается, когда слияние почты обнаруживает в документе MERGEFIELD с тегом «Image:» в его имени.
     /// </summary>
     void IFieldMergingCallback.ImageFieldMerging(ImageFieldMergingArgs e)
     {

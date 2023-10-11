@@ -3,7 +3,7 @@ title: CompositeNode.GetText
 second_title: Справочник по API Aspose.Words для .NET
 description: CompositeNode метод. Получает текст этого узла и всех его дочерних элементов.
 type: docs
-weight: 120
+weight: 130
 url: /ru/net/aspose.words/compositenode/gettext/
 ---
 ## CompositeNode.GetText method
@@ -16,7 +16,7 @@ public override string GetText()
 
 ### Примечания
 
-Возвращаемая строка включает все управляющие и специальные символы, как описано в[`ControlChar`](../../controlchar/).
+Возвращенная строка включает все управляющие и специальные символы, как описано в разделе[`ControlChar`](../../controlchar/).
 
 ### Примеры
 
@@ -28,14 +28,14 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.InsertField("MERGEFIELD Field");
 
-// GetText извлечет видимый текст, а также коды полей и специальные символы.
+// GetText получит видимый текст, а также коды полей и специальные символы.
 Assert.AreEqual("\u0013MERGEFIELD Field\u0014«Field»\u0015\u000c", doc.GetText());
 
-// ToString даст нам внешний вид документа, если он будет сохранен в переданном формате сохранения.
+// ToString вернет нам внешний вид документа, если он сохранен в переданном формате сохранения.
 Assert.AreEqual("«Field»\r\n", doc.ToString(SaveFormat.Text));
 ```
 
-Показывает, как вывести все абзацы в документе, которые являются элементами списка.
+Показывает, как вывести все абзацы документа, являющиеся элементами списка.
 
 ```csharp
 Document doc = new Document();

@@ -1,14 +1,14 @@
 ---
 title: Enum EmbeddedFontStyle
 second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Fonts.EmbeddedFontStyle Sıralama. Bir dosyanın içindeki gömülü bir yazı tipinin stilini belirtir.FontInfo nesne.
+description: Aspose.Words.Fonts.EmbeddedFontStyle Sıralama. Bir dosyanın içindeki gömülü yazı tipinin stilini belirtir.FontInfo nesne.
 type: docs
-weight: 2680
+weight: 2860
 url: /tr/net/aspose.words.fonts/embeddedfontstyle/
 ---
 ## EmbeddedFontStyle enumeration
 
-Bir dosyanın içindeki gömülü bir yazı tipinin stilini belirtir.[`FontInfo`](../fontinfo/) nesne.
+Bir dosyanın içindeki gömülü yazı tipinin stilini belirtir.[`FontInfo`](../fontinfo/) nesne.
 
 ```csharp
 [Flags]
@@ -26,7 +26,7 @@ public enum EmbeddedFontStyle
 
 ### Örnekler
 
-Belgeden gömülü bir yazı tipinin nasıl çıkarılacağını ve yerel dosya sistemine nasıl kaydedileceğini gösterir.
+Katıştırılmış bir yazı tipinin bir belgeden nasıl çıkarılacağını ve yerel dosya sistemine nasıl kaydedileceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Embedded font.docx");
@@ -35,14 +35,14 @@ FontInfo embeddedFont = doc.FontInfos["Alte DIN 1451 Mittelschrift"];
 byte[] embeddedFontBytes = embeddedFont.GetEmbeddedFont(EmbeddedFontFormat.OpenType, EmbeddedFontStyle.Regular);
 File.WriteAllBytes(ArtifactsDir + "Alte DIN 1451 Mittelschrift.ttf", embeddedFontBytes);
 
-// Gömülü yazı tipi biçimleri, .doc gibi diğer biçimlerde farklı olabilir.
-// Yazı tipini çıkarmadan önce doğru formatı bilmemiz gerekiyor.
+// Gömülü yazı tipi formatları .doc gibi diğer formatlarda farklı olabilir.
+// Fontu çıkarmadan önce doğru formatı bilmemiz gerekiyor.
 doc = new Document(MyDir + "Embedded font.doc");
 
 Assert.IsNull(doc.FontInfos["Alte DIN 1451 Mittelschrift"].GetEmbeddedFont(EmbeddedFontFormat.OpenType, EmbeddedFontStyle.Regular));
 Assert.IsNotNull(doc.FontInfos["Alte DIN 1451 Mittelschrift"].GetEmbeddedFont(EmbeddedFontFormat.EmbeddedOpenType, EmbeddedFontStyle.Regular));
 
-// Ayrıca .doc dokümanlarından gelen gömülü OpenType formatını OpenType'a çevirebiliriz.
+// Ayrıca .doc dokümanlarından gelen gömülü OpenType formatını OpenType'a dönüştürebiliriz.
 embeddedFontBytes = doc.FontInfos["Alte DIN 1451 Mittelschrift"].GetEmbeddedFontAsOpenType(EmbeddedFontStyle.Regular);
 
 File.WriteAllBytes(ArtifactsDir + "Alte DIN 1451 Mittelschrift.otf", embeddedFontBytes);

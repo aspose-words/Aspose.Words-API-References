@@ -20,7 +20,7 @@ public MemoryFontSource(byte[] fontData)
 
 ### Örnekler
 
-Yazı tipi kaynağı olarak bir yazı tipi dosyasındaki verilerle bir bayt dizisinin nasıl kullanılacağını gösterir.
+Bir yazı tipi dosyasındaki verileri içeren bir bayt dizisinin yazı tipi kaynağı olarak nasıl kullanılacağını gösterir.
 
 ```csharp
 byte[] fontBytes = File.ReadAllBytes(MyDir + "Alte DIN 1451 Mittelschrift.ttf");
@@ -57,7 +57,7 @@ public MemoryFontSource(byte[] fontData, int priority)
 
 ### Örnekler
 
-Yazı tipi kaynağı olarak bir yazı tipi dosyasındaki verilerle bir bayt dizisinin nasıl kullanılacağını gösterir.
+Bir yazı tipi dosyasındaki verileri içeren bir bayt dizisinin yazı tipi kaynağı olarak nasıl kullanılacağını gösterir.
 
 ```csharp
 byte[] fontBytes = File.ReadAllBytes(MyDir + "Alte DIN 1451 Mittelschrift.ttf");
@@ -91,14 +91,13 @@ public MemoryFontSource(byte[] fontData, int priority, string cacheKey)
 | --- | --- | --- |
 | fontData | Byte[] | İkili yazı tipi verileri. |
 | priority | Int32 | Yazı tipi kaynağı önceliği. Bkz.[`Priority`](../../fontsourcebase/priority/) Daha fazla bilgi için özellik açıklaması. |
-| cacheKey | String | Önbellekte bu kaynağın anahtarı. Görmek[`CacheKey`](../cachekey/) Daha fazla bilgi için özellik açıklaması. |
+| cacheKey | String | Bu kaynağın anahtarı önbellektedir. Görmek[`CacheKey`](../cachekey/) Daha fazla bilgi için özellik açıklaması. |
 
 ### Örnekler
 
 Yazı tipi önbelleği başlatma işleminin nasıl hızlandırılacağını gösterir.
 
 ```csharp
-[Test]
 public void LoadFontSearchCache()
 {
     const string cacheKey1 = "Arvo";
@@ -126,8 +125,8 @@ public void LoadFontSearchCache()
 }
 
 /// <summary>
-/// Yazı tipi verilerini bellekte saklamak yerine yalnızca gerektiğinde yükleyin
-/// "FontSettings" nesnesinin tüm kullanım ömrü boyunca.
+/// Yazı tipi verilerini belleğe kaydetmek yerine yalnızca gerektiğinde yükleyin
+/// "FontSettings" nesnesinin tüm ömrü boyunca.
 /// </summary>
 private class SearchCacheStream : StreamFontSource
 {

@@ -1,14 +1,14 @@
 ---
 title: DocumentBuilder.Italic
 second_title: Aspose.Words لمراجع .NET API
-description: DocumentBuilder ملكية. True إذا تم تنسيق الخط على أنه مائل.
+description: DocumentBuilder ملكية. صحيح إذا كان الخط منسقًا بالخط المائل.
 type: docs
-weight: 120
+weight: 140
 url: /ar/net/aspose.words/documentbuilder/italic/
 ---
 ## DocumentBuilder.Italic property
 
-True إذا تم تنسيق الخط على أنه مائل.
+صحيح إذا كان الخط منسقًا بالخط المائل.
 
 ```csharp
 public bool Italic { get; set; }
@@ -16,13 +16,13 @@ public bool Italic { get; set; }
 
 ### أمثلة
 
-يوضح كيفية تعبئة MERGEFIELD بالبيانات باستخدام أداة إنشاء المستندات بدلاً من دمج المراسلات.
+يوضح كيفية تعبئة MERGEFIELDs بالبيانات باستخدام منشئ المستندات بدلاً من دمج البريد.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// أدخل بعض MERGEFIELDS ، التي تقبل البيانات من أعمدة تحمل الاسم نفسه في مصدر بيانات أثناء دمج البريد ،
+// أدخل بعض حقول MERGEFIELDS، التي تقبل البيانات من الأعمدة التي تحمل نفس الاسم في مصدر بيانات أثناء دمج البريد،
 // ثم املأها يدويًا.
 builder.InsertField(" MERGEFIELD Chairman ");
 builder.InsertField(" MERGEFIELD ChiefFinancialOfficer ");

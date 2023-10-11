@@ -3,7 +3,7 @@ title: PdfSaveOptions.EmbedFullFonts
 second_title: Aspose.Words per .NET API Reference
 description: PdfSaveOptions proprietà. Controlla il modo in cui i caratteri vengono incorporati nei documenti PDF risultanti.
 type: docs
-weight: 100
+weight: 120
 url: /it/net/aspose.words.saving/pdfsaveoptions/embedfullfonts/
 ---
 ## PdfSaveOptions.EmbedFullFonts property
@@ -16,15 +16,15 @@ public bool EmbedFullFonts { get; set; }
 
 ### Osservazioni
 
-Il valore predefinito è`falso`, il che significa che i caratteri vengono inseriti in un sottoinsieme prima dell'incorporamento. Il sottoinsieme è utile se si desidera ridurre le dimensioni del file di output. Il sottoinsieme rimuove tutti i glifi inutilizzati da un font.
+Il valore predefinito è`falso`, il che significa che i caratteri vengono sottoposti a sottoinsiemi prima dell'incorporamento. Il sottoinsieme è utile se desideri mantenere più piccole le dimensioni del file di output. Il sottoinsieme rimuove tutti glifi inutilizzati da un carattere.
 
-Quando questo valore è impostato su`VERO`un file di font completo viene incorporato nel PDF senza sottoimpostazione. Ciò si tradurrà in file di output più grandi, ma può essere un'opzione utile quando si desidera modificare il PDF risultante in un secondo momento (ad es. aggiungere più testo).
+Quando questo valore è impostato su`VERO`, un file di caratteri completo viene incorporato nel PDF senza sottoimpostazione . Ciò si tradurrà in file di output più grandi, ma può essere un'opzione utile quando desideri modificare il PDF risultante in un secondo momento (ad esempio aggiungere altro testo).
 
-Alcuni font sono grandi (diversi megabyte) e incorporarli senza subsetting risulterà in documenti di output di grandi dimensioni.
+Alcuni caratteri sono grandi (diversi megabyte) e incorporarli senza subsetting comporterà documenti di output di grandi dimensioni.
 
 ### Esempi
 
-Mostra come abilitare o disabilitare i sottoinsiemi quando si incorporano i caratteri durante il rendering di un documento in PDF.
+Mostra come abilitare o disabilitare il sottoinsieme quando si incorporano i caratteri durante il rendering di un documento in PDF.
 
 ```csharp
 Document doc = new Document();
@@ -35,7 +35,7 @@ builder.Writeln("Hello world!");
 builder.Font.Name = "Arvo";
 builder.Writeln("The quick brown fox jumps over the lazy dog.");
 
-// Configura le nostre fonti di font per assicurarci di avere accesso a entrambi i font in questo documento.
+// Configura le nostre origini dei caratteri per assicurarci di avere accesso a entrambi i caratteri in questo documento.
 FontSourceBase[] originalFontsSources = FontSettings.DefaultInstance.GetFontsSources();
 Aspose.Words.Fonts.FolderFontSource folderFontSource = new Aspose.Words.Fonts.FolderFontSource(FontsDir, true);
 FontSettings.DefaultInstance.SetFontsSources(new[] { originalFontsSources[0], folderFontSource });
@@ -45,13 +45,13 @@ Assert.True(fontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arial
 Assert.True(fontSources[1].GetAvailableFonts().Any(f => f.FullFontName == "Arvo"));
 
 // Crea un oggetto "PdfSaveOptions" che possiamo passare al metodo "Save" del documento
-// per modificare il modo in cui quel metodo converte il documento in .PDF.
+// per modificare il modo in cui il metodo converte il documento in .PDF.
 PdfSaveOptions options = new PdfSaveOptions();
 
-// Poiché il nostro documento contiene un carattere personalizzato, potrebbe essere desiderabile incorporarlo nel documento di output.
+// Poiché il nostro documento contiene un carattere personalizzato, potrebbe essere preferibile incorporarlo nel documento di output.
 // Imposta la proprietà "EmbedFullFonts" su "true" per incorporare ogni glifo di ogni carattere incorporato nel PDF di output.
-// Le dimensioni del documento possono diventare molto grandi, ma avremo il pieno utilizzo di tutti i caratteri se modifichiamo il PDF.
-// Imposta la proprietà "EmbedFullFonts" su "false" per applicare il sottoinsieme ai caratteri, salvando solo i glifi
+// La dimensione del documento potrebbe diventare molto grande, ma se modifichiamo il PDF potremo sfruttare appieno tutti i caratteri.
+// Imposta la proprietà "EmbedFullFonts" su "false" per applicare sottoinsiemi ai caratteri, salvando solo i glifi
 // che il documento sta utilizzando. Il file sarà notevolmente più piccolo,
 // ma potremmo aver bisogno di accedere a qualsiasi carattere personalizzato se modifichiamo il documento.
 options.EmbedFullFonts = embedFullFonts;

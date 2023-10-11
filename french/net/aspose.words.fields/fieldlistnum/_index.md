@@ -3,12 +3,14 @@ title: Class FieldListNum
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Aspose.Words.Fields.FieldListNum classe. Implémente le champ LISTNUM.
 type: docs
-weight: 1970
+weight: 2120
 url: /fr/net/aspose.words.fields/fieldlistnum/
 ---
 ## FieldListNum class
 
 Implémente le champ LISTNUM.
+
+Pour en savoir plus, visitez le[Travailler avec des champs](https://docs.aspose.com/words/net/working-with-fields/) article documentaire.
 
 ```csharp
 public class FieldListNum : Field
@@ -33,10 +35,10 @@ public class FieldListNum : Field
 | [ListLevel](../../aspose.words.fields/fieldlistnum/listlevel/) { get; set; } | Obtient ou définit le niveau dans la liste, remplaçant le comportement par défaut du champ. |
 | [ListName](../../aspose.words.fields/fieldlistnum/listname/) { get; set; } | Obtient ou définit le nom de la définition de numérotation abstraite utilisée pour la numérotation. |
 | [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | Obtient ou définit le LCID du champ. |
-| [Result](../../aspose.words.fields/field/result/) { get; set; } | Obtient ou définit le texte qui se trouve entre le séparateur de champ et la fin du champ. |
-| [Separator](../../aspose.words.fields/field/separator/) { get; } | Obtient le nœud qui représente le séparateur de champs. Peut être null. |
+| [Result](../../aspose.words.fields/field/result/) { get; set; } | Obtient ou définit le texte situé entre le séparateur de champ et la fin du champ. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | Obtient le nœud qui représente le séparateur de champ. Peut être`nul` . |
 | [Start](../../aspose.words.fields/field/start/) { get; } | Obtient le nœud qui représente le début du champ. |
-| [StartingNumber](../../aspose.words.fields/fieldlistnum/startingnumber/) { get; set; } | Obtient ou définit la valeur de départ pour ce champ. |
+| [StartingNumber](../../aspose.words.fields/fieldlistnum/startingnumber/) { get; set; } | Obtient ou définit la valeur de départ de ce champ. |
 | virtual [Type](../../aspose.words.fields/field/type/) { get; } | Obtient le type de champ Microsoft Word. |
 
 ## Méthodes
@@ -45,14 +47,14 @@ public class FieldListNum : Field
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Renvoie le texte entre le début du champ et le séparateur de champ (ou la fin du champ s'il n'y a pas de séparateur). Le code de champ et le résultat du champ des champs enfants sont inclus. |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Renvoie le texte entre le début du champ et le séparateur de champ (ou la fin du champ s'il n'y a pas de séparateur). |
-| [Remove](../../aspose.words.fields/field/remove/)() | Supprime le champ du document. Renvoie un nœud juste après le champ. Si la fin du champ est le dernier enfant de son nœud parent, renvoie son paragraphe parent. Si le champ est déjà supprimé, renvoie **nul** . |
+| [Remove](../../aspose.words.fields/field/remove/)() | Supprime le champ du document. Renvoie un nœud juste après le champ. Si la fin du champ est le dernier child de son nœud parent, renvoie son paragraphe parent. Si le champ est déjà supprimé, renvoie`nul` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Effectue la dissociation du champ. |
 | [Update](../../aspose.words.fields/field/update/)() | Effectue la mise à jour du champ. Lance si le champ est déjà mis à jour. |
 | [Update](../../aspose.words.fields/field/update/)(bool) | Effectue une mise à jour du champ. Lance si le champ est déjà mis à jour. |
 
 ### Exemples
 
-Montre comment numéroter des paragraphes avec des champs LISTNUM.
+Montre comment numéroter les paragraphes avec les champs LISTNUM.
 
 ```csharp
 Document doc = new Document();
@@ -75,10 +77,10 @@ Assert.AreEqual(" LISTNUM  \\s 0", field.GetFieldCode());
 // Le champ suivant continuera le décompte que nous avons commencé ci-dessus et affichera une valeur de "1" au niveau de liste 1.
 builder.InsertField(FieldType.FieldListNum, true);
 
-// Ce champ commencera un décompte au niveau 2 de la liste. Il affichera une valeur de "1".
+// Ce champ lancera un décompte au niveau de liste 2. Il affichera une valeur de "1".
 builder.InsertField(FieldType.FieldListNum, true);
 
-// Ce champ commencera un décompte au niveau 3 de la liste. Il affichera une valeur de "1".
+// Ce champ lancera un décompte au niveau de liste 3. Il affichera une valeur de "1".
 // Différents niveaux de liste ont un formatage différent,
 // donc ces champs combinés afficheront une valeur de "1)a)i)".
 builder.InsertField(FieldType.FieldListNum, true);
@@ -86,16 +88,16 @@ builder.Writeln("Paragraph 2");
 
 // Le prochain champ LISTNUM que nous insérons continuera le décompte au niveau de la liste
 // que le champ LISTNUM précédent était activé.
-// Nous pouvons utiliser la propriété "ListLevel" pour passer à un niveau de liste différent.
-// Si ce champ LISTNUM restait au niveau 3 de la liste, il afficherait "ii)",
-// mais, puisque nous l'avons déplacé au niveau 2 de la liste, il continue le décompte à ce niveau et affiche "b)".
+// Nous pouvons utiliser la propriété "ListLevel" pour passer à un autre niveau de liste.
+// Si ce champ LISTNUM restait au niveau de liste 3, il afficherait "ii)",
+// mais, puisque nous l'avons déplacé au niveau de liste 2, il continue le décompte à ce niveau et affiche "b)".
 field = (FieldListNum)builder.InsertField(FieldType.FieldListNum, true);
 field.ListLevel = "2";
 builder.Writeln("Paragraph 3");
 
 Assert.AreEqual(" LISTNUM  \\l 2", field.GetFieldCode());
 
-// Nous pouvons définir la propriété ListName pour que le champ émule un autre type de champ AUTONUM.
+// Nous pouvons définir la propriété ListName pour que le champ émule un type de champ AUTONUM différent.
 // "NumberDefault" émule AUTONUM, "OutlineDefault" émule AUTONUMOUT,
 // et "LegalDefault" émule les champs AUTONUMLGL.
 // Le nom de la liste "OutlineDefault" avec 1 comme numéro de départ entraînera l'affichage de "I.".

@@ -1,14 +1,14 @@
 ---
 title: Font.Shading
 second_title: Aspose.Words für .NET-API-Referenz
-description: Font eigendom. Gibt ein ShadingObjekt zurück das sich auf die Schattierungsformatierung für die Schriftart bezieht.
+description: Font eigendom. Gibt a zurückShading Objekt das sich auf die Schattierungsformatierung für die Schriftart bezieht.
 type: docs
 weight: 320
 url: /de/net/aspose.words/font/shading/
 ---
 ## Font.Shading property
 
-Gibt ein Shading-Objekt zurück, das sich auf die Schattierungsformatierung für die Schriftart bezieht.
+Gibt a zurück[`Shading`](../../shading/) Objekt, das sich auf die Schattierungsformatierung für die Schriftart bezieht.
 
 ```csharp
 public Shading Shading { get; }
@@ -16,7 +16,7 @@ public Shading Shading { get; }
 
 ### Beispiele
 
-Zeigt, wie Schattierung auf Text angewendet wird, der von einem Document Builder erstellt wurde.
+Zeigt, wie man Schattierungen auf Text anwendet, der von einem Dokumentersteller erstellt wurde.
 
 ```csharp
 Document doc = new Document();

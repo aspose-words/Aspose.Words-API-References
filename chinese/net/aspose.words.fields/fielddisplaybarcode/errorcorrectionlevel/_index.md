@@ -1,14 +1,14 @@
 ---
 title: FieldDisplayBarcode.ErrorCorrectionLevel
 second_title: Aspose.Words for .NET API 参考
-description: FieldDisplayBarcode 财产. 获取或设置二维码的纠错级别有效值为 0 3.
+description: FieldDisplayBarcode 财产. 获取或设置QR码的纠错级别有效值为 0 3.
 type: docs
 weight: 80
 url: /zh/net/aspose.words.fields/fielddisplaybarcode/errorcorrectionlevel/
 ---
 ## FieldDisplayBarcode.ErrorCorrectionLevel property
 
-获取或设置二维码的纠错级别。有效值为 [0, 3].
+获取或设置QR码的纠错级别。有效值为 [0, 3].
 
 ```csharp
 public string ErrorCorrectionLevel { get; set; }
@@ -24,8 +24,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 FieldDisplayBarcode field = (FieldDisplayBarcode)builder.InsertField(FieldType.FieldDisplayBarcode, true);
 
-// 以下是 DISPLAYBARCODE 字段可以显示的四种类型的条码，以各种方式装饰。
-// 1 - 带有自定义颜色的二维码：
+// 下面是 DISPLAYBARCODE 字段可以显示的四种类型的条形码，以各种方式装饰。
+// 1 - 具有自定义颜色的 QR 码：
 field.BarcodeType = "QR";
 field.BarcodeValue = "ABC123";
 field.BackgroundColor = "0xF8BD69";
@@ -38,7 +38,7 @@ field.SymbolRotation = "0";
 Assert.AreEqual(" DISPLAYBARCODE  ABC123 QR \\b 0xF8BD69 \\f 0xB5413B \\q 3 \\s 250 \\h 1000 \\r 0", field.GetFieldCode());
 builder.Writeln();
 
-// 2 - EAN13 条码，条码下方显示数字：
+// 2 - EAN13 条形码，数字显示在条形下方：
 field = (FieldDisplayBarcode)builder.InsertField(FieldType.FieldDisplayBarcode, true);
 field.BarcodeType = "EAN13";
 field.BarcodeValue = "501234567890";
@@ -58,7 +58,7 @@ field.AddStartStopChar = true;
 Assert.AreEqual(" DISPLAYBARCODE  12345ABCDE CODE39 \\d", field.GetFieldCode());
 builder.Writeln();
 
-// 4 - ITF4 条形码，带有指定的案例代码：
+// 4 - ITF4 条形码，具有指定的案例代码：
 field = (FieldDisplayBarcode)builder.InsertField(FieldType.FieldDisplayBarcode, true);
 field.BarcodeType = "ITF14";
 field.BarcodeValue = "09312345678907";

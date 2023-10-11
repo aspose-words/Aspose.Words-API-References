@@ -3,7 +3,7 @@ title: DocumentBuilder.InsertHtml
 second_title: Référence de l'API Aspose.Words pour .NET
 description: DocumentBuilder méthode. Insère une chaîne HTML dans le document.
 type: docs
-weight: 330
+weight: 360
 url: /fr/net/aspose.words/documentbuilder/inserthtml/
 ---
 ## InsertHtml(string) {#inserthtml}
@@ -16,7 +16,7 @@ public void InsertHtml(string html)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| html | String | Chaîne HTML à insérer dans le document. |
+| html | String | Une chaîne HTML à insérer dans le document. |
 
 ### Remarques
 
@@ -24,7 +24,7 @@ Vous pouvez utiliser cette méthode pour insérer un fragment HTML ou un documen
 
 ### Exemples
 
-Montre comment utiliser un générateur de document pour insérer du contenu HTML dans un document.
+Montre comment utiliser un générateur de documents pour insérer du contenu HTML dans un document.
 
 ```csharp
 Document doc = new Document();
@@ -37,7 +37,7 @@ const string html = "<p align='right'>Paragraph right</p>" +
 
 builder.InsertHtml(html);
 
-// L'insertion de code HTML analyse la mise en forme de chaque élément dans la mise en forme équivalente du texte du document.
+// L'insertion de code HTML analyse le formatage de chaque élément dans un formatage de texte de document équivalent.
 ParagraphCollection paragraphs = doc.FirstSection.Body.Paragraphs;
 
 Assert.AreEqual("Paragraph right", paragraphs[0].GetText().Trim());
@@ -59,6 +59,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertHtml.docx");
 Montre comment exécuter un publipostage avec un rappel personnalisé qui gère les données de fusion sous la forme de documents HTML.
 
 ```csharp
+public void MergeHtml()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -106,7 +107,7 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
             builder.InsertHtml((string)args.FieldValue);
 
             // Puisque nous avons déjà inséré manuellement le contenu fusionné,
-             // nous n'aurons pas besoin de répondre à cet événement en renvoyant du contenu via la propriété "Texte".
+             // nous n'aurons pas besoin de répondre à cet événement en renvoyant du contenu via la propriété "Text".
             args.Text = string.Empty;
         }
     }
@@ -136,26 +137,26 @@ public void InsertHtml(string html, bool useBuilderFormatting)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| html | String | Chaîne HTML à insérer dans le document. |
+| html | String | Une chaîne HTML à insérer dans le document. |
 | useBuilderFormatting | Boolean | Une valeur indiquant si le formatage spécifié dans[`DocumentBuilder`](../) est utilisé comme formatage de base pour le texte importé depuis HTML. |
 
 ### Remarques
 
 Vous pouvez utiliser cette méthode pour insérer un fragment HTML ou un document HTML entier.
 
-Quand*useBuilderFormatting* est`faux` , [`DocumentBuilder`](../) la mise en forme est ignorée et la mise en forme du text inséré est basée sur la mise en forme HTML par défaut. En conséquence, le texte apparaît tel qu'il est rendu dans les navigateurs.
+Quand*useBuilderFormatting* est`FAUX` , [`DocumentBuilder`](../)le formatage est ignoré et le formatage du text inséré est basé sur le formatage HTML par défaut. En conséquence, le texte apparaît tel qu'il est affiché dans les navigateurs.
 
 Quand*useBuilderFormatting* est`vrai` , le formatage du texte inséré est basé sur[`DocumentBuilder`](../) formatage, et le texte semble avoir été inséré avec[`Write`](../write/) .
 
 ### Exemples
 
-Montre comment appliquer la mise en forme d'un générateur de document lors de l'insertion de contenu HTML.
+Montre comment appliquer la mise en forme d'un générateur de documents lors de l'insertion de contenu HTML.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Définissez un alignement de texte pour le générateur, insérez un paragraphe HTML avec un alignement spécifié et un sans.
+// Définit un alignement de texte pour le générateur, insère un paragraphe HTML avec un alignement spécifié et un sans.
 builder.ParagraphFormat.Alignment = ParagraphAlignment.Distributed;
 builder.InsertHtml(
     "<p align='right'>Paragraph 1.</p>" +
@@ -168,8 +169,8 @@ ParagraphCollection paragraphs = doc.FirstSection.Body.Paragraphs;
 Assert.AreEqual("Paragraph 1.", paragraphs[0].GetText().Trim());
 Assert.AreEqual(ParagraphAlignment.Right, paragraphs[0].ParagraphFormat.Alignment);
 
-// Le deuxième paragraphe n'a pas d'alignement spécifié. Il peut avoir sa valeur d'alignement remplie
-// par la valeur du constructeur en fonction de l'indicateur que nous avons passé à la méthode InsertHtml.
+// Le deuxième paragraphe n'a aucun alignement spécifié. Sa valeur d'alignement peut être renseignée
+// par la valeur du constructeur en fonction du flag que nous avons passé à la méthode InsertHtml.
 Assert.AreEqual("Paragraph 2.", paragraphs[1].GetText().Trim());
 Assert.AreEqual(useBuilderFormatting ? ParagraphAlignment.Distributed : ParagraphAlignment.Left,
     paragraphs[1].ParagraphFormat.Alignment);
@@ -195,7 +196,7 @@ public void InsertHtml(string html, HtmlInsertOptions options)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| html | String | Chaîne HTML à insérer dans le document. |
+| html | String | Une chaîne HTML à insérer dans le document. |
 | options | HtmlInsertOptions | Options utilisées lors de l'insertion d'une chaîne HTML. |
 
 ### Remarques
@@ -217,7 +218,7 @@ builder.InsertParagraph();
 
 // Par défaut "DocumentBuilder.InsertHtml" insère un fragment HTML qui se termine par un élément HTML de niveau bloc,
 // il ferme normalement cet élément de niveau bloc et insère un saut de paragraphe.
-// Par conséquent, un nouveau paragraphe vide apparaît après le document inséré.
+// En conséquence, un nouveau paragraphe vide apparaît après le document inséré.
 // Si nous spécifions "HtmlInsertOptions.RemoveLastEmptyParagraph", ces paragraphes vides supplémentaires seront supprimés.
 builder.MoveToMergeField("NAME");
 builder.InsertHtml("<p>John Smith</p>", HtmlInsertOptions.UseBuilderFormatting | HtmlInsertOptions.RemoveLastEmptyParagraph);

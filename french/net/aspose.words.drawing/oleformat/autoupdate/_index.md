@@ -16,7 +16,7 @@ public bool AutoUpdate { get; set; }
 
 ### Remarques
 
-La valeur par défaut est **faux**.
+La valeur par défaut est`FAUX`.
 
 ### Exemples
 
@@ -31,7 +31,7 @@ OleFormat oleFormat = shape.OleFormat;
 
 Assert.AreEqual("Excel.Sheet.12", oleFormat.ProgId);
 
-// Notre objet n'est ni mis à jour automatiquement ni verrouillé par les mises à jour.
+// Notre objet n'est ni mis à jour automatiquement ni verrouillé contre les mises à jour.
 Assert.False(oleFormat.AutoUpdate);
 Assert.AreEqual(false, oleFormat.IsLocked);
 
@@ -46,7 +46,7 @@ using (FileStream fs = new FileStream(ArtifactsDir + "OLE spreadsheet extracted 
     oleFormat.Save(fs);
 }
 
-// 2 - Enregistrez-le directement dans un nom de fichier :
+// 2 - Enregistrez-le directement sous un nom de fichier :
 oleFormat.Save(ArtifactsDir + "OLE spreadsheet saved directly" + oleFormat.SuggestedExtension);
 ```
 

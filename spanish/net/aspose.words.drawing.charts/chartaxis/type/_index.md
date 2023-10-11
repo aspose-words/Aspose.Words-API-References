@@ -3,7 +3,7 @@ title: ChartAxis.Type
 second_title: Referencia de API de Aspose.Words para .NET
 description: ChartAxis propiedad. Devuelve el tipo del eje.
 type: docs
-weight: 260
+weight: 290
 url: /es/net/aspose.words.drawing.charts/chartaxis/type/
 ---
 ## ChartAxis.Type property
@@ -19,18 +19,19 @@ public ChartAxisType Type { get; }
 Muestra cómo crear un tipo apropiado de serie de gráficos para un tipo de gráfico.
 
 ```csharp
+public void ChartSeriesCollection()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
     // Hay varias formas de completar la colección de series de un gráfico.
-    // Diferentes esquemas de series están pensados para diferentes tipos de gráficos.
+    // Los diferentes esquemas de series están destinados a diferentes tipos de gráficos.
     // 1 - Gráfico de columnas con columnas agrupadas y agrupadas a lo largo del eje X por categoría:
     Chart chart = AppendChart(builder, ChartType.Column, 500, 300);
 
     string[] categories = { "Category 1", "Category 2", "Category 3" };
 
-    // Insertar dos series de valores decimales que contengan un valor para cada categoría respectiva.
+    // Inserta dos series de valores decimales que contengan un valor para cada categoría respectiva.
     // Este gráfico de columnas tendrá tres grupos, cada uno con dos columnas.
     chart.Series.Add("Series 1", categories, new [] { 76.6, 82.1, 91.6 });
     chart.Series.Add("Series 2", categories, new [] { 64.2, 79.5, 94.0 });
@@ -49,7 +50,7 @@ Muestra cómo crear un tipo apropiado de serie de gráficos para un tipo de grá
         new DateTime(2020, 9, 7)
     };
 
-    // Inserta una serie con un valor decimal para cada fecha respectiva.
+    // Insertar una serie con un valor decimal para cada fecha respectiva.
     // Las fechas se distribuirán a lo largo de un eje X lineal,
     // y los valores agregados a esta serie crearán puntos de datos.
     chart.Series.Add("Series 1", dates, new [] { 15.8, 21.5, 22.9, 28.7, 33.1 });
@@ -61,8 +62,8 @@ Muestra cómo crear un tipo apropiado de serie de gráficos para un tipo de grá
     chart = AppendChart(builder, ChartType.Scatter, 500, 300);
 
     // Cada serie necesitará dos matrices decimales de igual longitud.
-    // La primera matriz contiene valores X, y la segunda contiene valores Y correspondientes
-    // de puntos de datos en el gráfico del gráfico.
+    // La primera matriz contiene valores X y la segunda contiene los valores Y correspondientes
+    // de puntos de datos en el gráfico del cuadro.
     chart.Series.Add("Series 1", 
         new[] { 3.1, 3.5, 6.3, 4.1, 2.2, 8.3, 1.2, 3.6 }, 
         new[] { 3.1, 6.3, 4.6, 0.9, 8.5, 4.2, 2.3, 9.9 });
@@ -77,7 +78,7 @@ Muestra cómo crear un tipo apropiado de serie de gráficos para un tipo de grá
     chart = AppendChart(builder, ChartType.Bubble, 500, 300);
 
     // Cada serie necesitará tres matrices decimales de igual longitud.
-    // La primera matriz contiene valores X, y la segunda contiene valores Y correspondientes，
+    // La primera matriz contiene valores X, la segunda contiene los valores Y correspondientes,
     // y el tercero contiene diámetros para cada uno de los puntos de datos del gráfico.
     chart.Series.Add("Series 1", 
         new [] { 1.1, 5.0, 9.8 }, 
@@ -88,7 +89,7 @@ Muestra cómo crear un tipo apropiado de serie de gráficos para un tipo de grá
 }
 
 /// <summary>
-/// Inserte un gráfico utilizando un generador de documentos de un ChartType, ancho y alto especificados, y elimine sus datos de demostración.
+/// Inserte un gráfico utilizando un generador de documentos de un tipo de gráfico, ancho y alto específicos, y elimine sus datos de demostración.
 /// </summary>
 private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, double width, double height)
 {

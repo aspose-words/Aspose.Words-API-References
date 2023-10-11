@@ -3,12 +3,14 @@ title: Class Frameset
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Framesets.Frameset klass. Representerar en ramsida eller en enda ram på en ramsida.
 type: docs
-weight: 2900
+weight: 3080
 url: /sv/net/aspose.words.framesets/frameset/
 ---
 ## Frameset class
 
 Representerar en ramsida eller en enda ram på en ramsida.
+
+För att lära dig mer, besök[Programmering med dokument](https://docs.aspose.com/words/net/programming-with-documents/) dokumentationsartikel.
 
 ```csharp
 public class Frameset

@@ -1,14 +1,14 @@
 ---
 title: IMailMergeDataSourceRoot.GetDataSource
 second_title: Aspose.Words لمراجع .NET API
-description: IMailMergeDataSourceRoot طريقة. يستدعي محرك دمج المراسلات Aspose.Words هذه الطريقة عندما يواجه بداية منطقة دمج بريد عالية المستوى .
+description: IMailMergeDataSourceRoot طريقة. يقوم محرك دمج المراسلات Aspose.Words باستدعاء هذه الطريقة عندما يواجه بداية منطقة دمج المراسلات ذات المستوى الأعلى.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.mailmerging/imailmergedatasourceroot/getdatasource/
 ---
 ## IMailMergeDataSourceRoot.GetDataSource method
 
-يستدعي محرك دمج المراسلات Aspose.Words هذه الطريقة عندما يواجه بداية منطقة دمج بريد عالية المستوى .
+يقوم محرك دمج المراسلات Aspose.Words باستدعاء هذه الطريقة عندما يواجه بداية منطقة دمج المراسلات ذات المستوى الأعلى.
 
 ```csharp
 public IMailMergeDataSource GetDataSource(string tableName)
@@ -20,26 +20,26 @@ public IMailMergeDataSource GetDataSource(string tableName)
 
 ### قيمة الإرجاع
 
-عنصر مصدر بيانات سيوفر الوصول إلى سجلات البيانات في الجدول المحدد.
+كائن مصدر بيانات يوفر الوصول إلى سجلات البيانات الخاصة بالجدول المحدد.
 
 ### ملاحظات
 
-عندما تملأ محركات دمج المراسلات Aspose.Words مستندًا بالبيانات وتواجه MERGEFIELD TableStart: TableName ، تستدعي`GetDataSource` على هذا الكائن. يحتاج التنفيذ الخاص بك إلى إرجاع كائن مصدر بيانات جديد.
+عندما تقوم محركات دمج البريد Aspose.Words بملء مستند بالبيانات وتواجه MERGEFIELD TableStart:TableName, فإنها تستدعي`GetDataSource` على هذا الكائن. يحتاج التنفيذ الخاص بك إلى إرجاع كائن مصدر بيانات جديد. سوف يستخدم Aspose.Words مصدر البيانات الذي تم إرجاعه لملء منطقة دمج البريد.
 
-في حالة عدم وجود مصدر بيانات (جدول) بالاسم المحدد ، يجب أن يعود التنفيذ`لا شيء` .
+في حالة عدم وجود مصدر بيانات (جدول) بالاسم المحدد، يجب أن يعود التنفيذ الخاص بك`باطل` .
 
 ### أمثلة
 
-ينفذ دمج البريد من مصدر بيانات مخصص مع بيانات رئيسية-تفصيلية.
+تنفيذ دمج البريد من مصدر بيانات مخصص مع بيانات رئيسية وتفصيلية.
 
 ```csharp
 public void CustomDataSourceRoot()
 {
-    // إنشاء مستند بمنطقتين لدمج المراسلات باسم "واشنطن" و "سياتل".
+    // قم بإنشاء مستند يحتوي على منطقتين لدمج البريد باسم "واشنطن" و"سياتل".
     string[] mailMergeRegions = { "Vancouver", "Seattle" };
     Document doc = CreateSourceDocumentWithMailMergeRegions(mailMergeRegions);
 
-    // إنشاء مصدري بيانات لدمج البريد.
+    // إنشاء مصدرين للبيانات لدمج المراسلات.
     EmployeeList employeesWashingtonBranch = new EmployeeList();
     employeesWashingtonBranch.Add(new Employee("John Doe", "Sales"));
     employeesWashingtonBranch.Add(new Employee("Jane Doe", "Management"));
@@ -48,23 +48,23 @@ public void CustomDataSourceRoot()
     employeesSeattleBranch.Add(new Employee("John Cardholder", "Management"));
     employeesSeattleBranch.Add(new Employee("Joe Bloggs", "Sales"));
 
-    // سجل مصادر البيانات لدينا بالاسم في جذر مصدر البيانات.
-    // إذا كنا على وشك استخدام جذر مصدر البيانات هذا في دمج البريد مع المناطق ،
+    // قم بتسجيل مصادر البيانات الخاصة بنا بالاسم في جذر مصدر البيانات.
+    // إذا كنا على وشك استخدام جذر مصدر البيانات هذا في دمج البريد مع المناطق،
     // يجب أن يتطابق الاسم المسجل لكل مصدر مع اسم منطقة دمج المراسلات الموجودة في مستند مصدر دمج المراسلات.
     DataSourceRoot sourceRoot = new DataSourceRoot();
     sourceRoot.RegisterSource(mailMergeRegions[0], new EmployeeListMailMergeSource(employeesWashingtonBranch));
     sourceRoot.RegisterSource(mailMergeRegions[1], new EmployeeListMailMergeSource(employeesSeattleBranch));
 
-    // نظرًا لوجود مناطق متتالية لدمج البريد ، فسنضطر عادةً إلى إجراء عمليتي دمج بريد.
-    // ومع ذلك ، يمكن لمصدر دمج بريد واحد مع جذر بيانات ملء مناطق متعددة
-    // إذا كان الجذر يحتوي على جداول بأسماء / أسماء أعمدة مقابلة.
+    // بما أن لدينا مناطق متتالية لدمج البريد، فعادةً ما يتعين علينا إجراء عمليتين لدمج البريد.
+    // ومع ذلك، يمكن لمصدر دمج مراسلات واحد ذو جذر بيانات ملء مناطق متعددة
+    // إذا كان الجذر يحتوي على جداول ذات أسماء/أسماء أعمدة مقابلة.
     doc.MailMerge.ExecuteWithRegions(sourceRoot);
 
     doc.Save(ArtifactsDir + "MailMergeCustom.CustomDataSourceRoot.docx");
 }
 
 /// <summary>
-/// قم بإنشاء مستند يحتوي على مناطق دمج مراسلات متتالية ، بأسماء محددة بواسطة صفيف الإدخال ،
+/// أنشئ مستندًا يحتوي على مناطق متتالية لدمج البريد، بأسماء محددة بواسطة مصفوفة الإدخال،
 /// لجدول بيانات الموظفين.
 /// </summary>
 private static Document CreateSourceDocumentWithMailMergeRegions(string[] regions)
@@ -86,7 +86,7 @@ private static Document CreateSourceDocumentWithMailMergeRegions(string[] region
 }
 
 /// <summary>
-/// مثال على فئة "كيان البيانات" في تطبيقك.
+/// مثال لفئة "كيان البيانات" في التطبيق الخاص بك.
 /// </summary>
 private class Employee
 {
@@ -101,7 +101,7 @@ private class Employee
 }
 
 /// <summary>
-/// مثال على مجموعة مكتوبة تحتوي على كائنات "البيانات" الخاصة بك.
+/// مثال لمجموعة مكتوبة تحتوي على كائنات "البيانات" الخاصة بك.
 /// </summary>
 private class EmployeeList : ArrayList
 {
@@ -113,9 +113,9 @@ private class EmployeeList : ArrayList
 }
 
 /// <summary>
-/// جذر مصدر البيانات الذي يمكن تمريره مباشرةً إلى دمج المراسلات والذي يمكنه تسجيل العديد من مصادر البيانات الفرعية واحتوائها.
-/// يجب أن تقوم جميع هذه المصادر بتنفيذ IMailMergeDataSource ، وأن يتم تسجيلها وتمييزها عن طريق الاسم
-/// الذي يتوافق مع منطقة دمج المراسلات التي ستقرأ البيانات المعنية.
+/// جذر مصدر البيانات الذي يمكن تمريره مباشرة إلى عملية دمج البريد التي يمكنها التسجيل وتحتوي على العديد من مصادر البيانات الفرعية.
+/// يجب أن تقوم جميع هذه المصادر بتنفيذ IMailMergeDataSource، وأن يتم تسجيلها وتمييزها باسم
+/// الذي يتوافق مع منطقة دمج البريد التي ستقرأ البيانات المعنية.
 /// </summary>
 private class DataSourceRoot : IMailMergeDataSourceRoot
 {
@@ -135,7 +135,7 @@ private class DataSourceRoot : IMailMergeDataSourceRoot
 }
 
 /// <summary>
-/// مصدر بيانات دمج المراسلات المخصص.
+/// مصدر بيانات دمج البريد المخصص.
 /// </summary>
 private class EmployeeListMailMergeSource : IMailMergeDataSource
 {
@@ -167,7 +167,7 @@ private class EmployeeListMailMergeSource : IMailMergeDataSource
     }
 
     /// <summary>
-    /// اسم مصدر البيانات. تستخدم بواسطة Aspose.Words فقط عند تنفيذ دمج البريد مع المناطق القابلة للتكرار.
+    /// اسم مصدر البيانات. يُستخدم بواسطة Aspose.Words فقط عند تنفيذ دمج البريد مع المناطق القابلة للتكرار.
     /// </summary>
     public string TableName
     {
@@ -175,7 +175,7 @@ private class EmployeeListMailMergeSource : IMailMergeDataSource
     }
 
     /// <summary>
-    /// Aspose.Words تستدعي هذه الطريقة للحصول على قيمة لكل حقل بيانات.
+    /// يستدعي Aspose.Words هذه الطريقة للحصول على قيمة لكل حقل بيانات.
     /// </summary>
     public bool GetValue(string fieldName, out object fieldValue)
     {
@@ -188,7 +188,7 @@ private class EmployeeListMailMergeSource : IMailMergeDataSource
                 fieldValue = mEmployees[mRecordIndex].Department;
                 return true;
             default:
-                // إرجاع "خطأ" إلى محرك دمج المراسلات Aspose.Words للإشارة
+                // قم بإرجاع "خطأ" إلى محرك دمج البريد Aspose.Words للدلالة
                 // لم نتمكن من العثور على حقل بهذا الاسم.
                 fieldValue = null;
                 return false;
@@ -196,7 +196,7 @@ private class EmployeeListMailMergeSource : IMailMergeDataSource
     }
 
     /// <summary>
-    /// مصادر البيانات الفرعية مخصصة لعمليات دمج البريد المتداخلة.
+    /// مصادر البيانات الفرعية مخصصة لدمج البريد المتداخل.
     /// </summary>
     public IMailMergeDataSource GetChildDataSource(string tableName)
     {

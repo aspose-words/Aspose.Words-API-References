@@ -1,14 +1,14 @@
 ---
 title: FileFormatInfo.IsEncrypted
 second_title: Aspose.Words for .NET API Referansı
-description: FileFormatInfo mülk. Belge şifrelenmişse ve açmak için bir parola gerektiriyorsa true değerini döndürür.
+description: FileFormatInfo mülk. İadelerdoğru belge şifrelenmişse ve açmak için şifre gerektiriyorsa.
 type: docs
 weight: 30
 url: /tr/net/aspose.words/fileformatinfo/isencrypted/
 ---
 ## FileFormatInfo.IsEncrypted property
 
-Belge şifrelenmişse ve açmak için bir parola gerektiriyorsa true değerini döndürür.
+İadeler`doğru` belge şifrelenmişse ve açmak için şifre gerektiriyorsa.
 
 ```csharp
 public bool IsEncrypted { get; }
@@ -16,7 +16,7 @@ public bool IsEncrypted { get; }
 
 ### Notlar
 
-Bu özellik, şifrelenmiş belgeleri olmayanlardan ayırmanıza yardımcı olmak için mevcuttur. Aspose.Words kullanarak şifreli bir belgeyi bir parola sağlamadan yüklemeye çalışırsanız, bir istisnası atılır. Bu özelliği, bir belgenin parolası gerektirip gerektirmediğini saptamak ve bir belgeyi yüklemeden önce bazı eylemler gerçekleştirmek, örneğin kullanıcıdan parola istemek için kullanabilirsiniz.
+Bu özellik, şifrelenmiş belgeleri şifrelenmemiş olanlardan ayırmanıza yardımcı olmak için mevcuttur. Aspose.Words'ü kullanarak şifrelenmiş bir belgeyi şifre girmeden yüklemeye çalışırsanız, bir istisnası oluşturulur. Bir belgenin parolasını gerektirip gerektirmediğini tespit etmek ve belgeyi yüklemeden önce kullanıcıdan parola istemek gibi bazı eylemler gerçekleştirmek için bu özelliği kullanabilirsiniz.
 
 ### Örnekler
 
@@ -25,8 +25,8 @@ Belge biçimini ve şifrelemeyi algılamak için FileFormatUtil sınıfının na
 ```csharp
 Document doc = new Document();
 
-// Belgeyi şifrelemek için bir SaveOptions nesnesi yapılandırın
-// kaydettiğimizde bir şifre ile ve ardından belgeyi kaydedin.
+// Belgeyi şifrelemek için SaveOptions nesnesini yapılandırın
+// bir şifre ile kaydettiğimizde ve ardından belgeyi kaydettiğimizde.
 OdtSaveOptions saveOptions = new OdtSaveOptions(SaveFormat.Odt);
 saveOptions.Password = "MyPassword";
 

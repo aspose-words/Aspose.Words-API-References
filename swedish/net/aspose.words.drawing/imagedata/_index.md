@@ -3,12 +3,14 @@ title: Class ImageData
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Drawing.ImageData klass. Definierar en bild för en form.
 type: docs
-weight: 930
+weight: 1060
 url: /sv/net/aspose.words.drawing/imagedata/
 ---
 ## ImageData class
 
 Definierar en bild för en form.
+
+För att lära dig mer, besök[Arbeta med bilder](https://docs.aspose.com/words/net/working-with-images/) dokumentationsartikel.
 
 ```csharp
 public class ImageData
@@ -28,12 +30,12 @@ public class ImageData
 | [CropRight](../../aspose.words.drawing/imagedata/cropright/) { get; set; } | Definierar andelen av bildborttagning från höger sida. |
 | [CropTop](../../aspose.words.drawing/imagedata/croptop/) { get; set; } | Definierar andelen av bildborttagning från ovansidan. |
 | [GrayScale](../../aspose.words.drawing/imagedata/grayscale/) { get; set; } | Bestämmer om en bild ska visas i gråskaleläge. |
-| [HasImage](../../aspose.words.drawing/imagedata/hasimage/) { get; } | Returnerar sant om formen har bildbytes eller länkar en bild. |
+| [HasImage](../../aspose.words.drawing/imagedata/hasimage/) { get; } | Returnerar`Sann` om formen har bildbytes eller länkar en bild. |
 | [ImageBytes](../../aspose.words.drawing/imagedata/imagebytes/) { get; set; } | Hämtar eller ställer in råbyte för bilden som lagras i formen. |
 | [ImageSize](../../aspose.words.drawing/imagedata/imagesize/) { get; } | Får information om bildstorlek och upplösning. |
 | [ImageType](../../aspose.words.drawing/imagedata/imagetype/) { get; } | Hämtar typen av bild. |
-| [IsLink](../../aspose.words.drawing/imagedata/islink/) { get; } | Returnerar sant om bilden är länkad till formen (när[`SourceFullName`](./sourcefullname/) anges). |
-| [IsLinkOnly](../../aspose.words.drawing/imagedata/islinkonly/) { get; } | Returnerar sant om bilden är länkad och inte lagrad i dokumentet. |
+| [IsLink](../../aspose.words.drawing/imagedata/islink/) { get; } | Returnerar`Sann` om bilden är länkad till formen (när[`SourceFullName`](./sourcefullname/) anges). |
+| [IsLinkOnly](../../aspose.words.drawing/imagedata/islinkonly/) { get; } | Returnerar`Sann` om bilden är länkad och inte lagrad i dokumentet. |
 | [SourceFullName](../../aspose.words.drawing/imagedata/sourcefullname/) { get; set; } | Hämtar eller ställer in sökvägen och namnet på källfilen för den länkade bilden. |
 | [Title](../../aspose.words.drawing/imagedata/title/) { get; set; } | Definierar titeln på en bild. |
 
@@ -41,6 +43,7 @@ public class ImageData
 
 | namn | Beskrivning |
 | --- | --- |
+| [FitImageToShape](../../aspose.words.drawing/imagedata/fitimagetoshape/)() |  |
 | [Save](../../aspose.words.drawing/imagedata/save/#save)(Stream) | Sparar bilden i den angivna strömmen. |
 | [Save](../../aspose.words.drawing/imagedata/save/#save_1)(string) | Sparar bilden i en fil. |
 | [SetImage](../../aspose.words.drawing/imagedata/setimage/#setimage)(Image) | Ställer in bilden som formen visar. |
@@ -78,7 +81,7 @@ foreach (Shape shape in shapes.OfType<Shape>())
 {
     if (shape.HasImage)
     {
-        // Bilddata för former kan innehålla bilder av många möjliga bildformat. 
+         // Bilddata för former kan innehålla bilder av många möjliga bildformat.
         // Vi kan bestämma en filtillägg för varje bild automatiskt, baserat på dess format.
         string imageFileName =
             $"File.ExtractImages.{imageIndex}{FileFormatUtil.ImageTypeToExtension(shape.ImageData.ImageType)}";

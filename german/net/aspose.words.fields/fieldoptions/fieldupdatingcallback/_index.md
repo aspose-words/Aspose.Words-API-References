@@ -1,14 +1,14 @@
 ---
 title: FieldOptions.FieldUpdatingCallback
 second_title: Aspose.Words für .NET-API-Referenz
-description: FieldOptions eigendom. Holt oder setztIFieldUpdatingCallback implementierung
+description: FieldOptions eigendom. Ruft ab oder legt festIFieldUpdatingCallback Implementierung
 type: docs
-weight: 110
+weight: 120
 url: /de/net/aspose.words.fields/fieldoptions/fieldupdatingcallback/
 ---
 ## FieldOptions.FieldUpdatingCallback property
 
-Holt oder setzt[`IFieldUpdatingCallback`](../../ifieldupdatingcallback/) implementierung
+Ruft ab oder legt fest[`IFieldUpdatingCallback`](../../ifieldupdatingcallback/) Implementierung
 
 ```csharp
 public IFieldUpdatingCallback FieldUpdatingCallback { get; set; }

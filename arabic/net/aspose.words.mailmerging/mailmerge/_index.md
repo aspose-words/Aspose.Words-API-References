@@ -1,14 +1,16 @@
 ---
 title: Class MailMerge
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.MailMerging.MailMerge فصل. يمثل وظيفة دمج المراسلات.
+description: Aspose.Words.MailMerging.MailMerge فصل. يمثل وظيفة دمج البريد.
 type: docs
-weight: 3620
+weight: 3840
 url: /ar/net/aspose.words.mailmerging/mailmerge/
 ---
 ## MailMerge class
 
-يمثل وظيفة دمج المراسلات.
+يمثل وظيفة دمج البريد.
+
+لمعرفة المزيد، قم بزيارة[دمج البريد وإعداد التقارير](https://docs.aspose.com/words/net/mail-merge-and-reporting/) مقالة توثيقية.
 
 ```csharp
 public class MailMerge
@@ -18,61 +20,61 @@ public class MailMerge
 
 | اسم | وصف |
 | --- | --- |
-| [CleanupOptions](../../aspose.words.mailmerging/mailmerge/cleanupoptions/) { get; set; } | الحصول على أو تعيين مجموعة من العلامات التي تحدد العناصر التي يجب إزالتها أثناء دمج المراسلات. |
-| [CleanupParagraphsWithPunctuationMarks](../../aspose.words.mailmerging/mailmerge/cleanupparagraphswithpunctuationmarks/) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كانت الفقرات التي تحتوي على علامات ترقيم تعتبر فارغة ويجب إزالتها إذا كانRemoveEmptyParagraphs تم تحديد الخيار . |
-| [FieldMergingCallback](../../aspose.words.mailmerging/mailmerge/fieldmergingcallback/) { get; set; } | يحدث أثناء دمج المراسلات عند مصادفة حقل دمج المراسلات في المستند. |
+| [CleanupOptions](../../aspose.words.mailmerging/mailmerge/cleanupoptions/) { get; set; } | الحصول على أو تعيين مجموعة من العلامات التي تحدد العناصر التي يجب إزالتها أثناء دمج البريد. |
+| [CleanupParagraphsWithPunctuationMarks](../../aspose.words.mailmerging/mailmerge/cleanupparagraphswithpunctuationmarks/) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كانت الفقرات التي تحتوي على علامات ترقيم تعتبر فارغة ويجب إزالتها إذا كانتRemoveEmptyParagraphs تم تحديد الخيار. |
+| [FieldMergingCallback](../../aspose.words.mailmerging/mailmerge/fieldmergingcallback/) { get; set; } | يحدث أثناء دمج البريد عند مواجهة حقل دمج البريد في المستند. |
 | [MailMergeCallback](../../aspose.words.mailmerging/mailmerge/mailmergecallback/) { get; set; } | يسمح بمعالجة أحداث معينة أثناء دمج البريد. |
-| [MappedDataFields](../../aspose.words.mailmerging/mailmerge/mappeddatafields/) { get; } | إرجاع مجموعة تمثل حقول البيانات المعينة لعملية دمج المراسلات. |
-| [MergeDuplicateRegions](../../aspose.words.mailmerging/mailmerge/mergeduplicateregions/) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان يجب دمج جميع مناطق دمج بريد المستندات مع اسم مصدر البيانات أثناء تنفيذ دمج البريد مع المناطق مقابل مصدر البيانات أو الأول فقط. |
-| [MergeWholeDocument](../../aspose.words.mailmerging/mailmerge/mergewholedocument/) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان سيتم تحديث الحقول في المستند بأكمله أثناء تنفيذ دمج البريد مع المناطق. |
-| [PreserveUnusedTags](../../aspose.words.mailmerging/mailmerge/preserveunusedtags/) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان يجب الاحتفاظ بعلامات "الشارب" غير المستخدمة . |
-| [RegionEndTag](../../aspose.words.mailmerging/mailmerge/regionendtag/) { get; set; } | الحصول على علامة نهاية منطقة دمج المراسلات أو تعيينها. |
-| [RegionStartTag](../../aspose.words.mailmerging/mailmerge/regionstarttag/) { get; set; } | الحصول على علامة بدء منطقة دمج المراسلات أو تعيينها. |
+| [MappedDataFields](../../aspose.words.mailmerging/mailmerge/mappeddatafields/) { get; } | إرجاع مجموعة تمثل حقول البيانات المعينة لعملية دمج البريد. |
+| [MergeDuplicateRegions](../../aspose.words.mailmerging/mailmerge/mergeduplicateregions/) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان يجب دمج كافة مناطق دمج مراسلات المستند التي تحمل اسم مصدر البيانات أثناء تنفيذ دمج البريد مع المناطق مقابل مصدر البيانات أو المصدر الأول فقط. |
+| [MergeWholeDocument](../../aspose.words.mailmerging/mailmerge/mergewholedocument/) { get; set; } | الحصول على قيمة أو تعيينها تشير إلى ما إذا كان سيتم تحديث الحقول الموجودة في المستند بأكمله أثناء تنفيذ دمج البريد مع المناطق. |
+| [PreserveUnusedTags](../../aspose.words.mailmerging/mailmerge/preserveunusedtags/) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان يجب الاحتفاظ بعلامات "الشارب" غير المستخدمة. |
+| [RegionEndTag](../../aspose.words.mailmerging/mailmerge/regionendtag/) { get; set; } | الحصول على علامة نهاية منطقة دمج البريد أو تعيينها. |
+| [RegionStartTag](../../aspose.words.mailmerging/mailmerge/regionstarttag/) { get; set; } | الحصول على علامة بدء منطقة دمج البريد أو تعيينها. |
 | [RestartListsAtEachSection](../../aspose.words.mailmerging/mailmerge/restartlistsateachsection/) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان سيتم إعادة تشغيل القوائم في كل قسم بعد تنفيذ عملية دمج البريد. |
-| [RetainFirstSectionStart](../../aspose.words.mailmerging/mailmerge/retainfirstsectionstart/) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان ملف[`SectionStart`](../../aspose.words/pagesetup/sectionstart/) من قسم المستند الأول ونسخه لمصدر البيانات اللاحقة rows يتم الاحتفاظ بها أثناء دمج المراسلات أو تحديثها وفقًا لسلوك MS Word. |
-| [TrimWhitespaces](../../aspose.words.mailmerging/mailmerge/trimwhitespaces/) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كانت المسافات البيضاء الزائدة والبادئة قد تم اقتطاعها من قيم دمج البريد. |
-| [UnconditionalMergeFieldsAndRegions](../../aspose.words.mailmerging/mailmerge/unconditionalmergefieldsandregions/) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كانت حقول الدمج ومناطق الدمج مدمجة بغض النظر عن حالة حقل IF الأصلي. |
-| [UseNonMergeFields](../../aspose.words.mailmerging/mailmerge/usenonmergefields/) { get; set; } | عندما يكون صحيحًا ، يحدد أنه بالإضافة إلى حقول MERGEFIELD ، يتم تنفيذ دمج المراسلات في بعض أنواع الحقول الأخرى و أيضًا في علامات "{{fieldName}}". |
-| [UseWholeParagraphAsRegion](../../aspose.words.mailmerging/mailmerge/usewholeparagraphasregion/) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان يجب تضمين فقرة كاملة مع TableStart أو TableEnd field أو نطاق معين بين حقول TableStart و TableEnd في منطقة دمج المراسلات. |
+| [RetainFirstSectionStart](../../aspose.words.mailmerging/mailmerge/retainfirstsectionstart/) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان[`SectionStart`](../../aspose.words/pagesetup/sectionstart/) من قسم المستند الأول ونسخه لصفوف مصدر البيانات اللاحقة يتم الاحتفاظ بها أثناء دمج البريد أو تحديثها وفقًا لسلوك MS Word. |
+| [TrimWhitespaces](../../aspose.words.mailmerging/mailmerge/trimwhitespaces/) { get; set; } | الحصول على قيمة أو تعيينها تشير إلى ما إذا كان سيتم اقتطاع المسافات البيضاء الزائدة والبادئة من قيم دمج المراسلات. |
+| [UnconditionalMergeFieldsAndRegions](../../aspose.words.mailmerging/mailmerge/unconditionalmergefieldsandregions/) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان سيتم دمج حقول الدمج ومناطق الدمج بغض النظر عن حالة حقل IF الأصلي. |
+| [UseNonMergeFields](../../aspose.words.mailmerging/mailmerge/usenonmergefields/) { get; set; } | متى`حقيقي` ، يحدد أنه بالإضافة إلى حقول MERGEFIELD، يتم إجراء دمج البريد في بعض أنواع الحقول الأخرى و أيضًا في علامات "{{fieldName}}". |
+| [UseWholeParagraphAsRegion](../../aspose.words.mailmerging/mailmerge/usewholeparagraphasregion/) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كانت الفقرة بأكملها بها **TableStart** أو **نهاية الجدول** field أو نطاق معين بين **TableStart** و **نهاية الجدول** يجب تضمين الحقول في منطقة دمج البريد. |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| [DeleteFields](../../aspose.words.mailmerging/mailmerge/deletefields/)() | يزيل الحقول المتعلقة بدمج المراسلات من المستند. |
-| [Execute](../../aspose.words.mailmerging/mailmerge/execute/#execute_1)(DataRow) | تنفيذ دمج المراسلات من DataRow في المستند. |
-| [Execute](../../aspose.words.mailmerging/mailmerge/execute/#execute_2)(DataTable) | تنفيذ دمج المراسلات من DataTable في المستند. |
-| [Execute](../../aspose.words.mailmerging/mailmerge/execute/#execute_3)(DataView) | تنفيذ دمج البريد من DataView في المستند. |
-| [Execute](../../aspose.words.mailmerging/mailmerge/execute/#execute_4)(IDataReader) | تنفيذ دمج المراسلات من IDataReader في المستند. |
-| [Execute](../../aspose.words.mailmerging/mailmerge/execute/#execute)(IMailMergeDataSource) | يقوم بإجراء دمج بريد من مصدر بيانات مخصص. |
-| [Execute](../../aspose.words.mailmerging/mailmerge/execute/#execute_5)(string[], object[]) | تنفيذ عملية دمج المراسلات لسجل واحد. |
-| [ExecuteADO](../../aspose.words.mailmerging/mailmerge/executeado/)(object) | تنفيذ دمج المراسلات من كائن ADO Recordset في المستند. |
-| [ExecuteWithRegions](../../aspose.words.mailmerging/mailmerge/executewithregions/#executewithregions_2)(DataSet) | تنفيذ دمج البريد من DataSet في مستند مع مناطق دمج المراسلات. |
-| [ExecuteWithRegions](../../aspose.words.mailmerging/mailmerge/executewithregions/#executewithregions_3)(DataTable) | تنفيذ دمج المراسلات من DataTable في المستند مع مناطق دمج المراسلات. |
-| [ExecuteWithRegions](../../aspose.words.mailmerging/mailmerge/executewithregions/#executewithregions_4)(DataView) | تنفيذ دمج المراسلات من DataView في المستند مع مناطق دمج المراسلات. |
-| [ExecuteWithRegions](../../aspose.words.mailmerging/mailmerge/executewithregions/#executewithregions)(IMailMergeDataSource) | يقوم بإجراء دمج بريد من مصدر بيانات مخصص بمناطق دمج البريد. |
-| [ExecuteWithRegions](../../aspose.words.mailmerging/mailmerge/executewithregions/#executewithregions_1)(IMailMergeDataSourceRoot) | يقوم بإجراء دمج بريد من مصدر بيانات مخصص بمناطق دمج البريد. |
-| [ExecuteWithRegions](../../aspose.words.mailmerging/mailmerge/executewithregions/#executewithregions_5)(IDataReader, string) | تنفيذ دمج المراسلات من IDataReader في المستند باستخدام مناطق دمج المراسلات. |
-| [ExecuteWithRegionsADO](../../aspose.words.mailmerging/mailmerge/executewithregionsado/)(object, string) | تنفيذ دمج المراسلات من كائن ADO Recordset في المستند مع مناطق دمج المراسلات. |
+| [DeleteFields](../../aspose.words.mailmerging/mailmerge/deletefields/)() | إزالة الحقول المرتبطة بدمج البريد من المستند. |
+| [Execute](../../aspose.words.mailmerging/mailmerge/execute/#execute_1)(DataRow) | يقوم بدمج البريد من a **DataRow** في المستند. |
+| [Execute](../../aspose.words.mailmerging/mailmerge/execute/#execute_2)(DataTable) | تنفيذ دمج البريد من DataTable في المستند. |
+| [Execute](../../aspose.words.mailmerging/mailmerge/execute/#execute_3)(DataView) | يقوم بدمج البريد من a **عرض البيانات** في المستند. |
+| [Execute](../../aspose.words.mailmerging/mailmerge/execute/#execute_4)(IDataReader) | يقوم بدمج البريد من **معرف البيانات** في المستند. |
+| [Execute](../../aspose.words.mailmerging/mailmerge/execute/#execute)(IMailMergeDataSource) | تنفيذ عملية دمج البريد من مصدر بيانات مخصص. |
+| [Execute](../../aspose.words.mailmerging/mailmerge/execute/#execute_5)(string[], object[]) | تنفيذ عملية دمج البريد لسجل واحد. |
+| [ExecuteADO](../../aspose.words.mailmerging/mailmerge/executeado/)(object) | تنفيذ دمج البريد من كائن ADO Recordset في المستند. |
+| [ExecuteWithRegions](../../aspose.words.mailmerging/mailmerge/executewithregions/#executewithregions_2)(DataSet) | يقوم بدمج البريد من a **DataSet** في مستند يحتوي على مناطق دمج البريد. |
+| [ExecuteWithRegions](../../aspose.words.mailmerging/mailmerge/executewithregions/#executewithregions_3)(DataTable) | يقوم بدمج البريد من a **جدول البيانات** في المستند الذي يحتوي على مناطق دمج البريد. |
+| [ExecuteWithRegions](../../aspose.words.mailmerging/mailmerge/executewithregions/#executewithregions_4)(DataView) | يقوم بدمج البريد من a **عرض البيانات** في المستند الذي يحتوي على مناطق دمج البريد. |
+| [ExecuteWithRegions](../../aspose.words.mailmerging/mailmerge/executewithregions/#executewithregions)(IMailMergeDataSource) | تنفيذ عملية دمج البريد من مصدر بيانات مخصص مع مناطق دمج البريد. |
+| [ExecuteWithRegions](../../aspose.words.mailmerging/mailmerge/executewithregions/#executewithregions_1)(IMailMergeDataSourceRoot) | تنفيذ عملية دمج البريد من مصدر بيانات مخصص مع مناطق دمج البريد. |
+| [ExecuteWithRegions](../../aspose.words.mailmerging/mailmerge/executewithregions/#executewithregions_5)(IDataReader, string) | يقوم بدمج البريد من **معرف البيانات** في المستند الذي يحتوي على مناطق دمج البريد. |
+| [ExecuteWithRegionsADO](../../aspose.words.mailmerging/mailmerge/executewithregionsado/)(object, string) | إجراء دمج البريد من كائن ADO Recordset في المستند باستخدام مناطق دمج البريد. |
 | [GetFieldNames](../../aspose.words.mailmerging/mailmerge/getfieldnames/)() | إرجاع مجموعة من أسماء حقول دمج المراسلات المتوفرة في المستند. |
 | [GetFieldNamesForRegion](../../aspose.words.mailmerging/mailmerge/getfieldnamesforregion/#getfieldnamesforregion)(string) | إرجاع مجموعة من أسماء حقول دمج المراسلات المتوفرة في المنطقة. |
 | [GetFieldNamesForRegion](../../aspose.words.mailmerging/mailmerge/getfieldnamesforregion/#getfieldnamesforregion_1)(string, int) | إرجاع مجموعة من أسماء حقول دمج المراسلات المتوفرة في المنطقة. |
 | [GetRegionsByName](../../aspose.words.mailmerging/mailmerge/getregionsbyname/)(string) | إرجاع مجموعة من مناطق دمج البريد بالاسم المحدد. |
-| [GetRegionsHierarchy](../../aspose.words.mailmerging/mailmerge/getregionshierarchy/)() | إرجاع تسلسل هرمي كامل للمناطق (مع الحقول) المتوفرة في المستند. |
+| [GetRegionsHierarchy](../../aspose.words.mailmerging/mailmerge/getregionshierarchy/)() | يُرجع التسلسل الهرمي الكامل للمناطق (مع الحقول) المتوفرة في المستند. |
 
 ### ملاحظات
 
-لكي تعمل عملية دمج المراسلات ، يجب أن يحتوي المستند على Word MERGEFIELD و اختياريًا الحقول التالية. أثناء عملية دمج المراسلات ، يتم استبدال حقول الدمج في المستند بقيم من مصدر البيانات.
+لكي تعمل عملية دمج البريد، يجب أن يحتوي المستند على حقول Word MERGEFIELD و اختياريًا NEXT. أثناء عملية دمج البريد، يتم استبدال حقول الدمج في المستند بقيم من مصدر البيانات.
 
-هناك طريقتان مميزتان لاستخدام دمج المراسلات: باستخدام مناطق دمج المراسلات وبدونها.
+هناك طريقتان مختلفتان لاستخدام دمج البريد: مع مناطق دمج البريد وبدونها.
 
-أبسط دمج للمراسلات هو بدون مناطق وهو مشابه جدًا لكيفية عمل دمج المراسلات في Word. يستخدمنفذ - اعدم طرق لدمج المعلومات من بعض مصادر البيانات مثل **جدول البيانات** و **مجموعة البيانات** و **عرض البيانات** و **إداتاريدر** أو مصفوفة من الكائنات في المستند الخاص بك. ال  **دمج المراسلات** يقوم الكائن بمعالجة جميع سجلات مصدر البيانات ونسخ وإلحاق محتوى المستند بأكمله لكل سجل.
+أبسط عملية دمج للبريد هي بدون مناطق وهي مشابهة جدًا لكيفية عمل mail merge في Word. يستخدمينفذ طرق لدمج المعلومات من مصدر بيانات some مثل **جدول البيانات** , **DataSet** , **عرض البيانات** , **معرف البيانات** أو مجموعة من الكائنات في المستند الخاص بك. The `MailMerge` يعالج الكائن كافة سجلات مصدر البيانات وينسخ محتوى المستند بالكامل ويلحقه بكل سجل.
 
-لاحظ أن متى **دمج المراسلات**يواجه الكائن حقل NEXT ، ويحدد record التالي في مصدر البيانات ويستمر في الدمج دون نسخ أي محتوى.
+لاحظ أنه عندما`MailMerge` عندما يواجه الكائن حقل NEXT، فإنه يحدد السجل التالي في مصدر البيانات ويستمر في الدمج دون نسخ أي محتوى.
 
-يستخدمتنفيذيويث ريجيونس طرق لدمج المعلومات في مستند a بمناطق دمج المراسلات المحددة. يمكنك استخدام  **مجموعة البيانات** و **جدول البيانات** و **عرض البيانات** أو **إداتاريدر** كمصادر بيانات لهذه العملية.
+يستخدم[`ExecuteWithRegions`](./executewithregions/) والأحمال الزائدة الأخرى لدمج المعلومات في مستند a مع تحديد مناطق دمج البريد. يمكنك استخدام  **DataSet** , **جدول البيانات** , **عرض البيانات** أو **معرف البيانات** كمصادر بيانات لهذه العملية.
 
-تحتاج إلى استخدام مناطق دمج البريد إذا كنت تريد زيادة الأجزاء ديناميكيًا داخل المستند . بدون مناطق دمج المراسلات ، سيتم تكرار المستند بالكامل لكل سجل of لمصدر البيانات.
+أنت بحاجة إلى استخدام مناطق دمج البريد إذا كنت تريد توسيع الأجزاء ديناميكيًا داخل مستند . بدون مناطق دمج البريد، سيتم تكرار المستند بالكامل لكل سجل لمصدر البيانات.
 
 ### أمثلة
 
@@ -88,14 +90,14 @@ public void ExecuteDataTable()
     table.Rows.Add(new object[] { "Paolo Accorti", "Via Monte Bianco 34, Torino" });
 
     // فيما يلي طريقتان لاستخدام DataTable كمصدر بيانات لدمج البريد.
-    // 1 - استخدم الجدول بأكمله لدمج البريد لإنشاء مستند دمج بريد ناتج واحد لكل صف في الجدول:
+    // 1 - استخدم الجدول بأكمله لدمج البريد لإنشاء مستند دمج بريدي واحد لكل صف في الجدول:
     Document doc = CreateSourceDocExecuteDataTable();
 
     doc.MailMerge.Execute(table);
 
     doc.Save(ArtifactsDir + "MailMerge.ExecuteDataTable.WholeTable.docx");
 
-    // 2 - استخدم صفًا واحدًا من الجدول لإنشاء مستند دمج بريد ناتج واحد:
+    // 2 - استخدم صفًا واحدًا من الجدول لإنشاء مستند واحد لدمج البريد:
     doc = CreateSourceDocExecuteDataTable();
 
     doc.MailMerge.Execute(table.Rows[1]);
@@ -104,7 +106,7 @@ public void ExecuteDataTable()
 }
 
 /// <summary>
-/// ينشئ مستند مصدر لدمج المراسلات.
+/// إنشاء مستند مصدر لدمج البريد.
 /// </summary>
 private static Document CreateSourceDocExecuteDataTable()
 {

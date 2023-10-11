@@ -18,13 +18,14 @@ public string DocumentFieldName { get; }
 
 Om du har en mappning från ett dokumentfältnamn till en annan datakällas fältnamn, så är detta det ursprungliga fältnamnet som specificerats i dokumentet.
 
-Om du angav ett fältnamnsprefix, till exempel "Image:MyFieldName" i dokumentet,  **DocumentFieldName** returnerar fältnamnet utan prefixet, det vill säga "MyFieldName".
+Om du angav ett fältnamnsprefix, till exempel "Image:MyFieldName" i dokumentet, `DocumentFieldName` returnerar fältnamnet utan prefixet, det vill säga "MyFieldName".
 
 ### Exempel
 
 Visar hur man utför en sammankoppling med en anpassad återuppringning som hanterar sammanslagningsdata i form av HTML-dokument.
 
 ```csharp
+public void MergeHtml()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -72,7 +73,7 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
             builder.InsertHtml((string)args.FieldValue);
 
             // Eftersom vi redan har infogat det sammanslagna innehållet manuellt,
-              // vi behöver inte svara på denna händelse genom att returnera innehåll via "Text"-egenskapen.
+             // vi behöver inte svara på denna händelse genom att returnera innehåll via "Text"-egenskapen.
             args.Text = string.Empty;
         }
     }

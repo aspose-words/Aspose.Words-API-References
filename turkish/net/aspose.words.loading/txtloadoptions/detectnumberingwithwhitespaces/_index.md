@@ -1,14 +1,14 @@
 ---
 title: TxtLoadOptions.DetectNumberingWithWhitespaces
 second_title: Aspose.Words for .NET API Referansı
-description: TxtLoadOptions mülk. Belge düz metin biçiminden içe aktarıldığında numaralandırılmış liste öğelerinin nasıl tanınacağını belirlemeye izin verir. Varsayılan değer doğrudur.
+description: TxtLoadOptions mülk. Belge düz metin biçiminden içe aktarıldığında numaralı liste öğelerinin nasıl tanınacağını belirlemeye olanak tanır. Varsayılan değerdoğru.
 type: docs
-weight: 20
+weight: 40
 url: /tr/net/aspose.words.loading/txtloadoptions/detectnumberingwithwhitespaces/
 ---
 ## TxtLoadOptions.DetectNumberingWithWhitespaces property
 
-Belge düz metin biçiminden içe aktarıldığında numaralandırılmış liste öğelerinin nasıl tanınacağını belirlemeye izin verir. Varsayılan değer doğrudur.
+Belge düz metin biçiminden içe aktarıldığında numaralı liste öğelerinin nasıl tanınacağını belirlemeye olanak tanır. Varsayılan değer:`doğru`.
 
 ```csharp
 public bool DetectNumberingWithWhitespaces { get; set; }
@@ -16,18 +16,18 @@ public bool DetectNumberingWithWhitespaces { get; set; }
 
 ### Notlar
 
-Bu seçenek false olarak ayarlanırsa, liste numaraları nokta, sağ köşeli ayraç veya madde işareti simgeleri ("•", "*", "-" veya "o" gibi) ile bittiğinde liste tanıma algoritması liste paragraflarını algılar.
+Bu seçenek olarak ayarlanmışsa`YANLIŞ`, liste tanıma algoritması, liste numaraları nokta, sağ köşeli parantez veya madde işareti simgeleriyle ("•", "*", "-" veya "o" gibi) ile bittiğinde liste paragraflarını algılar.
 
-Bu seçenek true olarak ayarlanırsa, boşluklar liste numarası sınırlayıcıları olarak da kullanılır: Arapça stil numaralandırma için liste tanıma algoritması (1., 1.1.2.) hem boşlukları hem de nokta (".") sembollerini kullanır.
+Bu seçenek olarak ayarlanmışsa`doğru`boşluklar aynı zamanda liste numarası sınırlayıcıları olarak da kullanılır: Arapça stil numaralandırma için liste tanıma algoritması (1., 1.1.2.) hem boşlukları hem de nokta (".") sembollerini kullanır.
 
 ### Örnekler
 
 Düz metin belgeleri yüklenirken listelerin nasıl algılanacağını gösterir.
 
 ```csharp
-// Liste olarak yorumlayabileceğimiz dört ayrı bölümden oluşan bir dizgede düz metin belgesi oluşturun,
+// Liste olarak yorumlayabileceğimiz dört ayrı bölümden oluşan bir dizede düz metin belgesi oluşturun,
 // farklı sınırlayıcılarla. Düz metin belgesini bir "Belge" nesnesine yükledikten sonra,
-// Aspose.Words her zaman ilk üç listeyi algılar ve bir "List" nesnesi ekler
+// Aspose.Words her zaman ilk üç listeyi algılayacak ve bir "List" nesnesi ekleyecektir
 // her biri için belgenin "Listeler" özelliğine.
 const string textDoc = "Full stop delimiters:\n" +
                        "1. First list item 1\n" +
@@ -47,12 +47,12 @@ const string textDoc = "Full stop delimiters:\n" +
                        "3 Fourth list item 3";
 
 // Bir belgenin yapıcısına iletebileceğimiz bir "TxtLoadOptions" nesnesi oluşturun
-// bir düz metin belgesini nasıl yüklediğimizi değiştirmek için.
+// düz metin belgesini yükleme şeklimizi değiştirmek için.
 TxtLoadOptions loadOptions = new TxtLoadOptions();
 
-// Numaralandırılmış öğeleri algılamak için "DetectNumberingWithWhitespaces" özelliğini "true" olarak ayarlayın
-// listeler olarak belgemizdeki dördüncü liste gibi boşluk sınırlayıcılarla.
-// Bu ayrıca sayılarla başlayan paragrafları liste olarak yanlış algılayabilir.
+// Numaralı öğeleri algılamak için "DetectNumberingWithWhitespaces" özelliğini "true" olarak ayarlayın
+// belgemizdeki dördüncü liste gibi boşluk sınırlayıcılarla listeler halinde.
+// Bu aynı zamanda sayılarla başlayan paragrafların liste olarak yanlış algılanmasına da neden olabilir.
 // "DetectNumberingWithWhitespaces" özelliğini "false" olarak ayarlayın
 // boşluk sınırlayıcıları olan numaralandırılmış öğelerden listeler oluşturmamak için.
 loadOptions.DetectNumberingWithWhitespaces = detectNumberingWithWhitespaces;

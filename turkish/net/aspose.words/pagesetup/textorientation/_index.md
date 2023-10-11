@@ -1,14 +1,14 @@
 ---
 title: PageSetup.TextOrientation
 second_title: Aspose.Words for .NET API Referansı
-description: PageSetup mülk. Belirtmeye izin verirTextOrientation tüm sayfa için. Varsayılan değerHorizontal
+description: PageSetup mülk. Belirlemeye izin verirTextOrientation tüm sayfa için. Varsayılan değerHorizontal
 type: docs
-weight: 420
+weight: 430
 url: /tr/net/aspose.words/pagesetup/textorientation/
 ---
 ## PageSetup.TextOrientation property
 
-Belirtmeye izin verir`TextOrientation` tüm sayfa için. Varsayılan değerHorizontal
+Belirlemeye izin verir`TextOrientation` tüm sayfa için. Varsayılan değer:Horizontal
 
 ```csharp
 public TextOrientation TextOrientation { get; set; }
@@ -28,8 +28,8 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 
-// Tüm metni 90 derece döndürmek için "TextOrientation" özelliğini "TextOrientation.Upward" olarak ayarlayın
-// sağa, böylece soldan sağa tüm metinler artık yukarıdan aşağıya gider.
+// Metnin tamamını 90 derece döndürmek için "TextOrientation" özelliğini "TextOrientation.Upward" olarak ayarlayın
+// sağa doğru, böylece tüm soldan sağa metinler artık yukarıdan aşağıya doğru gidiyor.
 PageSetup pageSetup = doc.Sections[0].PageSetup;
 pageSetup.TextOrientation = TextOrientation.Upward;
 

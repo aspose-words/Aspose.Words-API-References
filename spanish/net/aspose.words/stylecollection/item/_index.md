@@ -16,28 +16,29 @@ public Style this[string name] { get; }
 
 ### Observaciones
 
-Se distingue entre mayúsculas y minúsculas, devuelve nulo si no se encuentra el estilo con el nombre dado.
+Distingue entre mayúsculas y minúsculas, devuelve`nulo` si no se encuentra el estilo con el nombre de pila.
 
-Si este es un nombre en inglés de un estilo incorporado que aún no existe, lo crea automáticamente.
+Si se trata de un nombre en inglés de un estilo integrado que aún no existe, lo crea automáticamente.
 
 ### Ejemplos
 
-Muestra cuándo recalcular el diseño de página del documento.
+Muestra cuándo volver a calcular el diseño de página del documento.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// Guardar un documento en PDF, en una imagen o imprimirlo por primera vez automáticamente
+// Guardar un documento en PDF, en una imagen o imprimirlo por primera vez se realizará automáticamente
 // almacena en caché el diseño del documento dentro de sus páginas.
 doc.Save(ArtifactsDir + "Document.UpdatePageLayout.1.pdf");
 
 // Modificar el documento de alguna manera.
 doc.Styles["Normal"].Font.Size = 6;
 doc.Sections[0].PageSetup.Orientation = Aspose.Words.Orientation.Landscape;
+doc.Sections[0].PageSetup.Margins = Margins.Mirrored;
 
-  // En la versión actual de Aspose.Words, la modificación del documento no se reconstruye automáticamente
+ // En la versión actual de Aspose.Words, la modificación del documento no se reconstruye automáticamente
 // el diseño de la página en caché. Si deseamos el diseño en caché
-// para estar actualizado, necesitaremos actualizarlo manualmente.
+// para mantenernos actualizados, necesitaremos actualizarlo manualmente.
 doc.UpdatePageLayout();
 
 doc.Save(ArtifactsDir + "Document.UpdatePageLayout.2.pdf");
@@ -62,7 +63,7 @@ public Style this[StyleIdentifier sti] { get; }
 
 | Parámetro | Descripción |
 | --- | --- |
-| sti | A[`StyleIdentifier`](../../styleidentifier/) valor que especifica el estilo incorporado para recuperar. |
+| sti | A[`StyleIdentifier`](../../styleidentifier/) valor que especifica el estilo integrado que se recuperará. |
 
 ### Observaciones
 
@@ -74,15 +75,13 @@ Muestra cómo agregar un estilo a la colección de estilos de un documento.
 
 ```csharp
 Document doc = new Document();
+
 StyleCollection styles = doc.Styles;
-
-// Establecer parámetros predeterminados para nuevos estilos que luego podemos agregar a esta colección.
+// Establece parámetros predeterminados para nuevos estilos que luego podremos agregar a esta colección.
 styles.DefaultFont.Name = "Courier New";
-
-// Si agregamos un estilo del "StyleType.Paragraph", la colección aplicará los valores de
+// Si agregamos un estilo de "StyleType.Paragraph", la colección aplicará los valores de
 // su propiedad "DefaultParagraphFormat" a la propiedad "ParagraphFormat" del estilo.
 styles.DefaultParagraphFormat.FirstLineIndent = 15.0;
-
 // Agregue un estilo y luego verifique que tenga la configuración predeterminada.
 styles.Add(StyleType.Paragraph, "MyStyle");
 
@@ -114,15 +113,13 @@ Muestra cómo agregar un estilo a la colección de estilos de un documento.
 
 ```csharp
 Document doc = new Document();
+
 StyleCollection styles = doc.Styles;
-
-// Establecer parámetros predeterminados para nuevos estilos que luego podemos agregar a esta colección.
+// Establece parámetros predeterminados para nuevos estilos que luego podremos agregar a esta colección.
 styles.DefaultFont.Name = "Courier New";
-
-// Si agregamos un estilo del "StyleType.Paragraph", la colección aplicará los valores de
+// Si agregamos un estilo de "StyleType.Paragraph", la colección aplicará los valores de
 // su propiedad "DefaultParagraphFormat" a la propiedad "ParagraphFormat" del estilo.
 styles.DefaultParagraphFormat.FirstLineIndent = 15.0;
-
 // Agregue un estilo y luego verifique que tenga la configuración predeterminada.
 styles.Add(StyleType.Paragraph, "MyStyle");
 

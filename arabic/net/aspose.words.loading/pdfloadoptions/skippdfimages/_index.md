@@ -1,14 +1,14 @@
 ---
 title: PdfLoadOptions.SkipPdfImages
 second_title: Aspose.Words لمراجع .NET API
-description: PdfLoadOptions ملكية. الحصول على أو تعيين العلامة التي تشير إلى وجوب تخطي الصور أثناء تحميل مستند PDF. الافتراضي هو خطأ.
+description: PdfLoadOptions ملكية. الحصول على أو تعيين العلامة التي تشير إلى ما إذا كان يجب تخطي الصور أثناء تحميل مستند PDF. الافتراضي هوخطأ شنيع .
 type: docs
 weight: 40
 url: /ar/net/aspose.words.loading/pdfloadoptions/skippdfimages/
 ---
 ## PdfLoadOptions.SkipPdfImages property
 
-الحصول على أو تعيين العلامة التي تشير إلى وجوب تخطي الصور أثناء تحميل مستند PDF. الافتراضي هو خطأ.
+الحصول على أو تعيين العلامة التي تشير إلى ما إذا كان يجب تخطي الصور أثناء تحميل مستند PDF. الافتراضي هو`خطأ شنيع` .
 
 ```csharp
 public bool SkipPdfImages { get; set; }

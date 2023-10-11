@@ -16,7 +16,7 @@ public RevisionGroup this[int index] { get; }
 
 ### 例子
 
-显示如何在文档中获取一组修订。
+演示如何获取文档中的一组修订。
 
 ```csharp
 Document doc = new Document(MyDir + "Revisions.docx");

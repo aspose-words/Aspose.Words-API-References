@@ -1,14 +1,14 @@
 ---
 title: IStructuredDocumentTag.Level
 second_title: Справочник по API Aspose.Words для .NET
-description: IStructuredDocumentTag свойство. Получает уровень на котором СДТ встречается в дереве документа.
+description: IStructuredDocumentTag свойство. Получает уровень на котором это СДТ встречается в дереве документа.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.markup/istructureddocumenttag/level/
 ---
 ## IStructuredDocumentTag.Level property
 
-Получает уровень, на котором **СДТ** встречается в дереве документа.
+Получает уровень, на котором это **СДТ** встречается в дереве документа.
 
 ```csharp
 public MarkupLevel Level { get; }

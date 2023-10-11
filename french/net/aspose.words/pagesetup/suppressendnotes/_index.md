@@ -3,12 +3,12 @@ title: PageSetup.SuppressEndnotes
 second_title: Référence de l'API Aspose.Words pour .NET
 description: PageSetup propriété. Vrai si les notes de fin sont imprimées à la fin de la section suivante qui ne supprime pas les notes de fin. Les notes de fin supprimées sont imprimées avant les notes de fin de cette section.
 type: docs
-weight: 400
+weight: 410
 url: /fr/net/aspose.words/pagesetup/suppressendnotes/
 ---
 ## PageSetup.SuppressEndnotes property
 
-**Vrai** si les notes de fin sont imprimées à la fin de la section suivante qui ne supprime pas les notes de fin. Les notes de fin supprimées sont imprimées avant les notes de fin de cette section.
+Vrai si les notes de fin sont imprimées à la fin de la section suivante qui ne supprime pas les notes de fin. Les notes de fin supprimées sont imprimées avant les notes de fin de cette section.
 
 ```csharp
 public bool SuppressEndnotes { get; set; }
@@ -16,9 +16,10 @@ public bool SuppressEndnotes { get; set; }
 
 ### Exemples
 
-Montre comment stocker les notes de fin à la fin de chaque section et modifier leur position.
+Montre comment stocker les notes de fin à la fin de chaque section et modifier leurs positions.
 
 ```csharp
+public void SuppressEndnotes()
 {
     Document doc = new Document();
     doc.RemoveAllChildren();
@@ -27,23 +28,24 @@ Montre comment stocker les notes de fin à la fin de chaque section et modifier 
     Assert.AreEqual(EndnotePosition.EndOfDocument, doc.EndnoteOptions.Position);
 
     // On utilise la propriété "Position" de l'objet "EndnoteOptions" du document
-     // pour collecter les notes de fin à la fin de chaque section à la place.
+     // pour collecter les notes de fin à la fin de chaque section.
     doc.EndnoteOptions.Position = EndnotePosition.EndOfSection;
 
     InsertSectionWithEndnote(doc, "Section 1", "Endnote 1, will stay in section 1");
     InsertSectionWithEndnote(doc, "Section 2", "Endnote 2, will be pushed down to section 3");
     InsertSectionWithEndnote(doc, "Section 3", "Endnote 3, will stay in section 3");
 
-    // Lors de l'obtention des sections pour afficher leurs notes de fin respectives, nous pouvons définir le drapeau "SuppressEndnotes"
-    // de l'objet "PageSetup" d'une section à "true" pour revenir au comportement par défaut et passer ses notes de fin
+    // Tout en faisant en sorte que les sections affichent leurs notes de fin respectives, nous pouvons définir l'indicateur "SuppressEndnotes"
+    // de l'objet "PageSetup" d'une section sur "true" pour revenir au comportement par défaut et transmettre ses notes de fin
     // sur la section suivante.
     PageSetup pageSetup = doc.Sections[1].PageSetup;
     pageSetup.SuppressEndnotes = true;
 
     doc.Save(ArtifactsDir + "PageSetup.SuppressEndnotes.docx");
+}
 
 /// <summary>
-/// Ajoute une section avec du texte et une note de fin à un document.
+/// Ajouter une section avec du texte et une note de fin à un document.
 /// </summary>
 private static void InsertSectionWithEndnote(Document doc, string sectionBodyText, string endnoteText)
 {

@@ -1,14 +1,14 @@
 ---
 title: Enum PresetTexture
 second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Drawing.PresetTexture перечисление. Определяет текстуру которая будет использоваться для заливки формы.
+description: Aspose.Words.Drawing.PresetTexture перечисление. Определяет текстуру которая будет использоваться для заполнения фигуры.
 type: docs
-weight: 1050
+weight: 1180
 url: /ru/net/aspose.words.drawing/presettexture/
 ---
 ## PresetTexture enumeration
 
-Определяет текстуру, которая будет использоваться для заливки формы.
+Определяет текстуру, которая будет использоваться для заполнения фигуры.
 
 ```csharp
 public enum PresetTexture
@@ -24,8 +24,8 @@ public enum PresetTexture
 | BrownMarble | `3` | Текстура коричневого мрамора. |
 | Canvas | `4` | Текстура холста. |
 | Cork | `5` | Текстура пробки. |
-| Denim | `6` | Джинсовая текстура. |
-| FishFossil | `7` | Текстура окаменелости рыбы. |
+| Denim | `6` | Текстура джинсовой ткани. |
+| FishFossil | `7` | Текстура ископаемой рыбы. |
 | Granite | `8` | Текстура гранита. |
 | GreenMarble | `9` | Текстура зеленого мрамора. |
 | MediumWood | `10` | Средняя текстура дерева. |
@@ -35,11 +35,11 @@ public enum PresetTexture
 | Papyrus | `14` | Текстура папируса. |
 | Parchment | `15` | Текстура пергамента. |
 | PinkTissuePaper | `16` | Текстура розовой папиросной бумаги. |
-| PurpleMesh | `17` | Текстура фиолетовой сетки. |
+| PurpleMesh | `17` | Фиолетовая сетчатая текстура. |
 | RecycledPaper | `18` | Текстура переработанной бумаги. |
 | Sand | `19` | Текстура песка. |
-| Stationery | `20` | Текстура канцелярских принадлежностей. |
-| Walnut | `21` | Текстура грецкого ореха. |
+| Stationery | `20` | Текстура канцелярских товаров. |
+| Walnut | `21` | Текстура ореха. |
 | WaterDroplets | `22` | Текстура капель воды. |
 | WhiteMarble | `23` | Текстура белого мрамора. |
 | WovenMat | `24` | Текстура тканого коврика. |

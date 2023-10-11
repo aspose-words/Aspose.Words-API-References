@@ -56,7 +56,7 @@ public OdtSaveOptions(string password)
 
 ## OdtSaveOptions(SaveFormat) {#constructor_1}
 
-Inizializza una nuova istanza di questa classe che può essere utilizzata per salvare un documento nel fileOdt o Ott formato.
+Inizializza una nuova istanza di questa classe che può essere utilizzata per salvare un documento nel fileOdt oppure Ott formato.
 
 ```csharp
 public OdtSaveOptions(SaveFormat saveFormat)
@@ -64,7 +64,7 @@ public OdtSaveOptions(SaveFormat saveFormat)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| saveFormat | SaveFormat | Può essereOdt oOtt. |
+| saveFormat | SaveFormat | Può essereOdt OOtt. |
 
 ### Esempi
 
@@ -76,7 +76,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 
 // Crea un nuovo OdtSaveOptions e passa "SaveFormat.Odt",
-// o "SaveFormat.Ott" come formato in cui salvare il documento. 
+ // o "SaveFormat.Ott" come formato in cui salvare il documento.
 OdtSaveOptions saveOptions = new OdtSaveOptions(saveFormat);
 saveOptions.Password = "@sposeEncrypted_1145";
 

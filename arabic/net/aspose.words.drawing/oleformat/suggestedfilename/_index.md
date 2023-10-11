@@ -23,8 +23,8 @@ Document doc = new Document(MyDir + "OLE shape.rtf");
 
 Shape oleShape = (Shape) doc.FirstSection.Body.GetChild(NodeType.Shape, 0, true);
 
-// يمكن أن توفر كائنات OLE اسم ملف وامتدادًا مقترحين ،
-// التي يمكننا استخدامها عند حفظ محتويات الكائن في ملف في نظام الملفات المحلي.
+// يمكن أن توفر كائنات OLE اسم ملف وامتدادًا مقترحين،
+// والذي يمكننا استخدامه عند حفظ محتويات الكائن في ملف في نظام الملفات المحلي.
 string suggestedFileName = oleShape.OleFormat.SuggestedFileName;
 
 Assert.AreEqual("CSV.csv", suggestedFileName);

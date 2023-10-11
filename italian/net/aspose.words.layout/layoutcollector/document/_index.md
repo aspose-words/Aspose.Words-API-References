@@ -1,14 +1,14 @@
 ---
 title: LayoutCollector.Document
 second_title: Aspose.Words per .NET API Reference
-description: LayoutCollector proprietà. Ottiene o imposta il documento a cui è allegata questa istanza di raccolta.
+description: LayoutCollector proprietà. Ottiene o imposta il documento a cui è allegata questa istanza del raccoglitore.
 type: docs
 weight: 20
 url: /it/net/aspose.words.layout/layoutcollector/document/
 ---
 ## LayoutCollector.Document property
 
-Ottiene o imposta il documento a cui è allegata questa istanza di raccolta.
+Ottiene o imposta il documento a cui è allegata questa istanza del raccoglitore.
 
 ```csharp
 public Document Document { get; set; }
@@ -16,7 +16,7 @@ public Document Document { get; set; }
 
 ### Osservazioni
 
-Se è necessario accedere agli indici di pagina dei nodi del documento, è necessario impostare questa proprietà in modo che punti a un'istanza del documento, prima che venga creato il layout di pagina del documento. È meglio impostare questa proprietà su`nullo`successivamente, altrimenti il raccoglitore continua ad accumulare informazioni dalle successive ricostruzioni del layout di pagina del documento.
+Se è necessario accedere agli indici di pagina dei nodi del documento è necessario impostare questa proprietà in modo che punti a un'istanza del documento, prima che venga creato il layout di pagina del documento. È meglio impostare questa proprietà su`nullo` successivamente, altrimenti il raccoglitore continua ad accumulare informazioni dalle successive ricostruzioni del layout di pagina del documento.
 
 ### Esempi
 
@@ -31,7 +31,7 @@ LayoutCollector layoutCollector = new LayoutCollector(doc);
 Assert.AreEqual(doc, layoutCollector.Document);
 Assert.AreEqual(0, layoutCollector.GetNumPagesSpanned(doc));
 
-// Popolare il documento con 5 pagine di contenuto.
+// Compila il documento con 5 pagine di contenuto.
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Write("Section 1");
 builder.InsertBreak(BreakType.PageBreak);
@@ -41,7 +41,7 @@ builder.Write("Section 2");
 builder.InsertBreak(BreakType.PageBreak);
 builder.InsertBreak(BreakType.PageBreak);
 
-// Prima del raccoglitore di layout, dobbiamo chiamare il metodo "UpdatePageLayout" per fornirci
+// Prima del raccoglitore di layout, dobbiamo chiamare il metodo "UpdatePageLayout" per darci
 // una cifra precisa per qualsiasi metrica relativa al layout, come il conteggio delle pagine.
 Assert.AreEqual(0, layoutCollector.GetNumPagesSpanned(doc));
 
@@ -50,7 +50,7 @@ doc.UpdatePageLayout();
 
 Assert.AreEqual(5, layoutCollector.GetNumPagesSpanned(doc));
 
-// Possiamo vedere i numeri delle pagine iniziali e finali di qualsiasi nodo e le loro estensioni di pagina complessive.
+// Possiamo vedere i numeri delle pagine iniziali e finali di qualsiasi nodo e la loro estensione complessiva delle pagine.
 NodeCollection nodes = doc.GetChildNodes(NodeType.Any, true);
 foreach (Node node in nodes)
 {
@@ -60,7 +60,7 @@ foreach (Node node in nodes)
         $" spanning {layoutCollector.GetNumPagesSpanned(node)} pages.");
 }
 
-// Possiamo scorrere le entità del layout usando un LayoutEnumerator.
+// Possiamo scorrere le entità del layout utilizzando un LayoutEnumerator.
 LayoutEnumerator layoutEnumerator = new LayoutEnumerator(doc);
 
 Assert.AreEqual(LayoutEntityType.Page, layoutEnumerator.Type);

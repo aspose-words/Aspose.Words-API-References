@@ -1,14 +1,14 @@
 ---
 title: Enum CalendarType
 second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.CalendarType перечисление. Определяет тип календаря.
+description: Aspose.Words.CalendarType перечисление. Указывает тип календаря.
 type: docs
-weight: 180
+weight: 190
 url: /ru/net/aspose.words/calendartype/
 ---
 ## CalendarType enumeration
 
-Определяет тип календаря.
+Указывает тип календаря.
 
 ```csharp
 public enum CalendarType
@@ -26,19 +26,20 @@ public enum CalendarType
 
 ### Примеры
 
-Показывает, как автоматически применять настраиваемый формат к результатам поля при обновлении полей.
+Показывает, как автоматически применять пользовательский формат к результатам полей при обновлении полей.
 
 ```csharp
+public void FieldResultFormatting()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
     FieldResultFormatter formatter = new FieldResultFormatter("${0}", "Date: {0}", "Item # {0}:");
     doc.FieldOptions.ResultFormatter = formatter;
 
-    // Наш модуль форматирования результатов полей применяет пользовательский формат к вновь созданным полям трех типов форматов.
+    // Наш форматировщик результатов полей применяет пользовательский формат к вновь созданным полям трех типов форматов.
     // Средства форматирования результатов полей применяют новое форматирование к полям по мере их обновления,
-    // что происходит, как только мы создаем их, используя эту перегрузку метода InsertField.
-    // 1 - Числовой:
+    // что происходит, как только мы создаем их с помощью перегрузки метода InsertField.
+    // 1 - Числовое:
     builder.InsertField(" = 2 + 3 \\# $###");
 
     Assert.AreEqual("$5", doc.Range.Fields[0].Result);
@@ -60,7 +61,7 @@ public enum CalendarType
 }
 
 /// <summary>
-/// Когда поля с форматированием обновляются, этот модуль форматирования переопределяет их форматирование
+/// Когда поля с форматированием обновляются, этот форматтер переопределит их форматирование
 /// с пользовательским форматом, отслеживая каждый вызов.
 /// </summary>
 private class FieldResultFormatter : IFieldResultFormatter

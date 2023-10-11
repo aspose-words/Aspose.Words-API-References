@@ -18,7 +18,7 @@ public Shape Shape { get; set; }
 
 När denna egenskap är specificerad ignorerar kopplingsmotorn alla andra egenskaper som[`ImageFileName`](../imagefilename/) eller[`ImageStream`](../imagestream/) och infogar helt enkelt formen i dokumentet.
 
-Använd den här egenskapen för att fullständigt kontrollera processen att slå samman ett bildsammanfogningsfält. Du kan till exempel ange[`WrapType`](../../../aspose.words.drawing/shapebase/wraptype/)eller någon annan formegenskap för att finjustera den resulterande noden. Observera dock att du är ansvarig för att tillhandahålla innehållet i formen.
+Använd den här egenskapen för att fullständigt kontrollera processen att slå samman ett bildsammanfogningsfält. Du kan till exempel ange[`WrapType`](../../../aspose.words.drawing/shapebase/wraptype/) eller någon annan formegenskap för att finjustera den resulterande noden. Observera dock att du är ansvarig för att tillhandahålla innehållet i formen.
 
 ### Se även
 

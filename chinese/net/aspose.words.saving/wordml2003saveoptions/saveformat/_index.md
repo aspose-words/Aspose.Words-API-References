@@ -1,14 +1,14 @@
 ---
 title: WordML2003SaveOptions.SaveFormat
 second_title: Aspose.Words for .NET API 参考
-description: WordML2003SaveOptions 财产. 指定使用此保存选项对象时文档将保存的格式 只能是WordML.
+description: WordML2003SaveOptions 财产. 指定使用此保存选项对象时保存文档的格式 只能是WordML.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.saving/wordml2003saveoptions/saveformat/
 ---
 ## WordML2003SaveOptions.SaveFormat property
 
-指定使用此保存选项对象时文档将保存的格式。 只能是WordML.
+指定使用此保存选项对象时保存文档的格式。 只能是WordML.
 
 ```csharp
 public override SaveFormat SaveFormat { get; set; }
@@ -24,14 +24,14 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 
 // 创建一个“WordML2003SaveOptions”对象以传递给文档的“Save”方法
-// 修改我们如何将文档保存为 WordML 保存格式。
+// 修改我们将文档保存为 WordML 保存格式的方式。
 WordML2003SaveOptions options = new WordML2003SaveOptions();
 
 Assert.AreEqual(SaveFormat.WordML, options.SaveFormat);
 
-// 将“PrettyFormat”属性设置为“true”以应用制表符缩进和
+// 将“PrettyFormat”属性设置为“true”以应用制表符缩进并
 // 换行符使输出文档的原始内容更易于阅读。
-// 将“PrettyFormat”属性设置为“false”以将文档的原始内容保存在一个连续的正文中。
+// 将“PrettyFormat”属性设置为“false”，以将文档的原始内容保存在一个连续的文本正文中。
 options.PrettyFormat = prettyFormat;
 
 doc.Save(ArtifactsDir + "WordML2003SaveOptions.PrettyFormat.xml", options);

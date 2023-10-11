@@ -3,12 +3,14 @@ title: Class OdsoFieldMapDataCollection
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Aspose.Words.Settings.OdsoFieldMapDataCollection classe. Une collection typée desOdsoFieldMapData objets.
 type: docs
-weight: 5610
+weight: 5910
 url: /fr/net/aspose.words.settings/odsofieldmapdatacollection/
 ---
 ## OdsoFieldMapDataCollection class
 
 Une collection typée des[`OdsoFieldMapData`](../odsofieldmapdata/) objets.
+
+Pour en savoir plus, visitez le[Fusion et publipostage et création de rapports](https://docs.aspose.com/words/net/mail-merge-and-reporting/) article documentaire.
 
 ```csharp
 public class OdsoFieldMapDataCollection : IEnumerable<OdsoFieldMapData>
@@ -33,7 +35,7 @@ public class OdsoFieldMapDataCollection : IEnumerable<OdsoFieldMapData>
 | --- | --- |
 | [Add](../../aspose.words.settings/odsofieldmapdatacollection/add/)(OdsoFieldMapData) | Ajoute un objet à la fin de cette collection. |
 | [Clear](../../aspose.words.settings/odsofieldmapdatacollection/clear/)() | Supprime tous les éléments de cette collection. |
-| [GetEnumerator](../../aspose.words.settings/odsofieldmapdatacollection/getenumerator/)() | Renvoie un objet énumérateur qui peut être utilisé pour itérer sur tous les éléments de la collection. |
+| [GetEnumerator](../../aspose.words.settings/odsofieldmapdatacollection/getenumerator/)() | Renvoie un objet énumérateur qui peut être utilisé pour parcourir tous les éléments de la collection. |
 | [RemoveAt](../../aspose.words.settings/odsofieldmapdatacollection/removeat/)(int) | Supprime l'élément à l'index spécifié. |
 
 ### Exemples
@@ -62,15 +64,15 @@ using (IEnumerator<OdsoFieldMapData> enumerator = dataCollection.GetEnumerator()
     }
 }
 
-// Clone les éléments de cette collection.
+// Clonez les éléments de cette collection.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// Utilise les éléments de la méthode "RemoveAt" individuellement par index.
+// Utilisez les éléments de la méthode "RemoveAt" individuellement par index.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(29, dataCollection.Count);
 
-// Utilisez la méthode "Clear" pour effacer toute la collection d'un coup.
+// Utilisez la méthode "Clear" pour effacer toute la collection en une seule fois.
 dataCollection.Clear();
 
 Assert.AreEqual(0, dataCollection.Count);

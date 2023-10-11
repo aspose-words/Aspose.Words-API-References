@@ -3,12 +3,14 @@ title: Class WebExtension
 second_title: Aspose.Words for .NET API Referansı
 description: Aspose.Words.WebExtensions.WebExtension sınıf. Bir web uzantısı nesnesini temsil eder.
 type: docs
-weight: 6430
+weight: 6740
 url: /tr/net/aspose.words.webextensions/webextension/
 ---
 ## WebExtension class
 
 Bir web uzantısı nesnesini temsil eder.
+
+Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Office Eklentileriyle Çalışma](https://docs.aspose.com/words/net/work-with-office-add-ins/) dokümantasyon makalesi.
 
 ```csharp
 public class WebExtension
@@ -18,12 +20,12 @@ public class WebExtension
 
 | İsim | Tanım |
 | --- | --- |
-| [AlternateReferences](../../aspose.words.webextensions/webextension/alternatereferences/) { get; } | Bir web uzantısına alternatif başvuruları belirtir. |
+| [AlternateReferences](../../aspose.words.webextensions/webextension/alternatereferences/) { get; } | Bir web uzantısına alternatif referansları belirtir. |
 | [Bindings](../../aspose.words.webextensions/webextension/bindings/) { get; } | Web uzantısı bağlamalarının listesini belirtir. |
 | [Id](../../aspose.words.webextensions/webextension/id/) { get; set; } | Geçerli belgedeki web uzantısı örneğini benzersiz şekilde tanımlar. |
-| [IsFrozen](../../aspose.words.webextensions/webextension/isfrozen/) { get; set; } | Kullanıcının web uzantısıyla etkileşime girip giremeyeceğini belirtir. |
+| [IsFrozen](../../aspose.words.webextensions/webextension/isfrozen/) { get; set; } | Kullanıcının web uzantısıyla etkileşimde bulunup bulunamayacağını belirtir. |
 | [Properties](../../aspose.words.webextensions/webextension/properties/) { get; } | Bir dizi web uzantısı özel özelliğini temsil eder. |
-| [Reference](../../aspose.words.webextensions/webextension/reference/) { get; } | Bir web uzantısına yönelik birincil başvuruyu belirtir. |
+| [Reference](../../aspose.words.webextensions/webextension/reference/) { get; } | Bir web uzantısına yönelik birincil referansı belirtir. |
 
 ### Örnekler
 
@@ -32,8 +34,8 @@ Bir belgeye nasıl web uzantısı ekleneceğini gösterir.
 ```csharp
 Document doc = new Document();
 
-// Belgenin kullanacağı "MyScript" eklentisi ile görev bölmesi oluşturun,
-// ardından varsayılan konumunu ayarlayın.
+// Dokümanın kullanacağı "MyScript" eklentisi ile görev bölmesi oluşturalım,
+// daha sonra varsayılan konumunu ayarlayın.
 TaskPane myScriptTaskPane = new TaskPane();
 doc.WebExtensionTaskPanes.Add(myScriptTaskPane);
 myScriptTaskPane.DockState = TaskPaneDockState.Right;
@@ -44,7 +46,7 @@ myScriptTaskPane.IsLocked = true;
 // Aynı yerleştirme konumunda birden fazla görev bölmesi varsa, bunları düzenlemek için bu dizini ayarlayabiliriz.
 myScriptTaskPane.Row = 1;
 
-// Görev bölmesinin içinde görüntüleneceği "MyScript Math Sample" adlı bir eklenti oluşturun.
+// Görev bölmesinin içinde görüntüleyeceği "MyScript Math Sample" adında bir eklenti oluşturun.
 WebExtension webExtension = myScriptTaskPane.WebExtension;
 
 // Eklentimiz için ID gibi uygulama mağazası referans parametrelerini ayarlayın.
@@ -58,7 +60,7 @@ webExtension.Bindings.Add(new WebExtensionBinding("MyScript", WebExtensionBindin
 // Kullanıcının eklentiyle etkileşime girmesine izin ver.
 webExtension.IsFrozen = false;
 
-// Microsoft Word'deki web uzantısına Developer -> Eklentiler.
+// Microsoft Word'deki web uzantısına Developer --> aracılığıyla erişebiliriz. Eklentiler.
 doc.Save(ArtifactsDir + "Document.WebExtension.docx");
 
 // Tüm web uzantısı görev bölmelerini bu şekilde bir kerede kaldırın.

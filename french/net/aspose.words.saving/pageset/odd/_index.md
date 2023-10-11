@@ -16,7 +16,7 @@ public static PageSet Odd { get; }
 
 ### Remarques
 
-Les pages impaires ont des index pairs puisque les index de page sont basés sur zéro.
+Les pages impaires ont des indices pairs puisque les indices de page sont de base zéro.
 
 ### Voir également
 

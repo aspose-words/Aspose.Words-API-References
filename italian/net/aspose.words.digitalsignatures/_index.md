@@ -1,22 +1,22 @@
 ---
 title: Aspose.Words.DigitalSignatures
 second_title: Aspose.Words per .NET API Reference
-description: Il Aspose.Words.DigitalSignatures namespace fornisce classi per firmare documenti e verificare firme.
+description: IL Aspose.Words.DigitalSignatures namespace fornisce classi per firmare documenti e verificare le firme.
 type: docs
 weight: 40
 url: /it/net/aspose.words.digitalsignatures/
 ---
-Il **Aspose.Words.DigitalSignatures** namespace fornisce classi per firmare documenti e verificare firme.
+IL **Aspose.Words.DigitalSignatures** namespace fornisce classi per firmare documenti e verificare le firme.
 
 ## Classi
 
 | Classe | Descrizione |
 | --- | --- |
-| [CertificateHolder](./certificateholder/) | Rappresenta un titolare di **Certificato X5092** esempio. |
+| [CertificateHolder](./certificateholder/) | Rappresenta un titolare di **Certificato X5092** istanza. |
 | [DigitalSignature](./digitalsignature/) | Rappresenta una firma digitale su un documento e il risultato della sua verifica. |
 | [DigitalSignatureCollection](./digitalsignaturecollection/) | Fornisce una raccolta di sola lettura di firme digitali allegate a un documento. |
-| [DigitalSignatureUtil](./digitalsignatureutil/) | Fornisce i metodi per la firma del documento. |
-| [SignOptions](./signoptions/) | Consente di specificare le opzioni per la firma del documento. |
+| [DigitalSignatureUtil](./digitalsignatureutil/) | Fornisce metodi per firmare il documento. |
+| [SignOptions](./signoptions/) | Permette di specificare le opzioni per la firma del documento. |
 ## Enumerazione
 
 | Enumerazione | Descrizione |

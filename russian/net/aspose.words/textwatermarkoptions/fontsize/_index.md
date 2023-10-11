@@ -1,14 +1,14 @@
 ---
 title: TextWatermarkOptions.FontSize
 second_title: Справочник по API Aspose.Words для .NET
-description: TextWatermarkOptions свойство. Получает или задает размер шрифта. Значение по умолчанию 0  auto.
+description: TextWatermarkOptions свойство. Получает или задает размер шрифта. Значение по умолчанию 0  auto. .
 type: docs
 weight: 40
 url: /ru/net/aspose.words/textwatermarkoptions/fontsize/
 ---
 ## TextWatermarkOptions.FontSize property
 
-Получает или задает размер шрифта. Значение по умолчанию 0 - auto.
+Получает или задает размер шрифта. Значение по умолчанию: 0 — auto. .
 
 ```csharp
 public float FontSize { get; set; }
@@ -18,7 +18,7 @@ public float FontSize { get; set; }
 
 | исключение | условие |
 | --- | --- |
-| ArgumentOutOfRangeException | Выдает, когда аргумент находится вне диапазона допустимых значений. |
+| ArgumentOutOfRangeException | Выдает, когда аргумент выходит за пределы допустимого диапазона значений. |
 
 ### Примечания
 
@@ -36,7 +36,7 @@ Document doc = new Document();
 // Добавляем простой текстовый водяной знак.
 doc.Watermark.SetText("Aspose Watermark");
 
-// Если мы хотим отредактировать форматирование текста, используя его как водяной знак,
+// Если мы хотим отредактировать форматирование текста, используя его в качестве водяного знака,
 // мы можем сделать это, передав объект TextWatermarkOptions при создании водяного знака.
 TextWatermarkOptions textWatermarkOptions = new TextWatermarkOptions();
 textWatermarkOptions.FontFamily = "Arial";
@@ -49,7 +49,7 @@ doc.Watermark.SetText("Aspose Watermark", textWatermarkOptions);
 
 doc.Save(ArtifactsDir + "Document.TextWatermark.docx");
 
-// Мы можем удалить водяной знак из такого документа.
+// Мы можем удалить водяной знак из документа вот так.
 if (doc.Watermark.Type == WatermarkType.Text)
     doc.Watermark.Remove();
 ```

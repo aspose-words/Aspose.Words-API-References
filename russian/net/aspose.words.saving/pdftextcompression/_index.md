@@ -1,14 +1,14 @@
 ---
 title: Enum PdfTextCompression
 second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Saving.PdfTextCompression перечисление. Определяет тип сжатия применяемый ко всему содержимому файла PDF кроме изображений.
+description: Aspose.Words.Saving.PdfTextCompression перечисление. Указывает тип сжатия применяемый ко всему содержимому PDFфайла кроме изображений.
 type: docs
-weight: 5250
+weight: 5530
 url: /ru/net/aspose.words.saving/pdftextcompression/
 ---
 ## PdfTextCompression enumeration
 
-Определяет тип сжатия, применяемый ко всему содержимому файла PDF, кроме изображений.
+Указывает тип сжатия, применяемый ко всему содержимому PDF-файла, кроме изображений.
 
 ```csharp
 public enum PdfTextCompression
@@ -19,11 +19,11 @@ public enum PdfTextCompression
 | Имя | Ценность | Описание |
 | --- | --- | --- |
 | None | `0` | Без сжатия. |
-| Flate | `1` | Flate (ZIP) сжатие. |
+| Flate | `1` | Плоское (ZIP) сжатие. |
 
 ### Примеры
 
-Показывает, как применять сжатие текста при сохранении документа в формате PDF.
+Показывает, как применить сжатие текста при сохранении документа в формате PDF.
 
 ```csharp
 Document doc = new Document();
@@ -33,14 +33,14 @@ for (int i = 0; i < 100; i++)
     builder.Writeln("Lorem ipsum dolor sit amet, consectetur adipiscing elit, " +
                     "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
 
-// Создаем объект "PdfSaveOptions", который мы можем передать в метод "Сохранить" документа
-// для изменения того, как этот метод преобразует документ в .PDF.
+// Создаем объект «PdfSaveOptions», который мы можем передать методу «Save» документа.
+// чтобы изменить способ преобразования этого метода в .PDF.
 PdfSaveOptions options = new PdfSaveOptions();
 
-// Установите для свойства "TextCompression" значение "PdfTextCompression.None", чтобы не применять
+// Установите для свойства TextCompression значение «PdfTextCompression.None», чтобы не применять какие-либо
 // сжатие в текст при сохранении документа в PDF.
-// Установите для свойства "TextCompression" значение "PdfTextCompression.Flate", чтобы применить сжатие ZIP
-// в текст, когда мы сохраняем документ в формате PDF. Чем больше документ, тем большее влияние он окажет.
+// Установите для свойства TextCompression значение «PdfTextCompression.Flate», чтобы применить сжатие ZIP.
+// в текст, когда мы сохраняем документ в PDF. Чем больше документ, тем большее влияние он окажет.
 options.TextCompression = pdfTextCompression;
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.TextCompression.pdf", options);

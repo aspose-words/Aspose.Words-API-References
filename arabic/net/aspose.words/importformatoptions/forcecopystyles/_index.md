@@ -1,14 +1,14 @@
 ---
 title: ImportFormatOptions.ForceCopyStyles
 second_title: Aspose.Words لمراجع .NET API
-description: ImportFormatOptions ملكية. الحصول على أو تعيين قيمة منطقية تشير إما إلى نسخ الأنماط المتعارضة_ فيKeepSourceFormatting mode. القيمة الافتراضية هيخاطئة .
+description: ImportFormatOptions ملكية. الحصول على قيمة منطقية أو تعيينها تشير إما إلى نسخ الأنماط المتعارضة فيKeepSourceFormatting mode. القيمة الافتراضية هيخطأ شنيع .
 type: docs
-weight: 20
+weight: 30
 url: /ar/net/aspose.words/importformatoptions/forcecopystyles/
 ---
 ## ImportFormatOptions.ForceCopyStyles property
 
-الحصول على أو تعيين قيمة منطقية تشير إما إلى نسخ الأنماط المتعارضة_ فيKeepSourceFormatting mode. القيمة الافتراضية هي`خاطئة` .
+الحصول على قيمة منطقية أو تعيينها تشير إما إلى نسخ الأنماط المتعارضة فيKeepSourceFormatting mode. القيمة الافتراضية هي`خطأ شنيع` .
 
 ```csharp
 public bool ForceCopyStyles { get; set; }
@@ -16,18 +16,18 @@ public bool ForceCopyStyles { get; set; }
 
 ### ملاحظات
 
-بشكل افتراضي ، إذا كان النمط المطابق موجودًا بالفعل في مستند الوجهة ، يتم توسيع تنسيق نمط المصدر إلى سمات العقدة المباشرة وإعادة تعيين نمط هذه العقدة إلى الإعداد الافتراضي.
+افتراضيًا، إذا كان النمط المطابق موجودًا بالفعل في المستند الوجهة، فسيتم توسيع تنسيق النمط المصدر formatting إلى سمات العقدة المباشرة ويتم إعادة تعيين نمط هذه العقدة إلى الوضع الافتراضي.
 
-عندما يتم تعيين هذا الخيار على`حقيقي`، سيتم نسخ نمط المصدر بالقوة إلى مستند الوجهة باسم فريد وتطبيقه على العقدة المستوردة.
+عندما يتم ضبط هذا الخيار على`حقيقي`، سيتم نسخ النمط المصدر بالقوة إلى مستند الوجهة باسم فريد وتطبيقه على العقدة المستوردة.
 
-ملاحظة ، في هذه الحالة لا يمكن ضمان الحفاظ على تنسيق العقدة المستوردة في document الوجهة.
+لاحظ أنه في هذه الحالة ليس من المضمون الحفاظ على تنسيق العقدة المستوردة في الوجهة document .
 
 ### أمثلة
 
-يوضح كيفية نسخ أنماط المصدر بأسماء فريدة بالقوة.
+يوضح كيفية نسخ أنماط المصدر بأسماء فريدة قسرا.
 
 ```csharp
-// يحتوي كلا المستندين على MyStyle1 و MyStyle2 ، MyStyle3 موجود فقط في مستند المصدر.
+// يحتوي كلا المستندين على MyStyle1 وMyStyle2، MyStyle3 موجود فقط في المستند المصدر.
 Document srcDoc = new Document(MyDir + "Styles source.docx");
 Document dstDoc = new Document(MyDir + "Styles destination.docx");
 

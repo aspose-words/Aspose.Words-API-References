@@ -1,14 +1,14 @@
 ---
 title: ImageSize.HeightPoints
 second_title: Справочник по API Aspose.Words для .NET
-description: ImageSize свойство. Получает высоту изображения в точках. 1 пункт равен 1/72 дюйма.
+description: ImageSize свойство. Получает высоту изображения в пунктах. 1 балл равен 1/72 дюйма.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.drawing/imagesize/heightpoints/
 ---
 ## ImageSize.HeightPoints property
 
-Получает высоту изображения в точках. 1 пункт равен 1/72 дюйма.
+Получает высоту изображения в пунктах. 1 балл равен 1/72 дюйма.
 
 ```csharp
 public double HeightPoints { get; }
@@ -16,7 +16,7 @@ public double HeightPoints { get; }
 
 ### Примеры
 
-Показывает, как изменить размер фигуры с изображением.
+Показывает, как изменить размер фигуры с помощью изображения.
 
 ```csharp
 #if NET48 || JAVA
@@ -31,19 +31,19 @@ public double HeightPoints { get; }
             Assert.AreEqual(400, image.Height);
 #endif
 
-            // Когда мы вставляем изображение с помощью метода «InsertImage», построитель масштабирует фигуру, отображающую изображение, так что,
-            // когда мы просматриваем документ, используя масштаб 100% в Microsoft Word, фигура отображает изображение в его реальном размере.
+            // Когда мы вставляем изображение с помощью метода «InsertImage», построитель масштабирует фигуру, отображающую изображение, так, чтобы:
+            // когда мы просматриваем документ в Microsoft Word с масштабом 100%, фигура отображает изображение в его фактическом размере.
             Document doc = new Document();
             DocumentBuilder builder = new DocumentBuilder(doc);
             Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
 
-            // Изображение 400x400 создаст объект ImageData с размером изображения 300x300pt.
+            // Изображение размером 400x400 создаст объект ImageData с размером изображения 300x300pt.
             ImageSize imageSize = shape.ImageData.ImageSize;
 
             Assert.AreEqual(300.0d, imageSize.WidthPoints);
             Assert.AreEqual(300.0d, imageSize.HeightPoints);
 
-            // Если размеры фигуры совпадают с размерами данных изображения,
+            // Если размеры фигуры соответствуют размерам данных изображения,
             // тогда фигура отображает изображение в исходном размере.
             Assert.AreEqual(300.0d, shape.Width);
             Assert.AreEqual(300.0d, shape.Height);
@@ -51,7 +51,7 @@ public double HeightPoints { get; }
              // Уменьшаем общий размер фигуры на 50%.
             shape.Width *= 0.5;
 
-             // Коэффициенты масштабирования применяются одновременно и к ширине, и к высоте, чтобы сохранить пропорции фигуры.
+             // Коэффициенты масштабирования применяются как к ширине, так и к высоте одновременно, чтобы сохранить пропорции фигуры.
             Assert.AreEqual(150.0d, shape.Width);
             Assert.AreEqual(150.0d, shape.Height);
 

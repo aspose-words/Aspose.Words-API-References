@@ -22,7 +22,7 @@ public void SetImage(Image image)
 
 | istisna | şart |
 | --- | --- |
-| ArgumentNullException | Görüntü boş olduğunda atar. |
+| ArgumentNullException | Görüntü`hükümsüz` . |
 
 ### Ayrıca bakınız
 
@@ -49,11 +49,11 @@ public void SetImage(Image image, ImageWatermarkOptions options)
 
 | istisna | şart |
 | --- | --- |
-| ArgumentNullException | Görüntü boş olduğunda atar. |
+| ArgumentNullException | Görüntü`hükümsüz` . |
 
 ### Notlar
 
-Eğer[`ImageWatermarkOptions`](../../imagewatermarkoptions/) null ise filigran varsayılan seçeneklerle ayarlanacaktır.
+Eğer[`ImageWatermarkOptions`](../../imagewatermarkoptions/) dır-dir`hükümsüz`filigran varsayılan seçeneklerle ayarlanacaktır.
 
 ### Örnekler
 
@@ -62,8 +62,8 @@ Yerel dosya sistemindeki bir görüntüden nasıl filigran oluşturulacağını 
 ```csharp
 Document doc = new Document();
 
-            // Görüntü filigranının görünümünü bir ImageWatermarkOptions nesnesiyle değiştirin,
-            // daha sonra bir görüntü dosyasından bir filigran oluştururken iletin.
+            // Görüntü filigranının görünümünü ImageWatermarkOptions nesnesiyle değiştirin,
+            // ardından bir görüntü dosyasından filigran oluştururken bunu iletin.
             ImageWatermarkOptions imageWatermarkOptions = new ImageWatermarkOptions();
             imageWatermarkOptions.Scale = 5;
             imageWatermarkOptions.IsWashout = false;
@@ -99,18 +99,18 @@ public void SetImage(string imagePath, ImageWatermarkOptions options)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| imagePath | String | Filigran olarak görüntülenen görüntü dosyasının yolu. |
+| imagePath | String | Filigran olarak görüntülenen resim dosyasının yolu. |
 | options | ImageWatermarkOptions | Görüntü filigranı için ek seçenekleri tanımlar. |
 
 ### istisnalar
 
 | istisna | şart |
 | --- | --- |
-| ArgumentNullException | Yol boş olduğunda atar. |
+| ArgumentNullException | Yol olduğunda atar`hükümsüz` . |
 
 ### Notlar
 
-Eğer[`ImageWatermarkOptions`](../../imagewatermarkoptions/) null ise filigran varsayılan seçeneklerle ayarlanacaktır.
+Eğer[`ImageWatermarkOptions`](../../imagewatermarkoptions/) dır-dir`hükümsüz`filigran varsayılan seçeneklerle ayarlanacaktır.
 
 ### Ayrıca bakınız
 

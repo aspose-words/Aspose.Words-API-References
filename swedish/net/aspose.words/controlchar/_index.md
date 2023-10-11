@@ -3,12 +3,14 @@ title: Class ControlChar
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.ControlChar klass. Kontrolltecken som ofta påträffas i dokument.
 type: docs
-weight: 340
+weight: 350
 url: /sv/net/aspose.words/controlchar/
 ---
 ## ControlChar class
 
 Kontrolltecken som ofta påträffas i dokument.
+
+För att lära dig mer, besök[Arbeta med kontrolltecken](https://docs.aspose.com/words/net/working-with-control-characters/) dokumentationsartikel.
 
 ```csharp
 public static class ControlChar
@@ -49,7 +51,7 @@ public static class ControlChar
 
 ### Anmärkningar
 
-Ger både char- och strängversioner av samma konstanter. Till exempel: sträng ControlChar.LineBreak och char ControlChar.LineBreakChar har samma värde.
+Ger både char- och strängversioner av samma konstanter. Till exempel: sträng[`LineBreak`](./linebreak/) och röding[`LineBreakChar`](./linebreakchar/) har samma värde.
 
 ### Exempel
 

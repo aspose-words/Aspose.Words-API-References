@@ -1,14 +1,14 @@
 ---
 title: HyphenationOptions.HyphenateCaps
 second_title: Referencia de API de Aspose.Words para .NET
-description: HyphenationOptions propiedad. Obtiene o establece el valor que determina si las palabras escritas en mayúsculas están separadas por guiones. El valor predeterminado para esta propiedad es verdadero .
+description: HyphenationOptions propiedad. Obtiene o establece el valor que determina si las palabras escritas en letras mayúsculas están divididas con guiones. El valor predeterminado para esta propiedad esverdadero .
 type: docs
 weight: 40
 url: /es/net/aspose.words.settings/hyphenationoptions/hyphenatecaps/
 ---
 ## HyphenationOptions.HyphenateCaps property
 
-Obtiene o establece el valor que determina si las palabras escritas en mayúsculas están separadas por guiones. El valor predeterminado para esta propiedad es **verdadero** .
+Obtiene o establece el valor que determina si las palabras escritas en letras mayúsculas están divididas con guiones. El valor predeterminado para esta propiedad es`verdadero` .
 
 ```csharp
 public bool HyphenateCaps { get; set; }
@@ -16,7 +16,7 @@ public bool HyphenateCaps { get; set; }
 
 ### Ejemplos
 
-Muestra cómo configurar la partición automática.
+Muestra cómo configurar la separación de palabras automática.
 
 ```csharp
 Document doc = new Document();

@@ -3,7 +3,7 @@ title: Document.OriginalLoadFormat
 second_title: Aspose.Words für .NET-API-Referenz
 description: Document eigendom. Ruft das Format des Originaldokuments ab das in dieses Objekt geladen wurde.
 type: docs
-weight: 280
+weight: 300
 url: /de/net/aspose.words/document/originalloadformat/
 ---
 ## Document.OriginalLoadFormat property
@@ -16,7 +16,7 @@ public LoadFormat OriginalLoadFormat { get; }
 
 ### Bemerkungen
 
-Wenn Sie ein neues leeres Dokument erstellt haben, gibt das zurückDoc Wert.
+Wenn Sie ein neues leeres Dokument erstellt haben, wird Folgendes zurückgegeben:Doc Wert.
 
 ### Beispiele
 

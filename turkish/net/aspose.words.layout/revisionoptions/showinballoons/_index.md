@@ -8,7 +8,7 @@ url: /tr/net/aspose.words.layout/revisionoptions/showinballoons/
 ---
 ## RevisionOptions.ShowInBalloons property
 
-Revizyonların balonlarda oluşturulup oluşturulmayacağını belirlemeye izin verir. Varsayılan değerNone .
+Revizyonların balonlarda oluşturulup oluşturulmayacağını belirlemeye izin verir. Varsayılan değer:None .
 
 ```csharp
 public ShowInBalloons ShowInBalloons { get; set; }
@@ -16,22 +16,22 @@ public ShowInBalloons ShowInBalloons { get; set; }
 
 ### Notlar
 
-için revizyonların balonlarda gösterilmediğini unutmayın.ShowInAnnotations .
+Düzeltmelerin balonlarda görüntülenmediğini unutmayın.ShowInAnnotations .
 
 ### Örnekler
 
-Düzeltmelerin balonlarda nasıl görüntüleneceğini gösterir.
+Balonlarda revizyonların nasıl görüntüleneceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Revisions.docx");
 
-// Varsayılan olarak, bir revizyon olan metin, onu diğer revizyon olmayan metinden ayırt etmek için farklı bir renge sahiptir.
-// Sayfanın sağ kenarındaki bir balonda her revizyon hakkında daha fazla ayrıntı göstermek için bir revizyon seçeneği ayarlayın.
+// Varsayılan olarak, revizyon olan metin, onu diğer revizyon olmayan metinden ayırt etmek için farklı bir renge sahiptir.
+// Her revizyon hakkında daha fazla ayrıntıyı sayfanın sağ kenar boşluğundaki bir balonda göstermek için bir revizyon seçeneği ayarlayın.
 doc.LayoutOptions.RevisionOptions.ShowInBalloons = ShowInBalloons.FormatAndDelete;
 doc.Save(ArtifactsDir + "Revision.ShowRevisionBalloons.pdf");
 ```
 
-Düzeltmelerin görünümünün nasıl değiştirileceğini gösterir.
+Revizyonların görünümünün nasıl değiştirileceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Revisions.docx");
@@ -43,24 +43,24 @@ RevisionOptions revisionOptions = doc.LayoutOptions.RevisionOptions;
 revisionOptions.InsertedTextColor = RevisionColor.Green;
 revisionOptions.InsertedTextEffect = RevisionTextEffect.Italic;
 
-// Silme revizyonlarını kırmızı ve kalın olarak işle.
+// Silme düzeltmelerini kırmızı ve kalın harflerle işleyin.
 revisionOptions.DeletedTextColor = RevisionColor.Red;
 revisionOptions.DeletedTextEffect = RevisionTextEffect.Bold;
 
-// Aynı metin bir hareket revizyonunda iki kez görünecek:
+// Aynı metin bir hareket revizyonunda iki kez görünecektir:
 // bir kez kalkış noktasında ve bir kez varış noktasında.
-// Taşınan revizyondaki metni çift vuruşla sarıya çevir
-// ve taşınan revizyonda altı çift mavi çizgili.
+// Taşınan revizyondaki metni çift çizgiyle sarıya dönüştür
+// ve taşınan revizyonda çift altı çizili mavi.
 revisionOptions.MovedFromTextColor = RevisionColor.Yellow;
 revisionOptions.MovedFromTextEffect = RevisionTextEffect.DoubleStrikeThrough;
-revisionOptions.MovedToTextColor = RevisionColor.Blue;
+revisionOptions.MovedToTextColor = RevisionColor.ClassicBlue;
 revisionOptions.MovedFromTextEffect = RevisionTextEffect.DoubleUnderline;
 
 // Format revizyonlarını koyu kırmızı ve kalın olarak işleyin.
 revisionOptions.RevisedPropertiesColor = RevisionColor.DarkRed;
 revisionOptions.RevisedPropertiesEffect = RevisionTextEffect.Bold;
 
-// Sayfanın sol tarafında, revizyonlardan etkilenen satırların yanına kalın bir lacivert çubuk yerleştirin.
+// Sayfanın sol tarafına, revizyonlardan etkilenen satırların yanına kalın, lacivert bir çubuk yerleştirin.
 revisionOptions.RevisionBarsColor = RevisionColor.DarkBlue;
 revisionOptions.RevisionBarsWidth = 15.0f;
 
@@ -68,12 +68,12 @@ revisionOptions.RevisionBarsWidth = 15.0f;
 revisionOptions.ShowOriginalRevision = true;
 revisionOptions.ShowRevisionMarks = true;
 
-// Yeşil balonlarda görünecek hareket, silme, biçimlendirme revizyonları ve yorumları alın
-// sayfanın sağ tarafında.
+// Hareket, silme, biçimlendirme revizyonları ve yorumların yeşil balonlarla gösterilmesini sağlayın
+//sayfanın sağ tarafında.
 revisionOptions.ShowInBalloons = ShowInBalloons.Format;
 revisionOptions.CommentColor = RevisionColor.BrightGreen;
 
-// Bu özellikler yalnızca .pdf veya .jpg gibi biçimler için geçerlidir.
+// Bu özellikler yalnızca .pdf veya .jpg gibi formatlar için geçerlidir.
 doc.Save(ArtifactsDir + "Revision.RevisionOptions.pdf");
 ```
 

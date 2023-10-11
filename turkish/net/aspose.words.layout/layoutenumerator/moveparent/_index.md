@@ -3,7 +3,7 @@ title: LayoutEnumerator.MoveParent
 second_title: Aspose.Words for .NET API Referansı
 description: LayoutEnumerator yöntem. Üst varlığa gider.
 type: docs
-weight: 130
+weight: 140
 url: /tr/net/aspose.words.layout/layoutenumerator/moveparent/
 ---
 ## MoveParent() {#moveparent}
@@ -16,17 +16,17 @@ public bool MoveParent()
 
 ### Örnekler
 
-Bir belgenin yerleşim varlıklarını geçmenin yollarını gösterir.
+Bir belgenin düzen varlıkları arasında geçiş yapma yollarını gösterir.
 
 ```csharp
 public void LayoutEnumerator()
 {
     // Çeşitli düzen varlıkları içeren bir belge açın.
-    // Mizanpaj varlıkları, LayoutEntityType enum'a dahil edilen sayfalar, hücreler, satırlar, çizgiler ve diğer nesnelerdir.
-    // Her yerleşim öğesinin belge gövdesinde kapladığı dikdörtgen bir alan vardır.
+    // Düzen varlıkları, LayoutEntityType numaralandırmasında yer alan sayfalar, hücreler, satırlar, çizgiler ve diğer nesnelerdir.
+    // Her düzen varlığının belge gövdesinde kapladığı dikdörtgen bir alan vardır.
     Document doc = new Document(MyDir + "Layout entities.docx");
 
-    // Bu varlıkları bir ağaç gibi dolaşabilen bir numaralandırıcı oluşturun.
+    // Bu varlıkları bir ağaç gibi geçebilecek bir numaralandırıcı oluşturun.
     LayoutEnumerator layoutEnumerator = new LayoutEnumerator(doc);
 
     Assert.AreEqual(doc, layoutEnumerator.Document);
@@ -36,24 +36,24 @@ public void LayoutEnumerator()
     Assert.AreEqual(LayoutEntityType.Page, layoutEnumerator.Type);
     Assert.Throws<InvalidOperationException>(() => Console.WriteLine(layoutEnumerator.Text));
 
-    // Numaralandırıcının ilk düzen varlığında olacağından emin olmak için bu yöntemi çağırabiliriz.
+    // Numaralandırıcının ilk düzen öğesinde olacağından emin olmak için bu yöntemi çağırabiliriz.
     layoutEnumerator.Reset();
 
-    // Yerleşim numaralandırıcısının yerleşim varlıklarını nasıl geçeceğini belirleyen iki sipariş vardır.
-    // birden çok sayfaya yayılan varlıklarla karşılaştığında.
+    // Düzen numaralandırıcının düzen öğelerini çaprazlamaya nasıl devam edeceğini belirleyen iki sıra vardır
+    // birden fazla sayfaya yayılan varlıklarla karşılaştığında.
     // 1 - Görsel sırayla:
-    // Bir varlığın birden çok sayfaya yayılan alt öğeleri arasında gezinirken,
-    // sayfa düzeni önceliklidir ve bu sayfadaki diğer alt öğelere geçeriz ve sonrakilerden kaçınırız.
+    // Bir varlığın birden fazla sayfaya yayılan alt öğeleri arasında dolaşırken,
+    // sayfa düzeni önceliklidir ve bu sayfadaki diğer alt öğelere geçip bir sonraki sayfadakilerden kaçınırız.
     Console.WriteLine("Traversing from first to last, elements between pages separated:");
     TraverseLayoutForward(layoutEnumerator, 1);
 
-    // Numaralandırıcımız artık koleksiyonun sonunda. Başa dönmek için yerleşim varlıklarını geriye doğru hareket ettirebiliriz.
+    // Numaralandırıcımız artık koleksiyonun sonunda. Başlangıca geri dönmek için düzen varlıklarını geriye doğru hareket ettirebiliriz.
     Console.WriteLine("Traversing from last to first, elements between pages separated:");
     TraverseLayoutBackward(layoutEnumerator, 1);
 
     // 2 - Mantıksal sırayla:
-    // Bir varlığın birden çok sayfaya yayılan alt öğeleri arasında gezinirken,
-    // numaralandırıcı, tüm alt varlıklar arasında geçiş yapmak için sayfalar arasında hareket edecektir.
+    // Bir varlığın birden fazla sayfaya yayılan alt öğeleri arasında dolaşırken,
+    // numaralandırıcı tüm alt varlıklar arasında geçiş yapmak için sayfalar arasında hareket edecektir.
     Console.WriteLine("Traversing from first to last, elements between pages mixed:");
     TraverseLayoutForwardLogical(layoutEnumerator, 1);
 
@@ -62,8 +62,8 @@ public void LayoutEnumerator()
 }
 
 /// <summary>
-/// layoutEnumerator'ın layout varlık koleksiyonunu önden arkaya numaralandırın,
-/// önce derinlemesine ve "Görsel" sırayla.
+/// LayoutEnumerator'ın düzen varlığı koleksiyonunu baştan sona numaralandırın,
+/// derinlik öncelikli bir şekilde ve "Görsel" sırayla.
 /// </summary>
 private static void TraverseLayoutForward(LayoutEnumerator layoutEnumerator, int depth)
 {
@@ -80,8 +80,8 @@ private static void TraverseLayoutForward(LayoutEnumerator layoutEnumerator, int
 }
 
 /// <summary>
-/// layoutEnumerator'ın düzen varlık koleksiyonunu arkadan öne doğru numaralandırın,
-/// önce derinlemesine ve "Görsel" sırayla.
+/// LayoutEnumerator'ın düzen varlığı koleksiyonunu baştan sona numaralandırın,
+/// derinlik öncelikli bir şekilde ve "Görsel" sırayla.
 /// </summary>
 private static void TraverseLayoutBackward(LayoutEnumerator layoutEnumerator, int depth)
 {
@@ -98,8 +98,8 @@ private static void TraverseLayoutBackward(LayoutEnumerator layoutEnumerator, in
 }
 
 /// <summary>
-/// layoutEnumerator'ın layout varlık koleksiyonunu önden arkaya numaralandırın,
-/// önce derinlemesine ve "Mantıksal" sırayla.
+/// LayoutEnumerator'ın düzen varlığı koleksiyonunu baştan sona numaralandırın,
+/// derinlik öncelikli bir şekilde ve "Mantıksal" sırayla.
 /// </summary>
 private static void TraverseLayoutForwardLogical(LayoutEnumerator layoutEnumerator, int depth)
 {
@@ -116,8 +116,8 @@ private static void TraverseLayoutForwardLogical(LayoutEnumerator layoutEnumerat
 }
 
 /// <summary>
-/// layoutEnumerator'ın düzen varlık koleksiyonunu arkadan öne doğru numaralandırın,
-/// önce derinlemesine ve "Mantıksal" sırayla.
+/// LayoutEnumerator'ın düzen varlığı koleksiyonunu baştan sona numaralandırın,
+/// derinlik öncelikli bir şekilde ve "Mantıksal" sırayla.
 /// </summary>
 private static void TraverseLayoutBackwardLogical(LayoutEnumerator layoutEnumerator, int depth)
 {
@@ -134,8 +134,8 @@ private static void TraverseLayoutBackwardLogical(LayoutEnumerator layoutEnumera
 }
 
 /// <summary>
-/// Metni sekme karakterleriyle girintilerken layoutEnumerator'ın mevcut varlığı hakkındaki bilgileri konsola yazdırın
-/// yapıcı LayoutEnumerator örneğinde sağladığımız kök düğüme göre derinliğine göre.
+/// Metni sekme karakterleriyle girintilerken, LayoutEnumerator'ın geçerli varlığı hakkındaki bilgileri konsola yazdırın
+/// yapıcı LayoutEnumerator örneğinde sağladığımız kök düğüme göre derinliğine dayalı.
 /// Sonda işlediğimiz dikdörtgen, varlığın belgede kapladığı alanı ve konumu temsil eder.
 /// </summary>
 private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int indent)
@@ -166,7 +166,7 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 
 ## MoveParent(LayoutEntityType) {#moveparent_1}
 
-Belirtilen türün üst varlığına gider.
+Belirtilen türdeki üst varlığa gider.
 
 ```csharp
 public bool MoveParent(LayoutEntityType types)
@@ -174,25 +174,25 @@ public bool MoveParent(LayoutEntityType types)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| types | LayoutEntityType | Taşınacak ana varlık türü. Birden çok ebeveyn türü belirtmek için bitsel-OR kullanın. |
+| types | LayoutEntityType | Taşınacak üst varlık türü. Birden çok üst öğe türünü belirtmek için bitsel-VEYA'yı kullanın. |
 
 ### Notlar
 
-Bu yöntem, varlığın hücresini, sütununu veya üstbilgi/altbilgi üst öğesini bulmanız gerektiğinde kullanışlıdır.
+Varlığın hücresini, sütununu veya üstbilgi/altbilgisini bulmanız gerekiyorsa bu yöntem kullanışlıdır.
 
 ### Örnekler
 
-Bir belgenin yerleşim varlıklarını geçmenin yollarını gösterir.
+Bir belgenin düzen varlıkları arasında geçiş yapma yollarını gösterir.
 
 ```csharp
 public void LayoutEnumerator()
 {
     // Çeşitli düzen varlıkları içeren bir belge açın.
-    // Mizanpaj varlıkları, LayoutEntityType enum'a dahil edilen sayfalar, hücreler, satırlar, çizgiler ve diğer nesnelerdir.
-    // Her yerleşim öğesinin belge gövdesinde kapladığı dikdörtgen bir alan vardır.
+    // Düzen varlıkları, LayoutEntityType numaralandırmasında yer alan sayfalar, hücreler, satırlar, çizgiler ve diğer nesnelerdir.
+    // Her düzen varlığının belge gövdesinde kapladığı dikdörtgen bir alan vardır.
     Document doc = new Document(MyDir + "Layout entities.docx");
 
-    // Bu varlıkları bir ağaç gibi dolaşabilen bir numaralandırıcı oluşturun.
+    // Bu varlıkları bir ağaç gibi geçebilecek bir numaralandırıcı oluşturun.
     LayoutEnumerator layoutEnumerator = new LayoutEnumerator(doc);
 
     Assert.AreEqual(doc, layoutEnumerator.Document);
@@ -202,24 +202,24 @@ public void LayoutEnumerator()
     Assert.AreEqual(LayoutEntityType.Page, layoutEnumerator.Type);
     Assert.Throws<InvalidOperationException>(() => Console.WriteLine(layoutEnumerator.Text));
 
-    // Numaralandırıcının ilk düzen varlığında olacağından emin olmak için bu yöntemi çağırabiliriz.
+    // Numaralandırıcının ilk düzen öğesinde olacağından emin olmak için bu yöntemi çağırabiliriz.
     layoutEnumerator.Reset();
 
-    // Yerleşim numaralandırıcısının yerleşim varlıklarını nasıl geçeceğini belirleyen iki sipariş vardır.
-    // birden çok sayfaya yayılan varlıklarla karşılaştığında.
+    // Düzen numaralandırıcının düzen öğelerini çaprazlamaya nasıl devam edeceğini belirleyen iki sıra vardır
+    // birden fazla sayfaya yayılan varlıklarla karşılaştığında.
     // 1 - Görsel sırayla:
-    // Bir varlığın birden çok sayfaya yayılan alt öğeleri arasında gezinirken,
-    // sayfa düzeni önceliklidir ve bu sayfadaki diğer alt öğelere geçeriz ve sonrakilerden kaçınırız.
+    // Bir varlığın birden fazla sayfaya yayılan alt öğeleri arasında dolaşırken,
+    // sayfa düzeni önceliklidir ve bu sayfadaki diğer alt öğelere geçip bir sonraki sayfadakilerden kaçınırız.
     Console.WriteLine("Traversing from first to last, elements between pages separated:");
     TraverseLayoutForward(layoutEnumerator, 1);
 
-    // Numaralandırıcımız artık koleksiyonun sonunda. Başa dönmek için yerleşim varlıklarını geriye doğru hareket ettirebiliriz.
+    // Numaralandırıcımız artık koleksiyonun sonunda. Başlangıca geri dönmek için düzen varlıklarını geriye doğru hareket ettirebiliriz.
     Console.WriteLine("Traversing from last to first, elements between pages separated:");
     TraverseLayoutBackward(layoutEnumerator, 1);
 
     // 2 - Mantıksal sırayla:
-    // Bir varlığın birden çok sayfaya yayılan alt öğeleri arasında gezinirken,
-    // numaralandırıcı, tüm alt varlıklar arasında geçiş yapmak için sayfalar arasında hareket edecektir.
+    // Bir varlığın birden fazla sayfaya yayılan alt öğeleri arasında dolaşırken,
+    // numaralandırıcı tüm alt varlıklar arasında geçiş yapmak için sayfalar arasında hareket edecektir.
     Console.WriteLine("Traversing from first to last, elements between pages mixed:");
     TraverseLayoutForwardLogical(layoutEnumerator, 1);
 
@@ -228,8 +228,8 @@ public void LayoutEnumerator()
 }
 
 /// <summary>
-/// layoutEnumerator'ın layout varlık koleksiyonunu önden arkaya numaralandırın,
-/// önce derinlemesine ve "Görsel" sırayla.
+/// LayoutEnumerator'ın düzen varlığı koleksiyonunu baştan sona numaralandırın,
+/// derinlik öncelikli bir şekilde ve "Görsel" sırayla.
 /// </summary>
 private static void TraverseLayoutForward(LayoutEnumerator layoutEnumerator, int depth)
 {
@@ -246,8 +246,8 @@ private static void TraverseLayoutForward(LayoutEnumerator layoutEnumerator, int
 }
 
 /// <summary>
-/// layoutEnumerator'ın düzen varlık koleksiyonunu arkadan öne doğru numaralandırın,
-/// önce derinlemesine ve "Görsel" sırayla.
+/// LayoutEnumerator'ın düzen varlığı koleksiyonunu baştan sona numaralandırın,
+/// derinlik öncelikli bir şekilde ve "Görsel" sırayla.
 /// </summary>
 private static void TraverseLayoutBackward(LayoutEnumerator layoutEnumerator, int depth)
 {
@@ -264,8 +264,8 @@ private static void TraverseLayoutBackward(LayoutEnumerator layoutEnumerator, in
 }
 
 /// <summary>
-/// layoutEnumerator'ın layout varlık koleksiyonunu önden arkaya numaralandırın,
-/// önce derinlemesine ve "Mantıksal" sırayla.
+/// LayoutEnumerator'ın düzen varlığı koleksiyonunu baştan sona numaralandırın,
+/// derinlik öncelikli bir şekilde ve "Mantıksal" sırayla.
 /// </summary>
 private static void TraverseLayoutForwardLogical(LayoutEnumerator layoutEnumerator, int depth)
 {
@@ -282,8 +282,8 @@ private static void TraverseLayoutForwardLogical(LayoutEnumerator layoutEnumerat
 }
 
 /// <summary>
-/// layoutEnumerator'ın düzen varlık koleksiyonunu arkadan öne doğru numaralandırın,
-/// önce derinlemesine ve "Mantıksal" sırayla.
+/// LayoutEnumerator'ın düzen varlığı koleksiyonunu baştan sona numaralandırın,
+/// derinlik öncelikli bir şekilde ve "Mantıksal" sırayla.
 /// </summary>
 private static void TraverseLayoutBackwardLogical(LayoutEnumerator layoutEnumerator, int depth)
 {
@@ -300,8 +300,8 @@ private static void TraverseLayoutBackwardLogical(LayoutEnumerator layoutEnumera
 }
 
 /// <summary>
-/// Metni sekme karakterleriyle girintilerken layoutEnumerator'ın mevcut varlığı hakkındaki bilgileri konsola yazdırın
-/// yapıcı LayoutEnumerator örneğinde sağladığımız kök düğüme göre derinliğine göre.
+/// Metni sekme karakterleriyle girintilerken, LayoutEnumerator'ın geçerli varlığı hakkındaki bilgileri konsola yazdırın
+/// yapıcı LayoutEnumerator örneğinde sağladığımız kök düğüme göre derinliğine dayalı.
 /// Sonda işlediğimiz dikdörtgen, varlığın belgede kapladığı alanı ve konumu temsil eder.
 /// </summary>
 private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int indent)

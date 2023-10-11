@@ -1,14 +1,14 @@
 ---
 title: WebExtensionProperty.Value
 second_title: Aspose.Words لمراجع .NET API
-description: WebExtensionProperty ملكية. تحديد قيمة خاصية مخصصة .
+description: WebExtensionProperty ملكية. يحدد قيمة خاصية مخصصة.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.webextensions/webextensionproperty/value/
 ---
 ## WebExtensionProperty.Value property
 
-تحديد قيمة خاصية مخصصة .
+يحدد قيمة خاصية مخصصة.
 
 ```csharp
 public string Value { get; set; }

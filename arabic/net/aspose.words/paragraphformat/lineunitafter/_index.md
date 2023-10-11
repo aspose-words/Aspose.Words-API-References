@@ -1,14 +1,14 @@
 ---
 title: ParagraphFormat.LineUnitAfter
 second_title: Aspose.Words لمراجع .NET API
-description: ParagraphFormat ملكية. الحصول على أو تحديد مقدار التباعد في خطوط الشبكة بعد الفقرات.
+description: ParagraphFormat ملكية. الحصول على أو تعيين مقدار التباعد في خطوط الشبكة بعد الفقرات.
 type: docs
-weight: 210
+weight: 220
 url: /ar/net/aspose.words/paragraphformat/lineunitafter/
 ---
 ## ParagraphFormat.LineUnitAfter property
 
-الحصول على أو تحديد مقدار التباعد (في خطوط الشبكة) بعد الفقرات.
+الحصول على أو تعيين مقدار التباعد (في خطوط الشبكة) بعد الفقرات.
 
 ```csharp
 public double LineUnitAfter { get; set; }
@@ -23,15 +23,15 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ParagraphFormat format = doc.FirstSection.Body.FirstParagraph.ParagraphFormat;
 
-// يوجد أدناه خمسة خيارات مسافات مختلفة ، إلى جانب الخصائص التي يؤثر تكوينها بشكل غير مباشر.
-// 1 - مسافة بادئة يسرى:
+// فيما يلي خمسة خيارات مختلفة للتباعد، بالإضافة إلى الخصائص التي يؤثر تكوينها بشكل غير مباشر.
+// 1 - المسافة البادئة اليسرى:
 Assert.AreEqual(format.LeftIndent, 0.0d);
 
 format.CharacterUnitLeftIndent = 10.0;
 
 Assert.AreEqual(format.LeftIndent, 120.0d);
 
-// 2 - مسافة بادئة يمنى:
+// 2 - المسافة البادئة اليمنى:
 Assert.AreEqual(format.RightIndent, 0.0d); 
 
 format.CharacterUnitRightIndent = -5.5;

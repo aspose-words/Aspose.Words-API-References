@@ -16,11 +16,11 @@ public static string Version { get; }
 
 ### Notlar
 
-Ürün sürümü "Major.Minor.Hotfix.0" biçimindedir.
+Ürün sürümü "Major.Minor.Hotfix.0" formatındadır.
 
 ### Örnekler
 
-Aspose.Words'ün kurulu sürümünüz hakkında bilgilerin nasıl görüntüleneceğini gösterir.
+Aspose.Words'ün kurulu sürümü hakkındaki bilgilerin nasıl görüntüleneceğini gösterir.
 
 ```csharp
 Console.WriteLine($"I am currently using {BuildVersionInfo.Product}, version number {BuildVersionInfo.Version}!");

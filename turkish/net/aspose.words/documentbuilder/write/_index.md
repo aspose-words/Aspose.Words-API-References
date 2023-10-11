@@ -1,14 +1,14 @@
 ---
 title: DocumentBuilder.Write
 second_title: Aspose.Words for .NET API Referansı
-description: DocumentBuilder yöntem. Geçerli ekleme konumunda belgeye bir dize ekler.
+description: DocumentBuilder yöntem. Belgeye geçerli ekleme konumunda bir dize ekler.
 type: docs
-weight: 620
+weight: 660
 url: /tr/net/aspose.words/documentbuilder/write/
 ---
 ## DocumentBuilder.Write method
 
-Geçerli ekleme konumunda belgeye bir dize ekler.
+Belgeye geçerli ekleme konumunda bir dize ekler.
 
 ```csharp
 public void Write(string text)
@@ -20,11 +20,11 @@ public void Write(string text)
 
 ### Notlar
 
-tarafından belirtilen geçerli yazı tipi biçimlendirmesi[`Font`](../font/)özellik kullanılır.
+Geçerli yazı tipi formatı,[`Font`](../font/) özellik kullanılıyor.
 
 ### Örnekler
 
-Kenarlıkla çevrili bir dizenin belgeye nasıl ekleneceğini gösterir.
+Kenarlıkla çevrelenmiş bir dizenin belgeye nasıl ekleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -77,8 +77,8 @@ builder.InsertCell();
 builder.Write("Row 1, cell 2.");
 builder.EndRow();
 
-// Tabloyu oluştururken, belge oluşturucu mevcut RowFormat/CellFormat özellik değerlerini uygulayacaktır
-// imlecinin içinde bulunduğu geçerli satıra/hücreye ve bunları oluştururken yeni satırlara/hücrelere.
+// Tabloyu oluştururken belge oluşturucu mevcut RowFormat/CellFormat özellik değerlerini uygulayacaktır
+// imlecin bulunduğu geçerli satıra/hücreye ve onları oluştururken yeni satırlara/hücrelere.
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[0].CellFormat.VerticalAlignment);
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[1].CellFormat.VerticalAlignment);
 
@@ -104,7 +104,7 @@ Assert.AreEqual(TextOrientation.Downward, table.Rows[1].Cells[1].CellFormat.Orie
 doc.Save(ArtifactsDir + "DocumentBuilder.BuildTable.docx");
 ```
 
-Özel kenarlıklı bir tablonun nasıl oluşturulacağını gösterir.
+Özel kenarlıklara sahip bir tablonun nasıl oluşturulacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -112,8 +112,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.StartTable();
 
-// Bir belge oluşturucu için tablo biçimlendirme seçeneklerini ayarlama
-// onları eklediğimiz her satıra ve hücreye uygulayacak.
+// Belge oluşturucu için tablo biçimlendirme seçeneklerini ayarlama
+// bunları eklediğimiz her satıra ve hücreye uygulayacaktır.
 builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
 builder.CellFormat.ClearFormatting();
@@ -136,8 +136,8 @@ builder.InsertCell();
 builder.Write("Row 1, Col 2");
 builder.EndRow();
 
-// Biçimlendirmeyi değiştirmek, onu geçerli hücreye uygular,
-// ve daha sonra oluşturucu ile oluşturduğumuz yeni hücreler.
+// Biçimlendirmeyi değiştirmek onu geçerli hücreye uygulayacaktır,
+// ve daha sonra oluşturucuyla oluşturduğumuz yeni hücreler.
 // Bu daha önce eklediğimiz hücreleri etkilemeyecektir.
 builder.CellFormat.Shading.ClearFormatting();
 
@@ -149,7 +149,7 @@ builder.Write("Row 2, Col 2");
 
 builder.EndRow();
 
-// Dikey metne sığdırmak için satır yüksekliğini artırın.
+// Dikey metne sığacak şekilde satır yüksekliğini artırın.
 builder.InsertCell();
 builder.RowFormat.Height = 150;
 builder.CellFormat.Orientation = TextOrientation.Upward;

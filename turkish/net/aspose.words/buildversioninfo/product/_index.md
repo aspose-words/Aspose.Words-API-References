@@ -16,7 +16,7 @@ public static string Product { get; }
 
 ### Örnekler
 
-Aspose.Words'ün kurulu sürümünüz hakkında bilgilerin nasıl görüntüleneceğini gösterir.
+Aspose.Words'ün kurulu sürümü hakkındaki bilgilerin nasıl görüntüleneceğini gösterir.
 
 ```csharp
 Console.WriteLine($"I am currently using {BuildVersionInfo.Product}, version number {BuildVersionInfo.Version}!");

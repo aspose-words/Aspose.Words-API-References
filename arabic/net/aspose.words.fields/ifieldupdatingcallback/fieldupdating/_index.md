@@ -1,14 +1,14 @@
 ---
 title: IFieldUpdatingCallback.FieldUpdating
 second_title: Aspose.Words لمراجع .NET API
-description: IFieldUpdatingCallback طريقة. طريقة معرّفة من قبل المستخدم يتم استدعاؤها قبل تحديث أحد الحقول مباشرةً.
+description: IFieldUpdatingCallback طريقة. طريقة يحددها المستخدم ويتم استدعاؤها قبل تحديث الحقل مباشرة.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/ifieldupdatingcallback/fieldupdating/
 ---
 ## IFieldUpdatingCallback.FieldUpdating method
 
-طريقة معرّفة من قبل المستخدم يتم استدعاؤها قبل تحديث أحد الحقول مباشرةً.
+طريقة يحددها المستخدم ويتم استدعاؤها قبل تحديث الحقل مباشرة.
 
 ```csharp
 public void FieldUpdating(Field field)
@@ -19,6 +19,7 @@ public void FieldUpdating(Field field)
 يوضح كيفية استخدام طرق رد الاتصال أثناء التحديث الميداني.
 
 ```csharp
+public void FieldUpdatingCallbackTest()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -41,7 +42,7 @@ public void FieldUpdating(Field field)
 /// <summary>
 /// قم بتنفيذ هذه الواجهة إذا كنت تريد استدعاء الأساليب المخصصة الخاصة بك أثناء التحديث الميداني.
 /// </summary>
-public class FieldUpdatingCallback : IFieldUpdatingCallback
+public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgressCallback
 {
     public FieldUpdatingCallback()
     {
@@ -49,7 +50,7 @@ public class FieldUpdatingCallback : IFieldUpdatingCallback
     }
 
     /// <summary>
-    /// طريقة معرّفة من قبل المستخدم يتم استدعاؤها قبل تحديث الحقل مباشرةً.
+    /// طريقة يحددها المستخدم يتم استدعاؤها قبل تحديث الحقل مباشرةً.
     /// </summary>
     void IFieldUpdatingCallback.FieldUpdating(Field field)
     {
@@ -61,11 +62,17 @@ public class FieldUpdatingCallback : IFieldUpdatingCallback
     }
 
     /// <summary>
-    /// طريقة معرّفة من قبل المستخدم يتم استدعاؤها بعد تحديث الحقل مباشرةً.
+    /// طريقة يحددها المستخدم يتم استدعاؤها مباشرة بعد تحديث الحقل.
     /// </summary>
     void IFieldUpdatingCallback.FieldUpdated(Field field)
     {
         FieldUpdatedCalls.Add(field.Result);
+    }
+
+    void IFieldUpdatingProgressCallback.Notify(FieldUpdatingProgressArgs args)
+    {
+        Console.WriteLine($"{args.UpdateCompleted}/{args.TotalFieldsCount}");
+        Console.WriteLine($"{args.UpdatedFieldsCount}");
     }
 
     public IList<string> FieldUpdatedCalls { get; }

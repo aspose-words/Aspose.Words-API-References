@@ -1,14 +1,16 @@
 ---
 title: Class WebExtensionBinding
 second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.WebExtensions.WebExtensionBinding classe. Specifica una relazione di associazione tra unestensione Web e i dati nel documento.
+description: Aspose.Words.WebExtensions.WebExtensionBinding classe. Specifica una relazione vincolante tra unestensione Web e i dati nel documento.
 type: docs
-weight: 6440
+weight: 6750
 url: /it/net/aspose.words.webextensions/webextensionbinding/
 ---
 ## WebExtensionBinding class
 
-Specifica una relazione di associazione tra un'estensione Web e i dati nel documento.
+Specifica una relazione vincolante tra un'estensione Web e i dati nel documento.
+
+Per saperne di più, visita il[Lavora con i componenti aggiuntivi di Office](https://docs.aspose.com/words/net/work-with-office-add-ins/) articolo di documentazione.
 
 ```csharp
 public class WebExtensionBinding
@@ -24,8 +26,8 @@ public class WebExtensionBinding
 
 | Nome | Descrizione |
 | --- | --- |
-| [AppRef](../../aspose.words.webextensions/webextensionbinding/appref/) { get; set; } | Specifica la chiave di rilegatura utilizzata per mappare la voce di rilegatura in questo elenco con i dati rilegati nel documento. |
-| [BindingType](../../aspose.words.webextensions/webextensionbinding/bindingtype/) { get; set; } | Specifica il tipo di rilegatura. |
+| [AppRef](../../aspose.words.webextensions/webextensionbinding/appref/) { get; set; } | Specifica la chiave di associazione utilizzata per associare la voce di associazione in questo elenco con i dati associati nel documento. |
+| [BindingType](../../aspose.words.webextensions/webextensionbinding/bindingtype/) { get; set; } | Specifica il tipo di associazione. |
 | [Id](../../aspose.words.webextensions/webextensionbinding/id/) { get; set; } | Specifica l'identificatore di associazione. |
 
 ### Guarda anche

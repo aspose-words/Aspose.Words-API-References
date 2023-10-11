@@ -1,14 +1,14 @@
 ---
 title: FieldDate.UseLastFormat
 second_title: Aspose.Words per .NET API Reference
-description: FieldDate proprietà. Ottiene o imposta se utilizzare un formato utilizzato per ultimo dallapplicazione di hosting quando si inserisce un nuovo campo DATE.
+description: FieldDate proprietà. Ottiene o imposta se utilizzare un formato utilizzato per ultimo dallapplicazione host quando si inserisce un nuovo campo DATA.
 type: docs
 weight: 20
 url: /it/net/aspose.words.fields/fielddate/uselastformat/
 ---
 ## FieldDate.UseLastFormat property
 
-Ottiene o imposta se utilizzare un formato utilizzato per ultimo dall'applicazione di hosting quando si inserisce un nuovo campo DATE.
+Ottiene o imposta se utilizzare un formato utilizzato per ultimo dall'applicazione host quando si inserisce un nuovo campo DATA.
 
 ```csharp
 public bool UseLastFormat { get; set; }
@@ -22,7 +22,7 @@ Mostra come utilizzare i campi DATA per visualizzare le date in base a diversi t
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Se vogliamo che il testo nel documento visualizzi sempre la data corretta, possiamo usare un campo DATA.
+// Se vogliamo che il testo nel documento visualizzi sempre la data corretta, possiamo utilizzare un campo DATE.
 // Di seguito sono riportati tre tipi di calendari culturali che un campo DATE può utilizzare per visualizzare una data.
 // 1 - Calendario lunare islamico:
 FieldDate field = (FieldDate)builder.InsertField(FieldType.FieldDate, true);
@@ -43,7 +43,7 @@ Assert.AreEqual(" DATE  \\s", field.GetFieldCode());
 builder.Writeln();
 
 // Inserisci un campo DATA e imposta il tipo di calendario su quello utilizzato per ultimo dall'applicazione host.
-// In Microsoft Word, il tipo sarà quello utilizzato più di recente in Inserisci -> Testo -> Finestra di dialogo Data e ora.
+// In Microsoft Word, il tipo sarà quello utilizzato più di recente nel comando Inserisci -> Testo -> Finestra di dialogo Data e ora.
 field = (FieldDate)builder.InsertField(FieldType.FieldDate, true);
 field.UseLastFormat = true;
 Assert.AreEqual(" DATE  \\l", field.GetFieldCode());

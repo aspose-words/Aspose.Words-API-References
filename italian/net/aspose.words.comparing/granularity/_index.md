@@ -3,7 +3,7 @@ title: Enum Granularity
 second_title: Aspose.Words per .NET API Reference
 description: Aspose.Words.Comparing.Granularity enum. Specifica la granularità delle modifiche da tenere traccia quando si confrontano due documenti.
 type: docs
-weight: 280
+weight: 290
 url: /it/net/aspose.words.comparing/granularity/
 ---
 ## Granularity enumeration
@@ -34,8 +34,8 @@ Document docB = new Document();
 DocumentBuilder builderB = new DocumentBuilder(docB);
 builderB.Writeln("Lorems ipsum dolor sit amet consectetur - \"adipiscing\" elit");
 
-// Specifica se le modifiche stanno tenendo traccia
-// per carattere ("Granularity.CharLevel") o per parola ("Granularity.WordLevel").
+// Specifica se le modifiche vengono monitorate
+// per carattere ('Granularity.CharLevel') o per parola ('Granularity.WordLevel').
 Aspose.Words.Comparing.CompareOptions compareOptions = new Aspose.Words.Comparing.CompareOptions();
 compareOptions.Granularity = granularity;
 

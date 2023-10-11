@@ -3,7 +3,7 @@ title: Enum ArrowType
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Drawing.ArrowType uppräkning. Anger typen av en pil vid en linjeände.
 type: docs
-weight: 480
+weight: 490
 url: /sv/net/aspose.words.drawing/arrowtype/
 ---
 ## ArrowType enumeration

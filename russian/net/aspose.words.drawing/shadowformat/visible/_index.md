@@ -16,7 +16,22 @@ public bool Visible { get; }
 
 ### Примечания
 
-В отличие от[`Clear`](../clear/) , присвоение`ЛОЖЬ` to Visible не очищает форматирование, только скрывает эффект формы.
+В отличие от[`Clear`](../clear/) , назначение`ЛОЖЬ` to Visible не очищает форматирование, он только скрывает эффект формы.
+
+### Примеры
+
+Показывает, как работать с форматированием тени для фигуры.
+
+```csharp
+Document doc = new Document(MyDir + "Shape stroke pattern border.docx");
+Shape shape = (Shape)doc.GetChildNodes(NodeType.Shape, true)[0];
+
+if (shape.ShadowFormat.Visible && shape.ShadowFormat.Type == ShadowType.Shadow2)                
+    shape.ShadowFormat.Type = ShadowType.Shadow7;
+
+if (shape.ShadowFormat.Type == ShadowType.ShadowMixed)            
+    shape.ShadowFormat.Clear();
+```
 
 ### Смотрите также
 

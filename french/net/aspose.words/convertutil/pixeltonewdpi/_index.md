@@ -17,12 +17,12 @@ public static int PixelToNewDpi(double pixels, double oldDpi, double newDpi)
 | Paramètre | Taper | La description |
 | --- | --- | --- |
 | pixels | Double | La valeur à convertir. |
-| oldDpi | Double | La résolution actuelle en ppp (points par pouce). |
+| oldDpi | Double | La résolution actuelle en dpi (points par pouce). |
 | newDpi | Double | La nouvelle résolution dpi (points par pouce). |
 
 ### Exemples
 
-Montre comment convertir des points en pixels avec une résolution par défaut et personnalisée.
+Montre comment utiliser la conversion de points en pixels avec une résolution par défaut et personnalisée.
 
 ```csharp
 Document doc = new Document();
@@ -36,7 +36,7 @@ pageSetup.TopMargin = ConvertUtil.PixelToPoint(100, myDpi);
 
 Assert.AreEqual(37.5d, pageSetup.TopMargin, 0.01d);
 
-// Au DPI par défaut de 96, un pixel vaut 0,75 points.
+// Au DPI par défaut de 96, un pixel vaut 0,75 point.
 Assert.AreEqual(0.75d, ConvertUtil.PixelToPoint(1));
 
 builder.Writeln($"This Text is {pageSetup.TopMargin} points/{ConvertUtil.PointToPixel(pageSetup.TopMargin, myDpi)} " +

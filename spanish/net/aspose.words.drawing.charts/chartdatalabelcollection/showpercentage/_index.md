@@ -1,14 +1,14 @@
 ---
 title: ChartDataLabelCollection.ShowPercentage
 second_title: Referencia de API de Aspose.Words para .NET
-description: ChartDataLabelCollection propiedad. Permite especificar si se mostrará el valor porcentual para las etiquetas de datos de toda la serie. El valor predeterminado es falso . Se aplica solo a gráficos circulares.
+description: ChartDataLabelCollection propiedad. Permite especificar si se mostrará el valor porcentual para las etiquetas de datos de toda la serie. El valor predeterminado esFALSO . Se aplica sólo a gráficos circulares.
 type: docs
-weight: 100
+weight: 120
 url: /es/net/aspose.words.drawing.charts/chartdatalabelcollection/showpercentage/
 ---
 ## ChartDataLabelCollection.ShowPercentage property
 
-Permite especificar si se mostrará el valor porcentual para las etiquetas de datos de toda la serie. El valor predeterminado es **falso** . Se aplica solo a gráficos circulares.
+Permite especificar si se mostrará el valor porcentual para las etiquetas de datos de toda la serie. El valor predeterminado es`FALSO` . Se aplica sólo a gráficos circulares.
 
 ```csharp
 public bool ShowPercentage { get; set; }
@@ -16,7 +16,7 @@ public bool ShowPercentage { get; set; }
 
 ### Observaciones
 
-El valor definido para esta propiedad se puede anular para una etiqueta de datos individual con el uso de [`ShowPercentage`](../../chartdatalabel/showpercentage/) propiedad.
+El valor definido para esta propiedad se puede anular para una etiqueta de datos individual usando the [`ShowPercentage`](../../chartdatalabel/showpercentage/) propiedad.
 
 ### Ejemplos
 
@@ -28,15 +28,15 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 Chart chart = builder.InsertChart(ChartType.Pie, 500, 300).Chart;
 
-// Borre la serie de datos de demostración del gráfico para comenzar con un gráfico limpio.
+// Borra la serie de datos de demostración del gráfico para comenzar con un gráfico limpio.
 chart.Series.Clear();
 
-// Inserte una serie de gráficos personalizados con un nombre de categoría para cada uno de los sectores y su tabla de frecuencia.
+// Inserta una serie de gráficos personalizados con un nombre de categoría para cada uno de los sectores y su tabla de frecuencia.
 ChartSeries series = chart.Series.Add("Aspose Test Series",
     new[] { "Word", "PDF", "Excel" },
     new[] { 2.7, 3.2, 0.8 });
 
-// Habilite las etiquetas de datos que mostrarán tanto el porcentaje como la frecuencia de cada sector, y modifique su apariencia.
+// Habilita etiquetas de datos que mostrarán tanto el porcentaje como la frecuencia de cada sector, y modificarán su apariencia.
 series.HasDataLabels = true;
 ChartDataLabelCollection dataLabels = series.DataLabels;
 dataLabels.ShowLeaderLines = true;

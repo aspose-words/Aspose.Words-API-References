@@ -1,14 +1,14 @@
 ---
 title: Story.AppendParagraph
 second_title: Referencia de API de Aspose.Words para .NET
-description: Story método. Un método abreviado que crea unParagraph objeto con texto opcional y lo agrega al final de este objeto.
+description: Story método. Un método de acceso directo que crea unParagraph objeto con texto opcional y lo agrega al final de este objeto.
 type: docs
 weight: 60
 url: /es/net/aspose.words/story/appendparagraph/
 ---
 ## Story.AppendParagraph method
 
-Un método abreviado que crea un[`Paragraph`](../../paragraph/) objeto con texto opcional y lo agrega al final de este objeto.
+Un método de acceso directo que crea un[`Paragraph`](../../paragraph/) objeto con texto opcional y lo agrega al final de este objeto.
 
 ```csharp
 public Paragraph AppendParagraph(string text)
@@ -16,11 +16,11 @@ public Paragraph AppendParagraph(string text)
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| text | String | El texto del párrafo. Puede ser una cadena nula o vacía. |
+| text | String | El texto del párrafo. Puede ser`nulo` o cadena vacía. |
 
 ### Valor_devuelto
 
-El párrafo recién creado y anexado.
+El párrafo recién creado y agregado.
 
 ### Ejemplos
 
@@ -29,7 +29,7 @@ Muestra cómo crear un encabezado y un pie de página.
 ```csharp
 Document doc = new Document();
 
-// Crear un encabezado y agregarle un párrafo. El texto de ese párrafo
+// Crea un encabezado y añádele un párrafo. El texto de ese párrafo
 // aparecerá en la parte superior de cada página de esta sección, encima del texto del cuerpo principal.
 HeaderFooter header = new HeaderFooter(doc, HeaderFooterType.HeaderPrimary);
 doc.FirstSection.HeadersFooters.Add(header);

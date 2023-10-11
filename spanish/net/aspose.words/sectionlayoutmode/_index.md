@@ -3,7 +3,7 @@ title: Enum SectionLayoutMode
 second_title: Referencia de API de Aspose.Words para .NET
 description: Aspose.Words.SectionLayoutMode enumeración. Especifica el modo de diseño de una sección que permite definir el comportamiento de la cuadrícula del documento.
 type: docs
-weight: 5460
+weight: 5750
 url: /es/net/aspose.words/sectionlayoutmode/
 ---
 ## SectionLayoutMode enumeration
@@ -19,9 +19,9 @@ public enum SectionLayoutMode
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
 | Default | `0` | Especifica que no se aplicará ninguna cuadrícula de documento al contenido de la sección correspondiente del documento. |
-| Grid | `1` | Especifica que la sección correspondiente tendrá tanto el paso de línea adicional como el paso de carácter agregado a cada línea y carácter dentro de ella para mantener un número específico de líneas por página y caracteres por línea. Los caracteres no se alinearán automáticamente con las líneas de cuadrícula en escribiendo. |
-| LineGrid | `2` | Especifica que se agregará un paso de línea adicional a la sección correspondiente a cada línea dentro de ella para mantener el número especificado de líneas por página. |
-| SnapToChars | `3` | Especifica que la sección correspondiente tendrá tanto el paso de línea adicional como el paso de carácter agregados a cada línea y carácter dentro de ella para mantener un número específico de líneas por página y caracteres por línea. Los caracteres se alinearán automáticamente con las líneas de cuadrícula al escribir. |
+| Grid | `1` | Especifica que a la sección correspondiente se le agregará el paso de línea adicional y el paso de carácter a cada línea y carácter dentro de ella para mantener un número específico de líneas por página y caracteres por línea. Los caracteres no se alinearán automáticamente con las líneas de la cuadrícula en escribiendo. |
+| LineGrid | `2` | Especifica que a la sección correspondiente se le agregará un paso de línea adicional a cada línea dentro de ella para mantener el número especificado de líneas por página. |
+| SnapToChars | `3` | Especifica que a la sección correspondiente se le agregará el paso de línea adicional y el paso de carácter a cada línea y carácter dentro de ella para mantener un número específico de líneas por página y caracteres por línea. Los caracteres se alinearán automáticamente con las líneas de la cuadrícula al escribir. |
 
 ### Ejemplos
 
@@ -31,7 +31,7 @@ Muestra cómo especificar un para el número de caracteres que puede tener cada 
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Habilite el lanzamiento y luego utilícelo para establecer la cantidad de caracteres por línea en esta sección.
+// Habilite el paso y luego utilícelo para establecer el número de caracteres por línea en esta sección.
 builder.PageSetup.LayoutMode = SectionLayoutMode.Grid;
 builder.PageSetup.CharactersPerLine = 10;
 
@@ -52,7 +52,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Habilite el lanzamiento y luego utilícelo para establecer el número de líneas por página en esta sección.
-// Un tamaño de fuente lo suficientemente grande empujará algunas líneas hacia abajo en la página siguiente para evitar la superposición de caracteres.
+// Un tamaño de fuente lo suficientemente grande empujará algunas líneas hacia la página siguiente para evitar la superposición de caracteres.
 builder.PageSetup.LayoutMode = SectionLayoutMode.LineGrid;
 builder.PageSetup.LinesPerPage = 15;
 

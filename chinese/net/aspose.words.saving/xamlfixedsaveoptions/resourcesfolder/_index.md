@@ -16,11 +16,11 @@ public string ResourcesFolder { get; set; }
 
 ### 评论
 
-当你保存一个[`Document`](../../../aspose.words/document/)在固定页面 Xaml 格式中，Aspose.Words 需要将文档中嵌入的所有 图像保存为独立文件。`ResourcesFolder` 允许您指定图像的保存位置和[`ResourcesFolderAlias`](../resourcesfolderalias/) 允许指定如何构建图像 URI。
+当您保存一个[`Document`](../../../aspose.words/document/)在固定页面 Xaml 格式中，Aspose.Words 需要将文档中嵌入的 all 图像保存为独立文件。`ResourcesFolder` 允许您指定图像的保存位置[`ResourcesFolderAlias`](../resourcesfolderalias/) 允许指定如何构建图像 URI。
 
-如果您将文档保存到文件中并提供文件名，Aspose.Words 默认将 图像保存在保存文档文件的同一文件夹中。利用`ResourcesFolder` 覆盖此行为。
+如果将文档保存到文件中并提供文件名，默认情况下，Aspose.Words 会将 图像保存在保存文档文件的同一文件夹中。使用`ResourcesFolder` 覆盖此行为。
 
-如果您将文档保存到流中，Aspose.Words 没有用于保存图像的文件夹 ，但仍需要将图像保存在某处。在这种情况下，您需要使用`ResourcesFolder`财产
+如果将文档保存到流中，Aspose.Words 没有保存图像的文件夹 ，但仍需要将图像保存在某个位置。在这种情况下，您需要使用以下命令指定可访问的文件夹 `ResourcesFolder`财产
 
 ### 例子
 
@@ -33,22 +33,22 @@ public void ResourceFolder()
     ResourceUriPrinter callback = new ResourceUriPrinter();
 
     // 创建一个“XamlFixedSaveOptions”对象，我们可以将其传递给文档的“Save”方法
-    // 修改我们如何将文档保存为 XAML 保存格式。
+    // 修改我们将文档保存为 XAML 保存格式的方式。
     XamlFixedSaveOptions options = new XamlFixedSaveOptions();
 
     Assert.AreEqual(SaveFormat.XamlFixed, options.SaveFormat);
 
     // 使用“ResourcesFolder”属性在本地文件系统中分配一个文件夹
-    // Aspose.Words 将保存文档的所有链接资源，例如图像和字体。
+    // Aspose.Words 将保存所有文档的链接资源，例如图像和字体。
     options.ResourcesFolder = ArtifactsDir + "XamlFixedResourceFolder";
 
-    // 使用“ResourcesFolderAlias”属性来使用这个文件夹
-    // 当构建图像 URI 而不是资源文件夹的名称时。
+    // 使用“ResourcesFolderAlias”属性来使用此文件夹
+    // 当构造图像 URI 而不是资源文件夹的名称时。
     options.ResourcesFolderAlias = ArtifactsDir + "XamlFixedFolderAlias";
 
     options.ResourceSavingCallback = callback;
 
-    // “ResourcesFolderAlias”指定的文件夹需要包含资源，而不是“ResourcesFolder”。
+    // 由“ResourcesFolderAlias”指定的文件夹需要包含资源，而不是“ResourcesFolder”。
     // 我们必须确保该文件夹存在，然后回调的流才能将其资源放入其中。
     Directory.CreateDirectory(options.ResourcesFolderAlias);
 
@@ -59,7 +59,7 @@ public void ResourceFolder()
 }
 
 /// <summary>
-/// 计算并打印在转换为固定 .xaml 期间创建的资源的 URI。
+/// 计算并打印转换为固定 .xaml 期间创建的资源的 URI。
 /// </summary>
 private class ResourceUriPrinter : IResourceSavingCallback
 {
@@ -73,7 +73,7 @@ private class ResourceUriPrinter : IResourceSavingCallback
         Resources.Add($"Resource \"{args.ResourceFileName}\"\n\t{args.ResourceFileUri}");
 
         // 如果我们指定了资源文件夹别名，我们还需要
-        // 重定向每个流以将其资源放在别名文件夹中。
+        // 重定向每个流以将其资源放入别名文件夹中。
         args.ResourceStream = new FileStream(args.ResourceFileUri, FileMode.Create);
         args.KeepResourceStreamOpen = false;
     }

@@ -1,14 +1,14 @@
 ---
 title: FrameFormat.IsFrame
 second_title: Aspose.Words för .NET API Referens
-description: FrameFormat fast egendom. Returnerar sant om stycket är en ram.
+description: FrameFormat fast egendom. ReturnerarSann om stycket är en ram.
 type: docs
 weight: 60
 url: /sv/net/aspose.words/frameformat/isframe/
 ---
 ## FrameFormat.IsFrame property
 
-Returnerar sant om stycket är en ram.
+Returnerar`Sann` om stycket är en ram.
 
 ```csharp
 public bool IsFrame { get; }

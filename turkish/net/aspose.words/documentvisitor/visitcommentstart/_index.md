@@ -24,7 +24,7 @@ A[`VisitorAction`](../../visitoraction/) numaralandırmaya nasıl devam edilece�
 
 ### Örnekler
 
-Bir belgedeki her yorum ve yorum aralığının düğüm yapısının nasıl yazdırılacağını gösterir.
+Bir belgedeki her yorumun ve yorum aralığının düğüm yapısının nasıl yazdırılacağını gösterir.
 
 ```csharp
 public void CommentsToText()
@@ -32,17 +32,17 @@ public void CommentsToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     CommentStructurePrinter visitor = new CommentStructurePrinter();
 
-    // Bir belge ziyaretçisini kabul etmek için bir bileşik düğüm aldığımızda, ziyaretçi kabul eden düğümü ziyaret eder,
-    // ve ardından tüm düğümün alt öğelerini derinlik öncelikli bir şekilde çaprazlar.
-    // Ziyaretçi, ziyaret edilen her düğümü okuyabilir ve değiştirebilir.
+    // Bir belge ziyaretçisini kabul edecek bileşik bir düğüm aldığımızda, ziyaretçi kabul eden düğümü ziyaret eder,
+    // ve ardından düğümün tüm alt öğelerini derinlik öncelikli bir şekilde geçer.
+    // Ziyaretçi ziyaret edilen her düğümü okuyabilir ve değiştirebilir.
     doc.Accept(visitor);
 
     Console.WriteLine(visitor.GetText());
 }
 
 /// <summary>
-/// Bir düğümün ikili olmayan alt düğümler ağacında çapraz geçiş yapar.
-/// Karşılaşılan tüm Comment/CommentRange düğümlerinin ve bunların alt öğelerinin bir dizesi biçiminde bir harita oluşturur.
+/// Bir düğümün ikili olmayan alt düğüm ağacını geçer.
+/// Karşılaşılan tüm Comment/CommentRange düğümleri ve bunların alt öğelerinden oluşan bir dize biçiminde bir harita oluşturur.
 /// </summary>
 public class CommentStructurePrinter : DocumentVisitor
 {
@@ -59,7 +59,7 @@ public class CommentStructurePrinter : DocumentVisitor
 
     /// <summary>
     /// Belgede bir Çalıştırma düğümüyle karşılaşıldığında çağrılır.
-    /// Bir Çalıştırma, yalnızca bir Comment veya CommentRange düğümünün alt öğesiyse kaydedilir.
+    /// Bir Çalıştırma yalnızca bir Comment veya CommentRange düğümünün çocuğu ise kaydedilir.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -69,7 +69,7 @@ public class CommentStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Belgede bir CommentRangeStart düğümüyle karşılaşıldığında çağrılır.
+    /// Belgede CommentRangeStart düğümüyle karşılaşıldığında çağrılır.
     /// </summary>
     public override VisitorAction VisitCommentRangeStart(CommentRangeStart commentRangeStart)
     {
@@ -81,7 +81,7 @@ public class CommentStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Belgede bir CommentRangeEnd düğümüyle karşılaşıldığında çağrılır.
+    /// Belgede CommentRangeEnd düğümüyle karşılaşıldığında çağrılır.
     /// </summary>
     public override VisitorAction VisitCommentRangeEnd(CommentRangeEnd commentRangeEnd)
     {
@@ -106,7 +106,7 @@ public class CommentStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Yorum düğümünün tüm alt düğümleri ziyaret edildikten sonra çağrılır.
+    /// Bir Yorum düğümünün tüm alt düğümleri ziyaret edildikten sonra çağrılır.
     /// </summary>
     public override VisitorAction VisitCommentEnd(Comment comment)
     {
@@ -118,10 +118,10 @@ public class CommentStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// StringBuilder'a bir satır ekleyin ve ziyaretçinin ne kadar derin olduğuna bağlı olarak girinti yapın
+    /// StringBuilder'a bir satır ekleyin ve ziyaretçinin derinliğine bağlı olarak onu girintileyin
     /// bir yorum/yorum aralığının alt düğüm ağacına.
     /// </summary>
-    /// <param name="metin"></param>
+    /// <param adı="metin"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++)
@@ -138,18 +138,18 @@ public class CommentStructurePrinter : DocumentVisitor
 }
 ```
 
-Bir belgeden tüm gizli içeriği kaldırmak için DocumentVisitor uygulamasının nasıl kullanılacağını gösterir.
+Bir belgedeki tüm gizli içeriği kaldırmak için DocumentVisitor uygulamasının nasıl kullanılacağını gösterir.
 
 ```csharp
+public void RemoveHiddenContentFromDocument()
 {
     Document doc = new Document(MyDir + "Hidden content.docx");
-
     RemoveHiddenContentVisitor hiddenContentRemover = new RemoveHiddenContentVisitor();
 
-    // Aşağıda bir belge ziyaretçisini kabul edebilecek üç tür alan bulunmaktadır,
-    // bu, kabul eden düğümü ziyaret etmesine ve ardından alt düğümlerini derinlik öncelikli bir şekilde geçmesine izin verecek.
+    // Aşağıda belge ziyaretçisini kabul edebilecek üç tür alan bulunmaktadır,
+    // bu, kabul eden düğümü ziyaret etmesine ve ardından alt düğümlerini derinlik öncelikli bir şekilde geçmesine olanak tanıyacak.
     // 1 - Paragraf düğümü:
-    Paragraph para = (Paragraph) doc.GetChild(NodeType.Paragraph, 4, true);
+    Paragraph para = (Paragraph)doc.GetChild(NodeType.Paragraph, 4, true);
     para.Accept(hiddenContentRemover);
 
     // 2 - Tablo düğümü:
@@ -160,9 +160,10 @@ Bir belgeden tüm gizli içeriği kaldırmak için DocumentVisitor uygulamasın�
     doc.Accept(hiddenContentRemover);
 
     doc.Save(ArtifactsDir + "Font.RemoveHiddenContentFromDocument.docx");
+}
 
 /// <summary>
-/// "Gizli içerik" olarak işaretlenmiş tüm ziyaret edilen düğümleri kaldırır.
+/// "Gizli içerik" olarak işaretlenen tüm ziyaret edilen düğümleri kaldırır.
 /// </summary>
 public class RemoveHiddenContentVisitor : DocumentVisitor
 {
@@ -178,7 +179,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Belgede bir FieldEnd düğümüyle karşılaşıldığında çağrılır.
+    /// Belgede FieldEnd düğümüyle karşılaşıldığında çağrılır.
     /// </summary>
     public override VisitorAction VisitFieldEnd(FieldEnd fieldEnd)
     {
@@ -189,7 +190,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Belgede bir FieldSeparator düğümüyle karşılaşıldığında çağrılır.
+    /// Belgede FieldSeparator düğümüyle karşılaşıldığında çağrılır.
     /// </summary>
     public override VisitorAction VisitFieldSeparator(FieldSeparator fieldSeparator)
     {
@@ -222,7 +223,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Belgede bir FormField ile karşılaşıldığında çağrılır.
+    /// Belgede FormField ile karşılaşıldığında çağrılır.
     /// </summary>
     public override VisitorAction VisitFormField(FormField formField)
     {
@@ -233,7 +234,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Belgede bir GroupShape ile karşılaşıldığında çağrılır.
+    /// Belgede GroupShape ile karşılaşıldığında çağrılır.
     /// </summary>
     public override VisitorAction VisitGroupShapeStart(GroupShape groupShape)
     {
@@ -255,7 +256,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Belgede bir Açıklama ile karşılaşıldığında çağrılır.
+    /// Belgede bir Yorumla karşılaşıldığında çağrılır.
     /// </summary>
     public override VisitorAction VisitCommentStart(Comment comment)
     {
@@ -266,7 +267,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Belgede bir Dipnot ile karşılaşıldığında çağrılır.
+    /// Belgede Dipnotla karşılaşıldığında çağrılır.
     /// </summary>
     public override VisitorAction VisitFootnoteStart(Footnote footnote)
     {
@@ -277,7 +278,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Belgede bir SpecialCharacter ile karşılaşıldığında çağrılır.
+    /// Belgede bir Özel Karakterle karşılaşıldığında çağrılır.
     /// </summary>
     public override VisitorAction VisitSpecialChar(SpecialChar specialChar)
     {
@@ -288,15 +289,15 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Belgede bir Tablo düğümünün ziyareti sona erdiğinde çağrılır.
+    /// Belgede bir Tablo düğümünün ziyareti sonlandırıldığında çağrılır.
     /// </summary>
     public override VisitorAction VisitTableEnd(Table table)
     {
-        // Tablo hücrelerinin içindeki içerik, gizli içerik bayrağına sahip olabilir, ancak tabloların kendileri olamaz.
-        // Bu tabloda gizli içerikten başka bir şey olmasaydı, bu ziyaretçi hepsini kaldırırdı,
-        // ve hiçbir alt düğüm kalmayacaktı.
-        // Böylece tablonun kendisini de gizli içerik olarak değerlendirebilir ve kaldırabiliriz.
-        // Boş ama gizli içeriği olmayan tablolarda, içinde boş paragraflar bulunan hücreler olacaktır,
+        // Tablo hücrelerinin içindeki içerik gizli içerik bayrağına sahip olabilir, ancak tabloların kendileri bunu yapamaz.
+        // Bu tabloda gizli içerikten başka bir şey olmasaydı, bu ziyaretçi hepsini kaldırmış olurdu,
+        // ve hiç alt düğüm kalmayacaktı.
+        // Böylece tablonun kendisini de gizli içerik olarak değerlendirip kaldırabiliriz.
+        // Boş olan ancak gizli içeriği olmayan tabloların içinde boş paragrafların bulunduğu hücreler bulunur,
         // bu ziyaretçinin kaldırmayacağı.
         if (!table.HasChildNodes)
             table.Remove();
@@ -305,7 +306,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Belgede bir Hücre düğümünün ziyareti sona erdiğinde çağrılır.
+    /// Belgede bir Hücre düğümünün ziyareti sonlandırıldığında çağrılır.
     /// </summary>
     public override VisitorAction VisitCellEnd(Cell cell)
     {
@@ -316,7 +317,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Belgede bir Satır düğümünün ziyareti sona erdiğinde çağrılır.
+    /// Belgede bir Satır düğümünün ziyareti sonlandırıldığında çağrılır.
     /// </summary>
     public override VisitorAction VisitRowEnd(Row row)
     {

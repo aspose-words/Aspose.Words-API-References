@@ -3,7 +3,7 @@ title: Enum SdtType
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Markup.SdtType uppräkning. Anger typen av en strukturerad dokumenttagg SDTnod.
 type: docs
-weight: 3800
+weight: 4040
 url: /sv/net/aspose.words.markup/sdttype/
 ---
 ## SdtType enumeration
@@ -38,6 +38,41 @@ public enum SdtType
 
 ### Exempel
 
+Visar hur man skapar en gruppstrukturerad dokumenttagg på radnivå.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+Table table = builder.StartTable();
+
+// Skapa en gruppstrukturerad dokumenttagg på radnivå.
+StructuredDocumentTag groupSdt = new StructuredDocumentTag(doc, SdtType.Group, MarkupLevel.Row);
+table.AppendChild(groupSdt);
+groupSdt.IsShowingPlaceholderText = false;
+groupSdt.RemoveAllChildren();
+
+// Skapa en underordnad rad av den strukturerade dokumenttaggen.
+Row row = new Row(doc);
+groupSdt.AppendChild(row);
+
+Cell cell = new Cell(doc);
+row.AppendChild(cell);
+
+builder.EndTable();
+
+// Infoga cellinnehåll.
+cell.EnsureMinimum();
+builder.MoveTo(cell.LastParagraph);
+builder.Write("Lorem ipsum dolor.");
+
+// Infoga text efter tabellen.
+builder.MoveTo(table.NextSibling);
+builder.Write("Nulla blandit nisi.");
+
+doc.Save(ArtifactsDir + "StructuredDocumentTag.SdtAtRowLevel.docx");
+```
+
 Visar hur man arbetar med stilar för innehållskontrollelement.
 
 ```csharp
@@ -64,6 +99,8 @@ NodeCollection tags = doc.GetChildNodes(NodeType.StructuredDocumentTag, true);
 foreach (Node node in tags)
 {
     StructuredDocumentTag sdt = (StructuredDocumentTag)node;
+
+    Console.WriteLine(sdt.WordOpenXMLMinimal);
 
     Assert.AreEqual(StyleIdentifier.Quote, sdt.Style.StyleIdentifier);
     Assert.AreEqual("Quote", sdt.StyleName);

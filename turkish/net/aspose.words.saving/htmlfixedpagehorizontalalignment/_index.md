@@ -1,14 +1,14 @@
 ---
 title: Enum HtmlFixedPageHorizontalAlignment
 second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Saving.HtmlFixedPageHorizontalAlignment Sıralama. Çıktı HTML belgesindeki sayfalar için yatay hizalamayı belirtir.
+description: Aspose.Words.Saving.HtmlFixedPageHorizontalAlignment Sıralama. Çıktı HTML belgesindeki sayfaların yatay hizalamasını belirtir.
 type: docs
-weight: 4810
+weight: 5070
 url: /tr/net/aspose.words.saving/htmlfixedpagehorizontalalignment/
 ---
 ## HtmlFixedPageHorizontalAlignment enumeration
 
-Çıktı HTML belgesindeki sayfalar için yatay hizalamayı belirtir.
+Çıktı HTML belgesindeki sayfaların yatay hizalamasını belirtir.
 
 ```csharp
 public enum HtmlFixedPageHorizontalAlignment

@@ -18,9 +18,9 @@ public string[] GetFieldNames()
 
 Returnerar fullständiga sammanslagningsfältsnamn inklusive valfritt prefix. Eliminerar inte dubbletter av fältnamn.
 
-En ny sträng[]-array skapas vid varje samtal.
+En ny strängmatris skapas vid varje samtal.
 
-Inkluderar "mustasch" fältnamn if[`UseNonMergeFields`](../usenonmergefields/) är **Sann**.
+Inkluderar "mustasch" fältnamn if[`UseNonMergeFields`](../usenonmergefields/) är`Sann`.
 
 ### Exempel
 
@@ -44,7 +44,7 @@ dataTable.Rows.Add(new object[] { "John", "Doe", "New York" });
 dataTable.Rows.Add(new object[] { "Joe", "Bloggs", "Washington" });
 
 // För varje MERGEFIELD-namn i dokumentet, se till att datatabellen innehåller en kolumn
-// med samma namn, och kör sedan sammanslagningen. 
+ // med samma namn, och kör sedan sammanslagningen.
 string[] fieldNames = doc.MailMerge.GetFieldNames();
 
 Assert.AreEqual(3, fieldNames.Length);

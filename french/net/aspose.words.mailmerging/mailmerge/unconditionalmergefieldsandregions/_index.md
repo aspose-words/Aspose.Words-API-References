@@ -16,7 +16,7 @@ public bool UnconditionalMergeFieldsAndRegions { get; set; }
 
 ### Remarques
 
-La valeur par défaut est **faux** .
+La valeur par défaut est`FAUX` .
 
 ### Exemples
 
@@ -27,16 +27,16 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Insère un MERGEFIELD imbriqué dans un champ IF.
-// Étant donné que l'instruction de champ IF est fausse, elle n'affichera pas le résultat de MERGEFIELD.
+// Puisque l'instruction du champ IF est fausse, elle n'affichera pas le résultat du MERGEFIELD.
 // Le MERGEFIELD ne recevra également aucune donnée lors d'un publipostage.
 FieldIf fieldIf = (FieldIf)builder.InsertField(" IF 1 = 2 ");
 builder.MoveTo(fieldIf.Separator);
 builder.InsertField(" MERGEFIELD  FullName ");
 
-// Si nous définissons le drapeau "UnconditionalMergeFieldsAndRegions" sur "true",
+// Si nous définissons le flag "UnconditionalMergeFieldsAndRegions" à "true",
 // notre publipostage insérera des données dans des champs non affichés tels que notre MERGEFIELD ainsi que tous les autres.
-// Si nous définissons le drapeau "UnconditionalMergeFieldsAndRegions" sur "false",
-// notre publipostage n'insérera pas de données dans les MERGEFIELD masqués par les champs IF avec de fausses instructions.
+// Si nous mettons le flag "UnconditionalMergeFieldsAndRegions" à "false",
+// notre publipostage n'insérera pas de données dans les MERGEFIELD masqués par les champs IF avec de fausses déclarations.
 doc.MailMerge.UnconditionalMergeFieldsAndRegions = countAllMergeFields;
 
 DataTable dataTable = new DataTable();

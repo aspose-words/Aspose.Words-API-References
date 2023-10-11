@@ -3,12 +3,14 @@ title: Class DigitalSignature
 second_title: Aspose.Words per .NET API Reference
 description: Aspose.Words.DigitalSignatures.DigitalSignature classe. Rappresenta una firma digitale su un documento e il risultato della sua verifica.
 type: docs
-weight: 370
+weight: 380
 url: /it/net/aspose.words.digitalsignatures/digitalsignature/
 ---
 ## DigitalSignature class
 
 Rappresenta una firma digitale su un documento e il risultato della sua verifica.
+
+Per saperne di più, visita il[Lavora con le firme digitali](https://docs.aspose.com/words/net/working-with-digital-signatures/) articolo di documentazione.
 
 ```csharp
 public class DigitalSignature
@@ -20,10 +22,11 @@ public class DigitalSignature
 | --- | --- |
 | [CertificateHolder](../../aspose.words.digitalsignatures/digitalsignature/certificateholder/) { get; } | Restituisce l'oggetto titolare del certificato che contiene il certificato utilizzato per firmare il documento. |
 | [Comments](../../aspose.words.digitalsignatures/digitalsignature/comments/) { get; } | Ottiene il commento sullo scopo della firma. |
-| [IssuerName](../../aspose.words.digitalsignatures/digitalsignature/issuername/) { get; } | Restituisce il nome distinto del soggetto dell'emittente del certificato. |
-| [IsValid](../../aspose.words.digitalsignatures/digitalsignature/isvalid/) { get; } | Restituisce vero se questa firma digitale è valida e il documento non è stato manomesso. |
-| [SignatureType](../../aspose.words.digitalsignatures/digitalsignature/signaturetype/) { get; } | Ottiene il tipo della firma digitale. |
-| [SignTime](../../aspose.words.digitalsignatures/digitalsignature/signtime/) { get; } | Ottiene l'ora in cui il documento è stato firmato. |
+| [IssuerName](../../aspose.words.digitalsignatures/digitalsignature/issuername/) { get; } | Restituisce il nome distinto del soggetto del certificato emesso. |
+| [IsValid](../../aspose.words.digitalsignatures/digitalsignature/isvalid/) { get; } | Restituisce`VERO` se questa firma digitale è valida e il documento non è stato manomesso. |
+| [SignatureType](../../aspose.words.digitalsignatures/digitalsignature/signaturetype/) { get; } | Ottiene il tipo di firma digitale. |
+| [SignatureValue](../../aspose.words.digitalsignatures/digitalsignature/signaturevalue/) { get; } | Ottiene un array di byte che rappresenta un valore di firma. |
+| [SignTime](../../aspose.words.digitalsignatures/digitalsignature/signtime/) { get; } | Ottiene l'ora in cui è stato firmato il documento. |
 | [SubjectName](../../aspose.words.digitalsignatures/digitalsignature/subjectname/) { get; } | Restituisce il nome distinto dell'oggetto del certificato utilizzato per firmare il documento. |
 
 ## Metodi
@@ -34,7 +37,7 @@ public class DigitalSignature
 
 ### Esempi
 
-Mostra come convalidare e visualizzare le informazioni su ciascuna firma in un documento.
+Mostra come convalidare e visualizzare informazioni su ciascuna firma in un documento.
 
 ```csharp
 Document doc = new Document(MyDir + "Digitally signed.docx");

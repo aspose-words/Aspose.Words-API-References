@@ -1,14 +1,14 @@
 ---
 title: PlainTextDocument.Text
 second_title: Aspose.Words für .NET-API-Referenz
-description: PlainTextDocument eigendom. Ruft den Textinhalt des Dokuments als Zeichenfolge verkettet ab.
+description: PlainTextDocument eigendom. Ruft den als String verketteten Textinhalt des Dokuments ab.
 type: docs
 weight: 40
 url: /de/net/aspose.words/plaintextdocument/text/
 ---
 ## PlainTextDocument.Text property
 
-Ruft den Textinhalt des Dokuments als Zeichenfolge verkettet ab.
+Ruft den als String verketteten Textinhalt des Dokuments ab.
 
 ```csharp
 public string Text { get; }

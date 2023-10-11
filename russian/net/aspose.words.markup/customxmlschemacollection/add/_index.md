@@ -16,7 +16,7 @@ public void Add(string value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | String | Элемент для добавления. |
+| value | String | Добавляемый элемент. |
 
 ### Примеры
 
@@ -29,11 +29,11 @@ string xmlPartId = Guid.NewGuid().ToString("B");
 string xmlPartContent = "<root><text>Hello, World!</text></root>";
 CustomXmlPart xmlPart = doc.CustomXmlParts.Add(xmlPartId, xmlPartContent);
 
-// Добавляем ассоциацию XML-схемы.
+// Добавляем ассоциацию схемы XML.
 xmlPart.Schemas.Add("http://www.w3.org/2001/XMLSchema");
 
-// Клонировать коллекцию ассоциаций схемы XML пользовательской части XML,
-// а затем добавить пару новых схем в клон.
+// Клонируем коллекцию ассоциаций схем XML пользовательской части XML,
+// а затем добавим в клон пару новых схем.
 CustomXmlSchemaCollection schemas = xmlPart.Schemas.Clone();
 schemas.Add("http://www.w3.org/2001/XMLSchema-instance");
 schemas.Add("http://schemas.microsoft.com/office/2006/metadata/contentType");
@@ -55,7 +55,7 @@ schemas.RemoveAt(2);
 // 2 - Удалить схему по значению:
 schemas.Remove("http://www.w3.org/2001/XMLSchema");
 
-// 3 - Используйте метод "Очистить", чтобы сразу очистить коллекцию.
+// 3 - Используйте метод «Очистить», чтобы сразу очистить коллекцию.
 schemas.Clear();
 
 Assert.AreEqual(0, schemas.Count);

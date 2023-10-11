@@ -20,7 +20,7 @@ Un campo per il campo char.
 
 ### Osservazioni
 
-Un nuovo[`Field`](../../field/) l'oggetto viene creato ogni volta che viene chiamato il metodo.
+Una novità[`Field`](../../field/) l'oggetto viene creato ogni volta che viene chiamato il metodo.
 
 ### Esempi
 

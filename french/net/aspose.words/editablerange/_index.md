@@ -3,12 +3,14 @@ title: Class EditableRange
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Aspose.Words.EditableRange classe. Représente une seule plage modifiable.
 type: docs
-weight: 1270
+weight: 1420
 url: /fr/net/aspose.words/editablerange/
 ---
 ## EditableRange class
 
 Représente une seule plage modifiable.
+
+Pour en savoir plus, visitez le[Modèle objet de document (DOM) Aspose.Words](https://docs.aspose.com/words/net/aspose-words-document-object-model/) article documentaire.
 
 ```csharp
 public class EditableRange
@@ -32,7 +34,7 @@ public class EditableRange
 
 ### Remarques
 
-`EditableRange` est un objet "façade" qui encapsule deux nœuds[`EditableRangeStart`](./editablerangestart/) et[`EditableRangeEnd`](./editablerangeend/) dans une arborescence de documents et permet de travailler avec une plage modifiable comme un seul objet.
+`EditableRange` est un objet "façade" qui encapsule deux nœuds[`EditableRangeStart`](./editablerangestart/) et[`EditableRangeEnd`](./editablerangeend/) dans une arborescence de documents et permet de travailler avec une plage modifiable comme un objet unique.
 
 ### Exemples
 
@@ -46,7 +48,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world! Since we have set the document's protection level to read-only," +
                 " we cannot edit this paragraph without the password.");
 
-// Les plages modifiables nous permettent de laisser des parties de documents protégés ouvertes pour modification.
+// Les plages modifiables nous permettent de laisser des parties de documents protégés ouvertes pour l'édition.
 EditableRangeStart editableRangeStart = builder.StartEditableRange();
 builder.Writeln("This paragraph is inside an editable range, and can be edited.");
 EditableRangeEnd editableRangeEnd = builder.EndEditableRange();
@@ -77,7 +79,7 @@ doc.Save(ArtifactsDir + "EditableRange.CreateAndRemove.docx");
 editableRange.Remove();
 ```
 
-Montre comment limiter les droits de modification des plages modifiables à un groupe/utilisateur spécifique.
+Montre comment limiter les droits d'édition des plages modifiables à un groupe/utilisateur spécifique.
 
 ```csharp
 public void Visitor()
@@ -109,7 +111,7 @@ public void Visitor()
 
     builder.Writeln("This paragraph is outside the editable range, and cannot be edited by anybody.");
 
-    // Affiche les détails et le contenu de chaque plage modifiable du document.
+    // Imprimer les détails et le contenu de chaque plage modifiable du document.
     EditableRangePrinter editableRangePrinter = new EditableRangePrinter();
 
     doc.Accept(editableRangePrinter);
@@ -169,7 +171,7 @@ public class EditableRangePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Appelé lorsqu'un noeud Run est rencontré dans le document. Ce visiteur n'enregistre que les exécutions qui se trouvent dans des plages modifiables.
+    /// Appelé lorsqu'un nœud Run est rencontré dans le document. Ce visiteur enregistre uniquement les exécutions situées dans des plages modifiables.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {

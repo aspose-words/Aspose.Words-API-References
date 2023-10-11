@@ -12,7 +12,7 @@ url: /zh/net/aspose.words.framesets/
 
 | 班级 | 描述 |
 | --- | --- |
-| [Frameset](./frameset/) | 表示一个框架页面或框架页面上的单个框架。 |
+| [Frameset](./frameset/) | 表示一个框架页或框架页上的单个框架。 |
 | [FramesetCollection](./framesetcollection/) | 表示实例的集合[`Frameset`](../aspose.words.framesets/frameset/)类. |
 
 

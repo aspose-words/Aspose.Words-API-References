@@ -1,14 +1,14 @@
 ---
 title: EditableRangeEnd.EditableRangeStart
 second_title: Référence de l'API Aspose.Words pour .NET
-description: EditableRangeEnd propriété. EditableRangeStart correspondant reçu par ID.
+description: EditableRangeEnd propriété. CorrespondantEditableRangeStart  reçu par ID.
 type: docs
 weight: 10
 url: /fr/net/aspose.words/editablerangeend/editablerangestart/
 ---
 ## EditableRangeEnd.EditableRangeStart property
 
-EditableRangeStart correspondant, reçu par ID.
+Correspondant[`EditableRangeStart`](../../editablerangestart/) , reçu par ID.
 
 ```csharp
 public EditableRangeStart EditableRangeStart { get; }
@@ -26,7 +26,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world! Since we have set the document's protection level to read-only," +
                 " we cannot edit this paragraph without the password.");
 
-// Les plages modifiables nous permettent de laisser des parties de documents protégés ouvertes pour modification.
+// Les plages modifiables nous permettent de laisser des parties de documents protégés ouvertes pour l'édition.
 EditableRangeStart editableRangeStart = builder.StartEditableRange();
 builder.Writeln("This paragraph is inside an editable range, and can be edited.");
 EditableRangeEnd editableRangeEnd = builder.EndEditableRange();

@@ -1,14 +1,14 @@
 ---
 title: FieldInclude.SourceFullName
 second_title: Aspose.Words für .NET-API-Referenz
-description: FieldInclude eigendom. Ruft den Speicherort des Dokuments ab oder legt ihn fest.
+description: FieldInclude eigendom. Ruft den Speicherort des Dokuments ab oder legt diesen fest.
 type: docs
 weight: 40
 url: /de/net/aspose.words.fields/fieldinclude/sourcefullname/
 ---
 ## FieldInclude.SourceFullName property
 
-Ruft den Speicherort des Dokuments ab oder legt ihn fest.
+Ruft den Speicherort des Dokuments ab oder legt diesen fest.
 
 ```csharp
 public string SourceFullName { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: Font.HasDmlEffect
 second_title: Справочник по API Aspose.Words для .NET
-description: Font метод. Проверяет применяется ли конкретный текстовый эффект DrawingML.
+description: Font метод. Проверяет применен ли определенный текстовый эффект DrawingML.
 type: docs
 weight: 560
 url: /ru/net/aspose.words/font/hasdmleffect/
 ---
 ## Font.HasDmlEffect method
 
-Проверяет, применяется ли конкретный текстовый эффект DrawingML.
+Проверяет, применен ли определенный текстовый эффект DrawingML.
 
 ```csharp
 public bool HasDmlEffect(TextDmlEffect dmlEffectType)
@@ -20,11 +20,11 @@ public bool HasDmlEffect(TextDmlEffect dmlEffectType)
 
 ### Возвращаемое значение
 
-Значение true, если применяется определенный текстовый эффект DrawingML.
+`истинный` если применяется определенный текстовый эффект DrawingML.
 
 ### Примеры
 
-Показывает, как проверить, отображает ли запуск текстовый эффект DrawingML.
+Показывает, как проверить, отображает ли при выполнении текстовый эффект DrawingML.
 
 ```csharp
 Document doc = new Document(MyDir + "DrawingML text effects.docx");

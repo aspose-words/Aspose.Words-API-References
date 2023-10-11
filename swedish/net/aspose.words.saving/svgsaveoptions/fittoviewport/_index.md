@@ -1,16 +1,16 @@
 ---
 title: SvgSaveOptions.FitToViewPort
 second_title: Aspose.Words för .NET API Referens
-description: SvgSaveOptions fast egendom. Anger om utdataSVG ska fylla det tillgängliga viewportområdet webbläsarfönster eller behållare. När den är inställd på sann bredd och höjd på utdata är SVG inställda på 100.
+description: SvgSaveOptions fast egendom. Anger om utdata SVG ska fylla det tillgängliga visningsområdet webbläsarfönster eller behållare. När inställt påSann bredd och höjd på utdata SVG är inställda på 100.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.saving/svgsaveoptions/fittoviewport/
 ---
 ## SvgSaveOptions.FitToViewPort property
 
-Anger om utdata-SVG ska fylla det tillgängliga viewportområdet (webbläsarfönster eller behållare). När den är inställd på sann bredd och höjd på utdata är SVG inställda på 100%.
+Anger om utdata SVG ska fylla det tillgängliga visningsområdet (webbläsarfönster eller behållare). När inställt på`Sann` bredd och höjd på utdata SVG är inställda på 100%.
 
-Standardvärdet är falskt.
+Standardvärdet är`falsk`.
 
 ```csharp
 public bool FitToViewPort { get; set; }

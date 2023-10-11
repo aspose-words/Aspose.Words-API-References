@@ -1,14 +1,14 @@
 ---
 title: VbaReference.Type
 second_title: Aspose.Words for .NET API Referansı
-description: VbaReference mülk. AlırVbaReferenceTypeVbaReference nesnesinin temsil ettiği başvuru türünü gösteren nesne.
+description: VbaReference mülk. AlırVbaReferenceType referansın türünü belirten nesneVbaReference nesne temsil eder.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.vba/vbareference/type/
 ---
 ## VbaReference.Type property
 
-Alır[`VbaReferenceType`](../../vbareferencetype/)VbaReference nesnesinin temsil ettiği başvuru türünü gösteren nesne.
+Alır[`VbaReferenceType`](../../vbareferencetype/) referansın türünü belirten nesne[`VbaReference`](../) nesne temsil eder.
 
 ```csharp
 public abstract VbaReferenceType Type { get; }

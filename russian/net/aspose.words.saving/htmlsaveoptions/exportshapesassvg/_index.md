@@ -1,14 +1,14 @@
 ---
 title: HtmlSaveOptions.ExportShapesAsSvg
 second_title: Справочник по API Aspose.Words для .NET
-description: HtmlSaveOptions свойство. Управляет темShape узлы преобразуются в изображения SVG при сохранении в HTML MHTML или EPUB. Значение по умолчаниюЛОЖЬ .
+description: HtmlSaveOptions свойство. КонтролируетShapeузлы преобразуются в изображения SVG при сохранении в HTML MHTML EPUB или AZW3. Значение по умолчаниюЛОЖЬ .
 type: docs
-weight: 260
+weight: 250
 url: /ru/net/aspose.words.saving/htmlsaveoptions/exportshapesassvg/
 ---
 ## HtmlSaveOptions.ExportShapesAsSvg property
 
-Управляет тем,[`Shape`](../../../aspose.words.drawing/shape/) узлы преобразуются в изображения SVG при сохранении в HTML, MHTML или EPUB. Значение по умолчанию:`ЛОЖЬ` .
+Контролирует,[`Shape`](../../../aspose.words.drawing/shape/)узлы преобразуются в изображения SVG при сохранении в HTML, MHTML, EPUB или AZW3. Значение по умолчанию:`ЛОЖЬ` .
 
 ```csharp
 public bool ExportShapesAsSvg { get; set; }
@@ -16,9 +16,7 @@ public bool ExportShapesAsSvg { get; set; }
 
 ### Примечания
 
-Если для этого параметра установлено значение`истинный` ,[`Shape`](../../../aspose.words.drawing/shape/) узлы экспортируются как элементы &lt;svg&gt;. В противном случае они преобразуются в растровые изображения и экспортируются как элементы &lt;img&gt;.
-
-Обратите внимание, что этот параметр также влияет на текстовые поля, поскольку они представлены[`Shape`](../../../aspose.words.drawing/shape/) nodes. В результате, если для этой опции установлено значение`истинный` , он переопределяетExportTextBoxAsSvgзначение property и вызывает преобразование текстовых полей в SVG.
+Если для этой опции установлено значение`истинный` ,[`Shape`](../../../aspose.words.drawing/shape/) узлы экспортируются как элементы &lt;svg&gt;. В противном случае они преобразуются в растровые изображения и экспортируются как элементы &lt;img&gt;.
 
 ### Примеры
 
@@ -33,10 +31,10 @@ builder.MoveTo(textBox.FirstParagraph);
 builder.Write("My text box");
 
 // Когда мы сохраняем документ в HTML, мы можем передать объект SaveOptions
-// чтобы определить, как операция сохранения будет экспортировать формы текстового поля.
-// Если мы установим для флага "ExportTextBoxAsSvg" значение "true",
+// чтобы определить, как операция сохранения будет экспортировать формы текстовых полей.
+// Если мы установим флаг «ExportTextBoxAsSvg» в значение «true»,
 // операция сохранения преобразует фигуры с текстом в объекты SVG.
-// Если мы установим для флага "ExportTextBoxAsSvg" значение "false",
+// Если мы установим флаг «ExportTextBoxAsSvg» на «false»,
 // операция сохранения преобразует фигуры с текстом в изображения.
 HtmlSaveOptions options = new HtmlSaveOptions { ExportShapesAsSvg = exportShapesAsSvg };
 
@@ -48,7 +46,7 @@ if (exportShapesAsSvg)
 {
     Assert.True(outDocContents.Contains(
         "<span style=\"-aw-left-pos:0pt; -aw-rel-hpos:column; -aw-rel-vpos:paragraph; -aw-top-pos:0pt; -aw-wrap-type:inline\">" +
-        "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" версия=\"1.1\" ширина=\"133\" высота= \"80\">"));
+        "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"1.1\" width=\"133\" height= \"80\">"));
 }
 else
 {

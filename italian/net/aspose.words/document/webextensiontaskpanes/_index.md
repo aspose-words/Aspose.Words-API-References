@@ -3,7 +3,7 @@ title: Document.WebExtensionTaskPanes
 second_title: Aspose.Words per .NET API Reference
 description: Document proprietà. Restituisce una raccolta che rappresenta un elenco di componenti aggiuntivi del riquadro attività.
 type: docs
-weight: 470
+weight: 490
 url: /it/net/aspose.words/document/webextensiontaskpanes/
 ---
 ## Document.WebExtensionTaskPanes property

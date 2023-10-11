@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTagRangeStart.RangeEnd
 second_title: Aspose.Words لمراجع .NET API
-description: StructuredDocumentTagRangeStart ملكية. تحدد نهاية النطاق إذا كانت علامة StructuredDocumentTag هي علامة نطاق مستند منظم. وإلا فستُرجع فارغة .
+description: StructuredDocumentTagRangeStart ملكية. يحدد نهاية النطاق إذا كانStructuredDocumentTag هي علامة مستند منظمة ذات نطاق محدد. وإلا يعودباطل .
 type: docs
 weight: 130
 url: /ar/net/aspose.words.markup/structureddocumenttagrangestart/rangeend/
 ---
 ## StructuredDocumentTagRangeStart.RangeEnd property
 
-تحدد نهاية النطاق إذا كانت علامة StructuredDocumentTag هي علامة نطاق مستند منظم. وإلا فستُرجع فارغة .
+يحدد نهاية النطاق إذا كان[`StructuredDocumentTag`](../../structureddocumenttag/) هي علامة مستند منظمة ذات نطاق محدد. وإلا يعود`باطل` .
 
 ```csharp
 public StructuredDocumentTagRangeEnd RangeEnd { get; }

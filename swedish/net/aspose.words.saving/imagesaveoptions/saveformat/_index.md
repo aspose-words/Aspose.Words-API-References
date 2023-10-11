@@ -1,14 +1,14 @@
 ---
 title: ImageSaveOptions.SaveFormat
 second_title: Aspose.Words för .NET API Referens
-description: ImageSaveOptions fast egendom. Anger formatet som de renderade dokumentsidorna eller formerna kommer att sparas i om detta sparaalternativobjekt används. Kan vara ett raster Tiff Png Bmp  Jpeg eller vektorEmf Svg .
+description: ImageSaveOptions fast egendom. Anger formatet som de renderade dokumentsidorna eller formerna kommer att sparas i om detta sparaalternativobjekt används. Kan vara ett raster Tiff Png Bmp  Jpeg eller vektorEmf Eps  Svg .
 type: docs
-weight: 130
+weight: 140
 url: /sv/net/aspose.words.saving/imagesaveoptions/saveformat/
 ---
 ## ImageSaveOptions.SaveFormat property
 
-Anger formatet som de renderade dokumentsidorna eller formerna kommer att sparas i om detta sparaalternativ-objekt används. Kan vara ett raster Tiff ,Png ,Bmp , Jpeg eller vektorEmf ,Svg .
+Anger formatet som de renderade dokumentsidorna eller formerna kommer att sparas i om detta sparaalternativ-objekt används. Kan vara ett raster Tiff ,Png ,Bmp , Jpeg eller vektorEmf ,Eps , Svg .
 
 ```csharp
 public override SaveFormat SaveFormat { get; set; }
@@ -16,9 +16,9 @@ public override SaveFormat SaveFormat { get; set; }
 
 ### Anmärkningar
 
-På olika plattformar kan de format som stöds vara olika. Antalet andra alternativ beror på det valda formatet.
+Antalet andra alternativ beror på det valda formatet.
 
-Det är också möjligt att spara till SVG både via ImageSaveOptions och via[`SvgSaveOptions`](../../svgsaveoptions/).
+Det är också möjligt att spara till SVG både via[`ImageSaveOptions`](../) och via[`SvgSaveOptions`](../../svgsaveoptions/).
 
 ### Exempel
 

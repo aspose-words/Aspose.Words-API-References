@@ -3,7 +3,7 @@ title: PageSetup.PageStartingNumber
 second_title: Aspose.Words for .NET API Referansı
 description: PageSetup mülk. Bölümün başlangıç sayfa numarasını alır veya ayarlar.
 type: docs
-weight: 320
+weight: 330
 url: /tr/net/aspose.words/pagesetup/pagestartingnumber/
 ---
 ## PageSetup.PageStartingNumber property
@@ -16,7 +16,7 @@ public int PageStartingNumber { get; set; }
 
 ### Notlar
 
-[`RestartPageNumbering`](../restartpagenumbering/) olarak ayarlanmışsa, özellik **yanlış** , the öğesini geçersiz kılar **Sayfa BaşlangıçSayısı** özellik, böylece sayfa numaralandırma önceki bölümden devam edebilir.
+[`RestartPageNumbering`](../restartpagenumbering/)özelliği, eğer ayarlanmışsa`YANLIŞ` , the değerini geçersiz kılacak`PageStartingNumber` sayfa numaralandırmanın önceki bölümden devam edebilmesi için özellik.
 
 ### Örnekler
 
@@ -43,18 +43,18 @@ builder.Writeln("Section 2, page 3.");
 builder.MoveToSection(0);
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 
-// Geçerli sayfanın numarasını gösterecek bir SAYFA alanı ekleyin.
+// Geçerli sayfanın numarasını görüntüleyecek bir PAGE alanı ekleyin.
 builder.Write("Page ");
 builder.InsertField("PAGE", "");
 
-// Bölümü, SAYFA alanlarının gösterdiği sayfa sayısının 5'ten başlamasını sağlayacak şekilde yapılandırın.
-// Ayrıca, tüm SAYFA alanlarını, büyük Romen rakamları kullanarak sayfa numaralarını gösterecek şekilde yapılandırın.
+// PAGE alanlarının görüntülediği sayfa sayısının 5'ten başlamasını sağlayacak şekilde bölümü yapılandırın.
+// Ayrıca, tüm PAGE alanlarını sayfa numaralarını büyük harf Romen rakamları kullanarak gösterecek şekilde yapılandırın.
 PageSetup pageSetup = doc.Sections[0].PageSetup;
 pageSetup.RestartPageNumbering = true;
 pageSetup.PageStartingNumber = 5;
 pageSetup.PageNumberStyle = NumberStyle.UppercaseRoman;
 
-// İkinci bölüm için başka bir SAYFA alanıyla başka bir birincil başlık oluşturun.
+// İkinci bölüm için başka bir PAGE alanıyla başka bir birincil başlık oluşturun.
 builder.MoveToSection(1);
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
@@ -62,8 +62,8 @@ builder.Write(" - ");
 builder.InsertField("PAGE", "");
 builder.Write(" - ");
 
-// SAYFA alanlarının gösterdiği sayfa sayısının 10'dan başlaması için bölümü yapılandırın.
-// Ayrıca, tüm SAYFA alanlarını Arapça sayıları kullanarak sayfa numaralarını gösterecek şekilde yapılandırın.
+// PAGE alanlarının görüntülediği sayfa sayısının 10'dan başlamasını sağlayacak şekilde bölümü yapılandırın.
+// Ayrıca, tüm PAGE alanlarını Arapça sayıları kullanarak sayfa numaralarını gösterecek şekilde yapılandırın.
 pageSetup = doc.Sections[1].PageSetup;
 pageSetup.PageStartingNumber = 10;
 pageSetup.RestartPageNumbering = true;

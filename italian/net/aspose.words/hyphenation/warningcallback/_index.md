@@ -1,14 +1,14 @@
 ---
 title: Hyphenation.WarningCallback
 second_title: Aspose.Words per .NET API Reference
-description: Hyphenation proprietà. Chiamato durante un pattern di sillabazione del caricamento quando viene rilevato un problema che potrebbe comportare una perdita di fedeltà di formattazione.
+description: Hyphenation proprietà. Chiamato durante il caricamento di modelli di sillabazione quando viene rilevato un problema che potrebbe causare una perdita di fedeltà della formattazione.
 type: docs
 weight: 20
 url: /it/net/aspose.words/hyphenation/warningcallback/
 ---
 ## Hyphenation.WarningCallback property
 
-Chiamato durante un pattern di sillabazione del caricamento, quando viene rilevato un problema che potrebbe comportare una perdita di fedeltà di formattazione.
+Chiamato durante il caricamento di modelli di sillabazione, quando viene rilevato un problema che potrebbe causare una perdita di fedeltà della formattazione.
 
 ```csharp
 public static IWarningCallback WarningCallback { get; set; }
@@ -19,25 +19,26 @@ public static IWarningCallback WarningCallback { get; set; }
 Mostra come aprire e registrare un dizionario da un file.
 
 ```csharp
+public void RegisterDictionary()
 {
     // Imposta una richiamata che tiene traccia degli avvisi che si verificano durante la registrazione del dizionario di sillabazione.
     WarningInfoCollection warningInfoCollection = new WarningInfoCollection();
     Hyphenation.WarningCallback = warningInfoCollection;
 
-    // Registra un dizionario di sillabazione inglese (Stati Uniti) tramite stream.
+    // Registra un dizionario di sillabazione inglese (USA) per flusso.
     Stream dictionaryStream = new FileStream(MyDir + "hyph_en_US.dic", FileMode.Open);
     Hyphenation.RegisterDictionary("en-US", dictionaryStream);
 
     Assert.AreEqual(0, warningInfoCollection.Count);
 
-    // Apre un documento con una lingua che Microsoft Word potrebbe non sillabare su un computer inglese, come il tedesco.
+    // Apre un documento con una lingua che Microsoft Word non può sillabare su un computer inglese, come il tedesco.
     Document doc = new Document(MyDir + "German text.docx");
 
-    // Per sillabare quel documento dopo il salvataggio, abbiamo bisogno di un dizionario di sillabazione per il codice della lingua "de-CH".
+    // Per sillabare quel documento al momento del salvataggio, abbiamo bisogno di un dizionario di sillabazione per il codice della lingua "de-CH".
     // Questa richiamata gestirà la richiesta automatica per quel dizionario.
     Hyphenation.Callback = new CustomHyphenationDictionaryRegister();
 
-    // Quando salviamo il documento, la sillabazione tedesca avrà effetto.
+    // Quando salviamo il documento, avrà effetto la sillabazione tedesca.
     doc.Save(ArtifactsDir + "Hyphenation.RegisterDictionary.pdf");
 
     // Questo dizionario contiene due modelli identici, che attiveranno un avviso.
@@ -49,7 +50,7 @@ Mostra come aprire e registrare un dizionario da un file.
 }
 
 /// <summary>
-/// Associa i codici della lingua ISO ai nomi dei file di sistema locali per i file del dizionario di sillabazione.
+/// Associa i codici lingua ISO ai nomi file del sistema locale per i file del dizionario di sillabazione.
 /// </summary>
 private class CustomHyphenationDictionaryRegister : IHyphenationCallback
 {

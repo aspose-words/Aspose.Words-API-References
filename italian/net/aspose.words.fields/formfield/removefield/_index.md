@@ -16,7 +16,7 @@ public void RemoveField()
 
 ### Osservazioni
 
-Se è presente un segnalibro associato al campo del modulo, il segnalibro non viene rimosso.
+Se è presente un segnalibro associato al campo del modulo, il segnalibro non verrà rimosso.
 
 ### Esempi
 

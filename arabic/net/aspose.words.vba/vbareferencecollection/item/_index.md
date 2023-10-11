@@ -1,14 +1,14 @@
 ---
 title: VbaReferenceCollection.Item
 second_title: Aspose.Words لمراجع .NET API
-description: VbaReferenceCollection ملكية. يحصلVbaReference الكائن في الفهرس المحدد.
+description: VbaReferenceCollection ملكية. يحصلVbaReference كائن في الفهرس المحدد.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.vba/vbareferencecollection/item/
 ---
 ## VbaReferenceCollection indexer
 
-يحصل[`VbaReference`](../../vbareference/) الكائن في الفهرس المحدد.
+يحصل[`VbaReference`](../../vbareference/) كائن في الفهرس المحدد.
 
 ```csharp
 public VbaReference this[int index] { get; }
@@ -16,7 +16,7 @@ public VbaReference this[int index] { get; }
 
 | معامل | وصف |
 | --- | --- |
-| index | الفهرس الصفري للإشارة إلى الحصول عليها. |
+| index | الفهرس الصفري للمرجع المراد الحصول عليه. |
 
 ### أنظر أيضا
 

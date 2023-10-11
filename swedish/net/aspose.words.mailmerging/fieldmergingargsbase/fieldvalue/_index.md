@@ -23,6 +23,7 @@ Den här egenskapen innehåller ett värde som just har valts från din datakäl
 Visar hur man redigerar värden som MERGEFIELDs tar emot när en e-postsammanslagning sker.
 
 ```csharp
+public void FieldFormats()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);

@@ -3,12 +3,14 @@ title: Class WebExtensionReference
 second_title: Справочник по API Aspose.Words для .NET
 description: Aspose.Words.WebExtensions.WebExtensionReference сорт. Представляет ссылку на вебрасширение. Ссылка используется для определения местоположения поставщика и версии расширения .
 type: docs
-weight: 6490
+weight: 6800
 url: /ru/net/aspose.words.webextensions/webextensionreference/
 ---
 ## WebExtensionReference class
 
 Представляет ссылку на веб-расширение. Ссылка используется для определения местоположения поставщика и версии расширения .
+
+Чтобы узнать больше, посетите[Работа с надстройками Office](https://docs.aspose.com/words/net/work-with-office-add-ins/) статья документации.
 
 ```csharp
 public class WebExtensionReference

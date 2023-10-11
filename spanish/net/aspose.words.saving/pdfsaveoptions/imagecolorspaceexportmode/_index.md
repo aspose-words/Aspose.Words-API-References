@@ -3,7 +3,7 @@ title: PdfSaveOptions.ImageColorSpaceExportMode
 second_title: Referencia de API de Aspose.Words para .NET
 description: PdfSaveOptions propiedad. Especifica cómo se seleccionará el espacio de color para las imágenes en el documento PDF.
 type: docs
-weight: 160
+weight: 190
 url: /es/net/aspose.words.saving/pdfsaveoptions/imagecolorspaceexportmode/
 ---
 ## PdfSaveOptions.ImageColorSpaceExportMode property
@@ -18,9 +18,9 @@ public PdfImageColorSpaceExportMode ImageColorSpaceExportMode { get; set; }
 
 El valor predeterminado esAuto .
 
-SiSimpleCmyk se especifica el valor, [`ImageCompression`](../imagecompression/) se ignora la opción y se utiliza la compresión Flate para todas las imágenes del documento.
+siSimpleCmyk se especifica el valor, [`ImageCompression`](../imagecompression/) La opción se ignora y La compresión Flate se utiliza para todas las imágenes del documento.
 
-SimpleCmyk el valor no es compatible cuando se guarda en PDF/A. Auto en su lugar se utilizará el valor.
+SimpleCmyk el valor no se admite al guardar en PDF/A. Auto En su lugar se utilizará el valor.
 
 ### Ejemplos
 
@@ -40,11 +40,11 @@ builder.InsertImage(ImageDir + "Transparent background logo.png");
 // para modificar cómo ese método convierte el documento a .PDF.
 PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
 
-// Establezca la propiedad "ImageColorSpaceExportMode" en "PdfImageColorSpaceExportMode.Auto" para que Aspose.Words
+// Establece la propiedad "ImageColorSpaceExportMode" en "PdfImageColorSpaceExportMode.Auto" para obtener Aspose.Words
 // selecciona automáticamente el espacio de color para las imágenes en el documento que convierte a PDF.
 // En la mayoría de los casos, el espacio de color será RGB.
-// Establecer la propiedad "ImageColorSpaceExportMode" en "PdfImageColorSpaceExportMode.SimpleCmyk"
-// para usar el espacio de color CMYK para todas las imágenes en el PDF guardado.
+// Establece la propiedad "ImageColorSpaceExportMode" en "PdfImageColorSpaceExportMode.SimpleCmyk"
+// para utilizar el espacio de color CMYK para todas las imágenes en el PDF guardado.
 // Aspose.Words también aplicará la compresión Flate a todas las imágenes e ignorará el valor de la propiedad "ImageCompression".
 pdfSaveOptions.ImageColorSpaceExportMode = pdfImageColorSpaceExportMode;
 

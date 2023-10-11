@@ -1,14 +1,14 @@
 ---
 title: FieldRef.BookmarkName
 second_title: Справочник по API Aspose.Words для .NET
-description: FieldRef свойство. Получает или задает имя закладки на которую указывает ссылка.
+description: FieldRef свойство. Получает или задает имя указанной закладки.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/fieldref/bookmarkname/
 ---
 ## FieldRef.BookmarkName property
 
-Получает или задает имя закладки, на которую указывает ссылка.
+Получает или задает имя указанной закладки.
 
 ```csharp
 public string BookmarkName { get; set; }
@@ -16,14 +16,14 @@ public string BookmarkName { get; set; }
 
 ### Примеры
 
-Показывает, как создать закладку для текста с помощью поля SET, а затем отобразить его в документе с помощью поля REF.
+Показывает, как создать текст с закладкой с помощью поля SET, а затем отобразить его в документе с помощью поля REF.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
- // Назовите текст с закладкой с помощью поля SET.
-// Это поле относится к «закладке», а не к структуре закладок, которая появляется в тексте, а к именованной переменной.
+ // Назовите текст закладки с помощью поля SET.
+// Это поле относится к «закладке», а не к структуре закладки, которая появляется в тексте, а к именованной переменной.
 FieldSet fieldSet = (FieldSet)builder.InsertField(FieldType.FieldSet, false);
 fieldSet.BookmarkName = "MyBookmark";
 fieldSet.BookmarkText = "Hello world!";
@@ -42,7 +42,7 @@ Assert.AreEqual("Hello world!", fieldRef.Result);
 doc.Save(ArtifactsDir + "Field.SET.REF.docx");
 ```
 
-Показывает, как вставлять поля REF в ссылки на закладки.
+Показывает, как вставлять поля REF в ссылочные закладки.
 
 ```csharp
 public void FieldRef()
@@ -57,41 +57,41 @@ public void FieldRef()
     builder.EndBookmark("MyBookmark");
     builder.MoveToDocumentStart();
 
-    // Мы применим пользовательский формат списка, где количество угловых скобок указывает уровень списка, на котором мы находимся в данный момент.
+    // Мы применим собственный формат списка, в котором количество угловых скобок указывает уровень списка, на котором мы сейчас находимся.
     builder.ListFormat.ApplyNumberDefault();
     builder.ListFormat.ListLevel.NumberFormat = "> \x0000";
 
-    // Вставьте поле REF, которое будет содержать текст в нашей закладке, действовать как гиперссылка и клонировать сноски закладки.
+    // Вставляем поле REF, которое будет содержать текст внутри нашей закладки, действовать как гиперссылка и клонировать сноски закладки.
     FieldRef field = InsertFieldRef(builder, "MyBookmark", "", "\n");
     field.IncludeNoteOrComment = true;
     field.InsertHyperlink = true;
 
     Assert.AreEqual(" REF  MyBookmark \\f \\h", field.GetFieldCode());
 
-    // Вставьте поле REF и отобразите, находится ли указанная закладка выше или ниже него.
+    // Вставляем поле REF и отображаем, находится ли указанная закладка выше или ниже него.
     field = InsertFieldRef(builder, "MyBookmark", "The referenced paragraph is ", " this field.\n");
     field.InsertRelativePosition = true;
 
     Assert.AreEqual(" REF  MyBookmark \\p", field.GetFieldCode());
 
-    // Показать номер закладки в списке, как он отображается в документе.
+    // Отображение номера закладки в списке, как он отображается в документе.
     field = InsertFieldRef(builder, "MyBookmark", "The bookmark's paragraph number is ", "\n");
     field.InsertParagraphNumber = true;
 
     Assert.AreEqual(" REF  MyBookmark \\n", field.GetFieldCode());
 
-    // Показать номер списка закладок, но без символов-разделителей, таких как угловые скобки.
+    // Отобразить номер списка закладок, но без опущенных символов, не являющихся разделителями, таких как угловые скобки.
     field = InsertFieldRef(builder, "MyBookmark", "The bookmark's paragraph number, non-delimiters suppressed, is ", "\n");
     field.InsertParagraphNumber = true;
     field.SuppressNonDelimiters = true;
 
     Assert.AreEqual(" REF  MyBookmark \\n \\t", field.GetFieldCode());
 
-    // Переход вниз на один уровень списка.
+    // Переход на один уровень списка вниз.
     builder.ListFormat.ListLevelNumber++;
     builder.ListFormat.ListLevel.NumberFormat = ">> \x0001";
 
-    // Отображаем номер списка закладки и номера всех уровней списка над ней.
+    // Отображение номера закладки в списке и номеров всех уровней списка над ней.
     field = InsertFieldRef(builder, "MyBookmark", "The bookmark's full context paragraph number is ", "\n");
     field.InsertParagraphNumberInFullContext = true;
 
@@ -99,22 +99,23 @@ public void FieldRef()
 
     builder.InsertBreak(BreakType.PageBreak);
 
-    // Показать номера уровня списка между этим полем REF и закладкой, на которую оно ссылается.
+    // Отобразить номера уровней списка между этим полем REF и закладкой, на которую оно ссылается.
     field = InsertFieldRef(builder, "MyBookmark", "The bookmark's relative paragraph number is ", "\n");
     field.InsertParagraphNumberInRelativeContext = true;
 
     Assert.AreEqual(" REF  MyBookmark \\r", field.GetFieldCode());
 
-    // В конце документа закладка будет отображаться здесь как элемент списка.
+    // В конце документа закладка появится здесь как элемент списка.
     builder.Writeln("List level above bookmark");
     builder.ListFormat.ListLevelNumber++;
     builder.ListFormat.ListLevel.NumberFormat = ">>> \x0002";
 
     doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.REF.docx");
+}
 
 /// <summary>
-/// Заставьте конструктор документа вставить поле REF, сослаться на закладку с ним и добавить текст до и после него.
+/// Заставьте конструктор документов вставить поле REF, ссылаться на закладку и добавить текст до и после него.
 /// </summary>
 private static FieldRef InsertFieldRef(DocumentBuilder builder, string bookmarkName, string textBefore, string textAfter)
 {

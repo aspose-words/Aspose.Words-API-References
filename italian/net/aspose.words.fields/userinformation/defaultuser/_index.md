@@ -16,11 +16,11 @@ public static UserInformation DefaultUser { get; }
 
 ### Osservazioni
 
-Usa il[`CurrentUser`](../../fieldoptions/currentuser/)proprietà per specificare le informazioni utente per il singolo documento.
+Usa il[`CurrentUser`](../../fieldoptions/currentuser/) proprietà per specificare le informazioni utente per un singolo documento.
 
 ### Esempi
 
-Mostra come impostare i dettagli utente e visualizzarli utilizzando i campi.
+Mostra come impostare i dettagli dell'utente e visualizzarli utilizzando i campi.
 
 ```csharp
 Document doc = new Document();
@@ -35,8 +35,8 @@ UserInformation userInformation = new UserInformation
 };
 doc.FieldOptions.CurrentUser = userInformation;
 
-// Inserisce i campi USERNAME, USERINITIALS e USERADDRESS, che mostrano i valori di
-// le rispettive proprietà dell'oggetto UserInformation che abbiamo creato sopra. 
+// Inserisci i campi USERNAME, USERINITIALS e USERADDRESS, che visualizzano i valori di
+ // le rispettive proprietà dell'oggetto UserInformation che abbiamo creato sopra.
 Assert.AreEqual(userInformation.Name, builder.InsertField(" USERNAME ").Result);
 Assert.AreEqual(userInformation.Initials, builder.InsertField(" USERINITIALS ").Result);
 Assert.AreEqual(userInformation.Address, builder.InsertField(" USERADDRESS ").Result);

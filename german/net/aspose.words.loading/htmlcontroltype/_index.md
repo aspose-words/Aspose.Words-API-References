@@ -1,14 +1,14 @@
 ---
 title: Enum HtmlControlType
 second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Loading.HtmlControlType opsomming. Art von Dokumentknoten die aus HTML importierte input und selectElemente darstellen.
+description: Aspose.Words.Loading.HtmlControlType opsomming. Typ der Dokumentknoten die aus HTML importierte input und selectElemente darstellen.
 type: docs
-weight: 3410
+weight: 3610
 url: /de/net/aspose.words.loading/htmlcontroltype/
 ---
 ## HtmlControlType enumeration
 
-Art von Dokumentknoten, die aus HTML importierte &lt;input&gt;- und &lt;select&gt;-Elemente darstellen.
+Typ der Dokumentknoten, die aus HTML importierte &lt;input&gt;- und &lt;select&gt;-Elemente darstellen.
 
 ```csharp
 public enum HtmlControlType

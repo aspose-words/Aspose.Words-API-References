@@ -1,14 +1,14 @@
 ---
 title: VbaReferenceCollection.RemoveAt
 second_title: Aspose.Words für .NET-API-Referenz
-description: VbaReferenceCollection methode. Entfernt das VbaReferenceElement am angegebenen Index der Sammlung.
+description: VbaReferenceCollection methode. Entfernt dieVbaReference Element am angegebenen Index der Sammlung.
 type: docs
 weight: 40
 url: /de/net/aspose.words.vba/vbareferencecollection/removeat/
 ---
 ## VbaReferenceCollection.RemoveAt method
 
-Entfernt das VbaReference-Element am angegebenen Index der Sammlung.
+Entfernt die[`VbaReference`](../../vbareference/) Element am angegebenen Index der Sammlung.
 
 ```csharp
 public void RemoveAt(int index)
@@ -19,7 +19,6 @@ public void RemoveAt(int index)
 Zeigt, wie ein Element aus der VBA-Referenzsammlung abgerufen/entfernt wird.
 
 ```csharp
-[Test]
 public void RemoveVbaReference()
 {
     const string brokenPath = @"X:\broken.dll";
@@ -45,7 +44,7 @@ public void RemoveVbaReference()
 }
 
 /// <summary>
-/// Gibt einen String zurück, der den LibId-Pfad einer angegebenen Referenz darstellt. 
+ /// Gibt einen String zurück, der den LibId-Pfad einer angegebenen Referenz darstellt.
 /// </summary>
 private static string GetLibIdPath(VbaReference reference)
 {

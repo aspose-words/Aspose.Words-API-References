@@ -1,14 +1,14 @@
 ---
 title: DocumentBuilder.InsertStyleSeparator
 second_title: Referencia de API de Aspose.Words para .NET
-description: DocumentBuilder método. Inserta separador de estilo en el documento.
+description: DocumentBuilder método. Inserta un separador de estilo en el documento.
 type: docs
-weight: 430
+weight: 460
 url: /es/net/aspose.words/documentbuilder/insertstyleseparator/
 ---
 ## DocumentBuilder.InsertStyleSeparator method
 
-Inserta separador de estilo en el documento.
+Inserta un separador de estilo en el documento.
 
 ```csharp
 public void InsertStyleSeparator()
@@ -20,14 +20,14 @@ Este método permite aplicar diferentes estilos de párrafo a dos partes diferen
 
 ### Ejemplos
 
-Muestra cómo trabajar con separadores de estilo.
+Muestra cómo trabajar con separadores de estilos.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Cada párrafo solo puede tener un estilo.
-// El método InsertStyleSeparator nos permite evitar esta limitación.
+// Cada párrafo sólo puede tener un estilo.
+// El método InsertStyleSeparator nos permite solucionar esta limitación.
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
 builder.Write("This text is in a Heading style. ");
 builder.InsertStyleSeparator();
@@ -41,8 +41,8 @@ builder.ParagraphFormat.StyleName = paraStyle.Name;
 builder.Write("This text is in a custom style. ");
 
 // Llamar al método InsertStyleSeparator crea otro párrafo,
-// que puede tener un estilo diferente al anterior. No habrá interrupción entre párrafos.
-// El texto en el documento de salida se verá como un párrafo con dos estilos.
+// que puede tener un estilo diferente al anterior. No habrá pausa entre párrafos.
+// El texto del documento de salida se verá como un párrafo con dos estilos.
 Assert.AreEqual(2, doc.FirstSection.Body.Paragraphs.Count);
 Assert.AreEqual("Heading 1", doc.FirstSection.Body.Paragraphs[0].ParagraphFormat.Style.Name);
 Assert.AreEqual("MyParaStyle", doc.FirstSection.Body.Paragraphs[1].ParagraphFormat.Style.Name);

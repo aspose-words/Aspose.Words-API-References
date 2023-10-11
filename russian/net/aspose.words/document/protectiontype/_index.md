@@ -3,7 +3,7 @@ title: Document.ProtectionType
 second_title: Справочник по API Aspose.Words для .NET
 description: Document свойство. Получает текущий активный тип защиты документа.
 type: docs
-weight: 310
+weight: 330
 url: /ru/net/aspose.words/document/protectiontype/
 ---
 ## Document.ProtectionType property
@@ -16,15 +16,15 @@ public ProtectionType ProtectionType { get; }
 
 ### Примечания
 
-Это свойство позволяет получить текущий установленный тип защиты документа. Для изменения типа защиты документа используйте кнопку[`Protect`](../protect/) и[`Unprotect`](../unprotect/)методы.
+Это свойство позволяет получить текущий установленный тип защиты документа. Для изменения типа защиты документа используйте команду[`Protect`](../protect/) и[`Unprotect`](../unprotect/) методы.
 
-Когда документ защищен, пользователь может вносить только ограниченные изменения, , такие как добавление аннотаций, внесение изменений или заполнение формы.
+Когда документ защищен, пользователь может вносить лишь ограниченные изменения, , такие как добавление аннотаций, внесение изменений или заполнение формы.
 
 Обратите внимание, что защита документа отличается от защиты от записи. Защита от записи задается с помощью[`WriteProtection`](../writeprotection/)
 
 ### Примеры
 
-Показывает, как защитить и снять защиту с документа.
+Показывает, как защитить и снять защиту документа.
 
 ```csharp
 Document doc = new Document();
@@ -37,7 +37,7 @@ Assert.AreEqual(ProtectionType.ReadOnly, doc.ProtectionType);
 doc.Save(ArtifactsDir + "Document.Protect.docx");
 
 // Обратите внимание, что защита распространяется только на пользователей Microsoft Word, открывающих наш документ.
-// Мы никак не зашифровали документ, и нам не нужен пароль, чтобы открыть и отредактировать его программно.
+// Мы никак не зашифровали документ, и для его программного открытия и редактирования пароль нам не нужен.
 Document protectedDoc = new Document(ArtifactsDir + "Document.Protect.docx");
 
 Assert.AreEqual(ProtectionType.ReadOnly, protectedDoc.ProtectionType);

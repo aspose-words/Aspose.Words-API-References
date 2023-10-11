@@ -1,14 +1,14 @@
 ---
 title: ShapeBase.SizeInPoints
 second_title: Справочник по API Aspose.Words для .NET
-description: ShapeBase свойство. Получает размер фигуры в точках.
+description: ShapeBase свойство. Получает размер фигуры в пунктах.
 type: docs
-weight: 470
+weight: 510
 url: /ru/net/aspose.words.drawing/shapebase/sizeinpoints/
 ---
 ## ShapeBase.SizeInPoints property
 
-Получает размер фигуры в точках.
+Получает размер фигуры в пунктах.
 
 ```csharp
 public SizeF SizeInPoints { get; }

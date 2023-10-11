@@ -1,14 +1,14 @@
 ---
 title: CustomPart.RelationshipType
 second_title: Справочник по API Aspose.Words для .NET
-description: CustomPart свойство. Получает или задает тип отношения между родительской частью и этой пользовательской частью.
+description: CustomPart свойство. Получает или задает тип связи родительской части с этой пользовательской частью.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.markup/custompart/relationshiptype/
 ---
 ## CustomPart.RelationshipType property
 
-Получает или задает тип отношения между родительской частью и этой пользовательской частью.
+Получает или задает тип связи родительской части с этой пользовательской частью.
 
 ```csharp
 public string RelationshipType { get; set; }
@@ -16,13 +16,13 @@ public string RelationshipType { get; set; }
 
 ### Примечания
 
-Тип отношения для пользовательской части должен быть «неизвестным», например, тип пользовательского отношения, , а не один из типов отношений, определенных в ISO/IEC 29500.
+Тип связи для пользовательской детали должен быть «неизвестным», например, тип пользовательской связи , а не один из типов отношений, определенных в ISO/IEC 29500.
 
 Значение по умолчанию — пустая строка. Допустимое значение должно быть непустой строкой.
 
 ### Примеры
 
-Показывает, как получить доступ к коллекции произвольных пользовательских частей документа.
+Показывает, как получить доступ к произвольной коллекции пользовательских частей документа.
 
 ```csharp
 Document doc = new Document(MyDir + "Custom parts OOXML package.docx");
@@ -34,7 +34,7 @@ CustomPart clonedPart = doc.PackageCustomParts[1].Clone();
 doc.PackageCustomParts.Add(clonedPart);
 Assert.AreEqual(3, doc.PackageCustomParts.Count);
 
-// Перечисляем коллекцию и печатаем каждую часть.
+// Перебираем коллекцию и печатаем каждую часть.
 using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator())
 {
     int index = 0;
@@ -51,7 +51,7 @@ using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator
     }
 }
 
-// Мы можем удалить элементы из этой коллекции по отдельности или все сразу.
+// Мы можем удалять элементы из этой коллекции по отдельности или все сразу.
 doc.PackageCustomParts.RemoveAt(2);
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);

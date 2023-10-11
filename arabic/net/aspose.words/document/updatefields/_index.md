@@ -3,7 +3,7 @@ title: Document.UpdateFields
 second_title: Aspose.Words لمراجع .NET API
 description: Document طريقة. يقوم بتحديث قيم الحقول في المستند بأكمله.
 type: docs
-weight: 730
+weight: 770
 url: /ar/net/aspose.words/document/updatefields/
 ---
 ## Document.UpdateFields method
@@ -16,36 +16,36 @@ public void UpdateFields()
 
 ### ملاحظات
 
-عند فتح مستند وتعديله ثم حفظه ، فإن Aspose.word لا تقوم بتحديث الحقول تلقائيًا ، فهي تحافظ عليها . لذلك ، قد ترغب عادةً في استدعاء هذه الطريقة قبل الحفظ إذا قمت بتعديل document برمجيًا وتريد التأكد تظهر قيم الحقل المناسبة (المحسوبة) في المستند المحفوظ.
+عند فتح مستند وتعديله ثم حفظه، لا يقوم Aspose.Words بتحديث الحقول تلقائيًا، بل يبقيها سليمة. لذلك، عادةً ما تريد استدعاء هذه الطريقة قبل الحفظ إذا قمت بتعديل document برمجيًا وتريد التأكد تظهر قيم الحقول المناسبة (المحسوبة) في المستند المحفوظ.
 
-ليست هناك حاجة لتحديث الحقول بعد تنفيذ عملية دمج البريد لأن دمج البريد هو نوع من أنواع الحقول update ويقوم تلقائيًا بتحديث كافة الحقول في المستند.
+ليست هناك حاجة لتحديث الحقول بعد تنفيذ دمج البريد لأن دمج البريد هو نوع من تحديث الحقل ويقوم تلقائيًا بتحديث كافة الحقول في المستند.
 
-لا تقوم هذه الطريقة بتحديث كافة أنواع الحقول. للحصول على قائمة مفصلة بأنواع الحقول المدعومة ، انظر دليل المبرمجين.
+لا يقوم هذا الأسلوب بتحديث كافة أنواع الحقول. للحصول على قائمة مفصلة بأنواع الحقول المدعومة، راجع دليل المبرمجين.
 
-لا تقوم هذه الطريقة بتحديث الحقول المرتبطة بخوارزميات تخطيط الصفحة (مثل PAGE و PAGES و PAGEREF) . يتم تحديث الحقول المتعلقة بتخطيط الصفحة عند عرض مستند أو استدعاء[`UpdatePageLayout`](../updatepagelayout/).
+لا تقوم هذه الطريقة بتحديث الحقول المرتبطة بخوارزميات تخطيط الصفحة (مثل PAGE وPAGES وPAGEREF). يتم تحديث الحقول المرتبطة بتخطيط الصفحة عند عرض مستند أو الاتصال[`UpdatePageLayout`](../updatepagelayout/).
 
-استخدم ال[`NormalizeFieldTypes`](../normalizefieldtypes/) الطريقة قبل تحديث الحقول إذا كانت هناك تغييرات في المستند أثرت على أنواع الحقول.
+استخدم ال[`NormalizeFieldTypes`](../normalizefieldtypes/) الطريقة قبل تحديث الحقول إذا كانت هناك تغييرات في المستندات أثرت على أنواع الحقول.
 
-لتحديث الحقول في جزء معين من الوثيقة استخدم[`UpdateFields`](../../range/updatefields/).
+لتحديث الحقول في جزء معين من استخدام المستند[`UpdateFields`](../../range/updatefields/).
 
 ### أمثلة
 
-يظهر استخدام حقل الاقتباس.
+يظهر كيفية استخدام حقل عرض الأسعار.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// أدخل حقل QUOTE ، والذي سيعرض قيمة خاصية Text الخاصة به.
+// أدخل حقل عرض أسعار، والذي سيعرض قيمة خاصية النص الخاصة به.
 FieldQuote field = (FieldQuote)builder.InsertField(FieldType.FieldQuote, true);
 field.Text = "\"Quoted text\"";
 
 Assert.AreEqual(" QUOTE  \"\\\"Quoted text\\\"\"", field.GetFieldCode());
 
-// أدخل حقل QUOTE وقم بتداخل حقل DATE بداخله.
+// أدخل حقل عرض أسعار وقم بدمج حقل التاريخ بداخله.
 // تقوم حقول التاريخ بتحديث قيمتها إلى التاريخ الحالي في كل مرة نفتح فيها المستند باستخدام Microsoft Word.
-// سيؤدي تداخل حقل DATE داخل حقل QUOTE مثل هذا إلى تجميد قيمته
-// إلى التاريخ الذي أنشأنا فيه المستند.
+// سيؤدي تداخل حقل التاريخ داخل حقل عرض الأسعار بهذه الطريقة إلى تجميد قيمته
+// حتى التاريخ الذي أنشأنا فيه المستند.
 builder.Write("\nDocument creation date: ");
 field = (FieldQuote)builder.InsertField(FieldType.FieldQuote, true);
 builder.MoveTo(field.Separator);
@@ -53,7 +53,7 @@ builder.InsertField(FieldType.FieldDate, true);
 
 Assert.AreEqual(" QUOTE \u0013 DATE \u0014" + DateTime.Now.Date.ToShortDateString() + "\u0015", field.GetFieldCode());
 
-// تحديث جميع الحقول لعرض نتائجها الصحيحة.
+// قم بتحديث كافة الحقول لعرض نتائجها الصحيحة.
 doc.UpdateFields();
 
 Assert.AreEqual("\"Quoted text\"", doc.Range.Fields[0].Result);
@@ -61,13 +61,13 @@ Assert.AreEqual("\"Quoted text\"", doc.Range.Fields[0].Result);
 doc.Save(ArtifactsDir + "Field.QUOTE.docx");
 ```
 
-يوضح كيفية تعيين تفاصيل المستخدم ، وعرضها باستخدام الحقول.
+يوضح كيفية تعيين تفاصيل المستخدم وعرضها باستخدام الحقول.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// إنشاء كائن معلومات المستخدم وتعيينه كمصدر بيانات للحقول التي تعرض معلومات المستخدم.
+// قم بإنشاء كائن معلومات المستخدم وقم بتعيينه كمصدر بيانات للحقول التي تعرض معلومات المستخدم.
 UserInformation userInformation = new UserInformation
 {
     Name = "John Doe",
@@ -76,8 +76,8 @@ UserInformation userInformation = new UserInformation
 };
 doc.FieldOptions.CurrentUser = userInformation;
 
-// أدخل حقول اسم المستخدم والمستخدمين و USERADDRESS التي تعرض قيم
-// الخصائص الخاصة بكائن معلومات المستخدم الذي أنشأناه أعلاه. 
+// أدخل حقول اسم المستخدم، ومعلومات المستخدم، وعنوان المستخدم، التي تعرض قيم
+ // الخصائص الخاصة بكائن UserInformation الذي قمنا بإنشائه أعلاه.
 Assert.AreEqual(userInformation.Name, builder.InsertField(" USERNAME ").Result);
 Assert.AreEqual(userInformation.Initials, builder.InsertField(" USERINITIALS ").Result);
 Assert.AreEqual(userInformation.Address, builder.InsertField(" USERADDRESS ").Result);
@@ -96,21 +96,21 @@ doc.UpdateFields();
 doc.Save(ArtifactsDir + "FieldOptions.CurrentUser.docx");
 ```
 
-يوضح كيفية إدراج جدول محتويات (TOC) في مستند باستخدام أنماط العناوين كمدخلات.
+يوضح كيفية إدراج جدول محتويات (TOC) في مستند باستخدام أنماط العناوين كإدخالات.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // أدخل جدول محتويات للصفحة الأولى من المستند.
-// تكوين الجدول لالتقاط فقرات بعناوين المستويات من 1 إلى 3.
-// أيضًا ، قم بتعيين إدخالاتها لتكون ارتباطات تشعبية ستأخذنا
+// قم بتكوين الجدول لالتقاط الفقرات ذات العناوين من المستويات 1 إلى 3.
+// أيضًا، قم بتعيين إدخالاته لتكون روابط تشعبية ستأخذنا
 // إلى موقع العنوان عند النقر بزر الماوس الأيسر في Microsoft Word.
 builder.InsertTableOfContents("\\o \"1-3\" \\h \\z \\u");
 builder.InsertBreak(BreakType.PageBreak);
 
-// ملء جدول المحتويات بإضافة فقرات بأنماط عناوين.
-// كل عنوان بمستوى بين 1 و 3 سينشئ إدخالاً في الجدول.
+// قم بملء جدول المحتويات عن طريق إضافة فقرات بأنماط العناوين.
+// كل عنوان بمستوى يتراوح بين 1 و 3 سيُنشئ مُدخلاً في الجدول.
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
 builder.Writeln("Heading 1");
 
@@ -138,7 +138,7 @@ builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading2;
 builder.Writeln("Heading 3.2");
 builder.Writeln("Heading 3.3");
 
-// جدول المحتويات هو حقل من النوع يحتاج إلى تحديث لإظهار نتيجة محدثة.
+// جدول المحتويات هو حقل من النوع الذي يحتاج إلى التحديث لإظهار نتيجة محدثة.
 doc.UpdateFields();
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertToc.docx");
 ```

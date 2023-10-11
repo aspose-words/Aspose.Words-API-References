@@ -3,12 +3,14 @@ title: Class Node
 second_title: Aspose.Words for .NET API Referansı
 description: Aspose.Words.Node sınıf. Bir Word belgesinin tüm düğümleri için temel sınıf.
 type: docs
-weight: 3930
+weight: 4170
 url: /tr/net/aspose.words/node/
 ---
 ## Node class
 
 Bir Word belgesinin tüm düğümleri için temel sınıf.
+
+Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Aspose.Words Belge Nesne Modeli (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) dokümantasyon makalesi.
 
 ```csharp
 public abstract class Node
@@ -20,46 +22,46 @@ public abstract class Node
 | --- | --- |
 | [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Özel düğüm tanımlayıcısını belirtir. |
 | virtual [Document](../../aspose.words/node/document/) { get; } | Bu düğümün ait olduğu belgeyi alır. |
-| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Bu düğüm başka düğümler içerebiliyorsa true değerini döndürür. |
-| [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Bu düğümden hemen sonraki düğümü alır. |
+| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | İadeler`doğru` bu düğüm başka düğümler içeriyorsa. |
+| [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Bu düğümden hemen sonra gelen düğümü alır. |
 | abstract [NodeType](../../aspose.words/node/nodetype/) { get; } | Bu düğümün türünü alır. |
-| [ParentNode](../../aspose.words/node/parentnode/) { get; } | Bu düğümün hemen üst öğesini alır. |
+| [ParentNode](../../aspose.words/node/parentnode/) { get; } | Bu düğümün doğrudan ebeveynini alır. |
 | [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Bu düğümden hemen önceki düğümü alır. |
-| [Range](../../aspose.words/node/range/) { get; } | Bir döndürür **Menzil** belgenin bu düğümde bulunan bölümünü temsil eden nesne. |
+| [Range](../../aspose.words/node/range/) { get; } | Bir değeri döndürür[`Range`](../range/) Bu düğümde bulunan bir belgenin bölümünü temsil eden nesne. |
 
 ## yöntemler
 
 | İsim | Tanım |
 | --- | --- |
-| abstract [Accept](../../aspose.words/node/accept/)(DocumentVisitor) | Bir ziyaretçiyi kabul eder. |
+| abstract [Accept](../../aspose.words/node/accept/)(DocumentVisitor) | Ziyaretçi kabul eder. |
 | [Clone](../../aspose.words/node/clone/)(bool) | Düğümün bir kopyasını oluşturur. |
-| [GetAncestor](../../aspose.words/node/getancestor/#getancestor)(NodeType) | Belirtilenin ilk atasını alır[`NodeType`](../nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/#getancestor_1)(Type) | Belirtilen nesne türünün ilk üst öğesini alır. |
+| [GetAncestor](../../aspose.words/node/getancestor/#getancestor)(NodeType) | Belirtilenin ilk atayı alır[`NodeType`](../nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/#getancestor_1)(Type) | Belirtilen nesne türünün ilk atayı alır. |
 | virtual [GetText](../../aspose.words/node/gettext/)() | Bu düğümün ve tüm alt öğelerinin metnini alır. |
 | [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Ön sipariş ağaç geçiş algoritmasına göre sonraki düğümü alır. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Ön sipariş ağacı geçiş algoritmasına göre önceki düğümü alır. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Ön sipariş ağaç geçiş algoritmasına göre önceki düğümü alır. |
 | [Remove](../../aspose.words/node/remove/)() | Kendini üst öğeden kaldırır. |
-| [ToString](../../aspose.words/node/tostring/#tostring_1)(SaveFormat) | Düğümün içeriğini belirtilen biçimde bir dizeye aktarır. |
+| [ToString](../../aspose.words/node/tostring/#tostring_1)(SaveFormat) | Düğümün içeriğini belirtilen formatta bir dizeye aktarır. |
 | [ToString](../../aspose.words/node/tostring/#tostring_2)(SaveOptions) | Belirtilen kaydetme seçeneklerini kullanarak düğümün içeriğini bir dizeye aktarır. |
-| static [NodeTypeToString](../../aspose.words/node/nodetypetostring/)(NodeType) | Düğüm türü numaralandırma değerini kullanıcı dostu bir dizeye dönüştüren yardımcı program yöntemi. |
+| static [NodeTypeToString](../../aspose.words/node/nodetypetostring/)(NodeType) | Düğüm türü numaralandırma değerini kullanıcı dostu bir dizeye dönüştüren bir yardımcı program yöntemi. |
 
 ### Notlar
 
-Belge, DOM veya XmlDocument'e benzer şekilde bir düğüm ağacı olarak temsil edilir.
+Bir belge, DOM veya XmlDocument'e benzer şekilde bir düğüm ağacı olarak temsil edilir.
 
 Daha fazla bilgi için Bileşik tasarım desenine bakın.
 
-bu`Node`sınıf:
+`Node` sınıf:
 
-* Alt düğüm arabirimini tanımlar.
-* Düğümleri ziyaret etmek için arabirimi tanımlar.
+* Alt düğüm arayüzünü tanımlar.
+* Düğümleri ziyaret etmek için arayüzü tanımlar.
 * Varsayılan klonlama yeteneği sağlar.
-* Üst düğüm ve sahip belge mekanizmalarını uygular.
-* Kardeş düğümlere erişim uygular.
+* Ana düğüm ve sahip belge mekanizmalarını uygular.
+* Kardeş düğümlere erişimi uygular.
 
 ### Örnekler
 
-Belirli bir türdeki tüm alt düğümlerin bileşik düğümden nasıl kaldırılacağını gösterir.
+Belirli bir türdeki tüm alt düğümlerin bileşik bir düğümden nasıl kaldırılacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
@@ -70,11 +72,11 @@ Node curNode = doc.FirstSection.Body.FirstChild;
 
 while (curNode != null)
 {
-    // Bir sonraki kardeş düğümü, bu düğümü sildikten sonra ona geçmek istersek bir değişken olarak kaydedin.
+    // Bu düğümü sildikten sonra ona geçmek istersek diye bir sonraki kardeş düğümü değişken olarak kaydedin.
     Node nextNode = curNode.NextSibling;
 
     // Bir bölüm gövdesi Paragraf ve Tablo düğümleri içerebilir.
-    // Düğüm bir Tablo ise, onu üst öğeden kaldırın.
+    // Düğüm bir Tablo ise onu ebeveynden kaldırın.
     if (curNode.NodeType == NodeType.Table)
         curNode.Remove();
 
@@ -84,28 +86,28 @@ while (curNode != null)
 Assert.AreEqual(0, doc.GetChildNodes(NodeType.Table, true).Count);
 ```
 
-Bileşik bir düğümün nasıl klonlanacağını gösterir.
+Bileşik düğümün nasıl kopyalanacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 Paragraph para = doc.FirstSection.Body.FirstParagraph;
 para.AppendChild(new Run(doc, "Hello world!"));
 
-// Aşağıda bir bileşik düğümü klonlamanın iki yolu bulunmaktadır.
-// 1 - Bir düğümün klonunu oluşturun ve ayrıca alt düğümlerinin her birinin bir klonunu oluşturun.
+// Aşağıda bileşik bir düğümü klonlamanın iki yolu verilmiştir.
+// 1 - Bir düğümün klonunu oluşturun ve aynı zamanda onun alt düğümlerinin her birinin bir kopyasını oluşturun.
 Node cloneWithChildren = para.Clone(true);
 
 Assert.IsTrue(((CompositeNode)cloneWithChildren).HasChildNodes);
 Assert.AreEqual("Hello world!", cloneWithChildren.GetText().Trim());
 
-// 2 - Herhangi bir çocuk olmadan kendi başına bir düğümün klonunu oluşturun.
+// 2 - Hiçbir çocuk olmadan tek başına bir düğümün klonunu oluşturun.
 Node cloneWithoutChildren = para.Clone(false);
 
 Assert.IsFalse(((CompositeNode)cloneWithoutChildren).HasChildNodes);
 Assert.AreEqual(string.Empty, cloneWithoutChildren.GetText().Trim());
 ```
 
-Bileşik bir düğümün alt düğüm koleksiyonunda nasıl geçileceğini gösterir.
+Bileşik bir düğümün alt düğüm koleksiyonunda nasıl geçiş yapılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -117,18 +119,18 @@ paragraph.AppendChild(new Run(doc, "Hello world! "));
 Shape shape = new Shape(doc, ShapeType.Rectangle);
 shape.Width = 200;
 shape.Height = 200;
-// 'CustomNodeId' bir çıktı dosyasına kaydedilmediğini ve yalnızca düğüm ömrü boyunca var olduğunu unutmayın.
+// 'CustomNodeId'in bir çıktı dosyasına kaydedilmediğini ve yalnızca düğümün ömrü boyunca mevcut olduğunu unutmayın.
 shape.CustomNodeId = 100;
 shape.WrapType = WrapType.Inline;
 paragraph.AppendChild(shape);
 
 paragraph.AppendChild(new Run(doc, "Hello again!"));
 
-// Paragrafın acil alt öğeleri koleksiyonunu yineleyin,
-// ve içinde bulduğumuz tüm koşuları veya şekilleri yazdırın.
-NodeCollection children = paragraph.ChildNodes;
+// Paragrafın yakın alt öğelerinin toplanması yoluyla yineleme yapın,
+// ve içinde bulduğumuz tüm sayıları veya şekilleri yazdırıyoruz.
+NodeCollection children = paragraph.GetChildNodes(NodeType.Any, false);
 
-Assert.AreEqual(3, paragraph.ChildNodes.Count);
+Assert.AreEqual(3, paragraph.GetChildNodes(NodeType.Any, false).Count);
 
 foreach (Node child in children)
     switch (child.NodeType)
@@ -141,6 +143,7 @@ foreach (Node child in children)
             Shape childShape = (Shape)child;
             Console.WriteLine("Shape:");
             Console.WriteLine($"\t{childShape.ShapeType}, {childShape.Width}x{childShape.Height}");
+            break;
     }
 ```
 

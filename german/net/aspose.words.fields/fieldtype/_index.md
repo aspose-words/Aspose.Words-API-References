@@ -3,7 +3,7 @@ title: Enum FieldType
 second_title: Aspose.Words für .NET-API-Referenz
 description: Aspose.Words.Fields.FieldType opsomming. Gibt Microsoft WordFeldtypen an.
 type: docs
-weight: 2390
+weight: 2540
 url: /de/net/aspose.words.fields/fieldtype/
 ---
 ## FieldType enumeration
@@ -21,7 +21,7 @@ public enum FieldType
 | FieldNone | `0` | Feldtyp ist nicht angegeben oder unbekannt. |
 | FieldCannotParse | `1` | Gibt an, dass das Feld nicht analysiert werden konnte. |
 | FieldAddin | `81` | Gibt das ADDIN-Feld an. |
-| FieldAddressBlock | `93` | Gibt das ADRESSBLOCK-Feld an. |
+| FieldAddressBlock | `93` | Gibt das ADDRESSBLOCK-Feld an. |
 | FieldAdvance | `84` | Gibt das ADVANCE-Feld an. |
 | FieldAsk | `38` | Gibt das ASK-Feld an. |
 | FieldAuthor | `17` | Gibt das AUTHOR-Feld an. |
@@ -31,14 +31,14 @@ public enum FieldType
 | FieldAutoText | `79` | Gibt das AUTOTEXT-Feld an. |
 | FieldAutoTextList | `89` | Gibt das AUTOTEXTLIST-Feld an. |
 | FieldBarcode | `63` | Gibt das BARCODE-Feld an. |
-| FieldBibliography | `100500` | Gibt das Feld BIBLIOGRAPHY an. |
-| FieldBidiOutline | `92` | Gibt das Feld BIDIOUTLINE an. |
-| FieldCitation | `1980` | Gibt das ZITAT-Feld an. |
-| FieldComments | `19` | Gibt das Feld COMMENTS an. |
+| FieldBibliography | `100500` | Gibt das BIBLIOGRAPHY-Feld an. |
+| FieldBidiOutline | `92` | Gibt das BIDIOUTLINE-Feld an. |
+| FieldCitation | `1980` | Gibt das CITATION-Feld an. |
+| FieldComments | `19` | Gibt das Feld KOMMENTARE an. |
 | FieldCompare | `80` | Gibt das COMPARE-Feld an. |
 | FieldCreateDate | `21` | Gibt das CREATEDATE-Feld an. |
 | FieldData | `40` | Gibt das DATA-Feld an. |
-| FieldDatabase | `78` | Gibt das DATABASE-Feld an. |
+| FieldDatabase | `78` | Gibt das Feld DATABASE an. |
 | FieldDate | `31` | Gibt das DATE-Feld an. |
 | FieldDDE | `45` | Gibt das DDE-Feld an. |
 | FieldDisplayBarcode | `6301` | Gibt das DISPLAYBARCODE-Feld an. |
@@ -49,10 +49,10 @@ public enum FieldType
 | FieldEditTime | `25` | Gibt das EDITTIME-Feld an. |
 | FieldEmbed | `58` | Gibt das EMBED-Feld an. |
 | FieldEquation | `49` | Gibt das EQ-Feld an. |
-| FieldFileName | `29` | Gibt das Feld FILENAME an. |
-| FieldFileSize | `69` | Gibt das Feld FILESIZE an. |
+| FieldFileName | `29` | Gibt das FILENAME-Feld an. |
+| FieldFileSize | `69` | Gibt das FILESIZE-Feld an. |
 | FieldFillIn | `39` | Gibt das FILLIN-Feld an. |
-| FieldFootnoteRef | `5` | Gibt das Feld FOOTNOTEREF an. |
+| FieldFootnoteRef | `5` | Gibt das FOOTNOTEREF-Feld an. |
 | FieldFormCheckBox | `71` | Gibt das FORMCHECKBOX-Feld an. |
 | FieldFormDropDown | `83` | Gibt das FORMDROPDOWN-Feld an. |
 | FieldFormTextInput | `70` | Gibt das FORMTEXT-Feld an. |
@@ -82,7 +82,7 @@ public enum FieldType
 | FieldNextIf | `42` | Gibt das NEXTIF-Feld an. |
 | FieldNoteRef | `72` | Gibt das NOTEREF-Feld an. |
 | FieldNumChars | `28` | Gibt das NUMCHARS-Feld an. |
-| FieldNumPages | `26` | Gibt das NUMPAGES-Feld an. |
+| FieldNumPages | `26` | Gibt das Feld NUMPAGES an. |
 | FieldNumWords | `27` | Gibt das Feld NUMWORDS an. |
 | FieldOcx | `87` | Gibt das OCX-Feld an. |
 | FieldPage | `33` | Gibt das PAGE-Feld an. |
@@ -90,35 +90,35 @@ public enum FieldType
 | FieldPrint | `48` | Gibt das PRINT-Feld an. |
 | FieldPrintDate | `23` | Gibt das PRINTDATE-Feld an. |
 | FieldPrivate | `77` | Gibt das PRIVATE-Feld an. |
-| FieldQuote | `35` | Gibt das ZITAT-Feld an. |
+| FieldQuote | `35` | Gibt das QUOTE-Feld an. |
 | FieldRef | `3` | Gibt das REF-Feld an. |
 | FieldRefNoKeyword | `2` | Gibt an, dass das Feld ein REF-Feld darstellt, in dem das Schlüsselwort weggelassen wurde. |
 | FieldRefDoc | `11` | Gibt das RD-Feld an. |
 | FieldRevisionNum | `24` | Gibt das REVNUM-Feld an. |
 | FieldSaveDate | `22` | Gibt das SAVEDATE-Feld an. |
-| FieldSection | `65` | Gibt das Feld ABSCHNITT an. |
-| FieldSectionPages | `66` | Gibt das Feld SECTIONPAGES an. |
+| FieldSection | `65` | Gibt das SECTION-Feld an. |
+| FieldSectionPages | `66` | Gibt das SECTIONPAGES-Feld an. |
 | FieldSequence | `12` | Gibt das SEQ-Feld an. |
 | FieldSet | `6` | Gibt das SET-Feld an. |
 | FieldShape | `95` | Gibt das SHAPE-Feld an. |
 | FieldSkipIf | `43` | Gibt das SKIPIF-Feld an. |
 | FieldStyleRef | `10` | Gibt das STYLEREF-Feld an. |
-| FieldSubject | `16` | Gibt das Feld BETREFF an. |
+| FieldSubject | `16` | Gibt das SUBJECT-Feld an. |
 | FieldSymbol | `57` | Gibt das SYMBOL-Feld an. |
-| FieldTemplate | `30` | Gibt das Feld VORLAGE an. |
+| FieldTemplate | `30` | Gibt das TEMPLATE-Feld an. |
 | FieldTime | `32` | Gibt das TIME-Feld an. |
 | FieldTitle | `15` | Gibt das TITLE-Feld an. |
 | FieldTOA | `73` | Gibt das TOA-Feld an. |
 | FieldTOAEntry | `74` | Gibt das TA-Feld an. |
-| FieldTOC | `13` | Gibt das Inhaltsverzeichnisfeld an. |
+| FieldTOC | `13` | Gibt das TOC-Feld an. |
 | FieldTOCEntry | `9` | Gibt das TC-Feld an. |
 | FieldUserAddress | `62` | Gibt das Feld USERADDRESS an. |
-| FieldUserInitials | `61` | Gibt das Feld USERINITIALS an. |
-| FieldUserName | `60` | Gibt das Feld USERNAME an. |
+| FieldUserInitials | `61` | Gibt das USERINITIALS-Feld an. |
+| FieldUserName | `60` | Gibt das USERNAME-Feld an. |
 
 ### Beispiele
 
-Zeigt, wie ein Feld mithilfe eines Feldcodes in ein Dokument eingefügt wird.
+Zeigt, wie man mithilfe eines Feldcodes ein Feld in ein Dokument einfügt.
 
 ```csharp
 Document doc = new Document();
@@ -155,7 +155,7 @@ field = (FieldDate)fieldStart.GetField();
 Assert.AreEqual(false, field.IsLocked);
 Assert.AreEqual(" DATE  \\@ \"dddd, MMMM dd, yyyy\"", field.GetFieldCode());
 
-// Aktualisieren Sie das Feld, um das aktuelle Datum anzuzeigen.
+// Feld aktualisieren, um das aktuelle Datum anzuzeigen.
 field.Update();
 ```
 

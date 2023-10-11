@@ -1,14 +1,16 @@
 ---
 title: Class CsvDataSource
 second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Reporting.CsvDataSource sınıf. Bir raporda kullanılacak bir CSV dosyası veya akışı verilerine erişim sağlar.
+description: Aspose.Words.Reporting.CsvDataSource sınıf. Bir raporda kullanılacak CSV dosyası veya akış verilerine erişim sağlar.
 type: docs
-weight: 4410
+weight: 4670
 url: /tr/net/aspose.words.reporting/csvdatasource/
 ---
 ## CsvDataSource class
 
-Bir raporda kullanılacak bir CSV dosyası veya akışı verilerine erişim sağlar.
+Bir raporda kullanılacak CSV dosyası veya akış verilerine erişim sağlar.
+
+Daha fazlasını öğrenmek için şu adresi ziyaret edin:[LINQ Raporlama Motoru](https://docs.aspose.com/words/net/linq-reporting-engine/) dokümantasyon makalesi.
 
 ```csharp
 public class CsvDataSource
@@ -18,18 +20,18 @@ public class CsvDataSource
 
 | İsim | Tanım |
 | --- | --- |
-| [CsvDataSource](csvdatasource/#constructor)(Stream) | CSV verilerini ayrıştırmak için varsayılan seçenekleri kullanarak bir CSV akışından alınan verilerle yeni bir veri kaynağı oluşturur. |
-| [CsvDataSource](csvdatasource/#constructor_2)(string) | CSV verilerini ayrıştırmak için varsayılan seçenekleri kullanarak bir CSV dosyasındaki verilerle yeni bir veri kaynağı oluşturur. |
-| [CsvDataSource](csvdatasource/#constructor_1)(Stream, CsvDataLoadOptions) | CSV verilerini ayrıştırmak için belirtilen seçenekleri kullanarak bir CSV akışından alınan verilerle yeni bir veri kaynağı oluşturur. |
-| [CsvDataSource](csvdatasource/#constructor_3)(string, CsvDataLoadOptions) | CSV verilerini ayrıştırmak için belirtilen seçenekleri kullanarak bir CSV dosyasındaki verilerle yeni bir veri kaynağı oluşturur. |
+| [CsvDataSource](csvdatasource/#constructor)(Stream) | CSV verilerini ayrıştırmaya yönelik varsayılan seçenekleri kullanarak CSV akışındaki verilerle yeni bir veri kaynağı oluşturur. |
+| [CsvDataSource](csvdatasource/#constructor_2)(string) | CSV verilerini ayrıştırmak için varsayılan seçenekleri kullanarak CSV dosyasındaki verilerle yeni bir veri kaynağı oluşturur. |
+| [CsvDataSource](csvdatasource/#constructor_1)(Stream, CsvDataLoadOptions) | CSV verilerini ayrıştırmak için belirtilen seçenekleri kullanarak CSV akışından gelen verilerle yeni bir veri kaynağı oluşturur. |
+| [CsvDataSource](csvdatasource/#constructor_3)(string, CsvDataLoadOptions) | CSV verilerini ayrıştırmak için belirtilen seçenekleri kullanarak CSV dosyasındaki verilerle yeni bir veri kaynağı oluşturur. |
 
 ### Notlar
 
-Bir rapor oluştururken ilgili dosyanın veya akışın verilerine erişmek için, bu sınıfın bir örneğini veri kaynağı olarak aşağıdakilerden birine iletin:[`ReportingEngine`](../reportingengine/) .BuildReport aşırı yükleniyor.
+Bir rapor oluştururken ilgili dosyanın veya akışın verilerine erişmek için, bu sınıfın bir örneğini as veri kaynağı olarak aşağıdakilerden birine iletin.[`ReportingEngine`](../reportingengine/) .BuildReport aşırı yüklemeleri.
 
-Şablon belgelerinde, bir`CsvDataSource` örneğe, sanki o was a gibi davranılmalıdır.DataTable örneği. Daha fazla bilgi için şablon sözdizimi referansına bakın (https://docs.aspose.com/display/wordsnet/Template+Syntax).
+Şablon belgelerde, bir`CsvDataSource` örnek sanki was a gibi ele alınmalıdırDataTable örneği. Daha fazla bilgi için şablon söz dizimi referansına bakın (https://docs.aspose.com/display/wordsnet/Template+Syntax).
 
-Virgülle ayrılmış değerlerin veri türleri, dize gösterimlerine göre otomatik olarak belirlenir. Yani template belgelerinde sadece dizeler yerine yazılan değerlerle çalışabilirsiniz. Motor, aşağıdaki türlerin değerlerini otomatik olarak tanıyabilir:
+Virgülle ayrılmış değerlerin veri türleri, dize gösterimlerine göre otomatik olarak belirlenir. Yani şablon belgelerinde yalnızca dizeler yerine yazılan değerlerle çalışabilirsiniz. Motor, aşağıdaki türlerdeki değerlerini otomatik olarak tanıyabilir:
 
 * Nullable
 * Nullable
@@ -37,9 +39,9 @@ Virgülle ayrılmış değerlerin veri türleri, dize gösterimlerine göre otom
 * Nullable
 * String
 
-Veri türlerinin otomatik olarak tanınmasının çalışması için, virgülle ayrılmış değerlerin dize temsillerinin değişmez kültür ayarları kullanılarak oluşturulması gerektiğini unutmayın.
+Veri türlerinin otomatik olarak tanınmasının işe yaraması için, virgülle ayrılmış değerlerin dize temsillerinin değişmez kültür ayarları kullanılarak oluşturulması gerektiğini unutmayın.
 
-CSV veri yüklemesinin varsayılan davranışını geçersiz kılmak için, bir[`CsvDataLoadOptions`](../csvdataloadoptions/)instance bu sınıfın bir yapıcısına.
+CSV veri yüklemesinin varsayılan davranışını geçersiz kılmak için, bir başlangıç değeri oluşturun ve iletin[`CsvDataLoadOptions`](../csvdataloadoptions/) example bu sınıfın yapıcısına.
 
 ### Ayrıca bakınız
 

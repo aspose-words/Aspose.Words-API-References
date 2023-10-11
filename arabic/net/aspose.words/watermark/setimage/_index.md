@@ -22,7 +22,7 @@ public void SetImage(Image image)
 
 | استثناء | حالة |
 | --- | --- |
-| ArgumentNullException | يتم إلقاؤه عندما تكون الصورة فارغة . |
+| ArgumentNullException | يرمي عندما تكون الصورة`باطل` . |
 
 ### أنظر أيضا
 
@@ -49,11 +49,11 @@ public void SetImage(Image image, ImageWatermarkOptions options)
 
 | استثناء | حالة |
 | --- | --- |
-| ArgumentNullException | يتم إلقاؤه عندما تكون الصورة فارغة . |
+| ArgumentNullException | يرمي عندما تكون الصورة`باطل` . |
 
 ### ملاحظات
 
-إذا[`ImageWatermarkOptions`](../../imagewatermarkoptions/) فارغة ، سيتم تعيين العلامة المائية مع الخيارات الافتراضية.
+لو[`ImageWatermarkOptions`](../../imagewatermarkoptions/) يكون`باطل`سيتم تعيين العلامة المائية بالخيارات الافتراضية.
 
 ### أمثلة
 
@@ -62,8 +62,8 @@ public void SetImage(Image image, ImageWatermarkOptions options)
 ```csharp
 Document doc = new Document();
 
-            // قم بتعديل مظهر العلامة المائية للصورة باستخدام كائن ImageWatermarkOptions ،
-            // ثم مررها أثناء إنشاء علامة مائية من ملف صورة.
+            // تعديل مظهر العلامة المائية للصورة باستخدام كائن ImageWatermarkOptions،
+            // ثم قم بتمريرها أثناء إنشاء علامة مائية من ملف صورة.
             ImageWatermarkOptions imageWatermarkOptions = new ImageWatermarkOptions();
             imageWatermarkOptions.Scale = 5;
             imageWatermarkOptions.IsWashout = false;
@@ -106,11 +106,11 @@ public void SetImage(string imagePath, ImageWatermarkOptions options)
 
 | استثناء | حالة |
 | --- | --- |
-| ArgumentNullException | يتم رميه عندما يكون المسار فارغًا . |
+| ArgumentNullException | يرمي عندما يكون المسار`باطل` . |
 
 ### ملاحظات
 
-إذا[`ImageWatermarkOptions`](../../imagewatermarkoptions/) فارغة ، سيتم تعيين العلامة المائية مع الخيارات الافتراضية.
+لو[`ImageWatermarkOptions`](../../imagewatermarkoptions/) يكون`باطل`سيتم تعيين العلامة المائية بالخيارات الافتراضية.
 
 ### أنظر أيضا
 

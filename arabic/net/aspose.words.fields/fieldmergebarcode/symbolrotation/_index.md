@@ -1,14 +1,14 @@
 ---
 title: FieldMergeBarcode.SymbolRotation
 second_title: Aspose.Words لمراجع .NET API
-description: FieldMergeBarcode ملكية. الحصول على أو تعيين تدوير رمز الباركود. القيم الصالحة هي 0  3
+description: FieldMergeBarcode ملكية. الحصول على أو ضبط دوران رمز الباركود. القيم الصالحة هي 0 3
 type: docs
 weight: 140
 url: /ar/net/aspose.words.fields/fieldmergebarcode/symbolrotation/
 ---
 ## FieldMergeBarcode.SymbolRotation property
 
-الحصول على أو تعيين تدوير رمز الباركود. القيم الصالحة هي [0 ، 3]
+الحصول على أو ضبط دوران رمز الباركود. القيم الصالحة هي [0, 3]
 
 ```csharp
 public string SymbolRotation { get; set; }
@@ -16,19 +16,19 @@ public string SymbolRotation { get; set; }
 
 ### أمثلة
 
-يوضح كيفية إجراء دمج المراسلات على رموز QR الشريطية.
+يوضح كيفية إجراء دمج البريد على رموز QR الشريطية.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// أدخل حقل MERGEBARCODE ، والذي سيقبل القيم من مصدر البيانات أثناء دمج البريد.
-// سيحول هذا الحقل جميع القيم الموجودة في عمود "MyQRCode" الخاص بمصدر بيانات الدمج إلى أكواد QR.
+// أدخل حقل MERGEBARCODE، الذي سيقبل القيم من مصدر البيانات أثناء دمج البريد.
+// سيقوم هذا الحقل بتحويل كافة القيم الموجودة في عمود "MyQRCode" الخاص بمصدر بيانات الدمج إلى رموز QR.
 FieldMergeBarcode field = (FieldMergeBarcode)builder.InsertField(FieldType.FieldMergeBarcode, true);
 field.BarcodeType = "QR";
 field.BarcodeValue = "MyQRCode";
 
-// تطبيق ألوان وقياسات مخصصة.
+// تطبيق الألوان والقياس المخصص.
 field.BackgroundColor = "0xF8BD69";
 field.ForegroundColor = "0xB5413B";
 field.ErrorCorrectionLevel = "3";
@@ -41,9 +41,9 @@ Assert.AreEqual(" MERGEBARCODE  MyQRCode QR \\b 0xF8BD69 \\f 0xB5413B \\q 3 \\s 
     field.GetFieldCode());
 builder.Writeln();
 
-// قم بإنشاء DataTable بعمود بنفس الاسم مثل BarcodeValue الخاص بحقل MERGEBARCODE.
-// سيقوم دمج البريد بإنشاء صفحة جديدة لكل صف. ستحتوي كل صفحة على حقل DISPLAYBARCODE ،
-// الذي سيعرض رمز الاستجابة السريعة بالقيمة من الصف المدمج.
+// قم بإنشاء DataTable بعمود يحمل نفس اسم قيمة BarcodeValue لحقل MERGEBARCODE الخاص بنا.
+// سيؤدي دمج البريد إلى إنشاء صفحة جديدة لكل صف. ستحتوي كل صفحة على حقل DISPLAYBARCODE،
+// والذي سيعرض رمز الاستجابة السريعة بالقيمة من الصف المدمج.
 DataTable table = new DataTable("Barcodes");
 table.Columns.Add("MyQRCode");
 table.Rows.Add(new[] { "ABC123" });

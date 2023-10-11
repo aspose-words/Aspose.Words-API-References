@@ -1,14 +1,16 @@
 ---
 title: Class CustomXmlPropertyCollection
 second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Markup.CustomXmlPropertyCollection sınıf. Özel XML öznitelikleri veya akıllı etiket özellikleri koleksiyonunu temsil eder.
+description: Aspose.Words.Markup.CustomXmlPropertyCollection sınıf. Özel XML niteliklerinin veya akıllı etiket özelliklerinin bir koleksiyonunu temsil eder.
 type: docs
-weight: 3710
+weight: 3950
 url: /tr/net/aspose.words.markup/customxmlpropertycollection/
 ---
 ## CustomXmlPropertyCollection class
 
-Özel XML öznitelikleri veya akıllı etiket özellikleri koleksiyonunu temsil eder.
+Özel XML niteliklerinin veya akıllı etiket özelliklerinin bir koleksiyonunu temsil eder.
+
+Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Yapılandırılmış Belge Etiketleri veya İçerik Kontrolü](https://docs.aspose.com/words/net/working-with-content-control-sdt/) dokümantasyon makalesi.
 
 ```csharp
 public class CustomXmlPropertyCollection : IEnumerable<CustomXmlProperty>
@@ -18,8 +20,8 @@ public class CustomXmlPropertyCollection : IEnumerable<CustomXmlProperty>
 
 | İsim | Tanım |
 | --- | --- |
-| [Count](../../aspose.words.markup/customxmlpropertycollection/count/) { get; } | Koleksiyonda bulunan öğelerin sayısını alır. |
-| [Item](../../aspose.words.markup/customxmlpropertycollection/item/) { get; } | Belirtilen ada sahip bir özellik alır. (2 indexers) |
+| [Count](../../aspose.words.markup/customxmlpropertycollection/count/) { get; } | Koleksiyonda yer alan öğelerin sayısını alır. |
+| [Item](../../aspose.words.markup/customxmlpropertycollection/item/) { get; } | Belirtilen ada sahip bir özelliği alır. (2 indexers) |
 
 ## yöntemler
 
@@ -27,8 +29,8 @@ public class CustomXmlPropertyCollection : IEnumerable<CustomXmlProperty>
 | --- | --- |
 | [Add](../../aspose.words.markup/customxmlpropertycollection/add/)(CustomXmlProperty) | Koleksiyona bir özellik ekler. |
 | [Clear](../../aspose.words.markup/customxmlpropertycollection/clear/)() | Koleksiyondaki tüm öğeleri kaldırır. |
-| [Contains](../../aspose.words.markup/customxmlpropertycollection/contains/)(string) | Koleksiyonun verilen ada sahip bir özellik içerip içermediğini belirler. |
-| [GetEnumerator](../../aspose.words.markup/customxmlpropertycollection/getenumerator/)() | Koleksiyondaki tüm öğeler üzerinde yineleme yapmak için kullanılabilecek bir Numaralandırıcı nesnesi döndürür. |
+| [Contains](../../aspose.words.markup/customxmlpropertycollection/contains/)(string) | Koleksiyonun verilen adda bir özellik içerip içermediğini belirler. |
+| [GetEnumerator](../../aspose.words.markup/customxmlpropertycollection/getenumerator/)() | Koleksiyondaki tüm öğeler üzerinde yineleme yapmak için kullanılabilecek bir numaralandırıcı nesnesini döndürür. |
 | [IndexOfKey](../../aspose.words.markup/customxmlpropertycollection/indexofkey/)(string) | Koleksiyonda belirtilen özelliğin sıfır tabanlı dizinini döndürür. |
 | [Remove](../../aspose.words.markup/customxmlpropertycollection/remove/)(string) | Belirtilen ada sahip bir özelliği koleksiyondan kaldırır. |
 | [RemoveAt](../../aspose.words.markup/customxmlpropertycollection/removeat/)(int) | Belirtilen dizindeki bir özelliği kaldırır. |
@@ -39,22 +41,22 @@ public class CustomXmlPropertyCollection : IEnumerable<CustomXmlProperty>
 
 ### Örnekler
 
-Akıllı etiketler hakkında derinlemesine bilgi almak için akıllı etiket özellikleriyle nasıl çalışılacağını gösterir.
+Akıllı etiketler hakkında ayrıntılı bilgi almak için akıllı etiket özellikleriyle nasıl çalışılacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Smart tags.doc");
 
-// Microsoft Word ile bir belgede bir akıllı etiket görünür, metninin bir bölümünü bir tür veri olarak tanır,
+// Microsoft Word'ün metnin bir bölümünü bir tür veri olarak tanıdığı bir belgede akıllı etiket görünür,
 // ad, tarih veya adres gibi ve onu mor noktalı alt çizgi görüntüleyen bir köprüye dönüştürür.
-// Word 2003'te akıllı etiketleri "Araçlar" -> "Otomatik Düzeltme seçenekleri..." -> "Akıllı Etiketler".
-// Girdi belgemizde, Microsoft Word'ün akıllı etiketler olarak kaydettiği üç nesne var.
-// Akıllı etiketler iç içe yerleştirilebilir, bu nedenle bu koleksiyon daha fazlasını içerir.
+// Word 2003'te akıllı etiketleri "Araçlar" --> aracılığıyla etkinleştirebiliriz. "Otomatik Düzeltme seçenekleri..." -> "Akıllı Etiketler".
+// Giriş belgemizde Microsoft Word'ün akıllı etiket olarak kaydettiği üç nesne var.
+// Akıllı etiketler iç içe olabilir, dolayısıyla bu koleksiyon daha fazlasını içerir.
 SmartTag[] smartTags = doc.GetChildNodes(NodeType.SmartTag, true).OfType<SmartTag>().ToArray();
 
 Assert.AreEqual(8, smartTags.Length);
 
 // Bir akıllı etiketin "Özellikler" üyesi, her akıllı etiket türü için farklı olacak olan meta verilerini içerir.
-// Bir "tarih" tipi akıllı etiketin özellikleri, onun yılını, ayını ve gününü içerir.
+// "Tarih" türündeki bir akıllı etiketin özellikleri, o etiketin yılını, ayını ve gününü içerir.
 CustomXmlPropertyCollection properties = smartTags[7].Properties;
 
 Assert.AreEqual(4, properties.Count);
@@ -68,19 +70,19 @@ using (IEnumerator<CustomXmlProperty> enumerator = properties.GetEnumerator())
     }
 }
 
-// Özelliklere, anahtar/değer çifti gibi çeşitli yollarla da erişebiliriz.
+// Özelliklere anahtar-değer çifti gibi çeşitli yollardan da erişebiliriz.
 Assert.True(properties.Contains("Day"));
 Assert.AreEqual("22", properties["Day"].Value);
 Assert.AreEqual("2003", properties[2].Value);
 Assert.AreEqual(1, properties.IndexOfKey("Month"));
 
-// Aşağıda, özellikler koleksiyonundan öğeleri kaldırmanın üç yolu vardır.
+// Aşağıda, özellikler koleksiyonundan öğeleri kaldırmanın üç yolu verilmiştir.
 // 1 - Dizine göre kaldır:
 properties.RemoveAt(3);
 
 Assert.AreEqual(3, properties.Count);
 
-// 2 - Ada göre kaldır:
+// 2 - İsme göre kaldır:
 properties.Remove("Year");
 
 Assert.AreEqual(2, properties.Count);

@@ -3,7 +3,7 @@ title: DocumentBuilder.InsertComboBox
 second_title: Aspose.Words för .NET API Referens
 description: DocumentBuilder metod. Infogar ett formulärfält i kombinationsrutan på den aktuella positionen.
 type: docs
-weight: 280
+weight: 300
 url: /sv/net/aspose.words/documentbuilder/insertcombobox/
 ---
 ## DocumentBuilder.InsertComboBox method

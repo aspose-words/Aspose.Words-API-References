@@ -16,11 +16,11 @@ public static string Version { get; }
 
 ### Remarques
 
-La version du produit est au format "Major.Minor.Hotfix.0".
+La version du produit est au format « Major.Minor.Hotfix.0 ».
 
 ### Exemples
 
-Montre comment afficher des informations sur votre version installée de Aspose.Words.
+Montre comment afficher des informations sur votre version installée d’Aspose.Words.
 
 ```csharp
 Console.WriteLine($"I am currently using {BuildVersionInfo.Product}, version number {BuildVersionInfo.Version}!");

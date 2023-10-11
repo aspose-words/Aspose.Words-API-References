@@ -1,14 +1,14 @@
 ---
 title: SpecialChar.Accept
 second_title: Aspose.Words لمراجع .NET API
-description: SpecialChar طريقة. يقبل الزائر .
+description: SpecialChar طريقة. يقبل الزائر.
 type: docs
 weight: 20
 url: /ar/net/aspose.words/specialchar/accept/
 ---
 ## SpecialChar.Accept method
 
-يقبل الزائر .
+يقبل الزائر.
 
 ```csharp
 public override bool Accept(DocumentVisitor visitor)
@@ -20,13 +20,13 @@ public override bool Accept(DocumentVisitor visitor)
 
 ### قيمة الإرجاع
 
-خطأ إذا طلب الزائر إيقاف العد.
+`خطأ شنيع` إذا طلب الزائر إيقاف التعداد.
 
 ### ملاحظات
 
-المكالمات DocumentVisitor.VisitSpecialChar.
+المكالمات[`VisitSpecialChar`](../../documentvisitor/visitspecialchar/).
 
-لمزيد من المعلومات ، راجع نمط تصميم الزائر.
+لمزيد من المعلومات، راجع نمط تصميم الزائر.
 
 ### أنظر أيضا
 

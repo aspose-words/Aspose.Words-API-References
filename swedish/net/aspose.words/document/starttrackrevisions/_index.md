@@ -3,7 +3,7 @@ title: Document.StartTrackRevisions
 second_title: Aspose.Words för .NET API Referens
 description: Document metod. Börjar automatiskt markera alla ytterligare ändringar du gör i dokumentet programmatiskt som revisionsändringar.
 type: docs
-weight: 690
+weight: 730
 url: /sv/net/aspose.words/document/starttrackrevisions/
 ---
 ## StartTrackRevisions(string, DateTime) {#starttrackrevisions_1}

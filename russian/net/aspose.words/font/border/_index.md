@@ -1,14 +1,14 @@
 ---
 title: Font.Border
 second_title: Справочник по API Aspose.Words для .NET
-description: Font свойство. Возвращает объект Border указывающий границу для шрифта.
+description: Font свойство. ВозвращаетBorder объект задающий границу шрифта.
 type: docs
 weight: 60
 url: /ru/net/aspose.words/font/border/
 ---
 ## Font.Border property
 
-Возвращает объект Border, указывающий границу для шрифта.
+Возвращает[`Border`](../../border/) объект, задающий границу шрифта.
 
 ```csharp
 public Border Border { get; }

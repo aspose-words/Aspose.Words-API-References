@@ -3,12 +3,14 @@ title: Class ChartLegend
 second_title: Referencia de API de Aspose.Words para .NET
 description: Aspose.Words.Drawing.Charts.ChartLegend clase. Representa las propiedades de la leyenda del gráfico.
 type: docs
-weight: 680
+weight: 720
 url: /es/net/aspose.words.drawing.charts/chartlegend/
 ---
 ## ChartLegend class
 
 Representa las propiedades de la leyenda del gráfico.
+
+Para obtener más información, visite el[Trabajar con gráficos](https://docs.aspose.com/words/net/working-with-charts/) artículo de documentación.
 
 ```csharp
 public class ChartLegend
@@ -19,7 +21,7 @@ public class ChartLegend
 | Nombre | Descripción |
 | --- | --- |
 | [LegendEntries](../../aspose.words.drawing.charts/chartlegend/legendentries/) { get; } | Devuelve una colección de entradas de leyenda para todas las series y líneas de tendencia del gráfico principal. |
-| [Overlay](../../aspose.words.drawing.charts/chartlegend/overlay/) { get; set; } | Determina si se permitirá que otros elementos del gráfico se superpongan a la leyenda. El valor predeterminado es falso. |
+| [Overlay](../../aspose.words.drawing.charts/chartlegend/overlay/) { get; set; } | Determina si se permitirá que otros elementos del gráfico se superpongan a la leyenda. El valor predeterminado es`FALSO` . |
 | [Position](../../aspose.words.drawing.charts/chartlegend/position/) { get; set; } | Especifica la posición de la leyenda en un gráfico. El valor predeterminado esRight . |
 
 ### Ejemplos

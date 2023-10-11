@@ -16,13 +16,14 @@ public Section ParentSection { get; }
 
 ### Remarques
 
-**SectionParent** est équivalent à`(Section)NoeudParent`.
+`ParentSection` est équivalent à[`ParentNode`](../../node/parentnode/) jeté à[`Section`](../../section/).
 
 ### Exemples
 
-Montre comment stocker les notes de fin à la fin de chaque section et modifier leur position.
+Montre comment stocker les notes de fin à la fin de chaque section et modifier leurs positions.
 
 ```csharp
+public void SuppressEndnotes()
 {
     Document doc = new Document();
     doc.RemoveAllChildren();
@@ -31,23 +32,24 @@ Montre comment stocker les notes de fin à la fin de chaque section et modifier 
     Assert.AreEqual(EndnotePosition.EndOfDocument, doc.EndnoteOptions.Position);
 
     // On utilise la propriété "Position" de l'objet "EndnoteOptions" du document
-     // pour collecter les notes de fin à la fin de chaque section à la place.
+     // pour collecter les notes de fin à la fin de chaque section.
     doc.EndnoteOptions.Position = EndnotePosition.EndOfSection;
 
     InsertSectionWithEndnote(doc, "Section 1", "Endnote 1, will stay in section 1");
     InsertSectionWithEndnote(doc, "Section 2", "Endnote 2, will be pushed down to section 3");
     InsertSectionWithEndnote(doc, "Section 3", "Endnote 3, will stay in section 3");
 
-    // Lors de l'obtention des sections pour afficher leurs notes de fin respectives, nous pouvons définir le drapeau "SuppressEndnotes"
-    // de l'objet "PageSetup" d'une section à "true" pour revenir au comportement par défaut et passer ses notes de fin
+    // Tout en faisant en sorte que les sections affichent leurs notes de fin respectives, nous pouvons définir l'indicateur "SuppressEndnotes"
+    // de l'objet "PageSetup" d'une section sur "true" pour revenir au comportement par défaut et transmettre ses notes de fin
     // sur la section suivante.
     PageSetup pageSetup = doc.Sections[1].PageSetup;
     pageSetup.SuppressEndnotes = true;
 
     doc.Save(ArtifactsDir + "PageSetup.SuppressEndnotes.docx");
+}
 
 /// <summary>
-/// Ajoute une section avec du texte et une note de fin à un document.
+/// Ajouter une section avec du texte et une note de fin à un document.
 /// </summary>
 private static void InsertSectionWithEndnote(Document doc, string sectionBodyText, string endnoteText)
 {

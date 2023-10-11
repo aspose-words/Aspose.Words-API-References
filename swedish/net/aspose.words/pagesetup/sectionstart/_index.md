@@ -3,7 +3,7 @@ title: PageSetup.SectionStart
 second_title: Aspose.Words för .NET API Referens
 description: PageSetup fast egendom. Returnerar eller ställer in typen av avsnittsbrytning för det angivna objektet.
 type: docs
-weight: 380
+weight: 390
 url: /sv/net/aspose.words/pagesetup/sectionstart/
 ---
 ## PageSetup.SectionStart property

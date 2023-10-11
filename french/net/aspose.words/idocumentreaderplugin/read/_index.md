@@ -18,7 +18,7 @@ public void Read(Stream src, LoadOptions loadOptions, Document document)
 | --- | --- | --- |
 | src | Stream | Le flux source à partir duquel lire le document. |
 | loadOptions | LoadOptions | Une option de chargement supplémentaire pour charger le document. |
-| document | Document | L'exemple de la[`Document`](../../document/) classe dans laquelle lire les données. Si l'instance contient du contenu, il sera remplacé par les données du flux source |
+| document | Document | L'exemple du[`Document`](../../document/) classe dans laquelle lire les données. Si l'instance contient du contenu, il sera remplacé par les données du flux source |
 
 ### Voir également
 

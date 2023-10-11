@@ -1,14 +1,16 @@
 ---
 title: Class Bookmark
 second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Bookmark clase. Representa un solo marcador.
+description: Aspose.Words.Bookmark clase. Representa un único marcador.
 type: docs
-weight: 30
+weight: 40
 url: /es/net/aspose.words/bookmark/
 ---
 ## Bookmark class
 
-Representa un solo marcador.
+Representa un único marcador.
+
+Para obtener más información, visite el[Trabajar con marcadores](https://docs.aspose.com/words/net/working-with-bookmarks/) artículo de documentación.
 
 ```csharp
 public class Bookmark
@@ -21,10 +23,10 @@ public class Bookmark
 | [BookmarkEnd](../../aspose.words/bookmark/bookmarkend/) { get; } | Obtiene el nodo que representa el final del marcador. |
 | [BookmarkStart](../../aspose.words/bookmark/bookmarkstart/) { get; } | Obtiene el nodo que representa el inicio del marcador. |
 | [FirstColumn](../../aspose.words/bookmark/firstcolumn/) { get; } | Obtiene el índice de base cero de la primera columna del rango de columnas de la tabla asociado con el marcador. |
-| [IsColumn](../../aspose.words/bookmark/iscolumn/) { get; } | Devoluciones **verdadero** si este marcador es un marcador de columna de tabla. |
+| [IsColumn](../../aspose.words/bookmark/iscolumn/) { get; } | Devoluciones`verdadero` si este marcador es un marcador de columna de tabla. |
 | [LastColumn](../../aspose.words/bookmark/lastcolumn/) { get; } | Obtiene el índice de base cero de la última columna del rango de columnas de la tabla asociado con el marcador. |
 | [Name](../../aspose.words/bookmark/name/) { get; set; } | Obtiene o establece el nombre del marcador. |
-| [Text](../../aspose.words/bookmark/text/) { get; set; } | Obtiene o establece el texto encerrado en el marcador. |
+| [Text](../../aspose.words/bookmark/text/) { get; set; } | Obtiene o establece el texto incluido en el marcador. |
 
 ## Métodos
 
@@ -43,17 +45,16 @@ Muestra cómo agregar marcadores y actualizar su contenido.
 ```csharp
 public void CreateUpdateAndPrintBookmarks()
 {
-    // Cree un documento con tres marcadores, luego use una implementación de visitante de documentos personalizada para imprimir su contenido.
+    // Cree un documento con tres marcadores y luego utilice una implementación personalizada de visitante de documentos para imprimir su contenido.
     Document doc = CreateDocumentWithBookmarks(3);
     BookmarkCollection bookmarks = doc.Range.Bookmarks;
-
     PrintAllBookmarkInfo(bookmarks);
 
     // Se puede acceder a los marcadores en la colección de marcadores por índice o nombre, y sus nombres se pueden actualizar.
     bookmarks[0].Name = $"{bookmarks[0].Name}_NewName";
     bookmarks["MyBookmark_2"].Text = $"Updated text contents of {bookmarks[1].Name}";
 
-    // Imprime todos los marcadores de nuevo para ver los valores actualizados.
+    // Imprime todos los marcadores nuevamente para ver los valores actualizados.
     PrintAllBookmarkInfo(bookmarks);
 }
 
@@ -80,13 +81,13 @@ private static Document CreateDocumentWithBookmarks(int numberOfBookmarks)
 }
 
 /// <summary>
-/// Use un iterador y un visitante para imprimir información de cada marcador en la colección.
+/// Utilice un iterador y un visitante para imprimir información de cada marcador de la colección.
 /// </summary>
 private static void PrintAllBookmarkInfo(BookmarkCollection bookmarks)
 {
     BookmarkInfoPrinter bookmarkVisitor = new BookmarkInfoPrinter();
 
-    // Obtenga cada marcador en la colección para aceptar un visitante que imprimirá su contenido.
+    // Obtenga cada marcador de la colección para aceptar un visitante que imprimirá su contenido.
     using (IEnumerator<Bookmark> enumerator = bookmarks.GetEnumerator())
     {
         while (enumerator.MoveNext())

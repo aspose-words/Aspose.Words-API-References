@@ -3,7 +3,7 @@ title: TxtLoadOptions.DocumentDirection
 second_title: Справочник по API Aspose.Words для .NET
 description: TxtLoadOptions свойство. Получает или задает направление документа. Значение по умолчаниюLeftToRight .
 type: docs
-weight: 30
+weight: 50
 url: /ru/net/aspose.words.loading/txtloadoptions/documentdirection/
 ---
 ## TxtLoadOptions.DocumentDirection property
@@ -16,24 +16,24 @@ public DocumentDirection DocumentDirection { get; set; }
 
 ### Примеры
 
-Показывает, как определить направление текста в текстовом документе.
+Показывает, как определить направление текста документа в виде открытого текста.
 
 ```csharp
-// Создаем объект "TxtLoadOptions", который мы можем передать конструктору документа
-// чтобы изменить способ загрузки документа с открытым текстом.
+// Создаем объект «TxtLoadOptions», который мы можем передать конструктору документа
+// чтобы изменить способ загрузки открытого текстового документа.
 TxtLoadOptions loadOptions = new TxtLoadOptions();
 
-// Установите для свойства "DocumentDirection" значение "DocumentDirection.Auto", чтобы автоматически обнаруживать
+// Установите для свойства «DocumentDirection» значение «DocumentDirection.Auto», автоматически обнаруживает
 // направление каждого абзаца текста, который Aspose.Words загружает из открытого текста.
-// Свойство "Bidi" каждого абзаца будет хранить его направление.
+// Свойство Bidi каждого абзаца сохранит направление.
 loadOptions.DocumentDirection = DocumentDirection.Auto;
 
-// Определить текст на иврите как написанный справа налево.
+// Обнаружить текст на иврите как написанный справа налево.
 Document doc = new Document(MyDir + "Hebrew text.txt", loadOptions);
 
 Assert.True(doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Bidi);
 
-// Определить английский текст как написанный справа налево.
+// Обнаружение текста на английском языке как справа налево.
 doc = new Document(MyDir + "English text.txt", loadOptions);
 
 Assert.False(doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Bidi);

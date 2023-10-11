@@ -16,9 +16,10 @@ public string EntryName { get; set; }
 
 ### Örnekler
 
-Bir Otomatik Metin girdileri listesinden seçim yapmak için bir OTOTEXTLIST alanının nasıl kullanılacağını gösterir.
+Otomatik Metin girişleri listesinden seçim yapmak için AUTOTEXTLIST alanının nasıl kullanılacağını gösterir.
 
 ```csharp
+public void FieldAutoTextList()
 {
     Document doc = new Document();
 
@@ -31,8 +32,8 @@ Bir Otomatik Metin girdileri listesinden seçim yapmak için bir OTOTEXTLIST ala
     DocumentBuilder builder = new DocumentBuilder(doc);
 
     // Bir AUTOTEXTLIST alanı oluşturun ve alanın Microsoft Word'de görüntüleyeceği metni ayarlayın.
-    // Kullanıcıdan bir Otomatik Metin yapı taşı seçmek için bu alana sağ tıklamasını isteyen metni ayarlayın,
-    // alanın içeriğini gösterecek olan.
+    // Kullanıcının bir Otomatik Metin yapı taşı seçmesi için bu alanı sağ tıklatmasını isteyecek şekilde metni ayarlayın,
+    // alanın kimin içeriğini göstereceği.
     FieldAutoTextList field = (FieldAutoTextList)builder.InsertField(FieldType.FieldAutoTextList, true);
     field.EntryName = "Right click here to select an AutoText block";
     field.ListStyle = "Heading 1";
@@ -43,9 +44,10 @@ Bir Otomatik Metin girdileri listesinden seçim yapmak için bir OTOTEXTLIST ala
                     "\\t \"Hover tip text for AutoTextList goes here\"", field.GetFieldCode());
 
     doc.Save(ArtifactsDir + "Field.AUTOTEXTLIST.dotx");
+}
 
 /// <summary>
-/// Otomatik Metin türünde bir yapı taşı oluşturun ve bunu bir sözlük belgesine ekleyin.
+/// Otomatik Metin tipi bir yapı taşı oluşturun ve bunu bir sözlük belgesine ekleyin.
 /// </summary>
 private static void AppendAutoTextEntry(GlossaryDocument glossaryDoc, string name, string contents)
 {

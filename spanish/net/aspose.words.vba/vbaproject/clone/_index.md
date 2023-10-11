@@ -16,11 +16,11 @@ public VbaProject Clone()
 
 ### Valor_devuelto
 
-El VbaProject clonado.
+el clonado[`VbaProject`](../).
 
 ### Ejemplos
 
-Muestra cómo realizar una clonación profunda de un proyecto y un módulo de VBA.
+Muestra cómo realizar una clonación profunda de un proyecto y módulo de VBA.
 
 ```csharp
 Document doc = new Document(MyDir + "VBA project.docm");
@@ -29,7 +29,7 @@ Document destDoc = new Document();
 VbaProject copyVbaProject = doc.VbaProject.Clone();
 destDoc.VbaProject = copyVbaProject;
 
-// En el documento de destino, ya tenemos un módulo llamado "Module1"
+// En el documento de destino ya tenemos un módulo llamado "Módulo1"
 // porque lo clonamos junto con el proyecto. Tendremos que quitar el módulo.
 VbaModule oldVbaModule = destDoc.VbaProject.Modules["Module1"];
 VbaModule copyVbaModule = doc.VbaProject.Modules["Module1"].Clone();

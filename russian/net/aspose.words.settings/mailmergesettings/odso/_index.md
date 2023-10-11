@@ -1,14 +1,14 @@
 ---
 title: MailMergeSettings.Odso
 second_title: Справочник по API Aspose.Words для .NET
-description: MailMergeSettings свойство. Получает или задает объект указывающий параметры объекта источника данных Office ODSO.
+description: MailMergeSettings свойство. Получает или задает объект задающий параметры объекта источника данных Office ODSO.
 type: docs
 weight: 150
 url: /ru/net/aspose.words.settings/mailmergesettings/odso/
 ---
 ## MailMergeSettings.Odso property
 
-Получает или задает объект, указывающий параметры объекта источника данных Office (ODSO).
+Получает или задает объект, задающий параметры объекта источника данных Office (ODSO).
 
 ```csharp
 public Odso Odso { get; set; }
@@ -16,7 +16,7 @@ public Odso Odso { get; set; }
 
 ### Примечания
 
-Этот объект никогда не бывает нулевым.
+Этот объект никогда не`нулевой`.
 
 ### Примеры
 
@@ -33,7 +33,7 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// Создаем источник данных в виде ASCII-файла с символом "|" персонаж
+// Создаем источник данных в виде ASCII-файла с символом "|" характер
 // действует как разделитель, разделяющий столбцы. Первая строка содержит имена трех столбцов,
 // и каждая последующая строка представляет собой строку с соответствующими значениями.
 string[] lines = { "FirstName|LastName|Message",
@@ -63,7 +63,7 @@ odso.FirstRowContainsColumnNames = true;
 Assert.AreNotSame(odso, odso.Clone());
 Assert.AreNotSame(settings, settings.Clone());
 
-// Открытие этого документа в Microsoft Word приведет к выполнению слияния перед отображением содержимого. 
+ // Открытие этого документа в Microsoft Word приведет к выполнению слияния почты перед отображением содержимого.
 doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ```
 

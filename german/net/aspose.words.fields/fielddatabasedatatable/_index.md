@@ -1,14 +1,16 @@
 ---
 title: Class FieldDatabaseDataTable
 second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Fields.FieldDatabaseDataTable klas. Liefert Daten für dieFieldDatabase Feldergebnis.
+description: Aspose.Words.Fields.FieldDatabaseDataTable klas. Stellt Daten für die bereitFieldDatabase Feldergebnis. Bitte sehenDataTable Instanz.
 type: docs
-weight: 1610
+weight: 1760
 url: /de/net/aspose.words.fields/fielddatabasedatatable/
 ---
 ## FieldDatabaseDataTable class
 
-Liefert Daten für die[`FieldDatabase`](../fielddatabase/) Feldergebnis.
+Stellt Daten für die bereit[`FieldDatabase`](../fielddatabase/) Feldergebnis. Bitte sehenDataTable Instanz.
+
+Um mehr zu erfahren, besuchen Sie die[Arbeiten mit Feldern](https://docs.aspose.com/words/net/working-with-fields/) Dokumentationsartikel.
 
 ```csharp
 public class FieldDatabaseDataTable
@@ -31,7 +33,7 @@ public class FieldDatabaseDataTable
 
 | Name | Beschreibung |
 | --- | --- |
-| static [CreateFrom](../../aspose.words.fields/fielddatabasedatatable/createfrom/)(DataTable) | Initialisiert eine neue Instanz von`FieldDatabaseDataTable` class aus derDataTable Instanz. |
+| static [CreateFrom](../../aspose.words.fields/fielddatabasedatatable/createfrom/)(DataTable) | Initialisiert eine neue Instanz von`FieldDatabaseDataTable` class aus demDataTable Instanz. |
 
 ### Siehe auch
 

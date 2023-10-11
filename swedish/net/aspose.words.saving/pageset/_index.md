@@ -3,12 +3,14 @@ title: Class PageSet
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Saving.PageSet klass. Beskriver en slumpmässig uppsättning sidor.
 type: docs
-weight: 5110
+weight: 5390
 url: /sv/net/aspose.words.saving/pageset/
 ---
 ## PageSet class
 
 Beskriver en slumpmässig uppsättning sidor.
+
+För att lära dig mer, besök[Programmering med dokument](https://docs.aspose.com/words/net/programming-with-documents/) dokumentationsartikel.
 
 ```csharp
 public sealed class PageSet

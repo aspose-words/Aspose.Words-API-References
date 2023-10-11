@@ -3,7 +3,7 @@ title: Enum CalendarType
 second_title: Aspose.Words per .NET API Reference
 description: Aspose.Words.CalendarType enum. Specifica il tipo di calendario.
 type: docs
-weight: 180
+weight: 190
 url: /it/net/aspose.words/calendartype/
 ---
 ## CalendarType enumeration
@@ -19,16 +19,17 @@ public enum CalendarType
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
 | Gregorian | `0` | Il calendario gregoriano. |
-| Hijri | `1` | Il calendario lunare di Hijri. |
+| Hijri | `1` | Il calendario lunare Hijri. |
 | Hebrew | `2` | Il calendario lunare ebraico. |
 | SakaEra | `3` | Il calendario dell'era Saka. |
-| UmAlQura | `4` | Il calendario di Um-al-Qura. |
+| UmAlQura | `4` | Il calendario Um-al-Qura. |
 
 ### Esempi
 
 Mostra come applicare automaticamente un formato personalizzato ai risultati dei campi man mano che i campi vengono aggiornati.
 
 ```csharp
+public void FieldResultFormatting()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -36,8 +37,8 @@ Mostra come applicare automaticamente un formato personalizzato ai risultati dei
     doc.FieldOptions.ResultFormatter = formatter;
 
     // Il nostro formattatore dei risultati dei campi applica un formato personalizzato ai campi appena creati di tre tipi di formati.
-    // I formattatori dei risultati dei campi applicano una nuova formattazione ai campi man mano che vengono aggiornati,
-    // che si verifica non appena li creiamo utilizzando questo overload del metodo InsertField.
+    // I formattatori dei risultati dei campi applicano la nuova formattazione ai campi man mano che vengono aggiornati,
+    // cosa che accade non appena li creiamo utilizzando questo sovraccarico del metodo InsertField.
     // 1 - Numerico:
     builder.InsertField(" = 2 + 3 \\# $###");
 
@@ -61,7 +62,7 @@ Mostra come applicare automaticamente un formato personalizzato ai risultati dei
 
 /// <summary>
 /// Quando i campi con formattazione vengono aggiornati, questo formattatore sovrascriverà la loro formattazione
-/// con un formato personalizzato, tenendo traccia di ogni chiamata.
+/// con un formato personalizzato, monitorando ogni invocazione.
 /// </summary>
 private class FieldResultFormatter : IFieldResultFormatter
 {

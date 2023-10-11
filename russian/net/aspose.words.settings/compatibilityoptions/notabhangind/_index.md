@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.NoTabHangInd
 second_title: Справочник по API Aspose.Words для .NET
-description: CompatibilityOptions свойство. Не создавать пользовательскую позицию табуляции для висячего отступа.
+description: CompatibilityOptions свойство. Не создавать пользовательскую позицию табуляции для выступающего отступа.
 type: docs
 weight: 370
 url: /ru/net/aspose.words.settings/compatibilityoptions/notabhangind/
 ---
 ## CompatibilityOptions.NoTabHangInd property
 
-Не создавать пользовательскую позицию табуляции для висячего отступа.
+Не создавать пользовательскую позицию табуляции для выступающего отступа.
 
 ```csharp
 public bool NoTabHangInd { get; set; }

@@ -3,7 +3,7 @@ title: Document.RenderToScale
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Document méthode. Rend une page de document dans unGraphics objet à une échelle spécifiée.
 type: docs
-weight: 660
+weight: 700
 url: /fr/net/aspose.words/document/rendertoscale/
 ---
 ## Document.RenderToScale method
@@ -18,22 +18,22 @@ public SizeF RenderToScale(int pageIndex, Graphics graphics, float x, float y, f
 | --- | --- | --- |
 | pageIndex | Int32 | L'index de page basé sur 0. |
 | graphics | Graphics | L'objet vers lequel effectuer le rendu. |
-| x | Single | La coordonnée X (en unités universelles) du coin supérieur gauche de la page rendue. |
-| y | Single | La coordonnée Y (en unités universelles) du coin supérieur gauche de la page rendue. |
-| scale | Single | L'échelle de rendu de la page (1.0 correspond à 100 %). |
+| x | Single | La coordonnée X (en unités mondiales) du coin supérieur gauche de la page rendue. |
+| y | Single | La coordonnée Y (en unités mondiales) du coin supérieur gauche de la page rendue. |
+| scale | Single | L'échelle de rendu de la page (1,0 est 100 %). |
 
 ### Return_Value
 
-La largeur et la hauteur (en unités universelles) de la page rendue.
+La largeur et la hauteur (en unités mondiales) de la page rendue.
 
 ### Exemples
 
-Montre comment les pages individuelles d'un document aux graphiques pour créer une image avec des vignettes de toutes les pages.
+Montre comment transformer les pages individuelles d'un document en graphiques pour créer une image avec des vignettes de toutes les pages.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// Calcule le nombre de lignes et de colonnes que nous remplirons de vignettes.
+// Calculez le nombre de lignes et de colonnes que nous remplirons de vignettes.
 const int thumbColumns = 2;
 int thumbRows = Math.DivRem(doc.PageCount, thumbColumns, out int remainder);
 
@@ -54,14 +54,14 @@ using (Bitmap img = new Bitmap(imgWidth, imgHeight))
     {
         gr.TextRenderingHint = TextRenderingHint.AntiAliasGridFit;
 
-        // Remplit le fond, qui est transparent par défaut, en blanc.
+        // Remplit l'arrière-plan, transparent par défaut, en blanc.
         gr.FillRectangle(new SolidBrush(Color.White), 0, 0, imgWidth, imgHeight);
 
         for (int pageIndex = 0; pageIndex < doc.PageCount; pageIndex++)
         {
             int rowIdx = Math.DivRem(pageIndex, thumbColumns, out int columnIdx);
 
-            // Spécifiez où nous voulons que la vignette apparaisse.
+            // Spécifie où nous voulons que la vignette apparaisse.
             float thumbLeft = columnIdx * thumbSize.Width;
             float thumbTop = rowIdx * thumbSize.Height;
 
@@ -75,12 +75,12 @@ using (Bitmap img = new Bitmap(imgWidth, imgHeight))
 }
 ```
 
-Rend les pages individuelles en graphiques pour créer une image avec des vignettes de toutes les pages (.NetStandard 2.0).
+Rend les pages individuelles en graphiques pour créer une image avec des miniatures de toutes les pages (.NetStandard 2.0).
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// Calcule le nombre de lignes et de colonnes que nous remplirons de vignettes.
+// Calculez le nombre de lignes et de colonnes que nous remplirons de vignettes.
 const int thumbnailColumnsNum = 2;
 int thumbRows = Math.DivRem(doc.PageCount, thumbnailColumnsNum, out int remainder);
 
@@ -99,14 +99,14 @@ using (SKBitmap bitmap = new SKBitmap(imgWidth, imgHeight))
 {
     using (SKCanvas canvas = new SKCanvas(bitmap))
     {
-        // Remplit le fond, qui est transparent par défaut, en blanc.
+        // Remplit l'arrière-plan, transparent par défaut, en blanc.
         canvas.Clear(SKColors.White);
 
         for (int pageIndex = 0; pageIndex < doc.PageCount; pageIndex++)
         {
             int rowIdx = Math.DivRem(pageIndex, thumbnailColumnsNum, out int columnIdx);
 
-            // Spécifiez où nous voulons que la vignette apparaisse.
+            // Spécifie où nous voulons que la vignette apparaisse.
             float thumbLeft = columnIdx * thumbSize.Width;
             float thumbTop = rowIdx * thumbSize.Height;
 

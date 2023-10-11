@@ -16,17 +16,17 @@ public bool AutoUpdate { get; set; }
 
 ### Osservazioni
 
-Il valore predefinito è **falso**.
+Il valore predefinito è`falso`.
 
 ### Esempi
 
-Mostra come estrarre gli oggetti OLE incorporati nei file.
+Mostra come estrarre oggetti OLE incorporati nei file.
 
 ```csharp
 Document doc = new Document(MyDir + "OLE spreadsheet.docm");
 Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
 
-// L'oggetto OLE nella prima forma è un foglio di calcolo di Microsoft Excel.
+// L'oggetto OLE nella prima forma è un foglio di calcolo Microsoft Excel.
 OleFormat oleFormat = shape.OleFormat;
 
 Assert.AreEqual("Excel.Sheet.12", oleFormat.ProgId);
@@ -36,7 +36,7 @@ Assert.False(oleFormat.AutoUpdate);
 Assert.AreEqual(false, oleFormat.IsLocked);
 
 // Se intendiamo salvare l'oggetto OLE in un file nel file system locale,
-// possiamo utilizzare la proprietà "SuggestedExtension" per determinare quale estensione di file applicare al file.
+// possiamo utilizzare la proprietà "SuggestedExtension" per determinare quale estensione applicare al file.
 Assert.AreEqual(".xlsx", oleFormat.SuggestedExtension);
 
 // Di seguito sono riportati due modi per salvare un oggetto OLE in un file nel file system locale.

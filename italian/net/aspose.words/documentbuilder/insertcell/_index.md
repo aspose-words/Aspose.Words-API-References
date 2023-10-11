@@ -3,7 +3,7 @@ title: DocumentBuilder.InsertCell
 second_title: Aspose.Words per .NET API Reference
 description: DocumentBuilder metodo. Inserisce una cella di tabella nel documento.
 type: docs
-weight: 250
+weight: 270
 url: /it/net/aspose.words/documentbuilder/insertcell/
 ---
 ## DocumentBuilder.InsertCell method
@@ -16,17 +16,17 @@ public Cell InsertCell()
 
 ### Valore di ritorno
 
-Il nodo della cella che è stato appena inserito.
+Il nodo della cella appena inserito.
 
 ### Osservazioni
 
-Per iniziare un tavolo, chiama **InserisciCell** . Dopodiché, qualsiasi contenuto che aggiungi usando altri metodi di[`DocumentBuilder`](../) la classe verrà aggiunta alla cella corrente.
+Per avviare un tavolo, basta chiamare`InsertCell` . Successivamente, qualsiasi contenuto aggiunto utilizzando altri metodi del[`DocumentBuilder`](../) la classe verrà aggiunta alla cella corrente.
 
-Per iniziare una nuova cella nella stessa riga, chiama **InserisciCell** ancora.
+Per iniziare una nuova cella nella stessa riga, chiama`InsertCell` Ancora.
 
-Per terminare una chiamata di riga di tabella[`EndRow`](../endrow/).
+Per terminare una chiamata alla riga di una tabella[`EndRow`](../endrow/).
 
-Utilizzare il[`CellFormat`](../cellformat/)proprietà per specificare la formattazione della cella.
+Usa il[`CellFormat`](../cellformat/)proprietà per specificare la formattazione della cella.
 
 ### Esempi
 
@@ -36,7 +36,7 @@ Mostra come utilizzare un generatore di documenti per creare una tabella.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Avvia la tabella, quindi popola la prima riga con due celle.
+// Inizia la tabella, quindi compila la prima riga con due celle.
 builder.StartTable();
 builder.InsertCell();
 builder.Write("Row 1, Cell 1.");
@@ -87,8 +87,8 @@ builder.Write("Row 1, Col 2");
 builder.EndRow();
 
 // La modifica della formattazione la applicherà alla cella corrente,
-// e tutte le nuove celle che creiamo con il builder in seguito.
-// Ciò non influirà sulle celle che abbiamo aggiunto in precedenza.
+// e tutte le nuove celle che creeremo successivamente con il builder.
+// Ciò non influenzerà le celle che abbiamo aggiunto in precedenza.
 builder.CellFormat.Shading.ClearFormatting();
 
 builder.InsertCell();

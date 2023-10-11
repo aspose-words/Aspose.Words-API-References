@@ -1,14 +1,14 @@
 ---
 title: PageInfo.SizeInPoints
 second_title: Aspose.Words for .NET API Referansı
-description: PageInfo mülk. Sayfa boyutunu punto olarak alır.
+description: PageInfo mülk. Sayfa boyutunu puan olarak alır.
 type: docs
-weight: 50
+weight: 60
 url: /tr/net/aspose.words.rendering/pageinfo/sizeinpoints/
 ---
 ## PageInfo.SizeInPoints property
 
-Sayfa boyutunu punto olarak alır.
+Sayfa boyutunu puan olarak alır.
 
 ```csharp
 public SizeF SizeInPoints { get; }
@@ -16,13 +16,13 @@ public SizeF SizeInPoints { get; }
 
 ### Örnekler
 
-Word belgesindeki her sayfa için sayfa boyutu ve yönlendirme bilgilerinin nasıl yazdırılacağını gösterir.
+Bir Word belgesindeki her sayfa için sayfa boyutu ve yön bilgilerinin nasıl yazdırılacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// İlk bölüm 2 sayfadır. Her birine farklı bir yazıcı kağıt tepsisi atayacağız,
-// numarası bir tür kağıt kaynağıyla eşleşecek. Bu kaynaklar ve Çeşitleri değişiklik gösterecektir.
+// İlk bölüm 2 sayfadan oluşuyor. Her birine farklı bir yazıcı kağıt tepsisi atayacağız,
+// numarası bir tür kağıt kaynağıyla eşleşecek. Bu kaynaklar ve çeşitleri farklılık gösterecektir
 // yüklü yazıcı sürücüsüne bağlı olarak.
 PrinterSettings.PaperSourceCollection paperSources = new PrinterSettings().PaperSources;
 
@@ -36,7 +36,7 @@ float dpi = 96;
 
 for (int i = 0; i < doc.PageCount; i++)
 {
-    // Her sayfa, indeksi ilgili sayfanın numarası olan bir PageInfo nesnesine sahiptir.
+    // Her sayfanın, dizini ilgili sayfanın numarası olan bir PageInfo nesnesi vardır.
     PageInfo pageInfo = doc.GetPageInfo(i);
 
     // Sayfanın yönünü ve boyutlarını yazdırın.

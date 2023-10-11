@@ -1,14 +1,14 @@
 ---
 title: ChartFormat.Fill
 second_title: Référence de l'API Aspose.Words pour .NET
-description: ChartFormat propriété. Obtient la mise en forme de remplissage pour lélément de graphique parent.
+description: ChartFormat propriété. Obtient le formatage de remplissage pour lélément de graphique parent.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.drawing.charts/chartformat/fill/
 ---
 ## ChartFormat.Fill property
 
-Obtient la mise en forme de remplissage pour l'élément de graphique parent.
+Obtient le formatage de remplissage pour l'élément de graphique parent.
 
 ```csharp
 public Fill Fill { get; }
@@ -16,7 +16,7 @@ public Fill Fill { get; }
 
 ### Exemples
 
-Montrez comment définir la mise en forme des marqueurs.
+Montrez comment définir le formatage des marqueurs.
 
 ```csharp
 Document doc = new Document();

@@ -1,14 +1,14 @@
 ---
 title: Stroke.Transparency
 second_title: Aspose.Words لمراجع .NET API
-description: Stroke ملكية. الحصول على أو تعيين قيمة بين 0.0 معتم و 1.0 واضح تمثل درجة الشفافية للحد .
+description: Stroke ملكية. الحصول على أو تعيين قيمة بين 0.0 معتم و1.0 واضح تمثل درجة الشفافية للحد.
 type: docs
-weight: 180
+weight: 200
 url: /ar/net/aspose.words.drawing/stroke/transparency/
 ---
 ## Stroke.Transparency property
 
-الحصول على أو تعيين قيمة بين 0.0 (معتم) و 1.0 (واضح) تمثل درجة الشفافية للحد .
+الحصول على أو تعيين قيمة بين 0.0 (معتم) و1.0 (واضح) تمثل درجة الشفافية للحد.
 
 ```csharp
 public double Transparency { get; set; }
@@ -20,7 +20,7 @@ public double Transparency { get; set; }
 
 ### أمثلة
 
-أظهر كيفية تعيين تنسيق العلامة.
+أظهر كيفية ضبط تنسيق العلامة.
 
 ```csharp
 Document doc = new Document();
@@ -34,7 +34,7 @@ chart.Series.Clear();
 ChartSeries series = chart.Series.Add("AW Series 1", new[] { 0.7, 1.8, 2.6, 3.9 },
     new[] { 2.7, 3.2, 0.8, 1.7 });
 
-// تعيين تنسيق العلامة.
+// ضبط تنسيق العلامة.
 series.Marker.Size = 40;
 series.Marker.Symbol = MarkerSymbol.Square;
 ChartDataPointCollection dataPoints = series.DataPoints;

@@ -3,7 +3,7 @@ title: HtmlSaveOptions.FontsFolder
 second_title: Aspose.Words per .NET API Reference
 description: HtmlSaveOptions proprietà. Specifica la cartella fisica in cui vengono salvati i caratteri durante lesportazione di un documento in HTML. Limpostazione predefinita è una stringa vuota.
 type: docs
-weight: 320
+weight: 310
 url: /it/net/aspose.words.saving/htmlsaveoptions/fontsfolder/
 ---
 ## HtmlSaveOptions.FontsFolder property
@@ -16,11 +16,11 @@ public string FontsFolder { get; set; }
 
 ### Osservazioni
 
-Quando salvi un[`Document`](../../../aspose.words/document/) in formato HTML e[`ExportFontResources`](../exportfontresources/) è impostato su`VERO` , Aspose.Words deve salvare i caratteri utilizzati nel documento come file autonomi. `FontsFolder` consente di specificare dove verranno salvati i caratteri e [`FontsFolderAlias`](../fontsfolderalias/) consente di specificare come verranno costruiti gli URI dei font.
+Quando salvi un file[`Document`](../../../aspose.words/document/) in formato HTML e[`ExportFontResources`](../exportfontresources/) è impostato su`VERO` , Aspose.Words deve salvare i caratteri utilizzati nel documento come file autonomi. `FontsFolder` ti permette di specificare dove verranno salvati i caratteri e [`FontsFolderAlias`](../fontsfolderalias/) permette di specificare come verranno costruiti gli URI dei caratteri.
 
-Se si salva un documento in un file e si fornisce un nome file, Aspose.Words, per impostazione predefinita, salva i caratteri nella stessa cartella in cui è stato salvato il file del documento. Uso`FontsFolder` per ignorare questo comportamento.
+Se salvi un documento in un file e fornisci un nome file, Aspose.Words, per impostazione predefinita, salva i caratteri nella stessa cartella in cui è salvato il file del documento. Utilizzo`FontsFolder` per sovrascrivere questo comportamento.
 
-Se salvi un documento in uno stream, Aspose.Words non ha una cartella in cui salvare i caratteri, , ma deve comunque salvare i caratteri da qualche parte. In questo caso, è necessario specificare una cartella accessibile nel file`FontsFolder` proprietà o fornire flussi personalizzati tramite the[`FontSavingCallback`](../fontsavingcallback/) gestore di eventi.
+Se salvi un documento in uno stream, Aspose.Words non ha una cartella in cui salvare i caratteri, ma deve comunque salvare i caratteri da qualche parte. In questo caso, devi specificare una cartella accessibile nel file`FontsFolder` proprietà o fornire flussi personalizzati tramite the[`FontSavingCallback`](../fontsavingcallback/) gestore di eventi.
 
 Se la cartella specificata da`FontsFolder` non esiste, verrà creato automaticamente.
 
@@ -42,8 +42,8 @@ HtmlSaveOptions options = new HtmlSaveOptions
     FontsFolder = ArtifactsDir + "Fonts",
     ImagesFolder = ArtifactsDir + "Images",
     ResourceFolder = ArtifactsDir + "Resources",
-    FontsFolderAlias = "http://example.com/fonts",
-    ImagesFolderAlias = "http://example.com/images",
+    FontsFolderAlias = "http://esempio.com/fonts",
+    ImagesFolderAlias = "http://esempio.com/immagini",
     ResourceFolderAlias = "http://esempio.com/risorse",
     ExportOriginalUrlForLinkedImages = true
 };

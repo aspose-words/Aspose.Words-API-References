@@ -16,21 +16,19 @@ public DocumentBase Document { get; }
 
 ### 评论
 
-列表始终具有父文档，并且仅在该文档的上下文中有效。
+列表始终有一个父文档，并且仅在该文档的上下文中有效。
 
 ### 例子
 
-显示如何验证列表的所有者文档属性。
+演示如何验证列表的所有者文档属性。
 
 ```csharp
 Document doc = new Document();
 
 ListCollection lists = doc.Lists;
-
 Assert.AreEqual(doc, lists.Document);
 
 List list = lists.Add(ListTemplate.BulletDefault);
-
 Assert.AreEqual(doc, list.Document);
 
 Console.WriteLine("Current list count: " + lists.Count);

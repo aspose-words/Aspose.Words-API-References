@@ -1,14 +1,14 @@
 ---
 title: Document.VbaProject
 second_title: Справочник по API Aspose.Words для .NET
-description: Document свойство. Получает или задаетVbaProject .
+description: Document свойство. Получает или устанавливаетVbaProject .
 type: docs
-weight: 430
+weight: 450
 url: /ru/net/aspose.words/document/vbaproject/
 ---
 ## Document.VbaProject property
 
-Получает или задает`VbaProject` .
+Получает или устанавливает`VbaProject` .
 
 ```csharp
 public VbaProject VbaProject { get; set; }
@@ -16,13 +16,14 @@ public VbaProject VbaProject { get; set; }
 
 ### Примеры
 
-Показывает, как получить доступ к информации о проекте документа VBA.
+Показывает, как получить доступ к информации о проекте VBA документа.
 
 ```csharp
 Document doc = new Document(MyDir + "VBA project.docm");
 
 // Проект VBA содержит набор модулей VBA.
 VbaProject vbaProject = doc.VbaProject;
+Console.WriteLine(vbaProject.IsSigned
     ? $"Project name: {vbaProject.Name} signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n"
     : $"Project name: {vbaProject.Name} not signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n");
 
@@ -33,7 +34,7 @@ Assert.AreEqual(vbaModules.Count(), 3);
 foreach (VbaModule module in vbaModules)
     Console.WriteLine($"Module name: {module.Name};\nModule code:\n{module.SourceCode}\n");
 
-// Установить новый исходный код для модуля VBA. Вы можете получить доступ к модулям VBA в коллекции либо по индексу, либо по имени.
+// Устанавливаем новый исходный код для модуля VBA. Доступ к модулям VBA в коллекции можно получить либо по индексу, либо по имени.
 vbaModules[0].SourceCode = "Your VBA code...";
 vbaModules["Module1"].SourceCode = "Your VBA code...";
 

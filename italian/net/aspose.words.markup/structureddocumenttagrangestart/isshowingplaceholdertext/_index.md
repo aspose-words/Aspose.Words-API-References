@@ -1,16 +1,16 @@
 ---
 title: StructuredDocumentTagRangeStart.IsShowingPlaceholderText
 second_title: Aspose.Words per .NET API Reference
-description: StructuredDocumentTagRangeStart proprietà. Specifica se il contenuto di questo tag del documento strutturato deve essere interpretato in modo da contenere testo segnaposto al contrario dei normali contenuti di testo allinterno del tag del documento strutturato.
+description: StructuredDocumentTagRangeStart proprietà. Specifica se il contenuto di questo tag del documento strutturato deve essere interpretato come contenente testo segnaposto al contrario del normale contenuto di testo allinterno del tag del documento strutturato.
 type: docs
 weight: 50
 url: /it/net/aspose.words.markup/structureddocumenttagrangestart/isshowingplaceholdertext/
 ---
 ## StructuredDocumentTagRangeStart.IsShowingPlaceholderText property
 
-Specifica se il contenuto di questo tag del documento strutturato deve essere interpretato in modo da contenere testo segnaposto (al contrario dei normali contenuti di testo all'interno del tag del documento strutturato).
+Specifica se il contenuto di questo tag del documento strutturato deve essere interpretato come contenente testo segnaposto (al contrario del normale contenuto di testo all'interno del tag del documento strutturato).
 
-se impostato su true, questo stato verrà ripristinato (mostrando il testo segnaposto) all'apertura di questo documento.
+se impostato su`VERO` , questo stato verrà ripristinato (mostrando il testo segnaposto) all'apertura di questo documento.
 
 ```csharp
 public bool IsShowingPlaceholderText { get; set; }

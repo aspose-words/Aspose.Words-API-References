@@ -1,14 +1,16 @@
 ---
 title: Class ChartDataLabelCollection
 second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Drawing.Charts.ChartDataLabelCollection 班级. 代表一个集合ChartDataLabel.
+description: Aspose.Words.Drawing.Charts.ChartDataLabelCollection 班级. 代表集合ChartDataLabel.
 type: docs
-weight: 640
+weight: 680
 url: /zh/net/aspose.words.drawing.charts/chartdatalabelcollection/
 ---
 ## ChartDataLabelCollection class
 
-代表一个集合[`ChartDataLabel`](../chartdatalabel/).
+代表集合[`ChartDataLabel`](../chartdatalabel/).
+
+要了解更多信息，请访问[使用图表](https://docs.aspose.com/words/net/working-with-charts/)文档文章。
 
 ```csharp
 public class ChartDataLabelCollection : IEnumerable<ChartDataLabel>
@@ -18,31 +20,34 @@ public class ChartDataLabelCollection : IEnumerable<ChartDataLabel>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Count](../../aspose.words.drawing.charts/chartdatalabelcollection/count/) { get; } | 返回数量[`ChartDataLabel`](../chartdatalabel/)在这个集合中。 |
-| [Item](../../aspose.words.drawing.charts/chartdatalabelcollection/item/) { get; } | 返回[`ChartDataLabel`](../chartdatalabel/)对于指定的索引。 |
-| [NumberFormat](../../aspose.words.drawing.charts/chartdatalabelcollection/numberformat/) { get; } | 得到一个[`ChartNumberFormat`](../chartnumberformat/)允许为 the 整个系列的数据标签设置数字格式的实例。 |
-| [Separator](../../aspose.words.drawing.charts/chartdatalabelcollection/separator/) { get; set; } | 获取或设置用于整个系列数据标签的字符串分隔符。 默认为逗号，除了仅显示类别名称和百分比的饼图外，应使用换行符 。 |
-| [ShowBubbleSize](../../aspose.words.drawing.charts/chartdatalabelcollection/showbubblesize/) { get; set; } | 允许指定是否为整个系列的数据标签显示气泡大小。 仅适用于气泡图。 默认值为 **错误的**. |
-| [ShowCategoryName](../../aspose.words.drawing.charts/chartdatalabelcollection/showcategoryname/) { get; set; } | 允许指定是否为整个系列的数据标签显示类别名称。 默认值为 **错误的**. |
-| [ShowDataLabelsRange](../../aspose.words.drawing.charts/chartdatalabelcollection/showdatalabelsrange/) { get; set; } | 允许指定数据标签范围内的值是否显示在整个系列的数据标签中。 默认值为 **错误的**. |
-| [ShowLeaderLines](../../aspose.words.drawing.charts/chartdatalabelcollection/showleaderlines/) { get; set; } | 允许指定是否需要为整个系列的数据标签显示数据标签引出线。 默认值为 **错误的**. |
-| [ShowLegendKey](../../aspose.words.drawing.charts/chartdatalabelcollection/showlegendkey/) { get; set; } | 允许指定是否为整个系列的数据标签显示图例键。 默认值为 **错误的**. |
-| [ShowPercentage](../../aspose.words.drawing.charts/chartdatalabelcollection/showpercentage/) { get; set; } | 允许指定是否为整个系列的数据标签显示百分比值。 默认值为 **错误的**.仅适用于饼图。 |
-| [ShowSeriesName](../../aspose.words.drawing.charts/chartdatalabelcollection/showseriesname/) { get; set; } | 返回或设置一个布尔值，表示整个系列的数据标签的系列名称显示行为。  **真的**显示系列名称。 **错误的**隐藏。默认 **错误的**. |
-| [ShowValue](../../aspose.words.drawing.charts/chartdatalabelcollection/showvalue/) { get; set; } | 允许指定是否在整个系列的数据标签中显示值。 默认值为 **错误的**. |
+| [Count](../../aspose.words.drawing.charts/chartdatalabelcollection/count/) { get; } | 返回数量[`ChartDataLabel`](../chartdatalabel/)在这个集合中. |
+| [Font](../../aspose.words.drawing.charts/chartdatalabelcollection/font/) { get; } | 提供对整个系列的数据标签的字体格式的访问。 |
+| [Format](../../aspose.words.drawing.charts/chartdatalabelcollection/format/) { get; } | 提供对数据标签的填充和线条格式的访问。 |
+| [Item](../../aspose.words.drawing.charts/chartdatalabelcollection/item/) { get; } | 返回[`ChartDataLabel`](../chartdatalabel/)对于指定的索引. |
+| [NumberFormat](../../aspose.words.drawing.charts/chartdatalabelcollection/numberformat/) { get; } | 得到一个[`ChartNumberFormat`](../chartnumberformat/)允许为 整个系列的数据标签设置数字格式的实例。 |
+| [Separator](../../aspose.words.drawing.charts/chartdatalabelcollection/separator/) { get; set; } | 获取或设置用于整个系列的数据标签的字符串分隔符。 默认为逗号，但饼图仅显示类别名称和百分比时除外，此时应使用换行符 。 |
+| [ShowBubbleSize](../../aspose.words.drawing.charts/chartdatalabelcollection/showbubblesize/) { get; set; } | 允许指定是否为整个系列的数据标签显示气泡大小。 仅适用于气泡图。 默认值为`错误的`. |
+| [ShowCategoryName](../../aspose.words.drawing.charts/chartdatalabelcollection/showcategoryname/) { get; set; } | 允许指定是否为整个系列的数据标签显示类别名称。 默认值为`错误的`. |
+| [ShowDataLabelsRange](../../aspose.words.drawing.charts/chartdatalabelcollection/showdatalabelsrange/) { get; set; } | 允许指定数据标签范围内的值是否显示在整个系列的数据标签中。 默认值为`错误的`. |
+| [ShowLeaderLines](../../aspose.words.drawing.charts/chartdatalabelcollection/showleaderlines/) { get; set; } | 允许指定是否需要为整个系列的数据标签显示数据标签引导线。 默认值为`错误的`. |
+| [ShowLegendKey](../../aspose.words.drawing.charts/chartdatalabelcollection/showlegendkey/) { get; set; } | 允许指定是否为整个系列的数据标签显示图例键。 默认值为`错误的`. |
+| [ShowPercentage](../../aspose.words.drawing.charts/chartdatalabelcollection/showpercentage/) { get; set; } | 允许指定是否为整个系列的数据标签显示百分比值。 默认值为`错误的`。仅适用于饼图。 |
+| [ShowSeriesName](../../aspose.words.drawing.charts/chartdatalabelcollection/showseriesname/) { get; set; } | 返回或设置一个布尔值，以指示整个系列的数据标签的系列名称显示行为。 `真的`显示系列名称；`错误的`隐藏。默认情况下`错误的`. |
+| [ShowValue](../../aspose.words.drawing.charts/chartdatalabelcollection/showvalue/) { get; set; } | 允许指定值是否显示在整个系列的数据标签中。 默认值为`错误的`. |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ClearFormat](../../aspose.words.drawing.charts/chartdatalabelcollection/clearformat/)() | 清除所有格式[`ChartDataLabel`](../chartdatalabel/)在这个集合中。 |
+| [ClearFormat](../../aspose.words.drawing.charts/chartdatalabelcollection/clearformat/)() | 清除所有格式[`ChartDataLabel`](../chartdatalabel/)在这个集合中. |
 | [GetEnumerator](../../aspose.words.drawing.charts/chartdatalabelcollection/getenumerator/)() | 返回一个枚举器对象。 |
 
 ### 例子
 
-显示如何将标签应用于折线图中的数据点。
+展示如何将标签应用到折线图中的数据点。
 
 ```csharp
+public void DataLabels()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -56,7 +61,7 @@ public class ChartDataLabelCollection : IEnumerable<ChartDataLabel>
     Assert.AreEqual("Series 3", chart.Series[2].Name);
 
     // 将数据标签应用于图表中的每个系列。
-    // 这些标签将出现在图表中每个数据点的旁边并显示其值。
+    // 这些标签将出现在图表中每个数据点旁边并显示其值。
     foreach (ChartSeries series in chart.Series)
     {
         ApplyDataLabels(series, 4, "000.0", ", ");
@@ -73,17 +78,17 @@ public class ChartDataLabelCollection : IEnumerable<ChartDataLabel>
         }
     }
 
-    // 为了更清晰的图表，我们可以单独删除数据标签。
+    // 为了使图表看起来更清晰，我们可以单独删除数据标签。
     chart.Series[1].DataLabels[2].ClearFormat();
 
-    // 我们也可以一次剥离整个系列的数据标签。
+    // 我们还可以一次剥离整个系列的数据标签。
     chart.Series[2].DataLabels.ClearFormat();
 
     doc.Save(ArtifactsDir + "Charts.DataLabels.docx");
 }
 
 /// <summary>
-/// 将具有自定义数字格式和分隔符的数据标签应用于系列中的多个数据点。
+/// 将具有自定义数字格式和分隔符的数据标签应用于一系列中的多个数据点。
 /// </summary>
 private static void ApplyDataLabels(ChartSeries series, int labelsCount, string numberFormat, string separator)
 {

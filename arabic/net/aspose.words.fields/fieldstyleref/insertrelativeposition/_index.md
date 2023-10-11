@@ -1,14 +1,14 @@
 ---
 title: FieldStyleRef.InsertRelativePosition
 second_title: Aspose.Words لمراجع .NET API
-description: FieldStyleRef ملكية. الحصول على أو تحديد ما إذا كان سيتم إدراج الموضع النسبي للفقرة المشار إليها.
+description: FieldStyleRef ملكية. الحصول على أو تعيين ما إذا كان سيتم إدراج الموضع النسبي للفقرة المشار إليها.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.fields/fieldstyleref/insertrelativeposition/
 ---
 ## FieldStyleRef.InsertRelativePosition property
 
-الحصول على أو تحديد ما إذا كان سيتم إدراج الموضع النسبي للفقرة المشار إليها.
+الحصول على أو تعيين ما إذا كان سيتم إدراج الموضع النسبي للفقرة المشار إليها.
 
 ```csharp
 public bool InsertRelativePosition { get; set; }
@@ -22,11 +22,11 @@ public bool InsertRelativePosition { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// إنشاء قائمة باستخدام قالب قائمة Microsoft Word.
+// أنشئ قائمة بناءً على قالب قائمة Microsoft Word.
 Aspose.Words.Lists.List list = doc.Lists.Add(Aspose.Words.Lists.ListTemplate.NumberDefault);
 
-// ستعرض هذه القائمة التي تم إنشاؤها "1.a)".
- // المسافة قبل القوس هي حرف غير محدد ، يمكننا منعه.
+// ستعرض هذه القائمة التي تم إنشاؤها "1.a )".
+ // المسافة قبل القوس هي حرف غير محدد، ويمكننا حذفه.
 list.ListLevels[0].NumberFormat = "\x0000.";
 list.ListLevels[1].NumberFormat = "\x0001 )";
 
@@ -42,12 +42,12 @@ builder.Writeln("Item 3");
 builder.ListFormat.RemoveNumbers();
 builder.ParagraphFormat.Style = doc.Styles["Normal"];
 
-// ضع حقل STYLEREF في الرأس واعرض أول نص على غرار "قائمة فقرة" في المستند.
+// ضع حقل STYLEREF في الرأس واعرض أول نص بنمط "فقرة القائمة" في المستند.
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 FieldStyleRef field = (FieldStyleRef)builder.InsertField(FieldType.FieldStyleRef, true);
 field.StyleName = "List Paragraph";
 
-// ضع حقل STYLEREF في التذييل ، واجعله يعرض آخر نص.
+// ضع حقل STYLEREF في التذييل، واجعله يعرض النص الأخير.
 builder.MoveToHeaderFooter(HeaderFooterType.FooterPrimary);
 field = (FieldStyleRef)builder.InsertField(FieldType.FieldStyleRef, true);
 field.StyleName = "List Paragraph";
@@ -55,7 +55,7 @@ field.SearchFromBottom = true;
 
 builder.MoveToDocumentEnd();
 
-// يمكننا أيضًا استخدام حقول STYLEREF للإشارة إلى أرقام قائمة القوائم.
+// يمكننا أيضًا استخدام حقول STYLEREF للإشارة إلى أرقام قوائم القوائم.
 builder.Write("\nParagraph number: ");
 field = (FieldStyleRef)builder.InsertField(FieldType.FieldStyleRef, true);
 field.StyleName = "Quote";
@@ -77,6 +77,7 @@ field.StyleName = "Quote";
 field.InsertParagraphNumberInFullContext = true;
 field.SuppressNonDelimiters = true;
 
+doc.UpdatePageLayout();
 doc.UpdateFields();
 doc.Save(ArtifactsDir + "Field.STYLEREF.docx");
 ```

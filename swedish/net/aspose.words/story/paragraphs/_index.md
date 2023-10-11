@@ -28,7 +28,7 @@ Assert.AreEqual(6, doc.Revisions.Count(r => r.RevisionType == RevisionType.Movin
 
 ParagraphCollection paragraphs = doc.FirstSection.Body.Paragraphs;
 
-// Flytta revisioner består av par av "Flytta från" och "Flytta till" versioner. 
+ // Flytta revisioner består av par av "Flytta från" och "Flytta till" versioner.
 // Dessa ändringar är potentiella ändringar av dokumentet som vi antingen kan acceptera eller förkasta.
 // Innan vi accepterar/avvisar en flyttrevision, dokumentet
 // måste hålla reda på både avgångs- och ankomstdestinationerna för texten.

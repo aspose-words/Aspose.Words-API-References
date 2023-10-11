@@ -1,16 +1,16 @@
 ---
 title: FontInfoCollection.SaveSubsetFonts
 second_title: Aspose.Words för .NET API Referens
-description: FontInfoCollection fast egendom. Anger om en delmängd av de inbäddade TrueTypeteckensnitten ska sparas eller inte med dokumentet. Standardvärdet för den här egenskapen är falsk.
+description: FontInfoCollection fast egendom. Anger om en delmängd av de inbäddade TrueTypeteckensnitten ska sparas eller inte med dokumentet. Standardvärdet för den här egenskapen ärfalsk.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.fonts/fontinfocollection/savesubsetfonts/
 ---
 ## FontInfoCollection.SaveSubsetFonts property
 
-Anger om en delmängd av de inbäddade TrueType-teckensnitten ska sparas eller inte med dokumentet. Standardvärdet för den här egenskapen är **falsk**.
+Anger om en delmängd av de inbäddade TrueType-teckensnitten ska sparas eller inte med dokumentet. Standardvärdet för den här egenskapen är`falsk`.
 
-Det här alternativet fungerar endast när[`EmbedTrueTypeFonts`](../embedtruetypefonts/) egenskapen är inställd på **Sann**.
+Det här alternativet fungerar endast när[`EmbedTrueTypeFonts`](../embedtruetypefonts/) egenskapen är inställd på`Sann`.
 
 ```csharp
 public bool SaveSubsetFonts { get; set; }

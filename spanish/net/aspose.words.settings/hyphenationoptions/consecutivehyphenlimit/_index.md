@@ -18,11 +18,11 @@ public int ConsecutiveHyphenLimit { get; set; }
 
 Si el valor de esta propiedad se establece en 0, cualquier número de líneas consecutivas puede terminar con guiones.
 
-La propiedad no tiene efecto cuando se guarda en formatos de página fijos, por ejemplo, PDF.
+La propiedad no tiene efecto al guardar en formatos de página fijos, por ejemplo, PDF.
 
 ### Ejemplos
 
-Muestra cómo configurar la partición automática.
+Muestra cómo configurar la separación de palabras automática.
 
 ```csharp
 Document doc = new Document();

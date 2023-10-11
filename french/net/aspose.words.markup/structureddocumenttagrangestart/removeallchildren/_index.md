@@ -19,6 +19,7 @@ public void RemoveAllChildren()
 Montre comment créer/supprimer une balise de document structuré et son contenu.
 
 ```csharp
+public void SdtRangeExtendedMethods()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);

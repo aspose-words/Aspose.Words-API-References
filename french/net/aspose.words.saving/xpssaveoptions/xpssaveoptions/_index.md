@@ -22,7 +22,7 @@ Montre comment limiter le niveau des titres qui apparaîtront dans le plan d'un 
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Insérer des en-têtes pouvant servir d'entrées de table des matières des niveaux 1, 2, puis 3.
+// Insère des titres pouvant servir d'entrées de table des matières des niveaux 1, 2, puis 3.
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
 
 Assert.True(builder.ParagraphFormat.IsHeading);
@@ -39,15 +39,15 @@ builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading3;
 builder.Writeln("Heading 1.2.1");
 builder.Writeln("Heading 1.2.2");
 
-// Crée un objet "XpsSaveOptions" que nous pouvons passer à la méthode "Save" du document
+// Crée un objet "XpsSaveOptions" que l'on peut passer à la méthode "Save" du document
 // pour modifier la façon dont cette méthode convertit le document en .XPS.
 XpsSaveOptions saveOptions = new XpsSaveOptions();
 
 Assert.AreEqual(SaveFormat.Xps, saveOptions.SaveFormat);
 
-// Le document XPS de sortie contiendra un plan, une table des matières qui répertorie les en-têtes dans le corps du document.
-// Cliquer sur une entrée dans ce plan nous amènera à l'emplacement de son en-tête respectif.
-// Définissez la propriété "HeadingsOutlineLevels" sur "2" pour exclure tous les titres dont les niveaux sont supérieurs à 2 du plan.
+// Le document XPS de sortie contiendra un plan, une table des matières répertoriant les titres dans le corps du document.
+// Cliquer sur une entrée de ce plan nous amènera à l'emplacement de son en-tête respectif.
+// Définissez la propriété "HeadingsOutlineLevels" sur "2" pour exclure du plan tous les titres dont les niveaux sont supérieurs à 2.
 // Les deux derniers titres que nous avons insérés ci-dessus n'apparaîtront pas.
 saveOptions.OutlineOptions.HeadingsOutlineLevels = 2;
 
@@ -77,16 +77,16 @@ Montre comment enregistrer un document au format XPS sous la forme d'un pli de l
 ```csharp
 Document doc = new Document(MyDir + "Paragraphs.docx");
 
-// Crée un objet "XpsSaveOptions" que nous pouvons passer à la méthode "Save" du document
+// Crée un objet "XpsSaveOptions" que l'on peut passer à la méthode "Save" du document
 // pour modifier la façon dont cette méthode convertit le document en .XPS.
 XpsSaveOptions xpsOptions = new XpsSaveOptions(SaveFormat.Xps);
 
 // Définissez la propriété "UseBookFoldPrintingSettings" sur "true" pour organiser le contenu
-// dans le XPS de sortie d'une manière qui nous aide à l'utiliser pour créer un livret.
+// dans la sortie XPS d'une manière qui nous aide à l'utiliser pour créer un livret.
 // Définissez la propriété "UseBookFoldPrintingSettings" sur "false" pour restituer le XPS normalement.
 xpsOptions.UseBookFoldPrintingSettings = renderTextAsBookFold;
 
-// Si nous rendons le document sous forme de livret, nous devons définir le "MultiplePages"
+// Si nous rendons le document sous forme de livret, nous devons définir les "MultiplePages"
 // propriétés des objets de mise en page de toutes les sections à "MultiplePagesType.BookFoldPrinting".
 if (renderTextAsBookFold)
     foreach (Section s in doc.Sections)
@@ -95,7 +95,7 @@ if (renderTextAsBookFold)
     }
 
 // Une fois ce document imprimé, nous pouvons le transformer en livret en empilant les pages
-// pour sortir de l'imprimante et se replier au milieu.
+// pour sortir de l'imprimante et replier au milieu.
 doc.Save(ArtifactsDir + "XpsSaveOptions.BookFold.xps", xpsOptions);
 ```
 

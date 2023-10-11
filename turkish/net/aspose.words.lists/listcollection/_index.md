@@ -1,14 +1,16 @@
 ---
 title: Class ListCollection
 second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Lists.ListCollection sınıf. Bir belgede kullanılan madde işaretli ve numaralı listelerin biçimlendirmesini depolar ve yönetir.
+description: Aspose.Words.Lists.ListCollection sınıf. Bir belgede kullanılan madde işaretli ve numaralı listelerin biçimlendirmesini saklar ve yönetir.
 type: docs
-weight: 3270
+weight: 3470
 url: /tr/net/aspose.words.lists/listcollection/
 ---
 ## ListCollection class
 
-Bir belgede kullanılan madde işaretli ve numaralı listelerin biçimlendirmesini depolar ve yönetir.
+Bir belgede kullanılan madde işaretli ve numaralı listelerin biçimlendirmesini saklar ve yönetir.
+
+Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Listelerle Çalışmak](https://docs.aspose.com/words/net/working-with-lists/) dokümantasyon makalesi.
 
 ```csharp
 public class ListCollection : IEnumerable<List>
@@ -26,31 +28,31 @@ public class ListCollection : IEnumerable<List>
 
 | İsim | Tanım |
 | --- | --- |
-| [Add](../../aspose.words.lists/listcollection/add/#add)(ListTemplate) | Önceden tanımlanmış bir şablona dayalı yeni bir liste oluşturur ve bunu belgedeki listeler koleksiyonuna ekler. |
-| [Add](../../aspose.words.lists/listcollection/add/#add_1)(Style) | Bir liste stiline başvuran ve onu belgedeki listeler koleksiyonuna ekleyen yeni bir liste oluşturur. |
+| [Add](../../aspose.words.lists/listcollection/add/#add)(ListTemplate) | Önceden tanımlanmış bir şablonu temel alarak yeni bir liste oluşturur ve bunu belgedeki liste koleksiyonuna ekler. |
+| [Add](../../aspose.words.lists/listcollection/add/#add_1)(Style) | Bir liste stiline başvuran yeni bir liste oluşturur ve bunu belgedeki liste koleksiyonuna ekler. |
 | [AddCopy](../../aspose.words.lists/listcollection/addcopy/)(List) | Belirtilen listeyi kopyalayıp belgedeki listeler koleksiyonuna ekleyerek yeni bir liste oluşturur. |
 | [GetEnumerator](../../aspose.words.lists/listcollection/getenumerator/)() | Belgedeki listeleri numaralandıracak numaralandırıcı nesnesini alır. |
 | [GetListByListId](../../aspose.words.lists/listcollection/getlistbylistid/)(int) | Liste tanımlayıcısına göre bir liste alır. |
 
 ### Notlar
 
-Microsoft Word belgesindeki bir liste, bir dizi liste biçimlendirme özelliğidir. Listelerin biçimlendirmesi,`ListCollection` metin paragraflarından ayrı olarak toplama .
+Microsoft Word belgesindeki liste, bir dizi liste biçimlendirme özelliğidir. Listelerin biçimlendirmesi,`ListCollection` metin paragraflarından ayrı olarak koleksiyonu.
 
-Bu sınıfın nesnelerini oluşturmazsınız. her zaman sadece bir tane vardır`ListCollection` Belge başına nesnesi ve şuradan erişilebilir:[`Lists`](../../aspose.words/documentbase/lists/) Emlak.
+Bu sınıfın nesnelerini yaratmazsınız. Her zaman yalnızca bir tane vardır`ListCollection` Belge başına nesnesi vardır ve bu nesneye[`Lists`](../../aspose.words/documentbase/lists/) mülk.
 
-Önceden tanımlanmış bir liste şablonuna veya bir liste stiline dayalı olarak yeni bir liste oluşturmak için, [`Add`](./add/) yöntem.
+Önceden tanımlanmış bir liste şablonunu veya liste stilini temel alan yeni bir liste oluşturmak için şunu kullanın:[`Add`](./add/) yöntem.
 
-Mevcut bir listeyle aynı biçimlendirmeye sahip yeni bir liste oluşturmak için, [`AddCopy`](./addcopy/) yöntem.
+Mevcut bir listeyle aynı formatta yeni bir liste oluşturmak için komutunu kullanın.[`AddCopy`](./addcopy/) yöntem.
 
-Bir paragrafı madde işaretli veya numaralandırılmış yapmak için, bir paragraf atayarak bir paragrafa formatting listesi uygulamanız gerekir.[`List`](../list/) the nesnesi[`List`](../listformat/list/) mülkiyet[`ListFormat`](../listformat/).
+Bir paragrafı madde işaretli veya numaralandırılmış hale getirmek için, bir paragrafa atayarak formatlama listesini uygulamanız gerekir.[`List`](../list/)the 'ye itiraz[`List`](../listformat/list/) mülkiyet[`ListFormat`](../listformat/).
 
-Bir paragraftan liste biçimlendirmesini kaldırmak için[`RemoveNumbers`](../listformat/removenumbers/) yöntemi.
+Bir paragraftan liste formatını kaldırmak için[`RemoveNumbers`](../listformat/removenumbers/) yöntemi.
 
-WordprocessingML hakkında biraz bilginiz varsa, bunun "liste" ve "liste tanımı" için ayrı concept tanımladığını biliyor olabilirsiniz. Bu tam olarak liste biçimlendirmesinin bir Microsoft Word belgesinde düşük düzeyde nasıl depolandığına karşılık gelir. Liste tanımı bir "şema" gibidir ve listesi, bir liste tanımının bir örneği gibidir.
+WordprocessingML hakkında biraz bilginiz varsa, "liste" ve "liste tanımı" için ayrı kavramlar tanımladığını biliyor olabilirsiniz. Bu tam olarak bir Microsoft Word belgesinde liste formatının düşük düzeyde nasıl depolandığına (x000d_) karşılık gelir. Liste tanımı bir "şema" gibidir ve listesi, liste tanımının bir örneği gibidir.
 
-Programlama modelini basitleştirmek için, Aspose.Words list ve list tanımı arasındaki farkı, Microsoft Word'ün bunu kullanıcı arayüzünde gizlediği gibi gizler. Bu, yerine belgenizin nasıl görünmesini istediğinize daha fazla konsantre olmanızı sağlar. Microsoft Word dosya biçiminin gereksinimlerini karşılamak için düşük düzeyli nesneler oluşturmak.
+Programlama modelini basitleştirmek için Aspose.Words, list ve list tanımı arasındaki ayrımı, Microsoft Word'ün kullanıcı arayüzünde gizlediği gibi gizler. Bu, yerine belgenizin nasıl görünmesini istediğinize daha fazla odaklanmanızı sağlar. Microsoft Word dosya formatının gereksinimlerini karşılamak için düşük seviyeli nesneler oluşturmak.
 
-Aspose.Words. 'nin güncel sürümünde oluşturulduktan sonra listeleri silmek mümkün değildir. Bu, kullanıcının liste tanımları üzerinde açık bir kontrolü olmadığı Microsoft Word'e benzer.
+Aspose.Words'ün mevcut sürümünde listeler oluşturulduktan sonra listeleri silmek mümkün değildir. Bu, kullanıcının liste tanımları üzerinde açık bir kontrole sahip olmadığı Microsoft Word'e benzer.
 
 ### Örnekler
 
@@ -88,21 +90,21 @@ private static void AddListSample(DocumentBuilder builder, List list)
 }
 ```
 
-Bir listeyi kopyalayarak bir listede numaralandırmanın nasıl yeniden başlatılacağını gösterir.
+Bir listeyi kopyalayarak listedeki numaralandırmanın nasıl yeniden başlatılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 
-// Liste, önek sembolleri ve girintilerle paragraf kümelerini düzenlememize ve süslememize olanak tanır.
-// Girinti seviyesini artırarak iç içe listeler oluşturabiliriz. 
-// Bir belge oluşturucunun "ListFormat" özelliğini kullanarak bir listeyi başlatabilir ve bitirebiliriz. 
-// Bir listenin başlangıcı ile bitişi arasına eklediğimiz her paragraf listede bir öğe haline gelecektir.
-// Bir Microsoft Word şablonundan bir liste oluşturun ve ilk liste düzeyini özelleştirin.
+// Liste, paragraf kümelerini önek sembolleri ve girintilerle düzenlememize ve süslememize olanak tanır.
+ // Girinti seviyesini artırarak iç içe listeler oluşturabiliriz.
+ // Bir listeyi belge oluşturucunun "ListFormat" özelliğini kullanarak başlatabilir ve sonlandırabiliriz.
+// Bir listenin başı ile sonu arasına eklediğimiz her paragraf, listede bir öğe haline gelecektir.
+// Microsoft Word şablonundan bir liste oluşturun ve ilk liste düzeyini özelleştirin.
 List list1 = doc.Lists.Add(ListTemplate.NumberArabicParenthesis);
 list1.ListLevels[0].Font.Color = Color.Red;
 list1.ListLevels[0].Alignment = ListLevelAlignment.Right;
 
-// Listemizi bazı paragraflara uygula.
+// Listemizi bazı paragraflara uygulayın.
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln("List 1 starts below:");
@@ -127,7 +129,7 @@ builder.ListFormat.RemoveNumbers();
 doc.Save(ArtifactsDir + "Lists.RestartNumberingUsingListCopy.docx");
 ```
 
-Liste seviyeleriyle nasıl çalışılacağını gösterir.
+Liste düzeyleriyle nasıl çalışılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -135,29 +137,29 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 Assert.False(builder.ListFormat.IsListItem);
 
-// Liste, önek sembolleri ve girintilerle paragraf kümelerini düzenlememize ve süslememize olanak tanır.
-// Girinti seviyesini artırarak iç içe listeler oluşturabiliriz. 
-// Bir belge oluşturucunun "ListFormat" özelliğini kullanarak bir listeyi başlatabilir ve bitirebiliriz. 
-// Bir listenin başlangıcı ile bitişi arasına eklediğimiz her paragraf listede bir öğe haline gelecektir.
-// Aşağıda, bir belge oluşturucu kullanarak oluşturabileceğimiz iki tür liste bulunmaktadır.
+// Liste, paragraf kümelerini önek sembolleri ve girintilerle düzenlememize ve süslememize olanak tanır.
+ // Girinti seviyesini artırarak iç içe listeler oluşturabiliriz.
+ // Bir listeyi belge oluşturucunun "ListFormat" özelliğini kullanarak başlatabilir ve sonlandırabiliriz.
+// Bir listenin başı ile sonu arasına eklediğimiz her paragraf, listede bir öğe haline gelecektir.
+// Aşağıda belge oluşturucuyu kullanarak oluşturabileceğimiz iki tür liste bulunmaktadır.
 // 1 - Numaralandırılmış bir liste:
-// Numaralandırılmış listeler, her bir öğeyi numaralandırarak paragrafları için mantıksal bir sıra oluşturur.
+// Numaralandırılmış listeler, her öğeyi numaralandırarak paragrafları için mantıksal bir düzen oluşturur.
 builder.ListFormat.List = doc.Lists.Add(ListTemplate.NumberDefault);
 
 Assert.True(builder.ListFormat.IsListItem);
 
-// "ListLevelNumber" özelliğini ayarlayarak liste seviyesini yükseltebiliriz
+// "ListLevelNumber" özelliğini ayarlayarak liste seviyesini arttırabiliriz
 // geçerli liste öğesinde bağımsız bir alt liste başlatmak için.
-// "NumberDefault" adlı Microsoft Word liste şablonu, ilk liste düzeyi için liste düzeyleri oluşturmak için sayıları kullanır.
-// Daha derin liste seviyelerinde harfler ve küçük Romen rakamları kullanılır. 
+// "NumberDefault" adı verilen Microsoft Word liste şablonu, ilk liste düzeyi için liste düzeyleri oluşturmak amacıyla sayıları kullanır.
+ // Daha derin liste seviyelerinde harfler ve küçük harf Romen rakamları kullanılır.
 for (int i = 0; i < 9; i++)
 {
     builder.ListFormat.ListLevelNumber = i;
     builder.Writeln("Level " + i);
 }
 
-// 2 - Madde işaretli bir liste:
-// Bu liste, her paragraftan önce bir girinti ve bir madde işareti ("•") uygular.
+// 2 - Madde işaretli liste:
+// Bu liste, her paragraftan önce bir girinti ve madde işareti simgesi ("•") uygulayacaktır.
 // Bu listenin daha derin seviyelerinde "■" ve "○" gibi farklı semboller kullanılacaktır.
 builder.ListFormat.List = doc.Lists.Add(ListTemplate.BulletDefault);
 
@@ -167,7 +169,7 @@ for (int i = 0; i < 9; i++)
     builder.Writeln("Level " + i);
 }
 
-// "Liste" bayrağının ayarını kaldırarak, sonraki paragrafları liste olarak biçimlendirmemek için liste biçimlendirmesini devre dışı bırakabiliriz.
+// "Liste" bayrağının ayarını kaldırarak sonraki paragrafları liste olarak biçimlendirmemek için liste biçimlendirmesini devre dışı bırakabiliriz.
 builder.ListFormat.List = null;
 
 Assert.False(builder.ListFormat.IsListItem);

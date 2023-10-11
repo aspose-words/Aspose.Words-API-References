@@ -1,14 +1,14 @@
 ---
 title: BarcodeParameters.CaseCodeStyle
 second_title: Aspose.Words for .NET API Referansı
-description: BarcodeParameters mülk. Barkod tipi ITF14 için Vaka Kodunun Stili. Geçerli değerler STDEXTADD
+description: BarcodeParameters mülk. ITF14 barkod tipi için Vaka Kodunun Stili. Geçerli değerler şunlardır STDEXTADD
 type: docs
 weight: 60
 url: /tr/net/aspose.words.fields/barcodeparameters/casecodestyle/
 ---
 ## BarcodeParameters.CaseCodeStyle property
 
-Barkod tipi ITF14 için Vaka Kodunun Stili. Geçerli değerler: [STD&#x7C;EXT&#x7C;ADD]
+ITF14 barkod tipi için Vaka Kodunun Stili. Geçerli değerler şunlardır: [STD&#x7C;EXT&#x7C;ADD]
 
 ```csharp
 public string CaseCodeStyle { get; set; }
@@ -21,13 +21,12 @@ Barkod oluşturucunun nasıl kullanılacağını gösterir.
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
-
-// Barkod oluşturmak için özel bir IBarcodeGenerator uygulaması kullanabiliriz,
-// ve ardından bunları görüntü olarak belgeye ekleyin.
+// Barkod oluşturmak için özel bir IBarcodeGenerator uygulamasını kullanabiliriz,
+// ve ardından bunları belgeye resim olarak ekleyin.
 doc.FieldOptions.BarcodeGenerator = new CustomBarcodeGenerator();
 
-// Aşağıda, jeneratörümüzü kullanarak oluşturabileceğimiz dört farklı barkod türü örneği bulunmaktadır.
-// Her barkod için yeni bir barkod parametresi seti belirleriz ve ardından görüntüyü oluştururuz.
+// Aşağıda oluşturucumuzu kullanarak oluşturabileceğimiz farklı barkod türlerine ait dört örnek bulunmaktadır.
+// Her barkod için yeni bir barkod parametreleri seti belirliyoruz ve ardından görüntüyü oluşturuyoruz.
 // Daha sonra görüntüyü belgeye ekleyebilir veya yerel dosya sistemine kaydedebiliriz.
 // 1 - QR kodu:
 BarcodeParameters barcodeParameters = new BarcodeParameters
@@ -61,7 +60,7 @@ img = doc.FieldOptions.BarcodeGenerator.GetBarcodeImage(barcodeParameters);
 img.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.EAN13.jpg");
 builder.InsertImage(img);
 
-// 3 - KOD39 barkodu:
+// 3 - CODE39 barkodu:
 barcodeParameters = new BarcodeParameters
 {
     BarcodeType = "CODE39",

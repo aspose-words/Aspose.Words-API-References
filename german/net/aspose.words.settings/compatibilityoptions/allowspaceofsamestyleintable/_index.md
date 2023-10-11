@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.AllowSpaceOfSameStyleInTable
 second_title: Aspose.Words für .NET-API-Referenz
-description: CompatibilityOptions eigendom. Kontextabhängige Abstände von Absätzen in Tabellen zulassen.
+description: CompatibilityOptions eigendom. Kontextbezogene Abstände von Absätzen in Tabellen zulassen.
 type: docs
 weight: 30
 url: /de/net/aspose.words.settings/compatibilityoptions/allowspaceofsamestyleintable/
 ---
 ## CompatibilityOptions.AllowSpaceOfSameStyleInTable property
 
-Kontextabhängige Abstände von Absätzen in Tabellen zulassen.
+Kontextbezogene Abstände von Absätzen in Tabellen zulassen.
 
 ```csharp
 public bool AllowSpaceOfSameStyleInTable { get; set; }

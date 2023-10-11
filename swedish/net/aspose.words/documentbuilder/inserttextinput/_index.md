@@ -3,7 +3,7 @@ title: DocumentBuilder.InsertTextInput
 second_title: Aspose.Words för .NET API Referens
 description: DocumentBuilder metod. Infogar ett textformulärfält på den aktuella positionen.
 type: docs
-weight: 450
+weight: 480
 url: /sv/net/aspose.words/documentbuilder/inserttextinput/
 ---
 ## DocumentBuilder.InsertTextInput method

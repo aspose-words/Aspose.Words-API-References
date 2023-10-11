@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTagRangeStart.Placeholder
 second_title: Aspose.Words لمراجع .NET API
-description: StructuredDocumentTagRangeStart ملكية. يحصل على ملفBuildingBlock يحتوي على نص عنصر نائب يجب عرضه عندما تكون محتويات تشغيل علامة المستند المهيكلة هذه فارغة  ويكون عنصر XML المعين المرتبط فارغًا كما هو محدد عبرXmlMapping عنصر أوIsShowingPlaceholderText العنصر صحيح.
+description: StructuredDocumentTagRangeStart ملكية. يحصل علىBuildingBlockيحتوي على نص عنصر نائب يجب عرضه عندما تكون محتويات تشغيل علامة المستند المنظمة هذه فارغة وعنصر XML المعين المرتبط فارغ كما هو محدد عبرXmlMapping العنصر أوIsShowingPlaceholderText العنصر هوحقيقي .
 type: docs
 weight: 110
 url: /ar/net/aspose.words.markup/structureddocumenttagrangestart/placeholder/
 ---
 ## StructuredDocumentTagRangeStart.Placeholder property
 
-يحصل على ملف[`BuildingBlock`](../../../aspose.words.buildingblocks/buildingblock/) يحتوي على نص عنصر نائب يجب عرضه عندما تكون محتويات تشغيل علامة المستند المهيكلة هذه فارغة ، ويكون عنصر XML المعين المرتبط فارغًا كما هو محدد عبر[`XmlMapping`](../xmlmapping/) عنصر أو[`IsShowingPlaceholderText`](../isshowingplaceholdertext/) العنصر صحيح.
+يحصل على[`BuildingBlock`](../../../aspose.words.buildingblocks/buildingblock/)يحتوي على نص عنصر نائب يجب عرضه عندما تكون محتويات تشغيل علامة المستند المنظمة هذه فارغة، وعنصر XML المعين المرتبط فارغ كما هو محدد عبر[`XmlMapping`](../xmlmapping/) العنصر أو[`IsShowingPlaceholderText`](../isshowingplaceholdertext/) العنصر هو`حقيقي` .
 
 ```csharp
 public BuildingBlock Placeholder { get; }
@@ -16,7 +16,7 @@ public BuildingBlock Placeholder { get; }
 
 ### ملاحظات
 
-يمكن أن يكون فارغًا ، مما يعني أن العنصر النائب لا ينطبق على علامة المستند المهيكلة هذه.
+يمكن ان يكون`باطل`، مما يعني أن العنصر النائب لا ينطبق على علامة المستند المنظمة هذه.
 
 ### أنظر أيضا
 

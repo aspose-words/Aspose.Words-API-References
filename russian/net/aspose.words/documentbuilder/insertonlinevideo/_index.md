@@ -3,7 +3,7 @@ title: DocumentBuilder.InsertOnlineVideo
 second_title: Справочник по API Aspose.Words для .NET
 description: DocumentBuilder метод. Вставляет объект онлайнвидео в документ и масштабирует его до указанного размера.
 type: docs
-weight: 390
+weight: 420
 url: /ru/net/aspose.words/documentbuilder/insertonlinevideo/
 ---
 ## InsertOnlineVideo(string, double, double) {#insertonlinevideo_1}
@@ -17,12 +17,12 @@ public Shape InsertOnlineVideo(string videoUrl, double width, double height)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | videoUrl | String | URL-адрес видео. |
-| width | Double | Ширина изображения в точках. Может быть отрицательным или нулевым значением для запроса масштаба 100%. |
+| width | Double | Ширина изображения в пунктах. Может быть отрицательным или нулевым значением для запроса масштаба 100%. |
 | height | Double | Высота изображения в пунктах. Может быть отрицательным или нулевым значением для запроса масштаба 100%. |
 
 ### Возвращаемое значение
 
-Только что вставленный узел изображения.
+Узел изображения, который был только что вставлен.
 
 ### Примечания
 
@@ -33,9 +33,9 @@ public Shape InsertOnlineVideo(string videoUrl, double width, double height)
 * https://www.youtube.com/
 * https://vimeo.com/
 
-Если ваше онлайн-видео отображается неправильно, используйте`InsertOnlineVideo`, который принимает пользовательский встроенный HTML-код.
+Если ваше онлайн-видео отображается неправильно, используйте`InsertOnlineVideo`, который принимает встроенный HTML-код.
 
-Код для встраивания видео может варьироваться в зависимости от провайдера, для получения подробной информации обратитесь к соответствующему провайдеру.
+Код для встраивания видео может различаться в зависимости от поставщика. За подробностями обратитесь к соответствующему поставщику.
 
 ### Примеры
 
@@ -73,16 +73,16 @@ public Shape InsertOnlineVideo(string videoUrl, RelativeHorizontalPosition horzP
 | --- | --- | --- |
 | videoUrl | String | URL-адрес видео. |
 | horzPos | RelativeHorizontalPosition | Указывает, откуда измеряется расстояние до изображения. |
-| left | Double | Расстояние в пунктах от начала координат до левого края изображения. |
+| left | Double | Расстояние в точках от начала координат до левой части изображения. |
 | vertPos | RelativeVerticalPosition | Указывает, откуда измеряется расстояние до изображения. |
-| top | Double | Расстояние в пунктах от начала координат до верхней стороны изображения. |
-| width | Double | Ширина изображения в точках. Может быть отрицательным или нулевым значением для запроса масштаба 100%. |
+| top | Double | Расстояние в точках от начала координат до верхней части изображения. |
+| width | Double | Ширина изображения в пунктах. Может быть отрицательным или нулевым значением для запроса масштаба 100%. |
 | height | Double | Высота изображения в пунктах. Может быть отрицательным или нулевым значением для запроса масштаба 100%. |
 | wrapType | WrapType | Указывает, как обтекать изображение текстом. |
 
 ### Возвращаемое значение
 
-Только что вставленный узел изображения.
+Узел изображения, который был только что вставлен.
 
 ### Примечания
 
@@ -93,9 +93,9 @@ public Shape InsertOnlineVideo(string videoUrl, RelativeHorizontalPosition horzP
 * https://www.youtube.com/
 * https://vimeo.com/
 
-Если ваше онлайн-видео отображается неправильно, используйте`InsertOnlineVideo`, который принимает пользовательский встроенный HTML-код.
+Если ваше онлайн-видео отображается неправильно, используйте`InsertOnlineVideo`, который принимает встроенный HTML-код.
 
-Код для встраивания видео может варьироваться в зависимости от провайдера, для получения подробной информации обратитесь к соответствующему провайдеру.
+Код для встраивания видео может различаться в зависимости от поставщика. За подробностями обратитесь к соответствующему поставщику.
 
 ### Примеры
 
@@ -107,10 +107,10 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 string videoUrl = "https://vimeo.com/52477838";
 
-// Вставьте фигуру, которая воспроизводит видео из Интернета при нажатии в Microsoft Word.
-// Эта прямоугольная форма будет содержать изображение, основанное на первом кадре связанного видео
+// Вставка фигуры, которая воспроизводит видео из Интернета при нажатии в Microsoft Word.
+// Эта прямоугольная форма будет содержать изображение, основанное на первом кадре связанного видео.
 // и визуальная подсказка «кнопка воспроизведения». Видео имеет соотношение сторон 16:9.
-// Мы установим размер фигуры в этом соотношении, чтобы изображение не выглядело растянутым.
+// Мы установим размер фигуры в соответствии с этим соотношением, чтобы изображение не выглядело растянутым.
 builder.InsertOnlineVideo(videoUrl, RelativeHorizontalPosition.LeftMargin, 0,
     RelativeVerticalPosition.TopMargin, 0, 320, 180, WrapType.Square);
 
@@ -142,13 +142,13 @@ public Shape InsertOnlineVideo(string videoUrl, string videoEmbedCode, byte[] th
 | --- | --- | --- |
 | videoUrl | String | URL-адрес видео. |
 | videoEmbedCode | String | Код для встраивания видео. |
-| thumbnailImageBytes | Byte[] | Байты миниатюры изображения. |
-| width | Double | Ширина изображения в точках. Может быть отрицательным или нулевым значением для запроса масштаба 100%. |
+| thumbnailImageBytes | Byte[] | Байты миниатюрного изображения. |
+| width | Double | Ширина изображения в пунктах. Может быть отрицательным или нулевым значением для запроса масштаба 100%. |
 | height | Double | Высота изображения в пунктах. Может быть отрицательным или нулевым значением для запроса масштаба 100%. |
 
 ### Возвращаемое значение
 
-Только что вставленный узел изображения.
+Узел изображения, который был только что вставлен.
 
 ### Примечания
 
@@ -164,7 +164,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 string videoUrl = "https://vimeo.com/52477838";
 string videoEmbedCode =
-    "<iframe src=\"https://player.vimeo.com/video/52477838\" width=\"640\" height=\"360\" frameborder=\"0\" " +
+    "<iframe src=\"https://player.vimeo.com/video/52477838\" width=\"640\" height=\"360\" Frameborder=\"0\" " +
     "title=\"Aspose\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>";
 
 byte[] thumbnailImageBytes = File.ReadAllBytes(ImageDir + "Logo.jpg");
@@ -173,14 +173,14 @@ using (MemoryStream stream = new MemoryStream(thumbnailImageBytes))
 {
     using (Image image = Image.FromStream(stream))
     {
-        // Ниже приведены два способа создания фигуры с настраиваемой миниатюрой, которая ссылается на онлайн-видео.
-        // который будет воспроизводиться, когда мы нажимаем на фигуру в Microsoft Word.
-        // 1 - Вставьте встроенную фигуру в курсор вставки узла построителя:
+        // Ниже приведены два способа создания фигуры с пользовательской миниатюрой, которая ссылается на онлайн-видео.
+        // который будет воспроизводиться, когда мы щелкнем по фигуре в Microsoft Word.
+        // 1 - Вставьте встроенную фигуру в курсор вставки узла строителя:
         builder.InsertOnlineVideo(videoUrl, videoEmbedCode, thumbnailImageBytes, image.Width, image.Height);
 
         builder.InsertBreak(BreakType.PageBreak);
 
-        // 2 - Вставить плавающую фигуру:
+        // 2 - Вставляем плавающую фигуру:
         double left = builder.PageSetup.RightMargin - image.Width;
         double top = builder.PageSetup.BottomMargin - image.Height;
 
@@ -216,18 +216,18 @@ public Shape InsertOnlineVideo(string videoUrl, string videoEmbedCode, byte[] th
 | --- | --- | --- |
 | videoUrl | String | URL-адрес видео. |
 | videoEmbedCode | String | Код для встраивания видео. |
-| thumbnailImageBytes | Byte[] | Байты миниатюры изображения. |
+| thumbnailImageBytes | Byte[] | Байты миниатюрного изображения. |
 | horzPos | RelativeHorizontalPosition | Указывает, откуда измеряется расстояние до изображения. |
-| left | Double | Расстояние в пунктах от начала координат до левого края изображения. |
+| left | Double | Расстояние в точках от начала координат до левой части изображения. |
 | vertPos | RelativeVerticalPosition | Указывает, откуда измеряется расстояние до изображения. |
-| top | Double | Расстояние в пунктах от начала координат до верхней стороны изображения. |
-| width | Double | Ширина изображения в точках. Может быть отрицательным или нулевым значением для запроса масштаба 100%. |
+| top | Double | Расстояние в точках от начала координат до верхней части изображения. |
+| width | Double | Ширина изображения в пунктах. Может быть отрицательным или нулевым значением для запроса масштаба 100%. |
 | height | Double | Высота изображения в пунктах. Может быть отрицательным или нулевым значением для запроса масштаба 100%. |
 | wrapType | WrapType | Указывает, как обтекать изображение текстом. |
 
 ### Возвращаемое значение
 
-Только что вставленный узел изображения.
+Узел изображения, который был только что вставлен.
 
 ### Примечания
 
@@ -243,7 +243,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 string videoUrl = "https://vimeo.com/52477838";
 string videoEmbedCode =
-    "<iframe src=\"https://player.vimeo.com/video/52477838\" width=\"640\" height=\"360\" frameborder=\"0\" " +
+    "<iframe src=\"https://player.vimeo.com/video/52477838\" width=\"640\" height=\"360\" Frameborder=\"0\" " +
     "title=\"Aspose\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>";
 
 byte[] thumbnailImageBytes = File.ReadAllBytes(ImageDir + "Logo.jpg");
@@ -252,14 +252,14 @@ using (MemoryStream stream = new MemoryStream(thumbnailImageBytes))
 {
     using (Image image = Image.FromStream(stream))
     {
-        // Ниже приведены два способа создания фигуры с настраиваемой миниатюрой, которая ссылается на онлайн-видео.
-        // который будет воспроизводиться, когда мы нажимаем на фигуру в Microsoft Word.
-        // 1 - Вставьте встроенную фигуру в курсор вставки узла построителя:
+        // Ниже приведены два способа создания фигуры с пользовательской миниатюрой, которая ссылается на онлайн-видео.
+        // который будет воспроизводиться, когда мы щелкнем по фигуре в Microsoft Word.
+        // 1 - Вставьте встроенную фигуру в курсор вставки узла строителя:
         builder.InsertOnlineVideo(videoUrl, videoEmbedCode, thumbnailImageBytes, image.Width, image.Height);
 
         builder.InsertBreak(BreakType.PageBreak);
 
-        // 2 - Вставить плавающую фигуру:
+        // 2 - Вставляем плавающую фигуру:
         double left = builder.PageSetup.RightMargin - image.Width;
         double top = builder.PageSetup.BottomMargin - image.Height;
 

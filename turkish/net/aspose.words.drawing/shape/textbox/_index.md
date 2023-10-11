@@ -1,14 +1,14 @@
 ---
 title: Shape.TextBox
 second_title: Aspose.Words for .NET API Referansı
-description: Shape mülk. Metnin bir şekilde nasıl görüntüleneceğini belirleyen özellikleri tanımlar.
+description: Shape mülk. Metnin bir şekilde nasıl görüntüleneceğini belirten nitelikleri tanımlar.
 type: docs
 weight: 220
 url: /tr/net/aspose.words.drawing/shape/textbox/
 ---
 ## Shape.TextBox property
 
-Metnin bir şekilde nasıl görüntüleneceğini belirleyen özellikleri tanımlar.
+Metnin bir şekilde nasıl görüntüleneceğini belirten nitelikleri tanımlar.
 
 ```csharp
 public TextBox TextBox { get; }
@@ -25,12 +25,12 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape textBoxShape = builder.InsertShape(ShapeType.TextBox, 150, 100);
 TextBox textBox = textBoxShape.TextBox;
 
-// Belge oluşturucuyu TextBox'ın içine taşıyın ve metin ekleyin.
+// Belge oluşturucuyu TextBox'un içine taşıyın ve metin ekleyin.
 builder.MoveTo(textBoxShape.LastParagraph);
 builder.Writeln("Hello world!");
 builder.Write("Hello again!");
 
-// Bu metin kutusunun metin içeriği için bir yönlendirme ayarlamak için "LayoutFlow" özelliğini ayarlayın.
+// Bu metin kutusunun metin içeriğinin yönünü ayarlamak için "LayoutFlow" özelliğini ayarlayın.
 textBox.LayoutFlow = layoutFlow;
 
 doc.Save(ArtifactsDir + "Shape.TextBoxLayoutFlow.docx");

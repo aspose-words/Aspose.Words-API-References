@@ -16,7 +16,7 @@ public override int GetHashCode()
 
 ### Exemples
 
-Montre comment définir une largeur préférée pour les cellules de tableau.
+Montre comment définir une largeur préférée pour les cellules du tableau.
 
 ```csharp
 Document doc = new Document();
@@ -24,13 +24,13 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Table table = builder.StartTable();
 
 // Il existe deux manières d'appliquer la classe "PreferredWidth" aux cellules d'un tableau.
-// 1 - Définissez une largeur préférée absolue basée sur les points :
+// 1 - Définit une largeur préférée absolue basée sur les points :
 builder.InsertCell();
 builder.CellFormat.PreferredWidth = PreferredWidth.FromPoints(40);
 builder.CellFormat.Shading.BackgroundPatternColor = Color.LightYellow;
 builder.Writeln($"Cell with a width of {builder.CellFormat.PreferredWidth}.");
 
-// 2 - Définissez une largeur préférée relative basée sur le pourcentage de la largeur du tableau :
+// 2 - Définit une largeur préférée relative basée sur le pourcentage de la largeur du tableau :
 builder.InsertCell();
 builder.CellFormat.PreferredWidth = PreferredWidth.FromPercent(20);
 builder.CellFormat.Shading.BackgroundPatternColor = Color.LightBlue;

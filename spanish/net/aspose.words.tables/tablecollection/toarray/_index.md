@@ -1,14 +1,14 @@
 ---
 title: TableCollection.ToArray
 second_title: Referencia de API de Aspose.Words para .NET
-description: TableCollection método. Copia todas las tablas de la colección a una nueva matriz de tablas.
+description: TableCollection método. Copia todas las tablas de la colección en una nueva matriz de tablas.
 type: docs
 weight: 20
 url: /es/net/aspose.words.tables/tablecollection/toarray/
 ---
 ## TableCollection.ToArray method
 
-Copia todas las tablas de la colección a una nueva matriz de tablas.
+Copia todas las tablas de la colección en una nueva matriz de tablas.
 
 ```csharp
 public Table[] ToArray()
@@ -16,7 +16,7 @@ public Table[] ToArray()
 
 ### Valor_devuelto
 
-Una matriz de tablas.
+Una serie de mesas.
 
 ### Ejemplos
 

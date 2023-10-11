@@ -16,7 +16,7 @@ public string Password { get; set; }
 
 ### Anmärkningar
 
-För att spara dokument utan kryptering bör denna egenskap vara null eller tom sträng.
+För att spara dokument utan kryptering bör denna egenskap vara`null` eller tom sträng.
 
 ### Exempel
 

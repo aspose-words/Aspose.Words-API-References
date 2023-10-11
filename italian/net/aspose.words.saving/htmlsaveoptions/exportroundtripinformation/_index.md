@@ -3,7 +3,7 @@ title: HtmlSaveOptions.ExportRoundtripInformation
 second_title: Aspose.Words per .NET API Reference
 description: HtmlSaveOptions proprietà. Specifica se scrivere le informazioni di andata e ritorno durante il salvataggio in HTML MHTML o EPUB. Il valore predefinito èVERO per HTML efalso per MHTML ed EPUB.
 type: docs
-weight: 250
+weight: 240
 url: /it/net/aspose.words.saving/htmlsaveoptions/exportroundtripinformation/
 ---
 ## HtmlSaveOptions.ExportRoundtripInformation property
@@ -16,11 +16,11 @@ public bool ExportRoundtripInformation { get; set; }
 
 ### Osservazioni
 
-Il salvataggio delle informazioni di andata e ritorno consente di ripristinare le proprietà del documento come tabulazioni, commenti , intestazioni e piè di pagina durante il caricamento di documenti HTML in un[`Document`](../../../aspose.words/document/) oggetto.
+Il salvataggio delle informazioni di andata e ritorno consente di ripristinare le proprietà del documento come tabulazioni, commenti , intestazioni e piè di pagina durante il caricamento dei documenti HTML in un file[`Document`](../../../aspose.words/document/) oggetto.
 
-quando`VERO`, le informazioni di andata e ritorno vengono esportate come -aw-* CSS properties degli elementi HTML corrispondenti.
+Quando`VERO`, le informazioni di andata e ritorno vengono esportate come -aw-* Proprietà CSS degli elementi HTML corrispondenti.
 
-quando`falso`, non provoca l'output di informazioni di andata e ritorno nei file prodotti.
+Quando`falso`, non consente l'output di informazioni di andata e ritorno nei file prodotti.
 
 ### Esempi
 
@@ -29,17 +29,17 @@ Mostra come preservare gli elementi nascosti durante la conversione in .html.
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// Quando si converte un documento in .html, alcuni elementi come i segnalibri nascosti, le posizioni delle forme originali,
-// o le note a piè di pagina verranno rimosse o convertite in testo normale e di fatto andranno perse.
+// Quando si converte un documento in .html, alcuni elementi come segnalibri nascosti, posizioni delle forme originali,
+// o le note a piè di pagina verranno rimosse o convertite in testo semplice e andranno effettivamente perse.
 // Il salvataggio con un oggetto HtmlSaveOptions con ExportRoundtripInformation impostato su true conserverà questi elementi.
 
 // Quando salviamo il documento in HTML, possiamo passare un oggetto SaveOptions per determinare
-// come l'operazione di salvataggio esporterà gli elementi del documento che HTML non supporta o non utilizza,
-// come i segnalibri nascosti e le posizioni delle forme originali.
+// come l'operazione di salvataggio esporterà gli elementi del documento che HTML non supporta o utilizza,
+// come segnalibri nascosti e posizioni delle forme originali.
 // Se impostiamo il flag "ExportRoundtripInformation" su "true", l'operazione di salvataggio conserverà questi elementi.
-// Se impostiamo il flag "ExportRoundTripInformation" su "false", l'operazione di salvataggio eliminerà questi elementi.
-// Vorremo preservare tali elementi se intendiamo caricare l'HTML salvato usando Aspose.Words,
-// perché potrebbero tornare utili.
+// Se impostiamo il flag "ExportRoundTripInformation" su "false", l'operazione di salvataggio scarterà questi elementi.
+// Vorremo preservare tali elementi se intendiamo caricare l'HTML salvato utilizzando Aspose.Words,
+// perché potrebbero tornare utili ancora una volta.
 HtmlSaveOptions options = new HtmlSaveOptions { ExportRoundtripInformation = exportRoundtripInformation };
 
 doc.Save(ArtifactsDir + "HtmlSaveOptions.RoundTripInformation.html", options);

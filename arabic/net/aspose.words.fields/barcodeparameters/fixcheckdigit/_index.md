@@ -1,14 +1,14 @@
 ---
 title: BarcodeParameters.FixCheckDigit
 second_title: Aspose.Words لمراجع .NET API
-description: BarcodeParameters ملكية. تحديد ما إذا كان يجب إصلاح خانة الاختيار إذا كانت غير صالحة.
+description: BarcodeParameters ملكية. ما إذا كان سيتم إصلاح رقم الشيك إذا كان غير صالح.
 type: docs
 weight: 100
 url: /ar/net/aspose.words.fields/barcodeparameters/fixcheckdigit/
 ---
 ## BarcodeParameters.FixCheckDigit property
 
-تحديد ما إذا كان يجب إصلاح خانة الاختيار إذا كانت غير صالحة.
+ما إذا كان سيتم إصلاح رقم الشيك إذا كان غير صالح.
 
 ```csharp
 public bool FixCheckDigit { get; set; }
@@ -16,19 +16,18 @@ public bool FixCheckDigit { get; set; }
 
 ### أمثلة
 
-يوضح كيفية استخدام منشئ الباركود.
+يوضح كيفية استخدام مولد الباركود.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
-
-// يمكننا استخدام تطبيق IBarcodeGenerator المخصص لإنشاء رموز شريطية ،
-// ثم أدخلها في المستند كصور.
+// يمكننا استخدام تطبيق IBarcodeGenerator مخصص لإنشاء الرموز الشريطية،
+// ثم قم بإدراجها في المستند كصور.
 doc.FieldOptions.BarcodeGenerator = new CustomBarcodeGenerator();
 
-// فيما يلي أربعة أمثلة لأنواع مختلفة من الرموز الشريطية التي يمكننا إنشاؤها باستخدام المولد الخاص بنا.
-// لكل رمز شريطي ، نحدد مجموعة جديدة من معلمات الباركود ، ثم ننشئ الصورة.
-// بعد ذلك ، يمكننا إدخال الصورة في المستند ، أو حفظها في نظام الملفات المحلي.
+// فيما يلي أربعة أمثلة لأنواع مختلفة من الباركود التي يمكننا إنشاؤها باستخدام المولد الخاص بنا.
+// لكل رمز شريطي، نحدد مجموعة جديدة من معلمات الرمز الشريطي، ثم نقوم بإنشاء الصورة.
+// بعد ذلك، يمكننا إدراج الصورة في المستند، أو حفظها في نظام الملفات المحلي.
 // 1 - رمز الاستجابة السريعة:
 BarcodeParameters barcodeParameters = new BarcodeParameters
 {
@@ -47,7 +46,7 @@ img.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.QR.jpg");
 
 builder.InsertImage(img);
 
-// 2 - الباركود EAN13:
+// 2 - الرمز الشريطي EAN13:
 barcodeParameters = new BarcodeParameters
 {
     BarcodeType = "EAN13",

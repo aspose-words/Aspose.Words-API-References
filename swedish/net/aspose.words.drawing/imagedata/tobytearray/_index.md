@@ -3,7 +3,7 @@ title: ImageData.ToByteArray
 second_title: Aspose.Words för .NET API Referens
 description: ImageData metod. Returnerar bildbyte för alla bilder oavsett om bilden är lagrad eller länkad.
 type: docs
-weight: 210
+weight: 220
 url: /sv/net/aspose.words.drawing/imagedata/tobytearray/
 ---
 ## ImageData.ToByteArray method
@@ -24,7 +24,6 @@ Visar hur man skapar en bildfil från en forms råa bilddata.
 
 ```csharp
 Document imgSourceDoc = new Document(MyDir + "Images.docx");
-
 Shape imgShape = (Shape) imgSourceDoc.GetChild(NodeType.Shape, 0, true);
 
 Assert.True(imgShape.HasImage);

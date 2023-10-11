@@ -20,7 +20,7 @@ public static double PointToPixel(double points)
 
 ### Notlar
 
-1 inç, 72 noktaya eşittir.
+1 inç 72 noktaya eşittir.
 
 ### Örnekler
 
@@ -30,7 +30,7 @@ Sayfa özelliklerinin piksel cinsinden nasıl belirtileceğini gösterir.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Bir bölümün "Sayfa Yapısı", sayfa kenar boşluklarının boyutunu nokta olarak tanımlar.
+// Bir bölümün "Sayfa Yapısı" sayfa kenar boşluklarının boyutunu nokta cinsinden tanımlar.
 // Farklı bir ölçü birimi kullanmak için "ConvertUtil" sınıfını da kullanabiliriz,
 // sınırları tanımlarken pikseller gibi.
 PageSetup pageSetup = builder.PageSetup;
@@ -46,7 +46,7 @@ Assert.AreEqual(1.0d, ConvertUtil.PointToPixel(0.75));
 // Kullanılan varsayılan DPI değeri 96'dır.
 Assert.AreEqual(0.75d, ConvertUtil.PixelToPoint(1, 96));
 
-// Yeni kenar boşluklarını göstermek için içerik ekleyin.
+// Yeni kenar boşluklarını gösterecek içerik ekleyin.
 builder.Writeln($"This Text is {pageSetup.LeftMargin} points/{ConvertUtil.PointToPixel(pageSetup.LeftMargin)} pixels from the left, " +
                 $"{pageSetup.RightMargin} points/{ConvertUtil.PointToPixel(pageSetup.RightMargin)} pixels from the right, " +
                 $"{pageSetup.TopMargin} points/{ConvertUtil.PointToPixel(pageSetup.TopMargin)} pixels from the top, " +
@@ -65,7 +65,7 @@ doc.Save(ArtifactsDir + "UtilityClasses.PointsAndPixels.docx");
 
 ## PointToPixel(double, double) {#pointtopixel_1}
 
-Belirtilen piksel çözünürlüğünde noktaları piksellere dönüştürür.
+Noktaları belirtilen piksel çözünürlüğünde piksellere dönüştürür.
 
 ```csharp
 public static double PointToPixel(double points, double resolution)
@@ -74,11 +74,11 @@ public static double PointToPixel(double points, double resolution)
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
 | points | Double | Dönüştürülecek değer. |
-| resolution | Double | dpi (inç başına nokta) çözünürlüğü. |
+| resolution | Double | Dpi (inç başına nokta sayısı) çözünürlüğü. |
 
 ### Notlar
 
-1 inç, 72 noktaya eşittir.
+1 inç 72 noktaya eşittir.
 
 ### Örnekler
 
@@ -88,7 +88,7 @@ Varsayılan ve özel çözünürlükle piksellere dönüştürme noktalarının 
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Bu bölümün üst kenar boşluğunun boyutunu, özel bir DPI'ye göre piksel cinsinden tanımlayın.
+// Özel DPI'ya göre bu bölümün üst kenar boşluğunun boyutunu piksel cinsinden tanımlayın.
 const double myDpi = 192;
 
 PageSetup pageSetup = builder.PageSetup;
@@ -96,13 +96,13 @@ pageSetup.TopMargin = ConvertUtil.PixelToPoint(100, myDpi);
 
 Assert.AreEqual(37.5d, pageSetup.TopMargin, 0.01d);
 
-// 96'lık varsayılan DPI'da bir piksel 0,75 puandır.
+// Varsayılan 96 DPI'da bir piksel 0,75 puandır.
 Assert.AreEqual(0.75d, ConvertUtil.PixelToPoint(1));
 
 builder.Writeln($"This Text is {pageSetup.TopMargin} points/{ConvertUtil.PointToPixel(pageSetup.TopMargin, myDpi)} " +
                 $"pixels (at a DPI of {myDpi}) from the top of the page.");
 
-// Yeni bir DPI ayarlayın ve üst kenar boşluğu değerini buna göre ayarlayın.
+// Yeni bir DPI belirleyin ve üst kenar boşluğu değerini buna göre ayarlayın.
 const double newDpi = 300;
 pageSetup.TopMargin = ConvertUtil.PixelToNewDpi(pageSetup.TopMargin, myDpi, newDpi);
 Assert.AreEqual(59.0d, pageSetup.TopMargin, 0.01d);

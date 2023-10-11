@@ -33,19 +33,19 @@ builder.EndTable();
 TableStyle tableStyle = (TableStyle)doc.Styles.Add(StyleType.Table, "MyTableStyle1");
 table.Style = tableStyle;
 
-// Tablonun ilk satırının kenarlıklarını kırmızıya boyamak için tablo stilini ayarlayın.
+// Tablo stilini, tablonun ilk satırının kenarlıklarını kırmızı renklendirecek şekilde ayarlayın.
 tableStyle.ConditionalStyles.FirstRow.Borders.Color = Color.Red;
 
-// Tablonun son satırının kenarlıklarını mavi renklendirmek için tablo stilini ayarlayın.
+// Tablo stilini, tablonun son satırının kenarlıklarını mavi renklendirecek şekilde ayarlayın.
 tableStyle.ConditionalStyles.LastRow.Borders.Color = Color.Blue;
 
-// Koşullu stilleri temizlemek için "ClearFormatting" yöntemini kullanmanın iki yolu aşağıdadır.
+// Aşağıda, koşullu stilleri temizlemek için "ClearFormatting" yöntemini kullanmanın iki yolu verilmiştir.
 // 1 - Tablonun belirli bir bölümü için koşullu stilleri temizleyin:
 tableStyle.ConditionalStyles[0].ClearFormatting();
 
 Assert.AreEqual(Color.Empty, tableStyle.ConditionalStyles.FirstRow.Borders.Color);
 
-// 2 - Tüm tablo için koşullu stilleri temizleyin:
+// 2 - Tablonun tamamı için koşullu stilleri temizleyin:
 tableStyle.ConditionalStyles.ClearFormatting();
 
 Assert.True(tableStyle.ConditionalStyles.All(s => s.Borders.Color == Color.Empty));

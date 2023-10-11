@@ -1,14 +1,14 @@
 ---
 title: Revision.Group
 second_title: Aspose.Words for .NET API Referansı
-description: Revision mülk. Revizyon grubunu alır. Revizyon herhangi bir gruba ait değilse null döndürür.
+description: Revision mülk. Revizyon grubunu alır. İadelerhükümsüz revizyon herhangi bir gruba ait değilse.
 type: docs
 weight: 30
 url: /tr/net/aspose.words/revision/group/
 ---
 ## Revision.Group property
 
-Revizyon grubunu alır. Revizyon herhangi bir gruba ait değilse null döndürür.
+Revizyon grubunu alır. İadeler`hükümsüz` revizyon herhangi bir gruba ait değilse.
 
 ```csharp
 public RevisionGroup Group { get; }
@@ -16,22 +16,22 @@ public RevisionGroup Group { get; }
 
 ### Notlar
 
-Revizyon türü RevisionType.StyleDefinitionChange ise veya revizyon belge bağlamında artık mevcut değilse (kabul edildi/reddedildi) ise revizyonda grup yoktur.
+Revizyon türü şuysa, revizyonun grubu yokturStyleDefinitionChangeor eğer revizyon artık belge bağlamında mevcut değilse (kabul edildi/reddedildi).
 
 ### Örnekler
 
-Bir belgedeki revizyonlarla nasıl çalışılacağını gösterir.
+Bir belgedeki düzeltmelerle nasıl çalışılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Belgenin normal düzenlenmesi revizyon sayılmaz.
+// Dokümanın normal şekilde düzenlenmesi revizyon olarak sayılmaz.
 builder.Write("This does not count as a revision. ");
 
 Assert.IsFalse(doc.HasRevisions);
 
-// Düzenlemelerimizi revizyon olarak kaydetmek için bir yazar bildirmemiz ve ardından onları izlemeye başlamamız gerekiyor.
+// Düzenlemelerimizi revizyon olarak kaydetmek için bir yazar bildirmemiz ve ardından bunları izlemeye başlamamız gerekiyor.
 doc.StartTrackRevisions("John Doe", DateTime.Now);
 
 builder.Write("This is revision #1. ");
@@ -39,13 +39,13 @@ builder.Write("This is revision #1. ");
 Assert.IsTrue(doc.HasRevisions);
 Assert.AreEqual(1, doc.Revisions.Count);
 
-// Bu bayrak "İnceleme" -> "İzleme" -> Microsoft Word'de "Değişiklikleri İzle" seçeneği.
+// Bu bayrak "İnceleme"ye karşılık gelir -> "İzleme" -> Microsoft Word'deki "Değişiklikleri İzle" seçeneği.
 // "StartTrackRevisions" yöntemi değerini etkilemez,
-// ve belge, "yanlış" değerine sahip olmasına rağmen, revizyonları programlı olarak izliyor.
-// Bu belgeyi Microsoft Word kullanarak açarsak, revizyonları izlemeyecektir.
+// ve belge "yanlış" değerine sahip olmasına rağmen programlı olarak revizyonları izliyor.
+// Bu belgeyi Microsoft Word kullanarak açarsak revizyon takibi olmayacaktır.
 Assert.IsFalse(doc.TrackRevisions);
 
-// Belge oluşturucuyu kullanarak metin ekledik, bu nedenle ilk revizyon ekleme tipi bir revizyondur.
+// Belge oluşturucuyu kullanarak metin ekledik, dolayısıyla ilk revizyon ekleme tipi bir revizyondur.
 Revision revision = doc.Revisions[0];
 Assert.AreEqual("John Doe", revision.Author);
 Assert.AreEqual("This is revision #1. ", revision.ParentNode.GetText());
@@ -56,16 +56,16 @@ Assert.AreEqual(doc.Revisions.Groups[0], revision.Group);
 // Silme tipi bir revizyon oluşturmak için bir çalıştırmayı kaldırın.
 doc.FirstSection.Body.FirstParagraph.Runs[0].Remove();
 
-// Yeni bir revizyon eklemek, onu revizyon koleksiyonunun başına yerleştirir.
+// Yeni bir revizyon eklemek onu revizyon koleksiyonunun başına yerleştirir.
 Assert.AreEqual(RevisionType.Deletion, doc.Revisions[0].RevisionType);
 Assert.AreEqual(2, doc.Revisions.Count);
 
-// Revizyonları, biz revizyonu kabul etmeden/reddetmeden önce bile belge gövdesinde görünüyor.
-// Revizyonu reddetmek, düğümlerini gövdeden kaldırır. Tersine, silme revizyonlarını oluşturan düğümler
-// ayrıca revizyonu kabul edene kadar belgede oyalanır.
+// Düzeltmeleri kabul etmeden/reddetmeden önce bile belge gövdesinde düzeltmeleri ekleyin.
+// Revizyonun reddedilmesi, düğümlerinin gövdeden kaldırılmasına neden olacaktır. Bunun tersine, silme revizyonlarını oluşturan düğümler
+// ayrıca revizyonu kabul edene kadar belgede oyalanacağız.
 Assert.AreEqual("This does not count as a revision. This is revision #1.", doc.GetText().Trim());
 
-// Silme revizyonunu kabul etmek, üst düğümünü paragraf metninden kaldıracak
+// Silme düzeltmesini kabul etmek, onun üst düğümünü paragraf metninden kaldıracaktır
 // ve ardından koleksiyonun revizyonunun kendisini kaldırın.
 doc.Revisions[0].Accept();
 
@@ -75,7 +75,7 @@ Assert.AreEqual("This is revision #1.", doc.GetText().Trim());
 builder.Writeln("");
 builder.Write("This is revision #2.");
 
-// Şimdi hareketli bir revizyon tipi oluşturmak için düğümü hareket ettirin.
+// Şimdi hareketli bir revizyon türü oluşturmak için düğümü taşıyın.
 Node node = doc.FirstSection.Body.Paragraphs[1];
 Node endNode = doc.FirstSection.Body.Paragraphs[1].NextSibling;
 Node referenceNode = doc.FirstSection.Body.Paragraphs[0];
@@ -91,7 +91,7 @@ Assert.AreEqual(RevisionType.Moving, doc.Revisions[0].RevisionType);
 Assert.AreEqual(8, doc.Revisions.Count);
 Assert.AreEqual("This is revision #2.\rThis is revision #1. \rThis is revision #2.", doc.GetText().Trim());
 
-// Hareketli revizyon şimdi 1. indekste. İçeriğini atmak için revizyonu reddet.
+// Hareket eden revizyon şu anda dizin 1'de. İçeriğini atmak için revizyonu reddedin.
 doc.Revisions[1].Reject();
 
 Assert.AreEqual(6, doc.Revisions.Count);

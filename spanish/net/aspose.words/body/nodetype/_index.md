@@ -1,14 +1,14 @@
 ---
 title: Body.NodeType
 second_title: Referencia de API de Aspose.Words para .NET
-description: Body propiedad. Devoluciones Tipo de nodo.Cuerpo .
+description: Body propiedad. DevolucionesBody .
 type: docs
 weight: 20
 url: /es/net/aspose.words/body/nodetype/
 ---
 ## Body.NodeType property
 
-Devoluciones **Tipo de nodo.Cuerpo** .
+DevolucionesBody .
 
 ```csharp
 public override NodeType NodeType { get; }
@@ -16,7 +16,7 @@ public override NodeType NodeType { get; }
 
 ### Ejemplos
 
-Muestra cómo iterar a través de los elementos secundarios de un nodo compuesto.
+Muestra cómo iterar a través de los hijos de un nodo compuesto.
 
 ```csharp
 Document doc = new Document();
@@ -30,8 +30,8 @@ builder.Write("Primary footer");
 
 Section section = doc.FirstSection;
 
-// Una Sección es un nodo compuesto y puede contener nodos secundarios,
-// pero solo si esos nodos secundarios son del tipo de nodo "Body" o "HeaderFooter".
+// Una sección es un nodo compuesto y puede contener nodos secundarios.
+// pero sólo si esos nodos secundarios son del tipo de nodo "Body" o "HeaderFooter".
 foreach (Node node in section)
 {
     switch (node.NodeType)

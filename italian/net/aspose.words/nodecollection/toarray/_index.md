@@ -20,13 +20,13 @@ Una matrice di nodi.
 
 ### Osservazioni
 
-Non dovresti aggiungere/rimuovere nodi durante l'iterazione su una raccolta di nodi perché invalida l'iteratore e richiede aggiornamenti per le raccolte live.
+Non dovresti aggiungere/rimuovere nodi durante l'iterazione su una raccolta di nodi perché invalida l'iteratore e richiede aggiornamenti per le raccolte attive.
 
-Per poter aggiungere/rimuovere nodi durante l'iterazione, utilizzare questo metodo per copiare nodi in un array di dimensioni fisse e quindi scorrere l'array.
+Per poter aggiungere/rimuovere nodi durante l'iterazione, utilizzare questo metodo per copiare i nodi in un array di dimensioni fisse e quindi scorrere l'array.
 
 ### Esempi
 
-Mostra come sostituire tutte le forme casella di testo con forme immagine.
+Mostra come sostituire tutte le forme delle caselle di testo con forme di immagine.
 
 ```csharp
 Document doc = new Document(MyDir + "Textboxes in drawing canvas.docx");

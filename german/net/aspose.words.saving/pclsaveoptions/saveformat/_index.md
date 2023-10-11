@@ -16,7 +16,7 @@ public override SaveFormat SaveFormat { get; set; }
 
 ### Beispiele
 
-Zeigt, wie komplexe Elemente beim Speichern eines Dokuments in PCL gerastert werden.
+Zeigt, wie man komplexe Elemente rastern kann, während man ein Dokument in PCL speichert.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

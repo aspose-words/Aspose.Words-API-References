@@ -3,7 +3,7 @@ title: Table.ConvertToHorizontallyMergedCells
 second_title: Aspose.Words för .NET API Referens
 description: Table metod. Konverterar celler horisontellt sammanfogade efter bredd till celler sammanslagna avHorizontalMerge .
 type: docs
-weight: 390
+weight: 410
 url: /sv/net/aspose.words.tables/table/converttohorizontallymergedcells/
 ---
 ## Table.ConvertToHorizontallyMergedCells method

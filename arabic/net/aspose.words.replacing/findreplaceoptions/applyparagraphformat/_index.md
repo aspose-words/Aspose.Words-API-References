@@ -1,14 +1,14 @@
 ---
 title: FindReplaceOptions.ApplyParagraphFormat
 second_title: Aspose.Words لمراجع .NET API
-description: FindReplaceOptions ملكية. تم تطبيق تنسيق الفقرة على المحتوى الجديد.
+description: FindReplaceOptions ملكية. تطبيق تنسيق الفقرة على المحتوى الجديد.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.replacing/findreplaceoptions/applyparagraphformat/
 ---
 ## FindReplaceOptions.ApplyParagraphFormat property
 
-تم تطبيق تنسيق الفقرة على المحتوى الجديد.
+تطبيق تنسيق الفقرة على المحتوى الجديد.
 
 ```csharp
 public ParagraphFormat ApplyParagraphFormat { get; }
@@ -35,11 +35,11 @@ Assert.AreEqual(ParagraphAlignment.Left, paragraphs[2].ParagraphFormat.Alignment
 // يمكننا استخدام كائن "FindReplaceOptions" لتعديل عملية البحث والاستبدال.
 FindReplaceOptions options = new FindReplaceOptions();
 
-// اضبط خاصية "Alignment" على "ParagraphAlignment.Right" لمحاذاة كل فقرة إلى اليمين
-// الذي يحتوي على تطابق تجده عملية البحث والاستبدال.
+// اضبط خاصية "المحاذاة" على "ParagraphAlignment.Right" لمحاذاة كل فقرة إلى اليمين
+// يحتوي على التطابق الذي وجدته عملية البحث والاستبدال.
 options.ApplyParagraphFormat.Alignment = ParagraphAlignment.Right;
 
-// استبدل كل نقطة توقف مباشرة قبل فاصل الفقرة بعلامة تعجب.
+// استبدل كل نقطة قبل فاصل الفقرة بعلامة تعجب.
 int count = doc.Range.Replace(".&p", "!&p", options);
 
 Assert.AreEqual(2, count);

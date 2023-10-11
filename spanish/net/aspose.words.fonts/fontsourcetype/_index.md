@@ -3,7 +3,7 @@ title: Enum FontSourceType
 second_title: Referencia de API de Aspose.Words para .NET
 description: Aspose.Words.Fonts.FontSourceType enumeración. Especifica el tipo de fuente de fuente.
 type: docs
-weight: 2810
+weight: 2990
 url: /es/net/aspose.words.fonts/fontsourcetype/
 ---
 ## FontSourceType enumeration
@@ -18,11 +18,11 @@ public enum FontSourceType
 
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
-| FontFile | `0` | A[`FileFontSource`](../filefontsource/) objeto que representa un solo archivo de fuente. |
-| FontsFolder | `1` | A[`FolderFontSource`](../folderfontsource/) objeto que representa carpeta con archivos de fuentes. |
+| FontFile | `0` | A[`FileFontSource`](../filefontsource/) objeto que representa un archivo de fuente única. |
+| FontsFolder | `1` | A[`FolderFontSource`](../folderfontsource/) objeto que representa la carpeta con archivos de fuentes. |
 | MemoryFont | `2` | A[`MemoryFontSource`](../memoryfontsource/) objeto que representa una sola fuente en la memoria. |
 | SystemFonts | `3` | A[`SystemFontSource`](../systemfontsource/) objeto que representa todas las fuentes instaladas en el sistema. |
-| FontStream | `4` | A[`StreamFontSource`](../streamfontsource/) objeto que representa un flujo con fuente data. |
+| FontStream | `4` | A[`StreamFontSource`](../streamfontsource/) objeto que representa una secuencia con datos de fuente. |
 
 ### Ejemplos
 

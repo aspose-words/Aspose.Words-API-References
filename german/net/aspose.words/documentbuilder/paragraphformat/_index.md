@@ -1,14 +1,14 @@
 ---
 title: DocumentBuilder.ParagraphFormat
 second_title: Aspose.Words für .NET-API-Referenz
-description: DocumentBuilder eigendom. Gibt ein Objekt zurück das aktuelle Absatzformatierungseigenschaften darstellt.
+description: DocumentBuilder eigendom. Gibt ein Objekt zurück das die aktuellen Absatzformatierungseigenschaften darstellt.
 type: docs
-weight: 150
+weight: 170
 url: /de/net/aspose.words/documentbuilder/paragraphformat/
 ---
 ## DocumentBuilder.ParagraphFormat property
 
-Gibt ein Objekt zurück, das aktuelle Absatzformatierungseigenschaften darstellt.
+Gibt ein Objekt zurück, das die aktuellen Absatzformatierungseigenschaften darstellt.
 
 ```csharp
 public ParagraphFormat ParagraphFormat { get; }
@@ -16,7 +16,7 @@ public ParagraphFormat ParagraphFormat { get; }
 
 ### Beispiele
 
-Zeigt, wie eine formatierte Tabelle mit DocumentBuilder erstellt wird.
+Zeigt, wie man mit DocumentBuilder eine formatierte Tabelle erstellt.
 
 ```csharp
 Document doc = new Document();
@@ -36,7 +36,7 @@ builder.Font.Size = 16;
 builder.Font.Name = "Arial";
 builder.Font.Bold = true;
 
-// Wenn Sie die Formatierungsoptionen in einem Dokumentersteller konfigurieren, werden sie angewendet
+// Wenn Sie die Formatierungsoptionen in einem Dokument-Builder konfigurieren, werden diese angewendet
 // zur aktuellen Zelle/Zeile, in der sich der Cursor befindet,
 // sowie alle neuen Zellen und Zeilen, die mit diesem Builder erstellt wurden.
 builder.Write("Header Row,\n Cell 1");
@@ -46,8 +46,8 @@ builder.InsertCell();
 builder.Write("Header Row,\n Cell 3");
 builder.EndRow();
 
-// Rekonfiguriere die Formatierungsobjekte des Builders für neue Zeilen und Zellen, die wir gleich erstellen werden.
-// Der Builder wendet diese nicht auf die erste bereits erstellte Zeile an, damit sie als Kopfzeile hervorsticht.
+// Konfigurieren Sie die Formatierungsobjekte des Builders für neue Zeilen und Zellen neu, die wir erstellen möchten.
+// Der Builder wendet diese nicht auf die erste bereits erstellte Zeile an, sodass diese als Kopfzeile hervorsticht.
 builder.CellFormat.Shading.BackgroundPatternColor = Color.White;
 builder.CellFormat.VerticalAlignment = CellVerticalAlignment.Center;
 builder.RowFormat.Height = 30;

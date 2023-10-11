@@ -1,14 +1,16 @@
 ---
 title: Class ShapeRenderer
 second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Rendering.ShapeRenderer classe. Fornisce metodi per eseguire il rendering di un individuoShape oGroupShape in unimmagine raster o vettoriale o in un oggetto Graphics.
+description: Aspose.Words.Rendering.ShapeRenderer classe. Fornisce metodi per eseguire il rendering di un individuoShape OGroupShape in unimmagine raster o vettoriale o in un oggetto grafico.
 type: docs
-weight: 4330
+weight: 4590
 url: /it/net/aspose.words.rendering/shaperenderer/
 ---
 ## ShapeRenderer class
 
-Fornisce metodi per eseguire il rendering di un individuo[`Shape`](../../aspose.words.drawing/shape/) o[`GroupShape`](../../aspose.words.drawing/groupshape/) in un'immagine raster o vettoriale o in un oggetto Graphics.
+Fornisce metodi per eseguire il rendering di un individuo[`Shape`](../../aspose.words.drawing/shape/) O[`GroupShape`](../../aspose.words.drawing/groupshape/) in un'immagine raster o vettoriale o in un oggetto grafico.
+
+Per saperne di più, visita il[Lavorare con le forme](https://docs.aspose.com/words/net/working-with-shapes/) articolo di documentazione.
 
 ```csharp
 public class ShapeRenderer : NodeRendererBase
@@ -40,22 +42,23 @@ public class ShapeRenderer : NodeRendererBase
 | [GetSizeInPixels](../../aspose.words.rendering/noderendererbase/getsizeinpixels/)(float, float, float) | Calcola la dimensione della forma in pixel per un fattore di zoom e una risoluzione specificati. |
 | [RenderToScale](../../aspose.words.rendering/noderendererbase/rendertoscale/)(Graphics, float, float, float) | Rende la forma in aGraphics oggetto su una scala specificata. |
 | [RenderToSize](../../aspose.words.rendering/noderendererbase/rendertosize/)(Graphics, float, float, float, float) | Rende la forma in aGraphics oggetto a una dimensione specificata. |
-| [Save](../../aspose.words.rendering/noderendererbase/save/)(Stream, ImageSaveOptions) | Rende la forma in un'immagine e salva in un flusso. |
-| [Save](../../aspose.words.rendering/noderendererbase/save/)(string, ImageSaveOptions) | Rende la forma in un'immagine e salva in un file. |
+| [Save](../../aspose.words.rendering/noderendererbase/save/)(Stream, ImageSaveOptions) | Rende la forma in un'immagine e la salva in uno stream. |
+| [Save](../../aspose.words.rendering/noderendererbase/save/)(string, ImageSaveOptions) | Rende la forma in un'immagine e la salva in un file. |
 
 ### Esempi
 
 Mostra come eseguire il rendering di una forma con un oggetto Graphics e visualizzarla utilizzando un Windows Form.
 
 ```csharp
+public void RenderShapesOnForm()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
     ShapeForm shapeForm = new ShapeForm(new Size(1017, 840));
 
-    // Di seguito sono riportati due modi per utilizzare la classe "ShapeRenderer" per eseguire il rendering di una forma in un oggetto Graphics.
-    // 1 - Crea una forma con un grafico e rendila su una scala specifica.
+    // Di seguito sono riportati due modi per utilizzare la classe "ShapeRenderer" per eseguire il rendering di una forma su un oggetto Graphics.
+    // 1 - Crea una forma con un grafico e renderla su una scala specifica.
     Chart chart = builder.InsertChart(ChartType.Pie, 500, 400).Chart;
     chart.Series.Clear();
     chart.Series.Add("Desktop Browser Market Share (Oct. 2020)",
@@ -96,7 +99,7 @@ Mostra come eseguire il rendering di una forma con un oggetto Graphics e visuali
 }
 
 /// <summary>
-/// Rendering e visualizzazione di un elenco di forme.
+/// Renderizza e visualizza un elenco di forme.
 /// </summary>
 private class ShapeForm : Form
 {
@@ -145,6 +148,7 @@ private class ShapeForm : Form
         }
     }
 
+    private readonly List<KeyValuePair<ShapeBase, float[]>> mShapesToRender;
 }
 ```
 

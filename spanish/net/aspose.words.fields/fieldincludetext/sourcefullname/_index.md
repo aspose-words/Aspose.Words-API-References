@@ -1,14 +1,14 @@
 ---
 title: FieldIncludeText.SourceFullName
 second_title: Referencia de API de Aspose.Words para .NET
-description: FieldIncludeText propiedad. Obtiene o establece la ubicación del documento usando un IRI.
+description: FieldIncludeText propiedad. Obtiene o establece la ubicación del documento mediante un IRI.
 type: docs
 weight: 70
 url: /es/net/aspose.words.fields/fieldincludetext/sourcefullname/
 ---
 ## FieldIncludeText.SourceFullName property
 
-Obtiene o establece la ubicación del documento usando un IRI.
+Obtiene o establece la ubicación del documento mediante un IRI.
 
 ```csharp
 public string SourceFullName { get; set; }
@@ -36,7 +36,9 @@ public void FieldIncludeText()
     fieldIncludeText.NamespaceMappings = "xmlns:n='myNamespace'";
     fieldIncludeText.XPath = "/catalog/cd/title";
 
+    doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.INCLUDETEXT.docx");
+}
 
 /// <summary>
 /// Utilice un generador de documentos para insertar un campo INCLUDETEXT con propiedades personalizadas.

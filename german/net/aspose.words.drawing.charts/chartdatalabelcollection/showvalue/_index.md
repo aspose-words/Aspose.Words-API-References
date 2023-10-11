@@ -1,14 +1,14 @@
 ---
 title: ChartDataLabelCollection.ShowValue
 second_title: Aspose.Words für .NET-API-Referenz
-description: ChartDataLabelCollection eigendom. Ermöglicht die Angabe ob Werte in den Datenetiketten der gesamten Serie angezeigt werden sollen. Standardwert ist FALSCH .
+description: ChartDataLabelCollection eigendom. Ermöglicht die Angabe ob Werte in den Datenbeschriftungen der gesamten Serie angezeigt werden sollen. Der Standardwert istFALSCH .
 type: docs
-weight: 120
+weight: 140
 url: /de/net/aspose.words.drawing.charts/chartdatalabelcollection/showvalue/
 ---
 ## ChartDataLabelCollection.ShowValue property
 
-Ermöglicht die Angabe, ob Werte in den Datenetiketten der gesamten Serie angezeigt werden sollen. Standardwert ist **FALSCH** .
+Ermöglicht die Angabe, ob Werte in den Datenbeschriftungen der gesamten Serie angezeigt werden sollen. Der Standardwert ist`FALSCH` .
 
 ```csharp
 public bool ShowValue { get; set; }
@@ -16,11 +16,11 @@ public bool ShowValue { get; set; }
 
 ### Bemerkungen
 
-Der für diese Eigenschaft definierte Wert kann für eine einzelne Datenbeschriftung mit der Verwendung von überschrieben werden.[`ShowValue`](../../chartdatalabel/showvalue/) Eigentum.
+Der für diese Eigenschaft definierte Wert kann für eine einzelne Datenbeschriftung mithilfe von überschrieben werden.[`ShowValue`](../../chartdatalabel/showvalue/) Eigenschaft.
 
 ### Beispiele
 
-Zeigt, wie Sie mit Datenbeschriftungen eines Kreisdiagramms arbeiten.
+Zeigt, wie mit Datenbeschriftungen eines Kreisdiagramms gearbeitet wird.
 
 ```csharp
 Document doc = new Document();
@@ -31,12 +31,12 @@ Chart chart = builder.InsertChart(ChartType.Pie, 500, 300).Chart;
 // Löschen Sie die Demo-Datenreihe des Diagramms, um mit einem sauberen Diagramm zu beginnen.
 chart.Series.Clear();
 
-// Fügen Sie eine benutzerdefinierte Diagrammreihe mit einem Kategorienamen für jeden der Sektoren und deren Häufigkeitstabelle ein.
+// Fügen Sie eine benutzerdefinierte Diagrammreihe mit einem Kategorienamen für jeden Sektor und deren Häufigkeitstabelle ein.
 ChartSeries series = chart.Series.Add("Aspose Test Series",
     new[] { "Word", "PDF", "Excel" },
     new[] { 2.7, 3.2, 0.8 });
 
-// Aktivieren Sie Datenbeschriftungen, die sowohl den Prozentsatz als auch die Häufigkeit jedes Sektors anzeigen, und ändern Sie deren Aussehen.
+// Aktivieren Sie Datenbeschriftungen, die sowohl den Prozentsatz als auch die Häufigkeit jedes Sektors anzeigen, und ändern Sie deren Erscheinungsbild.
 series.HasDataLabels = true;
 ChartDataLabelCollection dataLabels = series.DataLabels;
 dataLabels.ShowLeaderLines = true;

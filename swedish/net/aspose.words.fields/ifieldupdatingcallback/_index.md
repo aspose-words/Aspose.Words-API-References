@@ -3,7 +3,7 @@ title: Interface IFieldUpdatingCallback
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Fields.IFieldUpdatingCallback gränssnitt. Implementera detta gränssnitt om du vill att dina egna anpassade metoder ska anropas under en fältuppdatering.
 type: docs
-weight: 2550
+weight: 2720
 url: /sv/net/aspose.words.fields/ifieldupdatingcallback/
 ---
 ## IFieldUpdatingCallback interface
@@ -26,6 +26,7 @@ public interface IFieldUpdatingCallback
 Visar hur man använder återuppringningsmetoder under en fältuppdatering.
 
 ```csharp
+public void FieldUpdatingCallbackTest()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -48,7 +49,7 @@ Visar hur man använder återuppringningsmetoder under en fältuppdatering.
 /// <summary>
 /// Implementera detta gränssnitt om du vill ha dina egna anpassade metoder anropade under en fältuppdatering.
 /// </summary>
-public class FieldUpdatingCallback : IFieldUpdatingCallback
+public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgressCallback
 {
     public FieldUpdatingCallback()
     {
@@ -73,6 +74,12 @@ public class FieldUpdatingCallback : IFieldUpdatingCallback
     void IFieldUpdatingCallback.FieldUpdated(Field field)
     {
         FieldUpdatedCalls.Add(field.Result);
+    }
+
+    void IFieldUpdatingProgressCallback.Notify(FieldUpdatingProgressArgs args)
+    {
+        Console.WriteLine($"{args.UpdateCompleted}/{args.TotalFieldsCount}");
+        Console.WriteLine($"{args.UpdatedFieldsCount}");
     }
 
     public IList<string> FieldUpdatedCalls { get; }

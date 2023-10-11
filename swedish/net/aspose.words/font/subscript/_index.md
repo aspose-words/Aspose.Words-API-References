@@ -20,7 +20,7 @@ Visar hur man formaterar text för att förskjuta dess position.
 
 ```csharp
 Document doc = new Document();
-Paragraph para = (Paragraph) doc.GetChild(NodeType.Paragraph, 0, true);
+Paragraph para = (Paragraph)doc.GetChild(NodeType.Paragraph, 0, true);
 
 // Höj den här texten 5 punkter över baslinjen.
 Run run = new Run(doc, "Raised text. ");

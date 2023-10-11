@@ -3,12 +3,14 @@ title: Class DocumentVisitor
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.DocumentVisitor klass. Basklass för anpassade dokumentbesökare.
 type: docs
-weight: 460
+weight: 470
 url: /sv/net/aspose.words/documentvisitor/
 ---
 ## DocumentVisitor class
 
 Basklass för anpassade dokumentbesökare.
+
+För att lära dig mer, besök[Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) dokumentationsartikel.
 
 ```csharp
 public abstract class DocumentVisitor
@@ -62,8 +64,8 @@ public abstract class DocumentVisitor
 | virtual [VisitSmartTagStart](../../aspose.words/documentvisitor/visitsmarttagstart/)(SmartTag) | Anropas när uppräkningen av en smart tagg har börjat. |
 | virtual [VisitSpecialChar](../../aspose.words/documentvisitor/visitspecialchar/)(SpecialChar) | Ringde när en[`SpecialChar`](../specialchar/) nod påträffas i dokumentet. |
 | virtual [VisitStructuredDocumentTagEnd](../../aspose.words/documentvisitor/visitstructureddocumenttagend/)(StructuredDocumentTag) | Anropas när uppräkningen av en strukturerad dokumenttagg har avslutats. |
-| virtual [VisitStructuredDocumentTagRangeEnd](../../aspose.words/documentvisitor/visitstructureddocumenttagrangeend/)(StructuredDocumentTagRangeEnd) |  |
-| virtual [VisitStructuredDocumentTagRangeStart](../../aspose.words/documentvisitor/visitstructureddocumenttagrangestart/)(StructuredDocumentTagRangeStart) |  |
+| virtual [VisitStructuredDocumentTagRangeEnd](../../aspose.words/documentvisitor/visitstructureddocumenttagrangeend/)(StructuredDocumentTagRangeEnd) | Anropas när ett StructuredDocumentTagRangeEnd påträffas. |
+| virtual [VisitStructuredDocumentTagRangeStart](../../aspose.words/documentvisitor/visitstructureddocumenttagrangestart/)(StructuredDocumentTagRangeStart) | Anropas när en StructuredDocumentTagRangeStart påträffas. |
 | virtual [VisitStructuredDocumentTagStart](../../aspose.words/documentvisitor/visitstructureddocumenttagstart/)(StructuredDocumentTag) | Anropas när uppräkningen av en strukturerad dokumenttagg har startat. |
 | virtual [VisitSubDocument](../../aspose.words/documentvisitor/visitsubdocument/)(SubDocument) | Anropas när ett underdokument påträffas. |
 | virtual [VisitTableEnd](../../aspose.words/documentvisitor/visittableend/)(Table) | Anropas när uppräkningen av en tabell är avslutad. |
@@ -71,17 +73,17 @@ public abstract class DocumentVisitor
 
 ### Anmärkningar
 
-Med **DocumentVisitor** du kan definiera och köra anpassade operationer som kräver uppräkning över dokumentträdet.
+Med`DocumentVisitor` du kan definiera och köra anpassade operationer som kräver uppräkning över dokumentträdet.
 
-Till exempel använder Aspose.Words **DocumentVisitor** internt för att spara **Dokumentera** i olika format och för andra operationer som att hitta fält eller bokmärken över ett fragment av ett dokument.
+Till exempel använder Aspose.Words`DocumentVisitor` internt för att spara[`Document`](../document/) i olika format och för andra operationer som att hitta fält eller bokmärken över ett fragment av ett dokument.
 
-Att använda **DocumentVisitor**:
+Att använda`DocumentVisitor`:
 
-1. Skapa en klass som härrör från **DocumentVisitor**.
+1. Skapa en klass som härrör från`DocumentVisitor`.
 2. Åsidosätt och tillhandahåll implementeringar för några eller alla VisitXXX-metoderna för att utföra vissa anpassade operationer.
-3. Ringa upp[`Node.Acceptera`](../node/accept/) på **Nod** that du vill börja uppräkningen från.
+3. Ring upp[`Node.Acceptera`](../node/accept/) på[`Node`](../node/) that du vill börja uppräkningen från.
 
-**DocumentVisitor**tillhandahåller standardimplementeringar för alla VisitXXX-metoderna för att göra det enklare att skapa nya dokumentbesökare eftersom endast de metoder som krävs för den särskilda -besökaren behöver åsidosättas. Det är inte nödvändigt att åsidosätta alla besöksmetoder.
+`DocumentVisitor` tillhandahåller standardimplementeringar för alla VisitXXX-metoderna för att göra det enklare att skapa nya dokumentbesökare eftersom endast de metoder som krävs för den särskilda -besökaren behöver åsidosättas. Det är inte nödvändigt att åsidosätta alla besöksmetoder.
 
 För mer information se Visitor design mönster.
 

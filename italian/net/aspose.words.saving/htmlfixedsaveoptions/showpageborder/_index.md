@@ -1,14 +1,14 @@
 ---
 title: HtmlFixedSaveOptions.ShowPageBorder
 second_title: Aspose.Words per .NET API Reference
-description: HtmlFixedSaveOptions proprietà. Specifica se deve essere visualizzato il bordo attorno alle pagine. Limpostazione predefinita èVERO .
+description: HtmlFixedSaveOptions proprietà. Specifica se deve essere mostrato il bordo attorno alle pagine. Limpostazione predefinita èVERO .
 type: docs
 weight: 180
 url: /it/net/aspose.words.saving/htmlfixedsaveoptions/showpageborder/
 ---
 ## HtmlFixedSaveOptions.ShowPageBorder property
 
-Specifica se deve essere visualizzato il bordo attorno alle pagine. L'impostazione predefinita è`VERO` .
+Specifica se deve essere mostrato il bordo attorno alle pagine. L'impostazione predefinita è`VERO` .
 
 ```csharp
 public bool ShowPageBorder { get; set; }
@@ -16,7 +16,7 @@ public bool ShowPageBorder { get; set; }
 
 ### Esempi
 
-Mostra come utilizzare un callback per stampare gli URI di risorse esterne create durante la conversione di un documento in HTML.
+Mostra come utilizzare un callback per stampare gli URI delle risorse esterne create durante la conversione di un documento in HTML.
 
 ```csharp
 public void HtmlFixedResourceFolder()
@@ -35,8 +35,8 @@ public void HtmlFixedResourceFolder()
         ResourceSavingCallback = callback
     };
 
-    // Una cartella specificata da ResourcesFolderAlias conterrà le risorse invece di ResourcesFolder.
-    // Dobbiamo assicurarci che la cartella esista prima che gli stream possano inserirvi le proprie risorse.
+    // Una cartella specificata da ResourcesFolderAlias conterrà le risorse anziché ResourcesFolder.
+    // Dobbiamo garantire che la cartella esista prima che i flussi possano inserirvi le proprie risorse.
     Directory.CreateDirectory(options.ResourcesFolderAlias);
 
     doc.Save(ArtifactsDir + "HtmlFixedSaveOptions.HtmlFixedResourceFolder.html", options);
@@ -50,13 +50,13 @@ public void HtmlFixedResourceFolder()
 }
 
 /// <summary>
-/// Conta e stampa gli URI delle risorse contenute in quando vengono convertiti in HTML fisso.
+/// Conta e stampa gli URI delle risorse contenute da mentre vengono convertiti in HTML fisso.
 /// </summary>
 private class ResourceUriPrinter : IResourceSavingCallback
 {
     void IResourceSavingCallback.ResourceSaving(ResourceSavingArgs args)
     {
-        // Se impostiamo un alias di cartella nell'oggetto SaveOptions, saremo in grado di stamparlo da qui.
+        // Se impostiamo un alias di cartella nell'oggetto SaveOptions, potremo stamparlo da qui.
         mText.AppendLine($"Resource #{++mSavedResourceCount} \"{args.ResourceFileName}\"");
 
         string extension = Path.GetExtension(args.ResourceFileName);
@@ -65,8 +65,8 @@ private class ResourceUriPrinter : IResourceSavingCallback
             case ".ttf":
             case ".woff":
             {
-                // Per impostazione predefinita, 'ResourceFileUri' utilizza la cartella di sistema per i caratteri.
-                // Per evitare problemi su altre piattaforme è necessario specificare in modo esplicito il percorso dei caratteri.
+                // Per impostazione predefinita, "ResourceFileUri" utilizza la cartella di sistema per i caratteri.
+                // Per evitare problemi su altre piattaforme è necessario specificare esplicitamente il percorso dei caratteri.
                 args.ResourceFileUri = ArtifactsDir + Path.DirectorySeparatorChar + args.ResourceFileName;
                 break;
             }
@@ -75,7 +75,7 @@ private class ResourceUriPrinter : IResourceSavingCallback
         mText.AppendLine("\t" + args.ResourceFileUri);
 
         // Se abbiamo specificato una cartella nella proprietà "ResourcesFolderAlias",
-        // dovremo anche reindirizzare ogni flusso per mettere la sua risorsa in quella cartella.
+        // dovremo anche reindirizzare ogni flusso per inserire la relativa risorsa in quella cartella.
         args.ResourceStream = new FileStream(args.ResourceFileUri, FileMode.Create);
         args.KeepResourceStreamOpen = false;
     }

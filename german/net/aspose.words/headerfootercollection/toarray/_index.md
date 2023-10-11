@@ -1,14 +1,14 @@
 ---
 title: HeaderFooterCollection.ToArray
 second_title: Aspose.Words für .NET-API-Referenz
-description: HeaderFooterCollection methode. Kopiert alleKopfzeileFußzeile s von der Sammlung zu einem neuen Array vonKopfzeileFußzeile s.
+description: HeaderFooterCollection methode. Kopiert allesKopf und Fußzeile s aus der Sammlung in ein neues Array vonKopf und Fußzeile s.
 type: docs
 weight: 30
 url: /de/net/aspose.words/headerfootercollection/toarray/
 ---
 ## HeaderFooterCollection.ToArray method
 
-Kopiert alle`KopfzeileFußzeile` s von der Sammlung zu einem neuen Array von`KopfzeileFußzeile` s.
+Kopiert alles`Kopf- und Fußzeile` s aus der Sammlung in ein neues Array von`Kopf- und Fußzeile` s.
 
 ```csharp
 public HeaderFooter[] ToArray()
@@ -16,7 +16,7 @@ public HeaderFooter[] ToArray()
 
 ### Rückgabewert
 
-Eine Reihe von`KopfzeileFußzeile`s.
+Eine Reihe von`Kopf- und Fußzeile`S.
 
 ### Beispiele
 
@@ -28,21 +28,21 @@ public void HeaderFooterToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     HeaderFooterStructurePrinter visitor = new HeaderFooterStructurePrinter();
 
-    // Wenn wir einen zusammengesetzten Knoten dazu bringen, einen Dokumentbesucher zu akzeptieren, besucht der Besucher den akzeptierenden Knoten,
-    // und durchläuft dann alle untergeordneten Elemente des Knotens mit der Tiefe zuerst.
+    // Wenn wir einen zusammengesetzten Knoten erhalten, der einen Dokumentbesucher akzeptiert, besucht der Besucher den akzeptierenden Knoten.
+    // und durchläuft dann alle untergeordneten Knoten des Knotens in einer Tiefe-zuerst-Methode.
     // Der Besucher kann jeden besuchten Knoten lesen und ändern.
     doc.Accept(visitor);
 
     Console.WriteLine(visitor.GetText());
 
-    // Eine alternative Möglichkeit, abschnittsweise auf die Kopf-/Fußzeile eines Dokuments zuzugreifen, ist der Zugriff auf die Sammlung.
+    // Eine alternative Möglichkeit, abschnittsweise auf die Kopf-/Fußzeilen eines Dokuments zuzugreifen, ist der Zugriff auf die Sammlung.
     HeaderFooter[] headerFooters = doc.FirstSection.HeadersFooters.ToArray();
     Assert.AreEqual(3, headerFooters.Length);
 }
 
 /// <summary>
 /// Durchläuft den nicht-binären Baum der untergeordneten Knoten eines Knotens.
-/// Erstellt eine Karte in Form eines Strings aller angetroffenen HeaderFooter-Knoten und ihrer Kinder.
+/// Erstellt eine Karte in Form einer Zeichenfolge aller gefundenen HeaderFooter-Knoten und ihrer untergeordneten Knoten.
 /// </summary>
 public class HeaderFooterStructurePrinter : DocumentVisitor
 {
@@ -92,7 +92,7 @@ public class HeaderFooterStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Eine Zeile an den StringBuilder anhängen und einrücken, je nachdem, wie tief der Besucher in den Dokumentenbaum eindringt.
+    /// Hängen Sie eine Zeile an den StringBuilder an und rücken Sie sie ein, je nachdem, wie tief sich der Besucher im Dokumentbaum befindet.
     /// </summary>
     /// <param name="text"></param>
     private void IndentAndAppendLine(string text)

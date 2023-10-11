@@ -1,14 +1,14 @@
 ---
 title: PageSetup.LeftMargin
 second_title: Aspose.Words for .NET API Referansı
-description: PageSetup mülk. Sayfanın sol kenarı ile gövde metninin sol sınırı arasındaki mesafeyi nokta olarak döndürür veya ayarlar.
+description: PageSetup mülk. Sayfanın sol kenarı ile gövde metninin sol sınırı arasındaki mesafeyi nokta cinsinden döndürür veya ayarlar.
 type: docs
 weight: 200
 url: /tr/net/aspose.words/pagesetup/leftmargin/
 ---
 ## PageSetup.LeftMargin property
 
-Sayfanın sol kenarı ile gövde metninin sol sınırı arasındaki mesafeyi (nokta olarak) döndürür veya ayarlar.
+Sayfanın sol kenarı ile gövde metninin sol sınırı arasındaki mesafeyi (nokta cinsinden) döndürür veya ayarlar.
 
 ```csharp
 public double LeftMargin { get; set; }
@@ -16,7 +16,7 @@ public double LeftMargin { get; set; }
 
 ### Örnekler
 
-Bir bölüm için diğer ayarlarla birlikte kağıt boyutunun, yönün, kenar boşluklarının nasıl ayarlanacağını gösterir.
+Bir bölüm için kağıt boyutunun, yönünün, kenar boşluklarının ve diğer ayarların nasıl ayarlanacağını gösterir.
 
 ```csharp
 Document doc = new Document();

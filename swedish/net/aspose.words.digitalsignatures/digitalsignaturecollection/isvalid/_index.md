@@ -1,14 +1,14 @@
 ---
 title: DigitalSignatureCollection.IsValid
 second_title: Aspose.Words för .NET API Referens
-description: DigitalSignatureCollection fast egendom. ReturnerarSann om alla digitala signaturer i denna samling är giltiga och dokumentet inte har manipulerats returneras ocksåSannom det inte finns några digitala signaturer. Returnerarfalsk om minst en digital signatur är ogiltig.
+description: DigitalSignatureCollection fast egendom. ReturnerarSann om alla digitala signaturer i denna samling är giltiga och dokumentet inte har manipulerats returneras ocksåSann om det inte finns några digitala signaturer. Returnerarfalsk om minst en digital signatur är ogiltig.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.digitalsignatures/digitalsignaturecollection/isvalid/
 ---
 ## DigitalSignatureCollection.IsValid property
 
-Returnerar`Sann` om alla digitala signaturer i denna samling är giltiga och dokumentet inte har manipulerats returneras också`Sann`om det inte finns några digitala signaturer. Returnerar`falsk` om minst en digital signatur är ogiltig.
+Returnerar`Sann` om alla digitala signaturer i denna samling är giltiga och dokumentet inte har manipulerats returneras också`Sann` om det inte finns några digitala signaturer. Returnerar`falsk` om minst en digital signatur är ogiltig.
 
 ```csharp
 public bool IsValid { get; }

@@ -3,12 +3,14 @@ title: Class FieldCitation
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Fields.FieldCitation klass. Implementerar fältet CITATION.
 type: docs
-weight: 1530
+weight: 1680
 url: /sv/net/aspose.words.fields/fieldcitation/
 ---
 ## FieldCitation class
 
 Implementerar fältet CITATION.
+
+För att lära dig mer, besök[Arbeta med Fields](https://docs.aspose.com/words/net/working-with-fields/) dokumentationsartikel.
 
 ```csharp
 public class FieldCitation : Field
@@ -24,7 +26,7 @@ public class FieldCitation : Field
 
 | namn | Beskrivning |
 | --- | --- |
-| [AnotherSourceTag](../../aspose.words.fields/fieldcitation/anothersourcetag/) { get; set; } | Hämtar eller ställer in ett värde som motsvarar **Märka** elementets värde för en annan källa som ska inkluderas i citatet. |
+| [AnotherSourceTag](../../aspose.words.fields/fieldcitation/anothersourcetag/) { get; set; } | Hämtar eller ställer in ett värde som matchar **Märka** elementets värde för en annan källa som ska inkluderas i citatet. |
 | [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | Hämtar texten som representerar det visade fältresultatet. |
 | [End](../../aspose.words.fields/field/end/) { get; } | Hämtar noden som representerar fältänden. |
 | [Format](../../aspose.words.fields/field/format/) { get; } | Får en[`FieldFormat`](../fieldformat/) objekt som ger maskinskriven åtkomst till fältets formatering. |
@@ -35,8 +37,8 @@ public class FieldCitation : Field
 | [PageNumber](../../aspose.words.fields/fieldcitation/pagenumber/) { get; set; } | Hämtar eller ställer in ett sidnummer kopplat till citatet. |
 | [Prefix](../../aspose.words.fields/fieldcitation/prefix/) { get; set; } | Hämtar eller ställer in ett prefix som föregås av citatet. |
 | [Result](../../aspose.words.fields/field/result/) { get; set; } | Hämtar eller ställer in text som är mellan fältavgränsaren och fältslutet. |
-| [Separator](../../aspose.words.fields/field/separator/) { get; } | Hämtar noden som representerar fältseparatorn. Kan vara null. |
-| [SourceTag](../../aspose.words.fields/fieldcitation/sourcetag/) { get; set; } | Hämtar eller ställer in ett värde som motsvarar **Märka**elementets värde för källan som ska infogas. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | Hämtar noden som representerar fältseparatorn. Kan vara`null` . |
+| [SourceTag](../../aspose.words.fields/fieldcitation/sourcetag/) { get; set; } | Hämtar eller ställer in ett värde som matchar **Märka** elementets värde för källan som ska infogas. |
 | [Start](../../aspose.words.fields/field/start/) { get; } | Hämtar noden som representerar början av fältet. |
 | [Suffix](../../aspose.words.fields/fieldcitation/suffix/) { get; set; } | Hämtar eller ställer in ett suffix som läggs till citatet. |
 | [SuppressAuthor](../../aspose.words.fields/fieldcitation/suppressauthor/) { get; set; } | Hämtar eller ställer in om författarens information dämpas från citatet. |
@@ -51,7 +53,7 @@ public class FieldCitation : Field
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Returnerar text mellan fältstart och fältavgränsare (eller fältslut om det inte finns någon avgränsare). Både fältkod och fältresultat för underordnade fält ingår. |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Returnerar text mellan fältstart och fältavgränsare (eller fältslut om det inte finns någon avgränsare). |
-| [Remove](../../aspose.words.fields/field/remove/)() | Tar bort fältet från dokumentet. Returnerar en nod direkt efter fältet. Om fältets slut är den sista child av dess överordnade nod, returnerar dess överordnade stycke. Om fältet redan är borttaget, returneras **null** . |
+| [Remove](../../aspose.words.fields/field/remove/)() | Tar bort fältet från dokumentet. Returnerar en nod direkt efter fältet. Om fältets slut är den sista child av dess överordnade nod, returnerar dess överordnade stycke. Om fältet redan är borttaget, returneras`null` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Utför fältavlänkningen. |
 | [Update](../../aspose.words.fields/field/update/)() | Utför fältuppdateringen. Kastar om fältet redan uppdateras. |
 | [Update](../../aspose.words.fields/field/update/)(bool) | Utför en fältuppdatering. Kastar om fältet redan uppdateras. |
@@ -103,9 +105,9 @@ Assert.AreEqual(" CITATION  Book1 \\m Book2 \\l en-US \\p 19 \\f \"Prefix \" \\s
 // Vi kan använda ett BIBLIOGRAFI-fält för att visa alla källor i dokumentet.
 builder.InsertBreak(BreakType.PageBreak);
 FieldBibliography fieldBibliography = (FieldBibliography)builder.InsertField(FieldType.FieldBibliography, true);
-fieldBibliography.FormatLanguageId = "1124";
+fieldBibliography.FormatLanguageId = "5129";
 
-Assert.AreEqual(" BIBLIOGRAPHY  \\l 1124", fieldBibliography.GetFieldCode());
+Assert.AreEqual(" BIBLIOGRAPHY  \\l 5129", fieldBibliography.GetFieldCode());
 
 doc.UpdateFields();
 doc.Save(ArtifactsDir + "Field.CITATION.docx");

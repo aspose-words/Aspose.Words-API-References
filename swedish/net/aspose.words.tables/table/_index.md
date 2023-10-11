@@ -3,12 +3,14 @@ title: Class Table
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Tables.Table klass. Representerar en tabell i ett Worddokument.
 type: docs
-weight: 6040
+weight: 6340
 url: /sv/net/aspose.words.tables/table/
 ---
 ## Table class
 
 Representerar en tabell i ett Word-dokument.
+
+För att lära dig mer, besök[Arbeta med tabeller](https://docs.aspose.com/words/net/working-with-tables/) dokumentationsartikel.
 
 ```csharp
 public class Table : CompositeNode
@@ -18,7 +20,7 @@ public class Table : CompositeNode
 
 | namn | Beskrivning |
 | --- | --- |
-| [Table](table/)(DocumentBase) | Initierar en ny instans av **Tabell** class. |
+| [Table](table/)(DocumentBase) | Initierar en ny instans av`Table` class. |
 
 ## Egenskaper
 
@@ -33,30 +35,29 @@ public class Table : CompositeNode
 | [Bidi](../../aspose.words.tables/table/bidi/) { get; set; } | Hämtar eller ställer in om detta är en tabell från höger till vänster. |
 | [BottomPadding](../../aspose.words.tables/table/bottompadding/) { get; set; } | Hämtar eller ställer in mängden utrymme (i poäng) som ska läggas till under innehållet i celler. |
 | [CellSpacing](../../aspose.words.tables/table/cellspacing/) { get; set; } | Hämtar eller ställer in mängden utrymme (i poäng) mellan cellerna. |
-| [ChildNodes](../../aspose.words/compositenode/childnodes/) { get; } | Hämtar alla omedelbara underordnade noder för denna nod. |
 | [Count](../../aspose.words/compositenode/count/) { get; } | Hämtar antalet omedelbara barn till denna nod. |
 | [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Anger anpassad nodidentifierare. |
 | [Description](../../aspose.words.tables/table/description/) { get; set; } | Hämtar eller ställer in en beskrivning av denna tabell. Den ger en alternativ textrepresentation av informationen i tabellen. |
-| [DistanceBottom](../../aspose.words.tables/table/distancebottom/) { get; } | Får avståndet mellan tabellbotten och den omgivande texten, i punkter. |
-| [DistanceLeft](../../aspose.words.tables/table/distanceleft/) { get; } | Får avståndet mellan tabellen till vänster och den omgivande texten, i punkter. |
-| [DistanceRight](../../aspose.words.tables/table/distanceright/) { get; } | Får avståndet mellan tabell höger och omgivande text, i punkter. |
-| [DistanceTop](../../aspose.words.tables/table/distancetop/) { get; } | Får avståndet mellan bordsskivan och den omgivande texten, i punkter. |
+| [DistanceBottom](../../aspose.words.tables/table/distancebottom/) { get; set; } | Hämtar eller ställer in avståndet mellan tabellbotten och den omgivande texten, i punkter. |
+| [DistanceLeft](../../aspose.words.tables/table/distanceleft/) { get; set; } | Hämtar eller ställer in avståndet mellan tabellen till vänster och den omgivande texten, i punkter. |
+| [DistanceRight](../../aspose.words.tables/table/distanceright/) { get; set; } | Hämtar eller ställer in avståndet mellan tabellens högra sida och den omgivande texten, i punkter. |
+| [DistanceTop](../../aspose.words.tables/table/distancetop/) { get; set; } | Hämtar eller ställer in avståndet mellan bordsskivan och den omgivande texten, i punkter. |
 | virtual [Document](../../aspose.words/node/document/) { get; } | Hämtar dokumentet som denna nod tillhör. |
 | [FirstChild](../../aspose.words/compositenode/firstchild/) { get; } | Får det första barnet i noden. |
-| [FirstRow](../../aspose.words.tables/table/firstrow/) { get; } | Returnerar den första **Rad** nod i tabellen. |
-| [HasChildNodes](../../aspose.words/compositenode/haschildnodes/) { get; } | Returnerar sant om denna nod har några underordnade noder. |
+| [FirstRow](../../aspose.words.tables/table/firstrow/) { get; } | Returnerar den första[`Row`](../row/) nod i tabellen. |
+| [HasChildNodes](../../aspose.words/compositenode/haschildnodes/) { get; } | Returnerar`Sann` om denna nod har några undernoder. |
 | [HorizontalAnchor](../../aspose.words.tables/table/horizontalanchor/) { get; set; } | Hämtar basobjektet från vilket den horisontella positioneringen av flytande tabell ska beräknas. Standardvärdet ärColumn . |
-| override [IsComposite](../../aspose.words/compositenode/iscomposite/) { get; } | Returnerar sant eftersom denna nod kan ha underordnade noder. |
+| override [IsComposite](../../aspose.words/compositenode/iscomposite/) { get; } | Returnerar`Sann` eftersom denna nod kan ha underordnade noder. |
 | [LastChild](../../aspose.words/compositenode/lastchild/) { get; } | Hämtar nodens sista underordnade. |
-| [LastRow](../../aspose.words.tables/table/lastrow/) { get; } | Returnerar den sista **Rad** nod i tabellen. |
+| [LastRow](../../aspose.words.tables/table/lastrow/) { get; } | Returnerar den sista[`Row`](../row/) nod i tabellen. |
 | [LeftIndent](../../aspose.words.tables/table/leftindent/) { get; set; } | Hämtar eller ställer in värdet som representerar den vänstra indraget i tabellen. |
 | [LeftPadding](../../aspose.words.tables/table/leftpadding/) { get; set; } | Hämtar eller ställer in mängden utrymme (i poäng) som ska läggas till till vänster om innehållet i celler. |
 | [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Hämtar noden omedelbart efter denna nod. |
-| override [NodeType](../../aspose.words.tables/table/nodetype/) { get; } | Returnerar **NodeType.Table** . |
+| override [NodeType](../../aspose.words.tables/table/nodetype/) { get; } | ReturnerarTable . |
 | [ParentNode](../../aspose.words/node/parentnode/) { get; } | Hämtar den omedelbara föräldern till denna nod. |
 | [PreferredWidth](../../aspose.words.tables/table/preferredwidth/) { get; set; } | Hämtar eller ställer in tabellens föredragna bredd. |
 | [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Hämtar noden omedelbart före denna nod. |
-| [Range](../../aspose.words/node/range/) { get; } | Returnerar en **Räckvidd** objekt som representerar den del av ett dokument som finns i denna nod. |
+| [Range](../../aspose.words/node/range/) { get; } | Returnerar en[`Range`](../../aspose.words/range/) objekt som representerar den del av ett dokument som finns i denna nod. |
 | [RelativeHorizontalAlignment](../../aspose.words.tables/table/relativehorizontalalignment/) { get; set; } | Hämtar eller ställer in flytande tabell relativ horisontell justering. |
 | [RelativeVerticalAlignment](../../aspose.words.tables/table/relativeverticalalignment/) { get; set; } | Hämtar eller ställer in flytande tabell relativ vertikal justering. |
 | [RightPadding](../../aspose.words.tables/table/rightpadding/) { get; set; } | Hämtar eller ställer in mängden utrymme (i poäng) som ska läggas till till höger om innehållet i celler. |
@@ -75,14 +76,16 @@ public class Table : CompositeNode
 | namn | Beskrivning |
 | --- | --- |
 | override [Accept](../../aspose.words.tables/table/accept/)(DocumentVisitor) | Accepterar en besökare. |
-| [AppendChild](../../aspose.words/compositenode/appendchild/)(Node) | Lägger till den angivna noden i slutet av listan över underordnade noder för denna nod. |
+| override [AcceptEnd](../../aspose.words.tables/table/acceptend/)(DocumentVisitor) |  |
+| override [AcceptStart](../../aspose.words.tables/table/acceptstart/)(DocumentVisitor) |  |
+| [AppendChild&lt;T&gt;](../../aspose.words/compositenode/appendchild/)(T) |  |
 | [AutoFit](../../aspose.words.tables/table/autofit/)(AutoFitBehavior) | Ändrar storlek på tabellen och cellerna enligt det angivna beteendet för automatisk anpassning. |
 | [ClearBorders](../../aspose.words.tables/table/clearborders/)() | Tar bort alla tabell- och cellkanter på den här tabellen. |
 | [ClearShading](../../aspose.words.tables/table/clearshading/)() | Tar bort all skuggning på bordet. |
 | [Clone](../../aspose.words/node/clone/)(bool) | Skapar en dubblett av noden. |
 | [ConvertToHorizontallyMergedCells](../../aspose.words.tables/table/converttohorizontallymergedcells/)() | Konverterar celler horisontellt sammanfogade efter bredd till celler sammanslagna av[`HorizontalMerge`](../cellformat/horizontalmerge/) . |
-| [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | Reserverad för systemanvändning. IXPathNavigable. |
-| [EnsureMinimum](../../aspose.words.tables/table/ensureminimum/)() | Om tabellen inte har några rader, skapar och lägger till en **Rad** . |
+| [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | Skapar navigator som kan användas för att korsa och läsa noder. |
+| [EnsureMinimum](../../aspose.words.tables/table/ensureminimum/)() | Om tabellen inte har några rader, skapar och lägger till en[`Row`](../row/) . |
 | [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Hämtar den första förfadern till den angivna[`NodeType`](../../aspose.words/nodetype/) . |
 | [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Hämtar den första förfadern till den angivna objekttypen. |
 | [GetChild](../../aspose.words/compositenode/getchild/)(NodeType, int, bool) | Returnerar en N:te underordnad nod som matchar den angivna typen. |
@@ -90,17 +93,17 @@ public class Table : CompositeNode
 | [GetEnumerator](../../aspose.words/compositenode/getenumerator/)() | Tillhandahåller stöd för varje stiliteration över undernoderna för denna nod. |
 | override [GetText](../../aspose.words/compositenode/gettext/)() | Hämtar texten för denna nod och alla dess underordnade. |
 | [IndexOf](../../aspose.words/compositenode/indexof/)(Node) | Returnerar indexet för den angivna undernoden i den underordnade nodmatrisen. |
-| [InsertAfter](../../aspose.words/compositenode/insertafter/)(Node, Node) | Infogar den angivna noden omedelbart efter den angivna referensnoden. |
-| [InsertBefore](../../aspose.words/compositenode/insertbefore/)(Node, Node) | Infogar den angivna noden omedelbart före den angivna referensnoden. |
+| [InsertAfter&lt;T&gt;](../../aspose.words/compositenode/insertafter/)(T, Node) |  |
+| [InsertBefore&lt;T&gt;](../../aspose.words/compositenode/insertbefore/)(T, Node) |  |
 | [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Hämtar nästa nod enligt algoritmen för förbeställningsträdet. |
-| [PrependChild](../../aspose.words/compositenode/prependchild/)(Node) | Lägger till den angivna noden i början av listan över underordnade noder för denna nod. |
+| [PrependChild&lt;T&gt;](../../aspose.words/compositenode/prependchild/)(T) |  |
 | [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Hämtar föregående nod enligt algoritmen för förbeställningsträdet. |
 | [Remove](../../aspose.words/node/remove/)() | Tar bort sig själv från föräldern. |
 | [RemoveAllChildren](../../aspose.words/compositenode/removeallchildren/)() | Tar bort alla undernoder för den aktuella noden. |
-| [RemoveChild](../../aspose.words/compositenode/removechild/)(Node) | Tar bort den angivna underordnade noden. |
-| [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | Tar bort alla[`SmartTag`](../../aspose.words.markup/smarttag/) underliggande noder till den aktuella noden. |
+| [RemoveChild&lt;T&gt;](../../aspose.words/compositenode/removechild/)(T) |  |
+| [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | Tar bort alla[`SmartTag`](../../aspose.words.markup/smarttag/)underliggande noder till den aktuella noden. |
 | [SelectNodes](../../aspose.words/compositenode/selectnodes/)(string) | Väljer en lista med noder som matchar XPath-uttrycket. |
-| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(string) | Väljer den första noden som matchar XPath-uttrycket. |
+| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(string) | Väljer den första[`Node`](../../aspose.words/node/) som matchar XPath-uttrycket. |
 | [SetBorder](../../aspose.words.tables/table/setborder/)(BorderType, LineStyle, double, Color, bool) | Ställer in den angivna tabellkanten till angiven linjestil, bredd och färg. |
 | [SetBorders](../../aspose.words.tables/table/setborders/)(LineStyle, double, Color) | Ställer in alla tabellkanter till angiven linjestil, bredd och färg. |
 | [SetShading](../../aspose.words.tables/table/setshading/)(TextureIndex, Color, Color) | Ställer in skuggning till de angivna värdena på hela tabellen. |
@@ -109,11 +112,11 @@ public class Table : CompositeNode
 
 ### Anmärkningar
 
-**Tabell**är en nod på blocknivå och kan vara ett barn av klasser som härrör från **Berättelse** or  **InlineStory**.
+`Table`är en nod på blocknivå och kan vara ett barn av klasser som härrör från[`Story`](../../aspose.words/story/) or [`InlineStory`](../../aspose.words/inlinestory/).
 
-**Tabell** kan innehålla en eller flera **Rad** knutpunkter.
+`Table` kan innehålla en eller flera[`Row`](../row/) knutpunkter.
 
-En minsta giltig tabell måste ha minst en **Rad**.
+En minsta giltig tabell måste ha minst en[`Row`](../row/).
 
 ### Exempel
 

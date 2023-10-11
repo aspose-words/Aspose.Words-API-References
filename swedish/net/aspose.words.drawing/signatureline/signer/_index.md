@@ -1,14 +1,14 @@
 ---
 title: SignatureLine.Signer
 second_title: Aspose.Words för .NET API Referens
-description: SignatureLine fast egendom. Hämtar eller ställer in föreslagen undertecknare av signaturraden. Standardvärdet för den här egenskapen är tom sträng Empty .
+description: SignatureLine fast egendom. Hämtar eller ställer in föreslagen undertecknare av signaturraden. Standardvärdet för den här egenskapen är tom sträng Empty.
 type: docs
 weight: 100
 url: /sv/net/aspose.words.drawing/signatureline/signer/
 ---
 ## SignatureLine.Signer property
 
-Hämtar eller ställer in föreslagen undertecknare av signaturraden. Standardvärdet för den här egenskapen är **tom sträng** (Empty ).
+Hämtar eller ställer in föreslagen undertecknare av signaturraden. Standardvärdet för den här egenskapen är **tom sträng** (Empty).
 
 ```csharp
 public string Signer { get; set; }

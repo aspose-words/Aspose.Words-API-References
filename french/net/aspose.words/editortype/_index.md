@@ -1,14 +1,14 @@
 ---
 title: Enum EditorType
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.EditorType énumération. Spécifie lensemble des alias possibles ou groupes dédition qui peuvent être utilisés comme alias pour déterminer si lutilisateur actuel doit être autorisé à modifier une seule plage définie par une plage modifiable dans un document.
+description: Aspose.Words.EditorType énumération. Spécifie lensemble dalias possibles ou groupes dédition qui peuvent être utilisés comme alias pour déterminer si lutilisateur actuel doit être autorisé à modifier une seule plage définie par une plage modifiable dans un document.
 type: docs
-weight: 1300
+weight: 1450
 url: /fr/net/aspose.words/editortype/
 ---
 ## EditorType enumeration
 
-Spécifie l'ensemble des alias possibles (ou groupes d'édition) qui peuvent être utilisés comme alias pour déterminer si l'utilisateur actuel doit être autorisé à modifier une seule plage définie par une plage modifiable dans un document.
+Spécifie l'ensemble d'alias possibles (ou groupes d'édition) qui peuvent être utilisés comme alias pour déterminer si l'utilisateur actuel doit être autorisé à modifier une seule plage définie par une plage modifiable dans un document.
 
 ```csharp
 public enum EditorType
@@ -19,18 +19,18 @@ public enum EditorType
 | Nom | Évaluer | La description |
 | --- | --- | --- |
 | Unspecified | `0` | Signifie que le type d'éditeur n'est pas spécifié. |
-| Administrators | `1` | Spécifie que les utilisateurs associés au groupe Administrateurs doivent être autorisés à modifier les plages modifiables en utilisant ce type de modification lorsque la protection des documents est activée. |
-| Contributors | `2` | Spécifie que les utilisateurs associés au groupe Contributors doivent être autorisés à modifier les plages modifiables en utilisant ce type de modification lorsque la protection des documents est activée. |
-| Current | `3` | Spécifie que les utilisateurs associés au groupe Actuel doivent être autorisés à modifier les plages modifiables à l'aide de ce type de modification lorsque la protection des documents est activée. |
-| Editors | `4` | Spécifie que les utilisateurs associés au groupe Éditeurs doivent être autorisés à modifier les plages modifiables à l'aide de ce type de modification lorsque la protection des documents est activée. |
-| Everyone | `5` | Spécifie que tous les utilisateurs qui ouvrent le document doivent être autorisés à modifier les plages modifiables à l'aide de ce type d'édition lorsque la protection du document est activée. |
-| None | `6` | Spécifie qu'aucun des utilisateurs qui ouvrent le document ne sera autorisé à modifier les plages modifiables à l'aide de ce type de modification lorsque la protection du document est activée. |
-| Owners | `7` | Spécifie que les utilisateurs associés au groupe Propriétaires doivent être autorisés à modifier les plages modifiables à l'aide de ce type de modification lorsque la protection des documents est activée. |
+| Administrators | `1` | Spécifie que les utilisateurs associés au groupe Administrateurs doivent être autorisés à modifier les plages modifiables en utilisant ce type d'édition lorsque la protection des documents est activée. |
+| Contributors | `2` | Spécifie que les utilisateurs associés au groupe Contributeurs doivent être autorisés à modifier les plages modifiables en utilisant ce type d'édition lorsque la protection des documents est activée. |
+| Current | `3` | Spécifie que les utilisateurs associés au groupe Actuel doivent être autorisés à modifier les plages modifiables à l'aide de ce type d'édition lorsque la protection des documents est activée. |
+| Editors | `4` | Spécifie que les utilisateurs associés au groupe Éditeurs doivent être autorisés à modifier les plages modifiables à l'aide de ce type d'édition lorsque la protection des documents est activée. |
+| Everyone | `5` | Spécifie que tous les utilisateurs qui ouvrent le document seront autorisés à modifier les plages modifiables à l'aide de ce type d'édition lorsque la protection du document est activée. |
+| None | `6` | Spécifie qu'aucun des utilisateurs qui ouvrent le document ne sera autorisé à modifier les plages modifiables en utilisant ce type d'édition lorsque la protection du document est activée. |
+| Owners | `7` | Spécifie que les utilisateurs associés au groupe Propriétaires doivent être autorisés à modifier les plages modifiables à l'aide de ce type d'édition lorsque la protection des documents est activée. |
 | Default | `0` | Identique àUnspecified . |
 
 ### Exemples
 
-Montre comment limiter les droits de modification des plages modifiables à un groupe/utilisateur spécifique.
+Montre comment limiter les droits d'édition des plages modifiables à un groupe/utilisateur spécifique.
 
 ```csharp
 public void Visitor()
@@ -62,7 +62,7 @@ public void Visitor()
 
     builder.Writeln("This paragraph is outside the editable range, and cannot be edited by anybody.");
 
-    // Affiche les détails et le contenu de chaque plage modifiable du document.
+    // Imprimer les détails et le contenu de chaque plage modifiable du document.
     EditableRangePrinter editableRangePrinter = new EditableRangePrinter();
 
     doc.Accept(editableRangePrinter);
@@ -122,7 +122,7 @@ public class EditableRangePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Appelé lorsqu'un noeud Run est rencontré dans le document. Ce visiteur n'enregistre que les exécutions qui se trouvent dans des plages modifiables.
+    /// Appelé lorsqu'un nœud Run est rencontré dans le document. Ce visiteur enregistre uniquement les exécutions situées dans des plages modifiables.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {

@@ -3,7 +3,7 @@ title: Style.Font
 second_title: Aspose.Words for .NET API 参考
 description: Style 财产. 获取样式的字符格式
 type: docs
-weight: 50
+weight: 60
 url: /zh/net/aspose.words/style/font/
 ---
 ## Style.Font property
@@ -16,11 +16,11 @@ public Font Font { get; }
 
 ### 评论
 
-对于列表样式，此属性返回 null。
+对于列表样式，此属性返回`无效的`。
 
 ### 例子
 
-展示如何使用列表格式创建和使用段落样式。
+演示如何创建和使用具有列表格式的段落样式。
 
 ```csharp
 Document doc = new Document();
@@ -36,11 +36,11 @@ style.ParagraphFormat.SpaceAfter = 12;
 style.ListFormat.List = doc.Lists.Add(ListTemplate.BulletDefault);
 style.ListFormat.ListLevelNumber = 0;
 
-// 将段落样式应用到文档构建器的当前段落，然后添加一些文本。
+// 将段落样式应用到文档生成器的当前段落，然后添加一些文本。
 builder.ParagraphFormat.Style = style;
 builder.Writeln("Hello World: MyStyle1, bulleted list.");
 
-// 将文档构建器的样式更改为没有列表格式的样式并编写另一个段落。
+// 将文档生成器的样式更改为没有列表格式的样式并编写另一段。
 builder.ParagraphFormat.Style = doc.Styles["Normal"];
 builder.Writeln("Hello World: Normal.");
 
@@ -56,10 +56,12 @@ Style style = doc.Styles.Add(StyleType.Paragraph, "MyStyle");
 style.Font.Name = "Times New Roman";
 style.Font.Size = 16;
 style.Font.Color = Color.Navy;
+// 自动重新定义样式。
+style.AutomaticallyUpdate = true;
 
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 将文档中的一种样式应用于文档构建器正在创建的段落。
+// 将文档中的一种样式应用到文档生成器正在创建的段落。
 builder.ParagraphFormat.Style = doc.Styles["MyStyle"];
 builder.Writeln("Hello world!");
 
@@ -72,7 +74,7 @@ doc.Styles["MyStyle"].Remove();
 
 firstParagraphStyle = doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Style;
 
-// 任何使用已删除样式的文本都将恢复为默认格式。
+// 使用已删除样式的任何文本都会恢复为默认格式。
 Assert.False(doc.Styles.Any(s => s.Name == "MyStyle"));
 Assert.AreEqual("Times New Roman", firstParagraphStyle.Font.Name);
 Assert.AreEqual(12.0d, firstParagraphStyle.Font.Size);

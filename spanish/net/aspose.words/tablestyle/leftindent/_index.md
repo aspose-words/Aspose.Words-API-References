@@ -22,8 +22,8 @@ Muestra cómo establecer la posición de una mesa.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// A continuación se muestran dos formas de alinear una tabla horizontalmente.
-// 1 - Usa la propiedad "Alineación" para alinearlo a una ubicación en la página, como el centro:
+// A continuación se muestran dos formas de alinear una mesa horizontalmente.
+// 1 - Utilice la propiedad "Alineación" para alinearla con una ubicación de la página, como el centro:
 TableStyle tableStyle = (TableStyle)doc.Styles.Add(StyleType.Table, "MyTableStyle1");
 tableStyle.Alignment = TableAlignment.Center;
 tableStyle.Borders.Color = Color.Blue;
@@ -38,7 +38,7 @@ table.PreferredWidth = PreferredWidth.FromPoints(300);
 
 table.Style = tableStyle;
 
-// 2 - Usa "LeftIndent" para especificar una sangría desde el margen izquierdo de la página:
+// 2 - Utilice "LeftIndent" para especificar una sangría desde el margen izquierdo de la página:
 tableStyle = (TableStyle)doc.Styles.Add(StyleType.Table, "MyTableStyle2");
 tableStyle.LeftIndent = 55;
 tableStyle.Borders.Color = Color.Green;

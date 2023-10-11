@@ -16,11 +16,11 @@ public bool AllowBreakAcrossPages { get; set; }
 
 ### Bemerkungen
 
-Der Standardwert ist **Stimmt** .
+Der Standardwert ist`WAHR` .
 
 ### Beispiele
 
-Zeigt, wie benutzerdefinierte Stileinstellungen für die Tabelle erstellt werden.
+Zeigt, wie Sie benutzerdefinierte Stileinstellungen für die Tabelle erstellen.
 
 ```csharp
 Document doc = new Document();

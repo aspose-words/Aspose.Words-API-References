@@ -1,14 +1,14 @@
 ---
 title: TextWatermarkOptions.Layout
 second_title: Aspose.Words لمراجع .NET API
-description: TextWatermarkOptions ملكية. الحصول على تخطيط العلامة المائية أو تعيينه. النظام الأساسيDiagonal .
+description: TextWatermarkOptions ملكية. الحصول على تخطيط العلامة المائية أو تعيينه. القيمة الافتراضية هيDiagonal .
 type: docs
 weight: 60
 url: /ar/net/aspose.words/textwatermarkoptions/layout/
 ---
 ## TextWatermarkOptions.Layout property
 
-الحصول على تخطيط العلامة المائية أو تعيينه. النظام الأساسيDiagonal .
+الحصول على تخطيط العلامة المائية أو تعيينه. القيمة الافتراضية هيDiagonal .
 
 ```csharp
 public WatermarkLayout Layout { get; set; }
@@ -21,10 +21,10 @@ public WatermarkLayout Layout { get; set; }
 ```csharp
 Document doc = new Document();
 
-// أضف علامة مائية بنص عادي.
+// أضف علامة مائية نصية عادية.
 doc.Watermark.SetText("Aspose Watermark");
 
-// إذا كنا نرغب في تحرير تنسيق النص باستخدامه كعلامة مائية ،
+// إذا أردنا تعديل تنسيق النص باستخدامه كعلامة مائية،
 // يمكننا القيام بذلك عن طريق تمرير كائن TextWatermarkOptions عند إنشاء العلامة المائية.
 TextWatermarkOptions textWatermarkOptions = new TextWatermarkOptions();
 textWatermarkOptions.FontFamily = "Arial";

@@ -3,7 +3,7 @@ title: Enum ContentDisposition
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.ContentDisposition uppräkning. Räknar upp olika sätt att presentera dokumentet i klientens webbläsare.
 type: docs
-weight: 330
+weight: 340
 url: /sv/net/aspose.words/contentdisposition/
 ---
 ## ContentDisposition enumeration

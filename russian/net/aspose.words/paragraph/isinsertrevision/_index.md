@@ -1,14 +1,14 @@
 ---
 title: Paragraph.IsInsertRevision
 second_title: Справочник по API Aspose.Words для .NET
-description: Paragraph свойство. Возвращает значение true если этот объект был вставлен в Microsoft Word при включенном отслеживании изменений.
+description: Paragraph свойство. Возвращает true если этот объект был вставлен в Microsoft Word при включенном отслеживании изменений.
 type: docs
 weight: 110
 url: /ru/net/aspose.words/paragraph/isinsertrevision/
 ---
 ## Paragraph.IsInsertRevision property
 
-Возвращает значение true, если этот объект был вставлен в Microsoft Word при включенном отслеживании изменений.
+Возвращает true, если этот объект был вставлен в Microsoft Word при включенном отслеживании изменений.
 
 ```csharp
 public bool IsInsertRevision { get; }
@@ -16,7 +16,7 @@ public bool IsInsertRevision { get; }
 
 ### Примеры
 
-Показывает, как работать с редакционными абзацами.
+Показывает, как работать с абзацами исправлений.
 
 ```csharp
 Document doc = new Document();
@@ -27,15 +27,15 @@ para.AppendChild(new Run(doc, "Paragraph 1. "));
 body.AppendParagraph("Paragraph 2. ");
 body.AppendParagraph("Paragraph 3. ");
 
-// Приведенные выше абзацы не являются исправлениями.
-// Абзацы, которые мы добавляем после запуска отслеживания изменений, будут зарегистрированы как "Вставить" изменения.
+// Вышеуказанные абзацы не являются изменениями.
+// Абзацы, которые мы добавляем после запуска отслеживания версий, будут регистрироваться как «Вставить» версии.
 doc.StartTrackRevisions("John Doe", DateTime.Now);
 
 para = body.AppendParagraph("Paragraph 4. ");
 
 Assert.True(para.IsInsertRevision);
 
-// Абзацы, которые мы удаляем после запуска отслеживания изменений, будут зарегистрированы как «удаленные» изменения.
+// Абзацы, которые мы удаляем после запуска отслеживания версий, будут регистрироваться как «Удалить» версии.
 ParagraphCollection paragraphs = body.Paragraphs;
 
 Assert.AreEqual(4, paragraphs.Count);
@@ -44,12 +44,12 @@ para = paragraphs[2];
 para.Remove();
 
 // Такие абзацы останутся до тех пор, пока мы не примем или не отклоним удаление ревизии.
-// Принятие исправления удалит абзац навсегда,
-// и отклонение ревизии оставит ее в документе, как будто мы никогда ее не удаляли.
+// Принятие изменения приведет к удалению абзаца навсегда,
+// и отклонение ревизии оставит ее в документе, как если бы мы ее никогда не удаляли.
 Assert.AreEqual(4, paragraphs.Count);
 Assert.True(para.IsDeleteRevision);
 
-// Принять исправление, а затем убедиться, что абзаца больше нет.
+// Принимаем редакцию и затем проверяем, что абзаца больше нет.
 doc.AcceptAllRevisions();
 
 Assert.AreEqual(3, paragraphs.Count);

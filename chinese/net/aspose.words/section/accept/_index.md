@@ -20,15 +20,15 @@ public override bool Accept(DocumentVisitor visitor)
 
 ### 返回值
 
-如果访问了所有节点，则为真；如果 DocumentVisitor 在访问所有节点之前停止操作，则返回 false。
+如果访问了所有节点，则为 True；假如果[`DocumentVisitor`](../../documentvisitor/)在访问所有节点之前停止操作。
 
 ### 评论
 
-枚举此节点及其所有子节点。每个节点调用 DocumentVisitor 上的相应方法。
+枚举该节点及其所有子节点。每个节点调用相应的方法[`DocumentVisitor`](../../documentvisitor/)。
 
-有关更多信息，请参阅访问者设计模式。
+有关更多信息，请参阅访客设计模式。
 
-调用 DocumentVisitor.VisitSectionStart，然后为 section 的所有子节点调用 Accept，最后调用 DocumentVisitor.VisitSectionEnd。
+通话[`VisitSectionStart`](../../documentvisitor/visitsectionstart/)，然后调用[`Accept`](../../node/accept/)对于section 的所有子节点并调用[`VisitSectionEnd`](../../documentvisitor/visitsectionend/)最后.
 
 ### 也可以看看
 

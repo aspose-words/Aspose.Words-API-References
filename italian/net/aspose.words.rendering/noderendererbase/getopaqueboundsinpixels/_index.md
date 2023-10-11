@@ -25,7 +25,7 @@ Il rettangolo opaco della forma in pixel.
 
 ### Osservazioni
 
-Questo metodo converte[`OpaqueBoundsInPoints`](../opaqueboundsinpoints/) in un rettangolo in pixel ed è utile quando si desidera creare una bitmap per il rendering della forma con solo la parte opaca della forma.
+Questo metodo converte[`OpaqueBoundsInPoints`](../opaqueboundsinpoints/) nel rettangolo in pixel ed è utile quando vuoi creare una bitmap per il rendering della forma con solo la parte opaca della forma.
 
 ### Esempi
 
@@ -37,7 +37,7 @@ Document doc = new Document(MyDir + "Office math.docx");
 OfficeMath officeMath = (OfficeMath)doc.GetChild(NodeType.OfficeMath, 0, true);
 OfficeMathRenderer renderer = new OfficeMathRenderer(officeMath);
 
-// Verifica la dimensione dell'immagine che verrà creata dall'oggetto OfficeMath durante il rendering.
+// Verifica la dimensione dell'immagine che l'oggetto OfficeMath creerà quando ne eseguiremo il rendering.
 Assert.AreEqual(119.0f, renderer.SizeInPoints.Width, 0.2f);
 Assert.AreEqual(13.0f, renderer.SizeInPoints.Height, 0.1f);
 
@@ -54,7 +54,7 @@ Rectangle bounds = renderer.GetBoundsInPixels(1.0f, 96.0f);
 Assert.AreEqual(159, bounds.Width);
 Assert.AreEqual(18, bounds.Height);
 
-// Ottieni la dimensione della forma in pixel, ma con un DPI diverso per le dimensioni orizzontali e verticali.
+// Ottieni la dimensione della forma in pixel, ma con un DPI diverso per le dimensioni orizzontale e verticale.
 bounds = renderer.GetBoundsInPixels(1.0f, 96.0f, 150.0f);
 Assert.AreEqual(159, bounds.Width);
 Assert.AreEqual(28, bounds.Height);
@@ -99,7 +99,7 @@ Il rettangolo opaco della forma in pixel.
 
 ### Osservazioni
 
-Questo metodo converte[`OpaqueBoundsInPoints`](../opaqueboundsinpoints/) in un rettangolo in pixel ed è utile quando si desidera creare una bitmap per il rendering della forma con solo la parte opaca della forma.
+Questo metodo converte[`OpaqueBoundsInPoints`](../opaqueboundsinpoints/) nel rettangolo in pixel ed è utile quando vuoi creare una bitmap per il rendering della forma con solo la parte opaca della forma.
 
 ### Esempi
 
@@ -111,7 +111,7 @@ Document doc = new Document(MyDir + "Office math.docx");
 OfficeMath officeMath = (OfficeMath)doc.GetChild(NodeType.OfficeMath, 0, true);
 OfficeMathRenderer renderer = new OfficeMathRenderer(officeMath);
 
-// Verifica la dimensione dell'immagine che verrà creata dall'oggetto OfficeMath durante il rendering.
+// Verifica la dimensione dell'immagine che l'oggetto OfficeMath creerà quando ne eseguiremo il rendering.
 Assert.AreEqual(119.0f, renderer.SizeInPoints.Width, 0.2f);
 Assert.AreEqual(13.0f, renderer.SizeInPoints.Height, 0.1f);
 
@@ -128,7 +128,7 @@ Rectangle bounds = renderer.GetBoundsInPixels(1.0f, 96.0f);
 Assert.AreEqual(159, bounds.Width);
 Assert.AreEqual(18, bounds.Height);
 
-// Ottieni la dimensione della forma in pixel, ma con un DPI diverso per le dimensioni orizzontali e verticali.
+// Ottieni la dimensione della forma in pixel, ma con un DPI diverso per le dimensioni orizzontale e verticale.
 bounds = renderer.GetBoundsInPixels(1.0f, 96.0f, 150.0f);
 Assert.AreEqual(159, bounds.Width);
 Assert.AreEqual(28, bounds.Height);

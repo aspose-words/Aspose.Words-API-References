@@ -1,14 +1,14 @@
 ---
 title: CustomXmlProperty.Value
 second_title: Aspose.Words لمراجع .NET API
-description: CustomXmlProperty ملكية. الحصول على أو تعيين قيمة سمة XML المخصصة أو خاصية العلامة الذكية.
+description: CustomXmlProperty ملكية. الحصول على قيمة سمة XML المخصصة أو خاصية العلامة الذكية أو تعيينها.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.markup/customxmlproperty/value/
 ---
 ## CustomXmlProperty.Value property
 
-الحصول على أو تعيين قيمة سمة XML المخصصة أو خاصية العلامة الذكية.
+الحصول على قيمة سمة XML المخصصة أو خاصية العلامة الذكية أو تعيينها.
 
 ```csharp
 public string Value { get; set; }
@@ -16,7 +16,7 @@ public string Value { get; set; }
 
 ### ملاحظات
 
-لا يمكن أن تكون لاغية.
+لا يمكن`باطل`.
 
 الافتراضي هو سلسلة فارغة.
 
@@ -29,11 +29,11 @@ public void Create()
 {
     Document doc = new Document();
 
-    // تظهر علامة ذكية في مستند مع Microsoft Word يتعرف على جزء من نصه كشكل من أشكال البيانات ،
-    // مثل الاسم أو التاريخ أو العنوان ، ويحوله إلى ارتباط تشعبي يعرض تسطيرًا منقطًا بنفسجي اللون.
+    // العلامة الذكية التي تظهر في مستند باستخدام Microsoft Word تتعرف على جزء من نصه كشكل من أشكال البيانات،
+    // مثل الاسم أو التاريخ أو العنوان، وتحويله إلى ارتباط تشعبي يعرض تسطيرًا منقطًا أرجوانيًا.
     SmartTag smartTag = new SmartTag(doc);
 
-    // العلامات الذكية عبارة عن عقد مركبة تحتوي على نص تم التعرف عليه بالكامل.
+    // العلامات الذكية هي عقد مركبة تحتوي على النص الذي تم التعرف عليه بالكامل.
     // أضف محتويات إلى هذه العلامة الذكية يدويًا.
     smartTag.AppendChild(new Run(doc, "May 29, 2019"));
 
@@ -46,13 +46,13 @@ public void Create()
     smartTag.Properties.Add(new CustomXmlProperty("Month", string.Empty, "5"));
     smartTag.Properties.Add(new CustomXmlProperty("Year", string.Empty, "2019"));
 
-    // اضبط عنوان URI للعلامة الذكية على القيمة الافتراضية.
+    // قم بتعيين URI الخاص بالعلامة الذكية على القيمة الافتراضية.
     smartTag.Uri = "urn:schemas-microsoft-com:office:smarttags";
 
     doc.FirstSection.Body.FirstParagraph.AppendChild(smartTag);
     doc.FirstSection.Body.FirstParagraph.AppendChild(new Run(doc, " is a date. "));
 
-    // إنشاء علامة ذكية أخرى لمؤشر الأسهم.
+    // أنشئ علامة ذكية أخرى لمؤشر الأسهم.
     smartTag = new SmartTag(doc);
     smartTag.Element = "stockticker";
     smartTag.Uri = "urn:schemas-microsoft-com:office:smarttags";
@@ -62,10 +62,10 @@ public void Create()
     doc.FirstSection.Body.FirstParagraph.AppendChild(smartTag);
     doc.FirstSection.Body.FirstParagraph.AppendChild(new Run(doc, " is a stock ticker."));
 
-    // طباعة جميع العلامات الذكية في وثيقتنا باستخدام زائر المستند.
+    // اطبع جميع العلامات الذكية في مستندنا باستخدام زائر المستند.
     doc.Accept(new SmartTagPrinter());
 
-    // تدعم الإصدارات القديمة من Microsoft Word العلامات الذكية.
+    // الإصدارات الأقدم من Microsoft Word تدعم العلامات الذكية.
     doc.Save(ArtifactsDir + "SmartTag.Create.doc");
 
     // استخدم طريقة "RemoveSmartTags" لإزالة كافة العلامات الذكية من المستند.
@@ -77,12 +77,12 @@ public void Create()
 }
 
 /// <summary>
-/// تمت زيارة المطبوعات للعلامات الذكية ومحتوياتها.
+/// طباعة العلامات الذكية التي تمت زيارتها ومحتوياتها.
 /// </summary>
 private class SmartTagPrinter : DocumentVisitor
 {
     /// <summary>
-    /// يتم الاستدعاء عند مواجهة عقدة SmartTag في المستند.
+    /// يتم الاتصال به عند مواجهة عقدة SmartTag في المستند.
     /// </summary>
     public override VisitorAction VisitSmartTagStart(SmartTag smartTag)
     {
@@ -91,7 +91,7 @@ private class SmartTagPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاستدعاء عند انتهاء زيارة عقدة SmartTag.
+    /// يتم الاتصال به عند انتهاء زيارة عقدة SmartTag.
     /// </summary>
     public override VisitorAction VisitSmartTagEnd(SmartTag smartTag)
     {

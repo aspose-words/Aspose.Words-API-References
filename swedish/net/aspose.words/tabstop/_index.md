@@ -1,14 +1,16 @@
 ---
 title: Class TabStop
 second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.TabStop klass. Representerar ett enda anpassat tabbstopp. De TabStop objektet är en medlem av the TabStopCollection samling.
+description: Aspose.Words.TabStop klass. Representerar ett enda anpassat tabbstopp. DeTabStopobjektet är en medlem av the TabStopCollection samling.
 type: docs
-weight: 5900
+weight: 6200
 url: /sv/net/aspose.words/tabstop/
 ---
 ## TabStop class
 
-Representerar ett enda anpassat tabbstopp. De **TabStop** objektet är en medlem av the [`TabStopCollection`](../tabstopcollection/) samling.
+Representerar ett enda anpassat tabbstopp. De`TabStop`objektet är en medlem av the [`TabStopCollection`](../tabstopcollection/) samling.
+
+För att lära dig mer, besök[Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) dokumentationsartikel.
 
 ```csharp
 public sealed class TabStop
@@ -26,7 +28,7 @@ public sealed class TabStop
 | namn | Beskrivning |
 | --- | --- |
 | [Alignment](../../aspose.words/tabstop/alignment/) { get; set; } | Hämtar eller ställer in justeringen av text vid detta tabbstopp. |
-| [IsClear](../../aspose.words/tabstop/isclear/) { get; } | Returnerar sant om detta tabbstopp rensar alla befintliga tabbstopp i denna position. |
+| [IsClear](../../aspose.words/tabstop/isclear/) { get; } | Returnerar`Sann` om detta tabbstopp rensar alla befintliga tabbstopp i denna position. |
 | [Leader](../../aspose.words/tabstop/leader/) { get; set; } | Hämtar eller ställer in typen av ledarraden som visas under tabbtecknet. |
 | [Position](../../aspose.words/tabstop/position/) { get; } | Får tabbstoppets position i poäng. |
 
@@ -34,12 +36,12 @@ public sealed class TabStop
 
 | namn | Beskrivning |
 | --- | --- |
-| [Equals](../../aspose.words/tabstop/equals/#equals)(TabStop) | Jämför med den angivna TabStop. |
+| [Equals](../../aspose.words/tabstop/equals/#equals)(TabStop) | Jämför med den angivna`TabStop` . |
 | override [GetHashCode](../../aspose.words/tabstop/gethashcode/)() | Beräknar hashkod för detta objekt. |
 
 ### Anmärkningar
 
-Normalt anger ett tabbstopp en position där ett tabbstopp finns. Men eftersom tabbstopp kan ärvas från överordnade stilar, kan det behövas för det underordnade objektet att uttryckligen definiera att det inte finns något tabbstopp vid en given position. För att rensa ett ärvt tabbstopp vid en given position, skapa en **TabStop** objekt och set [`Alignment`](./alignment/) till`TabAlignment.Clear`.
+Normalt anger ett tabbstopp en position där ett tabbstopp finns. Men eftersom tabbstopp kan ärvas från överordnade stilar, kan det behövas för det underordnade objektet att uttryckligen definiera att det inte finns något tabbstopp vid en given position. För att rensa ett ärvt tabbstopp vid en given position, skapa en`TabStop` objekt och set [`Alignment`](./alignment/) tillClear.
 
 För mer information se[`TabStopCollection`](../tabstopcollection/).
 

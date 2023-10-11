@@ -1,14 +1,14 @@
 ---
 title: Enum MarkupLevel
 second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Markup.MarkupLevel opsomming. Gibt die Ebene im Dokumentenbaum an auf der eine bestimmteStructuredDocumentTag kann vorkommen.
+description: Aspose.Words.Markup.MarkupLevel opsomming. Gibt die Ebene im Dokumentbaum an auf der sich eine bestimmte befindetStructuredDocumentTag kann auftreten.
 type: docs
-weight: 3740
+weight: 3980
 url: /de/net/aspose.words.markup/markuplevel/
 ---
 ## MarkupLevel enumeration
 
-Gibt die Ebene im Dokumentenbaum an, auf der eine bestimmte[`StructuredDocumentTag`](../structureddocumenttag/) kann vorkommen.
+Gibt die Ebene im Dokumentbaum an, auf der sich eine bestimmte befindet[`StructuredDocumentTag`](../structureddocumenttag/) kann auftreten.
 
 ```csharp
 public enum MarkupLevel
@@ -19,26 +19,26 @@ public enum MarkupLevel
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
 | Unknown | `0` | Gibt den unbekannten oder ungültigen Wert an. |
-| Inline | `1` | Das Element kommt auf der Inline-Ebene vor (z. B. zwischen Textverläufen). |
+| Inline | `1` | Das Element kommt auf der Inline-Ebene vor (z. B. zwischen Textläufen). |
 | Block | `2` | Das Element kommt auf Blockebene vor (z. B. zwischen Tabellen und Absätzen). |
 | Row | `3` | Das Element kommt zwischen Zeilen in einer Tabelle vor. |
-| Cell | `4` | Das Element kommt zwischen Zellen in einer Reihe vor. |
+| Cell | `4` | Das Element kommt zwischen Zellen in einer Zeile vor. |
 
 ### Beispiele
 
-Zeigt, wie Sie mit Stilen für Inhaltssteuerelemente arbeiten.
+Zeigt, wie mit Stilen für Inhaltssteuerelemente gearbeitet wird.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Im Folgenden finden Sie zwei Möglichkeiten, einen Stil aus dem Dokument auf ein strukturiertes Dokument-Tag anzuwenden.
-// 1 - Wende ein Stilobjekt aus der Stilsammlung des Dokuments an:
+// Nachfolgend finden Sie zwei Möglichkeiten, einen Stil aus dem Dokument auf ein strukturiertes Dokument-Tag anzuwenden.
+// 1 – Ein Stilobjekt aus der Stilsammlung des Dokuments anwenden:
 Style quoteStyle = doc.Styles[StyleIdentifier.Quote];
 StructuredDocumentTag sdtPlainText =
     new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Inline) { Style = quoteStyle };
 
-// 2 - Einen Stil im Dokument namentlich referenzieren:
+// 2 – Einen Stil im Dokument namentlich referenzieren:
 StructuredDocumentTag sdtRichText =
     new StructuredDocumentTag(doc, SdtType.RichText, MarkupLevel.Inline) { StyleName = "Quote" };
 
@@ -52,6 +52,8 @@ NodeCollection tags = doc.GetChildNodes(NodeType.StructuredDocumentTag, true);
 foreach (Node node in tags)
 {
     StructuredDocumentTag sdt = (StructuredDocumentTag)node;
+
+    Console.WriteLine(sdt.WordOpenXMLMinimal);
 
     Assert.AreEqual(StyleIdentifier.Quote, sdt.Style.StyleIdentifier);
     Assert.AreEqual("Quote", sdt.StyleName);

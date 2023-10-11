@@ -3,7 +3,7 @@ title: Enum OdsoFieldMappingType
 second_title: Aspose.Words for .NET API 参考
 description: Aspose.Words.Settings.OdsoFieldMappingType 枚举. 指定用于指示给定邮件合并字段是否已映射到给定外部数据源中的列的可能类型
 type: docs
-weight: 5620
+weight: 5920
 url: /zh/net/aspose.words.settings/odsofieldmappingtype/
 ---
 ## OdsoFieldMappingType enumeration
@@ -29,8 +29,8 @@ public enum OdsoFieldMappingType
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
 
-// 此集合定义邮件合并如何映射来自数据源的列
-// 到预定义的 MERGEFIELD、ADDRESSBLOCK 和 GREETINGLINE 字段。
+// 该集合定义邮件合并如何映射数据源中的列
+// 预定义的 MERGEFIELD、ADDRESSBLOCK 和 GREETINGLINE 字段。
 OdsoFieldMapDataCollection dataCollection = doc.MailMergeSettings.Odso.FieldMapDatas;
 Assert.AreEqual(30, dataCollection.Count);
 
@@ -56,7 +56,7 @@ dataCollection.RemoveAt(0);
 
 Assert.AreEqual(29, dataCollection.Count);
 
-// 使用“Clear”方法一次清除整个集合。
+// 使用“Clear”方法一次性清除整个集合。
 dataCollection.Clear();
 
 Assert.AreEqual(0, dataCollection.Count);

@@ -3,7 +3,7 @@ title: MailMergeRegionInfo.Regions
 second_title: Aspose.Words för .NET API Referens
 description: MailMergeRegionInfo fast egendom. Returnerar en lista över underordnade regioner.
 type: docs
-weight: 60
+weight: 80
 url: /sv/net/aspose.words.mailmerging/mailmergeregioninfo/regions/
 ---
 ## MailMergeRegionInfo.Regions property

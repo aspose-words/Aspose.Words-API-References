@@ -3,7 +3,7 @@ title: Aspose.Words.Themes
 second_title: Aspose.Words för .NET API Referens
 description: De Aspose.Words.Themes namnutrymme tillhandahåller klasser som gör det möjligt att komma åt temainformation i Microsoft Worddokument.
 type: docs
-weight: 260
+weight: 270
 url: /sv/net/aspose.words.themes/
 ---
 De **Aspose.Words.Themes** namnutrymme tillhandahåller klasser som gör det möjligt att komma åt temainformation i Microsoft Word-dokument.

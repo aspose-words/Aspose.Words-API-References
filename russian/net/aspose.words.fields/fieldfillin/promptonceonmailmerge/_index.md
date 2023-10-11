@@ -1,14 +1,14 @@
 ---
 title: FieldFillIn.PromptOnceOnMailMerge
 second_title: Справочник по API Aspose.Words для .NET
-description: FieldFillIn свойство. Получает или задает должен ли ответ пользователя быть получен один раз за операцию слияния.
+description: FieldFillIn свойство. Получает или задает следует ли получать ответ пользователя один раз за операцию слияния почты.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.fields/fieldfillin/promptonceonmailmerge/
 ---
 ## FieldFillIn.PromptOnceOnMailMerge property
 
-Получает или задает, должен ли ответ пользователя быть получен один раз за операцию слияния.
+Получает или задает, следует ли получать ответ пользователя один раз за операцию слияния почты.
 
 ```csharp
 public bool PromptOnceOnMailMerge { get; set; }
@@ -16,7 +16,7 @@ public bool PromptOnceOnMailMerge { get; set; }
 
 ### Примеры
 
-Показывает, как использовать поле FILLIN для запроса ответа у пользователя.
+Показывает, как использовать поле ЗАПОЛНИТЬ, чтобы запросить у пользователя ответ.
 
 ```csharp
 public void FieldFillIn()
@@ -24,8 +24,8 @@ public void FieldFillIn()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Вставить поле FILLIN. Когда мы вручную обновляем это поле в Microsoft Word,
-    // это предложит нам ввести ответ. После этого поле отобразит ответ в виде текста.
+    // Вставляем поле ЗАПОЛНЕНИЕ. Когда мы вручную обновляем это поле в Microsoft Word,
+    // это предложит нам ввести ответ. После этого в поле будет отображен ответ в виде текста.
     FieldFillIn field = (FieldFillIn)builder.InsertField(FieldType.FieldFillIn, true);
     field.PromptText = "Please enter a response:";
     field.DefaultResponse = "A default response.";
@@ -39,16 +39,17 @@ public void FieldFillIn()
     FieldMergeField mergeField = (FieldMergeField)builder.InsertField(FieldType.FieldMergeField, true);
     mergeField.FieldName = "MergeField";
 
-    // Если мы выполняем слияние программно, мы можем использовать настраиваемый ответчик приглашения
-    // для автоматического редактирования ответов для полей FILLIN, которые встречаются при слиянии.
+    // Если мы выполняем слияние почты программно, мы можем использовать собственный ответчик приглашения
+    // для автоматического редактирования ответов для полей ЗАПОЛНЕНИЯ, которые встречаются при слиянии почты.
     doc.FieldOptions.UserPromptRespondent = new PromptRespondent();
     doc.MailMerge.Execute(new [] { "MergeField" }, new object[] { "" });
 
     doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.FILLIN.docx");
+}
 
 /// <summary>
-/// Добавляет строку к ответу по умолчанию для каждого поля FILLIN во время слияния.
+/// Добавляет строку к ответу по умолчанию для каждого поля FILLIN во время слияния почты.
 /// </summary>
 private class PromptRespondent : IFieldUserPromptRespondent
 {

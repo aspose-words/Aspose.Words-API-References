@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.DoNotBreakConstrainedForcedTable
 second_title: Aspose.Words for .NET API Referansı
-description: CompatibilityOptions mülk. Kayan Tabloların Çevresindeki Tablo Satırlarını Bölmeyin.
+description: CompatibilityOptions mülk. Yüzen Tabloların Etrafındaki Tablo Sıralarını Kırmayın.
 type: docs
 weight: 130
 url: /tr/net/aspose.words.settings/compatibilityoptions/donotbreakconstrainedforcedtable/
 ---
 ## CompatibilityOptions.DoNotBreakConstrainedForcedTable property
 
-Kayan Tabloların Çevresindeki Tablo Satırlarını Bölmeyin.
+Yüzen Tabloların Etrafındaki Tablo Sıralarını Kırmayın.
 
 ```csharp
 public bool DoNotBreakConstrainedForcedTable { get; set; }

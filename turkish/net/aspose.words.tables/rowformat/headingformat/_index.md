@@ -1,14 +1,14 @@
 ---
 title: RowFormat.HeadingFormat
 second_title: Aspose.Words for .NET API Referansı
-description: RowFormat mülk. Tablo birden fazla sayfaya yayıldığında satır her sayfada tablo başlığı olarak yineleniyorsa doğrudur.
+description: RowFormat mülk. Tablo birden fazla sayfaya yayıldığında satır her sayfada tablo başlığı olarak tekrarlanıyorsa doğrudur.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.tables/rowformat/headingformat/
 ---
 ## RowFormat.HeadingFormat property
 
-Tablo birden fazla sayfaya yayıldığında satır her sayfada tablo başlığı olarak yineleniyorsa doğrudur.
+Tablo birden fazla sayfaya yayıldığında satır her sayfada tablo başlığı olarak tekrarlanıyorsa doğrudur.
 
 ```csharp
 public bool HeadingFormat { get; set; }
@@ -16,7 +16,7 @@ public bool HeadingFormat { get; set; }
 
 ### Örnekler
 
-Her sayfada yinelenen satırlarla bir tablonun nasıl oluşturulacağını gösterir.
+Her sayfada tekrarlanan satırlardan oluşan bir tablonun nasıl oluşturulacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -25,7 +25,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Table table = builder.StartTable();
 
 // "HeadingFormat" bayrağı "true" olarak ayarlandığında eklenen tüm satırlar
-// yayıldığı her sayfada tablonun en üstünde görünecektir.
+// kapsadığı her sayfada tablonun en üstünde görünecektir.
 builder.RowFormat.HeadingFormat = true;
 builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 builder.CellFormat.Width = 100;
@@ -40,7 +40,7 @@ builder.CellFormat.Width = 50;
 builder.ParagraphFormat.ClearFormatting();
 builder.RowFormat.HeadingFormat = false;
 
-// Tablonun iki sayfaya yayılması için yeterli satır ekleyin.
+// Tablonun iki sayfaya yayılmasına yetecek kadar satır ekleyin.
 for (int i = 0; i < 50; i++)
 {
     builder.InsertCell();

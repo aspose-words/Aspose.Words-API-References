@@ -1,14 +1,14 @@
 ---
 title: DocumentVisitor.VisitFieldSeparator
 second_title: Aspose.Words for .NET API Referansı
-description: DocumentVisitor yöntem. Belgede bir alan ayırıcıyla karşılaşıldığında çağrılır.
+description: DocumentVisitor yöntem. Belgede alan ayırıcıyla karşılaşıldığında çağrılır.
 type: docs
 weight: 190
 url: /tr/net/aspose.words/documentvisitor/visitfieldseparator/
 ---
 ## DocumentVisitor.VisitFieldSeparator method
 
-Belgede bir alan ayırıcıyla karşılaşıldığında çağrılır.
+Belgede alan ayırıcıyla karşılaşıldığında çağrılır.
 
 ```csharp
 public virtual VisitorAction VisitFieldSeparator(FieldSeparator fieldSeparator)
@@ -24,7 +24,7 @@ A[`VisitorAction`](../../visitoraction/) numaralandırmaya nasıl devam edilece�
 
 ### Notlar
 
-Alan ayırıcı, alan kodunu belgedeki alan değerinden ayırır. Bazı alanlarının yalnızca alan koduna sahip olduğuna ve alan ayırıcı ve alan değerine sahip olmadığına dikkat edin.
+Alan ayırıcı, alan kodunu belgedeki alan değerinden ayırır. Bazı alanlarının yalnızca alan koduna sahip olduğunu ve alan ayırıcısı ve alan değeri içermediğini unutmayın.
 
 Daha fazla bilgi için bkz.[`VisitFieldStart`](../visitfieldstart/)
 
@@ -38,17 +38,17 @@ public void FieldToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     FieldStructurePrinter visitor = new FieldStructurePrinter();
 
-    // Bir belge ziyaretçisini kabul etmek için bir bileşik düğüm aldığımızda, ziyaretçi kabul eden düğümü ziyaret eder,
-    // ve ardından tüm düğümün alt öğelerini derinlik öncelikli bir şekilde çaprazlar.
-    // Ziyaretçi, ziyaret edilen her düğümü okuyabilir ve değiştirebilir.
+    // Bir belge ziyaretçisini kabul edecek bileşik bir düğüm aldığımızda, ziyaretçi kabul eden düğümü ziyaret eder,
+    // ve ardından düğümün tüm alt öğelerini derinlik öncelikli bir şekilde geçer.
+    // Ziyaretçi ziyaret edilen her düğümü okuyabilir ve değiştirebilir.
     doc.Accept(visitor);
 
     Console.WriteLine(visitor.GetText());
 }
 
 /// <summary>
-/// Bir düğümün ikili olmayan alt düğümler ağacında çapraz geçiş yapar.
-/// Karşılaşılan tüm Alan düğümlerinin ve bunların alt öğelerinin bir dizesi biçiminde bir harita oluşturur.
+/// Bir düğümün ikili olmayan alt düğüm ağacını geçer.
+/// Karşılaşılan tüm Alan düğümleri ve bunların alt öğelerinden oluşan bir dize biçiminde bir harita oluşturur.
 /// </summary>
 public class FieldStructurePrinter : DocumentVisitor
 {
@@ -86,7 +86,7 @@ public class FieldStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Belgede bir FieldEnd düğümüyle karşılaşıldığında çağrılır.
+    /// Belgede FieldEnd düğümüyle karşılaşıldığında çağrılır.
     /// </summary>
     public override VisitorAction VisitFieldEnd(FieldEnd fieldEnd)
     {
@@ -98,7 +98,7 @@ public class FieldStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Belgede bir FieldSeparator düğümüyle karşılaşıldığında çağrılır.
+    /// Belgede FieldSeparator düğümüyle karşılaşıldığında çağrılır.
     /// </summary>
     public override VisitorAction VisitFieldSeparator(FieldSeparator fieldSeparator)
     {
@@ -108,10 +108,10 @@ public class FieldStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// StringBuilder'a bir satır ekleyin ve ziyaretçinin ne kadar derin olduğuna bağlı olarak girinti yapın
-    /// alanın alt düğümler ağacına.
+    /// StringBuilder'a bir satır ekleyin ve ziyaretçinin derinliğine bağlı olarak onu girintileyin
+    /// alanın alt düğüm ağacına.
     /// </summary>
-    /// <param name="metin"></param>
+    /// <param adı="metin"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++)

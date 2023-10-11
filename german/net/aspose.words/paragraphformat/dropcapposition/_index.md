@@ -1,14 +1,14 @@
 ---
 title: ParagraphFormat.DropCapPosition
 second_title: Aspose.Words für .NET-API-Referenz
-description: ParagraphFormat eigendom. Ruft die Position für einen Initialtext ab oder legt sie fest.
+description: ParagraphFormat eigendom. Ruft die Position für einen Initialtext ab oder legt diese fest.
 type: docs
-weight: 90
+weight: 100
 url: /de/net/aspose.words/paragraphformat/dropcapposition/
 ---
 ## ParagraphFormat.DropCapPosition property
 
-Ruft die Position für einen Initialtext ab oder legt sie fest.
+Ruft die Position für einen Initialtext ab oder legt diese fest.
 
 ```csharp
 public DropCapPosition DropCapPosition { get; set; }
@@ -22,17 +22,17 @@ Zeigt, wie eine Liste in einer anderen Liste verschachtelt wird.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Eine Liste ermöglicht es uns, Sätze von Absätzen mit Präfixsymbolen und Einzügen zu organisieren und zu dekorieren.
-// Wir können verschachtelte Listen erstellen, indem wir die Einrückungsebene erhöhen. 
-// Wir können eine Liste beginnen und beenden, indem wir die "ListFormat"-Eigenschaft eines Dokumentenerstellers verwenden. 
+// Eine Liste ermöglicht es uns, Absätze mit Präfixsymbolen und Einzügen zu organisieren und zu dekorieren.
+ // Wir können verschachtelte Listen erstellen, indem wir die Einrückungsebene erhöhen.
+ // Wir können eine Liste beginnen und beenden, indem wir die „ListFormat“-Eigenschaft eines Document Builders verwenden.
 // Jeder Absatz, den wir zwischen dem Anfang und dem Ende einer Liste hinzufügen, wird zu einem Element in der Liste.
-// Gliederungsliste für die Überschriften erstellen.
+// Eine Übersichtsliste für die Überschriften erstellen.
 List outlineList = doc.Lists.Add(ListTemplate.OutlineNumbers);
 builder.ListFormat.List = outlineList;
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
 builder.Writeln("This is my Chapter 1");
 
-// Erstellen Sie eine nummerierte Liste.
+// Erstelle eine nummerierte Liste.
 List numberedList = doc.Lists.Add(ListTemplate.NumberDefault);
 builder.ListFormat.List = numberedList;
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Normal;
@@ -42,7 +42,7 @@ builder.Writeln("Numbered list item 1.");
 Assert.True(builder.CurrentParagraph.IsListItem);
 Assert.True(builder.ParagraphFormat.IsListItem);
 
-// Erstellen Sie eine Liste mit Aufzählungszeichen.
+// Eine Liste mit Aufzählungszeichen erstellen.
 List bulletedList = doc.Lists.Add(ListTemplate.BulletDefault);
 builder.ListFormat.List = bulletedList;
 builder.ParagraphFormat.LeftIndent = 72;

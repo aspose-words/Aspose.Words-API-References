@@ -3,7 +3,7 @@ title: Table.AutoFit
 second_title: Aspose.Words for .NET API Referansı
 description: Table yöntem. Belirtilen otomatik sığdırma davranışına göre tabloyu ve hücreleri yeniden boyutlandırır.
 type: docs
-weight: 360
+weight: 380
 url: /tr/net/aspose.words.tables/table/autofit/
 ---
 ## Table.AutoFit method
@@ -16,29 +16,29 @@ public void AutoFit(AutoFitBehavior behavior)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| behavior | AutoFitBehavior | Tabloya otomatik olarak nasıl sığdırılacağını belirtir. |
+| behavior | AutoFitBehavior | Tablonun otomatik olarak nasıl sığdırılacağını belirtir. |
 
 ### Notlar
 
-Bu yöntem, Microsoft Word'deki bir tablo için Otomatik Sığdır menüsünde bulunan komutları taklit eder. Mevcut komutlar "İçeriğe Otomatik Sığdır", "Pencereye Otomatik Sığdır" ve "Sabit Sütun Genişliği"dir. Microsoft Word 'de bu komutlar ilgili tablo özelliklerini ayarlar ve ardından tablo düzenini günceller ve Aspose.Words aynısını sizin için yapar.
+Bu yöntem, Microsoft Word'deki bir tablo için Otomatik Sığdır menüsünde bulunan komutları taklit eder. Kullanılabilir komutlar şunlardır: "İçeriğe Otomatik Sığdır", "Pencereye Otomatik Sığdır" ve "Sabit Sütun Genişliği". Microsoft Word 'de bu komutlar ilgili tablo özelliklerini ayarlar ve ardından tablo düzenini günceller; Aspose.Words da aynısını sizin için yapar.
 
 ### Örnekler
 
-Bir stil uygularken yeni bir tablonun nasıl oluşturulacağını gösterir.
+Stil uygularken yeni bir tablonun nasıl oluşturulacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 Table table = builder.StartTable();
 
-// Herhangi bir tablo biçimlendirmesini ayarlamadan önce en az bir satır eklemeliyiz.
+// Herhangi bir tablo formatını ayarlamadan önce en az bir satır eklemeliyiz.
 builder.InsertCell();
 
-// Stil tanımlayıcısına göre kullanılan tablo stilini ayarlayın.
-// .doc biçiminde kaydederken tüm tablo stillerinin kullanılamayacağını unutmayın.
+// Kullanılan tablo stilini stil tanımlayıcıya göre ayarlayın.
+// .doc formatında kaydederken tüm tablo stillerinin kullanılamayacağını unutmayın.
 table.StyleIdentifier = StyleIdentifier.MediumShading1Accent1;
 
-// Tahminlere dayalı olarak stili kısmen tablonun özelliklerine uygulayın, ardından tabloyu oluşturun.
+// Stili, yüklemlere dayalı olarak tablonun özelliklerine kısmen uygulayın, ardından tabloyu oluşturun.
 table.StyleOptions =
     TableStyleOptions.FirstColumn | TableStyleOptions.RowBands | TableStyleOptions.FirstRow;
 table.AutoFit(AutoFitBehavior.AutoFitToContents);

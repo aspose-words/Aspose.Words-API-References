@@ -19,8 +19,8 @@ public string Suffix { get; set; }
 Mostra come lavorare con i campi CITAZIONE e BIBLIOGRAFIA.
 
 ```csharp
-// Apre un documento contenente le fonti bibliografiche in cui possiamo trovare
-// Microsoft Word tramite riferimenti -> Citazioni e amp; Bibliografia -> Gestisci le fonti.
+// Apre un documento contenente fonti bibliografiche che possiamo trovare in
+// Microsoft Word tramite riferimenti -> Citazioni e citazioni Bibliografia -> Gestisci fonti.
 Document doc = new Document(MyDir + "Bibliography.docx");
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Write("Text to be cited with one source.");
@@ -28,7 +28,7 @@ builder.Write("Text to be cited with one source.");
 // Crea una citazione con solo il numero di pagina e l'autore del libro di riferimento.
 FieldCitation fieldCitation = (FieldCitation)builder.InsertField(FieldType.FieldCitation, true);
 
-// Ci riferiamo alle fonti usando i loro nomi di tag.
+// Facciamo riferimento alle fonti utilizzando i nomi dei tag.
 fieldCitation.SourceTag = "Book1";
 fieldCitation.PageNumber = "85";
 fieldCitation.SuppressAuthor = false;
@@ -54,12 +54,12 @@ fieldCitation.VolumeNumber = "VII";
 
 Assert.AreEqual(" CITATION  Book1 \\m Book2 \\l en-US \\p 19 \\f \"Prefix \" \\s \" Suffix\" \\v VII", fieldCitation.GetFieldCode());
 
-// Possiamo usare un campo BIBLIOGRAFIA per visualizzare tutte le fonti all'interno del documento.
+// Possiamo utilizzare un campo BIBLIOGRAFIA per visualizzare tutte le fonti all'interno del documento.
 builder.InsertBreak(BreakType.PageBreak);
 FieldBibliography fieldBibliography = (FieldBibliography)builder.InsertField(FieldType.FieldBibliography, true);
-fieldBibliography.FormatLanguageId = "1124";
+fieldBibliography.FormatLanguageId = "5129";
 
-Assert.AreEqual(" BIBLIOGRAPHY  \\l 1124", fieldBibliography.GetFieldCode());
+Assert.AreEqual(" BIBLIOGRAPHY  \\l 5129", fieldBibliography.GetFieldCode());
 
 doc.UpdateFields();
 doc.Save(ArtifactsDir + "Field.CITATION.docx");

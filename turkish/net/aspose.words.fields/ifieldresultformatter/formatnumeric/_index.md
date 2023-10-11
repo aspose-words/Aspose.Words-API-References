@@ -1,14 +1,14 @@
 ---
 title: IFieldResultFormatter.FormatNumeric
 second_title: Aspose.Words for .NET API Referansı
-description: IFieldResultFormatter yöntem. Aspose.Words sayısal bir biçim anahtarı uyguladığında çağrılır yani  ..
+description: IFieldResultFormatter yöntem. Aspose.Words sayısal bir format anahtarı uyguladığında çağrılır yani  ..
 type: docs
 weight: 30
 url: /tr/net/aspose.words.fields/ifieldresultformatter/formatnumeric/
 ---
 ## IFieldResultFormatter.FormatNumeric method
 
-Aspose.Words sayısal bir biçim anahtarı uyguladığında çağrılır, yani \# "#.##".
+Aspose.Words sayısal bir format anahtarı uyguladığında çağrılır, yani \# "#.##".
 
 ```csharp
 public string FormatNumeric(double value, string format)
@@ -16,22 +16,23 @@ public string FormatNumeric(double value, string format)
 
 ### Notlar
 
-Uygulama geri dönmelidir **hükümsüz** varsayılan biçimlendirmenin uygulanması gerektiğini belirtmek için.
+Uygulama geri dönmeli`hükümsüz` varsayılan biçimlendirmenin uygulanması gerektiğini belirtmek için.
 
 ### Örnekler
 
-Alanlar güncellenirken alan sonuçlarına otomatik olarak özel bir biçimin nasıl uygulanacağını gösterir.
+Alanlar güncellenirken özel bir biçimin alan sonuçlarına otomatik olarak nasıl uygulanacağını gösterir.
 
 ```csharp
+public void FieldResultFormatting()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
     FieldResultFormatter formatter = new FieldResultFormatter("${0}", "Date: {0}", "Item # {0}:");
     doc.FieldOptions.ResultFormatter = formatter;
 
-    // Alan sonucu biçimlendiricimiz, yeni oluşturulan alanlara üç tür biçimde özel bir biçim uygular.
+    // Alan sonucu biçimlendiricimiz, yeni oluşturulan alanlara üç tür formatta özel bir format uygular.
     // Alan sonucu biçimlendiricileri, güncellendikçe alanlara yeni biçimlendirme uygular,
-    // bu InsertField yöntemi aşırı yüklemesini kullanarak onları oluşturur oluşturmaz gerçekleşir.
+    // bu, bunları InsertField yöntemi aşırı yüklemesini kullanarak oluşturduğumuz anda gerçekleşir.
     // 1 - Sayısal:
     builder.InsertField(" = 2 + 3 \\# $###");
 
@@ -54,8 +55,8 @@ Alanlar güncellenirken alan sonuçlarına otomatik olarak özel bir biçimin na
 }
 
 /// <summary>
-/// Biçimlendirmeye sahip alanlar güncellendiğinde, bu biçimlendirici onların biçimlendirmesini geçersiz kılar
-/// her çağrıyı izlerken özel bir formatla.
+/// Biçimlendirmeli alanlar güncellendiğinde bu biçimlendirici onların biçimlendirmesini geçersiz kılacaktır
+/// her çağrıyı takip ederken özel bir formatla.
 /// </summary>
 private class FieldResultFormatter : IFieldResultFormatter
 {

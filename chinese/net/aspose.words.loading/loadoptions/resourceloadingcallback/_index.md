@@ -16,9 +16,10 @@ public IResourceLoadingCallback ResourceLoadingCallback { get; set; }
 
 ### 例子
 
-显示加载 Html 文档时如何处理外部资源。
+展示加载 Html 文档时如何处理外部资源。
 
 ```csharp
+public void LoadOptionsCallback()
 {
     LoadOptions loadOptions = new LoadOptions();
     loadOptions.ResourceLoadingCallback = new HtmlLinkedResourceLoadingCallback();

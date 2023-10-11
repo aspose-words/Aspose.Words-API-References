@@ -3,7 +3,7 @@ title: Enum MetafileRenderingMode
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Saving.MetafileRenderingMode uppräkning. Anger hur Aspose.Words ska återge WMF och EMFmetafiler.
 type: docs
-weight: 5010
+weight: 5290
 url: /sv/net/aspose.words.saving/metafilerenderingmode/
 ---
 ## MetafileRenderingMode enumeration
@@ -27,6 +27,7 @@ public enum MetafileRenderingMode
 Visar lade till en reserv till bitmappsrendering och ändrade typ av varningar om metafilposter som inte stöds.
 
 ```csharp
+public void HandleBinaryRasterWarnings()
 {
     Document doc = new Document(MyDir + "WMF with image.docx");
 
@@ -51,7 +52,7 @@ Visar lade till en reserv till bitmappsrendering och ändrade typ av varningar o
     doc.Save(ArtifactsDir + "PdfSaveOptions.HandleBinaryRasterWarnings.pdf", saveOptions);
 
     Assert.AreEqual(1, callback.Warnings.Count);
-    Assert.AreEqual("'R2_XORPEN' binary raster operation is partly supported.",
+    Assert.AreEqual("'R2_XORPEN' binary raster operation is not supported.",
         callback.Warnings[0].Description);
 }
 

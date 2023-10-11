@@ -1,14 +1,14 @@
 ---
 title: RevisionOptions.ShowRevisionMarks
 second_title: Aspose.Words för .NET API Referens
-description: RevisionOptions fast egendom. Tillåt att ange om versionstext ska markeras med speciell formateringsmarkering. Standardvärdet är True.
+description: RevisionOptions fast egendom. Tillåt att ange om versionstext ska markeras med speciell formateringsmarkering. Standardvärdet ärSann .
 type: docs
 weight: 190
 url: /sv/net/aspose.words.layout/revisionoptions/showrevisionmarks/
 ---
 ## RevisionOptions.ShowRevisionMarks property
 
-Tillåt att ange om versionstext ska markeras med speciell formateringsmarkering. Standardvärdet är True.
+Tillåt att ange om versionstext ska markeras med speciell formateringsmarkering. Standardvärdet är`Sann` .
 
 ```csharp
 public bool ShowRevisionMarks { get; set; }
@@ -38,7 +38,7 @@ revisionOptions.DeletedTextEffect = RevisionTextEffect.Bold;
 // och dubbelt understruket blått vid den flyttade till revisionen.
 revisionOptions.MovedFromTextColor = RevisionColor.Yellow;
 revisionOptions.MovedFromTextEffect = RevisionTextEffect.DoubleStrikeThrough;
-revisionOptions.MovedToTextColor = RevisionColor.Blue;
+revisionOptions.MovedToTextColor = RevisionColor.ClassicBlue;
 revisionOptions.MovedFromTextEffect = RevisionTextEffect.DoubleUnderline;
 
 // Gör formatrevisioner i mörkrött och fetstil.

@@ -1,14 +1,14 @@
 ---
 title: TextWatermarkOptions.Color
 second_title: Referencia de API de Aspose.Words para .NET
-description: TextWatermarkOptions propiedad. Obtiene o establece el color de fuente. El valor predeterminado es Color.Silver.
+description: TextWatermarkOptions propiedad. Obtiene o establece el color de fuente. El valor predeterminado esSilver .
 type: docs
 weight: 20
 url: /es/net/aspose.words/textwatermarkoptions/color/
 ---
 ## TextWatermarkOptions.Color property
 
-Obtiene o establece el color de fuente. El valor predeterminado es Color.Silver.
+Obtiene o establece el color de fuente. El valor predeterminado esSilver .
 
 ```csharp
 public Color Color { get; set; }
@@ -21,7 +21,7 @@ Muestra cómo crear una marca de agua de texto.
 ```csharp
 Document doc = new Document();
 
-// Agregue una marca de agua de texto sin formato.
+// Agrega una marca de agua de texto sin formato.
 doc.Watermark.SetText("Aspose Watermark");
 
 // Si deseamos editar el formato del texto usándolo como marca de agua,

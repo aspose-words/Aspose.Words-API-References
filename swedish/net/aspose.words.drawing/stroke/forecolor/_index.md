@@ -3,7 +3,7 @@ title: Stroke.ForeColor
 second_title: Aspose.Words för .NET API Referens
 description: Stroke fast egendom. Hämtar eller ställer in linjens förgrundsfärg.
 type: docs
-weight: 90
+weight: 110
 url: /sv/net/aspose.words.drawing/stroke/forecolor/
 ---
 ## Stroke.ForeColor property

@@ -3,7 +3,7 @@ title: Enum FontPitch
 second_title: Aspose.Words لمراجع .NET API
 description: Aspose.Words.Fonts.FontPitch تعداد. يمثل درجة الخط.
 type: docs
-weight: 2780
+weight: 2960
 url: /ar/net/aspose.words.fonts/fontpitch/
 ---
 ## FontPitch enumeration
@@ -18,13 +18,13 @@ public enum FontPitch
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| Default | `0` | تحديد عدم توفر معلومات حول درجة ميل الخط. |
-| Fixed | `1` | يحدد أن هذا خط ذو عرض ثابت. |
-| Variable | `2` | يحدد أن هذا هو خط العرض النسبي. |
+| Default | `0` | يحدد عدم توفر أي معلومات حول درجة الخط. |
+| Fixed | `1` | يحدد أن هذا الخط ذو عرض ثابت. |
+| Variable | `2` | يحدد أن هذا خط ذو عرض متناسب. |
 
 ### ملاحظات
 
-تشير درجة الصوت إلى ما إذا كان الخط ثابتًا أو متباعدًا بشكل متناسب أو يعتمد على إعداد افتراضي.
+تشير درجة الصوت إلى ما إذا كان الخط ثابتًا أو متباعدًا بشكل متناسب أو يعتمد على الإعداد الافتراضي.
 
 ### أمثلة
 
@@ -41,7 +41,7 @@ while (fontCollectionEnumerator.MoveNext())
     {
         Console.WriteLine("Font name: " + fontInfo.Name);
 
-        // عادةً ما تكون أسماء Alt فارغة.
+        // الأسماء البديلة عادة ما تكون فارغة.
         Console.WriteLine("Alt name: " + fontInfo.AltName);
         Console.WriteLine("\t- Family: " + fontInfo.Family);
         Console.WriteLine("\t- " + (fontInfo.IsTrueType ? "Is TrueType" : "Is not TrueType"));

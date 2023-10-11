@@ -1,14 +1,14 @@
 ---
 title: TextBox.BreakForwardLink
 second_title: Aspose.Words per .NET API Reference
-description: TextBox metodo. Interrompe il collegamento alla casella di testo successiva.
+description: TextBox metodo. Interrompe il collegamento al successivoTextBox .
 type: docs
-weight: 120
+weight: 130
 url: /it/net/aspose.words.drawing/textbox/breakforwardlink/
 ---
 ## TextBox.BreakForwardLink method
 
-Interrompe il collegamento alla casella di testo successiva.
+Interrompe il collegamento al successivo[`TextBox`](../) .
 
 ```csharp
 public void BreakForwardLink()
@@ -16,7 +16,7 @@ public void BreakForwardLink()
 
 ### Osservazioni
 
-BreakForwardLink() non interrompe tutti gli altri collegamenti nella sequenza di forme corrente. Ad esempio: la sequenza 1-2-3-4 e BreakForwardLink nella seconda casella di testo creeranno due sequenze 1-2, 3-4.
+`BreakForwardLink`non interrompe tutti gli altri collegamenti nella sequenza corrente di forme. Ad esempio: sequenza 1-2-3-4 e`BreakForwardLink` nella seconda casella di testo verranno create due sequenze 1-2, 3-4.
 
 ### Esempi
 

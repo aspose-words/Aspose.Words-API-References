@@ -3,7 +3,7 @@ title: Style.Remove
 second_title: Справочник по API Aspose.Words для .NET
 description: Style метод. Удаляет указанный стиль из документа.
 type: docs
-weight: 180
+weight: 200
 url: /ru/net/aspose.words/style/remove/
 ---
 ## Style.Remove method
@@ -18,13 +18,13 @@ public void Remove()
 
 Удаление стиля влияет на модель документа следующим образом:
 
-* Все ссылки на стиль удаляются из соответствующих абзацев, прогонов и таблиц.
-* Если базовый стиль удаляется, его форматирование перемещается в дочерние стили.
-* Если стиль, подлежащий удалению, имеет связанный стиль, то удаляются оба стиля.
+* Все ссылки на стиль удалены из соответствующих параграфов, строк и таблиц.
+* Если базовый стиль удален, его форматирование переносится в дочерние стили.
+* Если удаляемый стиль имеет связанный стиль, то удаляются оба стиля.
 
 ### Примеры
 
-Показывает, как создать и применить пользовательский стиль.
+Показывает, как создать и применить собственный стиль.
 
 ```csharp
 Document doc = new Document();
@@ -33,10 +33,12 @@ Style style = doc.Styles.Add(StyleType.Paragraph, "MyStyle");
 style.Font.Name = "Times New Roman";
 style.Font.Size = 16;
 style.Font.Color = Color.Navy;
+// Автоматически переопределить стиль.
+style.AutomaticallyUpdate = true;
 
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Применяем один из стилей из документа к абзацу, который создает конструктор документов.
+// Применяем один из стилей документа к абзацу, который создает конструктор документов.
 builder.ParagraphFormat.Style = doc.Styles["MyStyle"];
 builder.Writeln("Hello world!");
 
@@ -44,7 +46,7 @@ Style firstParagraphStyle = doc.FirstSection.Body.FirstParagraph.ParagraphFormat
 
 Assert.AreEqual(style, firstParagraphStyle);
 
-// Удаляем наш пользовательский стиль из коллекции стилей документа.
+// Удаляем наш собственный стиль из коллекции стилей документа.
 doc.Styles["MyStyle"].Remove();
 
 firstParagraphStyle = doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Style;

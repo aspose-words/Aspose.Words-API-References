@@ -1,14 +1,14 @@
 ---
 title: PageSetup.TextOrientation
 second_title: Aspose.Words für .NET-API-Referenz
-description: PageSetup eigendom. Ermöglicht die AngabeTextOrientation für die ganze Seite. Standardwert istHorizontal
+description: PageSetup eigendom. Ermöglicht die AngabeTextOrientation für die gesamte Seite. Der Standardwert istHorizontal
 type: docs
-weight: 420
+weight: 430
 url: /de/net/aspose.words/pagesetup/textorientation/
 ---
 ## PageSetup.TextOrientation property
 
-Ermöglicht die Angabe`TextOrientation` für die ganze Seite. Standardwert istHorizontal
+Ermöglicht die Angabe`TextOrientation` für die gesamte Seite. Der Standardwert istHorizontal
 
 ```csharp
 public TextOrientation TextOrientation { get; set; }
@@ -28,8 +28,8 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 
-// Setzen Sie die Eigenschaft "TextOrientation" auf "TextOrientation.Upward", um den gesamten Text um 90 Grad zu drehen
-// nach rechts, sodass der gesamte Text von links nach rechts jetzt von oben nach unten geht.
+// Setzen Sie die Eigenschaft „TextOrientation“ auf „TextOrientation.Upward“, um den gesamten Text um 90 Grad zu drehen
+// nach rechts, sodass der gesamte von links nach rechts verlaufende Text jetzt von oben nach unten verläuft.
 PageSetup pageSetup = doc.Sections[0].PageSetup;
 pageSetup.TextOrientation = TextOrientation.Upward;
 

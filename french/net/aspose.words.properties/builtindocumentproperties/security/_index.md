@@ -16,9 +16,9 @@ public DocumentSecurity Security { get; set; }
 
 ### Remarques
 
-Utilisez cette propriété à des fins d'information uniquement car Microsoft Word ne définit pas toujours cette propriété. Cette propriété est disponible uniquement dans les documents DOC et OOXML.
+Utilisez cette propriété à des fins d'information uniquement, car Microsoft Word ne définit pas toujours cette propriété. Cette propriété est disponible uniquement dans les documents DOC et OOXML.
 
-Pour protéger ou déprotéger un document, utilisez the [`Protect`](../../../aspose.words/document/protect/) et[`Unprotect`](../../../aspose.words/document/unprotect/)méthodes.
+Pour protéger ou déprotéger un document utilisez the [`Protect`](../../../aspose.words/document/protect/) et[`Unprotect`](../../../aspose.words/document/unprotect/) méthodes.
 
 Aspose.Words met à jour cette propriété avec une valeur correcte avant d'enregistrer un document.
 
@@ -31,14 +31,14 @@ Document doc = new Document();
 
 Assert.AreEqual(DocumentSecurity.None, doc.BuiltInDocumentProperties.Security);
 
-// Si nous configurons un document en lecture seule, il affichera cet état à l'aide de la propriété intégrée "Security".
+// Si nous configurons un document en lecture seule, il affichera cet état en utilisant la propriété intégrée "Sécurité".
 doc.WriteProtection.ReadOnlyRecommended = true;
 doc.Save(ArtifactsDir + "DocumentProperties.Security.ReadOnlyRecommended.docx");
 
 Assert.AreEqual(DocumentSecurity.ReadOnlyRecommended, 
     new Document(ArtifactsDir + "DocumentProperties.Security.ReadOnlyRecommended.docx").BuiltInDocumentProperties.Security);
 
-// Protégez un document en écriture, puis vérifiez son niveau de sécurité.
+// Protégez en écriture un document, puis vérifiez son niveau de sécurité.
 doc = new Document();
 
 Assert.False(doc.WriteProtection.IsWriteProtected);
@@ -53,7 +53,7 @@ doc.Save(ArtifactsDir + "DocumentProperties.Security.ReadOnlyEnforced.docx");
 Assert.AreEqual(DocumentSecurity.ReadOnlyEnforced,
     new Document(ArtifactsDir + "DocumentProperties.Security.ReadOnlyEnforced.docx").BuiltInDocumentProperties.Security);
 
-// "Security" est une propriété descriptive. Nous pouvons modifier sa valeur manuellement.
+// "Sécurité" est une propriété descriptive. Nous pouvons modifier sa valeur manuellement.
 doc = new Document();
 
 doc.Protect(ProtectionType.AllowOnlyComments, "MyPassword");

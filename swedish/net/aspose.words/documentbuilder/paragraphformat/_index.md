@@ -3,7 +3,7 @@ title: DocumentBuilder.ParagraphFormat
 second_title: Aspose.Words för .NET API Referens
 description: DocumentBuilder fast egendom. Returnerar ett objekt som representerar aktuella styckeformateringsegenskaper.
 type: docs
-weight: 150
+weight: 170
 url: /sv/net/aspose.words/documentbuilder/paragraphformat/
 ---
 ## DocumentBuilder.ParagraphFormat property

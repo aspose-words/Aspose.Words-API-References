@@ -1,14 +1,14 @@
 ---
 title: Fill.PresetTextured
 second_title: Aspose.Words für .NET-API-Referenz
-description: Fill methode. Legt die Füllung auf eine voreingestellte Textur fest.
+description: Fill methode. Setzt die Füllung auf eine voreingestellte Textur.
 type: docs
-weight: 180
+weight: 240
 url: /de/net/aspose.words.drawing/fill/presettextured/
 ---
 ## Fill.PresetTextured method
 
-Legt die Füllung auf eine voreingestellte Textur fest.
+Setzt die Füllung auf eine voreingestellte Textur.
 
 ```csharp
 public void PresetTextured(PresetTexture presetTexture)
@@ -29,7 +29,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertChart(ChartType.Scatter, 432, 252);
 Chart chart = shape.Chart;
 
-// Standardmäßig generierte Serie löschen.
+// Standardmäßig generierte Serien löschen.
 chart.Series.Clear();
 ChartSeries series = chart.Series.Add("AW Series 1", new[] { 0.7, 1.8, 2.6, 3.9 },
     new[] { 2.7, 3.2, 0.8, 1.7 });

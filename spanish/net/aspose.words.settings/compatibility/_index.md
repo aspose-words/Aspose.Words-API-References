@@ -1,14 +1,14 @@
 ---
 title: Enum Compatibility
 second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Settings.Compatibility enumeración. Especifica los nombres de las opciones de compatibilidad.
+description: Aspose.Words.Settings.Compatibility enumeración. Especifica nombres de opciones de compatibilidad.
 type: docs
-weight: 5480
+weight: 5770
 url: /es/net/aspose.words.settings/compatibility/
 ---
 ## Compatibility enumeration
 
-Especifica los nombres de las opciones de compatibilidad.
+Especifica nombres de opciones de compatibilidad.
 
 ```csharp
 public enum Compatibility
@@ -99,18 +99,18 @@ public void OptimizeFor()
 {
     Document doc = new Document();
 
-    // Este objeto contiene una extensa lista de banderas únicas para cada documento
-    // que nos permiten facilitar la retrocompatibilidad con versiones anteriores de Microsoft Word.
+    // Este objeto contiene una lista extensa de indicadores únicos para cada documento
+    // que nos permiten facilitar la compatibilidad con versiones anteriores de Microsoft Word.
     CompatibilityOptions options = doc.CompatibilityOptions;
 
     // Imprime la configuración predeterminada para un documento en blanco.
     Console.WriteLine("\nDefault optimization settings:");
     PrintCompatibilityOptions(options);
 
-    // Podemos acceder a esta configuración en Microsoft Word a través de "Archivo" -> "Opciones" -> "Avanzado" -> "Opciones de compatibilidad para...".
+    // Podemos acceder a estas configuraciones en Microsoft Word a través de "Archivo" -> "Opciones" -> "Avanzado" -> "Opciones de compatibilidad para...".
     doc.Save(ArtifactsDir + "CompatibilityOptions.OptimizeFor.DefaultSettings.docx");
 
-    // Podemos usar el método OptimizeFor para garantizar una compatibilidad óptima con una versión específica de Microsoft Word.
+    // Podemos utilizar el método OptimizeFor para garantizar una compatibilidad óptima con una versión específica de Microsoft Word.
     doc.CompatibilityOptions.OptimizeFor(MsWordVersion.Word2010);
     Console.WriteLine("\nOptimized for Word 2010:");
     PrintCompatibilityOptions(options);

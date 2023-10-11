@@ -1,14 +1,14 @@
 ---
 title: ShapeBase.MarkupLanguage
 second_title: Aspose.Words لمراجع .NET API
-description: ShapeBase ملكية. Gets MarkupLanguage المستخدمة لهذا الكائن الرسومي.
+description: ShapeBase ملكية. يحصل على لغة الترميز المستخدمة لهذا الكائن الرسومي.
 type: docs
-weight: 370
+weight: 390
 url: /ar/net/aspose.words.drawing/shapebase/markuplanguage/
 ---
 ## ShapeBase.MarkupLanguage property
 
-Gets MarkupLanguage المستخدمة لهذا الكائن الرسومي.
+يحصل على لغة الترميز المستخدمة لهذا الكائن الرسومي.
 
 ```csharp
 public ShapeMarkupLanguage MarkupLanguage { get; }

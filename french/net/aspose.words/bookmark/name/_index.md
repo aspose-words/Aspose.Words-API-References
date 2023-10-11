@@ -24,12 +24,12 @@ Montre comment insérer un signet.
 
 ```csharp
 Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
+DocumentBuilder builder = new DocumentBuilder(doc);            
 
 // Un signet valide a un nom, un nœud BookmarkStart et un nœud BookmarkEnd.
-// Tout espace dans les noms des signets sera converti en traits de soulignement si nous ouvrons le document enregistré avec Microsoft Word. 
-// Si nous mettons en surbrillance le nom du signet dans Microsoft Word via Insert -> Liens -> Bookmark, et appuyez sur "Aller à",
-// le curseur sautera au texte inclus entre les nœuds BookmarkStart et BookmarkEnd.
+// Tout espace dans les noms des signets sera converti en traits de soulignement si nous ouvrons le document enregistré avec Microsoft Word.
+// Si l'on met en surbrillance le nom du signet dans Microsoft Word via Insérer -> Liens -> Ajoutez un signet et appuyez sur "Aller à",
+// le curseur passera au texte compris entre les nœuds BookmarkStart et BookmarkEnd.
 builder.StartBookmark("My Bookmark");
 builder.Write("Contents of MyBookmark.");
 builder.EndBookmark("My Bookmark");
@@ -48,10 +48,9 @@ public void CreateUpdateAndPrintBookmarks()
     // Créez un document avec trois signets, puis utilisez une implémentation de visiteur de document personnalisée pour imprimer leur contenu.
     Document doc = CreateDocumentWithBookmarks(3);
     BookmarkCollection bookmarks = doc.Range.Bookmarks;
-
     PrintAllBookmarkInfo(bookmarks);
 
-    // Les signets sont accessibles dans la collection de signets par index ou nom, et leurs noms peuvent être mis à jour.
+    // Les signets sont accessibles dans la collection de signets par index ou par nom, et leurs noms peuvent être mis à jour.
     bookmarks[0].Name = $"{bookmarks[0].Name}_NewName";
     bookmarks["MyBookmark_2"].Text = $"Updated text contents of {bookmarks[1].Name}";
 
@@ -88,7 +87,7 @@ private static void PrintAllBookmarkInfo(BookmarkCollection bookmarks)
 {
     BookmarkInfoPrinter bookmarkVisitor = new BookmarkInfoPrinter();
 
-    // Obtient chaque signet de la collection pour accepter un visiteur qui imprimera son contenu.
+    // Demande à chaque signet de la collection d'accepter un visiteur qui imprimera son contenu.
     using (IEnumerator<Bookmark> enumerator = bookmarks.GetEnumerator())
     {
         while (enumerator.MoveNext())

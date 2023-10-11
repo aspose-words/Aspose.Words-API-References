@@ -1,14 +1,14 @@
 ---
 title: ParagraphFormat.IsHeading
 second_title: Referencia de API de Aspose.Words para .NET
-description: ParagraphFormat propiedad. Verdadero cuando el estilo de párrafo es uno de los estilos de encabezado integrados.
+description: ParagraphFormat propiedad. Verdadero cuando el estilo de párrafo es uno de los estilos de título integrados.
 type: docs
-weight: 130
+weight: 140
 url: /es/net/aspose.words/paragraphformat/isheading/
 ---
 ## ParagraphFormat.IsHeading property
 
-Verdadero cuando el estilo de párrafo es uno de los estilos de encabezado integrados.
+Verdadero cuando el estilo de párrafo es uno de los estilos de título integrados.
 
 ```csharp
 public bool IsHeading { get; }
@@ -16,13 +16,13 @@ public bool IsHeading { get; }
 
 ### Ejemplos
 
-Muestra cómo limitar el nivel de los encabezados que aparecerán en el esquema de un documento PDF guardado.
+Muestra cómo limitar el nivel de los títulos que aparecerán en el esquema de un documento PDF guardado.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Insertar encabezados que puedan servir como entradas de TOC de los niveles 1, 2 y luego 3.
+// Insertar encabezados que puedan servir como entradas TOC de los niveles 1, 2 y luego 3.
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
 
 Assert.True(builder.ParagraphFormat.IsHeading);
@@ -44,9 +44,9 @@ builder.Writeln("Heading 1.2.2");
 PdfSaveOptions saveOptions = new PdfSaveOptions();
 saveOptions.SaveFormat = SaveFormat.Pdf;
 
-// El documento PDF de salida contendrá un esquema, que es una tabla de contenido que enumera los encabezados en el cuerpo del documento.
-// Al hacer clic en una entrada de este esquema, nos llevará a la ubicación de su respectivo encabezado.
-// Establezca la propiedad "HeadingsOutlineLevels" en "2" para excluir todos los encabezados cuyos niveles estén por encima de 2 del esquema.
+// El documento PDF de salida contendrá un esquema, que es una tabla de contenido que enumera los títulos en el cuerpo del documento.
+// Al hacer clic en una entrada de este esquema nos llevará a la ubicación de su respectivo encabezado.
+// Establece la propiedad "HeadingsOutlineLevels" en "2" para excluir del esquema todos los encabezados cuyos niveles estén por encima de 2.
 // Los dos últimos encabezados que hemos insertado arriba no aparecerán.
 saveOptions.OutlineOptions.HeadingsOutlineLevels = 2;
 

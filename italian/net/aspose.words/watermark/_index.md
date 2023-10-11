@@ -3,12 +3,14 @@ title: Class Watermark
 second_title: Aspose.Words per .NET API Reference
 description: Aspose.Words.Watermark classe. Rappresenta la classe per lavorare con la filigrana del documento.
 type: docs
-weight: 6360
+weight: 6670
 url: /it/net/aspose.words/watermark/
 ---
 ## Watermark class
 
 Rappresenta la classe per lavorare con la filigrana del documento.
+
+Per saperne di più, visita il[Lavorare con la filigrana](https://docs.aspose.com/words/net/working-with-watermark/) articolo di documentazione.
 
 ```csharp
 public sealed class Watermark
@@ -28,8 +30,8 @@ public sealed class Watermark
 | [SetImage](../../aspose.words/watermark/setimage/#setimage)(Image) | Aggiunge la filigrana dell'immagine al documento. |
 | [SetImage](../../aspose.words/watermark/setimage/#setimage_1)(Image, ImageWatermarkOptions) | Aggiunge la filigrana dell'immagine al documento. |
 | [SetImage](../../aspose.words/watermark/setimage/#setimage_2)(string, ImageWatermarkOptions) | Aggiunge la filigrana dell'immagine al documento. |
-| [SetText](../../aspose.words/watermark/settext/#settext)(string) | Aggiunge una filigrana di testo al documento. |
-| [SetText](../../aspose.words/watermark/settext/#settext_1)(string, TextWatermarkOptions) | Aggiunge una filigrana di testo al documento. |
+| [SetText](../../aspose.words/watermark/settext/#settext)(string) | Aggiunge una filigrana di testo nel documento. |
+| [SetText](../../aspose.words/watermark/settext/#settext_1)(string, TextWatermarkOptions) | Aggiunge una filigrana di testo nel documento. |
 
 ### Guarda anche
 

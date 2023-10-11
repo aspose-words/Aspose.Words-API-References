@@ -16,7 +16,7 @@ public bool BorderAlwaysInFront { get; set; }
 
 ### Ejemplos
 
-Muestra cómo crear un borde ancho de banda azul en la parte superior de la primera página.
+Muestra cómo crear un borde de banda azul ancho en la parte superior de la primera página.
 
 ```csharp
 Document doc = new Document();

@@ -1,14 +1,14 @@
 ---
 title: Paragraph.FrameFormat
 second_title: Aspose.Words för .NET API Referens
-description: Paragraph fast egendom. Ger tillgång till styckeformateringsegenskaperna.
+description: Paragraph fast egendom. Ger tillgång till ramformateringsegenskaperna.
 type: docs
 weight: 30
 url: /sv/net/aspose.words/paragraph/frameformat/
 ---
 ## Paragraph.FrameFormat property
 
-Ger tillgång till styckeformateringsegenskaperna.
+Ger tillgång till ramformateringsegenskaperna.
 
 ```csharp
 public FrameFormat FrameFormat { get; }

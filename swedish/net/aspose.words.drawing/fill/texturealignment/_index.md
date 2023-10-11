@@ -3,7 +3,7 @@ title: Fill.TextureAlignment
 second_title: Aspose.Words för .NET API Referens
 description: Fill fast egendom. Hämtar eller ställer in justeringen för kakeltexturfyllning.
 type: docs
-weight: 130
+weight: 190
 url: /sv/net/aspose.words.drawing/fill/texturealignment/
 ---
 ## Fill.TextureAlignment property

@@ -1,14 +1,14 @@
 ---
 title: FontInfo.GetEmbeddedFont
 second_title: Aspose.Words لمراجع .NET API
-description: FontInfo طريقة. الحصول على ملف خط مضمن محدد .
+description: FontInfo طريقة. يحصل على ملف خط مضمن محدد.
 type: docs
 weight: 80
 url: /ar/net/aspose.words.fonts/fontinfo/getembeddedfont/
 ---
 ## FontInfo.GetEmbeddedFont method
 
-الحصول على ملف خط مضمن محدد .
+يحصل على ملف خط مضمن محدد.
 
 ```csharp
 public byte[] GetEmbeddedFont(EmbeddedFontFormat format, EmbeddedFontStyle style)
@@ -21,7 +21,7 @@ public byte[] GetEmbeddedFont(EmbeddedFontFormat format, EmbeddedFontStyle style
 
 ### قيمة الإرجاع
 
-عائدات`لا شيء`إذا لم يتم تضمين الخط المحدد.
+عائدات`باطل`إذا لم يتم تضمين الخط المحدد.
 
 ### أمثلة
 
@@ -41,7 +41,7 @@ doc = new Document(MyDir + "Embedded font.doc");
 Assert.IsNull(doc.FontInfos["Alte DIN 1451 Mittelschrift"].GetEmbeddedFont(EmbeddedFontFormat.OpenType, EmbeddedFontStyle.Regular));
 Assert.IsNotNull(doc.FontInfos["Alte DIN 1451 Mittelschrift"].GetEmbeddedFont(EmbeddedFontFormat.EmbeddedOpenType, EmbeddedFontStyle.Regular));
 
-// أيضًا ، يمكننا تحويل تنسيق OpenType المضمن ، والذي يأتي من مستندات doc. ، إلى OpenType.
+// أيضًا، يمكننا تحويل تنسيق OpenType المضمن، والذي يأتي من مستندات ‎.doc، إلى OpenType.
 embeddedFontBytes = doc.FontInfos["Alte DIN 1451 Mittelschrift"].GetEmbeddedFontAsOpenType(EmbeddedFontStyle.Regular);
 
 File.WriteAllBytes(ArtifactsDir + "Alte DIN 1451 Mittelschrift.otf", embeddedFontBytes);

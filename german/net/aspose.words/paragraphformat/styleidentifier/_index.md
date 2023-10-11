@@ -1,14 +1,14 @@
 ---
 title: ParagraphFormat.StyleIdentifier
 second_title: Aspose.Words für .NET-API-Referenz
-description: ParagraphFormat eigendom. Ruft die gebietsschemaunabhängige Stilkennung des auf diese Formatierung angewendeten Absatzstils ab oder legt ihn fest.
+description: ParagraphFormat eigendom. Ruft die vom Gebietsschema unabhängige Stilkennung des Absatzstils ab der auf diese Formatierung angewendet wird oder legt diesen fest.
 type: docs
-weight: 340
+weight: 350
 url: /de/net/aspose.words/paragraphformat/styleidentifier/
 ---
 ## ParagraphFormat.StyleIdentifier property
 
-Ruft die gebietsschemaunabhängige Stilkennung des auf diese Formatierung angewendeten Absatzstils ab oder legt ihn fest.
+Ruft die vom Gebietsschema unabhängige Stilkennung des Absatzstils ab, der auf diese Formatierung angewendet wird, oder legt diesen fest.
 
 ```csharp
 public StyleIdentifier StyleIdentifier { get; set; }
@@ -16,16 +16,16 @@ public StyleIdentifier StyleIdentifier { get; set; }
 
 ### Beispiele
 
-Zeigt, wie Sie ein Inhaltsverzeichnis (TOC) in ein Dokument einfügen, indem Sie Überschriftenstile als Einträge verwenden.
+Zeigt, wie man ein Inhaltsverzeichnis (TOC) in ein Dokument einfügt, indem man Überschriftenstile als Einträge verwendet.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Ein Inhaltsverzeichnis für die erste Seite des Dokuments einfügen.
-// Konfigurieren Sie die Tabelle, um Absätze mit Überschriften der Ebenen 1 bis 3 aufzunehmen.
-// Legen Sie außerdem seine Einträge als Hyperlinks fest, die uns führen
-// an die Position der Überschrift, wenn in Microsoft Word mit der linken Maustaste geklickt wird.
+// Konfigurieren Sie die Tabelle so, dass sie Absätze mit Überschriften der Ebenen 1 bis 3 aufnimmt.
+// Legen Sie außerdem fest, dass seine Einträge Hyperlinks sind, die uns weiterleiten
+// zur Position der Überschrift, wenn in Microsoft Word mit der linken Maustaste darauf geklickt wird.
 builder.InsertTableOfContents("\\o \"1-3\" \\h \\z \\u");
 builder.InsertBreak(BreakType.PageBreak);
 

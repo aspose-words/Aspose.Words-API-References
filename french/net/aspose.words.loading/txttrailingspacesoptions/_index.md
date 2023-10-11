@@ -3,7 +3,7 @@ title: Enum TxtTrailingSpacesOptions
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Aspose.Words.Loading.TxtTrailingSpacesOptions énumération. Spécifie les options disponibles pour la gestion des espaces de fin lors de limportation depuisText fichier.
 type: docs
-weight: 3540
+weight: 3740
 url: /fr/net/aspose.words.loading/txttrailingspacesoptions/
 ---
 ## TxtTrailingSpacesOptions enumeration
@@ -23,29 +23,29 @@ public enum TxtTrailingSpacesOptions
 
 ### Exemples
 
-Montre comment couper les espaces blancs lors du chargement de documents en texte brut.
+Montre comment réduire les espaces lors du chargement de documents en texte brut.
 
 ```csharp
 string textDoc = "      Line 1 \n" +
                  "    Line 2   \n" +
                  " Line 3       ";
 
-// Crée un objet "TxtLoadOptions", que nous pouvons passer au constructeur d'un document
-// pour modifier la façon dont nous chargeons un document en clair.
+// Crée un objet "TxtLoadOptions", que l'on peut transmettre au constructeur d'un document
+// pour modifier la façon dont nous chargeons un document en texte brut.
 TxtLoadOptions loadOptions = new TxtLoadOptions();
 
 // Définissez la propriété "LeadingSpacesOptions" sur "TxtLeadingSpacesOptions.Preserve"
 // pour conserver tous les caractères d'espacement au début de chaque ligne.
 // Définissez la propriété "LeadingSpacesOptions" sur "TxtLeadingSpacesOptions.ConvertToIndent"
-// pour supprimer tous les caractères d'espacement du début de chaque ligne,
-// puis appliquez un retrait de première ligne à gauche au paragraphe pour simuler l'effet des espaces.
+// pour supprimer tous les caractères d'espacement au début de chaque ligne,
+// puis appliquez un retrait de première ligne gauche au paragraphe pour simuler l'effet des espaces.
 // Définissez la propriété "LeadingSpacesOptions" sur "TxtLeadingSpacesOptions.Trim"
-// pour supprimer tous les caractères d'espacement du début de chaque ligne.
+// pour supprimer tous les caractères d'espacement au début de chaque ligne.
 loadOptions.LeadingSpacesOptions = txtLeadingSpacesOptions;
 
 // Définissez la propriété "TrailingSpacesOptions" sur "TxtTrailingSpacesOptions.Preserve"
-// pour conserver tous les caractères d'espacement à la fin de chaque ligne. 
-// Définissez la propriété "TrailingSpacesOptions" sur "TxtTrailingSpacesOptions.Trim" pour 
+ // pour conserver tous les caractères d'espacement à la fin de chaque ligne.
+ // Définissez la propriété "TrailingSpacesOptions" sur "TxtTrailingSpacesOptions.Trim" pour
 // supprime tous les caractères d'espacement à la fin de chaque ligne.
 loadOptions.TrailingSpacesOptions = txtTrailingSpacesOptions;
 

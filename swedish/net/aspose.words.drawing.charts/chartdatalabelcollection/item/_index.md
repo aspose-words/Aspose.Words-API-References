@@ -3,7 +3,7 @@ title: ChartDataLabelCollection.Item
 second_title: Aspose.Words för .NET API Referens
 description: ChartDataLabelCollection fast egendom. ReturnerarChartDataLabel för det angivna indexet.
 type: docs
-weight: 20
+weight: 40
 url: /sv/net/aspose.words.drawing.charts/chartdatalabelcollection/item/
 ---
 ## ChartDataLabelCollection indexer
@@ -19,6 +19,7 @@ public ChartDataLabel this[int index] { get; }
 Visar hur man applicerar etiketter på datapunkter i ett linjediagram.
 
 ```csharp
+public void DataLabels()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);

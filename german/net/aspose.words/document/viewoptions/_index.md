@@ -1,14 +1,14 @@
 ---
 title: Document.ViewOptions
 second_title: Aspose.Words für .NET-API-Referenz
-description: Document eigendom. Bietet Optionen zum Steuern der Anzeige des Dokuments in Microsoft Word.
+description: Document eigendom. Bietet Optionen zur Steuerung der Anzeige des Dokuments in Microsoft Word.
 type: docs
-weight: 450
+weight: 470
 url: /de/net/aspose.words/document/viewoptions/
 ---
 ## Document.ViewOptions property
 
-Bietet Optionen zum Steuern der Anzeige des Dokuments in Microsoft Word.
+Bietet Optionen zur Steuerung der Anzeige des Dokuments in Microsoft Word.
 
 ```csharp
 public ViewOptions ViewOptions { get; }
@@ -16,7 +16,7 @@ public ViewOptions ViewOptions { get; }
 
 ### Beispiele
 
-Zeigt, wie Sie einen benutzerdefinierten Zoomfaktor festlegen, der ältere Versionen von Microsoft Word beim Laden auf ein Dokument anwenden.
+Zeigt, wie man einen benutzerdefinierten Zoomfaktor festlegt, den ältere Versionen von Microsoft Word beim Laden auf ein Dokument anwenden.
 
 ```csharp
 Document doc = new Document();
@@ -32,19 +32,19 @@ Assert.AreEqual(ZoomType.None, doc.ViewOptions.ZoomType);
 doc.Save(ArtifactsDir + "ViewOptions.SetZoomPercentage.doc");
 ```
 
-Zeigt, wie Sie einen benutzerdefinierten Zoomtyp festlegen, der ältere Versionen von Microsoft Word beim Laden auf ein Dokument anwenden.
+Zeigt, wie Sie einen benutzerdefinierten Zoomtyp festlegen, den ältere Versionen von Microsoft Word beim Laden auf ein Dokument anwenden.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 
-// Legen Sie die Eigenschaft "ZoomType" auf "ZoomType.PageWidth" fest, um Microsoft Word zu erhalten
+// Setzen Sie die Eigenschaft „ZoomType“ auf „ZoomType.PageWidth“, um Microsoft Word abzurufen
 // um das Dokument automatisch an die Breite der Seite anzupassen.
-// Legen Sie die Eigenschaft "ZoomType" auf "ZoomType.FullPage" fest, um Microsoft Word zu erhalten
+// Setzen Sie die Eigenschaft „ZoomType“ auf „ZoomType.FullPage“, um Microsoft Word abzurufen
 // um das Dokument automatisch zu zoomen, um die gesamte erste Seite sichtbar zu machen.
-// Setzen Sie die Eigenschaft "ZoomType" auf "ZoomType.TextFit", um Microsoft Word zu erhalten
-// um das Dokument automatisch zu zoomen, um es an die inneren Textränder der ersten Seite anzupassen.
+// Setzen Sie die Eigenschaft „ZoomType“ auf „ZoomType.TextFit“, um Microsoft Word abzurufen
+// um das Dokument automatisch so zu vergrößern, dass es in die inneren Textränder der ersten Seite passt.
 doc.ViewOptions.ZoomType = zoomType;
 
 doc.Save(ArtifactsDir + "ViewOptions.SetZoomType.doc");

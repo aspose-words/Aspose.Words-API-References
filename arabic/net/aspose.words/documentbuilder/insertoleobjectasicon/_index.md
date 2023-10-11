@@ -1,14 +1,14 @@
 ---
 title: DocumentBuilder.InsertOleObjectAsIcon
 second_title: Aspose.Words لمراجع .NET API
-description: DocumentBuilder طريقة. إدراج كائن OLE مضمن أو مرتبط كرمز في المستند. يسمح بتحديد ملف الرمز والتسمية التوضيحية. يكتشف نوع كائن OLE باستخدام امتداد الملف.
+description: DocumentBuilder طريقة. يقوم بإدراج كائن OLE مضمن أو مرتبط كأيقونة في المستند. يسمح بتحديد ملف الرمز والتسمية التوضيحية. يكتشف نوع كائن OLE باستخدام امتداد الملف.
 type: docs
-weight: 380
+weight: 410
 url: /ar/net/aspose.words/documentbuilder/insertoleobjectasicon/
 ---
 ## InsertOleObjectAsIcon(string, bool, string, string) {#insertoleobjectasicon_1}
 
-إدراج كائن OLE مضمن أو مرتبط كرمز في المستند. يسمح بتحديد ملف الرمز والتسمية التوضيحية. يكتشف نوع كائن OLE باستخدام امتداد الملف.
+يقوم بإدراج كائن OLE مضمن أو مرتبط كأيقونة في المستند. يسمح بتحديد ملف الرمز والتسمية التوضيحية. يكتشف نوع كائن OLE باستخدام امتداد الملف.
 
 ```csharp
 public Shape InsertOleObjectAsIcon(string fileName, bool isLinked, string iconFile, 
@@ -17,14 +17,14 @@ public Shape InsertOleObjectAsIcon(string fileName, bool isLinked, string iconFi
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| fileName | String | المسار الكامل للملف. |
-| isLinked | Boolean | إذا كانت القيمة صحيحة ، فسيتم إدراج كائن OLE المرتبط وإلا فسيتم إدراج كائن OLE المضمّن. |
-| iconFile | String | المسار الكامل لملف ICO. إذا كانت القيمة خالية ، فستستخدم Aspose.Words صورة محددة مسبقًا. |
-| iconCaption | String | التسمية التوضيحية للرمز. إذا كانت القيمة خالية ، فسيستخدم Aspose.Words اسم الملف. |
+| fileName | String | المسار الكامل للملف . |
+| isLinked | Boolean | إذا`حقيقي` ثم يتم إدراج كائن OLE المرتبط وإلا فسيتم إدراج كائن OLE المضمن. |
+| iconFile | String | المسار الكامل لملف ICO. إذا كانت القيمة`باطل` ، سوف يستخدم Aspose.Words صورة محددة مسبقًا. |
+| iconCaption | String | تسمية توضيحية للرمز. إذا كانت القيمة`باطل` سوف يستخدم Aspose.Words اسم الملف. |
 
 ### قيمة الإرجاع
 
-عقدة الشكل تحتوي على كائن Ole ويتم إدراجها في موضع Builder الحالي.
+عقدة الشكل تحتوي على كائن Ole وتم إدراجها في موضع Builder الحالي.
 
 ### أمثلة
 
@@ -34,25 +34,25 @@ public Shape InsertOleObjectAsIcon(string fileName, bool isLinked, string iconFi
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// كائنات OLE هي روابط لملفات في نظام الملفات المحلي لدينا يمكن فتحها بواسطة تطبيقات أخرى مثبتة.
-// سيؤدي النقر المزدوج فوق هذه الأشكال إلى تشغيل التطبيق ، ثم استخدامه لفتح الكائن المرتبط.
+// كائنات OLE هي روابط للملفات الموجودة في نظام الملفات المحلي لدينا والتي يمكن فتحها بواسطة التطبيقات المثبتة الأخرى.
+// سيؤدي النقر المزدوج على هذه الأشكال إلى تشغيل التطبيق، ثم استخدامه لفتح الكائن المرتبط.
 // هناك ثلاث طرق لاستخدام طريقة InsertOleObject لإدراج هذه الأشكال وتكوين مظهرها.
-// 1 - صورة مأخوذة من نظام الملفات المحلي:
+// 1 - الصورة مأخوذة من نظام الملفات المحلي:
 using (FileStream imageStream = new FileStream(ImageDir + "Logo.jpg", FileMode.Open))
 {
-    // إذا تم حذف "العرض التقديمي" وتعيين "asIcon" ، يتم تحديد طريقة التحميل الزائد هذه
-    // الرمز وفقًا لامتداد الملف ويستخدم اسم الملف لتعليق الرمز.
+    // إذا تم حذف "العرض التقديمي" وتعيين "asIcon"، فسيتم تحديد هذه الطريقة المحملة بشكل زائد
+    // الرمز وفقًا لامتداد الملف ويستخدم اسم الملف للتسمية التوضيحية للرمز.
     builder.InsertOleObject(MyDir + "Spreadsheet.xlsx", false, false, imageStream); 
 }
 
-// إذا تم حذف "العرض التقديمي" وتعيين "asIcon" ، يتم تحديد طريقة التحميل الزائد هذه
-// الرمز وفقًا لـ "progId" ويستخدم اسم الملف لتعليق الرمز.
-// 2 - رمز يعتمد على التطبيق الذي سيفتح الكائن:
+// إذا تم حذف "العرض التقديمي" وتعيين "asIcon"، فسيتم تحديد هذه الطريقة المحملة بشكل زائد
+// الرمز وفقًا لـ "progId" ويستخدم اسم الملف للتسمية التوضيحية للرمز.
+// 2 - أيقونة تعتمد على التطبيق الذي سيفتح الكائن:
 builder.InsertOleObject(MyDir + "Spreadsheet.xlsx", "Excel.Sheet", false, true, null);
 
-// إذا تم حذف 'iconFile' و 'iconCaption' ، فسيتم اختيار طريقة التحميل الزائد هذه
-// الرمز وفقًا لـ "progId" ويستخدم التسمية التوضيحية للأيقونة المحددة مسبقًا.
-// 3 - رمز الصورة بحجم 32 × 32 بكسل أو أصغر من نظام الملفات المحلي ، مع تسمية توضيحية مخصصة:
+// إذا تم حذف "iconFile" و"iconCaption"، فسيتم تحديد هذه الطريقة المحملة بشكل زائد
+// الأيقونة وفقًا لـ "progId" وتستخدم تسمية توضيحية محددة مسبقًا للرمز.
+// 3 - أيقونة صورة بحجم 32 × 32 بكسل أو أصغر من نظام الملفات المحلي، مع تسمية توضيحية مخصصة:
 builder.InsertOleObjectAsIcon(MyDir + "Presentation.pptx", false, ImageDir + "Logo icon.ico",
     "Double click to view presentation!");
 
@@ -70,7 +70,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOleObject.docx");
 
 ## InsertOleObjectAsIcon(string, string, bool, string, string) {#insertoleobjectasicon_2}
 
-إدراج كائن OLE مضمن أو مرتبط كرمز في المستند. يسمح بتحديد ملف الرمز والتسمية التوضيحية. يكتشف نوع كائن OLE باستخدام معلمة progID معينة.
+يقوم بإدراج كائن OLE مضمن أو مرتبط كأيقونة في المستند. يسمح بتحديد ملف الرمز والتسمية التوضيحية. يكتشف نوع كائن OLE باستخدام معلمة progID المحددة.
 
 ```csharp
 public Shape InsertOleObjectAsIcon(string fileName, string progId, bool isLinked, string iconFile, 
@@ -79,34 +79,34 @@ public Shape InsertOleObjectAsIcon(string fileName, string progId, bool isLinked
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| fileName | String | المسار الكامل للملف. |
+| fileName | String | المسار الكامل للملف . |
 | progId | String | ProgId لكائن OLE. |
-| isLinked | Boolean | إذا كانت القيمة صحيحة ، فسيتم إدراج كائن OLE المرتبط وإلا فسيتم إدراج كائن OLE المضمّن. |
-| iconFile | String | المسار الكامل لملف ICO. إذا كانت القيمة خالية ، فستستخدم Aspose.Words صورة محددة مسبقًا. |
-| iconCaption | String | التسمية التوضيحية للرمز. إذا كانت القيمة خالية ، فسيستخدم Aspose.Words اسم الملف. |
+| isLinked | Boolean | إذا`حقيقي` ثم يتم إدراج كائن OLE المرتبط وإلا فسيتم إدراج كائن OLE المضمن. |
+| iconFile | String | المسار الكامل لملف ICO. إذا كانت القيمة`باطل` ، سوف يستخدم Aspose.Words صورة محددة مسبقًا. |
+| iconCaption | String | تسمية توضيحية للرمز. إذا كانت القيمة`باطل` سوف يستخدم Aspose.Words اسم الملف. |
 
 ### قيمة الإرجاع
 
-عقدة الشكل تحتوي على كائن Ole ويتم إدراجها في موضع Builder الحالي.
+عقدة الشكل تحتوي على كائن Ole وتم إدراجها في موضع Builder الحالي.
 
 ### أمثلة
 
-يوضح كيفية إدراج كائن OLE مضمن أو مرتبط كرمز في المستند.
+يوضح كيفية إدراج كائن OLE مضمن أو مرتبط كأيقونة في المستند.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// إذا تم حذف 'iconFile' و 'iconCaption' ، فسيتم اختيار طريقة التحميل الزائد هذه
-// الرمز وفقًا لـ "progId" ويستخدم اسم الملف لتعليق الرمز.
+// إذا تم حذف "iconFile" و"iconCaption"، فسيتم تحديد هذه الطريقة المحملة بشكل زائد
+// الرمز وفقًا لـ "progId" ويستخدم اسم الملف للتسمية التوضيحية للرمز.
 builder.InsertOleObjectAsIcon(MyDir + "Presentation.pptx", "Package", false, ImageDir + "Logo icon.ico", "My embedded file");
 
 builder.InsertBreak(BreakType.LineBreak);
 
 using (FileStream stream = new FileStream(MyDir + "Presentation.pptx", FileMode.Open))
 {
-    // إذا تم حذف 'iconFile' و 'iconCaption' ، فسيتم اختيار طريقة التحميل الزائد هذه
-    // الرمز وفقًا لامتداد الملف ويستخدم اسم الملف لتعليق الرمز.
+    // إذا تم حذف "iconFile" و"iconCaption"، فسيتم تحديد هذه الطريقة المحملة بشكل زائد
+    // الرمز وفقًا لامتداد الملف ويستخدم اسم الملف للتسمية التوضيحية للرمز.
     Shape shape = builder.InsertOleObjectAsIcon(stream, "PowerPoint.Application", ImageDir + "Logo icon.ico",
         "My embedded file stream");
 
@@ -129,7 +129,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOleObjectAsIcon.docx");
 
 ## InsertOleObjectAsIcon(Stream, string, string, string) {#insertoleobjectasicon}
 
-إدراج كائن OLE مضمن كرمز من تدفق إلى المستند. يسمح بتحديد ملف الرمز والتسمية التوضيحية. يكتشف نوع كائن OLE باستخدام معلمة progID معينة.
+إدراج كائن OLE مضمن كأيقونة من دفق في المستند. يسمح بتحديد ملف الرمز والتسمية التوضيحية. يكتشف نوع كائن OLE باستخدام معلمة progID المحددة.
 
 ```csharp
 public Shape InsertOleObjectAsIcon(Stream stream, string progId, string iconFile, 
@@ -138,33 +138,33 @@ public Shape InsertOleObjectAsIcon(Stream stream, string progId, string iconFile
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| stream | Stream | دفق يحتوي على بيانات التطبيق. |
+| stream | Stream | تيار يحتوي على بيانات التطبيق. |
 | progId | String | ProgId لكائن OLE. |
-| iconFile | String | المسار الكامل لملف ICO. إذا كانت القيمة خالية ، فستستخدم Aspose.Words صورة محددة مسبقًا. |
-| iconCaption | String | التسمية التوضيحية للرمز. إذا كانت القيمة خالية ، فسيستخدم Aspose.Words تسمية توضيحية للأيقونة محددة مسبقًا. |
+| iconFile | String | المسار الكامل لملف ICO. إذا كانت القيمة`باطل` ، سوف يستخدم Aspose.Words صورة محددة مسبقًا. |
+| iconCaption | String | تسمية توضيحية للرمز. إذا كانت القيمة`باطل` ، سوف يستخدم Aspose.Words تسمية توضيحية محددة مسبقًا للرمز. |
 
 ### قيمة الإرجاع
 
-عقدة الشكل تحتوي على كائن Ole ويتم إدراجها في موضع Builder الحالي.
+عقدة الشكل تحتوي على كائن Ole وتم إدراجها في موضع Builder الحالي.
 
 ### أمثلة
 
-يوضح كيفية إدراج كائن OLE مضمن أو مرتبط كرمز في المستند.
+يوضح كيفية إدراج كائن OLE مضمن أو مرتبط كأيقونة في المستند.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// إذا تم حذف 'iconFile' و 'iconCaption' ، فسيتم اختيار طريقة التحميل الزائد هذه
-// الرمز وفقًا لـ "progId" ويستخدم اسم الملف لتعليق الرمز.
+// إذا تم حذف "iconFile" و"iconCaption"، فسيتم تحديد هذه الطريقة المحملة بشكل زائد
+// الرمز وفقًا لـ "progId" ويستخدم اسم الملف للتسمية التوضيحية للرمز.
 builder.InsertOleObjectAsIcon(MyDir + "Presentation.pptx", "Package", false, ImageDir + "Logo icon.ico", "My embedded file");
 
 builder.InsertBreak(BreakType.LineBreak);
 
 using (FileStream stream = new FileStream(MyDir + "Presentation.pptx", FileMode.Open))
 {
-    // إذا تم حذف 'iconFile' و 'iconCaption' ، فسيتم اختيار طريقة التحميل الزائد هذه
-    // الرمز وفقًا لامتداد الملف ويستخدم اسم الملف لتعليق الرمز.
+    // إذا تم حذف "iconFile" و"iconCaption"، فسيتم تحديد هذه الطريقة المحملة بشكل زائد
+    // الرمز وفقًا لامتداد الملف ويستخدم اسم الملف للتسمية التوضيحية للرمز.
     Shape shape = builder.InsertOleObjectAsIcon(stream, "PowerPoint.Application", ImageDir + "Logo icon.ico",
         "My embedded file stream");
 

@@ -1,14 +1,14 @@
 ---
 title: CompositeNode.SelectSingleNode
 second_title: Справочник по API Aspose.Words для .NET
-description: CompositeNode метод. Выбирает первый узел соответствующий выражению XPath.
+description: CompositeNode метод. Выбирает первыйNode которое соответствует выражению XPath.
 type: docs
-weight: 210
+weight: 220
 url: /ru/net/aspose.words/compositenode/selectsinglenode/
 ---
 ## CompositeNode.SelectSingleNode method
 
-Выбирает первый узел, соответствующий выражению XPath.
+Выбирает первый[`Node`](../../node/) которое соответствует выражению XPath.
 
 ```csharp
 public Node SelectSingleNode(string xpath)
@@ -20,7 +20,7 @@ public Node SelectSingleNode(string xpath)
 
 ### Возвращаемое значение
 
-Первый узел, соответствующий запросу XPath, или нуль, если соответствующий узел не найден.
+Первый[`Node`](../../node/) который соответствует запросу XPath или`нулевой` если соответствующий узел не найден.
 
 ### Примечания
 
@@ -37,7 +37,7 @@ Document doc = new Document(MyDir + "Tables.docx");
 // которые являются потомками любого узла таблицы в документе.
 NodeList nodeList = doc.SelectNodes("//Таблица//Абзац");
 
-// Проходим по списку с помощью перечислителя и печатаем содержимое каждого абзаца в каждой ячейке таблицы.
+// Перебираем список с помощью перечислителя и печатаем содержимое каждого абзаца в каждой ячейке таблицы.
 int index = 0;
 
 using (IEnumerator<Node> e = nodeList.GetEnumerator())

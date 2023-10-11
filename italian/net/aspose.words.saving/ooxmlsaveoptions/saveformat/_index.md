@@ -1,14 +1,14 @@
 ---
 title: OoxmlSaveOptions.SaveFormat
 second_title: Aspose.Words per .NET API Reference
-description: OoxmlSaveOptions proprietà. Specifica il formato in cui verrà salvato il documento se viene utilizzato questo oggetto opzioni di salvataggio. Può essereDocx Docm  Dotx Dotm oFlatOpc .
+description: OoxmlSaveOptions proprietà. Specifica il formato in cui il documento verrà salvato se viene utilizzato questo oggetto opzioni di salvataggio. Può essereDocx Docm  Dotx Dotm OFlatOpc .
 type: docs
 weight: 60
 url: /it/net/aspose.words.saving/ooxmlsaveoptions/saveformat/
 ---
 ## OoxmlSaveOptions.SaveFormat property
 
-Specifica il formato in cui verrà salvato il documento se viene utilizzato questo oggetto opzioni di salvataggio. Può essereDocx ,Docm , Dotx ,Dotm oFlatOpc .
+Specifica il formato in cui il documento verrà salvato se viene utilizzato questo oggetto opzioni di salvataggio. Può essereDocx ,Docm , Dotx ,Dotm OFlatOpc .
 
 ```csharp
 public override SaveFormat SaveFormat { get; set; }
@@ -22,8 +22,8 @@ Mostra come impostare una specifica di conformità OOXML a cui aderire un docume
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Se configuriamo le opzioni di compatibilità per essere conformi a Microsoft Word 2003,
-// l'inserimento di un'immagine ne definirà la forma usando VML.
+// Se configuriamo le opzioni di compatibilità per conformarsi a Microsoft Word 2003,
+// l'inserimento di un'immagine ne definirà la forma utilizzando VML.
 doc.CompatibilityOptions.OptimizeFor(MsWordVersion.Word2003);
 builder.InsertImage(ImageDir + "Transparent background logo.png");
 

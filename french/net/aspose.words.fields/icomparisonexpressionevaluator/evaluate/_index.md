@@ -16,7 +16,7 @@ public ComparisonEvaluationResult Evaluate(Field field, ComparisonExpression exp
 
 ### Remarques
 
-L'implémentation doit retourner **nul** pour indiquer que l'évaluation par défaut doit être effectuée.
+L'implémentation devrait renvoyer`nul` pour indiquer que l'évaluation par défaut doit être effectuée.
 
 ### Voir également
 

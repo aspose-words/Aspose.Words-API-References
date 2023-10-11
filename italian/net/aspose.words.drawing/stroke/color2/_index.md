@@ -3,7 +3,7 @@ title: Stroke.Color2
 second_title: Aspose.Words per .NET API Reference
 description: Stroke proprietà. Definisce un secondo colore per un tratto.
 type: docs
-weight: 30
+weight: 40
 url: /it/net/aspose.words.drawing/stroke/color2/
 ---
 ## Stroke.Color2 property
@@ -20,14 +20,14 @@ Il valore predefinito per a[`Shape`](../../shape/) è White.
 
 ### Esempi
 
-Mostra come elaborare le caratteristiche del tratto di forma.
+Mostra come elaborare le funzionalità del tratto forma.
 
 ```csharp
 Document doc = new Document(MyDir + "Shape stroke pattern border.docx");
 Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
 Stroke stroke = shape.Stroke;
 
-// I tratti possono avere due colori, che vengono utilizzati per creare un motivo definito dai dati dell'immagine a due tonalità.
+// I tratti possono avere due colori, che vengono utilizzati per creare un motivo definito da dati immagine bicolore.
 // I tratti con un singolo colore non utilizzano la proprietà Color2.
 Assert.AreEqual(Color.FromArgb(255, 128, 0, 0), stroke.Color);
 Assert.AreEqual(Color.FromArgb(255, 255, 255, 0), stroke.Color2);

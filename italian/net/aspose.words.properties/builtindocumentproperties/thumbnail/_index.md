@@ -18,9 +18,9 @@ public byte[] Thumbnail { get; set; }
 
 Per ora questa proprietà viene utilizzata solo quando un documento viene esportato in ePub, non viene letto e scritto in altri formati di documento.
 
-L'immagine di un formato arbitrario può essere impostata su questa proprietà, ma il formato viene verificato durante l'esportazione. InvalidOperationException viene generato se l'immagine non è valida o il suo formato non è supportato per un formato specifico del documento .
+Su questa proprietà è possibile impostare un'immagine di formato arbitrario, ma il formato viene controllato durante l'esportazione. InvalidOperationException viene generato se l'immagine non è valida o il suo formato non è supportato per formato specifico del documento.
 
-Per la pubblicazione ePub possono essere utilizzate solo immagini gif, jpeg e png.
+Per la pubblicazione su ePub possono essere utilizzate solo immagini gif, jpeg e png.
 
 ### Esempi
 

@@ -3,7 +3,7 @@ title: Row.Accept
 second_title: Aspose.Words für .NET-API-Referenz
 description: Row methode. Akzeptiert einen Besucher.
 type: docs
-weight: 100
+weight: 120
 url: /de/net/aspose.words.tables/row/accept/
 ---
 ## Row.Accept method
@@ -20,15 +20,15 @@ public override bool Accept(DocumentVisitor visitor)
 
 ### Rückgabewert
 
-True, wenn alle Knoten besucht wurden; false, wenn DocumentVisitor den Vorgang beendet hat, bevor alle Knoten besucht wurden.
+True, wenn alle Knoten besucht wurden; falsch wenn[`DocumentVisitor`](../../../aspose.words/documentvisitor/) stoppte den Vorgang, bevor alle Knoten besucht wurden.
 
 ### Bemerkungen
 
-Listet diesen Knoten und alle seine untergeordneten Elemente auf. Jeder Knoten ruft eine entsprechende Methode auf DocumentVisitor auf.
+Listet diesen Knoten und alle seine untergeordneten Knoten auf. Jeder Knoten ruft eine entsprechende Methode auf[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
 
-Weitere Informationen finden Sie im Besucher-Entwurfsmuster.
+Weitere Informationen finden Sie im Visitor-Entwurfsmuster.
 
-Ruft DocumentVisitor.VisitRowStart auf, ruft dann Accept für alle untergeordneten Knoten des Abschnitts auf und ruft am Ende DocumentVisitor.VisitRowEnd auf.
+Anrufe[`VisitRowStart`](../../../aspose.words/documentvisitor/visitrowstart/) , dann ruft[`Accept`](../../../aspose.words/node/accept/) für alle untergeordneten Knoten der section und Aufrufe[`VisitRowEnd`](../../../aspose.words/documentvisitor/visitrowend/) am Ende.
 
 ### Beispiele
 
@@ -40,8 +40,8 @@ public void TableToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     TableStructurePrinter visitor = new TableStructurePrinter();
 
-    // Wenn wir einen zusammengesetzten Knoten dazu bringen, einen Dokumentbesucher zu akzeptieren, besucht der Besucher den akzeptierenden Knoten,
-    // und durchläuft dann alle untergeordneten Elemente des Knotens mit der Tiefe zuerst.
+    // Wenn wir einen zusammengesetzten Knoten erhalten, der einen Dokumentbesucher akzeptiert, besucht der Besucher den akzeptierenden Knoten.
+    // und durchläuft dann alle untergeordneten Knoten des Knotens in einer Tiefe-zuerst-Methode.
     // Der Besucher kann jeden besuchten Knoten lesen und ändern.
     doc.Accept(visitor);
 
@@ -50,7 +50,7 @@ public void TableToText()
 
 /// <summary>
 /// Durchläuft den nicht-binären Baum der untergeordneten Knoten eines Knotens.
-/// Erstellt eine Karte in Form eines Strings aller angetroffenen Tabellenknoten und ihrer Kinder.
+/// Erstellt eine Karte in Form einer Zeichenfolge aller gefundenen Tabellenknoten und ihrer untergeordneten Knoten.
 /// </summary>
 public class TableStructurePrinter : DocumentVisitor
 {
@@ -67,7 +67,7 @@ public class TableStructurePrinter : DocumentVisitor
 
     /// <summary>
     /// Wird aufgerufen, wenn im Dokument ein Run-Knoten gefunden wird.
-    /// Läufe außerhalb von Tabellen werden nicht aufgezeichnet.
+    /// Läufe, die nicht innerhalb von Tabellen liegen, werden nicht aufgezeichnet.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -170,7 +170,7 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Eine Zeile an den StringBuilder anhängen und je nach Tiefe des Besuchers einrücken
+    /// Hängen Sie eine Zeile an den StringBuilder an und rücken Sie sie ein, je nachdem, wie tief der Besucher ist
     /// in den Baum der untergeordneten Knoten der aktuellen Tabelle.
     /// </summary>
     /// <param name="text"></param>

@@ -23,19 +23,20 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Run 1. ");
 
-// Le générateur de document a un curseur, qui agit comme la partie du document
-// où le constructeur ajoute de nouveaux nœuds lorsque nous utilisons ses méthodes de construction de document.
+// Le générateur de document a un curseur, qui fait partie du document
+// où le constructeur ajoute de nouveaux nœuds lorsque nous utilisons ses méthodes de construction de documents.
 // Ce curseur fonctionne de la même manière que le curseur clignotant de Microsoft Word,
-// et il se termine toujours immédiatement après tout nœud que le constructeur vient d'insérer.
+// et il se termine également toujours immédiatement après tout nœud que le constructeur vient d'insérer.
 // Pour ajouter du contenu à une autre partie du document,
-// nous pouvons déplacer le curseur vers un nœud différent avec la méthode "MoveTo".
-// Le curseur est maintenant devant le nœud vers lequel nous l'avons déplacé.
+// nous pouvons déplacer le curseur vers un autre nœud avec la méthode "MoveTo".
+builder.MoveTo(doc.FirstSection.Body.FirstParagraph.Runs[0]);
+// Le curseur se trouve maintenant devant le nœud vers lequel nous l'avons déplacé.
 // L'ajout d'une deuxième exécution l'insérera devant la première exécution.
 builder.Writeln("Run 2. ");
 
 Assert.AreEqual("Run 2. \rRun 1.", doc.GetText().Trim());
 
-// Déplacez le curseur à la fin du document pour continuer à ajouter du texte à la fin comme avant.
+// Déplacez le curseur vers la fin du document pour continuer à ajouter du texte jusqu'à la fin comme auparavant.
 builder.MoveTo(doc.LastSection.Body.LastParagraph);
 builder.Writeln("Run 3. ");
 

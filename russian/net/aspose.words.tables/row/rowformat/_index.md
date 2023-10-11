@@ -3,7 +3,7 @@ title: Row.RowFormat
 second_title: Справочник по API Aspose.Words для .NET
 description: Row свойство. Предоставляет доступ к свойствам форматирования строки.
 type: docs
-weight: 90
+weight: 110
 url: /ru/net/aspose.words.tables/row/rowformat/
 ---
 ## Row.RowFormat property
@@ -22,7 +22,7 @@ public RowFormat RowFormat { get; }
 Document doc = new Document(MyDir + "Tables.docx");
 Table table = doc.FirstSection.Body.Tables[0];
 
-// Используйте свойство «RowFormat» первой строки, чтобы установить форматирование, которое изменяет внешний вид всей строки.
+// Используйте свойство «RowFormat» первой строки, чтобы установить форматирование, которое изменяет внешний вид всей этой строки.
 Row firstRow = table.FirstRow;
 firstRow.RowFormat.Borders.LineStyle = LineStyle.None;
 firstRow.RowFormat.HeightRule = HeightRule.Auto;
@@ -49,13 +49,13 @@ builder.InsertCell();
 builder.Write("U.K.");
 builder.EndTable();
 
-// Используйте свойство "RowFormat" первой строки, чтобы изменить форматирование
+// Используйте свойство «RowFormat» первой строки, чтобы изменить форматирование
 // содержимого всех ячеек в этой строке.
 RowFormat rowFormat = table.FirstRow.RowFormat;
 rowFormat.Height = 25;
 rowFormat.Borders[BorderType.Bottom].Color = Color.Red;
 
-// Используйте свойство «CellFormat» первой ячейки в последней строке, чтобы изменить форматирование содержимого этой ячейки.
+// Используйте свойство CellFormat первой ячейки последней строки, чтобы изменить форматирование содержимого этой ячейки.
 CellFormat cellFormat = table.LastRow.FirstCell.CellFormat;
 cellFormat.Width = 100;
 cellFormat.Shading.BackgroundPatternColor = Color.Orange;

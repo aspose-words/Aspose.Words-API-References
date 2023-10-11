@@ -3,7 +3,7 @@ title: Enum DocumentSecurity
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Properties.DocumentSecurity uppräkning. Används som ett värde förSecurity property. Anger säkerhetsnivån för ett dokument som ett numeriskt värde.
 type: docs
-weight: 4240
+weight: 4490
 url: /sv/net/aspose.words.properties/documentsecurity/
 ---
 ## DocumentSecurity enumeration

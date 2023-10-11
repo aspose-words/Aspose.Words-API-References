@@ -24,9 +24,9 @@ Die neu erstellte Liste.
 
 ### Bemerkungen
 
-Aspose.Words-Listenvorlagen entsprechen den 21 Listenvorlagen available im Dialogfeld Aufzählungszeichen und Nummerierung in Microsoft Word 2003.
+Aspose.Words-Listenvorlagen entsprechen den 21 verfügbaren Listenvorlagen im Dialogfeld „Aufzählungszeichen und Nummerierung“ in Microsoft Word 2003.
 
-Alle mit dieser Methode erstellten Listen haben 9 Listenebenen.
+Alle mit dieser Methode erstellten Listen verfügen über 9 Listenebenen.
 
 ### Beispiele
 
@@ -55,16 +55,16 @@ foreach (Paragraph paragraph in paras.OfType<Paragraph>())
 Assert.AreEqual(3, paras.Count(n => (n as Paragraph).ListFormat.IsListItem));
 ```
 
-Zeigt, wie die Nummerierung in einer Liste neu gestartet wird, indem eine Liste kopiert wird.
+Zeigt, wie die Nummerierung in einer Liste durch Kopieren einer Liste neu gestartet wird.
 
 ```csharp
 Document doc = new Document();
 
-// Eine Liste ermöglicht es uns, Sätze von Absätzen mit Präfixsymbolen und Einzügen zu organisieren und zu dekorieren.
-// Wir können verschachtelte Listen erstellen, indem wir die Einrückungsebene erhöhen. 
-// Wir können eine Liste beginnen und beenden, indem wir die "ListFormat"-Eigenschaft eines Dokumentenerstellers verwenden. 
+// Eine Liste ermöglicht es uns, Absätze mit Präfixsymbolen und Einzügen zu organisieren und zu dekorieren.
+ // Wir können verschachtelte Listen erstellen, indem wir die Einrückungsebene erhöhen.
+ // Wir können eine Liste beginnen und beenden, indem wir die „ListFormat“-Eigenschaft eines Document Builders verwenden.
 // Jeder Absatz, den wir zwischen dem Anfang und dem Ende einer Liste hinzufügen, wird zu einem Element in der Liste.
-// Erstellen Sie eine Liste aus einer Microsoft Word-Vorlage und passen Sie die erste Listenebene an.
+// Erstellen Sie eine Liste aus einer Microsoft Word-Vorlage und passen Sie deren erste Listenebene an.
 List list1 = doc.Lists.Add(ListTemplate.NumberArabicParenthesis);
 list1.ListLevels[0].Font.Color = Color.Red;
 list1.ListLevels[0].Alignment = ListLevelAlignment.Right;
@@ -78,13 +78,13 @@ builder.Writeln("Item 1");
 builder.Writeln("Item 2");
 builder.ListFormat.RemoveNumbers();
 
-// Wir können eine Kopie einer bestehenden Liste zur Listensammlung des Dokuments hinzufügen
+// Wir können eine Kopie einer vorhandenen Liste zur Listensammlung des Dokuments hinzufügen
 // um eine ähnliche Liste zu erstellen, ohne Änderungen am Original vorzunehmen.
 List list2 = doc.Lists.AddCopy(list1);
 list2.ListLevels[0].Font.Color = Color.Blue;
 list2.ListLevels[0].StartAt = 10;
 
-// Wende die zweite Liste auf neue Absätze an.
+// Die zweite Liste auf neue Absätze anwenden.
 builder.Writeln("List 2 starts below:");
 builder.ListFormat.List = list2;
 builder.Writeln("Item 1");
@@ -102,30 +102,30 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 Assert.False(builder.ListFormat.IsListItem);
 
-// Eine Liste ermöglicht es uns, Sätze von Absätzen mit Präfixsymbolen und Einzügen zu organisieren und zu dekorieren.
-// Wir können verschachtelte Listen erstellen, indem wir die Einrückungsebene erhöhen. 
-// Wir können eine Liste beginnen und beenden, indem wir die "ListFormat"-Eigenschaft eines Dokumentenerstellers verwenden. 
+// Eine Liste ermöglicht es uns, Absätze mit Präfixsymbolen und Einzügen zu organisieren und zu dekorieren.
+ // Wir können verschachtelte Listen erstellen, indem wir die Einrückungsebene erhöhen.
+ // Wir können eine Liste beginnen und beenden, indem wir die „ListFormat“-Eigenschaft eines Document Builders verwenden.
 // Jeder Absatz, den wir zwischen dem Anfang und dem Ende einer Liste hinzufügen, wird zu einem Element in der Liste.
-// Unten sind zwei Arten von Listen, die wir mit einem Document Builder erstellen können.
-// 1 - Eine nummerierte Liste:
-// Nummerierte Listen schaffen eine logische Reihenfolge für ihre Absätze, indem sie jedes Element nummerieren.
+// Nachfolgend finden Sie zwei Arten von Listen, die wir mit einem Document Builder erstellen können.
+// 1 – Eine nummerierte Liste:
+// Nummerierte Listen erstellen eine logische Reihenfolge für ihre Absätze, indem sie jedes Element nummerieren.
 builder.ListFormat.List = doc.Lists.Add(ListTemplate.NumberDefault);
 
 Assert.True(builder.ListFormat.IsListItem);
 
-// Durch Setzen der Eigenschaft "ListLevelNumber" können wir die Listenebene erhöhen
-// um eine eigenständige Unterliste am aktuellen Listenelement zu beginnen.
-// Die Microsoft Word-Listenvorlage mit dem Namen "NumberDefault" verwendet Zahlen, um Listenebenen für die erste Listenebene zu erstellen.
-// Tiefere Listenebenen verwenden Buchstaben und römische Ziffern in Kleinbuchstaben. 
+// Durch Setzen der Eigenschaft „ListLevelNumber“ können wir die Listenebene erhöhen
+// um eine eigenständige Unterliste beim aktuellen Listenelement zu beginnen.
+// Die Microsoft Word-Listenvorlage namens „NumberDefault“ verwendet Zahlen, um Listenebenen für die erste Listenebene zu erstellen.
+ // Tiefere Listenebenen verwenden Buchstaben und römische Kleinbuchstaben.
 for (int i = 0; i < 9; i++)
 {
     builder.ListFormat.ListLevelNumber = i;
     builder.Writeln("Level " + i);
 }
 
-// 2 - Eine Liste mit Aufzählungszeichen:
-// Diese Liste fügt vor jedem Absatz einen Einzug und ein Aufzählungszeichen ("•") ein.
-// Tiefere Ebenen dieser Liste verwenden andere Symbole, wie "■" und "○".
+// 2 – Eine Liste mit Aufzählungszeichen:
+// Diese Liste fügt vor jedem Absatz einen Einzug und ein Aufzählungszeichen („•“) ein.
+// Auf tieferen Ebenen dieser Liste werden andere Symbole verwendet, z. B. „■“ und „○“.
 builder.ListFormat.List = doc.Lists.Add(ListTemplate.BulletDefault);
 
 for (int i = 0; i < 9; i++)
@@ -134,7 +134,7 @@ for (int i = 0; i < 9; i++)
     builder.Writeln("Level " + i);
 }
 
-// Wir können die Listenformatierung deaktivieren, um nachfolgende Absätze nicht als Listen zu formatieren, indem wir das "List"-Flag deaktivieren.
+// Wir können die Listenformatierung deaktivieren, um nachfolgende Absätze nicht als Listen zu formatieren, indem wir das Flag „Liste“ deaktivieren.
 builder.ListFormat.List = null;
 
 Assert.False(builder.ListFormat.IsListItem);
@@ -154,7 +154,7 @@ doc.Save(ArtifactsDir + "Lists.SpecifyListLevel.docx");
 
 ## Add(Style) {#add_1}
 
-Erstellt eine neue Liste, die auf einen Listenstil verweist, und fügt sie der Sammlung von Listen im Dokument hinzu.
+Erstellt eine neue Liste, die auf einen Listenstil verweist, und fügt ihn der Sammlung von Listen im Dokument hinzu.
 
 ```csharp
 public List Add(Style listStyle)
@@ -170,7 +170,7 @@ Die neu erstellte Liste.
 
 ### Bemerkungen
 
-Die neu erstellte Liste referenziert den Listenstil. Wenn Sie die Eigenschaften des Stils list ändern, wird dies in den Eigenschaften der Liste widergespiegelt. Wenn Sie umgekehrt die properties der Liste ändern, spiegelt sich dies in den Eigenschaften des Listenstils wider.
+Die neu erstellte Liste referenziert den Listenstil. Wenn Sie die Eigenschaften des list -Stils ändern, wird dies in den Eigenschaften der Liste widergespiegelt. Wenn Sie umgekehrt die Eigenschaften der Liste ändern, wird dies in den Eigenschaften des Listenstils widergespiegelt.
 
 ### Beispiele
 
@@ -179,9 +179,9 @@ Zeigt, wie ein Listenstil erstellt und in einem Dokument verwendet wird.
 ```csharp
 Document doc = new Document();
 
-// Eine Liste ermöglicht es uns, Sätze von Absätzen mit Präfixsymbolen und Einzügen zu organisieren und zu dekorieren.
-// Wir können verschachtelte Listen erstellen, indem wir die Einrückungsebene erhöhen. 
-// Wir können eine Liste beginnen und beenden, indem wir die "ListFormat"-Eigenschaft eines Dokumentenerstellers verwenden. 
+// Eine Liste ermöglicht es uns, Absätze mit Präfixsymbolen und Einzügen zu organisieren und zu dekorieren.
+ // Wir können verschachtelte Listen erstellen, indem wir die Einrückungsebene erhöhen.
+ // Wir können eine Liste beginnen und beenden, indem wir die „ListFormat“-Eigenschaft eines Document Builders verwenden.
 // Jeder Absatz, den wir zwischen dem Anfang und dem Ende einer Liste hinzufügen, wird zu einem Element in der Liste.
 // Wir können ein ganzes List-Objekt in einem Stil enthalten.
 Style listStyle = doc.Styles.Add(StyleType.List, "MyListStyle");
@@ -193,7 +193,7 @@ Assert.False(list1.IsListStyleReference);
 Assert.True(list1.IsMultiLevel);
 Assert.AreEqual(listStyle, list1.Style);
 
-// Ändern Sie das Aussehen aller Listenebenen in unserer Liste.
+// Ändere das Erscheinungsbild aller Listenebenen in unserer Liste.
 foreach (ListLevel level in list1.ListLevels)
 {
     level.Font.Name = "Verdana";
@@ -212,7 +212,7 @@ Assert.False(list2.IsListStyleDefinition);
 Assert.True(list2.IsListStyleReference);
 Assert.AreEqual(listStyle, list2.Style);
 
-// Fügen Sie einige Listenelemente hinzu, die unsere Liste formatieren wird.
+// Einige Listenelemente hinzufügen, die unsere Liste formatieren wird.
 builder.ListFormat.List = list2;
 builder.Writeln("Item 1");
 builder.Writeln("Item 2");
@@ -220,7 +220,7 @@ builder.ListFormat.RemoveNumbers();
 
 builder.Writeln("Using list style second time:");
 
-// Eine weitere Liste basierend auf dem Listenstil erstellen und anwenden.
+// Erstellen Sie eine weitere Liste basierend auf dem Listenstil und wenden Sie sie an.
 List list3 = doc.Lists.Add(listStyle);
 builder.ListFormat.List = list3;
 builder.Writeln("Item 1");

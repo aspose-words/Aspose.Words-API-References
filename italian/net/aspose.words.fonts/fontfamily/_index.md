@@ -3,7 +3,7 @@ title: Enum FontFamily
 second_title: Aspose.Words per .NET API Reference
 description: Aspose.Words.Fonts.FontFamily enum. Rappresenta la famiglia di caratteri.
 type: docs
-weight: 2730
+weight: 2910
 url: /it/net/aspose.words.fonts/fontfamily/
 ---
 ## FontFamily enumeration
@@ -18,20 +18,20 @@ public enum FontFamily
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
-| Auto | `0` | Specifica un nome di famiglia generico. Questo nome viene utilizzato quando le informazioni su un font non esistono o non hanno importanza. Viene utilizzato il carattere predefinito. |
+| Auto | `0` | Specifica un nome di famiglia generico. Questo nome viene utilizzato quando le informazioni su un carattere non esistono o non sono importanti. Viene utilizzato il carattere predefinito. |
 | Roman | `1` | Specifica un carattere proporzionale con grazie. Un esempio è Times New Roman. |
 | Swiss | `2` | Specifica un carattere proporzionale senza grazie. Un esempio è Arial. |
-| Modern | `3` | Specifica un carattere a spaziatura fissa con o senza grazie. I caratteri monospazio sono generalmente moderni; esempi includono Pica, Elite e Courier New. |
-| Script | `4` | Specifica un carattere progettato per assomigliare alla scrittura a mano; esempi includono Script e Corsivo. |
-| Decorative | `5` | Specifica un carattere di novità. Un esempio è l'inglese antico. |
+| Modern | `3` | Specifica un carattere a spaziatura fissa con o senza serif. I caratteri a spaziatura fissa sono solitamente moderni; gli esempi includono Pica, Elite e Courier New. |
+| Script | `4` | Specifica un carattere progettato per assomigliare alla scrittura a mano; gli esempi includono Script e Corsivo. |
+| Decorative | `5` | Specifica un carattere nuovo. Un esempio è l'inglese antico. |
 
 ### Osservazioni
 
-Una famiglia di caratteri è un insieme di caratteri con larghezza del tratto e caratteristiche serif comuni.
+Una famiglia di caratteri è un insieme di caratteri con caratteristiche comuni di larghezza del tratto e serif.
 
 ### Esempi
 
-Mostra come accedere e stampare i dettagli di ogni font in un documento.
+Mostra come accedere e stampare i dettagli di ciascun carattere in un documento.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
@@ -44,7 +44,7 @@ while (fontCollectionEnumerator.MoveNext())
     {
         Console.WriteLine("Font name: " + fontInfo.Name);
 
-        // I nomi alternativi di solito sono vuoti.
+        // I nomi alternativi sono generalmente vuoti.
         Console.WriteLine("Alt name: " + fontInfo.AltName);
         Console.WriteLine("\t- Family: " + fontInfo.Family);
         Console.WriteLine("\t- " + (fontInfo.IsTrueType ? "Is TrueType" : "Is not TrueType"));

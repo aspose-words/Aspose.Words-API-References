@@ -20,16 +20,16 @@ Il valore predefinito èNormal .
 
 ### Esempi
 
-Mostra come cambiare il colore dell'immagine con la proprietà delle opzioni di salvataggio.
+Mostra come modificare il colore dell'immagine con la proprietà delle opzioni di salvataggio.
 
 ```csharp
 Document doc = new Document(MyDir + "Images.docx");
 
 // Crea un oggetto "PdfSaveOptions" che possiamo passare al metodo "Save" del documento
-// per modificare il modo in cui quel metodo converte il documento in .PDF.
-// Imposta la proprietà "ColorMode" su "Grayscale" per eseguire il rendering di tutte le immagini del documento in bianco e nero.
+// per modificare il modo in cui il metodo converte il documento in .PDF.
+// Imposta la proprietà "ColorMode" su "Grayscale" per visualizzare tutte le immagini del documento in bianco e nero.
 // La dimensione del documento di output potrebbe essere maggiore con questa impostazione.
-// Imposta la proprietà "ColorMode" su "Normal" per rendere tutte le immagini a colori.
+// Imposta la proprietà "ColorMode" su "Normale" per visualizzare tutte le immagini a colori.
 PdfSaveOptions pdfSaveOptions = new PdfSaveOptions { ColorMode = colorMode };
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.ColorRendering.pdf", pdfSaveOptions);

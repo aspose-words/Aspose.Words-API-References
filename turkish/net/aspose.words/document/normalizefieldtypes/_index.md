@@ -1,14 +1,14 @@
 ---
 title: Document.NormalizeFieldTypes
 second_title: Aspose.Words for .NET API Referansı
-description: Document yöntem. Alan türü değerlerini değiştirirFieldType nınninFieldStart FieldSeparator FieldEnd alan kodlarında yer alan alan türlerine karşılık gelecek şekilde belgenin tamamında.
+description: Document yöntem. Alan türü değerlerini değiştirirFieldType ile ilgiliFieldStart FieldSeparator FieldEnd alan kodlarında yer alan alan türlerine karşılık gelecek şekilde tüm belgede.
 type: docs
-weight: 610
+weight: 650
 url: /tr/net/aspose.words/document/normalizefieldtypes/
 ---
 ## Document.NormalizeFieldTypes method
 
-Alan türü değerlerini değiştirir[`FieldType`](../../../aspose.words.fields/fieldchar/fieldtype/) nın-nin[`FieldStart`](../../../aspose.words.fields/fieldstart/) ,[`FieldSeparator`](../../../aspose.words.fields/fieldseparator/) ,[`FieldEnd`](../../../aspose.words.fields/fieldend/) alan kodlarında yer alan alan türlerine karşılık gelecek şekilde belgenin tamamında.
+Alan türü değerlerini değiştirir[`FieldType`](../../../aspose.words.fields/fieldchar/fieldtype/) ile ilgili[`FieldStart`](../../../aspose.words.fields/fieldstart/) ,[`FieldSeparator`](../../../aspose.words.fields/fieldseparator/) ,[`FieldEnd`](../../../aspose.words.fields/fieldend/) alan kodlarında yer alan alan türlerine karşılık gelecek şekilde tüm belgede.
 
 ```csharp
 public void NormalizeFieldTypes()
@@ -18,7 +18,7 @@ public void NormalizeFieldTypes()
 
 Alan türlerini etkileyen belge değişikliklerinden sonra bu yöntemi kullanın.
 
-Belgenin belirli bir bölümündeki alan türü değerlerini değiştirmek için[`NormalizeFieldTypes`](../../range/normalizefieldtypes/).
+Belgenin belirli bir bölümündeki alan türü değerlerini değiştirmek için şunu kullanın:[`NormalizeFieldTypes`](../../range/normalizefieldtypes/).
 
 ### Örnekler
 
@@ -30,13 +30,14 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 Field field = builder.InsertField("DATE", null);
 
-// Aspose.Words alan tiplerini alan kodlarına göre otomatik olarak algılar.
+// Aspose.Words alan kodlarına göre alan türlerini otomatik olarak algılar.
 Assert.AreEqual(FieldType.FieldDate, field.Type);
 
 // Alan kodunu belirleyen alanın ham metnini manuel olarak değiştirin.
 Run fieldText = (Run)doc.FirstSection.Body.FirstParagraph.GetChildNodes(NodeType.Run, true)[0];
+fieldText.Text = "PAGE";
 
-// Alan kodunun değiştirilmesi, bu alanın farklı bir türe dönüşmesine neden oldu,
+// Alan kodunun değiştirilmesi bu alanı farklı türde bir alanla değiştirdi,
 // ancak alanın tür özellikleri hala eski türü gösteriyor.
 Assert.AreEqual("PAGE", field.GetFieldCode());
 Assert.AreEqual(FieldType.FieldDate, field.Type);

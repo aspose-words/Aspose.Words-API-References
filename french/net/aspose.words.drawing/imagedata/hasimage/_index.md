@@ -1,14 +1,14 @@
 ---
 title: ImageData.HasImage
 second_title: Référence de l'API Aspose.Words pour .NET
-description: ImageData propriété. Renvoie vrai si la forme contient des octets dimage ou lie une image.
+description: ImageData propriété. Retoursvrai si la forme contient des octets dimage ou lie une image.
 type: docs
 weight: 110
 url: /fr/net/aspose.words.drawing/imagedata/hasimage/
 ---
 ## ImageData.HasImage property
 
-Renvoie vrai si la forme contient des octets d'image ou lie une image.
+Retours`vrai` si la forme contient des octets d'image ou lie une image.
 
 ```csharp
 public bool HasImage { get; }
@@ -21,7 +21,7 @@ Montre comment enregistrer toutes les images d'un document dans le système de f
 ```csharp
 Document imgSourceDoc = new Document(MyDir + "Images.docx");
 
-// Les formes avec le drapeau "HasImage" défini stockent et affichent toutes les images du document.
+// Les formes avec le jeu d'indicateurs "HasImage" stockent et affichent toutes les images du document.
 IEnumerable<Shape> shapesWithImages = 
     imgSourceDoc.GetChildNodes(NodeType.Shape, true).Cast<Shape>().Where(s => s.HasImage);
 

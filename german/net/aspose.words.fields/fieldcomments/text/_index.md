@@ -1,14 +1,14 @@
 ---
 title: FieldComments.Text
 second_title: Aspose.Words für .NET-API-Referenz
-description: FieldComments eigendom. Liest oder setzt den Text der Kommentare.
+description: FieldComments eigendom. Ruft den Text der Kommentare ab oder setzt ihn.
 type: docs
 weight: 20
 url: /de/net/aspose.words.fields/fieldcomments/text/
 ---
 ## FieldComments.Text property
 
-Liest oder setzt den Text der Kommentare.
+Ruft den Text der Kommentare ab oder setzt ihn.
 
 ```csharp
 public string Text { get; set; }
@@ -16,13 +16,13 @@ public string Text { get; set; }
 
 ### Beispiele
 
-Zeigt, wie das Feld COMMENTS verwendet wird.
+Zeigt, wie das Feld KOMMENTARE verwendet wird.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Legen Sie einen Wert für die integrierte Eigenschaft "Kommentare" des Dokuments fest.
+// Legen Sie einen Wert für die integrierte Eigenschaft „Kommentare“ des Dokuments fest.
 doc.BuiltInDocumentProperties.Comments = "My comment.";
 
 // Erstellen Sie ein COMMENTS-Feld, um den Wert dieser integrierten Eigenschaft anzuzeigen.
@@ -32,8 +32,8 @@ field.Update();
 Assert.AreEqual(" COMMENTS ", field.GetFieldCode());
 Assert.AreEqual("My comment.", field.Result);
 
-// Wenn wir den Text-Eigenschaftswert des COMMENTS-Felds angeben und ihn aktualisieren, wird das Feld
-// den aktuellen Wert der eingebauten Eigenschaft "Kommentare" mit dem Wert ihrer Text-Eigenschaft überschreiben,
+// Wenn wir den Eigenschaftswert „Text“ des Felds „COMMENTS“ angeben und ihn aktualisieren, wird das Feld dies tun
+// den aktuellen Wert der integrierten Eigenschaft „Comments“ mit dem Wert ihrer Text-Eigenschaft überschreiben,
 // und dann den neuen Wert anzeigen.
 field.Text = "My overriding comment.";
 field.Update();

@@ -3,12 +3,14 @@ title: Class GraphicsQualityOptions
 second_title: Aspose.Words für .NET-API-Referenz
 description: Aspose.Words.Saving.GraphicsQualityOptions klas. Ermöglicht die Angabe zusätzlicherGraphics Qualitätsoptionen.
 type: docs
-weight: 4780
+weight: 5040
 url: /de/net/aspose.words.saving/graphicsqualityoptions/
 ---
 ## GraphicsQualityOptions class
 
 Ermöglicht die Angabe zusätzlicherGraphics Qualitätsoptionen.
+
+Um mehr zu erfahren, besuchen Sie die[Speichern Sie ein Dokument](https://docs.aspose.com/words/net/save-a-document/) Dokumentationsartikel.
 
 ```csharp
 public class GraphicsQualityOptions
@@ -24,17 +26,17 @@ public class GraphicsQualityOptions
 
 | Name | Beschreibung |
 | --- | --- |
-| [CompositingMode](../../aspose.words.saving/graphicsqualityoptions/compositingmode/) { get; set; } | Ruft einen Wert ab oder legt einen Wert fest, der angibt, wie zusammengesetzte Bilder zu dieser Grafik gezeichnet werden. |
-| [CompositingQuality](../../aspose.words.saving/graphicsqualityoptions/compositingquality/) { get; set; } | Ruft die Renderqualität von zusammengesetzten Bildern ab, die auf diese Grafik gezeichnet wurden, oder legt sie fest. |
-| [InterpolationMode](../../aspose.words.saving/graphicsqualityoptions/interpolationmode/) { get; set; } | Ruft den mit dieser Grafik verknüpften Interpolationsmodus ab oder legt ihn fest. |
-| [SmoothingMode](../../aspose.words.saving/graphicsqualityoptions/smoothingmode/) { get; set; } | Ruft die Wiedergabequalität für diese Grafik ab oder legt sie fest. |
-| [StringFormat](../../aspose.words.saving/graphicsqualityoptions/stringformat/) { get; set; } | Ruft Textlayoutinformationen (wie Ausrichtung, Orientierung und Tabulatoren) ab oder legt sie fest |
-| [TextRenderingHint](../../aspose.words.saving/graphicsqualityoptions/textrenderinghint/) { get; set; } | Ruft den Wiedergabemodus für Text ab, der dieser Grafik zugeordnet ist, oder legt ihn fest. |
+| [CompositingMode](../../aspose.words.saving/graphicsqualityoptions/compositingmode/) { get; set; } | Ruft einen Wert ab oder legt diesen fest, der angibt, wie zusammengesetzte Bilder in diese Grafik gezeichnet werden. |
+| [CompositingQuality](../../aspose.words.saving/graphicsqualityoptions/compositingquality/) { get; set; } | Ruft die Renderqualität zusammengesetzter Bilder ab, die für diese Grafik gezeichnet werden, oder legt diese fest. |
+| [InterpolationMode](../../aspose.words.saving/graphicsqualityoptions/interpolationmode/) { get; set; } | Ruft den dieser Grafik zugeordneten Interpolationsmodus ab oder legt diesen fest. |
+| [SmoothingMode](../../aspose.words.saving/graphicsqualityoptions/smoothingmode/) { get; set; } | Ruft die Renderqualität für diese Grafik ab oder legt sie fest. |
+| [StringFormat](../../aspose.words.saving/graphicsqualityoptions/stringformat/) { get; set; } | Ruft Textlayoutinformationen (z. B. Ausrichtung, Ausrichtung und Tabstopps), Anzeigemanipulationen (z. B. Einfügen von Auslassungspunkten und nationale Ziffernersetzung) und OpenType-Funktionen ab oder legt diese fest. |
+| [TextRenderingHint](../../aspose.words.saving/graphicsqualityoptions/textrenderinghint/) { get; set; } | Ruft den Rendering-Modus für Text ab, der dieser Grafik zugeordnet ist, oder legt diesen fest. |
 | [UseTileFlipMode](../../aspose.words.saving/graphicsqualityoptions/usetileflipmode/) { get; set; } | Ruft ein Flag ab oder setzt es, das angibt, ob WrapMode TileFlipXY ist. |
 
 ### Beispiele
 
-Zeigt, wie Optionen für die Renderqualität beim Konvertieren von Dokumenten in Bildformate festgelegt werden.
+Zeigt, wie Renderqualitätsoptionen beim Konvertieren von Dokumenten in Bildformate festgelegt werden.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

@@ -22,17 +22,17 @@ public double DistanceRight { get; set; }
 
 ### Примеры
 
-Показывает, как задать расстояние обтекания для текста, окружающего фигуру.
+Показывает, как установить расстояние переноса для текста, окружающего фигуру.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Вставьте прямоугольник и заставьте текст плотно обтекать его границы.
+// Вставляем прямоугольник и заставляем текст плотно обтекать его границы.
 Shape shape = builder.InsertShape(ShapeType.Rectangle, 150, 150);
 shape.WrapType = WrapType.Tight;
 
-// Установите минимальное расстояние между фигурой и окружающим текстом на 40pt со всех сторон.
+// Установите минимальное расстояние между фигурой и окружающим текстом 40pt со всех сторон.
 shape.DistanceTop = 40;
 shape.DistanceBottom = 40;
 shape.DistanceLeft = 40;

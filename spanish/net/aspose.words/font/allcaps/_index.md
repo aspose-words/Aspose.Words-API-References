@@ -16,22 +16,22 @@ public bool AllCaps { get; set; }
 
 ### Ejemplos
 
-Muestra cómo dar formato a una ejecución para mostrar su contenido en mayúsculas.
+Muestra cómo formatear una ejecución para mostrar su contenido en mayúsculas.
 
 ```csharp
 Document doc = new Document();
 Paragraph para = (Paragraph)doc.GetChild(NodeType.Paragraph, 0, true);
 
 // Hay dos formas de hacer que una ejecución muestre su texto en minúsculas en mayúsculas sin cambiar el contenido.
-// 1 - Establecer el indicador AllCaps para mostrar todos los caracteres en mayúsculas regulares:
+// 1 - Establece el indicador AllCaps para mostrar todos los caracteres en mayúsculas normales:
 Run run = new Run(doc, "all capitals");
 run.Font.AllCaps = true;
 para.AppendChild(run);
 
 para = (Paragraph)para.ParentNode.AppendChild(new Paragraph(doc));
 
-// 2 - Establecer la bandera SmallCaps para mostrar todos los caracteres en minúsculas:
-// Si un carácter está en minúsculas, aparecerá en mayúsculas
+// 2 - Establece el indicador SmallCaps para mostrar todos los caracteres en minúsculas:
+// Si un carácter está en minúscula, aparecerá en mayúscula
 // pero tendrá la misma altura que las minúsculas (la altura x de la fuente).
 // Los caracteres que originalmente estaban en mayúsculas tendrán el mismo aspecto.
 run = new Run(doc, "Small Capitals");

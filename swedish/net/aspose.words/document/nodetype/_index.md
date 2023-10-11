@@ -1,14 +1,14 @@
 ---
 title: Document.NodeType
 second_title: Aspose.Words för .NET API Referens
-description: Document fast egendom. Returnerar NodeType.Document .
+description: Document fast egendom. ReturnerarDocument .
 type: docs
-weight: 260
+weight: 280
 url: /sv/net/aspose.words/document/nodetype/
 ---
 ## Document.NodeType property
 
-Returnerar **NodeType.Document** .
+ReturnerarDocument .
 
 ```csharp
 public override NodeType NodeType { get; }
@@ -19,6 +19,7 @@ public override NodeType NodeType { get; }
 Visar hur man korsar en sammansatt nods träd med undernoder.
 
 ```csharp
+public void RecurseChildren()
 {
     Document doc = new Document(MyDir + "Paragraphs.docx");
 

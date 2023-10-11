@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTagRangeEnd.Id
 second_title: Aspose.Words لمراجع .NET API
-description: StructuredDocumentTagRangeEnd ملكية. تحديد معرف رقمي فريد ومستمر للقراءة فقط لهذا الغرض StructuredDocumentTagRange node. المقابلةStructuredDocumentTagRangeStart العقدة لها نفس الشيءId .
+description: StructuredDocumentTagRangeEnd ملكية. يحدد معرفًا رقميًا ثابتًا فريدًا للقراءة فقط لهذا الغرض هيكلةDocumentTagRange العقدة. المقابلةStructuredDocumentTagRangeStart العقدة لديها نفسId .
 type: docs
 weight: 20
 url: /ar/net/aspose.words.markup/structureddocumenttagrangeend/id/
 ---
 ## StructuredDocumentTagRangeEnd.Id property
 
-تحديد معرف رقمي فريد ومستمر للقراءة فقط لهذا الغرض **StructuredDocumentTagRange** node. المقابلة[`StructuredDocumentTagRangeStart`](../../structureddocumenttagrangestart/) العقدة لها نفس الشيء[`Id`](../../structureddocumenttagrangestart/id/) .
+يحدد معرفًا رقميًا ثابتًا فريدًا للقراءة فقط لهذا الغرض **هيكلةDocumentTagRange** العقدة. المقابلة[`StructuredDocumentTagRangeStart`](../../structureddocumenttagrangestart/) العقدة لديها نفس[`Id`](../../structureddocumenttagrangestart/id/) .
 
 ```csharp
 public int Id { get; }

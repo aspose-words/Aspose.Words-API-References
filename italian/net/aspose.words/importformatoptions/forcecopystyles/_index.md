@@ -1,14 +1,14 @@
 ---
 title: ImportFormatOptions.ForceCopyStyles
 second_title: Aspose.Words per .NET API Reference
-description: ImportFormatOptions proprietà. Ottiene o imposta un valore booleano che indica di copiare gli stili in conflitto inKeepSourceFormatting mode. Il valore predefinito èfalso .
+description: ImportFormatOptions proprietà. Ottiene o imposta un valore booleano che indica di copiare stili in conflitto inKeepSourceFormatting mode. Il valore predefinito èfalso .
 type: docs
-weight: 20
+weight: 30
 url: /it/net/aspose.words/importformatoptions/forcecopystyles/
 ---
 ## ImportFormatOptions.ForceCopyStyles property
 
-Ottiene o imposta un valore booleano che indica di copiare gli stili in conflitto inKeepSourceFormatting mode. Il valore predefinito è`falso` .
+Ottiene o imposta un valore booleano che indica di copiare stili in conflitto inKeepSourceFormatting mode. Il valore predefinito è`falso` .
 
 ```csharp
 public bool ForceCopyStyles { get; set; }
@@ -16,18 +16,18 @@ public bool ForceCopyStyles { get; set; }
 
 ### Osservazioni
 
-Per impostazione predefinita, se esiste già uno stile corrispondente in un documento di destinazione, lo stile di origine formatting viene espanso negli attributi del nodo diretto e lo stile di questo nodo viene reimpostato su un valore predefinito.
+Per impostazione predefinita, se uno stile corrispondente esiste già in un documento di destinazione, lo stile di origine formatting viene espanso negli attributi del nodo diretto e lo stile di questo nodo viene reimpostato su quello predefinito.
 
-Quando questa opzione è impostata su`VERO`, lo stile di origine verrà copiato forzatamente nel documento di destinazione con nome univoco e applicato al nodo importato.
+Quando questa opzione è impostata su`VERO`, lo stile di origine verrà copiato forzatamente nel documento di destinazione con un nome univoco e applicato al nodo importato.
 
-Nota, in questo caso non è garantito che la formattazione del nodo importato nella destinazione document venga preservata.
+Tieni presente che in questo caso non è garantito che la formattazione del nodo importato nel documento di destinazione venga preservata.
 
 ### Esempi
 
 Mostra come copiare forzatamente gli stili di origine con nomi univoci.
 
 ```csharp
-// Entrambi i documenti contengono MyStyle1 e MyStyle2, MyStyle3 esiste solo in un documento di origine.
+// Entrambi i documenti contengono MyStyle1 e MyStyle2, MyStyle3 esiste solo in un documento sorgente.
 Document srcDoc = new Document(MyDir + "Styles source.docx");
 Document dstDoc = new Document(MyDir + "Styles destination.docx");
 

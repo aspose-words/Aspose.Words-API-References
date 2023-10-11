@@ -1,14 +1,14 @@
 ---
 title: ComparisonEvaluationResult.ComparisonEvaluationResult
 second_title: Aspose.Words for .NET API Referansı
-description: ComparisonEvaluationResult inşaatçı. Bir karşılaştırma değerlendirme sonucu oluşturur.
+description: ComparisonEvaluationResult inşaatçı. Karşılaştırma değerlendirme sonucu oluşturur.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fields/comparisonevaluationresult/comparisonevaluationresult/
 ---
 ## ComparisonEvaluationResult(bool) {#constructor}
 
-Bir karşılaştırma değerlendirme sonucu oluşturur.
+Karşılaştırma değerlendirme sonucu oluşturur.
 
 ```csharp
 public ComparisonEvaluationResult(bool result)
@@ -16,7 +16,7 @@ public ComparisonEvaluationResult(bool result)
 
 ### Örnekler
 
-EĞER ve KARŞILAŞTIR alanları için özel değerlendirmenin nasıl uygulanacağını gösterir.
+IF ve COMPARE alanları için özel değerlendirmenin nasıl uygulanacağını gösterir.
 
 ```csharp
 public void ConditionEvaluationExtensionPoint(string fieldCode, sbyte comparisonResult, string comparisonError,
@@ -30,10 +30,10 @@ public void ConditionEvaluationExtensionPoint(string fieldCode, sbyte comparison
 
     // Bu örnekte kullandığımız alan kodları:
     // 1. " IF {0} {1} {2} \"doğru argüman\" \"yanlış argüman\" ".
-    // 2. " KARŞILAŞTIR {0} {1} {2} ".
+    // 2. " KARŞILAŞTIRIN {0} {1} {2} ".
     Field field = builder.InsertField(string.Format(fieldCode, left, @operator, right), null);
 
-    // "comparisonResult" tanımsız ise bool yerine string ile "ComparisonEvaluationResult" yaratırız.
+    // "ComparisonEvaluationResult" tanımsızsa bool yerine string ile "ComparisonEvaluationResult" oluştururuz.
     ComparisonEvaluationResult result = comparisonResult != -1
         ? new ComparisonEvaluationResult(comparisonResult == 1)
         : comparisonError != null ? new ComparisonEvaluationResult(comparisonError) : null;
@@ -48,7 +48,7 @@ public void ConditionEvaluationExtensionPoint(string fieldCode, sbyte comparison
 }
 
 /// <summary>
-/// FieldIf ve FieldCompare için karşılaştırma ifadeleri değerlendirmesi.
+/// FieldIf ve FieldCompare için karşılaştırma ifadelerinin değerlendirilmesi.
 /// </summary>
 private class ComparisonExpressionEvaluator : IComparisonExpressionEvaluator
 {
@@ -105,7 +105,7 @@ private class ComparisonExpressionEvaluator : IComparisonExpressionEvaluator
 
 ## ComparisonEvaluationResult(string) {#constructor_1}
 
-Karşılık gelen hata mesajıyla başarısız bir karşılaştırma değerlendirme sonucu oluşturur.
+İlgili hata mesajıyla birlikte başarısız bir karşılaştırma değerlendirme sonucu oluşturur.
 
 ```csharp
 public ComparisonEvaluationResult(string errorMessage)
@@ -113,7 +113,7 @@ public ComparisonEvaluationResult(string errorMessage)
 
 ### Örnekler
 
-EĞER ve KARŞILAŞTIR alanları için özel değerlendirmenin nasıl uygulanacağını gösterir.
+IF ve COMPARE alanları için özel değerlendirmenin nasıl uygulanacağını gösterir.
 
 ```csharp
 public void ConditionEvaluationExtensionPoint(string fieldCode, sbyte comparisonResult, string comparisonError,
@@ -127,10 +127,10 @@ public void ConditionEvaluationExtensionPoint(string fieldCode, sbyte comparison
 
     // Bu örnekte kullandığımız alan kodları:
     // 1. " IF {0} {1} {2} \"doğru argüman\" \"yanlış argüman\" ".
-    // 2. " KARŞILAŞTIR {0} {1} {2} ".
+    // 2. " KARŞILAŞTIRIN {0} {1} {2} ".
     Field field = builder.InsertField(string.Format(fieldCode, left, @operator, right), null);
 
-    // "comparisonResult" tanımsız ise bool yerine string ile "ComparisonEvaluationResult" yaratırız.
+    // "ComparisonEvaluationResult" tanımsızsa bool yerine string ile "ComparisonEvaluationResult" oluştururuz.
     ComparisonEvaluationResult result = comparisonResult != -1
         ? new ComparisonEvaluationResult(comparisonResult == 1)
         : comparisonError != null ? new ComparisonEvaluationResult(comparisonError) : null;
@@ -145,7 +145,7 @@ public void ConditionEvaluationExtensionPoint(string fieldCode, sbyte comparison
 }
 
 /// <summary>
-/// FieldIf ve FieldCompare için karşılaştırma ifadeleri değerlendirmesi.
+/// FieldIf ve FieldCompare için karşılaştırma ifadelerinin değerlendirilmesi.
 /// </summary>
 private class ComparisonExpressionEvaluator : IComparisonExpressionEvaluator
 {

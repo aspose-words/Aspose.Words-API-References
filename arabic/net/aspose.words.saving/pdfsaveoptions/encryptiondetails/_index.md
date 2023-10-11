@@ -1,14 +1,14 @@
 ---
 title: PdfSaveOptions.EncryptionDetails
 second_title: Aspose.Words لمراجع .NET API
-description: PdfSaveOptions ملكية. الحصول على أو تعيين التفاصيل الخاصة بتشفير مستند PDF الناتج.
+description: PdfSaveOptions ملكية. الحصول على أو تعيين تفاصيل تشفير مستند PDF الناتج.
 type: docs
-weight: 110
+weight: 130
 url: /ar/net/aspose.words.saving/pdfsaveoptions/encryptiondetails/
 ---
 ## PdfSaveOptions.EncryptionDetails property
 
-الحصول على أو تعيين التفاصيل الخاصة بتشفير مستند PDF الناتج.
+الحصول على أو تعيين تفاصيل تشفير مستند PDF الناتج.
 
 ```csharp
 public PdfEncryptionDetails EncryptionDetails { get; set; }
@@ -16,13 +16,13 @@ public PdfEncryptionDetails EncryptionDetails { get; set; }
 
 ### ملاحظات
 
-القيمة الافتراضية خالية ولن يتم تشفير مستند الإخراج . عند تعيين هذه الخاصية على قيمة صالحة[`PdfEncryptionDetails`](../../pdfencryptiondetails/) الكائن ، ثم سيتم تشفير مستند PDF الناتج.
+القيمة الافتراضية هي`باطل` ولن يتم تشفير مستند الإخراج. عندما يتم تعيين هذه الخاصية إلى صالحة[`PdfEncryptionDetails`](../../pdfencryptiondetails/) object, ثم سيتم تشفير مستند PDF الناتج.
 
-يتم استخدام خوارزمية تشفير AES-128 عند الحفظ إلى التوافق المستند إلى PDF 1.7 (بما في ذلك PDF / UA-1) . يتم استخدام خوارزمية تشفير AES-256 عند الحفظ إلى التوافق المستند إلى PDF 2.0.
+يتم استخدام خوارزمية التشفير AES-128 عند الحفظ إلى التوافق المستند إلى PDF 1.7 (بما في ذلك PDF/UA-1). يتم استخدام خوارزمية التشفير AES-256 عند الحفظ إلى التوافق المستند إلى PDF 2.0.
 
-يحظر التشفير من خلال التوافق مع PDF / A. سيتم تجاهل هذا الخيار عند الحفظ في PDF / A.
+التشفير محظور بموجب التوافق مع PDF/A. سيتم تجاهل هذا الخيار عند الحفظ إلى PDF/A.
 
-ContentCopyForAccessibilityمطلوب إذن من قبل التوافق مع PDF / UA إذا كان المستند الناتج مشفرًا. سيتم استخدام هذا الإذن تلقائيًا عند الحفظ في PDF / UA.
+ContentCopyForAccessibility مطلوب إذن من خلال الامتثال لـ PDF/UA إذا كان مستند الإخراج مشفرًا. سيتم استخدام هذا الإذن تلقائيًا عند الحفظ إلى PDF/UA.
 
 ContentCopyForAccessibility تم إهمال الإذن بتنسيق PDF 2.0. سيتم تجاهل هذا الإذن عند الحفظ في PDF 2.0.
 
@@ -36,23 +36,17 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln("Hello world!");
 
+// توسيع الأذونات للسماح بتحرير التعليقات التوضيحية.
 PdfEncryptionDetails encryptionDetails =
-    new PdfEncryptionDetails("password", string.Empty);
+    new PdfEncryptionDetails("password", string.Empty, PdfPermissions.ModifyAnnotations | PdfPermissions.DocumentAssembly);
 
-// ابدأ برفض جميع الأذونات.
-encryptionDetails.Permissions = PdfPermissions.DisallowAll;
-
-// تمديد الأذونات للسماح بتحرير التعليقات التوضيحية.
-encryptionDetails.Permissions = PdfPermissions.ModifyAnnotations | PdfPermissions.DocumentAssembly;
-
-// قم بإنشاء كائن "PdfSaveOptions" يمكننا تمريره إلى طريقة "Save" الخاصة بالمستند
-// لتعديل كيفية تحويل هذه الطريقة المستند إلى PDF.
+// قم بإنشاء كائن "PdfSaveOptions" الذي يمكننا تمريره إلى طريقة "حفظ" المستند
+// لتعديل كيفية تحويل هذه الطريقة للمستند إلى .PDF.
 PdfSaveOptions saveOptions = new PdfSaveOptions();
-
 // تمكين التشفير عبر خاصية "EncryptionDetails".
 saveOptions.EncryptionDetails = encryptionDetails;
 
-// عندما نفتح هذا المستند ، سنحتاج إلى توفير كلمة المرور قبل الوصول إلى محتوياته.
+// عندما نفتح هذا المستند، سنحتاج إلى توفير كلمة المرور قبل الوصول إلى محتوياته.
 doc.Save(ArtifactsDir + "PdfSaveOptions.EncryptionPermissions.pdf", saveOptions);
 ```
 

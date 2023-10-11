@@ -1,14 +1,16 @@
 ---
 title: Class OfficeMathRenderer
 second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Rendering.OfficeMathRenderer clase. Proporciona métodos para representar a un individuoOfficeMath a una imagen rasterizada o vectorial o a un objeto Graphics.
+description: Aspose.Words.Rendering.OfficeMathRenderer clase. Proporciona métodos para representar a un individuo.OfficeMath a una imagen rasterizada o vectorial o a un objeto de gráficos.
 type: docs
-weight: 4300
+weight: 4560
 url: /es/net/aspose.words.rendering/officemathrenderer/
 ---
 ## OfficeMathRenderer class
 
-Proporciona métodos para representar a un individuo[`OfficeMath`](../../aspose.words.math/officemath/) a una imagen rasterizada o vectorial o a un objeto Graphics.
+Proporciona métodos para representar a un individuo.[`OfficeMath`](../../aspose.words.math/officemath/) a una imagen rasterizada o vectorial o a un objeto de gráficos.
+
+Para obtener más información, visite el[Trabajar con OfficeMath](https://docs.aspose.com/words/net/working-with-officemath/) artículo de documentación.
 
 ```csharp
 public class OfficeMathRenderer : NodeRendererBase
@@ -36,10 +38,10 @@ public class OfficeMathRenderer : NodeRendererBase
 | [GetBoundsInPixels](../../aspose.words.rendering/noderendererbase/getboundsinpixels/)(float, float, float) | Calcula los límites de la forma en píxeles para un factor de zoom y una resolución específicos. |
 | [GetOpaqueBoundsInPixels](../../aspose.words.rendering/noderendererbase/getopaqueboundsinpixels/)(float, float) | Calcula los límites opacos de la forma en píxeles para un factor de zoom y una resolución específicos. |
 | [GetOpaqueBoundsInPixels](../../aspose.words.rendering/noderendererbase/getopaqueboundsinpixels/)(float, float, float) | Calcula los límites opacos de la forma en píxeles para un factor de zoom y una resolución específicos. |
-| [GetSizeInPixels](../../aspose.words.rendering/noderendererbase/getsizeinpixels/)(float, float) | Calcula el tamaño de la forma en píxeles para un factor de zoom y resolución especificados. |
-| [GetSizeInPixels](../../aspose.words.rendering/noderendererbase/getsizeinpixels/)(float, float, float) | Calcula el tamaño de la forma en píxeles para un factor de zoom y resolución especificados. |
-| [RenderToScale](../../aspose.words.rendering/noderendererbase/rendertoscale/)(Graphics, float, float, float) | Convierte la forma en unGraphics objeto a una escala especificada. |
-| [RenderToSize](../../aspose.words.rendering/noderendererbase/rendertosize/)(Graphics, float, float, float, float) | Convierte la forma en unGraphics objeto a un tamaño especificado. |
+| [GetSizeInPixels](../../aspose.words.rendering/noderendererbase/getsizeinpixels/)(float, float) | Calcula el tamaño de la forma en píxeles para un factor de zoom y una resolución específicos. |
+| [GetSizeInPixels](../../aspose.words.rendering/noderendererbase/getsizeinpixels/)(float, float, float) | Calcula el tamaño de la forma en píxeles para un factor de zoom y una resolución específicos. |
+| [RenderToScale](../../aspose.words.rendering/noderendererbase/rendertoscale/)(Graphics, float, float, float) | Representa la forma en unGraphics objeto a una escala especificada. |
+| [RenderToSize](../../aspose.words.rendering/noderendererbase/rendertosize/)(Graphics, float, float, float, float) | Representa la forma en unGraphics objeto a un tamaño especificado. |
 | [Save](../../aspose.words.rendering/noderendererbase/save/)(Stream, ImageSaveOptions) | Representa la forma en una imagen y la guarda en una secuencia. |
 | [Save](../../aspose.words.rendering/noderendererbase/save/)(string, ImageSaveOptions) | Representa la forma en una imagen y la guarda en un archivo. |
 
@@ -53,7 +55,7 @@ Document doc = new Document(MyDir + "Office math.docx");
 OfficeMath officeMath = (OfficeMath)doc.GetChild(NodeType.OfficeMath, 0, true);
 OfficeMathRenderer renderer = new OfficeMathRenderer(officeMath);
 
-// Verificar el tamaño de la imagen que creará el objeto OfficeMath cuando lo representemos.
+// Verificar el tamaño de la imagen que creará el objeto OfficeMath cuando lo rendericemos.
 Assert.AreEqual(119.0f, renderer.SizeInPoints.Width, 0.2f);
 Assert.AreEqual(13.0f, renderer.SizeInPoints.Height, 0.1f);
 
@@ -64,7 +66,7 @@ Assert.AreEqual(13.0f, renderer.BoundsInPoints.Height, 0.1f);
 Assert.AreEqual(119.0f, renderer.OpaqueBoundsInPoints.Width, 0.2f);
 Assert.AreEqual(14.2f, renderer.OpaqueBoundsInPoints.Height, 0.1f);
 
-// Obtener el tamaño de la forma en píxeles, con escalado lineal a un DPI específico.
+// Obtenga el tamaño de la forma en píxeles, con escala lineal a un DPI específico.
 Rectangle bounds = renderer.GetBoundsInPixels(1.0f, 96.0f);
 
 Assert.AreEqual(159, bounds.Width);

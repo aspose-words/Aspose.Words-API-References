@@ -20,7 +20,7 @@ public List GetListByListId(int listId)
 
 ### Returvärde
 
-Returnerar listobjektet. Returnerar null om en lista med den angivna identifieraren inte hittades.
+Returnerar listobjektet. Returnerar`null` om en lista med den angivna identifieraren inte hittades.
 
 ### Anmärkningar
 
@@ -34,11 +34,9 @@ Visar hur man verifierar ägardokumentegenskaper för listor.
 Document doc = new Document();
 
 ListCollection lists = doc.Lists;
-
 Assert.AreEqual(doc, lists.Document);
 
 List list = lists.Add(ListTemplate.BulletDefault);
-
 Assert.AreEqual(doc, list.Document);
 
 Console.WriteLine("Current list count: " + lists.Count);

@@ -16,17 +16,17 @@ public void Clear()
 
 ### 例子
 
-显示如何从文档中删除所有部分。
+演示如何从文档中删除所有部分。
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
 
-// 此文档有一个部分，其中包含并显示所有文档的内容的几个子节点。
+// 该文档有一个部分，其中包含一些包含并显示文档所有内容的子节点。
 Assert.AreEqual(1, doc.Sections.Count);
 Assert.AreEqual(17, doc.Sections[0].GetChildNodes(NodeType.Any, true).Count);
 Assert.AreEqual("Hello World!\r\rHello Word!\r\r\rHello World!", doc.GetText().Trim());
 
-// 清除部分的集合，这将删除文档的所有子项。
+// 清除节的集合，这将删除文档的所有子项。
 doc.Sections.Clear();
 
 Assert.AreEqual(0, doc.GetChildNodes(NodeType.Any, true).Count);

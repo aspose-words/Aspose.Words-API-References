@@ -1,14 +1,14 @@
 ---
 title: FrameFormat.HorizontalDistanceFromText
 second_title: Referencia de API de Aspose.Words para .NET
-description: FrameFormat propiedad. Obtiene la distancia horizontal entre un marco y el texto que lo rodea en puntos.
+description: FrameFormat propiedad. Obtiene la distancia horizontal entre un marco y el texto circundante en puntos.
 type: docs
 weight: 40
 url: /es/net/aspose.words/frameformat/horizontaldistancefromtext/
 ---
 ## FrameFormat.HorizontalDistanceFromText property
 
-Obtiene la distancia horizontal entre un marco y el texto que lo rodea, en puntos.
+Obtiene la distancia horizontal entre un marco y el texto circundante, en puntos.
 
 ```csharp
 public double HorizontalDistanceFromText { get; }
@@ -16,7 +16,7 @@ public double HorizontalDistanceFromText { get; }
 
 ### Ejemplos
 
-Muestra cómo obtener información sobre las propiedades de formato de los párrafos que son marcos.
+Muestra cómo obtener información sobre las propiedades de formato de párrafos que son marcos.
 
 ```csharp
 Document doc = new Document(MyDir + "Paragraph frame.docx");

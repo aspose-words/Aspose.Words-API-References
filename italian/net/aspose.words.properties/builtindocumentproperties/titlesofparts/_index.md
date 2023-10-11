@@ -25,9 +25,9 @@ Mostra la relazione tra le proprietà "HeadingPairs" e "TitlesOfParts".
 ```csharp
 Document doc = new Document(MyDir + "Heading pairs and titles of parts.docx");
 
-// Possiamo trovare i valori combinati di queste collezioni tramite
-// "File" -> "Proprietà" -> "Proprietà avanzate" -> Scheda "Contenuti".
-// La proprietà HeadingPairs è una raccolta di <string, int> accoppia quello
+// Possiamo trovare i valori combinati di queste raccolte tramite
+// "File" -> "Proprietà" -> "Proprietà avanzate" -> Scheda "Contenuto".
+// La proprietà HeadingPairs è una raccolta di <string, int> lo accoppia
 // determina quante parti del documento si estende su un'intestazione.
 object[] headingPairs = doc.BuiltInDocumentProperties.HeadingPairs;
 

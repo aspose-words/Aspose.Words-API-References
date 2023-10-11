@@ -1,14 +1,14 @@
 ---
 title: DocumentVisitor.VisitTableEnd
 second_title: Aspose.Words für .NET-API-Referenz
-description: DocumentVisitor methode. Wird aufgerufen wenn die Aufzählung einer Tabelle beendet ist.
+description: DocumentVisitor methode. Wird aufgerufen wenn die Aufzählung einer Tabelle beendet wurde.
 type: docs
 weight: 490
 url: /de/net/aspose.words/documentvisitor/visittableend/
 ---
 ## DocumentVisitor.VisitTableEnd method
 
-Wird aufgerufen, wenn die Aufzählung einer Tabelle beendet ist.
+Wird aufgerufen, wenn die Aufzählung einer Tabelle beendet wurde.
 
 ```csharp
 public virtual VisitorAction VisitTableEnd(Table table)
@@ -20,7 +20,7 @@ public virtual VisitorAction VisitTableEnd(Table table)
 
 ### Rückgabewert
 
-EIN[`VisitorAction`](../../visitoraction/) Wert, der angibt, wie die Enumeration fortgesetzt werden soll.
+A[`VisitorAction`](../../visitoraction/) Wert, der angibt, wie die Enumeration fortgesetzt werden soll.
 
 ### Beispiele
 
@@ -32,8 +32,8 @@ public void TableToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     TableStructurePrinter visitor = new TableStructurePrinter();
 
-    // Wenn wir einen zusammengesetzten Knoten dazu bringen, einen Dokumentbesucher zu akzeptieren, besucht der Besucher den akzeptierenden Knoten,
-    // und durchläuft dann alle untergeordneten Elemente des Knotens mit der Tiefe zuerst.
+    // Wenn wir einen zusammengesetzten Knoten erhalten, der einen Dokumentbesucher akzeptiert, besucht der Besucher den akzeptierenden Knoten.
+    // und durchläuft dann alle untergeordneten Knoten des Knotens in einer Tiefe-zuerst-Methode.
     // Der Besucher kann jeden besuchten Knoten lesen und ändern.
     doc.Accept(visitor);
 
@@ -42,7 +42,7 @@ public void TableToText()
 
 /// <summary>
 /// Durchläuft den nicht-binären Baum der untergeordneten Knoten eines Knotens.
-/// Erstellt eine Karte in Form eines Strings aller angetroffenen Tabellenknoten und ihrer Kinder.
+/// Erstellt eine Karte in Form einer Zeichenfolge aller gefundenen Tabellenknoten und ihrer untergeordneten Knoten.
 /// </summary>
 public class TableStructurePrinter : DocumentVisitor
 {
@@ -59,7 +59,7 @@ public class TableStructurePrinter : DocumentVisitor
 
     /// <summary>
     /// Wird aufgerufen, wenn im Dokument ein Run-Knoten gefunden wird.
-    /// Läufe außerhalb von Tabellen werden nicht aufgezeichnet.
+    /// Läufe, die nicht innerhalb von Tabellen liegen, werden nicht aufgezeichnet.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -162,7 +162,7 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Eine Zeile an den StringBuilder anhängen und je nach Tiefe des Besuchers einrücken
+    /// Hängen Sie eine Zeile an den StringBuilder an und rücken Sie sie ein, je nachdem, wie tief der Besucher ist
     /// in den Baum der untergeordneten Knoten der aktuellen Tabelle.
     /// </summary>
     /// <param name="text"></param>
@@ -182,31 +182,32 @@ public class TableStructurePrinter : DocumentVisitor
 }
 ```
 
-Zeigt, wie eine DocumentVisitor-Implementierung verwendet wird, um alle ausgeblendeten Inhalte aus einem Dokument zu entfernen.
+Zeigt, wie Sie mithilfe einer DocumentVisitor-Implementierung alle ausgeblendeten Inhalte aus einem Dokument entfernen.
 
 ```csharp
+public void RemoveHiddenContentFromDocument()
 {
     Document doc = new Document(MyDir + "Hidden content.docx");
-
     RemoveHiddenContentVisitor hiddenContentRemover = new RemoveHiddenContentVisitor();
 
-    // Unten sind drei Arten von Feldern, die einen Dokumentbesucher akzeptieren können,
-    // was es ihm ermöglicht, den akzeptierenden Knoten zu besuchen und dann seine untergeordneten Knoten in einer Tiefe-zuerst-Weise zu durchlaufen.
+    // Unten sind drei Arten von Feldern aufgeführt, die einen Dokumentbesucher akzeptieren können:
+    // was es ihm ermöglicht, den akzeptierenden Knoten zu besuchen und dann seine untergeordneten Knoten in einer Tiefen-zuerst-Methode zu durchlaufen.
     // 1 - Absatzknoten:
-    Paragraph para = (Paragraph) doc.GetChild(NodeType.Paragraph, 4, true);
+    Paragraph para = (Paragraph)doc.GetChild(NodeType.Paragraph, 4, true);
     para.Accept(hiddenContentRemover);
 
     // 2 - Tabellenknoten:
     Table table = doc.FirstSection.Body.Tables[0];
     table.Accept(hiddenContentRemover);
 
-    // 3 - Dokumentenknoten:
+    // 3 - Dokumentknoten:
     doc.Accept(hiddenContentRemover);
 
     doc.Save(ArtifactsDir + "Font.RemoveHiddenContentFromDocument.docx");
+}
 
 /// <summary>
-/// Entfernt alle besuchten Knoten, die als "versteckter Inhalt" markiert sind.
+/// Entfernt alle besuchten Knoten, die als „versteckter Inhalt“ markiert sind.
 /// </summary>
 public class RemoveHiddenContentVisitor : DocumentVisitor
 {
@@ -277,7 +278,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Wird aufgerufen, wenn im Dokument ein GroupShape gefunden wird.
+    /// Wird aufgerufen, wenn im Dokument eine GroupShape gefunden wird.
     /// </summary>
     public override VisitorAction VisitGroupShapeStart(GroupShape groupShape)
     {
@@ -288,7 +289,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Wird aufgerufen, wenn im Dokument ein Shape gefunden wird.
+    /// Wird aufgerufen, wenn im Dokument eine Form gefunden wird.
     /// </summary>
     public override VisitorAction VisitShapeStart(Shape shape)
     {
@@ -321,7 +322,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Wird aufgerufen, wenn im Dokument ein Sonderzeichen gefunden wird.
+    /// Wird aufgerufen, wenn im Dokument ein SpecialCharacter gefunden wird.
     /// </summary>
     public override VisitorAction VisitSpecialChar(SpecialChar specialChar)
     {
@@ -336,12 +337,12 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     /// </summary>
     public override VisitorAction VisitTableEnd(Table table)
     {
-        // Der Inhalt innerhalb von Tabellenzellen kann das Hidden-Content-Flag haben, die Tabellen selbst jedoch nicht.
-        // Wenn diese Tabelle nur versteckte Inhalte hätte, hätte dieser Besucher alles davon entfernt,
+        // Der Inhalt in Tabellenzellen kann das Flag für ausgeblendeten Inhalt haben, die Tabellen selbst jedoch nicht.
+        // Wenn diese Tabelle nur versteckten Inhalt hätte, hätte dieser Besucher alles entfernt,
         // und es gäbe keine untergeordneten Knoten mehr.
         // Somit können wir auch die Tabelle selbst als versteckten Inhalt behandeln und entfernen.
-        // Tabellen, die leer sind, aber keinen versteckten Inhalt haben, haben Zellen mit leeren Absätzen darin,
-        // die dieser Besucher nicht entfernen wird.
+        // Tabellen, die leer sind, aber keinen versteckten Inhalt haben, enthalten Zellen mit leeren Absätzen.
+        // was dieser Besucher nicht entfernen wird.
         if (!table.HasChildNodes)
             table.Remove();
 
@@ -349,7 +350,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Wird aufgerufen, wenn der Besuch eines Cell-Knotens im Dokument beendet wird.
+    /// Wird aufgerufen, wenn der Besuch eines Zellknotens im Dokument beendet wird.
     /// </summary>
     public override VisitorAction VisitCellEnd(Cell cell)
     {

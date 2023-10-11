@@ -10,9 +10,9 @@ url: /it/net/aspose.words/ihyphenationcallback/requestdictionary/
 
 Notifica all'applicazione che il dizionario di sillabazione per la lingua specificata non è stato trovato e potrebbe essere necessario registrarlo.
 
-L'implementazione dovrebbe trovare un dizionario e registrarlo utilizzando[`RegisterDictionary`](../../hyphenation/registerdictionary/)metodi.
+L'implementazione dovrebbe trovare un dizionario e registrarlo utilizzando[`RegisterDictionary`](../../hyphenation/registerdictionary/) metodi.
 
-Se il dizionario non è disponibile per la lingua specificata, l'implementazione può disattivare ulteriori chiamate per la stessa lingua utilizzando[`RegisterDictionary`](../../hyphenation/registerdictionary/) con valore nullo.
+Se il dizionario non è disponibile per l'implementazione della lingua specificata, puoi disattivare ulteriori chiamate per la stessa lingua utilizzando[`RegisterDictionary`](../../hyphenation/registerdictionary/) con`nullo` valore.
 
 ```csharp
 public void RequestDictionary(string language)
@@ -20,7 +20,7 @@ public void RequestDictionary(string language)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| language | String | Un nome di lingua, ad esempio "en-US". Vedere la documentazione .NET per "nome cultura" e RFC 4646 per i dettagli. |
+| language | String | Un nome di lingua, ad esempio "en-US". Per i dettagli, vedere la documentazione .NET per il "nome della cultura" e RFC 4646. |
 
 ### Osservazioni
 
@@ -31,25 +31,26 @@ Le eccezioni generate da questo metodo interromperanno l'esecuzione del processo
 Mostra come aprire e registrare un dizionario da un file.
 
 ```csharp
+public void RegisterDictionary()
 {
     // Imposta una richiamata che tiene traccia degli avvisi che si verificano durante la registrazione del dizionario di sillabazione.
     WarningInfoCollection warningInfoCollection = new WarningInfoCollection();
     Hyphenation.WarningCallback = warningInfoCollection;
 
-    // Registra un dizionario di sillabazione inglese (Stati Uniti) tramite stream.
+    // Registra un dizionario di sillabazione inglese (USA) per flusso.
     Stream dictionaryStream = new FileStream(MyDir + "hyph_en_US.dic", FileMode.Open);
     Hyphenation.RegisterDictionary("en-US", dictionaryStream);
 
     Assert.AreEqual(0, warningInfoCollection.Count);
 
-    // Apre un documento con una lingua che Microsoft Word potrebbe non sillabare su un computer inglese, come il tedesco.
+    // Apre un documento con una lingua che Microsoft Word non può sillabare su un computer inglese, come il tedesco.
     Document doc = new Document(MyDir + "German text.docx");
 
-    // Per sillabare quel documento dopo il salvataggio, abbiamo bisogno di un dizionario di sillabazione per il codice della lingua "de-CH".
+    // Per sillabare quel documento al momento del salvataggio, abbiamo bisogno di un dizionario di sillabazione per il codice della lingua "de-CH".
     // Questa richiamata gestirà la richiesta automatica per quel dizionario.
     Hyphenation.Callback = new CustomHyphenationDictionaryRegister();
 
-    // Quando salviamo il documento, la sillabazione tedesca avrà effetto.
+    // Quando salviamo il documento, avrà effetto la sillabazione tedesca.
     doc.Save(ArtifactsDir + "Hyphenation.RegisterDictionary.pdf");
 
     // Questo dizionario contiene due modelli identici, che attiveranno un avviso.
@@ -61,7 +62,7 @@ Mostra come aprire e registrare un dizionario da un file.
 }
 
 /// <summary>
-/// Associa i codici della lingua ISO ai nomi dei file di sistema locali per i file del dizionario di sillabazione.
+/// Associa i codici lingua ISO ai nomi file del sistema locale per i file del dizionario di sillabazione.
 /// </summary>
 private class CustomHyphenationDictionaryRegister : IHyphenationCallback
 {

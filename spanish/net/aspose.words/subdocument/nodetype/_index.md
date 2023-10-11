@@ -1,14 +1,14 @@
 ---
 title: SubDocument.NodeType
 second_title: Referencia de API de Aspose.Words para .NET
-description: SubDocument propiedad. Devoluciones NodeType.SubDocument
+description: SubDocument propiedad. DevolucionesSubDocument .
 type: docs
 weight: 10
 url: /es/net/aspose.words/subdocument/nodetype/
 ---
 ## SubDocument.NodeType property
 
-Devoluciones **NodeType.SubDocument**
+DevolucionesSubDocument .
 
 ```csharp
 public override NodeType NodeType { get; }

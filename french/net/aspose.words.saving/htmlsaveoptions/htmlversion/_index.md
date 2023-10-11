@@ -1,14 +1,14 @@
 ---
 title: HtmlSaveOptions.HtmlVersion
 second_title: Référence de l'API Aspose.Words pour .NET
-description: HtmlSaveOptions propriété. Spécifie la version de la norme HTML qui doit être utilisée lors de lenregistrement du document au format HTML ou MHTML. La valeur par défaut estXhtml .
+description: HtmlSaveOptions propriété. Spécifie la version du standard HTML qui doit être utilisée lors de lenregistrement du document au format HTML ou MHTML. La valeur par défaut estXhtml .
 type: docs
-weight: 340
+weight: 330
 url: /fr/net/aspose.words.saving/htmlsaveoptions/htmlversion/
 ---
 ## HtmlSaveOptions.HtmlVersion property
 
-Spécifie la version de la norme HTML qui doit être utilisée lors de l'enregistrement du document au format HTML ou MHTML. La valeur par défaut estXhtml .
+Spécifie la version du standard HTML qui doit être utilisée lors de l'enregistrement du document au format HTML ou MHTML. La valeur par défaut estXhtml .
 
 ```csharp
 public HtmlVersion HtmlVersion { get; set; }
@@ -16,7 +16,7 @@ public HtmlVersion HtmlVersion { get; set; }
 
 ### Exemples
 
-Montre comment afficher un en-tête DOCTYPE lors de la conversion de documents au standard de transition Xhtml 1.0.
+Montre comment afficher un en-tête DOCTYPE lors de la conversion de documents vers la norme de transition Xhtml 1.0.
 
 ```csharp
 Document doc = new Document();
@@ -33,13 +33,13 @@ HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.Html)
 
 doc.Save(ArtifactsDir + "HtmlSaveOptions.ExportXhtmlTransitional.html", options);
 
-// Notre document ne contiendra un en-tête de déclaration DOCTYPE que si nous avons défini le drapeau "ExportXhtmlTransitional" sur "true".
+// Notre document ne contiendra un en-tête de déclaration DOCTYPE que si nous avons mis le flag "ExportXhtmlTransitional" à "true".
 string outDocContents = File.ReadAllText(ArtifactsDir + "HtmlSaveOptions.ExportXhtmlTransitional.html");
 
 if (showDoctypeDeclaration)
     Assert.True(outDocContents.Contains(
         "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"no\"?>\r\n" +
-        "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\r\n" +
+        "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//FR\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\r\n" +
         "<html xmlns=\"http://www.w3.org/1999/xhtml\">"));
 else
     Assert.True(outDocContents.Contains("<html>"));
@@ -58,7 +58,7 @@ HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.Html)
 
 doc.Save(ArtifactsDir + "HtmlSaveOptions.HtmlVersions.html", options);
 
-// Nos documents HTML auront des différences mineures pour être compatibles avec les différentes versions HTML.
+// Nos documents HTML présenteront des différences mineures pour être compatibles avec les différentes versions HTML.
 string outDocContents = File.ReadAllText(ArtifactsDir + "HtmlSaveOptions.HtmlVersions.html");
 
 switch (htmlVersion)

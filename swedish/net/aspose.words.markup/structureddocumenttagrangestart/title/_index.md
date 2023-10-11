@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTagRangeStart.Title
 second_title: Aspose.Words för .NET API Referens
-description: StructuredDocumentTagRangeStart fast egendom. Anger det vänliga namnet som är kopplat till denna strukturerade dokumenttagg. Kan inte vara null.
+description: StructuredDocumentTagRangeStart fast egendom. Anger det vänliga namnet som är kopplat till denna strukturerade dokumenttagg. Kan intenull .
 type: docs
 weight: 160
 url: /sv/net/aspose.words.markup/structureddocumenttagrangestart/title/
 ---
 ## StructuredDocumentTagRangeStart.Title property
 
-Anger det vänliga namnet som är kopplat till denna strukturerade dokumenttagg. Kan inte vara null.
+Anger det vänliga namnet som är kopplat till denna strukturerade dokumenttagg. Kan inte`null` .
 
 ```csharp
 public string Title { get; set; }

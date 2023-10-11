@@ -1,14 +1,14 @@
 ---
 title: ReplacingArgs.GroupName
 second_title: Aspose.Words لمراجع .NET API
-description: ReplacingArgs ملكية. يحدد  بالاسم  مجموعة تم التقاطها في ملفMatch الذي سيتم استبداله بامتدادReplacement السلسلة .
+description: ReplacingArgs ملكية. يحدد بالاسم المجموعة التي تم التقاطها فيMatch الذي سيتم استبداله بـReplacement سلسلة.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.replacing/replacingargs/groupname/
 ---
 ## ReplacingArgs.GroupName property
 
-يحدد ، بالاسم ، مجموعة تم التقاطها في ملف[`Match`](../match/) الذي سيتم استبداله بامتداد[`Replacement`](../replacement/) السلسلة .
+يحدد، بالاسم، المجموعة التي تم التقاطها في[`Match`](../match/) الذي سيتم استبداله بـ[`Replacement`](../replacement/) سلسلة.
 
 ```csharp
 public string GroupName { get; set; }
@@ -16,15 +16,16 @@ public string GroupName { get; set; }
 
 ### ملاحظات
 
-عندما يكون اسم المجموعة فارغًا ،[`GroupIndex`](../groupindex/) يستخدم لتحديد المجموعة.
+عندما يكون اسم المجموعة`باطل` ,[`GroupIndex`](../groupindex/) يتم استخدامه لتحديد المجموعة.
 
-الافتراضي هو فارغ.
+الافتراضي هو`باطل`.
 
 ### أمثلة
 
-يوضح كيفية تطبيق خط مختلف على محتوى جديد عبر FindReplaceOptions.
+يوضح كيفية تطبيق خط مختلف على المحتوى الجديد عبر FindReplaceOptions.
 
 ```csharp
+public void ConvertNumbersToHexadecimal()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -36,7 +37,7 @@ public string GroupName { get; set; }
     // يمكننا استخدام كائن "FindReplaceOptions" لتعديل عملية البحث والاستبدال.
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // اضبط خاصية "HighlightColor" على لون الخلفية الذي نريد تطبيقه على النص الناتج للعملية.
+    // قم بتعيين خاصية "HighlightColor" على لون الخلفية الذي نريد تطبيقه على النص الناتج عن العملية.
     options.ApplyFont.HighlightColor = Color.LightGray;
 
     NumberHexer numberHexer = new NumberHexer();

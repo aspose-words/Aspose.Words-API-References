@@ -16,7 +16,7 @@ public LoadFormat LoadFormat { get; }
 
 ### Remarques
 
-Lorsqu'un document OOXML est crypté, il n'est pas possible de déterminer s'il s'agit d'un document Excel, Word ou PowerPoint sans le décrypter au préalable. Par conséquent, pour un document OOXML crypté, cette propriété renverra toujoursDocx.
+Lorsqu'un document OOXML est chiffré, il n'est pas possible de savoir s'il s'agit d'un document Excel, Word ou PowerPoint sans le déchiffrer au préalable. Ainsi, pour un document OOXML chiffré, cette propriété sera toujours renvoyée.Docx.
 
 ### Exemples
 
@@ -26,13 +26,13 @@ Montre comment utiliser la classe FileFormatUtil pour détecter le format et le 
 Document doc = new Document();
 
 // Configure un objet SaveOptions pour chiffrer le document
-// avec un mot de passe lorsque nous l'enregistrons, puis enregistrez le document.
+// avec un mot de passe lorsque nous l'enregistrons, puis enregistrons le document.
 OdtSaveOptions saveOptions = new OdtSaveOptions(SaveFormat.Odt);
 saveOptions.Password = "MyPassword";
 
 doc.Save(ArtifactsDir + "File.DetectDocumentEncryption.odt", saveOptions);
 
-// Vérifiez le type de fichier de notre document et son statut de cryptage.
+// Vérifiez le type de fichier de notre document et son état de cryptage.
 FileFormatInfo info = FileFormatUtil.DetectFileFormat(ArtifactsDir + "File.DetectDocumentEncryption.odt");
 
 Assert.AreEqual(".odt", FileFormatUtil.LoadFormatToExtension(info.LoadFormat));
@@ -72,15 +72,15 @@ using (FileStream docStream = File.OpenRead(MyDir + "Word document with missing 
 
     Assert.AreEqual(LoadFormat.Doc, loadFormat);
 
-    // Vous trouverez ci-dessous deux méthodes de conversion d'un LoadFormat en son SaveFormat correspondant.
-    // 1 - Récupère la chaîne d'extension de fichier pour le LoadFormat, puis récupère le SaveFormat correspondant à partir de cette chaîne :
+    // Vous trouverez ci-dessous deux méthodes pour convertir un LoadFormat en son SaveFormat correspondant.
+    // 1 - Récupère la chaîne d'extension de fichier pour LoadFormat, puis récupère le SaveFormat correspondant à partir de cette chaîne :
     string fileExtension = FileFormatUtil.LoadFormatToExtension(loadFormat);
     SaveFormat saveFormat = FileFormatUtil.ExtensionToSaveFormat(fileExtension);
 
-    // 2 - Convertit directement le LoadFormat en son SaveFormat :
+    // 2 - Convertir le LoadFormat directement en son SaveFormat :
     saveFormat = FileFormatUtil.LoadFormatToSaveFormat(loadFormat);
 
-    // Chargez un document à partir du flux, puis enregistrez-le dans l'extension de fichier détectée automatiquement.
+    // Charge un document à partir du flux, puis enregistre-le sous l'extension de fichier automatiquement détectée.
     Document doc = new Document(docStream);
 
     Assert.AreEqual(".doc", FileFormatUtil.SaveFormatToExtension(saveFormat));

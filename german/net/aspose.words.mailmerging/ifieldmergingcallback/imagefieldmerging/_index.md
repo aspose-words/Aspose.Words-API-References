@@ -1,14 +1,14 @@
 ---
 title: IFieldMergingCallback.ImageFieldMerging
 second_title: Aspose.Words für .NET-API-Referenz
-description: IFieldMergingCallback methode. Wird aufgerufen wenn die SeriendruckEngine von Aspose.Words dabei ist ein Bild in ein Seriendruckfeld einzufügen.
+description: IFieldMergingCallback methode. Wird aufgerufen wenn die MailMergeEngine von Aspose.Words im Begriff ist ein Bild in ein Serienbrieffeld einzufügen.
 type: docs
 weight: 20
 url: /de/net/aspose.words.mailmerging/ifieldmergingcallback/imagefieldmerging/
 ---
 ## IFieldMergingCallback.ImageFieldMerging method
 
-Wird aufgerufen, wenn die Seriendruck-Engine von Aspose.Words dabei ist, ein Bild in ein Seriendruckfeld einzufügen.
+Wird aufgerufen, wenn die Mail-Merge-Engine von Aspose.Words im Begriff ist, ein Bild in ein Serienbrieffeld einzufügen.
 
 ```csharp
 public void ImageFieldMerging(ImageFieldMergingArgs args)
@@ -25,7 +25,7 @@ public void ImageFromBlob()
 
     doc.MailMerge.FieldMergingCallback = new HandleMergeImageFieldFromBlob();
 
-    string connString = $"Provider=Microsoft.Jet.OLEDB.4.0;Data Source={DatabaseDir + "Northwind.mdb"};";
+    string connString = $"Provider=Microsoft.ACE.OLEDB.12.0;Data Source={DatabaseDir + "Northwind.accdb"};";
     string query = "SELECT FirstName, LastName, Title, Address, City, Region, Country, PhotoBLOB FROM Employees";
 
     using (OleDbConnection conn = new OleDbConnection(connString))
@@ -40,6 +40,7 @@ public void ImageFromBlob()
     }
 
     doc.Save(ArtifactsDir + "MailMergeEvent.ImageFromBlob.docx");
+}
 
 private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
 {
@@ -49,7 +50,7 @@ private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
     }
 
     /// <summary>
-    /// Dies wird aufgerufen, wenn ein Seriendruck auf ein MERGEFIELD im Dokument mit einem "Image:"-Tag im Namen trifft.
+    /// Dies wird aufgerufen, wenn ein Serienbrief im Dokument auf ein MERGEFIELD mit einem „Image:“-Tag im Namen trifft.
     /// </summary>
     void IFieldMergingCallback.ImageFieldMerging(ImageFieldMergingArgs e)
     {

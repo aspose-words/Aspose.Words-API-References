@@ -3,7 +3,7 @@ title: ChartAxis.TickLabelSpacingIsAuto
 second_title: Aspose.Words för .NET API Referens
 description: ChartAxis fast egendom. Hämtar eller ställer in en flagga som indikerar om automatiskt intervall för att rita kryssetiketter ska användas.
 type: docs
-weight: 240
+weight: 260
 url: /sv/net/aspose.words.drawing.charts/chartaxis/ticklabelspacingisauto/
 ---
 ## ChartAxis.TickLabelSpacingIsAuto property
@@ -16,7 +16,7 @@ public bool TickLabelSpacingIsAuto { get; set; }
 
 ### Anmärkningar
 
-Standardvärdet är **Sann**.
+Standardvärdet är`Sann`.
 
 Egenskapen har effekt för textkategori och serieaxlar. Det stöds inte av MS Office 2016 nya sjökort.
 

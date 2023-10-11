@@ -1,14 +1,14 @@
 ---
 title: ChartDataPoint.ClearFormat
 second_title: Aspose.Words لمراجع .NET API
-description: ChartDataPoint طريقة. يمسح تنسيق نقطة البيانات هذه. يتم تعيين الخصائص على القيم الافتراضية المحددة في السلسلة الأصلية.
+description: ChartDataPoint طريقة. مسح تنسيق نقطة البيانات هذه. يتم تعيين الخصائص على القيم الافتراضية المحددة في السلسلة الأصلية.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.drawing.charts/chartdatapoint/clearformat/
 ---
 ## ChartDataPoint.ClearFormat method
 
-يمسح تنسيق نقطة البيانات هذه. يتم تعيين الخصائص على القيم الافتراضية المحددة في السلسلة الأصلية.
+مسح تنسيق نقطة البيانات هذه. يتم تعيين الخصائص على القيم الافتراضية المحددة في السلسلة الأصلية.
 
 ```csharp
 public void ClearFormat()

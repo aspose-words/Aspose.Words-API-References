@@ -3,7 +3,7 @@ title: Fill.PresetTextured
 second_title: Aspose.Words för .NET API Referens
 description: Fill metod. Ställer in fyllningen till en förinställd textur.
 type: docs
-weight: 180
+weight: 240
 url: /sv/net/aspose.words.drawing/fill/presettextured/
 ---
 ## Fill.PresetTextured method

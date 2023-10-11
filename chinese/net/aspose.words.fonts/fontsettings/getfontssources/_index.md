@@ -1,14 +1,14 @@
 ---
 title: FontSettings.GetFontsSources
 second_title: Aspose.Words for .NET API 参考
-description: FontSettings 方法. 获取数组的副本其中包含 Aspose.Words 查找 TrueType 字体的源列表
+description: FontSettings 方法. 获取包含 Aspose.Words 查找 TrueType 字体的源列表的数组的副本
 type: docs
 weight: 50
 url: /zh/net/aspose.words.fonts/fontsettings/getfontssources/
 ---
 ## FontSettings.GetFontsSources method
 
-获取数组的副本，其中包含 Aspose.Words 查找 TrueType 字体的源列表。
+获取包含 Aspose.Words 查找 TrueType 字体的源列表的数组的副本。
 
 ```csharp
 public FontSourceBase[] GetFontsSources()
@@ -20,7 +20,7 @@ public FontSourceBase[] GetFontsSources()
 
 ### 评论
 
-返回值是 Aspose.Words 使用的数据的副本。如果您更改返回数组中的 entries ，它将不会影响文档呈现。要指定新字体 sources 使用[`SetFontsSources`](../setfontssources/)方法。
+返回的值是 Aspose.Words 使用的数据的副本。如果更改返回数组中的entries ，则不会对文档渲染产生影响。要指定新字体sources ，请使用[`SetFontsSources`](../setfontssources/)方法。
 
 ### 例子
 
@@ -44,7 +44,7 @@ Assert.AreEqual(1, originalFontSources.Length);
 Assert.True(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arial"));
 
 // 默认字体源缺少我们在文档中使用的两种字体。
-// 当我们保存这个文档时，Aspose.Words 会将后备字体应用到所有使用不可访问字体格式化的文本。
+// 当我们保存此文档时，Aspose.Words 会将后备字体应用于所有使用不可访问字体格式化的文本。
 Assert.False(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Amethysta"));
 Assert.False(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Junction Light"));
 
@@ -55,7 +55,7 @@ FolderFontSource folderFontSource = new FolderFontSource(FontsDir, true);
 FontSourceBase[] updatedFontSources = {originalFontSources[0], folderFontSource};
 FontSettings.DefaultInstance.SetFontsSources(updatedFontSources);
 
-// 在我们将文档呈现为 PDF 之前，验证 Aspose.Words 是否可以访问所有必需的字体。
+// 在将文档渲染为 PDF 之前，验证 Aspose.Words 是否可以访问所有必需的字体。
 updatedFontSources = FontSettings.DefaultInstance.GetFontsSources();
 
 Assert.True(updatedFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arial"));

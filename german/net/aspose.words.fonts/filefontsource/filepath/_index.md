@@ -1,14 +1,14 @@
 ---
 title: FileFontSource.FilePath
 second_title: Aspose.Words für .NET-API-Referenz
-description: FileFontSource eigendom. Pfad zur Schriftdatei.
+description: FileFontSource eigendom. Pfad zur Schriftartdatei.
 type: docs
 weight: 30
 url: /de/net/aspose.words.fonts/filefontsource/filepath/
 ---
 ## FileFontSource.FilePath property
 
-Pfad zur Schriftdatei.
+Pfad zur Schriftartdatei.
 
 ```csharp
 public string FilePath { get; }
@@ -16,7 +16,7 @@ public string FilePath { get; }
 
 ### Beispiele
 
-Zeigt, wie eine Schriftartdatei im lokalen Dateisystem als Schriftartquelle verwendet wird.
+Zeigt, wie eine Schriftartendatei im lokalen Dateisystem als Schriftartenquelle verwendet wird.
 
 ```csharp
 FileFontSource fileFontSource = new FileFontSource(MyDir + "Alte DIN 1451 Mittelschrift.ttf", 0);

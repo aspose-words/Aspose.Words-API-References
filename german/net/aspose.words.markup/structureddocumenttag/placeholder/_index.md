@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTag.Placeholder
 second_title: Aspose.Words für .NET-API-Referenz
-description: StructuredDocumentTag eigendom. Ruft die abBuildingBlock Platzhaltertext enthält der angezeigt werden soll wenn der Inhalt dieses SDTLaufs leer ist das zugeordnete zugeordnete XMLElement leer ist wie über angegebenXmlMapping element oder dieIsShowingPlaceholderText Element ist wahr.
+description: StructuredDocumentTag eigendom. Ruft die abBuildingBlockenthält Platzhaltertext der angezeigt werden soll wenn der Inhalt dieses SDTLaufs leer ist das zugehörige zugeordnete XMLElement ist leer wie über angegebenXmlMapping element oder dieIsShowingPlaceholderText Element istWAHR .
 type: docs
 weight: 230
 url: /de/net/aspose.words.markup/structureddocumenttag/placeholder/
 ---
 ## StructuredDocumentTag.Placeholder property
 
-Ruft die ab[`BuildingBlock`](../../../aspose.words.buildingblocks/buildingblock/) Platzhaltertext enthält, der angezeigt werden soll, wenn der Inhalt dieses SDT-Laufs leer ist, das zugeordnete zugeordnete XML-Element leer ist, wie über angegeben[`XmlMapping`](../xmlmapping/) element oder die[`IsShowingPlaceholderText`](../isshowingplaceholdertext/) Element ist wahr.
+Ruft die ab[`BuildingBlock`](../../../aspose.words.buildingblocks/buildingblock/)enthält Platzhaltertext, der angezeigt werden soll, wenn der Inhalt dieses SDT-Laufs leer ist, das zugehörige zugeordnete XML-Element ist leer, wie über angegeben[`XmlMapping`](../xmlmapping/) element oder die[`IsShowingPlaceholderText`](../isshowingplaceholdertext/) Element ist`WAHR` .
 
 ```csharp
 public BuildingBlock Placeholder { get; }
@@ -16,7 +16,7 @@ public BuildingBlock Placeholder { get; }
 
 ### Bemerkungen
 
-Kann null sein, was bedeutet, dass der Platzhalter für diese Sdt nicht anwendbar ist.
+Kann sein`Null`, was bedeutet, dass der Platzhalter für diesen Sdt nicht anwendbar ist.
 
 ### Beispiele
 
@@ -25,12 +25,12 @@ Zeigt, wie der Inhalt eines Bausteins als benutzerdefinierter Platzhaltertext f�
 ```csharp
 Document doc = new Document();
 
-// Fügen Sie ein strukturiertes Klartext-Dokument-Tag des Typs "PlainText" ein, das als Textfeld fungiert.
-// Der Inhalt, der standardmäßig angezeigt wird, ist "Klicken Sie hier, um Text einzugeben." prompt.
+// Fügen Sie ein strukturiertes Nur-Text-Dokument-Tag vom Typ „PlainText“ ein, das als Textfeld fungiert.
+// Der Inhalt, der standardmäßig angezeigt wird, ist „Klicken Sie hier, um Text einzugeben.“ prompt.
 StructuredDocumentTag tag = new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Inline);
 
-// Wir können das Tag dazu bringen, den Inhalt eines Bausteins anstelle des Standardtexts anzuzeigen.
-// Zuerst einen Baustein mit Inhalt zum Glossardokument hinzufügen.
+// Wir können das Tag dazu bringen, den Inhalt eines Bausteins anstelle des Standardtextes anzuzeigen.
+// Fügen Sie zunächst einen Baustein mit Inhalt zum Glossardokument hinzu.
 GlossaryDocument glossaryDoc = doc.GlossaryDocument;
 
 BuildingBlock substituteBlock = new BuildingBlock(glossaryDoc);
@@ -44,14 +44,14 @@ glossaryDoc.AppendChild(substituteBlock);
 // Verwenden Sie dann die Eigenschaft „PlaceholderName“ des strukturierten Dokument-Tags, um diesen Baustein namentlich zu referenzieren.
 tag.PlaceholderName = "Custom Placeholder";
 
-// Wenn "PlaceholderName" auf einen vorhandenen Block im Glossardokument des übergeordneten Dokuments verweist,
-// Wir können den Baustein über die Eigenschaft "Platzhalter" überprüfen.
+// Wenn „PlaceholderName“ auf einen vorhandenen Block im Glossardokument des übergeordneten Dokuments verweist,
+// Wir können den Baustein über die Eigenschaft „Platzhalter“ überprüfen.
 Assert.AreEqual(substituteBlock, tag.Placeholder);
 
-// Setzen Sie die Eigenschaft "IsShowingPlaceholderText" auf "true", um die zu behandeln
-// Aktueller Inhalt des strukturierten Dokument-Tags als Platzhaltertext.
-// Das bedeutet, dass beim Klicken auf das Textfeld in Microsoft Word sofort der gesamte Inhalt des Tags hervorgehoben wird.
-// Setzen Sie die Eigenschaft "IsShowingPlaceholderText" auf "false", um die zu erhalten
+// Setzen Sie die Eigenschaft „IsShowingPlaceholderText“ auf „true“, um das zu behandeln
+// Strukturierter Dokument-Tag des aktuellen Inhalts als Platzhaltertext.
+// Das bedeutet, dass durch Klicken auf das Textfeld in Microsoft Word sofort der gesamte Inhalt des Tags hervorgehoben wird.
+// Setzen Sie die Eigenschaft „IsShowingPlaceholderText“ auf „false“, um die zu erhalten
 // strukturiertes Dokument-Tag, um seinen Inhalt als Text zu behandeln, den ein Benutzer bereits eingegeben hat.
 // Wenn Sie in Microsoft Word auf diesen Text klicken, wird der blinkende Cursor an der angeklickten Stelle platziert.
 tag.IsShowingPlaceholderText = isShowingPlaceholderText;

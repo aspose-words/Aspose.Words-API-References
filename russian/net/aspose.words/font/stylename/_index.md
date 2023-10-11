@@ -31,8 +31,8 @@ builder.Writeln("Text originally in \"Emphasis\" style");
 builder.Font.StyleIdentifier = StyleIdentifier.IntenseEmphasis;
 builder.Writeln("Text originally in \"Intense Emphasis\" style");
 
-// Преобразование всех использований одного стиля в другой,
-// используя вышеуказанные методы для ссылки на старый и новый стили.
+// Преобразуем все варианты использования одного стиля в другой,
+// использование вышеуказанных методов для ссылки на старые и новые стили.
 foreach (Run run in doc.GetChildNodes(NodeType.Run, true).OfType<Run>())
 {
     if (run.Font.StyleName == "Emphasis")

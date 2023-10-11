@@ -1,14 +1,14 @@
 ---
 title: SaveOptions.UpdateCreatedTimeProperty
 second_title: Aspose.Words für .NET-API-Referenz
-description: SaveOptions eigendom. Ruft einen Wert ab oder legt ihn fest der bestimmt ob dieCreatedTime Eigenschaft wird vor dem Speichern aktualisiert. Standardwert ist false
+description: SaveOptions eigendom. Ruft einen Wert ab oder legt ihn fest der bestimmt ob dieCreatedTime Die Eigenschaft wird vor dem Speichern aktualisiert. Der Standardwert istFALSCH 
 type: docs
-weight: 160
+weight: 150
 url: /de/net/aspose.words.saving/saveoptions/updatecreatedtimeproperty/
 ---
 ## SaveOptions.UpdateCreatedTimeProperty property
 
-Ruft einen Wert ab oder legt ihn fest, der bestimmt, ob die[`CreatedTime`](../../../aspose.words.properties/builtindocumentproperties/createdtime/) Eigenschaft wird vor dem Speichern aktualisiert. Standardwert ist false;
+Ruft einen Wert ab oder legt ihn fest, der bestimmt, ob die[`CreatedTime`](../../../aspose.words.properties/builtindocumentproperties/createdtime/) Die Eigenschaft wird vor dem Speichern aktualisiert. Der Standardwert ist`FALSCH` ;
 
 ```csharp
 public bool UpdateCreatedTimeProperty { get; set; }

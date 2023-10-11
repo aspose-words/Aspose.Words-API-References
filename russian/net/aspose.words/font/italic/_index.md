@@ -1,14 +1,14 @@
 ---
 title: Font.Italic
 second_title: Справочник по API Aspose.Words для .NET
-description: Font свойство. Истинно если шрифт отформатирован как курсив.
+description: Font свойство. True если шрифт отформатирован как курсив.
 type: docs
 weight: 160
 url: /ru/net/aspose.words/font/italic/
 ---
 ## Font.Italic property
 
-Истинно, если шрифт отформатирован как курсив.
+True, если шрифт отформатирован как курсив.
 
 ```csharp
 public bool Italic { get; set; }
@@ -16,7 +16,7 @@ public bool Italic { get; set; }
 
 ### Примеры
 
-Показывает, как написать выделенный курсивом текст с помощью конструктора документов.
+Показывает, как написать курсивный текст с помощью построителя документов.
 
 ```csharp
 Document doc = new Document();

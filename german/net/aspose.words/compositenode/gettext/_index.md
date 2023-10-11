@@ -1,14 +1,14 @@
 ---
 title: CompositeNode.GetText
 second_title: Aspose.Words für .NET-API-Referenz
-description: CompositeNode methode. Ruft den Text dieses Knotens und aller seiner Kinder ab.
+description: CompositeNode methode. Ruft den Text dieses Knotens und aller seiner untergeordneten Knoten ab.
 type: docs
-weight: 120
+weight: 130
 url: /de/net/aspose.words/compositenode/gettext/
 ---
 ## CompositeNode.GetText method
 
-Ruft den Text dieses Knotens und aller seiner Kinder ab.
+Ruft den Text dieses Knotens und aller seiner untergeordneten Knoten ab.
 
 ```csharp
 public override string GetText()
@@ -20,7 +20,7 @@ Die zurückgegebene Zeichenfolge enthält alle Steuer- und Sonderzeichen, wie in
 
 ### Beispiele
 
-Zeigt den Unterschied zwischen dem Aufrufen der Methoden GetText und ToString auf einem Knoten.
+Zeigt den Unterschied zwischen dem Aufruf der GetText- und ToString-Methoden auf einem Knoten.
 
 ```csharp
 Document doc = new Document();
@@ -35,7 +35,7 @@ Assert.AreEqual("\u0013MERGEFIELD Field\u0014«Field»\u0015\u000c", doc.GetText
 Assert.AreEqual("«Field»\r\n", doc.ToString(SaveFormat.Text));
 ```
 
-Zeigt, wie alle Absätze in einem Dokument ausgegeben werden, die Listenelemente sind.
+Zeigt, wie alle Absätze in einem Dokument ausgegeben werden, bei denen es sich um Listenelemente handelt.
 
 ```csharp
 Document doc = new Document();

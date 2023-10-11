@@ -3,12 +3,14 @@ title: Class WebExtensionReferenceCollection
 second_title: Aspose.Words for .NET API Referansı
 description: Aspose.Words.WebExtensions.WebExtensionReferenceCollection sınıf. Web uzantısı referanslarının listesini belirtir.
 type: docs
-weight: 6500
+weight: 6810
 url: /tr/net/aspose.words.webextensions/webextensionreferencecollection/
 ---
 ## WebExtensionReferenceCollection class
 
 Web uzantısı referanslarının listesini belirtir.
+
+Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Office Eklentileriyle Çalışma](https://docs.aspose.com/words/net/work-with-office-add-ins/) dokümantasyon makalesi.
 
 ```csharp
 public class WebExtensionReferenceCollection : BaseWebExtensionCollection<WebExtensionReference>

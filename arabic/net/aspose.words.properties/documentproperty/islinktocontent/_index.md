@@ -16,7 +16,7 @@ public bool IsLinkToContent { get; }
 
 ### أمثلة
 
-يوضح كيفية ربط خاصية مستند مخصصة بإشارة مرجعية.
+يوضح كيفية ربط خاصية مستند مخصص بإشارة مرجعية.
 
 ```csharp
 Document doc = new Document();
@@ -27,7 +27,7 @@ builder.Write("Hello world!");
 builder.EndBookmark("MyBookmark");
 
 // ربط خاصية مخصصة جديدة بإشارة مرجعية. قيمة هذا العقار
-// ستكون محتويات الإشارة المرجعية التي تشير إليها في عضو "LinkSource".
+// ستكون محتويات الإشارة المرجعية التي تشير إليها في العضو "LinkSource".
 CustomDocumentProperties customProperties = doc.CustomDocumentProperties;
 DocumentProperty customProperty = customProperties.AddLinkToContent("Bookmark", "MyBookmark");
 

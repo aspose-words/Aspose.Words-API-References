@@ -1,14 +1,14 @@
 ---
 title: Frameset.ChildFramesets
 second_title: Aspose.Words für .NET-API-Referenz
-description: Frameset eigendom. Ruft die Sammlung von untergeordneten Frames und Frameseiten ab.
+description: Frameset eigendom. Ruft die Sammlung untergeordneter Frames und FrameSeiten ab.
 type: docs
 weight: 20
 url: /de/net/aspose.words.framesets/frameset/childframesets/
 ---
 ## Frameset.ChildFramesets property
 
-Ruft die Sammlung von untergeordneten Frames und Frameseiten ab.
+Ruft die Sammlung untergeordneter Frames und Frame-Seiten ab.
 
 ```csharp
 public FramesetCollection ChildFramesets { get; }
@@ -16,13 +16,13 @@ public FramesetCollection ChildFramesets { get; }
 
 ### Beispiele
 
-Zeigt, wie auf Frames auf der Seite zugegriffen wird.
+Zeigt, wie man auf Frames auf der Seite zugreift.
 
 ```csharp
 // Dokument enthält mehrere Frames mit Links zu anderen Dokumenten.
 Document doc = new Document(MyDir + "Frameset.docx");
 
-// Wir können die Standard-URL (eine Webseiten-URL oder ein lokales Dokument) prüfen oder ob der Frame eine externe Ressource ist.
+// Wir können die Standard-URL (eine Webseiten-URL oder ein lokales Dokument) überprüfen oder ob der Frame eine externe Ressource ist.
 Assert.AreEqual("https://file-examples-com.github.io/uploads/2017/02/file-sample_100kB.docx",
     doc.Frameset.ChildFramesets[0].ChildFramesets[0].FrameDefaultUrl);
 Assert.True(doc.Frameset.ChildFramesets[0].ChildFramesets[0].IsFrameLinkToFile);

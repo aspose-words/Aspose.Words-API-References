@@ -16,10 +16,10 @@ public string FolderPath { get; }
 
 ### Örnekler
 
-Yazı tipi kaynağı olarak yazı tiplerini içeren bir yerel sistem klasörünün nasıl kullanılacağını gösterir.
+Yazı tipi kaynağı olarak yazı tiplerini içeren yerel sistem klasörünün nasıl kullanılacağını gösterir.
 
 ```csharp
-// Font dosyalarını içeren bir klasörden bir font kaynağı oluşturun.
+// Yazı tipi dosyalarını içeren bir klasörden yazı tipi kaynağı oluşturun.
 FolderFontSource folderFontSource = new FolderFontSource(FontsDir, false, 1);
 
 Document doc = new Document();

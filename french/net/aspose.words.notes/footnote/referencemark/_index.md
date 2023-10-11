@@ -16,9 +16,9 @@ public string ReferenceMark { get; set; }
 
 ### Remarques
 
-Si cette propriété est définie sur **chaîne vide** (Empty ) ou nul, alors[`IsAuto`](../isauto/) la propriété sera automatiquement définie sur true, si elle est définie sur autre chose, alors[`IsAuto`](../isauto/) sera défini sur false.
+Si cette propriété est définie sur **chaîne vide** (Empty ) ou`nul` , alors[`IsAuto`](../isauto/) la propriété sera automatiquement définie sur`vrai` , si défini sur autre chose alors[`IsAuto`](../isauto/) sera réglé sur`FAUX` .
 
-Le format RTF ne peut stocker qu'un seul symbole en tant que marque de référence personnalisée. Ainsi, lors de l'exportation, seul le premier symbole sera écrit, les autres seront supprimés.
+Le format RTF ne peut stocker qu'un seul symbole comme marque de référence personnalisée, donc lors de l'exportation, seul le premier symbole sera écrit, les autres seront supprimés.
 
 ### Exemples
 
@@ -29,18 +29,18 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Ajoutez du texte et référencez-le avec une note de bas de page. Cette note de bas de page placera une petite référence en exposant
-// marquer après le texte auquel il fait référence et créer une entrée sous le corps du texte principal au bas de la page.
+// marque après le texte auquel il fait référence et crée une entrée sous le corps du texte principal en bas de la page.
 // Cette entrée contiendra la marque de référence de la note de bas de page et le texte de référence,
-// que nous transmettrons à la méthode "InsertFootnote" du générateur de document.
+// que nous transmettrons à la méthode "InsertFootnote" du générateur de documents.
 builder.Write("Main body text.");
 Footnote footnote = builder.InsertFootnote(FootnoteType.Footnote, "Footnote text.");
 
-// Si cette propriété vaut "true", alors le repère de notre note de bas de page
+// Si cette propriété est définie sur "true", alors la marque de référence de notre note de bas de page
 // sera son index parmi toutes les notes de bas de page de la section.
 // Ceci est la première note de bas de page, donc la marque de référence sera "1".
 Assert.True(footnote.IsAuto);
 
-// Nous pouvons déplacer le générateur de document à l'intérieur de la note de bas de page pour modifier son texte de référence. 
+ // Nous pouvons déplacer le générateur de document à l'intérieur de la note de bas de page pour modifier son texte de référence.
 builder.MoveTo(footnote.FirstParagraph);
 builder.Write(" More text added by a DocumentBuilder.");
 builder.MoveToDocumentEnd();
@@ -55,7 +55,7 @@ footnote.ReferenceMark = "RefMark";
 
 Assert.False(footnote.IsAuto);
 
-// Un signet avec le drapeau "IsAuto" défini sur true affichera toujours son index réel
+// Un signet avec l'indicateur "IsAuto" défini sur true affichera toujours son véritable index
 // même si les signets précédents affichent des marques de référence personnalisées, la marque de référence de ce signet sera donc un "3".
 builder.Write(" More main body text.");
 footnote = builder.InsertFootnote(FootnoteType.Footnote, "Footnote text.");

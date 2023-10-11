@@ -1,14 +1,14 @@
 ---
 title: DocumentProperty.ToDateTime
 second_title: Referencia de API de Aspose.Words para .NET
-description: DocumentProperty método. Devuelve el valor de la propiedad como DateTime en UTC.
+description: DocumentProperty método. Devuelve el valor de la propiedad como Fecha y hora en UTC.
 type: docs
 weight: 80
 url: /es/net/aspose.words.properties/documentproperty/todatetime/
 ---
 ## DocumentProperty.ToDateTime method
 
-Devuelve el valor de la propiedad como DateTime en UTC.
+Devuelve el valor de la propiedad como **Fecha y hora** en UTC.
 
 ```csharp
 public DateTime ToDateTime()
@@ -18,11 +18,11 @@ public DateTime ToDateTime()
 
 Lanza una excepción si el tipo de propiedad no esDateTime.
 
-Microsoft Word almacena solo la parte de la fecha (sin tiempo) para las propiedades de fecha personalizadas.
+Microsoft Word almacena sólo la parte de la fecha (sin la hora) para las propiedades de fecha personalizadas.
 
 ### Ejemplos
 
-Muestra cómo crear una propiedad de documento personalizada que contiene una fecha y una hora.
+Muestra cómo crear una propiedad de documento personalizada que contiene una fecha y hora.
 
 ```csharp
 Document doc = new Document();

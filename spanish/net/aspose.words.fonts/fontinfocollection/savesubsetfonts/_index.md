@@ -1,16 +1,16 @@
 ---
 title: FontInfoCollection.SaveSubsetFonts
 second_title: Referencia de API de Aspose.Words para .NET
-description: FontInfoCollection propiedad. Especifica si guardar o no un subconjunto de las fuentes TrueType incrustadas con el documento. El valor predeterminado para esta propiedad es falso.
+description: FontInfoCollection propiedad. Especifica si se guarda o no un subconjunto de las fuentes TrueType incrustadas con el documento. El valor predeterminado para esta propiedad esFALSO.
 type: docs
 weight: 50
 url: /es/net/aspose.words.fonts/fontinfocollection/savesubsetfonts/
 ---
 ## FontInfoCollection.SaveSubsetFonts property
 
-Especifica si guardar o no un subconjunto de las fuentes TrueType incrustadas con el documento. El valor predeterminado para esta propiedad es **falso**.
+Especifica si se guarda o no un subconjunto de las fuentes TrueType incrustadas con el documento. El valor predeterminado para esta propiedad es`FALSO`.
 
-Esta opción solo funciona cuando[`EmbedTrueTypeFonts`](../embedtruetypefonts/) la propiedad se establece en **verdadero**.
+Esta opción funciona sólo cuando[`EmbedTrueTypeFonts`](../embedtruetypefonts/) la propiedad está establecida en`verdadero`.
 
 ```csharp
 public bool SaveSubsetFonts { get; set; }

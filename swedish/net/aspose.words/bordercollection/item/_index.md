@@ -1,14 +1,14 @@
 ---
 title: BorderCollection.Item
 second_title: Aspose.Words för .NET API Referens
-description: BorderCollection fast egendom. Hämtar ett kantobjekt efter kanttyp.
+description: BorderCollection fast egendom. Hämtar enBorder objekt efter kanttyp.
 type: docs
 weight: 60
 url: /sv/net/aspose.words/bordercollection/item/
 ---
 ## BorderCollection indexer (1 of 2)
 
-Hämtar ett kantobjekt efter kanttyp.
+Hämtar en[`Border`](../../border/) objekt efter kanttyp.
 
 ```csharp
 public Border this[BorderType borderType] { get; }
@@ -58,7 +58,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.ApplyBordersAndShading.docx");
 
 ## BorderCollection indexer (2 of 2)
 
-Hämtar ett kantobjekt med index.
+Hämtar en[`Border`](../../border/) objekt efter index.
 
 ```csharp
 public Border this[int index] { get; }
@@ -83,7 +83,6 @@ builder.Write("Paragraph 2.");
 // dessa stycken, deras gränssamlingar delar samma element.
 BorderCollection firstParagraphBorders = doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Borders;
 BorderCollection secondParagraphBorders = builder.CurrentParagraph.ParagraphFormat.Borders;
-
 for (int i = 0; i < firstParagraphBorders.Count; i++)
 {
     Assert.IsTrue(firstParagraphBorders[i].Equals(secondParagraphBorders[i]));

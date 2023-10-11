@@ -1,14 +1,16 @@
 ---
 title: Class Field
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Fields.Field فصل. يمثل حقل مستند Microsoft Word .
+description: Aspose.Words.Fields.Field فصل. يمثل حقل مستند Microsoft Word.
 type: docs
-weight: 1360
+weight: 1510
 url: /ar/net/aspose.words.fields/field/
 ---
 ## Field class
 
-يمثل حقل مستند Microsoft Word .
+يمثل حقل مستند Microsoft Word.
+
+لمعرفة المزيد، قم بزيارة[العمل مع الحقول](https://docs.aspose.com/words/net/working-with-fields/) مقالة توثيقية.
 
 ```csharp
 public class Field
@@ -18,45 +20,45 @@ public class Field
 
 | اسم | وصف |
 | --- | --- |
-| [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | يحصل على النص الذي يمثل نتيجة الحقل المعروض. |
+| [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | الحصول على النص الذي يمثل نتيجة الحقل المعروض. |
 | [End](../../aspose.words.fields/field/end/) { get; } | يحصل على العقدة التي تمثل نهاية الحقل. |
-| [Format](../../aspose.words.fields/field/format/) { get; } | يحصل على أ[`FieldFormat`](../fieldformat/) كائن يوفر وصولاً مكتوبًا إلى تنسيق الحقل. |
-| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | الحصول على أو تحديد ما إذا كانت النتيجة الحالية للحقل لم تعد صحيحة (قديمة) بسبب التعديلات الأخرى التي تم إجراؤها على المستند. |
-| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | تحديد ما إذا كان الحقل مغلقًا أم لا (يجب عدم إعادة حساب النتيجة). |
-| [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | الحصول على أو تحديد LCID للحقل. |
+| [Format](../../aspose.words.fields/field/format/) { get; } | يحصل على[`FieldFormat`](../fieldformat/) الكائن الذي يوفر الوصول المكتوب إلى تنسيق الحقل. |
+| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | الحصول على أو تعيين ما إذا كانت النتيجة الحالية للحقل لم تعد صحيحة (قديمة) بسبب تعديلات أخرى تم إجراؤها على المستند. |
+| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | الحصول على أو تعيين ما إذا كان الحقل مقفلاً (لا ينبغي إعادة حساب النتيجة). |
+| [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | الحصول على أو تعيين LCID الخاص بالحقل. |
 | [Result](../../aspose.words.fields/field/result/) { get; set; } | الحصول على أو تعيين النص الموجود بين فاصل الحقل ونهاية الحقل. |
-| [Separator](../../aspose.words.fields/field/separator/) { get; } | يحصل على العقدة التي تمثل فاصل المجال. يمكن أن يكون فارغًا. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | يحصل على العقدة التي تمثل فاصل الحقول. يمكن ان يكون`باطل` . |
 | [Start](../../aspose.words.fields/field/start/) { get; } | يحصل على العقدة التي تمثل بداية الحقل. |
-| virtual [Type](../../aspose.words.fields/field/type/) { get; } | يحصل على نوع حقل Microsoft Word . |
+| virtual [Type](../../aspose.words.fields/field/type/) { get; } | الحصول على نوع حقل Microsoft Word. |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/#getfieldcode)() | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل) . يتم تضمين كل من رمز الحقل ونتيجة الحقل للحقول الفرعية. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/#getfieldcode_1)(bool) | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل) . |
-| [Remove](../../aspose.words.fields/field/remove/)() | يزيل الحقل من المستند. إرجاع عقدة بعد الحقل مباشرة. إذا كانت نهاية الحقل هي آخر child من العقدة الأصلية ، يتم إرجاع فقرته الأصلية. إذا تمت إزالة الحقل بالفعل ، يعود **لا شيء** . |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/#getfieldcode)() | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل). يتم تضمين كل من رمز الحقل ونتيجة الحقل للحقول الفرعية. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/#getfieldcode_1)(bool) | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل). |
+| [Remove](../../aspose.words.fields/field/remove/)() | إزالة الحقل من المستند. إرجاع عقدة مباشرة بعد الحقل. إذا كانت نهاية الحقل هي الطفل الأخير للعقدة الأصلية، فسيتم إرجاع الفقرة الأصلية الخاصة به. إذا تمت إزالة الحقل بالفعل، فسيتم إرجاعه`باطل` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | يقوم بإلغاء ربط الحقل. |
-| [Update](../../aspose.words.fields/field/update/#update)() | يقوم بالتحديث الميداني. يرمي إذا تم تحديث الحقل بالفعل. |
-| [Update](../../aspose.words.fields/field/update/#update_1)(bool) | يقوم بإجراء تحديث ميداني. يرمي إذا تم تحديث الحقل بالفعل. |
+| [Update](../../aspose.words.fields/field/update/#update)() | يقوم بإجراء التحديث الميداني. يتم الرمي إذا تم تحديث الحقل بالفعل. |
+| [Update](../../aspose.words.fields/field/update/#update_1)(bool) | إجراء تحديث ميداني. يتم الرمي إذا تم تحديث الحقل بالفعل. |
 
 ### ملاحظات
 
-إن الحقل في مستند Word عبارة عن بنية معقدة تتكون من عقد متعددة تتضمن بداية الحقل ، وكود الحقل ، وفاصل الحقل ، ونتيجة الحقل ونهاية الحقل. يمكن أن تكون الحقول متداخلة ، وتحتوي على محتوى غني وامتداد عدة فقرات أو أقسام في المستند. ال`Field`الفئة هي كائن "واجهة" يوفر خصائص وطرق تسمح بالعمل مع حقل ككائن واحد.
+الحقل في مستند Word عبارة عن بنية معقدة تتكون من عقد متعددة تتضمن بداية الحقل ورمز الحقل وفاصل الحقل ونتيجة الحقل ونهاية الحقل. يمكن أن تكون الحقول متداخلة، وتحتوي على محتوى غني وتمتد إلى فقرات أو أقسام متعددة في المستند. ال`Field` الفئة هي كائن "واجهة" يوفر خصائص وأساليب تسمح بالعمل مع الحقل ككائن واحد.
 
-ال[`Start`](./start/) و[`Separator`](./separator/) و[`End`](./end/) تشير الخصائص إلى بداية الحقل والفاصل ونهاية الحقل على التوالي.
+ال[`Start`](./start/) ,[`Separator`](./separator/) و[`End`](./end/) تشير الخصائص إلى بداية الحقل والعقد الفاصلة والنهاية للحقل على التوالي.
 
-المحتوى بين بداية الحقل والفاصل هو رمز الحقل. المحتوى بين فاصل الحقل ونهاية الحقل هو نتيجة الحقل. يتكون رمز الحقل عادةً من واحد أو أكثر [`Run`](../../aspose.words/run/) الكائنات التي تحدد التعليمات. من المتوقع أن يقوم تطبيق المعالجة بتنفيذ كود الحقل لحساب نتيجة الحقل.
+المحتوى بين بداية الحقل والفاصل هو رمز الحقل. المحتوى بين فاصل الحقل ونهاية الحقل هو نتيجة الحقل. يتكون رمز الحقل عادةً من واحد أو أكثر [`Run`](../../aspose.words/run/) الكائنات التي تحدد التعليمات. من المتوقع أن يقوم تطبيق المعالجة بتنفيذ رمز الحقل لحساب نتيجة الحقل.
 
-تسمى عملية حساب النتائج الميدانية التحديث الميداني. يمكن لـ Aspose.Words تحديث نتائج field لمعظم أنواع الحقول بنفس الطريقة تمامًا التي يقوم بها Microsoft Word. والأهم من ذلك ، Aspose. يمكن للكلمات حساب نتائج حتى أكثر حقول الصيغة تعقيدًا. لحساب نتيجة field لحقل واحد ، استخدم ملف[`Update`](./update/) طريقة. لتحديث الحقول في document بالكامل استخدم[`UpdateFields`](../../aspose.words/document/updatefields/).
+تسمى عملية حساب النتائج الميدانية بالتحديث الميداني. يمكن لـ Aspose.Words تحديث نتائج field لمعظم أنواع الحقول بنفس الطريقة التي يقوم بها Microsoft Word. وأبرزها، Aspose.Words يمكنه حساب نتائج حتى حقول الصيغة الأكثر تعقيدًا. لحساب نتيجة field لحقل واحد استخدم[`Update`](./update/) طريقة. لتحديث الحقول في استخدام document بأكمله[`UpdateFields`](../../aspose.words/document/updatefields/).
 
-يمكنك الحصول على إصدار النص العادي لرمز الحقل باستخدام امتداد[`GetFieldCode`](./getfieldcode/) method. يمكنك الحصول على إصدار النص العادي لنتيجة الحقل وتعيينه باستخدام ملحق[`Result`](./result/) property. يمكن أن يحتوي كل من رمز الحقل ونتيجة الحقل على محتوى معقد ، مثل الحقول المتداخلة والفقرات والأشكال والجداول وفي هذه الحالة قد ترغب في العمل مع عقد الحقول مباشرةً إذا كنت بحاجة إلى مزيد من التحكم.
+يمكنك الحصول على نسخة النص العادي من رمز الحقل باستخدام[`GetFieldCode`](./getfieldcode/) الطريقة. يمكنك الحصول على إصدار النص العادي لنتيجة الحقل وتعيينه باستخدام[`Result`](./result/) property. يمكن أن يحتوي كل من رمز الحقل ونتيجة الحقل على محتوى معقد، مثل الحقول المتداخلة والفقرات والأشكال وجداول وفي هذه الحالة قد ترغب في العمل مع عقد الحقل مباشرة إذا كنت بحاجة إلى مزيد من التحكم.
 
-لا تقوم بإنشاء مثيلات من`Field` class مباشرة. لإنشاء حقل جديد استخدم[`InsertField`](../../aspose.words/documentbuilder/insertfield/) طريقة.
+لا تقم بإنشاء مثيلات لـ`Field` class مباشرة. لإنشاء حقل جديد استخدم[`InsertField`](../../aspose.words/documentbuilder/insertfield/) طريقة.
 
 ### أمثلة
 
-يوضح كيفية إدراج حقل في مستند باستخدام رمز حقل.
+يوضح كيفية إدراج حقل في مستند باستخدام رمز الحقل.
 
 ```csharp
 Document doc = new Document();

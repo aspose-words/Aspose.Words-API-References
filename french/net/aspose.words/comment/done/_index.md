@@ -1,14 +1,14 @@
 ---
 title: Comment.Done
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Comment propriété. Obtient ou définit un indicateur indiquant que le commentaire a été marqué comme terminé.
+description: Comment propriété. Obtient ou définit lindicateur indiquant que le commentaire a été marqué comme terminé.
 type: docs
 weight: 50
 url: /fr/net/aspose.words/comment/done/
 ---
 ## Comment.Done property
 
-Obtient ou définit un indicateur indiquant que le commentaire a été marqué comme terminé.
+Obtient ou définit l'indicateur indiquant que le commentaire a été marqué comme terminé.
 
 ```csharp
 public bool Done { get; set; }
@@ -16,28 +16,28 @@ public bool Done { get; set; }
 
 ### Exemples
 
-Montre comment marquer un commentaire comme "terminé".
+Montre comment marquer un commentaire comme « terminé ».
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Helo world!");
 
-// Insère un commentaire pour signaler une erreur. 
+ // Insère un commentaire pour signaler une erreur.
 Comment comment = new Comment(doc, "John Doe", "J.D.", DateTime.Now);
 comment.SetText("Fix the spelling error!");
 doc.FirstSection.Body.FirstParagraph.AppendChild(comment);
 
-// Les commentaires ont un indicateur "Done", qui est défini sur "false" par défaut. 
-// Si un commentaire suggère que nous fassions un changement dans le document,
-// nous pouvons appliquer la modification, puis définir ensuite le drapeau "Done" pour indiquer la correction.
+ // Les commentaires ont un indicateur "Terminé", qui est défini sur "false" par défaut.
+// Si un commentaire nous suggère d'effectuer une modification au sein du document,
+// nous pouvons appliquer la modification, puis également définir le drapeau "Terminé" par la suite pour indiquer la correction.
 Assert.False(comment.Done);
 
 doc.FirstSection.Body.FirstParagraph.Runs[0].Text = "Hello world!";
 comment.Done = true;
 
-// Les commentaires "faits" se différencieront
-// de ceux qui ne sont pas "terminés" avec une couleur de texte fanée.
+// Les commentaires "terminés" se différencieront
+// parmi ceux qui ne sont pas "finis" avec une couleur de texte délavée.
 comment = new Comment(doc, "John Doe", "J.D.", DateTime.Now);
 comment.SetText("Add text to this paragraph.");
 builder.CurrentParagraph.AppendChild(comment);
@@ -76,13 +76,13 @@ public void CreateCommentsAndPrintAllInfo()
 }
 
 /// <summary>
-/// Itère sur chaque commentaire de niveau supérieur et imprime sa plage de commentaires, son contenu et ses réponses.
+/// Parcourt chaque commentaire de niveau supérieur et imprime sa plage de commentaires, son contenu et ses réponses.
 /// </summary>
 private static void PrintAllCommentInfo(NodeCollection comments)
 {
     CommentInfoPrinter commentVisitor = new CommentInfoPrinter();
 
-    // Itération sur tous les commentaires de niveau supérieur. Contrairement aux commentaires de type réponse, les commentaires de niveau supérieur n'ont pas d'ancêtre.
+    // Parcourez tous les commentaires de niveau supérieur. Contrairement aux commentaires de type réponse, les commentaires de niveau supérieur n'ont pas d'ancêtre.
     foreach (Comment comment in comments.Where(c => ((Comment)c).Ancestor == null))
     {
         // Tout d'abord, visitez le début de la plage de commentaires.
@@ -115,7 +115,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Obtient le texte brut du document qui a été accumulé par le visiteur.
+    /// Obtient le texte brut du document accumulé par le visiteur.
     /// </summary>
     public string GetText()
     {
@@ -123,7 +123,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Appelé lorsqu'un noeud Run est rencontré dans le document.
+    /// Appelé lorsqu'un nœud Run est rencontré dans le document.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -184,7 +184,7 @@ public class CommentInfoPrinter : DocumentVisitor
     /// <summary>
     /// Ajoutez une ligne au StringBuilder et indentez-la en fonction de la profondeur du visiteur dans l'arborescence du document.
     /// </summary>
-    /// <nom du paramètre="texte"></param>
+    /// <param name="text"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++)

@@ -1,14 +1,14 @@
 ---
 title: BorderCollection.Item
 second_title: Aspose.Words für .NET-API-Referenz
-description: BorderCollection eigendom. Ruft ein Rahmenobjekt nach Rahmentyp ab.
+description: BorderCollection eigendom. Ruft a abBorder Objekt nach Rahmentyp.
 type: docs
 weight: 60
 url: /de/net/aspose.words/bordercollection/item/
 ---
 ## BorderCollection indexer (1 of 2)
 
-Ruft ein Rahmenobjekt nach Rahmentyp ab.
+Ruft a ab[`Border`](../../border/) Objekt nach Rahmentyp.
 
 ```csharp
 public Border this[BorderType borderType] { get; }
@@ -16,15 +16,15 @@ public Border this[BorderType borderType] { get; }
 
 | Parameter | Beschreibung |
 | --- | --- |
-| borderType | EIN[`BorderType`](../../bordertype/) value , der den Typ des abzurufenden Rahmens angibt. |
+| borderType | A[`BorderType`](../../bordertype/) value , der den Typ des abzurufenden Rahmens angibt. |
 
 ### Bemerkungen
 
-Beachten Sie, dass nicht alle Rahmen für verschiedene Dokumentelemente vorhanden sind. Diese Methode löst eine Ausnahme aus, wenn Sie einen Rahmen anfordern, der für das aktuelle Objekt nicht anwendbar ist.
+Beachten Sie, dass nicht alle Rahmen für verschiedene Dokumentelemente vorhanden sind. Diese Methode löst eine Ausnahme aus, wenn Sie einen Rahmen anfordern, der nicht auf das aktuelle Objekt anwendbar ist.
 
 ### Beispiele
 
-Zeigt, wie Text mit Rändern und Schattierungen verziert wird.
+Zeigt, wie Text mit Rändern und Schattierungen dekoriert wird.
 
 ```csharp
 Document doc = new Document();
@@ -58,7 +58,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.ApplyBordersAndShading.docx");
 
 ## BorderCollection indexer (2 of 2)
 
-Ruft ein Border-Objekt nach Index ab.
+Ruft a ab[`Border`](../../border/) Objekt nach index.
 
 ```csharp
 public Border this[int index] { get; }
@@ -66,7 +66,7 @@ public Border this[int index] { get; }
 
 | Parameter | Beschreibung |
 | --- | --- |
-| index | Nullbasierter Index der abzurufenden Grenze. |
+| index | Nullbasierter Index des abzurufenden Rahmens. |
 
 ### Beispiele
 
@@ -79,11 +79,10 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Paragraph 1.");
 builder.Write("Paragraph 2.");
 
-// Da wir beim Erstellen dieselbe Randkonfiguration verwendet haben
-// Diese Absätze und ihre Randsammlungen teilen dieselben Elemente.
+// Da wir beim Erstellen dieselbe Rahmenkonfiguration verwendet haben
+// Diese Absätze und ihre Randsammlungen haben dieselben Elemente.
 BorderCollection firstParagraphBorders = doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Borders;
 BorderCollection secondParagraphBorders = builder.CurrentParagraph.ParagraphFormat.Borders;
-
 for (int i = 0; i < firstParagraphBorders.Count; i++)
 {
     Assert.IsTrue(firstParagraphBorders[i].Equals(secondParagraphBorders[i]));
@@ -94,14 +93,14 @@ for (int i = 0; i < firstParagraphBorders.Count; i++)
 foreach (Border border in secondParagraphBorders)
     border.LineStyle = LineStyle.DotDash;
 
-// Nachdem Sie den Linienstil der Rahmen nur im zweiten Absatz geändert haben,
-// Die Randsammlungen haben nicht mehr die gleichen Elemente.
+// Nachdem der Linienstil der Ränder nur im zweiten Absatz geändert wurde,
+// Die Border-Sammlungen teilen nicht mehr dieselben Elemente.
 for (int i = 0; i < firstParagraphBorders.Count; i++)
 {
     Assert.IsFalse(firstParagraphBorders[i].Equals(secondParagraphBorders[i]));
     Assert.AreNotEqual(firstParagraphBorders[i].GetHashCode(), secondParagraphBorders[i].GetHashCode());
 
-    // Das Ändern des Aussehens eines leeren Rahmens macht ihn sichtbar.
+    // Durch Ändern des Erscheinungsbilds eines leeren Rahmens wird dieser sichtbar.
     Assert.True(secondParagraphBorders[i].IsVisible);
 }
 

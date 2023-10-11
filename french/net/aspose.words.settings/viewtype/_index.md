@@ -3,7 +3,7 @@ title: Enum ViewType
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Aspose.Words.Settings.ViewType énumération. Valeurs possibles pour le mode daffichage dans Microsoft Word.
 type: docs
-weight: 5660
+weight: 5960
 url: /fr/net/aspose.words.settings/viewtype/
 ---
 ## ViewType enumeration
@@ -21,8 +21,8 @@ public enum ViewType
 | None | `0` | Le document doit être rendu dans la vue par défaut de l'application. |
 | Reading | `0` | Le document doit être rendu dans la vue par défaut de l'application. |
 | PageLayout | `1` | Le document doit être ouvert dans une vue qui affiche le document tel qu'il sera imprimé. |
-| Outline | `3` | Le document doit être rendu dans une vue optimisée pour le contour ou la création de longs documents. |
-| Normal | `4` | Le document doit être rendu dans une vue optimisée pour le contour ou la création de longs documents. |
+| Outline | `3` | Le document doit être rendu dans une vue optimisée pour la présentation ou la création de documents longs. |
+| Normal | `4` | Le document doit être rendu dans une vue optimisée pour la présentation ou la création de documents longs. |
 | Web | `5` | Le document doit être rendu dans une vue imitant la façon dont ce document serait affiché dans une page Web. |
 
 ### Exemples

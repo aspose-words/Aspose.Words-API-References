@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.ApplyBreakingRules
 second_title: Aspose.Words for .NET API 参考
-description: CompatibilityOptions 财产. 使用传统的埃塞俄比亚语和阿姆哈拉语换行规则
+description: CompatibilityOptions 财产. 使用旧版埃塞俄比亚语和阿姆哈拉语断线规则
 type: docs
 weight: 40
 url: /zh/net/aspose.words.settings/compatibilityoptions/applybreakingrules/
 ---
 ## CompatibilityOptions.ApplyBreakingRules property
 
-使用传统的埃塞俄比亚语和阿姆哈拉语换行规则。
+使用旧版埃塞俄比亚语和阿姆哈拉语断线规则。
 
 ```csharp
 public bool ApplyBreakingRules { get; set; }

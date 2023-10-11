@@ -3,7 +3,7 @@ title: Section.AppendContent
 second_title: Referencia de API de Aspose.Words para .NET
 description: Section método. Inserta una copia del contenido de la sección fuente al final de esta sección.
 type: docs
-weight: 80
+weight: 100
 url: /es/net/aspose.words/section/appendcontent/
 ---
 ## Section.AppendContent method
@@ -20,11 +20,11 @@ public void AppendContent(Section sourceSection)
 
 ### Observaciones
 
-Solo contenido de[`Body`](../body/) de la sección de origen se copia, configuración de página, encabezados y pies de página no se copian.
+Sólo contenido de[`Body`](../body/) de la sección de origen se copia, la configuración de página, los encabezados y pies de página no se copian.
 
-Los nodos se importan automáticamente si la sección de origen pertenece a un documento diferente.
+Los nodos se importan automáticamente si la sección fuente pertenece a un documento diferente.
 
-No se crea ninguna nueva sección en el documento de destino.
+No se crea ninguna sección nueva en el documento de destino.
 
 ### Ejemplos
 

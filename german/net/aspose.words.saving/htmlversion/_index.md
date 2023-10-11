@@ -3,7 +3,7 @@ title: Enum HtmlVersion
 second_title: Aspose.Words für .NET-API-Referenz
 description: Aspose.Words.Saving.HtmlVersion opsomming. Gibt die HTMLVersion an die beim Speichern des Dokuments verwendet wirdHtml und Mhtml Formate.
 type: docs
-weight: 4860
+weight: 5120
 url: /de/net/aspose.words.saving/htmlversion/
 ---
 ## HtmlVersion enumeration
@@ -18,8 +18,8 @@ public enum HtmlVersion
 
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
-| Xhtml | `0` | Speichert das Dokument in Übereinstimmung mit dem XHTML 1.0 Transitional Standard. |
-| Html5 | `1` | Speichert das Dokument gemäß dem HTML 5-Standard. |
+| Xhtml | `0` | Speichert das Dokument in Übereinstimmung mit dem XHTML 1.0 Transitional-Standard. |
+| Html5 | `1` | Speichert das Dokument in Übereinstimmung mit dem HTML 5-Standard. |
 
 ### Beispiele
 
@@ -40,7 +40,7 @@ HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.Html)
 
 doc.Save(ArtifactsDir + "HtmlSaveOptions.ExportXhtmlTransitional.html", options);
 
-// Unser Dokument enthält nur dann eine DOCTYPE-Deklarationsüberschrift, wenn wir das Flag "ExportXhtmlTransitional" auf "true" gesetzt haben.
+// Unser Dokument enthält nur dann eine DOCTYPE-Deklarationsüberschrift, wenn wir das Flag „ExportXhtmlTransitional“ auf „true“ gesetzt haben.
 string outDocContents = File.ReadAllText(ArtifactsDir + "HtmlSaveOptions.ExportXhtmlTransitional.html");
 
 if (showDoctypeDeclaration)
@@ -65,7 +65,7 @@ HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.Html)
 
 doc.Save(ArtifactsDir + "HtmlSaveOptions.HtmlVersions.html", options);
 
-// Unsere HTML-Dokumente werden geringfügige Unterschiede aufweisen, um mit verschiedenen HTML-Versionen kompatibel zu sein.
+// Unsere HTML-Dokumente weisen geringfügige Unterschiede auf, um mit verschiedenen HTML-Versionen kompatibel zu sein.
 string outDocContents = File.ReadAllText(ArtifactsDir + "HtmlSaveOptions.HtmlVersions.html");
 
 switch (htmlVersion)

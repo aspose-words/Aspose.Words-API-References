@@ -1,14 +1,14 @@
 ---
 title: CompareOptions.Granularity
 second_title: Справочник по API Aspose.Words для .NET
-description: CompareOptions свойство. Указывает отслеживаются ли изменения по символам или по словам. Значение по умолчаниюWordLevel .
+description: CompareOptions свойство. Указывает отслеживаются ли изменения посимвольно или пословно. Значение по умолчаниюWordLevel .
 type: docs
-weight: 20
+weight: 30
 url: /ru/net/aspose.words.comparing/compareoptions/granularity/
 ---
 ## CompareOptions.Granularity property
 
-Указывает, отслеживаются ли изменения по символам или по словам. Значение по умолчанию:WordLevel .
+Указывает, отслеживаются ли изменения посимвольно или пословно. Значение по умолчанию:WordLevel .
 
 ```csharp
 public Granularity Granularity { get; set; }
@@ -27,8 +27,8 @@ Document docB = new Document();
 DocumentBuilder builderB = new DocumentBuilder(docB);
 builderB.Writeln("Lorems ipsum dolor sit amet consectetur - \"adipiscing\" elit");
 
-// Указываем, отслеживаются ли изменения
-// по символу ('Granularity.CharLevel') или по слову ('Granularity.WordLevel').
+// Укажите, отслеживаются ли изменения
+// по символу («Granularity.CharLevel») или по слову («Granularity.WordLevel»).
 Aspose.Words.Comparing.CompareOptions compareOptions = new Aspose.Words.Comparing.CompareOptions();
 compareOptions.Granularity = granularity;
 

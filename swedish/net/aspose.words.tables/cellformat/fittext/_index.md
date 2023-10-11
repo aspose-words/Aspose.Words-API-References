@@ -1,14 +1,14 @@
 ---
 title: CellFormat.FitText
 second_title: Aspose.Words för .NET API Referens
-description: CellFormat fast egendom. Om sant passar text i cellen och komprimerar varje stycke till cellens bredd.
+description: CellFormat fast egendom. OmSann  passar text i cellen komprimerar varje stycke till cellens bredd.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.tables/cellformat/fittext/
 ---
 ## CellFormat.FitText property
 
-Om sant, passar text i cellen och komprimerar varje stycke till cellens bredd.
+Om`Sann` , passar text i cellen, komprimerar varje stycke till cellens bredd.
 
 ```csharp
 public bool FitText { get; set; }

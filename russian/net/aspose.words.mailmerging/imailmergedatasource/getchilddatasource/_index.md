@@ -1,14 +1,14 @@
 ---
 title: IMailMergeDataSource.GetChildDataSource
 second_title: Справочник по API Aspose.Words для .NET
-description: IMailMergeDataSource метод. Механизм слияния Aspose.Words вызывает этот метод когда обнаруживает начало вложенной области слияния.
+description: IMailMergeDataSource метод. Механизм слияния почты Aspose.Words вызывает этот метод когда обнаруживает начало вложенной области слияния почты.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.mailmerging/imailmergedatasource/getchilddatasource/
 ---
 ## IMailMergeDataSource.GetChildDataSource method
 
-Механизм слияния Aspose.Words вызывает этот метод, когда обнаруживает начало вложенной области слияния.
+Механизм слияния почты Aspose.Words вызывает этот метод, когда обнаруживает начало вложенной области слияния почты.
 
 ```csharp
 public IMailMergeDataSource GetChildDataSource(string tableName)
@@ -16,27 +16,27 @@ public IMailMergeDataSource GetChildDataSource(string tableName)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| tableName | String | Имя региона слияния, указанное в шаблоне документа. Без учета регистра. |
+| tableName | String | Имя региона слияния почты, указанное в документе шаблона. Без учета регистра. |
 
 ### Возвращаемое значение
 
-Объект источника данных, который предоставит доступ к записям данных указанной таблицы.
+Объект источника данных, который будет предоставлять доступ к записям данных указанной таблицы.
 
 ### Примечания
 
-Когда механизмы слияния почты Aspose.Words заполняют область слияния данными и обнаруживают начало области слияния nested в форме MERGEFIELD TableStart:TableName, он вызывает`GetChildDataSource` в объекте источника данных current . Ваша реализация должна вернуть новый объект источника данных, который обеспечит доступ к записям child текущей родительской записи. Aspose.Words будет использовать возвращенный источник данных для заполнения вложенной области слияния почты.
+Когда механизмы слияния почты Aspose.Words заполняют область слияния почты данными и обнаруживают начало области слияния вложенной почты в форме MERGEFIELD TableStart:TableName, он вызывает`GetChildDataSource` в объекте источника данных current . Ваша реализация должна вернуть новый объект источника данных, который обеспечит доступ к записям child текущей родительской записи. Aspose.Words будет использовать возвращенный источник данных для заполнения вложенной области слияния почты.
 
-Ниже приведены правила реализации`GetChildDataSource` должен следовать.
+Ниже приведены правила, по которым реализация`GetChildDataSource` должен следовать.
 
-Если таблица, представленная этим объектом источника данных, имеет связанную дочернюю (подробную) таблицу с указанным именем, , тогда ваша реализация должна вернуть новый[`IMailMergeDataSource`](../) объект, который предоставит доступ к дочерним записям текущей записи. Примером этого является отношение Orders / OrderDetails. Предположим, что текущий[`IMailMergeDataSource`](../) object представляет таблицу Orders и имеет текущую запись заказа. Затем Aspose.Words обнаруживает в документе «MERGEFIELD TableStart:OrderDetails» и вызывает`GetChildDataSource` . Вам нужно создать и вернуть[`IMailMergeDataSource`](../) объект, который позволит Aspose.Words получить доступ к записи OrderDetails для текущего заказа.
+Если таблица, представленная этим объектом источника данных, имеет связанную дочернюю (подробную) таблицу с указанным именем , тогда ваша реализация должна вернуть новую[`IMailMergeDataSource`](../)объект, который будет предоставлять доступ к дочерним записям текущей записи. Примером этого является отношение Orders/OrderDetails. Предположим, что текущий[`IMailMergeDataSource`](../) object представляет таблицу Orders и содержит запись текущего заказа. Затем Aspose.Words обнаруживает в документе «MERGEFIELD TableStart:OrderDetails» и вызывает`GetChildDataSource` . Вам необходимо создать и вернуть[`IMailMergeDataSource`](../) объект, который позволит Aspose.Words получить доступ к записи OrderDetails для текущего заказа.
 
-Если этот объект источника данных не имеет отношения к таблице с указанным именем, то необходимо вернуть a[`IMailMergeDataSource`](../)объект, который предоставит доступ ко всем записям указанной таблицы.
+Если этот объект источника данных не имеет отношения к таблице с указанным именем, то необходимо вернуть a[`IMailMergeDataSource`](../) объект, который обеспечит доступ ко всем записям указанной таблицы.
 
 Если таблица с указанным именем не существует, ваша реализация должна вернуть`нулевой` .
 
 ### Примеры
 
-Показывает, как выполнить слияние с источником данных в виде пользовательского объекта.
+Показывает, как выполнить слияние почты с источником данных в форме пользовательского объекта.
 
 ```csharp
 public void CustomDataSource()
@@ -47,11 +47,13 @@ public void CustomDataSource()
     builder.InsertParagraph();
     builder.InsertField(" MERGEFIELD Address ");
 
-    List<Customer> customers = new List<Customer>();
-    customers.Add(new Customer("Thomas Hardy", "120 Hanover Sq., London"));
-    customers.Add(new Customer("Paolo Accorti", "Via Monte Bianco 34, Torino"));
+    List<Customer> customers = new List<Customer>
+    {
+        new Customer("Thomas Hardy", "120 Hanover Sq., London"),
+        new Customer("Paolo Accorti", "Via Monte Bianco 34, Torino")
+    };
 
-    // Чтобы использовать пользовательский объект в качестве источника данных, он должен реализовать интерфейс IMailMergeDataSource. 
+     // Чтобы использовать пользовательский объект в качестве источника данных, он должен реализовать интерфейс IMailMergeDataSource.
     CustomerMailMergeDataSource dataSource = new CustomerMailMergeDataSource(customers);
 
     doc.MailMerge.Execute(dataSource);
@@ -60,7 +62,7 @@ public void CustomDataSource()
 }
 
 /// <summary>
-/// Пример класса "объект данных" в вашем приложении.
+/// Пример класса «объект данных» в вашем приложении.
 /// </summary>
 public class Customer
 {
@@ -75,7 +77,7 @@ public class Customer
 }
 
 /// <summary>
-/// Пользовательский источник данных слияния, который вы реализуете, чтобы позволить Aspose.Words 
+ /// Пользовательский источник данных слияния почты, который вы реализуете, чтобы разрешить Aspose.Words
 /// для отправки данных слияния из ваших объектов Customer в документы Microsoft Word.
 /// </summary>
 public class CustomerMailMergeDataSource : IMailMergeDataSource
@@ -84,12 +86,12 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
     {
         mCustomers = customers;
 
-        // Когда мы инициализируем источник данных, его позиция должна быть перед первой записью.
+        // Когда мы инициализируем источник данных, его позиция должна находиться перед первой записью.
         mRecordIndex = -1;
     }
 
     /// <summary>
-    /// Имя источника данных. Используется Aspose.Words только при выполнении слияния почты с повторяемыми областями.
+    /// Имя источника данных. Используется Aspose.Words только при выполнении слияния почты с повторяющимися регионами.
     /// </summary>
     public string TableName
     {
@@ -110,7 +112,7 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
                 fieldValue = mCustomers[mRecordIndex].Address;
                 return true;
             default:
-                // Возвращаем "false" механизму слияния почты Aspose.Words, чтобы обозначить
+                // Возвращаем «false» механизму слияния почты Aspose.Words, чтобы обозначить
                 // что мы не смогли найти поле с таким именем.
                 fieldValue = null;
                 return false;

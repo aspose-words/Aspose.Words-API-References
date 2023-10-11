@@ -1,16 +1,23 @@
 ---
 title: Cluster.Cluster
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Cluster constructeur. 
+description: Cluster constructeur. Initialise une nouvelle instance de cette classe.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.shaping/cluster/cluster/
 ---
 ## Cluster constructor
 
+Initialise une nouvelle instance de cette classe.
+
 ```csharp
 public Cluster(int[] codepoints, Glyph[] glyphs)
 ```
+
+| Paramètre | Taper | La description |
+| --- | --- | --- |
+| codepoints | Int32[] | Tableau de points Unicode composant un graphème. |
+| glyphs | Glyph[] | Tableau de[`Glyph`](../../glyph/)&gt; composer un graphème. |
 
 ### Voir également
 

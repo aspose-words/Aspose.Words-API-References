@@ -3,7 +3,7 @@ title: Document.UnlinkFields
 second_title: Aspose.Words för .NET API Referens
 description: Document metod. Tar bort länkar till fält i hela dokumentet.
 type: docs
-weight: 710
+weight: 750
 url: /sv/net/aspose.words/document/unlinkfields/
 ---
 ## Document.UnlinkFields method

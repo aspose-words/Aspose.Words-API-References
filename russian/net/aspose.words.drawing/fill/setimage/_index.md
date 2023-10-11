@@ -3,7 +3,7 @@ title: Fill.SetImage
 second_title: Справочник по API Aspose.Words для .NET
 description: Fill метод. Изменяет тип заливки на одно изображение.
 type: docs
-weight: 190
+weight: 250
 url: /ru/net/aspose.words.drawing/fill/setimage/
 ---
 ## SetImage(string) {#setimage_2}
@@ -20,19 +20,19 @@ public void SetImage(string fileName)
 
 ### Примеры
 
-Показывает, как задать тип заливки фигуры как изображение.
+Показывает, как установить тип заливки фигуры как изображение.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Есть несколько способов установки изображения.
+// Существует несколько способов установки изображения.
 Shape shape = builder.InsertShape(ShapeType.Rectangle, 80, 80);
 // 1 - Использование локального системного имени файла:
 shape.Fill.SetImage(ImageDir + "Logo.jpg");
 doc.Save(ArtifactsDir + "Shape.FillImage.FileName.docx");
 
-// 2 - Загрузить файл в массив байтов:
+// 2 - Загрузить файл в байтовый массив:
 shape.Fill.SetImage(File.ReadAllBytes(ImageDir + "Logo.jpg"));
 doc.Save(ArtifactsDir + "Shape.FillImage.ByteArray.docx");
 

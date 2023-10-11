@@ -1,14 +1,14 @@
 ---
 title: ShapeBase.CanHaveImage
 second_title: Aspose.Words for .NET API Referansı
-description: ShapeBase mülk. Şekil türü şeklin bir görüntüye sahip olmasına izin veriyorsa true değerini döndürür.
+description: ShapeBase mülk. İadelerdoğru şekil türü şeklin bir resme sahip olmasına izin veriyorsa.
 type: docs
 weight: 100
 url: /tr/net/aspose.words.drawing/shapebase/canhaveimage/
 ---
 ## ShapeBase.CanHaveImage property
 
-Şekil türü, şeklin bir görüntüye sahip olmasına izin veriyorsa true değerini döndürür.
+İadeler`doğru` şekil türü, şeklin bir resme sahip olmasına izin veriyorsa.
 
 ```csharp
 public bool CanHaveImage { get; }
@@ -16,7 +16,7 @@ public bool CanHaveImage { get; }
 
 ### Notlar
 
-Microsoft Word'ün görüntüler için özel bir şekil türü olmasına rağmen, Microsoft Word belgelerinde bir grup şekli dışında herhangi bir şekil 'nin bir resmi olabileceği görülmektedir, bu nedenle bu özellik, aşağıdakiler dışındaki tüm şekiller için true değerini döndürür.[`GroupShape`](../../groupshape/).
+Microsoft Word'ün görüntüler için özel bir şekil türü olmasına rağmen, Microsoft Word belgelerinde grup şekli dışındaki herhangi bir şekil 'nin bir görüntüye sahip olabileceği görülmektedir, bu nedenle bu özellik şunu döndürür:`doğru` hariç tüm şekiller için[`GroupShape`](../../groupshape/).
 
 ### Örnekler
 
@@ -26,12 +26,12 @@ Bir görüntünün nasıl ekleneceğini ve döndürüleceğini gösterir.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Resim içeren bir şekil ekleyin.
+// Resimli bir şekil ekleyin.
 Shape shape = builder.InsertImage(Image.FromFile(ImageDir + "Logo.jpg"));
 Assert.True(shape.CanHaveImage);
 Assert.True(shape.HasImage);
 
-// Resmi saat yönünde 45 derece döndür.
+// Resmi saat yönünde 45 derece döndürün.
 shape.Rotation = 45;
 
 doc.Save(ArtifactsDir + "Shape.Rotate.docx");

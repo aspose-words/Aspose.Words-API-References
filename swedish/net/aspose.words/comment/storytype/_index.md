@@ -1,14 +1,14 @@
 ---
 title: Comment.StoryType
 second_title: Aspose.Words för .NET API Referens
-description: Comment fast egendom. Returnerar StoryType.Comments .
+description: Comment fast egendom. ReturnerarComments .
 type: docs
-weight: 100
+weight: 110
 url: /sv/net/aspose.words/comment/storytype/
 ---
 ## Comment.StoryType property
 
-Returnerar **StoryType.Comments** .
+ReturnerarComments .
 
 ```csharp
 public override StoryType StoryType { get; }

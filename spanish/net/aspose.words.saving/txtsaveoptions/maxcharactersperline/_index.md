@@ -25,7 +25,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Write("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. " +
               "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.");
 
-// Establecer 30 caracteres como máximo permitido por línea.
+// Establece 30 caracteres como máximo permitido por línea.
 TxtSaveOptions saveOptions = new TxtSaveOptions { MaxCharactersPerLine = 30 };
 
 doc.Save(ArtifactsDir + "TxtSaveOptions.MaxCharactersPerLine.txt", saveOptions);

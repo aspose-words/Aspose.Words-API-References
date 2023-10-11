@@ -1,14 +1,14 @@
 ---
 title: PageSetup.TopMargin
 second_title: Aspose.Words لمراجع .NET API
-description: PageSetup ملكية. إرجاع أو تعيين المسافة بالنقاط بين الحافة العلوية للصفحة والحد الأعلى للنص الأساسي.
+description: PageSetup ملكية. إرجاع أو تعيين المسافة بالنقاط بين الحافة العلوية للصفحة والحد العلوي للنص الأساسي.
 type: docs
-weight: 430
+weight: 440
 url: /ar/net/aspose.words/pagesetup/topmargin/
 ---
 ## PageSetup.TopMargin property
 
-إرجاع أو تعيين المسافة (بالنقاط) بين الحافة العلوية للصفحة والحد الأعلى للنص الأساسي.
+إرجاع أو تعيين المسافة (بالنقاط) بين الحافة العلوية للصفحة والحد العلوي للنص الأساسي.
 
 ```csharp
 public double TopMargin { get; set; }
@@ -16,7 +16,7 @@ public double TopMargin { get; set; }
 
 ### أمثلة
 
-يوضح كيفية ضبط حجم الورق ، والاتجاه ، والهوامش ، إلى جانب الإعدادات الأخرى لقسم ما.
+يوضح كيفية ضبط حجم الورق واتجاهه والهوامش بالإضافة إلى الإعدادات الأخرى لقسم ما.
 
 ```csharp
 Document doc = new Document();

@@ -16,7 +16,7 @@ public DocumentBase Document { get; }
 
 ### ملاحظات
 
-تحتوي القائمة دائمًا على مستند أصلي وتكون صالحة فقط في سياق ذلك المستند.
+تحتوي القائمة دائمًا على مستند أصلي وتكون صالحة فقط في سياق هذا المستند.
 
 ### أمثلة
 
@@ -26,11 +26,9 @@ public DocumentBase Document { get; }
 Document doc = new Document();
 
 ListCollection lists = doc.Lists;
-
 Assert.AreEqual(doc, lists.Document);
 
 List list = lists.Add(ListTemplate.BulletDefault);
-
 Assert.AreEqual(doc, list.Document);
 
 Console.WriteLine("Current list count: " + lists.Count);

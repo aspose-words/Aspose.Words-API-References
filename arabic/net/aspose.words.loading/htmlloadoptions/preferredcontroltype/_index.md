@@ -1,14 +1,14 @@
 ---
 title: HtmlLoadOptions.PreferredControlType
 second_title: Aspose.Words لمراجع .NET API
-description: HtmlLoadOptions ملكية. الحصول على أو تعيين النوع المفضل لعقد المستندات التي ستمثل العناصر المستوردة input و select . القيمة الافتراضية هيFormField .
+description: HtmlLoadOptions ملكية. الحصول على أو تعيين النوع المفضل لعقد المستند التي ستمثل عناصر input وselect المستوردة. القيمة الافتراضية هيFormField .
 type: docs
 weight: 50
 url: /ar/net/aspose.words.loading/htmlloadoptions/preferredcontroltype/
 ---
 ## HtmlLoadOptions.PreferredControlType property
 
-الحصول على أو تعيين النوع المفضل لعقد المستندات التي ستمثل العناصر المستوردة &lt;input&gt; و &lt;select&gt; . القيمة الافتراضية هيFormField .
+الحصول على أو تعيين النوع المفضل لعقد المستند التي ستمثل عناصر &lt;input&gt; و&lt;select&gt; المستوردة. القيمة الافتراضية هيFormField .
 
 ```csharp
 public HtmlControlType PreferredControlType { get; set; }
@@ -16,11 +16,11 @@ public HtmlControlType PreferredControlType { get; set; }
 
 ### ملاحظات
 
-يُرجى ملاحظة أن إعداد هذه الخاصية لا يضمن أن جميع عناصر التحكم المستوردة ستكون من النوع المحدد.[`HtmlControlType`](../../htmlcontroltype/) من أجل هذا التحكم.
+يرجى ملاحظة أن تعيين هذه الخاصية لا يضمن أن جميع عناصر التحكم المستوردة ستكون من النوع المحدد. إذا كان عنصر تحكم HTML غير قابل للتمثيل مع عقد المستند من النوع المفضل، فسوف يستخدم Aspose.Words عنصرًا متوافقًا[`HtmlControlType`](../../htmlcontroltype/) لهذا التحكم.
 
 ### أمثلة
 
-يوضح كيفية تعيين النوع المفضل لعقد المستند التي ستمثل العناصر المستوردة &lt;input&gt; و &lt;select&gt;.
+يوضح كيفية تعيين النوع المفضل لعقد المستند التي ستمثل عناصر &lt;input&gt; و&lt;select&gt; المستوردة.
 
 ```csharp
 const string html = @"

@@ -3,7 +3,7 @@ title: Row.Accept
 second_title: Справочник по API Aspose.Words для .NET
 description: Row метод. Принимает посетителя.
 type: docs
-weight: 100
+weight: 120
 url: /ru/net/aspose.words.tables/row/accept/
 ---
 ## Row.Accept method
@@ -16,19 +16,19 @@ public override bool Accept(DocumentVisitor visitor)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| visitor | DocumentVisitor | Посетитель, который будет посещать узлы. |
+| visitor | DocumentVisitor | Посетитель, который посетит узлы. |
 
 ### Возвращаемое значение
 
-Истинно, если все узлы были посещены; false, если DocumentVisitor остановил операцию перед посещением всех узлов.
+Истинно, если были посещены все узлы; ложь, если[`DocumentVisitor`](../../../aspose.words/documentvisitor/) остановил операцию перед посещением всех узлов.
 
 ### Примечания
 
-Перечисляет этот узел и все его дочерние элементы. Каждый узел вызывает соответствующий метод в DocumentVisitor.
+Перечисляет этот узел и все его дочерние элементы. Каждый узел вызывает соответствующий метод[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
 
 Дополнительные сведения см. в шаблоне проектирования «Посетитель».
 
-Вызывает DocumentVisitor.VisitRowStart, затем вызывает Accept для всех дочерних узлов section и вызывает DocumentVisitor.VisitRowEnd в конце.
+Звонки[`VisitRowStart`](../../../aspose.words/documentvisitor/visitrowstart/) , затем звонит[`Accept`](../../../aspose.words/node/accept/) для всех дочерних узловsection и вызовов[`VisitRowEnd`](../../../aspose.words/documentvisitor/visitrowend/) в конце.
 
 ### Примеры
 
@@ -40,16 +40,16 @@ public void TableToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     TableStructurePrinter visitor = new TableStructurePrinter();
 
-    // Когда составной узел принимает посетителя документа, посетитель посещает принимающий узел,
-    // а затем обходит все дочерние элементы узла в порядке глубины.
-    // Посетитель может читать и изменять каждый посещаемый узел.
+    // Когда мы получаем составной узел для приема посетителя документа, посетитель посещает принимающий узел,
+    // а затем обходит все дочерние узлы в глубину.
+    // Посетитель может читать и изменять каждый посещенный узел.
     doc.Accept(visitor);
 
     Console.WriteLine(visitor.GetText());
 }
 
 /// <summary>
-/// Обходит небинарное дерево дочерних узлов узла.
+/// Обходит недвоичное дерево дочерних узлов узла.
 /// Создает карту в виде строки всех встреченных узлов таблицы и их дочерних элементов.
 /// </summary>
 public class TableStructurePrinter : DocumentVisitor
@@ -67,7 +67,7 @@ public class TableStructurePrinter : DocumentVisitor
 
     /// <summary>
     /// Вызывается, когда в документе встречается узел Run.
-    /// Прогоны вне таблиц не записываются.
+    /// Выполнения, не входящие в таблицы, не записываются.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -98,7 +98,7 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Вызывается после посещения всех дочерних узлов узла Table.
+    /// Вызывается после посещения всех дочерних узлов узла таблицы.
     /// </summary>
     public override VisitorAction VisitTableEnd(Table table)
     {
@@ -170,7 +170,7 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Добавляем строку в StringBuilder и делаем отступ в зависимости от того, насколько глубоко находится посетитель
+    /// Добавляем строку в StringBuilder и делаем отступ в зависимости от глубины погружения посетителя
     /// в дерево дочерних узлов текущей таблицы.
     /// </summary>
     /// <param name="text"></param>

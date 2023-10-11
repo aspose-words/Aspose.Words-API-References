@@ -3,7 +3,7 @@ title: Fill.ForeColor
 second_title: Aspose.Words لمراجع .NET API
 description: Fill ملكية. الحصول على أو تعيين كائن اللون الذي يمثل اللون الأمامي للتعبئة.
 type: docs
-weight: 30
+weight: 70
 url: /ar/net/aspose.words.drawing/fill/forecolor/
 ---
 ## Fill.ForeColor property
@@ -14,6 +14,10 @@ url: /ar/net/aspose.words.drawing/fill/forecolor/
 public Color ForeColor { get; set; }
 ```
 
+### ملاحظات
+
+تقوم هذه الخاصية بإعادة تعيين مكون ألفا للملفColor إلى full لون معتم على عكس[`Color`](../color/) الممتلكات التي تحافظ عليه.
+
 ### أمثلة
 
 يظهر لإنشاء مجموعة متنوعة من الأشكال.
@@ -23,8 +27,8 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // فيما يلي أربعة أمثلة للأشكال التي يمكننا إدراجها في مستنداتنا.
-// 1 - خط أحمر منقط ، أفقي ، نصف شفاف
-// مع سهم على الطرف الأيسر وماسة على الطرف الأيمن:
+// 1 - خط أحمر منقط، أفقي، نصف شفاف
+// مع وجود سهم على الطرف الأيسر وماسة على الطرف الأيمن:
 Shape arrow = new Shape(doc, ShapeType.Line);
 arrow.Width = 200;
 arrow.Stroke.Color = Color.Red;
@@ -41,7 +45,7 @@ Assert.AreEqual(JoinStyle.Miter, arrow.Stroke.JoinStyle);
 
 builder.InsertNode(arrow);
 
-// 2 - خط قطري أسود سميك بنهايات مستديرة:
+// 2 - خط قطري سميك أسود ذو أطراف مستديرة:
 Shape line = new Shape(doc, ShapeType.Line);
 line.Top = 40;
 line.Width = 200;
@@ -51,7 +55,7 @@ line.Stroke.EndCap = EndCap.Round;
 
 builder.InsertNode(line);
 
-// 3 - سهم بتعبئة خضراء:
+// 3 - سهم ذو تعبئة خضراء:
 Shape filledInArrow = new Shape(doc, ShapeType.Arrow);
 filledInArrow.Width = 200;
 filledInArrow.Height = 40;
@@ -61,7 +65,7 @@ filledInArrow.Fill.Visible = true;
 
 builder.InsertNode(filledInArrow);
 
-// 4 - سهم ذو اتجاه مقلوب مملوء بشعار Aspose:
+// 4 - سهم ذو اتجاه معكوس مملوء بشعار Aspose:
 Shape filledInArrowImg = new Shape(doc, ShapeType.Arrow);
 filledInArrowImg.Width = 200;
 filledInArrowImg.Height = 40;
@@ -73,8 +77,8 @@ byte[] imageBytes = File.ReadAllBytes(ImageDir + "Logo.jpg");
 using (MemoryStream stream = new MemoryStream(imageBytes))
 {
     Image image = Image.FromStream(stream);
-    // عندما نقلب اتجاه سهمنا ، فإننا نقلب أيضًا الصورة التي يحتوي عليها السهم.
-    // اقلب الصورة بالطريقة الأخرى لإلغاء ذلك قبل الحصول على الشكل لعرضه.
+    // عندما نقلب اتجاه سهمنا، فإننا نقلب أيضًا الصورة التي يحتوي عليها السهم.
+    // اقلب الصورة في الاتجاه الآخر لإلغاء ذلك قبل الحصول على الشكل لعرضه.
     image.RotateFlip(RotateFlipType.RotateNoneFlipXY);
 
     filledInArrowImg.ImageData.SetImage(image);

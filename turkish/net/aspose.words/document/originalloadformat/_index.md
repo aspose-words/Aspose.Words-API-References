@@ -3,7 +3,7 @@ title: Document.OriginalLoadFormat
 second_title: Aspose.Words for .NET API Referansı
 description: Document mülk. Bu nesneye yüklenen orijinal belgenin biçimini alır.
 type: docs
-weight: 280
+weight: 300
 url: /tr/net/aspose.words/document/originalloadformat/
 ---
 ## Document.OriginalLoadFormat property

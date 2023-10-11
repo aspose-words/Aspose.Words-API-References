@@ -1,14 +1,16 @@
 ---
 title: Class SaveOutputParameters
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Saving.SaveOutputParameters classe. Cet objet est renvoyé à lappelant après lenregistrement dun document et contient des informations supplémentaires indiquant que a été généré ou calculé au cours de lopération denregistrement. Lappelant peut utiliser ou ignorer cet objet.
+description: Aspose.Words.Saving.SaveOutputParameters classe. Cet objet est renvoyé à lappelant après lenregistrement dun document et contient des informations supplémentaires indiquant que a été générée ou calculée lors de lopération de sauvegarde. Lappelant peut utiliser ou ignorer cet objet.
 type: docs
-weight: 5310
+weight: 5590
 url: /fr/net/aspose.words.saving/saveoutputparameters/
 ---
 ## SaveOutputParameters class
 
-Cet objet est renvoyé à l'appelant après l'enregistrement d'un document et contient des informations supplémentaires indiquant que a été généré ou calculé au cours de l'opération d'enregistrement. L'appelant peut utiliser ou ignorer cet objet.
+Cet objet est renvoyé à l'appelant après l'enregistrement d'un document et contient des informations supplémentaires indiquant que a été générée ou calculée lors de l'opération de sauvegarde. L'appelant peut utiliser ou ignorer cet objet.
+
+Pour en savoir plus, visitez le[Enregistrer un document](https://docs.aspose.com/words/net/save-a-document/) article documentaire.
 
 ```csharp
 public class SaveOutputParameters
@@ -18,11 +20,11 @@ public class SaveOutputParameters
 
 | Nom | La description |
 | --- | --- |
-| [ContentType](../../aspose.words.saving/saveoutputparameters/contenttype/) { get; } | Renvoie la chaîne Content-Type (Type de média Internet) qui identifie le type du document enregistré. |
+| [ContentType](../../aspose.words.saving/saveoutputparameters/contenttype/) { get; } | Renvoie la chaîne Content-Type (Internet Media Type) qui identifie le type du document enregistré. |
 
 ### Exemples
 
-Montre comment accéder aux paramètres de sortie de l'opération d'enregistrement d'un document.
+Montre comment accéder aux paramètres de sortie de l’opération d’enregistrement d’un document.
 
 ```csharp
 Document doc = new Document();
@@ -34,7 +36,7 @@ SaveOutputParameters parameters = doc.Save(ArtifactsDir + "Document.SaveOutputPa
 
 Assert.AreEqual("application/msword", parameters.ContentType);
 
-// Cette propriété change en fonction du format d'enregistrement.
+// Cette propriété change en fonction du format de sauvegarde.
 parameters = doc.Save(ArtifactsDir + "Document.SaveOutputParameters.pdf");
 
 Assert.AreEqual("application/pdf", parameters.ContentType);

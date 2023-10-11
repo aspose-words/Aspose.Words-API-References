@@ -1,14 +1,14 @@
 ---
 title: GeneralFormatCollection.Remove
 second_title: Справочник по API Aspose.Words для .NET
-description: GeneralFormatCollection метод. Удаляет все вхождения указанного общего формата из коллекции.
+description: GeneralFormatCollection метод. Удаляет из коллекции все вхождения указанного общего формата.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.fields/generalformatcollection/remove/
 ---
 ## GeneralFormatCollection.Remove method
 
-Удаляет все вхождения указанного общего формата из коллекции.
+Удаляет из коллекции все вхождения указанного общего формата.
 
 ```csharp
 public void Remove(GeneralFormat item)
@@ -20,7 +20,7 @@ public void Remove(GeneralFormat item)
 
 ### Примеры
 
-Показывает, как форматировать результаты поля.
+Показывает, как форматировать результаты полей.
 
 ```csharp
 Document doc = new Document();

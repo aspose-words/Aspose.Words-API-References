@@ -1,14 +1,14 @@
 ---
 title: Enum DocumentSplitCriteria
 second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Saving.DocumentSplitCriteria 枚举. 指定保存到文件时如何将文档拆分为多个部分Html 或Epub格式.
+description: Aspose.Words.Saving.DocumentSplitCriteria 枚举. 指定保存时文档如何分割成多个部分Html Epub或者Azw3格式.
 type: docs
-weight: 4700
+weight: 4960
 url: /zh/net/aspose.words.saving/documentsplitcriteria/
 ---
 ## DocumentSplitCriteria enumeration
 
-指定保存到文件时如何将文档拆分为多个部分Html 或Epub格式.
+指定保存时文档如何分割成多个部分Html, Epub或者Azw3格式.
 
 ```csharp
 [Flags]
@@ -20,33 +20,33 @@ public enum DocumentSplitCriteria
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | None | `0` | 文档未拆分。 |
-| PageBreak | `1` | 文档在显式分页符处拆分为多个部分。 分页符可以由[`PageBreak`](../../aspose.words/controlchar/pagebreak/)字符， 一个分节符，指定新页面上的新部分的开始， 或具有它的段落[`PageBreakBefore`](../../aspose.words/paragraphformat/pagebreakbefore/)属性设置为`真的`. |
-| ColumnBreak | `2` | 文档在分栏符处分成几部分。 分栏符可以由[`ColumnBreak`](../../aspose.words/controlchar/columnbreak/)字符 or 一个分节符，指定新列中新节的开始。 |
-| SectionBreak | `4` | 文档在任何类型的分节符处分成几部分。 |
-| HeadingParagraph | `8` | 文档在使用标题样式格式化的段落中分成几部分 **标题 1**, **标题 2**等 一起使用[`DocumentSplitHeadingLevel`](../htmlsaveoptions/documentsplitheadinglevel/)指定要拆分的标题级别 （从1到指定级别）。 |
+| PageBreak | `1` | 文档在显式分页符处分成多个部分。 分页符可以由[`PageBreak`](../../aspose.words/controlchar/pagebreak/)字符， 分节符，指定新页面上新节的开始， 或具有其[`PageBreakBefore`](../../aspose.words/paragraphformat/pagebreakbefore/)属性设置为`真的`. |
+| ColumnBreak | `2` | 文档在分栏符处分成多个部分。 分栏符可以由[`ColumnBreak`](../../aspose.words/controlchar/columnbreak/)字符 or 分节符，指定新列中新节的开始。 |
+| SectionBreak | `4` | 文档在任何类型的分节符处分为多个部分。 |
+| HeadingParagraph | `8` | 文档在使用标题样式格式化的段落中分为多个部分 **标题 1**, **标题 2**等 与以下一起使用[`DocumentSplitHeadingLevel`](../htmlsaveoptions/documentsplitheadinglevel/)指定要拆分的标题级别 （从 1 到指定级别）。 |
 
 ### 评论
 
 `DocumentSplitCriteria`是一组可以组合的标志。例如，您可以在同一导出操作中在分页符和标题段落处拆分 document 。
 
-不同的标准可以部分重叠。例如， **标题 1**样式经常被赋予 [`PageBreakBefore`](../../aspose.words/paragraphformat/pagebreakbefore/)财产，因此它符合两个标准：PageBreak和 HeadingParagraph.某些分节符可能会导致分页符等。 在典型情况下，只指定一个标志是最实用的选项。
+不同的标准可能部分重叠。例如， **标题 1**风格经常被给出 [`PageBreakBefore`](../../aspose.words/paragraphformat/pagebreakbefore/)属性，因此它符合两个标准：PageBreak和 HeadingParagraph。有些分节符会导致分页等情况。 在典型情况下，仅指定一个标志是最实用的选择。
 
 ### 例子
 
-显示将文档保存到 .epub 时如何使用特定编码。
+演示将文档保存为 .epub 时如何使用特定编码。
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// 使用 SaveOptions 对象来指定我们要保存的文档的编码。
+// 使用 SaveOptions 对象指定我们将保存的文档的编码。
 HtmlSaveOptions saveOptions = new HtmlSaveOptions();
 saveOptions.SaveFormat = SaveFormat.Epub;
 saveOptions.Encoding = Encoding.UTF8;
 
-// 默认情况下，输出的 .epub 文档将其所有内容都放在一个 HTML 部分中。
+// 默认情况下，输出 .epub 文档的所有内容都位于一个 HTML 部分中。
 // 分割标准允许我们将文档分割成几个 HTML 部分。
 // 我们将设置将文档拆分为标题段落的标准。
-// 这对于无法阅读比特定大小更重要的 HTML 文件的读者很有用。
+// 这对于无法读取大于特定大小的 HTML 文件的读者很有用。
 saveOptions.DocumentSplitCriteria = DocumentSplitCriteria.HeadingParagraph;
 
 // 指定我们要导出文档属性。

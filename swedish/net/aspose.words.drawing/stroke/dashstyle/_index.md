@@ -3,7 +3,7 @@ title: Stroke.DashStyle
 second_title: Aspose.Words för .NET API Referens
 description: Stroke fast egendom. Anger punkt och streckmönstret för ett streck.
 type: docs
-weight: 40
+weight: 50
 url: /sv/net/aspose.words.drawing/stroke/dashstyle/
 ---
 ## Stroke.DashStyle property

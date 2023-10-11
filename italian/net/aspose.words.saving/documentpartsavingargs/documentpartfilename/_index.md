@@ -16,11 +16,11 @@ public string DocumentPartFileName { get; set; }
 
 ### Osservazioni
 
-Questa proprietà consente di ridefinire il modo in cui i nomi dei file delle parti del documento vengono generati durante l'esportazione in HTML o EPUB.
+Questa proprietà consente di ridefinire il modo in cui vengono generati i nomi dei file delle parti del documento durante l'esportazione in HTML o EPUB.
 
-Quando viene richiamato il callback, questa proprietà contiene il nome del file che è stato generato da Aspose.Words. È possibile modificare il valore di questa proprietà per salvare la parte del documento in un file diverso. Si noti che il nome del file per ciascuna parte deve essere univoco.
+Quando viene richiamato il callback, questa proprietà contiene il nome del file che è stato generato da Aspose.Words. Puoi modificare il valore di questa proprietà per salvare la parte del documento in un file diverso. Tieni presente che il nome del file per ciascuna parte deve essere univoco.
 
-`DocumentPartFileName` deve contenere solo il nome del file senza il percorso. Aspose.Words determina il percorso per il salvataggio utilizzando il nome del file del documento. Se il nome file del documento di output non è stato specificato, ad esempio durante il salvataggio in uno stream, questo nome file viene utilizzato solo per fare riferimento a parti del documento. Lo stesso vale quando si salva in formato EPUB.
+`DocumentPartFileName` deve contenere solo il nome del file senza il percorso. Aspose.Words determina il percorso per il salvataggio utilizzando il nome del file del documento. Se il nome file del documento di output non è stato specificato, ad esempio durante il salvataggio in un flusso, questo nome file viene utilizzato solo per fare riferimento alle parti del documento. Lo stesso vale quando si salva in formato EPUB.
 
 ### Esempi
 
@@ -36,8 +36,8 @@ public void DocumentPartsFileNames()
     // per modificare il modo in cui convertiamo il documento in HTML.
     HtmlSaveOptions options = new HtmlSaveOptions();
 
-    // Se salviamo il documento normalmente, ci sarà un HTML di output
-    // documento con tutti i contenuti del documento sorgente.
+    // Se salviamo il documento normalmente, ci sarà un output HTML
+    // documento con tutto il contenuto del documento sorgente.
     // Imposta la proprietà "DocumentSplitCriteria" su "DocumentSplitCriteria.SectionBreak" su
     // salva il nostro documento in più file HTML: uno per ogni sezione.
     options.DocumentSplitCriteria = DocumentSplitCriteria.SectionBreak;
@@ -45,9 +45,9 @@ public void DocumentPartsFileNames()
     // Assegna un callback personalizzato alla proprietà "DocumentPartSavingCallback" per modificare la logica di salvataggio della parte del documento.
     options.DocumentPartSavingCallback = new SavedDocumentPartRename(outFileName, options.DocumentSplitCriteria);
 
-    // Se convertiamo un documento che contiene immagini in html, ci ritroveremo con un file html che si collega a più immagini.
+    // Se convertiamo un documento che contiene immagini in html, ci ritroveremo con un file html che collega a diverse immagini.
     // Ogni immagine avrà la forma di un file nel file system locale.
-    // C'è anche un callback che può personalizzare il nome e la posizione del file system di ogni immagine.
+    // Esiste anche un callback che può personalizzare il nome e la posizione del file system di ciascuna immagine.
     options.ImageSavingCallback = new SavedImageRename(outFileName);
 
     doc.Save(ArtifactsDir + outFileName, options);
@@ -66,7 +66,7 @@ private class SavedDocumentPartRename : IDocumentPartSavingCallback
 
     void IDocumentPartSavingCallback.DocumentPartSaving(DocumentPartSavingArgs args)
     {
-        // Possiamo accedere all'intero documento sorgente tramite la proprietà "Documento".
+        // Possiamo accedere all'intero documento sorgente tramite la proprietà "Document".
         Assert.True(args.Document.OriginalFileName.EndsWith("Rendering.docx"));
 
         string partType = string.Empty;
@@ -89,7 +89,7 @@ private class SavedDocumentPartRename : IDocumentPartSavingCallback
 
         string partFileName = $"{mOutFileName} part {++mCount}, of type {partType}{Path.GetExtension(args.DocumentPartFileName)}";
 
-        // Di seguito sono riportati due modi per specificare dove Aspose.Words salverà ogni parte del documento.
+        // Di seguito sono riportati due modi per specificare dove Aspose.Words salverà ciascuna parte del documento.
         // 1 - Imposta un nome file per il file della parte di output:
         args.DocumentPartFileName = partFileName;
 
@@ -119,7 +119,7 @@ public class SavedImageRename : IImageSavingCallback
     {
         string imageFileName = $"{mOutFileName} shape {++mCount}, of type {args.CurrentShape.ShapeType}{Path.GetExtension(args.ImageFileName)}";
 
-        // Di seguito sono riportati due modi per specificare dove Aspose.Words salverà ogni parte del documento.
+        // Di seguito sono riportati due modi per specificare dove Aspose.Words salverà ciascuna parte del documento.
         // 1 - Imposta un nome file per il file immagine di output:
         args.ImageFileName = imageFileName;
 

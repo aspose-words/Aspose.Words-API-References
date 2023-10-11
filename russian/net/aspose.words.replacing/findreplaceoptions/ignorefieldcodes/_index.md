@@ -16,7 +16,7 @@ public bool IgnoreFieldCodes { get; set; }
 
 ### Примечания
 
-Эта опция влияет только на коды полей (она не игнорирует узлы между FieldSeparator а такжеFieldEnd).
+Эта опция влияет только на коды полей (она не игнорирует узлы между FieldSeparator иFieldEnd).
 
 Чтобы игнорировать все поле, используйте соответствующую опцию[`IgnoreFields`](../ignorefields/).
 

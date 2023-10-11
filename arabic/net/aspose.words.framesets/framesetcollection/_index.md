@@ -1,14 +1,16 @@
 ---
 title: Class FramesetCollection
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Framesets.FramesetCollection فصل. يمثل مجموعة من مثيلات ملفFrameset فئة .
+description: Aspose.Words.Framesets.FramesetCollection فصل. يمثل مجموعة من مثيلاتFrameset فئة.
 type: docs
-weight: 2910
+weight: 3090
 url: /ar/net/aspose.words.framesets/framesetcollection/
 ---
 ## FramesetCollection class
 
-يمثل مجموعة من مثيلات ملف[`Frameset`](../frameset/) فئة .
+يمثل مجموعة من مثيلات[`Frameset`](../frameset/) فئة.
+
+لمعرفة المزيد، قم بزيارة[البرمجة بالوثائق](https://docs.aspose.com/words/net/programming-with-documents/) مقالة توثيقية.
 
 ```csharp
 public class FramesetCollection : IEnumerable<Frameset>
@@ -31,7 +33,7 @@ public class FramesetCollection : IEnumerable<Frameset>
 
 | اسم | وصف |
 | --- | --- |
-| [GetEnumerator](../../aspose.words.framesets/framesetcollection/getenumerator/)() |  |
+| [GetEnumerator](../../aspose.words.framesets/framesetcollection/getenumerator/)() | يُرجع عدادًا يتكرر خلال المجموعة. |
 
 ### أنظر أيضا
 

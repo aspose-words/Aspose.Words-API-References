@@ -3,7 +3,7 @@ title: LayoutEnumerator.MoveFirstChild
 second_title: Aspose.Words för .NET API Referens
 description: LayoutEnumerator metod. Flyttar till den första underordnade enheten.
 type: docs
-weight: 90
+weight: 100
 url: /sv/net/aspose.words.layout/layoutenumerator/movefirstchild/
 ---
 ## LayoutEnumerator.MoveFirstChild method

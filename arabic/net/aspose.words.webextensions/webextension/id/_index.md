@@ -1,14 +1,14 @@
 ---
 title: WebExtension.Id
 second_title: Aspose.Words لمراجع .NET API
-description: WebExtension ملكية. يعرّف بشكل فريد مثيل امتداد الويب في المستند الحالي.
+description: WebExtension ملكية. يحدد بشكل فريد مثيل ملحق الويب في المستند الحالي.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.webextensions/webextension/id/
 ---
 ## WebExtension.Id property
 
-يعرّف بشكل فريد مثيل امتداد الويب في المستند الحالي.
+يحدد بشكل فريد مثيل ملحق الويب في المستند الحالي.
 
 ```csharp
 public string Id { get; set; }

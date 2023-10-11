@@ -16,7 +16,7 @@ public void RemoveField()
 
 ### Remarques
 
-Si un signet est associé au champ de formulaire, le signet n'est pas supprimé.
+S'il existe un signet associé au champ du formulaire, le signet n'est pas supprimé.
 
 ### Exemples
 

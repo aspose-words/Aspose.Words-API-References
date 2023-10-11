@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.OptimizeFor
 second_title: Referencia de API de Aspose.Words para .NET
-description: CompatibilityOptions método. Permite optimizar el contenido del documento así como el comportamiento predeterminado de Aspose.Words para una versión particular de MS Word.
+description: CompatibilityOptions método. Permite optimizar el contenido del documento así como el comportamiento predeterminado de Aspose.Words para versiones particulares de MS Word.
 type: docs
 weight: 720
 url: /es/net/aspose.words.settings/compatibilityoptions/optimizefor/
 ---
 ## CompatibilityOptions.OptimizeFor method
 
-Permite optimizar el contenido del documento, así como el comportamiento predeterminado de Aspose.Words para una versión particular de MS Word.
+Permite optimizar el contenido del documento, así como el comportamiento predeterminado de Aspose.Words para versiones particulares de MS Word.
 
 Utilice este método para evitar que MS Word muestre la cinta "Modo de compatibilidad" al cargar el documento. (Tenga en cuenta que es posible que también deba configurar el[`Compliance`](../../../aspose.words.saving/ooxmlsaveoptions/compliance/) propiedad a Iso29500_2008_Transitional o superior.)
 
@@ -26,11 +26,11 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 Shape shape = builder.InsertShape(ShapeType.TextBox, 200, 200);
 
-// Establecer la propiedad "VerticalAnchor" en "TextBoxAnchor.Top" para
-// alinear el texto en este cuadro de texto con el lado superior de la forma.
-// Establecer la propiedad "VerticalAnchor" en "TextBoxAnchor.Middle" para
-// alinear el texto en este cuadro de texto al centro de la forma.
-// Establecer la propiedad "VerticalAnchor" en "TextBoxAnchor.Bottom" para
+// Establece la propiedad "VerticalAnchor" en "TextBoxAnchor.Top" para
+// alinea el texto en este cuadro de texto con el lado superior de la forma.
+// Establece la propiedad "VerticalAnchor" en "TextBoxAnchor.Middle" para
+// alinea el texto en este cuadro de texto con el centro de la forma.
+// Establece la propiedad "VerticalAnchor" en "TextBoxAnchor.Bottom" para
 // alinea el texto de este cuadro de texto con la parte inferior de la forma.
 shape.TextBox.VerticalAnchor = verticalAnchor;
 
@@ -56,8 +56,8 @@ builder.InsertImage(ImageDir + "Transparent background logo.png");
 Assert.AreEqual(ShapeMarkupLanguage.Vml, ((Shape)doc.GetChild(NodeType.Shape, 0, true)).MarkupLanguage);
 
 // El estándar OOXML "ISO/IEC 29500:2008" no admite formas VML.
-// Si establecemos la propiedad "Compliance" del objeto SaveOptions en "OoxmlCompliance.Iso29500_2008_Strict",
-  // cualquier documento que guardemos al pasar este objeto tendrá que seguir ese estándar.
+// Si configuramos la propiedad "Cumplimiento" del objeto SaveOptions en "OoxmlCompliance.Iso29500_2008_Strict",
+ // cualquier documento que guardemos al pasar este objeto tendrá que seguir ese estándar.
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions
 {
     Compliance = OoxmlCompliance.Iso29500_2008_Strict,
@@ -79,18 +79,18 @@ public void OptimizeFor()
 {
     Document doc = new Document();
 
-    // Este objeto contiene una extensa lista de banderas únicas para cada documento
-    // que nos permiten facilitar la retrocompatibilidad con versiones anteriores de Microsoft Word.
+    // Este objeto contiene una lista extensa de indicadores únicos para cada documento
+    // que nos permiten facilitar la compatibilidad con versiones anteriores de Microsoft Word.
     CompatibilityOptions options = doc.CompatibilityOptions;
 
     // Imprime la configuración predeterminada para un documento en blanco.
     Console.WriteLine("\nDefault optimization settings:");
     PrintCompatibilityOptions(options);
 
-    // Podemos acceder a esta configuración en Microsoft Word a través de "Archivo" -> "Opciones" -> "Avanzado" -> "Opciones de compatibilidad para...".
+    // Podemos acceder a estas configuraciones en Microsoft Word a través de "Archivo" -> "Opciones" -> "Avanzado" -> "Opciones de compatibilidad para...".
     doc.Save(ArtifactsDir + "CompatibilityOptions.OptimizeFor.DefaultSettings.docx");
 
-    // Podemos usar el método OptimizeFor para garantizar una compatibilidad óptima con una versión específica de Microsoft Word.
+    // Podemos utilizar el método OptimizeFor para garantizar una compatibilidad óptima con una versión específica de Microsoft Word.
     doc.CompatibilityOptions.OptimizeFor(MsWordVersion.Word2010);
     Console.WriteLine("\nOptimized for Word 2010:");
     PrintCompatibilityOptions(options);

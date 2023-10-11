@@ -18,9 +18,9 @@ public byte[] Thumbnail { get; set; }
 
 Por ahora, esta propiedad se usa solo cuando un documento se exporta a ePub, no se lee ni se escribe en otros formatos de documento.
 
-La imagen de formato arbitrario se puede establecer en esta propiedad, pero el formato se comprueba durante la exportación. InvalidOperationException se lanza si la imagen no es válida o su formato no es compatible con formato específico del documento.
+Se puede establecer una imagen de formato arbitrario en esta propiedad, pero el formato se verifica durante la exportación. InvalidOperationException se lanza si la imagen no es válida o su formato no es compatible con formato de documento específico.
 
-Solo se pueden usar imágenes gif, jpeg y png para la publicación ePub.
+Sólo se pueden utilizar imágenes gif, jpeg y png para la publicación ePub.
 
 ### Ejemplos
 
@@ -40,7 +40,7 @@ properties.Thumbnail = thumbnailBytes;
 
 doc.Save(ArtifactsDir + "DocumentProperties.Thumbnail.epub");
 
-// Podemos extraer la imagen en miniatura de un documento y guardarlo en el sistema de archivos local.
+// Podemos extraer la imagen en miniatura de un documento y guardarla en el sistema de archivos local.
 DocumentProperty thumbnail = doc.BuiltInDocumentProperties["Thumbnail"];
 File.WriteAllBytes(ArtifactsDir + "DocumentProperties.Thumbnail.gif", thumbnail.ToByteArray());
 ```

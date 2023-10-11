@@ -3,7 +3,7 @@ title: ShapeBase.WrapSide
 second_title: Aspose.Words für .NET-API-Referenz
 description: ShapeBase eigendom. Gibt an wie der Text um die Form gewickelt wird.
 type: docs
-weight: 530
+weight: 590
 url: /de/net/aspose.words.drawing/shapebase/wrapside/
 ---
 ## ShapeBase.WrapSide property
@@ -18,7 +18,7 @@ public WrapSide WrapSide { get; set; }
 
 Der Standardwert istBoth.
 
-Hat nur Auswirkungen auf Shapes der obersten Ebene.
+Hat nur Auswirkungen auf Formen der obersten Ebene.
 
 ### Beispiele
 

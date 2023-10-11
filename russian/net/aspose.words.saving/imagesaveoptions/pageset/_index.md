@@ -1,14 +1,14 @@
 ---
 title: ImageSaveOptions.PageSet
 second_title: Справочник по API Aspose.Words для .NET
-description: ImageSaveOptions свойство. Получает или задает отображаемые страницы. По умолчанию  все страницы документа.
+description: ImageSaveOptions свойство. Получает или задает страницы для рендеринга. По умолчанию  все страницы в документе.
 type: docs
-weight: 90
+weight: 100
 url: /ru/net/aspose.words.saving/imagesaveoptions/pageset/
 ---
 ## ImageSaveOptions.PageSet property
 
-Получает или задает отображаемые страницы. По умолчанию — все страницы документа.
+Получает или задает страницы для рендеринга. По умолчанию — все страницы в документе.
 
 ```csharp
 public PageSet PageSet { get; set; }
@@ -16,7 +16,7 @@ public PageSet PageSet { get; set; }
 
 ### Примечания
 
-Это свойство действует только при отображении страниц документа. Это свойство игнорируется при рендеринге фигур в изображения.
+Это свойство действует только при отрисовке страниц документа. Это свойство игнорируется при рендеринге фигур в изображения.
 
 ### Примеры
 
@@ -33,34 +33,7 @@ imageOptions.PageSet = pageSet;
 doc.Save(ArtifactsDir + "ImageSaveOptions.ExportVariousPageRanges.tiff", imageOptions);
 ```
 
-Показывает, как преобразовать каждую страницу документа в отдельное изображение TIFF.
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-builder.Writeln("Page 1.");
-builder.InsertBreak(BreakType.PageBreak);
-builder.Writeln("Page 2.");
-builder.InsertImage(ImageDir + "Logo.jpg");
-builder.InsertBreak(BreakType.PageBreak);
-builder.Writeln("Page 3.");
-
-// Создаем объект "ImageSaveOptions", который мы можем передать в метод "Сохранить" документа
-// чтобы изменить способ, которым этот метод преобразует документ в изображение.
-ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Tiff);
-
-for (int i = 0; i < doc.PageCount; i++)
-{
-    // Устанавливаем в свойство "PageSet" номер первой страницы из
-    // с которого начать рендеринг документа.
-    options.PageSet = new PageSet(i);
-
-    doc.Save(ArtifactsDir + $"ImageSaveOptions.PageByPage.{i + 1}.tiff", options);
-}
-```
-
-Показывает, как указать, какая страница документа должна отображаться как изображение.
+Показывает, как указать, какую страницу документа следует отображать в виде изображения.
 
 ```csharp
 Document doc = new Document();
@@ -79,7 +52,7 @@ Assert.AreEqual(3, doc.PageCount);
 // Мы можем передать объект SaveOptions, чтобы указать другую страницу для отображения.
 ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.Gif);
 
-// Визуализировать каждую страницу документа в отдельный файл изображения.
+// Преобразуем каждую страницу документа в отдельный файл изображения.
 for (int i = 1; i <= doc.PageCount; i++)
 {
     saveOptions.PageSet = new PageSet(1);
@@ -88,7 +61,7 @@ for (int i = 1; i <= doc.PageCount; i++)
 }
 ```
 
-Показывает, как преобразовать одну страницу из документа в изображение JPEG.
+Показывает, как преобразовать каждую страницу документа в отдельное изображение TIFF.
 
 ```csharp
 Document doc = new Document();
@@ -101,17 +74,47 @@ builder.InsertImage(ImageDir + "Logo.jpg");
 builder.InsertBreak(BreakType.PageBreak);
 builder.Writeln("Page 3.");
 
-// Создаем объект "ImageSaveOptions", который мы можем передать в метод "Сохранить" документа
+// Создаем объект ImageSaveOptions, который мы можем передать методу Save документа.
+// чтобы изменить способ, которым этот метод преобразует документ в изображение.
+ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Tiff);
+
+for (int i = 0; i < doc.PageCount; i++)
+{
+    // Устанавливаем для свойства "PageSet" номер первой страницы из
+    // с чего начать рендеринг документа.
+    options.PageSet = new PageSet(i);
+    // Экспортируем страницу с разрешением 2325x5325 пикселей и разрешением 600 точек на дюйм.
+    options.Resolution = 600;
+    options.ImageSize = new Size(2325, 5325);
+
+    doc.Save(ArtifactsDir + $"ImageSaveOptions.PageByPage.{i + 1}.tiff", options);
+}
+```
+
+Показывает, как преобразовать одну страницу документа в изображение JPEG.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+builder.Writeln("Page 1.");
+builder.InsertBreak(BreakType.PageBreak);
+builder.Writeln("Page 2.");
+builder.InsertImage(ImageDir + "Logo.jpg");
+builder.InsertBreak(BreakType.PageBreak);
+builder.Writeln("Page 3.");
+
+// Создаем объект ImageSaveOptions, который мы можем передать методу Save документа.
 // чтобы изменить способ, которым этот метод преобразует документ в изображение.
 ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Jpeg);
 
-// Установите для "PageSet" значение "1", чтобы выбрать вторую страницу через
-// отсчитываемый от нуля индекс, с которого начинается рендеринг документа.
+// Установите для «PageSet» значение «1», чтобы выбрать вторую страницу через
+// индекс, отсчитываемый от нуля, с которого следует начать рендеринг документа.
 options.PageSet = new PageSet(1);
 
 // Когда мы сохраняем документ в формате JPEG, Aspose.Words отображает только одну страницу.
-// Это изображение будет содержать одну страницу, начиная со второй страницы,
-// которая будет просто второй страницей исходного документа.
+// Это изображение будет содержать одну страницу, начиная со второй,
+// это будет всего лишь вторая страница исходного документа.
 doc.Save(ArtifactsDir + "ImageSaveOptions.OnePage.jpg", options);
 ```
 

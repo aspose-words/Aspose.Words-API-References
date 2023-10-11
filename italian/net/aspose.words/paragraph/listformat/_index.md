@@ -16,7 +16,7 @@ public ListFormat ListFormat { get; }
 
 ### Esempi
 
-Mostra come generare in output tutti i paragrafi di un documento che sono voci di elenco.
+Mostra come restituire tutti i paragrafi in un documento che sono elementi di elenco.
 
 ```csharp
 Document doc = new Document();

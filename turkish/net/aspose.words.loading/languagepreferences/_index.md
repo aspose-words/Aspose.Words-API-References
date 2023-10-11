@@ -1,14 +1,16 @@
 ---
 title: Class LanguagePreferences
 second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Loading.LanguagePreferences sınıf. Dil tercihlerini ayarlamanıza izin verir.
+description: Aspose.Words.Loading.LanguagePreferences sınıf. Dil tercihlerini ayarlamanıza olanak tanır.
 type: docs
-weight: 3450
+weight: 3650
 url: /tr/net/aspose.words.loading/languagepreferences/
 ---
 ## LanguagePreferences class
 
-Dil tercihlerini ayarlamanıza izin verir.
+Dil tercihlerini ayarlamanıza olanak tanır.
+
+Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Yükleme Seçeneklerini Belirtin](https://docs.aspose.com/words/net/specify-load-options/) dokümantasyon makalesi.
 
 ```csharp
 public class LanguagePreferences
@@ -35,11 +37,11 @@ public class LanguagePreferences
 
 ### Notlar
 
-Word'de 'Ofis Dil Tercihlerini Ayarla' iletişim kutusunu uygular.
+Word'de 'Office Dil Tercihlerini Ayarla' iletişim kutusunu uygular.
 
 ### Örnekler
 
-Belge yüklerken dil tercihlerinin nasıl uygulanacağını gösterir.
+Bir belgeyi yüklerken dil tercihlerinin nasıl uygulanacağını gösterir.
 
 ```csharp
 LoadOptions loadOptions = new LoadOptions();

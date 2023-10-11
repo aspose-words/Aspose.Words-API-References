@@ -3,7 +3,7 @@ title: Enum EditingLanguage
 second_title: Aspose.Words for .NET API Referansı
 description: Aspose.Words.Loading.EditingLanguage Sıralama. Düzenleme dilini belirtir.
 type: docs
-weight: 3400
+weight: 3600
 url: /tr/net/aspose.words.loading/editinglanguage/
 ---
 ## EditingLanguage enumeration
@@ -248,7 +248,7 @@ public enum EditingLanguage
 
 ### Örnekler
 
-Belge yüklerken dil tercihlerinin nasıl uygulanacağını gösterir.
+Bir belgeyi yüklerken dil tercihlerinin nasıl uygulanacağını gösterir.
 
 ```csharp
 LoadOptions loadOptions = new LoadOptions();

@@ -3,7 +3,7 @@ title: DocumentBuilder.InsertFootnote
 second_title: Aspose.Words لمراجع .NET API
 description: DocumentBuilder طريقة. إدراج حاشية سفلية أو تعليق ختامي في المستند.
 type: docs
-weight: 310
+weight: 340
 url: /ar/net/aspose.words/documentbuilder/insertfootnote/
 ---
 ## InsertFootnote(FootnoteType, string) {#insertfootnote}
@@ -21,31 +21,31 @@ public Footnote InsertFootnote(FootnoteType footnoteType, string footnoteText)
 
 ### قيمة الإرجاع
 
-إرجاع كائن حاشية سفلية تم إنشاؤه للتو.
+إرجاع كائن الحاشية السفلية الذي تم إنشاؤه للتو.
 
 ### أمثلة
 
-يوضح كيفية الإشارة إلى نص مع حاشية سفلية وتعليق ختامي.
+يوضح كيفية الإشارة إلى النص باستخدام حاشية سفلية وتعليق ختامي.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// أدخل بعض النص وقم بتمييزه بحاشية سفلية مع تعيين خاصية IsAuto على "true" افتراضيًا ،
-// لذلك سيتم ترقيم العلامة الظاهرة في النص الأساسي تلقائيًا عند "1" ،
+// قم بإدراج بعض النص ووضع علامة عليه باستخدام حاشية سفلية مع تعيين الخاصية IsAuto على "صحيح" افتراضيًا،
+// لذلك سيتم ترقيم العلامة الموجودة في النص الأساسي تلقائيًا عند "1"،
 // وستظهر الحاشية السفلية في أسفل الصفحة.
 builder.Write("This text will be referenced by a footnote.");
 builder.InsertFootnote(FootnoteType.Footnote, "Footnote comment regarding referenced text.");
 
-// أدخل المزيد من النص وقم بتمييزه بتعليق ختامي بعلامة مرجعية مخصصة ،
-// التي سيتم استخدامها بدلاً من الرقم "2" وتعيين "IsAuto" على خطأ.
+// قم بإدراج المزيد من النص ووضع علامة عليه بتعليق ختامي بعلامة مرجعية مخصصة،
+// والذي سيتم استخدامه بدلاً من الرقم "2" وضبط "IsAuto" على "خطأ".
 builder.Write("This text will be referenced by an endnote.");
 builder.InsertFootnote(FootnoteType.Endnote, "Endnote comment regarding referenced text.", "CustomMark");
 
-// تظهر الحواشي السفلية دائمًا في الجزء السفلي من النص المشار إليه ،
-// لذلك لن يؤثر فاصل الصفحة هذا على الحاشية السفلية.
-// من ناحية أخرى ، تكون التعليقات الختامية دائمًا في نهاية المستند
-// بحيث يدفع فاصل الصفحة هذا التعليق الختامي لأسفل إلى الصفحة التالية.
+// تظهر الحواشي السفلية دائمًا أسفل النص المشار إليه،
+// لذلك لن يؤثر فاصل الصفحات هذا على الحاشية السفلية.
+// ومن ناحية أخرى، تكون التعليقات الختامية دائمًا في نهاية المستند
+// بحيث يؤدي فاصل الصفحة هذا إلى دفع التعليق الختامي إلى الصفحة التالية.
 builder.InsertBreak(BreakType.PageBreak);
 
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertFootnote.docx");
@@ -77,31 +77,31 @@ public Footnote InsertFootnote(FootnoteType footnoteType, string footnoteText, s
 
 ### قيمة الإرجاع
 
-إرجاع كائن حاشية سفلية تم إنشاؤه للتو.
+إرجاع كائن الحاشية السفلية الذي تم إنشاؤه للتو.
 
 ### أمثلة
 
-يوضح كيفية الإشارة إلى نص مع حاشية سفلية وتعليق ختامي.
+يوضح كيفية الإشارة إلى النص باستخدام حاشية سفلية وتعليق ختامي.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// أدخل بعض النص وقم بتمييزه بحاشية سفلية مع تعيين خاصية IsAuto على "true" افتراضيًا ،
-// لذلك سيتم ترقيم العلامة الظاهرة في النص الأساسي تلقائيًا عند "1" ،
+// قم بإدراج بعض النص ووضع علامة عليه باستخدام حاشية سفلية مع تعيين الخاصية IsAuto على "صحيح" افتراضيًا،
+// لذلك سيتم ترقيم العلامة الموجودة في النص الأساسي تلقائيًا عند "1"،
 // وستظهر الحاشية السفلية في أسفل الصفحة.
 builder.Write("This text will be referenced by a footnote.");
 builder.InsertFootnote(FootnoteType.Footnote, "Footnote comment regarding referenced text.");
 
-// أدخل المزيد من النص وقم بتمييزه بتعليق ختامي بعلامة مرجعية مخصصة ،
-// التي سيتم استخدامها بدلاً من الرقم "2" وتعيين "IsAuto" على خطأ.
+// قم بإدراج المزيد من النص ووضع علامة عليه بتعليق ختامي بعلامة مرجعية مخصصة،
+// والذي سيتم استخدامه بدلاً من الرقم "2" وضبط "IsAuto" على "خطأ".
 builder.Write("This text will be referenced by an endnote.");
 builder.InsertFootnote(FootnoteType.Endnote, "Endnote comment regarding referenced text.", "CustomMark");
 
-// تظهر الحواشي السفلية دائمًا في الجزء السفلي من النص المشار إليه ،
-// لذلك لن يؤثر فاصل الصفحة هذا على الحاشية السفلية.
-// من ناحية أخرى ، تكون التعليقات الختامية دائمًا في نهاية المستند
-// بحيث يدفع فاصل الصفحة هذا التعليق الختامي لأسفل إلى الصفحة التالية.
+// تظهر الحواشي السفلية دائمًا أسفل النص المشار إليه،
+// لذلك لن يؤثر فاصل الصفحات هذا على الحاشية السفلية.
+// ومن ناحية أخرى، تكون التعليقات الختامية دائمًا في نهاية المستند
+// بحيث يؤدي فاصل الصفحة هذا إلى دفع التعليق الختامي إلى الصفحة التالية.
 builder.InsertBreak(BreakType.PageBreak);
 
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertFootnote.docx");

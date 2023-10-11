@@ -16,16 +16,16 @@ public bool ExportEmbeddedCss { get; set; }
 
 ### Örnekler
 
-Bir belgeyi Html'e aktarırken CSS stil sayfalarının nerede saklanacağının nasıl belirleneceğini gösterir.
+Bir belgeyi Html'ye aktarırken CSS stil sayfalarının nerede saklanacağının nasıl belirleneceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// Bir belgeyi html'ye aktardığımızda, Aspose.Words ayrıca belgeyi biçimlendirmek için bir CSS stil sayfası oluşturacaktır.
-// "ExportEmbeddedCss" bayrağını "true" olarak ayarlayarak CSS stil sayfasını bir .css dosyasına kaydedin,
-// ve bir <link> kullanarak html belgesindeki dosyaya bağlantı verin. öğe.
-// Bayrağı "false" olarak ayarlamak CSS stil sayfasını Html belgesine gömer,
-// iki yerine yalnızca bir dosya oluşturacak.
+// Bir belgeyi html'ye aktardığımızda Aspose.Words ayrıca belgeyi biçimlendirmek için bir CSS stil sayfası oluşturacaktır.
+// "ExportEmbeddedCss" bayrağını "true" olarak ayarlamak, CSS stil sayfasını bir .css dosyasına kaydedin,
+// ve <link> kullanarak html belgesinden dosyaya bağlantı verin eleman.
+// Bayrağı "yanlış" olarak ayarlamak CSS stil sayfasını Html belgesinin içine yerleştirecektir,
+// bu iki yerine yalnızca bir dosya oluşturacaktır.
 HtmlFixedSaveOptions htmlFixedSaveOptions = new HtmlFixedSaveOptions
 {
     ExportEmbeddedCss = exportEmbeddedCss

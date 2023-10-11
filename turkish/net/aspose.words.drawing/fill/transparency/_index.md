@@ -1,14 +1,14 @@
 ---
 title: Fill.Transparency
 second_title: Aspose.Words for .NET API Referansı
-description: Fill mülk. Belirtilen dolgunun şeffaflık derecesini 0.0 opak ile 1.0 net arasında bir değer olarak alır veya ayarlar.
+description: Fill mülk. Belirtilen dolgunun şeffaflık derecesini 00 opak ile 10 şeffaf arasında bir değer olarak alır veya ayarlar.
 type: docs
-weight: 140
+weight: 200
 url: /tr/net/aspose.words.drawing/fill/transparency/
 ---
 ## Fill.Transparency property
 
-Belirtilen dolgunun şeffaflık derecesini 0.0 (opak) ile 1.0 (net) arasında bir değer olarak alır veya ayarlar.
+Belirtilen dolgunun şeffaflık derecesini 0,0 (opak) ile 1,0 (şeffaf) arasında bir değer olarak alır veya ayarlar.
 
 ```csharp
 public double Transparency { get; set; }
@@ -16,7 +16,7 @@ public double Transparency { get; set; }
 
 ### Notlar
 
-Bu özellik, mülkün tam tersidir.[`Opacity`](../opacity/).
+Bu özellik mülkiyetin tam tersidir[`Opacity`](../opacity/).
 
 ### Ayrıca bakınız
 

@@ -16,9 +16,10 @@ public Node MatchNode { get; }
 
 ### Örnekler
 
-Bul ve değiştir işleminde bir eşleşmenin yerine tüm belgenin içeriğinin nasıl ekleneceğini gösterir.
+Bul ve değiştir işleminde bir eşleşmenin yerine belgenin içeriğinin tamamının nasıl ekleneceğini gösterir.
 
 ```csharp
+public void InsertDocumentAtReplace()
 {
     Document mainDoc = new Document(MyDir + "Document insertion destination.docx");
 
@@ -28,6 +29,8 @@ Bul ve değiştir işleminde bir eşleşmenin yerine tüm belgenin içeriğinin 
 
     mainDoc.Range.Replace(new Regex("\\[MY_DOCUMENT\\]"), "", options);
     mainDoc.Save(ArtifactsDir + "InsertDocument.InsertDocumentAtReplace.docx");
+
+}
 
 private class InsertDocumentAtReplaceHandler : IReplacingCallback
 {
@@ -39,7 +42,7 @@ private class InsertDocumentAtReplaceHandler : IReplacingCallback
         Paragraph para = (Paragraph)args.MatchNode.ParentNode;
         InsertDocument(para, subDoc);
 
-        // Eşleşen metinle paragrafı kaldırın.
+        // Eşleşen metnin bulunduğu paragrafı kaldırın.
         para.Remove();
 
         return ReplaceAction.Skip;
@@ -47,7 +50,7 @@ private class InsertDocumentAtReplaceHandler : IReplacingCallback
 }
 
 /// <summary>
-/// Bir paragraf veya tablodan sonra başka bir belgenin tüm düğümlerini ekler.
+/// Başka bir belgenin tüm düğümlerini bir paragraf veya tablodan sonra ekler.
 /// </summary>
 private static void InsertDocument(Node insertionDestination, Document docToInsert)
 {
@@ -61,7 +64,7 @@ private static void InsertDocument(Node insertionDestination, Document docToInse
         foreach (Section srcSection in docToInsert.Sections.OfType<Section>())
             foreach (Node srcNode in srcSection.Body)
             {
-                // Bir bölümdeki son boş paragraf ise düğümü atlayın.
+                // Bir bölümdeki son boş paragrafsa düğümü atla.
                 if (srcNode.NodeType == NodeType.Paragraph)
                 {
                     Paragraph para = (Paragraph)srcNode;

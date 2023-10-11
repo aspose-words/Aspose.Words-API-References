@@ -26,11 +26,11 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Aspose.Words.Lists.List list = doc.Lists.Add(Aspose.Words.Lists.ListTemplate.NumberDefault);
 
 // Questo elenco generato visualizzerà "1.a )".
- // Lo spazio prima della parentesi è un carattere non delimitatore, che possiamo sopprimere.
+ // Lo spazio prima della parentesi è un carattere non delimitatore, che possiamo eliminare.
 list.ListLevels[0].NumberFormat = "\x0000.";
 list.ListLevels[1].NumberFormat = "\x0001 )";
 
-// Aggiungi testo e applica stili di paragrafo a cui faranno riferimento i campi STYLEREF.
+// Aggiunge testo e applica stili di paragrafo a cui faranno riferimento i campi STYLEREF.
 builder.ListFormat.List = list;
 builder.ListFormat.ListIndent();
 builder.ParagraphFormat.Style = doc.Styles["List Paragraph"];
@@ -42,12 +42,12 @@ builder.Writeln("Item 3");
 builder.ListFormat.RemoveNumbers();
 builder.ParagraphFormat.Style = doc.Styles["Normal"];
 
-// Inserisci un campo STYLEREF nell'intestazione e visualizza il primo testo in stile "Paragrafo elenco" nel documento.
+// Posiziona un campo STYLEREF nell'intestazione e visualizza il primo testo in stile "Paragrafo elenco" nel documento.
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 FieldStyleRef field = (FieldStyleRef)builder.InsertField(FieldType.FieldStyleRef, true);
 field.StyleName = "List Paragraph";
 
-// Inserisci un campo STYLEREF nel piè di pagina e visualizza l'ultimo testo.
+// Posiziona un campo STYLEREF nel piè di pagina e visualizza l'ultimo testo.
 builder.MoveToHeaderFooter(HeaderFooterType.FooterPrimary);
 field = (FieldStyleRef)builder.InsertField(FieldType.FieldStyleRef, true);
 field.StyleName = "List Paragraph";
@@ -55,7 +55,7 @@ field.SearchFromBottom = true;
 
 builder.MoveToDocumentEnd();
 
-// Possiamo anche usare i campi STYLEREF per fare riferimento ai numeri degli elenchi di elenchi.
+// Possiamo anche utilizzare i campi STYLEREF per fare riferimento ai numeri di elenco degli elenchi.
 builder.Write("\nParagraph number: ");
 field = (FieldStyleRef)builder.InsertField(FieldType.FieldStyleRef, true);
 field.StyleName = "Quote";
@@ -77,6 +77,7 @@ field.StyleName = "Quote";
 field.InsertParagraphNumberInFullContext = true;
 field.SuppressNonDelimiters = true;
 
+doc.UpdatePageLayout();
 doc.UpdateFields();
 doc.Save(ArtifactsDir + "Field.STYLEREF.docx");
 ```

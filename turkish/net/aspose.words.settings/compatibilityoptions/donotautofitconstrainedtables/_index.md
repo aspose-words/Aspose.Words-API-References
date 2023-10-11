@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.DoNotAutofitConstrainedTables
 second_title: Aspose.Words for .NET API Referansı
-description: CompatibilityOptions mülk. Tabloları Sarılmış Nesnelerin Yanına Sığdırmak İçin Otomatik Sığdırmayın.
+description: CompatibilityOptions mülk. Tabloları Sarılmış Nesnelerin Yanına Sığacak Şekilde Otomatik Sığdırmayın.
 type: docs
 weight: 120
 url: /tr/net/aspose.words.settings/compatibilityoptions/donotautofitconstrainedtables/
 ---
 ## CompatibilityOptions.DoNotAutofitConstrainedTables property
 
-Tabloları Sarılmış Nesnelerin Yanına Sığdırmak İçin Otomatik Sığdırmayın.
+Tabloları Sarılmış Nesnelerin Yanına Sığacak Şekilde Otomatik Sığdırmayın.
 
 ```csharp
 public bool DoNotAutofitConstrainedTables { get; set; }

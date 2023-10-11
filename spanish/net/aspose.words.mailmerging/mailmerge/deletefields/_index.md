@@ -18,7 +18,7 @@ public void DeleteFields()
 
 Este método elimina los campos MERGEFIELD y NEXT del documento.
 
-Este método podría ser útil si su operación de combinación de correo no siempre necesita para completar todos los campos del documento. Utilice este método para eliminar todos los campos de combinación de correspondencia restantes .
+Este método podría resultar útil si su operación de combinación de correspondencia no siempre necesita para completar todos los campos del documento. Utilice este método para eliminar todos los campos de combinación de correspondencia restantes.
 
 ### Ejemplos
 

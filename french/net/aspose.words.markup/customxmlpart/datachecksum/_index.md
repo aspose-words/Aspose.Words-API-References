@@ -16,7 +16,7 @@ public long DataChecksum { get; }
 
 ### Exemples
 
-Montre comment la somme de contrôle est calculée dans un environnement d'exécution.
+Montre comment la somme de contrôle est calculée dans un runtime.
 
 ```csharp
 Document doc = new Document();
@@ -37,7 +37,7 @@ richText.XmlMapping.SetMapping(doc.CustomXmlParts.Add(Guid.NewGuid().ToString(),
 long updatedChecksum = richText.XmlMapping.CustomXmlPart.DataChecksum;
 Console.WriteLine(updatedChecksum);
 
-// Nous avons modifié le XmlPart de la balise et la somme de contrôle a été mise à jour lors de l'exécution.
+// Nous avons modifié le XmlPart de la balise et la somme de contrôle a été mise à jour au moment de l'exécution.
 Assert.AreNotEqual(checksum, updatedChecksum);
 ```
 

@@ -3,7 +3,7 @@ title: ParagraphFormat.IsListItem
 second_title: Aspose.Words per .NET API Reference
 description: ParagraphFormat proprietà. Vero quando il paragrafo è un elemento in un elenco puntato o numerato.
 type: docs
-weight: 140
+weight: 150
 url: /it/net/aspose.words/paragraphformat/islistitem/
 ---
 ## ParagraphFormat.IsListItem property
@@ -16,17 +16,17 @@ public bool IsListItem { get; }
 
 ### Esempi
 
-Mostra come annidare un elenco all'interno di un altro elenco.
+Mostra come nidificare un elenco all'interno di un altro elenco.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Un elenco ci consente di organizzare e decorare insiemi di paragrafi con simboli e rientri prefissi.
-// Possiamo creare liste nidificate aumentando il livello di rientro. 
-// Possiamo iniziare e terminare un elenco utilizzando la proprietà "ListFormat" di un generatore di documenti. 
+// Un elenco ci consente di organizzare e decorare insiemi di paragrafi con simboli di prefisso e rientri.
+ // Possiamo creare elenchi nidificati aumentando il livello di rientro.
+ // Possiamo iniziare e terminare un elenco utilizzando la proprietà "ListFormat" del generatore di documenti.
 // Ogni paragrafo che aggiungiamo tra l'inizio e la fine di un elenco diventerà un elemento nell'elenco.
-// Crea un elenco di struttura per le intestazioni.
+// Crea un elenco struttura per le intestazioni.
 List outlineList = doc.Lists.Add(ListTemplate.OutlineNumbers);
 builder.ListFormat.List = outlineList;
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
@@ -50,12 +50,12 @@ builder.Writeln("Bulleted list item 1.");
 builder.Writeln("Bulleted list item 2.");
 builder.ParagraphFormat.ClearFormatting();
 
-// Torna all'elenco numerato.
+// Ripristina l'elenco numerato.
 builder.ListFormat.List = numberedList;
 builder.Writeln("Numbered list item 2.");
 builder.Writeln("Numbered list item 3.");
 
-// Torna all'elenco di struttura.
+// Ripristina l'elenco delle strutture.
 builder.ListFormat.List = outlineList;
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
 builder.Writeln("This is my Chapter 2");

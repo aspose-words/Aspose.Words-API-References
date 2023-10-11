@@ -16,7 +16,7 @@ public Paragraph FirstParagraph { get; }
 
 ### 例子
 
-演示如何创建和格式化文本框。
+演示如何创建文本框并设置其格式。
 
 ```csharp
 Document doc = new Document();
@@ -31,7 +31,7 @@ textBox.Width = 200;
 textBox.HorizontalAlignment = HorizontalAlignment.Center;
 textBox.VerticalAlignment = VerticalAlignment.Top;
 
-// 向文本框中添加一个段落，并添加文本框将显示的一连串文本。
+// 将一个段落添加到文本框并添加文本框将显示的一系列文本。
 textBox.AppendChild(new Paragraph(doc));
 Paragraph para = textBox.FirstParagraph;
 para.ParagraphFormat.Alignment = ParagraphAlignment.Center;

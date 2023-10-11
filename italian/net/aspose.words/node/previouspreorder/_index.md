@@ -20,11 +20,11 @@ public Node PreviousPreOrder(Node rootNode)
 
 ### Valore di ritorno
 
-Nodo precedente in ordine di preordine. Null se raggiunto il rootNode.
+Nodo precedente nell'ordine di preordine. Null se raggiunto il*rootNode*.
 
 ### Esempi
 
-Mostra come attraversare l'albero dei nodi del documento utilizzando l'algoritmo di preordine traversal ed eliminare qualsiasi forma incontrata con un'immagine.
+Mostra come attraversare l'albero dei nodi del documento utilizzando l'algoritmo di attraversamento del preordine ed eliminare qualsiasi forma incontrata con un'immagine.
 
 ```csharp
 Document doc = new Document(MyDir + "Images.docx");

@@ -1,14 +1,14 @@
 ---
 title: CellFormat.Shading
 second_title: Aspose.Words لمراجع .NET API
-description: CellFormat ملكية. إرجاع كائن تظليل يشير إلى تنسيق التظليل للخلية.
+description: CellFormat ملكية. إرجاع أShading الكائن الذي يشير إلى تنسيق التظليل للخلية.
 type: docs
-weight: 90
+weight: 100
 url: /ar/net/aspose.words.tables/cellformat/shading/
 ---
 ## CellFormat.Shading property
 
-إرجاع كائن تظليل يشير إلى تنسيق التظليل للخلية.
+إرجاع أ[`Shading`](../../../aspose.words/shading/) الكائن الذي يشير إلى تنسيق التظليل للخلية.
 
 ```csharp
 public Shading Shading { get; }
@@ -16,7 +16,7 @@ public Shading Shading { get; }
 
 ### أمثلة
 
-يوضح كيفية تعديل تنسيق الصفوف والخلايا في جدول.
+يوضح كيفية تعديل تنسيق الصفوف والخلايا في الجدول.
 
 ```csharp
 Document doc = new Document();
@@ -35,7 +35,7 @@ builder.Write("U.K.");
 builder.EndTable();
 
 // استخدم خاصية "RowFormat" للصف الأول لتعديل التنسيق
-// من محتويات جميع الخلايا في هذا الصف.
+// محتويات جميع الخلايا في هذا الصف.
 RowFormat rowFormat = table.FirstRow.RowFormat;
 rowFormat.Height = 25;
 rowFormat.Borders[BorderType.Bottom].Color = Color.Red;
@@ -56,8 +56,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.StartTable();
 
-// تعيين خيارات تنسيق الجدول لمنشئ المستندات
-// سيطبقها على كل صف وخلية نضيفها معها.
+// ضبط خيارات تنسيق الجدول لمنشئ المستندات
+// سيتم تطبيقها على كل صف وخلية نضيفها معها.
 builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
 builder.CellFormat.ClearFormatting();
@@ -80,8 +80,8 @@ builder.InsertCell();
 builder.Write("Row 1, Col 2");
 builder.EndRow();
 
-// سيؤدي تغيير التنسيق إلى تطبيقه على الخلية الحالية ،
-// وأي خلايا جديدة ننشئها باستخدام المنشئ بعد ذلك.
+// سيؤدي تغيير التنسيق إلى تطبيقه على الخلية الحالية،
+// وأي خلايا جديدة نقوم بإنشائها مع المُنشئ بعد ذلك.
 // لن يؤثر هذا على الخلايا التي أضفناها سابقًا.
 builder.CellFormat.Shading.ClearFormatting();
 

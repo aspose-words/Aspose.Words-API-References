@@ -20,11 +20,11 @@ public bool Contains(Node node)
 
 ### Returvärde
 
-Sant om föremål finns i samlingen; annars falskt.
+`Sann` om föremål finns i samlingen; annat,`falsk`.
 
 ### Anmärkningar
 
-Denna metod utför en linjär sökning; därför är den genomsnittliga exekveringstiden proportionell mot Count.
+Denna metod utför en linjär sökning; därför är den genomsnittliga exekveringstiden proportionell mot[`Count`](../count/).
 
 ### Exempel
 

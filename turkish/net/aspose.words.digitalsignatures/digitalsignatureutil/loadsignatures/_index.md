@@ -16,11 +16,11 @@ public static DigitalSignatureCollection LoadSignatures(string fileName)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| fileName | String | Belgeye giden yol. |
+| fileName | String | Belgenin yolu. |
 
 ### Geri dönüş değeri
 
-Dijital imzaların toplanması. Dosya imzalanmamışsa boş koleksiyon döndürür.
+Dijital imzaların toplanması. Dosya imzalanmamışsa boş koleksiyonu döndürür.
 
 ### Örnekler
 
@@ -32,7 +32,7 @@ Dijital olarak imzalanmış bir belgeden imzaların nasıl yükleneceğini göst
 DigitalSignatureCollection digitalSignatures = 
     DigitalSignatureUtil.LoadSignatures(MyDir + "Digitally signed.docx");
 
-// Bu koleksiyon boş değilse, belgenin dijital olarak imzalandığını doğrulayabiliriz.
+// Bu koleksiyon boş değilse belgenin dijital olarak imzalandığını doğrulayabiliriz.
 Assert.AreEqual(1, digitalSignatures.Count);
 
 // 2 - FileStream'den bir belgeden yükleyin:
@@ -43,16 +43,16 @@ using (Stream stream = new FileStream(MyDir + "Digitally signed.docx", FileMode.
 }
 ```
 
-Dijital olarak imzalanmış bir belgeden dijital imzaların nasıl kaldırılacağını gösterir.
+Dijital imzalı bir belgeden dijital imzaların nasıl kaldırılacağını gösterir.
 
 ```csharp
-// Dijital imzaları kaldırmak için DigitalSignatureUtil sınıfını kullanmanın iki yolu vardır.
-// imzasız bir kopyasını yerel dosya sisteminde başka bir yere kaydederek imzalı bir belgeden.
-// 1 - Dosya adı dizelerine göre hem imzalı belgenin hem de imzasız kopyanın konumlarını belirleyin:
+// Dijital imzaları kaldırmak için DigitalSignatureUtil sınıfını kullanmanın iki yolu vardır
+// imzalı bir belgenin imzasız bir kopyasını yerel dosya sisteminde başka bir yere kaydederek.
+// 1 - Hem imzalı belgenin hem de imzasız kopyanın konumlarını dosya adı dizelerine göre belirleyin:
 DigitalSignatureUtil.RemoveAllSignatures(MyDir + "Digitally signed.docx",
     ArtifactsDir + "DigitalSignatureUtil.LoadAndRemove.FromString.docx");
 
-// 2 - Dosya akışlarına göre hem imzalı belgenin hem de imzasız kopyanın konumlarını belirleyin:
+// 2 - Hem imzalı belgenin hem de imzasız kopyanın konumlarını dosya akışlarına göre belirleyin:
 using (Stream streamIn = new FileStream(MyDir + "Digitally signed.docx", FileMode.Open))
 {
     using (Stream streamOut = new FileStream(ArtifactsDir + "DigitalSignatureUtil.LoadAndRemove.FromStream.docx", FileMode.Create))
@@ -77,7 +77,7 @@ Assert.That(DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "DigitalSignature
 
 ## LoadSignatures(Stream) {#loadsignatures}
 
-Akış kullanarak belgeden dijital imzaları yükler.
+Belgeden dijital imzaları akışı kullanarak yükler.
 
 ```csharp
 public static DigitalSignatureCollection LoadSignatures(Stream stream)
@@ -85,11 +85,11 @@ public static DigitalSignatureCollection LoadSignatures(Stream stream)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| stream | Stream | Belgeyle akış yapın. |
+| stream | Stream | Belgeyle akış gerçekleştirin. |
 
 ### Geri dönüş değeri
 
-Dijital imzaların toplanması. Dosya imzalanmamışsa boş koleksiyon döndürür.
+Dijital imzaların toplanması. Dosya imzalanmamışsa boş koleksiyonu döndürür.
 
 ### Örnekler
 
@@ -101,7 +101,7 @@ Dijital olarak imzalanmış bir belgeden imzaların nasıl yükleneceğini göst
 DigitalSignatureCollection digitalSignatures = 
     DigitalSignatureUtil.LoadSignatures(MyDir + "Digitally signed.docx");
 
-// Bu koleksiyon boş değilse, belgenin dijital olarak imzalandığını doğrulayabiliriz.
+// Bu koleksiyon boş değilse belgenin dijital olarak imzalandığını doğrulayabiliriz.
 Assert.AreEqual(1, digitalSignatures.Count);
 
 // 2 - FileStream'den bir belgeden yükleyin:

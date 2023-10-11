@@ -23,14 +23,15 @@ public ShapeRenderer(ShapeBase shape)
 Mostra come eseguire il rendering di una forma con un oggetto Graphics e visualizzarla utilizzando un Windows Form.
 
 ```csharp
+public void RenderShapesOnForm()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
     ShapeForm shapeForm = new ShapeForm(new Size(1017, 840));
 
-    // Di seguito sono riportati due modi per utilizzare la classe "ShapeRenderer" per eseguire il rendering di una forma in un oggetto Graphics.
-    // 1 - Crea una forma con un grafico e rendila su una scala specifica.
+    // Di seguito sono riportati due modi per utilizzare la classe "ShapeRenderer" per eseguire il rendering di una forma su un oggetto Graphics.
+    // 1 - Crea una forma con un grafico e renderla su una scala specifica.
     Chart chart = builder.InsertChart(ChartType.Pie, 500, 400).Chart;
     chart.Series.Clear();
     chart.Series.Add("Desktop Browser Market Share (Oct. 2020)",
@@ -71,7 +72,7 @@ Mostra come eseguire il rendering di una forma con un oggetto Graphics e visuali
 }
 
 /// <summary>
-/// Rendering e visualizzazione di un elenco di forme.
+/// Renderizza e visualizza un elenco di forme.
 /// </summary>
 private class ShapeForm : Form
 {
@@ -120,6 +121,7 @@ private class ShapeForm : Form
         }
     }
 
+    private readonly List<KeyValuePair<ShapeBase, float[]>> mShapesToRender;
 }
 ```
 

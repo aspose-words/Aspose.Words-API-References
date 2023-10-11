@@ -1,14 +1,14 @@
 ---
 title: TableStyle.TopPadding
 second_title: Справочник по API Aspose.Words для .NET
-description: TableStyle свойство. Получает или задает количество места в пунктах для добавления над содержимым ячеек таблицы.
+description: TableStyle свойство. Получает или задает объем пространства в пунктах добавляемого над содержимым ячеек таблицы.
 type: docs
 weight: 140
 url: /ru/net/aspose.words/tablestyle/toppadding/
 ---
 ## TableStyle.TopPadding property
 
-Получает или задает количество места (в пунктах) для добавления над содержимым ячеек таблицы.
+Получает или задает объем пространства (в пунктах), добавляемого над содержимым ячеек таблицы.
 
 ```csharp
 public double TopPadding { get; set; }
@@ -16,7 +16,7 @@ public double TopPadding { get; set; }
 
 ### Примеры
 
-Показывает, как создавать пользовательские настройки стиля для таблицы.
+Показывает, как создать пользовательские настройки стиля для таблицы.
 
 ```csharp
 Document doc = new Document();

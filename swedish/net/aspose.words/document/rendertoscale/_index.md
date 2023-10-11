@@ -3,7 +3,7 @@ title: Document.RenderToScale
 second_title: Aspose.Words för .NET API Referens
 description: Document metod. Gör en dokumentsida till enGraphics objekt i en angiven skala.
 type: docs
-weight: 660
+weight: 700
 url: /sv/net/aspose.words/document/rendertoscale/
 ---
 ## Document.RenderToScale method
@@ -87,7 +87,7 @@ int thumbRows = Math.DivRem(doc.PageCount, thumbnailColumnsNum, out int remainde
 if (remainder > 0)
     thumbRows++;
 
-  // Skala miniatyrerna i förhållande till storleken på den första sidan.
+ // Skala miniatyrerna i förhållande till storleken på den första sidan.
 const float scale = 0.25f;
 Size thumbSize = doc.GetPageInfo(0).GetSizeInPixels(scale, 96);
 

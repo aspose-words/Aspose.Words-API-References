@@ -3,7 +3,7 @@ title: Enum TextBoxWrapMode
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Drawing.TextBoxWrapMode uppräkning. Anger hur text radbryts inuti en form.
 type: docs
-weight: 1190
+weight: 1340
 url: /sv/net/aspose.words.drawing/textboxwrapmode/
 ---
 ## TextBoxWrapMode enumeration

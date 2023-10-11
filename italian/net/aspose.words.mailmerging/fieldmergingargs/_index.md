@@ -3,12 +3,14 @@ title: Class FieldMergingArgs
 second_title: Aspose.Words per .NET API Reference
 description: Aspose.Words.MailMerging.FieldMergingArgs classe. Fornisce i dati per il Unisci campo evento.
 type: docs
-weight: 3550
+weight: 3770
 url: /it/net/aspose.words.mailmerging/fieldmergingargs/
 ---
 ## FieldMergingArgs class
 
 Fornisce i dati per il **Unisci campo** evento.
+
+Per saperne di più, visita il[Stampa unione e reporting](https://docs.aspose.com/words/net/mail-merge-and-reporting/) articolo di documentazione.
 
 ```csharp
 public class FieldMergingArgs : FieldMergingArgsBase
@@ -18,24 +20,25 @@ public class FieldMergingArgs : FieldMergingArgsBase
 
 | Nome | Descrizione |
 | --- | --- |
-| [Document](../../aspose.words.mailmerging/fieldmergingargsbase/document/) { get; } | Restituisce il[`Document`](../fieldmergingargsbase/document/) oggetto per il quale viene eseguita la stampa unione. |
+| [Document](../../aspose.words.mailmerging/fieldmergingargsbase/document/) { get; } | Restituisce il[`Document`](../fieldmergingargsbase/document/) oggetto per cui viene eseguita la stampa unione. |
 | [DocumentFieldName](../../aspose.words.mailmerging/fieldmergingargsbase/documentfieldname/) { get; } | Ottiene il nome del campo di unione come specificato nel documento. |
 | [Field](../../aspose.words.mailmerging/fieldmergingargsbase/field/) { get; } | Ottiene l'oggetto che rappresenta il campo di unione corrente. |
 | [FieldName](../../aspose.words.mailmerging/fieldmergingargsbase/fieldname/) { get; } | Ottiene il nome del campo di unione nell'origine dati. |
 | [FieldValue](../../aspose.words.mailmerging/fieldmergingargsbase/fieldvalue/) { get; set; } | Ottiene o imposta il valore del campo dall'origine dati. |
-| [RecordIndex](../../aspose.words.mailmerging/fieldmergingargsbase/recordindex/) { get; } | Ottiene l'indice in base zero del record che viene unito. |
-| [TableName](../../aspose.words.mailmerging/fieldmergingargsbase/tablename/) { get; } | Ottiene il nome della tabella di dati per l'operazione di unione corrente o una stringa vuota se il nome non è disponibile. |
+| [RecordIndex](../../aspose.words.mailmerging/fieldmergingargsbase/recordindex/) { get; } | Ottiene l'indice in base zero del record da unire. |
+| [TableName](../../aspose.words.mailmerging/fieldmergingargsbase/tablename/) { get; } | Ottiene il nome della tabella dati per l'operazione di unione corrente o una stringa vuota se il nome non è disponibile. |
 | [Text](../../aspose.words.mailmerging/fieldmergingargs/text/) { get; set; } | Ottiene o imposta il testo che verrà inserito nel documento per il campo di unione corrente. |
 
 ### Osservazioni
 
-Il **Unisci campo** l'evento si verifica durante la stampa unione quando nel documento viene rilevato un semplice campo di stampa unione . Puoi rispondere a questo evento per restituire testo per il motore di stampa unione da inserire nel documento.
+IL **Unisci campo** L'evento si verifica durante la stampa unione quando nel documento viene rilevato un semplice campo mail merge . Puoi rispondere a questo evento per restituire il testo che il motore di stampa unione dovrà inserire nel documento.
 
 ### Esempi
 
-Mostra come eseguire una stampa unione con una richiamata personalizzata che gestisce i dati di unione sotto forma di documenti HTML.
+Mostra come eseguire una stampa unione con un callback personalizzato che gestisce i dati di unione sotto forma di documenti HTML.
 
 ```csharp
+public void MergeHtml()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -83,7 +86,7 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
             builder.InsertHtml((string)args.FieldValue);
 
             // Poiché abbiamo già inserito manualmente il contenuto unito,
-             // non avremo bisogno di rispondere a questo evento restituendo il contenuto tramite la proprietà "Testo".
+             // non avremo bisogno di rispondere a questo evento restituendo il contenuto tramite la proprietà "Text".
             args.Text = string.Empty;
         }
     }

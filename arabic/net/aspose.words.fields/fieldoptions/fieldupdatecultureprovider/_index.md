@@ -1,14 +1,14 @@
 ---
 title: FieldOptions.FieldUpdateCultureProvider
 second_title: Aspose.Words لمراجع .NET API
-description: FieldOptions ملكية. الحصول على أو تعيين موفر يقوم بإرجاع كائن ثقافة محدد لكل حقل معين.
+description: FieldOptions ملكية. الحصول على أو تعيين الموفر الذي يُرجع كائن الثقافة الخاص بكل حقل معين.
 type: docs
-weight: 90
+weight: 100
 url: /ar/net/aspose.words.fields/fieldoptions/fieldupdatecultureprovider/
 ---
 ## FieldOptions.FieldUpdateCultureProvider property
 
-الحصول على أو تعيين موفر يقوم بإرجاع كائن ثقافة محدد لكل حقل معين.
+الحصول على أو تعيين الموفر الذي يُرجع كائن الثقافة الخاص بكل حقل معين.
 
 ```csharp
 public IFieldUpdateCultureProvider FieldUpdateCultureProvider { get; set; }
@@ -16,16 +16,15 @@ public IFieldUpdateCultureProvider FieldUpdateCultureProvider { get; set; }
 
 ### ملاحظات
 
-يتم طلب الموفر عند قيمة[`FieldUpdateCultureSource`](../fieldupdateculturesource/) هو **FieldUpdateCultureSource.FieldCode**.
+يتم طلب الموفر عندما تكون قيمة[`FieldUpdateCultureSource`](../fieldupdateculturesource/) يكونFieldCode.
 
-إذا كان الموفر موجودًا ، فسيتم استخدام كائن الثقافة الذي يقوم بإرجاعه لتحديث الحقل. خلاف ذلك ، يتم استخدام ثقافة النظام.
+إذا كان الموفر موجودًا، فسيتم استخدام كائن الثقافة الذي يُرجعه للتحديث الميداني. وبخلاف ذلك، يتم استخدام ثقافة النظام.
 
 ### أمثلة
 
-يوضح كيفية تحديد الثقافة التي تحلل تنسيق التاريخ / الوقت لكل حقل.
+يوضح كيفية تحديد ثقافة تقوم بتوزيع تنسيق التاريخ/الوقت لكل حقل.
 
 ```csharp
-[Test]
 public void DefineDateTimeFormatting()
 {
     Document doc = new Document();
@@ -35,7 +34,7 @@ public void DefineDateTimeFormatting()
 
     doc.FieldOptions.FieldUpdateCultureSource = FieldUpdateCultureSource.FieldCode;
 
-    // تعيين موفر يقوم بإرجاع كائن ثقافة خاص بكل حقل.
+    // قم بتعيين موفر يُرجع كائن ثقافة خاصًا بكل حقل.
     doc.FieldOptions.FieldUpdateCultureProvider = new FieldUpdateCultureProvider();
 
     FieldTime fieldDate = (FieldTime)doc.Range.Fields[0];
@@ -46,12 +45,12 @@ public void DefineDateTimeFormatting()
 }
 
 /// <summary>
-/// يوفر كائن CultureInfo يجب استخدامه أثناء تحديث الحقل.
+/// يوفر كائن CultureInfo الذي يجب استخدامه أثناء تحديث الحقل.
 /// </summary>
 private class FieldUpdateCultureProvider : IFieldUpdateCultureProvider
 {
     /// <summary>
-    /// إرجاع كائن CultureInfo ليتم استخدامه أثناء تحديث الحقل.
+    /// يُرجع كائن CultureInfo ليتم استخدامه أثناء تحديث الحقل.
     /// </summary>
     public CultureInfo GetCulture(string name, Field field)
     {

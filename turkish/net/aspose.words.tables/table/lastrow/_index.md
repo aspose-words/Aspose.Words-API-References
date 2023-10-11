@@ -1,14 +1,14 @@
 ---
 title: Table.LastRow
 second_title: Aspose.Words for .NET API Referansı
-description: Table mülk. Sonuncuyu döndürür Sıra tablodaki düğüm.
+description: Table mülk. Sonuncuyu döndürürRow tablodaki düğüm.
 type: docs
 weight: 180
 url: /tr/net/aspose.words.tables/table/lastrow/
 ---
 ## Table.LastRow property
 
-Sonuncuyu döndürür **Sıra** tablodaki düğüm.
+Sonuncuyu döndürür[`Row`](../../row/) tablodaki düğüm.
 
 ```csharp
 public Row LastRow { get; }

@@ -1,14 +1,14 @@
 ---
 title: EditableRangeEnd.EditableRangeStart
 second_title: Referencia de API de Aspose.Words para .NET
-description: EditableRangeEnd propiedad. EditableRangeStart correspondiente recibido por ID.
+description: EditableRangeEnd propiedad. correspondienteEditableRangeStart  recibido por ID.
 type: docs
 weight: 10
 url: /es/net/aspose.words/editablerangeend/editablerangestart/
 ---
 ## EditableRangeEnd.EditableRangeStart property
 
-EditableRangeStart correspondiente, recibido por ID.
+correspondiente[`EditableRangeStart`](../../editablerangestart/) , recibido por ID.
 
 ```csharp
 public EditableRangeStart EditableRangeStart { get; }
@@ -26,7 +26,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world! Since we have set the document's protection level to read-only," +
                 " we cannot edit this paragraph without the password.");
 
-// Los rangos editables nos permiten dejar partes de documentos protegidos abiertos para su edición.
+// Los rangos editables nos permiten dejar partes de documentos protegidos abiertas para su edición.
 EditableRangeStart editableRangeStart = builder.StartEditableRange();
 builder.Writeln("This paragraph is inside an editable range, and can be edited.");
 EditableRangeEnd editableRangeEnd = builder.EndEditableRange();
@@ -44,8 +44,8 @@ Assert.AreEqual(editableRangeStart.Id, editableRangeEnd.EditableRangeStart.Id);
 Assert.AreEqual(editableRange.Id, editableRangeStart.EditableRange.Id);
 Assert.AreEqual(editableRangeEnd.Id, editableRange.EditableRangeEnd.Id);
 
-// Podemos acceder a los tipos de nodos de cada parte así. El rango editable en sí no es un nodo,
-// sino una entidad que consta de un comienzo, un final y sus contenidos adjuntos.
+// Podemos acceder a los tipos de nodos de cada parte de esta manera. El rango editable en sí no es un nodo,
+// sino una entidad que consta de un inicio, un final y su contenido adjunto.
 Assert.AreEqual(NodeType.EditableRangeStart, editableRangeStart.NodeType);
 Assert.AreEqual(NodeType.EditableRangeEnd, editableRangeEnd.NodeType);
 

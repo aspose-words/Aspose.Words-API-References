@@ -1,14 +1,14 @@
 ---
 title: PageSetup.OtherPagesTray
 second_title: Aspose.Words per .NET API Reference
-description: PageSetup proprietà. Ottiene o imposta il vassoio della carta cestino da utilizzare per tutte le pagine tranne la prima di una sezione. Il valore è specifico dellimplementazione stampante.
+description: PageSetup proprietà. Ottiene o imposta il vassoio della carta scomparto da utilizzare per tutte le pagine tranne la prima di una sezione. Il valore è specifico dellimplementazione stampante.
 type: docs
-weight: 290
+weight: 300
 url: /it/net/aspose.words/pagesetup/otherpagestray/
 ---
 ## PageSetup.OtherPagesTray property
 
-Ottiene o imposta il vassoio della carta (cestino) da utilizzare per tutte le pagine tranne la prima di una sezione. Il valore è specifico dell'implementazione (stampante).
+Ottiene o imposta il vassoio della carta (scomparto) da utilizzare per tutte le pagine tranne la prima di una sezione. Il valore è specifico dell'implementazione (stampante).
 
 ```csharp
 public int OtherPagesTray { get; set; }
@@ -21,13 +21,13 @@ Mostra come fare in modo che tutte le sezioni di un documento utilizzino il vass
 ```csharp
 Document doc = new Document();
 
-// Trova la stampante predefinita che useremo per stampare questo documento.
+// Trova la stampante predefinita che utilizzeremo per stampare questo documento.
 // È possibile definire una stampante specifica utilizzando la proprietà "PrinterName" dell'oggetto PrinterSettings.
 PrinterSettings settings = new PrinterSettings();
 
 // Il valore del vassoio carta memorizzato nei documenti è specifico della stampante.
-// Ciò significa che il codice seguente reimposta tutti i valori del vassoio pagina per utilizzare il vassoio predefinito della stampante corrente.
-// È possibile enumerare PrinterSettings.PaperSources per trovare gli altri valori validi del vassoio della carta della stampante selezionata.
+// Ciò significa che il codice seguente reimposta tutti i valori del vassoio della pagina per utilizzare il vassoio predefinito della stampante corrente.
+// È possibile enumerare PrinterSettings.PaperSources per trovare gli altri valori validi del vassoio carta della stampante selezionata.
 foreach (Section section in doc.Sections.OfType<Section>())
 {
     section.PageSetup.FirstPageTray = settings.DefaultPageSettings.PaperSource.RawKind;
@@ -35,23 +35,23 @@ foreach (Section section in doc.Sections.OfType<Section>())
 }
 ```
 
-Mostra come impostare la stampa utilizzando diversi vassoi della stampante per diversi formati di carta.
+Mostra come impostare la stampa utilizzando vassoi stampante diversi per formati carta diversi.
 
 ```csharp
 Document doc = new Document();
 
-// Trova la stampante predefinita che useremo per stampare questo documento.
+// Trova la stampante predefinita che utilizzeremo per stampare questo documento.
 // È possibile definire una stampante specifica utilizzando la proprietà "PrinterName" dell'oggetto PrinterSettings.
 PrinterSettings settings = new PrinterSettings();
 
 // Questo è il vassoio che utilizzeremo per le pagine nel formato carta "A4".
 int printerTrayForA4 = settings.PaperSources[0].RawKind;
 
-// Questo è il vassoio che useremo per le pagine nel formato carta "Lettera".
+// Questo è il vassoio che utilizzeremo per le pagine nel formato carta "Lettera".
 int printerTrayForLetter = settings.PaperSources[1].RawKind;
 
-// Modifica l'oggetto PageSettings di questa sezione per fare in modo che Microsoft Word indichi la stampante
-// per utilizzare uno dei vassoi che abbiamo identificato sopra, a seconda del formato carta di questa sezione.
+// Modificare l'oggetto PageSettings di questa sezione per fare in modo che Microsoft Word istruisca la stampante
+// per utilizzare uno dei vassoi identificati sopra, a seconda del formato carta di questa sezione.
 foreach (Section section in doc.Sections.OfType<Section>())
 {
     if (section.PageSetup.PaperSize == Aspose.Words.PaperSize.Letter)

@@ -3,7 +3,7 @@ title: ShapeBase.IsInsertRevision
 second_title: Aspose.Words لمراجع .NET API
 description: ShapeBase ملكية. إرجاع صحيح إذا تم إدراج هذا الكائن في Microsoft Word أثناء تمكين تعقب التغييرات.
 type: docs
-weight: 290
+weight: 300
 url: /ar/net/aspose.words.drawing/shapebase/isinsertrevision/
 ---
 ## ShapeBase.IsInsertRevision property
@@ -23,14 +23,14 @@ Document doc = new Document();
 
 Assert.False(doc.TrackRevisions);
 
-// أدخل شكلًا مضمنًا بدون تتبع المراجعات ، مما سيجعل هذا الشكل ليس مراجعة من أي نوع.
+// قم بإدراج شكل سطري دون تتبع المراجعات، مما يجعل هذا الشكل ليس مراجعة من أي نوع.
 Shape shape = new Shape(doc, ShapeType.Cube);
 shape.WrapType = WrapType.Inline;
 shape.Width = 100.0;
 shape.Height = 100.0;
 doc.FirstSection.Body.FirstParagraph.AppendChild(shape);
 
-// ابدأ تتبع المراجعات ثم أدخل شكلًا آخر ، والذي سيكون مراجعة.
+// ابدأ بتتبع المراجعات، ثم أدخل شكلاً آخر، والذي سيكون بمثابة مراجعة.
 doc.StartTrackRevisions("John Doe");
 
 shape = new Shape(doc, ShapeType.Sun);
@@ -45,15 +45,15 @@ Assert.AreEqual(2, shapes.Length);
 
 shapes[0].Remove();
 
-// نظرًا لأننا أزلنا هذا الشكل أثناء تتبعنا للتغييرات ،
-// يستمر الشكل في المستند ويتم اعتباره مراجعة للحذف.
-// سيؤدي قبول هذه المراجعة إلى إزالة الشكل نهائيًا ، وسيؤدي رفضه إلى الاحتفاظ به في المستند.
+// منذ أن قمنا بإزالة هذا الشكل بينما كنا نتتبع التغييرات،
+// يستمر الشكل في المستند ويتم احتسابه كمراجعة حذف.
+// سيؤدي قبول هذه المراجعة إلى إزالة الشكل نهائيًا، وسيؤدي رفضها إلى إبقائه في المستند.
 Assert.AreEqual(ShapeType.Cube, shapes[0].ShapeType);
 Assert.True(shapes[0].IsDeleteRevision);
 
-// وقمنا بإدخال شكل آخر أثناء تتبع التغييرات ، بحيث يتم احتساب هذا الشكل كمراجعة إدراج.
-// سيؤدي قبول هذه المراجعة إلى استيعاب هذا الشكل في المستند باعتباره عدم مراجعة ،
-// وسيؤدي رفض المراجعة إلى إزالة هذا الشكل نهائيًا.
+// وقمنا بإدراج شكل آخر أثناء تتبع التغييرات، بحيث يتم احتساب هذا الشكل كمراجعة للإدراج.
+// سيؤدي قبول هذه المراجعة إلى استيعاب هذا الشكل في المستند باعتباره غير مراجعة،
+// ورفض المراجعة سيؤدي إلى إزالة هذا الشكل نهائيًا.
 Assert.AreEqual(ShapeType.Sun, shapes[1].ShapeType);
 Assert.True(shapes[1].IsInsertRevision);
 ```

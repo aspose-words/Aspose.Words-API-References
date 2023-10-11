@@ -1,14 +1,14 @@
 ---
 title: TxtLoadOptions.DetectNumberingWithWhitespaces
 second_title: Aspose.Words för .NET API Referens
-description: TxtLoadOptions fast egendom. Gör det möjligt att ange hur numrerade listobjekt ska kännas igen när dokument importeras från vanligt textformat. Standardvärdet är sant.
+description: TxtLoadOptions fast egendom. Gör det möjligt att ange hur numrerade listobjekt ska kännas igen när dokument importeras från vanligt textformat. Standardvärdet ärSann.
 type: docs
-weight: 20
+weight: 40
 url: /sv/net/aspose.words.loading/txtloadoptions/detectnumberingwithwhitespaces/
 ---
 ## TxtLoadOptions.DetectNumberingWithWhitespaces property
 
-Gör det möjligt att ange hur numrerade listobjekt ska kännas igen när dokument importeras från vanligt textformat. Standardvärdet är sant.
+Gör det möjligt att ange hur numrerade listobjekt ska kännas igen när dokument importeras från vanligt textformat. Standardvärdet är`Sann`.
 
 ```csharp
 public bool DetectNumberingWithWhitespaces { get; set; }
@@ -16,9 +16,9 @@ public bool DetectNumberingWithWhitespaces { get; set; }
 
 ### Anmärkningar
 
-Om det här alternativet är inställt på falskt, upptäcker listigenkänningsalgoritmen liststycken när listnummer slutar med antingen punkt-, högerparentes eller punktsymboler (som "•", "*", "-" eller "o").
+Om det här alternativet är inställt på`falsk`, listigenkänningsalgoritm upptäcker liststycken, när listnummer slutar med antingen punkt-, högerparentes eller punktsymboler (som "•", "*", "-" eller "o").
 
-Om det här alternativet är inställt på sant, används blanksteg också som listnummeravgränsare: listigenkänningsalgoritm för numrering i arabisk stil (1., 1.1.2.) använder både blanksteg och punktsymboler (".").
+Om det här alternativet är inställt på`Sann`blanksteg används också som listnummeravgränsare: listigenkänningsalgoritm för numrering i arabisk stil (1., 1.1.2.) använder både blanksteg och punktsymboler (".").
 
 ### Exempel
 

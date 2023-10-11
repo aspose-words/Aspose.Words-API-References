@@ -3,7 +3,7 @@ title: DocumentBuilder.InsertCell
 second_title: Aspose.Words لمراجع .NET API
 description: DocumentBuilder طريقة. إدراج خلية جدول في المستند.
 type: docs
-weight: 250
+weight: 270
 url: /ar/net/aspose.words/documentbuilder/insertcell/
 ---
 ## DocumentBuilder.InsertCell method
@@ -16,17 +16,17 @@ public Cell InsertCell()
 
 ### قيمة الإرجاع
 
-عقدة الخلية التي تم إدخالها للتو.
+عقدة الخلية التي تم إدراجها للتو.
 
 ### ملاحظات
 
-لبدء طاولة ، اتصل فقط **أدخل الخلية** . بعد ذلك ، أي محتوى تضيفه باستخدام طرق أخرى لملف[`DocumentBuilder`](../) ستتم إضافة فئة إلى الخلية الحالية.
+لبدء طاولة، فقط اتصل`InsertCell` . بعد ذلك، أي محتوى تضيفه باستخدام طرق أخرى[`DocumentBuilder`](../) ستتم إضافة الفئة إلى الخلية الحالية.
 
-لبدء خلية جديدة في نفس الصف ، اتصل **أدخل الخلية** تكرارا.
+لبدء خلية جديدة في نفس الصف، اتصل`InsertCell` مرة أخرى.
 
-لإنهاء استدعاء صف الجدول[`EndRow`](../endrow/).
+لإنهاء مكالمة صف الجدول[`EndRow`](../endrow/).
 
-استخدم ال[`CellFormat`](../cellformat/)خاصية لتحديد تنسيق الخلية.
+استخدم ال[`CellFormat`](../cellformat/)خاصية تحديد تنسيق الخلية.
 
 ### أمثلة
 
@@ -36,14 +36,14 @@ public Cell InsertCell()
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// ابدأ الجدول ، ثم املأ الصف الأول بخليتين.
+// ابدأ الجدول، ثم املأ الصف الأول بخليتين.
 builder.StartTable();
 builder.InsertCell();
 builder.Write("Row 1, Cell 1.");
 builder.InsertCell();
 builder.Write("Row 1, Cell 2.");
 
-// اتصل بطريقة "EndRow" الخاصة بالباني لبدء صف جديد.
+// اتصل بطريقة "EndRow" الخاصة بالمنشئ لبدء صف جديد.
 builder.EndRow();
 builder.InsertCell();
 builder.Write("Row 2, Cell 1.");
@@ -62,8 +62,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.StartTable();
 
-// تعيين خيارات تنسيق الجدول لمنشئ المستندات
-// سيطبقها على كل صف وخلية نضيفها معها.
+// ضبط خيارات تنسيق الجدول لمنشئ المستندات
+// سيتم تطبيقها على كل صف وخلية نضيفها معها.
 builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
 builder.CellFormat.ClearFormatting();
@@ -86,8 +86,8 @@ builder.InsertCell();
 builder.Write("Row 1, Col 2");
 builder.EndRow();
 
-// سيؤدي تغيير التنسيق إلى تطبيقه على الخلية الحالية ،
-// وأي خلايا جديدة ننشئها باستخدام المنشئ بعد ذلك.
+// سيؤدي تغيير التنسيق إلى تطبيقه على الخلية الحالية،
+// وأي خلايا جديدة نقوم بإنشائها مع المُنشئ بعد ذلك.
 // لن يؤثر هذا على الخلايا التي أضفناها سابقًا.
 builder.CellFormat.Shading.ClearFormatting();
 

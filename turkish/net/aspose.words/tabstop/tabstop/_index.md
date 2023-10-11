@@ -24,7 +24,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 TabStopCollection tabStops = builder.ParagraphFormat.TabStops;
 
-// 72 nokta, Microsoft Word sekmesi durdurma cetvelinde bir "inç"tir.
+// 72 nokta, Microsoft Word sekme durağı cetvelinde bir "inç"tir.
 tabStops.Add(new TabStop(72.0));
 tabStops.Add(new TabStop(432.0, TabAlignment.Right, TabLeader.Dashes));
 
@@ -39,15 +39,15 @@ ParagraphCollection paragraphs = doc.FirstSection.Body.Paragraphs;
 
 Assert.AreEqual(2, paragraphs.Count);
 
-// Her paragraf, değerlerini belge oluşturucunun sekme durağı koleksiyonundan kopyalayan sekme durağı koleksiyonunu alır.
+// Her paragraf, değerlerini belge oluşturucunun sekme durağı koleksiyonundan kopyalayan kendi sekme durağı koleksiyonunu alır.
 Assert.AreEqual(paragraphs[0].ParagraphFormat.TabStops, paragraphs[1].ParagraphFormat.TabStops);
 Assert.AreNotSame(paragraphs[0].ParagraphFormat.TabStops, paragraphs[1].ParagraphFormat.TabStops);
 
-// Bir sekme durağı koleksiyonu bizi belirli konumlardan önce ve sonra TabStop'lara yönlendirebilir.
+// Bir sekme durağı koleksiyonu bizi belirli konumlardan önceki ve sonraki TabStop'lara yönlendirebilir.
 Assert.AreEqual(72.0, tabStops.Before(100.0).Position);
 Assert.AreEqual(432.0, tabStops.After(100.0).Position);
 
-// Varsayılan sekme davranışına geri dönmek için bir paragrafın sekme durağı koleksiyonunu temizleyebiliriz.
+// Varsayılan sekme davranışına geri dönmek için paragrafın sekme durağı koleksiyonunu temizleyebiliriz.
 paragraphs[1].ParagraphFormat.TabStops.Clear();
 
 Assert.AreEqual(0, paragraphs[1].ParagraphFormat.TabStops.Count);
@@ -73,9 +73,9 @@ public TabStop(double position, TabAlignment alignment, TabLeader leader)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| position | Double | Sekmenin konumu nokta olarak durur. |
-| alignment | TabAlignment | A[`TabAlignment`](../../tabalignment/) that değeri, bu sekme durağındaki metnin hizalamasını belirtir. |
-| leader | TabLeader | A[`TabLeader`](../../tableader/) sekme karakterinin altında görüntülenen öncü satırın türünü belirten değer. |
+| position | Double | Sekme durağının nokta cinsinden konumu. |
+| alignment | TabAlignment | A[`TabAlignment`](../../tabalignment/) that değeri metnin bu sekme durağındaki hizalamasını belirtir. |
+| leader | TabLeader | A[`TabLeader`](../../tableader/) Sekme karakterinin altında görüntülenen öncü satırın türünü belirten değer. |
 
 ### Örnekler
 
@@ -87,7 +87,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 TabStopCollection tabStops = builder.ParagraphFormat.TabStops;
 
-// 72 nokta, Microsoft Word sekmesi durdurma cetvelinde bir "inç"tir.
+// 72 nokta, Microsoft Word sekme durağı cetvelinde bir "inç"tir.
 tabStops.Add(new TabStop(72.0));
 tabStops.Add(new TabStop(432.0, TabAlignment.Right, TabLeader.Dashes));
 
@@ -102,15 +102,15 @@ ParagraphCollection paragraphs = doc.FirstSection.Body.Paragraphs;
 
 Assert.AreEqual(2, paragraphs.Count);
 
-// Her paragraf, değerlerini belge oluşturucunun sekme durağı koleksiyonundan kopyalayan sekme durağı koleksiyonunu alır.
+// Her paragraf, değerlerini belge oluşturucunun sekme durağı koleksiyonundan kopyalayan kendi sekme durağı koleksiyonunu alır.
 Assert.AreEqual(paragraphs[0].ParagraphFormat.TabStops, paragraphs[1].ParagraphFormat.TabStops);
 Assert.AreNotSame(paragraphs[0].ParagraphFormat.TabStops, paragraphs[1].ParagraphFormat.TabStops);
 
-// Bir sekme durağı koleksiyonu bizi belirli konumlardan önce ve sonra TabStop'lara yönlendirebilir.
+// Bir sekme durağı koleksiyonu bizi belirli konumlardan önceki ve sonraki TabStop'lara yönlendirebilir.
 Assert.AreEqual(72.0, tabStops.Before(100.0).Position);
 Assert.AreEqual(432.0, tabStops.After(100.0).Position);
 
-// Varsayılan sekme davranışına geri dönmek için bir paragrafın sekme durağı koleksiyonunu temizleyebiliriz.
+// Varsayılan sekme davranışına geri dönmek için paragrafın sekme durağı koleksiyonunu temizleyebiliriz.
 paragraphs[1].ParagraphFormat.TabStops.Clear();
 
 Assert.AreEqual(0, paragraphs[1].ParagraphFormat.TabStops.Count);

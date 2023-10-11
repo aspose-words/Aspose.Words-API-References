@@ -1,14 +1,14 @@
 ---
 title: NodeRendererBase.RenderToSize
 second_title: Référence de l'API Aspose.Words pour .NET
-description: NodeRendererBase méthode. Rend la forme en unGraphics objet à une taille spécifiée.
+description: NodeRendererBase méthode. Rend la forme dans unGraphics objet à une taille spécifiée.
 type: docs
 weight: 80
 url: /fr/net/aspose.words.rendering/noderendererbase/rendertosize/
 ---
 ## NodeRendererBase.RenderToSize method
 
-Rend la forme en unGraphics objet à une taille spécifiée.
+Rend la forme dans unGraphics objet à une taille spécifiée.
 
 ```csharp
 public float RenderToSize(Graphics graphics, float x, float y, float width, float height)
@@ -17,28 +17,29 @@ public float RenderToSize(Graphics graphics, float x, float y, float width, floa
 | Paramètre | Taper | La description |
 | --- | --- | --- |
 | graphics | Graphics | L'objet vers lequel effectuer le rendu. |
-| x | Single | Coordonnée X (en unités universelles) du coin supérieur gauche de la forme rendue. |
-| y | Single | Coordonnée Y (en unités universelles) du coin supérieur gauche de la forme rendue. |
-| width | Single | La largeur maximale (en unités universelles) pouvant être occupée par la forme rendue. |
-| height | Single | La hauteur maximale (en unités universelles) pouvant être occupée par la forme rendue. |
+| x | Single | La coordonnée X (en unités mondiales) du coin supérieur gauche de la forme rendue. |
+| y | Single | La coordonnée Y (en unités mondiales) du coin supérieur gauche de la forme rendue. |
+| width | Single | La largeur maximale (en unités mondiales) pouvant être occupée par la forme rendue. |
+| height | Single | Hauteur maximale (en unités universelles) pouvant être occupée par la forme rendue. |
 
 ### Return_Value
 
-L'échelle qui a été automatiquement calculée pour que la forme rendue corresponde à la taille spécifiée.
+L'échelle qui a été automatiquement calculée pour que la forme rendue s'adapte à la taille spécifiée.
 
 ### Exemples
 
-Montre comment rendre une forme avec un objet Graphics et l'afficher à l'aide d'un Windows Form.
+Montre comment restituer une forme avec un objet Graphics et l’afficher à l’aide d’un Windows Form.
 
 ```csharp
+public void RenderShapesOnForm()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
     ShapeForm shapeForm = new ShapeForm(new Size(1017, 840));
 
-    // Vous trouverez ci-dessous deux manières d'utiliser la classe "ShapeRenderer" pour restituer une forme à un objet Graphics.
-    // 1 - Créez une forme avec un graphique et affichez-la à une échelle spécifique.
+    // Vous trouverez ci-dessous deux manières d'utiliser la classe "ShapeRenderer" pour restituer une forme dans un objet Graphics.
+    // 1 - Créez une forme avec un graphique et restituez-la à une échelle spécifique.
     Chart chart = builder.InsertChart(ChartType.Pie, 500, 400).Chart;
     chart.Series.Clear();
     chart.Series.Add("Desktop Browser Market Share (Oct. 2020)",
@@ -49,7 +50,7 @@ Montre comment rendre une forme avec un objet Graphics et l'afficher à l'aide d
 
     shapeForm.AddShapeToRenderToScale(chartShape, 0, 0, 1.5f);
 
-    // 2 - Créez un groupe de formes et rendez-le à une taille spécifique.
+    // 2 - Créez un groupe de formes et affichez-le à une taille spécifique.
     GroupShape group = new GroupShape(doc);
     group.Bounds = new RectangleF(0, 0, 100, 100);
     group.CoordSize = new Size(500, 500);
@@ -128,6 +129,7 @@ private class ShapeForm : Form
         }
     }
 
+    private readonly List<KeyValuePair<ShapeBase, float[]>> mShapesToRender;
 }
 ```
 

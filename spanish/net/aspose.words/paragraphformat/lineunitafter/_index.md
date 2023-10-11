@@ -1,14 +1,14 @@
 ---
 title: ParagraphFormat.LineUnitAfter
 second_title: Referencia de API de Aspose.Words para .NET
-description: ParagraphFormat propiedad. Obtiene o establece la cantidad de espacio en líneas de cuadrícula después de los párrafos.
+description: ParagraphFormat propiedad. Obtiene o establece la cantidad de espaciado en líneas de cuadrícula después de los párrafos.
 type: docs
-weight: 210
+weight: 220
 url: /es/net/aspose.words/paragraphformat/lineunitafter/
 ---
 ## ParagraphFormat.LineUnitAfter property
 
-Obtiene o establece la cantidad de espacio (en líneas de cuadrícula) después de los párrafos.
+Obtiene o establece la cantidad de espaciado (en líneas de cuadrícula) después de los párrafos.
 
 ```csharp
 public double LineUnitAfter { get; set; }
@@ -16,7 +16,7 @@ public double LineUnitAfter { get; set; }
 
 ### Ejemplos
 
-Muestra cómo cambiar el espacio entre párrafos y las sangrías.
+Muestra cómo cambiar el espaciado y la sangría de los párrafos.
 
 ```csharp
 Document doc = new Document();
@@ -45,14 +45,14 @@ format.CharacterUnitFirstLineIndent = 20.3;
 
 Assert.AreEqual(format.FirstLineIndent, 243.59d, 0.1d);
 
-// 4 - Interlineado antes de los párrafos:
+// 4 - Interlineado antes de párrafos:
 Assert.AreEqual(format.SpaceBefore, 0.0d);
 
 format.LineUnitBefore = 5.1;
 
 Assert.AreEqual(format.SpaceBefore, 61.1d, 0.1d);
 
-// 5 - Interlineado después de los párrafos:
+// 5 - Interlineado después de párrafos:
 Assert.AreEqual(format.SpaceAfter, 0.0d);
 
 format.LineUnitAfter = 10.9;

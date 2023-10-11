@@ -1,14 +1,14 @@
 ---
 title: DocSaveOptions.SaveRoutingSlip
 second_title: Aspose.Words for .NET API Referansı
-description: DocSaveOptions mülk. Ne zamanyanlış  RoutingSlip verileri çıktı belgesine kaydedilmez. Varsayılan değer doğru .
+description: DocSaveOptions mülk. Ne zamanYANLIŞ  RoutingSlip verileri çıktı belgesine kaydedilmez. Varsayılan değerdoğru .
 type: docs
 weight: 60
 url: /tr/net/aspose.words.saving/docsaveoptions/saveroutingslip/
 ---
 ## DocSaveOptions.SaveRoutingSlip property
 
-Ne zaman`yanlış` , RoutingSlip verileri çıktı belgesine kaydedilmez. Varsayılan değer **doğru** .
+Ne zaman`YANLIŞ` , RoutingSlip verileri çıktı belgesine kaydedilmez. Varsayılan değer:`doğru` .
 
 ```csharp
 public bool SaveRoutingSlip { get; set; }
@@ -16,7 +16,7 @@ public bool SaveRoutingSlip { get; set; }
 
 ### Örnekler
 
-Daha eski Microsoft Word biçimleri için kaydetme seçeneklerinin nasıl ayarlanacağını gösterir.
+Eski Microsoft Word formatları için kaydetme seçeneklerinin nasıl ayarlanacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -29,13 +29,13 @@ DocSaveOptions options = new DocSaveOptions(SaveFormat.Doc);
 // Bunun belgenin içeriğini hiçbir şekilde şifrelemediğini unutmayın.
 options.Password = "MyPassword";
 
-// Belge bir yönlendirme fişi içeriyorsa, bu bayrağı true olarak ayarlayarak kaydederken koruyabiliriz.
+// Doküman bir yönlendirme fişi içeriyorsa bu bayrağı true yaparak kaydederken onu koruyabiliriz.
 options.SaveRoutingSlip = true;
 
 doc.Save(ArtifactsDir + "DocSaveOptions.SaveAsDoc.doc", options);
 
-// Belgeyi yükleyebilmek için,
-// DocSaveOptions nesnesinde belirttiğimiz parolayı bir LoadOptions nesnesinde uygulamamız gerekecek.
+// Dokümanı yükleyebilmek için,
+// DocSaveOptions nesnesinde belirttiğimiz şifreyi bir LoadOptions nesnesine uygulamamız gerekecek.
 Assert.Throws<IncorrectPasswordException>(() => doc = new Document(ArtifactsDir + "DocSaveOptions.SaveAsDoc.doc"));
 
 LoadOptions loadOptions = new LoadOptions("MyPassword");

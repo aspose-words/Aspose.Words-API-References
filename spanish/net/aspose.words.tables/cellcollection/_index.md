@@ -3,12 +3,14 @@ title: Class CellCollection
 second_title: Referencia de API de Aspose.Words para .NET
 description: Aspose.Words.Tables.CellCollection clase. Proporciona acceso escrito a una colección deCell nodos.
 type: docs
-weight: 5950
+weight: 6250
 url: /es/net/aspose.words.tables/cellcollection/
 ---
 ## CellCollection class
 
 Proporciona acceso escrito a una colección de[`Cell`](../cell/) nodos.
+
+Para obtener más información, visite el[Trabajar con tablas](https://docs.aspose.com/words/net/working-with-tables/) artículo de documentación.
 
 ```csharp
 public class CellCollection : NodeCollection
@@ -19,7 +21,7 @@ public class CellCollection : NodeCollection
 | Nombre | Descripción |
 | --- | --- |
 | [Count](../../aspose.words/nodecollection/count/) { get; } | Obtiene el número de nodos de la colección. |
-| [Item](../../aspose.words.tables/cellcollection/item/) { get; } | Recupera un **Célula** en el índice dado. (2 indexers) |
+| [Item](../../aspose.words.tables/cellcollection/item/) { get; } | Recupera un[`Cell`](../cell/) en el índice dado. (2 indexers) |
 
 ## Métodos
 
@@ -33,7 +35,7 @@ public class CellCollection : NodeCollection
 | [Insert](../../aspose.words/nodecollection/insert/)(int, Node) | Inserta un nodo en la colección en el índice especificado. |
 | [Remove](../../aspose.words/nodecollection/remove/)(Node) | Elimina el nodo de la colección y del documento. |
 | [RemoveAt](../../aspose.words/nodecollection/removeat/)(int) | Elimina el nodo en el índice especificado de la colección y del documento. |
-| [ToArray](../../aspose.words.tables/cellcollection/toarray/#toarray_1)() | Copia todas las celdas de la colección a una nueva matriz de celdas. (2 methods) |
+| [ToArray](../../aspose.words.tables/cellcollection/toarray/#toarray_1)() | Copia todas las celdas de la colección en una nueva matriz de celdas. (2 methods) |
 
 ### Ejemplos
 

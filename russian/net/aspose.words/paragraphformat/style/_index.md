@@ -1,14 +1,14 @@
 ---
 title: ParagraphFormat.Style
 second_title: Справочник по API Aspose.Words для .NET
-description: ParagraphFormat свойство. Получает или задает стиль абзаца применяемый к этому форматированию.
+description: ParagraphFormat свойство. Получает или задает стиль абзаца примененный к данному форматированию.
 type: docs
-weight: 330
+weight: 340
 url: /ru/net/aspose.words/paragraphformat/style/
 ---
 ## ParagraphFormat.Style property
 
-Получает или задает стиль абзаца, применяемый к этому форматированию.
+Получает или задает стиль абзаца, примененный к данному форматированию.
 
 ```csharp
 public Style Style { get; set; }
@@ -22,7 +22,7 @@ public Style Style { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Создать собственный стиль абзаца.
+// Создаем собственный стиль абзаца.
 Style style = doc.Styles.Add(StyleType.Paragraph, "MyStyle1");
 style.Font.Size = 24;
 style.Font.Name = "Verdana";
@@ -32,11 +32,11 @@ style.ParagraphFormat.SpaceAfter = 12;
 style.ListFormat.List = doc.Lists.Add(ListTemplate.BulletDefault);
 style.ListFormat.ListLevelNumber = 0;
 
-// Применяем стиль абзаца к текущему абзацу конструктора документов, а затем добавляем текст.
+// Примените стиль абзаца к текущему абзацу конструктора документов, а затем добавьте текст.
 builder.ParagraphFormat.Style = style;
 builder.Writeln("Hello World: MyStyle1, bulleted list.");
 
-// Измените стиль построителя документа на стиль без форматирования списка и напишите еще один абзац.
+// Измените стиль компоновщика документов на стиль без форматирования списка и напишите еще один абзац.
 builder.ParagraphFormat.Style = doc.Styles["Normal"];
 builder.Writeln("Hello World: Normal.");
 

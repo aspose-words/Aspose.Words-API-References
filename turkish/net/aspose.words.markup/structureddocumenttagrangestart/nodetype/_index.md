@@ -1,12 +1,14 @@
 ---
 title: StructuredDocumentTagRangeStart.NodeType
 second_title: Aspose.Words for .NET API Referansı
-description: StructuredDocumentTagRangeStart mülk. 
+description: StructuredDocumentTagRangeStart mülk. İadelerStructuredDocumentTagRangeStart .
 type: docs
 weight: 100
 url: /tr/net/aspose.words.markup/structureddocumenttagrangestart/nodetype/
 ---
 ## StructuredDocumentTagRangeStart.NodeType property
+
+İadelerStructuredDocumentTagRangeStart .
 
 ```csharp
 public override NodeType NodeType { get; }

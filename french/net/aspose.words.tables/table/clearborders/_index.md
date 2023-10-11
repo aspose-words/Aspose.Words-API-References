@@ -3,7 +3,7 @@ title: Table.ClearBorders
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Table méthode. Supprime toutes les bordures de tableau et de cellule de ce tableau.
 type: docs
-weight: 370
+weight: 390
 url: /fr/net/aspose.words.tables/table/clearborders/
 ---
 ## Table.ClearBorders method
@@ -25,7 +25,7 @@ Table table = doc.FirstSection.Body.Tables[0];
 // Aligne le tableau au centre de la page.
 table.Alignment = TableAlignment.Center;
 
-// Efface toutes les bordures et tous les ombrages existants du tableau.
+// Supprime toutes les bordures et tous les ombrages existants du tableau.
 table.ClearBorders();
 table.ClearShading();
 
@@ -35,13 +35,13 @@ table.SetBorder(BorderType.Right, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Top, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Bottom, LineStyle.Single, 1.5, Color.Green, true);
 
-// Remplissez les cellules avec une couleur unie vert clair.
+// Remplit les cellules avec une couleur unie vert clair.
 table.SetShading(TextureIndex.TextureSolid, Color.LightGreen, Color.Empty);
 
 doc.Save(ArtifactsDir + "Table.SetOutlineBorders.docx");
 ```
 
-Montre comment supprimer toutes les bordures d'un tableau.
+Montre comment supprimer toutes les bordures d’un tableau.
 
 ```csharp
 Document doc = new Document();
@@ -64,7 +64,7 @@ Assert.AreEqual(LineStyle.Double, topBorder.LineStyle);
 table.ClearBorders();
 doc.Save(ArtifactsDir + "Table.ClearBorders.docx");
 
-// Vérifiez les valeurs des propriétés de la table après avoir rouvert le document.
+// Vérifiez les valeurs des propriétés de la table après la réouverture du document.
 doc = new Document(ArtifactsDir + "Table.ClearBorders.docx");
 table = doc.FirstSection.Body.Tables[0];
 topBorder = table.FirstRow.RowFormat.Borders[BorderType.Top];

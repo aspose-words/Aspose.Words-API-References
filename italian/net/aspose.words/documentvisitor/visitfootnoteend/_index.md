@@ -1,14 +1,14 @@
 ---
 title: DocumentVisitor.VisitFootnoteEnd
 second_title: Aspose.Words per .NET API Reference
-description: DocumentVisitor metodo. Chiamato quando lenumerazione di una nota a piè di pagina o del testo di una nota di chiusura è terminata.
+description: DocumentVisitor metodo. Chiamato al termine dellenumerazione del testo di una nota a piè di pagina o di chiusura.
 type: docs
 weight: 210
 url: /it/net/aspose.words/documentvisitor/visitfootnoteend/
 ---
 ## DocumentVisitor.VisitFootnoteEnd method
 
-Chiamato quando l'enumerazione di una nota a piè di pagina o del testo di una nota di chiusura è terminata.
+Chiamato al termine dell'enumerazione del testo di una nota a piè di pagina o di chiusura.
 
 ```csharp
 public virtual VisitorAction VisitFootnoteEnd(Footnote footnote)
@@ -24,7 +24,7 @@ UN[`VisitorAction`](../../visitoraction/) valore che specifica come continuare l
 
 ### Esempi
 
-Mostra come stampare la struttura del nodo di ogni nota a piè di pagina in un documento.
+Mostra come stampare la struttura dei nodi di ogni nota a piè di pagina in un documento.
 
 ```csharp
 public void FootnoteToText()
@@ -32,8 +32,8 @@ public void FootnoteToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     FootnoteStructurePrinter visitor = new FootnoteStructurePrinter();
 
-    // Quando otteniamo un nodo composito per accettare un visitatore del documento, il visitatore visita il nodo di accettazione,
-    // e quindi attraversa tutti i figli del nodo in modo approfondito.
+    // Quando facciamo in modo che un nodo composito accetti un visitatore del documento, il visitatore visita il nodo accettante,
+    // e poi attraversa tutti i figli del nodo in modo approfondito.
     // Il visitatore può leggere e modificare ogni nodo visitato.
     doc.Accept(visitor);
 
@@ -41,8 +41,8 @@ public void FootnoteToText()
 }
 
 /// <summary>
-/// Attraversa l'albero non binario di nodi figlio di un nodo.
-/// Crea una mappa sotto forma di stringa di tutti i nodi Footnote incontrati e dei loro figli.
+/// Attraversa l'albero non binario dei nodi figlio di un nodo.
+/// Crea una mappa sotto forma di una stringa di tutti i nodi delle note a piè di pagina incontrati e dei loro figli.
 /// </summary>
 public class FootnoteStructurePrinter : DocumentVisitor
 {
@@ -53,7 +53,7 @@ public class FootnoteStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Ottiene il testo normale del documento accumulato dal visitatore.
+    /// Ottiene il testo semplice del documento accumulato dal visitatore.
     /// </summary>
     public string GetText()
     {
@@ -61,7 +61,7 @@ public class FootnoteStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando viene rilevato un nodo Nota a piè di pagina nel documento.
+    /// Chiamato quando nel documento viene incontrato un nodo Nota a piè di pagina.
     /// </summary>
     public override VisitorAction VisitFootnoteStart(Footnote footnote)
     {
@@ -73,7 +73,7 @@ public class FootnoteStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato dopo che tutti i nodi figlio di un nodo Footnote sono stati visitati.
+    /// Chiamato dopo che tutti i nodi figli di un nodo Footnote sono stati visitati.
     /// </summary>
     public override VisitorAction VisitFootnoteEnd(Footnote footnote)
     {
@@ -85,7 +85,7 @@ public class FootnoteStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando viene rilevato un nodo Run nel documento.
+    /// Chiamato quando nel documento viene incontrato un nodo Esegui.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -95,9 +95,9 @@ public class FootnoteStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Aggiunge una riga a StringBuilder e la indenta in base alla profondità del visitatore nell'albero del documento.
+    /// Aggiunge una riga allo StringBuilder e la rientra in base alla profondità con cui si trova il visitatore nell'albero del documento.
     /// </summary>
-    /// <nome parametro="testo"></param>
+    /// <param name="text"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++) mBuilder.Append("|  ");

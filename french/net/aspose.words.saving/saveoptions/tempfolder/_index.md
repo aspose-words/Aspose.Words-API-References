@@ -1,14 +1,14 @@
 ---
 title: SaveOptions.TempFolder
 second_title: Référence de l'API Aspose.Words pour .NET
-description: SaveOptions propriété. Spécifie le dossier des fichiers temporaires utilisés lors de lenregistrement dans un fichier DOC ou DOCX. Par défaut cette propriété estnul et aucun fichier temporaire nest utilisé.
+description: SaveOptions propriété. Spécifie le dossier des fichiers temporaires utilisé lors de lenregistrement dans un fichier DOC ou DOCX. Par défaut cette propriété estnul et aucun fichier temporaire nest utilisé.
 type: docs
-weight: 150
+weight: 140
 url: /fr/net/aspose.words.saving/saveoptions/tempfolder/
 ---
 ## SaveOptions.TempFolder property
 
-Spécifie le dossier des fichiers temporaires utilisés lors de l'enregistrement dans un fichier DOC ou DOCX. Par défaut, cette propriété est`nul` et aucun fichier temporaire n'est utilisé.
+Spécifie le dossier des fichiers temporaires utilisé lors de l'enregistrement dans un fichier DOC ou DOCX. Par défaut, cette propriété est`nul` et aucun fichier temporaire n'est utilisé.
 
 ```csharp
 public string TempFolder { get; set; }
@@ -16,13 +16,13 @@ public string TempFolder { get; set; }
 
 ### Remarques
 
-Lorsque Aspose.Words enregistre un document, il doit créer des structures internes temporaires. Par défaut, ces structures internes sont créées en mémoire et les pics d'utilisation de la mémoire pendant une courte période pendant le document est en cours d'enregistrement. Lorsque l'enregistrement est terminé, la mémoire est libérée et récupérée par le ramasse-miettes.
+Lorsqu'Aspose.Words enregistre un document, il doit créer des structures internes temporaires. Par défaut, ces structures internes sont créées en mémoire et l'utilisation de la mémoire augmente pendant une courte période pendant que le document est en cours d'enregistrement. Une fois la sauvegarde terminée, la mémoire est libérée et récupérée par le garbage collector.
 
-Si vous enregistrez un document très volumineux (des milliers de pages) et/ou traitez de nombreux documents en même temps, , le pic de mémoire lors de l'enregistrement peut être suffisamment important pour que le système lanceOutOfMemoryException . Spécification d'un dossier temporaire à l'aide`TempFolder` entraînera Aspose.Words à conserver les structures internes dans les fichiers temporaires au lieu de la mémoire. Cela réduit l'utilisation de la mémoire pendant l'enregistrement, mais diminue les performances d'enregistrement.
+Si vous enregistrez un document très volumineux (des milliers de pages) et/ou traitez plusieurs documents en même temps, alors le pic de mémoire lors de l'enregistrement peut être suffisamment important pour que le système lanceOutOfMemoryException . Spécification d'un dossier temporaire à l'aide de`TempFolder` Aspose.Words conservera les structures internes dans les fichiers temporaires au lieu de la mémoire. Cela réduit l'utilisation de la mémoire pendant la sauvegarde, mais diminuera les performances de sauvegarde.
 
 Le dossier doit exister et être accessible en écriture, sinon une exception sera levée.
 
-Aspose.Words supprime automatiquement tous les fichiers temporaires lorsque l'enregistrement est terminé.
+Aspose.Words supprime automatiquement tous les fichiers temporaires une fois l'enregistrement terminé.
 
 ### Exemples
 
@@ -31,9 +31,9 @@ Montre comment utiliser le disque dur au lieu de la mémoire lors de l'enregistr
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// Lorsque nous enregistrons un document, divers éléments sont temporairement stockés en mémoire au fur et à mesure de l'opération d'enregistrement.
-// Nous pouvons utiliser cette option pour utiliser un dossier temporaire dans le système de fichiers local à la place,
-// ce qui réduira la surcharge de mémoire de notre application.
+// Lorsque nous enregistrons un document, divers éléments sont temporairement stockés en mémoire pendant l'opération de sauvegarde.
+// Nous pouvons utiliser cette option pour utiliser à la place un dossier temporaire dans le système de fichiers local,
+// ce qui réduira la surcharge mémoire de notre application.
 DocSaveOptions options = new DocSaveOptions();
 options.TempFolder = ArtifactsDir + "TempFiles";
 

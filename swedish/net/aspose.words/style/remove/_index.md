@@ -3,7 +3,7 @@ title: Style.Remove
 second_title: Aspose.Words för .NET API Referens
 description: Style metod. Tar bort den angivna stilen från dokumentet.
 type: docs
-weight: 180
+weight: 200
 url: /sv/net/aspose.words/style/remove/
 ---
 ## Style.Remove method
@@ -33,6 +33,8 @@ Style style = doc.Styles.Add(StyleType.Paragraph, "MyStyle");
 style.Font.Name = "Times New Roman";
 style.Font.Size = 16;
 style.Font.Color = Color.Navy;
+// Omdefiniera stil automatiskt.
+style.AutomaticallyUpdate = true;
 
 DocumentBuilder builder = new DocumentBuilder(doc);
 

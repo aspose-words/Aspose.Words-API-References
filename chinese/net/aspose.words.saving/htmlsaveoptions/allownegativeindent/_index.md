@@ -1,14 +1,14 @@
 ---
 title: HtmlSaveOptions.AllowNegativeIndent
 second_title: Aspose.Words for .NET API 参考
-description: HtmlSaveOptions 财产. 指定在保存为 HTMLMHTML 或 EPUB 时是否对段落的负左缩进和右缩进进行规范化 默认值为错误的.
+description: HtmlSaveOptions 财产. 指定保存为 HTMLMHTML 或 EPUB 时段落的左右负缩进是否标准化 默认值为错误的.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.saving/htmlsaveoptions/allownegativeindent/
 ---
 ## HtmlSaveOptions.AllowNegativeIndent property
 
-指定在保存为 HTML、MHTML 或 EPUB 时是否对段落的负左缩进和右缩进进行规范化 。默认值为`错误的`.
+指定保存为 HTML、MHTML 或 EPUB 时段落的左右负缩进是否标准化 。默认值为`错误的`.
 
 ```csharp
 public bool AllowNegativeIndent { get; set; }
@@ -16,17 +16,17 @@ public bool AllowNegativeIndent { get; set; }
 
 ### 评论
 
-当不允许负缩进时，它将作为零边距导出到 HTML。 当允许负缩进时，段落可能会部分出现在 浏览器窗口之外。
+当不允许负缩进时，它会以零边距导出到 HTML。 当允许负缩进时，段落可能会部分显示在 浏览器窗口之外。
 
 ### 例子
 
-显示如何在输出 .html 中保留负缩进。
+演示如何在输出 .html 中保留负缩进。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 插入一个带有负缩进的表格，这会将它推到左边超过左边的页面边界。
+// 插入一个带有负缩进的表格，这会将其推到左侧越过左页边界。
 Table table = builder.StartTable();
 builder.InsertCell();
 builder.Write("Row 1, Cell 1");
@@ -38,7 +38,7 @@ table.PreferredWidth = PreferredWidth.FromPoints(144);
 
 builder.InsertBreak(BreakType.ParagraphBreak);
 
-// 插入带有正缩进的表格，这会将表格推到右侧。
+// 插入一个带有正缩进的表格，这会将表格推到右侧。
 table = builder.StartTable();
 builder.InsertCell();
 builder.Write("Row 1, Cell 1");
@@ -48,8 +48,8 @@ builder.EndTable();
 table.LeftIndent = 36;
 table.PreferredWidth = PreferredWidth.FromPoints(144);
 
-// 当我们将文档保存为 HTML 时，Aspose.Words 只会保留负缩进
-// 例如，如果我们设置了“AllowNegativeIndent”标志，我们将其应用于第一个表
+// 当我们将文档保存为 HTML 时，Aspose.Words 将仅保留负缩进
+// 例如，如果我们设置“AllowNegativeIndent”标志，我们就将其应用于第一个表
 // 在我们将传递给“true”的 SaveOptions 对象中。
 HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.Html)
 {

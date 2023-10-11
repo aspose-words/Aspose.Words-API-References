@@ -3,12 +3,14 @@ title: Class GradientStopCollection
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Aspose.Words.Drawing.GradientStopCollection classe. Contient une collection deGradientStop objets.
 type: docs
-weight: 860
+weight: 990
 url: /fr/net/aspose.words.drawing/gradientstopcollection/
 ---
 ## GradientStopCollection class
 
 Contient une collection de[`GradientStop`](../gradientstop/) objets.
+
+Pour en savoir plus, visitez le[Travailler avec des éléments graphiques](https://docs.aspose.com/words/net/working-with-graphic-elements/) article documentaire.
 
 ```csharp
 public class GradientStopCollection : IEnumerable<GradientStop>
@@ -29,11 +31,11 @@ public class GradientStopCollection : IEnumerable<GradientStop>
 | [GetEnumerator](../../aspose.words.drawing/gradientstopcollection/getenumerator/)() | Renvoie un énumérateur qui parcourt la collection. |
 | [Insert](../../aspose.words.drawing/gradientstopcollection/insert/)(int, GradientStop) | Insère un[`GradientStop`](../gradientstop/) à la collection à un index spécifié. |
 | [Remove](../../aspose.words.drawing/gradientstopcollection/remove/)(GradientStop) | Supprime un spécifié[`GradientStop`](../gradientstop/) de la collection. |
-| [RemoveAt](../../aspose.words.drawing/gradientstopcollection/removeat/)(int) | Supprime un[`GradientStop`](../gradientstop/)de la collection à un index spécifié. |
+| [RemoveAt](../../aspose.words.drawing/gradientstopcollection/removeat/)(int) | Supprime un[`GradientStop`](../gradientstop/) de la collection à un index spécifié. |
 
 ### Remarques
 
-Vous ne créez pas d'instances de cette classe directement. Utilisez le[`GradientStops`](../fill/gradientstops/) propriété pour accéder aux arrêts de dégradé des objets de remplissage.
+Vous ne créez pas directement d'instances de cette classe. Utilisez le[`GradientStops`](../fill/gradientstops/)propriété pour accéder aux arrêts de dégradé des objets de remplissage.
 
 ### Exemples
 
@@ -49,18 +51,18 @@ shape.Fill.TwoColorGradient(Color.Green, Color.Red, GradientStyle.Horizontal, Gr
 // Récupère la collection d'arrêts de dégradé.
 GradientStopCollection gradientStops = shape.Fill.GradientStops;
 
-// Changer le premier arrêt du dégradé.
-gradientStops[0].Color = Color.Aqua;
+// Change le premier arrêt du dégradé.            
+gradientStops[0].Color = Color.Aqua;            
 gradientStops[0].Position = 0.1;
 gradientStops[0].Transparency = 0.25;
 
-// Ajoute un nouvel arrêt de dégradé à la fin de la collection.
+// Ajoute un nouveau point de dégradé à la fin de la collection.
 GradientStop gradientStop = new GradientStop(Color.Brown, 0.5);
 gradientStops.Add(gradientStop);
 
 // Supprime l'arrêt du dégradé à l'index 1.
 gradientStops.RemoveAt(1);
-// Et insère un nouvel arrêt de dégradé au même index 1.
+// Et insérez un nouveau point de dégradé au même index 1.
 gradientStops.Insert(1, new GradientStop(Color.Chocolate, 0.75, 0.3));
 
 // Supprime le dernier arrêt de dégradé de la collection.
@@ -69,6 +71,7 @@ gradientStops.Remove(gradientStop);
 
 Assert.AreEqual(2, gradientStops.Count);
 
+Assert.AreEqual(Color.FromArgb(255, 0, 255, 255), gradientStops[0].BaseColor);
 Assert.AreEqual(Color.Aqua.ToArgb(), gradientStops[0].Color.ToArgb());
 Assert.AreEqual(0.1d, gradientStops[0].Position, 0.01d);
 Assert.AreEqual(0.25d, gradientStops[0].Transparency, 0.01d);

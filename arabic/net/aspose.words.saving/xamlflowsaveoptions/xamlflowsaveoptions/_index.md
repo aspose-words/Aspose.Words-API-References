@@ -1,14 +1,14 @@
 ---
 title: XamlFlowSaveOptions.XamlFlowSaveOptions
 second_title: Aspose.Words لمراجع .NET API
-description: XamlFlowSaveOptions البناء. يقوم بتهيئة مثيل جديد من هذه الفئة يمكن استخدامه لحفظ مستند بتنسيقXamlFlow التنسيق .
+description: XamlFlowSaveOptions البناء. تهيئة مثيل جديد لهذه الفئة يمكن استخدامه لحفظ مستند في ملفXamlFlow التنسيق.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.saving/xamlflowsaveoptions/xamlflowsaveoptions/
 ---
 ## XamlFlowSaveOptions() {#constructor}
 
-يقوم بتهيئة مثيل جديد من هذه الفئة يمكن استخدامه لحفظ مستند بتنسيقXamlFlow التنسيق .
+تهيئة مثيل جديد لهذه الفئة يمكن استخدامه لحفظ مستند في ملفXamlFlow التنسيق.
 
 ```csharp
 public XamlFlowSaveOptions()
@@ -16,31 +16,32 @@ public XamlFlowSaveOptions()
 
 ### أمثلة
 
-يوضح كيفية طباعة أسماء ملفات الصور المرتبطة التي تم إنشاؤها أثناء تحويل مستند إلى تنسيق .xaml.
+يوضح كيفية طباعة أسماء ملفات الصور المرتبطة التي تم إنشاؤها أثناء تحويل مستند إلى شكل تدفق .xaml.
 
 ```csharp
+public void ImageFolder()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
     ImageUriPrinter callback = new ImageUriPrinter(ArtifactsDir + "XamlFlowImageFolderAlias");
 
-    // قم بإنشاء كائن "XamlFlowSaveOptions" ، والذي يمكننا تمريره إلى طريقة "Save" الخاصة بالمستند
+    // قم بإنشاء كائن "XamlFlowSaveOptions"، والذي يمكننا تمريره إلى طريقة "حفظ" المستند
     // لتعديل كيفية حفظ المستند بتنسيق حفظ XAML.
     XamlFlowSaveOptions options = new XamlFlowSaveOptions();
 
     Assert.AreEqual(SaveFormat.XamlFlow, options.SaveFormat);
 
-    // استخدم خاصية "ImagesFolder" لتعيين مجلد في نظام الملفات المحلي فيه
-    // Aspose.Words ستحفظ جميع الصور المرتبطة بالمستند.
+    // استخدم خاصية "ImagesFolder" لتعيين مجلد في نظام الملفات المحلي الذي
+    // Aspose.Words سيحفظ جميع الصور المرتبطة بالمستند.
     options.ImagesFolder = ArtifactsDir + "XamlFlowImageFolder";
 
     // استخدم خاصية "ImagesFolderAlias" لاستخدام هذا المجلد
-    // عند إنشاء عناوين URI للصور بدلاً من اسم مجلد الصور.
+    // عند إنشاء معرفات URI للصورة بدلاً من اسم مجلد الصور.
     options.ImagesFolderAlias = ArtifactsDir + "XamlFlowImageFolderAlias";
 
     options.ImageSavingCallback = callback;
 
-    // سيحتاج المجلد المحدد بواسطة "ImagesFolderAlias" إلى احتواء الموارد بدلاً من "ImagesFolder".
+    // المجلد المحدد بواسطة "ImagesFolderAlias" سيحتاج إلى أن يحتوي على الموارد بدلاً من "ImagesFolder".
     // يجب أن نتأكد من وجود المجلد قبل أن تتمكن تدفقات رد الاتصال من وضع مواردها فيه.
     Directory.CreateDirectory(options.ImagesFolderAlias);
 
@@ -48,9 +49,10 @@ public XamlFlowSaveOptions()
 
     foreach (string resource in callback.Resources)
         Console.WriteLine($"{callback.ImagesFolderAlias}/{resource}");
+}
 
 /// <summary>
-/// يعد ويطبع أسماء ملفات الصور أثناء تحويل المستند الأصلي إلى نموذج تدفق .xaml.
+/// يقوم بحساب وطباعة أسماء ملفات الصور أثناء تحويل المستند الأصلي إلى شكل انسيابي .xaml.
 /// </summary>
 private class ImageUriPrinter : IImageSavingCallback
 {
@@ -64,8 +66,8 @@ private class ImageUriPrinter : IImageSavingCallback
     {
         Resources.Add(args.ImageFileName);
 
-        // إذا حددنا اسمًا مستعارًا لمجلد الصور ، فسنحتاج أيضًا إلى
-        // لإعادة توجيه كل دفق لوضع صورته في مجلد الاسم المستعار.
+        // إذا حددنا اسمًا مستعارًا لمجلد الصور، فسنحتاج أيضًا إلى ذلك
+        // لإعادة توجيه كل تيار لوضع صورته في المجلد المستعار.
         args.ImageStream = new FileStream($"{ImagesFolderAlias}/{args.ImageFileName}", FileMode.Create);
         args.KeepImageStreamOpen = false;
     }
@@ -85,7 +87,7 @@ private class ImageUriPrinter : IImageSavingCallback
 
 ## XamlFlowSaveOptions(SaveFormat) {#constructor_1}
 
-يقوم بتهيئة مثيل جديد من هذه الفئة يمكن استخدامه لحفظ مستند بتنسيقXamlFlow أوXamlFlowPack التنسيق .
+تهيئة مثيل جديد لهذه الفئة يمكن استخدامه لحفظ مستند في ملفXamlFlow أوXamlFlowPack التنسيق.
 
 ```csharp
 public XamlFlowSaveOptions(SaveFormat saveFormat)
@@ -97,31 +99,32 @@ public XamlFlowSaveOptions(SaveFormat saveFormat)
 
 ### أمثلة
 
-يوضح كيفية طباعة أسماء ملفات الصور المرتبطة التي تم إنشاؤها أثناء تحويل مستند إلى تنسيق .xaml.
+يوضح كيفية طباعة أسماء ملفات الصور المرتبطة التي تم إنشاؤها أثناء تحويل مستند إلى شكل تدفق .xaml.
 
 ```csharp
+public void ImageFolder()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
     ImageUriPrinter callback = new ImageUriPrinter(ArtifactsDir + "XamlFlowImageFolderAlias");
 
-    // قم بإنشاء كائن "XamlFlowSaveOptions" ، والذي يمكننا تمريره إلى طريقة "Save" الخاصة بالمستند
+    // قم بإنشاء كائن "XamlFlowSaveOptions"، والذي يمكننا تمريره إلى طريقة "حفظ" المستند
     // لتعديل كيفية حفظ المستند بتنسيق حفظ XAML.
     XamlFlowSaveOptions options = new XamlFlowSaveOptions();
 
     Assert.AreEqual(SaveFormat.XamlFlow, options.SaveFormat);
 
-    // استخدم خاصية "ImagesFolder" لتعيين مجلد في نظام الملفات المحلي فيه
-    // Aspose.Words ستحفظ جميع الصور المرتبطة بالمستند.
+    // استخدم خاصية "ImagesFolder" لتعيين مجلد في نظام الملفات المحلي الذي
+    // Aspose.Words سيحفظ جميع الصور المرتبطة بالمستند.
     options.ImagesFolder = ArtifactsDir + "XamlFlowImageFolder";
 
     // استخدم خاصية "ImagesFolderAlias" لاستخدام هذا المجلد
-    // عند إنشاء عناوين URI للصور بدلاً من اسم مجلد الصور.
+    // عند إنشاء معرفات URI للصورة بدلاً من اسم مجلد الصور.
     options.ImagesFolderAlias = ArtifactsDir + "XamlFlowImageFolderAlias";
 
     options.ImageSavingCallback = callback;
 
-    // سيحتاج المجلد المحدد بواسطة "ImagesFolderAlias" إلى احتواء الموارد بدلاً من "ImagesFolder".
+    // المجلد المحدد بواسطة "ImagesFolderAlias" سيحتاج إلى أن يحتوي على الموارد بدلاً من "ImagesFolder".
     // يجب أن نتأكد من وجود المجلد قبل أن تتمكن تدفقات رد الاتصال من وضع مواردها فيه.
     Directory.CreateDirectory(options.ImagesFolderAlias);
 
@@ -129,9 +132,10 @@ public XamlFlowSaveOptions(SaveFormat saveFormat)
 
     foreach (string resource in callback.Resources)
         Console.WriteLine($"{callback.ImagesFolderAlias}/{resource}");
+}
 
 /// <summary>
-/// يعد ويطبع أسماء ملفات الصور أثناء تحويل المستند الأصلي إلى نموذج تدفق .xaml.
+/// يقوم بحساب وطباعة أسماء ملفات الصور أثناء تحويل المستند الأصلي إلى شكل انسيابي .xaml.
 /// </summary>
 private class ImageUriPrinter : IImageSavingCallback
 {
@@ -145,8 +149,8 @@ private class ImageUriPrinter : IImageSavingCallback
     {
         Resources.Add(args.ImageFileName);
 
-        // إذا حددنا اسمًا مستعارًا لمجلد الصور ، فسنحتاج أيضًا إلى
-        // لإعادة توجيه كل دفق لوضع صورته في مجلد الاسم المستعار.
+        // إذا حددنا اسمًا مستعارًا لمجلد الصور، فسنحتاج أيضًا إلى ذلك
+        // لإعادة توجيه كل تيار لوضع صورته في المجلد المستعار.
         args.ImageStream = new FileStream($"{ImagesFolderAlias}/{args.ImageFileName}", FileMode.Create);
         args.KeepImageStreamOpen = false;
     }

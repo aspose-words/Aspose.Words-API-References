@@ -3,7 +3,7 @@ title: Enum ParagraphAlignment
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.ParagraphAlignment uppräkning. Anger textjustering i ett stycke.
 type: docs
-weight: 4160
+weight: 4400
 url: /sv/net/aspose.words/paragraphalignment/
 ---
 ## ParagraphAlignment enumeration

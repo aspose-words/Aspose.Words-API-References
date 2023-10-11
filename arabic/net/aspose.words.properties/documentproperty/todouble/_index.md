@@ -1,14 +1,14 @@
 ---
 title: DocumentProperty.ToDouble
 second_title: Aspose.Words لمراجع .NET API
-description: DocumentProperty طريقة. إرجاع قيمة الخاصية كمضاعفة.
+description: DocumentProperty طريقة. إرجاع قيمة الخاصية مزدوجة.
 type: docs
 weight: 90
 url: /ar/net/aspose.words.properties/documentproperty/todouble/
 ---
 ## DocumentProperty.ToDouble method
 
-إرجاع قيمة الخاصية كمضاعفة.
+إرجاع قيمة الخاصية مزدوجة.
 
 ```csharp
 public double ToDouble()
@@ -16,11 +16,11 @@ public double ToDouble()
 
 ### ملاحظات
 
-يطرح استثناء إذا لم يكن نوع الخاصيةNumber .
+يطرح استثناءً إذا لم يكن نوع الخاصية كذلكNumber .
 
 ### أمثلة
 
-يعرض طرق تحويل الأنواع المختلفة لخصائص المستند المخصصة.
+يعرض طرق تحويل النوع المختلفة لخصائص المستند المخصصة.
 
 ```csharp
 Document doc = new Document();

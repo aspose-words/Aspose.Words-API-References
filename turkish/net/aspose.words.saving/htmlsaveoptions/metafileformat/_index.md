@@ -1,14 +1,14 @@
 ---
 title: HtmlSaveOptions.MetafileFormat
 second_title: Aspose.Words for .NET API Referansı
-description: HtmlSaveOptions mülk. HTML MHTML veya EPUBa dışa aktarılırken meta dosyalarının hangi biçimde kaydedileceğini belirtir. Varsayılan değerPng  meta dosyalarının PNG görüntülerine raster olarak işlendiği anlamına gelir.
+description: HtmlSaveOptions mülk. HTML MHTML veya EPUBa dışa aktarırken meta dosyalarının hangi formatta kaydedileceğini belirtir. Varsayılan değerPng  meta dosyalarının PNG görüntülerine raster olarak işlendiği anlamına gelir.
 type: docs
-weight: 390
+weight: 380
 url: /tr/net/aspose.words.saving/htmlsaveoptions/metafileformat/
 ---
 ## HtmlSaveOptions.MetafileFormat property
 
-HTML, MHTML veya EPUB'a dışa aktarılırken meta dosyalarının hangi biçimde kaydedileceğini belirtir. Varsayılan değerPng , meta dosyalarının PNG görüntülerine raster olarak işlendiği anlamına gelir.
+HTML, MHTML veya EPUB'a dışa aktarırken meta dosyalarının hangi formatta kaydedileceğini belirtir. Varsayılan değer:Png , meta dosyalarının PNG görüntülerine raster olarak işlendiği anlamına gelir.
 
 ```csharp
 public HtmlMetafileFormat MetafileFormat { get; set; }
@@ -16,13 +16,13 @@ public HtmlMetafileFormat MetafileFormat { get; set; }
 
 ### Notlar
 
-Meta dosyaları, HTML tarayıcıları tarafından yerel olarak görüntülenmez. Varsayılan olarak Aspose.Words, HTML'ye dışa aktarırken WMF ve EMF görüntülerini PNG dosyalarına dönüştürür. Diğer seçenekler, meta dosyalarını SVG görüntülerine dönüştürmek veya dönüştürme olmadan olduğu gibi dışa aktarmaktır.
+Meta dosyalar orijinal olarak HTML tarayıcıları tarafından görüntülenmez. Aspose.Words, HTML'ye dışa aktarırken varsayılan olarak WMF ve EMF görüntülerini PNG dosyalarına dönüştürür. Diğer seçenekler meta dosyalarını SVG görüntülerine dönüştürmek veya bunları dönüştürme olmadan olduğu gibi dışa aktarmaktır.
 
-Bazı görüntü dönüştürmeleri, özellikle görüntü kırpma, eğer dönüştürülmeden HTML'ye aktarılırlarsa, meta dosyası görüntülerine uygulanmaz.
+Bazı görüntü dönüştürmeleri, özellikle görüntü kırpma, eğer onlar dönüştürme olmadan HTML'ye aktarılırsa meta dosyası görüntülerine uygulanmayacaktır.
 
 ### Örnekler
 
-HTML belgelerini kaydederken SVG nesnelerinin nasıl farklı bir biçime dönüştürüleceğini gösterir.
+HTML belgelerini kaydederken SVG nesnelerinin farklı bir formata nasıl dönüştürüleceğini gösterir.
 
 ```csharp
 string html = 
@@ -32,20 +32,20 @@ string html =
         </svg>
     </html>";
 
-// Eski davranışı geri almak için 'ConvertSvgToEmf' kullanın
-// bir HTML belgesinden yüklenen tüm SVG resimlerinin EMF'ye dönüştürüldüğü yer.
-// Artık SVG görüntüleri dönüştürülmeden yükleniyor
-// yükleme seçeneklerinde belirtilen MS Word sürümü yerel olarak SVG görüntülerini destekliyorsa.
+// Eski davranışı geri döndürmek için 'ConvertSvgToEmf'i kullanın
+// burada bir HTML belgesinden yüklenen tüm SVG görüntüleri EMF'ye dönüştürüldü.
+// Artık SVG görselleri dönüştürme yapılmadan yükleniyor
+// yükleme seçeneklerinde belirtilen MS Word sürümü SVG resimlerini yerel olarak destekliyorsa.
 HtmlLoadOptions loadOptions = new HtmlLoadOptions { ConvertSvgToEmf = true };
 
 Document doc = new Document(new MemoryStream(Encoding.UTF8.GetBytes(html)), loadOptions);
 
-// Bu belge bir <svg> öğe metin şeklinde.
-// Belgeyi HTML'ye kaydettiğimizde, SaveOptions nesnesini iletebiliriz
-// kaydetme işleminin bu nesneyi nasıl işlediğini belirlemek için.
-// PNG görüntüsüne dönüştürmek için "MetafileFormat" özelliğinin "HtmlMetafileFormat.Png" olarak ayarlanması.
+// Bu belge bir <svg> metin biçiminde öğe.
+// Belgeyi HTML'ye kaydettiğimizde SaveOptions nesnesini iletebiliriz
+// kaydetme işleminin bu nesneyi nasıl işleyeceğini belirlemek için.
+// PNG görüntüsüne dönüştürmek için "MetafileFormat" özelliğini "HtmlMetafileFormat.Png" olarak ayarlıyoruz.
 // "MetafileFormat" özelliğinin "HtmlMetafileFormat.Svg" olarak ayarlanması onu bir SVG nesnesi olarak korur.
-// Bir meta dosyaya dönüştürmek için "MetafileFormat" özelliğinin "HtmlMetafileFormat.EmfOrWmf" olarak ayarlanması.
+// Bir meta dosyasına dönüştürmek için "MetafileFormat" özelliğini "HtmlMetafileFormat.EmfOrWmf" olarak ayarlıyoruz.
 HtmlSaveOptions options = new HtmlSaveOptions { MetafileFormat = htmlMetafileFormat };
 
 doc.Save(ArtifactsDir + "HtmlSaveOptions.MetafileFormat.html", options);

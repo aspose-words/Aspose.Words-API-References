@@ -16,7 +16,7 @@ public Border Horizontal { get; }
 
 ### Exemples
 
-Montre comment appliquer des paramètres aux bordures horizontales au format d'un paragraphe.
+Montre comment appliquer les paramètres des bordures horizontales au format d’un paragraphe.
 
 ```csharp
 Document doc = new Document();
@@ -28,18 +28,18 @@ borders.Horizontal.Color = Color.Red;
 borders.Horizontal.LineStyle = LineStyle.DashSmallGap;
 borders.Horizontal.LineWidth = 3;
 
-// Ecrit du texte dans le document sans créer de nouveau paragraphe par la suite.
+// Écrivez du texte dans le document sans créer de nouveau paragraphe par la suite.
 // Puisqu'il n'y a pas de paragraphe en dessous, la bordure horizontale ne sera pas visible.
 builder.Write("Paragraph above horizontal border.");
 
-// Une fois que nous avons ajouté un deuxième paragraphe, la bordure du premier paragraphe deviendra visible.
+// Une fois que nous ajoutons un deuxième paragraphe, la bordure du premier paragraphe deviendra visible.
 builder.InsertParagraph();
 builder.Write("Paragraph below horizontal border.");
 
 doc.Save(ArtifactsDir + "Border.HorizontalBorders.docx");
 ```
 
-Montre comment appliquer des paramètres aux bordures verticales au format d'une ligne de tableau.
+Montre comment appliquer les paramètres des bordures verticales au format d’une ligne de tableau.
 
 ```csharp
 Document doc = new Document();

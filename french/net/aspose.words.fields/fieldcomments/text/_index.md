@@ -22,18 +22,18 @@ Montre comment utiliser le champ COMMENTAIRES.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Définissez une valeur pour la propriété intégrée "Commentaires" du document.
+// Définit une valeur pour la propriété intégrée "Commentaires" du document.
 doc.BuiltInDocumentProperties.Comments = "My comment.";
 
-// Crée un champ COMMENTS pour afficher la valeur de cette propriété intégrée.
+// Créez un champ COMMENTAIRES pour afficher la valeur de cette propriété intégrée.
 FieldComments field = (FieldComments)builder.InsertField(FieldType.FieldComments, true);
 field.Update();
 
 Assert.AreEqual(" COMMENTS ", field.GetFieldCode());
 Assert.AreEqual("My comment.", field.Result);
 
-// Si nous donnons la valeur de la propriété Text du champ COMMENTS et que nous la mettons à jour, le champ
-// remplace la valeur actuelle de la propriété intégrée "Comments" par la valeur de sa propriété Text,
+// Si nous donnons la valeur de la propriété Text du champ COMMENTAIRES et la mettons à jour, le champ sera
+// écrase la valeur actuelle de la propriété intégrée "Comments" par la valeur de sa propriété Text,
 // puis affiche la nouvelle valeur.
 field.Text = "My overriding comment.";
 field.Update();

@@ -3,12 +3,14 @@ title: Class Metered
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Metered klass. Tillhandahåller metoder för att ställa in mätnyckel.
 type: docs
-weight: 3920
+weight: 4160
 url: /sv/net/aspose.words/metered/
 ---
 ## Metered class
 
 Tillhandahåller metoder för att ställa in mätnyckel.
+
+För att lära dig mer, besök[Licensiering och prenumeration](https://docs.aspose.com/words/net/licensing/) dokumentationsartikel.
 
 ```csharp
 public class Metered

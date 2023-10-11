@@ -1,14 +1,14 @@
 ---
 title: IWarningCallback.Warning
 second_title: Aspose.Words لمراجع .NET API
-description: IWarningCallback طريقة. Aspose.Words تستدعي هذه الطريقة عندما تواجه بعض المشاكل أثناء تحميل المستند أو الحفظ الذي قد يؤدي إلى فقدان التنسيق أو دقة البيانات .
+description: IWarningCallback طريقة. يستدعي Aspose.Words هذه الطريقة عندما يواجه مشكلة أثناء تحميل المستند أو حفظه مما قد يؤدي إلى فقدان التنسيق أو دقة البيانات.
 type: docs
 weight: 10
 url: /ar/net/aspose.words/iwarningcallback/warning/
 ---
 ## IWarningCallback.Warning method
 
-Aspose.Words تستدعي هذه الطريقة عندما تواجه بعض المشاكل أثناء تحميل المستند أو الحفظ الذي قد يؤدي إلى فقدان التنسيق أو دقة البيانات .
+يستدعي Aspose.Words هذه الطريقة عندما يواجه مشكلة أثناء تحميل المستند أو حفظه مما قد يؤدي إلى فقدان التنسيق أو دقة البيانات.
 
 ```csharp
 public void Warning(WarningInfo info)
@@ -16,26 +16,28 @@ public void Warning(WarningInfo info)
 
 ### أمثلة
 
-يوضح كيفية تعيين الخاصية للعثور على أقرب تطابق لخط مفقود من مصادر الخط المتاحة.
+يوضح كيفية تعيين الخاصية للعثور على أقرب تطابق لخط مفقود من مصادر الخطوط المتوفرة.
 
 ```csharp
-[Test]
 public void EnableFontSubstitution()
 {
     // افتح مستندًا يحتوي على نص منسق بخط غير موجود في أي من مصادر الخطوط لدينا.
     Document doc = new Document(MyDir + "Missing font.docx");
 
-    // تعيين رد اتصال للتعامل مع تحذيرات استبدال الخط.
+    // قم بتعيين رد اتصال للتعامل مع تحذيرات استبدال الخط.
     HandleDocumentSubstitutionWarnings substitutionWarningHandler = new HandleDocumentSubstitutionWarnings();
     doc.WarningCallback = substitutionWarningHandler;
 
-    // تعيين اسم الخط الافتراضي وتمكين استبدال الخط.
+    // قم بتعيين اسم الخط الافتراضي وتمكين استبدال الخط.
     FontSettings fontSettings = new FontSettings();
     fontSettings.SubstitutionSettings.DefaultFontSubstitution.DefaultFontName = "Arial";
     ;
     fontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
 
-    // سنحصل على تحذير بشأن استبدال الخط إذا حفظنا مستندًا بخط مفقود.
+    // يجب استخدام مقاييس الخط الأصلي بعد استبدال الخط.
+    doc.LayoutOptions.KeepOriginalFontMetrics = true;
+
+    // سنتلقى تحذيرًا بشأن استبدال الخط إذا قمنا بحفظ مستند بخط مفقود.
     doc.FontSettings = fontSettings;
     doc.Save(ArtifactsDir + "FontSettings.EnableFontSubstitution.pdf");
 
@@ -57,7 +59,7 @@ public void EnableFontSubstitution()
 public class HandleDocumentSubstitutionWarnings : IWarningCallback
 {
     /// <summary>
-    /// يتم الاتصال به في كل مرة يظهر فيها تحذير أثناء التحميل / الحفظ.
+    /// يتم الاتصال به في كل مرة يحدث فيها تحذير أثناء التحميل/الحفظ.
     /// </summary>
     public void Warning(WarningInfo info)
     {

@@ -3,7 +3,7 @@ title: Enum ReplaceAction
 second_title: Aspose.Words لمراجع .NET API
 description: Aspose.Words.Replacing.ReplaceAction تعداد. يسمح للمستخدم بتحديد ما يحدث للمطابقة الحالية أثناء عملية الاستبدال.
 type: docs
-weight: 4380
+weight: 4640
 url: /ar/net/aspose.words.replacing/replaceaction/
 ---
 ## ReplaceAction enumeration
@@ -18,15 +18,16 @@ public enum ReplaceAction
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| Replace | `0` | استبدال المطابقة الحالية . |
-| Skip | `1` | تخطي المباراة الحالية . |
-| Stop | `2` | قم بإنهاء عملية الاستبدال. |
+| Replace | `0` | استبدل المطابقة الحالية. |
+| Skip | `1` | تخطي المباراة الحالية. |
+| Stop | `2` | إنهاء عملية الاستبدال. |
 
 ### أمثلة
 
 يوضح كيفية إدراج محتويات المستند بالكامل كبديل لمطابقة في عملية البحث والاستبدال.
 
 ```csharp
+public void InsertDocumentAtReplace()
 {
     Document mainDoc = new Document(MyDir + "Document insertion destination.docx");
 
@@ -36,6 +37,8 @@ public enum ReplaceAction
 
     mainDoc.Range.Replace(new Regex("\\[MY_DOCUMENT\\]"), "", options);
     mainDoc.Save(ArtifactsDir + "InsertDocument.InsertDocumentAtReplace.docx");
+
+}
 
 private class InsertDocumentAtReplaceHandler : IReplacingCallback
 {
@@ -47,7 +50,7 @@ private class InsertDocumentAtReplaceHandler : IReplacingCallback
         Paragraph para = (Paragraph)args.MatchNode.ParentNode;
         InsertDocument(para, subDoc);
 
-        // إزالة الفقرة مع النص المتطابق.
+        // قم بإزالة الفقرة التي تحتوي على النص المطابق.
         para.Remove();
 
         return ReplaceAction.Skip;
@@ -55,7 +58,7 @@ private class InsertDocumentAtReplaceHandler : IReplacingCallback
 }
 
 /// <summary>
-/// يُدرج كل عقد مستند آخر بعد فقرة أو جدول.
+/// إدراج كافة العقد في مستند آخر بعد فقرة أو جدول.
 /// </summary>
 private static void InsertDocument(Node insertionDestination, Document docToInsert)
 {

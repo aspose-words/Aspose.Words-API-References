@@ -3,7 +3,7 @@ title: Table.AutoFit
 second_title: Aspose.Words för .NET API Referens
 description: Table metod. Ändrar storlek på tabellen och cellerna enligt det angivna beteendet för automatisk anpassning.
 type: docs
-weight: 360
+weight: 380
 url: /sv/net/aspose.words.tables/table/autofit/
 ---
 ## Table.AutoFit method

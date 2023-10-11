@@ -1,14 +1,14 @@
 ---
 title: HtmlFixedSaveOptions.FontFormat
 second_title: Aspose.Words for .NET API Referansı
-description: HtmlFixedSaveOptions mülk. Alır veya ayarlarExportFontFormat yazı tipi dışa aktarma için kullanılır. Varsayılan değerWoff .
+description: HtmlFixedSaveOptions mülk. Alır veya ayarlarExportFontFormat yazı tipi dışa aktarımı için kullanılır. Varsayılan değerWoff .
 type: docs
 weight: 90
 url: /tr/net/aspose.words.saving/htmlfixedsaveoptions/fontformat/
 ---
 ## HtmlFixedSaveOptions.FontFormat property
 
-Alır veya ayarlar[`ExportFontFormat`](../../exportfontformat/) yazı tipi dışa aktarma için kullanılır. Varsayılan değerWoff .
+Alır veya ayarlar[`ExportFontFormat`](../../exportfontformat/) yazı tipi dışa aktarımı için kullanılır. Varsayılan değer:Woff .
 
 ```csharp
 public ExportFontFormat FontFormat { get; set; }
@@ -16,7 +16,7 @@ public ExportFontFormat FontFormat { get; set; }
 
 ### Örnekler
 
-Bir belgeyi HTML'ye kaydederken yazı tiplerinin yalnızca hedef makineden nasıl kullanıldığını gösterir.
+Bir belgeyi HTML'ye kaydederken yazı tiplerinin yalnızca hedef makineden nasıl kullanılacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Bullet points with alternative font.docx");

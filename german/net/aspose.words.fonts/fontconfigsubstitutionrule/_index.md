@@ -1,14 +1,16 @@
 ---
 title: Class FontConfigSubstitutionRule
 second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Fonts.FontConfigSubstitutionRule klas. SchriftkonfigurationsErsetzungsregel.
+description: Aspose.Words.Fonts.FontConfigSubstitutionRule klas. SchriftartkonfigurationsErsetzungsregel.
 type: docs
-weight: 2710
+weight: 2890
 url: /de/net/aspose.words.fonts/fontconfigsubstitutionrule/
 ---
 ## FontConfigSubstitutionRule class
 
-Schriftkonfigurations-Ersetzungsregel.
+Schriftartkonfigurations-Ersetzungsregel.
+
+Um mehr zu erfahren, besuchen Sie die[Arbeiten mit Schriftarten](https://docs.aspose.com/words/net/working-with-fonts/) Dokumentationsartikel.
 
 ```csharp
 public class FontConfigSubstitutionRule : FontSubstitutionRule
@@ -24,18 +26,18 @@ public class FontConfigSubstitutionRule : FontSubstitutionRule
 
 | Name | Beschreibung |
 | --- | --- |
-| [IsFontConfigAvailable](../../aspose.words.fonts/fontconfigsubstitutionrule/isfontconfigavailable/)() | Überprüfen Sie, ob das Dienstprogramm fontconfig verfügbar ist oder nicht. |
-| [ResetCache](../../aspose.words.fonts/fontconfigsubstitutionrule/resetcache/)() | Setzt den Cache der Aufrufergebnisse von fontconfig zurück. |
+| [IsFontConfigAvailable](../../aspose.words.fonts/fontconfigsubstitutionrule/isfontconfigavailable/)() | Überprüfen Sie, ob das Dienstprogramm „fontconfig“ verfügbar ist oder nicht. |
+| [ResetCache](../../aspose.words.fonts/fontconfigsubstitutionrule/resetcache/)() | Setzt den Cache der Ergebnisse des Fontconfig-Aufrufs zurück. |
 
 ### Bemerkungen
 
-Diese Regel verwendet das Dienstprogramm fontconfig auf Linux- (und anderen Unix-ähnlichen) Plattformen, um die Substitution abzurufen, wenn die ursprüngliche Schriftart nicht verfügbar ist.
+Diese Regel verwendet das Dienstprogramm „fontconfig“ auf Linux-Plattformen (und anderen Unix-ähnlichen Plattformen), um die Substitution abzurufen, wenn die Originalschrift nicht verfügbar ist.
 
-Wenn das Dienstprogramm fontconfig nicht verfügbar ist, wird diese Regel ignoriert.
+Wenn das Dienstprogramm „fontconfig“ nicht verfügbar ist, wird diese Regel ignoriert.
 
 ### Beispiele
 
-Zeigt die vom Betriebssystem abhängige Ersetzung der Schriftartkonfiguration an.
+Zeigt die betriebssystemabhängige Schriftartkonfigurationsersetzung an.
 
 ```csharp
 FontSettings fontSettings = new FontSettings();
@@ -56,7 +58,7 @@ if (isWindows)
 bool isLinuxOrMac =
     new[] {PlatformID.Unix, PlatformID.MacOSX}.Any(p => Environment.OSVersion.Platform == p);
 
-// Unter Linux/Mac haben wir Zugriff darauf und können Operationen ausführen.
+// Unter Linux/Mac haben wir Zugriff darauf und können Vorgänge ausführen.
 if (isLinuxOrMac)
 {
     Assert.True(fontConfigSubstitution.Enabled);

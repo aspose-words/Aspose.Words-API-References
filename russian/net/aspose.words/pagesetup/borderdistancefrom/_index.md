@@ -1,14 +1,14 @@
 ---
 title: PageSetup.BorderDistanceFrom
 second_title: Справочник по API Aspose.Words для .NET
-description: PageSetup свойство. Получает или задает значение указывающее измеряется ли заданная граница страницы от края страницы или от окружающего ее текста.
+description: PageSetup свойство. Получает или задает значение указывающее измеряется ли указанная граница страницы от края страницы или от текста который она окружает.
 type: docs
 weight: 40
 url: /ru/net/aspose.words/pagesetup/borderdistancefrom/
 ---
 ## PageSetup.BorderDistanceFrom property
 
-Получает или задает значение, указывающее, измеряется ли заданная граница страницы от края страницы или от окружающего ее текста.
+Получает или задает значение, указывающее, измеряется ли указанная граница страницы от края страницы или от текста, который она окружает.
 
 ```csharp
 public PageBorderDistanceFrom BorderDistanceFrom { get; set; }

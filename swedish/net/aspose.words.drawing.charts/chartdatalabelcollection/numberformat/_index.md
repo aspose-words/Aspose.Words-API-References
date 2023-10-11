@@ -3,7 +3,7 @@ title: ChartDataLabelCollection.NumberFormat
 second_title: Aspose.Words för .NET API Referens
 description: ChartDataLabelCollection fast egendom. Får enChartNumberFormat instans som gör det möjligt att ställa in nummerformat för dataetiketterna för hela serien.
 type: docs
-weight: 30
+weight: 50
 url: /sv/net/aspose.words.drawing.charts/chartdatalabelcollection/numberformat/
 ---
 ## ChartDataLabelCollection.NumberFormat property
@@ -41,6 +41,7 @@ series.HasDataLabels = true;
 ChartDataLabelCollection dataLabels = series.DataLabels;
 dataLabels.ShowValue = true;
 dataLabels.NumberFormat.FormatCode = "\"US$\" #,##0.000\"M\"";
+dataLabels.Font.Size = 12;            
 
 doc.Save(ArtifactsDir + "Charts.DataLabelNumberFormat.docx");
 ```

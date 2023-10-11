@@ -1,14 +1,14 @@
 ---
 title: FindReplaceOptions.ApplyParagraphFormat
 second_title: Aspose.Words für .NET-API-Referenz
-description: FindReplaceOptions eigendom. Absatzformatierung auf neuen Inhalt angewendet.
+description: FindReplaceOptions eigendom. Absatzformatierung wird auf neuen Inhalt angewendet.
 type: docs
 weight: 30
 url: /de/net/aspose.words.replacing/findreplaceoptions/applyparagraphformat/
 ---
 ## FindReplaceOptions.ApplyParagraphFormat property
 
-Absatzformatierung auf neuen Inhalt angewendet.
+Absatzformatierung wird auf neuen Inhalt angewendet.
 
 ```csharp
 public ParagraphFormat ApplyParagraphFormat { get; }
@@ -16,7 +16,7 @@ public ParagraphFormat ApplyParagraphFormat { get; }
 
 ### Beispiele
 
-Zeigt, wie Formatierungen zu Absätzen hinzugefügt werden, in denen ein Suchen-und-Ersetzen-Vorgang Übereinstimmungen gefunden hat.
+Zeigt, wie Formatierungen zu Absätzen hinzugefügt werden, in denen ein Such- und Ersetzungsvorgang Übereinstimmungen gefunden hat.
 
 ```csharp
 Document doc = new Document();
@@ -32,14 +32,14 @@ Assert.AreEqual(ParagraphAlignment.Left, paragraphs[0].ParagraphFormat.Alignment
 Assert.AreEqual(ParagraphAlignment.Left, paragraphs[1].ParagraphFormat.Alignment);
 Assert.AreEqual(ParagraphAlignment.Left, paragraphs[2].ParagraphFormat.Alignment);
 
-// Wir können ein "FindReplaceOptions"-Objekt verwenden, um den Suchen-und-Ersetzen-Prozess zu ändern.
+// Wir können ein „FindReplaceOptions“-Objekt verwenden, um den Such- und Ersetzungsprozess zu ändern.
 FindReplaceOptions options = new FindReplaceOptions();
 
-// Setzen Sie die Eigenschaft "Alignment" auf "ParagraphAlignment.Right", um jeden Absatz rechtsbündig auszurichten
-// die eine Übereinstimmung enthält, die die Suchen-und-Ersetzen-Operation findet.
+// Setzen Sie die Eigenschaft „Alignment“ auf „ParagraphAlignment.Right“, um jeden Absatz rechtsbündig auszurichten
+// das eine Übereinstimmung enthält, die der Such- und Ersetzungsvorgang findet.
 options.ApplyParagraphFormat.Alignment = ParagraphAlignment.Right;
 
-// Ersetze jeden Punkt direkt vor einem Absatzumbruch durch ein Ausrufezeichen.
+// Ersetzen Sie jeden Punkt, der direkt vor einem Absatzumbruch steht, durch ein Ausrufezeichen.
 int count = doc.Range.Replace(".&p", "!&p", options);
 
 Assert.AreEqual(2, count);

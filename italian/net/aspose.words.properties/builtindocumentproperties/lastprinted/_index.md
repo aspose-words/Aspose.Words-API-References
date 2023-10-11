@@ -1,14 +1,14 @@
 ---
 title: BuiltInDocumentProperties.LastPrinted
 second_title: Aspose.Words per .NET API Reference
-description: BuiltInDocumentProperties proprietà. Ottiene o imposta la data dellultima stampa del documento in formato UTC.
+description: BuiltInDocumentProperties proprietà. Ottiene o imposta la data dellultima stampa del documento in UTC.
 type: docs
 weight: 150
 url: /it/net/aspose.words.properties/builtindocumentproperties/lastprinted/
 ---
 ## BuiltInDocumentProperties.LastPrinted property
 
-Ottiene o imposta la data dell'ultima stampa del documento in formato UTC.
+Ottiene o imposta la data dell'ultima stampa del documento in UTC.
 
 ```csharp
 public DateTime LastPrinted { get; set; }
@@ -27,7 +27,7 @@ Aspose.Words non aggiorna questa proprietà.
 Mostra come lavorare con le proprietà del documento nella categoria "Origine".
 
 ```csharp
-// Apri un documento che abbiamo creato e modificato utilizzando Microsoft Word.
+// Apre un documento che abbiamo creato e modificato utilizzando Microsoft Word.
 Document doc = new Document(MyDir + "Properties.docx");
 BuiltInDocumentProperties properties = doc.BuiltInDocumentProperties;
 

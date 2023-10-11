@@ -1,14 +1,14 @@
 ---
 title: HtmlSaveOptions.ExportPageSetup
 second_title: Référence de l'API Aspose.Words pour .NET
-description: HtmlSaveOptions propriété. Spécifie si la mise en page est exportée vers HTML MHTML ou EPUB. La valeur par défaut estfaux .
+description: HtmlSaveOptions propriété. Spécifie si la mise en page est exportée au format HTML MHTML ou EPUB. La valeur par défaut estFAUX .
 type: docs
-weight: 230
+weight: 220
 url: /fr/net/aspose.words.saving/htmlsaveoptions/exportpagesetup/
 ---
 ## HtmlSaveOptions.ExportPageSetup property
 
-Spécifie si la mise en page est exportée vers HTML, MHTML ou EPUB. La valeur par défaut est`faux` .
+Spécifie si la mise en page est exportée au format HTML, MHTML ou EPUB. La valeur par défaut est`FAUX` .
 
 ```csharp
 public bool ExportPageSetup { get; set; }
@@ -16,13 +16,13 @@ public bool ExportPageSetup { get; set; }
 
 ### Remarques
 
-Chaque[`Section`](../../../aspose.words/section/) dans le modèle de document Aspose.Words fournit des informations de configuration de page via[`PageSetup`](../../../aspose.words/pagesetup/) classer. Lorsque vous exportez un document au format HTML, vous devrez peut-être conserver ces informations pour une utilisation ultérieure. En particulier, la mise en page peut être importante pour le rendu sur un support paginé (impression) ou la conversion ultérieure vers les formats de fichier Microsoft Word natifs (DOCX, DOC, RTF, WML).
+Chaque[`Section`](../../../aspose.words/section/) dans le modèle de document Aspose.Words fournit des informations de configuration de page via[`PageSetup`](../../../aspose.words/pagesetup/) classe. Lorsque vous exportez un document au format HTML, vous devrez peut-être conserver ces informations pour une utilisation ultérieure. En particulier, la mise en page peut être importante pour le rendu sur un support paginé (impression) ou la conversion ultérieure vers les formats de fichiers natifs Microsoft Word (DOCX, DOC, RTF, WML).
 
-Dans la plupart des cas, HTML est destiné à être affiché dans des navigateurs où la pagination n'est pas effectuée. Donc cette feature est inactive par défaut.
+Dans la plupart des cas, le HTML est destiné à être affiché dans des navigateurs où la pagination n'est pas effectuée. Cette feature est donc inactive par défaut.
 
 ### Exemples
 
-Montre comment décider de conserver les informations sur la structure de la section/la configuration de la page lors de l'enregistrement au format HTML.
+Montre comment décider de conserver ou non les informations sur la structure des sections/la mise en page lors de l'enregistrement au format HTML.
 
 ```csharp
 Document doc = new Document();
@@ -38,9 +38,9 @@ pageSetup.BottomMargin = 36.0;
 pageSetup.PaperSize = PaperSize.A5;
 
 // Lors de l'enregistrement du document au format HTML, nous pouvons passer un objet SaveOptions
-// pour décider de conserver ou de supprimer les paramètres de configuration de la page.
-// Si nous définissons le drapeau "ExportPageSetup" sur "true", le document HTML de sortie contiendra notre configuration de mise en page.
-// Si nous définissons le drapeau "ExportPageSetup" sur "false", l'opération de sauvegarde supprimera nos paramètres de configuration de page
+// pour décider de conserver ou de supprimer les paramètres de mise en page.
+// Si nous définissons l'indicateur "ExportPageSetup" sur "true", le document HTML de sortie contiendra notre configuration de mise en page.
+// Si nous définissons l'indicateur "ExportPageSetup" sur "false", l'opération de sauvegarde ignorera nos paramètres de mise en page
 // pour la première section, et les deux sections seront identiques.
 HtmlSaveOptions options = new HtmlSaveOptions { ExportPageSetup = exportPageSetup };
 
@@ -52,13 +52,13 @@ if (exportPageSetup)
 {
     Assert.True(outDocContents.Contains(
         "<style type=\"text/css\">" +
-            "@page Section1 { size:419.55pt 595.3pt; margin:36pt 70.85pt }" +
-            "@page Section2 { size:612pt 792pt; margin:70.85pt }" +
-            "div.Section1 { page:Section1 }div.Section2 { page:Section2 }" +
+            "@page Section_1 { size:419.55pt 595.3pt; margin:36pt 70.85pt; -aw-footer-distance:35.4pt; -aw-header-distance:35.4pt }" +
+            "@page Section_2 { size:612pt 792pt; margin:70.85pt; -aw-footer-distance:35.4pt; -aw-header-distance:35.4pt }" +
+            "div.Section_1 { page:Section_1 }div.Section_2 { page:Section_2 }" +
         "</style>"));
 
     Assert.True(outDocContents.Contains(
-        "<div class=\"Section1\">" +
+        "<div class=\"Section_1\">" +
             "<p style=\"margin-top:0pt; margin-bottom:0pt\">" +
                 "<span>Section 1</span>" +
             "</p>" +

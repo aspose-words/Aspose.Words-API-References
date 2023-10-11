@@ -1,14 +1,16 @@
 ---
 title: Class VbaReference
 second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Vba.VbaReference sınıf. Bir Otomasyon türü kitaplığına veya VBA projesine başvuru uygular.
+description: Aspose.Words.Vba.VbaReference sınıf. Otomasyon türü kitaplığına veya VBA projesine bir başvuru uygular.
 type: docs
-weight: 6280
+weight: 6590
 url: /tr/net/aspose.words.vba/vbareference/
 ---
 ## VbaReference class
 
-Bir Otomasyon türü kitaplığına veya VBA projesine başvuru uygular.
+Otomasyon türü kitaplığına veya VBA projesine bir başvuru uygular.
+
+Daha fazlasını öğrenmek için şu adresi ziyaret edin:[VBA Makrolarıyla Çalışmak](https://docs.aspose.com/words/net/working-with-vba-macros/) dokümantasyon makalesi.
 
 ```csharp
 public abstract class VbaReference
@@ -19,14 +21,13 @@ public abstract class VbaReference
 | İsim | Tanım |
 | --- | --- |
 | abstract [LibId](../../aspose.words.vba/vbareference/libid/) { get; } | Otomasyon türü kitaplığının tanımlayıcısını içeren bir dize değeri alır. |
-| abstract [Type](../../aspose.words.vba/vbareference/type/) { get; } | Alır[`VbaReferenceType`](../vbareferencetype/)VbaReference nesnesinin temsil ettiği başvuru türünü gösteren nesne. |
+| abstract [Type](../../aspose.words.vba/vbareference/type/) { get; } | Alır[`VbaReferenceType`](../vbareferencetype/) referansın türünü belirten nesne`VbaReference` nesne temsil eder. |
 
 ### Örnekler
 
-VBA başvuru koleksiyonundan bir öğenin nasıl alınacağını/kaldırılacağını gösterir.
+VBA referans koleksiyonundan bir öğenin nasıl alınacağını/kaldırılacağını gösterir.
 
 ```csharp
-[Test]
 public void RemoveVbaReference()
 {
     const string brokenPath = @"X:\broken.dll";
@@ -52,7 +53,7 @@ public void RemoveVbaReference()
 }
 
 /// <summary>
-/// Belirtilen bir başvurunun LibId yolunu temsil eden dizeyi döndürür. 
+ /// Belirtilen bir referansın LibId yolunu temsil eden dizeyi döndürür.
 /// </summary>
 private static string GetLibIdPath(VbaReference reference)
 {

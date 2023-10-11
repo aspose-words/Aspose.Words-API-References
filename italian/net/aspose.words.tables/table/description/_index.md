@@ -18,7 +18,7 @@ public string Description { get; set; }
 
 Il valore predefinito è una stringa vuota.
 
-Questa proprietà è significativa per documenti DOCX conformi a ISO/IEC 29500 ([`OoxmlCompliance`](../../../aspose.words.saving/ooxmlcompliance/)). Quando viene salvata in formati precedenti a ISO/IEC 29500, la proprietà viene ignorata.
+Questa proprietà è significativa per i documenti DOCX conformi a ISO/IEC 29500 ([`OoxmlCompliance`](../../../aspose.words.saving/ooxmlcompliance/)). Se salvata in formati precedenti a ISO/IEC 29500, la proprietà viene ignorata.
 
 ### Esempi
 
@@ -33,7 +33,7 @@ public void CreateNestedTable()
     Table outerTable = CreateTable(doc, 3, 4, "Outer Table");
     doc.FirstSection.Body.AppendChild(outerTable);
 
-    // Crea un'altra tabella con due righe e due colonne, quindi inseriscila nella prima cella della prima tabella.
+    // Crea un'altra tabella con due righe e due colonne e quindi inseriscila nella prima cella della prima tabella.
     Table innerTable = CreateTable(doc, 2, 2, "Inner Table");
     outerTable.FirstRow.FirstCell.AppendChild(innerTable);
 
@@ -41,7 +41,7 @@ public void CreateNestedTable()
 }
 
 /// <summary>
-/// Crea una nuova tabella nel documento con le dimensioni e il testo indicati in ogni cella.
+/// Crea una nuova tabella nel documento con le dimensioni e il testo specificati in ogni cella.
 /// </summary>
 private static Table CreateTable(Document doc, int rowCount, int cellCount, string cellText)
 {
@@ -65,7 +65,7 @@ private static Table CreateTable(Document doc, int rowCount, int cellCount, stri
     // Puoi utilizzare le proprietà "Titolo" e "Descrizione" per aggiungere rispettivamente un titolo e una descrizione alla tua tabella.
     // La tabella deve avere almeno una riga prima di poter utilizzare queste proprietà.
     // Queste proprietà sono significative per i documenti .docx conformi a ISO / IEC 29500 (vedere la classe OoxmlCompliance).
-    // Se salviamo il documento in formati pre-ISO/IEC 29500, Microsoft Word ignora queste proprietà.
+    // Se salviamo il documento in formati precedenti a ISO/IEC 29500, Microsoft Word ignora queste proprietà.
     table.Title = "Aspose table title";
     table.Description = "Aspose table description";
 

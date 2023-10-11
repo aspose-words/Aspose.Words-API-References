@@ -1,14 +1,14 @@
 ---
 title: CellFormat.ClearFormatting
 second_title: Référence de l'API Aspose.Words pour .NET
-description: CellFormat méthode. Réinitialise le formatage de cellule par défaut. Ne change pas la largeur de la cellule.
+description: CellFormat méthode. Réinitialise le formatage de cellule par défaut. Ne modifie pas la largeur de la cellule.
 type: docs
-weight: 150
+weight: 160
 url: /fr/net/aspose.words.tables/cellformat/clearformatting/
 ---
 ## CellFormat.ClearFormatting method
 
-Réinitialise le formatage de cellule par défaut. Ne change pas la largeur de la cellule.
+Réinitialise le formatage de cellule par défaut. Ne modifie pas la largeur de la cellule.
 
 ```csharp
 public void ClearFormatting()
@@ -22,7 +22,7 @@ Montre comment combiner les lignes de deux tables en une seule.
 Document doc = new Document(MyDir + "Tables.docx");
 
 // Vous trouverez ci-dessous deux manières d'obtenir un tableau à partir d'un document.
-// 1 - Depuis la collection "Tables" d'un noeud Body :
+// 1 - Depuis la collection "Tables" d'un nœud Body :
 Table firstTable = doc.FirstSection.Body.Tables[0];
 
 // 2 - Utilisation de la méthode "GetChild" :

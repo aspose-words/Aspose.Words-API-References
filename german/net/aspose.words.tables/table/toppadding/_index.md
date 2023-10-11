@@ -1,14 +1,14 @@
 ---
 title: Table.TopPadding
 second_title: Aspose.Words für .NET-API-Referenz
-description: Table eigendom. Ruft den Abstand in Punkt ab oder legt ihn fest der über dem Inhalt von Zellen hinzugefügt werden soll.
+description: Table eigendom. Ruft die Menge an Platz in Punkten ab die über dem Inhalt von Zellen hinzugefügt werden soll oder legt diese fest.
 type: docs
 weight: 330
 url: /de/net/aspose.words.tables/table/toppadding/
 ---
 ## Table.TopPadding property
 
-Ruft den Abstand (in Punkt) ab oder legt ihn fest, der über dem Inhalt von Zellen hinzugefügt werden soll.
+Ruft die Menge an Platz (in Punkten) ab, die über dem Inhalt von Zellen hinzugefügt werden soll, oder legt diese fest.
 
 ```csharp
 public double TopPadding { get; set; }
@@ -29,7 +29,7 @@ builder.InsertCell();
 builder.Write("Row 1, cell 2.");
 builder.EndTable();
 
-// Legen Sie für jede Zelle in der Tabelle den Abstand zwischen ihrem Inhalt und jedem ihrer Ränder fest. 
+ // Für jede Zelle in der Tabelle den Abstand zwischen ihrem Inhalt und jedem ihrer Ränder festlegen.
 // Diese Tabelle behält den minimalen Füllabstand bei, indem Text umbrochen wird.
 table.LeftPadding = 30;
 table.RightPadding = 60;

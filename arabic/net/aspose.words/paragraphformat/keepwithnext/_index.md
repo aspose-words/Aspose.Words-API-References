@@ -1,14 +1,14 @@
 ---
 title: ParagraphFormat.KeepWithNext
 second_title: Aspose.Words لمراجع .NET API
-description: ParagraphFormat ملكية. صحيح إذا كانت الفقرة ستبقى على نفس الصفحة مثل الفقرة التي تليها.
+description: ParagraphFormat ملكية. صحيح إذا كانت الفقرة ستبقى في نفس الصفحة مثل الفقرة التي تليها.
 type: docs
-weight: 160
+weight: 170
 url: /ar/net/aspose.words/paragraphformat/keepwithnext/
 ---
 ## ParagraphFormat.KeepWithNext property
 
-صحيح إذا كانت الفقرة ستبقى على نفس الصفحة مثل الفقرة التي تليها.
+صحيح إذا كانت الفقرة ستبقى في نفس الصفحة مثل الفقرة التي تليها.
 
 ```csharp
 public bool KeepWithNext { get; set; }
@@ -22,8 +22,8 @@ public bool KeepWithNext { get; set; }
 Document doc = new Document(MyDir + "Table spanning two pages.docx");
 Table table = doc.FirstSection.Body.Tables[0];
 
-// تمكين KeepWithNext لكل فقرة في الجدول باستثناء ملف
-// الأخيرة في الصف الأخير ستمنع الجدول من الانقسام عبر صفحات متعددة.
+// تمكين KeepWithNext لكل فقرة في الجدول باستثناء فقرة
+// آخر العناصر الموجودة في الصف الأخير ستمنع تقسيم الجدول عبر صفحات متعددة.
 foreach (Cell cell in table.GetChildNodes(NodeType.Cell, true).OfType<Cell>())
     foreach (Paragraph para in cell.Paragraphs.OfType<Paragraph>())
     {

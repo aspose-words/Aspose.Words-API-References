@@ -1,14 +1,14 @@
 ---
 title: PdfSaveOptions.ExportLanguageToSpanTag
 second_title: Aspose.Words لمراجع .NET API
-description: PdfSaveOptions ملكية. الحصول على أو تعيين قيمة تحدد ما إذا كان سيتم إنشاء علامة امتداد في بنية المستند لتصدير لغة النص أم لا.
+description: PdfSaveOptions ملكية. الحصول على قيمة أو تعيينها لتحديد ما إذا كان سيتم إنشاء علامة Span في بنية المستند لتصدير لغة النص أم لا.
 type: docs
-weight: 130
+weight: 150
 url: /ar/net/aspose.words.saving/pdfsaveoptions/exportlanguagetospantag/
 ---
 ## PdfSaveOptions.ExportLanguageToSpanTag property
 
-الحصول على أو تعيين قيمة تحدد ما إذا كان سيتم إنشاء علامة "امتداد" في بنية المستند لتصدير لغة النص أم لا.
+الحصول على قيمة أو تعيينها لتحديد ما إذا كان سيتم إنشاء علامة "Span" في بنية المستند لتصدير لغة النص أم لا.
 
 ```csharp
 public bool ExportLanguageToSpanTag { get; set; }
@@ -16,11 +16,11 @@ public bool ExportLanguageToSpanTag { get; set; }
 
 ### ملاحظات
 
-القيمة الافتراضية هي`خاطئة` والسمة "Lang" مرفقة بتسلسل محتوى محدد في تدفق محتوى الصفحة.
+القيمة الافتراضية هي`خطأ شنيع`ويتم إرفاق السمة "Lang" بتسلسل محتوى محدد في تدفق محتوى الصفحة.
 
-عندما تكون القيمة`حقيقي` يتم إنشاء علامة "Span" للنص الذي يحتوي على لغة غير افتراضية ويتم إرفاق سمة "Lang" بهذه العلامة.
+عندما تكون القيمة`حقيقي` يتم إنشاء علامة "Span" للنص الذي يحتوي على language غير الافتراضية ويتم إرفاق سمة "Lang" بهذه العلامة.
 
-يتم تجاهل هذه القيمة عندما[`ExportDocumentStructure`](../exportdocumentstructure/) هو`خاطئة` .
+يتم تجاهل هذه القيمة عندما[`ExportDocumentStructure`](../exportdocumentstructure/) يكون`خطأ شنيع` .
 
 ### أمثلة
 
@@ -35,7 +35,7 @@ builder.Writeln("Hola mundo!");
 
 PdfSaveOptions saveOptions = new PdfSaveOptions
 {
-    // ملاحظة ، عندما تكون "ExportDocumentStructure" خاطئة ، يتم تجاهل "ExportLanguageToSpanTag".
+    // ملاحظة، عندما تكون قيمة "ExportDocumentStructure" خاطئة، يتم تجاهل "ExportLanguageToSpanTag".
     ExportDocumentStructure = true, ExportLanguageToSpanTag = true
 };
 

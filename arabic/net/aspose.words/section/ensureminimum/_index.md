@@ -1,14 +1,14 @@
 ---
 title: Section.EnsureMinimum
 second_title: Aspose.Words لمراجع .NET API
-description: Section طريقة. يضمن أن القسم به نص فقرة واحدة.
+description: Section طريقة. التأكد من وجود القسمBody مع واحدParagraph .
 type: docs
-weight: 130
+weight: 150
 url: /ar/net/aspose.words/section/ensureminimum/
 ---
 ## Section.EnsureMinimum method
 
-يضمن أن القسم به نص فقرة واحدة.
+التأكد من وجود القسم[`Body`](../body/) مع واحد[`Paragraph`](../../paragraph/) .
 
 ```csharp
 public void EnsureMinimum()
@@ -21,18 +21,18 @@ public void EnsureMinimum()
 ```csharp
 Document doc = new Document();
 
-// يأتي المستند الفارغ مع قسم يحتوي على نص ، والذي بدوره يحتوي على فقرة.
-// يمكننا إضافة محتويات إلى هذا المستند عن طريق إضافة عناصر مثل عمليات تشغيل النص أو الأشكال أو الجداول إلى تلك الفقرة.
+// يحتوي المستند الفارغ على قسم يحتوي على نص والذي بدوره يحتوي على فقرة.
+// يمكننا إضافة محتويات إلى هذا المستند عن طريق إضافة عناصر مثل تشغيل النص أو الأشكال أو الجداول إلى تلك الفقرة.
 Assert.AreEqual(NodeType.Section, doc.GetChild(NodeType.Any, 0, true).NodeType);
 Assert.AreEqual(NodeType.Body, doc.Sections[0].GetChild(NodeType.Any, 0, true).NodeType);
 Assert.AreEqual(NodeType.Paragraph, doc.Sections[0].Body.GetChild(NodeType.Any, 0, true).NodeType);
 
-// إذا أضفنا قسمًا جديدًا مثل هذا ، فلن يحتوي على جسم ، أو أي عقد فرعية أخرى.
+// إذا أضفنا قسمًا جديدًا مثل هذا، فلن يحتوي على نص أو أي عقد فرعية أخرى.
 doc.Sections.Add(new Section(doc));
 
 Assert.AreEqual(0, doc.Sections[1].GetChildNodes(NodeType.Any, true).Count);
 
-// قم بتشغيل طريقة "ضمان الحد الأدنى" لإضافة نص وفقرة إلى هذا القسم لبدء تحريره.
+// قم بتشغيل طريقة "EnsureMinimum" لإضافة نص وفقرة إلى هذا القسم لبدء تحريره.
 doc.LastSection.EnsureMinimum();
 
 Assert.AreEqual(NodeType.Body, doc.Sections[1].GetChild(NodeType.Any, 0, true).NodeType);

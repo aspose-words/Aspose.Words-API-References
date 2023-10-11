@@ -1,14 +1,14 @@
 ---
 title: ParagraphFormat.IsListItem
 second_title: Referencia de API de Aspose.Words para .NET
-description: ParagraphFormat propiedad. Verdadero cuando el párrafo es un elemento de una lista numerada o con viñetas.
+description: ParagraphFormat propiedad. Verdadero cuando el párrafo es un elemento en una lista numerada o con viñetas.
 type: docs
-weight: 140
+weight: 150
 url: /es/net/aspose.words/paragraphformat/islistitem/
 ---
 ## ParagraphFormat.IsListItem property
 
-Verdadero cuando el párrafo es un elemento de una lista numerada o con viñetas.
+Verdadero cuando el párrafo es un elemento en una lista numerada o con viñetas.
 
 ```csharp
 public bool IsListItem { get; }
@@ -23,10 +23,10 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Una lista nos permite organizar y decorar conjuntos de párrafos con símbolos de prefijo y sangrías.
-// Podemos crear listas anidadas aumentando el nivel de sangría. 
-// Podemos comenzar y finalizar una lista usando la propiedad "ListFormat" del generador de documentos. 
+ // Podemos crear listas anidadas aumentando el nivel de sangría.
+ // Podemos comenzar y finalizar una lista utilizando la propiedad "ListFormat" del generador de documentos.
 // Cada párrafo que agreguemos entre el inicio y el final de una lista se convertirá en un elemento de la lista.
-// Crear una lista de esquemas para los encabezados.
+// Crea una lista de resumen para los encabezados.
 List outlineList = doc.Lists.Add(ListTemplate.OutlineNumbers);
 builder.ListFormat.List = outlineList;
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
@@ -38,11 +38,11 @@ builder.ListFormat.List = numberedList;
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Normal;
 builder.Writeln("Numbered list item 1.");
 
-// Cada párrafo que comprende una lista tendrá esta bandera.
+// Cada párrafo que compone una lista tendrá esta bandera.
 Assert.True(builder.CurrentParagraph.IsListItem);
 Assert.True(builder.ParagraphFormat.IsListItem);
 
-// Crear una lista con viñetas.
+// Crea una lista con viñetas.
 List bulletedList = doc.Lists.Add(ListTemplate.BulletDefault);
 builder.ListFormat.List = bulletedList;
 builder.ParagraphFormat.LeftIndent = 72;

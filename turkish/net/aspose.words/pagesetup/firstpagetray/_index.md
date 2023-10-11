@@ -1,14 +1,14 @@
 ---
 title: PageSetup.FirstPageTray
 second_title: Aspose.Words for .NET API Referansı
-description: PageSetup mülk. Bir bölümün ilk sayfası için kullanılacak kağıt tepsisini bölme alır veya ayarlar. Değer uygulamaya yazıcıya özeldir.
+description: PageSetup mülk. Bir bölümün ilk sayfası için kullanılacak kağıt tepsisini kutu alır veya ayarlar. Değer uygulamaya yazıcıya özeldir.
 type: docs
 weight: 130
 url: /tr/net/aspose.words/pagesetup/firstpagetray/
 ---
 ## PageSetup.FirstPageTray property
 
-Bir bölümün ilk sayfası için kullanılacak kağıt tepsisini (bölme) alır veya ayarlar. Değer uygulamaya (yazıcıya) özeldir.
+Bir bölümün ilk sayfası için kullanılacak kağıt tepsisini (kutu) alır veya ayarlar. Değer uygulamaya (yazıcıya) özeldir.
 
 ```csharp
 public int FirstPageTray { get; set; }
@@ -16,17 +16,17 @@ public int FirstPageTray { get; set; }
 
 ### Örnekler
 
-Seçilen yazıcının varsayılan kağıt tepsisini kullanmak için bir belgedeki tüm bölümlerin nasıl alınacağını gösterir.
+Bir belgedeki tüm bölümlerin seçilen yazıcının varsayılan kağıt tepsisini kullanmasını nasıl sağlayacağınızı gösterir.
 
 ```csharp
 Document doc = new Document();
 
 // Bu belgeyi yazdırmak için kullanacağımız varsayılan yazıcıyı bulun.
-// PrinterSettings nesnesinin "PrinterName" özelliğini kullanarak belirli bir yazıcı tanımlayabilirsiniz.
+// PrinterSettings nesnesinin "PrinterName" özelliğini kullanarak belirli bir yazıcıyı tanımlayabilirsiniz.
 PrinterSettings settings = new PrinterSettings();
 
-// Belgelerde saklanan kağıt tepsisi değeri yazıcıya özeldir.
-// Bu, aşağıdaki kodun, geçerli yazıcıların varsayılan tepsisini kullanmak için tüm sayfa tepsisi değerlerini sıfırladığı anlamına gelir.
+// Dokümanlarda saklanan kağıt tepsisi değeri yazıcıya özeldir.
+// Bu, aşağıdaki kodun tüm sayfa tepsisi değerlerini geçerli yazıcının varsayılan tepsisini kullanacak şekilde sıfırladığı anlamına gelir.
 // Seçilen yazıcının diğer geçerli kağıt tepsisi değerlerini bulmak için PrinterSettings.PaperSources'ı numaralandırabilirsiniz.
 foreach (Section section in doc.Sections.OfType<Section>())
 {
@@ -41,17 +41,17 @@ Farklı kağıt boyutları için farklı yazıcı tepsilerini kullanarak yazdır
 Document doc = new Document();
 
 // Bu belgeyi yazdırmak için kullanacağımız varsayılan yazıcıyı bulun.
-// PrinterSettings nesnesinin "PrinterName" özelliğini kullanarak belirli bir yazıcı tanımlayabilirsiniz.
+// PrinterSettings nesnesinin "PrinterName" özelliğini kullanarak belirli bir yazıcıyı tanımlayabilirsiniz.
 PrinterSettings settings = new PrinterSettings();
 
-// "A4" kağıt boyutundaki sayfalar için kullanacağımız tepsi budur.
+// "A4" kağıt boyutundaki sayfalar için kullanacağımız tepsidir.
 int printerTrayForA4 = settings.PaperSources[0].RawKind;
 
-// "Mektup" kağıt boyutundaki sayfalar için kullanacağımız tepsi budur.
+// "Letter" kağıt boyutundaki sayfalar için kullanacağımız tepsidir.
 int printerTrayForLetter = settings.PaperSources[1].RawKind;
 
 // Microsoft Word'ün yazıcıya talimat vermesini sağlamak için bu bölümün PageSettings nesnesini değiştirin
-// bu bölümün kağıt boyutuna bağlı olarak yukarıda tanımladığımız tepsilerden birini kullanmak için.
+// bu bölümün kağıt boyutuna göre yukarıda tanımladığımız tepsilerden birini kullanmak için.
 foreach (Section section in doc.Sections.OfType<Section>())
 {
     if (section.PageSetup.PaperSize == Aspose.Words.PaperSize.Letter)

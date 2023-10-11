@@ -20,11 +20,11 @@ public override bool Accept(DocumentVisitor visitor)
 
 ### Valor_devuelto
 
-Falso si el visitante solicitó que se detuviera la enumeración.
+`FALSO` si el visitante solicitó que se detuviera la enumeración.
 
 ### Observaciones
 
-Llama a DocumentVisitor.VisitSpecialChar.
+llamadas[`VisitSpecialChar`](../../documentvisitor/visitspecialchar/).
 
 Para obtener más información, consulte el patrón de diseño Visitante.
 

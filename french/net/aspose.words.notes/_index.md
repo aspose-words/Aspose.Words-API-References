@@ -1,18 +1,18 @@
 ---
 title: Aspose.Words.Notes
 second_title: Référence de l'API Aspose.Words pour .NET
-description: La Aspose.Words.Notes namespace fournit des classes pour travailler avec les notes de fin et les notes de bas de page Microsoft Word.
+description: Le Aspose.Mots.NotesLespace de noms fournit des classes pour travailler avec les notes de fin et de bas de page de Microsoft Word.
 type: docs
-weight: 170
+weight: 180
 url: /fr/net/aspose.words.notes/
 ---
-La **Aspose.Words.Notes** namespace fournit des classes pour travailler avec les notes de fin et les notes de bas de page Microsoft Word.
+Le **Aspose.Mots.Notes**L'espace de noms fournit des classes pour travailler avec les notes de fin et de bas de page de Microsoft Word.
 
 ## Des classes
 
 | Classer | La description |
 | --- | --- |
-| [EndnoteOptions](./endnoteoptions/) | Représente les options de numérotation des notes de fin d'un document ou d'une section. |
+| [EndnoteOptions](./endnoteoptions/) | Représente les options de numérotation des notes de fin pour un document ou une section. |
 | [Footnote](./footnote/) | Représente un conteneur pour le texte d'une note de bas de page ou d'une note de fin. |
 | [FootnoteOptions](./footnoteoptions/) | Représente les options de numérotation des notes de bas de page pour un document ou une section. |
 ## Énumération

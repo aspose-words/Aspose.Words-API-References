@@ -1,14 +1,14 @@
 ---
 title: Enum SdtDateStorageFormat
 second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Markup.SdtDateStorageFormat Sıralama. SDT belgenin veri deposundaki bir XML düğümüne bağlandığında SDT tarihinin nasıl depolanacağını/alınacağını belirtir.
+description: Aspose.Words.Markup.SdtDateStorageFormat Sıralama. SDT belgenin veri deposundaki bir XML düğümüne bağlandığında SDT tarihi için tarihin nasıl saklanacağını/alınacağını belirtir.
 type: docs
-weight: 3770
+weight: 4010
 url: /tr/net/aspose.words.markup/sdtdatestorageformat/
 ---
 ## SdtDateStorageFormat enumeration
 
-SDT, belgenin veri deposundaki bir XML düğümüne bağlandığında, SDT tarihinin nasıl depolanacağını/alınacağını belirtir.
+SDT, belgenin veri deposundaki bir XML düğümüne bağlandığında SDT tarihi için tarihin nasıl saklanacağını/alınacağını belirtir.
 
 ```csharp
 public enum SdtDateStorageFormat
@@ -18,10 +18,10 @@ public enum SdtDateStorageFormat
 
 | İsim | Değer | Tanım |
 | --- | --- | --- |
-| Date | `0` | Bir tarih SDT'sinin tarih değeri, standart XML Şeması Tarih biçiminde bir tarih olarak saklanır. |
-| DateTime | `1` | Bir tarih SDT'sinin tarih değeri, standart XML Şeması DateTime biçiminde bir tarih olarak saklanır. |
+| Date | `0` | Bir tarih SDT'sinin tarih değeri, standart XML Şema Tarihi biçiminde bir tarih olarak depolanır. |
+| DateTime | `1` | Bir tarih SDT'sinin tarih değeri, standart XML Şeması DateTime biçiminde bir tarih olarak depolanır. |
 | Text | `2` | Bir tarih SDT'sinin tarih değeri metin olarak saklanır. |
-| Default | `1` | VarsayılanDateTime |
+| Default | `1` | Varsayılan olarakDateTime |
 
 ### Ayrıca bakınız
 

@@ -3,7 +3,7 @@ title: Document.Save
 second_title: Aspose.Words för .NET API Referens
 description: Document metod. Sparar dokumentet till en fil. Bestämmer automatiskt sparformatet från tillägget.
 type: docs
-weight: 680
+weight: 720
 url: /sv/net/aspose.words/document/save/
 ---
 ## Save(string) {#save_2}
@@ -105,7 +105,7 @@ public SaveOutputParameters Save(string fileName, SaveOptions saveOptions)
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
 | fileName | String | Namnet på dokumentet. Om ett dokument med det angivna filnamnet redan finns, skrivs det befintliga dokumentet över. |
-| saveOptions | SaveOptions | Anger alternativen som styr hur dokumentet sparas. Kan vara null. |
+| saveOptions | SaveOptions | Anger alternativen som styr hur dokumentet sparas. Kan vara`null`. |
 
 ### Returvärde
 
@@ -123,7 +123,6 @@ builder.Font.Size = 60;
 builder.Writeln("Some text.");
 
 SaveOptions options = new ImageSaveOptions(SaveFormat.Jpeg);
-
 doc.Save(ArtifactsDir + "Document.ImageSaveOptions.Default.jpg", options);
 
 options.UseAntiAliasing = true;
@@ -175,6 +174,9 @@ for (int i = 0; i < doc.PageCount; i++)
     // Ställ in egenskapen "PageSet" till numret på den första sidan från
     // som du ska börja rendera dokumentet från.
     options.PageSet = new PageSet(i);
+    // Exportera sida med 2325x5325 pixlar och 600 dpi.
+    options.Resolution = 600;
+    options.ImageSize = new Size(2325, 5325);
 
     doc.Save(ArtifactsDir + $"ImageSaveOptions.PageByPage.{i + 1}.tiff", options);
 }
@@ -280,10 +282,10 @@ options.OutlineOptions.HeadingsOutlineLevels = 4;
 // Om en konturpost har efterföljande poster på en högre nivå mellan sig och nästa post på samma eller lägre nivå,
 // en pil visas till vänster om posten. Denna post är "ägare" till flera sådana "underposter".
 // I vårt dokument är dispositionsposterna från den 5:e rubriknivån underposter till den andra 4:e nivåns dispositionspost,
-  // posterna på 4:e och 5:e rubriknivån är underposter till den andra 3:e nivåposten, och så vidare.
+// posterna på 4:e och 5:e rubriknivån är underposter till den andra 3:e nivåposten, och så vidare.
 // I dispositionen kan vi klicka på pilen för "ägare"-posten för att komprimera/expandera alla dess underposter.
 // Ställ in egenskapen "ExpandedOutlineLevels" till "2" för att automatiskt utöka alla rubriknivå 2 och lägre dispositionsposter
- // och kollapsa alla nivåer och 3 och högre poster när vi öppnar dokumentet.
+// och kollapsa alla nivåer och 3 och högre poster när vi öppnar dokumentet.
 options.OutlineOptions.ExpandedOutlineLevels = 2;
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.ExpandedOutlineLevels.pdf", options);
@@ -402,7 +404,7 @@ public SaveOutputParameters Save(Stream stream, SaveOptions saveOptions)
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
 | stream | Stream | Streama var du vill spara dokumentet. |
-| saveOptions | SaveOptions | Anger alternativen som styr hur dokumentet sparas. Kan vara null. Om detta är null, kommer dokumentet att sparas i det binära DOC-formatet. |
+| saveOptions | SaveOptions | Anger alternativen som styr hur dokumentet sparas. Kan vara`null` . Om detta är`null`, kommer dokumentet att sparas i det binära DOC-formatet. |
 
 ### Returvärde
 
@@ -459,8 +461,8 @@ public SaveOutputParameters Save(HttpResponse response, string fileName,
 | --- | --- | --- |
 | response | HttpResponse | Svarsobjekt där dokumentet ska sparas. |
 | fileName | String | Namnet på dokumentet som kommer att visas i klientens webbläsare. Namnet ska inte innehålla sökväg. |
-| contentDisposition | ContentDisposition | A[`ContentDisposition`](../../contentdisposition/) värde that anger hur dokumentet presenteras i klientens webbläsare. |
-| saveOptions | SaveOptions | Anger alternativen som styr hur dokumentet sparas. Kan vara null. |
+| contentDisposition | ContentDisposition | A[`ContentDisposition`](../../contentdisposition/)värde that anger hur dokumentet presenteras i klientens webbläsare. |
+| saveOptions | SaveOptions | Anger alternativen som styr hur dokumentet sparas. Kan vara`null`. |
 
 ### Returvärde
 

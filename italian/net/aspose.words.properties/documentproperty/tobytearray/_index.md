@@ -1,14 +1,14 @@
 ---
 title: DocumentProperty.ToByteArray
 second_title: Aspose.Words per .NET API Reference
-description: DocumentProperty metodo. Restituisce il valore della proprietà come matrice di byte.
+description: DocumentProperty metodo. Restituisce il valore della proprietà come array di byte.
 type: docs
 weight: 70
 url: /it/net/aspose.words.properties/documentproperty/tobytearray/
 ---
 ## DocumentProperty.ToByteArray method
 
-Restituisce il valore della proprietà come matrice di byte.
+Restituisce il valore della proprietà come array di byte.
 
 ```csharp
 public byte[] ToByteArray()

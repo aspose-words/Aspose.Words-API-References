@@ -1,14 +1,14 @@
 ---
 title: ShapeBase.WrapType
 second_title: Aspose.Words für .NET-API-Referenz
-description: ShapeBase eigendom. Definiert ob die Form eingebettet oder schwebend ist. Für schwebende Formen definiert den Umbruchmodus für Text um die Form.
+description: ShapeBase eigendom. Definiert ob die Form inline oder schwebend ist. Für schwebende Formen definiert den Umbruchmodus für Text um die Form.
 type: docs
-weight: 540
+weight: 600
 url: /de/net/aspose.words.drawing/shapebase/wraptype/
 ---
 ## ShapeBase.WrapType property
 
-Definiert, ob die Form eingebettet oder schwebend ist. Für schwebende Formen definiert den Umbruchmodus für Text um die Form.
+Definiert, ob die Form inline oder schwebend ist. Für schwebende Formen definiert den Umbruchmodus für Text um die Form.
 
 ```csharp
 public WrapType WrapType { get; set; }
@@ -18,17 +18,17 @@ public WrapType WrapType { get; set; }
 
 Der Standardwert istNone.
 
-Hat nur Auswirkungen auf Shapes der obersten Ebene.
+Hat nur Auswirkungen auf Formen der obersten Ebene.
 
 ### Beispiele
 
-Zeigt, wie ein schwebendes Bild in der Mitte einer Seite eingefügt wird.
+Zeigt, wie man ein schwebendes Bild in der Mitte einer Seite einfügt.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Fügen Sie ein schwebendes Bild ein, das hinter dem überlappenden Text angezeigt wird, und richten Sie es an der Mitte der Seite aus.
+// Fügen Sie ein schwebendes Bild ein, das hinter dem überlappenden Text erscheint, und richten Sie es in der Mitte der Seite aus.
 Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
 shape.WrapType = WrapType.None;
 shape.BehindText = true;
@@ -45,17 +45,17 @@ Zeigt, wie ein Textfeld erstellt und formatiert wird.
 ```csharp
 Document doc = new Document();
 
-// Erstellen Sie ein schwebendes Textfeld.
+// Erstelle ein schwebendes Textfeld.
 Shape textBox = new Shape(doc, ShapeType.TextBox);
 textBox.WrapType = WrapType.None;
 textBox.Height = 50;
 textBox.Width = 200;
 
-// Legen Sie die horizontale und vertikale Ausrichtung des Textes innerhalb der Form fest.
+// Legen Sie die horizontale und vertikale Ausrichtung des Texts innerhalb der Form fest.
 textBox.HorizontalAlignment = HorizontalAlignment.Center;
 textBox.VerticalAlignment = VerticalAlignment.Top;
 
-// Füge einen Absatz zum Textfeld hinzu und füge einen Textverlauf hinzu, der im Textfeld angezeigt wird.
+// Fügen Sie dem Textfeld einen Absatz hinzu und fügen Sie eine Textzeile hinzu, die im Textfeld angezeigt wird.
 textBox.AppendChild(new Paragraph(doc));
 Paragraph para = textBox.FirstParagraph;
 para.ParagraphFormat.Alignment = ParagraphAlignment.Center;

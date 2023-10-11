@@ -3,7 +3,7 @@ title: FindReplaceOptions.UseSubstitutions
 second_title: Aspose.Words för .NET API Referens
 description: FindReplaceOptions fast egendom. Hämtar eller ställer in ett booleskt värde som indikerar om ersättningar ska identifieras och användas inom ersättningsmönster. Standardvärdet ärfalsk .
 type: docs
-weight: 160
+weight: 180
 url: /sv/net/aspose.words.replacing/findreplaceoptions/usesubstitutions/
 ---
 ## FindReplaceOptions.UseSubstitutions property

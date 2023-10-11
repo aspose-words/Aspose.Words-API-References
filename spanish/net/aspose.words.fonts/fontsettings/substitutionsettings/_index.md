@@ -1,14 +1,14 @@
 ---
 title: FontSettings.SubstitutionSettings
 second_title: Referencia de API de Aspose.Words para .NET
-description: FontSettings propiedad. Ajustes relacionados con el mecanismo de sustitución de fuentes.
+description: FontSettings propiedad. Configuraciones relacionadas con el mecanismo de sustitución de fuentes.
 type: docs
 weight: 40
 url: /es/net/aspose.words.fonts/fontsettings/substitutionsettings/
 ---
 ## FontSettings.SubstitutionSettings property
 
-Ajustes relacionados con el mecanismo de sustitución de fuentes.
+Configuraciones relacionadas con el mecanismo de sustitución de fuentes.
 
 ```csharp
 public FontSubstitutionSettings SubstitutionSettings { get; }
@@ -16,7 +16,7 @@ public FontSubstitutionSettings SubstitutionSettings { get; }
 
 ### Ejemplos
 
-Muestra cómo acceder a la fuente de fuentes del sistema de un documento y establecer fuentes sustitutas.
+Muestra cómo acceder a la fuente de fuentes del sistema de un documento y configurar fuentes sustitutas.
 
 ```csharp
 Document doc = new Document();
@@ -44,7 +44,7 @@ foreach (string systemFontFolder in SystemFontSource.GetSystemFontFolders())
     Console.WriteLine(systemFontFolder);
 }
 
-// Establecer una fuente que existe en el directorio de fuentes de Windows como sustituto de una que no existe.
+// Establece una fuente que existe en el directorio de fuentes de Windows como sustituto de una que no existe.
 doc.FontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
 doc.FontSettings.SubstitutionSettings.TableSubstitution.AddSubstitutes("Kreon-Regular", new[] {"Calibri"});
 
@@ -53,12 +53,12 @@ Assert.AreEqual(1,
 Assert.Contains("Calibri",
     doc.FontSettings.SubstitutionSettings.TableSubstitution.GetSubstitutes("Kreon-Regular").ToArray());
 
-// Alternativamente, podríamos agregar una fuente de fuente de carpeta en la que la carpeta correspondiente contenga la fuente.
+// Alternativamente, podríamos agregar una carpeta de fuente de fuente en la que la carpeta correspondiente contenga la fuente.
 FolderFontSource folderFontSource = new FolderFontSource(FontsDir, false);
 doc.FontSettings.SetFontsSources(new FontSourceBase[] {systemFontSource, folderFontSource});
 Assert.AreEqual(2, doc.FontSettings.GetFontsSources().Length);
 
-// Restablecer las fuentes de fuente aún nos deja con la fuente de fuente del sistema, así como con nuestros sustitutos.
+// Restablecer las fuentes de fuentes aún nos deja con la fuente de fuentes del sistema, así como con nuestros sustitutos.
 doc.FontSettings.ResetFontSources();
 
 Assert.AreEqual(1, doc.FontSettings.GetFontsSources().Length);

@@ -1,14 +1,14 @@
 ---
 title: FormField.Name
 second_title: Référence de l'API Aspose.Words pour .NET
-description: FormField propriété. Obtient ou définit le nom du champ de formulaire.
+description: FormField propriété. Obtient ou définit le nom du champ du formulaire.
 type: docs
 weight: 130
 url: /fr/net/aspose.words.fields/formfield/name/
 ---
 ## FormField.Name property
 
-Obtient ou définit le nom du champ de formulaire.
+Obtient ou définit le nom du champ du formulaire.
 
 ```csharp
 public string Name { get; set; }
@@ -16,7 +16,7 @@ public string Name { get; set; }
 
 ### Remarques
 
-Microsoft Word autorise les chaînes d'au plus 20 caractères.
+Microsoft Word autorise les chaînes comportant au maximum 20 caractères.
 
 ### Exemples
 

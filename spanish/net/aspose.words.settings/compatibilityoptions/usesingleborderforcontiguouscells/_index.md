@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.UseSingleBorderforContiguousCells
 second_title: Referencia de API de Aspose.Words para .NET
-description: CompatibilityOptions propiedad. Usar reglas simplificadas para conflictos de borde de tabla.
+description: CompatibilityOptions propiedad. Utilice reglas simplificadas para conflictos de bordes de tablas.
 type: docs
 weight: 650
 url: /es/net/aspose.words.settings/compatibilityoptions/usesingleborderforcontiguouscells/
 ---
 ## CompatibilityOptions.UseSingleBorderforContiguousCells property
 
-Usar reglas simplificadas para conflictos de borde de tabla.
+Utilice reglas simplificadas para conflictos de bordes de tablas.
 
 ```csharp
 public bool UseSingleBorderforContiguousCells { get; set; }

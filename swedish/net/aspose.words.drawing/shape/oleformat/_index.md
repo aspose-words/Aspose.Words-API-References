@@ -1,14 +1,14 @@
 ---
 title: Shape.OleFormat
 second_title: Aspose.Words för .NET API Referens
-description: Shape fast egendom. Ger tillgång till OLEdata för en form. För en form som inte är ett OLEobjekt eller ActiveXkontroll returnerar null.
+description: Shape fast egendom. Ger tillgång till OLEdata för en form. För en form som inte är ett OLEobjekt eller ActiveXkontroll returnerasnull .
 type: docs
 weight: 140
 url: /sv/net/aspose.words.drawing/shape/oleformat/
 ---
 ## Shape.OleFormat property
 
-Ger tillgång till OLE-data för en form. För en form som inte är ett OLE-objekt eller ActiveX-kontroll, returnerar null.
+Ger tillgång till OLE-data för en form. För en form som inte är ett OLE-objekt eller ActiveX-kontroll, returneras`null` .
 
 ```csharp
 public OleFormat OleFormat { get; }
@@ -19,6 +19,7 @@ public OleFormat OleFormat { get; }
 Visar hur man itererar över alla former i ett dokument.
 
 ```csharp
+public void VisitShapes()
 {
     Document doc = new Document(MyDir + "Revision shape.docx");
     ShapeAppearancePrinter visitor = new ShapeAppearancePrinter();

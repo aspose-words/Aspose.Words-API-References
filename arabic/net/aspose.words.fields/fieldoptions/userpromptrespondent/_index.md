@@ -1,14 +1,14 @@
 ---
 title: FieldOptions.UserPromptRespondent
 second_title: Aspose.Words لمراجع .NET API
-description: FieldOptions ملكية. الحصول على أو تعيين المستجيب لمطالبات المستخدم أثناء تحديث الحقل.
+description: FieldOptions ملكية. الحصول على المستجيب أو تعيينه لمطالبات المستخدم أثناء التحديث الميداني.
 type: docs
-weight: 200
+weight: 220
 url: /ar/net/aspose.words.fields/fieldoptions/userpromptrespondent/
 ---
 ## FieldOptions.UserPromptRespondent property
 
-الحصول على أو تعيين المستجيب لمطالبات المستخدم أثناء تحديث الحقل.
+الحصول على المستجيب أو تعيينه لمطالبات المستخدم أثناء التحديث الميداني.
 
 ```csharp
 public IFieldUserPromptRespondent UserPromptRespondent { get; set; }
@@ -16,16 +16,15 @@ public IFieldUserPromptRespondent UserPromptRespondent { get; set; }
 
 ### ملاحظات
 
-إذا تم تعيين قيمة هذه الخاصية على **لا شيء** ، الحقول التي تتطلب استجابة المستخدم عند المطالبة (مثل[`FieldAsk`](../../fieldask/) أو[`FieldFillIn`](../../fieldfillin/)) لم يتم تحديثها.
+إذا تم تعيين قيمة هذه الخاصية على`باطل` ، الحقول التي تتطلب استجابة المستخدم على Prompting (مثل[`FieldAsk`](../../fieldask/) أو[`FieldFillIn`](../../fieldfillin/)) لم يتم تحديثها.
 
-النظام الأساسي **لا شيء**.
+القيمة الافتراضية هي`باطل`.
 
 ### أمثلة
 
 يوضح كيفية إنشاء حقل ASK وتعيين خصائصه.
 
 ```csharp
-[Test]
 public void FieldAsk()
 {
     Document doc = new Document();
@@ -38,7 +37,7 @@ public void FieldAsk()
 
     Assert.AreEqual(" REF  MyAskField", fieldRef.GetFieldCode());
 
-    // أدخل حقل ASK وقم بتحرير خصائصه للإشارة إلى حقل REF الخاص بنا عن طريق اسم الإشارة المرجعية.
+    // أدخل حقل ASK وقم بتحرير خصائصه للإشارة إلى حقل REF الخاص بنا حسب اسم الإشارة المرجعية.
     FieldAsk fieldAsk = (FieldAsk)builder.InsertField(FieldType.FieldAsk, true);
     fieldAsk.BookmarkName = "MyAskField";
     fieldAsk.PromptText = "Please provide a response for this ASK field";
@@ -50,7 +49,7 @@ public void FieldAsk()
         " ASK  MyAskField \"Please provide a response for this ASK field\" \\d \"Response from within the field.\" \\o",
         fieldAsk.GetFieldCode());
 
-    // تطبق حقول ASK الاستجابة الافتراضية لحقول REF الخاصة بها أثناء دمج المراسلات.
+    // تقوم حقول ASK بتطبيق الاستجابة الافتراضية على حقول REF الخاصة بها أثناء دمج البريد.
     DataTable table = new DataTable("My Table");
     table.Columns.Add("Column 1");
     table.Rows.Add("Row 1");
@@ -59,16 +58,17 @@ public void FieldAsk()
     FieldMergeField fieldMergeField = (FieldMergeField)builder.InsertField(FieldType.FieldMergeField, true);
     fieldMergeField.FieldName = "Column 1";
 
-    // يمكننا تعديل الاستجابة الافتراضية أو تجاوزها في حقول ASK باستخدام مستجيب موجه مخصص ،
-    // الذي سيحدث أثناء دمج البريد.
+    // يمكننا تعديل أو تجاوز الاستجابة الافتراضية في حقول ASK الخاصة بنا باستخدام مستجيب سريع مخصص،
+    // والذي سيحدث أثناء دمج البريد.
     doc.FieldOptions.UserPromptRespondent = new MyPromptRespondent();
     doc.MailMerge.Execute(table);
 
     doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.ASK.docx");
+}
 
 /// <summary>
-/// يسبق النص للاستجابة الافتراضية لحقل ASK أثناء دمج البريد.
+/// يُلحق النص بالاستجابة الافتراضية لحقل ASK أثناء دمج البريد.
 /// </summary>
 private class MyPromptRespondent : IFieldUserPromptRespondent
 {

@@ -3,7 +3,7 @@ title: Enum ProtectionType
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.ProtectionType uppräkning. Skyddstyp för ett dokument.
 type: docs
-weight: 4260
+weight: 4510
 url: /sv/net/aspose.words/protectiontype/
 ---
 ## ProtectionType enumeration

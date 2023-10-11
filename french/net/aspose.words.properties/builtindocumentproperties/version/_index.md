@@ -16,21 +16,21 @@ public int Version { get; set; }
 
 ### Remarques
 
-Lorsqu'un document a été créé par Microsoft Word, les 16 bits supérieurs représentent la version principale et les 16 bits inférieurs représentent le numéro de build.
+Lorsqu'un document a été créé par Microsoft Word, les 16 bits élevés représentent la version majeure et les 16 bits faibles représentent le numéro de build.
 
 ### Exemples
 
-Montre comment travailler avec les propriétés du document dans la catégorie "Origine".
+Montre comment utiliser les propriétés du document dans la catégorie « Origine ».
 
 ```csharp
-// Ouvre un document que nous avons créé et modifié à l'aide de Microsoft Word.
+// Ouvrez un document que nous avons créé et modifié à l'aide de Microsoft Word.
 Document doc = new Document(MyDir + "Properties.docx");
 BuiltInDocumentProperties properties = doc.BuiltInDocumentProperties;
 
 // Les propriétés intégrées suivantes contiennent des informations concernant la création et la modification de ce document.
 // Nous pouvons cliquer avec le bouton droit sur ce document dans l'Explorateur Windows et trouver
 // ces propriétés via "Propriétés" -> "Détails" -> Catégorie "Origine".
-// Des champs tels que PRINTDATE et EDITTIME peuvent afficher ces valeurs dans le corps du document.
+// Les champs tels que PRINTDATE et EDITTIME peuvent afficher ces valeurs dans le corps du document.
 Console.WriteLine($"Created using {properties.NameOfApplication}, on {properties.CreatedTime}");
 Console.WriteLine($"Minutes spent editing: {properties.TotalEditingTime}");
 Console.WriteLine($"Date/time last printed: {properties.LastPrinted}");

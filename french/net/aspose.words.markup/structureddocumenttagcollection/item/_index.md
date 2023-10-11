@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTagCollection.Item
 second_title: Référence de l'API Aspose.Words pour .NET
-description: StructuredDocumentTagCollection propriété. Renvoie la balise de document structuré à lindex spécifié.
+description: StructuredDocumentTagCollection propriété. Renvoie la balise du document structuré à lindex spécifié.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.markup/structureddocumenttagcollection/item/
 ---
 ## StructuredDocumentTagCollection indexer
 
-Renvoie la balise de document structuré à l'index spécifié.
+Renvoie la balise du document structuré à l'index spécifié.
 
 ```csharp
 public IStructuredDocumentTag this[int index] { get; }

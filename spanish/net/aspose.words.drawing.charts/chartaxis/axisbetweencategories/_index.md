@@ -1,14 +1,14 @@
 ---
 title: ChartAxis.AxisBetweenCategories
 second_title: Referencia de API de Aspose.Words para .NET
-description: ChartAxis propiedad. Obtiene o establece un indicador que indica si el eje de valor cruza el eje de categoría entre categorías.
+description: ChartAxis propiedad. Obtiene o establece un indicador que indica si el eje de valores cruza el eje de categorías entre categorías.
 type: docs
 weight: 10
 url: /es/net/aspose.words.drawing.charts/chartaxis/axisbetweencategories/
 ---
 ## ChartAxis.AxisBetweenCategories property
 
-Obtiene o establece un indicador que indica si el eje de valor cruza el eje de categoría entre categorías.
+Obtiene o establece un indicador que indica si el eje de valores cruza el eje de categorías entre categorías.
 
 ```csharp
 public bool AxisBetweenCategories { get; set; }
@@ -16,7 +16,7 @@ public bool AxisBetweenCategories { get; set; }
 
 ### Observaciones
 
-La propiedad tiene efecto solo para ejes de valores. No es compatible con los nuevos gráficos de MS Office 2016.
+La propiedad tiene efecto solo para los ejes de valores. No es compatible con los nuevos gráficos de MS Office 2016.
 
 ### Ejemplos
 
@@ -34,9 +34,9 @@ Assert.AreEqual("Series 1", chart.Series[0].Name);
 Assert.AreEqual("Series 2", chart.Series[1].Name);
 Assert.AreEqual("Series 3", chart.Series[2].Name);
 
-// Para gráficos de columnas, el eje Y cruza en cero por defecto,
+// Para gráficos de columnas, el eje Y cruza en cero de forma predeterminada,
 // lo que significa que las columnas para todos los valores por debajo de cero apuntan hacia abajo para representar valores negativos.
-// Podemos establecer un valor diferente para el cruce del eje Y. En este caso, lo estableceremos en 3.
+// Podemos establecer un valor diferente para el cruce del eje Y. En este caso lo pondremos en 3.
 ChartAxis axis = chart.AxisX;
 axis.Crosses = AxisCrosses.Custom;
 axis.CrossesAt = 3;

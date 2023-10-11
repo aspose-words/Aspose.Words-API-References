@@ -10,7 +10,7 @@ url: /zh/net/aspose.words.markup/istructureddocumenttag/placeholdername/
 
 获取或设置名称[`BuildingBlock`](../../../aspose.words.buildingblocks/buildingblock/)包含占位符文本。
 
-具有此名称的 BuildingBlock[`Name`](../../../aspose.words.buildingblocks/buildingblock/name/)必须出现在[`GlossaryDocument`](../../../aspose.words/document/glossarydocument/) 否则InvalidOperationException会发生。
+具有此名称的 BuildingBlock[`Name`](../../../aspose.words.buildingblocks/buildingblock/name/)必须存在于[`GlossaryDocument`](../../../aspose.words/document/glossarydocument/) 否则InvalidOperationException会发生。
 
 ```csharp
 public string PlaceholderName { get; set; }

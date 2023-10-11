@@ -3,7 +3,7 @@ title: Style.BaseStyleName
 second_title: Referencia de API de Aspose.Words para .NET
 description: Style propiedad. Obtiene/establece el nombre del estilo en el que se basa este estilo.
 type: docs
-weight: 20
+weight: 30
 url: /es/net/aspose.words/style/basestylename/
 ---
 ## Style.BaseStyleName property
@@ -16,11 +16,11 @@ public string BaseStyleName { get; set; }
 
 ### Observaciones
 
-Esta será una cadena vacía si el estilo no se basa en ningún otro estilo y se puede establecer en una cadena vacía.
+Esta será una cadena vacía si el estilo no se basa en ningún otro estilo y se puede configurar como una cadena vacía.
 
 ### Ejemplos
 
-Muestra cómo usar alias de estilo.
+Muestra cómo utilizar alias de estilo.
 
 ```csharp
 Document doc = new Document(MyDir + "Style with alias.docx");
@@ -32,7 +32,7 @@ Assert.AreEqual(new [] { "MyStyle Alias 1", "MyStyle Alias 2" }, style.Aliases);
 Assert.AreEqual("Title", style.BaseStyleName);
 Assert.AreEqual("MyStyle Char", style.LinkedStyleName);
 
-// Podemos hacer referencia a un estilo utilizando su alias, así como su nombre.
+// Podemos hacer referencia a un estilo usando su alias, así como su nombre.
 Assert.AreEqual(doc.Styles["MyStyle Alias 1"], doc.Styles["MyStyle Alias 2"]);
 
 DocumentBuilder builder = new DocumentBuilder(doc);

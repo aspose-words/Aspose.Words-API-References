@@ -1,14 +1,14 @@
 ---
 title: CustomPart.IsExternal
 second_title: Referencia de API de Aspose.Words para .NET
-description: CustomPart propiedad. Falso si esta parte personalizada se almacena dentro del paquete OOXML.Verdadero si esta parte personalizada es un objetivo externo.
+description: CustomPart propiedad. Falso si esta parte personalizada está almacenada dentro del paquete OOXML. Verdadero si esta pieza personalizada es un destino externo.
 type: docs
 weight: 40
 url: /es/net/aspose.words.markup/custompart/isexternal/
 ---
 ## CustomPart.IsExternal property
 
-`Falso` si esta parte personalizada se almacena dentro del paquete OOXML.`Verdadero` si esta parte personalizada es un objetivo externo.
+Falso si esta parte personalizada está almacenada dentro del paquete OOXML. Verdadero si esta pieza personalizada es un destino externo.
 
 ```csharp
 public bool IsExternal { get; set; }
@@ -16,7 +16,7 @@ public bool IsExternal { get; set; }
 
 ### Observaciones
 
-El valor predeterminado es`falso`.
+El valor predeterminado es`FALSO`.
 
 ### Ejemplos
 
@@ -27,12 +27,12 @@ Document doc = new Document(MyDir + "Custom parts OOXML package.docx");
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);
 
-// Clona la segunda parte, luego agrega el clon a la colección.
+// Clona la segunda parte y luego agrega el clon a la colección.
 CustomPart clonedPart = doc.PackageCustomParts[1].Clone();
 doc.PackageCustomParts.Add(clonedPart);
 Assert.AreEqual(3, doc.PackageCustomParts.Count);
 
-// Enumerar sobre la colección e imprimir cada parte.
+// Enumerar la colección e imprimir cada parte.
 using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator())
 {
     int index = 0;

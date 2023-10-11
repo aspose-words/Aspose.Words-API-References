@@ -1,14 +1,14 @@
 ---
 title: FieldEnd.HasSeparator
 second_title: Aspose.Words för .NET API Referens
-description: FieldEnd fast egendom. Returnerar Sann om det här fältet har en separator.
+description: FieldEnd fast egendom. ReturnerarSannom det här fältet har en separator.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.fields/fieldend/hasseparator/
 ---
 ## FieldEnd.HasSeparator property
 
-Returnerar **Sann** om det här fältet har en separator.
+Returnerar`Sann`om det här fältet har en separator.
 
 ```csharp
 public bool HasSeparator { get; }
@@ -19,6 +19,7 @@ public bool HasSeparator { get; }
 Visar hur man arbetar med en samling fält.
 
 ```csharp
+public void FieldCollection()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -57,6 +58,7 @@ Visar hur man arbetar med en samling fält.
     }
 
     Console.WriteLine(fieldVisitor.GetText());
+}
 
 /// <summary>
 /// Dokumentbesökarimplementering som skriver ut fältinformation.

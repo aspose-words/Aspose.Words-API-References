@@ -1,14 +1,14 @@
 ---
 title: Shape.SignatureLine
 second_title: Referencia de API de Aspose.Words para .NET
-description: Shape propiedad. ObtieneSignatureLine objeto si la forma es una línea de firma. Devoluciones nulo de lo contrario.
+description: Shape propiedad. ObtieneSignatureLine objeto si la forma es una línea de firma. Devolucionesnulo de lo contrario.
 type: docs
 weight: 160
 url: /es/net/aspose.words.drawing/shape/signatureline/
 ---
 ## Shape.SignatureLine property
 
-Obtiene`SignatureLine` objeto si la forma es una línea de firma. Devoluciones **nulo** de lo contrario.
+Obtiene[`SignatureLine`](../../signatureline/) objeto si la forma es una línea de firma. Devoluciones`nulo` de lo contrario.
 
 ```csharp
 public SignatureLine SignatureLine { get; }
@@ -16,7 +16,7 @@ public SignatureLine SignatureLine { get; }
 
 ### Observaciones
 
-Puede insertar nuevas SignatureLines en el documento usando[`InsertSignatureLine`](../../../aspose.words/documentbuilder/insertsignatureline/) y
+Puedes insertar nuevos[`SignatureLine`](../../signatureline/) en el documento usando[`InsertSignatureLine`](../../../aspose.words/documentbuilder/insertsignatureline/) y
 
 ### Ejemplos
 
@@ -37,10 +37,10 @@ SignatureLineOptions options = new SignatureLineOptions
     SignerTitle = "Senior Manager"
 };
 
-// Inserta una forma que contendrá una línea de firma, cuya apariencia vamos a
-// personalizar utilizando el objeto "SignatureLineOptions" que hemos creado anteriormente.
+// Inserta una forma que contendrá una línea de firma, cuya apariencia configuraremos
+// personalizar usando el objeto "SignatureLineOptions" que hemos creado arriba.
 // Si insertamos una forma cuyas coordenadas se originan en la esquina inferior derecha de la página,
-// necesitaremos proporcionar coordenadas x e y negativas para mostrar la forma.
+// necesitaremos proporcionar coordenadas xey negativas para que la forma se vea.
 Shape shape = builder.InsertSignatureLine(options, RelativeHorizontalPosition.RightMargin, -170.0, 
         RelativeVerticalPosition.BottomMargin, -60.0, WrapType.None);
 

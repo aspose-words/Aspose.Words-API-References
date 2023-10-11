@@ -16,7 +16,7 @@ public Paragraph LastParagraph { get; }
 
 ### Ejemplos
 
-Muestra cómo aplicar la configuración a los bordes verticales al formato de fila de una tabla.
+Muestra cómo aplicar configuraciones a los bordes verticales al formato de fila de una tabla.
 
 ```csharp
 Document doc = new Document();
@@ -35,7 +35,7 @@ for (int i = 0; i < 3; i++)
     Row row = builder.EndRow();
     BorderCollection borders = row.RowFormat.Borders;
 
-    // Ajusta la apariencia de los bordes que aparecerán entre las filas.
+    // Ajusta la apariencia de los bordes que aparecerán entre filas.
     borders.Horizontal.Color = Color.Red;
     borders.Horizontal.LineStyle = LineStyle.Dot;
     borders.Horizontal.LineWidth = 2.0d;
@@ -46,7 +46,7 @@ for (int i = 0; i < 3; i++)
     borders.Vertical.LineWidth = 2.0d;
 }
 
-// Un formato de fila y el párrafo interior de una celda usan configuraciones de borde diferentes.
+// Un formato de fila y el párrafo interior de una celda utilizan diferentes configuraciones de borde.
 Border border = table.FirstRow.FirstCell.LastParagraph.ParagraphFormat.Borders.Vertical;
 
 Assert.AreEqual(Color.Empty.ToArgb(), border.Color.ToArgb());

@@ -1,14 +1,14 @@
 ---
 title: XamlFixedSaveOptions.SaveFormat
 second_title: Aspose.Words per .NET API Reference
-description: XamlFixedSaveOptions proprietà. Specifica il formato in cui verrà salvato il documento se viene utilizzato questo oggetto opzioni di salvataggio. Può essereXamlFixed .
+description: XamlFixedSaveOptions proprietà. Specifica il formato in cui il documento verrà salvato se viene utilizzato questo oggetto opzioni di salvataggio. Può essereXamlFixed .
 type: docs
 weight: 50
 url: /it/net/aspose.words.saving/xamlfixedsaveoptions/saveformat/
 ---
 ## XamlFixedSaveOptions.SaveFormat property
 
-Specifica il formato in cui verrà salvato il documento se viene utilizzato questo oggetto opzioni di salvataggio. Può essereXamlFixed .
+Specifica il formato in cui il documento verrà salvato se viene utilizzato questo oggetto opzioni di salvataggio. Può essereXamlFixed .
 
 ```csharp
 public override SaveFormat SaveFormat { get; set; }
@@ -16,7 +16,7 @@ public override SaveFormat SaveFormat { get; set; }
 
 ### Esempi
 
-Mostra come stampare gli URI delle risorse collegate create durante la conversione di un documento in .xaml in formato fisso.
+Mostra come stampare gli URI delle risorse collegate create durante la conversione di un documento in formato .xaml.
 
 ```csharp
 public void ResourceFolder()
@@ -35,13 +35,13 @@ public void ResourceFolder()
     options.ResourcesFolder = ArtifactsDir + "XamlFixedResourceFolder";
 
     // Utilizzare la proprietà "ResourcesFolderAlias" per utilizzare questa cartella
-    // durante la creazione di URI di immagine invece del nome della cartella delle risorse.
+    // quando si costruiscono URI di immagine invece del nome della cartella delle risorse.
     options.ResourcesFolderAlias = ArtifactsDir + "XamlFixedFolderAlias";
 
     options.ResourceSavingCallback = callback;
 
     // Una cartella specificata da "ResourcesFolderAlias" dovrà contenere le risorse invece di "ResourcesFolder".
-    // Dobbiamo assicurarci che la cartella esista prima che i flussi di callback possano inserirvi le proprie risorse.
+    // Dobbiamo garantire che la cartella esista prima che i flussi di callback possano inserirvi le proprie risorse.
     Directory.CreateDirectory(options.ResourcesFolderAlias);
 
     doc.Save(ArtifactsDir + "XamlFixedSaveOptions.ResourceFolder.xaml", options);
@@ -64,8 +64,8 @@ private class ResourceUriPrinter : IResourceSavingCallback
     {
         Resources.Add($"Resource \"{args.ResourceFileName}\"\n\t{args.ResourceFileUri}");
 
-        // Se avessimo specificato un alias per la cartella delle risorse, avremmo anche bisogno
-        // per reindirizzare ogni flusso per inserire la sua risorsa nella cartella alias.
+        // Se specificassimo un alias della cartella delle risorse, avremmo anche bisogno
+        // per reindirizzare ciascun flusso per inserire la relativa risorsa nella cartella alias.
         args.ResourceStream = new FileStream(args.ResourceFileUri, FileMode.Create);
         args.KeepResourceStreamOpen = false;
     }

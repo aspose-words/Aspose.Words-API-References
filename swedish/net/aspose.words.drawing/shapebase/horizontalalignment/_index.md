@@ -3,7 +3,7 @@ title: ShapeBase.HorizontalAlignment
 second_title: Aspose.Words för .NET API Referens
 description: ShapeBase fast egendom. Anger hur formen placeras horisontellt.
 type: docs
-weight: 210
+weight: 220
 url: /sv/net/aspose.words.drawing/shapebase/horizontalalignment/
 ---
 ## ShapeBase.HorizontalAlignment property

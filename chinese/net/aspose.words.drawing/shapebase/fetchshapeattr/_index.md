@@ -3,7 +3,7 @@ title: ShapeBase.FetchShapeAttr
 second_title: Aspose.Words for .NET API 参考
 description: ShapeBase 方法. 保留供系统使用 IShapeAttrSource.
 type: docs
-weight: 580
+weight: 640
 url: /zh/net/aspose.words.drawing/shapebase/fetchshapeattr/
 ---
 ## ShapeBase.FetchShapeAttr method

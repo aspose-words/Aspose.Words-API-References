@@ -1,14 +1,14 @@
 ---
 title: BuiltInDocumentProperties.LastSavedTime
 second_title: Référence de l'API Aspose.Words pour .NET
-description: BuiltInDocumentProperties propriété. Obtient ou définit lheure du dernier enregistrement en UTC.
+description: BuiltInDocumentProperties propriété. Obtient ou définit lheure de la dernière sauvegarde en UTC.
 type: docs
 weight: 170
 url: /fr/net/aspose.words.properties/builtindocumentproperties/lastsavedtime/
 ---
 ## BuiltInDocumentProperties.LastSavedTime property
 
-Obtient ou définit l'heure du dernier enregistrement en UTC.
+Obtient ou définit l'heure de la dernière sauvegarde en UTC.
 
 ```csharp
 public DateTime LastSavedTime { get; set; }
@@ -16,23 +16,23 @@ public DateTime LastSavedTime { get; set; }
 
 ### Remarques
 
-Pour les documents provenant du format RTF, cette propriété renvoie l'heure locale de la dernière opération d'enregistrement.
+Pour les documents provenant du format RTF, cette propriété renvoie l'heure locale de la dernière opération de sauvegarde.
 
 Aspose.Words ne met pas à jour cette propriété.
 
 ### Exemples
 
-Montre comment travailler avec les propriétés du document dans la catégorie "Origine".
+Montre comment utiliser les propriétés du document dans la catégorie « Origine ».
 
 ```csharp
-// Ouvre un document que nous avons créé et modifié à l'aide de Microsoft Word.
+// Ouvrez un document que nous avons créé et modifié à l'aide de Microsoft Word.
 Document doc = new Document(MyDir + "Properties.docx");
 BuiltInDocumentProperties properties = doc.BuiltInDocumentProperties;
 
 // Les propriétés intégrées suivantes contiennent des informations concernant la création et la modification de ce document.
 // Nous pouvons cliquer avec le bouton droit sur ce document dans l'Explorateur Windows et trouver
 // ces propriétés via "Propriétés" -> "Détails" -> Catégorie "Origine".
-// Des champs tels que PRINTDATE et EDITTIME peuvent afficher ces valeurs dans le corps du document.
+// Les champs tels que PRINTDATE et EDITTIME peuvent afficher ces valeurs dans le corps du document.
 Console.WriteLine($"Created using {properties.NameOfApplication}, on {properties.CreatedTime}");
 Console.WriteLine($"Minutes spent editing: {properties.TotalEditingTime}");
 Console.WriteLine($"Date/time last printed: {properties.LastPrinted}");
@@ -53,7 +53,7 @@ properties.LastSavedTime = DateTime.Now;
 doc.Save(ArtifactsDir + "DocumentProperties.Origin.docx");
 ```
 
-Montre comment utiliser le champ SAVEDATE pour afficher la date/l'heure de l'opération d'enregistrement la plus récente du document effectuée à l'aide de Microsoft Word.
+Montre comment utiliser le champ SAVEDATE pour afficher la date/heure de l'opération d'enregistrement la plus récente du document effectuée à l'aide de Microsoft Word.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
@@ -61,11 +61,11 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.MoveToDocumentEnd();
 builder.Writeln(" Date this document was last saved:");
 
-// Nous pouvons utiliser le champ SAVEDATE pour afficher la date et l'heure de la dernière opération de sauvegarde sur le document.
-// L'opération de sauvegarde à laquelle ces champs font référence est la sauvegarde manuelle dans une application telle que Microsoft Word,
+// On peut utiliser le champ SAVEDATE pour afficher la date et l'heure de la dernière opération de sauvegarde sur le document.
+// L'opération de sauvegarde à laquelle font référence ces champs est la sauvegarde manuelle dans une application comme Microsoft Word,
 // pas la méthode Save du document.
 // Vous trouverez ci-dessous trois types de calendrier différents selon lesquels le champ SAVEDATE peut afficher la date/heure.
-// 1 - Calendrier lunaire islamique :
+// 1 - Calendrier Lunaire Islamique :
 builder.Write("According to the Lunar Calendar - ");
 FieldSaveDate field = (FieldSaveDate)builder.InsertField(FieldType.FieldSaveDate, true);
 field.UseLunarCalendar = true;
@@ -86,7 +86,7 @@ field.UseSakaEraCalendar = true;
 
 Assert.AreEqual(" SAVEDATE  \\s", field.GetFieldCode());
 
-// Les champs SAVEDATE tirent leurs valeurs de date/heure de la propriété intégrée LastSavedTime.
+// Les champs SAVEDATE tirent leurs valeurs date/heure de la propriété intégrée LastSavedTime.
 // La méthode Save du document ne mettra pas à jour cette valeur, mais nous pouvons toujours la mettre à jour manuellement.
 doc.BuiltInDocumentProperties.LastSavedTime = DateTime.Now;
 

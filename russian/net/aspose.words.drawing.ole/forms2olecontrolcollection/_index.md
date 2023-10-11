@@ -1,17 +1,19 @@
 ---
 title: Class Forms2OleControlCollection
 second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Drawing.Ole.Forms2OleControlCollection сорт. Представляет наборForms2OleControl объекты.
+description: Aspose.Words.Drawing.Ole.Forms2OleControlCollection сорт. Представляет коллекциюForms2OleControl объекты.
 type: docs
-weight: 990
+weight: 1120
 url: /ru/net/aspose.words.drawing.ole/forms2olecontrolcollection/
 ---
 ## Forms2OleControlCollection class
 
-Представляет набор[`Forms2OleControl`](../forms2olecontrol/) объекты.
+Представляет коллекцию[`Forms2OleControl`](../forms2olecontrol/) объекты.
+
+Чтобы узнать больше, посетите[Работа с объектами Ole](https://docs.aspose.com/words/net/working-with-ole-objects/) статья документации.
 
 ```csharp
-public class Forms2OleControlCollection
+public class Forms2OleControlCollection : IEnumerable<Forms2OleControl>
 ```
 
 ## Конструкторы
@@ -25,7 +27,13 @@ public class Forms2OleControlCollection
 | Имя | Описание |
 | --- | --- |
 | [Count](../../aspose.words.drawing.ole/forms2olecontrolcollection/count/) { get; } | Получает количество объектов в коллекции. |
-| [Item](../../aspose.words.drawing.ole/forms2olecontrolcollection/item/) { get; } | получает[`Forms2OleControl`](../forms2olecontrol/)объект по указанному индексу. |
+| [Item](../../aspose.words.drawing.ole/forms2olecontrolcollection/item/) { get; } | Получает[`Forms2OleControl`](../forms2olecontrol/) объект по указанному индексу. |
+
+## Методы
+
+| Имя | Описание |
+| --- | --- |
+| [GetEnumerator](../../aspose.words.drawing.ole/forms2olecontrolcollection/getenumerator/)() | Получает перечислитель. |
 
 ### Примеры
 
@@ -41,7 +49,7 @@ Assert.AreEqual("6e182020-f460-11ce-9bcd-00aa00608e01", shape.OleFormat.Clsid.To
 
 Forms2OleControl oleControl = (Forms2OleControl)shape.OleFormat.OleControl;
 
-// Некоторые элементы управления OLE могут содержать дочерние элементы управления, например элемент в этом документе с тремя кнопками параметров.
+// Некоторые элементы управления OLE могут содержать дочерние элементы управления, например, в этом документе с тремя кнопками параметров.
 Forms2OleControlCollection oleControlCollection = oleControl.ChildNodes;
 
 Assert.AreEqual(3, oleControlCollection.Count);
@@ -58,6 +66,7 @@ Assert.AreEqual("0", oleControlCollection[2].Value);
 
 ### Смотрите также
 
+* class [Forms2OleControl](../forms2olecontrol/)
 * пространство имен [Aspose.Words.Drawing.Ole](../../aspose.words.drawing.ole/)
 * сборка [Aspose.Words](../../)
 

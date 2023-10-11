@@ -1,14 +1,14 @@
 ---
 title: Style.LinkedStyleName
 second_title: Справочник по API Aspose.Words для .NET
-description: Style свойство. Получает имя стиля связанного с этим стилем. Возвращает пустую строку если стили не связаны.
+description: Style свойство. Получает имяStyle связан с этим. Возвращает пустую строку если стили не связаны.
 type: docs
-weight: 80
+weight: 90
 url: /ru/net/aspose.words/style/linkedstylename/
 ---
 ## Style.LinkedStyleName property
 
-Получает имя стиля, связанного с этим стилем. Возвращает пустую строку, если стили не связаны.
+Получает имя[`Style`](../) связан с этим. Возвращает пустую строку, если стили не связаны.
 
 ```csharp
 public string LinkedStyleName { get; }
@@ -21,8 +21,8 @@ public string LinkedStyleName { get; }
 ```csharp
 Document doc = new Document(MyDir + "Style with alias.docx");
 
-// Этот документ содержит стиль с именем "MyStyle, MyStyle Alias 1, MyStyle Alias 2".
-// Если имя стиля имеет несколько значений, разделенных запятыми, каждое предложение является отдельным псевдонимом.
+// Этот документ содержит стиль с именем «MyStyle, MyStyle Alias 1, MyStyle Alias 2».
+// Если имя стиля имеет несколько значений, разделенных запятыми, каждое предложение представляет собой отдельный псевдоним.
 Style style = doc.Styles["MyStyle"];
 Assert.AreEqual(new [] { "MyStyle Alias 1", "MyStyle Alias 2" }, style.Aliases);
 Assert.AreEqual("Title", style.BaseStyleName);

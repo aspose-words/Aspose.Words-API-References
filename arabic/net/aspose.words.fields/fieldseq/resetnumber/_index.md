@@ -1,14 +1,14 @@
 ---
 title: FieldSeq.ResetNumber
 second_title: Aspose.Words لمراجع .NET API
-description: FieldSeq ملكية. الحصول على أو تعيين رقم صحيح لإعادة تعيين الرقم التسلسلي إليه. إرجاع 1 إذا كان الرقم غائباً.
+description: FieldSeq ملكية. الحصول على رقم صحيح أو تعيينه لإعادة تعيين الرقم التسلسلي إليه. يُرجع 1 إذا كان الرقم غائبًا.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.fields/fieldseq/resetnumber/
 ---
 ## FieldSeq.ResetNumber property
 
-الحصول على أو تعيين رقم صحيح لإعادة تعيين الرقم التسلسلي إليه. إرجاع -1 إذا كان الرقم غائباً.
+الحصول على رقم صحيح أو تعيينه لإعادة تعيين الرقم التسلسلي إليه. يُرجع -1 إذا كان الرقم غائبًا.
 
 ```csharp
 public string ResetNumber { get; set; }
@@ -22,10 +22,10 @@ public string ResetNumber { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// تعرض حقول SEQ عددًا يتزايد في كل حقل SEQ.
+تعرض حقول SEQ عددًا يتزايد في كل حقل SEQ.
 // تحتفظ هذه الحقول أيضًا بأعداد منفصلة لكل تسلسل مسمى فريد
-// التي تم تحديدها بواسطة خاصية "SequenceIdentifier" لحقل SEQ.
-// أدخل حقل SEQ يعرض قيمة العدد الحالية لـ "MySequence" ،
+// تم تحديده بواسطة خاصية "SequenceIdentifier" الخاصة بحقل SEQ.
+// أدخل حقل SEQ الذي سيعرض قيمة العد الحالية لـ "MySequence"،
 // بعد استخدام خاصية "ResetNumber" لتعيينها على 100.
 builder.Write("#");
 FieldSeq fieldSeq = (FieldSeq)builder.InsertField(FieldType.FieldSequence, true);
@@ -50,18 +50,18 @@ builder.ParagraphFormat.Style = doc.Styles["Heading 1"];
 builder.Writeln("This level 1 heading will reset MySequence to 1");
 builder.ParagraphFormat.Style = doc.Styles["Normal"];
 
-// أدخل حقل SEQ آخر من نفس التسلسل وقم بتكوينه لإعادة تعيين العد في كل عنوان بـ 1.
+// أدخل حقل SEQ آخر من نفس التسلسل وقم بتكوينه لإعادة تعيين العدد في كل عنوان بـ 1.
 builder.Write("\n#");
 fieldSeq = (FieldSeq)builder.InsertField(FieldType.FieldSequence, true);
 fieldSeq.SequenceIdentifier = "MySequence";
 fieldSeq.ResetHeadingLevel = "1";
 fieldSeq.Update();
 
-// العنوان أعلاه هو عنوان من المستوى 1 ، لذلك يتم إعادة تعيين عدد هذا التسلسل إلى 1.
+// العنوان أعلاه هو عنوان المستوى 1، لذا تتم إعادة تعيين عدد هذا التسلسل إلى 1.
 Assert.AreEqual(" SEQ  MySequence \\s 1", fieldSeq.GetFieldCode());
 Assert.AreEqual("1", fieldSeq.Result);
 
-// الانتقال إلى الرقم التالي من هذا التسلسل.
+// انتقل إلى الرقم التالي من هذا التسلسل.
 builder.Write(", #");
 fieldSeq = (FieldSeq)builder.InsertField(FieldType.FieldSequence, true);
 fieldSeq.SequenceIdentifier = "MySequence";

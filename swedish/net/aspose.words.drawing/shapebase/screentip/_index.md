@@ -3,7 +3,7 @@ title: ShapeBase.ScreenTip
 second_title: Aspose.Words för .NET API Referens
 description: ShapeBase fast egendom. Definierar texten som visas när muspekaren rör sig över formen.
 type: docs
-weight: 440
+weight: 480
 url: /sv/net/aspose.words.drawing/shapebase/screentip/
 ---
 ## ShapeBase.ScreenTip property

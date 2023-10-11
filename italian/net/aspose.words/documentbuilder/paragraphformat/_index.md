@@ -3,7 +3,7 @@ title: DocumentBuilder.ParagraphFormat
 second_title: Aspose.Words per .NET API Reference
 description: DocumentBuilder proprietà. Restituisce un oggetto che rappresenta le proprietà di formattazione del paragrafo corrente.
 type: docs
-weight: 150
+weight: 170
 url: /it/net/aspose.words/documentbuilder/paragraphformat/
 ---
 ## DocumentBuilder.ParagraphFormat property
@@ -38,7 +38,7 @@ builder.Font.Bold = true;
 
 // La configurazione delle opzioni di formattazione in un generatore di documenti le applicherà
 // alla cella/riga corrente in cui si trova il cursore,
-// così come tutte le nuove celle e righe create usando quel builder.
+// così come qualsiasi nuova cella e riga creata utilizzando quel builder.
 builder.Write("Header Row,\n Cell 1");
 builder.InsertCell();
 builder.Write("Header Row,\n Cell 2");

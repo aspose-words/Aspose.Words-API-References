@@ -20,13 +20,13 @@ public static FileFormatInfo DetectFileFormat(string fileName)
 
 ### 返回值
 
-一个[`FileFormatInfo`](../../fileformatinfo/)包含检测到的信息的对象。
+A[`FileFormatInfo`](../../fileformatinfo/)包含检测到的信息的对象。
 
 ### 评论
 
-即使该方法检测到文档格式，也不能保证 指定的文档是有效的。此方法仅通过 读取足以检测的数据来检测文档格式。要完全验证文档是否有效 ，您需要将文档加载到[`Document`](../../document/)目的。
+即使此方法检测到文档格式，也不能保证 指定的文档有效。此方法仅通过 读取足以检测的数据来检测文档格式。要完全验证文档是否有效 ，您需要将文档加载到[`Document`](../../document/)目的。
 
-这个方法抛出[`FileCorruptedException`](../../filecorruptedexception/)当格式为 识别时，但由于损坏而无法完成检测。
+这个方法抛出[`FileCorruptedException`](../../filecorruptedexception/)当格式被 识别时，但由于损坏而无法完成检测。
 
 ### 例子
 
@@ -35,14 +35,14 @@ public static FileFormatInfo DetectFileFormat(string fileName)
 ```csharp
 Document doc = new Document();
 
-// 配置一个 SaveOptions 对象来加密文档
-// 保存时输入密码，然后保存文档。
+// 配置 SaveOptions 对象来加密文档
+// 我们保存的时候带上密码，然后保存文档。
 OdtSaveOptions saveOptions = new OdtSaveOptions(SaveFormat.Odt);
 saveOptions.Password = "MyPassword";
 
 doc.Save(ArtifactsDir + "File.DetectDocumentEncryption.odt", saveOptions);
 
-// 验证我们文档的文件类型，以及它的加密状态。
+// 验证文档的文件类型及其加密状态。
 FileFormatInfo info = FileFormatUtil.DetectFileFormat(ArtifactsDir + "File.DetectDocumentEncryption.odt");
 
 Assert.AreEqual(".odt", FileFormatUtil.LoadFormatToExtension(info.LoadFormat));
@@ -52,7 +52,7 @@ Assert.True(info.IsEncrypted);
 演示如何使用 FileFormatUtil 类来检测文档格式和数字签名的存在。
 
 ```csharp
-// 使用 FileFormatInfo 实例来验证文档是否没有经过数字签名。
+// 使用 FileFormatInfo 实例验证文档是否未经过数字签名。
 FileFormatInfo info = FileFormatUtil.DetectFileFormat(MyDir + "Document.docx");
 
 Assert.AreEqual(".docx", FileFormatUtil.LoadFormatToExtension(info.LoadFormat));
@@ -62,12 +62,12 @@ CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.p
 DigitalSignatureUtil.Sign(MyDir + "Document.docx", ArtifactsDir + "File.DetectDigitalSignatures.docx",
     certificateHolder, new SignOptions() { SignTime = DateTime.Now });
 
-// 使用一个新的 FileFormatInstance 来确认它是签名的。
+// 使用新的 FileFormatInstance 来确认它已签名。
 info = FileFormatUtil.DetectFileFormat(ArtifactsDir + "File.DetectDigitalSignatures.docx");
 
 Assert.True(info.HasDigitalSignature);
 
-// 我们可以在这样的集合中加载和访问已签名文档的签名。
+// 我们可以像这样加载和访问集合中已签名文档的签名。
 Assert.AreEqual(1, DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "File.DetectDigitalSignatures.docx").Count);
 ```
 
@@ -82,7 +82,7 @@ Assert.AreEqual(1, DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "File.Dete
 
 ## DetectFileFormat(Stream) {#detectfileformat}
 
-检测并返回有关存储在流中的文档的格式信息。
+检测并返回有关存储在流中的文档格式的信息。
 
 ```csharp
 public static FileFormatInfo DetectFileFormat(Stream stream)
@@ -90,21 +90,21 @@ public static FileFormatInfo DetectFileFormat(Stream stream)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| stream | Stream | 流。 |
+| stream | Stream | 溪流。 |
 
 ### 返回值
 
-一个[`FileFormatInfo`](../../fileformatinfo/)包含检测到的信息的对象。
+A[`FileFormatInfo`](../../fileformatinfo/)包含检测到的信息的对象。
 
 ### 评论
 
-流必须位于文档的开头。
+该流必须位于文档的开头。
 
-当此方法返回时，流中的位置恢复到原始位置。
+当该方法返回时，流中的位置将恢复到原始位置。
 
-即使该方法检测到文档格式，也不能保证 指定的文档是有效的。此方法仅通过 读取足以检测的数据来检测文档格式。要完全验证文档是否有效 ，您需要将文档加载到[`Document`](../../document/)目的。
+即使此方法检测到文档格式，也不能保证 指定的文档有效。此方法仅通过 读取足以检测的数据来检测文档格式。要完全验证文档是否有效 ，您需要将文档加载到[`Document`](../../document/)目的。
 
-这个方法抛出[`FileCorruptedException`](../../filecorruptedexception/)当格式为 识别时，但由于损坏而无法完成检测。
+这个方法抛出[`FileCorruptedException`](../../filecorruptedexception/)当格式被 识别时，但由于损坏而无法完成检测。
 
 ### 例子
 
@@ -119,15 +119,15 @@ using (FileStream docStream = File.OpenRead(MyDir + "Word document with missing 
 
     Assert.AreEqual(LoadFormat.Doc, loadFormat);
 
-    // 下面是两种将 LoadFormat 转换为对应的 SaveFormat 的方法。
-    // 1 - 获取 LoadFormat 的文件扩展名字符串，然后从该字符串中获取相应的 SaveFormat：
+    // 下面是将 LoadFormat 转换为其相应的 SaveFormat 的两种方法。
+    // 1 - 获取 LoadFormat 的文件扩展名字符串，然后从该字符串获取相应的 SaveFormat：
     string fileExtension = FileFormatUtil.LoadFormatToExtension(loadFormat);
     SaveFormat saveFormat = FileFormatUtil.ExtensionToSaveFormat(fileExtension);
 
     // 2 - 将 LoadFormat 直接转换为其 SaveFormat：
     saveFormat = FileFormatUtil.LoadFormatToSaveFormat(loadFormat);
 
-    // 从流中加载一个文档，然后将其保存到自动检测到的文件扩展名。
+    // 从流中加载文档，然后将其保存到自动检测到的文件扩展名。
     Document doc = new Document(docStream);
 
     Assert.AreEqual(".doc", FileFormatUtil.SaveFormatToExtension(saveFormat));

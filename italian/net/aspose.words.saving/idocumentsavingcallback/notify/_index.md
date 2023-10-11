@@ -1,14 +1,14 @@
 ---
 title: IDocumentSavingCallback.Notify
 second_title: Aspose.Words per .NET API Reference
-description: IDocumentSavingCallback metodo. Viene chiamato per notificare lavanzamento del salvataggio del documento.
+description: IDocumentSavingCallback metodo. Viene richiamato per notificare lavanzamento del salvataggio del documento.
 type: docs
 weight: 10
 url: /it/net/aspose.words.saving/idocumentsavingcallback/notify/
 ---
 ## IDocumentSavingCallback.Notify method
 
-Viene chiamato per notificare l'avanzamento del salvataggio del documento.
+Viene richiamato per notificare l'avanzamento del salvataggio del documento.
 
 ```csharp
 public void Notify(DocumentSavingArgs args)
@@ -20,9 +20,9 @@ public void Notify(DocumentSavingArgs args)
 
 ### Osservazioni
 
-L'uso principale di questa interfaccia è consentire al codice dell'applicazione di ottenere lo stato di avanzamento e interrompere il processo di salvataggio.
+L'utilizzo principale di questa interfaccia è consentire al codice dell'applicazione di ottenere lo stato di avanzamento e interrompere il processo di salvataggio.
 
-Un'eccezione dovrebbe essere generata dal callback di avanzamento per l'aborto e dovrebbe essere catturata nel codice del consumatore.
+Dovrebbe essere lanciata un'eccezione dal callback di avanzamento per l'aborto e dovrebbe essere inclusa nel codice del consumo.
 
 ### Esempi
 
@@ -45,7 +45,7 @@ public void ProgressCallback(SaveFormat saveFormat, string ext)
 }
 
 /// <summary>
-/// Salvataggio della richiamata di avanzamento. Annulla il salvataggio di un documento dopo i secondi "MaxDuration".
+/// Salvataggio della richiamata dell'avanzamento. Annulla il salvataggio di un documento dopo i secondi "MaxDuration".
 /// </summary>
 public class SavingProgressCallback : IDocumentSavingCallback
 {
@@ -58,9 +58,9 @@ public class SavingProgressCallback : IDocumentSavingCallback
     }
 
     /// <summary>
-    /// Metodo di callback chiamato durante il salvataggio del documento.
+    /// Metodo di callback richiamato durante il salvataggio del documento.
     /// </summary>
-    /// <nome parametro="args">Salvataggio argomenti.</param>
+    /// <param name="args">Salvataggio degli argomenti.</param>
     public void Notify(DocumentSavingArgs args)
     {
         DateTime canceledAt = DateTime.Now;
@@ -70,7 +70,7 @@ public class SavingProgressCallback : IDocumentSavingCallback
     }
 
     /// <summary>
-    /// Data e ora di inizio del salvataggio del documento.
+    /// Data e ora in cui viene avviato il salvataggio del documento.
     /// </summary>
     private readonly DateTime mSavingStartedAt;
 
@@ -100,7 +100,7 @@ public void ProgressCallback(SaveFormat saveFormat, string ext)
 }
 
 /// <summary>
-/// Salvataggio della richiamata di avanzamento. Annulla il salvataggio di un documento dopo i secondi "MaxDuration".
+/// Salvataggio della richiamata dell'avanzamento. Annulla il salvataggio di un documento dopo i secondi "MaxDuration".
 /// </summary>
 public class SavingProgressCallback : IDocumentSavingCallback
 {
@@ -113,9 +113,9 @@ public class SavingProgressCallback : IDocumentSavingCallback
     }
 
     /// <summary>
-    /// Metodo di callback chiamato durante il salvataggio del documento.
+    /// Metodo di callback richiamato durante il salvataggio del documento.
     /// </summary>
-    /// <nome parametro="args">Salvataggio argomenti.</param>
+    /// <param name="args">Salvataggio degli argomenti.</param>
     public void Notify(DocumentSavingArgs args)
     {
         DateTime canceledAt = DateTime.Now;
@@ -125,7 +125,7 @@ public class SavingProgressCallback : IDocumentSavingCallback
     }
 
     /// <summary>
-    /// Data e ora di inizio del salvataggio del documento.
+    /// Data e ora in cui viene avviato il salvataggio del documento.
     /// </summary>
     private readonly DateTime mSavingStartedAt;
 
@@ -155,7 +155,7 @@ public void ProgressCallback(SaveFormat saveFormat, string ext)
 }
 
 /// <summary>
-/// Salvataggio della richiamata di avanzamento. Annulla il salvataggio di un documento dopo i secondi "MaxDuration".
+/// Salvataggio della richiamata dell'avanzamento. Annulla il salvataggio di un documento dopo i secondi "MaxDuration".
 /// </summary>
 public class SavingProgressCallback : IDocumentSavingCallback
 {
@@ -168,9 +168,9 @@ public class SavingProgressCallback : IDocumentSavingCallback
     }
 
     /// <summary>
-    /// Metodo di callback chiamato durante il salvataggio del documento.
+    /// Metodo di callback richiamato durante il salvataggio del documento.
     /// </summary>
-    /// <nome parametro="args">Salvataggio argomenti.</param>
+    /// <param name="args">Salvataggio degli argomenti.</param>
     public void Notify(DocumentSavingArgs args)
     {
         DateTime canceledAt = DateTime.Now;
@@ -180,7 +180,7 @@ public class SavingProgressCallback : IDocumentSavingCallback
     }
 
     /// <summary>
-    /// Data e ora di inizio del salvataggio del documento.
+    /// Data e ora in cui viene avviato il salvataggio del documento.
     /// </summary>
     private readonly DateTime mSavingStartedAt;
 

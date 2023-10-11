@@ -11,12 +11,12 @@ url: /zh/net/aspose.words.drawing.ole/forms2olecontrol/childnodes/
 获取直接子控件的集合。
 
 ```csharp
-public Forms2OleControlCollection ChildNodes { get; }
+public virtual Forms2OleControlCollection ChildNodes { get; }
 ```
 
 ### 评论
 
-退货 **无效的**如果这个控件不能有孩子。
+退货`无效的`如果这样控制就不能生孩子。
 
 ### 例子
 
@@ -28,7 +28,7 @@ Document doc = new Document(MyDir + "ActiveX controls.docx");
 Shape shape = (Shape) doc.GetChild(NodeType.Shape, 0, true);
 OleControl oleControl = shape.OleFormat.OleControl;
 
-Assert.AreEqual(null, oleControl.Name);
+Assert.AreEqual("CheckBox1", oleControl.Name);
 
 if (oleControl.IsForms2OleControl)
 {
@@ -38,6 +38,10 @@ if (oleControl.IsForms2OleControl)
     Assert.AreEqual(true, checkBox.Enabled);
     Assert.AreEqual(Forms2OleControlType.CheckBox, checkBox.Type);
     Assert.AreEqual(null, checkBox.ChildNodes);
+    Assert.AreEqual(string.Empty, checkBox.GroupName);
+
+    // 请注意，您不能为 Frame 设置 GroupName。
+    checkBox.GroupName = "Aspose group name";
 }
 ```
 

@@ -1,14 +1,14 @@
 ---
 title: Table.AllowOverlap
 second_title: Aspose.Words per .NET API Reference
-description: Table proprietà. Ottiene se una tabella mobile deve consentire ad altri oggetti mobili nel documento di sovrapporsi alle sue estensioni quando viene visualizzata. Il valore predefinito èVERO .
+description: Table proprietà. Indica se una tabella mobile deve consentire ad altri oggetti mobili nel documento di sovrapporsi alle sue estensioni quando viene visualizzato. Il valore predefinito èVERO .
 type: docs
 weight: 70
 url: /it/net/aspose.words.tables/table/allowoverlap/
 ---
 ## Table.AllowOverlap property
 
-Ottiene se una tabella mobile deve consentire ad altri oggetti mobili nel documento di sovrapporsi alle sue estensioni quando viene visualizzata. Il valore predefinito è`VERO` .
+Indica se una tabella mobile deve consentire ad altri oggetti mobili nel documento di sovrapporsi alle sue estensioni quando viene visualizzato. Il valore predefinito è`VERO` .
 
 ```csharp
 public bool AllowOverlap { get; }
@@ -16,7 +16,7 @@ public bool AllowOverlap { get; }
 
 ### Esempi
 
-Mostra come lavorare con le proprietà delle tabelle mobili.
+Mostra come utilizzare le proprietà delle tabelle mobili.
 
 ```csharp
 Document doc = new Document(MyDir + "Table wrapped by text.docx");
@@ -29,12 +29,12 @@ if (table.TextWrapping == TextWrapping.Around)
     Assert.AreEqual(RelativeVerticalPosition.Paragraph, table.VerticalAnchor);
     Assert.AreEqual(false, table.AllowOverlap);
 
-    // Solo margine, pagina, colonna disponibile in RelativeHorizontalPosition per il setter di ancoraggio orizzontale.
-    // Verrà generata ArgumentException per qualsiasi altro valore.
+    // Solo margine, pagina e colonna disponibili in RelativeHorizontalPosition per il setter orizzontali.
+    // L'ArgumentException verrà generata per qualsiasi altro valore.
     table.HorizontalAnchor = RelativeHorizontalPosition.Column;
 
-    // Solo margine, pagina, paragrafo disponibile in posizione verticale relativa per il setter di ancoraggio verticale.
-    // Verrà generata ArgumentException per qualsiasi altro valore.
+    // Solo margine, pagina e paragrafo disponibili in RelativeVerticalPosition per il setter VerticalAnchor.
+    // L'ArgumentException verrà generata per qualsiasi altro valore.
     table.VerticalAnchor = RelativeVerticalPosition.Page;
 }
 ```

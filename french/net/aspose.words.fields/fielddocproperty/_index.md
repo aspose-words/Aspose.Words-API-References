@@ -3,12 +3,14 @@ title: Class FieldDocProperty
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Aspose.Words.Fields.FieldDocProperty classe. Implémente le champ DOCPROPERTY.
 type: docs
-weight: 1660
+weight: 1810
 url: /fr/net/aspose.words.fields/fielddocproperty/
 ---
 ## FieldDocProperty class
 
 Implémente le champ DOCPROPERTY.
+
+Pour en savoir plus, visitez le[Travailler avec des champs](https://docs.aspose.com/words/net/working-with-fields/) article documentaire.
 
 ```csharp
 public class FieldDocProperty : Field
@@ -30,8 +32,8 @@ public class FieldDocProperty : Field
 | [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | Obtient ou définit si le résultat actuel du champ n'est plus correct (périmé) en raison d'autres modifications apportées au document. |
 | [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Obtient ou définit si le champ est verrouillé (ne doit pas recalculer son résultat). |
 | [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | Obtient ou définit le LCID du champ. |
-| [Result](../../aspose.words.fields/field/result/) { get; set; } | Obtient ou définit le texte qui se trouve entre le séparateur de champ et la fin du champ. |
-| [Separator](../../aspose.words.fields/field/separator/) { get; } | Obtient le nœud qui représente le séparateur de champs. Peut être null. |
+| [Result](../../aspose.words.fields/field/result/) { get; set; } | Obtient ou définit le texte situé entre le séparateur de champ et la fin du champ. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | Obtient le nœud qui représente le séparateur de champ. Peut être`nul` . |
 | [Start](../../aspose.words.fields/field/start/) { get; } | Obtient le nœud qui représente le début du champ. |
 | virtual [Type](../../aspose.words.fields/field/type/) { get; } | Obtient le type de champ Microsoft Word. |
 
@@ -41,14 +43,14 @@ public class FieldDocProperty : Field
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Renvoie le texte entre le début du champ et le séparateur de champ (ou la fin du champ s'il n'y a pas de séparateur). Le code de champ et le résultat du champ des champs enfants sont inclus. |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Renvoie le texte entre le début du champ et le séparateur de champ (ou la fin du champ s'il n'y a pas de séparateur). |
-| [Remove](../../aspose.words.fields/field/remove/)() | Supprime le champ du document. Renvoie un nœud juste après le champ. Si la fin du champ est le dernier enfant de son nœud parent, renvoie son paragraphe parent. Si le champ est déjà supprimé, renvoie **nul** . |
+| [Remove](../../aspose.words.fields/field/remove/)() | Supprime le champ du document. Renvoie un nœud juste après le champ. Si la fin du champ est le dernier child de son nœud parent, renvoie son paragraphe parent. Si le champ est déjà supprimé, renvoie`nul` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Effectue la dissociation du champ. |
 | [Update](../../aspose.words.fields/field/update/)() | Effectue la mise à jour du champ. Lance si le champ est déjà mis à jour. |
 | [Update](../../aspose.words.fields/field/update/)(bool) | Effectue une mise à jour du champ. Lance si le champ est déjà mis à jour. |
 
 ### Remarques
 
-Récupère les informations du document indiqué.
+Récupère les informations du document indiquées.
 
 ### Exemples
 
@@ -59,7 +61,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Vous trouverez ci-dessous deux manières d'utiliser les champs DOCPROPERTY.
-// 1 - Affiche une propriété intégrée :
+// 1 - Afficher une propriété intégrée :
 // Définissez une valeur personnalisée pour la propriété intégrée "Catégorie", puis insérez un champ DOCPROPERTY qui y fait référence.
 doc.BuiltInDocumentProperties.Category = "My category";
 
@@ -71,7 +73,7 @@ Assert.AreEqual("My category", fieldDocProperty.Result);
 
 builder.InsertParagraph();
 
-// 2 - Affichez une variable de document personnalisée :
+// 2 - Afficher une variable de document personnalisée :
 // Définissez une variable personnalisée, puis référencez cette variable avec un champ DOCPROPERTY.
 Assert.That(doc.Variables, Is.Empty);
 doc.Variables.Add("My variable", "My variable's value");

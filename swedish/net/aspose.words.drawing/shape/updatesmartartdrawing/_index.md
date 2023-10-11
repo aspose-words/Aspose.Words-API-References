@@ -3,7 +3,7 @@ title: Shape.UpdateSmartArtDrawing
 second_title: Aspose.Words för .NET API Referens
 description: Shape metod. Uppdaterar SmartArt förrenderad ritning genom att använda Aspose.Words SmartArt kall renderingsmotor.
 type: docs
-weight: 250
+weight: 270
 url: /sv/net/aspose.words.drawing/shape/updatesmartartdrawing/
 ---
 ## Shape.UpdateSmartArtDrawing method

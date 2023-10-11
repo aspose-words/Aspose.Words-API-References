@@ -1,14 +1,14 @@
 ---
 title: FindReplaceOptions.IgnoreFieldCodes
 second_title: Aspose.Words لمراجع .NET API
-description: FindReplaceOptions ملكية. الحصول على أو تعيين قيمة منطقية تشير إما إلى تجاهل النص داخل رموز الحقول . القيمة الافتراضية هيخاطئة .
+description: FindReplaceOptions ملكية. الحصول على قيمة منطقية أو تعيينها تشير إما إلى تجاهل النص داخل رموز الحقول. القيمة الافتراضية هيخطأ شنيع .
 type: docs
 weight: 70
 url: /ar/net/aspose.words.replacing/findreplaceoptions/ignorefieldcodes/
 ---
 ## FindReplaceOptions.IgnoreFieldCodes property
 
-الحصول على أو تعيين قيمة منطقية تشير إما إلى تجاهل النص داخل رموز الحقول . القيمة الافتراضية هي`خاطئة` .
+الحصول على قيمة منطقية أو تعيينها تشير إما إلى تجاهل النص داخل رموز الحقول. القيمة الافتراضية هي`خطأ شنيع` .
 
 ```csharp
 public bool IgnoreFieldCodes { get; set; }
@@ -18,7 +18,7 @@ public bool IgnoreFieldCodes { get; set; }
 
 يؤثر هذا الخيار على رموز الحقول فقط (لا يتجاهل العقد بين FieldSeparator وFieldEnd).
 
-لتجاهل الحقل بالكامل ، يرجى استخدام الخيار المقابل[`IgnoreFields`](../ignorefields/).
+لتجاهل الحقل بأكمله، يرجى استخدام الخيار المقابل[`IgnoreFields`](../ignorefields/).
 
 ### أمثلة
 
@@ -32,7 +32,7 @@ builder.InsertField("INCLUDETEXT", "Test IT!");
 
 FindReplaceOptions options = new FindReplaceOptions {IgnoreFieldCodes = ignoreFieldCodes};
 
-// استبدل "T" في المستند بتجاهل النص داخل رمز الحقل أم لا.
+// استبدل "T" في المستند مع تجاهل النص الموجود داخل رمز الحقل أم لا.
 doc.Range.Replace(new Regex("T"), "*", options);
 Console.WriteLine(doc.GetText());
 

@@ -1,14 +1,14 @@
 ---
 title: FieldIncludePicture.ResizeHorizontally
 second_title: Aspose.Words for .NET API Referansı
-description: FieldIncludePicture mülk. Resmi kaynaktan yatay olarak yeniden boyutlandırıp boyutlandırmayacağını alır veya ayarlar.
+description: FieldIncludePicture mülk. Resmin kaynaktan yatay olarak yeniden boyutlandırılıp yeniden boyutlandırılmayacağını alır veya ayarlar.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.fields/fieldincludepicture/resizehorizontally/
 ---
 ## FieldIncludePicture.ResizeHorizontally property
 
-Resmi kaynaktan yatay olarak yeniden boyutlandırıp boyutlandırmayacağını alır veya ayarlar.
+Resmin kaynaktan yatay olarak yeniden boyutlandırılıp yeniden boyutlandırılmayacağını alır veya ayarlar.
 
 ```csharp
 public bool ResizeHorizontally { get; set; }
@@ -16,13 +16,13 @@ public bool ResizeHorizontally { get; set; }
 
 ### Örnekler
 
-IMPORT ve INCLUDEPICTURE alanlarını kullanarak resimlerin nasıl ekleneceğini gösterir.
+IMPORT ve INCLUDEPICTURE alanlarını kullanarak görüntülerin nasıl ekleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Aşağıda, yerel dosya sisteminden bağlantılı görüntüleri görüntülemek için kullanabileceğimiz iki benzer alan türü bulunmaktadır.
+// Aşağıda yerel dosya sisteminden bağlantılı görselleri görüntülemek için kullanabileceğimiz iki benzer alan türü bulunmaktadır.
 // 1 - INCLUDEPICTURE alanı:
 FieldIncludePicture fieldIncludePicture = (FieldIncludePicture)builder.InsertField(FieldType.FieldIncludePicture, true);
 fieldIncludePicture.SourceFullName = ImageDir + "Transparent background logo.png";

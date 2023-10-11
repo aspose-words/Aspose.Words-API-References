@@ -1,14 +1,14 @@
 ---
 title: SaveOptions.ExportGeneratorName
 second_title: Aspose.Words لمراجع .NET API
-description: SaveOptions ملكية. عندما يكون صحيحًا  يتسبب في تضمين اسم ونسخة Aspose. Words في الملفات المنتجة. القيمة الافتراضية هي حقيقي .
+description: SaveOptions ملكية. متىحقيقي  يؤدي إلى تضمين اسم وإصدار Aspose.Words في الملفات المنتجة. القيمة الافتراضية هيحقيقي .
 type: docs
 weight: 80
 url: /ar/net/aspose.words.saving/saveoptions/exportgeneratorname/
 ---
 ## SaveOptions.ExportGeneratorName property
 
-عندما يكون صحيحًا ، يتسبب في تضمين اسم ونسخة Aspose. Words في الملفات المنتجة. القيمة الافتراضية هي **حقيقي** .
+متى`حقيقي` ، يؤدي إلى تضمين اسم وإصدار Aspose.Words في الملفات المنتجة. القيمة الافتراضية هي`حقيقي` .
 
 ```csharp
 public bool ExportGeneratorName { get; set; }

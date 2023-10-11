@@ -1,12 +1,12 @@
 ---
 title: Aspose.Words.Layout
 second_title: Aspose.Words för .NET API Referens
-description: De Aspose.Words.Layoutnamnrymden tillhandahåller klasser som gör det möjligt att komma åt information som på vilken sida och var på en sida specifika dokumentelement är placerade när dokumentet formateras till sidor.
+description: De Aspose.Words.Layout namnrymden tillhandahåller klasser som gör det möjligt att komma åt information om som på vilken sida och var på en sida särskilda dokumentelement är placerade när dokumentet formateras till sidor.
 type: docs
 weight: 110
 url: /sv/net/aspose.words.layout/
 ---
-De **Aspose.Words.Layout**namnrymden tillhandahåller klasser som gör det möjligt att komma åt information som på vilken sida och var på en sida specifika dokumentelement är placerade när dokumentet formateras till sidor.
+De **Aspose.Words.Layout** namnrymden tillhandahåller klasser som gör det möjligt att komma åt information om som på vilken sida och var på en sida särskilda dokumentelement är placerade när dokumentet formateras till sidor.
 
 ## Klasser
 

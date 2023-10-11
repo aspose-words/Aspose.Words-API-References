@@ -3,7 +3,7 @@ title: CompositeNode.GetText
 second_title: Aspose.Words för .NET API Referens
 description: CompositeNode metod. Hämtar texten för denna nod och alla dess underordnade.
 type: docs
-weight: 120
+weight: 130
 url: /sv/net/aspose.words/compositenode/gettext/
 ---
 ## CompositeNode.GetText method

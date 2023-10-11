@@ -1,14 +1,14 @@
 ---
 title: MailMergeSettings.LinkToQuery
 second_title: Aspose.Words لمراجع .NET API
-description: MailMergeSettings ملكية. لست متأكدًا من هذا . يشير مرجع أتمتة Microsoft Word إلى أن هذا يحدد أن الاستعلام يتم تنفيذه في كل مرة يتم فيها فتح المستند في Microsoft Word. لكن مواصفات OOXML تشير إلى أن هذا يحدد أن الاستعلام يحتوي على reference لملف استعلام خارجي يحتوي على الاستعلام الفعلي . القيمة الافتراضية هيخاطئة .
+description: MailMergeSettings ملكية. لست متأكدًا من هذا. يشير مرجع Microsoft Word Automation إلى أن هذا يحدد تنفيذ الاستعلام في كل مرة يتم فيها فتح المستند في Microsoft Word. لكن مواصفات OOXML تشير إلى أن هذا يحدد أن الاستعلام يحتوي على مرجع لملف استعلام خارجي يحتوي على الاستعلام الفعلي. القيمة الافتراضية هيخطأ شنيع .
 type: docs
 weight: 110
 url: /ar/net/aspose.words.settings/mailmergesettings/linktoquery/
 ---
 ## MailMergeSettings.LinkToQuery property
 
-لست متأكدًا من هذا . يشير مرجع أتمتة Microsoft Word إلى أن هذا يحدد أن الاستعلام يتم تنفيذه في كل مرة يتم فيها فتح المستند في Microsoft Word. لكن مواصفات OOXML تشير إلى أن هذا يحدد أن الاستعلام يحتوي على reference لملف استعلام خارجي يحتوي على الاستعلام الفعلي . القيمة الافتراضية هي`خاطئة` .
+لست متأكدًا من هذا. يشير مرجع Microsoft Word Automation إلى أن هذا يحدد تنفيذ الاستعلام في كل مرة يتم فيها فتح المستند في Microsoft Word. لكن مواصفات OOXML تشير إلى أن هذا يحدد أن الاستعلام يحتوي على مرجع لملف استعلام خارجي يحتوي على الاستعلام الفعلي. القيمة الافتراضية هي`خطأ شنيع` .
 
 ```csharp
 public bool LinkToQuery { get; set; }
@@ -29,9 +29,9 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// إنشاء مصدر بيانات في شكل ملف ASCII ، باستخدام "|" حرف
-// يعمل كمحدد يفصل بين الأعمدة. يحتوي السطر الأول على أسماء الأعمدة الثلاثة ،
-// وكل سطر لاحق هو صف بقيمها الخاصة.
+// قم بإنشاء مصدر بيانات على شكل ملف ASCII، باستخدام "|" شخصية
+// يعمل كمحدد يفصل بين الأعمدة. السطر الأول يحتوي على أسماء الأعمدة الثلاثة،
+// وكل سطر لاحق عبارة عن صف بقيمه الخاصة.
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };
 string dataSrcFilename = ArtifactsDir + "MailMerge.MailMergeSettings.DataSource.txt";
@@ -59,7 +59,7 @@ odso.FirstRowContainsColumnNames = true;
 Assert.AreNotSame(odso, odso.Clone());
 Assert.AreNotSame(settings, settings.Clone());
 
-// سيؤدي فتح هذا المستند في Microsoft Word إلى تنفيذ دمج البريد قبل عرض المحتويات. 
+ // سيؤدي فتح هذا المستند في Microsoft Word إلى تنفيذ دمج البريد قبل عرض المحتويات.
 doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ```
 

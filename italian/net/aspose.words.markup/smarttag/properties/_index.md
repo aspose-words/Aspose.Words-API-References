@@ -1,14 +1,14 @@
 ---
 title: SmartTag.Properties
 second_title: Aspose.Words per .NET API Reference
-description: SmartTag proprietà. Una raccolta delle proprietà degli smart tag.
+description: SmartTag proprietà. Una raccolta delle proprietà dello smart tag.
 type: docs
 weight: 40
 url: /it/net/aspose.words.markup/smarttag/properties/
 ---
 ## SmartTag.Properties property
 
-Una raccolta delle proprietà degli smart tag.
+Una raccolta delle proprietà dello smart tag.
 
 ```csharp
 public CustomXmlPropertyCollection Properties { get; }
@@ -16,7 +16,7 @@ public CustomXmlPropertyCollection Properties { get; }
 
 ### Osservazioni
 
-Non può essere nullo.
+Non può essere`nullo`.
 
 ### Esempi
 
@@ -27,19 +27,19 @@ public void Create()
 {
     Document doc = new Document();
 
-    // Uno smart tag appare in un documento con Microsoft Word riconosce una parte del suo testo come una forma di dati,
+    // Uno smart tag appare in un documento con Microsoft Word riconosce una parte del suo testo come una qualche forma di dati,
     // come un nome, una data o un indirizzo e lo converte in un collegamento ipertestuale che visualizza una sottolineatura tratteggiata viola.
     SmartTag smartTag = new SmartTag(doc);
 
     // Gli smart tag sono nodi compositi che contengono il testo riconosciuto nella sua interezza.
-    // Aggiungi contenuti a questo smart tag manualmente.
+    // Aggiunge manualmente i contenuti a questo smart tag.
     smartTag.AppendChild(new Run(doc, "May 29, 2019"));
 
-    // Microsoft Word potrebbe riconoscere il contenuto di cui sopra come una data.
-    // Gli smart tag utilizzano la proprietà "Element" per riflettere il tipo di dati che contengono.
+    // Microsoft Word potrebbe riconoscere i contenuti di cui sopra come una data.
+    // Gli smart tag utilizzano la proprietà "Elemento" per riflettere il tipo di dati che contengono.
     smartTag.Element = "date";
 
-    // Alcuni tipi di smart tag elaborano ulteriormente il loro contenuto in proprietà XML personalizzate.
+    // Alcuni tipi di smart tag elaborano ulteriormente i propri contenuti in proprietà XML personalizzate.
     smartTag.Properties.Add(new CustomXmlProperty("Day", string.Empty, "29"));
     smartTag.Properties.Add(new CustomXmlProperty("Month", string.Empty, "5"));
     smartTag.Properties.Add(new CustomXmlProperty("Year", string.Empty, "2019"));
@@ -50,7 +50,7 @@ public void Create()
     doc.FirstSection.Body.FirstParagraph.AppendChild(smartTag);
     doc.FirstSection.Body.FirstParagraph.AppendChild(new Run(doc, " is a date. "));
 
-    // Crea un altro smart tag per un ticker di borsa.
+    // Crea un altro smart tag per un titolo azionario.
     smartTag = new SmartTag(doc);
     smartTag.Element = "stockticker";
     smartTag.Uri = "urn:schemas-microsoft-com:office:smarttags";
@@ -66,7 +66,7 @@ public void Create()
     // Le versioni precedenti di Microsoft Word supportano gli smart tag.
     doc.Save(ArtifactsDir + "SmartTag.Create.doc");
 
-    // Usa il metodo "RemoveSmartTags" per rimuovere tutti gli smart tag da un documento.
+    // Utilizza il metodo "RemoveSmartTags" per rimuovere tutti gli smart tag da un documento.
     Assert.AreEqual(2, doc.GetChildNodes(NodeType.SmartTag, true).Count);
 
     doc.RemoveSmartTags();
@@ -75,12 +75,12 @@ public void Create()
 }
 
 /// <summary>
-/// Stampa gli smart tag visitati e il loro contenuto.
+/// Stampa gli smart tag visitati e i relativi contenuti.
 /// </summary>
 private class SmartTagPrinter : DocumentVisitor
 {
     /// <summary>
-    /// Chiamato quando viene rilevato un nodo SmartTag nel documento.
+    /// Chiamato quando nel documento viene rilevato un nodo SmartTag.
     /// </summary>
     public override VisitorAction VisitSmartTagStart(SmartTag smartTag)
     {

@@ -16,7 +16,7 @@ public PageBorderAppliesTo BorderAppliesTo { get; set; }
 
 ### Örnekler
 
-İlk sayfanın üst kısmında geniş bir mavi bant kenarlığının nasıl oluşturulacağını gösterir.
+İlk sayfanın üst kısmında geniş mavi bant kenarlığının nasıl oluşturulacağını gösterir.
 
 ```csharp
 Document doc = new Document();

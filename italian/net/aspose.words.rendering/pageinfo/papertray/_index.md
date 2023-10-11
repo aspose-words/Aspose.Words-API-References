@@ -1,14 +1,14 @@
 ---
 title: PageInfo.PaperTray
 second_title: Aspose.Words per .NET API Reference
-description: PageInfo proprietà. Ottiene il vassoio della carta cestino per questa pagina come specificato nel documento. Il valore è specifico dellimplementazione stampante.
+description: PageInfo proprietà. Ottiene il vassoio della carta contenitore per questa pagina come specificato nel documento. Il valore è specifico dellimplementazione stampante.
 type: docs
-weight: 40
+weight: 50
 url: /it/net/aspose.words.rendering/pageinfo/papertray/
 ---
 ## PageInfo.PaperTray property
 
-Ottiene il vassoio della carta (cestino) per questa pagina come specificato nel documento. Il valore è specifico dell'implementazione (stampante).
+Ottiene il vassoio della carta (contenitore) per questa pagina come specificato nel documento. Il valore è specifico dell'implementazione (stampante).
 
 ```csharp
 public int PaperTray { get; }
@@ -16,13 +16,13 @@ public int PaperTray { get; }
 
 ### Esempi
 
-Mostra come stampare le informazioni sulle dimensioni della pagina e sull'orientamento per ogni pagina di un documento di Word.
+Mostra come stampare le informazioni sulle dimensioni e sull'orientamento della pagina per ogni pagina di un documento Word.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// La prima sezione ha 2 pagine. Assegneremo a ciascuno un vassoio carta per stampante diverso,
-// il cui numero corrisponderà a un tipo di origine carta. Queste fonti e i loro tipi varieranno
+// La prima sezione ha 2 pagine. Assegneremo a ciascuno un vassoio carta diverso per la stampante,
+// il cui numero corrisponderà a un tipo di origine cartacea. Queste fonti e i loro tipi varieranno
 // a seconda del driver della stampante installato.
 PrinterSettings.PaperSourceCollection paperSources = new PrinterSettings().PaperSources;
 

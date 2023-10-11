@@ -34,6 +34,7 @@ for (Node node = doc.FirstSection.Body.FirstChild; node != null; node = node.Nex
 Visar hur man korsar en sammansatt nods träd med undernoder.
 
 ```csharp
+public void RecurseChildren()
 {
     Document doc = new Document(MyDir + "Paragraphs.docx");
 

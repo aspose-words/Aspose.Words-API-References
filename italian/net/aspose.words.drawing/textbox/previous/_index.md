@@ -1,14 +1,14 @@
 ---
 title: TextBox.Previous
 second_title: Aspose.Words per .NET API Reference
-description: TextBox proprietà. Restituisce un TextBox che rappresenta il TextBox precedente in una sequenza di forme.
+description: TextBox proprietà. Restituisce aTextBox che rappresenta il precedenteTextBox in una sequenza di forme.
 type: docs
-weight: 90
+weight: 100
 url: /it/net/aspose.words.drawing/textbox/previous/
 ---
 ## TextBox.Previous property
 
-Restituisce un TextBox che rappresenta il TextBox precedente in una sequenza di forme.
+Restituisce a[`TextBox`](../) che rappresenta il precedente[`TextBox`](../) in una sequenza di forme.
 
 ```csharp
 public TextBox Previous { get; }

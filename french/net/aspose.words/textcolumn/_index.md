@@ -1,14 +1,16 @@
 ---
 title: Class TextColumn
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.TextColumn classe. Représente une seule colonne de texte. Colonne de texte est membre de laTextColumnCollection collection. La Colonnes de texte collection inclut toutes les colonnes dune section dun document.
+description: Aspose.Words.TextColumn classe. Représente une seule colonne de texte.TextColumn est membre duTextColumnCollection collection. LeTextColumn la collection inclut toutes les colonnes dune section dun document.
 type: docs
-weight: 6090
+weight: 6390
 url: /fr/net/aspose.words/textcolumn/
 ---
 ## TextColumn class
 
-Représente une seule colonne de texte. **Colonne de texte** est membre de la[`TextColumnCollection`](../textcolumncollection/) collection. La **Colonnes de texte** collection inclut toutes les colonnes d'une section d'un document.
+Représente une seule colonne de texte.`TextColumn` est membre du[`TextColumnCollection`](../textcolumncollection/) collection. Le`TextColumn` la collection inclut toutes les colonnes d'une section d'un document.
+
+Pour en savoir plus, visitez le[Travailler avec des sections](https://docs.aspose.com/words/net/working-with-sections/) article documentaire.
 
 ```csharp
 public class TextColumn
@@ -23,13 +25,13 @@ public class TextColumn
 
 ### Remarques
 
-**Colonne de texte** les objets ne sont utilisés que pour spécifier des colonnes avec une largeur et un espacement personnalisés. Si vous voulez que les colonnes du document aient la même largeur, définissez TextColumns.[`EvenlySpaced`](../textcolumncollection/evenlyspaced/) à **vrai**.
+`TextColumn` les objets ne sont utilisés que pour spécifier des colonnes avec une largeur et un espacement personnalisés. Si vous souhaitez que les colonnes du document soient de largeur égale, définissez TextColumns.[`EvenlySpaced`](../textcolumncollection/evenlyspaced/) à`vrai`.
 
-Quand un nouveau **Colonne de texte** est créé, sa largeur et son espacement sont définis sur zéro.
+Quand un nouveau`TextColumn` est créé, sa largeur et son espacement sont définis sur zéro.
 
 ### Exemples
 
-Montre comment créer des colonnes espacées de manière inégale.
+Montre comment créer des colonnes inégalement espacées.
 
 ```csharp
 Document doc = new Document();
@@ -40,17 +42,17 @@ TextColumnCollection columns = pageSetup.TextColumns;
 columns.EvenlySpaced = false;
 columns.SetCount(2);
 
-// Déterminer la quantité d'espace dont nous disposons pour organiser les colonnes.
+// Détermine la quantité d'espace dont nous disposons pour organiser les colonnes.
 double contentWidth = pageSetup.PageWidth - pageSetup.LeftMargin - pageSetup.RightMargin;
 
 Assert.AreEqual(470.30d, contentWidth, 0.01d);
 
-// Définit la première colonne comme étant étroite.
+// Définit la première colonne pour qu'elle soit étroite.
 TextColumn column = columns[0];
 column.Width = 100;
 column.SpaceAfter = 20;
 
-// Définissez la deuxième colonne pour occuper le reste de l'espace disponible dans les marges de la page.
+// Définit la deuxième colonne pour qu'elle occupe le reste de l'espace disponible dans les marges de la page.
 column = columns[1];
 column.Width = contentWidth - column.Width - column.SpaceAfter;
 

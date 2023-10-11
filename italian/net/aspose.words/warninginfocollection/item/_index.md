@@ -16,7 +16,7 @@ public WarningInfo this[int index] { get; }
 
 | Parametro | Descrizione |
 | --- | --- |
-| index | Indice a base zero dell'articolo. |
+| index | Indice in base zero dell'elemento. |
 
 ### Guarda anche
 

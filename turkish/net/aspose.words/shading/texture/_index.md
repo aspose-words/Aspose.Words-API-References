@@ -3,7 +3,7 @@ title: Shading.Texture
 second_title: Aspose.Words for .NET API Referansı
 description: Shading mülk. Gölgelendirme dokusunu alır veya ayarlar.
 type: docs
-weight: 30
+weight: 70
 url: /tr/net/aspose.words/shading/texture/
 ---
 ## Shading.Texture property
@@ -16,7 +16,7 @@ public TextureIndex Texture { get; set; }
 
 ### Örnekler
 
-Metnin kenarlıklar ve gölgeleme ile nasıl süsleneceğini gösterir.
+Metnin kenarlıklar ve gölgelendirmeyle nasıl süsleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();

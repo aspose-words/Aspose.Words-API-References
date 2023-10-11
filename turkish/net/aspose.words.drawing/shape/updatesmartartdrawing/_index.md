@@ -3,7 +3,7 @@ title: Shape.UpdateSmartArtDrawing
 second_title: Aspose.Words for .NET API Referansı
 description: Shape yöntem. Aspose.Wordsün SmartArt soğuk işleme motorunu kullanarak SmartArt önceden oluşturulmuş çizimi günceller.
 type: docs
-weight: 250
+weight: 270
 url: /tr/net/aspose.words.drawing/shape/updatesmartartdrawing/
 ---
 ## Shape.UpdateSmartArtDrawing method
@@ -16,7 +16,7 @@ public void UpdateSmartArtDrawing()
 
 ### Notlar
 
-Microsoft Word, SmartArt nesnesiyle birlikte önceden oluşturulmuş çizimi oluşturur ve kaydeder. Ancak, belge başka uygulamalar tarafından kaydedilirse, önceden oluşturulmuş SmartArt çizimi eksik veya yanlış olabilir. Önceden oluşturulmuş çizim varsa Aspose.Words bunu SmartArt nesnesini oluşturmak için kullanır. Önceden oluşturulmuş çizim ise eksikse Aspose.Words, SmartArt nesnesini oluşturmak için kendi SmartArt soğuk oluşturma motorunu kullanır. Önceden oluşturulmuş çizim yanlışsa, SmartArt cold oluşturma motorunu çağırmak için bu yöntemi çağırmak gerekir.
+Microsoft Word, önceden oluşturulmuş çizimi SmartArt nesnesiyle birlikte oluşturur ve kaydeder. Ancak, belge başka uygulamalar tarafından kaydedildiyse önceden oluşturulmuş SmartArt çizimi eksik veya yanlış olabilir. Önceden oluşturulmuş çizim mevcutsa Aspose.Words bunu SmartArt nesnesini oluşturmak için kullanır. Önceden oluşturulmuş çizim varsa eksikse Aspose.Words, SmartArt nesnesini işlemek için kendi SmartArt soğuk işleme motorunu kullanır. Önceden oluşturulmuş çizim hatalıysa, SmartArt cold işleme motorunu çağırmak için bu yöntemin çağrılması gerekir.
 
 ### Ayrıca bakınız
 

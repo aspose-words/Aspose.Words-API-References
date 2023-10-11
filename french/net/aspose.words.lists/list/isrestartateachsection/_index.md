@@ -1,14 +1,14 @@
 ---
 title: List.IsRestartAtEachSection
 second_title: Référence de l'API Aspose.Words pour .NET
-description: List propriété. Spécifie si la liste doit être redémarrée à chaque section. La valeur par défaut est faux .
+description: List propriété. Spécifie si la liste doit être redémarrée à chaque section. La valeur par défaut estFAUX .
 type: docs
 weight: 50
 url: /fr/net/aspose.words.lists/list/isrestartateachsection/
 ---
 ## List.IsRestartAtEachSection property
 
-Spécifie si la liste doit être redémarrée à chaque section. La valeur par défaut est **faux** .
+Spécifie si la liste doit être redémarrée à chaque section. La valeur par défaut est`FAUX` .
 
 ```csharp
 public bool IsRestartAtEachSection { get; set; }
@@ -18,7 +18,7 @@ public bool IsRestartAtEachSection { get; set; }
 
 Cette option est prise en charge uniquement dans les formats de document RTF, DOC et DOCX.
 
-Cette option sera écrite dans DOCX uniquement si[`OoxmlCompliance`](../../../aspose.words.saving/ooxmlcompliance/) est plus élevé alorsEcma376_2006.
+Cette option sera écrite dans DOCX uniquement si[`OoxmlCompliance`](../../../aspose.words.saving/ooxmlcompliance/) est alors plus élevéEcma376_2006.
 
 ### Exemples
 

@@ -1,14 +1,14 @@
 ---
 title: Section.Body
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Section propriété. Renvoie le Corps nœud enfant de la section.
+description: Section propriété. Renvoie leBody nœud enfant de la section.
 type: docs
 weight: 20
 url: /fr/net/aspose.words/section/body/
 ---
 ## Section.Body property
 
-Renvoie le **Corps** nœud enfant de la section.
+Renvoie le[`Body`](../../body/) nœud enfant de la section.
 
 ```csharp
 public Body Body { get; }
@@ -16,9 +16,9 @@ public Body Body { get; }
 
 ### Remarques
 
-**Corps** contient le texte principal de la section.
+[`Body`](../../body/) contient le texte principal de la section.
 
-Renvoie null si la section n'a pas de **Corps** nœud parmi ses enfants.
+Retour`nul` si la section n'a pas de[`Body`](../../body/) nœud parmi ses enfants.
 
 ### Exemples
 
@@ -29,12 +29,12 @@ Document doc = new Document();
 
 // Un document vierge contient une section, un corps et un paragraphe.
 // Appelez la méthode "RemoveAllChildren" pour supprimer tous ces nœuds,
-// et se retrouver avec un nœud de document sans enfants.
+// et on se retrouve avec un nœud de document sans enfants.
 doc.RemoveAllChildren();
 
-// Ce document n'a plus de nœuds enfants composites auxquels nous pouvons ajouter du contenu.
-// Si nous souhaitons l'éditer, nous devrons repeupler sa collection de nœuds.
-// Tout d'abord, créez une nouvelle section, puis ajoutez-la en tant qu'enfant au nœud de document racine.
+// Ce document n'a désormais aucun nœud enfant composite auquel nous pouvons ajouter du contenu.
+// Si nous souhaitons le modifier, nous devrons repeupler sa collection de nœuds.
+// Commencez par créer une nouvelle section, puis ajoutez-la en tant qu'enfant au nœud du document racine.
 Section section = new Section(doc);
 doc.AppendChild(section);
 
@@ -43,13 +43,13 @@ doc.AppendChild(section);
 Body body = new Body(doc);
 section.AppendChild(body);
 
-// Ce corps n'a pas d'enfants, nous ne pouvons donc pas encore lui ajouter d'exécutions.
+// Ce corps n'a pas d'enfant, nous ne pouvons donc pas encore y ajouter d'exécutions.
 Assert.AreEqual(0, doc.FirstSection.Body.GetChildNodes(NodeType.Any, true).Count);
 
-// Appelez le "EnsureMinimum" pour vous assurer que ce corps contient au moins un paragraphe vide. 
+ // Appelez "EnsureMinimum" pour vous assurer que ce corps contient au moins un paragraphe vide.
 body.EnsureMinimum();
 
-// Maintenant, nous pouvons ajouter des passages au corps et faire en sorte que le document les affiche.
+// Maintenant, nous pouvons ajouter des exécutions au corps et demander au document de les afficher.
 body.FirstParagraph.AppendChild(new Run(doc, "Hello world!"));
 
 Assert.AreEqual("Hello world!", doc.GetText().Trim());

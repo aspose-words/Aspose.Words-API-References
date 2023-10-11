@@ -16,7 +16,7 @@ public ParagraphFormat DefaultParagraphFormat { get; }
 
 ### Osservazioni
 
-Si noti che le impostazioni predefinite a livello di documento sono state introdotte in Microsoft Word 2007 e sono completamente supportate nei formati OOXML (Docx) solo. I formati di documento precedenti non supportano la formattazione di paragrafo predefinita del documento.
+Tieni presente che le impostazioni predefinite a livello di documento sono state introdotte in Microsoft Word 2007 e sono completamente supportate nei formati OOXML (Docx). I formati di documento precedenti non supportano la formattazione di paragrafo predefinita del documento.
 
 ### Esempi
 
@@ -24,15 +24,13 @@ Mostra come aggiungere uno stile alla raccolta di stili di un documento.
 
 ```csharp
 Document doc = new Document();
-StyleCollection styles = doc.Styles;
 
+StyleCollection styles = doc.Styles;
 // Imposta i parametri predefiniti per i nuovi stili che potremmo aggiungere in seguito a questa raccolta.
 styles.DefaultFont.Name = "Courier New";
-
 // Se aggiungiamo uno stile di "StyleType.Paragraph", la raccolta applicherà i valori di
-// la sua proprietà "DefaultParagraphFormat" alla proprietà "ParagraphFormat" dello stile.
+// la sua proprietà "DefaultParagraphFormat" nella proprietà "ParagraphFormat" dello stile.
 styles.DefaultParagraphFormat.FirstLineIndent = 15.0;
-
 // Aggiungi uno stile, quindi verifica che abbia le impostazioni predefinite.
 styles.Add(StyleType.Paragraph, "MyStyle");
 

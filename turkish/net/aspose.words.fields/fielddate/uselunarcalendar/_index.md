@@ -1,14 +1,14 @@
 ---
 title: FieldDate.UseLunarCalendar
 second_title: Aspose.Words for .NET API Referansı
-description: FieldDate mülk. Hicri Ay takviminin mi yoksa İbranice Ay takviminin mi kullanılacağını alır veya ayarlar.
+description: FieldDate mülk. Hicri Ay takviminin mi yoksa İbrani Ay takviminin mi kullanılacağını alır veya ayarlar.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.fields/fielddate/uselunarcalendar/
 ---
 ## FieldDate.UseLunarCalendar property
 
-Hicri Ay takviminin mi yoksa İbranice Ay takviminin mi kullanılacağını alır veya ayarlar.
+Hicri Ay takviminin mi yoksa İbrani Ay takviminin mi kullanılacağını alır veya ayarlar.
 
 ```csharp
 public bool UseLunarCalendar { get; set; }
@@ -22,8 +22,8 @@ Farklı takvim türlerine göre tarihleri görüntülemek için TARİH alanları
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Belgedeki metnin her zaman doğru tarihi göstermesini istiyorsak TARİH alanını kullanabiliriz.
-// Aşağıda, bir DATE alanının bir tarihi görüntülemek için kullanabileceği üç tür kültürel takvim bulunmaktadır.
+// Belgedeki metnin her zaman doğru tarihi göstermesini istiyorsak DATE alanını kullanabiliriz.
+// Aşağıda DATE alanının tarihi görüntülemek için kullanabileceği üç tür kültürel takvim bulunmaktadır.
 // 1 - İslami Ay Takvimi:
 FieldDate field = (FieldDate)builder.InsertField(FieldType.FieldDate, true);
 field.UseLunarCalendar = true;
@@ -42,8 +42,8 @@ field.UseSakaEraCalendar = true;
 Assert.AreEqual(" DATE  \\s", field.GetFieldCode());
 builder.Writeln();
 
-// Bir TARİH alanı ekleyin ve takvim türünü ana bilgisayar uygulaması tarafından en son kullanılana ayarlayın.
-// Microsoft Word'de, tür Ekle -> Metin -> Tarih ve Saat iletişim kutusu.
+// Bir DATE alanı ekleyin ve takvim türünü, ana bilgisayar uygulamasının en son kullandığına ayarlayın.
+// Microsoft Word'de, tür Ekle'de en son kullanılan tür olacaktır -> Metin -> Tarih ve Saat iletişim kutusu.
 field = (FieldDate)builder.InsertField(FieldType.FieldDate, true);
 field.UseLastFormat = true;
 Assert.AreEqual(" DATE  \\l", field.GetFieldCode());

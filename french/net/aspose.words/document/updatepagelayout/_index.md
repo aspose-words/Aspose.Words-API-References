@@ -3,7 +3,7 @@ title: Document.UpdatePageLayout
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Document méthode. Reconstruit la mise en page du document.
 type: docs
-weight: 750
+weight: 790
 url: /fr/net/aspose.words/document/updatepagelayout/
 ---
 ## Document.UpdatePageLayout method
@@ -16,9 +16,9 @@ public void UpdatePageLayout()
 
 ### Remarques
 
-Cette méthode formate un document en pages et met à jour les champs liés au numéro de page dans le document tels que PAGE, PAGES, PAGEREF et REF. Les informations de mise en page à jour sont nécessaires pour un rendu correct du document aux formats de page fixe.
+Cette méthode formate un document en pages et met à jour les champs liés au numéro de page dans le document tels que comme PAGE, PAGES, PAGEREF et REF. Les informations de mise en page à jour sont requises pour un rendu correct du document aux formats de page fixes.
 
-Cette méthode est automatiquement appelée lorsque vous convertissez un document au format PDF, XPS, image ou l'imprimez pour la première fois. Cependant, si vous modifiez le document après le rendu, puis essayez de le restituer à nouveau, Aspose.Words ne mettra pas à jour la mise en page automatiquement. Dans ce cas, vous devez appeler`UpdatePageLayout` avant rendu à nouveau.
+Cette méthode est automatiquement invoquée lorsque vous convertissez pour la première fois un document en PDF, XPS, image ou que vous l'imprimez. Cependant, si vous modifiez le document après le rendu, puis tentez de le restituer à nouveau, Aspose.Words ne mettra pas automatiquement à jour la mise en page . Dans ce cas, vous devriez appeler`UpdatePageLayout` before rendu à nouveau.
 
 ### Exemples
 
@@ -28,12 +28,13 @@ Indique quand recalculer la mise en page du document.
 Document doc = new Document(MyDir + "Rendering.docx");
 
 // L'enregistrement d'un document au format PDF, dans une image ou l'impression pour la première fois sera automatiquement
-// met en cache la mise en page du document dans ses pages.
+// cache la mise en page du document dans ses pages.
 doc.Save(ArtifactsDir + "Document.UpdatePageLayout.1.pdf");
 
-// Modifie le document d'une manière ou d'une autre.
+// Modifier le document d'une manière ou d'une autre.
 doc.Styles["Normal"].Font.Size = 6;
 doc.Sections[0].PageSetup.Orientation = Aspose.Words.Orientation.Landscape;
+doc.Sections[0].PageSetup.Margins = Margins.Mirrored;
 
  // Dans la version actuelle d'Aspose.Words, la modification du document ne reconstruit pas automatiquement
 // la mise en page mise en cache. Si nous souhaitons la mise en cache

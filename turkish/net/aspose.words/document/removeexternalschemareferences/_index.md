@@ -3,7 +3,7 @@ title: Document.RemoveExternalSchemaReferences
 second_title: Aspose.Words for .NET API Referansı
 description: Document yöntem. Bu belgeden harici XML şeması referanslarını kaldırır.
 type: docs
-weight: 640
+weight: 680
 url: /tr/net/aspose.words/document/removeexternalschemareferences/
 ---
 ## Document.RemoveExternalSchemaReferences method

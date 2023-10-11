@@ -1,14 +1,14 @@
 ---
 title: FieldChar.IsLocked
 second_title: Aspose.Words for .NET API Referansı
-description: FieldChar mülk. Üst alanın kilitli olup olmadığını alır veya ayarlar sonucunu yeniden hesaplamamalıdır.
+description: FieldChar mülk. Ana alanın kilitli olup olmadığını alır veya ayarlar sonucu yeniden hesaplanmamalıdır.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.fields/fieldchar/islocked/
 ---
 ## FieldChar.IsLocked property
 
-Üst alanın kilitli olup olmadığını alır veya ayarlar (sonucunu yeniden hesaplamamalıdır).
+Ana alanın kilitli olup olmadığını alır veya ayarlar (sonucu yeniden hesaplanmamalıdır).
 
 ```csharp
 public bool IsLocked { get; set; }
@@ -38,7 +38,7 @@ field = (FieldDate)fieldStart.GetField();
 Assert.AreEqual(false, field.IsLocked);
 Assert.AreEqual(" DATE  \\@ \"dddd, MMMM dd, yyyy\"", field.GetFieldCode());
 
-// Geçerli tarihi göstermek için alanı güncelleyin.
+// Geçerli tarihi gösterecek şekilde alanı güncelleyin.
 field.Update();
 ```
 

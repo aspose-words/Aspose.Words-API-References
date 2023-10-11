@@ -3,7 +3,7 @@ title: Range.Replace
 second_title: Referencia de API de Aspose.Words para .NET
 description: Range método. Reemplaza todas las apariciones de un patrón de cadena de caracteres especificado con una cadena de reemplazo.
 type: docs
-weight: 80
+weight: 90
 url: /es/net/aspose.words/range/replace/
 ---
 ## Replace(string, string) {#replace}
@@ -16,8 +16,8 @@ public int Replace(string pattern, string replacement)
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| pattern | String | Una cadena para ser reemplazada. |
-| replacement | String | Una cadena para reemplazar todas las apariciones de patrón. |
+| pattern | String | Una cuerda para ser reemplazada. |
+| replacement | String | Una cadena para reemplazar todas las apariciones del patrón. |
 
 ### Valor_devuelto
 
@@ -25,20 +25,20 @@ El número de reemplazos realizados.
 
 ### Observaciones
 
-El patrón no se utilizará como expresión regular. Utilice`Replace` si necesita expresiones regulares.
+El patrón no se utilizará como expresión regular. Utilice`Replace`si necesitas expresiones regulares.
 
-Comparación que no distingue entre mayúsculas y minúsculas.
+Se utilizó una comparación que no distingue entre mayúsculas y minúsculas.
 
-El método puede procesar rupturas tanto en el patrón como en las cadenas de reemplazo.
+El método es capaz de procesar roturas tanto en patrones como en cadenas de reemplazo.
 
-Debe usar metacaracteres especiales si necesita trabajar con pausas:
+Debes utilizar metacaracteres especiales si necesitas trabajar con pausas:
 
-* **&amp;pags** - salto de párrafo
+* **&amp;pag** - salto de párrafo
 * **&amp;b** - salto de sección
 * **&amp;metro** - salto de página
 * **&amp;l** - salto de línea manual
 
-Usar método`Replace` para tener una personalización más flexible.
+Método de uso`Replace` para tener una personalización más flexible.
 
 ### Ejemplos
 
@@ -47,7 +47,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Numbers 1, 2, 3");
 
-// Inserta un salto de párrafo después de Números.
+// Inserta salto de párrafo después de Números.
 doc.Range.Replace("Numbers", "Numbers&p", new FindReplaceOptions());
 ```
 
@@ -59,14 +59,14 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln("Greetings, _FullName_!");
 
-// Realizar una operación de búsqueda y reemplazo en el contenido de nuestro documento y verificar la cantidad de reemplazos que se realizaron.
+// Realizar una operación de buscar y reemplazar el contenido de nuestro documento y verificar la cantidad de reemplazos que tuvieron lugar.
 int replacementCount = doc.Range.Replace("_FullName_", "John Doe");
 
 Assert.AreEqual(1, replacementCount);
 Assert.AreEqual("Greetings, John Doe!", doc.GetText().Trim());
 ```
 
-Muestra cómo agregar formato a los párrafos en los que una operación de buscar y reemplazar ha encontrado coincidencias.
+Muestra cómo agregar formato a párrafos en los que una operación de buscar y reemplazar encontró coincidencias.
 
 ```csharp
 Document doc = new Document();
@@ -82,14 +82,14 @@ Assert.AreEqual(ParagraphAlignment.Left, paragraphs[0].ParagraphFormat.Alignment
 Assert.AreEqual(ParagraphAlignment.Left, paragraphs[1].ParagraphFormat.Alignment);
 Assert.AreEqual(ParagraphAlignment.Left, paragraphs[2].ParagraphFormat.Alignment);
 
-// Podemos usar un objeto "FindReplaceOptions" para modificar el proceso de buscar y reemplazar.
+// Podemos utilizar un objeto "FindReplaceOptions" para modificar el proceso de buscar y reemplazar.
 FindReplaceOptions options = new FindReplaceOptions();
 
-// Establecer la propiedad "Alineación" en "ParagraphAlignment.Right" para alinear a la derecha cada párrafo
+// Establece la propiedad "Alineación" en "ParagraphAlignment.Right" para alinear a la derecha cada párrafo
 // que contiene una coincidencia que encuentra la operación de buscar y reemplazar.
 options.ApplyParagraphFormat.Alignment = ParagraphAlignment.Right;
 
-// Reemplace cada punto que está justo antes de un salto de párrafo con un signo de exclamación.
+// Reemplaza cada punto que está justo antes de un salto de párrafo con un signo de exclamación.
 int count = doc.Range.Replace(".&p", "!&p", options);
 
 Assert.AreEqual(2, count);
@@ -120,7 +120,7 @@ public int Replace(Regex pattern, string replacement)
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
 | pattern | Regex | Un patrón de expresión regular utilizado para encontrar coincidencias. |
-| replacement | String | Una cadena para reemplazar todas las apariciones de patrón. |
+| replacement | String | Una cadena para reemplazar todas las apariciones del patrón. |
 
 ### Valor_devuelto
 
@@ -130,16 +130,16 @@ El número de reemplazos realizados.
 
 Reemplaza toda la coincidencia capturada por la expresión regular.
 
-El método puede procesar rupturas tanto en el patrón como en las cadenas de reemplazo.
+El método es capaz de procesar roturas tanto en patrones como en cadenas de reemplazo.
 
-Debe usar metacaracteres especiales si necesita trabajar con pausas:
+Debes utilizar metacaracteres especiales si necesitas trabajar con pausas:
 
-* **&amp;pags** - salto de párrafo
+* **&amp;pag** - salto de párrafo
 * **&amp;b** - salto de sección
 * **&amp;metro** - salto de página
 * **&amp;l** - salto de línea manual
 
-Usar método`Replace` para tener una personalización más flexible.
+Método de uso`Replace` para tener una personalización más flexible.
 
 ### Ejemplos
 
@@ -183,8 +183,8 @@ public int Replace(string pattern, string replacement, FindReplaceOptions option
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| pattern | String | Una cadena para ser reemplazada. |
-| replacement | String | Una cadena para reemplazar todas las apariciones de patrón. |
+| pattern | String | Una cuerda para ser reemplazada. |
+| replacement | String | Una cadena para reemplazar todas las apariciones del patrón. |
 | options | FindReplaceOptions | [`FindReplaceOptions`](../../../aspose.words.replacing/findreplaceoptions/) objeto para especificar opciones adicionales. |
 
 ### Valor_devuelto
@@ -193,13 +193,13 @@ El número de reemplazos realizados.
 
 ### Observaciones
 
-El patrón no se utilizará como expresión regular. Utilice`Replace` si necesita expresiones regulares.
+El patrón no se utilizará como expresión regular. Utilice`Replace`si necesitas expresiones regulares.
 
-El método puede procesar rupturas tanto en el patrón como en las cadenas de reemplazo.
+El método es capaz de procesar roturas tanto en patrones como en cadenas de reemplazo.
 
-Debe usar metacaracteres especiales si necesita trabajar con pausas:
+Debes utilizar metacaracteres especiales si necesitas trabajar con pausas:
 
-* **&amp;pags** - salto de párrafo
+* **&amp;pag** - salto de párrafo
 * **&amp;b** - salto de sección
 * **&amp;metro** - salto de página
 * **&amp;l** - salto de línea manual
@@ -212,7 +212,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Numbers 1, 2, 3");
 
-// Inserta un salto de párrafo después de Números.
+// Inserta salto de párrafo después de Números.
 doc.Range.Replace("Numbers", "Numbers&p", new FindReplaceOptions());
 ```
 
@@ -236,7 +236,7 @@ footer.Range.Replace("(C) 2006 Aspose Pty Ltd.", $"Copyright (C) {currentYear} b
 doc.Save(ArtifactsDir + "HeaderFooter.ReplaceText.docx");
 ```
 
-Muestra cómo alternar entre mayúsculas y minúsculas al realizar una operación de buscar y reemplazar.
+Muestra cómo alternar la distinción entre mayúsculas y minúsculas al realizar una operación de buscar y reemplazar.
 
 ```csharp
 Document doc = new Document();
@@ -244,11 +244,11 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln("Ruby bought a ruby necklace.");
 
-// Podemos usar un objeto "FindReplaceOptions" para modificar el proceso de buscar y reemplazar.
+// Podemos utilizar un objeto "FindReplaceOptions" para modificar el proceso de buscar y reemplazar.
 FindReplaceOptions options = new FindReplaceOptions();
 
-// Establezca el indicador "MatchCase" en "verdadero" para aplicar la distinción entre mayúsculas y minúsculas mientras busca cadenas para reemplazar.
-// Establezca el indicador "MatchCase" en "falso" para ignorar las mayúsculas y minúsculas mientras busca texto para reemplazar.
+// Establece el indicador "MatchCase" en "true" para aplicar distinción entre mayúsculas y minúsculas mientras buscas cadenas para reemplazar.
+// Establece el indicador "MatchCase" en "false" para ignorar las mayúsculas y minúsculas mientras buscas texto para reemplazar.
 options.MatchCase = matchCase;
 
 doc.Range.Replace("Ruby", "Jade", options);
@@ -265,11 +265,11 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln("Jackson will meet you in Jacksonville.");
 
-// Podemos usar un objeto "FindReplaceOptions" para modificar el proceso de buscar y reemplazar.
+// Podemos utilizar un objeto "FindReplaceOptions" para modificar el proceso de buscar y reemplazar.
 FindReplaceOptions options = new FindReplaceOptions();
 
-// Establezca el indicador "FindWholeWordsOnly" en "true" para reemplazar el texto encontrado si no forma parte de otra palabra.
-// Establezca el indicador "FindWholeWordsOnly" en "falso" para reemplazar todo el texto independientemente de su entorno.
+// Establece el indicador "FindWholeWordsOnly" en "true" para reemplazar el texto encontrado si no forma parte de otra palabra.
+// Establece el indicador "FindWholeWordsOnly" en "false" para reemplazar todo el texto independientemente de su entorno.
 options.FindWholeWordsOnly = findWholeWordsOnly;
 
 doc.Range.Replace("Jackson", "Louis", options);
@@ -331,7 +331,7 @@ public int Replace(Regex pattern, string replacement, FindReplaceOptions options
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
 | pattern | Regex | Un patrón de expresión regular utilizado para encontrar coincidencias. |
-| replacement | String | Una cadena para reemplazar todas las apariciones de patrón. |
+| replacement | String | Una cadena para reemplazar todas las apariciones del patrón. |
 | options | FindReplaceOptions | [`FindReplaceOptions`](../../../aspose.words.replacing/findreplaceoptions/) objeto para especificar opciones adicionales. |
 
 ### Valor_devuelto
@@ -342,11 +342,11 @@ El número de reemplazos realizados.
 
 Reemplaza toda la coincidencia capturada por la expresión regular.
 
-El método puede procesar rupturas tanto en el patrón como en las cadenas de reemplazo.
+El método es capaz de procesar roturas tanto en patrones como en cadenas de reemplazo.
 
-Debe usar metacaracteres especiales si necesita trabajar con pausas:
+Debes utilizar metacaracteres especiales si necesitas trabajar con pausas:
 
-* **&amp;pags** - salto de párrafo
+* **&amp;pag** - salto de párrafo
 * **&amp;b** - salto de sección
 * **&amp;metro** - salto de página
 * **&amp;l** - salto de línea manual
@@ -366,6 +366,7 @@ doc.Range.Replace(new Regex(@"\d+"), "&p", new FindReplaceOptions());
 Muestra cómo reemplazar todas las apariciones de un patrón de expresión regular con otra cadena, mientras realiza un seguimiento de todos esos reemplazos.
 
 ```csharp
+public void ReplaceWithCallback()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -373,10 +374,10 @@ Muestra cómo reemplazar todas las apariciones de un patrón de expresión regul
     builder.Writeln("Our new location in New York City is opening tomorrow. " +
                     "Hope to see all our NYC-based customers at the opening!");
 
-    // Podemos usar un objeto "FindReplaceOptions" para modificar el proceso de buscar y reemplazar.
+    // Podemos utilizar un objeto "FindReplaceOptions" para modificar el proceso de buscar y reemplazar.
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // Establezca una devolución de llamada que realice un seguimiento de los reemplazos que realizará el método "Reemplazar".
+    // Establece una devolución de llamada que rastrea cualquier reemplazo que realizará el método "Replace".
     TextFindAndReplacementLogger logger = new TextFindAndReplacementLogger();
     options.ReplacingCallback = logger;
 
@@ -390,7 +391,7 @@ Muestra cómo reemplazar todas las apariciones de un patrón de expresión regul
 }
 
 /// <summary>
-/// Mantiene un registro de cada reemplazo de texto realizado por una operación de buscar y reemplazar
+/// Mantiene un registro de cada reemplazo de texto realizado mediante una operación de buscar y reemplazar
 /// y anota el valor del texto coincidente original.
 /// </summary>
 private class TextFindAndReplacementLogger : IReplacingCallback
@@ -413,18 +414,21 @@ private class TextFindAndReplacementLogger : IReplacingCallback
 }
 ```
 
-Muestra cómo insertar el contenido de un documento completo como reemplazo de una coincidencia en una operación de buscar y reemplazar.
+Muestra cómo insertar el contenido completo de un documento como reemplazo de una coincidencia en una operación de buscar y reemplazar.
 
 ```csharp
+public void InsertDocumentAtReplace()
 {
     Document mainDoc = new Document(MyDir + "Document insertion destination.docx");
 
-    // Podemos usar un objeto "FindReplaceOptions" para modificar el proceso de buscar y reemplazar.
+    // Podemos utilizar un objeto "FindReplaceOptions" para modificar el proceso de buscar y reemplazar.
     FindReplaceOptions options = new FindReplaceOptions();
     options.ReplacingCallback = new InsertDocumentAtReplaceHandler();
 
     mainDoc.Range.Replace(new Regex("\\[MY_DOCUMENT\\]"), "", options);
     mainDoc.Save(ArtifactsDir + "InsertDocument.InsertDocumentAtReplace.docx");
+
+}
 
 private class InsertDocumentAtReplaceHandler : IReplacingCallback
 {
@@ -436,7 +440,7 @@ private class InsertDocumentAtReplaceHandler : IReplacingCallback
         Paragraph para = (Paragraph)args.MatchNode.ParentNode;
         InsertDocument(para, subDoc);
 
-        // Eliminar el párrafo con el texto coincidente.
+        // Elimina el párrafo con el texto coincidente.
         para.Remove();
 
         return ReplaceAction.Skip;
@@ -458,7 +462,7 @@ private static void InsertDocument(Node insertionDestination, Document docToInse
         foreach (Section srcSection in docToInsert.Sections.OfType<Section>())
             foreach (Node srcNode in srcSection.Body)
             {
-                // Omite el nodo si es el último párrafo vacío en una sección.
+                // Omite el nodo si es el último párrafo vacío de una sección.
                 if (srcNode.NodeType == NodeType.Paragraph)
                 {
                     Paragraph para = (Paragraph)srcNode;

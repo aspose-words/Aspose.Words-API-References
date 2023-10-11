@@ -16,11 +16,11 @@ public bool ContainsValue(string dataSourceFieldName)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| dataSourceFieldName | String | Groß-/Kleinschreibung beachtender Name des Felds in der Datenquelle. |
+| dataSourceFieldName | String | Groß- und Kleinschreibung beachtender Name des Feldes in der Datenquelle. |
 
 ### Rückgabewert
 
-True, wenn das Element in der Sammlung gefunden wird; andernfalls falsch.
+`WAHR` wenn Artikel in der Sammlung gefunden wird; ansonsten,`FALSCH`.
 
 ### Beispiele
 
@@ -32,24 +32,24 @@ public void MappedDataFieldCollection()
     Document doc = CreateSourceDocMappedDataFields();
     DataTable dataTable = CreateSourceTableMappedDataFields();
 
-    // Die Tabelle hat eine Spalte namens "Column2", aber es gibt keine MERGEFIELDs mit diesem Namen.
-    // Außerdem haben wir ein MERGEFIELD namens "Column3", aber die Datenquelle hat keine Spalte mit diesem Namen.
-    // Wenn Daten aus "Spalte2" für das MERGEFIELD "Spalte3" geeignet sind,
-    // Wir können diesen Spaltennamen dem MERGEFIELD im Schlüssel/Wert-Paar "MappedDataFields" zuordnen.
+    // Die Tabelle hat eine Spalte mit dem Namen „Column2“, aber es gibt keine MERGEFIELDs mit diesem Namen.
+    // Außerdem haben wir ein MERGEFIELD namens „Column3“, aber die Datenquelle hat keine Spalte mit diesem Namen.
+    // Wenn Daten aus „Spalte2“ für das MERGEFIELD „Spalte3“ geeignet sind,
+    // Wir können diesen Spaltennamen dem MERGEFIELD im Schlüssel/Wert-Paar „MappedDataFields“ zuordnen.
     MappedDataFieldCollection mappedDataFields = doc.MailMerge.MappedDataFields;
 
-    // Wir können einen Datenquellen-Spaltennamen wie folgt mit einem MERGEFIELD-Namen verknüpfen.
+    // Wir können den Namen einer Datenquellenspalte wie folgt mit einem MERGEFIELD-Namen verknüpfen.
     mappedDataFields.Add("MergeFieldName", "DataSourceColumnName");
 
-    // Verknüpfen Sie die Datenquellenspalte mit dem Namen "Column2" mit MERGEFIELDs mit dem Namen "Column3".
+    // Verknüpfen Sie die Datenquellenspalte mit dem Namen „Column2“ mit MERGEFIELDs mit dem Namen „Column3“.
     mappedDataFields.Add("Column3", "Column2");
 
-    // Der MERGEFIELD-Name ist der "Schlüssel" zum jeweiligen Datenquellen-Spaltennamen "Wert".
+    // Der MERGEFIELD-Name ist der „Schlüssel“ zum jeweiligen Datenquellenspaltennamen „Wert“.
     Assert.AreEqual("DataSourceColumnName", mappedDataFields["MergeFieldName"]);
     Assert.True(mappedDataFields.ContainsKey("MergeFieldName"));
     Assert.True(mappedDataFields.ContainsValue("DataSourceColumnName"));
 
-    // Wenn wir nun diesen Seriendruck ausführen, nehmen die "Column3" MERGEFIELDs Daten aus "Column2" der Tabelle.
+    // Wenn wir nun diesen Serienbrief ausführen, übernehmen die MERGEFIELDs „Spalte3“ Daten aus „Spalte2“ der Tabelle.
     doc.MailMerge.Execute(dataTable);
 
     doc.Save(ArtifactsDir + "MailMerge.MappedDataFieldCollection.docx");
@@ -75,7 +75,7 @@ public void MappedDataFieldCollection()
 
 /// <summary>
 /// Erstellen Sie ein Dokument mit 2 MERGEFIELDs, von denen eines kein hat
-/// entsprechende Spalte in der Datentabelle aus der Methode unten.
+/// entsprechende Spalte in der Datentabelle aus der folgenden Methode.
 /// </summary>
 private static Document CreateSourceDocMappedDataFields()
 {

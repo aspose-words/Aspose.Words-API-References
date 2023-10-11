@@ -16,7 +16,7 @@ public Node PreviousSibling { get; }
 
 ### Примечания
 
-Если предыдущего узла нет, возвращается null.
+Если предыдущего узла нет,`нулевой` возвращается.
 
 ### Примеры
 
@@ -30,11 +30,11 @@ builder.Writeln("Section 1 text.");
 builder.InsertBreak(BreakType.SectionBreakContinuous);
 builder.Writeln("Section 2 text.");
 
-// Оба раздела являются родственными друг другу.
+// Обе секции являются родственными друг другу.
 Section lastSection = (Section)doc.LastChild;
 Section firstSection = (Section)lastSection.PreviousSibling;
 
-// Удаляем раздел на основе родственного отношения с другим разделом.
+// Удаление раздела на основе его родственных отношений с другим разделом.
 if (lastSection.PreviousSibling != null)
     doc.RemoveChild(firstSection);
 

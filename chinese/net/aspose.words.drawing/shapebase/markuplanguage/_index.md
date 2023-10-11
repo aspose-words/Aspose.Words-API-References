@@ -3,7 +3,7 @@ title: ShapeBase.MarkupLanguage
 second_title: Aspose.Words for .NET API 参考
 description: ShapeBase 财产. 获取用于此图形对象的 MarkupLanguage
 type: docs
-weight: 370
+weight: 390
 url: /zh/net/aspose.words.drawing/shapebase/markuplanguage/
 ---
 ## ShapeBase.MarkupLanguage property
@@ -16,7 +16,7 @@ public ShapeMarkupLanguage MarkupLanguage { get; }
 
 ### 例子
 
-显示如何验证形状的大小和标记语言。
+演示如何验证形状的大小和标记语言。
 
 ```csharp
 Document doc = new Document();

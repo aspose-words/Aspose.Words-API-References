@@ -16,11 +16,11 @@ public PaperSource DefaultPageSettingsPaperSource { get; }
 
 ### Beispiele
 
-Zeigt, wie Sie auf die Papierquellen und -formate Ihres Druckers zugreifen und diese auflisten.
+Zeigt, wie Sie auf die Papierquellen und -formate Ihres Druckers zugreifen und diese auflisten können.
 
 ```csharp
-// Der "PrinterSettingsContainer" enthält ein "PrinterSettings"-Objekt,
-// die eindeutige Daten für verschiedene Druckertreiber enthält.
+// Der „PrinterSettingsContainer“ enthält ein „PrinterSettings“-Objekt,
+//, das eindeutige Daten für verschiedene Druckertreiber enthält.
 PrinterSettingsContainer container = new PrinterSettingsContainer(new PrinterSettings());
 
 Console.WriteLine($"This printer contains {container.PaperSources.Count} printer paper sources:");
@@ -31,12 +31,12 @@ foreach (PaperSource paperSource in container.PaperSources)
                       $"RawKind: {paperSource.RawKind} {(isDefault ? "(Default)" : "")}");
 }
 
-// Die Eigenschaft "PaperSizes" enthält die Liste der Papiergrößen, die der Drucker anweisen soll, zu verwenden.
-// Sowohl PrinterSource als auch PrinterSize enthalten eine "RawKind"-Eigenschaft,
-// was einem Papiertyp entspricht, der in der Aufzählung PaperSourceKind aufgeführt ist.
-// Wenn es eine Papierquelle mit demselben "RawKind"-Wert wie der der Druckseite gibt,
-// Der Drucker druckt die Seite mit der angegebenen Papierquelle und Größe.
-// Andernfalls verwendet der Drucker standardmäßig die Quelle, die von der Eigenschaft "DefaultPageSettingsPaperSource" angegeben wird.
+// Die Eigenschaft „PaperSizes“ enthält die Liste der Papierformate, die der Drucker verwenden soll.
+// Sowohl PrinterSource als auch PrinterSize enthalten eine „RawKind“-Eigenschaft,
+// was einem Papiertyp entspricht, der in der PaperSourceKind-Enumeration aufgeführt ist.
+// Wenn es eine Papierquelle mit demselben „RawKind“-Wert wie dem der Druckseite gibt,
+// Der Drucker druckt die Seite mit der angegebenen Papierquelle und dem angegebenen Format.
+// Andernfalls verwendet der Drucker standardmäßig die durch die Eigenschaft „DefaultPageSettingsPaperSource“ angegebene Quelle.
 Console.WriteLine($"{container.PaperSizes.Count} paper sizes:");
 foreach (System.Drawing.Printing.PaperSize paperSize in container.PaperSizes)
 {

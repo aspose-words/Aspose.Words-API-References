@@ -1,14 +1,14 @@
 ---
 title: PdfEncryptionDetails.Permissions
 second_title: Aspose.Words لمراجع .NET API
-description: PdfEncryptionDetails ملكية. يحدد العمليات المسموح بها للمستخدم في مستند PDF مشفر. القيمة الافتراضية هيDisallowAll .
+description: PdfEncryptionDetails ملكية. يحدد العمليات المسموح بها للمستخدم على مستند PDF مشفر. القيمة الافتراضية هيDisallowAll .
 type: docs
 weight: 30
 url: /ar/net/aspose.words.saving/pdfencryptiondetails/permissions/
 ---
 ## PdfEncryptionDetails.Permissions property
 
-يحدد العمليات المسموح بها للمستخدم في مستند PDF مشفر. القيمة الافتراضية هيDisallowAll .
+يحدد العمليات المسموح بها للمستخدم على مستند PDF مشفر. القيمة الافتراضية هيDisallowAll .
 
 ```csharp
 public PdfPermissions Permissions { get; set; }
@@ -24,23 +24,17 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln("Hello world!");
 
+// توسيع الأذونات للسماح بتحرير التعليقات التوضيحية.
 PdfEncryptionDetails encryptionDetails =
-    new PdfEncryptionDetails("password", string.Empty);
+    new PdfEncryptionDetails("password", string.Empty, PdfPermissions.ModifyAnnotations | PdfPermissions.DocumentAssembly);
 
-// ابدأ برفض جميع الأذونات.
-encryptionDetails.Permissions = PdfPermissions.DisallowAll;
-
-// تمديد الأذونات للسماح بتحرير التعليقات التوضيحية.
-encryptionDetails.Permissions = PdfPermissions.ModifyAnnotations | PdfPermissions.DocumentAssembly;
-
-// قم بإنشاء كائن "PdfSaveOptions" يمكننا تمريره إلى طريقة "Save" الخاصة بالمستند
-// لتعديل كيفية تحويل هذه الطريقة المستند إلى PDF.
+// قم بإنشاء كائن "PdfSaveOptions" الذي يمكننا تمريره إلى طريقة "حفظ" المستند
+// لتعديل كيفية تحويل هذه الطريقة للمستند إلى .PDF.
 PdfSaveOptions saveOptions = new PdfSaveOptions();
-
 // تمكين التشفير عبر خاصية "EncryptionDetails".
 saveOptions.EncryptionDetails = encryptionDetails;
 
-// عندما نفتح هذا المستند ، سنحتاج إلى توفير كلمة المرور قبل الوصول إلى محتوياته.
+// عندما نفتح هذا المستند، سنحتاج إلى توفير كلمة المرور قبل الوصول إلى محتوياته.
 doc.Save(ArtifactsDir + "PdfSaveOptions.EncryptionPermissions.pdf", saveOptions);
 ```
 

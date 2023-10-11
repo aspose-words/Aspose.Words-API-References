@@ -1,14 +1,14 @@
 ---
 title: DocumentBuilder.InsertCheckBox
 second_title: Aspose.Words für .NET-API-Referenz
-description: DocumentBuilder methode. Fügt ein CheckboxFormularfeld an der aktuellen Position ein.
+description: DocumentBuilder methode. Fügt ein KontrollkästchenFormularfeld an der aktuellen Position ein.
 type: docs
-weight: 270
+weight: 290
 url: /de/net/aspose.words/documentbuilder/insertcheckbox/
 ---
 ## InsertCheckBox(string, bool, int) {#insertcheckbox_1}
 
-Fügt ein Checkbox-Formularfeld an der aktuellen Position ein.
+Fügt ein Kontrollkästchen-Formularfeld an der aktuellen Position ein.
 
 ```csharp
 public FormField InsertCheckBox(string name, bool checkedValue, int size)
@@ -17,8 +17,8 @@ public FormField InsertCheckBox(string name, bool checkedValue, int size)
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | name | String | Der Name des Formularfelds. Kann eine leere Zeichenfolge sein. Der Wert, der länger als 20 Zeichen ist, wird abgeschnitten. |
-| checkedValue | Boolean | Geprüfter Status des Kontrollkästchen-Formularfelds. |
-| size | Int32 | Gibt die Größe des Kontrollkästchens in Punkt an. Geben Sie 0 für MS Word an, um die Größe des Kontrollkästchens automatisch zu berechnen. |
+| checkedValue | Boolean | Überprüfter Status des Kontrollkästchen-Formularfelds. |
+| size | Int32 | Gibt die Größe des Kontrollkästchens in Punkten an. Geben Sie 0 für MS Word an, um die Größe des Kontrollkästchens automatisch zu berechnen. |
 
 ### Rückgabewert
 
@@ -30,13 +30,13 @@ Wenn Sie einen Namen für das Formularfeld angeben, wird automatisch ein Lesezei
 
 ### Beispiele
 
-Zeigt, wie Sie Kontrollkästchen in das Dokument einfügen.
+Zeigt, wie Kontrollkästchen in das Dokument eingefügt werden.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Checkboxen unterschiedlicher Größe und standardmäßig aktivierter Status einfügen.
+// Kontrollkästchen unterschiedlicher Größe und standardmäßig aktiviertem Status einfügen.
 builder.Write("Unchecked check box of a default size: ");
 builder.InsertCheckBox(string.Empty, false, false, 0);
 builder.InsertParagraph();
@@ -45,7 +45,7 @@ builder.Write("Large checked check box: ");
 builder.InsertCheckBox("CheckBox_Default", true, true, 50);
 builder.InsertParagraph();
 
-// Formularfelder haben eine Namenslängenbegrenzung von 20 Zeichen.
+// Formularfelder haben eine Namenslängenbeschränkung von 20 Zeichen.
 builder.Write("Very large checked check box: ");
 builder.InsertCheckBox("CheckBox_OnlyCheckedValue", true, 100);
 
@@ -66,7 +66,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertCheckBox.docx");
 
 ## InsertCheckBox(string, bool, bool, int) {#insertcheckbox}
 
-Fügt ein Checkbox-Formularfeld an der aktuellen Position ein.
+Fügt ein Kontrollkästchen-Formularfeld an der aktuellen Position ein.
 
 ```csharp
 public FormField InsertCheckBox(string name, bool defaultValue, bool checkedValue, int size)
@@ -76,8 +76,8 @@ public FormField InsertCheckBox(string name, bool defaultValue, bool checkedValu
 | --- | --- | --- |
 | name | String | Der Name des Formularfelds. Kann eine leere Zeichenfolge sein. Der Wert, der länger als 20 Zeichen ist, wird abgeschnitten. |
 | defaultValue | Boolean | Standardwert des Kontrollkästchen-Formularfelds. |
-| checkedValue | Boolean | Aktueller aktivierter Status des Kontrollkästchen-Formularfelds. |
-| size | Int32 | Gibt die Größe des Kontrollkästchens in Punkt an. Geben Sie 0 für MS Word an, um die Größe des Kontrollkästchens automatisch zu berechnen. |
+| checkedValue | Boolean | Aktueller Prüfstatus des Kontrollkästchen-Formularfelds. |
+| size | Int32 | Gibt die Größe des Kontrollkästchens in Punkten an. Geben Sie 0 für MS Word an, um die Größe des Kontrollkästchens automatisch zu berechnen. |
 
 ### Rückgabewert
 
@@ -89,13 +89,13 @@ Wenn Sie einen Namen für das Formularfeld angeben, wird automatisch ein Lesezei
 
 ### Beispiele
 
-Zeigt, wie Sie Kontrollkästchen in das Dokument einfügen.
+Zeigt, wie Kontrollkästchen in das Dokument eingefügt werden.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Checkboxen unterschiedlicher Größe und standardmäßig aktivierter Status einfügen.
+// Kontrollkästchen unterschiedlicher Größe und standardmäßig aktiviertem Status einfügen.
 builder.Write("Unchecked check box of a default size: ");
 builder.InsertCheckBox(string.Empty, false, false, 0);
 builder.InsertParagraph();
@@ -104,7 +104,7 @@ builder.Write("Large checked check box: ");
 builder.InsertCheckBox("CheckBox_Default", true, true, 50);
 builder.InsertParagraph();
 
-// Formularfelder haben eine Namenslängenbegrenzung von 20 Zeichen.
+// Formularfelder haben eine Namenslängenbeschränkung von 20 Zeichen.
 builder.Write("Very large checked check box: ");
 builder.InsertCheckBox("CheckBox_OnlyCheckedValue", true, 100);
 

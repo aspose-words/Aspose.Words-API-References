@@ -3,7 +3,7 @@ title: Enum HtmlMetafileFormat
 second_title: Aspose.Words for .NET API Referansı
 description: Aspose.Words.Saving.HtmlMetafileFormat Sıralama. Meta dosyalarının HTML belgelerine kaydedildiği biçimi belirtir.
 type: docs
-weight: 4830
+weight: 5090
 url: /tr/net/aspose.words.saving/htmlmetafileformat/
 ---
 ## HtmlMetafileFormat enumeration
@@ -18,13 +18,13 @@ public enum HtmlMetafileFormat
 
 | İsim | Değer | Tanım |
 | --- | --- | --- |
-| Png | `0` | Meta dosyaları PNG resimlerine raster olarak işlenir. |
-| Svg | `1` | Meta dosyaları, vektör SVG görüntülerine dönüştürülür. |
-| EmfOrWmf | `2` | Meta dosyaları dönüştürülmeden olduğu gibi kaydedilir. |
+| Png | `0` | Meta dosyaları PNG görüntülerinin taranmasına dönüştürülür. |
+| Svg | `1` | Meta dosyalar vektör SVG görsellerine dönüştürülür. |
+| EmfOrWmf | `2` | Meta dosyalar, dönüştürme yapılmadan olduğu gibi kaydedilir. |
 
 ### Örnekler
 
-HTML belgelerini kaydederken SVG nesnelerinin nasıl farklı bir biçime dönüştürüleceğini gösterir.
+HTML belgelerini kaydederken SVG nesnelerinin farklı bir formata nasıl dönüştürüleceğini gösterir.
 
 ```csharp
 string html = 
@@ -34,20 +34,20 @@ string html =
         </svg>
     </html>";
 
-// Eski davranışı geri almak için 'ConvertSvgToEmf' kullanın
-// bir HTML belgesinden yüklenen tüm SVG resimlerinin EMF'ye dönüştürüldüğü yer.
-// Artık SVG görüntüleri dönüştürülmeden yükleniyor
-// yükleme seçeneklerinde belirtilen MS Word sürümü yerel olarak SVG görüntülerini destekliyorsa.
+// Eski davranışı geri döndürmek için 'ConvertSvgToEmf'i kullanın
+// burada bir HTML belgesinden yüklenen tüm SVG görüntüleri EMF'ye dönüştürüldü.
+// Artık SVG görselleri dönüştürme yapılmadan yükleniyor
+// yükleme seçeneklerinde belirtilen MS Word sürümü SVG resimlerini yerel olarak destekliyorsa.
 HtmlLoadOptions loadOptions = new HtmlLoadOptions { ConvertSvgToEmf = true };
 
 Document doc = new Document(new MemoryStream(Encoding.UTF8.GetBytes(html)), loadOptions);
 
-// Bu belge bir <svg> öğe metin şeklinde.
-// Belgeyi HTML'ye kaydettiğimizde, SaveOptions nesnesini iletebiliriz
-// kaydetme işleminin bu nesneyi nasıl işlediğini belirlemek için.
-// PNG görüntüsüne dönüştürmek için "MetafileFormat" özelliğinin "HtmlMetafileFormat.Png" olarak ayarlanması.
+// Bu belge bir <svg> metin biçiminde öğe.
+// Belgeyi HTML'ye kaydettiğimizde SaveOptions nesnesini iletebiliriz
+// kaydetme işleminin bu nesneyi nasıl işleyeceğini belirlemek için.
+// PNG görüntüsüne dönüştürmek için "MetafileFormat" özelliğini "HtmlMetafileFormat.Png" olarak ayarlıyoruz.
 // "MetafileFormat" özelliğinin "HtmlMetafileFormat.Svg" olarak ayarlanması onu bir SVG nesnesi olarak korur.
-// Bir meta dosyaya dönüştürmek için "MetafileFormat" özelliğinin "HtmlMetafileFormat.EmfOrWmf" olarak ayarlanması.
+// Bir meta dosyasına dönüştürmek için "MetafileFormat" özelliğini "HtmlMetafileFormat.EmfOrWmf" olarak ayarlıyoruz.
 HtmlSaveOptions options = new HtmlSaveOptions { MetafileFormat = htmlMetafileFormat };
 
 doc.Save(ArtifactsDir + "HtmlSaveOptions.MetafileFormat.html", options);

@@ -3,12 +3,14 @@ title: Class RevisionGroupCollection
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.RevisionGroupCollection klass. En samling avRevisionGroup objekt som representerar revisionsgrupper i dokumentet.
 type: docs
-weight: 4530
+weight: 4790
 url: /sv/net/aspose.words/revisiongroupcollection/
 ---
 ## RevisionGroupCollection class
 
 En samling av[`RevisionGroup`](../revisiongroup/) objekt som representerar revisionsgrupper i dokumentet.
+
+För att lära dig mer, besök[Spåra ändringar i ett dokument](https://docs.aspose.com/words/net/track-changes-in-a-document/) dokumentationsartikel.
 
 ```csharp
 public sealed class RevisionGroupCollection : IEnumerable<RevisionGroup>

@@ -1,14 +1,14 @@
 ---
 title: FieldIncludeText.LockFields
 second_title: Aspose.Words for .NET API 参考
-description: FieldIncludeText 财产. 获取或设置是否禁止更新包含文档中的字段
+description: FieldIncludeText 财产. 获取或设置是否阻止更新所包含文档中的字段
 type: docs
 weight: 40
 url: /zh/net/aspose.words.fields/fieldincludetext/lockfields/
 ---
 ## FieldIncludeText.LockFields property
 
-获取或设置是否禁止更新包含文档中的字段
+获取或设置是否阻止更新所包含文档中的字段。
 
 ```csharp
 public bool LockFields { get; set; }
@@ -24,7 +24,7 @@ public void FieldIncludeText()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // 下面是两种使用 INCLUDETEXT 字段在本地文件系统中显示 XML 文件内容的方法。
+    // 下面是使用 INCLUDETEXT 字段显示本地文件系统中 XML 文件内容的两种方法。
     // 1 - 对 XML 文档执行 XSL 转换：
     FieldIncludeText fieldIncludeText = CreateFieldIncludeText(builder, MyDir + "CD collection data.xml", false, "text/xml", "XML", "ISO-8859-1");
     fieldIncludeText.XslTransformation = MyDir + "CD collection XSL transformation.xsl";
@@ -36,10 +36,12 @@ public void FieldIncludeText()
     fieldIncludeText.NamespaceMappings = "xmlns:n='myNamespace'";
     fieldIncludeText.XPath = "/catalog/cd/title";
 
+    doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.INCLUDETEXT.docx");
+}
 
 /// <summary>
-/// 使用文档构建器插入具有自定义属性的 INCLUDETEXT 字段。
+/// 使用文档生成器插入具有自定义属性的 INCLUDETEXT 字段。
 /// </summary>
 public FieldIncludeText CreateFieldIncludeText(DocumentBuilder builder, string sourceFullName, bool lockFields, string mimeType, string textConverter, string encoding)
 {

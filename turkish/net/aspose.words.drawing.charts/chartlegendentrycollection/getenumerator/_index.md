@@ -1,14 +1,14 @@
 ---
 title: ChartLegendEntryCollection.GetEnumerator
 second_title: Aspose.Words for .NET API Referansı
-description: ChartLegendEntryCollection yöntem. Bir numaralandırıcı nesnesi döndürür.
+description: ChartLegendEntryCollection yöntem. Bir numaralandırıcı nesnesini döndürür.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.drawing.charts/chartlegendentrycollection/getenumerator/
 ---
 ## ChartLegendEntryCollection.GetEnumerator method
 
-Bir numaralandırıcı nesnesi döndürür.
+Bir numaralandırıcı nesnesini döndürür.
 
 ```csharp
 public IEnumerator<ChartLegendEntry> GetEnumerator()

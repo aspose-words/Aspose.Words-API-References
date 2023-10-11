@@ -3,7 +3,7 @@ title: HtmlSaveOptions.HtmlVersion
 second_title: Aspose.Words för .NET API Referens
 description: HtmlSaveOptions fast egendom. Anger version av HTMLstandarden som ska användas när dokumentet sparas till HTML eller MHTML. Standardvärdet ärXhtml .
 type: docs
-weight: 340
+weight: 330
 url: /sv/net/aspose.words.saving/htmlsaveoptions/htmlversion/
 ---
 ## HtmlSaveOptions.HtmlVersion property

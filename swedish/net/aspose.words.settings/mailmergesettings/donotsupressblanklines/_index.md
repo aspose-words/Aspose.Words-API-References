@@ -59,7 +59,7 @@ odso.FirstRowContainsColumnNames = true;
 Assert.AreNotSame(odso, odso.Clone());
 Assert.AreNotSame(settings, settings.Clone());
 
-// Att öppna detta dokument i Microsoft Word kommer att köra sammanslagningen innan innehållet visas. 
+ // Att öppna detta dokument i Microsoft Word kommer att köra sammanslagningen innan innehållet visas.
 doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ```
 

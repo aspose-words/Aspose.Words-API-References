@@ -1,14 +1,16 @@
 ---
 title: Class WebExtension
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.WebExtensions.WebExtension فصل. يمثل كائن امتداد الويب .
+description: Aspose.Words.WebExtensions.WebExtension فصل. يمثل كائن ملحق الويب.
 type: docs
-weight: 6430
+weight: 6740
 url: /ar/net/aspose.words.webextensions/webextension/
 ---
 ## WebExtension class
 
-يمثل كائن امتداد الويب .
+يمثل كائن ملحق الويب.
+
+لمعرفة المزيد، قم بزيارة[العمل مع وظائف Office الإضافية](https://docs.aspose.com/words/net/work-with-office-add-ins/) مقالة توثيقية.
 
 ```csharp
 public class WebExtension
@@ -18,21 +20,21 @@ public class WebExtension
 
 | اسم | وصف |
 | --- | --- |
-| [AlternateReferences](../../aspose.words.webextensions/webextension/alternatereferences/) { get; } | تحديد مراجع بديلة لملحق الويب . |
-| [Bindings](../../aspose.words.webextensions/webextension/bindings/) { get; } | يحدد قائمة روابط امتداد الويب. |
-| [Id](../../aspose.words.webextensions/webextension/id/) { get; set; } | يعرّف بشكل فريد مثيل امتداد الويب في المستند الحالي. |
-| [IsFrozen](../../aspose.words.webextensions/webextension/isfrozen/) { get; set; } | يحدد ما إذا كان يمكن للمستخدم التفاعل مع امتداد الويب أم لا. |
-| [Properties](../../aspose.words.webextensions/webextension/properties/) { get; } | يمثل مجموعة من الخصائص المخصصة لإضافات الويب. |
-| [Reference](../../aspose.words.webextensions/webextension/reference/) { get; } | يحدد المرجع الأساسي لملحق الويب . |
+| [AlternateReferences](../../aspose.words.webextensions/webextension/alternatereferences/) { get; } | يحدد مراجع بديلة لامتداد الويب. |
+| [Bindings](../../aspose.words.webextensions/webextension/bindings/) { get; } | يحدد قائمة روابط امتدادات الويب. |
+| [Id](../../aspose.words.webextensions/webextension/id/) { get; set; } | يحدد بشكل فريد مثيل ملحق الويب في المستند الحالي. |
+| [IsFrozen](../../aspose.words.webextensions/webextension/isfrozen/) { get; set; } | يحدد ما إذا كان يمكن للمستخدم التفاعل مع ملحق الويب أم لا. |
+| [Properties](../../aspose.words.webextensions/webextension/properties/) { get; } | يمثل مجموعة من الخصائص المخصصة لامتداد الويب. |
+| [Reference](../../aspose.words.webextensions/webextension/reference/) { get; } | يحدد المرجع الأساسي لامتداد الويب. |
 
 ### أمثلة
 
-يوضح كيفية إضافة امتداد ويب إلى مستند.
+يوضح كيفية إضافة ملحق ويب إلى مستند.
 
 ```csharp
 Document doc = new Document();
 
-// إنشاء جزء مهام باستخدام الوظيفة الإضافية "MyScript" ، والتي سيتم استخدامها بواسطة المستند ،
+// قم بإنشاء جزء المهام باستخدام الوظيفة الإضافية "MyScript"، والتي سيتم استخدامها بواسطة المستند،
 // ثم قم بتعيين موقعه الافتراضي.
 TaskPane myScriptTaskPane = new TaskPane();
 doc.WebExtensionTaskPanes.Add(myScriptTaskPane);
@@ -41,13 +43,13 @@ myScriptTaskPane.IsVisible = true;
 myScriptTaskPane.Width = 300;
 myScriptTaskPane.IsLocked = true;
 
-// إذا كان هناك العديد من أجزاء المهام في نفس موقع الإرساء ، فيمكننا تعيين هذا الفهرس لترتيبها.
+// إذا كانت هناك أجزاء مهام متعددة في نفس موقع الإرساء، فيمكننا ضبط هذا الفهرس لترتيبها.
 myScriptTaskPane.Row = 1;
 
-// قم بإنشاء وظيفة إضافية تسمى "MyScript Math Sample" ، والتي سيتم عرض جزء المهام بداخلها.
+// قم بإنشاء وظيفة إضافية تسمى "MyScript Math Sample"، والتي سيعرضها جزء المهام بداخلها.
 WebExtension webExtension = myScriptTaskPane.WebExtension;
 
-// تعيين المعلمات المرجعية لمتجر التطبيق للوظيفة الإضافية الخاصة بنا ، مثل المعرف.
+// قم بتعيين المعلمات المرجعية لمتجر التطبيقات للوظيفة الإضافية لدينا، مثل المعرف.
 webExtension.Reference.Id = "WA104380646";
 webExtension.Reference.Version = "1.0.0.0";
 webExtension.Reference.StoreType = WebExtensionStoreType.OMEX;
@@ -58,10 +60,10 @@ webExtension.Bindings.Add(new WebExtensionBinding("MyScript", WebExtensionBindin
 // السماح للمستخدم بالتفاعل مع الوظيفة الإضافية.
 webExtension.IsFrozen = false;
 
-// يمكننا الوصول إلى امتداد الويب في Microsoft Word عبر Developer - > الوظائف الإضافية.
+// يمكننا الوصول إلى ملحق الويب في Microsoft Word عبر المطور -> الوظائف الإضافية.
 doc.Save(ArtifactsDir + "Document.WebExtension.docx");
 
-// قم بإزالة جميع أجزاء مهمة ملحق الويب مرة واحدة مثل هذا.
+// قم بإزالة كافة أجزاء المهام الخاصة بامتداد الويب مرة واحدة بهذه الطريقة.
 doc.WebExtensionTaskPanes.Clear();
 
 Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);

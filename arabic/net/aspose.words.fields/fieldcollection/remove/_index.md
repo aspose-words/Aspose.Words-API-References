@@ -1,14 +1,14 @@
 ---
 title: FieldCollection.Remove
 second_title: Aspose.Words لمراجع .NET API
-description: FieldCollection طريقة. يزيل الحقل المحدد من هذه المجموعة ومن المستند.
+description: FieldCollection طريقة. إزالة الحقل المحدد من هذه المجموعة ومن المستند.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.fields/fieldcollection/remove/
 ---
 ## FieldCollection.Remove method
 
-يزيل الحقل المحدد من هذه المجموعة ومن المستند.
+إزالة الحقل المحدد من هذه المجموعة ومن المستند.
 
 ```csharp
 public void Remove(Field field)
@@ -16,7 +16,7 @@ public void Remove(Field field)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| field | Field | حقل مطلوب إزالته. |
+| field | Field | حقل لإزالة. |
 
 ### أمثلة
 
@@ -52,7 +52,7 @@ Assert.AreEqual(4, fields.Count);
 fields.RemoveAt(2);
 Assert.AreEqual(3, fields.Count);
 
-// 4 - قم بإزالة جميع الحقول من المجموعة مرة واحدة:
+// 4 - قم بإزالة كافة الحقول من المجموعة مرة واحدة:
 fields.Clear();
 Assert.AreEqual(0, fields.Count);
 ```

@@ -3,7 +3,7 @@ title: Document.Sections
 second_title: Aspose.Words för .NET API Referens
 description: Document fast egendom. Returnerar en samling som representerar alla avsnitt i dokumentet.
 type: docs
-weight: 350
+weight: 370
 url: /sv/net/aspose.words/document/sections/
 ---
 ## Document.Sections property

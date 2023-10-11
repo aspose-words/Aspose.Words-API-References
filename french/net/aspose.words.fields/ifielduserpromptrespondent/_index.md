@@ -3,7 +3,7 @@ title: Interface IFieldUserPromptRespondent
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Aspose.Words.Fields.IFieldUserPromptRespondent interface. Représente le répondant aux invites de lutilisateur lors de la mise à jour du champ.
 type: docs
-weight: 2560
+weight: 2740
 url: /fr/net/aspose.words.fields/ifielduserpromptrespondent/
 ---
 ## IFieldUserPromptRespondent interface
@@ -18,24 +18,23 @@ public interface IFieldUserPromptRespondent
 
 | Nom | La description |
 | --- | --- |
-| [Respond](../../aspose.words.fields/ifielduserpromptrespondent/respond/)(string, string) | Lorsqu'il est implémenté, renvoie une réponse de l'utilisateur à l'invite. Votre implémentation doit renvoyer **nul** pour indiquer que l'utilisateur n'a pas répondu à l'invite (c'est-à-dire que l'utilisateur a appuyé sur le bouton Annuler dans la fenêtre d'invite). |
+| [Respond](../../aspose.words.fields/ifielduserpromptrespondent/respond/)(string, string) | Une fois implémenté, renvoie une réponse de l'utilisateur à l'invite. Votre implémentation devrait renvoyer`nul` pour indiquer que l'utilisateur n'a pas répondu à l'invite (c'est-à-dire que l'utilisateur a appuyé sur le bouton Annuler dans la fenêtre d'invite). |
 
 ### Remarques
 
-Les champs ASK et FILLIN sont des exemples de champs qui demandent à l'utilisateur une réponse. Implémentez cette interface et affectez-la au[`UserPromptRespondent`](../fieldoptions/userpromptrespondent/) propriété pour établir une interaction entre le champ update et l'utilisateur.
+Les champs ASK et FILLIN sont des exemples de champs qui invitent l'utilisateur à fournir une réponse. Implémentez cette interface et attribuez-la au[`UserPromptRespondent`](../fieldoptions/userpromptrespondent/) propriété pour établir une interaction entre le champ update et l'utilisateur.
 
 ### Exemples
 
 Montre comment créer un champ ASK et définir ses propriétés.
 
 ```csharp
-[Test]
 public void FieldAsk()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Placez un champ où la réponse à notre champ ASK sera placée.
+    // Placez un champ où sera placée la réponse à notre champ ASK.
     FieldRef fieldRef = (FieldRef)builder.InsertField(FieldType.FieldRef, true);
     fieldRef.BookmarkName = "MyAskField";
     builder.Writeln();
@@ -70,6 +69,7 @@ public void FieldAsk()
 
     doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.ASK.docx");
+}
 
 /// <summary>
 /// Ajoute du texte à la réponse par défaut d'un champ ASK lors d'un publipostage.

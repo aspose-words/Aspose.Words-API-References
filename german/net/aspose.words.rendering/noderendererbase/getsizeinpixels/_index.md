@@ -1,14 +1,14 @@
 ---
 title: NodeRendererBase.GetSizeInPixels
 second_title: Aspose.Words für .NET-API-Referenz
-description: NodeRendererBase methode. Berechnet die Größe der Form in Pixeln für einen angegebenen Zoomfaktor und eine angegebene Auflösung.
+description: NodeRendererBase methode. Berechnet die Größe der Form in Pixel für einen angegebenen Zoomfaktor und eine bestimmte Auflösung.
 type: docs
 weight: 60
 url: /de/net/aspose.words.rendering/noderendererbase/getsizeinpixels/
 ---
 ## GetSizeInPixels(float, float) {#getsizeinpixels}
 
-Berechnet die Größe der Form in Pixeln für einen angegebenen Zoomfaktor und eine angegebene Auflösung.
+Berechnet die Größe der Form in Pixel für einen angegebenen Zoomfaktor und eine bestimmte Auflösung.
 
 ```csharp
 public Size GetSizeInPixels(float scale, float dpi)
@@ -16,8 +16,8 @@ public Size GetSizeInPixels(float scale, float dpi)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| scale | Single | Der Zoomfaktor (1,0 entspricht 100 %). |
-| dpi | Single | Die Auflösung (horizontal und vertikal), die von Punkten in Pixel (Punkte pro Zoll) konvertiert werden soll. |
+| scale | Single | Der Zoomfaktor (1,0 ist 100 %). |
+| dpi | Single | Die Auflösung (horizontal und vertikal), die von Punkten in Pixel (Punkte pro Zoll) umgewandelt werden soll. |
 
 ### Rückgabewert
 
@@ -25,7 +25,7 @@ Die Größe der Form in Pixel.
 
 ### Bemerkungen
 
-Diese Methode konvertiert[`SizeInPoints`](../sizeinpoints/) in die Größe in Pixel umzuwandeln und es ist nützlich , wenn Sie eine Bitmap erstellen möchten, um die Form sauber auf die Bitmap zu rendern.
+Diese Methode konvertiert[`SizeInPoints`](../sizeinpoints/) in Pixel umwandeln und es ist nützlich , wenn Sie eine Bitmap erstellen möchten, um die Form sauber auf der Bitmap darzustellen.
 
 ### Beispiele
 
@@ -44,17 +44,17 @@ Assert.AreEqual(13.0f, renderer.SizeInPoints.Height, 0.1f);
 Assert.AreEqual(119.0f, renderer.BoundsInPoints.Width, 0.2f);
 Assert.AreEqual(13.0f, renderer.BoundsInPoints.Height, 0.1f);
 
-// Shapes mit transparenten Teilen können unterschiedliche Werte in den "OpaqueBoundsInPoints"-Eigenschaften enthalten.
+// Formen mit transparenten Teilen können unterschiedliche Werte in den „OpaqueBoundsInPoints“-Eigenschaften enthalten.
 Assert.AreEqual(119.0f, renderer.OpaqueBoundsInPoints.Width, 0.2f);
 Assert.AreEqual(14.2f, renderer.OpaqueBoundsInPoints.Height, 0.1f);
 
-// Holen Sie sich die Formgröße in Pixel, mit linearer Skalierung auf eine bestimmte DPI.
+// Ermittelt die Formgröße in Pixeln mit linearer Skalierung auf eine bestimmte DPI.
 Rectangle bounds = renderer.GetBoundsInPixels(1.0f, 96.0f);
 
 Assert.AreEqual(159, bounds.Width);
 Assert.AreEqual(18, bounds.Height);
 
-// Holen Sie sich die Formgröße in Pixel, aber mit einem anderen DPI für die horizontalen und vertikalen Dimensionen.
+// Ermittelt die Formgröße in Pixeln, jedoch mit unterschiedlichen DPI-Werten für die horizontalen und vertikalen Abmessungen.
 bounds = renderer.GetBoundsInPixels(1.0f, 96.0f, 150.0f);
 Assert.AreEqual(159, bounds.Width);
 Assert.AreEqual(28, bounds.Height);
@@ -81,7 +81,7 @@ Assert.AreEqual(30, bounds.Height);
 
 ## GetSizeInPixels(float, float, float) {#getsizeinpixels_1}
 
-Berechnet die Größe der Form in Pixeln für einen angegebenen Zoomfaktor und eine angegebene Auflösung.
+Berechnet die Größe der Form in Pixel für einen angegebenen Zoomfaktor und eine bestimmte Auflösung.
 
 ```csharp
 public Size GetSizeInPixels(float scale, float horizontalDpi, float verticalDpi)
@@ -89,9 +89,9 @@ public Size GetSizeInPixels(float scale, float horizontalDpi, float verticalDpi)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| scale | Single | Der Zoomfaktor (1,0 entspricht 100 %). |
-| horizontalDpi | Single | Die horizontale Auflösung, die von Punkten in Pixel (Punkte pro Zoll) konvertiert werden soll. |
-| verticalDpi | Single | Die vertikale Auflösung, die von Punkten in Pixel (Dots per Inch) konvertiert werden soll. |
+| scale | Single | Der Zoomfaktor (1,0 ist 100 %). |
+| horizontalDpi | Single | Die horizontale Auflösung zur Konvertierung von Punkten in Pixel (Punkte pro Zoll). |
+| verticalDpi | Single | Die vertikale Auflösung zur Konvertierung von Punkten in Pixel (Punkte pro Zoll). |
 
 ### Rückgabewert
 
@@ -99,7 +99,7 @@ Die Größe der Form in Pixel.
 
 ### Bemerkungen
 
-Diese Methode konvertiert[`SizeInPoints`](../sizeinpoints/) in die Größe in Pixel umzuwandeln und es ist nützlich , wenn Sie eine Bitmap erstellen möchten, um die Form sauber auf die Bitmap zu rendern.
+Diese Methode konvertiert[`SizeInPoints`](../sizeinpoints/) in Pixel umwandeln und es ist nützlich , wenn Sie eine Bitmap erstellen möchten, um die Form sauber auf der Bitmap darzustellen.
 
 ### Beispiele
 
@@ -118,17 +118,17 @@ Assert.AreEqual(13.0f, renderer.SizeInPoints.Height, 0.1f);
 Assert.AreEqual(119.0f, renderer.BoundsInPoints.Width, 0.2f);
 Assert.AreEqual(13.0f, renderer.BoundsInPoints.Height, 0.1f);
 
-// Shapes mit transparenten Teilen können unterschiedliche Werte in den "OpaqueBoundsInPoints"-Eigenschaften enthalten.
+// Formen mit transparenten Teilen können unterschiedliche Werte in den „OpaqueBoundsInPoints“-Eigenschaften enthalten.
 Assert.AreEqual(119.0f, renderer.OpaqueBoundsInPoints.Width, 0.2f);
 Assert.AreEqual(14.2f, renderer.OpaqueBoundsInPoints.Height, 0.1f);
 
-// Holen Sie sich die Formgröße in Pixel, mit linearer Skalierung auf eine bestimmte DPI.
+// Ermittelt die Formgröße in Pixeln mit linearer Skalierung auf eine bestimmte DPI.
 Rectangle bounds = renderer.GetBoundsInPixels(1.0f, 96.0f);
 
 Assert.AreEqual(159, bounds.Width);
 Assert.AreEqual(18, bounds.Height);
 
-// Holen Sie sich die Formgröße in Pixel, aber mit einem anderen DPI für die horizontalen und vertikalen Dimensionen.
+// Ermittelt die Formgröße in Pixeln, jedoch mit unterschiedlichen DPI-Werten für die horizontalen und vertikalen Abmessungen.
 bounds = renderer.GetBoundsInPixels(1.0f, 96.0f, 150.0f);
 Assert.AreEqual(159, bounds.Width);
 Assert.AreEqual(28, bounds.Height);

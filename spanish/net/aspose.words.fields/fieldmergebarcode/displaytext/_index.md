@@ -1,14 +1,14 @@
 ---
 title: FieldMergeBarcode.DisplayText
 second_title: Referencia de API de Aspose.Words para .NET
-description: FieldMergeBarcode propiedad. Obtiene o establece si mostrar los datos del código de barras texto junto con la imagen.
+description: FieldMergeBarcode propiedad. Obtiene o establece si se muestran datos de código de barras texto junto con la imagen.
 type: docs
 weight: 70
 url: /es/net/aspose.words.fields/fieldmergebarcode/displaytext/
 ---
 ## FieldMergeBarcode.DisplayText property
 
-Obtiene o establece si mostrar los datos del código de barras (texto) junto con la imagen.
+Obtiene o establece si se muestran datos de código de barras (texto) junto con la imagen.
 
 ```csharp
 public bool DisplayText { get; set; }
@@ -23,7 +23,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Inserte un campo MERGEBARCODE, que aceptará valores de una fuente de datos durante una combinación de correspondencia.
-// Este campo convertirá todos los valores en la columna "MyEAN13Barcode" de una fuente de datos combinados en códigos de barras EAN13.
+// Este campo convertirá todos los valores en la columna "MyEAN13Barcode" de una fuente de datos combinada en códigos de barras EAN13.
 FieldMergeBarcode field = (FieldMergeBarcode)builder.InsertField(FieldType.FieldMergeBarcode, true);
 field.BarcodeType = "EAN13";
 field.BarcodeValue = "MyEAN13Barcode";
@@ -37,7 +37,7 @@ Assert.AreEqual(FieldType.FieldMergeBarcode, field.Type);
 Assert.AreEqual(" MERGEBARCODE  MyEAN13Barcode EAN13 \\t \\p CASE \\x", field.GetFieldCode());
 builder.Writeln();
 
-// Crear un DataTable con una columna con el mismo nombre que el BarcodeValue de nuestro campo MERGEBARCODE.
+// Crea una DataTable con una columna con el mismo nombre que BarcodeValue de nuestro campo MERGEBARCODE.
 // La combinación de correspondencia creará una nueva página para cada fila. Cada página contendrá un campo DISPLAYBARCODE,
 // que mostrará un código de barras EAN13 con el valor de la fila fusionada.
 DataTable table = new DataTable("Barcodes");

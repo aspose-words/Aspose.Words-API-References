@@ -1,14 +1,14 @@
 ---
 title: Field.Update
 second_title: Referencia de API de Aspose.Words para .NET
-description: Field método. Realiza la actualización del campo. Se lanza si el campo ya se está actualizando.
+description: Field método. Realiza la actualización del campo. Se produce si el campo ya se está actualizando.
 type: docs
 weight: 140
 url: /es/net/aspose.words.fields/field/update/
 ---
 ## Update() {#update}
 
-Realiza la actualización del campo. Se lanza si el campo ya se está actualizando.
+Realiza la actualización del campo. Se produce si el campo ya se está actualizando.
 
 ```csharp
 public void Update()
@@ -22,8 +22,8 @@ Muestra cómo insertar un campo en un documento usando FieldType.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Inserte dos campos mientras pasa una bandera que determina si actualizarlos a medida que el constructor los inserta.
-// En algunos casos, la actualización de campos puede ser computacionalmente costosa y puede ser una buena idea posponer la actualización.
+// Inserta dos campos mientras pasas una bandera que determina si se actualizan a medida que el constructor los inserta.
+// En algunos casos, actualizar los campos puede resultar costoso desde el punto de vista computacional y puede ser una buena idea posponer la actualización.
 doc.BuiltInDocumentProperties.Author = "John Doe";
 builder.Write("This document was written by ");
 builder.InsertField(FieldType.FieldAuthor, updateInsertedFieldsImmediately);
@@ -45,7 +45,7 @@ else
     Assert.AreEqual(string.Empty, doc.Range.Fields[0].Result);
     Assert.AreEqual(string.Empty, doc.Range.Fields[1].Result);
 
-    // Tendremos que actualizar estos campos usando los métodos de actualización manualmente.
+    // Necesitaremos actualizar estos campos utilizando los métodos de actualización manualmente.
     doc.Range.Fields[0].Update();
 
     Assert.AreEqual("John Doe", doc.Range.Fields[0].Result);
@@ -62,7 +62,7 @@ Muestra cómo dar formato a los resultados de los campos.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Use un generador de documentos para insertar un campo que muestre un resultado sin formato aplicado.
+// Utilice un generador de documentos para insertar un campo que muestre un resultado sin formato aplicado.
 Field field = builder.InsertField("= 2 + 3");
 
 Assert.AreEqual("= 2 + 3", field.GetFieldCode());
@@ -125,7 +125,7 @@ Assert.AreEqual(0, format.GeneralFormats.Count);
 
 ## Update(bool) {#update_1}
 
-Realiza una actualización de campo. Se lanza si el campo ya se está actualizando.
+Realiza una actualización de campo. Se produce si el campo ya se está actualizando.
 
 ```csharp
 public void Update(bool ignoreMergeFormat)
@@ -133,11 +133,11 @@ public void Update(bool ignoreMergeFormat)
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| ignoreMergeFormat | Boolean | Si`verdadero` luego se abandona el formato de resultado de campo directo, independientemente del modificador MERGEFORMAT; de lo contrario, se realiza una actualización normal. |
+| ignoreMergeFormat | Boolean | si`verdadero` luego se abandona el formateo directo del resultado del campo, independientemente del modificador MERGEFORMAT; de lo contrario, se realiza la actualización normal. |
 
 ### Ejemplos
 
-Muestra cómo conservar o descartar campos INCLUDEPICTURE al cargar un documento.
+Muestra cómo conservar o descartar los campos INCLUDEPICTURE al cargar un documento.
 
 ```csharp
 Document doc = new Document();
@@ -152,7 +152,7 @@ using (MemoryStream docStream = new MemoryStream())
     doc.Save(docStream, new OoxmlSaveOptions(SaveFormat.Docx));
 
     // Podemos establecer una bandera en un objeto LoadOptions para decidir si convertir todos los campos INCLUDEPICTURE
-    // en formas de imagen al cargar un documento que las contiene.
+    // en formas de imágenes al cargar un documento que las contiene.
     LoadOptions loadOptions = new LoadOptions
     {
         PreserveIncludePictureField = preserveIncludePictureField

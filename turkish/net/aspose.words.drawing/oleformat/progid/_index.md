@@ -16,15 +16,15 @@ public string ProgId { get; set; }
 
 ### Notlar
 
-ProgID özelliği, Microsoft Word belgelerinde her zaman bulunmaz ve güvenilemez.
+ProgID özelliği Microsoft Word belgelerinde her zaman mevcut değildir ve bu özelliğe güvenilemez.
 
-Boş olamaz.
+Olamaz`hükümsüz`.
 
 Varsayılan değer boş bir dizedir.
 
 ### Örnekler
 
-Gömülü OLE nesnelerinin dosyalara nasıl ayıklanacağını gösterir.
+Katıştırılmış OLE nesnelerinin dosyalara nasıl çıkartılacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "OLE spreadsheet.docm");
@@ -35,16 +35,16 @@ OleFormat oleFormat = shape.OleFormat;
 
 Assert.AreEqual("Excel.Sheet.12", oleFormat.ProgId);
 
-// Nesnemiz ne otomatik güncelleme yapıyor ne de güncellemelere kilitleniyor.
+// Nesnemiz ne otomatik güncelleniyor ne de güncellemelerden kilitli.
 Assert.False(oleFormat.AutoUpdate);
 Assert.AreEqual(false, oleFormat.IsLocked);
 
 // OLE nesnesini yerel dosya sistemindeki bir dosyaya kaydetmeyi planlıyorsak,
-// Dosyaya hangi dosya uzantısının uygulanacağını belirlemek için "Önerilen Uzantı" özelliğini kullanabiliriz.
+// Dosyaya hangi dosya uzantısının uygulanacağını belirlemek için "SuggestedExtension" özelliğini kullanabiliriz.
 Assert.AreEqual(".xlsx", oleFormat.SuggestedExtension);
 
-// Aşağıda, bir OLE nesnesini yerel dosya sistemindeki bir dosyaya kaydetmenin iki yolu bulunmaktadır.
-// 1 - Akış yoluyla kaydedin:
+// Aşağıda bir OLE nesnesini yerel dosya sistemindeki bir dosyaya kaydetmenin iki yolu verilmiştir.
+// 1 - Bir akış aracılığıyla kaydedin:
 using (FileStream fs = new FileStream(ArtifactsDir + "OLE spreadsheet extracted via stream" + oleFormat.SuggestedExtension, FileMode.Create))
 {
     oleFormat.Save(fs);

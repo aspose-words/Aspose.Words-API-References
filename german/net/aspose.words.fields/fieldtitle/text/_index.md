@@ -1,14 +1,14 @@
 ---
 title: FieldTitle.Text
 second_title: Aspose.Words für .NET-API-Referenz
-description: FieldTitle eigendom. Liest oder setzt den Text des Titels.
+description: FieldTitle eigendom. Ruft den Text des Titels ab oder legt ihn fest.
 type: docs
 weight: 20
 url: /de/net/aspose.words.fields/fieldtitle/text/
 ---
 ## FieldTitle.Text property
 
-Liest oder setzt den Text des Titels.
+Ruft den Text des Titels ab oder legt ihn fest.
 
 ```csharp
 public string Text { get; set; }
@@ -16,12 +16,12 @@ public string Text { get; set; }
 
 ### Beispiele
 
-Zeigt, wie das TITLE-Feld verwendet wird.
+Zeigt, wie das Feld TITLE verwendet wird.
 
 ```csharp
 Document doc = new Document();
 
- // Legen Sie einen Wert für die integrierte Dokumenteigenschaft "Title" fest.
+ // Legen Sie einen Wert für die integrierte Dokumenteigenschaft „Titel“ fest.
 doc.BuiltInDocumentProperties.Title = "My Title";
 
 // Wir können das TITLE-Feld verwenden, um den Wert dieser Eigenschaft im Dokument anzuzeigen.
@@ -32,8 +32,8 @@ field.Update();
 Assert.AreEqual(" TITLE ", field.GetFieldCode());
 Assert.AreEqual("My Title", field.Result);
 
-// Festlegen eines Werts für die Text-Eigenschaft des Felds,
-// und das anschließende Aktualisieren des Felds überschreibt auch die entsprechende integrierte Eigenschaft mit dem neuen Wert.
+// Einen Wert für die Text-Eigenschaft des Feldes festlegen,
+// und dann das Feld aktualisieren, wird auch die entsprechende integrierte Eigenschaft mit dem neuen Wert überschrieben.
 builder.Writeln();
 field = (FieldTitle)builder.InsertField(FieldType.FieldTitle, false);
 field.Text = "My New Title";

@@ -16,7 +16,7 @@ public Node Clone(bool isCloneChildren)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| isCloneChildren | Boolean | True, um den Teilbaum unter dem angegebenen Knoten rekursiv zu klonen; false, um nur den Knoten selbst zu klonen. |
+| isCloneChildren | Boolean | True, um den Teilbaum rekursiv unter dem angegebenen Knoten zu klonen; false, um nur den Knoten selbst zu klonen. |
 
 ### Rückgabewert
 
@@ -24,9 +24,9 @@ Der geklonte Knoten.
 
 ### Bemerkungen
 
-Diese Methode dient als Kopierkonstruktor für Knoten. Der geklonte Knoten hat keinen übergeordneten Knoten, gehört aber zu demselben Dokument wie der ursprüngliche Knoten.
+Diese Methode dient als Kopierkonstruktor für Knoten. Der geklonte Knoten hat keinen übergeordneten Knoten, gehört aber zum selben Dokument wie der ursprüngliche Knoten.
 
-Diese Methode führt immer eine tiefe Kopie des Knotens aus. DasistCloneChildren parameter gibt an, ob auch alle untergeordneten Knoten kopiert werden sollen.
+Diese Methode führt immer eine tiefe Kopie des Knotens durch. Der*isCloneChildren* parameter gibt an, ob auch alle untergeordneten Knoten kopiert werden sollen.
 
 ### Beispiele
 
@@ -37,14 +37,14 @@ Document doc = new Document();
 Paragraph para = doc.FirstSection.Body.FirstParagraph;
 para.AppendChild(new Run(doc, "Hello world!"));
 
-// Im Folgenden finden Sie zwei Möglichkeiten zum Klonen eines zusammengesetzten Knotens.
-// 1 - Erstellen Sie einen Klon eines Knotens und erstellen Sie auch einen Klon von jedem seiner untergeordneten Knoten.
+// Nachfolgend finden Sie zwei Möglichkeiten zum Klonen eines zusammengesetzten Knotens.
+// 1 – Erstellen Sie einen Klon eines Knotens und erstellen Sie auch einen Klon jedes seiner untergeordneten Knoten.
 Node cloneWithChildren = para.Clone(true);
 
 Assert.IsTrue(((CompositeNode)cloneWithChildren).HasChildNodes);
 Assert.AreEqual("Hello world!", cloneWithChildren.GetText().Trim());
 
-// 2 - Erstellen Sie einen Klon eines Knotens ohne Kinder.
+// 2 – Erstellen Sie einen Klon eines einzelnen Knotens ohne untergeordnete Elemente.
 Node cloneWithoutChildren = para.Clone(false);
 
 Assert.IsFalse(((CompositeNode)cloneWithoutChildren).HasChildNodes);

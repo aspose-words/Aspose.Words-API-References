@@ -16,7 +16,7 @@ public DocumentBase Document { get; }
 
 ### Notlar
 
-Bir listenin her zaman bir üst belgesi vardır ve yalnızca o belgenin bağlamında geçerlidir.
+Bir listenin her zaman bir ana belgesi vardır ve yalnızca o belgenin bağlamında geçerlidir.
 
 ### Örnekler
 
@@ -26,11 +26,9 @@ Listelerin sahip belge özelliklerinin nasıl doğrulanacağını gösterir.
 Document doc = new Document();
 
 ListCollection lists = doc.Lists;
-
 Assert.AreEqual(doc, lists.Document);
 
 List list = lists.Add(ListTemplate.BulletDefault);
-
 Assert.AreEqual(doc, list.Document);
 
 Console.WriteLine("Current list count: " + lists.Count);

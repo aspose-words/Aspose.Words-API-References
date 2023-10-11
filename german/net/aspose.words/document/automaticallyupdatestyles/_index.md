@@ -1,14 +1,14 @@
 ---
 title: Document.AutomaticallyUpdateStyles
 second_title: Aspose.Words für .NET-API-Referenz
-description: Document eigendom. Ruft ein Flag ab oder setzt es das angibt ob die Stile im Dokument jedes Mal aktualisiert werden damit sie mit den Stilen in der angehängten Vorlage übereinstimmen wenn das Dokument in MS Word geöffnet wird.
+description: Document eigendom. Ruft ein Flag ab oder legt es fest das angibt ob die Stile im Dokument bei jedem Öffnen des Dokuments in MS Word so aktualisiert werden dass sie mit den Stilen in der angehängten Vorlage übereinstimmen.
 type: docs
 weight: 30
 url: /de/net/aspose.words/document/automaticallyupdatestyles/
 ---
 ## Document.AutomaticallyUpdateStyles property
 
-Ruft ein Flag ab oder setzt es, das angibt, ob die Stile im Dokument jedes Mal aktualisiert werden, damit sie mit den Stilen in der angehängten -Vorlage übereinstimmen, wenn das Dokument in MS Word geöffnet wird.
+Ruft ein Flag ab oder legt es fest, das angibt, ob die Stile im Dokument bei jedem Öffnen des Dokuments in MS Word so aktualisiert werden, dass sie mit den Stilen in der angehängten Vorlage übereinstimmen.
 
 ```csharp
 public bool AutomaticallyUpdateStyles { get; set; }
@@ -16,16 +16,16 @@ public bool AutomaticallyUpdateStyles { get; set; }
 
 ### Beispiele
 
-Zeigt, wie Sie eine Vorlage an ein Dokument anhängen.
+Zeigt, wie eine Vorlage an ein Dokument angehängt wird.
 
 ```csharp
 Document doc = new Document();
 
-// Microsoft Word-Dokumente werden standardmäßig mit einer angehängten Vorlage namens "Normal.dotm" geliefert.
+// Microsoft Word-Dokumente verfügen standardmäßig über eine angehängte Vorlage namens „Normal.dotm“.
 // Es gibt keine Standardvorlage für leere Aspose.Words-Dokumente.
 Assert.AreEqual(string.Empty, doc.AttachedTemplate);
 
-// Hängen Sie eine Vorlage an und setzen Sie dann das Flag, um Stiländerungen anzuwenden
+// Eine Vorlage anhängen und dann das Flag setzen, um Stiländerungen anzuwenden
 // innerhalb der Vorlage zu Stilen in unserem Dokument.
 doc.AttachedTemplate = MyDir + "Business brochure.dotx";
 doc.AutomaticallyUpdateStyles = true;
@@ -33,7 +33,7 @@ doc.AutomaticallyUpdateStyles = true;
 doc.Save(ArtifactsDir + "Document.AutomaticallyUpdateStyles.docx");
 ```
 
-Zeigt, wie Sie eine Standardvorlage für Dokumente festlegen, die keine angehängten Vorlagen haben.
+Zeigt, wie eine Standardvorlage für Dokumente festgelegt wird, denen keine Vorlagen angehängt sind.
 
 ```csharp
 Document doc = new Document();
@@ -43,9 +43,9 @@ doc.AutomaticallyUpdateStyles = true;
 
 Assert.AreEqual(string.Empty, doc.AttachedTemplate);
 
-// Da es kein Vorlagendokument gibt, konnte das Dokument Stiländerungen nirgendwo nachverfolgen.
+// Da es kein Vorlagendokument gibt, konnte das Dokument Stiländerungen nicht nachverfolgen.
 // Verwenden Sie ein SaveOptions-Objekt, um automatisch eine Vorlage festzulegen
-// wenn ein Dokument, das wir speichern, keines hat.
+// wenn ein Dokument, das wir speichern, keins hat.
 SaveOptions options = SaveOptions.CreateSaveOptions("Document.DefaultTemplate.docx");
 options.DefaultTemplate = MyDir + "Business brochure.dotx";
 

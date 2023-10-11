@@ -3,7 +3,7 @@ title: Enum HeaderFooterType
 second_title: Aspose.Words لمراجع .NET API
 description: Aspose.Words.HeaderFooterType تعداد. يحدد نوع الرأس أو التذييل الموجود في ملف Word.
 type: docs
-weight: 2940
+weight: 3120
 url: /ar/net/aspose.words/headerfootertype/
 ---
 ## HeaderFooterType enumeration
@@ -18,10 +18,10 @@ public enum HeaderFooterType
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| HeaderEven | `0` | رأس الصفحات ذات الأرقام الزوجية . |
-| HeaderPrimary | `1` | رأس أساسي ، يُستخدم أيضًا للصفحات المرقمة الفردية. |
+| HeaderEven | `0` | رأس الصفحات ذات الأرقام الزوجية. |
+| HeaderPrimary | `1` | الرأس الأساسي، يُستخدم أيضًا للصفحات ذات الأرقام الفردية. |
 | FooterEven | `2` | تذييل للصفحات ذات الأرقام الزوجية. |
-| FooterPrimary | `3` | التذييل الأساسي ، ويستخدم أيضًا للصفحات المرقمة الفردية. |
+| FooterPrimary | `3` | التذييل الأساسي، يُستخدم أيضًا للصفحات ذات الأرقام الفردية. |
 | HeaderFirst | `4` | رأس الصفحة الأولى من القسم. |
 | FooterFirst | `5` | تذييل الصفحة الأولى من القسم. |
 
@@ -33,11 +33,11 @@ public enum HeaderFooterType
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// حدد أننا نريد رؤوس وتذييلات مختلفة للصفحات الأولى والزوجية والفردية.
+// حدد أننا نريد رؤوسًا وتذييلات مختلفة للصفحات الأولى والزوجية والفردية.
 builder.PageSetup.DifferentFirstPageHeaderFooter = true;
 builder.PageSetup.OddAndEvenPagesHeaderFooter = true;
 
-// أنشئ الرؤوس ، ثم أضف ثلاث صفحات إلى المستند لعرض كل نوع رأس.
+// أنشئ الرؤوس، ثم أضف ثلاث صفحات إلى المستند لعرض كل نوع رأس.
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderFirst);
 builder.Write("Header for the first page");
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderEven);

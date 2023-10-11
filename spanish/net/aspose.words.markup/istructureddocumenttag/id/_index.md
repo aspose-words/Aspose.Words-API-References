@@ -1,14 +1,14 @@
 ---
 title: IStructuredDocumentTag.Id
 second_title: Referencia de API de Aspose.Words para .NET
-description: IStructuredDocumentTag propiedad. Especifica un Id. numérico persistente único de solo lectura para este SDT.
+description: IStructuredDocumentTag propiedad. Especifica una identificación numérica persistente única de solo lectura para esto TED.
 type: docs
 weight: 20
 url: /es/net/aspose.words.markup/istructureddocumenttag/id/
 ---
 ## IStructuredDocumentTag.Id property
 
-Especifica un Id. numérico persistente único de solo lectura para este **SDT**.
+Especifica una identificación numérica persistente única de solo lectura para esto **TED**.
 
 ```csharp
 public int Id { get; }

@@ -1,14 +1,14 @@
 ---
 title: CustomPart.Clone
 second_title: Referencia de API de Aspose.Words para .NET
-description: CustomPart método. Realiza una copia suficientemente profunda del objeto. No duplica los bytes delData valor.
+description: CustomPart método. Hace una copia suficientemente profunda del objeto. No duplica los bytes delData valor.
 type: docs
 weight: 70
 url: /es/net/aspose.words.markup/custompart/clone/
 ---
 ## CustomPart.Clone method
 
-Realiza una copia "suficientemente profunda" del objeto. No duplica los bytes del[`Data`](../data/) valor.
+Hace una copia "suficientemente profunda" del objeto. No duplica los bytes del[`Data`](../data/) valor.
 
 ```csharp
 public CustomPart Clone()
@@ -23,12 +23,12 @@ Document doc = new Document(MyDir + "Custom parts OOXML package.docx");
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);
 
-// Clona la segunda parte, luego agrega el clon a la colección.
+// Clona la segunda parte y luego agrega el clon a la colección.
 CustomPart clonedPart = doc.PackageCustomParts[1].Clone();
 doc.PackageCustomParts.Add(clonedPart);
 Assert.AreEqual(3, doc.PackageCustomParts.Count);
 
-// Enumerar sobre la colección e imprimir cada parte.
+// Enumerar la colección e imprimir cada parte.
 using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator())
 {
     int index = 0;

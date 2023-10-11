@@ -22,14 +22,14 @@ Zeigt gelesene PRINTDATE-Felder an.
 Document doc = new Document(MyDir + "Field sample - PRINTDATE.docx");
 
 // Wenn ein Dokument von einem Drucker gedruckt oder als PDF gedruckt (aber nicht als PDF exportiert) wird,
-// PRINTDATE-Felder zeigen das Datum/die Uhrzeit des Druckvorgangs an.
-// Wenn kein Druck stattgefunden hat, zeigen diese Felder "0/0/0000" an.
+// PRINTDATE-Felder zeigen Datum und Uhrzeit des Druckvorgangs an.
+// Wenn kein Ausdruck stattgefunden hat, wird in diesen Feldern „0/0/0000“ angezeigt.
 FieldPrintDate field = (FieldPrintDate)doc.Range.Fields[0];
 
 Assert.AreEqual("3/25/2020 12:00:00 AM", field.Result);
 Assert.AreEqual(" PRINTDATE ", field.GetFieldCode());
 
-// Nachfolgend sind drei verschiedene Kalendertypen aufgeführt, nach denen das Feld PRINTDATE
+// Unten sind drei verschiedene Kalendertypen aufgeführt, entsprechend dem PRINTDATE-Feld
 // kann Datum und Uhrzeit des letzten Druckvorgangs anzeigen.
 // 1 - Islamischer Mondkalender:
 field = (FieldPrintDate)doc.Range.Fields[1];
@@ -40,7 +40,7 @@ Assert.AreEqual(" PRINTDATE  \\h", field.GetFieldCode());
 
 field = (FieldPrintDate)doc.Range.Fields[2];
 
-// 2 - Umm al-Qura Kalender:
+// 2 - Umm al-Qura-Kalender:
 Assert.True(field.UseUmAlQuraCalendar);
 Assert.AreEqual("8/1/1441 12:00:00 AM", field.Result);
 Assert.AreEqual(" PRINTDATE  \\u", field.GetFieldCode());

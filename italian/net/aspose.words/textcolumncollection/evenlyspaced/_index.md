@@ -1,14 +1,14 @@
 ---
 title: TextColumnCollection.EvenlySpaced
 second_title: Aspose.Words per .NET API Reference
-description: TextColumnCollection proprietà. Vero se le colonne di testo sono di uguale larghezza e spaziate uniformemente.
+description: TextColumnCollection proprietà. Vero se le colonne di testo hanno la stessa larghezza e spaziate uniformemente.
 type: docs
 weight: 20
 url: /it/net/aspose.words/textcolumncollection/evenlyspaced/
 ---
 ## TextColumnCollection.EvenlySpaced property
 
-**Vero** se le colonne di testo sono di uguale larghezza e spaziate uniformemente.
+Vero se le colonne di testo hanno la stessa larghezza e spaziate uniformemente.
 
 ```csharp
 public bool EvenlySpaced { get; set; }
@@ -37,7 +37,7 @@ TextColumn column = columns[0];
 column.Width = 100;
 column.SpaceAfter = 20;
 
-// Imposta la seconda colonna per occupare il resto dello spazio disponibile all'interno dei margini della pagina.
+// Imposta la seconda colonna per occupare il resto dello spazio disponibile entro i margini della pagina.
 column = columns[1];
 column.Width = contentWidth - column.Width - column.SpaceAfter;
 

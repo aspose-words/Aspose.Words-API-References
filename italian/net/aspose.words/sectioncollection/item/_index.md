@@ -1,14 +1,14 @@
 ---
 title: SectionCollection.Item
 second_title: Aspose.Words per .NET API Reference
-description: SectionCollection proprietà. Recupera una sezione in corrispondenza dellindice specificato.
+description: SectionCollection proprietà. Recupera una sezione allindice specificato.
 type: docs
 weight: 10
 url: /it/net/aspose.words/sectioncollection/item/
 ---
 ## SectionCollection indexer
 
-Recupera una sezione in corrispondenza dell'indice specificato.
+Recupera una sezione all'indice specificato.
 
 ```csharp
 public Section this[int index] { get; }
@@ -22,11 +22,11 @@ public Section this[int index] { get; }
 
 L'indice è a base zero.
 
-Gli indici negativi sono consentiti e indicano l'accesso dal retro della raccolta. Ad esempio -1 indica l'ultimo elemento, -2 indica il penultimo e così via.
+Gli indici negativi sono consentiti e indicano l'accesso dal retro della raccolta. Ad esempio -1 significa l'ultimo elemento, -2 significa il penultimo e così via.
 
-Se l'indice è maggiore o uguale al numero di elementi nell'elenco, restituisce un riferimento nullo.
+Se indice è maggiore o uguale al numero di elementi nell'elenco, restituisce un riferimento null.
 
-Se l'indice è negativo e il suo valore assoluto è maggiore del numero di elementi nell'elenco, restituisce un riferimento nullo.
+Se indice è negativo e il suo valore assoluto è maggiore del numero di elementi nell'elenco, restituisce un riferimento null.
 
 ### Esempi
 
@@ -42,9 +42,10 @@ doc.Save(ArtifactsDir + "Document.UpdatePageLayout.1.pdf");
 // Modifica il documento in qualche modo.
 doc.Styles["Normal"].Font.Size = 6;
 doc.Sections[0].PageSetup.Orientation = Aspose.Words.Orientation.Landscape;
+doc.Sections[0].PageSetup.Margins = Margins.Mirrored;
 
  // Nella versione corrente di Aspose.Words, la modifica del documento non viene ricostruita automaticamente
-// il layout di pagina memorizzato nella cache. Se desideriamo il layout memorizzato nella cache
+// il layout della pagina memorizzata nella cache. Se desideriamo il layout memorizzato nella cache
 // per rimanere aggiornati, dovremo aggiornarlo manualmente.
 doc.UpdatePageLayout();
 

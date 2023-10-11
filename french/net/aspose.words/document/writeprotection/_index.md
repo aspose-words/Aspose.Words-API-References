@@ -1,14 +1,14 @@
 ---
 title: Document.WriteProtection
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Document propriété. Fournit laccès aux options de protection en écriture du document.
+description: Document propriété. Donne accès aux options de protection en écriture du document.
 type: docs
-weight: 480
+weight: 500
 url: /fr/net/aspose.words/document/writeprotection/
 ---
 ## Document.WriteProtection property
 
-Fournit l'accès aux options de protection en écriture du document.
+Donne accès aux options de protection en écriture du document.
 
 ```csharp
 public WriteProtection WriteProtection { get; }
@@ -22,15 +22,14 @@ Montre comment protéger un document avec un mot de passe.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world! This document is protected.");
-
-// Entrez un mot de passe de 15 caractères maximum, puis vérifiez l'état de protection du document.
+// Saisissez un mot de passe de 15 caractères maximum, puis vérifiez l'état de protection du document.
 doc.WriteProtection.SetPassword("MyPassword");
 doc.WriteProtection.ReadOnlyRecommended = true;
 
 Assert.IsTrue(doc.WriteProtection.IsWriteProtected);
 Assert.IsTrue(doc.WriteProtection.ValidatePassword("MyPassword"));
 
-// La protection n'empêche pas le document d'être modifié par programmation, ni ne crypte le contenu.
+// La protection n'empêche pas la modification du document par programme et ne crypte pas non plus son contenu.
 doc.Save(ArtifactsDir + "Document.WriteProtection.docx");
 doc = new Document(ArtifactsDir + "Document.WriteProtection.docx");
 

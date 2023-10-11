@@ -1,14 +1,14 @@
 ---
 title: Enum CellMerge
 second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Tables.CellMerge перечисление. Указывает как ячейка в таблице объединяется с другими ячейками.
+description: Aspose.Words.Tables.CellMerge перечисление. Указывает как ячейка таблицы объединяется с другими ячейками.
 type: docs
-weight: 5970
+weight: 6270
 url: /ru/net/aspose.words.tables/cellmerge/
 ---
 ## CellMerge enumeration
 
-Указывает, как ячейка в таблице объединяется с другими ячейками.
+Указывает, как ячейка таблицы объединяется с другими ячейками.
 
 ```csharp
 public enum CellMerge
@@ -37,12 +37,12 @@ builder.CellFormat.HorizontalMerge = CellMerge.First;
 builder.Write("Text in merged cells.");
 
 // Вставляем ячейку во второй столбец первой строки. Вместо добавления текстового содержимого,
-// мы объединим эту ячейку с первой ячейкой, которую мы добавили слева.
+// мы объединим эту ячейку с первой ячейкой, которую мы добавили непосредственно слева.
 builder.InsertCell();
 builder.CellFormat.HorizontalMerge = CellMerge.Previous;
 builder.EndRow();
 
-// Вставляем еще две необъединенные ячейки во вторую строку.
+// Вставляем еще две несвязанные ячейки во вторую строку.
 builder.CellFormat.HorizontalMerge = CellMerge.None;
 builder.InsertCell();
 builder.Write("Text in unmerged cell.");
@@ -95,19 +95,19 @@ builder.InsertCell();
 builder.CellFormat.VerticalMerge = CellMerge.First;
 builder.Write("Text in merged cells.");
 
-// Вставляем ячейку во второй столбец первой строки, затем заканчиваем строку.
-// Также настройте конструктор на отключение вертикального слияния в созданных ячейках.
+// Вставляем ячейку во второй столбец первой строки, затем завершаем строку.
+// Также настройте построитель, чтобы отключить вертикальное слияние в созданных ячейках.
 builder.InsertCell();
 builder.CellFormat.VerticalMerge = CellMerge.None;
 builder.Write("Text in unmerged cell.");
 builder.EndRow();
 
-// Вставляем ячейку в первый столбец второй строки. 
-// Вместо того, чтобы добавлять текстовое содержимое, мы объединим эту ячейку с первой ячейкой, которую мы добавили непосредственно выше.
+ // Вставляем ячейку в первый столбец второй строки.
+// Вместо добавления текстового содержимого мы объединим эту ячейку с первой ячейкой, которую мы добавили непосредственно выше.
 builder.InsertCell();
 builder.CellFormat.VerticalMerge = CellMerge.Previous;
 
-// Вставить еще одну независимую ячейку во второй столбец второй строки.
+// Вставляем еще одну независимую ячейку во второй столбец второй строки.
 builder.InsertCell();
 builder.CellFormat.VerticalMerge = CellMerge.None;
 builder.Write("Text in unmerged cell.");

@@ -3,7 +3,7 @@ title: Enum ProtectionType
 second_title: Справочник по API Aspose.Words для .NET
 description: Aspose.Words.ProtectionType перечисление. Тип защиты документа.
 type: docs
-weight: 4260
+weight: 4510
 url: /ru/net/aspose.words/protectiontype/
 ---
 ## ProtectionType enumeration
@@ -19,14 +19,14 @@ public enum ProtectionType
 | Имя | Ценность | Описание |
 | --- | --- | --- |
 | AllowOnlyComments | `1` | Пользователь может изменять только комментарии в документе. |
-| AllowOnlyFormFields | `2` | Пользователь может вводить данные только в поля формы в документе. |
-| AllowOnlyRevisions | `0` | Пользователь может добавлять в документ только метки редакции. |
-| ReadOnly | `3` | В документ не допускаются никакие изменения. Доступно с Microsoft Word 2003. |
+| AllowOnlyFormFields | `2` | Пользователь может вводить данные только в поля формы документа. |
+| AllowOnlyRevisions | `0` | Пользователь может добавлять к документу только отметки редакции. |
+| ReadOnly | `3` | В документ нельзя вносить изменения. Доступно начиная с Microsoft Word 2003. . |
 | NoProtection | `-1` | Документ не защищен. |
 
 ### Примеры
 
-Показывает, как отключить защиту для раздела.
+Показывает, как отключить защиту раздела.
 
 ```csharp
 Document doc = new Document();
@@ -39,10 +39,10 @@ builder.Writeln("Section 2. Hello again!");
 builder.Write("Please enter text here: ");
 builder.InsertTextInput("TextInput1", TextFormFieldType.Regular, "", "Placeholder text", 0);
 
-// Применить защиту от записи к каждому разделу в документе.
+// Применяем защиту от записи к каждому разделу документа.
 doc.Protect(ProtectionType.AllowOnlyFormFields);
 
-// Отключаем защиту от записи для первой секции.
+// Отключаем защиту от записи для первого раздела.
 doc.Sections[0].ProtectedForForms = false;
 
 // В этом выходном документе мы сможем свободно редактировать первый раздел,

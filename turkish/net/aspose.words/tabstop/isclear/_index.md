@@ -1,14 +1,14 @@
 ---
 title: TabStop.IsClear
 second_title: Aspose.Words for .NET API Referansı
-description: TabStop mülk. Bu sekme durağı bu konumdaki mevcut sekme duraklarını temizlerse true değerini döndürür.
+description: TabStop mülk. İadelerdoğru bu sekme durağı bu konumdaki mevcut sekme duraklarını siliyorsa.
 type: docs
 weight: 30
 url: /tr/net/aspose.words/tabstop/isclear/
 ---
 ## TabStop.IsClear property
 
-Bu sekme durağı, bu konumdaki mevcut sekme duraklarını temizlerse true değerini döndürür.
+İadeler`doğru` bu sekme durağı bu konumdaki mevcut sekme duraklarını siliyorsa.
 
 ```csharp
 public bool IsClear { get; }
@@ -24,7 +24,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 TabStopCollection tabStops = builder.ParagraphFormat.TabStops;
 
-// 72 nokta, Microsoft Word sekmesi durdurma cetvelinde bir "inç"tir.
+// 72 nokta, Microsoft Word sekme durağı cetvelinde bir "inç"tir.
 tabStops.Add(new TabStop(72.0));
 tabStops.Add(new TabStop(432.0, TabAlignment.Right, TabLeader.Dashes));
 
@@ -39,15 +39,15 @@ ParagraphCollection paragraphs = doc.FirstSection.Body.Paragraphs;
 
 Assert.AreEqual(2, paragraphs.Count);
 
-// Her paragraf, değerlerini belge oluşturucunun sekme durağı koleksiyonundan kopyalayan sekme durağı koleksiyonunu alır.
+// Her paragraf, değerlerini belge oluşturucunun sekme durağı koleksiyonundan kopyalayan kendi sekme durağı koleksiyonunu alır.
 Assert.AreEqual(paragraphs[0].ParagraphFormat.TabStops, paragraphs[1].ParagraphFormat.TabStops);
 Assert.AreNotSame(paragraphs[0].ParagraphFormat.TabStops, paragraphs[1].ParagraphFormat.TabStops);
 
-// Bir sekme durağı koleksiyonu bizi belirli konumlardan önce ve sonra TabStop'lara yönlendirebilir.
+// Bir sekme durağı koleksiyonu bizi belirli konumlardan önceki ve sonraki TabStop'lara yönlendirebilir.
 Assert.AreEqual(72.0, tabStops.Before(100.0).Position);
 Assert.AreEqual(432.0, tabStops.After(100.0).Position);
 
-// Varsayılan sekme davranışına geri dönmek için bir paragrafın sekme durağı koleksiyonunu temizleyebiliriz.
+// Varsayılan sekme davranışına geri dönmek için paragrafın sekme durağı koleksiyonunu temizleyebiliriz.
 paragraphs[1].ParagraphFormat.TabStops.Clear();
 
 Assert.AreEqual(0, paragraphs[1].ParagraphFormat.TabStops.Count);

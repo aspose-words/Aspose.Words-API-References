@@ -1,14 +1,14 @@
 ---
 title: DocumentBuilder.InsertShape
 second_title: Aspose.Words لمراجع .NET API
-description: DocumentBuilder طريقة. إدراج شكل مضمّن بنوع وحجم محددين.
+description: DocumentBuilder طريقة. إدراج شكل سطري بالنوع والحجم المحددين.
 type: docs
-weight: 410
+weight: 440
 url: /ar/net/aspose.words/documentbuilder/insertshape/
 ---
 ## InsertShape(ShapeType, double, double) {#insertshape_1}
 
-إدراج شكل مضمّن بنوع وحجم محددين.
+إدراج شكل سطري بالنوع والحجم المحددين.
 
 ```csharp
 public Shape InsertShape(ShapeType shapeType, double width, double height)
@@ -16,7 +16,7 @@ public Shape InsertShape(ShapeType shapeType, double width, double height)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| shapeType | ShapeType | نوع الشكل المراد إدراجه في المستند. |
+| shapeType | ShapeType | نوع الشكل المطلوب إدراجه في المستند. |
 | width | Double | عرض الشكل بالنقاط. |
 | height | Double | ارتفاع الشكل بالنقاط. |
 
@@ -32,7 +32,7 @@ public Shape InsertShape(ShapeType shapeType, double width, double height)
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// يوجد أدناه نوعان من أنواع التغليف التي قد تحتوي عليها الأشكال.
+// فيما يلي نوعان من الالتفاف الذي قد تحتوي عليه الأشكال.
 // 1 - عائم:
 builder.InsertShape(ShapeType.TopCornersRounded, RelativeHorizontalPosition.Page, 100, 
         RelativeVerticalPosition.Page, 100, 50, 50, WrapType.None);
@@ -40,9 +40,9 @@ builder.InsertShape(ShapeType.TopCornersRounded, RelativeHorizontalPosition.Page
 // 2 - مضمنة:
 builder.InsertShape(ShapeType.DiagonalCornersRounded, 50, 50);
 
-// إذا كنت تريد إنشاء أشكال "غير بدائية" ، مثل SingleCornerSnipped و TopCornersSnipped و DiagonalCornersSnipped ،
-// TopCornersOneRoundedOneSnipped أو SingleCornerRounded أو TopCornersRounded أو DiagonalCornersRounded
-// ثم احفظ المستند بامتثال "صارم" أو "انتقالي" ، مما يسمح بحفظ الشكل بتنسيق DML.
+// إذا كنت بحاجة إلى إنشاء أشكال "غير بدائية"، مثل SingleCornerSnipped، وTopCornersSnipped، وDiagonalCornersSnipped،
+// TopCornersOneRoundedOneSnipped، أو SingleCornerRounded، أو TopCornersRounded، أو DiagonalCornersRounded،
+// ثم احفظ المستند بالتوافق "الصارم" أو "الانتقالي"، والذي يسمح بحفظ الشكل بتنسيق DML.
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(SaveFormat.Docx);
 saveOptions.Compliance = OoxmlCompliance.Iso29500_2008_Transitional;
 
@@ -61,7 +61,7 @@ doc.Save(ArtifactsDir + "Shape.ShapeInsertion.docx", saveOptions);
 
 ## InsertShape(ShapeType, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) {#insertshape}
 
-إدراج شكل عائم مع موضع وحجم ونوع التفاف النص المحدد.
+إدراج شكل عائم بموضع وحجم ونوع التفاف النص المحدد.
 
 ```csharp
 public Shape InsertShape(ShapeType shapeType, RelativeHorizontalPosition horzPos, double left, 
@@ -70,11 +70,11 @@ public Shape InsertShape(ShapeType shapeType, RelativeHorizontalPosition horzPos
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| shapeType | ShapeType | نوع الشكل المراد إدراجه في المستند |
-| horzPos | RelativeHorizontalPosition | يحدد مكان قياس المسافة الأفقية للشكل منه. |
-| left | Double | المسافة بالنقاط من الأصل إلى الجانب الأيسر من الشكل. |
-| vertPos | RelativeVerticalPosition | يحدد المكان الذي يتم قياس المسافة العمودية منه إلى الشكل. |
-| top | Double | المسافة بالنقاط من الأصل إلى الجانب العلوي للشكل. |
+| shapeType | ShapeType | نوع الشكل المطلوب إدراجه في المستند |
+| horzPos | RelativeHorizontalPosition | يحدد المكان الذي يتم منه قياس المسافة الأفقية إلى الشكل. |
+| left | Double | المسافة بالنقاط من نقطة الأصل إلى الجانب الأيسر من الشكل. |
+| vertPos | RelativeVerticalPosition | يحدد المكان الذي يتم منه قياس المسافة العمودية إلى الشكل. |
+| top | Double | المسافة بالنقاط من الأصل إلى الجانب العلوي من الشكل. |
 | width | Double | عرض الشكل بالنقاط. |
 | height | Double | عرض الشكل بالنقاط. |
 | wrapType | WrapType | يحدد كيفية التفاف النص حول الشكل. |
@@ -91,7 +91,7 @@ public Shape InsertShape(ShapeType shapeType, RelativeHorizontalPosition horzPos
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// يوجد أدناه نوعان من أنواع التغليف التي قد تحتوي عليها الأشكال.
+// فيما يلي نوعان من الالتفاف الذي قد تحتوي عليه الأشكال.
 // 1 - عائم:
 builder.InsertShape(ShapeType.TopCornersRounded, RelativeHorizontalPosition.Page, 100, 
         RelativeVerticalPosition.Page, 100, 50, 50, WrapType.None);
@@ -99,9 +99,9 @@ builder.InsertShape(ShapeType.TopCornersRounded, RelativeHorizontalPosition.Page
 // 2 - مضمنة:
 builder.InsertShape(ShapeType.DiagonalCornersRounded, 50, 50);
 
-// إذا كنت تريد إنشاء أشكال "غير بدائية" ، مثل SingleCornerSnipped و TopCornersSnipped و DiagonalCornersSnipped ،
-// TopCornersOneRoundedOneSnipped أو SingleCornerRounded أو TopCornersRounded أو DiagonalCornersRounded
-// ثم احفظ المستند بامتثال "صارم" أو "انتقالي" ، مما يسمح بحفظ الشكل بتنسيق DML.
+// إذا كنت بحاجة إلى إنشاء أشكال "غير بدائية"، مثل SingleCornerSnipped، وTopCornersSnipped، وDiagonalCornersSnipped،
+// TopCornersOneRoundedOneSnipped، أو SingleCornerRounded، أو TopCornersRounded، أو DiagonalCornersRounded،
+// ثم احفظ المستند بالتوافق "الصارم" أو "الانتقالي"، والذي يسمح بحفظ الشكل بتنسيق DML.
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(SaveFormat.Docx);
 saveOptions.Compliance = OoxmlCompliance.Iso29500_2008_Transitional;
 

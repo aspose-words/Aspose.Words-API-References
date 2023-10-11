@@ -20,7 +20,7 @@ public MemoryStream GetOleEntry(string oleEntryName)
 
 ### Returvärde
 
-En OLE-dataström eller null.
+En OLE-dataström eller`null`.
 
 ### Exempel
 

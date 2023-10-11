@@ -1,14 +1,14 @@
 ---
 title: HtmlFixedSaveOptions.OptimizeOutput
 second_title: Aspose.Words per .NET API Reference
-description: HtmlFixedSaveOptions proprietà. Il flag indica se è necessario ottimizzare loutput. Se questo flag è impostato le tele nidificate ridondanti e le tele vuote vengono rimosse anche i glifi vicini con la stessa formattazione vengono concatenati. Nota la precisione della visualizzazione del contenuto potrebbe essere compromessa se questa proprietà è impostata su true. Limpostazione predefinita è true.
+description: HtmlFixedSaveOptions proprietà. Il flag indica se è necessario ottimizzare loutput. Se questo flag è impostato le tele nidificate ridondanti e le tele vuote vengono rimosse vengono concatenati anche i glifi vicini con la stessa formattazione. Nota la precisione della visualizzazione del contenuto potrebbe essere influenzata se questa proprietà è impostata suVERO . Limpostazione predefinita èVERO .
 type: docs
 weight: 100
 url: /it/net/aspose.words.saving/htmlfixedsaveoptions/optimizeoutput/
 ---
 ## HtmlFixedSaveOptions.OptimizeOutput property
 
-Il flag indica se è necessario ottimizzare l'output. Se questo flag è impostato, le tele nidificate ridondanti e le tele vuote vengono rimosse, anche i glifi vicini con la stessa formattazione vengono concatenati. Nota: la precisione della visualizzazione del contenuto potrebbe essere compromessa se questa proprietà è impostata su true. L'impostazione predefinita è true.
+Il flag indica se è necessario ottimizzare l'output. Se questo flag è impostato, le tele nidificate ridondanti e le tele vuote vengono rimosse, vengono concatenati anche i glifi vicini con la stessa formattazione. Nota: la precisione della visualizzazione del contenuto potrebbe essere influenzata se questa proprietà è impostata su`VERO` . L'impostazione predefinita è`VERO` .
 
 ```csharp
 public override bool OptimizeOutput { get; set; }
@@ -16,7 +16,7 @@ public override bool OptimizeOutput { get; set; }
 
 ### Esempi
 
-Mostra come semplificare un documento durante il salvataggio in HTML rimuovendo vari oggetti ridondanti.
+Mostra come semplificare un documento quando lo si salva in HTML rimuovendo vari oggetti ridondanti.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

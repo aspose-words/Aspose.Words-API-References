@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.UseWord97LineBreakRules
 second_title: Справочник по API Aspose.Words для .NET
-description: CompatibilityOptions свойство. Эмулировать разрыв строки Word 97 в Восточной Азии.
+description: CompatibilityOptions свойство. Эмуляция разрыва строки в Word 97 для Восточной Азии.
 type: docs
 weight: 680
 url: /ru/net/aspose.words.settings/compatibilityoptions/useword97linebreakrules/
 ---
 ## CompatibilityOptions.UseWord97LineBreakRules property
 
-Эмулировать разрыв строки Word 97 в Восточной Азии.
+Эмуляция разрыва строки в Word 97 для Восточной Азии.
 
 ```csharp
 public bool UseWord97LineBreakRules { get; set; }

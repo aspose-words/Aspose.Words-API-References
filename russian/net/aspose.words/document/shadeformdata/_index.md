@@ -1,14 +1,14 @@
 ---
 title: Document.ShadeFormData
 second_title: Справочник по API Aspose.Words для .NET
-description: Document свойство. Указывает следует ли включать серое затенение полей формы.
+description: Document свойство. Указывает включать ли затенение серым в полях формы.
 type: docs
-weight: 360
+weight: 380
 url: /ru/net/aspose.words/document/shadeformdata/
 ---
 ## Document.ShadeFormData property
 
-Указывает, следует ли включать серое затенение полей формы.
+Указывает, включать ли затенение серым в полях формы.
 
 ```csharp
 public bool ShadeFormData { get; set; }
@@ -16,7 +16,7 @@ public bool ShadeFormData { get; set; }
 
 ### Примеры
 
-Показывает, как применить затенение серого к полям формы.
+Показывает, как применить заливку серым к полям формы.
 
 ```csharp
 Document doc = new Document();
@@ -25,7 +25,7 @@ builder.Write("Hello world! ");
 builder.InsertTextInput("My form field", TextFormFieldType.Regular, "",
     "Text contents of form field, which are shaded in grey by default.", 0);
 
-// Мы можем отключить затенение серым цветом, чтобы текст, отмеченный закладкой, сливался с другим текстом.
+// Мы можем отключить затенение серого, чтобы текст с закладкой сливался с другим текстом.
 doc.ShadeFormData = useGreyShading;
 doc.Save(ArtifactsDir + "Document.ShadeFormData.docx");
 ```

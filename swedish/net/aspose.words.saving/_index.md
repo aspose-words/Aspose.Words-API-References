@@ -3,7 +3,7 @@ title: Aspose.Words.Saving
 second_title: Aspose.Words för .NET API Referens
 description: De Aspose.Words.Saving namnområdet tillhandahåller klasser och uppräkningar som tillåter att ange ytterligare alternativ för att spara eller konvertera dokument.
 type: docs
-weight: 220
+weight: 230
 url: /sv/net/aspose.words.saving/
 ---
 De **Aspose.Words.Saving** namnområdet tillhandahåller klasser och uppräkningar som tillåter att ange ytterligare alternativ för att spara eller konvertera dokument.
@@ -22,7 +22,7 @@ De **Aspose.Words.Saving** namnområdet tillhandahåller klasser och uppräkning
 | [FontSavingArgs](./fontsavingargs/) | Tillhandahåller data för[`FontSaving`](../aspose.words.saving/ifontsavingcallback/fontsaving/) händelse. |
 | [GraphicsQualityOptions](./graphicsqualityoptions/) | Tillåter att ange ytterligareGraphics kvalitetsalternativ. |
 | [HtmlFixedSaveOptions](./htmlfixedsaveoptions/) | Kan användas för att ange ytterligare alternativ när du sparar ett dokument iHtmlFixed format. |
-| [HtmlSaveOptions](./htmlsaveoptions/) | Kan användas för att ange ytterligare alternativ när du sparar ett dokument iHtml , Mhtml ellerEpub format. |
+| [HtmlSaveOptions](./htmlsaveoptions/) | Kan användas för att ange ytterligare alternativ när du sparar ett dokument i Html ,Mhtml ,Epub , Azw3 ellerMobi format. |
 | [ImageSaveOptions](./imagesaveoptions/) | Gör det möjligt att ange ytterligare alternativ när du renderar dokumentsidor eller former till bilder. |
 | [ImageSavingArgs](./imagesavingargs/) | Tillhandahåller data för[`ImageSaving`](../aspose.words.saving/iimagesavingcallback/imagesaving/) händelse. |
 | [MarkdownSaveOptions](./markdownsaveoptions/) | Klass för att ange ytterligare alternativ när du sparar ett dokument iMarkdown format. |
@@ -41,7 +41,7 @@ De **Aspose.Words.Saving** namnområdet tillhandahåller klasser och uppräkning
 | [PsSaveOptions](./pssaveoptions/) | Kan användas för att ange ytterligare alternativ när du sparar ett dokument iPs format. |
 | [ResourceSavingArgs](./resourcesavingargs/) | Tillhandahåller data för[`ResourceSaving`](../aspose.words.saving/iresourcesavingcallback/resourcesaving/) händelse. |
 | [RtfSaveOptions](./rtfsaveoptions/) | Kan användas för att ange ytterligare alternativ när du sparar ett dokument iRtf format. |
-| [SaveOptions](./saveoptions/) | Detta är en abstrakt basklass för klasser som tillåter användaren att ange ytterligare -alternativ när ett dokument sparas i ett visst format. |
+| [SaveOptions](./saveoptions/) | Detta är en abstrakt basklass för klasser som låter användaren ange ytterligare -alternativ när ett dokument sparas i ett visst format. |
 | [SaveOutputParameters](./saveoutputparameters/) | Detta objekt returneras till den som ringer efter att ett dokument har sparats och innehåller ytterligare information som har genererats eller beräknats under sparoperationen. Den som ringer kan använda eller ignorera detta objekt. |
 | [SvgSaveOptions](./svgsaveoptions/) | Kan användas för att ange ytterligare alternativ när du sparar ett dokument iSvg format. |
 | [TxtListIndentation](./txtlistindentation/) | Anger hur listnivåer dras in när dokumentet exporteras tillText format. |
@@ -50,6 +50,7 @@ De **Aspose.Words.Saving** namnområdet tillhandahåller klasser och uppräkning
 | [WordML2003SaveOptions](./wordml2003saveoptions/) | Kan användas för att ange ytterligare alternativ när du sparar ett dokument iWordML format. |
 | [XamlFixedSaveOptions](./xamlfixedsaveoptions/) | Kan användas för att ange ytterligare alternativ när du sparar ett dokument iXamlFixed format. |
 | [XamlFlowSaveOptions](./xamlflowsaveoptions/) | Kan användas för att ange ytterligare alternativ när du sparar ett dokument i XamlFlow ellerXamlFlowPack format. |
+| [XlsxSaveOptions](./xlsxsaveoptions/) | Kan användas för att ange ytterligare alternativ när du sparar ett dokument iXlsx format. |
 | [XpsSaveOptions](./xpssaveoptions/) | Kan användas för att ange ytterligare alternativ när du sparar ett dokument iXps format. |
 ## Gränssnitt
 
@@ -72,7 +73,7 @@ De **Aspose.Words.Saving** namnområdet tillhandahåller klasser och uppräkning
 | [Dml3DEffectsRenderingMode](./dml3deffectsrenderingmode/) | Anger hur 3D-formeffekter renderas. |
 | [DmlEffectsRenderingMode](./dmleffectsrenderingmode/) | Anger hur DrawingML-effekter renderas till fasta sidformat. |
 | [DmlRenderingMode](./dmlrenderingmode/) | Anger hur DrawingML-former renderas till fasta sidformat. |
-| [DocumentSplitCriteria](./documentsplitcriteria/) | Anger hur dokumentet delas upp i delar när det sparas tillHtml ellerEpub format. |
+| [DocumentSplitCriteria](./documentsplitcriteria/) | Anger hur dokumentet delas upp i delar när det sparas tillHtml , Epub ellerAzw3 format. |
 | [EmfPlusDualRenderingMode](./emfplusdualrenderingmode/) | Anger hur Aspose.Words ska återge EMF+ Dual metafiler. |
 | [ExportFontFormat](./exportfontformat/) | Indikerar formatet som används för att exportera teckensnitt vid rendering till HTML-fast format. |
 | [ExportHeadersFootersMode](./exportheadersfootersmode/) | Anger hur sidhuvuden och sidfötter exporteras till HTML, MHTML eller EPUB. |
@@ -87,6 +88,8 @@ De **Aspose.Words.Saving** namnområdet tillhandahåller klasser och uppräkning
 | [ImageColorMode](./imagecolormode/) | Anger färgläget för de genererade bilderna på dokumentsidorna. |
 | [ImagePixelFormat](./imagepixelformat/) | Anger pixelformatet för de genererade bilderna av dokumentsidor. |
 | [ImlRenderingMode](./imlrenderingmode/) | Anger hur bläckobjekt (InkML) renderas till fasta sidformat. |
+| [MarkdownLinkExportMode](./markdownlinkexportmode/) | Läget för att exportera länkar till ett måldokument. |
+| [MarkdownListExportMode](./markdownlistexportmode/) | Anger hur listor exporteras till Markdown. |
 | [MetafileRenderingMode](./metafilerenderingmode/) | Anger hur Aspose.Words ska återge WMF- och EMF-metafiler. |
 | [NumeralFormat](./numeralformat/) | Indikerar symboluppsättningen som används för att representera siffror vid återgivning till fasta sidformat. |
 | [OdtSaveMeasureUnit](./odtsavemeasureunit/) | Angivna måttenheter som ska tillämpas på mätbart dokumentinnehåll som form, bredder och annat under sparandet. |
@@ -101,7 +104,7 @@ De **Aspose.Words.Saving** namnområdet tillhandahåller klasser och uppräkning
 | [PdfPermissions](./pdfpermissions/) | Anger de operationer som är tillåtna för en användare på ett krypterat PDF-dokument. |
 | [PdfTextCompression](./pdftextcompression/) | Anger en typ av komprimering som tillämpas på allt innehåll i PDF-filen utom bilder. |
 | [PdfZoomBehavior](./pdfzoombehavior/) | Anger typen av zoom som tillämpas på ett PDF-dokument när det öppnas i en PDF-visare. |
-| [SvgTextOutputMode](./svgtextoutputmode/) |  |
+| [SvgTextOutputMode](./svgtextoutputmode/) | Gör det möjligt att ange hur text i ett dokument ska renderas när du sparar i SVG-format. |
 | [TableContentAlignment](./tablecontentalignment/) | Tillåter att specificera justeringen av innehållet i tabellen som ska användas vid export till Markdown-format. |
 | [TiffCompression](./tiffcompression/) | Anger vilken typ av komprimering som ska tillämpas när sidbilder sparas i en TIFF-fil. |
 | [TxtExportHeadersFootersMode](./txtexportheadersfootersmode/) | Anger hur sidhuvuden och sidfötter exporteras till vanligt textformat. |

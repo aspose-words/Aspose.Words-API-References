@@ -1,14 +1,14 @@
 ---
 title: LoadOptions.TempFolder
 second_title: Aspose.Words für .NET-API-Referenz
-description: LoadOptions eigendom. Ermöglicht die Verwendung temporärer Dateien beim Lesen des Dokuments. Standardmäßig ist diese EigenschaftNull und es werden keine temporären Dateien verwendet.
+description: LoadOptions eigendom. Ermöglicht die Verwendung temporärer Dateien beim Lesen von Dokumenten. Standardmäßig ist diese EigenschaftNull und es werden keine temporären Dateien verwendet.
 type: docs
 weight: 150
 url: /de/net/aspose.words.loading/loadoptions/tempfolder/
 ---
 ## LoadOptions.TempFolder property
 
-Ermöglicht die Verwendung temporärer Dateien beim Lesen des Dokuments. Standardmäßig ist diese Eigenschaft`Null` und es werden keine temporären Dateien verwendet.
+Ermöglicht die Verwendung temporärer Dateien beim Lesen von Dokumenten. Standardmäßig ist diese Eigenschaft`Null` und es werden keine temporären Dateien verwendet.
 
 ```csharp
 public string TempFolder { get; set; }
@@ -18,28 +18,28 @@ public string TempFolder { get; set; }
 
 Der Ordner muss vorhanden und beschreibbar sein, andernfalls wird eine Ausnahme ausgelöst.
 
-Aspose.Words löscht automatisch alle temporären Dateien, wenn das Lesen abgeschlossen ist.
+Aspose.Words löscht automatisch alle temporären Dateien, wenn der Lesevorgang abgeschlossen ist.
 
 ### Beispiele
 
-Zeigt, wie ein Dokument mit temporären Dateien geladen wird.
+Zeigt, wie ein Dokument mithilfe temporärer Dateien geladen wird.
 
 ```csharp
 // Beachten Sie, dass ein solcher Ansatz die Speichernutzung reduzieren kann, aber die Geschwindigkeit verringert
 LoadOptions loadOptions = new LoadOptions();
 loadOptions.TempFolder = @"C:\TempFolder\";
 
-// Sicherstellen, dass das Verzeichnis existiert und laden
+// Stellen Sie sicher, dass das Verzeichnis vorhanden ist, und laden Sie es
 Directory.CreateDirectory(loadOptions.TempFolder);
 
 Document doc = new Document(MyDir + "Document.docx", loadOptions);
 ```
 
-Zeigt, wie beim Laden eines Dokuments die Festplatte anstelle des Arbeitsspeichers verwendet wird.
+Zeigt, wie beim Laden eines Dokuments die Festplatte anstelle des Speichers verwendet wird.
 
 ```csharp
 // Wenn wir ein Dokument laden, werden während des Speichervorgangs verschiedene Elemente vorübergehend im Speicher gespeichert.
-// Wir können diese Option verwenden, um stattdessen einen temporären Ordner im lokalen Dateisystem zu verwenden,
+// Mit dieser Option können wir stattdessen einen temporären Ordner im lokalen Dateisystem verwenden.
 // was den Speicheraufwand unserer Anwendung reduziert.
 LoadOptions options = new LoadOptions();
 options.TempFolder = ArtifactsDir + "TempFiles";
@@ -49,7 +49,7 @@ Directory.CreateDirectory(options.TempFolder);
 
 Document doc = new Document(MyDir + "Document.docx", options);
 
-// Der Ordner wird ohne Restinhalte aus dem Ladevorgang bestehen bleiben.
+// Der Ordner bleibt ohne Restinhalte vom Ladevorgang bestehen.
 Assert.That(Directory.GetFiles(options.TempFolder), Is.Empty);
 ```
 

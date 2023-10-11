@@ -3,7 +3,7 @@ title: Document.RevisionsView
 second_title: Aspose.Words لمراجع .NET API
 description: Document ملكية. الحصول على أو تعيين قيمة تشير إلى ما إذا كان سيتم العمل مع النسخة الأصلية أو المنقحة من المستند.
 type: docs
-weight: 340
+weight: 360
 url: /ar/net/aspose.words/document/revisionsview/
 ---
 ## Document.RevisionsView property
@@ -20,7 +20,7 @@ public RevisionsView RevisionsView { get; set; }
 
 ### أمثلة
 
-يوضح كيفية التبديل بين العرض الذي تمت مراجعته وعرضه الأصلي للمستند.
+يوضح كيفية التبديل بين العرض الأصلي والمراجع للمستند.
 
 ```csharp
 Document doc = new Document(MyDir + "Revisions at list levels.docx");

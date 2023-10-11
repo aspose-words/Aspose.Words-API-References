@@ -3,7 +3,7 @@ title: ShapeBase.Right
 second_title: Aspose.Words för .NET API Referens
 description: ShapeBase fast egendom. Får positionen för den högra kanten av det innehållande blocket av formen.
 type: docs
-weight: 420
+weight: 460
 url: /sv/net/aspose.words.drawing/shapebase/right/
 ---
 ## ShapeBase.Right property

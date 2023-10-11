@@ -1,14 +1,14 @@
 ---
 title: FieldHyperlink.SubAddress
 second_title: Aspose.Words für .NET-API-Referenz
-description: FieldHyperlink eigendom. Ruft eine Position in der Datei ab oder legt sie fest z. B. ein Lesezeichen an die dieser Hyperlink springt.
+description: FieldHyperlink eigendom. Ruft eine Position in der Datei ab oder legt diese fest beispielsweise ein Lesezeichen an die dieser Hyperlink springt.
 type: docs
 weight: 60
 url: /de/net/aspose.words.fields/fieldhyperlink/subaddress/
 ---
 ## FieldHyperlink.SubAddress property
 
-Ruft eine Position in der Datei ab oder legt sie fest, z. B. ein Lesezeichen, an die dieser Hyperlink springt.
+Ruft eine Position in der Datei ab oder legt diese fest, beispielsweise ein Lesezeichen, an die dieser Hyperlink springt.
 
 ```csharp
 public string SubAddress { get; set; }
@@ -16,7 +16,7 @@ public string SubAddress { get; set; }
 
 ### Beispiele
 
-Zeigt, wie HYPERLINK-Felder verwendet werden, um auf Dokumente im lokalen Dateisystem zu verlinken.
+Zeigt, wie HYPERLINK-Felder zum Verknüpfen mit Dokumenten im lokalen Dateisystem verwendet werden.
 
 ```csharp
 Document doc = new Document();
@@ -25,7 +25,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 FieldHyperlink field = (FieldHyperlink)builder.InsertField(FieldType.FieldHyperlink, true);
 
 // Wenn wir in Microsoft Word auf dieses HYPERLINK-Feld klicken,
-// Es öffnet das verknüpfte Dokument und setzt dann den Cursor auf das angegebene Lesezeichen.
+// Es öffnet das verknüpfte Dokument und platziert den Cursor dann auf dem angegebenen Lesezeichen.
 field.Address = MyDir + "Bookmarks.docx";
 field.SubAddress = "MyBookmark3";
 field.ScreenTip = "Open " + field.Address + " on bookmark " + field.SubAddress + " in a new window";

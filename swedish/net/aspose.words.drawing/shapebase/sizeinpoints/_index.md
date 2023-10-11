@@ -3,7 +3,7 @@ title: ShapeBase.SizeInPoints
 second_title: Aspose.Words för .NET API Referens
 description: ShapeBase fast egendom. Får formens storlek i poäng.
 type: docs
-weight: 470
+weight: 510
 url: /sv/net/aspose.words.drawing/shapebase/sizeinpoints/
 ---
 ## ShapeBase.SizeInPoints property

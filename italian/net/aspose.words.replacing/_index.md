@@ -1,12 +1,12 @@
 ---
 title: Aspose.Words.Replacing
 second_title: Aspose.Words per .NET API Reference
-description: Il Aspose.Words.Sostituzione namespace fornisce classi per manipolare con operazioni di ricerca/sostituzione sullalbero del documento.
+description: IL Aspose.Words.Sostituzione namespace fornisce classi per manipolare con operazioni di ricerca/sostituzione sullalbero del documento.
 type: docs
-weight: 200
+weight: 210
 url: /it/net/aspose.words.replacing/
 ---
-Il **Aspose.Words.Sostituzione** namespace fornisce classi per manipolare con operazioni di ricerca/sostituzione sull'albero del documento.
+IL **Aspose.Words.Sostituzione** namespace fornisce classi per manipolare con operazioni di ricerca/sostituzione sull'albero del documento.
 
 ## Classi
 
@@ -24,6 +24,6 @@ Il **Aspose.Words.Sostituzione** namespace fornisce classi per manipolare con op
 | Enumerazione | Descrizione |
 | --- | --- |
 | [FindReplaceDirection](./findreplacedirection/) | Specifica la direzione per le operazioni di sostituzione. |
-| [ReplaceAction](./replaceaction/) | Consente all'utente di specificare cosa accade alla corrispondenza corrente durante un'operazione di sostituzione. |
+| [ReplaceAction](./replaceaction/) | Consente all'utente di specificare cosa succede alla corrispondenza corrente durante un'operazione di sostituzione. |
 
 

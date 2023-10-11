@@ -1,14 +1,14 @@
 ---
 title: TaskPane.IsLocked
 second_title: Aspose.Words for .NET API Referansı
-description: TaskPane mülk. Görev bölmesinin kullanıcı arabirimindeki belgeye kilitlenip kilitlenmediğini ve kullanıcı tarafından kapatılıp kapatılamayacağını belirtir.
+description: TaskPane mülk. Görev bölmesinin kullanıcı arayüzündeki belgeye kilitli olup olmadığını ve kullanıcı tarafından kapatılıp kapatılamayacağını belirtir.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.webextensions/taskpane/islocked/
 ---
 ## TaskPane.IsLocked property
 
-Görev bölmesinin kullanıcı arabirimindeki belgeye kilitlenip kilitlenmediğini ve kullanıcı tarafından kapatılıp kapatılamayacağını belirtir.
+Görev bölmesinin kullanıcı arayüzündeki belgeye kilitli olup olmadığını ve kullanıcı tarafından kapatılıp kapatılamayacağını belirtir.
 
 ```csharp
 public bool IsLocked { get; set; }
@@ -21,8 +21,8 @@ Bir belgeye nasıl web uzantısı ekleneceğini gösterir.
 ```csharp
 Document doc = new Document();
 
-// Belgenin kullanacağı "MyScript" eklentisi ile görev bölmesi oluşturun,
-// ardından varsayılan konumunu ayarlayın.
+// Dokümanın kullanacağı "MyScript" eklentisi ile görev bölmesi oluşturalım,
+// daha sonra varsayılan konumunu ayarlayın.
 TaskPane myScriptTaskPane = new TaskPane();
 doc.WebExtensionTaskPanes.Add(myScriptTaskPane);
 myScriptTaskPane.DockState = TaskPaneDockState.Right;
@@ -33,7 +33,7 @@ myScriptTaskPane.IsLocked = true;
 // Aynı yerleştirme konumunda birden fazla görev bölmesi varsa, bunları düzenlemek için bu dizini ayarlayabiliriz.
 myScriptTaskPane.Row = 1;
 
-// Görev bölmesinin içinde görüntüleneceği "MyScript Math Sample" adlı bir eklenti oluşturun.
+// Görev bölmesinin içinde görüntüleyeceği "MyScript Math Sample" adında bir eklenti oluşturun.
 WebExtension webExtension = myScriptTaskPane.WebExtension;
 
 // Eklentimiz için ID gibi uygulama mağazası referans parametrelerini ayarlayın.
@@ -47,7 +47,7 @@ webExtension.Bindings.Add(new WebExtensionBinding("MyScript", WebExtensionBindin
 // Kullanıcının eklentiyle etkileşime girmesine izin ver.
 webExtension.IsFrozen = false;
 
-// Microsoft Word'deki web uzantısına Developer -> Eklentiler.
+// Microsoft Word'deki web uzantısına Developer --> aracılığıyla erişebiliriz. Eklentiler.
 doc.Save(ArtifactsDir + "Document.WebExtension.docx");
 
 // Tüm web uzantısı görev bölmelerini bu şekilde bir kerede kaldırın.

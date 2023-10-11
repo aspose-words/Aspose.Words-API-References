@@ -3,7 +3,7 @@ title: Enum WrapSide
 second_title: Aspose.Words per .NET API Reference
 description: Aspose.Words.Drawing.WrapSide enum. Specifica su quali lati della forma o dellimmagine si avvolge il testo.
 type: docs
-weight: 1240
+weight: 1390
 url: /it/net/aspose.words.drawing/wrapside/
 ---
 ## WrapSide enumeration
@@ -18,15 +18,15 @@ public enum WrapSide
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
-| Both | `0` | Il testo del documento va a capo su entrambi i lati della forma. |
-| Left | `1` | Il testo del documento va a capo solo sul lato sinistro della forma. C'è un'area senza testo a destra della forma. |
-| Right | `2` | Il testo del documento va a capo solo sul lato destro della forma. C'è un'area senza testo sul lato sinistro della forma. |
-| Largest | `3` | Il testo del documento va a capo sul lato della forma più lontano dal margine della pagina, lasciando un'area libera dal testo sull'altro lato della forma. |
+| Both | `0` | Il testo del documento viene disposto su entrambi i lati della forma. |
+| Left | `1` | Il testo del documento va a capo solo sul lato sinistro della forma. C'è un'area libera da testo a destra della forma. |
+| Right | `2` | Il testo del documento va a capo solo sul lato destro della forma. C'è un'area libera da testo sul lato sinistro della forma. |
+| Largest | `3` | Il testo del documento va a capo sul lato della forma più lontano dal margine della pagina, lasciando un'area libera di testo sull'altro lato della forma. |
 | Default | `0` | Il valore predefinito èBoth . |
 
 ### Esempi
 
-Mostra come sostituire tutte le forme casella di testo con forme immagine.
+Mostra come sostituire tutte le forme delle caselle di testo con forme di immagine.
 
 ```csharp
 Document doc = new Document(MyDir + "Textboxes in drawing canvas.docx");

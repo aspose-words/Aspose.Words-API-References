@@ -1,14 +1,14 @@
 ---
 title: TableStyle.AllowBreakAcrossPages
 second_title: Referencia de API de Aspose.Words para .NET
-description: TableStyle propiedad. Obtiene o establece un indicador que indica si el texto de una fila de la tabla puede dividirse en un salto de página.
+description: TableStyle propiedad. Obtiene o establece una marca que indica si el texto de una fila de la tabla puede dividirse en un salto de página.
 type: docs
 weight: 20
 url: /es/net/aspose.words/tablestyle/allowbreakacrosspages/
 ---
 ## TableStyle.AllowBreakAcrossPages property
 
-Obtiene o establece un indicador que indica si el texto de una fila de la tabla puede dividirse en un salto de página.
+Obtiene o establece una marca que indica si el texto de una fila de la tabla puede dividirse en un salto de página.
 
 ```csharp
 public bool AllowBreakAcrossPages { get; set; }
@@ -16,7 +16,7 @@ public bool AllowBreakAcrossPages { get; set; }
 
 ### Observaciones
 
-El valor predeterminado es **verdadero** .
+El valor predeterminado es`verdadero` .
 
 ### Ejemplos
 
@@ -51,7 +51,7 @@ tableStyle.VerticalAlignment = CellVerticalAlignment.Center;
 
 table.Style = tableStyle;
 
-// Establecer las propiedades de estilo de una tabla puede afectar las propiedades de la propia tabla.
+// Establecer las propiedades de estilo de una tabla puede afectar las propiedades de la tabla misma.
 Assert.True(table.Bidi);
 Assert.AreEqual(5.0d, table.CellSpacing);
 Assert.AreEqual("MyTableStyle1", table.StyleName);

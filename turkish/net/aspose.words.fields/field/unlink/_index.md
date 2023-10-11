@@ -1,14 +1,14 @@
 ---
 title: Field.Unlink
 second_title: Aspose.Words for .NET API Referansı
-description: Field yöntem. Bağlantıyı kaldır alanını gerçekleştirir.
+description: Field yöntem. Alanın bağlantısını kaldırır.
 type: docs
 weight: 130
 url: /tr/net/aspose.words.fields/field/unlink/
 ---
 ## Field.Unlink method
 
-Bağlantıyı kaldır alanını gerçekleştirir.
+Alanın bağlantısını kaldırır.
 
 ```csharp
 public bool Unlink()
@@ -16,7 +16,7 @@ public bool Unlink()
 
 ### Geri dönüş değeri
 
-`Doğru` alanın bağlantısı kaldırılmışsa, aksi takdirde`yanlış` .
+`doğru` alanın bağlantısı kaldırılmışsa, aksi halde`YANLIŞ` .
 
 ### Notlar
 

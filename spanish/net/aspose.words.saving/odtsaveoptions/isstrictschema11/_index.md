@@ -1,14 +1,14 @@
 ---
 title: OdtSaveOptions.IsStrictSchema11
 second_title: Referencia de API de Aspose.Words para .NET
-description: OdtSaveOptions propiedad. Especifica si la exportación debe corresponder estrictamente a la especificación 1.1 de ODT. OOo 3.0 muestra los archivos correctamente cuando contienen elementos y atributos de ODT 1.2. Use falso para este propósito o verdadero para conformidad estricta con la especificación 1.1. El valor predeterminado es falso .
+description: OdtSaveOptions propiedad. Especifica si la exportación debe corresponder estrictamente a la especificación ODT 1.1. OOo 3.0 muestra archivos correctamente cuando contienen elementos y atributos de ODT 1.2. Utilice falso para este propósito o verdadero para conformidad estricta con la especificación 1.1. El valor predeterminado esFALSO .
 type: docs
 weight: 20
 url: /es/net/aspose.words.saving/odtsaveoptions/isstrictschema11/
 ---
 ## OdtSaveOptions.IsStrictSchema11 property
 
-Especifica si la exportación debe corresponder estrictamente a la especificación 1.1 de ODT. OOo 3.0 muestra los archivos correctamente cuando contienen elementos y atributos de ODT 1.2. Use "falso" para este propósito, o "verdadero" para conformidad estricta con la especificación 1.1. El valor predeterminado es **falso** .
+Especifica si la exportación debe corresponder estrictamente a la especificación ODT 1.1. OOo 3.0 muestra archivos correctamente cuando contienen elementos y atributos de ODT 1.2. Utilice "falso" para este propósito, o "verdadero" para conformidad estricta con la especificación 1.1. El valor predeterminado es`FALSO` .
 
 ```csharp
 public bool IsStrictSchema11 { get; set; }

@@ -3,7 +3,7 @@ title: HtmlSaveOptions.ImagesFolder
 second_title: Referencia de API de Aspose.Words para .NET
 description: HtmlSaveOptions propiedad. Especifica la carpeta física donde se guardan las imágenes al exportar un documento a formato HTML. El valor predeterminado es una cadena vacía.
 type: docs
-weight: 370
+weight: 360
 url: /es/net/aspose.words.saving/htmlsaveoptions/imagesfolder/
 ---
 ## HtmlSaveOptions.ImagesFolder property
@@ -16,7 +16,7 @@ public string ImagesFolder { get; set; }
 
 ### Observaciones
 
-Cuando guardas un[`Document`](../../../aspose.words/document/) en formato HTML, Aspose.Words necesita guardar todas las imágenes incrustadas en el documento como archivos independientes.`ImagesFolder` le permite especificar dónde se guardarán las imágenes y[`ImagesFolderAlias`](../imagesfolderalias/) permite especificar cómo se construirán las URI de la imagen.
+Cuando guardas un[`Document`](../../../aspose.words/document/) en formato HTML, Aspose.Words necesita guardar todas las imágenes incrustadas en el documento como archivos independientes.`ImagesFolder` le permite especificar dónde se guardarán las imágenes y[`ImagesFolderAlias`](../imagesfolderalias/) permite especificar cómo se construirán los URI de la imagen.
 
 Si guarda un documento en un archivo y proporciona un nombre de archivo, Aspose.Words, de forma predeterminada, guarda las imágenes en la misma carpeta donde se guarda el archivo del documento. Usar`ImagesFolder` para anular este comportamiento.
 
@@ -40,7 +40,7 @@ if (Directory.Exists(imagesDir))
 
 Directory.CreateDirectory(imagesDir);
 
-// Establecer una opción para exportar campos de formulario como texto sin formato en lugar de elementos de entrada HTML.
+// Establece una opción para exportar campos de formulario como texto sin formato en lugar de elementos de entrada HTML.
 HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.Html)
 {
     ExportTextInputFormFieldAsText = true, 

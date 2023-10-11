@@ -64,7 +64,7 @@ fieldSeq = (FieldSeq)builder.InsertField(FieldType.FieldSequence, true);
 fieldSeq.SequenceIdentifier = "OtherSequence";
 builder.Writeln(", will not show up in the TOC because it's from a different sequence identifier.");
 
-// Detta SEQ-fälts sekvens matchar innehållsförteckningens "TableOfFiguresLabel"-egenskap och är inom bokmärkets gränser.
+// Detta SEQ-fälts sekvens matchar innehållsförteckningens "TableOfFiguresLabel"-egenskap och ligger inom bokmärkets gränser.
 // Detta fält refererar också till ett annat bokmärke. Innehållet i det bokmärket kommer att visas i TOC-posten för detta SEQ-fält.
 // Själva SEQ-fältet visar inte innehållet i det bokmärket.
 fieldSeq = (FieldSeq)builder.InsertField(FieldType.FieldSequence, true);

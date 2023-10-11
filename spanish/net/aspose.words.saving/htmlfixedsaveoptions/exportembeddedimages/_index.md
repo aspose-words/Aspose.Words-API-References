@@ -1,14 +1,14 @@
 ---
 title: HtmlFixedSaveOptions.ExportEmbeddedImages
 second_title: Referencia de API de Aspose.Words para .NET
-description: HtmlFixedSaveOptions propiedad. Especifica si las imágenes se deben incrustar en el documento HTML en formato Base64. Tenga en cuenta que establecer este indicador puede aumentar significativamente el tamaño del archivo HTML de salida.
+description: HtmlFixedSaveOptions propiedad. Especifica si las imágenes deben incrustarse en un documento HTML en formato Base64. Tenga en cuenta que configurar este indicador puede aumentar significativamente el tamaño del archivo HTML de salida.
 type: docs
 weight: 60
 url: /es/net/aspose.words.saving/htmlfixedsaveoptions/exportembeddedimages/
 ---
 ## HtmlFixedSaveOptions.ExportEmbeddedImages property
 
-Especifica si las imágenes se deben incrustar en el documento HTML en formato Base64. Tenga en cuenta que establecer este indicador puede aumentar significativamente el tamaño del archivo HTML de salida.
+Especifica si las imágenes deben incrustarse en un documento HTML en formato Base64. Tenga en cuenta que configurar este indicador puede aumentar significativamente el tamaño del archivo HTML de salida.
 
 ```csharp
 public bool ExportEmbeddedImages { get; set; }
@@ -16,7 +16,7 @@ public bool ExportEmbeddedImages { get; set; }
 
 ### Ejemplos
 
-Muestra cómo determinar dónde almacenar imágenes al exportar un documento a Html.
+Muestra cómo determinar dónde almacenar imágenes al exportar un documento a HTML.
 
 ```csharp
 Document doc = new Document(MyDir + "Images.docx");
@@ -24,9 +24,9 @@ Document doc = new Document(MyDir + "Images.docx");
 // Cuando exportamos un documento con imágenes incrustadas a .html,
 // Aspose.Words puede colocar las imágenes en dos ubicaciones posibles.
 // Establecer el indicador "ExportEmbeddedImages" en "true" almacenará los datos sin procesar
-// para todas las imágenes dentro del documento HTML de salida, en el atributo "src" de <image> etiquetas
+// para todas las imágenes dentro del documento HTML de salida, en el atributo "src" de <image> etiquetas.
 // Establecer este indicador en "falso" creará un archivo de imagen en el sistema de archivos local para cada imagen,
-// y almacene todos estos archivos en una carpeta separada.
+// y almacena todos estos archivos en una carpeta separada.
 HtmlFixedSaveOptions htmlFixedSaveOptions = new HtmlFixedSaveOptions
 {
     ExportEmbeddedImages = exportImages

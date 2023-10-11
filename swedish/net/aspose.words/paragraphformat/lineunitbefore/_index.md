@@ -3,7 +3,7 @@ title: ParagraphFormat.LineUnitBefore
 second_title: Aspose.Words för .NET API Referens
 description: ParagraphFormat fast egendom. Hämtar eller ställer in mängden mellanrum i rutnätslinjer före styckena.
 type: docs
-weight: 220
+weight: 230
 url: /sv/net/aspose.words/paragraphformat/lineunitbefore/
 ---
 ## ParagraphFormat.LineUnitBefore property

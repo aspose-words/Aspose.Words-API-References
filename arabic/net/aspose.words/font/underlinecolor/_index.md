@@ -1,14 +1,14 @@
 ---
 title: Font.UnderlineColor
 second_title: Aspose.Words لمراجع .NET API
-description: Font ملكية. الحصول على أو تحديد لون التسطير المطبق على الخط.
+description: Font ملكية. الحصول على أو تعيين لون التسطير المطبق على الخط.
 type: docs
 weight: 540
 url: /ar/net/aspose.words/font/underlinecolor/
 ---
 ## Font.UnderlineColor property
 
-الحصول على أو تحديد لون التسطير المطبق على الخط.
+الحصول على أو تعيين لون التسطير المطبق على الخط.
 
 ```csharp
 public Color UnderlineColor { get; set; }
@@ -16,7 +16,7 @@ public Color UnderlineColor { get; set; }
 
 ### أمثلة
 
-يوضح كيفية تكوين نمط ولون تسطير النص.
+يوضح كيفية تكوين نمط ولون التسطير في النص.
 
 ```csharp
 Document doc = new Document();

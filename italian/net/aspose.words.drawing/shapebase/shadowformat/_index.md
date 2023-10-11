@@ -3,7 +3,7 @@ title: ShapeBase.ShadowFormat
 second_title: Aspose.Words per .NET API Reference
 description: ShapeBase proprietà. Ottiene la formattazione dellombra per la forma.
 type: docs
-weight: 450
+weight: 490
 url: /it/net/aspose.words.drawing/shapebase/shadowformat/
 ---
 ## ShapeBase.ShadowFormat property

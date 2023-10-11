@@ -1,14 +1,14 @@
 ---
 title: NodeChangingArgs.OldParent
 second_title: Справочник по API Aspose.Words для .NET
-description: NodeChangingArgs свойство. Получает родителя узла до начала операции.
+description: NodeChangingArgs свойство. Получает родительский узел до начала операции.
 type: docs
 weight: 40
 url: /ru/net/aspose.words/nodechangingargs/oldparent/
 ---
 ## NodeChangingArgs.OldParent property
 
-Получает родителя узла до начала операции.
+Получает родительский узел до начала операции.
 
 ```csharp
 public Node OldParent { get; }
@@ -19,6 +19,7 @@ public Node OldParent { get; }
 Показывает, как использовать NodeChangingCallback для отслеживания изменений в дереве документа в режиме реального времени по мере его редактирования.
 
 ```csharp
+public void NodeChangingCallback()
 {
     Document doc = new Document();
     doc.NodeChangingCallback = new NodeChangingPrinter();

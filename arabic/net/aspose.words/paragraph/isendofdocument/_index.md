@@ -36,8 +36,8 @@ paragraphFormat.AddSpaceBetweenFarEastAndAlpha = true;
 paragraphFormat.AddSpaceBetweenFarEastAndDigit = true;
 paragraphFormat.KeepTogether = true;
 
-// طريقة "Writeln" تنهي الفقرة بعد إلحاق النص
-// ثم يبدأ سطرًا جديدًا ، مضيفًا فقرة جديدة.
+// تنهي طريقة "Writeln" الفقرة بعد إلحاق النص
+// ثم يبدأ سطرًا جديدًا ويضيف فقرة جديدة.
 builder.Writeln("Hello world!");
 
 Assert.True(builder.CurrentParagraph.IsEndOfDocument);

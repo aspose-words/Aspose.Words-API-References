@@ -1,14 +1,16 @@
 ---
 title: Class EditableRange
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.EditableRange فصل. يمثل نطاقًا واحدًا قابلاً للتحرير .
+description: Aspose.Words.EditableRange فصل. يمثل نطاقًا واحدًا قابلاً للتحرير.
 type: docs
-weight: 1270
+weight: 1420
 url: /ar/net/aspose.words/editablerange/
 ---
 ## EditableRange class
 
-يمثل نطاقًا واحدًا قابلاً للتحرير .
+يمثل نطاقًا واحدًا قابلاً للتحرير.
+
+لمعرفة المزيد، قم بزيارة[نموذج كائن مستند Aspose.Words (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) مقالة توثيقية.
 
 ```csharp
 public class EditableRange
@@ -20,23 +22,23 @@ public class EditableRange
 | --- | --- |
 | [EditableRangeEnd](../../aspose.words/editablerange/editablerangeend/) { get; } | يحصل على العقدة التي تمثل نهاية النطاق القابل للتحرير. |
 | [EditableRangeStart](../../aspose.words/editablerange/editablerangestart/) { get; } | يحصل على العقدة التي تمثل بداية النطاق القابل للتحرير. |
-| [EditorGroup](../../aspose.words/editablerange/editorgroup/) { get; set; } | إرجاع أو تعيين الاسم المستعار (أو مجموعة التحرير) التي يجب استخدامها لتحديد ما إذا كان المستخدم الحالي مسموحًا به لتحرير هذا النطاق القابل للتحرير. |
-| [Id](../../aspose.words/editablerange/id/) { get; } | الحصول على معرف النطاق القابل للتحرير. |
+| [EditorGroup](../../aspose.words/editablerange/editorgroup/) { get; set; } | إرجاع أو تعيين اسم مستعار (أو مجموعة تحرير) والذي سيتم استخدامه لتحديد ما إذا كان user الحالي مسموحًا له بتحرير هذا النطاق القابل للتحرير. |
+| [Id](../../aspose.words/editablerange/id/) { get; } | يحصل على معرف النطاق القابل للتحرير. |
 | [SingleUser](../../aspose.words/editablerange/singleuser/) { get; set; } | إرجاع أو تعيين المستخدم الفردي للنطاق القابل للتحرير. |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| [Remove](../../aspose.words/editablerange/remove/)() | يزيل النطاق القابل للتحرير من المستند. لا يزيل المحتوى داخل النطاق القابل للتحرير. |
+| [Remove](../../aspose.words/editablerange/remove/)() | يزيل النطاق القابل للتحرير من المستند. لا يزيل المحتوى الموجود داخل النطاق القابل للتحرير. |
 
 ### ملاحظات
 
-`EditableRange` هو كائن "واجهة" يغلف عقدتين[`EditableRangeStart`](./editablerangestart/) و[`EditableRangeEnd`](./editablerangeend/) في شجرة المستندات ويسمح بالعمل مع نطاق قابل للتحرير ككائن واحد.
+`EditableRange` هو كائن "واجهة" يحتوي على عقدتين[`EditableRangeStart`](./editablerangestart/) و[`EditableRangeEnd`](./editablerangeend/) في شجرة المستندات ويسمح بالعمل مع نطاق قابل للتحرير ككائن واحد.
 
 ### أمثلة
 
-يوضح كيفية العمل بنطاق قابل للتحرير.
+يوضح كيفية العمل مع نطاق قابل للتحرير.
 
 ```csharp
 Document doc = new Document();
@@ -46,26 +48,26 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world! Since we have set the document's protection level to read-only," +
                 " we cannot edit this paragraph without the password.");
 
-// تسمح لنا النطاقات القابلة للتحرير بترك أجزاء من المستندات المحمية مفتوحة للتحرير.
+// النطاقات القابلة للتحرير تسمح لنا بترك أجزاء من المستندات المحمية مفتوحة للتحرير.
 EditableRangeStart editableRangeStart = builder.StartEditableRange();
 builder.Writeln("This paragraph is inside an editable range, and can be edited.");
 EditableRangeEnd editableRangeEnd = builder.EndEditableRange();
 
-// يحتوي النطاق القابل للتعديل جيدًا على عقدة البداية ونقطة النهاية.
-// هذه العقد لها معرّفات متطابقة وتشمل عقدًا قابلة للتحرير.
+// يحتوي النطاق القابل للتحرير المصمم جيدًا على عقدة بداية وعقدة نهاية.
+// تحتوي هذه العقد على معرفات متطابقة وتشمل عقدًا قابلة للتحرير.
 EditableRange editableRange = editableRangeStart.EditableRange;
 
 Assert.AreEqual(editableRangeStart.Id, editableRange.Id);
 Assert.AreEqual(editableRangeEnd.Id, editableRange.Id);
 
-// ترتبط أجزاء مختلفة من النطاق القابل للتعديل ببعضها البعض.
+// ترتبط الأجزاء المختلفة من النطاق القابل للتحرير ببعضها البعض.
 Assert.AreEqual(editableRangeStart.Id, editableRange.EditableRangeStart.Id);
 Assert.AreEqual(editableRangeStart.Id, editableRangeEnd.EditableRangeStart.Id);
 Assert.AreEqual(editableRange.Id, editableRangeStart.EditableRange.Id);
 Assert.AreEqual(editableRangeEnd.Id, editableRange.EditableRangeEnd.Id);
 
-// يمكننا الوصول إلى أنواع العقدة لكل جزء مثل هذا. النطاق القابل للتحرير في حد ذاته ليس عقدة ،
-// ولكن كيان يتكون من بداية ونهاية ومحتوياتها المرفقة.
+// يمكننا الوصول إلى أنواع العقد لكل جزء بهذه الطريقة. النطاق القابل للتحرير في حد ذاته ليس عقدة،
+// ولكن كيان يتكون من البداية والنهاية ومحتوياتها المغلقة.
 Assert.AreEqual(NodeType.EditableRangeStart, editableRangeStart.NodeType);
 Assert.AreEqual(NodeType.EditableRangeEnd, editableRangeEnd.NodeType);
 
@@ -73,11 +75,11 @@ builder.Writeln("This paragraph is outside the editable range, and cannot be edi
 
 doc.Save(ArtifactsDir + "EditableRange.CreateAndRemove.docx");
 
-// إزالة نطاق قابل للتحرير. ستبقى جميع العقد التي كانت داخل النطاق سليمة.
+// إزالة نطاق قابل للتحرير. جميع العقد التي كانت داخل النطاق ستبقى سليمة.
 editableRange.Remove();
 ```
 
-يوضح كيفية تقييد حقوق التحرير للنطاقات القابلة للتحرير لمجموعة / مستخدم معين.
+يوضح كيفية تقييد حقوق تحرير النطاقات القابلة للتحرير لمجموعة/مستخدم محدد.
 
 ```csharp
 public void Visitor()
@@ -89,9 +91,9 @@ public void Visitor()
     builder.Writeln("Hello world! Since we have set the document's protection level to read-only," +
                     " we cannot edit this paragraph without the password.");
 
-    // عندما نكتب حماية المستندات ، تسمح لنا النطاقات القابلة للتحرير باختيار مناطق محددة يمكن للمستخدمين تحريرها.
-    // هناك طريقتان متنافيتان لتضييق نطاق قائمة المحررين المسموح لهم.
-    // 1 - حدد مستخدمًا:
+    // عندما نحمي المستندات من الكتابة، تسمح لنا النطاقات القابلة للتحرير باختيار مناطق محددة يمكن للمستخدمين تحريرها.
+    // هناك طريقتان متنافيتان لتضييق نطاق قائمة المحررين المسموح بهم.
+    // 1 - تحديد مستخدم:
     EditableRange editableRange = builder.StartEditableRange().EditableRange;
     editableRange.SingleUser = "john.doe@myoffice.com";
     builder.Writeln($"This paragraph is inside the first editable range, can only be edited by {editableRange.SingleUser}.");
@@ -99,7 +101,7 @@ public void Visitor()
 
     Assert.AreEqual(EditorType.Unspecified, editableRange.EditorGroup);
 
-    // 2 - حدد مجموعة يرتبط بها المستخدمون المسموح لهم بـ:
+    // 2 - حدد المجموعة التي يسمح للمستخدمين بالارتباط بها:
     editableRange = builder.StartEditableRange().EditableRange;
     editableRange.EditorGroup = EditorType.Administrators;
     builder.Writeln($"This paragraph is inside the first editable range, can only be edited by {editableRange.EditorGroup}.");
@@ -139,7 +141,7 @@ public class EditableRangePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاستدعاء عند مواجهة عقدة EditableRangeStart في المستند.
+    /// يتم الاتصال به عند مواجهة عقدة EditableRangeStart في المستند.
     /// </summary>
     public override VisitorAction VisitEditableRangeStart(EditableRangeStart editableRangeStart)
     {
@@ -157,7 +159,7 @@ public class EditableRangePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاستدعاء عند مواجهة عقدة EditableRangeEnd في المستند.
+    /// يتم الاتصال به عند مواجهة عقدة EditableRangeEnd في المستند.
     /// </summary>
     public override VisitorAction VisitEditableRangeEnd(EditableRangeEnd editableRangeEnd)
     {
@@ -169,7 +171,7 @@ public class EditableRangePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاستدعاء عند مواجهة عقدة تشغيل في المستند. يسجل هذا الزائر فقط عمليات التشغيل الموجودة داخل نطاقات قابلة للتحرير.
+    /// يتم الاتصال به عند مواجهة عقدة التشغيل في المستند. يقوم هذا الزائر بتسجيل عمليات التشغيل التي تقع داخل النطاقات القابلة للتحرير فقط.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {

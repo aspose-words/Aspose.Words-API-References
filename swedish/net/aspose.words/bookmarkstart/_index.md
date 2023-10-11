@@ -3,12 +3,14 @@ title: Class BookmarkStart
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.BookmarkStart klass. Representerar början på ett bokmärke i ett Worddokument.
 type: docs
-weight: 60
+weight: 70
 url: /sv/net/aspose.words/bookmarkstart/
 ---
 ## BookmarkStart class
 
 Representerar början på ett bokmärke i ett Word-dokument.
+
+För att lära dig mer, besök[Arbeta med bokmärken](https://docs.aspose.com/words/net/working-with-bookmarks/) dokumentationsartikel.
 
 ```csharp
 public class BookmarkStart : Node
@@ -27,13 +29,13 @@ public class BookmarkStart : Node
 | [Bookmark](../../aspose.words/bookmarkstart/bookmark/) { get; } | Hämtar fasadobjektet som kapslar in detta bokmärkes början och slut. |
 | [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Anger anpassad nodidentifierare. |
 | virtual [Document](../../aspose.words/node/document/) { get; } | Hämtar dokumentet som denna nod tillhör. |
-| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Returnerar sant om denna nod kan innehålla andra noder. |
+| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Returnerar`Sann` om denna nod kan innehålla andra noder. |
 | [Name](../../aspose.words/bookmarkstart/name/) { get; set; } | Hämtar eller ställer in bokmärkets namn. |
 | [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Hämtar noden omedelbart efter denna nod. |
 | override [NodeType](../../aspose.words/bookmarkstart/nodetype/) { get; } | ReturnerarBookmarkStart . |
 | [ParentNode](../../aspose.words/node/parentnode/) { get; } | Hämtar den omedelbara föräldern till denna nod. |
 | [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Hämtar noden omedelbart före denna nod. |
-| [Range](../../aspose.words/node/range/) { get; } | Returnerar en **Räckvidd** objekt som representerar den del av ett dokument som finns i denna nod. |
+| [Range](../../aspose.words/node/range/) { get; } | Returnerar en[`Range`](../range/) objekt som representerar den del av ett dokument som finns i denna nod. |
 
 ## Metoder
 
@@ -68,7 +70,6 @@ public void CreateUpdateAndPrintBookmarks()
     // Skapa ett dokument med tre bokmärken och använd sedan en anpassad dokumentbesökarimplementering för att skriva ut innehållet.
     Document doc = CreateDocumentWithBookmarks(3);
     BookmarkCollection bookmarks = doc.Range.Bookmarks;
-
     PrintAllBookmarkInfo(bookmarks);
 
     // Bokmärken kan nås i bokmärkessamlingen genom index eller namn, och deras namn kan uppdateras.

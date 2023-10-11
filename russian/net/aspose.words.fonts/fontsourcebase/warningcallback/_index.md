@@ -16,10 +16,9 @@ public IWarningCallback WarningCallback { get; set; }
 
 ### Примеры
 
-Показывает, как вызвать обратный вызов предупреждения при работе с источниками шрифта.
+Показывает, как вызвать обратный вызов с предупреждением при работе с источниками шрифтов.
 
 ```csharp
-[Test]
 public void FontSourceWarning()
 {
     FontSettings settings = new FontSettings();
@@ -29,7 +28,7 @@ public void FontSourceWarning()
     FontSourceWarningCollector callback = new FontSourceWarningCollector();
     source.WarningCallback = callback;
 
-    // Получить список шрифтов для вызова предупреждающего обратного вызова.
+    // Получаем список шрифтов для вызова обратного вызова предупреждения.
     IList<PhysicalFontInfo> fontInfos = source.GetAvailableFonts();
 
     Assert.True(callback.FontSubstitutionWarnings[0].Description
@@ -39,7 +38,7 @@ public void FontSourceWarning()
 private class FontSourceWarningCollector : IWarningCallback
 {
     /// <summary>
-    /// Вызывается каждый раз, когда возникает предупреждение при обработке источника шрифта.
+    /// Вызывается каждый раз, когда возникает предупреждение во время обработки источника шрифта.
     /// </summary>
     public void Warning(WarningInfo info)
     {

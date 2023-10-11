@@ -1,14 +1,14 @@
 ---
 title: ChartSeries.DataPoints
 second_title: Référence de l'API Aspose.Words pour .NET
-description: ChartSeries propriété. Renvoie une collection dobjets de mise en forme pour tous les points de données de cette série.
+description: ChartSeries propriété. Renvoie une collection dobjets de formatage pour tous les points de données de cette série.
 type: docs
-weight: 30
+weight: 40
 url: /fr/net/aspose.words.drawing.charts/chartseries/datapoints/
 ---
 ## ChartSeries.DataPoints property
 
-Renvoie une collection d'objets de mise en forme pour tous les points de données de cette série.
+Renvoie une collection d'objets de formatage pour tous les points de données de cette série.
 
 ```csharp
 public ChartDataPointCollection DataPoints { get; }
@@ -16,9 +16,10 @@ public ChartDataPointCollection DataPoints { get; }
 
 ### Exemples
 
-Montre comment appliquer des étiquettes aux points de données dans un graphique en courbes.
+Montre comment appliquer des étiquettes aux points de données dans un graphique linéaire.
 
 ```csharp
+public void DataLabels()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -31,7 +32,7 @@ Montre comment appliquer des étiquettes aux points de données dans un graphiqu
     Assert.AreEqual("Series 2", chart.Series[1].Name);
     Assert.AreEqual("Series 3", chart.Series[2].Name);
 
-    // Appliquez des étiquettes de données à chaque série du graphique.
+    // Applique des étiquettes de données à chaque série du graphique.
     // Ces étiquettes apparaîtront à côté de chaque point de données dans le graphique et afficheront sa valeur.
     foreach (ChartSeries series in chart.Series)
     {
@@ -59,7 +60,7 @@ Montre comment appliquer des étiquettes aux points de données dans un graphiqu
 }
 
 /// <summary>
-/// Appliquez des étiquettes de données avec un format de nombre et un séparateur personnalisés à plusieurs points de données d'une série.
+/// Appliquez des étiquettes de données avec un format numérique personnalisé et un séparateur à plusieurs points de données d'une série.
 /// </summary>
 private static void ApplyDataLabels(ChartSeries series, int labelsCount, string numberFormat, string separator)
 {

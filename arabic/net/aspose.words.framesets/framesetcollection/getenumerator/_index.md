@@ -1,12 +1,14 @@
 ---
 title: FramesetCollection.GetEnumerator
 second_title: Aspose.Words لمراجع .NET API
-description: FramesetCollection طريقة. 
+description: FramesetCollection طريقة. يُرجع عدادًا يتكرر خلال المجموعة.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.framesets/framesetcollection/getenumerator/
 ---
 ## FramesetCollection.GetEnumerator method
+
+يُرجع عدادًا يتكرر خلال المجموعة.
 
 ```csharp
 public IEnumerator<Frameset> GetEnumerator()

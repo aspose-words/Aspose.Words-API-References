@@ -1,14 +1,14 @@
 ---
 title: Table.NodeType
 second_title: Referencia de API de Aspose.Words para .NET
-description: Table propiedad. Devoluciones NodeType.Table .
+description: Table propiedad. DevolucionesTable .
 type: docs
 weight: 210
 url: /es/net/aspose.words.tables/table/nodetype/
 ---
 ## Table.NodeType property
 
-Devoluciones **NodeType.Table** .
+DevolucionesTable .
 
 ```csharp
 public override NodeType NodeType { get; }
@@ -19,19 +19,20 @@ public override NodeType NodeType { get; }
 Muestra cómo recorrer el árbol de nodos secundarios de un nodo compuesto.
 
 ```csharp
+public void RecurseChildren()
 {
     Document doc = new Document(MyDir + "Paragraphs.docx");
 
     // Cualquier nodo que pueda contener nodos secundarios, como el propio documento, es compuesto.
     Assert.True(doc.IsComposite);
 
-    // Invoque la función recursiva que pasará e imprimirá todos los nodos secundarios de un nodo compuesto.
+    // Invoca la función recursiva que revisará e imprimirá todos los nodos secundarios de un nodo compuesto.
     TraverseAllNodes(doc, 0);
 }
 
 /// <summary>
-/// Recorre recursivamente un árbol de nodos mientras imprime el tipo de cada nodo
-/// con una sangría que depende de la profundidad, así como del contenido de todos los nodos en línea.
+/// Atraviesa recursivamente un árbol de nodos mientras imprime el tipo de cada nodo
+/// con una sangría que depende de la profundidad y del contenido de todos los nodos en línea.
 /// </summary>
 public void TraverseAllNodes(CompositeNode parentNode, int depth)
 {
@@ -57,23 +58,22 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 }
 ```
 
-Muestra cómo averiguar si las tablas están anidadas.
+Muestra cómo saber si una tabla está anidada.
 
 ```csharp
 public void CalculateDepthOfNestedTables()
 {
     Document doc = new Document(MyDir + "Nested tables.docx");
     NodeCollection tables = doc.GetChildNodes(NodeType.Table, true);
-
     for (int i = 0; i < tables.Count; i++)
     {
         Table table = (Table)tables[i];
 
-        // Averigüe si alguna celda de la tabla tiene otras tablas como hijos.
+        // Descubra si alguna celda de la tabla tiene otras tablas como hijas.
         int count = GetChildTableCount(table);
         Console.WriteLine("Table #{0} has {1} tables directly within its cells", i, count);
 
-        // Averigüe si la tabla está anidada dentro de otra tabla y, de ser así, a qué profundidad.
+        // Descubra si la tabla está anidada dentro de otra tabla y, de ser así, a qué profundidad.
         int tableDepth = GetNestedDepthOfTable(table);
 
         if (tableDepth > 0)
@@ -85,7 +85,7 @@ public void CalculateDepthOfNestedTables()
 }
 
 /// <summary>
-/// Calcula a qué nivel está anidada una tabla dentro de otras tablas.
+/// Calcula en qué nivel está anidada una tabla dentro de otras tablas.
 /// </summary>
 /// <returns>
 /// Un número entero que indica la profundidad de anidamiento de la tabla (número de nodos de la tabla principal).

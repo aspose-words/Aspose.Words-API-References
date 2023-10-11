@@ -1,14 +1,14 @@
 ---
 title: DocumentBuilder.MoveToField
 second_title: Aspose.Words für .NET-API-Referenz
-description: DocumentBuilder methode. Bewegt den Cursor zu einem Feld im Dokument.
+description: DocumentBuilder methode. Bewegt den Cursor auf ein Feld im Dokument.
 type: docs
-weight: 510
+weight: 540
 url: /de/net/aspose.words/documentbuilder/movetofield/
 ---
 ## DocumentBuilder.MoveToField method
 
-Bewegt den Cursor zu einem Feld im Dokument.
+Bewegt den Cursor auf ein Feld im Dokument.
 
 ```csharp
 public void MoveToField(Field field, bool isAfter)
@@ -17,27 +17,27 @@ public void MoveToField(Field field, bool isAfter)
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | field | Field | Das Feld, zu dem der Cursor bewegt werden soll. |
-| isAfter | Boolean | Wenn wahr, wird der Cursor hinter das Feldende verschoben. Wenn falsch, wird der Cursor vor den Feldanfang verschoben. |
+| isAfter | Boolean | Wann`WAHR` , bewegt den Cursor hinter das Feldende. Wann`FALSCH`, bewegt den Cursor vor den Feldanfang. |
 
 ### Beispiele
 
-Zeigt, wie der Einfügepunkt-Cursor des Knotens eines Document Builder in ein bestimmtes Feld verschoben wird.
+Zeigt, wie der Knoteneinfügepunkt-Cursor eines Document Builders in ein bestimmtes Feld verschoben wird.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Fügen Sie ein Feld mit dem DocumentBuilder ein und fügen Sie danach einen Textverlauf hinzu.
+// Mit dem DocumentBuilder ein Feld einfügen und danach eine Textzeile hinzufügen.
 Field field = builder.InsertField(" AUTHOR \"John Doe\" ");
 
-// Der Builder-Cursor befindet sich derzeit am Ende des Dokuments.
+// Der Cursor des Builders befindet sich derzeit am Ende des Dokuments.
 Assert.Null(builder.CurrentNode);
 
-// Den Cursor auf das Feld bewegen und dabei angeben, ob der Cursor vor oder nach dem Feld platziert werden soll.
+// Bewegen Sie den Cursor auf das Feld und geben Sie dabei an, ob dieser Cursor vor oder nach dem Feld platziert werden soll.
 builder.MoveToField(field, moveCursorToAfterTheField);
 
-// Beachten Sie, dass sich der Cursor in beiden Fällen außerhalb des Felds befindet.
-// Das bedeutet, dass wir das Feld nicht mit dem Builder so bearbeiten können.
+// Beachten Sie, dass sich der Cursor in beiden Fällen außerhalb des Feldes befindet.
+// Das bedeutet, dass wir das Feld nicht auf diese Weise mit dem Builder bearbeiten können.
 // Um ein Feld zu bearbeiten, können wir die MoveTo-Methode des Builders für den FieldStart eines Felds verwenden
 // oder FieldSeparator-Knoten, um den Cursor darin zu platzieren.
 if (moveCursorToAfterTheField)

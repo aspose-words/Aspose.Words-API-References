@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.UseNormalStyleForList
 second_title: Aspose.Words for .NET API 参考
-description: CompatibilityOptions 财产. 不自动将列表段落样式应用于项目符号/编号文本
+description: CompatibilityOptions 财产. 不自动将列表段落样式应用于带项目符号/编号的文本
 type: docs
 weight: 630
 url: /zh/net/aspose.words.settings/compatibilityoptions/usenormalstyleforlist/
 ---
 ## CompatibilityOptions.UseNormalStyleForList property
 
-不自动将列表段落样式应用于项目符号/编号文本。
+不自动将列表段落样式应用于带项目符号/编号的文本。
 
 ```csharp
 public bool UseNormalStyleForList { get; set; }

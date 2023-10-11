@@ -23,9 +23,9 @@ Document doc = new Document(MyDir + "Legacy control character.doc");
 
 // Cuando guardamos el documento en formato OOXML, podemos crear un objeto OoxmlSaveOptions
 // y luego pasarlo al método de guardado del documento para modificar cómo guardamos el documento.
-// Establecer la propiedad "KeepLegacyControlChars" en "true" para conservar
-// el carácter heredado "ShortDateTime" al guardar.
-// Establecer la propiedad "KeepLegacyControlChars" en "falso" para eliminar
+// Establece la propiedad "KeepLegacyControlChars" en "true" para preservar
+// el carácter heredado "ShortDateTime" mientras se guarda.
+// Establece la propiedad "KeepLegacyControlChars" en "false" para eliminar
 // el carácter heredado "ShortDateTime" del documento de salida.
 OoxmlSaveOptions so = new OoxmlSaveOptions(SaveFormat.Docx);
 so.KeepLegacyControlChars = keepLegacyControlChars;

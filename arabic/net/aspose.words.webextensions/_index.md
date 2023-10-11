@@ -1,33 +1,33 @@
 ---
 title: Aspose.Words.WebExtensions
 second_title: Aspose.Words لمراجع .NET API
-description: ال Aspose.Words.WebExtensions توفر مساحة الاسم فئات تسمح لـ بتخصيص العناصر والسمات التي توسع مفردات XML لتمثيل الوظائف الإضافية لـ Office.
+description: ال Aspose.Words.WebExtensionsتوفر مساحة الاسم فئات تسمح بتخصيص العناصر والسمات التي تعمل على توسيع مفردات XML لتمثيل وظائف Office الإضافية.
 type: docs
-weight: 280
+weight: 290
 url: /ar/net/aspose.words.webextensions/
 ---
-ال **Aspose.Words.WebExtensions** توفر مساحة الاسم فئات تسمح لـ بتخصيص العناصر والسمات التي توسع مفردات XML لتمثيل الوظائف الإضافية لـ Office.
+ال **Aspose.Words.WebExtensions**توفر مساحة الاسم فئات تسمح بتخصيص العناصر والسمات التي تعمل على توسيع مفردات XML لتمثيل وظائف Office الإضافية.
 
 ## الطبقات
 
 | فصل | وصف |
 | --- | --- |
-| [BaseWebExtensionCollection&lt;T&gt;](./basewebextensioncollection-1/) | الفئة الأساسية لـ[`TaskPaneCollection`](../aspose.words.webextensions/taskpanecollection/) و[`WebExtensionBindingCollection`](../aspose.words.webextensions/webextensionbindingcollection/) ، [`WebExtensionPropertyCollection`](../aspose.words.webextensions/webextensionpropertycollection/) و[`WebExtensionReferenceCollection`](../aspose.words.webextensions/webextensionreferencecollection/) المجموعات. |
-| [TaskPane](./taskpane/) | يمثل كائن جزء مهام الوظيفة الإضافية. |
-| [TaskPaneCollection](./taskpanecollection/) | تحديد قائمة بكائنات جزء المهام المستمرة. |
-| [WebExtension](./webextension/) | يمثل كائن امتداد الويب . |
-| [WebExtensionBinding](./webextensionbinding/) | يحدد علاقة ملزمة بين امتداد الويب والبيانات الموجودة في المستند. |
-| [WebExtensionBindingCollection](./webextensionbindingcollection/) | يحدد قائمة روابط امتداد الويب. |
-| [WebExtensionProperty](./webextensionproperty/) | تحديد خاصية مخصصة لملحق الويب. |
-| [WebExtensionPropertyCollection](./webextensionpropertycollection/) | يحدد مجموعة من الخصائص المخصصة لإضافات الويب. |
-| [WebExtensionReference](./webextensionreference/) | يمثل الإشارة إلى امتداد الويب. يتم استخدام المرجع لتحديد موقع الموفر وإصدار الامتداد . |
-| [WebExtensionReferenceCollection](./webextensionreferencecollection/) | يحدد قائمة مراجع امتداد الويب . |
+| [BaseWebExtensionCollection&lt;T&gt;](./basewebextensioncollection-1/) | الفئة الأساسية لـ[`TaskPaneCollection`](../aspose.words.webextensions/taskpanecollection/) ,[`WebExtensionBindingCollection`](../aspose.words.webextensions/webextensionbindingcollection/)[`WebExtensionPropertyCollection`](../aspose.words.webextensions/webextensionpropertycollection/) و[`WebExtensionReferenceCollection`](../aspose.words.webextensions/webextensionreferencecollection/) المجموعات. |
+| [TaskPane](./taskpane/) | يمثل كائن جزء المهام الإضافي. |
+| [TaskPaneCollection](./taskpanecollection/) | يحدد قائمة بكائنات جزء المهام المستمرة. |
+| [WebExtension](./webextension/) | يمثل كائن ملحق الويب. |
+| [WebExtensionBinding](./webextensionbinding/) | يحدد علاقة ربط بين امتداد الويب والبيانات الموجودة في المستند. |
+| [WebExtensionBindingCollection](./webextensionbindingcollection/) | يحدد قائمة روابط امتدادات الويب. |
+| [WebExtensionProperty](./webextensionproperty/) | يحدد خاصية مخصصة لامتداد الويب. |
+| [WebExtensionPropertyCollection](./webextensionpropertycollection/) | يحدد مجموعة من الخصائص المخصصة لامتداد الويب. |
+| [WebExtensionReference](./webextensionreference/) | يمثل المرجع إلى امتداد الويب. يتم استخدام المرجع لتحديد موقع الموفر وإصدار ملحق . |
+| [WebExtensionReferenceCollection](./webextensionreferencecollection/) | يحدد قائمة بمراجع امتدادات الويب. |
 ## تعداد
 
 | تعداد | وصف |
 | --- | --- |
 | [TaskPaneDockState](./taskpanedockstate/) | تعداد المواقع المتاحة لكائن جزء المهام. |
-| [WebExtensionBindingType](./webextensionbindingtype/) | تعداد أنواع الربط المتاحة بين امتداد الويب والبيانات الموجودة في المستند. |
-| [WebExtensionStoreType](./webextensionstoretype/) | تعداد الأنواع المتاحة من متجر ملحقات الويب. |
+| [WebExtensionBindingType](./webextensionbindingtype/) | تعداد أنواع الارتباط المتاحة بين امتداد الويب والبيانات الموجودة في المستند. |
+| [WebExtensionStoreType](./webextensionstoretype/) | تعداد الأنواع المتوفرة لمتجر ملحقات الويب. |
 
 

@@ -1,14 +1,14 @@
 ---
 title: Class FrameFormat
 second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.FrameFormat sınıf. Bir paragraf için çerçeveyle ilgili biçimlendirmeyi temsil eder.
+description: Aspose.Words.FrameFormat sınıf. Bir paragrafın çerçeveyle ilgili biçimlendirmesini temsil eder.
 type: docs
-weight: 2890
+weight: 3070
 url: /tr/net/aspose.words/frameformat/
 ---
 ## FrameFormat class
 
-Bir paragraf için çerçeveyle ilgili biçimlendirmeyi temsil eder.
+Bir paragrafın çerçeveyle ilgili biçimlendirmesini temsil eder.
 
 ```csharp
 public class FrameFormat
@@ -21,21 +21,21 @@ public class FrameFormat
 | [Height](../../aspose.words/frameformat/height/) { get; } | Belirtilen çerçevenin yüksekliğini alır. |
 | [HeightRule](../../aspose.words/frameformat/heightrule/) { get; } | Belirtilen çerçevenin yüksekliğini belirleme kuralını alır. |
 | [HorizontalAlignment](../../aspose.words/frameformat/horizontalalignment/) { get; } | Belirtilen çerçevenin yatay hizalamasını alır. |
-| [HorizontalDistanceFromText](../../aspose.words/frameformat/horizontaldistancefromtext/) { get; } | Bir çerçeve ile çevresindeki metin arasındaki yatay mesafeyi nokta olarak alır. |
-| [HorizontalPosition](../../aspose.words/frameformat/horizontalposition/) { get; } | Çerçevenin kenarı ile belirtilen öğe arasındaki yatay mesafeyi alır.[`RelativeHorizontalPosition`](./relativehorizontalposition/) özellik. |
-| [IsFrame](../../aspose.words/frameformat/isframe/) { get; } | Paragraf bir çerçeve ise true değerini döndürür. |
-| [RelativeHorizontalPosition](../../aspose.words/frameformat/relativehorizontalposition/) { get; } | Bir çerçevenin göreli yatay konumunu alır. |
-| [RelativeVerticalPosition](../../aspose.words/frameformat/relativeverticalposition/) { get; } | Bir çerçevenin göreli dikey konumunu alır. |
+| [HorizontalDistanceFromText](../../aspose.words/frameformat/horizontaldistancefromtext/) { get; } | Bir çerçeve ile onu çevreleyen metin arasındaki yatay mesafeyi nokta cinsinden alır. |
+| [HorizontalPosition](../../aspose.words/frameformat/horizontalposition/) { get; } | Çerçevenin kenarı ile öğe tarafından belirtilen öğe arasındaki yatay mesafeyi alır.[`RelativeHorizontalPosition`](./relativehorizontalposition/) özellik. |
+| [IsFrame](../../aspose.words/frameformat/isframe/) { get; } | İadeler`doğru` paragraf bir çerçeve ise. |
+| [RelativeHorizontalPosition](../../aspose.words/frameformat/relativehorizontalposition/) { get; } | Bir çerçevenin göreceli yatay konumunu alır. |
+| [RelativeVerticalPosition](../../aspose.words/frameformat/relativeverticalposition/) { get; } | Bir çerçevenin göreceli dikey konumunu alır. |
 | [VerticalAlignment](../../aspose.words/frameformat/verticalalignment/) { get; } | Belirtilen çerçevenin dikey hizalamasını alır. |
-| [VerticalDistanceFromText](../../aspose.words/frameformat/verticaldistancefromtext/) { get; } | Bir çerçeve ile çevresindeki metin arasındaki dikey mesafeyi (nokta olarak) belirtir. |
-| [VerticalPosition](../../aspose.words/frameformat/verticalposition/) { get; } | Çerçevenin kenarı ile belirtilen öğe arasındaki dikey mesafeyi alır.[`RelativeVerticalPosition`](./relativeverticalposition/) özellik. |
-| [Width](../../aspose.words/frameformat/width/) { get; } | Belirtilen çerçevenin genişliğini puan cinsinden alır. |
+| [VerticalDistanceFromText](../../aspose.words/frameformat/verticaldistancefromtext/) { get; } | Çerçeve ile çevresindeki metin arasındaki dikey mesafeyi (nokta cinsinden) belirtir. |
+| [VerticalPosition](../../aspose.words/frameformat/verticalposition/) { get; } | Çerçevenin kenarı ile öğe tarafından belirtilen öğe arasındaki dikey mesafeyi alır.[`RelativeVerticalPosition`](./relativeverticalposition/) özellik. |
+| [Width](../../aspose.words/frameformat/width/) { get; } | Belirtilen çerçevenin genişliğini nokta cinsinden alır. |
 
 ### Notlar
 
-Bu nesne her zaman oluşturulur. Bir paragraf bir çerçeveyse, tüm özellikler ilgili değerleri içerecektir, aksi takdirde tüm özellikler varsayılanlarına ayarlanır.
+Bu nesne her zaman oluşturulur. Paragraf bir çerçeve ise, tüm özellikler ilgili değerleri içerecektir, aksi takdirde tüm özellikler varsayılan değerlerine ayarlanır.
 
-Kullanmak[`IsFrame`](./isframe/) paragrafın bir çerçeve olup olmadığını kontrol etmek için.
+Kullanmak[`IsFrame`](./isframe/) Paragrafın bir çerçeve olup olmadığını kontrol etmek için.
 
 ### Örnekler
 

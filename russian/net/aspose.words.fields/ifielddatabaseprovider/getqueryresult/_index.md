@@ -18,7 +18,7 @@ public FieldDatabaseDataTable GetQueryResult(string fileName, string connection,
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | fileName | String | Полный путь и имя файла базы данных, указанные в переключателе поля \d. |
-| connection | String | Подключение к данным, указанным в переключателе поля \c. |
+| connection | String | Соединение с данными, указанными в переключателе поля \c. |
 | query | String | Набор инструкций SQL, которые запрашивают базу данных, указанную в переключателе поля \s. |
 | field | FieldDatabase | Поле обновляется. |
 

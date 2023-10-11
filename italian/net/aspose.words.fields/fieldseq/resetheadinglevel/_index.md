@@ -16,17 +16,17 @@ public string ResetHeadingLevel { get; set; }
 
 ### Esempi
 
-Mostra creare numerazione utilizzando i campi SEQ.
+Mostra la creazione della numerazione utilizzando i campi SEQ.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// I campi SEQ mostrano un conteggio che aumenta ad ogni campo SEQ.
-// Questi campi mantengono anche conteggi separati per ciascuna sequenza denominata univoca
+// I campi SEQ visualizzano un conteggio che aumenta in ciascun campo SEQ.
+// Questi campi mantengono inoltre conteggi separati per ciascuna sequenza con nome univoco
 // identificato dalla proprietà "SequenceIdentifier" del campo SEQ.
 // Inserisci un campo SEQ che visualizzerà il valore di conteggio corrente di "MySequence",
-// dopo aver utilizzato la proprietà "ResetNumber" per impostarla su 100.
+// dopo aver utilizzato la proprietà "ResetNumber" per impostarlo su 100.
 builder.Write("#");
 FieldSeq fieldSeq = (FieldSeq)builder.InsertField(FieldType.FieldSequence, true);
 fieldSeq.SequenceIdentifier = "MySequence";
@@ -44,20 +44,20 @@ fieldSeq.Update();
 
 Assert.AreEqual("101", fieldSeq.Result);
 
-// Inserisce un'intestazione di livello 1.
+// Inserisci un'intestazione di livello 1.
 builder.InsertBreak(BreakType.ParagraphBreak);
 builder.ParagraphFormat.Style = doc.Styles["Heading 1"];
 builder.Writeln("This level 1 heading will reset MySequence to 1");
 builder.ParagraphFormat.Style = doc.Styles["Normal"];
 
-// Inserisci un altro campo SEQ della stessa sequenza e configuralo per azzerare il conteggio ad ogni intestazione con 1.
+// Inserisci un altro campo SEQ dalla stessa sequenza e configuralo per reimpostare il conteggio ad ogni intestazione con 1.
 builder.Write("\n#");
 fieldSeq = (FieldSeq)builder.InsertField(FieldType.FieldSequence, true);
 fieldSeq.SequenceIdentifier = "MySequence";
 fieldSeq.ResetHeadingLevel = "1";
 fieldSeq.Update();
 
-// L'intestazione sopra è un'intestazione di livello 1, quindi il conteggio per questa sequenza viene riportato a 1.
+// L'intestazione sopra è un'intestazione di livello 1, quindi il conteggio per questa sequenza viene reimpostato su 1.
 Assert.AreEqual(" SEQ  MySequence \\s 1", fieldSeq.GetFieldCode());
 Assert.AreEqual("1", fieldSeq.Result);
 

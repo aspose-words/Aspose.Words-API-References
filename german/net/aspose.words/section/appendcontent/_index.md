@@ -1,14 +1,14 @@
 ---
 title: Section.AppendContent
 second_title: Aspose.Words für .NET-API-Referenz
-description: Section methode. Fügt eine Kopie des Inhalts des Quellabschnitts am Ende dieses Abschnitts ein.
+description: Section methode. Fügt am Ende dieses Abschnitts eine Kopie des Inhalts des Quellabschnitts ein.
 type: docs
-weight: 80
+weight: 100
 url: /de/net/aspose.words/section/appendcontent/
 ---
 ## Section.AppendContent method
 
-Fügt eine Kopie des Inhalts des Quellabschnitts am Ende dieses Abschnitts ein.
+Fügt am Ende dieses Abschnitts eine Kopie des Inhalts des Quellabschnitts ein.
 
 ```csharp
 public void AppendContent(Section sourceSection)
@@ -20,7 +20,7 @@ public void AppendContent(Section sourceSection)
 
 ### Bemerkungen
 
-Nur Inhalt von[`Body`](../body/) des Quellabschnitts kopiert, Seiteneinrichtung, Kopf- und Fußzeilen werden nicht kopiert.
+Nur Inhalt von[`Body`](../body/) des Quellabschnitts wird kopiert, Seiteneinrichtung, Kopf- und Fußzeilen werden nicht kopiert.
 
 Die Knoten werden automatisch importiert, wenn der Quellabschnitt zu einem anderen Dokument gehört.
 
@@ -44,15 +44,15 @@ Section section = doc.Sections[2];
 
 Assert.AreEqual("Section 3" + ControlChar.SectionBreak, section.GetText());
 
-// Inhalt des ersten Abschnitts am Anfang des dritten Abschnitts einfügen.
+// Den Inhalt des ersten Abschnitts am Anfang des dritten Abschnitts einfügen.
 Section sectionToPrepend = doc.Sections[0];
 section.PrependContent(sectionToPrepend);
 
-// Inhalt des zweiten Abschnitts am Ende des dritten Abschnitts einfügen.
+// Den Inhalt des zweiten Abschnitts am Ende des dritten Abschnitts einfügen.
 Section sectionToAppend = doc.Sections[1];
 section.AppendContent(sectionToAppend);
 
-// Die Methoden "PrependContent" und "AppendContent" haben keine neuen Abschnitte erstellt.
+// Die Methoden „PrependContent“ und „AppendContent“ haben keine neuen Abschnitte erstellt.
 Assert.AreEqual(3, doc.Sections.Count);
 Assert.AreEqual("Section 1" + ControlChar.ParagraphBreak +
                 "Section 3" + ControlChar.ParagraphBreak +

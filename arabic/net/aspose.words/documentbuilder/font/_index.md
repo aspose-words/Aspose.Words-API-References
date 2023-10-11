@@ -3,7 +3,7 @@ title: DocumentBuilder.Font
 second_title: Aspose.Words لمراجع .NET API
 description: DocumentBuilder ملكية. إرجاع كائن يمثل خصائص تنسيق الخط الحالية.
 type: docs
-weight: 90
+weight: 100
 url: /ar/net/aspose.words/documentbuilder/font/
 ---
 ## DocumentBuilder.Font property
@@ -16,13 +16,13 @@ public Font Font { get; }
 
 ### ملاحظات
 
-يستخدم **الخط** للوصول إلى خصائص تنسيق الخط وتعديلها.
+يستخدم`Font` للوصول إلى خصائص تنسيق الخط وتعديلها.
 
-حدد تنسيق الخط قبل إدراج النص.
+تحديد تنسيق الخط قبل إدراج النص.
 
 ### أمثلة
 
-يوضح كيفية إدراج سلسلة محاطة بحد في المستند.
+يوضح كيفية إدراج سلسلة محاطة بحد في مستند.
 
 ```csharp
 Document doc = new Document();
@@ -47,7 +47,7 @@ Table table = builder.StartTable();
 builder.InsertCell();
 table.LeftIndent = 20;
 
-// تعيين بعض خيارات التنسيق لمظهر النص والجدول.
+// قم بتعيين بعض خيارات التنسيق لمظهر النص والجدول.
 builder.RowFormat.Height = 40;
 builder.RowFormat.HeightRule = HeightRule.AtLeast;
 builder.CellFormat.Shading.BackgroundPatternColor = Color.FromArgb(198, 217, 241);
@@ -58,7 +58,7 @@ builder.Font.Name = "Arial";
 builder.Font.Bold = true;
 
 // سيؤدي تكوين خيارات التنسيق في أداة إنشاء المستندات إلى تطبيقها
-// إلى الخلية / الصف الحالي الذي يوجد به المؤشر ،
+// إلى الخلية/الصف الحالي الذي يوجد به المؤشر،
 // بالإضافة إلى أي خلايا وصفوف جديدة تم إنشاؤها باستخدام هذا المنشئ.
 builder.Write("Header Row,\n Cell 1");
 builder.InsertCell();
@@ -67,8 +67,8 @@ builder.InsertCell();
 builder.Write("Header Row,\n Cell 3");
 builder.EndRow();
 
-// إعادة تكوين كائنات التنسيق الخاصة بالباني للصفوف والخلايا الجديدة التي نحن على وشك تكوينها.
-// لن يطبق المنشئ هذه على الصف الأول الذي تم إنشاؤه بالفعل بحيث يبرز كصف رأس.
+// أعد تكوين كائنات التنسيق الخاصة بالمنشئ للصفوف والخلايا الجديدة التي نحن على وشك إنشاؤها.
+// لن يقوم المنشئ بتطبيق هذه العناصر على الصف الأول الذي تم إنشاؤه بالفعل بحيث يبرز كصف رأس.
 builder.CellFormat.Shading.BackgroundPatternColor = Color.White;
 builder.CellFormat.VerticalAlignment = CellVerticalAlignment.Center;
 builder.RowFormat.Height = 30;

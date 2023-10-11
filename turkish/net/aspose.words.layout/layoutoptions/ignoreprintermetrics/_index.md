@@ -1,14 +1,14 @@
 ---
 title: LayoutOptions.IgnorePrinterMetrics
 second_title: Aspose.Words for .NET API Referansı
-description: LayoutOptions mülk. Belgeyi düzenlemek için yazıcı metriklerini kullan uyumluluk seçeneğinin yoksayılıp yok sayılmadığının göstergesini alır veya ayarlar. Varsayılan Değer Doğrudur.
+description: LayoutOptions mülk. Belgeyi düzenlemek için yazıcı ölçümlerini kullan uyumluluk seçeneğinin göz ardı edilip edilmediğine ilişkin göstergeyi alır veya ayarlar. Varsayılandoğru .
 type: docs
 weight: 50
 url: /tr/net/aspose.words.layout/layoutoptions/ignoreprintermetrics/
 ---
 ## LayoutOptions.IgnorePrinterMetrics property
 
-"Belgeyi düzenlemek için yazıcı metriklerini kullan" uyumluluk seçeneğinin yoksayılıp yok sayılmadığının göstergesini alır veya ayarlar. Varsayılan Değer Doğru'dur.
+"Belgeyi düzenlemek için yazıcı ölçümlerini kullan" uyumluluk seçeneğinin göz ardı edilip edilmediğine ilişkin göstergeyi alır veya ayarlar. Varsayılan:`doğru` .
 
 ```csharp
 public bool IgnorePrinterMetrics { get; set; }

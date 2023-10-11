@@ -3,7 +3,7 @@ title: PdfSaveOptions.ImageCompression
 second_title: Aspose.Words لمراجع .NET API
 description: PdfSaveOptions ملكية. يحدد نوع الضغط الذي سيتم استخدامه لجميع الصور في المستند.
 type: docs
-weight: 170
+weight: 200
 url: /ar/net/aspose.words.saving/pdfsaveoptions/imagecompression/
 ---
 ## PdfSaveOptions.ImageCompression property
@@ -18,11 +18,11 @@ public PdfImageCompression ImageCompression { get; set; }
 
 الافتراضي هوAuto.
 
-استخدامJpeg يتيح لك التحكم في جودة الصور في المستند الناتج من خلال ملف[`JpegQuality`](../jpegquality/) منشأه.
+استخدامJpeg يتيح لك التحكم في جودة الصور في مستند الإخراج من خلال[`JpegQuality`](../jpegquality/) ملكية.
 
-استخدامJpeg يوفر أسرع سرعة تحويل عند مقارنته بأداء أنواع الضغط الأخرى ، ولكن في هذه الحالة ، يوجد ضغط JPEG مع فقدان.
+استخدامJpeg يوفر أسرع سرعة تحويل بالمقارنة مع أداء أنواع الضغط الأخرى، ولكن في هذه الحالة، هناك ضغط JPEG مع فقدان.
 
-استخدامAuto يتيح لك التحكم في جودة Jpeg في مستند الإخراج من خلال ملف[`JpegQuality`](../jpegquality/) الخاصية ، لكن بالنسبة للتنسيقات الأخرى ، يتم استخراج بيانات البكسل الأولية وحفظها بضغط Flate. هذه الحالة أبطأ من تحويل Jpeg ولكنها بلا خسارة.
+استخدامAuto يتيح لك التحكم في جودة ملف Jpeg في مستند الإخراج من خلال ملف[`JpegQuality`](../jpegquality/)الخاصية، ولكن بالنسبة للتنسيقات الأخرى، يتم استخراج بيانات البكسل الأولية وحفظها باستخدام ضغط Flate. هذه الحالة أبطأ من تحويل Jpeg ولكنها لا تفقد البيانات.
 
 ### أمثلة
 
@@ -38,17 +38,17 @@ builder.InsertParagraph();
 builder.Writeln("Png image:");
 builder.InsertImage(ImageDir + "Transparent background logo.png");
 
-// قم بإنشاء كائن "PdfSaveOptions" يمكننا تمريره إلى طريقة "Save" الخاصة بالمستند
-// لتعديل كيفية تحويل هذه الطريقة المستند إلى PDF.
+// قم بإنشاء كائن "PdfSaveOptions" الذي يمكننا تمريره إلى طريقة "حفظ" المستند
+// لتعديل كيفية تحويل هذه الطريقة للمستند إلى .PDF.
 PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
 
-// اضبط خاصية "ImageCompression" على "PdfImageCompression.Auto" لاستخدام ملف
-// "ImageCompression" للتحكم في جودة صور Jpeg التي تنتهي في ملف PDF الناتج.
-// اضبط خاصية "ImageCompression" على "PdfImageCompression.Jpeg" لاستخدام ملف
-// خاصية ImageCompression للتحكم في جودة كل الصور التي تنتهي في ملف PDF الناتج.
+// اضبط خاصية "ImageCompression" على "PdfImageCompression.Auto" لاستخدامها
+// خاصية "ImageCompression" للتحكم في جودة صور Jpeg التي تنتهي في ملف PDF الناتج.
+// اضبط خاصية "ImageCompression" على "PdfImageCompression.Jpeg" لاستخدامها
+// خاصية "ImageCompression" للتحكم في جودة جميع الصور التي تنتهي في ملف PDF الناتج.
 pdfSaveOptions.ImageCompression = pdfImageCompression;
 
-// اضبط خاصية "JpegQuality" على "10" لتقوية الضغط على حساب جودة الصورة.
+// اضبط خاصية "JpegQuality" على "10" لتعزيز الضغط على حساب جودة الصورة.
 pdfSaveOptions.JpegQuality = 10;
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.ImageCompression.pdf", pdfSaveOptions);

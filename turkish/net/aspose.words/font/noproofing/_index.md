@@ -1,14 +1,14 @@
 ---
 title: Font.NoProofing
 second_title: Aspose.Words for .NET API Referansı
-description: Font mülk. Biçimlendirilmiş karakterler yazım denetimi yapılmadığında doğrudur.
+description: Font mülk. Biçimlendirilmiş karakterlerin yazım denetimi yapılmaması durumunda doğrudur.
 type: docs
 weight: 280
 url: /tr/net/aspose.words/font/noproofing/
 ---
 ## Font.NoProofing property
 
-Biçimlendirilmiş karakterler yazım denetimi yapılmadığında doğrudur.
+Biçimlendirilmiş karakterlerin yazım denetimi yapılmaması durumunda doğrudur.
 
 ```csharp
 public bool NoProofing { get; set; }
@@ -16,15 +16,15 @@ public bool NoProofing { get; set; }
 
 ### Örnekler
 
-Metnin Microsoft Word tarafından yazım denetiminin nasıl engelleneceğini gösterir.
+Metnin Microsoft Word tarafından yazım denetimi yapılmasının nasıl önleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Normalde, Microsoft Word, tırtıklı kırmızı alt çizgi ile yazım hatalarını vurgular.
+// Normalde Microsoft Word, yazım hatalarını pürüzlü kırmızı bir alt çizgiyle vurgular.
 // Metnin bir kısmını oluşturmak için "NoProofing" bayrağının ayarını kaldırabiliriz.
-// tamamen devre dışı bırakırken yazım denetleyicisini atlar.
+// yazım denetleyiciyi tamamen devre dışı bırakırken atlar.
 builder.Font.NoProofing = true;
 
 builder.Writeln("Proofing has been disabled, so these spelking errrs will not display red lines underneath.");

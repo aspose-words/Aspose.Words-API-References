@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.DoNotExpandShiftReturn
 second_title: Справочник по API Aspose.Words для .NET
-description: CompatibilityOptions свойство. Не выравнивать строки заканчивающиеся мягким разрывом строки.
+description: CompatibilityOptions свойство. Не выравнивайте строки заканчивающиеся мягким разрывом строки.
 type: docs
 weight: 150
 url: /ru/net/aspose.words.settings/compatibilityoptions/donotexpandshiftreturn/
 ---
 ## CompatibilityOptions.DoNotExpandShiftReturn property
 
-Не выравнивать строки, заканчивающиеся мягким разрывом строки.
+Не выравнивайте строки, заканчивающиеся мягким разрывом строки.
 
 ```csharp
 public bool DoNotExpandShiftReturn { get; set; }

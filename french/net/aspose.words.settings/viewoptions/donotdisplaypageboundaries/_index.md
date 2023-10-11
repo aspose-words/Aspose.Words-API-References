@@ -16,13 +16,13 @@ public bool DoNotDisplayPageBoundaries { get; set; }
 
 ### Exemples
 
-Montre comment masquer les espaces blancs verticaux et les en-têtes/pieds de page dans les options d'affichage.
+Montre comment masquer les espaces verticaux et les en-têtes/pieds de page dans les options d’affichage.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Insérer du contenu qui s'étend sur 3 pages.
+// Insère du contenu qui s'étend sur 3 pages.
 builder.Writeln("Paragraph 1, Page 1.");
 builder.InsertBreak(BreakType.PageBreak);
 builder.Writeln("Paragraph 2, Page 2.");
@@ -35,10 +35,10 @@ builder.Writeln("This is the header.");
 builder.MoveToHeaderFooter(HeaderFooterType.FooterPrimary);
 builder.Writeln("This is the footer.");
 
-// Ce document contient une petite quantité de contenu qui occupe quelques pages complètes d'espace.
-// Définissez le drapeau "DoNotDisplayPageBoundaries" sur "true" pour que les anciennes versions de Microsoft Word omettent les en-têtes,
-// pieds de page et une grande partie des espaces blancs verticaux lors de l'affichage de notre document.
-// Définissez le drapeau "DoNotDisplayPageBoundaries" sur "false" pour obtenir les anciennes versions de Microsoft Word
+// Ce document contient une petite quantité de contenu qui occupe quelques pages complètes.
+// Définissez l'indicateur "DoNotDisplayPageBoundaries" sur "true" pour que les anciennes versions de Microsoft Word omettent les en-têtes,
+// les pieds de page et une grande partie des espaces verticaux lors de l'affichage de notre document.
+// Définissez l'indicateur "DoNotDisplayPageBoundaries" sur "false" pour obtenir les anciennes versions de Microsoft Word
 // pour afficher normalement notre document.
 doc.ViewOptions.DoNotDisplayPageBoundaries = doNotDisplayPageBoundaries;
 

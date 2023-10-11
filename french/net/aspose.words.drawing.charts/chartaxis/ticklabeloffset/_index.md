@@ -3,7 +3,7 @@ title: ChartAxis.TickLabelOffset
 second_title: Référence de l'API Aspose.Words pour .NET
 description: ChartAxis propriété. Obtient ou définit la distance des étiquettes par rapport à laxe.
 type: docs
-weight: 210
+weight: 230
 url: /fr/net/aspose.words.drawing.charts/chartaxis/ticklabeloffset/
 ---
 ## ChartAxis.TickLabelOffset property
@@ -24,7 +24,7 @@ La propriété n'a d'effet que pour les axes de catégorie. Il n'est pas pris en
 
 ### Exemples
 
-Montre comment insérer un graphique et modifier l'apparence de ses axes.
+Montre comment insérer un graphique et modifier l’apparence de ses axes.
 
 ```csharp
 Document doc = new Document();
@@ -33,7 +33,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertChart(ChartType.Column, 500, 300);
 Chart chart = shape.Chart;
 
-// Effacez la série de données de démonstration du graphique pour commencer avec un graphique propre.
+// Efface la série de données de démonstration du graphique pour commencer avec un graphique propre.
 chart.Series.Clear();
 
 // Insère une série de graphiques avec des catégories pour l'axe X et des valeurs numériques respectives pour l'axe Y.
@@ -41,7 +41,7 @@ chart.Series.Add("Aspose Test Series",
     new[] { "Word", "PDF", "Excel", "GoogleDocs", "Note" },
     new double[] { 640, 320, 280, 120, 150 });
 
-// Les axes du graphique ont diverses options qui peuvent changer leur apparence,
+// Les axes du graphique ont diverses options permettant de modifier leur apparence,
 // tels que leur direction, les graduations des unités majeures/mineures et les graduations.
 ChartAxis xAxis = chart.AxisX;
 xAxis.CategoryType = AxisCategoryType.Category;
@@ -66,7 +66,7 @@ yAxis.MajorUnit = 100.0d;
 yAxis.MinorUnit = 20.0d;
 yAxis.TickLabelPosition = AxisTickLabelPosition.NextToAxis;
 
-// Les histogrammes n'ont pas d'axe Z.
+// Les graphiques à colonnes n'ont pas d'axe Z.
 Assert.Null(chart.AxisZ);
 
 doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");

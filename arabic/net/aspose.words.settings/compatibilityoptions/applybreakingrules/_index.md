@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.ApplyBreakingRules
 second_title: Aspose.Words لمراجع .NET API
-description: CompatibilityOptions ملكية. استخدام قواعد كسر الأسطر القديمة الإثيوبية والأمهرية .
+description: CompatibilityOptions ملكية. استخدم قواعد كسر الأسطر الإثيوبية والأمهرية القديمة.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.settings/compatibilityoptions/applybreakingrules/
 ---
 ## CompatibilityOptions.ApplyBreakingRules property
 
-استخدام قواعد كسر الأسطر القديمة الإثيوبية والأمهرية .
+استخدم قواعد كسر الأسطر الإثيوبية والأمهرية القديمة.
 
 ```csharp
 public bool ApplyBreakingRules { get; set; }

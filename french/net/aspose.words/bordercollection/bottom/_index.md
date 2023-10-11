@@ -16,7 +16,7 @@ public Border Bottom { get; }
 
 ### Exemples
 
-Montre comment appliquer une couleur de bordure et d'ombrage lors de la création d'un tableau.
+Montre comment appliquer une couleur de bordure et d’ombrage lors de la création d’un tableau.
 
 ```csharp
 Document doc = new Document();
@@ -35,9 +35,9 @@ builder.CellFormat.Shading.BackgroundPatternColor = Color.Orange;
 builder.Writeln("Row 1, Cell 2.");
 builder.EndRow();
 
-// Réinitialiser le formatage des cellules pour désactiver les couleurs d'arrière-plan
+// Réinitialise le formatage des cellules pour désactiver les couleurs d'arrière-plan
 // définit une épaisseur de bordure personnalisée pour toutes les nouvelles cellules créées par le constructeur,
-// puis construire une deuxième ligne.
+// puis construis une deuxième ligne.
 builder.CellFormat.ClearFormatting();
 builder.CellFormat.Borders.Left.LineWidth = 4.0;
 builder.CellFormat.Borders.Right.LineWidth = 4.0;

@@ -3,7 +3,7 @@ title: Table.ClearBorders
 second_title: Aspose.Words för .NET API Referens
 description: Table metod. Tar bort alla tabell och cellkanter på den här tabellen.
 type: docs
-weight: 370
+weight: 390
 url: /sv/net/aspose.words.tables/table/clearborders/
 ---
 ## Table.ClearBorders method
@@ -29,7 +29,7 @@ table.Alignment = TableAlignment.Center;
 table.ClearBorders();
 table.ClearShading();
 
-// Lägg till gröna kanter till tabellens konturer.
+// Lägg till gröna ramar till tabellens konturer.
 table.SetBorder(BorderType.Left, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Right, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Top, LineStyle.Single, 1.5, Color.Green, true);

@@ -3,12 +3,14 @@ title: Class OfficeMathRenderer
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Rendering.OfficeMathRenderer klass. Tillhandahåller metoder för att rendera en individOfficeMath till en raster eller vektorbild eller till ett grafikobjekt.
 type: docs
-weight: 4300
+weight: 4560
 url: /sv/net/aspose.words.rendering/officemathrenderer/
 ---
 ## OfficeMathRenderer class
 
 Tillhandahåller metoder för att rendera en individ[`OfficeMath`](../../aspose.words.math/officemath/) till en raster- eller vektorbild eller till ett grafikobjekt.
+
+För att lära dig mer, besök[Jobbar med OfficeMath](https://docs.aspose.com/words/net/working-with-officemath/) dokumentationsartikel.
 
 ```csharp
 public class OfficeMathRenderer : NodeRendererBase

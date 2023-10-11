@@ -1,14 +1,14 @@
 ---
 title: Enum WrapType
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Drawing.WrapType تعداد. يحدد كيفية التفاف النص حول شكل أو صورة.
+description: Aspose.Words.Drawing.WrapType تعداد. يحدد كيفية التفاف النص حول الشكل أو الصورة.
 type: docs
-weight: 1250
+weight: 1400
 url: /ar/net/aspose.words.drawing/wraptype/
 ---
 ## WrapType enumeration
 
-يحدد كيفية التفاف النص حول شكل أو صورة.
+يحدد كيفية التفاف النص حول الشكل أو الصورة.
 
 ```csharp
 public enum WrapType
@@ -18,12 +18,12 @@ public enum WrapType
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| None | `3` | لا يوجد نص يلتف حول الشكل. يوضع الشكل خلف النص أو أمامه. |
-| Inline | `0` | يظل الشكل على نفس طبقة النص ويتم التعامل معه كحرف. |
-| TopBottom | `1` | يتوقف النص في أعلى الشكل ويعاد تشغيله على السطر الموجود أسفل الشكل. |
+| None | `3` | لا يوجد نص يلتف حول الشكل. يتم وضع الشكل خلف النص أو أمامه. |
+| Inline | `0` | يبقى الشكل على نفس طبقة النص ويتم التعامل معه كحرف. |
+| TopBottom | `1` | يتوقف النص عند أعلى الشكل ثم يبدأ من جديد على السطر الموجود أسفل الشكل. |
 | Square | `2` | يلتف النص حول جميع جوانب المربع المحيط بالشكل. |
-| Tight | `4` | يلتف بإحكام حول حواف الشكل ، بدلاً من الالتفاف حول المربع المحيط. |
-| Through | `5` | مثل ضيق ، لكنه يلتف داخل أي جزء من الشكل المفتوح. |
+| Tight | `4` | يتم الالتفاف بإحكام حول حواف الشكل، بدلاً من الالتفاف حول المربع المحيط. |
+| Through | `5` | نفس الشكل الضيق، ولكنه يلتف داخل أي أجزاء مفتوحة من الشكل. |
 
 ### أمثلة
 
@@ -33,7 +33,7 @@ public enum WrapType
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// أدخل صورة عائمة ستظهر خلف النص المتداخل وقم بمحاذاة مركز الصفحة.
+// أدخل صورة عائمة ستظهر خلف النص المتداخل وقم بمحاذاتها مع منتصف الصفحة.
 Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
 shape.WrapType = WrapType.None;
 shape.BehindText = true;
@@ -58,7 +58,7 @@ Shape shape = builder.InsertImage(image);
 shape.WrapType = WrapType.None;
 shape.BehindText = true;
 
-// ضع الصورة في منتصف الصفحة.
+// ضع الصورة في وسط الصفحة.
 shape.RelativeHorizontalPosition = RelativeHorizontalPosition.Page;
 shape.RelativeVerticalPosition = RelativeVerticalPosition.Page;
 shape.Left = (builder.PageSetup.PageWidth - shape.Width) / 2;
@@ -83,7 +83,7 @@ using (SKBitmap image = SKBitmap.Decode(ImageDir + "Transparent background logo.
     shape.WrapType = WrapType.None;
     shape.BehindText = true;
 
-    // ضع الصورة في منتصف الصفحة.
+    // ضع الصورة في وسط الصفحة.
     shape.RelativeHorizontalPosition = RelativeHorizontalPosition.Page;
     shape.RelativeVerticalPosition = RelativeVerticalPosition.Page;
     shape.Left = (builder.PageSetup.PageWidth - shape.Width) / 2;

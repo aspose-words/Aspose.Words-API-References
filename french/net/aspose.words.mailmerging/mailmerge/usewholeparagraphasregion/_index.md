@@ -1,14 +1,14 @@
 ---
 title: MailMerge.UseWholeParagraphAsRegion
 second_title: Référence de l'API Aspose.Words pour .NET
-description: MailMerge propriété. Obtient ou définit une valeur indiquant si le paragraphe entier avec le champ TableStart ou TableEnd ou une plage particulière entre les champs TableStart et TableEnd doit être inclus dans la région de fusion et publipostage.
+description: MailMerge propriété. Obtient ou définit une valeur indiquant si un paragraphe entier avec Début de la table ou Fin de table field ou plage particulière entre Début de la table et Fin de table les champs doivent être inclus dans la région de publipostage.
 type: docs
 weight: 160
 url: /fr/net/aspose.words.mailmerging/mailmerge/usewholeparagraphasregion/
 ---
 ## MailMerge.UseWholeParagraphAsRegion property
 
-Obtient ou définit une valeur indiquant si le paragraphe entier avec le champ TableStart ou TableEnd ou une plage particulière entre les champs TableStart et TableEnd doit être inclus dans la région de fusion et publipostage.
+Obtient ou définit une valeur indiquant si un paragraphe entier avec **Début de la table** ou **Fin de table** field ou plage particulière entre **Début de la table** et **Fin de table** les champs doivent être inclus dans la région de publipostage.
 
 ```csharp
 public bool UseWholeParagraphAsRegion { get; set; }
@@ -16,11 +16,11 @@ public bool UseWholeParagraphAsRegion { get; set; }
 
 ### Remarques
 
-La valeur par défaut est **vrai** .
+La valeur par défaut est`vrai` .
 
 ### Exemples
 
-Affiche la relation entre les zones de publipostage et les paragraphes.
+Affiche la relation entre les régions de publipostage et les paragraphes.
 
 ```csharp
 public void UseWholeParagraphAsRegion(bool useWholeParagraphAsRegion)
@@ -30,10 +30,10 @@ public void UseWholeParagraphAsRegion(bool useWholeParagraphAsRegion)
 
     // Par défaut, un paragraphe ne peut appartenir qu'à une seule région de publipostage.
     // Le contenu de notre document ne répond pas à ces critères.
-    // Si nous définissons le drapeau "UseWholeParagraphAsRegion" sur "true",
-    // l'exécution d'un publipostage sur ce document lèvera une exception.
-    // Si nous définissons le drapeau "UseWholeParagraphAsRegion" sur "false",
-    // nous pourrons exécuter un publipostage sur ce document.
+    // Si on met le flag "UseWholeParagraphAsRegion" à "true",
+    // L'exécution d'un publipostage sur ce document lèvera une exception.
+    // Si on met le flag "UseWholeParagraphAsRegion" à "false",
+    // nous allons pouvoir exécuter un publipostage sur ce document.
     doc.MailMerge.UseWholeParagraphAsRegion = useWholeParagraphAsRegion;
 
     if (useWholeParagraphAsRegion)
@@ -47,7 +47,7 @@ public void UseWholeParagraphAsRegion(bool useWholeParagraphAsRegion)
 }
 
 /// <summary>
-/// Créer un document avec deux zones de fusion et publipostage partageant un paragraphe.
+/// Créez un document avec deux régions de publipostage partageant un paragraphe.
 /// </summary>
 private static Document CreateSourceDocWithNestedMergeRegions()
 {
@@ -69,7 +69,7 @@ private static Document CreateSourceDocWithNestedMergeRegions()
 }
 
 /// <summary>
-/// Créer une table de données pouvant remplir une région lors d'un publipostage.
+/// Créez une table de données pouvant remplir une région lors d'un publipostage.
 /// </summary>
 private static DataTable CreateSourceTableDataTableForOneRegion()
 {

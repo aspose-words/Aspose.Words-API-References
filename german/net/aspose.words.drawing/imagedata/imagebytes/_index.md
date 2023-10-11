@@ -1,14 +1,14 @@
 ---
 title: ImageData.ImageBytes
 second_title: Aspose.Words für .NET-API-Referenz
-description: ImageData eigendom. Ruft die Rohbytes des in der Form gespeicherten Bilds ab oder legt sie fest.
+description: ImageData eigendom. Ruft die Rohbytes des in der Form gespeicherten Bildes ab oder legt diese fest.
 type: docs
 weight: 120
 url: /de/net/aspose.words.drawing/imagedata/imagebytes/
 ---
 ## ImageData.ImageBytes property
 
-Ruft die Rohbytes des in der Form gespeicherten Bilds ab oder legt sie fest.
+Ruft die Rohbytes des in der Form gespeicherten Bildes ab oder legt diese fest.
 
 ```csharp
 public byte[] ImageBytes { get; set; }
@@ -16,7 +16,7 @@ public byte[] ImageBytes { get; set; }
 
 ### Bemerkungen
 
-Setzen Sie den Wert auf`Null` oder ein leeres Array entfernt das Bild aus der Form.
+Den Wert auf setzen`Null` oder ein leeres Array entfernt das Bild aus der Form.
 
 Kehrt zurück`Null` wenn das Bild nicht im Dokument gespeichert ist (z. B. ist das Bild in diesem Fall wahrscheinlich verlinkt).
 
@@ -26,7 +26,6 @@ Zeigt, wie eine Bilddatei aus den Rohbilddaten einer Form erstellt wird.
 
 ```csharp
 Document imgSourceDoc = new Document(MyDir + "Images.docx");
-
 Shape imgShape = (Shape) imgSourceDoc.GetChild(NodeType.Shape, 0, true);
 
 Assert.True(imgShape.HasImage);

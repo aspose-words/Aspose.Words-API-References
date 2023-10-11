@@ -1,14 +1,14 @@
 ---
 title: IPageLayoutCallback.Notify
 second_title: Aspose.Words für .NET-API-Referenz
-description: IPageLayoutCallback methode. Dies wird aufgerufen um über den Layouterstellungs und Renderfortschritt zu informieren.
+description: IPageLayoutCallback methode. Dies wird aufgerufen um über den Fortschritt der Layouterstellung und des Renderings zu informieren.
 type: docs
 weight: 10
 url: /de/net/aspose.words.layout/ipagelayoutcallback/notify/
 ---
 ## IPageLayoutCallback.Notify method
 
-Dies wird aufgerufen, um über den Layouterstellungs- und Renderfortschritt zu informieren.
+Dies wird aufgerufen, um über den Fortschritt der Layouterstellung und des Renderings zu informieren.
 
 ```csharp
 public void Notify(PageLayoutCallbackArgs args)
@@ -20,14 +20,13 @@ public void Notify(PageLayoutCallbackArgs args)
 
 ### Bemerkungen
 
-Ausnahme, wenn sie von der Implementierung ausgelöst wird, bricht den Layouterstellungsprozess ab.
+Ausnahme, wenn sie von der Implementierung ausgelöst wird, bricht den Layout-Erstellungsprozess ab.
 
 ### Beispiele
 
-Zeigt, wie Layoutänderungen mit einem Layout-Callback nachverfolgt werden.
+Zeigt, wie Layoutänderungen mit einem Layout-Callback verfolgt werden.
 
 ```csharp
-[Test]
 public void PageLayoutCallback()
 {
     Document doc = new Document();
@@ -44,7 +43,7 @@ public void PageLayoutCallback()
 
 /// <summary>
 /// Benachrichtigt uns, wenn wir das Dokument in einem festen Seitenformat speichern
-/// und rendert eine Seite, auf der wir einen Seitenumbruch zu einem Bild im lokalen Dateisystem durchführen.
+/// und rendert eine Seite, auf der wir einen Seiten-Reflow durchführen, in ein Bild im lokalen Dateisystem.
 /// </summary>
 private class RenderPageLayoutCallback : IPageLayoutCallback
 {

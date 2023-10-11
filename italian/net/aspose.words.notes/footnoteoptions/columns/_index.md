@@ -16,11 +16,11 @@ public int Columns { get; set; }
 
 ### Osservazioni
 
-Se questa proprietà ha il valore 0, l'area delle note a piè di pagina viene formattata con un numero di colonne basato su il numero di colonne nella pagina visualizzata. Il valore predefinito è 0.
+Se questa proprietà ha valore 0, l'area delle note a piè di pagina viene formattata con un numero di colonne basato sul numero di colonne nella pagina visualizzata. Il valore predefinito è 0.
 
 ### Esempi
 
-Mostra come dividere la sezione delle note a piè di pagina in un determinato numero di colonne.
+Mostra come dividere la sezione della nota a piè di pagina in un determinato numero di colonne.
 
 ```csharp
 Document doc = new Document(MyDir + "Footnotes and endnotes.docx");

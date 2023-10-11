@@ -20,7 +20,7 @@ public Document OpenIStream(IStream stream)
 
 ### Return_Value
 
-UN[`Document`](../../document/) objet qui représente un document Word.
+UN[`Document`](../../document/)objet qui représente un document Word.
 
 ### Voir également
 

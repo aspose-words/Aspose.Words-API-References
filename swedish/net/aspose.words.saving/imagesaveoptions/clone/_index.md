@@ -3,7 +3,7 @@ title: ImageSaveOptions.Clone
 second_title: Aspose.Words för .NET API Referens
 description: ImageSaveOptions metod. Skapar en djup klon av detta objekt.
 type: docs
-weight: 200
+weight: 210
 url: /sv/net/aspose.words.saving/imagesaveoptions/clone/
 ---
 ## ImageSaveOptions.Clone method

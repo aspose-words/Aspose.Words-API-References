@@ -3,12 +3,14 @@ title: Class VbaProject
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Vba.VbaProject klass. Ger tillgång till VBAprojektinformation. Ett VBAprojekt inuti dokumentet definieras som en samling VBAmoduler.
 type: docs
-weight: 6270
+weight: 6580
 url: /sv/net/aspose.words.vba/vbaproject/
 ---
 ## VbaProject class
 
 Ger tillgång till VBA-projektinformation. Ett VBA-projekt inuti dokumentet definieras som en samling VBA-moduler.
+
+För att lära dig mer, besök[Arbeta med VBA-makron](https://docs.aspose.com/words/net/working-with-vba-macros/) dokumentationsartikel.
 
 ```csharp
 public class VbaProject
@@ -18,14 +20,14 @@ public class VbaProject
 
 | namn | Beskrivning |
 | --- | --- |
-| [VbaProject](vbaproject/)() | Skapar ett tomt VbaProject. |
+| [VbaProject](vbaproject/)() | Skapar en tom`VbaProject` . |
 
 ## Egenskaper
 
 | namn | Beskrivning |
 | --- | --- |
-| [CodePage](../../aspose.words.vba/vbaproject/codepage/) { get; } | Returnerar VBA-projektets teckentabell. |
-| [IsSigned](../../aspose.words.vba/vbaproject/issigned/) { get; } | Visar om VbaProject är signerat eller inte. |
+| [CodePage](../../aspose.words.vba/vbaproject/codepage/) { get; set; } | Hämtar eller ställer in VBA-projektets teckentabell. |
+| [IsSigned](../../aspose.words.vba/vbaproject/issigned/) { get; } | Visar om`VbaProject` är signerad eller inte. |
 | [Modules](../../aspose.words.vba/vbaproject/modules/) { get; } | Returnerar samling av VBA-projektmoduler. |
 | [Name](../../aspose.words.vba/vbaproject/name/) { get; set; } | Hämtar eller ställer in VBA-projektnamn. |
 | [References](../../aspose.words.vba/vbaproject/references/) { get; } | Får en samling VBA-projektreferenser. |
@@ -45,6 +47,7 @@ Document doc = new Document(MyDir + "VBA project.docm");
 
 // Ett VBA-projekt innehåller en samling VBA-moduler.
 VbaProject vbaProject = doc.VbaProject;
+Console.WriteLine(vbaProject.IsSigned
     ? $"Project name: {vbaProject.Name} signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n"
     : $"Project name: {vbaProject.Name} not signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n");
 

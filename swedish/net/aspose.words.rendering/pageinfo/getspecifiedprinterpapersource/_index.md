@@ -3,7 +3,7 @@ title: PageInfo.GetSpecifiedPrinterPaperSource
 second_title: Aspose.Words för .NET API Referens
 description: PageInfo metod. FårPaperSource objekt som är lämpligt för utskrift sidan som representeras av dettaPageInfo .
 type: docs
-weight: 90
+weight: 100
 url: /sv/net/aspose.words.rendering/pageinfo/getspecifiedprinterpapersource/
 ---
 ## PageInfo.GetSpecifiedPrinterPaperSource method

@@ -1,14 +1,14 @@
 ---
 title: Shape.SignatureLine
 second_title: Справочник по API Aspose.Words для .NET
-description: Shape свойство. получаетSignatureLine объект если фигура является линией подписи. Возвращает нулевой иначе.
+description: Shape свойство. ПолучаетSignatureLine объект если фигура является линией подписи. Возвратнулевой иначе.
 type: docs
 weight: 160
 url: /ru/net/aspose.words.drawing/shape/signatureline/
 ---
 ## Shape.SignatureLine property
 
-получает`SignatureLine` объект, если фигура является линией подписи. Возвращает **нулевой** иначе.
+Получает[`SignatureLine`](../../signatureline/) объект, если фигура является линией подписи. Возврат`нулевой` иначе.
 
 ```csharp
 public SignatureLine SignatureLine { get; }
@@ -16,7 +16,7 @@ public SignatureLine SignatureLine { get; }
 
 ### Примечания
 
-Вы можете вставить новые строки подписи в документ, используя[`InsertSignatureLine`](../../../aspose.words/documentbuilder/insertsignatureline/) и
+Вы можете вставить новые[`SignatureLine`](../../signatureline/) в документ, используя[`InsertSignatureLine`](../../../aspose.words/documentbuilder/insertsignatureline/) and
 
 ### Примеры
 
@@ -37,16 +37,16 @@ SignatureLineOptions options = new SignatureLineOptions
     SignerTitle = "Senior Manager"
 };
 
-// Вставляем фигуру, которая будет содержать строку подписи, внешний вид которой мы будем
-// настроить с помощью объекта «SignatureLineOptions», который мы создали выше.
-// Если мы вставим фигуру, координаты которой начинаются в правом нижнем углу страницы,
-// нам нужно указать отрицательные координаты x и y, чтобы отобразить фигуру.
+// Вставляем фигуру, которая будет содержать линию подписи, внешний вид которой мы будем
+// настраиваем с помощью объекта SignatureLineOptions, который мы создали выше.
+// Если мы вставим фигуру, координаты которой находятся в правом нижнем углу страницы,
+// нам нужно будет указать отрицательные координаты x и y, чтобы фигура была видна.
 Shape shape = builder.InsertSignatureLine(options, RelativeHorizontalPosition.RightMargin, -170.0, 
         RelativeVerticalPosition.BottomMargin, -60.0, WrapType.None);
 
 Assert.True(shape.IsSignatureLine);
 
-// Проверяем свойства нашей строки подписи через ее объект Shape.
+// Проверяем свойства нашей линии подписи через ее объект Shape.
 SignatureLine signatureLine = shape.SignatureLine;
 
 Assert.AreEqual("john.doe@management.com", signatureLine.Email);

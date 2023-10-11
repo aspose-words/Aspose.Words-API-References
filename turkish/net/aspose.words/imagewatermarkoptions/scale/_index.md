@@ -1,14 +1,14 @@
 ---
 title: ImageWatermarkOptions.Scale
 second_title: Aspose.Words for .NET API Referansı
-description: ImageWatermarkOptions mülk. Görüntünün bir bölümü olarak ifade edilen ölçek faktörünü alır veya ayarlar. Varsayılan değer 0  auto.
+description: ImageWatermarkOptions mülk. Görüntünün kesri olarak ifade edilen ölçek faktörünü alır veya ayarlar. Varsayılan değer 0dır  auto.
 type: docs
 weight: 30
 url: /tr/net/aspose.words/imagewatermarkoptions/scale/
 ---
 ## ImageWatermarkOptions.Scale property
 
-Görüntünün bir bölümü olarak ifade edilen ölçek faktörünü alır veya ayarlar. Varsayılan değer 0 - auto.
+Görüntünün kesri olarak ifade edilen ölçek faktörünü alır veya ayarlar. Varsayılan değer 0'dır - auto.
 
 ```csharp
 public double Scale { get; set; }
@@ -22,9 +22,9 @@ public double Scale { get; set; }
 
 ### Notlar
 
-Geçerli değerler 0 ile 65.5 arasında değişir.
+Geçerli değerler 0 ila 65,5 (dahil) arasındadır.
 
-Otomatik ölçeklendirme, filigranın sayfa kenar boşluklarına göre maksimum genişliğine ve maksimum yüksekliğine ölçekleneceği anlamına gelir.
+Otomatik ölçeklendirme, filigranın sayfa kenar boşluklarına göre maksimum genişliğine ve maksimum yüksekliğine göre ölçeklendirileceği anlamına gelir.
 
 ### Örnekler
 
@@ -33,8 +33,8 @@ Yerel dosya sistemindeki bir görüntüden nasıl filigran oluşturulacağını 
 ```csharp
 Document doc = new Document();
 
-            // Görüntü filigranının görünümünü bir ImageWatermarkOptions nesnesiyle değiştirin,
-            // daha sonra bir görüntü dosyasından bir filigran oluştururken iletin.
+            // Görüntü filigranının görünümünü ImageWatermarkOptions nesnesiyle değiştirin,
+            // ardından bir görüntü dosyasından filigran oluştururken bunu iletin.
             ImageWatermarkOptions imageWatermarkOptions = new ImageWatermarkOptions();
             imageWatermarkOptions.Scale = 5;
             imageWatermarkOptions.IsWashout = false;

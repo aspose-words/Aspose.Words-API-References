@@ -1,14 +1,14 @@
 ---
 title: Shape.HasSmartArt
 second_title: Aspose.Words für .NET-API-Referenz
-description: Shape eigendom. Gibt wahr zurück wenn diese Form ein SmartArtObjekt hat.
+description: Shape eigendom. Gibt zurückWAHR wenn dasShape hat ein SmartArtObjekt.
 type: docs
 weight: 90
 url: /de/net/aspose.words.drawing/shape/hassmartart/
 ---
 ## Shape.HasSmartArt property
 
-Gibt wahr zurück, wenn diese Form ein SmartArt-Objekt hat.
+Gibt zurück`WAHR` wenn das[`Shape`](../) hat ein SmartArt-Objekt.
 
 ```csharp
 public bool HasSmartArt { get; }

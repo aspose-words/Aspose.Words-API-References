@@ -1,14 +1,14 @@
 ---
 title: FieldPrintDate.UseLunarCalendar
 second_title: Aspose.Words per .NET API Reference
-description: FieldPrintDate proprietà. Ottiene o imposta se utilizzare il calendario lunare Hijri o il calendario lunare ebraico.
+description: FieldPrintDate proprietà. Ottiene o imposta se utilizzare il calendario lunare Hijri o quello lunare ebraico.
 type: docs
 weight: 20
 url: /it/net/aspose.words.fields/fieldprintdate/uselunarcalendar/
 ---
 ## FieldPrintDate.UseLunarCalendar property
 
-Ottiene o imposta se utilizzare il calendario lunare Hijri o il calendario lunare ebraico.
+Ottiene o imposta se utilizzare il calendario lunare Hijri o quello lunare ebraico.
 
 ```csharp
 public bool UseLunarCalendar { get; set; }
@@ -23,7 +23,7 @@ Document doc = new Document(MyDir + "Field sample - PRINTDATE.docx");
 
 // Quando un documento viene stampato da una stampante o stampato come PDF (ma non esportato in PDF),
 // I campi PRINTDATE visualizzeranno la data/ora dell'operazione di stampa.
-// Se non è stata eseguita alcuna stampa, questi campi visualizzeranno "0/0/0000".
+// Se non è avvenuta alcuna stampa, questi campi visualizzeranno "0/0/0000".
 FieldPrintDate field = (FieldPrintDate)doc.Range.Fields[0];
 
 Assert.AreEqual("3/25/2020 12:00:00 AM", field.Result);

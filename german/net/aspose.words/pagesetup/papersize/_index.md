@@ -1,14 +1,14 @@
 ---
 title: PageSetup.PaperSize
 second_title: Aspose.Words für .NET-API-Referenz
-description: PageSetup eigendom. Gibt die Papiergröße zurück oder legt sie fest.
+description: PageSetup eigendom. Gibt das Papierformat zurück oder legt es fest.
 type: docs
-weight: 340
+weight: 350
 url: /de/net/aspose.words/pagesetup/papersize/
 ---
 ## PageSetup.PaperSize property
 
-Gibt die Papiergröße zurück oder legt sie fest.
+Gibt das Papierformat zurück oder legt es fest.
 
 ```csharp
 public PaperSize PaperSize { get; set; }
@@ -16,7 +16,7 @@ public PaperSize PaperSize { get; set; }
 
 ### Bemerkungen
 
-Festlegen dieser Eigenschaftsaktualisierungen[`PageWidth`](../pagewidth/) und[`PageHeight`](../pageheight/) values. Setzen Sie diesen Wert aufCustom ändert keine bestehenden Werte.
+Das Festlegen dieser Eigenschaftsaktualisierungen[`PageWidth`](../pagewidth/) Und[`PageHeight`](../pageheight/) Values. Dieser Wert wird auf gesetztCustom ändert keine vorhandenen Werte.
 
 ### Beispiele
 
@@ -47,7 +47,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Wir können die Größe der aktuellen Seite auf eine vordefinierte Größe ändern
-// durch Verwendung der Eigenschaft "PaperSize" des PageSetup-Objekts dieses Abschnitts.
+// durch Verwendung der Eigenschaft „PaperSize“ des PageSetup-Objekts dieses Abschnitts.
 builder.PageSetup.PaperSize = PaperSize.Tabloid;
 
 Assert.AreEqual(792.0d, builder.PageSetup.PageWidth);
@@ -55,8 +55,8 @@ Assert.AreEqual(1224.0d, builder.PageSetup.PageHeight);
 
 builder.Writeln($"This page is {builder.PageSetup.PageWidth}x{builder.PageSetup.PageHeight}.");
 
-// Jeder Abschnitt hat sein eigenes PageSetup-Objekt. Wenn wir einen Document Builder verwenden, um einen neuen Abschnitt zu erstellen,
-// das PageSetup-Objekt dieses Abschnitts erbt alle Werte des PageSetup-Objekts des vorherigen Abschnitts.
+// Jeder Abschnitt hat sein eigenes PageSetup-Objekt. Wenn wir einen Dokumentersteller verwenden, um einen neuen Abschnitt zu erstellen,
+// Das PageSetup-Objekt dieses Abschnitts erbt alle Werte des PageSetup-Objekts des vorherigen Abschnitts.
 builder.InsertBreak(BreakType.SectionBreakEvenPage);
 
 Assert.AreEqual(PaperSize.Tabloid, builder.PageSetup.PaperSize);
@@ -80,19 +80,19 @@ builder.Writeln($"This page is {builder.PageSetup.PageWidth}x{builder.PageSetup.
 doc.Save(ArtifactsDir + "PageSetup.PaperSizes.docx");
 ```
 
-Zeigt, wie ein Aspose.Words-Dokument von Hand erstellt wird.
+Zeigt, wie man ein Aspose.Words-Dokument manuell erstellt.
 
 ```csharp
 Document doc = new Document();
 
 // Ein leeres Dokument enthält einen Abschnitt, einen Hauptteil und einen Absatz.
-// Rufen Sie die Methode "RemoveAllChildren" auf, um alle diese Knoten zu entfernen,
-// und am Ende einen Dokumentknoten ohne Kinder haben.
+// Rufen Sie die Methode „RemoveAllChildren“ auf, um alle diese Knoten zu entfernen.
+// und erhalten am Ende einen Dokumentknoten ohne untergeordnete Elemente.
 doc.RemoveAllChildren();
 
 // Dieses Dokument hat jetzt keine zusammengesetzten untergeordneten Knoten, denen wir Inhalte hinzufügen können.
 // Wenn wir es bearbeiten möchten, müssen wir seine Knotensammlung neu füllen.
-// Erstellen Sie zuerst einen neuen Abschnitt und hängen Sie ihn dann als untergeordnetes Element an den Stammdokumentknoten an.
+// Erstellen Sie zunächst einen neuen Abschnitt und hängen Sie ihn dann als untergeordnetes Element an den Stammdokumentknoten an.
 Section section = new Section(doc);
 doc.AppendChild(section);
 
@@ -100,12 +100,12 @@ doc.AppendChild(section);
 section.PageSetup.SectionStart = SectionStart.NewPage;
 section.PageSetup.PaperSize = PaperSize.Letter;
 
-// Ein Abschnitt benötigt einen Körper, der seinen gesamten Inhalt enthält und anzeigt
+// Ein Abschnitt benötigt einen Hauptteil, der seinen gesamten Inhalt enthält und anzeigt
 // auf der Seite zwischen Kopf- und Fußzeile des Abschnitts.
 Body body = new Body(doc);
 section.AppendChild(body);
 
-// Erstellen Sie einen Absatz, legen Sie einige Formatierungseigenschaften fest und hängen Sie ihn dann als untergeordnetes Element an den Textkörper an.
+// Einen Absatz erstellen, einige Formatierungseigenschaften festlegen und ihn dann als untergeordnetes Element an den Text anhängen.
 Paragraph para = new Paragraph(doc);
 
 para.ParagraphFormat.StyleName = "Heading 1";
@@ -113,7 +113,7 @@ para.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
 body.AppendChild(para);
 
-// Fügen Sie schließlich etwas Inhalt hinzu, um das Dokument zu erstellen. Erstellen Sie einen Lauf,
+// Zum Schluss fügen Sie etwas Inhalt hinzu, um das Dokument zu erstellen. Erstellen Sie einen Lauf,
 // Aussehen und Inhalt festlegen und dann als untergeordnetes Element an den Absatz anhängen.
 Run run = new Run(doc);
 run.Text = "Hello World!";

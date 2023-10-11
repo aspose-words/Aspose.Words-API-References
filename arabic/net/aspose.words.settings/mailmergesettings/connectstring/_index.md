@@ -1,14 +1,14 @@
 ---
 title: MailMergeSettings.ConnectString
 second_title: Aspose.Words لمراجع .NET API
-description: MailMergeSettings ملكية. تحدد سلسلة الاتصال المستخدمة للاتصال بمصدر بيانات خارجي. القيمة الافتراضية هي سلسلة فارغة.
+description: MailMergeSettings ملكية. يحدد سلسلة الاتصال المستخدمة للاتصال بمصدر بيانات خارجي. القيمة الافتراضية هي سلسلة فارغة.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.settings/mailmergesettings/connectstring/
 ---
 ## MailMergeSettings.ConnectString property
 
-تحدد سلسلة الاتصال المستخدمة للاتصال بمصدر بيانات خارجي. القيمة الافتراضية هي سلسلة فارغة.
+يحدد سلسلة الاتصال المستخدمة للاتصال بمصدر بيانات خارجي. القيمة الافتراضية هي سلسلة فارغة.
 
 ```csharp
 public string ConnectString { get; set; }
@@ -16,7 +16,7 @@ public string ConnectString { get; set; }
 
 ### أمثلة
 
-يوضح كيفية تنفيذ دمج البريد أثناء الاتصال بمصدر بيانات خارجي.
+يوضح كيفية تنفيذ عملية دمج البريد أثناء الاتصال بمصدر بيانات خارجي.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
@@ -36,8 +36,8 @@ Console.WriteLine($"UDL connection string:\n\t{odso.UdlConnectString}");
 Console.WriteLine($"Table:\n\t{odso.TableName}");
 Console.WriteLine($"Query:\n\t{doc.MailMergeSettings.Query}");
 
-// يمكننا إعادة ضبط هذه الإعدادات بمسحها. بمجرد القيام بذلك وحفظ المستند ،
-// لن يقوم Microsoft Word بعد الآن بتنفيذ دمج المراسلات عندما نستخدمه لتحميل المستند.
+// يمكننا إعادة ضبط هذه الإعدادات عن طريق مسحها. بمجرد أن نفعل ذلك ونحفظ المستند،
+// لن يقوم Microsoft Word بعد الآن بتنفيذ عملية دمج البريد عندما نستخدمه لتحميل المستند.
 settings.Clear();
 
 doc.Save(ArtifactsDir + "MailMerge.OdsoEmail.docx");

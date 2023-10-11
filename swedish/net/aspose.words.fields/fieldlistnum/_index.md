@@ -3,12 +3,14 @@ title: Class FieldListNum
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Fields.FieldListNum klass. Implementerar fältet LISTNUM.
 type: docs
-weight: 1970
+weight: 2120
 url: /sv/net/aspose.words.fields/fieldlistnum/
 ---
 ## FieldListNum class
 
 Implementerar fältet LISTNUM.
+
+För att lära dig mer, besök[Arbeta med Fields](https://docs.aspose.com/words/net/working-with-fields/) dokumentationsartikel.
 
 ```csharp
 public class FieldListNum : Field
@@ -34,7 +36,7 @@ public class FieldListNum : Field
 | [ListName](../../aspose.words.fields/fieldlistnum/listname/) { get; set; } | Hämtar eller ställer in namnet på den abstrakta numreringsdefinitionen som används för numreringen. |
 | [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | Hämtar eller ställer in LCID för fältet. |
 | [Result](../../aspose.words.fields/field/result/) { get; set; } | Hämtar eller ställer in text som är mellan fältavgränsaren och fältslutet. |
-| [Separator](../../aspose.words.fields/field/separator/) { get; } | Hämtar noden som representerar fältseparatorn. Kan vara null. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | Hämtar noden som representerar fältseparatorn. Kan vara`null` . |
 | [Start](../../aspose.words.fields/field/start/) { get; } | Hämtar noden som representerar början av fältet. |
 | [StartingNumber](../../aspose.words.fields/fieldlistnum/startingnumber/) { get; set; } | Hämtar eller ställer in startvärdet för detta fält. |
 | virtual [Type](../../aspose.words.fields/field/type/) { get; } | Hämtar fälttypen Microsoft Word. |
@@ -45,7 +47,7 @@ public class FieldListNum : Field
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Returnerar text mellan fältstart och fältavgränsare (eller fältslut om det inte finns någon avgränsare). Både fältkod och fältresultat för underordnade fält ingår. |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Returnerar text mellan fältstart och fältavgränsare (eller fältslut om det inte finns någon avgränsare). |
-| [Remove](../../aspose.words.fields/field/remove/)() | Tar bort fältet från dokumentet. Returnerar en nod direkt efter fältet. Om fältets slut är den sista child av dess överordnade nod, returnerar dess överordnade stycke. Om fältet redan är borttaget, returneras **null** . |
+| [Remove](../../aspose.words.fields/field/remove/)() | Tar bort fältet från dokumentet. Returnerar en nod direkt efter fältet. Om fältets slut är den sista child av dess överordnade nod, returnerar dess överordnade stycke. Om fältet redan är borttaget, returneras`null` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Utför fältavlänkningen. |
 | [Update](../../aspose.words.fields/field/update/)() | Utför fältuppdateringen. Kastar om fältet redan uppdateras. |
 | [Update](../../aspose.words.fields/field/update/)(bool) | Utför en fältuppdatering. Kastar om fältet redan uppdateras. |
@@ -69,7 +71,7 @@ builder.Writeln("Paragraph 1");
 
 Assert.AreEqual(" LISTNUM  \\s 0", field.GetFieldCode());
 
-  // LISTNUM-fält upprätthåller separata räkningar för varje listnivå.
+ // LISTNUM-fält upprätthåller separata räkningar för varje listnivå.
 // Infoga ett LISTNUM-fält i samma stycke som ett annat LISTNUM-fält
 // ökar listnivån istället för antalet.
 // Nästa fält kommer att fortsätta räkningen vi startade ovan och visa värdet "1" på listnivå 1.

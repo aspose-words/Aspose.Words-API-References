@@ -16,13 +16,13 @@ public FontSettings FontSettings { get; set; }
 
 ### ملاحظات
 
-تسمح هذه الخاصية بتحديد إعدادات الخط لكل مستند. إذا تم التعيين على قيمة خالية ، فإن الإعدادات الافتراضية للخط الثابت_ [`DefaultInstance`](../../../aspose.words.fonts/fontsettings/defaultinstance/) سوف يستخدم.
+تسمح هذه الخاصية بتحديد إعدادات الخط لكل مستند. إذا تم تعيينه على`باطل` إعدادات الخط الثابت الافتراضي [`DefaultInstance`](../../../aspose.words.fonts/fontsettings/defaultinstance/) سوف يستخدم.
 
-القيمه الافتراضيه فارغه.
+القيمة الافتراضية هي`باطل`.
 
 ### أمثلة
 
-يوضح كيفية تعيين قواعد استبدال الخط.
+يوضح كيفية ضبط قواعد استبدال الخط.
 
 ```csharp
 Document doc = new Document();
@@ -39,24 +39,24 @@ FontSourceBase[] fontSources = FontSettings.DefaultInstance.GetFontsSources();
 Assert.AreEqual(1, fontSources.Length);
 Assert.True(fontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arial"));
 
-// الخط الثاني "Amethysta" غير متوفر.
+// الخط الثاني، "Amethysta"، غير متوفر.
 Assert.False(fontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Amethysta"));
 
-// يمكننا تكوين جدول استبدال الخط الذي يحدد
-// أي الخطوط ستستخدمها Aspose.Words كبديل للخطوط غير المتوفرة.
-// تعيين خطين بديلين لـ "Amethysta": "Arvo" و "Courier New".
-// إذا كان البديل الأول غير متوفر ، فإن Aspose.Words يحاول استخدام البديل الثاني ، وهكذا.
+// يمكننا تكوين جدول استبدال الخطوط الذي يحدد
+// الخطوط التي سيستخدمها Aspose.Words كبدائل للخطوط غير المتوفرة.
+// قم بتعيين خطين بديلين لـ "Amethysta": "Arvo" و"Courier New".
+// إذا كان البديل الأول غير متاح، يحاول Aspose.Words استخدام البديل الثاني، وهكذا.
 doc.FontSettings = new FontSettings();
 doc.FontSettings.SubstitutionSettings.TableSubstitution.SetSubstitutes(
     "Amethysta", new[] {"Arvo", "Courier New"});
 
- // "Amethysta" غير متوفر ، وتنص قاعدة الاستبدال على أن الخط الأول الذي يجب استخدامه كبديل هو "Arvo".
+ // "Amethysta" غير متاح، وتنص قاعدة الاستبدال على أن الخط الأول الذي سيتم استخدامه كبديل هو "Arvo".
 Assert.False(fontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arvo"));
 
- // "Arvo" غير متاح أيضًا ، لكن "Courier New" متاح.
+ // "Arvo" غير متاح أيضًا، ولكن "Courier New" متاح أيضًا.
 Assert.True(fontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Courier New"));
 
-// سيعرض المستند الناتج النص الذي يستخدم الخط "Amethysta" المنسق بـ "Courier New".
+// سيعرض مستند الإخراج النص الذي يستخدم الخط "Amethysta" المنسق باستخدام "Courier New".
 doc.Save(ArtifactsDir + "FontSettings.TableSubstitution.pdf");
 ```
 

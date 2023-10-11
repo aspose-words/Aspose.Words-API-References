@@ -1,14 +1,14 @@
 ---
 title: Fill.SetImage
 second_title: Aspose.Words per .NET API Reference
-description: Fill metodo. Cambia il tipo di riempimento in immagine singola.
+description: Fill metodo. Modifica il tipo di riempimento in immagine singola.
 type: docs
-weight: 190
+weight: 250
 url: /it/net/aspose.words.drawing/fill/setimage/
 ---
 ## SetImage(string) {#setimage_2}
 
-Cambia il tipo di riempimento in immagine singola.
+Modifica il tipo di riempimento in immagine singola.
 
 ```csharp
 public void SetImage(string fileName)
@@ -28,7 +28,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Esistono diversi modi per impostare l'immagine.
 Shape shape = builder.InsertShape(ShapeType.Rectangle, 80, 80);
-// 1 - Utilizzo di un nome file di sistema locale:
+// 1 - Utilizzando un nome file di sistema locale:
 shape.Fill.SetImage(ImageDir + "Logo.jpg");
 doc.Save(ArtifactsDir + "Shape.FillImage.FileName.docx");
 
@@ -52,7 +52,7 @@ doc.Save(ArtifactsDir + "Shape.FillImage.Stream.docx");
 
 ## SetImage(Stream) {#setimage_1}
 
-Cambia il tipo di riempimento in immagine singola.
+Modifica il tipo di riempimento in immagine singola.
 
 ```csharp
 public void SetImage(Stream stream)
@@ -72,7 +72,7 @@ public void SetImage(Stream stream)
 
 ## SetImage(byte[]) {#setimage}
 
-Cambia il tipo di riempimento in immagine singola.
+Modifica il tipo di riempimento in immagine singola.
 
 ```csharp
 public void SetImage(byte[] imageBytes)
@@ -80,7 +80,7 @@ public void SetImage(byte[] imageBytes)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| imageBytes | Byte[] | La matrice dei byte dell'immagine. |
+| imageBytes | Byte[] | L'array di byte dell'immagine. |
 
 ### Guarda anche
 

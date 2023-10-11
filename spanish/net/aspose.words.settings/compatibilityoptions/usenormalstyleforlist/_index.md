@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.UseNormalStyleForList
 second_title: Referencia de API de Aspose.Words para .NET
-description: CompatibilityOptions propiedad. No aplicar automáticamente el estilo de párrafo de lista al texto numerado/con viñetas.
+description: CompatibilityOptions propiedad. No aplicar automáticamente estilo de párrafo de lista a texto con viñetas/numerado.
 type: docs
 weight: 630
 url: /es/net/aspose.words.settings/compatibilityoptions/usenormalstyleforlist/
 ---
 ## CompatibilityOptions.UseNormalStyleForList property
 
-No aplicar automáticamente el estilo de párrafo de lista al texto numerado/con viñetas.
+No aplicar automáticamente estilo de párrafo de lista a texto con viñetas/numerado.
 
 ```csharp
 public bool UseNormalStyleForList { get; set; }

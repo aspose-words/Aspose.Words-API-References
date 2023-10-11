@@ -3,7 +3,7 @@ title: Section.AppendContent
 second_title: Справочник по API Aspose.Words для .NET
 description: Section метод. Вставляет копию содержимого исходного раздела в конец этого раздела.
 type: docs
-weight: 80
+weight: 100
 url: /ru/net/aspose.words/section/appendcontent/
 ---
 ## Section.AppendContent method
@@ -16,15 +16,15 @@ public void AppendContent(Section sourceSection)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| sourceSection | Section | Раздел, из которого копируется содержимое. |
+| sourceSection | Section | Раздел, из которого копируется контент. |
 
 ### Примечания
 
-Только содержание[`Body`](../body/) исходного раздела копируется, настройки страницы, верхние и нижние колонтитулы не копируются.
+Только содержание[`Body`](../body/) исходного раздела копируется, настройка страницы, верхние и нижние колонтитулы не копируются.
 
 Узлы автоматически импортируются, если исходный раздел принадлежит другому документу.
 
-В целевом документе не создается новый раздел.
+В целевом документе новый раздел не создается.
 
 ### Примеры
 
@@ -52,7 +52,7 @@ section.PrependContent(sectionToPrepend);
 Section sectionToAppend = doc.Sections[1];
 section.AppendContent(sectionToAppend);
 
-// Методы "PrependContent" и "AppendContent" не создали новых секций.
+// Методы «PrependContent» и «AppendContent» не создали новых разделов.
 Assert.AreEqual(3, doc.Sections.Count);
 Assert.AreEqual("Section 1" + ControlChar.ParagraphBreak +
                 "Section 3" + ControlChar.ParagraphBreak +

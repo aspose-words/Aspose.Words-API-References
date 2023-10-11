@@ -1,14 +1,14 @@
 ---
 title: FieldAutoTextList.ListStyle
 second_title: Referencia de API de Aspose.Words para .NET
-description: FieldAutoTextList propiedad. Obtiene o establece el nombre del estilo en el que se basa la lista que contiene las entradas.
+description: FieldAutoTextList propiedad. Obtiene o establece el nombre del estilo en el que se basa la lista que contiene entradas.
 type: docs
 weight: 30
 url: /es/net/aspose.words.fields/fieldautotextlist/liststyle/
 ---
 ## FieldAutoTextList.ListStyle property
 
-Obtiene o establece el nombre del estilo en el que se basa la lista que contiene las entradas.
+Obtiene o establece el nombre del estilo en el que se basa la lista que contiene entradas.
 
 ```csharp
 public string ListStyle { get; set; }
@@ -16,13 +16,14 @@ public string ListStyle { get; set; }
 
 ### Ejemplos
 
-Muestra cómo usar un campo LISTA DE AUTOTEXTO para seleccionar de una lista de entradas de Autotexto.
+Muestra cómo utilizar un campo AUTOTEXTLIST para seleccionar de una lista de entradas de Autotexto.
 
 ```csharp
+public void FieldAutoTextList()
 {
     Document doc = new Document();
 
-    // Cree un documento de glosario y rellénelo con entradas de texto automático.
+    // Crea un documento de glosario y complétalo con entradas de texto automático.
     doc.GlossaryDocument = new GlossaryDocument();
     AppendAutoTextEntry(doc.GlossaryDocument, "AutoText 1", "Contents of AutoText 1");
     AppendAutoTextEntry(doc.GlossaryDocument, "AutoText 2", "Contents of AutoText 2");
@@ -30,8 +31,8 @@ Muestra cómo usar un campo LISTA DE AUTOTEXTO para seleccionar de una lista de 
 
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Cree un campo AUTOTEXTLIST y configure el texto que el campo mostrará en Microsoft Word.
-    // Configure el texto para solicitar al usuario que haga clic con el botón derecho en este campo para seleccionar un bloque de creación de Autotexto,
+    // Cree un campo AUTOTEXTLIST y establezca el texto que mostrará el campo en Microsoft Word.
+    // Establece el texto para solicitar al usuario que haga clic con el botón derecho en este campo para seleccionar un bloque de creación de Autotexto,
     // cuyo contenido mostrará el campo.
     FieldAutoTextList field = (FieldAutoTextList)builder.InsertField(FieldType.FieldAutoTextList, true);
     field.EntryName = "Right click here to select an AutoText block";
@@ -43,6 +44,7 @@ Muestra cómo usar un campo LISTA DE AUTOTEXTO para seleccionar de una lista de 
                     "\\t \"Hover tip text for AutoTextList goes here\"", field.GetFieldCode());
 
     doc.Save(ArtifactsDir + "Field.AUTOTEXTLIST.dotx");
+}
 
 /// <summary>
 /// Cree un bloque de construcción de tipo Autotexto y agréguelo a un documento de glosario.

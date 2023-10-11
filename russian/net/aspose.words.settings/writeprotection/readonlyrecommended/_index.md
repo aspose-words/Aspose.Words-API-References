@@ -1,14 +1,14 @@
 ---
 title: WriteProtection.ReadOnlyRecommended
 second_title: Справочник по API Aspose.Words для .NET
-description: WriteProtection свойство. Указывает рекомендовал ли автор документа открывать документ только для чтения.
+description: WriteProtection свойство. Указывает рекомендовал ли автор документа открыть документ только для чтения.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.settings/writeprotection/readonlyrecommended/
 ---
 ## WriteProtection.ReadOnlyRecommended property
 
-Указывает, рекомендовал ли автор документа открывать документ только для чтения.
+Указывает, рекомендовал ли автор документа открыть документ только для чтения.
 
 ```csharp
 public bool ReadOnlyRecommended { get; set; }
@@ -22,7 +22,6 @@ public bool ReadOnlyRecommended { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world! This document is protected.");
-
 // Введите пароль длиной до 15 символов, а затем проверьте статус защиты документа.
 doc.WriteProtection.SetPassword("MyPassword");
 doc.WriteProtection.ReadOnlyRecommended = true;
@@ -30,7 +29,7 @@ doc.WriteProtection.ReadOnlyRecommended = true;
 Assert.IsTrue(doc.WriteProtection.IsWriteProtected);
 Assert.IsTrue(doc.WriteProtection.ValidatePassword("MyPassword"));
 
-// Защита не препятствует программному редактированию документа и не шифрует содержимое.
+// Защита не предотвращает программное редактирование документа и не шифрует его содержимое.
 doc.Save(ArtifactsDir + "Document.WriteProtection.docx");
 doc = new Document(ArtifactsDir + "Document.WriteProtection.docx");
 

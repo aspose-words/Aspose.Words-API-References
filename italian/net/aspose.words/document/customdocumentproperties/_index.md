@@ -1,14 +1,14 @@
 ---
 title: Document.CustomDocumentProperties
 second_title: Aspose.Words per .NET API Reference
-description: Document proprietà. Restituisce una raccolta che rappresenta tutte le proprietà del documento personalizzate del documento.
+description: Document proprietà. Restituisce una raccolta che rappresenta tutte le proprietà del documento personalizzato del documento.
 type: docs
 weight: 70
 url: /it/net/aspose.words/document/customdocumentproperties/
 ---
 ## Document.CustomDocumentProperties property
 
-Restituisce una raccolta che rappresenta tutte le proprietà del documento personalizzate del documento.
+Restituisce una raccolta che rappresenta tutte le proprietà del documento personalizzato del documento.
 
 ```csharp
 public CustomDocumentProperties CustomDocumentProperties { get; }

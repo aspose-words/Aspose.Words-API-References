@@ -1,14 +1,16 @@
 ---
 title: Class AxisDisplayUnit
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Drawing.Charts.AxisDisplayUnit classe. Permet daccéder aux options de mise à léchelle des unités daffichage pour laxe des ordonnées.
+description: Aspose.Words.Drawing.Charts.AxisDisplayUnit classe. Donne accès aux options de mise à léchelle des unités daffichage pour laxe des valeurs.
 type: docs
-weight: 540
+weight: 550
 url: /fr/net/aspose.words.drawing.charts/axisdisplayunit/
 ---
 ## AxisDisplayUnit class
 
-Permet d'accéder aux options de mise à l'échelle des unités d'affichage pour l'axe des ordonnées.
+Donne accès aux options de mise à l'échelle des unités d'affichage pour l'axe des valeurs.
+
+Pour en savoir plus, visitez le[Travailler avec des graphiques](https://docs.aspose.com/words/net/working-with-charts/) article documentaire.
 
 ```csharp
 public class AxisDisplayUnit
@@ -24,13 +26,13 @@ public class AxisDisplayUnit
 
 | Nom | La description |
 | --- | --- |
-| [CustomUnit](../../aspose.words.drawing.charts/axisdisplayunit/customunit/) { get; set; } | Obtient ou définit un diviseur défini par l'utilisateur pour mettre à l'échelle les unités d'affichage sur l'axe des ordonnées. |
-| [Document](../../aspose.words.drawing.charts/axisdisplayunit/document/) { get; } | Renvoie le document auquel appartient le détenteur du titre. |
+| [CustomUnit](../../aspose.words.drawing.charts/axisdisplayunit/customunit/) { get; set; } | Obtient ou définit un diviseur défini par l'utilisateur pour mettre à l'échelle les unités d'affichage sur l'axe des valeurs. |
+| [Document](../../aspose.words.drawing.charts/axisdisplayunit/document/) { get; } | Renvoie le document auquel appartient le titulaire du titre. |
 | [Unit](../../aspose.words.drawing.charts/axisdisplayunit/unit/) { get; set; } | Obtient ou définit la valeur de mise à l'échelle des unités d'affichage comme l'une des valeurs prédéfinies. |
 
 ### Exemples
 
-Montre comment manipuler les graduations et les valeurs affichées d'un axe de graphique.
+Montre comment manipuler les graduations et les valeurs affichées d’un axe de graphique.
 
 ```csharp
 Document doc = new Document();
@@ -42,7 +44,7 @@ Chart chart = shape.Chart;
 Assert.AreEqual(1, chart.Series.Count);
 Assert.AreEqual("Y-Values", chart.Series[0].Name);
 
-// Définissez les graduations mineures de l'axe Y pour qu'elles pointent loin de la zone de tracé,
+// Définit les graduations mineures de l'axe Y pour qu'elles pointent à l'opposé de la zone de tracé,
 // et les graduations principales pour traverser l'axe.
 ChartAxis axis = chart.AxisY;
 axis.MajorTickMark = AxisTickMark.Cross;
@@ -52,7 +54,7 @@ axis.MinorTickMark = AxisTickMark.Outside;
 axis.MajorUnit = 10;
 axis.MinorUnit = 1;
 
-// Définissez les limites de l'axe Y sur -10 et 20.
+// Définit les limites de l'axe Y sur -10 et 20.
 // Cet axe Y affichera désormais 4 graduations majeures et 27 graduations mineures.
 axis.Scaling.Minimum = new AxisBound(-10);
 axis.Scaling.Maximum = new AxisBound(20);
@@ -63,21 +65,21 @@ axis = chart.AxisX;
 axis.MajorUnit = 10;
 axis.MinorUnit = 2.5;
 
-// Configurez les deux types de graduations pour qu'elles apparaissent à l'intérieur de la zone de tracé du graphique.
+// Configure les deux types de graduations pour qu'elles apparaissent à l'intérieur de la zone de tracé du graphique.
 axis.MajorTickMark = AxisTickMark.Inside;
 axis.MinorTickMark = AxisTickMark.Inside;
 
-// Définissez les limites de l'axe X de sorte que l'axe X s'étende sur 5 repères majeurs et 12 repères mineurs.
+// Définissez les limites de l'axe X de sorte que l'axe X s'étende sur 5 graduations principales et 12 graduations mineures.
 axis.Scaling.Minimum = new AxisBound(-10);
 axis.Scaling.Maximum = new AxisBound(30);
 axis.TickLabelAlignment = ParagraphAlignment.Right;
 
 Assert.AreEqual(1, axis.TickLabelSpacing);
 
-// Définissez les étiquettes de graduation pour afficher leur valeur en millions.
+// Définit les étiquettes de graduation pour afficher leur valeur en millions.
 axis.DisplayUnit.Unit = AxisBuiltInUnit.Millions;
 
-// Nous pouvons définir une valeur plus spécifique par laquelle les étiquettes de coche afficheront leurs valeurs.
+// Nous pouvons définir une valeur plus spécifique par laquelle les étiquettes de ticks afficheront leurs valeurs.
 // Cette instruction est équivalente à celle ci-dessus.
 axis.DisplayUnit.CustomUnit = 1000000;
 doc.Save(ArtifactsDir + "Charts.AxisDisplayUnit.docx");

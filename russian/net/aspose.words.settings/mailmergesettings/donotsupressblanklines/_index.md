@@ -1,14 +1,14 @@
 ---
 title: MailMergeSettings.DoNotSupressBlankLines
 second_title: Справочник по API Aspose.Words для .NET
-description: MailMergeSettings свойство. Указывает как приложение выполняющее слияние должно обрабатывать пустые строки в объединенных документах полученных в результате слияния. Значение по умолчаниюЛОЖЬ .
+description: MailMergeSettings свойство. Указывает как приложение выполняющее слияние почты должно обрабатывать пустые строки в объединенных документах полученных в результате слияния почты. Значение по умолчаниюЛОЖЬ .
 type: docs
 weight: 90
 url: /ru/net/aspose.words.settings/mailmergesettings/donotsupressblanklines/
 ---
 ## MailMergeSettings.DoNotSupressBlankLines property
 
-Указывает, как приложение, выполняющее слияние, должно обрабатывать пустые строки в объединенных документах, полученных в результате слияния. Значение по умолчанию:`ЛОЖЬ` .
+Указывает, как приложение, выполняющее слияние почты, должно обрабатывать пустые строки в объединенных документах, полученных в результате слияния почты. Значение по умолчанию:`ЛОЖЬ` .
 
 ```csharp
 public bool DoNotSupressBlankLines { get; set; }
@@ -29,7 +29,7 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// Создаем источник данных в виде ASCII-файла с символом "|" персонаж
+// Создаем источник данных в виде ASCII-файла с символом "|" характер
 // действует как разделитель, разделяющий столбцы. Первая строка содержит имена трех столбцов,
 // и каждая последующая строка представляет собой строку с соответствующими значениями.
 string[] lines = { "FirstName|LastName|Message",
@@ -59,7 +59,7 @@ odso.FirstRowContainsColumnNames = true;
 Assert.AreNotSame(odso, odso.Clone());
 Assert.AreNotSame(settings, settings.Clone());
 
-// Открытие этого документа в Microsoft Word приведет к выполнению слияния перед отображением содержимого. 
+ // Открытие этого документа в Microsoft Word приведет к выполнению слияния почты перед отображением содержимого.
 doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ```
 

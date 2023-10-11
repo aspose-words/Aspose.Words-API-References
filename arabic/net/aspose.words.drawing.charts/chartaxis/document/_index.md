@@ -1,14 +1,14 @@
 ---
 title: ChartAxis.Document
 second_title: Aspose.Words لمراجع .NET API
-description: ChartAxis ملكية. إرجاع المستند الذي ينتمي إليه صاحب العنوان .
+description: ChartAxis ملكية. إرجاع المستند الذي ينتمي إليه حامل العنوان.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.drawing.charts/chartaxis/document/
 ---
 ## ChartAxis.Document property
 
-إرجاع المستند الذي ينتمي إليه صاحب العنوان .
+إرجاع المستند الذي ينتمي إليه حامل العنوان.
 
 ```csharp
 public DocumentBase Document { get; }

@@ -1,14 +1,14 @@
 ---
 title: SignOptions.ProviderId
 second_title: Referencia de API de Aspose.Words para .NET
-description: SignOptions propiedad. Especifica el ID de clase del proveedor de firmas. El valor predeterminado es Guid vacío todo ceros .
+description: SignOptions propiedad. Especifica el ID de clase del proveedor de firma. El valor predeterminado es Guía vacía todo ceros .
 type: docs
 weight: 40
 url: /es/net/aspose.words.digitalsignatures/signoptions/providerid/
 ---
 ## SignOptions.ProviderId property
 
-Especifica el ID de clase del proveedor de firmas. El valor predeterminado es **Guid vacío (todo ceros)** .
+Especifica el ID de clase del proveedor de firma. El valor predeterminado es **Guía vacía (todo ceros)** .
 
 ```csharp
 public Guid ProviderId { get; set; }
@@ -16,7 +16,7 @@ public Guid ProviderId { get; set; }
 
 ### Observaciones
 
-El proveedor de servicios criptográficos (CSP) es un módulo de software independiente que en realidad ejecuta algoritmos criptográficos para autenticación, codificación y encriptación. MS Office reserva el valor de {00000000-0000-0000-0000-000000000000} para su proveedor de firma predeterminado.
+El proveedor de servicios criptográficos (CSP) es un módulo de software independiente que en realidad realiza algoritmos de criptografía para autenticación, codificación y cifrado. MS Office reserva el valor de {00000000-0000-0000-0000-000000000000} para su proveedor de firma predeterminado.
 
 El GUID del proveedor instalado adicionalmente debe obtenerse de la documentación enviada con el proveedor.
 
@@ -62,8 +62,8 @@ CertificateHolder certHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "a
 DigitalSignatureUtil.Sign(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.docx", 
     ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx", certHolder, signOptions);
 
-// Vuelva a abrir nuestro documento guardado y verifique que las propiedades "IsSigned" y "IsValid" sean iguales a "true",
-// indicando que la línea de la firma contiene una firma.
+// Vuelva a abrir nuestro documento guardado y verifique que las propiedades "IsSigned" e "IsValid" sean iguales a "true",
+// indicando que la línea de firma contiene una firma.
 doc = new Document(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx");
 Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
 signatureLine = shape.SignatureLine;

@@ -16,7 +16,7 @@ public DocumentBuilder()
 
 ### Notlar
 
-Yeni bir **Belge Oluşturucu** nesne ve onu yeni bir[`Document`](../document/) nesne.
+Yeni bir tane oluşturur[`DocumentBuilder`](../) nesneyi alır ve onu yeni bir nesneye ekler[`Document`](../../document/) nesne.
 
 ### Örnekler
 
@@ -26,7 +26,7 @@ DocumentBuilder kullanılarak biçimlendirilmiş metnin nasıl ekleneceğini gö
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Yazı tipi biçimlendirmesini belirtin, ardından metin ekleyin.
+// Yazı tipi formatını belirtin, ardından metin ekleyin.
 Aspose.Words.Font font = builder.Font;
 font.Size = 16;
 font.Bold = true;
@@ -55,15 +55,15 @@ public DocumentBuilder(Document doc)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| doc | Document | Eklenecek Belge nesnesi. |
+| doc | Document | [`Document`](../../document/) eklenecek nesne. |
 
 ### Notlar
 
-Yeni bir **Belge Oluşturucu** nesne, belirtilene eklenir[`Document`](../document/) object. İmleç belgenin başında konumlandırılmıştır.
+Yeni bir tane oluşturur[`DocumentBuilder`](../) nesne, belirtilene eklenir[`Document`](../../document/)object. İmleç belgenin başına konumlandırılır.
 
 ### Örnekler
 
-DocumentBuilder kullanılarak bir belgede nasıl üstbilgi ve altbilgi oluşturulacağını gösterir.
+DocumentBuilder'ı kullanarak bir belgede üstbilgilerin ve altbilgilerin nasıl oluşturulacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -91,21 +91,21 @@ builder.Writeln("Page3");
 doc.Save(ArtifactsDir + "DocumentBuilder.HeadersAndFooters.docx");
 ```
 
-Başlık stillerini girdi olarak kullanarak bir belgeye İçindekilerin (TOC) nasıl ekleneceğini gösterir.
+Giriş olarak başlık stillerini kullanarak bir belgeye içindekiler tablosunun (TOC) nasıl ekleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Belgenin ilk sayfası için bir içindekiler tablosu ekleyin.
-// Tabloyu, 1'den 3'e kadar olan düzeylerdeki başlıklara sahip paragrafları alacak şekilde yapılandırın.
-// Ayrıca, girişlerini bizi götürecek köprüler olarak ayarlayın
+// Belgenin ilk sayfasına bir içindekiler tablosu ekleyin.
+// Tabloyu, 1'den 3'e kadar düzeylerdeki başlıklara sahip paragrafları alacak şekilde yapılandırın.
+// Ayrıca girişlerini bizi götürecek köprüler olacak şekilde ayarlayın
 // Microsoft Word'de sol tıklandığında başlığın konumuna.
 builder.InsertTableOfContents("\\o \"1-3\" \\h \\z \\u");
 builder.InsertBreak(BreakType.PageBreak);
 
-// Başlık stilleriyle paragraflar ekleyerek içindekileri doldurun.
-// Seviyesi 1 ile 3 arasında olan bu tür her bir başlık, tabloda bir giriş oluşturacaktır.
+// Başlık stillerine sahip paragraflar ekleyerek içindekiler tablosunu doldurun.
+// Seviyesi 1 ile 3 arasında olan bu tür başlıkların her biri tabloda bir giriş oluşturacaktır.
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
 builder.Writeln("Heading 1");
 
@@ -133,7 +133,7 @@ builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading2;
 builder.Writeln("Heading 3.2");
 builder.Writeln("Heading 3.3");
 
-// İçindekiler, güncel bir sonucu göstermek için güncellenmesi gereken türden bir alandır.
+// İçindekiler tablosu, güncel bir sonucu göstermek için güncellenmesi gereken türden bir alandır.
 doc.UpdateFields();
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertToc.docx");
 ```

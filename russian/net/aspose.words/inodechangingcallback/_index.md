@@ -1,14 +1,14 @@
 ---
 title: Interface INodeChangingCallback
 second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.INodeChangingCallback интерфейс. Реализуйте этот интерфейс если вы хотите получать уведомления при вставке или удалении узлов в документе.
+description: Aspose.Words.INodeChangingCallback интерфейс. Реализуйте этот интерфейс если хотите получать уведомления при вставке или удалении узлов в документе.
 type: docs
-weight: 3000
+weight: 3200
 url: /ru/net/aspose.words/inodechangingcallback/
 ---
 ## INodeChangingCallback interface
 
-Реализуйте этот интерфейс, если вы хотите получать уведомления при вставке или удалении узлов в документе.
+Реализуйте этот интерфейс, если хотите получать уведомления при вставке или удалении узлов в документе.
 
 ```csharp
 public interface INodeChangingCallback
@@ -19,21 +19,22 @@ public interface INodeChangingCallback
 | Имя | Описание |
 | --- | --- |
 | [NodeInserted](../../aspose.words/inodechangingcallback/nodeinserted/)(NodeChangingArgs) | Вызывается, когда узел, принадлежащий этому документу, был вставлен в другой узел. |
-| [NodeInserting](../../aspose.words/inodechangingcallback/nodeinserting/)(NodeChangingArgs) | Вызывается непосредственно перед вставкой узла, принадлежащего этому документу, в другой узел. |
-| [NodeRemoved](../../aspose.words/inodechangingcallback/noderemoved/)(NodeChangingArgs) | Вызывается, когда узел, принадлежащий этому документу, был удален из своего родителя. |
-| [NodeRemoving](../../aspose.words/inodechangingcallback/noderemoving/)(NodeChangingArgs) | Вызывается непосредственно перед удалением узла, принадлежащего этому документу, из документа. |
+| [NodeInserting](../../aspose.words/inodechangingcallback/nodeinserting/)(NodeChangingArgs) | Вызывается непосредственно перед тем, как узел, принадлежащий этому документу, будет вставлен в другой узел. |
+| [NodeRemoved](../../aspose.words/inodechangingcallback/noderemoved/)(NodeChangingArgs) | Вызывается, когда узел, принадлежащий этому документу, был удален из его родительского узла. |
+| [NodeRemoving](../../aspose.words/inodechangingcallback/noderemoving/)(NodeChangingArgs) | Вызывается непосредственно перед тем, как узел, принадлежащий этому документу, будет удален из документа. |
 
 ### Примеры
 
 Показывает, как настроить изменение узла с помощью обратного вызова.
 
 ```csharp
+public void FontChangeViaCallback()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Устанавливаем обратный вызов изменения узла на пользовательскую реализацию,
-    // затем добавьте/удалите узлы, чтобы заставить его генерировать журнал.
+    // Установите обратный вызов изменения узла в пользовательскую реализацию,
+    // затем добавляем/удаляем узлы, чтобы создать журнал.
     HandleNodeChangingFontChanger callback = new HandleNodeChangingFontChanger();
     doc.NodeChangingCallback = callback;
 
@@ -45,10 +46,11 @@ public interface INodeChangingCallback
     doc.Range.Fields[0].Remove();
 
     Console.WriteLine(callback.GetLog());
+}
 
 /// <summary>
-/// Регистрирует дату и время каждой вставки и удаления узла.
-/// Устанавливает пользовательское имя/размер шрифта для текстового содержимого узлов Run.
+/// Регистрирует дату и время добавления и удаления каждого узла.
+/// Устанавливает имя/размер пользовательского шрифта для текстового содержимого узлов запуска.
 /// </summary>
 public class HandleNodeChangingFontChanger : INodeChangingCallback
 {

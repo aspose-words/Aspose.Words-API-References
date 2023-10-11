@@ -1,14 +1,14 @@
 ---
 title: DocumentProperty.LinkSource
 second_title: Référence de l'API Aspose.Words pour .NET
-description: DocumentProperty propriété. Obtient la source dune propriété de document personnalisé lié.
+description: DocumentProperty propriété. Obtient la source dune propriété de document personnalisé liée.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.properties/documentproperty/linksource/
 ---
 ## DocumentProperty.LinkSource property
 
-Obtient la source d'une propriété de document personnalisé lié.
+Obtient la source d'une propriété de document personnalisé liée.
 
 ```csharp
 public string LinkSource { get; }
@@ -26,7 +26,7 @@ builder.StartBookmark("MyBookmark");
 builder.Write("Hello world!");
 builder.EndBookmark("MyBookmark");
 
-// Lie une nouvelle propriété personnalisée à un signet. La valeur de ce bien
+// Lier une nouvelle propriété personnalisée à un signet. La valeur de cette propriété
 // sera le contenu du signet auquel il fait référence dans le membre "LinkSource".
 CustomDocumentProperties customProperties = doc.CustomDocumentProperties;
 DocumentProperty customProperty = customProperties.AddLinkToContent("Bookmark", "MyBookmark");

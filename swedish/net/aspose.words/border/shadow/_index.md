@@ -16,7 +16,7 @@ public bool Shadow { get; set; }
 
 ### Anmärkningar
 
-Microsoft Word, för att en kantlinje ska ha en skugga, bör kanterna på alla fyra sidorna (vänster, topp, höger och botten) vara av samma typ, bredd, färg och alla ska ha egenskapen Shadow satt till true.
+Microsoft Word, för att en kantlinje ska ha en skugga, bör kanterna på alla fyra sidorna (vänster, topp, höger och botten) vara av samma typ, bredd, färg och alla ska ha egenskapen Shadow inställd på`Sann`.
 
 ### Exempel
 

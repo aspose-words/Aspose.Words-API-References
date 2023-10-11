@@ -3,12 +3,14 @@ title: Class Bookmark
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Bookmark klass. Representerar ett enda bokmärke.
 type: docs
-weight: 30
+weight: 40
 url: /sv/net/aspose.words/bookmark/
 ---
 ## Bookmark class
 
 Representerar ett enda bokmärke.
+
+För att lära dig mer, besök[Arbeta med bokmärken](https://docs.aspose.com/words/net/working-with-bookmarks/) dokumentationsartikel.
 
 ```csharp
 public class Bookmark
@@ -21,7 +23,7 @@ public class Bookmark
 | [BookmarkEnd](../../aspose.words/bookmark/bookmarkend/) { get; } | Hämtar noden som representerar slutet av bokmärket. |
 | [BookmarkStart](../../aspose.words/bookmark/bookmarkstart/) { get; } | Hämtar noden som representerar början av bokmärket. |
 | [FirstColumn](../../aspose.words/bookmark/firstcolumn/) { get; } | Hämtar det nollbaserade indexet för den första kolumnen i tabellkolumnintervallet som är associerat med bokmärket. |
-| [IsColumn](../../aspose.words/bookmark/iscolumn/) { get; } | Returnerar **Sann** om detta bokmärke är ett tabellkolumnbokmärke. |
+| [IsColumn](../../aspose.words/bookmark/iscolumn/) { get; } | Returnerar`Sann` om detta bokmärke är ett tabellkolumnbokmärke. |
 | [LastColumn](../../aspose.words/bookmark/lastcolumn/) { get; } | Hämtar det nollbaserade indexet för den sista kolumnen i tabellkolumnintervallet som är associerat med bokmärket. |
 | [Name](../../aspose.words/bookmark/name/) { get; set; } | Hämtar eller ställer in namnet på bokmärket. |
 | [Text](../../aspose.words/bookmark/text/) { get; set; } | Hämtar eller ställer in texten innesluten i bokmärket. |
@@ -46,7 +48,6 @@ public void CreateUpdateAndPrintBookmarks()
     // Skapa ett dokument med tre bokmärken och använd sedan en anpassad dokumentbesökarimplementering för att skriva ut innehållet.
     Document doc = CreateDocumentWithBookmarks(3);
     BookmarkCollection bookmarks = doc.Range.Bookmarks;
-
     PrintAllBookmarkInfo(bookmarks);
 
     // Bokmärken kan nås i bokmärkessamlingen genom index eller namn, och deras namn kan uppdateras.

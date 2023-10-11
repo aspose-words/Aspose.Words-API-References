@@ -3,7 +3,7 @@ title: ChartFormat.Stroke
 second_title: Aspose.Words für .NET-API-Referenz
 description: ChartFormat eigendom. Ruft die Linienformatierung für das übergeordnete Diagrammelement ab.
 type: docs
-weight: 20
+weight: 40
 url: /de/net/aspose.words.drawing.charts/chartformat/stroke/
 ---
 ## ChartFormat.Stroke property
@@ -25,7 +25,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertChart(ChartType.Scatter, 432, 252);
 Chart chart = shape.Chart;
 
-// Standardmäßig generierte Serie löschen.
+// Standardmäßig generierte Serien löschen.
 chart.Series.Clear();
 ChartSeries series = chart.Series.Add("AW Series 1", new[] { 0.7, 1.8, 2.6, 3.9 },
     new[] { 2.7, 3.2, 0.8, 1.7 });

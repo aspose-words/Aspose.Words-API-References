@@ -1,14 +1,14 @@
 ---
 title: FontSavingArgs.IsSubsettingNeeded
 second_title: Referencia de API de Aspose.Words para .NET
-description: FontSavingArgs propiedad. Permite especificar si la fuente actual será un subconjunto antes de exportar como recurso de fuente.
+description: FontSavingArgs propiedad. Permite especificar si la fuente actual se subdividirá antes de exportarla como recurso de fuente.
 type: docs
 weight: 70
 url: /es/net/aspose.words.saving/fontsavingargs/issubsettingneeded/
 ---
 ## FontSavingArgs.IsSubsettingNeeded property
 
-Permite especificar si la fuente actual será un subconjunto antes de exportar como recurso de fuente.
+Permite especificar si la fuente actual se subdividirá antes de exportarla como recurso de fuente.
 
 ```csharp
 public bool IsSubsettingNeeded { get; set; }
@@ -16,7 +16,7 @@ public bool IsSubsettingNeeded { get; set; }
 
 ### Observaciones
 
-Las fuentes se pueden exportar como archivos de fuentes originales completos o crear subconjuntos para incluir solo los caracteres que se usan en el documento. La creación de subconjuntos permite reducir el tamaño del recurso de fuente resultante.
+Las fuentes se pueden exportar como archivos de fuentes originales completos o en subconjuntos para incluir solo los caracteres que se utilizan en el documento. El subconjunto permite reducir el tamaño del recurso de fuente resultante.
 
 De forma predeterminada, Aspose.Words decide si realizar subconjuntos o no comparando el tamaño del archivo de fuente original con el especificado en[`FontResourcesSubsettingSizeThreshold`](../../htmlsaveoptions/fontresourcessubsettingsizethreshold/) . Puede anular este comportamiento para fuentes individuales configurando el`IsSubsettingNeeded` propiedad.
 
@@ -25,11 +25,12 @@ De forma predeterminada, Aspose.Words decide si realizar subconjuntos o no compa
 Muestra cómo definir una lógica personalizada para exportar fuentes al guardar en HTML.
 
 ```csharp
+public void SaveExportedFonts()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
-    // Configure un objeto SaveOptions para exportar fuentes a archivos separados.
-    // Establezca una devolución de llamada que manejará el guardado de fuentes de manera personalizada.
+    // Configurar un objeto SaveOptions para exportar fuentes a archivos separados.
+    // Establece una devolución de llamada que manejará el guardado de fuentes de forma personalizada.
     HtmlSaveOptions options = new HtmlSaveOptions
     {
         ExportFontResources = true,
@@ -43,6 +44,8 @@ Muestra cómo definir una lógica personalizada para exportar fuentes al guardar
     {
         Console.WriteLine(fontFilename);
     }
+
+}
 
 /// <summary>
 /// Imprime información sobre las fuentes exportadas y las guarda en la misma carpeta del sistema local que su salida .html.
@@ -66,7 +69,7 @@ public class HandleFontSaving : IFontSavingCallback
         // 1 - Guárdelo en una ubicación del sistema de archivos local:
         args.FontFileName = args.OriginalFileName.Split(Path.DirectorySeparatorChar).Last();
 
-        // 2 - Guardarlo en una secuencia:
+        // 2 - Guárdalo en una secuencia:
         args.FontStream =
             new FileStream(ArtifactsDir + args.OriginalFileName.Split(Path.DirectorySeparatorChar).Last(), FileMode.Create);
         Assert.False(args.KeepFontStreamOpen);

@@ -1,14 +1,14 @@
 ---
 title: DocSaveOptions.DocSaveOptions
 second_title: Aspose.Words لمراجع .NET API
-description: DocSaveOptions البناء. يقوم بتهيئة مثيل جديد من هذه الفئة يمكن استخدامه لحفظ مستند بتنسيقDoc التنسيق .
+description: DocSaveOptions البناء. تهيئة مثيل جديد لهذه الفئة يمكن استخدامه لحفظ مستند في ملفDoc التنسيق.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.saving/docsaveoptions/docsaveoptions/
 ---
 ## DocSaveOptions() {#constructor}
 
-يقوم بتهيئة مثيل جديد من هذه الفئة يمكن استخدامه لحفظ مستند بتنسيقDoc التنسيق .
+تهيئة مثيل جديد لهذه الفئة يمكن استخدامه لحفظ مستند في ملفDoc التنسيق.
 
 ```csharp
 public DocSaveOptions()
@@ -16,7 +16,7 @@ public DocSaveOptions()
 
 ### أمثلة
 
-يوضح كيفية تعيين خيارات الحفظ لتنسيقات Microsoft Word القديمة.
+يوضح كيفية تعيين خيارات الحفظ لتنسيقات Microsoft Word الأقدم.
 
 ```csharp
 Document doc = new Document();
@@ -25,16 +25,16 @@ builder.Write("Hello world!");
 
 DocSaveOptions options = new DocSaveOptions(SaveFormat.Doc);
 
-// تعيين كلمة مرور تحمي تحميل المستند بواسطة Microsoft Word أو Aspose.Words.
-// لاحظ أن هذا لا يقوم بتشفير محتويات المستند بأي شكل من الأشكال.
+// قم بتعيين كلمة مرور تحمي تحميل المستند بواسطة Microsoft Word أو Aspose.Words.
+// لاحظ أن هذا لا يؤدي إلى تشفير محتويات المستند بأي شكل من الأشكال.
 options.Password = "MyPassword";
 
-// إذا كان المستند يحتوي على قسيمة توجيه ، فيمكننا الاحتفاظ بها أثناء الحفظ عن طريق ضبط هذه العلامة على "true".
+// إذا كانت الوثيقة تحتوي على قسيمة توجيه، فيمكننا الحفاظ عليها أثناء الحفظ عن طريق تعيين هذه العلامة على "صحيح".
 options.SaveRoutingSlip = true;
 
 doc.Save(ArtifactsDir + "DocSaveOptions.SaveAsDoc.doc", options);
 
-// لتتمكن من تحميل المستند ،
+// لتتمكن من تحميل المستند،
 // سنحتاج إلى تطبيق كلمة المرور التي حددناها في كائن DocSaveOptions في كائن LoadOptions.
 Assert.Throws<IncorrectPasswordException>(() => doc = new Document(ArtifactsDir + "DocSaveOptions.SaveAsDoc.doc"));
 
@@ -54,7 +54,7 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 
 ## DocSaveOptions(SaveFormat) {#constructor_1}
 
-يقوم بتهيئة مثيل جديد من هذه الفئة يمكن استخدامه لحفظ مستند بتنسيقDoc أو Dot التنسيق .
+تهيئة مثيل جديد لهذه الفئة يمكن استخدامه لحفظ مستند في ملفDoc أو Dot التنسيق.
 
 ```csharp
 public DocSaveOptions(SaveFormat saveFormat)
@@ -66,7 +66,7 @@ public DocSaveOptions(SaveFormat saveFormat)
 
 ### أمثلة
 
-يوضح كيفية تعيين خيارات الحفظ لتنسيقات Microsoft Word القديمة.
+يوضح كيفية تعيين خيارات الحفظ لتنسيقات Microsoft Word الأقدم.
 
 ```csharp
 Document doc = new Document();
@@ -75,16 +75,16 @@ builder.Write("Hello world!");
 
 DocSaveOptions options = new DocSaveOptions(SaveFormat.Doc);
 
-// تعيين كلمة مرور تحمي تحميل المستند بواسطة Microsoft Word أو Aspose.Words.
-// لاحظ أن هذا لا يقوم بتشفير محتويات المستند بأي شكل من الأشكال.
+// قم بتعيين كلمة مرور تحمي تحميل المستند بواسطة Microsoft Word أو Aspose.Words.
+// لاحظ أن هذا لا يؤدي إلى تشفير محتويات المستند بأي شكل من الأشكال.
 options.Password = "MyPassword";
 
-// إذا كان المستند يحتوي على قسيمة توجيه ، فيمكننا الاحتفاظ بها أثناء الحفظ عن طريق ضبط هذه العلامة على "true".
+// إذا كانت الوثيقة تحتوي على قسيمة توجيه، فيمكننا الحفاظ عليها أثناء الحفظ عن طريق تعيين هذه العلامة على "صحيح".
 options.SaveRoutingSlip = true;
 
 doc.Save(ArtifactsDir + "DocSaveOptions.SaveAsDoc.doc", options);
 
-// لتتمكن من تحميل المستند ،
+// لتتمكن من تحميل المستند،
 // سنحتاج إلى تطبيق كلمة المرور التي حددناها في كائن DocSaveOptions في كائن LoadOptions.
 Assert.Throws<IncorrectPasswordException>(() => doc = new Document(ArtifactsDir + "DocSaveOptions.SaveAsDoc.doc"));
 

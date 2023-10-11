@@ -1,14 +1,14 @@
 ---
 title: TextColumnCollection.EvenlySpaced
 second_title: Aspose.Words for .NET API Referansı
-description: TextColumnCollection mülk. Doğru metin sütunları eşit genişlikte ve eşit aralıklıysa.
+description: TextColumnCollection mülk. Metin sütunları eşit genişlikte ve eşit aralıklıysa doğrudur.
 type: docs
 weight: 20
 url: /tr/net/aspose.words/textcolumncollection/evenlyspaced/
 ---
 ## TextColumnCollection.EvenlySpaced property
 
-**Doğru** metin sütunları eşit genişlikte ve eşit aralıklıysa.
+Metin sütunları eşit genişlikte ve eşit aralıklıysa doğrudur.
 
 ```csharp
 public bool EvenlySpaced { get; set; }
@@ -16,7 +16,7 @@ public bool EvenlySpaced { get; set; }
 
 ### Örnekler
 
-Eşit olmayan aralıklı sütunların nasıl oluşturulacağını gösterir.
+Düzensiz aralıklı sütunların nasıl oluşturulacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -27,7 +27,7 @@ TextColumnCollection columns = pageSetup.TextColumns;
 columns.EvenlySpaced = false;
 columns.SetCount(2);
 
-// Sütunları düzenlemek için elimizdeki oda miktarını belirleyin.
+// Sütunları düzenlemek için elimizde bulunan alan miktarını belirleyin.
 double contentWidth = pageSetup.PageWidth - pageSetup.LeftMargin - pageSetup.RightMargin;
 
 Assert.AreEqual(470.30d, contentWidth, 0.01d);
@@ -37,7 +37,7 @@ TextColumn column = columns[0];
 column.Width = 100;
 column.SpaceAfter = 20;
 
-// İkinci sütunu sayfanın kenar boşluklarında kalan kullanılabilir alanı alacak şekilde ayarlayın.
+// İkinci sütunu, sayfanın kenar boşluklarındaki kalan alanı kaplayacak şekilde ayarlayın.
 column = columns[1];
 column.Width = contentWidth - column.Width - column.SpaceAfter;
 

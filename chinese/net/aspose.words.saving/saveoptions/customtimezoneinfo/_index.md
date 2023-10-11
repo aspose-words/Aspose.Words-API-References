@@ -16,7 +16,7 @@ public TimeZoneInfo CustomTimeZoneInfo { get; set; }
 
 ### 评论
 
-此选项在从 3.5 版本开始的 .Net 框架或 .Net Standard 中可用。
+此选项在从 3.5 版本开始的 .Net Framework 或 .Net Standard 中可用。
 
 默认情况下，Aspose.Words 在写入日期/时间字段时使用系统本地时区，此选项允许设置自定义值。
 

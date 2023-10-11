@@ -1,14 +1,14 @@
 ---
 title: ShapeBase.IsHorizontalRule
 second_title: Aspose.Words لمراجع .NET API
-description: ShapeBase ملكية. إرجاع صحيح إذا كان هذا الشكل قاعدة أفقية.
+description: ShapeBase ملكية. إرجاعحقيقي إذا كان هذا الشكل مسطرة أفقية.
 type: docs
-weight: 260
+weight: 270
 url: /ar/net/aspose.words.drawing/shapebase/ishorizontalrule/
 ---
 ## ShapeBase.IsHorizontalRule property
 
-إرجاع صحيح إذا كان هذا الشكل قاعدة أفقية.
+إرجاع`حقيقي` إذا كان هذا الشكل مسطرة أفقية.
 
 ```csharp
 public bool IsHorizontalRule { get; }
@@ -16,7 +16,7 @@ public bool IsHorizontalRule { get; }
 
 ### أمثلة
 
-يوضح كيفية إدراج شكل تسطير أفقي ، وتخصيص تنسيقه.
+يوضح كيفية إدراج شكل قاعدة أفقية، وتخصيص تنسيقه.
 
 ```csharp
 Document doc = new Document();

@@ -20,7 +20,7 @@ public bool ContainsValue(string dataSourceFieldName)
 
 ### Returvärde
 
-Sant om föremål finns i samlingen; annars falskt.
+`Sann` om föremål finns i samlingen; annat,`falsk`.
 
 ### Exempel
 

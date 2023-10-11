@@ -3,7 +3,7 @@ title: Fill.FillType
 second_title: Aspose.Words für .NET-API-Referenz
 description: Fill eigendom. Ruft einen Fülltyp ab.
 type: docs
-weight: 20
+weight: 60
 url: /de/net/aspose.words.drawing/fill/filltype/
 ---
 ## Fill.FillType property

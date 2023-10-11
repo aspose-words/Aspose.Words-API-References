@@ -20,7 +20,7 @@ Der Inhalt des Knotens im angegebenen Format.
 
 ### Beispiele
 
-Zeigt den Unterschied zwischen dem Aufrufen der Methoden GetText und ToString auf einem Knoten.
+Zeigt den Unterschied zwischen dem Aufruf der GetText- und ToString-Methoden auf einem Knoten.
 
 ```csharp
 Document doc = new Document();
@@ -35,20 +35,20 @@ Assert.AreEqual("\u0013MERGEFIELD Field\u0014«Field»\u0015\u000c", doc.GetText
 Assert.AreEqual("«Field»\r\n", doc.ToString(SaveFormat.Text));
 ```
 
-Exportiert den Inhalt eines Knotens in String im HTML-Format.
+Exportiert den Inhalt eines Knotens als String im HTML-Format.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
 
 Node node = doc.LastSection.Body.LastParagraph;
 
-// Wenn wir die Methode ToString mit der Überladung html SaveFormat aufrufen,
+// Wenn wir die ToString-Methode mit der HTML-SaveFormat-Überladung aufrufen,
 // Es konvertiert den Inhalt des Knotens in seine rohe HTML-Darstellung.
 Assert.AreEqual("<p style=\"margin-top:0pt; margin-bottom:8pt; line-height:108%; font-size:12pt\">" +
                 "<span style=\"font-family:'Times New Roman'\">Hello World!</span>" +
                 "</p>", node.ToString(SaveFormat.Html));
 
-// Wir können das Ergebnis dieser Konvertierung auch mit einem SaveOptions-Objekt ändern.
+// Wir können das Ergebnis dieser Konvertierung auch mithilfe eines SaveOptions-Objekts ändern.
 HtmlSaveOptions saveOptions = new HtmlSaveOptions();
 saveOptions.ExportRelativeFontSize = true;
 
@@ -72,17 +72,17 @@ foreach (Paragraph paragraph in paras.OfType<Paragraph>().Where(p => p.ListForma
     Console.WriteLine($"List item paragraph #{paras.IndexOf(paragraph)}");
 
     // Dies ist der Text, den wir erhalten, wenn wir diesen Knoten im Textformat ausgeben.
-    // Diese Textausgabe lässt Listenlabels weg. Trimmen Sie alle Absatzformatierungszeichen. 
+     // Bei dieser Textausgabe werden Listenbeschriftungen weggelassen. Schneiden Sie alle Absatzformatierungszeichen ab.
     string paragraphText = paragraph.ToString(SaveFormat.Text).Trim();
     Console.WriteLine($"\tExported Text: {paragraphText}");
 
     ListLabel label = paragraph.ListLabel;
 
-    // Dadurch wird die Position des Absatzes in der aktuellen Ebene der Liste abgerufen. Wenn wir eine Liste mit mehreren Ebenen haben,
-    // dies wird uns sagen, welche Position es auf dieser Ebene ist.
+    // Dadurch wird die Position des Absatzes in der aktuellen Ebene der Liste ermittelt. Wenn wir eine Liste mit mehreren Ebenen haben,
+    // das wird uns sagen, welche Position es auf dieser Ebene hat.
     Console.WriteLine($"\tNumerical Id: {label.LabelValue}");
 
-    // Kombinieren Sie sie, um das Listenlabel mit dem Text in die Ausgabe aufzunehmen.
+    // Kombinieren Sie sie, um die Listenbeschriftung mit dem Text in die Ausgabe einzuschließen.
     Console.WriteLine($"\tList label combined with text: {label.LabelString} {paragraphText}");
 }
 ```
@@ -98,7 +98,7 @@ foreach (Paragraph paragraph in paras.OfType<Paragraph>().Where(p => p.ListForma
 
 ## ToString(SaveOptions) {#tostring_2}
 
-Exportiert den Inhalt des Knotens unter Verwendung der angegebenen Speicheroptionen in einen String.
+Exportiert den Inhalt des Knotens mit den angegebenen Speicheroptionen in einen String.
 
 ```csharp
 public string ToString(SaveOptions saveOptions)
@@ -114,20 +114,20 @@ Der Inhalt des Knotens im angegebenen Format.
 
 ### Beispiele
 
-Exportiert den Inhalt eines Knotens in String im HTML-Format.
+Exportiert den Inhalt eines Knotens als String im HTML-Format.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
 
 Node node = doc.LastSection.Body.LastParagraph;
 
-// Wenn wir die Methode ToString mit der Überladung html SaveFormat aufrufen,
+// Wenn wir die ToString-Methode mit der HTML-SaveFormat-Überladung aufrufen,
 // Es konvertiert den Inhalt des Knotens in seine rohe HTML-Darstellung.
 Assert.AreEqual("<p style=\"margin-top:0pt; margin-bottom:8pt; line-height:108%; font-size:12pt\">" +
                 "<span style=\"font-family:'Times New Roman'\">Hello World!</span>" +
                 "</p>", node.ToString(SaveFormat.Html));
 
-// Wir können das Ergebnis dieser Konvertierung auch mit einem SaveOptions-Objekt ändern.
+// Wir können das Ergebnis dieser Konvertierung auch mithilfe eines SaveOptions-Objekts ändern.
 HtmlSaveOptions saveOptions = new HtmlSaveOptions();
 saveOptions.ExportRelativeFontSize = true;
 

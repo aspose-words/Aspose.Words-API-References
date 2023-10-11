@@ -3,7 +3,7 @@ title: DocumentBuilder.Write
 second_title: Aspose.Words för .NET API Referens
 description: DocumentBuilder metod. Infogar en sträng i dokumentet vid den aktuella infogningspositionen.
 type: docs
-weight: 620
+weight: 660
 url: /sv/net/aspose.words/documentbuilder/write/
 ---
 ## DocumentBuilder.Write method
@@ -20,7 +20,7 @@ public void Write(string text)
 
 ### Anmärkningar
 
-Aktuell teckensnittsformatering specificerad av[`Font`](../font/)egenskapen används.
+Aktuell teckensnittsformatering specificerad av[`Font`](../font/) egenskapen används.
 
 ### Exempel
 

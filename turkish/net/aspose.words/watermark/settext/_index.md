@@ -23,11 +23,11 @@ public void SetText(string text)
 | istisna | şart |
 | --- | --- |
 | ArgumentOutOfRangeException | Metin uzunluğu aralık dışında olduğunda veya metin yalnızca boşluklar içerdiğinde atar. |
-| ArgumentNullException | Metin boş olduğunda atar. |
+| ArgumentNullException | Metin olduğunda atar`hükümsüz` . |
 
 ### Notlar
 
-Metin uzunluğu 1 ile 200 arasında olmalıdır. Metin boş olamaz veya yalnızca boşluklar içerebilir.
+Metin uzunluğu 1 ile 200 arasında olmalıdır. Metin değiştirilemez`hükümsüz` veya yalnızca boşluk içerir.
 
 ### Örnekler
 
@@ -39,8 +39,8 @@ Document doc = new Document();
 // Düz metin filigranı ekleyin.
 doc.Watermark.SetText("Aspose Watermark");
 
-// Metin biçimlendirmesini filigran olarak kullanarak düzenlemek istiyorsak,
-// filigran oluştururken bir TextWatermarkOptions nesnesi ileterek bunu yapabiliriz.
+// Metin formatını filigran olarak kullanarak düzenlemek istersek,
+// filigranı oluştururken bir TextWatermarkOptions nesnesini ileterek bunu yapabiliriz.
 TextWatermarkOptions textWatermarkOptions = new TextWatermarkOptions();
 textWatermarkOptions.FontFamily = "Arial";
 textWatermarkOptions.FontSize = 36;
@@ -52,7 +52,7 @@ doc.Watermark.SetText("Aspose Watermark", textWatermarkOptions);
 
 doc.Save(ArtifactsDir + "Document.TextWatermark.docx");
 
-// Böyle bir belgeden bir filigranı kaldırabiliriz.
+// Bunun gibi bir belgeden filigranı kaldırabiliriz.
 if (doc.Watermark.Type == WatermarkType.Text)
     doc.Watermark.Remove();
 ```
@@ -83,13 +83,13 @@ public void SetText(string text, TextWatermarkOptions options)
 | istisna | şart |
 | --- | --- |
 | ArgumentOutOfRangeException | Metin uzunluğu aralık dışında olduğunda veya metin yalnızca boşluklar içerdiğinde atar. |
-| ArgumentNullException | Metin boş olduğunda atar. |
+| ArgumentNullException | Metin olduğunda atar`hükümsüz` . |
 
 ### Notlar
 
-Metin uzunluğu 1 ile 200 arasında olmalıdır. Metin boş olamaz veya yalnızca boşluklar içerebilir.
+Metin uzunluğu 1 ile 200 arasında olmalıdır. Metin değiştirilemez`hükümsüz` veya yalnızca boşluk içerir.
 
-Eğer[`TextWatermarkOptions`](../../textwatermarkoptions/) null ise filigran varsayılan seçeneklerle ayarlanacaktır.
+Eğer[`TextWatermarkOptions`](../../textwatermarkoptions/) dır-dir`hükümsüz`filigran varsayılan seçeneklerle ayarlanacaktır.
 
 ### Örnekler
 
@@ -101,8 +101,8 @@ Document doc = new Document();
 // Düz metin filigranı ekleyin.
 doc.Watermark.SetText("Aspose Watermark");
 
-// Metin biçimlendirmesini filigran olarak kullanarak düzenlemek istiyorsak,
-// filigran oluştururken bir TextWatermarkOptions nesnesi ileterek bunu yapabiliriz.
+// Metin formatını filigran olarak kullanarak düzenlemek istersek,
+// filigranı oluştururken bir TextWatermarkOptions nesnesini ileterek bunu yapabiliriz.
 TextWatermarkOptions textWatermarkOptions = new TextWatermarkOptions();
 textWatermarkOptions.FontFamily = "Arial";
 textWatermarkOptions.FontSize = 36;
@@ -114,7 +114,7 @@ doc.Watermark.SetText("Aspose Watermark", textWatermarkOptions);
 
 doc.Save(ArtifactsDir + "Document.TextWatermark.docx");
 
-// Böyle bir belgeden bir filigranı kaldırabiliriz.
+// Bunun gibi bir belgeden filigranı kaldırabiliriz.
 if (doc.Watermark.Type == WatermarkType.Text)
     doc.Watermark.Remove();
 ```

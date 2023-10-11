@@ -1,14 +1,16 @@
 ---
 title: Class ChartSeriesCollection
 second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Drawing.Charts.ChartSeriesCollection sınıf. BirChartSeries .
+description: Aspose.Words.Drawing.Charts.ChartSeriesCollection sınıf. Bir koleksiyonu temsil ederChartSeries .
 type: docs
-weight: 740
+weight: 790
 url: /tr/net/aspose.words.drawing.charts/chartseriescollection/
 ---
 ## ChartSeriesCollection class
 
-Bir[`ChartSeries`](../chartseries/) .
+Bir koleksiyonu temsil eder[`ChartSeries`](../chartseries/) .
+
+Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Grafiklerle Çalışmak](https://docs.aspose.com/words/net/working-with-charts/) dokümantasyon makalesi.
 
 ```csharp
 public class ChartSeriesCollection : IEnumerable<ChartSeries>
@@ -18,24 +20,24 @@ public class ChartSeriesCollection : IEnumerable<ChartSeries>
 
 | İsim | Tanım |
 | --- | --- |
-| [Count](../../aspose.words.drawing.charts/chartseriescollection/count/) { get; } | Sayısını döndürür[`ChartSeries`](../chartseries/) bu koleksiyonda. |
-| [Item](../../aspose.words.drawing.charts/chartseriescollection/item/) { get; } | Bir döndürür[`ChartSeries`](../chartseries/) belirtilen dizinde. |
+| [Count](../../aspose.words.drawing.charts/chartseriescollection/count/) { get; } | Sayıyı döndürür[`ChartSeries`](../chartseries/) bu koleksiyonda. |
+| [Item](../../aspose.words.drawing.charts/chartseriescollection/item/) { get; } | Bir değeri döndürür[`ChartSeries`](../chartseries/) belirtilen dizinde. |
 
 ## yöntemler
 
 | İsim | Tanım |
 | --- | --- |
-| [Add](../../aspose.words.drawing.charts/chartseriescollection/add/#add_2)(string, DateTime[], double[]) | Yeni ekler[`ChartSeries`](../chartseries/) bu koleksiyona. Her tür Alan, Radar ve Hisse senedi grafiğine seri eklemek için bu yöntemi kullanın. |
-| [Add](../../aspose.words.drawing.charts/chartseriescollection/add/#add)(string, double[], double[]) | Yeni ekler[`ChartSeries`](../chartseries/) bu koleksiyona. Her tür Dağılım grafiğine seri eklemek için bu yöntemi kullanın. |
-| [Add](../../aspose.words.drawing.charts/chartseriescollection/add/#add_3)(string, string[], double[]) | Yeni ekler[`ChartSeries`](../chartseries/)bu koleksiyona. Herhangi bir Çubuk, Sütun, Çizgi ve Yüzey grafiğine seri eklemek için bu yöntemi kullanın. |
-| [Add](../../aspose.words.drawing.charts/chartseriescollection/add/#add_1)(string, double[], double[], double[]) | Yeni ekler[`ChartSeries`](../chartseries/) bu koleksiyona. Herhangi bir Bubble grafiği türüne seri eklemek için bu yöntemi kullanın. |
+| [Add](../../aspose.words.drawing.charts/chartseriescollection/add/#add_2)(string, DateTime[], double[]) | Yeni ekler[`ChartSeries`](../chartseries/) bu koleksiyona. Her türlü Alan, Radar ve Hisse senedi grafiğine seri eklemek için bu yöntemi kullanın. |
+| [Add](../../aspose.words.drawing.charts/chartseriescollection/add/#add)(string, double[], double[]) | Yeni ekler[`ChartSeries`](../chartseries/) bu koleksiyona. Herhangi bir Dağılım grafiği türüne seri eklemek için bu yöntemi kullanın. |
+| [Add](../../aspose.words.drawing.charts/chartseriescollection/add/#add_3)(string, string[], double[]) | Yeni ekler[`ChartSeries`](../chartseries/) bu koleksiyona. Herhangi bir Çubuk, Sütun, Çizgi ve Yüzey grafiğine seri eklemek için bu yöntemi kullanın. |
+| [Add](../../aspose.words.drawing.charts/chartseriescollection/add/#add_1)(string, double[], double[], double[]) | Yeni ekler[`ChartSeries`](../chartseries/)bu koleksiyona. Herhangi bir Kabarcık grafiği türüne seri eklemek için bu yöntemi kullanın. |
 | [Clear](../../aspose.words.drawing.charts/chartseriescollection/clear/)() | Tümünü kaldırır[`ChartSeries`](../chartseries/) bu koleksiyondan. |
-| [GetEnumerator](../../aspose.words.drawing.charts/chartseriescollection/getenumerator/)() | Bir numaralandırıcı nesnesi döndürür. |
-| [RemoveAt](../../aspose.words.drawing.charts/chartseriescollection/removeat/)(int) | Bir[`ChartSeries`](../chartseries/) belirtilen dizinde. |
+| [GetEnumerator](../../aspose.words.drawing.charts/chartseriescollection/getenumerator/)() | Bir numaralandırıcı nesnesini döndürür. |
+| [RemoveAt](../../aspose.words.drawing.charts/chartseriescollection/removeat/)(int) | Bir'i kaldırır[`ChartSeries`](../chartseries/) belirtilen dizinde. |
 
 ### Örnekler
 
-Bir grafikte seri verilerinin nasıl ekleneceğini ve kaldırılacağını gösterir.
+Bir grafiğe seri verilerinin nasıl eklenip kaldırılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -46,7 +48,7 @@ Shape chartShape = builder.InsertChart(ChartType.Column, 400, 300);
 Chart chart = chartShape.Chart;
 
 // Her serinin dört ondalık değeri vardır: dört kategorinin her biri için bir tane.
-// Üç sütundan oluşan dört küme bu verileri temsil edecektir.
+// Üç sütundan oluşan dört küme bu verileri temsil edecek.
 ChartSeriesCollection chartData = chart.Series;
 
 Assert.AreEqual(3, chartData.Count);
@@ -60,21 +62,19 @@ using (IEnumerator<ChartSeries> enumerator = chart.Series.GetEnumerator())
     }
 }
 
-// Bunlar grafikteki kategorilerin isimleridir.
+// Bunlar grafikteki kategorilerin adlarıdır.
 string[] categories = { "Category 1", "Category 2", "Category 3", "Category 4" };
 
-// Mevcut kategoriler için yeni değerler içeren bir dizi ekleyebiliriz.
-// Bu grafik şimdi dört sütundan oluşan dört küme içerecek.
+// Mevcut kategoriler için yeni değerlere sahip bir seri ekleyebiliriz.
+// Bu grafik artık dört sütundan oluşan dört küme içerecek.
 chart.Series.Add("Series 4", categories, new[] { 4.4, 7.0, 3.5, 2.1 });
-
-// Bir grafik serisi, bunun gibi dizine göre de kaldırılabilir.
+// Bir grafik serisi bu şekilde indekse göre de kaldırılabilir.
 // Bu, grafikle birlikte gelen üç demo serisinden birini kaldıracaktır.
 chartData.RemoveAt(2);
 
 Assert.False(chartData.Any(s => s.Name == "Series 3"));
-
-// Ayrıca bu yöntemle tüm grafiğin verilerini bir kerede temizleyebiliriz.
-// Yeni bir grafik oluştururken, tüm demo verilerini silmenin yolu budur
+// Bu yöntemle grafiğin tüm verilerini tek seferde de temizleyebiliriz.
+// Yeni bir grafik oluştururken tüm demo verilerini silmenin yolu budur
 // boş bir grafik üzerinde çalışmaya başlamadan önce.
 chartData.Clear();
 ```

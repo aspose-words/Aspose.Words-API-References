@@ -1,14 +1,14 @@
 ---
 title: ChartDataLabel.ShowBubbleSize
 second_title: Справочник по API Aspose.Words для .NET
-description: ChartDataLabel свойство. Позволяет указать должен ли размер пузырька отображаться для меток данных на диаграмме. Применяется только к пузырьковым диаграммам. Значение по умолчанию  false.
+description: ChartDataLabel свойство. Позволяет указать должен ли отображаться размер пузырьков для меток данных на диаграмме. Применяется только к пузырьковым диаграммам. Значение по умолчаниюЛОЖЬ .
 type: docs
-weight: 60
+weight: 80
 url: /ru/net/aspose.words.drawing.charts/chartdatalabel/showbubblesize/
 ---
 ## ChartDataLabel.ShowBubbleSize property
 
-Позволяет указать, должен ли размер пузырька отображаться для меток данных на диаграмме. Применяется только к пузырьковым диаграммам. Значение по умолчанию — false.
+Позволяет указать, должен ли отображаться размер пузырьков для меток данных на диаграмме. Применяется только к пузырьковым диаграммам. Значение по умолчанию:`ЛОЖЬ` .
 
 ```csharp
 public bool ShowBubbleSize { get; set; }
@@ -29,11 +29,12 @@ Assert.AreEqual(1, chart.Series.Count);
 Assert.AreEqual("Y-Values", chart.Series[0].Name);
 Assert.True(chart.Series[0].Bubble3D);
 
-// Применяем метку данных к каждому пузырьку, отображающему его диаметр.
+// Применяем метку данных к каждому пузырьку, отображающую его диаметр.
 for (int i = 0; i < 3; i++)
 {
     chart.Series[0].HasDataLabels = true;
     chart.Series[0].DataLabels[i].ShowBubbleSize = true;
+    chart.Series[0].DataLabels[i].Font.Size = 12;
 }
 
 doc.Save(ArtifactsDir + "Charts.Bubble3D.docx");

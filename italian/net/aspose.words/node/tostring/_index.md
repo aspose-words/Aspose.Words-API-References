@@ -20,7 +20,7 @@ Il contenuto del nodo nel formato specificato.
 
 ### Esempi
 
-Mostra la differenza tra la chiamata dei metodi GetText e ToString su un nodo.
+Mostra la differenza tra la chiamata ai metodi GetText e ToString su un nodo.
 
 ```csharp
 Document doc = new Document();
@@ -28,10 +28,10 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.InsertField("MERGEFIELD Field");
 
-// GetText recupererà il testo visibile, codici di campo e caratteri speciali.
+// GetText recupererà il testo visibile, nonché i codici di campo e i caratteri speciali.
 Assert.AreEqual("\u0013MERGEFIELD Field\u0014«Field»\u0015\u000c", doc.GetText());
 
-// ToString ci darà l'aspetto del documento se salvato in un formato di salvataggio passato.
+// ToString ci darà l'aspetto del documento se salvato in un formato di salvataggio superato.
 Assert.AreEqual("«Field»\r\n", doc.ToString(SaveFormat.Text));
 ```
 
@@ -42,13 +42,13 @@ Document doc = new Document(MyDir + "Document.docx");
 
 Node node = doc.LastSection.Body.LastParagraph;
 
-// Quando chiamiamo il metodo ToString usando l'overload di html SaveFormat,
+// Quando chiamiamo il metodo ToString utilizzando l'overload html SaveFormat,
 // converte i contenuti del nodo nella loro rappresentazione html grezza.
 Assert.AreEqual("<p style=\"margin-top:0pt; margin-bottom:8pt; line-height:108%; font-size:12pt\">" +
                 "<span style=\"font-family:'Times New Roman'\">Hello World!</span>" +
                 "</p>", node.ToString(SaveFormat.Html));
 
-// Possiamo anche modificare il risultato di questa conversione usando un oggetto SaveOptions.
+// Possiamo anche modificare il risultato di questa conversione utilizzando un oggetto SaveOptions.
 HtmlSaveOptions saveOptions = new HtmlSaveOptions();
 saveOptions.ExportRelativeFontSize = true;
 
@@ -65,21 +65,21 @@ doc.UpdateListLabels();
 
 NodeCollection paras = doc.GetChildNodes(NodeType.Paragraph, true);
 
-// Trova se abbiamo l'elenco dei paragrafi. Nel nostro documento, il nostro elenco utilizza semplici numeri arabi,
-// che iniziano alle tre e finiscono alle sei.
+// Trova se abbiamo l'elenco dei paragrafi. Nel nostro documento, l'elenco utilizza semplici numeri arabi,
+// che inizia alle tre e finisce alle sei.
 foreach (Paragraph paragraph in paras.OfType<Paragraph>().Where(p => p.ListFormat.IsListItem))
 {
     Console.WriteLine($"List item paragraph #{paras.IndexOf(paragraph)}");
 
-    // Questo è il testo che otteniamo quando otteniamo quando emettiamo questo nodo in formato testo.
-    // Questo output di testo ometterà le etichette dell'elenco. Taglia i caratteri di formattazione del paragrafo. 
+    // Questo è il testo che otteniamo quando restituiamo questo nodo in formato testo.
+     // Questo output di testo ometterà le etichette dell'elenco. Taglia eventuali caratteri di formattazione del paragrafo.
     string paragraphText = paragraph.ToString(SaveFormat.Text).Trim();
     Console.WriteLine($"\tExported Text: {paragraphText}");
 
     ListLabel label = paragraph.ListLabel;
 
-    // Ottiene la posizione del paragrafo nel livello corrente dell'elenco. Se abbiamo una lista con più livelli,
-    // questo ci dirà quale posizione si trova a quel livello.
+    // Questo ottiene la posizione del paragrafo nel livello corrente dell'elenco. Se abbiamo un elenco con più livelli,
+    // questo ci dirà quale posizione è su quel livello.
     Console.WriteLine($"\tNumerical Id: {label.LabelValue}");
 
     // Combinali insieme per includere l'etichetta dell'elenco con il testo nell'output.
@@ -121,13 +121,13 @@ Document doc = new Document(MyDir + "Document.docx");
 
 Node node = doc.LastSection.Body.LastParagraph;
 
-// Quando chiamiamo il metodo ToString usando l'overload di html SaveFormat,
+// Quando chiamiamo il metodo ToString utilizzando l'overload html SaveFormat,
 // converte i contenuti del nodo nella loro rappresentazione html grezza.
 Assert.AreEqual("<p style=\"margin-top:0pt; margin-bottom:8pt; line-height:108%; font-size:12pt\">" +
                 "<span style=\"font-family:'Times New Roman'\">Hello World!</span>" +
                 "</p>", node.ToString(SaveFormat.Html));
 
-// Possiamo anche modificare il risultato di questa conversione usando un oggetto SaveOptions.
+// Possiamo anche modificare il risultato di questa conversione utilizzando un oggetto SaveOptions.
 HtmlSaveOptions saveOptions = new HtmlSaveOptions();
 saveOptions.ExportRelativeFontSize = true;
 

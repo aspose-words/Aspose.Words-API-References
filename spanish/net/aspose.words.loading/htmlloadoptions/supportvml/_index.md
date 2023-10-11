@@ -21,13 +21,13 @@ Muestra cómo admitir comentarios condicionales al cargar un documento HTML.
 ```csharp
 HtmlLoadOptions loadOptions = new HtmlLoadOptions();
 
-// Si el valor es verdadero, entonces tomamos en cuenta el código VML mientras analizamos el documento cargado.
+// Si el valor es verdadero, tomamos en cuenta el código VML al analizar el documento cargado.
 loadOptions.SupportVml = supportVml;
 
 // Este documento contiene una imagen JPEG dentro de "<!--[if gte vml 1]>" etiquetas,
-// y una imagen PNG diferente dentro de "<![if !vml]>" etiquetas
-// Si establecemos el indicador "SupportVml" en "verdadero", Aspose.Words cargará el archivo JPEG.
-// Si configuramos este indicador en "falso", Aspose.Words solo cargará el PNG.
+// y una imagen PNG diferente dentro de "<![if !vml]>" etiquetas.
+// Si configuramos el indicador "SupportVml" en "true", Aspose.Words cargará el JPEG.
+// Si configuramos este indicador en "falso", entonces Aspose.Words solo cargará el PNG.
 Document doc = new Document(MyDir + "VML conditional.htm", loadOptions);
 
 if (supportVml)

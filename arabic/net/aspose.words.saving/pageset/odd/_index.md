@@ -1,14 +1,14 @@
 ---
 title: PageSet.Odd
 second_title: Aspose.Words لمراجع .NET API
-description: PageSet ملكية. الحصول على مجموعة بها كل الصفحات الفردية للمستند بترتيبها الأصلي.
+description: PageSet ملكية. الحصول على مجموعة تحتوي على كافة الصفحات الفردية للمستند بترتيبها الأصلي.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.saving/pageset/odd/
 ---
 ## PageSet.Odd property
 
-الحصول على مجموعة بها كل الصفحات الفردية للمستند بترتيبها الأصلي.
+الحصول على مجموعة تحتوي على كافة الصفحات الفردية للمستند بترتيبها الأصلي.
 
 ```csharp
 public static PageSet Odd { get; }

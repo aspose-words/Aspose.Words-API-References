@@ -3,7 +3,7 @@ title: ShapeBase.WrapType
 second_title: Aspose.Words för .NET API Referens
 description: ShapeBase fast egendom. Definierar om formen är inline eller flytande. För flytande former definierar lindningsläget för text runt formen.
 type: docs
-weight: 540
+weight: 600
 url: /sv/net/aspose.words.drawing/shapebase/wraptype/
 ---
 ## ShapeBase.WrapType property

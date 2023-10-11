@@ -10,7 +10,7 @@ url: /es/net/aspose.words.markup/structureddocumenttagrangestart/isshowingplaceh
 
 Especifica si se interpretará que el contenido de esta etiqueta de documento estructurado contiene texto de marcador de posición (a diferencia del contenido de texto normal dentro de la etiqueta de documento estructurado).
 
-si se establece en verdadero, este estado se reanudará (mostrando texto de marcador de posición) al abrir este documento.
+si está configurado en`verdadero` , este estado se reanudará (mostrando texto de marcador de posición) al abrir este documento.
 
 ```csharp
 public bool IsShowingPlaceholderText { get; set; }
@@ -18,7 +18,7 @@ public bool IsShowingPlaceholderText { get; set; }
 
 ### Ejemplos
 
-Muestra cómo obtener las propiedades de las etiquetas de documentos estructurados de varias secciones.
+Muestra cómo obtener las propiedades de etiquetas de documentos estructurados de varias secciones.
 
 ```csharp
 Document doc = new Document(MyDir + "Multi-section structured document tags.docx");

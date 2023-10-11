@@ -1,14 +1,14 @@
 ---
 title: Shape.ShadowEnabled
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Shape propriété. Renvoie vrai si un effet dombre est activé.
+description: Shape propriété. Retoursvrai si un effet dombre est activé.
 type: docs
 weight: 150
 url: /fr/net/aspose.words.drawing/shape/shadowenabled/
 ---
 ## Shape.ShadowEnabled property
 
-Renvoie vrai si un effet d'ombre est activé.
+Retours`vrai` si un effet d'ombre est activé.
 
 ```csharp
 public bool ShadowEnabled { get; }
@@ -16,9 +16,10 @@ public bool ShadowEnabled { get; }
 
 ### Exemples
 
-Montre comment parcourir toutes les formes d'un document.
+Montre comment parcourir toutes les formes d’un document.
 
 ```csharp
+public void VisitShapes()
 {
     Document doc = new Document(MyDir + "Revision shape.docx");
     ShapeAppearancePrinter visitor = new ShapeAppearancePrinter();
@@ -28,7 +29,7 @@ Montre comment parcourir toutes les formes d'un document.
 }
 
 /// <summary>
-/// Consigne les informations relatives à l'apparence des formes visitées.
+/// Enregistre les informations relatives à l'apparence des formes visitées.
 /// </summary>
 private class ShapeAppearancePrinter : DocumentVisitor
 {
@@ -50,7 +51,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Renvoie tout le texte que le StringBuilder a accumulé.
+    /// Renvoie tout le texte accumulé par StringBuilder.
     /// </summary>
     public string GetText()
     {

@@ -3,7 +3,7 @@ title: MailMergeRegionInfo.Regions
 second_title: Aspose.Words für .NET-API-Referenz
 description: MailMergeRegionInfo eigendom. Gibt eine Liste der untergeordneten Regionen zurück.
 type: docs
-weight: 60
+weight: 80
 url: /de/net/aspose.words.mailmerging/mailmergeregioninfo/regions/
 ---
 ## MailMergeRegionInfo.Regions property
@@ -16,15 +16,15 @@ public IList<MailMergeRegionInfo> Regions { get; }
 
 ### Beispiele
 
-Zeigt, wie Seriendruckregionen überprüft werden.
+Zeigt, wie Seriendruckbereiche überprüft werden.
 
 ```csharp
 Document doc = new Document(MyDir + "Mail merge regions.docx");
 
-// Gibt eine vollständige Hierarchie von Zusammenführungsbereichen zurück, die MERGEFIELDs enthalten, die im Dokument verfügbar sind.
+// Gibt eine vollständige Hierarchie von Zusammenführungsbereichen zurück, die im Dokument verfügbare MERGEFIELDs enthalten.
 MailMergeRegionInfo regionInfo = doc.MailMerge.GetRegionsHierarchy();
 
-// Obere Regionen im Dokument abrufen.
+// Top-Regionen im Dokument abrufen.
 IList<MailMergeRegionInfo> topRegions = regionInfo.Regions;
 
 Assert.AreEqual(2, topRegions.Count);
@@ -33,7 +33,7 @@ Assert.AreEqual("Region2", topRegions[1].Name);
 Assert.AreEqual(1, topRegions[0].Level);
 Assert.AreEqual(1, topRegions[1].Level);
 
-// Holen Sie sich eine verschachtelte Region in der ersten oberen Region.
+// Verschachtelte Region in der ersten oberen Region abrufen.
 IList<MailMergeRegionInfo> nestedRegions = topRegions[0].Regions;
 
 Assert.AreEqual(2, nestedRegions.Count);

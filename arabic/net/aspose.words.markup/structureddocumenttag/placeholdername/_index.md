@@ -1,16 +1,16 @@
 ---
 title: StructuredDocumentTag.PlaceholderName
 second_title: Aspose.Words لمراجع .NET API
-description: StructuredDocumentTag ملكية. يحصل أو يحدد اسمBuildingBlock تحتوي على نص عنصر نائب.
+description: StructuredDocumentTag ملكية. الحصول على أو تعيين اسمBuildingBlock تحتوي على نص نائب.
 type: docs
 weight: 240
 url: /ar/net/aspose.words.markup/structureddocumenttag/placeholdername/
 ---
 ## StructuredDocumentTag.PlaceholderName property
 
-يحصل أو يحدد اسم[`BuildingBlock`](../../../aspose.words.buildingblocks/buildingblock/) تحتوي على نص عنصر نائب.
+الحصول على أو تعيين اسم[`BuildingBlock`](../../../aspose.words.buildingblocks/buildingblock/) تحتوي على نص نائب.
 
-BuildingBlock بهذا الاسم[`Name`](../../../aspose.words.buildingblocks/buildingblock/name/) يجب أن يكون موجودًا في[`GlossaryDocument`](../../../aspose.words/document/glossarydocument/) خلاف ذلكInvalidOperationException سوف يحدث.
+[`BuildingBlock`](../../../aspose.words.buildingblocks/buildingblock/) بهذا الاسم[`Name`](../../../aspose.words.buildingblocks/buildingblock/name/) يجب أن يكون موجودا في[`GlossaryDocument`](../../../aspose.words/document/glossarydocument/) خلاف ذلكInvalidOperationException سوف يحدث.
 
 ```csharp
 public string PlaceholderName { get; set; }
@@ -18,17 +18,17 @@ public string PlaceholderName { get; set; }
 
 ### أمثلة
 
-يوضح كيفية استخدام محتويات الكتلة البرمجية الإنشائية كنص عنصر نائب مخصص لعلامة مستند منظم.
+يوضح كيفية استخدام محتويات الكتلة البرمجية الإنشائية كنص عنصر نائب مخصص لعلامة مستند منظمة.
 
 ```csharp
 Document doc = new Document();
 
-// أدخل علامة مستند منظم بنص عادي من نوع "نص عادي" ، والذي سيعمل كمربع نص.
-// المحتويات التي سيتم عرضها افتراضيًا هي "انقر هنا لإدخال نص." مستعجل.
+// قم بإدراج علامة مستند منظمة لنص عادي من النوع "PlainText"، والتي ستعمل كمربع نص.
+// المحتويات التي سيتم عرضها بشكل افتراضي هي "انقر هنا لإدخال النص." اِسْتَدْعَى.
 StructuredDocumentTag tag = new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Inline);
 
-// يمكننا الحصول على العلامة لعرض محتويات الكتلة البرمجية الإنشائية بدلاً من النص الافتراضي.
-// أولاً ، أضف عنصر إنشاء بمحتويات إلى مستند المسرد.
+// يمكننا جعل العلامة تعرض محتويات الكتلة البرمجية الإنشائية بدلاً من النص الافتراضي.
+// أولاً، أضف كتلة إنشاء تحتوي على محتويات إلى مستند المسرد.
 GlossaryDocument glossaryDoc = doc.GlossaryDocument;
 
 BuildingBlock substituteBlock = new BuildingBlock(glossaryDoc);
@@ -39,18 +39,18 @@ substituteBlock.FirstSection.Body.AppendParagraph("Custom placeholder text.");
 
 glossaryDoc.AppendChild(substituteBlock);
 
-// ثم استخدم خاصية "PlaceholderName" لعلامة المستند المهيكلة للإشارة إلى كتلة الإنشاء هذه بالاسم.
+// بعد ذلك، استخدم خاصية "PlaceholderName" الخاصة بعلامة المستند المنظم للإشارة إلى الكتلة البرمجية الإنشائية تلك بالاسم.
 tag.PlaceholderName = "Custom Placeholder";
 
-// إذا كان "PlaceholderName" يشير إلى كتلة موجودة في مستند قاموس مصطلحات المستند الأصلي ،
-// سنتمكن من التحقق من الكتلة البرمجية الإنشائية عبر خاصية "Placeholder".
+// إذا كان "PlaceholderName" يشير إلى كتلة موجودة في مستند المصطلحات الخاص بالمستند الأصلي،
+// سنكون قادرين على التحقق من الكتلة البرمجية الإنشائية عبر خاصية "العنصر النائب".
 Assert.AreEqual(substituteBlock, tag.Placeholder);
 
-// اضبط خاصية "IsShowingPlaceholderText" على "true" لمعالجة ملف
-// محتويات علامة المستند المهيكلة الحالية كنص عنصر نائب.
-// هذا يعني أن النقر فوق مربع النص في Microsoft Word سيبرز على الفور جميع محتويات العلامة.
-// اضبط خاصية "IsShowingPlaceholderText" على "false" للحصول على ملف
-// علامة مستند منظم للتعامل مع محتوياته كنص أدخله المستخدم بالفعل.
+// قم بتعيين خاصية "IsShowingPlaceholderText" على "صحيح" للتعامل مع
+// المحتويات الحالية لعلامة المستند المنظمة كنص نائب.
+// هذا يعني أن النقر فوق مربع النص في Microsoft Word سيؤدي فورًا إلى تمييز جميع محتويات العلامة.
+// قم بتعيين خاصية "IsShowingPlaceholderText" على "خطأ" للحصول على القيمة "خطأ".
+// علامة مستند منظمة للتعامل مع محتوياتها كنص أدخله المستخدم بالفعل.
 // سيؤدي النقر فوق هذا النص في Microsoft Word إلى وضع المؤشر الوامض في الموقع الذي تم النقر عليه.
 tag.IsShowingPlaceholderText = isShowingPlaceholderText;
 

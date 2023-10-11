@@ -16,7 +16,7 @@ public string RightExpression { get; set; }
 
 ### Örnekler
 
-KARŞILAŞTIR alanını kullanarak ifadelerin nasıl karşılaştırılacağını gösterir.
+KARŞILAŞTIRMA alanı kullanılarak ifadelerin nasıl karşılaştırılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -28,8 +28,8 @@ field.ComparisonOperator = "<";
 field.RightExpression = "2";
 field.Update();
 
-// KARŞILAŞTIR alanı, ifadesinin doğruluğuna bağlı olarak "0" veya "1" görüntüler.
-// Bu ifadenin sonucu false olduğundan bu alan "0" gösterecektir.
+// KARŞILAŞTIRMA alanı, ifadesinin doğruluğuna bağlı olarak "0" veya "1" değerini görüntüler.
+// Bu ifadenin sonucu yanlış olduğundan bu alan "0" değerini gösterecektir.
 Assert.AreEqual(" COMPARE  3 < 2", field.GetFieldCode());
 Assert.AreEqual("0", field.Result);
 
@@ -41,7 +41,7 @@ field.ComparisonOperator = "=";
 field.RightExpression = "2 + 3";
 field.Update();
 
-// Bu alan, ifade doğru olduğundan "1" görüntüler.
+// İfade doğru olduğundan bu alan "1" değerini gösterir.
 Assert.AreEqual(" COMPARE  5 = \"2 + 3\"", field.GetFieldCode());
 Assert.AreEqual("1", field.Result);
 

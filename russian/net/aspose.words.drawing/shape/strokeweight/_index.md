@@ -1,14 +1,14 @@
 ---
 title: Shape.StrokeWeight
 second_title: Справочник по API Aspose.Words для .NET
-description: Shape свойство. Определяет толщину кисти которая обводит контур фигуры в пунктах.
+description: Shape свойство. Определяет толщину кисти обводящей контур фигуры в точках.
 type: docs
 weight: 210
 url: /ru/net/aspose.words.drawing/shape/strokeweight/
 ---
 ## Shape.StrokeWeight property
 
-Определяет толщину кисти, которая обводит контур фигуры в пунктах.
+Определяет толщину кисти, обводящей контур фигуры в точках.
 
 ```csharp
 public double StrokeWeight { get; set; }
@@ -16,7 +16,7 @@ public double StrokeWeight { get; set; }
 
 ### Примечания
 
-Это ярлык для[`Weight`](../../stroke/weight/) имущество.
+Это ярлык для[`Weight`](../../stroke/weight/) свойство.
 
 Значение по умолчанию — 0,75.
 
@@ -25,6 +25,7 @@ public double StrokeWeight { get; set; }
 Показывает, как перебирать все фигуры в документе.
 
 ```csharp
+public void VisitShapes()
 {
     Document doc = new Document(MyDir + "Revision shape.docx");
     ShapeAppearancePrinter visitor = new ShapeAppearancePrinter();
@@ -34,7 +35,7 @@ public double StrokeWeight { get; set; }
 }
 
 /// <summary>
-/// Регистрирует связанную с внешним видом информацию о посещенных фигурах.
+/// Регистрирует информацию о внешнем виде посещенных фигур.
 /// </summary>
 private class ShapeAppearancePrinter : DocumentVisitor
 {
@@ -46,7 +47,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Добавляет строку в StringBuilder с одним предшествующим символом табуляции для каждого уровня отступа.
+    /// Добавляет строку в StringBuilder с одним добавленным символом табуляции для каждого уровня отступа.
     /// </summary>
     private void AppendLine(string text)
     {
@@ -56,7 +57,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Вернуть весь текст, который накопил StringBuilder.
+    /// Возвращаем весь текст, накопленный StringBuilder.
     /// </summary>
     public string GetText()
     {

@@ -16,15 +16,15 @@ public abstract bool Accept(DocumentVisitor visitor)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| visitor | DocumentVisitor | Посетитель, который будет посещать узлы. |
+| visitor | DocumentVisitor | Посетитель, который посетит узлы. |
 
 ### Возвращаемое значение
 
-Истинно, если все узлы были посещены; false, если DocumentVisitor остановил операцию перед посещением всех узлов.
+Истинно, если были посещены все узлы; ложь, если[`DocumentVisitor`](../../documentvisitor/) остановил операцию перед посещением всех узлов.
 
 ### Примечания
 
-Перечисляет этот узел и все его дочерние элементы. Каждый узел вызывает соответствующий метод в DocumentVisitor.
+Перечисляет этот узел и все его дочерние элементы. Каждый узел вызывает соответствующий метод[`DocumentVisitor`](../../documentvisitor/).
 
 Дополнительные сведения см. в шаблоне проектирования «Посетитель».
 
@@ -33,15 +33,15 @@ public abstract bool Accept(DocumentVisitor visitor)
 Показывает, как использовать реализацию DocumentVisitor для удаления всего скрытого содержимого из документа.
 
 ```csharp
+public void RemoveHiddenContentFromDocument()
 {
     Document doc = new Document(MyDir + "Hidden content.docx");
-
     RemoveHiddenContentVisitor hiddenContentRemover = new RemoveHiddenContentVisitor();
 
-    // Ниже приведены три типа полей, которые могут принять посетителя документа,
-    // что позволит ему посетить принимающий узел, а затем пройти его дочерние узлы в порядке глубины.
+    // Ниже приведены три типа полей, которые могут принять посетитель документа,
+    // что позволит ему посетить принимающий узел, а затем пройти его дочерние узлы в глубину.
     // 1 - Узел абзаца:
-    Paragraph para = (Paragraph) doc.GetChild(NodeType.Paragraph, 4, true);
+    Paragraph para = (Paragraph)doc.GetChild(NodeType.Paragraph, 4, true);
     para.Accept(hiddenContentRemover);
 
     // 2 - Узел таблицы:
@@ -52,9 +52,10 @@ public abstract bool Accept(DocumentVisitor visitor)
     doc.Accept(hiddenContentRemover);
 
     doc.Save(ArtifactsDir + "Font.RemoveHiddenContentFromDocument.docx");
+}
 
 /// <summary>
-/// Удаляет все посещенные узлы, помеченные как "скрытый контент".
+/// Удаляет все посещенные узлы, помеченные как «скрытый контент».
 /// </summary>
 public class RemoveHiddenContentVisitor : DocumentVisitor
 {
@@ -103,7 +104,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Вызывается, когда в документе встречается узел Paragraph.
+    /// Вызывается, когда в документе встречается узел «Абзац».
     /// </summary>
     public override VisitorAction VisitParagraphStart(Paragraph paragraph)
     {
@@ -136,7 +137,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Вызывается, когда в документе встречается фигура.
+    /// Вызывается, когда в документе встречается форма.
     /// </summary>
     public override VisitorAction VisitShapeStart(Shape shape)
     {
@@ -169,7 +170,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Вызывается, когда в документе встречается SpecialCharacter.
+    /// Вызывается, когда в документе встречается специальный символ.
     /// </summary>
     public override VisitorAction VisitSpecialChar(SpecialChar specialChar)
     {
@@ -180,14 +181,14 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Вызывается при завершении посещения узла Table в документе.
+    /// Вызывается, когда в документе завершается посещение узла Таблицы.
     /// </summary>
     public override VisitorAction VisitTableEnd(Table table)
     {
-        // Содержимое внутри ячеек таблицы может иметь флаг скрытого содержимого, но не сами таблицы.
+        // Содержимое внутри ячеек таблицы может иметь флаг скрытого содержимого, но сами таблицы — нет.
         // Если бы в этой таблице не было ничего, кроме скрытого содержимого, этот посетитель удалил бы все это,
-        // и не осталось бы дочерних узлов.
-        // Таким образом, мы также можем рассматривать саму таблицу как скрытое содержимое и удалять ее.
+        // и дочерних узлов не останется.
+        // Таким образом, мы также можем рассматривать саму таблицу как скрытое содержимое и удалить ее.
         // Таблицы, которые пусты, но не имеют скрытого содержимого, будут иметь ячейки с пустыми абзацами внутри,
         // который этот посетитель не удалит.
         if (!table.HasChildNodes)
@@ -208,7 +209,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Вызывается при завершении посещения узла Row в документе.
+    /// Вызывается, когда в документе заканчивается посещение узла Row.
     /// </summary>
     public override VisitorAction VisitRowEnd(Row row)
     {

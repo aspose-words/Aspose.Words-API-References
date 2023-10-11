@@ -1,14 +1,14 @@
 ---
 title: Font.Size
 second_title: Aspose.Words for .NET API Referansı
-description: Font mülk. Yazı tipi boyutunu punto olarak alır veya ayarlar.
+description: Font mülk. Yazı tipi boyutunu nokta cinsinden alır veya ayarlar.
 type: docs
 weight: 340
 url: /tr/net/aspose.words/font/size/
 ---
 ## Font.Size property
 
-Yazı tipi boyutunu punto olarak alır veya ayarlar.
+Yazı tipi boyutunu nokta cinsinden alır veya ayarlar.
 
 ```csharp
 public double Size { get; set; }
@@ -16,7 +16,7 @@ public double Size { get; set; }
 
 ### Örnekler
 
-Font özelliğini kullanarak bir metin akışının nasıl biçimlendirileceğini gösterir.
+Font özelliğini kullanarak bir metin dizisinin nasıl biçimlendirileceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -37,7 +37,7 @@ DocumentBuilder kullanılarak biçimlendirilmiş metnin nasıl ekleneceğini gö
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Yazı tipi biçimlendirmesini belirtin, ardından metin ekleyin.
+// Yazı tipi formatını belirtin, ardından metin ekleyin.
 Aspose.Words.Font font = builder.Font;
 font.Size = 16;
 font.Bold = true;

@@ -3,7 +3,7 @@ title: DocumentBuilder.InsertOleObject
 second_title: Aspose.Words för .NET API Referens
 description: DocumentBuilder metod. Infogar ett inbäddat OLEobjekt från en ström i dokumentet.
 type: docs
-weight: 370
+weight: 400
 url: /sv/net/aspose.words/documentbuilder/insertoleobject/
 ---
 ## InsertOleObject(Stream, string, bool, Stream) {#insertoleobject}
@@ -19,7 +19,7 @@ public Shape InsertOleObject(Stream stream, string progId, bool asIcon, Stream p
 | stream | Stream | Ström som innehåller applikationsdata. |
 | progId | String | Programmatisk identifierare för OLE-objekt. |
 | asIcon | Boolean | Anger antingen ikoniskt eller normalt läge för OLE-objekt som infogas. |
-| presentation | Stream | Bildpresentation av OLE-objekt. Om värdet är null kommer Aspose.Words att använda en av de fördefinierade bilderna. |
+| presentation | Stream | Bildpresentation av OLE-objekt. Om värdet är`null` Aspose.Words kommer att använda en av de fördefinierade bilderna. |
 
 ### Returvärde
 
@@ -47,7 +47,7 @@ using (Stream spreadsheetStream = File.Open(MyDir + "Spreadsheet.xlsx", FileMode
 // Den här gången kommer en bild att laddas ner från webben för en ikon.
 using (Stream powerpointStream = File.Open(MyDir + "Presentation.pptx", FileMode.Open))
 {
-    using (WebClient webClient = new WebClient())
+    using (HttpClient httpClient = new HttpClient())
     {
         byte[] imgBytes = File.ReadAllBytes(ImageDir + "Logo.jpg");
 
@@ -85,9 +85,9 @@ public Shape InsertOleObject(string fileName, bool isLinked, bool asIcon, Stream
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
 | fileName | String | Fullständig sökväg till filen. |
-| isLinked | Boolean | Om sant så infogas länkat OLE-objekt annars infogas inbäddat OLE-objekt. |
+| isLinked | Boolean | Om`Sann` sedan infogas länkat OLE-objekt annars infogas inbäddat OLE-objekt. |
 | asIcon | Boolean | Anger antingen ikoniskt eller normalt läge för OLE-objekt som infogas. |
-| presentation | Stream | Bildpresentation av OLE-objekt. Om värdet är null kommer Aspose.Words att använda en av de fördefinierade bilderna. |
+| presentation | Stream | Bildpresentation av OLE-objekt. Om värdet är`null` Aspose.Words kommer att använda en av de fördefinierade bilderna. |
 
 ### Returvärde
 
@@ -148,9 +148,9 @@ public Shape InsertOleObject(string fileName, string progId, bool isLinked, bool
 | --- | --- | --- |
 | fileName | String | Fullständig sökväg till filen. |
 | progId | String | ProgId för OLE-objekt. |
-| isLinked | Boolean | Om sant så infogas länkat OLE-objekt annars infogas inbäddat OLE-objekt. |
+| isLinked | Boolean | Om`Sann` sedan infogas länkat OLE-objekt annars infogas inbäddat OLE-objekt. |
 | asIcon | Boolean | Anger antingen ikoniskt eller normalt läge för OLE-objekt som infogas. |
-| presentation | Stream | Bildpresentation av OLE-objekt. Om värdet är null kommer Aspose.Words att använda en av de fördefinierade bilderna. |
+| presentation | Stream | Bildpresentation av OLE-objekt. Om värdet är`null` Aspose.Words kommer att använda en av de fördefinierade bilderna. |
 
 ### Returvärde
 

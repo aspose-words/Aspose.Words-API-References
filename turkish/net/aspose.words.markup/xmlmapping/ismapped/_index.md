@@ -1,14 +1,14 @@
 ---
 title: XmlMapping.IsMapped
 second_title: Aspose.Words for .NET API Referansı
-description: XmlMapping mülk. İade doğru ana yapılandırılmış belge etiketi başarıyla XML verilerine eşlenirse.
+description: XmlMapping mülk. İadelerdoğru ana yapılandırılmış belge etiketi XML verileriyle başarıyla eşlendiyse.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.markup/xmlmapping/ismapped/
 ---
 ## XmlMapping.IsMapped property
 
-İade **doğru** ana yapılandırılmış belge etiketi başarıyla XML verilerine eşlenirse.
+İadeler`doğru` ana yapılandırılmış belge etiketi XML verileriyle başarıyla eşlendiyse.
 
 ```csharp
 public bool IsMapped { get; }
@@ -21,7 +21,7 @@ public bool IsMapped { get; }
 ```csharp
 Document doc = new Document();
 
-// Metin içeren bir XML bölümü oluşturun ve bunu belgenin CustomXmlPart koleksiyonuna ekleyin.
+// Metin içeren bir XML parçası oluşturun ve bunu belgenin CustomXmlPart koleksiyonuna ekleyin.
 string xmlPartId = Guid.NewGuid().ToString("B");
 string xmlPartContent = "<root><text>Text element #1</text><text>Text element #2</text></root>";
 CustomXmlPart xmlPart = doc.CustomXmlParts.Add(xmlPartId, xmlPartContent);
@@ -33,8 +33,8 @@ Assert.AreEqual("<root><text>Text element #1</text><text>Text element #2</text><
 StructuredDocumentTag tag = new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Block);
 
 // Yapılandırılmış belge etiketimiz için bir eşleme ayarlayın. Bu haritalama talimat verecek
-// XPath'in işaret ettiği XML bölümünün metin içeriğinin bir bölümünü görüntülemek için yapılandırılmış belge etiketimiz.
-// Bu durumda, ikinci "<metin>" içeriği olacaktır. ilk "<root>" öğesi öğe: "Metin öğesi #2".
+// XPath'ın işaret ettiği XML bölümünün metin içeriğinin bir kısmını görüntülemek için yapılandırılmış belge etiketimiz.
+// Bu durumda, ikinci "<text>" içeriği olacaktır. ilk "<root>" öğesinin öğesi öğe: "Metin öğesi #2".
 tag.XmlMapping.SetMapping(xmlPart, "/root[1]/text[2]", "xmlns:ns='http://www.w3.org/2001/XMLSchema'");
 
 Assert.True(tag.XmlMapping.IsMapped);

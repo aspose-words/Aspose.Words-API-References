@@ -1,14 +1,14 @@
 ---
 title: Enum LegendPosition
 second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Drawing.Charts.LegendPosition Sıralama. Bir grafik göstergesi için olası konumları belirtir.
+description: Aspose.Words.Drawing.Charts.LegendPosition Sıralama. Bir grafik açıklaması için olası konumları belirtir.
 type: docs
-weight: 780
+weight: 910
 url: /tr/net/aspose.words.drawing.charts/legendposition/
 ---
 ## LegendPosition enumeration
 
-Bir grafik göstergesi için olası konumları belirtir.
+Bir grafik açıklaması için olası konumları belirtir.
 
 ```csharp
 public enum LegendPosition
@@ -18,12 +18,12 @@ public enum LegendPosition
 
 | İsim | Değer | Tanım |
 | --- | --- | --- |
-| None | `0` | Grafik için gösterge gösterilmeyecek. |
-| Bottom | `1` | Göstergenin grafiğin altına çizileceğini belirtir. |
-| Left | `2` | Göstergenin grafiğin soluna çizileceğini belirtir. |
-| Right | `3` | Göstergenin grafiğin sağ tarafında çizileceğini belirtir. |
-| Top | `4` | Göstergenin grafiğin en üstüne çizileceğini belirtir. |
-| TopRight | `5` | Göstergenin grafiğin sağ üst kısmına çizileceğini belirtir. |
+| None | `0` | Grafikte herhangi bir açıklama gösterilmeyecek. |
+| Bottom | `1` | Açıklamanın grafiğin alt kısmına çizileceğini belirtir. |
+| Left | `2` | Açıklamanın grafiğin soluna çizileceğini belirtir. |
+| Right | `3` | Açıklamanın grafiğin sağ tarafına çizileceğini belirtir. |
+| Top | `4` | Açıklamanın grafiğin üst kısmına çizileceğini belirtir. |
+| TopRight | `5` | Açıklamanın grafiğin sağ üst köşesine çizileceğini belirtir. |
 
 ### Örnekler
 
@@ -41,11 +41,11 @@ Assert.AreEqual("Series 1", chart.Series[0].Name);
 Assert.AreEqual("Series 2", chart.Series[1].Name);
 Assert.AreEqual("Series 3", chart.Series[2].Name);
 
-// Grafiğin lejandını sağ üst köşeye taşıyın.
+// Grafiğin açıklamasını sağ üst köşeye taşıyın.
 ChartLegend legend = chart.Legend;
 legend.Position = LegendPosition.TopRight;
 
-// Grafik gibi diğer grafik öğelerine lejandla örtüşmelerine izin vererek daha fazla alan verin.
+// Grafik gibi diğer grafik öğelerinin göstergeyle örtüşmesine izin vererek daha fazla alan verin.
 legend.Overlay = true;
 
 doc.Save(ArtifactsDir + "Charts.ChartLegend.docx");

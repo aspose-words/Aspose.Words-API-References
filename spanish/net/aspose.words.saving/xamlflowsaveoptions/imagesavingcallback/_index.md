@@ -16,15 +16,16 @@ public IImageSavingCallback ImageSavingCallback { get; set; }
 
 ### Ejemplos
 
-Muestra cómo imprimir los nombres de archivo de las imágenes vinculadas creadas al convertir un documento a .xaml de formato de flujo.
+Muestra cómo imprimir los nombres de archivos de las imágenes vinculadas creadas al convertir un documento a .xaml de formato fluido.
 
 ```csharp
+public void ImageFolder()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
     ImageUriPrinter callback = new ImageUriPrinter(ArtifactsDir + "XamlFlowImageFolderAlias");
 
-    // Crear un objeto "XamlFlowSaveOptions", que podemos pasar al método "Guardar" del documento
+    // Crea un objeto "XamlFlowSaveOptions", que podemos pasar al método "Guardar" del documento
     // para modificar cómo guardamos el documento en el formato de guardado XAML.
     XamlFlowSaveOptions options = new XamlFlowSaveOptions();
 
@@ -41,16 +42,17 @@ Muestra cómo imprimir los nombres de archivo de las imágenes vinculadas creada
     options.ImageSavingCallback = callback;
 
     // Una carpeta especificada por "ImagesFolderAlias" deberá contener los recursos en lugar de "ImagesFolder".
-    // Debemos asegurarnos de que la carpeta exista antes de que los flujos de devolución de llamada puedan poner sus recursos en ella.
+    // Debemos asegurarnos de que la carpeta exista antes de que las transmisiones de la devolución de llamada puedan poner sus recursos en ella.
     Directory.CreateDirectory(options.ImagesFolderAlias);
 
     doc.Save(ArtifactsDir + "XamlFlowSaveOptions.ImageFolder.xaml", options);
 
     foreach (string resource in callback.Resources)
         Console.WriteLine($"{callback.ImagesFolderAlias}/{resource}");
+}
 
 /// <summary>
-/// Cuenta e imprime los nombres de archivo de las imágenes mientras su documento principal se convierte a formato de flujo .xaml.
+/// Cuenta e imprime nombres de archivos de imágenes mientras su documento principal se convierte a formato de flujo .xaml.
 /// </summary>
 private class ImageUriPrinter : IImageSavingCallback
 {
@@ -65,7 +67,7 @@ private class ImageUriPrinter : IImageSavingCallback
         Resources.Add(args.ImageFileName);
 
         // Si especificamos un alias de carpeta de imágenes, también necesitaríamos
-        // para redirigir cada transmisión para colocar su imagen en la carpeta de alias.
+        // para redirigir cada secuencia para poner su imagen en la carpeta alias.
         args.ImageStream = new FileStream($"{ImagesFolderAlias}/{args.ImageFileName}", FileMode.Create);
         args.KeepImageStreamOpen = false;
     }

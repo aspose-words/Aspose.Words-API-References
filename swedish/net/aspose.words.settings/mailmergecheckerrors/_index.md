@@ -3,7 +3,7 @@ title: Enum MailMergeCheckErrors
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Settings.MailMergeCheckErrors uppräkning. Anger hur Microsoft Word kommer att rapportera fel som upptäcks under sammanslagningen.
 type: docs
-weight: 5510
+weight: 5810
 url: /sv/net/aspose.words.settings/mailmergecheckerrors/
 ---
 ## MailMergeCheckErrors enumeration
@@ -68,7 +68,7 @@ odso.FirstRowContainsColumnNames = true;
 Assert.AreNotSame(odso, odso.Clone());
 Assert.AreNotSame(settings, settings.Clone());
 
-// Att öppna detta dokument i Microsoft Word kommer att köra sammanslagningen innan innehållet visas. 
+ // Att öppna detta dokument i Microsoft Word kommer att köra sammanslagningen innan innehållet visas.
 doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ```
 

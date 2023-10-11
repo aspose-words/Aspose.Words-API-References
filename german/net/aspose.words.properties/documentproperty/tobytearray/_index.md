@@ -16,19 +16,19 @@ public byte[] ToByteArray()
 
 ### Bemerkungen
 
-Löst eine Ausnahme aus, wenn der Eigenschaftstyp nicht istByteArray.
+Löst eine Ausnahme aus, wenn der Eigenschaftstyp nicht vorhanden istByteArray.
 
 ### Beispiele
 
-Zeigt, wie Sie einem Dokument, das wir als Epub speichern, eine Miniaturansicht hinzufügen.
+Zeigt, wie man einem Dokument, das wir als Epub speichern, eine Miniaturansicht hinzufügt.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 
-// Wenn wir ein Dokument, dessen "Thumbnail"-Eigenschaft Bilddaten enthält, die wir hinzugefügt haben, als Epub speichern,
-// Ein Leser, der dieses Dokument öffnet, kann das Bild vor der ersten Seite anzeigen.
+// Wenn wir ein Dokument, dessen „Thumbnail“-Eigenschaft Bilddaten enthält, die wir hinzugefügt haben, als Epub speichern,
+// Ein Reader, der dieses Dokument öffnet, zeigt das Bild möglicherweise vor der ersten Seite an.
 BuiltInDocumentProperties properties = doc.BuiltInDocumentProperties;
 
 byte[] thumbnailBytes = File.ReadAllBytes(ImageDir + "Logo.jpg");
@@ -36,7 +36,7 @@ properties.Thumbnail = thumbnailBytes;
 
 doc.Save(ArtifactsDir + "DocumentProperties.Thumbnail.epub");
 
-// Wir können das Miniaturbild eines Dokuments extrahieren und es im lokalen Dateisystem speichern.
+// Wir können das Miniaturbild eines Dokuments extrahieren und im lokalen Dateisystem speichern.
 DocumentProperty thumbnail = doc.BuiltInDocumentProperties["Thumbnail"];
 File.WriteAllBytes(ArtifactsDir + "DocumentProperties.Thumbnail.gif", thumbnail.ToByteArray());
 ```

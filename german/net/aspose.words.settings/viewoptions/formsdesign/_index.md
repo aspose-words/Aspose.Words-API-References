@@ -27,8 +27,8 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 
-// Setzen Sie die Eigenschaft "FormsDesign" auf "false", um den Designmodus für Formulare deaktiviert zu lassen.
-// Setzen Sie die Eigenschaft "FormsDesign" auf "true", um den Designmodus für Formulare zu aktivieren.
+// Setzen Sie die Eigenschaft „FormsDesign“ auf „false“, um den Formularentwurfsmodus deaktiviert zu lassen.
+// Setzen Sie die Eigenschaft „FormsDesign“ auf „true“, um den Formularentwurfsmodus zu aktivieren.
 doc.ViewOptions.FormsDesign = useFormsDesign;
 
 doc.Save(ArtifactsDir + "ViewOptions.FormsDesign.xml");

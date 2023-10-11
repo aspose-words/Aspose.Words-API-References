@@ -27,7 +27,7 @@ La définition de cette propriété réinitialise le cache de toutes les polices
 
 ### Exemples
 
-Montre comment définir plusieurs répertoires source de polices.
+Montre comment définir plusieurs répertoires sources de polices.
 
 ```csharp
 Document doc = new Document();
@@ -38,9 +38,9 @@ builder.Writeln("The quick brown fox jumps over the lazy dog.");
 builder.Font.Name = "Junction Light";
 builder.Writeln("The quick brown fox jumps over the lazy dog.");
 
-// Nos sources de polices ne contiennent pas la police que nous avons utilisée pour le texte de ce document.
+// Nos sources de polices ne contiennent pas la police que nous avons utilisée pour le texte dans ce document.
 // Si nous utilisons ces paramètres de police lors du rendu de ce document,
-// Aspose.Words appliquera une police de secours au texte qui a une police qu'Aspose.Words ne peut pas localiser.
+// Aspose.Words appliquera une police de secours au texte dont la police ne peut pas être localisée par Aspose.Words.
 FontSourceBase[] originalFontSources = FontSettings.DefaultInstance.GetFontsSources();
 
 Assert.AreEqual(1, originalFontSources.Length);
@@ -51,10 +51,10 @@ Assert.False(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName 
 Assert.False(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Junction Light"));
 
 // Utilisez la méthode "SetFontsFolders" pour créer une source de polices à partir de chaque répertoire de polices que nous passons comme premier argument.
-// Passez "false" comme argument "récursif" pour inclure les polices de tous les fichiers de polices qui se trouvent dans les répertoires
+// Passez "false" comme argument "récursif" pour inclure les polices de tous les fichiers de polices présents dans les répertoires
 // que nous transmettons dans le premier argument, mais n'incluons aucune police d'aucun des sous-dossiers des répertoires.
-// Passez "true" comme argument "récursif" pour inclure tous les fichiers de polices dans les répertoires que nous passons
-// dans le premier argument, ainsi que toutes les polices dans leurs sous-répertoires.
+// Passez "true" comme argument "récursif" pour inclure tous les fichiers de polices dans les répertoires que nous transmettons
+// dans le premier argument, ainsi que toutes les polices de leurs sous-répertoires.
 FontSettings.DefaultInstance.SetFontsFolders(new[] {FontsDir + "/Amethysta", FontsDir + "/Junction"},
     recursive);
 
@@ -65,7 +65,7 @@ Assert.False(newFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "A
 Assert.AreEqual(1, newFontSources[0].GetAvailableFonts().Count);
 Assert.True(newFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Amethysta"));
 
-// Le dossier "Junction" lui-même ne contient pas de fichiers de polices, mais des sous-dossiers en contiennent.
+// Le dossier "Junction" lui-même ne contient aucun fichier de polices, mais possède des sous-dossiers qui en contiennent.
 if (recursive)
 {
     Assert.AreEqual(6, newFontSources[1].GetAvailableFonts().Count);

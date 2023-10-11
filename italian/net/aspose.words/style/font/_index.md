@@ -3,7 +3,7 @@ title: Style.Font
 second_title: Aspose.Words per .NET API Reference
 description: Style proprietà. Ottiene la formattazione dei caratteri dello stile.
 type: docs
-weight: 50
+weight: 60
 url: /it/net/aspose.words/style/font/
 ---
 ## Style.Font property
@@ -16,11 +16,11 @@ public Font Font { get; }
 
 ### Osservazioni
 
-Per gli stili elenco questa proprietà restituisce null.
+Per gli stili di elenco questa proprietà restituisce`nullo`.
 
 ### Esempi
 
-Mostra come creare e utilizzare uno stile di paragrafo con la formattazione dell'elenco.
+Mostra come creare e utilizzare uno stile di paragrafo con formattazione elenco.
 
 ```csharp
 Document doc = new Document();
@@ -32,15 +32,15 @@ style.Font.Size = 24;
 style.Font.Name = "Verdana";
 style.ParagraphFormat.SpaceAfter = 12;
 
-// Crea un elenco e assicurati che i paragrafi che utilizzano questo stile utilizzeranno questo elenco.
+// Crea un elenco e assicurati che i paragrafi che utilizzano questo stile utilizzino questo elenco.
 style.ListFormat.List = doc.Lists.Add(ListTemplate.BulletDefault);
 style.ListFormat.ListLevelNumber = 0;
 
-// Applica lo stile di paragrafo al paragrafo corrente del generatore di documenti, quindi aggiungi del testo.
+// Applica lo stile di paragrafo al paragrafo corrente del generatore di documenti, quindi aggiunge del testo.
 builder.ParagraphFormat.Style = style;
 builder.Writeln("Hello World: MyStyle1, bulleted list.");
 
-// Cambia lo stile del generatore di documenti in uno che non ha formattazione dell'elenco e scrivi un altro paragrafo.
+// Cambia lo stile del generatore di documenti in uno che non abbia formattazione di elenco e scrivi un altro paragrafo.
 builder.ParagraphFormat.Style = doc.Styles["Normal"];
 builder.Writeln("Hello World: Normal.");
 
@@ -56,10 +56,12 @@ Style style = doc.Styles.Add(StyleType.Paragraph, "MyStyle");
 style.Font.Name = "Times New Roman";
 style.Font.Size = 16;
 style.Font.Color = Color.Navy;
+// Ridefinisce automaticamente lo stile.
+style.AutomaticallyUpdate = true;
 
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Applica uno degli stili dal documento al paragrafo che sta creando il generatore di documenti.
+// Applica uno degli stili del documento al paragrafo che il generatore di documenti sta creando.
 builder.ParagraphFormat.Style = doc.Styles["MyStyle"];
 builder.Writeln("Hello world!");
 
@@ -67,7 +69,7 @@ Style firstParagraphStyle = doc.FirstSection.Body.FirstParagraph.ParagraphFormat
 
 Assert.AreEqual(style, firstParagraphStyle);
 
-// Rimuovi il nostro stile personalizzato dalla raccolta di stili del documento.
+// Rimuove il nostro stile personalizzato dalla raccolta di stili del documento.
 doc.Styles["MyStyle"].Remove();
 
 firstParagraphStyle = doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Style;

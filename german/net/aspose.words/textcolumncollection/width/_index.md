@@ -1,14 +1,14 @@
 ---
 title: TextColumnCollection.Width
 second_title: Aspose.Words für .NET-API-Referenz
-description: TextColumnCollection eigendom. Wenn die Spalten gleichmäßig verteilt sind wird die Breite der Spalten abgerufen.
+description: TextColumnCollection eigendom. Wenn die Spalten gleichmäßig verteilt sind wird die Breite der Spalten ermittelt.
 type: docs
 weight: 60
 url: /de/net/aspose.words/textcolumncollection/width/
 ---
 ## TextColumnCollection.Width property
 
-Wenn die Spalten gleichmäßig verteilt sind, wird die Breite der Spalten abgerufen.
+Wenn die Spalten gleichmäßig verteilt sind, wird die Breite der Spalten ermittelt.
 
 ```csharp
 public double Width { get; }
@@ -16,7 +16,7 @@ public double Width { get; }
 
 ### Bemerkungen
 
-Hat nur Wirkung, wenn[`EvenlySpaced`](../evenlyspaced/) ist eingestellt auf **Stimmt**.
+Wirkt nur, wenn[`EvenlySpaced`](../evenlyspaced/) ist eingestellt auf`WAHR`.
 
 ### Siehe auch
 

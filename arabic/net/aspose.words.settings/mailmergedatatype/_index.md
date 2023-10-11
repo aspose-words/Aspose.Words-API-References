@@ -1,14 +1,14 @@
 ---
 title: Enum MailMergeDataType
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Settings.MailMergeDataType تعداد. تحديد نوع مصدر بيانات دمج البريد الخارجي.
+description: Aspose.Words.Settings.MailMergeDataType تعداد. تحديد نوع مصدر بيانات دمج المراسلات الخارجي.
 type: docs
-weight: 5520
+weight: 5820
 url: /ar/net/aspose.words.settings/mailmergedatatype/
 ---
 ## MailMergeDataType enumeration
 
-تحديد نوع مصدر بيانات دمج البريد الخارجي.
+تحديد نوع مصدر بيانات دمج المراسلات الخارجي.
 
 ```csharp
 public enum MailMergeDataType
@@ -19,12 +19,12 @@ public enum MailMergeDataType
 | اسم | قيمة | وصف |
 | --- | --- | --- |
 | None | `-1` | لم يتم تحديد مصدر بيانات لدمج المراسلات. |
-| TextFile | `0` | تحديد أن مستندًا معينًا قد تم توصيله بملف نصي عبر نظام تبادل البيانات الديناميكي (DDE). |
-| Database | `1` | تحديد أن مستندًا معينًا قد تم توصيله بقاعدة بيانات Access عبر نظام تبادل البيانات الديناميكي (DDE). |
-| Spreadsheet | `2` | يحدد أن مستندًا معينًا قد تم توصيله بجدول بيانات Excel عبر نظام تبادل البيانات الديناميكي (DDE). |
-| Query | `3` | تحديد أن مستندًا معينًا قد تم توصيله بمصدر بيانات خارجي باستخدام أداة استعلام خارجية. |
-| Odbc | `4` | يحدد أن مستندًا معينًا قد تم توصيله بمصدر بيانات خارجي عبر واجهة اتصال قاعدة البيانات المفتوحة. |
-| Native | `5` | يحدد أن مستندًا معينًا قد تم توصيله بمصدر بيانات خارجي عبر واجهة Office Data Source Object (ODSO). |
+| TextFile | `0` | يحدد أنه تم ربط مستند معين بملف نصي عبر نظام تبادل البيانات الديناميكي (DDE). |
+| Database | `1` | يحدد أن مستندًا معينًا قد تم توصيله بقاعدة بيانات Access عبر نظام تبادل البيانات الديناميكي (DDE). |
+| Spreadsheet | `2` | يحدد أنه تم ربط مستند معين بجدول بيانات Excel عبر نظام تبادل البيانات الديناميكي (DDE). |
+| Query | `3` | يحدد أنه تم ربط مستند معين بمصدر بيانات خارجي باستخدام أداة استعلام خارجية. |
+| Odbc | `4` | يحدد أنه تم توصيل مستند معين بمصدر بيانات خارجي عبر واجهة اتصال قاعدة البيانات المفتوحة. |
+| Native | `5` | يحدد أنه تم توصيل مستند معين بمصدر بيانات خارجي عبر واجهة كائن مصدر بيانات Office (ODSO). |
 | Default | `-1` | يساويNone . |
 
 ### أمثلة
@@ -42,9 +42,9 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// إنشاء مصدر بيانات في شكل ملف ASCII ، باستخدام "|" حرف
-// يعمل كمحدد يفصل بين الأعمدة. يحتوي السطر الأول على أسماء الأعمدة الثلاثة ،
-// وكل سطر لاحق هو صف بقيمها الخاصة.
+// قم بإنشاء مصدر بيانات على شكل ملف ASCII، باستخدام "|" شخصية
+// يعمل كمحدد يفصل بين الأعمدة. السطر الأول يحتوي على أسماء الأعمدة الثلاثة،
+// وكل سطر لاحق عبارة عن صف بقيمه الخاصة.
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };
 string dataSrcFilename = ArtifactsDir + "MailMerge.MailMergeSettings.DataSource.txt";
@@ -72,7 +72,7 @@ odso.FirstRowContainsColumnNames = true;
 Assert.AreNotSame(odso, odso.Clone());
 Assert.AreNotSame(settings, settings.Clone());
 
-// سيؤدي فتح هذا المستند في Microsoft Word إلى تنفيذ دمج البريد قبل عرض المحتويات. 
+ // سيؤدي فتح هذا المستند في Microsoft Word إلى تنفيذ دمج البريد قبل عرض المحتويات.
 doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ```
 

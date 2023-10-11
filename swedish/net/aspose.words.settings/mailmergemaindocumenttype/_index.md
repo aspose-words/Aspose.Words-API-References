@@ -3,7 +3,7 @@ title: Enum MailMergeMainDocumentType
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Settings.MailMergeMainDocumentType uppräkning. Anger de möjliga typerna för ett källdokument för kopplingsdokument.
 type: docs
-weight: 5540
+weight: 5840
 url: /sv/net/aspose.words.settings/mailmergemaindocumenttype/
 ---
 ## MailMergeMainDocumentType enumeration
@@ -72,7 +72,7 @@ odso.FirstRowContainsColumnNames = true;
 Assert.AreNotSame(odso, odso.Clone());
 Assert.AreNotSame(settings, settings.Clone());
 
-// Att öppna detta dokument i Microsoft Word kommer att köra sammanslagningen innan innehållet visas. 
+ // Att öppna detta dokument i Microsoft Word kommer att köra sammanslagningen innan innehållet visas.
 doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ```
 

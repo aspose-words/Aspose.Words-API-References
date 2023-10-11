@@ -1,14 +1,14 @@
 ---
 title: TextColumnCollection.Spacing
 second_title: Aspose.Words for .NET API 参考
-description: TextColumnCollection 财产. 当列均匀分布时获取或设置每列之间的空间量以点为单位
+description: TextColumnCollection 财产. 当列均匀分布时获取或设置每列之间的间距以点为单位
 type: docs
 weight: 50
 url: /zh/net/aspose.words/textcolumncollection/spacing/
 ---
 ## TextColumnCollection.Spacing property
 
-当列均匀分布时，获取或设置每列之间的空间量，以点为单位。
+当列均匀分布时，获取或设置每列之间的间距（以点为单位）。
 
 ```csharp
 public double Spacing { get; set; }
@@ -16,11 +16,11 @@ public double Spacing { get; set; }
 
 ### 评论
 
-只有在[`EvenlySpaced`](../evenlyspaced/)被设定为 **真的**.
+仅在以下情况下有效[`EvenlySpaced`](../evenlyspaced/)被设定为`真的`.
 
 ### 例子
 
-显示如何在一个部分中创建多个均匀间隔的列。
+演示如何在一个部分中创建多个均匀间隔的列。
 
 ```csharp
 Document doc = new Document();

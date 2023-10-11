@@ -1,14 +1,14 @@
 ---
 title: PdfLoadOptions.SkipPdfImages
 second_title: Aspose.Words för .NET API Referens
-description: PdfLoadOptions fast egendom. Hämtar eller ställer in flaggan som anger om bilder måste hoppas över när PDFdokument laddas. Standard är False.
+description: PdfLoadOptions fast egendom. Hämtar eller ställer in flaggan som anger om bilder måste hoppas över när PDFdokument laddas. Standard ärfalsk .
 type: docs
 weight: 40
 url: /sv/net/aspose.words.loading/pdfloadoptions/skippdfimages/
 ---
 ## PdfLoadOptions.SkipPdfImages property
 
-Hämtar eller ställer in flaggan som anger om bilder måste hoppas över när PDF-dokument laddas. Standard är False.
+Hämtar eller ställer in flaggan som anger om bilder måste hoppas över när PDF-dokument laddas. Standard är`falsk` .
 
 ```csharp
 public bool SkipPdfImages { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: IFieldUpdateCultureProvider.GetCulture
 second_title: Aspose.Words för .NET API Referens
-description: IFieldUpdateCultureProvider metod. Returnerar enCultureInfo objekt som ska användas under fältets uppdatering.
+description: IFieldUpdateCultureProvider metod. Returnerar enCultureInfoobjekt som ska användas under fältets uppdatering.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.fields/ifieldupdatecultureprovider/getculture/
 ---
 ## IFieldUpdateCultureProvider.GetCulture method
 
-Returnerar enCultureInfo objekt som ska användas under fältets uppdatering.
+Returnerar enCultureInfoobjekt som ska användas under fältets uppdatering.
 
 ```csharp
 public CultureInfo GetCulture(string culture, Field field)
@@ -28,7 +28,6 @@ Kulturobjektet som ska användas för fältets uppdatering.
 Visar hur man anger en kultur som analyserar formatering av datum/tid för varje fält.
 
 ```csharp
-[Test]
 public void DefineDateTimeFormatting()
 {
     Document doc = new Document();

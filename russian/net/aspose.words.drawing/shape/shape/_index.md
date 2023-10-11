@@ -21,19 +21,19 @@ public Shape(DocumentBase doc, ShapeType shapeType)
 
 ### Примечания
 
-Вы должны указать желаемые свойства формы после того, как вы создали фигуру.
+Вам следует указать желаемые свойства фигуры после ее создания.
 
 ### Примеры
 
-Показывает, как вставить фигуру с изображением из локальной файловой системы в документ.
+Показывает, как вставить в документ фигуру с изображением из локальной файловой системы.
 
 ```csharp
 Document doc = new Document();
 
-// Открытый конструктор класса "Shape" создаст фигуру с типом разметки "ShapeMarkupLanguage.Vml".
-// Если вам нужно создать фигуру не примитивного типа, например SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
+// Открытый конструктор класса «Shape» создаст фигуру с типом разметки «ShapeMarkupLanguage.Vml».
+// Если вам нужно создать фигуру непримитивного типа, например SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
 // TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded или DiagonalCornersRounded,
-// используйте DocumentBuilder.InsertShape.
+// пожалуйста, используйте DocumentBuilder.InsertShape.
 Shape shape = new Shape(doc, ShapeType.Image);
 shape.ImageData.SetImage(ImageDir + "Windows MetaFile.wmf");
 shape.Width = 100;
@@ -49,17 +49,17 @@ doc.Save(ArtifactsDir + "Image.FromFile.docx");
 ```csharp
 Document doc = new Document();
 
-// Создаем плавающее текстовое поле.
+// Создаём плавающее текстовое поле.
 Shape textBox = new Shape(doc, ShapeType.TextBox);
 textBox.WrapType = WrapType.None;
 textBox.Height = 50;
 textBox.Width = 200;
 
-// Установить горизонтальное и вертикальное выравнивание текста внутри фигуры.
+// Устанавливаем горизонтальное и вертикальное выравнивание текста внутри фигуры.
 textBox.HorizontalAlignment = HorizontalAlignment.Center;
 textBox.VerticalAlignment = VerticalAlignment.Top;
 
-// Добавьте абзац в текстовое поле и добавьте фрагмент текста, который будет отображаться в текстовом поле.
+// Добавляем абзац в текстовое поле и добавляем текст, который будет отображаться в текстовом поле.
 textBox.AppendChild(new Paragraph(doc));
 Paragraph para = textBox.FirstParagraph;
 para.ParagraphFormat.Alignment = ParagraphAlignment.Center;

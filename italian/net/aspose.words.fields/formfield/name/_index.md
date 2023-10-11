@@ -35,7 +35,7 @@ Assert.AreEqual("MyComboBox", comboBox.Name);
 Assert.AreEqual(FieldType.FieldFormDropDown, comboBox.Type);
 Assert.AreEqual("Apple", comboBox.Result);
 
-// Il campo del modulo apparirà sotto forma di un tag html "select".
+// Il campo del modulo apparirà sotto forma di tag html "seleziona".
 doc.Save(ArtifactsDir + "FormFields.Create.html");
 ```
 

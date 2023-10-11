@@ -3,7 +3,7 @@ title: DocumentBuilder.InsertDocument
 second_title: Aspose.Words per .NET API Reference
 description: DocumentBuilder metodo. Inserisce un documento nella posizione del cursore.
 type: docs
-weight: 290
+weight: 310
 url: /it/net/aspose.words/documentbuilder/insertdocument/
 ---
 ## InsertDocument(Document, ImportFormatMode) {#insertdocument}
@@ -16,7 +16,7 @@ public Node InsertDocument(Document srcDoc, ImportFormatMode importFormatMode)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| srcDoc | Document | Documento di origine per l'inserimento. |
+| srcDoc | Document | Documento di origine da inserire. |
 | importFormatMode | ImportFormatMode | Specifica come unire la formattazione dello stile in conflitto. |
 
 ### Valore di ritorno
@@ -25,7 +25,7 @@ Primo nodo del contenuto inserito.
 
 ### Osservazioni
 
-Questo metodo imita il comportamento di MS Word, come se fosse stato premuto CTRL+'A' (seleziona tutto il contenuto), poi CTRL+'C' (copia selezionato nel buffer) all'interno di un documento e poi CTRL+'V' (inserisci contenuto dal buffer) all'interno di un altro documento.
+Questo metodo imita il comportamento di MS Word, come se fosse premuto CTRL+'A' (seleziona tutto il contenuto), poi CTRL+'C' (copia selezionata nel buffer) all'interno di un documento e poi CTRL+'V' (inserisci contenuto dal buffer) all'interno di un altro documento.
 
 ### Esempi
 
@@ -66,9 +66,9 @@ public Node InsertDocument(Document srcDoc, ImportFormatMode importFormatMode,
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| srcDoc | Document | Documento di origine per l'inserimento. |
+| srcDoc | Document | Documento di origine da inserire. |
 | importFormatMode | ImportFormatMode | Specifica come unire la formattazione dello stile in conflitto. |
-| importFormatOptions | ImportFormatOptions | Consente di specificare le opzioni che influiscono sulla formattazione di un documento risultante. |
+| importFormatOptions | ImportFormatOptions | Consente di specificare le opzioni che influiscono sulla formattazione di un documento risultato. |
 
 ### Valore di ritorno
 
@@ -76,7 +76,7 @@ Primo nodo del contenuto inserito.
 
 ### Osservazioni
 
-Questo metodo imita il comportamento di MS Word, come se fosse stato premuto CTRL+'A' (seleziona tutto il contenuto), poi CTRL+'C' (copia selezionato nel buffer) all'interno di un documento e poi CTRL+'V' (inserisci contenuto dal buffer) all'interno di un altro documento.
+Questo metodo imita il comportamento di MS Word, come se fosse premuto CTRL+'A' (seleziona tutto il contenuto), poi CTRL+'C' (copia selezionata nel buffer) all'interno di un documento e poi CTRL+'V' (inserisci contenuto dal buffer) all'interno di un altro documento.
 
 ### Esempi
 
@@ -94,14 +94,14 @@ myStyle.Font.Color = Color.Blue;
 builder.ParagraphFormat.StyleName = myStyle.Name;
 builder.Writeln("Hello world!");
 
-// Clona il documento e modifica lo stile "MyStyle" del clone, quindi è di un colore diverso da quello dell'originale.
+// Clona il documento e modifica lo stile "MyStyle" del clone, quindi ha un colore diverso da quello dell'originale.
 // Se inseriamo il clone nel documento originale, i due stili con lo stesso nome causeranno uno scontro.
 Document srcDoc = dstDoc.Clone();
 srcDoc.Styles["MyStyle"].Font.Color = Color.Red;
 
-// Quando abilitiamo SmartStyleBehavior e utilizziamo la modalità di formato di importazione KeepSourceFormatting,
+// Quando abilitiamo SmartStyleBehavior e utilizziamo la modalità formato di importazione KeepSourceFormatting,
 // Aspose.Words risolverà i conflitti di stile convertendo gli stili del documento sorgente.
-// con gli stessi nomi degli stili di destinazione negli attributi di paragrafo diretto.
+// con gli stessi nomi degli stili di destinazione negli attributi di paragrafo diretti.
 ImportFormatOptions options = new ImportFormatOptions();
 options.SmartStyleBehavior = true;
 

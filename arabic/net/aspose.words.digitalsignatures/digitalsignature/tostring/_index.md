@@ -1,14 +1,14 @@
 ---
 title: DigitalSignature.ToString
 second_title: Aspose.Words لمراجع .NET API
-description: DigitalSignature طريقة. إرجاع سلسلة سهلة الاستخدام تعرض قيمة هذا الكائن.
+description: DigitalSignature طريقة. تُرجع سلسلة سهلة الاستخدام تعرض قيمة هذا الكائن.
 type: docs
-weight: 80
+weight: 90
 url: /ar/net/aspose.words.digitalsignatures/digitalsignature/tostring/
 ---
 ## DigitalSignature.ToString method
 
-إرجاع سلسلة سهلة الاستخدام تعرض قيمة هذا الكائن.
+تُرجع سلسلة سهلة الاستخدام تعرض قيمة هذا الكائن.
 
 ```csharp
 public override string ToString()

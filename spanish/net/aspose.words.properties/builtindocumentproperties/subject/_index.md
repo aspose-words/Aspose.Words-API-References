@@ -45,14 +45,14 @@ builder.Write("\nComments:\t\"");
 builder.InsertField(FieldType.FieldComments, true);
 builder.Write("\"");
 
-// La propiedad integrada "Categoría" no tiene un campo que pueda mostrar su valor.
+// La propiedad incorporada "Categoría" no tiene un campo que pueda mostrar su valor.
 properties.Category = "My category";
 
 // Podemos establecer varias palabras clave para un documento separando el valor de cadena de la propiedad "Palabras clave" con punto y coma.
 properties.Keywords = "Tag 1; Tag 2; Tag 3";
 
-// Podemos hacer clic derecho en este documento en el Explorador de Windows y buscar estas propiedades en "Propiedades" -> "Detalles".
-// La propiedad incorporada "Autor" está en el grupo "Origen", y las demás están en el grupo "Descripción".
+// Podemos hacer clic derecho en este documento en el Explorador de Windows y encontrar estas propiedades en "Propiedades" -> "Detalles".
+// La propiedad integrada "Autor" está en el grupo "Origen" y las demás están en el grupo "Descripción".
 doc.Save(ArtifactsDir + "DocumentProperties.Description.docx");
 ```
 

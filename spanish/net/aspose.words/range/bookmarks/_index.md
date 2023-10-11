@@ -1,14 +1,14 @@
 ---
 title: Range.Bookmarks
 second_title: Referencia de API de Aspose.Words para .NET
-description: Range propiedad. Devuelve unBookmarks colección que representa todos los marcadores en el rango.
+description: Range propiedad. Devuelve unBookmarks colección que representa todos los marcadores del rango.
 type: docs
 weight: 10
 url: /es/net/aspose.words/range/bookmarks/
 ---
 ## Range.Bookmarks property
 
-Devuelve un`Bookmarks` colección que representa todos los marcadores en el rango.
+Devuelve un`Bookmarks` colección que representa todos los marcadores del rango.
 
 ```csharp
 public BookmarkCollection Bookmarks { get; }
@@ -21,17 +21,16 @@ Muestra cómo agregar marcadores y actualizar su contenido.
 ```csharp
 public void CreateUpdateAndPrintBookmarks()
 {
-    // Cree un documento con tres marcadores, luego use una implementación de visitante de documentos personalizada para imprimir su contenido.
+    // Cree un documento con tres marcadores y luego utilice una implementación personalizada de visitante de documentos para imprimir su contenido.
     Document doc = CreateDocumentWithBookmarks(3);
     BookmarkCollection bookmarks = doc.Range.Bookmarks;
-
     PrintAllBookmarkInfo(bookmarks);
 
     // Se puede acceder a los marcadores en la colección de marcadores por índice o nombre, y sus nombres se pueden actualizar.
     bookmarks[0].Name = $"{bookmarks[0].Name}_NewName";
     bookmarks["MyBookmark_2"].Text = $"Updated text contents of {bookmarks[1].Name}";
 
-    // Imprime todos los marcadores de nuevo para ver los valores actualizados.
+    // Imprime todos los marcadores nuevamente para ver los valores actualizados.
     PrintAllBookmarkInfo(bookmarks);
 }
 
@@ -58,13 +57,13 @@ private static Document CreateDocumentWithBookmarks(int numberOfBookmarks)
 }
 
 /// <summary>
-/// Use un iterador y un visitante para imprimir información de cada marcador en la colección.
+/// Utilice un iterador y un visitante para imprimir información de cada marcador de la colección.
 /// </summary>
 private static void PrintAllBookmarkInfo(BookmarkCollection bookmarks)
 {
     BookmarkInfoPrinter bookmarkVisitor = new BookmarkInfoPrinter();
 
-    // Obtenga cada marcador en la colección para aceptar un visitante que imprimirá su contenido.
+    // Obtenga cada marcador de la colección para aceptar un visitante que imprimirá su contenido.
     using (IEnumerator<Bookmark> enumerator = bookmarks.GetEnumerator())
     {
         while (enumerator.MoveNext())

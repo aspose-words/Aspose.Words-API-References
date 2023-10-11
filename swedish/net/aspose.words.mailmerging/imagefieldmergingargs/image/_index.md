@@ -19,6 +19,7 @@ public Image Image { get; set; }
 Visar hur man använder en återuppringning för att anpassa bildsammanslagningslogik.
 
 ```csharp
+public void MergeFieldImages()
 {
     Document doc = new Document();
 
@@ -39,11 +40,12 @@ Visar hur man använder en återuppringning för att anpassa bildsammanslagnings
     dataTable.Rows.Add("Transparent logo");
 
     // Tilldela en sammanslagningsåteruppringning som innehåller all logik som behandlar dessa namn,
-      // och kör sedan sammanslagningen.
+     // och kör sedan sammanslagningen.
     doc.MailMerge.FieldMergingCallback = new ImageFilenameCallback();
     doc.MailMerge.Execute(dataTable);
 
     doc.Save(ArtifactsDir + "Field.MERGEFIELD.Images.docx");
+}
 
 /// <summary>
 /// Innehåller en ordbok som mappar namn på bilder till lokala systemfilnamn som innehåller dessa bilder.

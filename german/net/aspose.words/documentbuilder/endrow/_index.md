@@ -3,7 +3,7 @@ title: DocumentBuilder.EndRow
 second_title: Aspose.Words für .NET-API-Referenz
 description: DocumentBuilder methode. Beendet eine Tabellenzeile im Dokument.
 type: docs
-weight: 220
+weight: 240
 url: /de/net/aspose.words/documentbuilder/endrow/
 ---
 ## DocumentBuilder.EndRow method
@@ -20,13 +20,13 @@ Der Zeilenknoten, der gerade fertiggestellt wurde.
 
 ### Bemerkungen
 
-Anruf **EndRow** um eine Tabellenzeile zu beenden. Wenn Sie anrufen[`InsertCell`](../insertcell/) sofort danach, dann geht die Tabelle in einer neuen Zeile weiter.
+Anruf`EndRow` um eine Tabellenzeile zu beenden. Wenn Sie anrufen[`InsertCell`](../insertcell/) sofort danach, dann wird die Tabelle in einer neuen Zeile fortgesetzt.
 
-Verwenden Sie die[`RowFormat`](../rowformat/) -Eigenschaft zum Angeben der Zeilenformatierung.
+Benutzen Sie die[`RowFormat`](../rowformat/) Eigenschaft zum Angeben der Zeilenformatierung.
 
 ### Beispiele
 
-Zeigt, wie Tabellenzellen vertikal verbunden werden.
+Zeigt, wie Tabellenzellen vertikal zusammengeführt werden.
 
 ```csharp
 Document doc = new Document();
@@ -38,19 +38,19 @@ builder.InsertCell();
 builder.CellFormat.VerticalMerge = CellMerge.First;
 builder.Write("Text in merged cells.");
 
-// Füge eine Zelle in die zweite Spalte der ersten Zeile ein und beende dann die Zeile.
-// Konfigurieren Sie außerdem den Builder, um das vertikale Zusammenführen in erstellten Zellen zu deaktivieren.
+// Eine Zelle in die zweite Spalte der ersten Zeile einfügen und dann die Zeile beenden.
+// Konfigurieren Sie den Builder außerdem so, dass die vertikale Zusammenführung in erstellten Zellen deaktiviert wird.
 builder.InsertCell();
 builder.CellFormat.VerticalMerge = CellMerge.None;
 builder.Write("Text in unmerged cell.");
 builder.EndRow();
 
-// Eine Zelle in die erste Spalte der zweiten Zeile einfügen. 
+ // Eine Zelle in die erste Spalte der zweiten Zeile einfügen.
 // Anstatt Textinhalte hinzuzufügen, werden wir diese Zelle mit der ersten Zelle zusammenführen, die wir direkt darüber hinzugefügt haben.
 builder.InsertCell();
 builder.CellFormat.VerticalMerge = CellMerge.Previous;
 
-// Eine weitere unabhängige Zelle in die zweite Spalte der zweiten Zeile einfügen.
+// Fügen Sie eine weitere unabhängige Zelle in die zweite Spalte der zweiten Zeile ein.
 builder.InsertCell();
 builder.CellFormat.VerticalMerge = CellMerge.None;
 builder.Write("Text in unmerged cell.");
@@ -75,7 +75,7 @@ builder.Write("Row 1, cell 2.");
 builder.EndRow();
 
 // Beim Erstellen der Tabelle wendet der Document Builder seine aktuellen RowFormat/CellFormat-Eigenschaftswerte an
-// zur aktuellen Zeile/Zelle, in der sich der Cursor befindet, und zu allen neuen Zeilen/Zellen, wenn sie erstellt werden.
+// zur aktuellen Zeile/Zelle, in der sich der Cursor befindet, und zu allen neuen Zeilen/Zellen, während sie erstellt werden.
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[0].CellFormat.VerticalAlignment);
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[1].CellFormat.VerticalAlignment);
 
@@ -90,7 +90,7 @@ builder.Write("Row 2, cell 2.");
 builder.EndRow();
 builder.EndTable();
 
-// Zuvor hinzugefügte Zeilen und Zellen sind nicht rückwirkend von Änderungen an der Formatierung des Builders betroffen.
+// Zuvor hinzugefügte Zeilen und Zellen werden von Änderungen an der Formatierung des Builders nicht rückwirkend beeinflusst.
 Assert.AreEqual(0, table.Rows[0].RowFormat.Height);
 Assert.AreEqual(HeightRule.Auto, table.Rows[0].RowFormat.HeightRule);
 Assert.AreEqual(100, table.Rows[1].RowFormat.Height);
@@ -101,7 +101,7 @@ Assert.AreEqual(TextOrientation.Downward, table.Rows[1].Cells[1].CellFormat.Orie
 doc.Save(ArtifactsDir + "DocumentBuilder.BuildTable.docx");
 ```
 
-Zeigt, wie eine Tabelle mit benutzerdefinierten Rahmen erstellt wird.
+Zeigt, wie man eine Tabelle mit benutzerdefinierten Rändern erstellt.
 
 ```csharp
 Document doc = new Document();
@@ -133,9 +133,9 @@ builder.InsertCell();
 builder.Write("Row 1, Col 2");
 builder.EndRow();
 
-// Wenn Sie die Formatierung ändern, wird sie auf die aktuelle Zelle angewendet,
-// und alle neuen Zellen, die wir danach mit dem Builder erstellen.
-// Dies wirkt sich nicht auf die zuvor hinzugefügten Zellen aus.
+// Wenn Sie die Formatierung ändern, wird sie auf die aktuelle Zelle angewendet.
+// und alle neuen Zellen, die wir anschließend mit dem Builder erstellen.
+// Dies hat keine Auswirkungen auf die Zellen, die wir zuvor hinzugefügt haben.
 builder.CellFormat.Shading.ClearFormatting();
 
 builder.InsertCell();
@@ -146,7 +146,7 @@ builder.Write("Row 2, Col 2");
 
 builder.EndRow();
 
-// Erhöhen Sie die Zeilenhöhe, um sie an den vertikalen Text anzupassen.
+// Zeilenhöhe erhöhen, um sie an den vertikalen Text anzupassen.
 builder.InsertCell();
 builder.RowFormat.Height = 150;
 builder.CellFormat.Orientation = TextOrientation.Upward;

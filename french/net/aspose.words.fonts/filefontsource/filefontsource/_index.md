@@ -1,14 +1,14 @@
 ---
 title: FileFontSource.FileFontSource
 second_title: Référence de l'API Aspose.Words pour .NET
-description: FileFontSource constructeur. Ctor.
+description: FileFontSource constructeur. Directeur.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.fonts/filefontsource/filefontsource/
 ---
 ## FileFontSource(string) {#constructor}
 
-Ctor.
+Directeur.
 
 ```csharp
 public FileFontSource(string filePath)
@@ -44,7 +44,7 @@ Assert.AreEqual(0, fileFontSource.Priority);
 
 ## FileFontSource(string, int) {#constructor_1}
 
-Ctor.
+Directeur.
 
 ```csharp
 public FileFontSource(string filePath, int priority)
@@ -53,7 +53,7 @@ public FileFontSource(string filePath, int priority)
 | Paramètre | Taper | La description |
 | --- | --- | --- |
 | filePath | String | Chemin d'accès au fichier de police. |
-| priority | Int32 | Priorité de source de police. Voir le[`Priority`](../../fontsourcebase/priority/) description de la propriété pour plus d'informations. |
+| priority | Int32 | Priorité de la source de police. Voir le[`Priority`](../../fontsourcebase/priority/) Description de la propriété pour plus d'informations. |
 
 ### Exemples
 
@@ -81,7 +81,7 @@ Assert.AreEqual(0, fileFontSource.Priority);
 
 ## FileFontSource(string, int, string) {#constructor_2}
 
-Ctor.
+Directeur.
 
 ```csharp
 public FileFontSource(string filePath, int priority, string cacheKey)
@@ -90,15 +90,14 @@ public FileFontSource(string filePath, int priority, string cacheKey)
 | Paramètre | Taper | La description |
 | --- | --- | --- |
 | filePath | String | Chemin d'accès au fichier de police. |
-| priority | Int32 | Priorité de source de police. Voir le[`Priority`](../../fontsourcebase/priority/) description de la propriété pour plus d'informations. |
-| cacheKey | String | La clé de cette source dans le cache. Voir[`CacheKey`](../cachekey/) description de la propriété pour plus d'informations. |
+| priority | Int32 | Priorité de la source de police. Voir le[`Priority`](../../fontsourcebase/priority/) Description de la propriété pour plus d'informations. |
+| cacheKey | String | La clé de cette source dans le cache. Voir[`CacheKey`](../cachekey/) Description de la propriété pour plus d'informations. |
 
 ### Exemples
 
-Montre comment accélérer le processus d'initialisation du cache de polices.
+Montre comment accélérer le processus d’initialisation du cache de polices.
 
 ```csharp
-[Test]
 public void LoadFontSearchCache()
 {
     const string cacheKey1 = "Arvo";
@@ -126,8 +125,8 @@ public void LoadFontSearchCache()
 }
 
 /// <summary>
-/// Charger les données de police uniquement lorsque cela est nécessaire au lieu de les stocker dans la mémoire
-/// pour toute la durée de vie de l'objet "FontSettings".
+/// Charge les données de police uniquement lorsque cela est nécessaire au lieu de les stocker dans la mémoire
+/// pendant toute la durée de vie de l'objet "FontSettings".
 /// </summary>
 private class SearchCacheStream : StreamFontSource
 {

@@ -16,7 +16,7 @@ public bool DisplayBackgroundShape { get; set; }
 
 ### أمثلة
 
-يوضح كيفية إخفاء / عرض صور خلفية المستند في خيارات العرض.
+يوضح كيفية إخفاء/عرض صور خلفية المستند في خيارات العرض.
 
 ```csharp
 // استخدم سلسلة HTML لإنشاء مستند جديد بلون خلفية مسطح.
@@ -29,13 +29,13 @@ const string html =
 
 Document doc = new Document(new MemoryStream(Encoding.Unicode.GetBytes(html)));
 
-// يحتوي مصدر المستند على خلفية ملونة مسطحة ،
-// سيؤدي وجودها إلى تعيين علامة "DisplayBackgroundShape" على "true".
+// مصدر المستند له خلفية ملونة مسطحة،
+// الذي سيؤدي وجوده إلى تعيين علامة "DisplayBackgroundShape" على "صحيح".
 Assert.True(doc.ViewOptions.DisplayBackgroundShape);
 
-// احتفظ بـ "DisplayBackgroundShape" على أنها "true" لجعل المستند يعرض لون الخلفية.
+// احتفظ بـ "DisplayBackgroundShape" على أنه "صحيح" حتى يعرض المستند لون الخلفية.
 // قد يؤثر هذا على بعض ألوان النص لتحسين الرؤية.
-// اضبط "DisplayBackgroundShape" على "false" لعدم عرض لون الخلفية.
+// اضبط "DisplayBackgroundShape" على "خطأ" حتى لا يتم عرض لون الخلفية.
 doc.ViewOptions.DisplayBackgroundShape = displayBackgroundShape;
 
 doc.Save(ArtifactsDir + "ViewOptions.DisplayBackgroundShape.docx");

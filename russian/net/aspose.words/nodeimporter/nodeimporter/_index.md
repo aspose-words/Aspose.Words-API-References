@@ -25,7 +25,6 @@ public NodeImporter(DocumentBase srcDoc, DocumentBase dstDoc, ImportFormatMode i
 Показывает, как вставить содержимое одного документа в закладку в другом документе.
 
 ```csharp
-[Test]
 public void InsertAtBookmark()
 {
     Document doc = new Document();
@@ -61,8 +60,8 @@ static void InsertDocument(Node insertionDestination, Document docToInsert)
         NodeImporter importer =
             new NodeImporter(docToInsert, insertionDestination.Document, ImportFormatMode.KeepSourceFormatting);
 
-        // Перебрать все узлы блочного уровня в теле раздела,
-        // затем клонируем и вставляем каждый узел, который не является последним пустым абзацем раздела.
+        // Проходим по всем узлам уровня блока в теле раздела,
+        // затем клонируем и вставляем каждый узел, кроме последнего пустого абзаца раздела.
         foreach (Section srcSection in docToInsert.Sections.OfType<Section>())
             foreach (Node srcNode in srcSection.Body)
             {
@@ -110,39 +109,39 @@ public NodeImporter(DocumentBase srcDoc, DocumentBase dstDoc, ImportFormatMode i
 | srcDoc | DocumentBase | Исходный документ. |
 | dstDoc | DocumentBase | Целевой документ, который будет владельцем импортированных узлов. |
 | importFormatMode | ImportFormatMode | Указывает, как объединить конфликтующее форматирование стилей. |
-| importFormatOptions | ImportFormatOptions | Задает различные параметры форматирования импортированного узла. |
+| importFormatOptions | ImportFormatOptions | Указывает различные параметры форматирования импортированного узла. |
 
 ### Примеры
 
-Показывает, как разрешить конфликт при импорте документов, содержащих списки с одинаковым идентификатором определения списка.
+Показывает, как разрешить конфликт при импорте документов, имеющих списки с одинаковым идентификатором определения списка.
 
 ```csharp
 Document srcDoc = new Document(MyDir + "List with the same definition identifier - source.docx");
 Document dstDoc = new Document(MyDir + "List with the same definition identifier - destination.docx");
 
-// Установите для свойства "KeepSourceNumbering" значение "true", чтобы применить другой идентификатор определения списка
-// в идентичные стили, поскольку Aspose.Words импортирует их в целевые документы.
+// Установите для свойства KeepSourceNumbering значение «true», чтобы применить другой идентификатор определения списка.
+// к идентичным стилям, поскольку Aspose.Words импортирует их в целевые документы.
 ImportFormatOptions importFormatOptions = new ImportFormatOptions { KeepSourceNumbering = true };
 
 dstDoc.AppendDocument(srcDoc, ImportFormatMode.UseDestinationStyles, importFormatOptions);
 dstDoc.UpdateListLabels();
 ```
 
-Показывает, как разрешать конфликты нумерации списков в исходном и целевом документах.
+Показывает, как разрешить конфликты нумерации списков в исходных и целевых документах.
 
 ```csharp
-// Откройте документ с пользовательской схемой нумерации списков, а затем клонируйте его.
-// Так как оба имеют одинаковый формат нумерации, форматы будут конфликтовать, если мы импортируем один документ в другой.
+// Откройте документ с пользовательской схемой нумерации списка, а затем клонируйте его.
+// Поскольку оба имеют одинаковый формат нумерации, форматы будут конфликтовать, если мы импортируем один документ в другой.
 Document srcDoc = new Document(MyDir + "Custom list numbering.docx");
 Document dstDoc = srcDoc.Clone();
 
 // Когда мы импортируем клон документа в оригинал, а затем добавляем его,
-// тогда объединятся два списка с одинаковым форматом списка.
-// Если установить флаг "KeepSourceNumbering" в "false", то список из клона документа
+// тогда два списка одинакового формата объединятся.
+// Если мы установим флаг «KeepSourceNumbering» в значение «false», то список из клона документа
 // который мы добавляем к оригиналу, будет продолжать нумерацию списка, к которому мы его добавляем.
-// Это эффективно объединит два списка в один.
-// Если мы установим флаг "KeepSourceNumbering" в "true", то клон документа
-// список сохранит исходную нумерацию, благодаря чему два списка будут отображаться как отдельные списки. 
+// Это фактически объединит два списка в один.
+// Если мы установим флаг «KeepSourceNumbering» в значение «true», то клон документа
+ // список сохранит свою первоначальную нумерацию, благодаря чему два списка будут отображаться как отдельные списки.
 ImportFormatOptions importFormatOptions = new ImportFormatOptions();
 importFormatOptions.KeepSourceNumbering = keepSourceNumbering;
 

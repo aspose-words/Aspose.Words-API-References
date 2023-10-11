@@ -1,14 +1,14 @@
 ---
 title: FixedPageSaveOptions.OptimizeOutput
 second_title: Aspose.Words för .NET API Referens
-description: FixedPageSaveOptions fast egendom. Flagga indikerar om det krävs för att optimera utdata. Om denna flagga ställs in redundanta kapslade dukar och tomma dukar tas bort sammanlänkas även grannglyfer med samma formatering. Obs Noggrannheten i innehållsvisningen kan påverkas den här egenskapen är inställd på true. Standard är false.
+description: FixedPageSaveOptions fast egendom. Flagga indikerar om det krävs för att optimera utdata. Om denna flagga ställs in redundanta kapslade dukar och tomma dukar tas bort sammanlänkas även grannglyfer med samma formatering. Obs Noggrannheten i innehållsvisningen kan påverkas den här egenskapen är inställd påSann . Standard ärfalsk .
 type: docs
 weight: 50
 url: /sv/net/aspose.words.saving/fixedpagesaveoptions/optimizeoutput/
 ---
 ## FixedPageSaveOptions.OptimizeOutput property
 
-Flagga indikerar om det krävs för att optimera utdata. Om denna flagga ställs in redundanta kapslade dukar och tomma dukar tas bort, sammanlänkas även grannglyfer med samma formatering. Obs! Noggrannheten i innehållsvisningen kan påverkas den här egenskapen är inställd på true. Standard är false.
+Flagga indikerar om det krävs för att optimera utdata. Om denna flagga ställs in redundanta kapslade dukar och tomma dukar tas bort, sammanlänkas även grannglyfer med samma formatering. Obs! Noggrannheten i innehållsvisningen kan påverkas den här egenskapen är inställd på`Sann` . Standard är`falsk` .
 
 ```csharp
 public virtual bool OptimizeOutput { get; set; }

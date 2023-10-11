@@ -1,14 +1,14 @@
 ---
 title: FileFontSource.FileFontSource
 second_title: Aspose.Words لمراجع .NET API
-description: FileFontSource البناء. Ctor.
+description: FileFontSource البناء. الممثل.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fonts/filefontsource/filefontsource/
 ---
 ## FileFontSource(string) {#constructor}
 
-Ctor.
+الممثل.
 
 ```csharp
 public FileFontSource(string filePath)
@@ -16,11 +16,11 @@ public FileFontSource(string filePath)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| filePath | String | مسار ملف الخط. |
+| filePath | String | المسار إلى ملف الخط. |
 
 ### أمثلة
 
-يوضح كيفية استخدام ملف خط في نظام الملفات المحلي كمصدر للخط.
+يوضح كيفية استخدام ملف الخط في نظام الملفات المحلي كمصدر للخط.
 
 ```csharp
 FileFontSource fileFontSource = new FileFontSource(MyDir + "Alte DIN 1451 Mittelschrift.ttf", 0);
@@ -44,7 +44,7 @@ Assert.AreEqual(0, fileFontSource.Priority);
 
 ## FileFontSource(string, int) {#constructor_1}
 
-Ctor.
+الممثل.
 
 ```csharp
 public FileFontSource(string filePath, int priority)
@@ -52,12 +52,12 @@ public FileFontSource(string filePath, int priority)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| filePath | String | مسار ملف الخط. |
-| priority | Int32 | أولوية مصدر الخط. انظر[`Priority`](../../fontsourcebase/priority/) وصف الخاصية لمزيد من المعلومات. |
+| filePath | String | المسار إلى ملف الخط. |
+| priority | Int32 | أولوية مصدر الخط. انظر[`Priority`](../../fontsourcebase/priority/) وصف العقار لمزيد من المعلومات. |
 
 ### أمثلة
 
-يوضح كيفية استخدام ملف خط في نظام الملفات المحلي كمصدر للخط.
+يوضح كيفية استخدام ملف الخط في نظام الملفات المحلي كمصدر للخط.
 
 ```csharp
 FileFontSource fileFontSource = new FileFontSource(MyDir + "Alte DIN 1451 Mittelschrift.ttf", 0);
@@ -81,7 +81,7 @@ Assert.AreEqual(0, fileFontSource.Priority);
 
 ## FileFontSource(string, int, string) {#constructor_2}
 
-Ctor.
+الممثل.
 
 ```csharp
 public FileFontSource(string filePath, int priority, string cacheKey)
@@ -89,16 +89,15 @@ public FileFontSource(string filePath, int priority, string cacheKey)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| filePath | String | مسار ملف الخط. |
-| priority | Int32 | أولوية مصدر الخط. انظر[`Priority`](../../fontsourcebase/priority/) وصف الخاصية لمزيد من المعلومات. |
-| cacheKey | String | مفتاح هذا المصدر في ذاكرة التخزين المؤقت. نرى[`CacheKey`](../cachekey/) وصف الخاصية لمزيد من المعلومات. |
+| filePath | String | المسار إلى ملف الخط. |
+| priority | Int32 | أولوية مصدر الخط. انظر[`Priority`](../../fontsourcebase/priority/) وصف العقار لمزيد من المعلومات. |
+| cacheKey | String | مفتاح هذا المصدر في ذاكرة التخزين المؤقت. يرى[`CacheKey`](../cachekey/) وصف العقار لمزيد من المعلومات. |
 
 ### أمثلة
 
 يوضح كيفية تسريع عملية تهيئة ذاكرة التخزين المؤقت للخط.
 
 ```csharp
-[Test]
 public void LoadFontSearchCache()
 {
     const string cacheKey1 = "Arvo";
@@ -126,8 +125,8 @@ public void LoadFontSearchCache()
 }
 
 /// <summary>
-/// قم بتحميل بيانات الخط عند الحاجة فقط بدلاً من تخزينها في الذاكرة
-/// لكامل عمر الكائن "FontSettings".
+/// قم بتحميل بيانات الخط فقط عند الحاجة إليها بدلاً من تخزينها في الذاكرة
+/// طوال عمر كائن "FontSettings".
 /// </summary>
 private class SearchCacheStream : StreamFontSource
 {

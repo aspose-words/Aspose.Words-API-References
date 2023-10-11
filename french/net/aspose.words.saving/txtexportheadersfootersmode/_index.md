@@ -1,14 +1,14 @@
 ---
 title: Enum TxtExportHeadersFootersMode
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Saving.TxtExportHeadersFootersMode énumération. Spécifie la façon dont les entêtes et les pieds de page sont exportés au format texte brut.
+description: Aspose.Words.Saving.TxtExportHeadersFootersMode énumération. Spécifie la manière dont les entêtes et les pieds de page sont exportés au format texte brut.
 type: docs
-weight: 5360
+weight: 5640
 url: /fr/net/aspose.words.saving/txtexportheadersfootersmode/
 ---
 ## TxtExportHeadersFootersMode enumeration
 
-Spécifie la façon dont les en-têtes et les pieds de page sont exportés au format texte brut.
+Spécifie la manière dont les en-têtes et les pieds de page sont exportés au format texte brut.
 
 ```csharp
 public enum TxtExportHeadersFootersMode
@@ -18,7 +18,7 @@ public enum TxtExportHeadersFootersMode
 
 | Nom | Évaluer | La description |
 | --- | --- | --- |
-| None | `0` | Aucun en-tête ni pied de page n'est exporté. |
+| None | `0` | Aucun en-tête et pied de page n'est exporté. |
 | PrimaryOnly | `1` | Seuls les en-têtes et pieds de page principaux sont exportés au début et à la fin de chaque section. |
 | AllAtEnd | `2` | Tous les en-têtes et pieds de page sont placés après tous les corps de section à la toute fin d'un document. |
 
@@ -29,8 +29,8 @@ Montre comment spécifier comment exporter les en-têtes et les pieds de page au
 ```csharp
 Document doc = new Document();
 
-// Insère des en-têtes/pieds de page pairs et primaires dans le document.
-// Les en-têtes/pieds de page primaires remplaceront les en-têtes/pieds de page pairs.
+// Insère des en-têtes/pieds de page pairs et principaux dans le document.
+// Les en-têtes/pieds de page principaux remplaceront les en-têtes/pieds de page pairs.
 doc.FirstSection.HeadersFooters.Add(new HeaderFooter(doc, HeaderFooterType.HeaderEven));
 doc.FirstSection.HeadersFooters[HeaderFooterType.HeaderEven].AppendParagraph("Even header");
 doc.FirstSection.HeadersFooters.Add(new HeaderFooter(doc, HeaderFooterType.FooterEven));
@@ -48,15 +48,15 @@ builder.Writeln("Page 2");
 builder.InsertBreak(BreakType.PageBreak); 
 builder.Write("Page 3");
 
-// Crée un objet "TxtSaveOptions", que nous pouvons passer à la méthode "Save" du document
+// Crée un objet "TxtSaveOptions", que l'on peut passer à la méthode "Save" du document
 // pour modifier la façon dont nous enregistrons le document en texte brut.
 TxtSaveOptions saveOptions = new TxtSaveOptions();
 
-// Définissez la propriété "ExportHeadersFootersMode" sur "TxtExportHeadersFootersMode.None"
+// Définit la propriété "ExportHeadersFootersMode" sur "TxtExportHeadersFootersMode.None"
 // pour ne pas exporter d'en-têtes/pieds de page.
-// Définissez la propriété "ExportHeadersFootersMode" sur "TxtExportHeadersFootersMode.PrimaryOnly"
+// Définit la propriété "ExportHeadersFootersMode" sur "TxtExportHeadersFootersMode.PrimaryOnly"
 // pour exporter uniquement les en-têtes/pieds de page principaux.
-// Définissez la propriété "ExportHeadersFootersMode" sur "TxtExportHeadersFootersMode.AllAtEnd"
+// Définit la propriété "ExportHeadersFootersMode" sur "TxtExportHeadersFootersMode.AllAtEnd"
 // pour placer tous les en-têtes et pieds de page de tous les corps de section à la fin du document.
 saveOptions.ExportHeadersFootersMode = txtExportHeadersFootersMode;
 

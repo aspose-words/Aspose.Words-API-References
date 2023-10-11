@@ -3,7 +3,7 @@ title: ShapeBase.GetDirectShapeAttr
 second_title: Aspose.Words for .NET API Referansı
 description: ShapeBase yöntem. Sistem kullanımı için ayrılmıştır. IShapeAttrSource.
 type: docs
-weight: 590
+weight: 650
 url: /tr/net/aspose.words.drawing/shapebase/getdirectshapeattr/
 ---
 ## ShapeBase.GetDirectShapeAttr method

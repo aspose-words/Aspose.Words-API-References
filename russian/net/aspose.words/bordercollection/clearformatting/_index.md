@@ -28,7 +28,7 @@ Assert.AreEqual(Color.Red.ToArgb(), firstParagraphBorders.Color.ToArgb());
 Assert.AreEqual(LineStyle.Single, firstParagraphBorders.LineStyle);
 Assert.AreEqual(3.0d, firstParagraphBorders.LineWidth);
 
-// Используйте метод ClearFormatting для каждого абзаца, чтобы удалить все границы.
+// Используйте метод «ClearFormatting» для каждого абзаца, чтобы удалить все границы.
 foreach (Paragraph paragraph in doc.FirstSection.Body.Paragraphs)
 {
     paragraph.ParagraphFormat.Borders.ClearFormatting();

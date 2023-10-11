@@ -1,14 +1,14 @@
 ---
 title: FramesetCollection.Item
 second_title: Aspose.Words for .NET API 参考
-description: FramesetCollection 财产. 获取指定索引处的一个或多个框架页面
+description: FramesetCollection 财产. 获取指定索引处的一个或多个帧页
 type: docs
 weight: 30
 url: /zh/net/aspose.words.framesets/framesetcollection/item/
 ---
 ## FramesetCollection indexer
 
-获取指定索引处的一个或多个框架页面。
+获取指定索引处的一个或多个帧页。
 
 ```csharp
 public Frameset this[int index] { get; }

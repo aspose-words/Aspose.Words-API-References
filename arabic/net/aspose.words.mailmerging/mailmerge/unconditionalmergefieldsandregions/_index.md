@@ -1,14 +1,14 @@
 ---
 title: MailMerge.UnconditionalMergeFieldsAndRegions
 second_title: Aspose.Words لمراجع .NET API
-description: MailMerge ملكية. الحصول على أو تعيين قيمة تشير إلى ما إذا كانت حقول الدمج ومناطق الدمج مدمجة بغض النظر عن حالة حقل IF الأصلي.
+description: MailMerge ملكية. الحصول على أو تعيين قيمة تشير إلى ما إذا كان سيتم دمج حقول الدمج ومناطق الدمج بغض النظر عن حالة حقل IF الأصلي.
 type: docs
 weight: 140
 url: /ar/net/aspose.words.mailmerging/mailmerge/unconditionalmergefieldsandregions/
 ---
 ## MailMerge.UnconditionalMergeFieldsAndRegions property
 
-الحصول على أو تعيين قيمة تشير إلى ما إذا كانت حقول الدمج ومناطق الدمج مدمجة بغض النظر عن حالة حقل IF الأصلي.
+الحصول على أو تعيين قيمة تشير إلى ما إذا كان سيتم دمج حقول الدمج ومناطق الدمج بغض النظر عن حالة حقل IF الأصلي.
 
 ```csharp
 public bool UnconditionalMergeFieldsAndRegions { get; set; }
@@ -16,27 +16,27 @@ public bool UnconditionalMergeFieldsAndRegions { get; set; }
 
 ### ملاحظات
 
-القيمة الافتراضية هي **خاطئة** .
+القيمة الافتراضية هي`خطأ شنيع` .
 
 ### أمثلة
 
-يُظهر كيفية دمج الحقول أو المناطق بغض النظر عن شرط حقل IF الأصلي.
+يوضح كيفية دمج الحقول أو المناطق بغض النظر عن حالة حقل IF الأصلي.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// أدخل MERGEFIELD متداخلًا داخل حقل IF.
-// نظرًا لأن بيان الحقل IF خاطئ ، فلن يعرض نتيجة MERGEFIELD.
+// أدخل حقل MERGEFIELD متداخلاً داخل حقل IF.
+// نظرًا لأن عبارة حقل IF خاطئة، فلن يتم عرض نتيجة MERGEFIELD.
 // لن يتلقى MERGEFIELD أيضًا أي بيانات أثناء دمج البريد.
 FieldIf fieldIf = (FieldIf)builder.InsertField(" IF 1 = 2 ");
 builder.MoveTo(fieldIf.Separator);
 builder.InsertField(" MERGEFIELD  FullName ");
 
-// إذا قمنا بتعيين علامة "UnconditionalMergeFieldsAndRegions" على "true" ،
-// سيقوم دمج البريد لدينا بإدراج البيانات في الحقول غير المعروضة مثل MERGEFIELD الخاص بنا بالإضافة إلى جميع الحقول الأخرى.
-// إذا قمنا بتعيين علامة "UnconditionalMergeFieldsAndRegions" على "false" ،
-// لن يقوم دمج البريد بإدراج البيانات في MERGEFIELDs المخفية بواسطة حقول IF ببيانات خاطئة.
+// إذا قمنا بتعيين علامة "UnconditionalMergeFieldsAndRegions" على "صحيح"،
+// سيقوم دمج البريد الخاص بنا بإدراج البيانات في الحقول غير المعروضة مثل MERGEFIELD الخاص بنا بالإضافة إلى جميع الحقول الأخرى.
+// إذا قمنا بتعيين علامة "UnconditionalMergeFieldsAndRegions" على "خطأ"،
+// لن يقوم دمج البريد الخاص بنا بإدراج البيانات في MERGEFIELDs المخفية بواسطة حقول IF ذات البيانات الخاطئة.
 doc.MailMerge.UnconditionalMergeFieldsAndRegions = countAllMergeFields;
 
 DataTable dataTable = new DataTable();

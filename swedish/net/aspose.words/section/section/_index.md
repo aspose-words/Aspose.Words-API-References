@@ -20,9 +20,9 @@ public Section(DocumentBase doc)
 
 ### Anmärkningar
 
-När avsnittet skapas tillhör det det angivna dokumentet, men är inte ännu en del av dokumentet och **ParentNode** är inget.
+När avsnittet skapas tillhör det det angivna dokumentet, men är inte ännu en del av dokumentet och[`ParentNode`](../../node/parentnode/) är`null`.
 
-För att inkludera avsnitt i ett dokument, använd metoderna Document.InsertAfter, Document.InsertBefore eller Sections.Add och Section.Insert.
+Att inkludera[`Section`](../) till ett dokumentanvändningNode) och Node) metoder för[`Document`](../../document/) OR [`Add`](../../nodecollection/add/) och[`Insert`](../../nodecollection/insert/) metoder för[`Sections`](../../document/sections/) fast egendom.
 
 ### Exempel
 

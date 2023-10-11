@@ -3,7 +3,7 @@ title: ImageSaveOptions.Resolution
 second_title: Aspose.Words för .NET API Referens
 description: ImageSaveOptions fast egendom. Ställer in både horisontell och vertikal upplösning för de genererade bilderna i punkter per tum.
 type: docs
-weight: 120
+weight: 130
 url: /sv/net/aspose.words.saving/imagesaveoptions/resolution/
 ---
 ## ImageSaveOptions.Resolution property

@@ -1,14 +1,14 @@
 ---
 title: TextWatermarkOptions.FontFamily
 second_title: Aspose.Words لمراجع .NET API
-description: TextWatermarkOptions ملكية. الحصول على اسم عائلة الخط أو تعيينه. القيمة الافتراضية هي Calibri .
+description: TextWatermarkOptions ملكية. الحصول على اسم عائلة الخط أو تعيينه. القيمة الافتراضية هي كاليبر.
 type: docs
 weight: 30
 url: /ar/net/aspose.words/textwatermarkoptions/fontfamily/
 ---
 ## TextWatermarkOptions.FontFamily property
 
-الحصول على اسم عائلة الخط أو تعيينه. القيمة الافتراضية هي "Calibri" .
+الحصول على اسم عائلة الخط أو تعيينه. القيمة الافتراضية هي "كاليبر".
 
 ```csharp
 public string FontFamily { get; set; }
@@ -21,10 +21,10 @@ public string FontFamily { get; set; }
 ```csharp
 Document doc = new Document();
 
-// أضف علامة مائية بنص عادي.
+// أضف علامة مائية نصية عادية.
 doc.Watermark.SetText("Aspose Watermark");
 
-// إذا كنا نرغب في تحرير تنسيق النص باستخدامه كعلامة مائية ،
+// إذا أردنا تعديل تنسيق النص باستخدامه كعلامة مائية،
 // يمكننا القيام بذلك عن طريق تمرير كائن TextWatermarkOptions عند إنشاء العلامة المائية.
 TextWatermarkOptions textWatermarkOptions = new TextWatermarkOptions();
 textWatermarkOptions.FontFamily = "Arial";

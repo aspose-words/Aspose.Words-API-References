@@ -1,14 +1,14 @@
 ---
 title: Row.Row
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Row constructeur. Initialise une nouvelle instance du Ligne classe.
+description: Row constructeur. Initialise une nouvelle instance duRow classe.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.tables/row/row/
 ---
 ## Row constructor
 
-Initialise une nouvelle instance du **Ligne** classe.
+Initialise une nouvelle instance du[`Row`](../) classe.
 
 ```csharp
 public Row(DocumentBase doc)
@@ -20,24 +20,24 @@ public Row(DocumentBase doc)
 
 ### Remarques
 
-Lorsque **Ligne** est créé, il appartient au document spécifié, mais ne fait pas encore partie du document et **ParentNode** est nul.
+Quand[`Row`](../) est créé, il appartient au document spécifié, mais ne fait pas encore partie du document et[`ParentNode`](../../../aspose.words/node/parentnode/) est`nul`.
 
-À ajouter **Ligne**au document, utilisez InsertAfter ou InsertBefore sur la table où vous voulez insérer la ligne.
+À ajouter[`Row`](../) à l'utilisation du documentNode) ouNode) sur la table où vous souhaitez insérer la ligne.
 
 ### Exemples
 
-Montre comment créer un tableau imbriqué sans utiliser de générateur de document.
+Montre comment créer un tableau imbriqué sans utiliser de générateur de documents.
 
 ```csharp
 public void CreateNestedTable()
 {
     Document doc = new Document();
 
-    // Crée le tableau externe avec trois lignes et quatre colonnes, puis l'ajoute au document.
+    // Créez le tableau externe avec trois lignes et quatre colonnes, puis ajoutez-le au document.
     Table outerTable = CreateTable(doc, 3, 4, "Outer Table");
     doc.FirstSection.Body.AppendChild(outerTable);
 
-    // Crée un autre tableau avec deux lignes et deux colonnes, puis insère-le dans la première cellule du premier tableau.
+    // Créez un autre tableau avec deux lignes et deux colonnes puis insérez-le dans la première cellule du premier tableau.
     Table innerTable = CreateTable(doc, 2, 2, "Inner Table");
     outerTable.FirstRow.FirstCell.AppendChild(innerTable);
 
@@ -67,9 +67,9 @@ private static Table CreateTable(Document doc, int rowCount, int cellCount, stri
     }
 
     // Vous pouvez utiliser les propriétés "Titre" et "Description" pour ajouter respectivement un titre et une description à votre tableau.
-    // La table doit avoir au moins une ligne avant que nous puissions utiliser ces propriétés.
+    // Le tableau doit avoir au moins une ligne avant de pouvoir utiliser ces propriétés.
     // Ces propriétés sont significatives pour les documents .docx conformes à la norme ISO/IEC 29500 (voir la classe OoxmlCompliance).
-    // Si nous enregistrons le document dans des formats pré-ISO/IEC 29500, Microsoft Word ignore ces propriétés.
+    // Si nous enregistrons le document aux formats pré-ISO/IEC 29500, Microsoft Word ignore ces propriétés.
     table.Title = "Aspose table title";
     table.Description = "Aspose table description";
 

@@ -1,14 +1,16 @@
 ---
 title: Class MemoryFontSource
 second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Fonts.MemoryFontSource sınıf. Bellekte depolanan tek TrueType yazı tipi dosyasını temsil eder.
+description: Aspose.Words.Fonts.MemoryFontSource sınıf. Bellekte saklanan tek TrueType yazı tipi dosyasını temsil eder.
 type: docs
-weight: 2840
+weight: 3020
 url: /tr/net/aspose.words.fonts/memoryfontsource/
 ---
 ## MemoryFontSource class
 
-Bellekte depolanan tek TrueType yazı tipi dosyasını temsil eder.
+Bellekte saklanan tek TrueType yazı tipi dosyasını temsil eder.
+
+Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Fontlarla Çalışmak](https://docs.aspose.com/words/net/working-with-fonts/) dokümantasyon makalesi.
 
 ```csharp
 public class MemoryFontSource : FontSourceBase
@@ -26,11 +28,11 @@ public class MemoryFontSource : FontSourceBase
 
 | İsim | Tanım |
 | --- | --- |
-| [CacheKey](../../aspose.words.fonts/memoryfontsource/cachekey/) { get; } | Önbellekteki bu kaynağın anahtarı. |
+| [CacheKey](../../aspose.words.fonts/memoryfontsource/cachekey/) { get; } | Bu kaynağın önbellekteki anahtarı. |
 | [FontData](../../aspose.words.fonts/memoryfontsource/fontdata/) { get; } | İkili yazı tipi verileri. |
 | [Priority](../../aspose.words.fonts/fontsourcebase/priority/) { get; } | Yazı tipi kaynağı önceliğini döndürür. |
 | override [Type](../../aspose.words.fonts/memoryfontsource/type/) { get; } | Yazı tipi kaynağının türünü döndürür. |
-| [WarningCallback](../../aspose.words.fonts/fontsourcebase/warningcallback/) { get; set; } | Biçimlendirme aslına uygunluk kaybına neden olabilecek bir sorun algılandığında yazı tipi kaynağının işlenmesi sırasında çağrılır. |
+| [WarningCallback](../../aspose.words.fonts/fontsourcebase/warningcallback/) { get; set; } | Yazı tipi kaynağının işlenmesi sırasında, biçimlendirmenin aslına uygunluk kaybına yol açabilecek bir sorun algılandığında çağrılır. |
 
 ## yöntemler
 
@@ -40,7 +42,7 @@ public class MemoryFontSource : FontSourceBase
 
 ### Örnekler
 
-Yazı tipi kaynağı olarak bir yazı tipi dosyasındaki verilerle bir bayt dizisinin nasıl kullanılacağını gösterir.
+Bir yazı tipi dosyasındaki verileri içeren bir bayt dizisinin yazı tipi kaynağı olarak nasıl kullanılacağını gösterir.
 
 ```csharp
 byte[] fontBytes = File.ReadAllBytes(MyDir + "Alte DIN 1451 Mittelschrift.ttf");

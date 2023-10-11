@@ -1,14 +1,14 @@
 ---
 title: FontSourceBase.Type
 second_title: Référence de l'API Aspose.Words pour .NET
-description: FontSourceBase propriété. Renvoie le type de la source de la police.
+description: FontSourceBase propriété. Renvoie le type de la source de police.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.fonts/fontsourcebase/type/
 ---
 ## FontSourceBase.Type property
 
-Renvoie le type de la source de la police.
+Renvoie le type de la source de police.
 
 ```csharp
 public abstract FontSourceType Type { get; }

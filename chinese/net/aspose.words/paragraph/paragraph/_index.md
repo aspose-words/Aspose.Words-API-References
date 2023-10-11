@@ -1,14 +1,14 @@
 ---
 title: Paragraph.Paragraph
 second_title: Aspose.Words for .NET API 参考
-description: Paragraph 构造函数. 初始化 段落类.
+description: Paragraph 构造函数. 初始化一个新实例Paragraph类.
 type: docs
 weight: 10
 url: /zh/net/aspose.words/paragraph/paragraph/
 ---
 ## Paragraph constructor
 
-初始化 **段落**类.
+初始化一个新实例[`Paragraph`](../)类.
 
 ```csharp
 public Paragraph(DocumentBase doc)
@@ -20,9 +20,9 @@ public Paragraph(DocumentBase doc)
 
 ### 评论
 
-什么时候 **段落**被创建，它属于指定的文档，但不是 还不是文档的一部分，并且 **父节点**一片空白。
+什么时候[`Paragraph`](../)创建后，它属于指定文档，但还不是 文档的一部分并且[`ParentNode`](../../node/parentnode/)是`无效的`。
 
-追加 **段落**在要插入段落的故事上使用 InsertAfter 或 InsertBefore 到文档中。
+追加[`Paragraph`](../)到文档使用Node)或者Node) 在您想要插入段落的故事上。
 
 ### 例子
 
@@ -31,27 +31,27 @@ public Paragraph(DocumentBase doc)
 ```csharp
 Document doc = new Document();
 
-// 一个空白文档包含一个部分、一个正文和一个段落。
-// 调用“RemoveAllChildren”方法来移除所有这些节点，
-// 最后得到一个没有子节点的文档节点。
+// 一份空白文档包含一个部分、一个正文和一个段落。
+// 调用“RemoveAllChildren”方法删除所有这些节点，
+// 最终得到一个没有子节点的文档节点。
 doc.RemoveAllChildren();
 
-// 这个文档现在没有我们可以添加内容的复合子节点。
-// 如果我们想编辑它，我们需要重新填充它的节点集合。
-// 首先，创建一个新部分，然后将其作为子节点附加到根文档节点。
+// 该文档现在没有可以添加内容的复合子节点。
+// 如果我们希望编辑它，我们将需要重新填充它的节点集合。
+// 首先，创建一个新节，然后将其作为子节点附加到根文档节点。
 Section section = new Section(doc);
 doc.AppendChild(section);
 
-// 为该部分设置一些页面设置属性。
+// 设置该部分的一些页面设置属性。
 section.PageSetup.SectionStart = SectionStart.NewPage;
 section.PageSetup.PaperSize = PaperSize.Letter;
 
-// 一个section需要一个body，它将包含并显示它的所有内容
-// 在节的页眉和页脚之间的页面上。
+// 一个部分需要一个主体，它将包含并显示其所有内容
+// 在该部分的页眉和页脚之间的页面上。
 Body body = new Body(doc);
 section.AppendChild(body);
 
-// 创建一个段落，设置一些格式属性，然后将其作为子项附加到正文中。
+// 创建一个段落，设置一些格式属性，然后将其作为子项附加到正文。
 Paragraph para = new Paragraph(doc);
 
 para.ParagraphFormat.StyleName = "Heading 1";
@@ -59,7 +59,7 @@ para.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
 body.AppendChild(para);
 
-// 最后，添加一些内容来做文档。创建运行，
+// 最后添加一些做文档的内容。创建一个运行，
 // 设置其外观和内容，然后将其作为子项附加到段落中。
 Run run = new Run(doc);
 run.Text = "Hello World!";

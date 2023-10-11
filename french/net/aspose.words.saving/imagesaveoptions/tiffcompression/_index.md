@@ -3,7 +3,7 @@ title: ImageSaveOptions.TiffCompression
 second_title: Référence de l'API Aspose.Words pour .NET
 description: ImageSaveOptions propriété. Obtient ou définit le type de compression à appliquer lors de lenregistrement des images générées au format TIFF.
 type: docs
-weight: 170
+weight: 180
 url: /fr/net/aspose.words.saving/imagesaveoptions/tiffcompression/
 ---
 ## ImageSaveOptions.TiffCompression property
@@ -22,7 +22,7 @@ La valeur par défaut estLzw.
 
 ### Exemples
 
-Montre comment sélectionner le schéma de compression à appliquer à un document que nous convertissons en une image TIFF.
+Montre comment sélectionner le schéma de compression à appliquer à un document que nous convertissons en image TIFF.
 
 ```csharp
 Document doc = new Document();
@@ -30,12 +30,12 @@ Document doc = new Document();
 
             builder.InsertImage(ImageDir + "Logo.jpg");
 
-            // Crée un objet "ImageSaveOptions" que nous pouvons passer à la méthode "Save" du document
-            // pour modifier la façon dont cette méthode rend le document en image.
+            // Crée un objet "ImageSaveOptions" que l'on peut passer à la méthode "Save" du document
+            // pour modifier la manière dont cette méthode restitue le document en image.
             ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Tiff);
 
-            // Définissez la propriété "TiffCompression" sur "TiffCompression.None" pour n'appliquer aucune compression lors de l'enregistrement,
-            // ce qui peut entraîner un fichier de sortie très volumineux.
+            // Fixe la propriété "TiffCompression" à "TiffCompression.None" pour n'appliquer aucune compression lors de l'enregistrement,
+            // ce qui peut donner lieu à un fichier de sortie très volumineux.
             // Définissez la propriété "TiffCompression" sur "TiffCompression.Rle" pour appliquer la compression RLE
             // Définissez la propriété "TiffCompression" sur "TiffCompression.Lzw" pour appliquer la compression LZW.
             // Définissez la propriété "TiffCompression" sur "TiffCompression.Ccitt3" pour appliquer la compression CCITT3.

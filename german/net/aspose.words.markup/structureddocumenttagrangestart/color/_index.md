@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTagRangeStart.Color
 second_title: Aspose.Words für .NET-API-Referenz
-description: StructuredDocumentTagRangeStart eigendom. Ruft die Farbe des strukturierten DokumentTags ab oder legt sie fest.
+description: StructuredDocumentTagRangeStart eigendom. Ruft die Farbe des strukturierten DokumentTags ab oder legt diese fest.
 type: docs
 weight: 30
 url: /de/net/aspose.words.markup/structureddocumenttagrangestart/color/
 ---
 ## StructuredDocumentTagRangeStart.Color property
 
-Ruft die Farbe des strukturierten Dokument-Tags ab oder legt sie fest.
+Ruft die Farbe des strukturierten Dokument-Tags ab oder legt diese fest.
 
 ```csharp
 public Color Color { get; set; }

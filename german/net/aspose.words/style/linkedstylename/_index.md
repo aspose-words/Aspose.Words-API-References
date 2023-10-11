@@ -1,14 +1,14 @@
 ---
 title: Style.LinkedStyleName
 second_title: Aspose.Words für .NET-API-Referenz
-description: Style eigendom. Ruft den Namen des Styles ab der mit diesem verknüpft ist. Gibt eine leere Zeichenfolge zurück wenn keine Stile verknüpft sind.
+description: Style eigendom. Ruft den Namen abStyle mit diesem verlinkt. Gibt eine leere Zeichenfolge zurück wenn keine Stile verknüpft sind.
 type: docs
-weight: 80
+weight: 90
 url: /de/net/aspose.words/style/linkedstylename/
 ---
 ## Style.LinkedStyleName property
 
-Ruft den Namen des Styles ab, der mit diesem verknüpft ist. Gibt eine leere Zeichenfolge zurück, wenn keine Stile verknüpft sind.
+Ruft den Namen ab[`Style`](../) mit diesem verlinkt. Gibt eine leere Zeichenfolge zurück, wenn keine Stile verknüpft sind.
 
 ```csharp
 public string LinkedStyleName { get; }
@@ -21,14 +21,14 @@ Zeigt, wie Stilaliase verwendet werden.
 ```csharp
 Document doc = new Document(MyDir + "Style with alias.docx");
 
-// Dieses Dokument enthält einen Stil namens "MyStyle,MyStyle Alias 1,MyStyle Alias 2".
-// Wenn der Name eines Stils mehrere Werte hat, die durch Kommas getrennt sind, ist jede Klausel ein separater Alias.
+// Dieses Dokument enthält einen Stil namens „MyStyle,MyStyle Alias 1,MyStyle Alias 2“.
+// Wenn der Name eines Stils mehrere durch Kommas getrennte Werte hat, ist jede Klausel ein separater Alias.
 Style style = doc.Styles["MyStyle"];
 Assert.AreEqual(new [] { "MyStyle Alias 1", "MyStyle Alias 2" }, style.Aliases);
 Assert.AreEqual("Title", style.BaseStyleName);
 Assert.AreEqual("MyStyle Char", style.LinkedStyleName);
 
-// Wir können auf einen Stil mit seinem Alias und seinem Namen verweisen.
+// Wir können einen Stil sowohl über seinen Alias als auch über seinen Namen referenzieren.
 Assert.AreEqual(doc.Styles["MyStyle Alias 1"], doc.Styles["MyStyle Alias 2"]);
 
 DocumentBuilder builder = new DocumentBuilder(doc);

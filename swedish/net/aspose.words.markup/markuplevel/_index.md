@@ -3,7 +3,7 @@ title: Enum MarkupLevel
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Markup.MarkupLevel uppräkning. Anger nivån i dokumentträdet där en vissStructuredDocumentTag kan inträffa.
 type: docs
-weight: 3740
+weight: 3980
 url: /sv/net/aspose.words.markup/markuplevel/
 ---
 ## MarkupLevel enumeration
@@ -52,6 +52,8 @@ NodeCollection tags = doc.GetChildNodes(NodeType.StructuredDocumentTag, true);
 foreach (Node node in tags)
 {
     StructuredDocumentTag sdt = (StructuredDocumentTag)node;
+
+    Console.WriteLine(sdt.WordOpenXMLMinimal);
 
     Assert.AreEqual(StyleIdentifier.Quote, sdt.Style.StyleIdentifier);
     Assert.AreEqual("Quote", sdt.StyleName);

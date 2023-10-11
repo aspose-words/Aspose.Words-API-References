@@ -1,14 +1,14 @@
 ---
 title: RevisionGroupCollection.Item
 second_title: Aspose.Words per .NET API Reference
-description: RevisionGroupCollection proprietà. Restituisce un gruppo di revisioni in corrispondenza dellindice specificato.
+description: RevisionGroupCollection proprietà. Restituisce un gruppo di revisione allindice specificato.
 type: docs
 weight: 20
 url: /it/net/aspose.words/revisiongroupcollection/item/
 ---
 ## RevisionGroupCollection indexer
 
-Restituisce un gruppo di revisioni in corrispondenza dell'indice specificato.
+Restituisce un gruppo di revisione all'indice specificato.
 
 ```csharp
 public RevisionGroup this[int index] { get; }

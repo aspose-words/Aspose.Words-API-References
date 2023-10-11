@@ -16,17 +16,17 @@ public override bool Accept(DocumentVisitor visitor)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| visitor | DocumentVisitor | Il visitatore che visiterà il nodo. |
+| visitor | DocumentVisitor | Il visitatore che visiterà il node. |
 
 ### Valore di ritorno
 
-Falso se il visitatore ha richiesto l'interruzione dell'enumerazione.
+`falso` se il visitatore ha richiesto l'interruzione dell'enumerazione.
 
 ### Osservazioni
 
 Chiamate[`VisitEditableRangeStart`](../../documentvisitor/visiteditablerangestart/).
 
-Per ulteriori informazioni, vedere il modello di progettazione del visitatore.
+Per maggiori informazioni vedere il modello di progettazione Visitor.
 
 ### Esempi
 
@@ -42,8 +42,8 @@ public void Visitor()
     builder.Writeln("Hello world! Since we have set the document's protection level to read-only," +
                     " we cannot edit this paragraph without the password.");
 
-    // Quando proteggiamo i documenti in scrittura, gli intervalli modificabili ci consentono di selezionare aree specifiche che gli utenti possono modificare.
-    // Esistono due modi che si escludono a vicenda per restringere l'elenco degli editor consentiti.
+    // Quando proteggiamo i documenti dalla scrittura, gli intervalli modificabili ci consentono di scegliere aree specifiche che gli utenti possono modificare.
+    // Esistono due modi reciprocamente esclusivi per restringere l'elenco degli editor consentiti.
     // 1 - Specifica un utente:
     EditableRange editableRange = builder.StartEditableRange().EditableRange;
     editableRange.SingleUser = "john.doe@myoffice.com";
@@ -52,7 +52,7 @@ public void Visitor()
 
     Assert.AreEqual(EditorType.Unspecified, editableRange.EditorGroup);
 
-    // 2 - Specifica un gruppo a cui sono associati gli utenti autorizzati:
+    // 2 - Specificare un gruppo a cui sono associati gli utenti autorizzati:
     editableRange = builder.StartEditableRange().EditableRange;
     editableRange.EditorGroup = EditorType.Administrators;
     builder.Writeln($"This paragraph is inside the first editable range, can only be edited by {editableRange.EditorGroup}.");
@@ -62,7 +62,7 @@ public void Visitor()
 
     builder.Writeln("This paragraph is outside the editable range, and cannot be edited by anybody.");
 
-    // Stampa dettagli e contenuti di ogni intervallo modificabile nel documento.
+    // Stampa i dettagli e il contenuto di ogni intervallo modificabile nel documento.
     EditableRangePrinter editableRangePrinter = new EditableRangePrinter();
 
     doc.Accept(editableRangePrinter);
@@ -92,7 +92,7 @@ public class EditableRangePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando viene rilevato un nodo EditableRangeStart nel documento.
+    /// Chiamato quando nel documento viene rilevato un nodo EditableRangeStart.
     /// </summary>
     public override VisitorAction VisitEditableRangeStart(EditableRangeStart editableRangeStart)
     {
@@ -110,7 +110,7 @@ public class EditableRangePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando viene rilevato un nodo EditableRangeEnd nel documento.
+    /// Chiamato quando nel documento viene rilevato un nodo EditableRangeEnd.
     /// </summary>
     public override VisitorAction VisitEditableRangeEnd(EditableRangeEnd editableRangeEnd)
     {
@@ -122,7 +122,7 @@ public class EditableRangePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando viene rilevato un nodo Run nel documento. Questo visitatore registra solo le corse che si trovano all'interno di intervalli modificabili.
+    /// Chiamato quando nel documento viene incontrato un nodo Esegui. Questo visitatore registra solo le esecuzioni che rientrano negli intervalli modificabili.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {

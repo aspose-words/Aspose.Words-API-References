@@ -16,7 +16,7 @@ public Color UnderlineColor { get; set; }
 
 ### Ejemplos
 
-Muestra cómo configurar el estilo y el color de un texto subrayado.
+Muestra cómo configurar el estilo y el color de un subrayado de texto.
 
 ```csharp
 Document doc = new Document();

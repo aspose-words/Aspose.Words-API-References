@@ -1,14 +1,14 @@
 ---
 title: Enum LayoutFlow
 second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Drawing.LayoutFlow enumeración. Determina el flujo del diseño de texto en un cuadro de texto.
+description: Aspose.Words.Drawing.LayoutFlow enumeración. Determina el flujo del diseño del texto en un cuadro de texto.
 type: docs
-weight: 970
+weight: 1100
 url: /es/net/aspose.words.drawing/layoutflow/
 ---
 ## LayoutFlow enumeration
 
-Determina el flujo del diseño de texto en un cuadro de texto.
+Determina el flujo del diseño del texto en un cuadro de texto.
 
 ```csharp
 public enum LayoutFlow

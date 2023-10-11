@@ -21,7 +21,7 @@ public CommentRangeStart(DocumentBase doc, int id)
 
 ### Anmärkningar
 
-När[`CommentRangeStart`](../) skapas, det tillhör det angivna dokumentet, men är inte ännu en del av dokumentet och[`ParentNode`](../../node/parentnode/) är inget.
+När[`CommentRangeStart`](../) skapas, det tillhör det angivna dokumentet, men är inte ännu en del av dokumentet och[`ParentNode`](../../node/parentnode/) är`null`.
 
 Att lägga till en[`CommentRangeStart`](../) till dokumentet använd InsertAfter eller InsertBefore på stycket där du vill infoga kommentaren.
 

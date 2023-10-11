@@ -16,7 +16,7 @@ public int ZoomPercent { get; set; }
 
 ### Remarques
 
-Si la valeur est 0, cette propriété utilise 100 à la place, sinon si la valeur est inférieure à 10 ou supérieure à 500, cette propriété lève.
+Si la valeur est 0, cette propriété utilise 100 à la place, sinon si la valeur est inférieure à 10 ou supérieure à 500 , cette propriété renvoie.
 
 Bien qu'Aspose.Words soit capable de lire et d'écrire cette option, son utilisation est spécifique à l'application. Par exemple MS Word 2013 ne respecte pas la valeur de cette option.
 

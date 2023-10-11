@@ -3,7 +3,7 @@ title: CompositeNode.LastChild
 second_title: Aspose.Words för .NET API Referens
 description: CompositeNode fast egendom. Hämtar nodens sista underordnade.
 type: docs
-weight: 60
+weight: 50
 url: /sv/net/aspose.words/compositenode/lastchild/
 ---
 ## CompositeNode.LastChild property
@@ -16,7 +16,7 @@ public Node LastChild { get; }
 
 ### Anmärkningar
 
-Om det inte finns någon sista underordnad nod returneras en noll.
+Om det inte finns någon sista underordnad nod, a`null` returneras.
 
 ### Exempel
 

@@ -3,7 +3,7 @@ title: DocumentBuilder.PushFont
 second_title: Aspose.Words لمراجع .NET API
 description: DocumentBuilder طريقة. يحفظ تنسيق الأحرف الحالي في المكدس.
 type: docs
-weight: 570
+weight: 610
 url: /ar/net/aspose.words/documentbuilder/pushfont/
 ---
 ## DocumentBuilder.PushFont method
@@ -22,17 +22,17 @@ public void PushFont()
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// إعداد تنسيق الخط ، ثم اكتب النص الذي يسبق الارتباط التشعبي.
+// قم بإعداد تنسيق الخط، ثم اكتب النص الذي يسبق الارتباط التشعبي.
 builder.Font.Name = "Arial";
 builder.Font.Size = 24;
 builder.Write("To visit Google, hold Ctrl and click ");
 
-// احتفظ بتكوين التنسيق الحالي الخاص بنا على المكدس.
+// الحفاظ على تكوين التنسيق الحالي لدينا على المكدس.
 builder.PushFont();
 
-// قم بتعديل التنسيق الحالي للمنشئ من خلال تطبيق نمط جديد.
+// قم بتغيير التنسيق الحالي للمنشئ من خلال تطبيق نمط جديد.
 builder.Font.StyleIdentifier = StyleIdentifier.Hyperlink;
-builder.InsertHyperlink("here", "http://www.google.com "، خطأ) ;
+builder.InsertHyperlink("here", "http://www.google.com"، خطأ);
 
 Assert.AreEqual(Color.Blue.ToArgb(), builder.Font.Color.ToArgb());
 Assert.AreEqual(Underline.Single, builder.Font.Underline);

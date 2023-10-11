@@ -1,14 +1,16 @@
 ---
 title: Class FieldCollection
 second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Fields.FieldCollection 班级. 集合Field表示指定范围内的字段的对象
+description: Aspose.Words.Fields.FieldCollection 班级. 的集合Field表示指定范围内的字段的对象
 type: docs
-weight: 1540
+weight: 1690
 url: /zh/net/aspose.words.fields/fieldcollection/
 ---
 ## FieldCollection class
 
-集合[`Field`](../field/)表示指定范围内的字段的对象。
+的集合[`Field`](../field/)表示指定范围内的字段的对象。
+
+要了解更多信息，请访问[使用字段](https://docs.aspose.com/words/net/working-with-fields/)文档文章。
 
 ```csharp
 public class FieldCollection : IEnumerable<Field>
@@ -18,7 +20,7 @@ public class FieldCollection : IEnumerable<Field>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Count](../../aspose.words.fields/fieldcollection/count/) { get; } | 返回集合中的字段数。 |
+| [Count](../../aspose.words.fields/fieldcollection/count/) { get; } | 返回集合中字段的数量。 |
 | [Item](../../aspose.words.fields/fieldcollection/item/) { get; } | 返回指定索引处的字段。 |
 
 ## 方法
@@ -32,15 +34,15 @@ public class FieldCollection : IEnumerable<Field>
 
 ### 评论
 
-此集合的一个实例迭代开始落在指定范围内的字段。
+此集合的实例会迭代开始落在指定范围内的字段。
 
 这`FieldCollection`集合不拥有它包含的字段，而只是字段的选择。
 
-这`FieldCollection`集合是“实时的”，即对创建它的节点 object 的子节点的更改会立即反映在由`FieldCollection` 属性和方法。
+这`FieldCollection`集合是“实时”的，即对创建它的节点 object 的子节点所做的更改会立即反映在返回的字段中`FieldCollection` 属性和方法。
 
 ### 例子
 
-显示如何从字段集合中删除字段。
+演示如何从字段集合中删除字段。
 
 ```csharp
 Document doc = new Document();
@@ -59,7 +61,7 @@ FieldCollection fields = doc.Range.Fields;
 Assert.AreEqual(6, fields.Count);
 
 // 下面是从字段集合中删除字段的四种方法。
-// 1 - 获取一个字段来移除自身：
+// 1 - 获取一个字段来删除自身：
 fields[0].Remove();
 Assert.AreEqual(5, fields.Count);
 
@@ -68,11 +70,11 @@ Field lastField = fields[3];
 fields.Remove(lastField);
 Assert.AreEqual(4, fields.Count);
 
-// 3 - 从集合中的索引处删除一个字段：
+// 3 - 从索引处的集合中删除字段：
 fields.RemoveAt(2);
 Assert.AreEqual(3, fields.Count);
 
-// 4 - 一次从集合中删除所有字段：
+// 4 - 立即从集合中删除所有字段：
 fields.Clear();
 Assert.AreEqual(0, fields.Count);
 ```
@@ -80,6 +82,7 @@ Assert.AreEqual(0, fields.Count);
 展示如何使用字段集合。
 
 ```csharp
+public void FieldCollection()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -118,6 +121,7 @@ Assert.AreEqual(0, fields.Count);
     }
 
     Console.WriteLine(fieldVisitor.GetText());
+}
 
 /// <summary>
 /// 打印字段信息的文档访问者实现。

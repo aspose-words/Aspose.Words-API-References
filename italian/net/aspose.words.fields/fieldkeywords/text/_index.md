@@ -22,7 +22,7 @@ Mostra per inserire un campo KEYWORDS.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Aggiunge alcune parole chiave, dette anche "tag" in Esplora file.
+// Aggiungi alcune parole chiave, chiamate anche "tag" in Esplora file.
 doc.BuiltInDocumentProperties.Keywords = "Keyword1, Keyword2";
 
 // Il campo KEYWORDS visualizza il valore di questa proprietà.
@@ -32,7 +32,7 @@ field.Update();
 Assert.AreEqual(" KEYWORDS ", field.GetFieldCode());
 Assert.AreEqual("Keyword1, Keyword2", field.Result);
 
-// Impostando un valore per la proprietà Text del campo,
+// Impostazione di un valore per la proprietà Text del campo,
 // e quindi l'aggiornamento del campo sovrascriverà anche la proprietà incorporata corrispondente con il nuovo valore.
 field.Text = "OverridingKeyword";
 field.Update();

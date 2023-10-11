@@ -1,14 +1,14 @@
 ---
 title: PageSetup.PageHeight
 second_title: Aspose.Words لمراجع .NET API
-description: PageSetup ملكية. إرجاع الصفحة أو تحديد ارتفاعها بالنقاط.
+description: PageSetup ملكية. إرجاع أو تعيين ارتفاع الصفحة بالنقاط.
 type: docs
-weight: 300
+weight: 310
 url: /ar/net/aspose.words/pagesetup/pageheight/
 ---
 ## PageSetup.PageHeight property
 
-إرجاع الصفحة أو تحديد ارتفاعها بالنقاط.
+إرجاع أو تعيين ارتفاع الصفحة بالنقاط.
 
 ```csharp
 public double PageHeight { get; set; }
@@ -29,7 +29,7 @@ Shape shape = builder.InsertImage(image);
 shape.WrapType = WrapType.None;
 shape.BehindText = true;
 
-// ضع الصورة في منتصف الصفحة.
+// ضع الصورة في وسط الصفحة.
 shape.RelativeHorizontalPosition = RelativeHorizontalPosition.Page;
 shape.RelativeVerticalPosition = RelativeVerticalPosition.Page;
 shape.Left = (builder.PageSetup.PageWidth - shape.Width) / 2;
@@ -54,7 +54,7 @@ using (SKBitmap image = SKBitmap.Decode(ImageDir + "Transparent background logo.
     shape.WrapType = WrapType.None;
     shape.BehindText = true;
 
-    // ضع الصورة في منتصف الصفحة.
+    // ضع الصورة في وسط الصفحة.
     shape.RelativeHorizontalPosition = RelativeHorizontalPosition.Page;
     shape.RelativeVerticalPosition = RelativeVerticalPosition.Page;
     shape.Left = (builder.PageSetup.PageWidth - shape.Width) / 2;

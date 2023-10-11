@@ -1,14 +1,16 @@
 ---
 title: Class FontNameSubstitutionRule
 second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Fonts.FontNameSubstitutionRule classe. Regola di sostituzione del carattere per lelaborazione del nome del carattere.
+description: Aspose.Words.Fonts.FontNameSubstitutionRule classe. Regola di sostituzione dei caratteri per lelaborazione del nome del carattere.
 type: docs
-weight: 2770
+weight: 2950
 url: /it/net/aspose.words.fonts/fontnamesubstitutionrule/
 ---
 ## FontNameSubstitutionRule class
 
-Regola di sostituzione del carattere per l'elaborazione del nome del carattere.
+Regola di sostituzione dei caratteri per l'elaborazione del nome del carattere.
+
+Per saperne di più, visita il[Lavorare con i caratteri](https://docs.aspose.com/words/net/working-with-fonts/) articolo di documentazione.
 
 ```csharp
 public class FontNameSubstitutionRule : FontSubstitutionRule
@@ -22,7 +24,7 @@ public class FontNameSubstitutionRule : FontSubstitutionRule
 
 ### Osservazioni
 
-In base a questa regola Aspose.Words tenta di elaborare il nome del font per ottenere la sostituzione. In particolare Aspose.Words tenta di rimuovere i suffissi con i separatori "-" e "," come fa con MS Word.
+Secondo questa regola Aspose.Words tenta di elaborare il nome del carattere per ottenere la sostituzione. In particolare Aspose.Words tenta di rimuovere i suffissi con i separatori '-', ',' e '(' come fa con MS Word.
 
 ### Guarda anche
 

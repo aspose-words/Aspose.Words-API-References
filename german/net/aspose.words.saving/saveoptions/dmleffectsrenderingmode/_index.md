@@ -1,14 +1,14 @@
 ---
 title: SaveOptions.DmlEffectsRenderingMode
 second_title: Aspose.Words für .NET-API-Referenz
-description: SaveOptions eigendom. Ruft einen Wert ab oder legt ihn fest der bestimmt wie DrawingMLEffekte gerendert werden.
+description: SaveOptions eigendom. Ruft einen Wert ab oder legt diesen fest der bestimmt wie DrawingMLEffekte gerendert werden.
 type: docs
 weight: 60
 url: /de/net/aspose.words.saving/saveoptions/dmleffectsrenderingmode/
 ---
 ## SaveOptions.DmlEffectsRenderingMode property
 
-Ruft einen Wert ab oder legt ihn fest, der bestimmt, wie DrawingML-Effekte gerendert werden.
+Ruft einen Wert ab oder legt diesen fest, der bestimmt, wie DrawingML-Effekte gerendert werden.
 
 ```csharp
 public virtual DmlEffectsRenderingMode DmlEffectsRenderingMode { get; set; }
@@ -27,15 +27,15 @@ Zeigt, wie die Renderqualität von DrawingML-Effekten in einem Dokument konfigur
 ```csharp
 Document doc = new Document(MyDir + "DrawingML shape effects.docx");
 
-// Erstellen Sie ein "PdfSaveOptions"-Objekt, das wir an die "Save"-Methode des Dokuments übergeben können
+// Erstellen Sie ein „PdfSaveOptions“-Objekt, das wir an die „Save“-Methode des Dokuments übergeben können
 // um zu ändern, wie diese Methode das Dokument in .PDF konvertiert.
 PdfSaveOptions options = new PdfSaveOptions();
 
-// Legen Sie die Eigenschaft "DmlEffectsRenderingMode" auf "DmlEffectsRenderingMode.None" fest, um alle DrawingML-Effekte zu verwerfen.
-// Setzen Sie die Eigenschaft "DmlEffectsRenderingMode" auf "DmlEffectsRenderingMode.Simplified"
+// Setzen Sie die Eigenschaft „DmlEffectsRenderingMode“ auf „DmlEffectsRenderingMode.None“, um alle DrawingML-Effekte zu verwerfen.
+// Setzen Sie die Eigenschaft „DmlEffectsRenderingMode“ auf „DmlEffectsRenderingMode.Simplified“
 // um eine vereinfachte Version von DrawingML-Effekten zu rendern.
-// Legen Sie die Eigenschaft "DmlEffectsRenderingMode" auf "DmlEffectsRenderingMode.Fine" fest
-// Rendern von DrawingML-Effekten mit größerer Genauigkeit und auch mit höheren Verarbeitungskosten.
+// Setzen Sie die Eigenschaft „DmlEffectsRenderingMode“ auf „DmlEffectsRenderingMode.Fine“.
+// DrawingML-Effekte mit größerer Genauigkeit und auch mit höherem Verarbeitungsaufwand rendern.
 options.DmlEffectsRenderingMode = effectsRenderingMode;
 
 Assert.AreEqual(DmlRenderingMode.DrawingML, options.DmlRenderingMode);

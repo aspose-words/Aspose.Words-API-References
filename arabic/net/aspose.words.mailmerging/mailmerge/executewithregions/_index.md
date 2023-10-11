@@ -1,14 +1,14 @@
 ---
 title: MailMerge.ExecuteWithRegions
 second_title: Aspose.Words لمراجع .NET API
-description: MailMerge طريقة. يقوم بإجراء دمج بريد من مصدر بيانات مخصص بمناطق دمج البريد.
+description: MailMerge طريقة. تنفيذ عملية دمج البريد من مصدر بيانات مخصص مع مناطق دمج البريد.
 type: docs
 weight: 200
 url: /ar/net/aspose.words.mailmerging/mailmerge/executewithregions/
 ---
 ## ExecuteWithRegions(IMailMergeDataSource) {#executewithregions}
 
-يقوم بإجراء دمج بريد من مصدر بيانات مخصص بمناطق دمج البريد.
+تنفيذ عملية دمج البريد من مصدر بيانات مخصص مع مناطق دمج البريد.
 
 ```csharp
 public void ExecuteWithRegions(IMailMergeDataSource dataSource)
@@ -16,17 +16,17 @@ public void ExecuteWithRegions(IMailMergeDataSource dataSource)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| dataSource | IMailMergeDataSource | كائن يقوم بتنفيذ واجهة مصدر بيانات دمج المراسلات المخصصة. |
+| dataSource | IMailMergeDataSource | كائن يقوم بتطبيق واجهة مصدر بيانات دمج المراسلات المخصصة. |
 
 ### ملاحظات
 
-استخدم هذه الطريقة لتعبئة حقول دمج المراسلات في المستند بقيم من أي مصدر بيانات مخصص مثل ملف XML أو مجموعات كائنات الأعمال. تحتاج إلى كتابة your class الخاص الذي يقوم بتنفيذ ملف[`IMailMergeDataSource`](../../imailmergedatasource/) واجهه المستخدم.
+استخدم هذه الطريقة لملء حقول دمج البريد في المستند بقيم من أي مصدر بيانات مخصص مثل ملف XML أو مجموعات كائنات الأعمال. أنت بحاجة إلى كتابة فصلك الخاص الذي ينفذ[`IMailMergeDataSource`](../../imailmergedatasource/) واجهه المستخدم.
 
-يمكنك استخدام هذه الطريقة فقط عندما[`IsBidiTextSupportedOnUpdate`](../../../aspose.words.fields/fieldoptions/isbiditextsupportedonupdate/)خطأ ، يعني أنك لا تحتاج إلى توافق مع لغة من اليمين إلى اليسار (مثل العربية أو العبرية).
+يمكنك استخدام هذه الطريقة فقط عندما[`IsBidiTextSupportedOnUpdate`](../../../aspose.words.fields/fieldoptions/isbiditextsupportedonupdate/) يكون`خطأ شنيع`، أي أنك لا تحتاج إلى التوافق مع اللغة من اليمين إلى اليسار (مثل العربية أو العبرية).
 
 ### أمثلة
 
-يوضح كيفية استخدام مناطق دمج البريد لتنفيذ عملية دمج بريد متداخلة.
+يوضح كيفية استخدام مناطق دمج البريد لتنفيذ عملية دمج بريدية متداخلة.
 
 ```csharp
 public void CustomDataSource()
@@ -34,21 +34,21 @@ public void CustomDataSource()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // عادةً ، تحتوي MERGEFIELDs على اسم عمود مصدر بيانات دمج المراسلات.
-    // بدلاً من ذلك ، يمكننا استخدام البادئات "TableStart:" و "TableEnd:" لبدء / إنهاء منطقة دمج المراسلات.
+    // عادةً، تحتوي حقول MERGEFIELD على اسم عمود مصدر بيانات دمج المراسلات.
+    // بدلاً من ذلك، يمكننا استخدام البادئات "TableStart:" و"TableEnd:" لبدء/إنهاء منطقة دمج البريد.
     // ستنتمي كل منطقة إلى جدول باسم يطابق السلسلة مباشرة بعد نقطتي البادئة.
     builder.InsertField(" MERGEFIELD TableStart:Customers");
 
-    // هذه MERGEFIELDs موجودة داخل منطقة دمج المراسلات لجدول "العملاء".
-    // عند تنفيذ دمج البريد ، سيتلقى هذا الحقل البيانات من الصفوف في مصدر البيانات المسمى "العملاء".
+    // توجد حقول الدمج هذه داخل منطقة دمج المراسلات في جدول "العملاء".
+    // عند تنفيذ عملية دمج البريد، سيتلقى هذا الحقل بيانات من صفوف في مصدر بيانات يسمى "العملاء".
     builder.Write("Full name:\t");
     builder.InsertField(" MERGEFIELD FullName ");
     builder.Write("\nAddress:\t");
     builder.InsertField(" MERGEFIELD Address ");
     builder.Write("\nOrders:\n");
 
-    // إنشاء منطقة دمج بريد ثانية داخل المنطقة الخارجية لمصدر بيانات يسمى "الطلبات".
-    // تحتوي إدخالات بيانات "الطلبات" على علاقة رأس برأس مع مصدر بيانات "العملاء".
+    // قم بإنشاء منطقة دمج مراسلات ثانية داخل المنطقة الخارجية لمصدر بيانات يسمى "الطلبات".
+    // إدخالات بيانات "الطلبات" لها علاقة متعدد بواحد مع مصدر البيانات "العملاء".
     builder.InsertField(" MERGEFIELD TableStart:Orders");
 
     builder.Write("\tItem name:\t");
@@ -60,7 +60,7 @@ public void CustomDataSource()
     builder.InsertField(" MERGEFIELD TableEnd:Orders");
     builder.InsertField(" MERGEFIELD TableEnd:Customers");
 
-    // إنشاء بيانات ذات صلة بأسماء تطابق تلك الخاصة بمناطق دمج البريد الخاصة بنا.
+    // أنشئ بيانات ذات صلة بأسماء تتطابق مع أسماء مناطق دمج البريد لدينا.
     CustomerList customers = new CustomerList();
     customers.Add(new Customer("Thomas Hardy", "120 Hanover Sq., London"));
     customers.Add(new Customer("Paolo Accorti", "Via Monte Bianco 34, Torino"));
@@ -69,7 +69,7 @@ public void CustomDataSource()
     customers[0].Orders.Add(new Order("Rugby World Cup Ball", 1));
     customers[1].Orders.Add(new Order("Rugby World Cup Guide", 1));
 
-    // لدمج المراسلات من مصدر بياناتك ، يجب أن نلفها في كائن يقوم بتنفيذ واجهة IMailMergeDataSource.
+    // لدمج البريد من مصدر البيانات الخاص بك، يجب علينا تغليفه في كائن يقوم بتنفيذ واجهة IMailMergeDataSource.
     CustomerMailMergeDataSource customersDataSource = new CustomerMailMergeDataSource(customers);
 
     doc.MailMerge.ExecuteWithRegions(customersDataSource);
@@ -78,7 +78,7 @@ public void CustomDataSource()
 }
 
 /// <summary>
-/// مثال على فئة "كيان البيانات" في تطبيقك.
+/// مثال لفئة "كيان البيانات" في التطبيق الخاص بك.
 /// </summary>
 public class Customer
 {
@@ -95,7 +95,7 @@ public class Customer
 }
 
 /// <summary>
-/// مثال على مجموعة مكتوبة تحتوي على كائنات "البيانات" الخاصة بك.
+/// مثال لمجموعة مكتوبة تحتوي على كائنات "البيانات" الخاصة بك.
 /// </summary>
 public class CustomerList : ArrayList
 {
@@ -107,7 +107,7 @@ public class CustomerList : ArrayList
 }
 
 /// <summary>
-/// مثال على فئة "كيان البيانات" التابعة في تطبيقك.
+/// مثال لفئة "كيان بيانات" فرعية في التطبيق الخاص بك.
 /// </summary>
 public class Order
 {
@@ -122,8 +122,8 @@ public class Order
 }
 
 /// <summary>
-/// مصدر بيانات مخصص لدمج البريد تقوم بتنفيذه للسماح لـ Aspose.Words 
-/// لدمج البيانات من كائنات العميل في مستندات Microsoft Word.
+ /// مصدر بيانات مخصص لدمج البريد تقوم بتنفيذه للسماح بـ Aspose.Words
+/// لدمج بيانات البريد من كائنات العميل الخاصة بك في مستندات Microsoft Word.
 /// </summary>
 public class CustomerMailMergeDataSource : IMailMergeDataSource
 {
@@ -131,12 +131,12 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
     {
         mCustomers = customers;
 
-        // عندما نقوم بتهيئة مصدر البيانات ، يجب أن يكون موضعه قبل السجل الأول.
+        // عندما نقوم بتهيئة مصدر البيانات، يجب أن يكون موضعه قبل السجل الأول.
         mRecordIndex = -1;
     }
 
     /// <summary>
-    /// اسم مصدر البيانات. تستخدم بواسطة Aspose.Words فقط عند تنفيذ دمج البريد مع المناطق القابلة للتكرار.
+    /// اسم مصدر البيانات. يُستخدم بواسطة Aspose.Words فقط عند تنفيذ دمج البريد مع المناطق القابلة للتكرار.
     /// </summary>
     public string TableName
     {
@@ -144,7 +144,7 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
     }
 
     /// <summary>
-    /// Aspose.Words تستدعي هذه الطريقة للحصول على قيمة لكل حقل بيانات.
+    /// يستدعي Aspose.Words هذه الطريقة للحصول على قيمة لكل حقل بيانات.
     /// </summary>
     public bool GetValue(string fieldName, out object fieldValue)
     {
@@ -160,7 +160,7 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
                 fieldValue = mCustomers[mRecordIndex].Orders;
                 return true;
             default:
-                // إرجاع "خطأ" إلى محرك دمج المراسلات Aspose.Words للإشارة
+                // قم بإرجاع "خطأ" إلى محرك دمج البريد Aspose.Words للدلالة
                 // لم نتمكن من العثور على حقل بهذا الاسم.
                 fieldValue = null;
                 return false;
@@ -182,7 +182,7 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
     {
         switch (tableName)
         {
-            // احصل على مصدر البيانات التابع ، الذي يتطابق اسمه مع منطقة دمج المراسلات التي تستخدم أعمدتها.
+            // احصل على مصدر بيانات الطفل، الذي يتطابق اسمه مع منطقة دمج المراسلات التي تستخدم أعمدتها.
             case "Orders":
                 return new OrderMailMergeDataSource(mCustomers[mRecordIndex].Orders);
             default:
@@ -205,12 +205,12 @@ public class OrderMailMergeDataSource : IMailMergeDataSource
     {
         mOrders = orders;
 
-        // عندما نقوم بتهيئة مصدر البيانات ، يجب أن يكون موضعه قبل السجل الأول.
+        // عندما نقوم بتهيئة مصدر البيانات، يجب أن يكون موضعه قبل السجل الأول.
         mRecordIndex = -1;
     }
 
     /// <summary>
-    /// اسم مصدر البيانات. تستخدم بواسطة Aspose.Words فقط عند تنفيذ دمج البريد مع المناطق القابلة للتكرار.
+    /// اسم مصدر البيانات. يُستخدم بواسطة Aspose.Words فقط عند تنفيذ دمج البريد مع المناطق القابلة للتكرار.
     /// </summary>
     public string TableName
     {
@@ -218,7 +218,7 @@ public class OrderMailMergeDataSource : IMailMergeDataSource
     }
 
     /// <summary>
-    /// Aspose.Words تستدعي هذه الطريقة للحصول على قيمة لكل حقل بيانات.
+    /// يستدعي Aspose.Words هذه الطريقة للحصول على قيمة لكل حقل بيانات.
     /// </summary>
     public bool GetValue(string fieldName, out object fieldValue)
     {
@@ -231,7 +231,7 @@ public class OrderMailMergeDataSource : IMailMergeDataSource
                 fieldValue = mOrders[mRecordIndex].Quantity;
                 return true;
             default:
-                // إرجاع "خطأ" إلى محرك دمج المراسلات Aspose.Words للإشارة
+                // قم بإرجاع "خطأ" إلى محرك دمج البريد Aspose.Words للدلالة
                 // لم نتمكن من العثور على حقل بهذا الاسم.
                 fieldValue = null;
                 return false;
@@ -250,7 +250,7 @@ public class OrderMailMergeDataSource : IMailMergeDataSource
     }
 
     /// <summary>
-    /// Return null لأننا لا نملك أي عناصر فرعية لهذا النوع من الكائنات.
+    /// إرجاع قيمة فارغة لأنه ليس لدينا أي عناصر فرعية لهذا النوع من الكائنات.
     /// </summary>
     public IMailMergeDataSource GetChildDataSource(string tableName)
     {
@@ -278,7 +278,7 @@ public class OrderMailMergeDataSource : IMailMergeDataSource
 
 ## ExecuteWithRegions(IMailMergeDataSourceRoot) {#executewithregions_1}
 
-يقوم بإجراء دمج بريد من مصدر بيانات مخصص بمناطق دمج البريد.
+تنفيذ عملية دمج البريد من مصدر بيانات مخصص مع مناطق دمج البريد.
 
 ```csharp
 public void ExecuteWithRegions(IMailMergeDataSourceRoot dataSourceRoot)
@@ -286,26 +286,26 @@ public void ExecuteWithRegions(IMailMergeDataSourceRoot dataSourceRoot)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| dataSourceRoot | IMailMergeDataSourceRoot | كائن يقوم بتطبيق واجهة جذر مصدر بيانات دمج المراسلات المخصصة. |
+| dataSourceRoot | IMailMergeDataSourceRoot | كائن يقوم بتطبيق الواجهة الجذرية لمصدر بيانات دمج المراسلات المخصصة. |
 
 ### ملاحظات
 
-استخدم هذه الطريقة لتعبئة حقول دمج المراسلات في المستند بقيم من أي مصدر بيانات مخصص مثل ملف XML أو مجموعات كائنات الأعمال. تحتاج إلى كتابة class الخاصة بك التي تنفذ ملف[`IMailMergeDataSourceRoot`](../../imailmergedatasourceroot/) و[`IMailMergeDataSource`](../../imailmergedatasource/) واجهات.
+استخدم هذه الطريقة لملء حقول دمج البريد في المستند بقيم من أي مصدر بيانات مخصص مثل ملف XML أو مجموعات كائنات الأعمال. أنت بحاجة إلى كتابة class الخاص بك الذي يقوم بتنفيذ[`IMailMergeDataSourceRoot`](../../imailmergedatasourceroot/) و[`IMailMergeDataSource`](../../imailmergedatasource/) واجهات.
 
-يمكنك استخدام هذه الطريقة فقط عندما[`IsBidiTextSupportedOnUpdate`](../../../aspose.words.fields/fieldoptions/isbiditextsupportedonupdate/)خطأ ، يعني أنك لا تحتاج إلى توافق مع لغة من اليمين إلى اليسار (مثل العربية أو العبرية).
+يمكنك استخدام هذه الطريقة فقط عندما[`IsBidiTextSupportedOnUpdate`](../../../aspose.words.fields/fieldoptions/isbiditextsupportedonupdate/) يكون`خطأ شنيع`، أي أنك لا تحتاج إلى التوافق مع اللغة من اليمين إلى اليسار (مثل العربية أو العبرية).
 
 ### أمثلة
 
-ينفذ دمج البريد من مصدر بيانات مخصص مع بيانات رئيسية-تفصيلية.
+تنفيذ دمج البريد من مصدر بيانات مخصص مع بيانات رئيسية وتفصيلية.
 
 ```csharp
 public void CustomDataSourceRoot()
 {
-    // إنشاء مستند بمنطقتين لدمج المراسلات باسم "واشنطن" و "سياتل".
+    // قم بإنشاء مستند يحتوي على منطقتين لدمج البريد باسم "واشنطن" و"سياتل".
     string[] mailMergeRegions = { "Vancouver", "Seattle" };
     Document doc = CreateSourceDocumentWithMailMergeRegions(mailMergeRegions);
 
-    // إنشاء مصدري بيانات لدمج البريد.
+    // إنشاء مصدرين للبيانات لدمج المراسلات.
     EmployeeList employeesWashingtonBranch = new EmployeeList();
     employeesWashingtonBranch.Add(new Employee("John Doe", "Sales"));
     employeesWashingtonBranch.Add(new Employee("Jane Doe", "Management"));
@@ -314,23 +314,23 @@ public void CustomDataSourceRoot()
     employeesSeattleBranch.Add(new Employee("John Cardholder", "Management"));
     employeesSeattleBranch.Add(new Employee("Joe Bloggs", "Sales"));
 
-    // سجل مصادر البيانات لدينا بالاسم في جذر مصدر البيانات.
-    // إذا كنا على وشك استخدام جذر مصدر البيانات هذا في دمج البريد مع المناطق ،
+    // قم بتسجيل مصادر البيانات الخاصة بنا بالاسم في جذر مصدر البيانات.
+    // إذا كنا على وشك استخدام جذر مصدر البيانات هذا في دمج البريد مع المناطق،
     // يجب أن يتطابق الاسم المسجل لكل مصدر مع اسم منطقة دمج المراسلات الموجودة في مستند مصدر دمج المراسلات.
     DataSourceRoot sourceRoot = new DataSourceRoot();
     sourceRoot.RegisterSource(mailMergeRegions[0], new EmployeeListMailMergeSource(employeesWashingtonBranch));
     sourceRoot.RegisterSource(mailMergeRegions[1], new EmployeeListMailMergeSource(employeesSeattleBranch));
 
-    // نظرًا لوجود مناطق متتالية لدمج البريد ، فسنضطر عادةً إلى إجراء عمليتي دمج بريد.
-    // ومع ذلك ، يمكن لمصدر دمج بريد واحد مع جذر بيانات ملء مناطق متعددة
-    // إذا كان الجذر يحتوي على جداول بأسماء / أسماء أعمدة مقابلة.
+    // بما أن لدينا مناطق متتالية لدمج البريد، فعادةً ما يتعين علينا إجراء عمليتين لدمج البريد.
+    // ومع ذلك، يمكن لمصدر دمج مراسلات واحد ذو جذر بيانات ملء مناطق متعددة
+    // إذا كان الجذر يحتوي على جداول ذات أسماء/أسماء أعمدة مقابلة.
     doc.MailMerge.ExecuteWithRegions(sourceRoot);
 
     doc.Save(ArtifactsDir + "MailMergeCustom.CustomDataSourceRoot.docx");
 }
 
 /// <summary>
-/// قم بإنشاء مستند يحتوي على مناطق دمج مراسلات متتالية ، بأسماء محددة بواسطة صفيف الإدخال ،
+/// أنشئ مستندًا يحتوي على مناطق متتالية لدمج البريد، بأسماء محددة بواسطة مصفوفة الإدخال،
 /// لجدول بيانات الموظفين.
 /// </summary>
 private static Document CreateSourceDocumentWithMailMergeRegions(string[] regions)
@@ -352,7 +352,7 @@ private static Document CreateSourceDocumentWithMailMergeRegions(string[] region
 }
 
 /// <summary>
-/// مثال على فئة "كيان البيانات" في تطبيقك.
+/// مثال لفئة "كيان البيانات" في التطبيق الخاص بك.
 /// </summary>
 private class Employee
 {
@@ -367,7 +367,7 @@ private class Employee
 }
 
 /// <summary>
-/// مثال على مجموعة مكتوبة تحتوي على كائنات "البيانات" الخاصة بك.
+/// مثال لمجموعة مكتوبة تحتوي على كائنات "البيانات" الخاصة بك.
 /// </summary>
 private class EmployeeList : ArrayList
 {
@@ -379,9 +379,9 @@ private class EmployeeList : ArrayList
 }
 
 /// <summary>
-/// جذر مصدر البيانات الذي يمكن تمريره مباشرةً إلى دمج المراسلات والذي يمكنه تسجيل العديد من مصادر البيانات الفرعية واحتوائها.
-/// يجب أن تقوم جميع هذه المصادر بتنفيذ IMailMergeDataSource ، وأن يتم تسجيلها وتمييزها عن طريق الاسم
-/// الذي يتوافق مع منطقة دمج المراسلات التي ستقرأ البيانات المعنية.
+/// جذر مصدر البيانات الذي يمكن تمريره مباشرة إلى عملية دمج البريد التي يمكنها التسجيل وتحتوي على العديد من مصادر البيانات الفرعية.
+/// يجب أن تقوم جميع هذه المصادر بتنفيذ IMailMergeDataSource، وأن يتم تسجيلها وتمييزها باسم
+/// الذي يتوافق مع منطقة دمج البريد التي ستقرأ البيانات المعنية.
 /// </summary>
 private class DataSourceRoot : IMailMergeDataSourceRoot
 {
@@ -401,7 +401,7 @@ private class DataSourceRoot : IMailMergeDataSourceRoot
 }
 
 /// <summary>
-/// مصدر بيانات دمج المراسلات المخصص.
+/// مصدر بيانات دمج البريد المخصص.
 /// </summary>
 private class EmployeeListMailMergeSource : IMailMergeDataSource
 {
@@ -433,7 +433,7 @@ private class EmployeeListMailMergeSource : IMailMergeDataSource
     }
 
     /// <summary>
-    /// اسم مصدر البيانات. تستخدم بواسطة Aspose.Words فقط عند تنفيذ دمج البريد مع المناطق القابلة للتكرار.
+    /// اسم مصدر البيانات. يُستخدم بواسطة Aspose.Words فقط عند تنفيذ دمج البريد مع المناطق القابلة للتكرار.
     /// </summary>
     public string TableName
     {
@@ -441,7 +441,7 @@ private class EmployeeListMailMergeSource : IMailMergeDataSource
     }
 
     /// <summary>
-    /// Aspose.Words تستدعي هذه الطريقة للحصول على قيمة لكل حقل بيانات.
+    /// يستدعي Aspose.Words هذه الطريقة للحصول على قيمة لكل حقل بيانات.
     /// </summary>
     public bool GetValue(string fieldName, out object fieldValue)
     {
@@ -454,7 +454,7 @@ private class EmployeeListMailMergeSource : IMailMergeDataSource
                 fieldValue = mEmployees[mRecordIndex].Department;
                 return true;
             default:
-                // إرجاع "خطأ" إلى محرك دمج المراسلات Aspose.Words للإشارة
+                // قم بإرجاع "خطأ" إلى محرك دمج البريد Aspose.Words للدلالة
                 // لم نتمكن من العثور على حقل بهذا الاسم.
                 fieldValue = null;
                 return false;
@@ -462,7 +462,7 @@ private class EmployeeListMailMergeSource : IMailMergeDataSource
     }
 
     /// <summary>
-    /// مصادر البيانات الفرعية مخصصة لعمليات دمج البريد المتداخلة.
+    /// مصادر البيانات الفرعية مخصصة لدمج البريد المتداخل.
     /// </summary>
     public IMailMergeDataSource GetChildDataSource(string tableName)
     {
@@ -485,7 +485,7 @@ private class EmployeeListMailMergeSource : IMailMergeDataSource
 
 ## ExecuteWithRegions(DataSet) {#executewithregions_2}
 
-تنفيذ دمج البريد من DataSet في مستند مع مناطق دمج المراسلات.
+يقوم بدمج البريد من a **DataSet** في مستند يحتوي على مناطق دمج البريد.
 
 ```csharp
 public void ExecuteWithRegions(DataSet dataSet)
@@ -493,55 +493,54 @@ public void ExecuteWithRegions(DataSet dataSet)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| dataSet | DataSet | DataSet التي تحتوي على بيانات ليتم إدراجها في حقول دمج المراسلات. |
+| dataSet | DataSet | **DataSet** الذي يحتوي على البيانات المراد إدراجها في حقول دمج المراسلات. |
 
 ### ملاحظات
 
-استخدم هذه الطريقة لإجراء دمج البريد من جدول واحد أو أكثر في مناطق دمج mail قابلة للتكرار في المستند. ستنمو مناطق دمج المراسلات داخل المستند ديناميكيًا لتلائم السجلات الموجودة في الجداول المقابلة.
+استخدم هذه الطريقة لإجراء دمج البريد من جدول واحد أو أكثر في مناطق دمج mail القابلة للتكرار في الوثيقة. سوف تنمو مناطق دمج المراسلات داخل المستند بشكل ديناميكي لاستيعاب السجلات في الجداول المقابلة.
 
-يجب أن يكون لكل جدول في DataSet اسم.
+كل طاولة في **DataSet** يجب أن يكون له اسم.
 
-يجب أن يحتوي المستند على مناطق دمج مراسلات محددة بأسماء تشير إلىجدول في DataSet.
+يجب أن يحتوي المستند على مناطق دمج البريد محددة بأسماء تشير إلى الجداول في ملف **DataSet**.
 
-لتحديد منطقة دمج المراسلات في المستند ، تحتاج إلى إدراج حقلي دمج المراسلات لوضع علامة على بداية منطقة دمج المراسلات ونهايتها.
+لتحديد منطقة دمج البريد في المستند، يجب عليك إدراج حقلي دمج البريد لوضع علامة على بداية ونهاية منطقة دمج البريد.
 
-سيتم تكرار محتوى المستند بالكامل المتضمن داخل منطقة دمج المراسلات تلقائيًا لكل سجل في DataTable.
+سيتم تكرار كل محتوى المستند المضمن داخل منطقة دمج البريد تلقائيًا لكل سجل في **جدول البيانات**.
 
-لوضع علامة على بداية منطقة دمج المراسلات ، أدخل MERGEFIELD بالاسم TableStart: MyTable، حيث يتوافق MyTable مع أحد أسماء الجدول في DataSet.
+لوضع علامة على بداية منطقة دمج البريد، قم بإدراج MERGEFIELD بالاسم TableStart:MyTable, حيث يتوافق MyTable مع أحد أسماء الجداول في **DataSet**.
 
-لوضع علامة على نهاية منطقة دمج المراسلات ، أدخل MERGEFIELD آخر باسم TableEnd: MyTable.
+لوضع علامة على نهاية منطقة دمج المراسلات، قم بإدراج MERGEFIELD آخر باسم TableEnd:MyTable.
 
-لإدراج MERGEFIELD في Word ، استخدم الأمر Insert / Field وحدد MergeField ثم اكتب اسم الحقل.
+لإدراج MERGEFIELD في Word، استخدم أمر Insert/Field وحدد MergeField ثم اكتب اسم الحقل .
 
-يجب أن يكون حقلا TableStart و TableEnd داخل نفس القسم في المستند.
+ال **TableStart** و **نهاية الجدول** يجب أن تكون الحقول داخل نفس القسم في المستند الخاص بك.
 
-إذا تم استخدامه داخل جدول ، يجب أن يكون TableStart و TableEnd داخل نفس الصف في الجدول.
+إذا تم استخدامه داخل الطاولة، **TableStart** و **نهاية الجدول** يجب أن يكون داخل نفس الصف في الجدول.
 
-يجب أن يتم تشكيل مناطق دمج المراسلات في مستند بشكل جيد (يجب أن يكون هناك دائمًا زوج من حقول دمج Match TableStart و TableEnd بنفس اسم الجدول).
+يجب أن يتم تشكيل مناطق دمج البريد في المستند بشكل جيد (يجب دائمًا أن يكون هناك زوج من match  **TableStart** و **نهاية الجدول** دمج الحقول بنفس اسم الجدول).
 
 ### أمثلة
 
-يوضح كيفية تنفيذ دمج بريد متداخل مع منطقتي دمج وجدولين بيانات.
+يوضح كيفية تنفيذ عملية دمج بريدية متداخلة مع منطقتي دمج وجدولي بيانات.
 
 ```csharp
-[Test]
 public void ExecuteWithRegionsNested()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // عادةً ، تحتوي MERGEFIELDs على اسم عمود مصدر بيانات دمج المراسلات.
-    // بدلاً من ذلك ، يمكننا استخدام البادئات "TableStart:" و "TableEnd:" لبدء / إنهاء منطقة دمج المراسلات.
+    // عادةً، تحتوي حقول MERGEFIELD على اسم عمود مصدر بيانات دمج المراسلات.
+    // بدلاً من ذلك، يمكننا استخدام البادئات "TableStart:" و"TableEnd:" لبدء/إنهاء منطقة دمج البريد.
     // ستنتمي كل منطقة إلى جدول باسم يطابق السلسلة مباشرة بعد نقطتي البادئة.
     builder.InsertField(" MERGEFIELD TableStart:Customers");
 
-    // هذا MERGEFIELD داخل منطقة دمج المراسلات لجدول "العملاء".
-    // عند تنفيذ دمج البريد ، سيتلقى هذا الحقل البيانات من الصفوف في مصدر البيانات المسمى "العملاء".
+    // يوجد MERGEFIELD هذا داخل منطقة دمج المراسلات في جدول "العملاء".
+    // عند تنفيذ عملية دمج البريد، سيتلقى هذا الحقل بيانات من صفوف في مصدر بيانات يسمى "العملاء".
     builder.Write("Orders for ");
     builder.InsertField(" MERGEFIELD CustomerName");
     builder.Write(":");
 
-    // إنشاء رؤوس أعمدة لجدول يحتوي على قيم من منطقة داخلية ثانية.
+    // أنشئ رؤوس أعمدة للجدول الذي سيحتوي على قيم من منطقة داخلية ثانية.
     builder.StartTable();
     builder.InsertCell();
     builder.Write("Item");
@@ -549,24 +548,24 @@ public void ExecuteWithRegionsNested()
     builder.Write("Quantity");
     builder.EndRow();
 
-    // إنشاء منطقة دمج بريد ثانية داخل المنطقة الخارجية لجدول يسمى "الطلبات".
-    // يحتوي جدول "الطلبات" على علاقة رأس برأس مع جدول "العملاء" في عمود "معرف العميل".
+    // قم بإنشاء منطقة دمج مراسلات ثانية داخل المنطقة الخارجية لجدول يسمى "الطلبات".
+    // يحتوي جدول "الطلبات" على علاقة متعدد بواحد مع جدول "العملاء" في العمود "معرف العميل".
     builder.InsertCell();
     builder.InsertField(" MERGEFIELD TableStart:Orders");
     builder.InsertField(" MERGEFIELD ItemName");
     builder.InsertCell();
     builder.InsertField(" MERGEFIELD Quantity");
 
-    // قم بإنهاء المنطقة الداخلية ، ثم قم بإنهاء المنطقة الخارجية. يجب أن يتم فتح وإغلاق منطقة دمج المراسلات
+    // قم بإنهاء المنطقة الداخلية، ثم قم بإنهاء المنطقة الخارجية. يجب فتح وإغلاق منطقة دمج المراسلات
     // يحدث في نفس الصف من الجدول.
     builder.InsertField(" MERGEFIELD TableEnd:Orders");
     builder.EndTable();
 
     builder.InsertField(" MERGEFIELD TableEnd:Customers");
 
-    // إنشاء مجموعة بيانات تحتوي على الجدولين بالأسماء والعلاقات المطلوبة.
-    // سينفذ كل مستند دمج لكل صف من جدول "العملاء" الخاص بمنطقة الدمج الخارجية عملية دمج المراسلات الخاصة به في جدول "الطلبات".
-    // سيعرض كل مستند دمج كافة صفوف الجدول الأخير الذي تطابق قيم عمود "معرف العميل" الخاص به صف جدول "العملاء" الحالي.
+    // قم بإنشاء مجموعة بيانات تحتوي على الجدولين بالأسماء والعلاقات المطلوبة.
+    // سيقوم كل مستند دمج لكل صف من جدول "العملاء" بمنطقة الدمج الخارجية بإجراء دمج البريد الخاص به في جدول "الطلبات".
+    // سيعرض كل مستند دمج جميع صفوف الجدول الأخير الذي تتطابق قيم عمود "معرف العميل" الخاص به مع صف جدول "العملاء" الحالي.
     DataSet customersAndOrders = CreateDataSet();
     doc.MailMerge.ExecuteWithRegions(customersAndOrders);
 
@@ -574,7 +573,7 @@ public void ExecuteWithRegionsNested()
 }
 
 /// <summary>
-/// يُنشئ مجموعة بيانات تحتوي على جدولي بيانات باسم "العملاء" و "الطلبات" ، بعلاقة رأس بأطراف في عمود "معرف العميل".
+/// إنشاء مجموعة بيانات تحتوي على جدولي بيانات باسم "العملاء" و"الطلبات"، مع وجود علاقة رأس بأطراف في العمود "معرف العميل".
 /// </summary>
 private static DataSet CreateDataSet()
 {
@@ -611,7 +610,7 @@ private static DataSet CreateDataSet()
 
 ## ExecuteWithRegions(DataTable) {#executewithregions_3}
 
-تنفيذ دمج المراسلات من DataTable في المستند مع مناطق دمج المراسلات.
+يقوم بدمج البريد من a **جدول البيانات** في المستند الذي يحتوي على مناطق دمج البريد.
 
 ```csharp
 public void ExecuteWithRegions(DataTable dataTable)
@@ -619,19 +618,20 @@ public void ExecuteWithRegions(DataTable dataTable)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| dataTable | DataTable | مصدر البيانات لعملية دمج المراسلات. الجدول must له **اسم الطاولة** مجموعة الممتلكات. |
+| dataTable | DataTable | مصدر البيانات لعملية دمج المراسلات. يجب أن يكون للجدول خاصيتهTableName مجموعة الممتلكات. |
 
 ### ملاحظات
 
-يجب أن يحتوي المستند على منطقة دمج مراسلات محددة باسم يطابق  **DataTable.TableName**.
+يجب أن يحتوي المستند على منطقة دمج مراسلات محددة باسم يتطابق مع TableName.
 
-إذا كانت هناك مناطق دمج مراسلات أخرى محددة في المستند ، فإنها تُترك كما هي . وهذا يسمح بإجراء العديد من عمليات دمج المراسلات.
+إذا كانت هناك مناطق أخرى لدمج البريد تم تعريفها في المستند، فسيتم تركها كما هي. وهذا يسمح بإجراء العديد من عمليات دمج البريد.
 
 ### أمثلة
 
-يوضح كيفية تنسيق الخلايا أثناء دمج البريد.
+يوضح كيفية تنسيق الخلايا أثناء دمج المراسلات.
 
 ```csharp
+public void AlternatingRows()
 {
     Document doc = new Document(MyDir + "Mail merge destination - Northwind suppliers.docx");
 
@@ -641,21 +641,22 @@ public void ExecuteWithRegions(DataTable dataTable)
     doc.MailMerge.ExecuteWithRegions(dataTable);
 
     doc.Save(ArtifactsDir + "MailMergeEvent.AlternatingRows.docx");
+}
 
 /// <summary>
-/// تنسيقات صفوف الجدول عندما يحدث دمج المراسلات للتبديل بين لونين على الصفوف الفردية / الزوجية.
+/// تنسيق صفوف الجدول عند دمج البريد للتناوب بين لونين في الصفوف الفردية/الزوجية.
 /// </summary>
 private class HandleMergeFieldAlternatingRows : IFieldMergingCallback
 {
     /// <summary>
-    /// يتم الاستدعاء عندما يقوم دمج المراسلات بدمج البيانات في MERGEFIELD.
+    /// يتم الاتصال به عندما يقوم دمج البريد بدمج البيانات في MERGEFIELD.
     /// </summary>
     void IFieldMergingCallback.FieldMerging(FieldMergingArgs args)
     {
         if (mBuilder == null)
             mBuilder = new DocumentBuilder(args.Document);
 
-        // هذا صحيح أننا في العمود الأول ، مما يعني أننا انتقلنا إلى صف جديد.
+        // ينطبق هذا على أننا في العمود الأول، مما يعني أننا انتقلنا إلى صف جديد.
         if (args.FieldName == "CompanyName")
         {
             Color rowColor = IsOdd(mRowIdx) ? Color.FromArgb(213, 227, 235) : Color.FromArgb(242, 242, 242);
@@ -680,7 +681,7 @@ private class HandleMergeFieldAlternatingRows : IFieldMergingCallback
 }
 
 /// <summary>
-/// الوظيفة المطلوبة لإجراء Visual Basic autoporting الذي يُرجع تماثل الرقم الذي تم تمريره.
+/// الوظيفة المطلوبة للتنقل التلقائي لـ Visual Basic والتي تُرجع تكافؤ الرقم الذي تم تمريره.
 /// </summary>
 private static bool IsOdd(int value)
 {
@@ -688,7 +689,7 @@ private static bool IsOdd(int value)
 }
 
 /// <summary>
-/// ينشئ مصدر بيانات لدمج المراسلات.
+/// إنشاء مصدر بيانات لدمج المراسلات.
 /// </summary>
 private static DataTable GetSuppliersDataTable()
 {
@@ -707,31 +708,31 @@ private static DataTable GetSuppliersDataTable()
 }
 ```
 
-يوضح كيفية استخدام المناطق لتنفيذ عمليتي دمج بريد منفصلين في مستند واحد.
+يوضح كيفية استخدام المناطق لتنفيذ عمليتين منفصلتين لدمج البريد في مستند واحد.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// إذا أردنا إجراء عمليتي دمج متتاليتين للبريد في مستند واحد أثناء أخذ البيانات من جدولين
-// المرتبطة ببعضها البعض بأي شكل من الأشكال ، يمكننا فصل عمليات دمج البريد مع المناطق.
-// عادةً ، تحتوي MERGEFIELDs على اسم عمود مصدر بيانات دمج المراسلات.
-// بدلاً من ذلك ، يمكننا استخدام البادئات "TableStart:" و "TableEnd:" لبدء / إنهاء منطقة دمج المراسلات.
+// إذا أردنا إجراء عمليتين متتاليتين لدمج البريد في مستند واحد أثناء أخذ البيانات من جدولين
+// مرتبطة ببعضها البعض بأي شكل من الأشكال، يمكننا فصل عمليات دمج البريد مع المناطق.
+// عادةً، تحتوي حقول MERGEFIELD على اسم عمود مصدر بيانات دمج المراسلات.
+// بدلاً من ذلك، يمكننا استخدام البادئات "TableStart:" و"TableEnd:" لبدء/إنهاء منطقة دمج البريد.
 // ستنتمي كل منطقة إلى جدول باسم يطابق السلسلة مباشرة بعد نقطتي البادئة.
-// هذه المناطق منفصلة عن البيانات غير المرتبطة ، بينما يمكن أن تكون متداخلة للبيانات الهرمية.
+// هذه المناطق منفصلة للبيانات غير المرتبطة، بينما يمكن أن تكون متداخلة للبيانات الهرمية.
 builder.Writeln("\tCities: ");
 builder.InsertField(" MERGEFIELD TableStart:Cities");
 builder.InsertField(" MERGEFIELD Name");
 builder.InsertField(" MERGEFIELD TableEnd:Cities");
 builder.InsertParagraph();
 
-// يشير كلا المخططين MERGEFIELD إلى نفس اسم العمود ، ولكن ستأتي قيم كل منهما من جداول بيانات مختلفة.
+// يشير كلا حقلي MERGEFIELD إلى نفس اسم العمود، لكن القيم الخاصة بكل منهما ستأتي من جداول بيانات مختلفة.
 builder.Writeln("\tFruit: ");
 builder.InsertField(" MERGEFIELD TableStart:Fruit");
 builder.InsertField(" MERGEFIELD Name");
 builder.InsertField(" MERGEFIELD TableEnd:Fruit");
 
-// إنشاء جدولين غير مرتبطين بالبيانات.
+// أنشئ جدولي بيانات غير مرتبطين.
 DataTable tableCities = new DataTable("Cities");
 tableCities.Columns.Add("Name");
 tableCities.Rows.Add(new object[] { "Washington" });
@@ -745,12 +746,12 @@ tableFruit.Rows.Add(new object[] { "Apple" });
 tableFruit.Rows.Add(new object[] { "Watermelon" });
 tableFruit.Rows.Add(new object[] { "Banana" });
 
-// سنحتاج إلى تشغيل دمج بريد واحد لكل جدول. سيتم ملء دمج المراسلات الأول في MERGEFIELDs
-// في نطاق "المدن" مع ترك الحقول في نطاق "الفاكهة" شاغرة.
+// سنحتاج إلى تشغيل عملية دمج بريد واحدة لكل جدول. سيتم تعبئة دمج المراسلات الأول في MERGEFIELDs
+// في نطاق "المدن" مع ترك الحقول، يكون نطاق "الفاكهة" خاليًا.
 doc.MailMerge.ExecuteWithRegions(tableCities);
 
-// قم بإجراء عملية دمج ثانية لجدول "الفاكهة" ، أثناء استخدام عرض البيانات
-// لفرز الصفوف بترتيب تصاعدي على عمود "الاسم" قبل الدمج.
+// قم بإجراء عملية دمج ثانية لجدول "الفاكهة" أثناء استخدام طريقة عرض البيانات
+// لفرز الصفوف بترتيب تصاعدي في عمود "الاسم" قبل الدمج.
 DataView dv = new DataView(tableFruit);
 dv.Sort = "Name ASC";
 doc.MailMerge.ExecuteWithRegions(dv);
@@ -768,7 +769,7 @@ doc.Save(ArtifactsDir + "MailMerge.ExecuteWithRegionsConcurrent.docx");
 
 ## ExecuteWithRegions(DataView) {#executewithregions_4}
 
-تنفيذ دمج المراسلات من DataView في المستند مع مناطق دمج المراسلات.
+يقوم بدمج البريد من a **عرض البيانات** في المستند الذي يحتوي على مناطق دمج البريد.
 
 ```csharp
 public void ExecuteWithRegions(DataView dataView)
@@ -776,43 +777,43 @@ public void ExecuteWithRegions(DataView dataView)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| dataView | DataView | مصدر البيانات لعملية دمج المراسلات. مصدر table لملف **عرض البيانات** يجب أن يكون لها **اسم الطاولة** مجموعة الممتلكات. |
+| dataView | DataView | مصدر البيانات لعملية دمج المراسلات. المصدر table الخاص بـ **عرض البيانات** يجب أن يكون لها **اسم الطاولة** مجموعة الممتلكات. |
 
 ### ملاحظات
 
-هذه الطريقة مفيدة إذا قمت باسترداد البيانات إلى ملف **جدول البيانات** ولكن then تحتاج إلى تطبيق عامل تصفية أو فرز قبل دمج المراسلات.
+هذه الطريقة مفيدة إذا قمت باسترداد البيانات إلى ملف **جدول البيانات** ولكن ثم بحاجة إلى تطبيق عامل تصفية أو فرز قبل دمج البريد.
 
-يجب أن يحتوي المستند على منطقة دمج مراسلات محددة باسم يطابق  **DataView.Table.TableName**.
+يجب أن يحتوي المستند على منطقة دمج مراسلات محددة باسم يتطابق مع  **DataView.Table.TableName**.
 
-إذا كانت هناك مناطق دمج مراسلات أخرى محددة في المستند ، فإنها تُترك كما هي . وهذا يسمح بإجراء العديد من عمليات دمج المراسلات.
+إذا كانت هناك مناطق أخرى لدمج البريد تم تعريفها في المستند، فسيتم تركها كما هي. وهذا يسمح بإجراء العديد من عمليات دمج البريد.
 
 ### أمثلة
 
-يوضح كيفية استخدام المناطق لتنفيذ عمليتي دمج بريد منفصلين في مستند واحد.
+يوضح كيفية استخدام المناطق لتنفيذ عمليتين منفصلتين لدمج البريد في مستند واحد.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// إذا أردنا إجراء عمليتي دمج متتاليتين للبريد في مستند واحد أثناء أخذ البيانات من جدولين
-// المرتبطة ببعضها البعض بأي شكل من الأشكال ، يمكننا فصل عمليات دمج البريد مع المناطق.
-// عادةً ، تحتوي MERGEFIELDs على اسم عمود مصدر بيانات دمج المراسلات.
-// بدلاً من ذلك ، يمكننا استخدام البادئات "TableStart:" و "TableEnd:" لبدء / إنهاء منطقة دمج المراسلات.
+// إذا أردنا إجراء عمليتين متتاليتين لدمج البريد في مستند واحد أثناء أخذ البيانات من جدولين
+// مرتبطة ببعضها البعض بأي شكل من الأشكال، يمكننا فصل عمليات دمج البريد مع المناطق.
+// عادةً، تحتوي حقول MERGEFIELD على اسم عمود مصدر بيانات دمج المراسلات.
+// بدلاً من ذلك، يمكننا استخدام البادئات "TableStart:" و"TableEnd:" لبدء/إنهاء منطقة دمج البريد.
 // ستنتمي كل منطقة إلى جدول باسم يطابق السلسلة مباشرة بعد نقطتي البادئة.
-// هذه المناطق منفصلة عن البيانات غير المرتبطة ، بينما يمكن أن تكون متداخلة للبيانات الهرمية.
+// هذه المناطق منفصلة للبيانات غير المرتبطة، بينما يمكن أن تكون متداخلة للبيانات الهرمية.
 builder.Writeln("\tCities: ");
 builder.InsertField(" MERGEFIELD TableStart:Cities");
 builder.InsertField(" MERGEFIELD Name");
 builder.InsertField(" MERGEFIELD TableEnd:Cities");
 builder.InsertParagraph();
 
-// يشير كلا المخططين MERGEFIELD إلى نفس اسم العمود ، ولكن ستأتي قيم كل منهما من جداول بيانات مختلفة.
+// يشير كلا حقلي MERGEFIELD إلى نفس اسم العمود، لكن القيم الخاصة بكل منهما ستأتي من جداول بيانات مختلفة.
 builder.Writeln("\tFruit: ");
 builder.InsertField(" MERGEFIELD TableStart:Fruit");
 builder.InsertField(" MERGEFIELD Name");
 builder.InsertField(" MERGEFIELD TableEnd:Fruit");
 
-// إنشاء جدولين غير مرتبطين بالبيانات.
+// أنشئ جدولي بيانات غير مرتبطين.
 DataTable tableCities = new DataTable("Cities");
 tableCities.Columns.Add("Name");
 tableCities.Rows.Add(new object[] { "Washington" });
@@ -826,12 +827,12 @@ tableFruit.Rows.Add(new object[] { "Apple" });
 tableFruit.Rows.Add(new object[] { "Watermelon" });
 tableFruit.Rows.Add(new object[] { "Banana" });
 
-// سنحتاج إلى تشغيل دمج بريد واحد لكل جدول. سيتم ملء دمج المراسلات الأول في MERGEFIELDs
-// في نطاق "المدن" مع ترك الحقول في نطاق "الفاكهة" شاغرة.
+// سنحتاج إلى تشغيل عملية دمج بريد واحدة لكل جدول. سيتم تعبئة دمج المراسلات الأول في MERGEFIELDs
+// في نطاق "المدن" مع ترك الحقول، يكون نطاق "الفاكهة" خاليًا.
 doc.MailMerge.ExecuteWithRegions(tableCities);
 
-// قم بإجراء عملية دمج ثانية لجدول "الفاكهة" ، أثناء استخدام عرض البيانات
-// لفرز الصفوف بترتيب تصاعدي على عمود "الاسم" قبل الدمج.
+// قم بإجراء عملية دمج ثانية لجدول "الفاكهة" أثناء استخدام طريقة عرض البيانات
+// لفرز الصفوف بترتيب تصاعدي في عمود "الاسم" قبل الدمج.
 DataView dv = new DataView(tableFruit);
 dv.Sort = "Name ASC";
 doc.MailMerge.ExecuteWithRegions(dv);
@@ -849,7 +850,7 @@ doc.Save(ArtifactsDir + "MailMerge.ExecuteWithRegionsConcurrent.docx");
 
 ## ExecuteWithRegions(IDataReader, string) {#executewithregions_5}
 
-تنفيذ دمج المراسلات من IDataReader في المستند باستخدام مناطق دمج المراسلات.
+يقوم بدمج البريد من **معرف البيانات** في المستند الذي يحتوي على مناطق دمج البريد.
 
 ```csharp
 public void ExecuteWithRegions(IDataReader dataReader, string tableName)
@@ -857,16 +858,16 @@ public void ExecuteWithRegions(IDataReader dataReader, string tableName)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| dataReader | IDataReader | مصدر سجلات البيانات لدمج المراسلات مثل OleDbDataReader أو SqlDataReader. |
-| tableName | String | اسم منطقة دمج المراسلات في المستند المراد تعبئتها. |
+| dataReader | IDataReader | مصدر سجلات البيانات لدمج البريد مثل **OleDbDataReader** أو **SqlDataReader**. |
+| tableName | String | اسم منطقة دمج المراسلات في المستند المطلوب تعبئته. |
 
 ### ملاحظات
 
-يمكنك تمرير **SqlDataReader** أو **OleDbDataReader** الكائن في طريقة this كمعامل لأن كلاهما تم تنفيذهما **إداتاريدر** واجهه المستخدم.
+يمكنك تمرير **SqlDataReader** أو **OleDbDataReader**كائن في طريقة this كمعلمة لأن كلاهما تم تنفيذهما **معرف البيانات** واجهه المستخدم.
 
 ### أمثلة
 
-يوضح كيفية إدراج الصور المخزنة في حقل BLOB لقاعدة البيانات في تقرير.
+يوضح كيفية إدراج الصور المخزنة في حقل BLOB بقاعدة البيانات في تقرير.
 
 ```csharp
 public void ImageFromBlob()
@@ -875,14 +876,14 @@ public void ImageFromBlob()
 
     doc.MailMerge.FieldMergingCallback = new HandleMergeImageFieldFromBlob();
 
-    string connString = $"Provider=Microsoft.Jet.OLEDB.4.0;Data Source={DatabaseDir + "Northwind.mdb"};";
+    string connString = $"Provider=Microsoft.ACE.OLEDB.12.0;Data Source={DatabaseDir + "Northwind.accdb"};";
     string query = "SELECT FirstName, LastName, Title, Address, City, Region, Country, PhotoBLOB FROM Employees";
 
     using (OleDbConnection conn = new OleDbConnection(connString))
     {
         conn.Open();
 
-        // افتح قارئ البيانات ، الذي يجب أن يكون في وضع يقرأ جميع السجلات مرة واحدة.
+        // افتح قارئ البيانات، والذي يجب أن يكون في وضع يقرأ جميع السجلات مرة واحدة.
         OleDbCommand cmd = new OleDbCommand(query, conn);
         IDataReader dataReader = cmd.ExecuteReader();
 
@@ -890,6 +891,7 @@ public void ImageFromBlob()
     }
 
     doc.Save(ArtifactsDir + "MailMergeEvent.ImageFromBlob.docx");
+}
 
 private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
 {
@@ -899,7 +901,7 @@ private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
     }
 
     /// <summary>
-    /// يتم استدعاء هذا عندما يواجه دمج المراسلات MERGEFIELD في المستند بعلامة "صورة:" في اسمه.
+    /// يتم استدعاء هذا عندما يواجه دمج البريد MERGEFIELD في المستند الذي يحتوي على علامة "صورة:" في اسمه.
     /// </summary>
     void IFieldMergingCallback.ImageFieldMerging(ImageFieldMergingArgs e)
     {

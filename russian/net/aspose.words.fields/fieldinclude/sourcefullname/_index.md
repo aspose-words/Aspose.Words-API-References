@@ -1,14 +1,14 @@
 ---
 title: FieldInclude.SourceFullName
 second_title: Справочник по API Aspose.Words для .NET
-description: FieldInclude свойство. Получает или задает расположение документа.
+description: FieldInclude свойство. Получает или задает местоположение документа.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.fields/fieldinclude/sourcefullname/
 ---
 ## FieldInclude.SourceFullName property
 
-Получает или задает расположение документа.
+Получает или задает местоположение документа.
 
 ```csharp
 public string SourceFullName { get; set; }
@@ -16,7 +16,7 @@ public string SourceFullName { get; set; }
 
 ### Примеры
 
-Показывает, как создать поле INCLUDE и задать его свойства.
+Показывает, как создать поле INCLUDE и установить его свойства.
 
 ```csharp
 Document doc = new Document();

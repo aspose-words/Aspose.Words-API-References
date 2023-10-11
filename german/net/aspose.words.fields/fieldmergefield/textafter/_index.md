@@ -1,14 +1,14 @@
 ---
 title: FieldMergeField.TextAfter
 second_title: Aspose.Words für .NET-API-Referenz
-description: FieldMergeField eigendom. Ermittelt oder setzt den Text der nach dem Feld eingefügt werden soll wenn das Feld nicht leer ist.
+description: FieldMergeField eigendom. Ruft den Text ab der nach dem Feld eingefügt werden soll wenn das Feld nicht leer ist oder legt diesen fest.
 type: docs
 weight: 50
 url: /de/net/aspose.words.fields/fieldmergefield/textafter/
 ---
 ## FieldMergeField.TextAfter property
 
-Ermittelt oder setzt den Text, der nach dem Feld eingefügt werden soll, wenn das Feld nicht leer ist.
+Ruft den Text ab, der nach dem Feld eingefügt werden soll, wenn das Feld nicht leer ist, oder legt diesen fest.
 
 ```csharp
 public string TextAfter { get; set; }
@@ -16,13 +16,13 @@ public string TextAfter { get; set; }
 
 ### Beispiele
 
-Zeigt, wie MERGEFIELD-Felder verwendet werden, um einen Seriendruck durchzuführen.
+Zeigt, wie MERGEFIELD-Felder zum Durchführen eines Seriendrucks verwendet werden.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Erstellen Sie eine Datentabelle, die als Datenquelle für den Seriendruck verwendet werden soll.
+// Erstellen Sie eine Datentabelle, die als Serienbrief-Datenquelle verwendet werden soll.
 DataTable table = new DataTable("Employees");
 table.Columns.Add("Courtesy Title");
 table.Columns.Add("First Name");
@@ -30,7 +30,7 @@ table.Columns.Add("Last Name");
 table.Rows.Add("Mr.", "John", "Doe");
 table.Rows.Add("Mrs.", "Jane", "Cardholder");
 
-// Ein MERGEFIELD mit einer FieldName-Eigenschaft einfügen, die auf den Namen einer Spalte in der Datenquelle gesetzt ist.
+// Ein MERGEFIELD mit einer FieldName-Eigenschaft einfügen, die auf den Namen einer Spalte in der Datenquelle festgelegt ist.
 FieldMergeField fieldMergeField = (FieldMergeField)builder.InsertField(FieldType.FieldMergeField, true);
 fieldMergeField.FieldName = "Courtesy Title";
 fieldMergeField.IsMapped = true;

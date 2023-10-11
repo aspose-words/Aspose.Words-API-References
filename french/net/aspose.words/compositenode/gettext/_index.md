@@ -1,14 +1,14 @@
 ---
 title: CompositeNode.GetText
 second_title: Référence de l'API Aspose.Words pour .NET
-description: CompositeNode méthode. Obtient le texte de ce nœud et de tous ses enfants.
+description: CompositeNode méthode. Récupère le texte de ce nœud et de tous ses enfants.
 type: docs
-weight: 120
+weight: 130
 url: /fr/net/aspose.words/compositenode/gettext/
 ---
 ## CompositeNode.GetText method
 
-Obtient le texte de ce nœud et de tous ses enfants.
+Récupère le texte de ce nœud et de tous ses enfants.
 
 ```csharp
 public override string GetText()
@@ -16,7 +16,7 @@ public override string GetText()
 
 ### Remarques
 
-La chaîne renvoyée comprend tous les caractères de contrôle et spéciaux, comme décrit dans[`ControlChar`](../../controlchar/).
+La chaîne renvoyée inclut tous les caractères de contrôle et spéciaux comme décrit dans[`ControlChar`](../../controlchar/).
 
 ### Exemples
 
@@ -28,14 +28,14 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.InsertField("MERGEFIELD Field");
 
-// GetText va récupérer le texte visible ainsi que les codes de champs et les caractères spéciaux.
+// GetText récupérera le texte visible ainsi que les codes de champs et les caractères spéciaux.
 Assert.AreEqual("\u0013MERGEFIELD Field\u0014«Field»\u0015\u000c", doc.GetText());
 
-// ToString nous donnera l'apparence du document s'il est enregistré dans un format d'enregistrement passé.
+// ToString nous donnera l'apparence du document s'il est enregistré dans un format de sauvegarde transmis.
 Assert.AreEqual("«Field»\r\n", doc.ToString(SaveFormat.Text));
 ```
 
-Montre comment sortir tous les paragraphes d'un document qui sont des éléments de liste.
+Montre comment afficher tous les paragraphes d’un document qui sont des éléments de liste.
 
 ```csharp
 Document doc = new Document();

@@ -16,7 +16,7 @@ public Color UnderlineColor { get; set; }
 
 ### Örnekler
 
-Metnin altı çizili stilinin ve renginin nasıl yapılandırılacağını gösterir.
+Metnin alt çizgisinin stilinin ve renginin nasıl yapılandırılacağını gösterir.
 
 ```csharp
 Document doc = new Document();

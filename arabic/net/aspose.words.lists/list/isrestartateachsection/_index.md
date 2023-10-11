@@ -1,14 +1,14 @@
 ---
 title: List.IsRestartAtEachSection
 second_title: Aspose.Words لمراجع .NET API
-description: List ملكية. يحدد ما إذا كان يجب إعادة تشغيل القائمة في كل قسم. القيمة الافتراضية هي خاطئة .
+description: List ملكية. يحدد ما إذا كان يجب إعادة تشغيل القائمة في كل قسم. القيمة الافتراضية هيخطأ شنيع .
 type: docs
 weight: 50
 url: /ar/net/aspose.words.lists/list/isrestartateachsection/
 ---
 ## List.IsRestartAtEachSection property
 
-يحدد ما إذا كان يجب إعادة تشغيل القائمة في كل قسم. القيمة الافتراضية هي **خاطئة** .
+يحدد ما إذا كان يجب إعادة تشغيل القائمة في كل قسم. القيمة الافتراضية هي`خطأ شنيع` .
 
 ```csharp
 public bool IsRestartAtEachSection { get; set; }
@@ -16,13 +16,13 @@ public bool IsRestartAtEachSection { get; set; }
 
 ### ملاحظات
 
-هذا الخيار مدعوم فقط في تنسيقات مستندات RTF و DOC و DOCX.
+هذا الخيار مدعوم فقط بتنسيقات المستندات RTF وDOC وDOCX.
 
-سيتم كتابة هذا الخيار في DOCX فقط إذا[`OoxmlCompliance`](../../../aspose.words.saving/ooxmlcompliance/) ثم أعلىEcma376_2006.
+سيتم كتابة هذا الخيار إلى DOCX فقط إذا[`OoxmlCompliance`](../../../aspose.words.saving/ooxmlcompliance/) أعلى من ذلك الحينEcma376_2006.
 
 ### أمثلة
 
-يوضح كيفية تكوين قائمة لإعادة تشغيل الترقيم في كل قسم.
+يوضح كيفية تكوين قائمة لإعادة بدء الترقيم في كل قسم.
 
 ```csharp
 Document doc = new Document();
@@ -33,8 +33,8 @@ doc.Lists.Add(ListTemplate.NumberDefault);
 Aspose.Words.Lists.List list = doc.Lists[0];
 list.IsRestartAtEachSection = restartListAtEachSection;
 
-// لن تكون خاصية "IsRestartAtEachSection" قابلة للتطبيق إلا عندما
-// مستوى الامتثال OOXML للمستند هو معيار أحدث من "OoxmlComplianceCore.Ecma376".
+// الخاصية "IsRestartAtEachSection" ستكون قابلة للتطبيق فقط عندما
+// مستوى توافق OOXML للمستند هو معيار أحدث من "OoxmlComplianceCore.Ecma376".
 OoxmlSaveOptions options = new OoxmlSaveOptions
 {
     Compliance = OoxmlCompliance.Iso29500_2008_Transitional

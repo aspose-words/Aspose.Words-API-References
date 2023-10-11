@@ -3,7 +3,7 @@ title: Row.RowFormat
 second_title: Referencia de API de Aspose.Words para .NET
 description: Row propiedad. Proporciona acceso a las propiedades de formato de la fila.
 type: docs
-weight: 90
+weight: 110
 url: /es/net/aspose.words.tables/row/rowformat/
 ---
 ## Row.RowFormat property
@@ -22,7 +22,7 @@ Muestra cómo modificar el formato de una fila de la tabla.
 Document doc = new Document(MyDir + "Tables.docx");
 Table table = doc.FirstSection.Body.Tables[0];
 
-// Use la propiedad "RowFormat" de la primera fila para establecer el formato que modifica la apariencia de toda la fila.
+// Utilice la propiedad "RowFormat" de la primera fila para establecer el formato que modifica la apariencia de toda esa fila.
 Row firstRow = table.FirstRow;
 firstRow.RowFormat.Borders.LineStyle = LineStyle.None;
 firstRow.RowFormat.HeightRule = HeightRule.Auto;
@@ -55,7 +55,7 @@ RowFormat rowFormat = table.FirstRow.RowFormat;
 rowFormat.Height = 25;
 rowFormat.Borders[BorderType.Bottom].Color = Color.Red;
 
-// Use la propiedad "CellFormat" de la primera celda en la última fila para modificar el formato del contenido de esa celda.
+// Utilice la propiedad "CellFormat" de la primera celda de la última fila para modificar el formato del contenido de esa celda.
 CellFormat cellFormat = table.LastRow.FirstCell.CellFormat;
 cellFormat.Width = 100;
 cellFormat.Shading.BackgroundPatternColor = Color.Orange;

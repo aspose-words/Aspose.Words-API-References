@@ -1,14 +1,14 @@
 ---
 title: Enum ViewType
 second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Settings.ViewType enum. Possibili valori per la modalità di visualizzazione in Microsoft Word.
+description: Aspose.Words.Settings.ViewType enum. Valori possibili per la modalità di visualizzazione in Microsoft Word.
 type: docs
-weight: 5660
+weight: 5960
 url: /it/net/aspose.words.settings/viewtype/
 ---
 ## ViewType enumeration
 
-Possibili valori per la modalità di visualizzazione in Microsoft Word.
+Valori possibili per la modalità di visualizzazione in Microsoft Word.
 
 ```csharp
 public enum ViewType
@@ -18,12 +18,12 @@ public enum ViewType
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
-| None | `0` | Il documento deve essere visualizzato nella visualizzazione predefinita dell'applicazione. |
-| Reading | `0` | Il documento deve essere visualizzato nella visualizzazione predefinita dell'applicazione. |
-| PageLayout | `1` | Il documento verrà aperto in una vista che visualizzi il documento mentre verrà stampato. |
-| Outline | `3` | Il documento deve essere reso in una vista ottimizzata per delineare o creare documenti lunghi. |
-| Normal | `4` | Il documento deve essere reso in una vista ottimizzata per delineare o creare documenti lunghi. |
-| Web | `5` | Il documento deve essere reso in una vista che imita il modo in cui questo documento verrebbe visualizzato in una pagina web. |
+| None | `0` | Il documento verrà visualizzato nella visualizzazione predefinita dell'applicazione. |
+| Reading | `0` | Il documento verrà visualizzato nella visualizzazione predefinita dell'applicazione. |
+| PageLayout | `1` | Il documento deve essere aperto in una vista che mostri il documento così come verrà stampato. |
+| Outline | `3` | Il documento deve essere visualizzato in una vista ottimizzata per delineare o creare documenti lunghi. |
+| Normal | `4` | Il documento deve essere visualizzato in una vista ottimizzata per delineare o creare documenti lunghi. |
+| Web | `5` | Il documento deve essere visualizzato in una vista che imiti il modo in cui questo documento verrebbe visualizzato in una pagina web. |
 
 ### Esempi
 

@@ -1,14 +1,14 @@
 ---
 title: OleFormat.Save
 second_title: Référence de l'API Aspose.Words pour .NET
-description: OleFormat méthode. Enregistre les données de lobjet intégré dans le flux spécifié.
+description: OleFormat méthode. Enregistre les données de lobjet incorporé dans le flux spécifié.
 type: docs
 weight: 160
 url: /fr/net/aspose.words.drawing/oleformat/save/
 ---
 ## Save(Stream) {#save}
 
-Enregistre les données de l'objet intégré dans le flux spécifié.
+Enregistre les données de l'objet incorporé dans le flux spécifié.
 
 ```csharp
 public void Save(Stream stream)
@@ -16,17 +16,17 @@ public void Save(Stream stream)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| stream | Stream | Où enregistrer les données d'objet. |
+| stream | Stream | Où enregistrer les données de l'objet. |
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| InvalidOperationException | Lève si vous essayez d'enregistrer un objet lié. |
+| InvalidOperationException | Lance si vous essayez d'enregistrer un objet lié. |
 
 ### Remarques
 
-Il est de la responsabilité de l'appelant de disposer du flux.
+Il est de la responsabilité de l'appelant de supprimer le flux.
 
 ### Exemples
 
@@ -41,7 +41,7 @@ OleFormat oleFormat = shape.OleFormat;
 
 Assert.AreEqual("Excel.Sheet.12", oleFormat.ProgId);
 
-// Notre objet n'est ni mis à jour automatiquement ni verrouillé par les mises à jour.
+// Notre objet n'est ni mis à jour automatiquement ni verrouillé contre les mises à jour.
 Assert.False(oleFormat.AutoUpdate);
 Assert.AreEqual(false, oleFormat.IsLocked);
 
@@ -56,7 +56,7 @@ using (FileStream fs = new FileStream(ArtifactsDir + "OLE spreadsheet extracted 
     oleFormat.Save(fs);
 }
 
-// 2 - Enregistrez-le directement dans un nom de fichier :
+// 2 - Enregistrez-le directement sous un nom de fichier :
 oleFormat.Save(ArtifactsDir + "OLE spreadsheet saved directly" + oleFormat.SuggestedExtension);
 ```
 
@@ -70,7 +70,7 @@ oleFormat.Save(ArtifactsDir + "OLE spreadsheet saved directly" + oleFormat.Sugge
 
 ## Save(string) {#save_1}
 
-Enregistre les données de l'objet incorporé dans un fichier avec le nom spécifié.
+Enregistre les données de l'objet incorporé dans un fichier portant le nom spécifié.
 
 ```csharp
 public void Save(string fileName)
@@ -84,7 +84,7 @@ public void Save(string fileName)
 
 | exception | condition |
 | --- | --- |
-| InvalidOperationException | Lève si vous essayez d'enregistrer un objet lié. |
+| InvalidOperationException | Lance si vous essayez d'enregistrer un objet lié. |
 
 ### Exemples
 
@@ -99,7 +99,7 @@ OleFormat oleFormat = shape.OleFormat;
 
 Assert.AreEqual("Excel.Sheet.12", oleFormat.ProgId);
 
-// Notre objet n'est ni mis à jour automatiquement ni verrouillé par les mises à jour.
+// Notre objet n'est ni mis à jour automatiquement ni verrouillé contre les mises à jour.
 Assert.False(oleFormat.AutoUpdate);
 Assert.AreEqual(false, oleFormat.IsLocked);
 
@@ -114,7 +114,7 @@ using (FileStream fs = new FileStream(ArtifactsDir + "OLE spreadsheet extracted 
     oleFormat.Save(fs);
 }
 
-// 2 - Enregistrez-le directement dans un nom de fichier :
+// 2 - Enregistrez-le directement sous un nom de fichier :
 oleFormat.Save(ArtifactsDir + "OLE spreadsheet saved directly" + oleFormat.SuggestedExtension);
 ```
 

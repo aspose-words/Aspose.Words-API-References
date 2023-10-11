@@ -1,14 +1,14 @@
 ---
 title: ParagraphFormat.SnapToGrid
 second_title: Aspose.Words för .NET API Referens
-description: ParagraphFormat fast egendom. Anger om det aktuella stycket ska använda dokumentrutnätslinjerna per sidainställningar när innehållet i stycket läggs ut.
+description: ParagraphFormat fast egendom. Anger om det aktuella stycket ska använda dokumentrutnätslinjerna per sida settings när man lägger ut innehållet i stycket.
 type: docs
-weight: 280
+weight: 290
 url: /sv/net/aspose.words/paragraphformat/snaptogrid/
 ---
 ## ParagraphFormat.SnapToGrid property
 
-Anger om det aktuella stycket ska använda dokumentrutnätslinjerna per sida-inställningar när innehållet i stycket läggs ut.
+Anger om det aktuella stycket ska använda dokumentrutnätslinjerna per sida settings när man lägger ut innehållet i stycket.
 
 ```csharp
 public bool SnapToGrid { get; set; }

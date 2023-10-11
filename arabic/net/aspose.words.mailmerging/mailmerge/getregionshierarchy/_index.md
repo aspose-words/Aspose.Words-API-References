@@ -1,14 +1,14 @@
 ---
 title: MailMerge.GetRegionsHierarchy
 second_title: Aspose.Words لمراجع .NET API
-description: MailMerge طريقة. إرجاع تسلسل هرمي كامل للمناطق مع الحقول المتوفرة في المستند.
+description: MailMerge طريقة. يُرجع التسلسل الهرمي الكامل للمناطق مع الحقول المتوفرة في المستند.
 type: docs
 weight: 250
 url: /ar/net/aspose.words.mailmerging/mailmerge/getregionshierarchy/
 ---
 ## MailMerge.GetRegionsHierarchy method
 
-إرجاع تسلسل هرمي كامل للمناطق (مع الحقول) المتوفرة في المستند.
+يُرجع التسلسل الهرمي الكامل للمناطق (مع الحقول) المتوفرة في المستند.
 
 ```csharp
 public MailMergeRegionInfo GetRegionsHierarchy()
@@ -20,7 +20,7 @@ public MailMergeRegionInfo GetRegionsHierarchy()
 
 ### ملاحظات
 
-يتم إرجاع التسلسل الهرمي في شكل ملف[`MailMergeRegionInfo`](../../mailmergeregioninfo/) صف دراسي.
+يتم إرجاع التسلسل الهرمي في شكل[`MailMergeRegionInfo`](../../mailmergeregioninfo/) فصل.
 
 ### أمثلة
 
@@ -29,10 +29,10 @@ public MailMergeRegionInfo GetRegionsHierarchy()
 ```csharp
 Document doc = new Document(MyDir + "Mail merge regions.docx");
 
-// إرجاع التسلسل الهرمي الكامل لمناطق الدمج التي تحتوي على MERGEFIELDs المتوفرة في المستند.
+// إرجاع تسلسل هرمي كامل لمناطق الدمج التي تحتوي على MERGEFIELDs المتوفرة في المستند.
 MailMergeRegionInfo regionInfo = doc.MailMerge.GetRegionsHierarchy();
 
-// احصل على أهم المناطق في المستند.
+// احصل على المناطق العليا في المستند.
 IList<MailMergeRegionInfo> topRegions = regionInfo.Regions;
 
 Assert.AreEqual(2, topRegions.Count);
@@ -41,7 +41,7 @@ Assert.AreEqual("Region2", topRegions[1].Name);
 Assert.AreEqual(1, topRegions[0].Level);
 Assert.AreEqual(1, topRegions[1].Level);
 
-// احصل على منطقة متداخلة في أول منطقة أعلى.
+// احصل على المنطقة المتداخلة في المنطقة العليا الأولى.
 IList<MailMergeRegionInfo> nestedRegions = topRegions[0].Regions;
 
 Assert.AreEqual(2, nestedRegions.Count);

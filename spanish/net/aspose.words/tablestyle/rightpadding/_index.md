@@ -1,14 +1,14 @@
 ---
 title: TableStyle.RightPadding
 second_title: Referencia de API de Aspose.Words para .NET
-description: TableStyle propiedad. Obtiene o establece la cantidad de espacio en puntos que se agrega a la derecha del contenido de las celdas de la tabla.
+description: TableStyle propiedad. Obtiene o establece la cantidad de espacio en puntos que se agregará a la derecha del contenido de las celdas de la tabla.
 type: docs
 weight: 110
 url: /es/net/aspose.words/tablestyle/rightpadding/
 ---
 ## TableStyle.RightPadding property
 
-Obtiene o establece la cantidad de espacio (en puntos) que se agrega a la derecha del contenido de las celdas de la tabla.
+Obtiene o establece la cantidad de espacio (en puntos) que se agregará a la derecha del contenido de las celdas de la tabla.
 
 ```csharp
 public double RightPadding { get; set; }
@@ -47,7 +47,7 @@ tableStyle.VerticalAlignment = CellVerticalAlignment.Center;
 
 table.Style = tableStyle;
 
-// Establecer las propiedades de estilo de una tabla puede afectar las propiedades de la propia tabla.
+// Establecer las propiedades de estilo de una tabla puede afectar las propiedades de la tabla misma.
 Assert.True(table.Bidi);
 Assert.AreEqual(5.0d, table.CellSpacing);
 Assert.AreEqual("MyTableStyle1", table.StyleName);

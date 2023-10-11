@@ -3,12 +3,14 @@ title: Class ReplacingArgs
 second_title: Referencia de API de Aspose.Words para .NET
 description: Aspose.Words.Replacing.ReplacingArgs clase. Proporciona datos para una operación de reemplazo personalizada.
 type: docs
-weight: 4390
+weight: 4650
 url: /es/net/aspose.words.replacing/replacingargs/
 ---
 ## ReplacingArgs class
 
 Proporciona datos para una operación de reemplazo personalizada.
+
+Para obtener más información, visite el[Encontrar y reemplazar](https://docs.aspose.com/words/net/find-and-replace/) artículo de documentación.
 
 ```csharp
 public class ReplacingArgs
@@ -19,10 +21,10 @@ public class ReplacingArgs
 | Nombre | Descripción |
 | --- | --- |
 | [GroupIndex](../../aspose.words.replacing/replacingargs/groupindex/) { get; set; } | Identifica, por índice, un grupo capturado en el[`Match`](./match/) que se va a reemplazar con el[`Replacement`](./replacement/) cadena. |
-| [GroupName](../../aspose.words.replacing/replacingargs/groupname/) { get; set; } | Identifica, por su nombre, un grupo capturado en el[`Match`](./match/) que se va a reemplazar con el[`Replacement`](./replacement/) cadena. |
-| [Match](../../aspose.words.replacing/replacingargs/match/) { get; } | ElMatch resultado de una única coincidencia de expresión regular durante una **Reemplazar** . |
-| [MatchNode](../../aspose.words.replacing/replacingargs/matchnode/) { get; } | Obtiene el nodo que contiene el comienzo de la coincidencia. |
-| [MatchOffset](../../aspose.words.replacing/replacingargs/matchoffset/) { get; } | Obtiene la posición inicial basada en cero de la coincidencia desde el inicio de el nodo que contiene el comienzo de la coincidencia. |
+| [GroupName](../../aspose.words.replacing/replacingargs/groupname/) { get; set; } | Identifica, por nombre, un grupo capturado en el[`Match`](./match/) que se va a reemplazar con el[`Replacement`](./replacement/) cadena. |
+| [Match](../../aspose.words.replacing/replacingargs/match/) { get; } | ElMatch resultante de una única coincidencia de expresión regular durante una **Reemplazar** . |
+| [MatchNode](../../aspose.words.replacing/replacingargs/matchnode/) { get; } | Obtiene el nodo que contiene el inicio de la coincidencia. |
+| [MatchOffset](../../aspose.words.replacing/replacingargs/matchoffset/) { get; } | Obtiene la posición inicial de base cero de la coincidencia desde el inicio de el nodo que contiene el comienzo de la coincidencia. |
 | [Replacement](../../aspose.words.replacing/replacingargs/replacement/) { get; set; } | Obtiene o establece la cadena de reemplazo. |
 
 ### Ejemplos
@@ -30,6 +32,7 @@ public class ReplacingArgs
 Muestra cómo reemplazar todas las apariciones de un patrón de expresión regular con otra cadena, mientras realiza un seguimiento de todos esos reemplazos.
 
 ```csharp
+public void ReplaceWithCallback()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -37,10 +40,10 @@ Muestra cómo reemplazar todas las apariciones de un patrón de expresión regul
     builder.Writeln("Our new location in New York City is opening tomorrow. " +
                     "Hope to see all our NYC-based customers at the opening!");
 
-    // Podemos usar un objeto "FindReplaceOptions" para modificar el proceso de buscar y reemplazar.
+    // Podemos utilizar un objeto "FindReplaceOptions" para modificar el proceso de buscar y reemplazar.
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // Establezca una devolución de llamada que realice un seguimiento de los reemplazos que realizará el método "Reemplazar".
+    // Establece una devolución de llamada que rastrea cualquier reemplazo que realizará el método "Replace".
     TextFindAndReplacementLogger logger = new TextFindAndReplacementLogger();
     options.ReplacingCallback = logger;
 
@@ -54,7 +57,7 @@ Muestra cómo reemplazar todas las apariciones de un patrón de expresión regul
 }
 
 /// <summary>
-/// Mantiene un registro de cada reemplazo de texto realizado por una operación de buscar y reemplazar
+/// Mantiene un registro de cada reemplazo de texto realizado mediante una operación de buscar y reemplazar
 /// y anota el valor del texto coincidente original.
 /// </summary>
 private class TextFindAndReplacementLogger : IReplacingCallback
@@ -77,18 +80,21 @@ private class TextFindAndReplacementLogger : IReplacingCallback
 }
 ```
 
-Muestra cómo insertar el contenido de un documento completo como reemplazo de una coincidencia en una operación de buscar y reemplazar.
+Muestra cómo insertar el contenido completo de un documento como reemplazo de una coincidencia en una operación de buscar y reemplazar.
 
 ```csharp
+public void InsertDocumentAtReplace()
 {
     Document mainDoc = new Document(MyDir + "Document insertion destination.docx");
 
-    // Podemos usar un objeto "FindReplaceOptions" para modificar el proceso de buscar y reemplazar.
+    // Podemos utilizar un objeto "FindReplaceOptions" para modificar el proceso de buscar y reemplazar.
     FindReplaceOptions options = new FindReplaceOptions();
     options.ReplacingCallback = new InsertDocumentAtReplaceHandler();
 
     mainDoc.Range.Replace(new Regex("\\[MY_DOCUMENT\\]"), "", options);
     mainDoc.Save(ArtifactsDir + "InsertDocument.InsertDocumentAtReplace.docx");
+
+}
 
 private class InsertDocumentAtReplaceHandler : IReplacingCallback
 {
@@ -100,7 +106,7 @@ private class InsertDocumentAtReplaceHandler : IReplacingCallback
         Paragraph para = (Paragraph)args.MatchNode.ParentNode;
         InsertDocument(para, subDoc);
 
-        // Eliminar el párrafo con el texto coincidente.
+        // Elimina el párrafo con el texto coincidente.
         para.Remove();
 
         return ReplaceAction.Skip;
@@ -122,7 +128,7 @@ private static void InsertDocument(Node insertionDestination, Document docToInse
         foreach (Section srcSection in docToInsert.Sections.OfType<Section>())
             foreach (Node srcNode in srcSection.Body)
             {
-                // Omite el nodo si es el último párrafo vacío en una sección.
+                // Omite el nodo si es el último párrafo vacío de una sección.
                 if (srcNode.NodeType == NodeType.Paragraph)
                 {
                     Paragraph para = (Paragraph)srcNode;

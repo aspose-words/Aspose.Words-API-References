@@ -16,7 +16,7 @@ public byte[] GetRawData()
 
 ### Exemples
 
-Montre comment accéder aux données brutes d'un objet OLE incorporé.
+Montre comment accéder aux données brutes d’un objet OLE incorporé.
 
 ```csharp
 Document doc = new Document(MyDir + "OLE objects.docx");

@@ -19,6 +19,7 @@ public void SetData(byte[] data)
 Visar hur man anpassar processen för att ladda externa resurser i ett dokument.
 
 ```csharp
+public void ResourceLoadingCallback()
 {
     Document doc = new Document();
     doc.ResourceLoadingCallback = new ImageNameHandler();
@@ -34,6 +35,7 @@ Visar hur man anpassar processen för att ladda externa resurser i ett dokument.
     Assert.AreEqual(3, doc.GetChildNodes(NodeType.Shape, true).Count);
 
     doc.Save(ArtifactsDir + "DocumentBase.ResourceLoadingCallback.docx");
+}
 
 /// <summary>
 /// Låter oss läsa in bilder i ett dokument med fördefinierade förkortningar, till skillnad från URI:er.

@@ -1,14 +1,14 @@
 ---
 title: Enum OdsoFieldMappingType
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Settings.OdsoFieldMappingType تعداد. يحدد الأنواع المحتملة المستخدمة للإشارة إلى ما إذا تم تعيين حقل دمج بريد معين إلى عمود في مصدر البيانات الخارجية المحدد.
+description: Aspose.Words.Settings.OdsoFieldMappingType تعداد. يحدد الأنواع المحتملة المستخدمة للإشارة إلى ما إذا كان حقل دمج البريد المحدد قد تم تعيينه إلى عمود في مصدر البيانات الخارجي المحدد.
 type: docs
-weight: 5620
+weight: 5920
 url: /ar/net/aspose.words.settings/odsofieldmappingtype/
 ---
 ## OdsoFieldMappingType enumeration
 
-يحدد الأنواع المحتملة المستخدمة للإشارة إلى ما إذا تم تعيين حقل دمج بريد معين إلى عمود في مصدر البيانات الخارجية المحدد.
+يحدد الأنواع المحتملة المستخدمة للإشارة إلى ما إذا كان حقل دمج البريد المحدد قد تم تعيينه إلى عمود في مصدر البيانات الخارجي المحدد.
 
 ```csharp
 public enum OdsoFieldMappingType
@@ -18,19 +18,19 @@ public enum OdsoFieldMappingType
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| Column | `0` | تحديد أن حقل دمج المراسلات قد تم تعيينه إلى عمود في مصدر البيانات الخارجية المحدد. |
-| Null | `1` | تحديد أن حقل دمج المراسلات لم يتم تعيينه لعمود في مصدر البيانات الخارجية المحدد. |
+| Column | `0` | تحديد أنه تم تعيين حقل دمج البريد إلى عمود في مصدر البيانات الخارجي المحدد. |
+| Null | `1` | تحديد أنه لم يتم تعيين حقل دمج البريد إلى عمود في مصدر البيانات الخارجي المحدد. |
 | Default | `1` | يساويNull . |
 
 ### أمثلة
 
-يوضح كيفية الوصول إلى مجموعة البيانات التي تعين أعمدة مصدر البيانات لدمج الحقول.
+يوضح كيفية الوصول إلى مجموعة البيانات التي تقوم بتعيين أعمدة مصدر البيانات لدمج الحقول.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
 
-// تحدد هذه المجموعة كيف سيقوم دمج البريد بتعيين أعمدة من مصدر بيانات
-// إلى حقول MERGEFIELD و ADDRESSBLOCK و GREETINGLINE المحددة مسبقًا.
+// تحدد هذه المجموعة كيفية تعيين دمج البريد للأعمدة من مصدر بيانات
+// لحقول MERGEFIELD وADDRESSBLOCK وGREETINGLINE المحددة مسبقًا.
 OdsoFieldMapDataCollection dataCollection = doc.MailMergeSettings.Odso.FieldMapDatas;
 Assert.AreEqual(30, dataCollection.Count);
 
@@ -48,15 +48,15 @@ using (IEnumerator<OdsoFieldMapData> enumerator = dataCollection.GetEnumerator()
     }
 }
 
-// استنساخ العناصر في هذه المجموعة.
+// استنساخ العناصر الموجودة في هذه المجموعة.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// استخدم عناصر طريقة "RemoveAt" بشكل فردي عن طريق الفهرس.
+// استخدم عناصر الطريقة "RemoveAt" بشكل فردي حسب الفهرس.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(29, dataCollection.Count);
 
-// استخدم طريقة "المسح" لمسح المجموعة بأكملها مرة واحدة.
+// استخدم طريقة "مسح" لمسح المجموعة بأكملها مرة واحدة.
 dataCollection.Clear();
 
 Assert.AreEqual(0, dataCollection.Count);

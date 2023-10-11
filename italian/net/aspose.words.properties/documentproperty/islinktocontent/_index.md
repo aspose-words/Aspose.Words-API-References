@@ -1,14 +1,14 @@
 ---
 title: DocumentProperty.IsLinkToContent
 second_title: Aspose.Words per .NET API Reference
-description: DocumentProperty proprietà. Mostra se questa proprietà è collegata al contenuto o meno.
+description: DocumentProperty proprietà. Mostra se questa proprietà è collegata o meno al contenuto.
 type: docs
 weight: 10
 url: /it/net/aspose.words.properties/documentproperty/islinktocontent/
 ---
 ## DocumentProperty.IsLinkToContent property
 
-Mostra se questa proprietà è collegata al contenuto o meno.
+Mostra se questa proprietà è collegata o meno al contenuto.
 
 ```csharp
 public bool IsLinkToContent { get; }

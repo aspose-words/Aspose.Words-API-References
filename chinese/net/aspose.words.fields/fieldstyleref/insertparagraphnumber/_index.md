@@ -1,14 +1,14 @@
 ---
 title: FieldStyleRef.InsertParagraphNumber
 second_title: Aspose.Words for .NET API 参考
-description: FieldStyleRef 财产. 获取或设置是否插入被引用段落的段落编号与文档中出现的完全一样
+description: FieldStyleRef 财产. 获取或设置是否按照文档中显示的方式插入引用段落的段落编号
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fields/fieldstyleref/insertparagraphnumber/
 ---
 ## FieldStyleRef.InsertParagraphNumber property
 
-获取或设置是否插入被引用段落的段落编号，与文档中出现的完全一样。
+获取或设置是否按照文档中显示的方式插入引用段落的段落编号。
 
 ```csharp
 public bool InsertParagraphNumber { get; set; }
@@ -16,7 +16,7 @@ public bool InsertParagraphNumber { get; set; }
 
 ### 例子
 
-显示如何使用 STYLEREF 字段。
+演示如何使用 STYLEREF 字段。
 
 ```csharp
 Document doc = new Document();
@@ -42,7 +42,7 @@ builder.Writeln("Item 3");
 builder.ListFormat.RemoveNumbers();
 builder.ParagraphFormat.Style = doc.Styles["Normal"];
 
-// 在标题中放置一个 STYLEREF 字段，并在文档中显示第一个“列表段落”样式的文本。
+// 在标题中放置一个 STYLEREF 字段，并显示文档中第一个“List Paragraph”样式的文本。
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 FieldStyleRef field = (FieldStyleRef)builder.InsertField(FieldType.FieldStyleRef, true);
 field.StyleName = "List Paragraph";
@@ -55,7 +55,7 @@ field.SearchFromBottom = true;
 
 builder.MoveToDocumentEnd();
 
-// 我们也可以使用 STYLEREF 字段来引用列表的列表编号。
+// 我们还可以使用STYLEREF字段来引用列表的列表编号。
 builder.Write("\nParagraph number: ");
 field = (FieldStyleRef)builder.InsertField(FieldType.FieldStyleRef, true);
 field.StyleName = "Quote";
@@ -77,6 +77,7 @@ field.StyleName = "Quote";
 field.InsertParagraphNumberInFullContext = true;
 field.SuppressNonDelimiters = true;
 
+doc.UpdatePageLayout();
 doc.UpdateFields();
 doc.Save(ArtifactsDir + "Field.STYLEREF.docx");
 ```

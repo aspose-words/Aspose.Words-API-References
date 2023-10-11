@@ -1,14 +1,14 @@
 ---
 title: ImageData.Save
 second_title: Aspose.Words for .NET API Referansı
-description: ImageData yöntem. Resmi belirtilen akışa kaydeder.
+description: ImageData yöntem. Görüntüyü belirtilen akışa kaydeder.
 type: docs
-weight: 190
+weight: 200
 url: /tr/net/aspose.words.drawing/imagedata/save/
 ---
 ## Save(Stream) {#save}
 
-Resmi belirtilen akışa kaydeder.
+Görüntüyü belirtilen akışa kaydeder.
 
 ```csharp
 public void Save(Stream stream)
@@ -20,7 +20,7 @@ public void Save(Stream stream)
 
 ### Notlar
 
-Akış nesnesini elden çıkarmak arayanın sorumluluğunda mı?
+Akış nesnesini elden çıkarmak arayanın sorumluluğunda mıdır?
 
 ### Örnekler
 
@@ -29,11 +29,11 @@ Bir belgedeki tüm görüntülerin dosya sistemine nasıl kaydedileceğini göst
 ```csharp
 Document imgSourceDoc = new Document(MyDir + "Images.docx");
 
-// "HasImage" bayrak kümesine sahip şekiller, tüm belgenin resimlerini saklar ve görüntüler.
+// "HasImage" bayrak setine sahip şekiller belgenin tüm resimlerini saklar ve görüntüler.
 IEnumerable<Shape> shapesWithImages = 
     imgSourceDoc.GetChildNodes(NodeType.Shape, true).Cast<Shape>().Where(s => s.HasImage);
 
-// Her şekli gözden geçirin ve görüntüsünü kaydedin.
+// Her şeklin üzerinden geçin ve görüntüsünü kaydedin.
 ImageFormatConverter formatConverter = new ImageFormatConverter();
 
 using (IEnumerator<Shape> enumerator = shapesWithImages.GetEnumerator())
@@ -62,7 +62,7 @@ using (IEnumerator<Shape> enumerator = shapesWithImages.GetEnumerator())
 
 ## Save(string) {#save_1}
 
-Resmi bir dosyaya kaydeder.
+Görüntüyü bir dosyaya kaydeder.
 
 ```csharp
 public void Save(string fileName)
@@ -70,7 +70,7 @@ public void Save(string fileName)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| fileName | String | Resmin kaydedileceği dosya adı. |
+| fileName | String | Görüntünün kaydedileceği dosya adı. |
 
 ### Örnekler
 
@@ -79,8 +79,8 @@ Bir belgeden görüntülerin nasıl çıkarılacağını ve bunların yerel dosy
 ```csharp
 Document doc = new Document(MyDir + "Images.docx");
 
-// Belgeden şekil koleksiyonunu alın,
-// ve bir görüntü ile her şeklin görüntü verilerini yerel dosya sistemine dosya olarak kaydedin.
+// Belgedeki şekillerin koleksiyonunu alın,
+// ve resim içeren her şeklin resim verilerini dosya olarak yerel dosya sistemine kaydedin.
 NodeCollection shapes = doc.GetChildNodes(NodeType.Shape, true);
 
 Assert.AreEqual(9, shapes.Count(s => ((Shape)s).HasImage));
@@ -90,8 +90,8 @@ foreach (Shape shape in shapes.OfType<Shape>())
 {
     if (shape.HasImage)
     {
-        // Şekillerin görüntü verileri, birçok olası görüntü formatının görüntülerini içerebilir. 
-        // Her resim için formatına göre otomatik olarak bir dosya uzantısı belirleyebiliriz.
+         // Şekillerin görüntü verileri birçok olası görüntü formatındaki görüntüleri içerebilir.
+        // Her görsel için formatına göre otomatik olarak bir dosya uzantısı belirleyebiliriz.
         string imageFileName =
             $"File.ExtractImages.{imageIndex}{FileFormatUtil.ImageTypeToExtension(shape.ImageData.ImageType)}";
         shape.ImageData.Save(ArtifactsDir + imageFileName);

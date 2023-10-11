@@ -1,14 +1,14 @@
 ---
 title: Section.Body
 second_title: Aspose.Words for .NET API Referansı
-description: Section mülk. Gövde bölümün alt düğümü.
+description: Section mülk. Şunu döndürürBody bölümün alt düğümü.
 type: docs
 weight: 20
 url: /tr/net/aspose.words/section/body/
 ---
 ## Section.Body property
 
-**Gövde** bölümün alt düğümü.
+Şunu döndürür:[`Body`](../../body/) bölümün alt düğümü.
 
 ```csharp
 public Body Body { get; }
@@ -16,40 +16,40 @@ public Body Body { get; }
 
 ### Notlar
 
-**Gövde** bölümün ana metnini içerir.
+[`Body`](../../body/) bölümün ana metnini içerir.
 
-Bölümün bir değeri yoksa null döndürür. **Gövde** çocukları arasında düğüm.
+İadeler`hükümsüz` eğer bölüm yoksa[`Body`](../../body/) çocukları arasındaki düğüm.
 
 ### Örnekler
 
-Belgedeki tüm bölümlerdeki ana metni siler ve bölümlerin kendilerini terk eder.
+Belgedeki tüm bölümlerdeki ana metni, bölümleri bırakarak temizler.
 
 ```csharp
 Document doc = new Document();
 
-// Boş bir belge bir bölüm, bir gövde ve bir paragraf içerir.
+// Boş bir belge bir bölüm, bir gövde ve bir paragraftan oluşur.
 // Tüm bu düğümleri kaldırmak için "RemoveAllChildren" yöntemini çağırın,
-// ve alt öğesi olmayan bir belge düğümüyle bitirin.
+// ve çocuğu olmayan bir belge düğümü elde ederiz.
 doc.RemoveAllChildren();
 
 // Bu belgede artık içerik ekleyebileceğimiz bileşik alt düğüm yok.
-// Düzenlemek istiyorsak, düğüm koleksiyonunu yeniden doldurmamız gerekecek.
-// Önce yeni bir bölüm oluşturun ve ardından onu kök belge düğümüne alt öğe olarak ekleyin.
+// Eğer onu düzenlemek istiyorsak, düğüm koleksiyonunu yeniden doldurmamız gerekecek.
+// Öncelikle yeni bir bölüm oluşturun ve ardından bunu alt öğe olarak kök belge düğümüne ekleyin.
 Section section = new Section(doc);
 doc.AppendChild(section);
 
-// Bir bölümün tüm içeriğini içerecek ve görüntüleyecek bir gövdeye ihtiyacı var
+// Bir bölümün tüm içeriğini içerecek ve görüntüleyecek bir gövdeye ihtiyacı vardır
 // bölümün üstbilgisi ve altbilgisi arasındaki sayfada.
 Body body = new Body(doc);
 section.AppendChild(body);
 
-// Bu gövdenin çocuğu yok, bu yüzden henüz ona çalıştırma ekleyemiyoruz.
+// Bu gövdenin çocuğu yok, dolayısıyla ona henüz çalıştırma ekleyemiyoruz.
 Assert.AreEqual(0, doc.FirstSection.Body.GetChildNodes(NodeType.Any, true).Count);
 
-// Bu gövdenin en az bir boş paragraf içerdiğinden emin olmak için "EnsureMinimum" öğesini çağırın. 
+ // Bu gövdenin en az bir boş paragraf içerdiğinden emin olmak için "EnsureMinimum"u çağırın.
 body.EnsureMinimum();
 
-// Şimdi, gövdeye çalıştırmalar ekleyebilir ve bunları görüntülemek için belgeyi alabiliriz.
+// Artık gövdeye çalıştırmalar ekleyebilir ve belgenin bunları görüntülemesini sağlayabiliriz.
 body.FirstParagraph.AppendChild(new Run(doc, "Hello world!"));
 
 Assert.AreEqual("Hello world!", doc.GetText().Trim());

@@ -3,7 +3,7 @@ title: HtmlSaveOptions.ExportPageSetup
 second_title: Aspose.Words per .NET API Reference
 description: HtmlSaveOptions proprietà. Specifica se limpostazione della pagina viene esportata in HTML MHTML o EPUB. Limpostazione predefinita èfalso .
 type: docs
-weight: 230
+weight: 220
 url: /it/net/aspose.words.saving/htmlsaveoptions/exportpagesetup/
 ---
 ## HtmlSaveOptions.ExportPageSetup property
@@ -16,9 +16,9 @@ public bool ExportPageSetup { get; set; }
 
 ### Osservazioni
 
-A testa[`Section`](../../../aspose.words/section/) nel modello di documento Aspose.Words fornisce informazioni sull'impostazione della pagina tramite[`PageSetup`](../../../aspose.words/pagesetup/) classe. Quando esporti un documento in formato HTML, potrebbe essere necessario conservare queste informazioni per un ulteriore utilizzo. In particolare, l'impostazione della pagina potrebbe essere importante per il rendering su supporti impaginati (stampa) o la successiva conversione nei formati di file nativi di Microsoft Word (DOCX, DOC, RTF, WML).
+Ogni[`Section`](../../../aspose.words/section/) nel modello di documento Aspose.Words fornisce informazioni sull'impostazione della pagina tramite[`PageSetup`](../../../aspose.words/pagesetup/) classe. Quando esporti un documento in formato HTML potresti dover conservare queste informazioni per un ulteriore utilizzo. In particolare, l'impostazione della pagina potrebbe essere importante per il rendering su supporti paginati (stampa) o la successiva conversione nei formati di file nativi di Microsoft Word (DOCX, DOC, RTF, WML).
 
-Nella maggior parte dei casi l'HTML è destinato alla visualizzazione nei browser in cui non viene eseguita l'impaginazione. Quindi questa funzione è inattiva per impostazione predefinita.
+Nella maggior parte dei casi l'HTML è destinato alla visualizzazione nei browser in cui non viene eseguita l'impaginazione. Quindi questa feature è inattiva per impostazione predefinita.
 
 ### Esempi
 
@@ -37,11 +37,11 @@ pageSetup.TopMargin = 36.0;
 pageSetup.BottomMargin = 36.0;
 pageSetup.PaperSize = PaperSize.A5;
 
-// Quando salviamo il documento in HTML, possiamo passare un oggetto SaveOptions
-// per decidere se conservare o eliminare le impostazioni di configurazione della pagina.
-// Se impostiamo il flag "ExportPageSetup" su "true", il documento HTML di output conterrà la nostra configurazione di configurazione della pagina.
-// Se impostiamo il flag "ExportPageSetup" su "false", l'operazione di salvataggio annullerà le nostre impostazioni di configurazione della pagina
-// per la prima sezione, ed entrambe le sezioni sembreranno identiche.
+// Quando si salva il documento in HTML, possiamo passare un oggetto SaveOptions
+// per decidere se conservare o eliminare le impostazioni di impostazione della pagina.
+// Se impostiamo il flag "ExportPageSetup" su "true", il documento HTML di output conterrà la nostra configurazione di impostazione della pagina.
+// Se impostiamo il flag "ExportPageSetup" su "false", l'operazione di salvataggio scarterà le nostre impostazioni di impostazione della pagina
+// per la prima sezione ed entrambe le sezioni appariranno identiche.
 HtmlSaveOptions options = new HtmlSaveOptions { ExportPageSetup = exportPageSetup };
 
 doc.Save(ArtifactsDir + "HtmlSaveOptions.ExportPageSetup.html", options);
@@ -52,13 +52,13 @@ if (exportPageSetup)
 {
     Assert.True(outDocContents.Contains(
         "<style type=\"text/css\">" +
-            "@page Section1 { size:419.55pt 595.3pt; margin:36pt 70.85pt }" +
-            "@page Section2 { size:612pt 792pt; margin:70.85pt }" +
-            "div.Section1 { page:Section1 }div.Section2 { page:Section2 }" +
+            "@page Section_1 { size:419.55pt 595.3pt; margin:36pt 70.85pt; -aw-footer-distance:35.4pt; -aw-header-distance:35.4pt }" +
+            "@page Section_2 { size:612pt 792pt; margin:70.85pt; -aw-footer-distance:35.4pt; -aw-header-distance:35.4pt }" +
+            "div.Section_1 { page:Section_1 }div.Section_2 { page:Section_2 }" +
         "</style>"));
 
     Assert.True(outDocContents.Contains(
-        "<div class=\"Section1\">" +
+        "<div class=\"Section_1\">" +
             "<p style=\"margin-top:0pt; margin-bottom:0pt\">" +
                 "<span>Section 1</span>" +
             "</p>" +

@@ -1,16 +1,16 @@
 ---
 title: TxtSaveOptions.SimplifyListLabels
 second_title: Aspose.Words per .NET API Reference
-description: TxtSaveOptions proprietà. Specifica se il programma deve semplificare le etichette degli elenchi nel caso in cui la formattazione di etichette complesse non sia adeguatamente rappresentata da testo normale.
+description: TxtSaveOptions proprietà. Specifica se il programma deve semplificare le etichette dellelenco nel caso in cui la formattazione complessa delle etichette non sia adeguatamente rappresentata da testo semplice.
 type: docs
 weight: 70
 url: /it/net/aspose.words.saving/txtsaveoptions/simplifylistlabels/
 ---
 ## TxtSaveOptions.SimplifyListLabels property
 
-Specifica se il programma deve semplificare le etichette degli elenchi nel caso in cui la formattazione di etichette complesse non sia adeguatamente rappresentata da testo normale.
+Specifica se il programma deve semplificare le etichette dell'elenco nel caso in cui la formattazione complessa delle etichette non sia adeguatamente rappresentata da testo semplice.
 
-Se impostato su **VERO** , le etichette degli elenchi numerati vengono scritte in formato numerico semplice e le etichette degli elenchi dettagliate come semplici caratteri ASCII. Il valore predefinito è **falso**.
+Se impostato su`VERO` , le etichette degli elenchi numerati sono scritte in formato numerico semplice e le etichette degli elenchi dettagliati come semplici caratteri ASCII. Il valore predefinito è`falso`.
 
 ```csharp
 public bool SimplifyListLabels { get; set; }
@@ -18,7 +18,7 @@ public bool SimplifyListLabels { get; set; }
 
 ### Esempi
 
-Mostra come modificare l'aspetto degli elenchi quando si salva un documento come testo normale.
+Mostra come modificare l'aspetto degli elenchi quando si salva un documento in testo normale.
 
 ```csharp
 Document doc = new Document();
@@ -37,12 +37,12 @@ builder.ListFormat.ListIndent();
 builder.Write("Item 5");
 
 // Crea un oggetto "TxtSaveOptions", che possiamo passare al metodo "Save" del documento
-// per modificare il modo in cui salviamo il documento come testo normale.
+// per modificare il modo in cui salviamo il documento in testo normale.
 TxtSaveOptions txtSaveOptions = new TxtSaveOptions();
 
-// Imposta la proprietà "SimplifyListLabels" su "true" per convertire un elenco
+// Imposta la proprietà "SimplifyListLabels" su "true" per convertire alcuni elenchi
 // simboli in caratteri ASCII più semplici, come '*', 'o', '+', '>', ecc.
-// Imposta la proprietà "SimplifyListLabels" su "false" per preservare il maggior numero possibile di simboli di elenco originali.
+// Imposta la proprietà "SimplifyListLabels" su "false" per preservare il maggior numero possibile di simboli dell'elenco originale.
 txtSaveOptions.SimplifyListLabels = simplifyListLabels;
 
 doc.Save(ArtifactsDir + "TxtSaveOptions.SimplifyListLabels.txt", txtSaveOptions);

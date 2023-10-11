@@ -16,7 +16,7 @@ public int DocumentSplitHeadingLevel { get; set; }
 
 ### Anmärkningar
 
-När[`DocumentSplitCriteria`](../documentsplitcriteria/) inkluderarHeadingParagraph och den här egenskapen är inställd på ett värde från 1 till 9, kommer dokumentet att delas i stycken formaterade med  **Rubrik 1** , **Rubrik 2** , **Rubrik 3** etc. stilar upp till angiven rubriknivå.
+När[`DocumentSplitCriteria`](../documentsplitcriteria/) inkluderarHeadingParagraph och den här egenskapen är inställd på ett värde från 1 till 9, kommer dokumentet att delas i stycken formaterade med  **Rubrik 1** , **Rubrik 2** , **Rubrik 3**etc. stilar upp till angiven rubriknivå.
 
 Endast som standard **Rubrik 1** och **Rubrik 2** stycken gör att dokumentet delas. Om du ställer in den här egenskapen till noll kommer dokumentet inte att delas vid rubrikstycken alls.
 

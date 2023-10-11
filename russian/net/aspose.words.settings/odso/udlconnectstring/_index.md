@@ -1,14 +1,14 @@
 ---
 title: Odso.UdlConnectString
 second_title: Справочник по API Aspose.Words для .NET
-description: Odso свойство. Задает строку подключения к универсальному каналу передачи данных UDL используемую для подключения к внешнему источнику данных. Значение по умолчанию  пустая строка.
+description: Odso свойство. Указывает строку подключения Universal Data Link UDL используемую для подключения к внешнему источнику данных. Значение по умолчанию  пустая строка.
 type: docs
 weight: 90
 url: /ru/net/aspose.words.settings/odso/udlconnectstring/
 ---
 ## Odso.UdlConnectString property
 
-Задает строку подключения к универсальному каналу передачи данных (UDL), используемую для подключения к внешнему источнику данных. Значение по умолчанию — пустая строка.
+Указывает строку подключения Universal Data Link (UDL), используемую для подключения к внешнему источнику данных. Значение по умолчанию — пустая строка.
 
 ```csharp
 public string UdlConnectString { get; set; }
@@ -37,7 +37,7 @@ Console.WriteLine($"Table:\n\t{odso.TableName}");
 Console.WriteLine($"Query:\n\t{doc.MailMergeSettings.Query}");
 
 // Мы можем сбросить эти настройки, очистив их. Как только мы это сделаем и сохраним документ,
-// Microsoft Word больше не будет выполнять слияние, когда мы используем его для загрузки документа.
+// Microsoft Word больше не будет выполнять слияние почты, когда мы используем его для загрузки документа.
 settings.Clear();
 
 doc.Save(ArtifactsDir + "MailMerge.OdsoEmail.docx");

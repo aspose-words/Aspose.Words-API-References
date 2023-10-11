@@ -1,14 +1,14 @@
 ---
 title: PageInfo.Landscape
 second_title: Справочник по API Aspose.Words для .NET
-description: PageInfo свойство. Возвращает значение true если ориентация страницы указанная в документе для этой страницы является альбомной.
+description: PageInfo свойство. Возвращаетистинный если в документе для этой страницы указана альбомная ориентация.
 type: docs
-weight: 20
+weight: 30
 url: /ru/net/aspose.words.rendering/pageinfo/landscape/
 ---
 ## PageInfo.Landscape property
 
-Возвращает значение true, если ориентация страницы, указанная в документе для этой страницы, является альбомной.
+Возвращает`истинный` если в документе для этой страницы указана альбомная ориентация.
 
 ```csharp
 public bool Landscape { get; }
@@ -16,13 +16,13 @@ public bool Landscape { get; }
 
 ### Примеры
 
-Показывает, как печатать информацию о размере и ориентации каждой страницы в документе Word.
+Показывает, как распечатать информацию о размере и ориентации страницы для каждой страницы документа Word.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// В первом разделе 2 страницы. Каждому из них мы назначим отдельный лоток для бумаги принтера,
-// чей номер будет соответствовать типу источника бумаги. Эти источники и их виды будут различаться
+// Первый раздел состоит из 2 страниц. Каждому из них мы назначим отдельный лоток для бумаги для принтера,
+// номер которого будет соответствовать типу бумажного источника. Эти источники и их виды будут различаться.
 // в зависимости от установленного драйвера принтера.
 PrinterSettings.PaperSourceCollection paperSources = new PrinterSettings().PaperSources;
 
@@ -39,14 +39,14 @@ for (int i = 0; i < doc.PageCount; i++)
     // Каждая страница имеет объект PageInfo, индексом которого является номер соответствующей страницы.
     PageInfo pageInfo = doc.GetPageInfo(i);
 
-    // Печатаем ориентацию и размеры страницы.
+    // Распечатываем ориентацию и размеры страницы.
     Console.WriteLine($"Page {i + 1}:");
     Console.WriteLine($"\tOrientation:\t{(pageInfo.Landscape ? "Landscape" : "Portrait")}");
     Console.WriteLine($"\tPaper size:\t\t{pageInfo.PaperSize} ({pageInfo.WidthInPoints:F0}x{pageInfo.HeightInPoints:F0}pt)");
     Console.WriteLine($"\tSize in points:\t{pageInfo.SizeInPoints}");
     Console.WriteLine($"\tSize in pixels:\t{pageInfo.GetSizeInPixels(1.0f, 96)} at {scale * 100}% scale, {dpi} dpi");
 
-    // Печать информации об исходном лотке.
+    // Распечатываем информацию об исходном лотке.
     Console.WriteLine($"\tTray:\t{pageInfo.PaperTray}");
     PaperSource source = pageInfo.GetSpecifiedPrinterPaperSource(paperSources, paperSources[0]);
     Console.WriteLine($"\tSuitable print source:\t{source.SourceName}, kind: {source.Kind}");
@@ -67,7 +67,7 @@ Document doc = new Document(MyDir + "Rendering.docx");
 }
 
 /// <summary>
-/// Выбор подходящего размера бумаги, ориентации и лотка для бумаги при печати.
+/// Выбирает подходящий размер бумаги, ориентацию и лоток для бумаги при печати.
 /// </summary>
 public class MyPrintDocument : PrintDocument
 {
@@ -99,45 +99,45 @@ public class MyPrintDocument : PrintDocument
     }
 
     /// <summary>
-    /// Вызывается перед печатью каждой страницы. 
+     /// Вызывается перед печатью каждой страницы.
     /// </summary>
     protected override void OnQueryPageSettings(QueryPageSettingsEventArgs e)
     {
         base.OnQueryPageSettings(e);
 
-        // Один документ Microsoft Word может иметь несколько разделов, в которых указаны страницы разных размеров, 
-        // ориентации и лотки для бумаги. Платформа печати .NET вызывает этот код перед 
-        // печатается каждая страница, что дает нам возможность указать, как печатать текущую страницу.
+         // Один документ Microsoft Word может иметь несколько разделов, в которых указаны страницы разных размеров,
+         // ориентации и лотки для бумаги. Платформа печати .NET вызывает этот код перед
+        // каждая страница печатается, что дает нам возможность указать, как печатать текущую страницу.
         PageInfo pageInfo = mDocument.GetPageInfo(mCurrentPage - 1);
         e.PageSettings.PaperSize = pageInfo.GetDotNetPaperSize(PrinterSettings.PaperSizes);
 
-        // Microsoft Word сохраняет источник бумаги (лоток принтера) для каждой секции как значение для конкретного принтера.
-        // Чтобы получить правильное значение лотка, вам нужно будет использовать свойство "RawKind", которое должен возвращать ваш принтер.
+        // Microsoft Word сохраняет источник бумаги (лоток принтера) для каждого раздела как значение, специфичное для принтера.
+        // Чтобы получить правильное значение лотка, вам нужно будет использовать свойство «RawKind», которое должен вернуть ваш принтер.
         e.PageSettings.PaperSource.RawKind = pageInfo.PaperTray;
         e.PageSettings.Landscape = pageInfo.Landscape;
     }
 
     /// <summary>
-    /// Вызывается для каждой страницы, чтобы отобразить ее для печати. 
+     /// Вызывается для каждой страницы, чтобы отобразить ее для печати.
     /// </summary>
     protected override void OnPrintPage(PrintPageEventArgs e)
     {
         base.OnPrintPage(e);
 
-        // Механизм рендеринга Aspose.Words создает страницу, нарисованную из исходной точки (x = 0, y = 0) бумаги.
-        // В принтере будет жесткое поле, которое будет отображать каждую страницу. Нам нужно компенсировать эту жесткую маржу.
+        // Механизм рендеринга Aspose.Words создает страницу, нарисованную из начала координат (x = 0, y = 0) бумаги.
+        // В принтере будет жесткое поле, которое будет отображать каждую страницу. Нам нужно компенсировать эту жесткую разницу.
         float hardOffsetX, hardOffsetY;
 
         // Ниже приведены два способа установки жесткого поля.
         if (e.PageSettings != null && e.PageSettings.HardMarginX != 0 && e.PageSettings.HardMarginY != 0)
         {
-            // 1 - Через свойство "PageSettings".
+            // 1 — через свойство «PageSettings».
             hardOffsetX = e.PageSettings.HardMarginX;
             hardOffsetY = e.PageSettings.HardMarginY;
         }
         else
         {
-            // 2 - Используя собственные значения, если свойство "PageSettings" недоступно.
+            // 2 - Использование собственных значений, если свойство "PageSettings" недоступно.
             hardOffsetX = 20;
             hardOffsetY = 20;
         }

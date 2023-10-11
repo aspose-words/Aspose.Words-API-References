@@ -1,14 +1,14 @@
 ---
 title: FontInfo.IsTrueType
 second_title: Справочник по API Aspose.Words для .NET
-description: FontInfo свойство. Указывает что данный шрифт является шрифтом TrueType или OpenType а не растровым или векторным шрифтом. Значение по умолчанию  true.
+description: FontInfo свойство. Указывает что этот шрифт является шрифтом TrueType или OpenType а не растровым или векторным шрифтом. Значение по умолчаниюистинный .
 type: docs
 weight: 40
 url: /ru/net/aspose.words.fonts/fontinfo/istruetype/
 ---
 ## FontInfo.IsTrueType property
 
-Указывает, что данный шрифт является шрифтом TrueType или OpenType, а не растровым или векторным шрифтом. Значение по умолчанию — true.
+Указывает, что этот шрифт является шрифтом TrueType или OpenType, а не растровым или векторным шрифтом. Значение по умолчанию:`истинный` .
 
 ```csharp
 public bool IsTrueType { get; set; }
@@ -16,13 +16,13 @@ public bool IsTrueType { get; set; }
 
 ### Примеры
 
-Показывает, как напечатать сведения о том, какие шрифты присутствуют в документе.
+Показывает, как распечатать сведения о том, какие шрифты присутствуют в документе.
 
 ```csharp
 Document doc = new Document(MyDir + "Embedded font.docx");
 
 FontInfoCollection allFonts = doc.FontInfos;
-// Печатаем все используемые и неиспользуемые шрифты в документе.
+// Распечатываем все использованные и неиспользуемые шрифты в документе.
 for (int i = 0; i < allFonts.Count; i++)
 {
     Console.WriteLine($"Font index #{i}");

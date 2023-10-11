@@ -3,7 +3,7 @@ title: Enum PatternType
 second_title: Aspose.Words per .NET API Reference
 description: Aspose.Words.Drawing.PatternType enum. Specifica il motivo di riempimento da utilizzare per riempire una forma.
 type: docs
-weight: 1040
+weight: 1170
 url: /it/net/aspose.words.drawing/patterntype/
 ---
 ## PatternType enumeration
@@ -18,7 +18,7 @@ public enum PatternType
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
-| None | `-1` | Nessun modello. |
+| None | `-1` | Nessuno schema. |
 | Percent10 | `1` | 10% del colore di primo piano. |
 | Percent20 | `2` | 20% del colore di primo piano. |
 | Percent25 | `3` | 25% del colore di primo piano. |
@@ -32,44 +32,44 @@ public enum PatternType
 | Percent80 | `11` | 80% del colore di primo piano. |
 | Percent90 | `12` | 90% del colore di primo piano. |
 | Cross | `13` | Croce. |
-| DarkDownwardDiagonal | `14` | Diagonale verso il basso scuro. |
-| DarkHorizontal | `15` | Orizzontale scuro. |
-| DarkUpwardDiagonal | `16` | Diagonale verso l'alto scuro. |
+| DarkDownwardDiagonal | `14` | Diagonale scura verso il basso. |
+| DarkHorizontal | `15` | Scuro orizzontale. |
+| DarkUpwardDiagonal | `16` | Diagonale scura verso l'alto. |
 | DarkVertical | `17` | Verticale scuro. |
 | DashedDownwardDiagonal | `18` | Diagonale tratteggiata verso il basso. |
-| DashedHorizontal | `19` | Tratteggiata orizzontale. |
-| DashedUpwardDiagonal | `20` | Tratteggiata verso l'alto diagonale. |
-| DashedVertical | `21` | Verticale tratteggiata. |
+| DashedHorizontal | `19` | Tratteggiato orizzontale. |
+| DashedUpwardDiagonal | `20` | Tratteggiato in diagonale verso l'alto. |
+| DashedVertical | `21` | Verticale tratteggiato. |
 | DiagonalBrick | `22` | Mattone diagonale. |
 | DiagonalCross | `23` | Croce diagonale. |
-| Divot | `24` | Schema divot. |
+| Divot | `24` | Motivo divot. |
 | DottedDiamond | `25` | Diamante punteggiato. |
-| DottedGrid | `26` | Griglia tratteggiata. |
+| DottedGrid | `26` | Griglia punteggiata. |
 | DownwardDiagonal | `27` | Diagonale verso il basso. |
 | Horizontal | `28` | Orizzontale. |
 | HorizontalBrick | `29` | Mattone orizzontale. |
-| LargeCheckerBoard | `30` | Grande scacchiera. |
+| LargeCheckerBoard | `30` | Scacchiera grande. |
 | LargeConfetti | `31` | Coriandoli grandi. |
 | LargeGrid | `32` | Griglia grande. |
-| LightDownwardDiagonal | `33` | Luce diagonale verso il basso. |
+| LightDownwardDiagonal | `33` | Diagonale leggera verso il basso. |
 | LightHorizontal | `34` | Luce orizzontale. |
-| LightUpwardDiagonal | `36` | Luce diagonale verso l'alto. |
-| LightVertical | `37` | Verticale chiaro. |
+| LightUpwardDiagonal | `36` | Diagonale leggera verso l'alto. |
+| LightVertical | `37` | Luce verticale. |
 | NarrowHorizontal | `38` | Orizzontale stretto. |
 | NarrowVertical | `39` | Verticale stretto. |
 | OutlinedDiamond | `40` | Diamante delineato. |
 | Plaid | `41` | Plaid. |
 | Shingle | `42` | Scandole. |
 | SmallCheckerBoard | `43` | Scacchiera piccola. |
-| SmallConfetti | `44` | Piccoli coriandoli. |
+| SmallConfetti | `44` | Coriandoli piccoli. |
 | SmallGrid | `45` | Griglia piccola. |
-| SolidDiamond | `46` | Diamante solido. |
+| SolidDiamond | `46` | Diamante massiccio. |
 | Sphere | `47` | Sfera. |
 | Trellis | `48` | Traliccio. |
 | UpwardDiagonal | `49` | Diagonale verso l'alto. |
 | Vertical | `50` | Verticale. |
 | Wave | `51` | Onda. |
-| Weave | `52` | Intreccio. |
+| Weave | `52` | Intreccia. |
 | WideDownwardDiagonal | `53` | Ampia diagonale verso il basso. |
 | WideUpwardDiagonal | `54` | Ampia diagonale verso l'alto. |
 | ZigZag | `55` | Zig zag. |

@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTagRangeStart.Color
 second_title: Aspose.Words لمراجع .NET API
-description: StructuredDocumentTagRangeStart ملكية. الحصول على أو تحديد لون علامة المستند المهيكلة.
+description: StructuredDocumentTagRangeStart ملكية. الحصول على أو تعيين لون علامة المستند المنظمة.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.markup/structureddocumenttagrangestart/color/
 ---
 ## StructuredDocumentTagRangeStart.Color property
 
-الحصول على أو تحديد لون علامة المستند المهيكلة.
+الحصول على أو تعيين لون علامة المستند المنظمة.
 
 ```csharp
 public Color Color { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: IDocumentLoadingCallback.Notify
 second_title: Référence de l'API Aspose.Words pour .NET
-description: IDocumentLoadingCallback méthode. Ceci est appelé pour notifier la progression du chargement du document.
+description: IDocumentLoadingCallback méthode. Ceci est appelé pour informer de la progression du chargement du document.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.loading/idocumentloadingcallback/notify/
 ---
 ## IDocumentLoadingCallback.Notify method
 
-Ceci est appelé pour notifier la progression du chargement du document.
+Ceci est appelé pour informer de la progression du chargement du document.
 
 ```csharp
 public void Notify(DocumentLoadingArgs args)
@@ -22,14 +22,13 @@ public void Notify(DocumentLoadingArgs args)
 
 Les principales utilisations de cette interface sont de permettre au code d'application d'obtenir l'état de progression et d'abandonner le processus de chargement.
 
-Une exception doit être levée à partir du rappel de progression pour l'avortement et elle doit être capturée dans le code du consommateur.
+Une exception doit être levée à partir du rappel de progression pour l'avortement et elle doit être interceptée dans le code du consommateur.
 
 ### Exemples
 
 Montre comment avertir l'utilisateur si le chargement du document a dépassé le temps de chargement prévu.
 
 ```csharp
-[Test]
 public void ProgressCallback()
 {
     LoadingProgressCallback progressCallback = new LoadingProgressCallback();
@@ -54,7 +53,7 @@ public void ProgressCallback()
 public class LoadingProgressCallback : IDocumentLoadingCallback
 {
     /// <summary>
-    /// Ctr.
+    /// Centre.
     /// </summary>
     public LoadingProgressCallback()
     {
@@ -75,7 +74,7 @@ public class LoadingProgressCallback : IDocumentLoadingCallback
     }
 
     /// <summary>
-    /// Date et heure de démarrage du chargement du document.
+    /// Date et heure de début du chargement du document.
     /// </summary>
     private readonly DateTime mLoadingStartedAt;
 

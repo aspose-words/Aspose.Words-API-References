@@ -16,14 +16,14 @@ public OoxmlCompliance Compliance { get; }
 
 ### 评论
 
-如果您创建了一个新的空白文档或加载非 OOXML document 返回Ecma376_2006价值。
+如果您创建了新的空白文档或加载非 OOXML document ，则返回Ecma376_2006价值。
 
 ### 例子
 
-显示如何读取已加载文档的 Open Office XML 合规性版本。
+演示如何读取已加载文档的 Open Office XML 合规性版本。
 
 ```csharp
-// 不同版本的 Microsoft Word 创建的文档之间的合规版本不同。
+// 不同版本的 Microsoft Word 创建的文档之间的合规性版本有所不同。
 Document doc = new Document(MyDir + "Document.doc");
 
 Assert.AreEqual(doc.Compliance, OoxmlCompliance.Ecma376_2006);

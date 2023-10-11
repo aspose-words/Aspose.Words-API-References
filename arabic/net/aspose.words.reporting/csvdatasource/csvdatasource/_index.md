@@ -16,7 +16,7 @@ public CsvDataSource(string csvPath)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| csvPath | String | المسار إلى ملف CSV لاستخدامه كمصدر للبيانات. |
+| csvPath | String | المسار إلى ملف CSV الذي سيتم استخدامه كمصدر للبيانات. |
 
 ### أنظر أيضا
 
@@ -36,7 +36,7 @@ public CsvDataSource(string csvPath, CsvDataLoadOptions options)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| csvPath | String | المسار إلى ملف CSV لاستخدامه كمصدر للبيانات. |
+| csvPath | String | المسار إلى ملف CSV الذي سيتم استخدامه كمصدر للبيانات. |
 | options | CsvDataLoadOptions | خيارات لتحليل بيانات CSV. |
 
 ### أنظر أيضا
@@ -50,7 +50,7 @@ public CsvDataSource(string csvPath, CsvDataLoadOptions options)
 
 ## CsvDataSource(Stream) {#constructor}
 
-إنشاء مصدر بيانات جديد ببيانات من دفق CSV باستخدام الخيارات الافتراضية لتحليل بيانات CSV.
+إنشاء مصدر بيانات جديد ببيانات من تدفق CSV باستخدام الخيارات الافتراضية لتحليل بيانات CSV.
 
 ```csharp
 public CsvDataSource(Stream csvStream)
@@ -58,7 +58,7 @@ public CsvDataSource(Stream csvStream)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| csvStream | Stream | دفق بيانات CSV لاستخدامها كمصدر للبيانات. |
+| csvStream | Stream | دفق بيانات CSV المراد استخدامها كمصدر للبيانات. |
 
 ### أنظر أيضا
 
@@ -70,7 +70,7 @@ public CsvDataSource(Stream csvStream)
 
 ## CsvDataSource(Stream, CsvDataLoadOptions) {#constructor_1}
 
-إنشاء مصدر بيانات جديد ببيانات من دفق CSV باستخدام الخيارات المحددة لتحليل بيانات CSV.
+إنشاء مصدر بيانات جديد ببيانات من تدفق CSV باستخدام الخيارات المحددة لتحليل بيانات CSV.
 
 ```csharp
 public CsvDataSource(Stream csvStream, CsvDataLoadOptions options)
@@ -78,7 +78,7 @@ public CsvDataSource(Stream csvStream, CsvDataLoadOptions options)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| csvStream | Stream | دفق بيانات CSV لاستخدامها كمصدر للبيانات. |
+| csvStream | Stream | دفق بيانات CSV المراد استخدامها كمصدر للبيانات. |
 | options | CsvDataLoadOptions | خيارات لتحليل بيانات CSV. |
 
 ### أنظر أيضا

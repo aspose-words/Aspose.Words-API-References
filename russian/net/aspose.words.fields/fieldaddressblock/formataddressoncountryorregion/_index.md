@@ -1,14 +1,14 @@
 ---
 title: FieldAddressBlock.FormatAddressOnCountryOrRegion
 second_title: Справочник по API Aspose.Words для .NET
-description: FieldAddressBlock свойство. Получает или задает форматирование адреса в соответствии со страной/регионом получателя  как определено POSTCODE Всемирный почтовый союз 2006.
+description: FieldAddressBlock свойство. Получает или задает необходимость форматирования адреса в соответствии со страной/регионом получателя  как определено POSTCODE Universal Postal Union 2006.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.fields/fieldaddressblock/formataddressoncountryorregion/
 ---
 ## FieldAddressBlock.FormatAddressOnCountryOrRegion property
 
-Получает или задает форматирование адреса в соответствии со страной/регионом получателя , как определено POST*CODE (Всемирный почтовый союз 2006).
+Получает или задает необходимость форматирования адреса в соответствии со страной/регионом получателя , как определено POST*CODE (Universal Postal Union 2006).
 
 ```csharp
 public bool FormatAddressOnCountryOrRegion { get; set; }
@@ -26,8 +26,8 @@ FieldAddressBlock field = (FieldAddressBlock)builder.InsertField(FieldType.Field
 
 Assert.AreEqual(" ADDRESSBLOCK ", field.GetFieldCode());
 
-// Установка этого параметра на "2" будет включать все страны и регионы,
-// если только он не указан в свойстве ExcludedCountryOrRegionName.
+// Установка значения «2» будет включать все страны и регионы,
+// если только оно не указано в свойстве ExcludedCountryOrRegionName.
 field.IncludeCountryOrRegionName = "2";
 field.FormatAddressOnCountryOrRegion = true;
 field.ExcludedCountryOrRegionName = "United States";

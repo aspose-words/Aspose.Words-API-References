@@ -3,7 +3,7 @@ title: Enum SdtDateStorageFormat
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Aspose.Words.Markup.SdtDateStorageFormat énumération. Spécifie comment la date dun SDT de date est stockée/récupérée lorsque le SDT est lié à un nœud XML dans le magasin de données du document.
 type: docs
-weight: 3770
+weight: 4010
 url: /fr/net/aspose.words.markup/sdtdatestorageformat/
 ---
 ## SdtDateStorageFormat enumeration
@@ -18,10 +18,10 @@ public enum SdtDateStorageFormat
 
 | Nom | Évaluer | La description |
 | --- | --- | --- |
-| Date | `0` | La valeur de date pour une date SDT est stockée sous forme de date au format XML Schema Date standard. |
-| DateTime | `1` | La valeur de date pour une date SDT est stockée sous forme de date au format XML Schema DateTime standard. |
-| Text | `2` | La valeur de date pour une date SDT est stockée sous forme de texte. |
-| Default | `1` | Par défaut àDateTime |
+| Date | `0` | La valeur de date d'un SDT de date est stockée sous forme de date au format de date de schéma XML standard. |
+| DateTime | `1` | La valeur de date d'un SDT de date est stockée sous forme de date au format XML Schema DateTime standard. |
+| Text | `2` | La valeur de date pour un SDT de date est stockée sous forme de texte. |
+| Default | `1` | La valeur par défaut estDateTime |
 
 ### Voir également
 

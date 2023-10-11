@@ -3,7 +3,7 @@ title: Enum VisitorAction
 second_title: Aspose.Words für .NET-API-Referenz
 description: Aspose.Words.VisitorAction opsomming. Ermöglicht dem Besucher die Aufzählung der Knoten zu steuern.
 type: docs
-weight: 6310
+weight: 6620
 url: /de/net/aspose.words/visitoraction/
 ---
 ## VisitorAction enumeration
@@ -19,8 +19,8 @@ public enum VisitorAction
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
 | Continue | `0` | Der Besucher fordert die Fortsetzung der Aufzählung an. |
-| SkipThisNode | `1` | Der Besucher fordert auf, den aktuellen Knoten zu überspringen und mit der Aufzählung fortzufahren. |
-| Stop | `2` | Der Besucher verlangt, dass die Aufzählung der Knoten gestoppt wird. |
+| SkipThisNode | `1` | Der Besucher fordert dazu auf, den aktuellen Knoten zu überspringen und mit der Aufzählung fortzufahren. |
+| Stop | `2` | Der Besucher fordert, dass die Aufzählung der Knoten gestoppt werden soll. |
 
 ### Siehe auch
 

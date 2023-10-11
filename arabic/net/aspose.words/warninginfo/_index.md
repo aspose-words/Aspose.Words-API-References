@@ -1,14 +1,16 @@
 ---
 title: Class WarningInfo
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.WarningInfo فصل. يحتوي على معلومات حول تحذير أصدره Aspose.Words أثناء تحميل المستندات أو حفظها.
+description: Aspose.Words.WarningInfo فصل. يحتوي على معلومات حول التحذير الذي أصدره Aspose.Words أثناء تحميل المستند أو حفظه.
 type: docs
-weight: 6320
+weight: 6630
 url: /ar/net/aspose.words/warninginfo/
 ---
 ## WarningInfo class
 
-يحتوي على معلومات حول تحذير أصدره Aspose.Words أثناء تحميل المستندات أو حفظها.
+يحتوي على معلومات حول التحذير الذي أصدره Aspose.Words أثناء تحميل المستند أو حفظه.
+
+لمعرفة المزيد، قم بزيارة[البرمجة بالوثائق](https://docs.aspose.com/words/net/programming-with-documents/) مقالة توثيقية.
 
 ```csharp
 public class WarningInfo
@@ -18,36 +20,38 @@ public class WarningInfo
 
 | اسم | وصف |
 | --- | --- |
-| [Description](../../aspose.words/warninginfo/description/) { get; } | إرجاع وصف التحذير . |
-| [Source](../../aspose.words/warninginfo/source/) { get; } | إرجاع مصدر التحذير . |
-| [WarningType](../../aspose.words/warninginfo/warningtype/) { get; } | إرجاع نوع التحذير . |
+| [Description](../../aspose.words/warninginfo/description/) { get; } | يُرجع وصف التحذير. |
+| [Source](../../aspose.words/warninginfo/source/) { get; } | إرجاع مصدر التحذير. |
+| [WarningType](../../aspose.words/warninginfo/warningtype/) { get; } | يُرجع نوع التحذير. |
 
 ### ملاحظات
 
-لا تقوم بإنشاء نسخ من هذه الفئة. يتم إنشاء كائنات هذه الفئة وتمريرها بواسطة Aspose.Words إلى[`Warning`](../iwarningcallback/warning/) طريقة.
+لا تقم بإنشاء مثيلات هذه الفئة. يتم إنشاء كائنات هذه الفئة وتمريرها بواسطة Aspose.Words إلى ملف[`Warning`](../iwarningcallback/warning/) طريقة.
 
 ### أمثلة
 
-يوضح كيفية تعيين الخاصية للعثور على أقرب تطابق لخط مفقود من مصادر الخط المتاحة.
+يوضح كيفية تعيين الخاصية للعثور على أقرب تطابق لخط مفقود من مصادر الخطوط المتوفرة.
 
 ```csharp
-[Test]
 public void EnableFontSubstitution()
 {
     // افتح مستندًا يحتوي على نص منسق بخط غير موجود في أي من مصادر الخطوط لدينا.
     Document doc = new Document(MyDir + "Missing font.docx");
 
-    // تعيين رد اتصال للتعامل مع تحذيرات استبدال الخط.
+    // قم بتعيين رد اتصال للتعامل مع تحذيرات استبدال الخط.
     HandleDocumentSubstitutionWarnings substitutionWarningHandler = new HandleDocumentSubstitutionWarnings();
     doc.WarningCallback = substitutionWarningHandler;
 
-    // تعيين اسم الخط الافتراضي وتمكين استبدال الخط.
+    // قم بتعيين اسم الخط الافتراضي وتمكين استبدال الخط.
     FontSettings fontSettings = new FontSettings();
     fontSettings.SubstitutionSettings.DefaultFontSubstitution.DefaultFontName = "Arial";
     ;
     fontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
 
-    // سنحصل على تحذير بشأن استبدال الخط إذا حفظنا مستندًا بخط مفقود.
+    // يجب استخدام مقاييس الخط الأصلي بعد استبدال الخط.
+    doc.LayoutOptions.KeepOriginalFontMetrics = true;
+
+    // سنتلقى تحذيرًا بشأن استبدال الخط إذا قمنا بحفظ مستند بخط مفقود.
     doc.FontSettings = fontSettings;
     doc.Save(ArtifactsDir + "FontSettings.EnableFontSubstitution.pdf");
 
@@ -69,7 +73,7 @@ public void EnableFontSubstitution()
 public class HandleDocumentSubstitutionWarnings : IWarningCallback
 {
     /// <summary>
-    /// يتم الاتصال به في كل مرة يظهر فيها تحذير أثناء التحميل / الحفظ.
+    /// يتم الاتصال به في كل مرة يحدث فيها تحذير أثناء التحميل/الحفظ.
     /// </summary>
     public void Warning(WarningInfo info)
     {

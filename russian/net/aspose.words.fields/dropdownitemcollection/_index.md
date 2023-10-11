@@ -1,14 +1,16 @@
 ---
 title: Class DropDownItemCollection
 second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Fields.DropDownItemCollection сорт. Набор строк представляющих все элементы в раскрывающемся поле формы.
+description: Aspose.Words.Fields.DropDownItemCollection сорт. Коллекция строк представляющих все элементы в поле раскрывающейся формы.
 type: docs
-weight: 1350
+weight: 1500
 url: /ru/net/aspose.words.fields/dropdownitemcollection/
 ---
 ## DropDownItemCollection class
 
-Набор строк, представляющих все элементы в раскрывающемся поле формы.
+Коллекция строк, представляющих все элементы в поле раскрывающейся формы.
+
+Чтобы узнать больше, посетите[Работа с полями](https://docs.aspose.com/words/net/working-with-fields/) статья документации.
 
 ```csharp
 public class DropDownItemCollection : IEnumerable<string>
@@ -28,7 +30,7 @@ public class DropDownItemCollection : IEnumerable<string>
 | [Add](../../aspose.words.fields/dropdownitemcollection/add/)(string) | Добавляет строку в конец коллекции. |
 | [Clear](../../aspose.words.fields/dropdownitemcollection/clear/)() | Удаляет все элементы из коллекции. |
 | [Contains](../../aspose.words.fields/dropdownitemcollection/contains/)(string) | Определяет, содержит ли коллекция указанное значение. |
-| [GetEnumerator](../../aspose.words.fields/dropdownitemcollection/getenumerator/)() | Возвращает объект перечислителя, который можно использовать для перебора всех элементов в коллекции. |
+| [GetEnumerator](../../aspose.words.fields/dropdownitemcollection/getenumerator/)() | Возвращает объект перечислителя, который можно использовать для перебора всех элементов коллекции. |
 | [IndexOf](../../aspose.words.fields/dropdownitemcollection/indexof/)(string) | Возвращает отсчитываемый от нуля индекс указанного значения в коллекции. |
 | [Insert](../../aspose.words.fields/dropdownitemcollection/insert/)(int, string) | Вставляет строку в коллекцию по указанному индексу. |
 | [Remove](../../aspose.words.fields/dropdownitemcollection/remove/)(string) | Удаляет указанное значение из коллекции. |
@@ -36,13 +38,13 @@ public class DropDownItemCollection : IEnumerable<string>
 
 ### Примеры
 
-Показывает, как вставить поле со списком и изменить элементы в его коллекции элементов.
+Показывает, как вставить поле со списком и отредактировать элементы в его коллекции элементов.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Вставьте поле со списком, а затем проверьте его набор раскрывающихся элементов.
+// Вставляем поле со списком, а затем проверяем набор раскрывающихся элементов.
 // В Microsoft Word пользователь щелкнет поле со списком,
 // а затем выберите один из элементов текста в коллекции для отображения.
 string[] items = { "One", "Two", "Three" };
@@ -54,8 +56,8 @@ Assert.AreEqual("One", dropDownItems[0]);
 Assert.AreEqual(1, dropDownItems.IndexOf("Two"));
 Assert.IsTrue(dropDownItems.Contains("Three"));
 
-// Есть два способа добавления нового элемента в существующую коллекцию элементов раскрывающегося списка.
-// 1 - Добавить элемент в конец коллекции:
+// Существует два способа добавления нового элемента в существующую коллекцию элементов раскрывающегося списка.
+// 1 — добавить элемент в конец коллекции:
 dropDownItems.Add("Four");
 
 // 2 - Вставить элемент перед другим элементом по указанному индексу:
@@ -68,8 +70,8 @@ using (IEnumerator<string> dropDownCollectionEnumerator = dropDownItems.GetEnume
     while (dropDownCollectionEnumerator.MoveNext())
         Console.WriteLine(dropDownCollectionEnumerator.Current);
 
-// Существует два способа удаления элементов из набора раскрывающихся элементов.
-// 1 - Удалить элемент с содержимым, равным переданной строке:
+// Есть два способа удаления элементов из коллекции раскрывающихся элементов.
+// 1 - Удалить элемент, содержимое которого равно переданной строке:
 dropDownItems.Remove("Four");
 
 // 2 - Удалить элемент по индексу:
@@ -81,7 +83,7 @@ Assert.IsFalse(dropDownItems.Contains("Four"));
 
 doc.Save(ArtifactsDir + "FormFields.DropDownItemCollection.html");
 
-// Очистить всю коллекцию раскрывающихся элементов.
+// Очищаем всю коллекцию раскрывающихся элементов.
 dropDownItems.Clear();
 ```
 

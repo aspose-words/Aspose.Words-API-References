@@ -16,11 +16,11 @@ public void SetCount(int newCount)
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| newCount | Int32 | El número de columnas en las que se ordenará el texto. |
+| newCount | Int32 | El número de columnas en las que se organizará el texto. |
 
 ### Observaciones
 
-Cuando[`EvenlySpaced`](../evenlyspaced/) es **falso** y aumentas el numero de columnas, new[`TextColumn`](../../textcolumn/) los objetos se crean con ancho y espaciado cero. Debe establecer el ancho y el espaciado para las nuevas columnas.
+Cuando[`EvenlySpaced`](../evenlyspaced/) es`FALSO` y aumentas el numero de columnas, new[`TextColumn`](../../textcolumn/) los objetos se crean con ancho y espaciado cero. Debe establecer el ancho y el espaciado para las nuevas columnas.
 
 ### Ejemplos
 

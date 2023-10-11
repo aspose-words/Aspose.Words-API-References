@@ -16,7 +16,7 @@ public RevisionColor InsertedTextColor { get; set; }
 
 ### Exemples
 
-Montre comment modifier l'apparence des révisions dans un document de sortie rendu.
+Montre comment modifier l’apparence des révisions dans un document de sortie rendu.
 
 ```csharp
 Document doc = new Document();

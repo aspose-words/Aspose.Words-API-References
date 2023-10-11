@@ -3,7 +3,7 @@ title: Fill.Solid
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Fill méthode. Définit le remplissage sur une couleur uniforme.
 type: docs
-weight: 200
+weight: 260
 url: /fr/net/aspose.words.drawing/fill/solid/
 ---
 ## Solid() {#solid}
@@ -16,7 +16,7 @@ public void Solid()
 
 ### Remarques
 
-Utilisez cette méthode pour reconvertir n'importe lequel des remplissages en remplissage solide.
+Utilisez cette méthode pour reconvertir n'importe quel remplissage en remplissage solide.
 
 ### Voir également
 
@@ -36,24 +36,24 @@ public void Solid(Color color)
 
 ### Remarques
 
-Utilisez cette méthode pour reconvertir n'importe lequel des remplissages en remplissage solide.
+Utilisez cette méthode pour reconvertir n'importe quel remplissage en remplissage solide.
 
 ### Exemples
 
-Montre comment reconvertir n'importe lequel des remplissages en remplissage uni.
+Montre comment reconvertir n’importe quel remplissage en remplissage solide.
 
 ```csharp
 Document doc = new Document(MyDir + "Two color gradient.docx");
 
-// Obtient l'objet Fill pour la police de la première exécution.
+// Récupère l'objet Fill pour la police de la première exécution.
 Fill fill = doc.FirstSection.Body.Paragraphs[0].Runs[0].Font.Fill;
 
-// Vérifie les propriétés de remplissage de la police.
+// Vérifiez les propriétés de remplissage de la police.
 Console.WriteLine("The type of the fill is: {0}", fill.FillType);
 Console.WriteLine("The foreground color of the fill is: {0}", fill.ForeColor);
 Console.WriteLine("The fill is transparent at {0}%", fill.Transparency * 100);
 
-// Modifie le type de remplissage en Solide avec une couleur verte uniforme.
+// Change le type de remplissage en Solid avec une couleur verte uniforme.
 fill.Solid(Color.Green);
 Console.WriteLine("\nThe fill is changed:");
 Console.WriteLine("The type of the fill is: {0}", fill.FillType);

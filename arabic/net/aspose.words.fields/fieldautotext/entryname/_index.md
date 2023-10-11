@@ -1,14 +1,14 @@
 ---
 title: FieldAutoText.EntryName
 second_title: Aspose.Words لمراجع .NET API
-description: FieldAutoText ملكية. الحصول على أو تحديد اسم إدخال النص التلقائي.
+description: FieldAutoText ملكية. الحصول على اسم إدخال النص التلقائي أو تعيينه.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/fieldautotext/entryname/
 ---
 ## FieldAutoText.EntryName property
 
-الحصول على أو تحديد اسم إدخال النص التلقائي.
+الحصول على اسم إدخال النص التلقائي أو تعيينه.
 
 ```csharp
 public string EntryName { get; set; }
@@ -16,12 +16,12 @@ public string EntryName { get; set; }
 
 ### أمثلة
 
-يوضح كيفية عرض الكتلة البرمجية الإنشائية باستخدام حقلي AUTOTEXT ومسرد المصطلحات.
+يوضح كيفية عرض الكتلة البرمجية الإنشائية باستخدام حقلي النص التلقائي والمسرد.
 
 ```csharp
 Document doc = new Document();
 
-// قم بإنشاء مستند قاموس المصطلحات وأضف كتلة إنشاء نص تلقائي إليه.
+// قم بإنشاء مستند معجم وأضف كتلة إنشاء نص تلقائي إليه.
 doc.GlossaryDocument = new GlossaryDocument();
 BuildingBlock buildingBlock = new BuildingBlock(doc.GlossaryDocument);
 buildingBlock.Name = "MyBlock";
@@ -31,7 +31,7 @@ buildingBlock.Description = "MyBlock description";
 buildingBlock.Behavior = BuildingBlockBehavior.Paragraph;
 doc.GlossaryDocument.AppendChild(buildingBlock);
 
-// أنشئ مصدرًا وأضفه كنص إلى لبنة البناء لدينا.
+// أنشئ مصدرًا وأضفه كنص إلى الكتلة البرمجية الإنشائية الخاصة بنا.
 Document buildingBlockSource = new Document();
 DocumentBuilder buildingBlockSourceBuilder = new DocumentBuilder(buildingBlockSource);
 buildingBlockSourceBuilder.Writeln("Hello World!");
@@ -39,19 +39,19 @@ buildingBlockSourceBuilder.Writeln("Hello World!");
 Node buildingBlockContent = doc.GlossaryDocument.ImportNode(buildingBlockSource.FirstSection, true);
 buildingBlock.AppendChild(buildingBlockContent);
 
-// تعيين ملف يحتوي على أجزاء قد لا تحتوي وثيقتنا أو النموذج المرفق بها.
+// قم بتعيين ملف يحتوي على أجزاء قد لا تحتوي عليها وثيقتنا أو القالب المرفق بها.
 doc.FieldOptions.BuiltInTemplatesPaths = new[] { MyDir + "Busniess brochure.dotx" };
 
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // فيما يلي طريقتان لاستخدام الحقول لعرض محتويات الكتلة البرمجية الإنشائية الخاصة بنا.
-// 1 - استخدام حقل AUTOTEXT:
+// 1 - استخدام حقل النص التلقائي:
 FieldAutoText fieldAutoText = (FieldAutoText)builder.InsertField(FieldType.FieldAutoText, true);
 fieldAutoText.EntryName = "MyBlock";
 
 Assert.AreEqual(" AUTOTEXT  MyBlock", fieldAutoText.GetFieldCode());
 
-// 2 - استخدام حقل مسرد المصطلحات:
+// 2 - استخدام حقل المسرد:
 FieldGlossary fieldGlossary = (FieldGlossary)builder.InsertField(FieldType.FieldGlossary, true);
 fieldGlossary.EntryName = "MyBlock";
 

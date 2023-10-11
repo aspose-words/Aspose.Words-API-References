@@ -1,14 +1,14 @@
 ---
 title: FontInfoCollection.Contains
 second_title: Aspose.Words für .NET-API-Referenz
-description: FontInfoCollection methode. Bestimmt ob die Sammlung eine Schriftart mit dem angegebenen Namen enthält.
+description: FontInfoCollection methode. Ermittelt ob die Sammlung eine Schriftart mit dem angegebenen Namen enthält.
 type: docs
 weight: 60
 url: /de/net/aspose.words.fonts/fontinfocollection/contains/
 ---
 ## FontInfoCollection.Contains method
 
-Bestimmt, ob die Sammlung eine Schriftart mit dem angegebenen Namen enthält.
+Ermittelt, ob die Sammlung eine Schriftart mit dem angegebenen Namen enthält.
 
 ```csharp
 public bool Contains(string name)
@@ -16,11 +16,11 @@ public bool Contains(string name)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| name | String | Name der Schriftart, die gesucht werden soll, ohne Berücksichtigung der Groß-/Kleinschreibung. |
+| name | String | Der Name der Schriftart, nach der gesucht werden soll, unterscheidet nicht zwischen Groß- und Kleinschreibung. |
 
 ### Rückgabewert
 
-True, wenn das Element in der Sammlung gefunden wird; andernfalls falsch.
+`WAHR` wenn der Artikel in der Sammlung gefunden wird; ansonsten,`FALSCH`.
 
 ### Beispiele
 
@@ -29,8 +29,8 @@ Zeigt Informationen zu den Schriftarten an, die im leeren Dokument vorhanden sin
 ```csharp
 Document doc = new Document();
 
-// Ein leeres Dokument enthält 3 Standardschriften. Jede Schriftart im Dokument
-// wird ein entsprechendes FontInfo-Objekt haben, das Details zu dieser Schriftart enthält.
+// Ein leeres Dokument enthält 3 Standardschriftarten. Jede Schriftart im Dokument
+// verfügt über ein entsprechendes FontInfo-Objekt, das Details zu dieser Schriftart enthält.
 Assert.AreEqual(3, doc.FontInfos.Count);
 
 Assert.True(doc.FontInfos.Contains("Times New Roman"));

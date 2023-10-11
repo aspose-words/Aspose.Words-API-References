@@ -1,14 +1,14 @@
 ---
 title: DocSaveOptions.SaveRoutingSlip
 second_title: Справочник по API Aspose.Words для .NET
-description: DocSaveOptions свойство. КогдаЛОЖЬ  данные RoutingSlip не сохраняются в выходной документ. Значение по умолчанию истинный .
+description: DocSaveOptions свойство. КогдаЛОЖЬ  данные RoutingSlip не сохраняются в выходной документ. Значение по умолчаниюистинный .
 type: docs
 weight: 60
 url: /ru/net/aspose.words.saving/docsaveoptions/saveroutingslip/
 ---
 ## DocSaveOptions.SaveRoutingSlip property
 
-Когда`ЛОЖЬ` , данные RoutingSlip не сохраняются в выходной документ. Значение по умолчанию: **истинный** .
+Когда`ЛОЖЬ` , данные RoutingSlip не сохраняются в выходной документ. Значение по умолчанию:`истинный` .
 
 ```csharp
 public bool SaveRoutingSlip { get; set; }
@@ -16,7 +16,7 @@ public bool SaveRoutingSlip { get; set; }
 
 ### Примеры
 
-Показывает, как установить параметры сохранения для старых форматов Microsoft Word.
+Показывает, как настроить параметры сохранения для старых форматов Microsoft Word.
 
 ```csharp
 Document doc = new Document();
@@ -26,10 +26,10 @@ builder.Write("Hello world!");
 DocSaveOptions options = new DocSaveOptions(SaveFormat.Doc);
 
 // Установите пароль, который защитит загрузку документа Microsoft Word или Aspose.Words.
-// Обратите внимание, что это никоим образом не шифрует содержимое документа.
+// Обратите внимание, что это никак не шифрует содержимое документа.
 options.Password = "MyPassword";
 
-// Если документ содержит маршрутный лист, мы можем сохранить его при сохранении, установив для этого флага значение true.
+// Если документ содержит маршрутную квитанцию, мы можем сохранить ее при сохранении, установив для этого флага значение true.
 options.SaveRoutingSlip = true;
 
 doc.Save(ArtifactsDir + "DocSaveOptions.SaveAsDoc.doc", options);

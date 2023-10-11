@@ -1,14 +1,16 @@
 ---
 title: Class CleanupOptions
 second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.CleanupOptions classe. Consente di specificare le opzioni per la pulizia dei documenti.
+description: Aspose.Words.CleanupOptions classe. Permette di specificare le opzioni per la pulizia dei documenti.
 type: docs
-weight: 200
+weight: 210
 url: /it/net/aspose.words/cleanupoptions/
 ---
 ## CleanupOptions class
 
-Consente di specificare le opzioni per la pulizia dei documenti.
+Permette di specificare le opzioni per la pulizia dei documenti.
+
+Per saperne di più, visita il[Pulisci un documento](https://docs.aspose.com/words/net/clean-up-a-document/) articolo di documentazione.
 
 ```csharp
 public class CleanupOptions
@@ -24,10 +26,10 @@ public class CleanupOptions
 
 | Nome | Descrizione |
 | --- | --- |
-| [DuplicateStyle](../../aspose.words/cleanupoptions/duplicatestyle/) { get; set; } | Ottiene/imposta un flag che indica se gli stili duplicati devono essere rimossi dal documento. Il valore predefinito è **falso** . |
-| [UnusedBuiltinStyles](../../aspose.words/cleanupoptions/unusedbuiltinstyles/) { get; set; } | Specifica quello inutilizzato[`BuiltIn`](../style/builtin/) gli stili devono essere rimossi dal documento. |
-| [UnusedLists](../../aspose.words/cleanupoptions/unusedlists/) { get; set; } | Specifica se l'elenco e le definizioni degli elenchi inutilizzati devono essere rimossi dal documento. Il valore predefinito è **VERO** . |
-| [UnusedStyles](../../aspose.words/cleanupoptions/unusedstyles/) { get; set; } | Specifica se gli stili inutilizzati devono essere rimossi dal documento. Il valore predefinito è **VERO** . |
+| [DuplicateStyle](../../aspose.words/cleanupoptions/duplicatestyle/) { get; set; } | Ottiene/imposta un flag che indica se gli stili duplicati devono essere rimossi dal documento. Il valore predefinito è`falso` . |
+| [UnusedBuiltinStyles](../../aspose.words/cleanupoptions/unusedbuiltinstyles/) { get; set; } | Specifica quello inutilizzato[`BuiltIn`](../style/builtin/) gli stili dovrebbero essere rimossi dal documento. |
+| [UnusedLists](../../aspose.words/cleanupoptions/unusedlists/) { get; set; } | Specifica se l'elenco inutilizzato e le definizioni dell'elenco devono essere rimossi dal documento. Il valore predefinito è`VERO` . |
+| [UnusedStyles](../../aspose.words/cleanupoptions/unusedstyles/) { get; set; } | Specifica se gli stili inutilizzati devono essere rimossi dal documento. Il valore predefinito è`VERO` . |
 
 ### Esempi
 
@@ -41,12 +43,12 @@ doc.Styles.Add(StyleType.List, "MyListStyle2");
 doc.Styles.Add(StyleType.Character, "MyParagraphStyle1");
 doc.Styles.Add(StyleType.Character, "MyParagraphStyle2");
 
-// Combinato con gli stili incorporati, il documento ora ha otto stili.
-// Uno stile personalizzato è contrassegnato come "usato" mentre è presente del testo all'interno del documento
-// formattato in quello stile. Ciò significa che i 4 stili che abbiamo aggiunto non sono attualmente utilizzati.
+// In combinazione con gli stili incorporati, il documento ora ha otto stili.
+// Uno stile personalizzato è contrassegnato come "usato" mentre è presente testo nel documento
+// formattato in quello stile. Ciò significa che i 4 stili che abbiamo aggiunto sono attualmente inutilizzati.
 Assert.AreEqual(8, doc.Styles.Count);
 
-// Applica uno stile di carattere personalizzato, quindi uno stile di elenco personalizzato. In questo modo verranno contrassegnati come "usati".
+// Applica uno stile di carattere personalizzato e quindi uno stile di elenco personalizzato. Ciò li contrassegnerà come "usati".
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Font.Style = doc.Styles["MyParagraphStyle1"];
 builder.Writeln("Hello world!");
@@ -57,7 +59,7 @@ builder.Writeln("Item 1");
 builder.Writeln("Item 2");
 
 // Ora c'è uno stile di carattere inutilizzato e uno stile di elenco inutilizzato.
-// Il metodo Cleanup(), se configurato con un oggetto CleanupOptions, può indirizzare gli stili inutilizzati e rimuoverli.
+// Il metodo Cleanup(), se configurato con un oggetto CleanupOptions, può prendere di mira gli stili inutilizzati e rimuoverli.
 CleanupOptions cleanupOptions = new CleanupOptions
 {
     UnusedLists = true, UnusedStyles = true, UnusedBuiltinStyles = true
@@ -67,8 +69,8 @@ doc.Cleanup(cleanupOptions);
 
 Assert.AreEqual(4, doc.Styles.Count);
 
-// Rimuove ogni nodo a cui viene applicato uno stile personalizzato e lo contrassegna nuovamente come "non utilizzato". 
-// Esegui nuovamente il metodo Cleanup per rimuoverli.
+ // La rimozione di ogni nodo a cui viene applicato uno stile personalizzato lo contrassegna nuovamente come "inutilizzato".
+// Eseguire nuovamente il metodo Cleanup per rimuoverli.
 doc.FirstSection.Body.RemoveAllChildren();
 doc.Cleanup(cleanupOptions);
 

@@ -1,14 +1,14 @@
 ---
 title: Document.LayoutOptions
 second_title: Aspose.Words för .NET API Referens
-description: Document fast egendom. Får en Layoutalternativ objekt som representerar alternativ för att styra layoutprocessen för detta dokument.
+description: Document fast egendom. Får enLayoutOptions objekt som representerar alternativ för att styra layoutprocessen för detta dokument.
 type: docs
-weight: 230
+weight: 250
 url: /sv/net/aspose.words/document/layoutoptions/
 ---
 ## Document.LayoutOptions property
 
-Får en **Layoutalternativ** objekt som representerar alternativ för att styra layoutprocessen för detta dokument.
+Får en[`LayoutOptions`](../../../aspose.words.layout/layoutoptions/) objekt som representerar alternativ för att styra layoutprocessen för detta dokument.
 
 ```csharp
 public LayoutOptions LayoutOptions { get; }

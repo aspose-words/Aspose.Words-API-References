@@ -3,7 +3,7 @@ title: DocumentBuilder.InsertSignatureLine
 second_title: Referencia de API de Aspose.Words para .NET
 description: DocumentBuilder método. Inserta una línea de firma en la posición actual.
 type: docs
-weight: 420
+weight: 450
 url: /es/net/aspose.words/documentbuilder/insertsignatureline/
 ---
 ## InsertSignatureLine(SignatureLineOptions) {#insertsignatureline}
@@ -62,8 +62,8 @@ CertificateHolder certHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "a
 DigitalSignatureUtil.Sign(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.docx", 
     ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx", certHolder, signOptions);
 
-// Vuelva a abrir nuestro documento guardado y verifique que las propiedades "IsSigned" y "IsValid" sean iguales a "true",
-// indicando que la línea de la firma contiene una firma.
+// Vuelva a abrir nuestro documento guardado y verifique que las propiedades "IsSigned" e "IsValid" sean iguales a "true",
+// indicando que la línea de firma contiene una firma.
 doc = new Document(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx");
 Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
 signatureLine = shape.SignatureLine;
@@ -95,11 +95,11 @@ public Shape InsertSignatureLine(SignatureLineOptions signatureLineOptions,
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
 | signatureLineOptions | SignatureLineOptions | El objeto que almacena los parámetros de creación de la línea de firma. |
-| horzPos | RelativeHorizontalPosition | Especifica desde dónde se mide la distancia a la línea de la firma. |
-| left | Double | Distancia en puntos desde el origen hasta el lado izquierdo de la línea de la firma. |
-| vertPos | RelativeVerticalPosition | Especifica desde dónde se mide la distancia hasta la línea de la firma. |
-| top | Double | Distancia en puntos desde el origen hasta el lado superior de la línea de la firma. |
-| wrapType | WrapType | Especifica cómo ajustar el texto alrededor de la línea de la firma. |
+| horzPos | RelativeHorizontalPosition | Especifica desde dónde se mide la distancia a la línea de firma. |
+| left | Double | Distancia en puntos desde el origen hasta el lado izquierdo de la línea de firma. |
+| vertPos | RelativeVerticalPosition | Especifica desde dónde se mide la distancia hasta la línea de firma. |
+| top | Double | Distancia en puntos desde el origen hasta el lado superior de la línea de firma. |
+| wrapType | WrapType | Especifica cómo ajustar el texto alrededor de la línea de firma. |
 
 ### Valor_devuelto
 
@@ -107,7 +107,7 @@ El nodo de línea de firma que se acaba de insertar.
 
 ### Observaciones
 
-Puede cambiar el tamaño de la imagen, la ubicación, el método de posicionamiento y otras configuraciones usando el [`Shape`](../../../aspose.words.drawing/shape/) objeto devuelto por este método.
+Puede cambiar el tamaño de la imagen, la ubicación, el método de posicionamiento y otras configuraciones usando [`Shape`](../../../aspose.words.drawing/shape/) objeto devuelto por este método.
 
 ### Ejemplos
 

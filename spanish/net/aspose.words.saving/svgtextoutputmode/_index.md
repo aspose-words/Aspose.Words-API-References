@@ -1,12 +1,14 @@
 ---
 title: Enum SvgTextOutputMode
 second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Saving.SvgTextOutputMode enumeración. 
+description: Aspose.Words.Saving.SvgTextOutputMode enumeración. Permite especificar cómo se debe representar el texto dentro de un documento al guardarlo en formato SVG.
 type: docs
-weight: 5330
+weight: 5610
 url: /es/net/aspose.words.saving/svgtextoutputmode/
 ---
 ## SvgTextOutputMode enumeration
+
+Permite especificar cómo se debe representar el texto dentro de un documento al guardarlo en formato SVG.
 
 ```csharp
 public enum SvgTextOutputMode
@@ -17,8 +19,8 @@ public enum SvgTextOutputMode
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
 | UseSvgFonts | `0` | Las fuentes SVG se utilizan para representar texto. Tenga en cuenta que no todos los navegadores admiten fuentes SVG. |
-| UseTargetMachineFonts | `1` | Las fuentes instaladas en la máquina de destino se utilizan para representar el texto. Tenga en cuenta que si algunas de las fuentes utilizadas en el documento no están disponibles en la máquina de destino, el documento puede tener un aspecto diferente. |
-| UsePlacedGlyphs | `2` | El texto se representa mediante curvas. Tenga en cuenta que la selección de texto no funcionará si usa esta opción. |
+| UseTargetMachineFonts | `1` | Las fuentes instaladas en la máquina de destino se utilizan para representar el texto. Nota: si algunas de las fuentes utilizadas en el documento no están disponibles en la máquina de destino, el documento puede verse diferente. |
+| UsePlacedGlyphs | `2` | El texto se representa mediante curvas. Tenga en cuenta que la selección de texto no funcionará si utiliza esta opción. |
 
 ### Ejemplos
 

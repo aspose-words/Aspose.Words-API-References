@@ -3,7 +3,7 @@ title: Style.ParagraphFormat
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Style propriété. Obtient la mise en forme du paragraphe du style.
 type: docs
-weight: 130
+weight: 150
 url: /fr/net/aspose.words/style/paragraphformat/
 ---
 ## Style.ParagraphFormat property
@@ -16,7 +16,7 @@ public ParagraphFormat ParagraphFormat { get; }
 
 ### Remarques
 
-Pour les styles de caractère et de liste, cette propriété renvoie null.
+Pour les styles de caractères et de liste, cette propriété renvoie`nul`.
 
 ### Exemples
 
@@ -36,11 +36,11 @@ style.ParagraphFormat.SpaceAfter = 12;
 style.ListFormat.List = doc.Lists.Add(ListTemplate.BulletDefault);
 style.ListFormat.ListLevelNumber = 0;
 
-// Appliquez le style de paragraphe au paragraphe actuel du générateur de document, puis ajoutez du texte.
+// Applique le style de paragraphe au paragraphe actuel du générateur de documents, puis ajoute du texte.
 builder.ParagraphFormat.Style = style;
 builder.Writeln("Hello World: MyStyle1, bulleted list.");
 
-// Modifiez le style du générateur de document en un style qui n'a pas de formatage de liste et écrivez un autre paragraphe.
+// Changez le style du générateur de documents en un style sans formatage de liste et écrivez un autre paragraphe.
 builder.ParagraphFormat.Style = doc.Styles["Normal"];
 builder.Writeln("Hello World: Normal.");
 

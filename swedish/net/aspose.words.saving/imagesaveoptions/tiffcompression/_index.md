@@ -3,7 +3,7 @@ title: ImageSaveOptions.TiffCompression
 second_title: Aspose.Words för .NET API Referens
 description: ImageSaveOptions fast egendom. Hämtar eller ställer in vilken typ av komprimering som ska tillämpas när genererade bilder sparas i TIFFformatet.
 type: docs
-weight: 170
+weight: 180
 url: /sv/net/aspose.words.saving/imagesaveoptions/tiffcompression/
 ---
 ## ImageSaveOptions.TiffCompression property

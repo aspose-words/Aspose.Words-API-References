@@ -1,14 +1,14 @@
 ---
 title: Document.FieldOptions
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Document propriété. Obtient un Options de champobjet qui représente les options pour contrôler la gestion des champs dans le document.
+description: Document propriété. Obtient unFieldOptions objet qui représente les options permettant de contrôler la gestion des champs dans le document.
 type: docs
 weight: 120
 url: /fr/net/aspose.words/document/fieldoptions/
 ---
 ## Document.FieldOptions property
 
-Obtient un **Options de champ**objet qui représente les options pour contrôler la gestion des champs dans le document.
+Obtient un[`FieldOptions`](../../../aspose.words.fields/fieldoptions/) objet qui représente les options permettant de contrôler la gestion des champs dans le document.
 
 ```csharp
 public FieldOptions FieldOptions { get; }
@@ -32,17 +32,17 @@ builder.InsertField("MERGEFIELD Date2 \\@ \"dddd, d MMMM yyyy\"");
 CultureInfo currentCulture = Thread.CurrentThread.CurrentCulture;
 Thread.CurrentThread.CurrentCulture = new CultureInfo("en-US");
 
-// Cette fusion utilisera la culture du thread actuel pour formater la date, en anglais américain.
+// Cette fusion utilisera la culture du fil de discussion actuel pour formater la date, en anglais américain.
 doc.MailMerge.Execute(new[] { "Date1" }, new object[] { new DateTime(2020, 1, 01) });
 
-// Configurez la prochaine fusion pour obtenir sa valeur de culture à partir du code de champ. La valeur de cette culture sera l'allemand.
+// Configurez la prochaine fusion pour obtenir sa valeur de culture à partir du code de champ. La valeur de cette culture sera allemande.
 doc.FieldOptions.FieldUpdateCultureSource = FieldUpdateCultureSource.FieldCode;
 doc.MailMerge.Execute(new[] { "Date2" }, new object[] { new DateTime(2020, 1, 01) });
 
-// Le premier résultat de fusion contient une date formatée en anglais, tandis que le second est en allemand.
+// Le premier résultat de fusion contient une date formatée en anglais, tandis que la seconde est en allemand.
 Assert.AreEqual("Wednesday, 1 January 2020 - Mittwoch, 1 Januar 2020", doc.Range.Text.Trim());
 
-// Restaure la culture d'origine du thread.
+// Restaurer la culture d'origine du fil.
 Thread.CurrentThread.CurrentCulture = currentCulture;
 ```
 

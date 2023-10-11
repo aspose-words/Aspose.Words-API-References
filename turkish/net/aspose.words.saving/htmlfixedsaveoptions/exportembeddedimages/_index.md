@@ -1,14 +1,14 @@
 ---
 title: HtmlFixedSaveOptions.ExportEmbeddedImages
 second_title: Aspose.Words for .NET API Referansı
-description: HtmlFixedSaveOptions mülk. Görüntülerin Html belgesine Base64 biçiminde gömülmesi gerekip gerekmediğini belirtir. Bu bayrağın ayarlanması çıktı Html dosyasının boyutunu önemli ölçüde artırabilir.
+description: HtmlFixedSaveOptions mülk. Görüntülerin Html belgesine Base64 biçiminde gömülmesi gerekip gerekmediğini belirtir. Bu bayrağın ayarlanmasının çıktı Html dosyasının boyutunu önemli ölçüde artırabileceğini unutmayın.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.saving/htmlfixedsaveoptions/exportembeddedimages/
 ---
 ## HtmlFixedSaveOptions.ExportEmbeddedImages property
 
-Görüntülerin Html belgesine Base64 biçiminde gömülmesi gerekip gerekmediğini belirtir. Bu bayrağın ayarlanması, çıktı Html dosyasının boyutunu önemli ölçüde artırabilir.
+Görüntülerin Html belgesine Base64 biçiminde gömülmesi gerekip gerekmediğini belirtir. Bu bayrağın ayarlanmasının çıktı Html dosyasının boyutunu önemli ölçüde artırabileceğini unutmayın.
 
 ```csharp
 public bool ExportEmbeddedImages { get; set; }
@@ -16,17 +16,17 @@ public bool ExportEmbeddedImages { get; set; }
 
 ### Örnekler
 
-Bir belgeyi Html'e aktarırken görüntülerin nerede saklanacağının nasıl belirleneceğini gösterir.
+Bir belgeyi Html'ye aktarırken görüntülerin nerede saklanacağının nasıl belirleneceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Images.docx");
 
-// Gömülü resimler içeren bir belgeyi .html'ye aktardığımızda,
+// Gömülü görseller içeren bir belgeyi .html'ye aktardığımızda,
 // Aspose.Words görüntüleri iki olası konuma yerleştirebilir.
-// "ExportEmbeddedImages" bayrağının "true" olarak ayarlanması ham verileri depolayacaktır
-// çıktı HTML belgesindeki tüm resimler için, <image> etiketler.
-// Bu bayrağı "false" olarak ayarlamak, her görüntü için yerel dosya sisteminde bir görüntü dosyası oluşturacaktır,
-// ve tüm bu dosyaları ayrı bir klasörde saklayın.
+// "ExportEmbeddedImages" bayrağını "true" olarak ayarlamak ham verileri depolayacaktır
+// çıktı HTML belgesindeki tüm görüntüler için, <image> öğesinin "src" özelliğinde; Etiketler.
+// Bu bayrağın "yanlış" olarak ayarlanması, yerel dosya sisteminde her görüntü için bir görüntü dosyası oluşturacaktır,
+// ve tüm bu dosyaları ayrı bir klasörde saklıyoruz.
 HtmlFixedSaveOptions htmlFixedSaveOptions = new HtmlFixedSaveOptions
 {
     ExportEmbeddedImages = exportImages

@@ -1,14 +1,14 @@
 ---
 title: CellFormat.Width
 second_title: Aspose.Words für .NET-API-Referenz
-description: CellFormat eigendom. Ruft die Breite der Zelle in Punkten ab.
+description: CellFormat eigendom. Ermittelt die Breite der Zelle in Punkten.
 type: docs
-weight: 130
+weight: 140
 url: /de/net/aspose.words.tables/cellformat/width/
 ---
 ## CellFormat.Width property
 
-Ruft die Breite der Zelle in Punkten ab.
+Ermittelt die Breite der Zelle in Punkten.
 
 ```csharp
 public double Width { get; set; }
@@ -16,9 +16,9 @@ public double Width { get; set; }
 
 ### Bemerkungen
 
-Die Breite wird von Aspose.Words beim Laden und Speichern des Dokuments berechnet. Derzeit wird nicht jede Kombination von Tabellen-, Zellen- und Dokumenteigenschaften unterstützt. Der zurückgegebene Wert ist möglicherweise für einige Dokumente nicht genau. Er stimmt möglicherweise nicht genau mit dem überein Zellenbreite wie von MS Word berechnet, wenn das Dokument in MS Word geöffnet wird.
+Die Breite wird von Aspose.Words beim Laden und Speichern von Dokumenten berechnet. Derzeit wird nicht jede Kombination von Tabellen-, Zellen- und Dokumenteigenschaften unterstützt. Der zurückgegebene Wert ist für einige Dokumente möglicherweise nicht genau. Er stimmt möglicherweise nicht genau mit dem überein Zellenbreite, wie von MS Word berechnet, wenn das Dokument in MS Word geöffnet wird.
 
-Das Festlegen dieser Eigenschaft wird nicht empfohlen. Es gibt keine Garantie dafür, dass die Zelle tatsächlich die festgelegte Breite hat. Die Breite kann angepasst werden, um Zellinhalte in einem automatisch angepassten Tabellenlayout aufzunehmen. Zellen in anderen Zeilen können widersprüchliche Breiten haben settings. Die Größe der Tabelle kann geändert werden, damit sie in den Container passt oder den Einstellungen für die Tabellenbreite entspricht. Erwägen Sie die Verwendung[`PreferredWidth`](../preferredwidth/) zum Festlegen der Zellenbreite. Festlegen dieser Eigenschaftssätze[`PreferredWidth`](../preferredwidth/)implizit seit Version 15.8.
+Das Festlegen dieser Eigenschaft wird nicht empfohlen. Es gibt keine Garantie dafür, dass die Zelle tatsächlich die festgelegte Breite hat. Die Breite kann angepasst werden, um Zellinhalte in einem automatisch angepassten Tabellenlayout zu berücksichtigen. Zellen in anderen Zeilen können eine widersprüchliche Breite haben Einstellungen. Die Größe der Tabelle kann geändert werden, damit sie in den Container passt oder den Tabellenbreiteneinstellungen entspricht. Erwägen Sie die Verwendung[`PreferredWidth`](../preferredwidth/) zum Festlegen der Zellenbreite. Festlegen dieser Eigenschaftssätze[`PreferredWidth`](../preferredwidth/)implizit seit Version 15.8.
 
 ### Beispiele
 
@@ -32,8 +32,8 @@ Table table = builder.StartTable();
 builder.InsertCell();
 builder.Write("Row 1, cell 1.");
 
-// Eine zweite Zelle einfügen und dann Optionen zum Auffüllen des Zelltextes konfigurieren.
-// Der Builder wendet diese Einstellungen auf seine aktuelle Zelle an und erstellt danach alle neuen Zellen.
+// Fügen Sie eine zweite Zelle ein und konfigurieren Sie dann die Optionen zum Auffüllen des Zellentexts.
+// Der Builder wendet diese Einstellungen auf die aktuelle Zelle an und erstellt anschließend alle neuen Zellen.
 builder.InsertCell();
 
 CellFormat cellFormat = builder.CellFormat;
@@ -47,7 +47,7 @@ builder.Write("Row 1, cell 2.");
 builder.EndRow();
 builder.EndTable();
 
-// Die erste Zelle war von der Padding-Neukonfiguration nicht betroffen und enthält immer noch die Standardwerte.
+// Die erste Zelle war von der Neukonfiguration der Auffüllung nicht betroffen und enthält weiterhin die Standardwerte.
 Assert.AreEqual(0.0d, table.FirstRow.Cells[0].CellFormat.Width);
 Assert.AreEqual(5.4d, table.FirstRow.Cells[0].CellFormat.LeftPadding);
 Assert.AreEqual(5.4d, table.FirstRow.Cells[0].CellFormat.RightPadding);
@@ -60,11 +60,11 @@ Assert.AreEqual(30.0d, table.FirstRow.Cells[1].CellFormat.RightPadding);
 Assert.AreEqual(30.0d, table.FirstRow.Cells[1].CellFormat.TopPadding);
 Assert.AreEqual(30.0d, table.FirstRow.Cells[1].CellFormat.BottomPadding);
 
-// Die erste Zelle wird im Ausgabedokument immer noch größer, um sie an die Größe der benachbarten Zelle anzupassen.
+// Die erste Zelle wird im Ausgabedokument weiterhin vergrößert, um der Größe der benachbarten Zelle zu entsprechen.
 doc.Save(ArtifactsDir + "DocumentBuilder.SetCellFormatting.docx");
 ```
 
-Zeigt, wie eine Tabelle mit benutzerdefinierten Rahmen erstellt wird.
+Zeigt, wie man eine Tabelle mit benutzerdefinierten Rändern erstellt.
 
 ```csharp
 Document doc = new Document();
@@ -96,9 +96,9 @@ builder.InsertCell();
 builder.Write("Row 1, Col 2");
 builder.EndRow();
 
-// Wenn Sie die Formatierung ändern, wird sie auf die aktuelle Zelle angewendet,
-// und alle neuen Zellen, die wir danach mit dem Builder erstellen.
-// Dies wirkt sich nicht auf die zuvor hinzugefügten Zellen aus.
+// Wenn Sie die Formatierung ändern, wird sie auf die aktuelle Zelle angewendet.
+// und alle neuen Zellen, die wir anschließend mit dem Builder erstellen.
+// Dies hat keine Auswirkungen auf die Zellen, die wir zuvor hinzugefügt haben.
 builder.CellFormat.Shading.ClearFormatting();
 
 builder.InsertCell();
@@ -109,7 +109,7 @@ builder.Write("Row 2, Col 2");
 
 builder.EndRow();
 
-// Erhöhen Sie die Zeilenhöhe, um sie an den vertikalen Text anzupassen.
+// Zeilenhöhe erhöhen, um sie an den vertikalen Text anzupassen.
 builder.InsertCell();
 builder.RowFormat.Height = 150;
 builder.CellFormat.Orientation = TextOrientation.Upward;

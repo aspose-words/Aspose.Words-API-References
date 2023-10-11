@@ -1,14 +1,14 @@
 ---
 title: Document.DefaultTabStop
 second_title: Aspose.Words for .NET API Referansı
-description: Document mülk. Varsayılan sekme durakları arasındaki aralığı nokta olarak alır veya ayarlar.
+description: Document mülk. Varsayılan sekme durakları arasındaki aralığı puan cinsinden alır veya ayarlar.
 type: docs
 weight: 90
 url: /tr/net/aspose.words/document/defaulttabstop/
 ---
 ## Document.DefaultTabStop property
 
-Varsayılan sekme durakları arasındaki aralığı (nokta olarak) alır veya ayarlar.
+Varsayılan sekme durakları arasındaki aralığı (puan cinsinden) alır veya ayarlar.
 
 ```csharp
 public double DefaultTabStop { get; set; }
@@ -16,7 +16,7 @@ public double DefaultTabStop { get; set; }
 
 ### Örnekler
 
-Sekme durdurma konumları için özel bir aralığın nasıl ayarlanacağını gösterir.
+Sekme durağı konumları için özel aralığın nasıl ayarlanacağını gösterir.
 
 ```csharp
 Document doc = new Document();

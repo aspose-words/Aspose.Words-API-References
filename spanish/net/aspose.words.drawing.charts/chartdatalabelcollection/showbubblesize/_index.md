@@ -1,14 +1,14 @@
 ---
 title: ChartDataLabelCollection.ShowBubbleSize
 second_title: Referencia de API de Aspose.Words para .NET
-description: ChartDataLabelCollection propiedad. Permite especificar si se mostrará el tamaño de la burbuja para las etiquetas de datos de toda la serie. Se aplica solo a gráficos de burbujas. El valor predeterminado es falso .
+description: ChartDataLabelCollection propiedad. Permite especificar si se mostrará el tamaño de la burbuja para las etiquetas de datos de toda la serie. Se aplica solo a los gráficos de burbujas. El valor predeterminado esFALSO .
 type: docs
-weight: 50
+weight: 70
 url: /es/net/aspose.words.drawing.charts/chartdatalabelcollection/showbubblesize/
 ---
 ## ChartDataLabelCollection.ShowBubbleSize property
 
-Permite especificar si se mostrará el tamaño de la burbuja para las etiquetas de datos de toda la serie. Se aplica solo a gráficos de burbujas. El valor predeterminado es **falso** .
+Permite especificar si se mostrará el tamaño de la burbuja para las etiquetas de datos de toda la serie. Se aplica solo a los gráficos de burbujas. El valor predeterminado es`FALSO` .
 
 ```csharp
 public bool ShowBubbleSize { get; set; }
@@ -16,7 +16,7 @@ public bool ShowBubbleSize { get; set; }
 
 ### Observaciones
 
-El valor definido para esta propiedad se puede anular para una etiqueta de datos individual con el uso de [`ShowBubbleSize`](../../chartdatalabel/showbubblesize/) propiedad.
+El valor definido para esta propiedad se puede anular para una etiqueta de datos individual usando the [`ShowBubbleSize`](../../chartdatalabel/showbubblesize/) propiedad.
 
 ### Ejemplos
 
@@ -28,10 +28,10 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 Chart chart = builder.InsertChart(ChartType.Bubble, 500, 300).Chart;
 
-// Borre la serie de datos de demostración del gráfico para comenzar con un gráfico limpio.
+// Borra la serie de datos de demostración del gráfico para comenzar con un gráfico limpio.
 chart.Series.Clear();
 
-  // Agregue una serie personalizada con las coordenadas X/Y y el diámetro de cada una de las burbujas.
+// Agrega una serie personalizada con coordenadas X/Y y diámetro de cada una de las burbujas.
 ChartSeries series = chart.Series.Add("Aspose Test Series",
     new[] { 2.9, 3.5, 1.1, 4.0, 4.0 },
     new[] { 1.9, 8.5, 2.1, 6.0, 1.5 },

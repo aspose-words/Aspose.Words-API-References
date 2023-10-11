@@ -1,14 +1,16 @@
 ---
 title: Class FieldFormat
 second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Fields.FieldFormat сорт. Предоставляет типизированный доступ к числовым значениям поля дате и времени а также к общему форматированию.
+description: Aspose.Words.Fields.FieldFormat сорт. Обеспечивает вводимый доступ к числовым значениям поля дате и времени а также общему форматированию.
 type: docs
-weight: 1790
+weight: 1940
 url: /ru/net/aspose.words.fields/fieldformat/
 ---
 ## FieldFormat class
 
-Предоставляет типизированный доступ к числовым значениям поля, дате и времени, а также к общему форматированию.
+Обеспечивает вводимый доступ к числовым значениям поля, дате и времени, а также общему форматированию.
+
+Чтобы узнать больше, посетите[Работа с полями](https://docs.aspose.com/words/net/working-with-fields/) статья документации.
 
 ```csharp
 public class FieldFormat
@@ -19,12 +21,12 @@ public class FieldFormat
 | Имя | Описание |
 | --- | --- |
 | [DateTimeFormat](../../aspose.words.fields/fieldformat/datetimeformat/) { get; set; } | Получает или задает форматирование, которое применяется к результату поля даты и времени. Соответствует переключателю \@. |
-| [GeneralFormats](../../aspose.words.fields/fieldformat/generalformats/) { get; } | Получает набор общих форматов, которые применяются к числовому, текстовому или любому результату поля. Соответствует переключателям \*. |
-| [NumericFormat](../../aspose.words.fields/fieldformat/numericformat/) { get; set; } | Получает или задает форматирование, которое применяется к результату числового поля. Соответствует переключателю \#. |
+| [GeneralFormats](../../aspose.words.fields/fieldformat/generalformats/) { get; } | Получает коллекцию общих форматов, которые применяются к числовым, текстовым или любым результатам поля. Соответствует переключателям \*. |
+| [NumericFormat](../../aspose.words.fields/fieldformat/numericformat/) { get; set; } | Получает или задает форматирование, применяемое к результату числового поля. Соответствует переключателю \#. |
 
 ### Примеры
 
-Показывает, как форматировать результаты поля.
+Показывает, как форматировать результаты полей.
 
 ```csharp
 Document doc = new Document();

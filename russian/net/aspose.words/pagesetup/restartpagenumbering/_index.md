@@ -1,14 +1,14 @@
 ---
 title: PageSetup.RestartPageNumbering
 second_title: Справочник по API Aspose.Words для .NET
-description: PageSetup свойство. Истинный если нумерация страниц начинается с начала раздела.
+description: PageSetup свойство. Истинно если нумерация страниц возобновляется в начале раздела.
 type: docs
-weight: 350
+weight: 360
 url: /ru/net/aspose.words/pagesetup/restartpagenumbering/
 ---
 ## PageSetup.RestartPageNumbering property
 
-**Истинный** если нумерация страниц начинается с начала раздела.
+Истинно, если нумерация страниц возобновляется в начале раздела.
 
 ```csharp
 public bool RestartPageNumbering { get; set; }
@@ -16,7 +16,7 @@ public bool RestartPageNumbering { get; set; }
 
 ### Примечания
 
-Если установлено значение **ЛОЖЬ** , **RestartPageNumbering**свойство переопределит the [`PageStartingNumber`](../pagestartingnumber/) свойство, чтобы нумерация страниц могла продолжаться с предыдущего раздела.
+Если установлено значение`ЛОЖЬ` ,`RestartPageNumbering` свойство переопределит the [`PageStartingNumber`](../pagestartingnumber/) свойство, чтобы нумерация страниц могла продолжаться с предыдущего раздела.
 
 ### Примеры
 
@@ -39,11 +39,11 @@ builder.InsertBreak(BreakType.PageBreak);
 builder.Writeln("Section 2, page 3.");
 
 // Переместите конструктор документов в основной заголовок первого раздела,
-// который будет отображаться на каждой странице в этом разделе.
+// который будет отображаться на каждой странице этого раздела.
 builder.MoveToSection(0);
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 
-// Вставляем поле PAGE, в котором будет отображаться номер текущей страницы.
+// Вставляем поле СТРАНИЦА, в котором будет отображаться номер текущей страницы.
 builder.Write("Page ");
 builder.InsertField("PAGE", "");
 
@@ -63,7 +63,7 @@ builder.InsertField("PAGE", "");
 builder.Write(" - ");
 
 // Настройте раздел так, чтобы количество страниц, отображаемых в полях PAGE, начиналось с 10.
-// Кроме того, настройте все поля PAGE для отображения номеров страниц с использованием арабских цифр.
+// Также настройте все поля PAGE для отображения номеров страниц с использованием арабских цифр.
 pageSetup = doc.Sections[1].PageSetup;
 pageSetup.PageStartingNumber = 10;
 pageSetup.RestartPageNumbering = true;

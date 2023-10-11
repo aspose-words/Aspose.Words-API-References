@@ -16,7 +16,7 @@ public void RemoveAt(int index)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| index | Int32 | Det nollbaserade indexet för ChartSeries att ta bort. |
+| index | Int32 | Det nollbaserade indexet för[`ChartSeries`](../../chartseries/) att ta bort. |
 
 ### Exempel
 
@@ -51,13 +51,11 @@ string[] categories = { "Category 1", "Category 2", "Category 3", "Category 4" }
 // Vi kan lägga till en serie med nya värden för befintliga kategorier.
 // Detta diagram kommer nu att innehålla fyra kluster med fyra kolumner.
 chart.Series.Add("Series 4", categories, new[] { 4.4, 7.0, 3.5, 2.1 });
-
 // En diagramserie kan också tas bort med index, så här.
 // Detta tar bort en av de tre demoserierna som följde med diagrammet.
 chartData.RemoveAt(2);
 
 Assert.False(chartData.Any(s => s.Name == "Series 3"));
-
 // Vi kan också rensa alla diagrammets data på en gång med den här metoden.
 // När du skapar ett nytt diagram är det här sättet att torka all demodata
 // innan vi kan börja arbeta på ett tomt diagram.

@@ -3,12 +3,14 @@ title: Class UserInformation
 second_title: Aspose.Words per .NET API Reference
 description: Aspose.Words.Fields.UserInformation classe. Specifica le informazioni sullutente.
 type: docs
-weight: 2610
+weight: 2790
 url: /it/net/aspose.words.fields/userinformation/
 ---
 ## UserInformation class
 
 Specifica le informazioni sull'utente.
+
+Per saperne di più, visita il[Lavorare con i campi](https://docs.aspose.com/words/net/working-with-fields/) articolo di documentazione.
 
 ```csharp
 public class UserInformation
@@ -31,7 +33,7 @@ public class UserInformation
 
 ### Esempi
 
-Mostra come impostare i dettagli utente e visualizzarli utilizzando i campi.
+Mostra come impostare i dettagli dell'utente e visualizzarli utilizzando i campi.
 
 ```csharp
 Document doc = new Document();
@@ -46,8 +48,8 @@ UserInformation userInformation = new UserInformation
 };
 doc.FieldOptions.CurrentUser = userInformation;
 
-// Inserisce i campi USERNAME, USERINITIALS e USERADDRESS, che mostrano i valori di
-// le rispettive proprietà dell'oggetto UserInformation che abbiamo creato sopra. 
+// Inserisci i campi USERNAME, USERINITIALS e USERADDRESS, che visualizzano i valori di
+ // le rispettive proprietà dell'oggetto UserInformation che abbiamo creato sopra.
 Assert.AreEqual(userInformation.Name, builder.InsertField(" USERNAME ").Result);
 Assert.AreEqual(userInformation.Initials, builder.InsertField(" USERINITIALS ").Result);
 Assert.AreEqual(userInformation.Address, builder.InsertField(" USERADDRESS ").Result);

@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.UseSingleBorderforContiguousCells
 second_title: Aspose.Words for .NET API Referansı
-description: CompatibilityOptions mülk. Tablo Kenarlığı Çakışmaları İçin Basitleştirilmiş Kuralları Kullanın.
+description: CompatibilityOptions mülk. Tablo Sınırı Çakışmaları İçin Basitleştirilmiş Kurallar Kullanın.
 type: docs
 weight: 650
 url: /tr/net/aspose.words.settings/compatibilityoptions/usesingleborderforcontiguouscells/
 ---
 ## CompatibilityOptions.UseSingleBorderforContiguousCells property
 
-Tablo Kenarlığı Çakışmaları İçin Basitleştirilmiş Kuralları Kullanın.
+Tablo Sınırı Çakışmaları İçin Basitleştirilmiş Kurallar Kullanın.
 
 ```csharp
 public bool UseSingleBorderforContiguousCells { get; set; }

@@ -20,35 +20,35 @@ public override bool Accept(DocumentVisitor visitor)
 
 ### Return_Value
 
-Vrai si tous les nœuds ont été visités ; false si DocumentVisitor a arrêté l'opération avant de visiter tous les nœuds.
+Vrai si tous les nœuds ont été visités ; faux si[`DocumentVisitor`](../../../aspose.words/documentvisitor/) arrêté l'opération avant de visiter tous les nœuds.
 
 ### Remarques
 
-Énumère ce nœud et tous ses enfants. Chaque nœud appelle une méthode correspondante sur DocumentVisitor.
+Énumère ce nœud et tous ses enfants. Chaque nœud appelle une méthode correspondante sur[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
 
-Pour plus d'informations, consultez le modèle de conception Visiteur.
+Pour plus d’informations, consultez le modèle de conception Visiteur.
 
-Appels[`VisitSmartTagStart`](../../../aspose.words/documentvisitor/visitsmarttagstart/) , puis appelle[`Accept`](../../../aspose.words/node/accept/)pour all nœuds enfants de la balise active et des appels[`VisitSmartTagEnd`](../../../aspose.words/documentvisitor/visitsmarttagend/) à la fin.
+Appels[`VisitSmartTagStart`](../../../aspose.words/documentvisitor/visitsmarttagstart/) , puis appelle[`Accept`](../../../aspose.words/node/accept/) pour all nœuds enfants de la balise active et des appels[`VisitSmartTagEnd`](../../../aspose.words/documentvisitor/visitsmarttagend/) à la fin.
 
 ### Exemples
 
-Montre comment créer des balises actives.
+Montre comment créer des balises intelligentes.
 
 ```csharp
 public void Create()
 {
     Document doc = new Document();
 
-    // Une balise active apparaît dans un document avec Microsoft Word reconnaît une partie de son texte comme une forme de données,
-    // tel qu'un nom, une date ou une adresse, et le convertit en un lien hypertexte qui affiche un soulignement pointillé violet.
+    // Une balise active apparaît dans un document avec Microsoft Word qui reconnaît une partie de son texte comme une forme de données,
+    // tel qu'un nom, une date ou une adresse, et le convertit en un lien hypertexte affichant un soulignement en pointillés violets.
     SmartTag smartTag = new SmartTag(doc);
 
-    // Les balises actives sont des nœuds composites qui contiennent leur texte reconnu dans son intégralité.
-    // Ajouter manuellement du contenu à cette balise active.
+    // Les balises intelligentes sont des nœuds composites qui contiennent leur texte reconnu dans son intégralité.
+    // Ajoutez manuellement du contenu à cette balise active.
     smartTag.AppendChild(new Run(doc, "May 29, 2019"));
 
     // Microsoft Word peut reconnaître le contenu ci-dessus comme étant une date.
-    // Les balises actives utilisent la propriété "Element" pour refléter le type de données qu'elles contiennent.
+    // Les balises intelligentes utilisent la propriété "Element" pour refléter le type de données qu'elles contiennent.
     smartTag.Element = "date";
 
     // Certains types de balises actives traitent davantage leur contenu dans des propriétés XML personnalisées.
@@ -56,13 +56,13 @@ public void Create()
     smartTag.Properties.Add(new CustomXmlProperty("Month", string.Empty, "5"));
     smartTag.Properties.Add(new CustomXmlProperty("Year", string.Empty, "2019"));
 
-    // Définissez l'URI de la balise intelligente sur la valeur par défaut.
+    // Définit l'URI de la balise intelligente sur la valeur par défaut.
     smartTag.Uri = "urn:schemas-microsoft-com:office:smarttags";
 
     doc.FirstSection.Body.FirstParagraph.AppendChild(smartTag);
     doc.FirstSection.Body.FirstParagraph.AppendChild(new Run(doc, " is a date. "));
 
-    // Crée une autre balise intelligente pour un symbole boursier.
+    // Créez une autre balise intelligente pour un téléscripteur boursier.
     smartTag = new SmartTag(doc);
     smartTag.Element = "stockticker";
     smartTag.Uri = "urn:schemas-microsoft-com:office:smarttags";
@@ -72,13 +72,13 @@ public void Create()
     doc.FirstSection.Body.FirstParagraph.AppendChild(smartTag);
     doc.FirstSection.Body.FirstParagraph.AppendChild(new Run(doc, " is a stock ticker."));
 
-    // Imprimer toutes les balises actives de notre document à l'aide d'un visiteur de document.
+    // Imprime toutes les balises intelligentes de notre document à l'aide d'un visiteur de document.
     doc.Accept(new SmartTagPrinter());
 
     // Les anciennes versions de Microsoft Word prennent en charge les balises actives.
     doc.Save(ArtifactsDir + "SmartTag.Create.doc");
 
-    // Utilisez la méthode "RemoveSmartTags" pour supprimer toutes les balises actives d'un document.
+    // Utilisez la méthode "RemoveSmartTags" pour supprimer toutes les balises intelligentes d'un document.
     Assert.AreEqual(2, doc.GetChildNodes(NodeType.SmartTag, true).Count);
 
     doc.RemoveSmartTags();
@@ -87,7 +87,7 @@ public void Create()
 }
 
 /// <summary>
-/// Imprime les balises actives visitées et leur contenu.
+/// Imprime les balises intelligentes visitées et leur contenu.
 /// </summary>
 private class SmartTagPrinter : DocumentVisitor
 {

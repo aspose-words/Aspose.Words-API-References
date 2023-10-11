@@ -3,7 +3,7 @@ title: PdfSaveOptions.CreateNoteHyperlinks
 second_title: Aspose.Words för .NET API Referens
 description: PdfSaveOptions fast egendom. Anger om fotnots/slutnotsreferenser i huvudtextartikeln ska konverteras till aktiva hyperlänkar. När den klickas leder hyperlänken till motsvarande fotnot/slutnot. Standard ärfalsk .
 type: docs
-weight: 40
+weight: 50
 url: /sv/net/aspose.words.saving/pdfsaveoptions/createnotehyperlinks/
 ---
 ## PdfSaveOptions.CreateNoteHyperlinks property

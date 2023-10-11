@@ -3,7 +3,7 @@ title: Enum Compatibility
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Settings.Compatibility uppräkning. Anger namn på kompatibilitetsalternativ.
 type: docs
-weight: 5480
+weight: 5770
 url: /sv/net/aspose.words.settings/compatibility/
 ---
 ## Compatibility enumeration

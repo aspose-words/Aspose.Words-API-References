@@ -29,7 +29,7 @@ DocSaveOptions options = new DocSaveOptions(SaveFormat.Doc);
 // Nota che questo non crittografa in alcun modo il contenuto del documento.
 options.Password = "MyPassword";
 
-// Se il documento contiene una lista di distribuzione, possiamo conservarla durante il salvataggio impostando questo flag su true.
+// Se il documento contiene una lista di distribuzione, possiamo preservarla durante il salvataggio impostando questo flag su true.
 options.SaveRoutingSlip = true;
 
 doc.Save(ArtifactsDir + "DocSaveOptions.SaveAsDoc.doc", options);
@@ -54,7 +54,7 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 
 ## DocSaveOptions(SaveFormat) {#constructor_1}
 
-Inizializza una nuova istanza di questa classe che può essere utilizzata per salvare un documento nel fileDoc o Dot formato.
+Inizializza una nuova istanza di questa classe che può essere utilizzata per salvare un documento nel fileDoc oppure Dot formato.
 
 ```csharp
 public DocSaveOptions(SaveFormat saveFormat)
@@ -62,7 +62,7 @@ public DocSaveOptions(SaveFormat saveFormat)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| saveFormat | SaveFormat | Può essereDoc oDot. |
+| saveFormat | SaveFormat | Può essereDoc ODot. |
 
 ### Esempi
 
@@ -79,7 +79,7 @@ DocSaveOptions options = new DocSaveOptions(SaveFormat.Doc);
 // Nota che questo non crittografa in alcun modo il contenuto del documento.
 options.Password = "MyPassword";
 
-// Se il documento contiene una lista di distribuzione, possiamo conservarla durante il salvataggio impostando questo flag su true.
+// Se il documento contiene una lista di distribuzione, possiamo preservarla durante il salvataggio impostando questo flag su true.
 options.SaveRoutingSlip = true;
 
 doc.Save(ArtifactsDir + "DocSaveOptions.SaveAsDoc.doc", options);

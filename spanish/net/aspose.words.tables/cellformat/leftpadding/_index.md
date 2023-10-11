@@ -1,14 +1,14 @@
 ---
 title: CellFormat.LeftPadding
 second_title: Referencia de API de Aspose.Words para .NET
-description: CellFormat propiedad. Devuelve o establece la cantidad de espacio en puntos a agregar a la izquierda del contenido de la celda.
+description: CellFormat propiedad. Devuelve o establece la cantidad de espacio en puntos que se agregará a la izquierda del contenido de la celda.
 type: docs
-weight: 50
+weight: 60
 url: /es/net/aspose.words.tables/cellformat/leftpadding/
 ---
 ## CellFormat.LeftPadding property
 
-Devuelve o establece la cantidad de espacio (en puntos) a agregar a la izquierda del contenido de la celda.
+Devuelve o establece la cantidad de espacio (en puntos) que se agregará a la izquierda del contenido de la celda.
 
 ```csharp
 public double LeftPadding { get; set; }
@@ -16,7 +16,7 @@ public double LeftPadding { get; set; }
 
 ### Ejemplos
 
-Muestra cómo formatear celdas con un generador de documentos.
+Muestra cómo dar formato a celdas con un generador de documentos.
 
 ```csharp
 Document doc = new Document();
@@ -26,8 +26,8 @@ Table table = builder.StartTable();
 builder.InsertCell();
 builder.Write("Row 1, cell 1.");
 
-// Inserte una segunda celda y luego configure las opciones de relleno del texto de la celda.
-// El constructor aplicará esta configuración en su celda actual, y cualquier celda nueva se creará después.
+// Inserta una segunda celda y luego configura las opciones de relleno del texto de la celda.
+// El constructor aplicará esta configuración en su celda actual y posteriormente se crearán nuevas celdas.
 builder.InsertCell();
 
 CellFormat cellFormat = builder.CellFormat;
@@ -41,7 +41,7 @@ builder.Write("Row 1, cell 2.");
 builder.EndRow();
 builder.EndTable();
 
-// La primera celda no se vio afectada por la reconfiguración del relleno y aún conserva los valores predeterminados.
+// La primera celda no se vio afectada por la reconfiguración del relleno y aún mantiene los valores predeterminados.
 Assert.AreEqual(0.0d, table.FirstRow.Cells[0].CellFormat.Width);
 Assert.AreEqual(5.4d, table.FirstRow.Cells[0].CellFormat.LeftPadding);
 Assert.AreEqual(5.4d, table.FirstRow.Cells[0].CellFormat.RightPadding);
@@ -54,7 +54,7 @@ Assert.AreEqual(30.0d, table.FirstRow.Cells[1].CellFormat.RightPadding);
 Assert.AreEqual(30.0d, table.FirstRow.Cells[1].CellFormat.TopPadding);
 Assert.AreEqual(30.0d, table.FirstRow.Cells[1].CellFormat.BottomPadding);
 
-// La primera celda aún crecerá en el documento de salida para coincidir con el tamaño de su celda vecina.
+// La primera celda seguirá creciendo en el documento de salida para coincidir con el tamaño de la celda vecina.
 doc.Save(ArtifactsDir + "DocumentBuilder.SetCellFormatting.docx");
 ```
 

@@ -16,17 +16,18 @@ public string Text { get; set; }
 
 ### Osservazioni
 
-Quando viene chiamato il gestore dell'evento, questa proprietà è impostata su null.
+Quando viene chiamato il gestore eventi, questa proprietà è impostata su`nullo`.
 
-Se lasci il testo come null, il motore di stampa unione verrà inserito[`FieldValue`](../../fieldmergingargsbase/fieldvalue/) al posto del campo di unione.
+Se lasci Text as`nullo` , il motore di stampa unione lo inserirà[`FieldValue`](../../fieldmergingargsbase/fieldvalue/) al posto del campo di unione.
 
-Se imposti Testo su qualsiasi stringa (anche vuota), la stringa verrà inserita nel documento al posto del campo di unione.
+Se imposti Testo su qualsiasi stringa (incluso vuoto), la stringa verrà inserita nel documento al posto del campo di unione.
 
 ### Esempi
 
-Mostra come eseguire una stampa unione con una richiamata personalizzata che gestisce i dati di unione sotto forma di documenti HTML.
+Mostra come eseguire una stampa unione con un callback personalizzato che gestisce i dati di unione sotto forma di documenti HTML.
 
 ```csharp
+public void MergeHtml()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -74,7 +75,7 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
             builder.InsertHtml((string)args.FieldValue);
 
             // Poiché abbiamo già inserito manualmente il contenuto unito,
-             // non avremo bisogno di rispondere a questo evento restituendo il contenuto tramite la proprietà "Testo".
+             // non avremo bisogno di rispondere a questo evento restituendo il contenuto tramite la proprietà "Text".
             args.Text = string.Empty;
         }
     }

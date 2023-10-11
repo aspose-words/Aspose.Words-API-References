@@ -1,14 +1,14 @@
 ---
 title: Enum ContentDisposition
 second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.ContentDisposition enum. Enumera diversi modi di presentare il documento al browser del client.
+description: Aspose.Words.ContentDisposition enum. Enumera diversi modi di presentare il documento nel browser client.
 type: docs
-weight: 330
+weight: 340
 url: /it/net/aspose.words/contentdisposition/
 ---
 ## ContentDisposition enumeration
 
-Enumera diversi modi di presentare il documento al browser del client.
+Enumera diversi modi di presentare il documento nel browser client.
 
 ```csharp
 public enum ContentDisposition
@@ -23,7 +23,7 @@ public enum ContentDisposition
 
 ### Osservazioni
 
-Si noti che il comportamento effettivo sul browser client potrebbe essere influenzato dalla configurazione di sicurezza del browser.
+Tieni presente che il comportamento effettivo sul browser client potrebbe essere influenzato dalla configurazione di sicurezza del browser.
 
 ### Esempi
 
@@ -44,11 +44,11 @@ builder.InsertField(" MERGEFIELD City ");
 doc.MailMerge.Execute(new string[] { "FullName", "Company", "Address", "City" },
     new object[] { "James Bond", "MI5 Headquarters", "Milbank", "London" });
 
-// Invia il documento al browser del client.
+// Invia il documento al browser client.
 Assert.That(() => doc.Save(response, "Artifacts/MailMerge.ExecuteArray.docx", ContentDisposition.Inline, null),
-    Throws.TypeOf<ArgumentNullException>()); //Rilasciato perché HttpResponse è nullo nel test.
+    Throws.TypeOf<ArgumentNullException>()); //Generato perché HttpResponse è nullo nel test.
 
-// Dovremo chiudere questa risposta manualmente per assicurarci di non aggiungere contenuto superfluo al documento dopo il salvataggio.
+// Dovremo chiudere manualmente questa risposta per assicurarci di non aggiungere contenuti superflui al documento dopo il salvataggio.
 Assert.That(() => response.End(), Throws.TypeOf<NullReferenceException>());
 ```
 

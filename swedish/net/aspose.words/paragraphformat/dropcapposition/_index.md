@@ -3,7 +3,7 @@ title: ParagraphFormat.DropCapPosition
 second_title: Aspose.Words för .NET API Referens
 description: ParagraphFormat fast egendom. Hämtar eller ställer in positionen för en drop captext.
 type: docs
-weight: 90
+weight: 100
 url: /sv/net/aspose.words/paragraphformat/dropcapposition/
 ---
 ## ParagraphFormat.DropCapPosition property
@@ -23,8 +23,8 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // En lista låter oss organisera och dekorera uppsättningar av stycken med prefixsymboler och indrag.
-// Vi kan skapa kapslade listor genom att öka indragsnivån. 
-// Vi kan börja och avsluta en lista genom att använda en dokumentbyggares "ListFormat"-egenskap. 
+ // Vi kan skapa kapslade listor genom att öka indragsnivån.
+ // Vi kan börja och avsluta en lista genom att använda en dokumentbyggares "ListFormat"-egenskap.
 // Varje stycke som vi lägger till mellan en listas början och slutet kommer att bli ett objekt i listan.
 // Skapa en dispositionslista för rubrikerna.
 List outlineList = doc.Lists.Add(ListTemplate.OutlineNumbers);

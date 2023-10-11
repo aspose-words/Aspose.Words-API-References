@@ -16,15 +16,15 @@ public bool AnchorLocked { get; set; }
 
 ### Observaciones
 
-El valor predeterminado es **falso**.
+El valor predeterminado es`FALSO`.
 
-Solo tiene efecto para las formas de nivel superior.
+Tiene efecto sólo para formas de nivel superior.
 
 Esta propiedad afecta el comportamiento del ancla de la forma en Microsoft Word. Cuando el ancla no está bloqueada, mover la forma en Microsoft Word también puede mover el ancla de la forma.
 
 ### Ejemplos
 
-Muestra cómo bloquear o desbloquear el ancla de párrafo de una forma.
+Muestra cómo bloquear o desbloquear el anclaje de párrafo de una forma.
 
 ```csharp
 Document doc = new Document();
@@ -39,14 +39,14 @@ builder.InsertBreak(BreakType.ParagraphBreak);
 
 builder.Writeln("Hello again!");
 
-// Establecer la propiedad "AnchorLocked" en "true" para evitar el anclaje de la forma
+// Establece la propiedad "AnchorLocked" en "true" para evitar el anclaje de la forma
 // de moverse al mover la forma en Microsoft Word.
-// Establecer la propiedad "AnchorLocked" en "falso" para permitir cualquier movimiento de la forma
+// Establece la propiedad "AnchorLocked" en "false" para permitir cualquier movimiento de la forma
 // para mover también su ancla a cualquier otro párrafo al que la forma termine cerca.
 shape.AnchorLocked = anchorLocked;
 
 // Si la forma no tiene un símbolo de ancla visible a su izquierda,
-// necesitaremos habilitar los anclajes visibles a través de "Opciones" -> "Pantalla" -> "Anclajes de objetos".
+// necesitaremos habilitar anclajes visibles a través de "Opciones" -> "Pantalla" -> "Anclajes de objetos".
 doc.Save(ArtifactsDir + "Shape.AnchorLocked.docx");
 ```
 

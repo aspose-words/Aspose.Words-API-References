@@ -3,7 +3,7 @@ title: DocumentBuilder.InsertField
 second_title: Referencia de API de Aspose.Words para .NET
 description: DocumentBuilder método. Inserta un campo de Word en un documento y opcionalmente actualiza el resultado del campo.
 type: docs
-weight: 300
+weight: 330
 url: /es/net/aspose.words/documentbuilder/insertfield/
 ---
 ## InsertField(FieldType, bool) {#insertfield}
@@ -16,8 +16,8 @@ public Field InsertField(FieldType fieldType, bool updateField)
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| fieldType | FieldType | El tipo del campo a agregar. |
-| updateField | Boolean | Especifica si actualizar el campo inmediatamente. |
+| fieldType | FieldType | El tipo de campo que se va a anexar. |
+| updateField | Boolean | Especifica si se debe actualizar el campo inmediatamente. |
 
 ### Valor_devuelto
 
@@ -35,8 +35,8 @@ Muestra cómo insertar un campo en un documento usando FieldType.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Inserte dos campos mientras pasa una bandera que determina si actualizarlos a medida que el constructor los inserta.
-// En algunos casos, la actualización de campos puede ser computacionalmente costosa y puede ser una buena idea posponer la actualización.
+// Inserta dos campos mientras pasas una bandera que determina si se actualizan a medida que el constructor los inserta.
+// En algunos casos, actualizar los campos puede resultar costoso desde el punto de vista computacional y puede ser una buena idea posponer la actualización.
 doc.BuiltInDocumentProperties.Author = "John Doe";
 builder.Write("This document was written by ");
 builder.InsertField(FieldType.FieldAuthor, updateInsertedFieldsImmediately);
@@ -58,7 +58,7 @@ else
     Assert.AreEqual(string.Empty, doc.Range.Fields[0].Result);
     Assert.AreEqual(string.Empty, doc.Range.Fields[1].Result);
 
-    // Tendremos que actualizar estos campos usando los métodos de actualización manualmente.
+    // Necesitaremos actualizar estos campos utilizando los métodos de actualización manualmente.
     doc.Range.Fields[0].Update();
 
     Assert.AreEqual("John Doe", doc.Range.Fields[0].Result);
@@ -101,7 +101,7 @@ Este método inserta un campo en un documento y actualiza el resultado del campo
 
 ### Ejemplos
 
-Muestra cómo insertar un campo en un documento utilizando un código de campo.
+Muestra cómo insertar un campo en un documento usando un código de campo.
 
 ```csharp
 Document doc = new Document();
@@ -131,10 +131,10 @@ builder.MoveToMergeField("MyMergeField1", true, false);
 Assert.AreEqual(doc.Range.Fields[1].Start, builder.CurrentNode);
 Assert.AreEqual(doc.Range.Fields[0].End, builder.CurrentNode.PreviousSibling);
 
-// Si deseamos editar el código de campo o el contenido del campo usando el constructor,
+// Si deseamos editar el código o el contenido del campo usando el constructor,
 // su cursor debería estar dentro de un campo.
-// Para colocarlo dentro de un campo, necesitaríamos llamar al método MoveTo del generador de documentos
-// y pase el nodo de inicio o separador del campo como argumento.
+// Para colocarlo dentro de un campo, necesitaríamos llamar al método MoveTo del creador de documentos
+// y pasa el nodo de inicio o separador del campo como argumento.
 builder.Write(" Text between our merge fields. ");
 
 doc.Save(ArtifactsDir + "DocumentBuilder.MergeFields.docx");
@@ -160,7 +160,7 @@ public Field InsertField(string fieldCode, string fieldValue)
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
 | fieldCode | String | El código de campo a insertar (sin llaves). |
-| fieldValue | String | El valor del campo a insertar. Pase nulo para los campos que no tienen un valor. |
+| fieldValue | String | El valor del campo a insertar. Aprobar`nulo` para campos que no tienen valor. |
 
 ### Valor_devuelto
 
@@ -168,13 +168,13 @@ A[`Field`](../../../aspose.words.fields/field/) objeto que representa el campo i
 
 ### Observaciones
 
-Los campos en los documentos de Microsoft Word consisten en un código de campo y un resultado de campo. El código de campo es como una fórmula y el resultado de campo es como el valor que produce la fórmula . El código de campo también puede contener switches de campo que son como instrucciones adicionales para realizar una acción específica.
+Los campos en los documentos de Microsoft Word constan de un código de campo y un resultado de campo. El código de campo es como una fórmula y el resultado del campo es como el valor que produce la fórmula. El código de campo también puede contener cambios de campo que son como instrucciones adicionales para realizar una acción específica.
 
 Puede alternar entre mostrar códigos de campo y resultados en su documento en Microsoft Word usando el método abreviado de teclado Alt+F9. Los códigos de campo aparecen entre llaves ( { } ).
 
-Para crear un campo, debe especificar un tipo de campo, un código de campo y un valor de campo de "marcador de posición". Si no está seguro acerca de la sintaxis de un código de campo en particular, cree el campo en Microsoft Word primero y cambie para ver su código de campo .
+Para crear un campo, debe especificar un tipo de campo, un código de campo y un valor de campo "marcador de posición". Si no está seguro acerca de la sintaxis de un código de campo en particular, primero cree el campo en Microsoft Word y cambie para ver su código de campo. .
 
-Aspose.Words puede calcular los resultados de los campos para la mayoría de los tipos de campos, pero este method no actualiza el resultado del campo automáticamente. Debido a que el resultado del campo no se calcula automáticamente, se espera que pase algún valor de cadena (o incluso una cadena vacía) que se insertará en el resultado del campo. Este valor permanecerá en el resultado del campo como un marcador de posición hasta que el campo sea actualizado. Para actualizar el resultado del campo puede llamar[`Update`](../../../aspose.words.fields/field/update/)en el objeto de campo devuelto a usted o[`UpdateFields`](../../document/updatefields/) para actualizar campos en todo el documento.
+Aspose.Words puede calcular resultados de campo para la mayoría de los tipos de campo, pero este método no actualiza el resultado del campo automáticamente. Debido a que el resultado del campo no se calcula automáticamente, se espera que pase algún valor de cadena (o incluso una cadena vacía) que se insertará en el resultado del campo. Este valor permanecerá en el resultado del campo como marcador de posición hasta que el campo sea actualizado. Para actualizar el resultado del campo, puede llamar[`Update`](../../../aspose.words.fields/field/update/)en el objeto de campo devuelto a usted o[`UpdateFields`](../../document/updatefields/) para actualizar campos en todo el documento.
 
 ### Ejemplos
 
@@ -196,12 +196,12 @@ builder.Writeln("Section 2, page 2.");
 builder.InsertBreak(BreakType.PageBreak);
 builder.Writeln("Section 2, page 3.");
 
-// Mover el generador de documentos al encabezado principal de la primera sección,
-// que se mostrará en todas las páginas de esa sección.
+// Mueve el generador de documentos al encabezado principal de la primera sección,
+// que se mostrará en cada página de esa sección.
 builder.MoveToSection(0);
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 
-// Inserta un campo de PÁGINA, que mostrará el número de la página actual.
+// Inserta un campo PÁGINA, que mostrará el número de la página actual.
 builder.Write("Page ");
 builder.InsertField("PAGE", "");
 
@@ -212,7 +212,7 @@ pageSetup.RestartPageNumbering = true;
 pageSetup.PageStartingNumber = 5;
 pageSetup.PageNumberStyle = NumberStyle.UppercaseRoman;
 
-// Cree otro encabezado principal para la segunda sección, con otro campo de PÁGINA.
+// Crea otro encabezado principal para la segunda sección, con otro campo PÁGINA.
 builder.MoveToSection(1);
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;

@@ -1,14 +1,14 @@
 ---
 title: LayoutCollector.Document
 second_title: Aspose.Words für .NET-API-Referenz
-description: LayoutCollector eigendom. Ruft das Dokument ab oder legt es fest an das diese CollectorInstanz angehängt ist.
+description: LayoutCollector eigendom. Ruft das Dokument ab an das diese CollectorInstanz angehängt ist oder legt dieses fest.
 type: docs
 weight: 20
 url: /de/net/aspose.words.layout/layoutcollector/document/
 ---
 ## LayoutCollector.Document property
 
-Ruft das Dokument ab oder legt es fest, an das diese Collector-Instanz angehängt ist.
+Ruft das Dokument ab, an das diese Collector-Instanz angehängt ist, oder legt dieses fest.
 
 ```csharp
 public Document Document { get; set; }
@@ -16,7 +16,7 @@ public Document Document { get; set; }
 
 ### Bemerkungen
 
-Wenn Sie auf Seitenindizes der Dokumentknoten zugreifen müssen, müssen Sie diese Eigenschaft so einstellen, dass sie auf eine Dokumentinstanz zeigt, bevor das Seitenlayout des Dokuments erstellt wird. Am besten stellen Sie diese Eigenschaft auf ein`Null`danach andernfalls sammelt der Kollektor weiterhin Informationen aus nachfolgenden Neuaufbauten des Seitenlayouts des Dokuments.
+Wenn Sie auf Seitenindizes der Dokumentknoten zugreifen müssen, müssen Sie diese Eigenschaft so festlegen, dass sie auf eine Dokumentinstanz verweist, bevor das Seitenlayout des Dokuments erstellt wird. Am besten setzen Sie diese Eigenschaft auf`Null` danach andernfalls sammelt der Collector weiterhin Informationen aus nachfolgenden Neuerstellungen des Seitenlayouts des Dokuments.
 
 ### Beispiele
 
@@ -26,12 +26,12 @@ Zeigt, wie die Seitenbereiche angezeigt werden, die ein Knoten umfasst.
 Document doc = new Document();
 LayoutCollector layoutCollector = new LayoutCollector(doc);
 
-// Rufen Sie die Methode "GetNumPagesSpanned" auf, um zu zählen, wie viele Seiten der Inhalt unseres Dokuments umfasst.
-// Da das Dokument leer ist, ist diese Seitenzahl derzeit null.
+// Rufen Sie die Methode „GetNumPagesSpanned“ auf, um zu zählen, wie viele Seiten der Inhalt unseres Dokuments umfasst.
+// Da das Dokument leer ist, beträgt die Anzahl der Seiten derzeit Null.
 Assert.AreEqual(doc, layoutCollector.Document);
 Assert.AreEqual(0, layoutCollector.GetNumPagesSpanned(doc));
 
-// Das Dokument mit 5 Seiten Inhalt füllen.
+// Füllen Sie das Dokument mit 5 Seiten Inhalt.
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Write("Section 1");
 builder.InsertBreak(BreakType.PageBreak);
@@ -41,8 +41,8 @@ builder.Write("Section 2");
 builder.InsertBreak(BreakType.PageBreak);
 builder.InsertBreak(BreakType.PageBreak);
 
-// Vor dem Layout-Sammler müssen wir die Methode "UpdatePageLayout" aufrufen, um uns zu geben
-// eine genaue Zahl für alle Layout-bezogenen Metriken, wie z. B. die Seitenzahl.
+// Vor dem Layout-Kollektor müssen wir die Methode „UpdatePageLayout“ aufrufen, um sie uns zu geben
+// eine genaue Zahl für alle Layout-bezogenen Metriken, wie zum Beispiel die Seitenzahl.
 Assert.AreEqual(0, layoutCollector.GetNumPagesSpanned(doc));
 
 layoutCollector.Clear();
@@ -50,7 +50,7 @@ doc.UpdatePageLayout();
 
 Assert.AreEqual(5, layoutCollector.GetNumPagesSpanned(doc));
 
-// Wir können die Nummern der Start- und Endseiten jedes Knotens und ihre gesamten Seitenspannen sehen.
+// Wir können die Nummern der Start- und Endseiten jedes Knotens und deren gesamte Seitenspanne sehen.
 NodeCollection nodes = doc.GetChildNodes(NodeType.Any, true);
 foreach (Node node in nodes)
 {
@@ -60,7 +60,7 @@ foreach (Node node in nodes)
         $" spanning {layoutCollector.GetNumPagesSpanned(node)} pages.");
 }
 
-// Wir können mit einem LayoutEnumerator über die Layout-Entitäten iterieren.
+// Wir können die Layout-Entitäten mit einem LayoutEnumerator durchlaufen.
 LayoutEnumerator layoutEnumerator = new LayoutEnumerator(doc);
 
 Assert.AreEqual(LayoutEntityType.Page, layoutEnumerator.Type);

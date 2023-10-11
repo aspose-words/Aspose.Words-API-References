@@ -16,15 +16,16 @@ public string RightExpression { get; set; }
 
 ### Ejemplos
 
-Muestra cómo usar los campos SIGUIENTE/SIGUIENTE para combinar varias filas en una sola página durante una combinación de correspondencia.
+Muestra cómo utilizar los campos SIGUIENTE/SIGUIENTEIF para combinar varias filas en una página durante una combinación de correspondencia.
 
 ```csharp
+public void FieldNext()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
     // Crea una fuente de datos para nuestra combinación de correspondencia con 3 filas.
-    // Una combinación de correspondencia que usa esta tabla normalmente crearía un documento de 3 páginas.
+    // Una combinación de correspondencia que utilice esta tabla normalmente crearía un documento de 3 páginas.
     DataTable table = new DataTable("Employees");
     table.Columns.Add("Courtesy Title");
     table.Columns.Add("First Name");
@@ -35,21 +36,21 @@ Muestra cómo usar los campos SIGUIENTE/SIGUIENTE para combinar varias filas en 
 
     InsertMergeFields(builder, "First row: ");
 
-    // Si tenemos varios campos de combinación con el mismo FieldName,
+    // Si tenemos varios campos combinados con el mismo nombre de campo,
     // recibirán datos de la misma fila de la fuente de datos y mostrarán el mismo valor después de la combinación.
-    // Un campo SIGUIENTE le dice a la combinación de correo instantáneamente que se mueva hacia abajo una fila,
-    // lo que significa que cualquier MERGEFIELD que siga al campo NEXT recibirá datos de la siguiente fila.
-    // Asegúrese de nunca intentar saltar a la siguiente fila mientras ya está en la última fila.
+    // Un campo SIGUIENTE le indica a la combinación de correspondencia que baje instantáneamente una fila,
+    // lo que significa que cualquier MERGEFIELD que siga al campo SIGUIENTE recibirá datos de la siguiente fila.
+    // Asegúrate de nunca intentar saltar a la siguiente fila mientras ya estás en la última fila.
     FieldNext fieldNext = (FieldNext)builder.InsertField(FieldType.FieldNext, true);
 
     Assert.AreEqual(" NEXT ", fieldNext.GetFieldCode());
 
-    // Después de la fusión, los valores de origen de datos que aceptan estos MERGEFIELD
+    // Después de la fusión, los valores de la fuente de datos que aceptan estos MERGEFIELD
      // terminará en la misma página que los MERGEFIELD anteriores.
     InsertMergeFields(builder, "Second row: ");
 
     // Un campo NEXTIF tiene la misma función que un campo NEXT,
-    // pero salta a la siguiente fila solo si una declaración construida por las siguientes 3 propiedades es verdadera.
+    // pero salta a la siguiente fila sólo si una declaración construida por las siguientes 3 propiedades es verdadera.
     FieldNextIf fieldNextIf = (FieldNextIf)builder.InsertField(FieldType.FieldNextIf, true);
     fieldNextIf.LeftExpression = "5";
     fieldNextIf.RightExpression = "2 + 3";
@@ -64,9 +65,10 @@ Muestra cómo usar los campos SIGUIENTE/SIGUIENTE para combinar varias filas en 
 
     doc.MailMerge.Execute(table);
 
-      // Nuestra fuente de datos tiene 3 filas y saltamos filas dos veces.
+     // Nuestra fuente de datos tiene 3 filas y nos saltamos filas dos veces.
     // Nuestro documento de salida tendrá 1 página con datos de las 3 filas.
     doc.Save(ArtifactsDir + "Field.NEXT.NEXTIF.docx");
+}
 
 /// <summary>
 /// Utiliza un generador de documentos para insertar MERGEFIELD para una fuente de datos que contiene columnas denominadas "Título de cortesía", "Nombre" y "Apellido".

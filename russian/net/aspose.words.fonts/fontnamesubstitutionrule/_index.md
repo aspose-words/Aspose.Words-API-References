@@ -3,12 +3,14 @@ title: Class FontNameSubstitutionRule
 second_title: Справочник по API Aspose.Words для .NET
 description: Aspose.Words.Fonts.FontNameSubstitutionRule сорт. Правило подстановки шрифта для обработки имени шрифта.
 type: docs
-weight: 2770
+weight: 2950
 url: /ru/net/aspose.words.fonts/fontnamesubstitutionrule/
 ---
 ## FontNameSubstitutionRule class
 
 Правило подстановки шрифта для обработки имени шрифта.
+
+Чтобы узнать больше, посетите[Работа со шрифтами](https://docs.aspose.com/words/net/working-with-fonts/) статья документации.
 
 ```csharp
 public class FontNameSubstitutionRule : FontSubstitutionRule
@@ -18,11 +20,11 @@ public class FontNameSubstitutionRule : FontSubstitutionRule
 
 | Имя | Описание |
 | --- | --- |
-| virtual [Enabled](../../aspose.words.fonts/fontsubstitutionrule/enabled/) { get; set; } | Указывает, включено ли правило. |
+| virtual [Enabled](../../aspose.words.fonts/fontsubstitutionrule/enabled/) { get; set; } | Указывает, включено правило или нет. |
 
 ### Примечания
 
-В соответствии с этим правилом Aspose.Words пытается обработать имя шрифта, чтобы получить подстановку. В частности, Aspose.Words пытается удалить суффиксы с разделителями «-» и «,», как это делает MS Word.
+Согласно этому правилу Aspose.Words пытается обработать имя шрифта, чтобы получить замену. В частности Aspose.Words пытается удалить суффиксы с разделителями '-', ',' и '(', как это делает MS Word.
 
 ### Смотрите также
 

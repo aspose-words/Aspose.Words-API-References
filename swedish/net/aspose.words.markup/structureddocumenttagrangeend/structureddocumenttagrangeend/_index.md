@@ -24,6 +24,7 @@ public StructuredDocumentTagRangeEnd(DocumentBase doc, int id)
 Visar hur man skapar/tar bort strukturerad dokumenttagg och dess innehåll.
 
 ```csharp
+public void SdtRangeExtendedMethods()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);

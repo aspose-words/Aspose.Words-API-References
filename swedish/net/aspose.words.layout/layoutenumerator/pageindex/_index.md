@@ -3,7 +3,7 @@ title: LayoutEnumerator.PageIndex
 second_title: Aspose.Words för .NET API Referens
 description: LayoutEnumerator fast egendom. Hämtar det 1baserade indexet för en sida som innehåller den aktuella enheten.
 type: docs
-weight: 50
+weight: 60
 url: /sv/net/aspose.words.layout/layoutenumerator/pageindex/
 ---
 ## LayoutEnumerator.PageIndex property

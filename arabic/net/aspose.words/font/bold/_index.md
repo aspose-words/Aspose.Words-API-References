@@ -1,14 +1,14 @@
 ---
 title: Font.Bold
 second_title: Aspose.Words لمراجع .NET API
-description: Font ملكية. True إذا كان تنسيق الخط عريض .
+description: Font ملكية. صحيح إذا كان الخط منسقًا بالخط الغامق.
 type: docs
 weight: 40
 url: /ar/net/aspose.words/font/bold/
 ---
 ## Font.Bold property
 
-True إذا كان تنسيق الخط عريض .
+صحيح إذا كان الخط منسقًا بالخط الغامق.
 
 ```csharp
 public bool Bold { get; set; }
@@ -22,7 +22,7 @@ public bool Bold { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// حدد تنسيق الخط ، ثم أضف نصًا.
+// حدد تنسيق الخط، ثم أضف النص.
 Aspose.Words.Font font = builder.Font;
 font.Size = 16;
 font.Bold = true;

@@ -3,7 +3,7 @@ title: Interface IReplacingCallback
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Aspose.Words.Replacing.IReplacingCallback interface. Implémentez cette interface si vous souhaitez que votre propre méthode personnalisée soit appelée lors dune opération de recherche et de remplacement.
 type: docs
-weight: 4370
+weight: 4630
 url: /fr/net/aspose.words.replacing/ireplacingcallback/
 ---
 ## IReplacingCallback interface
@@ -25,6 +25,7 @@ public interface IReplacingCallback
 Montre comment remplacer toutes les occurrences d'un modèle d'expression régulière par une autre chaîne, tout en suivant tous ces remplacements.
 
 ```csharp
+public void ReplaceWithCallback()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -35,7 +36,7 @@ Montre comment remplacer toutes les occurrences d'un modèle d'expression régul
     // Nous pouvons utiliser un objet "FindReplaceOptions" pour modifier le processus de recherche et de remplacement.
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // Définit un rappel qui suit tous les remplacements que la méthode "Replace" effectuera.
+    // Définit un rappel qui suit tous les remplacements effectués par la méthode "Replace".
     TextFindAndReplacementLogger logger = new TextFindAndReplacementLogger();
     options.ReplacingCallback = logger;
 
@@ -49,8 +50,8 @@ Montre comment remplacer toutes les occurrences d'un modèle d'expression régul
 }
 
 /// <summary>
-/// Maintient un journal de chaque remplacement de texte effectué par une opération de recherche et de remplacement
-/// et note la valeur du texte correspondant d'origine.
+/// Tient un journal de chaque remplacement de texte effectué par une opération de recherche et de remplacement
+/// et note la valeur du texte original correspondant.
 /// </summary>
 private class TextFindAndReplacementLogger : IReplacingCallback
 {
@@ -72,7 +73,7 @@ private class TextFindAndReplacementLogger : IReplacingCallback
 }
 ```
 
-Montre comment suivre l'ordre dans lequel une opération de remplacement de texte traverse les nœuds.
+Montre comment suivre l’ordre dans lequel une opération de remplacement de texte traverse les nœuds.
 
 ```csharp
 public void Order(bool differentFirstPageHeaderFooter)
@@ -104,9 +105,9 @@ public void Order(bool differentFirstPageHeaderFooter)
         }
 
         /// <summary>
-        /// Au cours d'une opération de recherche et de remplacement, enregistre le contenu de chaque nœud contenant du texte que l'opération "trouve",
+        /// Lors d'une opération de recherche et de remplacement, enregistre le contenu de chaque nœud contenant du texte que l'opération « trouve »,
         /// dans l'état dans lequel il se trouve avant le remplacement.
-        /// Cela affichera l'ordre dans lequel l'opération de remplacement de texte traverse les nœuds.
+        /// Ceci affichera l'ordre dans lequel l'opération de remplacement de texte traverse les nœuds.
         /// </summary>
         private class ReplaceLog : IReplacingCallback
         {
@@ -122,9 +123,10 @@ public void Order(bool differentFirstPageHeaderFooter)
         }
 ```
 
-Montre comment insérer le contenu d'un document entier en remplacement d'une correspondance dans une opération de recherche et de remplacement.
+Montre comment insérer le contenu entier d’un document en remplacement d’une correspondance dans une opération de recherche et de remplacement.
 
 ```csharp
+public void InsertDocumentAtReplace()
 {
     Document mainDoc = new Document(MyDir + "Document insertion destination.docx");
 
@@ -134,6 +136,8 @@ Montre comment insérer le contenu d'un document entier en remplacement d'une co
 
     mainDoc.Range.Replace(new Regex("\\[MY_DOCUMENT\\]"), "", options);
     mainDoc.Save(ArtifactsDir + "InsertDocument.InsertDocumentAtReplace.docx");
+
+}
 
 private class InsertDocumentAtReplaceHandler : IReplacingCallback
 {

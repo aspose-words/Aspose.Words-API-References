@@ -1,14 +1,14 @@
 ---
 title: Font.StyleIdentifier
 second_title: Aspose.Words per .NET API Reference
-description: Font proprietà. Ottiene o imposta lidentificatore di stile indipendente dalle impostazioni locali dello stile di carattere applicato a questa formattazione.
+description: Font proprietà. Ottiene o imposta lidentificatore di stile indipendente dalle impostazioni internazionali dello stile di carattere applicato a questa formattazione.
 type: docs
 weight: 410
 url: /it/net/aspose.words/font/styleidentifier/
 ---
 ## Font.StyleIdentifier property
 
-Ottiene o imposta l'identificatore di stile indipendente dalle impostazioni locali dello stile di carattere applicato a questa formattazione.
+Ottiene o imposta l'identificatore di stile indipendente dalle impostazioni internazionali dello stile di carattere applicato a questa formattazione.
 
 ```csharp
 public StyleIdentifier StyleIdentifier { get; set; }
@@ -27,12 +27,12 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Font.StyleName = "Emphasis";
 builder.Writeln("Text originally in \"Emphasis\" style");
 
-// 2 - Utilizzo di un identificatore di stile integrato:
+// 2 - Utilizzando un identificatore di stile integrato:
 builder.Font.StyleIdentifier = StyleIdentifier.IntenseEmphasis;
 builder.Writeln("Text originally in \"Intense Emphasis\" style");
 
 // Converti tutti gli usi di uno stile in un altro,
-// usando i metodi precedenti per fare riferimento a stili vecchi e nuovi.
+// utilizzando i metodi sopra indicati per fare riferimento a stili vecchi e nuovi.
 foreach (Run run in doc.GetChildNodes(NodeType.Run, true).OfType<Run>())
 {
     if (run.Font.StyleName == "Emphasis")

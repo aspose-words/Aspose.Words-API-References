@@ -16,21 +16,21 @@ public int DocumentSplitHeadingLevel { get; set; }
 
 ### Osservazioni
 
-quando[`DocumentSplitCriteria`](../documentsplitcriteria/) includeHeadingParagraph e questa proprietà è impostata su un valore compreso tra 1 e 9, il documento verrà suddiviso in paragrafi formattati utilizzando  **Titolo 1** , **Titolo 2** , **Titolo 3** ecc. stili fino al livello di intestazione specificato.
+Quando[`DocumentSplitCriteria`](../documentsplitcriteria/) includeHeadingParagraph e questa proprietà è impostata su un valore compreso tra 1 e 9, il documento verrà diviso in paragrafi formattati utilizzando  **Rubrica 1** , **Rubrica 2** , **Rubrica 3**ecc. stili fino al livello di intestazione specificato.
 
-Per impostazione predefinita, solo **Titolo 1** e **Titolo 2** paragrafi causano la divisione del documento. L'impostazione di questa proprietà su zero farà sì che il documento non venga affatto suddiviso nei paragrafi di intestazione.
+Solo per impostazione predefinita **Rubrica 1** E **Rubrica 2** i paragrafi causano la divisione del documento. Impostando questa proprietà su zero, il documento non verrà affatto diviso nei paragrafi di intestazione.
 
 ### Esempi
 
-Mostra come dividere un documento HTML di output per intestazioni in più parti.
+Mostra come dividere un documento HTML di output in base alle intestazioni in più parti.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Ogni paragrafo che formattiamo usando uno stile "Intestazione" può fungere da intestazione.
+// Ogni paragrafo che formattiamo utilizzando lo stile "Intestazione" può fungere da intestazione.
 // Ogni intestazione può anche avere un livello di intestazione, determinato dal numero del suo stile di intestazione.
-// I titoli sottostanti sono di livello 1-3.
+// I titoli seguenti sono di livello 1-3.
 builder.ParagraphFormat.Style = builder.Document.Styles["Heading 1"];
 builder.Writeln("Heading #1");
 builder.ParagraphFormat.Style = builder.Document.Styles["Heading 2"];
@@ -44,11 +44,11 @@ builder.Writeln("Heading #5");
 builder.ParagraphFormat.Style = builder.Document.Styles["Heading 3"];
 builder.Writeln("Heading #6");
 
-// Crea un oggetto HtmlSaveOptions e imposta i criteri di divisione su "HeadingParagraph".
-// Questi criteri divideranno il documento in paragrafi con stili "Titolo" in diversi documenti più piccoli,
-// e salva ogni documento in un file HTML separato nel file system locale.
-// Imposteremo anche il livello di intestazione massimo, che divide il documento su 2.
-// Il salvataggio del documento lo dividerà alle intestazioni dei livelli 1 e 2, ma non da 3 a 9.
+// Crea un oggetto HtmlSaveOptions e imposta i criteri di suddivisione su "HeadingParagraph".
+// Questi criteri divideranno il documento in paragrafi con stili "Intestazione" in diversi documenti più piccoli,
+// e salva ciascun documento in un file HTML separato nel file system locale.
+// Imposteremo anche il livello massimo di intestazione, che divide il documento in 2.
+// Il salvataggio del documento lo dividerà nelle intestazioni dei livelli 1 e 2, ma non da 3 a 9.
 HtmlSaveOptions options = new HtmlSaveOptions
 {
     DocumentSplitCriteria = DocumentSplitCriteria.HeadingParagraph,
@@ -57,7 +57,7 @@ HtmlSaveOptions options = new HtmlSaveOptions
 
 // Il nostro documento ha quattro titoli di livello 1 - 2. Uno di questi titoli non lo sarà
 // un punto di divisione poiché si trova all'inizio del documento.
-// L'operazione di salvataggio dividerà il nostro documento in tre punti, in quattro documenti più piccoli.
+// L'operazione di salvataggio dividerà il nostro documento in tre posti, in quattro documenti più piccoli.
 doc.Save(ArtifactsDir + "HtmlSaveOptions.HeadingLevels.html", options);
 
 doc = new Document(ArtifactsDir + "HtmlSaveOptions.HeadingLevels.html");

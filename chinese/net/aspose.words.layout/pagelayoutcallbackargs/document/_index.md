@@ -1,14 +1,14 @@
 ---
 title: PageLayoutCallbackArgs.Document
 second_title: Aspose.Words for .NET API 参考
-description: PageLayoutCallbackArgs 财产. 获取文档
+description: PageLayoutCallbackArgs 财产. 获取文档.
 type: docs
 weight: 10
 url: /zh/net/aspose.words.layout/pagelayoutcallbackargs/document/
 ---
 ## PageLayoutCallbackArgs.Document property
 
-获取文档。
+获取文档.
 
 ```csharp
 public Document Document { get; }
@@ -19,7 +19,6 @@ public Document Document { get; }
 展示如何使用布局回调跟踪布局更改。
 
 ```csharp
-[Test]
 public void PageLayoutCallback()
 {
     Document doc = new Document();
@@ -36,7 +35,7 @@ public void PageLayoutCallback()
 
 /// <summary>
 /// 当我们将文档保存为固定页面格式时通知我们
-/// 并渲染一个页面，我们在本地文件系统中的图像上执行页面回流。
+/// 并渲染一个页面，我们将其执行页面回流到本地文件系统中的图像。
 /// </summary>
 private class RenderPageLayoutCallback : IPageLayoutCallback
 {

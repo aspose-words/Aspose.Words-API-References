@@ -1,14 +1,14 @@
 ---
 title: SignatureLine.Instructions
 second_title: Aspose.Words för .NET API Referens
-description: SignatureLine fast egendom. Hämtar eller ställer in instruktioner till undertecknaren som visas när signaturraden signeras. Den här egenskapen ignoreras omDefaultInstructions är satt. Standardvärde för den här egenskapen är tom sträng Empty .
+description: SignatureLine fast egendom. Hämtar eller ställer in instruktioner till undertecknaren som visas när signaturraden signeras. Den här egenskapen ignoreras omDefaultInstructionsär satt. Standardvärde för den här egenskapen är tom sträng Empty.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.drawing/signatureline/instructions/
 ---
 ## SignatureLine.Instructions property
 
-Hämtar eller ställer in instruktioner till undertecknaren som visas när signaturraden signeras. Den här egenskapen ignoreras om[`DefaultInstructions`](../defaultinstructions/) är satt. Standardvärde för den här egenskapen är **tom sträng** (Empty ).
+Hämtar eller ställer in instruktioner till undertecknaren som visas när signaturraden signeras. Den här egenskapen ignoreras om[`DefaultInstructions`](../defaultinstructions/)är satt. Standardvärde för den här egenskapen är **tom sträng** (Empty).
 
 ```csharp
 public string Instructions { get; set; }

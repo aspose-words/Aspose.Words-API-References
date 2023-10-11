@@ -1,14 +1,14 @@
 ---
 title: ReplacingArgs.Match
 second_title: Referencia de API de Aspose.Words para .NET
-description: ReplacingArgs propiedad. ElMatch resultado de una única coincidencia de expresión regular durante una Reemplazar .
+description: ReplacingArgs propiedad. ElMatch resultante de una única coincidencia de expresión regular durante una Reemplazar .
 type: docs
 weight: 30
 url: /es/net/aspose.words.replacing/replacingargs/match/
 ---
 ## ReplacingArgs.Match property
 
-ElMatch resultado de una única coincidencia de expresión regular durante una **Reemplazar** .
+ElMatch resultante de una única coincidencia de expresión regular durante una **Reemplazar** .
 
 ```csharp
 public Match Match { get; }
@@ -16,13 +16,14 @@ public Match Match { get; }
 
 ### Observaciones
 
-**Coincidencia.Índice"** obtiene la posición de partida basada en cero de la coincidencia desde el inicio del rango de búsqueda y reemplazo.
+**Índice de coincidencia"** obtiene la posición Starting de base cero de la coincidencia desde el inicio del rango de búsqueda y reemplazo.
 
 ### Ejemplos
 
-Muestra cómo aplicar una fuente diferente al contenido nuevo a través de FindReplaceOptions.
+Muestra cómo aplicar una fuente diferente a contenido nuevo a través de FindReplaceOptions.
 
 ```csharp
+public void ConvertNumbersToHexadecimal()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -31,10 +32,10 @@ Muestra cómo aplicar una fuente diferente al contenido nuevo a través de FindR
     builder.Writeln("Numbers that the find-and-replace operation will convert to hexadecimal and highlight:\n" +
                     "123, 456, 789 and 17379.");
 
-    // Podemos usar un objeto "FindReplaceOptions" para modificar el proceso de buscar y reemplazar.
+    // Podemos utilizar un objeto "FindReplaceOptions" para modificar el proceso de buscar y reemplazar.
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // Establecer la propiedad "HighlightColor" en un color de fondo que queremos aplicar al texto resultante de la operación.
+    // Establece la propiedad "HighlightColor" en un color de fondo que queremos aplicar al texto resultante de la operación.
     options.ApplyFont.HighlightColor = Color.LightGray;
 
     NumberHexer numberHexer = new NumberHexer();
@@ -52,7 +53,7 @@ Muestra cómo aplicar una fuente diferente al contenido nuevo a través de FindR
 }
 
 /// <summary>
-/// Reemplaza las coincidencias numéricas de búsqueda y reemplazo con sus equivalentes hexadecimales.
+/// Reemplaza coincidencias numéricas de búsqueda y reemplazo con sus equivalentes hexadecimales.
 /// Mantiene un registro de cada reemplazo.
 /// </summary>
 private class NumberHexer : IReplacingCallback

@@ -1,14 +1,14 @@
 ---
 title: FieldCollection.RemoveAt
 second_title: Aspose.Words per .NET API Reference
-description: FieldCollection metodo. Rimuove un campo in corrispondenza dellindice specificato da questa raccolta e dal documento.
+description: FieldCollection metodo. Rimuove un campo allindice specificato da questa raccolta e dal documento.
 type: docs
 weight: 60
 url: /it/net/aspose.words.fields/fieldcollection/removeat/
 ---
 ## FieldCollection.RemoveAt method
 
-Rimuove un campo in corrispondenza dell'indice specificato da questa raccolta e dal documento.
+Rimuove un campo all'indice specificato da questa raccolta e dal documento.
 
 ```csharp
 public void RemoveAt(int index)
@@ -39,7 +39,7 @@ FieldCollection fields = doc.Range.Fields;
 Assert.AreEqual(6, fields.Count);
 
 // Di seguito sono riportati quattro modi per rimuovere i campi da una raccolta di campi.
-// 1 - Ottieni un campo da rimuovere:
+// 1 - Ottieni un campo per rimuoversi:
 fields[0].Remove();
 Assert.AreEqual(5, fields.Count);
 
@@ -52,7 +52,7 @@ Assert.AreEqual(4, fields.Count);
 fields.RemoveAt(2);
 Assert.AreEqual(3, fields.Count);
 
-// 4 - Rimuovi tutti i campi dalla raccolta in una volta:
+// 4 - Rimuovi tutti i campi dalla raccolta contemporaneamente:
 fields.Clear();
 Assert.AreEqual(0, fields.Count);
 ```

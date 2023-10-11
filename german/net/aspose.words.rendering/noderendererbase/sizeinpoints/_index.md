@@ -1,14 +1,14 @@
 ---
 title: NodeRendererBase.SizeInPoints
 second_title: Aspose.Words für .NET-API-Referenz
-description: NodeRendererBase eigendom. Ruft die tatsächliche Größe der Form in Punkten ab.
+description: NodeRendererBase eigendom. Ermittelt die tatsächliche Größe der Form in Punkten.
 type: docs
 weight: 30
 url: /de/net/aspose.words.rendering/noderendererbase/sizeinpoints/
 ---
 ## NodeRendererBase.SizeInPoints property
 
-Ruft die tatsächliche Größe der Form in Punkten ab.
+Ermittelt die tatsächliche Größe der Form in Punkten.
 
 ```csharp
 public SizeF SizeInPoints { get; }
@@ -16,7 +16,7 @@ public SizeF SizeInPoints { get; }
 
 ### Bemerkungen
 
-Diese Eigenschaft gibt die Größe des tatsächlichen (wie auf der Seite gerenderten) Begrenzungsrahmens der Form zurück. Die Größe berücksichtigt die Rotation der Form (falls vorhanden).
+Diese Eigenschaft gibt die Größe des tatsächlichen (wie auf der Seite gerenderten) Begrenzungsrahmens der Form zurück. Die Größe berücksichtigt die Formdrehung (falls vorhanden).
 
 ### Beispiele
 
@@ -35,17 +35,17 @@ Assert.AreEqual(13.0f, renderer.SizeInPoints.Height, 0.1f);
 Assert.AreEqual(119.0f, renderer.BoundsInPoints.Width, 0.2f);
 Assert.AreEqual(13.0f, renderer.BoundsInPoints.Height, 0.1f);
 
-// Shapes mit transparenten Teilen können unterschiedliche Werte in den "OpaqueBoundsInPoints"-Eigenschaften enthalten.
+// Formen mit transparenten Teilen können unterschiedliche Werte in den „OpaqueBoundsInPoints“-Eigenschaften enthalten.
 Assert.AreEqual(119.0f, renderer.OpaqueBoundsInPoints.Width, 0.2f);
 Assert.AreEqual(14.2f, renderer.OpaqueBoundsInPoints.Height, 0.1f);
 
-// Holen Sie sich die Formgröße in Pixel, mit linearer Skalierung auf eine bestimmte DPI.
+// Ermittelt die Formgröße in Pixeln mit linearer Skalierung auf eine bestimmte DPI.
 Rectangle bounds = renderer.GetBoundsInPixels(1.0f, 96.0f);
 
 Assert.AreEqual(159, bounds.Width);
 Assert.AreEqual(18, bounds.Height);
 
-// Holen Sie sich die Formgröße in Pixel, aber mit einem anderen DPI für die horizontalen und vertikalen Dimensionen.
+// Ermittelt die Formgröße in Pixeln, jedoch mit unterschiedlichen DPI-Werten für die horizontalen und vertikalen Abmessungen.
 bounds = renderer.GetBoundsInPixels(1.0f, 96.0f, 150.0f);
 Assert.AreEqual(159, bounds.Width);
 Assert.AreEqual(28, bounds.Height);

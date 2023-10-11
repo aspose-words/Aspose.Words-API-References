@@ -16,7 +16,7 @@ public TextBox TextBox { get; }
 
 ### Примеры
 
-Показывает, как установить ориентацию текста внутри текстового поля.
+Показывает, как задать ориентацию текста внутри текстового поля.
 
 ```csharp
 Document doc = new Document();
@@ -30,7 +30,7 @@ builder.MoveTo(textBoxShape.LastParagraph);
 builder.Writeln("Hello world!");
 builder.Write("Hello again!");
 
-// Установите свойство "LayoutFlow", чтобы задать ориентацию текстового содержимого этого текстового поля.
+// Установите свойство LayoutFlow, чтобы задать ориентацию текстового содержимого этого текстового поля.
 textBox.LayoutFlow = layoutFlow;
 
 doc.Save(ArtifactsDir + "Shape.TextBoxLayoutFlow.docx");

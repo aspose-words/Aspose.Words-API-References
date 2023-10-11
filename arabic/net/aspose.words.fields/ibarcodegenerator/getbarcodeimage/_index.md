@@ -1,14 +1,14 @@
 ---
 title: IBarcodeGenerator.GetBarcodeImage
 second_title: Aspose.Words لمراجع .NET API
-description: IBarcodeGenerator طريقة. إنشاء صورة الرمز الشريطي باستخدام مجموعة المعلمات لحقل DisplayBarcode .
+description: IBarcodeGenerator طريقة. إنشاء صورة باركود باستخدام مجموعة المعلمات لحقل DisplayBarcode.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/ibarcodegenerator/getbarcodeimage/
 ---
 ## IBarcodeGenerator.GetBarcodeImage method
 
-إنشاء صورة الرمز الشريطي باستخدام مجموعة المعلمات (لحقل DisplayBarcode) .
+إنشاء صورة باركود باستخدام مجموعة المعلمات (لحقل DisplayBarcode).
 
 ```csharp
 public Image GetBarcodeImage(BarcodeParameters parameters)
@@ -20,23 +20,22 @@ public Image GetBarcodeImage(BarcodeParameters parameters)
 
 ### قيمة الإرجاع
 
-صورة تمثل الرمز الشريطي الذي تم إنشاؤه.
+صورة تمثل الباركود الذي تم إنشاؤه.
 
 ### أمثلة
 
-يوضح كيفية استخدام منشئ الباركود.
+يوضح كيفية استخدام مولد الباركود.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
-
-// يمكننا استخدام تطبيق IBarcodeGenerator المخصص لإنشاء رموز شريطية ،
-// ثم أدخلها في المستند كصور.
+// يمكننا استخدام تطبيق IBarcodeGenerator مخصص لإنشاء الرموز الشريطية،
+// ثم قم بإدراجها في المستند كصور.
 doc.FieldOptions.BarcodeGenerator = new CustomBarcodeGenerator();
 
-// فيما يلي أربعة أمثلة لأنواع مختلفة من الرموز الشريطية التي يمكننا إنشاؤها باستخدام المولد الخاص بنا.
-// لكل رمز شريطي ، نحدد مجموعة جديدة من معلمات الباركود ، ثم ننشئ الصورة.
-// بعد ذلك ، يمكننا إدخال الصورة في المستند ، أو حفظها في نظام الملفات المحلي.
+// فيما يلي أربعة أمثلة لأنواع مختلفة من الباركود التي يمكننا إنشاؤها باستخدام المولد الخاص بنا.
+// لكل رمز شريطي، نحدد مجموعة جديدة من معلمات الرمز الشريطي، ثم نقوم بإنشاء الصورة.
+// بعد ذلك، يمكننا إدراج الصورة في المستند، أو حفظها في نظام الملفات المحلي.
 // 1 - رمز الاستجابة السريعة:
 BarcodeParameters barcodeParameters = new BarcodeParameters
 {
@@ -55,7 +54,7 @@ img.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.QR.jpg");
 
 builder.InsertImage(img);
 
-// 2 - الباركود EAN13:
+// 2 - الرمز الشريطي EAN13:
 barcodeParameters = new BarcodeParameters
 {
     BarcodeType = "EAN13",

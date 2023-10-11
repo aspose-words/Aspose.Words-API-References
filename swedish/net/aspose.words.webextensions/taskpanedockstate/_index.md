@@ -3,7 +3,7 @@ title: Enum TaskPaneDockState
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.WebExtensions.TaskPaneDockState uppräkning. Räknar upp tillgängliga platser för objekt i aktivitetsrutan.
 type: docs
-weight: 6420
+weight: 6730
 url: /sv/net/aspose.words.webextensions/taskpanedockstate/
 ---
 ## TaskPaneDockState enumeration

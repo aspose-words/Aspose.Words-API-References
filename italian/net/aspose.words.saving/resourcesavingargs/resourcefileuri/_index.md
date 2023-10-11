@@ -18,7 +18,7 @@ public string ResourceFileUri { get; set; }
 
 Questa proprietà consente di modificare gli URI dei file di risorse esportati in documenti HTML o SVG a pagina fissa.
 
-Aspose.Words genera automaticamente un URI per ogni file di risorsa durante l'esportazione in formato HTML o SVG a pagina fissa. Gli URI generati fanno riferimento a file di risorse salvati da Aspose.Words. Tuttavia, gli URI possono essere non corretti se i file di risorse devono essere spostati in un'altra posizione o se i file di risorse vengono salvati negli stream. Questa proprietà consente di correggere gli URI in questi casi.
+Aspose.Words genera automaticamente un URI per ogni file di risorse durante l'esportazione nel formato HTML o SVG a pagina fissa. Gli URI generati fanno riferimento ai file di risorse salvati da Aspose.Words. Tuttavia, gli URI possono essere errati se i file di risorse devono essere spostati in un'altra posizione o se i file di risorse vengono salvati negli stream. Questa proprietà consente di correggere gli URI in questi casi.
 
 Quando l'evento viene generato, questa proprietà contiene l'URI che è stato generato da Aspose.Words. È possibile modificare il valore di questa proprietà per fornire un URI personalizzato per il file di risorse.
 
@@ -26,7 +26,7 @@ Quando l'evento viene generato, questa proprietà contiene l'URI che è stato ge
 
 ### Esempi
 
-Mostra come utilizzare una richiamata per tenere traccia delle risorse esterne create durante la conversione di un documento in HTML.
+Mostra come utilizzare un callback per tenere traccia delle risorse esterne create durante la conversione di un documento in HTML.
 
 ```csharp
 public void ResourceSavingCallback()
@@ -48,7 +48,7 @@ public void ResourceSavingCallback()
 private class FontSavingCallback : IResourceSavingCallback
 {
     /// <summary>
-    /// Chiamato quando Aspose.Words salva una risorsa esterna in una pagina HTML o SVG fissa.
+    /// Chiamato quando Aspose.Words salva una risorsa esterna su una pagina HTML o SVG fissa.
     /// </summary>
     public void ResourceSaving(ResourceSavingArgs args)
     {

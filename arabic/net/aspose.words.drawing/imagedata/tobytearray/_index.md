@@ -1,14 +1,14 @@
 ---
 title: ImageData.ToByteArray
 second_title: Aspose.Words لمراجع .NET API
-description: ImageData طريقة. إرجاع بايت الصورة لأي صورة بغض النظر عما إذا كانت الصورة مخزنة أو مرتبطة.
+description: ImageData طريقة. إرجاع بايتات الصورة لأي صورة بغض النظر عما إذا كانت الصورة مخزنة أو مرتبطة.
 type: docs
-weight: 210
+weight: 220
 url: /ar/net/aspose.words.drawing/imagedata/tobytearray/
 ---
 ## ImageData.ToByteArray method
 
-إرجاع بايت الصورة لأي صورة بغض النظر عما إذا كانت الصورة مخزنة أو مرتبطة.
+إرجاع بايتات الصورة لأي صورة بغض النظر عما إذا كانت الصورة مخزنة أو مرتبطة.
 
 ```csharp
 public byte[] ToByteArray()
@@ -16,7 +16,7 @@ public byte[] ToByteArray()
 
 ### ملاحظات
 
-إذا كانت الصورة مرتبطة ، فقم بتنزيل الصورة في كل مرة يتم استدعاؤها.
+إذا كانت الصورة مرتبطة، فسيتم تنزيل الصورة في كل مرة يتم استدعاؤها.
 
 ### أمثلة
 
@@ -24,15 +24,14 @@ public byte[] ToByteArray()
 
 ```csharp
 Document imgSourceDoc = new Document(MyDir + "Images.docx");
-
 Shape imgShape = (Shape) imgSourceDoc.GetChild(NodeType.Shape, 0, true);
 
 Assert.True(imgShape.HasImage);
 
-// يُرجع ToByteArray () الصفيف المخزن في خاصية ImageBytes.
+// ToByteArray () يُرجع المصفوفة المخزنة في خاصية ImageBytes.
 Assert.AreEqual(imgShape.ImageData.ImageBytes, imgShape.ImageData.ToByteArray());
 
-// حفظ بيانات صورة الشكل في ملف صورة في نظام الملفات المحلي.
+// احفظ بيانات صورة الشكل في ملف صورة في نظام الملفات المحلي.
 using (Stream imgStream = imgShape.ImageData.ToStream())
 {
     using (FileStream outStream = new FileStream(ArtifactsDir + "Drawing.GetDataFromImage.png",

@@ -16,9 +16,10 @@ public Node OldParent { get; }
 
 ### Ejemplos
 
-Muestra cómo usar un NodeChangingCallback para monitorear los cambios en el árbol del documento en tiempo real mientras lo editamos.
+Muestra cómo utilizar NodeChangingCallback para monitorear los cambios en el árbol del documento en tiempo real a medida que lo editamos.
 
 ```csharp
+public void NodeChangingCallback()
 {
     Document doc = new Document();
     doc.NodeChangingCallback = new NodeChangingPrinter();
@@ -43,7 +44,7 @@ Muestra cómo usar un NodeChangingCallback para monitorear los cambios en el ár
 }
 
 /// <summary>
-/// Imprime cada inserción/eliminación de nodos tal como se lleva a cabo en el documento.
+/// Imprime cada inserción/eliminación de nodos a medida que tiene lugar en el documento.
 /// </summary>
 private class NodeChangingPrinter : INodeChangingCallback
 {

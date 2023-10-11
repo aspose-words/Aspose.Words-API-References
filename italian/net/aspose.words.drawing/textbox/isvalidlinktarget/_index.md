@@ -1,14 +1,14 @@
 ---
 title: TextBox.IsValidLinkTarget
 second_title: Aspose.Words per .NET API Reference
-description: TextBox metodo. Determina se questa casella di testo può essere collegata alla casella di testo di destinazione.
+description: TextBox metodo. Determina se questoTextBox può essere collegato al bersaglioTextBox .
 type: docs
-weight: 130
+weight: 140
 url: /it/net/aspose.words.drawing/textbox/isvalidlinktarget/
 ---
 ## TextBox.IsValidLinkTarget method
 
-Determina se questa casella di testo può essere collegata alla casella di testo di destinazione.
+Determina se questo[`TextBox`](../) può essere collegato al bersaglio[`TextBox`](../) .
 
 ```csharp
 public bool IsValidLinkTarget(TextBox target)

@@ -3,7 +3,7 @@ title: FieldOptions.BuiltInTemplatesPaths
 second_title: Référence de l'API Aspose.Words pour .NET
 description: FieldOptions propriété. Obtient ou définit les chemins des modèles intégrés MS Word.
 type: docs
-weight: 20
+weight: 30
 url: /fr/net/aspose.words.fields/fieldoptions/builtintemplatespaths/
 ---
 ## FieldOptions.BuiltInTemplatesPaths property
@@ -16,18 +16,18 @@ public string[] BuiltInTemplatesPaths { get; set; }
 
 ### Remarques
 
-Cette propriété est utilisée par le[`FieldAutoText`](../../fieldautotext/) et[`FieldGlossary`](../../fieldglossary/) champs, si l'entrée de texte automatique référencée n'est pas trouvée dans le[`AttachedTemplate`](../../../aspose.words/document/attachedtemplate/) modèle.
+Cette propriété est utilisée par le[`FieldAutoText`](../../fieldautotext/) et[`FieldGlossary`](../../fieldglossary/) champs, si la saisie de texte automatique référencée n'est pas trouvée dans le[`AttachedTemplate`](../../../aspose.words/document/attachedtemplate/) modèle.
 
-Par défaut, MS Word stocke les modèles intégrés dans c:\Users\&lt;nom d'utilisateur&gt;\AppData\Roaming\Microsoft\Document Building Blocks\1033\16\Built-In Building Blocks.dotx and C:\Users\&lt;nom d'utilisateur&gt;\ Fichiers AppData\Roaming\Microsoft\Templates\Normal.dotm.
+Par défaut, MS Word stocke les modèles intégrés dans c:\Users\&lt;username&gt;\AppData\Roaming\Microsoft\Document Building Blocks\1033\16\Built-In Building Blocks.dotx et C:\Users\&lt;username&gt;\ Fichiers AppData\Roaming\Microsoft\Templates\Normal.dotm.
 
 ### Exemples
 
-Montre comment afficher un bloc de construction avec les champs AUTOTEXT et GLOSSAIRE.
+Montre comment afficher un bloc de construction avec des champs AUTOTEXTE et GLOSSAIRE.
 
 ```csharp
 Document doc = new Document();
 
-// Crée un document de glossaire et y ajoute un bloc de construction d'insertion automatique.
+// Créez un document glossaire et ajoutez-y un bloc de construction AutoTexte.
 doc.GlossaryDocument = new GlossaryDocument();
 BuildingBlock buildingBlock = new BuildingBlock(doc.GlossaryDocument);
 buildingBlock.Name = "MyBlock";
@@ -45,13 +45,13 @@ buildingBlockSourceBuilder.Writeln("Hello World!");
 Node buildingBlockContent = doc.GlossaryDocument.ImportNode(buildingBlockSource.FirstSection, true);
 buildingBlock.AppendChild(buildingBlockContent);
 
-// Définit un fichier qui contient des parties que notre document, ou son modèle attaché ne peut pas contenir.
+// Définit un fichier qui contient des parties que notre document ou son modèle joint ne peut pas contenir.
 doc.FieldOptions.BuiltInTemplatesPaths = new[] { MyDir + "Busniess brochure.dotx" };
 
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Vous trouverez ci-dessous deux manières d'utiliser des champs pour afficher le contenu de notre bloc de construction.
-// 1 - Utilisation d'un champ AUTOTEXT :
+// Vous trouverez ci-dessous deux façons d'utiliser les champs pour afficher le contenu de notre bloc de construction.
+// 1 - Utilisation d'un champ AUTOTEXTE :
 FieldAutoText fieldAutoText = (FieldAutoText)builder.InsertField(FieldType.FieldAutoText, true);
 fieldAutoText.EntryName = "MyBlock";
 

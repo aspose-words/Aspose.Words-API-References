@@ -1,14 +1,14 @@
 ---
 title: Row.FirstCell
 second_title: Aspose.Words för .NET API Referens
-description: Row fast egendom. Returnerar den första Cell i raden.
+description: Row fast egendom. Returnerar den förstaCell i raden.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.tables/row/firstcell/
 ---
 ## Row.FirstCell property
 
-Returnerar den första **Cell** i raden.
+Returnerar den första[`Cell`](../../cell/) i raden.
 
 ```csharp
 public Cell FirstCell { get; }

@@ -3,7 +3,7 @@ title: Enum LineStyle
 second_title: Справочник по API Aspose.Words для .NET
 description: Aspose.Words.LineStyle перечисление. Определяет стиль линииBorder .
 type: docs
-weight: 3250
+weight: 3450
 url: /ru/net/aspose.words/linestyle/
 ---
 ## LineStyle enumeration

@@ -1,14 +1,14 @@
 ---
 title: TextPath.Size
 second_title: Aspose.Words for .NET API Referansı
-description: TextPath mülk. Yazı tipinin boyutunu nokta olarak tanımlar.
+description: TextPath mülk. Yazı tipinin boyutunu nokta cinsinden tanımlar.
 type: docs
 weight: 120
 url: /tr/net/aspose.words.drawing/textpath/size/
 ---
 ## TextPath.Size property
 
-Yazı tipinin boyutunu nokta olarak tanımlar.
+Yazı tipinin boyutunu nokta cinsinden tanımlar.
 
 ```csharp
 public double Size { get; set; }

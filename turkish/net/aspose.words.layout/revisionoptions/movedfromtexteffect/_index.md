@@ -1,14 +1,14 @@
 ---
 title: RevisionOptions.MovedFromTextEffect
 second_title: Aspose.Words for .NET API Referansı
-description: RevisionOptions mülk. İçeriğin taşındığı alanlara uygulanacak efekti belirlemeye izin verirMoving . Varsayılan değerDoubleStrikeThrough
+description: RevisionOptions mülk. İçeriğin taşındığı alanlara uygulanacak efekti belirtmeye olanak tanırMoving . Varsayılan değerDoubleStrikeThrough
 type: docs
 weight: 80
 url: /tr/net/aspose.words.layout/revisionoptions/movedfromtexteffect/
 ---
 ## RevisionOptions.MovedFromTextEffect property
 
-İçeriğin taşındığı alanlara uygulanacak efekti belirlemeye izin verirMoving . Varsayılan değerDoubleStrikeThrough
+İçeriğin taşındığı alanlara uygulanacak efekti belirtmeye olanak tanırMoving . Varsayılan değer:DoubleStrikeThrough
 
 ```csharp
 public RevisionTextEffect MovedFromTextEffect { get; set; }
@@ -16,7 +16,7 @@ public RevisionTextEffect MovedFromTextEffect { get; set; }
 
 ### Örnekler
 
-Düzeltmelerin görünümünün nasıl değiştirileceğini gösterir.
+Revizyonların görünümünün nasıl değiştirileceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Revisions.docx");
@@ -28,24 +28,24 @@ RevisionOptions revisionOptions = doc.LayoutOptions.RevisionOptions;
 revisionOptions.InsertedTextColor = RevisionColor.Green;
 revisionOptions.InsertedTextEffect = RevisionTextEffect.Italic;
 
-// Silme revizyonlarını kırmızı ve kalın olarak işle.
+// Silme düzeltmelerini kırmızı ve kalın harflerle işleyin.
 revisionOptions.DeletedTextColor = RevisionColor.Red;
 revisionOptions.DeletedTextEffect = RevisionTextEffect.Bold;
 
-// Aynı metin bir hareket revizyonunda iki kez görünecek:
+// Aynı metin bir hareket revizyonunda iki kez görünecektir:
 // bir kez kalkış noktasında ve bir kez varış noktasında.
-// Taşınan revizyondaki metni çift vuruşla sarıya çevir
-// ve taşınan revizyonda altı çift mavi çizgili.
+// Taşınan revizyondaki metni çift çizgiyle sarıya dönüştür
+// ve taşınan revizyonda çift altı çizili mavi.
 revisionOptions.MovedFromTextColor = RevisionColor.Yellow;
 revisionOptions.MovedFromTextEffect = RevisionTextEffect.DoubleStrikeThrough;
-revisionOptions.MovedToTextColor = RevisionColor.Blue;
+revisionOptions.MovedToTextColor = RevisionColor.ClassicBlue;
 revisionOptions.MovedFromTextEffect = RevisionTextEffect.DoubleUnderline;
 
 // Format revizyonlarını koyu kırmızı ve kalın olarak işleyin.
 revisionOptions.RevisedPropertiesColor = RevisionColor.DarkRed;
 revisionOptions.RevisedPropertiesEffect = RevisionTextEffect.Bold;
 
-// Sayfanın sol tarafında, revizyonlardan etkilenen satırların yanına kalın bir lacivert çubuk yerleştirin.
+// Sayfanın sol tarafına, revizyonlardan etkilenen satırların yanına kalın, lacivert bir çubuk yerleştirin.
 revisionOptions.RevisionBarsColor = RevisionColor.DarkBlue;
 revisionOptions.RevisionBarsWidth = 15.0f;
 
@@ -53,12 +53,12 @@ revisionOptions.RevisionBarsWidth = 15.0f;
 revisionOptions.ShowOriginalRevision = true;
 revisionOptions.ShowRevisionMarks = true;
 
-// Yeşil balonlarda görünecek hareket, silme, biçimlendirme revizyonları ve yorumları alın
-// sayfanın sağ tarafında.
+// Hareket, silme, biçimlendirme revizyonları ve yorumların yeşil balonlarla gösterilmesini sağlayın
+//sayfanın sağ tarafında.
 revisionOptions.ShowInBalloons = ShowInBalloons.Format;
 revisionOptions.CommentColor = RevisionColor.BrightGreen;
 
-// Bu özellikler yalnızca .pdf veya .jpg gibi biçimler için geçerlidir.
+// Bu özellikler yalnızca .pdf veya .jpg gibi formatlar için geçerlidir.
 doc.Save(ArtifactsDir + "Revision.RevisionOptions.pdf");
 ```
 

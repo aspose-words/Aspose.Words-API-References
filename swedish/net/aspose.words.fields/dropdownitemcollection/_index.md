@@ -3,12 +3,14 @@ title: Class DropDownItemCollection
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Fields.DropDownItemCollection klass. En samling strängar som representerar alla objekt i ett rullgardinsfält.
 type: docs
-weight: 1350
+weight: 1500
 url: /sv/net/aspose.words.fields/dropdownitemcollection/
 ---
 ## DropDownItemCollection class
 
 En samling strängar som representerar alla objekt i ett rullgardinsfält.
+
+För att lära dig mer, besök[Arbeta med Fields](https://docs.aspose.com/words/net/working-with-fields/) dokumentationsartikel.
 
 ```csharp
 public class DropDownItemCollection : IEnumerable<string>

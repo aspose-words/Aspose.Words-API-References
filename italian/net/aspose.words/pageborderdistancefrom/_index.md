@@ -3,7 +3,7 @@ title: Enum PageBorderDistanceFrom
 second_title: Aspose.Words per .NET API Reference
 description: Aspose.Words.PageBorderDistanceFrom enum. Specifica il posizionamento del bordo della pagina rispetto al margine della pagina.
 type: docs
-weight: 4110
+weight: 4350
 url: /it/net/aspose.words/pageborderdistancefrom/
 ---
 ## PageBorderDistanceFrom enumeration
@@ -23,7 +23,7 @@ public enum PageBorderDistanceFrom
 
 ### Esempi
 
-Mostra come creare un ampio bordo a banda blu nella parte superiore della prima pagina.
+Mostra come creare un ampio bordo a fascia blu nella parte superiore della prima pagina.
 
 ```csharp
 Document doc = new Document();

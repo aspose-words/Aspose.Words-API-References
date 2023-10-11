@@ -1,14 +1,14 @@
 ---
 title: ImageSaveOptions.Resolution
 second_title: Aspose.Words for .NET API Referansı
-description: ImageSaveOptions mülk. Oluşturulan görüntüler için nokta/inç olarak hem yatay hem de dikey çözünürlüğü ayarlar.
+description: ImageSaveOptions mülk. Oluşturulan görüntüler için inç başına nokta sayısı cinsinden hem yatay hem de dikey çözünürlüğü ayarlar.
 type: docs
-weight: 120
+weight: 130
 url: /tr/net/aspose.words.saving/imagesaveoptions/resolution/
 ---
 ## ImageSaveOptions.Resolution property
 
-Oluşturulan görüntüler için nokta/inç olarak hem yatay hem de dikey çözünürlüğü ayarlar.
+Oluşturulan görüntüler için inç başına nokta sayısı cinsinden hem yatay hem de dikey çözünürlüğü ayarlar.
 
 ```csharp
 public float Resolution { set; }
@@ -16,11 +16,11 @@ public float Resolution { set; }
 
 ### Notlar
 
-Bu özellik yalnızca raster görüntü biçimlerine kaydederken etkilidir.
+Bu özellik yalnızca taramalı görüntü formatlarına kaydederken etkilidir.
 
 ### Örnekler
 
-Bir belgeyi PNG'ye dönüştürürken çözünürlüğün nasıl belirtileceğini gösterir.
+Bir belgeyi PNG'ye dönüştürürken çözünürlüğün nasıl belirleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -32,11 +32,11 @@ Document doc = new Document();
 
             builder.InsertImage(ImageDir + "Logo.jpg");
 
-            // Belgenin "Kaydet" yöntemine aktarabileceğimiz bir "ImageSaveOptions" nesnesi oluşturun
-            // bu yöntemin belgeyi bir görüntüye dönüştürme şeklini değiştirmek için.
+            // Belgenin "Save" yöntemine aktarabileceğimiz bir "ImageSaveOptions" nesnesi oluşturun
+            // bu yöntemin belgeyi bir görüntüye dönüştürme biçimini değiştirmek için.
             ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Png);
 
-            // Belgeyi 72dpi'de işlemek için "Resolution" özelliğini "72" olarak ayarlayın.
+            // Belgeyi 72dpi çözünürlükte oluşturmak için "Çözünürlük" özelliğini "72" olarak ayarlayın.
             options.Resolution = 72;
 
             doc.Save(ArtifactsDir + "ImageSaveOptions.Resolution.72dpi.png", options);
@@ -55,7 +55,7 @@ Document doc = new Document();
                 Assert.AreEqual(792, image.Height);
             }
 #endif
-            // Belgeyi 300 dpi'de işlemek için "Çözünürlük" özelliğini "300" olarak ayarlayın.
+            // Belgeyi 300dpi çözünürlükte oluşturmak için "Çözünürlük" özelliğini "300" olarak ayarlayın.
             options.Resolution = 300;
 
             doc.Save(ArtifactsDir + "ImageSaveOptions.Resolution.300dpi.png", options);

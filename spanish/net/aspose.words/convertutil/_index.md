@@ -3,12 +3,14 @@ title: Class ConvertUtil
 second_title: Referencia de API de Aspose.Words para .NET
 description: Aspose.Words.ConvertUtil clase. Proporciona funciones auxiliares para convertir entre varias unidades de medida.
 type: docs
-weight: 350
+weight: 360
 url: /es/net/aspose.words/convertutil/
 ---
 ## ConvertUtil class
 
 Proporciona funciones auxiliares para convertir entre varias unidades de medida.
+
+Para obtener más información, visite el[Convertir entre unidades de medida](https://docs.aspose.com/words/net/convert-between-measurement-units/) artículo de documentación.
 
 ```csharp
 public static class ConvertUtil
@@ -21,11 +23,11 @@ public static class ConvertUtil
 | static [InchToPoint](../../aspose.words/convertutil/inchtopoint/)(double) | Convierte pulgadas a puntos. |
 | static [MillimeterToPoint](../../aspose.words/convertutil/millimetertopoint/)(double) | Convierte milímetros a puntos. |
 | static [PixelToNewDpi](../../aspose.words/convertutil/pixeltonewdpi/)(double, double, double) | Convierte píxeles de una resolución a otra. |
-| static [PixelToPoint](../../aspose.words/convertutil/pixeltopoint/#pixeltopoint)(double) | Convierte píxeles a puntos a 96 ppp. |
+| static [PixelToPoint](../../aspose.words/convertutil/pixeltopoint/#pixeltopoint)(double) | Convierte píxeles en puntos a 96 ppp. |
 | static [PixelToPoint](../../aspose.words/convertutil/pixeltopoint/#pixeltopoint_1)(double, double) | Convierte píxeles en puntos con la resolución de píxeles especificada. |
 | static [PointToInch](../../aspose.words/convertutil/pointtoinch/)(double) | Convierte puntos a pulgadas. |
 | static [PointToPixel](../../aspose.words/convertutil/pointtopixel/#pointtopixel)(double) | Convierte puntos a píxeles a 96 ppp. |
-| static [PointToPixel](../../aspose.words/convertutil/pointtopixel/#pointtopixel_1)(double, double) | Convierte puntos en píxeles con la resolución de píxeles especificada. |
+| static [PointToPixel](../../aspose.words/convertutil/pointtopixel/#pointtopixel_1)(double, double) | Convierte puntos a píxeles con la resolución de píxeles especificada. |
 
 ### Ejemplos
 
@@ -49,7 +51,7 @@ builder.Writeln("Hello world!");
 doc.Save(ArtifactsDir + "PageSetup.PageMargins.docx");
 ```
 
-Muestra cómo especificar las propiedades de la página en pulgadas.
+Muestra cómo especificar propiedades de página en pulgadas.
 
 ```csharp
 Document doc = new Document();

@@ -3,7 +3,7 @@ title: ShapeBase.Rotation
 second_title: Aspose.Words per .NET API Reference
 description: ShapeBase proprietà. Definisce langolo in gradi di rotazione di una forma. Il valore positivo corrisponde allangolo di rotazione in senso orario.
 type: docs
-weight: 430
+weight: 470
 url: /it/net/aspose.words.drawing/shapebase/rotation/
 ---
 ## ShapeBase.Rotation property

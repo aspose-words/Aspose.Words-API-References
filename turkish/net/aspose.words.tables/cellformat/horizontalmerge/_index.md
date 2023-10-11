@@ -3,12 +3,12 @@ title: CellFormat.HorizontalMerge
 second_title: Aspose.Words for .NET API Referansı
 description: CellFormat mülk. Hücrenin satırdaki diğer hücrelerle yatay olarak nasıl birleştirileceğini belirtir.
 type: docs
-weight: 40
+weight: 50
 url: /tr/net/aspose.words.tables/cellformat/horizontalmerge/
 ---
 ## CellFormat.HorizontalMerge property
 
-Hücrenin, satırdaki diğer hücrelerle yatay olarak nasıl birleştirileceğini belirtir.
+Hücrenin satırdaki diğer hücrelerle yatay olarak nasıl birleştirileceğini belirtir.
 
 ```csharp
 public CellMerge HorizontalMerge { get; set; }
@@ -23,18 +23,18 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // İlk satırın ilk sütununa bir hücre ekleyin.
-// Bu hücre, yatay olarak birleştirilmiş hücre aralığındaki ilk hücre olacaktır.
+// Bu hücre, yatay olarak birleştirilmiş hücreler aralığındaki ilk hücre olacaktır.
 builder.InsertCell();
 builder.CellFormat.HorizontalMerge = CellMerge.First;
 builder.Write("Text in merged cells.");
 
 // İlk satırın ikinci sütununa bir hücre ekleyin. Metin içeriği eklemek yerine,
-// bu hücreyi doğrudan sola eklediğimiz ilk hücre ile birleştireceğiz.
+// bu hücreyi direkt sola eklediğimiz ilk hücreyle birleştireceğiz.
 builder.InsertCell();
 builder.CellFormat.HorizontalMerge = CellMerge.Previous;
 builder.EndRow();
 
-// İkinci satıra birleştirilmemiş iki hücre daha ekleyin.
+// İkinci satıra iki birleşmemiş hücre daha ekleyin.
 builder.CellFormat.HorizontalMerge = CellMerge.None;
 builder.InsertCell();
 builder.Write("Text in unmerged cell.");

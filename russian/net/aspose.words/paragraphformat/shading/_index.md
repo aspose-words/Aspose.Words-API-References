@@ -1,14 +1,14 @@
 ---
 title: ParagraphFormat.Shading
 second_title: Справочник по API Aspose.Words для .NET
-description: ParagraphFormat свойство. Возвращает объект Shading который ссылается на форматирование затенения абзаца.
+description: ParagraphFormat свойство. ВозвращаетShading объект который ссылается на форматирование штриховки абзаца.
 type: docs
-weight: 270
+weight: 280
 url: /ru/net/aspose.words/paragraphformat/shading/
 ---
 ## ParagraphFormat.Shading property
 
-Возвращает объект Shading, который ссылается на форматирование затенения абзаца.
+Возвращает[`Shading`](../../shading/) объект, который ссылается на форматирование штриховки абзаца.
 
 ```csharp
 public Shading Shading { get; }
@@ -16,7 +16,7 @@ public Shading Shading { get; }
 
 ### Примеры
 
-Показывает, как украсить текст рамками и заливкой.
+Показывает, как украшать текст границами и заливкой.
 
 ```csharp
 Document doc = new Document();

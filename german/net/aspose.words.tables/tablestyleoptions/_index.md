@@ -3,7 +3,7 @@ title: Enum TableStyleOptions
 second_title: Aspose.Words für .NET-API-Referenz
 description: Aspose.Words.Tables.TableStyleOptions opsomming. Gibt an wie der Tabellenstil auf eine Tabelle angewendet wird.
 type: docs
-weight: 6070
+weight: 6370
 url: /de/net/aspose.words.tables/tablestyleoptions/
 ---
 ## TableStyleOptions enumeration
@@ -19,19 +19,19 @@ public enum TableStyleOptions
 
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
-| None | `0` | Es wird keine Tabellenformatierung angewendet. |
+| None | `0` | Es wird keine Formatierung im Tabellenstil angewendet. |
 | FirstRow | `20` | Bedingte Formatierung der ersten Zeile anwenden. |
 | LastRow | `40` | Bedingte Formatierung der letzten Zeile anwenden. |
-| FirstColumn | `80` | Bedingte Formatierung für 1 erste Spalte anwenden. |
+| FirstColumn | `80` | Wenden Sie die bedingte Formatierung der ersten Spalte an. |
 | LastColumn | `100` | Bedingte Formatierung der letzten Spalte anwenden. |
 | RowBands | `200` | Bedingte Zeilenbandformatierung anwenden. |
-| ColumnBands | `400` | Bedingte Formatierung für Spaltenbanding anwenden. |
-| Default2003 | `600` | Zeilen- und Spaltenbanding wird angewendet. Dies ist die Standardeinstellung von Microsoft Word für alte Formate wie DOC, WML und RTF. |
+| ColumnBands | `400` | Wenden Sie die bedingte Formatierung der Spaltenbänder an. |
+| Default2003 | `600` | Zeilen- und Spaltenbänderung wird angewendet. Dies ist die Microsoft Word-Standardeinstellung für alte Formate wie DOC, WML und RTF. |
 | Default | `2A0` | Dies sind die Standardeinstellungen von Microsoft Word. |
 
 ### Beispiele
 
-Zeigt, wie eine neue Tabelle erstellt wird, während ein Stil angewendet wird.
+Zeigt, wie man eine neue Tabelle erstellt und dabei einen Stil anwendet.
 
 ```csharp
 Document doc = new Document();
@@ -45,7 +45,7 @@ builder.InsertCell();
 // Beachten Sie, dass beim Speichern im .doc-Format nicht alle Tabellenstile verfügbar sind.
 table.StyleIdentifier = StyleIdentifier.MediumShading1Accent1;
 
-// Wenden Sie den Stil teilweise auf Features der Tabelle an, basierend auf Prädikaten, und erstellen Sie dann die Tabelle.
+// Den Stil basierend auf Prädikaten teilweise auf Features der Tabelle anwenden und dann die Tabelle erstellen.
 table.StyleOptions =
     TableStyleOptions.FirstColumn | TableStyleOptions.RowBands | TableStyleOptions.FirstRow;
 table.AutoFit(AutoFitBehavior.AutoFitToContents);

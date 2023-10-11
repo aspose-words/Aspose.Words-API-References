@@ -3,7 +3,7 @@ title: ParagraphFormat.SpaceBefore
 second_title: Référence de l'API Aspose.Words pour .NET
 description: ParagraphFormat propriété. Obtient ou définit la quantité despacement en points avant le paragraphe.
 type: docs
-weight: 310
+weight: 320
 url: /fr/net/aspose.words/paragraphformat/spacebefore/
 ---
 ## ParagraphFormat.SpaceBefore property
@@ -18,53 +18,53 @@ public double SpaceBefore { get; set; }
 
 | exception | condition |
 | --- | --- |
-| ArgumentOutOfRangeException | Lance lorsque l'argument est en dehors de la plage de valeurs valides. |
+| ArgumentOutOfRangeException | Lance lorsque l'argument est hors de la plage des valeurs valides. |
 
 ### Remarques
 
-N'a aucun effet lorsque[`SpaceBeforeAuto`](../spacebeforeauto/) est vrai.
+N'a aucun effet lorsque[`SpaceBeforeAuto`](../spacebeforeauto/) est`vrai`.
 
-Les valeurs valides sont comprises entre 0 et 1 584 inclus.
+Les valeurs valides vont de 0 à 1 584 inclus.
 
 ### Exemples
 
-Montre comment définir l'espacement automatique des paragraphes.
+Montre comment définir l’espacement automatique des paragraphes.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Appliquez une grande quantité d'espacement avant et après les paragraphes que ce constructeur va créer.
+// Applique une grande quantité d'espacement avant et après les paragraphes que ce générateur créera.
 builder.ParagraphFormat.SpaceBefore = 24;
 builder.ParagraphFormat.SpaceAfter = 24;
 
-// Définissez ces drapeaux sur "true" pour appliquer un espacement automatique,
-// en ignorant effectivement l'espacement dans les propriétés que nous avons définies ci-dessus.
-// Laissez-les comme "faux" appliquera notre espacement de paragraphe personnalisé.
+// Met ces flags à "true" pour appliquer un espacement automatique,
+// ignorant effectivement l'espacement dans les propriétés que nous avons définies ci-dessus.
+// Les laisser comme "false" appliquera notre espacement de paragraphe personnalisé.
 builder.ParagraphFormat.SpaceAfterAuto = autoSpacing;
 builder.ParagraphFormat.SpaceBeforeAuto = autoSpacing;
 
-// Insérez deux paragraphes qui auront un espacement au-dessus et au-dessous d'eux et enregistrez le document.
+// Insérez deux paragraphes qui auront un espace au-dessus et en dessous d'eux et enregistrez le document.
 builder.Writeln("Paragraph 1.");
 builder.Writeln("Paragraph 2.");
 
 doc.Save(ArtifactsDir + "ParagraphFormat.ParagraphSpacingAuto.docx");
 ```
 
-Montre comment appliquer aucun espacement entre les paragraphes avec le même style.
+Montre comment n’appliquer aucun espacement entre les paragraphes ayant le même style.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Appliquez une grande quantité d'espacement avant et après les paragraphes que ce constructeur va créer.
+// Applique une grande quantité d'espacement avant et après les paragraphes que ce générateur créera.
 builder.ParagraphFormat.SpaceBefore = 24;
 builder.ParagraphFormat.SpaceAfter = 24;
 
-// Définissez le drapeau "NoSpaceBetweenParagraphsOfSameStyle" sur "true" pour appliquer
+// Définissez l'indicateur "NoSpaceBetweenParagraphsOfSameStyle" sur "true" pour appliquer
 // pas d'espacement entre les paragraphes de même style, ce qui regroupera les paragraphes similaires.
-// Laisse le drapeau "NoSpaceBetweenParagraphsOfSameStyle" sur "false"
-// pour appliquer uniformément l'espacement à chaque paragraphe.
+// Laisse le flag "NoSpaceBetweenParagraphsOfSameStyle" à "false"
+// pour appliquer uniformément un espacement à chaque paragraphe.
 builder.ParagraphFormat.NoSpaceBetweenParagraphsOfSameStyle = noSpaceBetweenParagraphsOfSameStyle;
 
 builder.ParagraphFormat.Style = doc.Styles["Normal"];

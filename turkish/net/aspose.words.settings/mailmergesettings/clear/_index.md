@@ -1,14 +1,14 @@
 ---
 title: MailMergeSettings.Clear
 second_title: Aspose.Words for .NET API Referansı
-description: MailMergeSettings yöntem. Adres mektup birleştirme ayarlarını belge kaydedildiğinde hiçbir adres mektup birleştirme ayarı kaydedilmeyecek ve normal bir belge haline gelecek şekilde temizler.
+description: MailMergeSettings yöntem. Adresmektup birleştirme ayarlarını belge kaydedildiğinde hiçbir adresmektup birleştirme ayarı kaydedilmeyecek ve normal bir belge haline gelecek şekilde temizler.
 type: docs
 weight: 180
 url: /tr/net/aspose.words.settings/mailmergesettings/clear/
 ---
 ## MailMergeSettings.Clear method
 
-Adres mektup birleştirme ayarlarını, belge kaydedildiğinde hiçbir adres mektup birleştirme ayarı kaydedilmeyecek ve normal bir belge haline gelecek şekilde temizler.
+Adres-mektup birleştirme ayarlarını, belge kaydedildiğinde hiçbir adres-mektup birleştirme ayarı kaydedilmeyecek ve normal bir belge haline gelecek şekilde temizler.
 
 ```csharp
 public void Clear()
@@ -16,7 +16,7 @@ public void Clear()
 
 ### Örnekler
 
-Harici bir veri kaynağına bağlanırken adres mektup birleştirmenin nasıl yürütüleceğini gösterir.
+Dış veri kaynağına bağlanırken adres-mektup birleştirmenin nasıl yürütüleceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
@@ -36,8 +36,8 @@ Console.WriteLine($"UDL connection string:\n\t{odso.UdlConnectString}");
 Console.WriteLine($"Table:\n\t{odso.TableName}");
 Console.WriteLine($"Query:\n\t{doc.MailMergeSettings.Query}");
 
-// Bu ayarları temizleyerek sıfırlayabiliriz. Bunu yaptıktan ve belgeyi kaydettikten sonra,
-// Microsoft Word, belgeyi yüklemek için kullandığımızda artık adres mektup birleştirme gerçekleştirmeyecek.
+// Bu ayarları temizleyerek sıfırlayabiliriz. Bunu yapıp belgeyi kaydettikten sonra,
+// Microsoft Word artık belgeyi yüklemek için kullandığımızda adres-mektup birleştirme işlemini gerçekleştirmeyecek.
 settings.Clear();
 
 doc.Save(ArtifactsDir + "MailMerge.OdsoEmail.docx");

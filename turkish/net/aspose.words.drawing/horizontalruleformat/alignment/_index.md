@@ -16,11 +16,11 @@ public HorizontalRuleAlignment Alignment { get; set; }
 
 ### Notlar
 
-Varsayılan değerLeft.
+Varsayılan değer:Left.
 
 ### Örnekler
 
-Yatay bir kural şeklinin nasıl ekleneceğini ve biçimlendirmesinin nasıl özelleştirileceğini gösterir.
+Yatay kural şeklinin nasıl ekleneceğini ve biçimlendirmesinin nasıl özelleştirileceğini gösterir.
 
 ```csharp
 Document doc = new Document();

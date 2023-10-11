@@ -1,14 +1,14 @@
 ---
 title: ParagraphFormat.AddSpaceBetweenFarEastAndAlpha
 second_title: Aspose.Words لمراجع .NET API
-description: ParagraphFormat ملكية. الحصول على علامة أو تعيينها تشير إلى ما إذا كان يتم ضبط التباعد بين الأحرف تلقائيًا بين مناطق من النص اللاتيني ومناطق نص شرق آسيا في الفقرة الحالية.
+description: ParagraphFormat ملكية. الحصول على أو تعيين علامة تشير إلى ما إذا كان يتم ضبط التباعد بين الأحرف تلقائيًا بين مناطق للنص اللاتيني ومناطق نص شرق آسيا في الفقرة الحالية.
 type: docs
 weight: 10
 url: /ar/net/aspose.words/paragraphformat/addspacebetweenfareastandalpha/
 ---
 ## ParagraphFormat.AddSpaceBetweenFarEastAndAlpha property
 
-الحصول على علامة أو تعيينها تشير إلى ما إذا كان يتم ضبط التباعد بين الأحرف تلقائيًا بين مناطق من النص اللاتيني ومناطق نص شرق آسيا في الفقرة الحالية.
+الحصول على أو تعيين علامة تشير إلى ما إذا كان يتم ضبط التباعد بين الأحرف تلقائيًا بين مناطق للنص اللاتيني ومناطق نص شرق آسيا في الفقرة الحالية.
 
 ```csharp
 public bool AddSpaceBetweenFarEastAndAlpha { get; set; }
@@ -36,8 +36,8 @@ paragraphFormat.AddSpaceBetweenFarEastAndAlpha = true;
 paragraphFormat.AddSpaceBetweenFarEastAndDigit = true;
 paragraphFormat.KeepTogether = true;
 
-// طريقة "Writeln" تنهي الفقرة بعد إلحاق النص
-// ثم يبدأ سطرًا جديدًا ، مضيفًا فقرة جديدة.
+// تنهي طريقة "Writeln" الفقرة بعد إلحاق النص
+// ثم يبدأ سطرًا جديدًا ويضيف فقرة جديدة.
 builder.Writeln("Hello world!");
 
 Assert.True(builder.CurrentParagraph.IsEndOfDocument);

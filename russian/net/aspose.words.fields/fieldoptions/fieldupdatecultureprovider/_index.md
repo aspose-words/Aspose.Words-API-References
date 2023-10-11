@@ -1,14 +1,14 @@
 ---
 title: FieldOptions.FieldUpdateCultureProvider
 second_title: Справочник по API Aspose.Words для .NET
-description: FieldOptions свойство. Получает или задает поставщика который возвращает объект культуры для каждого конкретного поля.
+description: FieldOptions свойство. Получает или задает поставщика который возвращает объект культуры специфичный для каждого конкретного поля.
 type: docs
-weight: 90
+weight: 100
 url: /ru/net/aspose.words.fields/fieldoptions/fieldupdatecultureprovider/
 ---
 ## FieldOptions.FieldUpdateCultureProvider property
 
-Получает или задает поставщика, который возвращает объект культуры для каждого конкретного поля.
+Получает или задает поставщика, который возвращает объект культуры, специфичный для каждого конкретного поля.
 
 ```csharp
 public IFieldUpdateCultureProvider FieldUpdateCultureProvider { get; set; }
@@ -16,7 +16,7 @@ public IFieldUpdateCultureProvider FieldUpdateCultureProvider { get; set; }
 
 ### Примечания
 
-Провайдер запрашивается, когда значение[`FieldUpdateCultureSource`](../fieldupdateculturesource/) является **FieldUpdateCultureSource.FieldCode**.
+Поставщик запрашивается, когда значение[`FieldUpdateCultureSource`](../fieldupdateculturesource/) являетсяFieldCode.
 
 Если поставщик присутствует, то возвращаемый им объект культуры используется для обновления поля. В противном случае используется системная культура.
 
@@ -25,7 +25,6 @@ public IFieldUpdateCultureProvider FieldUpdateCultureProvider { get; set; }
 Показывает, как указать язык и региональные параметры, которые анализируют форматирование даты и времени для каждого поля.
 
 ```csharp
-[Test]
 public void DefineDateTimeFormatting()
 {
     Document doc = new Document();
@@ -35,7 +34,7 @@ public void DefineDateTimeFormatting()
 
     doc.FieldOptions.FieldUpdateCultureSource = FieldUpdateCultureSource.FieldCode;
 
-    // Установить провайдера, который возвращает объект культуры для каждого поля.
+    // Установите поставщика, который возвращает объект культуры, специфичный для каждого поля.
     doc.FieldOptions.FieldUpdateCultureProvider = new FieldUpdateCultureProvider();
 
     FieldTime fieldDate = (FieldTime)doc.Range.Fields[0];

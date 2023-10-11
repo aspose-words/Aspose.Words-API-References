@@ -1,14 +1,14 @@
 ---
 title: TextBox.BreakForwardLink
 second_title: Aspose.Words för .NET API Referens
-description: TextBox metod. Bryter länken till nästa TextBox.
+description: TextBox metod. Bryter länken till nästaTextBox .
 type: docs
-weight: 120
+weight: 130
 url: /sv/net/aspose.words.drawing/textbox/breakforwardlink/
 ---
 ## TextBox.BreakForwardLink method
 
-Bryter länken till nästa TextBox.
+Bryter länken till nästa[`TextBox`](../) .
 
 ```csharp
 public void BreakForwardLink()
@@ -16,7 +16,7 @@ public void BreakForwardLink()
 
 ### Anmärkningar
 
-BreakForwardLink() bryter inte alla andra länkar i den aktuella sekvensen av former. Till exempel: 1-2-3-4-sekvensen och BreakForwardLink vid den 2:a textrutan kommer att skapa två sekvenser 1-2, 3-4.
+`BreakForwardLink`bryter inte alla andra länkar i den aktuella sekvensen av former. Till exempel: 1-2-3-4 sekvens och`BreakForwardLink` vid den andra textrutan kommer att skapa två sekvenser 1-2, 3-4.
 
 ### Exempel
 

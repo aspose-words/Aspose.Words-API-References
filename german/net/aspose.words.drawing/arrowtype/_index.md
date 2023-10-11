@@ -3,7 +3,7 @@ title: Enum ArrowType
 second_title: Aspose.Words für .NET-API-Referenz
 description: Aspose.Words.Drawing.ArrowType opsomming. Gibt den Typ eines Pfeils an einem Linienende an.
 type: docs
-weight: 480
+weight: 490
 url: /de/net/aspose.words.drawing/arrowtype/
 ---
 ## ArrowType enumeration
@@ -19,12 +19,12 @@ public enum ArrowType
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
 | None | `0` | Die Linie hat am Ende keinen Pfeil. |
-| Arrow | `1` | Der Pfeil ist ein ausgefülltes Dreieck. |
-| Stealth | `2` | Der Pfeil ist ein "Stealth"-Pfeil. |
+| Arrow | `1` | Der Pfeil ist ein massives Dreieck. |
+| Stealth | `2` | Der Pfeil ist ein „Stealth“-Pfeil. |
 | Diamond | `3` | Das Linienende ist eine durchgehende Raute. |
-| Oval | `4` | Das Linienende ist ein solides Oval. |
+| Oval | `4` | Das Linienende ist ein durchgezogenes Oval. |
 | Open | `5` | Der Pfeil ist ein offener Pfeil. |
-| Default | `0` | Gleich wieNone . |
+| Default | `0` | Das Gleiche wieNone . |
 
 ### Beispiele
 
@@ -35,7 +35,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Nachfolgend finden Sie vier Beispiele für Formen, die wir in unsere Dokumente einfügen können.
-// 1 - Gepunktete, horizontale, halbtransparente rote Linie
+// 1 – Gepunktete, horizontale, halbtransparente rote Linie
 // mit einem Pfeil am linken Ende und einer Raute am rechten Ende:
 Shape arrow = new Shape(doc, ShapeType.Line);
 arrow.Width = 200;
@@ -53,7 +53,7 @@ Assert.AreEqual(JoinStyle.Miter, arrow.Stroke.JoinStyle);
 
 builder.InsertNode(arrow);
 
-// 2 - Dicke schwarze diagonale Linie mit abgerundeten Enden:
+// 2 – Dicke schwarze diagonale Linie mit abgerundeten Enden:
 Shape line = new Shape(doc, ShapeType.Line);
 line.Top = 40;
 line.Width = 200;
@@ -73,7 +73,7 @@ filledInArrow.Fill.Visible = true;
 
 builder.InsertNode(filledInArrow);
 
-// 4 - Pfeil mit umgekehrter Ausrichtung, gefüllt mit dem Aspose-Logo:
+// 4 – Pfeil mit umgekehrter Ausrichtung, gefüllt mit dem Aspose-Logo:
 Shape filledInArrowImg = new Shape(doc, ShapeType.Arrow);
 filledInArrowImg.Width = 200;
 filledInArrowImg.Height = 40;
@@ -85,8 +85,8 @@ byte[] imageBytes = File.ReadAllBytes(ImageDir + "Logo.jpg");
 using (MemoryStream stream = new MemoryStream(imageBytes))
 {
     Image image = Image.FromStream(stream);
-    // Wenn wir die Ausrichtung unseres Pfeils umkehren, kehren wir auch das Bild um, das der Pfeil enthält.
-    // Spiegeln Sie das Bild in die andere Richtung, um dies aufzuheben, bevor Sie die Form erhalten, um es anzuzeigen.
+    // Wenn wir die Ausrichtung unseres Pfeils umdrehen, drehen wir auch das Bild um, das der Pfeil enthält.
+    // Drehen Sie das Bild in die andere Richtung, um dies aufzuheben, bevor Sie die Form erhalten, in der es angezeigt wird.
     image.RotateFlip(RotateFlipType.RotateNoneFlipXY);
 
     filledInArrowImg.ImageData.SetImage(image);

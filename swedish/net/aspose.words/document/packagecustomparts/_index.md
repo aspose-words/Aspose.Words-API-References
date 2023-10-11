@@ -3,7 +3,7 @@ title: Document.PackageCustomParts
 second_title: Aspose.Words för .NET API Referens
 description: Document fast egendom. Hämtar eller ställer in samlingen av anpassade delar godtyckligt innehåll som är länkade till OOXMLpaketet med hjälp av okända relationer.
 type: docs
-weight: 290
+weight: 310
 url: /sv/net/aspose.words/document/packagecustomparts/
 ---
 ## Document.PackageCustomParts property

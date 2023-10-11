@@ -30,8 +30,8 @@ Zeigt, wie Seiteneigenschaften in Millimetern angegeben werden.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Das "Page Setup" eines Abschnitts definiert die Größe der Seitenränder in Punkt.
-// Wir können auch die Klasse "ConvertUtil" verwenden, um eine vertrautere Maßeinheit zu verwenden,
+// Die „Seiteneinrichtung“ eines Abschnitts definiert die Größe der Seitenränder in Punkten.
+// Wir können auch die Klasse „ConvertUtil“ verwenden, um eine bekanntere Maßeinheit zu verwenden,
 // wie Millimeter beim Definieren von Grenzen.
 PageSetup pageSetup = builder.PageSetup;
 pageSetup.TopMargin = ConvertUtil.MillimeterToPoint(30);

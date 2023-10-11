@@ -1,14 +1,14 @@
 ---
 title: ConditionalStyle.Font
 second_title: Aspose.Words for .NET API Referansı
-description: ConditionalStyle mülk. Koşullu stilin karakter biçimlendirmesini alır.
+description: ConditionalStyle mülk. Koşullu stilin karakter formatını alır.
 type: docs
 weight: 30
 url: /tr/net/aspose.words/conditionalstyle/font/
 ---
 ## ConditionalStyle.Font property
 
-Koşullu stilin karakter biçimlendirmesini alır.
+Koşullu stilin karakter formatını alır.
 
 ```csharp
 public Font Font { get; }
@@ -37,9 +37,9 @@ builder.EndTable();
 // Özel bir tablo stili oluşturun.
 TableStyle tableStyle = (TableStyle)doc.Styles.Add(StyleType.Table, "MyTableStyle1");
 
-// Koşullu stiller, tablo hücrelerinin yalnızca bazılarını etkileyen biçimlendirme değişiklikleridir.
+// Koşullu stiller, tablonun yalnızca bazı hücrelerini etkileyen biçimlendirme değişiklikleridir
 // hücrelerin son satırda olması gibi bir yüklemi temel alır.
-// Aşağıda, "ConditionalStyles" koleksiyonundan bir tablo stilinin koşullu stillerine erişmenin üç yolu bulunmaktadır.
+// Aşağıda "ConditionalStyles" koleksiyonundan bir tablo stilinin koşullu stillerine erişmenin üç yolu verilmiştir.
 // 1 - Stil türüne göre:
 tableStyle.ConditionalStyles[ConditionalStyleType.FirstRow].Shading.BackgroundPatternColor = Color.AliceBlue;
 
@@ -51,14 +51,14 @@ Assert.AreEqual(ConditionalStyleType.FirstRow, tableStyle.ConditionalStyles[0].T
 // 3 - Özellik olarak:
 tableStyle.ConditionalStyles.FirstRow.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
-// Koşullu stillere dolgu ve metin biçimlendirme uygulayın.
+// Koşullu stillere dolgu ve metin biçimlendirmesi uygulayın.
 tableStyle.ConditionalStyles.LastRow.BottomPadding = 10;
 tableStyle.ConditionalStyles.LastRow.LeftPadding = 10;
 tableStyle.ConditionalStyles.LastRow.RightPadding = 10;
 tableStyle.ConditionalStyles.LastRow.TopPadding = 10;
 tableStyle.ConditionalStyles.LastColumn.Font.Bold = true;
 
-// Tüm olası stil koşullarını listeleyin.
+// Olası tüm stil koşullarını listeleyin.
 using (IEnumerator<ConditionalStyle> enumerator = tableStyle.ConditionalStyles.GetEnumerator())
 {
     while (enumerator.MoveNext())
@@ -71,7 +71,7 @@ using (IEnumerator<ConditionalStyle> enumerator = tableStyle.ConditionalStyles.G
 // Tüm koşullu stilleri içeren özel stili tabloya uygulayın.
 table.Style = tableStyle;
 
-// Stilimiz, varsayılan olarak bazı koşullu stilleri uygular.
+// Stilimiz varsayılan olarak bazı koşullu stilleri uygular.
 Assert.AreEqual(TableStyleOptions.FirstRow | TableStyleOptions.FirstColumn | TableStyleOptions.RowBands, 
     table.StyleOptions);
 

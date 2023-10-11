@@ -16,13 +16,13 @@ public OoxmlCompliance Compliance { get; set; }
 
 ### Beispiele
 
-Zeigt, wie DML-Shapes in ein Dokument eingefügt werden.
+Zeigt, wie DML-Formen in ein Dokument eingefügt werden.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Unten sind zwei Wrapping-Typen, die Shapes haben können.
+// Nachfolgend sind zwei Umhüllungstypen aufgeführt, die Formen haben können.
 // 1 - Floating:
 builder.InsertShape(ShapeType.TopCornersRounded, RelativeHorizontalPosition.Page, 100, 
         RelativeVerticalPosition.Page, 100, 50, 50, WrapType.None);
@@ -30,9 +30,9 @@ builder.InsertShape(ShapeType.TopCornersRounded, RelativeHorizontalPosition.Page
 // 2 - Inline:
 builder.InsertShape(ShapeType.DiagonalCornersRounded, 50, 50);
 
-// Wenn Sie "nicht primitive" Formen erstellen müssen, wie SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
+// Wenn Sie „nicht-primitive“ Formen erstellen müssen, wie z. B. SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
 // TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded oder DiagonalCornersRounded,
-// Speichern Sie dann das Dokument mit "Strict"- oder "Transitional"-Compliance, wodurch die Form als DML gespeichert werden kann.
+// Speichern Sie dann das Dokument mit der Konformität „Streng“ oder „Übergang“, was das Speichern der Form als DML ermöglicht.
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(SaveFormat.Docx);
 saveOptions.Compliance = OoxmlCompliance.Iso29500_2008_Transitional;
 
@@ -50,8 +50,8 @@ doc.Lists.Add(ListTemplate.NumberDefault);
 Aspose.Words.Lists.List list = doc.Lists[0];
 list.IsRestartAtEachSection = restartListAtEachSection;
 
-// Die Eigenschaft "IsRestartAtEachSection" ist nur anwendbar, wenn
-// Die OOXML-Konformitätsstufe des Dokuments entspricht einem neueren Standard als "OoxmlComplianceCore.Ecma376".
+// Die Eigenschaft „IsRestartAtEachSection“ ist nur anwendbar, wenn
+// Die OOXML-Konformitätsstufe des Dokuments entspricht einem Standard, der neuer als „OoxmlComplianceCore.Ecma376“ ist.
 OoxmlSaveOptions options = new OoxmlSaveOptions
 {
     Compliance = OoxmlCompliance.Iso29500_2008_Transitional
@@ -72,21 +72,21 @@ doc = new Document(ArtifactsDir + "OoxmlSaveOptions.RestartingDocumentList.docx"
 Assert.AreEqual(restartListAtEachSection, doc.Lists[0].IsRestartAtEachSection);
 ```
 
-Zeigt, wie eine OOXML-Compliance-Spezifikation festgelegt wird, die ein gespeichertes Dokument einhalten soll.
+Zeigt, wie eine OOXML-Konformitätsspezifikation festgelegt wird, die ein gespeichertes Dokument einhalten soll.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Wenn wir Kompatibilitätsoptionen so konfigurieren, dass sie Microsoft Word 2003 entsprechen,
-// Durch das Einfügen eines Bildes wird seine Form mit VML definiert.
+// Wenn wir Kompatibilitätsoptionen so konfigurieren, dass sie mit Microsoft Word 2003 kompatibel sind,
+// Durch das Einfügen eines Bildes wird dessen Form mithilfe von VML definiert.
 doc.CompatibilityOptions.OptimizeFor(MsWordVersion.Word2003);
 builder.InsertImage(ImageDir + "Transparent background logo.png");
 
 Assert.AreEqual(ShapeMarkupLanguage.Vml, ((Shape)doc.GetChild(NodeType.Shape, 0, true)).MarkupLanguage);
 
-// Der OOXML-Standard "ISO/IEC 29500:2008" unterstützt keine VML-Formen.
-// Wenn wir die "Compliance"-Eigenschaft des SaveOptions-Objekts auf "OoxmlCompliance.Iso29500_2008_Strict" setzen,
+// Der OOXML-Standard „ISO/IEC 29500:2008“ unterstützt keine VML-Formen.
+// Wenn wir die Eigenschaft „Compliance“ des SaveOptions-Objekts auf „OoxmlCompliance.Iso29500_2008_Strict“ setzen,
  // Jedes Dokument, das wir speichern, während wir dieses Objekt übergeben, muss diesem Standard folgen.
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions
 {

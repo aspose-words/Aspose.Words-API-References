@@ -3,7 +3,7 @@ title: Row.GetText
 second_title: Aspose.Words för .NET API Referens
 description: Row metod. Hämtar texten för alla celler i den här raden inklusive slutet av radens tecken.
 type: docs
-weight: 120
+weight: 160
 url: /sv/net/aspose.words.tables/row/gettext/
 ---
 ## Row.GetText method
@@ -16,7 +16,7 @@ public override string GetText()
 
 ### Anmärkningar
 
-Returnerar sammanlänkade text för alla underordnade noder med slutet av raden character [`ControlChar.Cell`](../../../aspose.words/controlchar/cell/) bifogas i slutet.
+Returnerar sammanlänkade text för alla underordnade noder med slutet av raden character [`Cell`](../../../aspose.words/controlchar/cell/) bifogas i slutet.
 
 Den returnerade strängen innehåller alla kontroll- och specialtecken som beskrivs i[`ControlChar`](../../../aspose.words/controlchar/).
 

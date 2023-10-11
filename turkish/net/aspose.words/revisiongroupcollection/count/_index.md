@@ -1,14 +1,14 @@
 ---
 title: RevisionGroupCollection.Count
 second_title: Aspose.Words for .NET API Referansı
-description: RevisionGroupCollection mülk. Koleksiyondaki revizyon gruplarının sayısını verir.
+description: RevisionGroupCollection mülk. Koleksiyondaki revizyon gruplarının sayısını döndürür.
 type: docs
 weight: 10
 url: /tr/net/aspose.words/revisiongroupcollection/count/
 ---
 ## RevisionGroupCollection.Count property
 
-Koleksiyondaki revizyon gruplarının sayısını verir.
+Koleksiyondaki revizyon gruplarının sayısını döndürür.
 
 ```csharp
 public int Count { get; }
@@ -16,7 +16,7 @@ public int Count { get; }
 
 ### Örnekler
 
-Bir belgedeki bir grup düzeltme hakkındaki bilgilerin nasıl yazdırılacağını gösterir.
+Bir belgedeki revizyon grubu hakkındaki bilgilerin nasıl yazdırılacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Revisions.docx");

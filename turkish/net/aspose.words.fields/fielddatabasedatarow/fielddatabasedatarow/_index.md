@@ -1,14 +1,14 @@
 ---
 title: FieldDatabaseDataRow.FieldDatabaseDataRow
 second_title: Aspose.Words for .NET API Referansı
-description: FieldDatabaseDataRow inşaatçı. Yeni bir örneğini başlatırFieldDatabaseDataRow sınıf.
+description: FieldDatabaseDataRow inşaatçı. Yeni bir örneğini başlatırFieldDatabaseDataRow class.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fields/fielddatabasedatarow/fielddatabasedatarow/
 ---
 ## FieldDatabaseDataRow constructor
 
-Yeni bir örneğini başlatır[`FieldDatabaseDataRow`](../) sınıf.
+Yeni bir örneğini başlatır[`FieldDatabaseDataRow`](../) class.
 
 ```csharp
 public FieldDatabaseDataRow(params string[] values)

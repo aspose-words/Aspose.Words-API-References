@@ -1,14 +1,16 @@
 ---
 title: Class SdtListItem
 second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Markup.SdtListItem classe. Questo elemento specifica una singola voce di elenco allinterno di un genitoreComboBox oDropDownList tag del documento strutturato.
+description: Aspose.Words.Markup.SdtListItem classe. Questo elemento specifica un singolo elemento dellelenco allinterno di un genitoreComboBox ODropDownList tag documento strutturato.
 type: docs
-weight: 3780
+weight: 4020
 url: /it/net/aspose.words.markup/sdtlistitem/
 ---
 ## SdtListItem class
 
-Questo elemento specifica una singola voce di elenco all'interno di un genitoreComboBox oDropDownList tag del documento strutturato.
+Questo elemento specifica un singolo elemento dell'elenco all'interno di un genitoreComboBox ODropDownList tag documento strutturato.
+
+Per saperne di più, visita il[Tag di documenti strutturati o controllo del contenuto](https://docs.aspose.com/words/net/working-with-content-control-sdt/) articolo di documentazione.
 
 ```csharp
 public class SdtListItem
@@ -30,7 +32,7 @@ public class SdtListItem
 
 ### Esempi
 
-Mostra come lavorare con i tag di documenti strutturati con elenco a discesa.
+Mostra come lavorare con i tag dei documenti strutturati con elenco a discesa.
 
 ```csharp
 Document doc = new Document();
@@ -45,15 +47,15 @@ listItems.Add(new SdtListItem("Value 1"));
 
 Assert.AreEqual(listItems[0].DisplayText, listItems[0].Value);
 
-// Aggiungi altri 3 elementi dell'elenco. Inizializza questi elementi utilizzando un costruttore diverso rispetto al primo elemento
-// per visualizzare stringhe diverse dai loro valori.
+// Aggiunge altri 3 elementi all'elenco. Inizializza questi elementi utilizzando un costruttore diverso dal primo elemento
+// per visualizzare stringhe diverse dai rispettivi valori.
 listItems.Add(new SdtListItem("Item 2", "Value 2"));
 listItems.Add(new SdtListItem("Item 3", "Value 3"));
 listItems.Add(new SdtListItem("Item 4", "Value 4"));
 
 Assert.AreEqual(4, listItems.Count);
 
-// L'elenco a discesa mostra il primo elemento. Assegna una voce di elenco diversa a "SelectedValue" per visualizzarla.
+// L'elenco a discesa visualizza il primo elemento. Assegnare una voce di elenco diversa a "SelectedValue" per visualizzarla.
 listItems.SelectedValue = listItems[3];
 
 Assert.AreEqual("Value 4", listItems.SelectedValue.Value);
@@ -66,7 +68,7 @@ using (IEnumerator<SdtListItem> enumerator = listItems.GetEnumerator())
             Console.WriteLine($"List item: {enumerator.Current.DisplayText}, value: {enumerator.Current.Value}");
 }
 
- // Rimuove l'ultimo elemento dell'elenco.
+ // Rimuove l'ultima voce dell'elenco.
 listItems.RemoveAt(3);
 
 Assert.AreEqual(3, listItems.Count);
@@ -76,7 +78,7 @@ listItems.SelectedValue = listItems[1];
 
 doc.Save(ArtifactsDir + "StructuredDocumentTag.ListItemCollection.docx");
 
-// Usa il metodo "Cancella" per svuotare l'intera raccolta di elementi a discesa in una volta.
+// Utilizza il metodo "Cancella" per svuotare contemporaneamente l'intera raccolta di elementi a discesa.
 listItems.Clear();
 
 Assert.AreEqual(0, listItems.Count);

@@ -16,7 +16,7 @@ public string InfoType { get; set; }
 
 ### 例子
 
-显示如何使用 INFO 字段。
+展示如何使用 INFO 字段。
 
 ```csharp
 Document doc = new Document();
@@ -33,7 +33,7 @@ Assert.AreEqual("My comment", field.Result);
 
 builder.Writeln();
 
-// 为字段的 NewValue 属性设置一个值并更新
+// 为字段的 NewValue 属性设置值并更新
 // 该字段还将用新值覆盖相应的内置属性。
 field = (FieldInfo)builder.InsertField(FieldType.FieldInfo, true);
 field.InfoType = "Comments";

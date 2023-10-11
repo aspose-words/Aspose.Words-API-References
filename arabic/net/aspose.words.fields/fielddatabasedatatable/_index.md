@@ -1,14 +1,16 @@
 ---
 title: Class FieldDatabaseDataTable
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Fields.FieldDatabaseDataTable فصل. توفير بيانات لملفFieldDatabase نتيجة الحقل .
+description: Aspose.Words.Fields.FieldDatabaseDataTable فصل. يوفر بيانات لـFieldDatabase النتيجة الميدانية. لطفا أنظرDataTable المثال.
 type: docs
-weight: 1610
+weight: 1760
 url: /ar/net/aspose.words.fields/fielddatabasedatatable/
 ---
 ## FieldDatabaseDataTable class
 
-توفير بيانات لملف[`FieldDatabase`](../fielddatabase/) نتيجة الحقل .
+يوفر بيانات لـ[`FieldDatabase`](../fielddatabase/) النتيجة الميدانية. لطفا أنظرDataTable المثال.
+
+لمعرفة المزيد، قم بزيارة[العمل مع الحقول](https://docs.aspose.com/words/net/working-with-fields/) مقالة توثيقية.
 
 ```csharp
 public class FieldDatabaseDataTable
@@ -18,20 +20,20 @@ public class FieldDatabaseDataTable
 
 | اسم | وصف |
 | --- | --- |
-| [FieldDatabaseDataTable](fielddatabasedatatable/)(params string[]) | يقوم بتهيئة مثيل جديد لملف`FieldDatabaseDataTable` فئة . |
+| [FieldDatabaseDataTable](fielddatabasedatatable/)(params string[]) | تهيئة مثيل جديد لـ`FieldDatabaseDataTable` فئة. |
 
 ## الخصائص
 
 | اسم | وصف |
 | --- | --- |
-| [ColumnNames](../../aspose.words.fields/fielddatabasedatatable/columnnames/) { get; } | الحصول على الأعمدة التي تنتمي إلى هذا الجدول . |
-| [Rows](../../aspose.words.fields/fielddatabasedatatable/rows/) { get; } | يحصل على الصفوف التي تنتمي إلى هذا الجدول . |
+| [ColumnNames](../../aspose.words.fields/fielddatabasedatatable/columnnames/) { get; } | الحصول على الأعمدة التي تنتمي إلى هذا الجدول. |
+| [Rows](../../aspose.words.fields/fielddatabasedatatable/rows/) { get; } | الحصول على الصفوف التي تنتمي إلى هذا الجدول. |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| static [CreateFrom](../../aspose.words.fields/fielddatabasedatatable/createfrom/)(DataTable) | يقوم بتهيئة مثيل جديد لملف`FieldDatabaseDataTable` class منDataTable المثال. |
+| static [CreateFrom](../../aspose.words.fields/fielddatabasedatatable/createfrom/)(DataTable) | تهيئة مثيل جديد لـ`FieldDatabaseDataTable` class منDataTable المثال. |
 
 ### أنظر أيضا
 

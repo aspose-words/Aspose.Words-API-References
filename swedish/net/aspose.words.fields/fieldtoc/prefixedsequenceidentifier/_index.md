@@ -34,7 +34,7 @@ FieldToc fieldToc = (FieldToc)builder.InsertField(FieldType.FieldTOC, true);
 fieldToc.TableOfFiguresLabel = "MySequence";
 
 // Vi kan namnge en annan SEQ-fältsekvens i egenskapen "PrefixedSequenceIdentifier".
-  // SEQ-fält från denna prefixsekvens kommer inte att skapa TOC-poster.
+ // SEQ-fält från denna prefixsekvens kommer inte att skapa TOC-poster.
 // Varje TOC-post som skapas från ett SEQ-fält i huvudsekvensen kommer nu också att visa antalet som
 // Prefixsekvensen är för närvarande på i det primära sekvens SEQ-fältet som gjorde inmatningen.
 fieldToc.PrefixedSequenceIdentifier = "PrefixSequence";

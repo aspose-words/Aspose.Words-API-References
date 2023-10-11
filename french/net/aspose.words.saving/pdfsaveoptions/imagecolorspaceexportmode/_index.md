@@ -3,7 +3,7 @@ title: PdfSaveOptions.ImageColorSpaceExportMode
 second_title: Référence de l'API Aspose.Words pour .NET
 description: PdfSaveOptions propriété. Spécifie comment lespace colorimétrique sera sélectionné pour les images dans le document PDF.
 type: docs
-weight: 160
+weight: 190
 url: /fr/net/aspose.words.saving/pdfsaveoptions/imagecolorspaceexportmode/
 ---
 ## PdfSaveOptions.ImageColorSpaceExportMode property
@@ -18,9 +18,9 @@ public PdfImageColorSpaceExportMode ImageColorSpaceExportMode { get; set; }
 
 La valeur par défaut estAuto .
 
-SiSimpleCmyk la valeur est spécifiée, [`ImageCompression`](../imagecompression/) l'option est ignorée et la compression Flate est utilisée pour toutes les images du document.
+SiSimpleCmyk la valeur est spécifiée, [`ImageCompression`](../imagecompression/) L'option est ignorée et La compression Flate est utilisée pour toutes les images du document.
 
-SimpleCmyk la valeur n'est pas prise en charge lors de l'enregistrement au format PDF/A. Auto valeur sera utilisée à la place.
+SimpleCmyk la valeur n'est pas prise en charge lors de l'enregistrement au format PDF/A. Auto la valeur sera utilisée à la place.
 
 ### Exemples
 
@@ -36,14 +36,14 @@ builder.InsertParagraph();
 builder.Writeln("Png image:");
 builder.InsertImage(ImageDir + "Transparent background logo.png");
 
-// Crée un objet "PdfSaveOptions" que nous pouvons passer à la méthode "Save" du document
+// Crée un objet "PdfSaveOptions" que l'on peut passer à la méthode "Save" du document
 // pour modifier la façon dont cette méthode convertit le document en .PDF.
 PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
 
 // Définissez la propriété "ImageColorSpaceExportMode" sur "PdfImageColorSpaceExportMode.Auto" pour obtenir Aspose.Words
-// sélectionne automatiquement l'espace colorimétrique des images dans le document qu'il convertit en PDF.
+// sélectionne automatiquement l'espace colorimétrique des images du document qu'il convertit en PDF.
 // Dans la plupart des cas, l'espace colorimétrique sera RVB.
-// Définissez la propriété "ImageColorSpaceExportMode" sur "PdfImageColorSpaceExportMode.SimpleCmyk"
+// Définit la propriété "ImageColorSpaceExportMode" sur "PdfImageColorSpaceExportMode.SimpleCmyk"
 // pour utiliser l'espace colorimétrique CMJN pour toutes les images du PDF enregistré.
 // Aspose.Words appliquera également la compression Flate à toutes les images et ignorera la valeur de la propriété "ImageCompression".
 pdfSaveOptions.ImageColorSpaceExportMode = pdfImageColorSpaceExportMode;

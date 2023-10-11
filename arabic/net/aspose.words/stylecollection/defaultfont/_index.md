@@ -1,14 +1,14 @@
 ---
 title: StyleCollection.DefaultFont
 second_title: Aspose.Words لمراجع .NET API
-description: StyleCollection ملكية. الحصول على تنسيق النص الافتراضي للوثيقة.
+description: StyleCollection ملكية. الحصول على تنسيق النص الافتراضي للمستند.
 type: docs
 weight: 20
 url: /ar/net/aspose.words/stylecollection/defaultfont/
 ---
 ## StyleCollection.DefaultFont property
 
-الحصول على تنسيق النص الافتراضي للوثيقة.
+الحصول على تنسيق النص الافتراضي للمستند.
 
 ```csharp
 public Font DefaultFont { get; }
@@ -16,7 +16,7 @@ public Font DefaultFont { get; }
 
 ### ملاحظات
 
-لاحظ أنه تم تقديم الإعدادات الافتراضية على مستوى المستند في Microsoft Word 2007 وهي مدعومة بالكامل في تنسيقات OOXML (Docx) فقط . دعم تنسيقات المستندات السابقة محدود لهذه الميزة ويمكن تخزين أسماء الخطوط فقط.
+لاحظ أنه تم تقديم الإعدادات الافتراضية على مستوى المستند في Microsoft Word 2007 وهي مدعومة بالكامل بتنسيقات OOXML (Docx) فقط. تتمتع تنسيقات المستندات السابقة بدعم محدود لهذه الميزة ويمكن تخزين أسماء الخطوط فقط.
 
 ### أمثلة
 
@@ -24,16 +24,14 @@ public Font DefaultFont { get; }
 
 ```csharp
 Document doc = new Document();
+
 StyleCollection styles = doc.Styles;
-
-// تعيين المعلمات الافتراضية للأنماط الجديدة التي قد نضيفها لاحقًا إلى هذه المجموعة.
+// قم بتعيين المعلمات الافتراضية للأنماط الجديدة التي قد نضيفها لاحقًا إلى هذه المجموعة.
 styles.DefaultFont.Name = "Courier New";
-
-// إذا أضفنا نمطًا من "StyleType.Paragraph" ، فستطبق المجموعة قيم
-// الخاصية "DefaultParagraphFormat" الخاصة بها إلى خاصية "تنسيق ParagraphFormat" الخاصة بالنمط.
+// إذا أضفنا نمطًا من "StyleType.Paragraph"، فستطبق المجموعة قيم
+// الخاصية "DefaultParagraphFormat" الخاصة بها إلى خاصية "ParagraphFormat" الخاصة بالنمط.
 styles.DefaultParagraphFormat.FirstLineIndent = 15.0;
-
-// أضف نمطًا ، ثم تحقق من أنه يحتوي على الإعدادات الافتراضية.
+// أضف نمطًا، ثم تحقق من أنه يحتوي على الإعدادات الافتراضية.
 styles.Add(StyleType.Paragraph, "MyStyle");
 
 Assert.AreEqual("Courier New", styles[4].Font.Name);

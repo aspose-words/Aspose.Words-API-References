@@ -1,14 +1,14 @@
 ---
 title: FontFallbackSettings.Load
 second_title: Aspose.Words für .NET-API-Referenz
-description: FontFallbackSettings methode. Lädt FontFallbackEinstellungen aus der XMLDatei.
+description: FontFallbackSettings methode. Lädt SchriftartFallbackEinstellungen aus der XMLDatei.
 type: docs
 weight: 20
 url: /de/net/aspose.words.fonts/fontfallbacksettings/load/
 ---
 ## Load(string) {#load_1}
 
-Lädt Font-Fallback-Einstellungen aus der XML-Datei.
+Lädt Schriftart-Fallback-Einstellungen aus der XML-Datei.
 
 ```csharp
 public void Load(string fileName)
@@ -16,23 +16,23 @@ public void Load(string fileName)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| fileName | String | Dateinamen eingeben. |
+| fileName | String | Name der Eingabedatei. |
 
 ### Beispiele
 
-Zeigt, wie Font-Fallback-Einstellungen in/aus einem XML-Dokument im lokalen Dateisystem geladen und gespeichert werden.
+Zeigt, wie Schriftart-Fallback-Einstellungen in/aus einem XML-Dokument im lokalen Dateisystem geladen und gespeichert werden.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// Laden Sie ein XML-Dokument, das eine Reihe von Font-Fallback-Einstellungen definiert.
+// Laden Sie ein XML-Dokument, das eine Reihe von Schriftart-Fallback-Einstellungen definiert.
 FontSettings fontSettings = new FontSettings();
 fontSettings.FallbackSettings.Load(MyDir + "Font fallback rules.xml");
 
 doc.FontSettings = fontSettings;
 doc.Save(ArtifactsDir + "FontSettings.LoadFontFallbackSettingsFromFile.pdf");
 
-// Speichern Sie die aktuellen Font-Fallback-Einstellungen unseres Dokuments als XML-Dokument.
+// Speichern Sie die aktuellen Schriftart-Fallback-Einstellungen unseres Dokuments als XML-Dokument.
 doc.FontSettings.FallbackSettings.Save(ArtifactsDir + "FallbackSettings.xml");
 ```
 
@@ -58,12 +58,12 @@ public void Load(Stream stream)
 
 ### Beispiele
 
-Zeigt, wie Font-Fallback-Einstellungen in/aus einem Stream geladen und gespeichert werden.
+Zeigt, wie Schriftart-Fallback-Einstellungen in/aus einem Stream geladen und gespeichert werden.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// Laden Sie ein XML-Dokument, das eine Reihe von Font-Fallback-Einstellungen definiert.
+// Laden Sie ein XML-Dokument, das eine Reihe von Schriftart-Fallback-Einstellungen definiert.
 using (FileStream fontFallbackStream = new FileStream(MyDir + "Font fallback rules.xml", FileMode.Open))
 {
     FontSettings fontSettings = new FontSettings();
@@ -74,7 +74,7 @@ using (FileStream fontFallbackStream = new FileStream(MyDir + "Font fallback rul
 
 doc.Save(ArtifactsDir + "FontSettings.LoadFontFallbackSettingsFromStream.pdf");
 
-// Verwenden Sie einen Stream, um die aktuellen Font-Fallback-Einstellungen unseres Dokuments als XML-Dokument zu speichern.
+// Verwenden Sie einen Stream, um die aktuellen Schriftart-Fallback-Einstellungen unseres Dokuments als XML-Dokument zu speichern.
 using (FileStream fontFallbackStream =
     new FileStream(ArtifactsDir + "FallbackSettings.xml", FileMode.Create))
 {

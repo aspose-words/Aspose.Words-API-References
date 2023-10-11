@@ -16,17 +16,17 @@ public string TableName { get; }
 
 ### Geri dönüş değeri
 
-Veri kaynağının adı. Veri kaynağının adı yoksa boş dize.
+Veri kaynağının adı. Veri kaynağının adı yoksa dizeyi boşaltın.
 
 ### Notlar
 
-eğer uyguluyorsanız[`IMailMergeDataSource`](../), bu özellikten data kaynağının adını döndürün.
+Eğer uyguluyorsanız[`IMailMergeDataSource`](../), bu özellikten data kaynağının adını döndürün.
 
-Aspose.Words, şablon belgesinde belirtilen adres mektup birleştirme bölge adıyla eşleşmek için bu adı kullanır. Veri kaynağı adı ve adres mektup birleştirme bölge adı arasındaki karşılaştırma, büyük/küçük harf duyarlı değildir.
+Aspose.Words bu adı, şablon belgede belirtilen adres-mektup birleştirme bölgesi adıyla eşleştirmek için kullanır. Veri kaynağı adı ile adres-mektup birleştirme bölgesi adı arasındaki karşılaştırma büyük/küçük harfe duyarlı değildir.
 
 ### Örnekler
 
-Özel nesne biçimindeki bir veri kaynağıyla adres mektup birleştirmenin nasıl yürütüleceğini gösterir.
+Özel nesne biçimindeki bir veri kaynağıyla adres-mektup birleştirmenin nasıl yürütüleceğini gösterir.
 
 ```csharp
 public void CustomDataSource()
@@ -37,11 +37,13 @@ public void CustomDataSource()
     builder.InsertParagraph();
     builder.InsertField(" MERGEFIELD Address ");
 
-    List<Customer> customers = new List<Customer>();
-    customers.Add(new Customer("Thomas Hardy", "120 Hanover Sq., London"));
-    customers.Add(new Customer("Paolo Accorti", "Via Monte Bianco 34, Torino"));
+    List<Customer> customers = new List<Customer>
+    {
+        new Customer("Thomas Hardy", "120 Hanover Sq., London"),
+        new Customer("Paolo Accorti", "Via Monte Bianco 34, Torino")
+    };
 
-    // Özel bir nesneyi veri kaynağı olarak kullanmak için IMailMergeDataSource arabirimini uygulaması gerekir. 
+     // Özel bir nesneyi veri kaynağı olarak kullanmak için IMailMergeDataSource arayüzünü uygulaması gerekir.
     CustomerMailMergeDataSource dataSource = new CustomerMailMergeDataSource(customers);
 
     doc.MailMerge.Execute(dataSource);
@@ -50,7 +52,7 @@ public void CustomDataSource()
 }
 
 /// <summary>
-/// Uygulamanızda bir "veri varlığı" sınıfı örneği.
+/// Uygulamanızdaki "veri varlığı" sınıfına bir örnek.
 /// </summary>
 public class Customer
 {
@@ -65,8 +67,8 @@ public class Customer
 }
 
 /// <summary>
-/// Aspose.Words'e izin vermek için uyguladığınız özel bir adres mektup birleştirme veri kaynağı 
-/// Müşteri nesnelerinizden Microsoft Word belgelerine adres mektup birleştirme verileri.
+ /// Aspose.Words'e izin vermek için uyguladığınız özel bir adres-mektup birleştirme veri kaynağı
+/// Müşteri nesnelerinizdeki posta birleştirme verilerini Microsoft Word belgelerine aktarmak için.
 /// </summary>
 public class CustomerMailMergeDataSource : IMailMergeDataSource
 {
@@ -74,12 +76,12 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
     {
         mCustomers = customers;
 
-        // Veri kaynağını başlattığımızda, konumu ilk kayıttan önce olmalıdır.
+        // Veri kaynağını başlattığımızda konumu ilk kayıttan önce olmalıdır.
         mRecordIndex = -1;
     }
 
     /// <summary>
-    /// Veri kaynağının adı. Aspose.Words tarafından yalnızca tekrarlanabilir bölgelerle adres mektup birleştirme yürütülürken kullanılır.
+    /// Veri kaynağının adı. Aspose.Words tarafından yalnızca tekrarlanabilir bölgelerle adres-mektup birleştirme yürütülürken kullanılır.
     /// </summary>
     public string TableName
     {
@@ -87,7 +89,7 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
     }
 
     /// <summary>
-    /// Aspose.Words, her veri alanı için bir değer almak için bu yöntemi çağırır.
+    /// Aspose.Words her veri alanı için bir değer elde etmek amacıyla bu yöntemi çağırır.
     /// </summary>
     public bool GetValue(string fieldName, out object fieldValue)
     {
@@ -100,7 +102,7 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
                 fieldValue = mCustomers[mRecordIndex].Address;
                 return true;
             default:
-                // Belirtmek için Aspose.Words adres mektup birleştirme motoruna "false" döndür
+                // Aspose.Words adres-mektup birleştirme motoruna şunu belirtmek için "yanlış" değerini döndürün
                 // bu isimde bir alan bulamadık.
                 fieldValue = null;
                 return false;

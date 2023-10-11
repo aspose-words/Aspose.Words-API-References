@@ -1,14 +1,14 @@
 ---
 title: Font.ThemeColor
 second_title: Справочник по API Aspose.Words для .NET
-description: Font свойство. Получает или задает цвет темы в применяемой цветовой схеме связанной с этим объектом Font.
+description: Font свойство. Получает или задает цвет темы в примененной цветовой схеме связанной с этимFont объект.
 type: docs
 weight: 460
 url: /ru/net/aspose.words/font/themecolor/
 ---
 ## Font.ThemeColor property
 
-Получает или задает цвет темы в применяемой цветовой схеме, связанной с этим объектом Font.
+Получает или задает цвет темы в примененной цветовой схеме, связанной с этим[`Font`](../) объект.
 
 ```csharp
 public ThemeColor ThemeColor { get; set; }
@@ -24,7 +24,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln();
 
-// Создадим какой-нибудь стиль со свойствами шрифта темы.
+// Создайте стиль с помощью свойств шрифта темы.
 Style style = doc.Styles.Add(StyleType.Paragraph, "ThemedStyle");
 style.Font.ThemeFont = ThemeFont.Major;
 style.Font.ThemeColor = ThemeColor.Accent5;
@@ -39,7 +39,7 @@ builder.Writeln("Text with themed style");
 ```csharp
 Document doc = new Document();
 
-// Определяем шрифты для языков, используемых по умолчанию.
+// Определить шрифты для языков, используемых по умолчанию.
 doc.Theme.MinorFonts.Latin = "Algerian";
 doc.Theme.MinorFonts.EastAsian = "Aharoni";
 doc.Theme.MinorFonts.ComplexScript = "Andalus";
@@ -69,8 +69,8 @@ Assert.AreEqual("Algerian", font.NameOther);
 Assert.AreEqual(ThemeColor.Accent2, font.ThemeColor);
 Assert.AreEqual(Color.Empty, font.Color);
 
-// Есть несколько способов изменить их шрифт и цвет.
-// 1 - Установив ThemeFont.None/ThemeColor.None:
+// Есть несколько способов сбросить шрифт и цвет.
+// 1 — установив ThemeFont.None/ThemeColor.None:
 font.ThemeFont = ThemeFont.None;
 font.ThemeColor = ThemeColor.None;
 
@@ -92,7 +92,7 @@ Assert.AreEqual("Algerian", font.NameOther);
 Assert.AreEqual(ThemeColor.None, font.ThemeColor);
 Assert.AreEqual(Color.Empty, font.Color);
 
-// 2 - Установив имена шрифта/цвета, не относящиеся к теме:
+// 2 - путем установки названий шрифтов/цветов, не относящихся к теме:
 font.Name = "Arial";
 font.Color = Color.Blue;
 

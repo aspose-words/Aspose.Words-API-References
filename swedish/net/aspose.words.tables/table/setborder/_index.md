@@ -3,7 +3,7 @@ title: Table.SetBorder
 second_title: Aspose.Words för .NET API Referens
 description: Table metod. Ställer in den angivna tabellkanten till angiven linjestil bredd och färg.
 type: docs
-weight: 410
+weight: 430
 url: /sv/net/aspose.words.tables/table/setborder/
 ---
 ## Table.SetBorder method
@@ -38,7 +38,7 @@ table.Alignment = TableAlignment.Center;
 table.ClearBorders();
 table.ClearShading();
 
-// Lägg till gröna kanter till tabellens konturer.
+// Lägg till gröna ramar till tabellens konturer.
 table.SetBorder(BorderType.Left, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Right, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Top, LineStyle.Single, 1.5, Color.Green, true);

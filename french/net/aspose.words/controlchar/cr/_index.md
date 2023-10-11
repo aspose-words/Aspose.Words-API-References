@@ -22,18 +22,18 @@ Montre comment utiliser les caractères de contrôle.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Insérer des paragraphes avec du texte avec DocumentBuilder.
+// Insérez des paragraphes avec du texte avec DocumentBuilder.
 builder.Writeln("Hello world!");
 builder.Writeln("Hello again!");
 
 // La conversion du document sous forme de texte révèle que les caractères de contrôle
-// représentent certains des éléments structurels du document, tels que les sauts de page.
+// représente certains des éléments structurels du document, tels que les sauts de page.
 Assert.AreEqual($"Hello world!{ControlChar.Cr}" +
                 $"Hello again!{ControlChar.Cr}" +
                 ControlChar.PageBreak, doc.GetText());
 
 // Lors de la conversion d'un document sous forme de chaîne,
-// nous pouvons omettre certains des caractères de contrôle avec la méthode Trim.
+// nous pouvons omettre certains caractères de contrôle avec la méthode Trim.
 Assert.AreEqual($"Hello world!{ControlChar.Cr}" +
                 "Hello again!", doc.GetText().Trim());
 ```

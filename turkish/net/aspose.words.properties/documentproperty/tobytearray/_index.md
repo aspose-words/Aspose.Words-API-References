@@ -27,8 +27,8 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 
-// "Thumbnail" özelliği eklediğimiz resim verilerini içeren bir belgeyi Epub olarak kaydedersek,
-// o belgeyi açan bir okuyucu, resmi ilk sayfadan önce görüntüleyebilir.
+// "Thumbnail" özelliği eklediğimiz görsel verilerini içeren bir dokümanı Epub olarak kaydedersek,
+// o belgeyi açan okuyucu, görüntüyü ilk sayfadan önce görüntüleyebilir.
 BuiltInDocumentProperties properties = doc.BuiltInDocumentProperties;
 
 byte[] thumbnailBytes = File.ReadAllBytes(ImageDir + "Logo.jpg");
@@ -36,7 +36,7 @@ properties.Thumbnail = thumbnailBytes;
 
 doc.Save(ArtifactsDir + "DocumentProperties.Thumbnail.epub");
 
-// Bir belgenin küçük resmini çıkarabilir ve yerel dosya sistemine kaydedebiliriz.
+// Bir belgenin küçük resmini çıkartıp yerel dosya sistemine kaydedebiliriz.
 DocumentProperty thumbnail = doc.BuiltInDocumentProperties["Thumbnail"];
 File.WriteAllBytes(ArtifactsDir + "DocumentProperties.Thumbnail.gif", thumbnail.ToByteArray());
 ```

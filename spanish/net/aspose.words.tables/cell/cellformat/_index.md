@@ -16,14 +16,14 @@ public CellFormat CellFormat { get; }
 
 ### Ejemplos
 
-Muestra cómo modificar el formato de una celda de tabla.
+Muestra cómo modificar el formato de una celda de una tabla.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
 Table table = doc.FirstSection.Body.Tables[0];
 Cell firstCell = table.FirstRow.FirstCell;
 
-// Use la propiedad "CellFormat" de una celda para establecer un formato que modifique la apariencia de esa celda.
+// Utilice la propiedad "CellFormat" de una celda para establecer el formato que modifica la apariencia de esa celda.
 firstCell.CellFormat.Width = 30;
 firstCell.CellFormat.Orientation = TextOrientation.Downward;
 firstCell.CellFormat.Shading.ForegroundPatternColor = Color.LightGreen;
@@ -36,8 +36,8 @@ Muestra cómo combinar las filas de dos tablas en una.
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
 
-// A continuación hay dos formas de obtener una tabla de un documento.
-// 1 - De la colección "Tables" de un nodo Body:
+// A continuación se muestran dos formas de obtener una tabla de un documento.
+// 1 - De la colección "Tablas" de un nodo Cuerpo:
 Table firstTable = doc.FirstSection.Body.Tables[0];
 
 // 2 - Usando el método "GetChild":
@@ -77,7 +77,7 @@ RowFormat rowFormat = table.FirstRow.RowFormat;
 rowFormat.Height = 25;
 rowFormat.Borders[BorderType.Bottom].Color = Color.Red;
 
-// Use la propiedad "CellFormat" de la primera celda en la última fila para modificar el formato del contenido de esa celda.
+// Utilice la propiedad "CellFormat" de la primera celda de la última fila para modificar el formato del contenido de esa celda.
 CellFormat cellFormat = table.LastRow.FirstCell.CellFormat;
 cellFormat.Width = 100;
 cellFormat.Shading.BackgroundPatternColor = Color.Orange;

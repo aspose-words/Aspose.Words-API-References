@@ -1,14 +1,14 @@
 ---
 title: Paragraph.IsEndOfHeaderFooter
 second_title: Справочник по API Aspose.Words для .NET
-description: Paragraph свойство. Истинно если этот абзац является последним абзацем в Верхний колонтитул рассказ основного текста Раздел  false иначе.
+description: Paragraph свойство. True если этот абзац является последним абзацем вHeaderFooter основной текстовый рассказSection  ложь в противном случае.
 type: docs
 weight: 70
 url: /ru/net/aspose.words/paragraph/isendofheaderfooter/
 ---
 ## Paragraph.IsEndOfHeaderFooter property
 
-Истинно, если этот абзац является последним абзацем в **Верхний колонтитул** (рассказ основного текста) **Раздел** ; false иначе.
+True, если этот абзац является последним абзацем в[`HeaderFooter`](../../headerfooter/) (основной текстовый рассказ)[`Section`](../../section/) ; ложь в противном случае.
 
 ```csharp
 public bool IsEndOfHeaderFooter { get; }
@@ -22,7 +22,7 @@ public bool IsEndOfHeaderFooter { get; }
 Document doc = new Document();
 
 // Создаем заголовок и добавляем к нему абзац. Текст в этом абзаце
-// появится в верхней части каждой страницы этого раздела над основным текстом.
+// появится вверху каждой страницы этого раздела, над основным текстом.
 HeaderFooter header = new HeaderFooter(doc, HeaderFooterType.HeaderPrimary);
 doc.FirstSection.HeadersFooters.Add(header);
 

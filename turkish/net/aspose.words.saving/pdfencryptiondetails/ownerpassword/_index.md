@@ -1,14 +1,14 @@
 ---
 title: PdfEncryptionDetails.OwnerPassword
 second_title: Aspose.Words for .NET API Referansı
-description: PdfEncryptionDetails mülk. Şifrelenmiş PDF belgesi için sahip parolasını belirtir.
+description: PdfEncryptionDetails mülk. Şifrelenmiş PDF belgesinin sahip parolasını belirtir.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.saving/pdfencryptiondetails/ownerpassword/
 ---
 ## PdfEncryptionDetails.OwnerPassword property
 
-Şifrelenmiş PDF belgesi için sahip parolasını belirtir.
+Şifrelenmiş PDF belgesinin sahip parolasını belirtir.
 
 ```csharp
 public string OwnerPassword { get; set; }
@@ -16,9 +16,9 @@ public string OwnerPassword { get; set; }
 
 ### Notlar
 
-Sahip parolası, kullanıcının, içinde belirtilen herhangi bir erişim kısıtlaması olmadan şifreli bir PDF belgesi açmasına izin verir.[`Permissions`](../permissions/).
+Sahip parolası, kullanıcının şifrelenmiş bir PDF belgesini, şurada belirtilen herhangi bir erişim kısıtlaması olmadan açmasına olanak tanır:[`Permissions`](../permissions/).
 
-Sahip parolası, kullanıcı parolası ile aynı olamaz.
+Sahip parolası kullanıcı parolasıyla aynı olamaz.
 
 ### Örnekler
 
@@ -30,23 +30,17 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln("Hello world!");
 
-PdfEncryptionDetails encryptionDetails =
-    new PdfEncryptionDetails("password", string.Empty);
-
-// Tüm izinleri reddederek başlayın.
-encryptionDetails.Permissions = PdfPermissions.DisallowAll;
-
 // Ek açıklamaların düzenlenmesine izin vermek için izinleri genişletin.
-encryptionDetails.Permissions = PdfPermissions.ModifyAnnotations | PdfPermissions.DocumentAssembly;
+PdfEncryptionDetails encryptionDetails =
+    new PdfEncryptionDetails("password", string.Empty, PdfPermissions.ModifyAnnotations | PdfPermissions.DocumentAssembly);
 
-// Belgenin "Kaydet" yöntemine aktarabileceğimiz bir "PdfSaveOptions" nesnesi oluşturun
-// bu yöntemin belgeyi .PDF'ye dönüştürme şeklini değiştirmek için.
+// Belgenin "Save" yöntemine aktarabileceğimiz bir "PdfSaveOptions" nesnesi oluşturun
+// bu yöntemin belgeyi .PDF'ye dönüştürme biçimini değiştirmek için.
 PdfSaveOptions saveOptions = new PdfSaveOptions();
-
-// "EncryptionDetails" özelliği ile şifrelemeyi etkinleştirin.
+// "EncryptionDetails" özelliği aracılığıyla şifrelemeyi etkinleştirin.
 saveOptions.EncryptionDetails = encryptionDetails;
 
-// Bu belgeyi açtığımızda, içeriğine erişmeden önce şifreyi sağlamamız gerekecek.
+// Bu belgeyi açtığımızda içeriğine erişmeden önce şifreyi vermemiz gerekecek.
 doc.Save(ArtifactsDir + "PdfSaveOptions.EncryptionPermissions.pdf", saveOptions);
 ```
 

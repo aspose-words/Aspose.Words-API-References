@@ -3,7 +3,7 @@ title: MailMergeRegionInfo.Level
 second_title: Aspose.Words för .NET API Referens
 description: MailMergeRegionInfo fast egendom. Returnerar kapslingsnivån för regionen.
 type: docs
-weight: 30
+weight: 40
 url: /sv/net/aspose.words.mailmerging/mailmergeregioninfo/level/
 ---
 ## MailMergeRegionInfo.Level property

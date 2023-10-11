@@ -38,7 +38,7 @@ field = (FieldDate)fieldStart.GetField();
 Assert.AreEqual(false, field.IsLocked);
 Assert.AreEqual(" DATE  \\@ \"dddd, MMMM dd, yyyy\"", field.GetFieldCode());
 
-// Aktualisieren Sie das Feld, um das aktuelle Datum anzuzeigen.
+// Feld aktualisieren, um das aktuelle Datum anzuzeigen.
 field.Update();
 ```
 

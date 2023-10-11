@@ -24,10 +24,9 @@ Vedere[`SetFontsSources`](../setfontssources/) descrizione del metodo per ulteri
 
 ### Esempi
 
-Mostra come accelerare il processo di inizializzazione della cache dei caratteri.
+Mostra come velocizzare il processo di inizializzazione della cache dei caratteri.
 
 ```csharp
-[Test]
 public void LoadFontSearchCache()
 {
     const string cacheKey1 = "Arvo";
@@ -55,7 +54,7 @@ public void LoadFontSearchCache()
 }
 
 /// <summary>
-/// Carica i dati del font solo quando richiesto invece di salvarli in memoria
+/// Carica i dati dei caratteri solo quando richiesto invece di archiviarli nella memoria
 /// per l'intera durata dell'oggetto "FontSettings".
 /// </summary>
 private class SearchCacheStream : StreamFontSource

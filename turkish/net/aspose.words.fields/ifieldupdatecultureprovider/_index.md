@@ -1,14 +1,14 @@
 ---
 title: Interface IFieldUpdateCultureProvider
 second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Fields.IFieldUpdateCultureProvider arayüz. Uygulandığında birCultureInfo belirli bir alanın güncellenmesi sırasında kullanılması gereken nesne.
+description: Aspose.Words.Fields.IFieldUpdateCultureProvider arayüz. UygulandığındaCultureInfo belirli bir alanın güncellenmesi sırasında kullanılması gereken nesne.
 type: docs
-weight: 2540
+weight: 2710
 url: /tr/net/aspose.words.fields/ifieldupdatecultureprovider/
 ---
 ## IFieldUpdateCultureProvider interface
 
-Uygulandığında, birCultureInfo belirli bir alanın güncellenmesi sırasında kullanılması gereken nesne.
+Uygulandığında,CultureInfo belirli bir alanın güncellenmesi sırasında kullanılması gereken nesne.
 
 ```csharp
 public interface IFieldUpdateCultureProvider
@@ -18,14 +18,13 @@ public interface IFieldUpdateCultureProvider
 
 | İsim | Tanım |
 | --- | --- |
-| [GetCulture](../../aspose.words.fields/ifieldupdatecultureprovider/getculture/)(string, Field) | Bir döndürürCultureInfo alanın güncellemesi sırasında kullanılacak nesne. |
+| [GetCulture](../../aspose.words.fields/ifieldupdatecultureprovider/getculture/)(string, Field) | Bir değeri döndürürCultureInfoalanın güncellenmesi sırasında kullanılacak nesne. |
 
 ### Örnekler
 
 Her alan için tarih/saat biçimlendirmesini ayrıştıran bir kültürün nasıl belirtileceğini gösterir.
 
 ```csharp
-[Test]
 public void DefineDateTimeFormatting()
 {
     Document doc = new Document();
@@ -51,7 +50,7 @@ public void DefineDateTimeFormatting()
 private class FieldUpdateCultureProvider : IFieldUpdateCultureProvider
 {
     /// <summary>
-    /// Alanın güncellemesi sırasında kullanılacak bir CultureInfo nesnesi döndürür.
+    /// Alanın güncellenmesi sırasında kullanılacak bir CultureInfo nesnesini döndürür.
     /// </summary>
     public CultureInfo GetCulture(string name, Field field)
     {

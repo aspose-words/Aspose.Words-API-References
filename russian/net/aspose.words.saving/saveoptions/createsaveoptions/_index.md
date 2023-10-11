@@ -24,18 +24,18 @@ public static SaveOptions CreateSaveOptions(SaveFormat saveFormat)
 
 ### Примеры
 
-Отображает возможность оптимизации потребления памяти при преобразовании больших документов в формат PDF.
+Показывает возможность оптимизировать потребление памяти при рендеринге больших документов в PDF.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// Создаем объект "PdfSaveOptions", который мы можем передать в метод "Сохранить" документа
-// для изменения того, как этот метод преобразует документ в .PDF.
+// Создаем объект «PdfSaveOptions», который мы можем передать методу «Save» документа.
+// чтобы изменить способ преобразования этого метода в .PDF.
 SaveOptions saveOptions = SaveOptions.CreateSaveOptions(SaveFormat.Pdf);
 
-// Установите для свойства "MemoryOptimization" значение "true", чтобы уменьшить объем памяти, занимаемой операциями сохранения больших документов.
+// Установите для свойства «MemoryOptimization» значение «true», чтобы уменьшить объем памяти, занимаемый операциями сохранения больших документов.
 // ценой увеличения продолжительности операции.
-// Установите для свойства «MemoryOptimization» значение «false», чтобы нормально сохранить документ в формате PDF.
+// Установите для свойства «MemoryOptimization» значение «false», чтобы обычно сохранить документ в формате PDF.
 saveOptions.MemoryOptimization = memoryOptimization;
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.MemoryOptimization.pdf", saveOptions);
@@ -52,7 +52,7 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.MemoryOptimization.pdf", saveOptions);
 
 ## CreateSaveOptions(string) {#createsaveoptions_1}
 
-Создает объект параметров сохранения класса, подходящего для расширения файла, указанного в данном имени файла.
+Создает объект параметров сохранения класса, соответствующего расширению файла, указанному в данном имени файла.
 
 ```csharp
 public static SaveOptions CreateSaveOptions(string fileName)
@@ -68,19 +68,19 @@ public static SaveOptions CreateSaveOptions(string fileName)
 
 ### Примеры
 
-Показывает, как задать шаблон по умолчанию для документов, к которым нет прикрепленных шаблонов.
+Показывает, как установить шаблон по умолчанию для документов, к которым не прикреплены шаблоны.
 
 ```csharp
 Document doc = new Document();
 
-// Включить автоматическое обновление стиля, но не прикреплять шаблонный документ.
+// Включаем автоматическое обновление стилей, но не прикрепляем документ-шаблон.
 doc.AutomaticallyUpdateStyles = true;
 
 Assert.AreEqual(string.Empty, doc.AttachedTemplate);
 
-// Так как документа-шаблона нет, в документе негде было отслеживать изменения стилей.
+// Поскольку документа-шаблона нет, в документе негде было отслеживать изменения стиля.
 // Используйте объект SaveOptions для автоматической установки шаблона
-// если документа, который мы сохраняем, нет.
+// если в документе, который мы сохраняем, его нет.
 SaveOptions options = SaveOptions.CreateSaveOptions("Document.DefaultTemplate.docx");
 options.DefaultTemplate = MyDir + "Business brochure.dotx";
 

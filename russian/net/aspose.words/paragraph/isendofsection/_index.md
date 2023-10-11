@@ -1,14 +1,14 @@
 ---
 title: Paragraph.IsEndOfSection
 second_title: Справочник по API Aspose.Words для .NET
-description: Paragraph свойство. Истинно если этот абзац является последним абзацем в Тело рассказ основного текста Раздел  false иначе.
+description: Paragraph свойство. True если этот абзац является последним абзацем вBody основной текстовый рассказSection  ложь в противном случае.
 type: docs
 weight: 80
 url: /ru/net/aspose.words/paragraph/isendofsection/
 ---
 ## Paragraph.IsEndOfSection property
 
-Истинно, если этот абзац является последним абзацем в **Тело** (рассказ основного текста) **Раздел** ; false иначе.
+True, если этот абзац является последним абзацем в[`Body`](../../body/) (основной текстовый рассказ)[`Section`](../../section/) ; ложь в противном случае.
 
 ```csharp
 public bool IsEndOfSection { get; }
@@ -19,7 +19,6 @@ public bool IsEndOfSection { get; }
 Показывает, как вставить содержимое одного документа в закладку в другом документе.
 
 ```csharp
-[Test]
 public void InsertAtBookmark()
 {
     Document doc = new Document();
@@ -55,8 +54,8 @@ static void InsertDocument(Node insertionDestination, Document docToInsert)
         NodeImporter importer =
             new NodeImporter(docToInsert, insertionDestination.Document, ImportFormatMode.KeepSourceFormatting);
 
-        // Перебрать все узлы блочного уровня в теле раздела,
-        // затем клонируем и вставляем каждый узел, который не является последним пустым абзацем раздела.
+        // Проходим по всем узлам уровня блока в теле раздела,
+        // затем клонируем и вставляем каждый узел, кроме последнего пустого абзаца раздела.
         foreach (Section srcSection in docToInsert.Sections.OfType<Section>())
             foreach (Node srcNode in srcSection.Body)
             {

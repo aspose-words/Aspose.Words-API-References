@@ -1,14 +1,14 @@
 ---
 title: Row.RowFormat
 second_title: Aspose.Words for .NET API 参考
-description: Row 财产. 提供对行的格式化属性的访问
+description: Row 财产. 提供对行格式属性的访问
 type: docs
-weight: 90
+weight: 110
 url: /zh/net/aspose.words.tables/row/rowformat/
 ---
 ## Row.RowFormat property
 
-提供对行的格式化属性的访问。
+提供对行格式属性的访问。
 
 ```csharp
 public RowFormat RowFormat { get; }
@@ -16,7 +16,7 @@ public RowFormat RowFormat { get; }
 
 ### 例子
 
-显示如何修改表格行的格式。
+演示如何修改表行的格式。
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
@@ -31,7 +31,7 @@ firstRow.RowFormat.AllowBreakAcrossPages = true;
 doc.Save(ArtifactsDir + "Table.RowFormat.docx");
 ```
 
-显示如何修改表格中行和单元格的格式。
+演示如何修改表中行和单元格的格式。
 
 ```csharp
 Document doc = new Document();
@@ -50,7 +50,7 @@ builder.Write("U.K.");
 builder.EndTable();
 
 // 使用第一行的“RowFormat”属性修改格式
-// 此行中所有单元格的内容。
+// 该行中所有单元格的内容。
 RowFormat rowFormat = table.FirstRow.RowFormat;
 rowFormat.Height = 25;
 rowFormat.Borders[BorderType.Bottom].Color = Color.Red;

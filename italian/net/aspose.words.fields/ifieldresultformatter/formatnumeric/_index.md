@@ -1,14 +1,14 @@
 ---
 title: IFieldResultFormatter.FormatNumeric
 second_title: Aspose.Words per .NET API Reference
-description: IFieldResultFormatter metodo. Chiamato quando Aspose.Words applica un cambio di formato numerico ad esempio  ..
+description: IFieldResultFormatter metodo. Chiamato quando Aspose.Words applica un cambio di formato numerico ovvero  ..
 type: docs
 weight: 30
 url: /it/net/aspose.words.fields/ifieldresultformatter/formatnumeric/
 ---
 ## IFieldResultFormatter.FormatNumeric method
 
-Chiamato quando Aspose.Words applica un cambio di formato numerico, ad esempio \# "#.##".
+Chiamato quando Aspose.Words applica un cambio di formato numerico, ovvero \# "#.##".
 
 ```csharp
 public string FormatNumeric(double value, string format)
@@ -16,13 +16,14 @@ public string FormatNumeric(double value, string format)
 
 ### Osservazioni
 
-L'implementazione dovrebbe tornare **nullo** per indicare che deve essere applicata la formattazione predefinita.
+L'implementazione dovrebbe tornare`nullo` per indicare che deve essere applicata la formattazione predefinita.
 
 ### Esempi
 
 Mostra come applicare automaticamente un formato personalizzato ai risultati dei campi man mano che i campi vengono aggiornati.
 
 ```csharp
+public void FieldResultFormatting()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -30,8 +31,8 @@ Mostra come applicare automaticamente un formato personalizzato ai risultati dei
     doc.FieldOptions.ResultFormatter = formatter;
 
     // Il nostro formattatore dei risultati dei campi applica un formato personalizzato ai campi appena creati di tre tipi di formati.
-    // I formattatori dei risultati dei campi applicano una nuova formattazione ai campi man mano che vengono aggiornati,
-    // che si verifica non appena li creiamo utilizzando questo overload del metodo InsertField.
+    // I formattatori dei risultati dei campi applicano la nuova formattazione ai campi man mano che vengono aggiornati,
+    // cosa che accade non appena li creiamo utilizzando questo sovraccarico del metodo InsertField.
     // 1 - Numerico:
     builder.InsertField(" = 2 + 3 \\# $###");
 
@@ -55,7 +56,7 @@ Mostra come applicare automaticamente un formato personalizzato ai risultati dei
 
 /// <summary>
 /// Quando i campi con formattazione vengono aggiornati, questo formattatore sovrascriverà la loro formattazione
-/// con un formato personalizzato, tenendo traccia di ogni chiamata.
+/// con un formato personalizzato, monitorando ogni invocazione.
 /// </summary>
 private class FieldResultFormatter : IFieldResultFormatter
 {

@@ -1,14 +1,14 @@
 ---
 title: Field.Remove
 second_title: Aspose.Words per .NET API Reference
-description: Field metodo. Rimuove il campo dal documento. Restituisce un nodo subito dopo il campo. Se la fine del campo è lultimo figlio del suo nodo padre restituisce il suo paragrafo padre. Se il campo è già stato rimosso ritorna nullo .
+description: Field metodo. Rimuove il campo dal documento. Restituisce un nodo subito dopo il campo. Se la fine del campo è lultimo figlio del suo nodo genitore restituisce il paragrafo genitore. Se il campo è già stato rimosso restituiscenullo .
 type: docs
 weight: 120
 url: /it/net/aspose.words.fields/field/remove/
 ---
 ## Field.Remove method
 
-Rimuove il campo dal documento. Restituisce un nodo subito dopo il campo. Se la fine del campo è l'ultimo figlio del suo nodo padre, restituisce il suo paragrafo padre. Se il campo è già stato rimosso, ritorna **nullo** .
+Rimuove il campo dal documento. Restituisce un nodo subito dopo il campo. Se la fine del campo è l'ultimo figlio del suo nodo genitore, restituisce il paragrafo genitore. Se il campo è già stato rimosso, restituisce`nullo` .
 
 ```csharp
 public Node Remove()
@@ -35,7 +35,7 @@ FieldCollection fields = doc.Range.Fields;
 Assert.AreEqual(6, fields.Count);
 
 // Di seguito sono riportati quattro modi per rimuovere i campi da una raccolta di campi.
-// 1 - Ottieni un campo da rimuovere:
+// 1 - Ottieni un campo per rimuoversi:
 fields[0].Remove();
 Assert.AreEqual(5, fields.Count);
 
@@ -48,33 +48,34 @@ Assert.AreEqual(4, fields.Count);
 fields.RemoveAt(2);
 Assert.AreEqual(3, fields.Count);
 
-// 4 - Rimuovi tutti i campi dalla raccolta in una volta:
+// 4 - Rimuovi tutti i campi dalla raccolta contemporaneamente:
 fields.Clear();
 Assert.AreEqual(0, fields.Count);
 ```
 
-Mostra come elaborare i campi PRIVATI.
+Mostra come elaborare i campi PRIVATE.
 
 ```csharp
+public void FieldPrivate()
 {
-    // Apri un documento Corel WordPerfect che abbiamo convertito nel formato .docx.
+    // Apre un documento Corel WordPerfect che abbiamo convertito nel formato .docx.
     Document doc = new Document(MyDir + "Field sample - PRIVATE.docx");
 
-    // I documenti di WordPerfect 5.x/6.x come quello che abbiamo caricato possono contenere campi PRIVATI.
-    // Microsoft Word conserva i campi PRIVATI durante le operazioni di caricamento/salvataggio,
-    // ma non fornisce alcuna funzionalità per loro.
+    // I documenti WordPerfect 5.x/6.x come quello che abbiamo caricato possono contenere campi PRIVATE.
+    // Microsoft Word preserva i campi PRIVATE durante le operazioni di caricamento/salvataggio,
+    // ma non fornisce loro alcuna funzionalità.
     FieldPrivate field = (FieldPrivate)doc.Range.Fields[0];
 
     Assert.AreEqual(" PRIVATE \"My value\" ", field.GetFieldCode());
     Assert.AreEqual(FieldType.FieldPrivate, field.Type);
 
-    // Possiamo anche inserire campi PRIVATI utilizzando un generatore di documenti.
+    // Possiamo anche inserire campi PRIVATE utilizzando un generatore di documenti.
     DocumentBuilder builder = new DocumentBuilder(doc);
     builder.InsertField(FieldType.FieldPrivate, true);
 
-    // Questi campi non sono un modo praticabile per proteggere le informazioni sensibili.
-    // A meno che non sia essenziale la compatibilità con le versioni precedenti di WordPerfect,
-    // possiamo tranquillamente rimuovere questi campi. Possiamo farlo usando un'implementazione di DocumentVisitor.
+    // Questi campi non rappresentano un modo praticabile per proteggere le informazioni sensibili.
+    // A meno che la compatibilità con le versioni precedenti di WordPerfect non sia essenziale,
+    // possiamo rimuovere questi campi in tutta sicurezza. Possiamo farlo utilizzando un'implementazione di DocumentVisiitor.
     Assert.AreEqual(2, doc.Range.Fields.Count);
 
     FieldPrivateRemover remover = new FieldPrivateRemover();
@@ -85,7 +86,7 @@ Mostra come elaborare i campi PRIVATI.
 }
 
 /// <summary>
-/// Rimuove tutti i campi PRIVATI incontrati.
+/// Rimuove tutti i campi PRIVATE incontrati.
 /// </summary>
 public class FieldPrivateRemover : DocumentVisitor
 {
@@ -100,8 +101,8 @@ public class FieldPrivateRemover : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando viene rilevato un nodo FieldEnd nel documento.
-    /// Se il nodo appartiene a un campo PRIVATO, l'intero campo viene rimosso.
+    /// Chiamato quando nel documento viene incontrato un nodo FieldEnd.
+    /// Se il nodo appartiene ad un campo PRIVATE, l'intero campo viene rimosso.
     /// </summary>
     public override VisitorAction VisitFieldEnd(FieldEnd fieldEnd)
     {

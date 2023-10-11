@@ -3,7 +3,7 @@ title: Enum ConditionalStyleType
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.ConditionalStyleType uppräkning. Representerar möjliga tabellområden för vilka villkorlig formatering kan definieras i en tabellstil.
 type: docs
-weight: 320
+weight: 330
 url: /sv/net/aspose.words/conditionalstyletype/
 ---
 ## ConditionalStyleType enumeration

@@ -20,11 +20,11 @@ public ChartSeries this[int index] { get; }
 
 ### Observaciones
 
-El índice está basado en cero.
+El índice tiene base cero.
 
-Los índices negativos están permitidos e indican el acceso desde la parte posterior de la colección. Por ejemplo, -1 significa el último elemento, -2 significa el penúltimo y así sucesivamente.
+Se permiten índices negativos e indican el acceso desde la parte posterior de la colección. Por ejemplo, -1 significa el último elemento, -2 significa el penúltimo y así sucesivamente.
 
-Si el índice es mayor o igual que el número de elementos en la lista, esto devuelve una referencia nula.
+Si el índice es mayor o igual que el número de elementos de la lista, esto devuelve una referencia nula.
 
 Si el índice es negativo y su valor absoluto es mayor que el número de elementos de la lista, esto devuelve una referencia nula.
 
@@ -55,19 +55,17 @@ using (IEnumerator<ChartSeries> enumerator = chart.Series.GetEnumerator())
     }
 }
 
-// Estos son los nombres de las categorías en el gráfico.
+// Estos son los nombres de las categorías del gráfico.
 string[] categories = { "Category 1", "Category 2", "Category 3", "Category 4" };
 
-// Podemos agregar una serie con nuevos valores para las categorías existentes.
+// Podemos agregar una serie con nuevos valores para categorías existentes.
 // Este gráfico ahora contendrá cuatro grupos de cuatro columnas.
 chart.Series.Add("Series 4", categories, new[] { 4.4, 7.0, 3.5, 2.1 });
-
-// Una serie de gráficos también se puede eliminar por índice, así.
-// Esto eliminará una de las tres series de demostración que venían con el gráfico.
+// Una serie de gráficos también se puede eliminar por índice, como este.
+// Esto eliminará una de las tres series de demostración que vienen con el gráfico.
 chartData.RemoveAt(2);
 
 Assert.False(chartData.Any(s => s.Name == "Series 3"));
-
 // También podemos borrar todos los datos del gráfico a la vez con este método.
 // Al crear un nuevo gráfico, esta es la forma de borrar todos los datos de demostración
 // antes de que podamos comenzar a trabajar en un gráfico en blanco.

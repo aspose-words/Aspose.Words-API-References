@@ -21,15 +21,15 @@ public void Insert(int index, string value)
 
 ### Ejemplos
 
-Muestra cómo insertar un campo de cuadro combinado y editar los elementos en su colección de elementos.
+Muestra cómo insertar un campo de cuadro combinado y editar los elementos de su colección de elementos.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Inserte un cuadro combinado y luego verifique su colección de elementos desplegables.
+// Inserta un cuadro combinado y luego verifica su colección de elementos desplegables.
 // En Microsoft Word, el usuario hará clic en el cuadro combinado,
-// y luego elija uno de los elementos de texto en la colección para mostrar.
+// y luego elija uno de los elementos de texto de la colección para mostrar.
 string[] items = { "One", "Two", "Three" };
 FormField comboBoxField = builder.InsertComboBox("DropDown", items, 0);
 DropDownItemCollection dropDownItems = comboBoxField.DropDownItems;
@@ -43,7 +43,7 @@ Assert.IsTrue(dropDownItems.Contains("Three"));
 // 1 - Agrega un elemento al final de la colección:
 dropDownItems.Add("Four");
 
-// 2 - Insertar un elemento antes de otro elemento en un índice especificado:
+// 2 - Insertar un elemento antes de otro elemento en un índice específico:
 dropDownItems.Insert(3, "Three and a half");
 
 Assert.AreEqual(5, dropDownItems.Count);

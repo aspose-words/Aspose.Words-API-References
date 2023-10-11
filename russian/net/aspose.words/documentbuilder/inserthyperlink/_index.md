@@ -3,7 +3,7 @@ title: DocumentBuilder.InsertHyperlink
 second_title: Справочник по API Aspose.Words для .NET
 description: DocumentBuilder метод. Вставляет гиперссылку в документ.
 type: docs
-weight: 340
+weight: 370
 url: /ru/net/aspose.words/documentbuilder/inserthyperlink/
 ---
 ## DocumentBuilder.InsertHyperlink method
@@ -16,9 +16,9 @@ public Field InsertHyperlink(string displayText, string urlOrBookmark, bool isBo
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| displayText | String | Текст ссылки для отображения в документе. |
+| displayText | String | Текст ссылки, которая будет отображаться в документе. |
 | urlOrBookmark | String | Назначение ссылки. Может быть URL-адресом или именем закладки внутри документа. Этот метод всегда добавляет апострофы в начале и конце URL-адреса. |
-| isBookmark | Boolean | Истинно, если предыдущий параметр является именем закладки внутри документа; ложь, если предыдущий параметр является URL-адресом. |
+| isBookmark | Boolean | `истинный` если предыдущий параметр — это имя закладки внутри документа; `ЛОЖЬ` предыдущий параметр является URL-адресом. |
 
 ### Возвращаемое значение
 
@@ -26,13 +26,13 @@ public Field InsertHyperlink(string displayText, string urlOrBookmark, bool isBo
 
 ### Примечания
 
-Обратите внимание, что форматирование шрифта для отображаемого текста гиперссылки необходимо указать явно с помощью параметра[`Font`](../font/) имущество.
+Обратите внимание, что вам необходимо указать форматирование шрифта для отображаемого текста гиперссылки явно с помощью[`Font`](../font/) свойство.
 
-Этот метод вызывает внутренние вызовы[`InsertField`](../insertfield/) чтобы вставить в документ ГИПЕРССЫЛКУ MS Word field .
+Этот метод внутренне вызывает[`InsertField`](../insertfield/) чтобы вставить поле MS Word HYPERLINK field в документ.
 
 ### Примеры
 
-Показывает, как вставить гиперссылку, ссылающуюся на локальную закладку.
+Показывает, как вставить гиперссылку, которая ссылается на локальную закладку.
 
 ```csharp
 Document doc = new Document();
@@ -43,8 +43,8 @@ builder.Write("Bookmarked text. ");
 builder.EndBookmark("Bookmark1");
 builder.Writeln("Text outside of the bookmark.");
 
-// Вставьте поле ГИПЕРССЫЛКИ, которое ссылается на закладку. Мы можем передать полевые переключатели
-// в метод "InsertHyperlink" как часть аргумента, содержащего имя закладки, на которую делается ссылка.
+// Вставляем поле ГИПЕРССЫЛКИ, которое ссылается на закладку. Мы можем передать переключатели полей
+// методу "InsertHyperlink" как часть аргумента, содержащего имя указанной закладки.
 builder.Font.Color = Color.Blue;
 builder.Font.Underline = Underline.Single;
 builder.InsertHyperlink("Link to Bookmark1", @"Bookmark1"" \o ""Hyperlink Tip", true);
@@ -60,8 +60,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Write("For more information, please visit the ");
 
-// Вставьте гиперссылку и подчеркните ее с помощью пользовательского форматирования.
-// Гиперссылка будет кликабельным фрагментом текста, который приведет нас к месту, указанному в URL-адресе.
+// Вставьте гиперссылку и подчеркните ее с помощью специального форматирования.
+// Гиперссылка будет интерактивным фрагментом текста, который приведет нас к месту, указанному в URL-адресе.
 builder.Font.Color = Color.Blue;
 builder.Font.Underline = Underline.Single;
 builder.InsertHyperlink("Google website", "https://www.google.com", false);
@@ -72,7 +72,7 @@ builder.Writeln(".");
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertHyperlink.docx");
 ```
 
-Показывает, как использовать стек форматирования конструктора документов.
+Показывает, как использовать стек форматирования построителя документов.
 
 ```csharp
 Document doc = new Document();
@@ -83,10 +83,10 @@ builder.Font.Name = "Arial";
 builder.Font.Size = 24;
 builder.Write("To visit Google, hold Ctrl and click ");
 
-// Сохраняем нашу текущую конфигурацию форматирования в стеке.
+// Сохраняем текущую конфигурацию форматирования в стеке.
 builder.PushFont();
 
-// Изменить текущее форматирование построителя, применив новый стиль.
+// Измените текущее форматирование компоновщика, применив новый стиль.
 builder.Font.StyleIdentifier = StyleIdentifier.Hyperlink;
 builder.InsertHyperlink("here", "http://www.google.com", false);
 

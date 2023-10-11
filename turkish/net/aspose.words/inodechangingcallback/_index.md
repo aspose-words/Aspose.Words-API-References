@@ -3,7 +3,7 @@ title: Interface INodeChangingCallback
 second_title: Aspose.Words for .NET API Referansı
 description: Aspose.Words.INodeChangingCallback arayüz. Belgeye düğümler eklendiğinde veya kaldırıldığında bildirim almak istiyorsanız bu arayüzü uygulayın.
 type: docs
-weight: 3000
+weight: 3200
 url: /tr/net/aspose.words/inodechangingcallback/
 ---
 ## INodeChangingCallback interface
@@ -19,20 +19,21 @@ public interface INodeChangingCallback
 | İsim | Tanım |
 | --- | --- |
 | [NodeInserted](../../aspose.words/inodechangingcallback/nodeinserted/)(NodeChangingArgs) | Bu belgeye ait bir düğüm başka bir düğüme eklendiğinde çağrılır. |
-| [NodeInserting](../../aspose.words/inodechangingcallback/nodeinserting/)(NodeChangingArgs) | Bu belgeye ait bir düğüm başka bir düğüme eklenmeden hemen önce çağrılır. |
+| [NodeInserting](../../aspose.words/inodechangingcallback/nodeinserting/)(NodeChangingArgs) | Bu belgeye ait bir düğümün başka bir düğüme eklenmesinden hemen önce çağrılır. |
 | [NodeRemoved](../../aspose.words/inodechangingcallback/noderemoved/)(NodeChangingArgs) | Bu belgeye ait bir düğüm üst öğesinden kaldırıldığında çağrılır. |
 | [NodeRemoving](../../aspose.words/inodechangingcallback/noderemoving/)(NodeChangingArgs) | Bu belgeye ait bir düğümün belgeden kaldırılmasından hemen önce çağrılır. |
 
 ### Örnekler
 
-Bir geri arama ile düğüm değiştirmenin nasıl özelleştirildiğini gösterir.
+Bir geri aramayla düğüm değişiminin nasıl özelleştirileceğini gösterir.
 
 ```csharp
+public void FontChangeViaCallback()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Geri aramayı değiştiren düğümü özel uygulamaya ayarlayın,
+    // Düğüm değiştirme geri çağrısını özel uygulamaya ayarlayın,
     // ardından bir günlük oluşturmasını sağlamak için düğümleri ekleyin/kaldırın.
     HandleNodeChangingFontChanger callback = new HandleNodeChangingFontChanger();
     doc.NodeChangingCallback = callback;
@@ -45,10 +46,11 @@ Bir geri arama ile düğüm değiştirmenin nasıl özelleştirildiğini göster
     doc.Range.Fields[0].Remove();
 
     Console.WriteLine(callback.GetLog());
+}
 
 /// <summary>
-/// Her düğümün eklenmesi ve çıkarılmasının tarih ve saatini kaydeder.
-/// Çalıştırma düğümlerinin metin içeriği için özel bir yazı tipi adı/boyutu ayarlar.
+/// Her düğüm ekleme ve çıkarma işleminin tarihini ve saatini günlüğe kaydeder.
+/// Çalıştırma düğümlerinin metin içerikleri için özel bir yazı tipi adı/boyutu ayarlar.
 /// </summary>
 public class HandleNodeChangingFontChanger : INodeChangingCallback
 {

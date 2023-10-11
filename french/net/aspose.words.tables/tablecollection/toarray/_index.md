@@ -1,14 +1,14 @@
 ---
 title: TableCollection.ToArray
 second_title: Référence de l'API Aspose.Words pour .NET
-description: TableCollection méthode. Copie toutes les tables de la collection dans un nouveau tableau de tables.
+description: TableCollection méthode. Copie toutes les tables de la collection vers un nouveau tableau de tables.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.tables/tablecollection/toarray/
 ---
 ## TableCollection.ToArray method
 
-Copie toutes les tables de la collection dans un nouveau tableau de tables.
+Copie toutes les tables de la collection vers un nouveau tableau de tables.
 
 ```csharp
 public Table[] ToArray()
@@ -16,7 +16,7 @@ public Table[] ToArray()
 
 ### Return_Value
 
-Un tableau de tables.
+Un tableau de tableaux.
 
 ### Exemples
 
@@ -34,7 +34,7 @@ for (int i = 0; i < tables.Count; i++)
 
     RowCollection rows = tables[i].Rows;
 
-    // Nous pouvons utiliser la méthode "ToArray" sur une collection de lignes pour la cloner dans un tableau.
+    // On peut utiliser la méthode "ToArray" sur une collection de lignes pour la cloner dans un tableau.
     Assert.AreEqual(rows, rows.ToArray());
     Assert.AreNotSame(rows, rows.ToArray());
 
@@ -44,7 +44,7 @@ for (int i = 0; i < tables.Count; i++)
 
         CellCollection cells = rows[j].Cells;
 
-        // Nous pouvons utiliser la méthode "ToArray" sur une collection de cellules pour la cloner dans un tableau.
+        // On peut utiliser la méthode "ToArray" sur une collection de cellules pour la cloner dans un tableau.
         Assert.AreEqual(cells, cells.ToArray());
         Assert.AreNotSame(cells, cells.ToArray());
 

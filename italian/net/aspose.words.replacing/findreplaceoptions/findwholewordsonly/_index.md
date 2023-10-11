@@ -24,11 +24,11 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln("Jackson will meet you in Jacksonville.");
 
-// Possiamo usare un oggetto "FindReplaceOptions" per modificare il processo di ricerca e sostituzione.
+// Possiamo utilizzare un oggetto "FindReplaceOptions" per modificare il processo di ricerca e sostituzione.
 FindReplaceOptions options = new FindReplaceOptions();
 
 // Imposta il flag "FindWholeWordsOnly" su "true" per sostituire il testo trovato se non fa parte di un'altra parola.
-// Imposta il flag "FindWholeWordsOnly" su "false" per sostituire tutto il testo indipendentemente dall'ambiente circostante.
+// Imposta il flag "FindWholeWordsOnly" su "false" per sostituire tutto il testo indipendentemente da ciò che lo circonda.
 options.FindWholeWordsOnly = findWholeWordsOnly;
 
 doc.Range.Replace("Jackson", "Louis", options);

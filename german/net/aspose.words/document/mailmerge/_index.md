@@ -1,14 +1,14 @@
 ---
 title: Document.MailMerge
 second_title: Aspose.Words für .NET-API-Referenz
-description: Document eigendom. Gibt a zurück Seriendruck Objekt das die Seriendruckfunktion für das Dokument darstellt.
+description: Document eigendom. Gibt a zurückMailMerge Objekt das die Serienbrieffunktion für das Dokument darstellt.
 type: docs
-weight: 240
+weight: 260
 url: /de/net/aspose.words/document/mailmerge/
 ---
 ## Document.MailMerge property
 
-Gibt a zurück **Seriendruck** Objekt, das die Seriendruckfunktion für das Dokument darstellt.
+Gibt a zurück[`MailMerge`](../../../aspose.words.mailmerging/mailmerge/) Objekt, das die Serienbrieffunktion für das Dokument darstellt.
 
 ```csharp
 public MailMerge MailMerge { get; }
@@ -16,7 +16,7 @@ public MailMerge MailMerge { get; }
 
 ### Beispiele
 
-Zeigt, wie ein Seriendruck mit Daten aus einer DataTable ausgeführt wird.
+Zeigt, wie ein Serienbrief mit Daten aus einer DataTable ausgeführt wird.
 
 ```csharp
 public void ExecuteDataTable()
@@ -27,15 +27,15 @@ public void ExecuteDataTable()
     table.Rows.Add(new object[] { "Thomas Hardy", "120 Hanover Sq., London" });
     table.Rows.Add(new object[] { "Paolo Accorti", "Via Monte Bianco 34, Torino" });
 
-    // Im Folgenden finden Sie zwei Möglichkeiten, eine DataTable als Datenquelle für einen Seriendruck zu verwenden.
-    // 1 - Verwenden Sie die gesamte Tabelle für den Seriendruck, um ein Ausgabe-Seriendruckdokument für jede Zeile in der Tabelle zu erstellen:
+    // Nachfolgend finden Sie zwei Möglichkeiten, eine DataTable als Datenquelle für einen Serienbrief zu verwenden.
+    // 1 – Verwenden Sie die gesamte Tabelle für den Serienbrief, um für jede Zeile in der Tabelle ein Ausgabe-Serienbriefdokument zu erstellen:
     Document doc = CreateSourceDocExecuteDataTable();
 
     doc.MailMerge.Execute(table);
 
     doc.Save(ArtifactsDir + "MailMerge.ExecuteDataTable.WholeTable.docx");
 
-    // 2 - Verwenden Sie eine Zeile der Tabelle, um ein Seriendruckdokument zu erstellen:
+    // 2 – Verwenden Sie eine Zeile der Tabelle, um ein Ausgabe-Serienbriefdokument zu erstellen:
     doc = CreateSourceDocExecuteDataTable();
 
     doc.MailMerge.Execute(table.Rows[1]);
@@ -44,7 +44,7 @@ public void ExecuteDataTable()
 }
 
 /// <summary>
-/// Erstellt ein Seriendruck-Quelldokument.
+/// Erstellt ein Serienbrief-Quelldokument.
 /// </summary>
 private static Document CreateSourceDocExecuteDataTable()
 {

@@ -16,7 +16,7 @@ public string Text { get; set; }
 
 ### Esempi
 
-Mostra come utilizzare il campo OGGETTO.
+Mostra come utilizzare il campo SUBJECT.
 
 ```csharp
 Document doc = new Document();
@@ -33,8 +33,8 @@ Assert.AreEqual(" SUBJECT ", field.GetFieldCode());
 Assert.AreEqual("My subject", field.Result);
 
 // Se diamo il valore della proprietà Text del campo SUBJECT e lo aggiorniamo, il campo lo farà
-// sovrascrive il valore corrente della proprietà incorporata "Subject" con il valore della relativa proprietà Text,
-// e quindi visualizzare il nuovo valore.
+// sovrascrive il valore corrente della proprietà integrata "Subject" con il valore della sua proprietà Text,
+// e quindi visualizza il nuovo valore.
 field.Text = "My new subject";
 field.Update();
 

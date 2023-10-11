@@ -1,14 +1,14 @@
 ---
 title: WebExtension.Id
 second_title: Aspose.Words per .NET API Reference
-description: WebExtension proprietà. Identifica in modo univoco listanza dellestensione Web nel documento corrente.
+description: WebExtension proprietà. Identifica in modo univoco listanza dellestensione web nel documento corrente.
 type: docs
 weight: 30
 url: /it/net/aspose.words.webextensions/webextension/id/
 ---
 ## WebExtension.Id property
 
-Identifica in modo univoco l'istanza dell'estensione Web nel documento corrente.
+Identifica in modo univoco l'istanza dell'estensione web nel documento corrente.
 
 ```csharp
 public string Id { get; set; }

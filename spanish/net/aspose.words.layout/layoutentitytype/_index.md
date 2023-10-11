@@ -1,14 +1,14 @@
 ---
 title: Enum LayoutEntityType
 second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Layout.LayoutEntityType enumeración. Tipos de las entidades de diseño.
+description: Aspose.Words.Layout.LayoutEntityType enumeración. Tipos de entidades de diseño.
 type: docs
-weight: 3130
+weight: 3330
 url: /es/net/aspose.words.layout/layoutentitytype/
 ---
 ## LayoutEntityType enumeration
 
-Tipos de las entidades de diseño.
+Tipos de entidades de diseño.
 
 ```csharp
 [Flags]
@@ -19,34 +19,34 @@ public enum LayoutEntityType
 
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
-| None | `0` | Valor por defecto. |
+| None | `0` | Valor predeterminado. |
 | Page | `1` | Representa la página de un documento. La página puede tenerColumn ,HeaderFooter yComment entidades secundarias. |
 | Column | `2` | Representa una columna de texto en una página. La columna puede tener las mismas entidades secundarias queCell , másFootnote ,Endnote yNoteSeparator entidades. |
 | Row | `8` | Representa una fila de la tabla. La fila puede tenerCell como entidades secundarias. |
-| Cell | `10` | Representa una celda de tabla. La celda puede tenerLine yRow entidades secundarias. |
+| Cell | `10` | Representa una celda de la tabla. La celda puede tenerLine yRow entidades secundarias. |
 | Line | `20` | Representa una línea de caracteres de texto y objetos en línea. La línea puede tenerSpan entidades secundarias. |
-| Span | `40` | Representa uno o más caracteres en una línea. Esto incluye caracteres especiales como marcadores de inicio/fin de campo, marcadores y comentarios. Es posible que el intervalo no tenga entidades secundarias. |
-| Footnote | `100` | Representa el marcador de posición para el contenido de la nota al pie. La nota al pie puede tenerNote entidades secundarias. |
-| Endnote | `200` | Representa el marcador de posición para el contenido de la nota al final. La nota al final puede tenerNote entidades secundarias. |
-| Note | `4000` | Representa el marcador de posición para el contenido de la nota. La nota puede tenerLine yRow entidades secundarias. |
-| HeaderFooter | `400` | Representa el marcador de posición para el contenido del encabezado/pie de página en una página. HeaderFooter puede tenerLine yRow entidades secundarias. |
+| Span | `40` | Representa uno o más caracteres en una línea. Esto incluye caracteres especiales como marcadores de inicio/fin de campo, marcadores y comentarios. Es posible que la extensión no tenga entidades secundarias. |
+| Footnote | `100` | Representa un marcador de posición para el contenido de la nota al pie. La nota al pie puede tenerNote entidades secundarias. |
+| Endnote | `200` | Representa un marcador de posición para el contenido de la nota final. La nota final puede tenerNote entidades secundarias. |
+| Note | `4000` | Representa un marcador de posición para el contenido de la nota. La nota puede tenerLine yRow entidades secundarias. |
+| HeaderFooter | `400` | Representa un marcador de posición para el contenido del encabezado/pie de página de una página. HeaderFooter puede tenerLine yRow entidades secundarias. |
 | TextBox | `800` | Representa el área de texto dentro de una forma. El cuadro de texto puede tenerLine yRow entidades secundarias. |
-| Comment | `1000` | Representa el marcador de posición para el contenido del comentario. El comentario puede tenerLine yRow entidades secundarias. |
-| NoteSeparator | `2000` | Representa el separador de notas al pie/notas al final. NoteSeparator puede tenerLine yRow entidades secundarias. |
+| Comment | `1000` | Representa un marcador de posición para el contenido del comentario. El comentario puede tenerLine yRow entidades secundarias. |
+| NoteSeparator | `2000` | Representa el separador de notas al pie/notas finales. NoteSeparator puede tenerLine yRow entidades secundarias. |
 
 ### Ejemplos
 
-Muestra formas de atravesar las entidades de diseño de un documento.
+Muestra formas de recorrer las entidades de diseño de un documento.
 
 ```csharp
 public void LayoutEnumerator()
 {
-    // Abra un documento que contenga una variedad de entidades de diseño.
+    // Abre un documento que contiene una variedad de entidades de diseño.
     // Las entidades de diseño son páginas, celdas, filas, líneas y otros objetos incluidos en la enumeración LayoutEntityType.
     // Cada entidad de diseño tiene un espacio rectangular que ocupa en el cuerpo del documento.
     Document doc = new Document(MyDir + "Layout entities.docx");
 
-    // Cree un enumerador que pueda atravesar estas entidades como un árbol.
+    // Crea un enumerador que pueda atravesar estas entidades como un árbol.
     LayoutEnumerator layoutEnumerator = new LayoutEnumerator(doc);
 
     Assert.AreEqual(doc, layoutEnumerator.Document);
@@ -62,18 +62,18 @@ public void LayoutEnumerator()
     // Hay dos órdenes que determinan cómo el enumerador de diseño continúa atravesando las entidades de diseño
     // cuando encuentra entidades que abarcan varias páginas.
     // 1 - En orden visual:
-    // Al moverse a través de los elementos secundarios de una entidad que abarcan varias páginas,
-    // el diseño de la página tiene prioridad, y pasamos a otros elementos secundarios en esta página y evitamos los de la siguiente.
+    // Al desplazarnos por los elementos secundarios de una entidad que abarcan varias páginas,
+    // el diseño de la página tiene prioridad y nos movemos a otros elementos secundarios en esta página y evitamos los de la siguiente.
     Console.WriteLine("Traversing from first to last, elements between pages separated:");
     TraverseLayoutForward(layoutEnumerator, 1);
 
-    // Nuestro enumerador ahora está al final de la colección. Podemos recorrer las entidades de diseño hacia atrás para volver al principio.
+    // Nuestro enumerador se encuentra ahora al final de la colección. Podemos recorrer las entidades de diseño hacia atrás para volver al principio.
     Console.WriteLine("Traversing from last to first, elements between pages separated:");
     TraverseLayoutBackward(layoutEnumerator, 1);
 
     // 2 - En orden lógico:
-    // Al moverse a través de los elementos secundarios de una entidad que abarcan varias páginas,
-    // el enumerador se moverá entre las páginas para recorrer todas las entidades secundarias.
+    // Al desplazarnos por los elementos secundarios de una entidad que abarcan varias páginas,
+    // el enumerador se moverá entre páginas para recorrer todas las entidades secundarias.
     Console.WriteLine("Traversing from first to last, elements between pages mixed:");
     TraverseLayoutForwardLogical(layoutEnumerator, 1);
 
@@ -83,7 +83,7 @@ public void LayoutEnumerator()
 
 /// <summary>
 /// Enumerar a través de la colección de entidades de diseño de layoutEnumerator de adelante hacia atrás,
-/// primero en profundidad y en el orden "Visual".
+/// en profundidad primero y en el orden "Visual".
 /// </summary>
 private static void TraverseLayoutForward(LayoutEnumerator layoutEnumerator, int depth)
 {
@@ -101,7 +101,7 @@ private static void TraverseLayoutForward(LayoutEnumerator layoutEnumerator, int
 
 /// <summary>
 /// Enumerar a través de la colección de entidades de diseño de layoutEnumerator de atrás hacia adelante,
-/// primero en profundidad y en el orden "Visual".
+/// en profundidad primero y en el orden "Visual".
 /// </summary>
 private static void TraverseLayoutBackward(LayoutEnumerator layoutEnumerator, int depth)
 {
@@ -119,7 +119,7 @@ private static void TraverseLayoutBackward(LayoutEnumerator layoutEnumerator, in
 
 /// <summary>
 /// Enumerar a través de la colección de entidades de diseño de layoutEnumerator de adelante hacia atrás,
-/// primero en profundidad y en el orden "Lógico".
+/// en profundidad primero y en el orden "lógico".
 /// </summary>
 private static void TraverseLayoutForwardLogical(LayoutEnumerator layoutEnumerator, int depth)
 {
@@ -137,7 +137,7 @@ private static void TraverseLayoutForwardLogical(LayoutEnumerator layoutEnumerat
 
 /// <summary>
 /// Enumerar a través de la colección de entidades de diseño de layoutEnumerator de atrás hacia adelante,
-/// primero en profundidad y en el orden "Lógico".
+/// en profundidad primero y en el orden "lógico".
 /// </summary>
 private static void TraverseLayoutBackwardLogical(LayoutEnumerator layoutEnumerator, int depth)
 {
@@ -154,9 +154,9 @@ private static void TraverseLayoutBackwardLogical(LayoutEnumerator layoutEnumera
 }
 
 /// <summary>
-/// Imprimir información sobre la entidad actual de layoutEnumerator en la consola, mientras se sangra el texto con caracteres de tabulación
-/// según su profundidad relativa al nodo raíz que proporcionamos en la instancia del constructor LayoutEnumerator.
-/// El rectángulo que procesamos al final representa el área y la ubicación que ocupa la entidad en el documento.
+/// Imprime información sobre la entidad actual de layoutEnumerator en la consola, mientras sangra el texto con caracteres de tabulación
+/// en función de su profundidad relativa al nodo raíz que proporcionamos en la instancia del constructor LayoutEnumerator.
+/// El rectángulo que procesamos al final representa el área y ubicación que ocupa la entidad en el documento.
 /// </summary>
 private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int indent)
 {
@@ -166,7 +166,7 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
         ? $"{tabs}-> Entity type: {layoutEnumerator.Type}"
         : $"{tabs}-> Entity type & kind: {layoutEnumerator.Type}, {layoutEnumerator.Kind}");
 
-    // Solo los intervalos pueden contener texto.
+    // Sólo los intervalos pueden contener texto.
     if (layoutEnumerator.Type == LayoutEntityType.Span)
         Console.WriteLine($"{tabs}   Span contents: \"{layoutEnumerator.Text}\"");
 

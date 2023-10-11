@@ -3,7 +3,7 @@ title: DocumentBuilder.StartTable
 second_title: Aspose.Words för .NET API Referens
 description: DocumentBuilder metod. Startar en tabell i dokumentet.
 type: docs
-weight: 610
+weight: 650
 url: /sv/net/aspose.words/documentbuilder/starttable/
 ---
 ## DocumentBuilder.StartTable method

@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTag.SdtType
 second_title: Aspose.Words für .NET-API-Referenz
-description: StructuredDocumentTag eigendom. Ruft diesen Typ ab Strukturiertes DokumentTag .
+description: StructuredDocumentTag eigendom. Ruft den Typ davon ab Strukturiertes DokumentTag .
 type: docs
 weight: 250
 url: /de/net/aspose.words.markup/structureddocumenttag/sdttype/
 ---
 ## StructuredDocumentTag.SdtType property
 
-Ruft diesen Typ ab **Strukturiertes Dokument-Tag** .
+Ruft den Typ davon ab **Strukturiertes Dokument-Tag** .
 
 ```csharp
 public SdtType SdtType { get; }

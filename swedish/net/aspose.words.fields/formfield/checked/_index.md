@@ -1,14 +1,14 @@
 ---
 title: FormField.Checked
 second_title: Aspose.Words för .NET API Referens
-description: FormField fast egendom. Hämtar eller ställer in den markerade statusen för kryssrutans formulärfält. Standardvärdet för den här egenskapen är falsk .
+description: FormField fast egendom. Hämtar eller ställer in den markerade statusen för kryssrutans formulärfält. Standardvärdet för den här egenskapen ärfalsk .
 type: docs
 weight: 30
 url: /sv/net/aspose.words.fields/formfield/checked/
 ---
 ## FormField.Checked property
 
-Hämtar eller ställer in den markerade statusen för kryssrutans formulärfält. Standardvärdet för den här egenskapen är **falsk** .
+Hämtar eller ställer in den markerade statusen för kryssrutans formulärfält. Standardvärdet för den här egenskapen är`falsk` .
 
 ```csharp
 public bool Checked { get; set; }
@@ -89,7 +89,7 @@ public void Visitor()
 }
 
 /// <summary>
-/// Besöksimplementering som skriver ut detaljer om formulärfält som den besöker. 
+ /// Besöksimplementering som skriver ut detaljer om formulärfält som den besöker.
 /// </summary>
 public class FormFieldVisitor : DocumentVisitor
 {

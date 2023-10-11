@@ -3,7 +3,7 @@ title: CompositeNode.IndexOf
 second_title: Aspose.Words för .NET API Referens
 description: CompositeNode metod. Returnerar indexet för den angivna undernoden i den underordnade nodmatrisen.
 type: docs
-weight: 130
+weight: 140
 url: /sv/net/aspose.words/compositenode/indexof/
 ---
 ## CompositeNode.IndexOf method
@@ -28,7 +28,7 @@ Document doc = new Document(MyDir + "Rendering.docx");
 Body body = doc.FirstSection.Body;
 
 // Hämta indexet för det sista stycket i brödtexten i det första avsnittet.
-Assert.AreEqual(24, body.ChildNodes.IndexOf(body.LastParagraph));
+Assert.AreEqual(24, body.GetChildNodes(NodeType.Any, false).IndexOf(body.LastParagraph));
 ```
 
 ### Se även

@@ -1,14 +1,14 @@
 ---
 title: ImportFormatOptions.MergePastedLists
 second_title: Aspose.Words for .NET API 参考
-description: ImportFormatOptions 财产. 获取或设置一个布尔值指定是否将粘贴的列表与周围的列表合并 默认值为错误的.
+description: ImportFormatOptions 财产. 获取或设置一个布尔值指定粘贴的列表是否与周围的列表合并 默认值为错误的.
 type: docs
-weight: 60
+weight: 70
 url: /zh/net/aspose.words/importformatoptions/mergepastedlists/
 ---
 ## ImportFormatOptions.MergePastedLists property
 
-获取或设置一个布尔值，指定是否将粘贴的列表与周围的列表合并。 默认值为`错误的`.
+获取或设置一个布尔值，指定粘贴的列表是否与周围的列表合并。 默认值为`错误的`.
 
 ```csharp
 public bool MergePastedLists { get; set; }
@@ -16,7 +16,7 @@ public bool MergePastedLists { get; set; }
 
 ### 例子
 
-显示如何合并文档中的列表。
+演示如何合并文档中的列表。
 
 ```csharp
 Document srcDoc = new Document(MyDir + "List item.docx");

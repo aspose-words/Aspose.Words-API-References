@@ -1,14 +1,14 @@
 ---
 title: GlossaryDocument.Accept
 second_title: Aspose.Words for .NET API Referansı
-description: GlossaryDocument yöntem. Bir ziyaretçiyi kabul eder.
+description: GlossaryDocument yöntem. Ziyaretçi kabul eder.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.buildingblocks/glossarydocument/accept/
 ---
 ## GlossaryDocument.Accept method
 
-Bir ziyaretçiyi kabul eder.
+Ziyaretçi kabul eder.
 
 ```csharp
 public override bool Accept(DocumentVisitor visitor)
@@ -20,21 +20,21 @@ public override bool Accept(DocumentVisitor visitor)
 
 ### Geri dönüş değeri
 
-Tüm düğümler ziyaret edildiyse doğrudur; DocumentVisitor tüm düğümleri ziyaret etmeden önce işlemi durdurduysa false.
+Tüm düğümler ziyaret edilmişse doğrudur; yanlış ise[`DocumentVisitor`](../../../aspose.words/documentvisitor/) tüm düğümleri ziyaret etmeden işlemi durdurdu.
 
 ### Notlar
 
-Bu düğüm ve tüm alt öğeleri üzerinde numaralandırır. Her düğüm, DocumentVisitor'da karşılık gelen bir yöntemi çağırır.
+Bu düğümü ve tüm alt öğelerini numaralandırır. Her düğüm kendisine karşılık gelen bir yöntemi çağırır.[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
 
-Daha fazla bilgi için Ziyaretçi tasarım modeline bakın.
+Daha fazla bilgi için Ziyaretçi tasarım desenine bakın.
 
-aramalar[`VisitGlossaryDocumentStart`](../../../aspose.words/documentvisitor/visitglossarydocumentstart/) , sonra arar[`Accept`](../../../aspose.words/node/accept/) Bu düğümün tüm alt düğümleri için ve ardından çağrılar[`VisitGlossaryDocumentEnd`](../../../aspose.words/documentvisitor/visitglossarydocumentend/) sonunda .
+Aramalar[`VisitGlossaryDocumentStart`](../../../aspose.words/documentvisitor/visitglossarydocumentstart/) , ardından arar[`Accept`](../../../aspose.words/node/accept/) Bu düğümün tüm alt düğümleri için ve ardından çağrılar[`VisitGlossaryDocumentEnd`](../../../aspose.words/documentvisitor/visitglossarydocumentend/) sonunda.
 
-Not: a Visitor'u bir[`Document`](../../../aspose.words/document/) . a sözlük belgesi üzerinden bir Ziyaretçi yürütmek istiyorsanız, aramanız gerekir.`Accept` .
+Not: Bir sözlük belgesi düğümü ve onun alt öğeleri, a Visitor'ı bir[`Document`](../../../aspose.words/document/) . Bir Ziyaretçiyi a sözlük belgesi üzerinden yürütmek istiyorsanız,`Accept` .
 
 ### Örnekler
 
-Sözlük belgesindeki yapı taşlarına erişmenin yollarını gösterir.
+Bir sözlük belgesinde yapı taşlarına erişmenin yollarını gösterir.
 
 ```csharp
 public void GlossaryDocument()
@@ -61,24 +61,23 @@ public void GlossaryDocument()
     Assert.AreEqual("Block 2", glossaryDoc.BuildingBlocks[1].Name);
     Assert.AreEqual("Block 3", glossaryDoc.BuildingBlocks.ToArray()[2].Name);
 
-    // 3 - Bir galeri, ad ve kategoriyle eşleşen ilk yapı taşını alın:
+    // 3 - Galeri, ad ve kategoriyle eşleşen ilk yapı taşını alın:
     Assert.AreEqual("Block 4", 
         glossaryDoc.GetBuildingBlock(BuildingBlockGallery.All, "(Empty Category)", "Block 4").Name);
 
     // Bunu özel bir ziyaretçi kullanarak yapacağız,
-    // GlossaryDocument'taki her BuildingBlock'a benzersiz bir GUID verecek
+    // bu, GlossaryDocument'teki her BuildingBlock'a benzersiz bir GUID verecektir
     GlossaryDocVisitor visitor = new GlossaryDocVisitor();
     glossaryDoc.Accept(visitor);
-
     Console.WriteLine(visitor.GetText());
 
-    // Microsoft Word'de yapı taşlarına "Ekle" -> "Hızlı Parçalar" -> "Yapı Taşları Organizatör".
+    // Microsoft Word'de yapı taşlarına "Ekle" --> aracılığıyla erişebiliriz. "Hızlı Parçalar" -> "Yapı Taşları Organizatörü".
     doc.Save(ArtifactsDir + "BuildingBlocks.GlossaryDocument.dotx"); 
 }
 
 /// <summary>
 /// Ziyaret edilen bir sözlük belgesindeki her yapı taşına benzersiz bir GUID verir.
-/// GUID yapı taşı çiftlerini bir sözlükte saklar.
+/// GUID yapı bloğu çiftlerini bir sözlükte saklar.
 /// </summary>
 public class GlossaryDocVisitor : DocumentVisitor
 {

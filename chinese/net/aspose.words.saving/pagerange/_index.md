@@ -1,14 +1,16 @@
 ---
 title: Class PageRange
 second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Saving.PageRange 班级. 表示页面的连续范围
+description: Aspose.Words.Saving.PageRange 班级. 表示连续范围的页面
 type: docs
-weight: 5090
+weight: 5370
 url: /zh/net/aspose.words.saving/pagerange/
 ---
 ## PageRange class
 
-表示页面的连续范围。
+表示连续范围的页面。
+
+要了解更多信息，请访问[使用文档编程](https://docs.aspose.com/words/net/programming-with-documents/)文档文章。
 
 ```csharp
 public sealed class PageRange

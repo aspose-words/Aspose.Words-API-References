@@ -16,7 +16,7 @@ public bool RasterizeTransformedElements { get; set; }
 
 ### Anmärkningar
 
-PCL stöder inte någon form av transformationer som används av Aspose Words. T.ex. roterade, sneda bilder och texturpenslar. För att korrekt rendera sådana element används rasteriseringsprocess, dvs. spara till bild och klippning. Denna process kan ta ytterligare tid och minne. Om flaggan är inställd på`falsk` visst innehåll i utdata kan vara annorlunda jämfört med källdokumentet.
+PCL stöder inte någon form av transformationer som används av Aspose Words. T.ex. roterade, sneda bilder och texturpenslar. För att korrekt rendera sådana element används rasteriseringsprocess, dvs. spara till bild och klippning. Denna process kan ta ytterligare tid och minne. Om flaggan är inställd på`falsk` , visst innehåll i utdata kan vara annorlunda jämfört med källdokumentet.
 
 ### Exempel
 

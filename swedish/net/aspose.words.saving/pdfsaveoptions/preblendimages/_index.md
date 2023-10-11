@@ -3,7 +3,7 @@ title: PdfSaveOptions.PreblendImages
 second_title: Aspose.Words för .NET API Referens
 description: PdfSaveOptions fast egendom. Hämtar eller ställer in ett värde som bestämmer om transparenta bilder ska förblandas med svart bakgrundsfärg.
 type: docs
-weight: 230
+weight: 260
 url: /sv/net/aspose.words.saving/pdfsaveoptions/preblendimages/
 ---
 ## PdfSaveOptions.PreblendImages property

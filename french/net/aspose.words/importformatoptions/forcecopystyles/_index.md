@@ -1,14 +1,14 @@
 ---
 title: ImportFormatOptions.ForceCopyStyles
 second_title: Référence de l'API Aspose.Words pour .NET
-description: ImportFormatOptions propriété. Obtient ou définit une valeur booléenne indiquant soit de copier les styles en conflit dansKeepSourceFormatting mode. La valeur par défaut estfaux .
+description: ImportFormatOptions propriété. Obtient ou définit une valeur booléenne indiquant soit de copier les styles en conflit dansKeepSourceFormatting mode. La valeur par défaut estFAUX .
 type: docs
-weight: 20
+weight: 30
 url: /fr/net/aspose.words/importformatoptions/forcecopystyles/
 ---
 ## ImportFormatOptions.ForceCopyStyles property
 
-Obtient ou définit une valeur booléenne indiquant soit de copier les styles en conflit dansKeepSourceFormatting mode. La valeur par défaut est`faux` .
+Obtient ou définit une valeur booléenne indiquant soit de copier les styles en conflit dansKeepSourceFormatting mode. La valeur par défaut est`FAUX` .
 
 ```csharp
 public bool ForceCopyStyles { get; set; }
@@ -16,11 +16,11 @@ public bool ForceCopyStyles { get; set; }
 
 ### Remarques
 
-Par défaut, si un style correspondant existe déjà dans un document de destination, le style source formatting est développé en attributs de nœud direct et le style de ce nœud est réinitialisé à une valeur par défaut.
+Par défaut, si un style correspondant existe déjà dans un document de destination, le style source formatting est développé en attributs de nœud direct et le style de ce nœud est réinitialisé par défaut.
 
 Lorsque cette option est définie sur`vrai`, le style source sera copié de force dans le document de destination avec un nom unique et appliqué au nœud importé.
 
-Notez que dans ce cas, il n'est pas garanti que la mise en forme du nœud importé dans le document de destination sera préservée.
+Notez que dans ce cas, il n'est pas garanti que le formatage du nœud importé dans la destination document sera préservé.
 
 ### Exemples
 

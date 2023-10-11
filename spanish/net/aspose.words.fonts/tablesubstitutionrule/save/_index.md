@@ -1,14 +1,14 @@
 ---
 title: TableSubstitutionRule.Save
 second_title: Referencia de API de Aspose.Words para .NET
-description: TableSubstitutionRule método. Guarda la configuración actual de sustitución de tablas en el archivo.
+description: TableSubstitutionRule método. Guarda la configuración de sustitución de tabla actual en un archivo.
 type: docs
 weight: 70
 url: /es/net/aspose.words.fonts/tablesubstitutionrule/save/
 ---
 ## Save(string) {#save_1}
 
-Guarda la configuración actual de sustitución de tablas en el archivo.
+Guarda la configuración de sustitución de tabla actual en un archivo.
 
 ```csharp
 public void Save(string fileName)
@@ -40,13 +40,13 @@ tableSubstitutionRule.Save(ArtifactsDir + "FontSettings.TableSubstitutionRule.Wi
 
 // Linux tiene su propia tabla de sustitución.
 // Hay varias fuentes sustitutas para "Times New Roman CE".
-// Si el primer sustituto, "FreeSerif" tampoco está disponible,
-// esta regla recorrerá las demás en la matriz hasta que encuentre una disponible.
+// Si el primer sustituto, "FreeSerif", tampoco está disponible,
+// esta regla recorrerá las demás en la matriz hasta encontrar una disponible.
 tableSubstitutionRule.LoadLinuxSettings();
 Assert.AreEqual(new[] {"FreeSerif", "Liberation Serif", "DejaVu Serif"},
     tableSubstitutionRule.GetSubstitutes("Times New Roman CE").ToArray());
 
-// Guarde la tabla de sustitución de Linux en forma de documento XML mediante un flujo.
+// Guarde la tabla de sustitución de Linux en forma de documento XML mediante una secuencia.
 using (FileStream fileStream = new FileStream(ArtifactsDir + "FontSettings.TableSubstitutionRule.Linux.xml",
     FileMode.Create))
 {
@@ -64,7 +64,7 @@ using (FileStream fileStream = new FileStream(ArtifactsDir + "FontSettings.Table
 
 ## Save(Stream) {#save}
 
-Guarda la configuración actual de sustitución de tablas en stream.
+Guarda la configuración de sustitución de tabla actual en la secuencia.
 
 ```csharp
 public void Save(Stream outputStream)
@@ -72,7 +72,7 @@ public void Save(Stream outputStream)
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| outputStream | Stream | Salida de corriente. |
+| outputStream | Stream | Flujo de salida. |
 
 ### Ejemplos
 
@@ -96,13 +96,13 @@ tableSubstitutionRule.Save(ArtifactsDir + "FontSettings.TableSubstitutionRule.Wi
 
 // Linux tiene su propia tabla de sustitución.
 // Hay varias fuentes sustitutas para "Times New Roman CE".
-// Si el primer sustituto, "FreeSerif" tampoco está disponible,
-// esta regla recorrerá las demás en la matriz hasta que encuentre una disponible.
+// Si el primer sustituto, "FreeSerif", tampoco está disponible,
+// esta regla recorrerá las demás en la matriz hasta encontrar una disponible.
 tableSubstitutionRule.LoadLinuxSettings();
 Assert.AreEqual(new[] {"FreeSerif", "Liberation Serif", "DejaVu Serif"},
     tableSubstitutionRule.GetSubstitutes("Times New Roman CE").ToArray());
 
-// Guarde la tabla de sustitución de Linux en forma de documento XML mediante un flujo.
+// Guarde la tabla de sustitución de Linux en forma de documento XML mediante una secuencia.
 using (FileStream fileStream = new FileStream(ArtifactsDir + "FontSettings.TableSubstitutionRule.Linux.xml",
     FileMode.Create))
 {

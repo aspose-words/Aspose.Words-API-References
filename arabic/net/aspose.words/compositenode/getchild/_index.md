@@ -1,14 +1,14 @@
 ---
 title: CompositeNode.GetChild
 second_title: Aspose.Words لمراجع .NET API
-description: CompositeNode طريقة. إرجاع العقدة الفرعية رقم N التي تطابق النوع المحدد.
+description: CompositeNode طريقة. إرجاع العقدة الفرعية N التي تطابق النوع المحدد.
 type: docs
-weight: 90
+weight: 100
 url: /ar/net/aspose.words/compositenode/getchild/
 ---
 ## CompositeNode.GetChild method
 
-إرجاع العقدة الفرعية رقم N التي تطابق النوع المحدد.
+إرجاع العقدة الفرعية N التي تطابق النوع المحدد.
 
 ```csharp
 public Node GetChild(NodeType nodeType, int index, bool isDeep)
@@ -17,18 +17,18 @@ public Node GetChild(NodeType nodeType, int index, bool isDeep)
 | معامل | يكتب | وصف |
 | --- | --- | --- |
 | nodeType | NodeType | يحدد نوع العقدة الفرعية. |
-| index | Int32 | الفهرس الصفري للعقدة الفرعية المراد تحديدها. يُسمح أيضًا بالفهارس السلبية وتشير إلى الوصول من النهاية ، أي -1 يعني العقدة الأخيرة. |
-| isDeep | Boolean | صحيح أن التحديد من جميع العقد الفرعية بشكل متكرر . خطأ للتحديد بين الأطفال المباشرين فقط. انظر الملاحظات لمزيد من المعلومات. |
+| index | Int32 | الفهرس الصفري للعقدة الفرعية المراد تحديده. يُسمح أيضًا بالفهارس السالبة وتشير إلى الوصول من النهاية، الذي يعني -1 العقدة الأخيرة. |
+| isDeep | Boolean | `حقيقي` للاختيار من بين جميع العقد الفرعية بشكل متكرر؛ `خطأ شنيع`للاختيار فقط بين الأطفال المباشرين. انظر الملاحظات لمزيد من المعلومات. |
 
 ### قيمة الإرجاع
 
-العقدة الفرعية التي تطابق المعايير أو فارغة إذا لم يتم العثور على عقدة مطابقة.
+العقدة الفرعية التي تطابق المعايير أو`باطل` إذا لم يتم العثور على عقدة مطابقة.
 
 ### ملاحظات
 
-إذا كان الفهرس خارج النطاق ، يتم إرجاع قيمة فارغة.
+إذا كان الفهرس خارج النطاق، أ`باطل` يتم إرجاع.
 
-لاحظ أن عُقد الترميز (StructuredDocumentTag وSmartTag) يتم اجتيازها حتى عندما تكون قيمة isDeep = false ويتم استدعاء GetChild لنوع العقدة غير المميزة. على سبيل المثال ، إذا تم التفاف التشغيل الأول في الفقرة في StructuredDocumentTag ، فسيظل يتم إرجاعه بواسطة GetChild (NodeType.Run، 0، false).
+لاحظ أن العقد الترميزية (StructuredDocumentTag وSmartTag ) يتم اجتيازها حتى عندما*isDeep* =`خطأ شنيع` و`GetChild` يتم استدعاؤه لنوع العقدة غير الترميزية. على سبيل المثال، إذا تم تغليف التشغيل الأول في para بملف a[`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/) ، سيتم إعادته بواسطة`GetChild`(Run , 0,`خطأ شنيع`).
 
 ### أمثلة
 
@@ -58,30 +58,30 @@ doc.ExpandTableStylesToDirectFormatting();
 doc.Save(ArtifactsDir + "Document.TableStyleToDirectFormatting.docx");
 ```
 
-يوضح كيفية اجتياز مجموعة العقد المركبة الخاصة بالعقد الفرعية.
+يوضح كيفية اجتياز مجموعة العقد الفرعية للعقدة المركبة.
 
 ```csharp
 Document doc = new Document();
 
-// أضف شريطين وشكل واحد كعقد فرعية إلى الفقرة الأولى من هذا المستند.
+// أضف مسارين وشكلًا واحدًا كعقد فرعية إلى الفقرة الأولى من هذه الوثيقة.
 Paragraph paragraph = (Paragraph)doc.GetChild(NodeType.Paragraph, 0, true);
 paragraph.AppendChild(new Run(doc, "Hello world! "));
 
 Shape shape = new Shape(doc, ShapeType.Rectangle);
 shape.Width = 200;
 shape.Height = 200;
-// لاحظ أن "CustomNodeId" لا يتم حفظه في ملف الإخراج ولا يوجد إلا أثناء عمر العقدة.
+// لاحظ أن "CustomNodeId" لا يتم حفظه في ملف إخراج وهو موجود فقط أثناء عمر العقدة.
 shape.CustomNodeId = 100;
 shape.WrapType = WrapType.Inline;
 paragraph.AppendChild(shape);
 
 paragraph.AppendChild(new Run(doc, "Hello again!"));
 
-// كرر من خلال مجموعة الفقرة للأطفال المباشرين ،
-// وطباعة أي أشكال أو أشكال نجدها بالداخل.
-NodeCollection children = paragraph.ChildNodes;
+// كرر من خلال مجموعة الفقرة من العناصر الفرعية المباشرة،
+// وطباعة أي مسارات أو أشكال نجدها داخلها.
+NodeCollection children = paragraph.GetChildNodes(NodeType.Any, false);
 
-Assert.AreEqual(3, paragraph.ChildNodes.Count);
+Assert.AreEqual(3, paragraph.GetChildNodes(NodeType.Any, false).Count);
 
 foreach (Node child in children)
     switch (child.NodeType)
@@ -94,6 +94,7 @@ foreach (Node child in children)
             Shape childShape = (Shape)child;
             Console.WriteLine("Shape:");
             Console.WriteLine($"\t{childShape.ShapeType}, {childShape.Width}x{childShape.Height}");
+            break;
     }
 ```
 

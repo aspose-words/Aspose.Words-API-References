@@ -1,14 +1,14 @@
 ---
 title: SaveOptions.ExportGeneratorName
 second_title: Aspose.Words för .NET API Referens
-description: SaveOptions fast egendom. När sant gör att namnet och versionen av Aspose.Words bäddas in i producerade filer. Standardvärdet är Sann .
+description: SaveOptions fast egendom. NärSann  gör att namnet och versionen av Aspose.Words bäddas in i producerade filer. Standardvärdet ärSann .
 type: docs
 weight: 80
 url: /sv/net/aspose.words.saving/saveoptions/exportgeneratorname/
 ---
 ## SaveOptions.ExportGeneratorName property
 
-När sant, gör att namnet och versionen av Aspose.Words bäddas in i producerade filer. Standardvärdet är **Sann** .
+När`Sann` , gör att namnet och versionen av Aspose.Words bäddas in i producerade filer. Standardvärdet är`Sann` .
 
 ```csharp
 public bool ExportGeneratorName { get; set; }

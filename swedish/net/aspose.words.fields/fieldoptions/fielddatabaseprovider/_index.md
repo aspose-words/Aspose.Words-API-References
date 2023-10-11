@@ -3,7 +3,7 @@ title: FieldOptions.FieldDatabaseProvider
 second_title: Aspose.Words för .NET API Referens
 description: FieldOptions fast egendom. Hämtar eller ställer in en leverantör som returnerar ett frågeresultat förFieldDatabase field.
 type: docs
-weight: 70
+weight: 80
 url: /sv/net/aspose.words.fields/fieldoptions/fielddatabaseprovider/
 ---
 ## FieldOptions.FieldDatabaseProvider property

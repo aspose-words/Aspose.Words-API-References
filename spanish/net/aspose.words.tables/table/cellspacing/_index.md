@@ -36,15 +36,15 @@ builder.EndTable();
 
 table.CellSpacing = 3;
 
-// Establecer la propiedad "AllowCellSpacing" en "true" para habilitar el espacio entre celdas
+// Establece la propiedad "AllowCellSpacing" en "true" para habilitar el espacio entre celdas
 // con una magnitud igual al valor de la propiedad "CellSpacing", en puntos.
-// Establecer la propiedad "AllowCellSpacing" en "falso" para deshabilitar el espacio entre celdas
+// Establece la propiedad "AllowCellSpacing" en "false" para deshabilitar el espaciado de celdas
 // e ignorar el valor de la propiedad "CellSpacing".
 table.AllowCellSpacing = allowCellSpacing;
 
 doc.Save(ArtifactsDir + "Table.AllowCellSpacing.html");
 
-// Ajustar la propiedad "CellSpacing" habilitará automáticamente el espacio entre celdas.
+// Ajustar la propiedad "CellSpacing" habilitará automáticamente el espaciado de celdas.
 table.CellSpacing = 5;
 
 Assert.True(table.AllowCellSpacing);
@@ -81,7 +81,7 @@ tableStyle.VerticalAlignment = CellVerticalAlignment.Center;
 
 table.Style = tableStyle;
 
-// Establecer las propiedades de estilo de una tabla puede afectar las propiedades de la propia tabla.
+// Establecer las propiedades de estilo de una tabla puede afectar las propiedades de la tabla misma.
 Assert.True(table.Bidi);
 Assert.AreEqual(5.0d, table.CellSpacing);
 Assert.AreEqual("MyTableStyle1", table.StyleName);

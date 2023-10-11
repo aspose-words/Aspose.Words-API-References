@@ -1,12 +1,14 @@
 ---
 title: Class Cluster
 second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Shaping.Cluster klas. 
+description: Aspose.Words.Shaping.Cluster klas. Kapselt Codepunkte und Glyphen die ein Graphem bilden.
 type: docs
-weight: 5710
+weight: 6010
 url: /de/net/aspose.words.shaping/cluster/
 ---
 ## Cluster class
+
+Kapselt Codepunkte und Glyphen, die ein Graphem bilden.
 
 ```csharp
 public class Cluster
@@ -16,24 +18,24 @@ public class Cluster
 
 | Name | Beschreibung |
 | --- | --- |
-| [Cluster](cluster/)(int[], Glyph[]) |  |
+| [Cluster](cluster/)(int[], Glyph[]) | Initialisiert eine neue Instanz dieser Klasse. |
 
 ## Eigenschaften
 
 | Name | Beschreibung |
 | --- | --- |
-| [Codepoints](../../aspose.words.shaping/cluster/codepoints/) { get; } |  |
-| [CodepointsLength](../../aspose.words.shaping/cluster/codepointslength/) { get; } |  |
-| [Glyphs](../../aspose.words.shaping/cluster/glyphs/) { get; } |  |
+| [Codepoints](../../aspose.words.shaping/cluster/codepoints/) { get; } | Ruft Codepunkte des Clusters ab. |
+| [CodepointsLength](../../aspose.words.shaping/cluster/codepointslength/) { get; } | Ruft die Gesamtzahl der Codepunkte im ab`Cluster` . |
+| [Glyphs](../../aspose.words.shaping/cluster/glyphs/) { get; } | Ruft Glyphen des Clusters ab. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [DeepClone](../../aspose.words.shaping/cluster/deepclone/)() |  |
-| [GetString](../../aspose.words.shaping/cluster/getstring/)() |  |
-| [GetWidth](../../aspose.words.shaping/cluster/getwidth/)(int, float) |  |
-| static [GetString](../../aspose.words.shaping/cluster/getstring/)(Cluster[]) |  |
+| [DeepClone](../../aspose.words.shaping/cluster/deepclone/)() | Gibt einen tiefen Klon dieser Instanz zurück. |
+| [GetString](../../aspose.words.shaping/cluster/getstring/)() | ErstelltString Verwenden von Codepunkten aus diesem Cluster. |
+| [GetWidth](../../aspose.words.shaping/cluster/getwidth/)(int, float) | Gibt die Breite des Clusters zurück. |
+| static [GetString](../../aspose.words.shaping/cluster/getstring/)(Cluster[]) | ErstelltString Verwenden von Codepunkten aus den angegebenen Clustern. |
 
 ### Siehe auch
 

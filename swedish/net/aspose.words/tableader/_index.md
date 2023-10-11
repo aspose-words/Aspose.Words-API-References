@@ -3,7 +3,7 @@ title: Enum TabLeader
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.TabLeader uppräkning. Anger typen av ledarraden som visas under tabbtecknet.
 type: docs
-weight: 5890
+weight: 6190
 url: /sv/net/aspose.words/tableader/
 ---
 ## TabLeader enumeration

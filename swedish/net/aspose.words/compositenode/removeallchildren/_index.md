@@ -3,7 +3,7 @@ title: CompositeNode.RemoveAllChildren
 second_title: Aspose.Words för .NET API Referens
 description: CompositeNode metod. Tar bort alla undernoder för den aktuella noden.
 type: docs
-weight: 170
+weight: 180
 url: /sv/net/aspose.words/compositenode/removeallchildren/
 ---
 ## CompositeNode.RemoveAllChildren method

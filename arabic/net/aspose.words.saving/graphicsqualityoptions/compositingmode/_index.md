@@ -16,7 +16,7 @@ public CompositingMode? CompositingMode { get; set; }
 
 ### أمثلة
 
-يوضح كيفية تعيين خيارات جودة العرض أثناء تحويل المستندات إلى تنسيقات صور.
+يوضح كيفية تعيين خيارات جودة العرض أثناء تحويل المستندات إلى تنسيقات الصور.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

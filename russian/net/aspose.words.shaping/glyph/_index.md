@@ -1,12 +1,14 @@
 ---
 title: Class Glyph
 second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Shaping.Glyph сорт. 
+description: Aspose.Words.Shaping.Glyph сорт. Представляет собой глиф .
 type: docs
-weight: 5740
+weight: 6040
 url: /ru/net/aspose.words.shaping/glyph/
 ---
 ## Glyph class
+
+Представляет собой глиф .
 
 ```csharp
 public class Glyph
@@ -16,23 +18,23 @@ public class Glyph
 
 | Имя | Описание |
 | --- | --- |
-| [Glyph](glyph/)(int, short, short, short) |  |
+| [Glyph](glyph/)(int, short, short, short) | Инициализирует новый экземпляр этого класса. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Advance](../../aspose.words.shaping/glyph/advance/) { get; set; } |  |
-| [AdvanceOffset](../../aspose.words.shaping/glyph/advanceoffset/) { get; } |  |
-| [AscenderOffset](../../aspose.words.shaping/glyph/ascenderoffset/) { get; } |  |
-| [GlyphIndex](../../aspose.words.shaping/glyph/glyphindex/) { get; } |  |
+| [Advance](../../aspose.words.shaping/glyph/advance/) { get; set; } | Расширенная ширина, указывающая размещение последующего глифа. |
+| [AdvanceOffset](../../aspose.words.shaping/glyph/advanceoffset/) { get; } | Смещение по горизонтали (x) относительно положения глифа. Чаще всего используется для прикрепления знаков (например, диакритических знаков) к базовым символам. |
+| [AscenderOffset](../../aspose.words.shaping/glyph/ascenderoffset/) { get; } | Смещение по вертикали (y) относительно положения глифа. Чаще всего используется для прикрепления знаков (например, диакритических знаков) к базовым символам. |
+| [GlyphIndex](../../aspose.words.shaping/glyph/glyphindex/) { get; } | Индекс глифа (GID) в физическом шрифте. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [Clone](../../aspose.words.shaping/glyph/clone/)() |  |
-| virtual [GetWidth](../../aspose.words.shaping/glyph/getwidth/)(int, float) |  |
+| virtual [Clone](../../aspose.words.shaping/glyph/clone/)() | Возвращает клон этого экземпляра. |
+| virtual [GetWidth](../../aspose.words.shaping/glyph/getwidth/)(int, float) | Возвращает ширину (прогресс) глифа в пунктах. |
 
 ### Смотрите также
 

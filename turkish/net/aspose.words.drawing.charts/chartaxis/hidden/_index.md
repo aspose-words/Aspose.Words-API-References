@@ -1,14 +1,14 @@
 ---
 title: ChartAxis.Hidden
 second_title: Aspose.Words for .NET API Referansı
-description: ChartAxis mülk. Bu eksenin gizli olup olmadığını gösteren bir bayrak alır veya ayarlar.
+description: ChartAxis mülk. Bu eksenin gizli olup olmadığını belirten bir bayrağı alır veya ayarlar.
 type: docs
-weight: 80
+weight: 100
 url: /tr/net/aspose.words.drawing.charts/chartaxis/hidden/
 ---
 ## ChartAxis.Hidden property
 
-Bu eksenin gizli olup olmadığını gösteren bir bayrak alır veya ayarlar.
+Bu eksenin gizli olup olmadığını belirten bir bayrağı alır veya ayarlar.
 
 ```csharp
 public bool Hidden { get; set; }
@@ -16,7 +16,7 @@ public bool Hidden { get; set; }
 
 ### Notlar
 
-Varsayılan değer **yanlış** .
+Varsayılan değer:`YANLIŞ` .
 
 ### Örnekler
 
@@ -32,7 +32,7 @@ Chart chart = shape.Chart;
 // Temiz bir grafikle başlamak için grafiğin demo veri serisini temizleyin.
 chart.Series.Clear();
 
-// X ekseni için kategoriler ve Y ekseni için ilgili ondalık değerler içeren özel bir seri ekleyin.
+// X ekseni için kategorileri ve Y ekseni için ilgili ondalık değerleri içeren özel bir seri ekleyin.
 chart.Series.Add("AW Series 1",
     new[] { "Item 1", "Item 2", "Item 3", "Item 4", "Item 5" },
     new[] { 1.2, 0.3, 2.1, 2.9, 4.2 });

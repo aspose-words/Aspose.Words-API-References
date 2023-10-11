@@ -1,14 +1,14 @@
 ---
 title: RevisionOptions.ShowRevisionBars
 second_title: Aspose.Words for .NET API Referansı
-description: RevisionOptions mülk. Düzeltme çubuklarının gözden geçirilmiş içerik içeren satırların yakınında oluşturulup oluşturulmayacağını belirlemeye izin verir. Varsayılan değer Truedur.
+description: RevisionOptions mülk. Revizyon çubuklarının revize edilmiş içeriği içeren satırların yakınında oluşturulup oluşturulmayacağını belirlemeye izin verir. Varsayılan değerdoğru .
 type: docs
 weight: 180
 url: /tr/net/aspose.words.layout/revisionoptions/showrevisionbars/
 ---
 ## RevisionOptions.ShowRevisionBars property
 
-Düzeltme çubuklarının, gözden geçirilmiş içerik içeren satırların yakınında oluşturulup oluşturulmayacağını belirlemeye izin verir. Varsayılan değer True'dur.
+Revizyon çubuklarının revize edilmiş içeriği içeren satırların yakınında oluşturulup oluşturulmayacağını belirlemeye izin verir. Varsayılan değer:`doğru` .
 
 ```csharp
 public bool ShowRevisionBars { get; set; }
@@ -16,7 +16,7 @@ public bool ShowRevisionBars { get; set; }
 
 ### Örnekler
 
-İşlenmiş bir çıktı belgesindeki revizyonların görünümünün nasıl değiştirileceğini gösterir.
+İşlenmiş bir çıktı belgesindeki düzeltmelerin görünümünün nasıl değiştirileceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -29,7 +29,7 @@ builder.Writeln("This is a revision.");
 doc.StopTrackRevisions();
 builder.Writeln("This is not a revision.");
 
-// Revize edilen her satırın solunda görünen çubuğu kaldırın.
+// Düzenlenen her satırın solunda görünen çubuğu kaldırın.
 doc.LayoutOptions.RevisionOptions.InsertedTextColor = RevisionColor.BrightGreen;
 doc.LayoutOptions.RevisionOptions.ShowRevisionBars = false;
 

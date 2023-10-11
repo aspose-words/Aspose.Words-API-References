@@ -24,7 +24,7 @@ La gerarchia viene restituita sotto forma di[`MailMergeRegionInfo`](../../mailme
 
 ### Esempi
 
-Mostra come verificare le aree di stampa unione.
+Mostra come verificare le regioni di stampa unione.
 
 ```csharp
 Document doc = new Document(MyDir + "Mail merge regions.docx");
@@ -41,7 +41,7 @@ Assert.AreEqual("Region2", topRegions[1].Name);
 Assert.AreEqual(1, topRegions[0].Level);
 Assert.AreEqual(1, topRegions[1].Level);
 
-// Ottieni la regione nidificata nella prima regione in alto.
+// Ottieni la regione nidificata nella prima regione superiore.
 IList<MailMergeRegionInfo> nestedRegions = topRegions[0].Regions;
 
 Assert.AreEqual(2, nestedRegions.Count);
@@ -50,7 +50,7 @@ Assert.AreEqual("NestedRegion2", nestedRegions[1].Name);
 Assert.AreEqual(2, nestedRegions[0].Level);
 Assert.AreEqual(2, nestedRegions[1].Level);
 
-// Ottieni l'elenco dei campi all'interno della prima regione in alto.
+// Ottiene l'elenco dei campi all'interno della prima regione superiore.
 IList<Field> fieldList = topRegions[0].Fields;
 
 Assert.AreEqual(4, fieldList.Count);

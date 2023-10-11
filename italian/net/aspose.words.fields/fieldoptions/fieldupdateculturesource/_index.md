@@ -1,14 +1,14 @@
 ---
 title: FieldOptions.FieldUpdateCultureSource
 second_title: Aspose.Words per .NET API Reference
-description: FieldOptions proprietà. Specifica quali impostazioni cultura utilizzare per formattare il risultato del campo.
+description: FieldOptions proprietà. Specifica le impostazioni cultura da utilizzare per formattare il risultato del campo.
 type: docs
-weight: 100
+weight: 110
 url: /it/net/aspose.words.fields/fieldoptions/fieldupdateculturesource/
 ---
 ## FieldOptions.FieldUpdateCultureSource property
 
-Specifica quali impostazioni cultura utilizzare per formattare il risultato del campo.
+Specifica le impostazioni cultura da utilizzare per formattare il risultato del campo.
 
 ```csharp
 public FieldUpdateCultureSource FieldUpdateCultureSource { get; set; }
@@ -16,39 +16,39 @@ public FieldUpdateCultureSource FieldUpdateCultureSource { get; set; }
 
 ### Osservazioni
 
-Per impostazione predefinita, vengono utilizzate le impostazioni cultura del thread corrente.
+Per impostazione predefinita, viene utilizzata la lingua del thread corrente.
 
-L'impostazione riguarda solo i campi di data/ora con cambio di formato \\@.
+L'impostazione influisce solo sui campi data/ora con cambio formato \\@.
 
 ### Esempi
 
-Mostra come specificare l'origine delle impostazioni cultura utilizzate per la formattazione della data durante un aggiornamento del campo o la stampa unione.
+Mostra come specificare l'origine delle impostazioni cultura utilizzate per la formattazione della data durante un aggiornamento di campo o una stampa unione.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Inserisce due campi di unione con la lingua tedesca.
+// Inserisci due campi di unione con la locale tedesca.
 builder.Font.LocaleId = new CultureInfo("de-DE").LCID;
 builder.InsertField("MERGEFIELD Date1 \\@ \"dddd, d MMMM yyyy\"");
 builder.Write(" - ");
 builder.InsertField("MERGEFIELD Date2 \\@ \"dddd, d MMMM yyyy\"");
 
-// Imposta le impostazioni cultura correnti sull'inglese americano dopo aver conservato il suo valore originale in una variabile.
+// Imposta la lingua corrente sull'inglese americano dopo aver preservato il valore originale in una variabile.
 CultureInfo currentCulture = Thread.CurrentThread.CurrentCulture;
 Thread.CurrentThread.CurrentCulture = new CultureInfo("en-US");
 
-// Questa unione utilizzerà le impostazioni cultura del thread corrente per formattare la data, in inglese americano.
+// Questa unione utilizzerà la lingua del thread corrente per formattare la data, inglese americano.
 doc.MailMerge.Execute(new[] { "Date1" }, new object[] { new DateTime(2020, 1, 01) });
 
-// Configura l'unione successiva per ottenere il valore delle impostazioni cultura dal codice del campo. Il valore di quella cultura sarà tedesco.
+// Configura la successiva unione per ricavare il valore della lingua dal codice di campo. Il valore di quella cultura sarà tedesco.
 doc.FieldOptions.FieldUpdateCultureSource = FieldUpdateCultureSource.FieldCode;
 doc.MailMerge.Execute(new[] { "Date2" }, new object[] { new DateTime(2020, 1, 01) });
 
-// Il primo risultato di unione contiene una data formattata in inglese, mentre il secondo è in tedesco.
+// Il primo risultato dell'unione contiene una data formattata in inglese, mentre il secondo è in tedesco.
 Assert.AreEqual("Wednesday, 1 January 2020 - Mittwoch, 1 Januar 2020", doc.Range.Text.Trim());
 
-// Ripristina le impostazioni cultura originali del thread.
+// Ripristina la lingua originale del thread.
 Thread.CurrentThread.CurrentCulture = currentCulture;
 ```
 

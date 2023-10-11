@@ -3,12 +3,14 @@ title: Class PlainTextDocument
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.PlainTextDocument klass. Tillåter att extrahera ren textrepresentation av dokumentets innehåll.
 type: docs
-weight: 4190
+weight: 4440
 url: /sv/net/aspose.words/plaintextdocument/
 ---
 ## PlainTextDocument class
 
 Tillåter att extrahera ren textrepresentation av dokumentets innehåll.
+
+För att lära dig mer, besök[Arbeta med textdokument](https://docs.aspose.com/words/net/working-with-text-document/) dokumentationsartikel.
 
 ```csharp
 public class PlainTextDocument

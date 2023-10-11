@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTagRangeStart.LockContents
 second_title: Aspose.Words for .NET API Referansı
-description: StructuredDocumentTagRangeStart mülk. true olarak ayarlandığında bu özellik bir kullanıcının bu yapılandırılmış belge etiketinin içeriğini düzenlemesini engeller.
+description: StructuredDocumentTagRangeStart mülk. Olarak ayarlandığındadoğru  bu özellik kullanıcının bu yapılandırılmış belge etiketinin içeriğini düzenlemesini yasaklar.
 type: docs
 weight: 90
 url: /tr/net/aspose.words.markup/structureddocumenttagrangestart/lockcontents/
 ---
 ## StructuredDocumentTagRangeStart.LockContents property
 
-true olarak ayarlandığında, bu özellik bir kullanıcının bu yapılandırılmış belge etiketinin içeriğini düzenlemesini engeller.
+Olarak ayarlandığında`doğru` , bu özellik kullanıcının bu yapılandırılmış belge etiketinin içeriğini düzenlemesini yasaklar.
 
 ```csharp
 public bool LockContents { get; set; }

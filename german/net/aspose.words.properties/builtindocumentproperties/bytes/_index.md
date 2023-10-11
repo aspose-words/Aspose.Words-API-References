@@ -22,7 +22,7 @@ Aspose.Words aktualisiert diese Eigenschaft nicht.
 
 ### Beispiele
 
-Zeigt, wie Sie mit Dokumenteigenschaften in der Kategorie "Inhalt" arbeiten.
+Zeigt, wie mit Dokumenteigenschaften in der Kategorie „Inhalt“ gearbeitet wird.
 
 ```csharp
 public void Content()
@@ -30,51 +30,51 @@ public void Content()
     Document doc = new Document(MyDir + "Paragraphs.docx");
     BuiltInDocumentProperties properties = doc.BuiltInDocumentProperties;
 
-    // Durch die Verwendung eingebauter Eigenschaften,
-    // Wir können Dokumentstatistiken wie Wort-/Seiten-/Zeichenanzahl als Metadaten behandeln, die eingesehen werden können, ohne das Dokument zu öffnen
-    // Auf diese Eigenschaften greifen Sie zu, indem Sie im Windows Explorer mit der rechten Maustaste auf die Datei klicken und zu Eigenschaften > Einzelheiten > Inhalt
-    // Wenn wir diese Daten innerhalb des Dokuments anzeigen möchten, können wir Felder wie NUMPAGES, NUMWORDS, NUMCHARS usw. verwenden.
-    // Diese Werte können auch in Microsoft Word angezeigt werden, indem Sie zu Datei > Eigenschaften > Erweiterte Eigenschaften > Statistiken
-    // Seitenzahl: Die Eigenschaft PageCount zeigt die Seitenzahl in Echtzeit an und ihr Wert kann der Eigenschaft Pages zugewiesen werden
+    // Durch die Verwendung integrierter Eigenschaften,
+    // Wir können Dokumentstatistiken wie Wort-/Seiten-/Zeichenzahlen als Metadaten behandeln, die einen Blick darauf werfen können, ohne das Dokument zu öffnen
+    // Auf diese Eigenschaften können Sie zugreifen, indem Sie im Windows Explorer mit der rechten Maustaste auf die Datei klicken und zu Eigenschaften > navigieren. Details > Inhalt
+    // Wenn wir diese Daten im Dokument anzeigen möchten, können wir Felder wie NUMPAGES, NUMWORDS, NUMCHARS usw. verwenden.
+    // Außerdem können diese Werte auch in Microsoft Word angezeigt werden, indem Sie zu Datei > navigieren. Eigenschaften > Erweiterte Eigenschaften > Statistiken
+    // Seitenanzahl: Die PageCount-Eigenschaft zeigt die Seitenanzahl in Echtzeit an und ihr Wert kann der Pages-Eigenschaft zugewiesen werden
 
-    // Die Eigenschaft "Pages" speichert die Seitenanzahl des Dokuments. 
+     // Die Eigenschaft „Pages“ speichert die Seitenzahl des Dokuments.
     Assert.AreEqual(6, properties.Pages);
 
-    // Die integrierten Eigenschaften "Wörter", "Zeichen" und "ZeichenMitLeerzeichen" zeigen auch verschiedene Dokumentstatistiken an,
-    // aber wir müssen die "UpdateWordCount"-Methode für das gesamte Dokument aufrufen, bevor wir erwarten können, dass sie genaue Werte enthalten.
+    // Die integrierten Eigenschaften „Words“, „Characters“ und „CharactersWithSpaces“ zeigen auch verschiedene Dokumentstatistiken an,
+    // aber wir müssen die Methode „UpdateWordCount“ für das gesamte Dokument aufrufen, bevor wir erwarten können, dass sie genaue Werte enthalten.
     doc.UpdateWordCount();
 
     Assert.AreEqual(1035, properties.Words);
     Assert.AreEqual(6026, properties.Characters);
     Assert.AreEqual(7041, properties.CharactersWithSpaces);
 
-    // Zählen Sie die Anzahl der Zeilen im Dokument und weisen Sie das Ergebnis dann der integrierten Eigenschaft "Lines" zu.
+    // Zählen Sie die Anzahl der Zeilen im Dokument und weisen Sie das Ergebnis dann der integrierten Eigenschaft „Lines“ zu.
     LineCounter lineCounter = new LineCounter(doc);
     properties.Lines = lineCounter.GetLineCount();
 
     Assert.AreEqual(142, properties.Lines);
 
-    // Weisen Sie der eingebauten Eigenschaft "Paragraphs" die Anzahl der Paragraph-Knoten im Dokument zu.
+    // Weisen Sie der integrierten Eigenschaft „Paragraphs“ die Anzahl der Absatzknoten im Dokument zu.
     properties.Paragraphs = doc.GetChildNodes(NodeType.Paragraph, true).Count;
     Assert.AreEqual(29, properties.Paragraphs);
 
-    // Erhalten Sie eine Schätzung der Dateigröße unseres Dokuments über die eingebaute Eigenschaft "Bytes".
+    // Erhalten Sie eine Schätzung der Dateigröße unseres Dokuments über die integrierte Eigenschaft „Bytes“.
     Assert.AreEqual(20310, properties.Bytes);
 
-    // Legen Sie eine andere Vorlage für unser Dokument fest und aktualisieren Sie dann die integrierte Eigenschaft "Vorlage" manuell, um diese Änderung widerzuspiegeln.
+    // Legen Sie eine andere Vorlage für unser Dokument fest und aktualisieren Sie dann die integrierte Eigenschaft „Template“ manuell, um diese Änderung widerzuspiegeln.
     doc.AttachedTemplate = MyDir + "Business brochure.dotx";
 
     Assert.AreEqual("Normal", properties.Template);    
 
     properties.Template = doc.AttachedTemplate;
 
-    // "ContentStatus" ist eine beschreibende eingebaute Eigenschaft.
+    // „ContentStatus“ ist eine beschreibende integrierte Eigenschaft.
     properties.ContentStatus = "Draft";
 
-    // Beim Speichern enthält die integrierte Eigenschaft "ContentType" den MIME-Typ des Ausgabespeicherformats.
+    // Beim Speichern enthält die integrierte Eigenschaft „ContentType“ den MIME-Typ des Ausgabespeicherformats.
     Assert.AreEqual(string.Empty, properties.ContentType);
 
-    // Wenn das Dokument Links enthält und alle aktuell sind, können wir die Eigenschaft "LinksUpToDate" auf "true" setzen.
+    // Wenn das Dokument Links enthält und diese alle aktuell sind, können wir die Eigenschaft „LinksUpToDate“ auf „true“ setzen.
     Assert.False(properties.LinksUpToDate);
 
     doc.Save(ArtifactsDir + "DocumentProperties.Content.docx");
@@ -82,8 +82,8 @@ public void Content()
 
 /// <summary>
 /// Zählt die Zeilen in einem Dokument.
-/// Durchläuft den Layoutentitätsbaum des Dokuments bei der Konstruktion,
-/// Zählen von Entitäten des Typs "Zeile", die auch echten Text enthalten.
+/// Durchläuft den Layout-Entitätsbaum des Dokuments beim Erstellen,
+/// Zählen von Entitäten vom Typ „Linie“, die auch echten Text enthalten.
 /// </summary>
 private class LineCounter
 {

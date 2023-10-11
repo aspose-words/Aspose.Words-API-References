@@ -1,14 +1,16 @@
 ---
 title: Class MergeFieldImageDimension
 second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Fields.MergeFieldImageDimension klas. Stellt eine Bildabmessung dh die Breite oder Höhe dar die in einem Seriendruckprozess verwendet wird.
+description: Aspose.Words.Fields.MergeFieldImageDimension klas. Stellt eine Bilddimension d. h. die Breite oder Höhe dar die in einem Serienbriefprozess verwendet wird.
 type: docs
-weight: 2570
+weight: 2750
 url: /de/net/aspose.words.fields/mergefieldimagedimension/
 ---
 ## MergeFieldImageDimension class
 
-Stellt eine Bildabmessung (dh die Breite oder Höhe) dar, die in einem Seriendruckprozess verwendet wird.
+Stellt eine Bilddimension (d. h. die Breite oder Höhe) dar, die in einem Serienbriefprozess verwendet wird.
+
+Um mehr zu erfahren, besuchen Sie die[Arbeiten mit Feldern](https://docs.aspose.com/words/net/working-with-fields/) Dokumentationsartikel.
 
 ```csharp
 public class MergeFieldImageDimension
@@ -18,7 +20,7 @@ public class MergeFieldImageDimension
 
 | Name | Beschreibung |
 | --- | --- |
-| [MergeFieldImageDimension](mergefieldimagedimension/#constructor)(double) | Erstellt eine Bildabmessungsinstanz mit dem angegebenen Wert in Punkten. |
+| [MergeFieldImageDimension](mergefieldimagedimension/#constructor)(double) | Erstellt eine Bilddimensionsinstanz mit dem angegebenen Wert in Punkten. |
 | [MergeFieldImageDimension](mergefieldimagedimension/#constructor_1)(double, MergeFieldImageDimensionUnit) | Erstellt eine Bilddimensionsinstanz mit dem angegebenen Wert und der angegebenen Einheit. |
 
 ## Eigenschaften
@@ -30,22 +32,23 @@ public class MergeFieldImageDimension
 
 ### Bemerkungen
 
-Um anzugeben, dass das Bild beim Seriendruck mit seiner ursprünglichen Größe eingefügt werden soll, sollten Sie dem einen negativen Wert zuweisen[`Value`](./value/) Eigentum.
+Um anzugeben, dass das Bild während eines Seriendrucks in seiner ursprünglichen Größe eingefügt werden soll, sollten Sie dem einen negativen Wert zuweisen[`Value`](./value/) Eigenschaft.
 
 ### Beispiele
 
 Zeigt, wie die Abmessungen von Bildern festgelegt werden, wenn MERGEFIELDS sie während eines Seriendrucks akzeptiert.
 
 ```csharp
+public void MergeFieldImageDimension()
 {
     Document doc = new Document();
 
-    // Fügen Sie ein MERGEFIELD ein, das Bilder von einer Quelle während eines Seriendrucks akzeptiert. Verwenden Sie den Feldcode zum Verweisen
-    // eine Spalte in der Datenquelle, die lokale Systemdateinamen von Bildern enthält, die wir beim Seriendruck verwenden möchten.
+    // Fügen Sie ein MERGEFIELD ein, das während eines Seriendrucks Bilder von einer Quelle akzeptiert. Verwenden Sie den Feldcode als Referenz
+    // eine Spalte in der Datenquelle, die lokale Systemdateinamen von Bildern enthält, die wir im Serienbrief verwenden möchten.
     DocumentBuilder builder = new DocumentBuilder(doc);
     FieldMergeField field = (FieldMergeField)builder.InsertField("MERGEFIELD Image:ImageColumn");
 
-    // Die Datenquelle sollte eine solche Spalte mit dem Namen "ImageColumn" haben.
+    // Die Datenquelle sollte eine solche Spalte mit dem Namen „ImageColumn“ haben.
     Assert.AreEqual("Image:ImageColumn", field.FieldName);
 
     // Erstellen Sie eine geeignete Datenquelle.
@@ -55,15 +58,16 @@ Zeigt, wie die Abmessungen von Bildern festgelegt werden, wenn MERGEFIELDS sie w
     dataTable.Rows.Add(ImageDir + "Transparent background logo.png");
     dataTable.Rows.Add(ImageDir + "Enhanced Windows MetaFile.emf");
 
-    // Konfigurieren Sie einen Rückruf, um die Größen von Bildern beim Zusammenführen zu ändern, und führen Sie dann den Seriendruck aus.
+    // Konfigurieren Sie einen Rückruf, um die Größe der Bilder beim Zusammenführen zu ändern, und führen Sie dann den Serienbrief aus.
     doc.MailMerge.FieldMergingCallback = new MergedImageResizer(200, 200, MergeFieldImageDimensionUnit.Point);
     doc.MailMerge.Execute(dataTable);
 
     doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.MERGEFIELD.ImageDimension.docx");
+}
 
 /// <summary>
-/// Setzt die Größe aller Serienbilder auf eine definierte Breite und Höhe.
+/// Setzt die Größe aller Serienbriefbilder auf eine definierte Breite und Höhe.
 /// </summary>
 private class MergedImageResizer : IFieldMergingCallback
 {

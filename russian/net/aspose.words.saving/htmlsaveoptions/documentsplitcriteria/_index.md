@@ -1,14 +1,14 @@
 ---
 title: HtmlSaveOptions.DocumentSplitCriteria
 second_title: Справочник по API Aspose.Words для .NET
-description: HtmlSaveOptions свойство. Указывает как документ должен быть разделен при сохранении вHtml илиEpub формат. По умолчаниюNone для HTML и HeadingParagraph для EPUB.
+description: HtmlSaveOptions свойство. Указывает как документ должен быть разделен при сохранении вHtml  Epub илиAzw3 формат. По умолчаниюNone для HTML и HeadingParagraph для EPUB и AZW3.
 type: docs
 weight: 80
 url: /ru/net/aspose.words.saving/htmlsaveoptions/documentsplitcriteria/
 ---
 ## HtmlSaveOptions.DocumentSplitCriteria property
 
-Указывает, как документ должен быть разделен при сохранении вHtml илиEpub формат. По умолчаниюNone для HTML и HeadingParagraph для EPUB.
+Указывает, как документ должен быть разделен при сохранении вHtml , Epub илиAzw3 формат. По умолчаниюNone для HTML и HeadingParagraph для EPUB и AZW3.
 
 ```csharp
 public DocumentSplitCriteria DocumentSplitCriteria { get; set; }
@@ -16,9 +16,9 @@ public DocumentSplitCriteria DocumentSplitCriteria { get; set; }
 
 ### Примечания
 
-Обычно вы хотите, чтобы документ был сохранен в HTML как один файл. Но в некоторых случаях предпочтительнее разбить вывод на несколько меньших HTML-страниц. При сохранении в формате HTML эти страницы будут выводиться в отдельные файлы или потоки. При сохранении в формате EPUB они будут включены в соответствующие пакеты.
+Обычно вам нужно сохранить документ в HTML как один файл. Но в некоторых случаях предпочтительнее разделить вывод на несколько небольших HTML-страниц. При сохранении в формате HTML эти страницы будут выводиться в отдельные файлы или потоки. При сохранении в формате EPUB они будут включены в соответствующие пакеты.
 
-Документ нельзя разделить при сохранении в формате MHTML.
+Документ невозможно разделить при сохранении в формате MHTML.
 
 ### Примеры
 
@@ -27,15 +27,15 @@ public DocumentSplitCriteria DocumentSplitCriteria { get; set; }
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// Используйте объект SaveOptions для указания кодировки сохраняемого документа.
+// Используйте объект SaveOptions, чтобы указать кодировку документа, который мы сохраним.
 HtmlSaveOptions saveOptions = new HtmlSaveOptions();
 saveOptions.SaveFormat = SaveFormat.Epub;
 saveOptions.Encoding = Encoding.UTF8;
 
-// По умолчанию выходной документ .epub будет иметь все свое содержимое в одной HTML-части.
-// Критерий разделения позволяет нам разделить документ на несколько частей HTML.
+// По умолчанию выходной документ .epub будет содержать все свое содержимое в одной HTML-части.
+// Критерий разделения позволяет нам сегментировать документ на несколько частей HTML.
 // Мы установим критерии для разделения документа на абзацы заголовков.
-// Это полезно для читателей, которые не могут читать файлы HTML, размер которых превышает определенный.
+// Это полезно для читателей, которые не могут читать HTML-файлы, размер которых превышает определенный размер.
 saveOptions.DocumentSplitCriteria = DocumentSplitCriteria.HeadingParagraph;
 
 // Указываем, что хотим экспортировать свойства документа.

@@ -1,14 +1,14 @@
 ---
 title: MailMerge.ExecuteWithRegionsADO
 second_title: Aspose.Words لمراجع .NET API
-description: MailMerge طريقة. تنفيذ دمج المراسلات من كائن ADO Recordset في المستند مع مناطق دمج المراسلات.
+description: MailMerge طريقة. إجراء دمج البريد من كائن ADO Recordset في المستند باستخدام مناطق دمج البريد.
 type: docs
 weight: 210
 url: /ar/net/aspose.words.mailmerging/mailmerge/executewithregionsado/
 ---
 ## MailMerge.ExecuteWithRegionsADO method
 
-تنفيذ دمج المراسلات من كائن ADO Recordset في المستند مع مناطق دمج المراسلات.
+إجراء دمج البريد من كائن ADO Recordset في المستند باستخدام مناطق دمج البريد.
 
 ```csharp
 public void ExecuteWithRegionsADO(object recordset, string tableName)
@@ -16,14 +16,14 @@ public void ExecuteWithRegionsADO(object recordset, string tableName)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| recordset | Object | مجموعة سجلات ADO أو كائن السجل. |
-| tableName | String | اسم منطقة دمج المراسلات في المستند المراد تعبئتها. |
+| recordset | Object | مجموعة سجلات ADO أو كائن التسجيل. |
+| tableName | String | اسم منطقة دمج المراسلات في المستند المطلوب تعبئته. |
 
 ### ملاحظات
 
-هذه الطريقة مفيدة عندما تنوي استخدام فئات Aspose.Words as COM كائنات من تعليمات برمجية غير مُدارة مثل تطبيق تم إنشاؤه باستخدام ASP أو Visual Basic 6.0.
+تكون هذه الطريقة مفيدة عندما تنوي استخدام فئات Aspose.Words ككائنات COM من تعليمات برمجية غير مُدارة مثل تطبيق تم إنشاؤه باستخدام ASP أو Visual Basic 6.0.
 
-لمزيد من المعلومات ، راجع وصف MailMerge.ExecuteWithRegions (DataTable).
+لمزيد من المعلومات انظر وصف[`ExecuteWithRegions`](../executewithregions/).
 
 ### أمثلة
 
@@ -46,31 +46,31 @@ Doc.MailMerge.ExecuteWithRegionsADO RS, "OrderDetails"
 Doc.Save "Invoice Out VBScript.doc"
 ```
 
-يوضح كيفية تشغيل دمج البريد مع مناطق متعددة ، تم تجميعها باستخدام بيانات من مجموعة بيانات ADO.
+يوضح كيفية تشغيل عملية دمج البريد مع مناطق متعددة، والتي تم تجميعها باستخدام بيانات من مجموعة بيانات ADO.
 
 ```csharp
 public void ExecuteWithRegionsADO()
 {
     Document doc = CreateSourceDocADOMailMergeWithRegions();
 
-    // للعمل مع ADO DataSets ، سنحتاج إلى إضافة مرجع إلى مكتبة كائنات بيانات Microsoft ActiveX ،
-    // الذي تم تضمينه في توزيع .NET والمخزن في "adodb.dll".
+    // للعمل مع ADO DataSets، سنحتاج إلى إضافة مرجع إلى مكتبة كائنات بيانات Microsoft ActiveX،
+    // المضمن في توزيع .NET والمخزن في "adodb.dll".
     ADODB.Connection connection = new ADODB.Connection();
 
-    // إنشاء سلسلة اتصال تشير إلى ملف قاعدة البيانات "Northwind"
+    // قم بإنشاء سلسلة اتصال تشير إلى ملف قاعدة البيانات "Northwind".
     // في نظام الملفات المحلي لدينا وافتح اتصالاً.
-    string connectionString = @"Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" + DatabaseDir + "Northwind.mdb";
+    string connectionString = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=" + DatabaseDir + "Northwind.accdb";
     connection.Open(connectionString);
 
-    // نشر مجموعة البيانات الخاصة بنا عن طريق تشغيل أمر SQL في قاعدة البيانات الخاصة بنا.
+    // قم بملء مجموعة البيانات الخاصة بنا عن طريق تشغيل أمر SQL في قاعدة البيانات الخاصة بنا.
     // يجب أن تتوافق أسماء الأعمدة في جدول النتائج
-    // لقيم MERGEFIELDS التي ستستوعب بياناتنا.
+    // إلى قيم MERGEFIELDS التي ستستوعب بياناتنا.
     string command = "SELECT FirstName, LastName, City FROM Employees";
 
     ADODB.Recordset recordset = new ADODB.Recordset();
     recordset.Open(command, connection);
 
-    // قم بتشغيل دمج البريد في المنطقة الأولى فقط ، وملء MERGEFIELDS ببيانات من مجموعة السجلات.
+    // قم بتشغيل دمج البريد على المنطقة الأولى فقط، مع ملء حقول الدمج الخاصة بها بالبيانات من مجموعة السجلات.
     doc.MailMerge.ExecuteWithRegionsADO(recordset, "MergeRegion1");
 
     // أغلق مجموعة السجلات وأعد فتحها ببيانات من استعلام SQL آخر.
@@ -79,14 +79,15 @@ public void ExecuteWithRegionsADO()
     recordset.Close();
     recordset.Open(command, connection);
 
-    // قم بتشغيل دمج بريد ثانٍ في المنطقة الثانية واحفظ المستند.
+    // قم بتشغيل عملية دمج بريدية ثانية في المنطقة الثانية واحفظ المستند.
     doc.MailMerge.ExecuteWithRegionsADO(recordset, "MergeRegion2");
 
     doc.Save(ArtifactsDir + "MailMerge.ExecuteWithRegionsADO.docx");
+
 }
 
 /// <summary>
-/// إنشاء مستند بمنطقتين لدمج المراسلات.
+/// قم بإنشاء مستند بمنطقتين لدمج البريد.
 /// </summary>
 private static Document CreateSourceDocADOMailMergeWithRegions()
 {

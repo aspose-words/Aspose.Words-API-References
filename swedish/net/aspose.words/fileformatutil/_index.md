@@ -3,12 +3,14 @@ title: Class FileFormatUtil
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.FileFormatUtil klass. Tillhandahåller verktygsmetoder för att arbeta med filformat som att upptäcka filformat eller konvertera filtillägg till/från filformat enums.
 type: docs
-weight: 2640
+weight: 2820
 url: /sv/net/aspose.words/fileformatutil/
 ---
 ## FileFormatUtil class
 
 Tillhandahåller verktygsmetoder för att arbeta med filformat, som att upptäcka filformat eller konvertera filtillägg till/från filformat enums.
+
+För att lära dig mer, besök[Upptäck filformat och kontrollera formatkompatibilitet](https://docs.aspose.com/words/net/detect-file-format-and-check-format-compatibility/) dokumentationsartikel.
 
 ```csharp
 public static class FileFormatUtil

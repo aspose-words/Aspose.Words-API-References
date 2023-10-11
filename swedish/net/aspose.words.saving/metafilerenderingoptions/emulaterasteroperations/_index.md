@@ -16,7 +16,7 @@ public bool EmulateRasterOperations { get; set; }
 
 ### Anmärkningar
 
-Specifika rasteroperationer kan användas i metafiler. De kan inte renderas direkt till vektorgrafik. Att emulera rasteroperationer kräver partiell rastrering av den resulterande vektorgrafiken, vilket kan påverka metafilrenderingsprestanda.
+Specifika rasteroperationer kan användas i metafiler. De kan inte renderas direkt till vektorgrafik. Att emulera rasteroperationer kräver partiell rasterisering av den resulterande vektorgrafiken, vilket kan påverka renderingsprestandan för metafil.
 
 När detta värde är satt till`Sann`, Aspose.Words emulerar rasteroperationerna. Den resulterande utgången kanske är delvis rastrerad och prestandan kan vara långsammare.
 
@@ -31,6 +31,7 @@ Standardvärdet är`Sann`.
 Visar lade till en reserv till bitmappsrendering och ändrade typ av varningar om metafilposter som inte stöds.
 
 ```csharp
+public void HandleBinaryRasterWarnings()
 {
     Document doc = new Document(MyDir + "WMF with image.docx");
 
@@ -55,7 +56,7 @@ Visar lade till en reserv till bitmappsrendering och ändrade typ av varningar o
     doc.Save(ArtifactsDir + "PdfSaveOptions.HandleBinaryRasterWarnings.pdf", saveOptions);
 
     Assert.AreEqual(1, callback.Warnings.Count);
-    Assert.AreEqual("'R2_XORPEN' binary raster operation is partly supported.",
+    Assert.AreEqual("'R2_XORPEN' binary raster operation is not supported.",
         callback.Warnings[0].Description);
 }
 

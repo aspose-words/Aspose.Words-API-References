@@ -1,14 +1,14 @@
 ---
 title: Enum HtmlVersion
 second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Saving.HtmlVersion enum. Indica la versione di HTML utilizzata per salvare il documento inHtml e Mhtml formati.
+description: Aspose.Words.Saving.HtmlVersion enum. Indica la versione di HTML utilizzata durante il salvataggio del documentoHtml e Mhtml formati.
 type: docs
-weight: 4860
+weight: 5120
 url: /it/net/aspose.words.saving/htmlversion/
 ---
 ## HtmlVersion enumeration
 
-Indica la versione di HTML utilizzata per salvare il documento inHtml e Mhtml formati.
+Indica la versione di HTML utilizzata durante il salvataggio del documentoHtml e Mhtml formati.
 
 ```csharp
 public enum HtmlVersion
@@ -18,12 +18,12 @@ public enum HtmlVersion
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
-| Xhtml | `0` | Salva il documento in conformità con lo standard XHTML 1.0 Transitional. |
-| Html5 | `1` | Salva il documento in conformità con lo standard HTML 5. |
+| Xhtml | `0` | Salva il documento in conformità allo standard XHTML 1.0 Transitional. |
+| Html5 | `1` | Salva il documento secondo lo standard HTML 5. |
 
 ### Esempi
 
-Mostra come visualizzare un'intestazione DOCTYPE durante la conversione di documenti nello standard di transizione Xhtml 1.0.
+Mostra come visualizzare un'intestazione DOCTYPE durante la conversione di documenti nello standard transitorio Xhtml 1.0.
 
 ```csharp
 Document doc = new Document();
@@ -65,7 +65,7 @@ HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.Html)
 
 doc.Save(ArtifactsDir + "HtmlSaveOptions.HtmlVersions.html", options);
 
-// I nostri documenti HTML avranno piccole differenze per essere compatibili con diverse versioni HTML.
+// I nostri documenti HTML presenteranno piccole differenze per essere compatibili con diverse versioni HTML.
 string outDocContents = File.ReadAllText(ArtifactsDir + "HtmlSaveOptions.HtmlVersions.html");
 
 switch (htmlVersion)

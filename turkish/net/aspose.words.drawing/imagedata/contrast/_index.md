@@ -1,14 +1,14 @@
 ---
 title: ImageData.Contrast
 second_title: Aspose.Words for .NET API Referansı
-description: ImageData mülk. Belirtilen resim için kontrastı alır veya ayarlar. Bu özellik için değer  00 en az karşıtlık ile 10 en büyük karşıtlık arasında bir sayı olmalıdır.
+description: ImageData mülk. Belirtilen resmin kontrastını alır veya ayarlar. Bu özellik için value  00 en az kontrast ila 10 en büyük kontrast arasında bir sayı olmalıdır.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.drawing/imagedata/contrast/
 ---
 ## ImageData.Contrast property
 
-Belirtilen resim için kontrastı alır veya ayarlar. Bu özellik için değer , 0,0 (en az karşıtlık) ile 1,0 (en büyük karşıtlık) arasında bir sayı olmalıdır.
+Belirtilen resmin kontrastını alır veya ayarlar. Bu özellik için value , 0,0 (en az kontrast) ila 1,0 (en büyük kontrast) arasında bir sayı olmalıdır.
 
 ```csharp
 public double Contrast { get; set; }
@@ -28,48 +28,48 @@ Shape sourceShape = (Shape)imgSourceDoc.GetChildNodes(NodeType.Shape, true)[0];
 
 Document dstDoc = new Document();
 
-// Kaynak belgeden bir şekil alın ve ilk paragrafa ekleyin.
+// Kaynak belgeden bir şekil içe aktarın ve onu ilk paragrafa ekleyin.
 Shape importedShape = (Shape)dstDoc.ImportNode(sourceShape, true);
 dstDoc.FirstSection.Body.FirstParagraph.AppendChild(importedShape);
 
-// İçe aktarılan şekil bir görüntü içeriyor. ImageData nesnesi aracılığıyla görüntünün özelliklerine ve ham verilerine erişebiliriz.
+// İçe aktarılan şekil bir resim içeriyor. ImageData nesnesi aracılığıyla görüntünün özelliklerine ve ham verilerine erişebiliriz.
 ImageData imageData = importedShape.ImageData;
 imageData.Title = "Imported Image";
 
 Assert.True(imageData.HasImage);
 
-// Bir görüntünün sınırları yoksa, ImageData nesnesi kenarlık rengini boş olarak tanımlar.
+// Bir görüntünün kenarlıkları yoksa, ImageData nesnesi kenarlık rengini boş olarak tanımlayacaktır.
 Assert.AreEqual(4, imageData.Borders.Count);
 Assert.AreEqual(Color.Empty, imageData.Borders[0].Color);
 
-// Bu görüntü, yerel dosya sistemindeki başka bir şekle veya görüntü dosyasına bağlanmıyor.
+// Bu görüntü, yerel dosya sistemindeki başka bir şekil veya görüntü dosyasına bağlanmaz.
 Assert.False(imageData.IsLink);
 Assert.False(imageData.IsLinkOnly);
 
-// "Parlaklık" ve "Kontrast" özellikleri, görüntünün parlaklığını ve kontrastını tanımlar
+// "Parlaklık" ve "Kontrast" özellikleri görüntünün parlaklığını ve kontrastını tanımlar
 // 0-1 ölçeğinde, varsayılan değer 0,5'tir.
 imageData.Brightness = 0.8;
 imageData.Contrast = 1.0;
 
-// Yukarıdaki parlaklık ve kontrast değerleri, beyazın bol olduğu bir görüntü oluşturmuştur.
-// Beyaz gibi şeffaflık ile değiştirmek için ChromaKey özelliği ile bir renk seçebiliriz.
+// Yukarıdaki parlaklık ve kontrast değerleri beyazın bol olduğu bir görüntü oluşturdu.
+// ChromaKey özelliği ile şeffaflıkla değiştirilecek beyaz gibi bir renk seçebiliriz.
 imageData.ChromaKey = Color.White;
 
-// Kaynak şekli tekrar içe aktarın ve görüntüyü monokrom olarak ayarlayın.
+// Kaynak şekli tekrar içe aktarın ve görüntüyü tek renkli olarak ayarlayın.
 importedShape = (Shape)dstDoc.ImportNode(sourceShape, true);
 dstDoc.FirstSection.Body.FirstParagraph.AppendChild(importedShape);
 
 importedShape.ImageData.GrayScale = true;
 
 // Üçüncü bir görüntü oluşturmak için kaynak şekli tekrar içe aktarın ve BiLevel'e ayarlayın.
-// BiLevel, her pikseli siyah veya beyaza (hangisi orijinal renge daha yakınsa) ayarlar.
+// BiLevel her pikseli siyah veya beyaza (hangisi orijinal renge daha yakınsa) ayarlar.
 importedShape = (Shape)dstDoc.ImportNode(sourceShape, true);
 dstDoc.FirstSection.Body.FirstParagraph.AppendChild(importedShape);
 
 importedShape.ImageData.BiLevel = true;
 
-// Kırpma 0-1 ölçeğinde belirlenir. Bir tarafı 0,3 ile kırpma
-// görüntünün %30'unu kırpılan taraftan kırpacak.
+// Kırpma 0-1 ölçeğinde belirlenir. Bir tarafı 0,3 oranında kırpma
+// kırpılan taraftaki görüntünün %30'unu kırpacaktır.
 importedShape.ImageData.CropBottom = 0.3;
 importedShape.ImageData.CropLeft = 0.3;
 importedShape.ImageData.CropTop = 0.3;

@@ -1,14 +1,14 @@
 ---
 title: IStructuredDocumentTag.WordOpenXML
 second_title: Aspose.Words für .NET-API-Referenz
-description: IStructuredDocumentTag eigendom. Ruft eine Zeichenfolge ab die das XML darstellt das im Knoten in der enthalten istFlatOpc format.
+description: IStructuredDocumentTag eigendom. Ruft eine Zeichenfolge ab die das im Knoten im enthaltene XML darstelltFlatOpc format.
 type: docs
 weight: 120
 url: /de/net/aspose.words.markup/istructureddocumenttag/wordopenxml/
 ---
 ## IStructuredDocumentTag.WordOpenXML property
 
-Ruft eine Zeichenfolge ab, die das XML darstellt, das im Knoten in der enthalten istFlatOpc format.
+Ruft eine Zeichenfolge ab, die das im Knoten im enthaltene XML darstelltFlatOpc format.
 
 ```csharp
 public string WordOpenXML { get; }

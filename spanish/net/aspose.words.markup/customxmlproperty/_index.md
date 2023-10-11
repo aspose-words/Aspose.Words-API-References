@@ -1,14 +1,16 @@
 ---
 title: Class CustomXmlProperty
 second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Markup.CustomXmlProperty clase. Representa un solo atributo XML personalizado o una propiedad de etiqueta inteligente.
+description: Aspose.Words.Markup.CustomXmlProperty clase. Representa un único atributo XML personalizado o una propiedad de etiqueta inteligente.
 type: docs
-weight: 3700
+weight: 3940
 url: /es/net/aspose.words.markup/customxmlproperty/
 ---
 ## CustomXmlProperty class
 
-Representa un solo atributo XML personalizado o una propiedad de etiqueta inteligente.
+Representa un único atributo XML personalizado o una propiedad de etiqueta inteligente.
+
+Para obtener más información, visite el[Etiquetas de documentos estructurados o control de contenido](https://docs.aspose.com/words/net/working-with-content-control-sdt/) artículo de documentación.
 
 ```csharp
 public class CustomXmlProperty
@@ -25,12 +27,12 @@ public class CustomXmlProperty
 | Nombre | Descripción |
 | --- | --- |
 | [Name](../../aspose.words.markup/customxmlproperty/name/) { get; } | Especifica el nombre del atributo XML personalizado o propiedad de etiqueta inteligente. |
-| [Uri](../../aspose.words.markup/customxmlproperty/uri/) { get; set; } | Obtiene o establece el URI del espacio de nombres del atributo XML personalizado o la propiedad de la etiqueta inteligente. |
-| [Value](../../aspose.words.markup/customxmlproperty/value/) { get; set; } | Obtiene o establece el valor del atributo XML personalizado o la propiedad de la etiqueta inteligente. |
+| [Uri](../../aspose.words.markup/customxmlproperty/uri/) { get; set; } | Obtiene o establece el URI del espacio de nombres del atributo XML personalizado o propiedad de etiqueta inteligente. |
+| [Value](../../aspose.words.markup/customxmlproperty/value/) { get; set; } | Obtiene o establece el valor del atributo XML personalizado o propiedad de etiqueta inteligente. |
 
 ### Observaciones
 
-Se utiliza como elemento de un[`CustomXmlPropertyCollection`](../customxmlpropertycollection/) recopilación.
+Utilizado como elemento de un[`CustomXmlPropertyCollection`](../customxmlpropertycollection/) recopilación.
 
 ### Ejemplos
 
@@ -41,11 +43,11 @@ public void Create()
 {
     Document doc = new Document();
 
-    // Aparece una etiqueta inteligente en un documento con Microsoft Word que reconoce una parte de su texto como algún tipo de datos,
-    // como un nombre, fecha o dirección, y lo convierte en un hipervínculo que muestra un subrayado punteado de color púrpura.
+    // Aparece una etiqueta inteligente en un documento y Microsoft Word reconoce una parte de su texto como algún tipo de datos,
+    // como un nombre, fecha o dirección, y lo convierte en un hipervínculo que muestra un subrayado de puntos de color púrpura.
     SmartTag smartTag = new SmartTag(doc);
 
-    // Las etiquetas inteligentes son nodos compuestos que contienen su texto reconocido en su totalidad.
+    // Las etiquetas inteligentes son nodos compuestos que contienen el texto reconocido en su totalidad.
     // Agregue contenido a esta etiqueta inteligente manualmente.
     smartTag.AppendChild(new Run(doc, "May 29, 2019"));
 
@@ -53,18 +55,18 @@ public void Create()
     // Las etiquetas inteligentes utilizan la propiedad "Elemento" para reflejar el tipo de datos que contienen.
     smartTag.Element = "date";
 
-    // Algunos tipos de etiquetas inteligentes procesan aún más su contenido en propiedades XML personalizadas.
+    // Algunos tipos de etiquetas inteligentes procesan su contenido en propiedades XML personalizadas.
     smartTag.Properties.Add(new CustomXmlProperty("Day", string.Empty, "29"));
     smartTag.Properties.Add(new CustomXmlProperty("Month", string.Empty, "5"));
     smartTag.Properties.Add(new CustomXmlProperty("Year", string.Empty, "2019"));
 
-    // Establecer el URI de la etiqueta inteligente en el valor predeterminado.
+    // Establece el URI de la etiqueta inteligente en el valor predeterminado.
     smartTag.Uri = "urn:schemas-microsoft-com:office:smarttags";
 
     doc.FirstSection.Body.FirstParagraph.AppendChild(smartTag);
     doc.FirstSection.Body.FirstParagraph.AppendChild(new Run(doc, " is a date. "));
 
-    // Cree otra etiqueta inteligente para un tablero de cotizaciones.
+    // Crea otra etiqueta inteligente para un ticker bursátil.
     smartTag = new SmartTag(doc);
     smartTag.Element = "stockticker";
     smartTag.Uri = "urn:schemas-microsoft-com:office:smarttags";
@@ -80,7 +82,7 @@ public void Create()
     // Las versiones anteriores de Microsoft Word admiten etiquetas inteligentes.
     doc.Save(ArtifactsDir + "SmartTag.Create.doc");
 
-    // Use el método "RemoveSmartTags" para eliminar todas las etiquetas inteligentes de un documento.
+    // Utilice el método "RemoveSmartTags" para eliminar todas las etiquetas inteligentes de un documento.
     Assert.AreEqual(2, doc.GetChildNodes(NodeType.SmartTag, true).Count);
 
     doc.RemoveSmartTags();
@@ -89,12 +91,12 @@ public void Create()
 }
 
 /// <summary>
-/// Imprime las etiquetas inteligentes visitadas y sus contenidos.
+/// Imprime las etiquetas inteligentes visitadas y su contenido.
 /// </summary>
 private class SmartTagPrinter : DocumentVisitor
 {
     /// <summary>
-    /// Llamado cuando se encuentra un nodo SmartTag en el documento.
+    /// Se llama cuando se encuentra un nodo SmartTag en el documento.
     /// </summary>
     public override VisitorAction VisitSmartTagStart(SmartTag smartTag)
     {
@@ -103,7 +105,7 @@ private class SmartTagPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Llamado cuando finaliza la visita de un nodo SmartTag.
+    /// Se llama cuando finaliza la visita a un nodo SmartTag.
     /// </summary>
     public override VisitorAction VisitSmartTagEnd(SmartTag smartTag)
     {

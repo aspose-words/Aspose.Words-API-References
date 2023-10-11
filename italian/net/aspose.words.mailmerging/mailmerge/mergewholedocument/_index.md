@@ -1,14 +1,14 @@
 ---
 title: MailMerge.MergeWholeDocument
 second_title: Aspose.Words per .NET API Reference
-description: MailMerge proprietà. Ottiene o imposta un valore che indica se i campi dellintero documento vengono aggiornati durante lesecuzione di una stampa unione con le regioni.
+description: MailMerge proprietà. Ottiene o imposta un valore che indica se i campi nellintero documento vengono aggiornati durante lesecuzione di una stampa unione con regioni.
 type: docs
 weight: 70
 url: /it/net/aspose.words.mailmerging/mailmerge/mergewholedocument/
 ---
 ## MailMerge.MergeWholeDocument property
 
-Ottiene o imposta un valore che indica se i campi dell'intero documento vengono aggiornati durante l'esecuzione di una stampa unione con le regioni.
+Ottiene o imposta un valore che indica se i campi nell'intero documento vengono aggiornati durante l'esecuzione di una stampa unione con regioni.
 
 ```csharp
 public bool MergeWholeDocument { get; set; }
@@ -16,11 +16,11 @@ public bool MergeWholeDocument { get; set; }
 
 ### Osservazioni
 
-Il valore predefinito è **falso** .
+Il valore predefinito è`falso` .
 
 ### Esempi
 
-Mostra la relazione tra la stampa unione con le aree geografiche e l'aggiornamento dei campi.
+Mostra la relazione tra la posta unione con le regioni e l'aggiornamento dei campi.
 
 ```csharp
 public void MergeWholeDocument(bool mergeWholeDocument)
@@ -29,13 +29,13 @@ public void MergeWholeDocument(bool mergeWholeDocument)
     DataTable dataTable = CreateSourceTableMergeWholeDocument();
 
     // Se impostiamo il flag "MergeWholeDocument" su "true",
-    // la stampa unione con le regioni aggiornerà tutti i campi del documento.
+    // la stampa unione con le regioni aggiornerà ogni campo nel documento.
     // Se impostiamo il flag "MergeWholeDocument" su "false", la stampa unione aggiornerà solo i campi
-    // all'interno dell'area della stampa unione il cui nome corrisponde al nome della tabella dell'origine dati.
+    // all'interno dell'area di stampa unione il cui nome corrisponde al nome della tabella dell'origine dati.
     doc.MailMerge.MergeWholeDocument = mergeWholeDocument;
     doc.MailMerge.ExecuteWithRegions(dataTable);
 
-    // La stampa unione aggiornerà solo il campo QUOTE al di fuori dell'area della stampa unione
+    // La stampa unione aggiornerà solo il campo QUOTE al di fuori della regione della stampa unione
     // se impostiamo il flag "MergeWholeDocument" su "true".
     doc.Save(ArtifactsDir + "MailMerge.MergeWholeDocument.docx");
 
@@ -45,8 +45,8 @@ public void MergeWholeDocument(bool mergeWholeDocument)
 }
 
 /// <summary>
-/// Crea un documento con una regione di stampa unione che appartiene a un'origine dati denominata "MyTable".
-/// Inserisci un campo QUOTE all'interno di questa regione e un altro al di fuori di essa.
+/// Crea un documento con un'area di stampa unione che appartiene a un'origine dati denominata "MyTable".
+/// Inserisci un campo QUOTE all'interno di questa regione e un altro all'esterno.
 /// </summary>
 private static Document CreateSourceDocMergeWholeDocument()
 {
@@ -70,7 +70,7 @@ private static Document CreateSourceDocMergeWholeDocument()
 }
 
 /// <summary>
-/// Crea una tabella di dati che verrà utilizzata in una stampa unione.
+/// Crea una tabella dati che verrà utilizzata in una stampa unione.
 /// </summary>
 private static DataTable CreateSourceTableMergeWholeDocument()
 {

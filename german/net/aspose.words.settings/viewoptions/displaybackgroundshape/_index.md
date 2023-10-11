@@ -16,7 +16,7 @@ public bool DisplayBackgroundShape { get; set; }
 
 ### Beispiele
 
-Zeigt, wie Hintergrundbilder von Dokumenten in Ansichtsoptionen ausgeblendet/angezeigt werden.
+Zeigt, wie Dokumenthintergrundbilder in den Ansichtsoptionen ausgeblendet/angezeigt werden.
 
 ```csharp
 // Verwenden Sie einen HTML-String, um ein neues Dokument mit einer flachen Hintergrundfarbe zu erstellen.
@@ -30,12 +30,12 @@ const string html =
 Document doc = new Document(new MemoryStream(Encoding.Unicode.GetBytes(html)));
 
 // Die Quelle für das Dokument hat einen flachen Farbhintergrund,
-// dessen Vorhandensein setzt das "DisplayBackgroundShape"-Flag auf "true".
+// deren Vorhandensein das Flag „DisplayBackgroundShape“ auf „true“ setzt.
 Assert.True(doc.ViewOptions.DisplayBackgroundShape);
 
-// "DisplayBackgroundShape" auf "true" belassen, damit das Dokument die Hintergrundfarbe anzeigt.
+// Behalten Sie „DisplayBackgroundShape“ auf „true“, damit das Dokument die Hintergrundfarbe anzeigt.
 // Dies kann sich auf einige Textfarben auswirken, um die Sichtbarkeit zu verbessern.
-// Setzen Sie "DisplayBackgroundShape" auf "false", um die Hintergrundfarbe nicht anzuzeigen.
+// „DisplayBackgroundShape“ auf „false“ setzen, um die Hintergrundfarbe nicht anzuzeigen.
 doc.ViewOptions.DisplayBackgroundShape = displayBackgroundShape;
 
 doc.Save(ArtifactsDir + "ViewOptions.DisplayBackgroundShape.docx");

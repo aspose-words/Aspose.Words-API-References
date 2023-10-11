@@ -1,14 +1,14 @@
 ---
 title: CompareOptions.Target
 second_title: Aspose.Words per .NET API Reference
-description: CompareOptions proprietà. Specifica quale documento deve essere utilizzato come destinazione durante il confronto.
+description: CompareOptions proprietà. Specifica quale documento verrà utilizzato come target durante il confronto.
 type: docs
-weight: 120
+weight: 130
 url: /it/net/aspose.words.comparing/compareoptions/target/
 ---
 ## CompareOptions.Target property
 
-Specifica quale documento deve essere utilizzato come destinazione durante il confronto.
+Specifica quale documento verrà utilizzato come target durante il confronto.
 
 ```csharp
 public ComparisonTargetType Target { get; set; }
@@ -23,7 +23,7 @@ Mostra come filtrare tipi specifici di elementi del documento quando si effettua
 Document docOriginal = new Document();
 DocumentBuilder builder = new DocumentBuilder(docOriginal);
 
-// Testo del paragrafo a cui si fa riferimento con una nota di chiusura:
+// Testo del paragrafo referenziato con una nota finale:
 builder.Writeln("Hello world! This is the first paragraph.");
 builder.InsertFootnote(FootnoteType.Endnote, "Original endnote text.");
 
@@ -68,8 +68,8 @@ docEdited.FirstSection.HeadersFooters[HeaderFooterType.HeaderPrimary].FirstParag
     "Edited header contents.";
 
 // Il confronto dei documenti crea una revisione per ogni modifica nel documento modificato.
-// Un oggetto CompareOptions ha una serie di flag che possono sopprimere le revisioni
-// su ogni rispettivo tipo di elemento, ignorando di fatto la loro modifica.
+// Un oggetto CompareOptions dispone di una serie di flag che possono eliminare le revisioni
+// su ciascun rispettivo tipo di elemento, ignorando di fatto la loro modifica.
 Aspose.Words.Comparing.CompareOptions compareOptions = new Aspose.Words.Comparing.CompareOptions();
 compareOptions.IgnoreFormatting = false;
 compareOptions.IgnoreCaseChanges = false;

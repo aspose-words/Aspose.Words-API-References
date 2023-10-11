@@ -1,14 +1,14 @@
 ---
 title: Shape.SignatureLine
 second_title: Aspose.Words für .NET-API-Referenz
-description: Shape eigendom. erhältSignatureLine Objekt wenn die Form eine Signaturlinie ist. Kehrt zurück Null andernfalls.
+description: Shape eigendom. Ruft abSignatureLine Objekt wenn die Form eine Signaturlinie ist. Kehrt zurückNull sonst.
 type: docs
 weight: 160
 url: /de/net/aspose.words.drawing/shape/signatureline/
 ---
 ## Shape.SignatureLine property
 
-erhält`SignatureLine` Objekt, wenn die Form eine Signaturlinie ist. Kehrt zurück **Null** andernfalls.
+Ruft ab[`SignatureLine`](../../signatureline/) Objekt, wenn die Form eine Signaturlinie ist. Kehrt zurück`Null` sonst.
 
 ```csharp
 public SignatureLine SignatureLine { get; }
@@ -16,7 +16,7 @@ public SignatureLine SignatureLine { get; }
 
 ### Bemerkungen
 
-Mit können Sie neue SignatureLines in das Dokument einfügen[`InsertSignatureLine`](../../../aspose.words/documentbuilder/insertsignatureline/) and
+Sie können neue einfügen[`SignatureLine`](../../signatureline/) in das Dokument einfügen[`InsertSignatureLine`](../../../aspose.words/documentbuilder/insertsignatureline/) and
 
 ### Beispiele
 
@@ -37,10 +37,10 @@ SignatureLineOptions options = new SignatureLineOptions
     SignerTitle = "Senior Manager"
 };
 
-// Fügen Sie eine Form ein, die eine Signaturlinie enthält, deren Aussehen wir festlegen werden
-// Anpassen mit dem oben erstellten "SignatureLineOptions"-Objekt.
-// Wenn wir eine Form einfügen, deren Koordinaten von der rechten unteren Ecke der Seite stammen,
-// Wir müssen negative x- und y-Koordinaten angeben, um die Form sichtbar zu machen.
+// Fügen Sie eine Form ein, die eine Signaturlinie enthält, deren Aussehen wir festlegen
+// Anpassen mit dem „SignatureLineOptions“-Objekt, das wir oben erstellt haben.
+// Wenn wir eine Form einfügen, deren Koordinaten aus der unteren rechten Ecke der Seite stammen,
+// Wir müssen negative X- und Y-Koordinaten angeben, um die Form sichtbar zu machen.
 Shape shape = builder.InsertSignatureLine(options, RelativeHorizontalPosition.RightMargin, -170.0, 
         RelativeVerticalPosition.BottomMargin, -60.0, WrapType.None);
 

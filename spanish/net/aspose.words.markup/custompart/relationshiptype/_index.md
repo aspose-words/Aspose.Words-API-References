@@ -1,14 +1,14 @@
 ---
 title: CustomPart.RelationshipType
 second_title: Referencia de API de Aspose.Words para .NET
-description: CustomPart propiedad. Obtiene o establece el tipo de relación de la pieza principal a esta pieza personalizada.
+description: CustomPart propiedad. Obtiene o establece el tipo de relación del artículo principal con este artículo personalizado.
 type: docs
 weight: 60
 url: /es/net/aspose.words.markup/custompart/relationshiptype/
 ---
 ## CustomPart.RelationshipType property
 
-Obtiene o establece el tipo de relación de la pieza principal a esta pieza personalizada.
+Obtiene o establece el tipo de relación del artículo principal con este artículo personalizado.
 
 ```csharp
 public string RelationshipType { get; set; }
@@ -16,9 +16,9 @@ public string RelationshipType { get; set; }
 
 ### Observaciones
 
-El tipo de relación para una pieza personalizada debe ser "desconocido", por ejemplo, un tipo de relación personalizada, no uno de los tipos de relación definidos en ISO/IEC 29500.
+El tipo de relación para una pieza personalizada debe ser "desconocido", por ejemplo, un tipo de relación personalizada, , no uno de los tipos de relación definidos en ISO/IEC 29500.
 
-El valor predeterminado es una cadena vacía. Un valor válido debe ser una cadena no vacía.
+El valor predeterminado es una cadena vacía. Un valor válido debe ser una cadena que no esté vacía.
 
 ### Ejemplos
 
@@ -29,12 +29,12 @@ Document doc = new Document(MyDir + "Custom parts OOXML package.docx");
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);
 
-// Clona la segunda parte, luego agrega el clon a la colección.
+// Clona la segunda parte y luego agrega el clon a la colección.
 CustomPart clonedPart = doc.PackageCustomParts[1].Clone();
 doc.PackageCustomParts.Add(clonedPart);
 Assert.AreEqual(3, doc.PackageCustomParts.Count);
 
-// Enumerar sobre la colección e imprimir cada parte.
+// Enumerar la colección e imprimir cada parte.
 using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator())
 {
     int index = 0;

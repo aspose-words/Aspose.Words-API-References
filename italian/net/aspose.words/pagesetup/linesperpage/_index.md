@@ -16,20 +16,20 @@ public int LinesPerPage { get; set; }
 
 ### Osservazioni
 
-Il valore minimo della proprietà è 1. Il valore massimo dipende dall'altezza della pagina e dalla dimensione del carattere dello stile Normal . Il passo minimo della linea è il 136 percento della dimensione del carattere. Ad esempio, il numero massimo di righe per pagina di una pagina Lettera con margini di un pollice è 39.
+Il valore minimo della proprietà è 1. Il valore massimo dipende dall'altezza della pagina e dalla dimensione del carattere dello stile Normal . Il passo minimo della riga è pari al 136% della dimensione del carattere. Ad esempio, il numero massimo di righe per pagina di una pagina di lettere con margini di un pollice è 39.
 
-Per impostazione predefinita, la proprietà ha un valore, su cui il passo della linea è 1,5 volte maggiore della dimensione del carattere di lo stile Normale.
+Per impostazione predefinita, la proprietà ha un valore in cui il passo della linea è 1,5 volte maggiore della dimensione del carattere di lo stile Normale.
 
 ### Esempi
 
-Mostra come specificare un limite per il numero di righe che ciascuna pagina può avere.
+Mostra come specificare un limite per il numero di righe che ogni pagina può avere.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Abilita il pitching, quindi utilizzalo per impostare il numero di righe per pagina in questa sezione.
-// Una dimensione del carattere sufficientemente grande spingerà alcune righe nella pagina successiva per evitare la sovrapposizione dei caratteri.
+// Una dimensione del carattere sufficientemente grande spingerà alcune righe verso il basso nella pagina successiva per evitare la sovrapposizione dei caratteri.
 builder.PageSetup.LayoutMode = SectionLayoutMode.LineGrid;
 builder.PageSetup.LinesPerPage = 15;
 

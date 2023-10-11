@@ -1,14 +1,14 @@
 ---
 title: HtmlFixedSaveOptions.CssClassNamesPrefix
 second_title: Référence de l'API Aspose.Words pour .NET
-description: HtmlFixedSaveOptions propriété. Spécifie le préfixe qui est ajouté à tous les noms de classe dans le fichier style.css. La valeur par défaut estaw .
+description: HtmlFixedSaveOptions propriété. Spécifie le préfixe qui est ajouté à tous les noms de classe dans le fichier style.css. La valeur par défaut estoh .
 type: docs
 weight: 20
 url: /fr/net/aspose.words.saving/htmlfixedsaveoptions/cssclassnamesprefix/
 ---
 ## HtmlFixedSaveOptions.CssClassNamesPrefix property
 
-Spécifie le préfixe qui est ajouté à tous les noms de classe dans le fichier style.css. La valeur par défaut est`"aw"` .
+Spécifie le préfixe qui est ajouté à tous les noms de classe dans le fichier style.css. La valeur par défaut est`"oh"` .
 
 ```csharp
 public string CssClassNamesPrefix { get; set; }

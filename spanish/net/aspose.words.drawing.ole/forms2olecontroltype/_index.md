@@ -1,12 +1,14 @@
 ---
 title: Enum Forms2OleControlType
 second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Drawing.Ole.Forms2OleControlType enumeración. 
+description: Aspose.Words.Drawing.Ole.Forms2OleControlType enumeración. Enumera los tipos de controles de Forms 2.0.
 type: docs
-weight: 1000
+weight: 1130
 url: /es/net/aspose.words.drawing.ole/forms2olecontroltype/
 ---
 ## Forms2OleControlType enumeration
+
+Enumera los tipos de controles de Forms 2.0.
 
 ```csharp
 public enum Forms2OleControlType

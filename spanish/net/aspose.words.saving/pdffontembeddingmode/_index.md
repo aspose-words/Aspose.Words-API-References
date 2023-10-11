@@ -3,7 +3,7 @@ title: Enum PdfFontEmbeddingMode
 second_title: Referencia de API de Aspose.Words para .NET
 description: Aspose.Words.Saving.PdfFontEmbeddingMode enumeración. Especifica cómo Aspose.Words debe incrustar fuentes.
 type: docs
-weight: 5190
+weight: 5470
 url: /es/net/aspose.words.saving/pdffontembeddingmode/
 ---
 ## PdfFontEmbeddingMode enumeration
@@ -18,13 +18,13 @@ public enum PdfFontEmbeddingMode
 
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
-| EmbedAll | `0` | Aspose.Words incrusta todas las fuentes. |
-| EmbedNonstandard | `1` | Aspose.Words incrusta todas las fuentes excepto las fuentes estándar de Windows Arial y Times New Roman. Solo las fuentes Arial y Times New Roman se ven afectadas en este modo porque MS Word no incrusta solo estas fuentes al guardar el documento en PDF. |
-| EmbedNone | `2` | Aspose.Words no incrusta ninguna fuente. |
+| EmbedAll | `0` | Aspose.Words incorpora todas las fuentes. |
+| EmbedNonstandard | `1` | Aspose.Words incorpora todas las fuentes excepto las fuentes estándar de Windows Arial y Times New Roman. Sólo las fuentes Arial y Times New Roman se ven afectadas en este modo porque MS Word no incorpora solo estas fuentes al guardar el documento en PDF. |
+| EmbedNone | `2` | Aspose.Words no incorpora ninguna fuente. |
 
 ### Ejemplos
 
-Muestra cómo configurar Aspose.Words para omitir la incrustación de fuentes Arial y Times New Roman en un documento PDF.
+Muestra cómo configurar Aspose.Words para omitir la incorporación de fuentes Arial y Times New Roman en un documento PDF.
 
 ```csharp
 Document doc = new Document();
@@ -40,12 +40,12 @@ builder.Writeln("The quick brown fox jumps over the lazy dog.");
 // para modificar cómo ese método convierte el documento a .PDF.
 PdfSaveOptions options = new PdfSaveOptions();
 
-// Establezca la propiedad "EmbedFullFonts" en "true" para incrustar cada glifo de cada fuente incrustada en el PDF de salida.
+// Establece la propiedad "EmbedFullFonts" en "true" para incrustar cada glifo de cada fuente incrustada en el PDF de salida.
 options.EmbedFullFonts = true;
 
-// Establezca la propiedad "FontEmbeddingMode" en "EmbedAll" para incrustar todas las fuentes en el PDF de salida.
+// Establece la propiedad "FontEmbeddingMode" en "EmbedAll" para incrustar todas las fuentes en el PDF de salida.
 // Establezca la propiedad "FontEmbeddingMode" en "EmbedNonstandard" para permitir solo la incrustación de fuentes no estándar en el PDF de salida.
-// Establezca la propiedad "FontEmbeddingMode" en "EmbedNone" para no incrustar ninguna fuente en el PDF de salida.
+// Establece la propiedad "FontEmbeddingMode" en "EmbedNone" para no incrustar ninguna fuente en el PDF de salida.
 options.FontEmbeddingMode = pdfFontEmbeddingMode;
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.EmbedWindowsFonts.pdf", options);
@@ -59,7 +59,7 @@ switch (pdfFontEmbeddingMode)
         Assert.That(480000, Is.LessThan(new FileInfo(ArtifactsDir + "PdfSaveOptions.EmbedWindowsFonts.pdf").Length));
         break;
     case PdfFontEmbeddingMode.EmbedNone:
-        Assert.That(4217, Is.AtLeast(new FileInfo(ArtifactsDir + "PdfSaveOptions.EmbedWindowsFonts.pdf").Length));
+        Assert.That(4255, Is.AtLeast(new FileInfo(ArtifactsDir + "PdfSaveOptions.EmbedWindowsFonts.pdf").Length));
         break;
 }
 ```

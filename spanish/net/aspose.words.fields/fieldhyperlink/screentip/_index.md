@@ -16,7 +16,7 @@ public string ScreenTip { get; set; }
 
 ### Ejemplos
 
-Muestra cómo utilizar los campos de HIPERVÍNCULO para vincular documentos en el sistema de archivos local.
+Muestra cómo utilizar los campos HIPERVÍNCULO para vincular documentos en el sistema de archivos local.
 
 ```csharp
 Document doc = new Document();

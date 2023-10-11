@@ -1,14 +1,14 @@
 ---
 title: Interface IResourceSavingCallback
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Saving.IResourceSavingCallback interface. Implémentez cette interface si vous souhaitez contrôler la façon dont Aspose.Words enregistre les ressources externes images polices et css lors de lenregistrement dun document en HTML ou SVG à page fixe.
+description: Aspose.Words.Saving.IResourceSavingCallback interface. Implémentez cette interface si vous souhaitez contrôler la façon dont Aspose.Words enregistre les ressources externes images polices et CSS lors de lenregistrement dun document sur une page fixe HTML ou SVG.
 type: docs
-weight: 4930
+weight: 5190
 url: /fr/net/aspose.words.saving/iresourcesavingcallback/
 ---
 ## IResourceSavingCallback interface
 
-Implémentez cette interface si vous souhaitez contrôler la façon dont Aspose.Words enregistre les ressources externes (images, polices et css) lors de l'enregistrement d'un document en HTML ou SVG à page fixe.
+Implémentez cette interface si vous souhaitez contrôler la façon dont Aspose.Words enregistre les ressources externes (images, polices et CSS) lors de l'enregistrement d'un document sur une page fixe HTML ou SVG.
 
 ```csharp
 public interface IResourceSavingCallback
@@ -18,7 +18,7 @@ public interface IResourceSavingCallback
 
 | Nom | La description |
 | --- | --- |
-| [ResourceSaving](../../aspose.words.saving/iresourcesavingcallback/resourcesaving/)(ResourceSavingArgs) | Appelé quand Aspose.Words enregistre une ressource externe aux formats de page fixe HTML ou SVG. |
+| [ResourceSaving](../../aspose.words.saving/iresourcesavingcallback/resourcesaving/)(ResourceSavingArgs) | Appelé lorsque Aspose.Words enregistre une ressource externe aux formats HTML ou SVG de page fixe. |
 
 ### Exemples
 
@@ -44,7 +44,7 @@ public void ResourceSavingCallback()
 private class FontSavingCallback : IResourceSavingCallback
 {
     /// <summary>
-    /// Appelé quand Aspose.Words enregistre une ressource externe dans une page fixe HTML ou SVG.
+    /// Appelé lorsque Aspose.Words enregistre une ressource externe dans une page HTML ou SVG fixe.
     /// </summary>
     public void ResourceSaving(ResourceSavingArgs args)
     {
@@ -82,7 +82,7 @@ public void HtmlFixedResourceFolder()
     };
 
     // Un dossier spécifié par ResourcesFolderAlias contiendra les ressources au lieu de ResourcesFolder.
-    // Nous devons nous assurer que le dossier existe avant que les flux puissent y mettre leurs ressources.
+    // Nous devons nous assurer que le dossier existe avant que les flux puissent y placer leurs ressources.
     Directory.CreateDirectory(options.ResourcesFolderAlias);
 
     doc.Save(ArtifactsDir + "HtmlFixedSaveOptions.HtmlFixedResourceFolder.html", options);
@@ -96,7 +96,7 @@ public void HtmlFixedResourceFolder()
 }
 
 /// <summary>
-/// Compte et imprime les URI des ressources contenues par lorsqu'elles sont converties en HTML fixe.
+/// Compte et imprime les URI des ressources contenues par au fur et à mesure de leur conversion en HTML fixe.
 /// </summary>
 private class ResourceUriPrinter : IResourceSavingCallback
 {
@@ -112,7 +112,7 @@ private class ResourceUriPrinter : IResourceSavingCallback
             case ".woff":
             {
                 // Par défaut, 'ResourceFileUri' utilise le dossier système pour les polices.
-                // Pour éviter des problèmes sur d'autres plates-formes, vous devez spécifier explicitement le chemin des polices.
+                // Pour éviter des problèmes sur d'autres plateformes, vous devez spécifier explicitement le chemin des polices.
                 args.ResourceFileUri = ArtifactsDir + Path.DirectorySeparatorChar + args.ResourceFileName;
                 break;
             }

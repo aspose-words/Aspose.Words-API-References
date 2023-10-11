@@ -1,14 +1,14 @@
 ---
 title: MappedDataFieldCollection.ContainsKey
 second_title: Aspose.Words for .NET API Referansı
-description: MappedDataFieldCollection yöntem. Belgede belirtilen alandan bir eşlemenin koleksiyonda bulunup bulunmadığını belirler.
+description: MappedDataFieldCollection yöntem. Koleksiyonda belgede belirtilen alandan bir eşlemenin mevcut olup olmadığını belirler.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.mailmerging/mappeddatafieldcollection/containskey/
 ---
 ## MappedDataFieldCollection.ContainsKey method
 
-Belgede belirtilen alandan bir eşlemenin koleksiyonda bulunup bulunmadığını belirler.
+Koleksiyonda belgede belirtilen alandan bir eşlemenin mevcut olup olmadığını belirler.
 
 ```csharp
 public bool ContainsKey(string documentFieldName)
@@ -16,15 +16,15 @@ public bool ContainsKey(string documentFieldName)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| documentFieldName | String | Belgedeki adres mektup birleştirme alanının büyük/küçük harfe duyarlı adı. |
+| documentFieldName | String | Belgedeki adres-mektup birleştirme alanının büyük/küçük harfe duyarlı adı. |
 
 ### Geri dönüş değeri
 
-Koleksiyonda öğe bulunursa doğru; aksi halde yanlış.
+`doğru` koleksiyonda öğe bulunursa; aksi takdirde,`YANLIŞ`.
 
 ### Örnekler
 
-Adres mektup birleştirme sırasında verilerin aralarında aktarılması için farklı adlara sahip veri sütunlarının ve MERGEFIELD'lerin nasıl eşleneceğini gösterir.
+Adres-mektup birleştirme sırasında verilerin aralarında aktarılması için veri sütunlarının ve MERGEFIELD'lerin farklı adlarla nasıl eşleneceğini gösterir.
 
 ```csharp
 public void MappedDataFieldCollection()
@@ -32,29 +32,29 @@ public void MappedDataFieldCollection()
     Document doc = CreateSourceDocMappedDataFields();
     DataTable dataTable = CreateSourceTableMappedDataFields();
 
-    // Tabloda "Sütun2" adında bir sütun var, ancak bu ada sahip MERGEFIELD yok.
-    // Ayrıca, "Column3" adında bir MERGEFIELD'imiz var, ancak veri kaynağında bu ada sahip bir sütun yok.
-    // "Sütun2"den gelen veriler "Sütun3" MERGEFIELD için uygunsa,
-    // bu sütun adını "MappedDataFields" anahtar/değer çiftindeki MERGEFIELD ile eşleştirebiliriz.
+    // Tabloda "Column2" adında bir sütun var ancak bu adda MERGEFIELD yok.
+    // Ayrıca "Column3" adında bir MERGEFIELD'ımız var ancak veri kaynağında bu isimde bir sütun yok.
+    // "Sütun2"deki veriler "Sütun3" MERGEFIELD için uygunsa,
+    // bu sütun adını "MappedDataFields" anahtar/değer çiftindeki MERGEFIELD ile eşleyebiliriz.
     MappedDataFieldCollection mappedDataFields = doc.MailMerge.MappedDataFields;
 
-    // Bir veri kaynağı sütun adını şu şekilde bir MERGEFIELD adına bağlayabiliriz.
+    // Bir veri kaynağı sütun adını bunun gibi bir MERGEFIELD ismine bağlayabiliriz.
     mappedDataFields.Add("MergeFieldName", "DataSourceColumnName");
 
     // "Column2" adlı veri kaynağı sütununu "Column3" adlı MERGEFIELD'lere bağlayın.
     mappedDataFields.Add("Column3", "Column2");
 
-    // MERGEFIELD adı, ilgili veri kaynağı sütun adı "değer" için "anahtar"dır.
+    // MERGEFIELD adı, ilgili veri kaynağı sütun adı "değer"in "anahtarıdır".
     Assert.AreEqual("DataSourceColumnName", mappedDataFields["MergeFieldName"]);
     Assert.True(mappedDataFields.ContainsKey("MergeFieldName"));
     Assert.True(mappedDataFields.ContainsValue("DataSourceColumnName"));
 
-    // Şimdi bu adres mektup birleştirmeyi çalıştırırsak, "Sütun3" MERGEFIELD'leri tablonun "Sütun2" sinden veri alacaktır.
+    // Şimdi bu adres-mektup birleştirmeyi çalıştırırsak, "Sütun3" MERGEFIELD'ler tablonun "Sütun2"sinden veri alacaktır.
     doc.MailMerge.Execute(dataTable);
 
     doc.Save(ArtifactsDir + "MailMerge.MappedDataFieldCollection.docx");
 
-    // Bu koleksiyondaki öğeleri yineleyebiliriz.
+    // Bu koleksiyondaki öğeler üzerinde yineleme yapabiliriz.
     Assert.AreEqual(2, mappedDataFields.Count);
 
     using (IEnumerator<KeyValuePair<string, string>> enumerator = mappedDataFields.GetEnumerator())
@@ -74,7 +74,7 @@ public void MappedDataFieldCollection()
 }
 
 /// <summary>
-/// 2 MERGEFIELD içeren bir belge oluşturun, bunlardan biri
+/// 2 MERGEFIELD içeren bir belge oluşturun, bunlardan birinde MERGEFIELD yok
 /// aşağıdaki yöntemden veri tablosundaki ilgili sütun.
 /// </summary>
 private static Document CreateSourceDocMappedDataFields()
@@ -90,7 +90,7 @@ private static Document CreateSourceDocMappedDataFields()
 }
 
 /// <summary>
-/// 2 sütunlu bir veri tablosu oluşturun.
+/// 2 sütunlu bir veri tablosu oluşturun, bunlardan birinde sütun yok
 /// yukarıdaki yöntemden kaynak belgede karşılık gelen MERGEFIELD.
 /// </summary>
 private static DataTable CreateSourceTableMappedDataFields()

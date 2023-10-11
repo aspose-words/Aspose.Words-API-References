@@ -16,7 +16,7 @@ public string Result { get; set; }
 
 ### Örnekler
 
-Alan kodu kullanarak bir belgeye nasıl alan ekleneceğini gösterir.
+Alan kodu kullanarak belgeye nasıl alan ekleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();

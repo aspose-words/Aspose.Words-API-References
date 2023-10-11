@@ -16,7 +16,7 @@ public ContinuousSectionRestart ContinuousSectionPageNumberingRestart { get; set
 
 ### Anmärkningar
 
-Standardvärdet ärAlways . Det matchar beteendet hos MS Word 2019 som var den senaste versionen när alternativet introducerades. Äldre sidnumreringslogik som demonstreras av MS Word 2016 är tillgänglig via detta alternativ. Vänligen[`ContinuousSectionRestart`](../../continuoussectionrestart/) för beteendebeskrivningen.
+Standardvärdet ärAlways. Det matchar beteendet hos MS Word 2019 som var den senaste versionen vid det ögonblick då alternativet introducerades. Äldre sidnumreringslogik som demonstreras av MS Word 2016 är tillgänglig via detta alternativ. Vänligen[`ContinuousSectionRestart`](../../continuoussectionrestart/) för beteendebeskrivningen.
 
 ### Exempel
 

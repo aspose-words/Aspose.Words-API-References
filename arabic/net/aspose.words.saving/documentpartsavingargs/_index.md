@@ -1,14 +1,16 @@
 ---
 title: Class DocumentPartSavingArgs
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Saving.DocumentPartSavingArgs فصل. توفير بيانات لملفDocumentPartSaving رد الاتصال .
+description: Aspose.Words.Saving.DocumentPartSavingArgs فصل. يوفر بيانات لـDocumentPartSaving رد الاتصال.
 type: docs
-weight: 4680
+weight: 4940
 url: /ar/net/aspose.words.saving/documentpartsavingargs/
 ---
 ## DocumentPartSavingArgs class
 
-توفير بيانات لملف[`DocumentPartSaving`](../idocumentpartsavingcallback/documentpartsaving/) رد الاتصال .
+يوفر بيانات لـ[`DocumentPartSaving`](../idocumentpartsavingcallback/documentpartsaving/) رد الاتصال.
+
+لمعرفة المزيد، قم بزيارة[حفظ مستند](https://docs.aspose.com/words/net/save-a-document/) مقالة توثيقية.
 
 ```csharp
 public class DocumentPartSavingArgs
@@ -18,18 +20,18 @@ public class DocumentPartSavingArgs
 
 | اسم | وصف |
 | --- | --- |
-| [Document](../../aspose.words.saving/documentpartsavingargs/document/) { get; } | يحصل على كائن المستند الذي يتم حفظه . |
-| [DocumentPartFileName](../../aspose.words.saving/documentpartsavingargs/documentpartfilename/) { get; set; } | الحصول على أو تحديد اسم الملف (بدون مسار) حيث سيتم حفظ جزء المستند فيه. |
-| [DocumentPartStream](../../aspose.words.saving/documentpartsavingargs/documentpartstream/) { get; set; } | يسمح بتحديد التدفق حيث سيتم حفظ جزء المستند فيه. |
+| [Document](../../aspose.words.saving/documentpartsavingargs/document/) { get; } | الحصول على كائن المستند الذي يتم حفظه. |
+| [DocumentPartFileName](../../aspose.words.saving/documentpartsavingargs/documentpartfilename/) { get; set; } | الحصول على أو تعيين اسم الملف (بدون مسار) حيث سيتم حفظ جزء المستند إليه. |
+| [DocumentPartStream](../../aspose.words.saving/documentpartsavingargs/documentpartstream/) { get; set; } | يسمح بتحديد الدفق الذي سيتم حفظ جزء المستند فيه. |
 | [KeepDocumentPartStreamOpen](../../aspose.words.saving/documentpartsavingargs/keepdocumentpartstreamopen/) { get; set; } | يحدد ما إذا كان يجب على Aspose.Words إبقاء الدفق مفتوحًا أو إغلاقه بعد حفظ جزء من المستند. |
 
 ### ملاحظات
 
-عندما يحفظ Aspose.Words مستندًا بتنسيق HTML أو تنسيقات ذات صلة وملفات[`DocumentSplitCriteria`](../htmlsaveoptions/documentsplitcriteria/)تم تحديد ، ويتم تقسيم المستند إلى أجزاء وبشكل افتراضي ، يتم حفظ كل جزء من أجزاء المستند في ملف منفصل.
+عندما يقوم Aspose.Words بحفظ مستند بتنسيق HTML أو التنسيقات ذات الصلة و[`DocumentSplitCriteria`](../htmlsaveoptions/documentsplitcriteria/)يتم تحديد ، ويتم تقسيم المستند إلى أجزاء وبشكل افتراضي، يتم حفظ كل جزء من المستند في ملف منفصل.
 
-فصل`DocumentPartSavingArgs` يسمح لك بالتحكم في كيفية حفظ كل جزء من المستند. يسمح بإعادة تعريف كيفية إنشاء أسماء الملفات أو التحايل تمامًا على حفظ أجزاء المستند في ملفات من خلال توفير كائنات البث الخاصة بك.
+فصل`DocumentPartSavingArgs` يسمح لك بالتحكم في كيفية حفظ كل جزء من المستند. يسمح بإعادة تعريف كيفية إنشاء أسماء الملفات أو التحايل الكامل على حفظ أجزاء المستند في ملفات من خلال توفير كائنات الدفق الخاصة بك.
 
-لحفظ أجزاء المستند في تدفقات بدلاً من الملفات ، استخدم ملحق[`DocumentPartStream`](./documentpartstream/) منشأه.
+لحفظ أجزاء المستند في تدفقات بدلاً من الملفات، استخدم الملف[`DocumentPartStream`](./documentpartstream/) ملكية.
 
 ### أمثلة
 
@@ -41,22 +43,22 @@ public void DocumentPartsFileNames()
     Document doc = new Document(MyDir + "Rendering.docx");
     string outFileName = "SavingCallback.DocumentPartsFileNames.html";
 
-    // قم بإنشاء كائن "HtmlFixedSaveOptions" ، والذي يمكننا تمريره إلى طريقة "Save" الخاصة بالمستند
+    // قم بإنشاء كائن "HtmlFixedSaveOptions"، والذي يمكننا تمريره إلى طريقة "حفظ" المستند
     // لتعديل كيفية تحويل المستند إلى HTML.
     HtmlSaveOptions options = new HtmlSaveOptions();
 
-    // إذا حفظنا المستند بشكل طبيعي ، فسيكون هناك ناتج HTML واحد
-    // مستند بجميع محتويات المستند المصدر.
-    // تعيين خاصية "DocumentSplitCriteria" إلى "DocumentSplitCriteria.SectionBreak" إلى
-    // احفظ وثيقتنا في عدة ملفات HTML: واحد لكل قسم.
+    // إذا قمنا بحفظ المستند بشكل طبيعي، فسيكون هناك مخرج HTML واحد
+    // مستند يحتوي على جميع محتويات المستند المصدر.
+    // قم بتعيين خاصية "DocumentSplitCriteria" على "DocumentSplitCriteria.SectionBreak" إلى
+    // احفظ وثيقتنا في ملفات HTML متعددة: ملف واحد لكل قسم.
     options.DocumentSplitCriteria = DocumentSplitCriteria.SectionBreak;
 
-    // تعيين رد اتصال مخصص لخاصية "DocumentPartSavingCallback" لتغيير منطق حفظ جزء المستند.
+    // قم بتعيين رد اتصال مخصص للخاصية "DocumentPartSavingCallback" لتغيير منطق حفظ جزء المستند.
     options.DocumentPartSavingCallback = new SavedDocumentPartRename(outFileName, options.DocumentSplitCriteria);
 
-    // إذا قمنا بتحويل مستند يحتوي على صور إلى html ، فسننتهي بملف html واحد يرتبط بعدة صور.
-    // ستكون كل صورة في شكل ملف في نظام الملفات المحلي.
-    // يوجد أيضًا رد اتصال يمكنه تخصيص اسم وموقع نظام الملفات لكل صورة.
+    // إذا قمنا بتحويل مستند يحتوي على صور إلى html، فسوف نحصل في النهاية على ملف html واحد يرتبط بعدة صور.
+    // ستكون كل صورة على شكل ملف في نظام الملفات المحلي.
+    // يوجد أيضًا رد اتصال يمكنه تخصيص الاسم وموقع نظام الملفات لكل صورة.
     options.ImageSavingCallback = new SavedImageRename(outFileName);
 
     doc.Save(ArtifactsDir + outFileName, options);
@@ -75,7 +77,7 @@ private class SavedDocumentPartRename : IDocumentPartSavingCallback
 
     void IDocumentPartSavingCallback.DocumentPartSaving(DocumentPartSavingArgs args)
     {
-        // يمكننا الوصول إلى المستند المصدر بالكامل عبر خاصية "المستند".
+        // يمكننا الوصول إلى المستند المصدر بأكمله عبر خاصية "المستند".
         Assert.True(args.Document.OriginalFileName.EndsWith("Rendering.docx"));
 
         string partType = string.Empty;
@@ -98,8 +100,8 @@ private class SavedDocumentPartRename : IDocumentPartSavingCallback
 
         string partFileName = $"{mOutFileName} part {++mCount}, of type {partType}{Path.GetExtension(args.DocumentPartFileName)}";
 
-        // فيما يلي طريقتان لتحديد مكان حفظ Aspose.Words كل جزء من المستند.
-        // 1 - حدد اسم ملف لملف جزء الإخراج:
+        // فيما يلي طريقتان لتحديد المكان الذي سيحفظ فيه Aspose.Words كل جزء من المستند.
+        // 1 - قم بتعيين اسم ملف لملف جزء الإخراج:
         args.DocumentPartFileName = partFileName;
 
         // 2 - إنشاء دفق مخصص لملف جزء الإخراج:
@@ -128,8 +130,8 @@ public class SavedImageRename : IImageSavingCallback
     {
         string imageFileName = $"{mOutFileName} shape {++mCount}, of type {args.CurrentShape.ShapeType}{Path.GetExtension(args.ImageFileName)}";
 
-        // فيما يلي طريقتان لتحديد مكان حفظ Aspose.Words كل جزء من المستند.
-        // 1 - حدد اسم ملف لملف الصورة الناتج:
+        // فيما يلي طريقتان لتحديد المكان الذي سيحفظ فيه Aspose.Words كل جزء من المستند.
+        // 1 - قم بتعيين اسم ملف لملف الصورة الناتج:
         args.ImageFileName = imageFileName;
 
         // 2 - إنشاء دفق مخصص لملف الصورة الناتج:

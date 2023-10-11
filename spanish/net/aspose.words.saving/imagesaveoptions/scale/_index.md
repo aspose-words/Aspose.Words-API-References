@@ -3,7 +3,7 @@ title: ImageSaveOptions.Scale
 second_title: Referencia de API de Aspose.Words para .NET
 description: ImageSaveOptions propiedad. Obtiene o establece el factor de zoom para las imágenes generadas.
 type: docs
-weight: 140
+weight: 150
 url: /es/net/aspose.words.saving/imagesaveoptions/scale/
 ---
 ## ImageSaveOptions.Scale property
@@ -16,7 +16,7 @@ public float Scale { get; set; }
 
 ### Observaciones
 
-El valor predeterminado es 1.0. El valor debe ser mayor que 0.
+El valor predeterminado es 1,0. El valor debe ser mayor que 0.
 
 ### Ejemplos
 
@@ -27,11 +27,11 @@ Document doc = new Document(MyDir + "Office math.docx");
 
 OfficeMath math = (OfficeMath)doc.GetChild(NodeType.OfficeMath, 0, true);
 
-// Crear un objeto "ImageSaveOptions" para pasar al método "Guardar" del renderizador de nodos para modificar
-// cómo convierte el nodo OfficeMath en una imagen.
+// Crea un objeto "ImageSaveOptions" para pasarlo al método "Guardar" del renderizador de nodos para modificarlo
+// cómo representa el nodo OfficeMath en una imagen.
 ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.Png);
 
-// Establezca la propiedad "Escala" en 5 para representar el objeto cinco veces su tamaño original.
+// Establece la propiedad "Escala" en 5 para representar el objeto cinco veces su tamaño original.
 saveOptions.Scale = 5;
 
 math.GetMathRenderer().Save(ArtifactsDir + "Shape.RenderOfficeMath.png", saveOptions);
@@ -48,22 +48,22 @@ builder.Writeln("Hello world!");
 builder.InsertImage(ImageDir + "Logo.jpg");
 
 // Cuando guardamos el documento como una imagen, podemos pasar un objeto SaveOptions a
-// edite la imagen mientras la operación de guardado la renderiza.
+// edita la imagen mientras la operación de guardar la representa.
 ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Png)
 {
     // Podemos ajustar estas propiedades para cambiar el brillo y el contraste de la imagen.
-    // Ambos están en una escala de 0-1 y están en 0,5 por defecto.
+    // Ambos están en una escala de 0 a 1 y están en 0,5 de forma predeterminada.
     ImageBrightness = 0.3f,
     ImageContrast = 0.7f,
 
     // Podemos ajustar la resolución horizontal y vertical con estas propiedades.
     // Esto afectará las dimensiones de la imagen.
-    // El valor por defecto de estas propiedades es 96.0, para una resolución de 96dpi.
+    // El valor predeterminado para estas propiedades es 96,0, para una resolución de 96 ppp.
     HorizontalResolution = 72f,
     VerticalResolution = 72f,
 
-    // Podemos escalar la imagen usando esta propiedad. El valor predeterminado es 1,0, para una escala del 100 %.
-    // Podemos usar esta propiedad para negar cualquier cambio en las dimensiones de la imagen que causaría cambiar la resolución.
+    // Podemos escalar la imagen usando esta propiedad. El valor predeterminado es 1,0, para una escala del 100%.
+    // Podemos usar esta propiedad para negar cualquier cambio en las dimensiones de la imagen que causaría el cambio de resolución.
     Scale = 96f / 72f
 };
 

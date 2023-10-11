@@ -1,14 +1,14 @@
 ---
 title: Enum TextureAlignment
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Drawing.TextureAlignment énumération. Spécifie lalignement du carrelage du remplissage de texture.
+description: Aspose.Words.Drawing.TextureAlignment énumération. Spécifie lalignement pour le carrelage du remplissage texturé.
 type: docs
-weight: 1220
+weight: 1370
 url: /fr/net/aspose.words.drawing/texturealignment/
 ---
 ## TextureAlignment enumeration
 
-Spécifie l'alignement du carrelage du remplissage de texture.
+Spécifie l'alignement pour le carrelage du remplissage texturé.
 
 ```csharp
 public enum TextureAlignment
@@ -25,13 +25,13 @@ public enum TextureAlignment
 | Center | `4` | Alignement de la texture centrale. |
 | Right | `5` | Alignement de la texture à droite. |
 | BottomLeft | `6` | Alignement de la texture en bas à gauche. |
-| Bottom | `7` | Alignement de la texture du bas. |
+| Bottom | `7` | Alignement de la texture inférieure. |
 | BottomRight | `8` | Alignement de la texture en bas à droite. |
 | None | `9` | Aucun alignement de texture. |
 
 ### Exemples
 
-Montre comment remplir et recouvrir la texture à l'intérieur de la forme.
+Montre comment remplir et recouvrir la texture à l’intérieur de la forme.
 
 ```csharp
 Document doc = new Document();
@@ -43,7 +43,7 @@ Shape shape = builder.InsertShape(ShapeType.Rectangle, 80, 80);
 shape.Fill.PresetTextured(PresetTexture.Canvas);
 shape.Fill.TextureAlignment = TextureAlignment.TopRight;
 
-// Utilisez l'option de conformité pour définir la forme à l'aide de DML si vous souhaitez obtenir "TextureAlignment"
+// Utilisez l'option de conformité pour définir la forme en utilisant DML si vous souhaitez obtenir "TextureAlignment"
 // propriété après l'enregistrement du document.
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions { Compliance = OoxmlCompliance.Iso29500_2008_Strict };
 

@@ -1,14 +1,14 @@
 ---
 title: HeaderFooter.IsHeader
 second_title: Aspose.Words för .NET API Referens
-description: HeaderFooter fast egendom. Sant om detta Sidhuvud objektet är en header.
+description: HeaderFooter fast egendom. Sant om dettaHeaderFooter objektet är en header.
 type: docs
 weight: 30
 url: /sv/net/aspose.words/headerfooter/isheader/
 ---
 ## HeaderFooter.IsHeader property
 
-Sant om detta **Sidhuvud** objektet är en header.
+Sant om detta[`HeaderFooter`](../) objektet är en header.
 
 ```csharp
 public bool IsHeader { get; }

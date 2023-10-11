@@ -16,7 +16,7 @@ public int ListId { get; }
 
 ### Osservazioni
 
-Normalmente non è necessario utilizzare questa proprietà. Ma se lo usi, normalmente lo fai insieme a[`GetListByListId`](../../listcollection/getlistbylistid/) metodo per trovare una lista in base al suo identificatore.
+Normalmente non è necessario utilizzare questa proprietà. Ma se lo usi, normalmente lo fai insieme a[`GetListByListId`](../../listcollection/getlistbylistid/) metodo per trovare un elenco in base al suo identificatore.
 
 ### Esempi
 
@@ -26,11 +26,9 @@ Mostra come verificare le proprietà del documento proprietario degli elenchi.
 Document doc = new Document();
 
 ListCollection lists = doc.Lists;
-
 Assert.AreEqual(doc, lists.Document);
 
 List list = lists.Add(ListTemplate.BulletDefault);
-
 Assert.AreEqual(doc, list.Document);
 
 Console.WriteLine("Current list count: " + lists.Count);
@@ -39,7 +37,7 @@ Console.WriteLine("ListId: " + list.ListId);
 Console.WriteLine("List is the same by ListId: " + (lists.GetListByListId(1).Equals(list)));
 ```
 
-Mostra come generare in output tutti i paragrafi di un documento che sono voci di elenco.
+Mostra come restituire tutti i paragrafi in un documento che sono elementi di elenco.
 
 ```csharp
 Document doc = new Document();

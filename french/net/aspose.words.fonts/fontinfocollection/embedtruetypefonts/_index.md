@@ -1,14 +1,14 @@
 ---
 title: FontInfoCollection.EmbedTrueTypeFonts
 second_title: Référence de l'API Aspose.Words pour .NET
-description: FontInfoCollection propriété. Spécifie sil faut ou non incorporer des polices TrueType dans un document lors de son enregistrement. La valeur par défaut de cette propriété est faux .
+description: FontInfoCollection propriété. Spécifie sil faut ou non intégrer les polices TrueType dans un document lors de son enregistrement. La valeur par défaut de cette propriété estFAUX .
 type: docs
 weight: 30
 url: /fr/net/aspose.words.fonts/fontinfocollection/embedtruetypefonts/
 ---
 ## FontInfoCollection.EmbedTrueTypeFonts property
 
-Spécifie s'il faut ou non incorporer des polices TrueType dans un document lors de son enregistrement. La valeur par défaut de cette propriété est **faux** .
+Spécifie s'il faut ou non intégrer les polices TrueType dans un document lors de son enregistrement. La valeur par défaut de cette propriété est`FAUX` .
 
 ```csharp
 public bool EmbedTrueTypeFonts { get; set; }
@@ -16,7 +16,7 @@ public bool EmbedTrueTypeFonts { get; set; }
 
 ### Remarques
 
-L'incorporation de polices TrueType permet aux autres de visualiser le document avec les mêmes polices que celles utilisées pour le créer, mais peut augmenter considérablement la taille du document.
+L'intégration de polices TrueType permet à d'autres personnes de visualiser le document avec les mêmes polices que celles utilisées pour le créer, , mais peut augmenter considérablement la taille du document.
 
 Cette option fonctionne uniquement pour les formats DOC, DOCX et RTF.
 

@@ -16,11 +16,11 @@ public LineStyle LineStyle { get; set; }
 
 ### Osservazioni
 
-Se imposti lo stile della linea su nessuno, la larghezza della linea viene automaticamente modificata su zero.
+Se imposti lo stile della linea su nessuno, la larghezza della linea verrà automaticamente modificata su zero.
 
 ### Esempi
 
-Mostra come inserire una stringa racchiusa da un bordo in un documento.
+Mostra come inserire una stringa circondata da un bordo in un documento.
 
 ```csharp
 Document doc = new Document();

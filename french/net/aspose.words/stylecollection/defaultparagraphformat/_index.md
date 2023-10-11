@@ -16,23 +16,21 @@ public ParagraphFormat DefaultParagraphFormat { get; }
 
 ### Remarques
 
-Notez que les valeurs par défaut à l'échelle du document ont été introduites dans Microsoft Word 2007 et sont entièrement prises en charge dans les formats OOXML (Docx) uniquement. Les formats de document antérieurs ne prennent pas en charge la mise en forme des paragraphes par défaut du document.
+Notez que les valeurs par défaut à l'échelle du document ont été introduites dans Microsoft Word 2007 et sont entièrement prises en charge dans les formats OOXML (Docx) uniquement. Les formats de document antérieurs ne prennent pas en charge le formatage de paragraphe par défaut du document.
 
 ### Exemples
 
-Montre comment ajouter un style à la collection de styles d'un document.
+Montre comment ajouter un style à la collection de styles d’un document.
 
 ```csharp
 Document doc = new Document();
-StyleCollection styles = doc.Styles;
 
+StyleCollection styles = doc.Styles;
 // Définissez les paramètres par défaut pour les nouveaux styles que nous pourrons ajouter ultérieurement à cette collection.
 styles.DefaultFont.Name = "Courier New";
-
-// Si nous ajoutons un style du "StyleType.Paragraph", la collection appliquera les valeurs de
+// Si on ajoute un style du "StyleType.Paragraph", la collection appliquera les valeurs de
 // sa propriété "DefaultParagraphFormat" à la propriété "ParagraphFormat" du style.
 styles.DefaultParagraphFormat.FirstLineIndent = 15.0;
-
 // Ajoutez un style, puis vérifiez qu'il possède les paramètres par défaut.
 styles.Add(StyleType.Paragraph, "MyStyle");
 

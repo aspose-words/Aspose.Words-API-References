@@ -3,12 +3,14 @@ title: Class VariableCollection
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.VariableCollection klass. En samling dokumentvariabler.
 type: docs
-weight: 6230
+weight: 6530
 url: /sv/net/aspose.words/variablecollection/
 ---
 ## VariableCollection class
 
 En samling dokumentvariabler.
+
+För att lära dig mer, besök[Arbeta med dokumentegenskaper](https://docs.aspose.com/words/net/work-with-document-properties/) dokumentationsartikel.
 
 ```csharp
 public class VariableCollection : IEnumerable<KeyValuePair<string, string>>
@@ -19,7 +21,7 @@ public class VariableCollection : IEnumerable<KeyValuePair<string, string>>
 | namn | Beskrivning |
 | --- | --- |
 | [Count](../../aspose.words/variablecollection/count/) { get; } | Hämtar antalet element som finns i samlingen. |
-| [Item](../../aspose.words/variablecollection/item/) { get; set; } | Hämtar eller ställer in en dokumentvariabel med det skiftlägesokänsliga namnet. null-värden är inte tillåtna som höger sida av tilldelningen och kommer att ersättas av en tom sträng. (2 indexers) |
+| [Item](../../aspose.words/variablecollection/item/) { get; set; } | Hämtar eller ställer in en dokumentvariabel med det skiftlägesokänsliga namnet. `null` värden är inte tillåtna som en höger sida av uppgiften och kommer att ersättas av en tom sträng. (2 indexers) |
 
 ## Metoder
 

@@ -1,14 +1,14 @@
 ---
 title: FieldAddressBlock.FormatAddressOnCountryOrRegion
 second_title: Aspose.Words for .NET API Referansı
-description: FieldAddressBlock mülk. Adresin POSTCODE Universal Postal Union 2006 tarafından tanımlanan alıcı ülkesine/bölgesine göre biçimlendirilip biçimlendirilmeyeceğini ayarlar.
+description: FieldAddressBlock mülk. Adresin POSTCODE Universal Postal Union 2006 tarafından tanımlandığı şekilde alıcının ülkesine/bölgesine göre biçimlendirilip biçimlendirilmeyeceğini alır veya ayarlar.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.fields/fieldaddressblock/formataddressoncountryorregion/
 ---
 ## FieldAddressBlock.FormatAddressOnCountryOrRegion property
 
-Adresin, POST*CODE (Universal Postal Union 2006) tarafından tanımlanan alıcı ülkesine/bölgesine göre biçimlendirilip biçimlendirilmeyeceğini ayarlar.
+Adresin, POST*CODE (Universal Postal Union 2006) tarafından tanımlandığı şekilde alıcının ülkesine/bölgesine göre biçimlendirilip biçimlendirilmeyeceğini alır veya ayarlar.
 
 ```csharp
 public bool FormatAddressOnCountryOrRegion { get; set; }
@@ -16,7 +16,7 @@ public bool FormatAddressOnCountryOrRegion { get; set; }
 
 ### Örnekler
 
-ADRESBLOCK alanının nasıl ekleneceğini gösterir.
+ADRESSBLOCK alanının nasıl ekleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -27,14 +27,14 @@ FieldAddressBlock field = (FieldAddressBlock)builder.InsertField(FieldType.Field
 Assert.AreEqual(" ADDRESSBLOCK ", field.GetFieldCode());
 
 // Bunu "2" olarak ayarlamak tüm ülkeleri ve bölgeleri içerecektir,
-// ExcludedCountryOrRegionName özelliğinde belirtilen değilse.
+// ExcludedCountryOrRegionName özelliğinde belirtilmediği sürece.
 field.IncludeCountryOrRegionName = "2";
 field.FormatAddressOnCountryOrRegion = true;
 field.ExcludedCountryOrRegionName = "United States";
 field.NameAndAddressFormat = "<Title> <Forename> <Surname> <Address Line 1> <Region> <Postcode> <Country>";
 
-// Varsayılan olarak bu özellik, belgenin ilk karakterinin dil kimliğini içerecektir.
-// Sonucu bu şekilde biçimlendirmek için alan için farklı bir kültür ayarlayabiliriz.
+// Varsayılan olarak bu özellik belgenin ilk karakterinin dil kimliğini içerecektir.
+// Sonucun bu şekilde formatlanması için alana farklı bir kültür ayarlayabiliriz.
 field.LanguageId = new CultureInfo("en-US").LCID.ToString();
 
 Assert.AreEqual(

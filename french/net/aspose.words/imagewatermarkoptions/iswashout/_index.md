@@ -1,14 +1,14 @@
 ---
 title: ImageWatermarkOptions.IsWashout
 second_title: Référence de l'API Aspose.Words pour .NET
-description: ImageWatermarkOptions propriété. Obtient ou définit une valeur booléenne responsable de leffet de lavage du filigrane. La valeur par défaut est True.
+description: ImageWatermarkOptions propriété. Obtient ou définit une valeur booléenne responsable de leffet de délavage du filigrane. La valeur par défaut estvrai .
 type: docs
 weight: 20
 url: /fr/net/aspose.words/imagewatermarkoptions/iswashout/
 ---
 ## ImageWatermarkOptions.IsWashout property
 
-Obtient ou définit une valeur booléenne responsable de l'effet de lavage du filigrane. La valeur par défaut est True.
+Obtient ou définit une valeur booléenne responsable de l'effet de délavage du filigrane. La valeur par défaut est`vrai` .
 
 ```csharp
 public bool IsWashout { get; set; }
@@ -16,13 +16,13 @@ public bool IsWashout { get; set; }
 
 ### Exemples
 
-Montre comment créer un filigrane à partir d'une image dans le système de fichiers local.
+Montre comment créer un filigrane à partir d’une image dans le système de fichiers local.
 
 ```csharp
 Document doc = new Document();
 
             // Modifier l'apparence du filigrane de l'image avec un objet ImageWatermarkOptions,
-            // puis passez-le lors de la création d'un filigrane à partir d'un fichier image.
+            // puis transmettez-le en créant un filigrane à partir d'un fichier image.
             ImageWatermarkOptions imageWatermarkOptions = new ImageWatermarkOptions();
             imageWatermarkOptions.Scale = 5;
             imageWatermarkOptions.IsWashout = false;

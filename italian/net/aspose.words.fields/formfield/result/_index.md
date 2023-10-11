@@ -16,15 +16,15 @@ public string Result { get; set; }
 
 ### Osservazioni
 
-Per un campo modulo di testo il risultato è il testo che si trova nel campo.
+Per un campo modulo di testo il risultato è il testo presente nel campo.
 
 Per un campo modulo casella di controllo il risultato può essere "1" o "0" per indicare selezionato o deselezionato.
 
-Per un campo del modulo a discesa il risultato è la stringa selezionata nel menu a discesa.
+Per un campo modulo a discesa il risultato è la stringa selezionata nel menu a discesa.
 
-Ambientazione`Result` per un campo modulo di testo non si applica il formato testo specificato in[`TextInputFormat`](../textinputformat/) . Se vuoi impostare un valore e applicare il formato , usa il[`SetTextInputValue`](../settextinputvalue/) metodo.
+Collocamento`Result` per un campo modulo testo non si applica il testo format specificato in[`TextInputFormat`](../textinputformat/) . Se desideri impostare un valore e applicare il formato , utilizza il file[`SetTextInputValue`](../settextinputvalue/) metodo.
 
-Per un campo modulo di testo il[`TextInputDefault`](../textinputdefault/) il valore viene applicato se*value* è`nullo`.
+Per un campo modulo di testo il[`TextInputDefault`](../textinputdefault/) il valore viene applicato se*value* È`nullo`.
 
 ### Esempi
 
@@ -43,7 +43,7 @@ Assert.AreEqual("MyComboBox", comboBox.Name);
 Assert.AreEqual(FieldType.FieldFormDropDown, comboBox.Type);
 Assert.AreEqual("Apple", comboBox.Result);
 
-// Il campo del modulo apparirà sotto forma di un tag html "select".
+// Il campo del modulo apparirà sotto forma di tag html "seleziona".
 doc.Save(ArtifactsDir + "FormFields.Create.html");
 ```
 

@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTagRangeStart.GetChildNodes
 second_title: Aspose.Words per .NET API Reference
-description: StructuredDocumentTagRangeStart metodo. Restituisce una raccolta live di nodi figlio che corrispondono ai tipi specificati.
+description: StructuredDocumentTagRangeStart metodo. Restituisce una raccolta attiva di nodi figlio che corrispondono ai tipi specificati.
 type: docs
 weight: 210
 url: /it/net/aspose.words.markup/structureddocumenttagrangestart/getchildnodes/
 ---
 ## StructuredDocumentTagRangeStart.GetChildNodes method
 
-Restituisce una raccolta live di nodi figlio che corrispondono ai tipi specificati.
+Restituisce una raccolta attiva di nodi figlio che corrispondono ai tipi specificati.
 
 ```csharp
 public NodeCollection GetChildNodes(NodeType nodeType, bool isDeep)
@@ -24,9 +24,9 @@ StructuredDocumentTagRangeStart tag =
     doc.GetChildNodes(NodeType.StructuredDocumentTagRangeStart, true)[0] as StructuredDocumentTagRangeStart;
 
 Console.WriteLine("StructuredDocumentTagRangeStart values:");
-Console.WriteLine($"\t|Child nodes count: {tag.ChildNodes.Count}\n");
+Console.WriteLine($"\t|Child nodes count: {tag.GetChildNodes(NodeType.Any, false).Count}\n");
 
-foreach (Node node in tag.ChildNodes)
+foreach (Node node in tag.GetChildNodes(NodeType.Any, false))
     Console.WriteLine($"\t|Child node type: {node.NodeType}");
 
 foreach (Node node in tag.GetChildNodes(NodeType.Run, true))

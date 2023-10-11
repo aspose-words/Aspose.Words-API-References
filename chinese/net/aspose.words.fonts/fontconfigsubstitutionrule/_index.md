@@ -3,12 +3,14 @@ title: Class FontConfigSubstitutionRule
 second_title: Aspose.Words for .NET API 参考
 description: Aspose.Words.Fonts.FontConfigSubstitutionRule 班级. 字体配置替换规则
 type: docs
-weight: 2710
+weight: 2890
 url: /zh/net/aspose.words.fonts/fontconfigsubstitutionrule/
 ---
 ## FontConfigSubstitutionRule class
 
 字体配置替换规则。
+
+要了解更多信息，请访问[使用字体](https://docs.aspose.com/words/net/working-with-fonts/)文档文章。
 
 ```csharp
 public class FontConfigSubstitutionRule : FontSubstitutionRule
@@ -25,11 +27,11 @@ public class FontConfigSubstitutionRule : FontSubstitutionRule
 | 姓名 | 描述 |
 | --- | --- |
 | [IsFontConfigAvailable](../../aspose.words.fonts/fontconfigsubstitutionrule/isfontconfigavailable/)() | 检查 fontconfig 实用程序是否可用。 |
-| [ResetCache](../../aspose.words.fonts/fontconfigsubstitutionrule/resetcache/)() | 重置fontconfig调用结果的缓存。 |
+| [ResetCache](../../aspose.words.fonts/fontconfigsubstitutionrule/resetcache/)() | 重置 fontconfig 调用结果的缓存。 |
 
 ### 评论
 
-如果原始字体不可用，此规则使用 Linux（和其他类 Unix）平台上的 fontconfig 实用程序来获取替换 。
+如果原始字体不可用，则此规则使用 Linux（和其他类 Unix）平台上的 fontconfig 实用程序来获取替换 。
 
 如果 fontconfig 实用程序不可用，则此规则将被忽略。
 
@@ -56,7 +58,7 @@ if (isWindows)
 bool isLinuxOrMac =
     new[] {PlatformID.Unix, PlatformID.MacOSX}.Any(p => Environment.OSVersion.Platform == p);
 
-// 在 Linux/Mac 上，我们可以访问它，并且能够执行操作。
+// 在 Linux/Mac 上，我们将可以访问它，并且能够执行操作。
 if (isLinuxOrMac)
 {
     Assert.True(fontConfigSubstitution.Enabled);

@@ -1,14 +1,14 @@
 ---
 title: ParagraphFormat.Shading
 second_title: Aspose.Words لمراجع .NET API
-description: ParagraphFormat ملكية. إرجاع كائن تظليل يشير إلى تنسيق التظليل للفقرة.
+description: ParagraphFormat ملكية. إرجاع أShading الكائن الذي يشير إلى تنسيق التظليل للفقرة.
 type: docs
-weight: 270
+weight: 280
 url: /ar/net/aspose.words/paragraphformat/shading/
 ---
 ## ParagraphFormat.Shading property
 
-إرجاع كائن تظليل يشير إلى تنسيق التظليل للفقرة.
+إرجاع أ[`Shading`](../../shading/) الكائن الذي يشير إلى تنسيق التظليل للفقرة.
 
 ```csharp
 public Shading Shading { get; }

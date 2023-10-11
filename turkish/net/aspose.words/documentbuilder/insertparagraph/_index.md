@@ -1,14 +1,14 @@
 ---
 title: DocumentBuilder.InsertParagraph
 second_title: Aspose.Words for .NET API Referansı
-description: DocumentBuilder yöntem. Belgeye bir paragraf sonu ekler.
+description: DocumentBuilder yöntem. Belgeye paragraf sonu ekler.
 type: docs
-weight: 400
+weight: 430
 url: /tr/net/aspose.words/documentbuilder/insertparagraph/
 ---
 ## DocumentBuilder.InsertParagraph method
 
-Belgeye bir paragraf sonu ekler.
+Belgeye paragraf sonu ekler.
 
 ```csharp
 public Paragraph InsertParagraph()
@@ -16,13 +16,15 @@ public Paragraph InsertParagraph()
 
 ### Geri dönüş değeri
 
-Yeni eklenen paragraf düğümü. Aynı düğümdür[`CurrentParagraph`](../currentparagraph/).
+Az önce eklenen paragraf düğümü. Bu aynı düğüm[`CurrentParagraph`](../currentparagraph/).
 
 ### Notlar
 
-tarafından belirtilen geçerli paragraf biçimlendirmesi[`ParagraphFormat`](../paragraphformat/) mülk kullanılır.
+Tarafından belirtilen geçerli paragraf biçimlendirmesi[`ParagraphFormat`](../paragraphformat/) mülkiyet kullanılır.
 
-Geçerli paragrafı ikiye böler. Paragrafı yerleştirdikten sonra, imleç yeni paragrafın başına gelir.
+Geçerli paragrafı ikiye böler. Paragrafı ekledikten sonra imleç yeni paragrafın başına yerleştirilir.
+
+Geçerli imleç konumuna paragraf sonu eklemek mümkün değilse bir istisna oluşturulur.
 
 ### Örnekler
 
@@ -46,7 +48,7 @@ paragraphFormat.AddSpaceBetweenFarEastAndAlpha = true;
 paragraphFormat.AddSpaceBetweenFarEastAndDigit = true;
 paragraphFormat.KeepTogether = true;
 
-// "Writeln" yöntemi, metni ekledikten sonra paragrafı sonlandırır
+// "Writeln" yöntemi, metin eklendikten sonra paragrafı sonlandırır
 // ve ardından yeni bir paragraf ekleyerek yeni bir satır başlatır.
 builder.Writeln("Hello world!");
 

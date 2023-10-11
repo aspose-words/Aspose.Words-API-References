@@ -1,14 +1,14 @@
 ---
 title: Document.JoinRunsWithSameFormatting
 second_title: Aspose.Words for .NET API Referansı
-description: Document yöntem. Belgenin tüm paragraflarında aynı biçimlendirmeyle çalıştırmaları birleştirir.
+description: Document yöntem. Birleştirmeler belgenin tüm paragraflarında aynı formatta çalışır.
 type: docs
-weight: 600
+weight: 640
 url: /tr/net/aspose.words/document/joinrunswithsameformatting/
 ---
 ## Document.JoinRunsWithSameFormatting method
 
-Belgenin tüm paragraflarında aynı biçimlendirmeyle çalıştırmaları birleştirir.
+Birleştirmeler belgenin tüm paragraflarında aynı formatta çalışır.
 
 ```csharp
 public int JoinRunsWithSameFormatting()
@@ -16,32 +16,32 @@ public int JoinRunsWithSameFormatting()
 
 ### Geri dönüş değeri
 
-Gerçekleştirilen birleştirme sayısı. Ne zaman **N** bitişik koşular birleştirilir, sayılırlar **N - 1** katılır.
+Gerçekleştirilen birleştirme sayısı. Ne zaman **N** bitişik koşular birleştiriliyor, sayılırlar **N - 1** katıldı.
 
 ### Notlar
 
-Bu bir optimizasyon yöntemidir. Bazı belgeler aynı biçimlendirmeye sahip bitişik çalıştırmalar içerir. Genellikle bu, bir belge yoğun bir şekilde manuel olarak düzenlendiyse oluşur. Bu çalıştırmalara katılarak belge boyutunu küçültebilir ve daha fazla işlemeyi hızlandırabilirsiniz.
+Bu bir optimizasyon yöntemidir. Bazı belgeler aynı biçimlendirmeye sahip bitişik çalışmalar içerir. Genellikle bu, bir belge yoğun bir şekilde manuel olarak düzenlendiyse meydana gelir. Bu işlemleri birleştirerek belge boyutunu küçültebilir ve daha sonraki işlemleri hızlandırabilirsiniz.
 
-İşlem her kontrol eder[`Paragraph`](../../paragraph/) bitişik için belgedeki düğüm[`Run`](../../run/) aynı özelliklere sahip düğümler. run oluşturma ve değiştirme düzenleme oturumlarını izlemek için kullanılan benzersiz tanımlayıcıları yok sayar. Her birleştirme sırasındaki ilk çalıştırma, tüm metni biriktirir. Kalan çalıştırmalar belgeden silinir.
+Operasyon her şeyi kontrol ediyor[`Paragraph`](../../paragraph/) bitişik için belgedeki düğüm[`Run`](../../run/) düğümleri aynı özelliklere sahip. run oluşturma ve değiştirme düzenleme oturumlarını izlemek için kullanılan benzersiz tanımlayıcıları yok sayar. Her birleştirme sırasındaki ilk çalıştırma tüm metni biriktirir. Remaining çalıştırmalar belgeden silinir.
 
 ### Örnekler
 
-Gereksiz çalıştırmaları azaltmak için bir belgedeki çalıştırmaların nasıl birleştirileceğini gösterir.
+Gereksiz çalıştırmaları azaltmak için bir belgede çalıştırmaların nasıl birleştirileceğini gösterir.
 
 ```csharp
-// Aynı biçimlendirmeye sahip bitişik metin dizileri içeren bir belge açın,
-// aynı paragrafı Microsoft Word'de birden çok kez düzenlersek genellikle oluşur.
+// Aynı biçimlendirmeye sahip bitişik metin dizilerini içeren bir belge açın,
+// Microsoft Word'de aynı paragrafı birden çok kez düzenlediğimizde sıklıkla ortaya çıkar.
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// Bu çalıştırmalardan herhangi biri aynı biçimlendirmeye bitişikse,
-// daha sonra belge basitleştirilebilir.
+// Bu çalıştırmalardan herhangi biri aynı biçimlendirmeyle bitişikse,
+// o zaman belge basitleştirilebilir.
 Assert.AreEqual(317, doc.GetChildNodes(NodeType.Run, true).Count);
 
-// Bu tür çalıştırmaları bu yöntemle birleştirin ve gerçekleşecek çalıştırma birleştirmelerinin sayısını doğrulayın.
+// Bu tür çalıştırmaları bu yöntemle birleştirin ve gerçekleşecek çalıştırma birleştirme sayısını doğrulayın.
 Assert.AreEqual(121, doc.JoinRunsWithSameFormatting());
 
-// Birleştirme sayısı ve birleştirmeden sonra sahip olduğumuz çalıştırma sayısı
-// başlangıçta sahip olduğumuz çalıştırma sayısını toplamalıyız.
+// Birleştirme sayısı ve birleştirme sonrasında sahip olduğumuz çalıştırma sayısı
+// başlangıçta yaptığımız çalıştırma sayısını toplamalıyız.
 Assert.AreEqual(196, doc.GetChildNodes(NodeType.Run, true).Count);
 ```
 

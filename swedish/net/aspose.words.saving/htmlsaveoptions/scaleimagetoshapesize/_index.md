@@ -20,9 +20,11 @@ En bild i ett Microsoft Word-dokument är en form. Formen har en storlek och ima
 
 För att visa en bild i webbläsaren måste den skalas till formstorleken. `ScaleImageToShapeSize` egenskapen styr var skalningen av image sker: i Aspose.Words under export till HTML eller i webbläsaren när dokumentet visas.
 
-När`ScaleImageToShapeSize` är`Sann` , skalas bilden av Aspose.Words med högkvalitativ skalning under export till HTML. När`ScaleImageToShapeSize` är`falsk`bilden matas ut med sin ursprungliga storlek och webbläsaren måste skala den.
+När`ScaleImageToShapeSize` är`Sann` , skalas bilden av Aspose.Words med högkvalitativ skalning under export till HTML. När`ScaleImageToShapeSize` är`falsk`, bilden matas ut med sin ursprungliga storlek och webbläsaren måste skala den.
 
-I allmänhet gör webbläsare snabb skalning av dålig kvalitet. Som ett resultat får du normalt bättre visningskvalitet i webbläsaren och mindre filstorlek när`ScaleImageToShapeSize` är`Sann` , men bättre utskriftskvalitet och snabbare konvertering när`ScaleImageToShapeSize` är`falsk`.
+allmänhet gör webbläsare snabb skalning av dålig kvalitet. Som ett resultat får du normalt bättre visningskvalitet i webbläsaren och mindre filstorlek när`ScaleImageToShapeSize` är`Sann` , men bättre utskriftskvalitet och snabbare konvertering när`ScaleImageToShapeSize` är`falsk`.
+
+Förutom former som innehåller individuella rasterbilder, påverkar det här alternativet även gruppformer bestående av rasterbilder. Om`ScaleImageToShapeSize` är`falsk` och en gruppform innehåller rasterbilder vars inneboende upplösning är högre än värdet som anges i[`ImageResolution`](../imageresolution/), Aspose.Words kommer att öka renderingsupplösningen för den gruppen. Detta gör det möjligt att bättre bevara kvaliteten på grupperade högupplösta bilder när du sparar till HTML.
 
 ### Exempel
 

@@ -1,14 +1,14 @@
 ---
 title: OleFormat.OleIcon
 second_title: Aspose.Words لمراجع .NET API
-description: OleFormat ملكية. الحصول على وجه الرسم لكائن OLE. متي حقيقي  يتم عرض كائن OLE كرمز. متى خاطئة  يتم عرض كائن OLE كمحتوى.
+description: OleFormat ملكية. الحصول على مظهر الرسم لكائن OLE. متىحقيقي  يتم عرض كائن OLE كرمز. متىخطأ شنيع  يتم عرض كائن OLE كمحتوى.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.drawing/oleformat/oleicon/
 ---
 ## OleFormat.OleIcon property
 
-الحصول على وجه الرسم لكائن OLE. متي **حقيقي** ، يتم عرض كائن OLE كرمز. متى **خاطئة** ، يتم عرض كائن OLE كمحتوى.
+الحصول على مظهر الرسم لكائن OLE. متى`حقيقي` ، يتم عرض كائن OLE كرمز. متى`خطأ شنيع` ، يتم عرض كائن OLE كمحتوى.
 
 ```csharp
 public bool OleIcon { get; }
@@ -16,7 +16,7 @@ public bool OleIcon { get; }
 
 ### ملاحظات
 
-لا يسمح Aspose.Words بتعيين هذه الخاصية لتجنب الالتباس. إذا كنت قادرًا على تغيير جانب الرسم في Aspose.Words ، فسيظل Microsoft Word يعرض كائن OLE في جانب الرسم الأصلي حتى تقوم بتحرير أو تحديث كائن OLE في Microsoft Word.
+لا يسمح Aspose.Words بتعيين هذه الخاصية لتجنب الالتباس. إذا تمكنت من تغيير جانب الرسم في Aspose.Words، فسيظل Microsoft Word يعرض كائن OLE في جانب الرسم original الخاص به حتى تقوم بتحرير كائن OLE أو تحديثه في Microsoft Word.
 
 ### أمثلة
 
@@ -26,7 +26,7 @@ public bool OleIcon { get; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// تضمين رسم Microsoft Visio في المستند ككائن OLE.
+// قم بتضمين رسم Microsoft Visio في المستند ككائن OLE.
 builder.InsertOleObject(ImageDir + "Microsoft Visio drawing.vsd", "Package", false, false, null);
 
 // أدخل رابطًا للملف في نظام الملفات المحلي واعرضه كرمز.
@@ -38,8 +38,8 @@ Shape[] shapes = doc.GetChildNodes(NodeType.Shape, true).OfType<Shape>().ToArray
 Assert.AreEqual(2, shapes.Length);
 Assert.AreEqual(2, shapes.Count(s => s.ShapeType == ShapeType.OleObject));
 
-// إذا احتوى الشكل على كائن OLE ، فسيكون له خاصية "تنسيق OleFormat" صالحة ،
-// التي يمكننا استخدامها للتحقق من بعض جوانب الشكل.
+// إذا كان الشكل يحتوي على كائن OLE، فسيكون له خاصية "OleFormat" صالحة،
+// والتي يمكننا استخدامها للتحقق من بعض جوانب الشكل.
 OleFormat oleFormat = shapes[0].OleFormat;
 
 Assert.AreEqual(false, oleFormat.IsLink);
@@ -57,7 +57,7 @@ Assert.AreEqual("Microsoft Visio drawing.vsd", oleFormat.IconCaption);
 
 doc.Save(ArtifactsDir + "Shape.OleLinks.docx");
 
-// إذا كان الكائن يحتوي على بيانات OLE ، فيمكننا الوصول إليها باستخدام دفق.
+// إذا كان الكائن يحتوي على بيانات OLE، فيمكننا الوصول إليه باستخدام الدفق.
 using (MemoryStream stream = oleFormat.GetOleEntry("\x0001CompObj"))
 {
     byte[] oleEntryBytes = stream.ToArray();

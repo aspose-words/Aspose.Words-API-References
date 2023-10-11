@@ -16,19 +16,19 @@ public FontInfoCollection FontInfos { get; }
 
 ### Observaciones
 
-Esta colección de definiciones de fuentes se carga tal cual desde el documento. Las definiciones de fuentes pueden ser opcionales, faltantes o incompletas en algunos documentos.
+Esta colección de definiciones de fuentes se carga tal cual desde el documento. Las definiciones de fuentes pueden ser opcionales, faltar o estar incompletas en algunos documentos.
 
-No confíe en esta colección para asegurarse de que se usa una fuente en particular en el documento. Solo debe usar esta colección para obtener información sobre las fuentes que se pueden usar en el documento.
+No confíe en esta colección para determinar si se utiliza una fuente concreta en el documento. Sólo debe utilizar esta colección para obtener información sobre las fuentes que podrían utilizarse en el documento.
 
 ### Ejemplos
 
-Muestra cómo imprimir los detalles de qué fuentes están presentes en un documento.
+Muestra cómo imprimir los detalles de las fuentes presentes en un documento.
 
 ```csharp
 Document doc = new Document(MyDir + "Embedded font.docx");
 
 FontInfoCollection allFonts = doc.FontInfos;
-// Imprime todas las fuentes usadas y no usadas en el documento.
+// Imprime todas las fuentes usadas y no utilizadas en el documento.
 for (int i = 0; i < allFonts.Count; i++)
 {
     Console.WriteLine($"Font index #{i}");

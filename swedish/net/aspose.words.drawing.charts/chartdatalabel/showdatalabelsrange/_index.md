@@ -1,14 +1,14 @@
 ---
 title: ChartDataLabel.ShowDataLabelsRange
 second_title: Aspose.Words för .NET API Referens
-description: ChartDataLabel fast egendom. Gör det möjligt att ange om värden från dataetikettområdet ska visas i dataetiketterna. Standardvärdet är falskt.
+description: ChartDataLabel fast egendom. Gör det möjligt att ange om värden från dataetikettområdet ska visas i dataetiketterna. Standardvärdet ärfalsk .
 type: docs
-weight: 80
+weight: 100
 url: /sv/net/aspose.words.drawing.charts/chartdatalabel/showdatalabelsrange/
 ---
 ## ChartDataLabel.ShowDataLabelsRange property
 
-Gör det möjligt att ange om värden från dataetikettområdet ska visas i dataetiketterna. Standardvärdet är falskt.
+Gör det möjligt att ange om värden från dataetikettområdet ska visas i dataetiketterna. Standardvärdet är`falsk` .
 
 ```csharp
 public bool ShowDataLabelsRange { get; set; }
@@ -19,6 +19,7 @@ public bool ShowDataLabelsRange { get; set; }
 Visar hur man applicerar etiketter på datapunkter i ett linjediagram.
 
 ```csharp
+public void DataLabels()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);

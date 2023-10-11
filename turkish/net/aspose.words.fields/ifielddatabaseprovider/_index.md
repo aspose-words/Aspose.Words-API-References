@@ -1,14 +1,14 @@
 ---
 title: Interface IFieldDatabaseProvider
 second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Fields.IFieldDatabaseProvider arayüz. için veri sağlamak üzere bu arayüzü uygulayın.FieldDatabase güncellendiğinde alan.
+description: Aspose.Words.Fields.IFieldDatabaseProvider arayüz. Veri sağlamak için bu arayüzü uygulayın.FieldDatabase güncellendiğinde alan.
 type: docs
-weight: 2520
+weight: 2690
 url: /tr/net/aspose.words.fields/ifielddatabaseprovider/
 ---
 ## IFieldDatabaseProvider interface
 
-için veri sağlamak üzere bu arayüzü uygulayın.[`FieldDatabase`](../fielddatabase/) güncellendiğinde alan.
+Veri sağlamak için bu arayüzü uygulayın.[`FieldDatabase`](../fielddatabase/) güncellendiğinde alan.
 
 ```csharp
 public interface IFieldDatabaseProvider

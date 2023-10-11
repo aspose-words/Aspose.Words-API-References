@@ -3,7 +3,7 @@ title: Enum WebExtensionStoreType
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.WebExtensions.WebExtensionStoreType uppräkning. Räknar upp tillgängliga typer av en webbtilläggsbutik.
 type: docs
-weight: 6510
+weight: 6820
 url: /sv/net/aspose.words.webextensions/webextensionstoretype/
 ---
 ## WebExtensionStoreType enumeration

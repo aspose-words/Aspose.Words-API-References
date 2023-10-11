@@ -16,10 +16,9 @@ public PageLayoutEvent Event { get; }
 
 ### Örnekler
 
-Bir düzen geri çağırma ile düzen değişikliklerinin nasıl izleneceğini gösterir.
+Düzen geri çağrısıyla düzen değişikliklerinin nasıl izleneceğini gösterir.
 
 ```csharp
-[Test]
 public void PageLayoutCallback()
 {
     Document doc = new Document();
@@ -35,8 +34,8 @@ public void PageLayoutCallback()
 }
 
 /// <summary>
-/// Belgeyi sabit bir sayfa biçiminde kaydettiğimizde bize haber verir
-/// ve yerel dosya sistemindeki bir görüntüye sayfa yeniden akışı gerçekleştirdiğimiz bir sayfayı oluşturur.
+/// Belgeyi sabit sayfa formatında kaydettiğimizde bizi bilgilendirir
+/// ve yerel dosya sistemindeki bir görüntüye sayfa yeniden akışı gerçekleştirdiğimiz bir sayfayı işler.
 /// </summary>
 private class RenderPageLayoutCallback : IPageLayoutCallback
 {

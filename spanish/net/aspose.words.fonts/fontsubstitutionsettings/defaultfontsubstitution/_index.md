@@ -1,14 +1,14 @@
 ---
 title: FontSubstitutionSettings.DefaultFontSubstitution
 second_title: Referencia de API de Aspose.Words para .NET
-description: FontSubstitutionSettings propiedad. Configuración relacionada con la regla de sustitución de fuente predeterminada.
+description: FontSubstitutionSettings propiedad. Configuraciones relacionadas con la regla de sustitución de fuentes predeterminada.
 type: docs
 weight: 10
 url: /es/net/aspose.words.fonts/fontsubstitutionsettings/defaultfontsubstitution/
 ---
 ## FontSubstitutionSettings.DefaultFontSubstitution property
 
-Configuración relacionada con la regla de sustitución de fuente predeterminada.
+Configuraciones relacionadas con la regla de sustitución de fuentes predeterminada.
 
 ```csharp
 public DefaultFontSubstitutionRule DefaultFontSubstitution { get; }
@@ -16,7 +16,7 @@ public DefaultFontSubstitutionRule DefaultFontSubstitution { get; }
 
 ### Ejemplos
 
-Muestra cómo configurar la regla de sustitución de fuente predeterminada.
+Muestra cómo configurar la regla de sustitución de fuentes predeterminada.
 
 ```csharp
 Document doc = new Document();
@@ -24,17 +24,17 @@ FontSettings fontSettings = new FontSettings();
 doc.FontSettings = fontSettings;
 
 // Obtenga la regla de sustitución predeterminada dentro de FontSettings.
-// Esta regla sustituirá todas las fuentes faltantes con "Times New Roman".
+// Esta regla sustituirá todas las fuentes que falten por "Times New Roman".
 DefaultFontSubstitutionRule defaultFontSubstitutionRule =
     fontSettings.SubstitutionSettings.DefaultFontSubstitution;
 Assert.True(defaultFontSubstitutionRule.Enabled);
 Assert.AreEqual("Times New Roman", defaultFontSubstitutionRule.DefaultFontName);
 
-// Establecer el sustituto de fuente predeterminado en "Courier New".
+// Establece el sustituto de fuente predeterminado en "Courier New".
 defaultFontSubstitutionRule.DefaultFontName = "Courier New";
 
-// Usando un generador de documentos, agregue algo de texto en una fuente que no tengamos que ver que se lleva a cabo la sustitución,
-// y luego renderiza el resultado en un PDF.
+// Utilizando un generador de documentos, agrega texto en una fuente que no tengamos que ver cómo se realiza la sustitución,
+// y luego renderizar el resultado en un PDF.
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Font.Name = "Missing Font";

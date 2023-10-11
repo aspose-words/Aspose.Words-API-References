@@ -1,14 +1,16 @@
 ---
 title: Class FieldAuthor
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Fields.FieldAuthor classe. Implémente le champ AUTHOR.
+description: Aspose.Words.Fields.FieldAuthor classe. Implémente le champ AUTEUR.
 type: docs
-weight: 1420
+weight: 1570
 url: /fr/net/aspose.words.fields/fieldauthor/
 ---
 ## FieldAuthor class
 
-Implémente le champ AUTHOR.
+Implémente le champ AUTEUR.
+
+Pour en savoir plus, visitez le[Travailler avec des champs](https://docs.aspose.com/words/net/working-with-fields/) article documentaire.
 
 ```csharp
 public class FieldAuthor : Field
@@ -31,8 +33,8 @@ public class FieldAuthor : Field
 | [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | Obtient ou définit si le résultat actuel du champ n'est plus correct (périmé) en raison d'autres modifications apportées au document. |
 | [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Obtient ou définit si le champ est verrouillé (ne doit pas recalculer son résultat). |
 | [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | Obtient ou définit le LCID du champ. |
-| [Result](../../aspose.words.fields/field/result/) { get; set; } | Obtient ou définit le texte qui se trouve entre le séparateur de champ et la fin du champ. |
-| [Separator](../../aspose.words.fields/field/separator/) { get; } | Obtient le nœud qui représente le séparateur de champs. Peut être null. |
+| [Result](../../aspose.words.fields/field/result/) { get; set; } | Obtient ou définit le texte situé entre le séparateur de champ et la fin du champ. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | Obtient le nœud qui représente le séparateur de champ. Peut être`nul` . |
 | [Start](../../aspose.words.fields/field/start/) { get; } | Obtient le nœud qui représente le début du champ. |
 | virtual [Type](../../aspose.words.fields/field/type/) { get; } | Obtient le type de champ Microsoft Word. |
 
@@ -42,14 +44,14 @@ public class FieldAuthor : Field
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Renvoie le texte entre le début du champ et le séparateur de champ (ou la fin du champ s'il n'y a pas de séparateur). Le code de champ et le résultat du champ des champs enfants sont inclus. |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Renvoie le texte entre le début du champ et le séparateur de champ (ou la fin du champ s'il n'y a pas de séparateur). |
-| [Remove](../../aspose.words.fields/field/remove/)() | Supprime le champ du document. Renvoie un nœud juste après le champ. Si la fin du champ est le dernier enfant de son nœud parent, renvoie son paragraphe parent. Si le champ est déjà supprimé, renvoie **nul** . |
+| [Remove](../../aspose.words.fields/field/remove/)() | Supprime le champ du document. Renvoie un nœud juste après le champ. Si la fin du champ est le dernier child de son nœud parent, renvoie son paragraphe parent. Si le champ est déjà supprimé, renvoie`nul` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Effectue la dissociation du champ. |
 | [Update](../../aspose.words.fields/field/update/)() | Effectue la mise à jour du champ. Lance si le champ est déjà mis à jour. |
 | [Update](../../aspose.words.fields/field/update/)(bool) | Effectue une mise à jour du champ. Lance si le champ est déjà mis à jour. |
 
 ### Remarques
 
-Récupère et éventuellement définit le nom de l'auteur du document, tel qu'il est enregistré dans le **Auteur**propriété des propriétés de document intégrées .
+Récupère et définit éventuellement le nom de l'auteur du document, tel qu'enregistré dans le **Auteur** propriété des propriétés du document intégré .
 
 ### Exemples
 
@@ -59,11 +61,11 @@ Montre comment utiliser un champ AUTEUR pour afficher le nom du créateur d'un d
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Les champs AUTHOR tirent leurs résultats de la propriété de document intégrée appelée "Auteur".
+// Les champs AUTEUR tirent leurs résultats de la propriété de document intégrée appelée "Auteur".
 // Si nous créons et enregistrons un document dans Microsoft Word,
 // il aura notre nom d'utilisateur dans cette propriété.
 // Cependant, si nous créons un document par programme en utilisant Aspose.Words,
- // la propriété "Auteur", par défaut, sera une chaîne vide.
+// la propriété "Auteur", par défaut, sera une chaîne vide.
 Assert.AreEqual(string.Empty, doc.BuiltInDocumentProperties.Author);
 
 // Définir un nom d'auteur de sauvegarde pour les champs AUTEUR à utiliser
@@ -77,18 +79,18 @@ field.Update();
 Assert.AreEqual(" AUTHOR ", field.GetFieldCode());
 Assert.AreEqual("Joe Bloggs", field.Result);
 
-// Mise à jour d'un champ AUTEUR contenant une valeur
+// Mise à jour d'un champ AUTEUR qui contient une valeur
 // appliquera cette valeur à la propriété intégrée "Auteur".
 Assert.AreEqual("Joe Bloggs", doc.BuiltInDocumentProperties.Author);
 
-// Changer cette propriété, puis mettre à jour le champ AUTEUR appliquera cette valeur au champ.
+// La modification de cette propriété, puis la mise à jour du champ AUTEUR appliqueront cette valeur au champ.
 doc.BuiltInDocumentProperties.Author = "John Doe";      
 field.Update();
 
 Assert.AreEqual(" AUTHOR ", field.GetFieldCode());
 Assert.AreEqual("John Doe", field.Result);
 
-// Si on met à jour un champ AUTHOR après avoir changé sa propriété "Name",
+// Si on met à jour un champ AUTEUR après avoir changé sa propriété "Nom",
 // alors le champ affichera le nouveau nom et appliquera le nouveau nom à la propriété intégrée.
 field.AuthorName = "Jane Doe";
 field.Update();

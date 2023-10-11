@@ -16,16 +16,16 @@ public int HeightPixels { get; }
 
 ### 例子
 
-显示如何读取形状中图像的属性。
+演示如何读取形状中图像的属性。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 将一个形状插入到包含从我们本地文件系统获取的图像的文档中。
+// 将一个形状插入到文档中，其中包含从本地文件系统获取的图像。
 Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
 
-// 如果形状包含图像，则其 ImageData 属性有效，
+// 如果形状包含图像，则其 ImageData 属性将有效，
 // 它将包含一个 ImageSize 对象。
 ImageSize imageSize = shape.ImageData.ImageSize; 
 
@@ -37,7 +37,7 @@ const double delta = 0.05;
 Assert.AreEqual(95.98d, imageSize.HorizontalResolution, delta);
 Assert.AreEqual(95.98d, imageSize.VerticalResolution, delta);
 
-// 我们可以根据其图像的大小来确定形状的大小，以避免拉伸图像。
+// 我们可以根据图像的大小来确定形状的大小，以避免拉伸图像。
 shape.Width = imageSize.WidthPoints * 2;
 shape.Height = imageSize.HeightPoints * 2;
 

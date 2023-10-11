@@ -20,11 +20,11 @@ public override bool Accept(DocumentVisitor visitor)
 
 ### Returvärde
 
-Falskt om besökaren begärde att uppräkningen skulle sluta.
+`falsk` om besökaren begärde att uppräkningen skulle sluta.
 
 ### Anmärkningar
 
-Anropar DocumentVisitor.VisitFormField.
+Samtal[`VisitFormField`](../../../aspose.words/documentvisitor/visitformfield/).
 
 För mer information se Visitor design mönster.
 
@@ -99,7 +99,7 @@ public void Visitor()
 }
 
 /// <summary>
-/// Besöksimplementering som skriver ut detaljer om formulärfält som den besöker. 
+ /// Besöksimplementering som skriver ut detaljer om formulärfält som den besöker.
 /// </summary>
 public class FormFieldVisitor : DocumentVisitor
 {

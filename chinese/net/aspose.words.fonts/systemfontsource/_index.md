@@ -1,14 +1,16 @@
 ---
 title: Class SystemFontSource
 second_title: Aspose.Words for .NET API 参考
-description: Aspose.Words.Fonts.SystemFontSource 班级. 表示安装到系统中的所有 TrueType 字体
+description: Aspose.Words.Fonts.SystemFontSource 班级. 表示系统中安装的所有 TrueType 字体
 type: docs
-weight: 2870
+weight: 3050
 url: /zh/net/aspose.words.fonts/systemfontsource/
 ---
 ## SystemFontSource class
 
-表示安装到系统中的所有 TrueType 字体。
+表示系统中安装的所有 TrueType 字体。
+
+要了解更多信息，请访问[使用字体](https://docs.aspose.com/words/net/working-with-fonts/)文档文章。
 
 ```csharp
 public class SystemFontSource : FontSourceBase
@@ -18,8 +20,8 @@ public class SystemFontSource : FontSourceBase
 
 | 姓名 | 描述 |
 | --- | --- |
-| [SystemFontSource](systemfontsource/#constructor)() | 克托尔. |
-| [SystemFontSource](systemfontsource/#constructor_1)(int) | 克托尔. |
+| [SystemFontSource](systemfontsource/#constructor)() | 向量. |
+| [SystemFontSource](systemfontsource/#constructor_1)(int) | 向量. |
 
 ## 特性
 
@@ -27,18 +29,18 @@ public class SystemFontSource : FontSourceBase
 | --- | --- |
 | [Priority](../../aspose.words.fonts/fontsourcebase/priority/) { get; } | 返回字体源优先级。 |
 | override [Type](../../aspose.words.fonts/systemfontsource/type/) { get; } | 返回字体源的类型。 |
-| [WarningCallback](../../aspose.words.fonts/fontsourcebase/warningcallback/) { get; set; } | 当检测到可能导致格式保真度丢失的问题时，在处理字体源期间调用。 |
+| [WarningCallback](../../aspose.words.fonts/fontsourcebase/warningcallback/) { get; set; } | 在处理字体源期间检测到可能导致格式保真度损失的问题时调用。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
 | [GetAvailableFonts](../../aspose.words.fonts/fontsourcebase/getavailablefonts/)() | 返回通过此源可用的字体列表。 |
-| static [GetSystemFontFolders](../../aspose.words.fonts/systemfontsource/getsystemfontfolders/)() | 如果文件夹不可访问，则返回系统字体文件夹或空数组。 |
+| static [GetSystemFontFolders](../../aspose.words.fonts/systemfontsource/getsystemfontfolders/)() | 返回系统字体文件夹或空数组（如果文件夹不可访问）。 |
 
 ### 例子
 
-显示如何访问文档的系统字体源和设置字体替换。
+演示如何访问文档的系统字体源并设置字体替代品。
 
 ```csharp
 Document doc = new Document();
@@ -66,7 +68,7 @@ foreach (string systemFontFolder in SystemFontSource.GetSystemFontFolders())
     Console.WriteLine(systemFontFolder);
 }
 
-// 设置一种存在于 Windows 字体目录中的字体来替代不存在的字体。
+// 设置 Windows Fonts 目录中存在的字体来替代不存在的字体。
 doc.FontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
 doc.FontSettings.SubstitutionSettings.TableSubstitution.AddSubstitutes("Kreon-Regular", new[] {"Calibri"});
 
@@ -80,7 +82,7 @@ FolderFontSource folderFontSource = new FolderFontSource(FontsDir, false);
 doc.FontSettings.SetFontsSources(new FontSourceBase[] {systemFontSource, folderFontSource});
 Assert.AreEqual(2, doc.FontSettings.GetFontsSources().Length);
 
-// 重置字体源仍然给我们留下系统字体源以及我们的替代品。
+// 重置字体源仍然让我们保留系统字体源以及替代品。
 doc.FontSettings.ResetFontSources();
 
 Assert.AreEqual(1, doc.FontSettings.GetFontsSources().Length);

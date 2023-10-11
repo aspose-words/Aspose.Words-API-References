@@ -1,14 +1,14 @@
 ---
 title: ParagraphFormat.LeftIndent
 second_title: Aspose.Words für .NET-API-Referenz
-description: ParagraphFormat eigendom. Ruft den Wert in Punkt ab oder legt ihn fest der den linken Einzug für den Absatz darstellt.
+description: ParagraphFormat eigendom. Ruft den Wert in Punkten ab der den linken Einzug für Absatz darstellt oder legt diesen fest.
 type: docs
-weight: 170
+weight: 180
 url: /de/net/aspose.words/paragraphformat/leftindent/
 ---
 ## ParagraphFormat.LeftIndent property
 
-Ruft den Wert (in Punkt) ab oder legt ihn fest, der den linken Einzug für den Absatz darstellt.
+Ruft den Wert (in Punkten) ab, der den linken Einzug für Absatz darstellt, oder legt diesen fest.
 
 ```csharp
 public double LeftIndent { get; set; }
@@ -16,15 +16,15 @@ public double LeftIndent { get; set; }
 
 ### Beispiele
 
-Zeigt, wie die Absatzformatierung konfiguriert wird, um außermittigen Text zu erstellen.
+Zeigt, wie Sie die Absatzformatierung konfigurieren, um außermittigen Text zu erstellen.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Zentrieren Sie den gesamten Text, den der Document Builder schreibt, und richten Sie Einzüge ein.
-// Die folgende Einzugskonfiguration erstellt einen Textkörper, der asymmetrisch auf der Seite platziert wird.
-// Die "Mitte", an der wir den Text ausrichten, ist die Mitte des Textkörpers, nicht die Mitte der Seite.
+// Zentrieren Sie den gesamten Text, den der Dokumentersteller schreibt, und richten Sie Einzüge ein.
+// Die Einzugskonfiguration unten erstellt einen Textkörper, der asymmetrisch auf der Seite platziert wird.
+// Die „Mitte“, an der wir den Text ausrichten, ist die Mitte des Textkörpers, nicht die Mitte der Seite.
 ParagraphFormat paragraphFormat = builder.ParagraphFormat;
 paragraphFormat.Alignment = ParagraphAlignment.Center;
 paragraphFormat.LeftIndent = 100;

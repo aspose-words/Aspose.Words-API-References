@@ -10,7 +10,7 @@ url: /ru/net/aspose.words.settings/compatibilityoptions/optimizefor/
 
 Позволяет оптимизировать содержимое документа, а также поведение Aspose.Words по умолчанию для определенных версий MS Word.
 
-Используйте этот метод, чтобы MS Word не отображал ленту «Режим совместимости» при загрузке документа. (Обратите внимание, что вам также может потребоваться установить[`Compliance`](../../../aspose.words.saving/ooxmlsaveoptions/compliance/) собственность на Iso29500_2008_Transitional или выше.)
+Используйте этот метод, чтобы запретить MS Word отображать ленту «Режим совместимости» при загрузке документа. (Обратите внимание, что вам также может потребоваться установить[`Compliance`](../../../aspose.words.saving/ooxmlsaveoptions/compliance/) свойство Iso29500_2008_Transitional или выше.)
 
 ```csharp
 public void OptimizeFor(MsWordVersion version)
@@ -18,7 +18,7 @@ public void OptimizeFor(MsWordVersion version)
 
 ### Примеры
 
-Показывает, как вертикально выровнять текстовое содержимое текстового поля.
+Показывает, как выровнять текстовое содержимое текстового поля по вертикали.
 
 ```csharp
 Document doc = new Document();
@@ -27,17 +27,17 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertShape(ShapeType.TextBox, 200, 200);
 
 // Установите для свойства "VerticalAnchor" значение "TextBoxAnchor.Top", чтобы
-// выровняйте текст в этом текстовом поле по верхней стороне фигуры.
+// выравниваем текст в этом текстовом поле по верхней стороне фигуры.
 // Установите для свойства "VerticalAnchor" значение "TextBoxAnchor.Middle", чтобы
 // выравниваем текст в этом текстовом поле по центру фигуры.
 // Установите для свойства "VerticalAnchor" значение "TextBoxAnchor.Bottom", чтобы
-// выравниваем текст в этом текстовом поле по нижней части фигуры.
+// выравниваем текст в этом текстовом поле по низу фигуры.
 shape.TextBox.VerticalAnchor = verticalAnchor;
 
 builder.MoveTo(shape.FirstParagraph);
 builder.Write("Hello world!");
 
-// Вертикальное выравнивание текста внутри текстовых полей доступно, начиная с Microsoft Word 2007.
+// Вертикальное выравнивание текста внутри текстовых полей доступно начиная с Microsoft Word 2007.
 doc.CompatibilityOptions.OptimizeFor(MsWordVersion.Word2007);
 doc.Save(ArtifactsDir + "Shape.VerticalAnchor.docx");
 ```
@@ -55,9 +55,9 @@ builder.InsertImage(ImageDir + "Transparent background logo.png");
 
 Assert.AreEqual(ShapeMarkupLanguage.Vml, ((Shape)doc.GetChild(NodeType.Shape, 0, true)).MarkupLanguage);
 
-// Стандарт OOXML "ISO/IEC 29500:2008" не поддерживает формы VML.
-// Если мы установим для свойства "Соответствие" объекта SaveOptions значение "OoxmlCompliance.Iso29500_2008_Strict",
- // любой документ, который мы сохраняем при передаче этого объекта, должен соответствовать этому стандарту.
+// Стандарт OOXML «ISO/IEC 29500:2008» не поддерживает формы VML.
+// Если мы установим для свойства «Соответствие» объекта SaveOptions значение «OoxmlCompliance.Iso29500_2008_Strict»,
+ // любой документ, который мы сохраняем при передаче этого объекта, должен будет соответствовать этому стандарту.
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions
 {
     Compliance = OoxmlCompliance.Iso29500_2008_Strict,
@@ -66,7 +66,7 @@ OoxmlSaveOptions saveOptions = new OoxmlSaveOptions
 
 doc.Save(ArtifactsDir + "OoxmlSaveOptions.Iso29500Strict.docx", saveOptions);
 
-// Наш сохраненный документ определяет форму с помощью DML, чтобы соответствовать стандарту OOXML "ISO/IEC 29500:2008".
+// Наш сохраненный документ определяет форму с использованием DML, чтобы соответствовать стандарту OOXML «ISO/IEC 29500:2008».
 doc = new Document(ArtifactsDir + "OoxmlSaveOptions.Iso29500Strict.docx");
 
 Assert.AreEqual(ShapeMarkupLanguage.Dml, ((Shape)doc.GetChild(NodeType.Shape, 0, true)).MarkupLanguage);
@@ -83,14 +83,14 @@ public void OptimizeFor()
     // которые позволяют нам обеспечить обратную совместимость со старыми версиями Microsoft Word.
     CompatibilityOptions options = doc.CompatibilityOptions;
 
-    // Печать настроек по умолчанию для пустого документа.
+    // Распечатываем настройки по умолчанию для пустого документа.
     Console.WriteLine("\nDefault optimization settings:");
     PrintCompatibilityOptions(options);
 
-    // Мы можем получить доступ к этим настройкам в Microsoft Word через «Файл» -> "Опции" -> «Дополнительно» -> "Параметры совместимости для...".
+    // Мы можем получить доступ к этим настройкам в Microsoft Word через «Файл» -> gt; «Параметры» -> «Дополнительно» -> «Параметры совместимости для...».
     doc.Save(ArtifactsDir + "CompatibilityOptions.OptimizeFor.DefaultSettings.docx");
 
-    // Мы можем использовать метод OptimizeFor, чтобы обеспечить оптимальную совместимость с определенной версией Microsoft Word.
+    // Мы можем использовать метод OptimizeFor, чтобы обеспечить оптимальную совместимость с конкретной версией Microsoft Word.
     doc.CompatibilityOptions.OptimizeFor(MsWordVersion.Word2010);
     Console.WriteLine("\nOptimized for Word 2010:");
     PrintCompatibilityOptions(options);

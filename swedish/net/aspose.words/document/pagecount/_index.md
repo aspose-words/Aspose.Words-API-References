@@ -3,7 +3,7 @@ title: Document.PageCount
 second_title: Aspose.Words för .NET API Referens
 description: Document fast egendom. Hämtar antalet sidor i dokumentet som beräknats av den senaste sidlayoutoperationen.
 type: docs
-weight: 300
+weight: 320
 url: /sv/net/aspose.words/document/pagecount/
 ---
 ## Document.PageCount property

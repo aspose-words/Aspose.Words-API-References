@@ -24,13 +24,13 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 
 // Belgenin "Kaydet" yöntemine geçmek için bir "WordML2003SaveOptions" nesnesi oluşturun
-// belgeyi WordML kaydetme biçimine kaydetme biçimimizi değiştirmek için.
+// belgeyi WordML kaydetme biçimine nasıl kaydedeceğimizi değiştirmek için.
 WordML2003SaveOptions options = new WordML2003SaveOptions();
 
 Assert.AreEqual(SaveFormat.WordML, options.SaveFormat);
 
 // Sekme karakter girintisini uygulamak için "PrettyFormat" özelliğini "true" olarak ayarlayın ve
-// çıktı belgesinin ham içeriğinin daha kolay okunmasını sağlamak için yeni satırlar.
+// çıktı belgesinin ham içeriğinin okunmasını kolaylaştırmak için yeni satırlar.
 // Belgenin ham içeriğini metnin sürekli bir gövdesine kaydetmek için "PrettyFormat" özelliğini "false" olarak ayarlayın.
 options.PrettyFormat = prettyFormat;
 

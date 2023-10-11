@@ -1,14 +1,14 @@
 ---
 title: WarningInfoCollection.GetEnumerator
 second_title: Aspose.Words for .NET API Referansı
-description: WarningInfoCollection yöntem. Koleksiyondaki tüm öğeler üzerinde yineleme yapmak için kullanılabilecek bir Numaralandırıcı nesnesi döndürür.
+description: WarningInfoCollection yöntem. Koleksiyondaki tüm öğeler üzerinde yineleme yapmak için kullanılabilecek bir numaralandırıcı nesnesini döndürür.
 type: docs
 weight: 50
 url: /tr/net/aspose.words/warninginfocollection/getenumerator/
 ---
 ## WarningInfoCollection.GetEnumerator method
 
-Koleksiyondaki tüm öğeler üzerinde yineleme yapmak için kullanılabilecek bir Numaralandırıcı nesnesi döndürür.
+Koleksiyondaki tüm öğeler üzerinde yineleme yapmak için kullanılabilecek bir numaralandırıcı nesnesini döndürür.
 
 ```csharp
 public IEnumerator<WarningInfo> GetEnumerator()
@@ -19,23 +19,25 @@ public IEnumerator<WarningInfo> GetEnumerator()
 Mevcut yazı tipi kaynaklarından eksik bir yazı tipi için en yakın eşleşmeyi bulma özelliğinin nasıl ayarlanacağını gösterir.
 
 ```csharp
-[Test]
 public void EnableFontSubstitution()
 {
-    // Yazı tipi kaynaklarımızın hiçbirinde bulunmayan bir yazı tipiyle biçimlendirilmiş metin içeren bir belge açın.
+    // Yazı tipi kaynaklarımızın hiçbirinde bulunmayan bir yazı tipiyle biçimlendirilmiş metni içeren bir belge açın.
     Document doc = new Document(MyDir + "Missing font.docx");
 
     // Yazı tipi değiştirme uyarılarını işlemek için bir geri arama atayın.
     HandleDocumentSubstitutionWarnings substitutionWarningHandler = new HandleDocumentSubstitutionWarnings();
     doc.WarningCallback = substitutionWarningHandler;
 
-    // Varsayılan bir yazı tipi adı ayarlayın ve yazı tipi değiştirmeyi etkinleştirin.
+    // Varsayılan bir yazı tipi adı belirleyin ve yazı tipi değiştirmeyi etkinleştirin.
     FontSettings fontSettings = new FontSettings();
     fontSettings.SubstitutionSettings.DefaultFontSubstitution.DefaultFontName = "Arial";
     ;
     fontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
 
-    // Yazı tipi eksik olan bir belgeyi kaydedersek yazı tipi değiştirme uyarısı alırız.
+    // Font değişiminden sonra orijinal font metrikleri kullanılmalıdır.
+    doc.LayoutOptions.KeepOriginalFontMetrics = true;
+
+    // Fontu eksik olan bir belgeyi kaydedersek font değiştirme uyarısı alacağız.
     doc.FontSettings = fontSettings;
     doc.Save(ArtifactsDir + "FontSettings.EnableFontSubstitution.pdf");
 
@@ -43,7 +45,7 @@ public void EnableFontSubstitution()
         while (warnings.MoveNext())
             Console.WriteLine(warnings.Current.Description);
 
-    // Ayrıca koleksiyondaki uyarıları doğrulayabilir ve temizleyebiliriz.
+    // Koleksiyondaki uyarıları da doğrulayıp temizleyebiliriz.
     Assert.AreEqual(WarningSource.Layout, substitutionWarningHandler.FontWarnings[0].Source);
     Assert.AreEqual(
         "Font '28 Days Later' has not been found. Using 'Calibri' font instead. Reason: alternative name from document.",

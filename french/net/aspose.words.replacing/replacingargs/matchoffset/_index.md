@@ -1,14 +1,14 @@
 ---
 title: ReplacingArgs.MatchOffset
 second_title: Référence de l'API Aspose.Words pour .NET
-description: ReplacingArgs propriété. Obtient la position de départ à base zéro de la correspondance à partir du début de le nœud qui contient le début de la correspondance.
+description: ReplacingArgs propriété. Obtient la position de départ de base zéro de la correspondance à partir du début de le nœud qui contient le début de la correspondance.
 type: docs
 weight: 50
 url: /fr/net/aspose.words.replacing/replacingargs/matchoffset/
 ---
 ## ReplacingArgs.MatchOffset property
 
-Obtient la position de départ à base zéro de la correspondance à partir du début de le nœud qui contient le début de la correspondance.
+Obtient la position de départ de base zéro de la correspondance à partir du début de le nœud qui contient le début de la correspondance.
 
 ```csharp
 public int MatchOffset { get; }
@@ -16,9 +16,10 @@ public int MatchOffset { get; }
 
 ### Exemples
 
-Montre comment appliquer une police différente à un nouveau contenu via FindReplaceOptions.
+Montre comment appliquer une police différente au nouveau contenu via FindReplaceOptions.
 
 ```csharp
+public void ConvertNumbersToHexadecimal()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -30,7 +31,7 @@ Montre comment appliquer une police différente à un nouveau contenu via FindRe
     // Nous pouvons utiliser un objet "FindReplaceOptions" pour modifier le processus de recherche et de remplacement.
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // Définissez la propriété "HighlightColor" sur une couleur d'arrière-plan que nous voulons appliquer au texte résultant de l'opération.
+    // Définissez la propriété "HighlightColor" sur une couleur d'arrière-plan que nous souhaitons appliquer au texte résultant de l'opération.
     options.ApplyFont.HighlightColor = Color.LightGray;
 
     NumberHexer numberHexer = new NumberHexer();
@@ -49,7 +50,7 @@ Montre comment appliquer une police différente à un nouveau contenu via FindRe
 
 /// <summary>
 /// Remplace les correspondances numériques de recherche et de remplacement par leurs équivalents hexadécimaux.
-/// Maintient un journal de chaque remplacement.
+/// Tient un journal de chaque remplacement.
 /// </summary>
 private class NumberHexer : IReplacingCallback
 {

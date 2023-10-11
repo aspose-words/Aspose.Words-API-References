@@ -1,14 +1,14 @@
 ---
 title: XamlFixedSaveOptions.SaveFormat
 second_title: Справочник по API Aspose.Words для .NET
-description: XamlFixedSaveOptions свойство. Определяет формат в котором документ будет сохранен если используется этот объект параметров сохранения.XamlFixed .
+description: XamlFixedSaveOptions свойство. Указывает формат в котором документ будет сохранен если используется этот объект параметров сохранения. Может быть толькоXamlFixed .
 type: docs
 weight: 50
 url: /ru/net/aspose.words.saving/xamlfixedsaveoptions/saveformat/
 ---
 ## XamlFixedSaveOptions.SaveFormat property
 
-Определяет формат, в котором документ будет сохранен, если используется этот объект параметров сохранения.XamlFixed .
+Указывает формат, в котором документ будет сохранен, если используется этот объект параметров сохранения. Может быть толькоXamlFixed .
 
 ```csharp
 public override SaveFormat SaveFormat { get; set; }
@@ -16,7 +16,7 @@ public override SaveFormat SaveFormat { get; set; }
 
 ### Примеры
 
-Показывает, как распечатать URI связанных ресурсов, созданных при преобразовании документа в XAML фиксированной формы.
+Показывает, как распечатать URI связанных ресурсов, созданных при преобразовании документа в формат .xaml фиксированной формы.
 
 ```csharp
 public void ResourceFolder()
@@ -24,23 +24,23 @@ public void ResourceFolder()
     Document doc = new Document(MyDir + "Rendering.docx");
     ResourceUriPrinter callback = new ResourceUriPrinter();
 
-    // Создаем объект "XamlFixedSaveOptions", который мы можем передать методу "Сохранить" документа
+    // Создаем объект «XamlFixedSaveOptions», который мы можем передать методу «Save» документа.
     // чтобы изменить способ сохранения документа в формате сохранения XAML.
     XamlFixedSaveOptions options = new XamlFixedSaveOptions();
 
     Assert.AreEqual(SaveFormat.XamlFixed, options.SaveFormat);
 
-    // Используйте свойство "ResourcesFolder", чтобы назначить папку в локальной файловой системе, в которую
+    // Используйте свойство ResourcesFolder, чтобы назначить папку в локальной файловой системе, в которую
     // Aspose.Words сохранит все связанные ресурсы документа, такие как изображения и шрифты.
     options.ResourcesFolder = ArtifactsDir + "XamlFixedResourceFolder";
 
-    // Используйте свойство "ResourcesFolderAlias", чтобы использовать эту папку
-    // при построении URI изображения вместо имени папки ресурсов.
+    // Используйте свойство ResourcesFolderAlias, чтобы использовать эту папку
+    // при создании URI изображения вместо имени папки ресурсов.
     options.ResourcesFolderAlias = ArtifactsDir + "XamlFixedFolderAlias";
 
     options.ResourceSavingCallback = callback;
 
-    // Папка, указанная в «ResourcesFolderAlias», должна содержать ресурсы вместо «ResourcesFolder».
+    // Папка, указанная в «ResourcesFolderAlias», должна будет содержать ресурсы вместо «ResourcesFolder».
     // Мы должны убедиться, что папка существует, прежде чем потоки обратного вызова смогут поместить в нее свои ресурсы.
     Directory.CreateDirectory(options.ResourcesFolderAlias);
 
@@ -64,8 +64,8 @@ private class ResourceUriPrinter : IResourceSavingCallback
     {
         Resources.Add($"Resource \"{args.ResourceFileName}\"\n\t{args.ResourceFileUri}");
 
-        // Если бы мы указали псевдоним папки ресурсов, нам также понадобился бы
-        // чтобы перенаправить каждый поток, чтобы поместить его ресурс в папку псевдонима.
+        // Если бы мы указали псевдоним папки ресурсов, нам также потребовалось бы
+        // чтобы перенаправить каждый поток, чтобы поместить его ресурс в папку псевдонимов.
         args.ResourceStream = new FileStream(args.ResourceFileUri, FileMode.Create);
         args.KeepResourceStreamOpen = false;
     }

@@ -3,12 +3,14 @@ title: Class RevisionGroupCollection
 second_title: Aspose.Words لمراجع .NET API
 description: Aspose.Words.RevisionGroupCollection فصل. مجموعة منRevisionGroup الكائنات التي تمثل مجموعات المراجعة في المستند.
 type: docs
-weight: 4530
+weight: 4790
 url: /ar/net/aspose.words/revisiongroupcollection/
 ---
 ## RevisionGroupCollection class
 
 مجموعة من[`RevisionGroup`](../revisiongroup/) الكائنات التي تمثل مجموعات المراجعة في المستند.
+
+لمعرفة المزيد، قم بزيارة[تتبع التغييرات في مستند](https://docs.aspose.com/words/net/track-changes-in-a-document/) مقالة توثيقية.
 
 ```csharp
 public sealed class RevisionGroupCollection : IEnumerable<RevisionGroup>
@@ -19,17 +21,17 @@ public sealed class RevisionGroupCollection : IEnumerable<RevisionGroup>
 | اسم | وصف |
 | --- | --- |
 | [Count](../../aspose.words/revisiongroupcollection/count/) { get; } | إرجاع عدد مجموعات المراجعة في المجموعة. |
-| [Item](../../aspose.words/revisiongroupcollection/item/) { get; } | إرجاع مجموعة مراجعة بالفهرس المحدد. |
+| [Item](../../aspose.words/revisiongroupcollection/item/) { get; } | إرجاع مجموعة المراجعة في الفهرس المحدد. |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| [GetEnumerator](../../aspose.words/revisiongroupcollection/getenumerator/)() | إرجاع كائن العداد . |
+| [GetEnumerator](../../aspose.words/revisiongroupcollection/getenumerator/)() | يُرجع كائن العداد. |
 
 ### ملاحظات
 
-لا تقوم بإنشاء نسخ من هذه الفئة مباشرة. استخدم ال[`Groups`](../revisioncollection/groups/) للحصول على مجموعات المراجعة موجودة في المستند.
+لا تقم بإنشاء مثيلات هذه الفئة مباشرة. استخدم ال[`Groups`](../revisioncollection/groups/) خاصية للحصول على مجموعات المراجعة الموجودة في المستند.
 
 ### أمثلة
 

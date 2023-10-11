@@ -1,14 +1,14 @@
 ---
 title: GeneralFormatCollection.Remove
 second_title: Aspose.Words per .NET API Reference
-description: GeneralFormatCollection metodo. Rimuove dalla raccolta tutte le occorrenze del formato generale specificato.
+description: GeneralFormatCollection metodo. Rimuove tutte le occorrenze del formato generale specificato dalla raccolta.
 type: docs
 weight: 50
 url: /it/net/aspose.words.fields/generalformatcollection/remove/
 ---
 ## GeneralFormatCollection.Remove method
 
-Rimuove dalla raccolta tutte le occorrenze del formato generale specificato.
+Rimuove tutte le occorrenze del formato generale specificato dalla raccolta.
 
 ```csharp
 public void Remove(GeneralFormat item)
@@ -26,13 +26,13 @@ Mostra come formattare i risultati dei campi.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Utilizza un generatore di documenti per inserire un campo che visualizzi un risultato senza formato applicato.
+// Utilizzare un generatore di documenti per inserire un campo che visualizzi un risultato senza formato applicato.
 Field field = builder.InsertField("= 2 + 3");
 
 Assert.AreEqual("= 2 + 3", field.GetFieldCode());
 Assert.AreEqual("5", field.Result);
 
-// Possiamo applicare un formato al risultato di un campo usando le proprietà del campo.
+// Possiamo applicare un formato al risultato di un campo utilizzando le proprietà del campo.
 // Di seguito sono riportati tre tipi di formati che possiamo applicare al risultato di un campo.
 // 1 - Formato numerico:
 FieldFormat format = field.Format;
@@ -68,7 +68,7 @@ Assert.AreEqual("LVIII", field.Result);
 Assert.AreEqual(2, format.GeneralFormats.Count);
 Assert.AreEqual(GeneralFormat.LowercaseRoman, format.GeneralFormats[0]);
 
-// Possiamo rimuovere i nostri formati per riportare il risultato del campo alla sua forma originale.
+// Possiamo rimuovere i nostri formati per ripristinare il risultato del campo nella sua forma originale.
 format.GeneralFormats.Remove(GeneralFormat.LowercaseRoman);
 format.GeneralFormats.RemoveAt(0);
 Assert.AreEqual(0, format.GeneralFormats.Count);

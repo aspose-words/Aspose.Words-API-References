@@ -1,14 +1,14 @@
 ---
 title: TxtSaveOptions.PreserveTableLayout
 second_title: Aspose.Words per .NET API Reference
-description: TxtSaveOptions proprietà. Specifica se il programma deve tentare di preservare il layout delle tabelle durante il salvataggio nel formato di testo normale. Il valore predefinito è falso .
+description: TxtSaveOptions proprietà. Specifica se il programma deve tentare di preservare il layout delle tabelle durante il salvataggio in formato testo normale. Il valore predefinito èfalso .
 type: docs
 weight: 50
 url: /it/net/aspose.words.saving/txtsaveoptions/preservetablelayout/
 ---
 ## TxtSaveOptions.PreserveTableLayout property
 
-Specifica se il programma deve tentare di preservare il layout delle tabelle durante il salvataggio nel formato di testo normale. Il valore predefinito è **falso** .
+Specifica se il programma deve tentare di preservare il layout delle tabelle durante il salvataggio in formato testo normale. Il valore predefinito è`falso` .
 
 ```csharp
 public bool PreserveTableLayout { get; set; }
@@ -35,11 +35,11 @@ builder.Write("Row 2, cell 2");
 builder.EndTable();
 
 // Crea un oggetto "TxtSaveOptions", che possiamo passare al metodo "Save" del documento
-// per modificare il modo in cui salviamo il documento come testo normale.
+// per modificare il modo in cui salviamo il documento in testo normale.
 TxtSaveOptions txtSaveOptions = new TxtSaveOptions();
 
-// Imposta la proprietà "PreserveTableLayout" su "true" per applicare spazi vuoti al contenuto
-// del documento in chiaro di output per preservare il più possibile il layout della tabella.
+// Imposta la proprietà "PreserveTableLayout" su "true" per applicare il riempimento degli spazi bianchi al contenuto
+// del documento di testo in chiaro di output per preservare quanto più possibile il layout della tabella.
 // Imposta la proprietà "PreserveTableLayout" su "false" per salvare il contenuto di tutte le tabelle
 // come un corpo di testo continuo, con solo una nuova riga per ogni riga.
 txtSaveOptions.PreserveTableLayout = preserveTableLayout;

@@ -1,14 +1,14 @@
 ---
 title: Field.Unlink
 second_title: Aspose.Words für .NET-API-Referenz
-description: Field methode. Führt das Feld Unlink aus.
+description: Field methode. Führt das Feld unlink aus.
 type: docs
 weight: 130
 url: /de/net/aspose.words.fields/field/unlink/
 ---
 ## Field.Unlink method
 
-Führt das Feld Unlink aus.
+Führt das Feld unlink aus.
 
 ```csharp
 public bool Unlink()
@@ -16,13 +16,13 @@ public bool Unlink()
 
 ### Rückgabewert
 
-`WAHR` wenn das Feld nicht verknüpft wurde, andernfalls`FALSCH` .
+`WAHR` wenn die Verknüpfung des Feldes aufgehoben wurde, andernfalls`FALSCH` .
 
 ### Bemerkungen
 
-Ersetzt das Feld durch das neueste Ergebnis.
+Ersetzt das Feld durch das aktuellste Ergebnis.
 
-Die Verknüpfung einiger Felder, wie z. B. XE-Felder (Indexeintrag) und SEQ-Felder (Sequenz), kann nicht aufgehoben werden.
+Die Verknüpfung einiger Felder, wie etwa XE-Felder (Indexeintrag) und SEQ-Felder (Sequenz), kann nicht aufgehoben werden.
 
 ### Beispiele
 

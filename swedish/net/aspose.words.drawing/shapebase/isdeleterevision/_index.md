@@ -3,7 +3,7 @@ title: ShapeBase.IsDeleteRevision
 second_title: Aspose.Words för .NET API Referens
 description: ShapeBase fast egendom. Returnerar sant om detta objekt raderades i Microsoft Word medan ändringsspårning var aktiverad.
 type: docs
-weight: 240
+weight: 250
 url: /sv/net/aspose.words.drawing/shapebase/isdeleterevision/
 ---
 ## ShapeBase.IsDeleteRevision property

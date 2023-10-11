@@ -22,9 +22,9 @@ Mostra come rilevare i caratteri UTF-8 durante il caricamento di un documento RT
 // Crea un oggetto "RtfLoadOptions" per modificare il modo in cui carichiamo un documento RTF.
 RtfLoadOptions loadOptions = new RtfLoadOptions();
 
-// Imposta la proprietà "RecognizeUtf8Text" su "false" per presumere che il documento utilizzi il set di caratteri ISO 8859-1
-// e carica tutti i caratteri nel documento.
-// Imposta la proprietà "RecognizeUtf8Text" su "true" per analizzare tutti i caratteri di lunghezza variabile che possono essere presenti nel testo.
+// Imposta la proprietà "RecognizeUtf8Text" su "false" per presupporre che il documento utilizzi il set di caratteri ISO 8859-1
+// e carica ogni carattere nel documento.
+// Imposta la proprietà "RecognizeUtf8Text" su "true" per analizzare eventuali caratteri a lunghezza variabile che possono verificarsi nel testo.
 loadOptions.RecognizeUtf8Text = recognizeUtf8Text;
 
 Document doc = new Document(MyDir + "UTF-8 characters.rtf", loadOptions);

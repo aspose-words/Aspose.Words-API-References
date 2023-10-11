@@ -16,7 +16,7 @@ public LayoutCollector(Document doc)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| doc | Document | Il documento a cui verrà allegata questa istanza di raccolta. |
+| doc | Document | Il documento a cui verrà allegata questa istanza del raccoglitore. |
 
 ### Esempi
 
@@ -31,7 +31,7 @@ LayoutCollector layoutCollector = new LayoutCollector(doc);
 Assert.AreEqual(doc, layoutCollector.Document);
 Assert.AreEqual(0, layoutCollector.GetNumPagesSpanned(doc));
 
-// Popolare il documento con 5 pagine di contenuto.
+// Compila il documento con 5 pagine di contenuto.
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Write("Section 1");
 builder.InsertBreak(BreakType.PageBreak);
@@ -41,7 +41,7 @@ builder.Write("Section 2");
 builder.InsertBreak(BreakType.PageBreak);
 builder.InsertBreak(BreakType.PageBreak);
 
-// Prima del raccoglitore di layout, dobbiamo chiamare il metodo "UpdatePageLayout" per fornirci
+// Prima del raccoglitore di layout, dobbiamo chiamare il metodo "UpdatePageLayout" per darci
 // una cifra precisa per qualsiasi metrica relativa al layout, come il conteggio delle pagine.
 Assert.AreEqual(0, layoutCollector.GetNumPagesSpanned(doc));
 
@@ -50,7 +50,7 @@ doc.UpdatePageLayout();
 
 Assert.AreEqual(5, layoutCollector.GetNumPagesSpanned(doc));
 
-// Possiamo vedere i numeri delle pagine iniziali e finali di qualsiasi nodo e le loro estensioni di pagina complessive.
+// Possiamo vedere i numeri delle pagine iniziali e finali di qualsiasi nodo e la loro estensione complessiva delle pagine.
 NodeCollection nodes = doc.GetChildNodes(NodeType.Any, true);
 foreach (Node node in nodes)
 {
@@ -60,7 +60,7 @@ foreach (Node node in nodes)
         $" spanning {layoutCollector.GetNumPagesSpanned(node)} pages.");
 }
 
-// Possiamo scorrere le entità del layout usando un LayoutEnumerator.
+// Possiamo scorrere le entità del layout utilizzando un LayoutEnumerator.
 LayoutEnumerator layoutEnumerator = new LayoutEnumerator(doc);
 
 Assert.AreEqual(LayoutEntityType.Page, layoutEnumerator.Type);

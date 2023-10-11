@@ -20,19 +20,19 @@ public override bool Accept(DocumentVisitor visitor)
 
 ### Rückgabewert
 
-True, wenn alle Knoten besucht wurden; false, wenn DocumentVisitor den Vorgang beendet hat, bevor alle Knoten besucht wurden.
+True, wenn alle Knoten besucht wurden; falsch wenn[`DocumentVisitor`](../../../aspose.words/documentvisitor/) stoppte den Vorgang, bevor alle Knoten besucht wurden.
 
 ### Bemerkungen
 
-Listet diesen Knoten und alle seine untergeordneten Elemente auf. Jeder Knoten ruft eine entsprechende Methode auf DocumentVisitor auf.
+Listet diesen Knoten und alle seine untergeordneten Knoten auf. Jeder Knoten ruft eine entsprechende Methode auf[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
 
-Weitere Informationen finden Sie im Besucher-Entwurfsmuster.
+Weitere Informationen finden Sie im Visitor-Entwurfsmuster.
 
-Anrufe[`VisitGroupShapeStart`](../../../aspose.words/documentvisitor/visitgroupshapestart/) , ruft dann an[`Accept`](../../../aspose.words/node/accept/) für alle untergeordneten Shapes dieser Gruppenform und Aufrufe[`VisitGroupShapeEnd`](../../../aspose.words/documentvisitor/visitgroupshapeend/) am Ende.
+Anrufe[`VisitGroupShapeStart`](../../../aspose.words/documentvisitor/visitgroupshapestart/) , dann ruft[`Accept`](../../../aspose.words/node/accept/) für alle untergeordneten Formen dieser Gruppenform und Aufrufe[`VisitGroupShapeEnd`](../../../aspose.words/documentvisitor/visitgroupshapeend/) am Ende.
 
 ### Beispiele
 
-Zeigt, wie Sie eine Gruppe von Formen erstellen und ihren Inhalt mit einem Dokumentbesucher drucken.
+Zeigt, wie eine Gruppe von Formen erstellt und deren Inhalt mithilfe eines Dokumentbesuchers gedruckt wird.
 
 ```csharp
 public void GroupOfShapes()
@@ -40,7 +40,7 @@ public void GroupOfShapes()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Wenn Sie "NonPrimitive"-Formen erstellen müssen, z. B. SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
+    // Wenn Sie „nicht-primitive“ Formen erstellen müssen, z. B. SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
     // TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded, DiagonalCornersRounded
     // Bitte verwenden Sie DocumentBuilder.InsertShape-Methoden.
     Shape balloon = new Shape(doc, ShapeType.Balloon)
@@ -72,7 +72,7 @@ public void GroupOfShapes()
 }
 
 /// <summary>
-/// Gibt den Inhalt einer besuchten Shape-Gruppe an die Konsole aus.
+/// Gibt den Inhalt einer besuchten Formgruppe an die Konsole aus.
 /// </summary>
 public class ShapeGroupPrinter : DocumentVisitor
 {

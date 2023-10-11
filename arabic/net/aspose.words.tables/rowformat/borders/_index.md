@@ -1,14 +1,14 @@
 ---
 title: RowFormat.Borders
 second_title: Aspose.Words لمراجع .NET API
-description: RowFormat ملكية. الحصول على مجموعة حدود الخلية الافتراضية للصف.
+description: RowFormat ملكية. الحصول على مجموعة حدود الخلايا الافتراضية للصف.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.tables/rowformat/borders/
 ---
 ## RowFormat.Borders property
 
-الحصول على مجموعة حدود الخلية الافتراضية للصف.
+الحصول على مجموعة حدود الخلايا الافتراضية للصف.
 
 ```csharp
 public BorderCollection Borders { get; }
@@ -24,8 +24,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.StartTable();
 
-// تعيين خيارات تنسيق الجدول لمنشئ المستندات
-// سيطبقها على كل صف وخلية نضيفها معها.
+// ضبط خيارات تنسيق الجدول لمنشئ المستندات
+// سيتم تطبيقها على كل صف وخلية نضيفها معها.
 builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
 builder.CellFormat.ClearFormatting();
@@ -48,8 +48,8 @@ builder.InsertCell();
 builder.Write("Row 1, Col 2");
 builder.EndRow();
 
-// سيؤدي تغيير التنسيق إلى تطبيقه على الخلية الحالية ،
-// وأي خلايا جديدة ننشئها باستخدام المنشئ بعد ذلك.
+// سيؤدي تغيير التنسيق إلى تطبيقه على الخلية الحالية،
+// وأي خلايا جديدة نقوم بإنشائها مع المُنشئ بعد ذلك.
 // لن يؤثر هذا على الخلايا التي أضفناها سابقًا.
 builder.CellFormat.Shading.ClearFormatting();
 

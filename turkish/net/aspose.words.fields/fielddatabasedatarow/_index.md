@@ -1,14 +1,16 @@
 ---
 title: Class FieldDatabaseDataRow
 second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Fields.FieldDatabaseDataRow sınıf. için veri sağlarFieldDatabase alan sonucu.
+description: Aspose.Words.Fields.FieldDatabaseDataRow sınıf. Şunun için veri sağlarFieldDatabase alan sonucu. BakınızDataRow örnek.
 type: docs
-weight: 1600
+weight: 1750
 url: /tr/net/aspose.words.fields/fielddatabasedatarow/
 ---
 ## FieldDatabaseDataRow class
 
-için veri sağlar[`FieldDatabase`](../fielddatabase/) alan sonucu.
+Şunun için veri sağlar:[`FieldDatabase`](../fielddatabase/) alan sonucu. BakınızDataRow örnek.
+
+Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Alanlarla Çalışmak](https://docs.aspose.com/words/net/working-with-fields/) dokümantasyon makalesi.
 
 ```csharp
 public class FieldDatabaseDataRow
@@ -18,7 +20,7 @@ public class FieldDatabaseDataRow
 
 | İsim | Tanım |
 | --- | --- |
-| [FieldDatabaseDataRow](fielddatabasedatarow/)(params string[]) | Yeni bir örneğini başlatır`FieldDatabaseDataRow` sınıf. |
+| [FieldDatabaseDataRow](fielddatabasedatarow/)(params string[]) | Yeni bir örneğini başlatır`FieldDatabaseDataRow` class. |
 
 ## Özellikleri
 
@@ -30,7 +32,7 @@ public class FieldDatabaseDataRow
 
 | İsim | Tanım |
 | --- | --- |
-| static [CreateFrom](../../aspose.words.fields/fielddatabasedatarow/createfrom/)(DataRow) | Yeni bir örneğini başlatır`FieldDatabaseDataRow` class DataRow örnek. |
+| static [CreateFrom](../../aspose.words.fields/fielddatabasedatarow/createfrom/)(DataRow) | Yeni bir örneğini başlatır`FieldDatabaseDataRow` class şuradanDataRow örnek. |
 
 ### Ayrıca bakınız
 

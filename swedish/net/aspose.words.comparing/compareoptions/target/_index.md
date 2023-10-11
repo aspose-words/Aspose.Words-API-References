@@ -3,7 +3,7 @@ title: CompareOptions.Target
 second_title: Aspose.Words för .NET API Referens
 description: CompareOptions fast egendom. Anger vilket dokument som ska användas som mål vid jämförelse.
 type: docs
-weight: 120
+weight: 130
 url: /sv/net/aspose.words.comparing/compareoptions/target/
 ---
 ## CompareOptions.Target property
@@ -40,7 +40,7 @@ Shape textBox = builder.InsertShape(ShapeType.TextBox, 150, 20);
 builder.MoveTo(textBox.FirstParagraph);
 builder.Write("Original textbox contents");
 
-// DATE-fält:
+// DATUMfält:
 builder.MoveTo(docOriginal.FirstSection.Body.AppendParagraph(""));
 builder.InsertField(" DATE ");
 

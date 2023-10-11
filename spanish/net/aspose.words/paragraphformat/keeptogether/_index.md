@@ -3,7 +3,7 @@ title: ParagraphFormat.KeepTogether
 second_title: Referencia de API de Aspose.Words para .NET
 description: ParagraphFormat propiedad. Verdadero si todas las líneas del párrafo deben permanecer en la misma página.
 type: docs
-weight: 150
+weight: 160
 url: /es/net/aspose.words/paragraphformat/keeptogether/
 ---
 ## ParagraphFormat.KeepTogether property

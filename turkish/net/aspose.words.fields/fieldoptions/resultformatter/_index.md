@@ -1,14 +1,14 @@
 ---
 title: FieldOptions.ResultFormatter
 second_title: Aspose.Words for .NET API Referansı
-description: FieldOptions mülk. Alan sonucunun nasıl biçimlendirildiğini kontrol etmenizi sağlar.
+description: FieldOptions mülk. Alan sonucunun nasıl biçimlendirileceğini kontrol etmeye izin verir.
 type: docs
-weight: 160
+weight: 180
 url: /tr/net/aspose.words.fields/fieldoptions/resultformatter/
 ---
 ## FieldOptions.ResultFormatter property
 
-Alan sonucunun nasıl biçimlendirildiğini kontrol etmenizi sağlar.
+Alan sonucunun nasıl biçimlendirileceğini kontrol etmeye izin verir.
 
 ```csharp
 public IFieldResultFormatter ResultFormatter { get; set; }
@@ -16,18 +16,19 @@ public IFieldResultFormatter ResultFormatter { get; set; }
 
 ### Örnekler
 
-Alanlar güncellenirken alan sonuçlarına otomatik olarak özel bir biçimin nasıl uygulanacağını gösterir.
+Alanlar güncellenirken özel bir biçimin alan sonuçlarına otomatik olarak nasıl uygulanacağını gösterir.
 
 ```csharp
+public void FieldResultFormatting()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
     FieldResultFormatter formatter = new FieldResultFormatter("${0}", "Date: {0}", "Item # {0}:");
     doc.FieldOptions.ResultFormatter = formatter;
 
-    // Alan sonucu biçimlendiricimiz, yeni oluşturulan alanlara üç tür biçimde özel bir biçim uygular.
+    // Alan sonucu biçimlendiricimiz, yeni oluşturulan alanlara üç tür formatta özel bir format uygular.
     // Alan sonucu biçimlendiricileri, güncellendikçe alanlara yeni biçimlendirme uygular,
-    // bu InsertField yöntemi aşırı yüklemesini kullanarak onları oluşturur oluşturmaz gerçekleşir.
+    // bu, bunları InsertField yöntemi aşırı yüklemesini kullanarak oluşturduğumuz anda gerçekleşir.
     // 1 - Sayısal:
     builder.InsertField(" = 2 + 3 \\# $###");
 
@@ -50,8 +51,8 @@ Alanlar güncellenirken alan sonuçlarına otomatik olarak özel bir biçimin na
 }
 
 /// <summary>
-/// Biçimlendirmeye sahip alanlar güncellendiğinde, bu biçimlendirici onların biçimlendirmesini geçersiz kılar
-/// her çağrıyı izlerken özel bir formatla.
+/// Biçimlendirmeli alanlar güncellendiğinde bu biçimlendirici onların biçimlendirmesini geçersiz kılacaktır
+/// her çağrıyı takip ederken özel bir formatla.
 /// </summary>
 private class FieldResultFormatter : IFieldResultFormatter
 {

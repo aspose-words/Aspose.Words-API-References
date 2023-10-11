@@ -1,14 +1,14 @@
 ---
 title: ParagraphFormat.NoSpaceBetweenParagraphsOfSameStyle
 second_title: Aspose.Words för .NET API Referens
-description: ParagraphFormat fast egendom. När santSpaceBefore ochSpaceAfter kommer att ignoreras mellan styckena i samma stil.
+description: ParagraphFormat fast egendom. NärSann SpaceBefore ochSpaceAfter kommer att ignoreras mellan styckena i samma stil.
 type: docs
-weight: 230
+weight: 240
 url: /sv/net/aspose.words/paragraphformat/nospacebetweenparagraphsofsamestyle/
 ---
 ## ParagraphFormat.NoSpaceBetweenParagraphsOfSameStyle property
 
-När sant,[`SpaceBefore`](../spacebefore/) och[`SpaceAfter`](../spaceafter/) kommer att ignoreras mellan styckena i samma stil.
+När`Sann` ,[`SpaceBefore`](../spacebefore/) och[`SpaceAfter`](../spaceafter/) kommer att ignoreras mellan styckena i samma stil.
 
 ```csharp
 public bool NoSpaceBetweenParagraphsOfSameStyle { get; set; }

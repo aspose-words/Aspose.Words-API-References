@@ -16,13 +16,13 @@ public SectionLayoutMode LayoutMode { get; set; }
 
 ### Exemples
 
-Montre comment spécifier a pour le nombre de caractères que chaque ligne peut avoir.
+Montre comment spécifier a pour le nombre de caractères que chaque ligne peut contenir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Activez le pas, puis utilisez-le pour définir le nombre de caractères par ligne dans cette section.
+// Activez le pitch, puis utilisez-le pour définir le nombre de caractères par ligne dans cette section.
 builder.PageSetup.LayoutMode = SectionLayoutMode.Grid;
 builder.PageSetup.CharactersPerLine = 10;
 
@@ -42,7 +42,7 @@ Montre comment spécifier une limite pour le nombre de lignes que chaque page pe
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Activez le pitching, puis utilisez-le pour définir le nombre de lignes par page dans cette section.
+// Activez le pitch, puis utilisez-le pour définir le nombre de lignes par page dans cette section.
 // Une taille de police suffisamment grande poussera certaines lignes vers le bas sur la page suivante pour éviter les caractères qui se chevauchent.
 builder.PageSetup.LayoutMode = SectionLayoutMode.LineGrid;
 builder.PageSetup.LinesPerPage = 15;

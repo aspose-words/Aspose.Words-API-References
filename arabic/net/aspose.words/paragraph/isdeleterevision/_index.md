@@ -27,15 +27,15 @@ para.AppendChild(new Run(doc, "Paragraph 1. "));
 body.AppendParagraph("Paragraph 2. ");
 body.AppendParagraph("Paragraph 3. ");
 
-// الفقرات أعلاه ليست مراجعات.
-// سيتم تسجيل الفقرات التي نضيفها بعد بدء تتبع المراجعة باعتبارها مراجعات "إدراج".
+// الفقرات المذكورة أعلاه ليست مراجعات.
+// الفقرات التي نضيفها بعد بدء تتبع المراجعة سيتم تسجيلها كمراجعات "إدراج".
 doc.StartTrackRevisions("John Doe", DateTime.Now);
 
 para = body.AppendParagraph("Paragraph 4. ");
 
 Assert.True(para.IsInsertRevision);
 
-// سيتم تسجيل الفقرات التي نزيلها بعد بدء تتبع المراجعة باعتبارها مراجعات "حذف".
+// الفقرات التي نزيلها بعد بدء تتبع المراجعة سيتم تسجيلها كمراجعات "حذف".
 ParagraphCollection paragraphs = body.Paragraphs;
 
 Assert.AreEqual(4, paragraphs.Count);
@@ -44,12 +44,12 @@ para = paragraphs[2];
 para.Remove();
 
 // ستبقى هذه الفقرات حتى نقبل أو نرفض مراجعة الحذف.
-// سيؤدي قبول المراجعة إلى إزالة الفقرة نهائيًا ،
-// وسيؤدي رفض المراجعة إلى تركها في المستند كما لو أننا لم نحذفها مطلقًا.
+// قبول المراجعة سيؤدي إلى إزالة الفقرة للأبد،
+// ورفض المراجعة سيتركها في المستند كما لو أننا لم نحذفها أبدًا.
 Assert.AreEqual(4, paragraphs.Count);
 Assert.True(para.IsDeleteRevision);
 
-// قبول المراجعة ، ثم تحقق من اختفاء الفقرة.
+// اقبل المراجعة، ثم تحقق من انتهاء الفقرة.
 doc.AcceptAllRevisions();
 
 Assert.AreEqual(3, paragraphs.Count);

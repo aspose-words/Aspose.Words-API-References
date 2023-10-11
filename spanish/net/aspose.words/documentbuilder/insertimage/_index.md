@@ -1,14 +1,14 @@
 ---
 title: DocumentBuilder.InsertImage
 second_title: Referencia de API de Aspose.Words para .NET
-description: DocumentBuilder método. Inserta una imagen desde un .NETImage objeto en el documento. La imagen se inserta en línea y al 100  de escala.
+description: DocumentBuilder método. Inserta una imagen desde un .NETImage objeto en el documento. La imagen se inserta en línea y a escala del 100.
 type: docs
-weight: 350
+weight: 380
 url: /es/net/aspose.words/documentbuilder/insertimage/
 ---
 ## InsertImage(Image) {#insertimage_3}
 
-Inserta una imagen desde un .NETImage objeto en el documento. La imagen se inserta en línea y al 100 % de escala.
+Inserta una imagen desde un .NETImage objeto en el documento. La imagen se inserta en línea y a escala del 100%.
 
 ```csharp
 public Shape InsertImage(Image image)
@@ -24,7 +24,7 @@ El nodo de imagen que se acaba de insertar.
 
 ### Observaciones
 
-Puede cambiar el tamaño de la imagen, la ubicación, el método de posicionamiento y otras configuraciones usando el [`Shape`](../../../aspose.words.drawing/shape/) objeto devuelto por este método.
+Puede cambiar el tamaño de la imagen, la ubicación, el método de posicionamiento y otras configuraciones usando [`Shape`](../../../aspose.words.drawing/shape/) objeto devuelto por este método.
 
 ### Ejemplos
 
@@ -65,7 +65,7 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromImageObject.docx")
 
 ## InsertImage(string) {#insertimage_9}
 
-Inserta una imagen de un archivo o URL en el documento. La imagen se inserta en línea y al 100 % de escala.
+Inserta una imagen de un archivo o URL en el documento. La imagen se inserta en línea y a escala del 100%.
 
 ```csharp
 public Shape InsertImage(string fileName)
@@ -83,7 +83,7 @@ El nodo de imagen que se acaba de insertar.
 
 Esta sobrecarga descargará automáticamente la imagen antes de insertarla en document si especifica un URI remoto.
 
-Puede cambiar el tamaño de la imagen, la ubicación, el método de posicionamiento y otras configuraciones usando el [`Shape`](../../../aspose.words.drawing/shape/) objeto devuelto por este método.
+Puede cambiar el tamaño de la imagen, la ubicación, el método de posicionamiento y otras configuraciones usando [`Shape`](../../../aspose.words.drawing/shape/) objeto devuelto por este método.
 
 ### Ejemplos
 
@@ -92,9 +92,9 @@ Muestra cómo insertar una imagen gif en el documento.
 ```csharp
 DocumentBuilder builder = new DocumentBuilder();
 
-// Podemos insertar una imagen gif usando una ruta o una matriz de bytes.
-// Funciona solo si DocumentBuilder está optimizado para Word versión 2010 o superior.
-// Tenga en cuenta que el acceso a los bytes de la imagen provoca la conversión de GIF a Png.
+// Podemos insertar una imagen gif usando la ruta o la matriz de bytes.
+// Solo funciona si DocumentBuilder está optimizado para la versión 2010 o superior de Word.
+// Tenga en cuenta que el acceso a los bytes de la imagen provoca la conversión de Gif a Png.
 Shape gifImage = builder.InsertImage(ImageDir + "Graphics Interchange Format.gif");
 
 gifImage = builder.InsertImage(File.ReadAllBytes(ImageDir + "Graphics Interchange Format.gif"));
@@ -108,14 +108,14 @@ Muestra cómo insertar una forma con una imagen en un documento.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// A continuación hay dos ubicaciones donde el método "InsertShape" del generador de documentos
-// puede generar la imagen que mostrará la forma.
+// A continuación se muestran dos ubicaciones donde se encuentra el método "InsertShape" del generador de documentos.
+// puede obtener la imagen que mostrará la forma.
 // 1 - Pasar un nombre de archivo del sistema de archivos local de un archivo de imagen:
 builder.Write("Image from local file: ");
 builder.InsertImage(ImageDir + "Logo.jpg");
 builder.Writeln();
 
-// 2 - Pasa una URL que apunta a una imagen.
+// 2 - Pasa una URL que apunte a una imagen.
 builder.Write("Image from a URL: ");
 builder.InsertImage(ImageUrl);
 builder.Writeln();
@@ -153,7 +153,7 @@ builder.InsertImage(ImageDir + "Scalable Vector Graphics.svg");
 // que contiene la representación de la imagen vectorial SVG original.
 doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertSvgImage.SvgWithSvgBlip.docx");
 
-// Aspose.Words inserta una imagen SVG en el documento como PNG, tal como lo hace Microsoft Word para el formato antiguo.
+// Aspose.Words inserta una imagen SVG en el documento como PNG, tal como lo hace Microsoft Word con el formato anterior.
 doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertSvgImage.Svg.doc");
 
 doc.CompatibilityOptions.OptimizeFor(MsWordVersion.Word2003);
@@ -198,7 +198,7 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromFilename.docx");
 
 ## InsertImage(Stream) {#insertimage_6}
 
-Inserta una imagen de un flujo en el documento. La imagen se inserta en línea y al 100 % de escala.
+Inserta una imagen de una secuencia en el documento. La imagen se inserta en línea y a escala del 100%.
 
 ```csharp
 public Shape InsertImage(Stream stream)
@@ -206,7 +206,7 @@ public Shape InsertImage(Stream stream)
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| stream | Stream | El flujo que contiene la imagen. |
+| stream | Stream | La secuencia que contiene la imagen. |
 
 ### Valor_devuelto
 
@@ -214,7 +214,7 @@ El nodo de imagen que se acaba de insertar.
 
 ### Observaciones
 
-Puede cambiar el tamaño de la imagen, la ubicación, el método de posicionamiento y otras configuraciones usando el [`Shape`](../../../aspose.words.drawing/shape/) objeto devuelto por este método.
+Puede cambiar el tamaño de la imagen, la ubicación, el método de posicionamiento y otras configuraciones usando [`Shape`](../../../aspose.words.drawing/shape/) objeto devuelto por este método.
 
 ### Ejemplos
 
@@ -241,7 +241,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 using (Stream stream = File.OpenRead(ImageDir + "Logo.jpg"))
 {
-    // A continuación se muestran tres formas de insertar una imagen de un flujo.
+    // A continuación se muestran tres formas de insertar una imagen desde una secuencia.
     // 1 - Forma en línea con un tamaño predeterminado basado en las dimensiones originales de la imagen:
     builder.InsertImage(stream);
 
@@ -271,7 +271,7 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromStream.docx");
 
 ## InsertImage(byte[]) {#insertimage}
 
-Inserta una imagen de una matriz de bytes en el documento. La imagen se inserta en línea y al 100 % de escala.
+Inserta una imagen de una matriz de bytes en el documento. La imagen se inserta en línea y a escala del 100%.
 
 ```csharp
 public Shape InsertImage(byte[] imageBytes)
@@ -287,7 +287,7 @@ El nodo de imagen que se acaba de insertar.
 
 ### Observaciones
 
-Puede cambiar el tamaño de la imagen, la ubicación, el método de posicionamiento y otras configuraciones usando el [`Shape`](../../../aspose.words.drawing/shape/) objeto devuelto por este método.
+Puede cambiar el tamaño de la imagen, la ubicación, el método de posicionamiento y otras configuraciones usando [`Shape`](../../../aspose.words.drawing/shape/) objeto devuelto por este método.
 
 ### Ejemplos
 
@@ -370,7 +370,7 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromByteArrayNetStanda
 
 ## InsertImage(Image, double, double) {#insertimage_5}
 
-Inserta una imagen en línea desde un .NETImage objeto en el documento y lo escala al tamaño especificado.
+Inserta una imagen en línea desde .NETImage objeto en el documento y lo escala al tamaño especificado.
 
 ```csharp
 public Shape InsertImage(Image image, double width, double height)
@@ -388,7 +388,7 @@ El nodo de imagen que se acaba de insertar.
 
 ### Observaciones
 
-Puede cambiar el tamaño de la imagen, la ubicación, el método de posicionamiento y otras configuraciones usando el [`Shape`](../../../aspose.words.drawing/shape/) objeto devuelto por este método.
+Puede cambiar el tamaño de la imagen, la ubicación, el método de posicionamiento y otras configuraciones usando [`Shape`](../../../aspose.words.drawing/shape/) objeto devuelto por este método.
 
 ### Ejemplos
 
@@ -475,7 +475,7 @@ El nodo de imagen que se acaba de insertar.
 
 ### Observaciones
 
-Puede cambiar el tamaño de la imagen, la ubicación, el método de posicionamiento y otras configuraciones usando el [`Shape`](../../../aspose.words.drawing/shape/) objeto devuelto por este método.
+Puede cambiar el tamaño de la imagen, la ubicación, el método de posicionamiento y otras configuraciones usando [`Shape`](../../../aspose.words.drawing/shape/) objeto devuelto por este método.
 
 ### Ejemplos
 
@@ -523,7 +523,7 @@ public Shape InsertImage(Stream stream, double width, double height)
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| stream | Stream | El flujo que contiene la imagen. |
+| stream | Stream | La secuencia que contiene la imagen. |
 | width | Double | El ancho de la imagen en puntos. Puede ser un valor negativo o cero para solicitar una escala del 100%. |
 | height | Double | La altura de la imagen en puntos. Puede ser un valor negativo o cero para solicitar una escala del 100%. |
 
@@ -533,7 +533,7 @@ El nodo de imagen que se acaba de insertar.
 
 ### Observaciones
 
-Puede cambiar el tamaño de la imagen, la ubicación, el método de posicionamiento y otras configuraciones usando el [`Shape`](../../../aspose.words.drawing/shape/) objeto devuelto por este método.
+Puede cambiar el tamaño de la imagen, la ubicación, el método de posicionamiento y otras configuraciones usando [`Shape`](../../../aspose.words.drawing/shape/) objeto devuelto por este método.
 
 ### Ejemplos
 
@@ -545,7 +545,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 using (Stream stream = File.OpenRead(ImageDir + "Logo.jpg"))
 {
-    // A continuación se muestran tres formas de insertar una imagen de un flujo.
+    // A continuación se muestran tres formas de insertar una imagen desde una secuencia.
     // 1 - Forma en línea con un tamaño predeterminado basado en las dimensiones originales de la imagen:
     builder.InsertImage(stream);
 
@@ -593,7 +593,7 @@ El nodo de imagen que se acaba de insertar.
 
 ### Observaciones
 
-Puede cambiar el tamaño de la imagen, la ubicación, el método de posicionamiento y otras configuraciones usando el [`Shape`](../../../aspose.words.drawing/shape/) objeto devuelto por este método.
+Puede cambiar el tamaño de la imagen, la ubicación, el método de posicionamiento y otras configuraciones usando [`Shape`](../../../aspose.words.drawing/shape/) objeto devuelto por este método.
 
 ### Ejemplos
 
@@ -689,7 +689,7 @@ public Shape InsertImage(Image image, RelativeHorizontalPosition horzPos, double
 | horzPos | RelativeHorizontalPosition | Especifica desde dónde se mide la distancia a la imagen. |
 | left | Double | Distancia en puntos desde el origen hasta el lado izquierdo de la imagen. |
 | vertPos | RelativeVerticalPosition | Especifica desde dónde se mide la distancia a la imagen. |
-| top | Double | Distancia en puntos desde el origen hasta el lado superior de la imagen. |
+| top | Double | Distancia en puntos desde el origen hasta la parte superior de la imagen. |
 | width | Double | El ancho de la imagen en puntos. Puede ser un valor negativo o cero para solicitar una escala del 100%. |
 | height | Double | La altura de la imagen en puntos. Puede ser un valor negativo o cero para solicitar una escala del 100%. |
 | wrapType | WrapType | Especifica cómo ajustar el texto alrededor de la imagen. |
@@ -700,7 +700,7 @@ El nodo de imagen que se acaba de insertar.
 
 ### Observaciones
 
-Puede cambiar el tamaño de la imagen, la ubicación, el método de posicionamiento y otras configuraciones usando el [`Shape`](../../../aspose.words.drawing/shape/) objeto devuelto por este método.
+Puede cambiar el tamaño de la imagen, la ubicación, el método de posicionamiento y otras configuraciones usando [`Shape`](../../../aspose.words.drawing/shape/) objeto devuelto por este método.
 
 ### Ejemplos
 
@@ -785,7 +785,7 @@ public Shape InsertImage(string fileName, RelativeHorizontalPosition horzPos, do
 | horzPos | RelativeHorizontalPosition | Especifica desde dónde se mide la distancia a la imagen. |
 | left | Double | Distancia en puntos desde el origen hasta el lado izquierdo de la imagen. |
 | vertPos | RelativeVerticalPosition | Especifica desde dónde se mide la distancia a la imagen. |
-| top | Double | Distancia en puntos desde el origen hasta el lado superior de la imagen. |
+| top | Double | Distancia en puntos desde el origen hasta la parte superior de la imagen. |
 | width | Double | El ancho de la imagen en puntos. Puede ser un valor negativo o cero para solicitar una escala del 100%. |
 | height | Double | La altura de la imagen en puntos. Puede ser un valor negativo o cero para solicitar una escala del 100%. |
 | wrapType | WrapType | Especifica cómo ajustar el texto alrededor de la imagen. |
@@ -796,7 +796,7 @@ El nodo de imagen que se acaba de insertar.
 
 ### Observaciones
 
-Puede cambiar el tamaño de la imagen, la ubicación, el método de posicionamiento y otras configuraciones usando el [`Shape`](../../../aspose.words.drawing/shape/) objeto devuelto por este método.
+Puede cambiar el tamaño de la imagen, la ubicación, el método de posicionamiento y otras configuraciones usando [`Shape`](../../../aspose.words.drawing/shape/) objeto devuelto por este método.
 
 ### Ejemplos
 
@@ -806,7 +806,7 @@ Muestra cómo insertar una imagen.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Hay dos formas de usar un generador de documentos para generar una imagen y luego insertarla como una forma flotante.
+// Hay dos formas de utilizar un generador de documentos para obtener una imagen y luego insertarla como una forma flotante.
 // 1 - Desde un archivo en el sistema de archivos local:
 builder.InsertImage(ImageDir + "Transparent background logo.png", RelativeHorizontalPosition.Margin, 100,
     RelativeVerticalPosition.Margin, 0, 200, 200, WrapType.Square);
@@ -825,12 +825,12 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // El método InsertImage crea una forma flotante con la imagen pasada en sus datos de imagen.
-// Podemos especificar las dimensiones de la forma pasándolas a este método.
+// Podemos especificar las dimensiones de la forma, pasándolas a este método.
 Shape imageShape = builder.InsertImage(ImageDir + "Logo.jpg", RelativeHorizontalPosition.Margin, 0,
     RelativeVerticalPosition.Margin, 0, -1, -1, WrapType.Square);
 
 // Pasar valores negativos como las dimensiones deseadas definirá automáticamente
-// las dimensiones de la forma basadas en las dimensiones de su imagen.
+// las dimensiones de la forma según las dimensiones de su imagen.
 Assert.AreEqual(300.0d, imageShape.Width);
 Assert.AreEqual(300.0d, imageShape.Height);
 
@@ -885,11 +885,11 @@ public Shape InsertImage(Stream stream, RelativeHorizontalPosition horzPos, doub
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| stream | Stream | El flujo que contiene la imagen. |
+| stream | Stream | La secuencia que contiene la imagen. |
 | horzPos | RelativeHorizontalPosition | Especifica desde dónde se mide la distancia a la imagen. |
 | left | Double | Distancia en puntos desde el origen hasta el lado izquierdo de la imagen. |
 | vertPos | RelativeVerticalPosition | Especifica desde dónde se mide la distancia a la imagen. |
-| top | Double | Distancia en puntos desde el origen hasta el lado superior de la imagen. |
+| top | Double | Distancia en puntos desde el origen hasta la parte superior de la imagen. |
 | width | Double | El ancho de la imagen en puntos. Puede ser un valor negativo o cero para solicitar una escala del 100%. |
 | height | Double | La altura de la imagen en puntos. Puede ser un valor negativo o cero para solicitar una escala del 100%. |
 | wrapType | WrapType | Especifica cómo ajustar el texto alrededor de la imagen. |
@@ -900,7 +900,7 @@ El nodo de imagen que se acaba de insertar.
 
 ### Observaciones
 
-Puede cambiar el tamaño de la imagen, la ubicación, el método de posicionamiento y otras configuraciones usando el [`Shape`](../../../aspose.words.drawing/shape/) objeto devuelto por este método.
+Puede cambiar el tamaño de la imagen, la ubicación, el método de posicionamiento y otras configuraciones usando [`Shape`](../../../aspose.words.drawing/shape/) objeto devuelto por este método.
 
 ### Ejemplos
 
@@ -912,7 +912,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 using (Stream stream = File.OpenRead(ImageDir + "Logo.jpg"))
 {
-    // A continuación se muestran tres formas de insertar una imagen de un flujo.
+    // A continuación se muestran tres formas de insertar una imagen desde una secuencia.
     // 1 - Forma en línea con un tamaño predeterminado basado en las dimensiones originales de la imagen:
     builder.InsertImage(stream);
 
@@ -958,7 +958,7 @@ public Shape InsertImage(byte[] imageBytes, RelativeHorizontalPosition horzPos, 
 | horzPos | RelativeHorizontalPosition | Especifica desde dónde se mide la distancia a la imagen. |
 | left | Double | Distancia en puntos desde el origen hasta el lado izquierdo de la imagen. |
 | vertPos | RelativeVerticalPosition | Especifica desde dónde se mide la distancia a la imagen. |
-| top | Double | Distancia en puntos desde el origen hasta el lado superior de la imagen. |
+| top | Double | Distancia en puntos desde el origen hasta la parte superior de la imagen. |
 | width | Double | El ancho de la imagen en puntos. Puede ser un valor negativo o cero para solicitar una escala del 100%. |
 | height | Double | La altura de la imagen en puntos. Puede ser un valor negativo o cero para solicitar una escala del 100%. |
 | wrapType | WrapType | Especifica cómo ajustar el texto alrededor de la imagen. |
@@ -969,7 +969,7 @@ El nodo de imagen que se acaba de insertar.
 
 ### Observaciones
 
-Puede cambiar el tamaño de la imagen, la ubicación, el método de posicionamiento y otras configuraciones usando el [`Shape`](../../../aspose.words.drawing/shape/) objeto devuelto por este método.
+Puede cambiar el tamaño de la imagen, la ubicación, el método de posicionamiento y otras configuraciones usando [`Shape`](../../../aspose.words.drawing/shape/) objeto devuelto por este método.
 
 ### Ejemplos
 

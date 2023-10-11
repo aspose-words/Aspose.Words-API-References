@@ -1,14 +1,14 @@
 ---
 title: IFieldMergingCallback.ImageFieldMerging
 second_title: Referencia de API de Aspose.Words para .NET
-description: IFieldMergingCallback método. Llamado cuando el motor de combinación de correspondencia de Aspose.Words está a punto de insertar una imagen en un campo de combinación.
+description: IFieldMergingCallback método. Se llama cuando el motor de combinación de correspondencia Aspose.Words está a punto de insertar una imagen en un campo de combinación.
 type: docs
 weight: 20
 url: /es/net/aspose.words.mailmerging/ifieldmergingcallback/imagefieldmerging/
 ---
 ## IFieldMergingCallback.ImageFieldMerging method
 
-Llamado cuando el motor de combinación de correspondencia de Aspose.Words está a punto de insertar una imagen en un campo de combinación.
+Se llama cuando el motor de combinación de correspondencia Aspose.Words está a punto de insertar una imagen en un campo de combinación.
 
 ```csharp
 public void ImageFieldMerging(ImageFieldMergingArgs args)
@@ -16,7 +16,7 @@ public void ImageFieldMerging(ImageFieldMergingArgs args)
 
 ### Ejemplos
 
-Muestra cómo insertar imágenes almacenadas en un campo BLOB de base de datos en un informe.
+Muestra cómo insertar imágenes almacenadas en un campo BLOB de la base de datos en un informe.
 
 ```csharp
 public void ImageFromBlob()
@@ -25,7 +25,7 @@ public void ImageFromBlob()
 
     doc.MailMerge.FieldMergingCallback = new HandleMergeImageFieldFromBlob();
 
-    string connString = $"Provider=Microsoft.Jet.OLEDB.4.0;Data Source={DatabaseDir + "Northwind.mdb"};";
+    string connString = $"Provider=Microsoft.ACE.OLEDB.12.0;Data Source={DatabaseDir + "Northwind.accdb"};";
     string query = "SELECT FirstName, LastName, Title, Address, City, Region, Country, PhotoBLOB FROM Employees";
 
     using (OleDbConnection conn = new OleDbConnection(connString))
@@ -40,6 +40,7 @@ public void ImageFromBlob()
     }
 
     doc.Save(ArtifactsDir + "MailMergeEvent.ImageFromBlob.docx");
+}
 
 private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
 {

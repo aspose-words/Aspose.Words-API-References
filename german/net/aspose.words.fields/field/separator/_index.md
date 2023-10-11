@@ -1,14 +1,14 @@
 ---
 title: Field.Separator
 second_title: Aspose.Words für .NET-API-Referenz
-description: Field eigendom. Ruft den Knoten ab der das Feldtrennzeichen darstellt. Kann null sein.
+description: Field eigendom. Ruft den Knoten ab der das Feldtrennzeichen darstellt. Kann seinNull .
 type: docs
 weight: 80
 url: /de/net/aspose.words.fields/field/separator/
 ---
 ## Field.Separator property
 
-Ruft den Knoten ab, der das Feldtrennzeichen darstellt. Kann null sein.
+Ruft den Knoten ab, der das Feldtrennzeichen darstellt. Kann sein`Null` .
 
 ```csharp
 public FieldSeparator Separator { get; }
@@ -19,6 +19,7 @@ public FieldSeparator Separator { get; }
 Zeigt, wie mit einer Sammlung von Feldern gearbeitet wird.
 
 ```csharp
+public void FieldCollection()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -36,7 +37,7 @@ Zeigt, wie mit einer Sammlung von Feldern gearbeitet wird.
     Assert.AreEqual(6, fields.Count);
 
     // Über die Feldsammlung iterieren und Inhalt und Typ ausgeben
-    // jedes Feldes mit einer benutzerdefinierten Besucherimplementierung.
+    // jedes Feldes mithilfe einer benutzerdefinierten Besucherimplementierung.
     FieldVisitor fieldVisitor = new FieldVisitor();
 
     using (IEnumerator<Field> fieldEnumerator = fields.GetEnumerator())
@@ -57,9 +58,10 @@ Zeigt, wie mit einer Sammlung von Feldern gearbeitet wird.
     }
 
     Console.WriteLine(fieldVisitor.GetText());
+}
 
 /// <summary>
-/// Besucherimplementierung dokumentieren, die Feldinformationen druckt.
+/// Dokumentieren Sie die Besucherimplementierung, die Feldinformationen druckt.
 /// </summary>
 public class FieldVisitor : DocumentVisitor
 {
@@ -69,7 +71,7 @@ public class FieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Ruft den Klartext des Dokuments ab, das vom Besucher angesammelt wurde.
+    /// Ruft den Klartext des vom Besucher gesammelten Dokuments ab.
     /// </summary>
     public string GetText()
     {

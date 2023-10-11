@@ -16,7 +16,7 @@ public ImageSize ImageSize { get; }
 
 ### Remarques
 
-Si l'image est uniquement liée et n'est pas stockée dans le document, renvoie une taille nulle.
+Si l'image est liée uniquement et n'est pas stockée dans le document, renvoie une taille nulle.
 
 ### Exemples
 
@@ -35,8 +35,8 @@ Montre comment redimensionner une forme avec une image.
             Assert.AreEqual(400, image.Height);
 #endif
 
-            // Lorsque nous insérons une image à l'aide de la méthode "InsertImage", le constructeur redimensionne la forme qui affiche l'image de sorte que,
-            // lorsque nous visualisons le document en utilisant un zoom de 100 % dans Microsoft Word, la forme affiche l'image dans sa taille réelle.
+            // Lorsque nous insérons une image à l'aide de la méthode "InsertImage", le générateur met à l'échelle la forme qui affiche l'image de sorte que,
+            // lorsque nous visualisons le document en utilisant un zoom à 100 % dans Microsoft Word, la forme affiche l'image dans sa taille réelle.
             Document doc = new Document();
             DocumentBuilder builder = new DocumentBuilder(doc);
             Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
@@ -47,7 +47,7 @@ Montre comment redimensionner une forme avec une image.
             Assert.AreEqual(300.0d, imageSize.WidthPoints);
             Assert.AreEqual(300.0d, imageSize.HeightPoints);
 
-            // Si les dimensions d'une forme correspondent aux dimensions des données de l'image,
+            // Si les dimensions d'une forme correspondent aux dimensions des données d'image,
             // alors la forme affiche l'image dans sa taille d'origine.
             Assert.AreEqual(300.0d, shape.Width);
             Assert.AreEqual(300.0d, shape.Height);

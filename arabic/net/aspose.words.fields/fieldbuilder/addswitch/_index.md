@@ -1,14 +1,14 @@
 ---
 title: FieldBuilder.AddSwitch
 second_title: Aspose.Words لمراجع .NET API
-description: FieldBuilder طريقة. يضيف مفتاح تبديل الحقل .
+description: FieldBuilder طريقة. إضافة مفتاح الحقل.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fields/fieldbuilder/addswitch/
 ---
 ## AddSwitch(string) {#addswitch}
 
-يضيف مفتاح تبديل الحقل .
+إضافة مفتاح الحقل.
 
 ```csharp
 public FieldBuilder AddSwitch(string switchName)
@@ -20,16 +20,16 @@ public FieldBuilder AddSwitch(string switchName)
 
 ### ملاحظات
 
-يضيف هذا التحميل الزائد علامة (تبديل بدون وسيطة) .
+يضيف هذا التحميل الزائد علامة (مفتاح بدون وسيطة).
 
 ### أمثلة
 
-يوضح كيفية إنشاء الحقول باستخدام منشئ الحقول ، ثم إدراجها في المستند.
+يوضح كيفية إنشاء الحقول باستخدام منشئ الحقول، ثم إدراجها في المستند.
 
 ```csharp
 Document doc = new Document();
 
-// فيما يلي ثلاثة أمثلة على إنشاء الحقل باستخدام منشئ الحقل.
+// فيما يلي ثلاثة أمثلة للبناء الميداني الذي تم إجراؤه باستخدام أداة إنشاء الحقول.
 // 1 - حقل واحد:
 // استخدم منشئ الحقول لإضافة حقل SYMBOL الذي يعرض الرمز ƒ (Florin).
 FieldBuilder builder = new FieldBuilder(FieldType.FieldSymbol);
@@ -41,28 +41,28 @@ Field field = builder.BuildAndInsert(doc.FirstSection.Body.FirstParagraph);
 
 Assert.AreEqual(" SYMBOL 402 \\f Arial \\s 25 \\u ", field.GetFieldCode());
 
-// 2 - الحقل المتداخل:
-// استخدم منشئ الحقل لإنشاء حقل صيغة يُستخدم كحقل داخلي بواسطة مُنشئ حقل آخر.
+// 2 - حقل متداخل:
+// استخدم منشئ الحقول لإنشاء حقل صيغة يستخدمه منشئ حقل آخر كحقل داخلي.
 FieldBuilder innerFormulaBuilder = new FieldBuilder(FieldType.FieldFormula);
 innerFormulaBuilder.AddArgument(100);
 innerFormulaBuilder.AddArgument("+");
 innerFormulaBuilder.AddArgument(74);
 
-// أنشئ منشئًا آخر لحقل SYMBOL آخر ، وأدخل حقل الصيغة
- // التي أنشأناها أعلاه في حقل SYMBOL كحجة لها.
+// أنشئ منشئًا آخر لحقل SYMBOL آخر، وأدخل حقل الصيغة
+ // الذي أنشأناه أعلاه في حقل SYMBOL كوسيطة له.
 builder = new FieldBuilder(FieldType.FieldSymbol);
 builder.AddArgument(innerFormulaBuilder);
 field = builder.BuildAndInsert(doc.FirstSection.Body.AppendParagraph(string.Empty));
 
-// سيستخدم حقل SYMBOL الخارجي نتيجة حقل الصيغة ، 174 ، كوسيطة لها ،
-// مما سيجعل الحقل يعرض رمز ® (علامة مسجلة) نظرًا لأن رقم حرفه هو 174.
+// سيستخدم حقل SYMBOL الخارجي نتيجة حقل الصيغة، 174، كوسيطة له،
+// مما سيجعل الحقل يعرض رمز ® (العلامة المسجلة) حيث أن رقم الحرف الخاص به هو 174.
 Assert.AreEqual(" SYMBOL \u0013 = 100 + 74 \u0014\u0015 ", field.GetFieldCode());
 
-// 3 - الحقول والوسيطات المتعددة المتداخلة:
-// الآن ، سنستخدم أداة إنشاء لإنشاء حقل IF ، والذي يعرض إحدى قيمتي السلسلة المخصصتين ،
-// اعتمادًا على قيمة صواب / خطأ لتعبيرها. للحصول على قيمة صواب / خطأ
-// الذي يحدد السلسلة التي يعرضها حقل IF ، سيختبر حقل IF تعبيرين رقميين للتساوي.
-// سنقدم التعبيرين في شكل حقول معادلة ، والتي سنقوم بتداخلها داخل حقل IF.
+// 3 - حقول ووسائط متداخلة متعددة:
+// الآن، سوف نستخدم منشئًا لإنشاء حقل IF، والذي يعرض إحدى قيمتي السلسلة المخصصة،
+// اعتمادًا على قيمة الصواب/الخطأ للتعبير الخاص بها. للحصول على قيمة صحيحة/خطأ
+// الذي يحدد السلسلة التي يعرضها حقل IF، سيختبر حقل IF تعبيرين رقميين للمساواة.
+// سنوفر التعبيرين في شكل حقول صيغة، والتي سنضعها داخل حقل IF.
 FieldBuilder leftExpression = new FieldBuilder(FieldType.FieldFormula);
 leftExpression.AddArgument(2);
 leftExpression.AddArgument("+");
@@ -73,8 +73,8 @@ rightExpression.AddArgument(2.5);
 rightExpression.AddArgument("*");
 rightExpression.AddArgument(5.2);
 
-// بعد ذلك ، سنقوم ببناء وسيطتي حقل ، والتي ستكون بمثابة سلاسل إخراج صحيحة / خاطئة لحقل IF.
-// ستعيد هذه الوسيطات استخدام القيم الناتجة لتعبيراتنا الرقمية.
+// بعد ذلك، سنقوم ببناء وسيطتين للحقل، والتي ستكون بمثابة سلاسل إخراج صحيحة/خطأ لحقل IF.
+// ستعيد هذه الوسيطات استخدام قيم الإخراج لتعبيراتنا الرقمية.
 FieldArgumentBuilder trueOutput = new FieldArgumentBuilder();
 trueOutput.AddText("True, both expressions amount to ");
 trueOutput.AddField(leftExpression);
@@ -85,7 +85,7 @@ falseOutput.AddField(leftExpression);
 falseOutput.AddNode(new Run(doc, " does not equal "));
 falseOutput.AddField(rightExpression);
 
- // أخيرًا ، سننشئ منشئ حقل آخر لحقل IF ودمج كل التعبيرات.
+ // وأخيرًا، سنقوم بإنشاء منشئ حقل آخر لحقل IF ودمج كل التعبيرات.
 builder = new FieldBuilder(FieldType.FieldIf);
 builder.AddArgument(leftExpression);
 builder.AddArgument("=");
@@ -112,7 +112,7 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 
 ## AddSwitch(string, string) {#addswitch_3}
 
-يضيف مفتاح تبديل الحقل .
+إضافة مفتاح الحقل.
 
 ```csharp
 public FieldBuilder AddSwitch(string switchName, string switchArgument)
@@ -125,12 +125,12 @@ public FieldBuilder AddSwitch(string switchName, string switchArgument)
 
 ### أمثلة
 
-يوضح كيفية إنشاء الحقول باستخدام منشئ الحقول ، ثم إدراجها في المستند.
+يوضح كيفية إنشاء الحقول باستخدام منشئ الحقول، ثم إدراجها في المستند.
 
 ```csharp
 Document doc = new Document();
 
-// فيما يلي ثلاثة أمثلة على إنشاء الحقل باستخدام منشئ الحقل.
+// فيما يلي ثلاثة أمثلة للبناء الميداني الذي تم إجراؤه باستخدام أداة إنشاء الحقول.
 // 1 - حقل واحد:
 // استخدم منشئ الحقول لإضافة حقل SYMBOL الذي يعرض الرمز ƒ (Florin).
 FieldBuilder builder = new FieldBuilder(FieldType.FieldSymbol);
@@ -142,28 +142,28 @@ Field field = builder.BuildAndInsert(doc.FirstSection.Body.FirstParagraph);
 
 Assert.AreEqual(" SYMBOL 402 \\f Arial \\s 25 \\u ", field.GetFieldCode());
 
-// 2 - الحقل المتداخل:
-// استخدم منشئ الحقل لإنشاء حقل صيغة يُستخدم كحقل داخلي بواسطة مُنشئ حقل آخر.
+// 2 - حقل متداخل:
+// استخدم منشئ الحقول لإنشاء حقل صيغة يستخدمه منشئ حقل آخر كحقل داخلي.
 FieldBuilder innerFormulaBuilder = new FieldBuilder(FieldType.FieldFormula);
 innerFormulaBuilder.AddArgument(100);
 innerFormulaBuilder.AddArgument("+");
 innerFormulaBuilder.AddArgument(74);
 
-// أنشئ منشئًا آخر لحقل SYMBOL آخر ، وأدخل حقل الصيغة
- // التي أنشأناها أعلاه في حقل SYMBOL كحجة لها.
+// أنشئ منشئًا آخر لحقل SYMBOL آخر، وأدخل حقل الصيغة
+ // الذي أنشأناه أعلاه في حقل SYMBOL كوسيطة له.
 builder = new FieldBuilder(FieldType.FieldSymbol);
 builder.AddArgument(innerFormulaBuilder);
 field = builder.BuildAndInsert(doc.FirstSection.Body.AppendParagraph(string.Empty));
 
-// سيستخدم حقل SYMBOL الخارجي نتيجة حقل الصيغة ، 174 ، كوسيطة لها ،
-// مما سيجعل الحقل يعرض رمز ® (علامة مسجلة) نظرًا لأن رقم حرفه هو 174.
+// سيستخدم حقل SYMBOL الخارجي نتيجة حقل الصيغة، 174، كوسيطة له،
+// مما سيجعل الحقل يعرض رمز ® (العلامة المسجلة) حيث أن رقم الحرف الخاص به هو 174.
 Assert.AreEqual(" SYMBOL \u0013 = 100 + 74 \u0014\u0015 ", field.GetFieldCode());
 
-// 3 - الحقول والوسيطات المتعددة المتداخلة:
-// الآن ، سنستخدم أداة إنشاء لإنشاء حقل IF ، والذي يعرض إحدى قيمتي السلسلة المخصصتين ،
-// اعتمادًا على قيمة صواب / خطأ لتعبيرها. للحصول على قيمة صواب / خطأ
-// الذي يحدد السلسلة التي يعرضها حقل IF ، سيختبر حقل IF تعبيرين رقميين للتساوي.
-// سنقدم التعبيرين في شكل حقول معادلة ، والتي سنقوم بتداخلها داخل حقل IF.
+// 3 - حقول ووسائط متداخلة متعددة:
+// الآن، سوف نستخدم منشئًا لإنشاء حقل IF، والذي يعرض إحدى قيمتي السلسلة المخصصة،
+// اعتمادًا على قيمة الصواب/الخطأ للتعبير الخاص بها. للحصول على قيمة صحيحة/خطأ
+// الذي يحدد السلسلة التي يعرضها حقل IF، سيختبر حقل IF تعبيرين رقميين للمساواة.
+// سنوفر التعبيرين في شكل حقول صيغة، والتي سنضعها داخل حقل IF.
 FieldBuilder leftExpression = new FieldBuilder(FieldType.FieldFormula);
 leftExpression.AddArgument(2);
 leftExpression.AddArgument("+");
@@ -174,8 +174,8 @@ rightExpression.AddArgument(2.5);
 rightExpression.AddArgument("*");
 rightExpression.AddArgument(5.2);
 
-// بعد ذلك ، سنقوم ببناء وسيطتي حقل ، والتي ستكون بمثابة سلاسل إخراج صحيحة / خاطئة لحقل IF.
-// ستعيد هذه الوسيطات استخدام القيم الناتجة لتعبيراتنا الرقمية.
+// بعد ذلك، سنقوم ببناء وسيطتين للحقل، والتي ستكون بمثابة سلاسل إخراج صحيحة/خطأ لحقل IF.
+// ستعيد هذه الوسيطات استخدام قيم الإخراج لتعبيراتنا الرقمية.
 FieldArgumentBuilder trueOutput = new FieldArgumentBuilder();
 trueOutput.AddText("True, both expressions amount to ");
 trueOutput.AddField(leftExpression);
@@ -186,7 +186,7 @@ falseOutput.AddField(leftExpression);
 falseOutput.AddNode(new Run(doc, " does not equal "));
 falseOutput.AddField(rightExpression);
 
- // أخيرًا ، سننشئ منشئ حقل آخر لحقل IF ودمج كل التعبيرات.
+ // وأخيرًا، سنقوم بإنشاء منشئ حقل آخر لحقل IF ودمج كل التعبيرات.
 builder = new FieldBuilder(FieldType.FieldIf);
 builder.AddArgument(leftExpression);
 builder.AddArgument("=");
@@ -213,7 +213,7 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 
 ## AddSwitch(string, int) {#addswitch_2}
 
-يضيف مفتاح تبديل الحقل .
+إضافة مفتاح الحقل.
 
 ```csharp
 public FieldBuilder AddSwitch(string switchName, int switchArgument)
@@ -226,12 +226,12 @@ public FieldBuilder AddSwitch(string switchName, int switchArgument)
 
 ### أمثلة
 
-يوضح كيفية إنشاء الحقول باستخدام منشئ الحقول ، ثم إدراجها في المستند.
+يوضح كيفية إنشاء الحقول باستخدام منشئ الحقول، ثم إدراجها في المستند.
 
 ```csharp
 Document doc = new Document();
 
-// فيما يلي ثلاثة أمثلة على إنشاء الحقل باستخدام منشئ الحقل.
+// فيما يلي ثلاثة أمثلة للبناء الميداني الذي تم إجراؤه باستخدام أداة إنشاء الحقول.
 // 1 - حقل واحد:
 // استخدم منشئ الحقول لإضافة حقل SYMBOL الذي يعرض الرمز ƒ (Florin).
 FieldBuilder builder = new FieldBuilder(FieldType.FieldSymbol);
@@ -243,28 +243,28 @@ Field field = builder.BuildAndInsert(doc.FirstSection.Body.FirstParagraph);
 
 Assert.AreEqual(" SYMBOL 402 \\f Arial \\s 25 \\u ", field.GetFieldCode());
 
-// 2 - الحقل المتداخل:
-// استخدم منشئ الحقل لإنشاء حقل صيغة يُستخدم كحقل داخلي بواسطة مُنشئ حقل آخر.
+// 2 - حقل متداخل:
+// استخدم منشئ الحقول لإنشاء حقل صيغة يستخدمه منشئ حقل آخر كحقل داخلي.
 FieldBuilder innerFormulaBuilder = new FieldBuilder(FieldType.FieldFormula);
 innerFormulaBuilder.AddArgument(100);
 innerFormulaBuilder.AddArgument("+");
 innerFormulaBuilder.AddArgument(74);
 
-// أنشئ منشئًا آخر لحقل SYMBOL آخر ، وأدخل حقل الصيغة
- // التي أنشأناها أعلاه في حقل SYMBOL كحجة لها.
+// أنشئ منشئًا آخر لحقل SYMBOL آخر، وأدخل حقل الصيغة
+ // الذي أنشأناه أعلاه في حقل SYMBOL كوسيطة له.
 builder = new FieldBuilder(FieldType.FieldSymbol);
 builder.AddArgument(innerFormulaBuilder);
 field = builder.BuildAndInsert(doc.FirstSection.Body.AppendParagraph(string.Empty));
 
-// سيستخدم حقل SYMBOL الخارجي نتيجة حقل الصيغة ، 174 ، كوسيطة لها ،
-// مما سيجعل الحقل يعرض رمز ® (علامة مسجلة) نظرًا لأن رقم حرفه هو 174.
+// سيستخدم حقل SYMBOL الخارجي نتيجة حقل الصيغة، 174، كوسيطة له،
+// مما سيجعل الحقل يعرض رمز ® (العلامة المسجلة) حيث أن رقم الحرف الخاص به هو 174.
 Assert.AreEqual(" SYMBOL \u0013 = 100 + 74 \u0014\u0015 ", field.GetFieldCode());
 
-// 3 - الحقول والوسيطات المتعددة المتداخلة:
-// الآن ، سنستخدم أداة إنشاء لإنشاء حقل IF ، والذي يعرض إحدى قيمتي السلسلة المخصصتين ،
-// اعتمادًا على قيمة صواب / خطأ لتعبيرها. للحصول على قيمة صواب / خطأ
-// الذي يحدد السلسلة التي يعرضها حقل IF ، سيختبر حقل IF تعبيرين رقميين للتساوي.
-// سنقدم التعبيرين في شكل حقول معادلة ، والتي سنقوم بتداخلها داخل حقل IF.
+// 3 - حقول ووسائط متداخلة متعددة:
+// الآن، سوف نستخدم منشئًا لإنشاء حقل IF، والذي يعرض إحدى قيمتي السلسلة المخصصة،
+// اعتمادًا على قيمة الصواب/الخطأ للتعبير الخاص بها. للحصول على قيمة صحيحة/خطأ
+// الذي يحدد السلسلة التي يعرضها حقل IF، سيختبر حقل IF تعبيرين رقميين للمساواة.
+// سنوفر التعبيرين في شكل حقول صيغة، والتي سنضعها داخل حقل IF.
 FieldBuilder leftExpression = new FieldBuilder(FieldType.FieldFormula);
 leftExpression.AddArgument(2);
 leftExpression.AddArgument("+");
@@ -275,8 +275,8 @@ rightExpression.AddArgument(2.5);
 rightExpression.AddArgument("*");
 rightExpression.AddArgument(5.2);
 
-// بعد ذلك ، سنقوم ببناء وسيطتي حقل ، والتي ستكون بمثابة سلاسل إخراج صحيحة / خاطئة لحقل IF.
-// ستعيد هذه الوسيطات استخدام القيم الناتجة لتعبيراتنا الرقمية.
+// بعد ذلك، سنقوم ببناء وسيطتين للحقل، والتي ستكون بمثابة سلاسل إخراج صحيحة/خطأ لحقل IF.
+// ستعيد هذه الوسيطات استخدام قيم الإخراج لتعبيراتنا الرقمية.
 FieldArgumentBuilder trueOutput = new FieldArgumentBuilder();
 trueOutput.AddText("True, both expressions amount to ");
 trueOutput.AddField(leftExpression);
@@ -287,7 +287,7 @@ falseOutput.AddField(leftExpression);
 falseOutput.AddNode(new Run(doc, " does not equal "));
 falseOutput.AddField(rightExpression);
 
- // أخيرًا ، سننشئ منشئ حقل آخر لحقل IF ودمج كل التعبيرات.
+ // وأخيرًا، سنقوم بإنشاء منشئ حقل آخر لحقل IF ودمج كل التعبيرات.
 builder = new FieldBuilder(FieldType.FieldIf);
 builder.AddArgument(leftExpression);
 builder.AddArgument("=");
@@ -314,7 +314,7 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 
 ## AddSwitch(string, double) {#addswitch_1}
 
-يضيف مفتاح تبديل الحقل .
+إضافة مفتاح الحقل.
 
 ```csharp
 public FieldBuilder AddSwitch(string switchName, double switchArgument)
@@ -327,12 +327,12 @@ public FieldBuilder AddSwitch(string switchName, double switchArgument)
 
 ### أمثلة
 
-يوضح كيفية إنشاء الحقول باستخدام منشئ الحقول ، ثم إدراجها في المستند.
+يوضح كيفية إنشاء الحقول باستخدام منشئ الحقول، ثم إدراجها في المستند.
 
 ```csharp
 Document doc = new Document();
 
-// فيما يلي ثلاثة أمثلة على إنشاء الحقل باستخدام منشئ الحقل.
+// فيما يلي ثلاثة أمثلة للبناء الميداني الذي تم إجراؤه باستخدام أداة إنشاء الحقول.
 // 1 - حقل واحد:
 // استخدم منشئ الحقول لإضافة حقل SYMBOL الذي يعرض الرمز ƒ (Florin).
 FieldBuilder builder = new FieldBuilder(FieldType.FieldSymbol);
@@ -344,28 +344,28 @@ Field field = builder.BuildAndInsert(doc.FirstSection.Body.FirstParagraph);
 
 Assert.AreEqual(" SYMBOL 402 \\f Arial \\s 25 \\u ", field.GetFieldCode());
 
-// 2 - الحقل المتداخل:
-// استخدم منشئ الحقل لإنشاء حقل صيغة يُستخدم كحقل داخلي بواسطة مُنشئ حقل آخر.
+// 2 - حقل متداخل:
+// استخدم منشئ الحقول لإنشاء حقل صيغة يستخدمه منشئ حقل آخر كحقل داخلي.
 FieldBuilder innerFormulaBuilder = new FieldBuilder(FieldType.FieldFormula);
 innerFormulaBuilder.AddArgument(100);
 innerFormulaBuilder.AddArgument("+");
 innerFormulaBuilder.AddArgument(74);
 
-// أنشئ منشئًا آخر لحقل SYMBOL آخر ، وأدخل حقل الصيغة
- // التي أنشأناها أعلاه في حقل SYMBOL كحجة لها.
+// أنشئ منشئًا آخر لحقل SYMBOL آخر، وأدخل حقل الصيغة
+ // الذي أنشأناه أعلاه في حقل SYMBOL كوسيطة له.
 builder = new FieldBuilder(FieldType.FieldSymbol);
 builder.AddArgument(innerFormulaBuilder);
 field = builder.BuildAndInsert(doc.FirstSection.Body.AppendParagraph(string.Empty));
 
-// سيستخدم حقل SYMBOL الخارجي نتيجة حقل الصيغة ، 174 ، كوسيطة لها ،
-// مما سيجعل الحقل يعرض رمز ® (علامة مسجلة) نظرًا لأن رقم حرفه هو 174.
+// سيستخدم حقل SYMBOL الخارجي نتيجة حقل الصيغة، 174، كوسيطة له،
+// مما سيجعل الحقل يعرض رمز ® (العلامة المسجلة) حيث أن رقم الحرف الخاص به هو 174.
 Assert.AreEqual(" SYMBOL \u0013 = 100 + 74 \u0014\u0015 ", field.GetFieldCode());
 
-// 3 - الحقول والوسيطات المتعددة المتداخلة:
-// الآن ، سنستخدم أداة إنشاء لإنشاء حقل IF ، والذي يعرض إحدى قيمتي السلسلة المخصصتين ،
-// اعتمادًا على قيمة صواب / خطأ لتعبيرها. للحصول على قيمة صواب / خطأ
-// الذي يحدد السلسلة التي يعرضها حقل IF ، سيختبر حقل IF تعبيرين رقميين للتساوي.
-// سنقدم التعبيرين في شكل حقول معادلة ، والتي سنقوم بتداخلها داخل حقل IF.
+// 3 - حقول ووسائط متداخلة متعددة:
+// الآن، سوف نستخدم منشئًا لإنشاء حقل IF، والذي يعرض إحدى قيمتي السلسلة المخصصة،
+// اعتمادًا على قيمة الصواب/الخطأ للتعبير الخاص بها. للحصول على قيمة صحيحة/خطأ
+// الذي يحدد السلسلة التي يعرضها حقل IF، سيختبر حقل IF تعبيرين رقميين للمساواة.
+// سنوفر التعبيرين في شكل حقول صيغة، والتي سنضعها داخل حقل IF.
 FieldBuilder leftExpression = new FieldBuilder(FieldType.FieldFormula);
 leftExpression.AddArgument(2);
 leftExpression.AddArgument("+");
@@ -376,8 +376,8 @@ rightExpression.AddArgument(2.5);
 rightExpression.AddArgument("*");
 rightExpression.AddArgument(5.2);
 
-// بعد ذلك ، سنقوم ببناء وسيطتي حقل ، والتي ستكون بمثابة سلاسل إخراج صحيحة / خاطئة لحقل IF.
-// ستعيد هذه الوسيطات استخدام القيم الناتجة لتعبيراتنا الرقمية.
+// بعد ذلك، سنقوم ببناء وسيطتين للحقل، والتي ستكون بمثابة سلاسل إخراج صحيحة/خطأ لحقل IF.
+// ستعيد هذه الوسيطات استخدام قيم الإخراج لتعبيراتنا الرقمية.
 FieldArgumentBuilder trueOutput = new FieldArgumentBuilder();
 trueOutput.AddText("True, both expressions amount to ");
 trueOutput.AddField(leftExpression);
@@ -388,7 +388,7 @@ falseOutput.AddField(leftExpression);
 falseOutput.AddNode(new Run(doc, " does not equal "));
 falseOutput.AddField(rightExpression);
 
- // أخيرًا ، سننشئ منشئ حقل آخر لحقل IF ودمج كل التعبيرات.
+ // وأخيرًا، سنقوم بإنشاء منشئ حقل آخر لحقل IF ودمج كل التعبيرات.
 builder = new FieldBuilder(FieldType.FieldIf);
 builder.AddArgument(leftExpression);
 builder.AddArgument("=");

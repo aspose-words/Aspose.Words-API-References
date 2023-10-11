@@ -1,14 +1,14 @@
 ---
 title: Enum HorizontalRuleAlignment
 second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Drawing.HorizontalRuleAlignment Sıralama. Belirtilen yatay kural için hizalamayı temsil eder.
+description: Aspose.Words.Drawing.HorizontalRuleAlignment Sıralama. Belirtilen yatay kurala ilişkin hizalamayı temsil eder.
 type: docs
-weight: 910
+weight: 1040
 url: /tr/net/aspose.words.drawing/horizontalrulealignment/
 ---
 ## HorizontalRuleAlignment enumeration
 
-Belirtilen yatay kural için hizalamayı temsil eder.
+Belirtilen yatay kurala ilişkin hizalamayı temsil eder.
 
 ```csharp
 public enum HorizontalRuleAlignment
@@ -19,7 +19,7 @@ public enum HorizontalRuleAlignment
 | İsim | Değer | Tanım |
 | --- | --- | --- |
 | Left | `0` | Sola hizalanmış. |
-| Center | `1` | Merkeze hizalanmış. |
+| Center | `1` | Ortaya hizalandı. |
 | Right | `2` | Sağa hizalanmış. |
 
 ### Ayrıca bakınız

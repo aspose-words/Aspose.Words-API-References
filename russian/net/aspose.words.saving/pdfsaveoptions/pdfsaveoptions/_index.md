@@ -1,14 +1,14 @@
 ---
 title: PdfSaveOptions.PdfSaveOptions
 second_title: Справочник по API Aspose.Words для .NET
-description: PdfSaveOptions строитель. Инициализирует новый экземпляр этого класса который можно использовать для сохранения документа в папке .Pdf формат.
+description: PdfSaveOptions строитель. Инициализирует новый экземпляр этого класса который можно использовать для сохранения документа в .Pdf формат.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.saving/pdfsaveoptions/pdfsaveoptions/
 ---
 ## PdfSaveOptions constructor
 
-Инициализирует новый экземпляр этого класса, который можно использовать для сохранения документа в папке .Pdf формат.
+Инициализирует новый экземпляр этого класса, который можно использовать для сохранения документа в .Pdf формат.
 
 ```csharp
 public PdfSaveOptions()
@@ -16,7 +16,7 @@ public PdfSaveOptions()
 
 ### Примеры
 
-Показывает, как включить или отключить подмножество при встраивании шрифтов во время рендеринга документа в PDF.
+Показывает, как включить или отключить поднабор при встраивании шрифтов во время рендеринга документа в PDF.
 
 ```csharp
 Document doc = new Document();
@@ -27,7 +27,7 @@ builder.Writeln("Hello world!");
 builder.Font.Name = "Arvo";
 builder.Writeln("The quick brown fox jumps over the lazy dog.");
 
-// Настройте наши источники шрифтов, чтобы убедиться, что у нас есть доступ к обоим шрифтам в этом документе.
+// Настройте источники шрифтов, чтобы гарантировать доступ к обоим шрифтам в этом документе.
 FontSourceBase[] originalFontsSources = FontSettings.DefaultInstance.GetFontsSources();
 Aspose.Words.Fonts.FolderFontSource folderFontSource = new Aspose.Words.Fonts.FolderFontSource(FontsDir, true);
 FontSettings.DefaultInstance.SetFontsSources(new[] { originalFontsSources[0], folderFontSource });
@@ -36,16 +36,16 @@ FontSourceBase[] fontSources = FontSettings.DefaultInstance.GetFontsSources();
 Assert.True(fontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arial"));
 Assert.True(fontSources[1].GetAvailableFonts().Any(f => f.FullFontName == "Arvo"));
 
-// Создаем объект "PdfSaveOptions", который мы можем передать в метод "Сохранить" документа
-// для изменения того, как этот метод преобразует документ в .PDF.
+// Создаем объект «PdfSaveOptions», который мы можем передать методу «Save» документа.
+// чтобы изменить способ преобразования этого метода в .PDF.
 PdfSaveOptions options = new PdfSaveOptions();
 
-// Поскольку наш документ содержит пользовательский шрифт, может потребоваться его встраивание в выходной документ.
-// Установите для свойства "EmbedFullFonts" значение "true", чтобы встроить каждый глиф каждого встроенного шрифта в выходной PDF-файл.
-// Размер документа может стать очень большим, но мы сможем полностью использовать все шрифты, если редактируем PDF.
-// Установите для свойства "EmbedFullFonts" значение "false", чтобы применить подмножество к шрифтам, сохраняя только глифы
+// Поскольку наш документ содержит собственный шрифт, его встраивание в выходной документ может оказаться желательным.
+// Установите для свойства «EmbedFullFonts» значение «true», чтобы встроить каждый глиф каждого встроенного шрифта в выходной PDF-файл.
+// Размер документа может стать очень большим, но при редактировании PDF мы сможем полностью использовать все шрифты.
+// Установите для свойства "EmbedFullFonts" значение "false", чтобы применить поднабор к шрифтам, сохраняя только глифы
 // который использует документ. Файл будет значительно меньше,
-// но нам может понадобиться доступ к любым пользовательским шрифтам, если мы редактируем документ.
+// но нам может понадобиться доступ к любым пользовательским шрифтам, если мы будем редактировать документ.
 options.EmbedFullFonts = embedFullFonts;
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.EmbedFullFonts.pdf", options);
@@ -55,7 +55,7 @@ if (embedFullFonts)
 else
     Assert.That(25000, Is.AtLeast(new FileInfo(ArtifactsDir + "PdfSaveOptions.EmbedFullFonts.pdf").Length));
 
-// Восстановить исходные источники шрифтов.
+// Восстанавливаем исходные источники шрифтов.
 FontSettings.DefaultInstance.SetFontsSources(originalFontsSources);
 ```
 

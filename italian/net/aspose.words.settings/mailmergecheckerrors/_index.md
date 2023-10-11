@@ -1,14 +1,14 @@
 ---
 title: Enum MailMergeCheckErrors
 second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Settings.MailMergeCheckErrors enum. Specifica come Microsoft Word riporterà gli errori rilevati durante la stampa unione.
+description: Aspose.Words.Settings.MailMergeCheckErrors enum. Specifica il modo in cui Microsoft Word segnalerà gli errori rilevati durante la stampa unione.
 type: docs
-weight: 5510
+weight: 5810
 url: /it/net/aspose.words.settings/mailmergecheckerrors/
 ---
 ## MailMergeCheckErrors enumeration
 
-Specifica come Microsoft Word riporterà gli errori rilevati durante la stampa unione.
+Specifica il modo in cui Microsoft Word segnalerà gli errori rilevati durante la stampa unione.
 
 ```csharp
 public enum MailMergeCheckErrors
@@ -19,7 +19,7 @@ public enum MailMergeCheckErrors
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
 | Simulate | `1` | Simula l'unione e segnala gli errori in un nuovo documento. |
-| PauseOnError | `2` | Completa l'unione e metti in pausa per segnalare gli errori. |
+| PauseOnError | `2` | Completa l'unione e metti in pausa per segnalare errori. |
 | CollectErrors | `3` | Completa l'unione e segnala gli errori in un nuovo documento. |
 | Default | `2` | Uguale aPauseOnError valore. |
 
@@ -68,7 +68,7 @@ odso.FirstRowContainsColumnNames = true;
 Assert.AreNotSame(odso, odso.Clone());
 Assert.AreNotSame(settings, settings.Clone());
 
-// L'apertura di questo documento in Microsoft Word eseguirà la stampa unione prima di visualizzare il contenuto. 
+ // L'apertura di questo documento in Microsoft Word eseguirà la stampa unione prima di visualizzarne il contenuto.
 doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ```
 

@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTagRangeStart.RemoveAllChildren
 second_title: Referencia de API de Aspose.Words para .NET
-description: StructuredDocumentTagRangeStart método. Elimina todos los nodos entre este nodo inicial de rango y el nodo final de rango.
+description: StructuredDocumentTagRangeStart método. Elimina todos los nodos entre este nodo de inicio de rango y el nodo de final de rango.
 type: docs
 weight: 230
 url: /es/net/aspose.words.markup/structureddocumenttagrangestart/removeallchildren/
 ---
 ## StructuredDocumentTagRangeStart.RemoveAllChildren method
 
-Elimina todos los nodos entre este nodo inicial de rango y el nodo final de rango.
+Elimina todos los nodos entre este nodo de inicio de rango y el nodo de final de rango.
 
 ```csharp
 public void RemoveAllChildren()
@@ -16,9 +16,10 @@ public void RemoveAllChildren()
 
 ### Ejemplos
 
-Muestra cómo crear/eliminar una etiqueta de documento estructurado y su contenido.
+Muestra cómo crear/eliminar etiquetas de documentos estructurados y su contenido.
 
 ```csharp
+public void SdtRangeExtendedMethods()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -45,7 +46,7 @@ Muestra cómo crear/eliminar una etiqueta de documento estructurado y su conteni
     Node paragraphNode = rangeStart.LastOrDefault();
     Assert.AreEqual("StructuredDocumentTag element", paragraphNode?.GetText().Trim());
 
-    // Elimina la etiqueta del documento estructurado por rangos y el contenido interno.
+    // Elimina la etiqueta del documento estructurado por rangos y el contenido del interior.
     rangeStart.RemoveAllChildren();
 
     paragraphNode = rangeStart.LastOrDefault();

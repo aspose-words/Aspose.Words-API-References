@@ -22,7 +22,7 @@ Establece el estilo de todos los bordes de la colección, excepto los bordes dia
 
 ### Ejemplos
 
-Muestra cómo crear un borde de página verde ondulado con una sombra.
+Muestra cómo crear un borde de página ondulado verde con una sombra.
 
 ```csharp
 Document doc = new Document();

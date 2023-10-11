@@ -1,14 +1,14 @@
 ---
 title: Interface IFieldResultFormatter
 second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Fields.IFieldResultFormatter интерфейс. Реализуйте этот интерфейс если хотите управлять форматированием результата поля.
+description: Aspose.Words.Fields.IFieldResultFormatter интерфейс. Реализуйте этот интерфейс если хотите контролировать форматирование результата поля.
 type: docs
-weight: 2530
+weight: 2700
 url: /ru/net/aspose.words.fields/ifieldresultformatter/
 ---
 ## IFieldResultFormatter interface
 
-Реализуйте этот интерфейс, если хотите управлять форматированием результата поля.
+Реализуйте этот интерфейс, если хотите контролировать форматирование результата поля.
 
 ```csharp
 public interface IFieldResultFormatter
@@ -20,24 +20,25 @@ public interface IFieldResultFormatter
 | --- | --- |
 | [Format](../../aspose.words.fields/ifieldresultformatter/format/#format)(double, GeneralFormat) | Вызывается, когда Aspose.Words применяет переключатель числового формата, т.е. \* Ordinal. |
 | [Format](../../aspose.words.fields/ifieldresultformatter/format/#format_1)(string, GeneralFormat) | Вызывается, когда Aspose.Words применяет переключатель формата заглавных букв, т.е. \* Upper. |
-| [FormatDateTime](../../aspose.words.fields/ifieldresultformatter/formatdatetime/)(DateTime, string, CalendarType) | Вызывается, когда Aspose.Words применяет переключатель формата даты/времени, например \@ "dd.MM.yyyy". |
+| [FormatDateTime](../../aspose.words.fields/ifieldresultformatter/formatdatetime/)(DateTime, string, CalendarType) | Вызывается, когда Aspose.Words применяет переключатель формата даты/времени, т.е. \@ "dd.MM.yyyy". |
 | [FormatNumeric](../../aspose.words.fields/ifieldresultformatter/formatnumeric/)(double, string) | Вызывается, когда Aspose.Words применяет переключатель числового формата, т.е. \# "#.##". |
 
 ### Примеры
 
-Показывает, как автоматически применять настраиваемый формат к результатам поля при обновлении полей.
+Показывает, как автоматически применять пользовательский формат к результатам полей при обновлении полей.
 
 ```csharp
+public void FieldResultFormatting()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
     FieldResultFormatter formatter = new FieldResultFormatter("${0}", "Date: {0}", "Item # {0}:");
     doc.FieldOptions.ResultFormatter = formatter;
 
-    // Наш модуль форматирования результатов полей применяет пользовательский формат к вновь созданным полям трех типов форматов.
+    // Наш форматировщик результатов полей применяет пользовательский формат к вновь созданным полям трех типов форматов.
     // Средства форматирования результатов полей применяют новое форматирование к полям по мере их обновления,
-    // что происходит, как только мы создаем их, используя эту перегрузку метода InsertField.
-    // 1 - Числовой:
+    // что происходит, как только мы создаем их с помощью перегрузки метода InsertField.
+    // 1 - Числовое:
     builder.InsertField(" = 2 + 3 \\# $###");
 
     Assert.AreEqual("$5", doc.Range.Fields[0].Result);
@@ -59,7 +60,7 @@ public interface IFieldResultFormatter
 }
 
 /// <summary>
-/// Когда поля с форматированием обновляются, этот модуль форматирования переопределяет их форматирование
+/// Когда поля с форматированием обновляются, этот форматтер переопределит их форматирование
 /// с пользовательским форматом, отслеживая каждый вызов.
 /// </summary>
 private class FieldResultFormatter : IFieldResultFormatter

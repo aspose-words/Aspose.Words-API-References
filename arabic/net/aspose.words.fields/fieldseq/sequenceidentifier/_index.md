@@ -1,14 +1,14 @@
 ---
 title: FieldSeq.SequenceIdentifier
 second_title: Aspose.Words لمراجع .NET API
-description: FieldSeq ملكية. الحصول على أو تعيين الاسم المخصص لسلسلة العناصر المراد ترقيمها .
+description: FieldSeq ملكية. الحصول على أو تعيين الاسم المخصص لسلسلة العناصر التي سيتم ترقيمها.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.fields/fieldseq/sequenceidentifier/
 ---
 ## FieldSeq.SequenceIdentifier property
 
-الحصول على أو تعيين الاسم المخصص لسلسلة العناصر المراد ترقيمها .
+الحصول على أو تعيين الاسم المخصص لسلسلة العناصر التي سيتم ترقيمها.
 
 ```csharp
 public string SequenceIdentifier { get; set; }
@@ -22,10 +22,10 @@ public string SequenceIdentifier { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// تعرض حقول SEQ عددًا يتزايد في كل حقل SEQ.
+تعرض حقول SEQ عددًا يتزايد في كل حقل SEQ.
 // تحتفظ هذه الحقول أيضًا بأعداد منفصلة لكل تسلسل مسمى فريد
-// التي تم تحديدها بواسطة خاصية "SequenceIdentifier" لحقل SEQ.
-// أدخل حقل SEQ يعرض قيمة العدد الحالية لـ "MySequence" ،
+// تم تحديده بواسطة خاصية "SequenceIdentifier" الخاصة بحقل SEQ.
+// أدخل حقل SEQ الذي سيعرض قيمة العد الحالية لـ "MySequence"،
 // بعد استخدام خاصية "ResetNumber" لتعيينها على 100.
 builder.Write("#");
 FieldSeq fieldSeq = (FieldSeq)builder.InsertField(FieldType.FieldSequence, true);
@@ -50,18 +50,18 @@ builder.ParagraphFormat.Style = doc.Styles["Heading 1"];
 builder.Writeln("This level 1 heading will reset MySequence to 1");
 builder.ParagraphFormat.Style = doc.Styles["Normal"];
 
-// أدخل حقل SEQ آخر من نفس التسلسل وقم بتكوينه لإعادة تعيين العد في كل عنوان بـ 1.
+// أدخل حقل SEQ آخر من نفس التسلسل وقم بتكوينه لإعادة تعيين العدد في كل عنوان بـ 1.
 builder.Write("\n#");
 fieldSeq = (FieldSeq)builder.InsertField(FieldType.FieldSequence, true);
 fieldSeq.SequenceIdentifier = "MySequence";
 fieldSeq.ResetHeadingLevel = "1";
 fieldSeq.Update();
 
-// العنوان أعلاه هو عنوان من المستوى 1 ، لذلك يتم إعادة تعيين عدد هذا التسلسل إلى 1.
+// العنوان أعلاه هو عنوان المستوى 1، لذا تتم إعادة تعيين عدد هذا التسلسل إلى 1.
 Assert.AreEqual(" SEQ  MySequence \\s 1", fieldSeq.GetFieldCode());
 Assert.AreEqual("1", fieldSeq.Result);
 
-// الانتقال إلى الرقم التالي من هذا التسلسل.
+// انتقل إلى الرقم التالي من هذا التسلسل.
 builder.Write(", #");
 fieldSeq = (FieldSeq)builder.InsertField(FieldType.FieldSequence, true);
 fieldSeq.SequenceIdentifier = "MySequence";
@@ -75,31 +75,31 @@ doc.UpdateFields();
 doc.Save(ArtifactsDir + "Field.SEQ.ResetNumbering.docx");
 ```
 
-يوضح كيفية ملء حقل جدول المحتويات بإدخالات باستخدام حقول SEQ.
+يوضح كيفية ملء حقل جدول المحتويات بالإدخالات باستخدام حقول التسلسل.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// يمكن لحقل جدول المحتويات إنشاء إدخال في جدول المحتويات الخاص به لكل حقل SEQ موجود في المستند.
-// يحتوي كل إدخال على الفقرة التي تتضمن حقل SEQ ورقم الصفحة التي يظهر عليها الحقل.
+// يمكن لحقل جدول المحتويات إنشاء إدخال في جدول محتوياته لكل حقل تسلسلي موجود في المستند.
+// يحتوي كل إدخال على الفقرة التي تتضمن حقل التسلسل ورقم الصفحة التي يظهر عليها الحقل.
 FieldToc fieldToc = (FieldToc)builder.InsertField(FieldType.FieldTOC, true);
 
-// تعرض حقول SEQ عددًا يتزايد في كل حقل SEQ.
+تعرض حقول SEQ عددًا يتزايد في كل حقل SEQ.
 // تحتفظ هذه الحقول أيضًا بأعداد منفصلة لكل تسلسل مسمى فريد
-// التي تم تحديدها بواسطة خاصية "SequenceIdentifier" لحقل SEQ.
-// استخدم خاصية "TableOfFiguresLabel" لتسمية تسلسل رئيسي لجدول المحتويات.
-// الآن ، سيقوم جدول المحتويات هذا بإنشاء إدخالات من حقول SEQ فقط مع تعيين "SequenceIdentifier" على "MySequence".
+// تم تحديده بواسطة خاصية "SequenceIdentifier" الخاصة بحقل SEQ.
+// استخدم خاصية "TableOfFigersLabel" لتسمية التسلسل الرئيسي لجدول المحتويات.
+// الآن، سيقوم جدول المحتويات هذا فقط بإنشاء إدخالات من حقول SEQ مع تعيين "SequenceIdentifier" الخاص بها على "MySequence".
 fieldToc.TableOfFiguresLabel = "MySequence";
 
 // يمكننا تسمية تسلسل حقل SEQ آخر في خاصية "PrefixedSequenceIdentifier".
- // SEQ من تسلسل البادئة هذا لن تنشئ إدخالات جدول المحتويات.
-// كل إدخال جدول محتويات تم إنشاؤه من حقل SEQ للتسلسل الرئيسي سيعرض الآن أيضًا عدد ذلك
-// تسلسل البادئة قيد التشغيل حاليًا في حقل تسلسل SEQ الأساسي الذي جعل الإدخال.
+ لن تقوم حقول SEQ من تسلسل البادئة هذا بإنشاء إدخالات جدول المحتويات.
+// كل إدخال جدول محتويات تم إنشاؤه من حقل SEQ للتسلسل الرئيسي سيعرض الآن أيضًا العدد الذي
+// تسلسل البادئة قيد التشغيل حاليًا في حقل SEQ للتسلسل الأساسي الذي قام بالإدخال.
 fieldToc.PrefixedSequenceIdentifier = "PrefixSequence";
 
 // سيعرض كل إدخال في جدول المحتويات عدد تسلسل البادئة على الفور إلى اليسار
-// من رقم الصفحة الذي يظهر عليه حقل التسلسل الرئيسي SEQ.
+// رقم الصفحة التي يظهر عليها حقل التسلسل الرئيسي.
 // يمكننا تحديد فاصل مخصص سيظهر بين هذين الرقمين.
 fieldToc.SequenceSeparator = ">";
 
@@ -107,33 +107,33 @@ Assert.AreEqual(" TOC  \\c MySequence \\s PrefixSequence \\d >", fieldToc.GetFie
 
 builder.InsertBreak(BreakType.PageBreak);
 
-// هناك طريقتان لاستخدام حقول SEQ لملء جدول المحتويات هذا.
-// 1 - إدخال حقل SEQ ينتمي إلى تسلسل بادئة جدول المحتويات:
-// سيزيد هذا الحقل عدد تسلسل SEQ لـ "PrefixSequence" بمقدار 1.
-// بما أن هذا الحقل لا ينتمي إلى التسلسل الرئيسي المحدد
-// بواسطة خاصية "TableOfFiguresLabel" لجدول المحتويات ، فلن تظهر كإدخال.
+// هناك طريقتان لاستخدام حقول التسلسل لملء جدول المحتويات هذا.
+// 1 - إدراج حقل SEQ ينتمي إلى تسلسل بادئة جدول المحتويات:
+// سيؤدي هذا الحقل إلى زيادة عدد تسلسل SEQ لـ "PrefixSequence" بمقدار 1.
+// نظرًا لأن هذا الحقل لا ينتمي إلى التسلسل الرئيسي المحدد
+// بواسطة خاصية "TableOfFigersLabel" لجدول المحتويات، لن يظهر كإدخال.
 FieldSeq fieldSeq = (FieldSeq)builder.InsertField(FieldType.FieldSequence, true);
 fieldSeq.SequenceIdentifier = "PrefixSequence";
 builder.InsertParagraph();
 
 Assert.AreEqual(" SEQ  PrefixSequence", fieldSeq.GetFieldCode());
 
-// 2 - إدخال حقل SEQ الذي ينتمي إلى التسلسل الرئيسي لجدول المحتويات:
-// سيُنشئ حقل SEQ هذا إدخالاً في جدول المحتويات.
-// سيحتوي إدخال جدول المحتويات على الفقرة التي يوجد بها حقل SEQ ورقم الصفحة التي تظهر عليها.
-// سيعرض هذا الإدخال أيضًا عدد تسلسل البادئة حاليًا ،
-// مفصولة عن رقم الصفحة بالقيمة في خاصية SeqenceSeparator في جدول المحتويات.
-// عدد "PrefixSequence" هو 1 ، هذا التسلسل الرئيسي حقل SEQ موجود في الصفحة 2 ،
-// والفاصل هو ">" ، لذا سيعرض الإدخال "1 > 2".
+// 2 - إدراج حقل SEQ ينتمي إلى التسلسل الرئيسي لجدول المحتويات:
+// سيقوم حقل SEQ هذا بإنشاء إدخال في جدول المحتويات.
+// سيحتوي إدخال جدول المحتويات على الفقرة التي يوجد بها حقل التسلسل ورقم الصفحة التي يظهر عليها.
+// سيعرض هذا الإدخال أيضًا العدد الذي يوجد به تسلسل البادئة حاليًا،
+// مفصولة عن رقم الصفحة بالقيمة الموجودة في خاصية SeqenceSeparator الخاصة بجدول المحتويات.
+// عدد "PrefixSequence" هو 1، هذا الحقل SEQ للتسلسل الرئيسي موجود في الصفحة 2،
+// والفاصل هو ">"، لذلك سيعرض الإدخال "1>2".
 builder.Write("First TOC entry, MySequence #");
 fieldSeq = (FieldSeq)builder.InsertField(FieldType.FieldSequence, true);
 fieldSeq.SequenceIdentifier = "MySequence";
 
 Assert.AreEqual(" SEQ  MySequence", fieldSeq.GetFieldCode());
 
-// أدخل صفحة ، وقدم تسلسل البادئة بمقدار 2 ، وأدخل حقل SEQ لإنشاء إدخال جدول المحتويات بعد ذلك.
-// تسلسل البادئة الآن في 2 ، وحقل التسلسل الرئيسي SEQ موجود في الصفحة 3 ،
-// لذلك سيعرض إدخال جدول المحتويات "2 > 3" في عدد صفحاته.
+// أدخل صفحة، وقم بتقديم تسلسل البادئة بمقدار 2، وأدخل حقل SEQ لإنشاء إدخال جدول المحتويات بعد ذلك.
+// تسلسل البادئة الآن عند 2، وحقل التسلسل الرئيسي SEQ موجود في الصفحة 3،
+// لذلك سيعرض إدخال جدول المحتويات "2>3" في عدد الصفحات الخاص به.
 builder.InsertBreak(BreakType.PageBreak);
 fieldSeq = (FieldSeq)builder.InsertField(FieldType.FieldSequence, true);
 fieldSeq.SequenceIdentifier = "PrefixSequence";

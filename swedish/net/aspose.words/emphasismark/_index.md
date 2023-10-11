@@ -3,7 +3,7 @@ title: Enum EmphasisMark
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.EmphasisMark uppräkning. Anger möjliga typer av betoningsmärke.
 type: docs
-weight: 1310
+weight: 1460
 url: /sv/net/aspose.words/emphasismark/
 ---
 ## EmphasisMark enumeration

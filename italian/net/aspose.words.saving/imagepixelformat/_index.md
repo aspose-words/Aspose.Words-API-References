@@ -1,14 +1,14 @@
 ---
 title: Enum ImagePixelFormat
 second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Saving.ImagePixelFormat enum. Specifica il formato pixel per le immagini generate delle pagine del documento.
+description: Aspose.Words.Saving.ImagePixelFormat enum. Specifica il formato in pixel per le immagini generate delle pagine del documento.
 type: docs
-weight: 4960
+weight: 5220
 url: /it/net/aspose.words.saving/imagepixelformat/
 ---
 ## ImagePixelFormat enumeration
 
-Specifica il formato pixel per le immagini generate delle pagine del documento.
+Specifica il formato in pixel per le immagini generate delle pagine del documento.
 
 ```csharp
 public enum ImagePixelFormat
@@ -28,11 +28,11 @@ public enum ImagePixelFormat
 | Format48BppRgb | `7` | 48 bit per pixel, RGB. |
 | Format64BppArgb | `8` | 64 bit per pixel, ARGB. |
 | Format64BppPArgb | `9` | 64 bit per pixel, ARGB, alfa premoltiplicato. |
-| Format1bppIndexed | `10` | 1 bit per pixel, indicizzato. |
+| Format1bppIndexed | `10` | 1 bit per pixel, Indicizzato. |
 
 ### Esempi
 
-Mostra come selezionare una velocità bit per pixel con cui eseguire il rendering di un documento in un'immagine.
+Mostra come selezionare una velocità in bit per pixel con cui eseguire il rendering di un documento in un'immagine.
 
 ```csharp
 Document doc = new Document();
@@ -45,12 +45,12 @@ Document doc = new Document();
             Assert.That(20000, Is.LessThan(new FileInfo(ImageDir + "Logo.jpg").Length));
 
             // Quando salviamo il documento come immagine, possiamo passare un oggetto SaveOptions a
-            // seleziona un formato pixel per l'immagine che genererà l'operazione di salvataggio.
-            // Varie velocità di bit per pixel influenzeranno la qualità e la dimensione del file dell'immagine generata.
+            // seleziona un formato pixel per l'immagine che verrà generata dall'operazione di salvataggio.
+            // Diverse velocità bit per pixel influenzeranno la qualità e la dimensione del file dell'immagine generata.
             ImageSaveOptions imageSaveOptions = new ImageSaveOptions(SaveFormat.Png);
             imageSaveOptions.PixelFormat = imagePixelFormat;
 
-            // Possiamo clonare le istanze di ImageSaveOptions.
+            // Possiamo clonare le istanze ImageSaveOptions.
             Assert.AreNotEqual(imageSaveOptions, imageSaveOptions.Clone());
 
             doc.Save(ArtifactsDir + "ImageSaveOptions.PixelFormat.png", imageSaveOptions);

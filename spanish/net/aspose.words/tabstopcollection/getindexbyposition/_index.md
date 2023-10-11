@@ -25,8 +25,8 @@ TabStopCollection tabStops = doc.FirstSection.Body.Paragraphs[0].ParagraphFormat
 // Agregue una tabulación en una posición de 30 mm.
 tabStops.Add(ConvertUtil.MillimeterToPoint(30), TabAlignment.Left, TabLeader.Dashes);
 
-// Un resultado de "0" devuelto por "GetIndexByPosition" confirma que una tabulación
-// at 30mm existe en esta colección, y está en el índice 0.
+// Un resultado de "0" devuelto por "GetIndexByPosition" confirma que hay una tabulación
+// a 30 mm existe en esta colección y está en el índice 0.
 Assert.AreEqual(0, tabStops.GetIndexByPosition(ConvertUtil.MillimeterToPoint(30)));
 
 // Un "-1" devuelto por "GetIndexByPosition" confirma que

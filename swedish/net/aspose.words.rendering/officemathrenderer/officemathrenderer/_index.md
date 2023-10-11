@@ -16,7 +16,7 @@ public OfficeMathRenderer(OfficeMath math)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| math | OfficeMath | OfficeMath-objektet som du vill rendera. |
+| math | OfficeMath | De[`OfficeMath`](../../../aspose.words.math/officemath/) objekt som du vill rendera. |
 
 ### Exempel
 

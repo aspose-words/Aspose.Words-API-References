@@ -1,14 +1,14 @@
 ---
 title: RowCollection.Item
 second_title: Aspose.Words för .NET API Referens
-description: RowCollection fast egendom. Hämtar en Rad vid det givna indexet.
+description: RowCollection fast egendom. Hämtar enRow vid det givna indexet.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.tables/rowcollection/item/
 ---
 ## RowCollection indexer
 
-Hämtar en **Rad** vid det givna indexet.
+Hämtar en[`Row`](../../row/) vid det givna indexet.
 
 ```csharp
 public Row this[int index] { get; }

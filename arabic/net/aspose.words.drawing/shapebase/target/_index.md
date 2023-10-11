@@ -1,14 +1,14 @@
 ---
 title: ShapeBase.Target
 second_title: Aspose.Words لمراجع .NET API
-description: ShapeBase ملكية. الحصول على أو تعيين الإطار الهدف للارتباط التشعبي للشكل.
+description: ShapeBase ملكية. الحصول على الإطار المستهدف للارتباط التشعبي للشكل أو تعيينه.
 type: docs
-weight: 480
+weight: 520
 url: /ar/net/aspose.words.drawing/shapebase/target/
 ---
 ## ShapeBase.Target property
 
-الحصول على أو تعيين الإطار الهدف للارتباط التشعبي للشكل.
+الحصول على الإطار المستهدف للارتباط التشعبي للشكل أو تعيينه.
 
 ```csharp
 public string Target { get; set; }
@@ -20,19 +20,19 @@ public string Target { get; set; }
 
 ### أمثلة
 
-يوضح كيفية إدراج شكل يحتوي على صورة ، وهو أيضًا ارتباط تشعبي.
+يوضح كيفية إدراج شكل يحتوي على صورة، ويكون أيضًا ارتباطًا تشعبيًا.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
-shape.HRef = "https://forum.aspose.com/ ";
+shape.HRef = "https://forum.aspose.com/";
 shape.Target = "New Window";
 shape.ScreenTip = "Aspose.Words Support Forums";
 
 // Ctrl + النقر بزر الماوس الأيسر على الشكل في Microsoft Word سيفتح نافذة متصفح ويب جديدة
-// وانتقل بنا إلى الارتباط التشعبي في خاصية "HRef".
+// وانقلنا إلى الارتباط التشعبي الموجود في خاصية "HRef".
 doc.Save(ArtifactsDir + "Image.InsertImageWithHyperlink.docx");
 ```
 

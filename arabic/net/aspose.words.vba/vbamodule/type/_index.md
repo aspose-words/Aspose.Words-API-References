@@ -1,14 +1,14 @@
 ---
 title: VbaModule.Type
 second_title: Aspose.Words لمراجع .NET API
-description: VbaModule ملكية. تحديد ما إذا كانت الوحدة النمطية هي وحدة نمطية إجرائية  أو وحدة مستند  أو وحدة فئة نمطية  أو وحدة مصمم.
+description: VbaModule ملكية. يحدد ما إذا كانت الوحدة هي وحدة إجرائية أو وحدة مستند أو وحدة فئة أو وحدة مصمم.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.vba/vbamodule/type/
 ---
 ## VbaModule.Type property
 
-تحديد ما إذا كانت الوحدة النمطية هي وحدة نمطية إجرائية ، أو وحدة مستند ، أو وحدة فئة نمطية ، أو وحدة مصمم.
+يحدد ما إذا كانت الوحدة هي وحدة إجرائية، أو وحدة مستند، أو وحدة فئة، أو وحدة مصمم.
 
 ```csharp
 public VbaModuleType Type { get; set; }
@@ -26,13 +26,13 @@ VbaProject project = new VbaProject();
 project.Name = "Aspose.Project";
 doc.VbaProject = project;
 
-// إنشاء وحدة نمطية جديدة وتحديد شفرة مصدر الماكرو.
+// أنشئ وحدة نمطية جديدة وحدد كود مصدر الماكرو.
 VbaModule module = new VbaModule();
 module.Name = "Aspose.Module";
 module.Type = VbaModuleType.ProceduralModule;
 module.SourceCode = "New source code";
 
-// أضف الوحدة إلى مشروع VBA.
+// أضف الوحدة النمطية إلى مشروع VBA.
 doc.VbaProject.Modules.Add(module);
 
 doc.Save(ArtifactsDir + "VbaProject.CreateVBAMacros.docm");

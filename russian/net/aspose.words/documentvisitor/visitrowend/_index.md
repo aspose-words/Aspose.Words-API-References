@@ -1,14 +1,14 @@
 ---
 title: DocumentVisitor.VisitRowEnd
 second_title: Справочник по API Aspose.Words для .NET
-description: DocumentVisitor метод. Вызывается когда закончилось перечисление строки таблицы.
+description: DocumentVisitor метод. Вызывается когда перечисление строки таблицы завершено.
 type: docs
 weight: 340
 url: /ru/net/aspose.words/documentvisitor/visitrowend/
 ---
 ## DocumentVisitor.VisitRowEnd method
 
-Вызывается, когда закончилось перечисление строки таблицы.
+Вызывается, когда перечисление строки таблицы завершено.
 
 ```csharp
 public virtual VisitorAction VisitRowEnd(Row row)
@@ -32,16 +32,16 @@ public void TableToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     TableStructurePrinter visitor = new TableStructurePrinter();
 
-    // Когда составной узел принимает посетителя документа, посетитель посещает принимающий узел,
-    // а затем обходит все дочерние элементы узла в порядке глубины.
-    // Посетитель может читать и изменять каждый посещаемый узел.
+    // Когда мы получаем составной узел для приема посетителя документа, посетитель посещает принимающий узел,
+    // а затем обходит все дочерние узлы в глубину.
+    // Посетитель может читать и изменять каждый посещенный узел.
     doc.Accept(visitor);
 
     Console.WriteLine(visitor.GetText());
 }
 
 /// <summary>
-/// Обходит небинарное дерево дочерних узлов узла.
+/// Обходит недвоичное дерево дочерних узлов узла.
 /// Создает карту в виде строки всех встреченных узлов таблицы и их дочерних элементов.
 /// </summary>
 public class TableStructurePrinter : DocumentVisitor
@@ -59,7 +59,7 @@ public class TableStructurePrinter : DocumentVisitor
 
     /// <summary>
     /// Вызывается, когда в документе встречается узел Run.
-    /// Прогоны вне таблиц не записываются.
+    /// Выполнения, не входящие в таблицы, не записываются.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -90,7 +90,7 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Вызывается после посещения всех дочерних узлов узла Table.
+    /// Вызывается после посещения всех дочерних узлов узла таблицы.
     /// </summary>
     public override VisitorAction VisitTableEnd(Table table)
     {
@@ -162,7 +162,7 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Добавляем строку в StringBuilder и делаем отступ в зависимости от того, насколько глубоко находится посетитель
+    /// Добавляем строку в StringBuilder и делаем отступ в зависимости от глубины погружения посетителя
     /// в дерево дочерних узлов текущей таблицы.
     /// </summary>
     /// <param name="text"></param>
@@ -185,15 +185,15 @@ public class TableStructurePrinter : DocumentVisitor
 Показывает, как использовать реализацию DocumentVisitor для удаления всего скрытого содержимого из документа.
 
 ```csharp
+public void RemoveHiddenContentFromDocument()
 {
     Document doc = new Document(MyDir + "Hidden content.docx");
-
     RemoveHiddenContentVisitor hiddenContentRemover = new RemoveHiddenContentVisitor();
 
-    // Ниже приведены три типа полей, которые могут принять посетителя документа,
-    // что позволит ему посетить принимающий узел, а затем пройти его дочерние узлы в порядке глубины.
+    // Ниже приведены три типа полей, которые могут принять посетитель документа,
+    // что позволит ему посетить принимающий узел, а затем пройти его дочерние узлы в глубину.
     // 1 - Узел абзаца:
-    Paragraph para = (Paragraph) doc.GetChild(NodeType.Paragraph, 4, true);
+    Paragraph para = (Paragraph)doc.GetChild(NodeType.Paragraph, 4, true);
     para.Accept(hiddenContentRemover);
 
     // 2 - Узел таблицы:
@@ -204,9 +204,10 @@ public class TableStructurePrinter : DocumentVisitor
     doc.Accept(hiddenContentRemover);
 
     doc.Save(ArtifactsDir + "Font.RemoveHiddenContentFromDocument.docx");
+}
 
 /// <summary>
-/// Удаляет все посещенные узлы, помеченные как "скрытый контент".
+/// Удаляет все посещенные узлы, помеченные как «скрытый контент».
 /// </summary>
 public class RemoveHiddenContentVisitor : DocumentVisitor
 {
@@ -255,7 +256,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Вызывается, когда в документе встречается узел Paragraph.
+    /// Вызывается, когда в документе встречается узел «Абзац».
     /// </summary>
     public override VisitorAction VisitParagraphStart(Paragraph paragraph)
     {
@@ -288,7 +289,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Вызывается, когда в документе встречается фигура.
+    /// Вызывается, когда в документе встречается форма.
     /// </summary>
     public override VisitorAction VisitShapeStart(Shape shape)
     {
@@ -321,7 +322,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Вызывается, когда в документе встречается SpecialCharacter.
+    /// Вызывается, когда в документе встречается специальный символ.
     /// </summary>
     public override VisitorAction VisitSpecialChar(SpecialChar specialChar)
     {
@@ -332,14 +333,14 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Вызывается при завершении посещения узла Table в документе.
+    /// Вызывается, когда в документе завершается посещение узла Таблицы.
     /// </summary>
     public override VisitorAction VisitTableEnd(Table table)
     {
-        // Содержимое внутри ячеек таблицы может иметь флаг скрытого содержимого, но не сами таблицы.
+        // Содержимое внутри ячеек таблицы может иметь флаг скрытого содержимого, но сами таблицы — нет.
         // Если бы в этой таблице не было ничего, кроме скрытого содержимого, этот посетитель удалил бы все это,
-        // и не осталось бы дочерних узлов.
-        // Таким образом, мы также можем рассматривать саму таблицу как скрытое содержимое и удалять ее.
+        // и дочерних узлов не останется.
+        // Таким образом, мы также можем рассматривать саму таблицу как скрытое содержимое и удалить ее.
         // Таблицы, которые пусты, но не имеют скрытого содержимого, будут иметь ячейки с пустыми абзацами внутри,
         // который этот посетитель не удалит.
         if (!table.HasChildNodes)
@@ -360,7 +361,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Вызывается при завершении посещения узла Row в документе.
+    /// Вызывается, когда в документе заканчивается посещение узла Row.
     /// </summary>
     public override VisitorAction VisitRowEnd(Row row)
     {

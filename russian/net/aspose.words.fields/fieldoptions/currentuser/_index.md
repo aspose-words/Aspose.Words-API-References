@@ -1,14 +1,14 @@
 ---
 title: FieldOptions.CurrentUser
 second_title: Справочник по API Aspose.Words для .NET
-description: FieldOptions свойство. Получает или устанавливает информацию о текущем пользователе.
+description: FieldOptions свойство. Получает или задает информацию о текущем пользователе.
 type: docs
-weight: 40
+weight: 50
 url: /ru/net/aspose.words.fields/fieldoptions/currentuser/
 ---
 ## FieldOptions.CurrentUser property
 
-Получает или устанавливает информацию о текущем пользователе.
+Получает или задает информацию о текущем пользователе.
 
 ```csharp
 public UserInformation CurrentUser { get; set; }
@@ -16,7 +16,7 @@ public UserInformation CurrentUser { get; set; }
 
 ### Примеры
 
-Показывает, как установить сведения о пользователе и отобразить их с помощью полей.
+Показывает, как задать сведения о пользователе и отобразить их с помощью полей.
 
 ```csharp
 Document doc = new Document();
@@ -32,7 +32,7 @@ UserInformation userInformation = new UserInformation
 doc.FieldOptions.CurrentUser = userInformation;
 
 // Вставляем поля USERNAME, USERINITIALS и USERADDRESS, которые отображают значения
-// соответствующие свойства объекта UserInformation, который мы создали выше. 
+ // соответствующие свойства объекта UserInformation, который мы создали выше.
 Assert.AreEqual(userInformation.Name, builder.InsertField(" USERNAME ").Result);
 Assert.AreEqual(userInformation.Initials, builder.InsertField(" USERINITIALS ").Result);
 Assert.AreEqual(userInformation.Address, builder.InsertField(" USERADDRESS ").Result);

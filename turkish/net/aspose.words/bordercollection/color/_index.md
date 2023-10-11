@@ -18,7 +18,7 @@ public Color Color { get; set; }
 
 Koleksiyondaki ilk kenarlığın rengini döndürür.
 
-Çapraz kenarlıklar hariç koleksiyondaki tüm kenarlıkların rengini ayarlar.
+Koleksiyondaki çapraz kenarlıklar hariç tüm kenarlıkların rengini ayarlar.
 
 ### Örnekler
 

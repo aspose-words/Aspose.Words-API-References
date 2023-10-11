@@ -3,12 +3,14 @@ title: Class EditableRange
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.EditableRange klass. Representerar ett enda redigerbart område.
 type: docs
-weight: 1270
+weight: 1420
 url: /sv/net/aspose.words/editablerange/
 ---
 ## EditableRange class
 
 Representerar ett enda redigerbart område.
+
+För att lära dig mer, besök[Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) dokumentationsartikel.
 
 ```csharp
 public class EditableRange

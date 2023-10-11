@@ -3,7 +3,7 @@ title: Fill.Patterned
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Fill méthode. Définit le remplissage spécifié sur un motif.
 type: docs
-weight: 170
+weight: 230
 url: /fr/net/aspose.words.drawing/fill/patterned/
 ---
 ## Patterned(PatternType) {#patterned}
@@ -31,10 +31,10 @@ Fill fill = shape.Fill;
 Console.WriteLine("Pattern value is: {0}", fill.Pattern);
 
 // Il existe plusieurs façons de spécifier le remplissage d'un motif.
-// 1 - Appliquer le motif au remplissage de la forme :
+// 1 - Appliquer un motif au remplissage de la forme :
 fill.Patterned(PatternType.DiagonalBrick);
 
-// 2 - Appliquez un motif avec des couleurs de premier plan et d'arrière-plan au remplissage de la forme :
+// 2 - Appliquer un motif avec des couleurs de premier plan et d'arrière-plan au remplissage de la forme :
 fill.Patterned(PatternType.DiagonalBrick, Color.Aqua, Color.Bisque);
 
 doc.Save(ArtifactsDir + "Shape.FillPattern.docx");
@@ -60,7 +60,7 @@ public void Patterned(PatternType patternType, Color foreColor, Color backColor)
 | Paramètre | Taper | La description |
 | --- | --- | --- |
 | patternType | PatternType | [`PatternType`](../../patterntype/) |
-| foreColor | Color | La couleur du remplissage de premier plan. |
+| foreColor | Color | La couleur du remplissage du premier plan. |
 | backColor | Color | La couleur du remplissage d'arrière-plan. |
 
 ### Exemples
@@ -76,10 +76,10 @@ Fill fill = shape.Fill;
 Console.WriteLine("Pattern value is: {0}", fill.Pattern);
 
 // Il existe plusieurs façons de spécifier le remplissage d'un motif.
-// 1 - Appliquer le motif au remplissage de la forme :
+// 1 - Appliquer un motif au remplissage de la forme :
 fill.Patterned(PatternType.DiagonalBrick);
 
-// 2 - Appliquez un motif avec des couleurs de premier plan et d'arrière-plan au remplissage de la forme :
+// 2 - Appliquer un motif avec des couleurs de premier plan et d'arrière-plan au remplissage de la forme :
 fill.Patterned(PatternType.DiagonalBrick, Color.Aqua, Color.Bisque);
 
 doc.Save(ArtifactsDir + "Shape.FillPattern.docx");

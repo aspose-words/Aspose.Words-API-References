@@ -1,14 +1,14 @@
 ---
 title: Row.EnsureMinimum
 second_title: Aspose.Words för .NET API Referens
-description: Row metod. Om Rad har inga celler skapar och lägger till en Cell .
+description: Row metod. OmRow har inga celler skapar och lägger till enCell .
 type: docs
-weight: 110
+weight: 150
 url: /sv/net/aspose.words.tables/row/ensureminimum/
 ---
 ## Row.EnsureMinimum method
 
-Om **Rad** har inga celler, skapar och lägger till en **Cell** .
+Om[`Row`](../) har inga celler, skapar och lägger till en[`Cell`](../../cell/) .
 
 ```csharp
 public void EnsureMinimum()

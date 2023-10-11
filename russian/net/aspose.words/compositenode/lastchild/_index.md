@@ -1,14 +1,14 @@
 ---
 title: CompositeNode.LastChild
 second_title: Справочник по API Aspose.Words для .NET
-description: CompositeNode свойство. Получает последний дочерний элемент узла.
+description: CompositeNode свойство. Получает последнего дочернего узла узла.
 type: docs
-weight: 60
+weight: 50
 url: /ru/net/aspose.words/compositenode/lastchild/
 ---
 ## CompositeNode.LastChild property
 
-Получает последний дочерний элемент узла.
+Получает последнего дочернего узла узла.
 
 ```csharp
 public Node LastChild { get; }
@@ -16,7 +16,7 @@ public Node LastChild { get; }
 
 ### Примечания
 
-Если нет последнего дочернего узла, возвращается null.
+Если последнего дочернего узла нет,`нулевой` возвращается.
 
 ### Примеры
 
@@ -30,11 +30,11 @@ builder.Writeln("Section 1 text.");
 builder.InsertBreak(BreakType.SectionBreakContinuous);
 builder.Writeln("Section 2 text.");
 
-// Оба раздела являются родственными друг другу.
+// Обе секции являются родственными друг другу.
 Section lastSection = (Section)doc.LastChild;
 Section firstSection = (Section)lastSection.PreviousSibling;
 
-// Удаляем раздел на основе родственного отношения с другим разделом.
+// Удаление раздела на основе его родственных отношений с другим разделом.
 if (lastSection.PreviousSibling != null)
     doc.RemoveChild(firstSection);
 

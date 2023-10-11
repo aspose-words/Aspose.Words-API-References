@@ -16,21 +16,21 @@ public override bool Accept(DocumentVisitor visitor)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| visitor | DocumentVisitor | Der Besucher, der den Knoten besucht. |
+| visitor | DocumentVisitor | Der Besucher, der den Knoten besuchen wird. |
 
 ### Rückgabewert
 
-False, wenn der Besucher angefordert hat, dass die Enumeration beendet wird.
+`FALSCH` wenn der Besucher das Stoppen der Aufzählung angefordert hat.
 
 ### Bemerkungen
 
 Anrufe[`VisitEditableRangeStart`](../../documentvisitor/visiteditablerangestart/).
 
-Weitere Informationen finden Sie im Besucher-Entwurfsmuster.
+Weitere Informationen finden Sie im Visitor-Entwurfsmuster.
 
 ### Beispiele
 
-Zeigt, wie die Bearbeitungsrechte von bearbeitbaren Bereichen auf eine bestimmte Gruppe/Benutzer beschränkt werden.
+Zeigt, wie man die Bearbeitungsrechte bearbeitbarer Bereiche auf eine bestimmte Gruppe/einen bestimmten Benutzer beschränkt.
 
 ```csharp
 public void Visitor()
@@ -42,9 +42,9 @@ public void Visitor()
     builder.Writeln("Hello world! Since we have set the document's protection level to read-only," +
                     " we cannot edit this paragraph without the password.");
 
-    // Wenn wir Dokumente mit Schreibschutz versehen, ermöglichen uns bearbeitbare Bereiche, bestimmte Bereiche auszuwählen, die Benutzer bearbeiten können.
-    // Es gibt zwei sich gegenseitig ausschließende Möglichkeiten, die Liste der erlaubten Editoren einzugrenzen.
-    // 1 - Geben Sie einen Benutzer an:
+    // Wenn wir Dokumente mit einem Schreibschutz versehen, ermöglichen uns bearbeitbare Bereiche die Auswahl bestimmter Bereiche, die Benutzer bearbeiten dürfen.
+    // Es gibt zwei sich gegenseitig ausschließende Möglichkeiten, die Liste der zulässigen Editoren einzugrenzen.
+    // 1 – Geben Sie einen Benutzer an:
     EditableRange editableRange = builder.StartEditableRange().EditableRange;
     editableRange.SingleUser = "john.doe@myoffice.com";
     builder.Writeln($"This paragraph is inside the first editable range, can only be edited by {editableRange.SingleUser}.");
@@ -52,7 +52,7 @@ public void Visitor()
 
     Assert.AreEqual(EditorType.Unspecified, editableRange.EditorGroup);
 
-    // 2 - Geben Sie eine Gruppe an, der zulässige Benutzer zugeordnet sind:
+    // 2 – Geben Sie eine Gruppe an, der zulässige Benutzer zugeordnet sind:
     editableRange = builder.StartEditableRange().EditableRange;
     editableRange.EditorGroup = EditorType.Administrators;
     builder.Writeln($"This paragraph is inside the first editable range, can only be edited by {editableRange.EditorGroup}.");
@@ -62,7 +62,7 @@ public void Visitor()
 
     builder.Writeln("This paragraph is outside the editable range, and cannot be edited by anybody.");
 
-    // Details und Inhalt jedes bearbeitbaren Bereichs im Dokument drucken.
+    // Details und Inhalte aller bearbeitbaren Bereiche im Dokument drucken.
     EditableRangePrinter editableRangePrinter = new EditableRangePrinter();
 
     doc.Accept(editableRangePrinter);
@@ -71,7 +71,7 @@ public void Visitor()
 }
 
 /// <summary>
-/// Sammelt Eigenschaften und Inhalte besuchter bearbeitbarer Bereiche in einem String.
+/// Sammelt Eigenschaften und Inhalte der besuchten bearbeitbaren Bereiche in einem String.
 /// </summary>
 public class EditableRangePrinter : DocumentVisitor
 {

@@ -1,14 +1,14 @@
 ---
 title: ShapeBase.IsImage
 second_title: Aspose.Words لمراجع .NET API
-description: ShapeBase ملكية. إرجاع صحيح إذا كان هذا الشكل هو شكل صورة.
+description: ShapeBase ملكية. إرجاعحقيقي إذا كان هذا الشكل عبارة عن شكل صورة.
 type: docs
-weight: 270
+weight: 280
 url: /ar/net/aspose.words.drawing/shapebase/isimage/
 ---
 ## ShapeBase.IsImage property
 
-إرجاع صحيح إذا كان هذا الشكل هو شكل صورة.
+إرجاع`حقيقي` إذا كان هذا الشكل عبارة عن شكل صورة.
 
 ```csharp
 public bool IsImage { get; }

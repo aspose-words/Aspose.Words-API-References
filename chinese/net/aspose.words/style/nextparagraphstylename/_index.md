@@ -1,14 +1,14 @@
 ---
 title: Style.NextParagraphStyleName
 second_title: Aspose.Words for .NET API 参考
-description: Style 财产. 获取/设置样式的名称以自动应用到插入到使用指定样式格式化的 段落之后的新段落
+description: Style 财产. 获取/设置要自动应用于在使用指定样式格式化的 a 段落之后插入的新段落的样式名称
 type: docs
-weight: 120
+weight: 140
 url: /zh/net/aspose.words/style/nextparagraphstylename/
 ---
 ## Style.NextParagraphStyleName property
 
-获取/设置样式的名称，以自动应用到插入到使用指定样式格式化的 段落之后的新段落。
+获取/设置要自动应用于在使用指定样式格式化的 a 段落之后插入的新段落的样式名称。
 
 ```csharp
 public string NextParagraphStyleName { get; set; }
@@ -16,11 +16,11 @@ public string NextParagraphStyleName { get; set; }
 
 ### 评论
 
-Aspose.Words 不使用此属性。当您在 MS Word 中编辑文档时，下一个段落样式只会自动应用 。
+Aspose.Words 不使用此属性。当您在 MS Word 中编辑文档时，只会自动应用下一个段落样式。 。
 
 ### 例子
 
-展示如何访问文档的样式集合。
+演示如何访问文档的样式集合。
 
 ```csharp
 Document doc = new Document();

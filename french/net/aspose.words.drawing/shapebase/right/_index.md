@@ -1,14 +1,14 @@
 ---
 title: ShapeBase.Right
 second_title: Référence de l'API Aspose.Words pour .NET
-description: ShapeBase propriété. Obtient la position du bord droit du bloc conteneur de la forme.
+description: ShapeBase propriété. Obtient la position du bord droit du bloc contenant la forme.
 type: docs
-weight: 420
+weight: 460
 url: /fr/net/aspose.words.drawing/shapebase/right/
 ---
 ## ShapeBase.Right property
 
-Obtient la position du bord droit du bloc conteneur de la forme.
+Obtient la position du bord droit du bloc contenant la forme.
 
 ```csharp
 public double Right { get; }
@@ -16,9 +16,9 @@ public double Right { get; }
 
 ### Remarques
 
-Pour une forme de niveau supérieur, la valeur est exprimée en points et relative à l'ancre de la forme.
+Pour une forme de niveau supérieur, la valeur est en points et par rapport à l'ancre de la forme.
 
-Pour les formes d'un groupe, la valeur est dans l'espace de coordonnées et les unités du groupe parent.
+Pour les formes d'un groupe, la valeur se trouve dans l'espace de coordonnées et les unités du groupe parent.
 
 ### Exemples
 
@@ -32,22 +32,22 @@ Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
 shape.WrapType = WrapType.None;
 
 // Configure la propriété "RelativeHorizontalPosition" de la forme pour traiter la valeur de la propriété "Left"
- // comme la distance horizontale de la forme, en points, depuis le côté gauche de la page.
+ // comme distance horizontale de la forme, en points, depuis le côté gauche de la page.
 shape.RelativeHorizontalPosition = RelativeHorizontalPosition.Page;
 
 // Définit la distance horizontale de la forme depuis le côté gauche de la page sur 100.
 shape.Left = 100;
 
-// Utilisez la propriété "RelativeVerticalPosition" de la même manière pour positionner la forme 80 pt sous le haut de la page.
+// Utilisez la propriété "RelativeVerticalPosition" de la même manière pour positionner la forme 80 pt en dessous du haut de la page.
 shape.RelativeVerticalPosition = RelativeVerticalPosition.Page;
 shape.Top = 80;
 
-// Définit la hauteur de la forme, qui redimensionnera automatiquement la largeur pour conserver les dimensions.
+// Définit la hauteur de la forme, qui mettra automatiquement à l'échelle la largeur pour préserver les dimensions.
 shape.Height = 125;
 
 Assert.AreEqual(125.0d, shape.Width);
 
-// Les propriétés "Bottom" et "Right" contiennent les bords bas et droit de l'image.
+// Les propriétés "Bottom" et "Right" contiennent les bords inférieur et droit de l'image.
 Assert.AreEqual(shape.Top + shape.Height, shape.Bottom);
 Assert.AreEqual(shape.Left + shape.Width, shape.Right);
 

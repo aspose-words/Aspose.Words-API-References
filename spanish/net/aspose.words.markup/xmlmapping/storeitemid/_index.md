@@ -1,14 +1,14 @@
 ---
 title: XmlMapping.StoreItemId
 second_title: Referencia de API de Aspose.Words para .NET
-description: XmlMapping propiedad. Especifica el identificador de datos XML personalizados para la parte de datos XML personalizados que se utilizará para evaluar laXPath expresión.
+description: XmlMapping propiedad. Especifica el identificador de datos XML personalizado para la parte de datos XML personalizado que se utilizará para evaluar elXPath expresión.
 type: docs
 weight: 40
 url: /es/net/aspose.words.markup/xmlmapping/storeitemid/
 ---
 ## XmlMapping.StoreItemId property
 
-Especifica el identificador de datos XML personalizados para la parte de datos XML personalizados que se utilizará para evaluar la[`XPath`](../xpath/) expresión.
+Especifica el identificador de datos XML personalizado para la parte de datos XML personalizado que se utilizará para evaluar el[`XPath`](../xpath/) expresión.
 
 ```csharp
 public string StoreItemId { get; }

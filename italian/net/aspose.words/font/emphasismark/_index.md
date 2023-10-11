@@ -16,12 +16,12 @@ public EmphasisMark EmphasisMark { get; set; }
 
 ### Esempi
 
-Mostra come aggiungere un carattere aggiuntivo visualizzato sopra/sotto il carattere glifo.
+Mostra come aggiungere ulteriori caratteri visualizzati sopra/sotto il carattere glifo.
 
 ```csharp
 DocumentBuilder builder = new DocumentBuilder();
 
-// Possibili tipi di enfasi:
+// Possibili tipi di segni di enfasi:
 // https://apireference.aspose.com/words/net/aspose.words/emphasismark
 builder.Font.EmphasisMark = emphasisMark; 
 

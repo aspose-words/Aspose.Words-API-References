@@ -1,14 +1,14 @@
 ---
 title: Document.AutomaticallyUpdateStyles
 second_title: Aspose.Words لمراجع .NET API
-description: Document ملكية. الحصول على علامة أو تعيينها تشير إلى ما إذا كانت الأنماط الموجودة في المستند قد تم تحديثها لمطابقة الأنماط الموجودة في القالب المرفق في كل مرة يتم فيها فتح المستند في MS Word.
+description: Document ملكية. الحصول على أو تعيين علامة تشير إلى ما إذا كانت الأنماط الموجودة في المستند قد تم تحديثها لتتوافق مع الأنماط الموجودة في القالب المرفق في كل مرة يتم فيها فتح المستند في برنامج MS Word.
 type: docs
 weight: 30
 url: /ar/net/aspose.words/document/automaticallyupdatestyles/
 ---
 ## Document.AutomaticallyUpdateStyles property
 
-الحصول على علامة أو تعيينها تشير إلى ما إذا كانت الأنماط الموجودة في المستند قد تم تحديثها لمطابقة الأنماط الموجودة في القالب المرفق في كل مرة يتم فيها فتح المستند في MS Word.
+الحصول على أو تعيين علامة تشير إلى ما إذا كانت الأنماط الموجودة في المستند قد تم تحديثها لتتوافق مع الأنماط الموجودة في القالب المرفق في كل مرة يتم فيها فتح المستند في برنامج MS Word.
 
 ```csharp
 public bool AutomaticallyUpdateStyles { get; set; }
@@ -22,11 +22,11 @@ public bool AutomaticallyUpdateStyles { get; set; }
 Document doc = new Document();
 
 // تأتي مستندات Microsoft Word بشكل افتراضي مع قالب مرفق يسمى "Normal.dotm".
-// لا يوجد نموذج افتراضي لوثائق Aspose.Words الفارغة.
+// لا يوجد قالب افتراضي لمستندات Aspose.Words الفارغة.
 Assert.AreEqual(string.Empty, doc.AttachedTemplate);
 
-// إرفاق قالب ، ثم قم بتعيين العلم لتطبيق تغييرات النمط
-// داخل القالب للأنماط في وثيقتنا.
+// قم بإرفاق قالب، ثم قم بتعيين العلامة لتطبيق تغييرات النمط
+// داخل القالب للأنماط الموجودة في وثيقتنا.
 doc.AttachedTemplate = MyDir + "Business brochure.dotx";
 doc.AutomaticallyUpdateStyles = true;
 
@@ -38,14 +38,14 @@ doc.Save(ArtifactsDir + "Document.AutomaticallyUpdateStyles.docx");
 ```csharp
 Document doc = new Document();
 
-// تمكين التحديث التلقائي للنمط ، لكن لا تقم بإرفاق مستند نموذج.
+// تمكين التحديث التلقائي للنمط، ولكن لا ترفق مستند القالب.
 doc.AutomaticallyUpdateStyles = true;
 
 Assert.AreEqual(string.Empty, doc.AttachedTemplate);
 
-// نظرًا لعدم وجود مستند قالب ، لم يكن للمستند أي مكان لتعقب تغييرات النمط.
-// استخدم كائن SaveOptions لتعيين قالب تلقائيًا
-// إذا كان المستند الذي نحفظه لا يحتوي على واحد.
+// نظرًا لعدم وجود مستند قالب، لم يكن للمستند مكان لتتبع تغييرات النمط.
+// استخدم كائن SaveOptions لتعيين القالب تلقائيًا
+// إذا كانت الوثيقة التي نقوم بحفظها لا تحتوي على واحدة.
 SaveOptions options = SaveOptions.CreateSaveOptions("Document.DefaultTemplate.docx");
 options.DefaultTemplate = MyDir + "Business brochure.dotx";
 

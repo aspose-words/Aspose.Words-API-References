@@ -40,8 +40,8 @@ De **Aspose.Words.Fields** namnutrymme innehåller klasser som representerar Mic
 | [FieldCreateDate](./fieldcreatedate/) | Implementerar fältet CREATEDATE. |
 | [FieldData](./fielddata/) | Implementerar DATA-fältet. |
 | [FieldDatabase](./fielddatabase/) | Implementerar fältet DATABAS. |
-| [FieldDatabaseDataRow](./fielddatabasedatarow/) | Tillhandahåller data för[`FieldDatabase`](../aspose.words.fields/fielddatabase/) fältresultat. |
-| [FieldDatabaseDataTable](./fielddatabasedatatable/) | Tillhandahåller data för[`FieldDatabase`](../aspose.words.fields/fielddatabase/) fältresultat. |
+| [FieldDatabaseDataRow](./fielddatabasedatarow/) | Tillhandahåller data för[`FieldDatabase`](../aspose.words.fields/fielddatabase/) fältresultat. Snälla seDataRow instans. |
+| [FieldDatabaseDataTable](./fielddatabasedatatable/) | Tillhandahåller data för[`FieldDatabase`](../aspose.words.fields/fielddatabase/) fältresultat. Snälla seDataTable instans. |
 | [FieldDate](./fielddate/) | Implementerar fältet DATUM. |
 | [FieldDde](./fielddde/) | Implementerar DDE-fältet. |
 | [FieldDdeAuto](./fieldddeauto/) | Implementerar DDEAUTO-fältet. |
@@ -118,12 +118,13 @@ De **Aspose.Words.Fields** namnutrymme innehåller klasser som representerar Mic
 | [FieldToa](./fieldtoa/) | Implementerar TOA-fältet. |
 | [FieldToc](./fieldtoc/) | Implementerar TOC-fältet. |
 | [FieldUnknown](./fieldunknown/) | Implementerar ett okänt eller okänt fält. |
+| [FieldUpdatingProgressArgs](./fieldupdatingprogressargs/) | Tillhandahåller data för händelsen för fältuppdateringsförloppet. |
 | [FieldUserAddress](./fielduseraddress/) | Implementerar fältet USERADDRESS. |
 | [FieldUserInitials](./fielduserinitials/) | Implementerar fältet USERINITIALS. |
 | [FieldUserName](./fieldusername/) | Implementerar fältet USERNAME. |
 | [FieldXE](./fieldxe/) | Implementerar XE-fältet. |
 | [FormField](./formfield/) | Representerar ett enda formulärfält. |
-| [FormFieldCollection](./formfieldcollection/) | En samling av **FormField** objekt som representerar alla formulärfält i ett intervall. |
+| [FormFieldCollection](./formfieldcollection/) | En samling av[`FormField`](../aspose.words.fields/formfield/) objekt som representerar alla formulärfält i ett intervall. |
 | [GeneralFormatCollection](./generalformatcollection/) | Representerar en maskinskriven samling allmänna format. |
 | [MergeFieldImageDimension](./mergefieldimagedimension/) | Representerar en bilddimension (dvs. bredden eller höjden) som används i en kopplingsprocess. |
 | [ToaCategories](./toacategories/) | Representerar en tabell över myndighetskategorier. |
@@ -133,11 +134,13 @@ De **Aspose.Words.Fields** namnutrymme innehåller klasser som representerar Mic
 | Gränssnitt | Beskrivning |
 | --- | --- |
 | [IBarcodeGenerator](./ibarcodegenerator/) | Offentligt gränssnitt för streckkodsgenerator. Implementering bör tillhandahållas av användaren. |
+| [IBibliographyStylesProvider](./ibibliographystylesprovider/) | Implementera detta gränssnitt för att tillhandahålla bibliografistil för [`FieldBibliography`](../aspose.words.fields/fieldbibliography/) och[`FieldCitation`](../aspose.words.fields/fieldcitation/) fält när de uppdateras. |
 | [IComparisonExpressionEvaluator](./icomparisonexpressionevaluator/) | När det är implementerat tillåter det att åsidosätta standardutvärdering av jämförelseuttryck för[`FieldIf`](../aspose.words.fields/fieldif/) och[`FieldCompare`](../aspose.words.fields/fieldcompare/) fields. |
 | [IFieldDatabaseProvider](./ifielddatabaseprovider/) | Implementera detta gränssnitt för att tillhandahålla data för[`FieldDatabase`](../aspose.words.fields/fielddatabase/) fältet när det uppdateras. |
 | [IFieldResultFormatter](./ifieldresultformatter/) | Implementera detta gränssnitt om du vill styra hur fältresultatet formateras. |
 | [IFieldUpdateCultureProvider](./ifieldupdatecultureprovider/) | När den är implementerad, tillhandahåller enCultureInfo objekt som ska användas under uppdateringen av ett visst fält. |
 | [IFieldUpdatingCallback](./ifieldupdatingcallback/) | Implementera detta gränssnitt om du vill att dina egna anpassade metoder ska anropas under en fältuppdatering. |
+| [IFieldUpdatingProgressCallback](./ifieldupdatingprogresscallback/) | Implementera detta gränssnitt om du vill spåra fältuppdateringsförlopp. |
 | [IFieldUserPromptRespondent](./ifielduserpromptrespondent/) | Representerar respondenten för användarmeddelanden under fältuppdatering. |
 ## Uppräkning
 

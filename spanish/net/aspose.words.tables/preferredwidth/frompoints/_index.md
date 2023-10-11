@@ -1,14 +1,14 @@
 ---
 title: PreferredWidth.FromPoints
 second_title: Referencia de API de Aspose.Words para .NET
-description: PreferredWidth método. Un método de creación que devuelve una nueva instancia que representa un ancho preferido especificado mediante una cantidad de puntos.
+description: PreferredWidth método. Un método de creación que devuelve una nueva instancia que representa un ancho preferido especificado usando una cantidad de puntos.
 type: docs
 weight: 30
 url: /es/net/aspose.words.tables/preferredwidth/frompoints/
 ---
 ## PreferredWidth.FromPoints method
 
-Un método de creación que devuelve una nueva instancia que representa un ancho preferido especificado mediante una cantidad de puntos.
+Un método de creación que devuelve una nueva instancia que representa un ancho preferido especificado usando una cantidad de puntos.
 
 ```csharp
 public static PreferredWidth FromPoints(double points)
@@ -20,7 +20,7 @@ public static PreferredWidth FromPoints(double points)
 
 ### Ejemplos
 
-Muestra cómo usar las herramientas de conversión de unidades al especificar un ancho preferido para una celda.
+Muestra cómo utilizar herramientas de conversión de unidades mientras se especifica un ancho preferido para una celda.
 
 ```csharp
 Document doc = new Document();
@@ -41,13 +41,13 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Table table = builder.StartTable();
 
 // Hay dos formas de aplicar la clase "PreferredWidth" a las celdas de la tabla.
-// 1 - Establecer un ancho preferido absoluto basado en puntos:
+// 1 - Establece un ancho preferido absoluto basado en puntos:
 builder.InsertCell();
 builder.CellFormat.PreferredWidth = PreferredWidth.FromPoints(40);
 builder.CellFormat.Shading.BackgroundPatternColor = Color.LightYellow;
 builder.Writeln($"Cell with a width of {builder.CellFormat.PreferredWidth}.");
 
-// 2 - Establecer un ancho preferido relativo basado en el porcentaje del ancho de la tabla:
+// 2 - Establece un ancho relativo preferido basado en el porcentaje del ancho de la tabla:
 builder.InsertCell();
 builder.CellFormat.PreferredWidth = PreferredWidth.FromPercent(20);
 builder.CellFormat.Shading.BackgroundPatternColor = Color.LightBlue;

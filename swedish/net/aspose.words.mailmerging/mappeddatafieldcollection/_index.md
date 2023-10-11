@@ -3,12 +3,14 @@ title: Class MappedDataFieldCollection
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.MailMerging.MappedDataFieldCollection klass. Gör det möjligt att automatiskt mappa mellan namn på fält i din datakälla och namn på sammanslagningsfält i dokumentet.
 type: docs
-weight: 3650
+weight: 3870
 url: /sv/net/aspose.words.mailmerging/mappeddatafieldcollection/
 ---
 ## MappedDataFieldCollection class
 
 Gör det möjligt att automatiskt mappa mellan namn på fält i din datakälla och namn på sammanslagningsfält i dokumentet.
+
+För att lära dig mer, besök[Mail Merge och rapportering](https://docs.aspose.com/words/net/mail-merge-and-reporting/) dokumentationsartikel.
 
 ```csharp
 public class MappedDataFieldCollection : IEnumerable<KeyValuePair<string, string>>

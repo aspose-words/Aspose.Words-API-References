@@ -1,14 +1,14 @@
 ---
 title: BuildingBlockCollection.ToArray
 second_title: Aspose.Words لمراجع .NET API
-description: BuildingBlockCollection طريقة. نسخ جميع الكتل البرمجية الإنشائية من المجموعة إلى مصفوفة جديدة من الكتل البرمجية الإنشائية.
+description: BuildingBlockCollection طريقة. نسخ كافة الكتل البرمجية الإنشائية من المجموعة إلى مجموعة جديدة من الكتل البرمجية الإنشائية.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.buildingblocks/buildingblockcollection/toarray/
 ---
 ## BuildingBlockCollection.ToArray method
 
-نسخ جميع الكتل البرمجية الإنشائية من المجموعة إلى مصفوفة جديدة من الكتل البرمجية الإنشائية.
+نسخ كافة الكتل البرمجية الإنشائية من المجموعة إلى مجموعة جديدة من الكتل البرمجية الإنشائية.
 
 ```csharp
 public BuildingBlock[] ToArray()
@@ -16,11 +16,11 @@ public BuildingBlock[] ToArray()
 
 ### قيمة الإرجاع
 
-مجموعة من اللبنات.
+مجموعة من اللبنات الأساسية.
 
 ### أمثلة
 
-يعرض طرق الوصول إلى الكتل البرمجية الإنشائية في مستند مسرد.
+يعرض طرق الوصول إلى الكتل البرمجية الإنشائية في مستند المسرد.
 
 ```csharp
 public void GlossaryDocument()
@@ -38,33 +38,32 @@ public void GlossaryDocument()
 
     doc.GlossaryDocument = glossaryDoc;
 
-    // هناك طرق مختلفة للوصول إلى اللبنات الأساسية.
-    // 1 - احصل على اللبنات الأساسية الأولى / الأخيرة في المجموعة:
+    // هناك طرق مختلفة للوصول إلى الكتل البرمجية الإنشائية.
+    // 1 - احصل على اللبنات الأولى/الأخيرة في المجموعة:
     Assert.AreEqual("Block 1", glossaryDoc.FirstBuildingBlock.Name);
     Assert.AreEqual("Block 5", glossaryDoc.LastBuildingBlock.Name);
 
-    // 2 - احصل على قالب بناء حسب الفهرس:
+    // 2 - الحصول على كتلة بناء حسب الفهرس:
     Assert.AreEqual("Block 2", glossaryDoc.BuildingBlocks[1].Name);
     Assert.AreEqual("Block 3", glossaryDoc.BuildingBlocks.ToArray()[2].Name);
 
-    // 3 - احصل على أول قالب إنشائي يطابق معرضًا واسمًا وفئة:
+    // 3 - احصل على أول كتلة بناء تطابق المعرض والاسم والفئة:
     Assert.AreEqual("Block 4", 
         glossaryDoc.GetBuildingBlock(BuildingBlockGallery.All, "(Empty Category)", "Block 4").Name);
 
-    // سنفعل ذلك باستخدام زائر مخصص ،
-    // الذي سيعطي كل BuildingBlock في GlossaryDocument GUID فريدًا
+    // سنفعل ذلك باستخدام زائر مخصص،
+    // والذي سيمنح كل BuildingBlock في GlossaryDocument معرفًا فريدًا (GUID).
     GlossaryDocVisitor visitor = new GlossaryDocVisitor();
     glossaryDoc.Accept(visitor);
-
     Console.WriteLine(visitor.GetText());
 
-    // في Microsoft Word ، يمكننا الوصول إلى اللبنات الأساسية عبر "إدراج" - > "أجزاء سريعة" - >. "منظم كتل البناء".
+    // في Microsoft Word، يمكننا الوصول إلى الكتل البرمجية الإنشائية عبر "إدراج" -> "الأجزاء السريعة" -> “منظم لبنات البناء”.
     doc.Save(ArtifactsDir + "BuildingBlocks.GlossaryDocument.dotx"); 
 }
 
 /// <summary>
-/// يعطي كل كتلة إنشائية في مستند قاموس المصطلحات الذي تمت زيارته GUID فريدًا.
-/// يخزن أزواج الكتل البرمجية الإنشائية GUID في قاموس.
+/// يمنح كل كتلة إنشاء في مستند المسرد الذي تمت زيارته معرفًا فريدًا (GUID).
+/// يخزن أزواج كتل بناء GUID في القاموس.
 /// </summary>
 public class GlossaryDocVisitor : DocumentVisitor
 {

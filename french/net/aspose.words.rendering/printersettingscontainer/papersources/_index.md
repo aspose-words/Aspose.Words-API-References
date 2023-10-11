@@ -31,10 +31,10 @@ foreach (PaperSource paperSource in container.PaperSources)
                       $"RawKind: {paperSource.RawKind} {(isDefault ? "(Default)" : "")}");
 }
 
-// La propriété "PaperSizes" contient la liste des formats de papier à indiquer à l'imprimante à utiliser.
-// Les deux PrinterSource et PrinterSize contiennent une propriété "RawKind",
-// qui équivaut à un type de papier répertorié dans l'énumération PaperSourceKind.
-// S'il existe une source papier avec la même valeur "RawKind" que celle de la page d'impression,
+// La propriété "PaperSizes" contient la liste des formats de papier à demander à l'imprimante.
+// PrinterSource et PrinterSize contiennent tous deux une propriété "RawKind",
+// ce qui équivaut à un type de papier répertorié dans l'énumération PaperSourceKind.
+// S'il existe une source papier avec la même valeur "RawKind" que celle de la page à imprimer,
 // l'imprimante imprimera la page en utilisant la source et le format de papier fournis.
 // Sinon, l'imprimante utilisera par défaut la source désignée par la propriété "DefaultPageSettingsPaperSource".
 Console.WriteLine($"{container.PaperSizes.Count} paper sizes:");

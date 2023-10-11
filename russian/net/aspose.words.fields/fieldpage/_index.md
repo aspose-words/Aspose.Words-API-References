@@ -3,12 +3,14 @@ title: Class FieldPage
 second_title: Справочник по API Aspose.Words для .NET
 description: Aspose.Words.Fields.FieldPage сорт. Реализует поле PAGE.
 type: docs
-weight: 2110
+weight: 2260
 url: /ru/net/aspose.words.fields/fieldpage/
 ---
 ## FieldPage class
 
 Реализует поле PAGE.
+
+Чтобы узнать больше, посетите[Работа с полями](https://docs.aspose.com/words/net/working-with-fields/) статья документации.
 
 ```csharp
 public class FieldPage : Field
@@ -26,12 +28,12 @@ public class FieldPage : Field
 | --- | --- |
 | [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | Получает текст, представляющий результат отображаемого поля. |
 | [End](../../aspose.words.fields/field/end/) { get; } | Получает узел, представляющий конец поля. |
-| [Format](../../aspose.words.fields/field/format/) { get; } | Получает[`FieldFormat`](../fieldformat/) объект, предоставляющий типизированный доступ к форматированию поля. |
-| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | Получает или устанавливает, является ли текущий результат поля более неверным (устаревшим) из-за других изменений, внесенных в документ. |
-| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Получает или задает, заблокировано ли поле (не следует пересчитывать его результат). |
+| [Format](../../aspose.words.fields/field/format/) { get; } | Получает[`FieldFormat`](../fieldformat/) объект, обеспечивающий типизированный доступ к форматированию поля. |
+| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | Получает или устанавливает, является ли текущий результат поля более неправильным (устаревшим) из-за других изменений, внесенных в документ. |
+| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Получает или задает, заблокировано ли поле (не следует пересчитывать результат). |
 | [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | Получает или задает LCID поля. |
-| [Result](../../aspose.words.fields/field/result/) { get; set; } | Получает или задает текст, который находится между разделителем поля и концом поля. |
-| [Separator](../../aspose.words.fields/field/separator/) { get; } | Получает узел, представляющий разделитель полей. Может быть нулевым. |
+| [Result](../../aspose.words.fields/field/result/) { get; set; } | Получает или задает текст, расположенный между разделителем полей и концом поля. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | Получает узел, представляющий разделитель полей. Возможно`нулевой` . |
 | [Start](../../aspose.words.fields/field/start/) { get; } | Получает узел, представляющий начало поля. |
 | virtual [Type](../../aspose.words.fields/field/type/) { get; } | Получает тип поля Microsoft Word. |
 
@@ -41,8 +43,8 @@ public class FieldPage : Field
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Возвращает текст между началом поля и разделителем поля (или концом поля, если разделителя нет). Включены как код поля, так и результат поля дочерних полей. |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Возвращает текст между началом поля и разделителем полей (или концом поля, если разделителя нет). |
-| [Remove](../../aspose.words.fields/field/remove/)() | Удаляет поле из документа. Возвращает узел сразу после поля. Если конец поля является последним child его родительского узла, возвращает его родительский абзац. Если поле уже удалено, возвращает **нулевой** . |
-| [Unlink](../../aspose.words.fields/field/unlink/)() | Выполняет развязку поля. |
+| [Remove](../../aspose.words.fields/field/remove/)() | Удаляет поле из документа. Возвращает узел сразу после поля. Если конец поля является последним дочерним его родительского узла, возвращает его родительский абзац. Если поле уже удалено, возвращается`нулевой` . |
+| [Unlink](../../aspose.words.fields/field/unlink/)() | Выполняет отсоединение поля. |
 | [Update](../../aspose.words.fields/field/update/)() | Выполняет обновление поля. Выдает, если поле уже обновляется. |
 | [Update](../../aspose.words.fields/field/update/)(bool) | Выполняет обновление поля. Выдает, если поле уже обновляется. |
 
@@ -62,15 +64,15 @@ builder.MoveToHeaderFooter(HeaderFooterType.FooterPrimary);
 builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
 // Ниже приведены три типа полей, которые мы можем использовать для отслеживания размера наших документов.
-// 1 - Отслеживание количества символов с помощью поля NUMCHARS:
+// 1 — отслеживать количество символов с помощью поля NUCHARS:
 FieldNumChars fieldNumChars = (FieldNumChars)builder.InsertField(FieldType.FieldNumChars, true);       
 builder.Writeln(" characters");
 
-// 2 - Отслеживание количества слов с помощью поля NUMWORDS:
+// 2 — Отслеживание количества слов с помощью поля NUMWORDS:
 FieldNumWords fieldNumWords = (FieldNumWords)builder.InsertField(FieldType.FieldNumWords, true);
 builder.Writeln(" words");
 
-// 3 - Используйте поля PAGE и NUMPAGES, чтобы отобразить, на какой странице находится поле,
+// 3 – используйте поля PAGE и NUMPAGES, чтобы отобразить, на какой странице находится поле,
 // и общее количество страниц в документе:
 builder.ParagraphFormat.Alignment = ParagraphAlignment.Right;
 builder.Write("Page ");
@@ -83,9 +85,9 @@ Assert.AreEqual(" NUMWORDS ", fieldNumWords.GetFieldCode());
 Assert.AreEqual(" NUMPAGES ", fieldNumPages.GetFieldCode());
 Assert.AreEqual(" PAGE ", fieldPage.GetFieldCode());
 
-// Эти поля не будут поддерживать точные значения в режиме реального времени
-// пока редактируем документ программно с помощью Aspose.Words или в Microsoft Word.
- // Нам нужно обновлять их каждый раз, когда нам нужно видеть актуальное значение.
+// Эти поля не будут поддерживать точные значения в реальном времени
+// пока мы редактируем документ программно с помощью Aspose.Words или Microsoft Word.
+ // Нам нужно обновлять их каждый раз, чтобы увидеть актуальное значение.
 doc.UpdateFields();
 doc.Save(ArtifactsDir + "Field.NUMCHARS.NUMWORDS.NUMPAGES.PAGE.docx");
 ```

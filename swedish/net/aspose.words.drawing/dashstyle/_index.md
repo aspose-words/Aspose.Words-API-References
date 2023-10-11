@@ -3,7 +3,7 @@ title: Enum DashStyle
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Drawing.DashStyle uppräkning. Streckad linjestil.
 type: docs
-weight: 800
+weight: 930
 url: /sv/net/aspose.words.drawing/dashstyle/
 ---
 ## DashStyle enumeration

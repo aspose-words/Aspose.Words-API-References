@@ -1,14 +1,14 @@
 ---
 title: FontSavingArgs.FontFamilyName
 second_title: Référence de l'API Aspose.Words pour .NET
-description: FontSavingArgs propriété. Indique le nom de la famille de polices actuelle.
+description: FontSavingArgs propriété. Indique le nom de la famille de police actuelle.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.saving/fontsavingargs/fontfamilyname/
 ---
 ## FontSavingArgs.FontFamilyName property
 
-Indique le nom de la famille de polices actuelle.
+Indique le nom de la famille de police actuelle.
 
 ```csharp
 public string FontFamilyName { get; }
@@ -16,9 +16,10 @@ public string FontFamilyName { get; }
 
 ### Exemples
 
-Montre comment définir une logique personnalisée pour l'exportation des polices lors de l'enregistrement au format HTML.
+Montre comment définir une logique personnalisée pour l’exportation des polices lors de l’enregistrement au format HTML.
 
 ```csharp
+public void SaveExportedFonts()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
@@ -38,8 +39,10 @@ Montre comment définir une logique personnalisée pour l'exportation des police
         Console.WriteLine(fontFilename);
     }
 
+}
+
 /// <summary>
-/// Imprime des informations sur les polices exportées et les enregistre dans le même dossier système local que leur sortie .html.
+/// Imprime les informations sur les polices exportées et les enregistre dans le même dossier système local que leur sortie .html.
 /// </summary>
 public class HandleFontSaving : IFontSavingCallback
 {
@@ -56,7 +59,7 @@ public class HandleFontSaving : IFontSavingCallback
         Assert.True(args.IsExportNeeded);
         Assert.True(args.IsSubsettingNeeded);
 
-        // Il existe deux manières d'enregistrer une police exportée.
+        // Il existe deux manières de sauvegarder une police exportée.
         // 1 - Enregistrez-le dans un emplacement du système de fichiers local :
         args.FontFileName = args.OriginalFileName.Split(Path.DirectorySeparatorChar).Last();
 

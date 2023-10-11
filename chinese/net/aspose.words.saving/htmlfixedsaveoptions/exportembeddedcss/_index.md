@@ -1,14 +1,14 @@
 ---
 title: HtmlFixedSaveOptions.ExportEmbeddedCss
 second_title: Aspose.Words for .NET API 参考
-description: HtmlFixedSaveOptions 财产. 指定是否应将 CSS层叠样式表嵌入到 Html 文档中
+description: HtmlFixedSaveOptions 财产. 指定 CSS层叠样式表是否应嵌入到 Html 文档中
 type: docs
 weight: 40
 url: /zh/net/aspose.words.saving/htmlfixedsaveoptions/exportembeddedcss/
 ---
 ## HtmlFixedSaveOptions.ExportEmbeddedCss property
 
-指定是否应将 CSS（层叠样式表）嵌入到 Html 文档中。
+指定 CSS（层叠样式表）是否应嵌入到 Html 文档中。
 
 ```csharp
 public bool ExportEmbeddedCss { get; set; }
@@ -16,16 +16,16 @@ public bool ExportEmbeddedCss { get; set; }
 
 ### 例子
 
-展示在将文档导出为 Html 时如何确定 CSS 样式表的存储位置。
+演示将文档导出为 Html 时如何确定 CSS 样式表的存储位置。
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// 当我们将文档导出为 html 时，Aspose.Words 还会创建一个 CSS 样式表来格式化文档。
-// 将“ExportEmbeddedCss”标志设置为“true”，将 CSS 样式表保存到 .css 文件中，
-// 并使用 <link> 从 html 文档链接到文件元素。
+// 当我们将文档导出为 html 时，Aspose.Words 还将创建一个 CSS 样式表来格式化文档。
+// 将“ExportEmbeddedCss”标志设置为“true”，将 CSS 样式表保存到 .css 文件，
+// 并使用 <link> 从 html 文档链接到该文件元素。
 // 将标志设置为“false”将在 Html 文档中嵌入 CSS 样式表，
-// 这将只创建一个文件而不是两个。
+// 这只会创建一个文件而不是两个。
 HtmlFixedSaveOptions htmlFixedSaveOptions = new HtmlFixedSaveOptions
 {
     ExportEmbeddedCss = exportEmbeddedCss

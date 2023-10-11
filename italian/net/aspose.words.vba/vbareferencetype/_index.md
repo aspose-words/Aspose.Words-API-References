@@ -1,14 +1,14 @@
 ---
 title: Enum VbaReferenceType
 second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Vba.VbaReferenceType enum. Consente di specificare il tipo di aVbaReference oggetto.
+description: Aspose.Words.Vba.VbaReferenceType enum. Permette di specificare il tipo di aVbaReference oggetto.
 type: docs
-weight: 6300
+weight: 6610
 url: /it/net/aspose.words.vba/vbareferencetype/
 ---
 ## VbaReferenceType enumeration
 
-Consente di specificare il tipo di a[`VbaReference`](../vbareference/) oggetto.
+Permette di specificare il tipo di a[`VbaReference`](../vbareference/) oggetto.
 
 ```csharp
 public enum VbaReferenceType
@@ -21,14 +21,13 @@ public enum VbaReferenceType
 | Registered | `13` | Specifica un tipo di riferimento della libreria dei tipi di automazione. |
 | Project | `14` | Specificato un tipo di riferimento del progetto VBA esterno. |
 | Original | `51` | Specifica un tipo di riferimento della libreria dei tipi di automazione originale. |
-| Control | `47` | Specifica un tipo di riferimento della libreria dei tipi twiddle. |
+| Control | `47` | Specifica un tipo di riferimento della libreria dei tipi twiddled. |
 
 ### Esempi
 
 Mostra come ottenere/rimuovere un elemento dalla raccolta di riferimenti VBA.
 
 ```csharp
-[Test]
 public void RemoveVbaReference()
 {
     const string brokenPath = @"X:\broken.dll";
@@ -54,7 +53,7 @@ public void RemoveVbaReference()
 }
 
 /// <summary>
-/// Restituisce una stringa che rappresenta il percorso LibId di un riferimento specificato. 
+ /// Restituisce la stringa che rappresenta il percorso LibId di un riferimento specificato.
 /// </summary>
 private static string GetLibIdPath(VbaReference reference)
 {

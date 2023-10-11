@@ -36,7 +36,7 @@ Assert.AreEqual(userInformation.Name, fieldUserName.Result);
 Assert.AreEqual(" USERNAME ", fieldUserName.GetFieldCode());
 Assert.AreEqual("John Doe", fieldUserName.Result);
 
-  // Vi kan ställa in den här egenskapen för att få vårt fält att åsidosätta värdet som för närvarande är lagrat i UserInformation-objektet.
+ // Vi kan ställa in den här egenskapen för att få vårt fält att åsidosätta värdet som för närvarande är lagrat i UserInformation-objektet.
 fieldUserName.UserName = "Jane Doe";
 fieldUserName.Update();
 

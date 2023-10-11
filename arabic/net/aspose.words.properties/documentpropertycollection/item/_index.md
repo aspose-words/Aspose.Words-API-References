@@ -1,14 +1,14 @@
 ---
 title: DocumentPropertyCollection.Item
 second_title: Aspose.Words لمراجع .NET API
-description: DocumentPropertyCollection ملكية. إرجاع أDocumentProperty الكائن باسم الخاصية .
+description: DocumentPropertyCollection ملكية. إرجاع أDocumentProperty كائن باسم الخاصية.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.properties/documentpropertycollection/item/
 ---
 ## DocumentPropertyCollection indexer (1 of 2)
 
-إرجاع أ[`DocumentProperty`](../../documentproperty/) الكائن باسم الخاصية .
+إرجاع أ[`DocumentProperty`](../../documentproperty/) كائن باسم الخاصية.
 
 ```csharp
 public virtual DocumentProperty this[string name] { get; }
@@ -16,11 +16,11 @@ public virtual DocumentProperty this[string name] { get; }
 
 | معامل | وصف |
 | --- | --- |
-| name | الاسم غير المتحسس لحالة الأحرف للخاصية المراد استردادها. |
+| name | اسم الخاصية غير حساس لحالة الأحرف المراد استرداده. |
 
 ### ملاحظات
 
-إرجاع القيمة فارغة إذا لم يتم العثور على خاصية بالاسم المحدد.
+عائدات`باطل` إذا لم يتم العثور على خاصية بالاسم المحدد.
 
 ### أمثلة
 
@@ -45,7 +45,7 @@ Console.WriteLine($"Document authorized on {doc.CustomDocumentProperties["Author
 
 ## DocumentPropertyCollection indexer (2 of 2)
 
-إرجاع أ[`DocumentProperty`](../../documentproperty/) كائن بالفهرس .
+إرجاع أ[`DocumentProperty`](../../documentproperty/) كائن حسب الفهرس.
 
 ```csharp
 public DocumentProperty this[int index] { get; }
@@ -53,17 +53,17 @@ public DocumentProperty this[int index] { get; }
 
 | معامل | وصف |
 | --- | --- |
-| index | الفهرس الصفري الخاص بامتداد[`DocumentProperty`](../../documentproperty/) لأسترجاع. |
+| index | المؤشر الصفري[`DocumentProperty`](../../documentproperty/) لأسترجاع. |
 
 ### أمثلة
 
-يوضح كيفية التعامل مع خصائص المستند المخصصة.
+يوضح كيفية العمل مع خصائص المستند المخصصة.
 
 ```csharp
 Document doc = new Document(MyDir + "Properties.docx");
 
-// يحتوي كل مستند على مجموعة من الخصائص المخصصة ، والتي ، مثل الخصائص المضمنة ، هي أزواج مفتاح - قيمة.
-// يحتوي المستند على قائمة ثابتة من الخصائص المضمنة. يقوم المستخدم بإنشاء كافة الخصائص المخصصة. 
+// يحتوي كل مستند على مجموعة من الخصائص المخصصة، والتي، مثل الخصائص المضمنة، هي أزواج قيمة المفتاح.
+ // يحتوي المستند على قائمة ثابتة بالخصائص المضمنة. يقوم المستخدم بإنشاء كافة الخصائص المخصصة.
 Assert.AreEqual("Value of custom document property", doc.CustomDocumentProperties["CustomProperty"].ToString());
 
 doc.CustomDocumentProperties.Add("CustomProperty2", "Value of custom document property #2");

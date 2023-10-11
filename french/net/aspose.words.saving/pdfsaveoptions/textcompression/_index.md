@@ -3,7 +3,7 @@ title: PdfSaveOptions.TextCompression
 second_title: Référence de l'API Aspose.Words pour .NET
 description: PdfSaveOptions propriété. Spécifie le type de compression à utiliser pour tout le contenu textuel du document.
 type: docs
-weight: 260
+weight: 290
 url: /fr/net/aspose.words.saving/pdfsaveoptions/textcompression/
 ---
 ## PdfSaveOptions.TextCompression property
@@ -22,7 +22,7 @@ Augmente considérablement la taille de sortie lors de l'enregistrement d'un doc
 
 ### Exemples
 
-Montre comment appliquer la compression de texte lors de l'enregistrement d'un document au format PDF.
+Montre comment appliquer une compression de texte lors de l'enregistrement d'un document au format PDF.
 
 ```csharp
 Document doc = new Document();
@@ -32,14 +32,14 @@ for (int i = 0; i < 100; i++)
     builder.Writeln("Lorem ipsum dolor sit amet, consectetur adipiscing elit, " +
                     "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
 
-// Crée un objet "PdfSaveOptions" que nous pouvons passer à la méthode "Save" du document
+// Crée un objet "PdfSaveOptions" que l'on peut passer à la méthode "Save" du document
 // pour modifier la façon dont cette méthode convertit le document en .PDF.
 PdfSaveOptions options = new PdfSaveOptions();
 
-// Définissez la propriété "TextCompression" sur "PdfTextCompression.None" pour ne rien appliquer
+// Définit la propriété "TextCompression" sur "PdfTextCompression.None" pour n'appliquer aucune
 // compression en texte lorsque nous enregistrons le document au format PDF.
 // Définissez la propriété "TextCompression" sur "PdfTextCompression.Flate" pour appliquer la compression ZIP
-// au texte lorsque nous enregistrons le document au format PDF. Plus le document est volumineux, plus l'impact que cela aura sera grand.
+// en texte lorsque nous enregistrons le document au format PDF. Plus le document est volumineux, plus l’impact qu’il aura sera important.
 options.TextCompression = pdfTextCompression;
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.TextCompression.pdf", options);

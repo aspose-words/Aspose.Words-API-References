@@ -16,11 +16,11 @@ public string DisplayResult { get; }
 
 ### Примечания
 
-[`UpdateListLabels`](../../../aspose.words/document/updatelistlabels/) необходимо вызвать метод, чтобы получить правильное значение для the [`FieldListNum`](../../fieldlistnum/) ,[`FieldAutoNum`](../../fieldautonum/) ,[`FieldAutoNumOut`](../../fieldautonumout/) а также[`FieldAutoNumLgl`](../../fieldautonumlgl/) поля.
+[`UpdateListLabels`](../../../aspose.words/document/updatelistlabels/) необходимо вызвать метод, чтобы получить правильное значение для the [`FieldListNum`](../../fieldlistnum/) ,[`FieldAutoNum`](../../fieldautonum/) ,[`FieldAutoNumOut`](../../fieldautonumout/) и[`FieldAutoNumLgl`](../../fieldautonumlgl/) поля.
 
 ### Примеры
 
-Показывает, как получить реальный текст, отображаемый полем в документе.
+Показывает, как получить реальный текст, отображаемый в поле документа.
 
 ```csharp
 Document doc = new Document();
@@ -35,7 +35,7 @@ fieldAuthor.AuthorName = "John Doe";
 Assert.AreEqual(string.Empty, fieldAuthor.DisplayResult);
 
  // Поля не поддерживают точные значения результатов в режиме реального времени.
-// Чтобы убедиться, что наши поля отображают точные результаты в любой момент времени,
+// Чтобы наши поля отображали точные результаты в любой момент времени,
 // например, прямо перед операцией сохранения, нам нужно обновить их вручную.
 fieldAuthor.Update();
 

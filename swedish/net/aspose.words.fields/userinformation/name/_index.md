@@ -32,7 +32,7 @@ UserInformation userInformation = new UserInformation
 doc.FieldOptions.CurrentUser = userInformation;
 
 // Infoga fälten USERNAME, USERINITIALS och USERADDRESS, som visar värden på
-// respektive egenskaper för UserInformation-objektet som vi har skapat ovan. 
+ // respektive egenskaper för UserInformation-objektet som vi har skapat ovan.
 Assert.AreEqual(userInformation.Name, builder.InsertField(" USERNAME ").Result);
 Assert.AreEqual(userInformation.Initials, builder.InsertField(" USERINITIALS ").Result);
 Assert.AreEqual(userInformation.Address, builder.InsertField(" USERADDRESS ").Result);

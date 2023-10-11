@@ -3,12 +3,14 @@ title: Class FontSourceBase
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Aspose.Words.Fonts.FontSourceBase classe. Il sagit dune classe de base abstraite pour les classes qui permettent à lutilisateur de spécifier diverses sources de polices.
 type: docs
-weight: 2800
+weight: 2980
 url: /fr/net/aspose.words.fonts/fontsourcebase/
 ---
 ## FontSourceBase class
 
 Il s'agit d'une classe de base abstraite pour les classes qui permettent à l'utilisateur de spécifier diverses sources de polices.
+
+Pour en savoir plus, visitez le[Travailler avec des polices](https://docs.aspose.com/words/net/working-with-fonts/) article documentaire.
 
 ```csharp
 public abstract class FontSourceBase
@@ -18,9 +20,9 @@ public abstract class FontSourceBase
 
 | Nom | La description |
 | --- | --- |
-| [Priority](../../aspose.words.fonts/fontsourcebase/priority/) { get; } | Renvoie la priorité de la source de la police. |
-| abstract [Type](../../aspose.words.fonts/fontsourcebase/type/) { get; } | Renvoie le type de la source de la police. |
-| [WarningCallback](../../aspose.words.fonts/fontsourcebase/warningcallback/) { get; set; } | Appelé lors du traitement de la source de la police lorsqu'un problème est détecté pouvant entraîner une perte de fidélité de formatage. |
+| [Priority](../../aspose.words.fonts/fontsourcebase/priority/) { get; } | Renvoie la priorité de la source de police. |
+| abstract [Type](../../aspose.words.fonts/fontsourcebase/type/) { get; } | Renvoie le type de la source de police. |
+| [WarningCallback](../../aspose.words.fonts/fontsourcebase/warningcallback/) { get; set; } | Appelé lors du traitement de la source de police lorsqu'un problème susceptible d'entraîner une perte de fidélité du formatage est détecté. |
 
 ## Méthodes
 

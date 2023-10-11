@@ -16,7 +16,7 @@ public ComparisonEvaluationResult Evaluate(Field field, ComparisonExpression exp
 
 ### Observaciones
 
-La implementación debería devolver **nulo** para indicar que se debe realizar la evaluación predeterminada.
+La implementación debería regresar`nulo` para indicar que se debe realizar la evaluación predeterminada.
 
 ### Ver también
 

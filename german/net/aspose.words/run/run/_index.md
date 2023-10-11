@@ -1,14 +1,14 @@
 ---
 title: Run.Run
 second_title: Aspose.Words für .NET-API-Referenz
-description: Run constructeur. Initialisiert eine neue Instanz von Laufen Klasse.
+description: Run constructeur. Initialisiert eine neue Instanz vonRun Klasse.
 type: docs
 weight: 10
 url: /de/net/aspose.words/run/run/
 ---
 ## Run(DocumentBase) {#constructor}
 
-Initialisiert eine neue Instanz von **Laufen** Klasse.
+Initialisiert eine neue Instanz von[`Run`](../) Klasse.
 
 ```csharp
 public Run(DocumentBase doc)
@@ -16,29 +16,29 @@ public Run(DocumentBase doc)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| doc | DocumentBase | Das Besitzerdokument. |
+| doc | DocumentBase | Das Eigentümerdokument. |
 
 ### Bemerkungen
 
-Wann **Laufen** erstellt wird, gehört es zum angegebenen Dokument, ist aber noch nicht Teil des Dokuments und **Elternknoten** ist Null.
+Wann[`Run`](../) erstellt wird, gehört es zum angegebenen Dokument, ist aber noch nicht Teil des Dokuments und[`ParentNode`](../../node/parentnode/) Ist`Null`.
 
-Anhängen **Laufen** zum Dokument verwenden Sie InsertAfter oder InsertBefore für den Absatz, an dem Sie den Lauf einfügen möchten.
+Anhängen[`Run`](../) zur DokumentenverwendungNode) oderNode) an dem Absatz, an dem der Lauf eingefügt werden soll.
 
 ### Beispiele
 
-Zeigt, wie ein Aspose.Words-Dokument von Hand erstellt wird.
+Zeigt, wie man ein Aspose.Words-Dokument manuell erstellt.
 
 ```csharp
 Document doc = new Document();
 
 // Ein leeres Dokument enthält einen Abschnitt, einen Hauptteil und einen Absatz.
-// Rufen Sie die Methode "RemoveAllChildren" auf, um alle diese Knoten zu entfernen,
-// und am Ende einen Dokumentknoten ohne Kinder haben.
+// Rufen Sie die Methode „RemoveAllChildren“ auf, um alle diese Knoten zu entfernen.
+// und erhalten am Ende einen Dokumentknoten ohne untergeordnete Elemente.
 doc.RemoveAllChildren();
 
 // Dieses Dokument hat jetzt keine zusammengesetzten untergeordneten Knoten, denen wir Inhalte hinzufügen können.
 // Wenn wir es bearbeiten möchten, müssen wir seine Knotensammlung neu füllen.
-// Erstellen Sie zuerst einen neuen Abschnitt und hängen Sie ihn dann als untergeordnetes Element an den Stammdokumentknoten an.
+// Erstellen Sie zunächst einen neuen Abschnitt und hängen Sie ihn dann als untergeordnetes Element an den Stammdokumentknoten an.
 Section section = new Section(doc);
 doc.AppendChild(section);
 
@@ -46,12 +46,12 @@ doc.AppendChild(section);
 section.PageSetup.SectionStart = SectionStart.NewPage;
 section.PageSetup.PaperSize = PaperSize.Letter;
 
-// Ein Abschnitt benötigt einen Körper, der seinen gesamten Inhalt enthält und anzeigt
+// Ein Abschnitt benötigt einen Hauptteil, der seinen gesamten Inhalt enthält und anzeigt
 // auf der Seite zwischen Kopf- und Fußzeile des Abschnitts.
 Body body = new Body(doc);
 section.AppendChild(body);
 
-// Erstellen Sie einen Absatz, legen Sie einige Formatierungseigenschaften fest und hängen Sie ihn dann als untergeordnetes Element an den Textkörper an.
+// Einen Absatz erstellen, einige Formatierungseigenschaften festlegen und ihn dann als untergeordnetes Element an den Text anhängen.
 Paragraph para = new Paragraph(doc);
 
 para.ParagraphFormat.StyleName = "Heading 1";
@@ -59,7 +59,7 @@ para.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
 body.AppendChild(para);
 
-// Fügen Sie schließlich etwas Inhalt hinzu, um das Dokument zu erstellen. Erstellen Sie einen Lauf,
+// Zum Schluss fügen Sie etwas Inhalt hinzu, um das Dokument zu erstellen. Erstellen Sie einen Lauf,
 // Aussehen und Inhalt festlegen und dann als untergeordnetes Element an den Absatz anhängen.
 Run run = new Run(doc);
 run.Text = "Hello World!";
@@ -90,18 +90,18 @@ public Run(DocumentBase doc, string text)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| doc | DocumentBase | Das Besitzerdokument. |
-| text | String | Der Lauftext. |
+| doc | DocumentBase | Das Eigentümerdokument. |
+| text | String | Der Text des Laufs. |
 
 ### Bemerkungen
 
-Wann **Laufen** erstellt wird, gehört es zum angegebenen Dokument, ist aber noch nicht Teil des Dokuments und **Elternknoten** ist Null.
+Wann[`Run`](../) erstellt wird, gehört es zum angegebenen Dokument, ist aber noch nicht Teil des Dokuments und[`ParentNode`](../../node/parentnode/) Ist`Null`.
 
-Anhängen **Laufen** zum Dokument verwenden Sie InsertAfter oder InsertBefore für den Absatz, an dem Sie den Lauf einfügen möchten.
+Anhängen[`Run`](../) zur DokumentenverwendungNode) oderNode) an dem Absatz, an dem der Lauf eingefügt werden soll.
 
 ### Beispiele
 
-Zeigt, wie ein Textverlauf mithilfe seiner Eigenschaft font formatiert wird.
+Zeigt, wie eine Textzeile mithilfe ihrer Schriftarteigenschaft formatiert wird.
 
 ```csharp
 Document doc = new Document();

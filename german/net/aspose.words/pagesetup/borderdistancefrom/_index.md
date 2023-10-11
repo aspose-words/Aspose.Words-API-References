@@ -1,14 +1,14 @@
 ---
 title: PageSetup.BorderDistanceFrom
 second_title: Aspose.Words für .NET-API-Referenz
-description: PageSetup eigendom. Ruft einen Wert ab oder legt einen Wert fest der angibt ob der angegebene Seitenrand vom Rand der Seite oder vom umgebenden Text gemessen wird.
+description: PageSetup eigendom. Ruft einen Wert ab oder legt diesen fest der angibt ob der angegebene Seitenrand vom Rand der Seite oder vom Text den er umgibt gemessen wird.
 type: docs
 weight: 40
 url: /de/net/aspose.words/pagesetup/borderdistancefrom/
 ---
 ## PageSetup.BorderDistanceFrom property
 
-Ruft einen Wert ab oder legt einen Wert fest, der angibt, ob der angegebene Seitenrand vom Rand der Seite oder vom umgebenden Text gemessen wird.
+Ruft einen Wert ab oder legt diesen fest, der angibt, ob der angegebene Seitenrand vom Rand der Seite oder vom Text, den er umgibt, gemessen wird.
 
 ```csharp
 public PageBorderDistanceFrom BorderDistanceFrom { get; set; }
@@ -16,7 +16,7 @@ public PageBorderDistanceFrom BorderDistanceFrom { get; set; }
 
 ### Beispiele
 
-Zeigt, wie Sie oben auf der ersten Seite einen breiten blauen Rahmen erstellen.
+Zeigt, wie man oben auf der ersten Seite einen breiten blauen Bandrand erstellt.
 
 ```csharp
 Document doc = new Document();

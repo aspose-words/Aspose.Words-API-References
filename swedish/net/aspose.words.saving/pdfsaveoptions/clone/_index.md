@@ -3,7 +3,7 @@ title: PdfSaveOptions.Clone
 second_title: Aspose.Words för .NET API Referens
 description: PdfSaveOptions metod. Skapar en djup klon av detta objekt.
 type: docs
-weight: 310
+weight: 340
 url: /sv/net/aspose.words.saving/pdfsaveoptions/clone/
 ---
 ## PdfSaveOptions.Clone method

@@ -52,7 +52,7 @@ using (IEnumerator<SdtListItem> enumerator = listItems.GetEnumerator())
             Console.WriteLine($"List item: {enumerator.Current.DisplayText}, value: {enumerator.Current.Value}");
 }
 
-  // Ta bort det sista listobjektet.
+ // Ta bort det sista listobjektet.
 listItems.RemoveAt(3);
 
 Assert.AreEqual(3, listItems.Count);

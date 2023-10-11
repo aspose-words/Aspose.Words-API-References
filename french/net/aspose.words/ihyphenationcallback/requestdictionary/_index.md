@@ -1,18 +1,18 @@
 ---
 title: IHyphenationCallback.RequestDictionary
 second_title: Référence de l'API Aspose.Words pour .NET
-description: IHyphenationCallback méthode. Avertit lapplication que le dictionnaire de césure pour la langue spécifiée na pas été trouvé et quil peut être nécessaire de lenregistrer.
+description: IHyphenationCallback méthode. Avertit lapplication que le dictionnaire de césure pour la langue spécifiée na pas été trouvé et quil doit peutêtre être enregistré.
 type: docs
 weight: 10
 url: /fr/net/aspose.words/ihyphenationcallback/requestdictionary/
 ---
 ## IHyphenationCallback.RequestDictionary method
 
-Avertit l'application que le dictionnaire de césure pour la langue spécifiée n'a pas été trouvé et qu'il peut être nécessaire de l'enregistrer.
+Avertit l'application que le dictionnaire de césure pour la langue spécifiée n'a pas été trouvé et qu'il doit peut-être être enregistré.
 
-L'implémentation doit trouver un dictionnaire et l'enregistrer en utilisant[`RegisterDictionary`](../../hyphenation/registerdictionary/)méthodes.
+L'implémentation doit trouver un dictionnaire et l'enregistrer en utilisant[`RegisterDictionary`](../../hyphenation/registerdictionary/) méthodes.
 
-Si le dictionnaire n'est pas disponible pour la langue spécifiée, l'implémentation peut refuser d'autres appels pour la même langue en utilisant[`RegisterDictionary`](../../hyphenation/registerdictionary/) avec une valeur nulle.
+Si le dictionnaire n'est pas disponible pour l'implémentation de la langue spécifiée, vous pouvez vous désinscrire des appels ultérieurs pour la même langue en utilisant[`RegisterDictionary`](../../hyphenation/registerdictionary/) avec`nul` valeur.
 
 ```csharp
 public void RequestDictionary(string language)
@@ -20,7 +20,7 @@ public void RequestDictionary(string language)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| language | String | Un nom de langue, par exemple "en-US". Voir la documentation .NET pour "nom de culture" et RFC 4646 pour plus de détails. |
+| language | String | Un nom de langue, par exemple "en-US". Consultez la documentation .NET pour le « nom de la culture » et la RFC 4646 pour plus de détails. |
 
 ### Remarques
 
@@ -28,25 +28,26 @@ Les exceptions levées par cette méthode interrompront l'exécution du processu
 
 ### Exemples
 
-Montre comment ouvrir et enregistrer un dictionnaire à partir d'un fichier.
+Montre comment ouvrir et enregistrer un dictionnaire à partir d’un fichier.
 
 ```csharp
+public void RegisterDictionary()
 {
-    // Configurez un rappel qui suit les avertissements qui se produisent lors de l'enregistrement du dictionnaire de césure.
+    // Configure un rappel qui suit les avertissements qui se produisent lors de l'enregistrement du dictionnaire de césure.
     WarningInfoCollection warningInfoCollection = new WarningInfoCollection();
     Hyphenation.WarningCallback = warningInfoCollection;
 
-    // Enregistre un dictionnaire de césure anglais (US) par flux.
+    // Enregistrez un dictionnaire de césure anglais (US) par flux.
     Stream dictionaryStream = new FileStream(MyDir + "hyph_en_US.dic", FileMode.Open);
     Hyphenation.RegisterDictionary("en-US", dictionaryStream);
 
     Assert.AreEqual(0, warningInfoCollection.Count);
 
-    // Ouvre un document avec des paramètres régionaux que Microsoft Word ne peut pas couper sur une machine anglaise, telle que l'allemand.
+    // Ouvrir un document avec des paramètres régionaux que Microsoft Word ne peut pas couper sur une machine anglaise, comme l'allemand.
     Document doc = new Document(MyDir + "German text.docx");
 
     // Pour couper ce document lors de l'enregistrement, nous avons besoin d'un dictionnaire de césure pour le code de langue "de-CH".
-    // Ce rappel gérera la demande automatique pour ce dictionnaire.
+    // Ce rappel gérera la requête automatique pour ce dictionnaire.
     Hyphenation.Callback = new CustomHyphenationDictionaryRegister();
 
     // Lorsque nous enregistrons le document, la césure allemande prendra effet.

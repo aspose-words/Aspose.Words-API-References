@@ -1,14 +1,14 @@
 ---
 title: Document.VbaProject
 second_title: Aspose.Words for .NET API 参考
-description: Document 财产. 获取或设置一个VbaProject.
+description: Document 财产. 获取或设置VbaProject.
 type: docs
-weight: 430
+weight: 450
 url: /zh/net/aspose.words/document/vbaproject/
 ---
 ## Document.VbaProject property
 
-获取或设置一个`VbaProject`.
+获取或设置`VbaProject`.
 
 ```csharp
 public VbaProject VbaProject { get; set; }
@@ -16,13 +16,14 @@ public VbaProject VbaProject { get; set; }
 
 ### 例子
 
-显示如何访问文档的 VBA 项目信息。
+演示如何访问文档的 VBA 项目信息。
 
 ```csharp
 Document doc = new Document(MyDir + "VBA project.docm");
 
 // VBA 项目包含 VBA 模块的集合。
 VbaProject vbaProject = doc.VbaProject;
+Console.WriteLine(vbaProject.IsSigned
     ? $"Project name: {vbaProject.Name} signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n"
     : $"Project name: {vbaProject.Name} not signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n");
 
@@ -37,7 +38,7 @@ foreach (VbaModule module in vbaModules)
 vbaModules[0].SourceCode = "Your VBA code...";
 vbaModules["Module1"].SourceCode = "Your VBA code...";
 
-// 从集合中移除一个模块。
+// 从集合中删除一个模块。
 vbaModules.Remove(vbaModules[2]);
 ```
 

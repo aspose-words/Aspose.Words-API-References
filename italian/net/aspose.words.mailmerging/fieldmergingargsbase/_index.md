@@ -1,14 +1,16 @@
 ---
 title: Class FieldMergingArgsBase
 second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.MailMerging.FieldMergingArgsBase classe. Classe base perFieldMergingArgs eImageFieldMergingArgs .
+description: Aspose.Words.MailMerging.FieldMergingArgsBase classe. Classe base perFieldMergingArgs EImageFieldMergingArgs .
 type: docs
-weight: 3560
+weight: 3780
 url: /it/net/aspose.words.mailmerging/fieldmergingargsbase/
 ---
 ## FieldMergingArgsBase class
 
-Classe base per[`FieldMergingArgs`](../fieldmergingargs/) e[`ImageFieldMergingArgs`](../imagefieldmergingargs/) .
+Classe base per[`FieldMergingArgs`](../fieldmergingargs/) E[`ImageFieldMergingArgs`](../imagefieldmergingargs/) .
+
+Per saperne di più, visita il[Stampa unione e reporting](https://docs.aspose.com/words/net/mail-merge-and-reporting/) articolo di documentazione.
 
 ```csharp
 public abstract class FieldMergingArgsBase
@@ -18,19 +20,20 @@ public abstract class FieldMergingArgsBase
 
 | Nome | Descrizione |
 | --- | --- |
-| [Document](../../aspose.words.mailmerging/fieldmergingargsbase/document/) { get; } | Restituisce il[`Document`](./document/) oggetto per il quale viene eseguita la stampa unione. |
+| [Document](../../aspose.words.mailmerging/fieldmergingargsbase/document/) { get; } | Restituisce il[`Document`](./document/) oggetto per cui viene eseguita la stampa unione. |
 | [DocumentFieldName](../../aspose.words.mailmerging/fieldmergingargsbase/documentfieldname/) { get; } | Ottiene il nome del campo di unione come specificato nel documento. |
 | [Field](../../aspose.words.mailmerging/fieldmergingargsbase/field/) { get; } | Ottiene l'oggetto che rappresenta il campo di unione corrente. |
 | [FieldName](../../aspose.words.mailmerging/fieldmergingargsbase/fieldname/) { get; } | Ottiene il nome del campo di unione nell'origine dati. |
 | [FieldValue](../../aspose.words.mailmerging/fieldmergingargsbase/fieldvalue/) { get; set; } | Ottiene o imposta il valore del campo dall'origine dati. |
-| [RecordIndex](../../aspose.words.mailmerging/fieldmergingargsbase/recordindex/) { get; } | Ottiene l'indice in base zero del record che viene unito. |
-| [TableName](../../aspose.words.mailmerging/fieldmergingargsbase/tablename/) { get; } | Ottiene il nome della tabella di dati per l'operazione di unione corrente o una stringa vuota se il nome non è disponibile. |
+| [RecordIndex](../../aspose.words.mailmerging/fieldmergingargsbase/recordindex/) { get; } | Ottiene l'indice in base zero del record da unire. |
+| [TableName](../../aspose.words.mailmerging/fieldmergingargsbase/tablename/) { get; } | Ottiene il nome della tabella dati per l'operazione di unione corrente o una stringa vuota se il nome non è disponibile. |
 
 ### Esempi
 
-Mostra come eseguire una stampa unione con una richiamata personalizzata che gestisce i dati di unione sotto forma di documenti HTML.
+Mostra come eseguire una stampa unione con un callback personalizzato che gestisce i dati di unione sotto forma di documenti HTML.
 
 ```csharp
+public void MergeHtml()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -78,7 +81,7 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
             builder.InsertHtml((string)args.FieldValue);
 
             // Poiché abbiamo già inserito manualmente il contenuto unito,
-             // non avremo bisogno di rispondere a questo evento restituendo il contenuto tramite la proprietà "Testo".
+             // non avremo bisogno di rispondere a questo evento restituendo il contenuto tramite la proprietà "Text".
             args.Text = string.Empty;
         }
     }

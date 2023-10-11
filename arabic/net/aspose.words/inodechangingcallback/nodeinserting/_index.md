@@ -1,14 +1,14 @@
 ---
 title: INodeChangingCallback.NodeInserting
 second_title: Aspose.Words لمراجع .NET API
-description: INodeChangingCallback طريقة. تم الاستدعاء قبل أن توشك عقدة تنتمي إلى هذا المستند على أن يتم إدراجها في عقدة أخرى.
+description: INodeChangingCallback طريقة. يتم الاتصال به قبل أن تكون العقدة التي تنتمي إلى هذا المستند على وشك أن يتم إدراجها في عقدة أخرى.
 type: docs
 weight: 20
 url: /ar/net/aspose.words/inodechangingcallback/nodeinserting/
 ---
 ## INodeChangingCallback.NodeInserting method
 
-تم الاستدعاء قبل أن توشك عقدة تنتمي إلى هذا المستند على أن يتم إدراجها في عقدة أخرى.
+يتم الاتصال به قبل أن تكون العقدة التي تنتمي إلى هذا المستند على وشك أن يتم إدراجها في عقدة أخرى.
 
 ```csharp
 public void NodeInserting(NodeChangingArgs args)
@@ -16,30 +16,32 @@ public void NodeInserting(NodeChangingArgs args)
 
 ### أمثلة
 
-يوضح كيفية تخصيص تغيير العقدة مع رد الاتصال.
+يوضح كيفية تخصيص تغيير العقدة من خلال رد الاتصال.
 
 ```csharp
+public void FontChangeViaCallback()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // تعيين استدعاء تغيير العقدة إلى التنفيذ المخصص ،
-    // ثم قم بإضافة / إزالة العقد للحصول عليها لإنشاء سجل.
+    // قم بتعيين رد الاتصال المتغير للعقدة على التنفيذ المخصص،
+    // ثم قم بإضافة/إزالة العقد للحصول على سجل.
     HandleNodeChangingFontChanger callback = new HandleNodeChangingFontChanger();
     doc.NodeChangingCallback = callback;
 
     builder.Writeln("Hello world!");
     builder.Writeln("Hello again!");
-    builder.InsertField(" HYPERLINK \"https://www.google.com/ \ "") ;
+    builder.InsertField(" HYPERLINK \"https://www.google.com/\" ");
     builder.InsertShape(ShapeType.Rectangle, 300, 300);
 
     doc.Range.Fields[0].Remove();
 
     Console.WriteLine(callback.GetLog());
+}
 
 /// <summary>
-/// يسجل تاريخ ووقت كل إدخال وإزالة عقدة.
-/// يعين اسم / حجم خط مخصص لمحتويات نص عقد التشغيل.
+/// يسجل تاريخ ووقت كل إدخال وإزالة للعقدة.
+/// يعين اسم/حجم خط مخصص لمحتويات النص في عقد التشغيل.
 /// </summary>
 public class HandleNodeChangingFontChanger : INodeChangingCallback
 {

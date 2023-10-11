@@ -1,14 +1,14 @@
 ---
 title: GraphicsQualityOptions.CompositingQuality
 second_title: Aspose.Words لمراجع .NET API
-description: GraphicsQualityOptions ملكية. الحصول على جودة عرض الصور المركبة المرسومة إلى هذه الرسومات أو تعيينها .
+description: GraphicsQualityOptions ملكية. الحصول على أو تعيين جودة العرض للصور المركبة المرسومة على هذه الرسومات.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.saving/graphicsqualityoptions/compositingquality/
 ---
 ## GraphicsQualityOptions.CompositingQuality property
 
-الحصول على جودة عرض الصور المركبة المرسومة إلى هذه الرسومات أو تعيينها .
+الحصول على أو تعيين جودة العرض للصور المركبة المرسومة على هذه الرسومات.
 
 ```csharp
 public CompositingQuality? CompositingQuality { get; set; }
@@ -16,7 +16,7 @@ public CompositingQuality? CompositingQuality { get; set; }
 
 ### أمثلة
 
-يوضح كيفية تعيين خيارات جودة العرض أثناء تحويل المستندات إلى تنسيقات صور.
+يوضح كيفية تعيين خيارات جودة العرض أثناء تحويل المستندات إلى تنسيقات الصور.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

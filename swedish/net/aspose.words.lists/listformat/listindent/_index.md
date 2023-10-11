@@ -18,7 +18,7 @@ public void ListIndent()
 
 Den här metoden ändrar listnivån och tillämpar formateringsegenskaper för den nya nivån.
 
-I Word-dokument kan listor bestå av upp till nio nivåer. Listformatering för varje nivå anger vilken kula eller nummer som används, vänster indrag, mellanslag mellan kulan och texten etc.
+Word-dokument kan listor bestå av upp till nio nivåer. Listformatering för varje nivå anger vilken kula eller nummer som används, vänster indrag, mellanslag mellan kulan och texten etc.
 
 ### Exempel
 
@@ -31,8 +31,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Aspose.Words main advantages are:");
 
 // En lista låter oss organisera och dekorera uppsättningar av stycken med prefixsymboler och indrag.
-// Vi kan skapa kapslade listor genom att öka indragsnivån. 
-// Vi kan börja och avsluta en lista genom att använda en dokumentbyggares "ListFormat"-egenskap. 
+ // Vi kan skapa kapslade listor genom att öka indragsnivån.
+ // Vi kan börja och avsluta en lista genom att använda en dokumentbyggares "ListFormat"-egenskap.
 // Varje stycke som vi lägger till mellan en listas början och slutet kommer att bli ett objekt i listan.
 // Nedan finns två typer av listor som vi kan skapa med en dokumentbyggare.
 // 1 - En punktlista:
@@ -83,7 +83,7 @@ builder.Writeln("Processing documents");
 builder.Writeln("Saving documents in different formats:");
 
 // Om vi ökar listnivån till en nivå som vi har lagt till objekt till tidigare,
-// den kapslade listan kommer att vara separat från den föregående, och dess numrering börjar från början. 
+ // den kapslade listan kommer att vara separat från den föregående, och dess numrering börjar från början.
 // Dessa listobjekt kommer att ha symbolerna "a.", "b.", "c.", "d." och "e".
 builder.ListFormat.ListIndent();
 builder.Writeln("DOC");

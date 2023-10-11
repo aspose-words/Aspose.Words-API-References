@@ -3,12 +3,14 @@ title: Class FontFallbackSettings
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Aspose.Words.Fonts.FontFallbackSettings classe. Spécifie les paramètres du mécanisme de secours des polices.
 type: docs
-weight: 2720
+weight: 2900
 url: /fr/net/aspose.words.fonts/fontfallbacksettings/
 ---
 ## FontFallbackSettings class
 
 Spécifie les paramètres du mécanisme de secours des polices.
+
+Pour en savoir plus, visitez le[Travailler avec des polices](https://docs.aspose.com/words/net/working-with-fonts/) article documentaire.
 
 ```csharp
 public class FontFallbackSettings
@@ -20,19 +22,19 @@ public class FontFallbackSettings
 | --- | --- |
 | [BuildAutomatic](../../aspose.words.fonts/fontfallbacksettings/buildautomatic/)() | Crée automatiquement les paramètres de secours en analysant les polices disponibles. |
 | [Load](../../aspose.words.fonts/fontfallbacksettings/load/#load)(Stream) | Charge les paramètres de secours à partir du flux XML. |
-| [Load](../../aspose.words.fonts/fontfallbacksettings/load/#load_1)(string) | Charge les paramètres de remplacement des polices à partir du fichier XML. |
-| [LoadMsOfficeFallbackSettings](../../aspose.words.fonts/fontfallbacksettings/loadmsofficefallbacksettings/)() | Charge les paramètres de secours prédéfinis qui imitent le secours de Microsoft Word et utilisent les polices Microsoft Office. |
+| [Load](../../aspose.words.fonts/fontfallbacksettings/load/#load_1)(string) | Charge les paramètres de secours des polices à partir du fichier XML. |
+| [LoadMsOfficeFallbackSettings](../../aspose.words.fonts/fontfallbacksettings/loadmsofficefallbacksettings/)() | Charge les paramètres de secours prédéfinis qui imitent la solution de secours de Microsoft Word et utilisent les polices Microsoft Office. |
 | [LoadNotoFallbackSettings](../../aspose.words.fonts/fontfallbacksettings/loadnotofallbacksettings/)() | Charge les paramètres de secours prédéfinis qui utilisent les polices Google Noto. |
-| [Save](../../aspose.words.fonts/fontfallbacksettings/save/#save)(Stream) | Enregistre les paramètres de secours actuels dans le flux. |
-| [Save](../../aspose.words.fonts/fontfallbacksettings/save/#save_1)(string) | Enregistre les paramètres de secours actuels dans le fichier. |
+| [Save](../../aspose.words.fonts/fontfallbacksettings/save/#save)(Stream) | Enregistre les paramètres de secours actuels dans stream. |
+| [Save](../../aspose.words.fonts/fontfallbacksettings/save/#save_1)(string) | Enregistre les paramètres de secours actuels dans un fichier. |
 
 ### Remarques
 
-Par défaut, les paramètres de secours sont initialisés avec des paramètres prédéfinis qui imitent le secours de Microsoft Word.
+Par défaut, les paramètres de secours sont initialisés avec des paramètres prédéfinis qui imitent la solution de secours de Microsoft Word.
 
 ### Exemples
 
-Montre comment répartir les polices de secours sur les plages de codes de caractères Unicode.
+Montre comment distribuer les polices de secours sur les plages de codes de caractères Unicode.
 
 ```csharp
 Document doc = new Document();
@@ -47,7 +49,7 @@ fontSettings.SetFontsSources(new FontSourceBase[] {folderFontSource});
 
 // L'appel de la méthode "BuildAutomatic" générera un schéma de secours qui
 // distribue les polices accessibles sur autant de codes de caractères Unicode que possible.
-// Dans notre cas, il n'a accès qu'à la poignée de polices à l'intérieur du dossier "MyFonts".
+// Dans notre cas, il n'a accès qu'à la poignée de polices contenues dans le dossier "MyFonts".
 fontFallbackSettings.BuildAutomatic();
 fontFallbackSettings.Save(ArtifactsDir + "FontSettings.FallbackSettingsCustom.BuildAutomatic.xml");
 
@@ -56,12 +58,12 @@ fontFallbackSettings.Save(ArtifactsDir + "FontSettings.FallbackSettingsCustom.Bu
 // et la police "M+ 2m" dans toutes les autres plages que les autres polices du schéma ne couvrent pas.
 fontFallbackSettings.Load(MyDir + "Custom font fallback settings.xml");
 
-// Crée un générateur de document et définit sa police sur une police qui n'existe dans aucune de nos sources.
-// Nos paramètres de police invoqueront le schéma de secours pour les caractères que nous tapons à l'aide de la police non disponible.
+// Créez un générateur de documents et définissez sa police sur une police qui n'existe dans aucune de nos sources.
+// Nos paramètres de police appelleront le schéma de secours pour les caractères que nous tapons en utilisant la police indisponible.
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Font.Name = "Missing Font";
 
-// Utilisez le générateur pour imprimer chaque caractère Unicode de 0x0021 à 0x052F,
+// Utilisez le constructeur pour imprimer chaque caractère Unicode de 0x0021 à 0x052F,
 // avec des lignes descriptives divisant les blocs Unicode que nous avons définis dans notre schéma de secours de police personnalisé.
 for (int i = 0x0021; i < 0x0530; i++)
 {

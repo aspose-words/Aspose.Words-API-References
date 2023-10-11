@@ -1,14 +1,14 @@
 ---
 title: Class ResourceLoadingArgs
 second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Loading.ResourceLoadingArgs sınıf. için veri sağlarResourceLoading yöntem.
+description: Aspose.Words.Loading.ResourceLoadingArgs sınıf. Şunun için veri sağlarResourceLoading yöntem.
 type: docs
-weight: 3490
+weight: 3690
 url: /tr/net/aspose.words.loading/resourceloadingargs/
 ---
 ## ResourceLoadingArgs class
 
-için veri sağlar[`ResourceLoading`](../iresourceloadingcallback/resourceloading/) yöntem.
+Şunun için veri sağlar:[`ResourceLoading`](../iresourceloadingcallback/resourceloading/) yöntem.
 
 ```csharp
 public class ResourceLoadingArgs
@@ -18,21 +18,22 @@ public class ResourceLoadingArgs
 
 | İsim | Tanım |
 | --- | --- |
-| [OriginalUri](../../aspose.words.loading/resourceloadingargs/originaluri/) { get; } | İçe aktarılan belgede belirtilen kaynağın orijinal URI'si. |
+| [OriginalUri](../../aspose.words.loading/resourceloadingargs/originaluri/) { get; } | İçe aktarılan belgede belirtildiği şekliyle kaynağın orijinal URI'si. |
 | [ResourceType](../../aspose.words.loading/resourceloadingargs/resourcetype/) { get; } | Kaynak türü. |
-| [Uri](../../aspose.words.loading/resourceloadingargs/uri/) { get; set; } | dosyasını indirmek için kullanılan kaynağın URI'si[`ResourceLoading`](../iresourceloadingcallback/resourceloading/) dönerDefault. |
+| [Uri](../../aspose.words.loading/resourceloadingargs/uri/) { get; set; } | İndirmek için kullanılan kaynağın URI'si ise[`ResourceLoading`](../iresourceloadingcallback/resourceloading/) şunu döndürürDefault. |
 
 ## yöntemler
 
 | İsim | Tanım |
 | --- | --- |
-| [SetData](../../aspose.words.loading/resourceloadingargs/setdata/)(byte[]) | Aşağıdaki durumlarda kullanılan kaynağın kullanıcı tarafından sağlanan verilerini ayarlar:[`ResourceLoading`](../iresourceloadingcallback/resourceloading/) dönerUserProvided . |
+| [SetData](../../aspose.words.loading/resourceloadingargs/setdata/)(byte[]) | Aşağıdaki durumlarda kullanılan kaynağın kullanıcı tarafından sağlanan verilerini ayarlar:[`ResourceLoading`](../iresourceloadingcallback/resourceloading/) şunu döndürürUserProvided . |
 
 ### Örnekler
 
 Dış kaynakları bir belgeye yükleme işleminin nasıl özelleştirileceğini gösterir.
 
 ```csharp
+public void ResourceLoadingCallback()
 {
     Document doc = new Document();
     doc.ResourceLoadingCallback = new ImageNameHandler();
@@ -40,7 +41,7 @@ Dış kaynakları bir belgeye yükleme işleminin nasıl özelleştirileceğini 
     DocumentBuilder builder = new DocumentBuilder(doc);
 
     // Görüntüler genellikle bir URI veya bir bayt dizisi kullanılarak eklenir.
-    // Bir kaynak yükünün her örneği, geri aramamızın ResourceLoading yöntemini çağıracaktır.
+    // Bir kaynak yükünün her örneği, geri çağırmamızın ResourceLoading yöntemini çağıracaktır.
     builder.InsertImage("Google logo");
     builder.InsertImage("Aspose logo");
     builder.InsertImage("Watermark");
@@ -48,17 +49,18 @@ Dış kaynakları bir belgeye yükleme işleminin nasıl özelleştirileceğini 
     Assert.AreEqual(3, doc.GetChildNodes(NodeType.Shape, true).Count);
 
     doc.Save(ArtifactsDir + "DocumentBase.ResourceLoadingCallback.docx");
+}
 
 /// <summary>
-/// URI'lerin aksine önceden tanımlanmış kısayolları kullanarak görüntüleri bir belgeye yüklememize izin verir.
+/// URI'lerin aksine, önceden tanımlanmış kısayolları kullanarak görüntüleri bir belgeye yüklememize olanak tanır.
 /// Bu, görüntü yükleme mantığını belge yapısının geri kalanından ayıracaktır.
 /// </summary>
 private class ImageNameHandler : IResourceLoadingCallback
 {
     public ResourceLoadingAction ResourceLoading(ResourceLoadingArgs args)
     {
-        // Bu geri arama, bir görüntü yüklerken görüntü kısayollarından biriyle karşılaşırsa,
-        // tanımlı her bir kestirme yol için URI gibi davranmak yerine benzersiz bir mantık uygulayacaktır.
+        // Bu geri arama, bir görüntüyü yüklerken görüntünün kısa yollarından biriyle karşılaşırsa,
+        // tanımlanan her kısayol için, onu bir URI olarak ele almak yerine benzersiz bir mantık uygulayacaktır.
         if (args.ResourceType == ResourceType.Image)
             switch (args.OriginalUri)
             {

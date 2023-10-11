@@ -1,14 +1,14 @@
 ---
 title: PdfSaveOptions.CustomPropertiesExport
 second_title: Aspose.Words per .NET API Reference
-description: PdfSaveOptions proprietà. Ottiene o imposta un valore che determina il percorsoCustomDocumentProperties vengono esportati in un file PDF.
+description: PdfSaveOptions proprietà. Ottiene o imposta un valore che determina il modoCustomDocumentProperties vengono esportati in un file PDF.
 type: docs
-weight: 50
+weight: 60
 url: /it/net/aspose.words.saving/pdfsaveoptions/custompropertiesexport/
 ---
 ## PdfSaveOptions.CustomPropertiesExport property
 
-Ottiene o imposta un valore che determina il percorso[`CustomDocumentProperties`](../../../aspose.words/document/customdocumentproperties/) vengono esportati in un file PDF.
+Ottiene o imposta un valore che determina il modo[`CustomDocumentProperties`](../../../aspose.words/document/customdocumentproperties/) vengono esportati in un file PDF.
 
 ```csharp
 public PdfCustomPropertiesExport CustomPropertiesExport { get; set; }
@@ -20,7 +20,7 @@ Il valore predefinito èNone.
 
 Metadata il valore non è supportato durante il salvataggio in PDF/A. Standard verrà utilizzato invece per PDF/A-1 e PDF/A-2 e None per PDF/A-4.
 
-Standard il valore non è supportato durante il salvataggio in PDF 2.0. Metadata verrà invece utilizzato.
+Standard il valore non è supportato durante il salvataggio in PDF 2.0. Metadata verrà utilizzato invece.
 
 ### Esempi
 
@@ -32,11 +32,11 @@ Document doc = new Document();
 doc.CustomDocumentProperties.Add("Company", "My value");
 
 // Crea un oggetto "PdfSaveOptions" che possiamo passare al metodo "Save" del documento
-// per modificare il modo in cui quel metodo converte il documento in .PDF.
+// per modificare il modo in cui il metodo converte il documento in .PDF.
 PdfSaveOptions options = new PdfSaveOptions();
 
-// Imposta la proprietà "CustomPropertiesExport" su "PdfCustomPropertiesExport.None" per eliminare
- // proprietà del documento personalizzate quando salviamo il documento in .PDF.
+// Imposta la proprietà "CustomPropertiesExport" su "PdfCustomPropertiesExport.None" da eliminare
+// proprietà personalizzate del documento mentre salviamo il documento in .PDF.
 // Imposta la proprietà "CustomPropertiesExport" su "PdfCustomPropertiesExport.Standard"
 // per preservare le proprietà personalizzate all'interno del documento PDF di output.
 // Imposta la proprietà "CustomPropertiesExport" su "PdfCustomPropertiesExport.Metadata"

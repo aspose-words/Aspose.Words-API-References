@@ -3,7 +3,7 @@ title: ImageData.ToStream
 second_title: Справочник по API Aspose.Words для .NET
 description: ImageData метод. Создает и возвращает поток содержащий байты изображения.
 type: docs
-weight: 230
+weight: 240
 url: /ru/net/aspose.words.drawing/imagedata/tostream/
 ---
 ## ImageData.ToStream method
@@ -16,13 +16,13 @@ public Stream ToStream()
 
 ### Примечания
 
-Если байты изображения хранятся в форме, создает и возвращаетMemoryStream объект.
+Если байты изображения сохранены в фигуре, создается и возвращаетMemoryStream объект.
 
 Если изображение связано и сохранено в файле, открывает файл и возвращаетFileStream объект.
 
 Если изображение связано и хранится по внешнему URL-адресу, загружает файл и возвращаетMemoryStream объект.
 
-Ответственность за удаление объекта потока лежит на вызывающем объекте.
+Ответственность за удаление объекта потока лежит на вызывающей стороне.
 
 ### Примеры
 
@@ -30,7 +30,6 @@ public Stream ToStream()
 
 ```csharp
 Document imgSourceDoc = new Document(MyDir + "Images.docx");
-
 Shape imgShape = (Shape) imgSourceDoc.GetChild(NodeType.Shape, 0, true);
 
 Assert.True(imgShape.HasImage);

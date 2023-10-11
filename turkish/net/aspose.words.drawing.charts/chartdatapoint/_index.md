@@ -1,14 +1,16 @@
 ---
 title: Class ChartDataPoint
 second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Drawing.Charts.ChartDataPoint sınıf. Grafikteki tek bir veri noktasının biçimlendirmesini belirlemeye izin verir.
+description: Aspose.Words.Drawing.Charts.ChartDataPoint sınıf. Grafikteki tek bir veri noktasının formatını belirtmeye izin verir.
 type: docs
-weight: 650
+weight: 690
 url: /tr/net/aspose.words.drawing.charts/chartdatapoint/
 ---
 ## ChartDataPoint class
 
-Grafikteki tek bir veri noktasının biçimlendirmesini belirlemeye izin verir.
+Grafikteki tek bir veri noktasının formatını belirtmeye izin verir.
+
+Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Grafiklerle Çalışmak](https://docs.aspose.com/words/net/working-with-charts/) dokümantasyon makalesi.
 
 ```csharp
 public class ChartDataPoint : IChartDataPoint
@@ -18,29 +20,28 @@ public class ChartDataPoint : IChartDataPoint
 
 | İsim | Tanım |
 | --- | --- |
-| [Bubble3D](../../aspose.words.drawing.charts/chartdatapoint/bubble3d/) { get; set; } |  |
-| [Explosion](../../aspose.words.drawing.charts/chartdatapoint/explosion/) { get; set; } |  |
-| [Format](../../aspose.words.drawing.charts/chartdatapoint/format/) { get; } | Bu veri noktasının doldurma ve satır biçimlendirmesine erişim sağlar. |
+| [Bubble3D](../../aspose.words.drawing.charts/chartdatapoint/bubble3d/) { get; set; } | Kabarcık grafiğindeki baloncuklara 3 boyutlu efektin uygulanması gerekip gerekmediğini belirtir. |
+| [Explosion](../../aspose.words.drawing.charts/chartdatapoint/explosion/) { get; set; } | Veri noktasının pastanın merkezinden ne kadar uzağa taşınacağını belirtir. Negatif olabilir, negatif, özelliğin ayarlanmadığı ve hiçbir patlamanın uygulanmaması gerektiği anlamına gelir. Yalnızca Pasta grafikleri için geçerlidir. |
+| [Format](../../aspose.words.drawing.charts/chartdatapoint/format/) { get; } | Bu veri noktasının dolgu ve satır formatlamasına erişim sağlar. |
 | [Index](../../aspose.words.drawing.charts/chartdatapoint/index/) { get; } | Bu nesnenin biçimlendirmeyi uyguladığı veri noktasının dizini. |
-| [InvertIfNegative](../../aspose.words.drawing.charts/chartdatapoint/invertifnegative/) { get; set; } |  |
-| [Marker](../../aspose.words.drawing.charts/chartdatapoint/marker/) { get; } |  |
+| [InvertIfNegative](../../aspose.words.drawing.charts/chartdatapoint/invertifnegative/) { get; set; } | Değer negatifse ana öğenin renklerini ters çevirip çevirmeyeceğini belirtir. |
+| [Marker](../../aspose.words.drawing.charts/chartdatapoint/marker/) { get; } | Grafik veri işaretçisini belirtir. |
 
 ## yöntemler
 
 | İsim | Tanım |
 | --- | --- |
-| [ClearFormat](../../aspose.words.drawing.charts/chartdatapoint/clearformat/)() | Bu veri noktasının biçimini temizler. Özellikler, üst seride tanımlanan varsayılan değerlere ayarlanır. |
+| [ClearFormat](../../aspose.words.drawing.charts/chartdatapoint/clearformat/)() | Bu veri noktasının biçimini temizler. Özellikler üst seride tanımlanan varsayılan değerlere ayarlanır. |
 
 ### Notlar
 
-Bir dizide,`ChartDataPoint` nesne üyedir[`ChartDataPointCollection`](../chartdatapointcollection/) . [`ChartDataPointCollection`](../chartdatapointcollection/) içerir`ChartDataPoint` Her nokta için nesne.
+Bir seride,`ChartDataPoint` nesnenin bir üyesidir[`ChartDataPointCollection`](../chartdatapointcollection/) . [`ChartDataPointCollection`](../chartdatapointcollection/) içerir`ChartDataPoint` Her nokta için nesne.
 
 ### Örnekler
 
 Çizgi grafikte veri noktalarıyla nasıl çalışılacağını gösterir.
 
 ```csharp
-[Test]
 public void ChartDataPoint()
 {
     Document doc = new Document();
@@ -54,14 +55,14 @@ public void ChartDataPoint()
     Assert.AreEqual("Series 2", chart.Series[1].Name);
     Assert.AreEqual("Series 3", chart.Series[2].Name);
 
-    // Grafiğin veri noktalarını elmas şekiller olarak göstererek vurgulayın.
+    // Grafiğin veri noktalarını baklava şekilleri şeklinde göstererek vurgulayın.
     foreach (ChartSeries series in chart.Series) 
         ApplyDataPoints(series, 4, MarkerSymbol.Diamond, 15);
 
-    // İlk veri serisini temsil eden satırı düzeltin.
+    // İlk veri serisini temsil eden çizgiyi düzeltin.
     chart.Series[0].Smooth = true;
 
-    // Değer negatifse, ilk seri için veri noktalarının renklerini tersine çevirmediğini doğrulayın.
+    // Değer negatifse, ilk serinin veri noktalarının renklerini tersine çevirmeyeceğini doğrulayın.
     using (IEnumerator<ChartDataPoint> enumerator = chart.Series[0].DataPoints.GetEnumerator())
     {
         while (enumerator.MoveNext())
@@ -70,10 +71,10 @@ public void ChartDataPoint()
         }
     }
 
-    // Daha temiz bir grafik için formatı tek tek temizleyebiliriz.
+    // Daha temiz görünen bir grafik için formatı tek tek temizleyebiliriz.
     chart.Series[1].DataPoints[2].ClearFormat();
 
-    // Aynı anda bir dizi veri noktasının tamamını da ayıklayabiliriz.
+    // Ayrıca bir dizi veri noktasının tamamını aynı anda kaldırabiliriz.
     chart.Series[2].DataPoints.ClearFormat();
 
     doc.Save(ArtifactsDir + "Charts.ChartDataPoint.docx");

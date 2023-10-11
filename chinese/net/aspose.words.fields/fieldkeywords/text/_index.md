@@ -32,7 +32,7 @@ field.Update();
 Assert.AreEqual(" KEYWORDS ", field.GetFieldCode());
 Assert.AreEqual("Keyword1, Keyword2", field.Result);
 
-// 为字段的 Text 属性设置一个值，
+// 设置字段的 Text 属性的值，
 // 然后更新字段也会用新值覆盖相应的内置属性。
 field.Text = "OverridingKeyword";
 field.Update();

@@ -1,14 +1,14 @@
 ---
 title: Font.Name
 second_title: Aspose.Words لمراجع .NET API
-description: Font ملكية. الحصول على اسم الخط أو تحديده.
+description: Font ملكية. الحصول على اسم الخط أو تعيينه.
 type: docs
 weight: 230
 url: /ar/net/aspose.words/font/name/
 ---
 ## Font.Name property
 
-الحصول على اسم الخط أو تحديده.
+الحصول على اسم الخط أو تعيينه.
 
 ```csharp
 public string Name { get; set; }
@@ -16,9 +16,9 @@ public string Name { get; set; }
 
 ### ملاحظات
 
-عند الحصول على العوائد[`NameAscii`](../nameascii/).
+عند الحصول، يعود[`NameAscii`](../nameascii/).
 
-عند الإعداد ، يحدد[`NameAscii`](../nameascii/) و[`NameBi`](../namebi/) و[`NameFarEast`](../namefareast/) و[`NameOther`](../nameother/) إلى القيمة المحددة.
+عند الإعداد، مجموعات[`NameAscii`](../nameascii/) ,[`NameBi`](../namebi/) ,[`NameFarEast`](../namefareast/) و[`NameOther`](../nameother/) إلى القيمة المحددة.
 
 ### أمثلة
 
@@ -43,7 +43,7 @@ doc.Save(ArtifactsDir + "Font.CreateFormattedRun.docx");
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// حدد تنسيق الخط ، ثم أضف نصًا.
+// حدد تنسيق الخط، ثم أضف النص.
 Aspose.Words.Font font = builder.Font;
 font.Size = 16;
 font.Bold = true;

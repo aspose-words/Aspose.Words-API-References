@@ -3,12 +3,14 @@ title: Class CompatibilityOptions
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Settings.CompatibilityOptions klass. Innehåller kompatibilitetsalternativ det vill säga användarinställningarna som anges på Kompatibilitet fliken i alternativ dialogrutan i Microsoft Word.
 type: docs
-weight: 5490
+weight: 5780
 url: /sv/net/aspose.words.settings/compatibilityoptions/
 ---
 ## CompatibilityOptions class
 
 Innehåller kompatibilitetsalternativ (det vill säga användarinställningarna som anges på **Kompatibilitet** fliken i **alternativ** dialogrutan i Microsoft Word).
+
+För att lära dig mer, besök[Upptäck filformat och kontrollera formatkompatibilitet](https://docs.aspose.com/words/net/detect-file-format-and-check-format-compatibility/) dokumentationsartikel.
 
 ```csharp
 public class CompatibilityOptions
@@ -27,7 +29,7 @@ public class CompatibilityOptions
 | [BalanceSingleByteDoubleByteWidth](../../aspose.words.settings/compatibilityoptions/balancesinglebytedoublebytewidth/) { get; set; } | Balansera enkelbyte och dubbelbytetecken. |
 | [CachedColBalance](../../aspose.words.settings/compatibilityoptions/cachedcolbalance/) { get; set; } | Använd cachad styckeinformation för kolumnbalansering. |
 | [ConvMailMergeEsc](../../aspose.words.settings/compatibilityoptions/convmailmergeesc/) { get; set; } | Behandla omvänt snedstreck citatavgränsare som två citattecken. |
-| [DisableOpenTypeFontFormattingFeatures](../../aspose.words.settings/compatibilityoptions/disableopentypefontformattingfeatures/) { get; set; } |  |
+| [DisableOpenTypeFontFormattingFeatures](../../aspose.words.settings/compatibilityoptions/disableopentypefontformattingfeatures/) { get; set; } | Anger att inaktivera OpenType teckensnittsformateringsfunktioner. |
 | [DisplayHangulFixedWidth](../../aspose.words.settings/compatibilityoptions/displayhangulfixedwidth/) { get; set; } | Använd alltid fast bredd för Hangul-tecken. |
 | [DoNotAutofitConstrainedTables](../../aspose.words.settings/compatibilityoptions/donotautofitconstrainedtables/) { get; set; } | Anpassa inte tabeller automatiskt för att passa intill inslagna objekt. |
 | [DoNotBreakConstrainedForcedTable](../../aspose.words.settings/compatibilityoptions/donotbreakconstrainedforcedtable/) { get; set; } | Bryt inte bordsrader runt flytande bord. |
@@ -71,10 +73,10 @@ public class CompatibilityOptions
 | [SuppressTopSpacing](../../aspose.words.settings/compatibilityoptions/suppresstopspacing/) { get; set; } | Ignorera minsta och exakta linjehöjd för första raden på sidan. |
 | [SuppressTopSpacingWP](../../aspose.words.settings/compatibilityoptions/suppresstopspacingwp/) { get; set; } | Emulera WordPerfect 5.x radavstånd. |
 | [SwapBordersFacingPgs](../../aspose.words.settings/compatibilityoptions/swapbordersfacingpgs/) { get; set; } | Byt styckekanter på udda sidor. |
-| [SwapInsideAndOutsideForMirrorIndentsAndRelativePositioning](../../aspose.words.settings/compatibilityoptions/swapinsideandoutsideformirrorindentsandrelativepositioning/) { get; set; } |  |
+| [SwapInsideAndOutsideForMirrorIndentsAndRelativePositioning](../../aspose.words.settings/compatibilityoptions/swapinsideandoutsideformirrorindentsandrelativepositioning/) { get; set; } | Anger att byta insida och utsida för spegelindrag och relativ positionering. |
 | [TransparentMetafiles](../../aspose.words.settings/compatibilityoptions/transparentmetafiles/) { get; set; } | Anger att området bakom metafilbilder inte ska tomt. |
 | [TruncateFontHeightsLikeWP6](../../aspose.words.settings/compatibilityoptions/truncatefontheightslikewp6/) { get; set; } | Emulera WordPerfect 6.x Font Height Calculation. |
-| [UICompat97To2003](../../aspose.words.settings/compatibilityoptions/uicompat97to2003/) { get; set; } | **Sann** för att inaktivera UI-funktionalitet som inte är kompatibel med Word97-2003. Standardvärdet är **falsk** . |
+| [UICompat97To2003](../../aspose.words.settings/compatibilityoptions/uicompat97to2003/) { get; set; } | True to inaktivera UI-funktionalitet som inte är kompatibel med Word97-2003. Standardvärdet är`falsk` . |
 | [UlTrailSpace](../../aspose.words.settings/compatibilityoptions/ultrailspace/) { get; set; } | Stryk under alla efterföljande blanksteg. |
 | [UnderlineTabInNumList](../../aspose.words.settings/compatibilityoptions/underlinetabinnumlist/) { get; set; } | Understryka följande tecken efter numrering. |
 | [UseAltKinsokuLineBreakRules](../../aspose.words.settings/compatibilityoptions/usealtkinsokulinebreakrules/) { get; set; } | Använd alternativ uppsättning östasiatiska linjebrytningsregler. |
@@ -84,7 +86,7 @@ public class CompatibilityOptions
 | [UsePrinterMetrics](../../aspose.words.settings/compatibilityoptions/useprintermetrics/) { get; set; } | Använd skrivarstatistik för att visa dokument. |
 | [UseSingleBorderforContiguousCells](../../aspose.words.settings/compatibilityoptions/usesingleborderforcontiguouscells/) { get; set; } | Använd förenklade regler för tabellgränskonflikter. |
 | [UseWord2002TableStyleRules](../../aspose.words.settings/compatibilityoptions/useword2002tablestylerules/) { get; set; } | Emulera Word 2002 tabellstilsregler. |
-| [UseWord2010TableStyleRules](../../aspose.words.settings/compatibilityoptions/useword2010tablestylerules/) { get; set; } |  |
+| [UseWord2010TableStyleRules](../../aspose.words.settings/compatibilityoptions/useword2010tablestylerules/) { get; set; } | Anger att använda Word2010-tabellstilsregler. |
 | [UseWord97LineBreakRules](../../aspose.words.settings/compatibilityoptions/useword97linebreakrules/) { get; set; } | Emulera Word 97 East Asian Line Breaking. |
 | [WPJustification](../../aspose.words.settings/compatibilityoptions/wpjustification/) { get; set; } | Emulate WordPerfect 6.x Paragraph Justification. |
 | [WPSpaceWidth](../../aspose.words.settings/compatibilityoptions/wpspacewidth/) { get; set; } | Anger om bredden på ett mellanslag ska ställas in som görs i WordPerfect 5.x. |
@@ -137,7 +139,7 @@ Assert.AreEqual(ShapeMarkupLanguage.Vml, ((Shape)doc.GetChild(NodeType.Shape, 0,
 
 // OOXML-standarden "ISO/IEC 29500:2008" stöder inte VML-former.
 // Om vi ställer in egenskapen "Compliance" för SaveOptions-objektet till "OoxmlCompliance.Iso29500_2008_Strict",
-  // alla dokument vi sparar när vi skickar detta objekt måste följa den standarden.
+ // alla dokument vi sparar när vi skickar detta objekt måste följa den standarden.
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions
 {
     Compliance = OoxmlCompliance.Iso29500_2008_Strict,

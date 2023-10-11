@@ -1,14 +1,14 @@
 ---
 title: Enum FillType
 second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Drawing.FillType Sıralama. Doldurulabilir bir nesne için doldurma türünü belirtir.
+description: Aspose.Words.Drawing.FillType Sıralama. Doldurulabilir bir nesnenin doldurma türünü belirtir.
 type: docs
-weight: 830
+weight: 960
 url: /tr/net/aspose.words.drawing/filltype/
 ---
 ## FillType enumeration
 
-Doldurulabilir bir nesne için doldurma türünü belirtir.
+Doldurulabilir bir nesnenin doldurma türünü belirtir.
 
 ```csharp
 public enum FillType
@@ -20,10 +20,10 @@ public enum FillType
 | --- | --- | --- |
 | Solid | `1` | Katı dolgu. |
 | Patterned | `2` | Desenli dolgu. |
-| Gradient | `3` | Gradyan dolgusu. |
+| Gradient | `3` | Degrade dolgu. |
 | Textured | `4` | Dokulu dolgu. |
-| Background | `5` | Dolgu, arka planla aynı. |
-| Picture | `6` | Resim doldurma. |
+| Background | `5` | Dolgu arka planla aynıdır. |
+| Picture | `6` | Resim dolgusu. |
 
 ### Ayrıca bakınız
 

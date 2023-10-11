@@ -3,7 +3,7 @@ title: Paragraph.GetText
 second_title: Справочник по API Aspose.Words для .NET
 description: Paragraph метод. Получает текст этого абзаца включая символ конца абзаца.
 type: docs
-weight: 260
+weight: 280
 url: /ru/net/aspose.words/paragraph/gettext/
 ---
 ## Paragraph.GetText method
@@ -18,11 +18,11 @@ public override string GetText()
 
 Текст всех дочерних узлов объединяется, а символ конца абзаца добавляется следующим образом:
 
-* Если абзац является последним абзацем[`Body`](../../body/) , тогда [`ControlChar.SectionBreak`](../../controlchar/sectionbreak/) (\x000c) добавляется.
-* Если абзац является последним абзацем[`Cell`](../../../aspose.words.tables/cell/) , тогда [`ControlChar.Cell`](../../controlchar/cell/) (\x0007) добавляется.
-* Для всех остальных абзацев [`ControlChar.ParagraphBreak`](../../controlchar/paragraphbreak/) (\r) добавляется.
+* Если абзац является последним абзацем[`Body`](../../body/) , then [`SectionBreak`](../../controlchar/sectionbreak/) (\x000c) добавляется.
+* Если абзац является последним абзацем[`Cell`](../../../aspose.words.tables/cell/) , then [`Cell`](../../controlchar/cell/) (\x0007) добавляется.
+* Для всех остальных параграфов [`ParagraphBreak`](../../controlchar/paragraphbreak/) (\r) добавляется.
 
-Возвращаемая строка включает все управляющие и специальные символы, как описано в[`ControlChar`](../../controlchar/).
+Возвращенная строка включает все управляющие и специальные символы, как описано в разделе[`ControlChar`](../../controlchar/).
 
 ### Примеры
 
@@ -34,33 +34,33 @@ Document doc = new Document();
 // Пустой документ по умолчанию имеет один абзац.
 Assert.AreEqual(1, doc.FirstSection.Body.Paragraphs.Count);
 
-// Составные узлы, такие как наш абзац, могут содержать другие составные и встроенные узлы в качестве дочерних элементов.
+// Составные узлы, такие как наш абзац, могут содержать в качестве дочерних элементов другие составные и строчные узлы.
 Paragraph paragraph = doc.FirstSection.Body.FirstParagraph;
 Run paragraphText = new Run(doc, "Initial text. ");
 paragraph.AppendChild(paragraphText);
 
-// Создадим еще три узла запуска.
+// Создаем еще три узла запуска.
 Run run1 = new Run(doc, "Run 1. ");
 Run run2 = new Run(doc, "Run 2. ");
 Run run3 = new Run(doc, "Run 3. ");
 
 // Тело документа не будет отображать эти прогоны, пока мы не вставим их в составной узел
-// это само по себе является частью дерева узлов документа, как мы сделали при первом запуске.
+// это само по себе является частью дерева узлов документа, как мы делали при первом запуске.
 // Мы можем определить, где находится текстовое содержимое узлов, которые мы вставляем
-// появляется в документе путем указания места вставки относительно другого узла в абзаце.
+// появляется в документе при указании места вставки относительно другого узла в абзаце.
 Assert.AreEqual("Initial text.", paragraph.GetText().Trim());
 
-// Вставляем второй прогон в абзац перед начальным прогоном.
+// Вставляем второй проход в абзац перед первым.
 paragraph.InsertBefore(run2, paragraphText);
 
 Assert.AreEqual("Run 2. Initial text.", paragraph.GetText().Trim());
 
-// Вставляем третий прогон после первого прогона.
+// Вставляем третий запуск после первого.
 paragraph.InsertAfter(run3, paragraphText);
 
 Assert.AreEqual("Run 2. Initial text. Run 3.", paragraph.GetText().Trim());
 
-// Вставляем первую строку в начало коллекции дочерних узлов абзаца.
+// Вставляем первый прогон в начало коллекции дочерних узлов абзаца.
 paragraph.PrependChild(run1);
 
 Assert.AreEqual("Run 1. Run 2. Initial text. Run 3.", paragraph.GetText().Trim());

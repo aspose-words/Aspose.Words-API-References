@@ -16,7 +16,7 @@ public string ResourcesFolder { get; set; }
 
 ### Anmärkningar
 
-Har effekt endast om[`ExportEmbeddedImages`](../exportembeddedimages/) egendom är falsk.
+Har effekt endast om[`ExportEmbeddedImages`](../exportembeddedimages/) egendom är`falsk`.
 
 När du sparar en[`Document`](../../../aspose.words/document/) i HTML-format måste Aspose.Words spara all bilder inbäddade i dokumentet som fristående filer.`ResourcesFolder` låter dig ange var bilderna ska sparas och[`ResourcesFolderAlias`](../resourcesfolderalias/) tillåter att specificera hur bildens URI:er kommer att konstrueras.
 

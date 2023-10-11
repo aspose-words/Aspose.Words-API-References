@@ -20,7 +20,7 @@ Ce paramètre est purement une suggestion du type de source de données utilisé
 
 ### Exemples
 
-Montre comment exécuter un publipostage avec des données provenant d'un objet de source de données Office.
+Montre comment exécuter un publipostage avec des données provenant d’un objet source de données Office.
 
 ```csharp
 Document doc = new Document();
@@ -33,8 +33,8 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// Crée une source de données sous la forme d'un fichier ASCII, avec le "|" personnage
-// agissant comme le délimiteur qui sépare les colonnes. La première ligne contient les noms des trois colonnes,
+// Crée une source de données sous forme de fichier ASCII, avec le "|" personnage
+// agissant comme délimiteur qui sépare les colonnes. La première ligne contient les noms des trois colonnes,
 // et chaque ligne suivante est une ligne avec leurs valeurs respectives.
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };
@@ -63,7 +63,7 @@ odso.FirstRowContainsColumnNames = true;
 Assert.AreNotSame(odso, odso.Clone());
 Assert.AreNotSame(settings, settings.Clone());
 
-// L'ouverture de ce document dans Microsoft Word exécutera le publipostage avant d'afficher le contenu. 
+ // L'ouverture de ce document dans Microsoft Word exécutera le publipostage avant d'afficher le contenu.
 doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ```
 

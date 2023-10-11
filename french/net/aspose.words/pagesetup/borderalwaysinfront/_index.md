@@ -16,7 +16,7 @@ public bool BorderAlwaysInFront { get; set; }
 
 ### Exemples
 
-Montre comment créer une bordure à large bande bleue en haut de la première page.
+Montre comment créer une large bordure bleue en haut de la première page.
 
 ```csharp
 Document doc = new Document();

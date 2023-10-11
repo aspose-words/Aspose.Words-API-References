@@ -1,14 +1,14 @@
 ---
 title: HtmlSaveOptions.ExportDropDownFormFieldAsText
 second_title: Aspose.Words لمراجع .NET API
-description: HtmlSaveOptions ملكية. يتحكم في كيفية حفظ حقول النموذج المنسدل في HTML أو MHTML . القيمة الافتراضية هيخاطئة .
+description: HtmlSaveOptions ملكية. يتحكم في كيفية حفظ حقول النموذج المنسدل في HTML أو MHTML. القيمة الافتراضية هيخطأ شنيع .
 type: docs
-weight: 140
+weight: 130
 url: /ar/net/aspose.words.saving/htmlsaveoptions/exportdropdownformfieldastext/
 ---
 ## HtmlSaveOptions.ExportDropDownFormFieldAsText property
 
-يتحكم في كيفية حفظ حقول النموذج المنسدل في HTML أو MHTML . القيمة الافتراضية هي`خاطئة` .
+يتحكم في كيفية حفظ حقول النموذج المنسدل في HTML أو MHTML. القيمة الافتراضية هي`خطأ شنيع` .
 
 ```csharp
 public bool ExportDropDownFormFieldAsText { get; set; }
@@ -16,26 +16,26 @@ public bool ExportDropDownFormFieldAsText { get; set; }
 
 ### ملاحظات
 
-عند الضبط على`حقيقي` ، يقوم بتصدير حقول النموذج المنسدل كنص عادي`خاطئة`، يقوم بتصدير حقول النموذج المنسدلة كعنصر SELECT في HTML.
+عند التعيين على`حقيقي` ، يصدر حقول النموذج المنسدلة كنص عادي. متى`خطأ شنيع`، يقوم بتصدير حقول النموذج المنسدلة كعنصر SELECT في HTML.
 
-عند التصدير إلى EPUB ، يتم دائمًا حفظ حقول النموذج المنسدل كنص بسبب لمتطلبات هذا التنسيق.
+عند التصدير إلى EPUB، يتم دائمًا حفظ حقول نموذج القائمة المنسدلة النصية كنص بسبب لمتطلبات هذا التنسيق.
 
 ### أمثلة
 
-يوضح كيفية الحصول على حقول نموذج مربع التحرير والسرد المنسدل لدمجها مع نص الفقرة عند الحفظ في html.
+يوضح كيفية الحصول على حقول نموذج مربع التحرير والسرد المنسدلة لتندمج مع نص الفقرة عند الحفظ في html.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// استخدم منشئ المستندات لإدراج مربع تحرير وسرد مع تحديد القيمة "اثنان".
+// استخدم منشئ المستندات لإدراج مربع تحرير وسرد مع تحديد القيمة "اثنين".
 builder.InsertComboBox("MyComboBox", new[] { "One", "Two", "Three" }, 1);
 
-// تسمح لنا علامة "ExportDropDownFormFieldAsText" لكائن SaveOptions هذا
+// تتيح لنا العلامة "ExportDropDownFormFieldAsText" لكائن SaveOptions هذا
 // التحكم في كيفية تعامل حفظ المستند إلى HTML مع مربعات التحرير والسرد المنسدلة.
-// إعداده على "true" سيحول كل مربع تحرير وسرد إلى نص بسيط
-// التي تعرض القيمة المحددة حاليًا لمربع التحرير والسرد ، مما يؤدي إلى تجميدها بشكل فعال.
-// إعداده على "خطأ" سيحافظ على وظائف مربع التحرير والسرد باستخدام العلامة < select > و < الخيار >. العلامات.
+// سيؤدي تعيينه على "صحيح" إلى تحويل كل مربع تحرير وسرد إلى نص بسيط
+// الذي يعرض القيمة المحددة حاليًا لمربع التحرير والسرد، مما يؤدي إلى تجميدها بشكل فعال.
+// سيؤدي تعيينه إلى "خطأ" إلى الحفاظ على وظيفة مربع التحرير والسرد باستخدام <select> <الخيار> العلامات.
 HtmlSaveOptions options = new HtmlSaveOptions();
 options.ExportDropDownFormFieldAsText = exportDropDownFormFieldAsText;    
 

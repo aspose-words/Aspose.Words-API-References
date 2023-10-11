@@ -1,14 +1,14 @@
 ---
 title: DocumentBuilder.MoveToField
 second_title: Aspose.Words لمراجع .NET API
-description: DocumentBuilder طريقة. ينقل المؤشر إلى حقل في المستند.
+description: DocumentBuilder طريقة. يحرك المؤشر إلى حقل في المستند.
 type: docs
-weight: 510
+weight: 540
 url: /ar/net/aspose.words/documentbuilder/movetofield/
 ---
 ## DocumentBuilder.MoveToField method
 
-ينقل المؤشر إلى حقل في المستند.
+يحرك المؤشر إلى حقل في المستند.
 
 ```csharp
 public void MoveToField(Field field, bool isAfter)
@@ -16,8 +16,8 @@ public void MoveToField(Field field, bool isAfter)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| field | Field | الحقل المراد تحريك المؤشر إليه. |
-| isAfter | Boolean | عندما يكون صحيحًا ، ينقل المؤشر ليكون بعد نهاية الحقل . عندما يكون خطأ ، ينقل المؤشر ليكون قبل بدء الحقل. |
+| field | Field | الحقل الذي سيتم نقل المؤشر إليه. |
+| isAfter | Boolean | متى`حقيقي` ، يحرك المؤشر ليكون بعد نهاية الحقل. متى`خطأ شنيع`، يحرك المؤشر ليكون قبل بدء الحقل. |
 
 ### أمثلة
 
@@ -27,18 +27,18 @@ public void MoveToField(Field field, bool isAfter)
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// أدخل حقلاً باستخدام DocumentBuilder وأضف سلسلة نصية بعده.
+// أدخل حقلاً باستخدام DocumentBuilder وأضف سلسلة من النص بعده.
 Field field = builder.InsertField(" AUTHOR \"John Doe\" ");
 
-// مؤشر الباني موجود حاليًا في نهاية المستند.
+// مؤشر المنشئ موجود حاليًا في نهاية المستند.
 Assert.Null(builder.CurrentNode);
 
-// حرك المؤشر إلى الحقل أثناء تحديد ما إذا كان سيتم وضع هذا المؤشر قبل الحقل أو بعده.
+// حرك المؤشر إلى الحقل أثناء تحديد ما إذا كنت تريد وضع هذا المؤشر قبل الحقل أم بعده.
 builder.MoveToField(field, moveCursorToAfterTheField);
 
 // لاحظ أن المؤشر خارج الحقل في كلتا الحالتين.
-// هذا يعني أنه لا يمكننا تحرير الحقل باستخدام المنشئ مثل هذا.
-// لتحرير حقل ، يمكننا استخدام طريقة MoveTo للباني في FieldStart للحقل
+// هذا يعني أنه لا يمكننا تعديل الحقل باستخدام المنشئ بهذه الطريقة.
+// لتحرير حقل، يمكننا استخدام طريقة MoveTo الخاصة بالمنشئ في FieldStart الخاص بالحقل
 // أو عقدة FieldSeparator لوضع المؤشر بالداخل.
 if (moveCursorToAfterTheField)
 {

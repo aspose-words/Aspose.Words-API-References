@@ -3,7 +3,7 @@ title: Interface INodeChangingCallback
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.INodeChangingCallback gränssnitt. Implementera detta gränssnitt om du vill få meddelanden när noder infogas eller tas bort i dokumentet.
 type: docs
-weight: 3000
+weight: 3200
 url: /sv/net/aspose.words/inodechangingcallback/
 ---
 ## INodeChangingCallback interface
@@ -28,6 +28,7 @@ public interface INodeChangingCallback
 Visar hur du anpassar nodbyte med en återuppringning.
 
 ```csharp
+public void FontChangeViaCallback()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -45,6 +46,7 @@ Visar hur du anpassar nodbyte med en återuppringning.
     doc.Range.Fields[0].Remove();
 
     Console.WriteLine(callback.GetLog());
+}
 
 /// <summary>
 /// Loggar datum och tid för varje nod insättning och borttagning.

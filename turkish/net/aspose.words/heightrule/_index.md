@@ -3,7 +3,7 @@ title: Enum HeightRule
 second_title: Aspose.Words for .NET API Referansı
 description: Aspose.Words.HeightRule Sıralama. Bir nesnenin yüksekliğini belirleme kuralını belirtir.
 type: docs
-weight: 2950
+weight: 3130
 url: /tr/net/aspose.words/heightrule/
 ---
 ## HeightRule enumeration
@@ -18,13 +18,13 @@ public enum HeightRule
 
 | İsim | Değer | Tanım |
 | --- | --- | --- |
-| AtLeast | `0` | Yükseklik, en az puan olarak belirtilen yükseklik olacaktır. Gerekirse, bir nesnenin içindeki tüm metni barındırmak için büyüyecektir. |
-| Exactly | `1` | Yükseklik tam olarak nokta olarak belirtilir. Lütfen metnin bu yükseklikteki nesnenin içine sığmaması ise, kesilmiş olarak görüneceğini unutmayın. |
-| Auto | `2` | Bir nesnenin içindeki tüm metni barındırmak için yükseklik otomatik olarak büyür. |
+| AtLeast | `0` | Yükseklik en az nokta cinsinden belirtilen yükseklik olacaktır. Gerekirse, bir nesnenin içindeki tüm metni barındıracak şekilde büyüyecektir. |
+| Exactly | `1` | Yükseklik tam olarak nokta cinsinden belirtilir. Lütfen metnin bu yükseklikteki nesnenin içine sığamaması durumunda kesik görüneceğini unutmayın. |
+| Auto | `2` | Yükseklik, bir nesnenin içindeki tüm metni barındıracak şekilde otomatik olarak artacaktır. |
 
 ### Örnekler
 
-Belge oluşturucu ile satırların nasıl biçimlendirileceğini gösterir.
+Satırların bir belge oluşturucuyla nasıl biçimlendirileceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -34,8 +34,8 @@ Table table = builder.StartTable();
 builder.InsertCell();
 builder.Write("Row 1, cell 1.");
 
-// İkinci bir satır başlatın ve ardından yüksekliğini yapılandırın. Oluşturucu bu ayarları
-// mevcut satırı ve daha sonra oluşturduğu yeni satırlar.
+// İkinci bir satır başlatın ve ardından yüksekliğini yapılandırın. Oluşturucu bu ayarları aşağıdakilere uygulayacaktır:
+// geçerli satırın yanı sıra daha sonra oluşturacağı yeni satırlar.
 builder.EndRow();
 
 RowFormat rowFormat = builder.RowFormat;
@@ -46,7 +46,7 @@ builder.InsertCell();
 builder.Write("Row 2, cell 1.");
 builder.EndTable();
 
-// İlk satır, dolgu yeniden yapılandırmasından etkilenmedi ve hala varsayılan değerleri tutuyor.
+// İlk satır dolgunun yeniden yapılandırılmasından etkilenmedi ve hala varsayılan değerleri koruyor.
 Assert.AreEqual(0.0d, table.Rows[0].RowFormat.Height);
 Assert.AreEqual(HeightRule.Auto, table.Rows[0].RowFormat.HeightRule);
 

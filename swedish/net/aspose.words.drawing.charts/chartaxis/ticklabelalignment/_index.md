@@ -3,7 +3,7 @@ title: ChartAxis.TickLabelAlignment
 second_title: Aspose.Words för .NET API Referens
 description: ChartAxis fast egendom. Hämtar eller ställer in textjustering av axelmarkeringsetiketter.
 type: docs
-weight: 200
+weight: 220
 url: /sv/net/aspose.words.drawing.charts/chartaxis/ticklabelalignment/
 ---
 ## ChartAxis.TickLabelAlignment property
@@ -47,7 +47,7 @@ axis.MajorUnit = 10;
 axis.MinorUnit = 1;
 
 // Ställ in Y-axelns gränser till -10 och 20.
-// Denna Y-axel kommer nu att visa 4 större tick-markeringar och 27 mindre tick-markeringar.
+// Den här Y-axeln kommer nu att visa 4 större tick-markeringar och 27 mindre tick-markeringar.
 axis.Scaling.Minimum = new AxisBound(-10);
 axis.Scaling.Maximum = new AxisBound(20);
 

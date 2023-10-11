@@ -16,14 +16,14 @@ public MsWordVersion MswVersion { get; set; }
 
 ### Observaciones
 
-Las diferentes versiones de Word pueden manejar ciertos aspectos del contenido del documento y el formato de forma ligeramente diferente durante el proceso de carga, lo que puede resultar en diferencias menores en el modelo de objeto del documento.
+Diferentes versiones de Word pueden manejar ciertos aspectos del contenido del documento y el formato ligeramente diferente durante el proceso de carga, lo que puede resultar en diferencias menores en el modelo de objetos del documento.
 
 ### Ejemplos
 
 Muestra cómo emular el procedimiento de carga de una versión específica de Microsoft Word durante la carga del documento.
 
 ```csharp
-// De forma predeterminada, Aspose.Words carga documentos de acuerdo con la especificación de Microsoft Word 2019.
+// De forma predeterminada, Aspose.Words carga documentos según la especificación de Microsoft Word 2019.
 LoadOptions loadOptions = new LoadOptions();
 
 Assert.AreEqual(MsWordVersion.Word2019, loadOptions.MswVersion);
@@ -33,7 +33,7 @@ Assert.AreEqual(MsWordVersion.Word2019, loadOptions.MswVersion);
 loadOptions.MswVersion = MsWordVersion.Word2007;
 Document doc = new Document(MyDir + "Document.docx", loadOptions);
 
-// El espacio entre líneas del estilo tendrá este valor cuando lo cargue la especificación de Microsoft Word 2007.
+// El interlineado del estilo tendrá este valor cuando se cargue según la especificación de Microsoft Word 2007.
 Assert.AreEqual(12.95d, doc.Styles.DefaultParagraphFormat.LineSpacing, 0.01d);
 ```
 

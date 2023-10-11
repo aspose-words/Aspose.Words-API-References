@@ -3,7 +3,7 @@ title: Style.Type
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Style propriété. Obtient le type de style paragraphe ou caractère.
 type: docs
-weight: 160
+weight: 180
 url: /fr/net/aspose.words/style/type/
 ---
 ## Style.Type property
@@ -16,14 +16,14 @@ public StyleType Type { get; }
 
 ### Exemples
 
-Montre comment accéder à la collection de styles d'un document.
+Montre comment accéder à la collection de styles d’un document.
 
 ```csharp
 Document doc = new Document();
 
 Assert.AreEqual(4, doc.Styles.Count);
 
-// Énumère et liste tous les styles qu'un document créé avec Aspose.Words contient par défaut.
+// Énumère et répertorie tous les styles qu'un document créé à l'aide d'Aspose.Words contient par défaut.
 using (IEnumerator<Style> stylesEnum = doc.Styles.GetEnumerator())
 {
     while (stylesEnum.MoveNext())

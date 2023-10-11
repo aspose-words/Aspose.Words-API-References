@@ -3,12 +3,14 @@ title: Class Border
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Border klass. Representerar en kant av ett objekt.
 type: docs
-weight: 70
+weight: 80
 url: /sv/net/aspose.words/border/
 ---
 ## Border class
 
 Representerar en kant av ett objekt.
+
+För att lära dig mer, besök[Programmering med dokument](https://docs.aspose.com/words/net/programming-with-documents/) dokumentationsartikel.
 
 ```csharp
 public class Border : InternableComplexAttr
@@ -20,10 +22,12 @@ public class Border : InternableComplexAttr
 | --- | --- |
 | [Color](../../aspose.words/border/color/) { get; set; } | Hämtar eller ställer in kantfärgen. |
 | [DistanceFromText](../../aspose.words/border/distancefromtext/) { get; set; } | Hämtar eller ställer in avståndet mellan kanten från text eller från sidkanten i punkter. |
-| [IsVisible](../../aspose.words/border/isvisible/) { get; } | Returnerar sant om LineStyle inte är LineStyle.None. |
+| [IsVisible](../../aspose.words/border/isvisible/) { get; } | Returnerar`Sann` om[`LineStyle`](./linestyle/) är inteNone . |
 | [LineStyle](../../aspose.words/border/linestyle/) { get; set; } | Hämtar eller ställer in kantstilen. |
 | [LineWidth](../../aspose.words/border/linewidth/) { get; set; } | Hämtar eller ställer in kantbredden i punkter. |
 | [Shadow](../../aspose.words/border/shadow/) { get; set; } | Hämtar eller ställer in ett värde som anger om gränsen har en skugga. |
+| [ThemeColor](../../aspose.words/border/themecolor/) { get; set; } | Hämtar eller ställer in temafärgen i det tillämpade färgschemat som är associerat med detta Border-objekt. |
+| [TintAndShade](../../aspose.words/border/tintandshade/) { get; set; } | Hämtar eller ställer in ett dubbelt värde som gör en färg ljusare eller mörkare. |
 
 ## Metoder
 
@@ -61,12 +65,14 @@ Visar hur man infogar ett stycke med en övre kant.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-Border topBorder = builder.ParagraphFormat.Borders[BorderType.Top];
-topBorder.Color = Color.Red;
+Border topBorder = builder.ParagraphFormat.Borders.Top;
 topBorder.LineWidth = 4.0d;
 topBorder.LineStyle = LineStyle.DashSmallGap;
+// Ställ in ThemeColor endast när LineWidth eller LineStyle är inställda.
+topBorder.ThemeColor = ThemeColor.Accent1;
+topBorder.TintAndShade = 0.25d;
 
-builder.Writeln("Text with a red top border.");
+builder.Writeln("Text with a top border.");
 
 doc.Save(ArtifactsDir + "Border.ParagraphTopBorder.docx");
 ```

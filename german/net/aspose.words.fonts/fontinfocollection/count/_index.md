@@ -21,8 +21,8 @@ Zeigt Informationen zu den Schriftarten an, die im leeren Dokument vorhanden sin
 ```csharp
 Document doc = new Document();
 
-// Ein leeres Dokument enthält 3 Standardschriften. Jede Schriftart im Dokument
-// wird ein entsprechendes FontInfo-Objekt haben, das Details zu dieser Schriftart enthält.
+// Ein leeres Dokument enthält 3 Standardschriftarten. Jede Schriftart im Dokument
+// verfügt über ein entsprechendes FontInfo-Objekt, das Details zu dieser Schriftart enthält.
 Assert.AreEqual(3, doc.FontInfos.Count);
 
 Assert.True(doc.FontInfos.Contains("Times New Roman"));

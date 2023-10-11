@@ -3,7 +3,7 @@ title: Enum SectionLayoutMode
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.SectionLayoutMode uppräkning. Anger layoutläget för en sektion som gör det möjligt att definiera dokumentrutnätets beteende.
 type: docs
-weight: 5460
+weight: 5750
 url: /sv/net/aspose.words/sectionlayoutmode/
 ---
 ## SectionLayoutMode enumeration
@@ -19,9 +19,9 @@ public enum SectionLayoutMode
 | namn | Värde | Beskrivning |
 | --- | --- | --- |
 | Default | `0` | Anger att inget dokumentrutnät ska tillämpas på innehållet i motsvarande avsnitt i dokumentet. |
-| Grid | `1` | Anger att motsvarande sektion ska ha både den extra radstigningen och teckenbredden till varje rad och tecken i den för att bibehålla ett specifikt antal rader per sida och tecken per rad. Tecken kommer inte automatiskt att justeras med rutnät på skriver. |
+| Grid | `1` | Anger att motsvarande sektion ska ha både den extra radstigningen och teckenpitch lagt till varje rad och tecken inom sig för att bibehålla ett specifikt antal rader per sida och tecken per rad. Tecken kommer inte att justeras automatiskt med rutnät på skriva. |
 | LineGrid | `2` | Anger att motsvarande sektion ska ha ytterligare radbredd lagt till varje rad inom it för att behålla det angivna antalet rader per sida. |
-| SnapToChars | `3` | Anger att motsvarande sektion ska ha både den extra radstigningen och teckenbredden till varje rad och tecken i den för att bibehålla ett specifikt antal rader per sida och tecken per rad. Tecken kommer automatiskt att justeras med rutnät när du skriver. |
+| SnapToChars | `3` | Anger att motsvarande sektion ska ha både den extra radstigningen och tecknet pitch till varje rad och tecken i den för att bibehålla ett specifikt antal rader per sida och tecken per rad. Tecken kommer automatiskt att justeras med rutnät när du skriver. |
 
 ### Exempel
 

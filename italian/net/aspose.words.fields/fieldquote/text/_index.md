@@ -16,21 +16,21 @@ public string Text { get; set; }
 
 ### Esempi
 
-Mostra di utilizzare il campo PREVENTIVO.
+Mostra di utilizzare il campo QUOTE.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Inserisce un campo QUOTE, che visualizzerà il valore della sua proprietà Text.
+// Inserisci un campo QUOTE, che visualizzerà il valore della sua proprietà Text.
 FieldQuote field = (FieldQuote)builder.InsertField(FieldType.FieldQuote, true);
 field.Text = "\"Quoted text\"";
 
 Assert.AreEqual(" QUOTE  \"\\\"Quoted text\\\"\"", field.GetFieldCode());
 
-// Inserisci un campo QUOTE e nidifica un campo DATE al suo interno.
+// Inserisci un campo QUOTE e nidifica un campo DATA al suo interno.
 // I campi DATA aggiornano il loro valore alla data corrente ogni volta che apriamo il documento utilizzando Microsoft Word.
-// Annidare il campo DATE all'interno del campo QUOTE in questo modo ne bloccherà il valore
+// Nidificare il campo DATA all'interno del campo QUOTE in questo modo ne congelerà il valore
 // alla data in cui abbiamo creato il documento.
 builder.Write("\nDocument creation date: ");
 field = (FieldQuote)builder.InsertField(FieldType.FieldQuote, true);

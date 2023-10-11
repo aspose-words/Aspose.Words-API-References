@@ -1,14 +1,14 @@
 ---
 title: LayoutOptions.Callback
 second_title: Aspose.Words for .NET API Referansı
-description: LayoutOptions mülk. Alır veya ayarlarIPageLayoutCallbacksayfa düzeni modeli tarafından kullanılan uygulama.
+description: LayoutOptions mülk. Alır veya ayarlarIPageLayoutCallback sayfa düzeni modeli tarafından kullanılan uygulama.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.layout/layoutoptions/callback/
 ---
 ## LayoutOptions.Callback property
 
-Alır veya ayarlar[`IPageLayoutCallback`](../../ipagelayoutcallback/)sayfa düzeni modeli tarafından kullanılan uygulama.
+Alır veya ayarlar[`IPageLayoutCallback`](../../ipagelayoutcallback/) sayfa düzeni modeli tarafından kullanılan uygulama.
 
 ```csharp
 public IPageLayoutCallback Callback { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: BarcodeParameters.IsUSPostalAddress
 second_title: Справочник по API Aspose.Words для .NET
-description: BarcodeParameters свойство. Будь тоPostalAddress почтовый адрес в США.
+description: BarcodeParameters свойство. ЛиPostalAddress  почтовый адрес США.
 type: docs
 weight: 130
 url: /ru/net/aspose.words.fields/barcodeparameters/isuspostaladdress/
 ---
 ## BarcodeParameters.IsUSPostalAddress property
 
-Будь то[`PostalAddress`](../postaladdress/) почтовый адрес в США.
+Ли[`PostalAddress`](../postaladdress/) — почтовый адрес США.
 
 ```csharp
 public bool IsUSPostalAddress { get; set; }
@@ -21,9 +21,8 @@ public bool IsUSPostalAddress { get; set; }
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
-
 // Мы можем использовать собственную реализацию IBarcodeGenerator для генерации штрих-кодов,
-// и затем вставляем их в документ как изображения.
+// а затем вставляем их в документ как изображения.
 doc.FieldOptions.BarcodeGenerator = new CustomBarcodeGenerator();
 
 // Ниже приведены четыре примера различных типов штрих-кодов, которые мы можем создать с помощью нашего генератора.

@@ -10,7 +10,7 @@ url: /sv/net/aspose.words.saving/txtsaveoptions/simplifylistlabels/
 
 Anger om programmet ska förenkla listetiketter om komplex etikettformatering inte representeras tillräckligt av vanlig text.
 
-Om inställt på **Sann** , numrerade listetiketter skrivs i enkelt numeriskt format och specificerade listetiketter som enkla ASCII-tecken. Standardvärdet är **falsk**.
+Om inställt på`Sann` , numrerade listetiketter skrivs i enkelt numeriskt format och specificerade listetiketter som enkla ASCII-tecken. Standardvärdet är`falsk`.
 
 ```csharp
 public bool SimplifyListLabels { get; set; }

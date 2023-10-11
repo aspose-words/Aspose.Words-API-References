@@ -1,14 +1,14 @@
 ---
 title: FieldRef.InsertHyperlink
 second_title: Aspose.Words لمراجع .NET API
-description: FieldRef ملكية. الحصول على أو تحديد ما إذا كان سيتم إنشاء ارتباط تشعبي للفقرة التي تم وضع إشارة مرجعية عليها.
+description: FieldRef ملكية. الحصول على أو تحديد ما إذا كان سيتم إنشاء ارتباط تشعبي للفقرة ذات الإشارة المرجعية.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.fields/fieldref/inserthyperlink/
 ---
 ## FieldRef.InsertHyperlink property
 
-الحصول على أو تحديد ما إذا كان سيتم إنشاء ارتباط تشعبي للفقرة التي تم وضع إشارة مرجعية عليها.
+الحصول على أو تحديد ما إذا كان سيتم إنشاء ارتباط تشعبي للفقرة ذات الإشارة المرجعية.
 
 ```csharp
 public bool InsertHyperlink { get; set; }
@@ -31,41 +31,41 @@ public void FieldRef()
     builder.EndBookmark("MyBookmark");
     builder.MoveToDocumentStart();
 
-    // سنقوم بتطبيق تنسيق قائمة مخصص ، حيث يشير مقدار أقواس الزاوية إلى مستوى القائمة الذي نحن عليه حاليًا.
+    // سوف نقوم بتطبيق تنسيق قائمة مخصص، حيث يشير مقدار الأقواس الزاوية إلى مستوى القائمة الذي نحن فيه حاليًا.
     builder.ListFormat.ApplyNumberDefault();
     builder.ListFormat.ListLevel.NumberFormat = "> \x0000";
 
-    // أدخل حقل REF يحتوي على النص داخل الإشارة المرجعية الخاصة بنا ، ويعمل كارتباط تشعبي ، ويستنسخ الحواشي السفلية للإشارة المرجعية.
+    // أدخل حقل REF الذي سيحتوي على النص الموجود داخل الإشارة المرجعية الخاصة بنا، وسيكون بمثابة رابط تشعبي، واستنساخ الحواشي السفلية للإشارة المرجعية.
     FieldRef field = InsertFieldRef(builder, "MyBookmark", "", "\n");
     field.IncludeNoteOrComment = true;
     field.InsertHyperlink = true;
 
     Assert.AreEqual(" REF  MyBookmark \\f \\h", field.GetFieldCode());
 
-    // أدخل حقل REF ، واعرض ما إذا كانت الإشارة المرجعية المرجعية أعلى أو تحته.
+    // أدخل حقل REF، واعرض ما إذا كانت الإشارة المرجعية أعلى أو أسفل منه.
     field = InsertFieldRef(builder, "MyBookmark", "The referenced paragraph is ", " this field.\n");
     field.InsertRelativePosition = true;
 
     Assert.AreEqual(" REF  MyBookmark \\p", field.GetFieldCode());
 
-    // عرض رقم قائمة الإشارة المرجعية كما تظهر في المستند.
+    // اعرض رقم قائمة الإشارة المرجعية كما يظهر في المستند.
     field = InsertFieldRef(builder, "MyBookmark", "The bookmark's paragraph number is ", "\n");
     field.InsertParagraphNumber = true;
 
     Assert.AreEqual(" REF  MyBookmark \\n", field.GetFieldCode());
 
-    // عرض رقم قائمة الإشارة ، ولكن مع حذف أحرف غير محددة ، مثل أقواس الزاوية.
+    // عرض رقم قائمة الإشارة المرجعية، ولكن مع حذف الأحرف غير المحددة، مثل الأقواس الزاوية.
     field = InsertFieldRef(builder, "MyBookmark", "The bookmark's paragraph number, non-delimiters suppressed, is ", "\n");
     field.InsertParagraphNumber = true;
     field.SuppressNonDelimiters = true;
 
     Assert.AreEqual(" REF  MyBookmark \\n \\t", field.GetFieldCode());
 
-    // تحرك لأسفل مستوى قائمة واحد.
+    // تحرك لأسفل مستوى القائمة بمقدار مستوى واحد.
     builder.ListFormat.ListLevelNumber++;
     builder.ListFormat.ListLevel.NumberFormat = ">> \x0001";
 
-    // عرض رقم قائمة الإشارة المرجعية وأرقام جميع مستويات القائمة أعلاه.
+    // عرض رقم قائمة الإشارة المرجعية وأرقام جميع مستويات القائمة فوقها.
     field = InsertFieldRef(builder, "MyBookmark", "The bookmark's full context paragraph number is ", "\n");
     field.InsertParagraphNumberInFullContext = true;
 
@@ -73,22 +73,23 @@ public void FieldRef()
 
     builder.InsertBreak(BreakType.PageBreak);
 
-    // عرض أرقام مستوى القائمة بين حقل REF هذا ، والإشارة المرجعية التي تشير إليها.
+    // عرض أرقام مستوى القائمة بين حقل REF هذا والإشارة المرجعية التي يشير إليها.
     field = InsertFieldRef(builder, "MyBookmark", "The bookmark's relative paragraph number is ", "\n");
     field.InsertParagraphNumberInRelativeContext = true;
 
     Assert.AreEqual(" REF  MyBookmark \\r", field.GetFieldCode());
 
-    // في نهاية المستند ، ستظهر الإشارة المرجعية كعنصر قائمة هنا.
+    // في نهاية المستند، ستظهر الإشارة المرجعية كعنصر قائمة هنا.
     builder.Writeln("List level above bookmark");
     builder.ListFormat.ListLevelNumber++;
     builder.ListFormat.ListLevel.NumberFormat = ">>> \x0002";
 
     doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.REF.docx");
+}
 
 /// <summary>
-/// احصل على مُنشئ المستندات لإدراج حقل REF ، والإشارة إلى إشارة مرجعية معه ، وإضافة نص قبله وبعده.
+/// اطلب من منشئ المستندات إدراج حقل REF، والإشارة إلى إشارة مرجعية به، وإضافة نص قبله وبعده.
 /// </summary>
 private static FieldRef InsertFieldRef(DocumentBuilder builder, string bookmarkName, string textBefore, string textAfter)
 {

@@ -1,14 +1,14 @@
 ---
 title: HyphenationOptions.HyphenateCaps
 second_title: Aspose.Words for .NET API Referansı
-description: HyphenationOptions mülk. Tamamı büyük harflerle yazılan sözcüklerin tireli olup olmadığını belirleyen değeri alır veya ayarlar. Bu özellik için varsayılan değer doğru .
+description: HyphenationOptions mülk. Tamamı büyük harflerle yazılan kelimelerin tireli olup olmayacağını belirleyen değeri alır veya ayarlar. Bu özelliğin varsayılan değeridoğru .
 type: docs
 weight: 40
 url: /tr/net/aspose.words.settings/hyphenationoptions/hyphenatecaps/
 ---
 ## HyphenationOptions.HyphenateCaps property
 
-Tamamı büyük harflerle yazılan sözcüklerin tireli olup olmadığını belirleyen değeri alır veya ayarlar. Bu özellik için varsayılan değer **doğru** .
+Tamamı büyük harflerle yazılan kelimelerin tireli olup olmayacağını belirleyen değeri alır veya ayarlar. Bu özelliğin varsayılan değeri:`doğru` .
 
 ```csharp
 public bool HyphenateCaps { get; set; }

@@ -1,14 +1,16 @@
 ---
 title: Class StyleCollection
 second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.StyleCollection klass. En samling stilobjekt som representerar både de inbyggda och användardefinierade stilarna i ett dokument.
+description: Aspose.Words.StyleCollection klass. En samling avStyle objekt som representerar både den inbyggda och användardefinierade stilen i ett dokument.
 type: docs
-weight: 5840
+weight: 6140
 url: /sv/net/aspose.words/stylecollection/
 ---
 ## StyleCollection class
 
-En samling stilobjekt som representerar både de inbyggda och användardefinierade stilarna i ett dokument.
+En samling av[`Style`](../style/) objekt som representerar både den inbyggda och användardefinierade stilen i ett dokument.
+
+För att lära dig mer, besök[Arbeta med stilar och teman](https://docs.aspose.com/words/net/working-with-styles-and-themes/) dokumentationsartikel.
 
 ```csharp
 public class StyleCollection : IEnumerable<Style>

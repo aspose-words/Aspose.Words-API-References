@@ -1,14 +1,14 @@
 ---
 title: ChartMarker.Format
 second_title: Aspose.Words لمراجع .NET API
-description: ChartMarker ملكية. يوفر الوصول لتعبئة وتنسيق خط هذه العلامة.
+description: ChartMarker ملكية. يوفر الوصول إلى التعبئة وتنسيق الخط لهذه العلامة.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.drawing.charts/chartmarker/format/
 ---
 ## ChartMarker.Format property
 
-يوفر الوصول لتعبئة وتنسيق خط هذه العلامة.
+يوفر الوصول إلى التعبئة وتنسيق الخط لهذه العلامة.
 
 ```csharp
 public ChartFormat Format { get; }
@@ -16,7 +16,7 @@ public ChartFormat Format { get; }
 
 ### أمثلة
 
-أظهر كيفية تعيين تنسيق العلامة.
+أظهر كيفية ضبط تنسيق العلامة.
 
 ```csharp
 Document doc = new Document();
@@ -30,7 +30,7 @@ chart.Series.Clear();
 ChartSeries series = chart.Series.Add("AW Series 1", new[] { 0.7, 1.8, 2.6, 3.9 },
     new[] { 2.7, 3.2, 0.8, 1.7 });
 
-// تعيين تنسيق العلامة.
+// ضبط تنسيق العلامة.
 series.Marker.Size = 40;
 series.Marker.Symbol = MarkerSymbol.Square;
 ChartDataPointCollection dataPoints = series.DataPoints;

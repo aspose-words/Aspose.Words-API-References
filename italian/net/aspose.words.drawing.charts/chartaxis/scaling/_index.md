@@ -1,14 +1,14 @@
 ---
 title: ChartAxis.Scaling
 second_title: Aspose.Words per .NET API Reference
-description: ChartAxis proprietà. Fornisce laccesso alle opzioni di ridimensionamento dellasse.
+description: ChartAxis proprietà. Fornisce laccesso alle opzioni di scala dellasse.
 type: docs
-weight: 190
+weight: 210
 url: /it/net/aspose.words.drawing.charts/chartaxis/scaling/
 ---
 ## ChartAxis.Scaling property
 
-Fornisce l'accesso alle opzioni di ridimensionamento dell'asse.
+Fornisce l'accesso alle opzioni di scala dell'asse.
 
 ```csharp
 public AxisScaling Scaling { get; }
@@ -25,7 +25,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertChart(ChartType.Line, 500, 300);
 Chart chart = shape.Chart;
 
-// Cancella la serie di dati demo del grafico per iniziare con un grafico pulito.
+// Cancella le serie di dati dimostrativi del grafico per iniziare con un grafico pulito.
 chart.Series.Clear();
 
 // Aggiunge una serie personalizzata contenente valori di data/ora per l'asse X e rispettivi valori decimali per l'asse Y.
@@ -48,6 +48,8 @@ xAxis.MajorUnit = 7.0d;
 xAxis.MajorTickMark = AxisTickMark.Cross;
 xAxis.MinorUnit = 1.0d;
 xAxis.MinorTickMark = AxisTickMark.Outside;
+xAxis.HasMajorGridlines = true;
+xAxis.HasMinorGridlines = true;
 
 // Definisce le proprietà dell'asse Y per i valori decimali.
 ChartAxis yAxis = chart.AxisY;
@@ -57,6 +59,8 @@ yAxis.MinorUnit = 50.0d;
 yAxis.DisplayUnit.Unit = AxisBuiltInUnit.Hundreds;
 yAxis.Scaling.Minimum = new AxisBound(100);
 yAxis.Scaling.Maximum = new AxisBound(700);
+yAxis.HasMajorGridlines = true;
+yAxis.HasMinorGridlines = true;
 
 doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 ```

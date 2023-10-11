@@ -1,20 +1,20 @@
 ---
 title: KnownTypeSet.Add
 second_title: Aspose.Words für .NET-API-Referenz
-description: KnownTypeSet methode. Fügt die angegebene hinzuType Einspruch gegen den Satz. WirftArgumentException in die folgenden Fälle
+description: KnownTypeSet methode. Fügt das angegebene hinzuType Objekt zur Menge. WürfeArgumentException in die folgenden Fälle
 type: docs
 weight: 20
 url: /de/net/aspose.words.reporting/knowntypeset/add/
 ---
 ## KnownTypeSet.Add method
 
-Fügt die angegebene hinzuType Einspruch gegen den Satz. WirftArgumentException in die folgenden Fälle:
+Fügt das angegebene hinzuType Objekt zur Menge. WürfeArgumentException in die folgenden Fälle:
 
--*type* ist Null.
+-*type* Ist`Null`.
 
--*type* stellt einen leeren Typ dar.
+-*type* stellt einen Void-Typ dar.
 
--*type* stellt einen unsichtbaren Typ dar, dh einen nicht-öffentlichen Typ oder einen öffentlichen verschachtelten Typ , der einen nicht-öffentlichen äußeren Typ hat.
+-*type* stellt einen unsichtbaren Typ dar, dh einen nicht öffentlichen Typ oder einen öffentlichen verschachtelten Typ , der einen nicht öffentlichen äußeren Typ hat.
 
 -*type* stellt einen generischen Typ dar.
 
@@ -28,7 +28,7 @@ public void Add(Type type)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| type | Type | EINType Objekt hinzuzufügen. |
+| type | Type | AType Objekt, das hinzugefügt werden soll. |
 
 ### Siehe auch
 

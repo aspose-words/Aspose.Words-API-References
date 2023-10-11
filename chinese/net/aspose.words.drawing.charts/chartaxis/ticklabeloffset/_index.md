@@ -1,14 +1,14 @@
 ---
 title: ChartAxis.TickLabelOffset
 second_title: Aspose.Words for .NET API 参考
-description: ChartAxis 财产. 获取或设置标签到轴的距离
+description: ChartAxis 财产. 获取或设置标签距轴的距离
 type: docs
-weight: 210
+weight: 230
 url: /zh/net/aspose.words.drawing.charts/chartaxis/ticklabeloffset/
 ---
 ## ChartAxis.TickLabelOffset property
 
-获取或设置标签到轴的距离。
+获取或设置标签距轴的距离。
 
 ```csharp
 public int TickLabelOffset { get; set; }
@@ -16,15 +16,15 @@ public int TickLabelOffset { get; set; }
 
 ### 评论
 
-该属性表示默认标签偏移的百分比。
+该属性表示默认标签偏移量的百分比。
 
-有效范围为 0 到 1000%（含）。默认值为 100%。
+有效范围为 0% 到 1000%（含）。默认值为 100%。
 
 该属性仅对类别轴有效。 MS Office 2016 新图表不支持它。
 
 ### 例子
 
-显示如何插入图表并修改其轴的外观。
+演示如何插入图表并修改其轴的外观。
 
 ```csharp
 Document doc = new Document();
@@ -36,7 +36,7 @@ Chart chart = shape.Chart;
 // 清除图表的演示数据系列以从干净的图表开始。
 chart.Series.Clear();
 
-// 插入一个图表系列，其中 X 轴为类别，Y 轴为相应的数值。
+// 插入一个图表系列，其中 X 轴为类别，Y 轴为相应数值。
 chart.Series.Add("Aspose Test Series",
     new[] { "Word", "PDF", "Excel", "GoogleDocs", "Note" },
     new double[] { 640, 320, 280, 120, 150 });

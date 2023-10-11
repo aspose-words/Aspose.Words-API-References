@@ -22,7 +22,7 @@ public FramesetCollection ChildFramesets { get; }
 // Документ содержит несколько фреймов со ссылками на другие документы.
 Document doc = new Document(MyDir + "Frameset.docx");
 
-// Мы можем проверить URL-адрес по умолчанию (URL-адрес веб-страницы или локальный документ) или является ли фрейм внешним ресурсом.
+// Мы можем проверить URL-адрес по умолчанию (URL-адрес веб-страницы или локального документа) или является ли фрейм внешним ресурсом.
 Assert.AreEqual("https://file-examples-com.github.io/uploads/2017/02/file-sample_100kB.docx",
     doc.Frameset.ChildFramesets[0].ChildFramesets[0].FrameDefaultUrl);
 Assert.True(doc.Frameset.ChildFramesets[0].ChildFramesets[0].IsFrameLinkToFile);

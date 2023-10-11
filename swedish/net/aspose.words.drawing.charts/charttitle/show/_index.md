@@ -1,14 +1,14 @@
 ---
 title: ChartTitle.Show
 second_title: Aspose.Words för .NET API Referens
-description: ChartTitle fast egendom. Bestämmer om titeln ska visas för detta diagram. Standardvärdet är sant.
+description: ChartTitle fast egendom. Bestämmer om titeln ska visas för detta diagram. Standardvärdet ärSann .
 type: docs
-weight: 20
+weight: 30
 url: /sv/net/aspose.words.drawing.charts/charttitle/show/
 ---
 ## ChartTitle.Show property
 
-Bestämmer om titeln ska visas för detta diagram. Standardvärdet är sant.
+Bestämmer om titeln ska visas för detta diagram. Standardvärdet är`Sann` .
 
 ```csharp
 public bool Show { get; set; }
@@ -30,7 +30,7 @@ Chart chart = chartShape.Chart;
 ChartTitle title = chart.Title;
 title.Text = "My Chart";
 
-  // Ställ in egenskapen "Show" till "true" för att göra titeln synlig.
+ // Ställ in egenskapen "Show" till "true" för att göra titeln synlig.
 title.Show = true;
 
 // Ställ in egenskapen "Overlay" på "true" Ge andra diagramelement mer utrymme genom att tillåta dem att överlappa titeln

@@ -3,7 +3,7 @@ title: DocumentBuilder.EndTable
 second_title: Aspose.Words per .NET API Reference
 description: DocumentBuilder metodo. Termina una tabella nel documento.
 type: docs
-weight: 230
+weight: 250
 url: /it/net/aspose.words/documentbuilder/endtable/
 ---
 ## DocumentBuilder.EndTable method
@@ -20,7 +20,7 @@ Il nodo della tabella appena terminato.
 
 ### Osservazioni
 
-Questo metodo dovrebbe essere chiamato solo una volta dopo[`EndRow`](../endrow/) è stato chiamato. Quando viene chiamato,  **EndTable** sposta il cursore fuori dalla cella corrente per puntare subito dopo la tabella.
+Questo metodo dovrebbe essere chiamato solo una volta dopo[`EndRow`](../endrow/) è stato chiamato. Quando viene chiamato, `EndTable` sposta il cursore fuori dalla cella corrente per puntarlo subito dopo la tabella.
 
 ### Esempi
 
@@ -35,7 +35,7 @@ builder.InsertCell();
 builder.Write("Row 1, cell 1.");
 
 // Inserisci una seconda cella, quindi configura le opzioni di riempimento del testo della cella.
-// Il builder applicherà queste impostazioni alla cella corrente e le nuove celle verranno create in seguito.
+// Il builder applicherà queste impostazioni alla cella corrente e successivamente creerà eventuali nuove celle.
 builder.InsertCell();
 
 CellFormat cellFormat = builder.CellFormat;
@@ -49,7 +49,7 @@ builder.Write("Row 1, cell 2.");
 builder.EndRow();
 builder.EndTable();
 
-// La prima cella non è stata influenzata dalla riconfigurazione del riempimento e mantiene ancora i valori predefiniti.
+// La prima cella non è stata influenzata dalla riconfigurazione del riempimento e conserva ancora i valori predefiniti.
 Assert.AreEqual(0.0d, table.FirstRow.Cells[0].CellFormat.Width);
 Assert.AreEqual(5.4d, table.FirstRow.Cells[0].CellFormat.LeftPadding);
 Assert.AreEqual(5.4d, table.FirstRow.Cells[0].CellFormat.RightPadding);
@@ -62,7 +62,7 @@ Assert.AreEqual(30.0d, table.FirstRow.Cells[1].CellFormat.RightPadding);
 Assert.AreEqual(30.0d, table.FirstRow.Cells[1].CellFormat.TopPadding);
 Assert.AreEqual(30.0d, table.FirstRow.Cells[1].CellFormat.BottomPadding);
 
-// La prima cella crescerà ancora nel documento di output per corrispondere alle dimensioni della cella adiacente.
+// La prima cella continuerà a crescere nel documento di output per corrispondere alla dimensione della cella vicina.
 doc.Save(ArtifactsDir + "DocumentBuilder.SetCellFormatting.docx");
 ```
 
@@ -80,8 +80,8 @@ builder.InsertCell();
 builder.Write("Row 1, cell 2.");
 builder.EndRow();
 
-// Durante la creazione della tabella, il generatore di documenti applicherà i suoi valori di proprietà RowFormat/CellFormat correnti
-// alla riga/cella corrente in cui si trova il cursore e a tutte le nuove righe/celle man mano che le crea.
+// Durante la creazione della tabella, il generatore di documenti applicherà i valori correnti della proprietà RowFormat/CellFormat
+// alla riga/cella corrente in cui si trova il cursore e a qualsiasi nuova riga/cella mentre le crea.
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[0].CellFormat.VerticalAlignment);
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[1].CellFormat.VerticalAlignment);
 
@@ -96,7 +96,7 @@ builder.Write("Row 2, cell 2.");
 builder.EndRow();
 builder.EndTable();
 
-// Le righe e le celle aggiunte in precedenza non sono influenzate retroattivamente dalle modifiche alla formattazione del builder.
+// Le righe e le celle aggiunte in precedenza non vengono influenzate retroattivamente dalle modifiche alla formattazione del builder.
 Assert.AreEqual(0, table.Rows[0].RowFormat.Height);
 Assert.AreEqual(HeightRule.Auto, table.Rows[0].RowFormat.HeightRule);
 Assert.AreEqual(100, table.Rows[1].RowFormat.Height);
@@ -140,8 +140,8 @@ builder.Write("Row 1, Col 2");
 builder.EndRow();
 
 // La modifica della formattazione la applicherà alla cella corrente,
-// e tutte le nuove celle che creiamo con il builder in seguito.
-// Ciò non influirà sulle celle che abbiamo aggiunto in precedenza.
+// e tutte le nuove celle che creeremo successivamente con il builder.
+// Ciò non influenzerà le celle che abbiamo aggiunto in precedenza.
 builder.CellFormat.Shading.ClearFormatting();
 
 builder.InsertCell();

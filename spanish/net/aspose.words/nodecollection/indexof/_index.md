@@ -24,7 +24,7 @@ El índice de base cero del nodo dentro de la colección, si se encuentra; de lo
 
 ### Observaciones
 
-Este método realiza una búsqueda lineal; por lo tanto, el tiempo medio de ejecución es proporcional a Count.
+Este método realiza una búsqueda lineal; por lo tanto, el tiempo promedio de ejecución es proporcional a[`Count`](../count/).
 
 ### Ejemplos
 

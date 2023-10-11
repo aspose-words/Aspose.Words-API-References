@@ -1,14 +1,14 @@
 ---
 title: HeaderFooter.NodeType
 second_title: Справочник по API Aspose.Words для .NET
-description: HeaderFooter свойство. Возвращает NodeType.HeaderFooter .
+description: HeaderFooter свойство. ВозвращаетHeaderFooter .
 type: docs
 weight: 50
 url: /ru/net/aspose.words/headerfooter/nodetype/
 ---
 ## HeaderFooter.NodeType property
 
-Возвращает **NodeType.HeaderFooter** .
+ВозвращаетHeaderFooter .
 
 ```csharp
 public override NodeType NodeType { get; }
@@ -31,7 +31,7 @@ builder.Write("Primary footer");
 Section section = doc.FirstSection;
 
 // Раздел является составным узлом и может содержать дочерние узлы,
-// но только если эти дочерние узлы имеют тип узла "Body" или "HeaderFooter".
+// но только если эти дочерние узлы имеют тип узла «Body» или «HeaderFooter».
 foreach (Node node in section)
 {
     switch (node.NodeType)

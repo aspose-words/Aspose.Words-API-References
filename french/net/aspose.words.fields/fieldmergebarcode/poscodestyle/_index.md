@@ -1,14 +1,14 @@
 ---
 title: FieldMergeBarcode.PosCodeStyle
 second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldMergeBarcode propriété. Obtient ou définit le style dun codebarres de point de vente types de codebarres UPCAUPCEEAN13EAN8. Les valeurs valides insensibles à la casse sont STDSUP2SUP5CASE.
+description: FieldMergeBarcode propriété. Obtient ou définit le style dun codebarres de point de vente types de codesbarres UPCAUPCEEAN13EAN8. Les valeurs valides insensibles à la casse sont STDSUP2SUP5CASE.
 type: docs
 weight: 110
 url: /fr/net/aspose.words.fields/fieldmergebarcode/poscodestyle/
 ---
 ## FieldMergeBarcode.PosCodeStyle property
 
-Obtient ou définit le style d'un code-barres de point de vente (types de code-barres UPCA&#x7C;UPCE&#x7C;EAN13&#x7C;EAN8). Les valeurs valides (insensibles à la casse) sont [STD&#x7C;SUP2&#x7C;SUP5&#x7C;CASE].
+Obtient ou définit le style d'un code-barres de point de vente (types de codes-barres UPCA&#x7C;UPCE&#x7C;EAN13&#x7C;EAN8). Les valeurs valides (insensibles à la casse) sont [STD&#x7C;SUP2&#x7C;SUP5&#x7C;CASE].
 
 ```csharp
 public string PosCodeStyle { get; set; }
@@ -16,7 +16,7 @@ public string PosCodeStyle { get; set; }
 
 ### Exemples
 
-Montre comment effectuer un publipostage sur les codes-barres EAN13.
+Montre comment effectuer un publipostage sur des codes-barres EAN13.
 
 ```csharp
 Document doc = new Document();
@@ -37,7 +37,7 @@ Assert.AreEqual(FieldType.FieldMergeBarcode, field.Type);
 Assert.AreEqual(" MERGEBARCODE  MyEAN13Barcode EAN13 \\t \\p CASE \\x", field.GetFieldCode());
 builder.Writeln();
 
-// Crée un DataTable avec une colonne portant le même nom que la BarcodeValue de notre champ MERGEBARCODE.
+// Créez un DataTable avec une colonne portant le même nom que la BarcodeValue de notre champ MERGEBARCODE.
 // Le publipostage créera une nouvelle page pour chaque ligne. Chaque page contiendra un champ DISPLAYBARCODE,
 // qui affichera un code-barres EAN13 avec la valeur de la ligne fusionnée.
 DataTable table = new DataTable("Barcodes");

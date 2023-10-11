@@ -3,12 +3,14 @@ title: Class Comment
 second_title: Aspose.Words for .NET API Referansı
 description: Aspose.Words.Comment sınıf. Yorum metni için bir kapsayıcıyı temsil eder.
 type: docs
-weight: 220
+weight: 230
 url: /tr/net/aspose.words/comment/
 ---
 ## Comment class
 
 Yorum metni için bir kapsayıcıyı temsil eder.
+
+Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Yorumlarla Çalışmak](https://docs.aspose.com/words/net/working-with-comments/) dokümantasyon makalesi.
 
 ```csharp
 public sealed class Comment : InlineStory
@@ -18,90 +20,92 @@ public sealed class Comment : InlineStory
 
 | İsim | Tanım |
 | --- | --- |
-| [Comment](comment/#constructor)(DocumentBase) | Yeni bir örneğini başlatır **Yorum** sınıf. |
-| [Comment](comment/#constructor_1)(DocumentBase, string, string, DateTime) | Yeni bir örneğini başlatır **Yorum** sınıf. |
+| [Comment](comment/#constructor)(DocumentBase) | Yeni bir örneğini başlatır`Comment` class. |
+| [Comment](comment/#constructor_1)(DocumentBase, string, string, DateTime) | Yeni bir örneğini başlatır`Comment` class. |
 
 ## Özellikleri
 
 | İsim | Tanım |
 | --- | --- |
-| [Ancestor](../../aspose.words/comment/ancestor/) { get; } | Üst Yorum nesnesini döndürür. Üst düzey yorumlar için null döndürür. |
-| [Author](../../aspose.words/comment/author/) { get; set; } | Bir yorum için yazar adını döndürür veya ayarlar. |
-| [ChildNodes](../../aspose.words/compositenode/childnodes/) { get; } | Bu düğümün tüm acil alt düğümlerini alır. |
-| [Count](../../aspose.words/compositenode/count/) { get; } | Bu düğümün acil alt öğelerinin sayısını alır. |
+| [Ancestor](../../aspose.words/comment/ancestor/) { get; } | Üst öğeyi döndürür`Comment` nesne. İadeler`hükümsüz` üst düzey yorumlar için. |
+| [Author](../../aspose.words/comment/author/) { get; set; } | Bir yorumun yazar adını döndürür veya ayarlar. |
+| [Count](../../aspose.words/compositenode/count/) { get; } | Bu düğümün doğrudan alt öğelerinin sayısını alır. |
 | [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Özel düğüm tanımlayıcısını belirtir. |
 | [DateTime](../../aspose.words/comment/datetime/) { get; set; } | Yorumun yapıldığı tarih ve saati alır. |
 | virtual [Document](../../aspose.words/node/document/) { get; } | Bu düğümün ait olduğu belgeyi alır. |
 | [Done](../../aspose.words/comment/done/) { get; set; } | Yorumun tamamlandı olarak işaretlendiğini belirten bayrağı alır veya ayarlar. |
-| [FirstChild](../../aspose.words/compositenode/firstchild/) { get; } | Düğümün ilk alt öğesini alır. |
-| [FirstParagraph](../../aspose.words/inlinestory/firstparagraph/) { get; } | Öyküdeki ilk paragrafı alır. |
-| [Font](../../aspose.words/inlinestory/font/) { get; } | Bu nesnenin bağlantı karakterinin yazı tipi biçimlendirmesine erişim sağlar. |
-| [HasChildNodes](../../aspose.words/compositenode/haschildnodes/) { get; } | Bu düğümün herhangi bir alt düğümü varsa doğru döndürür. |
-| [Id](../../aspose.words/comment/id/) { get; } | Yorum tanımlayıcısını alır. |
+| [FirstChild](../../aspose.words/compositenode/firstchild/) { get; } | Düğümün ilk çocuğunu alır. |
+| [FirstParagraph](../../aspose.words/inlinestory/firstparagraph/) { get; } | Hikayedeki ilk paragrafı alır. |
+| [Font](../../aspose.words/inlinestory/font/) { get; } | Bu nesnenin bağlantı karakterinin yazı tipi formatlamasına erişim sağlar. |
+| [HasChildNodes](../../aspose.words/compositenode/haschildnodes/) { get; } | İadeler`doğru` bu düğümün herhangi bir alt düğümü varsa. |
+| [Id](../../aspose.words/comment/id/) { get; set; } | Yorum tanımlayıcısını alır. |
 | [Initial](../../aspose.words/comment/initial/) { get; set; } | Belirli bir yorumla ilişkili kullanıcının baş harflerini döndürür veya ayarlar. |
-| override [IsComposite](../../aspose.words/compositenode/iscomposite/) { get; } | Bu düğümün alt düğümleri olabileceğinden true değerini döndürür. |
-| [IsDeleteRevision](../../aspose.words/inlinestory/isdeleterevision/) { get; } | Bu nesne, değişiklik izleme etkinleştirilirken Microsoft Word'de silindiyse true değerini döndürür. |
-| [IsInsertRevision](../../aspose.words/inlinestory/isinsertrevision/) { get; } | Bu nesne, değişiklik izleme etkinken Microsoft Word'e eklendiyse true değerini döndürür. |
-| [IsMoveFromRevision](../../aspose.words/inlinestory/ismovefromrevision/) { get; } | İade **doğru** değişiklik izleme etkinken bu nesne Microsoft Word'de taşındıysa (silindiyse). |
-| [IsMoveToRevision](../../aspose.words/inlinestory/ismovetorevision/) { get; } | İade **doğru** bu nesne, değişiklik izleme etkinken Microsoft Word'de taşındıysa (yerleştirildiyse). |
-| [LastChild](../../aspose.words/compositenode/lastchild/) { get; } | Düğümün son alt öğesini alır. |
-| [LastParagraph](../../aspose.words/inlinestory/lastparagraph/) { get; } | Öyküdeki son paragrafı alır. |
-| [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Bu düğümden hemen sonraki düğümü alır. |
-| override [NodeType](../../aspose.words/comment/nodetype/) { get; } | İade **DüğümTürü.Yorum** . |
-| [Paragraphs](../../aspose.words/inlinestory/paragraphs/) { get; } | Öykünün doğrudan alt öğeleri olan bir paragraf koleksiyonu alır. |
-| [ParentNode](../../aspose.words/node/parentnode/) { get; } | Bu düğümün hemen üst öğesini alır. |
+| override [IsComposite](../../aspose.words/compositenode/iscomposite/) { get; } | İadeler`doğru` çünkü bu düğüm alt düğümlere sahip olabilir. |
+| [IsDeleteRevision](../../aspose.words/inlinestory/isdeleterevision/) { get; } | Değişiklik izleme etkinken bu nesne Microsoft Word'de silinmişse true değerini döndürür. |
+| [IsInsertRevision](../../aspose.words/inlinestory/isinsertrevision/) { get; } | Bu nesne Microsoft Word'e değişiklik izleme etkinken eklenmişse doğru değerini döndürür. |
+| [IsMoveFromRevision](../../aspose.words/inlinestory/ismovefromrevision/) { get; } | İadeler`doğru` değişiklik izleme etkinken bu nesne Microsoft Word'de taşındıysa (silindiyse). |
+| [IsMoveToRevision](../../aspose.words/inlinestory/ismovetorevision/) { get; } | İadeler`doğru` bu nesne Microsoft Word'de değişiklik izleme etkinken taşınmışsa (eklenmişse). |
+| [LastChild](../../aspose.words/compositenode/lastchild/) { get; } | Düğümün son çocuğunu alır. |
+| [LastParagraph](../../aspose.words/inlinestory/lastparagraph/) { get; } | Hikayedeki son paragrafı alır. |
+| [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Bu düğümden hemen sonra gelen düğümü alır. |
+| override [NodeType](../../aspose.words/comment/nodetype/) { get; } | İadelerComment . |
+| [Paragraphs](../../aspose.words/inlinestory/paragraphs/) { get; } | Hikayenin doğrudan alt öğeleri olan paragrafların bir koleksiyonunu alır. |
+| [ParentId](../../aspose.words/comment/parentid/) { get; set; } |  |
+| [ParentNode](../../aspose.words/node/parentnode/) { get; } | Bu düğümün doğrudan ebeveynini alır. |
 | [ParentParagraph](../../aspose.words/inlinestory/parentparagraph/) { get; } | Üst öğeyi alır[`Paragraph`](../paragraph/) bu düğümün. |
 | [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Bu düğümden hemen önceki düğümü alır. |
-| [Range](../../aspose.words/node/range/) { get; } | Bir döndürür **Menzil** belgenin bu düğümde bulunan bölümünü temsil eden nesne. |
-| [Replies](../../aspose.words/comment/replies/) { get; } | Bir koleksiyon döndürür`Comment` belirtilen yorumun hemen alt öğeleri olan nesneler. |
-| override [StoryType](../../aspose.words/comment/storytype/) { get; } | İade **StoryType.Yorumlar** . |
-| [Tables](../../aspose.words/inlinestory/tables/) { get; } | Öykünün doğrudan alt öğeleri olan tabloların bir koleksiyonunu alır. |
+| [Range](../../aspose.words/node/range/) { get; } | Bir değeri döndürür[`Range`](../range/) Bu düğümde bulunan bir belgenin bölümünü temsil eden nesne. |
+| [Replies](../../aspose.words/comment/replies/) { get; } | Şunların bir koleksiyonunu döndürür:`Comment` belirtilen yorumun doğrudan alt öğeleri olan nesneler. |
+| override [StoryType](../../aspose.words/comment/storytype/) { get; } | İadelerComments . |
+| [Tables](../../aspose.words/inlinestory/tables/) { get; } | Hikayenin doğrudan alt öğeleri olan tabloların bir koleksiyonunu alır. |
 
 ## yöntemler
 
 | İsim | Tanım |
 | --- | --- |
-| override [Accept](../../aspose.words/comment/accept/)(DocumentVisitor) | Bir ziyaretçiyi kabul eder. |
+| override [Accept](../../aspose.words/comment/accept/)(DocumentVisitor) | Ziyaretçi kabul eder. |
+| override [AcceptEnd](../../aspose.words/comment/acceptend/)(DocumentVisitor) |  |
+| override [AcceptStart](../../aspose.words/comment/acceptstart/)(DocumentVisitor) |  |
 | [AddReply](../../aspose.words/comment/addreply/)(string, string, DateTime, string) | Bu yoruma bir yanıt ekler. |
-| [AppendChild](../../aspose.words/compositenode/appendchild/)(Node) | Belirtilen düğümü, bu düğüm için alt düğümler listesinin sonuna ekler. |
+| [AppendChild&lt;T&gt;](../../aspose.words/compositenode/appendchild/)(T) |  |
 | [Clone](../../aspose.words/node/clone/)(bool) | Düğümün bir kopyasını oluşturur. |
-| [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | Sistem kullanımı için ayrılmıştır. IXPathNavigable. |
+| [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | Düğümlerin arasında geçiş yapmak ve düğümleri okumak için kullanılabilecek gezgini oluşturur. |
 | [EnsureMinimum](../../aspose.words/inlinestory/ensureminimum/)() | Son alt öğe bir paragraf değilse, boş bir paragraf oluşturur ve ekler. |
-| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Belirtilenin ilk atasını alır[`NodeType`](../nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Belirtilen nesne türünün ilk üst öğesini alır. |
-| [GetChild](../../aspose.words/compositenode/getchild/)(NodeType, int, bool) | Belirtilen türle eşleşen N. alt düğümü döndürür. |
-| [GetChildNodes](../../aspose.words/compositenode/getchildnodes/)(NodeType, bool) | Belirtilen türle eşleşen canlı bir alt düğüm koleksiyonu döndürür. |
-| [GetEnumerator](../../aspose.words/compositenode/getenumerator/)() | Bu düğümün alt düğümleri üzerinde her stil yinelemesi için destek sağlar. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Belirtilenin ilk atayı alır[`NodeType`](../nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Belirtilen nesne türünün ilk atayı alır. |
+| [GetChild](../../aspose.words/compositenode/getchild/)(NodeType, int, bool) | Belirtilen türle eşleşen N'inci alt düğümü döndürür. |
+| [GetChildNodes](../../aspose.words/compositenode/getchildnodes/)(NodeType, bool) | Belirtilen türle eşleşen alt düğümlerin canlı bir koleksiyonunu döndürür. |
+| [GetEnumerator](../../aspose.words/compositenode/getenumerator/)() | Bu düğümün alt düğümleri üzerindeki her stil yinelemesi için destek sağlar. |
 | override [GetText](../../aspose.words/compositenode/gettext/)() | Bu düğümün ve tüm alt öğelerinin metnini alır. |
-| [IndexOf](../../aspose.words/compositenode/indexof/)(Node) | Alt düğüm dizisindeki belirtilen alt düğümün dizinini döndürür. |
-| [InsertAfter](../../aspose.words/compositenode/insertafter/)(Node, Node) | Belirtilen referans düğümünden hemen sonra belirtilen düğümü ekler. |
-| [InsertBefore](../../aspose.words/compositenode/insertbefore/)(Node, Node) | Belirtilen düğümü, belirtilen referans düğümünden hemen önce ekler. |
+| [IndexOf](../../aspose.words/compositenode/indexof/)(Node) | Alt düğüm dizisinde belirtilen alt düğümün dizinini döndürür. |
+| [InsertAfter&lt;T&gt;](../../aspose.words/compositenode/insertafter/)(T, Node) |  |
+| [InsertBefore&lt;T&gt;](../../aspose.words/compositenode/insertbefore/)(T, Node) |  |
 | [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Ön sipariş ağaç geçiş algoritmasına göre sonraki düğümü alır. |
-| [PrependChild](../../aspose.words/compositenode/prependchild/)(Node) | Belirtilen düğümü, bu düğüm için alt düğümler listesinin başına ekler. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Ön sipariş ağacı geçiş algoritmasına göre önceki düğümü alır. |
+| [PrependChild&lt;T&gt;](../../aspose.words/compositenode/prependchild/)(T) |  |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Ön sipariş ağaç geçiş algoritmasına göre önceki düğümü alır. |
 | [Remove](../../aspose.words/node/remove/)() | Kendini üst öğeden kaldırır. |
 | [RemoveAllChildren](../../aspose.words/compositenode/removeallchildren/)() | Geçerli düğümün tüm alt düğümlerini kaldırır. |
 | [RemoveAllReplies](../../aspose.words/comment/removeallreplies/)() | Bu yoruma verilen tüm yanıtları kaldırır. |
-| [RemoveChild](../../aspose.words/compositenode/removechild/)(Node) | Belirtilen alt düğümü kaldırır. |
+| [RemoveChild&lt;T&gt;](../../aspose.words/compositenode/removechild/)(T) |  |
 | [RemoveReply](../../aspose.words/comment/removereply/)(Comment) | Bu yoruma verilen belirtilen yanıtı kaldırır. |
-| [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | Tümünü kaldırır[`SmartTag`](../../aspose.words.markup/smarttag/) geçerli düğümün alt düğümleri. |
+| [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | Tümünü kaldırır[`SmartTag`](../../aspose.words.markup/smarttag/)Geçerli düğümün alt düğümleri. |
 | [SelectNodes](../../aspose.words/compositenode/selectnodes/)(string) | XPath ifadesiyle eşleşen düğümlerin listesini seçer. |
-| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(string) | XPath ifadesiyle eşleşen ilk Düğümü seçer. |
-| [SetText](../../aspose.words/comment/settext/)(string) | Bu, yorum metnini kolayca ayarlamaya olanak sağlayan bir kolaylık yöntemidir. |
-| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Düğümün içeriğini belirtilen biçimde bir dizeye aktarır. |
+| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(string) | İlkini seçer[`Node`](../node/) XPath ifadesiyle eşleşen. |
+| [SetText](../../aspose.words/comment/settext/)(string) | Bu, yorum metnini kolayca ayarlamanıza olanak tanıyan kullanışlı bir yöntemdir. |
+| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Düğümün içeriğini belirtilen formatta bir dizeye aktarır. |
 | [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Belirtilen kaydetme seçeneklerini kullanarak düğümün içeriğini bir dizeye aktarır. |
 
 ### Notlar
 
-Yorum, metnin bir bölgesine veya metindeki bir konuma sabitlenmiş bir açıklamadır. Bir yorum, rastgele miktarda blok düzeyinde içerik içerebilir.
+Yorum, metnin bir bölgesine veya metindeki bir konuma sabitlenen bir açıklamadır. Bir yorum, isteğe bağlı miktarda blok düzeyinde içerik içerebilir.
 
-Eğer bir`Comment` nesne kendi kendine oluşur, yorum nesnenin konumuna sabitlenir.`Comment` nesne.
+Eğer bir`Comment` nesne kendi başına oluştuğunda, yorum konumuna bağlanır.`Comment` nesne.
 
-Metnin bir bölgesine bir yorum tutturmak için üç nesne gereklidir:`Comment` , [`CommentRangeStart`](../commentrangestart/) ve[`CommentRangeEnd`](../commentrangeend/) Her üç nesnenin de aynı öğesini paylaşması gerekir[`Id`](./id/) değer.
+Bir yorumu metnin bir bölgesine bağlamak için üç nesne gereklidir:`Comment` , [`CommentRangeStart`](../commentrangestart/) Ve[`CommentRangeEnd`](../commentrangeend/) . Her üç nesnenin de aynı öğesini paylaşması gerekir[`Id`](./id/) değer.
 
-`Comment` satır içi düzey bir düğümdür ve yalnızca alt öğesi olabilir[`Paragraph`](../paragraph/).
+`Comment` satır içi düzeyde bir düğümdür ve yalnızca alt öğesi olabilir[`Paragraph`](../paragraph/).
 
-`Comment` içerebilir[`Paragraph`](../paragraph/) ve[`Table`](../../aspose.words.tables/table/) alt düğümler.
+`Comment` içerebilir[`Paragraph`](../paragraph/) Ve[`Table`](../../aspose.words.tables/table/) çocuk düğümleri.
 
 ### Örnekler
 
@@ -119,11 +123,11 @@ builder.Write("Comment text.");
 
 Assert.AreEqual(DateTime.Today, comment.DateTime);
 
-// Microsoft Word'de, düzenlemek veya yanıtlamak için belge gövdesindeki bu yorumu sağ tıklatabiliriz. 
+ // Microsoft Word'de, belge gövdesindeki bu yoruma sağ tıklayarak onu düzenleyebilir veya yanıtlayabiliriz.
 doc.Save(ArtifactsDir + "InlineStory.AddComment.docx");
 ```
 
-Bir belgeye nasıl yorum ekleneceğini ve ardından nasıl yanıtlanacağını gösterir.
+Bir belgeye nasıl yorum ekleneceğini ve ardından ona nasıl yanıt verileceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -133,17 +137,17 @@ Comment comment = new Comment(doc, "John Doe", "J.D.", DateTime.Now);
 comment.SetText("My comment.");
 
 // Yorumu belgenin gövdesindeki bir düğüme yerleştirin.
-// Bu yorum paragrafının bulunduğu yerde görünecek,
-// sayfanın sağ kenar boşluğunun dışında ve onu paragrafına bağlayan noktalı bir çizgi ile.
+// Bu yorum paragrafın bulunduğu yerde görünecek,
+// sayfanın sağ kenar boşluğunun dışında ve onu paragrafına bağlayan noktalı bir çizgiyle.
 builder.CurrentParagraph.AppendChild(comment);
 
-// Üst yorumunun altında görünecek bir yanıt ekleyin.
+// Ana yorumun altında görünecek bir yanıt ekleyin.
 comment.AddReply("Joe Bloggs", "J.B.", DateTime.Now, "New reply");
 
 // Yorumlar ve yanıtların her ikisi de Yorum düğümleridir.
 Assert.AreEqual(2, doc.GetChildNodes(NodeType.Comment, true).Count);
 
-// Diğer yorumlara cevap vermeyen yorumlar "üst düzey"dir. Ata yorumları yoktur.
+// Diğer yorumlara cevap vermeyen yorumlar "üst seviye"dir. Ata yorumlarına sahip değiller.
 Assert.Null(comment.Ancestor);
 
 // Yanıtların üst düzey bir yorumu var.

@@ -3,7 +3,7 @@ title: ShapeBase.FetchInheritedShapeAttr
 second_title: Aspose.Words لمراجع .NET API
 description: ShapeBase طريقة. محجوز لاستخدام النظام. IShapeAttrSource.
 type: docs
-weight: 570
+weight: 630
 url: /ar/net/aspose.words.drawing/shapebase/fetchinheritedshapeattr/
 ---
 ## ShapeBase.FetchInheritedShapeAttr method

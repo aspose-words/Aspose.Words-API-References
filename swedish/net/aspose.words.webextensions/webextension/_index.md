@@ -3,12 +3,14 @@ title: Class WebExtension
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.WebExtensions.WebExtension klass. Representerar ett webbtilläggsobjekt.
 type: docs
-weight: 6430
+weight: 6740
 url: /sv/net/aspose.words.webextensions/webextension/
 ---
 ## WebExtension class
 
 Representerar ett webbtilläggsobjekt.
+
+För att lära dig mer, besök[Arbeta med Office-tillägg](https://docs.aspose.com/words/net/work-with-office-add-ins/) dokumentationsartikel.
 
 ```csharp
 public class WebExtension

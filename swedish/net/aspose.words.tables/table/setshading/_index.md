@@ -3,7 +3,7 @@ title: Table.SetShading
 second_title: Aspose.Words för .NET API Referens
 description: Table metod. Ställer in skuggning till de angivna värdena på hela tabellen.
 type: docs
-weight: 430
+weight: 450
 url: /sv/net/aspose.words.tables/table/setshading/
 ---
 ## Table.SetShading method
@@ -35,7 +35,7 @@ table.Alignment = TableAlignment.Center;
 table.ClearBorders();
 table.ClearShading();
 
-// Lägg till gröna kanter till tabellens konturer.
+// Lägg till gröna ramar till tabellens konturer.
 table.SetBorder(BorderType.Left, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Right, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Top, LineStyle.Single, 1.5, Color.Green, true);

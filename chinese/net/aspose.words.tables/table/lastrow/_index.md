@@ -1,14 +1,14 @@
 ---
 title: Table.LastRow
 second_title: Aspose.Words for .NET API 参考
-description: Table 财产. 返回最后一个 排表中的节点
+description: Table 财产. 返回最后一个Row表中的节点.
 type: docs
 weight: 180
 url: /zh/net/aspose.words.tables/table/lastrow/
 ---
 ## Table.LastRow property
 
-返回最后一个 **排**表中的节点。
+返回最后一个[`Row`](../../row/)表中的节点.
 
 ```csharp
 public Row LastRow { get; }

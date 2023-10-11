@@ -3,7 +3,7 @@ title: Range.NormalizeFieldTypes
 second_title: Aspose.Words för .NET API Referens
 description: Range metod. Ändrar fälttypvärdenFieldType avFieldStart FieldSeparator FieldEnd i detta intervall så att de motsvarar fälttyperna som finns i fältkoderna.
 type: docs
-weight: 70
+weight: 80
 url: /sv/net/aspose.words/range/normalizefieldtypes/
 ---
 ## Range.NormalizeFieldTypes method

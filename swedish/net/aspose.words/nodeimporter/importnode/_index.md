@@ -17,7 +17,7 @@ public Node ImportNode(Node srcNode, bool isImportChildren)
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
 | srcNode | Node | Noden att importera. |
-| isImportChildren | Boolean | True att importera alla underordnade noder rekursivt; annars falskt. |
+| isImportChildren | Boolean | `Sann` att importera alla underordnade noder rekursivt; annat,`falsk`. |
 
 ### Returvärde
 
@@ -27,7 +27,7 @@ Den klonade, importerade noden. Noden tillhör måldokumentet, men har ingen fö
 
 Genom att importera en nod skapas en kopia av källnoden som tillhör det importerande dokumentet. Den returnerade noden har ingen förälder. Källnoden ändras eller tas inte bort från originaldokumentet.
 
-Innan en nod från ett annat dokument kan infogas i det här dokumentet måste den importeras. Under import översätts dokumentspecifika egenskaper såsom referenser till stilar och listor från originalet till det importerande dokumentet. Efter att noden har importerats kan den infogas på lämplig plats i dokumentet med[`InsertBefore`](../../compositenode/insertbefore/) eller [`InsertAfter`](../../compositenode/insertafter/).
+Innan en nod från ett annat dokument kan infogas i detta dokument måste den importeras. Under import översätts dokumentspecifika egenskaper såsom referenser till stilar och listor från originalet till det importerande dokumentet. Efter att noden har importerats kan den infogas på lämplig plats i dokumentet medNode) eller Node).
 
 Om källnoden redan tillhör måldokumentet skapas helt enkelt en djup klon av källnoden.
 
@@ -36,7 +36,6 @@ Om källnoden redan tillhör måldokumentet skapas helt enkelt en djup klon av k
 Visar hur man infogar innehållet i ett dokument till ett bokmärke i ett annat dokument.
 
 ```csharp
-[Test]
 public void InsertAtBookmark()
 {
     Document doc = new Document();

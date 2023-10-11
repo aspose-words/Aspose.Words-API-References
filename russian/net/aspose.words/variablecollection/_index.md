@@ -1,14 +1,16 @@
 ---
 title: Class VariableCollection
 second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.VariableCollection сорт. Набор переменных документа.
+description: Aspose.Words.VariableCollection сорт. Коллекция переменных документа.
 type: docs
-weight: 6230
+weight: 6530
 url: /ru/net/aspose.words/variablecollection/
 ---
 ## VariableCollection class
 
-Набор переменных документа.
+Коллекция переменных документа.
+
+Чтобы узнать больше, посетите[Работа со свойствами документа](https://docs.aspose.com/words/net/work-with-document-properties/) статья документации.
 
 ```csharp
 public class VariableCollection : IEnumerable<KeyValuePair<string, string>>
@@ -19,7 +21,7 @@ public class VariableCollection : IEnumerable<KeyValuePair<string, string>>
 | Имя | Описание |
 | --- | --- |
 | [Count](../../aspose.words/variablecollection/count/) { get; } | Получает количество элементов, содержащихся в коллекции. |
-| [Item](../../aspose.words/variablecollection/item/) { get; set; } | Получает или задает переменную документа по имени без учета регистра. Нулевые значения не допускаются в качестве правой части присваивания и будут заменены пустой строкой. (2 indexers) |
+| [Item](../../aspose.words/variablecollection/item/) { get; set; } | Получает или задает переменную документа по имени без учета регистра. `нулевой` значения не допускаются в качестве правой части присваивания и будут заменены пустой строкой. (2 indexers) |
 
 ## Методы
 
@@ -37,7 +39,7 @@ public class VariableCollection : IEnumerable<KeyValuePair<string, string>>
 
 Имена и значения переменных являются строками.
 
-Имена переменных нечувствительны к регистру.
+Имена переменных не чувствительны к регистру.
 
 ### Примеры
 
@@ -47,7 +49,7 @@ public class VariableCollection : IEnumerable<KeyValuePair<string, string>>
 Document doc = new Document();
 VariableCollection variables = doc.Variables;
 
-// В каждом документе есть набор парных переменных ключ/значение, к которым мы можем добавлять элементы.
+// В каждом документе есть набор переменных пары ключ/значение, в которые мы можем добавлять элементы.
 variables.Add("Home address", "123 Main St.");
 variables.Add("City", "London");
 variables.Add("Bedrooms", "3");
@@ -62,17 +64,17 @@ field.Update();
 
 Assert.AreEqual("123 Main St.", field.Result);
 
-// Присвоение значений существующим ключам приведет к их обновлению.
+// Присвоение значений существующим ключам обновит их.
 variables.Add("Home address", "456 Queen St.");
 
-// Затем нам нужно будет обновить поля DOCVARIABLE, чтобы убедиться, что они отображают актуальное значение.
+// Затем нам придется обновить поля DOCVARIABLE, чтобы они отображали актуальное значение.
 Assert.AreEqual("123 Main St.", field.Result);
 
 field.Update();
 
 Assert.AreEqual("456 Queen St.", field.Result);
 
-// Проверяем, существуют ли переменные документа с определенным именем или значением.
+// Проверяем, что переменные документа с определенным именем или значением существуют.
 Assert.True(variables.Contains("City"));
 Assert.True(variables.Any(v => v.Value == "London"));
 
@@ -81,7 +83,7 @@ Assert.AreEqual(0, variables.IndexOfKey("Bedrooms"));
 Assert.AreEqual(1, variables.IndexOfKey("City"));
 Assert.AreEqual(2, variables.IndexOfKey("Home address"));
 
-// Перебрать набор переменных.
+// Перебираем коллекцию переменных.
 using (IEnumerator<KeyValuePair<string, string>> enumerator = doc.Variables.GetEnumerator())
     while (enumerator.MoveNext())
         Console.WriteLine($"Name: {enumerator.Current.Key}, Value: {enumerator.Current.Value}");

@@ -3,7 +3,7 @@ title: PdfSaveOptions.TextCompression
 second_title: Справочник по API Aspose.Words для .NET
 description: PdfSaveOptions свойство. Указывает тип сжатия который будет использоваться для всего текстового содержимого в документе.
 type: docs
-weight: 260
+weight: 290
 url: /ru/net/aspose.words.saving/pdfsaveoptions/textcompression/
 ---
 ## PdfSaveOptions.TextCompression property
@@ -22,7 +22,7 @@ public PdfTextCompression TextCompression { get; set; }
 
 ### Примеры
 
-Показывает, как применять сжатие текста при сохранении документа в формате PDF.
+Показывает, как применить сжатие текста при сохранении документа в формате PDF.
 
 ```csharp
 Document doc = new Document();
@@ -32,14 +32,14 @@ for (int i = 0; i < 100; i++)
     builder.Writeln("Lorem ipsum dolor sit amet, consectetur adipiscing elit, " +
                     "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
 
-// Создаем объект "PdfSaveOptions", который мы можем передать в метод "Сохранить" документа
-// для изменения того, как этот метод преобразует документ в .PDF.
+// Создаем объект «PdfSaveOptions», который мы можем передать методу «Save» документа.
+// чтобы изменить способ преобразования этого метода в .PDF.
 PdfSaveOptions options = new PdfSaveOptions();
 
-// Установите для свойства "TextCompression" значение "PdfTextCompression.None", чтобы не применять
+// Установите для свойства TextCompression значение «PdfTextCompression.None», чтобы не применять какие-либо
 // сжатие в текст при сохранении документа в PDF.
-// Установите для свойства "TextCompression" значение "PdfTextCompression.Flate", чтобы применить сжатие ZIP
-// в текст, когда мы сохраняем документ в формате PDF. Чем больше документ, тем большее влияние он окажет.
+// Установите для свойства TextCompression значение «PdfTextCompression.Flate», чтобы применить сжатие ZIP.
+// в текст, когда мы сохраняем документ в PDF. Чем больше документ, тем большее влияние он окажет.
 options.TextCompression = pdfTextCompression;
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.TextCompression.pdf", options);

@@ -3,7 +3,7 @@ title: Enum DmlRenderingMode
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Saving.DmlRenderingMode uppräkning. Anger hur DrawingMLformer renderas till fasta sidformat.
 type: docs
-weight: 4660
+weight: 4920
 url: /sv/net/aspose.words.saving/dmlrenderingmode/
 ---
 ## DmlRenderingMode enumeration

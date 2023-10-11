@@ -1,14 +1,14 @@
 ---
 title: PhysicalFontInfo.Version
 second_title: Aspose.Words لمراجع .NET API
-description: PhysicalFontInfo ملكية. سلسلة إصدار الخط .
+description: PhysicalFontInfo ملكية. سلسلة إصدار الخط.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.fonts/physicalfontinfo/version/
 ---
 ## PhysicalFontInfo.Version property
 
-سلسلة إصدار الخط .
+سلسلة إصدار الخط.
 
 ```csharp
 public string Version { get; }
@@ -19,7 +19,7 @@ public string Version { get; }
 يوضح كيفية سرد الخطوط المتاحة.
 
 ```csharp
-// تكوين Aspose.Words لخطوط المصدر من مجلد مخصص ، ثم طباعة كل خط متاح.
+// قم بتكوين Aspose.Words لمصدر الخطوط من مجلد مخصص، ثم قم بطباعة كل خط متاح.
 FontSourceBase[] folderFontSource = { new FolderFontSource(FontsDir, true) };
 
 foreach (PhysicalFontInfo fontInfo in folderFontSource[0].GetAvailableFonts())

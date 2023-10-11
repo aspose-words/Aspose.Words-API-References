@@ -3,7 +3,7 @@ title: OfficeMath.MathObjectType
 second_title: Aspose.Words för .NET API Referens
 description: OfficeMath fast egendom. Får typMathObjectType av detta Office Mathobjekt.
 type: docs
-weight: 40
+weight: 30
 url: /sv/net/aspose.words.math/officemath/mathobjecttype/
 ---
 ## OfficeMath.MathObjectType property

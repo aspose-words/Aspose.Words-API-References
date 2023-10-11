@@ -3,7 +3,7 @@ title: ParagraphFormat.PageBreakBefore
 second_title: Aspose.Words per .NET API Reference
 description: ParagraphFormat proprietà. Vero se viene forzata uninterruzione di pagina prima del paragrafo.
 type: docs
-weight: 250
+weight: 260
 url: /it/net/aspose.words/paragraphformat/pagebreakbefore/
 ---
 ## ParagraphFormat.PageBreakBefore property
@@ -25,8 +25,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 // Imposta questo flag su "true" per applicare un'interruzione di pagina all'inizio di ogni paragrafo
 // che il generatore di documenti creerà in questa configurazione ParagraphFormat.
 // Il primo paragrafo non riceverà un'interruzione di pagina.
-// Lascia questo flag come "falso" per iniziare ogni nuovo paragrafo sulla stessa pagina
-// come il precedente, a condizione che vi sia spazio sufficiente.
+// Lascia questo flag su "false" per iniziare ogni nuovo paragrafo sulla stessa pagina
+// come il precedente, purché ci sia spazio sufficiente.
 builder.ParagraphFormat.PageBreakBefore = pageBreakBefore;
 
 builder.Writeln("Paragraph 1.");

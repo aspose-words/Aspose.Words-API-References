@@ -1,14 +1,14 @@
 ---
 title: Border.LineWidth
 second_title: Aspose.Words für .NET-API-Referenz
-description: Border eigendom. Liest oder setzt die Rahmenbreite in Punkt.
+description: Border eigendom. Ruft die Rahmenbreite in Punkten ab oder legt sie fest.
 type: docs
 weight: 50
 url: /de/net/aspose.words/border/linewidth/
 ---
 ## Border.LineWidth property
 
-Liest oder setzt die Rahmenbreite in Punkt.
+Ruft die Rahmenbreite in Punkten ab oder legt sie fest.
 
 ```csharp
 public double LineWidth { get; set; }
@@ -16,11 +16,11 @@ public double LineWidth { get; set; }
 
 ### Bemerkungen
 
-Wenn Sie die Linienbreite größer als null einstellen, wenn der Linienstil None ist, wird der Linienstil automatisch in eine einzelne Linie geändert.
+Wenn Sie die Linienbreite größer als Null festlegen, während der Linienstil „Keine“ ist, wird der Linienstil automatisch in „Einzeilig“ geändert.
 
 ### Beispiele
 
-Zeigt, wie eine von einem Rahmen umgebene Zeichenfolge in ein Dokument eingefügt wird.
+Zeigt, wie man eine von einem Rahmen umgebene Zeichenfolge in ein Dokument einfügt.
 
 ```csharp
 Document doc = new Document();

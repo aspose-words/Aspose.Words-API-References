@@ -1,14 +1,14 @@
 ---
 title: ChartDataLabelCollection.ShowSeriesName
 second_title: Aspose.Words für .NET-API-Referenz
-description: ChartDataLabelCollection eigendom. Gibt einen booleschen Wert zurück oder legt ihn fest um das Anzeigeverhalten der Reihennamen für die Datenbeschriftungen der gesamten Reihe anzugeben.  WAHRum den Seriennamen anzuzeigen. FALSCH verstecken. Standardmäßig FALSCH .
+description: ChartDataLabelCollection eigendom. Gibt einen booleschen Wert zurück oder legt ihn fest um das Anzeigeverhalten des Seriennamens für die Datenbeschriftungen der gesamten Serie anzugeben. WAHR um den Seriennamen anzuzeigenFALSCH verstecken. StandardmäßigFALSCH .
 type: docs
-weight: 110
+weight: 130
 url: /de/net/aspose.words.drawing.charts/chartdatalabelcollection/showseriesname/
 ---
 ## ChartDataLabelCollection.ShowSeriesName property
 
-Gibt einen booleschen Wert zurück oder legt ihn fest, um das Anzeigeverhalten der Reihennamen für die Datenbeschriftungen der gesamten Reihe anzugeben.  **WAHR**um den Seriennamen anzuzeigen. **FALSCH** verstecken. Standardmäßig **FALSCH** .
+Gibt einen booleschen Wert zurück oder legt ihn fest, um das Anzeigeverhalten des Seriennamens für die Datenbeschriftungen der gesamten Serie anzugeben. `WAHR` um den Seriennamen anzuzeigen;`FALSCH` verstecken. Standardmäßig`FALSCH` .
 
 ```csharp
 public bool ShowSeriesName { get; set; }
@@ -16,7 +16,7 @@ public bool ShowSeriesName { get; set; }
 
 ### Bemerkungen
 
-Der für diese Eigenschaft definierte Wert kann für eine einzelne Datenbeschriftung mit der Verwendung von überschrieben werden.[`ShowSeriesName`](../../chartdatalabel/showseriesname/) Eigentum.
+Der für diese Eigenschaft definierte Wert kann für eine einzelne Datenbeschriftung mithilfe von überschrieben werden.[`ShowSeriesName`](../../chartdatalabel/showseriesname/) Eigenschaft.
 
 ### Beispiele
 
@@ -31,7 +31,7 @@ Chart chart = builder.InsertChart(ChartType.Bubble, 500, 300).Chart;
 // Löschen Sie die Demo-Datenreihe des Diagramms, um mit einem sauberen Diagramm zu beginnen.
 chart.Series.Clear();
 
- // Fügen Sie eine benutzerdefinierte Serie mit X/Y-Koordinaten und Durchmesser jeder Blase hinzu.
+// Fügen Sie eine benutzerdefinierte Serie mit X/Y-Koordinaten und dem Durchmesser jeder Blase hinzu.
 ChartSeries series = chart.Series.Add("Aspose Test Series",
     new[] { 2.9, 3.5, 1.1, 4.0, 4.0 },
     new[] { 1.9, 8.5, 2.1, 6.0, 1.5 },

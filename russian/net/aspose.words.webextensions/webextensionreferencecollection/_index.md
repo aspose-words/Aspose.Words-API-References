@@ -1,14 +1,16 @@
 ---
 title: Class WebExtensionReferenceCollection
 second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.WebExtensions.WebExtensionReferenceCollection сорт. Задает список ссылок на вебрасширения.
+description: Aspose.Words.WebExtensions.WebExtensionReferenceCollection сорт. Указывает список ссылок на вебрасширения.
 type: docs
-weight: 6500
+weight: 6810
 url: /ru/net/aspose.words.webextensions/webextensionreferencecollection/
 ---
 ## WebExtensionReferenceCollection class
 
-Задает список ссылок на веб-расширения.
+Указывает список ссылок на веб-расширения.
+
+Чтобы узнать больше, посетите[Работа с надстройками Office](https://docs.aspose.com/words/net/work-with-office-add-ins/) статья документации.
 
 ```csharp
 public class WebExtensionReferenceCollection : BaseWebExtensionCollection<WebExtensionReference>

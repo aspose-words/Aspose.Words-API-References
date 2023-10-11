@@ -3,12 +3,14 @@ title: Class ChartDataLabelCollection
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Drawing.Charts.ChartDataLabelCollection klass. Representerar en samling avChartDataLabel .
 type: docs
-weight: 640
+weight: 680
 url: /sv/net/aspose.words.drawing.charts/chartdatalabelcollection/
 ---
 ## ChartDataLabelCollection class
 
 Representerar en samling av[`ChartDataLabel`](../chartdatalabel/) .
+
+För att lära dig mer, besök[Arbeta med diagram](https://docs.aspose.com/words/net/working-with-charts/) dokumentationsartikel.
 
 ```csharp
 public class ChartDataLabelCollection : IEnumerable<ChartDataLabel>
@@ -19,17 +21,19 @@ public class ChartDataLabelCollection : IEnumerable<ChartDataLabel>
 | namn | Beskrivning |
 | --- | --- |
 | [Count](../../aspose.words.drawing.charts/chartdatalabelcollection/count/) { get; } | Returnerar antalet[`ChartDataLabel`](../chartdatalabel/) i den här samlingen. |
+| [Font](../../aspose.words.drawing.charts/chartdatalabelcollection/font/) { get; } | Ger tillgång till teckensnittsformateringen av dataetiketterna för hela serien. |
+| [Format](../../aspose.words.drawing.charts/chartdatalabelcollection/format/) { get; } | Ger tillgång till fyllnings- och radformatering av dataetiketterna. |
 | [Item](../../aspose.words.drawing.charts/chartdatalabelcollection/item/) { get; } | Returnerar[`ChartDataLabel`](../chartdatalabel/) för det angivna indexet. |
 | [NumberFormat](../../aspose.words.drawing.charts/chartdatalabelcollection/numberformat/) { get; } | Får en[`ChartNumberFormat`](../chartnumberformat/) instans som gör det möjligt att ställa in nummerformat för dataetiketterna för hela serien. |
 | [Separator](../../aspose.words.drawing.charts/chartdatalabelcollection/separator/) { get; set; } | Hämtar eller ställer in strängseparator som används för dataetiketterna för hela serien. Standard är ett kommatecken, förutom för cirkeldiagram som endast visar kategorinamn och procent, då en radbrytning ska användas istället. |
-| [ShowBubbleSize](../../aspose.words.drawing.charts/chartdatalabelcollection/showbubblesize/) { get; set; } | Tillåter att ange om bubbelstorlek ska visas för dataetiketterna för hela serien. Gäller endast bubbeldiagram. Standardvärdet är **falsk** . |
-| [ShowCategoryName](../../aspose.words.drawing.charts/chartdatalabelcollection/showcategoryname/) { get; set; } | Gör det möjligt att ange om kategorinamnet ska visas för dataetiketterna för hela serien. Standardvärdet är **falsk** . |
-| [ShowDataLabelsRange](../../aspose.words.drawing.charts/chartdatalabelcollection/showdatalabelsrange/) { get; set; } | Gör det möjligt att ange om värden från dataetikettintervallet ska visas i dataetiketterna för hela serien. Standardvärdet är **falsk** . |
-| [ShowLeaderLines](../../aspose.words.drawing.charts/chartdatalabelcollection/showleaderlines/) { get; set; } | Tillåter att ange om dataetikettledarlinjer behöver visas för dataetiketterna för hela serien. Standardvärdet är **falsk** . |
-| [ShowLegendKey](../../aspose.words.drawing.charts/chartdatalabelcollection/showlegendkey/) { get; set; } | Gör det möjligt att ange om förklaringsnyckeln ska visas för dataetiketterna för hela serien. Standardvärdet är **falsk** . |
-| [ShowPercentage](../../aspose.words.drawing.charts/chartdatalabelcollection/showpercentage/) { get; set; } | Gör det möjligt att ange om ett procentvärde ska visas för dataetiketterna för hela serien. Standardvärdet är **falsk** . Gäller endast cirkeldiagram. |
-| [ShowSeriesName](../../aspose.words.drawing.charts/chartdatalabelcollection/showseriesname/) { get; set; } | Returnerar eller ställer in en boolesk för att indikera visningsbeteendet för serienamnet för dataetiketterna för hela serien.  **Sann**för att visa serienamnet. **Falsk** att gömma. Som standard **falsk** . |
-| [ShowValue](../../aspose.words.drawing.charts/chartdatalabelcollection/showvalue/) { get; set; } | Gör det möjligt att ange om värden ska visas i dataetiketterna för hela serien. Standardvärdet är **falsk** . |
+| [ShowBubbleSize](../../aspose.words.drawing.charts/chartdatalabelcollection/showbubblesize/) { get; set; } | Tillåter att ange om bubbelstorlek ska visas för dataetiketterna för hela serien. Gäller endast bubbeldiagram. Standardvärdet är`falsk` . |
+| [ShowCategoryName](../../aspose.words.drawing.charts/chartdatalabelcollection/showcategoryname/) { get; set; } | Gör det möjligt att ange om kategorinamnet ska visas för dataetiketterna för hela serien. Standardvärdet är`falsk` . |
+| [ShowDataLabelsRange](../../aspose.words.drawing.charts/chartdatalabelcollection/showdatalabelsrange/) { get; set; } | Gör det möjligt att ange om värden från dataetikettintervallet ska visas i dataetiketterna för hela serien. Standardvärdet är`falsk` . |
+| [ShowLeaderLines](../../aspose.words.drawing.charts/chartdatalabelcollection/showleaderlines/) { get; set; } | Tillåter att ange om dataetikettledarlinjer behöver visas för dataetiketterna för hela serien. Standardvärdet är`falsk` . |
+| [ShowLegendKey](../../aspose.words.drawing.charts/chartdatalabelcollection/showlegendkey/) { get; set; } | Gör det möjligt att ange om förklaringsnyckeln ska visas för dataetiketterna för hela serien. Standardvärdet är`falsk` . |
+| [ShowPercentage](../../aspose.words.drawing.charts/chartdatalabelcollection/showpercentage/) { get; set; } | Gör det möjligt att ange om ett procentvärde ska visas för dataetiketterna för hela serien. Standardvärdet är`falsk` . Gäller endast cirkeldiagram. |
+| [ShowSeriesName](../../aspose.words.drawing.charts/chartdatalabelcollection/showseriesname/) { get; set; } | Returnerar eller ställer in en boolesk för att indikera visningsbeteendet för serienamnet för dataetiketterna för hela serien. `Sann` för att visa serienamnet;`falsk` att gömma. Som standard`falsk` . |
+| [ShowValue](../../aspose.words.drawing.charts/chartdatalabelcollection/showvalue/) { get; set; } | Gör det möjligt att ange om värden ska visas i dataetiketterna för hela serien. Standardvärdet är`falsk` . |
 
 ## Metoder
 
@@ -43,6 +47,7 @@ public class ChartDataLabelCollection : IEnumerable<ChartDataLabel>
 Visar hur man applicerar etiketter på datapunkter i ett linjediagram.
 
 ```csharp
+public void DataLabels()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);

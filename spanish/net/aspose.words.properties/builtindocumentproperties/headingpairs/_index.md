@@ -1,14 +1,14 @@
 ---
 title: BuiltInDocumentProperties.HeadingPairs
 second_title: Referencia de API de Aspose.Words para .NET
-description: BuiltInDocumentProperties propiedad. Especifica encabezados de documentos y sus nombres.
+description: BuiltInDocumentProperties propiedad. Especifica los títulos de los documentos y sus nombres.
 type: docs
 weight: 110
 url: /es/net/aspose.words.properties/builtindocumentproperties/headingpairs/
 ---
 ## BuiltInDocumentProperties.HeadingPairs property
 
-Especifica encabezados de documentos y sus nombres.
+Especifica los títulos de los documentos y sus nombres.
 
 ```csharp
 public object[] HeadingPairs { get; set; }
@@ -18,9 +18,9 @@ public object[] HeadingPairs { get; set; }
 
 Cada par de encabezados ocupa dos elementos en esta matriz.
 
-El primer elemento del par es unString y especifica el nombre del encabezado. El segundo elemento del par es unInt32 y especifica el número de partes del documento para este encabezado en el[`TitlesOfParts`](../titlesofparts/) propiedad.
+El primer elemento del par es unString y especifica el nombre del encabezado. El segundo elemento del par es unInt32 y especifica el recuento de document partes para este encabezado en el[`TitlesOfParts`](../titlesofparts/) propiedad.
 
-La suma total de conteos para todos los pares de encabezados en esta propiedad debe ser igual al número de elementos en el[`TitlesOfParts`](../titlesofparts/) propiedad.
+La suma total de recuentos de todos los pares de encabezados en esta propiedad debe ser igual al número de elementos en el[`TitlesOfParts`](../titlesofparts/) propiedad.
 
 Aspose.Words no actualiza esta propiedad.
 
@@ -31,9 +31,9 @@ Muestra la relación entre las propiedades "HeadingPairs" y "TitlesOfParts".
 ```csharp
 Document doc = new Document(MyDir + "Heading pairs and titles of parts.docx");
 
-// Podemos encontrar los valores combinados de estas colecciones a través de
+// Podemos encontrar los valores combinados de estas colecciones vía
 // "Archivo" -> "Propiedades" -> "Propiedades avanzadas" -> Pestaña "Contenidos".
-// La propiedad HeadingPairs es una colección de <string, int> parejas que
+// La propiedad HeadingPairs es una colección de <string, int> pares que
 // determina cuántas partes del documento abarca un encabezado.
 object[] headingPairs = doc.BuiltInDocumentProperties.HeadingPairs;
 

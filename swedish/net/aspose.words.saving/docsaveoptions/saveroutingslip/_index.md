@@ -1,14 +1,14 @@
 ---
 title: DocSaveOptions.SaveRoutingSlip
 second_title: Aspose.Words för .NET API Referens
-description: DocSaveOptions fast egendom. Närfalsk  RoutingSlipdata sparas inte i utdatadokumentet. Standardvärdet är Sann .
+description: DocSaveOptions fast egendom. Närfalsk  RoutingSlipdata sparas inte i utdatadokumentet. Standardvärdet ärSann .
 type: docs
 weight: 60
 url: /sv/net/aspose.words.saving/docsaveoptions/saveroutingslip/
 ---
 ## DocSaveOptions.SaveRoutingSlip property
 
-När`falsk` , RoutingSlip-data sparas inte i utdatadokumentet. Standardvärdet är **Sann** .
+När`falsk` , RoutingSlip-data sparas inte i utdatadokumentet. Standardvärdet är`Sann` .
 
 ```csharp
 public bool SaveRoutingSlip { get; set; }

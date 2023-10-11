@@ -3,7 +3,7 @@ title: Body.EnsureMinimum
 second_title: Aspose.Words för .NET API Referens
 description: Body metod. Om det sista underordnade inte är ett stycke skapar och lägger till ett tomt stycke.
 type: docs
-weight: 50
+weight: 70
 url: /sv/net/aspose.words/body/ensureminimum/
 ---
 ## Body.EnsureMinimum method
@@ -40,7 +40,7 @@ section.AppendChild(body);
 // Den här kroppen har inga barn, så vi kan inte lägga till körningar till den ännu.
 Assert.AreEqual(0, doc.FirstSection.Body.GetChildNodes(NodeType.Any, true).Count);
 
-// Ring "EnsureMinimum" för att se till att den här texten innehåller minst ett tomt stycke. 
+ // Ring "EnsureMinimum" för att se till att den här texten innehåller minst ett tomt stycke.
 body.EnsureMinimum();
 
 // Nu kan vi lägga till körningar i brödtexten och få dokumentet att visa dem.

@@ -3,7 +3,7 @@ title: Enum TextureIndex
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.TextureIndex uppräkning. Anger skuggningsstruktur.
 type: docs
-weight: 6150
+weight: 6450
 url: /sv/net/aspose.words/textureindex/
 ---
 ## TextureIndex enumeration
@@ -110,7 +110,7 @@ table.Alignment = TableAlignment.Center;
 table.ClearBorders();
 table.ClearShading();
 
-// Lägg till gröna kanter till tabellens konturer.
+// Lägg till gröna ramar till tabellens konturer.
 table.SetBorder(BorderType.Left, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Right, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Top, LineStyle.Single, 1.5, Color.Green, true);

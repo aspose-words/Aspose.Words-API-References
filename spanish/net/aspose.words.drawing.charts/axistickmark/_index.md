@@ -1,14 +1,14 @@
 ---
 title: Enum AxisTickMark
 second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Drawing.Charts.AxisTickMark enumeración. Especifica las posiciones posibles para las marcas de graduación.
+description: Aspose.Words.Drawing.Charts.AxisTickMark enumeración. Especifica las posibles posiciones para las marcas de graduación.
 type: docs
-weight: 580
+weight: 590
 url: /es/net/aspose.words.drawing.charts/axistickmark/
 ---
 ## AxisTickMark enumeration
 
-Especifica las posiciones posibles para las marcas de graduación.
+Especifica las posibles posiciones para las marcas de graduación.
 
 ```csharp
 public enum AxisTickMark
@@ -18,9 +18,9 @@ public enum AxisTickMark
 
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
-| Cross | `0` | Especifica que las marcas de graduación cruzarán el eje. |
-| Inside | `1` | Especifica que las marcas de verificación estarán dentro del área de trazado. |
-| Outside | `2` | Especifica que las marcas de verificación estarán fuera del área de trazado. |
+| Cross | `0` | Especifica que las marcas deben cruzar el eje. |
+| Inside | `1` | Especifica que las marcas deben estar dentro del área de trazado. |
+| Outside | `2` | Especifica que las marcas de graduación estarán fuera del área de trazado. |
 | None | `3` | Especifica que no habrá marcas de verificación. |
 
 ### Ejemplos
@@ -34,10 +34,10 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertChart(ChartType.Line, 500, 300);
 Chart chart = shape.Chart;
 
-// Borre la serie de datos de demostración del gráfico para comenzar con un gráfico limpio.
+// Borra la serie de datos de demostración del gráfico para comenzar con un gráfico limpio.
 chart.Series.Clear();
 
-// Agregue una serie personalizada que contenga valores de fecha/hora para el eje X y valores decimales respectivos para el eje Y.
+// Agregue una serie personalizada que contenga valores de fecha/hora para el eje X y los respectivos valores decimales para el eje Y.
 chart.Series.Add("Aspose Test Series",
     new[]
     {
@@ -46,17 +46,19 @@ chart.Series.Add("Aspose Test Series",
     },
     new[] { 1.2, 0.3, 2.1, 2.9, 4.2, 5.3 });
 
-// Establecer límites inferior y superior para el eje X.
+// Establece límites superior e inferior para el eje X.
 ChartAxis xAxis = chart.AxisX;
 xAxis.Scaling.Minimum = new AxisBound(new DateTime(2017, 11, 05).ToOADate());
 xAxis.Scaling.Maximum = new AxisBound(new DateTime(2017, 12, 03));
 
-// Establecer las unidades principales del eje X en una semana y las unidades secundarias en un día.
+// Establece las unidades mayores del eje X en una semana y las unidades menores en un día.
 xAxis.BaseTimeUnit = AxisTimeUnit.Days;
 xAxis.MajorUnit = 7.0d;
 xAxis.MajorTickMark = AxisTickMark.Cross;
 xAxis.MinorUnit = 1.0d;
 xAxis.MinorTickMark = AxisTickMark.Outside;
+xAxis.HasMajorGridlines = true;
+xAxis.HasMinorGridlines = true;
 
 // Definir propiedades del eje Y para valores decimales.
 ChartAxis yAxis = chart.AxisY;
@@ -66,6 +68,8 @@ yAxis.MinorUnit = 50.0d;
 yAxis.DisplayUnit.Unit = AxisBuiltInUnit.Hundreds;
 yAxis.Scaling.Minimum = new AxisBound(100);
 yAxis.Scaling.Maximum = new AxisBound(700);
+yAxis.HasMajorGridlines = true;
+yAxis.HasMinorGridlines = true;
 
 doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 ```

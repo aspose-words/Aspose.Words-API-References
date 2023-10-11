@@ -20,13 +20,13 @@ public override bool Accept(DocumentVisitor visitor)
 
 ### Return_Value
 
-Faux si le visiteur a demandé l'arrêt de l'énumération.
+`FAUX` si le visiteur a demandé l'arrêt de l'énumération.
 
 ### Remarques
 
-Appelle DocumentVisitor.VisitAbsolutePositionTab.
+Appels[`VisitAbsolutePositionTab`](../../documentvisitor/visitabsolutepositiontab/).
 
-Pour plus d'informations, consultez le modèle de conception Visiteur.
+Pour plus d’informations, consultez le modèle de conception Visiteur.
 
 ### Exemples
 
@@ -37,11 +37,11 @@ public void DocumentToTxt()
 {
     Document doc = new Document(MyDir + "Absolute position tab.docx");
 
-    // Extraire le contenu textuel de notre document en acceptant ce visiteur de document personnalisé.
+    // Extrayez le contenu textuel de notre document en acceptant ce visiteur de document personnalisé.
     DocTextExtractor myDocTextExtractor = new DocTextExtractor();
     doc.FirstSection.Body.Accept(myDocTextExtractor);
 
-    // La tabulation de position absolue, qui n'a pas d'équivalent sous forme de chaîne, a été explicitement convertie en un caractère de tabulation.
+    // La tabulation de position absolue, qui n'a pas d'équivalent sous forme de chaîne, a été explicitement convertie en caractère de tabulation.
     Assert.AreEqual("Before AbsolutePositionTab\tAfter AbsolutePositionTab", myDocTextExtractor.GetText());
 
     // Un AbsolutePositionTab peut également accepter un DocumentVisitor par lui-même.
@@ -64,7 +64,7 @@ public class DocTextExtractor : DocumentVisitor
     }
 
     /// <summary>
-    /// Appelé lorsqu'un noeud Run est rencontré dans le document.
+    /// Appelé lorsqu'un nœud Run est rencontré dans le document.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -82,7 +82,7 @@ public class DocTextExtractor : DocumentVisitor
     }
 
     /// <summary>
-    /// Ajoute du texte à la sortie actuelle. Honore le drapeau de sortie activé/désactivé.
+    /// Ajoute du texte à la sortie actuelle. Honore l’indicateur de sortie activé/désactivé.
     /// </summary>
     private void AppendText(string text)
     {

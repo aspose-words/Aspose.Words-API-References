@@ -1,14 +1,14 @@
 ---
 title: ImageSaveOptions.ImageColorMode
 second_title: Referencia de API de Aspose.Words para .NET
-description: ImageSaveOptions propiedad. Obtiene o establece el modo de color de las imágenes generadas.
+description: ImageSaveOptions propiedad. Obtiene o establece el modo de color para las imágenes generadas.
 type: docs
 weight: 50
 url: /es/net/aspose.words.saving/imagesaveoptions/imagecolormode/
 ---
 ## ImageSaveOptions.ImageColorMode property
 
-Obtiene o establece el modo de color de las imágenes generadas.
+Obtiene o establece el modo de color para las imágenes generadas.
 
 ```csharp
 public ImageColorMode ImageColorMode { get; set; }
@@ -16,13 +16,13 @@ public ImageColorMode ImageColorMode { get; set; }
 
 ### Observaciones
 
-Esta propiedad solo tiene efecto cuando se guarda en formatos de imagen ráster.
+Esta propiedad tiene efecto sólo al guardar en formatos de imagen rasterizada.
 
 El valor predeterminado esNone.
 
 ### Ejemplos
 
-Muestra cómo establecer un modo de color al renderizar documentos.
+Muestra cómo configurar un modo de color al renderizar documentos.
 
 ```csharp
 Document doc = new Document();
@@ -35,12 +35,12 @@ Document doc = new Document();
             Assert.That(20000, Is.LessThan(new FileInfo(ImageDir + "Logo.jpg").Length));
 
             // Cuando guardamos el documento como una imagen, podemos pasar un objeto SaveOptions a
-            // seleccione un modo de color para la imagen que generará la operación de guardado.
-            // Si establecemos la propiedad "ImageColorMode" en "ImageColorMode.BlackAndWhite",
-            // la operación de guardado aplicará la reducción de color en escala de grises mientras se renderiza el documento.
-              // Si establecemos la propiedad "ImageColorMode" en "ImageColorMode.Grayscale",
-            // la operación de guardado convertirá el documento en una imagen monocromática.
-            // Si establecemos la propiedad "ImageColorMode" en "Ninguno", la operación de guardado aplicará el método predeterminado
+            // selecciona un modo de color para la imagen que generará la operación de guardado.
+            // Si configuramos la propiedad "ImageColorMode" en "ImageColorMode.BlackAndWhite",
+            // la operación de guardar aplicará reducción de color en escala de grises mientras renderiza el documento.
+            // Si configuramos la propiedad "ImageColorMode" en "ImageColorMode.Grayscale",
+            // la operación de guardar convertirá el documento en una imagen monocromática.
+            // Si configuramos la propiedad "ImageColorMode" en "Ninguno", la operación de guardado aplicará el método predeterminado
             // y conservar todos los colores del documento en la imagen de salida.
             ImageSaveOptions imageSaveOptions = new ImageSaveOptions(SaveFormat.Png);
             imageSaveOptions.ImageColorMode = imageColorMode;

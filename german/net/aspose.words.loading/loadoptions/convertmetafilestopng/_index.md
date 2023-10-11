@@ -1,14 +1,14 @@
 ---
 title: LoadOptions.ConvertMetafilesToPng
 second_title: Aspose.Words für .NET-API-Referenz
-description: LoadOptions eigendom. Ruft ab oder legt fest ob Metadatei konvertiert werden soll Wmf oderEmf  Bilder zuPng Bildformat.
+description: LoadOptions eigendom. Ruft ab oder legt fest ob die Metadatei konvertiert werden soll Wmf oderEmf  Bilder zuPng Bildformat.
 type: docs
 weight: 30
 url: /de/net/aspose.words.loading/loadoptions/convertmetafilestopng/
 ---
 ## LoadOptions.ConvertMetafilesToPng property
 
-Ruft ab oder legt fest, ob Metadatei konvertiert werden soll (Wmf oderEmf ) Bilder zuPng Bildformat.
+Ruft ab oder legt fest, ob die Metadatei konvertiert werden soll (Wmf oderEmf ) Bilder zuPng Bildformat.
 
 ```csharp
 public bool ConvertMetafilesToPng { get; set; }
@@ -16,7 +16,7 @@ public bool ConvertMetafilesToPng { get; set; }
 
 ### Bemerkungen
 
-Metadateien (Wmf oderEmf ) ist ein unkomprimiertes Bildformat und benötigt manchmal zu viel RAM, um das Dokument zu speichern und zu verarbeiten. Mit dieser Option können alle Metafile-Bilder in konvertiert werdenPng beim Laden des Dokuments. Bitte beachten Sie - die Umwandlung von Vektorgrafiken in Raster verringert die Qualität der Bilder.
+Metadateien (Wmf oderEmf ) ist ein unkomprimiertes Bildformat und erfordert manchmal zu viel RAM, um das Dokument zu speichern und zu verarbeiten. Mit dieser Option können alle Metadateibilder konvertiert werdenPng beim Laden des Dokuments. Bitte beachten Sie, dass die Konvertierung von Vektorgrafiken in Raster die Qualität der Bilder verringert.
 
 ### Beispiele
 

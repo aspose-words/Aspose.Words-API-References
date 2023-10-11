@@ -1,14 +1,14 @@
 ---
 title: MailMerge.ExecuteADO
 second_title: Aspose.Words لمراجع .NET API
-description: MailMerge طريقة. تنفيذ دمج المراسلات من كائن ADO Recordset في المستند.
+description: MailMerge طريقة. تنفيذ دمج البريد من كائن ADO Recordset في المستند.
 type: docs
 weight: 190
 url: /ar/net/aspose.words.mailmerging/mailmerge/executeado/
 ---
 ## MailMerge.ExecuteADO method
 
-تنفيذ دمج المراسلات من كائن ADO Recordset في المستند.
+تنفيذ دمج البريد من كائن ADO Recordset في المستند.
 
 ```csharp
 public void ExecuteADO(object recordset)
@@ -16,15 +16,15 @@ public void ExecuteADO(object recordset)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| recordset | Object | مجموعة سجلات ADO أو كائن السجل. |
+| recordset | Object | مجموعة سجلات ADO أو كائن التسجيل. |
 
 ### ملاحظات
 
-هذه الطريقة مفيدة عندما تنوي استخدام فئات Aspose.Words as COM كائنات من تعليمات برمجية غير مُدارة مثل تطبيق تم إنشاؤه باستخدام ASP أو Visual Basic 6.0.
+تكون هذه الطريقة مفيدة عندما تنوي استخدام فئات Aspose.Words ككائنات COM من تعليمات برمجية غير مُدارة مثل تطبيق تم إنشاؤه باستخدام ASP أو Visual Basic 6.0.
 
-هذه الطريقة تتجاهلRemoveUnusedRegions اختيار.
+تتجاهل هذه الطريقةRemoveUnusedRegions خيار.
 
-لمزيد من المعلومات ، راجع وصف MailMerge.Execute (DataTable).
+لمزيد من المعلومات انظر وصف[`Execute`](../execute/).
 
 ### أمثلة
 
@@ -57,18 +57,18 @@ public void ExecuteADO()
 {
     Document doc = CreateSourceDocADOMailMerge();
 
-    // للعمل مع ADO DataSets ، سنحتاج إلى إضافة مرجع إلى مكتبة كائنات بيانات Microsoft ActiveX ،
-    // الذي تم تضمينه في توزيع .NET والمخزن في "adodb.dll".
+    // للعمل مع ADO DataSets، سنحتاج إلى إضافة مرجع إلى مكتبة كائنات بيانات Microsoft ActiveX،
+    // المضمن في توزيع .NET والمخزن في "adodb.dll".
     ADODB.Connection connection = new ADODB.Connection();
 
-    // إنشاء سلسلة اتصال تشير إلى ملف قاعدة البيانات "Northwind"
+    // قم بإنشاء سلسلة اتصال تشير إلى ملف قاعدة البيانات "Northwind".
     // في نظام الملفات المحلي لدينا وافتح اتصالاً.
-    string connectionString = @"Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" + DatabaseDir + "Northwind.mdb";
+    string connectionString = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=" + DatabaseDir + "Northwind.accdb";
     connection.Open(connectionString);
 
-    // نشر مجموعة البيانات الخاصة بنا عن طريق تشغيل أمر SQL في قاعدة البيانات الخاصة بنا.
+    // قم بملء مجموعة البيانات الخاصة بنا عن طريق تشغيل أمر SQL في قاعدة البيانات الخاصة بنا.
     // يجب أن تتوافق أسماء الأعمدة في جدول النتائج
-    // لقيم MERGEFIELDS التي ستستوعب بياناتنا.
+    // إلى قيم MERGEFIELDS التي ستستوعب بياناتنا.
     const string command = @"SELECT ProductName, QuantityPerUnit, UnitPrice FROM Products";
 
     ADODB.Recordset recordset = new ADODB.Recordset();
@@ -80,7 +80,7 @@ public void ExecuteADO()
 }
 
 /// <summary>
-/// أنشئ مستندًا فارغًا واملأه بـ MERGEFIELDS الذي سيقبل البيانات عند تنفيذ دمج البريد.
+/// أنشئ مستندًا فارغًا واملأه بـ MERGEFIELDS التي ستقبل البيانات عند تنفيذ دمج البريد.
 /// </summary>
 private static Document CreateSourceDocADOMailMerge()
 {

@@ -16,14 +16,14 @@ public string BookmarkName { get; set; }
 
 ### Примеры
 
-Показывает, как создать закладку для текста с помощью поля SET, а затем отобразить его в документе с помощью поля REF.
+Показывает, как создать текст с закладкой с помощью поля SET, а затем отобразить его в документе с помощью поля REF.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
- // Назовите текст с закладкой с помощью поля SET.
-// Это поле относится к «закладке», а не к структуре закладок, которая появляется в тексте, а к именованной переменной.
+ // Назовите текст закладки с помощью поля SET.
+// Это поле относится к «закладке», а не к структуре закладки, которая появляется в тексте, а к именованной переменной.
 FieldSet fieldSet = (FieldSet)builder.InsertField(FieldType.FieldSet, false);
 fieldSet.BookmarkName = "MyBookmark";
 fieldSet.BookmarkText = "Hello world!";

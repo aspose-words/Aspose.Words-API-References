@@ -1,14 +1,14 @@
 ---
 title: RowFormat.Height
 second_title: Aspose.Words for .NET API Referansı
-description: RowFormat mülk. Tablo satırının yüksekliğini nokta olarak alır veya ayarlar.
+description: RowFormat mülk. Tablo satırının yüksekliğini nokta cinsinden alır veya ayarlar.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.tables/rowformat/height/
 ---
 ## RowFormat.Height property
 
-Tablo satırının yüksekliğini nokta olarak alır veya ayarlar.
+Tablo satırının yüksekliğini nokta cinsinden alır veya ayarlar.
 
 ```csharp
 public double Height { get; set; }
@@ -16,7 +16,7 @@ public double Height { get; set; }
 
 ### Örnekler
 
-Belge oluşturucu ile satırların nasıl biçimlendirileceğini gösterir.
+Satırların bir belge oluşturucuyla nasıl biçimlendirileceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -26,8 +26,8 @@ Table table = builder.StartTable();
 builder.InsertCell();
 builder.Write("Row 1, cell 1.");
 
-// İkinci bir satır başlatın ve ardından yüksekliğini yapılandırın. Oluşturucu bu ayarları
-// mevcut satırı ve daha sonra oluşturduğu yeni satırlar.
+// İkinci bir satır başlatın ve ardından yüksekliğini yapılandırın. Oluşturucu bu ayarları aşağıdakilere uygulayacaktır:
+// geçerli satırın yanı sıra daha sonra oluşturacağı yeni satırlar.
 builder.EndRow();
 
 RowFormat rowFormat = builder.RowFormat;
@@ -38,7 +38,7 @@ builder.InsertCell();
 builder.Write("Row 2, cell 1.");
 builder.EndTable();
 
-// İlk satır, dolgu yeniden yapılandırmasından etkilenmedi ve hala varsayılan değerleri tutuyor.
+// İlk satır dolgunun yeniden yapılandırılmasından etkilenmedi ve hala varsayılan değerleri koruyor.
 Assert.AreEqual(0.0d, table.Rows[0].RowFormat.Height);
 Assert.AreEqual(HeightRule.Auto, table.Rows[0].RowFormat.HeightRule);
 
@@ -68,9 +68,9 @@ builder.Font.Size = 16;
 builder.Font.Name = "Arial";
 builder.Font.Bold = true;
 
-// Bir belge oluşturucuda biçimlendirme seçeneklerini yapılandırmak bunları uygular
-// imlecinin bulunduğu geçerli hücreye/satıra,
-// ve bu oluşturucu kullanılarak oluşturulan tüm yeni hücreler ve satırlar.
+// Belge oluşturucudaki biçimlendirme seçeneklerini yapılandırmak bunları uygulayacaktır
+// imlecin bulunduğu geçerli hücreye/satıra,
+// ve ayrıca bu oluşturucu kullanılarak oluşturulan yeni hücreler ve satırlar.
 builder.Write("Header Row,\n Cell 1");
 builder.InsertCell();
 builder.Write("Header Row,\n Cell 2");
@@ -78,8 +78,8 @@ builder.InsertCell();
 builder.Write("Header Row,\n Cell 3");
 builder.EndRow();
 
-// Oluşturmak üzere olduğumuz yeni satırlar ve hücreler için oluşturucunun biçimlendirme nesnelerini yeniden yapılandırın.
-// Oluşturucu, bunları bir başlık satırı olarak öne çıkması için önceden oluşturulmuş ilk satıra uygulamayacaktır.
+// Oluşturucunun biçimlendirme nesnelerini, yapmak üzere olduğumuz yeni satırlar ve hücreler için yeniden yapılandırın.
+// Oluşturucu bunları zaten oluşturulmuş olan ilk satıra uygulamayacaktır, böylece başlık satırı olarak öne çıkacaktır.
 builder.CellFormat.Shading.BackgroundPatternColor = Color.White;
 builder.CellFormat.VerticalAlignment = CellVerticalAlignment.Center;
 builder.RowFormat.Height = 30;

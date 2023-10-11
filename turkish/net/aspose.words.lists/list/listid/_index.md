@@ -16,7 +16,7 @@ public int ListId { get; }
 
 ### Notlar
 
-Normalde bu özelliği kullanmanıza gerek yoktur. Ama kullanırsanız, normalde so ile birlikte yaparsınız.[`GetListByListId`](../../listcollection/getlistbylistid/) tanımlayıcısına göre a listesini bulma yöntemi.
+Normalde bu özelliği kullanmanıza gerek yoktur. Ancak eğer onu kullanırsanız, normalde so ile birlikte yaparsınız.[`GetListByListId`](../../listcollection/getlistbylistid/) a listesini tanımlayıcısına göre bulma yöntemi.
 
 ### Örnekler
 
@@ -26,11 +26,9 @@ Listelerin sahip belge özelliklerinin nasıl doğrulanacağını gösterir.
 Document doc = new Document();
 
 ListCollection lists = doc.Lists;
-
 Assert.AreEqual(doc, lists.Document);
 
 List list = lists.Add(ListTemplate.BulletDefault);
-
 Assert.AreEqual(doc, list.Document);
 
 Console.WriteLine("Current list count: " + lists.Count);
@@ -39,7 +37,7 @@ Console.WriteLine("ListId: " + list.ListId);
 Console.WriteLine("List is the same by ListId: " + (lists.GetListByListId(1).Equals(list)));
 ```
 
-Liste öğeleri olan bir belgedeki tüm paragrafların nasıl çıktısının alınacağını gösterir.
+Bir belgedeki liste öğesi olan tüm paragrafların çıktısının nasıl alınacağını gösterir.
 
 ```csharp
 Document doc = new Document();

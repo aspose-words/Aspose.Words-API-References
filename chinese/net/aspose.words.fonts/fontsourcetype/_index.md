@@ -3,7 +3,7 @@ title: Enum FontSourceType
 second_title: Aspose.Words for .NET API 参考
 description: Aspose.Words.Fonts.FontSourceType 枚举. 指定字体源的类型
 type: docs
-weight: 2810
+weight: 2990
 url: /zh/net/aspose.words.fonts/fontsourcetype/
 ---
 ## FontSourceType enumeration
@@ -18,15 +18,15 @@ public enum FontSourceType
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| FontFile | `0` | 一个[`FileFontSource`](../filefontsource/)表示单个字体文件的对象。 |
-| FontsFolder | `1` | 一个[`FolderFontSource`](../folderfontsource/)表示带有字体文件的文件夹的对象。 |
-| MemoryFont | `2` | 一个[`MemoryFontSource`](../memoryfontsource/)表示内存中单个字体的对象。 |
-| SystemFonts | `3` | 一个[`SystemFontSource`](../systemfontsource/)表示安装到系统的所有字体的对象。 |
-| FontStream | `4` | 一个[`StreamFontSource`](../streamfontsource/)表示带有字体数据的流的对象。 |
+| FontFile | `0` | A[`FileFontSource`](../filefontsource/)代表单个字体文件的对象。 |
+| FontsFolder | `1` | A[`FolderFontSource`](../folderfontsource/)代表包含字体文件的文件夹的对象。 |
+| MemoryFont | `2` | A[`MemoryFontSource`](../memoryfontsource/)代表内存中单个字体的对象。 |
+| SystemFonts | `3` | A[`SystemFontSource`](../systemfontsource/)代表系统安装的所有字体的对象。 |
+| FontStream | `4` | A[`StreamFontSource`](../streamfontsource/)表示带有字体数据的流的对象。 |
 
 ### 例子
 
-展示如何使用本地文件系统中的字体文件作为字体源。
+演示如何使用本地文件系统中的字体文件作为字体源。
 
 ```csharp
 FileFontSource fileFontSource = new FileFontSource(MyDir + "Alte DIN 1451 Mittelschrift.ttf", 0);

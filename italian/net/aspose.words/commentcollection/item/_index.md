@@ -1,14 +1,14 @@
 ---
 title: CommentCollection.Item
 second_title: Aspose.Words per .NET API Reference
-description: CommentCollection proprietà. Recupera a Commento allindice dato.
+description: CommentCollection proprietà. Recupera aComment allindice indicato.
 type: docs
 weight: 10
 url: /it/net/aspose.words/commentcollection/item/
 ---
 ## CommentCollection indexer
 
-Recupera a **Commento** all'indice dato.
+Recupera a[`Comment`](../../comment/) all'indice indicato.
 
 ```csharp
 public Comment this[int index] { get; }
@@ -22,11 +22,11 @@ public Comment this[int index] { get; }
 
 L'indice è a base zero.
 
-Gli indici negativi sono consentiti e indicano l'accesso dal retro della raccolta. Ad esempio -1 indica l'ultimo elemento, -2 indica il penultimo e così via.
+Gli indici negativi sono consentiti e indicano l'accesso dal retro della raccolta. Ad esempio -1 significa l'ultimo elemento, -2 significa il penultimo e così via.
 
-Se l'indice è maggiore o uguale al numero di elementi nell'elenco, restituisce un riferimento nullo.
+Se indice è maggiore o uguale al numero di elementi nell'elenco, restituisce un riferimento null.
 
-Se l'indice è negativo e il suo valore assoluto è maggiore del numero di elementi nell'elenco, restituisce un riferimento nullo.
+Se indice è negativo e il suo valore assoluto è maggiore del numero di elementi nell'elenco, restituisce un riferimento null.
 
 ### Esempi
 
@@ -46,12 +46,12 @@ comment.AddReply("Joe Bloggs", "J.B.", DateTime.Now, "Another reply");
 Assert.AreEqual(2, comment.Replies.Count()); 
 
 // Di seguito sono riportati due modi per rimuovere le risposte da un commento.
-// 1 - Usa il metodo "RemoveReply" per rimuovere le risposte da un commento singolarmente:
+// 1 - Utilizza il metodo "RemoveReply" per rimuovere le risposte da un commento individualmente:
 comment.RemoveReply(comment.Replies[0]);
 
 Assert.AreEqual(1, comment.Replies.Count());
 
-// 2 - Usa il metodo "RemoveAllReplies" per rimuovere tutte le risposte da un commento contemporaneamente:
+// 2 - Utilizza il metodo "RemoveAllReplies" per rimuovere tutte le risposte da un commento contemporaneamente:
 comment.RemoveAllReplies();
 
 Assert.AreEqual(0, comment.Replies.Count());

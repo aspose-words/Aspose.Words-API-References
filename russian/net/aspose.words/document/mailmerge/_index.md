@@ -1,14 +1,14 @@
 ---
 title: Document.MailMerge
 second_title: Справочник по API Aspose.Words для .NET
-description: Document свойство. Возвращает MailMerge объект представляющий функциональность слияния для документа.
+description: Document свойство. ВозвращаетMailMerge объект представляющий функцию слияния почты для документа.
 type: docs
-weight: 240
+weight: 260
 url: /ru/net/aspose.words/document/mailmerge/
 ---
 ## Document.MailMerge property
 
-Возвращает **MailMerge** объект, представляющий функциональность слияния для документа.
+Возвращает[`MailMerge`](../../../aspose.words.mailmerging/mailmerge/) объект, представляющий функцию слияния почты для документа.
 
 ```csharp
 public MailMerge MailMerge { get; }
@@ -27,15 +27,15 @@ public void ExecuteDataTable()
     table.Rows.Add(new object[] { "Thomas Hardy", "120 Hanover Sq., London" });
     table.Rows.Add(new object[] { "Paolo Accorti", "Via Monte Bianco 34, Torino" });
 
-    // Ниже приведены два способа использования DataTable в качестве источника данных для слияния.
-    // 1 — использовать всю таблицу для слияния, чтобы создать один выходной документ слияния для каждой строки в таблице:
+    // Ниже приведены два способа использования DataTable в качестве источника данных для слияния почты.
+    // 1 — использовать всю таблицу для слияния почты, чтобы создать один выходной документ слияния почты для каждой строки в таблице:
     Document doc = CreateSourceDocExecuteDataTable();
 
     doc.MailMerge.Execute(table);
 
     doc.Save(ArtifactsDir + "MailMerge.ExecuteDataTable.WholeTable.docx");
 
-    // 2 - Используйте одну строку таблицы для создания одного выходного документа слияния почты:
+    // 2 — использовать одну строку таблицы для создания одного выходного документа слияния почты:
     doc = CreateSourceDocExecuteDataTable();
 
     doc.MailMerge.Execute(table.Rows[1]);
@@ -44,7 +44,7 @@ public void ExecuteDataTable()
 }
 
 /// <summary>
-/// Создает исходный документ слияния.
+/// Создает исходный документ слияния почты.
 /// </summary>
 private static Document CreateSourceDocExecuteDataTable()
 {

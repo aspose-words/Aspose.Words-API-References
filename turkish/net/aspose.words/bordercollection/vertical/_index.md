@@ -16,13 +16,13 @@ public Border Vertical { get; }
 
 ### Örnekler
 
-Ayarların bir tablo satırının biçimine dikey kenarlıklara nasıl uygulanacağını gösterir.
+Ayarların dikey kenarlıklara bir tablo satırı biçimine nasıl uygulanacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Kırmızı ve mavi iç kenarlıkları olan bir tablo oluşturun.
+// Kırmızı ve mavi iç kenarlıklara sahip bir tablo oluşturun.
 Table table = builder.StartTable();
 
 for (int i = 0; i < 3; i++)
@@ -46,7 +46,7 @@ for (int i = 0; i < 3; i++)
     borders.Vertical.LineWidth = 2.0d;
 }
 
-// Bir satır biçimi ve bir hücrenin iç paragrafı farklı kenarlık ayarları kullanır.
+// Bir satır biçimi ve hücrenin iç paragrafı farklı kenarlık ayarları kullanır.
 Border border = table.FirstRow.FirstCell.LastParagraph.ParagraphFormat.Borders.Vertical;
 
 Assert.AreEqual(Color.Empty.ToArgb(), border.Color.ToArgb());

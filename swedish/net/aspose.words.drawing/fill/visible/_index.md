@@ -3,7 +3,7 @@ title: Fill.Visible
 second_title: Aspose.Words för .NET API Referens
 description: Fill fast egendom. Hämtar eller ställer in värde dvsSann om formateringen som tillämpas på den här instansen är synlig.
 type: docs
-weight: 150
+weight: 210
 url: /sv/net/aspose.words.drawing/fill/visible/
 ---
 ## Fill.Visible property

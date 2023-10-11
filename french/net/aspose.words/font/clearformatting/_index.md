@@ -16,7 +16,7 @@ public void ClearFormatting()
 
 ### Remarques
 
-Supprime toutes les mises en forme de police spécifiées explicitement sur l'objet à partir duquel  **Police de caractère** a été obtenu afin que la mise en forme de la police soit héritée de le parent approprié.
+Supprime tout le formatage de police spécifié explicitement sur l'objet à partir duquel [`Font`](../) a été obtenu, le formatage de la police sera donc hérité de le parent approprié.
 
 ### Exemples
 
@@ -28,7 +28,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Write("For more information, please visit the ");
 
-// Insère un lien hypertexte et le met en valeur avec une mise en forme personnalisée.
+// Insère un lien hypertexte et soulignez-le avec un formatage personnalisé.
 // Le lien hypertexte sera un morceau de texte cliquable qui nous amènera à l'emplacement spécifié dans l'URL.
 builder.Font.Color = Color.Blue;
 builder.Font.Underline = Underline.Single;

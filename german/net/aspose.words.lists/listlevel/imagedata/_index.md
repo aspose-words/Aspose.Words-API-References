@@ -16,7 +16,7 @@ public ImageData ImageData { get; }
 
 ### Bemerkungen
 
-Wenn diese Ebene kein Bild-Aufzählungszeichen definiert, wird null zurückgegeben. Bevor Sie ein neues Bild für eine Nicht-Bild-Aufzählungsform festlegen, verwenden Sie bitte[`CreatePictureBullet`](../createpicturebullet/) Methode zuerst.
+Wenn diese Ebene keine Bildaufzählungsrückgaben definiert`Null` . Bevor Sie ein neues Bild für die Aufzählungsform ohne Bild festlegen, verwenden Sie bitte[`CreatePictureBullet`](../createpicturebullet/) Methode zuerst.
 
 ### Siehe auch
 

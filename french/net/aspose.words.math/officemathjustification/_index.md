@@ -3,7 +3,7 @@ title: Enum OfficeMathJustification
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Aspose.Words.Math.OfficeMathJustification énumération. Spécifie la justification de léquation.
 type: docs
-weight: 3900
+weight: 4140
 url: /fr/net/aspose.words.math/officemathjustification/
 ---
 ## OfficeMathJustification enumeration
@@ -21,13 +21,13 @@ public enum OfficeMathJustification
 | CenterGroup | `1` | Justifie les instances de texte mathématique à gauche les unes par rapport aux autres et centre le groupe de texte mathématique (le paragraphe mathématique) par rapport à la page. |
 | Center | `2` | Centre chaque instance de texte mathématique individuellement par rapport aux marges. |
 | Left | `3` | Justification à gauche du paragraphe mathématique. |
-| Right | `4` | Justification à droite du paragraphe mathématique. |
+| Right | `4` | Justification correcte du paragraphe mathématique. |
 | Inline | `7` | Position en ligne de Math. |
 | Default | `1` | Valeur par défautCenterGroup . |
 
 ### Exemples
 
-Montre comment définir la mise en forme de l'affichage mathématique de bureau.
+Montre comment définir le formatage de l’affichage des mathématiques de bureau.
 
 ```csharp
 Document doc = new Document(MyDir + "Office math.docx");
@@ -40,10 +40,7 @@ Assert.AreEqual(MathObjectType.OMathPara, officeMath.MathObjectType);
 Assert.AreEqual(NodeType.OfficeMath, officeMath.NodeType);
 Assert.AreEqual(officeMath.ParentNode, officeMath.ParentParagraph);
 
-// Les formats OOXML et WML utilisent la propriété "EquationXmlEncoding".
-Assert.IsNull(officeMath.EquationXmlEncoding);
-
-// Modifier l'emplacement et le type d'affichage du nœud OfficeMath.
+// Modifiez l'emplacement et le type d'affichage du nœud OfficeMath.
 officeMath.DisplayType = OfficeMathDisplayType.Display;
 officeMath.Justification = OfficeMathJustification.Left;
 

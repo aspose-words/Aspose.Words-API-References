@@ -1,14 +1,14 @@
 ---
 title: SignatureLineOptions.Signer
 second_title: Référence de l'API Aspose.Words pour .NET
-description: SignatureLineOptions propriété. Obtient ou définit le signataire suggéré de la ligne de signature. La valeur par défaut de cette propriété est chaîne vide Empty .
+description: SignatureLineOptions propriété. Obtient ou définit le signataire suggéré de la ligne de signature. La valeur par défaut de cette propriété est chaîne vide Empty.
 type: docs
 weight: 70
 url: /fr/net/aspose.words/signaturelineoptions/signer/
 ---
 ## SignatureLineOptions.Signer property
 
-Obtient ou définit le signataire suggéré de la ligne de signature. La valeur par défaut de cette propriété est **chaîne vide** (Empty ).
+Obtient ou définit le signataire suggéré de la ligne de signature. La valeur par défaut de cette propriété est **chaîne vide** (Empty).
 
 ```csharp
 public string Signer { get; set; }
@@ -19,7 +19,8 @@ public string Signer { get; set; }
 Montre comment ajouter une ligne de signature à un document, puis le signer à l'aide d'un certificat numérique.
 
 ```csharp
-public static void Sign()
+[Description("WORDSNET-16868")]
+        public static void Sign()
         {
             string signeeName = "Ron Williams";
             string srcDocumentPath = MyDir + "Document.docx";
@@ -46,7 +47,7 @@ public static void Sign()
             Document document = new Document(srcDocumentPath);
             DocumentBuilder builder = new DocumentBuilder(document);
 
-            // Configurez et insérez une ligne de signature, un objet dans le document qui affichera une signature avec laquelle nous le signerons.
+            // Configurer et insérer une ligne de signature, un objet dans le document qui affichera une signature avec laquelle nous le signons.
             SignatureLineOptions signatureLineOptions = new SignatureLineOptions
             {
                 Signer = signeeInfo.Name, 
@@ -73,7 +74,7 @@ public static void Sign()
 
 #if NET48 || JAVA
         /// <summary>
-        /// Convertit une image en un tableau d'octets.
+        /// Convertit une image en tableau d'octets.
         /// </summary>
         private static byte[] ImageToByteArray(Image imageIn)
         {

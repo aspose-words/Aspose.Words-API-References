@@ -3,7 +3,7 @@ title: Interface IFieldDatabaseProvider
 second_title: Aspose.Words für .NET-API-Referenz
 description: Aspose.Words.Fields.IFieldDatabaseProvider koppel. Implementieren Sie diese Schnittstelle um Daten für die bereitzustellenFieldDatabase Feld wenn es aktualisiert wird.
 type: docs
-weight: 2520
+weight: 2690
 url: /de/net/aspose.words.fields/ifielddatabaseprovider/
 ---
 ## IFieldDatabaseProvider interface

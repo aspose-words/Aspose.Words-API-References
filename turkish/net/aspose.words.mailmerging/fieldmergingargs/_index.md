@@ -1,14 +1,16 @@
 ---
 title: Class FieldMergingArgs
 second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.MailMerging.FieldMergingArgs sınıf. için veri sağlar Birleştirme Alanı olay.
+description: Aspose.Words.MailMerging.FieldMergingArgs sınıf. Şunun için veri sağlar Birleştirme Alanı olay.
 type: docs
-weight: 3550
+weight: 3770
 url: /tr/net/aspose.words.mailmerging/fieldmergingargs/
 ---
 ## FieldMergingArgs class
 
-için veri sağlar **Birleştirme Alanı** olay.
+Şunun için veri sağlar: **Birleştirme Alanı** olay.
+
+Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Adres Mektup Birleştirme ve Raporlama](https://docs.aspose.com/words/net/mail-merge-and-reporting/) dokümantasyon makalesi.
 
 ```csharp
 public class FieldMergingArgs : FieldMergingArgsBase
@@ -18,24 +20,25 @@ public class FieldMergingArgs : FieldMergingArgsBase
 
 | İsim | Tanım |
 | --- | --- |
-| [Document](../../aspose.words.mailmerging/fieldmergingargsbase/document/) { get; } | [`Document`](../fieldmergingargsbase/document/) adres mektup birleştirmenin gerçekleştirildiği nesne. |
+| [Document](../../aspose.words.mailmerging/fieldmergingargsbase/document/) { get; } | Şunu döndürür:[`Document`](../fieldmergingargsbase/document/) Adres-mektup birleştirmenin gerçekleştirildiği nesne. |
 | [DocumentFieldName](../../aspose.words.mailmerging/fieldmergingargsbase/documentfieldname/) { get; } | Belgede belirtildiği gibi birleştirme alanının adını alır. |
 | [Field](../../aspose.words.mailmerging/fieldmergingargsbase/field/) { get; } | Geçerli birleştirme alanını temsil eden nesneyi alır. |
 | [FieldName](../../aspose.words.mailmerging/fieldmergingargsbase/fieldname/) { get; } | Veri kaynağındaki birleştirme alanının adını alır. |
-| [FieldValue](../../aspose.words.mailmerging/fieldmergingargsbase/fieldvalue/) { get; set; } | Veri kaynağından alanın değerini alır veya ayarlar. |
-| [RecordIndex](../../aspose.words.mailmerging/fieldmergingargsbase/recordindex/) { get; } | Birleştirilmekte olan kaydın sıfır tabanlı dizinini alır. |
-| [TableName](../../aspose.words.mailmerging/fieldmergingargsbase/tablename/) { get; } | Geçerli birleştirme işlemi için veri tablosunun adını veya ad yoksa boş dize adını alır. |
+| [FieldValue](../../aspose.words.mailmerging/fieldmergingargsbase/fieldvalue/) { get; set; } | Alanın değerini veri kaynağından alır veya ayarlar. |
+| [RecordIndex](../../aspose.words.mailmerging/fieldmergingargsbase/recordindex/) { get; } | Birleştirilecek kaydın sıfır tabanlı dizinini alır. |
+| [TableName](../../aspose.words.mailmerging/fieldmergingargsbase/tablename/) { get; } | Geçerli birleştirme işlemi için veri tablosunun adını veya ad mevcut değilse boş dizeyi alır. |
 | [Text](../../aspose.words.mailmerging/fieldmergingargs/text/) { get; set; } | Geçerli birleştirme alanı için belgeye eklenecek metni alır veya ayarlar. |
 
 ### Notlar
 
-bu **Birleştirme Alanı** olay, adres mektup birleştirme sırasında belgede basit bir adres mektup birleştirme alanıyla karşılaşıldığında oluşur. Adres mektup birleştirme motorunun belgeye eklemesi için bu olaya return metnini yanıtlayabilirsiniz.
+**Birleştirme Alanı** olay, adres-mektup birleştirme sırasında belgede basit bir adres-mektup birleştirme alanıyla karşılaşıldığında meydana gelir. Adres-mektup birleştirme motorunun belgeye eklemesi için bu etkinliğe return metnine yanıt verebilirsiniz.
 
 ### Örnekler
 
-Birleştirme verilerini HTML belgeleri biçiminde işleyen özel bir geri aramayla adres mektup birleştirmenin nasıl yürütüleceğini gösterir.
+HTML belgeleri biçimindeki birleştirme verilerini işleyen özel bir geri çağırma ile adres-mektup birleştirmenin nasıl yürütüleceğini gösterir.
 
 ```csharp
+public void MergeHtml()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -65,13 +68,13 @@ Birleştirme verilerini HTML belgeleri biçiminde işleyen özel bir geri aramay
 }
 
 /// <summary>
-/// Adres mektup birleştirme, adı "html_" öneki ile başlayan bir MERGEFIELD ile karşılaşırsa,
-/// bu geri arama, birleştirme verilerini HTML içeriği olarak ayrıştırır ve sonucu MERGEFIELD'in belge konumuna ekler.
+/// Adres-mektup birleştirme, adı "html_" önekiyle başlayan bir MERGEFIELD ile karşılaşırsa,
+/// bu geri çağırma, birleştirme verilerini HTML içeriği olarak ayrıştırır ve sonucu MERGEFIELD'ın belge konumuna ekler.
 /// </summary>
 private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 {
     /// <summary>
-    /// Adres mektup birleştirme verileri bir MERGEFIELD ile birleştirdiğinde çağrılır.
+    /// Adres-mektup birleştirme verileri MERGEFIELD ile birleştirdiğinde çağrılır.
     /// </summary>
     void IFieldMergingCallback.FieldMerging(FieldMergingArgs args)
     {
@@ -83,7 +86,7 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
             builder.InsertHtml((string)args.FieldValue);
 
             // Birleştirilmiş içeriği zaten manuel olarak eklediğimiz için,
-             // "Metin" özelliği aracılığıyla içerik döndürerek bu olaya yanıt vermemiz gerekmeyecek.
+             // bu etkinliğe "Text" özelliği aracılığıyla içerik döndürerek yanıt vermemize gerek kalmayacak.
             args.Text = string.Empty;
         }
     }

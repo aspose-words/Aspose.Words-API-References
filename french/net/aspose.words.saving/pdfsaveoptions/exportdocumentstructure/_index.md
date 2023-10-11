@@ -3,7 +3,7 @@ title: PdfSaveOptions.ExportDocumentStructure
 second_title: Référence de l'API Aspose.Words pour .NET
 description: PdfSaveOptions propriété. Obtient ou définit une valeur déterminant sil faut ou non exporter la structure du document.
 type: docs
-weight: 120
+weight: 140
 url: /fr/net/aspose.words.saving/pdfsaveoptions/exportdocumentstructure/
 ---
 ## PdfSaveOptions.ExportDocumentStructure property
@@ -22,7 +22,7 @@ Notez que l'exportation de la structure du document augmente considérablement l
 
 ### Exemples
 
-Montre comment conserver les éléments de la structure du document, ce qui peut aider à interpréter par programme notre document.
+Montre comment préserver les éléments de structure du document, qui peuvent aider à interpréter notre document par programmation.
 
 ```csharp
 Document doc = new Document();
@@ -34,17 +34,17 @@ builder.ParagraphFormat.Style = doc.Styles["Normal"];
 builder.Write(
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
 
-// Crée un objet "PdfSaveOptions" que nous pouvons passer à la méthode "Save" du document
+// Crée un objet "PdfSaveOptions" que l'on peut passer à la méthode "Save" du document
 // pour modifier la façon dont cette méthode convertit le document en .PDF.
 PdfSaveOptions options = new PdfSaveOptions();
 
-// Définissez la propriété "ExportDocumentStructure" sur "true" pour rendre la structure du document, telles les balises, disponible via le
+// Définissez la propriété "ExportDocumentStructure" sur "true" pour rendre la structure du document, telles que les balises, disponible via le
 // Volet de navigation "Contenu" d'Adobe Acrobat au prix d'une taille de fichier accrue.
 // Définissez la propriété "ExportDocumentStructure" sur "false" pour ne pas exporter la structure du document.
 options.ExportDocumentStructure = exportDocumentStructure;
 
-// Supposons que nous exportons la structure du document lors de l'enregistrement de ce document. Dans ce cas,
-// nous pouvons l'ouvrir à l'aide d'Adobe Acrobat et trouver des balises pour des éléments tels que le titre
+// Supposons que nous exportions la structure du document tout en enregistrant ce document. Dans ce cas,
+// nous pouvons l'ouvrir avec Adobe Acrobat et trouver des balises pour des éléments tels que le titre
 // et le paragraphe suivant via "View" -> "Afficher/Masquer" -> "Volets de navigation" -> "Mots clés".
 doc.Save(ArtifactsDir + "PdfSaveOptions.ExportDocumentStructure.pdf", options);
 ```

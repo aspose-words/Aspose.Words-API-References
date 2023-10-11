@@ -1,14 +1,14 @@
 ---
 title: DocumentProperty.ToString
 second_title: Aspose.Words لمراجع .NET API
-description: DocumentProperty طريقة. إرجاع قيمة الخاصية كسلسلة منسقة وفقًا للإعدادات المحلية الحالية.
+description: DocumentProperty طريقة. تُرجع قيمة الخاصية كسلسلة منسقة وفقًا للغة المحلية الحالية.
 type: docs
 weight: 110
 url: /ar/net/aspose.words.properties/documentproperty/tostring/
 ---
 ## DocumentProperty.ToString method
 
-إرجاع قيمة الخاصية كسلسلة منسقة وفقًا للإعدادات المحلية الحالية.
+تُرجع قيمة الخاصية كسلسلة منسقة وفقًا للغة المحلية الحالية.
 
 ```csharp
 public override string ToString()
@@ -16,11 +16,11 @@ public override string ToString()
 
 ### ملاحظات
 
-يحول خاصية منطقية إلى "Y" أو "N" . يحول خاصية التاريخ إلى سلسلة تاريخ قصيرة . بالنسبة لجميع الأنواع الأخرى ، يحول خاصية باستخدام Object.ToString ().
+تحويل خاصية منطقية إلى "Y" أو "N". تحويل خاصية تاريخ إلى سلسلة تاريخ قصيرة. بالنسبة لجميع الأنواع الأخرى، يتم تحويل خاصية باستخدام Object.ToString().
 
 ### أمثلة
 
-يعرض طرق تحويل الأنواع المختلفة لخصائص المستند المخصصة.
+يعرض طرق تحويل النوع المختلفة لخصائص المستند المخصصة.
 
 ```csharp
 Document doc = new Document();
@@ -40,13 +40,13 @@ Assert.AreEqual(1, properties["Authorized Revision"].ToInt());
 Assert.AreEqual(123.45d, properties["Authorized Amount"].ToDouble());
 ```
 
-يوضح كيفية التعامل مع خصائص المستند المخصصة.
+يوضح كيفية العمل مع خصائص المستند المخصصة.
 
 ```csharp
 Document doc = new Document(MyDir + "Properties.docx");
 
-// يحتوي كل مستند على مجموعة من الخصائص المخصصة ، والتي ، مثل الخصائص المضمنة ، هي أزواج مفتاح - قيمة.
-// يحتوي المستند على قائمة ثابتة من الخصائص المضمنة. يقوم المستخدم بإنشاء كافة الخصائص المخصصة. 
+// يحتوي كل مستند على مجموعة من الخصائص المخصصة، والتي، مثل الخصائص المضمنة، هي أزواج قيمة المفتاح.
+ // يحتوي المستند على قائمة ثابتة بالخصائص المضمنة. يقوم المستخدم بإنشاء كافة الخصائص المخصصة.
 Assert.AreEqual("Value of custom document property", doc.CustomDocumentProperties["CustomProperty"].ToString());
 
 doc.CustomDocumentProperties.Add("CustomProperty2", "Value of custom document property #2");

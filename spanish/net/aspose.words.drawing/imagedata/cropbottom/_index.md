@@ -1,14 +1,14 @@
 ---
 title: ImageData.CropBottom
 second_title: Referencia de API de Aspose.Words para .NET
-description: ImageData propiedad. Define la fracción de eliminación de la imagen desde el lado inferior.
+description: ImageData propiedad. Define la fracción de eliminación de la imagen desde la parte inferior.
 type: docs
 weight: 60
 url: /es/net/aspose.words.drawing/imagedata/cropbottom/
 ---
 ## ImageData.CropBottom property
 
-Define la fracción de eliminación de la imagen desde el lado inferior.
+Define la fracción de eliminación de la imagen desde la parte inferior.
 
 ```csharp
 public double CropBottom { get; set; }
@@ -30,11 +30,11 @@ Shape sourceShape = (Shape)imgSourceDoc.GetChildNodes(NodeType.Shape, true)[0];
 
 Document dstDoc = new Document();
 
-// Importe una forma del documento de origen y agréguela al primer párrafo.
+// Importa una forma del documento fuente y añádela al primer párrafo.
 Shape importedShape = (Shape)dstDoc.ImportNode(sourceShape, true);
 dstDoc.FirstSection.Body.FirstParagraph.AppendChild(importedShape);
 
-// La forma importada contiene una imagen. Podemos acceder a las propiedades de la imagen y los datos sin procesar a través del objeto ImageData.
+// La forma importada contiene una imagen. Podemos acceder a las propiedades de la imagen y a los datos sin procesar a través del objeto ImageData.
 ImageData imageData = importedShape.ImageData;
 imageData.Title = "Imported Image";
 
@@ -49,28 +49,28 @@ Assert.False(imageData.IsLink);
 Assert.False(imageData.IsLinkOnly);
 
 // Las propiedades "Brillo" y "Contraste" definen el brillo y el contraste de la imagen
-// en una escala de 0-1, con el valor predeterminado en 0,5.
+// en una escala de 0 a 1, con el valor predeterminado de 0,5.
 imageData.Brightness = 0.8;
 imageData.Contrast = 1.0;
 
 // Los valores de brillo y contraste anteriores han creado una imagen con mucho blanco.
-// Podemos seleccionar un color con la propiedad ChromaKey para reemplazarlo con transparencia, como el blanco.
+// Podemos seleccionar un color con la propiedad ChromaKey para reemplazarlo con transparencia, como por ejemplo el blanco.
 imageData.ChromaKey = Color.White;
 
-// Importe la forma de origen nuevamente y configure la imagen en monocromo.
+// Importa la forma de origen nuevamente y configura la imagen en monocromática.
 importedShape = (Shape)dstDoc.ImportNode(sourceShape, true);
 dstDoc.FirstSection.Body.FirstParagraph.AppendChild(importedShape);
 
 importedShape.ImageData.GrayScale = true;
 
-// Importe la forma de origen nuevamente para crear una tercera imagen y configúrela en BiLevel.
+// Importa la forma de origen nuevamente para crear una tercera imagen y configúrala en BiLevel.
 // BiLevel establece cada píxel en blanco o negro, el que esté más cerca del color original.
 importedShape = (Shape)dstDoc.ImportNode(sourceShape, true);
 dstDoc.FirstSection.Body.FirstParagraph.AppendChild(importedShape);
 
 importedShape.ImageData.BiLevel = true;
 
-// El recorte se determina en una escala de 0-1. Recortar un lado por 0.3
+// El recorte se determina en una escala de 0-1. Recortar un lado en 0,3
 // recortará el 30% de la imagen en el lado recortado.
 importedShape.ImageData.CropBottom = 0.3;
 importedShape.ImageData.CropLeft = 0.3;

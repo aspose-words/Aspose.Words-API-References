@@ -1,14 +1,14 @@
 ---
 title: Table.StyleOptions
 second_title: Aspose.Words لمراجع .NET API
-description: Table ملكية. الحصول على أو تعيين علامات البت التي تحدد كيفية تطبيق نمط الجدول على هذا الجدول.
+description: Table ملكية. الحصول على أو تعيين إشارات البت التي تحدد كيفية تطبيق نمط الجدول على هذا الجدول.
 type: docs
 weight: 300
 url: /ar/net/aspose.words.tables/table/styleoptions/
 ---
 ## Table.StyleOptions property
 
-الحصول على أو تعيين علامات البت التي تحدد كيفية تطبيق نمط الجدول على هذا الجدول.
+الحصول على أو تعيين إشارات البت التي تحدد كيفية تطبيق نمط الجدول على هذا الجدول.
 
 ```csharp
 public TableStyleOptions StyleOptions { get; set; }
@@ -26,11 +26,11 @@ Table table = builder.StartTable();
 // يجب علينا إدراج صف واحد على الأقل قبل تعيين أي تنسيق للجدول.
 builder.InsertCell();
 
-// تعيين نمط الجدول المستخدم بناءً على معرف النمط.
-// لاحظ أنه ليست كل أنماط الجدول متاحة عند الحفظ بتنسيق doc.
+// قم بتعيين نمط الجدول المستخدم بناءً على معرف النمط.
+// لاحظ أنه ليست كل أنماط الجدول متاحة عند الحفظ بتنسيق .doc.
 table.StyleIdentifier = StyleIdentifier.MediumShading1Accent1;
 
-// قم بتطبيق النمط جزئيًا على ميزات الجدول بناءً على المسندات ، ثم قم ببناء الجدول.
+// قم بتطبيق النمط جزئيًا على ميزات الجدول استنادًا إلى المسندات، ثم أنشئ الجدول.
 table.StyleOptions =
     TableStyleOptions.FirstColumn | TableStyleOptions.RowBands | TableStyleOptions.FirstRow;
 table.AutoFit(AutoFitBehavior.AutoFitToContents);

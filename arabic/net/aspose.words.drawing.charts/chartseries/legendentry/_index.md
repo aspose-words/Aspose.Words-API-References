@@ -1,14 +1,14 @@
 ---
 title: ChartSeries.LegendEntry
 second_title: Aspose.Words لمراجع .NET API
-description: ChartSeries ملكية. يحصل على إدخال وسيلة الإيضاح لسلسلة الرسم البياني هذه.
+description: ChartSeries ملكية. الحصول على إدخال وسيلة إيضاح لسلسلة المخططات هذه.
 type: docs
-weight: 80
+weight: 90
 url: /ar/net/aspose.words.drawing.charts/chartseries/legendentry/
 ---
 ## ChartSeries.LegendEntry property
 
-يحصل على إدخال وسيلة الإيضاح لسلسلة الرسم البياني هذه.
+الحصول على إدخال وسيلة إيضاح لسلسلة المخططات هذه.
 
 ```csharp
 public ChartLegendEntry LegendEntry { get; }

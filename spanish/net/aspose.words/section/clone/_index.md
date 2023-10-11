@@ -3,7 +3,7 @@ title: Section.Clone
 second_title: Referencia de API de Aspose.Words para .NET
 description: Section método. Crea un duplicado de esta sección.
 type: docs
-weight: 110
+weight: 130
 url: /es/net/aspose.words/section/clone/
 ---
 ## Section.Clone method
@@ -28,12 +28,12 @@ builder.Write("Section 2");
 
 Assert.AreEqual("Section 1\x000cSection 2", doc.GetText().Trim());
 
-// Eliminar la primera sección del documento.
+// Elimina la primera sección del documento.
 doc.Sections.RemoveAt(0);
 
 Assert.AreEqual("Section 2", doc.GetText().Trim());
 
-// Agregue una copia de lo que ahora es la primera sección al final del documento.
+// Adjunte una copia de lo que ahora es la primera sección al final del documento.
 int lastSectionIdx = doc.Sections.Count - 1;
 Section newSection = doc.Sections[lastSectionIdx].Clone();
 doc.Sections.Add(newSection);

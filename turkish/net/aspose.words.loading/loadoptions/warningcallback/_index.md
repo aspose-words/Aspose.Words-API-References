@@ -1,14 +1,14 @@
 ---
 title: LoadOptions.WarningCallback
 second_title: Aspose.Words for .NET API Referansı
-description: LoadOptions mülk. Veri veya biçimlendirme aslına uygunluğu kaybına neden olabilecek bir sorun algılandığında yükleme işlemi sırasında çağrılır.
+description: LoadOptions mülk. Yükleme işlemi sırasında veri veya biçimlendirme kalitesinin kaybına neden olabilecek bir sorun algılandığında çağrılır.
 type: docs
 weight: 170
 url: /tr/net/aspose.words.loading/loadoptions/warningcallback/
 ---
 ## LoadOptions.WarningCallback property
 
-Veri veya biçimlendirme aslına uygunluğu kaybına neden olabilecek bir sorun algılandığında, yükleme işlemi sırasında çağrılır.
+Yükleme işlemi sırasında, veri veya biçimlendirme kalitesinin kaybına neden olabilecek bir sorun algılandığında çağrılır.
 
 ```csharp
 public IWarningCallback WarningCallback { get; set; }
@@ -19,20 +19,22 @@ public IWarningCallback WarningCallback { get; set; }
 Belge yükleme sırasında oluşan uyarıların nasıl yazdırılacağını ve saklanacağını gösterir.
 
 ```csharp
+public void LoadOptionsWarningCallback()
 {
-    // Yeni bir LoadOptions nesnesi oluşturun ve WarningCallback niteliğini ayarlayın
+    // Yeni bir LoadOptions nesnesi oluşturun ve onun WarningCallback özelliğini ayarlayın
     // IWarningCallback uygulamamızın bir örneği olarak.
     LoadOptions loadOptions = new LoadOptions();
     loadOptions.WarningCallback = new DocumentLoadingWarningCallback();
 
-    // Geri aramamız, yükleme işlemi sırasında gelen tüm uyarıları yazdıracaktır.
+    // Geri aramamız yükleme işlemi sırasında ortaya çıkan tüm uyarıları yazdıracaktır.
     Document doc = new Document(MyDir + "Document.docx", loadOptions);
 
     List<WarningInfo> warnings = ((DocumentLoadingWarningCallback)loadOptions.WarningCallback).GetWarnings();
     Assert.AreEqual(3, warnings.Count);
+}
 
 /// <summary>
-/// Belge yükleme sırasında ortaya çıktıkça uyarıları ve ayrıntılarını yazdıran IWarningCallback.
+/// Belge yükleme sırasında ortaya çıkan uyarıları ve ayrıntılarını yazdıran IWarningCallback.
 /// </summary>
 private class DocumentLoadingWarningCallback : IWarningCallback
 {

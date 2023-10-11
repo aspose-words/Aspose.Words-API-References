@@ -1,14 +1,14 @@
 ---
 title: PageSetup.DifferentFirstPageHeaderFooter
 second_title: Aspose.Words per .NET API Reference
-description: PageSetup proprietà. Vero se nella prima pagina viene utilizzata unintestazione o un piè di pagina diversi.
+description: PageSetup proprietà. Vero se nella prima pagina viene utilizzata unintestazione o un piè di pagina diverso.
 type: docs
 weight: 110
 url: /it/net/aspose.words/pagesetup/differentfirstpageheaderfooter/
 ---
 ## PageSetup.DifferentFirstPageHeaderFooter property
 
-**Vero** se nella prima pagina viene utilizzata un'intestazione o un piè di pagina diversi.
+Vero se nella prima pagina viene utilizzata un'intestazione o un piè di pagina diverso.
 
 ```csharp
 public bool DifferentFirstPageHeaderFooter { get; set; }
@@ -22,11 +22,11 @@ Mostra come creare intestazioni e piè di pagina in un documento utilizzando Doc
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Specifica che vogliamo intestazioni e piè di pagina diversi per le prime, pari e dispari.
+// Specifica che vogliamo intestazioni e piè di pagina diversi per le prime pagine, pari e dispari.
 builder.PageSetup.DifferentFirstPageHeaderFooter = true;
 builder.PageSetup.OddAndEvenPagesHeaderFooter = true;
 
-// Crea le intestazioni, quindi aggiungi tre pagine al documento per visualizzare ogni tipo di intestazione.
+// Crea le intestazioni, quindi aggiungi tre pagine al documento per visualizzare ciascun tipo di intestazione.
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderFirst);
 builder.Write("Header for the first page");
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderEven);
@@ -44,22 +44,22 @@ builder.Writeln("Page3");
 doc.Save(ArtifactsDir + "DocumentBuilder.HeadersAndFooters.docx");
 ```
 
-Mostra come abilitare o disabilitare le intestazioni/piè di pagina primari.
+Mostra come abilitare o disabilitare intestazioni/piè di pagina primari.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Di seguito sono riportati due tipi di intestazione/piè di pagina.
-// 1 - L'intestazione/piè di pagina "Primo", che appare nella prima pagina della sezione.
+// 1 - L'intestazione/piè di pagina "Prima", che appare sulla prima pagina della sezione.
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderFirst);
 builder.Writeln("First page header.");
 
 builder.MoveToHeaderFooter(HeaderFooterType.FooterFirst);
 builder.Writeln("First page footer.");
 
-// 2 - L'intestazione/piè di pagina "Principale", che appare in ogni pagina della sezione.
-// Possiamo sostituire l'intestazione/piè di pagina principale con un'intestazione/piè di pagina prima e pari.
+// 2 - L'intestazione/piè di pagina "Principale", che appare su ogni pagina della sezione.
+ // Possiamo sovrascrivere l'intestazione/piè di pagina principale con un'intestazione/piè di pagina pari e la prima.
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 builder.Writeln("Primary header.");
 
@@ -74,7 +74,7 @@ builder.InsertBreak(BreakType.PageBreak);
 builder.Writeln("Page 3.");
 
 // Ogni sezione ha un oggetto "PageSetup" che specifica le proprietà relative all'aspetto della pagina
-// come orientamento, dimensioni e bordi.
+// come orientamento, dimensione e bordi.
 // Imposta la proprietà "DifferentFirstPageHeaderFooter" su "true" per applicare la prima intestazione/piè di pagina alla prima pagina.
 // Imposta la proprietà "DifferentFirstPageHeaderFooter" su "false"
 // per fare in modo che la prima pagina visualizzi l'intestazione/piè di pagina principale.
@@ -115,9 +115,9 @@ public void Order(bool differentFirstPageHeaderFooter)
         }
 
         /// <summary>
-        /// Durante un'operazione trova e sostituisci, registra il contenuto di ogni nodo che ha il testo che l'operazione "trova",
+        /// Durante un'operazione di ricerca e sostituzione, registra il contenuto di ogni nodo che contiene testo che l'operazione "trova",
         /// nello stato in cui si trova prima che avvenga la sostituzione.
-        /// Questo visualizzerà l'ordine in cui l'operazione di sostituzione del testo attraversa i nodi.
+        /// Verrà visualizzato l'ordine in cui l'operazione di sostituzione del testo attraversa i nodi.
         /// </summary>
         private class ReplaceLog : IReplacingCallback
         {

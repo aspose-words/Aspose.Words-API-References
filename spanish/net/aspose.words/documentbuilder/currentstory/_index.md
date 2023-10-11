@@ -1,14 +1,14 @@
 ---
 title: DocumentBuilder.CurrentStory
 second_title: Referencia de API de Aspose.Words para .NET
-description: DocumentBuilder propiedad. Obtiene la historia que está actualmente seleccionada en este DocumentBuilder.
+description: DocumentBuilder propiedad. Obtiene la historia actualmente seleccionada en esteDocumentBuilder .
 type: docs
 weight: 70
 url: /es/net/aspose.words/documentbuilder/currentstory/
 ---
 ## DocumentBuilder.CurrentStory property
 
-Obtiene la historia que está actualmente seleccionada en este DocumentBuilder.
+Obtiene la historia actualmente seleccionada en este[`DocumentBuilder`](../) .
 
 ```csharp
 public Story CurrentStory { get; }
@@ -16,13 +16,13 @@ public Story CurrentStory { get; }
 
 ### Ejemplos
 
-Muestra cómo trabajar con la historia actual de un creador de documentos.
+Muestra cómo trabajar con la historia actual de un generador de documentos.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Una historia es un tipo de nodo que tiene nodos de párrafo secundarios, como un cuerpo.
+// Una Historia es un tipo de nodo que tiene nodos de Párrafo secundarios, como un Cuerpo.
 Assert.AreEqual(builder.CurrentStory, doc.FirstSection.Body);
 Assert.AreEqual(builder.CurrentStory, builder.CurrentParagraph.ParentNode);
 Assert.AreEqual(StoryType.MainText, builder.CurrentStory.StoryType);

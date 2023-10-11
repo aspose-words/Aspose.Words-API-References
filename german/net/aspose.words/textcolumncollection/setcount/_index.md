@@ -16,15 +16,15 @@ public void SetCount(int newCount)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| newCount | Int32 | Die Anzahl der Spalten, in die der Text geordnet werden soll. |
+| newCount | Int32 | Die Anzahl der Spalten, in die der Text angeordnet werden soll. |
 
 ### Bemerkungen
 
-Wann[`EvenlySpaced`](../evenlyspaced/) ist **FALSCH** und Sie erhöhen die Anzahl der Spalten, neu[`TextColumn`](../../textcolumn/) Objekte werden mit Nullbreite und -abstand erstellt. Sie müssen Breite und Abstand für die neuen Spalten festlegen.
+Wann[`EvenlySpaced`](../evenlyspaced/) Ist`FALSCH` und Sie erhöhen die Anzahl der Spalten, neu[`TextColumn`](../../textcolumn/) Objekte werden mit einer Breite und einem Abstand von Null erstellt. Sie müssen Breite und Abstand für die neuen Spalten festlegen.
 
 ### Beispiele
 
-Zeigt, wie mehrere gleichmäßig verteilte Spalten in einem Abschnitt erstellt werden.
+Zeigt, wie Sie mehrere gleichmäßig verteilte Spalten in einem Abschnitt erstellen.
 
 ```csharp
 Document doc = new Document();

@@ -1,14 +1,14 @@
 ---
 title: Enum TableAlignment
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Tables.TableAlignment énumération. Spécifie lalignement dun tableau en ligne.
+description: Aspose.Words.Tables.TableAlignment énumération. Spécifie lalignement dune table en ligne.
 type: docs
-weight: 6050
+weight: 6350
 url: /fr/net/aspose.words.tables/tablealignment/
 ---
 ## TableAlignment enumeration
 
-Spécifie l'alignement d'un tableau en ligne.
+Spécifie l'alignement d'une table en ligne.
 
 ```csharp
 public enum TableAlignment
@@ -33,7 +33,7 @@ Table table = doc.FirstSection.Body.Tables[0];
 // Aligne le tableau au centre de la page.
 table.Alignment = TableAlignment.Center;
 
-// Efface toutes les bordures et tous les ombrages existants du tableau.
+// Supprime toutes les bordures et tous les ombrages existants du tableau.
 table.ClearBorders();
 table.ClearShading();
 
@@ -43,7 +43,7 @@ table.SetBorder(BorderType.Right, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Top, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Bottom, LineStyle.Single, 1.5, Color.Green, true);
 
-// Remplissez les cellules avec une couleur unie vert clair.
+// Remplit les cellules avec une couleur unie vert clair.
 table.SetShading(TextureIndex.TextureSolid, Color.LightGreen, Color.Empty);
 
 doc.Save(ArtifactsDir + "Table.SetOutlineBorders.docx");

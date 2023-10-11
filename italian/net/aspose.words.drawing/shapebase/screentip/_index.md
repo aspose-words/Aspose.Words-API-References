@@ -3,7 +3,7 @@ title: ShapeBase.ScreenTip
 second_title: Aspose.Words per .NET API Reference
 description: ShapeBase proprietà. Definisce il testo visualizzato quando il puntatore del mouse si sposta sulla forma.
 type: docs
-weight: 440
+weight: 480
 url: /it/net/aspose.words.drawing/shapebase/screentip/
 ---
 ## ShapeBase.ScreenTip property
@@ -31,7 +31,7 @@ shape.HRef = "https://forum.aspose.com/";
 shape.Target = "New Window";
 shape.ScreenTip = "Aspose.Words Support Forums";
 
-// Ctrl + clic sinistro sulla forma in Microsoft Word aprirà una nuova finestra del browser web
+// Ctrl + facendo clic con il pulsante sinistro del mouse sulla forma in Microsoft Word si aprirà una nuova finestra del browser Web
 // e portaci al collegamento ipertestuale nella proprietà "HRef".
 doc.Save(ArtifactsDir + "Image.InsertImageWithHyperlink.docx");
 ```

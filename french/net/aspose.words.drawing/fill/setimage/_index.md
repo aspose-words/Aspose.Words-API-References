@@ -1,14 +1,14 @@
 ---
 title: Fill.SetImage
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Fill méthode. Change le type de remplissage en image unique.
+description: Fill méthode. Modifie le type de remplissage en image unique.
 type: docs
-weight: 190
+weight: 250
 url: /fr/net/aspose.words.drawing/fill/setimage/
 ---
 ## SetImage(string) {#setimage_2}
 
-Change le type de remplissage en image unique.
+Modifie le type de remplissage en image unique.
 
 ```csharp
 public void SetImage(string fileName)
@@ -20,13 +20,13 @@ public void SetImage(string fileName)
 
 ### Exemples
 
-Montre comment définir le type de remplissage de forme en tant qu'image.
+Montre comment définir le type de remplissage de forme comme image.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Il existe plusieurs façons de définir l'image.
+// Il existe plusieurs façons de définir une image.
 Shape shape = builder.InsertShape(ShapeType.Rectangle, 80, 80);
 // 1 - Utilisation d'un nom de fichier système local :
 shape.Fill.SetImage(ImageDir + "Logo.jpg");
@@ -36,7 +36,7 @@ doc.Save(ArtifactsDir + "Shape.FillImage.FileName.docx");
 shape.Fill.SetImage(File.ReadAllBytes(ImageDir + "Logo.jpg"));
 doc.Save(ArtifactsDir + "Shape.FillImage.ByteArray.docx");
 
-// 3 - Depuis un flux :
+// 3 - Depuis un flux :
 using (FileStream stream = new FileStream(ImageDir + "Logo.jpg", FileMode.Open))
     shape.Fill.SetImage(stream);
 doc.Save(ArtifactsDir + "Shape.FillImage.Stream.docx");
@@ -52,7 +52,7 @@ doc.Save(ArtifactsDir + "Shape.FillImage.Stream.docx");
 
 ## SetImage(Stream) {#setimage_1}
 
-Change le type de remplissage en image unique.
+Modifie le type de remplissage en image unique.
 
 ```csharp
 public void SetImage(Stream stream)
@@ -72,7 +72,7 @@ public void SetImage(Stream stream)
 
 ## SetImage(byte[]) {#setimage}
 
-Change le type de remplissage en image unique.
+Modifie le type de remplissage en image unique.
 
 ```csharp
 public void SetImage(byte[] imageBytes)
@@ -80,7 +80,7 @@ public void SetImage(byte[] imageBytes)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| imageBytes | Byte[] | Le tableau d'octets de l'image. |
+| imageBytes | Byte[] | Le tableau d’octets de l’image. |
 
 ### Voir également
 

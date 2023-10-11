@@ -23,7 +23,7 @@ public void ExecuteWithRegionsADO(object recordset, string tableName)
 
 Den här metoden är användbar när du tänker använda Aspose.Words-klasserna as COM-objekt från ohanterad kod, till exempel ett program byggt med ASP eller Visual Basic 6.0.
 
-För mer information se beskrivning av MailMerge.ExecuteWithRegions(DataTable).
+För mer information se beskrivning av[`ExecuteWithRegions`](../executewithregions/).
 
 ### Exempel
 
@@ -59,7 +59,7 @@ public void ExecuteWithRegionsADO()
 
     // Skapa en anslutningssträng som pekar på databasfilen "Northwind".
     // i vårt lokala filsystem och öppna en anslutning.
-    string connectionString = @"Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" + DatabaseDir + "Northwind.mdb";
+    string connectionString = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=" + DatabaseDir + "Northwind.accdb";
     connection.Open(connectionString);
 
     // Fyll i vår datauppsättning genom att köra ett SQL-kommando på vår databas.
@@ -83,6 +83,7 @@ public void ExecuteWithRegionsADO()
     doc.MailMerge.ExecuteWithRegionsADO(recordset, "MergeRegion2");
 
     doc.Save(ArtifactsDir + "MailMerge.ExecuteWithRegionsADO.docx");
+
 }
 
 /// <summary>

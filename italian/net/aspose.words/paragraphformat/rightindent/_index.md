@@ -1,14 +1,14 @@
 ---
 title: ParagraphFormat.RightIndent
 second_title: Aspose.Words per .NET API Reference
-description: ParagraphFormat proprietà. Ottiene o imposta il valore in punti che rappresenta il rientro destro per il paragrafo.
+description: ParagraphFormat proprietà. Ottiene o imposta il valore in punti che rappresenta il rientro destro del paragrafo.
 type: docs
-weight: 260
+weight: 270
 url: /it/net/aspose.words/paragraphformat/rightindent/
 ---
 ## ParagraphFormat.RightIndent property
 
-Ottiene o imposta il valore (in punti) che rappresenta il rientro destro per il paragrafo.
+Ottiene o imposta il valore (in punti) che rappresenta il rientro destro del paragrafo.
 
 ```csharp
 public double RightIndent { get; set; }
@@ -16,15 +16,15 @@ public double RightIndent { get; set; }
 
 ### Esempi
 
-Mostra come configurare la formattazione del paragrafo per creare testo fuori centro.
+Mostra come configurare la formattazione del paragrafo per creare testo decentrato.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Centra tutto il testo che scrive il generatore di documenti e imposta i rientri.
-// La configurazione del rientro di seguito creerà un corpo di testo che si posizionerà in modo asimmetrico sulla pagina.
-// Il "centro" a cui allineiamo il testo sarà al centro del corpo del testo, non al centro della pagina.
+// Centra tutto il testo scritto dal generatore di documenti e imposta i rientri.
+// La configurazione del rientro seguente creerà un corpo di testo che si posizionerà asimmetricamente sulla pagina.
+// Il "centro" a cui allineiamo il testo sarà il centro del corpo del testo, non il centro della pagina.
 ParagraphFormat paragraphFormat = builder.ParagraphFormat;
 paragraphFormat.Alignment = ParagraphAlignment.Center;
 paragraphFormat.LeftIndent = 100;

@@ -1,14 +1,14 @@
 ---
 title: FieldMergingArgsBase.Document
 second_title: Referencia de API de Aspose.Words para .NET
-description: FieldMergingArgsBase propiedad. Devuelve elDocument objeto para el que se realiza la combinación de correspondencia.
+description: FieldMergingArgsBase propiedad. Devuelve elDocument objeto para el cual se realiza la combinación de correspondencia.
 type: docs
 weight: 10
 url: /es/net/aspose.words.mailmerging/fieldmergingargsbase/document/
 ---
 ## FieldMergingArgsBase.Document property
 
-Devuelve el`Document` objeto para el que se realiza la combinación de correspondencia.
+Devuelve el`Document` objeto para el cual se realiza la combinación de correspondencia.
 
 ```csharp
 public Document Document { get; }
@@ -16,9 +16,10 @@ public Document Document { get; }
 
 ### Ejemplos
 
-Muestra cómo ejecutar una combinación de correo con una devolución de llamada personalizada que maneja los datos combinados en forma de documentos HTML.
+Muestra cómo ejecutar una combinación de correspondencia con una devolución de llamada personalizada que maneja datos combinados en forma de documentos HTML.
 
 ```csharp
+public void MergeHtml()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -54,19 +55,19 @@ Muestra cómo ejecutar una combinación de correo con una devolución de llamada
 private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 {
     /// <summary>
-    /// Llamado cuando una combinación de correo combina datos en un MERGEFIELD.
+    /// Se llama cuando una combinación de correspondencia combina datos en un MERGEFIELD.
     /// </summary>
     void IFieldMergingCallback.FieldMerging(FieldMergingArgs args)
     {
         if (args.DocumentFieldName.StartsWith("html_") && args.Field.GetFieldCode().Contains("\\b"))
         {
-            // Agregar datos HTML analizados al cuerpo del documento.
+            // Agrega datos HTML analizados al cuerpo del documento.
             DocumentBuilder builder = new DocumentBuilder(args.Document);
             builder.MoveToMergeField(args.DocumentFieldName);
             builder.InsertHtml((string)args.FieldValue);
 
-            // Dado que ya hemos insertado el contenido fusionado manualmente,
-              // no necesitaremos responder a este evento devolviendo contenido a través de la propiedad "Texto".
+            // Como ya hemos insertado el contenido fusionado manualmente,
+             // no necesitaremos responder a este evento devolviendo contenido a través de la propiedad "Texto".
             args.Text = string.Empty;
         }
     }

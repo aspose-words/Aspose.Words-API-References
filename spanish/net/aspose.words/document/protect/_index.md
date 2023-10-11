@@ -3,7 +3,7 @@ title: Document.Protect
 second_title: Referencia de API de Aspose.Words para .NET
 description: Document método. Protege el documento de cambios sin cambiar la contraseña existente o asigna una contraseña aleatoria.
 type: docs
-weight: 630
+weight: 670
 url: /es/net/aspose.words/document/protect/
 ---
 ## Protect(ProtectionType) {#protect}
@@ -16,15 +16,15 @@ public void Protect(ProtectionType type)
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| type | ProtectionType | Especifica el tipo de protección para el documento. |
+| type | ProtectionType | Especifica el tipo de protección del documento. |
 
 ### Observaciones
 
-Cuando un documento está protegido, el usuario solo puede realizar cambios limitados, , como agregar anotaciones, realizar revisiones o completar un formulario.
+Cuando un documento está protegido, el usuario sólo puede realizar cambios limitados, , como agregar anotaciones, realizar revisiones o completar un formulario.
 
 Cuando protege un documento y el documento ya tiene una contraseña de protección, la contraseña de protección existente no se cambia.
 
-Cuando protege un documento y el documento no tiene una contraseña de protección, este método asigna una contraseña aleatoria que hace que sea imposible desproteger el documento en Microsoft Word, pero aún puede desproteger el documento en Aspose.Words como no lo hace solicitar una contraseña al desproteger.
+Cuando protege un documento y el documento no tiene una contraseña de protección, este método asigna una contraseña aleatoria que hace imposible desproteger el documento en Microsoft Word, pero aún puede desproteger el documento en Aspose.Words ya que no solicitar una contraseña al desproteger.
 
 ### Ejemplos
 
@@ -71,14 +71,14 @@ public void Protect(ProtectionType type, string password)
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| type | ProtectionType | Especifica el tipo de protección para el documento. |
-| password | String | La contraseña para proteger el documento con. Especifique una cadena nula o vacía si desea proteger el documento sin contraseña. |
+| type | ProtectionType | Especifica el tipo de protección del documento. |
+| password | String | La contraseña para proteger el documento. Especificar`nulo` cadena vacía si desea proteger el documento sin contraseña. |
 
 ### Observaciones
 
-Cuando un documento está protegido, el usuario solo puede realizar cambios limitados, , como agregar anotaciones, realizar revisiones o completar un formulario.
+Cuando un documento está protegido, el usuario sólo puede realizar cambios limitados, , como agregar anotaciones, realizar revisiones o completar un formulario.
 
-Tenga en cuenta que la protección de documentos es diferente de la protección contra escritura. La protección contra escritura se especifica utilizando el[`WriteProtection`](../writeprotection/).
+Tenga en cuenta que la protección de documentos es diferente de la protección contra escritura. La protección contra escritura se especifica mediante el[`WriteProtection`](../writeprotection/).
 
 ### Ejemplos
 
@@ -91,11 +91,11 @@ doc.Protect(ProtectionType.ReadOnly, "password");
 Assert.AreEqual(ProtectionType.ReadOnly, doc.ProtectionType);
 
 // Si abrimos este documento con Microsoft Word con la intención de editarlo,
-// necesitaremos aplicar la contraseña para pasar la protección.
+// necesitaremos aplicar la contraseña para superar la protección.
 doc.Save(ArtifactsDir + "Document.Protect.docx");
 
-// Tenga en cuenta que la protección solo se aplica a los usuarios de Microsoft Word que abren nuestro documento.
-// No hemos encriptado el documento de ninguna manera, y no necesitamos la contraseña para abrirlo y editarlo mediante programación.
+// Tenga en cuenta que la protección sólo se aplica a los usuarios de Microsoft Word que abren nuestro documento.
+// No hemos cifrado el documento de ninguna manera y no necesitamos la contraseña para abrirlo y editarlo mediante programación.
 Document protectedDoc = new Document(ArtifactsDir + "Document.Protect.docx");
 
 Assert.AreEqual(ProtectionType.ReadOnly, protectedDoc.ProtectionType);

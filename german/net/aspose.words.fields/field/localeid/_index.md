@@ -16,19 +16,19 @@ public int LocaleId { get; set; }
 
 ### Beispiele
 
-Zeigt, wie ein Feld eingefügt und mit seinem Gebietsschema gearbeitet wird.
+Zeigt, wie man ein Feld einfügt und mit seinem Gebietsschema arbeitet.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Fügt ein DATE-Feld ein und druckt dann das angezeigte Datum.
+// Ein DATE-Feld einfügen und dann das angezeigte Datum ausdrucken.
 // Die aktuelle Kultur Ihres Threads bestimmt die Formatierung des Datums.
 Field field = builder.InsertField(@"DATE");
 Console.WriteLine($"Today's date, as displayed in the \"{CultureInfo.CurrentCulture.EnglishName}\" culture: {field.Result}");
 
 Assert.AreEqual(1033, field.LocaleId);
-// Das Ändern der Kultur unseres Threads wirkt sich auf das Ergebnis des DATE-Felds aus.
+// Eine Änderung der Kultur unseres Threads wirkt sich auf das Ergebnis des DATE-Felds aus.
 // Eine andere Möglichkeit, das DATE-Feld dazu zu bringen, ein Datum in einer anderen Kultur anzuzeigen, ist die Verwendung seiner LocaleId-Eigenschaft.
 // Auf diese Weise können wir vermeiden, die Kultur des Threads zu ändern, um diesen Effekt zu erzielen.
 doc.FieldOptions.FieldUpdateCultureSource = FieldUpdateCultureSource.FieldCode;

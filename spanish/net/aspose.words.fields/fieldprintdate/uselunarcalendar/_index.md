@@ -1,14 +1,14 @@
 ---
 title: FieldPrintDate.UseLunarCalendar
 second_title: Referencia de API de Aspose.Words para .NET
-description: FieldPrintDate propiedad. Obtiene o establece si se usa el calendario Lunar Hijri o el calendario Lunar Hebreo.
+description: FieldPrintDate propiedad. Obtiene o establece si se debe utilizar el calendario lunar Hijri o lunar hebreo.
 type: docs
 weight: 20
 url: /es/net/aspose.words.fields/fieldprintdate/uselunarcalendar/
 ---
 ## FieldPrintDate.UseLunarCalendar property
 
-Obtiene o establece si se usa el calendario Lunar Hijri o el calendario Lunar Hebreo.
+Obtiene o establece si se debe utilizar el calendario lunar Hijri o lunar hebreo.
 
 ```csharp
 public bool UseLunarCalendar { get; set; }
@@ -16,12 +16,12 @@ public bool UseLunarCalendar { get; set; }
 
 ### Ejemplos
 
-Muestra los campos de PRINTDATE leídos.
+Muestra los campos leídos PRINTDATE.
 
 ```csharp
 Document doc = new Document(MyDir + "Field sample - PRINTDATE.docx");
 
-// Cuando un documento es impreso por una impresora o impreso como PDF (pero no exportado a PDF),
+// Cuando un documento se imprime con una impresora o se imprime como PDF (pero no se exporta a PDF),
 // Los campos PRINTDATE mostrarán la fecha/hora de la operación de impresión.
 // Si no se ha realizado ninguna impresión, estos campos mostrarán "0/0/0000".
 FieldPrintDate field = (FieldPrintDate)doc.Range.Fields[0];
@@ -30,7 +30,7 @@ Assert.AreEqual("3/25/2020 12:00:00 AM", field.Result);
 Assert.AreEqual(" PRINTDATE ", field.GetFieldCode());
 
 // A continuación se muestran tres tipos de calendario diferentes según los cuales el campo PRINTDATE
-// puede mostrar la fecha y la hora de la última operación de impresión.
+// puede mostrar la fecha y hora de la última operación de impresión.
 // 1 - Calendario Lunar Islámico:
 field = (FieldPrintDate)doc.Range.Fields[1];
 
@@ -40,7 +40,7 @@ Assert.AreEqual(" PRINTDATE  \\h", field.GetFieldCode());
 
 field = (FieldPrintDate)doc.Range.Fields[2];
 
-// 2 - Calendario Umm al-Qura:
+// 2 - Calendario de Umm al-Qura:
 Assert.True(field.UseUmAlQuraCalendar);
 Assert.AreEqual("8/1/1441 12:00:00 AM", field.Result);
 Assert.AreEqual(" PRINTDATE  \\u", field.GetFieldCode());

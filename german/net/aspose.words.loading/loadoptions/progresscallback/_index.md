@@ -1,14 +1,14 @@
 ---
 title: LoadOptions.ProgressCallback
 second_title: Aspose.Words für .NET-API-Referenz
-description: LoadOptions eigendom. Wird beim Laden eines Dokuments aufgerufen und nimmt Daten zum Ladefortschritt entgegen.
+description: LoadOptions eigendom. Wird während des Ladens eines Dokuments aufgerufen und akzeptiert Daten über den Ladefortschritt.
 type: docs
 weight: 130
 url: /de/net/aspose.words.loading/loadoptions/progresscallback/
 ---
 ## LoadOptions.ProgressCallback property
 
-Wird beim Laden eines Dokuments aufgerufen und nimmt Daten zum Ladefortschritt entgegen.
+Wird während des Ladens eines Dokuments aufgerufen und akzeptiert Daten über den Ladefortschritt.
 
 ```csharp
 public IDocumentLoadingCallback ProgressCallback { get; set; }
@@ -16,14 +16,13 @@ public IDocumentLoadingCallback ProgressCallback { get; set; }
 
 ### Bemerkungen
 
-Docx ,FlatOpc ,Docm ,Dotm ,Dotx ,Markdown ,Rtf ,WordML ,Doc ,Dot ,Odt ,Ott Formate unterstützt.
+Docx ,FlatOpc ,Docm ,Dotm ,Dotx ,Markdown ,Rtf ,WordML ,Doc ,Dot ,Odt ,Ott Unterstützte Formate.
 
 ### Beispiele
 
 Zeigt, wie der Benutzer benachrichtigt wird, wenn das Laden des Dokuments die erwartete Ladezeit überschreitet.
 
 ```csharp
-[Test]
 public void ProgressCallback()
 {
     LoadingProgressCallback progressCallback = new LoadingProgressCallback();
@@ -43,7 +42,7 @@ public void ProgressCallback()
 }
 
 /// <summary>
-/// Brechen Sie das Laden eines Dokuments nach "MaxDuration" Sekunden ab.
+/// Das Laden eines Dokuments nach den „MaxDuration“-Sekunden abbrechen.
 /// </summary>
 public class LoadingProgressCallback : IDocumentLoadingCallback
 {
@@ -58,7 +57,7 @@ public class LoadingProgressCallback : IDocumentLoadingCallback
     /// <summary>
     /// Callback-Methode, die beim Laden des Dokuments aufgerufen wurde.
     /// </summary>
-    /// <param name="args">Lade Argumente.</param>
+    /// <param name="args">Argumente werden geladen.</param>
     public void Notify(DocumentLoadingArgs args)
     {
         DateTime canceledAt = DateTime.Now;
@@ -74,7 +73,7 @@ public class LoadingProgressCallback : IDocumentLoadingCallback
     private readonly DateTime mLoadingStartedAt;
 
     /// <summary>
-    /// Maximal erlaubte Dauer in Sek.
+    /// Maximal zulässige Dauer in Sekunden.
     /// </summary>
     private const double MaxDuration = 0.5;
 }

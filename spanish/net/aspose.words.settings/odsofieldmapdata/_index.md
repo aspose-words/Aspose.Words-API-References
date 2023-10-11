@@ -1,14 +1,16 @@
 ---
 title: Class OdsoFieldMapData
 second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Settings.OdsoFieldMapData clase. Especifica cómo se asignará una columna en la fuente de datos externa a los campos de combinación predefinidos dentro del documento.
+description: Aspose.Words.Settings.OdsoFieldMapData clase. Especifica cómo se asignará una columna de la fuente de datos externa a los campos de combinación predefinidos dentro del documento.
 type: docs
-weight: 5600
+weight: 5900
 url: /es/net/aspose.words.settings/odsofieldmapdata/
 ---
 ## OdsoFieldMapData class
 
-Especifica cómo se asignará una columna en la fuente de datos externa a los campos de combinación predefinidos dentro del documento.
+Especifica cómo se asignará una columna de la fuente de datos externa a los campos de combinación predefinidos dentro del documento.
+
+Para obtener más información, visite el[Combinación de correspondencia e informes](https://docs.aspose.com/words/net/mail-merge-and-reporting/) artículo de documentación.
 
 ```csharp
 public class OdsoFieldMapData
@@ -25,9 +27,9 @@ public class OdsoFieldMapData
 | Nombre | Descripción |
 | --- | --- |
 | [Column](../../aspose.words.settings/odsofieldmapdata/column/) { get; set; } | Especifica el índice de base cero de la columna dentro de una fuente de datos externa que se asignará al nombre local de un campo MERGEFIELD específico. El valor predeterminado es 0. |
-| [MappedName](../../aspose.words.settings/odsofieldmapdata/mappedname/) { get; set; } | Especifica el nombre de campo de combinación predefinido que se asignará al número de columna especificado por el[`Column`](./column/) propiedad dentro de esta asignación de campo. El valor predeterminado es una cadena vacía. |
-| [Name](../../aspose.words.settings/odsofieldmapdata/name/) { get; set; } | Especifica el nombre de columna dentro de un origen de datos externo para la columna cuyo índice está especificado por el[`Column`](./column/) property. El valor predeterminado es una cadena vacía. |
-| [Type](../../aspose.words.settings/odsofieldmapdata/type/) { get; set; } | Especifica si un campo de combinación de correo dado se ha asignado a una columna en la fuente de datos externa dada o no. El valor predeterminado esDefault . |
+| [MappedName](../../aspose.words.settings/odsofieldmapdata/mappedname/) { get; set; } | Especifica el nombre del campo de combinación predefinido que se asignará al número de columna especificado por[`Column`](./column/) propiedad dentro de esta asignación de campos. El valor predeterminado es una cadena vacía. |
+| [Name](../../aspose.words.settings/odsofieldmapdata/name/) { get; set; } | Especifica el nombre de la columna dentro de una fuente de datos externa para la columna cuyo índice está especificado por el[`Column`](./column/)propiedad. El valor predeterminado es una cadena vacía. |
+| [Type](../../aspose.words.settings/odsofieldmapdata/type/) { get; set; } | Especifica si un campo de combinación de correspondencia determinado se ha asignado a una columna en la fuente de datos externa determinada o no. El valor predeterminado esDefault . |
 
 ## Métodos
 
@@ -37,17 +39,17 @@ public class OdsoFieldMapData
 
 ### Observaciones
 
-Microsoft Word proporciona algunos nombres de campos de combinación predefinidos que permite insertar en un documento como MERGEFIELD o en los campos ADRESSBLOCK o GREETINGLINE. La información especificada en`OdsoFieldMapData` permite asignar una columna en la fuente de datos externa a un solo campo de combinación predefinido.
+Microsoft Word proporciona algunos nombres de campos de combinación predefinidos que permiten insertar en un documento como MERGEFIELD o en los campos ADDRESSBLOCK o GREETINGLINE. La información especificada en`OdsoFieldMapData` permite asignar una columna en la fuente de datos externa a un único campo de combinación predefinido.
 
 ### Ejemplos
 
-Muestra cómo acceder a la colección de datos que asigna columnas de fuentes de datos a campos combinados.
+Muestra cómo acceder a la colección de datos que asigna columnas de origen de datos para fusionar campos.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
 
-// Esta colección define cómo una combinación de correo mapeará las columnas de una fuente de datos
-// a los campos MERGEFIELD, ADRESSBLOCK y GREETINGLINE predefinidos.
+// Esta colección define cómo una combinación de correspondencia asignará columnas de una fuente de datos
+// a los campos predefinidos MERGEFIELD, ADDRESSBLOCK y GREETINGLINE.
 OdsoFieldMapDataCollection dataCollection = doc.MailMergeSettings.Odso.FieldMapDatas;
 Assert.AreEqual(30, dataCollection.Count);
 
@@ -68,12 +70,12 @@ using (IEnumerator<OdsoFieldMapData> enumerator = dataCollection.GetEnumerator()
 // Clona los elementos de esta colección.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// Usar los elementos del método "RemoveAt" individualmente por índice.
+// Utiliza los elementos del método "RemoveAt" individualmente por índice.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(29, dataCollection.Count);
 
-// Use el método "Borrar" para borrar toda la colección a la vez.
+// Utilice el método "Borrar" para borrar toda la colección a la vez.
 dataCollection.Clear();
 
 Assert.AreEqual(0, dataCollection.Count);

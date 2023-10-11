@@ -20,7 +20,7 @@ public IStructuredDocumentTag GetByTag(string tag)
 
 ### Observaciones
 
-Devuelve un valor nulo si no se puede encontrar la etiqueta del documento estructurado con la etiqueta especificada.
+Devuelve nulo si no se puede encontrar la etiqueta del documento estructurado con la etiqueta especificada.
 
 ### Ver también
 

@@ -1,14 +1,14 @@
 ---
 title: Section.DeleteHeaderFooterShapes
 second_title: Aspose.Words for .NET API Referansı
-description: Section yöntem. Bu bölümün üstbilgilerinden ve altbilgilerinden tüm şekilleri çizim nesneleri siler.
+description: Section yöntem. Bu bölümün üst bilgilerinden ve alt bilgilerinden tüm şekilleri çizim nesneleri siler.
 type: docs
-weight: 120
+weight: 140
 url: /tr/net/aspose.words/section/deleteheaderfootershapes/
 ---
 ## Section.DeleteHeaderFooterShapes method
 
-Bu bölümün üstbilgilerinden ve altbilgilerinden tüm şekilleri (çizim nesneleri) siler.
+Bu bölümün üst bilgilerinden ve alt bilgilerinden tüm şekilleri (çizim nesneleri) siler.
 
 ```csharp
 public void DeleteHeaderFooterShapes()
@@ -16,7 +16,7 @@ public void DeleteHeaderFooterShapes()
 
 ### Örnekler
 
-Bir bölümdeki tüm üstbilgi altbilgilerinden tüm şekillerin nasıl kaldırılacağını gösterir.
+Bir bölümdeki tüm üst bilgi alt bilgilerinden tüm şekillerin nasıl kaldırılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -26,7 +26,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 builder.InsertShape(ShapeType.Rectangle, 100, 100);
 
-// Bir görüntüyle birincil altbilgi oluşturun.
+// Bir görselle birincil altbilgi oluşturun.
 builder.MoveToHeaderFooter(HeaderFooterType.FooterPrimary);
 builder.InsertImage(ImageDir + "Logo Icon.ico");
 

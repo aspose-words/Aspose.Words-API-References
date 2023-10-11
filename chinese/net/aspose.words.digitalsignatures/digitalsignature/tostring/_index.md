@@ -1,14 +1,14 @@
 ---
 title: DigitalSignature.ToString
 second_title: Aspose.Words for .NET API 参考
-description: DigitalSignature 方法. 返回显示此对象值的用户友好字符串
+description: DigitalSignature 方法. 返回一个用户友好的字符串显示该对象的值
 type: docs
-weight: 80
+weight: 90
 url: /zh/net/aspose.words.digitalsignatures/digitalsignature/tostring/
 ---
 ## DigitalSignature.ToString method
 
-返回显示此对象值的用户友好字符串。
+返回一个用户友好的字符串，显示该对象的值。
 
 ```csharp
 public override string ToString()

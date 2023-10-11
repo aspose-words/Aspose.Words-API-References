@@ -1,14 +1,14 @@
 ---
 title: DigitalSignature.SignatureType
 second_title: Aspose.Words لمراجع .NET API
-description: DigitalSignature ملكية. يحصل على نوع التوقيع الرقمي.
+description: DigitalSignature ملكية. الحصول على نوع التوقيع الرقمي.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.digitalsignatures/digitalsignature/signaturetype/
 ---
 ## DigitalSignature.SignatureType property
 
-يحصل على نوع التوقيع الرقمي.
+الحصول على نوع التوقيع الرقمي.
 
 ```csharp
 public DigitalSignatureType SignatureType { get; }
@@ -16,7 +16,7 @@ public DigitalSignatureType SignatureType { get; }
 
 ### أمثلة
 
-يوضح كيفية التحقق من صحة المعلومات وعرضها حول كل توقيع في مستند.
+يوضح كيفية التحقق من صحة وعرض المعلومات حول كل توقيع في المستند.
 
 ```csharp
 Document doc = new Document(MyDir + "Digitally signed.docx");

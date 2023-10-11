@@ -1,14 +1,14 @@
 ---
 title: KnownTypeSet.Count
 second_title: Aspose.Words for .NET API 参考
-description: KnownTypeSet 财产. 获取集合中项目的计数
+description: KnownTypeSet 财产. 获取集合中的项目数
 type: docs
 weight: 10
 url: /zh/net/aspose.words.reporting/knowntypeset/count/
 ---
 ## KnownTypeSet.Count property
 
-获取集合中项目的计数。
+获取集合中的项目数。
 
 ```csharp
 public int Count { get; }

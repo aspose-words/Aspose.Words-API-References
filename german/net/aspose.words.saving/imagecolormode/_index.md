@@ -3,7 +3,7 @@ title: Enum ImageColorMode
 second_title: Aspose.Words für .NET-API-Referenz
 description: Aspose.Words.Saving.ImageColorMode opsomming. Gibt den Farbmodus für die generierten Bilder von Dokumentseiten an.
 type: docs
-weight: 4950
+weight: 5210
 url: /de/net/aspose.words.saving/imagecolormode/
 ---
 ## ImageColorMode enumeration
@@ -37,12 +37,12 @@ Document doc = new Document();
             Assert.That(20000, Is.LessThan(new FileInfo(ImageDir + "Logo.jpg").Length));
 
             // Wenn wir das Dokument als Bild speichern, können wir ein SaveOptions-Objekt an übergeben
-            // Wählen Sie einen Farbmodus für das Bild aus, das der Speichervorgang erzeugen wird.
-            // Wenn wir die Eigenschaft "ImageColorMode" auf "ImageColorMode.BlackAndWhite" setzen,
+            // Wählen Sie einen Farbmodus für das Bild aus, das durch den Speichervorgang generiert wird.
+            // Wenn wir die Eigenschaft „ImageColorMode“ auf „ImageColorMode.BlackAndWhite“ setzen,
             // Der Speichervorgang wendet beim Rendern des Dokuments eine Graustufen-Farbreduzierung an.
-             // Wenn wir die Eigenschaft "ImageColorMode" auf "ImageColorMode.Grayscale" setzen,
-            // Der Speichervorgang wird das Dokument in ein monochromes Bild umwandeln.
-            // Wenn wir die Eigenschaft "ImageColorMode" auf "None" setzen, wendet der Speichervorgang die Standardmethode an
+            // Wenn wir die Eigenschaft „ImageColorMode“ auf „ImageColorMode.Grayscale“ setzen,
+            // Durch den Speichervorgang wird das Dokument in ein monochromes Bild umgewandelt.
+            // Wenn wir die Eigenschaft „ImageColorMode“ auf „None“ setzen, wendet der Speichervorgang die Standardmethode an
             // und alle Farben des Dokuments im Ausgabebild beibehalten.
             ImageSaveOptions imageSaveOptions = new ImageSaveOptions(SaveFormat.Png);
             imageSaveOptions.ImageColorMode = imageColorMode;

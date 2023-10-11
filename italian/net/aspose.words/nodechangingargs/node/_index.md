@@ -1,14 +1,14 @@
 ---
 title: NodeChangingArgs.Node
 second_title: Aspose.Words per .NET API Reference
-description: NodeChangingArgs proprietà. Ottiene ilNode che viene aggiunto o rimosso.
+description: NodeChangingArgs proprietà. Ottiene il fileNode che viene aggiunto o rimosso.
 type: docs
 weight: 30
 url: /it/net/aspose.words/nodechangingargs/node/
 ---
 ## NodeChangingArgs.Node property
 
-Ottiene il`Node` che viene aggiunto o rimosso.
+Ottiene il file`Node` che viene aggiunto o rimosso.
 
 ```csharp
 public Node Node { get; }
@@ -16,15 +16,16 @@ public Node Node { get; }
 
 ### Esempi
 
-Mostra come personalizzare la modifica del nodo con una richiamata.
+Mostra come personalizzare la modifica del nodo con un callback.
 
 ```csharp
+public void FontChangeViaCallback()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Imposta il callback di modifica del nodo sull'implementazione personalizzata,
-    // quindi aggiungi/rimuovi nodi per far sì che generi un log.
+    // Imposta il callback che modifica il nodo sull'implementazione personalizzata,
+    // quindi aggiungi/rimuovi nodi per far sì che generi un registro.
     HandleNodeChangingFontChanger callback = new HandleNodeChangingFontChanger();
     doc.NodeChangingCallback = callback;
 
@@ -36,10 +37,11 @@ Mostra come personalizzare la modifica del nodo con una richiamata.
     doc.Range.Fields[0].Remove();
 
     Console.WriteLine(callback.GetLog());
+}
 
 /// <summary>
-/// Registra la data e l'ora di inserimento e rimozione di ciascun nodo.
-/// Imposta un nome/dimensione del carattere personalizzato per il contenuto del testo dei nodi Run.
+/// Registra la data e l'ora di ogni inserimento e rimozione di nodo.
+/// Imposta un nome/dimensione del carattere personalizzato per il contenuto del testo dei nodi Esegui.
 /// </summary>
 public class HandleNodeChangingFontChanger : INodeChangingCallback
 {

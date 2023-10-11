@@ -86,6 +86,7 @@ public void FieldRef()
 
     doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.REF.docx");
+}
 
 /// <summary>
 /// Få dokumentbyggaren att infoga ett REF-fält, referera till ett bokmärke med det och lägg till text före och efter det.

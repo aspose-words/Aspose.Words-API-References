@@ -1,14 +1,14 @@
 ---
 title: Node.ParentNode
 second_title: Aspose.Words لمراجع .NET API
-description: Node ملكية. الحصول على الأصل المباشر لهذه العقدة.
+description: Node ملكية. يحصل على الأصل المباشر لهذه العقدة.
 type: docs
 weight: 60
 url: /ar/net/aspose.words/node/parentnode/
 ---
 ## Node.ParentNode property
 
-الحصول على الأصل المباشر لهذه العقدة.
+يحصل على الأصل المباشر لهذه العقدة.
 
 ```csharp
 public CompositeNode ParentNode { get; }
@@ -16,7 +16,7 @@ public CompositeNode ParentNode { get; }
 
 ### ملاحظات
 
-إذا تم إنشاء عقدة للتو ولم تتم إضافتها بعد إلى الشجرة ، أو إذا تمت إزالتها من الشجرة ، فسيكون الأصل فارغًا.
+إذا تم إنشاء العقدة للتو ولم تتم إضافتها بعد إلى الشجرة، أو إذا تمت إزالتها من الشجرة، فإن الأصل هو`باطل`.
 
 ### أمثلة
 
@@ -26,12 +26,12 @@ public CompositeNode ParentNode { get; }
 Document doc = new Document();
 Paragraph para = doc.FirstSection.Body.FirstParagraph;
 
-// قم بإلحاق عقدة تشغيل فرعية بالفقرة الأولى من المستند.
+// إلحاق عقدة تشغيل فرعية بالفقرة الأولى من المستند.
 Run run = new Run(doc, "Hello world!");
 para.AppendChild(run);
 
 // الفقرة هي العقدة الأصلية لعقدة التشغيل. يمكننا تتبع هذا النسب
-// طوال الطريق إلى عقدة المستند ، والتي تمثل جذر شجرة عقدة المستند.
+// وصولاً إلى عقدة المستند، وهي جذر شجرة عقدة المستند.
 Assert.AreEqual(para, run.ParentNode);
 Assert.AreEqual(doc.FirstSection.Body, para.ParentNode);
 Assert.AreEqual(doc.FirstSection, doc.FirstSection.Body.ParentNode);
@@ -45,20 +45,20 @@ Document doc = new Document();
 Paragraph para = new Paragraph(doc);
 para.AppendChild(new Run(doc, "Hello world!"));
 
-// لم نلحق بعد هذه الفقرة كطفل بأي عقدة مركبة.
+// لم نقم بعد بإلحاق هذه الفقرة كطفل لأي عقدة مركبة.
 Assert.IsNull(para.ParentNode);
 
-// إذا كانت العقدة هي نوع عقدة فرعية مناسب لعقدة مركبة أخرى ،
-// يمكننا إرفاقه كطفل فقط إذا كان لكلتا العقدتين نفس مستند المالك.
+// إذا كانت العقدة عبارة عن نوع عقدة فرعية مناسب لعقدة مركبة أخرى،
+// لا يمكننا إرفاقها كطفل إلا إذا كانت كلا العقدتين لهما نفس مستند المالك.
 // مستند المالك هو المستند الذي مررناه إلى مُنشئ العقدة.
-// لم نرفق هذه الفقرة بالمستند ، لذا لا يحتوي المستند على نصه.
+// لم نقم بإرفاق هذه الفقرة بالمستند، لذلك لا تحتوي الوثيقة على نصها.
 Assert.AreEqual(para.Document, doc);
 Assert.AreEqual(string.Empty, doc.GetText().Trim());
 
-// نظرًا لأن المستند يمتلك هذه الفقرة ، يمكننا تطبيق أحد أنماطه على محتويات الفقرة.
+// بما أن المستند يمتلك هذه الفقرة، فيمكننا تطبيق أحد أنماطها على محتويات الفقرة.
 para.ParagraphFormat.Style = doc.Styles["Heading 1"];
 
-// أضف هذه العقدة إلى المستند ، ثم تحقق من محتوياتها.
+// أضف هذه العقدة إلى المستند، ثم تحقق من محتوياتها.
 doc.FirstSection.Body.AppendChild(para);
 
 Assert.AreEqual(doc.FirstSection.Body, para.ParentNode);

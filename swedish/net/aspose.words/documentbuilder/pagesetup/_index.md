@@ -3,7 +3,7 @@ title: DocumentBuilder.PageSetup
 second_title: Aspose.Words för .NET API Referens
 description: DocumentBuilder fast egendom. Returnerar ett objekt som representerar aktuell siduppsättning och avsnittsegenskaper.
 type: docs
-weight: 140
+weight: 160
 url: /sv/net/aspose.words/documentbuilder/pagesetup/
 ---
 ## DocumentBuilder.PageSetup property

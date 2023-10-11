@@ -1,14 +1,14 @@
 ---
 title: BarcodeParameters.ForegroundColor
 second_title: Справочник по API Aspose.Words для .NET
-description: BarcodeParameters свойство. Основной цвет штрихкода 0x000000  0xFFFFFF
+description: BarcodeParameters свойство. Цвет переднего плана штрихкода 0x000000  0xFFFFFF
 type: docs
 weight: 110
 url: /ru/net/aspose.words.fields/barcodeparameters/foregroundcolor/
 ---
 ## BarcodeParameters.ForegroundColor property
 
-Основной цвет штрих-кода (0x000000 - 0xFFFFFF)
+Цвет переднего плана штрих-кода (0x000000 - 0xFFFFFF)
 
 ```csharp
 public string ForegroundColor { get; set; }
@@ -21,9 +21,8 @@ public string ForegroundColor { get; set; }
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
-
 // Мы можем использовать собственную реализацию IBarcodeGenerator для генерации штрих-кодов,
-// и затем вставляем их в документ как изображения.
+// а затем вставляем их в документ как изображения.
 doc.FieldOptions.BarcodeGenerator = new CustomBarcodeGenerator();
 
 // Ниже приведены четыре примера различных типов штрих-кодов, которые мы можем создать с помощью нашего генератора.

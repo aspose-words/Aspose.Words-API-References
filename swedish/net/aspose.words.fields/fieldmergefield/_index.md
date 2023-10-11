@@ -3,12 +3,14 @@ title: Class FieldMergeField
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Fields.FieldMergeField klass. Implementerar MERGEFIELDfältet.
 type: docs
-weight: 2000
+weight: 2150
 url: /sv/net/aspose.words.fields/fieldmergefield/
 ---
 ## FieldMergeField class
 
 Implementerar MERGEFIELD-fältet.
+
+För att lära dig mer, besök[Arbeta med Fields](https://docs.aspose.com/words/net/working-with-fields/) dokumentationsartikel.
 
 ```csharp
 public class FieldMergeField : Field
@@ -29,7 +31,7 @@ public class FieldMergeField : Field
 | [IsVerticalFormatting](../../aspose.words.fields/fieldmergefield/isverticalformatting/) { get; set; } | Hämtar eller ställer in om teckenkonvertering ska aktiveras för vertikal formatering. |
 | [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | Hämtar eller ställer in LCID för fältet. |
 | [Result](../../aspose.words.fields/field/result/) { get; set; } | Hämtar eller ställer in text som är mellan fältavgränsaren och fältslutet. |
-| [Separator](../../aspose.words.fields/field/separator/) { get; } | Hämtar noden som representerar fältseparatorn. Kan vara null. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | Hämtar noden som representerar fältseparatorn. Kan vara`null` . |
 | [Start](../../aspose.words.fields/field/start/) { get; } | Hämtar noden som representerar början av fältet. |
 | [TextAfter](../../aspose.words.fields/fieldmergefield/textafter/) { get; set; } | Hämtar eller ställer in texten som ska infogas efter fältet om fältet inte är tomt. |
 | [TextBefore](../../aspose.words.fields/fieldmergefield/textbefore/) { get; set; } | Hämtar eller ställer in texten som ska infogas före fältet om fältet inte är tomt. |
@@ -41,14 +43,14 @@ public class FieldMergeField : Field
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Returnerar text mellan fältstart och fältavgränsare (eller fältslut om det inte finns någon avgränsare). Både fältkod och fältresultat för underordnade fält ingår. |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Returnerar text mellan fältstart och fältavgränsare (eller fältslut om det inte finns någon avgränsare). |
-| [Remove](../../aspose.words.fields/field/remove/)() | Tar bort fältet från dokumentet. Returnerar en nod direkt efter fältet. Om fältets slut är den sista child av dess överordnade nod, returnerar dess överordnade stycke. Om fältet redan är borttaget, returneras **null** . |
+| [Remove](../../aspose.words.fields/field/remove/)() | Tar bort fältet från dokumentet. Returnerar en nod direkt efter fältet. Om fältets slut är den sista child av dess överordnade nod, returnerar dess överordnade stycke. Om fältet redan är borttaget, returneras`null` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Utför fältavlänkningen. |
 | [Update](../../aspose.words.fields/field/update/)() | Utför fältuppdateringen. Kastar om fältet redan uppdateras. |
 | [Update](../../aspose.words.fields/field/update/)(bool) | Utför en fältuppdatering. Kastar om fältet redan uppdateras. |
 
 ### Anmärkningar
 
-Hämtar namnet på ett datafält inom sammanfogningstecknen i ett huvuddokument för sammankoppling. När huvuddokumentet slås samman med den valda datakällan infogas information från det specificerade datafältet i stället för sammanslagningsfältet.
+Hämtar namnet på ett datafält inom kopplingstecknen i ett huvuddokument för sammankoppling. När huvuddokumentet slås samman med den valda datakällan infogas information från det specificerade datafältet i stället för sammanslagningsfältet.
 
 ### Exempel
 

@@ -1,14 +1,14 @@
 ---
 title: CustomPartCollection.Item
 second_title: Aspose.Words لمراجع .NET API
-description: CustomPartCollection ملكية. الحصول على أو تعيين عنصر في الفهرس المحدد.
+description: CustomPartCollection ملكية. الحصول على عنصر أو تعيينه في الفهرس المحدد.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.markup/custompartcollection/item/
 ---
 ## CustomPartCollection indexer
 
-الحصول على أو تعيين عنصر في الفهرس المحدد.
+الحصول على عنصر أو تعيينه في الفهرس المحدد.
 
 ```csharp
 public CustomPart this[int index] { get; set; }
@@ -16,23 +16,23 @@ public CustomPart this[int index] { get; set; }
 
 | معامل | وصف |
 | --- | --- |
-| index | فهرس العنصر على أساس الصفر. |
+| index | الفهرس الصفري للعنصر. |
 
 ### أمثلة
 
-يوضح كيفية الوصول إلى مجموعة الأجزاء المخصصة التعسفية للمستند.
+يوضح كيفية الوصول إلى مجموعة الأجزاء المخصصة العشوائية للمستند.
 
 ```csharp
 Document doc = new Document(MyDir + "Custom parts OOXML package.docx");
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);
 
-// استنساخ الجزء الثاني ، ثم أضف النسخة إلى المجموعة.
+// انسخ الجزء الثاني، ثم أضف النسخة إلى المجموعة.
 CustomPart clonedPart = doc.PackageCustomParts[1].Clone();
 doc.PackageCustomParts.Add(clonedPart);
 Assert.AreEqual(3, doc.PackageCustomParts.Count);
 
-// تعداد المجموعة وطباعة كل جزء.
+// قم بتعداد المجموعة وطباعة كل جزء منها.
 using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator())
 {
     int index = 0;
@@ -49,7 +49,7 @@ using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator
     }
 }
 
-// يمكننا إزالة العناصر من هذه المجموعة بشكل فردي أو كلها مرة واحدة.
+// يمكننا إزالة العناصر من هذه المجموعة بشكل فردي، أو كلها مرة واحدة.
 doc.PackageCustomParts.RemoveAt(2);
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);

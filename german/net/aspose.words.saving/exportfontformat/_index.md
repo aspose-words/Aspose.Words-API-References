@@ -3,7 +3,7 @@ title: Enum ExportFontFormat
 second_title: Aspose.Words für .NET-API-Referenz
 description: Aspose.Words.Saving.ExportFontFormat opsomming. Gibt das Format an das zum Exportieren von Schriftarten beim Rendern in das feste HTMLFormat verwendet wird.
 type: docs
-weight: 4730
+weight: 4990
 url: /de/net/aspose.words.saving/exportfontformat/
 ---
 ## ExportFontFormat enumeration
@@ -18,12 +18,12 @@ public enum ExportFontFormat
 
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
-| Woff | `0` | WOFF (offenes Web-Schriftformat). |
+| Woff | `0` | WOFF (Web Open Font Format). |
 | Ttf | `1` | TTF (TrueType-Schriftformat). |
 
 ### Beispiele
 
-Zeigt, wie Schriftarten nur vom Zielcomputer verwendet werden, wenn ein Dokument in HTML gespeichert wird.
+Zeigt, wie beim Speichern eines Dokuments im HTML-Format Schriftarten nur vom Zielcomputer verwendet werden.
 
 ```csharp
 Document doc = new Document(MyDir + "Bullet points with alternative font.docx");

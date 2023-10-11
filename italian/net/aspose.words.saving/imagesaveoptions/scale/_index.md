@@ -3,7 +3,7 @@ title: ImageSaveOptions.Scale
 second_title: Aspose.Words per .NET API Reference
 description: ImageSaveOptions proprietà. Ottiene o imposta il fattore di zoom per le immagini generate.
 type: docs
-weight: 140
+weight: 150
 url: /it/net/aspose.words.saving/imagesaveoptions/scale/
 ---
 ## ImageSaveOptions.Scale property
@@ -16,22 +16,22 @@ public float Scale { get; set; }
 
 ### Osservazioni
 
-Il valore predefinito è 1,0. Il valore deve essere maggiore di 0.
+Il valore predefinito è 1.0. Il valore deve essere maggiore di 0.
 
 ### Esempi
 
-Mostra come eseguire il rendering di un oggetto Office Math in un file immagine nel file system locale.
+Mostra come eseguire il rendering di un oggetto Office Math in un file di immagine nel file system locale.
 
 ```csharp
 Document doc = new Document(MyDir + "Office math.docx");
 
 OfficeMath math = (OfficeMath)doc.GetChild(NodeType.OfficeMath, 0, true);
 
-// Crea un oggetto "ImageSaveOptions" da passare al metodo "Save" del renderer del nodo per modificarlo
+// Crea un oggetto "ImageSaveOptions" da passare al metodo "Save" del renderer del nodo per modificare
 // come esegue il rendering del nodo OfficeMath in un'immagine.
 ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.Png);
 
-// Imposta la proprietà "Scale" su 5 per rendere l'oggetto cinque volte la sua dimensione originale.
+// Imposta la proprietà "Scala" su 5 per rendere l'oggetto cinque volte la sua dimensione originale.
 saveOptions.Scale = 5;
 
 math.GetMathRenderer().Save(ArtifactsDir + "Shape.RenderOfficeMath.png", saveOptions);
@@ -48,10 +48,10 @@ builder.Writeln("Hello world!");
 builder.InsertImage(ImageDir + "Logo.jpg");
 
 // Quando salviamo il documento come immagine, possiamo passare un oggetto SaveOptions a
-// modifica l'immagine mentre l'operazione di salvataggio la rende.
+// modifica l'immagine mentre l'operazione di salvataggio ne esegue il rendering.
 ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Png)
 {
-    // Possiamo regolare queste proprietà per cambiare la luminosità e il contrasto dell'immagine.
+    // Possiamo regolare queste proprietà per modificare la luminosità e il contrasto dell'immagine.
     // Entrambi sono su una scala 0-1 e sono a 0,5 per impostazione predefinita.
     ImageBrightness = 0.3f,
     ImageContrast = 0.7f,
@@ -62,8 +62,8 @@ ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Png)
     HorizontalResolution = 72f,
     VerticalResolution = 72f,
 
-    // Possiamo ridimensionare l'immagine usando questa proprietà. Il valore predefinito è 1,0, per un ridimensionamento del 100%.
-    // Possiamo usare questa proprietà per negare qualsiasi cambiamento nelle dimensioni dell'immagine che potrebbe causare la modifica della risoluzione.
+    // Possiamo ridimensionare l'immagine utilizzando questa proprietà. Il valore predefinito è 1,0, per un ridimensionamento del 100%.
+    // Possiamo utilizzare questa proprietà per annullare eventuali modifiche nelle dimensioni dell'immagine che la modifica della risoluzione causerebbe.
     Scale = 96f / 72f
 };
 

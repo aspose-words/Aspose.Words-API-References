@@ -3,7 +3,7 @@ title: ShapeBase.ShapeType
 second_title: Aspose.Words für .NET-API-Referenz
 description: ShapeBase eigendom. Ruft den Formtyp ab.
 type: docs
-weight: 460
+weight: 500
 url: /de/net/aspose.words.drawing/shapebase/shapetype/
 ---
 ## ShapeBase.ShapeType property
@@ -16,7 +16,7 @@ public ShapeType ShapeType { get; }
 
 ### Beispiele
 
-Zeigt, wie Sie eine Gruppe von Formen erstellen und ihren Inhalt mit einem Dokumentbesucher drucken.
+Zeigt, wie eine Gruppe von Formen erstellt und deren Inhalt mithilfe eines Dokumentbesuchers gedruckt wird.
 
 ```csharp
 public void GroupOfShapes()
@@ -24,7 +24,7 @@ public void GroupOfShapes()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Wenn Sie "NonPrimitive"-Formen erstellen müssen, z. B. SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
+    // Wenn Sie „nicht-primitive“ Formen erstellen müssen, z. B. SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
     // TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded, DiagonalCornersRounded
     // Bitte verwenden Sie DocumentBuilder.InsertShape-Methoden.
     Shape balloon = new Shape(doc, ShapeType.Balloon)
@@ -56,7 +56,7 @@ public void GroupOfShapes()
 }
 
 /// <summary>
-/// Gibt den Inhalt einer besuchten Shape-Gruppe an die Konsole aus.
+/// Gibt den Inhalt einer besuchten Formgruppe an die Konsole aus.
 /// </summary>
 public class ShapeGroupPrinter : DocumentVisitor
 {

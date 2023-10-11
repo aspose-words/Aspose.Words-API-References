@@ -1,14 +1,14 @@
 ---
 title: ImageSavingArgs.Document
 second_title: Aspose.Words per .NET API Reference
-description: ImageSavingArgs proprietà. Ottiene loggetto del documento attualmente in fase di salvataggio.
+description: ImageSavingArgs proprietà. Ottiene loggetto documento attualmente in fase di salvataggio.
 type: docs
 weight: 20
 url: /it/net/aspose.words.saving/imagesavingargs/document/
 ---
 ## ImageSavingArgs.Document property
 
-Ottiene l'oggetto del documento attualmente in fase di salvataggio.
+Ottiene l'oggetto documento attualmente in fase di salvataggio.
 
 ```csharp
 public Document Document { get; }
@@ -16,9 +16,10 @@ public Document Document { get; }
 
 ### Esempi
 
-Mostra come coinvolgere un callback per il salvataggio di immagini in un processo di conversione HTML.
+Mostra come coinvolgere un callback per il salvataggio dell'immagine in un processo di conversione HTML.
 
 ```csharp
+public void ImageSavingCallback()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
@@ -31,7 +32,7 @@ Mostra come coinvolgere un callback per il salvataggio di immagini in un process
 }
 
 /// <summary>
-/// Stampa le proprietà di ciascuna immagine mentre il processo di salvataggio la salva in un file immagine nel file system locale
+/// Stampa le proprietà di ciascuna immagine mentre il processo di salvataggio la salva in un file di immagine nel file system locale
 /// durante l'esportazione di un documento in HTML.
 /// </summary>
 private class ImageShapePrinter : IImageSavingCallback

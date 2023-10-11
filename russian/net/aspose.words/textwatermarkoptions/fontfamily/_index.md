@@ -1,14 +1,14 @@
 ---
 title: TextWatermarkOptions.FontFamily
 second_title: Справочник по API Aspose.Words для .NET
-description: TextWatermarkOptions свойство. Получает или задает имя семейства шрифтов. Значение по умолчанию  Калибри.
+description: TextWatermarkOptions свойство. Получает или задает имя семейства шрифтов. Значение по умолчанию  Калибри. .
 type: docs
 weight: 30
 url: /ru/net/aspose.words/textwatermarkoptions/fontfamily/
 ---
 ## TextWatermarkOptions.FontFamily property
 
-Получает или задает имя семейства шрифтов. Значение по умолчанию — «Калибри».
+Получает или задает имя семейства шрифтов. Значение по умолчанию — «Калибри». .
 
 ```csharp
 public string FontFamily { get; set; }
@@ -24,7 +24,7 @@ Document doc = new Document();
 // Добавляем простой текстовый водяной знак.
 doc.Watermark.SetText("Aspose Watermark");
 
-// Если мы хотим отредактировать форматирование текста, используя его как водяной знак,
+// Если мы хотим отредактировать форматирование текста, используя его в качестве водяного знака,
 // мы можем сделать это, передав объект TextWatermarkOptions при создании водяного знака.
 TextWatermarkOptions textWatermarkOptions = new TextWatermarkOptions();
 textWatermarkOptions.FontFamily = "Arial";
@@ -37,7 +37,7 @@ doc.Watermark.SetText("Aspose Watermark", textWatermarkOptions);
 
 doc.Save(ArtifactsDir + "Document.TextWatermark.docx");
 
-// Мы можем удалить водяной знак из такого документа.
+// Мы можем удалить водяной знак из документа вот так.
 if (doc.Watermark.Type == WatermarkType.Text)
     doc.Watermark.Remove();
 ```

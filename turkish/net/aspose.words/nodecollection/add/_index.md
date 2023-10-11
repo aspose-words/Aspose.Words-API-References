@@ -22,15 +22,13 @@ public void Add(Node node)
 
 | istisna | şart |
 | --- | --- |
-| NotSupportedException | bu **Düğüm Koleksiyonu** "derin" bir koleksiyondur. |
+| NotSupportedException | [`NodeCollection`](../) "derin" bir koleksiyondur. |
 
 ### Notlar
 
 Düğüm, koleksiyonun oluşturulduğu düğüm nesnesine alt öğe olarak eklenir.
 
-newChild zaten ağaçtaysa, önce kaldırılır.
-
-Eklenen düğüm başka bir belgeden oluşturulmuşsa, kullanmanız gerekir.[`ImportNode`](../../documentbase/importnode/) düğümü geçerli belgeye aktarmak için. Alınan düğüm daha sonra geçerli belgeye eklenebilir.
+Eklenen düğüm başka bir belgeden oluşturulmuşsa kullanmalısınız[`ImportNode`](../../documentbase/importnode/) Düğümü geçerli belgeye aktarmak için. İçe aktarılan düğüm daha sonra geçerli belgeye eklenebilir.
 
 ### Örnekler
 
@@ -39,18 +37,18 @@ Düzenleme için yeni bir bölüm düğümünün nasıl hazırlanacağını gös
 ```csharp
 Document doc = new Document();
 
-// Boş bir belge, bir paragrafı olan bir gövdesi olan bir bölümle birlikte gelir.
+// Boş bir belge, bir gövdeye sahip olan ve bunun da bir paragrafa sahip olduğu bir bölümle birlikte gelir.
 // Bu paragrafa metin dizileri, şekiller veya tablolar gibi öğeler ekleyerek bu belgeye içerik ekleyebiliriz.
 Assert.AreEqual(NodeType.Section, doc.GetChild(NodeType.Any, 0, true).NodeType);
 Assert.AreEqual(NodeType.Body, doc.Sections[0].GetChild(NodeType.Any, 0, true).NodeType);
 Assert.AreEqual(NodeType.Paragraph, doc.Sections[0].Body.GetChild(NodeType.Any, 0, true).NodeType);
 
-// Bunun gibi yeni bir bölüm eklersek, bunun bir gövdesi veya başka herhangi bir alt düğümü olmayacaktır.
+// Bunun gibi yeni bir bölüm eklersek ne gövdesi ne de başka bir alt düğümü olmayacak.
 doc.Sections.Add(new Section(doc));
 
 Assert.AreEqual(0, doc.Sections[1].GetChildNodes(NodeType.Any, true).Count);
 
-// Düzenlemeye başlamak için bu bölüme bir gövde ve bir paragraf eklemek için "EnsureMinimum" yöntemini çalıştırın.
+// Düzenlemeye başlamak için bu bölüme bir gövde ve paragraf eklemek üzere "EnsureMinimum" yöntemini çalıştırın.
 doc.LastSection.EnsureMinimum();
 
 Assert.AreEqual(NodeType.Body, doc.Sections[1].GetChild(NodeType.Any, 0, true).NodeType);

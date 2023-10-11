@@ -1,14 +1,14 @@
 ---
 title: BorderCollection.Color
 second_title: Aspose.Words لمراجع .NET API
-description: BorderCollection ملكية. الحصول على لون الحد أو تعيينه .
+description: BorderCollection ملكية. الحصول على لون الحدود أو تعيينه.
 type: docs
 weight: 20
 url: /ar/net/aspose.words/bordercollection/color/
 ---
 ## BorderCollection.Color property
 
-الحصول على لون الحد أو تعيينه .
+الحصول على لون الحدود أو تعيينه.
 
 ```csharp
 public Color Color { get; set; }
@@ -22,7 +22,7 @@ public Color Color { get; set; }
 
 ### أمثلة
 
-يوضح كيفية إنشاء حد صفحة أخضر مموج بظل.
+يوضح كيفية إنشاء حدود صفحة خضراء متموجة مع الظل.
 
 ```csharp
 Document doc = new Document();

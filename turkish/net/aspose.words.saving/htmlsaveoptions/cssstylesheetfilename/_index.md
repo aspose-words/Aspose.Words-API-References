@@ -8,7 +8,7 @@ url: /tr/net/aspose.words.saving/htmlsaveoptions/cssstylesheetfilename/
 ---
 ## HtmlSaveOptions.CssStyleSheetFileName property
 
-Bir document HTML'ye aktarıldığında yazılan Basamaklı Stil Sayfası (CSS) dosyasının yolunu ve adını belirtir. Varsayılan boş bir dizedir.
+Bir document HTML'ye aktarıldığında yazılan Basamaklı Stil Sayfası (CSS) dosyasının yolunu ve adını belirtir. Varsayılan, boş bir dizedir.
 
 ```csharp
 public string CssStyleSheetFileName { get; set; }
@@ -16,15 +16,15 @@ public string CssStyleSheetFileName { get; set; }
 
 ### Notlar
 
-Bu özellik, yalnızca bir belgeyi HTML biçiminde olarak kaydederken ve kullanılarak harici CSS stil sayfası istendiğinde etkilidir.[`CssStyleSheetType`](../cssstylesheettype/).
+Bu özellik yalnızca bir belge HTML biçiminde kaydedildiğinde ve harici CSS stil sayfası kullanılarak istendiğinde etkili olur.[`CssStyleSheetType`](../cssstylesheettype/).
 
-Bu özellik boşsa, CSS dosyası aynı klasöre ve HTML belgesiyle aynı adla ancak ".css" uzantısıyla kaydedilecektir.
+Bu özellik boşsa, CSS dosyası HTML belgesiyle aynı klasöre ve aynı adla ancak ".css" uzantısıyla kaydedilecektir.
 
-Bu özellikte yalnızca yol belirtilmişse ancak dosya adı belirtilmemişse, CSS dosyası belirtilen klasörüne kaydedilecek ve HTML belgesiyle aynı ada sahip olacak, ancak ".css" uzantılı olacaktır.
+Bu özellikte yalnızca yol belirtilir ancak dosya adı belirtilmezse, CSS dosyası belirtilen klasörüne kaydedilecek ve HTML belgesiyle aynı adı taşıyacak ancak ".css" uzantısına sahip olacaktır.
 
-Bu özellik tarafından belirtilen klasör yoksa, CSS file kaydedilmeden önce otomatik olarak oluşturulur.
+Bu özellik tarafından belirtilen klasör mevcut değilse, CSS file kaydedilmeden önce otomatik olarak oluşturulacaktır.
 
-Harici CSS dosyasının kaydedildiği bir klasör belirtmenin başka bir yolu da kullanmaktır.[`ResourceFolder`](../resourcefolder/) .
+Harici CSS dosyasının kaydedildiği klasörü belirtmenin başka bir yolu da kullanmaktır.[`ResourceFolder`](../resourcefolder/) .
 
 ### Örnekler
 
@@ -35,15 +35,15 @@ public void ExternalCssFilenames()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
-    // Belgenin "Kaydet" yöntemine aktarabileceğimiz bir "HtmlFixedSaveOptions" nesnesi oluşturun
+    // Belgenin "Save" yöntemine aktarabileceğimiz bir "HtmlFixedSaveOptions" nesnesi oluşturun
     // belgeyi HTML'ye nasıl dönüştüreceğimizi değiştirmek için.
     HtmlSaveOptions options = new HtmlSaveOptions();
 
-    // "CssStylesheetType" özelliğini "CssStyleSheetType.External" olarak ayarlayın.
-    // kaydedilmiş bir HTML belgesine harici bir CSS stil sayfası dosyasıyla eşlik edin.
+    // "CssStylesheetType" özelliğini "CssStyleSheetType.External" olarak ayarlayın
+    // kayıtlı bir HTML belgesine harici bir CSS stil sayfası dosyasıyla eşlik edin.
     options.CssStyleSheetType = CssStyleSheetType.External;
 
-    // Aşağıda, çıktı CSS stil sayfaları için dizinleri ve dosya adlarını belirtmenin iki yolu bulunmaktadır.
+    // Aşağıda çıktı CSS stil sayfaları için dizinleri ve dosya adlarını belirtmenin iki yolu verilmiştir.
     // 1 - Stil sayfamıza bir dosya adı atamak için "CssStyleSheetFileName" özelliğini kullanın:
     options.CssStyleSheetFileName = ArtifactsDir + "SavingCallback.ExternalCssFilenames.css";
 
@@ -55,7 +55,7 @@ public void ExternalCssFilenames()
 }
 
 /// <summary>
-/// Harici bir CSS stil sayfası için diğer parametrelerle birlikte özel bir dosya adı ayarlar.
+/// Harici bir CSS stil sayfası için diğer parametrelerle birlikte özel bir dosya adı belirler.
 /// </summary>
 private class CustomCssSavingCallback : ICssSavingCallback
 {
@@ -68,7 +68,7 @@ private class CustomCssSavingCallback : ICssSavingCallback
 
     public void CssSaving(CssSavingArgs args)
     {
-        // "Document" özelliği ile kaynak belgenin tamamına erişebiliriz.
+        // Kaynak belgenin tamamına "Belge" özelliği aracılığıyla erişebiliriz.
         Assert.True(args.Document.OriginalFileName.EndsWith("Rendering.docx"));
 
         args.CssStream = new FileStream(mCssTextFileName, FileMode.Create);

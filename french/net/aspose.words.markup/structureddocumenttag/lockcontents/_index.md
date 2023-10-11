@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTag.LockContents
 second_title: Référence de l'API Aspose.Words pour .NET
-description: StructuredDocumentTag propriété. Lorsquelle est définie sur true cette propriété interdit à un utilisateur de modifier le contenu de ce TDS .
+description: StructuredDocumentTag propriété. Lorsquil est défini survrai  cette propriété interdira à un utilisateur de modifier le contenu de ce TSD .
 type: docs
 weight: 200
 url: /fr/net/aspose.words.markup/structureddocumenttag/lockcontents/
 ---
 ## StructuredDocumentTag.LockContents property
 
-Lorsqu'elle est définie sur true, cette propriété interdit à un utilisateur de modifier le contenu de ce **TDS** .
+Lorsqu'il est défini sur`vrai` , cette propriété interdira à un utilisateur de modifier le contenu de ce **TSD** .
 
 ```csharp
 public bool LockContents { get; set; }
@@ -16,7 +16,7 @@ public bool LockContents { get; set; }
 
 ### Exemples
 
-Montre comment appliquer des restrictions d'édition aux balises de document structuré.
+Montre comment appliquer des restrictions de modification aux balises de documents structurés.
 
 ```csharp
 Document doc = new Document();
@@ -32,7 +32,7 @@ builder.InsertNode(tag);
 
 tag = new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Inline);
 
-// Définissez la propriété "LockContentControl" à "true" pour interdire à l'utilisateur de
+// Définit la propriété "LockContentControl" sur "true" pour interdire à l'utilisateur de
 // suppression manuelle de cette balise de document structuré dans Microsoft Word.
 tag.LockContentControl = true;
 

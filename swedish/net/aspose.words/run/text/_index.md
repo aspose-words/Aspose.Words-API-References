@@ -3,7 +3,7 @@ title: Run.Text
 second_title: Aspose.Words för .NET API Referens
 description: Run fast egendom. Hämtar eller ställer in texten för körningen.
 type: docs
-weight: 30
+weight: 50
 url: /sv/net/aspose.words/run/text/
 ---
 ## Run.Text property

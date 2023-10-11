@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.CachedColBalance
 second_title: Aspose.Words لمراجع .NET API
-description: CompatibilityOptions ملكية. استخدام معلومات الفقرة المخزنة مؤقتًا لموازنة العمود.
+description: CompatibilityOptions ملكية. استخدم معلومات الفقرة المخزنة مؤقتًا لموازنة الأعمدة.
 type: docs
 weight: 80
 url: /ar/net/aspose.words.settings/compatibilityoptions/cachedcolbalance/
 ---
 ## CompatibilityOptions.CachedColBalance property
 
-استخدام معلومات الفقرة المخزنة مؤقتًا لموازنة العمود.
+استخدم معلومات الفقرة المخزنة مؤقتًا لموازنة الأعمدة.
 
 ```csharp
 public bool CachedColBalance { get; set; }

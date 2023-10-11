@@ -1,14 +1,14 @@
 ---
 title: ParagraphCollection.ToArray
 second_title: Referencia de API de Aspose.Words para .NET
-description: ParagraphCollection método. Copia todos los párrafos de la colección a una nueva matriz de párrafos.
+description: ParagraphCollection método. Copia todos los párrafos de la colección en una nueva matriz de párrafos.
 type: docs
 weight: 20
 url: /es/net/aspose.words/paragraphcollection/toarray/
 ---
 ## ParagraphCollection.ToArray method
 
-Copia todos los párrafos de la colección a una nueva matriz de párrafos.
+Copia todos los párrafos de la colección en una nueva matriz de párrafos.
 
 ```csharp
 public Paragraph[] ToArray()
@@ -30,7 +30,7 @@ Paragraph[] paras = doc.FirstSection.Body.Paragraphs.ToArray();
 Assert.AreEqual(22, paras.Length);
 ```
 
-Muestra cómo usar "eliminación en caliente" para eliminar un nodo durante la enumeración.
+Muestra cómo utilizar la "eliminación en caliente" para eliminar un nodo durante la enumeración.
 
 ```csharp
 Document doc = new Document();
@@ -41,7 +41,7 @@ builder.Writeln("The second paragraph");
 builder.Writeln("The third paragraph");
 builder.Writeln("The fourth paragraph");
 
-// Eliminar un nodo de la colección en medio de una enumeración.
+// Elimina un nodo de la colección en medio de una enumeración.
 foreach (Paragraph para in doc.FirstSection.Body.Paragraphs.ToArray())
     if (para.Range.Text.Contains("third"))
         para.Remove();

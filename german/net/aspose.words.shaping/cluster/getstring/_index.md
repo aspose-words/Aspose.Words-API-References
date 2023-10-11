@@ -1,12 +1,14 @@
 ---
 title: Cluster.GetString
 second_title: Aspose.Words für .NET-API-Referenz
-description: Cluster methode. 
+description: Cluster methode. ErstelltString Verwenden von Codepunkten aus den angegebenen Clustern.
 type: docs
 weight: 70
 url: /de/net/aspose.words.shaping/cluster/getstring/
 ---
 ## GetString(Cluster[])
+
+ErstelltString Verwenden von Codepunkten aus den angegebenen Clustern.
 
 ```csharp
 public static string GetString(Cluster[] clusters)
@@ -21,6 +23,8 @@ public static string GetString(Cluster[] clusters)
 ---
 
 ## GetString()
+
+ErstelltString Verwenden von Codepunkten aus diesem Cluster.
 
 ```csharp
 public string GetString()

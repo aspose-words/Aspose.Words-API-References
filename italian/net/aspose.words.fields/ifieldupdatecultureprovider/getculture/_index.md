@@ -1,14 +1,14 @@
 ---
 title: IFieldUpdateCultureProvider.GetCulture
 second_title: Aspose.Words per .NET API Reference
-description: IFieldUpdateCultureProvider metodo. Restituisce aCultureInfo oggetto da utilizzare durante laggiornamento del campo.
+description: IFieldUpdateCultureProvider metodo. Restituisce aCultureInfooggetto da utilizzare durante laggiornamento del campo.
 type: docs
 weight: 10
 url: /it/net/aspose.words.fields/ifieldupdatecultureprovider/getculture/
 ---
 ## IFieldUpdateCultureProvider.GetCulture method
 
-Restituisce aCultureInfo oggetto da utilizzare durante l'aggiornamento del campo.
+Restituisce aCultureInfooggetto da utilizzare durante l'aggiornamento del campo.
 
 ```csharp
 public CultureInfo GetCulture(string culture, Field field)
@@ -16,19 +16,18 @@ public CultureInfo GetCulture(string culture, Field field)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| culture | String | Il nome della cultura richiesta per il campo in fase di aggiornamento. |
-| field | Field | Il campo in fase di aggiornamento. |
+| culture | String | Il nome della lingua richiesta per il campo in fase di aggiornamento. |
+| field | Field | Il campo è in fase di aggiornamento. |
 
 ### Valore di ritorno
 
-L'oggetto cultura da usare per l'aggiornamento del campo.
+L'oggetto cultura che deve essere utilizzato per l'aggiornamento del campo.
 
 ### Esempi
 
-Mostra come specificare una lingua che analizzi la formattazione di data/ora per ogni campo.
+Mostra come specificare una lingua che analizza la formattazione di data/ora per ogni campo.
 
 ```csharp
-[Test]
 public void DefineDateTimeFormatting()
 {
     Document doc = new Document();
@@ -38,7 +37,7 @@ public void DefineDateTimeFormatting()
 
     doc.FieldOptions.FieldUpdateCultureSource = FieldUpdateCultureSource.FieldCode;
 
-    // Imposta un provider che restituisca un oggetto cultura specifico per ogni campo.
+    // Imposta un provider che restituisce un oggetto cultura specifico per ciascun campo.
     doc.FieldOptions.FieldUpdateCultureProvider = new FieldUpdateCultureProvider();
 
     FieldTime fieldDate = (FieldTime)doc.Range.Fields[0];
@@ -49,7 +48,7 @@ public void DefineDateTimeFormatting()
 }
 
 /// <summary>
-/// Fornisce un oggetto CultureInfo da utilizzare durante l'aggiornamento di un campo.
+/// Fornisce un oggetto CultureInfo che deve essere utilizzato durante l'aggiornamento di un campo.
 /// </summary>
 private class FieldUpdateCultureProvider : IFieldUpdateCultureProvider
 {

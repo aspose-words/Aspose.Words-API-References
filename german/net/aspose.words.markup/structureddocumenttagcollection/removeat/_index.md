@@ -18,6 +18,32 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | Ein Index in die Sammlung. |
 
+### Beispiele
+
+Zeigt, wie man strukturierte Dokument-Tags entfernt.
+
+```csharp
+Document doc = new Document(MyDir + "Structured document tags.docx");
+
+StructuredDocumentTagCollection structuredDocumentTags = doc.Range.StructuredDocumentTags;
+IStructuredDocumentTag sdt;
+for (int i = 0; i < structuredDocumentTags.Count; i++)
+{
+    sdt = structuredDocumentTags[i];
+    Console.WriteLine(sdt.Title);
+}
+
+sdt = structuredDocumentTags.GetById(1691867797);
+Assert.AreEqual(1691867797, sdt.Id);
+
+Assert.AreEqual(5, structuredDocumentTags.Count);
+// Entfernen Sie das strukturierte Dokument-Tag nach Id.
+structuredDocumentTags.Remove(1691867797);
+// Entfernen Sie das strukturierte Dokument-Tag an Position 0.
+structuredDocumentTags.RemoveAt(0);
+Assert.AreEqual(3, structuredDocumentTags.Count);
+```
+
 ### Siehe auch
 
 * class [StructuredDocumentTagCollection](../)

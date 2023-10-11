@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTagRangeStart.WordOpenXML
 second_title: Référence de l'API Aspose.Words pour .NET
-description: StructuredDocumentTagRangeStart propriété. Obtient une chaîne qui représente le XML contenu dans le nœud duFlatOpc format.
+description: StructuredDocumentTagRangeStart propriété. Obtient une chaîne qui représente le XML contenu dans le nœud dans leFlatOpc format.
 type: docs
 weight: 170
 url: /fr/net/aspose.words.markup/structureddocumenttagrangestart/wordopenxml/
 ---
 ## StructuredDocumentTagRangeStart.WordOpenXML property
 
-Obtient une chaîne qui représente le XML contenu dans le nœud duFlatOpc format.
+Obtient une chaîne qui représente le XML contenu dans le nœud dans leFlatOpc format.
 
 ```csharp
 public string WordOpenXML { get; }
@@ -16,7 +16,7 @@ public string WordOpenXML { get; }
 
 ### Exemples
 
-Montre comment obtenir les propriétés des balises de document structuré à plusieurs sections.
+Montre comment obtenir les propriétés des balises de documents structurés à plusieurs sections.
 
 ```csharp
 Document doc = new Document(MyDir + "Multi-section structured document tags.docx");

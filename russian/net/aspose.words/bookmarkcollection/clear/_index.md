@@ -22,7 +22,7 @@ public void Clear()
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Вставить пять закладок с текстом внутри их границ.
+// Вставляем пять закладок с текстом внутри их границ.
 for (int i = 1; i <= 5; i++)
 {
     string bookmarkName = "MyBookmark_" + i;
@@ -33,7 +33,7 @@ for (int i = 1; i <= 5; i++)
     builder.InsertBreak(BreakType.ParagraphBreak);
 }
 
-// В этой коллекции хранятся закладки.
+// Эта коллекция хранит закладки.
 BookmarkCollection bookmarks = doc.Range.Bookmarks;
 
 Assert.AreEqual(5, bookmarks.Count);
@@ -44,13 +44,13 @@ bookmarks["MyBookmark_1"].Remove();
 
 Assert.False(bookmarks.Any(b => b.Name == "MyBookmark_1"));
 
-// 2 - Передача закладки в метод Remove коллекции:
+// 2 – Передача закладки в метод Remove коллекции:
 Bookmark bookmark = doc.Range.Bookmarks[0];
 doc.Range.Bookmarks.Remove(bookmark);
 
 Assert.False(bookmarks.Any(b => b.Name == "MyBookmark_2"));
 
-// 3 - Удаление закладки из коллекции по имени:
+//3 - Удаление закладки из коллекции по имени:
 doc.Range.Bookmarks.Remove("MyBookmark_3");
 
 Assert.False(bookmarks.Any(b => b.Name == "MyBookmark_3"));

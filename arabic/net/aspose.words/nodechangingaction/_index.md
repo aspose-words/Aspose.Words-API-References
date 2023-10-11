@@ -3,7 +3,7 @@ title: Enum NodeChangingAction
 second_title: Aspose.Words لمراجع .NET API
 description: Aspose.Words.NodeChangingAction تعداد. يحدد نوع تغيير العقدة.
 type: docs
-weight: 3940
+weight: 4180
 url: /ar/net/aspose.words/nodechangingaction/
 ---
 ## NodeChangingAction enumeration
@@ -18,14 +18,15 @@ public enum NodeChangingAction
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| Insert | `0` | يتم إدخال عقدة في الشجرة . |
-| Remove | `1` | تتم إزالة عقدة من الشجرة . |
+| Insert | `0` | يتم إدراج عقدة في الشجرة. |
+| Remove | `1` | تتم إزالة العقدة من الشجرة. |
 
 ### أمثلة
 
-يوضح كيفية استخدام NodeChangingCallback لمراقبة التغييرات في شجرة المستند في الوقت الفعلي أثناء تحريرها.
+يوضح كيفية استخدام NodeChangingCallback لمراقبة التغييرات التي تطرأ على شجرة المستندات في الوقت الفعلي أثناء قيامنا بتحريرها.
 
 ```csharp
+public void NodeChangingCallback()
 {
     Document doc = new Document();
     doc.NodeChangingCallback = new NodeChangingPrinter();
@@ -50,7 +51,7 @@ public enum NodeChangingAction
 }
 
 /// <summary>
-/// يطبع كل إدخال / إزالة عقدة كما يحدث في المستند.
+/// يطبع كل إدخال/إزالة للعقدة أثناء حدوثها في المستند.
 /// </summary>
 private class NodeChangingPrinter : INodeChangingCallback
 {

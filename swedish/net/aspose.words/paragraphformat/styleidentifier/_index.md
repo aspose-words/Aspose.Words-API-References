@@ -3,7 +3,7 @@ title: ParagraphFormat.StyleIdentifier
 second_title: Aspose.Words för .NET API Referens
 description: ParagraphFormat fast egendom. Hämtar eller ställer in den språkoberoende stilidentifieraren för styckeformatet som tillämpas på denna formatering.
 type: docs
-weight: 340
+weight: 350
 url: /sv/net/aspose.words/paragraphformat/styleidentifier/
 ---
 ## ParagraphFormat.StyleIdentifier property

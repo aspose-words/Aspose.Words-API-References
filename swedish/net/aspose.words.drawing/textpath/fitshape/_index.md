@@ -16,13 +16,14 @@ public bool FitShape { get; set; }
 
 ### Anmärkningar
 
-Standardvärdet är **falsk**.
+Standardvärdet är`falsk`.
 
 ### Exempel
 
 Visar hur man arbetar med WordArt.
 
 ```csharp
+public void InsertTextPaths()
 {
     Document doc = new Document();
 
@@ -88,6 +89,7 @@ Visar hur man arbetar med WordArt.
     shape.TextPath.TextPathAlignment = TextPathAlignment.Right;
 
     doc.Save(ArtifactsDir + "Shape.InsertTextPaths.docx");
+}
 
 /// <summary>
 /// Infoga ett nytt stycke med en WordArt-form inuti.

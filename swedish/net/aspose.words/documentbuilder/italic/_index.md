@@ -3,7 +3,7 @@ title: DocumentBuilder.Italic
 second_title: Aspose.Words för .NET API Referens
 description: DocumentBuilder fast egendom. Sant om teckensnittet är formaterat som kursivt.
 type: docs
-weight: 120
+weight: 140
 url: /sv/net/aspose.words/documentbuilder/italic/
 ---
 ## DocumentBuilder.Italic property

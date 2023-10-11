@@ -16,7 +16,7 @@ public LoadFormat LoadFormat { get; }
 
 ### Notlar
 
-Bir OOXML belgesi şifrelendiğinde, önce şifresini çözmeden bir Excel, Word veya PowerPoint belgesi olup olmadığını anlamak mümkün değildir, bu nedenle şifreli bir OOXML belgesi için bu özellik her zaman dönecektir.Docx.
+Bir OOXML belgesi şifrelendiğinde, önce şifresini çözmeden bunun bir Excel, Word veya PowerPoint belgesi olup olmadığını tespit etmek mümkün değildir, dolayısıyla şifrelenmiş bir OOXML belgesi için bu özellik her zaman geri dönecektirDocx.
 
 ### Örnekler
 
@@ -25,8 +25,8 @@ Belge biçimini ve şifrelemeyi algılamak için FileFormatUtil sınıfının na
 ```csharp
 Document doc = new Document();
 
-// Belgeyi şifrelemek için bir SaveOptions nesnesi yapılandırın
-// kaydettiğimizde bir şifre ile ve ardından belgeyi kaydedin.
+// Belgeyi şifrelemek için SaveOptions nesnesini yapılandırın
+// bir şifre ile kaydettiğimizde ve ardından belgeyi kaydettiğimizde.
 OdtSaveOptions saveOptions = new OdtSaveOptions(SaveFormat.Odt);
 saveOptions.Password = "MyPassword";
 
@@ -42,7 +42,7 @@ Assert.True(info.IsEncrypted);
 Belge biçimini ve dijital imzaların varlığını algılamak için FileFormatUtil sınıfının nasıl kullanılacağını gösterir.
 
 ```csharp
-// Belgenin dijital olarak imzalanmadığını doğrulamak için bir FileFormatInfo örneği kullanın.
+// Bir belgenin dijital olarak imzalanmadığını doğrulamak için FileFormatInfo örneğini kullanın.
 FileFormatInfo info = FileFormatUtil.DetectFileFormat(MyDir + "Document.docx");
 
 Assert.AreEqual(".docx", FileFormatUtil.LoadFormatToExtension(info.LoadFormat));
@@ -52,19 +52,19 @@ CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.p
 DigitalSignatureUtil.Sign(MyDir + "Document.docx", ArtifactsDir + "File.DetectDigitalSignatures.docx",
     certificateHolder, new SignOptions() { SignTime = DateTime.Now });
 
-// İmzalandığını doğrulamak için yeni bir FileFormatInstance kullanın.
+// İmzalandığını onaylamak için yeni bir FileFormatInstance kullanın.
 info = FileFormatUtil.DetectFileFormat(ArtifactsDir + "File.DetectDigitalSignatures.docx");
 
 Assert.True(info.HasDigitalSignature);
 
-// Böyle bir koleksiyonda imzalanmış bir belgenin imzalarını yükleyebilir ve erişebiliriz.
+// Bunun gibi bir koleksiyonda imzalı bir belgenin imzalarına yükleyebilir ve erişebiliriz.
 Assert.AreEqual(1, DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "File.DetectDigitalSignatures.docx").Count);
 ```
 
 Bir belgenin biçimini algılamak için FileFormatUtil yöntemlerinin nasıl kullanılacağını gösterir.
 
 ```csharp
-// Dosya uzantısı olmayan bir dosyadan bir belge yükleyin ve ardından dosya biçimini tespit edin.
+// Dosya uzantısı eksik olan bir dosyadan belge yükleyin ve ardından dosya biçimini tespit edin.
 using (FileStream docStream = File.OpenRead(MyDir + "Word document with missing file extension"))
 {
     FileFormatInfo info = FileFormatUtil.DetectFileFormat(docStream);
@@ -72,7 +72,7 @@ using (FileStream docStream = File.OpenRead(MyDir + "Word document with missing 
 
     Assert.AreEqual(LoadFormat.Doc, loadFormat);
 
-    // Aşağıda, bir LoadFormat'ı karşılık gelen SaveFormat'a dönüştürmenin iki yöntemi bulunmaktadır.
+    // Aşağıda bir LoadFormat'ı karşılık gelen SaveFormat'a dönüştürmenin iki yöntemi verilmiştir.
     // 1 - LoadFormat için dosya uzantısı dizesini alın, ardından bu dizeden karşılık gelen SaveFormat'ı alın:
     string fileExtension = FileFormatUtil.LoadFormatToExtension(loadFormat);
     SaveFormat saveFormat = FileFormatUtil.ExtensionToSaveFormat(fileExtension);
@@ -80,7 +80,7 @@ using (FileStream docStream = File.OpenRead(MyDir + "Word document with missing 
     // 2 - LoadFormat'ı doğrudan SaveFormat'ına dönüştürün:
     saveFormat = FileFormatUtil.LoadFormatToSaveFormat(loadFormat);
 
-    // Akıştan bir belge yükleyin ve ardından otomatik olarak algılanan dosya uzantısına kaydedin.
+    // Akıştan bir belge yükleyin ve ardından onu otomatik olarak algılanan dosya uzantısına kaydedin.
     Document doc = new Document(docStream);
 
     Assert.AreEqual(".doc", FileFormatUtil.SaveFormatToExtension(saveFormat));

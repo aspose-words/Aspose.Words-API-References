@@ -1,14 +1,14 @@
 ---
 title: Enum ImageColorMode
 second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Saving.ImageColorMode Sıralama. Belge sayfalarının oluşturulan resimleri için renk modunu belirtir.
+description: Aspose.Words.Saving.ImageColorMode Sıralama. Belge sayfalarının oluşturulan görüntüleri için renk modunu belirtir.
 type: docs
-weight: 4950
+weight: 5210
 url: /tr/net/aspose.words.saving/imagecolormode/
 ---
 ## ImageColorMode enumeration
 
-Belge sayfalarının oluşturulan resimleri için renk modunu belirtir.
+Belge sayfalarının oluşturulan görüntüleri için renk modunu belirtir.
 
 ```csharp
 public enum ImageColorMode
@@ -18,13 +18,13 @@ public enum ImageColorMode
 
 | İsim | Değer | Tanım |
 | --- | --- | --- |
-| None | `0` | Belgenin sayfaları renkli resimler olarak işlenecektir. |
-| Grayscale | `1` | Belgenin sayfaları gri tonlamalı resimler olarak işlenecektir. |
-| BlackAndWhite | `2` | Belgenin sayfaları siyah beyaz resimler olarak işlenecektir. |
+| None | `0` | Belgenin sayfaları renkli resimler olarak gösterilecektir. |
+| Grayscale | `1` | Belgenin sayfaları gri tonlamalı resimler olarak oluşturulacaktır. |
+| BlackAndWhite | `2` | Belgenin sayfaları siyah beyaz resimler olarak gösterilecektir. |
 
 ### Örnekler
 
-Belgeleri işlerken bir renk modunun nasıl ayarlanacağını gösterir.
+Belgeleri işlerken renk modunun nasıl ayarlanacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -36,13 +36,13 @@ Document doc = new Document();
 
             Assert.That(20000, Is.LessThan(new FileInfo(ImageDir + "Logo.jpg").Length));
 
-            // Belgeyi bir resim olarak kaydettiğimizde, bir SaveOptions nesnesini şuraya aktarabiliriz:
+            // Belgeyi resim olarak kaydettiğimizde, bir SaveOptions nesnesini iletebiliriz
             // kaydetme işleminin oluşturacağı görüntü için bir renk modu seçin.
             // "ImageColorMode" özelliğini "ImageColorMode.BlackAndWhite" olarak ayarlarsak,
-            // kaydetme işlemi, belgeyi oluştururken gri tonlamalı renk azaltma uygulayacaktır.
-             // "ImageColorMode" özelliğini "ImageColorMode.Grayscale" olarak ayarlarsak,
+            // kaydetme işlemi, belge oluşturulurken gri tonlamalı renk azaltma uygulayacaktır.
+            // "ImageColorMode" özelliğini "ImageColorMode.Grayscale" olarak ayarlarsak,
             // kaydetme işlemi belgeyi tek renkli bir görüntüye dönüştürecektir.
-            // "ImageColorMode" özelliğini "None" olarak ayarlarsak, kaydetme işlemi varsayılan yöntemi uygulayacaktır.
+            // "ImageColorMode" özelliğini "None" olarak ayarlarsak kaydetme işlemi varsayılan yöntemi uygulayacaktır
             // ve çıktı görüntüsündeki tüm belgenin renklerini koruyun.
             ImageSaveOptions imageSaveOptions = new ImageSaveOptions(SaveFormat.Png);
             imageSaveOptions.ImageColorMode = imageColorMode;

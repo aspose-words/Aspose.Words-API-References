@@ -1,14 +1,14 @@
 ---
 title: Range.Text
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Range propriété. Obtient le texte de la plage.
+description: Range propriété. Récupère le texte de la plage.
 type: docs
-weight: 50
+weight: 60
 url: /fr/net/aspose.words/range/text/
 ---
 ## Range.Text property
 
-Obtient le texte de la plage.
+Récupère le texte de la plage.
 
 ```csharp
 public string Text { get; }
@@ -16,7 +16,7 @@ public string Text { get; }
 
 ### Remarques
 
-La chaîne renvoyée comprend tous les caractères de contrôle et spéciaux, comme décrit dans[`ControlChar`](../../controlchar/).
+La chaîne renvoyée inclut tous les caractères de contrôle et spéciaux comme décrit dans[`ControlChar`](../../controlchar/).
 
 ### Exemples
 

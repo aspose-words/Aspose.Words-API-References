@@ -1,14 +1,14 @@
 ---
 title: CustomPart.RelationshipType
 second_title: Référence de l'API Aspose.Words pour .NET
-description: CustomPart propriété. Obtient ou définit le type de relation entre la pièce parente et cette pièce personnalisée.
+description: CustomPart propriété. Obtient ou définit le type de relation de la pièce parent vers cette pièce personnalisée.
 type: docs
 weight: 60
 url: /fr/net/aspose.words.markup/custompart/relationshiptype/
 ---
 ## CustomPart.RelationshipType property
 
-Obtient ou définit le type de relation entre la pièce parente et cette pièce personnalisée.
+Obtient ou définit le type de relation de la pièce parent vers cette pièce personnalisée.
 
 ```csharp
 public string RelationshipType { get; set; }
@@ -16,20 +16,20 @@ public string RelationshipType { get; set; }
 
 ### Remarques
 
-Le type de relation pour une partie personnalisée doit être "inconnu", par exemple un type de relation personnalisé, et non l'un des types de relation définis dans la norme ISO/IEC 29500.
+Le type de relation pour une pièce personnalisée doit être « inconnu », par exemple un type de relation personnalisé, et non l'un des types de relation définis dans la norme ISO/IEC 29500.
 
 La valeur par défaut est une chaîne vide. Une valeur valide doit être une chaîne non vide.
 
 ### Exemples
 
-Montre comment accéder à la collection de parties personnalisées arbitraires d'un document.
+Montre comment accéder à la collection de pièces personnalisées arbitraires d’un document.
 
 ```csharp
 Document doc = new Document(MyDir + "Custom parts OOXML package.docx");
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);
 
-// Clone la deuxième partie, puis ajoute le clone à la collection.
+// Clonez la deuxième partie, puis ajoutez le clone à la collection.
 CustomPart clonedPart = doc.PackageCustomParts[1].Clone();
 doc.PackageCustomParts.Add(clonedPart);
 Assert.AreEqual(3, doc.PackageCustomParts.Count);
@@ -51,7 +51,7 @@ using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator
     }
 }
 
-// Nous pouvons supprimer des éléments de cette collection individuellement ou tous à la fois.
+// Nous pouvons supprimer des éléments de cette collection individuellement ou tous en même temps.
 doc.PackageCustomParts.RemoveAt(2);
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);

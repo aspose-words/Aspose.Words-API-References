@@ -1,14 +1,14 @@
 ---
 title: ChartDataLabelCollection.Item
 second_title: Aspose.Words لمراجع .NET API
-description: ChartDataLabelCollection ملكية. عوائدChartDataLabel للفهرس المحدد.
+description: ChartDataLabelCollection ملكية. إرجاعChartDataLabel للفهرس المحدد.
 type: docs
-weight: 20
+weight: 40
 url: /ar/net/aspose.words.drawing.charts/chartdatalabelcollection/item/
 ---
 ## ChartDataLabelCollection indexer
 
-عوائد[`ChartDataLabel`](../../chartdatalabel/) للفهرس المحدد.
+إرجاع[`ChartDataLabel`](../../chartdatalabel/) للفهرس المحدد.
 
 ```csharp
 public ChartDataLabel this[int index] { get; }
@@ -19,6 +19,7 @@ public ChartDataLabel this[int index] { get; }
 يوضح كيفية تطبيق التسميات على نقاط البيانات في مخطط خطي.
 
 ```csharp
+public void DataLabels()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -31,15 +32,15 @@ public ChartDataLabel this[int index] { get; }
     Assert.AreEqual("Series 2", chart.Series[1].Name);
     Assert.AreEqual("Series 3", chart.Series[2].Name);
 
-    // تطبيق تسميات البيانات على كل سلسلة في الرسم البياني.
-    // ستظهر هذه العلامات بجوار كل نقطة بيانات في الرسم البياني وتعرض قيمتها.
+    // قم بتطبيق تسميات البيانات على كل سلسلة في المخطط.
+    // ستظهر هذه التسميات بجوار كل نقطة بيانات في الرسم البياني وستعرض قيمتها.
     foreach (ChartSeries series in chart.Series)
     {
         ApplyDataLabels(series, 4, "000.0", ", ");
         Assert.AreEqual(4, series.DataLabels.Count);
     }
 
-    // تغيير سلسلة الفاصل لكل تسمية بيانات في سلسلة.
+    // قم بتغيير السلسلة الفاصلة لكل تسمية بيانات في السلسلة.
     using (IEnumerator<ChartDataLabel> enumerator = chart.Series[0].DataLabels.GetEnumerator())
     {
         while (enumerator.MoveNext())
@@ -49,7 +50,7 @@ public ChartDataLabel this[int index] { get; }
         }
     }
 
-    // للحصول على رسم بياني أنظف ، يمكننا إزالة ملصقات البيانات بشكل فردي.
+    // للحصول على رسم بياني أكثر وضوحًا، يمكننا إزالة تسميات البيانات بشكل فردي.
     chart.Series[1].DataLabels[2].ClearFormat();
 
     // يمكننا أيضًا تجريد سلسلة كاملة من تسميات البيانات الخاصة بها مرة واحدة.
@@ -59,7 +60,7 @@ public ChartDataLabel this[int index] { get; }
 }
 
 /// <summary>
-/// تطبيق تسميات البيانات بتنسيق أرقام مخصص وفاصل على عدة نقاط بيانات في سلسلة.
+/// قم بتطبيق تسميات البيانات بتنسيق أرقام مخصص وفاصل على عدة نقاط بيانات في سلسلة.
 /// </summary>
 private static void ApplyDataLabels(ChartSeries series, int labelsCount, string numberFormat, string separator)
 {

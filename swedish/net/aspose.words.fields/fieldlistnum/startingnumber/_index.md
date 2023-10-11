@@ -33,7 +33,7 @@ builder.Writeln("Paragraph 1");
 
 Assert.AreEqual(" LISTNUM  \\s 0", field.GetFieldCode());
 
-  // LISTNUM-fält upprätthåller separata räkningar för varje listnivå.
+ // LISTNUM-fält upprätthåller separata räkningar för varje listnivå.
 // Infoga ett LISTNUM-fält i samma stycke som ett annat LISTNUM-fält
 // ökar listnivån istället för antalet.
 // Nästa fält kommer att fortsätta räkningen vi startade ovan och visa värdet "1" på listnivå 1.

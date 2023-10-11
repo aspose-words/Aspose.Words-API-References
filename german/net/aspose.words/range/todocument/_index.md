@@ -1,14 +1,14 @@
 ---
 title: Range.ToDocument
 second_title: Aspose.Words für .NET-API-Referenz
-description: Range methode. Erstellt ein neues vollständig formatiertes Dokument das den Bereich enthält.
+description: Range methode. Erstellt ein neues vollständig geformtes Dokument das den Bereich enthält.
 type: docs
-weight: 90
+weight: 100
 url: /de/net/aspose.words/range/todocument/
 ---
 ## Range.ToDocument method
 
-Erstellt ein neues vollständig formatiertes Dokument, das den Bereich enthält.
+Erstellt ein neues, vollständig geformtes Dokument, das den Bereich enthält.
 
 ```csharp
 public Document ToDocument()

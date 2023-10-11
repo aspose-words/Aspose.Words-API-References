@@ -1,14 +1,14 @@
 ---
 title: Enum ReportBuildOptions
 second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Reporting.ReportBuildOptions Sıralama. davranışını kontrol eden seçenekleri belirtir.ReportingEngine bir rapor oluştururken.
+description: Aspose.Words.Reporting.ReportBuildOptions Sıralama. Davranışını kontrol eden seçenekleri belirtirReportingEngine rapor oluştururken.
 type: docs
-weight: 4460
+weight: 4720
 url: /tr/net/aspose.words.reporting/reportbuildoptions/
 ---
 ## ReportBuildOptions enumeration
 
-davranışını kontrol eden seçenekleri belirtir.[`ReportingEngine`](../reportingengine/) bir rapor oluştururken.
+Davranışını kontrol eden seçenekleri belirtir[`ReportingEngine`](../reportingengine/) rapor oluştururken.
 
 ```csharp
 [Flags]
@@ -20,11 +20,11 @@ public enum ReportBuildOptions
 | İsim | Değer | Tanım |
 | --- | --- | --- |
 | None | `0` | Varsayılan seçenekleri belirtir. |
-| AllowMissingMembers | `1` | Eksik nesne üyelerinin motor tarafından boş sabit değerler olarak ele alınması gerektiğini belirtir. Bu seçenek yalnızca örnek (yani, statik olmayan) nesne üyelerine ve uzantı yöntemlerine erişimi etkiler. Bu seçeneği ayarlanmazsa, eksik bir nesne üyesiyle karşılaştığında motor bir istisna atar. |
-| RemoveEmptyParagraphs | `2` | Şablon sözdizimi etiketleri kaldırıldıktan veya boş değerlerle değiştirildikten sonra, motorun boş kalan paragrafları kaldırması gerektiğini belirtir. |
-| InlineErrorMessages | `4` | Motorun şablon sözdizimi hata mesajlarını çıktı belgelerine satır içi olarak eklemesi gerektiğini belirtir. Bu seçenek ayarlanmazsa, motor bir sözdizimi hatasıyla karşılaştığında bir istisna atar. |
-| UseLegacyHeaderFooterVisiting | `8` | Motorun, Aspose.Words 21.9. 'den önceki sürümleriyle uyumlu order bölümündeki alt düğümleri (üstbilgiler, altbilgiler, gövdeler) ziyaret etmesi gerektiğini belirtir. |
-| RespectJpegExifOrientation | `10` | Eklenen JPEG görüntülerini uygun şekilde döndürmek için motorun EXIF ​​​​görüntü yönlendirme değerlerini kullanması gerektiğini belirtir. |
+| AllowMissingMembers | `1` | Eksik nesne üyelerinin motor tarafından boş değişmez değerler olarak değerlendirilmesi gerektiğini belirtir. Bu seçeneği yalnızca örnek (yani statik olmayan) nesne üyelerine ve uzantı yöntemlerine erişimi etkiler. Bu seçeneği ayarlanmazsa, motor eksik bir nesne üyesiyle karşılaştığında bir istisna oluşturur. |
+| RemoveEmptyParagraphs | `2` | Şablon sözdizimi etiketleri kaldırıldıktan veya boş değerlerle değiştirildikten sonra motorun boş hale gelen paragrafları kaldırması gerektiğini belirtir. |
+| InlineErrorMessages | `4` | Motorun şablon sözdizimi hata mesajlarını çıktı belgelerine satır içi olarak koyması gerektiğini belirtir. Bu seçenek ayarlanmazsa, motor bir sözdizimi hatasıyla karşılaştığında bir istisna oluşturur. |
+| UseLegacyHeaderFooterVisiting | `8` | Motorun, Aspose.Words 21.9. öncesi sürümleriyle uyumlu bir order içindeki bölüm alt düğümlerini (üstbilgiler, altbilgiler, gövdeler) ziyaret etmesi gerektiğini belirtir. |
+| RespectJpegExifOrientation | `10` | Motorun, eklenen JPEG görüntülerini uygun şekilde döndürmek için EXIF ​​görüntü yönlendirme değerlerini kullanması gerektiğini belirtir. |
 
 ### Ayrıca bakınız
 

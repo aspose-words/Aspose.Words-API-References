@@ -1,14 +1,14 @@
 ---
 title: Enum WrapType
 second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Drawing.WrapType enum. Specifica come il testo viene avvolto attorno a una forma o unimmagine.
+description: Aspose.Words.Drawing.WrapType enum. Specifica il modo in cui il testo viene disposto attorno a una forma o immagine.
 type: docs
-weight: 1250
+weight: 1400
 url: /it/net/aspose.words.drawing/wraptype/
 ---
 ## WrapType enumeration
 
-Specifica come il testo viene avvolto attorno a una forma o un'immagine.
+Specifica il modo in cui il testo viene disposto attorno a una forma o immagine.
 
 ```csharp
 public enum WrapType
@@ -18,12 +18,12 @@ public enum WrapType
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
-| None | `3` | Nessun testo che avvolge la forma. La forma viene posizionata dietro o davanti al testo. |
-| Inline | `0` | La forma rimane sullo stesso livello del testo e trattata come un carattere. |
-| TopBottom | `1` | Il testo si ferma nella parte superiore della forma e ricomincia sulla riga sotto la forma. |
+| None | `3` | Nessun testo attorno alla forma. La forma viene posizionata dietro o davanti al testo. |
+| Inline | `0` | La forma rimane sullo stesso livello del testo e viene trattata come un carattere. |
+| TopBottom | `1` | Il testo si ferma nella parte superiore della forma e ricomincia dalla riga sotto la forma. |
 | Square | `2` | Avvolge il testo attorno a tutti i lati del riquadro di delimitazione quadrato della forma. |
-| Tight | `4` | Si avvolge strettamente attorno ai bordi della forma, invece di avvolgersi attorno al rettangolo di selezione. |
-| Through | `5` | Uguale a Stretto, ma avvolge tutte le parti aperte della forma. |
+| Tight | `4` | Avvolge strettamente i bordi della forma, invece di avvolgere il riquadro di delimitazione. |
+| Through | `5` | Uguale a Stretto, ma avvolge tutte le parti della forma aperte. |
 
 ### Esempi
 
@@ -45,7 +45,7 @@ shape.VerticalAlignment = VerticalAlignment.Center;
 doc.Save(ArtifactsDir + "Image.CreateFloatingPageCenter.docx");
 ```
 
-Mostra come inserire un'immagine e usarla come filigrana.
+Mostra come inserire un'immagine e utilizzarla come filigrana.
 
 ```csharp
 Document doc = new Document();
@@ -67,7 +67,7 @@ shape.Top = (builder.PageSetup.PageHeight - shape.Height) / 2;
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertWatermark.docx");
 ```
 
-Mostra come inserire un'immagine e usarla come filigrana (.NetStandard 2.0).
+Mostra come inserire un'immagine e utilizzarla come filigrana (.NetStandard 2.0).
 
 ```csharp
 Document doc = new Document();

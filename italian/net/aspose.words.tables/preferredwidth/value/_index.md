@@ -1,14 +1,14 @@
 ---
 title: PreferredWidth.Value
 second_title: Aspose.Words per .NET API Reference
-description: PreferredWidth proprietà. Ottiene il valore di larghezza preferito. Lunità di misura è specificata nellaType proprietà.
+description: PreferredWidth proprietà. Ottiene il valore di larghezza preferito. Lunità di misura è specificata nelType proprietà.
 type: docs
 weight: 50
 url: /it/net/aspose.words.tables/preferredwidth/value/
 ---
 ## PreferredWidth.Value property
 
-Ottiene il valore di larghezza preferito. L'unità di misura è specificata nella[`Type`](../type/) proprietà.
+Ottiene il valore di larghezza preferito. L'unità di misura è specificata nel[`Type`](../type/) proprietà.
 
 ```csharp
 public double Value { get; }
@@ -16,7 +16,7 @@ public double Value { get; }
 
 ### Esempi
 
-Mostra come verificare il tipo di larghezza preferito e il valore di una cella di tabella.
+Mostra come verificare il tipo di larghezza e il valore preferiti di una cella di tabella.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");

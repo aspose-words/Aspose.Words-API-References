@@ -1,14 +1,14 @@
 ---
 title: LoadOptions.MswVersion
 second_title: Aspose.Words for .NET API Referansı
-description: LoadOptions mülk. Belge yükleme işleminin belirli bir MS Word sürümüyle eşleşmesi gerektiğini belirtmeye izin verir. Varsayılan değerWord2019
+description: LoadOptions mülk. Belge yükleme işleminin belirli bir MS Word sürümüyle eşleşmesi gerektiğini belirtmeye olanak tanır. Varsayılan değerWord2019
 type: docs
 weight: 100
 url: /tr/net/aspose.words.loading/loadoptions/mswversion/
 ---
 ## LoadOptions.MswVersion property
 
-Belge yükleme işleminin belirli bir MS Word sürümüyle eşleşmesi gerektiğini belirtmeye izin verir. Varsayılan değerWord2019
+Belge yükleme işleminin belirli bir MS Word sürümüyle eşleşmesi gerektiğini belirtmeye olanak tanır. Varsayılan değer:Word2019
 
 ```csharp
 public MsWordVersion MswVersion { get; set; }
@@ -16,14 +16,14 @@ public MsWordVersion MswVersion { get; set; }
 
 ### Notlar
 
-Farklı Word sürümleri, yükleme işlemi sırasında belge içeriğinin belirli yönlerini ve biçimlendirmeyi biraz farklı şekilde işleyebilir , bu da Belge Nesne Modelinde küçük farklılıklara neden olabilir.
+Farklı Word sürümleri, yükleme işlemi sırasında belge içeriğinin ve biçimlendirmesinin belirli yönlerini biraz farklı şekilde işleyebilir , bu da Belge Nesne Modelinde küçük farklılıklara neden olabilir.
 
 ### Örnekler
 
 Belge yükleme sırasında belirli bir Microsoft Word sürümünün yükleme prosedürünün nasıl taklit edileceğini gösterir.
 
 ```csharp
-// Varsayılan olarak Aspose.Words, belgeleri Microsoft Word 2019 spesifikasyonuna göre yükler.
+// Aspose.Words varsayılan olarak belgeleri Microsoft Word 2019 spesifikasyonuna göre yükler.
 LoadOptions loadOptions = new LoadOptions();
 
 Assert.AreEqual(MsWordVersion.Word2019, loadOptions.MswVersion);

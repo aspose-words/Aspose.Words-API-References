@@ -1,14 +1,14 @@
 ---
 title: Enum EmphasisMark
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.EmphasisMark énumération. Spécifie les types possibles de marque demphase.
+description: Aspose.Words.EmphasisMark énumération. Spécifie les types possibles de marque daccentuation.
 type: docs
-weight: 1310
+weight: 1460
 url: /fr/net/aspose.words/emphasismark/
 ---
 ## EmphasisMark enumeration
 
-Spécifie les types possibles de marque d'emphase.
+Spécifie les types possibles de marque d'accentuation.
 
 ```csharp
 public enum EmphasisMark
@@ -18,11 +18,11 @@ public enum EmphasisMark
 
 | Nom | Évaluer | La description |
 | --- | --- | --- |
-| None | `0` | Pas de marque d'emphase. |
-| OverSolidCircle | `1` | La marque d'emphase est un cercle noir uni affiché au-dessus du texte. |
-| OverComma | `2` | La marque d'emphase est une virgule affichée au-dessus du texte. |
-| OverWhiteCircle | `3` | La marque d'emphase est un cercle blanc vide affiché au-dessus du texte. |
-| UnderSolidCircle | `4` | La marque d'emphase est un cercle noir uni affiché sous le texte. |
+| None | `0` | Aucune marque d'accentuation. |
+| OverSolidCircle | `1` | La marque d'accentuation est un cercle noir plein affiché au-dessus du texte. |
+| OverComma | `2` | La marque d'accentuation est une virgule affichée au-dessus du texte. |
+| OverWhiteCircle | `3` | La marque d'accentuation est un cercle blanc vide affiché au-dessus du texte. |
+| UnderSolidCircle | `4` | La marque d'accentuation est un cercle noir plein affiché sous le texte. |
 
 ### Exemples
 
@@ -31,7 +31,7 @@ Montre comment ajouter un caractère supplémentaire rendu au-dessus/en dessous 
 ```csharp
 DocumentBuilder builder = new DocumentBuilder();
 
-// Types possibles de marque d'emphase :
+// Types possibles de marque d'accentuation :
 // https://apireference.aspose.com/words/net/aspose.words/emphasismark
 builder.Font.EmphasisMark = emphasisMark; 
 

@@ -1,14 +1,14 @@
 ---
 title: FontSettings.FallbackSettings
 second_title: Referencia de API de Aspose.Words para .NET
-description: FontSettings propiedad. Ajustes relacionados con el mecanismo de reserva de fuentes.
+description: FontSettings propiedad. Configuraciones relacionadas con el mecanismo de reserva de fuentes.
 type: docs
 weight: 30
 url: /es/net/aspose.words.fonts/fontsettings/fallbacksettings/
 ---
 ## FontSettings.FallbackSettings property
 
-Ajustes relacionados con el mecanismo de reserva de fuentes.
+Configuraciones relacionadas con el mecanismo de reserva de fuentes.
 
 ```csharp
 public FontFallbackSettings FallbackSettings { get; }
@@ -25,7 +25,7 @@ FontSettings fontSettings = new FontSettings();
 doc.FontSettings = fontSettings;
 FontFallbackSettings fontFallbackSettings = fontSettings.FallbackSettings;
 
-// Configure nuestros ajustes de fuentes para obtener fuentes solo desde la carpeta "MyFonts".
+// Configure nuestra configuración de fuentes para obtener fuentes solo desde la carpeta "MyFonts".
 FolderFontSource folderFontSource = new FolderFontSource(FontsDir, false);
 fontSettings.SetFontsSources(new FontSourceBase[] {folderFontSource});
 
@@ -37,7 +37,7 @@ fontFallbackSettings.Save(ArtifactsDir + "FontSettings.FallbackSettingsCustom.Bu
 
 // También podemos cargar un esquema de sustitución personalizado desde un archivo como este.
 // Este esquema aplica la fuente "AllegroOpen" en los bloques Unicode "0000-00ff", la fuente "AllegroOpen" en "0100-024f",
-// y la fuente "M+ 2m" en todos los demás rangos que otras fuentes en el esquema no cubren.
+// y la fuente "M+ 2m" en todos los demás rangos que otras fuentes del esquema no cubren.
 fontFallbackSettings.Load(MyDir + "Custom font fallback settings.xml");
 
 // Cree un generador de documentos y establezca su fuente en una que no exista en ninguna de nuestras fuentes.
@@ -45,8 +45,8 @@ fontFallbackSettings.Load(MyDir + "Custom font fallback settings.xml");
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Font.Name = "Missing Font";
 
-// Usa el constructor para imprimir todos los caracteres Unicode desde 0x0021 hasta 0x052F,
-// con líneas descriptivas que dividen los bloques Unicode que definimos en nuestro esquema de respaldo de fuente personalizado.
+// Usa el constructor para imprimir cada carácter Unicode desde 0x0021 hasta 0x052F,
+// con líneas descriptivas que dividen los bloques Unicode que definimos en nuestro esquema de reserva de fuentes personalizado.
 for (int i = 0x0021; i < 0x0530; i++)
 {
     switch (i)

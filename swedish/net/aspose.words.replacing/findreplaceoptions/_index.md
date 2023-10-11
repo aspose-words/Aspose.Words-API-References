@@ -3,12 +3,14 @@ title: Class FindReplaceOptions
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Replacing.FindReplaceOptions klass. Anger alternativ för sök/ersättoperationer.
 type: docs
-weight: 4360
+weight: 4620
 url: /sv/net/aspose.words.replacing/findreplaceoptions/
 ---
 ## FindReplaceOptions class
 
 Anger alternativ för sök-/ersätt-operationer.
+
+För att lära dig mer, besök[Hitta och ersätta](https://docs.aspose.com/words/net/find-and-replace/) dokumentationsartikel.
 
 ```csharp
 public class FindReplaceOptions
@@ -36,11 +38,13 @@ public class FindReplaceOptions
 | [IgnoreFields](../../aspose.words.replacing/findreplaceoptions/ignorefields/) { get; set; } | Hämtar eller ställer in ett booleskt värde som anger att texten i fält ska ignoreras. Standardvärdet är`falsk` . |
 | [IgnoreFootnotes](../../aspose.words.replacing/findreplaceoptions/ignorefootnotes/) { get; set; } | Hämtar eller ställer in ett booleskt värde som indikerar att antingen ignorera fotnoter. Standardvärdet är`falsk` . |
 | [IgnoreInserted](../../aspose.words.replacing/findreplaceoptions/ignoreinserted/) { get; set; } | Hämtar eller ställer in ett booleskt värde som indikerar att texten i infogningsversioner ska ignoreras. Standardvärdet är`falsk` . |
+| [IgnoreShapes](../../aspose.words.replacing/findreplaceoptions/ignoreshapes/) { get; set; } | Hämtar eller ställer in ett booleskt värde som indikerar att formerna i en text ska ignoreras. |
+| [IgnoreStructuredDocumentTags](../../aspose.words.replacing/findreplaceoptions/ignorestructureddocumenttags/) { get; set; } | Hämtar eller ställer in ett booleskt värde som anger att innehållet ska ignoreras[`StructuredDocumentTag`](../../aspose.words.markup/structureddocumenttag/) . Standardvärdet är`falsk` . |
 | [LegacyMode](../../aspose.words.replacing/findreplaceoptions/legacymode/) { get; set; } | Hämtar eller ställer in ett booleskt värde som indikerar att gammal hitta/ersätt algoritm används. |
 | [MatchCase](../../aspose.words.replacing/findreplaceoptions/matchcase/) { get; set; } | True indikerar skiftlägeskänslig jämförelse, false indikerar skiftlägesokänslig jämförelse. |
 | [ReplacingCallback](../../aspose.words.replacing/findreplaceoptions/replacingcallback/) { get; set; } | Den användardefinierade metoden som anropas före varje ersättningsförekomst. |
 | [SmartParagraphBreakReplacement](../../aspose.words.replacing/findreplaceoptions/smartparagraphbreakreplacement/) { get; set; } | Hämtar eller ställer in ett booleskt värde som anger att det är tillåtet att ersätta stycke break när det inte finns något nästa syskonstycke. |
-| [UseLegacyOrder](../../aspose.words.replacing/findreplaceoptions/uselegacyorder/) { get; set; } | True indikerar att en textsökning utförs sekventiellt uppifrån och ned med tanke på textrutorna. Standardvärdet är false. |
+| [UseLegacyOrder](../../aspose.words.replacing/findreplaceoptions/uselegacyorder/) { get; set; } | True indikerar att en textsökning utförs sekventiellt uppifrån och ned med tanke på textrutorna. Standardvärdet är`falsk` . |
 | [UseSubstitutions](../../aspose.words.replacing/findreplaceoptions/usesubstitutions/) { get; set; } | Hämtar eller ställer in ett booleskt värde som indikerar om ersättningar ska identifieras och användas inom ersättningsmönster. Standardvärdet är`falsk` . |
 
 ### Exempel

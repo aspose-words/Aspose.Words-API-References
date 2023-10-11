@@ -3,12 +3,14 @@ title: Class FileFontSource
 second_title: Aspose.Words for .NET API Referansı
 description: Aspose.Words.Fonts.FileFontSource sınıf. Dosya sisteminde depolanan tek TrueType yazı tipi dosyasını temsil eder.
 type: docs
-weight: 2690
+weight: 2870
 url: /tr/net/aspose.words.fonts/filefontsource/
 ---
 ## FileFontSource class
 
 Dosya sisteminde depolanan tek TrueType yazı tipi dosyasını temsil eder.
+
+Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Fontlarla Çalışmak](https://docs.aspose.com/words/net/working-with-fonts/) dokümantasyon makalesi.
 
 ```csharp
 public class FileFontSource : FontSourceBase
@@ -26,11 +28,11 @@ public class FileFontSource : FontSourceBase
 
 | İsim | Tanım |
 | --- | --- |
-| [CacheKey](../../aspose.words.fonts/filefontsource/cachekey/) { get; } | Önbellekteki bu kaynağın anahtarı. |
+| [CacheKey](../../aspose.words.fonts/filefontsource/cachekey/) { get; } | Bu kaynağın önbellekteki anahtarı. |
 | [FilePath](../../aspose.words.fonts/filefontsource/filepath/) { get; } | Yazı tipi dosyasının yolu. |
 | [Priority](../../aspose.words.fonts/fontsourcebase/priority/) { get; } | Yazı tipi kaynağı önceliğini döndürür. |
 | override [Type](../../aspose.words.fonts/filefontsource/type/) { get; } | Yazı tipi kaynağının türünü döndürür. |
-| [WarningCallback](../../aspose.words.fonts/fontsourcebase/warningcallback/) { get; set; } | Biçimlendirme aslına uygunluk kaybına neden olabilecek bir sorun algılandığında yazı tipi kaynağının işlenmesi sırasında çağrılır. |
+| [WarningCallback](../../aspose.words.fonts/fontsourcebase/warningcallback/) { get; set; } | Yazı tipi kaynağının işlenmesi sırasında, biçimlendirmenin aslına uygunluk kaybına yol açabilecek bir sorun algılandığında çağrılır. |
 
 ## yöntemler
 

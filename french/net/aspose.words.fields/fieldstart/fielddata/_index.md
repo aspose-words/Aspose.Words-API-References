@@ -16,7 +16,7 @@ public byte[] FieldData { get; }
 
 ### Exemples
 
-Montre comment obtenir les données associées au champ.
+Montre comment obtenir des données associées au champ.
 
 ```csharp
 Document doc = new Document(MyDir + "Field sample - Field with data.docx");

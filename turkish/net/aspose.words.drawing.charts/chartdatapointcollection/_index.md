@@ -1,14 +1,16 @@
 ---
 title: Class ChartDataPointCollection
 second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Drawing.Charts.ChartDataPointCollection sınıf. BirChartDataPoint .
+description: Aspose.Words.Drawing.Charts.ChartDataPointCollection sınıf. Bir koleksiyonu temsil ederChartDataPoint .
 type: docs
-weight: 660
+weight: 700
 url: /tr/net/aspose.words.drawing.charts/chartdatapointcollection/
 ---
 ## ChartDataPointCollection class
 
-Bir[`ChartDataPoint`](../chartdatapoint/) .
+Bir koleksiyonu temsil eder[`ChartDataPoint`](../chartdatapoint/) .
+
+Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Grafiklerle Çalışmak](https://docs.aspose.com/words/net/working-with-charts/) dokümantasyon makalesi.
 
 ```csharp
 public class ChartDataPointCollection : IEnumerable<ChartDataPoint>
@@ -18,22 +20,23 @@ public class ChartDataPointCollection : IEnumerable<ChartDataPoint>
 
 | İsim | Tanım |
 | --- | --- |
-| [Count](../../aspose.words.drawing.charts/chartdatapointcollection/count/) { get; } | Sayısını döndürür[`ChartDataPoint`](../chartdatapoint/) bu koleksiyonda. |
-| [Item](../../aspose.words.drawing.charts/chartdatapointcollection/item/) { get; } | İade[`ChartDataPoint`](../chartdatapoint/) belirtilen dizin için. |
+| [Count](../../aspose.words.drawing.charts/chartdatapointcollection/count/) { get; } | Sayıyı döndürür[`ChartDataPoint`](../chartdatapoint/) bu koleksiyonda. |
+| [Item](../../aspose.words.drawing.charts/chartdatapointcollection/item/) { get; } | İadeler[`ChartDataPoint`](../chartdatapoint/) belirtilen dizin için. |
 
 ## yöntemler
 
 | İsim | Tanım |
 | --- | --- |
 | [ClearFormat](../../aspose.words.drawing.charts/chartdatapointcollection/clearformat/)() | Tümünün biçimini temizler[`ChartDataPoint`](../chartdatapoint/) bu koleksiyonda. |
-| [GetEnumerator](../../aspose.words.drawing.charts/chartdatapointcollection/getenumerator/)() | Bir numaralandırıcı nesnesi döndürür. |
+| [CopyFormat](../../aspose.words.drawing.charts/chartdatapointcollection/copyformat/)(int, int) |  |
+| [GetEnumerator](../../aspose.words.drawing.charts/chartdatapointcollection/getenumerator/)() | Bir numaralandırıcı nesnesini döndürür. |
+| [HasDefaultFormat](../../aspose.words.drawing.charts/chartdatapointcollection/hasdefaultformat/)(int) |  |
 
 ### Örnekler
 
 Çizgi grafikte veri noktalarıyla nasıl çalışılacağını gösterir.
 
 ```csharp
-[Test]
 public void ChartDataPoint()
 {
     Document doc = new Document();
@@ -47,14 +50,14 @@ public void ChartDataPoint()
     Assert.AreEqual("Series 2", chart.Series[1].Name);
     Assert.AreEqual("Series 3", chart.Series[2].Name);
 
-    // Grafiğin veri noktalarını elmas şekiller olarak göstererek vurgulayın.
+    // Grafiğin veri noktalarını baklava şekilleri şeklinde göstererek vurgulayın.
     foreach (ChartSeries series in chart.Series) 
         ApplyDataPoints(series, 4, MarkerSymbol.Diamond, 15);
 
-    // İlk veri serisini temsil eden satırı düzeltin.
+    // İlk veri serisini temsil eden çizgiyi düzeltin.
     chart.Series[0].Smooth = true;
 
-    // Değer negatifse, ilk seri için veri noktalarının renklerini tersine çevirmediğini doğrulayın.
+    // Değer negatifse, ilk serinin veri noktalarının renklerini tersine çevirmeyeceğini doğrulayın.
     using (IEnumerator<ChartDataPoint> enumerator = chart.Series[0].DataPoints.GetEnumerator())
     {
         while (enumerator.MoveNext())
@@ -63,10 +66,10 @@ public void ChartDataPoint()
         }
     }
 
-    // Daha temiz bir grafik için formatı tek tek temizleyebiliriz.
+    // Daha temiz görünen bir grafik için formatı tek tek temizleyebiliriz.
     chart.Series[1].DataPoints[2].ClearFormat();
 
-    // Aynı anda bir dizi veri noktasının tamamını da ayıklayabiliriz.
+    // Ayrıca bir dizi veri noktasının tamamını aynı anda kaldırabiliriz.
     chart.Series[2].DataPoints.ClearFormat();
 
     doc.Save(ArtifactsDir + "Charts.ChartDataPoint.docx");

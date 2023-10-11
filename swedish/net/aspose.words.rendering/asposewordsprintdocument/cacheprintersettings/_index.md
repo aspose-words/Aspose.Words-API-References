@@ -3,7 +3,7 @@ title: AsposeWordsPrintDocument.CachePrinterSettings
 second_title: Aspose.Words för .NET API Referens
 description: AsposeWordsPrintDocument metod. Läser och cachar vissa fält avPrinterSettings för att minska utskriftstiden.
 type: docs
-weight: 20
+weight: 40
 url: /sv/net/aspose.words.rendering/asposewordsprintdocument/cacheprintersettings/
 ---
 ## AsposeWordsPrintDocument.CachePrinterSettings method
@@ -46,6 +46,9 @@ if (printDlg.ShowDialog() != DialogResult.OK)
 AsposeWordsPrintDocument awPrintDoc = new AsposeWordsPrintDocument(doc);
 awPrintDoc.PrinterSettings = printDlg.PrinterSettings;
 
+// Ange det nya färgutskriftsläget.
+awPrintDoc.ColorMode = ColorPrintMode.GrayscaleAuto;
+
 // Använd metoden "CachePrinterSettings" för att minska tiden för det första anropet av metoden "Skriv ut".
 awPrintDoc.CachePrinterSettings();
 
@@ -55,8 +58,10 @@ previewDlg.PrintPreviewControl.InvalidatePreview();
 
 // Skicka "Aspose.Words" utskriftsdokumentet till .NET Print Preview-dialogrutan.
 previewDlg.Document = awPrintDoc;
-
 previewDlg.ShowDialog();
+
+awPrintDoc.Print();            
+Console.WriteLine($"The numer of pages printed in color are {awPrintDoc.ColorPagesPrinted}.");
 ```
 
 ### Se även

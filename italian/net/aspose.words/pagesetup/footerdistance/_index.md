@@ -1,14 +1,14 @@
 ---
 title: PageSetup.FooterDistance
 second_title: Aspose.Words per .NET API Reference
-description: PageSetup proprietà. Restituisce o imposta la distanza in punti tra il piè di pagina e la parte inferiore della pagina.
+description: PageSetup proprietà. Restituisce o imposta la distanza in punti tra il piè di pagina e il fondo della pagina.
 type: docs
 weight: 140
 url: /it/net/aspose.words/pagesetup/footerdistance/
 ---
 ## PageSetup.FooterDistance property
 
-Restituisce o imposta la distanza (in punti) tra il piè di pagina e la parte inferiore della pagina.
+Restituisce o imposta la distanza (in punti) tra il piè di pagina e il fondo della pagina.
 
 ```csharp
 public double FooterDistance { get; set; }
@@ -16,7 +16,7 @@ public double FooterDistance { get; set; }
 
 ### Esempi
 
-Mostra come regolare il formato carta, l'orientamento, i margini e altre impostazioni per una sezione.
+Mostra come regolare il formato della carta, l'orientamento, i margini e altre impostazioni per una sezione.
 
 ```csharp
 Document doc = new Document();

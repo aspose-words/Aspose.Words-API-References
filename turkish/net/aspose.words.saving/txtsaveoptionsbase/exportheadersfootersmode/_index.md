@@ -1,14 +1,14 @@
 ---
 title: TxtSaveOptionsBase.ExportHeadersFootersMode
 second_title: Aspose.Words for .NET API Referansı
-description: TxtSaveOptionsBase mülk. Üstbilgilerin ve altbilgilerin metin biçimlerine dışa aktarılma şeklini belirtir. Varsayılan değerPrimaryOnly .
+description: TxtSaveOptionsBase mülk. Üstbilgilerin ve altbilgilerin metin formatlarına aktarılma yöntemini belirtir. Varsayılan değerPrimaryOnly .
 type: docs
 weight: 20
 url: /tr/net/aspose.words.saving/txtsaveoptionsbase/exportheadersfootersmode/
 ---
 ## TxtSaveOptionsBase.ExportHeadersFootersMode property
 
-Üstbilgilerin ve altbilgilerin metin biçimlerine dışa aktarılma şeklini belirtir. Varsayılan değerPrimaryOnly .
+Üstbilgilerin ve altbilgilerin metin formatlarına aktarılma yöntemini belirtir. Varsayılan değer:PrimaryOnly .
 
 ```csharp
 public TxtExportHeadersFootersMode ExportHeadersFootersMode { get; set; }
@@ -16,13 +16,13 @@ public TxtExportHeadersFootersMode ExportHeadersFootersMode { get; set; }
 
 ### Örnekler
 
-Üstbilgilerin ve altbilgilerin düz metin biçimine nasıl dışa aktarılacağının nasıl belirleneceğini gösterir.
+Üstbilgilerin ve altbilgilerin düz metin biçimine nasıl aktarılacağının nasıl belirleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
 
-// Belgeye çift ve birincil üstbilgi/altbilgi ekleyin.
-// Birincil üstbilgi/altbilgiler, çift üstbilgileri/altbilgileri geçersiz kılar.
+// Belgeye çift ve birincil üstbilgileri/altbilgileri ekleyin.
+// Birincil üstbilgi/altbilgiler, çift üstbilgi/altbilgileri geçersiz kılacaktır.
 doc.FirstSection.HeadersFooters.Add(new HeaderFooter(doc, HeaderFooterType.HeaderEven));
 doc.FirstSection.HeadersFooters[HeaderFooterType.HeaderEven].AppendParagraph("Even header");
 doc.FirstSection.HeadersFooters.Add(new HeaderFooter(doc, HeaderFooterType.FooterEven));
@@ -32,7 +32,7 @@ doc.FirstSection.HeadersFooters[HeaderFooterType.HeaderPrimary].AppendParagraph(
 doc.FirstSection.HeadersFooters.Add(new HeaderFooter(doc, HeaderFooterType.FooterPrimary));
 doc.FirstSection.HeadersFooters[HeaderFooterType.FooterPrimary].AppendParagraph("Primary footer");
 
-// Bu üstbilgileri ve altbilgileri görüntülemek için sayfaları ekleyin.
+// Bu üstbilgileri ve altbilgileri görüntülemek için sayfalar ekleyin.
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Page 1");
 builder.InsertBreak(BreakType.PageBreak);
@@ -40,16 +40,16 @@ builder.Writeln("Page 2");
 builder.InsertBreak(BreakType.PageBreak); 
 builder.Write("Page 3");
 
-// Belgenin "Kaydet" yöntemine aktarabileceğimiz bir "TxtSaveOptions" nesnesi oluşturun
+// Belgenin "Save" yöntemine aktarabileceğimiz bir "TxtSaveOptions" nesnesi oluşturun
 // belgeyi düz metne kaydetme şeklimizi değiştirmek için.
 TxtSaveOptions saveOptions = new TxtSaveOptions();
 
 // "ExportHeadersFootersMode" özelliğini "TxtExportHeadersFootersMode.None" olarak ayarlayın
-// üstbilgileri/altbilgileri dışa aktarmamak için.
+// herhangi bir üstbilgi/altbilgiyi dışa aktarmamak için.
 // "ExportHeadersFootersMode" özelliğini "TxtExportHeadersFootersMode.PrimaryOnly" olarak ayarlayın
 // yalnızca birincil üstbilgileri/altbilgileri dışa aktarmak için.
 // "ExportHeadersFootersMode" özelliğini "TxtExportHeadersFootersMode.AllAtEnd" olarak ayarlayın
-// tüm bölüm gövdeleri için tüm üstbilgileri ve altbilgileri belgenin sonuna yerleştirmek için.
+// tüm bölüm gövdelerinin tüm üstbilgilerini ve altbilgilerini belgenin sonuna yerleştirmek için.
 saveOptions.ExportHeadersFootersMode = txtExportHeadersFootersMode;
 
 doc.Save(ArtifactsDir + "TxtSaveOptions.ExportHeadersFooters.txt", saveOptions);

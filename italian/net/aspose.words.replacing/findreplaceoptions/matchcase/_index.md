@@ -1,14 +1,14 @@
 ---
 title: FindReplaceOptions.MatchCase
 second_title: Aspose.Words per .NET API Reference
-description: FindReplaceOptions proprietà. True indica il confronto con distinzione tra maiuscole e minuscole false indica un confronto senza distinzione tra maiuscole e minuscole.
+description: FindReplaceOptions proprietà. Vero indica un confronto con distinzione tra maiuscole e minuscole falso indica un confronto senza distinzione tra maiuscole e minuscole.
 type: docs
-weight: 120
+weight: 140
 url: /it/net/aspose.words.replacing/findreplaceoptions/matchcase/
 ---
 ## FindReplaceOptions.MatchCase property
 
-True indica il confronto con distinzione tra maiuscole e minuscole, false indica un confronto senza distinzione tra maiuscole e minuscole.
+Vero indica un confronto con distinzione tra maiuscole e minuscole, falso indica un confronto senza distinzione tra maiuscole e minuscole.
 
 ```csharp
 public bool MatchCase { get; set; }
@@ -24,11 +24,11 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln("Ruby bought a ruby necklace.");
 
-// Possiamo usare un oggetto "FindReplaceOptions" per modificare il processo di ricerca e sostituzione.
+// Possiamo utilizzare un oggetto "FindReplaceOptions" per modificare il processo di ricerca e sostituzione.
 FindReplaceOptions options = new FindReplaceOptions();
 
-// Imposta il flag "MatchCase" su "true" per applicare la distinzione tra maiuscole e minuscole mentre trovi le stringhe da sostituire.
-// Imposta il flag "MatchCase" su "false" per ignorare il carattere maiuscolo durante la ricerca del testo da sostituire.
+// Imposta il flag "MatchCase" su "true" per applicare la distinzione tra maiuscole e minuscole durante la ricerca delle stringhe da sostituire.
+// Imposta il flag "MatchCase" su "false" per ignorare le maiuscole e minuscole durante la ricerca del testo da sostituire.
 options.MatchCase = matchCase;
 
 doc.Range.Replace("Ruby", "Jade", options);

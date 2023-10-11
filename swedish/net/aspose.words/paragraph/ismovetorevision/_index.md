@@ -1,14 +1,14 @@
 ---
 title: Paragraph.IsMoveToRevision
 second_title: Aspose.Words för .NET API Referens
-description: Paragraph fast egendom. Returnerar Sann om detta objekt flyttades infogades i Microsoft Word medan ändringsspårning var aktiverad.
+description: Paragraph fast egendom. ReturnerarSann om detta objekt flyttades infogades i Microsoft Word medan ändringsspårning var aktiverad.
 type: docs
 weight: 140
 url: /sv/net/aspose.words/paragraph/ismovetorevision/
 ---
 ## Paragraph.IsMoveToRevision property
 
-Returnerar **Sann** om detta objekt flyttades (infogades) i Microsoft Word medan ändringsspårning var aktiverad.
+Returnerar`Sann` om detta objekt flyttades (infogades) i Microsoft Word medan ändringsspårning var aktiverad.
 
 ```csharp
 public bool IsMoveToRevision { get; }
@@ -28,7 +28,7 @@ Assert.AreEqual(6, doc.Revisions.Count(r => r.RevisionType == RevisionType.Movin
 
 ParagraphCollection paragraphs = doc.FirstSection.Body.Paragraphs;
 
-// Flytta revisioner består av par av "Flytta från" och "Flytta till" versioner. 
+ // Flytta revisioner består av par av "Flytta från" och "Flytta till" versioner.
 // Dessa ändringar är potentiella ändringar av dokumentet som vi antingen kan acceptera eller förkasta.
 // Innan vi accepterar/avvisar en flyttrevision, dokumentet
 // måste hålla reda på både avgångs- och ankomstdestinationerna för texten.

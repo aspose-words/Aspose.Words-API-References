@@ -3,7 +3,7 @@ title: ShapeBase.ShapeType
 second_title: Aspose.Words per .NET API Reference
 description: ShapeBase proprietà. Ottiene il tipo di forma.
 type: docs
-weight: 460
+weight: 500
 url: /it/net/aspose.words.drawing/shapebase/shapetype/
 ---
 ## ShapeBase.ShapeType property
@@ -24,9 +24,9 @@ public void GroupOfShapes()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Se devi creare forme "non primitive", come SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
-    // TopCornersOneRoundedOneSnipped, SingleCornersRounded, TopCornersRounded, DiagonaleCornersRounded
-    // usa i metodi DocumentBuilder.InsertShape.
+    // Se è necessario creare forme "Non Primitive", come SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
+    // TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded, DiagonalCornersRounded
+    // utilizzare i metodi DocumentBuilder.InsertShape.
     Shape balloon = new Shape(doc, ShapeType.Balloon)
     {
         Width = 200, 
@@ -56,7 +56,7 @@ public void GroupOfShapes()
 }
 
 /// <summary>
-/// Stampa il contenuto di un gruppo di forme visitato sulla console.
+/// Stampa sulla console il contenuto di un gruppo di forme visitato.
 /// </summary>
 public class ShapeGroupPrinter : DocumentVisitor
 {

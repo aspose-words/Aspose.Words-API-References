@@ -16,7 +16,7 @@ public void Add(string name, int outlineLevel)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| name | String | Il nome senza distinzione tra maiuscole e minuscole del segnalibro da aggiungere. |
+| name | String | Il nome del segnalibro da aggiungere, senza distinzione tra maiuscole e minuscole. |
 | outlineLevel | Int32 | Il livello di struttura del segnalibro. L'intervallo valido è compreso tra 0 e 9. |
 
 ### Esempi
@@ -27,7 +27,7 @@ Mostra come impostare i livelli di struttura per i segnalibri.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Inserisce un segnalibro con un altro segnalibro nidificato al suo interno.
+// Inserisci un segnalibro con un altro segnalibro nidificato al suo interno.
 builder.StartBookmark("Bookmark 1");
 builder.Writeln("Text inside Bookmark 1.");
 
@@ -45,7 +45,7 @@ builder.EndBookmark("Bookmark 3");
 
 // Quando si salva in .pdf, è possibile accedere ai segnalibri tramite un menu a discesa e utilizzarli come ancoraggi dalla maggior parte dei lettori.
 // I segnalibri possono anche avere valori numerici per i livelli di struttura,
-// abilita le voci della struttura di livello inferiore per nascondere le voci secondarie di livello superiore quando vengono compresse nel lettore.
+// abilita le voci di struttura di livello inferiore per nascondere le voci secondarie di livello superiore quando vengono compresse nel lettore.
 PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
 BookmarksOutlineLevelCollection outlineLevels = pdfSaveOptions.OutlineOptions.BookmarksOutlineLevels;
 
@@ -63,7 +63,7 @@ Assert.AreEqual(2, outlineLevels.IndexOfKey("Bookmark 3"));
 outlineLevels.RemoveAt(2);
 outlineLevels.Remove("Bookmark 2");
 
-// Ci sono nove livelli di struttura. La loro numerazione sarà ottimizzata durante l'operazione di salvataggio.
+// Ci sono nove livelli di struttura. La loro numerazione verrà ottimizzata durante l'operazione di salvataggio.
 // In questo caso, i livelli "5" e "9" diventeranno "2" e "3".
 outlineLevels.Add("Bookmark 2", 5);
 outlineLevels.Add("Bookmark 3", 9);

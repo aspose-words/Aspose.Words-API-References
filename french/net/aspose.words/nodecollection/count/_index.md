@@ -16,12 +16,12 @@ public int Count { get; }
 
 ### Exemples
 
-Montre comment parcourir la collection de nœuds enfants d'un nœud composite.
+Montre comment parcourir la collection de nœuds enfants d’un nœud composite.
 
 ```csharp
 Document doc = new Document();
 
-// Ajoutez deux passages et une forme en tant que nœuds enfants au premier paragraphe de ce document.
+// Ajoutez deux tracés et une forme en tant que nœuds enfants au premier paragraphe de ce document.
 Paragraph paragraph = (Paragraph)doc.GetChild(NodeType.Paragraph, 0, true);
 paragraph.AppendChild(new Run(doc, "Hello world! "));
 
@@ -35,11 +35,11 @@ paragraph.AppendChild(shape);
 
 paragraph.AppendChild(new Run(doc, "Hello again!"));
 
-// Parcourt la collection d'enfants immédiats du paragraphe,
-// et imprimez toutes les pistes ou formes que nous trouvons à l'intérieur.
-NodeCollection children = paragraph.ChildNodes;
+// Parcourir la collection d'enfants immédiats du paragraphe,
+// et imprimons toutes les courses ou formes que nous trouvons à l'intérieur.
+NodeCollection children = paragraph.GetChildNodes(NodeType.Any, false);
 
-Assert.AreEqual(3, paragraph.ChildNodes.Count);
+Assert.AreEqual(3, paragraph.GetChildNodes(NodeType.Any, false).Count);
 
 foreach (Node child in children)
     switch (child.NodeType)
@@ -52,22 +52,22 @@ foreach (Node child in children)
             Shape childShape = (Shape)child;
             Console.WriteLine("Shape:");
             Console.WriteLine($"\t{childShape.ShapeType}, {childShape.Width}x{childShape.Height}");
+            break;
     }
 ```
 
-Montre comment savoir si une table est imbriquée.
+Montre comment savoir si des tables sont imbriquées.
 
 ```csharp
 public void CalculateDepthOfNestedTables()
 {
     Document doc = new Document(MyDir + "Nested tables.docx");
     NodeCollection tables = doc.GetChildNodes(NodeType.Table, true);
-
     for (int i = 0; i < tables.Count; i++)
     {
         Table table = (Table)tables[i];
 
-        // Détermine si des cellules du tableau ont d'autres tableaux comme enfants.
+        // Découvrez si des cellules du tableau ont d'autres tableaux comme enfants.
         int count = GetChildTableCount(table);
         Console.WriteLine("Table #{0} has {1} tables directly within its cells", i, count);
 
@@ -104,11 +104,11 @@ private static int GetNestedDepthOfTable(Table table)
 
 /// <summary>
 /// Détermine si une table contient une table enfant immédiate dans ses cellules.
-/// Ne parcourez pas ces tables de manière récursive pour rechercher d'autres tables.
+/// Ne parcourez pas de manière récursive ces tables pour rechercher d'autres tables.
 /// </summary>
 /// <returns>
-/// Renvoie true si au moins une cellule enfant contient un tableau.
-/// Renvoie faux si aucune cellule du tableau ne contient de tableau.
+/// Renvoie vrai si au moins une cellule enfant contient un tableau.
+/// Renvoie false si aucune cellule du tableau ne contient de tableau.
 /// </returns>
 private static int GetChildTableCount(Table table)
 {

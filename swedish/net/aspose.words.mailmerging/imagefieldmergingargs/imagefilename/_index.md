@@ -19,6 +19,7 @@ public string ImageFileName { get; set; }
 Visar hur du ställer in dimensionerna för bilder när MERGEFIELDS accepterar dem under en sammanfogning.
 
 ```csharp
+public void MergeFieldImageDimension()
 {
     Document doc = new Document();
 
@@ -43,6 +44,7 @@ Visar hur du ställer in dimensionerna för bilder när MERGEFIELDS accepterar d
 
     doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.MERGEFIELD.ImageDimension.docx");
+}
 
 /// <summary>
 /// Ställer in storleken på alla sammanslagna bilder till en definierad bredd och höjd.

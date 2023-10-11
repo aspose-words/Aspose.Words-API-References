@@ -18,17 +18,17 @@ public string SingleUser { get; set; }
 
 يمكن تخزين هذا المحرر بأحد الأشكال التالية:
 
-المجال \ اسم المستخدم - للمستخدمين الذين يجب مصادقة وصولهم باستخدام بيانات اعتماد مجال المستخدم الحالي.
+المجال\اسم المستخدم - للمستخدمين الذين سيتم مصادقة وصولهم باستخدام بيانات اعتماد مجال المستخدم الحالي.
 
-user@domain.com - للمستخدمين الذين يجب مصادقة وصولهم باستخدام عنوان البريد الإلكتروني للمستخدم كأوراق اعتماد.
+user@domain.com - للمستخدمين الذين يجب مصادقة وصولهم باستخدام عنوان البريد الإلكتروني للمستخدم كبيانات اعتماد.
 
-مستخدم - للمستخدمين الذين يجب مصادقة وصولهم باستخدام بيانات اعتماد جهاز المستخدم الحالي.
+المستخدم - للمستخدمين الذين يجب مصادقة وصولهم باستخدام بيانات اعتماد جهاز المستخدم الحالي.
 
-لا يمكن تعيين مستخدم واحد ومجموعة محرر في وقت واحد للنطاق المحدد القابل للتحرير ، إذا تم تعيين أحدهما ، فسيكون الآخر واضحًا.
+لا يمكن تعيين مستخدم واحد ومجموعة محرر في وقت واحد لنطاق محدد قابل للتحرير، إذا تم تعيين أحدهما، فسيكون الآخر واضحًا.
 
 ### أمثلة
 
-يوضح كيفية تقييد حقوق التحرير للنطاقات القابلة للتحرير لمجموعة / مستخدم معين.
+يوضح كيفية تقييد حقوق تحرير النطاقات القابلة للتحرير لمجموعة/مستخدم محدد.
 
 ```csharp
 public void Visitor()
@@ -40,9 +40,9 @@ public void Visitor()
     builder.Writeln("Hello world! Since we have set the document's protection level to read-only," +
                     " we cannot edit this paragraph without the password.");
 
-    // عندما نكتب حماية المستندات ، تسمح لنا النطاقات القابلة للتحرير باختيار مناطق محددة يمكن للمستخدمين تحريرها.
-    // هناك طريقتان متنافيتان لتضييق نطاق قائمة المحررين المسموح لهم.
-    // 1 - حدد مستخدمًا:
+    // عندما نحمي المستندات من الكتابة، تسمح لنا النطاقات القابلة للتحرير باختيار مناطق محددة يمكن للمستخدمين تحريرها.
+    // هناك طريقتان متنافيتان لتضييق نطاق قائمة المحررين المسموح بهم.
+    // 1 - تحديد مستخدم:
     EditableRange editableRange = builder.StartEditableRange().EditableRange;
     editableRange.SingleUser = "john.doe@myoffice.com";
     builder.Writeln($"This paragraph is inside the first editable range, can only be edited by {editableRange.SingleUser}.");
@@ -50,7 +50,7 @@ public void Visitor()
 
     Assert.AreEqual(EditorType.Unspecified, editableRange.EditorGroup);
 
-    // 2 - حدد مجموعة يرتبط بها المستخدمون المسموح لهم بـ:
+    // 2 - حدد المجموعة التي يسمح للمستخدمين بالارتباط بها:
     editableRange = builder.StartEditableRange().EditableRange;
     editableRange.EditorGroup = EditorType.Administrators;
     builder.Writeln($"This paragraph is inside the first editable range, can only be edited by {editableRange.EditorGroup}.");
@@ -90,7 +90,7 @@ public class EditableRangePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاستدعاء عند مواجهة عقدة EditableRangeStart في المستند.
+    /// يتم الاتصال به عند مواجهة عقدة EditableRangeStart في المستند.
     /// </summary>
     public override VisitorAction VisitEditableRangeStart(EditableRangeStart editableRangeStart)
     {
@@ -108,7 +108,7 @@ public class EditableRangePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاستدعاء عند مواجهة عقدة EditableRangeEnd في المستند.
+    /// يتم الاتصال به عند مواجهة عقدة EditableRangeEnd في المستند.
     /// </summary>
     public override VisitorAction VisitEditableRangeEnd(EditableRangeEnd editableRangeEnd)
     {
@@ -120,7 +120,7 @@ public class EditableRangePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاستدعاء عند مواجهة عقدة تشغيل في المستند. يسجل هذا الزائر فقط عمليات التشغيل الموجودة داخل نطاقات قابلة للتحرير.
+    /// يتم الاتصال به عند مواجهة عقدة التشغيل في المستند. يقوم هذا الزائر بتسجيل عمليات التشغيل التي تقع داخل النطاقات القابلة للتحرير فقط.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {

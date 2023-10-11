@@ -3,12 +3,14 @@ title: Class CleanupOptions
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.CleanupOptions klass. Tillåter att ange alternativ för dokumentrengöring.
 type: docs
-weight: 200
+weight: 210
 url: /sv/net/aspose.words/cleanupoptions/
 ---
 ## CleanupOptions class
 
 Tillåter att ange alternativ för dokumentrengöring.
+
+För att lära dig mer, besök[Rensa upp ett dokument](https://docs.aspose.com/words/net/clean-up-a-document/) dokumentationsartikel.
 
 ```csharp
 public class CleanupOptions
@@ -24,10 +26,10 @@ public class CleanupOptions
 
 | namn | Beskrivning |
 | --- | --- |
-| [DuplicateStyle](../../aspose.words/cleanupoptions/duplicatestyle/) { get; set; } | Hämtar/ställer in en flagga som indikerar om dubblettstilar ska tas bort från dokumentet. Standardvärdet är **falsk** . |
+| [DuplicateStyle](../../aspose.words/cleanupoptions/duplicatestyle/) { get; set; } | Hämtar/ställer in en flagga som indikerar om dubblettstilar ska tas bort från dokumentet. Standardvärdet är`falsk` . |
 | [UnusedBuiltinStyles](../../aspose.words/cleanupoptions/unusedbuiltinstyles/) { get; set; } | Anger att oanvänd[`BuiltIn`](../style/builtin/) stilar bör tas bort från document. |
-| [UnusedLists](../../aspose.words/cleanupoptions/unusedlists/) { get; set; } | Anger om oanvända list- och listdefinitioner ska tas bort från dokumentet. Standardvärdet är **Sann** . |
-| [UnusedStyles](../../aspose.words/cleanupoptions/unusedstyles/) { get; set; } | Anger om oanvända formatmallar ska tas bort från dokumentet. Standardvärdet är **Sann** . |
+| [UnusedLists](../../aspose.words/cleanupoptions/unusedlists/) { get; set; } | Anger om oanvända list- och listdefinitioner ska tas bort från dokumentet. Standardvärdet är`Sann` . |
+| [UnusedStyles](../../aspose.words/cleanupoptions/unusedstyles/) { get; set; } | Anger om oanvända formatmallar ska tas bort från dokumentet. Standardvärdet är`Sann` . |
 
 ### Exempel
 
@@ -67,7 +69,7 @@ doc.Cleanup(cleanupOptions);
 
 Assert.AreEqual(4, doc.Styles.Count);
 
-// Om du tar bort varje nod som en anpassad stil tillämpas på markeras den som "oanvänd" igen. 
+ // Om du tar bort varje nod som en anpassad stil tillämpas på markeras den som "oanvänd" igen.
 // Kör rengöringsmetoden igen för att ta bort dem.
 doc.FirstSection.Body.RemoveAllChildren();
 doc.Cleanup(cleanupOptions);

@@ -1,14 +1,14 @@
 ---
 title: Node.IsComposite
 second_title: Aspose.Words för .NET API Referens
-description: Node fast egendom. Returnerar sant om denna nod kan innehålla andra noder.
+description: Node fast egendom. ReturnerarSann om denna nod kan innehålla andra noder.
 type: docs
 weight: 30
 url: /sv/net/aspose.words/node/iscomposite/
 ---
 ## Node.IsComposite property
 
-Returnerar sant om denna nod kan innehålla andra noder.
+Returnerar`Sann` om denna nod kan innehålla andra noder.
 
 ```csharp
 public virtual bool IsComposite { get; }
@@ -16,13 +16,14 @@ public virtual bool IsComposite { get; }
 
 ### Fastighetsvärde
 
-Denna metod returnerar false eftersom Node inte kan ha underordnade noder.
+Denna metod återkommer`falsk` som[`Node`](../) kan inte ha barnnoder.
 
 ### Exempel
 
 Visar hur man korsar en sammansatt nods träd med undernoder.
 
 ```csharp
+public void RecurseChildren()
 {
     Document doc = new Document(MyDir + "Paragraphs.docx");
 

@@ -16,7 +16,7 @@ public FieldType Type { get; }
 
 ### أمثلة
 
-يوضح كيفية إدراج مربع تحرير وسرد.
+يوضح كيفية إدراج مربع التحرير والسرد.
 
 ```csharp
 Document doc = new Document();
@@ -24,14 +24,14 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Write("Please select a fruit: ");
 
-// أدخل مربع تحرير وسرد يسمح للمستخدم باختيار خيار من مجموعة سلاسل.
+// أدخل مربع التحرير والسرد الذي سيسمح للمستخدم باختيار خيار من مجموعة من السلاسل.
 FormField comboBox = builder.InsertComboBox("MyComboBox", new[] { "Apple", "Banana", "Cherry" }, 0);
 
 Assert.AreEqual("MyComboBox", comboBox.Name);
 Assert.AreEqual(FieldType.FieldFormDropDown, comboBox.Type);
 Assert.AreEqual("Apple", comboBox.Result);
 
-// سيظهر حقل النموذج في شكل علامة html "تحديد".
+// سيظهر حقل النموذج على شكل علامة html "تحديد".
 doc.Save(ArtifactsDir + "FormFields.Create.html");
 ```
 

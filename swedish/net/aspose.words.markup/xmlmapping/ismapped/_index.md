@@ -1,14 +1,14 @@
 ---
 title: XmlMapping.IsMapped
 second_title: Aspose.Words för .NET API Referens
-description: XmlMapping fast egendom. Returnerar Sann om den överordnade strukturerade dokumenttaggen har mappats till XMLdata.
+description: XmlMapping fast egendom. ReturnerarSann om den överordnade strukturerade dokumenttaggen har mappats till XMLdata.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.markup/xmlmapping/ismapped/
 ---
 ## XmlMapping.IsMapped property
 
-Returnerar **Sann** om den överordnade strukturerade dokumenttaggen har mappats till XML-data.
+Returnerar`Sann` om den överordnade strukturerade dokumenttaggen har mappats till XML-data.
 
 ```csharp
 public bool IsMapped { get; }

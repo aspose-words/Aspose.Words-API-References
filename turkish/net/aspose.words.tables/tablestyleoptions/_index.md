@@ -3,7 +3,7 @@ title: Enum TableStyleOptions
 second_title: Aspose.Words for .NET API Referansı
 description: Aspose.Words.Tables.TableStyleOptions Sıralama. Tablo stilinin bir tabloya nasıl uygulanacağını belirtir.
 type: docs
-weight: 6070
+weight: 6370
 url: /tr/net/aspose.words.tables/tablestyleoptions/
 ---
 ## TableStyleOptions enumeration
@@ -20,32 +20,32 @@ public enum TableStyleOptions
 | İsim | Değer | Tanım |
 | --- | --- | --- |
 | None | `0` | Tablo stili biçimlendirmesi uygulanmadı. |
-| FirstRow | `20` | İlk satır koşullu biçimlendirmeyi uygula. |
-| LastRow | `40` | Son satır koşullu biçimlendirmesini uygula. |
-| FirstColumn | `80` | 1 ilk sütun koşullu biçimlendirmesini uygulayın. |
-| LastColumn | `100` | Son sütun koşullu biçimlendirmesini uygula. |
+| FirstRow | `20` | İlk satıra koşullu biçimlendirmeyi uygula. |
+| LastRow | `40` | Son satıra koşullu biçimlendirmeyi uygula. |
+| FirstColumn | `80` | İlk sütuna 1 koşullu biçimlendirme uygulayın. |
+| LastColumn | `100` | Son sütuna koşullu biçimlendirmeyi uygula. |
 | RowBands | `200` | Satır bantlama koşullu biçimlendirmesini uygulayın. |
-| ColumnBands | `400` | Sütun bantlama koşullu biçimlendirmesini uygula. |
-| Default2003 | `600` | Satır ve sütun bantlaması uygulandı. Bu, DOC, WML ve RTF gibi eski biçimler için Microsoft Word varsayılanıdır. |
+| ColumnBands | `400` | Sütun bantlama koşullu biçimlendirmesini uygulayın. |
+| Default2003 | `600` | Satır ve sütun bantlaması uygulandı. Bu, DOC, WML ve RTF gibi eski formatlar için Microsoft Word'ün varsayılanıdır. |
 | Default | `2A0` | Bu, Microsoft Word varsayılanlarıdır. |
 
 ### Örnekler
 
-Bir stil uygularken yeni bir tablonun nasıl oluşturulacağını gösterir.
+Stil uygularken yeni bir tablonun nasıl oluşturulacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 Table table = builder.StartTable();
 
-// Herhangi bir tablo biçimlendirmesini ayarlamadan önce en az bir satır eklemeliyiz.
+// Herhangi bir tablo formatını ayarlamadan önce en az bir satır eklemeliyiz.
 builder.InsertCell();
 
-// Stil tanımlayıcısına göre kullanılan tablo stilini ayarlayın.
-// .doc biçiminde kaydederken tüm tablo stillerinin kullanılamayacağını unutmayın.
+// Kullanılan tablo stilini stil tanımlayıcıya göre ayarlayın.
+// .doc formatında kaydederken tüm tablo stillerinin kullanılamayacağını unutmayın.
 table.StyleIdentifier = StyleIdentifier.MediumShading1Accent1;
 
-// Tahminlere dayalı olarak stili kısmen tablonun özelliklerine uygulayın, ardından tabloyu oluşturun.
+// Stili, yüklemlere dayalı olarak tablonun özelliklerine kısmen uygulayın, ardından tabloyu oluşturun.
 table.StyleOptions =
     TableStyleOptions.FirstColumn | TableStyleOptions.RowBands | TableStyleOptions.FirstRow;
 table.AutoFit(AutoFitBehavior.AutoFitToContents);

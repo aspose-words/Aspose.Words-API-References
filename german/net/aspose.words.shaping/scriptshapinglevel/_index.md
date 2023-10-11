@@ -1,12 +1,14 @@
 ---
 title: Enum ScriptShapingLevel
 second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Shaping.ScriptShapingLevel opsomming. 
+description: Aspose.Words.Shaping.ScriptShapingLevel opsomming. Beschreibt die für ein Skript erforderlichen Formungsebenen.
 type: docs
-weight: 5770
+weight: 6070
 url: /de/net/aspose.words.shaping/scriptshapinglevel/
 ---
 ## ScriptShapingLevel enumeration
+
+Beschreibt die für ein Skript erforderlichen Formungsebenen.
 
 ```csharp
 public enum ScriptShapingLevel
@@ -16,10 +18,10 @@ public enum ScriptShapingLevel
 
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
-| None | `0` |  |
-| Unknown | `1` |  |
-| Minimum | `2` |  |
-| Full | `3` |  |
+| None | `0` | Das Skript erfordert keine Formgebung. |
+| Unknown | `1` | Dies wird verwendet, wenn die Ebene für das Skript nicht angegeben ist. |
+| Minimum | `2` | Skript erfordert minimale Shaping-Unterstützung. |
+| Full | `3` | Das Skript erfordert vollständige Shaping-Unterstützung. |
 
 ### Siehe auch
 

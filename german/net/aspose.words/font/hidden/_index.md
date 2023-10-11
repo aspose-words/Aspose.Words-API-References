@@ -1,14 +1,14 @@
 ---
 title: Font.Hidden
 second_title: Aspose.Words für .NET-API-Referenz
-description: Font eigendom. Wahr wenn die Schriftart als verborgener Text formatiert ist.
+description: Font eigendom. True wenn die Schriftart als versteckter Text formatiert ist.
 type: docs
 weight: 140
 url: /de/net/aspose.words/font/hidden/
 ---
 ## Font.Hidden property
 
-Wahr, wenn die Schriftart als verborgener Text formatiert ist.
+True, wenn die Schriftart als versteckter Text formatiert ist.
 
 ```csharp
 public bool Hidden { get; set; }
@@ -16,17 +16,17 @@ public bool Hidden { get; set; }
 
 ### Beispiele
 
-Zeigt, wie eine Reihe von verborgenem Text erstellt wird.
+Zeigt, wie man eine Reihe versteckten Textes erstellt.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Wenn das Hidden-Flag auf true gesetzt ist, ist jeder Text, den wir mit diesem Font-Objekt erstellen, im Dokument unsichtbar.
-// Wir werden verborgenen Text weder sehen noch hervorheben, es sei denn, wir aktivieren die Option „Versteckter Text“.
-// gefunden in Microsoft Word über "Datei" -> "Optionen" -> "Anzeige". Der Text wird immer noch da sein,
+// Wir werden versteckten Text nicht sehen oder hervorheben, es sei denn, wir aktivieren die Option „Versteckter Text“.
+// gefunden in Microsoft Word über „Datei“ -> „Optionen“ -> "Anzeige". Der Text wird immer noch da sein,
 // und wir können programmgesteuert auf diesen Text zugreifen.
-// Es wird nicht empfohlen, diese Methode zu verwenden, um vertrauliche Informationen zu verbergen.
+// Es wird nicht empfohlen, diese Methode zum Verbergen vertraulicher Informationen zu verwenden.
 builder.Font.Hidden = true;
 builder.Font.Size = 36;
 
@@ -35,31 +35,32 @@ builder.Writeln("This text will not be visible in the document.");
 doc.Save(ArtifactsDir + "Font.Hidden.docx");
 ```
 
-Zeigt, wie eine DocumentVisitor-Implementierung verwendet wird, um alle ausgeblendeten Inhalte aus einem Dokument zu entfernen.
+Zeigt, wie Sie mithilfe einer DocumentVisitor-Implementierung alle ausgeblendeten Inhalte aus einem Dokument entfernen.
 
 ```csharp
+public void RemoveHiddenContentFromDocument()
 {
     Document doc = new Document(MyDir + "Hidden content.docx");
-
     RemoveHiddenContentVisitor hiddenContentRemover = new RemoveHiddenContentVisitor();
 
-    // Unten sind drei Arten von Feldern, die einen Dokumentbesucher akzeptieren können,
-    // was es ihm ermöglicht, den akzeptierenden Knoten zu besuchen und dann seine untergeordneten Knoten in einer Tiefe-zuerst-Weise zu durchlaufen.
+    // Unten sind drei Arten von Feldern aufgeführt, die einen Dokumentbesucher akzeptieren können:
+    // was es ihm ermöglicht, den akzeptierenden Knoten zu besuchen und dann seine untergeordneten Knoten in einer Tiefen-zuerst-Methode zu durchlaufen.
     // 1 - Absatzknoten:
-    Paragraph para = (Paragraph) doc.GetChild(NodeType.Paragraph, 4, true);
+    Paragraph para = (Paragraph)doc.GetChild(NodeType.Paragraph, 4, true);
     para.Accept(hiddenContentRemover);
 
     // 2 - Tabellenknoten:
     Table table = doc.FirstSection.Body.Tables[0];
     table.Accept(hiddenContentRemover);
 
-    // 3 - Dokumentenknoten:
+    // 3 - Dokumentknoten:
     doc.Accept(hiddenContentRemover);
 
     doc.Save(ArtifactsDir + "Font.RemoveHiddenContentFromDocument.docx");
+}
 
 /// <summary>
-/// Entfernt alle besuchten Knoten, die als "versteckter Inhalt" markiert sind.
+/// Entfernt alle besuchten Knoten, die als „versteckter Inhalt“ markiert sind.
 /// </summary>
 public class RemoveHiddenContentVisitor : DocumentVisitor
 {
@@ -130,7 +131,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Wird aufgerufen, wenn im Dokument ein GroupShape gefunden wird.
+    /// Wird aufgerufen, wenn im Dokument eine GroupShape gefunden wird.
     /// </summary>
     public override VisitorAction VisitGroupShapeStart(GroupShape groupShape)
     {
@@ -141,7 +142,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Wird aufgerufen, wenn im Dokument ein Shape gefunden wird.
+    /// Wird aufgerufen, wenn im Dokument eine Form gefunden wird.
     /// </summary>
     public override VisitorAction VisitShapeStart(Shape shape)
     {
@@ -174,7 +175,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Wird aufgerufen, wenn im Dokument ein Sonderzeichen gefunden wird.
+    /// Wird aufgerufen, wenn im Dokument ein SpecialCharacter gefunden wird.
     /// </summary>
     public override VisitorAction VisitSpecialChar(SpecialChar specialChar)
     {
@@ -189,12 +190,12 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     /// </summary>
     public override VisitorAction VisitTableEnd(Table table)
     {
-        // Der Inhalt innerhalb von Tabellenzellen kann das Hidden-Content-Flag haben, die Tabellen selbst jedoch nicht.
-        // Wenn diese Tabelle nur versteckte Inhalte hätte, hätte dieser Besucher alles davon entfernt,
+        // Der Inhalt in Tabellenzellen kann das Flag für ausgeblendeten Inhalt haben, die Tabellen selbst jedoch nicht.
+        // Wenn diese Tabelle nur versteckten Inhalt hätte, hätte dieser Besucher alles entfernt,
         // und es gäbe keine untergeordneten Knoten mehr.
         // Somit können wir auch die Tabelle selbst als versteckten Inhalt behandeln und entfernen.
-        // Tabellen, die leer sind, aber keinen versteckten Inhalt haben, haben Zellen mit leeren Absätzen darin,
-        // die dieser Besucher nicht entfernen wird.
+        // Tabellen, die leer sind, aber keinen versteckten Inhalt haben, enthalten Zellen mit leeren Absätzen.
+        // was dieser Besucher nicht entfernen wird.
         if (!table.HasChildNodes)
             table.Remove();
 
@@ -202,7 +203,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Wird aufgerufen, wenn der Besuch eines Cell-Knotens im Dokument beendet wird.
+    /// Wird aufgerufen, wenn der Besuch eines Zellknotens im Dokument beendet wird.
     /// </summary>
     public override VisitorAction VisitCellEnd(Cell cell)
     {

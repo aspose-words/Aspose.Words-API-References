@@ -3,7 +3,7 @@ title: ParagraphFormat.FarEastLineBreakControl
 second_title: Справочник по API Aspose.Words для .NET
 description: ParagraphFormat свойство. Получает или задает флаг указывающий применяются ли восточноазиатские правила разрыва строк к текущему абзацу.
 type: docs
-weight: 100
+weight: 110
 url: /ru/net/aspose.words/paragraphformat/fareastlinebreakcontrol/
 ---
 ## ParagraphFormat.FarEastLineBreakControl property
@@ -16,7 +16,7 @@ public bool FarEastLineBreakControl { get; set; }
 
 ### Примеры
 
-Показывает, как задать специальные свойства для азиатской типографики.
+Показывает, как установить специальные свойства для азиатской типографики.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");

@@ -3,7 +3,7 @@ title: DocumentBuilder.InsertFootnote
 second_title: Aspose.Words för .NET API Referens
 description: DocumentBuilder metod. Infogar en fotnot eller slutnot i dokumentet.
 type: docs
-weight: 310
+weight: 340
 url: /sv/net/aspose.words/documentbuilder/insertfootnote/
 ---
 ## InsertFootnote(FootnoteType, string) {#insertfootnote}

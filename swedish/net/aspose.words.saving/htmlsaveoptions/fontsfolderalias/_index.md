@@ -3,7 +3,7 @@ title: HtmlSaveOptions.FontsFolderAlias
 second_title: Aspose.Words för .NET API Referens
 description: HtmlSaveOptions fast egendom. Anger namnet på mappen som används för att konstruera teckensnittsURIer inskrivna i ett HTMLdokument. Standard är en tom sträng.
 type: docs
-weight: 330
+weight: 320
 url: /sv/net/aspose.words.saving/htmlsaveoptions/fontsfolderalias/
 ---
 ## HtmlSaveOptions.FontsFolderAlias property

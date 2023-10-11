@@ -1,14 +1,14 @@
 ---
 title: Style.Type
 second_title: Aspose.Words für .NET-API-Referenz
-description: Style eigendom. Ruft den Stiltyp ab Absatz oder Zeichen.
+description: Style eigendom. Ruft den Stiltyp Absatz oder Zeichen ab.
 type: docs
-weight: 160
+weight: 180
 url: /de/net/aspose.words/style/type/
 ---
 ## Style.Type property
 
-Ruft den Stiltyp ab (Absatz oder Zeichen).
+Ruft den Stiltyp (Absatz oder Zeichen) ab.
 
 ```csharp
 public StyleType Type { get; }
@@ -23,7 +23,7 @@ Document doc = new Document();
 
 Assert.AreEqual(4, doc.Styles.Count);
 
-// Aufzählen und Auflisten aller Stile, die ein mit Aspose.Words erstelltes Dokument standardmäßig enthält.
+// Alle Stile aufzählen und auflisten, die ein mit Aspose.Words erstelltes Dokument standardmäßig enthält.
 using (IEnumerator<Style> stylesEnum = doc.Styles.GetEnumerator())
 {
     while (stylesEnum.MoveNext())

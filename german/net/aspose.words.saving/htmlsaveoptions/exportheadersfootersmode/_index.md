@@ -1,14 +1,14 @@
 ---
 title: HtmlSaveOptions.ExportHeadersFootersMode
 second_title: Aspose.Words für .NET-API-Referenz
-description: HtmlSaveOptions eigendom. Legt fest wie Kopf und Fußzeilen in HTML MHTML oder EPUB ausgegeben werden. Standardwert istPerSection für HTML/MHTML undNone für EPUB.
+description: HtmlSaveOptions eigendom. Gibt an wie Kopf und Fußzeilen in HTML MHTML oder EPUB ausgegeben werden. Der Standardwert istPerSection für HTML/MHTML undNone für EPUB.
 type: docs
-weight: 170
+weight: 160
 url: /de/net/aspose.words.saving/htmlsaveoptions/exportheadersfootersmode/
 ---
 ## HtmlSaveOptions.ExportHeadersFootersMode property
 
-Legt fest, wie Kopf- und Fußzeilen in HTML, MHTML oder EPUB ausgegeben werden. Standardwert istPerSection für HTML/MHTML undNone für EPUB.
+Gibt an, wie Kopf- und Fußzeilen in HTML, MHTML oder EPUB ausgegeben werden. Der Standardwert istPerSection für HTML/MHTML undNone für EPUB.
 
 ```csharp
 public ExportHeadersFootersMode ExportHeadersFootersMode { get; set; }
@@ -20,30 +20,30 @@ Es ist schwierig, Kopf- und Fußzeilen sinnvoll in HTML auszugeben, da HTML nich
 
 Wenn diese Eigenschaft istPerSection, Aspose.Words exports nur primäre Kopf- und Fußzeilen am Anfang und am Ende jedes Abschnitts.
 
-Wann ist esFirstSectionHeaderLastSectionFooter Nur die erste primäre Kopfzeile und die letzte primäre Fußzeile (einschließlich der Verknüpfung mit der vorherigen) werden exportiert.
+Wann ist esFirstSectionHeaderLastSectionFooter Es werden nur die erste primäre Kopfzeile und die letzte primäre Fußzeile (einschließlich der Verknüpfung mit der vorherigen) exportiert.
 
 Sie können den Export von Kopf- und Fußzeilen vollständig deaktivieren, indem Sie diese Eigenschaft auf setzenNone.
 
 ### Beispiele
 
-Zeigt, wie Kopf-/Fußzeilen weggelassen werden, wenn ein Dokument in HTML gespeichert wird.
+Zeigt, wie Kopf-/Fußzeilen weggelassen werden, wenn ein Dokument im HTML-Format gespeichert wird.
 
 ```csharp
 Document doc = new Document(MyDir + "Header and footer types.docx");
 
-// Dieses Dokument enthält Kopf- und Fußzeilen. Wir können auf sie über die Sammlung "HeadersFooters" zugreifen.
+// Dieses Dokument enthält Kopf- und Fußzeilen. Auf sie können wir über die Sammlung „HeadersFooters“ zugreifen.
 Assert.AreEqual("First header", doc.FirstSection.HeadersFooters[HeaderFooterType.HeaderFirst].GetText().Trim());
 
-// Formate wie .html teilen das Dokument nicht in Seiten auf, daher funktionieren Kopf-/Fußzeilen nicht auf die gleiche Weise
-// würden sie, wenn wir das Dokument als .docx mit Microsoft Word öffnen.
-// Wenn wir ein Dokument mit Kopf-/Fußzeilen in HTML umwandeln, wird die Konvertierung die Kopf-/Fußzeilen in den Haupttext integrieren.
-// Wir können ein SaveOptions-Objekt verwenden, um Kopf-/Fußzeilen beim Konvertieren in HTML wegzulassen.
+// Formate wie .html teilen das Dokument nicht in Seiten auf, sodass Kopf- und Fußzeilen nicht auf die gleiche Weise funktionieren
+// Das würden sie tun, wenn wir das Dokument als .docx mit Microsoft Word öffnen.
+// Wenn wir ein Dokument mit Kopf-/Fußzeilen in HTML konvertieren, werden bei der Konvertierung die Kopf-/Fußzeilen in den Textkörper übernommen.
+// Wir können ein SaveOptions-Objekt verwenden, um beim Konvertieren in HTML Kopf-/Fußzeilen wegzulassen.
 HtmlSaveOptions saveOptions =
     new HtmlSaveOptions(SaveFormat.Html) { ExportHeadersFootersMode = ExportHeadersFootersMode.None };
 
 doc.Save(ArtifactsDir + "HeaderFooter.ExportMode.html", saveOptions);
 
-// Öffnen Sie unser gespeichertes Dokument und vergewissern Sie sich, dass es den Text der Kopfzeile nicht enthält
+// Öffnen Sie unser gespeichertes Dokument und stellen Sie sicher, dass es den Text der Kopfzeile nicht enthält
 doc = new Document(ArtifactsDir + "HeaderFooter.ExportMode.html");
 
 Assert.IsFalse(doc.Range.Text.Contains("First header"));

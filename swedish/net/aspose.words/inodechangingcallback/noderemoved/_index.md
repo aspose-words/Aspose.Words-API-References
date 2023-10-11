@@ -19,6 +19,7 @@ public void NodeRemoved(NodeChangingArgs args)
 Visar hur du anpassar nodbyte med en återuppringning.
 
 ```csharp
+public void FontChangeViaCallback()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -36,6 +37,7 @@ Visar hur du anpassar nodbyte med en återuppringning.
     doc.Range.Fields[0].Remove();
 
     Console.WriteLine(callback.GetLog());
+}
 
 /// <summary>
 /// Loggar datum och tid för varje nod insättning och borttagning.

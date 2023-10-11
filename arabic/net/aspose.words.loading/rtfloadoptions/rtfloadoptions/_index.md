@@ -22,8 +22,8 @@ public RtfLoadOptions()
 // قم بإنشاء كائن "RtfLoadOptions" لتعديل كيفية تحميل مستند RTF.
 RtfLoadOptions loadOptions = new RtfLoadOptions();
 
-// اضبط خاصية "RecognizeUtf8Text" على "false" بافتراض أن المستند يستخدم مجموعة أحرف ISO 8859-1
-// ويحمل كل حرف في المستند.
+// قم بتعيين خاصية "RecognizeUtf8Text" على "خطأ" لافتراض أن المستند يستخدم مجموعة أحرف ISO 8859-1
+// ويقوم بتحميل كل حرف في المستند.
 // قم بتعيين خاصية "RecognizeUtf8Text" على "true" لتحليل أي أحرف متغيرة الطول قد تظهر في النص.
 loadOptions.RecognizeUtf8Text = recognizeUtf8Text;
 

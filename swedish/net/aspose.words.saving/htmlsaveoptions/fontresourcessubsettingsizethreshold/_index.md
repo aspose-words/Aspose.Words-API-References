@@ -3,7 +3,7 @@ title: HtmlSaveOptions.FontResourcesSubsettingSizeThreshold
 second_title: Aspose.Words för .NET API Referens
 description: HtmlSaveOptions fast egendom. Styr vilka teckensnittsresurser som behöver underinställning när du sparar till HTML MHTML eller EPUB. Standard är0 .
 type: docs
-weight: 300
+weight: 290
 url: /sv/net/aspose.words.saving/htmlsaveoptions/fontresourcessubsettingsizethreshold/
 ---
 ## HtmlSaveOptions.FontResourcesSubsettingSizeThreshold property
@@ -51,7 +51,7 @@ builder.Writeln("Hello world!");
 // använder istället för hela glyph-uppsättningen. Om texten i vårt dokument bara använder en liten bråkdel av ett teckensnitt
 // glyph set, då kommer underinställningar att minska storleken på våra utdatadokument avsevärt.
 // Vi kan använda egenskapen "FontResourcesSubsettingSizeThreshold" för att definiera en .ttf-filstorlek, i byte.
-  // Om ett exporterat teckensnitt skapar en fil som är större än så, kommer spara-operationen att tillämpa underinställningar på det teckensnittet.
+ // Om ett exporterat teckensnitt skapar en fil som är större än så, kommer spara-operationen att tillämpa underinställningar på det teckensnittet.
 // Om du ställer in ett tröskelvärde på 0 tillämpas underinställning på alla teckensnitt,
 // och ställer in den till "int.MaxValue" inaktiverar effektivt delinställningar.
 string fontsFolder = ArtifactsDir + "HtmlSaveOptions.FontSubsetting.Fonts";

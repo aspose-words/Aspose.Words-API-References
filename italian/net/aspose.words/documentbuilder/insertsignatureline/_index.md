@@ -1,14 +1,14 @@
 ---
 title: DocumentBuilder.InsertSignatureLine
 second_title: Aspose.Words per .NET API Reference
-description: DocumentBuilder metodo. Inserisce una linea di firma nella posizione corrente.
+description: DocumentBuilder metodo. Inserisce una riga per la firma nella posizione corrente.
 type: docs
-weight: 420
+weight: 450
 url: /it/net/aspose.words/documentbuilder/insertsignatureline/
 ---
 ## InsertSignatureLine(SignatureLineOptions) {#insertsignatureline}
 
-Inserisce una linea di firma nella posizione corrente.
+Inserisce una riga per la firma nella posizione corrente.
 
 ```csharp
 public Shape InsertSignatureLine(SignatureLineOptions signatureLineOptions)
@@ -16,15 +16,15 @@ public Shape InsertSignatureLine(SignatureLineOptions signatureLineOptions)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| signatureLineOptions | SignatureLineOptions | L'oggetto che memorizza i parametri di creazione della riga della firma. |
+| signatureLineOptions | SignatureLineOptions | L'oggetto che memorizza i parametri per la creazione della riga della firma. |
 
 ### Valore di ritorno
 
-Il nodo della linea della firma appena inserito.
+Il nodo della riga della firma appena inserito.
 
 ### Esempi
 
-Mostra come firmare un documento con un certificato personale e una riga di firma.
+Mostra come firmare un documento con un certificato personale e una riga per la firma.
 
 ```csharp
 Document doc = new Document();
@@ -62,8 +62,8 @@ CertificateHolder certHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "a
 DigitalSignatureUtil.Sign(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.docx", 
     ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx", certHolder, signOptions);
 
-// Riapri il nostro documento salvato e verifica che le proprietà "IsSigned" e "IsValid" siano entrambe "true",
-// indicando che la riga della firma contiene una firma.
+// Riapri il nostro documento salvato e verifica che le proprietà "IsSigned" e "IsValid" siano entrambe uguali a "true",
+// indica che la riga della firma contiene una firma.
 doc = new Document(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx");
 Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
 signatureLine = shape.SignatureLine;
@@ -94,24 +94,24 @@ public Shape InsertSignatureLine(SignatureLineOptions signatureLineOptions,
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| signatureLineOptions | SignatureLineOptions | L'oggetto che memorizza i parametri di creazione della riga della firma. |
+| signatureLineOptions | SignatureLineOptions | L'oggetto che memorizza i parametri per la creazione della riga della firma. |
 | horzPos | RelativeHorizontalPosition | Specifica da dove viene misurata la distanza dalla linea della firma. |
-| left | Double | Distanza in punti dall'origine al lato sinistro della linea di segnatura. |
+| left | Double | Distanza in punti dall'origine al lato sinistro della linea della firma. |
 | vertPos | RelativeVerticalPosition | Specifica da dove viene misurata la distanza dalla linea della firma. |
 | top | Double | Distanza in punti dall'origine al lato superiore della linea della firma. |
-| wrapType | WrapType | Specifica come avvolgere il testo attorno alla riga della firma. |
+| wrapType | WrapType | Specifica come disporre il testo attorno alla riga della firma. |
 
 ### Valore di ritorno
 
-Il nodo della linea della firma appena inserito.
+Il nodo della riga della firma appena inserito.
 
 ### Osservazioni
 
-È possibile modificare la dimensione dell'immagine, la posizione, il metodo di posizionamento e altre impostazioni utilizzando [`Shape`](../../../aspose.words.drawing/shape/) oggetto restituito da questo metodo.
+Puoi modificare le dimensioni dell'immagine, la posizione, il metodo di posizionamento e altre impostazioni utilizzando [`Shape`](../../../aspose.words.drawing/shape/) oggetto restituito da questo metodo.
 
 ### Esempi
 
-Mostra come inserire una linea di firma in linea in un documento.
+Mostra come inserire una riga della firma in linea in un documento.
 
 ```csharp
 Document doc = new Document();

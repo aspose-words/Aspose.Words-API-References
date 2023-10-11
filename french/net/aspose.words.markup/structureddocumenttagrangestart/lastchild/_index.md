@@ -16,7 +16,7 @@ public Node LastChild { get; }
 
 ### Remarques
 
-S'il n'y a pas de dernier nœud enfant, une valeur nulle est renvoyée.
+S'il n'y a pas de dernier nœud enfant, un`nul` est renvoyé.
 
 ### Voir également
 

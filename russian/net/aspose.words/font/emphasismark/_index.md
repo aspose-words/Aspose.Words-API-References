@@ -1,14 +1,14 @@
 ---
 title: Font.EmphasisMark
 second_title: Справочник по API Aspose.Words для .NET
-description: Font свойство. Получает или задает знак выделения применяемый к этому форматированию.
+description: Font свойство. Получает или задает знак акцента примененный к этому форматированию.
 type: docs
 weight: 110
 url: /ru/net/aspose.words/font/emphasismark/
 ---
 ## Font.EmphasisMark property
 
-Получает или задает знак выделения, применяемый к этому форматированию.
+Получает или задает знак акцента, примененный к этому форматированию.
 
 ```csharp
 public EmphasisMark EmphasisMark { get; set; }
@@ -16,12 +16,12 @@ public EmphasisMark EmphasisMark { get; set; }
 
 ### Примеры
 
-Показывает, как добавить дополнительный символ, отображаемый над/под глифом.
+Показывает, как добавить дополнительный символ, отображаемый выше/ниже символа-глифа.
 
 ```csharp
 DocumentBuilder builder = new DocumentBuilder();
 
-// Возможные типы знака ударения:
+// Возможные типы знаков ударения:
 // https://apireference.aspose.com/words/net/aspose.words/emphasismark
 builder.Font.EmphasisMark = emphasisMark; 
 

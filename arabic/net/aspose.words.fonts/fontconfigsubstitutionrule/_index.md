@@ -1,14 +1,16 @@
 ---
 title: Class FontConfigSubstitutionRule
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Fonts.FontConfigSubstitutionRule فصل. قاعدة استبدال تكوين الخط .
+description: Aspose.Words.Fonts.FontConfigSubstitutionRule فصل. قاعدة استبدال تكوين الخط.
 type: docs
-weight: 2710
+weight: 2890
 url: /ar/net/aspose.words.fonts/fontconfigsubstitutionrule/
 ---
 ## FontConfigSubstitutionRule class
 
-قاعدة استبدال تكوين الخط .
+قاعدة استبدال تكوين الخط.
+
+لمعرفة المزيد، قم بزيارة[العمل مع الخطوط](https://docs.aspose.com/words/net/working-with-fonts/) مقالة توثيقية.
 
 ```csharp
 public class FontConfigSubstitutionRule : FontSubstitutionRule
@@ -18,20 +20,20 @@ public class FontConfigSubstitutionRule : FontSubstitutionRule
 
 | اسم | وصف |
 | --- | --- |
-| override [Enabled](../../aspose.words.fonts/fontconfigsubstitutionrule/enabled/) { set; } | يحدد ما إذا كانت القاعدة ممكّنة أم لا. |
+| override [Enabled](../../aspose.words.fonts/fontconfigsubstitutionrule/enabled/) { set; } | يحدد ما إذا كانت القاعدة مفعلة أم لا. |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| [IsFontConfigAvailable](../../aspose.words.fonts/fontconfigsubstitutionrule/isfontconfigavailable/)() | تحقق مما إذا كانت الأداة المساعدة fontconfig متاحة أم لا. |
-| [ResetCache](../../aspose.words.fonts/fontconfigsubstitutionrule/resetcache/)() | يعيد تعيين ذاكرة التخزين المؤقت لنتائج استدعاء fontconfig. |
+| [IsFontConfigAvailable](../../aspose.words.fonts/fontconfigsubstitutionrule/isfontconfigavailable/)() | تحقق مما إذا كانت الأداة المساعدة لتكوين الخطوط متاحة أم لا. |
+| [ResetCache](../../aspose.words.fonts/fontconfigsubstitutionrule/resetcache/)() | إعادة تعيين ذاكرة التخزين المؤقت لنتائج استدعاء Fontconfig. |
 
 ### ملاحظات
 
-تستخدم هذه القاعدة الأداة المساعدة fontconfig على أنظمة Linux (والأنظمة الأخرى المشابهة لـ Unix) للحصول على الاستبدال إذا كان الخط الأصلي غير متوفر.
+تستخدم هذه القاعدة الأداة المساعدة Fontconfig على أنظمة Linux (والأنظمة الأخرى المشابهة لـ Unix) للحصول على البديل إذا لم يكن الخط الأصلي متاحًا.
 
-إذا لم تكن الأداة المساعدة fontconfig متاحة ، فسيتم تجاهل هذه القاعدة.
+إذا لم تكن الأداة المساعدة لتكوين الخطوط متاحة، فسيتم تجاهل هذه القاعدة.
 
 ### أمثلة
 
@@ -45,8 +47,8 @@ FontConfigSubstitutionRule fontConfigSubstitution =
 bool isWindows = new[] {PlatformID.Win32NT, PlatformID.Win32S, PlatformID.Win32Windows, PlatformID.WinCE}
     .Any(p => Environment.OSVersion.Platform == p);
 
-// يعمل كائن FontConfigSubstitutionRule بشكل مختلف على أنظمة تشغيل Windows / غير أنظمة تشغيل Windows.
-// في Windows ، إنه غير متوفر.
+// يعمل كائن FontConfigSubstitutionRule بشكل مختلف على الأنظمة الأساسية التي تعمل بنظام Windows/غير Windows.
+// على نظام التشغيل Windows، فهو غير متوفر.
 if (isWindows)
 {
     Assert.False(fontConfigSubstitution.Enabled);
@@ -56,7 +58,7 @@ if (isWindows)
 bool isLinuxOrMac =
     new[] {PlatformID.Unix, PlatformID.MacOSX}.Any(p => Environment.OSVersion.Platform == p);
 
-// في Linux / Mac ، سنتمكن من الوصول إليه ، وسنكون قادرين على إجراء العمليات.
+// على Linux/Mac، سيكون لدينا إمكانية الوصول إليه وسنكون قادرين على تنفيذ العمليات.
 if (isLinuxOrMac)
 {
     Assert.True(fontConfigSubstitution.Enabled);

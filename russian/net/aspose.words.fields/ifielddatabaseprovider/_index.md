@@ -1,14 +1,14 @@
 ---
 title: Interface IFieldDatabaseProvider
 second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Fields.IFieldDatabaseProvider интерфейс. Реализуйте этот интерфейс для предоставления данных дляFieldDatabase поле при обновлении.
+description: Aspose.Words.Fields.IFieldDatabaseProvider интерфейс. Реализуйте этот интерфейс для предоставления данных дляFieldDatabase поле когда оно обновляется.
 type: docs
-weight: 2520
+weight: 2690
 url: /ru/net/aspose.words.fields/ifielddatabaseprovider/
 ---
 ## IFieldDatabaseProvider interface
 
-Реализуйте этот интерфейс для предоставления данных для[`FieldDatabase`](../fielddatabase/) поле при обновлении.
+Реализуйте этот интерфейс для предоставления данных для[`FieldDatabase`](../fielddatabase/) поле, когда оно обновляется.
 
 ```csharp
 public interface IFieldDatabaseProvider

@@ -18,7 +18,7 @@ public ShapeBase CurrentShape { get; }
 
 [`IImageSavingCallback`](../../iimagesavingcallback/) kan avfyras samtidigt som du sparar antingen en form eller en gruppform. Det är därför fastigheten har[`ShapeBase`](../../../aspose.words.drawing/shapebase/) typ. Du kan kontrollera om det är en gruppform som jämför [`ShapeType`](../../../aspose.words.drawing/shapebase/shapetype/) medGroup eller genom att casta den till en av härledda klasser: [`Shape`](../../../aspose.words.drawing/shape/) eller[`GroupShape`](../../../aspose.words.drawing/groupshape/).
 
-Aspose.Words använder dokumentets filnamn och ett unikt nummer för att generera ett unikt filnamn för varje bild som finns i dokumentet. Du kan använda`CurrentShape` egenskap för att generera ett "bättre" filnamn genom att undersöka formegenskaper som t.ex[`Title`](../../../aspose.words.drawing/imagedata/title/) (endast form),[`SourceFullName`](../../../aspose.words.drawing/imagedata/sourcefullname/) (endast form) och[`Name`](../../../aspose.words.drawing/shapebase/name/)Naturligtvis kan du bygga filnamn med andra egenskaper eller kriterier men observera att filnamnen måste vara unika i exportoperationen.
+Aspose.Words använder dokumentets filnamn och ett unikt nummer för att generera ett unikt filnamn för varje bild som finns i dokumentet. Du kan använda`CurrentShape`egenskap för att generera ett "bättre" filnamn genom att undersöka formegenskaper som t.ex[`Title`](../../../aspose.words.drawing/imagedata/title/) (endast form),[`SourceFullName`](../../../aspose.words.drawing/imagedata/sourcefullname/) (endast form) och[`Name`](../../../aspose.words.drawing/shapebase/name/). Naturligtvis kan du bygga filnamn med andra egenskaper eller kriterier men observera att filnamnen måste vara unika i exportoperationen.
 
 Vissa bilder i dokumentet kan vara otillgängliga. För att kontrollera bildtillgänglighet använd[`IsImageAvailable`](../isimageavailable/) fast egendom.
 
@@ -27,6 +27,7 @@ Vissa bilder i dokumentet kan vara otillgängliga. För att kontrollera bildtill
 Visar hur man involverar en bildsparande återuppringning i en HTML-konverteringsprocess.
 
 ```csharp
+public void ImageSavingCallback()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 

@@ -3,12 +3,14 @@ title: Class BarcodeParameters
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Fields.BarcodeParameters klass. Behållarklass för streckkodsparametrar att skickas till BarcodeGenerator.
 type: docs
-weight: 1320
+weight: 1470
 url: /sv/net/aspose.words.fields/barcodeparameters/
 ---
 ## BarcodeParameters class
 
 Behållarklass för streckkodsparametrar att skickas till BarcodeGenerator.
+
+För att lära dig mer, besök[Arbeta med Fields](https://docs.aspose.com/words/net/working-with-fields/) dokumentationsartikel.
 
 ```csharp
 public class BarcodeParameters
@@ -53,7 +55,6 @@ Visar hur man använder en streckkodsgenerator.
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
-
 // Vi kan använda en anpassad IBarcodeGenerator-implementering för att generera streckkoder,
 // och infoga dem sedan i dokumentet som bilder.
 doc.FieldOptions.BarcodeGenerator = new CustomBarcodeGenerator();

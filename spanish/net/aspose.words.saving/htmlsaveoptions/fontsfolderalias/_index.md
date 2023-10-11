@@ -3,7 +3,7 @@ title: HtmlSaveOptions.FontsFolderAlias
 second_title: Referencia de API de Aspose.Words para .NET
 description: HtmlSaveOptions propiedad. Especifica el nombre de la carpeta utilizada para construir URI de fuentes escritas en un documento HTML. El valor predeterminado es una cadena vacía.
 type: docs
-weight: 330
+weight: 320
 url: /es/net/aspose.words.saving/htmlsaveoptions/fontsfolderalias/
 ---
 ## HtmlSaveOptions.FontsFolderAlias property
@@ -16,7 +16,7 @@ public string FontsFolderAlias { get; set; }
 
 ### Observaciones
 
-Cuando guardas un[`Document`](../../../aspose.words/document/) en formato HTML y[`ExportFontResources`](../exportfontresources/) se establece en`verdadero` , Aspose.Words necesita guardar las fuentes utilizadas en el documento como archivos independientes. [`FontsFolder`](../fontsfolder/) le permite especificar dónde se guardarán las fuentes y `FontsFolderAlias` permite especificar cómo se construirán los URI de fuente.
+Cuando guardas un[`Document`](../../../aspose.words/document/) en formato HTML y[`ExportFontResources`](../exportfontresources/) está configurado en`verdadero` , Aspose.Words necesita guardar las fuentes utilizadas en el documento como archivos independientes. [`FontsFolder`](../fontsfolder/) le permite especificar dónde se guardarán las fuentes y `FontsFolderAlias` permite especificar cómo se construirán los URI de fuente.
 
 Si`FontsFolderAlias` no es una cadena vacía, entonces el URI de fuente escrito en HTML seráFontsFolderAlias + &lt;nombre de archivo de fuente&gt;.
 
@@ -42,7 +42,7 @@ HtmlSaveOptions options = new HtmlSaveOptions
     FontsFolder = ArtifactsDir + "Fonts",
     ImagesFolder = ArtifactsDir + "Images",
     ResourceFolder = ArtifactsDir + "Resources",
-    FontsFolderAlias = "http://ejemplo.com/fuentes",
+    FontsFolderAlias = "http://ejemplo.com/fonts",
     ImagesFolderAlias = "http://ejemplo.com/imagenes",
     ResourceFolderAlias = "http://ejemplo.com/recursos",
     ExportOriginalUrlForLinkedImages = true

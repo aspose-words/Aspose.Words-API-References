@@ -3,7 +3,7 @@ title: Enum GradientVariant
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Drawing.GradientVariant uppräkning. Anger varianten för en gradientfyllning.
 type: docs
-weight: 880
+weight: 1010
 url: /sv/net/aspose.words.drawing/gradientvariant/
 ---
 ## GradientVariant enumeration

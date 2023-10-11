@@ -1,14 +1,14 @@
 ---
 title: FieldOptions.FieldIndexFormat
 second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldOptions propriété. Obtient ou définit unFieldIndexFormat qui représente la mise en forme duFieldIndexchamps dans le document.
+description: FieldOptions propriété. Obtient ou définit unFieldIndexFormat qui représente le formatage duFieldIndex champs dans le document.
 type: docs
-weight: 80
+weight: 90
 url: /fr/net/aspose.words.fields/fieldoptions/fieldindexformat/
 ---
 ## FieldOptions.FieldIndexFormat property
 
-Obtient ou définit un`FieldIndexFormat` qui représente la mise en forme du[`FieldIndex`](../../fieldindex/)champs dans le document.
+Obtient ou définit un`FieldIndexFormat` qui représente le formatage du[`FieldIndex`](../../fieldindex/) champs dans le document.
 
 ```csharp
 public FieldIndexFormat FieldIndexFormat { get; set; }

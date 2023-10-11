@@ -1,14 +1,14 @@
 ---
 title: ReportingEngine.BuildReport
 second_title: Aspose.Words for .NET API 参考
-description: ReportingEngine 方法. 使用来自指定源的数据填充指定的模板文档使其成为准备好的报告
+description: ReportingEngine 方法. 使用指定源的数据填充指定的模板文档使其成为就绪报告
 type: docs
 weight: 40
 url: /zh/net/aspose.words.reporting/reportingengine/buildreport/
 ---
 ## BuildReport(Document, object) {#buildreport}
 
-使用来自指定源的数据填充指定的模板文档，使其成为准备好的报告。
+使用指定源的数据填充指定的模板文档，使其成为就绪报告。
 
 ```csharp
 public bool BuildReport(Document document, object dataSource)
@@ -21,11 +21,11 @@ public bool BuildReport(Document document, object dataSource)
 
 ### 返回值
 
-指示模板文档解析是否成功的标志。 返回的标志只有在[`Options`](../options/)属性包括 InlineErrorMessages选项。
+指示模板文档解析是否成功的标志。 仅当以下值时返回的标志才有意义[`Options`](../options/)属性包括 InlineErrorMessages选项。
 
 ### 评论
 
-使用此重载，您可以在模板文档中引用数据源的成员，但不能 引用数据源对象本身。你应该使用`BuildReport` 重载来实现这个。
+使用此重载，您可以在模板文档中引用数据源的成员，但不能 引用数据源对象本身。您应该使用`BuildReport` 重载以实现此目的。
 
 数据源对象可以是以下类型之一：
 
@@ -54,7 +54,7 @@ public bool BuildReport(Document document, object dataSource)
 
 ## BuildReport(Document, object, string) {#buildreport_1}
 
-使用来自指定源的数据填充指定的模板文档，使其成为准备好的报告。
+使用指定源的数据填充指定的模板文档，使其成为就绪报告。
 
 ```csharp
 public bool BuildReport(Document document, object dataSource, string dataSourceName)
@@ -64,15 +64,15 @@ public bool BuildReport(Document document, object dataSource, string dataSourceN
 | --- | --- | --- |
 | document | Document | 要填充数据的模板文档。 |
 | dataSource | Object | 数据源对象。 |
-| dataSourceName | String | 引用模板中数据源对象的名称。 |
+| dataSourceName | String | 用于引用模板中数据源对象的名称。 |
 
 ### 返回值
 
-指示模板文档解析是否成功的标志。 返回的标志只有在[`Options`](../options/)属性包括 InlineErrorMessages选项。
+指示模板文档解析是否成功的标志。 仅当以下值时返回的标志才有意义[`Options`](../options/)属性包括 InlineErrorMessages选项。
 
 ### 评论
 
-使用此重载，您可以在模板中引用数据源的成员和数据源对象本身。 如果不打算引用数据源对象本身，可以省略*dataSourceName* 传递 null 或使用`BuildReport`过载.
+使用此重载，您可以在模板中引用数据源的成员和数据源对象本身。 如果您不打算引用数据源对象本身，则可以省略*dataSourceName* 路过`无效的`或使用`BuildReport`过载.
 
 数据源对象可以是以下类型之一：
 
@@ -101,7 +101,7 @@ public bool BuildReport(Document document, object dataSource, string dataSourceN
 
 ## BuildReport(Document, object[], string[]) {#buildreport_2}
 
-使用来自指定来源的数据填充指定的模板文档，使其成为准备好的报告。
+使用指定源的数据填充指定的模板文档，使其成为就绪报告。
 
 ```csharp
 public bool BuildReport(Document document, object[] dataSources, string[] dataSourceNames)
@@ -110,18 +110,18 @@ public bool BuildReport(Document document, object[] dataSources, string[] dataSo
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | document | Document | 要填充数据的模板文档。 |
-| dataSources | Object[] | 一组数据源对象。 |
-| dataSourceNames | String[] | 引用模板中数据源对象的名称数组。 |
+| dataSources | Object[] | 数据源对象的数组。 |
+| dataSourceNames | String[] | 用于引用模板内的数据源对象的名称数组。 |
 
 ### 返回值
 
-指示模板文档解析是否成功的标志。 返回的标志只有在[`Options`](../options/)属性包括 InlineErrorMessages选项。
+指示模板文档解析是否成功的标志。 仅当以下值时返回的标志才有意义[`Options`](../options/)属性包括 InlineErrorMessages选项。
 
 ### 评论
 
-使用此重载，您可以在模板中引用多个数据源对象及其成员。 如果您要 引用数据源的成员而不是数据源对象本身，则可以省略第一个数据源的名称（即为空字符串或null）。其他数据源的名称 必须指定且唯一。
+使用此重载，您可以在模板中引用多个数据源对象及其成员。 第一个数据源的名称可以省略（即为空字符串或`无效的` 如果您要 引用数据源的成员而不是数据源对象本身。其他数据源 的名称必须指定且唯一。
 
-如果要使用单个数据源，请考虑使用`BuildReport` 和`BuildReport`而是重载。
+如果您要使用单个数据源，请考虑使用 of`BuildReport` 和`BuildReport`相反，重载。
 
 数据源对象可以是以下类型之一：
 

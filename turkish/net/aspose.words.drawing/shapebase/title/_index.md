@@ -1,14 +1,14 @@
 ---
 title: ShapeBase.Title
 second_title: Aspose.Words for .NET API Referansı
-description: ShapeBase mülk. Geçerli şekil nesnesinin başlığını başlık alır veya ayarlar.
+description: ShapeBase mülk. Geçerli şekil nesnesinin başlığını başlığını alır veya ayarlar.
 type: docs
-weight: 490
+weight: 530
 url: /tr/net/aspose.words.drawing/shapebase/title/
 ---
 ## ShapeBase.Title property
 
-Geçerli şekil nesnesinin başlığını (başlık) alır veya ayarlar.
+Geçerli şekil nesnesinin başlığını (başlığını) alır veya ayarlar.
 
 ```csharp
 public string Title { get; set; }
@@ -18,7 +18,7 @@ public string Title { get; set; }
 
 Varsayılan boş dizedir.
 
-Null olamaz, ancak boş bir dize olabilir.
+Olamaz`hükümsüz`, ancak boş bir dize olabilir.
 
 ### Örnekler
 
@@ -37,7 +37,7 @@ shape.Title = "My cube";
 builder.InsertNode(shape);
 
 // Başlığı olan bir şekle sahip bir belgeyi kaydettiğimizde,
-// Aspose.Words bu başlığı şeklin Alt Metninde saklayacaktır.
+// Aspose.Words bu başlığı şeklin Alternatif Metnine kaydedecektir.
 doc.Save(ArtifactsDir + "Shape.Title.docx");
 
 doc = new Document(ArtifactsDir + "Shape.Title.docx");

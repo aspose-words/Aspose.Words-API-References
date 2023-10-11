@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.UlTrailSpace
 second_title: Aspose.Words for .NET API Referansı
-description: CompatibilityOptions mülk. Sondaki Tüm Boşlukların Altını Çizin.
+description: CompatibilityOptions mülk. Tüm İzleyen Boşlukların Altını Çizin.
 type: docs
 weight: 580
 url: /tr/net/aspose.words.settings/compatibilityoptions/ultrailspace/
 ---
 ## CompatibilityOptions.UlTrailSpace property
 
-Sondaki Tüm Boşlukların Altını Çizin.
+Tüm İzleyen Boşlukların Altını Çizin.
 
 ```csharp
 public bool UlTrailSpace { get; set; }

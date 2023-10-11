@@ -1,14 +1,14 @@
 ---
 title: FieldUserName.UserName
 second_title: Справочник по API Aspose.Words для .NET
-description: FieldUserName свойство. Принимает или устанавливает имя текущего пользователя.
+description: FieldUserName свойство. Присвоение или установка имени текущего пользователя.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/fieldusername/username/
 ---
 ## FieldUserName.UserName property
 
-Принимает или устанавливает имя текущего пользователя.
+Присвоение или установка имени текущего пользователя.
 
 ```csharp
 public string UserName { get; set; }
@@ -21,7 +21,7 @@ public string UserName { get; set; }
 ```csharp
 Document doc = new Document();
 
-// Создаем объект UserInformation и устанавливаем его в качестве источника информации о пользователе для всех создаваемых нами полей.
+// Создайте объект UserInformation и установите его в качестве источника информации о пользователе для любых полей, которые мы создаем.
 UserInformation userInformation = new UserInformation();
 userInformation.Name = "John Doe";
 doc.FieldOptions.CurrentUser = userInformation;
@@ -36,14 +36,14 @@ Assert.AreEqual(userInformation.Name, fieldUserName.Result);
 Assert.AreEqual(" USERNAME ", fieldUserName.GetFieldCode());
 Assert.AreEqual("John Doe", fieldUserName.Result);
 
- // Мы можем установить это свойство, чтобы наше поле переопределяло значение, хранящееся в настоящее время в объекте UserInformation.
+ // Мы можем установить это свойство, чтобы наше поле переопределяло значение, хранящееся в данный момент в объекте UserInformation.
 fieldUserName.UserName = "Jane Doe";
 fieldUserName.Update();
 
 Assert.AreEqual(" USERNAME  \"Jane Doe\"", fieldUserName.GetFieldCode());
 Assert.AreEqual("Jane Doe", fieldUserName.Result);
 
-// Это не влияет на значение в объекте UserInformation.
+// Это не влияет на значение объекта UserInformation.
 Assert.AreEqual("John Doe", doc.FieldOptions.CurrentUser.Name);
 
 doc.UpdateFields();

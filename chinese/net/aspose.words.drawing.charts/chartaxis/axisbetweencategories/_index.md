@@ -20,7 +20,7 @@ public bool AxisBetweenCategories { get; set; }
 
 ### 例子
 
-显示如何让图形轴在自定义位置交叉。
+演示如何使图形轴在自定义位置交叉。
 
 ```csharp
 Document doc = new Document();
@@ -34,9 +34,9 @@ Assert.AreEqual("Series 1", chart.Series[0].Name);
 Assert.AreEqual("Series 2", chart.Series[1].Name);
 Assert.AreEqual("Series 3", chart.Series[2].Name);
 
-// 对于柱形图，Y 轴默认交叉为零，
+// 对于柱形图，Y 轴默认交叉于零，
 // 这意味着所有低于零的值的列都向下表示负值。
-// 我们可以为 Y 轴交叉设置不同的值。在这种情况下，我们将其设置为 3。
+// 我们可以为 Y 轴交叉设置不同的值。在本例中，我们将其设置为 3。
 ChartAxis axis = chart.AxisX;
 axis.Crosses = AxisCrosses.Custom;
 axis.CrossesAt = 3;

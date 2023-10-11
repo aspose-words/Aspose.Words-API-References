@@ -1,14 +1,14 @@
 ---
 title: Table.RelativeVerticalAlignment
 second_title: Aspose.Words für .NET-API-Referenz
-description: Table eigendom. Ruft die relative vertikale Ausrichtung der FloatingTabelle ab oder legt sie fest.
+description: Table eigendom. Ruft die relative vertikale Ausrichtung der schwebenden Tabelle ab oder legt diese fest.
 type: docs
 weight: 240
 url: /de/net/aspose.words.tables/table/relativeverticalalignment/
 ---
 ## Table.RelativeVerticalAlignment property
 
-Ruft die relative vertikale Ausrichtung der Floating-Tabelle ab oder legt sie fest.
+Ruft die relative vertikale Ausrichtung der schwebenden Tabelle ab oder legt diese fest.
 
 ```csharp
 public VerticalAlignment RelativeVerticalAlignment { get; set; }
@@ -16,7 +16,7 @@ public VerticalAlignment RelativeVerticalAlignment { get; set; }
 
 ### Beispiele
 
-Zeigt, wie die Position von Floating-Tabellen festgelegt wird.
+Zeigt, wie die Position schwebender Tabellen festgelegt wird.
 
 ```csharp
 Document doc = new Document();
@@ -28,7 +28,7 @@ builder.Write("Table 1, cell 1");
 builder.EndTable();
 table.PreferredWidth = PreferredWidth.FromPoints(300);
 
-// Setzen Sie die Position der Tabelle auf eine Stelle auf der Seite, wie in diesem Fall die untere rechte Ecke.
+// Legen Sie die Position der Tabelle auf eine Stelle auf der Seite fest, in diesem Fall beispielsweise auf die rechte untere Ecke.
 table.RelativeVerticalAlignment = VerticalAlignment.Bottom;
 table.RelativeHorizontalAlignment = HorizontalAlignment.Right;
 
@@ -38,7 +38,7 @@ builder.Write("Table 2, cell 1");
 builder.EndTable();
 table.PreferredWidth = PreferredWidth.FromPoints(300);
 
-// Wir können auch einen horizontalen und vertikalen Abstand in Punkten von der Position des Absatzes festlegen, an der wir die Tabelle eingefügt haben. 
+ // Wir können auch einen horizontalen und vertikalen Versatz in Punkten von der Position des Absatzes festlegen, an der wir die Tabelle eingefügt haben.
 table.AbsoluteVerticalDistance = 50;
 table.AbsoluteHorizontalDistance = 100;
 

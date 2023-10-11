@@ -1,14 +1,14 @@
 ---
 title: DocumentBuilder.InsertChart
 second_title: Aspose.Words لمراجع .NET API
-description: DocumentBuilder طريقة. إدراج كائن مخطط في المستند وقياسه إلى الحجم المحدد.
+description: DocumentBuilder طريقة. إدراج كائن مخطط في المستند وتغيير حجمه إلى الحجم المحدد.
 type: docs
-weight: 260
+weight: 280
 url: /ar/net/aspose.words/documentbuilder/insertchart/
 ---
 ## InsertChart(ChartType, double, double) {#insertchart_1}
 
-إدراج كائن مخطط في المستند وقياسه إلى الحجم المحدد.
+إدراج كائن مخطط في المستند وتغيير حجمه إلى الحجم المحدد.
 
 ```csharp
 public Shape InsertChart(ChartType chartType, double width, double height)
@@ -17,8 +17,8 @@ public Shape InsertChart(ChartType chartType, double width, double height)
 | معامل | يكتب | وصف |
 | --- | --- | --- |
 | chartType | ChartType | نوع المخطط المراد إدراجه في المستند. |
-| width | Double | عرض الصورة بالنقاط. يمكن أن تكون قيمة سالبة أو صفرية لطلب مقياس بنسبة 100٪. |
-| height | Double | ارتفاع الصورة بالنقاط. يمكن أن تكون قيمة سالبة أو صفرية لطلب مقياس بنسبة 100٪. |
+| width | Double | عرض الصورة بالنقاط. يمكن أن تكون قيمة سالبة أو صفرية لطلب مقياس 100%. |
+| height | Double | ارتفاع الصورة بالنقاط. يمكن أن تكون قيمة سالبة أو صفرية لطلب مقياس 100%. |
 
 ### قيمة الإرجاع
 
@@ -26,7 +26,7 @@ public Shape InsertChart(ChartType chartType, double width, double height)
 
 ### ملاحظات
 
-يمكنك تغيير حجم الصورة والموقع وطريقة تحديد المواقع والإعدادات الأخرى باستخدام [`Shape`](../../../aspose.words.drawing/shape/) تم إرجاع الكائن بهذه الطريقة.
+يمكنك تغيير حجم الصورة والموقع وطريقة تحديد الموضع والإعدادات الأخرى باستخدام [`Shape`](../../../aspose.words.drawing/shape/) الكائن الذي تم إرجاعه بهذه الطريقة.
 
 ### أمثلة
 
@@ -38,6 +38,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 Chart chart = builder.InsertChart(ChartType.Pie, ConvertUtil.PixelToPoint(300), 
     ConvertUtil.PixelToPoint(300)).Chart;
+chart.Series.Clear();
 chart.Series.Add("My fruit",
     new[] { "Apples", "Bananas", "Cherries" },
     new[] { 1.3, 2.2, 1.5 });
@@ -57,7 +58,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertPieChart.docx");
 
 ## InsertChart(ChartType, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) {#insertchart}
 
-إدراج كائن مخطط في المستند وقياسه إلى الحجم المحدد.
+إدراج كائن مخطط في المستند وتغيير حجمه إلى الحجم المحدد.
 
 ```csharp
 public Shape InsertChart(ChartType chartType, RelativeHorizontalPosition horzPos, double left, 
@@ -67,12 +68,12 @@ public Shape InsertChart(ChartType chartType, RelativeHorizontalPosition horzPos
 | معامل | يكتب | وصف |
 | --- | --- | --- |
 | chartType | ChartType | نوع المخطط المراد إدراجه في المستند. |
-| horzPos | RelativeHorizontalPosition | يحدد مكان قياس المسافة إلى الصورة. |
-| left | Double | المسافة بالنقاط من نقطة الأصل إلى الجانب الأيسر من الصورة. |
-| vertPos | RelativeVerticalPosition | يحدد المكان الذي تم قياس المسافة منه إلى الصورة. |
-| top | Double | المسافة بالنقاط من نقطة الأصل إلى الجانب العلوي للصورة. |
-| width | Double | عرض الصورة بالنقاط. يمكن أن تكون قيمة سالبة أو صفرية لطلب مقياس بنسبة 100٪. |
-| height | Double | ارتفاع الصورة بالنقاط. يمكن أن تكون قيمة سالبة أو صفرية لطلب مقياس بنسبة 100٪. |
+| horzPos | RelativeHorizontalPosition | يحدد المكان الذي يتم منه قياس المسافة إلى الصورة. |
+| left | Double | المسافة بالنقاط من الأصل إلى الجانب الأيسر من الصورة. |
+| vertPos | RelativeVerticalPosition | يحدد المكان الذي يتم قياس المسافة منه إلى الصورة. |
+| top | Double | المسافة بالنقاط من الأصل إلى الجانب العلوي من الصورة. |
+| width | Double | عرض الصورة بالنقاط. يمكن أن تكون قيمة سالبة أو صفرية لطلب مقياس 100%. |
+| height | Double | ارتفاع الصورة بالنقاط. يمكن أن تكون قيمة سالبة أو صفرية لطلب مقياس 100%. |
 | wrapType | WrapType | يحدد كيفية التفاف النص حول الصورة. |
 
 ### قيمة الإرجاع
@@ -81,7 +82,7 @@ public Shape InsertChart(ChartType chartType, RelativeHorizontalPosition horzPos
 
 ### ملاحظات
 
-يمكنك تغيير حجم الصورة والموقع وطريقة تحديد المواقع والإعدادات الأخرى باستخدام [`Shape`](../../../aspose.words.drawing/shape/) تم إرجاع الكائن بهذه الطريقة.
+يمكنك تغيير حجم الصورة والموقع وطريقة تحديد الموضع والإعدادات الأخرى باستخدام [`Shape`](../../../aspose.words.drawing/shape/) الكائن الذي تم إرجاعه بهذه الطريقة.
 
 ### أمثلة
 

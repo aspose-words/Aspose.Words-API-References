@@ -17,13 +17,13 @@ public HeaderFooter(DocumentBase doc, HeaderFooterType headerFooterType)
 | Paramètre | Taper | La description |
 | --- | --- | --- |
 | doc | DocumentBase | Le document du propriétaire. |
-| headerFooterType | HeaderFooterType | UN[`HeaderFooterType`](../headerfootertype/)value qui spécifie le type d'en-tête ou de pied de page. |
+| headerFooterType | HeaderFooterType | UN[`HeaderFooterType`](../headerfootertype/) value qui spécifie le type de l'en-tête ou du pied de page. |
 
 ### Remarques
 
-Lorsque **En-têtePied de page** est créé, il appartient au document spécifié, mais ne fait pas encore partie du document et **ParentNode** est nul.
+Quand[`HeaderFooter`](../) est créé, il appartient au document spécifié, mais ne fait pas encore partie du document et[`ParentNode`](../../node/parentnode/) est`nul`.
 
-À ajouter **En-têtePied de page** à un **Section** utilisez Section.InsertAfter, Section.InsertBefore, HeadersFooters.Add ou HeadersFooters.Insert.
+À ajouter[`HeaderFooter`](../)à un[`Section`](../../section/) utiliserNode) ,Node) , ou[`HeadersFooters`](../../section/headersfooters/) propriété et méthodes[`Add`](../../nodecollection/add/) ,[`Insert`](../../nodecollection/insert/).
 
 ### Exemples
 
@@ -32,7 +32,7 @@ Montre comment créer un en-tête et un pied de page.
 ```csharp
 Document doc = new Document();
 
-// Crée un en-tête et y ajoute un paragraphe. Le texte de ce paragraphe
+// Créez un en-tête et ajoutez-y un paragraphe. Le texte de ce paragraphe
 // apparaîtra en haut de chaque page de cette section, au-dessus du corps du texte principal.
 HeaderFooter header = new HeaderFooter(doc, HeaderFooterType.HeaderPrimary);
 doc.FirstSection.HeadersFooters.Add(header);
@@ -42,7 +42,7 @@ Paragraph para = header.AppendParagraph("My header.");
 Assert.True(header.IsHeader);
 Assert.True(para.IsEndOfHeaderFooter);
 
-// Crée un pied de page et y ajoute un paragraphe. Le texte de ce paragraphe
+// Créez un pied de page et ajoutez-y un paragraphe. Le texte de ce paragraphe
 // apparaîtra au bas de chaque page de cette section, sous le corps du texte principal.
 HeaderFooter footer = new HeaderFooter(doc, HeaderFooterType.FooterPrimary);
 doc.FirstSection.HeadersFooters.Add(footer);

@@ -3,12 +3,14 @@ title: Class PageInfo
 second_title: Aspose.Words for .NET API Referansı
 description: Aspose.Words.Rendering.PageInfo sınıf. Belirli bir belge sayfası hakkındaki bilgileri temsil eder.
 type: docs
-weight: 4310
+weight: 4570
 url: /tr/net/aspose.words.rendering/pageinfo/
 ---
 ## PageInfo class
 
 Belirli bir belge sayfası hakkındaki bilgileri temsil eder.
+
+Daha fazlasını öğrenmek için şu adresi ziyaret edin:[İşleme](https://docs.aspose.com/words/net/rendering/) dokümantasyon makalesi.
 
 ```csharp
 public class PageInfo
@@ -18,35 +20,36 @@ public class PageInfo
 
 | İsim | Tanım |
 | --- | --- |
-| [HeightInPoints](../../aspose.words.rendering/pageinfo/heightinpoints/) { get; } | Sayfanın yüksekliğini nokta olarak alır. |
-| [Landscape](../../aspose.words.rendering/pageinfo/landscape/) { get; } | Bu sayfa için belgede belirtilen sayfa yönü yatay ise true değerini döndürür. |
-| [PaperSize](../../aspose.words.rendering/pageinfo/papersize/) { get; } | Kağıt boyutunu numaralandırma olarak alır. |
-| [PaperTray](../../aspose.words.rendering/pageinfo/papertray/) { get; } | Belgede belirtildiği gibi bu sayfa için kağıt tepsisini (bölmesi) alır. Değer uygulamaya (yazıcıya) özeldir. |
-| [SizeInPoints](../../aspose.words.rendering/pageinfo/sizeinpoints/) { get; } | Sayfa boyutunu punto olarak alır. |
+| [Colored](../../aspose.words.rendering/pageinfo/colored/) { get; } | İadeler`doğru` sayfa renkli içerik içeriyorsa. |
+| [HeightInPoints](../../aspose.words.rendering/pageinfo/heightinpoints/) { get; } | Sayfanın yüksekliğini puan olarak alır. |
+| [Landscape](../../aspose.words.rendering/pageinfo/landscape/) { get; } | İadeler`doğru` bu sayfa için belgede belirtilen sayfa yönü yatay ise. |
+| [PaperSize](../../aspose.words.rendering/pageinfo/papersize/) { get; } | Numaralandırma olarak kağıt boyutunu alır. |
+| [PaperTray](../../aspose.words.rendering/pageinfo/papertray/) { get; } | Belgede belirtildiği gibi bu sayfa için kağıt tepsisini (kutuyu) alır. Değer uygulamaya (yazıcıya) özeldir. |
+| [SizeInPoints](../../aspose.words.rendering/pageinfo/sizeinpoints/) { get; } | Sayfa boyutunu puan olarak alır. |
 | [WidthInPoints](../../aspose.words.rendering/pageinfo/widthinpoints/) { get; } | Sayfanın genişliğini nokta olarak alır. |
 
 ## yöntemler
 
 | İsim | Tanım |
 | --- | --- |
-| [GetDotNetPaperSize](../../aspose.words.rendering/pageinfo/getdotnetpapersize/)(PaperSizeCollection) | PaperSize bununla temsil edilen sayfayı yazdırmak için uygun nesne `PageInfo` . |
+| [GetDotNetPaperSize](../../aspose.words.rendering/pageinfo/getdotnetpapersize/)(PaperSizeCollection) | AlırPaperSize yazdırmaya uygun nesne bununla temsil edilen sayfa`PageInfo` . |
 | [GetSizeInPixels](../../aspose.words.rendering/pageinfo/getsizeinpixels/#getsizeinpixels)(float, float) | Belirtilen yakınlaştırma faktörü ve çözünürlük için sayfa boyutunu piksel cinsinden hesaplar. |
 | [GetSizeInPixels](../../aspose.words.rendering/pageinfo/getsizeinpixels/#getsizeinpixels_1)(float, float, float) | Belirtilen yakınlaştırma faktörü ve çözünürlük için sayfa boyutunu piksel cinsinden hesaplar. |
-| [GetSpecifiedPrinterPaperSource](../../aspose.words.rendering/pageinfo/getspecifiedprinterpapersource/)(PaperSourceCollection, PaperSource) | PaperSource bununla temsil edilen sayfayı yazdırmak için uygun nesne `PageInfo` . |
+| [GetSpecifiedPrinterPaperSource](../../aspose.words.rendering/pageinfo/getspecifiedprinterpapersource/)(PaperSourceCollection, PaperSource) | AlırPaperSource yazdırmaya uygun nesne bununla temsil edilen sayfa`PageInfo` . |
 
 ### Notlar
 
-Bu nesne tarafından döndürülen sayfa genişliği ve yüksekliği, sayfanın "son" boyutunu temsil eder, örneğin, bunlar zaten doğru yöne döndürülmüşlerdir .
+Bu nesnenin döndürdüğü sayfa genişliği ve yüksekliği sayfanın "son" boyutunu temsil eder; örneğin bunlar zaten doğru yöne döndürülmüş 'dir.
 
 ### Örnekler
 
-Word belgesindeki her sayfa için sayfa boyutu ve yönlendirme bilgilerinin nasıl yazdırılacağını gösterir.
+Bir Word belgesindeki her sayfa için sayfa boyutu ve yön bilgilerinin nasıl yazdırılacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// İlk bölüm 2 sayfadır. Her birine farklı bir yazıcı kağıt tepsisi atayacağız,
-// numarası bir tür kağıt kaynağıyla eşleşecek. Bu kaynaklar ve Çeşitleri değişiklik gösterecektir.
+// İlk bölüm 2 sayfadan oluşuyor. Her birine farklı bir yazıcı kağıt tepsisi atayacağız,
+// numarası bir tür kağıt kaynağıyla eşleşecek. Bu kaynaklar ve çeşitleri farklılık gösterecektir
 // yüklü yazıcı sürücüsüne bağlı olarak.
 PrinterSettings.PaperSourceCollection paperSources = new PrinterSettings().PaperSources;
 
@@ -60,7 +63,7 @@ float dpi = 96;
 
 for (int i = 0; i < doc.PageCount; i++)
 {
-    // Her sayfa, indeksi ilgili sayfanın numarası olan bir PageInfo nesnesine sahiptir.
+    // Her sayfanın, dizini ilgili sayfanın numarası olan bir PageInfo nesnesi vardır.
     PageInfo pageInfo = doc.GetPageInfo(i);
 
     // Sayfanın yönünü ve boyutlarını yazdırın.

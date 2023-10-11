@@ -3,7 +3,7 @@ title: Enum EditingLanguage
 second_title: Справочник по API Aspose.Words для .NET
 description: Aspose.Words.Loading.EditingLanguage перечисление. Указывает язык редактирования.
 type: docs
-weight: 3400
+weight: 3600
 url: /ru/net/aspose.words.loading/editinglanguage/
 ---
 ## EditingLanguage enumeration
@@ -248,7 +248,7 @@ public enum EditingLanguage
 
 ### Примеры
 
-Показывает, как применять языковые настройки при загрузке документа.
+Показывает, как применить языковые настройки при загрузке документа.
 
 ```csharp
 LoadOptions loadOptions = new LoadOptions();

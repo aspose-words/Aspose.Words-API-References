@@ -1,14 +1,14 @@
 ---
 title: ImageSaveOptions.ImageColorMode
 second_title: Aspose.Words لمراجع .NET API
-description: ImageSaveOptions ملكية. الحصول على أو تحديد وضع الألوان للصور التي تم إنشاؤها.
+description: ImageSaveOptions ملكية. الحصول على أو تعيين وضع الألوان للصور التي تم إنشاؤها.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.saving/imagesaveoptions/imagecolormode/
 ---
 ## ImageSaveOptions.ImageColorMode property
 
-الحصول على أو تحديد وضع الألوان للصور التي تم إنشاؤها.
+الحصول على أو تعيين وضع الألوان للصور التي تم إنشاؤها.
 
 ```csharp
 public ImageColorMode ImageColorMode { get; set; }
@@ -16,13 +16,13 @@ public ImageColorMode ImageColorMode { get; set; }
 
 ### ملاحظات
 
-هذه الخاصية لها تأثير فقط عند الحفظ بتنسيقات صور نقطية.
+تؤثر هذه الخاصية فقط عند الحفظ في تنسيقات الصور النقطية.
 
-النظام الأساسيNone.
+القيمة الافتراضية هيNone.
 
 ### أمثلة
 
-يوضح كيفية تعيين وضع الألوان عند عرض المستندات.
+يوضح كيفية ضبط وضع الألوان عند عرض المستندات.
 
 ```csharp
 Document doc = new Document();
@@ -34,14 +34,14 @@ Document doc = new Document();
 
             Assert.That(20000, Is.LessThan(new FileInfo(ImageDir + "Logo.jpg").Length));
 
-            // عندما نحفظ المستند كصورة ، يمكننا تمرير كائن SaveOptions إليه
-            // حدد وضع اللون للصورة التي ستنشئها عملية الحفظ.
-            // إذا قمنا بتعيين خاصية "ImageColorMode" على "ImageColorMode.BlackAndWhite" ،
-            // ستطبق عملية الحفظ تقليل اللون الرمادي أثناء تقديم المستند.
-             // إذا قمنا بتعيين خاصية "ImageColorMode" على "ImageColorMode.Grayscale" ،
-            // ستؤدي عملية الحفظ إلى تحويل المستند إلى صورة أحادية اللون.
-            // إذا قمنا بتعيين خاصية "ImageColorMode" على "بلا" ، فإن عملية الحفظ ستطبق الطريقة الافتراضية
-            // والاحتفاظ بجميع ألوان المستند في صورة الإخراج.
+            // عندما نحفظ المستند كصورة، يمكننا تمرير كائن SaveOptions إليه
+            // حدد وضع الألوان للصورة التي ستنشئها عملية الحفظ.
+            // إذا قمنا بتعيين خاصية "ImageColorMode" على "ImageColorMode.BlackAndWhite"،
+            // ستطبق عملية الحفظ تقليل اللون الرمادي أثناء عرض المستند.
+            // إذا قمنا بتعيين خاصية "ImageColorMode" على "ImageColorMode.Grayscale"،
+            // ستعمل عملية الحفظ على تحويل المستند إلى صورة أحادية اللون.
+            // إذا قمنا بتعيين خاصية "ImageColorMode" على "لا شيء"، فستطبق عملية الحفظ الطريقة الافتراضية
+            // والحفاظ على جميع ألوان المستند في الصورة الناتجة.
             ImageSaveOptions imageSaveOptions = new ImageSaveOptions(SaveFormat.Png);
             imageSaveOptions.ImageColorMode = imageColorMode;
 

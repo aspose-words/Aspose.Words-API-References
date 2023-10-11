@@ -23,11 +23,11 @@ public void SetText(string text)
 | undantag | skick |
 | --- | --- |
 | ArgumentOutOfRangeException | Kastar när textlängden är utanför intervallet eller texten endast innehåller blanksteg. |
-| ArgumentNullException | Kastar när texten är null. |
+| ArgumentNullException | Kastar när texten är`null` . |
 
 ### Anmärkningar
 
-Textlängden måste vara i intervallet från 1 till 200 inklusive. Texten får inte vara null eller endast innehålla blanksteg.
+Textlängden måste vara i intervallet från 1 till 200 inklusive. Texten kan inte vara`null` eller bara innehålla blanksteg.
 
 ### Exempel
 
@@ -83,13 +83,13 @@ public void SetText(string text, TextWatermarkOptions options)
 | undantag | skick |
 | --- | --- |
 | ArgumentOutOfRangeException | Kastar när textlängden är utanför intervallet eller texten bara innehåller blanksteg. |
-| ArgumentNullException | Kastar när texten är null. |
+| ArgumentNullException | Kastar när texten är`null` . |
 
 ### Anmärkningar
 
-Textlängden måste vara i intervallet från 1 till 200 inklusive. Texten får inte vara null eller endast innehålla blanksteg.
+Textlängden måste vara i intervallet från 1 till 200 inklusive. Texten kan inte vara`null` eller bara innehålla blanksteg.
 
-Om[`TextWatermarkOptions`](../../textwatermarkoptions/) är null, kommer vattenstämpeln att ställas in med standardalternativ.
+Om[`TextWatermarkOptions`](../../textwatermarkoptions/) är`null`, kommer vattenstämpeln att ställas in med standardalternativ.
 
 ### Exempel
 

@@ -1,14 +1,14 @@
 ---
 title: ListCollection.Item
 second_title: Referencia de API de Aspose.Words para .NET
-description: ListCollection propiedad. Obtiene una lista por index.
+description: ListCollection propiedad. Obtiene una lista por índice.
 type: docs
 weight: 30
 url: /es/net/aspose.words.lists/listcollection/item/
 ---
 ## ListCollection indexer
 
-Obtiene una lista por index.
+Obtiene una lista por índice.
 
 ```csharp
 public List this[int index] { get; }
@@ -16,17 +16,15 @@ public List this[int index] { get; }
 
 ### Ejemplos
 
-Muestra cómo verificar las propiedades del documento de propietario de las listas.
+Muestra cómo verificar las propiedades del documento del propietario de las listas.
 
 ```csharp
 Document doc = new Document();
 
 ListCollection lists = doc.Lists;
-
 Assert.AreEqual(doc, lists.Document);
 
 List list = lists.Add(ListTemplate.BulletDefault);
-
 Assert.AreEqual(doc, list.Document);
 
 Console.WriteLine("Current list count: " + lists.Count);

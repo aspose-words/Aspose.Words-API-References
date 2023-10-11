@@ -1,14 +1,14 @@
 ---
 title: SaveOptions.PrettyFormat
 second_title: Справочник по API Aspose.Words для .NET
-description: SaveOptions свойство. Когдаистинный  красивые форматы вывода где это применимо. Значение по умолчанию ЛОЖЬ .
+description: SaveOptions свойство. Когдаистинный вывод в красивых форматах где это применимо. Значение по умолчаниюЛОЖЬ .
 type: docs
-weight: 120
+weight: 110
 url: /ru/net/aspose.words.saving/saveoptions/prettyformat/
 ---
 ## SaveOptions.PrettyFormat property
 
-Когда`истинный` , красивые форматы вывода, где это применимо. Значение по умолчанию: **ЛОЖЬ** .
+Когда`истинный` вывод в красивых форматах, где это применимо. Значение по умолчанию:`ЛОЖЬ` .
 
 ```csharp
 public bool PrettyFormat { get; set; }
@@ -16,11 +16,11 @@ public bool PrettyFormat { get; set; }
 
 ### Примечания
 
-Установлен в **истинный** чтобы сделать вывод HTML, MHTML, EPUB, WordML, RTF, DOCX и ODT удобочитаемым для человека. Полезно для тестирования или отладки.
+Установлен в`истинный` чтобы сделать вывод HTML, MHTML, EPUB, WordML, RTF, DOCX и ODT удобочитаемым для человека. Полезно для тестирования или отладки.
 
 ### Примеры
 
-Показывает, как улучшить читаемость необработанного кода сохраненного документа .html.
+Показывает, как улучшить читаемость исходного кода сохраненного HTML-документа.
 
 ```csharp
 Document doc = new Document();

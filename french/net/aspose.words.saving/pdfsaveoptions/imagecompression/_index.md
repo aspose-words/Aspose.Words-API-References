@@ -3,7 +3,7 @@ title: PdfSaveOptions.ImageCompression
 second_title: Référence de l'API Aspose.Words pour .NET
 description: PdfSaveOptions propriété. Spécifie le type de compression à utiliser pour toutes les images du document.
 type: docs
-weight: 170
+weight: 200
 url: /fr/net/aspose.words.saving/pdfsaveoptions/imagecompression/
 ---
 ## PdfSaveOptions.ImageCompression property
@@ -18,15 +18,15 @@ public PdfImageCompression ImageCompression { get; set; }
 
 La valeur par défaut estAuto.
 
-UtilisantJpeg vous permet de contrôler la qualité des images dans le document de sortie via le[`JpegQuality`](../jpegquality/) propriété.
+En utilisantJpeg vous permet de contrôler la qualité des images dans le document de sortie via le[`JpegQuality`](../jpegquality/) propriété.
 
-UtilisantJpeg fournit la vitesse de conversion la plus rapide par rapport aux performances des autres types de compression, mais dans ce cas, il y a une compression JPEG avec perte.
+En utilisantJpeg offre la vitesse de conversion la plus rapide par rapport aux performances des autres types de compression, mais dans ce cas, il y a une compression JPEG avec perte.
 
-UtilisantAuto permet de contrôler la qualité du Jpeg dans le document de sortie via le[`JpegQuality`](../jpegquality/) propriété, mais pour les autres formats, les données de pixel brutes sont extraites et enregistrées avec la compression Flate. Ce cas est plus lent que la conversion Jpeg mais sans perte.
+En utilisantAuto permet de contrôler la qualité du Jpeg dans le document de sortie via le[`JpegQuality`](../jpegquality/)propriété, mais pour les autres formats, les données brutes de pixels sont extraites et enregistrées avec la compression Flate. Ce cas est plus lent que la conversion Jpeg mais sans perte.
 
 ### Exemples
 
-Montre comment spécifier un type de compression pour toutes les images d'un document que nous convertissons en PDF.
+Montre comment spécifier un type de compression pour toutes les images d'un document que nous convertissons au format PDF.
 
 ```csharp
 Document doc = new Document();
@@ -38,7 +38,7 @@ builder.InsertParagraph();
 builder.Writeln("Png image:");
 builder.InsertImage(ImageDir + "Transparent background logo.png");
 
-// Crée un objet "PdfSaveOptions" que nous pouvons passer à la méthode "Save" du document
+// Crée un objet "PdfSaveOptions" que l'on peut passer à la méthode "Save" du document
 // pour modifier la façon dont cette méthode convertit le document en .PDF.
 PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
 

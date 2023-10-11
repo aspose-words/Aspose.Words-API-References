@@ -1,14 +1,14 @@
 ---
 title: Document.AutomaticallyUpdateStyles
 second_title: Aspose.Words for .NET API Referansı
-description: Document mülk. Belge MS Wordde her açıldığında belgedeki stillerin ekli şablondaki stiller ile eşleşecek şekilde güncellenip güncellenmediğini belirten bir bayrak alır veya ayarlar.
+description: Document mülk. Belgedeki stillerin belge MS Wordde her açıldığında ekli şablondaki stilleriyle eşleşecek şekilde güncellenip güncellenmediğini belirten bir bayrak alır veya ayarlar.
 type: docs
 weight: 30
 url: /tr/net/aspose.words/document/automaticallyupdatestyles/
 ---
 ## Document.AutomaticallyUpdateStyles property
 
-Belge MS Word'de her açıldığında, belgedeki stillerin ekli şablondaki stiller ile eşleşecek şekilde güncellenip güncellenmediğini belirten bir bayrak alır veya ayarlar.
+Belgedeki stillerin, belge MS Word'de her açıldığında ekli şablondaki stilleriyle eşleşecek şekilde güncellenip güncellenmediğini belirten bir bayrak alır veya ayarlar.
 
 ```csharp
 public bool AutomaticallyUpdateStyles { get; set; }
@@ -16,36 +16,36 @@ public bool AutomaticallyUpdateStyles { get; set; }
 
 ### Örnekler
 
-Bir belgeye nasıl şablon ekleneceğini gösterir.
+Bir belgeye şablonun nasıl ekleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
 
-// Microsoft Word belgeleri varsayılan olarak "Normal.dotm" adlı ekli bir şablonla gelir.
+// Microsoft Word belgeleri varsayılan olarak "Normal.dotm" adı verilen bir şablonla birlikte gelir.
 // Boş Aspose.Words belgeleri için varsayılan bir şablon yoktur.
 Assert.AreEqual(string.Empty, doc.AttachedTemplate);
 
 // Bir şablon ekleyin, ardından stil değişikliklerini uygulamak için bayrağı ayarlayın
-// belgemizdeki stiller için şablon içinde.
+// şablon içinde belgemizdeki stillere.
 doc.AttachedTemplate = MyDir + "Business brochure.dotx";
 doc.AutomaticallyUpdateStyles = true;
 
 doc.Save(ArtifactsDir + "Document.AutomaticallyUpdateStyles.docx");
 ```
 
-Ekli şablonları olmayan belgeler için varsayılan bir şablonun nasıl ayarlanacağını gösterir.
+Ekli şablonları olmayan belgeler için varsayılan şablonun nasıl ayarlanacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 
-// Otomatik stil güncellemeyi etkinleştir, ancak şablon belgesi ekleme.
+// Otomatik stil güncellemeyi etkinleştirin ancak şablon belgesi eklemeyin.
 doc.AutomaticallyUpdateStyles = true;
 
 Assert.AreEqual(string.Empty, doc.AttachedTemplate);
 
-// Şablon belgesi olmadığından, belgenin stil değişikliklerini izleyecek hiçbir yeri yoktu.
-// Bir şablonu otomatik olarak ayarlamak için SaveOptions nesnesini kullanın
-// kaydettiğimiz bir belge yoksa.
+// Şablon belge olmadığından belgenin stil değişikliklerini izleyecek yeri yoktu.
+// Şablonu otomatik olarak ayarlamak için SaveOptions nesnesini kullanın
+// eğer kaydettiğimiz belgede belge yoksa.
 SaveOptions options = SaveOptions.CreateSaveOptions("Document.DefaultTemplate.docx");
 options.DefaultTemplate = MyDir + "Business brochure.dotx";
 

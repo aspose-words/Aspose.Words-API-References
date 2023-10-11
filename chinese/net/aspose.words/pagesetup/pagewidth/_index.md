@@ -3,12 +3,12 @@ title: PageSetup.PageWidth
 second_title: Aspose.Words for .NET API 参考
 description: PageSetup 财产. 返回或设置页面的宽度以磅为单位
 type: docs
-weight: 330
+weight: 340
 url: /zh/net/aspose.words/pagesetup/pagewidth/
 ---
 ## PageSetup.PageWidth property
 
-返回或设置页面的宽度，以磅为单位。
+返回或设置页面的宽度（以磅为单位）。
 
 ```csharp
 public double PageWidth { get; set; }
@@ -22,14 +22,14 @@ public double PageWidth { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 将图像插入到页眉中，以便在每个页面上都可见。
+// 将图像插入页眉中，以便它在每个页面上都可见。
 Image image = Image.FromFile(ImageDir + "Transparent background logo.png");
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 Shape shape = builder.InsertImage(image);
 shape.WrapType = WrapType.None;
 shape.BehindText = true;
 
-// 将图片放在页面的中心。
+// 将图像放置在页面的中心。
 shape.RelativeHorizontalPosition = RelativeHorizontalPosition.Page;
 shape.RelativeVerticalPosition = RelativeVerticalPosition.Page;
 shape.Left = (builder.PageSetup.PageWidth - shape.Width) / 2;
@@ -44,7 +44,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertWatermark.docx");
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 将图像插入到页眉中，以便在每个页面上都可见。
+// 将图像插入页眉中，以便它在每个页面上都可见。
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 
 using (SKBitmap image = SKBitmap.Decode(ImageDir + "Transparent background logo.png"))
@@ -54,7 +54,7 @@ using (SKBitmap image = SKBitmap.Decode(ImageDir + "Transparent background logo.
     shape.WrapType = WrapType.None;
     shape.BehindText = true;
 
-    // 将图片放在页面的中心。
+    // 将图像放置在页面的中心。
     shape.RelativeHorizontalPosition = RelativeHorizontalPosition.Page;
     shape.RelativeVerticalPosition = RelativeVerticalPosition.Page;
     shape.Left = (builder.PageSetup.PageWidth - shape.Width) / 2;
@@ -64,7 +64,7 @@ using (SKBitmap image = SKBitmap.Decode(ImageDir + "Transparent background logo.
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertWatermarkNetStandard2.docx");
 ```
 
-显示如何插入浮动图像，并指定其位置和大小。
+演示如何插入浮动图像，并指定其位置和大小。
 
 ```csharp
 Document doc = new Document();
@@ -73,23 +73,23 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
 shape.WrapType = WrapType.None;
 
-// 配置形状的“RelativeHorizontalPosition”属性来处理“Left”属性的值
-// 作为形状从页面左侧的水平距离，以磅为单位。
+// 配置形状的“RelativeHorizontalPosition”属性以处理“Left”属性的值
+// 作为形状距页面左侧的水平距离（以磅为单位）。
 shape.RelativeHorizontalPosition = RelativeHorizontalPosition.Page;
 
-// 设置形状到页面左侧的水平距离为 100。
+// 将形状到页面左侧的水平距离设置为 100。
 shape.Left = 100;
 
-// 以类似的方式使用“RelativeVerticalPosition”属性将形状定位在页面顶部下方 80pt 处。
+// 以类似的方式使用“RelativeVerticalPosition”属性将形状放置在页面顶部下方 80pt 处。
 shape.RelativeVerticalPosition = RelativeVerticalPosition.Page;
 shape.Top = 80;
 
-// 设置形状的高度，它将自动缩放宽度以保留尺寸。
+// 设置形状的高度，这将自动缩放宽度以保留尺寸。
 shape.Height = 125;
 
 Assert.AreEqual(125.0d, shape.Width);
 
-// "Bottom" 和 "Right" 属性包含图像的底部和右侧边缘。
+// “Bottom”和“Right”属性包含图像的下边缘和右边缘。
 Assert.AreEqual(shape.Top + shape.Height, shape.Bottom);
 Assert.AreEqual(shape.Left + shape.Width, shape.Right);
 

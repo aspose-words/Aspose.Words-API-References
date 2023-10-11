@@ -1,14 +1,14 @@
 ---
 title: Shape.Stroked
 second_title: Справочник по API Aspose.Words для .NET
-description: Shape свойство. Определяет будет ли обведен контур.
+description: Shape свойство. Определяет будет ли путь обведен.
 type: docs
 weight: 200
 url: /ru/net/aspose.words.drawing/shape/stroked/
 ---
 ## Shape.Stroked property
 
-Определяет, будет ли обведен контур.
+Определяет, будет ли путь обведен.
 
 ```csharp
 public bool Stroked { get; set; }
@@ -16,15 +16,16 @@ public bool Stroked { get; set; }
 
 ### Примечания
 
-Это ярлык для[`On`](../../stroke/on/) имущество.
+Это ярлык для[`On`](../../stroke/on/) свойство.
 
-Значение по умолчанию **истинный**.
+Значение по умолчанию:`истинный`.
 
 ### Примеры
 
 Показывает, как перебирать все фигуры в документе.
 
 ```csharp
+public void VisitShapes()
 {
     Document doc = new Document(MyDir + "Revision shape.docx");
     ShapeAppearancePrinter visitor = new ShapeAppearancePrinter();
@@ -34,7 +35,7 @@ public bool Stroked { get; set; }
 }
 
 /// <summary>
-/// Регистрирует связанную с внешним видом информацию о посещенных фигурах.
+/// Регистрирует информацию о внешнем виде посещенных фигур.
 /// </summary>
 private class ShapeAppearancePrinter : DocumentVisitor
 {
@@ -46,7 +47,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Добавляет строку в StringBuilder с одним предшествующим символом табуляции для каждого уровня отступа.
+    /// Добавляет строку в StringBuilder с одним добавленным символом табуляции для каждого уровня отступа.
     /// </summary>
     private void AppendLine(string text)
     {
@@ -56,7 +57,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Вернуть весь текст, который накопил StringBuilder.
+    /// Возвращаем весь текст, накопленный StringBuilder.
     /// </summary>
     public string GetText()
     {

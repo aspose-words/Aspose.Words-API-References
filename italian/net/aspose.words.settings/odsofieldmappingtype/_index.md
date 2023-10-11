@@ -3,7 +3,7 @@ title: Enum OdsoFieldMappingType
 second_title: Aspose.Words per .NET API Reference
 description: Aspose.Words.Settings.OdsoFieldMappingType enum. Specifica i possibili tipi utilizzati per indicare se un determinato campo di stampa unione è stato mappato a una colonna nellorigine dati esterna specificata.
 type: docs
-weight: 5620
+weight: 5920
 url: /it/net/aspose.words.settings/odsofieldmappingtype/
 ---
 ## OdsoFieldMappingType enumeration
@@ -18,7 +18,7 @@ public enum OdsoFieldMappingType
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
-| Column | `0` | Specifica che il campo della stampa unione è stato mappato su una colonna nell'origine dati esterna specificata. |
+| Column | `0` | Specifica che il campo della stampa unione è stato mappato a una colonna nell'origine dati esterna specificata. |
 | Null | `1` | Specifica che il campo della stampa unione non è stato mappato a una colonna nell'origine dati esterna specificata. |
 | Default | `1` | Uguale aNull . |
 
@@ -29,8 +29,8 @@ Mostra come accedere alla raccolta di dati che mappa le colonne dell'origine dat
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
 
-// Questa raccolta definisce come una stampa unione mapperà le colonne da un'origine dati
-// ai campi MERGEFIELD, ADDRESSBLOCK e GREETINGLINE.
+// Questa raccolta definisce il modo in cui una stampa unione mapperà le colonne da un'origine dati
+// ai campi MERGEFIELD, ADDRESSBLOCK e GREETINGLINE predefiniti.
 OdsoFieldMapDataCollection dataCollection = doc.MailMergeSettings.Odso.FieldMapDatas;
 Assert.AreEqual(30, dataCollection.Count);
 
@@ -51,12 +51,12 @@ using (IEnumerator<OdsoFieldMapData> enumerator = dataCollection.GetEnumerator()
 // Clona gli elementi in questa raccolta.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// Usa gli elementi del metodo "RemoveAt" individualmente per indice.
+// Utilizza gli elementi del metodo "RemoveAt" singolarmente per indice.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(29, dataCollection.Count);
 
-// Usa il metodo "Cancella" per cancellare l'intera collezione in una volta.
+// Utilizza il metodo "Cancella" per cancellare l'intera raccolta in una volta.
 dataCollection.Clear();
 
 Assert.AreEqual(0, dataCollection.Count);

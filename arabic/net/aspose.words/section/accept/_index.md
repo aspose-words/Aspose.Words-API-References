@@ -1,14 +1,14 @@
 ---
 title: Section.Accept
 second_title: Aspose.Words لمراجع .NET API
-description: Section طريقة. يقبل الزائر .
+description: Section طريقة. يقبل الزائر.
 type: docs
 weight: 70
 url: /ar/net/aspose.words/section/accept/
 ---
 ## Section.Accept method
 
-يقبل الزائر .
+يقبل الزائر.
 
 ```csharp
 public override bool Accept(DocumentVisitor visitor)
@@ -20,15 +20,15 @@ public override bool Accept(DocumentVisitor visitor)
 
 ### قيمة الإرجاع
 
-صحيح إذا تمت زيارة جميع العقد ؛ خطأ إذا أوقف برنامج DocumentVisitor العملية قبل زيارة جميع العقد.
+صحيح إذا تمت زيارة جميع العقد؛ كاذبة إذا[`DocumentVisitor`](../../documentvisitor/) أوقفت العملية قبل زيارة كافة العقد.
 
 ### ملاحظات
 
-يعدّ فوق هذه العقدة وجميع توابعها. تستدعي كل عقدة طريقة مقابلة في DocumentVisitor.
+يعدد هذه العقدة وجميع أبنائها. تستدعي كل عقدة الطريقة المقابلة لها[`DocumentVisitor`](../../documentvisitor/).
 
-لمزيد من المعلومات ، راجع نمط تصميم الزائر.
+لمزيد من المعلومات، راجع نمط تصميم الزائر.
 
-Calls DocumentVisitor.VisitSectionStart ، ثم استدعاء Accept لجميع العقد الفرعية من section واستدعاء DocumentVisitor.VisitSectionEnd في النهاية.
+المكالمات[`VisitSectionStart`](../../documentvisitor/visitsectionstart/) ، ثم يتصل[`Accept`](../../node/accept/) لجميع العقد التابعة للقسم والمكالمات[`VisitSectionEnd`](../../documentvisitor/visitsectionend/) في النهاية.
 
 ### أنظر أيضا
 

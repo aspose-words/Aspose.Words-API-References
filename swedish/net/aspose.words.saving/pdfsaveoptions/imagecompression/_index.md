@@ -3,7 +3,7 @@ title: PdfSaveOptions.ImageCompression
 second_title: Aspose.Words för .NET API Referens
 description: PdfSaveOptions fast egendom. Anger komprimeringstyp som ska användas för alla bilder i dokumentet.
 type: docs
-weight: 170
+weight: 200
 url: /sv/net/aspose.words.saving/pdfsaveoptions/imagecompression/
 ---
 ## PdfSaveOptions.ImageCompression property
@@ -22,7 +22,7 @@ Använder sig avJpeg låter dig kontrollera kvaliteten på bilderna i det utgåe
 
 Använder sig avJpeg ger den snabbaste omvandlingshastigheten jämfört med prestanda för andra komprimeringstyper, men i det här fallet finns det förlust av JPEG-komprimering.
 
-Använder sig avAuto låter dig kontrollera kvaliteten på Jpeg i utdatadokumentet genom[`JpegQuality`](../jpegquality/) property, men för andra format extraheras rå pixeldata och sparas med Flate-komprimering. Det här fallet är långsammare än Jpeg-konvertering men förlustfritt.
+Använder sig avAuto låter dig kontrollera kvaliteten på Jpeg i utdatadokumentet genom[`JpegQuality`](../jpegquality/)property, men för andra format extraheras rå pixeldata och sparas med Flate-komprimering. Det här fallet är långsammare än Jpeg-konvertering men förlustfritt.
 
 ### Exempel
 

@@ -16,7 +16,7 @@ public string Text { get; set; }
 
 ### 例子
 
-显示如何使用 SUBJECT 字段。
+演示如何使用 SUBJECT 字段。
 
 ```csharp
 Document doc = new Document();
@@ -24,7 +24,7 @@ Document doc = new Document();
 // 为文档的“主题”内置属性设置一个值。
 doc.BuiltInDocumentProperties.Subject = "My subject";
 
-// 创建一个 SUBJECT 字段以显示该内置属性的值。
+// 创建一个 SUBJECT 字段来显示该内置属性的值。
 DocumentBuilder builder = new DocumentBuilder(doc);
 FieldSubject field = (FieldSubject)builder.InsertField(FieldType.FieldSubject, true);
 field.Update();
@@ -32,8 +32,8 @@ field.Update();
 Assert.AreEqual(" SUBJECT ", field.GetFieldCode());
 Assert.AreEqual("My subject", field.Result);
 
-// 如果我们给 SUBJECT 字段的 Text 属性值并更新它，该字段将
-// 用其 Text 属性的值覆盖“Subject”内置属性的当前值，
+// 如果我们给出 SUBJECT 字段的 Text 属性值并更新它，该字段将
+// 用 Text 属性的值覆盖“Subject”内置属性的当前值，
 // 然后显示新值。
 field.Text = "My new subject";
 field.Update();

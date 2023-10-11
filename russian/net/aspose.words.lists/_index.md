@@ -1,12 +1,12 @@
 ---
 title: Aspose.Words.Lists
 second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Listsnamespace содержит классы для working с маркированными и нумерованными списками определенными в документе.
+description: Aspose.Words.Lists пространство имен содержит классы дляwork с маркированными и нумерованными списками определенными в документе.
 type: docs
 weight: 120
 url: /ru/net/aspose.words.lists/
 ---
-**Aspose.Words.Lists**namespace содержит классы для working с маркированными и нумерованными списками, определенными в документе.
+**Aspose.Words.Lists** пространство имен содержит классы дляwork с маркированными и нумерованными списками, определенными в документе.
 
 ## Классы
 
@@ -16,14 +16,14 @@ url: /ru/net/aspose.words.lists/
 | [ListCollection](./listcollection/) | Хранит и управляет форматированием маркированных и нумерованных списков, используемых в документе. |
 | [ListFormat](./listformat/) | Позволяет контролировать, какое форматирование списка применяется к абзацу. |
 | [ListLabel](./listlabel/) | Определяет свойства, специфичные для метки списка. |
-| [ListLevel](./listlevel/) | Определяет форматирование для уровня списка. |
+| [ListLevel](./listlevel/) | Определяет форматирование уровня списка. |
 | [ListLevelCollection](./listlevelcollection/) | Коллекция форматирования списка для каждого уровня в списке. |
 ## перечисление
 
 | перечисление | Описание |
 | --- | --- |
-| [ListLevelAlignment](./listlevelalignment/) | Указывает выравнивание для номера списка или маркера. |
-| [ListTemplate](./listtemplate/) | Задает один из предопределенных форматов списка, доступных в Microsoft Word. |
-| [ListTrailingCharacter](./listtrailingcharacter/) | Задает символ, отделяющий метку списка от текста абзаца. |
+| [ListLevelAlignment](./listlevelalignment/) | Определяет выравнивание номера списка или маркера. |
+| [ListTemplate](./listtemplate/) | Указывает один из предопределенных форматов списка, доступных в Microsoft Word. |
+| [ListTrailingCharacter](./listtrailingcharacter/) | Указывает символ, отделяющий метку списка от текста абзаца. |
 
 

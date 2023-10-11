@@ -3,7 +3,7 @@ title: ShapeBase.LocalToParent
 second_title: Aspose.Words för .NET API Referens
 description: ShapeBase metod. Konverterar ett värde från det lokala koordinatutrymmet till koordinatutrymmet för den överordnade formen.
 type: docs
-weight: 610
+weight: 670
 url: /sv/net/aspose.words.drawing/shapebase/localtoparent/
 ---
 ## ShapeBase.LocalToParent method

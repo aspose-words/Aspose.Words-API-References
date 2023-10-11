@@ -3,7 +3,7 @@ title: Enum OdsoDataSourceType
 second_title: Aspose.Words per .NET API Reference
 description: Aspose.Words.Settings.OdsoDataSourceType enum. Specifica il tipo di origine dati esterna a cui connettersi come parte delle informazioni di connessione ODSO.
 type: docs
-weight: 5590
+weight: 5890
 url: /it/net/aspose.words.settings/odsodatasourcetype/
 ---
 ## OdsoDataSourceType enumeration
@@ -20,7 +20,7 @@ public enum OdsoDataSourceType
 | --- | --- | --- |
 | Text | `0` | Specifica che un determinato documento è stato connesso a un file di testo. Possibilmente wdMergeSubTypeOther. |
 | Database | `1` | Specifica che un determinato documento è stato connesso a un database. Possibilmente wdMergeSubTypeAccess. |
-| AddressBook | `2` | Specifica che un determinato documento è stato collegato a una rubrica di contatti. Possibilmente wdMergeSubTypeOAL. |
+| AddressBook | `2` | Specifica che un determinato documento è stato collegato a una rubrica di contatti. Eventualmente wdMergeSubTypeOAL. |
 | Document1 | `3` | Specifica che un determinato documento è stato connesso a un altro formato di documento supportato dall'applicazione di produzione. Possibilmente wdMergeSubTypeOLEDBWord. |
 | Document2 | `4` | Specifica che un determinato documento è stato connesso a un altro formato di documento supportato dall'applicazione di produzione. Possibilmente wdMergeSubTypeWorks. |
 | Native | `5` | Specifica che un determinato documento è stato connesso a un altro formato di documento nativo dell'applicazione di produzione. Possibilmente wdMergeSubTypeOLEDBText |
@@ -79,7 +79,7 @@ odso.FirstRowContainsColumnNames = true;
 Assert.AreNotSame(odso, odso.Clone());
 Assert.AreNotSame(settings, settings.Clone());
 
-// L'apertura di questo documento in Microsoft Word eseguirà la stampa unione prima di visualizzare il contenuto. 
+ // L'apertura di questo documento in Microsoft Word eseguirà la stampa unione prima di visualizzarne il contenuto.
 doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ```
 

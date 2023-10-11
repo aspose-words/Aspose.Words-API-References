@@ -16,7 +16,7 @@ public string Comments { get; }
 
 ### أمثلة
 
-يوضح كيفية التحقق من صحة المعلومات وعرضها حول كل توقيع في مستند.
+يوضح كيفية التحقق من صحة وعرض المعلومات حول كل توقيع في المستند.
 
 ```csharp
 Document doc = new Document(MyDir + "Digitally signed.docx");

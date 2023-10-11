@@ -3,7 +3,7 @@ title: ParagraphFormat.LineSpacingRule
 second_title: Aspose.Words för .NET API Referens
 description: ParagraphFormat fast egendom. Hämtar eller ställer in radavståndet för stycket.
 type: docs
-weight: 190
+weight: 200
 url: /sv/net/aspose.words/paragraphformat/linespacingrule/
 ---
 ## ParagraphFormat.LineSpacingRule property

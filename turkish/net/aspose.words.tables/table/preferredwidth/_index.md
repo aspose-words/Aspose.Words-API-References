@@ -16,11 +16,11 @@ public PreferredWidth PreferredWidth { get; set; }
 
 ### Notlar
 
-Varsayılan değer[`Auto`](../../preferredwidth/auto/).
+Varsayılan değer:[`Auto`](../../preferredwidth/auto/).
 
 ### Örnekler
 
-Bir tablonun, sayfa genişliğinin %50'sine otomatik sığacak şekilde nasıl ayarlanacağını gösterir.
+Bir tablonun sayfa genişliğinin %50'sine otomatik olarak sığacak şekilde nasıl ayarlanacağını gösterir.
 
 ```csharp
 Document doc = new Document();

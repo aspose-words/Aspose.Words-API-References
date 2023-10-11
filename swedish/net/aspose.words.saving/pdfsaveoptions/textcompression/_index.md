@@ -3,7 +3,7 @@ title: PdfSaveOptions.TextCompression
 second_title: Aspose.Words för .NET API Referens
 description: PdfSaveOptions fast egendom. Anger komprimeringstyp som ska användas för allt textinnehåll i dokumentet.
 type: docs
-weight: 260
+weight: 290
 url: /sv/net/aspose.words.saving/pdfsaveoptions/textcompression/
 ---
 ## PdfSaveOptions.TextCompression property

@@ -16,11 +16,11 @@ public CustomPart this[int index] { get; set; }
 
 | Параметр | Описание |
 | --- | --- |
-| index | Отсчитываемый от нуля индекс элемента. |
+| index | Индекс элемента, начинающийся с нуля. |
 
 ### Примеры
 
-Показывает, как получить доступ к коллекции произвольных пользовательских частей документа.
+Показывает, как получить доступ к произвольной коллекции пользовательских частей документа.
 
 ```csharp
 Document doc = new Document(MyDir + "Custom parts OOXML package.docx");
@@ -32,7 +32,7 @@ CustomPart clonedPart = doc.PackageCustomParts[1].Clone();
 doc.PackageCustomParts.Add(clonedPart);
 Assert.AreEqual(3, doc.PackageCustomParts.Count);
 
-// Перечисляем коллекцию и печатаем каждую часть.
+// Перебираем коллекцию и печатаем каждую часть.
 using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator())
 {
     int index = 0;
@@ -49,7 +49,7 @@ using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator
     }
 }
 
-// Мы можем удалить элементы из этой коллекции по отдельности или все сразу.
+// Мы можем удалять элементы из этой коллекции по отдельности или все сразу.
 doc.PackageCustomParts.RemoveAt(2);
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);

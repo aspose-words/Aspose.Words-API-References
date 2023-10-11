@@ -1,53 +1,16 @@
 ---
 title: CompositeNode.RemoveChild
 second_title: Aspose.Words لمراجع .NET API
-description: CompositeNode طريقة. يزيل العقدة الفرعية المحددة .
+description: CompositeNode طريقة. 
 type: docs
-weight: 180
+weight: 190
 url: /ar/net/aspose.words/compositenode/removechild/
 ---
-## CompositeNode.RemoveChild method
-
-يزيل العقدة الفرعية المحددة .
+## CompositeNode.RemoveChild&lt;T&gt; method
 
 ```csharp
-public Node RemoveChild(Node oldChild)
-```
-
-| معامل | يكتب | وصف |
-| --- | --- | --- |
-| oldChild | Node | العقدة المراد إزالتها. |
-
-### قيمة الإرجاع
-
-العقدة التي تمت إزالتها.
-
-### ملاحظات
-
-تم تعيين أصل oldChild على قيمة خالية بعد إزالة العقدة.
-
-### أمثلة
-
-يوضح كيفية استخدام طرق العقدة والعقدة المركبة لإزالة قسم قبل القسم الأخير في المستند.
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-builder.Writeln("Section 1 text.");
-builder.InsertBreak(BreakType.SectionBreakContinuous);
-builder.Writeln("Section 2 text.");
-
-// كلا القسمين أشقاء لبعضهما البعض.
-Section lastSection = (Section)doc.LastChild;
-Section firstSection = (Section)lastSection.PreviousSibling;
-
-// إزالة قسم بناءً على علاقته بأخيه مع قسم آخر.
-if (lastSection.PreviousSibling != null)
-    doc.RemoveChild(firstSection);
-
-// كان القسم الذي أزلناه هو الأول ، تاركًا المستند مع الثاني فقط.
-Assert.AreEqual("Section 2 text.", doc.GetText().Trim());
+public T RemoveChild<T>(T oldChild)
+    where T : Node
 ```
 
 ### أنظر أيضا

@@ -1,14 +1,14 @@
 ---
 title: DocumentBuilder.Bold
 second_title: Referencia de API de Aspose.Words para .NET
-description: DocumentBuilder propiedad. Verdadero si la fuente está en negrita.
+description: DocumentBuilder propiedad. Verdadero si la fuente tiene el formato negrita.
 type: docs
 weight: 20
 url: /es/net/aspose.words/documentbuilder/bold/
 ---
 ## DocumentBuilder.Bold property
 
-Verdadero si la fuente está en negrita.
+Verdadero si la fuente tiene el formato negrita.
 
 ```csharp
 public bool Bold { get; set; }
@@ -22,7 +22,7 @@ Muestra cómo llenar MERGEFIELD con datos con un generador de documentos en luga
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Inserte algunos MERGEFIELDS, que aceptan datos de columnas del mismo nombre en una fuente de datos durante una combinación de correspondencia,
+// Insertar algunos MERGEFIELDS, que aceptan datos de columnas del mismo nombre en una fuente de datos durante una combinación de correspondencia,
 // y luego llenarlos manualmente.
 builder.InsertField(" MERGEFIELD Chairman ");
 builder.InsertField(" MERGEFIELD ChiefFinancialOfficer ");

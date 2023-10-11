@@ -1,14 +1,14 @@
 ---
 title: FieldOptions.BarcodeGenerator
 second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldOptions propriété. Obtient ou définit un générateur de codebarres personnalisé.
+description: FieldOptions propriété. Obtient ou définit un générateur de codesbarres personnalisé.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.fields/fieldoptions/barcodegenerator/
 ---
 ## FieldOptions.BarcodeGenerator property
 
-Obtient ou définit un générateur de code-barres personnalisé.
+Obtient ou définit un générateur de codes-barres personnalisé.
 
 ```csharp
 public IBarcodeGenerator BarcodeGenerator { get; set; }
@@ -16,24 +16,23 @@ public IBarcodeGenerator BarcodeGenerator { get; set; }
 
 ### Remarques
 
-Le générateur de code-barres personnalisé doit implémenter une interface publique[`IBarcodeGenerator`](../../ibarcodegenerator/) .
+Le générateur de codes-barres personnalisé doit implémenter une interface publique[`IBarcodeGenerator`](../../ibarcodegenerator/) .
 
 ### Exemples
 
-Montre comment utiliser un générateur de code-barres.
+Montre comment utiliser un générateur de codes-barres.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
-
 // Nous pouvons utiliser une implémentation IBarcodeGenerator personnalisée pour générer des codes-barres,
-// puis insérez-les dans le document en tant qu'images.
+// puis insérez-les dans le document sous forme d'images.
 doc.FieldOptions.BarcodeGenerator = new CustomBarcodeGenerator();
 
 // Vous trouverez ci-dessous quatre exemples de différents types de codes-barres que nous pouvons créer à l'aide de notre générateur.
 // Pour chaque code-barres, nous spécifions un nouvel ensemble de paramètres de code-barres, puis générons l'image.
-// Ensuite, nous pouvons insérer l'image dans le document ou l'enregistrer dans le système de fichiers local.
-// 1 - Code QR :
+// Ensuite, nous pouvons insérer l'image dans le document ou la sauvegarder dans le système de fichiers local.
+// 1 - Code QR :
 BarcodeParameters barcodeParameters = new BarcodeParameters
 {
     BarcodeType = "QR",
@@ -77,7 +76,7 @@ img = doc.FieldOptions.BarcodeGenerator.GetBarcodeImage(barcodeParameters);
 img.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.CODE39.jpg");
 builder.InsertImage(img);
 
-// 4 - Code barre ITF14 :
+// 4 - Code barre ITF14 :
 barcodeParameters = new BarcodeParameters
 {
     BarcodeType = "ITF14",

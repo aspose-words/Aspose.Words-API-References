@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.NoSpaceRaiseLower
 second_title: Aspose.Words per .NET API Reference
-description: CompatibilityOptions proprietà. Non aumentare laltezza della riga per il testo rialzato/abbassato.
+description: CompatibilityOptions proprietà. Non aumentare laltezza della riga per il testo alzato/abbassato.
 type: docs
 weight: 360
 url: /it/net/aspose.words.settings/compatibilityoptions/nospaceraiselower/
 ---
 ## CompatibilityOptions.NoSpaceRaiseLower property
 
-Non aumentare l'altezza della riga per il testo rialzato/abbassato.
+Non aumentare l'altezza della riga per il testo alzato/abbassato.
 
 ```csharp
 public bool NoSpaceRaiseLower { get; set; }

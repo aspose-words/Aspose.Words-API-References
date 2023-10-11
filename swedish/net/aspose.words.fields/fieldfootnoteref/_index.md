@@ -3,12 +3,14 @@ title: Class FieldFootnoteRef
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Fields.FieldFootnoteRef klass. Implementerar fältet FOOTNOTEREF.
 type: docs
-weight: 1750
+weight: 1900
 url: /sv/net/aspose.words.fields/fieldfootnoteref/
 ---
 ## FieldFootnoteRef class
 
 Implementerar fältet FOOTNOTEREF.
+
+För att lära dig mer, besök[Arbeta med Fields](https://docs.aspose.com/words/net/working-with-fields/) dokumentationsartikel.
 
 ```csharp
 public class FieldFootnoteRef : Field
@@ -31,7 +33,7 @@ public class FieldFootnoteRef : Field
 | [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Hämtar eller ställer in om fältet är låst (ska inte räkna om resultatet). |
 | [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | Hämtar eller ställer in LCID för fältet. |
 | [Result](../../aspose.words.fields/field/result/) { get; set; } | Hämtar eller ställer in text som är mellan fältavgränsaren och fältslutet. |
-| [Separator](../../aspose.words.fields/field/separator/) { get; } | Hämtar noden som representerar fältseparatorn. Kan vara null. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | Hämtar noden som representerar fältseparatorn. Kan vara`null` . |
 | [Start](../../aspose.words.fields/field/start/) { get; } | Hämtar noden som representerar början av fältet. |
 | virtual [Type](../../aspose.words.fields/field/type/) { get; } | Hämtar fälttypen Microsoft Word. |
 
@@ -41,41 +43,10 @@ public class FieldFootnoteRef : Field
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Returnerar text mellan fältstart och fältavgränsare (eller fältslut om det inte finns någon avgränsare). Både fältkod och fältresultat för underordnade fält ingår. |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Returnerar text mellan fältstart och fältavgränsare (eller fältslut om det inte finns någon avgränsare). |
-| [Remove](../../aspose.words.fields/field/remove/)() | Tar bort fältet från dokumentet. Returnerar en nod direkt efter fältet. Om fältets slut är den sista child av dess överordnade nod, returnerar dess överordnade stycke. Om fältet redan är borttaget, returneras **null** . |
+| [Remove](../../aspose.words.fields/field/remove/)() | Tar bort fältet från dokumentet. Returnerar en nod direkt efter fältet. Om fältets slut är den sista child av dess överordnade nod, returnerar dess överordnade stycke. Om fältet redan är borttaget, returneras`null` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Utför fältavlänkningen. |
 | [Update](../../aspose.words.fields/field/update/)() | Utför fältuppdateringen. Kastar om fältet redan uppdateras. |
 | [Update](../../aspose.words.fields/field/update/)(bool) | Utför en fältuppdatering. Kastar om fältet redan uppdateras. |
-
-### Exempel
-
-Visar hur man korshänvisar till fotnoter med fältet FOTNOT.
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-builder.StartBookmark("CrossRefBookmark");
-builder.Write("Hello world!");
-builder.InsertFootnote(FootnoteType.Footnote, "Cross referenced footnote.");
-builder.EndBookmark("CrossRefBookmark");
-builder.InsertParagraph();
-
-// Infoga ett FOTNOTEREF-fält, vilket låter oss referera till en fotnot mer än en gång samtidigt som vi återanvänder samma fotnotsmarkör.
-builder.Write("CrossReference: ");
-FieldFootnoteRef field = (FieldFootnoteRef) builder.InsertField(FieldType.FieldFootnoteRef, true);
-
-// Referera till bokmärket som vi har skapat med FOOTNOTEREF-fältet. Det bokmärket innehåller en fotnotsmarkör
-// som hör till fotnoten vi infogade. Fältet kommer att visa den fotnotsmarkören.
-builder.MoveTo(field.Separator);
-builder.Write("CrossRefBookmark");
-
-Assert.AreEqual(" FOOTNOTEREF CrossRefBookmark", field.GetFieldCode());
-
-doc.UpdateFields();
-
-// Det här fältet fungerar endast i äldre versioner av Microsoft Word.
-doc.Save(ArtifactsDir + "Field.FOOTNOTEREF.doc");
-```
 
 ### Se även
 

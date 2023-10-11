@@ -3,7 +3,7 @@ title: PageSetup.SectionStart
 second_title: Справочник по API Aspose.Words для .NET
 description: PageSetup свойство. Возвращает или задает тип разрыва раздела для указанного объекта.
 type: docs
-weight: 380
+weight: 390
 url: /ru/net/aspose.words/pagesetup/sectionstart/
 ---
 ## PageSetup.SectionStart property
@@ -16,19 +16,19 @@ public SectionStart SectionStart { get; set; }
 
 ### Примеры
 
-Показывает, как создать документ Aspose.Words вручную.
+Показывает, как вручную создать документ Aspose.Words.
 
 ```csharp
 Document doc = new Document();
 
 // Пустой документ содержит один раздел, одно тело и один абзац.
-// Вызовите метод "RemoveAllChildren", чтобы удалить все эти узлы,
-// и получаем узел документа без дочерних элементов.
+// Вызов метода «RemoveAllChildren», чтобы удалить все эти узлы,
+// и в итоге получим узел документа без дочерних элементов.
 doc.RemoveAllChildren();
 
-// Этот документ теперь не имеет составных дочерних узлов, к которым мы можем добавить содержимое.
-// Если мы хотим отредактировать его, нам нужно будет повторно заполнить его коллекцию узлов.
-// Сначала создайте новый раздел, а затем добавьте его как дочерний к корневому узлу документа.
+// В этом документе теперь нет составных дочерних узлов, к которым мы можем добавлять контент.
+// Если мы хотим его отредактировать, нам нужно будет заново заполнить его коллекцию узлов.
+// Сначала создаем новый раздел, а затем добавляем его как дочерний к корневому узлу документа.
 Section section = new Section(doc);
 doc.AppendChild(section);
 
@@ -36,12 +36,12 @@ doc.AppendChild(section);
 section.PageSetup.SectionStart = SectionStart.NewPage;
 section.PageSetup.PaperSize = PaperSize.Letter;
 
-// Разделу нужно тело, которое будет содержать и отображать все его содержимое
-// на странице между шапкой и нижним колонтитулом раздела.
+// Разделу необходимо тело, которое будет содержать и отображать все его содержимое
+// на странице между заголовком и подвалом раздела.
 Body body = new Body(doc);
 section.AppendChild(body);
 
-// Создать абзац, установить некоторые свойства форматирования, а затем добавить его в тело как дочерний элемент.
+// Создайте абзац, установите некоторые свойства форматирования, а затем добавьте его как дочерний элемент к телу.
 Paragraph para = new Paragraph(doc);
 
 para.ParagraphFormat.StyleName = "Heading 1";
@@ -49,8 +49,8 @@ para.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
 body.AppendChild(para);
 
-// Наконец, добавьте содержимое для создания документа. Создать прогон,
-// установить его внешний вид и содержимое, а затем добавить его как дочерний элемент к абзацу.
+// Наконец, добавим некоторый контент для оформления документа. Создать пробег,
+// устанавливаем его внешний вид и содержимое, а затем добавляем его в качестве дочернего элемента к абзацу.
 Run run = new Run(doc);
 run.Text = "Hello World!";
 run.Font.Color = Color.Red;
@@ -68,7 +68,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("This text is in section 1.");
 
-// Типы разрыва раздела определяют, как новый раздел отделяется от предыдущего раздела.
+// Типы разрывов разделов определяют, как новый раздел отделяется от предыдущего.
 // Ниже приведены пять типов разрывов разделов.
 // 1 - Начинает следующий раздел на новой странице:
 builder.InsertBreak(BreakType.SectionBreakNewPage);
@@ -88,13 +88,13 @@ builder.Writeln("This text is in section 4.");
 
 Assert.AreEqual(SectionStart.EvenPage, doc.Sections[3].PageSetup.SectionStart);
 
-// 4 - Начинает следующий раздел на новой нечетной странице:
+// 4 — Начинает следующий раздел на новой нечетной странице:
 builder.InsertBreak(BreakType.SectionBreakOddPage);
 builder.Writeln("This text is in section 5.");
 
 Assert.AreEqual(SectionStart.OddPage, doc.Sections[4].PageSetup.SectionStart);
 
-// 5 - Начинает следующий раздел в новом столбце:
+// 5 — Начинает следующий раздел с нового столбца:
 TextColumnCollection columns = builder.PageSetup.TextColumns;
 columns.SetCount(2);
 

@@ -16,13 +16,13 @@ public Color PageColor { get; set; }
 
 ### 评论
 
-此属性提供了一种为文档指定纯色页面颜色的简单方法。 设置此属性会创建并设置适当的[`BackgroundShape`](../backgroundshape/).
+此属性提供了一种简单的方法来指定文档的纯色页面颜色。 设置此属性会创建并设置适当的颜色[`BackgroundShape`](../backgroundshape/)。
 
-如果没有设置页面颜色（例如文档中没有背景形状）返回 Empty.
+如果未设置页面颜色（例如文档中没有背景形状）则返回 Empty。
 
 ### 例子
 
-显示如何为文档的所有页面设置背景颜色。
+演示如何设置文档所有页面的背景颜色。
 
 ```csharp
 Document doc = new Document();

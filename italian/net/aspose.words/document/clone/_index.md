@@ -1,14 +1,14 @@
 ---
 title: Document.Clone
 second_title: Aspose.Words per .NET API Reference
-description: Document metodo. Esegue una copia completa del fileDocument .
+description: Document metodo. Esegue una copia approfondita del fileDocument .
 type: docs
-weight: 530
+weight: 570
 url: /it/net/aspose.words/document/clone/
 ---
 ## Document.Clone method
 
-Esegue una copia completa del file[`Document`](../) .
+Esegue una copia approfondita del file[`Document`](../) .
 
 ```csharp
 public Document Clone()
@@ -29,7 +29,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Write("Hello world!");
 
 // La clonazione produrrà un nuovo documento con lo stesso contenuto dell'originale,
-// ma con una copia univoca di ciascuno dei nodi del documento originale.
+// ma con una copia unica di ciascuno dei nodi del documento originale.
 Document clone = doc.Clone();
 
 Assert.AreEqual(doc.FirstSection.Body.FirstParagraph.Runs[0].GetText(), 

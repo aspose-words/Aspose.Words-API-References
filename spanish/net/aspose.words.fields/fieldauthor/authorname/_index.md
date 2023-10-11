@@ -16,20 +16,20 @@ public string AuthorName { get; set; }
 
 ### Ejemplos
 
-Muestra cómo usar un campo AUTOR para mostrar el nombre del creador de un documento.
+Muestra cómo utilizar un campo AUTOR para mostrar el nombre del creador de un documento.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Los campos AUTOR obtienen sus resultados de la propiedad de documento incorporada llamada "Autor".
+// Los campos AUTOR obtienen sus resultados de la propiedad incorporada del documento llamada "Autor".
 // Si creamos y guardamos un documento en Microsoft Word,
 // tendrá nuestro nombre de usuario en esa propiedad.
-// Sin embargo, si creamos un documento programáticamente usando Aspose.Words,
-  // la propiedad "Autor", por defecto, será una cadena vacía.
+// Sin embargo, si creamos un documento mediante programación usando Aspose.Words,
+// la propiedad "Autor", por defecto, será una cadena vacía.
 Assert.AreEqual(string.Empty, doc.BuiltInDocumentProperties.Author);
 
-// Establecer un nombre de autor de respaldo para los campos AUTHOR para usar
+// Establece un nombre de autor de copia de seguridad para que se utilicen los campos AUTOR
 // si la propiedad "Autor" contiene una cadena vacía.
 doc.FieldOptions.DefaultDocumentAuthor = "Joe Bloggs";
 
@@ -40,11 +40,11 @@ field.Update();
 Assert.AreEqual(" AUTHOR ", field.GetFieldCode());
 Assert.AreEqual("Joe Bloggs", field.Result);
 
-// Actualizar un campo AUTOR que contiene un valor
-// aplicará ese valor a la propiedad integrada "Autor".
+// Actualizando un campo AUTOR que contiene un valor
+// aplicará ese valor a la propiedad incorporada "Autor".
 Assert.AreEqual("Joe Bloggs", doc.BuiltInDocumentProperties.Author);
 
-// Al cambiar esta propiedad y luego actualizar el campo AUTOR, se aplicará este valor al campo.
+// Cambiar esta propiedad y luego actualizar el campo AUTOR aplicará este valor al campo.
 doc.BuiltInDocumentProperties.Author = "John Doe";      
 field.Update();
 
@@ -52,7 +52,7 @@ Assert.AreEqual(" AUTHOR ", field.GetFieldCode());
 Assert.AreEqual("John Doe", field.Result);
 
 // Si actualizamos un campo AUTOR después de cambiar su propiedad "Nombre",
-// entonces el campo mostrará el nuevo nombre y aplicará el nuevo nombre a la propiedad integrada.
+// luego el campo mostrará el nuevo nombre y aplicará el nuevo nombre a la propiedad incorporada.
 field.AuthorName = "Jane Doe";
 field.Update();
 

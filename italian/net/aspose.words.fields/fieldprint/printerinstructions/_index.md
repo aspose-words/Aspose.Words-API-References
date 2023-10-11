@@ -24,7 +24,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Write("My paragraph");
 
-// Il campo STAMPA può inviare istruzioni alla stampante.
+// Il campo PRINT può inviare istruzioni alla stampante.
 FieldPrint field = (FieldPrint)builder.InsertField(FieldType.FieldPrint, true);
 
 // Imposta l'area su cui la stampante esegue le istruzioni.

@@ -1,14 +1,14 @@
 ---
 title: FontSettings.SetFontsFolders
 second_title: Aspose.Words لمراجع .NET API
-description: FontSettings طريقة. يضبط المجلدات حيث يبحث Aspose.Words عن خطوط TrueType عند عرض المستندات أو تضمين الخطوط.
+description: FontSettings طريقة. يقوم بتعيين المجلدات التي يبحث فيها Aspose.Words عن خطوط TrueType عند عرض المستندات أو تضمين الخطوط.
 type: docs
 weight: 90
 url: /ar/net/aspose.words.fonts/fontsettings/setfontsfolders/
 ---
 ## FontSettings.SetFontsFolders method
 
-يضبط المجلدات حيث يبحث Aspose.Words عن خطوط TrueType عند عرض المستندات أو تضمين الخطوط.
+يقوم بتعيين المجلدات التي يبحث فيها Aspose.Words عن خطوط TrueType عند عرض المستندات أو تضمين الخطوط.
 
 ```csharp
 public void SetFontsFolders(string[] fontsFolders, bool recursive)
@@ -16,12 +16,12 @@ public void SetFontsFolders(string[] fontsFolders, bool recursive)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| fontsFolders | String[] | صفيف من المجلدات التي تحتوي على خطوط تروتايب. |
-| recursive | Boolean | صحيح أن تفحص المجلدات المحددة بحثًا عن الخطوط بشكل متكرر. |
+| fontsFolders | String[] | مجموعة من المجلدات التي تحتوي على خطوط TrueType. |
+| recursive | Boolean | صحيح لفحص المجلدات المحددة بحثًا عن الخطوط بشكل متكرر. |
 
 ### ملاحظات
 
-بشكل افتراضي ، يبحث Aspose.Words عن الخطوط المثبتة على النظام.
+افتراضيًا، يبحث Aspose.Words عن الخطوط المثبتة على النظام.
 
 يؤدي تعيين هذه الخاصية إلى إعادة تعيين ذاكرة التخزين المؤقت لجميع الخطوط التي تم تحميلها مسبقًا.
 
@@ -39,22 +39,22 @@ builder.Font.Name = "Junction Light";
 builder.Writeln("The quick brown fox jumps over the lazy dog.");
 
 // لا تحتوي مصادر الخطوط لدينا على الخط الذي استخدمناه للنص في هذا المستند.
-// إذا استخدمنا إعدادات الخط هذه أثناء تقديم هذا المستند ،
-// Aspose.Words ستطبق خطًا احتياطيًا على النص الذي يحتوي على خط لا يمكن لـ Aspose.Words تحديد مكانه.
+// إذا استخدمنا إعدادات الخط هذه أثناء عرض هذا المستند،
+// سيقوم Aspose.Words بتطبيق خط احتياطي على النص الذي يحتوي على خط لا يمكن لـ Aspose.Words تحديد موقعه.
 FontSourceBase[] originalFontSources = FontSettings.DefaultInstance.GetFontsSources();
 
 Assert.AreEqual(1, originalFontSources.Length);
 Assert.True(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arial"));
 
-// تفتقد مصادر الخطوط الافتراضية إلى الخطين اللذين نستخدمهما في هذا المستند.
+// مصادر الخطوط الافتراضية تفتقد الخطين اللذين نستخدمهما في هذا المستند.
 Assert.False(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Amethysta"));
 Assert.False(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Junction Light"));
 
-// استخدم طريقة "SetFontsFolders" لإنشاء مصدر خط من كل دليل خط نقوم بتمريره باعتباره الوسيطة الأولى.
-// تمرير "خطأ" كوسيطة "متكررة" لتضمين الخطوط من كافة ملفات الخطوط الموجودة في الدلائل
-// أننا نمرر في الوسيطة الأولى ، لكن لا نقوم بتضمين أي خطوط من أي من المجلدات الفرعية للمجلدات.
-// قم بتمرير "true" باعتباره الوسيطة "العودية" لتضمين جميع ملفات الخطوط في الدلائل التي نقوم بتمريرها
-// في الوسيطة الأولى ، بالإضافة إلى جميع الخطوط في الدلائل الفرعية الخاصة بهم.
+// استخدم طريقة "SetFontsFolders" لإنشاء مصدر خط من كل دليل خطوط نمرره كوسيطة أولى.
+// قم بتمرير "خطأ" كوسيطة "متكررة" لتضمين الخطوط من جميع ملفات الخطوط الموجودة في الدلائل
+// أننا نمرر الوسيطة الأولى، ولكن لا نضمن أي خطوط من أي من المجلدات الفرعية للمجلدات.
+// قم بتمرير "صحيح" كوسيطة "متكررة" لتضمين جميع ملفات الخطوط في الأدلة التي نمررها
+// في الوسيطة الأولى، وكذلك جميع الخطوط الموجودة في أدلةها الفرعية.
 FontSettings.DefaultInstance.SetFontsFolders(new[] {FontsDir + "/Amethysta", FontsDir + "/Junction"},
     recursive);
 
@@ -65,7 +65,7 @@ Assert.False(newFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "A
 Assert.AreEqual(1, newFontSources[0].GetAvailableFonts().Count);
 Assert.True(newFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Amethysta"));
 
-// لا يحتوي مجلد "Junction" نفسه على ملفات خطوط ، ولكنه يحتوي على مجلدات فرعية تعمل.
+// لا يحتوي المجلد "Junction" نفسه على ملفات خطوط، ولكنه يحتوي على مجلدات فرعية تقوم بذلك.
 if (recursive)
 {
     Assert.AreEqual(6, newFontSources[1].GetAvailableFonts().Count);
@@ -78,7 +78,7 @@ else
 
 doc.Save(ArtifactsDir + "FontSettings.SetFontsFolders.pdf");
 
-// استعادة مصادر الخط الأصلية.
+// استعادة مصادر الخط الأصلي.
 FontSettings.DefaultInstance.SetFontsSources(originalFontSources);
 ```
 

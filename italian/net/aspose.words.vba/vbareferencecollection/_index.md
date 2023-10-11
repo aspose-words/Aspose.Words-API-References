@@ -3,12 +3,14 @@ title: Class VbaReferenceCollection
 second_title: Aspose.Words per .NET API Reference
 description: Aspose.Words.Vba.VbaReferenceCollection classe. Rappresenta una raccolta diVbaReference oggetti.
 type: docs
-weight: 6290
+weight: 6600
 url: /it/net/aspose.words.vba/vbareferencecollection/
 ---
 ## VbaReferenceCollection class
 
 Rappresenta una raccolta di[`VbaReference`](../vbareference/) oggetti.
+
+Per saperne di più, visita il[Lavorare con le macro VBA](https://docs.aspose.com/words/net/working-with-vba-macros/) articolo di documentazione.
 
 ```csharp
 public sealed class VbaReferenceCollection : IEnumerable<VbaReference>
@@ -25,15 +27,14 @@ public sealed class VbaReferenceCollection : IEnumerable<VbaReference>
 
 | Nome | Descrizione |
 | --- | --- |
-| [Remove](../../aspose.words.vba/vbareferencecollection/remove/)(VbaReference) | Rimuove la prima occorrenza di un elemento VbaReference specificato dalla raccolta. |
-| [RemoveAt](../../aspose.words.vba/vbareferencecollection/removeat/)(int) | Rimuove l'elemento VbaReference in corrispondenza dell'indice specificato della raccolta. |
+| [Remove](../../aspose.words.vba/vbareferencecollection/remove/)(VbaReference) | Rimuove la prima occorrenza di un valore specificato[`VbaReference`](../vbareference/) elemento della collezione. |
+| [RemoveAt](../../aspose.words.vba/vbareferencecollection/removeat/)(int) | Rimuove il[`VbaReference`](../vbareference/) elemento all'indice specificato della raccolta. |
 
 ### Esempi
 
 Mostra come ottenere/rimuovere un elemento dalla raccolta di riferimenti VBA.
 
 ```csharp
-[Test]
 public void RemoveVbaReference()
 {
     const string brokenPath = @"X:\broken.dll";
@@ -59,7 +60,7 @@ public void RemoveVbaReference()
 }
 
 /// <summary>
-/// Restituisce una stringa che rappresenta il percorso LibId di un riferimento specificato. 
+ /// Restituisce la stringa che rappresenta il percorso LibId di un riferimento specificato.
 /// </summary>
 private static string GetLibIdPath(VbaReference reference)
 {

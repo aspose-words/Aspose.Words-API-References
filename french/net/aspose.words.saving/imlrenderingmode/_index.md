@@ -1,14 +1,14 @@
 ---
 title: Enum ImlRenderingMode
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Saving.ImlRenderingMode énumération. Spécifie comment les objets dencre InkML sont rendus aux formats de page fixes.
+description: Aspose.Words.Saving.ImlRenderingMode énumération. Spécifie comment les objets Ink InkML sont rendus dans des formats de page fixes.
 type: docs
-weight: 4990
+weight: 5250
 url: /fr/net/aspose.words.saving/imlrenderingmode/
 ---
 ## ImlRenderingMode enumeration
 
-Spécifie comment les objets d'encre (InkML) sont rendus aux formats de page fixes.
+Spécifie comment les objets Ink (InkML) sont rendus dans des formats de page fixes.
 
 ```csharp
 public enum ImlRenderingMode
@@ -18,17 +18,17 @@ public enum ImlRenderingMode
 
 | Nom | Évaluer | La description |
 | --- | --- | --- |
-| Fallback | `0` | Si la forme de repli est disponible pour l'objet d'encre (InkML), Aspose.Words rend la forme de repli au lieu de InkML. |
-| InkML | `1` | Aspose.Words ignore la forme de repli de l'objet d'encre (InkML) et rend InkML lui-même. Il s'agit du mode par défaut. |
+| Fallback | `0` | Si une forme de secours est disponible pour l'objet Ink (InkML), Aspose.Words restitue la forme de secours au lieu de InkML. |
+| InkML | `1` | Aspose.Words ignore la forme de repli de l'objet Ink (InkML) et restitue InkML lui-même. Il s'agit du mode par défaut. |
 
 ### Exemples
 
-Montre comment rendre l'objet Ink.
+Montre comment restituer un objet Ink.
 
 ```csharp
 Document doc = new Document(MyDir + "Ink object.docx");
 
-// Set 'ImlRenderingMode.InkML' ignore la forme de repli de l'objet d'encre (InkML) et rend InkML lui-même.
+// Définir 'ImlRenderingMode.InkML' ignore la forme de repli de l'objet Ink (InkML) et restitue InkML lui-même.
 // Si le résultat du rendu n'est pas satisfaisant,
 // veuillez utiliser 'ImlRenderingMode.Fallback' pour obtenir un résultat similaire aux versions précédentes.
 ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.Jpeg)

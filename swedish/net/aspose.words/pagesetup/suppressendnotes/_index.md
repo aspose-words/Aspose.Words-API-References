@@ -1,14 +1,14 @@
 ---
 title: PageSetup.SuppressEndnotes
 second_title: Aspose.Words för .NET API Referens
-description: PageSetup fast egendom. Sann om slutnoter skrivs ut i slutet av nästa avsnitt som inte undertrycker slutnoter. Undertryckta slutnoter skrivs ut före slutnoterna i det avsnittet.
+description: PageSetup fast egendom. True om slutnoter skrivs ut i slutet av nästa avsnitt som inte undertrycker slutnoter. Undertryckta slutnoter skrivs ut före slutnoterna i det avsnittet.
 type: docs
-weight: 400
+weight: 410
 url: /sv/net/aspose.words/pagesetup/suppressendnotes/
 ---
 ## PageSetup.SuppressEndnotes property
 
-**Sann** om slutnoter skrivs ut i slutet av nästa avsnitt som inte undertrycker slutnoter. Undertryckta slutnoter skrivs ut före slutnoterna i det avsnittet.
+True om slutnoter skrivs ut i slutet av nästa avsnitt som inte undertrycker slutnoter. Undertryckta slutnoter skrivs ut före slutnoterna i det avsnittet.
 
 ```csharp
 public bool SuppressEndnotes { get; set; }
@@ -19,11 +19,12 @@ public bool SuppressEndnotes { get; set; }
 Visar hur man lagrar slutnoter i slutet av varje avsnitt och ändrar deras positioner.
 
 ```csharp
+public void SuppressEndnotes()
 {
     Document doc = new Document();
     doc.RemoveAllChildren();
 
-      // Som standard kompilerar ett dokument alla slutnoter i slutet.
+     // Som standard kompilerar ett dokument alla slutnoter i slutet.
     Assert.AreEqual(EndnotePosition.EndOfDocument, doc.EndnoteOptions.Position);
 
     // Vi använder egenskapen "Position" för dokumentets "EndnoteOptions"-objekt
@@ -41,6 +42,7 @@ Visar hur man lagrar slutnoter i slutet av varje avsnitt och ändrar deras posit
     pageSetup.SuppressEndnotes = true;
 
     doc.Save(ArtifactsDir + "PageSetup.SuppressEndnotes.docx");
+}
 
 /// <summary>
 /// Lägg till ett avsnitt med text och en slutnot till ett dokument.

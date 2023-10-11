@@ -1,14 +1,14 @@
 ---
 title: ImageSavingArgs.ImageStream
 second_title: Aspose.Words for .NET API Referansı
-description: ImageSavingArgs mülk. Resmin kaydedileceği akışı belirlemeye izin verir.
+description: ImageSavingArgs mülk. Görüntünün kaydedileceği akışı belirtmeye izin verir.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.saving/imagesavingargs/imagestream/
 ---
 ## ImageSavingArgs.ImageStream property
 
-Resmin kaydedileceği akışı belirlemeye izin verir.
+Görüntünün kaydedileceği akışı belirtmeye izin verir.
 
 ```csharp
 public Stream ImageStream { get; set; }
@@ -16,21 +16,22 @@ public Stream ImageStream { get; set; }
 
 ### Notlar
 
-Bu özellik, HTML sırasında dosyalar yerine görüntüleri akışlara kaydetmenize olanak tanır.
+Bu özellik, HTML sırasında görüntüleri dosyalar yerine akışlara kaydetmenize olanak tanır.
 
-Varsayılan değer`hükümsüz` . Bu özellik ne zaman`hükümsüz` , resmi, belirtilen bir dosyaya kaydedilecektir.[`ImageFileName`](../imagefilename/) Emlak.
+Varsayılan değer:`hükümsüz` . Bu özellik olduğunda`hükümsüz` görüntüsü, belirtilen dosyaya kaydedilecektir.[`ImageFileName`](../imagefilename/) mülk.
 
-kullanma[`IImageSavingCallback`](../../iimagesavingcallback/) bir resmi başka bir ile değiştiremezsiniz. Yalnızca görüntülerin kaydedileceği konumun kontrolü için tasarlanmıştır.
+Kullanma[`IImageSavingCallback`](../../iimagesavingcallback/) bir resmi başka bir resimle değiştiremezsiniz. Yalnızca görüntülerin kaydedileceği konumu kontrol etmek için tasarlanmıştır.
 
 ### Örnekler
 
-Bir HTML dönüştürme işlemine bir resim kaydetme geri aramasının nasıl dahil edileceğini gösterir.
+Görüntü kaydetme geri aramasının HTML dönüştürme sürecine nasıl dahil edileceğini gösterir.
 
 ```csharp
+public void ImageSavingCallback()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
-    // Belgeyi HTML'ye kaydettiğimizde, bir geri arama atamak için bir SaveOptions nesnesi iletebiliriz
+    // Belgeyi HTML'ye kaydettiğimizde, bir geri çağrıyı belirtmek için SaveOptions nesnesini iletebiliriz
     // görüntü kaydetme işlemini özelleştirmek için.
     HtmlSaveOptions options = new HtmlSaveOptions();
     options.ImageSavingCallback = new ImageShapePrinter();

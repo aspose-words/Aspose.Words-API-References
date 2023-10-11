@@ -1,14 +1,14 @@
 ---
 title: FindReplaceOptions.ApplyFont
 second_title: Aspose.Words for .NET API Referansı
-description: FindReplaceOptions mülk. Yeni içeriğe metin biçimlendirme uygulandı.
+description: FindReplaceOptions mülk. Yeni içeriğe uygulanan metin formatı.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.replacing/findreplaceoptions/applyfont/
 ---
 ## FindReplaceOptions.ApplyFont property
 
-Yeni içeriğe metin biçimlendirme uygulandı.
+Yeni içeriğe uygulanan metin formatı.
 
 ```csharp
 public Font ApplyFont { get; }
@@ -19,6 +19,7 @@ public Font ApplyFont { get; }
 FindReplaceOptions aracılığıyla yeni içeriğe farklı bir yazı tipinin nasıl uygulanacağını gösterir.
 
 ```csharp
+public void ConvertNumbersToHexadecimal()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -30,7 +31,7 @@ FindReplaceOptions aracılığıyla yeni içeriğe farklı bir yazı tipinin nas
     // Bul ve değiştir işlemini değiştirmek için bir "FindReplaceOptions" nesnesi kullanabiliriz.
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // "HighlightColor" özelliğini, işlemin sonuç metnine uygulamak istediğimiz bir arka plan rengine ayarlayın.
+    // "HighlightColor" özelliğini, işlemin sonuç metnine uygulamak istediğimiz arka plan rengine ayarlayın.
     options.ApplyFont.HighlightColor = Color.LightGray;
 
     NumberHexer numberHexer = new NumberHexer();
@@ -48,8 +49,8 @@ FindReplaceOptions aracılığıyla yeni içeriğe farklı bir yazı tipinin nas
 }
 
 /// <summary>
-/// Sayısal bul ve değiştir eşleşmelerini onaltılık eşdeğerleriyle değiştirir.
-/// Her değiştirmenin bir günlüğünü tutar.
+/// Sayısal bulma ve değiştirme eşleşmelerini onaltılık eşdeğerleriyle değiştirir.
+/// Her değişimin kaydını tutar.
 /// </summary>
 private class NumberHexer : IReplacingCallback
 {

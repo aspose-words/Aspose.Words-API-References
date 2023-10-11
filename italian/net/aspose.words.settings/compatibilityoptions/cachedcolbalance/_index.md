@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.CachedColBalance
 second_title: Aspose.Words per .NET API Reference
-description: CompatibilityOptions proprietà. Usa le informazioni di paragrafo memorizzate nella cache per il bilanciamento delle colonne.
+description: CompatibilityOptions proprietà. Utilizza le informazioni sui paragrafi memorizzate nella cache per il bilanciamento delle colonne.
 type: docs
 weight: 80
 url: /it/net/aspose.words.settings/compatibilityoptions/cachedcolbalance/
 ---
 ## CompatibilityOptions.CachedColBalance property
 
-Usa le informazioni di paragrafo memorizzate nella cache per il bilanciamento delle colonne.
+Utilizza le informazioni sui paragrafi memorizzate nella cache per il bilanciamento delle colonne.
 
 ```csharp
 public bool CachedColBalance { get; set; }

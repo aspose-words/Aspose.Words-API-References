@@ -30,11 +30,11 @@ DefaultFontSubstitutionRule defaultFontSubstitutionRule =
 Assert.True(defaultFontSubstitutionRule.Enabled);
 Assert.AreEqual("Times New Roman", defaultFontSubstitutionRule.DefaultFontName);
 
-// Définit le substitut de police par défaut sur "Courier New".
+// Définissez le substitut de police par défaut sur "Courier New".
 defaultFontSubstitutionRule.DefaultFontName = "Courier New";
 
-// A l'aide d'un constructeur de document, ajoutez du texte dans une police dont nous n'avons pas besoin pour voir la substitution se produire,
-// puis affichez le résultat dans un PDF.
+// A l'aide d'un générateur de documents, on ajoute du texte dans une police dont on n'est pas obligé pour voir la substitution s'effectuer,
+// puis affiche le résultat dans un PDF.
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Font.Name = "Missing Font";

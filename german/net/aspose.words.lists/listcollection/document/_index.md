@@ -1,14 +1,14 @@
 ---
 title: ListCollection.Document
 second_title: Aspose.Words für .NET-API-Referenz
-description: ListCollection eigendom. Ruft das Besitzerdokument ab.
+description: ListCollection eigendom. Ruft das Eigentümerdokument ab.
 type: docs
 weight: 20
 url: /de/net/aspose.words.lists/listcollection/document/
 ---
 ## ListCollection.Document property
 
-Ruft das Besitzerdokument ab.
+Ruft das Eigentümerdokument ab.
 
 ```csharp
 public DocumentBase Document { get; }
@@ -16,17 +16,15 @@ public DocumentBase Document { get; }
 
 ### Beispiele
 
-Zeigt, wie Eigentümerdokumenteigenschaften von Listen überprüft werden.
+Zeigt, wie Besitzerdokumenteigenschaften von Listen überprüft werden.
 
 ```csharp
 Document doc = new Document();
 
 ListCollection lists = doc.Lists;
-
 Assert.AreEqual(doc, lists.Document);
 
 List list = lists.Add(ListTemplate.BulletDefault);
-
 Assert.AreEqual(doc, list.Document);
 
 Console.WriteLine("Current list count: " + lists.Count);

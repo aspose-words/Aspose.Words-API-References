@@ -16,7 +16,7 @@ public bool IsLinkToContent { get; }
 
 ### 例子
 
-显示如何将自定义文档属性链接到书签。
+演示如何将自定义文档属性链接到书签。
 
 ```csharp
 Document doc = new Document();
@@ -26,7 +26,7 @@ builder.StartBookmark("MyBookmark");
 builder.Write("Hello world!");
 builder.EndBookmark("MyBookmark");
 
-// 将新的自定义属性链接到书签。该物业的价值
+// 将新的自定义属性链接到书签。该房产的价值
 // 将是它在“LinkSource”成员中引用的书签的内容。
 CustomDocumentProperties customProperties = doc.CustomDocumentProperties;
 DocumentProperty customProperty = customProperties.AddLinkToContent("Bookmark", "MyBookmark");

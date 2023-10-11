@@ -1,14 +1,14 @@
 ---
 title: MemoryFontSource.FontData
 second_title: Aspose.Words für .NET-API-Referenz
-description: MemoryFontSource eigendom. Binäre Schriftdaten.
+description: MemoryFontSource eigendom. Binäre Schriftartdaten.
 type: docs
 weight: 30
 url: /de/net/aspose.words.fonts/memoryfontsource/fontdata/
 ---
 ## MemoryFontSource.FontData property
 
-Binäre Schriftdaten.
+Binäre Schriftartdaten.
 
 ```csharp
 public byte[] FontData { get; }
@@ -16,7 +16,7 @@ public byte[] FontData { get; }
 
 ### Beispiele
 
-Zeigt, wie ein Bytearray mit Daten aus einer Schriftartdatei als Schriftartquelle verwendet wird.
+Zeigt, wie ein Byte-Array mit Daten aus einer Schriftartdatei als Schriftartquelle verwendet wird.
 
 ```csharp
 byte[] fontBytes = File.ReadAllBytes(MyDir + "Alte DIN 1451 Mittelschrift.ttf");

@@ -1,14 +1,16 @@
 ---
 title: Class ImageFieldMergingArgs
 second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.MailMerging.ImageFieldMergingArgs sınıf. için veri sağlarImageFieldMerging olay.
+description: Aspose.Words.MailMerging.ImageFieldMergingArgs sınıf. Şunun için veri sağlarImageFieldMerging olay.
 type: docs
-weight: 3610
+weight: 3830
 url: /tr/net/aspose.words.mailmerging/imagefieldmergingargs/
 ---
 ## ImageFieldMergingArgs class
 
-için veri sağlar[`ImageFieldMerging`](../ifieldmergingcallback/imagefieldmerging/) olay.
+Şunun için veri sağlar:[`ImageFieldMerging`](../ifieldmergingcallback/imagefieldmerging/) olay.
+
+Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Adres Mektup Birleştirme ve Raporlama](https://docs.aspose.com/words/net/mail-merge-and-reporting/) dokümantasyon makalesi.
 
 ```csharp
 public class ImageFieldMergingArgs : FieldMergingArgsBase
@@ -18,27 +20,27 @@ public class ImageFieldMergingArgs : FieldMergingArgsBase
 
 | İsim | Tanım |
 | --- | --- |
-| [Document](../../aspose.words.mailmerging/fieldmergingargsbase/document/) { get; } | [`Document`](../fieldmergingargsbase/document/) adres mektup birleştirmenin gerçekleştirildiği nesne. |
+| [Document](../../aspose.words.mailmerging/fieldmergingargsbase/document/) { get; } | Şunu döndürür:[`Document`](../fieldmergingargsbase/document/) Adres-mektup birleştirmenin gerçekleştirildiği nesne. |
 | [DocumentFieldName](../../aspose.words.mailmerging/fieldmergingargsbase/documentfieldname/) { get; } | Belgede belirtildiği gibi birleştirme alanının adını alır. |
 | [Field](../../aspose.words.mailmerging/fieldmergingargsbase/field/) { get; } | Geçerli birleştirme alanını temsil eden nesneyi alır. |
 | [FieldName](../../aspose.words.mailmerging/fieldmergingargsbase/fieldname/) { get; } | Veri kaynağındaki birleştirme alanının adını alır. |
-| [FieldValue](../../aspose.words.mailmerging/fieldmergingargsbase/fieldvalue/) { get; set; } | Veri kaynağından alanın değerini alır veya ayarlar. |
-| [Image](../../aspose.words.mailmerging/imagefieldmergingargs/image/) { get; set; } | Adres mektup birleştirme motorunun belgeye eklemesi gereken resmi belirtir. |
-| [ImageFileName](../../aspose.words.mailmerging/imagefieldmergingargs/imagefilename/) { get; set; } | Adres mektup birleştirme motorunun belgeye eklemesi gereken görüntünün dosya adını ayarlar. |
-| [ImageHeight](../../aspose.words.mailmerging/imagefieldmergingargs/imageheight/) { get; set; } | Resmin belgeye ekleneceği resim yüksekliğini belirtir. |
-| [ImageStream](../../aspose.words.mailmerging/imagefieldmergingargs/imagestream/) { get; set; } | Adres mektup birleştirme motorunun bir görüntüyü okuması için akışı belirtir. |
-| [ImageWidth](../../aspose.words.mailmerging/imagefieldmergingargs/imagewidth/) { get; set; } | Resmin belgeye ekleneceği resim genişliğini belirtir. |
-| [RecordIndex](../../aspose.words.mailmerging/fieldmergingargsbase/recordindex/) { get; } | Birleştirilmekte olan kaydın sıfır tabanlı dizinini alır. |
-| [Shape](../../aspose.words.mailmerging/imagefieldmergingargs/shape/) { get; set; } | Adres mektup birleştirme motorunun belgeye eklemesi gereken şekli belirtir. |
-| [TableName](../../aspose.words.mailmerging/fieldmergingargsbase/tablename/) { get; } | Geçerli birleştirme işlemi için veri tablosunun adını veya ad yoksa boş dize adını alır. |
+| [FieldValue](../../aspose.words.mailmerging/fieldmergingargsbase/fieldvalue/) { get; set; } | Alanın değerini veri kaynağından alır veya ayarlar. |
+| [Image](../../aspose.words.mailmerging/imagefieldmergingargs/image/) { get; set; } | Adres-mektup birleştirme motorunun belgeye eklemesi gereken resmi belirtir. |
+| [ImageFileName](../../aspose.words.mailmerging/imagefieldmergingargs/imagefilename/) { get; set; } | Adres-mektup birleştirme motorunun belgeye eklemesi gereken resmin dosya adını ayarlar. |
+| [ImageHeight](../../aspose.words.mailmerging/imagefieldmergingargs/imageheight/) { get; set; } | Belgeye eklenecek görüntünün görüntü yüksekliğini belirtir. |
+| [ImageStream](../../aspose.words.mailmerging/imagefieldmergingargs/imagestream/) { get; set; } | Adres-mektup birleştirme motorunun bir görüntüyü okuyacağı akışı belirtir. |
+| [ImageWidth](../../aspose.words.mailmerging/imagefieldmergingargs/imagewidth/) { get; set; } | Belgeye eklenecek görüntünün görüntü genişliğini belirtir. |
+| [RecordIndex](../../aspose.words.mailmerging/fieldmergingargsbase/recordindex/) { get; } | Birleştirilecek kaydın sıfır tabanlı dizinini alır. |
+| [Shape](../../aspose.words.mailmerging/imagefieldmergingargs/shape/) { get; set; } | Adres-mektup birleştirme motorunun belgeye eklemesi gereken şekli belirtir. |
+| [TableName](../../aspose.words.mailmerging/fieldmergingargsbase/tablename/) { get; } | Geçerli birleştirme işlemi için veri tablosunun adını veya ad mevcut değilse boş dizeyi alır. |
 
 ### Notlar
 
-Bu olay, adres mektup birleştirme sırasında belgede bir resim adres mektup birleştirme alanıyla karşılaşıldığında meydana gelir. a dosya adı, akış veya bir dosya adı döndürmek için bu etkinliğe yanıt verebilirsiniz.Image belgeye eklenmesi için adres mektup birleştirme motoruna itiraz edin.
+Bu olay, adres-mektup birleştirme sırasında, belgede bir resim adres-mektup birleştirme alanıyla karşılaşıldığında meydana gelir. a dosya adını, akışını veya bir akışını döndürmek için bu etkinliğe yanıt verebilirsiniz.Image adres-mektup birleştirme motoruna itiraz ederek belgeye eklenmesini sağlayın.
 
-Mevcut üç mülk var[`ImageFileName`](./imagefilename/) , [`ImageStream`](./imagestream/) ve[`Image`](./image/) görüntünün nereden alınması gerektiğini belirtmek için. Bu özelliklerden yalnızca birini ayarlayın.
+Üç mülk mevcut[`ImageFileName`](./imagefilename/) , [`ImageStream`](./imagestream/) Ve[`Image`](./image/) görüntünün nereden alınması gerektiğini belirtmek için. Bu özelliklerden yalnızca birini ayarlayın.
 
-Word'de bir belgeye görüntü adres mektup birleştirme alanı eklemek için Ekle/Alan komutu, öğesini seçin, ardından MergeField öğesini seçin ve Görüntü:AlanAdı yazın.
+Word'deki bir belgeye resim adres-mektup birleştirme alanı eklemek için Ekle/Alan komutunu seçin, ardından MergeField'ı seçin ve Resim:AlanAdım yazın.
 
 ### Örnekler
 
@@ -51,14 +53,14 @@ public void ImageFromBlob()
 
     doc.MailMerge.FieldMergingCallback = new HandleMergeImageFieldFromBlob();
 
-    string connString = $"Provider=Microsoft.Jet.OLEDB.4.0;Data Source={DatabaseDir + "Northwind.mdb"};";
+    string connString = $"Provider=Microsoft.ACE.OLEDB.12.0;Data Source={DatabaseDir + "Northwind.accdb"};";
     string query = "SELECT FirstName, LastName, Title, Address, City, Region, Country, PhotoBLOB FROM Employees";
 
     using (OleDbConnection conn = new OleDbConnection(connString))
     {
         conn.Open();
 
-        // Tüm kayıtları bir kerede okuyan bir modda olması gereken veri okuyucuyu açın.
+        // Tüm kayıtları aynı anda okuyacak modda olması gereken veri okuyucuyu açın.
         OleDbCommand cmd = new OleDbCommand(query, conn);
         IDataReader dataReader = cmd.ExecuteReader();
 
@@ -66,6 +68,7 @@ public void ImageFromBlob()
     }
 
     doc.Save(ArtifactsDir + "MailMergeEvent.ImageFromBlob.docx");
+}
 
 private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
 {
@@ -75,7 +78,7 @@ private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
     }
 
     /// <summary>
-    /// Adres mektup birleştirme, belgede adında "Image:" etiketi olan bir MERGEFIELD ile karşılaştığında çağrılır.
+    /// Adres-mektup birleştirme, belgede adında "Image:" etiketi bulunan bir MERGEFIELD ile karşılaştığında çağrılır.
     /// </summary>
     void IFieldMergingCallback.ImageFieldMerging(ImageFieldMergingArgs e)
     {
@@ -85,18 +88,19 @@ private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
 }
 ```
 
-Adres mektup birleştirme sırasında MERGEFIELDS tarafından kabul edildiğinden resimlerin boyutlarının nasıl ayarlanacağını gösterir.
+Adres-mektup birleştirme sırasında MERGEFIELDS'in kabul ettiği görüntülerin boyutlarının nasıl ayarlanacağını gösterir.
 
 ```csharp
+public void MergeFieldImageDimension()
 {
     Document doc = new Document();
 
-    // Adres mektup birleştirme sırasında bir kaynaktan görüntüleri kabul edecek bir MERGEFIELD ekleyin. Referans için alan kodunu kullanın
-    // adres mektup birleştirmede kullanmak istediğimiz görüntülerin yerel sistem dosya adlarını içeren veri kaynağındaki bir sütun.
+    // Adres-mektup birleştirme sırasında bir kaynaktan gelen görüntüleri kabul edecek bir MERGEFIELD ekleyin. Referans vermek için alan kodunu kullanın
+    // adres-mektup birleştirmede kullanmak istediğimiz görüntülerin yerel sistem dosya adlarını içeren veri kaynağındaki bir sütun.
     DocumentBuilder builder = new DocumentBuilder(doc);
     FieldMergeField field = (FieldMergeField)builder.InsertField("MERGEFIELD Image:ImageColumn");
 
-    // Veri kaynağının "ImageColumn" adında böyle bir sütunu olmalıdır.
+    // Veri kaynağında "ImageColumn" adında bir sütun bulunmalıdır.
     Assert.AreEqual("Image:ImageColumn", field.FieldName);
 
     // Uygun bir veri kaynağı oluşturun.
@@ -106,15 +110,16 @@ Adres mektup birleştirme sırasında MERGEFIELDS tarafından kabul edildiğinde
     dataTable.Rows.Add(ImageDir + "Transparent background logo.png");
     dataTable.Rows.Add(ImageDir + "Enhanced Windows MetaFile.emf");
 
-    // Birleştirme sırasında görüntülerin boyutlarını değiştirmek için bir geri arama yapılandırın, ardından adres mektup birleştirmeyi yürütün.
+    // Birleştirme sırasında görüntülerin boyutlarını değiştirmek için bir geri arama yapılandırın, ardından adres-mektup birleştirmeyi yürütün.
     doc.MailMerge.FieldMergingCallback = new MergedImageResizer(200, 200, MergeFieldImageDimensionUnit.Point);
     doc.MailMerge.Execute(dataTable);
 
     doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.MERGEFIELD.ImageDimension.docx");
+}
 
 /// <summary>
-/// Tüm postayla birleştirilmiş resimlerin boyutunu, tanımlanmış bir genişlik ve yüksekliğe ayarlar.
+/// Adres-postayla birleştirilmiş tüm görsellerin boyutunu tanımlanmış tek bir genişliğe ve yüksekliğe ayarlar.
 /// </summary>
 private class MergedImageResizer : IFieldMergingCallback
 {

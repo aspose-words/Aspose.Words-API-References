@@ -1,14 +1,14 @@
 ---
 title: ParagraphFormat.NoSpaceBetweenParagraphsOfSameStyle
 second_title: Referencia de API de Aspose.Words para .NET
-description: ParagraphFormat propiedad. Cuando es ciertoSpaceBefore ySpaceAfter será ignorado entre los párrafos del mismo estilo.
+description: ParagraphFormat propiedad. cuandoverdadero SpaceBefore ySpaceAfter será ignorado entre los párrafos del mismo estilo.
 type: docs
-weight: 230
+weight: 240
 url: /es/net/aspose.words/paragraphformat/nospacebetweenparagraphsofsamestyle/
 ---
 ## ParagraphFormat.NoSpaceBetweenParagraphsOfSameStyle property
 
-Cuando es cierto,[`SpaceBefore`](../spacebefore/) y[`SpaceAfter`](../spaceafter/) será ignorado entre los párrafos del mismo estilo.
+cuando`verdadero` ,[`SpaceBefore`](../spacebefore/) y[`SpaceAfter`](../spaceafter/) será ignorado entre los párrafos del mismo estilo.
 
 ```csharp
 public bool NoSpaceBetweenParagraphsOfSameStyle { get; set; }
@@ -16,7 +16,7 @@ public bool NoSpaceBetweenParagraphsOfSameStyle { get; set; }
 
 ### Observaciones
 
-Esta configuración solo tiene efecto cuando se aplica a un estilo de párrafo. Si se aplica a un párrafo directamente, no tiene efecto.
+Esta configuración solo tiene efecto cuando se aplica a un estilo de párrafo. Si se aplica a un párrafo directamente, no tiene ningún efecto.
 
 ### Ejemplos
 
@@ -30,10 +30,10 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.ParagraphFormat.SpaceBefore = 24;
 builder.ParagraphFormat.SpaceAfter = 24;
 
-// Establecer el indicador "NoSpaceBetweenParagraphsOfSameStyle" en "true" para aplicar
-// sin espacio entre párrafos con el mismo estilo, lo que agrupará párrafos similares.
-// Deje el indicador "NoSpaceBetweenParagraphsOfSameStyle" como "falso"
-// para aplicar uniformemente el espaciado a cada párrafo.
+// Establece el indicador "NoSpaceBetweenParagraphsOfSameStyle" en "true" para aplicar
+// sin espacios entre párrafos con el mismo estilo, lo que agrupará párrafos similares.
+// Deja el indicador "NoSpaceBetweenParagraphsOfSameStyle" como "falso"
+// para aplicar espaciado uniformemente a cada párrafo.
 builder.ParagraphFormat.NoSpaceBetweenParagraphsOfSameStyle = noSpaceBetweenParagraphsOfSameStyle;
 
 builder.ParagraphFormat.Style = doc.Styles["Normal"];

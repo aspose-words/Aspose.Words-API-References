@@ -1,14 +1,14 @@
 ---
 title: FormFieldCollection.Item
 second_title: Aspose.Words per .NET API Reference
-description: FormFieldCollection proprietà. Restituisce un campo modulo in corrispondenza dellindice specificato.
+description: FormFieldCollection proprietà. Restituisce un campo modulo allindice specificato.
 type: docs
 weight: 20
 url: /it/net/aspose.words.fields/formfieldcollection/item/
 ---
 ## FormFieldCollection indexer (1 of 2)
 
-Restituisce un campo modulo in corrispondenza dell'indice specificato.
+Restituisce un campo modulo all'indice specificato.
 
 ```csharp
 public FormField this[int index] { get; }
@@ -22,11 +22,11 @@ public FormField this[int index] { get; }
 
 L'indice è a base zero.
 
-Gli indici negativi sono consentiti e indicano l'accesso dal retro della raccolta. Ad esempio -1 indica l'ultimo elemento, -2 indica il penultimo e così via.
+Gli indici negativi sono consentiti e indicano l'accesso dal retro della raccolta. Ad esempio -1 significa l'ultimo elemento, -2 significa il penultimo e così via.
 
-Se l'indice è maggiore o uguale al numero di elementi nell'elenco, restituisce un riferimento nullo.
+Se indice è maggiore o uguale al numero di elementi nell'elenco, restituisce un riferimento null.
 
-Se l'indice è negativo e il suo valore assoluto è maggiore del numero di elementi nell'elenco, restituisce un riferimento nullo.
+Se indice è negativo e il suo valore assoluto è maggiore del numero di elementi nell'elenco, restituisce un riferimento null.
 
 ### Esempi
 
@@ -38,7 +38,7 @@ public void Visitor()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Usa un generatore di documenti per inserire una casella combinata.
+    // Utilizza un generatore di documenti per inserire una casella combinata.
     builder.Write("Choose a value from this combo box: ");
     FormField comboBox = builder.InsertComboBox("MyComboBox", new[] { "One", "Two", "Three" }, 0);
     comboBox.CalculateOnExit = true;
@@ -48,7 +48,7 @@ public void Visitor()
 
     builder.InsertBreak(BreakType.ParagraphBreak);
 
-    // Utilizza un generatore di documenti per inserire una casella di controllo.
+    // Utilizzare un generatore di documenti per inserire una casella di controllo.
     builder.Write("Click this check box to tick/untick it: ");
     FormField checkBox = builder.InsertCheckBox("MyCheckBox", false, 50);
     checkBox.IsCheckBoxExactSize = true;
@@ -62,7 +62,7 @@ public void Visitor()
 
     builder.InsertBreak(BreakType.ParagraphBreak);
 
-    // Usa un generatore di documenti per inserire il campo del modulo di immissione del testo.
+    // Utilizza un generatore di documenti per inserire il campo del modulo di input del testo.
     builder.Write("Enter text here: ");
     FormField textInput = builder.InsertTextInput("MyTextInput", TextFormFieldType.Regular, "", "Placeholder text", 50);
     textInput.EntryMacro = "EntryMacro";
@@ -73,13 +73,13 @@ public void Visitor()
     Assert.AreEqual(TextFormFieldType.Regular, textInput.TextInputType);
     Assert.AreEqual(50, textInput.MaxLength);
 
-    // Questa raccolta contiene tutti i nostri campi modulo.
+    // Questa raccolta contiene tutti i nostri campi del modulo.
     FormFieldCollection formFields = doc.Range.FormFields;
     Assert.AreEqual(3, formFields.Count);
 
-    // I campi mostrano i nostri campi del modulo. Possiamo vedere i loro codici di campo aprendo questo documento
+    // I campi mostrano i campi del modulo. Possiamo vedere i loro codici di campo aprendo questo documento
     // in Microsoft e premendo Alt + F9. Questi campi non hanno interruttori,
-    // e i membri dell'oggetto FormField governano completamente il contenuto dei loro campi modulo.
+    // e i membri dell'oggetto FormField governano completamente il contenuto dei campi del modulo.
     Assert.AreEqual(3, doc.Range.Fields.Count);
     Assert.AreEqual(" FORMDROPDOWN \u0001", doc.Range.Fields[0].GetFieldCode());
     Assert.AreEqual(" FORMCHECKBOX \u0001", doc.Range.Fields[1].GetFieldCode());
@@ -99,7 +99,7 @@ public void Visitor()
 }
 
 /// <summary>
-/// Implementazione del visitatore che stampa i dettagli dei campi del modulo che visita. 
+ /// Implementazione del visitatore che stampa i dettagli dei campi del modulo visitati.
 /// </summary>
 public class FormFieldVisitor : DocumentVisitor
 {
@@ -109,7 +109,7 @@ public class FormFieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando viene rilevato un nodo FormField nel documento.
+    /// Chiamato quando nel documento viene incontrato un nodo FormField.
     /// </summary>
     public override VisitorAction VisitFormField(FormField formField)
     {
@@ -135,12 +135,12 @@ public class FormFieldVisitor : DocumentVisitor
                 break;
         }
 
-        // Consenti al visitatore di continuare a visitare altri nodi.
+        // Lascia che il visitatore continui a visitare altri nodi.
         return VisitorAction.Continue;
     }
 
     /// <summary>
-    /// Aggiunge testo con caratteri di nuova riga all'output corrente.
+    /// Aggiunge testo di nuova riga con terminazione di caratteri all'output corrente.
     /// </summary>
     private void AppendLine(string text)
     {
@@ -148,7 +148,7 @@ public class FormFieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Ottiene il testo normale del documento accumulato dal visitatore.
+    /// Ottiene il testo semplice del documento accumulato dal visitatore.
     /// </summary>
     public string GetText()
     {
@@ -182,7 +182,7 @@ public FormField this[string bookmarkName] { get; }
 
 ### Osservazioni
 
-Restituisce null se non è possibile trovare il campo modulo con il nome del segnalibro specificato.
+Restituisce`nullo` se non è possibile trovare il campo modulo con il nome del segnalibro specificato.
 
 ### Esempi
 
@@ -194,7 +194,7 @@ public void Visitor()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Usa un generatore di documenti per inserire una casella combinata.
+    // Utilizza un generatore di documenti per inserire una casella combinata.
     builder.Write("Choose a value from this combo box: ");
     FormField comboBox = builder.InsertComboBox("MyComboBox", new[] { "One", "Two", "Three" }, 0);
     comboBox.CalculateOnExit = true;
@@ -204,7 +204,7 @@ public void Visitor()
 
     builder.InsertBreak(BreakType.ParagraphBreak);
 
-    // Utilizza un generatore di documenti per inserire una casella di controllo.
+    // Utilizzare un generatore di documenti per inserire una casella di controllo.
     builder.Write("Click this check box to tick/untick it: ");
     FormField checkBox = builder.InsertCheckBox("MyCheckBox", false, 50);
     checkBox.IsCheckBoxExactSize = true;
@@ -218,7 +218,7 @@ public void Visitor()
 
     builder.InsertBreak(BreakType.ParagraphBreak);
 
-    // Usa un generatore di documenti per inserire il campo del modulo di immissione del testo.
+    // Utilizza un generatore di documenti per inserire il campo del modulo di input del testo.
     builder.Write("Enter text here: ");
     FormField textInput = builder.InsertTextInput("MyTextInput", TextFormFieldType.Regular, "", "Placeholder text", 50);
     textInput.EntryMacro = "EntryMacro";
@@ -229,13 +229,13 @@ public void Visitor()
     Assert.AreEqual(TextFormFieldType.Regular, textInput.TextInputType);
     Assert.AreEqual(50, textInput.MaxLength);
 
-    // Questa raccolta contiene tutti i nostri campi modulo.
+    // Questa raccolta contiene tutti i nostri campi del modulo.
     FormFieldCollection formFields = doc.Range.FormFields;
     Assert.AreEqual(3, formFields.Count);
 
-    // I campi mostrano i nostri campi del modulo. Possiamo vedere i loro codici di campo aprendo questo documento
+    // I campi mostrano i campi del modulo. Possiamo vedere i loro codici di campo aprendo questo documento
     // in Microsoft e premendo Alt + F9. Questi campi non hanno interruttori,
-    // e i membri dell'oggetto FormField governano completamente il contenuto dei loro campi modulo.
+    // e i membri dell'oggetto FormField governano completamente il contenuto dei campi del modulo.
     Assert.AreEqual(3, doc.Range.Fields.Count);
     Assert.AreEqual(" FORMDROPDOWN \u0001", doc.Range.Fields[0].GetFieldCode());
     Assert.AreEqual(" FORMCHECKBOX \u0001", doc.Range.Fields[1].GetFieldCode());
@@ -255,7 +255,7 @@ public void Visitor()
 }
 
 /// <summary>
-/// Implementazione del visitatore che stampa i dettagli dei campi del modulo che visita. 
+ /// Implementazione del visitatore che stampa i dettagli dei campi del modulo visitati.
 /// </summary>
 public class FormFieldVisitor : DocumentVisitor
 {
@@ -265,7 +265,7 @@ public class FormFieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando viene rilevato un nodo FormField nel documento.
+    /// Chiamato quando nel documento viene incontrato un nodo FormField.
     /// </summary>
     public override VisitorAction VisitFormField(FormField formField)
     {
@@ -291,12 +291,12 @@ public class FormFieldVisitor : DocumentVisitor
                 break;
         }
 
-        // Consenti al visitatore di continuare a visitare altri nodi.
+        // Lascia che il visitatore continui a visitare altri nodi.
         return VisitorAction.Continue;
     }
 
     /// <summary>
-    /// Aggiunge testo con caratteri di nuova riga all'output corrente.
+    /// Aggiunge testo di nuova riga con terminazione di caratteri all'output corrente.
     /// </summary>
     private void AppendLine(string text)
     {
@@ -304,7 +304,7 @@ public class FormFieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Ottiene il testo normale del documento accumulato dal visitatore.
+    /// Ottiene il testo semplice del documento accumulato dal visitatore.
     /// </summary>
     public string GetText()
     {

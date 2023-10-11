@@ -3,7 +3,7 @@ title: ShapeBase.SizeInPoints
 second_title: Référence de l'API Aspose.Words pour .NET
 description: ShapeBase propriété. Obtient la taille de la forme en points.
 type: docs
-weight: 470
+weight: 510
 url: /fr/net/aspose.words.drawing/shapebase/sizeinpoints/
 ---
 ## ShapeBase.SizeInPoints property
@@ -16,7 +16,7 @@ public SizeF SizeInPoints { get; }
 
 ### Exemples
 
-Montre comment vérifier la taille et le langage de balisage d'une forme.
+Montre comment vérifier la taille et le langage de balisage d’une forme.
 
 ```csharp
 Document doc = new Document();

@@ -1,14 +1,14 @@
 ---
 title: Fill.TextureAlignment
 second_title: Aspose.Words for .NET API 参考
-description: Fill 财产. 获取或设置平铺纹理填充的对齐方式
+description: Fill 财产. 获取或设置图块纹理填充的对齐方式
 type: docs
-weight: 130
+weight: 190
 url: /zh/net/aspose.words.drawing/fill/texturealignment/
 ---
 ## Fill.TextureAlignment property
 
-获取或设置平铺纹理填充的对齐方式。
+获取或设置图块纹理填充的对齐方式。
 
 ```csharp
 public TextureAlignment TextureAlignment { get; set; }
@@ -16,7 +16,7 @@ public TextureAlignment TextureAlignment { get; set; }
 
 ### 例子
 
-显示如何填充和平铺形状内的纹理。
+展示如何填充和平铺形状内的纹理。
 
 ```csharp
 Document doc = new Document();
@@ -28,7 +28,7 @@ Shape shape = builder.InsertShape(ShapeType.Rectangle, 80, 80);
 shape.Fill.PresetTextured(PresetTexture.Canvas);
 shape.Fill.TextureAlignment = TextureAlignment.TopRight;
 
-// 如果您想获得“TextureAlignment”，请使用合规性选项使用 DML 定义形状
+// 如果您想获得“TextureAlignment”，请使用compliance 选项通过DML 定义形状
 // 文档保存后的属性。
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions { Compliance = OoxmlCompliance.Iso29500_2008_Strict };
 

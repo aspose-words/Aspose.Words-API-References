@@ -21,7 +21,7 @@ public DocumentProperty AddLinkToContent(string name, string linkSource)
 
 ### Returvärde
 
-Det nyskapade egenskapsobjektet eller null när linkSource är ogiltig.
+Det nyskapade egenskapsobjektet eller`null` när*linkSource* är ogiltig.
 
 ### Exempel
 

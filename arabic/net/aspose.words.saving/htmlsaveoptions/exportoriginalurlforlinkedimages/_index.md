@@ -1,14 +1,14 @@
 ---
 title: HtmlSaveOptions.ExportOriginalUrlForLinkedImages
 second_title: Aspose.Words لمراجع .NET API
-description: HtmlSaveOptions ملكية. يحدد ما إذا كان يجب استخدام عنوان URL الأصلي كعنوان URL للصور المرتبطة. القيمة الافتراضية هيخاطئة .
+description: HtmlSaveOptions ملكية. يحدد ما إذا كان يجب استخدام عنوان URL الأصلي كعنوان URL للصور المرتبطة. القيمة الافتراضية هيخطأ شنيع .
 type: docs
-weight: 210
+weight: 200
 url: /ar/net/aspose.words.saving/htmlsaveoptions/exportoriginalurlforlinkedimages/
 ---
 ## HtmlSaveOptions.ExportOriginalUrlForLinkedImages property
 
-يحدد ما إذا كان يجب استخدام عنوان URL الأصلي كعنوان URL للصور المرتبطة. القيمة الافتراضية هي`خاطئة` .
+يحدد ما إذا كان يجب استخدام عنوان URL الأصلي كعنوان URL للصور المرتبطة. القيمة الافتراضية هي`خطأ شنيع` .
 
 ```csharp
 public bool ExportOriginalUrlForLinkedImages { get; set; }
@@ -16,13 +16,13 @@ public bool ExportOriginalUrlForLinkedImages { get; set; }
 
 ### ملاحظات
 
-إذا تم تعيين القيمة على`حقيقي`[`SourceFullName`](../../../aspose.words.drawing/imagedata/sourcefullname/) يتم استخدام القيمة used حيث لا يتم تحميل عنوان URL للصور المرتبطة والصور المرتبطة في مجلد المستند أو[`ImagesFolder`](../imagesfolder/).
+إذا تم ضبط القيمة على`حقيقي`[`SourceFullName`](../../../aspose.words.drawing/imagedata/sourcefullname/) يتم استخدام القيمة حيث لا يتم تحميل عنوان URL للصور المرتبطة والصور المرتبطة في مجلد المستند أو[`ImagesFolder`](../imagesfolder/).
 
-إذا تم تعيين القيمة على`خاطئة` يتم تحميل الصور المرتبطة في مجلد المستند أو[`ImagesFolder`](../imagesfolder/) وعنوان URL لكل صورة مرتبطة يتم إنشاؤه اعتمادًا على في مجلد المستند ،[`ImagesFolder`](../imagesfolder/) و[`ImagesFolderAlias`](../imagesfolderalias/) الخصائص.
+إذا تم ضبط القيمة على`خطأ شنيع`يتم تحميل الصور المرتبطة في مجلد المستند أو[`ImagesFolder`](../imagesfolder/) ويتم إنشاء عنوان URL لكل صورة مرتبطة اعتمادًا على في مجلد المستند،[`ImagesFolder`](../imagesfolder/) و[`ImagesFolderAlias`](../imagesfolderalias/) ملكيات.
 
 ### أمثلة
 
-يوضح كيفية تعيين المجلدات والأسماء المستعارة للمجلدات للموارد المحفوظة خارجيًا والتي ستنشئها Aspose.Words عند حفظ مستند إلى HTML.
+يوضح كيفية تعيين المجلدات والأسماء المستعارة للمجلدات للموارد المحفوظة خارجيًا والتي سيقوم Aspose.Words بإنشائها عند حفظ مستند إلى HTML.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
@@ -36,9 +36,9 @@ HtmlSaveOptions options = new HtmlSaveOptions
     FontsFolder = ArtifactsDir + "Fonts",
     ImagesFolder = ArtifactsDir + "Images",
     ResourceFolder = ArtifactsDir + "Resources",
-    FontsFolderAlias = "http://example.com/fonts "،
-    ImagesFolderAlias = "http://example.com/images "،
-    ResourceFolderAlias = "http://example.com/resources "،
+    FontsFolderAlias = "http://example.com/fonts"،
+    ImagesFolderAlias = "http://example.com/images"،
+    ResourceFolderAlias = "http://example.com/resources"،
     ExportOriginalUrlForLinkedImages = true
 };
 

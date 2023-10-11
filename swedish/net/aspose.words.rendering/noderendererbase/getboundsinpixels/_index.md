@@ -25,7 +25,7 @@ Den faktiska (som återges på sidan) begränsningsrutan för formen i pixlar.
 
 ### Anmärkningar
 
-Denna metod konverterar[`BoundsInPoints`](../boundsinpoints/) till rektangel i pixlar.
+Denna metod konverterar[`BoundsInPoints`](../boundsinpoints/)till rektangel i pixlar.
 
 ### Exempel
 
@@ -99,7 +99,7 @@ Den faktiska (som återges på sidan) begränsningsrutan för formen i pixlar.
 
 ### Anmärkningar
 
-Denna metod konverterar[`BoundsInPoints`](../boundsinpoints/) till rektangel i pixlar.
+Denna metod konverterar[`BoundsInPoints`](../boundsinpoints/)till rektangel i pixlar.
 
 ### Exempel
 

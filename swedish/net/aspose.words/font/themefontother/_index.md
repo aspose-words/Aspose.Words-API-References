@@ -1,14 +1,14 @@
 ---
 title: Font.ThemeFontOther
 second_title: Aspose.Words för .NET API Referens
-description: Font fast egendom. Hämtar eller ställer in temateckensnittet som används för tecken med teckenkoder från 128 till 255 i det tillämpade teckensnittsschemat som är associerat med detta Fontobjekt.
+description: Font fast egendom. Hämtar eller ställer in temateckensnittet som används för tecken med teckenkoder från 128 till 255 i det tillämpade teckensnittsschemat som är associerat med dettaFont objekt.
 type: docs
 weight: 510
 url: /sv/net/aspose.words/font/themefontother/
 ---
 ## Font.ThemeFontOther property
 
-Hämtar eller ställer in temateckensnittet som används för tecken med teckenkoder från 128 till 255 i det tillämpade teckensnittsschemat som är associerat med detta Font-objekt.
+Hämtar eller ställer in temateckensnittet som används för tecken med teckenkoder från 128 till 255 i det tillämpade teckensnittsschemat som är associerat med detta[`Font`](../) objekt.
 
 ```csharp
 public ThemeFont ThemeFontOther { get; set; }

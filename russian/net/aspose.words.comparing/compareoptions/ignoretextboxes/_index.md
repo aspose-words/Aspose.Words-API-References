@@ -3,7 +3,7 @@ title: CompareOptions.IgnoreTextboxes
 second_title: Справочник по API Aspose.Words для .NET
 description: CompareOptions свойство. Указывает следует ли сравнивать различия в данных содержащихся в текстовых полях. По умолчанию текстовые поля не игнорируются.
 type: docs
-weight: 110
+weight: 120
 url: /ru/net/aspose.words.comparing/compareoptions/ignoretextboxes/
 ---
 ## CompareOptions.IgnoreTextboxes property
@@ -19,11 +19,11 @@ public bool IgnoreTextboxes { get; set; }
 Показывает, как фильтровать определенные типы элементов документа при сравнении.
 
 ```csharp
-// Создайте исходный документ и заполните его различными элементами.
+// Создаем исходный документ и заполняем его различными элементами.
 Document docOriginal = new Document();
 DocumentBuilder builder = new DocumentBuilder(docOriginal);
 
-// Текст абзаца, на который ссылается концевая сноска:
+// Текст абзаца, на который есть сноска:
 builder.Writeln("Hello world! This is the first paragraph.");
 builder.InsertFootnote(FootnoteType.Endnote, "Original endnote text.");
 
@@ -67,8 +67,8 @@ firstParagraph.ParagraphFormat.Style = docEdited.Styles[StyleIdentifier.Heading1
 docEdited.FirstSection.HeadersFooters[HeaderFooterType.HeaderPrimary].FirstParagraph.Runs[0].Text =
     "Edited header contents.";
 
-// Сравнение документов создает ревизию для каждой правки в редактируемом документе.
-// Объект CompareOptions имеет ряд флагов, которые могут подавлять ревизии
+// При сравнении документов создается редакция для каждого изменения в редактируемом документе.
+// Объект CompareOptions имеет ряд флагов, которые могут подавлять изменения
 // для каждого соответствующего типа элемента, фактически игнорируя их изменение.
 Aspose.Words.Comparing.CompareOptions compareOptions = new Aspose.Words.Comparing.CompareOptions();
 compareOptions.IgnoreFormatting = false;

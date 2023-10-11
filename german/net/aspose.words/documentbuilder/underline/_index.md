@@ -1,14 +1,14 @@
 ---
 title: DocumentBuilder.Underline
 second_title: Aspose.Words für .NET-API-Referenz
-description: DocumentBuilder eigendom. Ermittelt/legt den Unterstreichungstyp für die aktuelle Schriftart fest.
+description: DocumentBuilder eigendom. Ruft den Unterstreichungstyp für die aktuelle Schriftart ab bzw. legt diesen fest.
 type: docs
-weight: 170
+weight: 190
 url: /de/net/aspose.words/documentbuilder/underline/
 ---
 ## DocumentBuilder.Underline property
 
-Ermittelt/legt den Unterstreichungstyp für die aktuelle Schriftart fest.
+Ruft den Unterstreichungstyp für die aktuelle Schriftart ab bzw. legt diesen fest.
 
 ```csharp
 public Underline Underline { get; set; }
@@ -16,7 +16,7 @@ public Underline Underline { get; set; }
 
 ### Beispiele
 
-Zeigt, wie von einem Document Builder eingefügter Text formatiert wird.
+Zeigt, wie von einem Dokumentersteller eingefügter Text formatiert wird.
 
 ```csharp
 Document doc = new Document();
@@ -26,7 +26,7 @@ builder.Underline = Underline.Dash;
 builder.Font.Color = Color.Blue;
 builder.Font.Size = 32;
 
-// Der Builder wendet die Formatierung auf seinen aktuellen Absatz und jeden neu hinzugefügten Text danach an.
+// Der Builder wendet die Formatierung auf seinen aktuellen Absatz und jeden neuen Text an, der danach hinzugefügt wird.
 builder.Writeln("Large, blue, and underlined text.");
 
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertUnderline.docx");

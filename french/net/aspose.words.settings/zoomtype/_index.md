@@ -1,14 +1,14 @@
 ---
 title: Enum ZoomType
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Settings.ZoomType énumération. Valeurs possibles de la taille ou de la taille du document à lécran dans Microsoft Word.
+description: Aspose.Words.Settings.ZoomType énumération. Valeurs possibles pour la taille ou la taille du document qui apparaît à lécran dans Microsoft Word.
 type: docs
-weight: 5680
+weight: 5980
 url: /fr/net/aspose.words.settings/zoomtype/
 ---
 ## ZoomType enumeration
 
-Valeurs possibles de la taille ou de la taille du document à l'écran dans Microsoft Word.
+Valeurs possibles pour la taille ou la taille du document qui apparaît à l'écran dans Microsoft Word.
 
 ```csharp
 public enum ZoomType
@@ -20,7 +20,7 @@ public enum ZoomType
 | --- | --- | --- |
 | Custom | `0` | Le pourcentage de zoom est défini explicitement. Il n'est pas recalculé automatiquement lorsque la taille du contrôle change. |
 | None | `0` | Indique d'utiliser le pourcentage de zoom explicite. Pareil queCustom . |
-| FullPage | `1` | Le pourcentage de zoom est automatiquement recalculé pour s'adapter à une page entière. |
+| FullPage | `1` | Le pourcentage de zoom est automatiquement recalculé pour s'adapter à une page complète. |
 | PageWidth | `2` | Le pourcentage de zoom est automatiquement recalculé pour s'adapter à la largeur de la page. |
 | TextFit | `3` | Le pourcentage de zoom est automatiquement recalculé pour s'adapter au texte. |
 

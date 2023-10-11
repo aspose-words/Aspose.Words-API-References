@@ -1,12 +1,14 @@
 ---
 title: Enum SvgTextOutputMode
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Saving.SvgTextOutputMode تعداد. 
+description: Aspose.Words.Saving.SvgTextOutputMode تعداد. يسمح بتحديد كيفية عرض النص داخل المستند عند الحفظ بتنسيق SVG.
 type: docs
-weight: 5330
+weight: 5610
 url: /ar/net/aspose.words.saving/svgtextoutputmode/
 ---
 ## SvgTextOutputMode enumeration
+
+يسمح بتحديد كيفية عرض النص داخل المستند عند الحفظ بتنسيق SVG.
 
 ```csharp
 public enum SvgTextOutputMode
@@ -16,18 +18,18 @@ public enum SvgTextOutputMode
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| UseSvgFonts | `0` | يتم استخدام خطوط SVG لتقديم النص. ملاحظة ، ليست كل المتصفحات تدعم خطوط SVG. |
-| UseTargetMachineFonts | `1` | يتم استخدام الخطوط المثبتة على الجهاز الهدف لعرض النص. ملاحظة ، إذا كانت بعض الخطوط المستخدمة في المستند غير متوفرة على الجهاز الهدف ، يمكن أن تبدو الوثيقة مختلفة. |
-| UsePlacedGlyphs | `2` | يتم تقديم النص باستخدام المنحنيات. ملاحظة ، لن يعمل تحديد النص إذا كنت تستخدم هذا الخيار. |
+| UseSvgFonts | `0` | يتم استخدام خطوط SVG لعرض النص. لاحظ أنه ليست كل المتصفحات تدعم خطوط SVG. |
+| UseTargetMachineFonts | `1` | يتم استخدام الخطوط المثبتة على الجهاز الهدف لعرض النص. ملاحظة، إذا كانت بعض الخطوط المستخدمة في المستند غير متوفرة على الجهاز المستهدف، فقد يبدو المستند بشكل مختلف. |
+| UsePlacedGlyphs | `2` | يتم عرض النص باستخدام المنحنيات. لاحظ أن تحديد النص لن يعمل إذا استخدمت هذا الخيار. |
 
 ### أمثلة
 
-يوضح كيفية محاكاة خصائص الصور عند تحويل مستند docx إلى .svg.
+يوضح كيفية محاكاة خصائص الصور عند تحويل مستند .docx إلى .svg.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
 
-// تكوين كائن SvgSaveOptions للحفظ بدون حدود صفحة أو نص قابل للتحديد.
+// قم بتكوين كائن SvgSaveOptions للحفظ بدون حدود للصفحة أو نص قابل للتحديد.
 SvgSaveOptions options = new SvgSaveOptions
 {
     FitToViewPort = true,

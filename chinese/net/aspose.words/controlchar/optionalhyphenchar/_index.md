@@ -1,14 +1,14 @@
 ---
 title: ControlChar.OptionalHyphenChar
 second_title: Aspose.Words for .NET API 参考
-description: ControlChar 场地. Microsoft Word 中的可选连字符为 char31.
+description: ControlChar 场地. Microsoft Word 中的可选连字符是 char31.
 type: docs
 weight: 190
 url: /zh/net/aspose.words/controlchar/optionalhyphenchar/
 ---
 ## ControlChar.OptionalHyphenChar field
 
-Microsoft Word 中的可选连字符为 (char)31.
+Microsoft Word 中的可选连字符是 (char)31.
 
 ```csharp
 public const char OptionalHyphenChar;
@@ -20,26 +20,26 @@ Microsoft Word 中的可选连字符不对应于 Unicode 字符 U+00AD 软连字
 
 ### 例子
 
-演示如何将各种控制字符添加到文档中。
+演示如何向文档添加各种控制字符。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 添加一个常规空格。
+// 添加常规空格。
 builder.Write("Before space." + ControlChar.SpaceChar + "After space.");
 
 // 添加一个 NBSP，这是一个不间断的空格。
-// 与常规空格不同，这个空格不能在其位置自动换行。
+// 与常规空格不同，此空格不能在其位置有自动换行符。
 builder.Write("Before space." + ControlChar.NonBreakingSpace + "After space.");
 
-// 添加一个制表符。
+// 添加制表符。
 builder.Write("Before tab." + ControlChar.Tab + "After tab.");
 
-// 添加一个换行符。
+// 添加换行符。
 builder.Write("Before line break." + ControlChar.LineBreak + "After line break.");
 
-// 添加一个新行并开始一个新段落。
+// 添加新行并开始新段落。
 Assert.AreEqual(1, doc.FirstSection.Body.GetChildNodes(NodeType.Paragraph, true).Count);
 builder.Write("Before line feed." + ControlChar.LineFeed + "After line feed.");
 Assert.AreEqual(2, doc.FirstSection.Body.GetChildNodes(NodeType.Paragraph, true).Count);
@@ -50,11 +50,11 @@ Assert.AreEqual(ControlChar.LineFeed, ControlChar.Lf);
 // 回车和换行可以用一个字符一起表示。
 Assert.AreEqual(ControlChar.CrLf, ControlChar.Cr + ControlChar.Lf);
 
-// 添加一个段落分隔符，它将开始一个新段落。
+// 添加段落分隔符，这将开始一个新段落。
 builder.Write("Before paragraph break." + ControlChar.ParagraphBreak + "After paragraph break.");
 Assert.AreEqual(3, doc.FirstSection.Body.GetChildNodes(NodeType.Paragraph, true).Count);
 
-// 添加分节符。这不会创建新的部分或段落。
+// 添加分节符。这不会构成新的部分或段落。
 Assert.AreEqual(1, doc.Sections.Count);
 builder.Write("Before section break." + ControlChar.SectionBreak + "After section break.");
 Assert.AreEqual(1, doc.Sections.Count);
@@ -75,7 +75,7 @@ builder.Write("Text at end of column 1." + ControlChar.ColumnBreak + "Text at be
 
 doc.Save(ArtifactsDir + "ControlChar.InsertControlChars.docx");
 
-// 大多数字符都有对应的字符和字符串。
+// 大多数字符都有对应的 char 和 string。
 Assert.AreEqual(Convert.ToChar(ControlChar.Cell), ControlChar.CellChar);
 Assert.AreEqual(Convert.ToChar(ControlChar.NonBreakingSpace), ControlChar.NonBreakingSpaceChar);
 Assert.AreEqual(Convert.ToChar(ControlChar.Tab), ControlChar.TabChar);

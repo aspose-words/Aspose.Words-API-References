@@ -1,14 +1,14 @@
 ---
 title: Document.ShadeFormData
 second_title: Aspose.Words per .NET API Reference
-description: Document proprietà. Specifica se attivare lombreggiatura grigia sui campi modulo.
+description: Document proprietà. Specifica se attivare lombreggiatura grigia sui campi del modulo.
 type: docs
-weight: 360
+weight: 380
 url: /it/net/aspose.words/document/shadeformdata/
 ---
 ## Document.ShadeFormData property
 
-Specifica se attivare l'ombreggiatura grigia sui campi modulo.
+Specifica se attivare l'ombreggiatura grigia sui campi del modulo.
 
 ```csharp
 public bool ShadeFormData { get; set; }
@@ -25,7 +25,7 @@ builder.Write("Hello world! ");
 builder.InsertTextInput("My form field", TextFormFieldType.Regular, "",
     "Text contents of form field, which are shaded in grey by default.", 0);
 
-// Possiamo disattivare l'ombreggiatura grigia, in modo che il testo aggiunto ai segnalibri si mescoli con l'altro testo.
+// Possiamo disattivare l'ombreggiatura grigia, in modo che il testo con segnalibro si confonda con l'altro testo.
 doc.ShadeFormData = useGreyShading;
 doc.Save(ArtifactsDir + "Document.ShadeFormData.docx");
 ```

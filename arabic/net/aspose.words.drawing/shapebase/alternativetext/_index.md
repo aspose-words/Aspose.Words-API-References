@@ -1,14 +1,14 @@
 ---
 title: ShapeBase.AlternativeText
 second_title: Aspose.Words لمراجع .NET API
-description: ShapeBase ملكية. يحدد النص البديل الذي سيتم عرضه بدلاً من الرسم.
+description: ShapeBase ملكية. تحديد النص البديل الذي سيتم عرضه بدلاً من الرسم.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.drawing/shapebase/alternativetext/
 ---
 ## ShapeBase.AlternativeText property
 
-يحدد النص البديل الذي سيتم عرضه بدلاً من الرسم.
+تحديد النص البديل الذي سيتم عرضه بدلاً من الرسم.
 
 ```csharp
 public string AlternativeText { get; set; }
@@ -30,12 +30,13 @@ shape.Name = "MyCube";
 
 shape.AlternativeText = "Alt text for MyCube.";
 
-// يمكننا الوصول إلى النص البديل للشكل بالنقر بزر الماوس الأيمن فوقه ، ثم عبر "تنسيق الشكل التلقائي" - >; "نص بديل".
+// يمكننا الوصول إلى النص البديل للشكل عن طريق النقر بزر الماوس الأيمن عليه، ثم عبر "تنسيق الشكل التلقائي" -> "نص بديل".
 doc.Save(ArtifactsDir + "Shape.AltText.docx");
 
-// احفظ المستند إلى HTML ، ثم احذف الصورة المرتبطة التي تنتمي إلى شكلنا.
-// سيعرض المتصفح الذي يقرأ HTML الخاص بنا النص البديل بدلاً من الصورة المفقودة.
+// احفظ المستند بتنسيق HTML، ثم احذف الصورة المرتبطة التي تنتمي إلى الشكل الخاص بنا.
+// سيعرض المتصفح الذي يقرأ HTML النص البديل بدلاً من الصورة المفقودة.
 doc.Save(ArtifactsDir + "Shape.AltText.html");
+File.Delete(ArtifactsDir + "Shape.AltText.001.png");
 ```
 
 ### أنظر أيضا

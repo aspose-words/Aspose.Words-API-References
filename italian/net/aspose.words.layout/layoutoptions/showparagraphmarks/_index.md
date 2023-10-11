@@ -1,14 +1,14 @@
 ---
 title: LayoutOptions.ShowParagraphMarks
 second_title: Aspose.Words per .NET API Reference
-description: LayoutOptions proprietà. Ottiene o imposta lindicazione del rendering dei segni di paragrafo. Limpostazione predefinita è False.
+description: LayoutOptions proprietà. Ottiene o imposta lindicazione se viene eseguito il rendering dei segni di paragrafo. Limpostazione predefinita èfalso .
 type: docs
-weight: 80
+weight: 90
 url: /it/net/aspose.words.layout/layoutoptions/showparagraphmarks/
 ---
 ## LayoutOptions.ShowParagraphMarks property
 
-Ottiene o imposta l'indicazione del rendering dei segni di paragrafo. L'impostazione predefinita è False.
+Ottiene o imposta l'indicazione se viene eseguito il rendering dei segni di paragrafo. L'impostazione predefinita è`falso` .
 
 ```csharp
 public bool ShowParagraphMarks { get; set; }
@@ -16,13 +16,13 @@ public bool ShowParagraphMarks { get; set; }
 
 ### Esempi
 
-Mostra come mostrare i segni di paragrafo in un documento di output sottoposto a rendering.
+Mostra come visualizzare i segni di paragrafo in un documento di output sottoposto a rendering.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
-// Aggiungi alcuni paragrafi, quindi attiva i segni di paragrafo per mostrare le estremità dei paragrafi
-// con il simbolo di una crocetta (¶) quando eseguiamo il rendering del documento.
+// Aggiungi alcuni paragrafi, quindi abilita i segni di paragrafo per mostrare la fine dei paragrafi
+// con il simbolo pilcrow (¶) quando eseguiamo il rendering del documento.
 builder.Writeln("Hello world!");
 builder.Writeln("Hello again!");
 

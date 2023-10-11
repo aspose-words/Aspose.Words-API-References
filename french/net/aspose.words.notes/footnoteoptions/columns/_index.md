@@ -16,11 +16,11 @@ public int Columns { get; set; }
 
 ### Remarques
 
-Si cette propriété a la valeur 0, la zone des notes de bas de page est formatée avec un nombre de colonnes basé sur le nombre de colonnes sur la page affichée. La valeur par défaut est 0.
+Si cette propriété a la valeur 0, la zone de notes de bas de page est formatée avec un nombre de colonnes basé sur le nombre de colonnes sur la page affichée. La valeur par défaut est 0.
 
 ### Exemples
 
-Montre comment diviser la section des notes de bas de page en un nombre donné de colonnes.
+Montre comment diviser la section de note de bas de page en un nombre donné de colonnes.
 
 ```csharp
 Document doc = new Document(MyDir + "Footnotes and endnotes.docx");

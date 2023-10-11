@@ -1,14 +1,14 @@
 ---
 title: FontSubstitutionSettings.TableSubstitution
 second_title: Aspose.Words per .NET API Reference
-description: FontSubstitutionSettings proprietà. Impostazioni relative alla regola di sostituzione delle tabelle.
+description: FontSubstitutionSettings proprietà. Impostazioni relative alla regola di sostituzione della tabella.
 type: docs
 weight: 50
 url: /it/net/aspose.words.fonts/fontsubstitutionsettings/tablesubstitution/
 ---
 ## FontSubstitutionSettings.TableSubstitution property
 
-Impostazioni relative alla regola di sostituzione delle tabelle.
+Impostazioni relative alla regola di sostituzione della tabella.
 
 ```csharp
 public TableSubstitutionRule TableSubstitution { get; }
@@ -23,12 +23,12 @@ Document doc = new Document();
 FontSettings fontSettings = new FontSettings();
 doc.FontSettings = fontSettings;
 
-// Crea una nuova regola di sostituzione delle tabelle e carica la tabella di sostituzione dei caratteri predefinita di Windows.
+// Crea una nuova regola di sostituzione della tabella e carica la tabella di sostituzione dei caratteri Windows predefinita.
 TableSubstitutionRule tableSubstitutionRule = fontSettings.SubstitutionSettings.TableSubstitution;
 
 // Se selezioniamo i caratteri esclusivamente dalla nostra cartella, avremo bisogno di una tabella di sostituzione personalizzata.
 // Non avremo più accesso ai font di Microsoft Windows,
-// come "Arial" o "Times New Roman" poiché non esistono nella nostra nuova cartella dei caratteri.
+// come "Arial" o "Times New Roman" poiché non esistono nella nostra nuova cartella di caratteri.
 FolderFontSource folderFontSource = new FolderFontSource(FontsDir, false);
 fontSettings.SetFontsSources(new FontSourceBase[] {folderFontSource});
 
@@ -42,11 +42,11 @@ using (FileStream fileStream = new FileStream(MyDir + "Font substitution rules.x
 // 2 - Direttamente da un file:
 tableSubstitutionRule.Load(MyDir + "Font substitution rules.xml");
 
-// Dal momento che non abbiamo più accesso ad "Arial", la nostra tabella dei caratteri proverà prima a sostituirlo con "Carattere inesistente".
-// Non abbiamo questo font in modo che si sposterà sul successivo sostituto, "Kreon", che si trova nella cartella "MyFonts".
+// Poiché non abbiamo più accesso ad "Arial", la nostra tabella dei caratteri proverà prima a sostituirlo con "Font non esistente".
+// Non abbiamo questo carattere quindi verrà spostato nel successivo sostituto, "Kreon", trovato nella cartella "MyFonts".
 Assert.AreEqual(new[] {"Missing Font", "Kreon"}, tableSubstitutionRule.GetSubstitutes("Arial").ToArray());
 
-// Possiamo espandere questa tabella a livello di codice. Aggiungeremo una voce che sostituisce "Times New Roman" con "Arvo"
+// Possiamo espandere questa tabella a livello di codice. Aggiungeremo una voce che sostituirà "Times New Roman" con "Arvo"
 Assert.Null(tableSubstitutionRule.GetSubstitutes("Times New Roman"));
 tableSubstitutionRule.AddSubstitutes("Times New Roman", "Arvo");
 Assert.AreEqual(new[] {"Arvo"}, tableSubstitutionRule.GetSubstitutes("Times New Roman").ToArray());
@@ -61,7 +61,7 @@ tableSubstitutionRule.SetSubstitutes("Times New Roman", new[] {"Squarish Sans CT
 Assert.AreEqual(new[] {"Squarish Sans CT", "M+ 2m"},
     tableSubstitutionRule.GetSubstitutes("Times New Roman").ToArray());
 
-// La scrittura di testo in caratteri a cui non abbiamo accesso invocherà le nostre regole di sostituzione.
+// Scrivere testo in caratteri a cui non abbiamo accesso invocherà le nostre regole di sostituzione.
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Font.Name = "Arial";
 builder.Writeln("Text written in Arial, to be substituted by Kreon.");

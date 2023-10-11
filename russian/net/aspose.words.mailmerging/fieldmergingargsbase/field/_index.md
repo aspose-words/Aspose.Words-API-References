@@ -16,9 +16,10 @@ public FieldMergeField Field { get; }
 
 ### Примеры
 
-Показывает, как выполнить слияние почты с помощью пользовательского обратного вызова, который обрабатывает данные слияния в виде HTML-документов.
+Показывает, как выполнить слияние почты с помощью пользовательского обратного вызова, который обрабатывает данные слияния в форме документов HTML.
 
 ```csharp
+public void MergeHtml()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -48,8 +49,8 @@ public FieldMergeField Field { get; }
 }
 
 /// <summary>
-/// Если слияние почты встречает MERGEFIELD, имя которого начинается с префикса "html_",
-/// этот обратный вызов анализирует свои данные слияния как содержимое HTML и добавляет результат в расположение документа MERGEFIELD.
+/// Если при слиянии почты встречается MERGEFIELD, имя которого начинается с префикса "html_",
+/// этот обратный вызов анализирует свои данные слияния как содержимое HTML и добавляет результат в местоположение документа MERGEFIELD.
 /// </summary>
 private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 {
@@ -60,13 +61,13 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
     {
         if (args.DocumentFieldName.StartsWith("html_") && args.Field.GetFieldCode().Contains("\\b"))
         {
-            // Добавляем проанализированные HTML-данные в тело документа.
+            // Добавляем проанализированные данные HTML в тело документа.
             DocumentBuilder builder = new DocumentBuilder(args.Document);
             builder.MoveToMergeField(args.DocumentFieldName);
             builder.InsertHtml((string)args.FieldValue);
 
-            // Так как мы уже вставили объединенный контент вручную,
-             // нам не нужно будет реагировать на это событие, возвращая содержимое через свойство «Текст».
+            // Поскольку мы уже вставили объединенный контент вручную,
+             // нам не нужно будет реагировать на это событие, возвращая контент через свойство «Текст».
             args.Text = string.Empty;
         }
     }

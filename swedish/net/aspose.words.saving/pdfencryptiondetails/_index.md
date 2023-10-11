@@ -3,12 +3,14 @@ title: Class PdfEncryptionDetails
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Saving.PdfEncryptionDetails klass. Innehåller detaljer för kryptering och åtkomstbehörigheter för ett PDFdokument.
 type: docs
-weight: 5180
+weight: 5460
 url: /sv/net/aspose.words.saving/pdfencryptiondetails/
 ---
 ## PdfEncryptionDetails class
 
 Innehåller detaljer för kryptering och åtkomstbehörigheter för ett PDF-dokument.
+
+För att lära dig mer, besök[Skydda eller kryptera ett dokument](https://docs.aspose.com/words/net/protect-or-encrypt-a-document/) dokumentationsartikel.
 
 ```csharp
 public class PdfEncryptionDetails
@@ -18,7 +20,8 @@ public class PdfEncryptionDetails
 
 | namn | Beskrivning |
 | --- | --- |
-| [PdfEncryptionDetails](pdfencryptiondetails/)(string, string) | Initierar en instans av denna klass. |
+| [PdfEncryptionDetails](pdfencryptiondetails/#constructor)(string, string) | Initierar en instans av denna klass. |
+| [PdfEncryptionDetails](pdfencryptiondetails/#constructor_1)(string, string, PdfPermissions) | Initierar en instans av denna klass. |
 
 ## Egenskaper
 
@@ -38,19 +41,13 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln("Hello world!");
 
-PdfEncryptionDetails encryptionDetails =
-    new PdfEncryptionDetails("password", string.Empty);
-
-// Börja med att inte tillåta alla behörigheter.
-encryptionDetails.Permissions = PdfPermissions.DisallowAll;
-
 // Utöka behörigheter för att tillåta redigering av kommentarer.
-encryptionDetails.Permissions = PdfPermissions.ModifyAnnotations | PdfPermissions.DocumentAssembly;
+PdfEncryptionDetails encryptionDetails =
+    new PdfEncryptionDetails("password", string.Empty, PdfPermissions.ModifyAnnotations | PdfPermissions.DocumentAssembly);
 
 // Skapa ett "PdfSaveOptions"-objekt som vi kan skicka till dokumentets "Spara"-metod
 // för att ändra hur den metoden konverterar dokumentet till .PDF.
 PdfSaveOptions saveOptions = new PdfSaveOptions();
-
 // Aktivera kryptering via egenskapen "EncryptionDetails".
 saveOptions.EncryptionDetails = encryptionDetails;
 

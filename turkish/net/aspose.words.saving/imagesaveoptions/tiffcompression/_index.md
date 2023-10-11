@@ -1,14 +1,14 @@
 ---
 title: ImageSaveOptions.TiffCompression
 second_title: Aspose.Words for .NET API Referansı
-description: ImageSaveOptions mülk. Oluşturulan görüntüleri TIFF biçiminde kaydederken uygulanacak sıkıştırma türünü alır veya ayarlar.
+description: ImageSaveOptions mülk. Oluşturulan görüntüleri TIFF formatında kaydederken uygulanacak sıkıştırma türünü alır veya ayarlar.
 type: docs
-weight: 170
+weight: 180
 url: /tr/net/aspose.words.saving/imagesaveoptions/tiffcompression/
 ---
 ## ImageSaveOptions.TiffCompression property
 
-Oluşturulan görüntüleri TIFF biçiminde kaydederken uygulanacak sıkıştırma türünü alır veya ayarlar.
+Oluşturulan görüntüleri TIFF formatında kaydederken uygulanacak sıkıştırma türünü alır veya ayarlar.
 
 ```csharp
 public TiffCompression TiffCompression { get; set; }
@@ -16,9 +16,9 @@ public TiffCompression TiffCompression { get; set; }
 
 ### Notlar
 
-Yalnızca TIFF'e kaydederken etkilidir.
+Yalnızca TIFF'e kaydederken etkili olur.
 
-Varsayılan değerLzw.
+Varsayılan değer:Lzw.
 
 ### Örnekler
 
@@ -30,12 +30,12 @@ Document doc = new Document();
 
             builder.InsertImage(ImageDir + "Logo.jpg");
 
-            // Belgenin "Kaydet" yöntemine aktarabileceğimiz bir "ImageSaveOptions" nesnesi oluşturun
-            // bu yöntemin belgeyi bir görüntüye dönüştürme şeklini değiştirmek için.
+            // Belgenin "Save" yöntemine aktarabileceğimiz bir "ImageSaveOptions" nesnesi oluşturun
+            // bu yöntemin belgeyi bir görüntüye dönüştürme biçimini değiştirmek için.
             ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Tiff);
 
-            // Kaydederken sıkıştırma uygulamamak için "TiffCompression" özelliğini "TiffCompression.None" olarak ayarlayın,
-            // çok büyük bir çıktı dosyasına neden olabilir.
+            // Kaydetme sırasında sıkıştırma uygulamamak için "TiffCompression" özelliğini "TiffCompression.None" olarak ayarlayın,
+            // bu çok büyük bir çıktı dosyasıyla sonuçlanabilir.
             // RLE sıkıştırmasını uygulamak için "TiffCompression" özelliğini "TiffCompression.Rle" olarak ayarlayın
             // LZW sıkıştırmasını uygulamak için "TiffCompression" özelliğini "TiffCompression.Lzw" olarak ayarlayın.
             // CCITT3 sıkıştırmasını uygulamak için "TiffCompression" özelliğini "TiffCompression.Ccitt3" olarak ayarlayın.

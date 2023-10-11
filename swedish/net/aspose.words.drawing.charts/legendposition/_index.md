@@ -3,7 +3,7 @@ title: Enum LegendPosition
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Drawing.Charts.LegendPosition uppräkning. Anger möjliga positioner för en diagramförklaring.
 type: docs
-weight: 780
+weight: 910
 url: /sv/net/aspose.words.drawing.charts/legendposition/
 ---
 ## LegendPosition enumeration

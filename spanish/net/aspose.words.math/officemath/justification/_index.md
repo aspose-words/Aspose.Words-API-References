@@ -1,14 +1,14 @@
 ---
 title: OfficeMath.Justification
 second_title: Referencia de API de Aspose.Words para .NET
-description: OfficeMath propiedad. Obtiene/establece la justificación matemática de Office.
+description: OfficeMath propiedad. Obtiene/establece la justificación de Office Math.
 type: docs
-weight: 30
+weight: 20
 url: /es/net/aspose.words.math/officemath/justification/
 ---
 ## OfficeMath.Justification property
 
-Obtiene/establece la justificación matemática de Office.
+Obtiene/establece la justificación de Office Math.
 
 ```csharp
 public OfficeMathJustification Justification { get; set; }
@@ -18,13 +18,13 @@ public OfficeMathJustification Justification { get; set; }
 
 La justificación no se puede establecer en Office Math con el tipo de formato de visualizaciónInline.
 
-La justificación en línea no se puede establecer en Office Math con el tipo de formato de visualizaciónDisplay.
+La justificación en línea no se puede configurar en Office Math con el tipo de formato de visualizaciónDisplay.
 
-Correspondiente[`DisplayType`](../displaytype/) debe configurarse antes de configurar la justificación matemática de Office.
+Correspondiente[`DisplayType`](../displaytype/) debe configurarse antes de configurar la justificación de Office Math.
 
 ### Ejemplos
 
-Muestra cómo configurar el formato de visualización de Office Math.
+Muestra cómo configurar el formato de visualización de matemáticas de Office.
 
 ```csharp
 Document doc = new Document(MyDir + "Office math.docx");
@@ -36,9 +36,6 @@ OfficeMath officeMath = (OfficeMath) doc.GetChild(NodeType.OfficeMath, 0, true);
 Assert.AreEqual(MathObjectType.OMathPara, officeMath.MathObjectType);
 Assert.AreEqual(NodeType.OfficeMath, officeMath.NodeType);
 Assert.AreEqual(officeMath.ParentNode, officeMath.ParentParagraph);
-
-// Los formatos OOXML y WML utilizan la propiedad "EquationXmlEncoding".
-Assert.IsNull(officeMath.EquationXmlEncoding);
 
 // Cambiar la ubicación y el tipo de visualización del nodo OfficeMath.
 officeMath.DisplayType = OfficeMathDisplayType.Display;

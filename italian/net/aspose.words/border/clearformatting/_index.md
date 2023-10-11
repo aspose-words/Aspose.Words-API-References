@@ -3,7 +3,7 @@ title: Border.ClearFormatting
 second_title: Aspose.Words per .NET API Reference
 description: Border metodo. Ripristina le proprietà del bordo ai valori predefiniti.
 type: docs
-weight: 70
+weight: 90
 url: /it/net/aspose.words/border/clearformatting/
 ---
 ## Border.ClearFormatting method
@@ -16,7 +16,7 @@ public void ClearFormatting()
 
 ### Osservazioni
 
-Quando le proprietà del bordo vengono reimpostate sui valori predefiniti, il bordo è invisibile.
+Quando le proprietà del bordo vengono ripristinate ai valori predefiniti, il bordo è invisibile.
 
 ### Esempi
 
@@ -25,7 +25,7 @@ Mostra come rimuovere i bordi da un paragrafo.
 ```csharp
 Document doc = new Document(MyDir + "Borders.docx");
 
-// Ogni paragrafo ha un insieme individuale di bordi.
+// Ogni paragrafo ha un insieme di bordi individuale.
 // Possiamo accedere alle impostazioni per l'aspetto di questi bordi tramite l'oggetto formato paragrafo.
 BorderCollection borders = doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Borders;
 
@@ -34,8 +34,8 @@ Assert.AreEqual(3.0d, borders[0].LineWidth);
 Assert.AreEqual(LineStyle.Single, borders[0].LineStyle);
 Assert.True(borders[0].IsVisible);
 
-// Possiamo rimuovere un bordo in una volta eseguendo il metodo ClearFormatting. 
-// L'esecuzione di questo metodo su ogni bordo di un paragrafo rimuoverà tutti i suoi bordi.
+ // Possiamo rimuovere immediatamente un bordo eseguendo il metodo ClearFormatting.
+// L'esecuzione di questo metodo su ogni bordo di un paragrafo ne rimuoverà tutti i bordi.
 foreach (Border border in borders)
     border.ClearFormatting();
 

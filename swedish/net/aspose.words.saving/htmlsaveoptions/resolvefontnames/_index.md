@@ -16,7 +16,7 @@ public bool ResolveFontNames { get; set; }
 
 ### Anmärkningar
 
-Som standard är det här alternativet inställt på`falsk`och teckensnittsfamiljnamn skrivs till HTML som specificerat i källdokument. Det är,[`FontSettings`](../../../aspose.words/document/fontsettings/) ignoreras och ingen upplösning eller substitution av teckensnittsfamiljenamn utförs.
+Som standard är det här alternativet inställt på`falsk` och teckensnittsfamiljnamn skrivs till HTML som specificerat i källdokument. Det är,[`FontSettings`](../../../aspose.words/document/fontsettings/) ignoreras och ingen upplösning eller substitution av teckensnittsfamiljenamn utförs.
 
 Om det här alternativet är inställt på`Sann` , Aspose.Words använder[`FontSettings`](../../../aspose.words/document/fontsettings/) att lösa varje teckensnittsfamiljsnamn som anges i ett källdokument till namnet på en tillgänglig teckensnittsfamilj, genom att utföra teckensnittsersättning efter behov.
 

@@ -16,7 +16,7 @@ public RelativeHorizontalPosition RelativeHorizontalPosition { get; }
 
 ### 例子
 
-显示如何获取有关作为框架的段落的格式属性的信息。
+演示如何获取有关框架段落的格式设置属性的信息。
 
 ```csharp
 Document doc = new Document(MyDir + "Paragraph frame.docx");

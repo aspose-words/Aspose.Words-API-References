@@ -58,7 +58,7 @@ public void Load(Stream stream)
 
 ### Esempi
 
-Mostra come caricare e salvare le impostazioni di fallback dei caratteri in/da uno stream.
+Mostra come caricare e salvare le impostazioni di fallback dei caratteri in/da un flusso.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
@@ -74,7 +74,7 @@ using (FileStream fontFallbackStream = new FileStream(MyDir + "Font fallback rul
 
 doc.Save(ArtifactsDir + "FontSettings.LoadFontFallbackSettingsFromStream.pdf");
 
-// Usa uno stream per salvare le impostazioni di fallback dei font del nostro documento come documento XML.
+// Utilizza uno stream per salvare le impostazioni di fallback dei caratteri correnti del nostro documento come documento XML.
 using (FileStream fontFallbackStream =
     new FileStream(ArtifactsDir + "FallbackSettings.xml", FileMode.Create))
 {

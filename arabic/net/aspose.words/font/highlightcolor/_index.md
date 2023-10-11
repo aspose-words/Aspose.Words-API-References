@@ -1,14 +1,14 @@
 ---
 title: Font.HighlightColor
 second_title: Aspose.Words لمراجع .NET API
-description: Font ملكية. الحصول على أو تعيين لون التمييز علامة.
+description: Font ملكية. الحصول على أو تعيين لون التمييز علامة التحديد.
 type: docs
 weight: 150
 url: /ar/net/aspose.words/font/highlightcolor/
 ---
 ## Font.HighlightColor property
 
-الحصول على أو تعيين لون التمييز (علامة).
+الحصول على أو تعيين لون التمييز (علامة التحديد).
 
 ```csharp
 public Color HighlightColor { get; set; }

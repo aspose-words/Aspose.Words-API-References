@@ -1,14 +1,14 @@
 ---
 title: PageSetup.SheetsPerBooklet
 second_title: Aspose.Words per .NET API Reference
-description: PageSetup proprietà. Restituisce o imposta il numero di pagine da includere in ogni libretto.
+description: PageSetup proprietà. Restituisce o imposta il numero di pagine da includere in ciascun booklet.
 type: docs
-weight: 390
+weight: 400
 url: /it/net/aspose.words/pagesetup/sheetsperbooklet/
 ---
 ## PageSetup.SheetsPerBooklet property
 
-Restituisce o imposta il numero di pagine da includere in ogni libretto.
+Restituisce o imposta il numero di pagine da includere in ciascun booklet.
 
 ```csharp
 public int SheetsPerBooklet { get; set; }
@@ -16,12 +16,12 @@ public int SheetsPerBooklet { get; set; }
 
 ### Esempi
 
-Mostra come configurare un documento che può essere stampato come piegatura a libro.
+Mostra come configurare un documento che può essere stampato come piega a libro.
 
 ```csharp
 Document doc = new Document();
 
-// Inserisce un testo che si estende su 16 pagine.
+// Inserisci testo che si estende su 16 pagine.
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("My Booklet:");
 
@@ -31,9 +31,9 @@ for (int i = 0; i < 15; i++)
     builder.Write($"Booklet face #{i}");
 }
 
-// Configura la proprietà "PageSetup" della prima sezione per stampare il documento sotto forma di piegatura a libro.
+// Configura la proprietà "PageSetup" della prima sezione per stampare il documento sotto forma di piegatura del libro.
 // Quando stampiamo questo documento su entrambi i lati, possiamo prendere le pagine per impilarle
-// e piegali tutti al centro in una volta. Il contenuto del documento si allineerà in una piega a libro.
+// e piegali tutti al centro contemporaneamente. Il contenuto del documento si allineerà in una piega a libro.
 PageSetup pageSetup = doc.Sections[0].PageSetup;
 pageSetup.MultiplePages = MultiplePagesType.BookFoldPrinting;
 

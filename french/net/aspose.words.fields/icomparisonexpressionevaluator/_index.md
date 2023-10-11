@@ -1,14 +1,14 @@
 ---
 title: Interface IComparisonExpressionEvaluator
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Fields.IComparisonExpressionEvaluator interface. Lorsquil est implémenté permet de remplacer lévaluation des expressions de comparaison par défaut pour leFieldIf etFieldCompare champs.
+description: Aspose.Words.Fields.IComparisonExpressionEvaluator interface. Une fois implémenté permet de remplacer lévaluation des expressions de comparaison par défaut pour leFieldIf etFieldCompare champs.
 type: docs
-weight: 2510
+weight: 2680
 url: /fr/net/aspose.words.fields/icomparisonexpressionevaluator/
 ---
 ## IComparisonExpressionEvaluator interface
 
-Lorsqu'il est implémenté, permet de remplacer l'évaluation des expressions de comparaison par défaut pour le[`FieldIf`](../fieldif/) et[`FieldCompare`](../fieldcompare/) champs.
+Une fois implémenté, permet de remplacer l'évaluation des expressions de comparaison par défaut pour le[`FieldIf`](../fieldif/) et[`FieldCompare`](../fieldcompare/) champs.
 
 ```csharp
 public interface IComparisonExpressionEvaluator

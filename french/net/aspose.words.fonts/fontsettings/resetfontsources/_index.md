@@ -16,7 +16,7 @@ public void ResetFontSources()
 
 ### Exemples
 
-Montre comment accéder à la source de police système d'un document et définir des substituts de police.
+Montre comment accéder à la source de police système d’un document et définir des substituts de police.
 
 ```csharp
 Document doc = new Document();
@@ -44,7 +44,7 @@ foreach (string systemFontFolder in SystemFontSource.GetSystemFontFolders())
     Console.WriteLine(systemFontFolder);
 }
 
-// Définit une police qui existe dans le répertoire Windows Fonts en remplacement de celle qui n'existe pas.
+// Définit une police qui existe dans le répertoire des polices Windows en remplacement d'une autre qui n'existe pas.
 doc.FontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
 doc.FontSettings.SubstitutionSettings.TableSubstitution.AddSubstitutes("Kreon-Regular", new[] {"Calibri"});
 
@@ -58,7 +58,7 @@ FolderFontSource folderFontSource = new FolderFontSource(FontsDir, false);
 doc.FontSettings.SetFontsSources(new FontSourceBase[] {systemFontSource, folderFontSource});
 Assert.AreEqual(2, doc.FontSettings.GetFontsSources().Length);
 
-// La réinitialisation des sources de police nous laisse toujours avec la source de police système ainsi que nos substituts.
+// La réinitialisation des sources de polices nous laisse toujours la source de police système ainsi que nos substituts.
 doc.FontSettings.ResetFontSources();
 
 Assert.AreEqual(1, doc.FontSettings.GetFontsSources().Length);

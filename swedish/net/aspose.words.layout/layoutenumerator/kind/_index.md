@@ -1,14 +1,14 @@
 ---
 title: LayoutEnumerator.Kind
 second_title: Aspose.Words för .NET API Referens
-description: LayoutEnumerator fast egendom. Hämtar typen av den aktuella enheten. Detta kan vara en tom sträng men aldrig null.
+description: LayoutEnumerator fast egendom. Hämtar typen av den aktuella enheten. Detta kan vara en tom sträng men aldrignull .
 type: docs
-weight: 40
+weight: 50
 url: /sv/net/aspose.words.layout/layoutenumerator/kind/
 ---
 ## LayoutEnumerator.Kind property
 
-Hämtar typen av den aktuella enheten. Detta kan vara en tom sträng men aldrig null.
+Hämtar typen av den aktuella enheten. Detta kan vara en tom sträng men aldrig`null` .
 
 ```csharp
 public string Kind { get; }

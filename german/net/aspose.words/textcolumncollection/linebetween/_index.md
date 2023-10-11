@@ -1,14 +1,14 @@
 ---
 title: TextColumnCollection.LineBetween
 second_title: Aspose.Words für .NET-API-Referenz
-description: TextColumnCollection eigendom. Wann Stimmt  fügt eine vertikale Linie zwischen Spalten hinzu.
+description: TextColumnCollection eigendom. WannWAHR fügt eine vertikale Linie zwischen den Spalten hinzu.
 type: docs
 weight: 40
 url: /de/net/aspose.words/textcolumncollection/linebetween/
 ---
 ## TextColumnCollection.LineBetween property
 
-Wann **Stimmt** , fügt eine vertikale Linie zwischen Spalten hinzu.
+Wann`WAHR` fügt eine vertikale Linie zwischen den Spalten hinzu.
 
 ```csharp
 public bool LineBetween { get; set; }
@@ -22,9 +22,9 @@ Zeigt, wie Spalten mit einer vertikalen Linie getrennt werden.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Konfigurieren Sie das PageSetup-Objekt des aktuellen Abschnitts, um den Text in mehrere Spalten zu unterteilen.
-// Setzen Sie die Eigenschaft "LineBetween" auf "true", um eine Trennlinie zwischen Spalten zu setzen.
-// Setzen Sie die Eigenschaft "LineBetween" auf "false", um den Abstand zwischen den Spalten leer zu lassen.
+// Konfigurieren Sie das PageSetup-Objekt des aktuellen Abschnitts, um den Text in mehrere Spalten aufzuteilen.
+// Setzen Sie die Eigenschaft „LineBetween“ auf „true“, um eine Trennlinie zwischen den Spalten zu setzen.
+// Setzen Sie die Eigenschaft „LineBetween“ auf „false“, um den Abstand zwischen den Spalten leer zu lassen.
 TextColumnCollection columns = builder.PageSetup.TextColumns;
 columns.LineBetween = lineBetween;
 columns.SetCount(3);

@@ -1,14 +1,14 @@
 ---
 title: Story.Tables
 second_title: Aspose.Words لمراجع .NET API
-description: Story ملكية. الحصول على مجموعة من الجداول التي تمثل الأطفال المباشرين للقصة.
+description: Story ملكية. الحصول على مجموعة من الجداول التي تعتبر أبناء القصة مباشرة.
 type: docs
 weight: 50
 url: /ar/net/aspose.words/story/tables/
 ---
 ## Story.Tables property
 
-الحصول على مجموعة من الجداول التي تمثل الأطفال المباشرين للقصة.
+الحصول على مجموعة من الجداول التي تعتبر أبناء القصة مباشرة.
 
 ```csharp
 public TableCollection Tables { get; }
@@ -16,7 +16,7 @@ public TableCollection Tables { get; }
 
 ### أمثلة
 
-يوضح كيفية إزالة الصفين الأول والأخير من كل الجداول في المستند.
+يوضح كيفية إزالة الصفين الأول والأخير من كافة الجداول في المستند.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");

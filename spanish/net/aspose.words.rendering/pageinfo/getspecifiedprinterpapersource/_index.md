@@ -3,7 +3,7 @@ title: PageInfo.GetSpecifiedPrinterPaperSource
 second_title: Referencia de API de Aspose.Words para .NET
 description: PageInfo método. Obtiene elPaperSource objeto adecuado para imprimir la página representada por estePageInfo .
 type: docs
-weight: 90
+weight: 100
 url: /es/net/aspose.words.rendering/pageinfo/getspecifiedprinterpapersource/
 ---
 ## PageInfo.GetSpecifiedPrinterPaperSource method
@@ -18,11 +18,11 @@ public PaperSource GetSpecifiedPrinterPaperSource(PaperSourceCollection paperSou
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
 | paperSources | PaperSourceCollection | Fuentes de papel disponibles. |
-| defaultPageSettingsPaperSource | PaperSource | Fuente de papel definida en la configuración predeterminada de la impresora. |
+| defaultPageSettingsPaperSource | PaperSource | Origen del papel definido en la configuración predeterminada de la impresora. |
 
 ### Valor_devuelto
 
-Un objeto que puede usar en el marco de impresión de .NET para especificar el origen del papel.
+Un objeto que puede utilizar en el marco de impresión .NET para especificar el origen del papel.
 
 ### Observaciones
 
@@ -30,12 +30,12 @@ Este método requiere .NET Framework 2.0 o posterior.
 
 ### Ejemplos
 
-Muestra cómo imprimir información sobre el tamaño y la orientación de la página para cada página de un documento de Word.
+Muestra cómo imprimir información sobre el tamaño y la orientación de cada página de un documento de Word.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// La primera sección tiene 2 páginas. Asignaremos una bandeja de papel de impresora diferente a cada uno,
+// La primera sección tiene 2 páginas. A cada una le asignaremos una bandeja de papel de impresora diferente,
 // cuyo número coincidirá con un tipo de fuente de papel. Estas fuentes y sus tipos variarán
 // dependiendo del controlador de impresora instalado.
 PrinterSettings.PaperSourceCollection paperSources = new PrinterSettings().PaperSources;
@@ -60,7 +60,7 @@ for (int i = 0; i < doc.PageCount; i++)
     Console.WriteLine($"\tSize in points:\t{pageInfo.SizeInPoints}");
     Console.WriteLine($"\tSize in pixels:\t{pageInfo.GetSizeInPixels(1.0f, 96)} at {scale * 100}% scale, {dpi} dpi");
 
-    // Imprimir la información de la bandeja de origen.
+    // Imprime la información de la bandeja de origen.
     Console.WriteLine($"\tTray:\t{pageInfo.PaperTray}");
     PaperSource source = pageInfo.GetSpecifiedPrinterPaperSource(paperSources, paperSources[0]);
     Console.WriteLine($"\tSuitable print source:\t{source.SourceName}, kind: {source.Kind}");

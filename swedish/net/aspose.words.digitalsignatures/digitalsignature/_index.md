@@ -3,12 +3,14 @@ title: Class DigitalSignature
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.DigitalSignatures.DigitalSignature klass. Representerar en digital signatur på ett dokument och resultatet av dess verifiering.
 type: docs
-weight: 370
+weight: 380
 url: /sv/net/aspose.words.digitalsignatures/digitalsignature/
 ---
 ## DigitalSignature class
 
 Representerar en digital signatur på ett dokument och resultatet av dess verifiering.
+
+För att lära dig mer, besök[Arbeta med digitala signaturer](https://docs.aspose.com/words/net/working-with-digital-signatures/) dokumentationsartikel.
 
 ```csharp
 public class DigitalSignature
@@ -21,8 +23,9 @@ public class DigitalSignature
 | [CertificateHolder](../../aspose.words.digitalsignatures/digitalsignature/certificateholder/) { get; } | Returnerar certifikatinnehavarens objekt som innehåller certifikatet som användes för att signera dokumentet. |
 | [Comments](../../aspose.words.digitalsignatures/digitalsignature/comments/) { get; } | Får kommentaren för signeringssyfte. |
 | [IssuerName](../../aspose.words.digitalsignatures/digitalsignature/issuername/) { get; } | Returnerar subjektets distinguerade namn på certifikatet isuuer. |
-| [IsValid](../../aspose.words.digitalsignatures/digitalsignature/isvalid/) { get; } | Returnerar sant om denna digitala signatur är giltig och dokumentet inte har manipulerats. |
+| [IsValid](../../aspose.words.digitalsignatures/digitalsignature/isvalid/) { get; } | Returnerar`Sann` om denna digitala signatur är giltig och dokumentet inte har manipulerats. |
 | [SignatureType](../../aspose.words.digitalsignatures/digitalsignature/signaturetype/) { get; } | Hämtar typen av digital signatur. |
+| [SignatureValue](../../aspose.words.digitalsignatures/digitalsignature/signaturevalue/) { get; } | Får en matris med byte som representerar ett signaturvärde. |
 | [SignTime](../../aspose.words.digitalsignatures/digitalsignature/signtime/) { get; } | Hämtar tiden då dokumentet signerades. |
 | [SubjectName](../../aspose.words.digitalsignatures/digitalsignature/subjectname/) { get; } | Returnerar ämnets unika namn på certifikatet som användes för att signera dokumentet. |
 

@@ -1,14 +1,14 @@
 ---
 title: HtmlSaveOptions.ExportDropDownFormFieldAsText
 second_title: Aspose.Words für .NET-API-Referenz
-description: HtmlSaveOptions eigendom. Steuert wie DropdownFormularfelder in HTML oder MHTML gespeichert werden. Standardwert istFALSCH .
+description: HtmlSaveOptions eigendom. Steuert wie DropdownFormularfelder in HTML oder MHTML gespeichert werden. Der Standardwert istFALSCH .
 type: docs
-weight: 140
+weight: 130
 url: /de/net/aspose.words.saving/htmlsaveoptions/exportdropdownformfieldastext/
 ---
 ## HtmlSaveOptions.ExportDropDownFormFieldAsText property
 
-Steuert, wie Dropdown-Formularfelder in HTML oder MHTML gespeichert werden. Standardwert ist`FALSCH` .
+Steuert, wie Dropdown-Formularfelder in HTML oder MHTML gespeichert werden. Der Standardwert ist`FALSCH` .
 
 ```csharp
 public bool ExportDropDownFormFieldAsText { get; set; }
@@ -16,26 +16,26 @@ public bool ExportDropDownFormFieldAsText { get; set; }
 
 ### Bemerkungen
 
-Wenn eingestellt auf`Stimmt` , exportiert Dropdown-Formularfelder als normalen Text. When`FALSCH`, exportiert Dropdown-Formularfelder als SELECT-Element in HTML.
+Wenn eingestellt auf`WAHR` , exportiert Dropdown-Formularfelder als normalen Text. Wann`FALSCH`, exportiert Dropdown-Formularfelder als SELECT-Element in HTML.
 
-Beim Exportieren in EPUB werden Text-Dropdown-Formularfelder aufgrund von Anforderungen dieses Formats immer als Text gespeichert.
+Beim Exportieren nach EPUB werden Text-Dropdown-Formularfelder aufgrund der Anforderungen dieses Formats immer als Text gespeichert.
 
 ### Beispiele
 
-Zeigt, wie Dropdown-Kombinationsfeld-Formularfelder beim Speichern in HTML mit Absatztext verschmolzen werden.
+Zeigt, wie man Dropdown-Kombinationsfeld-Formularfelder beim Speichern im HTML-Format in den Absatztext einfügt.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Verwenden Sie einen Dokumentenersteller, um ein Kombinationsfeld mit dem ausgewählten Wert "Zwei" einzufügen.
+// Verwenden Sie einen Dokumentersteller, um ein Kombinationsfeld mit dem ausgewählten Wert „Zwei“ einzufügen.
 builder.InsertComboBox("MyComboBox", new[] { "One", "Two", "Three" }, 1);
 
-// Das "ExportDropDownFormFieldAsText"-Flag dieses SaveOptions-Objekts ermöglicht uns dies
-// Steuern, wie das Speichern des Dokuments in HTML Dropdown-Kombinationsfelder behandelt.
-// Wenn Sie es auf "true" setzen, wird jedes Kombinationsfeld in einfachen Text umgewandelt
-// das zeigt den aktuell ausgewählten Wert des Kombinationsfelds an und friert ihn effektiv ein.
-// Wenn Sie es auf "false" setzen, wird die Funktionalität des Kombinationsfelds mit <select> und <Option> Stichworte.
+// Das Flag „ExportDropDownFormFieldAsText“ dieses SaveOptions-Objekts ermöglicht es uns
+// steuern, wie beim Speichern des Dokuments in HTML Dropdown-Kombinationsfelder behandelt werden.
+// Wenn Sie es auf „true“ setzen, wird jedes Kombinationsfeld in einfachen Text umgewandelt
+// das den aktuell ausgewählten Wert des Kombinationsfelds anzeigt und ihn effektiv einfriert.
+// Wenn Sie es auf „false“ setzen, bleibt die Funktionalität des Kombinationsfelds erhalten, indem Sie <select> verwenden. und <Option> Stichworte.
 HtmlSaveOptions options = new HtmlSaveOptions();
 options.ExportDropDownFormFieldAsText = exportDropDownFormFieldAsText;    
 

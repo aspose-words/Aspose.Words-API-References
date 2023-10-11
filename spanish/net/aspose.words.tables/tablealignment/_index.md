@@ -3,7 +3,7 @@ title: Enum TableAlignment
 second_title: Referencia de API de Aspose.Words para .NET
 description: Aspose.Words.Tables.TableAlignment enumeración. Especifica la alineación de una tabla en línea.
 type: docs
-weight: 6050
+weight: 6350
 url: /es/net/aspose.words.tables/tablealignment/
 ---
 ## TableAlignment enumeration
@@ -18,9 +18,9 @@ public enum TableAlignment
 
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
-| Left | `0` | La tabla se alinea a la izquierda. |
+| Left | `0` | La tabla está alineada a la izquierda. |
 | Center | `1` | La mesa está centrada. |
-| Right | `2` | La tabla se alinea a la derecha. |
+| Right | `2` | La tabla está alineada a la derecha. |
 
 ### Ejemplos
 
@@ -30,10 +30,10 @@ Muestra cómo aplicar un borde de contorno a una tabla.
 Document doc = new Document(MyDir + "Tables.docx");
 Table table = doc.FirstSection.Body.Tables[0];
 
-// Alinea la tabla al centro de la página.
+// Alinea la tabla con el centro de la página.
 table.Alignment = TableAlignment.Center;
 
-// Limpia cualquier borde existente y sombreado de la tabla.
+// Borra los bordes y sombreados existentes de la tabla.
 table.ClearBorders();
 table.ClearShading();
 

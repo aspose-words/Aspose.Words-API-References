@@ -24,20 +24,20 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln("Hello world!");
 
-// Inizia a tenere traccia delle revisioni e inserisci un paragrafo. Quel paragrafo sarà una revisione dell'inserto.
+// Inizia a tenere traccia delle revisioni e inserisce un paragrafo. Quel paragrafo sarà una revisione inserita.
 doc.StartTrackRevisions("John Doe", DateTime.Now);
 builder.Writeln("Hello again!");
 doc.StopTrackRevisions();
 
 Assert.True(doc.FirstSection.Body.Paragraphs[1].IsInsertRevision);
 
-// Possiamo usare un oggetto "FindReplaceOptions" per modificare il processo di ricerca e sostituzione.
+// Possiamo utilizzare un oggetto "FindReplaceOptions" per modificare il processo di ricerca e sostituzione.
 FindReplaceOptions options = new FindReplaceOptions();
 
-// Imposta il flag "IgnoreInserted" su "true" per ottenere il trova e sostituisci
-// operazione per ignorare i paragrafi che sono revisioni di inserimento.
-// Imposta il flag "IgnoreInserted" su "false" per ottenere il trova e sostituisci
-// operazione per cercare anche il testo all'interno delle revisioni degli inserti.
+// Imposta il flag "IgnoreInserted" su "true" per ottenere la ricerca e sostituzione
+// operazione per ignorare i paragrafi che contengono revisioni inserite.
+// Imposta il flag "IgnoreInserted" su "false" per ottenere la ricerca e sostituzione
+//operazione per cercare anche il testo all'interno delle revisioni di inserimento.
 options.IgnoreInserted = ignoreTextInsideInsertRevisions;
 
 doc.Range.Replace("Hello", "Greetings", options);

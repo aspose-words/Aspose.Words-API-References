@@ -1,14 +1,14 @@
 ---
 title: Row.IsLastRow
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Row propriété. Vrai sil sagit de la dernière ligne dun tableau  faux sinon.
+description: Row propriété. True sil sagit de la dernière ligne dun tableau  faux sinon.
 type: docs
 weight: 50
 url: /fr/net/aspose.words.tables/row/islastrow/
 ---
 ## Row.IsLastRow property
 
-Vrai s'il s'agit de la dernière ligne d'un tableau ; faux sinon.
+True s'il s'agit de la dernière ligne d'un tableau ; faux sinon.
 
 ```csharp
 public bool IsLastRow { get; }
@@ -16,13 +16,13 @@ public bool IsLastRow { get; }
 
 ### Exemples
 
-Montre comment définir une table pour rester ensemble sur la même page.
+Montre comment dresser une table pour rester ensemble sur la même page.
 
 ```csharp
 Document doc = new Document(MyDir + "Table spanning two pages.docx");
 Table table = doc.FirstSection.Body.Tables[0];
 
-// Activer KeepWithNext pour chaque paragraphe du tableau sauf pour le
+// Activation de KeepWithNext pour chaque paragraphe du tableau à l'exception du
 // les derniers de la dernière ligne empêcheront le tableau de se diviser sur plusieurs pages.
 foreach (Cell cell in table.GetChildNodes(NodeType.Cell, true).OfType<Cell>())
     foreach (Paragraph para in cell.Paragraphs.OfType<Paragraph>())

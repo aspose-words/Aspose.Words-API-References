@@ -16,7 +16,7 @@ public Underline Underline { get; set; }
 
 ### Örnekler
 
-Metnin altı çizili stilinin ve renginin nasıl yapılandırılacağını gösterir.
+Metnin alt çizgisinin stilinin ve renginin nasıl yapılandırılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -36,7 +36,7 @@ DocumentBuilder kullanılarak biçimlendirilmiş metnin nasıl ekleneceğini gö
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Yazı tipi biçimlendirmesini belirtin, ardından metin ekleyin.
+// Yazı tipi formatını belirtin, ardından metin ekleyin.
 Aspose.Words.Font font = builder.Font;
 font.Size = 16;
 font.Bold = true;
@@ -55,11 +55,11 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Write("For more information, please visit the ");
 
-// Bir köprü ekleyin ve özel biçimlendirme ile vurgulayın.
+// Bir köprü ekleyin ve bunu özel biçimlendirmeyle vurgulayın.
 // Köprü, bizi URL'de belirtilen konuma götürecek tıklanabilir bir metin parçası olacaktır.
 builder.Font.Color = Color.Blue;
 builder.Font.Underline = Underline.Single;
-builder.InsertHyperlink("Google website", "https://www.google.com", yanlış);
+builder.InsertHyperlink("Google website", "https://www.google.com", false);
 builder.Font.ClearFormatting();
 builder.Writeln(".");
 

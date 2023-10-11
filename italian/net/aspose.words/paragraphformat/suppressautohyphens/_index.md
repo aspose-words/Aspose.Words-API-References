@@ -3,7 +3,7 @@ title: ParagraphFormat.SuppressAutoHyphens
 second_title: Aspose.Words per .NET API Reference
 description: ParagraphFormat proprietà. Specifica se il paragrafo corrente deve essere esentato da qualsiasi sillabazione che viene applicata nelle impostazioni del documento.
 type: docs
-weight: 360
+weight: 370
 url: /it/net/aspose.words/paragraphformat/suppressautohyphens/
 ---
 ## ParagraphFormat.SuppressAutoHyphens property
@@ -24,13 +24,13 @@ Hyphenation.RegisterDictionary("de-CH", MyDir + "hyph_de_CH.dic");
 Assert.True(Hyphenation.IsDictionaryRegistered("de-CH"));
 
 // Apre un documento contenente testo con una lingua corrispondente a quella del nostro dizionario.
-// Quando salviamo questo documento in un formato di salvataggio della pagina fisso, il suo testo avrà la sillabazione.
+// Quando salviamo questo documento in un formato di salvataggio della pagina fisso, il suo testo avrà una sillabazione.
 Document doc = new Document(MyDir + "German text.docx");
 
 // Possiamo impostare la proprietà "SuppressAutoHyphens" su "true" per disabilitare la sillabazione
 // per un paragrafo specifico mantenendolo abilitato per il resto del documento.
 // Il valore predefinito per questa proprietà è "false",
-// il che significa che ogni paragrafo per impostazione predefinita usa la sillabazione, se disponibile.
+// il che significa che ogni paragrafo per impostazione predefinita utilizza la sillabazione, se disponibile.
 doc.FirstSection.Body.FirstParagraph.ParagraphFormat.SuppressAutoHyphens = suppressAutoHyphens;
 
 doc.Save(ArtifactsDir + "ParagraphFormat.SuppressHyphens.pdf");

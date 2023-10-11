@@ -1,14 +1,14 @@
 ---
 title: HtmlSaveOptions.HtmlSaveOptions
 second_title: Справочник по API Aspose.Words для .NET
-description: HtmlSaveOptions строитель. Инициализирует новый экземпляр этого класса который можно использовать для сохранения документа вHtml формат.
+description: HtmlSaveOptions строитель. Инициализирует новый экземпляр этого класса который можно использовать для сохранения документа document вHtml формат.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.saving/htmlsaveoptions/htmlsaveoptions/
 ---
 ## HtmlSaveOptions() {#constructor}
 
-Инициализирует новый экземпляр этого класса, который можно использовать для сохранения документа вHtml формат.
+Инициализирует новый экземпляр этого класса, который можно использовать для сохранения документа document вHtml формат.
 
 ```csharp
 public HtmlSaveOptions()
@@ -21,15 +21,15 @@ public HtmlSaveOptions()
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// Используйте объект SaveOptions для указания кодировки сохраняемого документа.
+// Используйте объект SaveOptions, чтобы указать кодировку документа, который мы сохраним.
 HtmlSaveOptions saveOptions = new HtmlSaveOptions();
 saveOptions.SaveFormat = SaveFormat.Epub;
 saveOptions.Encoding = Encoding.UTF8;
 
-// По умолчанию выходной документ .epub будет иметь все свое содержимое в одной HTML-части.
-// Критерий разделения позволяет нам разделить документ на несколько частей HTML.
+// По умолчанию выходной документ .epub будет содержать все свое содержимое в одной HTML-части.
+// Критерий разделения позволяет нам сегментировать документ на несколько частей HTML.
 // Мы установим критерии для разделения документа на абзацы заголовков.
-// Это полезно для читателей, которые не могут читать файлы HTML, размер которых превышает определенный.
+// Это полезно для читателей, которые не могут читать HTML-файлы, размер которых превышает определенный размер.
 saveOptions.DocumentSplitCriteria = DocumentSplitCriteria.HeadingParagraph;
 
 // Указываем, что хотим экспортировать свойства документа.
@@ -48,7 +48,7 @@ doc.Save(ArtifactsDir + "HtmlSaveOptions.Doc2EpubSaveOptions.epub", saveOptions)
 
 ## HtmlSaveOptions(SaveFormat) {#constructor_1}
 
-Инициализирует новый экземпляр этого класса, который можно использовать для сохранения документа вHtml ,Mhtml илиEpub формат.
+Инициализирует новый экземпляр этого класса, который можно использовать для сохранения документа document вHtml ,Mhtml ,Epub , Azw3 илиMobi формат.
 
 ```csharp
 public HtmlSaveOptions(SaveFormat saveFormat)
@@ -56,7 +56,7 @@ public HtmlSaveOptions(SaveFormat saveFormat)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| saveFormat | SaveFormat | Может бытьHtml ,Mhtml илиEpub. |
+| saveFormat | SaveFormat | Может бытьHtml ,Mhtml ,Epub , Azw3 илиMobi . |
 
 ### Примеры
 
@@ -73,7 +73,7 @@ HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.Html)
 
 doc.Save(ArtifactsDir + "HtmlSaveOptions.HtmlVersions.html", options);
 
-// Наши HTML-документы будут иметь незначительные отличия, чтобы быть совместимыми с разными версиями HTML.
+// Наши HTML-документы будут иметь незначительные различия, чтобы быть совместимыми с разными версиями HTML.
 string outDocContents = File.ReadAllText(ArtifactsDir + "HtmlSaveOptions.HtmlVersions.html");
 
 switch (htmlVersion)

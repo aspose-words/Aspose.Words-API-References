@@ -26,7 +26,7 @@ Mostra come capovolgere una forma su un asse.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Inserisce una forma dell'immagine e lascia il suo orientamento nel suo stato predefinito.
+// Inserisci una forma di immagine e lascia il suo orientamento nel suo stato predefinito.
 Shape shape = builder.InsertShape(ShapeType.Rectangle, RelativeHorizontalPosition.LeftMargin, 100,
     RelativeVerticalPosition.TopMargin, 100, 100, 100, WrapType.None);
 shape.ImageData.SetImage(ImageDir + "Logo.jpg");
@@ -53,7 +53,7 @@ shape = builder.InsertShape(ShapeType.Rectangle, RelativeHorizontalPosition.Left
     RelativeVerticalPosition.TopMargin, 250, 100, 100, WrapType.None);
 shape.ImageData.SetImage(ImageDir + "Logo.jpg");
 
-// Imposta la proprietà "FlipOrientation" su "FlipOrientation.Horizontal" per capovolgere la quarta forma su entrambi gli assi xey,
+// Imposta la proprietà "FlipOrientation" su "FlipOrientation.Horizontal" per invertire la quarta forma su entrambi gli assi x e y,
 // trasformandolo in un'immagine speculare orizzontale e verticale della prima forma.
 shape.FlipOrientation = FlipOrientation.Both;
 

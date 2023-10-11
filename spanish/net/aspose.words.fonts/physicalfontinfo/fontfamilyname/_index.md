@@ -1,14 +1,14 @@
 ---
 title: PhysicalFontInfo.FontFamilyName
 second_title: Referencia de API de Aspose.Words para .NET
-description: PhysicalFontInfo propiedad. Nombre de familia de la fuente.
+description: PhysicalFontInfo propiedad. Apellido de la fuente.
 type: docs
 weight: 20
 url: /es/net/aspose.words.fonts/physicalfontinfo/fontfamilyname/
 ---
 ## PhysicalFontInfo.FontFamilyName property
 
-Nombre de familia de la fuente.
+Apellido de la fuente.
 
 ```csharp
 public string FontFamilyName { get; }

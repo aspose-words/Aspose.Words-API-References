@@ -1,14 +1,14 @@
 ---
 title: Shading.Texture
 second_title: Aspose.Words per .NET API Reference
-description: Shading proprietà. Ottiene o imposta la trama dellombreggiatura.
+description: Shading proprietà. Ottiene o imposta la texture dellombreggiatura.
 type: docs
-weight: 30
+weight: 70
 url: /it/net/aspose.words/shading/texture/
 ---
 ## Shading.Texture property
 
-Ottiene o imposta la trama dell'ombreggiatura.
+Ottiene o imposta la texture dell'ombreggiatura.
 
 ```csharp
 public TextureIndex Texture { get; set; }

@@ -1,14 +1,16 @@
 ---
 title: Class RevisionGroup
 second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.RevisionGroup sınıf. Bir grup sıralıRevision nesneler.
+description: Aspose.Words.RevisionGroup sınıf. Sıralı bir grup temsil ederRevision nesneler.
 type: docs
-weight: 4520
+weight: 4780
 url: /tr/net/aspose.words/revisiongroup/
 ---
 ## RevisionGroup class
 
-Bir grup sıralı[`Revision`](../revision/) nesneler.
+Sıralı bir grup temsil eder[`Revision`](../revision/) nesneler.
+
+Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Belgedeki Değişiklikleri İzleme](https://docs.aspose.com/words/net/track-changes-in-a-document/) dokümantasyon makalesi.
 
 ```csharp
 public class RevisionGroup
@@ -18,13 +20,13 @@ public class RevisionGroup
 
 | İsim | Tanım |
 | --- | --- |
-| [Author](../../aspose.words/revisiongroup/author/) { get; } | Bu revizyon grubunun yazarını alır. |
-| [RevisionType](../../aspose.words/revisiongroup/revisiontype/) { get; } | Bu gruba dahil olan düzeltmelerin türünü alır. |
+| [Author](../../aspose.words/revisiongroup/author/) { get; } | Bu revizyon grubunun yazarını döndürür. |
+| [RevisionType](../../aspose.words/revisiongroup/revisiontype/) { get; } | Bu gruba dahil olan revizyonların türünü alır. |
 | [Text](../../aspose.words/revisiongroup/text/) { get; } | Eklenen/silinen/taşınan metni veya biçim değişikliğinin açıklamasını döndürür. |
 
 ### Örnekler
 
-Bir belgedeki bir grup düzeltme hakkındaki bilgilerin nasıl yazdırılacağını gösterir.
+Bir belgedeki revizyon grubu hakkındaki bilgilerin nasıl yazdırılacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Revisions.docx");

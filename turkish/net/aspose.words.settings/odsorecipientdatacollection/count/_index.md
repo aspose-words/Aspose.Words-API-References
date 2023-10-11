@@ -1,14 +1,14 @@
 ---
 title: OdsoRecipientDataCollection.Count
 second_title: Aspose.Words for .NET API Referansı
-description: OdsoRecipientDataCollection mülk. Koleksiyonda bulunan öğelerin sayısını alır.
+description: OdsoRecipientDataCollection mülk. Koleksiyonda yer alan öğelerin sayısını alır.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.settings/odsorecipientdatacollection/count/
 ---
 ## OdsoRecipientDataCollection.Count property
 
-Koleksiyonda bulunan öğelerin sayısını alır.
+Koleksiyonda yer alan öğelerin sayısını alır.
 
 ```csharp
 public int Count { get; }
@@ -16,7 +16,7 @@ public int Count { get; }
 
 ### Örnekler
 
-Adres mektup birleştirmenin hangi birleştirme veri kaynağı kayıtlarını dışlayacağını belirleyen veri koleksiyonuna nasıl erişileceğini gösterir.
+Adres-mektup birleştirmenin hangi birleştirme veri kaynağı kayıtlarını hariç tutacağını belirleyen veri koleksiyonuna nasıl erişileceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
@@ -41,7 +41,7 @@ using (IEnumerator<OdsoRecipientData> enumerator = dataCollection.GetEnumerator(
 // Bu koleksiyondaki elemanları klonlayabiliriz.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// Elemanları tek tek kaldırabilir veya tüm koleksiyonu bir kerede temizleyebiliriz.
+// Ayrıca öğeleri tek tek kaldırabiliriz veya koleksiyonun tamamını bir kerede temizleyebiliriz.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(69, dataCollection.Count);

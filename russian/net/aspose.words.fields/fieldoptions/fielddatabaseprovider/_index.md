@@ -3,7 +3,7 @@ title: FieldOptions.FieldDatabaseProvider
 second_title: Справочник по API Aspose.Words для .NET
 description: FieldOptions свойство. Получает или задает поставщика который возвращает результат запроса дляFieldDatabase поле.
 type: docs
-weight: 70
+weight: 80
 url: /ru/net/aspose.words.fields/fieldoptions/fielddatabaseprovider/
 ---
 ## FieldOptions.FieldDatabaseProvider property

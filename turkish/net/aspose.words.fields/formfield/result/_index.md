@@ -16,19 +16,19 @@ public string Result { get; set; }
 
 ### Notlar
 
-Bir metin form alanı için sonuç, alandaki metindir.
+Bir metin formu alanı için sonuç, alandaki metindir.
 
-Bir onay kutusu form alanı için, işaretli veya işaretsiz olduğunu belirtmek için sonuç "1" veya "0" olabilir.
+Onay kutusu form alanı için sonuç, işaretli veya işaretsiz olduğunu belirtmek üzere "1" veya "0" olabilir.
 
-Açılır form alanı için sonuç, açılır menüden seçilen dizedir.
+Açılır form alanı için sonuç, açılır menüde seçilen dizedir.
 
-Ayar`Result` bir metin formu alanı için belirtilen format metnini uygulamıyor[`TextInputFormat`](../textinputformat/) . Bir değer belirlemek ve the biçimini uygulamak istiyorsanız,[`SetTextInputValue`](../settextinputvalue/) yöntem.
+Ayar`Result` bir metin formu alanı için şu şekilde belirtilen metin formatı geçerli değildir:[`TextInputFormat`](../textinputformat/) . Bir değer ayarlamak ve the biçimini uygulamak istiyorsanız[`SetTextInputValue`](../settextinputvalue/) yöntem.
 
-Bir metin formu alanı için[`TextInputDefault`](../textinputdefault/) değer, eğer application ise*value* dır-dir`hükümsüz`.
+Bir metin formu alanı için[`TextInputDefault`](../textinputdefault/) değer uygulanır eğer*value* dır-dir`hükümsüz`.
 
 ### Örnekler
 
-Birleşik giriş kutusunun nasıl ekleneceğini gösterir.
+Açılan kutunun nasıl ekleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -36,14 +36,14 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Write("Please select a fruit: ");
 
-// Kullanıcının bir dizi diziden bir seçenek seçmesine izin verecek bir birleşik giriş kutusu ekleyin.
+// Kullanıcının bir dizi dizeden bir seçenek seçmesine olanak tanıyacak bir açılan kutu ekleyin.
 FormField comboBox = builder.InsertComboBox("MyComboBox", new[] { "Apple", "Banana", "Cherry" }, 0);
 
 Assert.AreEqual("MyComboBox", comboBox.Name);
 Assert.AreEqual(FieldType.FieldFormDropDown, comboBox.Type);
 Assert.AreEqual("Apple", comboBox.Result);
 
-// Form alanı bir "select" html etiketi şeklinde görünecektir.
+// Form alanı "select" html etiketi şeklinde görünecektir.
 doc.Save(ArtifactsDir + "FormFields.Create.html");
 ```
 

@@ -1,14 +1,14 @@
 ---
 title: CellFormat.BottomPadding
 second_title: Справочник по API Aspose.Words для .NET
-description: CellFormat свойство. Возвращает или задает количество места в пунктах для добавления под содержимым ячейки.
+description: CellFormat свойство. Возвращает или задает количество места в пунктах которое нужно добавить под содержимым ячейки.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.tables/cellformat/bottompadding/
 ---
 ## CellFormat.BottomPadding property
 
-Возвращает или задает количество места (в пунктах) для добавления под содержимым ячейки.
+Возвращает или задает количество места (в пунктах), которое нужно добавить под содержимым ячейки.
 
 ```csharp
 public double BottomPadding { get; set; }
@@ -16,7 +16,7 @@ public double BottomPadding { get; set; }
 
 ### Примеры
 
-Показывает, как форматировать ячейки с помощью конструктора документов.
+Показывает, как форматировать ячейки с помощью построителя документов.
 
 ```csharp
 Document doc = new Document();
@@ -26,8 +26,8 @@ Table table = builder.StartTable();
 builder.InsertCell();
 builder.Write("Row 1, cell 1.");
 
-// Вставьте вторую ячейку, а затем настройте параметры заполнения текста ячейки.
-// Конструктор применит эти настройки к своей текущей ячейке, а затем создаст все новые ячейки.
+// Вставляем вторую ячейку, а затем настраиваем параметры заполнения текста ячейки.
+// Построитель применит эти настройки к своей текущей ячейке, а затем создаст все новые ячейки.
 builder.InsertCell();
 
 CellFormat cellFormat = builder.CellFormat;
@@ -54,7 +54,7 @@ Assert.AreEqual(30.0d, table.FirstRow.Cells[1].CellFormat.RightPadding);
 Assert.AreEqual(30.0d, table.FirstRow.Cells[1].CellFormat.TopPadding);
 Assert.AreEqual(30.0d, table.FirstRow.Cells[1].CellFormat.BottomPadding);
 
-// Первая ячейка все равно будет увеличиваться в выходном документе, чтобы соответствовать размеру соседней ячейки.
+// Первая ячейка в выходном документе по-прежнему будет расти, чтобы соответствовать размеру соседней ячейки.
 doc.Save(ArtifactsDir + "DocumentBuilder.SetCellFormatting.docx");
 ```
 

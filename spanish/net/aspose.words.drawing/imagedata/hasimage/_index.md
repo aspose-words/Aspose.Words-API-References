@@ -1,14 +1,14 @@
 ---
 title: ImageData.HasImage
 second_title: Referencia de API de Aspose.Words para .NET
-description: ImageData propiedad. Devuelve verdadero si la forma tiene bytes de imagen o vincula una imagen.
+description: ImageData propiedad. Devolucionesverdadero si la forma tiene bytes de imagen o vincula una imagen.
 type: docs
 weight: 110
 url: /es/net/aspose.words.drawing/imagedata/hasimage/
 ---
 ## ImageData.HasImage property
 
-Devuelve verdadero si la forma tiene bytes de imagen o vincula una imagen.
+Devoluciones`verdadero` si la forma tiene bytes de imagen o vincula una imagen.
 
 ```csharp
 public bool HasImage { get; }

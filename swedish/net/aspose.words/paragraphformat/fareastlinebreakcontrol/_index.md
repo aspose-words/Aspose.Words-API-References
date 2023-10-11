@@ -3,7 +3,7 @@ title: ParagraphFormat.FarEastLineBreakControl
 second_title: Aspose.Words för .NET API Referens
 description: ParagraphFormat fast egendom. Hämtar eller ställer in en flagga som indikerar om östasiatiska linjebrytande regler tillämpas på det aktuella stycket.
 type: docs
-weight: 100
+weight: 110
 url: /sv/net/aspose.words/paragraphformat/fareastlinebreakcontrol/
 ---
 ## ParagraphFormat.FarEastLineBreakControl property

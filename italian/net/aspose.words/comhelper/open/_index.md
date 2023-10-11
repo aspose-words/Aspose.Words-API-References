@@ -16,15 +16,15 @@ public Document Open(string fileName)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| fileName | String | Nome file del documento da caricare. |
+| fileName | String | Nome del file del documento da caricare. |
 
 ### Valore di ritorno
 
-UN[`Document`](../../document/) oggetto che rappresenta un documento di Word.
+UN[`Document`](../../document/)oggetto che rappresenta un documento di Word.
 
 ### Osservazioni
 
-Questo metodo equivale a chiamare il[`Document`](../../document/) costruttore con un parametro del nome file.
+Questo metodo equivale a chiamare il file[`Document`](../../document/) costruttore con un parametro del nome file.
 
 ### Esempi
 
@@ -44,7 +44,7 @@ Mostra come aprire documenti utilizzando la classe ComHelper.
 // La classe ComHelper ci consente di caricare documenti dai client COM.
 ComHelper comHelper = new ComHelper();
 
-// 1 - Utilizzo di un nome file di sistema locale:
+// 1 - Utilizzando un nome file di sistema locale:
 Document doc = comHelper.Open(MyDir + "Document.docx");
 
 Assert.AreEqual("Hello World!\r\rHello Word!\r\r\rHello World!", doc.GetText().Trim());
@@ -77,15 +77,15 @@ public Document Open(Stream stream)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| stream | Stream | Un oggetto flusso .NET che contiene il documento da caricare. |
+| stream | Stream | Oggetto flusso .NET che contiene il documento da caricare. |
 
 ### Valore di ritorno
 
-UN[`Document`](../../document/) oggetto che rappresenta un documento di Word.
+UN[`Document`](../../document/)oggetto che rappresenta un documento di Word.
 
 ### Osservazioni
 
-Questo metodo equivale a chiamare il[`Document`](../../document/) costruttore con un parametro di flusso.
+Questo metodo equivale a chiamare il file[`Document`](../../document/) costruttore con un parametro stream.
 
 ### Esempi
 
@@ -95,7 +95,7 @@ Mostra come aprire documenti utilizzando la classe ComHelper.
 // La classe ComHelper ci consente di caricare documenti dai client COM.
 ComHelper comHelper = new ComHelper();
 
-// 1 - Utilizzo di un nome file di sistema locale:
+// 1 - Utilizzando un nome file di sistema locale:
 Document doc = comHelper.Open(MyDir + "Document.docx");
 
 Assert.AreEqual("Hello World!\r\rHello Word!\r\r\rHello World!", doc.GetText().Trim());

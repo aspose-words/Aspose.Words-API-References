@@ -3,7 +3,7 @@ title: Document.Clone
 second_title: Referencia de API de Aspose.Words para .NET
 description: Document método. Realiza una copia profunda delDocument .
 type: docs
-weight: 530
+weight: 570
 url: /es/net/aspose.words/document/clone/
 ---
 ## Document.Clone method

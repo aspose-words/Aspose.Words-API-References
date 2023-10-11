@@ -1,14 +1,16 @@
 ---
 title: Class MemoryFontSource
 second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.Fonts.MemoryFontSource klas. Repräsentiert die einzelne TrueTypeSchriftartdatei die im Speicher gespeichert ist.
+description: Aspose.Words.Fonts.MemoryFontSource klas. Stellt die einzelne im Speicher gespeicherte TrueTypeSchriftartdatei dar.
 type: docs
-weight: 2840
+weight: 3020
 url: /de/net/aspose.words.fonts/memoryfontsource/
 ---
 ## MemoryFontSource class
 
-Repräsentiert die einzelne TrueType-Schriftartdatei, die im Speicher gespeichert ist.
+Stellt die einzelne im Speicher gespeicherte TrueType-Schriftartdatei dar.
+
+Um mehr zu erfahren, besuchen Sie die[Arbeiten mit Schriftarten](https://docs.aspose.com/words/net/working-with-fonts/) Dokumentationsartikel.
 
 ```csharp
 public class MemoryFontSource : FontSourceBase
@@ -27,20 +29,20 @@ public class MemoryFontSource : FontSourceBase
 | Name | Beschreibung |
 | --- | --- |
 | [CacheKey](../../aspose.words.fonts/memoryfontsource/cachekey/) { get; } | Der Schlüssel dieser Quelle im Cache. |
-| [FontData](../../aspose.words.fonts/memoryfontsource/fontdata/) { get; } | Binäre Schriftdaten. |
-| [Priority](../../aspose.words.fonts/fontsourcebase/priority/) { get; } | Gibt die Priorität der Schriftquelle zurück. |
+| [FontData](../../aspose.words.fonts/memoryfontsource/fontdata/) { get; } | Binäre Schriftartdaten. |
+| [Priority](../../aspose.words.fonts/fontsourcebase/priority/) { get; } | Gibt die Priorität der Schriftartquelle zurück. |
 | override [Type](../../aspose.words.fonts/memoryfontsource/type/) { get; } | Gibt den Typ der Schriftartquelle zurück. |
-| [WarningCallback](../../aspose.words.fonts/fontsourcebase/warningcallback/) { get; set; } | Wird während der Verarbeitung der Schriftartquelle aufgerufen, wenn ein Problem erkannt wird, das zu einem Verlust der Formatierungstreue führen kann. |
+| [WarningCallback](../../aspose.words.fonts/fontsourcebase/warningcallback/) { get; set; } | Wird während der Verarbeitung der Schriftartquelle aufgerufen, wenn ein Problem erkannt wird, das zu einem Verlust der Formatierungstreue führen könnte. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [GetAvailableFonts](../../aspose.words.fonts/fontsourcebase/getavailablefonts/)() | Gibt eine Liste der Schriftarten zurück, die über diese Quelle verfügbar sind. |
+| [GetAvailableFonts](../../aspose.words.fonts/fontsourcebase/getavailablefonts/)() | Gibt eine Liste der über diese Quelle verfügbaren Schriftarten zurück. |
 
 ### Beispiele
 
-Zeigt, wie ein Bytearray mit Daten aus einer Schriftartdatei als Schriftartquelle verwendet wird.
+Zeigt, wie ein Byte-Array mit Daten aus einer Schriftartdatei als Schriftartquelle verwendet wird.
 
 ```csharp
 byte[] fontBytes = File.ReadAllBytes(MyDir + "Alte DIN 1451 Mittelschrift.ttf");

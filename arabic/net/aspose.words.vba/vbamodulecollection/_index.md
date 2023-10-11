@@ -1,14 +1,16 @@
 ---
 title: Class VbaModuleCollection
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Vba.VbaModuleCollection فصل. يمثل مجموعة منVbaModule الكائنات .
+description: Aspose.Words.Vba.VbaModuleCollection فصل. يمثل مجموعة منVbaModule الكائنات.
 type: docs
-weight: 6250
+weight: 6560
 url: /ar/net/aspose.words.vba/vbamodulecollection/
 ---
 ## VbaModuleCollection class
 
-يمثل مجموعة من[`VbaModule`](../vbamodule/) الكائنات .
+يمثل مجموعة من[`VbaModule`](../vbamodule/) الكائنات.
+
+لمعرفة المزيد، قم بزيارة[العمل مع وحدات ماكرو VBA](https://docs.aspose.com/words/net/working-with-vba-macros/) مقالة توثيقية.
 
 ```csharp
 public sealed class VbaModuleCollection : IEnumerable<VbaModule>
@@ -18,25 +20,26 @@ public sealed class VbaModuleCollection : IEnumerable<VbaModule>
 
 | اسم | وصف |
 | --- | --- |
-| [Count](../../aspose.words.vba/vbamodulecollection/count/) { get; } | إرجاع عدد وحدات VBA النمطية في المجموعة. |
-| [Item](../../aspose.words.vba/vbamodulecollection/item/) { get; } | يسترجع أ[`VbaModule`](../vbamodule/) كائن بالفهرس . (2 indexers) |
+| [Count](../../aspose.words.vba/vbamodulecollection/count/) { get; } | إرجاع عدد وحدات VBA في المجموعة. |
+| [Item](../../aspose.words.vba/vbamodulecollection/item/) { get; } | يسترد أ[`VbaModule`](../vbamodule/) كائن حسب الفهرس. (2 indexers) |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| [Add](../../aspose.words.vba/vbamodulecollection/add/)(VbaModule) | يضيف وحدة نمطية إلى المجموعة. |
-| [Remove](../../aspose.words.vba/vbamodulecollection/remove/)(VbaModule) | يزيل الوحدة النمطية المحددة من المجموعة. |
+| [Add](../../aspose.words.vba/vbamodulecollection/add/)(VbaModule) | إضافة وحدة إلى المجموعة. |
+| [Remove](../../aspose.words.vba/vbamodulecollection/remove/)(VbaModule) | إزالة الوحدة المحددة من المجموعة. |
 
 ### أمثلة
 
-يوضح كيفية الوصول إلى معلومات مشروع VBA للمستند.
+يوضح كيفية الوصول إلى معلومات مشروع VBA الخاص بالمستند.
 
 ```csharp
 Document doc = new Document(MyDir + "VBA project.docm");
 
-// يحتوي مشروع VBA على مجموعة من وحدات VBA النمطية.
+// يحتوي مشروع VBA على مجموعة من وحدات VBA.
 VbaProject vbaProject = doc.VbaProject;
+Console.WriteLine(vbaProject.IsSigned
     ? $"Project name: {vbaProject.Name} signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n"
     : $"Project name: {vbaProject.Name} not signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n");
 
@@ -47,7 +50,7 @@ Assert.AreEqual(vbaModules.Count(), 3);
 foreach (VbaModule module in vbaModules)
     Console.WriteLine($"Module name: {module.Name};\nModule code:\n{module.SourceCode}\n");
 
-// تعيين رمز مصدر جديد لوحدة VBA. يمكنك الوصول إلى وحدات VBA النمطية في المجموعة إما بالفهرس أو بالاسم.
+// قم بتعيين كود مصدر جديد لوحدة VBA. يمكنك الوصول إلى وحدات VBA الموجودة في المجموعة إما عن طريق الفهرس أو بالاسم.
 vbaModules[0].SourceCode = "Your VBA code...";
 vbaModules["Module1"].SourceCode = "Your VBA code...";
 

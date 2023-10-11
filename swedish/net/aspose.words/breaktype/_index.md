@@ -3,7 +3,7 @@ title: Enum BreakType
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.BreakType uppräkning. Anger typen av brytning i ett dokument.
 type: docs
-weight: 100
+weight: 110
 url: /sv/net/aspose.words/breaktype/
 ---
 ## BreakType enumeration

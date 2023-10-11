@@ -1,14 +1,14 @@
 ---
 title: TabStopCollection.RemoveByIndex
 second_title: Aspose.Words لمراجع .NET API
-description: TabStopCollection طريقة. يزيل علامة الجدولة في الفهرس المحدد من المجموعة.
+description: TabStopCollection طريقة. إزالة علامة الجدولة عند الفهرس المحدد من المجموعة.
 type: docs
 weight: 110
 url: /ar/net/aspose.words/tabstopcollection/removebyindex/
 ---
 ## TabStopCollection.RemoveByIndex method
 
-يزيل علامة الجدولة في الفهرس المحدد من المجموعة.
+إزالة علامة الجدولة عند الفهرس المحدد من المجموعة.
 
 ```csharp
 public void RemoveByIndex(int index)
@@ -20,7 +20,7 @@ public void RemoveByIndex(int index)
 
 ### أمثلة
 
-يوضح كيفية تحديد علامة جدولة في مستند من خلال فهرسه وإزالته.
+يوضح كيفية تحديد علامة جدولة في مستند بواسطة فهرسه وإزالته.
 
 ```csharp
 Document doc = new Document();
@@ -31,7 +31,7 @@ tabStops.Add(ConvertUtil.MillimeterToPoint(60), TabAlignment.Left, TabLeader.Das
 
 Assert.AreEqual(2, tabStops.Count);
 
-// إزالة علامة التبويب الأولى.
+// قم بإزالة علامة التبويب الأولى.
 tabStops.RemoveByIndex(0);
 
 Assert.AreEqual(1, tabStops.Count);

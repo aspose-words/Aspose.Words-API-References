@@ -3,7 +3,7 @@ title: Stroke.Transparency
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Stroke propriété. Obtient ou définit une valeur comprise entre 00 opaque et 10 clair représentant le degré de transparence du trait.
 type: docs
-weight: 180
+weight: 200
 url: /fr/net/aspose.words.drawing/stroke/transparency/
 ---
 ## Stroke.Transparency property
@@ -20,7 +20,7 @@ La valeur par défaut est 0.
 
 ### Exemples
 
-Montrez comment définir la mise en forme des marqueurs.
+Montrez comment définir le formatage des marqueurs.
 
 ```csharp
 Document doc = new Document();

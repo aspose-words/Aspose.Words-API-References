@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.TruncateFontHeightsLikeWP6
 second_title: Referencia de API de Aspose.Words para .NET
-description: CompatibilityOptions propiedad. Emular WordPerfect 6.x Cálculo de altura de fuente.
+description: CompatibilityOptions propiedad. Emular el cálculo de altura de fuente de WordPerfect 6.x.
 type: docs
 weight: 560
 url: /es/net/aspose.words.settings/compatibilityoptions/truncatefontheightslikewp6/
 ---
 ## CompatibilityOptions.TruncateFontHeightsLikeWP6 property
 
-Emular WordPerfect 6.x Cálculo de altura de fuente.
+Emular el cálculo de altura de fuente de WordPerfect 6.x.
 
 ```csharp
 public bool TruncateFontHeightsLikeWP6 { get; set; }

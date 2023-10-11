@@ -1,14 +1,14 @@
 ---
 title: FieldChar.IsDirty
 second_title: Aspose.Words für .NET-API-Referenz
-description: FieldChar eigendom. Ruft ab oder legt fest ob das aktuelle Ergebnis des Felds aufgrund anderer Änderungen am Dokument nicht mehr korrekt veraltet ist.
+description: FieldChar eigendom. Ruft ab oder legt fest ob das aktuelle Ergebnis des Felds aufgrund anderer am Dokument vorgenommener Änderungen nicht mehr korrekt veraltet ist.
 type: docs
 weight: 20
 url: /de/net/aspose.words.fields/fieldchar/isdirty/
 ---
 ## FieldChar.IsDirty property
 
-Ruft ab oder legt fest, ob das aktuelle Ergebnis des Felds aufgrund anderer Änderungen am Dokument nicht mehr korrekt (veraltet) ist.
+Ruft ab oder legt fest, ob das aktuelle Ergebnis des Felds aufgrund anderer am Dokument vorgenommener Änderungen nicht mehr korrekt (veraltet) ist.
 
 ```csharp
 public bool IsDirty { get; set; }
@@ -38,7 +38,7 @@ field = (FieldDate)fieldStart.GetField();
 Assert.AreEqual(false, field.IsLocked);
 Assert.AreEqual(" DATE  \\@ \"dddd, MMMM dd, yyyy\"", field.GetFieldCode());
 
-// Aktualisieren Sie das Feld, um das aktuelle Datum anzuzeigen.
+// Feld aktualisieren, um das aktuelle Datum anzuzeigen.
 field.Update();
 ```
 

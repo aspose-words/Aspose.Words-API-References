@@ -3,7 +3,7 @@ title: Class ResourceLoadingArgs
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Loading.ResourceLoadingArgs klass. Tillhandahåller data förResourceLoading metod.
 type: docs
-weight: 3490
+weight: 3690
 url: /sv/net/aspose.words.loading/resourceloadingargs/
 ---
 ## ResourceLoadingArgs class
@@ -33,6 +33,7 @@ public class ResourceLoadingArgs
 Visar hur man anpassar processen för att ladda externa resurser i ett dokument.
 
 ```csharp
+public void ResourceLoadingCallback()
 {
     Document doc = new Document();
     doc.ResourceLoadingCallback = new ImageNameHandler();
@@ -48,6 +49,7 @@ Visar hur man anpassar processen för att ladda externa resurser i ett dokument.
     Assert.AreEqual(3, doc.GetChildNodes(NodeType.Shape, true).Count);
 
     doc.Save(ArtifactsDir + "DocumentBase.ResourceLoadingCallback.docx");
+}
 
 /// <summary>
 /// Låter oss läsa in bilder i ett dokument med fördefinierade förkortningar, till skillnad från URI:er.

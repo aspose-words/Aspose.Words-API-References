@@ -1,14 +1,14 @@
 ---
 title: Font.ThemeFontOther
 second_title: Referencia de API de Aspose.Words para .NET
-description: Font propiedad. Obtiene o establece la fuente del tema utilizada para los caracteres con códigos de caracteres del 128 al 255 en el esquema de fuente aplicado que está asociado con este objeto Font.
+description: Font propiedad. Obtiene o establece la fuente del tema utilizada para caracteres con códigos de caracteres del 128 al 255 en el esquema de fuente aplicado que está asociado con esteFont objeto.
 type: docs
 weight: 510
 url: /es/net/aspose.words/font/themefontother/
 ---
 ## Font.ThemeFontOther property
 
-Obtiene o establece la fuente del tema utilizada para los caracteres con códigos de caracteres del 128 al 255 en el esquema de fuente aplicado que está asociado con este objeto Font.
+Obtiene o establece la fuente del tema utilizada para caracteres con códigos de caracteres del 128 al 255 en el esquema de fuente aplicado que está asociado con este[`Font`](../) objeto.
 
 ```csharp
 public ThemeFont ThemeFontOther { get; set; }
@@ -16,12 +16,12 @@ public ThemeFont ThemeFontOther { get; set; }
 
 ### Ejemplos
 
-Muestra cómo trabajar con fuentes y colores temáticos.
+Muestra cómo trabajar con fuentes y colores de temas.
 
 ```csharp
 Document doc = new Document();
 
-// Definir fuentes para usos de idiomas por defecto.
+// Definir fuentes para los idiomas utilizados de forma predeterminada.
 doc.Theme.MinorFonts.Latin = "Algerian";
 doc.Theme.MinorFonts.EastAsian = "Aharoni";
 doc.Theme.MinorFonts.ComplexScript = "Andalus";
@@ -74,7 +74,7 @@ Assert.AreEqual("Algerian", font.NameOther);
 Assert.AreEqual(ThemeColor.None, font.ThemeColor);
 Assert.AreEqual(Color.Empty, font.Color);
 
-// 2 - Al establecer nombres de fuentes/colores que no sean del tema:
+// 2 - Configurando nombres de fuentes/colores que no sean temas:
 font.Name = "Arial";
 font.Color = Color.Blue;
 

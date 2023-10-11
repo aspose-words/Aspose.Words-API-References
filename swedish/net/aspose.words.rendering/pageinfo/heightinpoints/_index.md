@@ -3,7 +3,7 @@ title: PageInfo.HeightInPoints
 second_title: Aspose.Words för .NET API Referens
 description: PageInfo fast egendom. Får sidans höjd i poäng.
 type: docs
-weight: 10
+weight: 20
 url: /sv/net/aspose.words.rendering/pageinfo/heightinpoints/
 ---
 ## PageInfo.HeightInPoints property

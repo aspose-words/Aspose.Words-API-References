@@ -16,15 +16,16 @@ public bool Filled { get; set; }
 
 ### Notlar
 
-Bu bir kısayolOn Emlak.
+Bu, kısayol[`Visible`](../../fill/visible/) mülk.
 
-Varsayılan değer **doğru**.
+Varsayılan değer:`doğru`.
 
 ### Örnekler
 
 Bir belgedeki tüm şekillerin nasıl yineleneceğini gösterir.
 
 ```csharp
+public void VisitShapes()
 {
     Document doc = new Document(MyDir + "Revision shape.docx");
     ShapeAppearancePrinter visitor = new ShapeAppearancePrinter();
@@ -34,7 +35,7 @@ Bir belgedeki tüm şekillerin nasıl yineleneceğini gösterir.
 }
 
 /// <summary>
-/// Ziyaret edilen şekiller hakkında görünümle ilgili bilgileri günlüğe kaydeder.
+/// Ziyaret edilen şekillerle ilgili görünümle ilgili bilgileri günlüğe kaydeder.
 /// </summary>
 private class ShapeAppearancePrinter : DocumentVisitor
 {
@@ -46,7 +47,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Her girinti düzeyi için başına bir sekme karakteri eklenerek StringBuilder'a bir satır ekler.
+    /// Her girinti düzeyi için başına bir sekme karakteri eklenmiş bir satırı StringBuilder'a ekler.
     /// </summary>
     private void AppendLine(string text)
     {
@@ -56,7 +57,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// StringBuilder'ın topladığı tüm metni döndür.
+    /// StringBuilder'ın biriktirdiği tüm metni döndürün.
     /// </summary>
     public string GetText()
     {
@@ -112,7 +113,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Bu ziyaretçi GroupShape düğümünün başlangıcını ziyaret ettiğinde çağrılır.
+    /// Bu ziyaretçi bir GroupShape düğümünün başlangıcını ziyaret ettiğinde çağrılır.
     /// </summary>
     public override VisitorAction VisitGroupShapeStart(GroupShape groupShape)
     {
@@ -123,7 +124,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Bu ziyaretçi GroupShape düğümünün sonunu ziyaret ettiğinde çağrılır.
+    /// Bu ziyaretçi bir GroupShape düğümünün sonunu ziyaret ettiğinde çağrılır.
     /// </summary>
     public override VisitorAction VisitGroupShapeEnd(GroupShape groupShape)
     {

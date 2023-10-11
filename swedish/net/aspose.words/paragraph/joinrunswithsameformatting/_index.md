@@ -3,7 +3,7 @@ title: Paragraph.JoinRunsWithSameFormatting
 second_title: Aspose.Words för .NET API Referens
 description: Paragraph metod. Joins körs med samma formatering i stycket.
 type: docs
-weight: 280
+weight: 300
 url: /sv/net/aspose.words/paragraph/joinrunswithsameformatting/
 ---
 ## Paragraph.JoinRunsWithSameFormatting method

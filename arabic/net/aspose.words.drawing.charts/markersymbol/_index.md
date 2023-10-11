@@ -1,14 +1,14 @@
 ---
 title: Enum MarkerSymbol
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Drawing.Charts.MarkerSymbol تعداد. يحدد نمط رمز العلامة .
+description: Aspose.Words.Drawing.Charts.MarkerSymbol تعداد. يحدد نمط رمز العلامة.
 type: docs
-weight: 790
+weight: 920
 url: /ar/net/aspose.words.drawing.charts/markersymbol/
 ---
 ## MarkerSymbol enumeration
 
-يحدد نمط رمز العلامة .
+يحدد نمط رمز العلامة.
 
 ```csharp
 public enum MarkerSymbol
@@ -18,25 +18,24 @@ public enum MarkerSymbol
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| Default | `0` | تحديد رمز علامة افتراضي يتم رسمه عند كل نقطة بيانات. |
-| Circle | `1` | يحدد دائرة يتم رسمها عند كل نقطة بيانات. |
-| Dash | `2` | تحديد يجب رسم شرطة عند كل نقطة بيانات. |
-| Diamond | `3` | يحدد ماسة يجب رسمها عند كل نقطة بيانات. |
-| Dot | `4` | يحدد نقطة يتم رسمها عند كل نقطة بيانات. |
-| None | `5` | يحدد أي شيء يجب رسمه في كل نقطة بيانات. |
-| Picture | `6` | يحدد صورة يجب رسمها عند كل نقطة بيانات. |
-| Plus | `7` | يحدد علامة زائد يتم رسمها عند كل نقطة بيانات. |
-| Square | `8` | يحدد مربعًا يجب رسمه عند كل نقطة بيانات. |
+| Default | `0` | يحدد رمز العلامة الافتراضية الذي سيتم رسمه عند كل نقطة بيانات. |
+| Circle | `1` | يحدد رسم دائرة عند كل نقطة بيانات. |
+| Dash | `2` | يحدد أنه يجب رسم شرطة عند كل نقطة بيانات. |
+| Diamond | `3` | يحدد أنه يجب رسم الماسة عند كل نقطة بيانات. |
+| Dot | `4` | يحدد نقطة يجب رسمها عند كل نقطة بيانات. |
+| None | `5` | يحدد عدم رسم أي شيء عند كل نقطة بيانات. |
+| Picture | `6` | يحدد الصورة التي سيتم رسمها عند كل نقطة بيانات. |
+| Plus | `7` | يحدد علامة الجمع التي سيتم رسمها عند كل نقطة بيانات. |
+| Square | `8` | يحدد أنه يجب رسم مربع عند كل نقطة بيانات. |
 | Star | `9` | يحدد أنه يجب رسم نجمة عند كل نقطة بيانات. |
-| Triangle | `10` | يحدد مثلث يجب رسمه عند كل نقطة بيانات. |
-| X | `11` | يحدد X يجب رسمه عند كل نقطة بيانات. |
+| Triangle | `10` | يحدد رسم المثلث عند كل نقطة بيانات. |
+| X | `11` | يحدد رسم X عند كل نقطة بيانات. |
 
 ### أمثلة
 
 يوضح كيفية التعامل مع نقاط البيانات على مخطط خطي.
 
 ```csharp
-[Test]
 public void ChartDataPoint()
 {
     Document doc = new Document();
@@ -50,14 +49,14 @@ public void ChartDataPoint()
     Assert.AreEqual("Series 2", chart.Series[1].Name);
     Assert.AreEqual("Series 3", chart.Series[2].Name);
 
-    // قم بتأكيد نقاط بيانات المخطط بجعلها تظهر كأشكال ماسية.
+    // قم بتأكيد نقاط بيانات المخطط من خلال جعلها تظهر كأشكال ماسية.
     foreach (ChartSeries series in chart.Series) 
         ApplyDataPoints(series, 4, MarkerSymbol.Diamond, 15);
 
-    // قم بتمهيد الخط الذي يمثل سلسلة البيانات الأولى.
+    // قم بتسوية الخط الذي يمثل سلسلة البيانات الأولى.
     chart.Series[0].Smooth = true;
 
-    // تحقق من أن نقاط البيانات للسلسلة الأولى لن تعكس ألوانها إذا كانت القيمة سالبة.
+    // تحقق من أن نقاط البيانات الخاصة بالسلسلة الأولى لن تعكس ألوانها إذا كانت القيمة سالبة.
     using (IEnumerator<ChartDataPoint> enumerator = chart.Series[0].DataPoints.GetEnumerator())
     {
         while (enumerator.MoveNext())
@@ -66,7 +65,7 @@ public void ChartDataPoint()
         }
     }
 
-    // للحصول على رسم بياني أكثر وضوحًا ، يمكننا مسح التنسيق بشكل فردي.
+    // للحصول على رسم بياني أكثر وضوحًا، يمكننا مسح التنسيق بشكل فردي.
     chart.Series[1].DataPoints[2].ClearFormat();
 
     // يمكننا أيضًا تجريد سلسلة كاملة من نقاط البيانات مرة واحدة.
@@ -76,7 +75,7 @@ public void ChartDataPoint()
 }
 
 /// <summary>
-/// يطبق عددًا من نقاط البيانات على سلسلة.
+/// يطبق عددًا من نقاط البيانات على السلسلة.
 /// </summary>
 private static void ApplyDataPoints(ChartSeries series, int dataPointsCount, MarkerSymbol markerSymbol, int dataPointSize)
 {

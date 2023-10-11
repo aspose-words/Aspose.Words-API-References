@@ -25,7 +25,7 @@ Kehrt zurück`Null`wenn die angegebene Schriftart nicht eingebettet ist.
 
 ### Beispiele
 
-Zeigt, wie eine eingebettete Schriftart aus einem Dokument extrahiert und im lokalen Dateisystem gespeichert wird.
+Zeigt, wie man eine eingebettete Schriftart aus einem Dokument extrahiert und im lokalen Dateisystem speichert.
 
 ```csharp
 Document doc = new Document(MyDir + "Embedded font.docx");
@@ -34,7 +34,7 @@ FontInfo embeddedFont = doc.FontInfos["Alte DIN 1451 Mittelschrift"];
 byte[] embeddedFontBytes = embeddedFont.GetEmbeddedFont(EmbeddedFontFormat.OpenType, EmbeddedFontStyle.Regular);
 File.WriteAllBytes(ArtifactsDir + "Alte DIN 1451 Mittelschrift.ttf", embeddedFontBytes);
 
-// Eingebettete Schriftformate können in anderen Formaten wie .doc anders sein.
+// Eingebettete Schriftartformate können in anderen Formaten wie .doc unterschiedlich sein.
 // Wir müssen das richtige Format kennen, bevor wir die Schriftart extrahieren können.
 doc = new Document(MyDir + "Embedded font.doc");
 

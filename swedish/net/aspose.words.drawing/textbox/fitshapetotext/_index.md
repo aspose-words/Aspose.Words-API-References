@@ -16,7 +16,7 @@ public bool FitShapeToText { get; set; }
 
 ### Anmärkningar
 
-Standardvärdet är **falsk**.
+Standardvärdet är`falsk`.
 
 ### Exempel
 

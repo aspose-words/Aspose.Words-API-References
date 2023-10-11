@@ -3,12 +3,14 @@ title: Class FileFontSource
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Aspose.Words.Fonts.FileFontSource classe. Représente le fichier de police TrueType unique stocké dans le système de fichiers.
 type: docs
-weight: 2690
+weight: 2870
 url: /fr/net/aspose.words.fonts/filefontsource/
 ---
 ## FileFontSource class
 
 Représente le fichier de police TrueType unique stocké dans le système de fichiers.
+
+Pour en savoir plus, visitez le[Travailler avec des polices](https://docs.aspose.com/words/net/working-with-fonts/) article documentaire.
 
 ```csharp
 public class FileFontSource : FontSourceBase
@@ -18,9 +20,9 @@ public class FileFontSource : FontSourceBase
 
 | Nom | La description |
 | --- | --- |
-| [FileFontSource](filefontsource/#constructor)(string) | Ctor. |
-| [FileFontSource](filefontsource/#constructor_1)(string, int) | Ctor. |
-| [FileFontSource](filefontsource/#constructor_2)(string, int, string) | Ctor. |
+| [FileFontSource](filefontsource/#constructor)(string) | Directeur. |
+| [FileFontSource](filefontsource/#constructor_1)(string, int) | Directeur. |
+| [FileFontSource](filefontsource/#constructor_2)(string, int, string) | Directeur. |
 
 ## Propriétés
 
@@ -28,9 +30,9 @@ public class FileFontSource : FontSourceBase
 | --- | --- |
 | [CacheKey](../../aspose.words.fonts/filefontsource/cachekey/) { get; } | La clé de cette source dans le cache. |
 | [FilePath](../../aspose.words.fonts/filefontsource/filepath/) { get; } | Chemin d'accès au fichier de police. |
-| [Priority](../../aspose.words.fonts/fontsourcebase/priority/) { get; } | Renvoie la priorité de la source de la police. |
-| override [Type](../../aspose.words.fonts/filefontsource/type/) { get; } | Renvoie le type de la source de la police. |
-| [WarningCallback](../../aspose.words.fonts/fontsourcebase/warningcallback/) { get; set; } | Appelé lors du traitement de la source de la police lorsqu'un problème est détecté pouvant entraîner une perte de fidélité de formatage. |
+| [Priority](../../aspose.words.fonts/fontsourcebase/priority/) { get; } | Renvoie la priorité de la source de police. |
+| override [Type](../../aspose.words.fonts/filefontsource/type/) { get; } | Renvoie le type de la source de police. |
+| [WarningCallback](../../aspose.words.fonts/fontsourcebase/warningcallback/) { get; set; } | Appelé lors du traitement de la source de police lorsqu'un problème susceptible d'entraîner une perte de fidélité du formatage est détecté. |
 
 ## Méthodes
 

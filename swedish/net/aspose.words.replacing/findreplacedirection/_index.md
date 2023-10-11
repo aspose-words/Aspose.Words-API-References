@@ -3,7 +3,7 @@ title: Enum FindReplaceDirection
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Replacing.FindReplaceDirection uppräkning. Anger riktning för ersättningsoperationer.
 type: docs
-weight: 4350
+weight: 4610
 url: /sv/net/aspose.words.replacing/findreplacedirection/
 ---
 ## FindReplaceDirection enumeration

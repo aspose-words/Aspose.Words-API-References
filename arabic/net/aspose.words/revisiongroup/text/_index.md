@@ -1,14 +1,14 @@
 ---
 title: RevisionGroup.Text
 second_title: Aspose.Words لمراجع .NET API
-description: RevisionGroup ملكية. إرجاع النص الذي تم إدخاله / حذفه / نقله أو وصف تغيير التنسيق.
+description: RevisionGroup ملكية. إرجاع النص المدرج/المحذوف/المنقول أو وصف تغيير التنسيق.
 type: docs
 weight: 30
 url: /ar/net/aspose.words/revisiongroup/text/
 ---
 ## RevisionGroup.Text property
 
-إرجاع النص الذي تم إدخاله / حذفه / نقله أو وصف تغيير التنسيق.
+إرجاع النص المدرج/المحذوف/المنقول أو وصف تغيير التنسيق.
 
 ```csharp
 public string Text { get; }

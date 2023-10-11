@@ -1,14 +1,14 @@
 ---
 title: FieldMergeBarcode.AddStartStopChar
 second_title: Referencia de API de Aspose.Words para .NET
-description: FieldMergeBarcode propiedad. Obtiene o establece si se agregan caracteres de inicio/detención para los tipos de código de barras NW7 y CODE39.
+description: FieldMergeBarcode propiedad. Obtiene o establece si se deben agregar caracteres de inicio/parada para los tipos de códigos de barras NW7 y CODE39.
 type: docs
 weight: 20
 url: /es/net/aspose.words.fields/fieldmergebarcode/addstartstopchar/
 ---
 ## FieldMergeBarcode.AddStartStopChar property
 
-Obtiene o establece si se agregan caracteres de inicio/detención para los tipos de código de barras NW7 y CODE39.
+Obtiene o establece si se deben agregar caracteres de inicio/parada para los tipos de códigos de barras NW7 y CODE39.
 
 ```csharp
 public bool AddStartStopChar { get; set; }
@@ -23,19 +23,19 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Inserte un campo MERGEBARCODE, que aceptará valores de una fuente de datos durante una combinación de correspondencia.
-// Este campo convertirá todos los valores en la columna "MyCODE39Barcode" de una fuente de datos combinados en códigos de barras CODE39.
+// Este campo convertirá todos los valores de la columna "MyCODE39Barcode" de una fuente de datos combinada en códigos de barras CODE39.
 FieldMergeBarcode field = (FieldMergeBarcode)builder.InsertField(FieldType.FieldMergeBarcode, true);
 field.BarcodeType = "CODE39";
 field.BarcodeValue = "MyCODE39Barcode";
 
-// Edite su apariencia para mostrar los caracteres de inicio/finalización.
+// Edita su apariencia para mostrar caracteres de inicio/parada.
 field.AddStartStopChar = true;
 
 Assert.AreEqual(FieldType.FieldMergeBarcode, field.Type);
 Assert.AreEqual(" MERGEBARCODE  MyCODE39Barcode CODE39 \\d", field.GetFieldCode());
 builder.Writeln();
 
-// Crear un DataTable con una columna con el mismo nombre que el BarcodeValue de nuestro campo MERGEBARCODE.
+// Crea una DataTable con una columna con el mismo nombre que BarcodeValue de nuestro campo MERGEBARCODE.
 // La combinación de correspondencia creará una nueva página para cada fila. Cada página contendrá un campo DISPLAYBARCODE,
 // que mostrará un código de barras CODE39 con el valor de la fila fusionada.
 DataTable table = new DataTable("Barcodes");

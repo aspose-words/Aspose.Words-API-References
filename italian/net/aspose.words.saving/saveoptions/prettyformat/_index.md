@@ -1,14 +1,14 @@
 ---
 title: SaveOptions.PrettyFormat
 second_title: Aspose.Words per .NET API Reference
-description: SaveOptions proprietà. QuandoVERO  formati graziosi di output ove applicabile. Il valore predefinito è falso .
+description: SaveOptions proprietà. QuandoVERO formati di output graziosi dove applicabile. Il valore predefinito èfalso .
 type: docs
-weight: 120
+weight: 110
 url: /it/net/aspose.words.saving/saveoptions/prettyformat/
 ---
 ## SaveOptions.PrettyFormat property
 
-Quando`VERO` , formati graziosi di output ove applicabile. Il valore predefinito è **falso** .
+Quando`VERO` formati di output graziosi dove applicabile. Il valore predefinito è`falso` .
 
 ```csharp
 public bool PrettyFormat { get; set; }
@@ -16,7 +16,7 @@ public bool PrettyFormat { get; set; }
 
 ### Osservazioni
 
-Impostato **VERO** per rendere leggibili gli output HTML, MHTML, EPUB, WordML, RTF, DOCX e ODT. Utile per test o debug.
+Impostato`VERO` per rendere leggibile l'output HTML, MHTML, EPUB, WordML, RTF, DOCX e ODT. Utile per test o debug.
 
 ### Esempi
 
@@ -31,7 +31,7 @@ HtmlSaveOptions htmlOptions = new HtmlSaveOptions(SaveFormat.Html) { PrettyForma
 
 doc.Save(ArtifactsDir + "HtmlSaveOptions.PrettyFormat.html", htmlOptions);
 
-// L'abilitazione del formato grazioso rende il codice html grezzo più leggibile aggiungendo il punto di tabulazione e nuovi caratteri di riga.
+// L'abilitazione del formato carino rende il codice html grezzo più leggibile aggiungendo caratteri di tabulazione e di nuova riga.
 string html = File.ReadAllText(ArtifactsDir + "HtmlSaveOptions.PrettyFormat.html");
 
 if (usePrettyFormat)

@@ -1,14 +1,14 @@
 ---
 title: DocumentPropertyCollection.Contains
 second_title: Справочник по API Aspose.Words для .NET
-description: DocumentPropertyCollection метод. Возвращает значение true если свойство с указанным именем существует в коллекции.
+description: DocumentPropertyCollection метод. Возвращаетистинный если свойство с указанным именем существует в коллекции.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.properties/documentpropertycollection/contains/
 ---
 ## DocumentPropertyCollection.Contains method
 
-Возвращает значение true, если свойство с указанным именем существует в коллекции.
+Возвращает`истинный` если свойство с указанным именем существует в коллекции.
 
 ```csharp
 public bool Contains(string name)
@@ -16,15 +16,15 @@ public bool Contains(string name)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| name | String | Нечувствительное к регистру имя свойства. |
+| name | String | Имя свойства без учета регистра. |
 
 ### Возвращаемое значение
 
-Истинно, если свойство существует в коллекции; ложно в противном случае.
+`истинный` если свойство существует в коллекции;`ЛОЖЬ` в противном случае.
 
 ### Примеры
 
-Показывает, как работать с пользовательскими свойствами документа.
+Показывает, как работать с настраиваемыми свойствами документа.
 
 ```csharp
 Document doc = new Document();
@@ -43,21 +43,21 @@ properties.Add("Authorized Amount", 123.45);
 Assert.AreEqual(1, properties.IndexOf("Authorized Amount"));
 Assert.AreEqual(5, properties.Count);
 
-// Распечатать каждое пользовательское свойство в документе.
+// Распечатываем все пользовательские свойства в документе.
 using (IEnumerator<DocumentProperty> enumerator = properties.GetEnumerator())
 {
     while (enumerator.MoveNext())
         Console.WriteLine($"Name: \"{enumerator.Current.Name}\"\n\tType: \"{enumerator.Current.Type}\"\n\tValue: \"{enumerator.Current.Value}\"");
 }
 
-// Отображение значения пользовательского свойства с использованием поля DOCPROPERTY.
+// Отображение значения пользовательского свойства с помощью поля DOCPROPERTY.
 DocumentBuilder builder = new DocumentBuilder(doc);
 FieldDocProperty field = (FieldDocProperty)builder.InsertField(" DOCPROPERTY \"Authorized By\"");
 field.Update();
 
 Assert.AreEqual("John Doe", field.Result);
 
-// Мы можем найти эти пользовательские свойства в Microsoft Word через «Файл» -> "Свойства" > "Дополнительные свойства" > "Обычай".
+// Мы можем найти эти пользовательские свойства в Microsoft Word через «Файл» -> gt; «Свойства» > «Дополнительные свойства» > "Обычай".
 doc.Save(ArtifactsDir + "DocumentProperties.DocumentPropertyCollection.docx");
 
 // Ниже приведены три способа удаления пользовательских свойств из документа.

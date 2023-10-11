@@ -1,14 +1,16 @@
 ---
 title: Class FileFontSource
 second_title: Aspose.Words per .NET API Reference
-description: Aspose.Words.Fonts.FileFontSource classe. Rappresenta il singolo file di font TrueType archiviato nel file system.
+description: Aspose.Words.Fonts.FileFontSource classe. Rappresenta il singolo file di caratteri TrueType memorizzato nel file system.
 type: docs
-weight: 2690
+weight: 2870
 url: /it/net/aspose.words.fonts/filefontsource/
 ---
 ## FileFontSource class
 
-Rappresenta il singolo file di font TrueType archiviato nel file system.
+Rappresenta il singolo file di caratteri TrueType memorizzato nel file system.
+
+Per saperne di più, visita il[Lavorare con i caratteri](https://docs.aspose.com/words/net/working-with-fonts/) articolo di documentazione.
 
 ```csharp
 public class FileFontSource : FontSourceBase
@@ -18,25 +20,25 @@ public class FileFontSource : FontSourceBase
 
 | Nome | Descrizione |
 | --- | --- |
-| [FileFontSource](filefontsource/#constructor)(string) | Tor. |
-| [FileFontSource](filefontsource/#constructor_1)(string, int) | Tor. |
-| [FileFontSource](filefontsource/#constructor_2)(string, int, string) | Tor. |
+| [FileFontSource](filefontsource/#constructor)(string) | Ctor. |
+| [FileFontSource](filefontsource/#constructor_1)(string, int) | Ctor. |
+| [FileFontSource](filefontsource/#constructor_2)(string, int, string) | Ctor. |
 
 ## Proprietà
 
 | Nome | Descrizione |
 | --- | --- |
-| [CacheKey](../../aspose.words.fonts/filefontsource/cachekey/) { get; } | La chiave di questa sorgente nella cache. |
+| [CacheKey](../../aspose.words.fonts/filefontsource/cachekey/) { get; } | La chiave di questa origine nella cache. |
 | [FilePath](../../aspose.words.fonts/filefontsource/filepath/) { get; } | Percorso del file del carattere. |
-| [Priority](../../aspose.words.fonts/fontsourcebase/priority/) { get; } | Restituisce la priorità dell'origine del carattere. |
-| override [Type](../../aspose.words.fonts/filefontsource/type/) { get; } | Restituisce il tipo di origine del carattere. |
-| [WarningCallback](../../aspose.words.fonts/fontsourcebase/warningcallback/) { get; set; } | Chiamato durante l'elaborazione dell'origine del carattere quando viene rilevato un problema che potrebbe causare una perdita di fedeltà di formattazione. |
+| [Priority](../../aspose.words.fonts/fontsourcebase/priority/) { get; } | Restituisce la priorità della fonte del carattere. |
+| override [Type](../../aspose.words.fonts/filefontsource/type/) { get; } | Restituisce il tipo di fonte del carattere. |
+| [WarningCallback](../../aspose.words.fonts/fontsourcebase/warningcallback/) { get; set; } | Chiamato durante l'elaborazione dell'origine del carattere quando viene rilevato un problema che potrebbe comportare una perdita di fedeltà della formattazione. |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| [GetAvailableFonts](../../aspose.words.fonts/fontsourcebase/getavailablefonts/)() | Restituisce l'elenco dei caratteri disponibili tramite questa fonte. |
+| [GetAvailableFonts](../../aspose.words.fonts/fontsourcebase/getavailablefonts/)() | Restituisce l'elenco dei caratteri disponibili tramite questa origine. |
 
 ### Esempi
 

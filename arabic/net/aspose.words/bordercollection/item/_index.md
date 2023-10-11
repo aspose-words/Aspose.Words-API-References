@@ -1,14 +1,14 @@
 ---
 title: BorderCollection.Item
 second_title: Aspose.Words لمراجع .NET API
-description: BorderCollection ملكية. استرداد كائن حد حسب نوع الحد.
+description: BorderCollection ملكية. يسترد أBorder الكائن حسب نوع الحدود.
 type: docs
 weight: 60
 url: /ar/net/aspose.words/bordercollection/item/
 ---
 ## BorderCollection indexer (1 of 2)
 
-استرداد كائن حد حسب نوع الحد.
+يسترد أ[`Border`](../../border/) الكائن حسب نوع الحدود.
 
 ```csharp
 public Border this[BorderType borderType] { get; }
@@ -16,11 +16,11 @@ public Border this[BorderType borderType] { get; }
 
 | معامل | وصف |
 | --- | --- |
-| borderType | أ[`BorderType`](../../bordertype/) value التي تحدد نوع الحد المراد استرداده. |
+| borderType | أ[`BorderType`](../../bordertype/) value الذي يحدد نوع الحد المطلوب استرداده. |
 
 ### ملاحظات
 
-لاحظ أنه ليست كل الحدود موجودة لعناصر المستند المختلفة . هذه الطريقة تفرض استثناءً إذا طلبت حدًا غير قابل للتطبيق على الكائن الحالي.
+لاحظ أنه ليست كل الحدود موجودة لعناصر وثيقة مختلفة. تطرح هذه الطريقة استثناءً إذا طلبت حدًا لا ينطبق على الكائن الحالي.
 
 ### أمثلة
 
@@ -58,7 +58,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.ApplyBordersAndShading.docx");
 
 ## BorderCollection indexer (2 of 2)
 
-استرداد كائن حد بالفهرس .
+يسترد أ[`Border`](../../border/) كائن حسب الفهرس.
 
 ```csharp
 public Border this[int index] { get; }
@@ -66,7 +66,7 @@ public Border this[int index] { get; }
 
 | معامل | وصف |
 | --- | --- |
-| index | فهرس الحدود الصفري المراد استرداده. |
+| index | الفهرس القائم على الصفر من الحدود لاسترداد. |
 
 ### أمثلة
 
@@ -80,10 +80,9 @@ builder.Writeln("Paragraph 1.");
 builder.Write("Paragraph 2.");
 
 // نظرًا لأننا استخدمنا نفس تكوين الحدود أثناء الإنشاء
-// هذه الفقرات ، تشترك مجموعاتها الحدودية في نفس العناصر.
+// هذه الفقرات، مجموعات حدودها تشترك في نفس العناصر.
 BorderCollection firstParagraphBorders = doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Borders;
 BorderCollection secondParagraphBorders = builder.CurrentParagraph.ParagraphFormat.Borders;
-
 for (int i = 0; i < firstParagraphBorders.Count; i++)
 {
     Assert.IsTrue(firstParagraphBorders[i].Equals(secondParagraphBorders[i]));
@@ -94,14 +93,14 @@ for (int i = 0; i < firstParagraphBorders.Count; i++)
 foreach (Border border in secondParagraphBorders)
     border.LineStyle = LineStyle.DotDash;
 
-// بعد تغيير نمط خط الحدود في الفقرة الثانية فقط ،
+// بعد تغيير نمط خط الحدود في الفقرة الثانية فقط،
 // لم تعد مجموعات الحدود تشترك في نفس العناصر.
 for (int i = 0; i < firstParagraphBorders.Count; i++)
 {
     Assert.IsFalse(firstParagraphBorders[i].Equals(secondParagraphBorders[i]));
     Assert.AreNotEqual(firstParagraphBorders[i].GetHashCode(), secondParagraphBorders[i].GetHashCode());
 
-    // تغيير مظهر حد فارغ يجعله مرئيًا.
+    // تغيير مظهر الحدود الفارغة يجعلها مرئية.
     Assert.True(secondParagraphBorders[i].IsVisible);
 }
 

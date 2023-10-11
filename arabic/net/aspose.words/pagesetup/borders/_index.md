@@ -1,14 +1,14 @@
 ---
 title: PageSetup.Borders
 second_title: Aspose.Words لمراجع .NET API
-description: PageSetup ملكية. الحصول على مجموعة من حدود الصفحة .
+description: PageSetup ملكية. الحصول على مجموعة من حدود الصفحة.
 type: docs
 weight: 50
 url: /ar/net/aspose.words/pagesetup/borders/
 ---
 ## PageSetup.Borders property
 
-الحصول على مجموعة من حدود الصفحة .
+الحصول على مجموعة من حدود الصفحة.
 
 ```csharp
 public BorderCollection Borders { get; }
@@ -16,7 +16,7 @@ public BorderCollection Borders { get; }
 
 ### أمثلة
 
-يوضح كيفية إنشاء حد صفحة أخضر مموج بظل.
+يوضح كيفية إنشاء حدود صفحة خضراء متموجة مع الظل.
 
 ```csharp
 Document doc = new Document();

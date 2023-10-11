@@ -1,14 +1,14 @@
 ---
 title: DocSaveOptions.Password
 second_title: Referencia de API de Aspose.Words para .NET
-description: DocSaveOptions propiedad. Obtiene/establece una contraseña para cifrar el documento mediante el método de cifrado RC4.
+description: DocSaveOptions propiedad. Obtiene/establece una contraseña para cifrar el documento utilizando el método de cifrado RC4.
 type: docs
 weight: 30
 url: /es/net/aspose.words.saving/docsaveoptions/password/
 ---
 ## DocSaveOptions.Password property
 
-Obtiene/establece una contraseña para cifrar el documento mediante el método de cifrado RC4.
+Obtiene/establece una contraseña para cifrar el documento utilizando el método de cifrado RC4.
 
 ```csharp
 public string Password { get; set; }
@@ -16,11 +16,11 @@ public string Password { get; set; }
 
 ### Observaciones
 
-Para guardar el documento sin encriptar, esta propiedad debe ser una cadena nula o vacía.
+Para guardar el documento sin cifrar, esta propiedad debe ser`nulo` o cadena vacía.
 
 ### Ejemplos
 
-Muestra cómo configurar las opciones de guardado para formatos de Microsoft Word más antiguos.
+Muestra cómo configurar opciones de guardado para formatos antiguos de Microsoft Word.
 
 ```csharp
 Document doc = new Document();
@@ -29,11 +29,11 @@ builder.Write("Hello world!");
 
 DocSaveOptions options = new DocSaveOptions(SaveFormat.Doc);
 
-// Establecer una contraseña que protegerá la carga del documento por Microsoft Word o Aspose.Words.
+// Establece una contraseña que protegerá la carga del documento mediante Microsoft Word o Aspose.Words.
 // Tenga en cuenta que esto no cifra el contenido del documento de ninguna manera.
 options.Password = "MyPassword";
 
-// Si el documento contiene una hoja de enrutamiento, podemos conservarlo mientras se guarda configurando este indicador en verdadero.
+// Si el documento contiene una hoja de ruta, podemos conservarlo mientras lo guardamos estableciendo este indicador en verdadero.
 options.SaveRoutingSlip = true;
 
 doc.Save(ArtifactsDir + "DocSaveOptions.SaveAsDoc.doc", options);

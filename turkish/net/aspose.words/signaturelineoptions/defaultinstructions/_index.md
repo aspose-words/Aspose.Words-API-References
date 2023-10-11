@@ -1,14 +1,14 @@
 ---
 title: SignatureLineOptions.DefaultInstructions
 second_title: Aspose.Words for .NET API Referansı
-description: SignatureLineOptions mülk. İmzala iletişim kutusunda varsayılan talimatların gösterildiğini belirten bir değer alır veya ayarlar. Bu özellik için varsayılan değer doğru .
+description: SignatureLineOptions mülk. İmza iletişim kutusunda varsayılan talimatların gösterildiğini belirten bir değer alır veya ayarlar. Bu özelliğin varsayılan değeridoğru .
 type: docs
 weight: 30
 url: /tr/net/aspose.words/signaturelineoptions/defaultinstructions/
 ---
 ## SignatureLineOptions.DefaultInstructions property
 
-İmzala iletişim kutusunda varsayılan talimatların gösterildiğini belirten bir değer alır veya ayarlar. Bu özellik için varsayılan değer **doğru** .
+İmza iletişim kutusunda varsayılan talimatların gösterildiğini belirten bir değer alır veya ayarlar. Bu özelliğin varsayılan değeri:`doğru` .
 
 ```csharp
 public bool DefaultInstructions { get; set; }
@@ -16,7 +16,7 @@ public bool DefaultInstructions { get; set; }
 
 ### Örnekler
 
-Kişisel sertifika ve imza satırı ile bir belgenin nasıl imzalanacağını gösterir.
+Kişisel sertifika ve imza satırı içeren bir belgenin nasıl imzalanacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -54,7 +54,7 @@ CertificateHolder certHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "a
 DigitalSignatureUtil.Sign(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.docx", 
     ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx", certHolder, signOptions);
 
-// Kaydedilmiş belgemizi yeniden açın ve "IsSigned" ve "IsValid" özelliklerinin her ikisinin de "true" değerine eşit olduğunu doğrulayın,
+// Kaydedilen belgemizi yeniden açın ve "IsSigned" ve "IsValid" özelliklerinin her ikisinin de "true" değerine eşit olduğunu doğrulayın,
 // imza satırının bir imza içerdiğini belirtir.
 doc = new Document(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx");
 Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);

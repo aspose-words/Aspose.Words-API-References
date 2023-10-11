@@ -1,14 +1,14 @@
 ---
 title: MarkdownSaveOptions.MarkdownSaveOptions
 second_title: Aspose.Words for .NET API Referansı
-description: MarkdownSaveOptions inşaatçı. Bu sınıfın bir document dosyasını şuraya kaydetmek için kullanılabilecek yeni bir örneğini başlatır.Markdown biçim.
+description: MarkdownSaveOptions inşaatçı. Bu sınıfın bir document dosyasını kaydetmek için kullanılabilecek yeni bir örneğini başlatır.Markdown format.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.saving/markdownsaveoptions/markdownsaveoptions/
 ---
 ## MarkdownSaveOptions constructor
 
-Bu sınıfın, bir document dosyasını şuraya kaydetmek için kullanılabilecek yeni bir örneğini başlatır.Markdown biçim.
+Bu sınıfın, bir document dosyasını kaydetmek için kullanılabilecek yeni bir örneğini başlatır.Markdown format.
 
 ```csharp
 public MarkdownSaveOptions()

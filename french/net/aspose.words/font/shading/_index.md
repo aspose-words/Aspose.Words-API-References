@@ -1,14 +1,14 @@
 ---
 title: Font.Shading
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Font propriété. Renvoie un objet Shading qui fait référence à la mise en forme de lombrage de la police.
+description: Font propriété. Renvoie unShading objet qui fait référence au formatage dombrage de la police.
 type: docs
 weight: 320
 url: /fr/net/aspose.words/font/shading/
 ---
 ## Font.Shading property
 
-Renvoie un objet Shading qui fait référence à la mise en forme de l'ombrage de la police.
+Renvoie un[`Shading`](../../shading/) objet qui fait référence au formatage d'ombrage de la police.
 
 ```csharp
 public Shading Shading { get; }
@@ -16,7 +16,7 @@ public Shading Shading { get; }
 
 ### Exemples
 
-Montre comment appliquer un ombrage au texte créé par un générateur de document.
+Montre comment appliquer un ombrage au texte créé par un générateur de documents.
 
 ```csharp
 Document doc = new Document();
@@ -24,8 +24,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Font.Color = Color.White;
 
-// Une façon de rendre visible le texte créé à l'aide de notre couleur de police blanche
-// est d'appliquer un effet d'ombrage de fond.
+// Une façon de rendre visible le texte créé en utilisant notre couleur de police blanche
+// consiste à appliquer un effet d'ombrage d'arrière-plan.
 Shading shading = builder.Font.Shading;
 shading.Texture = TextureIndex.TextureDiagonalUp;
 shading.BackgroundPatternColor = Color.OrangeRed;

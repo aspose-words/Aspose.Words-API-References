@@ -1,14 +1,14 @@
 ---
 title: HtmlSaveOptions.ExportImagesAsBase64
 second_title: Aspose.Words لمراجع .NET API
-description: HtmlSaveOptions ملكية. يحدد ما إذا كانت الصور سيتم حفظها بتنسيق Base64 لإخراج HTML أو MHTML أو EPUB. الافتراضي هوخاطئة .
+description: HtmlSaveOptions ملكية. يحدد ما إذا كان سيتم حفظ الصور بتنسيق Base64 إلى مخرجات HTML أو MHTML أو EPUB. الافتراضي هوخطأ شنيع .
 type: docs
-weight: 180
+weight: 170
 url: /ar/net/aspose.words.saving/htmlsaveoptions/exportimagesasbase64/
 ---
 ## HtmlSaveOptions.ExportImagesAsBase64 property
 
-يحدد ما إذا كانت الصور سيتم حفظها بتنسيق Base64 لإخراج HTML أو MHTML أو EPUB. الافتراضي هو`خاطئة` .
+يحدد ما إذا كان سيتم حفظ الصور بتنسيق Base64 إلى مخرجات HTML أو MHTML أو EPUB. الافتراضي هو`خطأ شنيع` .
 
 ```csharp
 public bool ExportImagesAsBase64 { get; set; }
@@ -16,7 +16,7 @@ public bool ExportImagesAsBase64 { get; set; }
 
 ### ملاحظات
 
-عندما يتم تعيين هذه الخاصية على`حقيقي`يتم تصدير بيانات الصور مباشرة إلى ملف **IMG** لم يتم إنشاء عناصر وملفات منفصلة.
+عندما يتم تعيين هذه الخاصية إلى`حقيقي` يتم تصدير بيانات الصور مباشرة إلى ملف **img** لا يتم إنشاء العناصر والملفات المنفصلة.
 
 ### أمثلة
 
@@ -35,7 +35,7 @@ HtmlSaveOptions options = new HtmlSaveOptions
 doc.Save(ArtifactsDir + "HtmlSaveOptions.ExportFontsAsBase64.html", options);
 ```
 
-يوضح كيفية حفظ مستند بتنسيق .html مع صور مضمنة بداخله.
+يوضح كيفية حفظ مستند .html مع الصور المضمنة بداخله.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

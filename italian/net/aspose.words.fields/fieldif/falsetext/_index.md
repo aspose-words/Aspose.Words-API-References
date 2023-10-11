@@ -1,14 +1,14 @@
 ---
 title: FieldIf.FalseText
 second_title: Aspose.Words per .NET API Reference
-description: FieldIf proprietà. Ottiene o imposta il testo visualizzato se lespressione di confronto è false.
+description: FieldIf proprietà. Ottiene o imposta il testo visualizzato se lespressione di confronto lo èfalso .
 type: docs
 weight: 30
 url: /it/net/aspose.words.fields/fieldif/falsetext/
 ---
 ## FieldIf.FalseText property
 
-Ottiene o imposta il testo visualizzato se l'espressione di confronto è false.
+Ottiene o imposta il testo visualizzato se l'espressione di confronto lo è`falso` .
 
 ```csharp
 public string FalseText { get; set; }
@@ -16,7 +16,7 @@ public string FalseText { get; set; }
 
 ### Esempi
 
-Mostra come inserire un campo SE.
+Mostra come inserire un campo IF.
 
 ```csharp
 Document doc = new Document();
@@ -28,7 +28,7 @@ field.LeftExpression = "0";
 field.ComparisonOperator = "=";
 field.RightExpression = "1";
 
-// Il campo SE visualizzerà una stringa dalla sua proprietà "TrueText",
+// Il campo IF visualizzerà una stringa dalla sua proprietà "TrueText",
 // o la sua proprietà "FalseText", a seconda della verità dell'affermazione che abbiamo costruito.
 field.TrueText = "True";
 field.FalseText = "False";
@@ -48,7 +48,7 @@ field.TrueText = "True";
 field.FalseText = "False";
 field.Update();
 
-// Questa volta l'affermazione è corretta, quindi il risultato visualizzato sarà "True".
+// Questa volta l'affermazione è corretta, quindi il risultato visualizzato sarà "Vero".
 Assert.AreEqual(" IF  5 = \"2 + 3\" True False", field.GetFieldCode());
 Assert.AreEqual(FieldIfComparisonResult.True, field.EvaluateCondition());
 Assert.AreEqual("True", field.Result);

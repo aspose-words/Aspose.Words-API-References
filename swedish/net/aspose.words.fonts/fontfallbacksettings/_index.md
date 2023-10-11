@@ -3,12 +3,14 @@ title: Class FontFallbackSettings
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Fonts.FontFallbackSettings klass. Anger inställningar för reservmekanism för teckensnitt.
 type: docs
-weight: 2720
+weight: 2900
 url: /sv/net/aspose.words.fonts/fontfallbacksettings/
 ---
 ## FontFallbackSettings class
 
 Anger inställningar för reservmekanism för teckensnitt.
+
+För att lära dig mer, besök[Arbeta med teckensnitt](https://docs.aspose.com/words/net/working-with-fonts/) dokumentationsartikel.
 
 ```csharp
 public class FontFallbackSettings

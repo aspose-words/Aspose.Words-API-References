@@ -46,6 +46,7 @@ doc.Save(ArtifactsDir + "FontSettings.DefaultFontInstance.pdf");
 Visar hur man använder IWarningCallback-gränssnittet för att övervaka varningar för teckensnittsersättning.
 
 ```csharp
+public void SubstitutionWarning()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -69,9 +70,10 @@ Visar hur man använder IWarningCallback-gränssnittet för att övervaka varnin
 
     FontSettings.DefaultInstance.SetFontsSources(originalFontSources);
 
+    Assert.True(callback.FontSubstitutionWarnings[0].WarningType == WarningType.FontSubstitution);
     Assert.True(callback.FontSubstitutionWarnings[0].Description
         .Equals(
-            "Font 'Times New Roman' has not been found. Using 'Fanwood' font instead. Reason: first available font."));
+            "Font 'Times New Roman' has not been found. Using 'Fanwood' font instead. Reason: first available font.", StringComparison.Ordinal));
 }
 
 private class FontSubstitutionWarningCollector : IWarningCallback

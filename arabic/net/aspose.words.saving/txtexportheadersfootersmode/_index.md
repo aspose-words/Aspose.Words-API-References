@@ -3,7 +3,7 @@ title: Enum TxtExportHeadersFootersMode
 second_title: Aspose.Words لمراجع .NET API
 description: Aspose.Words.Saving.TxtExportHeadersFootersMode تعداد. يحدد طريقة تصدير الرؤوس والتذييلات إلى تنسيق نص عادي.
 type: docs
-weight: 5360
+weight: 5640
 url: /ar/net/aspose.words.saving/txtexportheadersfootersmode/
 ---
 ## TxtExportHeadersFootersMode enumeration
@@ -18,9 +18,9 @@ public enum TxtExportHeadersFootersMode
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| None | `0` | لا يتم تصدير رؤوس وتذييلات . |
+| None | `0` | لم يتم تصدير الرؤوس والتذييلات. |
 | PrimaryOnly | `1` | يتم تصدير الرؤوس والتذييلات الأساسية فقط في بداية ونهاية كل قسم. |
-| AllAtEnd | `2` | يتم وضع كافة الرؤوس والتذييلات بعد كل نصوص الأقسام في نهاية المستند. |
+| AllAtEnd | `2` | يتم وضع كافة الرؤوس والتذييلات بعد جميع نصوص الأقسام في نهاية المستند. |
 
 ### أمثلة
 
@@ -29,8 +29,8 @@ public enum TxtExportHeadersFootersMode
 ```csharp
 Document doc = new Document();
 
-// أدخل الرؤوس / التذييلات الزوجية والأساسية في المستند.
-// سيتجاوز الرأس / التذييلات الأساسية الرؤوس / التذييلات الزوجية.
+// أدخل الرؤوس والتذييلات الزوجية والأساسية في المستند.
+// سوف يتجاوز الرأس/التذييلات الأساسية الرؤوس/التذييلات الزوجية.
 doc.FirstSection.HeadersFooters.Add(new HeaderFooter(doc, HeaderFooterType.HeaderEven));
 doc.FirstSection.HeadersFooters[HeaderFooterType.HeaderEven].AppendParagraph("Even header");
 doc.FirstSection.HeadersFooters.Add(new HeaderFooter(doc, HeaderFooterType.FooterEven));
@@ -48,16 +48,16 @@ builder.Writeln("Page 2");
 builder.InsertBreak(BreakType.PageBreak); 
 builder.Write("Page 3");
 
-// قم بإنشاء كائن "TxtSaveOptions" ، والذي يمكننا تمريره إلى طريقة "Save" الخاصة بالمستند
-// لتعديل كيفية حفظ المستند على نص عادي.
+// قم بإنشاء كائن "TxtSaveOptions"، والذي يمكننا تمريره إلى طريقة "حفظ" المستند
+// لتعديل كيفية حفظ المستند إلى نص عادي.
 TxtSaveOptions saveOptions = new TxtSaveOptions();
 
-// تعيين خاصية "ExportHeadersFootersMode" إلى "TxtExportHeadersFootersMode.None"
-// لعدم تصدير أي رؤوس / تذييلات.
-// تعيين خاصية "ExportHeadersFootersMode" إلى "TxtExportHeadersFootersMode.PrimaryOnly"
-// لتصدير الرؤوس / التذييلات الأساسية فقط.
-// تعيين خاصية "ExportHeadersFootersMode" إلى "TxtExportHeadersFootersMode.AllAtEnd"
-// لوضع كل الرؤوس والتذييلات لجميع نصوص الأقسام في نهاية المستند.
+// قم بتعيين خاصية "ExportHeadersFootersMode" على "TxtExportHeadersFootersMode.None"
+// لعدم تصدير أي رؤوس/تذييلات.
+// قم بتعيين خاصية "ExportHeadersFootersMode" على "TxtExportHeadersFootersMode.PrimaryOnly"
+// لتصدير الرؤوس/التذييلات الأساسية فقط.
+// قم بتعيين خاصية "ExportHeadersFootersMode" على "TxtExportHeadersFootersMode.AllAtEnd"
+// لوضع كافة الرؤوس والتذييلات لجميع نصوص الأقسام في نهاية المستند.
 saveOptions.ExportHeadersFootersMode = txtExportHeadersFootersMode;
 
 doc.Save(ArtifactsDir + "TxtSaveOptions.ExportHeadersFooters.txt", saveOptions);

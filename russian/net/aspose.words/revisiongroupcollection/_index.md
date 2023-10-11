@@ -1,14 +1,16 @@
 ---
 title: Class RevisionGroupCollection
 second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.RevisionGroupCollection сорт. КоллекцияRevisionGroup объекты представляющие группы ревизий в документе.
+description: Aspose.Words.RevisionGroupCollection сорт. КоллекцияRevisionGroup объекты которые представляют группы редакций в документе.
 type: docs
-weight: 4530
+weight: 4790
 url: /ru/net/aspose.words/revisiongroupcollection/
 ---
 ## RevisionGroupCollection class
 
-Коллекция[`RevisionGroup`](../revisiongroup/) объекты, представляющие группы ревизий в документе.
+Коллекция[`RevisionGroup`](../revisiongroup/) объекты, которые представляют группы редакций в документе.
+
+Чтобы узнать больше, посетите[Отслеживать изменения в документе](https://docs.aspose.com/words/net/track-changes-in-a-document/) статья документации.
 
 ```csharp
 public sealed class RevisionGroupCollection : IEnumerable<RevisionGroup>
@@ -18,8 +20,8 @@ public sealed class RevisionGroupCollection : IEnumerable<RevisionGroup>
 
 | Имя | Описание |
 | --- | --- |
-| [Count](../../aspose.words/revisiongroupcollection/count/) { get; } | Возвращает количество групп ревизий в коллекции. |
-| [Item](../../aspose.words/revisiongroupcollection/item/) { get; } | Возвращает группу ревизий по указанному индексу. |
+| [Count](../../aspose.words/revisiongroupcollection/count/) { get; } | Возвращает количество групп редакций в коллекции. |
+| [Item](../../aspose.words/revisiongroupcollection/item/) { get; } | Возвращает группу редакций по указанному индексу. |
 
 ## Методы
 
@@ -29,7 +31,7 @@ public sealed class RevisionGroupCollection : IEnumerable<RevisionGroup>
 
 ### Примечания
 
-Вы не создаете экземпляры этого класса напрямую. Использовать[`Groups`](../revisioncollection/groups/) , чтобы группы ревизий присутствовали в документе.
+Вы не создаете экземпляры этого класса напрямую. Использовать[`Groups`](../revisioncollection/groups/) Свойство для получения групп редакций, присутствующих в документе.
 
 ### Примеры
 

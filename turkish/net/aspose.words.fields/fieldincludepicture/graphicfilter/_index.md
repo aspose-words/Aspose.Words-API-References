@@ -1,14 +1,14 @@
 ---
 title: FieldIncludePicture.GraphicFilter
 second_title: Aspose.Words for .NET API Referansı
-description: FieldIncludePicture mülk. Eklenecek grafiğin biçimi için filtrenin adını alır veya ayarlar.
+description: FieldIncludePicture mülk. Eklenecek grafiğin formatına ilişkin filtrenin adını alır veya ayarlar.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fields/fieldincludepicture/graphicfilter/
 ---
 ## FieldIncludePicture.GraphicFilter property
 
-Eklenecek grafiğin biçimi için filtrenin adını alır veya ayarlar.
+Eklenecek grafiğin formatına ilişkin filtrenin adını alır veya ayarlar.
 
 ```csharp
 public string GraphicFilter { get; set; }
@@ -16,13 +16,13 @@ public string GraphicFilter { get; set; }
 
 ### Örnekler
 
-IMPORT ve INCLUDEPICTURE alanlarını kullanarak resimlerin nasıl ekleneceğini gösterir.
+IMPORT ve INCLUDEPICTURE alanlarını kullanarak görüntülerin nasıl ekleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Aşağıda, yerel dosya sisteminden bağlantılı görüntüleri görüntülemek için kullanabileceğimiz iki benzer alan türü bulunmaktadır.
+// Aşağıda yerel dosya sisteminden bağlantılı görselleri görüntülemek için kullanabileceğimiz iki benzer alan türü bulunmaktadır.
 // 1 - INCLUDEPICTURE alanı:
 FieldIncludePicture fieldIncludePicture = (FieldIncludePicture)builder.InsertField(FieldType.FieldIncludePicture, true);
 fieldIncludePicture.SourceFullName = ImageDir + "Transparent background logo.png";

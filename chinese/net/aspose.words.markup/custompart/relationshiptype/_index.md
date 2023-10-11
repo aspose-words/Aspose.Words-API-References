@@ -16,13 +16,13 @@ public string RelationshipType { get; set; }
 
 ### 评论
 
-自定义部件的关系类型必须是“未知的”，例如自定义关系类型， 不是 ISO/IEC 29500 中定义的关系类型之一。
+自定义部件的关系类型必须是“未知”，例如自定义关系类型 不是 ISO/IEC 29500 中定义的关系类型之一。
 
 默认值为空字符串。有效值必须是非空字符串。
 
 ### 例子
 
-显示如何访问文档的任意自定义部件集合。
+演示如何访问文档的任意自定义部件集合。
 
 ```csharp
 Document doc = new Document(MyDir + "Custom parts OOXML package.docx");
@@ -51,7 +51,7 @@ using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator
     }
 }
 
-// 我们可以从这个集合中单独删除元素，也可以一次全部删除。
+// 我们可以从该集合中单独删除元素，也可以一次性删除所有元素。
 doc.PackageCustomParts.RemoveAt(2);
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);

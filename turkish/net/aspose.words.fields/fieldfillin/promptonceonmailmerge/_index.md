@@ -1,14 +1,14 @@
 ---
 title: FieldFillIn.PromptOnceOnMailMerge
 second_title: Aspose.Words for .NET API Referansı
-description: FieldFillIn mülk. Bir adres mektup birleştirme işlemi başına kullanıcı yanıtının bir kez alınıp alınmayacağını alır veya ayarlar.
+description: FieldFillIn mülk. Adresmektup birleştirme işlemi başına kullanıcı yanıtının bir kez alınması gerekip gerekmediğini alır veya ayarlar.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.fields/fieldfillin/promptonceonmailmerge/
 ---
 ## FieldFillIn.PromptOnceOnMailMerge property
 
-Bir adres mektup birleştirme işlemi başına kullanıcı yanıtının bir kez alınıp alınmayacağını alır veya ayarlar.
+Adres-mektup birleştirme işlemi başına kullanıcı yanıtının bir kez alınması gerekip gerekmediğini alır veya ayarlar.
 
 ```csharp
 public bool PromptOnceOnMailMerge { get; set; }
@@ -16,7 +16,7 @@ public bool PromptOnceOnMailMerge { get; set; }
 
 ### Örnekler
 
-Kullanıcıdan bir yanıt istemek için DOLDURMA alanının nasıl kullanılacağını gösterir.
+Kullanıcıdan yanıt istemek için FILLIN alanının nasıl kullanılacağını gösterir.
 
 ```csharp
 public void FieldFillIn()
@@ -25,13 +25,13 @@ public void FieldFillIn()
     DocumentBuilder builder = new DocumentBuilder(doc);
 
     // Bir FILLIN alanı ekleyin. Bu alanı Microsoft Word'de manuel olarak güncellediğimizde,
-    // bir yanıt girmemizi isteyecek. Alan daha sonra yanıtı metin olarak görüntüler.
+    // bizden bir yanıt girmemizi isteyecek. Alan daha sonra yanıtı metin olarak görüntüleyecektir.
     FieldFillIn field = (FieldFillIn)builder.InsertField(FieldType.FieldFillIn, true);
     field.PromptText = "Please enter a response:";
     field.DefaultResponse = "A default response.";
 
-    // Bu alanları, kullanıcıdan her sayfa için benzersiz bir yanıt istemek için de kullanabiliriz.
-    // Microsoft Word kullanılarak yapılan adres mektup birleştirme sırasında oluşturuldu.
+    // Bu alanları kullanıcıdan her sayfa için benzersiz bir yanıt istemek amacıyla da kullanabiliriz
+    // Microsoft Word kullanılarak yapılan adres-mektup birleştirme sırasında oluşturuldu.
     field.PromptOnceOnMailMerge = true;
 
     Assert.AreEqual(" FILLIN  \"Please enter a response:\" \\d \"A default response.\" \\o", field.GetFieldCode());
@@ -39,16 +39,17 @@ public void FieldFillIn()
     FieldMergeField mergeField = (FieldMergeField)builder.InsertField(FieldType.FieldMergeField, true);
     mergeField.FieldName = "MergeField";
 
-    // Programlı olarak adres mektup birleştirme gerçekleştirirsek, özel bir istem yanıtlayıcı kullanabiliriz
-    // adres mektup birleştirmenin karşılaştığı FILLIN alanlarına yönelik yanıtları otomatik olarak düzenlemek için.
+    // Adres-mektup birleştirmeyi programlı olarak gerçekleştirirsek, özel bir istem yanıtlayıcısı kullanabiliriz
+    // Adres-mektup birleştirmenin karşılaştığı FILLIN alanlarına yönelik yanıtları otomatik olarak düzenlemek için.
     doc.FieldOptions.UserPromptRespondent = new PromptRespondent();
     doc.MailMerge.Execute(new [] { "MergeField" }, new object[] { "" });
 
     doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.FILLIN.docx");
+}
 
 /// <summary>
-/// Adres mektup birleştirme sırasında her FILLIN alanının varsayılan yanıtının başına bir satır ekler.
+/// Adres-mektup birleştirme sırasında her FILLIN alanının varsayılan yanıtının başına bir satır eklenir.
 /// </summary>
 private class PromptRespondent : IFieldUserPromptRespondent
 {

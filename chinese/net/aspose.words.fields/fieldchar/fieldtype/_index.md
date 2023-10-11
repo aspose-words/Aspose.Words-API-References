@@ -16,7 +16,7 @@ public FieldType FieldType { get; }
 
 ### 例子
 
-显示如何使用 FieldStart 节点。
+展示如何使用 FieldStart 节点。
 
 ```csharp
 Document doc = new Document();

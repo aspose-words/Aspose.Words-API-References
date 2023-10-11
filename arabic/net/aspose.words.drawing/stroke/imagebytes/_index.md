@@ -1,14 +1,14 @@
 ---
 title: Stroke.ImageBytes
 second_title: Aspose.Words لمراجع .NET API
-description: Stroke ملكية. يحدد الصورة لصورة الحد أو تعبئة النقش .
+description: Stroke ملكية. يحدد الصورة لصورة الحد أو تعبئة النمط.
 type: docs
-weight: 100
+weight: 120
 url: /ar/net/aspose.words.drawing/stroke/imagebytes/
 ---
 ## Stroke.ImageBytes property
 
-يحدد الصورة لصورة الحد أو تعبئة النقش .
+يحدد الصورة لصورة الحد أو تعبئة النمط.
 
 ```csharp
 public byte[] ImageBytes { get; }
@@ -16,15 +16,15 @@ public byte[] ImageBytes { get; }
 
 ### أمثلة
 
-يوضح كيفية معالجة ميزات ضربات الفرشاة.
+يوضح كيفية معالجة ميزات حدود الشكل.
 
 ```csharp
 Document doc = new Document(MyDir + "Shape stroke pattern border.docx");
 Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
 Stroke stroke = shape.Stroke;
 
-// يمكن أن تحتوي السكتات الدماغية على لونين ، يتم استخدامهما لإنشاء نمط محدد ببيانات صور ثنائية اللون.
-// السكتات الدماغية ذات اللون الواحد لا تستخدم خاصية Color2.
+// يمكن أن تحتوي الحدود على لونين، يُستخدمان لإنشاء نمط محدد بواسطة بيانات الصورة ذات اللونين.
+// لا تستخدم الحدود ذات اللون الواحد خاصية Color2.
 Assert.AreEqual(Color.FromArgb(255, 128, 0, 0), stroke.Color);
 Assert.AreEqual(Color.FromArgb(255, 255, 255, 0), stroke.Color2);
 

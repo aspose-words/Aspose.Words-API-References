@@ -1,14 +1,16 @@
 ---
 title: DigitalSignatureUtil.RemoveAllSignatures
 second_title: Aspose.Words لمراجع .NET API
-description: DigitalSignatureUtil طريقة. يزيل كافة التوقيعات الرقمية من الملف المصدر ويكتب ملفًا غير موقع إلى ملف الوجهة.
+description: DigitalSignatureUtil طريقة. إزالة كافة التوقيعات الرقمية من الملف المصدر وكتابة الملف غير الموقع إلى الملف الوجهة.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.digitalsignatures/digitalsignatureutil/removeallsignatures/
 ---
 ## RemoveAllSignatures(string, string) {#removeallsignatures_1}
 
-يزيل كافة التوقيعات الرقمية من الملف المصدر ويكتب ملفًا غير موقع إلى ملف الوجهة.
+إزالة كافة التوقيعات الرقمية من الملف المصدر وكتابة الملف غير الموقع إلى الملف الوجهة.
+
+التنسيقات التالية متوافقة لإزالة التوقيع الرقمي: DocDotDocxDotxDocmOdtOtt.
 
 ```csharp
 public static void RemoveAllSignatures(string srcFileName, string dstFileName)
@@ -16,16 +18,16 @@ public static void RemoveAllSignatures(string srcFileName, string dstFileName)
 
 ### أمثلة
 
-يوضح كيفية إزالة التواقيع الرقمية من مستند موقع رقميًا.
+يوضح كيفية إزالة التوقيعات الرقمية من مستند موقع رقميًا.
 
 ```csharp
 // هناك طريقتان لاستخدام فئة DigitalSignatureUtil لإزالة التوقيعات الرقمية
 // من مستند موقع عن طريق حفظ نسخة غير موقعة منه في مكان آخر في نظام الملفات المحلي.
-// 1 - تحديد مواقع كل من المستند الموقع والنسخة غير الموقعة بواسطة سلاسل اسم الملف:
+// 1 - تحديد موقع كل من المستند الموقع والنسخة غير الموقعة من خلال سلاسل اسم الملف:
 DigitalSignatureUtil.RemoveAllSignatures(MyDir + "Digitally signed.docx",
     ArtifactsDir + "DigitalSignatureUtil.LoadAndRemove.FromString.docx");
 
-// 2 - تحديد مواقع كل من المستند الموقع والنسخة غير الموقعة بواسطة تدفقات الملفات:
+// 2 - تحديد موقع كل من المستند الموقع والنسخة غير الموقعة من خلال تدفقات الملفات:
 using (Stream streamIn = new FileStream(MyDir + "Digitally signed.docx", FileMode.Open))
 {
     using (Stream streamOut = new FileStream(ArtifactsDir + "DigitalSignatureUtil.LoadAndRemove.FromStream.docx", FileMode.Create))
@@ -34,7 +36,7 @@ using (Stream streamIn = new FileStream(MyDir + "Digitally signed.docx", FileMod
     }
 }
 
-// تحقق من أن كلا من وثيقتنا المخرجة لا تحتوي على توقيعات رقمية.
+// تحقق من أن كلا مستندي الإخراج لدينا لا يحتويان على توقيعات رقمية.
 Assert.That(DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "DigitalSignatureUtil.LoadAndRemove.FromString.docx"), Is.Empty);
 Assert.That(DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "DigitalSignatureUtil.LoadAndRemove.FromStream.docx"), Is.Empty);
 ```
@@ -49,9 +51,11 @@ Assert.That(DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "DigitalSignature
 
 ## RemoveAllSignatures(Stream, Stream) {#removeallsignatures}
 
-يزيل جميع التوقيعات الرقمية من المستند في دفق المصدر ويكتب المستند غير الموقعة إلى تيار الوجهة.
+إزالة كافة التوقيعات الرقمية من المستند في التدفق المصدر وكتابة المستند غير الموقع إلى التدفق الوجهة.
 
-**ستتم كتابة الإخراج في بداية البث وسيتم تحديث حجم البث بطول المحتوى.**
+**ستتم كتابة الإخراج في بداية الدفق وسيتم تحديث حجم الدفق بطول المحتوى.**
+
+التنسيقات التالية متوافقة لإزالة التوقيع الرقمي: DocDotDocxDotxDocmOdtOtt.
 
 ```csharp
 public static void RemoveAllSignatures(Stream srcStream, Stream dstStream)
@@ -59,16 +63,16 @@ public static void RemoveAllSignatures(Stream srcStream, Stream dstStream)
 
 ### أمثلة
 
-يوضح كيفية إزالة التواقيع الرقمية من مستند موقع رقميًا.
+يوضح كيفية إزالة التوقيعات الرقمية من مستند موقع رقميًا.
 
 ```csharp
 // هناك طريقتان لاستخدام فئة DigitalSignatureUtil لإزالة التوقيعات الرقمية
 // من مستند موقع عن طريق حفظ نسخة غير موقعة منه في مكان آخر في نظام الملفات المحلي.
-// 1 - تحديد مواقع كل من المستند الموقع والنسخة غير الموقعة بواسطة سلاسل اسم الملف:
+// 1 - تحديد موقع كل من المستند الموقع والنسخة غير الموقعة من خلال سلاسل اسم الملف:
 DigitalSignatureUtil.RemoveAllSignatures(MyDir + "Digitally signed.docx",
     ArtifactsDir + "DigitalSignatureUtil.LoadAndRemove.FromString.docx");
 
-// 2 - تحديد مواقع كل من المستند الموقع والنسخة غير الموقعة بواسطة تدفقات الملفات:
+// 2 - تحديد موقع كل من المستند الموقع والنسخة غير الموقعة من خلال تدفقات الملفات:
 using (Stream streamIn = new FileStream(MyDir + "Digitally signed.docx", FileMode.Open))
 {
     using (Stream streamOut = new FileStream(ArtifactsDir + "DigitalSignatureUtil.LoadAndRemove.FromStream.docx", FileMode.Create))
@@ -77,7 +81,7 @@ using (Stream streamIn = new FileStream(MyDir + "Digitally signed.docx", FileMod
     }
 }
 
-// تحقق من أن كلا من وثيقتنا المخرجة لا تحتوي على توقيعات رقمية.
+// تحقق من أن كلا مستندي الإخراج لدينا لا يحتويان على توقيعات رقمية.
 Assert.That(DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "DigitalSignatureUtil.LoadAndRemove.FromString.docx"), Is.Empty);
 Assert.That(DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "DigitalSignatureUtil.LoadAndRemove.FromStream.docx"), Is.Empty);
 ```

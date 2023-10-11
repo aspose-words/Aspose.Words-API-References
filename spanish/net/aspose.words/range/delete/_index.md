@@ -1,14 +1,14 @@
 ---
 title: Range.Delete
 second_title: Referencia de API de Aspose.Words para .NET
-description: Range método. Borra todos los caracteres del rango.
+description: Range método. Elimina todos los caracteres del rango.
 type: docs
-weight: 60
+weight: 70
 url: /es/net/aspose.words/range/delete/
 ---
 ## Range.Delete method
 
-Borra todos los caracteres del rango.
+Elimina todos los caracteres del rango.
 
 ```csharp
 public void Delete()
@@ -22,15 +22,15 @@ Muestra cómo eliminar todos los nodos de un rango.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Agregue texto a la primera sección del documento y luego agregue otra sección.
+// Agrega texto a la primera sección del documento y luego agrega otra sección.
 builder.Write("Section 1. ");
 builder.InsertBreak(BreakType.SectionBreakContinuous);
 builder.Write("Section 2.");
 
 Assert.AreEqual("Section 1. \fSection 2.", doc.GetText().Trim());
 
-// Eliminar la primera sección por completo eliminando todos los nodos
-// dentro de su rango, incluida la propia sección.
+// Elimina la primera sección por completo eliminando todos los nodos
+// dentro de su rango, incluida la sección misma.
 doc.Sections[0].Range.Delete();
 
 Assert.AreEqual(1, doc.Sections.Count);

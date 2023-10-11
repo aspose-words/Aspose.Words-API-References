@@ -1,14 +1,14 @@
 ---
 title: HeaderFooter.IsHeader
 second_title: Aspose.Words for .NET API Referansı
-description: HeaderFooter mülk. Bu doğruysa Üstbilgi Altbilgi nesne bir başlıktır.
+description: HeaderFooter mülk. Eğer bu doğruysaHeaderFooter nesne bir başlıktır.
 type: docs
 weight: 30
 url: /tr/net/aspose.words/headerfooter/isheader/
 ---
 ## HeaderFooter.IsHeader property
 
-Bu doğruysa **Üstbilgi Altbilgi** nesne bir başlıktır.
+Eğer bu doğruysa[`HeaderFooter`](../) nesne bir başlıktır.
 
 ```csharp
 public bool IsHeader { get; }
@@ -22,7 +22,7 @@ public bool IsHeader { get; }
 Document doc = new Document();
 
 // Bir başlık oluşturun ve ona bir paragraf ekleyin. O paragraftaki metin
-// bu bölümün her sayfasının başında, ana gövde metninin üstünde görünecektir.
+// bu bölümün her sayfasının üst kısmında, ana metin metninin üstünde görünecektir.
 HeaderFooter header = new HeaderFooter(doc, HeaderFooterType.HeaderPrimary);
 doc.FirstSection.HeadersFooters.Add(header);
 
@@ -31,7 +31,7 @@ Paragraph para = header.AppendParagraph("My header.");
 Assert.True(header.IsHeader);
 Assert.True(para.IsEndOfHeaderFooter);
 
-// Bir alt bilgi oluşturun ve ona bir paragraf ekleyin. O paragraftaki metin
+// Bir altbilgi oluşturun ve ona bir paragraf ekleyin. O paragraftaki metin
 // bu bölümün her sayfasının altında, ana gövde metninin altında görünecektir.
 HeaderFooter footer = new HeaderFooter(doc, HeaderFooterType.FooterPrimary);
 doc.FirstSection.HeadersFooters.Add(footer);

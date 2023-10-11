@@ -3,12 +3,14 @@ title: Class Cell
 second_title: Referencia de API de Aspose.Words para .NET
 description: Aspose.Words.Tables.Cell clase. Representa una celda de tabla.
 type: docs
-weight: 5940
+weight: 6240
 url: /es/net/aspose.words.tables/cell/
 ---
 ## Cell class
 
 Representa una celda de tabla.
+
+Para obtener más información, visite el[Trabajar con tablas](https://docs.aspose.com/words/net/working-with-tables/) artículo de documentación.
 
 ```csharp
 public class Cell : CompositeNode
@@ -18,71 +20,74 @@ public class Cell : CompositeNode
 
 | Nombre | Descripción |
 | --- | --- |
-| [Cell](cell/)(DocumentBase) | Inicializa una nueva instancia del **Célula** clase. |
+| [Cell](cell/)(DocumentBase) | Inicializa una nueva instancia del`Cell` clase. |
 
 ## Propiedades
 
 | Nombre | Descripción |
 | --- | --- |
 | [CellFormat](../../aspose.words.tables/cell/cellformat/) { get; } | Proporciona acceso a las propiedades de formato de la celda. |
-| [ChildNodes](../../aspose.words/compositenode/childnodes/) { get; } | Obtiene todos los nodos secundarios inmediatos de este nodo. |
 | [Count](../../aspose.words/compositenode/count/) { get; } | Obtiene el número de hijos inmediatos de este nodo. |
 | [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Especifica el identificador de nodo personalizado. |
 | virtual [Document](../../aspose.words/node/document/) { get; } | Obtiene el documento al que pertenece este nodo. |
 | [FirstChild](../../aspose.words/compositenode/firstchild/) { get; } | Obtiene el primer hijo del nodo. |
 | [FirstParagraph](../../aspose.words.tables/cell/firstparagraph/) { get; } | Obtiene el primer párrafo entre los hijos inmediatos. |
-| [HasChildNodes](../../aspose.words/compositenode/haschildnodes/) { get; } | Devuelve verdadero si este nodo tiene nodos secundarios. |
-| override [IsComposite](../../aspose.words/compositenode/iscomposite/) { get; } | Devuelve verdadero ya que este nodo puede tener nodos secundarios. |
+| [HasChildNodes](../../aspose.words/compositenode/haschildnodes/) { get; } | Devoluciones`verdadero` si este nodo tiene nodos secundarios. |
+| override [IsComposite](../../aspose.words/compositenode/iscomposite/) { get; } | Devoluciones`verdadero` ya que este nodo puede tener nodos secundarios. |
 | [IsFirstCell](../../aspose.words.tables/cell/isfirstcell/) { get; } | Verdadero si esta es la primera celda dentro de una fila; falso en caso contrario. |
 | [IsLastCell](../../aspose.words.tables/cell/islastcell/) { get; } | Verdadero si esta es la última celda dentro de una fila; falso en caso contrario. |
 | [LastChild](../../aspose.words/compositenode/lastchild/) { get; } | Obtiene el último hijo del nodo. |
 | [LastParagraph](../../aspose.words.tables/cell/lastparagraph/) { get; } | Obtiene el último párrafo entre los hijos inmediatos. |
+| [NextCell](../../aspose.words.tables/cell/nextcell/) { get; } | Obtiene el siguiente`Cell` nodo. |
 | [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Obtiene el nodo que sigue inmediatamente a este nodo. |
-| override [NodeType](../../aspose.words.tables/cell/nodetype/) { get; } | Devoluciones **NodeType.Cell** . |
+| override [NodeType](../../aspose.words.tables/cell/nodetype/) { get; } | DevolucionesCell . |
 | [Paragraphs](../../aspose.words.tables/cell/paragraphs/) { get; } | Obtiene una colección de párrafos que son hijos inmediatos de la celda. |
 | [ParentNode](../../aspose.words/node/parentnode/) { get; } | Obtiene el padre inmediato de este nodo. |
 | [ParentRow](../../aspose.words.tables/cell/parentrow/) { get; } | Devuelve la fila principal de la celda. |
+| [PreviousCell](../../aspose.words.tables/cell/previouscell/) { get; } | Obtiene el anterior`Cell` nodo. |
 | [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Obtiene el nodo inmediatamente anterior a este nodo. |
-| [Range](../../aspose.words/node/range/) { get; } | Devuelve un **Rango** objeto que representa la parte de un documento que está contenido en este nodo. |
-| [Tables](../../aspose.words.tables/cell/tables/) { get; } | Obtiene una colección de tablas que son elementos secundarios inmediatos de la celda. |
+| [Range](../../aspose.words/node/range/) { get; } | Devuelve un[`Range`](../../aspose.words/range/) objeto que representa la parte de un documento contenido en este nodo. |
+| [Tables](../../aspose.words.tables/cell/tables/) { get; } | Obtiene una colección de tablas que son hijas inmediatas de la celda. |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
 | override [Accept](../../aspose.words.tables/cell/accept/)(DocumentVisitor) | Acepta un visitante. |
-| [AppendChild](../../aspose.words/compositenode/appendchild/)(Node) | Agrega el nodo especificado al final de la lista de nodos secundarios para este nodo. |
+| override [AcceptEnd](../../aspose.words.tables/cell/acceptend/)(DocumentVisitor) |  |
+| override [AcceptStart](../../aspose.words.tables/cell/acceptstart/)(DocumentVisitor) |  |
+| [AppendChild&lt;T&gt;](../../aspose.words/compositenode/appendchild/)(T) |  |
 | [Clone](../../aspose.words/node/clone/)(bool) | Crea un duplicado del nodo. |
-| [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | Reservado para uso del sistema. IXPathNavigable. |
+| [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | Crea un navegador que se puede utilizar para atravesar y leer nodos. |
 | [EnsureMinimum](../../aspose.words.tables/cell/ensureminimum/)() | Si el último elemento secundario no es un párrafo, crea y agrega un párrafo vacío. |
 | [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Obtiene el primer ancestro del especificado[`NodeType`](../../aspose.words/nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Obtiene el primer ancestro del tipo de objeto especificado. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Obtiene el primer antepasado del tipo de objeto especificado. |
 | [GetChild](../../aspose.words/compositenode/getchild/)(NodeType, int, bool) | Devuelve un enésimo nodo secundario que coincide con el tipo especificado. |
 | [GetChildNodes](../../aspose.words/compositenode/getchildnodes/)(NodeType, bool) | Devuelve una colección activa de nodos secundarios que coinciden con el tipo especificado. |
-| [GetEnumerator](../../aspose.words/compositenode/getenumerator/)() | Proporciona soporte para la iteración de cada estilo sobre los nodos secundarios de este nodo. |
+| [GetEnumerator](../../aspose.words/compositenode/getenumerator/)() | Proporciona soporte para cada iteración de estilo sobre los nodos secundarios de este nodo. |
 | override [GetText](../../aspose.words/compositenode/gettext/)() | Obtiene el texto de este nodo y de todos sus hijos. |
 | [IndexOf](../../aspose.words/compositenode/indexof/)(Node) | Devuelve el índice del nodo secundario especificado en la matriz de nodos secundarios. |
-| [InsertAfter](../../aspose.words/compositenode/insertafter/)(Node, Node) | Inserta el nodo especificado inmediatamente después del nodo de referencia especificado. |
-| [InsertBefore](../../aspose.words/compositenode/insertbefore/)(Node, Node) | Inserta el nodo especificado inmediatamente antes del nodo de referencia especificado. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Obtiene el siguiente nodo de acuerdo con el algoritmo de recorrido del árbol de pedido previo. |
-| [PrependChild](../../aspose.words/compositenode/prependchild/)(Node) | Agrega el nodo especificado al principio de la lista de nodos secundarios para este nodo. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Obtiene el nodo anterior de acuerdo con el algoritmo de recorrido del árbol de pedido previo. |
-| [Remove](../../aspose.words/node/remove/)() | Se elimina a sí mismo del padre. |
+| [InsertAfter&lt;T&gt;](../../aspose.words/compositenode/insertafter/)(T, Node) |  |
+| [InsertBefore&lt;T&gt;](../../aspose.words/compositenode/insertbefore/)(T, Node) |  |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Obtiene el siguiente nodo según el algoritmo transversal del árbol de pedidos anticipados. |
+| [PrependChild&lt;T&gt;](../../aspose.words/compositenode/prependchild/)(T) |  |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Obtiene el nodo anterior según el algoritmo transversal del árbol de pedidos anticipados. |
+| [Remove](../../aspose.words/node/remove/)() | Se elimina del padre. |
 | [RemoveAllChildren](../../aspose.words/compositenode/removeallchildren/)() | Elimina todos los nodos secundarios del nodo actual. |
-| [RemoveChild](../../aspose.words/compositenode/removechild/)(Node) | Elimina el nodo secundario especificado. |
-| [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | Elimina todo[`SmartTag`](../../aspose.words.markup/smarttag/) nodos descendientes del nodo actual. |
+| [RemoveChild&lt;T&gt;](../../aspose.words/compositenode/removechild/)(T) |  |
+| [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | Elimina todo[`SmartTag`](../../aspose.words.markup/smarttag/)nodos descendientes del nodo actual. |
 | [SelectNodes](../../aspose.words/compositenode/selectnodes/)(string) | Selecciona una lista de nodos que coinciden con la expresión XPath. |
-| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(string) | Selecciona el primer nodo que coincide con la expresión XPath. |
+| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(string) | Selecciona el primero[`Node`](../../aspose.words/node/) que coincide con la expresión XPath. |
 | [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Exporta el contenido del nodo a una cadena en el formato especificado. |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Exporta el contenido del nodo a una cadena utilizando las opciones de guardado especificadas. |
+| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Exporta el contenido del nodo a una cadena usando las opciones de guardado especificadas. |
 
 ### Observaciones
 
-**Célula** solo puede ser hijo de **Fila**.
+`Cell` sólo puede ser hijo de un[`Row`](../row/).
 
-**Célula** puede contener nodos a nivel de bloque **Párrafo** y **Mesa**.
+`Cell` puede contener nodos a nivel de bloque[`Paragraph`](../../aspose.words/paragraph/) y[`Table`](../table/).
 
-Una celda válida mínima debe tener al menos una **Párrafo**.
+Una celda mínima válida debe tener al menos una[`Paragraph`](../../aspose.words/paragraph/).
 
 ### Ejemplos
 
@@ -94,9 +99,9 @@ Table table = new Table(doc);
 doc.FirstSection.Body.AppendChild(table);
 
 // Las tablas contienen filas, que contienen celdas, que pueden tener párrafos
-// con elementos típicos como carreras, formas e incluso otras tablas.
-// Llamar al método "EnsureMinimum" en una tabla asegurará que
-// la tabla tiene al menos una fila, celda y párrafo.
+// con elementos típicos como corridas, formas e incluso otras tablas.
+// Llamar al método "EnsureMinimum" en una tabla garantizará que
+// la tabla tiene al menos una fila, una celda y un párrafo.
 Row firstRow = new Row(doc);
 table.AppendChild(firstRow);
 
@@ -165,7 +170,7 @@ public void CreateNestedTable()
     Table outerTable = CreateTable(doc, 3, 4, "Outer Table");
     doc.FirstSection.Body.AppendChild(outerTable);
 
-    // Cree otra tabla con dos filas y dos columnas y luego insértela en la primera celda de la primera tabla.
+    // Crea otra tabla con dos filas y dos columnas y luego insértala en la primera celda de la primera tabla.
     Table innerTable = CreateTable(doc, 2, 2, "Inner Table");
     outerTable.FirstRow.FirstCell.AppendChild(innerTable);
 
@@ -194,7 +199,7 @@ private static Table CreateTable(Document doc, int rowCount, int cellCount, stri
         }
     }
 
-    // Puede usar las propiedades "Título" y "Descripción" para agregar un título y una descripción respectivamente a su tabla.
+    // Puedes usar las propiedades "Título" y "Descripción" para agregar un título y una descripción respectivamente a tu tabla.
     // La tabla debe tener al menos una fila antes de que podamos usar estas propiedades.
     // Estas propiedades son significativas para documentos .docx compatibles con ISO/IEC 29500 (consulte la clase OoxmlCompliance).
     // Si guardamos el documento en formatos anteriores a ISO/IEC 29500, Microsoft Word ignora estas propiedades.

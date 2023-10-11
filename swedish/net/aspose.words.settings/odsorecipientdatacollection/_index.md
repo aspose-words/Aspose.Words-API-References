@@ -3,12 +3,14 @@ title: Class OdsoRecipientDataCollection
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Settings.OdsoRecipientDataCollection klass. En maskinskriven samling avOdsoRecipientData
 type: docs
-weight: 5640
+weight: 5940
 url: /sv/net/aspose.words.settings/odsorecipientdatacollection/
 ---
 ## OdsoRecipientDataCollection class
 
 En maskinskriven samling av[`OdsoRecipientData`](../odsorecipientdata/)
+
+För att lära dig mer, besök[Mail Merge och rapportering](https://docs.aspose.com/words/net/mail-merge-and-reporting/) dokumentationsartikel.
 
 ```csharp
 public class OdsoRecipientDataCollection : IEnumerable<OdsoRecipientData>

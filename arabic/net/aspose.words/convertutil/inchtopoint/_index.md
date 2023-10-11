@@ -1,14 +1,14 @@
 ---
 title: ConvertUtil.InchToPoint
 second_title: Aspose.Words لمراجع .NET API
-description: ConvertUtil طريقة. تحويل بوصة إلى نقاط .
+description: ConvertUtil طريقة. تحويل البوصات إلى نقاط.
 type: docs
 weight: 10
 url: /ar/net/aspose.words/convertutil/inchtopoint/
 ---
 ## ConvertUtil.InchToPoint method
 
-تحويل بوصة إلى نقاط .
+تحويل البوصات إلى نقاط.
 
 ```csharp
 public static double InchToPoint(double inches)
@@ -16,15 +16,15 @@ public static double InchToPoint(double inches)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| inches | Double | القيمة المطلوب تحويلها. |
+| inches | Double | القيمة المراد تحويلها. |
 
 ### ملاحظات
 
-1 بوصة تساوي 72 نقطة .
+1 بوصة تساوي 72 نقطة.
 
 ### أمثلة
 
-يوضح كيفية ضبط حجم الورق ، والاتجاه ، والهوامش ، إلى جانب الإعدادات الأخرى لقسم ما.
+يوضح كيفية ضبط حجم الورق واتجاهه والهوامش بالإضافة إلى الإعدادات الأخرى لقسم ما.
 
 ```csharp
 Document doc = new Document();
@@ -50,16 +50,16 @@ doc.Save(ArtifactsDir + "PageSetup.PageMargins.docx");
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// يحدد "إعداد الصفحة" في القسم حجم هوامش الصفحة بالنقاط.
-// يمكننا أيضًا استخدام فئة "ConvertUtil" لاستخدام وحدة قياس أكثر شيوعًا ،
-// مثل البوصة عند تحديد الحدود.
+// يحدد "إعداد الصفحة" الخاص بالقسم حجم هوامش الصفحة بالنقاط.
+// يمكننا أيضًا استخدام فئة "ConvertUtil" لاستخدام وحدة قياس مألوفة أكثر،
+// مثل البوصات عند تحديد الحدود.
 PageSetup pageSetup = builder.PageSetup;
 pageSetup.TopMargin = ConvertUtil.InchToPoint(1.0);
 pageSetup.BottomMargin = ConvertUtil.InchToPoint(2.0);
 pageSetup.LeftMargin = ConvertUtil.InchToPoint(2.5);
 pageSetup.RightMargin = ConvertUtil.InchToPoint(1.5);
 
-// البوصة 72 نقطة.
+// البوصة تساوي 72 نقطة.
 Assert.AreEqual(72.0d, ConvertUtil.InchToPoint(1));
 Assert.AreEqual(1.0d, ConvertUtil.PointToInch(72));
 

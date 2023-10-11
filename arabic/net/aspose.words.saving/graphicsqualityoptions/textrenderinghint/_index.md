@@ -1,14 +1,14 @@
 ---
 title: GraphicsQualityOptions.TextRenderingHint
 second_title: Aspose.Words لمراجع .NET API
-description: GraphicsQualityOptions ملكية. الحصول على أو تحديد وضع العرض للنص المرتبط بهذه الرسومات .
+description: GraphicsQualityOptions ملكية. الحصول على أو تعيين وضع العرض للنص المرتبط بهذه الرسومات.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.saving/graphicsqualityoptions/textrenderinghint/
 ---
 ## GraphicsQualityOptions.TextRenderingHint property
 
-الحصول على أو تحديد وضع العرض للنص المرتبط بهذه الرسومات .
+الحصول على أو تعيين وضع العرض للنص المرتبط بهذه الرسومات.
 
 ```csharp
 public TextRenderingHint? TextRenderingHint { get; set; }
@@ -16,7 +16,7 @@ public TextRenderingHint? TextRenderingHint { get; set; }
 
 ### أمثلة
 
-يوضح كيفية تعيين خيارات جودة العرض أثناء تحويل المستندات إلى تنسيقات صور.
+يوضح كيفية تعيين خيارات جودة العرض أثناء تحويل المستندات إلى تنسيقات الصور.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

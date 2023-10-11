@@ -1,14 +1,14 @@
 ---
 title: HtmlSaveOptions.CssStyleSheetFileName
 second_title: Referencia de API de Aspose.Words para .NET
-description: HtmlSaveOptions propiedad. Especifica la ruta y el nombre del archivo de hoja de estilo en cascada CSS escrito cuando un documento se exporta a HTML. El valor predeterminado es una cadena vacía.
+description: HtmlSaveOptions propiedad. Especifica la ruta y el nombre del archivo de hoja de estilos en cascada CSS escrito cuando un documento se exporta a HTML. El valor predeterminado es una cadena vacía.
 type: docs
 weight: 50
 url: /es/net/aspose.words.saving/htmlsaveoptions/cssstylesheetfilename/
 ---
 ## HtmlSaveOptions.CssStyleSheetFileName property
 
-Especifica la ruta y el nombre del archivo de hoja de estilo en cascada (CSS) escrito cuando un documento se exporta a HTML. El valor predeterminado es una cadena vacía.
+Especifica la ruta y el nombre del archivo de hoja de estilos en cascada (CSS) escrito cuando un documento se exporta a HTML. El valor predeterminado es una cadena vacía.
 
 ```csharp
 public string CssStyleSheetFileName { get; set; }
@@ -16,13 +16,13 @@ public string CssStyleSheetFileName { get; set; }
 
 ### Observaciones
 
-Esta propiedad solo tiene efecto cuando se guarda un documento en formato HTML y se solicita una hoja de estilo CSS externa mediante[`CssStyleSheetType`](../cssstylesheettype/).
+Esta propiedad tiene efecto sólo cuando se guarda un documento en formato HTML y se solicita una hoja de estilo CSS externa usando[`CssStyleSheetType`](../cssstylesheettype/).
 
 Si esta propiedad está vacía, el archivo CSS se guardará en la misma carpeta y con el mismo nombre que el documento HTML pero con la extensión ".css".
 
-Si solo se especifica la ruta pero no el nombre del archivo en esta propiedad, el archivo CSS se guardará en la carpeta especificada y tendrá el mismo nombre que el documento HTML pero con la extensión ".css".
+Si en esta propiedad solo se especifica la ruta pero ningún nombre de archivo, el archivo CSS se guardará en la carpeta especificada y tendrá el mismo nombre que el documento HTML pero con la extensión ".css".
 
-Si la carpeta especificada por esta propiedad no existe, se creará automáticamente antes de que se guarde el archivo CSS .
+Si la carpeta especificada por esta propiedad no existe, se creará automáticamente antes de guardar el archivo CSS .
 
 Otra forma de especificar una carpeta donde se guarda el archivo CSS externo es usar[`ResourceFolder`](../resourcefolder/) .
 
@@ -35,19 +35,19 @@ public void ExternalCssFilenames()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
-    // Crear un objeto "HtmlFixedSaveOptions", que podemos pasar al método "Guardar" del documento
+    // Crea un objeto "HtmlFixedSaveOptions", que podemos pasar al método "Guardar" del documento
     // para modificar cómo convertimos el documento a HTML.
     HtmlSaveOptions options = new HtmlSaveOptions();
 
-    // Establecer la propiedad "CssStylesheetType" en "CssStyleSheetType.External" para
-    // acompañar un documento HTML guardado con un archivo de hoja de estilo CSS externo.
+    // Establece la propiedad "CssStylesheetType" en "CssStyleSheetType.External" para
+    // acompaña un documento HTML guardado con un archivo de hoja de estilo CSS externo.
     options.CssStyleSheetType = CssStyleSheetType.External;
 
-    // A continuación se muestran dos formas de especificar directorios y nombres de archivo para las hojas de estilo CSS de salida.
+    // A continuación se muestran dos formas de especificar directorios y nombres de archivos para las hojas de estilo CSS de salida.
     // 1 - Usa la propiedad "CssStyleSheetFileName" para asignar un nombre de archivo a nuestra hoja de estilo:
     options.CssStyleSheetFileName = ArtifactsDir + "SavingCallback.ExternalCssFilenames.css";
 
-    // 2 - Use una devolución de llamada personalizada para nombrar nuestra hoja de estilo:
+    // 2 - Usa una devolución de llamada personalizada para nombrar nuestra hoja de estilo:
     options.CssSavingCallback =
         new CustomCssSavingCallback(ArtifactsDir + "SavingCallback.ExternalCssFilenames.css", true, false);
 
@@ -68,7 +68,7 @@ private class CustomCssSavingCallback : ICssSavingCallback
 
     public void CssSaving(CssSavingArgs args)
     {
-        // Podemos acceder a todo el documento de origen a través de la propiedad "Documento".
+        // Podemos acceder al documento fuente completo a través de la propiedad "Documento".
         Assert.True(args.Document.OriginalFileName.EndsWith("Rendering.docx"));
 
         args.CssStream = new FileStream(mCssTextFileName, FileMode.Create);

@@ -22,7 +22,7 @@ Alan sonucunu güncellemek için özel özelliğin nasıl kullanılacağını g�
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Belgenin yerleşik "Yazar" özellik değerini verin ve ardından bir alanla görüntüleyin.
+// Belgenin yerleşik "Yazar" özellik değerini verin ve ardından bunu bir alanla görüntüleyin.
 doc.BuiltInDocumentProperties.Author = "John Doe";
 FieldAuthor field = (FieldAuthor)builder.InsertField(FieldType.FieldAuthor, true);
 
@@ -35,13 +35,13 @@ doc.BuiltInDocumentProperties.Author = "John & Jane Doe";
 Assert.AreEqual("John Doe", field.Result);
 
 // Alanın değeri güncel olmadığı için "kirli" olarak işaretleyebiliriz.
-// Bu değer, biz alanı Field.Update() yöntemiyle manuel olarak güncelleyene kadar güncelliğini yitirecek.
+// Bu değer, biz alanı Field.Update() yöntemiyle manuel olarak güncelleyene kadar güncelliğini kaybetmiş kalacaktır.
 field.IsDirty = true;
 
 using (MemoryStream docStream = new MemoryStream())
 {
-    // Güncelleme metodu çağırmadan kaydedersek,
-    // alan, çıktı belgesindeki güncel olmayan değeri görüntülemeye devam edecek.
+    // Güncelleme yöntemini çağırmadan kaydedersek,
+    // alan, çıktı belgesinde güncel olmayan değeri görüntülemeye devam edecektir.
     doc.Save(docStream, SaveFormat.Docx);
 
     // LoadOptions nesnesinin tüm alanları güncelleme seçeneği vardır
@@ -54,7 +54,7 @@ using (MemoryStream docStream = new MemoryStream())
 
     field = (FieldAuthor)doc.Range.Fields[0];
 
-    // Bunun gibi kirli alanları güncellemek, "IsDirty" işaretlerini otomatik olarak false olarak ayarlar.
+    // Bunun gibi kirli alanların güncellenmesi otomatik olarak "IsDirty" işaretini false olarak ayarlar.
     if (updateDirtyFields)
     {
         Assert.AreEqual("John & Jane Doe", field.Result);

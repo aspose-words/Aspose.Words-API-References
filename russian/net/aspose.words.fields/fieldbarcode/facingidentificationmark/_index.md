@@ -1,14 +1,14 @@
 ---
 title: FieldBarcode.FacingIdentificationMark
 second_title: Справочник по API Aspose.Words для .NET
-description: FieldBarcode свойство. Получает или задает тип метки идентификации лицевой стороны FIM для вставки.
+description: FieldBarcode свойство. Получает или задает тип вставляемого идентификационного знака облицовки FIM.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/fieldbarcode/facingidentificationmark/
 ---
 ## FieldBarcode.FacingIdentificationMark property
 
-Получает или задает тип метки идентификации лицевой стороны (FIM) для вставки.
+Получает или задает тип вставляемого идентификационного знака облицовки (FIM).
 
 ```csharp
 public string FacingIdentificationMark { get; set; }
@@ -24,11 +24,11 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln();
 
-// Ниже приведены два способа использования полей ШТРИХ-КОДА для отображения пользовательских значений в виде штрих-кодов.
-// 1 - Сохраняем значение, которое будет отображаться штрих-кодом в свойстве PostalAddress:
+// Ниже приведены два способа использования полей BARCODE для отображения пользовательских значений в виде штрих-кодов.
+// 1 — Сохраняем значение, которое будет отображать штрих-код, в свойстве PostalAddress:
 FieldBarcode field = (FieldBarcode)builder.InsertField(FieldType.FieldBarcode, true);
 
-// Это значение должно быть допустимым почтовым индексом.
+// Это значение должно быть действительным почтовым индексом.
 field.PostalAddress = "96801";
 field.IsUSPostalAddress = true;
 field.FacingIdentificationMark = "C";
@@ -37,14 +37,14 @@ Assert.AreEqual(" BARCODE  96801 \\u \\f C", field.GetFieldCode());
 
 builder.InsertBreak(BreakType.LineBreak);
 
-// 2 - Ссылка на закладку, в которой хранится значение, которое будет отображать этот штрих-код:
+// 2 — ссылка на закладку, в которой хранится значение, которое будет отображать этот штрих-код:
 field = (FieldBarcode)builder.InsertField(FieldType.FieldBarcode, true);
 field.PostalAddress = "BarcodeBookmark";
 field.IsBookmark = true;
 
 Assert.AreEqual(" BARCODE  BarcodeBookmark \\b", field.GetFieldCode());
 
-// Закладка, на которую ссылается поле ШТРИХ-КОД в свойстве PostalAddress
+// Закладка, на которую ссылается поле BARCODE в свойстве PostalAddress.
 // не должен содержать ничего, кроме действительного почтового индекса.
 builder.InsertBreak(BreakType.PageBreak);
 builder.StartBookmark("BarcodeBookmark");

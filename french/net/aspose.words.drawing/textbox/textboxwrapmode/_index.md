@@ -1,14 +1,14 @@
 ---
 title: TextBox.TextBoxWrapMode
 second_title: Référence de l'API Aspose.Words pour .NET
-description: TextBox propriété. Détermine comment le texte shabille à lintérieur dune forme.
+description: TextBox propriété. Détermine la manière dont le texte senroule à lintérieur dune forme.
 type: docs
-weight: 100
+weight: 110
 url: /fr/net/aspose.words.drawing/textbox/textboxwrapmode/
 ---
 ## TextBox.TextBoxWrapMode property
 
-Détermine comment le texte s'habille à l'intérieur d'une forme.
+Détermine la manière dont le texte s'enroule à l'intérieur d'une forme.
 
 ```csharp
 public TextBoxWrapMode TextBoxWrapMode { get; set; }
@@ -20,7 +20,7 @@ La valeur par défaut estSquare.
 
 ### Exemples
 
-Montre comment définir un mode d'habillage pour le contenu d'une zone de texte.
+Montre comment définir un mode d’habillage pour le contenu d’une zone de texte.
 
 ```csharp
 Document doc = new Document();
@@ -30,7 +30,7 @@ Shape textBoxShape = builder.InsertShape(ShapeType.TextBox, 300, 300);
 TextBox textBox = textBoxShape.TextBox;
 
 // Définissez la propriété "TextBoxWrapMode" sur "TextBoxWrapMode.None" pour augmenter la largeur de la zone de texte
-// pour contenir du texte, s'il est assez grand.
+// pour accueillir du texte, s'il est suffisamment grand.
 // Définissez la propriété "TextBoxWrapMode" sur "TextBoxWrapMode.Square" pour
 // enveloppe tout le texte à l'intérieur de la zone de texte, en préservant ses dimensions.
 textBox.TextBoxWrapMode = textBoxWrapMode;

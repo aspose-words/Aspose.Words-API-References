@@ -46,7 +46,7 @@ for (int i = 0; i < 3; i++)
     borders.Vertical.LineWidth = 2.0d;
 }
 
-// Un formato riga e il paragrafo interno di una cella utilizzano impostazioni di bordo diverse.
+// Il formato di una riga e il paragrafo interno di una cella utilizzano impostazioni di bordo diverse.
 Border border = table.FirstRow.FirstCell.LastParagraph.ParagraphFormat.Borders.Vertical;
 
 Assert.AreEqual(Color.Empty.ToArgb(), border.Color.ToArgb());

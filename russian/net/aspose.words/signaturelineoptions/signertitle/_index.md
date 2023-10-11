@@ -1,14 +1,14 @@
 ---
 title: SignatureLineOptions.SignerTitle
 second_title: Справочник по API Aspose.Words для .NET
-description: SignatureLineOptions свойство. Получает или задает предлагаемый титул подписывающей стороны. Значение по умолчанию для этого свойства пустой строки Empty .
+description: SignatureLineOptions свойство. Получает или задает предлагаемую должность подписывающего лица. Значение по умолчанию для этого свойства пустая строка Empty.
 type: docs
 weight: 80
 url: /ru/net/aspose.words/signaturelineoptions/signertitle/
 ---
 ## SignatureLineOptions.SignerTitle property
 
-Получает или задает предлагаемый титул подписывающей стороны. Значение по умолчанию для этого свойства: **пустой строки** (Empty ).
+Получает или задает предлагаемую должность подписывающего лица. Значение по умолчанию для этого свойства: **пустая строка** (Empty).
 
 ```csharp
 public string SignerTitle { get; set; }
@@ -16,10 +16,11 @@ public string SignerTitle { get; set; }
 
 ### Примеры
 
-Показывает, как добавить строку подписи в документ, а затем подписать его с помощью цифрового сертификата.
+Показывает, как добавить в документ строку подписи, а затем подписать его с помощью цифрового сертификата.
 
 ```csharp
-public static void Sign()
+[Description("WORDSNET-16868")]
+        public static void Sign()
         {
             string signeeName = "Ron Williams";
             string srcDocumentPath = MyDir + "Document.docx";
@@ -38,7 +39,7 @@ public static void Sign()
         }
 
         /// <summary>
-        /// Создает копию исходного документа, подписанную с использованием предоставленной информации о подписывающей стороне и сертификата X509.
+        /// Создает копию исходного документа, подписанного с использованием предоставленной информации о подписанте и сертификата X509.
         /// </summary>
         private static void SignDocument(string srcDocumentPath, string dstDocumentPath,
             Signee signeeInfo, string certificatePath, string certificatePassword)
@@ -56,7 +57,7 @@ public static void Sign()
             SignatureLine signatureLine = builder.InsertSignatureLine(signatureLineOptions).SignatureLine;
             signatureLine.Id = signeeInfo.PersonId;
 
-            // Во-первых, мы сохраним неподписанную версию нашего документа.
+            // Сначала мы сохраним неподписанную версию нашего документа.
             builder.Document.Save(dstDocumentPath);
 
             CertificateHolder certificateHolder = CertificateHolder.Create(certificatePath, certificatePassword);
@@ -67,7 +68,7 @@ public static void Sign()
                 SignatureLineImage = signeeInfo.Image
             };
 
-            // Перезаписать неподписанный документ, который мы сохранили выше, версией, подписанной с использованием сертификата.
+            // Перезаписываем неподписанный документ, который мы сохранили выше, версией, подписанной с использованием сертификата.
             DigitalSignatureUtil.Sign(dstDocumentPath, dstDocumentPath, certificateHolder, signOptions);
         }
 

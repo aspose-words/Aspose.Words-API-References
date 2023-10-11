@@ -19,13 +19,12 @@ public string BookmarkName { get; set; }
 Montre comment créer un champ ASK et définir ses propriétés.
 
 ```csharp
-[Test]
 public void FieldAsk()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Placez un champ où la réponse à notre champ ASK sera placée.
+    // Placez un champ où sera placée la réponse à notre champ ASK.
     FieldRef fieldRef = (FieldRef)builder.InsertField(FieldType.FieldRef, true);
     fieldRef.BookmarkName = "MyAskField";
     builder.Writeln();
@@ -60,6 +59,7 @@ public void FieldAsk()
 
     doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.ASK.docx");
+}
 
 /// <summary>
 /// Ajoute du texte à la réponse par défaut d'un champ ASK lors d'un publipostage.

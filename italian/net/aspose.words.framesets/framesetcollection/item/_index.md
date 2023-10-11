@@ -1,14 +1,14 @@
 ---
 title: FramesetCollection.Item
 second_title: Aspose.Words per .NET API Reference
-description: FramesetCollection proprietà. Ottiene un frame o una pagina frame in corrispondenza dellindice specificato.
+description: FramesetCollection proprietà. Ottiene una o più pagine di frame allindice specificato.
 type: docs
 weight: 30
 url: /it/net/aspose.words.framesets/framesetcollection/item/
 ---
 ## FramesetCollection indexer
 
-Ottiene un frame o una pagina frame in corrispondenza dell'indice specificato.
+Ottiene una o più pagine di frame all'indice specificato.
 
 ```csharp
 public Frameset this[int index] { get; }

@@ -1,14 +1,14 @@
 ---
 title: FieldGreetingLine.LanguageId
 second_title: Aspose.Words لمراجع .NET API
-description: FieldGreetingLine ملكية. الحصول على أو تعيين معرّف اللغة المستخدم لتنسيق الاسم.
+description: FieldGreetingLine ملكية. الحصول على أو تعيين معرف اللغة المستخدم لتنسيق الاسم.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fields/fieldgreetingline/languageid/
 ---
 ## FieldGreetingLine.LanguageId property
 
-الحصول على أو تعيين معرّف اللغة المستخدم لتنسيق الاسم.
+الحصول على أو تعيين معرف اللغة المستخدم لتنسيق الاسم.
 
 ```csharp
 public string LanguageId { get; set; }
@@ -22,20 +22,20 @@ public string LanguageId { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// أنشئ تحية عامة باستخدام حقل GREETINGLINE ، وبعض النص بعده.
+// قم بإنشاء تحية عامة باستخدام حقل GREETINGLINE وبعض النص بعده.
 FieldGreetingLine field = (FieldGreetingLine)builder.InsertField(FieldType.FieldGreetingLine, true);
 builder.Writeln("\n\n\tThis is your custom greeting, created programmatically using Aspose Words!");
 
-// يقبل حقل GREETINGLINE القيم من مصدر بيانات أثناء دمج البريد ، مثل MERGEFIELD.
+// يقبل حقل GREETINGLINE القيم من مصدر البيانات أثناء دمج البريد، مثل MERGEFIELD.
 // يمكنه أيضًا تنسيق كيفية كتابة بيانات المصدر في مكانها بمجرد اكتمال دمج البريد.
 // تتوافق مجموعة أسماء الحقول مع الأعمدة من مصدر البيانات
-// التي سيأخذ منها الحقل قيمًا.
+// الذي سيأخذ الحقل القيم منه.
 Assert.AreEqual(0, field.GetFieldNames().Length);
 
-// لتعبئة هذه المصفوفة ، نحتاج إلى تحديد تنسيق لسطر الترحيب الخاص بنا.
+// لملء تلك المصفوفة، نحتاج إلى تحديد تنسيق لسطر الترحيب الخاص بنا.
 field.NameFormat = "<< _BEFORE_ Dear >><< _TITLE0_ >><< _LAST0_ >><< _AFTER_ ,>> ";
 
-// الآن ، سيقبل حقلنا القيم من هذين العمودين في مصدر البيانات.
+// الآن، سيقبل حقلنا القيم من هذين العمودين في مصدر البيانات.
 Assert.AreEqual("Courtesy Title", field.GetFieldNames()[0]);
 Assert.AreEqual("Last Name", field.GetFieldNames()[1]);
 Assert.AreEqual(2, field.GetFieldNames().Length);
@@ -50,8 +50,8 @@ field.LanguageId = new CultureInfo("en-US").LCID.ToString();
 Assert.AreEqual(" GREETINGLINE  \\f \"<< _BEFORE_ Dear >><< _TITLE0_ >><< _LAST0_ >><< _AFTER_ ,>> \" \\e \"Sir or Madam\" \\l 1033", 
     field.GetFieldCode());
 
-// أنشئ جدول بيانات بأعمدة تتطابق أسماؤها مع العناصر
-// من مجموعة أسماء الحقول الخاصة بالحقل ، ثم قم بتنفيذ عملية دمج البريد.
+// أنشئ جدول بيانات يحتوي على أعمدة تتطابق أسماؤها مع العناصر
+// من مجموعة أسماء حقول الحقل، ثم قم بتنفيذ دمج المراسلات.
 DataTable table = new DataTable("Employees");
 table.Columns.Add("Courtesy Title");
 table.Columns.Add("First Name");
@@ -59,7 +59,7 @@ table.Columns.Add("Last Name");
 table.Rows.Add("Mr.", "John", "Doe");
 table.Rows.Add("Mrs.", "Jane", "Cardholder");
 
-// يحتوي هذا الصف على قيمة غير صالحة في عمود عنوان المجاملة ، لذا فإن تحياتنا ستتحول إلى النص البديل افتراضيًا.
+// يحتوي هذا الصف على قيمة غير صالحة في عمود "عنوان المجاملة"، لذلك سيتم تعيين تحيتنا افتراضيًا على النص البديل.
 table.Rows.Add("", "No", "Name");
 
 doc.MailMerge.Execute(table);

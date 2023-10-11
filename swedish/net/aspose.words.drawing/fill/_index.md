@@ -3,12 +3,14 @@ title: Class Fill
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Drawing.Fill klass. Representerar fyllningsformatering för ett objekt.
 type: docs
-weight: 820
+weight: 950
 url: /sv/net/aspose.words.drawing/fill/
 ---
 ## Fill class
 
 Representerar fyllningsformatering för ett objekt.
+
+För att lära dig mer, besök[Arbeta med grafiska element](https://docs.aspose.com/words/net/working-with-graphic-elements/) dokumentationsartikel.
 
 ```csharp
 public class Fill
@@ -19,8 +21,14 @@ public class Fill
 | namn | Beskrivning |
 | --- | --- |
 | [BackColor](../../aspose.words.drawing/fill/backcolor/) { get; set; } | Hämtar eller ställer in ett färgobjekt som representerar bakgrundsfärgen för fyllningen. |
+| [BackThemeColor](../../aspose.words.drawing/fill/backthemecolor/) { get; set; } | Hämtar eller ställer in ett ThemeColor-objekt som representerar bakgrundsfärgen för fyllningen. |
+| [BackTintAndShade](../../aspose.words.drawing/fill/backtintandshade/) { get; set; } | Hämtar eller ställer in ett dubbelt värde som gör bakgrundsfärgen ljusare eller mörkare. |
+| [BaseForeColor](../../aspose.words.drawing/fill/baseforecolor/) { get; } |  |
+| [Color](../../aspose.words.drawing/fill/color/) { get; set; } | Hämtar eller ställer in ett färgobjekt som representerar förgrundsfärgen för fyllningen. |
 | [FillType](../../aspose.words.drawing/fill/filltype/) { get; } | Får en fyllningstyp. |
 | [ForeColor](../../aspose.words.drawing/fill/forecolor/) { get; set; } | Hämtar eller ställer in ett färgobjekt som representerar förgrundsfärgen för fyllningen. |
+| [ForeThemeColor](../../aspose.words.drawing/fill/forethemecolor/) { get; set; } | Hämtar eller ställer in ett ThemeColor-objekt som representerar förgrundsfärgen för fyllningen. |
+| [ForeTintAndShade](../../aspose.words.drawing/fill/foretintandshade/) { get; set; } | Hämtar eller ställer in ett dubbelt värde som gör förgrundsfärgen ljusare eller mörkare. |
 | [GradientAngle](../../aspose.words.drawing/fill/gradientangle/) { get; set; } | Hämtar eller ställer in vinkeln för gradientfyllningen. |
 | [GradientStops](../../aspose.words.drawing/fill/gradientstops/) { get; } | Får en samling av[`GradientStop`](../gradientstop/) objekt för fill. |
 | [GradientStyle](../../aspose.words.drawing/fill/gradientstyle/) { get; } | Hämtar gradientstilen[`GradientStyle`](../gradientstyle/) för fyllningen. |

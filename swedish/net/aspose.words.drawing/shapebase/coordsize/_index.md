@@ -86,12 +86,12 @@ Assert.AreEqual(WrapType.None, group.WrapType);
 // Skapa en 400pt x 400pt gruppform och placera den vid dokumentets flytande formkoordinatursprung.
 group.Bounds = new RectangleF(0, 0, 400, 400);
 
-  // Ställ in gruppens interna koordinatplansstorlek till 500 x 500pt.
+// Ställ in gruppens interna koordinatplansstorlek till 500 x 500pt. 
 // Det övre vänstra hörnet av gruppen kommer att ha en x- och y-koordinater av (0, 0),
 // och det nedre högra hörnet kommer att ha en x- och y-koordinater på (500, 500).
 group.CoordSize = new Size(500, 500);
 
-  // Ställ in koordinaterna för gruppens övre vänstra hörn till (-250, -250).
+// Ställ in koordinaterna för gruppens övre vänstra hörn till (-250, -250). 
 // Gruppens centrum kommer nu att ha ett x- och y-koordinatvärde på (0, 0),
 // och det nedre högra hörnet kommer att vara på (250, 250).
 group.CoordOrigin = new Point(-250, -250);
@@ -119,10 +119,10 @@ group.AppendChild(new Shape(doc, ShapeType.Star)
     FillColor = Color.Red
 });
 
-  // Infoga en rektangel, och sedan infoga en lite mindre rektangel på samma plats med en bild.
+// Infoga en rektangel, och sedan infoga en lite mindre rektangel på samma plats med en bild. 
 // Nyare former som vi lägger till i gruppen överlappar äldre former. Den ljusblå rektangeln kommer delvis att överlappa den röda stjärnan,
 // och sedan kommer formen med bilden att överlappa den ljusblå rektangeln och använda den som en ram.
-  // Vi kan inte använda "ZOrder"-egenskaperna för former för att manipulera deras arrangemang inom en gruppform.
+// Vi kan inte använda "ZOrder"-egenskaperna för former för att manipulera deras arrangemang inom en gruppform. 
 group.AppendChild(new Shape(doc, ShapeType.Rectangle)
 {
     Width = 250,

@@ -14,6 +14,21 @@ Cancella il formato ombra.
 public void Clear()
 ```
 
+### Esempi
+
+Mostra come utilizzare la formattazione dell'ombra per la forma.
+
+```csharp
+Document doc = new Document(MyDir + "Shape stroke pattern border.docx");
+Shape shape = (Shape)doc.GetChildNodes(NodeType.Shape, true)[0];
+
+if (shape.ShadowFormat.Visible && shape.ShadowFormat.Type == ShadowType.Shadow2)                
+    shape.ShadowFormat.Type = ShadowType.Shadow7;
+
+if (shape.ShadowFormat.Type == ShadowType.ShadowMixed)            
+    shape.ShadowFormat.Clear();
+```
+
 ### Guarda anche
 
 * class [ShadowFormat](../)

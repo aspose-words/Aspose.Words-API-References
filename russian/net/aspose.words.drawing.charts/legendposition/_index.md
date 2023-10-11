@@ -1,14 +1,14 @@
 ---
 title: Enum LegendPosition
 second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Drawing.Charts.LegendPosition перечисление. Указывает возможные позиции легенды диаграммы.
+description: Aspose.Words.Drawing.Charts.LegendPosition перечисление. Указывает возможные положения легенды диаграммы.
 type: docs
-weight: 780
+weight: 910
 url: /ru/net/aspose.words.drawing.charts/legendposition/
 ---
 ## LegendPosition enumeration
 
-Указывает возможные позиции легенды диаграммы.
+Указывает возможные положения легенды диаграммы.
 
 ```csharp
 public enum LegendPosition
@@ -18,7 +18,7 @@ public enum LegendPosition
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| None | `0` | Легенда для диаграммы отображаться не будет. |
+| None | `0` | Для диаграммы легенда отображаться не будет. |
 | Bottom | `1` | Указывает, что легенда должна отображаться внизу диаграммы. |
 | Left | `2` | Указывает, что легенда должна отображаться слева от диаграммы. |
 | Right | `3` | Указывает, что легенда должна отображаться справа от диаграммы. |
@@ -41,11 +41,11 @@ Assert.AreEqual("Series 1", chart.Series[0].Name);
 Assert.AreEqual("Series 2", chart.Series[1].Name);
 Assert.AreEqual("Series 3", chart.Series[2].Name);
 
-// Переместите легенду диаграммы в правый верхний угол.
+// Перемещаем легенду диаграммы в правый верхний угол.
 ChartLegend legend = chart.Legend;
 legend.Position = LegendPosition.TopRight;
 
-// Дайте другим элементам диаграммы, таким как график, больше места, позволив им перекрывать легенду.
+// Дайте другим элементам диаграммы, таким как графику, больше места, разрешив им перекрывать легенду.
 legend.Overlay = true;
 
 doc.Save(ArtifactsDir + "Charts.ChartLegend.docx");

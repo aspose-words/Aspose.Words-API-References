@@ -1,14 +1,16 @@
 ---
 title: Class SdtListItemCollection
 second_title: Aspose.Words för .NET API Referens
-description: Aspose.Words.Markup.SdtListItemCollection klass. Ger tillgång tillSdtListItemelement i en strukturerad dokumenttagg.
+description: Aspose.Words.Markup.SdtListItemCollection klass. Ger tillgång tillSdtListItem element i en strukturerad dokumenttagg.
 type: docs
-weight: 3790
+weight: 4030
 url: /sv/net/aspose.words.markup/sdtlistitemcollection/
 ---
 ## SdtListItemCollection class
 
-Ger tillgång till[`SdtListItem`](../sdtlistitem/)element i en strukturerad dokumenttagg.
+Ger tillgång till[`SdtListItem`](../sdtlistitem/) element i en strukturerad dokumenttagg.
+
+För att lära dig mer, besök[Strukturerade dokumenttaggar eller innehållskontroll](https://docs.aspose.com/words/net/working-with-content-control-sdt/) dokumentationsartikel.
 
 ```csharp
 public class SdtListItemCollection : IEnumerable<SdtListItem>
@@ -69,7 +71,7 @@ using (IEnumerator<SdtListItem> enumerator = listItems.GetEnumerator())
             Console.WriteLine($"List item: {enumerator.Current.DisplayText}, value: {enumerator.Current.Value}");
 }
 
-  // Ta bort det sista listobjektet.
+ // Ta bort det sista listobjektet.
 listItems.RemoveAt(3);
 
 Assert.AreEqual(3, listItems.Count);

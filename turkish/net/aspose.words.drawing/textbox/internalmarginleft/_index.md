@@ -1,14 +1,14 @@
 ---
 title: TextBox.InternalMarginLeft
 second_title: Aspose.Words for .NET API Referansı
-description: TextBox mülk. Bir şeklin sol iç kenar boşluğunu nokta olarak belirtir.
+description: TextBox mülk. Şeklin iç sol kenar boşluğunu nokta cinsinden belirtir.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.drawing/textbox/internalmarginleft/
 ---
 ## TextBox.InternalMarginLeft property
 
-Bir şeklin sol iç kenar boşluğunu nokta olarak belirtir.
+Şeklin iç sol kenar boşluğunu nokta cinsinden belirtir.
 
 ```csharp
 public double InternalMarginLeft { get; set; }

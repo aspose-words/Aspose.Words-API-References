@@ -3,7 +3,7 @@ title: Enum MarkerSymbol
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Drawing.Charts.MarkerSymbol uppräkning. Anger markörsymbolstil.
 type: docs
-weight: 790
+weight: 920
 url: /sv/net/aspose.words.drawing.charts/markersymbol/
 ---
 ## MarkerSymbol enumeration
@@ -36,7 +36,6 @@ public enum MarkerSymbol
 Visar hur man arbetar med datapunkter på ett linjediagram.
 
 ```csharp
-[Test]
 public void ChartDataPoint()
 {
     Document doc = new Document();

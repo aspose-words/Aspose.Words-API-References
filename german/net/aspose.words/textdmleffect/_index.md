@@ -1,14 +1,14 @@
 ---
 title: Enum TextDmlEffect
 second_title: Aspose.Words für .NET-API-Referenz
-description: Aspose.Words.TextDmlEffect opsomming. DmlTexteffekt für Textläufe.
+description: Aspose.Words.TextDmlEffect opsomming. DMLTexteffekt für Textläufe.
 type: docs
-weight: 6110
+weight: 6410
 url: /de/net/aspose.words/textdmleffect/
 ---
 ## TextDmlEffect enumeration
 
-Dml-Texteffekt für Textläufe.
+DML-Texteffekt für Textläufe.
 
 ```csharp
 public enum TextDmlEffect
@@ -18,8 +18,8 @@ public enum TextDmlEffect
 
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
-| Glow | `0` | Glow-Effekt, bei dem außerhalb der Kanten des Objekts eine farblich unscharfe Kontur hinzugefügt wird. |
-| Fill | `1` | Überlagerungseffekt füllen. |
+| Glow | `0` | Glow-Effekt, bei dem ein farblich unscharfer Umriss außerhalb der Kanten des Objekts hinzugefügt wird. |
+| Fill | `1` | Füllüberlagerungseffekt. |
 | Shadow | `2` | Schatteneffekt. |
 | Outline | `3` | Kontureffekt. |
 | Effect3D | `4` | 3D-Effekt. |

@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTagRangeStart.LockContentControl
 second_title: Aspose.Words für .NET-API-Referenz
-description: StructuredDocumentTagRangeStart eigendom. Wenn diese Eigenschaft auf true gesetzt ist wird es einem Benutzer untersagt dieses strukturierte DokumentTag zu löschen.
+description: StructuredDocumentTagRangeStart eigendom. Wenn eingestellt aufWAHR  diese Eigenschaft verhindert dass ein Benutzer dieses strukturierte DokumentTag löscht.
 type: docs
 weight: 80
 url: /de/net/aspose.words.markup/structureddocumenttagrangestart/lockcontentcontrol/
 ---
 ## StructuredDocumentTagRangeStart.LockContentControl property
 
-Wenn diese Eigenschaft auf „true“ gesetzt ist, wird es einem Benutzer untersagt, dieses strukturierte Dokument-Tag zu löschen.
+Wenn eingestellt auf`WAHR` , diese Eigenschaft verhindert, dass ein Benutzer dieses strukturierte Dokument-Tag löscht.
 
 ```csharp
 public bool LockContentControl { get; set; }

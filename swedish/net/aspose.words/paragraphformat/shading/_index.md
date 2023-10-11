@@ -1,14 +1,14 @@
 ---
 title: ParagraphFormat.Shading
 second_title: Aspose.Words för .NET API Referens
-description: ParagraphFormat fast egendom. Returnerar ett Shadingobjekt som refererar till skuggformateringen för stycket.
+description: ParagraphFormat fast egendom. Returnerar enShading objekt som hänvisar till skuggningsformateringen för stycket.
 type: docs
-weight: 270
+weight: 280
 url: /sv/net/aspose.words/paragraphformat/shading/
 ---
 ## ParagraphFormat.Shading property
 
-Returnerar ett Shading-objekt som refererar till skuggformateringen för stycket.
+Returnerar en[`Shading`](../../shading/) objekt som hänvisar till skuggningsformateringen för stycket.
 
 ```csharp
 public Shading Shading { get; }

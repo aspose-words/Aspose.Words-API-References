@@ -1,14 +1,14 @@
 ---
 title: CustomXmlPart.DataChecksum
 second_title: Aspose.Words لمراجع .NET API
-description: CustomXmlPart ملكية. يحدد المجموع الاختباري لفحص التكرار الدوري CRC لملفData المحتوى .
+description: CustomXmlPart ملكية. يحدد المجموع الاختباري لفحص التكرار الدوري CRC لـData المحتوى.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.markup/customxmlpart/datachecksum/
 ---
 ## CustomXmlPart.DataChecksum property
 
-يحدد المجموع الاختباري لفحص التكرار الدوري (CRC) لملف[`Data`](../data/) المحتوى .
+يحدد المجموع الاختباري لفحص التكرار الدوري (CRC) لـ[`Data`](../data/) المحتوى.
 
 ```csharp
 public long DataChecksum { get; }
@@ -24,7 +24,7 @@ Document doc = new Document();
 StructuredDocumentTag richText = new StructuredDocumentTag(doc, SdtType.RichText, MarkupLevel.Block);
 doc.FirstSection.Body.AppendChild(richText);
 
-// يكون المجموع الاختباري للقراءة فقط ويتم حسابه باستخدام بيانات جزء بيانات XML المخصص المقابل.
+// المجموع الاختباري للقراءة فقط ويتم حسابه باستخدام بيانات جزء بيانات XML المخصص المقابل.
 richText.XmlMapping.SetMapping(doc.CustomXmlParts.Add(Guid.NewGuid().ToString(),
     "<root><text>ContentControl</text></root>"), "/root/text", "");
 
@@ -37,7 +37,7 @@ richText.XmlMapping.SetMapping(doc.CustomXmlParts.Add(Guid.NewGuid().ToString(),
 long updatedChecksum = richText.XmlMapping.CustomXmlPart.DataChecksum;
 Console.WriteLine(updatedChecksum);
 
-// قمنا بتغيير XmlPart من العلامة ، وتم تحديث المجموع الاختباري في وقت التشغيل.
+// قمنا بتغيير XmlPart للعلامة، وتم تحديث المجموع الاختباري في وقت التشغيل.
 Assert.AreNotEqual(checksum, updatedChecksum);
 ```
 

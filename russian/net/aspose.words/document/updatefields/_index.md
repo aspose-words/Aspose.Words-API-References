@@ -3,7 +3,7 @@ title: Document.UpdateFields
 second_title: Справочник по API Aspose.Words для .NET
 description: Document метод. Обновляет значения полей во всем документе.
 type: docs
-weight: 730
+weight: 770
 url: /ru/net/aspose.words/document/updatefields/
 ---
 ## Document.UpdateFields method
@@ -16,36 +16,36 @@ public void UpdateFields()
 
 ### Примечания
 
-Когда вы открываете, изменяете и затем сохраняете документ, Aspose.Words не обновляет поля автоматически, а сохраняет их нетронутыми. правильные (вычисленные) значения полей появляются в сохраненном документе.
+Когда вы открываете, изменяете и затем сохраняете документ, Aspose.Words не обновляет поля автоматически, он сохраняет их нетронутыми. Поэтому обычно вам нужно вызвать этот метод перед сохранением, если вы изменили document программно и хотите убедиться, что правильные (вычисленные) значения полей появятся в сохраненном документе.
 
-Нет необходимости обновлять поля после выполнения слияния, потому что слияние является своего рода полем update и автоматически обновляет все поля в документе.
+Нет необходимости обновлять поля после выполнения слияния почты, поскольку слияние почты является своего рода полем update и автоматически обновляет все поля в документе.
 
 Этот метод не обновляет все типы полей. Подробный список поддерживаемых типов полей см. в Руководстве программиста.
 
-Этот метод не обновляет поля, связанные с алгоритмами макета страницы (например, PAGE, PAGES, PAGEREF). Поля, связанные с макетом страницы, обновляются при отображении документа или вызове[`UpdatePageLayout`](../updatepagelayout/).
+Этот метод не обновляет поля, связанные с алгоритмами макета страницы (например, PAGE, PAGES, PAGEREF). Поля, связанные с макетом страницы, обновляются при визуализации документа или вызове.[`UpdatePageLayout`](../updatepagelayout/).
 
-Использовать[`NormalizeFieldTypes`](../normalizefieldtypes/) перед обновлением полей, если в документе были изменения, влияющие на типы полей.
+Использовать[`NormalizeFieldTypes`](../normalizefieldtypes/) метод перед обновлением полей, если были изменения документа, которые повлияли на типы полей.
 
-Для обновления полей в определенной части документа используйте[`UpdateFields`](../../range/updatefields/).
+Чтобы обновить поля в определенной части документа, используйте[`UpdateFields`](../../range/updatefields/).
 
 ### Примеры
 
-Показывает использование поля ЦИТАТА.
+Показывает использование поля ЦИТАТЫ.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Вставьте поле QUOTE, которое будет отображать значение его свойства Text.
+// Вставляем поле ЦИТАТЫ, в котором будет отображаться значение свойства Text.
 FieldQuote field = (FieldQuote)builder.InsertField(FieldType.FieldQuote, true);
 field.Text = "\"Quoted text\"";
 
 Assert.AreEqual(" QUOTE  \"\\\"Quoted text\\\"\"", field.GetFieldCode());
 
-// Вставляем поле ЦИТАТА и вкладываем в него поле ДАТА.
+// Вставляем поле ЦИТАТЫ и вставляем в него поле ДАТЫ.
 // Поля ДАТА обновляют свое значение до текущей даты каждый раз, когда мы открываем документ с помощью Microsoft Word.
-// Такое вложение поля DATE внутрь поля QUOTE заморозит его значение
-// до даты создания документа.
+// Вложение поля ДАТА в поле ЦИТАТЫ, подобное этому, заморозит его значение
+// к дате создания документа.
 builder.Write("\nDocument creation date: ");
 field = (FieldQuote)builder.InsertField(FieldType.FieldQuote, true);
 builder.MoveTo(field.Separator);
@@ -53,7 +53,7 @@ builder.InsertField(FieldType.FieldDate, true);
 
 Assert.AreEqual(" QUOTE \u0013 DATE \u0014" + DateTime.Now.Date.ToShortDateString() + "\u0015", field.GetFieldCode());
 
-// Обновляем все поля, чтобы отображались правильные результаты.
+// Обновляем все поля, чтобы отображать правильные результаты.
 doc.UpdateFields();
 
 Assert.AreEqual("\"Quoted text\"", doc.Range.Fields[0].Result);
@@ -61,7 +61,7 @@ Assert.AreEqual("\"Quoted text\"", doc.Range.Fields[0].Result);
 doc.Save(ArtifactsDir + "Field.QUOTE.docx");
 ```
 
-Показывает, как установить сведения о пользователе и отобразить их с помощью полей.
+Показывает, как задать сведения о пользователе и отобразить их с помощью полей.
 
 ```csharp
 Document doc = new Document();
@@ -77,7 +77,7 @@ UserInformation userInformation = new UserInformation
 doc.FieldOptions.CurrentUser = userInformation;
 
 // Вставляем поля USERNAME, USERINITIALS и USERADDRESS, которые отображают значения
-// соответствующие свойства объекта UserInformation, который мы создали выше. 
+ // соответствующие свойства объекта UserInformation, который мы создали выше.
 Assert.AreEqual(userInformation.Name, builder.InsertField(" USERNAME ").Result);
 Assert.AreEqual(userInformation.Initials, builder.InsertField(" USERINITIALS ").Result);
 Assert.AreEqual(userInformation.Address, builder.InsertField(" USERADDRESS ").Result);
@@ -102,15 +102,15 @@ doc.Save(ArtifactsDir + "FieldOptions.CurrentUser.docx");
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Вставляем оглавление для первой страницы документа.
-// Настройте таблицу так, чтобы она выбирала абзацы с заголовками уровней от 1 до 3.
-// Кроме того, установите его записи в качестве гиперссылок, которые приведут нас
+// Вставляем оглавление первой страницы документа.
+// Настройте таблицу так, чтобы она подбирала абзацы с заголовками уровней от 1 до 3.
+// Также сделайте его записи гиперссылками, которые приведут нас
 // к местоположению заголовка при щелчке левой кнопкой мыши в Microsoft Word.
 builder.InsertTableOfContents("\\o \"1-3\" \\h \\z \\u");
 builder.InsertBreak(BreakType.PageBreak);
 
 // Заполняем оглавление, добавляя абзацы со стилями заголовков.
-// Каждый такой заголовок с уровнем от 1 до 3 создаст запись в таблице.
+// Каждый такой заголовок уровня от 1 до 3 создаст запись в таблице.
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
 builder.Writeln("Heading 1");
 
@@ -138,7 +138,7 @@ builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading2;
 builder.Writeln("Heading 3.2");
 builder.Writeln("Heading 3.3");
 
-// Оглавление — это поле типа, которое необходимо обновить для отображения актуального результата.
+// Оглавление — это поле типа, которое необходимо обновить, чтобы отобразить актуальный результат.
 doc.UpdateFields();
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertToc.docx");
 ```

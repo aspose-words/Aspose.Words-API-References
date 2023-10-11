@@ -3,7 +3,7 @@ title: Enum AxisBuiltInUnit
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Drawing.Charts.AxisBuiltInUnit uppräkning. Anger visningsenheterna för en axel.
 type: docs
-weight: 510
+weight: 520
 url: /sv/net/aspose.words.drawing.charts/axisbuiltinunit/
 ---
 ## AxisBuiltInUnit enumeration
@@ -56,7 +56,7 @@ axis.MajorUnit = 10;
 axis.MinorUnit = 1;
 
 // Ställ in Y-axelns gränser till -10 och 20.
-// Denna Y-axel kommer nu att visa 4 större tick-markeringar och 27 mindre tick-markeringar.
+// Den här Y-axeln kommer nu att visa 4 större tick-markeringar och 27 mindre tick-markeringar.
 axis.Scaling.Minimum = new AxisBound(-10);
 axis.Scaling.Maximum = new AxisBound(20);
 

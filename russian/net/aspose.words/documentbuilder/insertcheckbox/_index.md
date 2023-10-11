@@ -3,7 +3,7 @@ title: DocumentBuilder.InsertCheckBox
 second_title: Справочник по API Aspose.Words для .NET
 description: DocumentBuilder метод. Вставляет поле формы флажка в текущую позицию.
 type: docs
-weight: 270
+weight: 290
 url: /ru/net/aspose.words/documentbuilder/insertcheckbox/
 ---
 ## InsertCheckBox(string, bool, int) {#insertcheckbox_1}
@@ -16,17 +16,17 @@ public FormField InsertCheckBox(string name, bool checkedValue, int size)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| name | String | Имя поля формы. Может быть пустой строкой. Значение длиннее 20 символов будет обрезано. |
+| name | String | Имя поля формы. Может быть пустой строкой. Значение длиной более 20 символов будет обрезано. |
 | checkedValue | Boolean | Проверено состояние поля формы флажка. |
-| size | Int32 | Указывает размер флажка в пунктах. Укажите 0 для MS Word для автоматического расчета размера флажка. |
+| size | Int32 | Определяет размер флажка в пунктах. Укажите 0 для MS Word , чтобы автоматически рассчитать размер флажка. |
 
 ### Возвращаемое значение
 
-Только что вставленный узел поля формы.
+Узел поля формы, который был только что вставлен.
 
 ### Примечания
 
-Если указать имя для поля формы, то автоматически создается закладка с тем же именем.
+Если вы укажете имя для поля формы, то автоматически создастся закладка с таким же именем.
 
 ### Примеры
 
@@ -36,7 +36,7 @@ public FormField InsertCheckBox(string name, bool checkedValue, int size)
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Вставляем чекбоксы разных размеров и со статусами по умолчанию.
+// Вставляем флажки разных размеров и отмеченных статусов по умолчанию.
 builder.Write("Unchecked check box of a default size: ");
 builder.InsertCheckBox(string.Empty, false, false, 0);
 builder.InsertParagraph();
@@ -45,7 +45,7 @@ builder.Write("Large checked check box: ");
 builder.InsertCheckBox("CheckBox_Default", true, true, 50);
 builder.InsertParagraph();
 
-// Поля формы имеют ограничение длины имени в 20 символов.
+// Поля формы имеют ограничение на длину имени в 20 символов.
 builder.Write("Very large checked check box: ");
 builder.InsertCheckBox("CheckBox_OnlyCheckedValue", true, 100);
 
@@ -74,18 +74,18 @@ public FormField InsertCheckBox(string name, bool defaultValue, bool checkedValu
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| name | String | Имя поля формы. Может быть пустой строкой. Значение длиннее 20 символов будет обрезано. |
+| name | String | Имя поля формы. Может быть пустой строкой. Значение длиной более 20 символов будет обрезано. |
 | defaultValue | Boolean | Значение по умолчанию поля формы флажка. |
 | checkedValue | Boolean | Текущий проверенный статус поля формы флажка. |
-| size | Int32 | Указывает размер флажка в пунктах. Укажите 0 для MS Word для автоматического расчета размера флажка. |
+| size | Int32 | Определяет размер флажка в пунктах. Укажите 0 для MS Word , чтобы автоматически рассчитать размер флажка. |
 
 ### Возвращаемое значение
 
-Только что вставленный узел поля формы.
+Узел поля формы, который был только что вставлен.
 
 ### Примечания
 
-Если указать имя для поля формы, то автоматически создается закладка с тем же именем.
+Если вы укажете имя для поля формы, то автоматически создастся закладка с таким же именем.
 
 ### Примеры
 
@@ -95,7 +95,7 @@ public FormField InsertCheckBox(string name, bool defaultValue, bool checkedValu
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Вставляем чекбоксы разных размеров и со статусами по умолчанию.
+// Вставляем флажки разных размеров и отмеченных статусов по умолчанию.
 builder.Write("Unchecked check box of a default size: ");
 builder.InsertCheckBox(string.Empty, false, false, 0);
 builder.InsertParagraph();
@@ -104,7 +104,7 @@ builder.Write("Large checked check box: ");
 builder.InsertCheckBox("CheckBox_Default", true, true, 50);
 builder.InsertParagraph();
 
-// Поля формы имеют ограничение длины имени в 20 символов.
+// Поля формы имеют ограничение на длину имени в 20 символов.
 builder.Write("Very large checked check box: ");
 builder.InsertCheckBox("CheckBox_OnlyCheckedValue", true, 100);
 

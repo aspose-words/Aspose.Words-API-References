@@ -1,14 +1,14 @@
 ---
 title: FieldEnd.HasSeparator
 second_title: Aspose.Words لمراجع .NET API
-description: FieldEnd ملكية. عوائد حقيقي إذا كان هذا الحقل يحتوي على فاصل.
+description: FieldEnd ملكية. إرجاعحقيقيإذا كان هذا الحقل يحتوي على فاصل.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/fieldend/hasseparator/
 ---
 ## FieldEnd.HasSeparator property
 
-عوائد **حقيقي** إذا كان هذا الحقل يحتوي على فاصل.
+إرجاع`حقيقي`إذا كان هذا الحقل يحتوي على فاصل.
 
 ```csharp
 public bool HasSeparator { get; }
@@ -19,6 +19,7 @@ public bool HasSeparator { get; }
 يوضح كيفية العمل مع مجموعة من الحقول.
 
 ```csharp
+public void FieldCollection()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -35,8 +36,8 @@ public bool HasSeparator { get; }
 
     Assert.AreEqual(6, fields.Count);
 
-    // تكرار عبر المجموعة الميدانية ، وطباعة المحتويات والنوع
-    // من كل حقل باستخدام تنفيذ زائر مخصص.
+    // كرر المجموعة الميدانية واطبع المحتويات واكتبها
+    // لكل حقل باستخدام تطبيق زائر مخصص.
     FieldVisitor fieldVisitor = new FieldVisitor();
 
     using (IEnumerator<Field> fieldEnumerator = fields.GetEnumerator())
@@ -57,9 +58,10 @@ public bool HasSeparator { get; }
     }
 
     Console.WriteLine(fieldVisitor.GetText());
+}
 
 /// <summary>
-/// تنفيذ الزائر المستند الذي يطبع معلومات الحقل.
+/// تنفيذ مستند الزائر الذي يطبع معلومات الحقل.
 /// </summary>
 public class FieldVisitor : DocumentVisitor
 {
@@ -77,7 +79,7 @@ public class FieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاستدعاء عند مواجهة عقدة FieldStart في المستند.
+    /// يتم الاتصال به عند مواجهة عقدة FieldStart في المستند.
     /// </summary>
     public override VisitorAction VisitFieldStart(FieldStart fieldStart)
     {
@@ -89,7 +91,7 @@ public class FieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاستدعاء عند مواجهة عقدة FieldSeparator في المستند.
+    /// يتم الاتصال به عند مواجهة عقدة FieldSeparator في المستند.
     /// </summary>
     public override VisitorAction VisitFieldSeparator(FieldSeparator fieldSeparator)
     {
@@ -99,7 +101,7 @@ public class FieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاستدعاء عند مواجهة عقدة FieldEnd في المستند.
+    /// يتم الاتصال به عند مواجهة عقدة FieldEnd في المستند.
     /// </summary>
     public override VisitorAction VisitFieldEnd(FieldEnd fieldEnd)
     {

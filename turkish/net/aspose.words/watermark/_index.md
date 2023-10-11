@@ -1,14 +1,16 @@
 ---
 title: Class Watermark
 second_title: Aspose.Words for .NET API Referansı
-description: Aspose.Words.Watermark sınıf. Belge filigranı ile çalışacak sınıfı temsil eder.
+description: Aspose.Words.Watermark sınıf. Belge filigranıyla çalışacak sınıfı temsil eder.
 type: docs
-weight: 6360
+weight: 6670
 url: /tr/net/aspose.words/watermark/
 ---
 ## Watermark class
 
-Belge filigranı ile çalışacak sınıfı temsil eder.
+Belge filigranıyla çalışacak sınıfı temsil eder.
+
+Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Filigranla Çalışmak](https://docs.aspose.com/words/net/working-with-watermark/) dokümantasyon makalesi.
 
 ```csharp
 public sealed class Watermark

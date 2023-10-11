@@ -1,14 +1,14 @@
 ---
 title: MailMergeSettings.MailAsAttachment
 second_title: Aspose.Words لمراجع .NET API
-description: MailMergeSettings ملكية. يحدد أن المستندات التي تم إنتاجها أثناء عملية دمج المراسلات يجب إرسالها بالبريد الإلكتروني كمرفق بدلاً من بدلاً من نص البريد الإلكتروني الفعلي. النظام الأساسيخاطئة .
+description: MailMergeSettings ملكية. يحدد أنه يجب إرسال المستندات التي يتم إنتاجها أثناء عملية دمج البريد عبر البريد الإلكتروني كمرفق بدلاً من بدلاً من نص البريد الإلكتروني الفعلي. القيمة الافتراضية هيخطأ شنيع .
 type: docs
 weight: 120
 url: /ar/net/aspose.words.settings/mailmergesettings/mailasattachment/
 ---
 ## MailMergeSettings.MailAsAttachment property
 
-يحدد أن المستندات التي تم إنتاجها أثناء عملية دمج المراسلات يجب إرسالها بالبريد الإلكتروني كمرفق بدلاً من بدلاً من نص البريد الإلكتروني الفعلي. النظام الأساسي`خاطئة` .
+يحدد أنه يجب إرسال المستندات التي يتم إنتاجها أثناء عملية دمج البريد عبر البريد الإلكتروني كمرفق بدلاً من بدلاً من نص البريد الإلكتروني الفعلي. القيمة الافتراضية هي`خطأ شنيع` .
 
 ```csharp
 public bool MailAsAttachment { get; set; }
@@ -16,7 +16,7 @@ public bool MailAsAttachment { get; set; }
 
 ### أمثلة
 
-يوضح كيفية تنفيذ دمج البريد أثناء الاتصال بمصدر بيانات خارجي.
+يوضح كيفية تنفيذ عملية دمج البريد أثناء الاتصال بمصدر بيانات خارجي.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
@@ -36,8 +36,8 @@ Console.WriteLine($"UDL connection string:\n\t{odso.UdlConnectString}");
 Console.WriteLine($"Table:\n\t{odso.TableName}");
 Console.WriteLine($"Query:\n\t{doc.MailMergeSettings.Query}");
 
-// يمكننا إعادة ضبط هذه الإعدادات بمسحها. بمجرد القيام بذلك وحفظ المستند ،
-// لن يقوم Microsoft Word بعد الآن بتنفيذ دمج المراسلات عندما نستخدمه لتحميل المستند.
+// يمكننا إعادة ضبط هذه الإعدادات عن طريق مسحها. بمجرد أن نفعل ذلك ونحفظ المستند،
+// لن يقوم Microsoft Word بعد الآن بتنفيذ عملية دمج البريد عندما نستخدمه لتحميل المستند.
 settings.Clear();
 
 doc.Save(ArtifactsDir + "MailMerge.OdsoEmail.docx");

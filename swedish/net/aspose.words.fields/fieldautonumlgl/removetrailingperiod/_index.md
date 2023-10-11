@@ -19,6 +19,7 @@ public bool RemoveTrailingPeriod { get; set; }
 Visar hur man organiserar ett dokument med AUTONUMLGL-fält.
 
 ```csharp
+public void FieldAutoNumLgl()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -28,7 +29,7 @@ Visar hur man organiserar ett dokument med AUTONUMLGL-fält.
 
     // AUTONUMLGL-fält visar ett tal som ökar vid varje AUTONUMLGL-fält inom dess aktuella rubriknivå.
     // Dessa fält har en separat räkning för varje rubriknivå,
-      // och varje fält visar också AUTONUMLGL-fältantalet för alla rubriknivåer under sina egna.
+     // och varje fält visar också AUTONUMLGL-fältantalet för alla rubriknivåer under sina egna.
     // Genom att ändra räkningen för någon rubriknivå återställs räkningen för alla nivåer över den nivån till 1.
     // Detta gör att vi kan organisera vårt dokument i form av en översiktslista.
     // Detta är det första AUTONUMLGL-fältet på en rubriknivå på 1, som visar "1." i dokumentet.
@@ -41,7 +42,7 @@ Visar hur man organiserar ett dokument med AUTONUMLGL-fält.
     // och AUTONUMLGL-räkningen för rubriknivån under den är "2", så det kommer att visa "2.1.".
     InsertNumberedClause(builder, "\tHeading 3", fillerText, StyleIdentifier.Heading2);
 
-      // Detta är det första AUTONUMLGL-fältet på en rubriknivå på 3.
+     // Detta är det första AUTONUMLGL-fältet på en rubriknivå på 3.
     // Arbetar på samma sätt som fältet ovan kommer det att visa "2.1.1.".
     InsertNumberedClause(builder, "\tHeading 4", fillerText, StyleIdentifier.Heading3);
 
@@ -68,6 +69,7 @@ Visar hur man organiserar ett dokument med AUTONUMLGL-fält.
     }
 
     doc.Save(ArtifactsDir + "Field.AUTONUMLGL.docx");
+}
 
 /// <summary>
 /// Använder en dokumentbyggare för att infoga en sats numrerad med ett AUTONUMLGL-fält.

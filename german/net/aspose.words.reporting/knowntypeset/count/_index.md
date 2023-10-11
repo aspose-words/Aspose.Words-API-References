@@ -1,14 +1,14 @@
 ---
 title: KnownTypeSet.Count
 second_title: Aspose.Words für .NET-API-Referenz
-description: KnownTypeSet eigendom. Ruft die Anzahl der Elemente im Satz ab.
+description: KnownTypeSet eigendom. Ruft die Anzahl der Elemente im Set ab.
 type: docs
 weight: 10
 url: /de/net/aspose.words.reporting/knowntypeset/count/
 ---
 ## KnownTypeSet.Count property
 
-Ruft die Anzahl der Elemente im Satz ab.
+Ruft die Anzahl der Elemente im Set ab.
 
 ```csharp
 public int Count { get; }

@@ -3,7 +3,7 @@ title: DocumentBuilder.MoveToBookmark
 second_title: Aspose.Words för .NET API Referens
 description: DocumentBuilder metod. Flyttar markören till ett bokmärke.
 type: docs
-weight: 470
+weight: 500
 url: /sv/net/aspose.words/documentbuilder/movetobookmark/
 ---
 ## MoveToBookmark(string) {#movetobookmark}
@@ -20,13 +20,13 @@ public bool MoveToBookmark(string bookmarkName)
 
 ### Returvärde
 
-Sant om bokmärket hittades; falskt annars.
+`Sann` om bokmärket hittades;`falsk` annat.
 
 ### Anmärkningar
 
 Flyttar markören till en position precis efter början av bokmärket med det angivna namnet .
 
-Jämförelsen är inte skiftlägeskänslig. Om bokmärket inte hittades returneras false is och markören flyttas inte.
+Jämförelsen är inte skiftlägeskänslig. Om bokmärket inte hittades,`falsk` is returneras och markören flyttas inte.
 
 Att infoga ny text ersätter inte befintlig text i bokmärket.
 
@@ -41,12 +41,12 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Skapa ett giltigt bokmärke, en enhet som består av noder som omges av en bokmärkesstartnod,
-  // och en bokmärkesslutnod.
+ // och en bokmärkesslutnod.
 builder.StartBookmark("MyBookmark");
 builder.Write("Bookmark contents.");
 builder.EndBookmark("MyBookmark");
 
-NodeCollection firstParagraphNodes = doc.FirstSection.Body.FirstParagraph.ChildNodes;
+NodeCollection firstParagraphNodes = doc.FirstSection.Body.FirstParagraph.GetChildNodes(NodeType.Any, false);
 
 Assert.AreEqual(NodeType.BookmarkStart, firstParagraphNodes[0].NodeType);
 Assert.AreEqual(NodeType.Run, firstParagraphNodes[1].NodeType);
@@ -102,12 +102,12 @@ public bool MoveToBookmark(string bookmarkName, bool isStart, bool isAfter)
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
 | bookmarkName | String | Namnet på bokmärket att flytta markören till. |
-| isStart | Boolean | När sant, flyttar markören till början av bokmärket. När falskt, flyttar markören till slutet av bokmärket. |
-| isAfter | Boolean | När sant, flyttar markören efter start- eller slutpositionen för bokmärke . När false, flyttar markören till att vara före bokmärke start- eller slutposition. |
+| isStart | Boolean | När`Sann` , flyttar markören till början av bokmärket. When`falsk`, flyttar markören till slutet av bokmärket. |
+| isAfter | Boolean | När`Sann` , flyttar markören efter start- eller slutpositionen för bokmärke . När`falsk`, flyttar markören till att vara före start- eller slutpositionen för bokmärke . |
 
 ### Returvärde
 
-Sant om bokmärket hittades; falskt annars.
+`Sann` om bokmärket hittades;`falsk` annat.
 
 ### Anmärkningar
 
@@ -115,7 +115,7 @@ Flyttar markören till en position före eller efter bokmärkets start eller slu
 
 Om önskad position inte är på inline-nivå, går du till nästa stycke.
 
-Jämförelsen är inte skiftlägeskänslig. Om bokmärket inte hittades returneras false is och markören flyttas inte.
+Jämförelsen är inte skiftlägeskänslig. Om bokmärket inte hittades,`falsk` is returneras och markören flyttas inte.
 
 ### Exempel
 

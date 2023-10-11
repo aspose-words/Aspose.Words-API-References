@@ -17,11 +17,11 @@ public Style Add(StyleType type, string name)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | type | StyleType | А[`StyleType`](../../styletype/) значение, указывающее тип создаваемого стиля. |
-| name | String | Регистрозависимое имя создаваемого стиля. |
+| name | String | Имя создаваемого стиля с учетом регистра. |
 
 ### Примечания
 
-Вы можете создать символ, абзац или стиль списка.
+Вы можете создать стиль символа, абзаца или списка.
 
 При создании стиля списка стиль создается с форматированием нумерованного списка по умолчанию (1 \ a \ i).
 
@@ -33,16 +33,14 @@ public Style Add(StyleType type, string name)
 
 ```csharp
 Document doc = new Document();
+
 StyleCollection styles = doc.Styles;
-
-// Задаем параметры по умолчанию для новых стилей, которые позже мы можем добавить в эту коллекцию.
+// Устанавливаем параметры по умолчанию для новых стилей, которые мы можем позже добавить в эту коллекцию.
 styles.DefaultFont.Name = "Courier New";
-
-// Если мы добавим стиль "StyleType.Paragraph", коллекция применит значения
-// его свойство "DefaultParagraphFormat" к свойству "ParagraphFormat" стиля.
+// Если мы добавим стиль StyleType.Paragraph, коллекция применит значения
+// его свойство "DefaultParagraphFormat" к свойству стиля "ParagraphFormat".
 styles.DefaultParagraphFormat.FirstLineIndent = 15.0;
-
-// Добавьте стиль, а затем убедитесь, что он имеет настройки по умолчанию.
+// Добавляем стиль и проверяем, что для него заданы настройки по умолчанию.
 styles.Add(StyleType.Paragraph, "MyStyle");
 
 Assert.AreEqual("Courier New", styles[4].Font.Name);
@@ -54,11 +52,11 @@ Assert.AreEqual(15.0, styles["MyStyle"].ParagraphFormat.FirstLineIndent);
 ```csharp
 Document doc = new Document();
 
-// Список позволяет нам организовывать и оформлять наборы абзацев префиксными символами и отступами.
-// Мы можем создавать вложенные списки, увеличивая уровень отступа. 
-// Мы можем начать и закончить список, используя свойство "ListFormat" конструктора документов. 
+// Список позволяет нам организовывать и украшать наборы абзацев префиксными символами и отступами.
+ // Мы можем создавать вложенные списки, увеличивая уровень отступа.
+ // Мы можем начать и закончить список, используя свойство ListFormat конструктора документов.
 // Каждый абзац, который мы добавляем между началом и концом списка, станет элементом списка.
-// Мы можем содержать весь объект List в стиле.
+// Мы можем содержать целый объект List внутри стиля.
 Style listStyle = doc.Styles.Add(StyleType.List, "MyListStyle");
 
 List list1 = listStyle.List;
@@ -80,14 +78,14 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln("Using list style first time:");
 
-// Создать другой список из списка в стиле.
+// Создать еще один список из списка внутри стиля.
 List list2 = doc.Lists.Add(listStyle);
 
 Assert.False(list2.IsListStyleDefinition);
 Assert.True(list2.IsListStyleReference);
 Assert.AreEqual(listStyle, list2.Style);
 
-// Добавляем несколько элементов списка, которые будут отформатированы в нашем списке.
+// Добавляем несколько элементов списка, которые наш список будет форматировать.
 builder.ListFormat.List = list2;
 builder.Writeln("Item 1");
 builder.Writeln("Item 2");

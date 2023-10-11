@@ -3,7 +3,7 @@ title: DocumentBuilder.InsertHtml
 second_title: Aspose.Words لمراجع .NET API
 description: DocumentBuilder طريقة. إدراج سلسلة HTML في المستند.
 type: docs
-weight: 330
+weight: 360
 url: /ar/net/aspose.words/documentbuilder/inserthtml/
 ---
 ## InsertHtml(string) {#inserthtml}
@@ -24,7 +24,7 @@ public void InsertHtml(string html)
 
 ### أمثلة
 
-يوضح كيفية استخدام منشئ المستندات لإدراج محتوى html في مستند.
+يوضح كيفية استخدام منشئ المستندات لإدراج محتوى html في المستند.
 
 ```csharp
 Document doc = new Document();
@@ -37,7 +37,7 @@ const string html = "<p align='right'>Paragraph right</p>" +
 
 builder.InsertHtml(html);
 
-// إدراج كود HTML يوزع تنسيق كل عنصر في تنسيق نص الوثيقة المكافئ.
+// يؤدي إدخال كود HTML إلى تحليل تنسيق كل عنصر إلى تنسيق نص مستند مكافئ.
 ParagraphCollection paragraphs = doc.FirstSection.Body.Paragraphs;
 
 Assert.AreEqual("Paragraph right", paragraphs[0].GetText().Trim());
@@ -56,9 +56,10 @@ Assert.AreEqual("Heading 1", paragraphs[3].ParagraphFormat.Style.Name);
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertHtml.docx");
 ```
 
-يوضح كيفية تنفيذ دمج المراسلات باستخدام رد اتصال مخصص يعالج بيانات الدمج في شكل مستندات HTML.
+يوضح كيفية تنفيذ عملية دمج البريد باستخدام رد اتصال مخصص يتعامل مع بيانات الدمج في شكل مستندات HTML.
 
 ```csharp
+public void MergeHtml()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -88,13 +89,13 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertHtml.docx");
 }
 
 /// <summary>
-/// إذا واجه دمج البريد MERGEFIELD يبدأ اسمه بالبادئة "html_" ،
-/// هذا الاستدعاء يحلل بيانات الدمج الخاصة به كمحتوى HTML ويضيف النتيجة إلى موقع المستند الخاص بـ MERGEFIELD.
+/// إذا واجه دمج البريد MERGEFIELD الذي يبدأ اسمه بالبادئة "html_"،
+/// يقوم رد الاتصال هذا بتحليل بيانات الدمج الخاصة به كمحتوى HTML وإضافة النتيجة إلى موقع مستند MERGEFIELD.
 /// </summary>
 private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 {
     /// <summary>
-    /// يتم الاستدعاء عندما يقوم دمج المراسلات بدمج البيانات في MERGEFIELD.
+    /// يتم الاتصال به عندما يقوم دمج البريد بدمج البيانات في MERGEFIELD.
     /// </summary>
     void IFieldMergingCallback.FieldMerging(FieldMergingArgs args)
     {
@@ -105,7 +106,7 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
             builder.MoveToMergeField(args.DocumentFieldName);
             builder.InsertHtml((string)args.FieldValue);
 
-            // نظرًا لأننا أدخلنا المحتوى المدمج يدويًا بالفعل ،
+            // نظرًا لأننا قمنا بالفعل بإدراج المحتوى المدمج يدويًا،
              // لن نحتاج إلى الرد على هذا الحدث من خلال إعادة المحتوى عبر خاصية "النص".
             args.Text = string.Empty;
         }
@@ -137,25 +138,25 @@ public void InsertHtml(string html, bool useBuilderFormatting)
 | معامل | يكتب | وصف |
 | --- | --- | --- |
 | html | String | سلسلة HTML لإدراجها في المستند. |
-| useBuilderFormatting | Boolean | قيمة تشير إلى ما إذا كان التنسيق محددًا بتنسيق[`DocumentBuilder`](../) كتنسيق أساسي للنص المستورد من HTML. |
+| useBuilderFormatting | Boolean | قيمة تشير إلى ما إذا كان التنسيق محددًا أم لا[`DocumentBuilder`](../) يتم استخدام كتنسيق أساسي للنص المستورد من HTML. |
 
 ### ملاحظات
 
 يمكنك استخدام هذه الطريقة لإدراج جزء HTML أو مستند HTML بأكمله.
 
-متى*useBuilderFormatting* هو`خاطئة` ، [`DocumentBuilder`](../) يتم تجاهل التنسيق ويعتمد تنسيق text على تنسيق HTML الافتراضي. نتيجة لذلك ، يبدو النص كما هو معروض في المتصفحات.
+متى*useBuilderFormatting* يكون`خطأ شنيع`[`DocumentBuilder`](../)يتم تجاهل التنسيق ويعتمد تنسيق text المدرج على تنسيق HTML الافتراضي. ونتيجة لذلك، يبدو النص كما هو معروض في المتصفحات.
 
-متى*useBuilderFormatting* هو`حقيقي` ، تنسيق النص المدرج يعتمد على[`DocumentBuilder`](../) التنسيق ، والنص يبدو كما لو تم إدراجه مع[`Write`](../write/) .
+متى*useBuilderFormatting* يكون`حقيقي` ، يعتمد تنسيق النص المدرج[`DocumentBuilder`](../) التنسيق، ويبدو النص كما لو تم إدراجه به[`Write`](../write/) .
 
 ### أمثلة
 
-يوضح كيفية تطبيق تنسيق منشئ المستندات أثناء إدراج محتوى HTML.
+يوضح كيفية تطبيق تنسيق أداة إنشاء المستندات أثناء إدراج محتوى HTML.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// قم بتعيين محاذاة النص للمنشئ ، وأدخل فقرة HTML بمحاذاة محددة ، وأخرى بدونها.
+// قم بتعيين محاذاة النص للمنشئ، وأدخل فقرة HTML بمحاذاة محددة وأخرى بدونها.
 builder.ParagraphFormat.Alignment = ParagraphAlignment.Distributed;
 builder.InsertHtml(
     "<p align='right'>Paragraph 1.</p>" +
@@ -163,13 +164,13 @@ builder.InsertHtml(
 
 ParagraphCollection paragraphs = doc.FirstSection.Body.Paragraphs;
 
-// الفقرة الأولى لها محاذاة محددة. عندما يوزع InsertHtml كود HTML ،
-// دائمًا ما تحل قيمة محاذاة الفقرة الموجودة في كود HTML محل قيمة منشئ المستند.
+// تحتوي الفقرة الأولى على محاذاة محددة. عندما يقوم InsertHtml بتحليل تعليمات HTML البرمجية،
+// قيمة محاذاة الفقرة الموجودة في كود HTML تحل دائمًا محل قيمة منشئ المستندات.
 Assert.AreEqual("Paragraph 1.", paragraphs[0].GetText().Trim());
 Assert.AreEqual(ParagraphAlignment.Right, paragraphs[0].ParagraphFormat.Alignment);
 
-// لم يتم تحديد محاذاة الفقرة الثانية. يمكن أن يتم ملء قيمة المحاذاة الخاصة به
-// بواسطة قيمة الباني اعتمادًا على العلامة التي مررناها إلى طريقة InsertHtml.
+// لم يتم تحديد محاذاة للفقرة الثانية. يمكن ملء قيمة المحاذاة الخاصة بها
+// حسب قيمة المنشئ اعتمادًا على العلامة التي مررناها إلى طريقة InsertHtml.
 Assert.AreEqual("Paragraph 2.", paragraphs[1].GetText().Trim());
 Assert.AreEqual(useBuilderFormatting ? ParagraphAlignment.Distributed : ParagraphAlignment.Left,
     paragraphs[1].ParagraphFormat.Alignment);
@@ -187,7 +188,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertHtmlWithFormatting.docx");
 
 ## InsertHtml(string, HtmlInsertOptions) {#inserthtml_1}
 
-لإدراج سلسلة HTML في المستند. يسمح بتحديد خيارات إضافية.
+يقوم بإدراج سلسلة HTML في المستند. يسمح بتحديد خيارات إضافية.
 
 ```csharp
 public void InsertHtml(string html, HtmlInsertOptions options)
@@ -204,7 +205,7 @@ public void InsertHtml(string html, HtmlInsertOptions options)
 
 ### أمثلة
 
-يوضح كيفية استخدام الخيارات أثناء إدراج html.
+يوضح كيفية استخدام الخيارات أثناء إدراج HTML.
 
 ```csharp
 Document doc = new Document();
@@ -215,10 +216,10 @@ builder.InsertParagraph();
 builder.InsertField(" MERGEFIELD EMAIL ");
 builder.InsertParagraph();
 
-// بشكل افتراضي ، يُدرج "DocumentBuilder.InsertHtml" جزء HTML ينتهي بعنصر HTML على مستوى الكتلة ،
-// عادةً ما تغلق هذا العنصر على مستوى الكتلة وتدرج فاصل فقرة.
-// نتيجة لذلك ، تظهر فقرة فارغة جديدة بعد المستند المُدرج.
-// إذا حددنا "HtmlInsertOptions.RemoveLastEmptyParagraph" ، فستتم إزالة تلك الفقرات الفارغة الإضافية.
+// افتراضيًا، يقوم "DocumentBuilder.InsertHtml" بإدراج جزء HTML ينتهي بعنصر HTML على مستوى الكتلة،
+// يقوم عادةً بإغلاق عنصر مستوى الكتلة وإدراج فاصل فقرة.
+// نتيجة لذلك، تظهر فقرة فارغة جديدة بعد إدراج المستند.
+// إذا قمنا بتحديد "HtmlInsertOptions.RemoveLastEmptyParagraph"، فستتم إزالة تلك الفقرات الفارغة الإضافية.
 builder.MoveToMergeField("NAME");
 builder.InsertHtml("<p>John Smith</p>", HtmlInsertOptions.UseBuilderFormatting | HtmlInsertOptions.RemoveLastEmptyParagraph);
 builder.MoveToMergeField("EMAIL");

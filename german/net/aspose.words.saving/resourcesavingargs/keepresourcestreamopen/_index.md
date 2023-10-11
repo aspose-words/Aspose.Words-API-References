@@ -1,14 +1,14 @@
 ---
 title: ResourceSavingArgs.KeepResourceStreamOpen
 second_title: Aspose.Words für .NET-API-Referenz
-description: ResourceSavingArgs eigendom. Gibt an ob Aspose.Words den Stream offen halten oder nach dem Speichern einer Ressource schließen soll.
+description: ResourceSavingArgs eigendom. Gibt an ob Aspose.Words den Stream offen halten oder schließen soll nachdem eine Ressource gespeichert wurde.
 type: docs
 weight: 20
 url: /de/net/aspose.words.saving/resourcesavingargs/keepresourcestreamopen/
 ---
 ## ResourceSavingArgs.KeepResourceStreamOpen property
 
-Gibt an, ob Aspose.Words den Stream offen halten oder nach dem Speichern einer Ressource schließen soll.
+Gibt an, ob Aspose.Words den Stream offen halten oder schließen soll, nachdem eine Ressource gespeichert wurde.
 
 ```csharp
 public bool KeepResourceStreamOpen { get; set; }
@@ -16,11 +16,11 @@ public bool KeepResourceStreamOpen { get; set; }
 
 ### Bemerkungen
 
-Standard ist`FALSCH` und Aspose.Words schließt den von Ihnen bereitgestellten Stream in der[`ResourceStream`](../resourcestream/) Eigenschaft, nachdem eine Ressource hineingeschrieben wurde. Angeben`Stimmt` um den Strom offen zu halten.
+Standard ist`FALSCH` und Aspose.Words schließt den von Ihnen bereitgestellten Stream im[`ResourceStream`](../resourcestream/) Eigenschaft nach dem Schreiben einer Ressource in sie. Angeben`WAHR` um den Stream offen zu halten.
 
 ### Beispiele
 
-Zeigt, wie ein Rückruf verwendet wird, um die URIs externer Ressourcen zu drucken, die beim Konvertieren eines Dokuments in HTML erstellt wurden.
+Zeigt, wie Sie einen Rückruf verwenden, um die URIs externer Ressourcen zu drucken, die beim Konvertieren eines Dokuments in HTML erstellt wurden.
 
 ```csharp
 public void HtmlFixedResourceFolder()
@@ -60,7 +60,7 @@ private class ResourceUriPrinter : IResourceSavingCallback
 {
     void IResourceSavingCallback.ResourceSaving(ResourceSavingArgs args)
     {
-        // Wenn wir im SaveOptions-Objekt einen Ordner-Alias festlegen, können wir ihn von hier aus drucken.
+        // Wenn wir im SaveOptions-Objekt einen Ordneralias festlegen, können wir ihn von hier aus drucken.
         mText.AppendLine($"Resource #{++mSavedResourceCount} \"{args.ResourceFileName}\"");
 
         string extension = Path.GetExtension(args.ResourceFileName);
@@ -69,7 +69,7 @@ private class ResourceUriPrinter : IResourceSavingCallback
             case ".ttf":
             case ".woff":
             {
-                // Standardmäßig verwendet 'ResourceFileUri' den Systemordner für Schriftarten.
+                // Standardmäßig verwendet „ResourceFileUri“ den Systemordner für Schriftarten.
                 // Um Probleme auf anderen Plattformen zu vermeiden, müssen Sie den Pfad für die Schriftarten explizit angeben.
                 args.ResourceFileUri = ArtifactsDir + Path.DirectorySeparatorChar + args.ResourceFileName;
                 break;
@@ -78,8 +78,8 @@ private class ResourceUriPrinter : IResourceSavingCallback
 
         mText.AppendLine("\t" + args.ResourceFileUri);
 
-        // Wenn wir in der Eigenschaft "ResourcesFolderAlias" einen Ordner angegeben haben,
-        // Wir müssen auch jeden Stream umleiten, um seine Ressource in diesen Ordner zu legen.
+        // Wenn wir in der Eigenschaft „ResourcesFolderAlias“ einen Ordner angegeben haben,
+        // Wir müssen auch jeden Stream umleiten, um seine Ressource in diesem Ordner abzulegen.
         args.ResourceStream = new FileStream(args.ResourceFileUri, FileMode.Create);
         args.KeepResourceStreamOpen = false;
     }

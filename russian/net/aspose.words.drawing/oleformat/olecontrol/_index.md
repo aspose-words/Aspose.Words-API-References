@@ -1,14 +1,14 @@
 ---
 title: OleFormat.OleControl
 second_title: Справочник по API Aspose.Words для .NET
-description: OleFormat свойство. получаетOleControl объекты если этот объект OLE является элементом управления ActiveX. В противном случае это свойство равно null.
+description: OleFormat свойство. ПолучаетOleControl объекты если этот объект OLE является элементом управления ActiveX. В противном случае это свойство имеет значение null.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.drawing/oleformat/olecontrol/
 ---
 ## OleFormat.OleControl property
 
-получает`OleControl` объекты, если этот объект OLE является элементом управления ActiveX. В противном случае это свойство равно null.
+Получает`OleControl` объекты, если этот объект OLE является элементом управления ActiveX. В противном случае это свойство имеет значение null.
 
 ```csharp
 public OleControl OleControl { get; }
@@ -24,7 +24,7 @@ Document doc = new Document(MyDir + "ActiveX controls.docx");
 Shape shape = (Shape) doc.GetChild(NodeType.Shape, 0, true);
 OleControl oleControl = shape.OleFormat.OleControl;
 
-Assert.AreEqual(null, oleControl.Name);
+Assert.AreEqual("CheckBox1", oleControl.Name);
 
 if (oleControl.IsForms2OleControl)
 {
@@ -34,6 +34,10 @@ if (oleControl.IsForms2OleControl)
     Assert.AreEqual(true, checkBox.Enabled);
     Assert.AreEqual(Forms2OleControlType.CheckBox, checkBox.Type);
     Assert.AreEqual(null, checkBox.ChildNodes);
+    Assert.AreEqual(string.Empty, checkBox.GroupName);
+
+    // Обратите внимание, что вы не можете установить GroupName для кадра.
+    checkBox.GroupName = "Aspose group name";
 }
 ```
 

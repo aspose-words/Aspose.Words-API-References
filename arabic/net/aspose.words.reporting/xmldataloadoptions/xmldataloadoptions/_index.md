@@ -1,14 +1,14 @@
 ---
 title: XmlDataLoadOptions.XmlDataLoadOptions
 second_title: Aspose.Words لمراجع .NET API
-description: XmlDataLoadOptions البناء. تهيئة مثيل جديد من هذه الفئة بالخيارات الافتراضية.
+description: XmlDataLoadOptions البناء. تهيئة مثيل جديد لهذه الفئة بالخيارات الافتراضية.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.reporting/xmldataloadoptions/xmldataloadoptions/
 ---
 ## XmlDataLoadOptions constructor
 
-تهيئة مثيل جديد من هذه الفئة بالخيارات الافتراضية.
+تهيئة مثيل جديد لهذه الفئة بالخيارات الافتراضية.
 
 ```csharp
 public XmlDataLoadOptions()

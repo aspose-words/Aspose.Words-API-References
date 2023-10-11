@@ -16,7 +16,7 @@ public int LastColumn { get; }
 
 ### ملاحظات
 
-عوائد **-1** إذا كانت هذه الإشارة المرجعية ليست إشارة مرجعية لعمود الجدول.
+إرجاع **-1** إذا كانت هذه الإشارة المرجعية ليست إشارة مرجعية لعمود الجدول.
 
 ### أمثلة
 
@@ -27,14 +27,14 @@ Document doc = new Document(MyDir + "Table column bookmarks.doc");
 
 foreach (Bookmark bookmark in doc.Range.Bookmarks)
 {
-    // إذا كانت الإشارة المرجعية تضم أعمدة في الجدول ، فهي إشارة مرجعية لعمود الجدول ، ويتم تعيين علامة IsColumn الخاصة بها على صحيح.
+    // إذا كانت الإشارة المرجعية تحتوي على أعمدة الجدول، فهي إشارة مرجعية لعمود الجدول، وتم تعيين علامة IsColumn الخاصة بها على true.
     Console.WriteLine($"Bookmark: {bookmark.Name}{(bookmark.IsColumn ? " (Column)" : "")}");
     if (bookmark.IsColumn)
     {
         if (bookmark.BookmarkStart.GetAncestor(NodeType.Row) is Row row &&
             bookmark.FirstColumn < row.Cells.Count)
         {
-            // طباعة محتويات العمودين الأول والأخير المحاطين بالإشارة المرجعية.
+            // اطبع محتويات العمودين الأول والأخير المحاطة بالإشارة المرجعية.
             Console.WriteLine(row.Cells[bookmark.FirstColumn].GetText().TrimEnd(ControlChar.CellChar));
             Console.WriteLine(row.Cells[bookmark.LastColumn].GetText().TrimEnd(ControlChar.CellChar));
         }

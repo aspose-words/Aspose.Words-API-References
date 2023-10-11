@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTagRangeStart.StructuredDocumentTagRangeStart
 second_title: Aspose.Words for .NET API Referansı
-description: StructuredDocumentTagRangeStart inşaatçı. Yeni bir örneğini başlatır Yapılandırılmış belge etiketi aralığı başlangıcı sınıf.
+description: StructuredDocumentTagRangeStart inşaatçı. Yeni bir örneğini başlatır Yapılandırılmış belge etiketi aralığı başlangıcı class.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.markup/structureddocumenttagrangestart/structureddocumenttagrangestart/
 ---
 ## StructuredDocumentTagRangeStart constructor
 
-Yeni bir örneğini başlatır **Yapılandırılmış belge etiketi aralığı başlangıcı** sınıf.
+Yeni bir örneğini başlatır **Yapılandırılmış belge etiketi aralığı başlangıcı** class.
 
 ```csharp
 public StructuredDocumentTagRangeStart(DocumentBase doc, SdtType type)
@@ -16,8 +16,8 @@ public StructuredDocumentTagRangeStart(DocumentBase doc, SdtType type)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| doc | DocumentBase | Sahip belgesi. |
-| type | SdtType | SDT düğümü türü. |
+| doc | DocumentBase | Sahibi belgesi. |
+| type | SdtType | SDT düğümünün türü. |
 
 ### Notlar
 
@@ -38,6 +38,7 @@ Aşağıdaki SDT türleri oluşturulabilir:
 Yapılandırılmış belge etiketinin ve içeriğinin nasıl oluşturulacağını/kaldırılacağını gösterir.
 
 ```csharp
+public void SdtRangeExtendedMethods()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -46,7 +47,7 @@ Yapılandırılmış belge etiketinin ve içeriğinin nasıl oluşturulacağın�
 
     InsertStructuredDocumentTagRanges(doc, out StructuredDocumentTagRangeStart rangeStart);
 
-    // Aralıklı yapılandırılmış belge etiketini kaldırır, ancak içeriği içeride tutar.
+    // Aralıklı yapılandırılmış belge etiketini kaldırır ancak içeriği içeride tutar.
     rangeStart.RemoveSelfOnly();
 
     rangeStart = (StructuredDocumentTagRangeStart)doc.GetChild(

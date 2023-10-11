@@ -16,17 +16,17 @@ public IMailMergeDataSource GetDataSource(string tableName)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| tableName | String | Le nom de la région de fusion et publipostage tel qu'il est spécifié dans le modèle de document. Insensible à la casse. |
+| tableName | String | Nom de la région de publipostage tel que spécifié dans le document modèle. Insensible à la casse. |
 
 ### Return_Value
 
-Un objet de source de données qui donnera accès aux enregistrements de données de la table spécifiée.
+Un objet source de données qui donnera accès aux enregistrements de données de la table spécifiée.
 
 ### Remarques
 
-Lorsque les moteurs de publipostage Aspose.Words remplissent un document avec des données et rencontrent MERGEFIELD TableStart:TableName, il appelle`GetDataSource` sur cet objet. Votre implémentation doit renvoyer un nouvel objet de source de données. Aspose.Words utilisera la source de données renvoyée pour remplir la région de fusion et publipostage.
+Lorsque les moteurs de publipostage Aspose.Words remplissent un document avec des données et rencontrent MERGEFIELD TableStart:TableName, , il invoque`GetDataSource` sur cet objet. Votre implémentation doit renvoyer un nouvel objet source de données. Aspose.Words utilisera la source de données renvoyée pour remplir la région de fusion et de publipostage.
 
-Si une source de données (table) avec le nom spécifié n'existe pas, votre implémentation doit renvoyer`nul` .
+Si une source de données (table) portant le nom spécifié n'existe pas, votre implémentation doit renvoyer`nul` .
 
 ### Exemples
 
@@ -35,11 +35,11 @@ Effectue un publipostage à partir d'une source de données personnalisée avec 
 ```csharp
 public void CustomDataSourceRoot()
 {
-    // Crée un document avec deux régions de publipostage nommées "Washington" et "Seattle".
+    // Créez un document avec deux régions de publipostage nommées "Washington" et "Seattle".
     string[] mailMergeRegions = { "Vancouver", "Seattle" };
     Document doc = CreateSourceDocumentWithMailMergeRegions(mailMergeRegions);
 
-    // Crée deux sources de données pour le publipostage.
+    // Créez deux sources de données pour le publipostage.
     EmployeeList employeesWashingtonBranch = new EmployeeList();
     employeesWashingtonBranch.Add(new Employee("John Doe", "Sales"));
     employeesWashingtonBranch.Add(new Employee("Jane Doe", "Management"));
@@ -48,23 +48,23 @@ public void CustomDataSourceRoot()
     employeesSeattleBranch.Add(new Employee("John Cardholder", "Management"));
     employeesSeattleBranch.Add(new Employee("Joe Bloggs", "Sales"));
 
-    // Enregistrez nos sources de données par leur nom dans une racine de source de données.
+    // Enregistrez nos sources de données par nom dans une racine de source de données.
     // Si nous sommes sur le point d'utiliser cette racine de source de données dans un publipostage avec des régions,
-    // le nom enregistré de chaque source doit correspondre au nom d'une région de fusion et publipostage existante dans le document source de fusion et publipostage.
+    // le nom enregistré de chaque source doit correspondre au nom d'une région de publipostage existante dans le document source du publipostage.
     DataSourceRoot sourceRoot = new DataSourceRoot();
     sourceRoot.RegisterSource(mailMergeRegions[0], new EmployeeListMailMergeSource(employeesWashingtonBranch));
     sourceRoot.RegisterSource(mailMergeRegions[1], new EmployeeListMailMergeSource(employeesSeattleBranch));
 
-    // Étant donné que nous avons des régions de fusion et publipostage consécutives, nous devrions normalement effectuer deux fusions et publipostage.
+    // Puisque nous avons des régions de publipostage consécutives, nous devrions normalement effectuer deux publipostages.
     // Cependant, une source de publipostage avec une racine de données peut remplir plusieurs régions
-    // si la racine contient des tables avec des noms/noms de colonnes correspondants.
+    // si la racine contient des tables avec les noms/noms de colonnes correspondants.
     doc.MailMerge.ExecuteWithRegions(sourceRoot);
 
     doc.Save(ArtifactsDir + "MailMergeCustom.CustomDataSourceRoot.docx");
 }
 
 /// <summary>
-/// Crée un document qui contient des régions de publipostage consécutives, avec des noms désignés par le tableau d'entrée,
+/// Créer un document contenant des régions de publipostage consécutives, avec des noms désignés par le tableau d'entrée,
 /// pour une table de données des employés.
 /// </summary>
 private static Document CreateSourceDocumentWithMailMergeRegions(string[] regions)
@@ -113,7 +113,7 @@ private class EmployeeList : ArrayList
 }
 
 /// <summary>
-/// Racine de la source de données qui peut être transmise directement dans un publipostage qui peut enregistrer et contenir de nombreuses sources de données enfants.
+/// Racine de la source de données qui peut être transmise directement dans un publipostage pouvant enregistrer et contenir de nombreuses sources de données enfants.
 /// Ces sources doivent toutes implémenter IMailMergeDataSource, et sont enregistrées et différenciées par un nom
 /// qui correspond à une région de publipostage qui lira les données respectives.
 /// </summary>
@@ -167,7 +167,7 @@ private class EmployeeListMailMergeSource : IMailMergeDataSource
     }
 
     /// <summary>
-    /// Le nom de la source de données. Utilisé par Aspose.Words uniquement lors de l'exécution d'un publipostage avec des régions répétables.
+    /// Le nom de la source de données. Utilisé par Aspose.Words uniquement lors de l’exécution d’un publipostage avec des régions répétables.
     /// </summary>
     public string TableName
     {

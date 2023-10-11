@@ -1,14 +1,14 @@
 ---
 title: BarcodeParameters.PosCodeStyle
 second_title: Aspose.Words for .NET API Referansı
-description: BarcodeParameters mülk. Satış Noktası barkodunun stili barkod türleri UPCAUPCEEAN13EAN8. Geçerli değerler büyük/küçük harfe duyarlı değildir STDSUP2SUP5CASE.
+description: BarcodeParameters mülk. Satış Noktası barkodunun stili barkod türleri UPCAUPCEEAN13EAN8. Geçerli değerler büyük/küçük harfe duyarlı değil şunlardır STDSUP2SUP5CASE.
 type: docs
 weight: 140
 url: /tr/net/aspose.words.fields/barcodeparameters/poscodestyle/
 ---
 ## BarcodeParameters.PosCodeStyle property
 
-Satış Noktası barkodunun stili (barkod türleri UPCA&#x7C;UPCE&#x7C;EAN13&#x7C;EAN8). Geçerli değerler (büyük/küçük harfe duyarlı değildir) [STD&#x7C;SUP2&#x7C;SUP5&#x7C;CASE].
+Satış Noktası barkodunun stili (barkod türleri UPCA&#x7C;UPCE&#x7C;EAN13&#x7C;EAN8). Geçerli değerler (büyük/küçük harfe duyarlı değil) şunlardır: [STD&#x7C;SUP2&#x7C;SUP5&#x7C;CASE].
 
 ```csharp
 public string PosCodeStyle { get; set; }
@@ -21,13 +21,12 @@ Barkod oluşturucunun nasıl kullanılacağını gösterir.
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
-
-// Barkod oluşturmak için özel bir IBarcodeGenerator uygulaması kullanabiliriz,
-// ve ardından bunları görüntü olarak belgeye ekleyin.
+// Barkod oluşturmak için özel bir IBarcodeGenerator uygulamasını kullanabiliriz,
+// ve ardından bunları belgeye resim olarak ekleyin.
 doc.FieldOptions.BarcodeGenerator = new CustomBarcodeGenerator();
 
-// Aşağıda, jeneratörümüzü kullanarak oluşturabileceğimiz dört farklı barkod türü örneği bulunmaktadır.
-// Her barkod için yeni bir barkod parametresi seti belirleriz ve ardından görüntüyü oluştururuz.
+// Aşağıda oluşturucumuzu kullanarak oluşturabileceğimiz farklı barkod türlerine ait dört örnek bulunmaktadır.
+// Her barkod için yeni bir barkod parametreleri seti belirliyoruz ve ardından görüntüyü oluşturuyoruz.
 // Daha sonra görüntüyü belgeye ekleyebilir veya yerel dosya sistemine kaydedebiliriz.
 // 1 - QR kodu:
 BarcodeParameters barcodeParameters = new BarcodeParameters
@@ -61,7 +60,7 @@ img = doc.FieldOptions.BarcodeGenerator.GetBarcodeImage(barcodeParameters);
 img.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.EAN13.jpg");
 builder.InsertImage(img);
 
-// 3 - KOD39 barkodu:
+// 3 - CODE39 barkodu:
 barcodeParameters = new BarcodeParameters
 {
     BarcodeType = "CODE39",

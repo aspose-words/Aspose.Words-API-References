@@ -1,14 +1,16 @@
 ---
 title: Class MappedDataFieldCollection
 second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.MailMerging.MappedDataFieldCollection clase. Permite mapear automáticamente entre nombres de campos en su fuente de datos y nombres de campos de combinación de correspondencia en el documento.
+description: Aspose.Words.MailMerging.MappedDataFieldCollection clase. Permite asignar automáticamente entre nombres de campos en su fuente de datos y nombres de campos de combinación de correspondencia en el documento.
 type: docs
-weight: 3650
+weight: 3870
 url: /es/net/aspose.words.mailmerging/mappeddatafieldcollection/
 ---
 ## MappedDataFieldCollection class
 
-Permite mapear automáticamente entre nombres de campos en su fuente de datos y nombres de campos de combinación de correspondencia en el documento.
+Permite asignar automáticamente entre nombres de campos en su fuente de datos y nombres de campos de combinación de correspondencia en el documento.
+
+Para obtener más información, visite el[Combinación de correspondencia e informes](https://docs.aspose.com/words/net/mail-merge-and-reporting/) artículo de documentación.
 
 ```csharp
 public class MappedDataFieldCollection : IEnumerable<KeyValuePair<string, string>>
@@ -18,7 +20,7 @@ public class MappedDataFieldCollection : IEnumerable<KeyValuePair<string, string
 
 | Nombre | Descripción |
 | --- | --- |
-| [Count](../../aspose.words.mailmerging/mappeddatafieldcollection/count/) { get; } | Obtiene el número de elementos que contiene la colección. |
+| [Count](../../aspose.words.mailmerging/mappeddatafieldcollection/count/) { get; } | Obtiene el número de elementos contenidos en la colección. |
 | [Item](../../aspose.words.mailmerging/mappeddatafieldcollection/item/) { get; set; } | Obtiene o establece el nombre del campo en el origen de datos asociado con el campo de combinación de correspondencia especificado. |
 
 ## Métodos
@@ -29,7 +31,7 @@ public class MappedDataFieldCollection : IEnumerable<KeyValuePair<string, string
 | [Clear](../../aspose.words.mailmerging/mappeddatafieldcollection/clear/)() | Elimina todos los elementos de la colección. |
 | [ContainsKey](../../aspose.words.mailmerging/mappeddatafieldcollection/containskey/)(string) | Determina si existe una asignación del campo especificado en el documento en la colección. |
 | [ContainsValue](../../aspose.words.mailmerging/mappeddatafieldcollection/containsvalue/)(string) | Determina si existe una asignación del campo especificado en la fuente de datos en la colección. |
-| [GetEnumerator](../../aspose.words.mailmerging/mappeddatafieldcollection/getenumerator/)() | Devuelve un objeto de enumerador de diccionario que se puede usar para iterar sobre todos los elementos de la colección. |
+| [GetEnumerator](../../aspose.words.mailmerging/mappeddatafieldcollection/getenumerator/)() | Devuelve un objeto enumerador de diccionario que se puede utilizar para iterar sobre todos los elementos de la colección. |
 | [Remove](../../aspose.words.mailmerging/mappeddatafieldcollection/remove/)(string) | Elimina una asignación de campo. |
 
 ### Observaciones
@@ -48,22 +50,22 @@ public void MappedDataFieldCollection()
 
     // La tabla tiene una columna llamada "Columna2", pero no hay MERGEFIELD con ese nombre.
     // Además, tenemos un MERGEFIELD llamado "Columna3", pero la fuente de datos no tiene una columna con ese nombre.
-    // Si los datos de "Columna2" son adecuados para el MERGEFIELD "Columna3",
-    // podemos asignar ese nombre de columna al MERGEFIELD en el par clave/valor "MappedDataFields".
+    // Si los datos de la "Columna2" son adecuados para la "Columna3" MERGEFIELD,
+    // podemos asignar ese nombre de columna a MERGEFIELD en el par clave/valor "MappedDataFields".
     MappedDataFieldCollection mappedDataFields = doc.MailMerge.MappedDataFields;
 
-    // Podemos vincular un nombre de columna de fuente de datos a un nombre MERGEFIELD como este.
+    // Podemos vincular el nombre de una columna de fuente de datos a un nombre MERGEFIELD como este.
     mappedDataFields.Add("MergeFieldName", "DataSourceColumnName");
 
-    // Vincule la columna de la fuente de datos denominada "Columna2" a los MERGEFIELD denominados "Columna3".
+    // Vincula la columna de origen de datos denominada "Columna2" a MERGEFIELD denominada "Columna3".
     mappedDataFields.Add("Column3", "Column2");
 
-    // El nombre MERGEFIELD es la "clave" para el nombre "valor" de la columna de la fuente de datos respectiva.
+    // El nombre MERGEFIELD es la "clave" del nombre de la columna de la fuente de datos respectiva "valor".
     Assert.AreEqual("DataSourceColumnName", mappedDataFields["MergeFieldName"]);
     Assert.True(mappedDataFields.ContainsKey("MergeFieldName"));
     Assert.True(mappedDataFields.ContainsValue("DataSourceColumnName"));
 
-    // Ahora, si ejecutamos esta combinación de correo, los MERGEFIELD "Column3" tomarán datos de "Column2" de la tabla.
+    // Ahora, si ejecutamos esta combinación de correspondencia, los MERGEFIELD de la "Columna 3" tomarán datos de la "Columna 2" de la tabla.
     doc.MailMerge.Execute(dataTable);
 
     doc.Save(ArtifactsDir + "MailMerge.MappedDataFieldCollection.docx");
@@ -88,8 +90,8 @@ public void MappedDataFieldCollection()
 }
 
 /// <summary>
-/// Crea un documento con 2 MERGEFIELDs, uno de los cuales no tiene un
-/// columna correspondiente en la tabla de datos del método a continuación.
+/// Crea un documento con 2 MERGEFIELD, uno de los cuales no tiene
+/// columna correspondiente en la tabla de datos del método siguiente.
 /// </summary>
 private static Document CreateSourceDocMappedDataFields()
 {
@@ -104,7 +106,7 @@ private static Document CreateSourceDocMappedDataFields()
 }
 
 /// <summary>
-/// Crear una tabla de datos con 2 columnas, una de las cuales no tiene
+/// Crea una tabla de datos con 2 columnas, una de las cuales no tiene
 /// MERGEFIELD correspondiente en el documento fuente del método anterior.
 /// </summary>
 private static DataTable CreateSourceTableMappedDataFields()

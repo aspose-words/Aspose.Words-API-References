@@ -1,16 +1,16 @@
 ---
 title: FontInfoCollection.EmbedSystemFonts
 second_title: Aspose.Words för .NET API Referens
-description: FontInfoCollection fast egendom. Anger om systemteckensnitt ska bäddas in i dokumentet eller inte. Standardvärdet för den här egenskapen är falsk.
+description: FontInfoCollection fast egendom. Anger om systemteckensnitt ska bäddas in i dokumentet eller inte. Standardvärdet för den här egenskapen ärfalsk.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.fonts/fontinfocollection/embedsystemfonts/
 ---
 ## FontInfoCollection.EmbedSystemFonts property
 
-Anger om systemteckensnitt ska bäddas in i dokumentet eller inte. Standardvärdet för den här egenskapen är **falsk**.
+Anger om systemteckensnitt ska bäddas in i dokumentet eller inte. Standardvärdet för den här egenskapen är`falsk`.
 
-Det här alternativet fungerar endast när[`EmbedTrueTypeFonts`](../embedtruetypefonts/) alternativet är inställt på **Sann**.
+Det här alternativet fungerar endast när[`EmbedTrueTypeFonts`](../embedtruetypefonts/) alternativet är inställt på`Sann`.
 
 ```csharp
 public bool EmbedSystemFonts { get; set; }

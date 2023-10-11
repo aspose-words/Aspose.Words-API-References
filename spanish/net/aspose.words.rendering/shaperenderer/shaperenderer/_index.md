@@ -16,21 +16,22 @@ public ShapeRenderer(ShapeBase shape)
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| shape | ShapeBase | El objeto de forma DrawinML que desea representar. |
+| shape | ShapeBase | El objeto de forma DrawinML que desea renderizar. |
 
 ### Ejemplos
 
-Muestra cómo representar una forma con un objeto Graphics y mostrarla mediante un Windows Form.
+Muestra cómo representar una forma con un objeto Gráficos y mostrarla usando un formulario de Windows.
 
 ```csharp
+public void RenderShapesOnForm()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
     ShapeForm shapeForm = new ShapeForm(new Size(1017, 840));
 
-    // A continuación hay dos formas de usar la clase "ShapeRenderer" para representar una forma en un objeto Graphics.
-    // 1 - Crea una forma con un gráfico y renderízala a una escala específica.
+    // A continuación se muestran dos formas de utilizar la clase "ShapeRenderer" para representar una forma en un objeto Graphics.
+    // 1: crea una forma con un gráfico y renderízala a una escala específica.
     Chart chart = builder.InsertChart(ChartType.Pie, 500, 400).Chart;
     chart.Series.Clear();
     chart.Series.Add("Desktop Browser Market Share (Oct. 2020)",
@@ -71,7 +72,7 @@ Muestra cómo representar una forma con un objeto Graphics y mostrarla mediante 
 }
 
 /// <summary>
-/// Renderiza y muestra una lista de formas.
+/// Representa y muestra una lista de formas.
 /// </summary>
 private class ShapeForm : Form
 {
@@ -120,6 +121,7 @@ private class ShapeForm : Form
         }
     }
 
+    private readonly List<KeyValuePair<ShapeBase, float[]>> mShapesToRender;
 }
 ```
 

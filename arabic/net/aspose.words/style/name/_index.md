@@ -1,14 +1,14 @@
 ---
 title: Style.Name
 second_title: Aspose.Words لمراجع .NET API
-description: Style ملكية. الحصول على اسم النمط أو تحديده.
+description: Style ملكية. الحصول على اسم النمط أو تعيينه.
 type: docs
-weight: 110
+weight: 130
 url: /ar/net/aspose.words/style/name/
 ---
 ## Style.Name property
 
-الحصول على اسم النمط أو تحديده.
+الحصول على اسم النمط أو تعيينه.
 
 ```csharp
 public string Name { get; set; }
@@ -18,7 +18,7 @@ public string Name { get; set; }
 
 لا يمكن أن تكون سلسلة فارغة.
 
-إذا كان هناك بالفعل نمط بهذا الاسم في المجموعة ، فإن هذا النمط سيتجاوزه. ستشير جميع العقد المتأثرة إلى نمط جديد.
+إذا كان هناك بالفعل نمط بهذا الاسم في المجموعة، فسيتجاوزه هذا النمط. ستشير جميع العقد المتأثرة إلى النمط الجديد.
 
 ### أمثلة
 
@@ -29,7 +29,7 @@ Document doc = new Document();
 
 Assert.AreEqual(4, doc.Styles.Count);
 
-// تعداد وإدراج جميع الأنماط التي تم إنشاؤها باستخدام Aspose.Words تحتوي على كل الأنماط التي تم إنشاؤها باستخدام Aspose.Words بشكل افتراضي.
+// تعداد وسرد جميع الأنماط التي يحتوي عليها المستند الذي تم إنشاؤه باستخدام Aspose.Words بشكل افتراضي.
 using (IEnumerator<Style> stylesEnum = doc.Styles.GetEnumerator())
 {
     while (stylesEnum.MoveNext())
@@ -51,14 +51,14 @@ using (IEnumerator<Style> stylesEnum = doc.Styles.GetEnumerator())
 Document doc = new Document();
 
 // تقوم طريقة AddCopy بإنشاء نسخة من النمط المحدد و
-// ينشئ تلقائيًا اسمًا جديدًا للنمط ، مثل "العنوان 1_0".
+// يُنشئ تلقائيًا اسمًا جديدًا للنمط، مثل "العنوان 1_0".
 Style newStyle = doc.Styles.AddCopy(doc.Styles["Heading 1"]);
 
-// استخدم خاصية "الاسم" الخاصة بالنمط لتغيير اسم تعريف النمط.
+// استخدم خاصية "الاسم" الخاصة بالنمط لتغيير الاسم التعريفي للنمط.
 newStyle.Name = "My Heading 1";
 
-// يحتوي المستند الآن على نمطين متطابقين المظهر بأسماء مختلفة.
-// تغيير إعدادات أحد الأنماط لا يؤثر على الآخر.
+// تحتوي وثيقتنا الآن على نمطين متطابقين بأسماء مختلفة.
+// لا يؤثر تغيير إعدادات أحد الأنماط على النمط الآخر.
 newStyle.Font.Color = Color.Red;
 
 Assert.AreEqual("My Heading 1", newStyle.Name);

@@ -1,14 +1,14 @@
 ---
 title: FieldGlossary.EntryName
 second_title: Aspose.Words für .NET-API-Referenz
-description: FieldGlossary eigendom. Ruft den Namen des einzufügenden Glossareintrags ab oder legt ihn fest.
+description: FieldGlossary eigendom. Ruft den Namen des einzufügenden Glossareintrags ab oder legt diesen fest.
 type: docs
 weight: 20
 url: /de/net/aspose.words.fields/fieldglossary/entryname/
 ---
 ## FieldGlossary.EntryName property
 
-Ruft den Namen des einzufügenden Glossareintrags ab oder legt ihn fest.
+Ruft den Namen des einzufügenden Glossareintrags ab oder legt diesen fest.
 
 ```csharp
 public string EntryName { get; set; }
@@ -16,12 +16,12 @@ public string EntryName { get; set; }
 
 ### Beispiele
 
-Zeigt, wie ein Baustein mit AUTOTEXT- und GLOSSAR-Feldern angezeigt wird.
+Zeigt, wie ein Baustein mit den Feldern AUTOTEXT und GLOSSARY angezeigt wird.
 
 ```csharp
 Document doc = new Document();
 
-// Erstellen Sie ein Glossardokument und fügen Sie ihm einen AutoText-Baustein hinzu.
+// Ein Glossardokument erstellen und einen AutoText-Baustein hinzufügen.
 doc.GlossaryDocument = new GlossaryDocument();
 BuildingBlock buildingBlock = new BuildingBlock(doc.GlossaryDocument);
 buildingBlock.Name = "MyBlock";
@@ -31,7 +31,7 @@ buildingBlock.Description = "MyBlock description";
 buildingBlock.Behavior = BuildingBlockBehavior.Paragraph;
 doc.GlossaryDocument.AppendChild(buildingBlock);
 
-// Erstellen Sie eine Quelle und fügen Sie sie unserem Baustein als Text hinzu.
+// Erstelle eine Quelle und füge sie als Text zu unserem Baustein hinzu.
 Document buildingBlockSource = new Document();
 DocumentBuilder buildingBlockSourceBuilder = new DocumentBuilder(buildingBlockSource);
 buildingBlockSourceBuilder.Writeln("Hello World!");
@@ -44,14 +44,14 @@ doc.FieldOptions.BuiltInTemplatesPaths = new[] { MyDir + "Busniess brochure.dotx
 
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Im Folgenden finden Sie zwei Möglichkeiten, Felder zu verwenden, um den Inhalt unseres Bausteins anzuzeigen.
-// 1 - Verwenden eines AUTOTEXT-Felds:
+// Nachfolgend finden Sie zwei Möglichkeiten, Felder zum Anzeigen des Inhalts unseres Bausteins zu verwenden.
+// 1 - Verwendung eines AUTOTEXT-Feldes:
 FieldAutoText fieldAutoText = (FieldAutoText)builder.InsertField(FieldType.FieldAutoText, true);
 fieldAutoText.EntryName = "MyBlock";
 
 Assert.AreEqual(" AUTOTEXT  MyBlock", fieldAutoText.GetFieldCode());
 
-// 2 - Verwenden eines GLOSSAR-Felds:
+// 2 - Verwendung eines GLOSSARY-Felds:
 FieldGlossary fieldGlossary = (FieldGlossary)builder.InsertField(FieldType.FieldGlossary, true);
 fieldGlossary.EntryName = "MyBlock";
 

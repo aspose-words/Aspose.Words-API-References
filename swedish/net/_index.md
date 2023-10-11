@@ -22,15 +22,16 @@ is_root: true
 | [Aspose.Words.Fields](./aspose.words.fields/) | De **Aspose.Words.Fields** namnutrymme innehåller klasser som representerar Microsoft Word-fält i ett dokument. |
 | [Aspose.Words.Fonts](./aspose.words.fonts/) | De **Aspose.Words.Fonts** namnrymden tillhandahåller klasser och uppräkningar för att komma åt information om teckensnitt som används i ett dokument. |
 | [Aspose.Words.Framesets](./aspose.words.framesets/) | De **Aspose.Words.Framesets** namnutrymme tillhandahåller klasser och uppräkningar som representerar en ramsida eller en enskild ram på en ramsida. |
-| [Aspose.Words.Layout](./aspose.words.layout/) | De **Aspose.Words.Layout**namnrymden tillhandahåller klasser som gör det möjligt att komma åt information som på vilken sida och var på en sida specifika dokumentelement är placerade när dokumentet formateras till sidor. |
-| [Aspose.Words.Lists](./aspose.words.lists/) | De **Aspose.Words.Lists**namnområdet innehåller klasser för working med punktlistor och numrerade listor definierade i ett dokument. |
-| [Aspose.Words.Loading](./aspose.words.loading/) | De **Aspose.Words.Loading** namnområdet tillhandahåller klasser och uppräkningar som tillåter att ange ytterligare alternativ när dokument laddas. |
-| [Aspose.Words.MailMerging](./aspose.words.mailmerging/) | De **Aspose.Words.MailMerging** namnrymden innehåller klasser av "original" sammanslagningsrapporteringsmotorn. |
+| [Aspose.Words.Layout](./aspose.words.layout/) | De **Aspose.Words.Layout** namnrymden tillhandahåller klasser som gör det möjligt att komma åt information om som på vilken sida och var på en sida särskilda dokumentelement är placerade när dokumentet formateras till sidor. |
+| [Aspose.Words.Lists](./aspose.words.lists/) | De **Aspose.Words.Lists** namnområdet innehåller klasser för working med punktlistor och numrerade listor definierade i ett dokument. |
+| [Aspose.Words.Loading](./aspose.words.loading/) | De **Aspose.Words.Loading**namnområdet tillhandahåller klasser och uppräkningar som tillåter att ange ytterligare alternativ när dokument laddas. |
+| [Aspose.Words.LowCode](./aspose.words.lowcode/) | De **Aspose.Words.LowCode**innehåller klasser och metoder för att hantera komplexa allmänna operationer på ett sätt med låg kod. |
+| [Aspose.Words.MailMerging](./aspose.words.mailmerging/) | De **Aspose.Words.MailMerging**namnrymden innehåller klasser av "original" sammanslagningsrapporteringsmotorn. |
 | [Aspose.Words.Markup](./aspose.words.markup/) | De **Aspose.Words.Markup** namnutrymmet innehåller klasser som representerar kunddefinierad semantik i ett dokument: smarta taggar, anpassade XML och strukturerade dokumenttaggar (innehållskontroller). |
 | [Aspose.Words.Math](./aspose.words.math/) | De **Aspose.Words.Math** namnrymden innehåller klasser som representerar Office Math-element. |
-| [Aspose.Words.Notes](./aspose.words.notes/) | De **Aspose.Words.Notes** namnutrymme tillhandahåller klasser för att arbeta med Microsoft Word-slutnoter och fotnoter. |
+| [Aspose.Words.Notes](./aspose.words.notes/) | De **Aspose.Words.Notes**namnutrymme tillhandahåller klasser för att arbeta med Microsoft Word-slutnoter och fotnoter. |
 | [Aspose.Words.Properties](./aspose.words.properties/) | De **Aspose.Words.Properties** namespace tillhandahåller klasser till work med anpassade och inbyggda dokumentegenskaper som titel, nyckelord, företag etc. |
-| [Aspose.Words.Rendering](./aspose.words.rendering/) | De **Aspose.Words.Rendering**namespace tillhandahåller klasser som gör det möjligt att anpassa utskrift eller rendering av dokument. |
+| [Aspose.Words.Rendering](./aspose.words.rendering/) | De **Aspose.Words.Rendering** namespace tillhandahåller klasser som gör det möjligt att anpassa utskrift eller rendering av dokument. |
 | [Aspose.Words.Replacing](./aspose.words.replacing/) | De **Aspose.Words.Replacer** namespace tillhandahåller klasser för att manipulate med sök-/ersätt-operationer över dokumentträdet. |
 | [Aspose.Words.Reporting](./aspose.words.reporting/) | Detta namnutrymme innehåller klasser av Aspose.Words nya rapporteringsmotor som stöder rapportmallar märkta med ett språk baserat på LINQ-metodens syntax. |
 | [Aspose.Words.Saving](./aspose.words.saving/) | De **Aspose.Words.Saving** namnområdet tillhandahåller klasser och uppräkningar som tillåter att ange ytterligare alternativ för att spara eller konvertera dokument. |
@@ -39,6 +40,6 @@ is_root: true
 | [Aspose.Words.Tables](./aspose.words.tables/) | De **Aspose.Words.Tables** namnutrymmet innehåller klasser som representerar tabeller, rader, celler och deras formatering. |
 | [Aspose.Words.Themes](./aspose.words.themes/) | De **Aspose.Words.Themes** namnutrymme tillhandahåller klasser som gör det möjligt att komma åt temainformation i Microsoft Word-dokument. |
 | [Aspose.Words.Vba](./aspose.words.vba/) | De **Aspose.Words.Vba** namnutrymme tillhandahåller klasser för att arbeta med VBA-projekt. |
-| [Aspose.Words.WebExtensions](./aspose.words.webextensions/) | De **Aspose.Words.WebExtensions** namespace tillhandahåller klasser som gör det möjligt att anpassa element och attribut som utökar XML-vokabulären för att representera Office-tillägg. |
+| [Aspose.Words.WebExtensions](./aspose.words.webextensions/) | De **Aspose.Words.WebExtensions**namespace tillhandahåller klasser som gör det möjligt att anpassa element och attribut som utökar XML-vokabulären för att representera Office-tillägg. |
 
 

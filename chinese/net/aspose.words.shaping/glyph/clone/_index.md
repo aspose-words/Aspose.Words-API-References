@@ -1,15 +1,17 @@
 ---
 title: Glyph.Clone
 second_title: Aspose.Words for .NET API 参考
-description: Glyph 方法. 
+description: Glyph 方法. 返回此实例的克隆
 type: docs
 weight: 60
 url: /zh/net/aspose.words.shaping/glyph/clone/
 ---
 ## Glyph.Clone method
 
+返回此实例的克隆。
+
 ```csharp
-public Glyph Clone()
+public virtual Glyph Clone()
 ```
 
 ### 也可以看看

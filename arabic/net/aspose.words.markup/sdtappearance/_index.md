@@ -1,14 +1,14 @@
 ---
 title: Enum SdtAppearance
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Markup.SdtAppearance تعداد. تحديد مظهر علامة مستند منظم .
+description: Aspose.Words.Markup.SdtAppearance تعداد. يحدد مظهر علامة المستند المنظمة.
 type: docs
-weight: 3750
+weight: 3990
 url: /ar/net/aspose.words.markup/sdtappearance/
 ---
 ## SdtAppearance enumeration
 
-تحديد مظهر علامة مستند منظم .
+يحدد مظهر علامة المستند المنظمة.
 
 ```csharp
 public enum SdtAppearance
@@ -18,10 +18,10 @@ public enum SdtAppearance
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| BoundingBox | `0` | يمثل علامة مستند منظم تظهر كمستطيل مظلل أو مربع إحاطة. |
-| Tags | `1` | يمثل علامة مستند منظم تظهر كعلامات بداية ونهاية. |
-| Hidden | `2` | يمثل علامة مستند منظم لا يتم عرضه. |
-| Default | `0` | افتراضيات لـBoundingBox . |
+| BoundingBox | `0` | يمثل علامة مستند منظمة تظهر كمستطيل مظلل أو مربع محيط. |
+| Tags | `1` | يمثل علامة مستند منظمة تظهر كعلامات البداية والنهاية. |
+| Hidden | `2` | يمثل علامة مستند منظمة غير معروضة. |
+| Default | `0` | الافتراضي هوBoundingBox . |
 
 ### أنظر أيضا
 

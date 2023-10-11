@@ -1,14 +1,14 @@
 ---
 title: Shape.HasChart
 second_title: Aspose.Words för .NET API Referens
-description: Shape fast egendom. Returnerar sant om denna form har enChart .
+description: Shape fast egendom. ReturnerarSann om det härShape har enChart .
 type: docs
 weight: 70
 url: /sv/net/aspose.words.drawing/shape/haschart/
 ---
 ## Shape.HasChart property
 
-Returnerar sant om denna form har en[`Chart`](../chart/) .
+Returnerar`Sann` om det här[`Shape`](../) har en[`Chart`](../../../aspose.words.drawing.charts/chart/) .
 
 ```csharp
 public bool HasChart { get; }
@@ -19,6 +19,7 @@ public bool HasChart { get; }
 Visar hur man itererar över alla former i ett dokument.
 
 ```csharp
+public void VisitShapes()
 {
     Document doc = new Document(MyDir + "Revision shape.docx");
     ShapeAppearancePrinter visitor = new ShapeAppearancePrinter();

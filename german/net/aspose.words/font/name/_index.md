@@ -1,14 +1,14 @@
 ---
 title: Font.Name
 second_title: Aspose.Words für .NET-API-Referenz
-description: Font eigendom. Ruft den Namen der Schriftart ab oder legt ihn fest.
+description: Font eigendom. Ruft den Namen der Schriftart ab oder legt diesen fest.
 type: docs
 weight: 230
 url: /de/net/aspose.words/font/name/
 ---
 ## Font.Name property
 
-Ruft den Namen der Schriftart ab oder legt ihn fest.
+Ruft den Namen der Schriftart ab oder legt diesen fest.
 
 ```csharp
 public string Name { get; set; }
@@ -16,13 +16,13 @@ public string Name { get; set; }
 
 ### Bemerkungen
 
-Wenn Sie kommen, kehrt zurück[`NameAscii`](../nameascii/).
+Wenn es kommt, kehrt es zurück[`NameAscii`](../nameascii/).
 
-Beim Setzen setzt[`NameAscii`](../nameascii/) ,[`NameBi`](../namebi/) ,[`NameFarEast`](../namefareast/) und[`NameOther`](../nameother/) auf den angegebenen Wert.
+Beim Einstellen wird eingestellt[`NameAscii`](../nameascii/) ,[`NameBi`](../namebi/) ,[`NameFarEast`](../namefareast/) und[`NameOther`](../nameother/) auf den angegebenen Wert.
 
 ### Beispiele
 
-Zeigt, wie ein Textverlauf mithilfe seiner Eigenschaft font formatiert wird.
+Zeigt, wie eine Textzeile mithilfe ihrer Schriftarteigenschaft formatiert wird.
 
 ```csharp
 Document doc = new Document();
@@ -43,7 +43,7 @@ Zeigt, wie formatierter Text mit DocumentBuilder eingefügt wird.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Schriftartformatierung angeben, dann Text hinzufügen.
+// Geben Sie die Schriftartformatierung an und fügen Sie dann Text hinzu.
 Aspose.Words.Font font = builder.Font;
 font.Size = 16;
 font.Bold = true;

@@ -3,12 +3,14 @@ title: Class Run
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Run klass. Representerar en serie tecken med samma teckensnittsformatering.
 type: docs
-weight: 4560
+weight: 4820
 url: /sv/net/aspose.words/run/
 ---
 ## Run class
 
 Representerar en serie tecken med samma teckensnittsformatering.
+
+För att lära dig mer, besök[Programmering med dokument](https://docs.aspose.com/words/net/programming-with-documents/) dokumentationsartikel.
 
 ```csharp
 public class Run : Inline
@@ -18,7 +20,7 @@ public class Run : Inline
 
 | namn | Beskrivning |
 | --- | --- |
-| [Run](run/#constructor)(DocumentBase) | Initierar en ny instans av **Springa** class. |
+| [Run](run/#constructor)(DocumentBase) | Initierar en ny instans av`Run` class. |
 | [Run](run/#constructor_1)(DocumentBase, string) | Initierar en ny instans av **Springa** class. |
 
 ## Egenskaper
@@ -28,18 +30,20 @@ public class Run : Inline
 | [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Anger anpassad nodidentifierare. |
 | virtual [Document](../../aspose.words/node/document/) { get; } | Hämtar dokumentet som denna nod tillhör. |
 | [Font](../../aspose.words/inline/font/) { get; } | Ger tillgång till teckensnittsformateringen för detta objekt. |
-| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Returnerar sant om denna nod kan innehålla andra noder. |
+| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Returnerar`Sann` om denna nod kan innehålla andra noder. |
 | [IsDeleteRevision](../../aspose.words/inline/isdeleterevision/) { get; } | Returnerar sant om detta objekt raderades i Microsoft Word medan ändringsspårning var aktiverad. |
 | [IsFormatRevision](../../aspose.words/inline/isformatrevision/) { get; } | Returnerar sant om formateringen av objektet ändrades i Microsoft Word medan ändringsspårning var aktiverad. |
 | [IsInsertRevision](../../aspose.words/inline/isinsertrevision/) { get; } | Returnerar sant om det här objektet infogades i Microsoft Word medan ändringsspårning var aktiverad. |
-| [IsMoveFromRevision](../../aspose.words/inline/ismovefromrevision/) { get; } | Returnerar **Sann** om det här objektet flyttades (borttogs) i Microsoft Word medan ändringsspårning var aktiverad. |
-| [IsMoveToRevision](../../aspose.words/inline/ismovetorevision/) { get; } | Returnerar **Sann** om detta objekt flyttades (infogades) i Microsoft Word medan ändringsspårning var aktiverad. |
+| [IsMoveFromRevision](../../aspose.words/inline/ismovefromrevision/) { get; } | Returnerar`Sann` om det här objektet flyttades (borttogs) i Microsoft Word medan ändringsspårning var aktiverad. |
+| [IsMoveToRevision](../../aspose.words/inline/ismovetorevision/) { get; } | Returnerar`Sann` om detta objekt flyttades (infogades) i Microsoft Word medan ändringsspårning var aktiverad. |
+| [IsPhoneticGuide](../../aspose.words/run/isphoneticguide/) { get; } | Får ett booleskt värde som anger att antingen körningen är en fonetisk guide. |
 | [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Hämtar noden omedelbart efter denna nod. |
-| override [NodeType](../../aspose.words/run/nodetype/) { get; } | Returnerar **NodeType.Run** . |
+| override [NodeType](../../aspose.words/run/nodetype/) { get; } | ReturnerarRun . |
 | [ParentNode](../../aspose.words/node/parentnode/) { get; } | Hämtar den omedelbara föräldern till denna nod. |
 | [ParentParagraph](../../aspose.words/inline/parentparagraph/) { get; } | Hämtar föräldern[`Paragraph`](../paragraph/) av denna nod. |
+| [PhoneticGuide](../../aspose.words/run/phoneticguide/) { get; } | Får en[`PhoneticGuide`](./phoneticguide/) objekt. |
 | [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Hämtar noden omedelbart före denna nod. |
-| [Range](../../aspose.words/node/range/) { get; } | Returnerar en **Räckvidd** objekt som representerar den del av ett dokument som finns i denna nod. |
+| [Range](../../aspose.words/node/range/) { get; } | Returnerar en[`Range`](../range/) objekt som representerar den del av ett dokument som finns i denna nod. |
 | [Text](../../aspose.words/run/text/) { get; set; } | Hämtar eller ställer in texten för körningen. |
 
 ## Metoder
@@ -61,7 +65,7 @@ public class Run : Inline
 
 All text i dokumentet lagras i rader av text.
 
-**Springa** kan bara vara ett barn av **Paragraf** eller inline **StructuredDocumentTag**.
+`Run` kan bara vara ett barn av[`Paragraph`](../paragraph/) eller inline[`StructuredDocumentTag`](../../aspose.words.markup/structureddocumenttag/).
 
 ### Exempel
 

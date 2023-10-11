@@ -1,14 +1,16 @@
 ---
 title: Class WarningInfoCollection
 second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.WarningInfoCollection clase. Representa una colección tipada deWarningInfo objetos.
+description: Aspose.Words.WarningInfoCollection clase. Representa una colección escrita deWarningInfo objetos.
 type: docs
-weight: 6330
+weight: 6640
 url: /es/net/aspose.words/warninginfocollection/
 ---
 ## WarningInfoCollection class
 
-Representa una colección tipada de[`WarningInfo`](../warninginfo/) objetos.
+Representa una colección escrita de[`WarningInfo`](../warninginfo/) objetos.
+
+Para obtener más información, visite el[Programación con documentos](https://docs.aspose.com/words/net/programming-with-documents/) artículo de documentación.
 
 ```csharp
 public class WarningInfoCollection : IEnumerable<WarningInfo>, IWarningCallback
@@ -24,7 +26,7 @@ public class WarningInfoCollection : IEnumerable<WarningInfo>, IWarningCallback
 
 | Nombre | Descripción |
 | --- | --- |
-| [Count](../../aspose.words/warninginfocollection/count/) { get; } | Obtiene el número de elementos que contiene la colección. |
+| [Count](../../aspose.words/warninginfocollection/count/) { get; } | Obtiene el número de elementos contenidos en la colección. |
 | [Item](../../aspose.words/warninginfocollection/item/) { get; } | Obtiene un elemento en el índice especificado. |
 
 ## Métodos
@@ -32,35 +34,37 @@ public class WarningInfoCollection : IEnumerable<WarningInfo>, IWarningCallback
 | Nombre | Descripción |
 | --- | --- |
 | [Clear](../../aspose.words/warninginfocollection/clear/)() | Elimina todos los elementos de la colección. |
-| [GetEnumerator](../../aspose.words/warninginfocollection/getenumerator/)() | Devuelve un objeto enumerador que se puede usar para iterar sobre todos los elementos de la colección. |
+| [GetEnumerator](../../aspose.words/warninginfocollection/getenumerator/)() | Devuelve un objeto enumerador que se puede utilizar para iterar sobre todos los elementos de la colección. |
 | [Warning](../../aspose.words/warninginfocollection/warning/)(WarningInfo) | Implementa el[`IWarningCallback`](../iwarningcallback/) interfaz. Agrega una advertencia a esta colección. |
 
 ### Observaciones
 
-Puede usar este objeto de colección como la forma más simple de[`IWarningCallback`](../iwarningcallback/)implementación para recopilar todas las advertencias que genera Aspose.Words durante una operación de carga o guardado. Cree una instancia de esta clase y asígnela al[`WarningCallback`](../../aspose.words.loading/loadoptions/warningcallback/) o[`WarningCallback`](../documentbase/warningcallback/) propiedad.
+Puede utilizar este objeto de colección como la forma más simple de[`IWarningCallback`](../iwarningcallback/) Implementación para recopilar todas las advertencias que Aspose.Words genera durante una operación de carga o guardado. Cree una instancia de esta clase y asígnela al[`WarningCallback`](../../aspose.words.loading/loadoptions/warningcallback/) o[`WarningCallback`](../documentbase/warningcallback/) propiedad.
 
 ### Ejemplos
 
-Muestra cómo establecer la propiedad para encontrar la coincidencia más cercana para una fuente faltante de las fuentes de fuentes disponibles.
+Muestra cómo configurar la propiedad para encontrar la coincidencia más cercana para una fuente faltante entre las fuentes de fuentes disponibles.
 
 ```csharp
-[Test]
 public void EnableFontSubstitution()
 {
     // Abra un documento que contenga texto formateado con una fuente que no existe en ninguna de nuestras fuentes de fuentes.
     Document doc = new Document(MyDir + "Missing font.docx");
 
-    // Asigne una devolución de llamada para manejar las advertencias de sustitución de fuentes.
+    // Asigna una devolución de llamada para manejar las advertencias de sustitución de fuentes.
     HandleDocumentSubstitutionWarnings substitutionWarningHandler = new HandleDocumentSubstitutionWarnings();
     doc.WarningCallback = substitutionWarningHandler;
 
-    // Establecer un nombre de fuente predeterminado y habilitar la sustitución de fuentes.
+    // Establece un nombre de fuente predeterminado y habilita la sustitución de fuentes.
     FontSettings fontSettings = new FontSettings();
     fontSettings.SubstitutionSettings.DefaultFontSubstitution.DefaultFontName = "Arial";
     ;
     fontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
 
-    // Obtendremos una advertencia de sustitución de fuente si guardamos un documento al que le falta una fuente.
+    // Las métricas de fuente originales deben usarse después de la sustitución de fuentes.
+    doc.LayoutOptions.KeepOriginalFontMetrics = true;
+
+    // Recibiremos una advertencia de sustitución de fuente si guardamos un documento al que le falta una fuente.
     doc.FontSettings = fontSettings;
     doc.Save(ArtifactsDir + "FontSettings.EnableFontSubstitution.pdf");
 
@@ -82,7 +86,7 @@ public void EnableFontSubstitution()
 public class HandleDocumentSubstitutionWarnings : IWarningCallback
 {
     /// <summary>
-    /// Llamado cada vez que ocurre una advertencia durante la carga/guardado.
+    /// Se llama cada vez que ocurre una advertencia durante la carga/guardado.
     /// </summary>
     public void Warning(WarningInfo info)
     {

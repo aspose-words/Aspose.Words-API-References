@@ -3,7 +3,7 @@ title: Section.PrependContent
 second_title: Aspose.Words för .NET API Referens
 description: Section metod. Infogar en kopia av innehållet i källavsnittet i början av det här avsnittet.
 type: docs
-weight: 140
+weight: 160
 url: /sv/net/aspose.words/section/prependcontent/
 ---
 ## Section.PrependContent method

@@ -1,12 +1,14 @@
 ---
 title: BasicTextShaperCache.Dispose
 second_title: Aspose.Words for .NET API 参考
-description: BasicTextShaperCache 方法. 
+description: BasicTextShaperCache 方法. 处置缓存ITextShaper实例.
 type: docs
 weight: 20
 url: /zh/net/aspose.words.shaping/basictextshapercache/dispose/
 ---
 ## BasicTextShaperCache.Dispose method
+
+处置缓存[`ITextShaper`](../../itextshaper/)实例.
 
 ```csharp
 public void Dispose()

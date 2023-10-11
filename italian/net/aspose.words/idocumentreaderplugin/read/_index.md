@@ -17,8 +17,8 @@ public void Read(Stream src, LoadOptions loadOptions, Document document)
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
 | src | Stream | Il flusso di origine da cui leggere il documento. |
-| loadOptions | LoadOptions | Opzioni di caricamento aggiuntive per caricare il documento. |
-| document | Document | L'istanza del[`Document`](../../document/) classe a cui leggere i dati. Se l'istanza contiene del contenuto, verrà sovrascritta dai dati del flusso di origine |
+| loadOptions | LoadOptions | Un'ulteriore opzione di caricamento per caricare il documento. |
+| document | Document | L'istanza del[`Document`](../../document/) classe in cui leggere i dati. Se l'istanza contiene del contenuto, verrà sovrascritto dai dati del flusso di origine |
 
 ### Guarda anche
 

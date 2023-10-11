@@ -1,14 +1,14 @@
 ---
 title: ShapeBase.MarkupLanguage
 second_title: Aspose.Words for .NET API Referansı
-description: ShapeBase mülk. Bu grafik nesnesi için kullanılan İşaretleme Dilini alır.
+description: ShapeBase mülk. Bu grafik nesnesi için kullanılan MarkupLanguageı döndürür.
 type: docs
-weight: 370
+weight: 390
 url: /tr/net/aspose.words.drawing/shapebase/markuplanguage/
 ---
 ## ShapeBase.MarkupLanguage property
 
-Bu grafik nesnesi için kullanılan İşaretleme Dilini alır.
+Bu grafik nesnesi için kullanılan MarkupLanguage'ı döndürür.
 
 ```csharp
 public ShapeMarkupLanguage MarkupLanguage { get; }

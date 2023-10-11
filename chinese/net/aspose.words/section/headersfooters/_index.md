@@ -16,7 +16,7 @@ public HeaderFooterCollection HeadersFooters { get; }
 
 ### 例子
 
-显示如何替换文档页脚中的文本。
+演示如何替换文档页脚中的文本。
 
 ```csharp
 Document doc = new Document(MyDir + "Footer.docx");
@@ -36,16 +36,16 @@ footer.Range.Replace("(C) 2006 Aspose Pty Ltd.", $"Copyright (C) {currentYear} b
 doc.Save(ArtifactsDir + "HeaderFooter.ReplaceText.docx");
 ```
 
-显示如何从文档中删除所有页脚。
+演示如何从文档中删除所有页脚。
 
 ```csharp
 Document doc = new Document(MyDir + "Header and footer types.docx");
 
-// 遍历每个部分并删除各种页脚。
+// 遍历每个部分并删除每种页脚。
 foreach (Section section in doc.OfType<Section>())
 {
-    // 共有三种页脚和页眉类型。
-    // 1 - “第一个”页眉/页脚，仅出现在部分的第一页上。
+    // 页脚和页眉类型分为三种。
+    // 1 - “第一”页眉/页脚，仅出现在节的第一页上。
     HeaderFooter footer = section.HeadersFooters[HeaderFooterType.FooterFirst];
     footer?.Remove();
 

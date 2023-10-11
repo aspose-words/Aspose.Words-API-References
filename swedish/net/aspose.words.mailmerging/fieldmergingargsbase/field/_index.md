@@ -19,6 +19,7 @@ public FieldMergeField Field { get; }
 Visar hur man utför en sammankoppling med en anpassad återuppringning som hanterar sammanslagningsdata i form av HTML-dokument.
 
 ```csharp
+public void MergeHtml()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -66,7 +67,7 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
             builder.InsertHtml((string)args.FieldValue);
 
             // Eftersom vi redan har infogat det sammanslagna innehållet manuellt,
-              // vi behöver inte svara på denna händelse genom att returnera innehåll via "Text"-egenskapen.
+             // vi behöver inte svara på denna händelse genom att returnera innehåll via "Text"-egenskapen.
             args.Text = string.Empty;
         }
     }

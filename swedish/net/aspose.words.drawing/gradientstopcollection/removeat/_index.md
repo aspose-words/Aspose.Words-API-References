@@ -1,14 +1,14 @@
 ---
 title: GradientStopCollection.RemoveAt
 second_title: Aspose.Words för .NET API Referens
-description: GradientStopCollection metod. Tar bort enGradientStopfrån samlingen vid ett specificerat index.
+description: GradientStopCollection metod. Tar bort enGradientStop från samlingen vid ett specificerat index.
 type: docs
 weight: 70
 url: /sv/net/aspose.words.drawing/gradientstopcollection/removeat/
 ---
 ## GradientStopCollection.RemoveAt method
 
-Tar bort en[`GradientStop`](../../gradientstop/)från samlingen vid ett specificerat index.
+Tar bort en[`GradientStop`](../../gradientstop/) från samlingen vid ett specificerat index.
 
 ```csharp
 public GradientStop RemoveAt(int index)
@@ -32,8 +32,8 @@ shape.Fill.TwoColorGradient(Color.Green, Color.Red, GradientStyle.Horizontal, Gr
 // Få gradient stoppar samling.
 GradientStopCollection gradientStops = shape.Fill.GradientStops;
 
-// Ändra första gradientstopp.
-gradientStops[0].Color = Color.Aqua;
+// Ändra första gradientstopp.            
+gradientStops[0].Color = Color.Aqua;            
 gradientStops[0].Position = 0.1;
 gradientStops[0].Transparency = 0.25;
 
@@ -52,6 +52,7 @@ gradientStops.Remove(gradientStop);
 
 Assert.AreEqual(2, gradientStops.Count);
 
+Assert.AreEqual(Color.FromArgb(255, 0, 255, 255), gradientStops[0].BaseColor);
 Assert.AreEqual(Color.Aqua.ToArgb(), gradientStops[0].Color.ToArgb());
 Assert.AreEqual(0.1d, gradientStops[0].Position, 0.01d);
 Assert.AreEqual(0.25d, gradientStops[0].Transparency, 0.01d);

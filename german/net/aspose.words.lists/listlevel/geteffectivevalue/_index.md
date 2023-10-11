@@ -1,14 +1,14 @@
 ---
 title: ListLevel.GetEffectiveValue
 second_title: Aspose.Words für .NET-API-Referenz
-description: ListLevel methode. Meldet die Zeichenfolgendarstellung derListLevel Objekt für den angegebenen Index des Listenelements. Parameter geben die anNumberStyle und ein optionales Format string  das verwendet wird wennCustom angegeben ist.
+description: ListLevel methode. Meldet die Zeichenfolgendarstellung vonListLevelObjekt für den angegebenen index des Listenelements. Parameter geben die anNumberStyle und ein optionales Format string  das verwendet wird wennCustom angegeben ist.
 type: docs
 weight: 190
 url: /de/net/aspose.words.lists/listlevel/geteffectivevalue/
 ---
 ## ListLevel.GetEffectiveValue method
 
-Meldet die Zeichenfolgendarstellung der[`ListLevel`](../) Objekt für den angegebenen Index des Listenelements. Parameter geben die an[`NumberStyle`](../../../aspose.words/numberstyle/) und ein optionales Format string , das verwendet wird, wennCustom angegeben ist.
+Meldet die Zeichenfolgendarstellung von[`ListLevel`](../)Objekt für den angegebenen index des Listenelements. Parameter geben die an[`NumberStyle`](../../../aspose.words/numberstyle/) und ein optionales Format string , das verwendet wird, wennCustom angegeben ist.
 
 ```csharp
 public static string GetEffectiveValue(int index, NumberStyle numberStyle, 
@@ -19,22 +19,22 @@ public static string GetEffectiveValue(int index, NumberStyle numberStyle,
 | --- | --- | --- |
 | index | Int32 | Der Index des Listenelements (muss im Bereich von 1 bis 32767 liegen). |
 | numberStyle | NumberStyle | Die[`NumberStyle`](../../../aspose.words/numberstyle/) des[`ListLevel`](../) Objekt. |
-| customNumberStyleFormat | String | Die optionale Formatzeichenfolge, die verwendet wird, wennCustom angegeben wird (z. B. "a, ç, ĝ, ..."). In anderen Fällen muss dieser Parameter null oder leer sein. |
+| customNumberStyleFormat | String | Die optionale Formatzeichenfolge, die verwendet wird, wennCustom angegeben ist (z. B. „a, ç, ĝ, ...“). In anderen Fällen muss dieser Parameter angegeben werden`Null` oder leer. |
 
 ### Rückgabewert
 
-Die Zeichenfolgendarstellung der[`ListLevel`](../) Objekt, beschrieben durch den Parameter numberStyle und den Parameter customNumberStyleFormat, im Listenelement an der Position, die durch den Parameter index bestimmt wird.
+Die String-Darstellung von[`ListLevel`](../) Objekt, beschrieben durch die*numberStyle* Parameter and the*customNumberStyleFormat* Parameter, im Listenelement an der durch den definierten Position*index* Parameter.
 
 ### Ausnahmen
 
 | Ausnahme | Bedingung |
 | --- | --- |
-| ArgumentException | customNumberStyleFormat ist null oder leer, wenn numberStyle benutzerdefiniert ist.-oder- customNumberStyleFormat ist nicht null oder leer, wenn numberStyle nicht benutzerdefiniert ist.-oder- customNumberStyleFormat ist ungültig. |
-| ArgumentOutOfRangeException | Index ist außerhalb des gültigen Bereichs. |
+| ArgumentException | *customNumberStyleFormat* Ist`Null` oder leer, wenn die*numberStyle* ist benutzerdefiniert.-oder- *customNumberStyleFormat* ist nicht`Null` oder leer, wenn die*numberStyle* ist nicht benutzerdefiniert.-oder- *customNumberStyleFormat* ist ungültig. |
+| ArgumentOutOfRangeException | Der Index liegt außerhalb des zulässigen Bereichs. |
 
 ### Beispiele
 
-Zeigt, wie das Format für eine Liste mit dem benutzerdefinierten Zahlenstil abgerufen wird.
+Zeigt, wie man das Format für eine Liste mit dem benutzerdefinierten Zahlenstil erhält.
 
 ```csharp
 Document doc = new Document(MyDir + "List with leading zero.docx");
@@ -48,7 +48,7 @@ if (listLevel.NumberStyle == NumberStyle.Custom)
 
 Assert.AreEqual("001, 002, 003, ...", customNumberStyleFormat);
 
-// Wir können einen Wert für den angegebenen Index des Listenelements erhalten.
+// Wir können einen Wert für den angegebenen Index des Listenelements abrufen.
 Assert.AreEqual("iv", ListLevel.GetEffectiveValue(4, NumberStyle.LowercaseRoman, null));
 Assert.AreEqual("005", ListLevel.GetEffectiveValue(5, NumberStyle.Custom, customNumberStyleFormat));
 ```

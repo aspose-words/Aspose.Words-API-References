@@ -1,14 +1,14 @@
 ---
 title: TableStyle.LeftPadding
 second_title: Aspose.Words for .NET API Referansı
-description: TableStyle mülk. Tablo hücrelerinin içeriğinin soluna eklenecek boşluk miktarını puan olarak alır veya ayarlar.
+description: TableStyle mülk. Tablo hücrelerinin içeriğinin soluna eklenecek alan miktarını puan cinsinden alır veya ayarlar.
 type: docs
 weight: 100
 url: /tr/net/aspose.words/tablestyle/leftpadding/
 ---
 ## TableStyle.LeftPadding property
 
-Tablo hücrelerinin içeriğinin soluna eklenecek boşluk miktarını (puan olarak) alır veya ayarlar.
+Tablo hücrelerinin içeriğinin soluna eklenecek alan miktarını (puan cinsinden) alır veya ayarlar.
 
 ```csharp
 public double LeftPadding { get; set; }
@@ -47,7 +47,7 @@ tableStyle.VerticalAlignment = CellVerticalAlignment.Center;
 
 table.Style = tableStyle;
 
-// Bir tablonun stil özelliklerini ayarlamak, tablonun özelliklerini etkileyebilir.
+// Bir tablonun stil özelliklerinin ayarlanması, tablonun kendi özelliklerini etkileyebilir.
 Assert.True(table.Bidi);
 Assert.AreEqual(5.0d, table.CellSpacing);
 Assert.AreEqual("MyTableStyle1", table.StyleName);

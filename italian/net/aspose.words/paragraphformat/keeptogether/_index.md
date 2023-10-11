@@ -3,7 +3,7 @@ title: ParagraphFormat.KeepTogether
 second_title: Aspose.Words per .NET API Reference
 description: ParagraphFormat proprietà. Vero se tutte le righe del paragrafo devono rimanere sulla stessa pagina.
 type: docs
-weight: 150
+weight: 160
 url: /it/net/aspose.words/paragraphformat/keeptogether/
 ---
 ## ParagraphFormat.KeepTogether property
@@ -37,7 +37,7 @@ paragraphFormat.AddSpaceBetweenFarEastAndDigit = true;
 paragraphFormat.KeepTogether = true;
 
 // Il metodo "Writeln" termina il paragrafo dopo aver aggiunto il testo
-// e quindi inizia una nuova riga, aggiungendo un nuovo paragrafo.
+// e poi inizia una nuova riga, aggiungendo un nuovo paragrafo.
 builder.Writeln("Hello world!");
 
 Assert.True(builder.CurrentParagraph.IsEndOfDocument);

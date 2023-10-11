@@ -3,7 +3,7 @@ title: SaveOptions.UpdateLastPrintedProperty
 second_title: Aspose.Words för .NET API Referens
 description: SaveOptions fast egendom. Hämtar eller ställer in ett värde som avgör omLastPrinted egenskapen uppdateras innan du sparar.
 type: docs
-weight: 180
+weight: 170
 url: /sv/net/aspose.words.saving/saveoptions/updatelastprintedproperty/
 ---
 ## SaveOptions.UpdateLastPrintedProperty property

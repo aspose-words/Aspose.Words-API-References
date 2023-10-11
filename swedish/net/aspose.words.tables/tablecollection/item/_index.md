@@ -1,14 +1,14 @@
 ---
 title: TableCollection.Item
 second_title: Aspose.Words för .NET API Referens
-description: TableCollection fast egendom. Hämtar en Tabell vid det givna indexet.
+description: TableCollection fast egendom. Hämtar enTable vid det givna indexet.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.tables/tablecollection/item/
 ---
 ## TableCollection indexer
 
-Hämtar en **Tabell** vid det givna indexet.
+Hämtar en[`Table`](../../table/) vid det givna indexet.
 
 ```csharp
 public Table this[int index] { get; }

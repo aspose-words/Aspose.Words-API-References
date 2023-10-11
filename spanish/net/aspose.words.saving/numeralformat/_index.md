@@ -1,14 +1,14 @@
 ---
 title: Enum NumeralFormat
 second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Saving.NumeralFormat enumeración. Indica el conjunto de símbolos que se utiliza para representar números al renderizar a formatos de página fijos.
+description: Aspose.Words.Saving.NumeralFormat enumeración. Indica el conjunto de símbolos que se utiliza para representar números mientras se procesa en formatos de página fijos.
 type: docs
-weight: 5030
+weight: 5310
 url: /es/net/aspose.words.saving/numeralformat/
 ---
 ## NumeralFormat enumeration
 
-Indica el conjunto de símbolos que se utiliza para representar números al renderizar a formatos de página fijos.
+Indica el conjunto de símbolos que se utiliza para representar números mientras se procesa en formatos de página fijos.
 
 ```csharp
 public enum NumeralFormat
@@ -21,7 +21,7 @@ public enum NumeralFormat
 | European | `0` | Números europeos: 0123456789. |
 | ArabicIndic | `1` | Números utilizados en árabe: ٠١٢٣٤٥٦٧٨٩. Rango Unicode U+0660 - u+0669. |
 | EasternArabicIndic | `2` | Números utilizados en persa y urdu: ۰۱۲۳۴۵۶۷۸۹. Rango Unicode U+06F0 - u+06F9. |
-| Context | `3` | El conjunto de símbolos se decide a partir del contexto (propiedad local y RTL). |
+| Context | `3` | El conjunto de símbolos se decide a partir del contexto (propiedad regional y RTL). |
 | System | `4` | ESTA OPCIÓN NO ES COMPATIBLE. El conjunto de símbolos se decide desde la configuración regional. |
 
 ### Ejemplos
@@ -39,14 +39,14 @@ builder.Writeln("1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 50, 100");
 // para modificar cómo ese método convierte el documento a .PDF.
 PdfSaveOptions options = new PdfSaveOptions();
 
-// Establecer la propiedad "NumeralFormat" en "NumeralFormat.ArabicIndic" para
+// Establece la propiedad "NumeralFormat" en "NumeralFormat.ArabicIndic" para
 // usa glifos del rango U+0660 a U+0669 como números.
-// Establecer la propiedad "NumeralFormat" en "NumeralFormat.Context" para
-// busque la configuración regional para determinar qué número de glifos usar.
-// Establecer la propiedad "NumeralFormat" en "NumeralFormat.EasternArabicIndic" para
+// Establece la propiedad "NumeralFormat" en "NumeralFormat.Context" para
+// busca la configuración regional para determinar qué cantidad de glifos usar.
+// Establece la propiedad "NumeralFormat" en "NumeralFormat.EasternArabicIndic" para
 // usa glifos del rango U+06F0 a U+06F9 como números.
-// Establezca la propiedad "NumeralFormat" en "NumeralFormat.European" para usar números europeos.
-// Establezca la propiedad "NumeralFormat" en "NumeralFormat.System" para determinar el conjunto de símbolos de la configuración regional.
+// Establece la propiedad "NumeralFormat" en "NumeralFormat.European" para utilizar números europeos.
+// Establezca la propiedad "NumeralFormat" en "NumeralFormat.System" para determinar el conjunto de símbolos a partir de la configuración regional.
 options.NumeralFormat = numeralFormat;
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.SetNumeralFormat.pdf", options);

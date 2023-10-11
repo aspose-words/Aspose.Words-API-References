@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTag.NodeType
 second_title: Référence de l'API Aspose.Words pour .NET
-description: StructuredDocumentTag propriété. Retours NodeType.StructuredDocumentTag .
+description: StructuredDocumentTag propriété. RetoursStructuredDocumentTag .
 type: docs
 weight: 220
 url: /fr/net/aspose.words.markup/structureddocumenttag/nodetype/
 ---
 ## StructuredDocumentTag.NodeType property
 
-Retours **NodeType.StructuredDocumentTag** .
+RetoursStructuredDocumentTag .
 
 ```csharp
 public override NodeType NodeType { get; }
@@ -23,12 +23,12 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Vous trouverez ci-dessous deux manières d'appliquer un style du document à une balise de document structuré.
-// 1 - Appliquez un objet de style à partir de la collection de styles du document :
+// 1 - Appliquer un objet style de la collection de styles du document :
 Style quoteStyle = doc.Styles[StyleIdentifier.Quote];
 StructuredDocumentTag sdtPlainText =
     new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Inline) { Style = quoteStyle };
 
-// 2 - Référencez un style dans le document par son nom :
+// 2 - Référencer un style dans le document par son nom :
 StructuredDocumentTag sdtRichText =
     new StructuredDocumentTag(doc, SdtType.RichText, MarkupLevel.Inline) { StyleName = "Quote" };
 
@@ -42,6 +42,8 @@ NodeCollection tags = doc.GetChildNodes(NodeType.StructuredDocumentTag, true);
 foreach (Node node in tags)
 {
     StructuredDocumentTag sdt = (StructuredDocumentTag)node;
+
+    Console.WriteLine(sdt.WordOpenXMLMinimal);
 
     Assert.AreEqual(StyleIdentifier.Quote, sdt.Style.StyleIdentifier);
     Assert.AreEqual("Quote", sdt.StyleName);

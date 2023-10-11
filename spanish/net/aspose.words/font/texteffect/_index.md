@@ -16,7 +16,7 @@ public TextEffect TextEffect { get; set; }
 
 ### Ejemplos
 
-Muestra cómo aplicar un efecto visual a una carrera.
+Muestra cómo aplicar un efecto visual a una ejecución.
 
 ```csharp
 Document doc = new Document();

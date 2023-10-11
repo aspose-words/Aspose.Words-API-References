@@ -3,7 +3,7 @@ title: MailMergeRegionInfo.Level
 second_title: Referencia de API de Aspose.Words para .NET
 description: MailMergeRegionInfo propiedad. Devuelve el nivel de anidamiento de la región.
 type: docs
-weight: 30
+weight: 40
 url: /es/net/aspose.words.mailmerging/mailmergeregioninfo/level/
 ---
 ## MailMergeRegionInfo.Level property
@@ -16,7 +16,7 @@ public int Level { get; }
 
 ### Ejemplos
 
-Muestra cómo verificar las regiones de combinación de correspondencia.
+Muestra cómo verificar regiones de combinación de correspondencia.
 
 ```csharp
 Document doc = new Document(MyDir + "Mail merge regions.docx");
@@ -24,7 +24,7 @@ Document doc = new Document(MyDir + "Mail merge regions.docx");
 // Devuelve una jerarquía completa de regiones de fusión que contienen MERGEFIELD disponibles en el documento.
 MailMergeRegionInfo regionInfo = doc.MailMerge.GetRegionsHierarchy();
 
-// Obtenga las regiones principales en el documento.
+// Obtener las principales regiones del documento.
 IList<MailMergeRegionInfo> topRegions = regionInfo.Regions;
 
 Assert.AreEqual(2, topRegions.Count);
@@ -33,7 +33,7 @@ Assert.AreEqual("Region2", topRegions[1].Name);
 Assert.AreEqual(1, topRegions[0].Level);
 Assert.AreEqual(1, topRegions[1].Level);
 
-// Obtenga la región anidada en la primera región superior.
+// Obtener la región anidada en la primera región superior.
 IList<MailMergeRegionInfo> nestedRegions = topRegions[0].Regions;
 
 Assert.AreEqual(2, nestedRegions.Count);
@@ -42,7 +42,7 @@ Assert.AreEqual("NestedRegion2", nestedRegions[1].Name);
 Assert.AreEqual(2, nestedRegions[0].Level);
 Assert.AreEqual(2, nestedRegions[1].Level);
 
-// Obtener una lista de campos dentro de la primera región superior.
+// Obtener la lista de campos dentro de la primera región superior.
 IList<Field> fieldList = topRegions[0].Fields;
 
 Assert.AreEqual(4, fieldList.Count);

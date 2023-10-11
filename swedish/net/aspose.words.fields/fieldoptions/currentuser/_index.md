@@ -3,7 +3,7 @@ title: FieldOptions.CurrentUser
 second_title: Aspose.Words för .NET API Referens
 description: FieldOptions fast egendom. Hämtar eller ställer in aktuell användarinformation.
 type: docs
-weight: 40
+weight: 50
 url: /sv/net/aspose.words.fields/fieldoptions/currentuser/
 ---
 ## FieldOptions.CurrentUser property
@@ -32,7 +32,7 @@ UserInformation userInformation = new UserInformation
 doc.FieldOptions.CurrentUser = userInformation;
 
 // Infoga fälten USERNAME, USERINITIALS och USERADDRESS, som visar värden på
-// respektive egenskaper för UserInformation-objektet som vi har skapat ovan. 
+ // respektive egenskaper för UserInformation-objektet som vi har skapat ovan.
 Assert.AreEqual(userInformation.Name, builder.InsertField(" USERNAME ").Result);
 Assert.AreEqual(userInformation.Initials, builder.InsertField(" USERINITIALS ").Result);
 Assert.AreEqual(userInformation.Address, builder.InsertField(" USERADDRESS ").Result);

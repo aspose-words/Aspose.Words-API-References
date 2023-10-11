@@ -3,7 +3,7 @@ title: DocumentBuilder.InsertHtml
 second_title: Aspose.Words for .NET API Referansı
 description: DocumentBuilder yöntem. Belgeye bir HTML dizesi ekler.
 type: docs
-weight: 330
+weight: 360
 url: /tr/net/aspose.words/documentbuilder/inserthtml/
 ---
 ## InsertHtml(string) {#inserthtml}
@@ -20,11 +20,11 @@ public void InsertHtml(string html)
 
 ### Notlar
 
-Bir HTML parçası veya tüm HTML belgesi eklemek için bu yöntemi kullanabilirsiniz.
+Bir HTML parçasını veya tüm HTML belgesini eklemek için bu yöntemi kullanabilirsiniz.
 
 ### Örnekler
 
-Bir belgeye html içeriği eklemek için bir belge oluşturucunun nasıl kullanılacağını gösterir.
+Bir belgeye html içeriği eklemek için belge oluşturucunun nasıl kullanılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -37,7 +37,7 @@ const string html = "<p align='right'>Paragraph right</p>" +
 
 builder.InsertHtml(html);
 
-// HTML kodunun eklenmesi, her öğenin biçimlendirmesini eşdeğer belge metni biçimlendirmesine ayrıştırır.
+// HTML kodunun eklenmesi, her öğenin formatını eşdeğer belge metni formatına ayrıştırır.
 ParagraphCollection paragraphs = doc.FirstSection.Body.Paragraphs;
 
 Assert.AreEqual("Paragraph right", paragraphs[0].GetText().Trim());
@@ -56,9 +56,10 @@ Assert.AreEqual("Heading 1", paragraphs[3].ParagraphFormat.Style.Name);
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertHtml.docx");
 ```
 
-Birleştirme verilerini HTML belgeleri biçiminde işleyen özel bir geri aramayla adres mektup birleştirmenin nasıl yürütüleceğini gösterir.
+HTML belgeleri biçimindeki birleştirme verilerini işleyen özel bir geri çağırma ile adres-mektup birleştirmenin nasıl yürütüleceğini gösterir.
 
 ```csharp
+public void MergeHtml()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -88,13 +89,13 @@ Birleştirme verilerini HTML belgeleri biçiminde işleyen özel bir geri aramay
 }
 
 /// <summary>
-/// Adres mektup birleştirme, adı "html_" öneki ile başlayan bir MERGEFIELD ile karşılaşırsa,
-/// bu geri arama, birleştirme verilerini HTML içeriği olarak ayrıştırır ve sonucu MERGEFIELD'in belge konumuna ekler.
+/// Adres-mektup birleştirme, adı "html_" önekiyle başlayan bir MERGEFIELD ile karşılaşırsa,
+/// bu geri çağırma, birleştirme verilerini HTML içeriği olarak ayrıştırır ve sonucu MERGEFIELD'ın belge konumuna ekler.
 /// </summary>
 private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 {
     /// <summary>
-    /// Adres mektup birleştirme verileri bir MERGEFIELD ile birleştirdiğinde çağrılır.
+    /// Adres-mektup birleştirme verileri MERGEFIELD ile birleştirdiğinde çağrılır.
     /// </summary>
     void IFieldMergingCallback.FieldMerging(FieldMergingArgs args)
     {
@@ -106,7 +107,7 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
             builder.InsertHtml((string)args.FieldValue);
 
             // Birleştirilmiş içeriği zaten manuel olarak eklediğimiz için,
-             // "Metin" özelliği aracılığıyla içerik döndürerek bu olaya yanıt vermemiz gerekmeyecek.
+             // bu etkinliğe "Text" özelliği aracılığıyla içerik döndürerek yanıt vermemize gerek kalmayacak.
             args.Text = string.Empty;
         }
     }
@@ -137,25 +138,25 @@ public void InsertHtml(string html, bool useBuilderFormatting)
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
 | html | String | Belgeye eklenecek bir HTML dizesi. |
-| useBuilderFormatting | Boolean | Biçimlendirmenin şurada belirtilmiş olup olmadığını gösteren bir değer.[`DocumentBuilder`](../) , HTML'den içe aktarılan metin için temel biçimlendirme olarak kullanılır. |
+| useBuilderFormatting | Boolean | Biçimlendirmenin belirtilip belirtilmediğini gösteren bir değer[`DocumentBuilder`](../) , HTML'den içe aktarılan metin için temel biçimlendirme olarak kullanılır. |
 
 ### Notlar
 
-Bir HTML parçası veya tüm HTML belgesi eklemek için bu yöntemi kullanabilirsiniz.
+Bir HTML parçasını veya tüm HTML belgesini eklemek için bu yöntemi kullanabilirsiniz.
 
-Ne zaman*useBuilderFormatting* dır-dir`yanlış` , [`DocumentBuilder`](../) biçimlendirme yok sayılır ve eklenen text öğesinin biçimlendirmesi, varsayılan HTML biçimlendirmesine dayanır. Sonuç olarak, metin tarayıcılarda işlendiği gibi görünür.
+Ne zaman*useBuilderFormatting* dır-dir`YANLIŞ` , [`DocumentBuilder`](../)biçimlendirme göz ardı edilir ve eklenen text 'nin biçimlendirmesi varsayılan HTML biçimlendirmesine dayanır. Sonuç olarak metin, tarayıcılarda işlendiği gibi görünür.
 
-Ne zaman*useBuilderFormatting* dır-dir`doğru` , eklenen metnin biçimlendirmesi,[`DocumentBuilder`](../) biçimlendirme, ve metin eklenmiş gibi görünüyor[`Write`](../write/) .
+Ne zaman*useBuilderFormatting* dır-dir`doğru` , eklenen metnin biçimlendirmesi temel alınır[`DocumentBuilder`](../) formatting, ve metin sanki eklenmiş gibi görünüyor[`Write`](../write/) .
 
 ### Örnekler
 
-HTML içeriği eklerken bir belge oluşturucu biçimlendirmesinin nasıl uygulanacağını gösterir.
+HTML içeriği eklenirken belge oluşturucunun formatının nasıl uygulanacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Oluşturucu için bir metin hizalaması ayarlayın, belirtilen hizalamaya sahip ve olmayan bir HTML paragrafı ekleyin.
+// Oluşturucu için bir metin hizalaması ayarlayın, belirtilen hizalamaya sahip olan ve olmayan bir HTML paragrafı ekleyin.
 builder.ParagraphFormat.Alignment = ParagraphAlignment.Distributed;
 builder.InsertHtml(
     "<p align='right'>Paragraph 1.</p>" +
@@ -163,12 +164,12 @@ builder.InsertHtml(
 
 ParagraphCollection paragraphs = doc.FirstSection.Body.Paragraphs;
 
-// İlk paragrafta belirtilen bir hizalama var. InsertHtml HTML kodunu ayrıştırdığında,
+// İlk paragrafta belirtilen hizalama var. InsertHtml HTML kodunu ayrıştırdığında,
 // HTML kodunda bulunan paragraf hizalama değeri her zaman belge oluşturucunun değerinin yerine geçer.
 Assert.AreEqual("Paragraph 1.", paragraphs[0].GetText().Trim());
 Assert.AreEqual(ParagraphAlignment.Right, paragraphs[0].ParagraphFormat.Alignment);
 
-// İkinci paragrafta hizalama belirtilmemiş. Hizalama değeri doldurulabilir
+// İkinci paragrafta herhangi bir hizalama belirtilmemiş. Hizalama değeri doldurulmuş olabilir
 // InsertHtml yöntemine ilettiğimiz bayrağa bağlı olarak oluşturucunun değerine göre.
 Assert.AreEqual("Paragraph 2.", paragraphs[1].GetText().Trim());
 Assert.AreEqual(useBuilderFormatting ? ParagraphAlignment.Distributed : ParagraphAlignment.Left,
@@ -187,7 +188,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertHtmlWithFormatting.docx");
 
 ## InsertHtml(string, HtmlInsertOptions) {#inserthtml_1}
 
-Belgeye bir HTML dizesi ekler. Ek seçenekleri belirlemeye izin verir.
+Belgeye bir HTML dizesi ekler. Ek seçeneklerin belirtilmesine izin verir.
 
 ```csharp
 public void InsertHtml(string html, HtmlInsertOptions options)
@@ -200,7 +201,7 @@ public void InsertHtml(string html, HtmlInsertOptions options)
 
 ### Notlar
 
-Bir HTML parçası veya tüm HTML belgesi eklemek için bu yöntemi kullanabilirsiniz.
+Bir HTML parçasını veya tüm HTML belgesini eklemek için bu yöntemi kullanabilirsiniz.
 
 ### Örnekler
 
@@ -217,8 +218,8 @@ builder.InsertParagraph();
 
 // Varsayılan olarak "DocumentBuilder.InsertHtml", blok düzeyinde bir HTML öğesiyle biten bir HTML parçası ekler,
 // normalde bu blok düzeyindeki öğeyi kapatır ve bir paragraf sonu ekler.
-// Sonuç olarak, eklenen belgeden sonra yeni bir boş paragraf görünür.
-// "HtmlInsertOptions.RemoveLastEmptyParagraph" belirtirsek, bu fazladan boş paragraflar kaldırılacaktır.
+// Sonuç olarak, eklenen belgeden sonra yeni bir boş paragraf belirir.
+// "HtmlInsertOptions.RemoveLastEmptyParagraph" belirtirsek, o ekstra boş paragraflar kaldırılacaktır.
 builder.MoveToMergeField("NAME");
 builder.InsertHtml("<p>John Smith</p>", HtmlInsertOptions.UseBuilderFormatting | HtmlInsertOptions.RemoveLastEmptyParagraph);
 builder.MoveToMergeField("EMAIL");

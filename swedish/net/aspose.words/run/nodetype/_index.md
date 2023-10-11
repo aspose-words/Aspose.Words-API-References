@@ -1,14 +1,14 @@
 ---
 title: Run.NodeType
 second_title: Aspose.Words för .NET API Referens
-description: Run fast egendom. Returnerar NodeType.Run .
+description: Run fast egendom. ReturnerarRun .
 type: docs
-weight: 20
+weight: 30
 url: /sv/net/aspose.words/run/nodetype/
 ---
 ## Run.NodeType property
 
-Returnerar **NodeType.Run** .
+ReturnerarRun .
 
 ```csharp
 public override NodeType NodeType { get; }
@@ -19,6 +19,7 @@ public override NodeType NodeType { get; }
 Visar hur man korsar en sammansatt nods träd med undernoder.
 
 ```csharp
+public void RecurseChildren()
 {
     Document doc = new Document(MyDir + "Paragraphs.docx");
 

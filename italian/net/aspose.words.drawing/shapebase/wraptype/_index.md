@@ -1,14 +1,14 @@
 ---
 title: ShapeBase.WrapType
 second_title: Aspose.Words per .NET API Reference
-description: ShapeBase proprietà. Definisce se la forma è in linea o mobile. Per le forme mobili definisce la modalità di ritorno a capo per il testo attorno alla forma.
+description: ShapeBase proprietà. Definisce se la forma è in linea o mobile. Per le forme fluttuanti definisce la modalità di disposizione del testo attorno alla forma.
 type: docs
-weight: 540
+weight: 600
 url: /it/net/aspose.words.drawing/shapebase/wraptype/
 ---
 ## ShapeBase.WrapType property
 
-Definisce se la forma è in linea o mobile. Per le forme mobili definisce la modalità di ritorno a capo per il testo attorno alla forma.
+Definisce se la forma è in linea o mobile. Per le forme fluttuanti definisce la modalità di disposizione del testo attorno alla forma.
 
 ```csharp
 public WrapType WrapType { get; set; }
@@ -55,7 +55,7 @@ textBox.Width = 200;
 textBox.HorizontalAlignment = HorizontalAlignment.Center;
 textBox.VerticalAlignment = VerticalAlignment.Top;
 
-// Aggiungi un paragrafo alla casella di testo e aggiungi una sequenza di testo che verrà visualizzata nella casella di testo.
+// Aggiunge un paragrafo alla casella di testo e aggiunge una sequenza di testo che verrà visualizzata nella casella di testo.
 textBox.AppendChild(new Paragraph(doc));
 Paragraph para = textBox.FirstParagraph;
 para.ParagraphFormat.Alignment = ParagraphAlignment.Center;

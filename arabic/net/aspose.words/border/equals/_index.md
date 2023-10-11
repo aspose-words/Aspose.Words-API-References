@@ -1,14 +1,14 @@
 ---
 title: Border.Equals
 second_title: Aspose.Words لمراجع .NET API
-description: Border طريقة. لتحديد ما إذا كانت الحدود المحددة تساوي قيمة الحد الحالي.
+description: Border طريقة. تحديد ما إذا كان الحد المحدد مساويًا في القيمة للحد الحالي.
 type: docs
-weight: 80
+weight: 100
 url: /ar/net/aspose.words/border/equals/
 ---
 ## Equals(Border) {#equals}
 
-لتحديد ما إذا كانت الحدود المحددة تساوي قيمة الحد الحالي.
+تحديد ما إذا كان الحد المحدد مساويًا في القيمة للحد الحالي.
 
 ```csharp
 public bool Equals(Border rhs)
@@ -26,10 +26,9 @@ builder.Writeln("Paragraph 1.");
 builder.Write("Paragraph 2.");
 
 // نظرًا لأننا استخدمنا نفس تكوين الحدود أثناء الإنشاء
-// هذه الفقرات ، تشترك مجموعاتها الحدودية في نفس العناصر.
+// هذه الفقرات، مجموعات حدودها تشترك في نفس العناصر.
 BorderCollection firstParagraphBorders = doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Borders;
 BorderCollection secondParagraphBorders = builder.CurrentParagraph.ParagraphFormat.Borders;
-
 for (int i = 0; i < firstParagraphBorders.Count; i++)
 {
     Assert.IsTrue(firstParagraphBorders[i].Equals(secondParagraphBorders[i]));
@@ -40,14 +39,14 @@ for (int i = 0; i < firstParagraphBorders.Count; i++)
 foreach (Border border in secondParagraphBorders)
     border.LineStyle = LineStyle.DotDash;
 
-// بعد تغيير نمط خط الحدود في الفقرة الثانية فقط ،
+// بعد تغيير نمط خط الحدود في الفقرة الثانية فقط،
 // لم تعد مجموعات الحدود تشترك في نفس العناصر.
 for (int i = 0; i < firstParagraphBorders.Count; i++)
 {
     Assert.IsFalse(firstParagraphBorders[i].Equals(secondParagraphBorders[i]));
     Assert.AreNotEqual(firstParagraphBorders[i].GetHashCode(), secondParagraphBorders[i].GetHashCode());
 
-    // تغيير مظهر حد فارغ يجعله مرئيًا.
+    // تغيير مظهر الحدود الفارغة يجعلها مرئية.
     Assert.True(secondParagraphBorders[i].IsVisible);
 }
 
@@ -64,7 +63,7 @@ doc.Save(ArtifactsDir + "Border.SharedElements.docx");
 
 ## Equals(object) {#equals_1}
 
-لتحديد ما إذا كان الكائن المحدد يساوي قيمة الكائن الحالي.
+تحديد ما إذا كان الكائن المحدد يساوي قيمة الكائن الحالي.
 
 ```csharp
 public override bool Equals(object obj)
@@ -82,10 +81,9 @@ builder.Writeln("Paragraph 1.");
 builder.Write("Paragraph 2.");
 
 // نظرًا لأننا استخدمنا نفس تكوين الحدود أثناء الإنشاء
-// هذه الفقرات ، تشترك مجموعاتها الحدودية في نفس العناصر.
+// هذه الفقرات، مجموعات حدودها تشترك في نفس العناصر.
 BorderCollection firstParagraphBorders = doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Borders;
 BorderCollection secondParagraphBorders = builder.CurrentParagraph.ParagraphFormat.Borders;
-
 for (int i = 0; i < firstParagraphBorders.Count; i++)
 {
     Assert.IsTrue(firstParagraphBorders[i].Equals(secondParagraphBorders[i]));
@@ -96,14 +94,14 @@ for (int i = 0; i < firstParagraphBorders.Count; i++)
 foreach (Border border in secondParagraphBorders)
     border.LineStyle = LineStyle.DotDash;
 
-// بعد تغيير نمط خط الحدود في الفقرة الثانية فقط ،
+// بعد تغيير نمط خط الحدود في الفقرة الثانية فقط،
 // لم تعد مجموعات الحدود تشترك في نفس العناصر.
 for (int i = 0; i < firstParagraphBorders.Count; i++)
 {
     Assert.IsFalse(firstParagraphBorders[i].Equals(secondParagraphBorders[i]));
     Assert.AreNotEqual(firstParagraphBorders[i].GetHashCode(), secondParagraphBorders[i].GetHashCode());
 
-    // تغيير مظهر حد فارغ يجعله مرئيًا.
+    // تغيير مظهر الحدود الفارغة يجعلها مرئية.
     Assert.True(secondParagraphBorders[i].IsVisible);
 }
 

@@ -3,7 +3,7 @@ title: Enum NodeChangingAction
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Aspose.Words.NodeChangingAction énumération. Spécifie le type de changement de nœud.
 type: docs
-weight: 3940
+weight: 4180
 url: /fr/net/aspose.words/nodechangingaction/
 ---
 ## NodeChangingAction enumeration
@@ -23,9 +23,10 @@ public enum NodeChangingAction
 
 ### Exemples
 
-Montre comment utiliser un NodeChangingCallback pour surveiller les modifications apportées à l'arborescence du document en temps réel au fur et à mesure que nous le modifions.
+Montre comment utiliser un NodeChangingCallback pour surveiller les modifications apportées à l'arborescence du document en temps réel au fur et à mesure que nous la modifions.
 
 ```csharp
+public void NodeChangingCallback()
 {
     Document doc = new Document();
     doc.NodeChangingCallback = new NodeChangingPrinter();
@@ -50,7 +51,7 @@ Montre comment utiliser un NodeChangingCallback pour surveiller les modification
 }
 
 /// <summary>
-/// Imprime chaque insertion/suppression de nœud telle qu'elle a lieu dans le document.
+/// Imprime chaque insertion/suppression de nœud au fur et à mesure qu'elle a lieu dans le document.
 /// </summary>
 private class NodeChangingPrinter : INodeChangingCallback
 {

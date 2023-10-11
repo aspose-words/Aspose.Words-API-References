@@ -3,7 +3,7 @@ title: ParagraphFormat.SuppressAutoHyphens
 second_title: Aspose.Words för .NET API Referens
 description: ParagraphFormat fast egendom. Anger om det aktuella stycket ska undantas från avstavning som används i dokumentinställningarna.
 type: docs
-weight: 360
+weight: 370
 url: /sv/net/aspose.words/paragraphformat/suppressautohyphens/
 ---
 ## ParagraphFormat.SuppressAutoHyphens property

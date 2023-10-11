@@ -1,14 +1,14 @@
 ---
 title: DocumentBuilder.MoveToMergeField
 second_title: Aspose.Words for .NET API Referansı
-description: DocumentBuilder yöntem. İmleci belirtilen birleştirme alanının hemen ötesinde bir konuma taşır ve birleştirme alanını kaldırır.
+description: DocumentBuilder yöntem. İmleci belirtilen birleştirme alanının hemen ötesindeki bir konuma taşır ve birleştirme alanını kaldırır.
 type: docs
-weight: 530
+weight: 560
 url: /tr/net/aspose.words/documentbuilder/movetomergefield/
 ---
 ## MoveToMergeField(string) {#movetomergefield}
 
-İmleci belirtilen birleştirme alanının hemen ötesinde bir konuma taşır ve birleştirme alanını kaldırır.
+İmleci belirtilen birleştirme alanının hemen ötesindeki bir konuma taşır ve birleştirme alanını kaldırır.
 
 ```csharp
 public bool MoveToMergeField(string fieldName)
@@ -16,11 +16,11 @@ public bool MoveToMergeField(string fieldName)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| fieldName | String | Adres mektup birleştirme alanının büyük/küçük harfe duyarlı olmayan adı. |
+| fieldName | String | Adres-mektup birleştirme alanının büyük/küçük harfe duyarlı olmayan adı. |
 
 ### Geri dönüş değeri
 
-Birleştirme alanı bulunduysa ve imleç taşındıysa doğrudur; aksi halde yanlış.
+`doğru` birleştirme alanı bulunmuşsa ve imleç hareket ettirilmişse;`YANLIŞ` aksi takdirde.
 
 ### Notlar
 
@@ -28,14 +28,14 @@ Bu yöntemin, imleci hareket ettirdikten sonra birleştirme alanını belgeden s
 
 ### Örnekler
 
-Adres mektup birleştirme yerine belge oluşturucu ile MERGEFIELD'lerin verilerle nasıl doldurulacağını gösterir.
+Adres-mektup birleştirme yerine belge oluşturucuyla MERGEFIELD'lerin verilerle nasıl doldurulacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Adres mektup birleştirme sırasında bir veri kaynağındaki aynı ada sahip sütunlardan veri kabul eden bazı MERGEFIELDS ekleyin,
-// ve ardından bunları manuel olarak doldurun.
+// Adres-mektup birleştirme sırasında veri kaynağındaki aynı isimdeki sütunlardan veri kabul eden bazı MERGEFIELDS'leri ekleyin,
+// ve ardından manuel olarak doldurun.
 builder.InsertField(" MERGEFIELD Chairman ");
 builder.InsertField(" MERGEFIELD ChiefFinancialOfficer ");
 builder.InsertField(" MERGEFIELD ChiefTechnologyOfficer ");
@@ -55,15 +55,16 @@ builder.Writeln("John Bloggs");
 doc.Save(ArtifactsDir + "DocumentBuilder.FillMergeFields.docx");
 ```
 
-Adres mektup birleştirme sırasında birleştirme verileri olarak MERGEFIELD'lere onay kutusu form alanlarının nasıl ekleneceğini gösterir.
+Adres-mektup birleştirme sırasında onay kutusu form alanlarının MERGEFIELD'lere birleştirme verileri olarak nasıl ekleneceğini gösterir.
 
 ```csharp
+public void InsertCheckBox()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Adres mektup birleştirme bölgesi tanımlamak için "TableStart"/"TableEnd" etiketleriyle MERGEFIELD'leri kullanın
-    // "StudentCourse" adlı bir veri kaynağına ait olan ve "CourseName" adlı bir sütundan veri kabul eden bir MERGEFIELD'e sahip.
+    // Adres-mektup birleştirme bölgesini tanımlamak için MERGEFIELD'leri "TableStart"/"TableEnd" etiketleriyle kullanın
+    // "StudentCourse" adlı bir veri kaynağına ait olan ve "CourseName" adlı bir sütundan veri kabul eden bir MERGEFIELD'a sahip olan.
     builder.StartTable();
     builder.InsertCell();
     builder.InsertField(" MERGEFIELD  TableStart:StudentCourse ");
@@ -79,14 +80,15 @@ Adres mektup birleştirme sırasında birleştirme verileri olarak MERGEFIELD'le
 
     doc.MailMerge.ExecuteWithRegions(dataTable);
     doc.Save(ArtifactsDir + "MailMergeEvent.InsertCheckBox.docx");
+}
 
 /// <summary>
-/// Belirli bir ada sahip bir MERGEFIELD ile karşılaşıldığında, birleştirme veri metni yerine bir onay kutusu form alanı ekler.
+/// Belirli bir ada sahip bir MERGEFIELD ile karşılaşıldığında, birleştirme verileri metni yerine bir onay kutusu form alanı ekler.
 /// </summary>
 private class HandleMergeFieldInsertCheckBox : IFieldMergingCallback
 {
     /// <summary>
-    /// Adres mektup birleştirme verileri bir MERGEFIELD ile birleştirdiğinde çağrılır.
+    /// Adres-mektup birleştirme verileri MERGEFIELD ile birleştirdiğinde çağrılır.
     /// </summary>
     void IFieldMergingCallback.FieldMerging(FieldMergingArgs args)
     {
@@ -100,7 +102,7 @@ private class HandleMergeFieldInsertCheckBox : IFieldMergingCallback
 
             string fieldValue = args.FieldValue.ToString();
 
-            // Bu durumda, her kayıt indeksi 'n' için karşılık gelen alan değeri "Ders n"dir.
+            // Bu durumda her kayıt indeksi 'n' için karşılık gelen alan değeri "Ders n" olur.
             Assert.AreEqual(char.GetNumericValue(fieldValue[7]), args.RecordIndex);
 
             builder.Write(fieldValue);
@@ -117,7 +119,7 @@ private class HandleMergeFieldInsertCheckBox : IFieldMergingCallback
 }
 
 /// <summary>
-/// Adres mektup birleştirme veri kaynağı oluşturur.
+/// Adres-mektup birleştirme veri kaynağı oluşturur.
 /// </summary>
 private static DataTable GetStudentCourseDataTable()
 {
@@ -152,13 +154,13 @@ public bool MoveToMergeField(string fieldName, bool isAfter, bool isDeleteField)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| fieldName | String | Adres mektup birleştirme alanının büyük/küçük harfe duyarlı olmayan adı. |
-| isAfter | Boolean | Doğru olduğunda, imleci alan bitiminden sonra olacak şekilde hareket ettirir. Yanlış olduğunda, imleci alan başlangıcından önce olacak şekilde hareket ettirir. |
-| isDeleteField | Boolean | Doğru olduğunda, birleştirme alanını siler. |
+| fieldName | String | Adres-mektup birleştirme alanının büyük/küçük harfe duyarlı olmayan adı. |
+| isAfter | Boolean | Ne zaman`doğru` , imleci alanın sonundan sonraya taşır. Ne zaman`YANLIŞ` , imleci alan başlangıcından önce olacak şekilde hareket ettirir. |
+| isDeleteField | Boolean | Ne zaman`doğru`, birleştirme alanını siler. |
 
 ### Geri dönüş değeri
 
-Birleştirme alanı bulunduysa ve imleç taşındıysa doğrudur; aksi halde yanlış.
+`doğru` birleştirme alanı bulunmuşsa ve imleç hareket ettirilmişse;`YANLIŞ` aksi takdirde.
 
 ### Örnekler
 
@@ -170,16 +172,16 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.InsertField(@"MERGEFIELD MyMergeField1 \* MERGEFORMAT");
 builder.InsertField(@"MERGEFIELD MyMergeField2 \* MERGEFORMAT");
 
-// İmleci ilk MERGEFIELD'e taşıyın.
+// İmleci ilk MERGEFIELD'a taşıyın.
 builder.MoveToMergeField("MyMergeField1", true, false);
 
-// İmlecin ilk MERGEFIELD'den hemen sonra ve ikinciden önce yerleştirildiğini unutmayın.
+// İmlecin ilk MERGEFIELD'den hemen sonra ve ikinciden önce yerleştirildiğine dikkat edin.
 Assert.AreEqual(doc.Range.Fields[1].Start, builder.CurrentNode);
 Assert.AreEqual(doc.Range.Fields[0].End, builder.CurrentNode.PreviousSibling);
 
-// Oluşturucuyu kullanarak alanın alan kodunu veya içeriğini düzenlemek istiyorsak,
+// Alanın alan kodunu veya içeriğini oluşturucuyu kullanarak düzenlemek istiyorsak,
 // imlecinin bir alanın içinde olması gerekir.
-// Bir alanın içine yerleştirmek için belge oluşturucunun MoveTo yöntemini çağırmamız gerekir
+// Bunu bir alanın içine yerleştirmek için belge oluşturucunun MoveTo yöntemini çağırmamız gerekir
 // ve alanın başlangıç veya ayırıcı düğümünü argüman olarak iletin.
 builder.Write(" Text between our merge fields. ");
 

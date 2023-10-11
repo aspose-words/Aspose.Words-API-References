@@ -1,14 +1,14 @@
 ---
 title: Enum FillType
 second_title: Справочник по API Aspose.Words для .NET
-description: Aspose.Words.Drawing.FillType перечисление. Указывает тип заполнения для заполняемого объекта.
+description: Aspose.Words.Drawing.FillType перечисление. Указывает тип заливки для заполняемого объекта.
 type: docs
-weight: 830
+weight: 960
 url: /ru/net/aspose.words.drawing/filltype/
 ---
 ## FillType enumeration
 
-Указывает тип заполнения для заполняемого объекта.
+Указывает тип заливки для заполняемого объекта.
 
 ```csharp
 public enum FillType

@@ -1,14 +1,14 @@
 ---
 title: NodeRendererBase.RenderToSize
 second_title: Referencia de API de Aspose.Words para .NET
-description: NodeRendererBase método. Convierte la forma en unGraphics objeto a un tamaño especificado.
+description: NodeRendererBase método. Representa la forma en unGraphics objeto a un tamaño especificado.
 type: docs
 weight: 80
 url: /es/net/aspose.words.rendering/noderendererbase/rendertosize/
 ---
 ## NodeRendererBase.RenderToSize method
 
-Convierte la forma en unGraphics objeto a un tamaño especificado.
+Representa la forma en unGraphics objeto a un tamaño especificado.
 
 ```csharp
 public float RenderToSize(Graphics graphics, float x, float y, float width, float height)
@@ -17,28 +17,29 @@ public float RenderToSize(Graphics graphics, float x, float y, float width, floa
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
 | graphics | Graphics | El objeto donde renderizar. |
-| x | Single | La coordenada X (en unidades universales) de la esquina superior izquierda de la forma renderizada. |
-| y | Single | La coordenada Y (en unidades universales) de la esquina superior izquierda de la forma renderizada. |
+| x | Single | La coordenada X (en unidades mundiales) de la esquina superior izquierda de la forma renderizada. |
+| y | Single | La coordenada Y (en unidades mundiales) de la esquina superior izquierda de la forma renderizada. |
 | width | Single | El ancho máximo (en unidades mundiales) que puede ocupar la forma renderizada. |
 | height | Single | La altura máxima (en unidades mundiales) que puede ocupar la forma renderizada. |
 
 ### Valor_devuelto
 
-La escala que se calculó automáticamente para que la forma representada se ajuste al tamaño especificado.
+La escala que se calculó automáticamente para que la forma renderizada se ajustara al tamaño especificado.
 
 ### Ejemplos
 
-Muestra cómo representar una forma con un objeto Graphics y mostrarla mediante un Windows Form.
+Muestra cómo representar una forma con un objeto Gráficos y mostrarla usando un formulario de Windows.
 
 ```csharp
+public void RenderShapesOnForm()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
     ShapeForm shapeForm = new ShapeForm(new Size(1017, 840));
 
-    // A continuación hay dos formas de usar la clase "ShapeRenderer" para representar una forma en un objeto Graphics.
-    // 1 - Crea una forma con un gráfico y renderízala a una escala específica.
+    // A continuación se muestran dos formas de utilizar la clase "ShapeRenderer" para representar una forma en un objeto Graphics.
+    // 1: crea una forma con un gráfico y renderízala a una escala específica.
     Chart chart = builder.InsertChart(ChartType.Pie, 500, 400).Chart;
     chart.Series.Clear();
     chart.Series.Add("Desktop Browser Market Share (Oct. 2020)",
@@ -79,7 +80,7 @@ Muestra cómo representar una forma con un objeto Graphics y mostrarla mediante 
 }
 
 /// <summary>
-/// Renderiza y muestra una lista de formas.
+/// Representa y muestra una lista de formas.
 /// </summary>
 private class ShapeForm : Form
 {
@@ -128,6 +129,7 @@ private class ShapeForm : Form
         }
     }
 
+    private readonly List<KeyValuePair<ShapeBase, float[]>> mShapesToRender;
 }
 ```
 

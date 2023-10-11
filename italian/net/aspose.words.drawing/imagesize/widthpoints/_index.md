@@ -1,14 +1,14 @@
 ---
 title: ImageSize.WidthPoints
 second_title: Aspose.Words per .NET API Reference
-description: ImageSize proprietà. Ottiene la larghezza dellimmagine in punti. 1 punto è 1/72 pollici.
+description: ImageSize proprietà. Ottiene la larghezza dellimmagine in punti. 1 punto è 1/72 di pollice.
 type: docs
 weight: 70
 url: /it/net/aspose.words.drawing/imagesize/widthpoints/
 ---
 ## ImageSize.WidthPoints property
 
-Ottiene la larghezza dell'immagine in punti. 1 punto è 1/72 pollici.
+Ottiene la larghezza dell'immagine in punti. 1 punto è 1/72 di pollice.
 
 ```csharp
 public double WidthPoints { get; }
@@ -31,27 +31,27 @@ Mostra come ridimensionare una forma con un'immagine.
             Assert.AreEqual(400, image.Height);
 #endif
 
-            // Quando inseriamo un'immagine utilizzando il metodo "InsertImage", il builder ridimensiona la forma che mostra l'immagine in modo che,
-            // quando visualizziamo il documento utilizzando lo zoom del 100% in Microsoft Word, la forma mostra l'immagine nella sua dimensione effettiva.
+            // Quando inseriamo un'immagine utilizzando il metodo "InsertImage", il builder ridimensiona la forma che visualizza l'immagine in modo che,
+            // quando visualizziamo il documento utilizzando lo zoom al 100% in Microsoft Word, la forma visualizza l'immagine nelle sue dimensioni reali.
             Document doc = new Document();
             DocumentBuilder builder = new DocumentBuilder(doc);
             Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
 
-            // Un'immagine 400x400 creerà un oggetto ImageData con una dimensione dell'immagine di 300x300pt.
+            // Un'immagine 400x400 creerà un oggetto ImageData con una dimensione immagine di 300x300pt.
             ImageSize imageSize = shape.ImageData.ImageSize;
 
             Assert.AreEqual(300.0d, imageSize.WidthPoints);
             Assert.AreEqual(300.0d, imageSize.HeightPoints);
 
             // Se le dimensioni di una forma corrispondono alle dimensioni dei dati dell'immagine,
-            // quindi la forma mostra l'immagine nella sua dimensione originale.
+            // la forma visualizza l'immagine nella sua dimensione originale.
             Assert.AreEqual(300.0d, shape.Width);
             Assert.AreEqual(300.0d, shape.Height);
 
-             // Riduci le dimensioni complessive della forma del 50%.
+             // Riduce la dimensione complessiva della forma del 50%.
             shape.Width *= 0.5;
 
-             // I fattori di ridimensionamento si applicano sia alla larghezza che all'altezza contemporaneamente per preservare le proporzioni della forma.
+             // I fattori di scala si applicano contemporaneamente sia alla larghezza che all'altezza per preservare le proporzioni della forma.
             Assert.AreEqual(150.0d, shape.Width);
             Assert.AreEqual(150.0d, shape.Height);
 
@@ -59,7 +59,7 @@ Mostra come ridimensionare una forma con un'immagine.
             Assert.AreEqual(300.0d, imageSize.WidthPoints);
             Assert.AreEqual(300.0d, imageSize.HeightPoints);
 
-            // Possiamo fare riferimento alle dimensioni dei dati dell'immagine per applicare un ridimensionamento in base alle dimensioni dell'immagine.
+            // Possiamo fare riferimento alle dimensioni dei dati dell'immagine per applicare un ridimensionamento in base alla dimensione dell'immagine.
             shape.Width = imageSize.WidthPoints * 1.1;
 
             Assert.AreEqual(330.0d, shape.Width);

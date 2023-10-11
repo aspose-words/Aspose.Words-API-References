@@ -3,7 +3,7 @@ title: Enum Orientation
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Orientation uppräkning. Anger sidorientering.
 type: docs
-weight: 4080
+weight: 4320
 url: /sv/net/aspose.words/orientation/
 ---
 ## Orientation enumeration

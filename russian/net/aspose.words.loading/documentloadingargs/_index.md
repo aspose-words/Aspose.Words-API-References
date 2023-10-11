@@ -3,12 +3,14 @@ title: Class DocumentLoadingArgs
 second_title: Справочник по API Aspose.Words для .NET
 description: Aspose.Words.Loading.DocumentLoadingArgs сорт. Аргумент переданный вNotify .
 type: docs
-weight: 3390
+weight: 3590
 url: /ru/net/aspose.words.loading/documentloadingargs/
 ---
 ## DocumentLoadingArgs class
 
 Аргумент, переданный в[`Notify`](../idocumentloadingcallback/notify/) .
+
+Чтобы узнать больше, посетите[Укажите параметры загрузки](https://docs.aspose.com/words/net/specify-load-options/) статья документации.
 
 ```csharp
 public sealed class DocumentLoadingArgs

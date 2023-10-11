@@ -1,12 +1,14 @@
 ---
 title: Interface ITextShaper
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Shaping.ITextShaper واجهه المستخدم. 
+description: Aspose.Words.Shaping.ITextShaper واجهه المستخدم. يوفر طرقًا لتشكيل النص.
 type: docs
-weight: 5750
+weight: 6050
 url: /ar/net/aspose.words.shaping/itextshaper/
 ---
 ## ITextShaper interface
+
+يوفر طرقًا لتشكيل النص.
 
 ```csharp
 public interface ITextShaper : IDisposable
@@ -16,7 +18,7 @@ public interface ITextShaper : IDisposable
 
 | اسم | وصف |
 | --- | --- |
-| [ShapeText](../../aspose.words.shaping/itextshaper/shapetext/)(string[], Direction, UnicodeScript, params FontFeature[]) |  |
+| [ShapeText](../../aspose.words.shaping/itextshaper/shapetext/)(string[], Direction, UnicodeScript, params FontFeature[]) | إرجاع[`Cluster`](../cluster/)الكائنات التي تم إنشاؤها من تسلسل أجزاء النص. طول المصفوفة التي تم إرجاعها يساوي طول*runs* . إذا تم التشغيل على فهرس يحتوي على مجموعات مقابلة، فسيتم تسجيل النتائج في نفس الفهرس. |
 
 ### أنظر أيضا
 

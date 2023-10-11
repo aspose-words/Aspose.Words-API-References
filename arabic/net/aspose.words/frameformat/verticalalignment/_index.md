@@ -1,14 +1,14 @@
 ---
 title: FrameFormat.VerticalAlignment
 second_title: Aspose.Words لمراجع .NET API
-description: FrameFormat ملكية. يحصل على محاذاة رأسية للإطار المحدد.
+description: FrameFormat ملكية. الحصول على المحاذاة الرأسية للإطار المحدد.
 type: docs
 weight: 90
 url: /ar/net/aspose.words/frameformat/verticalalignment/
 ---
 ## FrameFormat.VerticalAlignment property
 
-يحصل على محاذاة رأسية للإطار المحدد.
+الحصول على المحاذاة الرأسية للإطار المحدد.
 
 ```csharp
 public VerticalAlignment VerticalAlignment { get; }
@@ -16,7 +16,7 @@ public VerticalAlignment VerticalAlignment { get; }
 
 ### أمثلة
 
-يوضح كيفية الحصول على معلومات حول خصائص التنسيق للفقرات التي هي إطارات.
+يوضح كيفية الحصول على معلومات حول خصائص تنسيق الفقرات التي تكون إطارات.
 
 ```csharp
 Document doc = new Document(MyDir + "Paragraph frame.docx");

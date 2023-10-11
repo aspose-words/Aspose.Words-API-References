@@ -3,12 +3,14 @@ title: Class FieldAutoTextList
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Aspose.Words.Fields.FieldAutoTextList classe. Implémente le champ AUTOTEXTLIST.
 type: docs
-weight: 1470
+weight: 1620
 url: /fr/net/aspose.words.fields/fieldautotextlist/
 ---
 ## FieldAutoTextList class
 
 Implémente le champ AUTOTEXTLIST.
+
+Pour en savoir plus, visitez le[Travailler avec des champs](https://docs.aspose.com/words/net/working-with-fields/) article documentaire.
 
 ```csharp
 public class FieldAutoTextList : Field
@@ -26,15 +28,15 @@ public class FieldAutoTextList : Field
 | --- | --- |
 | [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | Obtient le texte qui représente le résultat du champ affiché. |
 | [End](../../aspose.words.fields/field/end/) { get; } | Obtient le nœud qui représente la fin du champ. |
-| [EntryName](../../aspose.words.fields/fieldautotextlist/entryname/) { get; set; } | Obtient ou définit le nom de l'insertion automatique. |
+| [EntryName](../../aspose.words.fields/fieldautotextlist/entryname/) { get; set; } | Obtient ou définit le nom de l'entrée d'insertion automatique. |
 | [Format](../../aspose.words.fields/field/format/) { get; } | Obtient un[`FieldFormat`](../fieldformat/) objet qui fournit un accès typé au formatage du champ. |
 | [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | Obtient ou définit si le résultat actuel du champ n'est plus correct (périmé) en raison d'autres modifications apportées au document. |
 | [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Obtient ou définit si le champ est verrouillé (ne doit pas recalculer son résultat). |
-| [ListStyle](../../aspose.words.fields/fieldautotextlist/liststyle/) { get; set; } | Obtient ou définit le nom du style sur lequel la liste contenant les entrées est basée. |
+| [ListStyle](../../aspose.words.fields/fieldautotextlist/liststyle/) { get; set; } | Obtient ou définit le nom du style sur lequel est basée la liste devant contenir les entrées. |
 | [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | Obtient ou définit le LCID du champ. |
-| [Result](../../aspose.words.fields/field/result/) { get; set; } | Obtient ou définit le texte qui se trouve entre le séparateur de champ et la fin du champ. |
+| [Result](../../aspose.words.fields/field/result/) { get; set; } | Obtient ou définit le texte situé entre le séparateur de champ et la fin du champ. |
 | [ScreenTip](../../aspose.words.fields/fieldautotextlist/screentip/) { get; set; } | Obtient ou définit le texte de l'info-bulle à afficher. |
-| [Separator](../../aspose.words.fields/field/separator/) { get; } | Obtient le nœud qui représente le séparateur de champs. Peut être null. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | Obtient le nœud qui représente le séparateur de champ. Peut être`nul` . |
 | [Start](../../aspose.words.fields/field/start/) { get; } | Obtient le nœud qui représente le début du champ. |
 | virtual [Type](../../aspose.words.fields/field/type/) { get; } | Obtient le type de champ Microsoft Word. |
 
@@ -44,7 +46,7 @@ public class FieldAutoTextList : Field
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Renvoie le texte entre le début du champ et le séparateur de champ (ou la fin du champ s'il n'y a pas de séparateur). Le code de champ et le résultat du champ des champs enfants sont inclus. |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Renvoie le texte entre le début du champ et le séparateur de champ (ou la fin du champ s'il n'y a pas de séparateur). |
-| [Remove](../../aspose.words.fields/field/remove/)() | Supprime le champ du document. Renvoie un nœud juste après le champ. Si la fin du champ est le dernier enfant de son nœud parent, renvoie son paragraphe parent. Si le champ est déjà supprimé, renvoie **nul** . |
+| [Remove](../../aspose.words.fields/field/remove/)() | Supprime le champ du document. Renvoie un nœud juste après le champ. Si la fin du champ est le dernier child de son nœud parent, renvoie son paragraphe parent. Si le champ est déjà supprimé, renvoie`nul` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Effectue la dissociation du champ. |
 | [Update](../../aspose.words.fields/field/update/)() | Effectue la mise à jour du champ. Lance si le champ est déjà mis à jour. |
 | [Update](../../aspose.words.fields/field/update/)(bool) | Effectue une mise à jour du champ. Lance si le champ est déjà mis à jour. |
@@ -55,13 +57,14 @@ Crée un menu contextuel basé sur les entrées d'insertion automatique dans le 
 
 ### Exemples
 
-Montre comment utiliser un champ AUTOTEXTLIST pour effectuer une sélection dans une liste d'entrées d'insertion automatique.
+Montre comment utiliser un champ AUTOTEXTLIST pour effectuer une sélection dans une liste d’entrées d’insertion automatique.
 
 ```csharp
+public void FieldAutoTextList()
 {
     Document doc = new Document();
 
-    // Crée un document de glossaire et le remplit avec des entrées de texte automatique.
+    // Créez un document glossaire et remplissez-le avec des entrées de texte automatiques.
     doc.GlossaryDocument = new GlossaryDocument();
     AppendAutoTextEntry(doc.GlossaryDocument, "AutoText 1", "Contents of AutoText 1");
     AppendAutoTextEntry(doc.GlossaryDocument, "AutoText 2", "Contents of AutoText 2");
@@ -70,8 +73,8 @@ Montre comment utiliser un champ AUTOTEXTLIST pour effectuer une sélection dans
     DocumentBuilder builder = new DocumentBuilder(doc);
 
     // Créez un champ AUTOTEXTLIST et définissez le texte que le champ affichera dans Microsoft Word.
-    // Définissez le texte pour inviter l'utilisateur à cliquer avec le bouton droit sur ce champ pour sélectionner un bloc de construction d'insertion automatique,
-    // dont le contenu sera affiché par le champ.
+    // Définit le texte pour inviter l'utilisateur à cliquer avec le bouton droit sur ce champ pour sélectionner un bloc de construction d'insertion automatique,
+    // dont le contenu sera affiché dans le champ.
     FieldAutoTextList field = (FieldAutoTextList)builder.InsertField(FieldType.FieldAutoTextList, true);
     field.EntryName = "Right click here to select an AutoText block";
     field.ListStyle = "Heading 1";
@@ -82,9 +85,10 @@ Montre comment utiliser un champ AUTOTEXTLIST pour effectuer une sélection dans
                     "\\t \"Hover tip text for AutoTextList goes here\"", field.GetFieldCode());
 
     doc.Save(ArtifactsDir + "Field.AUTOTEXTLIST.dotx");
+}
 
 /// <summary>
-/// Créer un bloc de construction de type AutoTexte et l'ajouter à un document glossaire.
+/// Créez un bloc de construction de type AutoTexte et ajoutez-le à un document glossaire.
 /// </summary>
 private static void AppendAutoTextEntry(GlossaryDocument glossaryDoc, string name, string contents)
 {

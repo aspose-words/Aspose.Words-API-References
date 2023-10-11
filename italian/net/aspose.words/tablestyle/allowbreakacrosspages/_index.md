@@ -16,7 +16,7 @@ public bool AllowBreakAcrossPages { get; set; }
 
 ### Osservazioni
 
-Il valore predefinito è **VERO** .
+Il valore predefinito è`VERO` .
 
 ### Esempi
 

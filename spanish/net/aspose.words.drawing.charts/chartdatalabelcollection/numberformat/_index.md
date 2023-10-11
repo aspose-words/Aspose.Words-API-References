@@ -1,14 +1,14 @@
 ---
 title: ChartDataLabelCollection.NumberFormat
 second_title: Referencia de API de Aspose.Words para .NET
-description: ChartDataLabelCollection propiedad. Obtiene unChartNumberFormat instancia que permite configurar el formato de número para las etiquetas de datos de la serie completa .
+description: ChartDataLabelCollection propiedad. Obtiene unChartNumberFormat instancia que permite establecer el formato numérico para las etiquetas de datos de la serie completa.
 type: docs
-weight: 30
+weight: 50
 url: /es/net/aspose.words.drawing.charts/chartdatalabelcollection/numberformat/
 ---
 ## ChartDataLabelCollection.NumberFormat property
 
-Obtiene un[`ChartNumberFormat`](../../chartnumberformat/) instancia que permite configurar el formato de número para las etiquetas de datos de la serie completa .
+Obtiene un[`ChartNumberFormat`](../../chartnumberformat/) instancia que permite establecer el formato numérico para las etiquetas de datos de la serie completa.
 
 ```csharp
 public ChartNumberFormat NumberFormat { get; }
@@ -23,14 +23,14 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Agregue un gráfico de líneas, luego borre su serie de datos de demostración para comenzar con un gráfico limpio,
-// y luego establecer un título.
+// y luego establece un título.
 Shape shape = builder.InsertChart(ChartType.Line, 500, 300);
 Chart chart = shape.Chart;
 chart.Series.Clear();
 chart.Title.Text = "Monthly sales report";
 
-// Insertar una serie de gráficos personalizados con meses como categorías para el eje X,
-// y cantidades decimales respectivas para el eje Y.
+// Inserta una serie de gráficos personalizados con meses como categorías para el eje X,
+// y respectivas cantidades decimales para el eje Y.
 ChartSeries series = chart.Series.Add("Revenue", 
     new[] { "January", "February", "March" }, 
     new[] { 25.611d, 21.439d, 33.750d });
@@ -41,6 +41,7 @@ series.HasDataLabels = true;
 ChartDataLabelCollection dataLabels = series.DataLabels;
 dataLabels.ShowValue = true;
 dataLabels.NumberFormat.FormatCode = "\"US$\" #,##0.000\"M\"";
+dataLabels.Font.Size = 12;            
 
 doc.Save(ArtifactsDir + "Charts.DataLabelNumberFormat.docx");
 ```

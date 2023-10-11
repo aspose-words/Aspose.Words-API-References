@@ -16,7 +16,7 @@ public bool Bidi { get; set; }
 
 ### Anmärkningar
 
-När sant är kolumnerna i det här avsnittet upplagda från höger till vänster.
+När`Sann`är kolumnerna i detta avsnitt upplagda från höger till vänster.
 
 ### Exempel
 

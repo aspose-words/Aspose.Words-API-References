@@ -42,10 +42,10 @@ Node curNode = doc.FirstSection.Body.FirstChild;
 
 while (curNode != null)
 {
-    // Salva il prossimo nodo di pari livello come variabile nel caso in cui desideriamo spostarci su di esso dopo aver eliminato questo nodo.
+    // Salva il nodo fratello successivo come variabile nel caso in cui vogliamo spostarci su di esso dopo aver eliminato questo nodo.
     Node nextNode = curNode.NextSibling;
 
-    // Un corpo di sezione può contenere nodi Paragrafo e Tabella.
+    // Il corpo di una sezione può contenere nodi Paragrafo e Tabella.
     // Se il nodo è una tabella, rimuoverlo dal genitore.
     if (curNode.NodeType == NodeType.Table)
         curNode.Remove();

@@ -3,7 +3,7 @@ title: Enum MeasurementUnits
 second_title: Aspose.Words for .NET API Referansı
 description: Aspose.Words.MeasurementUnits Sıralama. Ölçü birimini belirtir.
 type: docs
-weight: 3910
+weight: 4150
 url: /tr/net/aspose.words/measurementunits/
 ---
 ## MeasurementUnits enumeration
@@ -22,7 +22,7 @@ public enum MeasurementUnits
 | Centimeters | `1` | Santimetre. |
 | Millimeters | `2` | Milimetre. |
 | Points | `3` | Puan. |
-| Picas | `4` | Picas (genellikle geleneksel daktilo yazı tipi aralığında kullanılır). |
+| Picas | `4` | Picas (geleneksel daktilo yazı tipi aralıklarında yaygın olarak kullanılır). |
 
 ### Ayrıca bakınız
 

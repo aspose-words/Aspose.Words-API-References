@@ -3,7 +3,7 @@ title: FieldOptions.TemplateName
 second_title: Referencia de API de Aspose.Words para .NET
 description: FieldOptions propiedad. Obtiene o establece el nombre de archivo de la plantilla utilizada por el documento.
 type: docs
-weight: 170
+weight: 190
 url: /es/net/aspose.words.fields/fieldoptions/templatename/
 ---
 ## FieldOptions.TemplateName property
@@ -18,11 +18,11 @@ public string TemplateName { get; set; }
 
 Esta propiedad es utilizada por el[`FieldTemplate`](../../fieldtemplate/) campo si el[`AttachedTemplate`](../../../aspose.words/document/attachedtemplate/) la propiedad está vacía.
 
-Si esta propiedad está vacía, el nombre de archivo de plantilla predeterminado`normal.dotm` se usa
+Si esta propiedad está vacía, el nombre del archivo de plantilla predeterminado`Normal.dotm` se utiliza.
 
 ### Ejemplos
 
-Muestra cómo usar un campo PLANTILLA para mostrar la ubicación del sistema de archivos local de la plantilla de un documento.
+Muestra cómo utilizar un campo PLANTILLA para mostrar la ubicación del sistema de archivos local de la plantilla de un documento.
 
 ```csharp
 Document doc = new Document();

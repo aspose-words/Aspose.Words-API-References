@@ -24,7 +24,7 @@ public CsvDataLoadOptions()
 
 ## CsvDataLoadOptions(bool) {#constructor_1}
 
-Initialisiert eine neue Instanz dieser Klasse mit Angabe, ob CSV-Daten Spaltennamen in der ersten Zeile enthalten.
+Initialisiert eine neue Instanz dieser Klasse mit der Angabe, ob CSV-Daten Spaltennamen in der ersten Zeile enthalten.
 
 ```csharp
 public CsvDataLoadOptions(bool hasHeaders)

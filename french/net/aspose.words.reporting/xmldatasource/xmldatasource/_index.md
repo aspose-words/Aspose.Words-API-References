@@ -16,7 +16,7 @@ public XmlDataSource(string xmlPath)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| xmlPath | String | Chemin d'accès au fichier XML à utiliser comme source de données. |
+| xmlPath | String | Le chemin d'accès au fichier XML à utiliser comme source de données. |
 
 ### Voir également
 
@@ -56,8 +56,8 @@ public XmlDataSource(string xmlPath, string xmlSchemaPath)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| xmlPath | String | Chemin d'accès au fichier XML à utiliser comme source de données. |
-| xmlSchemaPath | String | Chemin d'accès au fichier de définition de schéma XML qui fournit le schéma du fichier XML . |
+| xmlPath | String | Le chemin d'accès au fichier XML à utiliser comme source de données. |
+| xmlSchemaPath | String | Chemin d'accès au fichier de définition de schéma XML qui fournit le schéma pour le fichier XML . |
 
 ### Voir également
 
@@ -69,7 +69,7 @@ public XmlDataSource(string xmlPath, string xmlSchemaPath)
 
 ## XmlDataSource(Stream, Stream) {#constructor_2}
 
-Crée une nouvelle source de données avec des données provenant d'un flux XML à l'aide d'un flux XML Schema Definition. Les options par défaut sont utilisées pour le chargement des données XML.
+Crée une nouvelle source de données avec les données d'un flux XML à l'aide d'un flux de définition de schéma XML. Les options par défaut sont utilisées pour le chargement des données XML.
 
 ```csharp
 public XmlDataSource(Stream xmlStream, Stream xmlSchemaStream)
@@ -78,7 +78,7 @@ public XmlDataSource(Stream xmlStream, Stream xmlSchemaStream)
 | Paramètre | Taper | La description |
 | --- | --- | --- |
 | xmlStream | Stream | Flux de données XML à utiliser comme source de données. |
-| xmlSchemaStream | Stream | Le flux de définition de schéma XML qui fournit le schéma pour les données XML. |
+| xmlSchemaStream | Stream | Flux de définition de schéma XML qui fournit un schéma pour les données XML. |
 
 ### Voir également
 
@@ -98,8 +98,8 @@ public XmlDataSource(string xmlPath, XmlDataLoadOptions options)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| xmlPath | String | Chemin d'accès au fichier XML à utiliser comme source de données. |
-| options | XmlDataLoadOptions | Options de chargement de données XML. |
+| xmlPath | String | Le chemin d'accès au fichier XML à utiliser comme source de données. |
+| options | XmlDataLoadOptions | Options de chargement des données XML. |
 
 ### Voir également
 
@@ -121,7 +121,7 @@ public XmlDataSource(Stream xmlStream, XmlDataLoadOptions options)
 | Paramètre | Taper | La description |
 | --- | --- | --- |
 | xmlStream | Stream | Flux de données XML à utiliser comme source de données. |
-| options | XmlDataLoadOptions | Options de chargement de données XML. |
+| options | XmlDataLoadOptions | Options de chargement des données XML. |
 
 ### Voir également
 
@@ -142,9 +142,9 @@ public XmlDataSource(string xmlPath, string xmlSchemaPath, XmlDataLoadOptions op
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| xmlPath | String | Chemin d'accès au fichier XML à utiliser comme source de données. |
-| xmlSchemaPath | String | Chemin d'accès au fichier de définition de schéma XML qui fournit le schéma du fichier XML . |
-| options | XmlDataLoadOptions | Options de chargement de données XML. |
+| xmlPath | String | Le chemin d'accès au fichier XML à utiliser comme source de données. |
+| xmlSchemaPath | String | Chemin d'accès au fichier de définition de schéma XML qui fournit le schéma pour le fichier XML . |
+| options | XmlDataLoadOptions | Options de chargement des données XML. |
 
 ### Voir également
 
@@ -157,7 +157,7 @@ public XmlDataSource(string xmlPath, string xmlSchemaPath, XmlDataLoadOptions op
 
 ## XmlDataSource(Stream, Stream, XmlDataLoadOptions) {#constructor_3}
 
-Crée une nouvelle source de données avec des données provenant d'un flux XML à l'aide d'un flux XML Schema Definition. Les options spécifiées sont utilisées pour le chargement des données XML.
+Crée une nouvelle source de données avec les données d'un flux XML à l'aide d'un flux de définition de schéma XML. Les options spécifiées sont utilisées pour le chargement des données XML.
 
 ```csharp
 public XmlDataSource(Stream xmlStream, Stream xmlSchemaStream, XmlDataLoadOptions options)
@@ -166,8 +166,8 @@ public XmlDataSource(Stream xmlStream, Stream xmlSchemaStream, XmlDataLoadOption
 | Paramètre | Taper | La description |
 | --- | --- | --- |
 | xmlStream | Stream | Flux de données XML à utiliser comme source de données. |
-| xmlSchemaStream | Stream | Le flux de définition de schéma XML qui fournit le schéma pour les données XML. |
-| options | XmlDataLoadOptions | Options de chargement de données XML. |
+| xmlSchemaStream | Stream | Flux de définition de schéma XML qui fournit un schéma pour les données XML. |
+| options | XmlDataLoadOptions | Options de chargement des données XML. |
 
 ### Voir également
 

@@ -1,18 +1,18 @@
 ---
 title: DigitalSignatureUtil.Sign
 second_title: Aspose.Words لمراجع .NET API
-description: DigitalSignatureUtil طريقة. يوقع المستند المصدر باستخدام معينCertificateHolder وSignOptions بالتوقيع الرقمي ويكتب المستند الموقع إلى تيار الوجهة.
+description: DigitalSignatureUtil طريقة. يوقع المستند المصدر باستخدام المحددCertificateHolder وSignOptions مع التوقيع الرقمي ويكتب المستند الموقع إلى التدفق الوجهة.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.digitalsignatures/digitalsignatureutil/sign/
 ---
 ## Sign(Stream, Stream, CertificateHolder, SignOptions) {#sign_1}
 
-يوقع المستند المصدر باستخدام معين[`CertificateHolder`](../../certificateholder/) و[`SignOptions`](../../signoptions/) بالتوقيع الرقمي ويكتب المستند الموقع إلى تيار الوجهة.
+يوقع المستند المصدر باستخدام المحدد[`CertificateHolder`](../../certificateholder/) و[`SignOptions`](../../signoptions/) مع التوقيع الرقمي ويكتب المستند الموقع إلى التدفق الوجهة.
 
-يجب أن يكون المستند إماDoc أوDocx.
+يجب أن تكون الوثيقة إماDoc أوDocx.
 
-**ستتم كتابة الإخراج في بداية البث وسيتم تحديث حجم البث بطول المحتوى.**
+**ستتم كتابة الإخراج في بداية الدفق وسيتم تحديث حجم الدفق بطول المحتوى.**
 
 ```csharp
 public static void Sign(Stream srcStream, Stream dstStream, CertificateHolder certHolder, 
@@ -21,28 +21,28 @@ public static void Sign(Stream srcStream, Stream dstStream, CertificateHolder ce
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| srcStream | Stream | الدفق الذي يحتوي على الوثيقة للتوقيع. |
-| dstStream | Stream | الدفق الذي ستتم كتابة المستند الموقع عليه. |
-| certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder/) بشهادة تستخدم لتوقيع الملف. يجب أن تحتوي الشهادة الموجودة في الحامل على مفاتيح خاصة وأن تحتوي على مجموعة العلامات X509KeyStorageFlags.Exportable. |
-| signOptions | SignOptions | [`SignOptions`](../../signoptions/) مع خيارات توقيع متنوعة. |
+| srcStream | Stream | الدفق الذي يحتوي على المستند المراد التوقيع عليه. |
+| dstStream | Stream | ستتم كتابة الدفق الذي تم توقيع المستند إليه. |
+| certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder/) الكائن ذو الشهادة المستخدمة لتوقيع الملف. يجب أن تحتوي الشهادة الموجودة في الحامل على مفاتيح خاصة وأن تحتوي على مجموعة علامة X509KeyStorageFlags.Exportable. |
+| signOptions | SignOptions | [`SignOptions`](../../signoptions/) كائن مع خيارات التوقيع المختلفة. |
 
 ### أمثلة
 
 يوضح كيفية توقيع المستندات رقميًا.
 
 ```csharp
-// أنشئ شهادة X.509 من متجر PKCS # 12 ، والتي يجب أن تحتوي على مفتاح خاص.
+// أنشئ شهادة X.509 من متجر PKCS#12، والتي يجب أن تحتوي على مفتاح خاص.
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw");
 
-// أنشئ تعليقًا وتاريخًا سيتم تطبيقه بتوقيعنا الرقمي الجديد.
+// قم بإنشاء تعليق وتاريخ سيتم تطبيقه مع توقيعنا الرقمي الجديد.
 SignOptions signOptions = new SignOptions
 {
     Comments = "My comment", 
     SignTime = DateTime.Now
 };
 
-// خذ مستندًا غير موقع من نظام الملفات المحلي عبر تدفق ملف ،
-// ثم أنشئ نسخة موقعة منه يحددها اسم ملف تدفق ملف الإخراج.
+// خذ مستندًا غير موقع من نظام الملفات المحلي عبر دفق الملفات،
+// ثم قم بإنشاء نسخة موقعة منه يحددها اسم ملف دفق ملف الإخراج.
 using (Stream streamIn = new FileStream(MyDir + "Document.docx", FileMode.Open))
 {
     using (Stream streamOut = new FileStream(ArtifactsDir + "DigitalSignatureUtil.SignDocument.docx", FileMode.OpenOrCreate))
@@ -64,9 +64,9 @@ using (Stream streamIn = new FileStream(MyDir + "Document.docx", FileMode.Open))
 
 ## Sign(string, string, CertificateHolder, SignOptions) {#sign_3}
 
-يوقع المستند المصدر باستخدام معين[`CertificateHolder`](../../certificateholder/) و[`SignOptions`](../../signoptions/) بالتوقيع الرقمي ويكتب المستند الموقع إلى ملف الوجهة.
+يوقع المستند المصدر باستخدام المحدد[`CertificateHolder`](../../certificateholder/) و[`SignOptions`](../../signoptions/) مع التوقيع الرقمي ويكتب المستند الموقع إلى الملف الوجهة.
 
-يجب أن يكون المستند إماDoc أوDocx.
+يجب أن تكون الوثيقة إماDoc أوDocx.
 
 ```csharp
 public static void Sign(string srcFileName, string dstFileName, CertificateHolder certHolder, 
@@ -75,17 +75,18 @@ public static void Sign(string srcFileName, string dstFileName, CertificateHolde
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| srcFileName | String | اسم ملف المستند المراد توقيعه. |
-| dstFileName | String | اسم ملف إخراج المستند الموقع. |
-| certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder/) بشهادة تستخدم لتوقيع الملف. يجب أن تحتوي الشهادة الموجودة في الحامل على مفاتيح خاصة وأن تحتوي على مجموعة العلامات X509KeyStorageFlags.Exportable. |
-| signOptions | SignOptions | [`SignOptions`](../../signoptions/) مع خيارات توقيع متنوعة. |
+| srcFileName | String | اسم ملف الوثيقة المراد التوقيع عليها. |
+| dstFileName | String | اسم الملف لمخرجات الوثيقة الموقعة. |
+| certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder/) الكائن ذو الشهادة المستخدمة لتوقيع الملف. يجب أن تحتوي الشهادة الموجودة في الحامل على مفاتيح خاصة وأن تحتوي على مجموعة علامة X509KeyStorageFlags.Exportable. |
+| signOptions | SignOptions | [`SignOptions`](../../signoptions/) كائن مع خيارات التوقيع المختلفة. |
 
 ### أمثلة
 
-يوضح كيفية إضافة سطر توقيع إلى مستند ، ثم توقيعه باستخدام شهادة رقمية.
+يوضح كيفية إضافة سطر توقيع إلى مستند، ثم التوقيع عليه باستخدام شهادة رقمية.
 
 ```csharp
-public static void Sign()
+[Description("WORDSNET-16868")]
+        public static void Sign()
         {
             string signeeName = "Ron Williams";
             string srcDocumentPath = MyDir + "Document.docx";
@@ -104,7 +105,7 @@ public static void Sign()
         }
 
         /// <summary>
-        /// ينشئ نسخة من مستند مصدر موقع باستخدام معلومات الموقّع المقدمة وشهادة X509.
+        /// ينشئ نسخة من مستند المصدر موقعًا باستخدام معلومات الموقع المقدمة وشهادة X509.
         /// </summary>
         private static void SignDocument(string srcDocumentPath, string dstDocumentPath,
             Signee signeeInfo, string certificatePath, string certificatePassword)
@@ -112,7 +113,7 @@ public static void Sign()
             Document document = new Document(srcDocumentPath);
             DocumentBuilder builder = new DocumentBuilder(document);
 
-            // تكوين وإدراج سطر توقيع ، وهو كائن في المستند سيعرض توقيعًا نوقعه به.
+            // قم بتكوين سطر التوقيع وإدراجه، وهو كائن في المستند سيعرض التوقيع الذي وقعنا به.
             SignatureLineOptions signatureLineOptions = new SignatureLineOptions
             {
                 Signer = signeeInfo.Name, 
@@ -122,7 +123,7 @@ public static void Sign()
             SignatureLine signatureLine = builder.InsertSignatureLine(signatureLineOptions).SignatureLine;
             signatureLine.Id = signeeInfo.PersonId;
 
-            // أولاً ، سنحفظ نسخة غير موقعة من وثيقتنا.
+            // أولاً، سنقوم بحفظ نسخة غير موقعة من وثيقتنا.
             builder.Document.Save(dstDocumentPath);
 
             CertificateHolder certificateHolder = CertificateHolder.Create(certificatePath, certificatePassword);
@@ -133,13 +134,13 @@ public static void Sign()
                 SignatureLineImage = signeeInfo.Image
             };
 
-            // اكتب فوق المستند غير الموقع الذي حفظناه أعلاه بإصدار موقع باستخدام الشهادة.
+            // استبدل المستند غير الموقع الذي حفظناه أعلاه بنسخة موقعة باستخدام الشهادة.
             DigitalSignatureUtil.Sign(dstDocumentPath, dstDocumentPath, certificateHolder, signOptions);
         }
 
 #if NET48 || JAVA
         /// <summary>
-        /// يحول صورة إلى مصفوفة بايت.
+        /// تحويل الصورة إلى مصفوفة بايت.
         /// </summary>
         private static byte[] ImageToByteArray(Image imageIn)
         {
@@ -204,11 +205,11 @@ public static void Sign()
 
 ## Sign(Stream, Stream, CertificateHolder) {#sign}
 
-يوقع المستند المصدر باستخدام معين[`CertificateHolder`](../../certificateholder/)مع التوقيع الرقمي_ ويكتب المستند الموقع إلى تيار الوجهة.
+يوقع المستند المصدر باستخدام المحدد[`CertificateHolder`](../../certificateholder/)باستخدام التوقيع الرقمي ويكتب المستند الموقع إلى التدفق الوجهة.
 
-يجب أن يكون المستند إماDoc أوDocx.
+يجب أن تكون الوثيقة إماDoc أوDocx.
 
-**ستتم كتابة الإخراج في بداية البث وسيتم تحديث حجم البث بطول المحتوى.**
+**ستتم كتابة الإخراج في بداية الدفق وسيتم تحديث حجم الدفق بطول المحتوى.**
 
 ```csharp
 public static void Sign(Stream srcStream, Stream dstStream, CertificateHolder certHolder)
@@ -216,29 +217,29 @@ public static void Sign(Stream srcStream, Stream dstStream, CertificateHolder ce
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| srcStream | Stream | الدفق الذي يحتوي على الوثيقة للتوقيع. |
-| dstStream | Stream | الدفق الذي ستتم كتابة المستند الموقع عليه. |
-| certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder/) بشهادة تستخدم لتوقيع الملف. يجب أن تحتوي الشهادة الموجودة في الحامل على مفاتيح خاصة وأن تحتوي على مجموعة العلامات X509KeyStorageFlags.Exportable. |
+| srcStream | Stream | الدفق الذي يحتوي على المستند المراد التوقيع عليه. |
+| dstStream | Stream | ستتم كتابة الدفق الذي تم توقيع المستند إليه. |
+| certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder/) الكائن ذو الشهادة المستخدمة لتوقيع الملف. يجب أن تحتوي الشهادة الموجودة في الحامل على مفاتيح خاصة وأن تحتوي على مجموعة علامة X509KeyStorageFlags.Exportable. |
 
 ### أمثلة
 
 يوضح كيفية توقيع المستندات بشهادات X.509.
 
 ```csharp
-// تحقق من عدم توقيع المستند.
+// التحقق من عدم توقيع المستند.
 Assert.False(FileFormatUtil.DetectFileFormat(MyDir + "Document.docx").HasDigitalSignature);
 
-// أنشئ كائن CertificateHolder من ملف PKCS12 ، والذي سنستخدمه لتوقيع الوثيقة.
+// أنشئ كائن حامل الشهادة من ملف PKCS12، والذي سنستخدمه لتوقيع المستند.
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw", null);
 
-// توجد طريقتان لحفظ نسخة موقعة من المستند في نظام الملفات المحلي:
-// 1 - قم بتعيين مستند باسم ملف نظام محلي وحفظ نسخة موقعة في موقع محدد بواسطة اسم ملف آخر.
+// هناك طريقتان لحفظ نسخة موقعة من المستند في نظام الملفات المحلي:
+// 1 - قم بتعيين مستند باسم ملف نظام محلي واحفظ نسخة موقعة في موقع محدد بواسطة اسم ملف آخر.
 DigitalSignatureUtil.Sign(MyDir + "Document.docx", ArtifactsDir + "Document.DigitalSignature.docx", 
     certificateHolder, new SignOptions() { SignTime = DateTime.Now } );
 
 Assert.True(FileFormatUtil.DetectFileFormat(ArtifactsDir + "Document.DigitalSignature.docx").HasDigitalSignature);
 
-// 2 - خذ مستندًا من دفق واحفظ نسخة موقعة في دفق آخر.
+// 2 - خذ مستندًا من الدفق واحفظ نسخة موقعة في دفق آخر.
 using (FileStream inDoc = new FileStream(MyDir + "Document.docx", FileMode.Open))
 {
     using (FileStream outDoc = new FileStream(ArtifactsDir + "Document.DigitalSignature.docx", FileMode.Create))
@@ -249,7 +250,7 @@ using (FileStream inDoc = new FileStream(MyDir + "Document.docx", FileMode.Open)
 
 Assert.True(FileFormatUtil.DetectFileFormat(ArtifactsDir + "Document.DigitalSignature.docx").HasDigitalSignature);
 
-// الرجاء التحقق من أن جميع التوقيعات الرقمية الخاصة بالمستند صالحة وتحقق من تفاصيلها.
+// يرجى التحقق من صحة جميع التوقيعات الرقمية للمستند والتحقق من تفاصيلها.
 Document signedDoc = new Document(ArtifactsDir + "Document.DigitalSignature.docx");
 DigitalSignatureCollection digitalSignatureCollection = signedDoc.DigitalSignatures;
 
@@ -271,9 +272,9 @@ Assert.AreEqual("CN=Morzal.Me", signedDoc.DigitalSignatures[0].SubjectName);
 
 ## Sign(string, string, CertificateHolder) {#sign_2}
 
-يوقع المستند المصدر باستخدام معين[`CertificateHolder`](../../certificateholder/) مع التوقيع الرقمي_ وكتابة المستند الموقع إلى الملف الوجهة.
+يوقع المستند المصدر باستخدام المحدد[`CertificateHolder`](../../certificateholder/) باستخدام التوقيع الرقمي ويكتب المستند الموقع إلى الملف الوجهة.
 
-يجب أن يكون المستند إماDoc أوDocx.
+يجب أن تكون الوثيقة إماDoc أوDocx.
 
 ```csharp
 public static void Sign(string srcFileName, string dstFileName, CertificateHolder certHolder)
@@ -281,29 +282,29 @@ public static void Sign(string srcFileName, string dstFileName, CertificateHolde
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| srcFileName | String | اسم ملف المستند المراد توقيعه. |
-| dstFileName | String | اسم ملف إخراج المستند الموقع. |
-| certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder/) بشهادة تستخدم لتوقيع الملف. يجب أن تحتوي الشهادة الموجودة في الحامل على مفاتيح خاصة وأن تحتوي على مجموعة العلامات X509KeyStorageFlags.Exportable. |
+| srcFileName | String | اسم ملف الوثيقة المراد التوقيع عليها. |
+| dstFileName | String | اسم الملف لمخرجات الوثيقة الموقعة. |
+| certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder/) الكائن ذو الشهادة المستخدمة لتوقيع الملف. يجب أن تحتوي الشهادة الموجودة في الحامل على مفاتيح خاصة وأن تحتوي على مجموعة علامة X509KeyStorageFlags.Exportable. |
 
 ### أمثلة
 
 يوضح كيفية توقيع المستندات بشهادات X.509.
 
 ```csharp
-// تحقق من عدم توقيع المستند.
+// التحقق من عدم توقيع المستند.
 Assert.False(FileFormatUtil.DetectFileFormat(MyDir + "Document.docx").HasDigitalSignature);
 
-// أنشئ كائن CertificateHolder من ملف PKCS12 ، والذي سنستخدمه لتوقيع الوثيقة.
+// أنشئ كائن حامل الشهادة من ملف PKCS12، والذي سنستخدمه لتوقيع المستند.
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw", null);
 
-// توجد طريقتان لحفظ نسخة موقعة من المستند في نظام الملفات المحلي:
-// 1 - قم بتعيين مستند باسم ملف نظام محلي وحفظ نسخة موقعة في موقع محدد بواسطة اسم ملف آخر.
+// هناك طريقتان لحفظ نسخة موقعة من المستند في نظام الملفات المحلي:
+// 1 - قم بتعيين مستند باسم ملف نظام محلي واحفظ نسخة موقعة في موقع محدد بواسطة اسم ملف آخر.
 DigitalSignatureUtil.Sign(MyDir + "Document.docx", ArtifactsDir + "Document.DigitalSignature.docx", 
     certificateHolder, new SignOptions() { SignTime = DateTime.Now } );
 
 Assert.True(FileFormatUtil.DetectFileFormat(ArtifactsDir + "Document.DigitalSignature.docx").HasDigitalSignature);
 
-// 2 - خذ مستندًا من دفق واحفظ نسخة موقعة في دفق آخر.
+// 2 - خذ مستندًا من الدفق واحفظ نسخة موقعة في دفق آخر.
 using (FileStream inDoc = new FileStream(MyDir + "Document.docx", FileMode.Open))
 {
     using (FileStream outDoc = new FileStream(ArtifactsDir + "Document.DigitalSignature.docx", FileMode.Create))
@@ -314,7 +315,7 @@ using (FileStream inDoc = new FileStream(MyDir + "Document.docx", FileMode.Open)
 
 Assert.True(FileFormatUtil.DetectFileFormat(ArtifactsDir + "Document.DigitalSignature.docx").HasDigitalSignature);
 
-// الرجاء التحقق من أن جميع التوقيعات الرقمية الخاصة بالمستند صالحة وتحقق من تفاصيلها.
+// يرجى التحقق من صحة جميع التوقيعات الرقمية للمستند والتحقق من تفاصيلها.
 Document signedDoc = new Document(ArtifactsDir + "Document.DigitalSignature.docx");
 DigitalSignatureCollection digitalSignatureCollection = signedDoc.DigitalSignatures;
 

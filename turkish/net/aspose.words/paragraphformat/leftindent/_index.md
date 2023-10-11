@@ -1,14 +1,14 @@
 ---
 title: ParagraphFormat.LeftIndent
 second_title: Aspose.Words for .NET API Referansı
-description: ParagraphFormat mülk. Paragraf için sol girintiyi temsil eden değeri nokta olarak alır veya ayarlar.
+description: ParagraphFormat mülk. Paragrafın sol girintisini temsil eden değeri puan cinsinden alır veya ayarlar.
 type: docs
-weight: 170
+weight: 180
 url: /tr/net/aspose.words/paragraphformat/leftindent/
 ---
 ## ParagraphFormat.LeftIndent property
 
-Paragraf için sol girintiyi temsil eden değeri (nokta olarak) alır veya ayarlar.
+Paragrafın sol girintisini temsil eden değeri (puan cinsinden) alır veya ayarlar.
 
 ```csharp
 public double LeftIndent { get; set; }
@@ -16,14 +16,14 @@ public double LeftIndent { get; set; }
 
 ### Örnekler
 
-Merkez dışı metin oluşturmak için paragraf biçimlendirmesinin nasıl yapılandırılacağını gösterir.
+Merkezin dışında metin oluşturmak için paragraf formatının nasıl yapılandırılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Belge oluşturucunun yazdığı tüm metni ortalayın ve girintileri ayarlayın.
-// Aşağıdaki girinti yapılandırması, sayfada asimetrik olarak oturacak bir metin gövdesi oluşturacaktır.
+// Aşağıdaki girinti yapılandırması sayfada asimetrik olarak oturacak bir metin gövdesi oluşturacaktır.
 // Metni hizaladığımız "merkez", sayfanın ortası değil, metnin gövdesinin ortası olacaktır.
 ParagraphFormat paragraphFormat = builder.ParagraphFormat;
 paragraphFormat.Alignment = ParagraphAlignment.Center;

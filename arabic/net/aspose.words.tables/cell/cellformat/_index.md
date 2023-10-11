@@ -16,14 +16,14 @@ public CellFormat CellFormat { get; }
 
 ### أمثلة
 
-يوضح كيفية تعديل تنسيق خلية جدول.
+يوضح كيفية تعديل تنسيق خلية الجدول.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
 Table table = doc.FirstSection.Body.Tables[0];
 Cell firstCell = table.FirstRow.FirstCell;
 
-// استخدم خاصية "CellFormat" للخلية لتعيين التنسيق الذي يعدل مظهر تلك الخلية.
+// استخدم خاصية "CellFormat" الخاصة بالخلية لتعيين التنسيق الذي يعدل مظهر تلك الخلية.
 firstCell.CellFormat.Width = 30;
 firstCell.CellFormat.Orientation = TextOrientation.Downward;
 firstCell.CellFormat.Shading.ForegroundPatternColor = Color.LightGreen;
@@ -37,13 +37,13 @@ doc.Save(ArtifactsDir + "Table.CellFormat.docx");
 Document doc = new Document(MyDir + "Tables.docx");
 
 // فيما يلي طريقتان للحصول على جدول من مستند.
-// 1 - من مجموعة "الجداول" لعقدة الجسم:
+// 1 - من مجموعة "الجداول" للعقدة الأساسية:
 Table firstTable = doc.FirstSection.Body.Tables[0];
 
 // 2 - استخدام طريقة "GetChild":
 Table secondTable = (Table)doc.GetChild(NodeType.Table, 1, true);
 
-// إلحاق كافة الصفوف من الجدول الحالي بالجدول التالي.
+// إلحاق جميع الصفوف من الجدول الحالي بالجدول التالي.
 while (secondTable.HasChildNodes)
     firstTable.Rows.Add(secondTable.FirstRow);
 
@@ -53,7 +53,7 @@ secondTable.Remove();
 doc.Save(ArtifactsDir + "Table.CombineTables.docx");
 ```
 
-يوضح كيفية تعديل تنسيق الصفوف والخلايا في جدول.
+يوضح كيفية تعديل تنسيق الصفوف والخلايا في الجدول.
 
 ```csharp
 Document doc = new Document();
@@ -72,7 +72,7 @@ builder.Write("U.K.");
 builder.EndTable();
 
 // استخدم خاصية "RowFormat" للصف الأول لتعديل التنسيق
-// من محتويات جميع الخلايا في هذا الصف.
+// محتويات جميع الخلايا في هذا الصف.
 RowFormat rowFormat = table.FirstRow.RowFormat;
 rowFormat.Height = 25;
 rowFormat.Borders[BorderType.Bottom].Color = Color.Red;

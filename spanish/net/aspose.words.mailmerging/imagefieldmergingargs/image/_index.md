@@ -16,38 +16,40 @@ public Image Image { get; set; }
 
 ### Ejemplos
 
-Muestra cómo usar una devolución de llamada para personalizar la lógica de fusión de imágenes.
+Muestra cómo utilizar una devolución de llamada para personalizar la lógica de fusión de imágenes.
 
 ```csharp
+public void MergeFieldImages()
 {
     Document doc = new Document();
 
-    // Inserte un MERGEFIELD que aceptará imágenes de una fuente durante una combinación de correspondencia. Use el código de campo para hacer referencia
-    // una columna en la fuente de datos que contiene los nombres de archivo del sistema local de las imágenes que deseamos usar en la combinación de correspondencia.
+    // Inserte un MERGEFIELD que acepte imágenes de una fuente durante una combinación de correspondencia. Utilice el código de campo para hacer referencia
+    // una columna en la fuente de datos que contiene los nombres de archivos del sistema local de las imágenes que deseamos usar en la combinación de correspondencia.
     DocumentBuilder builder = new DocumentBuilder(doc);
     FieldMergeField field = (FieldMergeField)builder.InsertField("MERGEFIELD Image:ImageColumn");
 
-    // En este caso, el campo espera que la fuente de datos tenga una columna de este tipo denominada "ImageColumn".
+    // En este caso, el campo espera que la fuente de datos tenga una columna llamada "ImageColumn".
     Assert.AreEqual("Image:ImageColumn", field.FieldName);
 
-    // Los nombres de archivo pueden ser largos, y si podemos encontrar una manera de evitar almacenarlos en la fuente de datos,
-    // podemos reducir considerablemente su tamaño.
-    // Cree una fuente de datos que haga referencia a imágenes usando nombres cortos.
+    // Los nombres de archivos pueden ser largos y si podemos encontrar una manera de evitar almacenarlos en la fuente de datos,
+    // podremos reducir considerablemente su tamaño.
+    // Crea una fuente de datos que hace referencia a imágenes usando nombres cortos.
     DataTable dataTable = new DataTable("Images");
     dataTable.Columns.Add(new DataColumn("ImageColumn"));
     dataTable.Rows.Add("Dark logo");
     dataTable.Rows.Add("Transparent logo");
 
-    // Asigne una devolución de llamada de fusión que contenga toda la lógica que procesa esos nombres,
-      // y luego ejecute la combinación de correspondencia.
+    // Asigne una devolución de llamada fusionada que contenga toda la lógica que procesa esos nombres,
+     // y luego ejecutar la combinación de correspondencia.
     doc.MailMerge.FieldMergingCallback = new ImageFilenameCallback();
     doc.MailMerge.Execute(dataTable);
 
     doc.Save(ArtifactsDir + "Field.MERGEFIELD.Images.docx");
+}
 
 /// <summary>
-/// Contiene un diccionario que asigna nombres de imágenes a nombres de archivo del sistema local que contienen estas imágenes.
-/// Si una fuente de datos de combinación de correspondencia usa uno de los nombres del diccionario para referirse a una imagen,
+/// Contiene un diccionario que asigna nombres de imágenes a nombres de archivos del sistema local que contienen estas imágenes.
+/// Si una fuente de datos de combinación de correspondencia utiliza uno de los nombres del diccionario para hacer referencia a una imagen,
 /// esta devolución de llamada pasará el nombre de archivo respectivo al destino de fusión.
 /// </summary>
 private class ImageFilenameCallback : IFieldMergingCallback

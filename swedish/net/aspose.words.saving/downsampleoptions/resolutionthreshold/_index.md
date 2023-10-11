@@ -1,14 +1,14 @@
 ---
 title: DownsampleOptions.ResolutionThreshold
 second_title: Aspose.Words för .NET API Referens
-description: DownsampleOptions fast egendom. Anger tröskelupplösningen i pixlar per tum. Om upplösningen för en bild i dokumentet är mindre än tröskelvärdet kommer nedsamplingsalgoritmen inte att tillämpas. Ett värde på 0 betyder att tröskelkontrollen inte används och alla bilder som kan minskas i storlek är nedsamplade.
+description: DownsampleOptions fast egendom. Anger tröskelupplösningen i pixlar per tum. Om upplösningen för en bild i dokumentet är lägre än tröskelvärdet kommer nedsamplingsalgoritmen inte att tillämpas. Ett värde på 0 betyder att tröskelkontrollen inte används och alla bilder som kan minskas i storlek är nedsamplade.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.saving/downsampleoptions/resolutionthreshold/
 ---
 ## DownsampleOptions.ResolutionThreshold property
 
-Anger tröskelupplösningen i pixlar per tum. Om upplösningen för en bild i dokumentet är mindre än tröskelvärdet, kommer nedsamplingsalgoritmen inte att tillämpas. Ett värde på 0 betyder att tröskelkontrollen inte används och alla bilder som kan minskas i storlek är nedsamplade.
+Anger tröskelupplösningen i pixlar per tum. Om upplösningen för en bild i dokumentet är lägre än tröskelvärdet, kommer nedsamplingsalgoritmen inte att tillämpas. Ett värde på 0 betyder att tröskelkontrollen inte används och alla bilder som kan minskas i storlek är nedsamplade.
 
 ```csharp
 public int ResolutionThreshold { get; set; }

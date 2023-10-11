@@ -1,14 +1,16 @@
 ---
 title: Class WebExtensionProperty
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.WebExtensions.WebExtensionProperty فصل. تحديد خاصية مخصصة لملحق الويب.
+description: Aspose.Words.WebExtensions.WebExtensionProperty فصل. يحدد خاصية مخصصة لامتداد الويب.
 type: docs
-weight: 6470
+weight: 6780
 url: /ar/net/aspose.words.webextensions/webextensionproperty/
 ---
 ## WebExtensionProperty class
 
-تحديد خاصية مخصصة لملحق الويب.
+يحدد خاصية مخصصة لامتداد الويب.
+
+لمعرفة المزيد، قم بزيارة[العمل مع وظائف Office الإضافية](https://docs.aspose.com/words/net/work-with-office-add-ins/) مقالة توثيقية.
 
 ```csharp
 public class WebExtensionProperty
@@ -18,14 +20,14 @@ public class WebExtensionProperty
 
 | اسم | وصف |
 | --- | --- |
-| [WebExtensionProperty](webextensionproperty/)(string, string) | إنشاء خاصية مخصصة لملحق الويب بالاسم والقيمة المحددين. |
+| [WebExtensionProperty](webextensionproperty/)(string, string) | إنشاء خاصية مخصصة لامتداد الويب بالاسم والقيمة المحددين. |
 
 ## الخصائص
 
 | اسم | وصف |
 | --- | --- |
-| [Name](../../aspose.words.webextensions/webextensionproperty/name/) { get; set; } | تحديد اسم خاصية مخصصة |
-| [Value](../../aspose.words.webextensions/webextensionproperty/value/) { get; set; } | تحديد قيمة خاصية مخصصة . |
+| [Name](../../aspose.words.webextensions/webextensionproperty/name/) { get; set; } | يحدد خاصية مخصصة name |
+| [Value](../../aspose.words.webextensions/webextensionproperty/value/) { get; set; } | يحدد قيمة خاصية مخصصة. |
 
 ### أنظر أيضا
 

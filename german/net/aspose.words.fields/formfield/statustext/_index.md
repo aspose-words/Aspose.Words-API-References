@@ -1,14 +1,14 @@
 ---
 title: FormField.StatusText
 second_title: Aspose.Words für .NET-API-Referenz
-description: FormField eigendom. Gibt den Text zurück oder legt ihn fest der in der Statusleiste angezeigt wird wenn ein Formularfeld den Fokus hat.
+description: FormField eigendom. Gibt den Text zurück der in der Statusleiste angezeigt wird wenn ein Formularfeld den Fokus hat oder legt diesen fest.
 type: docs
 weight: 180
 url: /de/net/aspose.words.fields/formfield/statustext/
 ---
 ## FormField.StatusText property
 
-Gibt den Text zurück oder legt ihn fest, der in der Statusleiste angezeigt wird, wenn ein Formularfeld den Fokus hat.
+Gibt den Text zurück, der in der Statusleiste angezeigt wird, wenn ein Formularfeld den Fokus hat, oder legt diesen fest.
 
 ```csharp
 public string StatusText { get; set; }
@@ -16,9 +16,9 @@ public string StatusText { get; set; }
 
 ### Bemerkungen
 
-Wenn die OwnStatus-Eigenschaft auf „true“ gesetzt ist, gibt die StatusText-Eigenschaft den Statusleistentext an. Wenn die OwnStatus-Eigenschaft auf „false“ gesetzt ist, gibt die StatusText-Eigenschaft den Namen eines AutoText -Eintrags an, der Statusleistentext für das Formularfeld enthält.
+Wenn die[`OwnStatus`](../ownstatus/) Die Eigenschaft ist auf festgelegt`WAHR` , Die`StatusText` Die Eigenschaft gibt den Text der Statusleiste an. Wenn die[`OwnStatus`](../ownstatus/) Die Eigenschaft ist auf festgelegt`FALSCH` , Die`StatusText` Die Eigenschaft gibt den Namen eines AutoText -Eintrags an, der Statusleistentext für das Formularfeld enthält.
 
-Microsoft Word erlaubt Zeichenfolgen mit höchstens 138 Zeichen.
+Microsoft Word erlaubt Zeichenfolgen mit maximal 138 Zeichen.
 
 ### Beispiele
 
@@ -40,7 +40,7 @@ public void Visitor()
 
     builder.InsertBreak(BreakType.ParagraphBreak);
 
-    // Verwenden Sie einen Dokumentenersteller, um ein Kontrollkästchen einzufügen.
+    // Verwenden Sie einen Dokumentersteller, um ein Kontrollkästchen einzufügen.
     builder.Write("Click this check box to tick/untick it: ");
     FormField checkBox = builder.InsertCheckBox("MyCheckBox", false, 50);
     checkBox.IsCheckBoxExactSize = true;
@@ -54,7 +54,7 @@ public void Visitor()
 
     builder.InsertBreak(BreakType.ParagraphBreak);
 
-    // Verwenden Sie einen Dokumentenersteller, um ein Texteingabeformularfeld einzufügen.
+    // Verwenden Sie einen Dokumentersteller, um ein Texteingabeformularfeld einzufügen.
     builder.Write("Enter text here: ");
     FormField textInput = builder.InsertTextInput("MyTextInput", TextFormFieldType.Regular, "", "Placeholder text", 50);
     textInput.EntryMacro = "EntryMacro";
@@ -70,8 +70,8 @@ public void Visitor()
     Assert.AreEqual(3, formFields.Count);
 
     // Felder zeigen unsere Formularfelder an. Wir können ihre Feldcodes sehen, indem wir dieses Dokument öffnen
-    // in Microsoft und Drücken von Alt + F9. Diese Felder haben keine Schalter,
-    // und Mitglieder des FormField-Objekts bestimmen vollständig den Inhalt ihrer Formularfelder.
+    // in Microsoft und drücken Sie Alt + F9. Diese Felder haben keine Schalter,
+    // und Mitglieder des FormField-Objekts steuern vollständig den Inhalt ihrer Formularfelder.
     Assert.AreEqual(3, doc.Range.Fields.Count);
     Assert.AreEqual(" FORMDROPDOWN \u0001", doc.Range.Fields[0].GetFieldCode());
     Assert.AreEqual(" FORMCHECKBOX \u0001", doc.Range.Fields[1].GetFieldCode());
@@ -91,7 +91,7 @@ public void Visitor()
 }
 
 /// <summary>
-/// Besucherimplementierung, die Details der besuchten Formularfelder ausgibt. 
+ /// Besucherimplementierung, die Details der besuchten Formularfelder ausgibt.
 /// </summary>
 public class FormFieldVisitor : DocumentVisitor
 {
@@ -132,7 +132,7 @@ public class FormFieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Fügt der aktuellen Ausgabe Zeilenumbruchtext hinzu.
+    /// Fügt der aktuellen Ausgabe durch Zeilenumbrüche terminierten Text hinzu.
     /// </summary>
     private void AppendLine(string text)
     {
@@ -140,7 +140,7 @@ public class FormFieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Ruft den Klartext des Dokuments ab, das vom Besucher angesammelt wurde.
+    /// Ruft den Klartext des vom Besucher gesammelten Dokuments ab.
     /// </summary>
     public string GetText()
     {

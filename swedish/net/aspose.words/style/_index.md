@@ -3,12 +3,14 @@ title: Class Style
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Style klass. Representerar en enda inbyggd eller användardefinierad stil.
 type: docs
-weight: 5830
+weight: 6130
 url: /sv/net/aspose.words/style/
 ---
 ## Style class
 
 Representerar en enda inbyggd eller användardefinierad stil.
+
+För att lära dig mer, besök[Arbeta med stilar och teman](https://docs.aspose.com/words/net/working-with-styles-and-themes/) dokumentationsartikel.
 
 ```csharp
 public class Style
@@ -19,15 +21,17 @@ public class Style
 | namn | Beskrivning |
 | --- | --- |
 | [Aliases](../../aspose.words/style/aliases/) { get; } | Får alla alias för denna stil. Om stilen inte har några alias returneras tom array av sträng. |
+| [AutomaticallyUpdate](../../aspose.words/style/automaticallyupdate/) { get; set; } | Anger om denna stil automatiskt omdefinieras baserat på lämpligt värde. |
 | [BaseStyleName](../../aspose.words/style/basestylename/) { get; set; } | Hämtar/ställer in namnet på stilen som denna stil är baserad på. |
 | [BuiltIn](../../aspose.words/style/builtin/) { get; } | Sant om denna stil är en av de inbyggda stilarna i MS Word. |
 | [Document](../../aspose.words/style/document/) { get; } | Hämtar ägardokumentet. |
 | [Font](../../aspose.words/style/font/) { get; } | Hämtar teckenformateringen för stilen. |
 | [IsHeading](../../aspose.words/style/isheading/) { get; } | Sant när stilen är en av de inbyggda rubrikstilarna. |
 | [IsQuickStyle](../../aspose.words/style/isquickstyle/) { get; set; } | Anger om denna stil visas i Quick Style-galleriet i MS Word UI. |
-| [LinkedStyleName](../../aspose.words/style/linkedstylename/) { get; } | Hämtar namnet på stilen som är länkad till denna. Returnerar tom sträng om inga stilar är länkade. |
+| [LinkedStyleName](../../aspose.words/style/linkedstylename/) { get; } | Hämtar namnet på`Style` kopplat till denna. Returnerar tom sträng om inga stilar är länkade. |
 | [List](../../aspose.words/style/list/) { get; } | Hämtar listan som definierar formateringen av denna liststil. |
 | [ListFormat](../../aspose.words/style/listformat/) { get; } | Ger tillgång till listformateringsegenskaperna för en styckestil. |
+| [Locked](../../aspose.words/style/locked/) { get; set; } |  |
 | [Name](../../aspose.words/style/name/) { get; set; } | Hämtar eller ställer in namnet på stilen. |
 | [NextParagraphStyleName](../../aspose.words/style/nextparagraphstylename/) { get; set; } | Hämtar/ställer in namnet på formatet som ska tillämpas automatiskt på ett nytt stycke som infogas efter a stycke formaterat med det angivna formatet. |
 | [ParagraphFormat](../../aspose.words/style/paragraphformat/) { get; } | Hämtar formatets styckeformatering. |
@@ -39,7 +43,7 @@ public class Style
 
 | namn | Beskrivning |
 | --- | --- |
-| [Equals](../../aspose.words/style/equals/#equals)(Style) | Jämförs med den angivna stilen. Stilar Istds jämförs endast för inbyggda stilar. Formatmallars standarder ingår inte i jämförelsen. Basstil, länkad stil och nästa styckestil jämförs rekursivt. |
+| [Equals](../../aspose.words/style/equals/#equals)(Style) | Jämförs med den angivna stilen. Stilar Istds jämförs endast för inbyggda stilar. Standardinställningar för format ingår inte i jämförelsen. Basstil, länkad stil och nästa styckestil jämförs rekursivt. |
 | [Remove](../../aspose.words/style/remove/)() | Tar bort den angivna stilen från dokumentet. |
 
 ### Exempel
@@ -80,6 +84,8 @@ Style style = doc.Styles.Add(StyleType.Paragraph, "MyStyle");
 style.Font.Name = "Times New Roman";
 style.Font.Size = 16;
 style.Font.Color = Color.Navy;
+// Omdefiniera stil automatiskt.
+style.AutomaticallyUpdate = true;
 
 DocumentBuilder builder = new DocumentBuilder(doc);
 

@@ -3,12 +3,14 @@ title: Class GraphicsQualityOptions
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Aspose.Words.Saving.GraphicsQualityOptions classe. Permet de spécifier desGraphics options de qualité.
 type: docs
-weight: 4780
+weight: 5040
 url: /fr/net/aspose.words.saving/graphicsqualityoptions/
 ---
 ## GraphicsQualityOptions class
 
 Permet de spécifier desGraphics options de qualité.
+
+Pour en savoir plus, visitez le[Enregistrer un document](https://docs.aspose.com/words/net/save-a-document/) article documentaire.
 
 ```csharp
 public class GraphicsQualityOptions
@@ -24,17 +26,17 @@ public class GraphicsQualityOptions
 
 | Nom | La description |
 | --- | --- |
-| [CompositingMode](../../aspose.words.saving/graphicsqualityoptions/compositingmode/) { get; set; } | Obtient ou définit une valeur qui spécifie comment les images composées sont dessinées sur ce Graphics. |
-| [CompositingQuality](../../aspose.words.saving/graphicsqualityoptions/compositingquality/) { get; set; } | Obtient ou définit la qualité de rendu des images composites dessinées sur ce Graphics. |
+| [CompositingMode](../../aspose.words.saving/graphicsqualityoptions/compositingmode/) { get; set; } | Obtient ou définit une valeur qui spécifie la manière dont les images composées sont dessinées sur ce Graphics. |
+| [CompositingQuality](../../aspose.words.saving/graphicsqualityoptions/compositingquality/) { get; set; } | Obtient ou définit la qualité de rendu des images composites dessinées sur ce graphique. |
 | [InterpolationMode](../../aspose.words.saving/graphicsqualityoptions/interpolationmode/) { get; set; } | Obtient ou définit le mode d'interpolation associé à ce Graphics. |
-| [SmoothingMode](../../aspose.words.saving/graphicsqualityoptions/smoothingmode/) { get; set; } | Obtient ou définit la qualité de rendu de ce Graphics. |
+| [SmoothingMode](../../aspose.words.saving/graphicsqualityoptions/smoothingmode/) { get; set; } | Obtient ou définit la qualité de rendu pour ce Graphics. |
 | [StringFormat](../../aspose.words.saving/graphicsqualityoptions/stringformat/) { get; set; } | Obtient ou définit les informations de mise en page du texte (telles que l'alignement, l'orientation et les taquets de tabulation), les manipulations d'affichage (telles que l'insertion de points de suspension et la substitution de chiffres nationaux) et les fonctionnalités OpenType. |
 | [TextRenderingHint](../../aspose.words.saving/graphicsqualityoptions/textrenderinghint/) { get; set; } | Obtient ou définit le mode de rendu du texte associé à ce Graphics. |
 | [UseTileFlipMode](../../aspose.words.saving/graphicsqualityoptions/usetileflipmode/) { get; set; } | Obtient ou définit un indicateur indiquant si WrapMode est TileFlipXY. |
 
 ### Exemples
 
-Montre comment définir les options de qualité de rendu lors de la conversion de documents en formats d'image.
+Montre comment définir les options de qualité de rendu lors de la conversion de documents aux formats d'image.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

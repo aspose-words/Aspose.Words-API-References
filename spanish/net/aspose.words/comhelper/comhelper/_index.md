@@ -16,7 +16,7 @@ public ComHelper()
 
 ### Ejemplos
 
-Muestra cómo abrir documentos utilizando la clase ComHelper.
+Muestra cómo abrir documentos usando la clase ComHelper.
 
 ```csharp
 // La clase ComHelper nos permite cargar documentos desde clientes COM.
@@ -27,7 +27,7 @@ Document doc = comHelper.Open(MyDir + "Document.docx");
 
 Assert.AreEqual("Hello World!\r\rHello Word!\r\r\rHello World!", doc.GetText().Trim());
 
-// 2 - De un flujo:
+// 2 - Desde una secuencia:
 using (FileStream stream = new FileStream(MyDir + "Document.docx", FileMode.Open))
 {
     doc = comHelper.Open(stream);

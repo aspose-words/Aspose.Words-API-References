@@ -1,14 +1,16 @@
 ---
 title: Class RevisionOptions
 second_title: Aspose.Words لمراجع .NET API
-description: Aspose.Words.Layout.RevisionOptions فصل. يسمح بالتحكم في كيفية معالجة مراجعات المستند أثناء عملية التخطيط.
+description: Aspose.Words.Layout.RevisionOptions فصل. يسمح بالتحكم في كيفية معالجة مراجعات المستندات أثناء عملية التخطيط.
 type: docs
-weight: 3190
+weight: 3390
 url: /ar/net/aspose.words.layout/revisionoptions/
 ---
 ## RevisionOptions class
 
-يسمح بالتحكم في كيفية معالجة مراجعات المستند أثناء عملية التخطيط.
+يسمح بالتحكم في كيفية معالجة مراجعات المستندات أثناء عملية التخطيط.
+
+لمعرفة المزيد، قم بزيارة[التحويل إلى تنسيق الصفحة الثابتة](https://docs.aspose.com/words/net/converting-to-fixed-page-format/) مقالة توثيقية.
 
 ```csharp
 public class RevisionOptions
@@ -29,24 +31,24 @@ public class RevisionOptions
 | [MovedToTextColor](../../aspose.words.layout/revisionoptions/movedtotextcolor/) { get; set; } | يسمح بتحديد اللون الذي سيتم استخدامه للمناطق التي تم نقل المحتوى إليهاMoving . القيمة الافتراضية هيByAuthor . |
 | [MovedToTextEffect](../../aspose.words.layout/revisionoptions/movedtotexteffect/) { get; set; } | يسمح بتحديد التأثير الذي سيتم تطبيقه على المناطق التي تم نقل المحتوى إليهاMoving . القيمة الافتراضية هيDoubleUnderline |
 | [RevisedPropertiesColor](../../aspose.words.layout/revisionoptions/revisedpropertiescolor/) { get; set; } | يسمح بتحديد اللون الذي سيتم استخدامه للمحتوى مع تغييرات في خصائص التنسيقFormatChange القيمة الافتراضية هيNoHighlight . |
-| [RevisedPropertiesEffect](../../aspose.words.layout/revisionoptions/revisedpropertieseffect/) { get; set; } | يسمح بتحديد تأثير مناطق المحتوى بتغييرات خصائص التنسيقFormatChange القيمة الافتراضية هيNone |
-| [RevisionBarsColor](../../aspose.words.layout/revisionoptions/revisionbarscolor/) { get; set; } | يسمح بتحديد اللون الذي سيتم استخدامه للأشرطة الجانبية التي تحدد أسطر المستند التي تحتوي على معلومات منقحة. القيمة الافتراضية هيRed . |
-| [RevisionBarsPosition](../../aspose.words.layout/revisionoptions/revisionbarsposition/) { get; set; } | الحصول على أو تعيين موضع عرض أشرطة المراجعة. القيمة الافتراضية هيOutside . |
+| [RevisedPropertiesEffect](../../aspose.words.layout/revisionoptions/revisedpropertieseffect/) { get; set; } | يسمح بتحديد التأثير لمناطق المحتوى مع تغييرات في خصائص التنسيقFormatChange القيمة الافتراضية هيNone |
+| [RevisionBarsColor](../../aspose.words.layout/revisionoptions/revisionbarscolor/) { get; set; } | يسمح بتحديد اللون الذي سيتم استخدامه للأشرطة الجانبية التي تحدد أسطر المستند التي تحتوي على معلومات تمت مراجعتها. القيمة الافتراضية هيRed . |
+| [RevisionBarsPosition](../../aspose.words.layout/revisionoptions/revisionbarsposition/) { get; set; } | الحصول على أو تعيين موضع العرض لأشرطة المراجعة. القيمة الافتراضية هيOutside . |
 | [RevisionBarsWidth](../../aspose.words.layout/revisionoptions/revisionbarswidth/) { get; set; } | الحصول على أو تعيين عرض أشرطة المراجعة والنقاط. |
-| [ShowInBalloons](../../aspose.words.layout/revisionoptions/showinballoons/) { get; set; } | يسمح بتحديد ما إذا كانت المراجعات سيتم عرضها في البالونات. القيمة الافتراضية هيNone . |
-| [ShowOriginalRevision](../../aspose.words.layout/revisionoptions/showoriginalrevision/) { get; set; } | يسمح بتحديد ما إذا كان يجب عرض النص الأصلي بدلاً من النص المنقح. القيمة الافتراضية هي False . |
-| [ShowRevisionBars](../../aspose.words.layout/revisionoptions/showrevisionbars/) { get; set; } | يسمح بتحديد ما إذا كان يجب عرض أشرطة المراجعة بالقرب من الأسطر التي تحتوي على محتوى تمت مراجعته. القيمة الافتراضية هي True . |
-| [ShowRevisionMarks](../../aspose.words.layout/revisionoptions/showrevisionmarks/) { get; set; } | السماح بتحديد ما إذا كان يجب تمييز نص المراجعة بترميز تنسيق خاص. القيمة الافتراضية هي True . |
+| [ShowInBalloons](../../aspose.words.layout/revisionoptions/showinballoons/) { get; set; } | يسمح بتحديد ما إذا كان سيتم عرض المراجعات في البالونات أم لا. القيمة الافتراضية هيNone . |
+| [ShowOriginalRevision](../../aspose.words.layout/revisionoptions/showoriginalrevision/) { get; set; } | يسمح بتحديد ما إذا كان يجب عرض النص الأصلي بدلاً من النص المعدل أم لا. القيمة الافتراضية هي`خطأ شنيع` . |
+| [ShowRevisionBars](../../aspose.words.layout/revisionoptions/showrevisionbars/) { get; set; } | يسمح بتحديد ما إذا كان يجب عرض أشرطة المراجعة بالقرب من الأسطر التي تحتوي على محتوى تمت مراجعته. القيمة الافتراضية هي`حقيقي` . |
+| [ShowRevisionMarks](../../aspose.words.layout/revisionoptions/showrevisionmarks/) { get; set; } | السماح بتحديد ما إذا كان يجب وضع علامة على نص المراجعة باستخدام علامات التنسيق الخاصة. القيمة الافتراضية هي`حقيقي` . |
 
 ### أمثلة
 
-يوضح كيفية تغيير مظهر المراجعات في مستند الإخراج الذي تم تقديمه.
+يوضح كيفية تغيير مظهر المراجعات في مستند الإخراج المقدم.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// أدخل مراجعة ، ثم قم بتغيير لون جميع المراجعات إلى اللون الأخضر.
+// أدخل مراجعة، ثم قم بتغيير لون كافة المراجعات إلى اللون الأخضر.
 builder.Writeln("This is not a revision.");
 doc.StartTrackRevisions("John Doe", DateTime.Now);
 builder.Writeln("This is a revision.");

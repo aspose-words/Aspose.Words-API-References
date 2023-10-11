@@ -1,14 +1,14 @@
 ---
 title: PdfSaveOptions.UseCoreFonts
 second_title: Aspose.Words for .NET API Referansı
-description: PdfSaveOptions mülk. Arial Times New Roman Courier New ve Symbol TrueType yazı tiplerinin çekirdek PDF Tip 1 yazı tipleriyle değiştirilip değiştirilmeyeceğini belirleyen bir değer alır veya ayarlar.
+description: PdfSaveOptions mülk. TrueType yazı tiplerinin Arial Times New Roman Courier New ve Sembol ile temel PDF Type 1 yazı tipleriyle değiştirilip değiştirilmeyeceğini belirleyen bir değer alır veya ayarlar.
 type: docs
-weight: 280
+weight: 310
 url: /tr/net/aspose.words.saving/pdfsaveoptions/usecorefonts/
 ---
 ## PdfSaveOptions.UseCoreFonts property
 
-Arial, Times New Roman, Courier New ve Symbol TrueType yazı tiplerinin çekirdek PDF Tip 1 yazı tipleriyle değiştirilip değiştirilmeyeceğini belirleyen bir değer alır veya ayarlar.
+TrueType yazı tiplerinin Arial, Times New Roman, Courier New ve Sembol ile temel PDF Type 1 yazı tipleriyle değiştirilip değiştirilmeyeceğini belirleyen bir değer alır veya ayarlar.
 
 ```csharp
 public bool UseCoreFonts { get; set; }
@@ -16,21 +16,21 @@ public bool UseCoreFonts { get; set; }
 
 ### Notlar
 
-Varsayılan değer`yanlış` . Bu değer olarak ayarlandığında`doğru` Arial, Times New Roman, Courier New ve Symbol yazı tipleri, PDF belgesinde karşılık gelen temel Tip 1 yazı tipiyle değiştirilir.
+Varsayılan değer:`YANLIŞ` . Bu değer şu şekilde ayarlandığında`doğru` Arial, Times New Roman, Courier New ve Sembol yazı tipleri, PDF belgesinde karşılık gelen temel Type 1 yazı tipiyle değiştirildi.
 
-Temel PDF yazı tiplerinin veya yazı tipi ölçütlerinin ve uygun ikame yazı tiplerinin herhangi bir PDF görüntüleyici uygulamasında mevcut olması gerekir.
+Çekirdek PDF yazı tiplerinin veya bunların yazı tipi ölçümlerinin ve uygun ikame yazı tiplerinin herhangi bir PDF görüntüleyici uygulamasında mevcut olması gerekir.
 
-Bu ayar yalnızca ANSI (Windows-1252) kodlamasındaki metin için çalışır. ANSI olmayan metin, bu ayardan bağımsız olarak gömülü TrueType yazı tipiyle yazılacaktır.
+Bu ayar yalnızca ANSI (Windows-1252) kodlamasındaki metin için çalışır. ANSI olmayan metin, bu ayardan bağımsız olarak gömülü TrueType yazı tipiyle yazılacak olacaktır.
 
-PDF/A ve PDF/UA uyumluluğu, tüm yazı tiplerinin gömülü olmasını gerektirir.`yanlış` değer, PDF/A ve PDF/UA'ya kaydederken otomatik olarak kullanılır .
+PDF/A ve PDF/UA uyumluluğu tüm yazı tiplerinin gömülü olmasını gerektirir.`YANLIŞ` PDF/A ve PDF/UA'ya kaydederken değer otomatik olarak kullanılacak .
 
-PDF 2.0 biçiminde kaydederken çekirdek yazı tipleri desteklenmez.`yanlış`değer, PDF 2.0'a kaydedilirken otomatik olarak kullanılır .
+PDF 2.0 formatında kaydederken çekirdek yazı tipleri desteklenmez.`YANLIŞ` PDF 2.0'a kaydederken değer otomatik olarak kullanılacak olacaktır.
 
-Bu seçenek daha yüksek önceliğe sahiptir.[`FontEmbeddingMode`](../fontembeddingmode/) seçenek.
+Bu seçeneğin önceliği daha yüksektir[`FontEmbeddingMode`](../fontembeddingmode/) seçenek.
 
 ### Örnekler
 
-PDF Tip 1 yazı tipi değiştirmenin nasıl etkinleştirildiğini/devre dışı bırakıldığını gösterir.
+PDF Type 1 yazı tipi değişiminin nasıl etkinleştirildiğini/devre dışı bırakıldığını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -41,12 +41,12 @@ builder.Writeln("Hello world!");
 builder.Font.Name = "Courier New";
 builder.Writeln("The quick brown fox jumps over the lazy dog.");
 
-// Belgenin "Kaydet" yöntemine aktarabileceğimiz bir "PdfSaveOptions" nesnesi oluşturun
-// bu yöntemin belgeyi .PDF'ye dönüştürme şeklini değiştirmek için.
+// Belgenin "Save" yöntemine aktarabileceğimiz bir "PdfSaveOptions" nesnesi oluşturun
+// bu yöntemin belgeyi .PDF'ye dönüştürme biçimini değiştirmek için.
 PdfSaveOptions options = new PdfSaveOptions();
 
 // Bazı yazı tiplerini değiştirmek için "UseCoreFonts" özelliğini "true" olarak ayarlayın,
-// iki yazı tipini PDF Tip 1 eşdeğerleriyle birlikte belgemize dahil ediyoruz.
+// belgemizdeki iki yazı tipini PDF Type 1 eşdeğerleriyle birlikte dahil ediyoruz.
 // PDF Type 1 yazı tiplerini uygulamamak için "UseCoreFonts" özelliğini "false" olarak ayarlayın.
 options.UseCoreFonts = useCoreFonts;
 

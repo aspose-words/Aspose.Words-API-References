@@ -1,14 +1,16 @@
 ---
 title: Class FileCorruptedException
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.FileCorruptedException classe. Levé lors du chargement du document lorsque le document semble être corrompu et impossible à charger.
+description: Aspose.Words.FileCorruptedException classe. Lancé lors du chargement du document lorsque le document semble corrompu et impossible à charger.
 type: docs
-weight: 2620
+weight: 2800
 url: /fr/net/aspose.words/filecorruptedexception/
 ---
 ## FileCorruptedException class
 
-Levé lors du chargement du document, lorsque le document semble être corrompu et impossible à charger.
+Lancé lors du chargement du document, lorsque le document semble corrompu et impossible à charger.
+
+Pour en savoir plus, visitez le[Programmation avec des documents](https://docs.aspose.com/words/net/programming-with-documents/) article documentaire.
 
 ```csharp
 public class FileCorruptedException : Exception
@@ -16,13 +18,13 @@ public class FileCorruptedException : Exception
 
 ### Exemples
 
-Montre comment intercepter une FileCorruptedException.
+Montre comment intercepter une exception FileCorruptedException.
 
 ```csharp
 try
 {
-    // Si nous obtenons un message d'erreur "Contenu illisible" lorsque nous essayons d'ouvrir un document à l'aide de Microsoft Word,
-    // il y a de fortes chances que nous obtenions une exception levée lors de la tentative de chargement de ce document à l'aide de Aspose.Words.
+    // Si nous obtenons un message d'erreur "Contenu illisible" lorsque nous essayons d'ouvrir un document avec Microsoft Word,
+    // Il y a de fortes chances que nous obtenions une exception levée lors de la tentative de chargement de ce document à l'aide d'Aspose.Words.
     Document doc = new Document(MyDir + "Corrupted document.docx");
 }
 catch (FileCorruptedException e)

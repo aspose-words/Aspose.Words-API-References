@@ -16,7 +16,7 @@ public string Name { get; }
 
 ### Osservazioni
 
-Non può essere null e non può essere una stringa vuota.
+Non può essere`nullo` e non può essere una stringa vuota.
 
 ### Esempi
 

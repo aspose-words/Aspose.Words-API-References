@@ -28,7 +28,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Write("Current revision #");
 
-// Inserisce un campo REVNUM, che mostra la proprietà del numero di revisione corrente del documento.
+// Inserisci un campo REVNUM, che visualizza la proprietà del numero di revisione corrente del documento.
 FieldRevNum field = (FieldRevNum)builder.InsertField(FieldType.FieldRevisionNum, true);
 
 Assert.AreEqual(" REVNUM ", field.GetFieldCode());
@@ -36,9 +36,10 @@ Assert.AreEqual("1", field.Result);
 Assert.AreEqual(1, doc.BuiltInDocumentProperties.RevisionNumber);
 
 // Questa proprietà conta quante volte un documento è stato salvato in Microsoft Word,
-// e non è correlato alle revisioni tracciate. Possiamo trovarlo facendo clic con il tasto destro del mouse sul documento in Esplora risorse
-// tramite Proprietà -> Particolari. Possiamo aggiornare questa proprietà manualmente.
+// e non è correlato alle revisioni tracciate. Possiamo trovarlo facendo clic con il pulsante destro del mouse sul documento in Esplora risorse
+// tramite Proprietà -> Dettagli. Possiamo aggiornare questa proprietà manualmente.
 doc.BuiltInDocumentProperties.RevisionNumber++;
+field.Update();
 
 Assert.AreEqual("2", field.Result);
 ```
@@ -46,7 +47,7 @@ Assert.AreEqual("2", field.Result);
 Mostra come lavorare con le proprietà del documento nella categoria "Origine".
 
 ```csharp
-// Apri un documento che abbiamo creato e modificato utilizzando Microsoft Word.
+// Apre un documento che abbiamo creato e modificato utilizzando Microsoft Word.
 Document doc = new Document(MyDir + "Properties.docx");
 BuiltInDocumentProperties properties = doc.BuiltInDocumentProperties;
 

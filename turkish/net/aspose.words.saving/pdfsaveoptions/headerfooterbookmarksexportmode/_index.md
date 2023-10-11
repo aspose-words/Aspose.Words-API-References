@@ -1,14 +1,14 @@
 ---
 title: PdfSaveOptions.HeaderFooterBookmarksExportMode
 second_title: Aspose.Words for .NET API Referansı
-description: PdfSaveOptions mülk. Üstbilgilerdeki/altbilgilerdeki yer imlerinin nasıl dışa aktarılacağını belirler.
+description: PdfSaveOptions mülk. Üstbilgi/altbilgilerdeki yer işaretlerinin nasıl dışa aktarılacağını belirler.
 type: docs
-weight: 150
+weight: 180
 url: /tr/net/aspose.words.saving/pdfsaveoptions/headerfooterbookmarksexportmode/
 ---
 ## PdfSaveOptions.HeaderFooterBookmarksExportMode property
 
-Üstbilgilerdeki/altbilgilerdeki yer imlerinin nasıl dışa aktarılacağını belirler.
+Üstbilgi/altbilgilerdeki yer işaretlerinin nasıl dışa aktarılacağını belirler.
 
 ```csharp
 public HeaderFooterBookmarksExportMode HeaderFooterBookmarksExportMode { get; set; }
@@ -16,34 +16,34 @@ public HeaderFooterBookmarksExportMode HeaderFooterBookmarksExportMode { get; se
 
 ### Notlar
 
-Varsayılan değerAll.
+Varsayılan değer:All.
 
-Bu özellik ile birlikte kullanılır.[`OutlineOptions`](../outlineoptions/) seçenek.
+Bu özellik aşağıdakilerle birlikte kullanılır:[`OutlineOptions`](../outlineoptions/) seçenek.
 
 ### Örnekler
 
-PDF'ye dönüştürdüğümüz bir belgedeki üstbilgi/altbilgilerdeki yer imlerini işlemek için gösterir.
+PDF'ye dönüştürdüğümüz bir belgedeki üstbilgi/altbilgilerdeki yer işaretlerinin işlenmesini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Bookmarks in headers and footers.docx");
 
-// Belgenin "Kaydet" yöntemine aktarabileceğimiz bir "PdfSaveOptions" nesnesi oluşturun
-// bu yöntemin belgeyi .PDF'ye dönüştürme şeklini değiştirmek için.
+// Belgenin "Save" yöntemine aktarabileceğimiz bir "PdfSaveOptions" nesnesi oluşturun
+// bu yöntemin belgeyi .PDF'ye dönüştürme biçimini değiştirmek için.
 PdfSaveOptions saveOptions = new PdfSaveOptions();
 
 // Çıktı PDF'sinde anahat gezinme bölmesini görüntülemek için "PageMode" özelliğini "PdfPageMode.UseOutlines" olarak ayarlayın.
 saveOptions.PageMode = PdfPageMode.UseOutlines;
 
 // Tümünü görüntülemek için "DefaultBookmarksOutlineLevel" özelliğini "1" olarak ayarlayın
-// çıktı PDF'sindeki anahattın ilk seviyesindeki yer imleri.
+// çıktı PDF'sindeki ana hatların ilk düzeyindeki yer imleri.
 saveOptions.OutlineOptions.DefaultBookmarksOutlineLevel = 1;
 
-// "HeaderFooterBookmarksExportMode" özelliğini "HeaderFooterBookmarksExportMode.None" olarak ayarlayın.
-// üstbilgiler/altbilgiler içindeki yer işaretlerini dışa aktarmayın.
-// "HeaderFooterBookmarksExportMode" özelliğini "HeaderFooterBookmarksExportMode.First" olarak ayarlayın.
+// "HeaderFooterBookmarksExportMode" özelliğini "HeaderFooterBookmarksExportMode.None" olarak ayarlayın
+// üstbilgi/altbilgi içindeki yer imlerini dışa aktarma.
+// "HeaderFooterBookmarksExportMode" özelliğini "HeaderFooterBookmarksExportMode.First" olarak ayarlayın
 // yalnızca ilk bölümün üstbilgi/altbilgilerindeki yer işaretlerini dışa aktarın.
-// "HeaderFooterBookmarksExportMode" özelliğini "HeaderFooterBookmarksExportMode.All" olarak ayarlayın.
-// tüm üstbilgilerde/altbilgilerde bulunan yer imlerini dışa aktarın.
+// "HeaderFooterBookmarksExportMode" özelliğini "HeaderFooterBookmarksExportMode.All" olarak ayarlayarak
+// tüm üstbilgilerde/altbilgilerde bulunan yer işaretlerini dışa aktarın.
 saveOptions.HeaderFooterBookmarksExportMode = headerFooterBookmarksExportMode;
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.HeaderFooterBookmarksExportMode.pdf", saveOptions);

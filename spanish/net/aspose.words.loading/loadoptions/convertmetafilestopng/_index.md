@@ -1,14 +1,14 @@
 ---
 title: LoadOptions.ConvertMetafilesToPng
 second_title: Referencia de API de Aspose.Words para .NET
-description: LoadOptions propiedad. Obtiene o establece si convertir el metarchivo Wmf oEmf  imágenes aPng formato de imagen.
+description: LoadOptions propiedad. Obtiene o establece si se debe convertir el metarchivo Wmf oEmf  imágenes aPng formato de imagen.
 type: docs
 weight: 30
 url: /es/net/aspose.words.loading/loadoptions/convertmetafilestopng/
 ---
 ## LoadOptions.ConvertMetafilesToPng property
 
-Obtiene o establece si convertir el metarchivo (Wmf oEmf ) imágenes aPng formato de imagen.
+Obtiene o establece si se debe convertir el metarchivo (Wmf oEmf ) imágenes aPng formato de imagen.
 
 ```csharp
 public bool ConvertMetafilesToPng { get; set; }
@@ -16,7 +16,7 @@ public bool ConvertMetafilesToPng { get; set; }
 
 ### Observaciones
 
-metarchivos (Wmf oEmf ) es un formato de imagen sin comprimir y, a veces, requiere mucha RAM para almacenar y procesar el documento. Esta opción permite convertir todas las imágenes de metarchivo aPng al cargar el documento. Tenga en cuenta que la conversión de gráficos vectoriales a ráster reduce la calidad de las imágenes.
+Metarchivos (Wmf oEmf ) es un formato de imagen sin comprimir y a veces requiere demasiada RAM para almacenar y procesar el documento. Esta opción permite convertir todas las imágenes de metarchivo aPng al cargar el documento. Tenga en cuenta que la conversión de gráficos vectoriales a rasterizados disminuye la calidad de las imágenes.
 
 ### Ejemplos
 

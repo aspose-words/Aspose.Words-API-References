@@ -3,7 +3,7 @@ title: Enum MathObjectType
 second_title: Aspose.Words per .NET API Reference
 description: Aspose.Words.Math.MathObjectType enum. Specifica il tipo di un oggetto Office Math.
 type: docs
-weight: 3870
+weight: 4110
 url: /it/net/aspose.words.math/mathobjecttype/
 ---
 ## MathObjectType enumeration
@@ -19,39 +19,39 @@ public enum MathObjectType
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
 | OMath | `0` | Istanza di testo matematico. |
-| OMathPara | `1` | Paragrafo matematico, o visualizza la zona matematica, che ne contiene uno o piùOMath elementi che sono in modalità di visualizzazione. |
-| Accent | `2` | Funzione di accento, costituita da una base e un segno diacritico combinato. |
-| Bar | `3` | Funzione della barra, costituita da un argomento di base e una barra di sopra o di barra. |
+| OMathPara | `1` | Paragrafo matematico o zona matematica di visualizzazione che ne contiene uno o piùOMath elementi che sono in modalità di visualizzazione. |
+| Accent | `2` | Funzione di accento, composta da una base e un segno diacritico combinato. |
+| Bar | `3` | Funzione Bar, composta da un argomento base e un overbar o underbar. |
 | BorderBox | `4` | Oggetto Border Box, costituito da un bordo disegnato attorno a un'istanza di testo matematico (come una formula o un'equazione) |
-| Box | `5` | Oggetto Box, utilizzato per raggruppare i componenti di un'equazione o un'altra istanza di testo matematico. |
-| Delimiter | `6` | Oggetto delimitatore, costituito da delimitatori di apertura e chiusura (come parentesi, parentesi graffe, parentesi e barre verticali) e un elemento contenuto all'interno. |
-| Degree | `7` | Laurea nel radicale matematico. |
+| Box | `5` | Oggetto scatola, utilizzato per raggruppare i componenti di un'equazione o altra istanza di testo matematico. |
+| Delimiter | `6` | Oggetto delimitatore, costituito da delimitatori di apertura e chiusura (come parentesi, parentesi graffe , parentesi quadre e barre verticali) e un elemento contenuto all'interno. |
+| Degree | `7` | Laurea in matematica radicale. |
 | Argument | `8` | Oggetto argomento. Racchiude le entità di Office Math quando vengono utilizzate come argomenti per altre entità di Office Math. |
-| Array | `9` | L'oggetto Array, costituito da una o più equazioni, espressioni o altro testo matematico, esegue che può essere giustificato verticalmente come unità rispetto al testo circostante sulla riga. |
-| Fraction | `10` | Oggetto Frazione, costituito da numeratore e denominatore separati da una barra di frazione. |
+| Array | `9` | L'oggetto array, costituito da una o più equazioni, espressioni o altro testo matematico, viene eseguito che può essere giustificato verticalmente come un'unità rispetto al testo circostante sulla riga. |
+| Fraction | `10` | Oggetto frazione, costituito da un numeratore e un denominatore separati da una barra della frazione. |
 | Denominator | `11` | Denominatore di un oggetto frazione. |
 | Numerator | `12` | Numeratore dell'oggetto Frazione. |
 | Function | `13` | Oggetto Function-Apply, che consiste in un nome di funzione e un elemento argomento su cui si agisce. |
 | FunctionName | `14` | Nome della funzione. Ad esempio, i nomi delle funzioni sono sin e cos. |
-| GroupCharacter | `15` | Oggetto Gruppo-Carattere, costituito da un carattere disegnato sopra o sotto il testo, spesso con lo scopo di raggruppare visivamente gli elementi |
+| GroupCharacter | `15` | Oggetto Group-Character, costituito da un carattere disegnato sopra o sotto il testo, spesso con lo scopo di raggruppare visivamente gli elementi |
 | Limit | `16` | Limite inferiore delLowerLimit oggetto e il limite superiore delUpperLimit funzione. |
 | LowerLimit | `17` | Oggetto limite inferiore, costituito da testo sulla linea di base e testo di dimensioni ridotte immediatamente sotto di essa. |
-| UpperLimit | `18` | Oggetto limite superiore, costituito da testo sulla linea di base e testo di dimensioni ridotte immediatamente sopra di esso. |
-| Matrix | `19` | Oggetto Matrix, costituito da uno o più elementi disposti in una o più righe e una o più colonne. |
-| MatrixRow | `20` | Riga singola della matrice. |
-| NAry | `21` | Oggetto N-ario, costituito da un oggetto n-ario, una base (o operando) e limiti superiore e inferiore opzionali. |
+| UpperLimit | `18` | Oggetto limite superiore, costituito da testo sulla linea di base e testo di dimensioni ridotte immediatamente sopra di essa. |
+| Matrix | `19` | Oggetto matrice, costituito da uno o più elementi disposti su una o più righe e una o più colonne. |
+| MatrixRow | `20` | Singola riga della matrice. |
+| NAry | `21` | Oggetto n-ario, costituito da un oggetto n-ario, una base (o operando) e limiti superiore e inferiore opzionali. |
 | Phantom | `22` | Oggetto fantasma. |
 | Radical | `23` | Oggetto radicale, costituito da un radicale, un elemento base e un grado opzionale . |
-| SubscriptPart | `24` | Pedice dell'oggetto che può avere pedice parte. |
+| SubscriptPart | `24` | Pedice dell'oggetto che può avere parte pedice. |
 | SuperscriptPart | `25` | Apice dell'oggetto apice. |
-| PreSubSuperscript | `26` | Oggetto Pre-Sub-apice, che consiste in un elemento base e un pedice e apice posti a sinistra della base. |
-| Subscript | `27` | Oggetto Pedice, che consiste in un elemento base e uno script di dimensioni ridotte posizionato in basso ea destra. |
-| SubSuperscript | `28` | Oggetto Sub-apice, che consiste in un elemento base, uno script di dimensioni ridotte posizionato sotto ea destra e uno script di dimensioni ridotte posizionato sopra ea destra. |
-| Supercript | `29` | Oggetto Apice, che consiste in un elemento base e uno script di dimensioni ridotte posizionato sopra ea destra. |
+| PreSubSuperscript | `26` | Oggetto Pre-Sub-Superscript, che consiste in un elemento base e un pedice e un apice posizionati a sinistra della base. |
+| Subscript | `27` | Oggetto Subscript, costituito da un elemento base e da uno script di dimensioni ridotte posizionato in basso a destra. |
+| SubSuperscript | `28` | Oggetto sotto-apice, che consiste in un elemento base, una scrittura di dimensioni ridotte posizionata sotto a destra e una scrittura di dimensioni ridotte posizionata sopra e a destra. |
+| Supercript | `29` | Oggetto apice, costituito da un elemento base e da una scritta di dimensioni ridotte posizionata sopra e a destra. |
 
 ### Esempi
 
-Mostra come stampare la struttura del nodo di ogni nodo matematico dell'ufficio in un documento.
+Mostra come stampare la struttura dei nodi di ogni nodo matematico di Office in un documento.
 
 ```csharp
 public void OfficeMathToText()
@@ -59,8 +59,8 @@ public void OfficeMathToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     OfficeMathStructurePrinter visitor = new OfficeMathStructurePrinter();
 
-    // Quando otteniamo un nodo composito per accettare un visitatore del documento, il visitatore visita il nodo di accettazione,
-    // e quindi attraversa tutti i figli del nodo in modo approfondito.
+    // Quando facciamo in modo che un nodo composito accetti un visitatore del documento, il visitatore visita il nodo accettante,
+    // e poi attraversa tutti i figli del nodo in modo approfondito.
     // Il visitatore può leggere e modificare ogni nodo visitato.
     doc.Accept(visitor);
 
@@ -68,8 +68,8 @@ public void OfficeMathToText()
 }
 
 /// <summary>
-/// Attraversa l'albero non binario di nodi figlio di un nodo.
-/// Crea una mappa sotto forma di stringa di tutti i nodi OfficeMath incontrati e dei relativi figli.
+/// Attraversa l'albero non binario dei nodi figlio di un nodo.
+/// Crea una mappa sotto forma di una stringa di tutti i nodi OfficeMath incontrati e dei relativi figli.
 /// </summary>
 public class OfficeMathStructurePrinter : DocumentVisitor
 {
@@ -80,7 +80,7 @@ public class OfficeMathStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Ottiene il testo normale del documento accumulato dal visitatore.
+    /// Ottiene il testo semplice del documento accumulato dal visitatore.
     /// </summary>
     public string GetText()
     {
@@ -88,7 +88,7 @@ public class OfficeMathStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando viene rilevato un nodo Run nel documento.
+    /// Chiamato quando nel documento viene incontrato un nodo Esegui.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -98,7 +98,7 @@ public class OfficeMathStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando viene rilevato un nodo OfficeMath nel documento.
+    /// Chiamato quando nel documento viene rilevato un nodo OfficeMath.
     /// </summary>
     public override VisitorAction VisitOfficeMathStart(OfficeMath officeMath)
     {
@@ -110,7 +110,7 @@ public class OfficeMathStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato dopo che tutti i nodi figlio di un nodo OfficeMath sono stati visitati.
+    /// Chiamato dopo che tutti i nodi secondari di un nodo OfficeMath sono stati visitati.
     /// </summary>
     public override VisitorAction VisitOfficeMathEnd(OfficeMath officeMath)
     {
@@ -122,9 +122,9 @@ public class OfficeMathStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Aggiunge una riga a StringBuilder e la indenta in base alla profondità del visitatore nell'albero del documento.
+    /// Aggiunge una riga allo StringBuilder e la rientra in base alla profondità con cui si trova il visitatore nell'albero del documento.
     /// </summary>
-    /// <nome parametro="testo"></param>
+    /// <param name="text"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++) mBuilder.Append("|  ");

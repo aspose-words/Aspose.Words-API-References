@@ -16,7 +16,7 @@ public string FilePath { get; }
 
 ### أمثلة
 
-يوضح كيفية استخدام ملف خط في نظام الملفات المحلي كمصدر للخط.
+يوضح كيفية استخدام ملف الخط في نظام الملفات المحلي كمصدر للخط.
 
 ```csharp
 FileFontSource fileFontSource = new FileFontSource(MyDir + "Alte DIN 1451 Mittelschrift.ttf", 0);

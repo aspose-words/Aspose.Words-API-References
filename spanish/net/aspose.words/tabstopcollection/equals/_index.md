@@ -1,14 +1,14 @@
 ---
 title: TabStopCollection.Equals
 second_title: Referencia de API de Aspose.Words para .NET
-description: TabStopCollection método. Determina si la TabStopCollection especificada tiene el mismo valor que la TabStopCollection actual.
+description: TabStopCollection método. Determina si el especificadoTabStopCollection es igual en valor a la corrienteTabStopCollection .
 type: docs
 weight: 70
 url: /es/net/aspose.words/tabstopcollection/equals/
 ---
 ## Equals(TabStopCollection) {#equals}
 
-Determina si la TabStopCollection especificada tiene el mismo valor que la TabStopCollection actual.
+Determina si el especificado[`TabStopCollection`](../) es igual en valor a la corriente[`TabStopCollection`](../) .
 
 ```csharp
 public bool Equals(TabStopCollection rhs)
@@ -32,18 +32,18 @@ Assert.AreEqual(2, tabStops.Count);
 Assert.IsFalse(tabStops[0].IsClear);
 Assert.IsFalse(tabStops[0].Equals(tabStops[1]));
 
-// Cada carácter de "tabulador" lleva el cursor del constructor a la ubicación de la siguiente tabulación.
+// Cada carácter de "tabulación" lleva el cursor del constructor a la ubicación de la siguiente tabulación.
 builder.Writeln("Start\tTab 1\tTab 2");
 
 ParagraphCollection paragraphs = doc.FirstSection.Body.Paragraphs;
 
 Assert.AreEqual(2, paragraphs.Count);
 
-// Cada párrafo obtiene su colección de tabulaciones, que clona sus valores de la colección de tabulaciones del generador de documentos.
+// Cada párrafo obtiene su colección de tabulaciones, que clona sus valores de la colección de tabulaciones del creador de documentos.
 Assert.AreEqual(paragraphs[0].ParagraphFormat.TabStops, paragraphs[1].ParagraphFormat.TabStops);
 Assert.AreNotSame(paragraphs[0].ParagraphFormat.TabStops, paragraphs[1].ParagraphFormat.TabStops);
 
-// Una colección de tabulaciones puede señalarnos TabStops antes y después de ciertas posiciones.
+// Una colección de tabulaciones puede indicarnos TabStops antes y después de ciertas posiciones.
 Assert.AreEqual(72.0, tabStops.Before(100.0).Position);
 Assert.AreEqual(432.0, tabStops.After(100.0).Position);
 
@@ -89,18 +89,18 @@ Assert.AreEqual(2, tabStops.Count);
 Assert.IsFalse(tabStops[0].IsClear);
 Assert.IsFalse(tabStops[0].Equals(tabStops[1]));
 
-// Cada carácter de "tabulador" lleva el cursor del constructor a la ubicación de la siguiente tabulación.
+// Cada carácter de "tabulación" lleva el cursor del constructor a la ubicación de la siguiente tabulación.
 builder.Writeln("Start\tTab 1\tTab 2");
 
 ParagraphCollection paragraphs = doc.FirstSection.Body.Paragraphs;
 
 Assert.AreEqual(2, paragraphs.Count);
 
-// Cada párrafo obtiene su colección de tabulaciones, que clona sus valores de la colección de tabulaciones del generador de documentos.
+// Cada párrafo obtiene su colección de tabulaciones, que clona sus valores de la colección de tabulaciones del creador de documentos.
 Assert.AreEqual(paragraphs[0].ParagraphFormat.TabStops, paragraphs[1].ParagraphFormat.TabStops);
 Assert.AreNotSame(paragraphs[0].ParagraphFormat.TabStops, paragraphs[1].ParagraphFormat.TabStops);
 
-// Una colección de tabulaciones puede señalarnos TabStops antes y después de ciertas posiciones.
+// Una colección de tabulaciones puede indicarnos TabStops antes y después de ciertas posiciones.
 Assert.AreEqual(72.0, tabStops.Before(100.0).Position);
 Assert.AreEqual(432.0, tabStops.After(100.0).Position);
 

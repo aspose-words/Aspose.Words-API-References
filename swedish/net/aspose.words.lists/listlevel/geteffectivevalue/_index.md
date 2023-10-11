@@ -1,14 +1,14 @@
 ---
 title: ListLevel.GetEffectiveValue
 second_title: Aspose.Words för .NET API Referens
-description: ListLevel metod. Rapporterar strängrepresentationen avListLevel objekt för det angivna index för listobjektet. Parametrar angerNumberStyle och ett valfritt format string används närCustom anges.
+description: ListLevel metod. Rapporterar strängrepresentationen avListLevelobjekt för det angivna index för listobjektet. Parametrar angerNumberStyle och ett valfritt format string används närCustom anges.
 type: docs
 weight: 190
 url: /sv/net/aspose.words.lists/listlevel/geteffectivevalue/
 ---
 ## ListLevel.GetEffectiveValue method
 
-Rapporterar strängrepresentationen av[`ListLevel`](../) objekt för det angivna index för listobjektet. Parametrar anger[`NumberStyle`](../../../aspose.words/numberstyle/) och ett valfritt format string används närCustom anges.
+Rapporterar strängrepresentationen av[`ListLevel`](../)objekt för det angivna index för listobjektet. Parametrar anger[`NumberStyle`](../../../aspose.words/numberstyle/) och ett valfritt format string används närCustom anges.
 
 ```csharp
 public static string GetEffectiveValue(int index, NumberStyle numberStyle, 
@@ -19,17 +19,17 @@ public static string GetEffectiveValue(int index, NumberStyle numberStyle,
 | --- | --- | --- |
 | index | Int32 | Indexet för listobjektet (måste vara i intervallet från 1 till 32767). |
 | numberStyle | NumberStyle | Den[`NumberStyle`](../../../aspose.words/numberstyle/) av[`ListLevel`](../) objekt. |
-| customNumberStyleFormat | String | Den valfria formatsträngen som används närCustom anges (t.ex. "a, ç, ĝ, ..."). I andra fall måste denna parameter vara null eller tom. |
+| customNumberStyleFormat | String | Den valfria formatsträngen som används närCustom anges (t.ex. "a, ç, ĝ, ..."). I andra fall måste denna parameter vara`null` eller tom. |
 
 ### Returvärde
 
-Strängrepresentationen av[`ListLevel`](../) objekt, beskrivet av parametern numberStyle och parametern customNumberStyleFormat, i listobjektet på den position som bestäms av indexparametern.
+Strängrepresentationen av[`ListLevel`](../) objekt, beskrivet av*numberStyle* parameter och the*customNumberStyleFormat* parameter, i listposten på den position som bestäms av*index* parameter.
 
 ### Undantag
 
 | undantag | skick |
 | --- | --- |
-| ArgumentException | customNumberStyleFormat är null eller tomt när numberStyle är custom.-or- customNumberStyleFormat är inte null eller tomt när numberStyle är icke-custom.-or- customNumberStyleFormat är ogiltigt._x000d |
+| ArgumentException | *customNumberStyleFormat* är`null` eller tom när*numberStyle* är anpassad.-eller- *customNumberStyleFormat* är inte`null` eller tom när*numberStyle* är icke-anpassad.-or- *customNumberStyleFormat* är ogiltig. |
 | ArgumentOutOfRangeException | index är utanför intervallet. |
 
 ### Exempel

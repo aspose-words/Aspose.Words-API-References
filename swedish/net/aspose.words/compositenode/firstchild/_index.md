@@ -3,7 +3,7 @@ title: CompositeNode.FirstChild
 second_title: Aspose.Words för .NET API Referens
 description: CompositeNode fast egendom. Får det första barnet i noden.
 type: docs
-weight: 30
+weight: 20
 url: /sv/net/aspose.words/compositenode/firstchild/
 ---
 ## CompositeNode.FirstChild property
@@ -16,7 +16,7 @@ public Node FirstChild { get; }
 
 ### Anmärkningar
 
-Om det inte finns någon första underordnad nod, returneras en noll.
+Om det inte finns någon första underordnad nod, a`null` returneras.
 
 ### Exempel
 
@@ -38,6 +38,7 @@ for (Node node = doc.FirstSection.Body.FirstChild; node != null; node = node.Nex
 Visar hur man korsar en sammansatt nods träd med undernoder.
 
 ```csharp
+public void RecurseChildren()
 {
     Document doc = new Document(MyDir + "Paragraphs.docx");
 

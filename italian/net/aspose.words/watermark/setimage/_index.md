@@ -22,7 +22,7 @@ public void SetImage(Image image)
 
 | eccezione | condizione |
 | --- | --- |
-| ArgumentNullException | Genera quando l'immagine è nulla. |
+| ArgumentNullException | Genera quando l'immagine è`nullo` . |
 
 ### Guarda anche
 
@@ -49,11 +49,11 @@ public void SetImage(Image image, ImageWatermarkOptions options)
 
 | eccezione | condizione |
 | --- | --- |
-| ArgumentNullException | Genera quando l'immagine è nulla. |
+| ArgumentNullException | Genera quando l'immagine è`nullo` . |
 
 ### Osservazioni
 
-Se[`ImageWatermarkOptions`](../../imagewatermarkoptions/) è nullo, la filigrana verrà impostata con le opzioni predefinite.
+Se[`ImageWatermarkOptions`](../../imagewatermarkoptions/) È`nullo`, la filigrana verrà impostata con le opzioni predefinite.
 
 ### Esempi
 
@@ -63,7 +63,7 @@ Mostra come creare una filigrana da un'immagine nel file system locale.
 Document doc = new Document();
 
             // Modifica l'aspetto della filigrana dell'immagine con un oggetto ImageWatermarkOptions,
-            // quindi passalo durante la creazione di una filigrana da un file immagine.
+            // quindi lo passa durante la creazione di una filigrana da un file immagine.
             ImageWatermarkOptions imageWatermarkOptions = new ImageWatermarkOptions();
             imageWatermarkOptions.Scale = 5;
             imageWatermarkOptions.IsWashout = false;
@@ -106,11 +106,11 @@ public void SetImage(string imagePath, ImageWatermarkOptions options)
 
 | eccezione | condizione |
 | --- | --- |
-| ArgumentNullException | Genera quando il percorso è nullo. |
+| ArgumentNullException | Genera quando il percorso è`nullo` . |
 
 ### Osservazioni
 
-Se[`ImageWatermarkOptions`](../../imagewatermarkoptions/) è nullo, la filigrana verrà impostata con le opzioni predefinite.
+Se[`ImageWatermarkOptions`](../../imagewatermarkoptions/) È`nullo`, la filigrana verrà impostata con le opzioni predefinite.
 
 ### Guarda anche
 

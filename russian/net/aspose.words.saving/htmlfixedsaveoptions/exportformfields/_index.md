@@ -1,14 +1,14 @@
 ---
 title: HtmlFixedSaveOptions.ExportFormFields
 second_title: Справочник по API Aspose.Words для .NET
-description: HtmlFixedSaveOptions свойство. Получает или задает индикацию того экспортируются ли поля формы как интерактивные элементы как тег input а не преобразуются в текст или графику.
+description: HtmlFixedSaveOptions свойство. Получает или задает указание того экспортируются ли поля формы как элементы интерактивного как тег ввода а не преобразуются ли они в текст или графику.
 type: docs
 weight: 80
 url: /ru/net/aspose.words.saving/htmlfixedsaveoptions/exportformfields/
 ---
 ## HtmlFixedSaveOptions.ExportFormFields property
 
-Получает или задает индикацию того, экспортируются ли поля формы как интерактивные элементы (как тег 'input'), а не преобразуются в текст или графику.
+Получает или задает указание того, экспортируются ли поля формы как элементы интерактивного (как тег ввода), а не преобразуются ли они в текст или графику.
 
 ```csharp
 public bool ExportFormFields { get; set; }
@@ -16,7 +16,7 @@ public bool ExportFormFields { get; set; }
 
 ### Примеры
 
-Показывает, как экспортировать поля формы в HTML.
+Показывает, как экспортировать поля формы в Html.
 
 ```csharp
 Document doc = new Document();
@@ -25,10 +25,10 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.InsertCheckBox("CheckBox", false, 15);
 
 // Когда мы экспортируем документ с полями формы в .html,
-// есть два способа, которыми Aspose.Words может экспортировать поля формы.
-// Установка флага "ExportFormFields" в "true" приведет к экспорту их как интерактивных объектов.
-// Установка этого флага в "false" будет отображать поля формы как обычный текст.
-// Это заморозит их в их текущем значении и не позволит читателю нашего HTML-документа
+// существует два способа, которыми Aspose.Words может экспортировать поля формы.
+// Установка флага «ExportFormFields» в значение «true» экспортирует их как интерактивные объекты.
+// Установка этого флага в значение «false» будет отображать поля формы в виде обычного текста.
+// Это заморозит их текущие значения и не позволит читателю нашего HTML-документа
 // от возможности взаимодействовать с ними.
 HtmlFixedSaveOptions htmlFixedSaveOptions = new HtmlFixedSaveOptions
 {

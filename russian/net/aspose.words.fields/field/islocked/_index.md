@@ -1,14 +1,14 @@
 ---
 title: Field.IsLocked
 second_title: Справочник по API Aspose.Words для .NET
-description: Field свойство. Получает или задает заблокировано ли поле не следует пересчитывать его результат.
+description: Field свойство. Получает или задает заблокировано ли поле не следует пересчитывать результат.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.fields/field/islocked/
 ---
 ## Field.IsLocked property
 
-Получает или задает, заблокировано ли поле (не следует пересчитывать его результат).
+Получает или задает, заблокировано ли поле (не следует пересчитывать результат).
 
 ```csharp
 public bool IsLocked { get; set; }
@@ -32,13 +32,13 @@ Assert.AreEqual(FieldType.FieldDate, fieldStart.FieldType);
 Assert.AreEqual(false, fieldStart.IsDirty);
 Assert.AreEqual(false, fieldStart.IsLocked);
 
-// Получить объект фасада, представляющий поле в документе.
+// Получаем фасадный объект, который представляет поле в документе.
 field = (FieldDate)fieldStart.GetField();
 
 Assert.AreEqual(false, field.IsLocked);
 Assert.AreEqual(" DATE  \\@ \"dddd, MMMM dd, yyyy\"", field.GetFieldCode());
 
-// Обновить поле, чтобы показать текущую дату.
+// Обновляем поле, чтобы оно отображало текущую дату.
 field.Update();
 ```
 

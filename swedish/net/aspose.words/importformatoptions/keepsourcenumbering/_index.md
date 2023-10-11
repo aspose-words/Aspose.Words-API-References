@@ -3,7 +3,7 @@ title: ImportFormatOptions.KeepSourceNumbering
 second_title: Aspose.Words för .NET API Referens
 description: ImportFormatOptions fast egendom. Hämtar eller ställer in ett booleskt värde som anger hur numreringen kommer att importeras när den krockar i käll och destinationsdokument. Standardvärdet ärfalsk .
 type: docs
-weight: 50
+weight: 60
 url: /sv/net/aspose.words/importformatoptions/keepsourcenumbering/
 ---
 ## ImportFormatOptions.KeepSourceNumbering property
@@ -66,7 +66,7 @@ Document dstDoc = srcDoc.Clone();
 // som vi lägger till originalet kommer att fortsätta numreringen av listan vi lägger till den.
 // Detta kommer effektivt att slå samman de två listorna till en.
 // Om vi ställer in "KeepSourceNumbering"-flaggan till "true", kommer dokumentklonen
-// list kommer att bevara sin ursprungliga numrering, vilket gör att de två listorna visas som separata listor. 
+ // list kommer att bevara sin ursprungliga numrering, vilket gör att de två listorna visas som separata listor.
 ImportFormatOptions importFormatOptions = new ImportFormatOptions();
 importFormatOptions.KeepSourceNumbering = keepSourceNumbering;
 

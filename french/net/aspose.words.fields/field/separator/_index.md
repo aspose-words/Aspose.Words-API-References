@@ -1,14 +1,14 @@
 ---
 title: Field.Separator
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Field propriété. Obtient le nœud qui représente le séparateur de champs. Peut être null.
+description: Field propriété. Obtient le nœud qui représente le séparateur de champ. Peut êtrenul .
 type: docs
 weight: 80
 url: /fr/net/aspose.words.fields/field/separator/
 ---
 ## Field.Separator property
 
-Obtient le nœud qui représente le séparateur de champs. Peut être null.
+Obtient le nœud qui représente le séparateur de champ. Peut être`nul` .
 
 ```csharp
 public FieldSeparator Separator { get; }
@@ -19,6 +19,7 @@ public FieldSeparator Separator { get; }
 Montre comment travailler avec une collection de champs.
 
 ```csharp
+public void FieldCollection()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -35,8 +36,8 @@ Montre comment travailler avec une collection de champs.
 
     Assert.AreEqual(6, fields.Count);
 
-    // Itérer sur la collection de champs et imprimer le contenu et le type
-    // de chaque champ à l'aide d'une implémentation de visiteur personnalisée.
+    // Parcourir la collection de champs, imprimer le contenu et le type
+    // de chaque champ en utilisant une implémentation de visiteur personnalisée.
     FieldVisitor fieldVisitor = new FieldVisitor();
 
     using (IEnumerator<Field> fieldEnumerator = fields.GetEnumerator())
@@ -57,9 +58,10 @@ Montre comment travailler avec une collection de champs.
     }
 
     Console.WriteLine(fieldVisitor.GetText());
+}
 
 /// <summary>
-/// Documenter l'implémentation du visiteur qui imprime les informations de champ.
+/// Implémentation du visiteur du document qui imprime les informations sur le champ.
 /// </summary>
 public class FieldVisitor : DocumentVisitor
 {
@@ -69,7 +71,7 @@ public class FieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Obtient le texte brut du document qui a été accumulé par le visiteur.
+    /// Obtient le texte brut du document accumulé par le visiteur.
     /// </summary>
     public string GetText()
     {

@@ -16,14 +16,14 @@ public bool IncludeFullPath { get; set; }
 
 ### Esempi
 
-Mostra come utilizzare un campo MODELLO per visualizzare la posizione del file system locale del modello di un documento.
+Mostra come utilizzare un campo TEMPLATE per visualizzare la posizione del file system locale del modello di un documento.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Possiamo impostare un nome modello usando i campi. Questa proprietà viene utilizzata quando "doc.AttachedTemplate" è vuoto.
-// Se questa proprietà è vuota, viene utilizzato il nome del file modello predefinito "Normal.dotm".
+// Possiamo impostare un nome di modello utilizzando i campi. Questa proprietà viene utilizzata quando "doc.AttachedTemplate" è vuoto.
+// Se questa proprietà è vuota, viene utilizzato il nome file modello predefinito "Normal.dotm".
 doc.FieldOptions.TemplateName = string.Empty;
 
 FieldTemplate field = (FieldTemplate)builder.InsertField(FieldType.FieldTemplate, false);

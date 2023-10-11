@@ -1,14 +1,14 @@
 ---
 title: ChartSeries.Smooth
 second_title: Aspose.Words for .NET API 参考
-description: ChartSeries 财产. 允许指定连接图表上点的线是否应使用 CatmullRom 样条进行平滑
+description: ChartSeries 财产. 允许指定是否应使用 CatmullRom 样条线来平滑连接图表上的点的线
 type: docs
-weight: 110
+weight: 130
 url: /zh/net/aspose.words.drawing.charts/chartseries/smooth/
 ---
 ## ChartSeries.Smooth property
 
-允许指定连接图表上点的线是否应使用 Catmull-Rom 样条进行平滑。
+允许指定是否应使用 Catmull-Rom 样条线来平滑连接图表上的点的线。
 
 ```csharp
 public bool Smooth { get; set; }
@@ -16,10 +16,9 @@ public bool Smooth { get; set; }
 
 ### 例子
 
-显示如何使用折线图上的数据点。
+展示如何使用折线图上的数据点。
 
 ```csharp
-[Test]
 public void ChartDataPoint()
 {
     Document doc = new Document();
@@ -33,14 +32,14 @@ public void ChartDataPoint()
     Assert.AreEqual("Series 2", chart.Series[1].Name);
     Assert.AreEqual("Series 3", chart.Series[2].Name);
 
-    // 通过使它们显示为菱形来强调图表的数据点。
+    // 通过使图表的数据点显示为菱形来强调它们。
     foreach (ChartSeries series in chart.Series) 
         ApplyDataPoints(series, 4, MarkerSymbol.Diamond, 15);
 
     // 平滑表示第一个数据系列的线。
     chart.Series[0].Smooth = true;
 
-    // 如果值为负数，则验证第一个系列的数据点不会反转它们的颜色。
+    // 验证如果值为负数，第一个系列的数据点不会反转其颜色。
     using (IEnumerator<ChartDataPoint> enumerator = chart.Series[0].DataPoints.GetEnumerator())
     {
         while (enumerator.MoveNext())
@@ -49,17 +48,17 @@ public void ChartDataPoint()
         }
     }
 
-    // 为了更清晰的图表，我们可以单独清除格式。
+    // 为了使图表看起来更清晰，我们可以单独清除格式。
     chart.Series[1].DataPoints[2].ClearFormat();
 
-    // 我们也可以一次剥离整个系列的数据点。
+    // 我们还可以一次剥离整个系列的数据点。
     chart.Series[2].DataPoints.ClearFormat();
 
     doc.Save(ArtifactsDir + "Charts.ChartDataPoint.docx");
 }
 
 /// <summary>
-/// 将多个数据点应用于系列。
+/// 将多个数据点应用于一个系列。
 /// </summary>
 private static void ApplyDataPoints(ChartSeries series, int dataPointsCount, MarkerSymbol markerSymbol, int dataPointSize)
 {

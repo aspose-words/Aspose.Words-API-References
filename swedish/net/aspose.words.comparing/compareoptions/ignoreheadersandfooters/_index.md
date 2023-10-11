@@ -1,14 +1,14 @@
 ---
 title: CompareOptions.IgnoreHeadersAndFooters
 second_title: Aspose.Words för .NET API Referens
-description: CompareOptions fast egendom. True indikerar att sidhuvuden och sidfötter ignoreras. Som standard ignoreras inte sidhuvuden och sidfötter.
+description: CompareOptions fast egendom. True indikerar att innehållet i sidhuvuden och sidfötter ignoreras. Som standard ignoreras inte sidhuvuden och sidfötter.
 type: docs
-weight: 90
+weight: 100
 url: /sv/net/aspose.words.comparing/compareoptions/ignoreheadersandfooters/
 ---
 ## CompareOptions.IgnoreHeadersAndFooters property
 
-True indikerar att sidhuvuden och sidfötter ignoreras. Som standard ignoreras inte sidhuvuden och sidfötter.
+True indikerar att innehållet i sidhuvuden och sidfötter ignoreras. Som standard ignoreras inte sidhuvuden och sidfötter.
 
 ```csharp
 public bool IgnoreHeadersAndFooters { get; set; }
@@ -40,7 +40,7 @@ Shape textBox = builder.InsertShape(ShapeType.TextBox, 150, 20);
 builder.MoveTo(textBox.FirstParagraph);
 builder.Write("Original textbox contents");
 
-// DATE-fält:
+// DATUMfält:
 builder.MoveTo(docOriginal.FirstSection.Body.AppendParagraph(""));
 builder.InsertField(" DATE ");
 

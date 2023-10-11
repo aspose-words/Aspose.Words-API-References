@@ -3,12 +3,14 @@ title: Class CsvDataLoadOptions
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Reporting.CsvDataLoadOptions klass. Representerar alternativ för att analysera CSVdata.
 type: docs
-weight: 4400
+weight: 4660
 url: /sv/net/aspose.words.reporting/csvdataloadoptions/
 ---
 ## CsvDataLoadOptions class
 
 Representerar alternativ för att analysera CSV-data.
+
+För att lära dig mer, besök[LINQ Reporting Engine](https://docs.aspose.com/words/net/linq-reporting-engine/) dokumentationsartikel.
 
 ```csharp
 public class CsvDataLoadOptions

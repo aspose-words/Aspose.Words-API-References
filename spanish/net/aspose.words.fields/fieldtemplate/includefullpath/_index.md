@@ -16,7 +16,7 @@ public bool IncludeFullPath { get; set; }
 
 ### Ejemplos
 
-Muestra cómo usar un campo PLANTILLA para mostrar la ubicación del sistema de archivos local de la plantilla de un documento.
+Muestra cómo utilizar un campo PLANTILLA para mostrar la ubicación del sistema de archivos local de la plantilla de un documento.
 
 ```csharp
 Document doc = new Document();

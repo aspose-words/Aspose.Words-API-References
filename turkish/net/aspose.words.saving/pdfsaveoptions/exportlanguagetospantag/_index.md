@@ -3,7 +3,7 @@ title: PdfSaveOptions.ExportLanguageToSpanTag
 second_title: Aspose.Words for .NET API Referansı
 description: PdfSaveOptions mülk. Metin dilini dışa aktarmak için belge yapısında bir Span etiketi oluşturulup oluşturulmayacağını belirleyen bir değer alır veya ayarlar.
 type: docs
-weight: 130
+weight: 150
 url: /tr/net/aspose.words.saving/pdfsaveoptions/exportlanguagetospantag/
 ---
 ## PdfSaveOptions.ExportLanguageToSpanTag property
@@ -16,11 +16,11 @@ public bool ExportLanguageToSpanTag { get; set; }
 
 ### Notlar
 
-Varsayılan değer`yanlış` ve "Lang" niteliği, bir sayfa içerik akışındaki bir işaretli içerik dizisine eklenir.
+Varsayılan değer:`YANLIŞ`ve "Lang" özelliği, bir sayfa içerik akışındaki işaretli içerik dizisine eklenir.
 
-değer olduğunda`doğru` Varsayılan olmayan dil olan metin için "Span" etiketi oluşturulur ve bu etikete "Lang" özniteliği eklenir.
+Değer ne zaman`doğru` Varsayılan olmayan language değerine sahip metin için "Span" etiketi oluşturulur ve bu etikete "Lang" özelliği eklenir.
 
-Bu değer şu durumlarda yoksayılır.[`ExportDocumentStructure`](../exportdocumentstructure/) dır-dir`yanlış` .
+Bu değer şu durumlarda göz ardı edilir:[`ExportDocumentStructure`](../exportdocumentstructure/) dır-dir`YANLIŞ` .
 
 ### Örnekler
 
@@ -35,7 +35,7 @@ builder.Writeln("Hola mundo!");
 
 PdfSaveOptions saveOptions = new PdfSaveOptions
 {
-    // Not, "ExportDocumentStructure" yanlış olduğunda, "ExportLanguageToSpanTag" yok sayılır.
+    // "ExportDocumentStructure" yanlış olduğunda "ExportLanguageToSpanTag" seçeneğinin dikkate alınmadığını unutmayın.
     ExportDocumentStructure = true, ExportLanguageToSpanTag = true
 };
 

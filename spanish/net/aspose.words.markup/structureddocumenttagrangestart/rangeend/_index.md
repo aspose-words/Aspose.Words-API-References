@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTagRangeStart.RangeEnd
 second_title: Referencia de API de Aspose.Words para .NET
-description: StructuredDocumentTagRangeStart propiedad. Especifica el final del rango si StructuredDocumentTag es una etiqueta de documento estructurado de rango. De lo contrario devuelve nulo.
+description: StructuredDocumentTagRangeStart propiedad. Especifica el final del rango si elStructuredDocumentTag es una etiqueta de documento estructurada a distancia. De lo contrario regresanulo .
 type: docs
 weight: 130
 url: /es/net/aspose.words.markup/structureddocumenttagrangestart/rangeend/
 ---
 ## StructuredDocumentTagRangeStart.RangeEnd property
 
-Especifica el final del rango si StructuredDocumentTag es una etiqueta de documento estructurado de rango. De lo contrario devuelve nulo.
+Especifica el final del rango si el[`StructuredDocumentTag`](../../structureddocumenttag/) es una etiqueta de documento estructurada a distancia. De lo contrario regresa`nulo` .
 
 ```csharp
 public StructuredDocumentTagRangeEnd RangeEnd { get; }
@@ -16,7 +16,7 @@ public StructuredDocumentTagRangeEnd RangeEnd { get; }
 
 ### Ejemplos
 
-Muestra cómo obtener las propiedades de las etiquetas de documentos estructurados de varias secciones.
+Muestra cómo obtener las propiedades de etiquetas de documentos estructurados de varias secciones.
 
 ```csharp
 Document doc = new Document(MyDir + "Multi-section structured document tags.docx");

@@ -3,7 +3,7 @@ title: Enum DmlEffectsRenderingMode
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Saving.DmlEffectsRenderingMode uppräkning. Anger hur DrawingMLeffekter renderas till fasta sidformat.
 type: docs
-weight: 4650
+weight: 4910
 url: /sv/net/aspose.words.saving/dmleffectsrenderingmode/
 ---
 ## DmlEffectsRenderingMode enumeration

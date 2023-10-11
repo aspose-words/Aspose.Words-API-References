@@ -8,7 +8,7 @@ url: /de/net/aspose.words/controlchar/tabchar/
 ---
 ## ControlChar.TabChar field
 
-Tabulatorzeichen: (char)9 oder "\t".
+Tabulatorzeichen: (char)9 oder „\t“.
 
 ```csharp
 public const char TabChar;
@@ -16,16 +16,16 @@ public const char TabChar;
 
 ### Beispiele
 
-Zeigt, wie Sie ein benutzerdefiniertes Intervall für Tabstopppositionen festlegen.
+Zeigt, wie ein benutzerdefiniertes Intervall für Tabstopppositionen festgelegt wird.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Tabstopps so einstellen, dass sie alle 72 Punkte (1 Zoll) erscheinen.
+// Tabstopps so festlegen, dass sie alle 72 Punkte (1 Zoll) erscheinen.
 builder.Document.DefaultTabStop = 72;
 
-// Jedes Tabulatorzeichen rastet den Text danach an der nächstliegenden Tabstoppposition ein.
+// Mit jedem Tabulatorzeichen wird der darauffolgende Text an der nächstgelegenen Tabstoppposition ausgerichtet.
 builder.Writeln("Hello" + ControlChar.Tab + "World!");
 builder.Writeln("Hello" + ControlChar.TabChar + "World!");
 ```

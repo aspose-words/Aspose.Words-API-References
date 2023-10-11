@@ -1,14 +1,14 @@
 ---
 title: Enum FontPitch
 second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Fonts.FontPitch enumeración. Representa el paso de fuente.
+description: Aspose.Words.Fonts.FontPitch enumeración. Representa el paso de la fuente.
 type: docs
-weight: 2780
+weight: 2960
 url: /es/net/aspose.words.fonts/fontpitch/
 ---
 ## FontPitch enumeration
 
-Representa el paso de fuente.
+Representa el paso de la fuente.
 
 ```csharp
 public enum FontPitch
@@ -18,13 +18,13 @@ public enum FontPitch
 
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
-| Default | `0` | Especifica que no hay información disponible sobre el tono de una fuente. |
+| Default | `0` | Especifica que no hay información disponible sobre el paso de una fuente. |
 | Fixed | `1` | Especifica que se trata de una fuente de ancho fijo. |
-| Variable | `2` | Especifica que esta es una fuente de ancho proporcional. |
+| Variable | `2` | Especifica que se trata de una fuente de ancho proporcional. |
 
 ### Observaciones
 
-El paso indica si la fuente es de paso fijo, espaciada proporcionalmente o se basa en una configuración predeterminada.
+El paso indica si la fuente tiene un paso fijo, un espaciado proporcional o depende de una configuración predeterminada.
 
 ### Ejemplos
 

@@ -3,7 +3,7 @@ title: MailMergeRegionInfo.ParentRegion
 second_title: Aspose.Words för .NET API Referens
 description: MailMergeRegionInfo fast egendom. Returnerar information om överordnad region null för region på toppnivå.
 type: docs
-weight: 50
+weight: 70
 url: /sv/net/aspose.words.mailmerging/mailmergeregioninfo/parentregion/
 ---
 ## MailMergeRegionInfo.ParentRegion property

@@ -1,14 +1,14 @@
 ---
 title: Story.AppendParagraph
 second_title: Справочник по API Aspose.Words для .NET
-description: Story метод. Быстрый метод создающийParagraph объект с необязательным текстом и добавляет его в конец этого объекта.
+description: Story метод. Ярлык метода создающийParagraph объект с необязательным текстом и добавляет его в конец этого объекта.
 type: docs
 weight: 60
 url: /ru/net/aspose.words/story/appendparagraph/
 ---
 ## Story.AppendParagraph method
 
-Быстрый метод, создающий[`Paragraph`](../../paragraph/) объект с необязательным текстом и добавляет его в конец этого объекта.
+Ярлык метода, создающий[`Paragraph`](../../paragraph/) объект с необязательным текстом и добавляет его в конец этого объекта.
 
 ```csharp
 public Paragraph AppendParagraph(string text)
@@ -16,7 +16,7 @@ public Paragraph AppendParagraph(string text)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| text | String | Текст для абзаца. Может быть нулевой или пустой строкой. |
+| text | String | Текст абзаца. Возможно`нулевой` или пустая строка. |
 
 ### Возвращаемое значение
 
@@ -30,7 +30,7 @@ public Paragraph AppendParagraph(string text)
 Document doc = new Document();
 
 // Создаем заголовок и добавляем к нему абзац. Текст в этом абзаце
-// появится в верхней части каждой страницы этого раздела над основным текстом.
+// появится вверху каждой страницы этого раздела, над основным текстом.
 HeaderFooter header = new HeaderFooter(doc, HeaderFooterType.HeaderPrimary);
 doc.FirstSection.HeadersFooters.Add(header);
 

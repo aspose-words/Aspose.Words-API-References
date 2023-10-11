@@ -16,11 +16,11 @@ public string Password { get; set; }
 
 ### Notlar
 
-Belgeyi şifreleme olmadan kaydetmek için bu özellik boş veya boş dize olmalıdır.
+Belgeyi şifrelemeden kaydetmek için bu özelliğin şu şekilde olması gerekir:`hükümsüz` veya boş dize.
 
 ### Örnekler
 
-Daha eski Microsoft Word biçimleri için kaydetme seçeneklerinin nasıl ayarlanacağını gösterir.
+Eski Microsoft Word formatları için kaydetme seçeneklerinin nasıl ayarlanacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -33,13 +33,13 @@ DocSaveOptions options = new DocSaveOptions(SaveFormat.Doc);
 // Bunun belgenin içeriğini hiçbir şekilde şifrelemediğini unutmayın.
 options.Password = "MyPassword";
 
-// Belge bir yönlendirme fişi içeriyorsa, bu bayrağı true olarak ayarlayarak kaydederken koruyabiliriz.
+// Doküman bir yönlendirme fişi içeriyorsa bu bayrağı true yaparak kaydederken onu koruyabiliriz.
 options.SaveRoutingSlip = true;
 
 doc.Save(ArtifactsDir + "DocSaveOptions.SaveAsDoc.doc", options);
 
-// Belgeyi yükleyebilmek için,
-// DocSaveOptions nesnesinde belirttiğimiz parolayı bir LoadOptions nesnesinde uygulamamız gerekecek.
+// Dokümanı yükleyebilmek için,
+// DocSaveOptions nesnesinde belirttiğimiz şifreyi bir LoadOptions nesnesine uygulamamız gerekecek.
 Assert.Throws<IncorrectPasswordException>(() => doc = new Document(ArtifactsDir + "DocSaveOptions.SaveAsDoc.doc"));
 
 LoadOptions loadOptions = new LoadOptions("MyPassword");

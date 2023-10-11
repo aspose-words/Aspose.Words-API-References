@@ -3,7 +3,7 @@ title: Enum OoxmlCompliance
 second_title: Справочник по API Aspose.Words для .NET
 description: Aspose.Words.Saving.OoxmlCompliance перечисление. Позволяет указать какая спецификация OOXML будет использоваться при сохранении в формате DOCX.
 type: docs
-weight: 5060
+weight: 5340
 url: /ru/net/aspose.words.saving/ooxmlcompliance/
 ---
 ## OoxmlCompliance enumeration
@@ -18,8 +18,8 @@ public enum OoxmlCompliance
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| Ecma376_2006 | `0` | ECMA-376 1-е издание, 2006 г. |
-| Iso29500_2008_Transitional | `1` | ISO/IEC 29500:2008 Переходный уровень соответствия. |
+| Ecma376_2006 | `0` | ECMA-376, 1-е издание, 2006 г. |
+| Iso29500_2008_Transitional | `1` | Переходный уровень соответствия ISO/IEC 29500:2008. |
 | Iso29500_2008_Strict | `2` | Уровень строгого соответствия ISO/IEC 29500:2008. |
 
 ### Примеры
@@ -30,24 +30,24 @@ public enum OoxmlCompliance
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Ниже приведены два типа обтекания, которые могут иметь фигуры.
-// 1 - Плавающая:
+// Ниже приведены два типа переноса, которые могут иметь фигуры.
+// 1 - Плавающий:
 builder.InsertShape(ShapeType.TopCornersRounded, RelativeHorizontalPosition.Page, 100, 
         RelativeVerticalPosition.Page, 100, 50, 50, WrapType.None);
 
-// 2 - Встроенный:
+// 2 - Встроенное:
 builder.InsertShape(ShapeType.DiagonalCornersRounded, 50, 50);
 
-// Если вам нужно создать "не примитивные" формы, такие как SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
+// Если вам нужно создать «непримитивные» фигуры, такие как SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
 // TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded или DiagonalCornersRounded,
-// затем сохраните документ с соблюдением "Строгого" или "Переходного", что позволяет сохранять форму как DML.
+// затем сохраните документ со «Строгим» или «Переходным» соответствием, что позволяет сохранить форму в формате DML.
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(SaveFormat.Docx);
 saveOptions.Compliance = OoxmlCompliance.Iso29500_2008_Transitional;
 
 doc.Save(ArtifactsDir + "Shape.ShapeInsertion.docx", saveOptions);
 ```
 
-Показывает, как настроить список для перезапуска нумерации в каждом разделе.
+Показывает, как настроить список для возобновления нумерации в каждом разделе.
 
 ```csharp
 Document doc = new Document();
@@ -58,8 +58,8 @@ doc.Lists.Add(ListTemplate.NumberDefault);
 Aspose.Words.Lists.List list = doc.Lists[0];
 list.IsRestartAtEachSection = restartListAtEachSection;
 
-// Свойство "IsRestartAtEachSection" будет применяться только тогда, когда
-// уровень соответствия документа OOXML соответствует более новому стандарту, чем "OoxmlComplianceCore.Ecma376".
+// Свойство IsRestartAtEachSection будет применимо только тогда, когда
+// Уровень соответствия документа OOXML соответствует более новому стандарту, чем «OoxmlComplianceCore.Ecma376».
 OoxmlSaveOptions options = new OoxmlSaveOptions
 {
     Compliance = OoxmlCompliance.Iso29500_2008_Transitional
@@ -93,9 +93,9 @@ builder.InsertImage(ImageDir + "Transparent background logo.png");
 
 Assert.AreEqual(ShapeMarkupLanguage.Vml, ((Shape)doc.GetChild(NodeType.Shape, 0, true)).MarkupLanguage);
 
-// Стандарт OOXML "ISO/IEC 29500:2008" не поддерживает формы VML.
-// Если мы установим для свойства "Соответствие" объекта SaveOptions значение "OoxmlCompliance.Iso29500_2008_Strict",
- // любой документ, который мы сохраняем при передаче этого объекта, должен соответствовать этому стандарту.
+// Стандарт OOXML «ISO/IEC 29500:2008» не поддерживает формы VML.
+// Если мы установим для свойства «Соответствие» объекта SaveOptions значение «OoxmlCompliance.Iso29500_2008_Strict»,
+ // любой документ, который мы сохраняем при передаче этого объекта, должен будет соответствовать этому стандарту.
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions
 {
     Compliance = OoxmlCompliance.Iso29500_2008_Strict,
@@ -104,7 +104,7 @@ OoxmlSaveOptions saveOptions = new OoxmlSaveOptions
 
 doc.Save(ArtifactsDir + "OoxmlSaveOptions.Iso29500Strict.docx", saveOptions);
 
-// Наш сохраненный документ определяет форму с помощью DML, чтобы соответствовать стандарту OOXML "ISO/IEC 29500:2008".
+// Наш сохраненный документ определяет форму с использованием DML, чтобы соответствовать стандарту OOXML «ISO/IEC 29500:2008».
 doc = new Document(ArtifactsDir + "OoxmlSaveOptions.Iso29500Strict.docx");
 
 Assert.AreEqual(ShapeMarkupLanguage.Dml, ((Shape)doc.GetChild(NodeType.Shape, 0, true)).MarkupLanguage);

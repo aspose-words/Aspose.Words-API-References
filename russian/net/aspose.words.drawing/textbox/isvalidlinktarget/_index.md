@@ -1,14 +1,14 @@
 ---
 title: TextBox.IsValidLinkTarget
 second_title: Справочник по API Aspose.Words для .NET
-description: TextBox метод. Определяет может ли это TextBox быть связано с целевым TextBox.
+description: TextBox метод. Определяет является ли этоTextBox может быть привязан к целиTextBox .
 type: docs
-weight: 130
+weight: 140
 url: /ru/net/aspose.words.drawing/textbox/isvalidlinktarget/
 ---
 ## TextBox.IsValidLinkTarget method
 
-Определяет, может ли это TextBox быть связано с целевым TextBox.
+Определяет, является ли это[`TextBox`](../) может быть привязан к цели[`TextBox`](../) .
 
 ```csharp
 public bool IsValidLinkTarget(TextBox target)
@@ -37,7 +37,7 @@ builder.Writeln();
 Shape textBoxShape4 = builder.InsertShape(ShapeType.TextBox, 100, 100);
 TextBox textBox4 = textBoxShape4.TextBox;
 
-// Создать ссылки между некоторыми текстовыми полями.
+// Создаем ссылки между некоторыми текстовыми полями.
 if (textBox1.IsValidLinkTarget(textBox2))
     textBox1.Next = textBox2;
 
@@ -62,7 +62,7 @@ if (textBox3.Next == null && textBox3.Previous != null)
 {
     Console.WriteLine("This TextBox is the tail of the sequence");
 
-    // Разорвите прямую связь между textBox2 и textBox3, а затем убедитесь, что они больше не связаны.
+    // Разрыв прямой ссылки между textBox2 и textBox3, а затем проверяем, что они больше не связаны.
     textBox3.Previous.BreakForwardLink();
 
     Assert.IsTrue(textBox2.Next == null);

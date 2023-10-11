@@ -1,14 +1,14 @@
 ---
 title: ParagraphFormat.RightIndent
 second_title: Aspose.Words لمراجع .NET API
-description: ParagraphFormat ملكية. الحصول على أو تعيين القيمة بالنقاط التي تمثل المسافة البادئة اليمنى للفقرة .
+description: ParagraphFormat ملكية. الحصول على أو تعيين القيمة بالنقاط التي تمثل المسافة البادئة الصحيحة للفقرة.
 type: docs
-weight: 260
+weight: 270
 url: /ar/net/aspose.words/paragraphformat/rightindent/
 ---
 ## ParagraphFormat.RightIndent property
 
-الحصول على أو تعيين القيمة (بالنقاط) التي تمثل المسافة البادئة اليمنى للفقرة .
+الحصول على أو تعيين القيمة (بالنقاط) التي تمثل المسافة البادئة الصحيحة للفقرة.
 
 ```csharp
 public double RightIndent { get; set; }
@@ -22,9 +22,9 @@ public double RightIndent { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// توسيط كل النص الذي يكتبه منشئ المستندات ، وقم بإعداد المسافات البادئة.
-// سيُنشئ تكوين المسافة البادئة أدناه نصًا غير متماثل على الصفحة.
-// "المركز" الذي نقوم بمحاذاة النص إليه سيكون منتصف نص النص ، وليس منتصف الصفحة.
+// توسيط كل النص الذي يكتبه منشئ المستندات، وإعداد المسافات البادئة.
+// سيؤدي تكوين المسافة البادئة أدناه إلى إنشاء نص يتم وضعه بشكل غير متماثل على الصفحة.
+// "المركز" الذي نقوم بمحاذاة النص إليه سيكون منتصف نص النص، وليس منتصف الصفحة.
 ParagraphFormat paragraphFormat = builder.ParagraphFormat;
 paragraphFormat.Alignment = ParagraphAlignment.Center;
 paragraphFormat.LeftIndent = 100;

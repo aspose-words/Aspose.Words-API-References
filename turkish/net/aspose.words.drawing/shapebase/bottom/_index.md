@@ -1,14 +1,14 @@
 ---
 title: ShapeBase.Bottom
 second_title: Aspose.Words for .NET API Referansı
-description: ShapeBase mülk. Şeklin içeren bloğunun alt kenarının konumunu alır.
+description: ShapeBase mülk. Şeklin taşıyıcı bloğunun alt kenarının konumunu alır.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.drawing/shapebase/bottom/
 ---
 ## ShapeBase.Bottom property
 
-Şeklin içeren bloğunun alt kenarının konumunu alır.
+Şeklin taşıyıcı bloğunun alt kenarının konumunu alır.
 
 ```csharp
 public double Bottom { get; }
@@ -16,13 +16,13 @@ public double Bottom { get; }
 
 ### Notlar
 
-Üst düzey bir şekil için değer, nokta cinsindendir ve şekil bağlantısına göredir.
+Üst düzey bir şekil için değer nokta cinsindendir ve şekil bağlantısına göredir.
 
-Bir gruptaki şekiller için değer, üst grubun koordinat uzayında ve birimlerindedir.
+Bir gruptaki şekiller için değer, üst grubun koordinat alanında ve birimlerindedir.
 
 ### Örnekler
 
-Yüzen bir görüntünün nasıl ekleneceğini ve konumunu ve boyutunun nasıl belirleneceğini gösterir.
+Kayan bir görüntünün nasıl ekleneceğini ve konumunun ve boyutunun nasıl belirleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -32,17 +32,17 @@ Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
 shape.WrapType = WrapType.None;
 
 // "Left" özelliğinin değerini işlemek için şeklin "RelativeHorizontalPosition" özelliğini yapılandırın
- // şeklin sayfanın sol tarafından nokta cinsinden yatay mesafesi olarak.
+ // şeklin sayfanın sol tarafına nokta cinsinden yatay uzaklığı olarak.
 shape.RelativeHorizontalPosition = RelativeHorizontalPosition.Page;
 
-// Şeklin sayfanın sol tarafından yatay mesafesini 100 olarak ayarlayın.
+// Şeklin sayfanın sol tarafından yatay uzaklığını 100 olarak ayarlayın.
 shape.Left = 100;
 
-// Şekli 80pt sayfanın üst kısmından aşağıya konumlandırmak için "RelativeVerticalPosition" özelliğini benzer şekilde kullanın.
+// Şekli sayfanın üst kısmının 80pt altına konumlandırmak için "RelativeVerticalPosition" özelliğini benzer şekilde kullanın.
 shape.RelativeVerticalPosition = RelativeVerticalPosition.Page;
 shape.Top = 80;
 
-// Boyutları korumak için genişliği otomatik olarak ölçekleyecek şeklin yüksekliğini ayarlayın.
+// Boyutu korumak için genişliği otomatik olarak ölçeklendirecek şekilde şeklin yüksekliğini ayarlayın.
 shape.Height = 125;
 
 Assert.AreEqual(125.0d, shape.Width);

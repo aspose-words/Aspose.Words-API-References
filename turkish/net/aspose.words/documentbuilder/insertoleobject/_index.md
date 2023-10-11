@@ -1,14 +1,14 @@
 ---
 title: DocumentBuilder.InsertOleObject
 second_title: Aspose.Words for .NET API Referansı
-description: DocumentBuilder yöntem. Bir akıştan belgeye katıştırılmış bir OLE nesnesi ekler.
+description: DocumentBuilder yöntem. Bir akıştan katıştırılmış bir OLE nesnesini belgeye ekler.
 type: docs
-weight: 370
+weight: 400
 url: /tr/net/aspose.words/documentbuilder/insertoleobject/
 ---
 ## InsertOleObject(Stream, string, bool, Stream) {#insertoleobject}
 
-Bir akıştan belgeye katıştırılmış bir OLE nesnesi ekler.
+Bir akıştan katıştırılmış bir OLE nesnesini belgeye ekler.
 
 ```csharp
 public Shape InsertOleObject(Stream stream, string progId, bool asIcon, Stream presentation)
@@ -17,9 +17,9 @@ public Shape InsertOleObject(Stream stream, string progId, bool asIcon, Stream p
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
 | stream | Stream | Uygulama verilerini içeren akış. |
-| progId | String | OLE nesnesinin Programlı Tanımlayıcısı. |
-| asIcon | Boolean | Eklenmekte olan OLE nesnesinin İkonik veya Normal modunu belirtir. |
-| presentation | Stream | OLE nesnesinin görüntü sunumu. Eğer değer null ise Aspose.Words önceden tanımlanmış imajlardan birini kullanacaktır. |
+| progId | String | OLE nesnesinin Programatik Tanımlayıcısı. |
+| asIcon | Boolean | Eklenen OLE nesnesinin İkonik veya Normal modunu belirtir. |
+| presentation | Stream | OLE nesnesinin görüntü sunumu. Değer ise`hükümsüz` Aspose.Words önceden tanımlanmış görsellerden birini kullanacaktır. |
 
 ### Geri dönüş değeri
 
@@ -27,7 +27,7 @@ Ole nesnesini içeren ve geçerli Oluşturucu konumuna eklenen şekil düğümü
 
 ### Örnekler
 
-OLE nesnelerini bir belgeye gömmek için belge oluşturucunun nasıl kullanılacağını gösterir.
+OLE nesnelerini bir belgeye katıştırmak için belge oluşturucunun nasıl kullanılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -38,16 +38,16 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 using (Stream spreadsheetStream = File.Open(MyDir + "Spreadsheet.xlsx", FileMode.Open))
 {
     builder.Writeln("Spreadsheet Ole object:");
-    // 'Sunum' atlanırsa ve 'asIcon' ayarlanırsa, bu aşırı yüklenmiş yöntem
+    // 'Sunum' atlanırsa ve 'asIcon' ayarlıysa, bu aşırı yüklenmiş yöntem seçer
     // 'progId'e göre simge ve önceden tanımlanmış simge başlığını kullanır.
     builder.InsertOleObject(spreadsheetStream, "OleObject.xlsx", false, null);
 }
 
-// OLE nesnesi olarak bir Microsoft Powerpoint sunumu ekleyin.
-// Bu sefer, bir simge için web'den indirilmiş bir görüntüye sahip olacak.
+// Bir Microsoft Powerpoint sunumunu OLE nesnesi olarak ekleyin.
+// Bu sefer, bir simge için web'den indirilmiş bir görsele sahip olacak.
 using (Stream powerpointStream = File.Open(MyDir + "Presentation.pptx", FileMode.Open))
 {
-    using (WebClient webClient = new WebClient())
+    using (HttpClient httpClient = new HttpClient())
     {
         byte[] imgBytes = File.ReadAllBytes(ImageDir + "Logo.jpg");
 
@@ -61,7 +61,7 @@ using (Stream powerpointStream = File.Open(MyDir + "Presentation.pptx", FileMode
 }
 
 // Microsoft Word'de bu nesneleri açmak için çift tıklayın
-// ilgili uygulamaları kullanarak bağlantılı dosyalar.
+// bağlantılı dosyalar ilgili uygulamaları kullanarak.
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertOleObjects.docx");
 ```
 
@@ -76,7 +76,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOleObjects.docx");
 
 ## InsertOleObject(string, bool, bool, Stream) {#insertoleobject_1}
 
-Bir dosyadan belgeye katıştırılmış veya bağlantılı bir OLE nesnesi ekler. Dosya uzantısını kullanarak OLE nesne türünü algılar.
+Katıştırılmış veya bağlantılı bir OLE nesnesini bir dosyadan belgeye ekler. Dosya uzantısını kullanarak OLE nesne türünü algılar.
 
 ```csharp
 public Shape InsertOleObject(string fileName, bool isLinked, bool asIcon, Stream presentation)
@@ -85,9 +85,9 @@ public Shape InsertOleObject(string fileName, bool isLinked, bool asIcon, Stream
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
 | fileName | String | Dosyanın tam yolu. |
-| isLinked | Boolean | Doğruysa, bağlantılı OLE nesnesi eklenir, aksi takdirde gömülü OLE nesnesi eklenir. |
-| asIcon | Boolean | Eklenmekte olan OLE nesnesinin İkonik veya Normal modunu belirtir. |
-| presentation | Stream | OLE nesnesinin görüntü sunumu. Eğer değer null ise Aspose.Words önceden tanımlanmış imajlardan birini kullanacaktır. |
+| isLinked | Boolean | Eğer`doğru` daha sonra bağlantılı OLE nesnesi eklenir, aksi takdirde gömülü OLE nesnesi eklenir. |
+| asIcon | Boolean | Eklenen OLE nesnesinin İkonik veya Normal modunu belirtir. |
+| presentation | Stream | OLE nesnesinin görüntü sunumu. Değer ise`hükümsüz` Aspose.Words önceden tanımlanmış görsellerden birini kullanacaktır. |
 
 ### Geri dönüş değeri
 
@@ -95,31 +95,31 @@ Ole nesnesini içeren ve geçerli Oluşturucu konumuna eklenen şekil düğümü
 
 ### Örnekler
 
-Bir OLE nesnesinin bir belgeye nasıl ekleneceğini gösterir.
+Bir OLE nesnesinin belgeye nasıl ekleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // OLE nesneleri, yerel dosya sistemimizdeki diğer yüklü uygulamalar tarafından açılabilen dosyalara bağlantılardır.
-// Bu şekillere çift tıklamak uygulamayı başlatacak ve ardından bağlantılı nesneyi açmak için kullanacaktır.
+// Bu şekillere çift tıklamak uygulamayı başlatacak ve ardından bağlantılı nesneyi açmak için onu kullanacak.
 // Bu şekilleri eklemek ve görünümlerini yapılandırmak için InsertOleObject yöntemini kullanmanın üç yolu vardır.
-// 1 - Yerel dosya sisteminden alınan görüntü:
+// 1 - Yerel dosya sisteminden alınan resim:
 using (FileStream imageStream = new FileStream(ImageDir + "Logo.jpg", FileMode.Open))
 {
-    // 'Sunum' atlanırsa ve 'asIcon' ayarlanırsa, bu aşırı yüklenmiş yöntem
-    // dosya uzantısına göre simge ve simge başlığı için dosya adını kullanır.
+    // 'Sunum' atlanırsa ve 'asIcon' ayarlıysa, bu aşırı yüklenmiş yöntem seçer
+    // simge dosya uzantısına göre belirlenir ve simge başlığı için dosya adı kullanılır.
     builder.InsertOleObject(MyDir + "Spreadsheet.xlsx", false, false, imageStream); 
 }
 
-// 'Sunum' atlanırsa ve 'asIcon' ayarlanırsa, bu aşırı yüklenmiş yöntem
+// 'Sunum' atlanırsa ve 'asIcon' ayarlıysa, bu aşırı yüklenmiş yöntem seçer
 // 'progId'e göre simge ve simge başlığı için dosya adını kullanır.
 // 2 - Nesneyi açacak uygulamaya dayalı simge:
 builder.InsertOleObject(MyDir + "Spreadsheet.xlsx", "Excel.Sheet", false, true, null);
 
-// 'iconFile' ve 'iconCaption' atlanırsa, bu aşırı yüklenmiş yöntem
+// 'iconFile' ve 'iconCaption' atlanırsa, bu aşırı yüklenmiş yöntem seçer
 // 'progId'e göre simge ve önceden tanımlanmış simge başlığını kullanır.
-// 3 - Yerel dosya sisteminden 32 x 32 piksel veya daha küçük olan ve özel bir altyazıyla görüntü simgesi:
+// 3 - Yerel dosya sisteminden 32 x 32 piksel veya daha küçük, özel bir başlık içeren resim simgesi:
 builder.InsertOleObjectAsIcon(MyDir + "Presentation.pptx", false, ImageDir + "Logo icon.ico",
     "Double click to view presentation!");
 
@@ -137,7 +137,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOleObject.docx");
 
 ## InsertOleObject(string, string, bool, bool, Stream) {#insertoleobject_2}
 
-Bir dosyadan belgeye katıştırılmış veya bağlantılı bir OLE nesnesi ekler. Verilen progID parametresini kullanarak OLE nesne türünü algılar.
+Katıştırılmış veya bağlantılı bir OLE nesnesini bir dosyadan belgeye ekler. Verilen progID parametresini kullanarak OLE nesne türünü algılar.
 
 ```csharp
 public Shape InsertOleObject(string fileName, string progId, bool isLinked, bool asIcon, 
@@ -147,10 +147,10 @@ public Shape InsertOleObject(string fileName, string progId, bool isLinked, bool
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
 | fileName | String | Dosyanın tam yolu. |
-| progId | String | OLE nesnesinin ProgId'si. |
-| isLinked | Boolean | Doğruysa, bağlantılı OLE nesnesi eklenir, aksi takdirde gömülü OLE nesnesi eklenir. |
-| asIcon | Boolean | Eklenmekte olan OLE nesnesinin İkonik veya Normal modunu belirtir. |
-| presentation | Stream | OLE nesnesinin görüntü sunumu. Eğer değer null ise Aspose.Words önceden tanımlanmış imajlardan birini kullanacaktır. |
+| progId | String | OLE nesnesinin ProgID'si. |
+| isLinked | Boolean | Eğer`doğru` daha sonra bağlantılı OLE nesnesi eklenir, aksi takdirde gömülü OLE nesnesi eklenir. |
+| asIcon | Boolean | Eklenen OLE nesnesinin İkonik veya Normal modunu belirtir. |
+| presentation | Stream | OLE nesnesinin görüntü sunumu. Değer ise`hükümsüz` Aspose.Words önceden tanımlanmış görsellerden birini kullanacaktır. |
 
 ### Geri dönüş değeri
 
@@ -158,31 +158,31 @@ Ole nesnesini içeren ve geçerli Oluşturucu konumuna eklenen şekil düğümü
 
 ### Örnekler
 
-Bir OLE nesnesinin bir belgeye nasıl ekleneceğini gösterir.
+Bir OLE nesnesinin belgeye nasıl ekleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // OLE nesneleri, yerel dosya sistemimizdeki diğer yüklü uygulamalar tarafından açılabilen dosyalara bağlantılardır.
-// Bu şekillere çift tıklamak uygulamayı başlatacak ve ardından bağlantılı nesneyi açmak için kullanacaktır.
+// Bu şekillere çift tıklamak uygulamayı başlatacak ve ardından bağlantılı nesneyi açmak için onu kullanacak.
 // Bu şekilleri eklemek ve görünümlerini yapılandırmak için InsertOleObject yöntemini kullanmanın üç yolu vardır.
-// 1 - Yerel dosya sisteminden alınan görüntü:
+// 1 - Yerel dosya sisteminden alınan resim:
 using (FileStream imageStream = new FileStream(ImageDir + "Logo.jpg", FileMode.Open))
 {
-    // 'Sunum' atlanırsa ve 'asIcon' ayarlanırsa, bu aşırı yüklenmiş yöntem
-    // dosya uzantısına göre simge ve simge başlığı için dosya adını kullanır.
+    // 'Sunum' atlanırsa ve 'asIcon' ayarlıysa, bu aşırı yüklenmiş yöntem seçer
+    // simge dosya uzantısına göre belirlenir ve simge başlığı için dosya adı kullanılır.
     builder.InsertOleObject(MyDir + "Spreadsheet.xlsx", false, false, imageStream); 
 }
 
-// 'Sunum' atlanırsa ve 'asIcon' ayarlanırsa, bu aşırı yüklenmiş yöntem
+// 'Sunum' atlanırsa ve 'asIcon' ayarlıysa, bu aşırı yüklenmiş yöntem seçer
 // 'progId'e göre simge ve simge başlığı için dosya adını kullanır.
 // 2 - Nesneyi açacak uygulamaya dayalı simge:
 builder.InsertOleObject(MyDir + "Spreadsheet.xlsx", "Excel.Sheet", false, true, null);
 
-// 'iconFile' ve 'iconCaption' atlanırsa, bu aşırı yüklenmiş yöntem
+// 'iconFile' ve 'iconCaption' atlanırsa, bu aşırı yüklenmiş yöntem seçer
 // 'progId'e göre simge ve önceden tanımlanmış simge başlığını kullanır.
-// 3 - Yerel dosya sisteminden 32 x 32 piksel veya daha küçük olan ve özel bir altyazıyla görüntü simgesi:
+// 3 - Yerel dosya sisteminden 32 x 32 piksel veya daha küçük, özel bir başlık içeren resim simgesi:
 builder.InsertOleObjectAsIcon(MyDir + "Presentation.pptx", false, ImageDir + "Logo icon.ico",
     "Double click to view presentation!");
 

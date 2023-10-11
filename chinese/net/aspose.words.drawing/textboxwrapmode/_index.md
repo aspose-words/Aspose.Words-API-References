@@ -3,7 +3,7 @@ title: Enum TextBoxWrapMode
 second_title: Aspose.Words for .NET API 参考
 description: Aspose.Words.Drawing.TextBoxWrapMode 枚举. 指定文本在形状内的换行方式
 type: docs
-weight: 1190
+weight: 1340
 url: /zh/net/aspose.words.drawing/textboxwrapmode/
 ---
 ## TextBoxWrapMode enumeration
@@ -18,12 +18,12 @@ public enum TextBoxWrapMode
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Square | `0` | 文本在形状内换行。 |
-| None | `2` | 文本不会在形状内换行。 |
+| Square | `0` | 文本环绕在形状内。 |
+| None | `2` | 文本未包裹在形状内。 |
 
 ### 例子
 
-演示如何为文本框的内容设置换行模式。
+演示如何设置文本框内容的换行模式。
 
 ```csharp
 Document doc = new Document();
@@ -33,9 +33,9 @@ Shape textBoxShape = builder.InsertShape(ShapeType.TextBox, 300, 300);
 TextBox textBox = textBoxShape.TextBox;
 
 // 将“TextBoxWrapMode”属性设置为“TextBoxWrapMode.None”以增加文本框的宽度
-// 容纳文本，是否足够大。
-// 将“TextBoxWrapMode”属性设置为“TextBoxWrapMode.Square”以
-// 将所有文本包装在文本框中，保留其尺寸。
+// 为了容纳文本，它是否足够大。
+// 将“TextBoxWrapMode”属性设置为“TextBoxWrapMode.Square”即可
+// 将所有文本包裹在文本框中，保留其尺寸。
 textBox.TextBoxWrapMode = textBoxWrapMode;
 
 builder.MoveTo(textBoxShape.LastParagraph);

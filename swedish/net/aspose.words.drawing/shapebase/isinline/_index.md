@@ -3,7 +3,7 @@ title: ShapeBase.IsInline
 second_title: Aspose.Words för .NET API Referens
 description: ShapeBase fast egendom. Ett snabbt sätt att avgöra om denna form är placerad i linje med text.
 type: docs
-weight: 280
+weight: 290
 url: /sv/net/aspose.words.drawing/shapebase/isinline/
 ---
 ## ShapeBase.IsInline property

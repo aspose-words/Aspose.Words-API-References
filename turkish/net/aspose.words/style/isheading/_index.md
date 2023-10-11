@@ -3,12 +3,12 @@ title: Style.IsHeading
 second_title: Aspose.Words for .NET API Referansı
 description: Style mülk. Stil yerleşik Başlık stillerinden biri olduğunda doğrudur.
 type: docs
-weight: 60
+weight: 70
 url: /tr/net/aspose.words/style/isheading/
 ---
 ## Style.IsHeading property
 
-Stil, yerleşik Başlık stillerinden biri olduğunda doğrudur.
+Stil yerleşik Başlık stillerinden biri olduğunda doğrudur.
 
 ```csharp
 public bool IsHeading { get; }

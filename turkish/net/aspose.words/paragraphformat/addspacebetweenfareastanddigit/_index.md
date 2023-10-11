@@ -1,14 +1,14 @@
 ---
 title: ParagraphFormat.AddSpaceBetweenFarEastAndDigit
 second_title: Aspose.Words for .NET API Referansı
-description: ParagraphFormat mülk. Geçerli paragrafta Doğu Asya metninin bölgeleri ve bölgeleri arasında karakter aralığının otomatik olarak ayarlanıp ayarlanmadığını belirten bir bayrak alır veya ayarlar.
+description: ParagraphFormat mülk. Geçerli paragraftaki Doğu Asya metninin bölgeleri ve bölgeleri arasında karakterlerarası aralığın otomatik olarak ayarlanıp ayarlanmadığını belirten bir bayrak alır veya ayarlar.
 type: docs
 weight: 20
 url: /tr/net/aspose.words/paragraphformat/addspacebetweenfareastanddigit/
 ---
 ## ParagraphFormat.AddSpaceBetweenFarEastAndDigit property
 
-Geçerli paragrafta Doğu Asya metninin bölgeleri ve bölgeleri arasında karakter aralığının otomatik olarak ayarlanıp ayarlanmadığını belirten bir bayrak alır veya ayarlar.
+Geçerli paragraftaki Doğu Asya metninin bölgeleri ve bölgeleri arasında karakterlerarası aralığın otomatik olarak ayarlanıp ayarlanmadığını belirten bir bayrak alır veya ayarlar.
 
 ```csharp
 public bool AddSpaceBetweenFarEastAndDigit { get; set; }
@@ -36,7 +36,7 @@ paragraphFormat.AddSpaceBetweenFarEastAndAlpha = true;
 paragraphFormat.AddSpaceBetweenFarEastAndDigit = true;
 paragraphFormat.KeepTogether = true;
 
-// "Writeln" yöntemi, metni ekledikten sonra paragrafı sonlandırır
+// "Writeln" yöntemi, metin eklendikten sonra paragrafı sonlandırır
 // ve ardından yeni bir paragraf ekleyerek yeni bir satır başlatır.
 builder.Writeln("Hello world!");
 

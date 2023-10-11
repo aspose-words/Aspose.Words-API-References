@@ -3,7 +3,7 @@ title: HtmlSaveOptions.ExportFontsAsBase64
 second_title: Aspose.Words per .NET API Reference
 description: HtmlSaveOptions proprietà. Specifica se le risorse dei caratteri devono essere incorporate nellHTML nella codifica Base64. Limpostazione predefinita èfalso .
 type: docs
-weight: 160
+weight: 150
 url: /it/net/aspose.words.saving/htmlsaveoptions/exportfontsasbase64/
 ---
 ## HtmlSaveOptions.ExportFontsAsBase64 property
@@ -16,7 +16,7 @@ public bool ExportFontsAsBase64 { get; set; }
 
 ### Osservazioni
 
-Per impostazione predefinita, i caratteri vengono scritti in file separati. Se questa opzione è impostata su`VERO`, i caratteri verranno incorporati nel CSS del documento nella codifica Base64.
+Per impostazione predefinita, i caratteri vengono scritti in file separati. Se questa opzione è impostata su`VERO`, i caratteri verranno incorporati nel CSS del documento con la codifica Base64.
 
 ### Esempi
 

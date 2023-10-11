@@ -16,7 +16,7 @@ public LoadOptions()
 
 ### Beispiele
 
-Zeigt, wie ein HTML-Dokument mit Bildern aus einem Stream mit einem Basis-URI geöffnet wird.
+Zeigt, wie man mithilfe eines Basis-URI ein HTML-Dokument mit Bildern aus einem Stream öffnet.
 
 ```csharp
 using (Stream stream = File.OpenRead(MyDir + "Document.html"))
@@ -28,7 +28,7 @@ using (Stream stream = File.OpenRead(MyDir + "Document.html"))
 
     Document doc = new Document(stream, loadOptions);
 
-    // Prüfen, ob die erste Form des Dokuments ein gültiges Bild enthält.
+    // Überprüfen Sie, ob die erste Form des Dokuments ein gültiges Bild enthält.
     Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
 
     Assert.IsTrue(shape.IsImage);
@@ -48,7 +48,7 @@ using (Stream stream = File.OpenRead(MyDir + "Document.html"))
 
 ## LoadOptions(string) {#constructor_2}
 
-Eine Verknüpfung zum Initialisieren einer neuen Instanz dieser Klasse mit dem angegebenen Passwort zum Laden eines verschlüsselten Dokuments.
+Eine Verknüpfung zum Initialisieren einer neuen Instanz dieser Klasse mit dem angegebenen Kennwort, um ein verschlüsseltes Dokument zu laden.
 
 ```csharp
 public LoadOptions(string password)
@@ -56,7 +56,7 @@ public LoadOptions(string password)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| password | String | Das Passwort zum Öffnen eines verschlüsselten Dokuments. Kann null oder eine leere Zeichenfolge sein. |
+| password | String | Das Passwort zum Öffnen eines verschlüsselten Dokuments. Kann sein`Null` oder leere Zeichenfolge. |
 
 ### Beispiele
 
@@ -72,12 +72,13 @@ Assert.Throws<IncorrectPasswordException>(() => doc = new Document(MyDir + "Encr
 LoadOptions options = new LoadOptions("docPassword");
 
 // Es gibt zwei Möglichkeiten, ein verschlüsseltes Dokument mit einem LoadOptions-Objekt zu laden.
-// 1 - Laden Sie das Dokument aus dem lokalen Dateisystem nach Dateiname:
+// 1 – Laden Sie das Dokument anhand des Dateinamens aus dem lokalen Dateisystem:
 doc = new Document(MyDir + "Encrypted.docx", options);
-// 2 - Laden Sie das Dokument aus einem Stream:
+// 2 – Laden Sie das Dokument aus einem Stream:
 using (Stream stream = File.OpenRead(MyDir + "Encrypted.docx"))
 {
     doc = new Document(stream, options);
+}
 ```
 
 ### Siehe auch
@@ -90,7 +91,7 @@ using (Stream stream = File.OpenRead(MyDir + "Encrypted.docx"))
 
 ## LoadOptions(LoadFormat, string, string) {#constructor_1}
 
-Eine Verknüpfung zum Initialisieren einer neuen Instanz dieser Klasse mit auf die angegebenen Werte gesetzten Eigenschaften.
+Eine Verknüpfung zum Initialisieren einer neuen Instanz dieser Klasse mit Eigenschaften, die auf die angegebenen Werte festgelegt sind.
 
 ```csharp
 public LoadOptions(LoadFormat loadFormat, string password, string baseUri)
@@ -99,45 +100,46 @@ public LoadOptions(LoadFormat loadFormat, string password, string baseUri)
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | loadFormat | LoadFormat | Das Format des zu ladenden Dokuments. |
-| password | String | Das Passwort zum Öffnen eines verschlüsselten Dokuments. Kann null oder eine leere Zeichenfolge sein. |
-| baseUri | String | Die Zeichenfolge, die verwendet wird, um relative URIs in absolute aufzulösen. Kann null oder eine leere Zeichenfolge sein. |
+| password | String | Das Passwort zum Öffnen eines verschlüsselten Dokuments. Kann sein`Null` oder leere Zeichenfolge. |
+| baseUri | String | Die Zeichenfolge, die zum Auflösen relativer URIs in absolute verwendet wird. Kann sein`Null` oder leere Zeichenfolge. |
 
 ### Beispiele
 
 Zeigt, wie eine Webseite als .docx-Datei gespeichert wird.
 
 ```csharp
-const string url = "http://www.aspose.com/";
+const string url = "https://www.aspose.com/";
 
-using (WebClient client = new WebClient()) 
-{ 
-    using (MemoryStream stream = new MemoryStream(client.DownloadData(url)))
+using (HttpClient client = new HttpClient()) 
+{
+    var bytes = await client.GetByteArrayAsync(url);
+    using (MemoryStream stream = new MemoryStream(bytes))
     {
-        // Die URL wird erneut als baseUri verwendet, um sicherzustellen, dass alle relativen Bildpfade korrekt abgerufen werden.
+        // Die URL wird erneut als BaseUri verwendet, um sicherzustellen, dass alle relativen Bildpfade korrekt abgerufen werden.
         LoadOptions options = new LoadOptions(LoadFormat.Html, "", url);
 
         // Laden Sie das HTML-Dokument aus dem Stream und übergeben Sie das LoadOptions-Objekt.
         Document doc = new Document(stream, options);
 
-        // An dieser Stelle können wir den Inhalt des Dokuments lesen und bearbeiten und es dann im lokalen Dateisystem speichern.
+        // In dieser Phase können wir den Inhalt des Dokuments lesen und bearbeiten und es dann im lokalen Dateisystem speichern.
         doc.Save(ArtifactsDir + "Document.InsertHtmlFromWebPage.docx");
     }
 }
 ```
 
-Zeigt, wie beim Öffnen eines HTML-Dokuments ein Basis-URI angegeben wird.
+Zeigt, wie man beim Öffnen eines HTML-Dokuments einen Basis-URI angibt.
 
 ```csharp
-// Angenommen, wir möchten ein .html-Dokument laden, das ein Bild enthält, das durch einen relativen URI verknüpft ist
+// Angenommen, wir möchten ein HTML-Dokument laden, das ein durch einen relativen URI verknüpftes Bild enthält
 // während sich das Bild an einem anderen Ort befindet. In diesem Fall müssen wir den relativen URI in einen absoluten auflösen.
- // Wir können einen Basis-URI mit einem HtmlLoadOptions-Objekt bereitstellen.
+ // Wir können einen Basis-URI mithilfe eines HtmlLoadOptions-Objekts bereitstellen.
 HtmlLoadOptions loadOptions = new HtmlLoadOptions(LoadFormat.Html, "", ImageDir);
 
 Assert.AreEqual(LoadFormat.Html, loadOptions.LoadFormat);
 
 Document doc = new Document(MyDir + "Missing image.html", loadOptions);
 
-// Während das Bild in der Eingabe-.html-Datei beschädigt war, half uns unsere benutzerdefinierte Basis-URI, den Link zu reparieren.
+// Während das Bild in der Eingabe-HTML-Datei defekt war, half uns unser benutzerdefinierter Basis-URI, den Link zu reparieren.
 Shape imageShape = (Shape)doc.GetChildNodes(NodeType.Shape, true)[0];
 Assert.True(imageShape.IsImage);
 

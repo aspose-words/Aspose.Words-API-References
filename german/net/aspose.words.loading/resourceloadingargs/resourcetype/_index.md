@@ -16,17 +16,18 @@ public ResourceType ResourceType { get; }
 
 ### Beispiele
 
-Zeigt, wie der Vorgang zum Laden externer Ressourcen in ein Dokument angepasst wird.
+Zeigt, wie Sie den Prozess des Ladens externer Ressourcen in ein Dokument anpassen.
 
 ```csharp
+public void ResourceLoadingCallback()
 {
     Document doc = new Document();
     doc.ResourceLoadingCallback = new ImageNameHandler();
 
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Bilder werden normalerweise mit einem URI oder einem Byte-Array eingefügt.
-    // Jede Instanz einer Ressourcenlast ruft die ResourceLoading-Methode unseres Callbacks auf.
+    // Bilder werden normalerweise über einen URI oder ein Byte-Array eingefügt.
+    // Jede Instanz einer Ressourcenlast ruft die ResourceLoading-Methode unseres Rückrufs auf.
     builder.InsertImage("Google logo");
     builder.InsertImage("Aspose logo");
     builder.InsertImage("Watermark");
@@ -34,16 +35,17 @@ Zeigt, wie der Vorgang zum Laden externer Ressourcen in ein Dokument angepasst w
     Assert.AreEqual(3, doc.GetChildNodes(NodeType.Shape, true).Count);
 
     doc.Save(ArtifactsDir + "DocumentBase.ResourceLoadingCallback.docx");
+}
 
 /// <summary>
-/// Ermöglicht das Laden von Bildern in ein Dokument mit vordefinierten Abkürzungen, im Gegensatz zu URIs.
+/// Ermöglicht das Laden von Bildern in ein Dokument mithilfe vordefinierter Abkürzungen im Gegensatz zu URIs.
 /// Dadurch wird die Bildladelogik vom Rest der Dokumentkonstruktion getrennt.
 /// </summary>
 private class ImageNameHandler : IResourceLoadingCallback
 {
     public ResourceLoadingAction ResourceLoading(ResourceLoadingArgs args)
     {
-        // Wenn dieser Callback beim Laden eines Bildes auf eine der Bildkürzel stößt,
+        // Wenn dieser Rückruf beim Laden eines Bildes auf eine der Bildkürzel stößt,
         // Es wird eine eindeutige Logik für jede definierte Abkürzung angewendet, anstatt sie als URI zu behandeln.
         if (args.ResourceType == ResourceType.Image)
             switch (args.OriginalUri)

@@ -1,14 +1,14 @@
 ---
 title: ParagraphCollection.ToArray
 second_title: Aspose.Words لمراجع .NET API
-description: ParagraphCollection طريقة. ينسخ كل الفقرات من المجموعة إلى مصفوفة جديدة من الفقرات.
+description: ParagraphCollection طريقة. نسخ كافة الفقرات من المجموعة إلى مجموعة جديدة من الفقرات.
 type: docs
 weight: 20
 url: /ar/net/aspose.words/paragraphcollection/toarray/
 ---
 ## ParagraphCollection.ToArray method
 
-ينسخ كل الفقرات من المجموعة إلى مصفوفة جديدة من الفقرات.
+نسخ كافة الفقرات من المجموعة إلى مجموعة جديدة من الفقرات.
 
 ```csharp
 public Paragraph[] ToArray()
@@ -20,7 +20,7 @@ public Paragraph[] ToArray()
 
 ### أمثلة
 
-يوضح كيفية إنشاء مصفوفة من مجموعة NodeCollection.
+يوضح كيفية إنشاء مصفوفة من NodeCollection.
 
 ```csharp
 Document doc = new Document(MyDir + "Paragraphs.docx");
@@ -41,7 +41,7 @@ builder.Writeln("The second paragraph");
 builder.Writeln("The third paragraph");
 builder.Writeln("The fourth paragraph");
 
-// إزالة عقدة من المجموعة في منتصف التعداد.
+// قم بإزالة عقدة من المجموعة الموجودة في منتصف التعداد.
 foreach (Paragraph para in doc.FirstSection.Body.Paragraphs.ToArray())
     if (para.Range.Text.Contains("third"))
         para.Remove();

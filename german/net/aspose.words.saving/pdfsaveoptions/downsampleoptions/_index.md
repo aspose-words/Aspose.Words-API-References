@@ -1,14 +1,14 @@
 ---
 title: PdfSaveOptions.DownsampleOptions
 second_title: Aspose.Words für .NET-API-Referenz
-description: PdfSaveOptions eigendom. Ermöglicht das Festlegen von DownsampleOptionen.
+description: PdfSaveOptions eigendom. Ermöglicht die Angabe von DownsamplingOptionen.
 type: docs
-weight: 90
+weight: 100
 url: /de/net/aspose.words.saving/pdfsaveoptions/downsampleoptions/
 ---
 ## PdfSaveOptions.DownsampleOptions property
 
-Ermöglicht das Festlegen von Downsample-Optionen.
+Ermöglicht die Angabe von Downsampling-Optionen.
 
 ```csharp
 public DownsampleOptions DownsampleOptions { get; set; }
@@ -21,25 +21,25 @@ Zeigt, wie die Auflösung von Bildern im PDF-Dokument geändert wird.
 ```csharp
 Document doc = new Document(MyDir + "Images.docx");
 
-// Erstellen Sie ein "PdfSaveOptions"-Objekt, das wir an die "Save"-Methode des Dokuments übergeben können
+// Erstellen Sie ein „PdfSaveOptions“-Objekt, das wir an die „Save“-Methode des Dokuments übergeben können
 // um zu ändern, wie diese Methode das Dokument in .PDF konvertiert.
 PdfSaveOptions options = new PdfSaveOptions();
 
-// Standardmäßig verkleinert Aspose.Words alle Bilder in einem Dokument, das wir als PDF speichern, auf 220 ppi.
+// Standardmäßig skaliert Aspose.Words alle Bilder in einem Dokument, das wir als PDF speichern, auf 220 ppi herunter.
 Assert.True(options.DownsampleOptions.DownsampleImages);
 Assert.AreEqual(220, options.DownsampleOptions.Resolution);
 Assert.AreEqual(0, options.DownsampleOptions.ResolutionThreshold);
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.DownsampleOptions.Default.pdf", options);
 
-// Setzen Sie die Eigenschaft "Auflösung" auf "36", um alle Bilder auf 36 ppi herunterzurechnen.
+// Setzen Sie die Eigenschaft „Resolution“ auf „36“, um alle Bilder auf 36 ppi herunterzurechnen.
 options.DownsampleOptions.Resolution = 36;
 
-// Legen Sie die Eigenschaft "ResolutionThreshold" fest, um nur das Downsampling anzuwenden
-// Bilder mit einer Auflösung von über 128 ppi.
+// Legen Sie die Eigenschaft „ResolutionThreshold“ so fest, dass nur das Downsampling angewendet wird
+// Bilder mit einer Auflösung, die über 128 ppi liegt.
 options.DownsampleOptions.ResolutionThreshold = 128;
 
-// Zu diesem Zeitpunkt werden nur die ersten beiden Bilder des Dokuments heruntergerechnet.
+// Nur die ersten beiden Bilder des Dokuments werden zu diesem Zeitpunkt heruntergerechnet.
 doc.Save(ArtifactsDir + "PdfSaveOptions.DownsampleOptions.LowerResolution.pdf", options);
 ```
 

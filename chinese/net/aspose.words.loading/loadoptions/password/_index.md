@@ -1,14 +1,14 @@
 ---
 title: LoadOptions.Password
 second_title: Aspose.Words for .NET API 参考
-description: LoadOptions 财产. 获取或设置打开加密文档的密码 可以是空字符串或空字符串默认为空
+description: LoadOptions 财产. 获取或设置打开加密文档的密码 可以无效的或空字符串默认为无效的.
 type: docs
 weight: 110
 url: /zh/net/aspose.words.loading/loadoptions/password/
 ---
 ## LoadOptions.Password property
 
-获取或设置打开加密文档的密码。 可以是空字符串或空字符串。默认为空。
+获取或设置打开加密文档的密码。 可以`无效的`或空字符串。默认为`无效的`.
 
 ```csharp
 public string Password { get; set; }
@@ -16,17 +16,17 @@ public string Password { get; set; }
 
 ### 评论
 
-您需要知道打开加密文档的密码。如果文档未加密，请将其设置为 null 或空字符串。
+您需要知道密码才能打开加密文档。如果文档未加密，请将其设置为`无效的`或空字符串。
 
 ### 例子
 
-显示如何签署加密的文档文件。
+演示如何签署加密的文档文件。
 
 ```csharp
-// 从 PKCS#12 存储创建 X.509 证书，其中应包含私钥。
+// 从 PKCS#12 存储创建 X.509 证书，该证书应包含私钥。
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw");
 
-// 创建一个评论、日期和解密密码，这些密码将与我们的新数字签名一起应用。
+// 创建评论、日期和解密密码，这些密码将与我们的新数字签名一起应用。
 SignOptions signOptions = new SignOptions
 {
     Comments = "Comment",

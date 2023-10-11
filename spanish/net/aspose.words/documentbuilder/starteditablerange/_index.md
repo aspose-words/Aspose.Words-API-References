@@ -3,7 +3,7 @@ title: DocumentBuilder.StartEditableRange
 second_title: Referencia de API de Aspose.Words para .NET
 description: DocumentBuilder método. Marca la posición actual en el documento como un inicio de rango editable.
 type: docs
-weight: 600
+weight: 640
 url: /es/net/aspose.words/documentbuilder/starteditablerange/
 ---
 ## DocumentBuilder.StartEditableRange method
@@ -20,7 +20,7 @@ El nodo de inicio del rango editable que se acaba de crear.
 
 ### Observaciones
 
-El rango editable en un documento puede superponerse y abarcar cualquier rango. Para crear un rango editable válido, debe llamar a ambos`StartEditableRange` y[`EndEditableRange`](../endeditablerange/) o[`EndEditableRange`](../endeditablerange/)métodos.
+El rango editable en un documento puede superponerse y abarcar cualquier rango. Para crear un rango editable válido necesita llamar a ambos`StartEditableRange` y[`EndEditableRange`](../endeditablerange/) o[`EndEditableRange`](../endeditablerange/) métodos.
 
 El rango editable mal formado se ignorará cuando se guarde el documento.
 
@@ -43,9 +43,9 @@ builder.Writeln("This paragraph inside the outer editable range and can be edite
 EditableRangeStart innerEditableRangeStart = builder.StartEditableRange();
 builder.Writeln("This paragraph inside both the outer and inner editable ranges and can be edited.");
 
-// Actualmente, el cursor de inserción del nodo del generador de documentos está en más de un rango editable en curso.
-// Cuando queremos terminar un rango editable en esta situación,
-// necesitamos especificar cuál de los rangos deseamos terminar pasando su nodo EditableRangeStart.
+// Actualmente, el cursor de inserción del nodo del generador de documentos se encuentra en más de un rango editable en curso.
+// Cuando queremos finalizar un rango editable en esta situación,
+// necesitamos especificar cuál de los rangos deseamos finalizar pasando su nodo EditableRangeStart.
 builder.EndEditableRange(innerEditableRangeStart);
 
 builder.Writeln("This paragraph inside the outer editable range and can be edited.");
@@ -72,7 +72,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world! Since we have set the document's protection level to read-only," +
                 " we cannot edit this paragraph without the password.");
 
-// Los rangos editables nos permiten dejar partes de documentos protegidos abiertos para su edición.
+// Los rangos editables nos permiten dejar partes de documentos protegidos abiertas para su edición.
 EditableRangeStart editableRangeStart = builder.StartEditableRange();
 builder.Writeln("This paragraph is inside an editable range, and can be edited.");
 EditableRangeEnd editableRangeEnd = builder.EndEditableRange();
@@ -90,8 +90,8 @@ Assert.AreEqual(editableRangeStart.Id, editableRangeEnd.EditableRangeStart.Id);
 Assert.AreEqual(editableRange.Id, editableRangeStart.EditableRange.Id);
 Assert.AreEqual(editableRangeEnd.Id, editableRange.EditableRangeEnd.Id);
 
-// Podemos acceder a los tipos de nodos de cada parte así. El rango editable en sí no es un nodo,
-// sino una entidad que consta de un comienzo, un final y sus contenidos adjuntos.
+// Podemos acceder a los tipos de nodos de cada parte de esta manera. El rango editable en sí no es un nodo,
+// sino una entidad que consta de un inicio, un final y su contenido adjunto.
 Assert.AreEqual(NodeType.EditableRangeStart, editableRangeStart.NodeType);
 Assert.AreEqual(NodeType.EditableRangeEnd, editableRangeEnd.NodeType);
 

@@ -1,12 +1,14 @@
 ---
 title: Cluster.CodepointsLength
 second_title: Aspose.Words for .NET API Referansı
-description: Cluster mülk. 
+description: Cluster mülk. Kod noktalarının toplam sayısını alırCluster .
 type: docs
 weight: 30
 url: /tr/net/aspose.words.shaping/cluster/codepointslength/
 ---
 ## Cluster.CodepointsLength property
+
+Kod noktalarının toplam sayısını alır[`Cluster`](../) .
 
 ```csharp
 public int CodepointsLength { get; }

@@ -1,14 +1,14 @@
 ---
 title: IMailMergeCallback.TagsReplaced
 second_title: Aspose.Words لمراجع .NET API
-description: IMailMergeCallback طريقة. يتم الاستدعاء عند استبدال علامات النص الشارب بحقول MERGEFIELD.
+description: IMailMergeCallback طريقة. يتم الاتصال به عند استبدال العلامات النصية الشارب بحقول MERGEFIELD.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.mailmerging/imailmergecallback/tagsreplaced/
 ---
 ## IMailMergeCallback.TagsReplaced method
 
-يتم الاستدعاء عند استبدال علامات النص "الشارب" بحقول MERGEFIELD.
+يتم الاتصال به عند استبدال العلامات النصية "الشارب" بحقول MERGEFIELD.
 
 ```csharp
 public void TagsReplaced()
@@ -16,7 +16,7 @@ public void TagsReplaced()
 
 ### أمثلة
 
-يوضح كيفية تحديد منطق مخصص لمعالجة الأحداث أثناء دمج البريد.
+يوضح كيفية تحديد المنطق المخصص للتعامل مع الأحداث أثناء دمج البريد.
 
 ```csharp
 public void Callback()
@@ -24,21 +24,21 @@ public void Callback()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // أدخل علامتي دمج مراسلات تشيران إلى عمودين في مصدر بيانات.
+    // أدخل علامتي دمج المراسلات تشيران إلى عمودين في مصدر بيانات.
     builder.Write("{{FirstName}}");
     builder.Write("{{LastName}}");
 
-    // قم بإنشاء مصدر بيانات يحتوي على عمود واحد فقط من الأعمدة التي تشير إليها علامات الدمج الخاصة بنا.
+    // قم بإنشاء مصدر بيانات يحتوي فقط على أحد الأعمدة التي تشير إليها علامات الدمج الخاصة بنا.
     DataTable table = new DataTable("Test");
     table.Columns.Add("FirstName");
     table.Rows.Add("John");
     table.Rows.Add("Jane");
 
-    // تكوين دمج المراسلات لدينا لاستخدام علامات دمج المراسلات البديلة.
+    // قم بتكوين دمج البريد الخاص بنا لاستخدام علامات دمج البريد البديلة.
     doc.MailMerge.UseNonMergeFields = true;
 
-    // بعد ذلك ، تأكد من أن دمج المراسلات سيحول العلامات ، مثل علامة "LastName" الخاصة بنا ،
-    // في MERGEFIELDs في مستندات الدمج.
+    // بعد ذلك، تأكد من أن عملية دمج البريد ستحول العلامات، مثل علامة "LastName" الخاصة بنا،
+    // إلى MERGEFIELDs في مستندات الدمج.
     doc.MailMerge.PreserveUnusedTags = false;
 
     MailMergeTagReplacementCounter counter = new MailMergeTagReplacementCounter();
@@ -49,7 +49,7 @@ public void Callback()
 }
 
 /// <summary>
-/// تحسب عدد المرات التي استبدل فيها دمج المراسلات علامات دمج المراسلات التي لم يتمكن من تعبئتها بالبيانات بـ MERGEFIELDs.
+/// حساب عدد المرات التي يستبدل فيها دمج البريد علامات دمج البريد التي لم يتمكن من تعبئتها بالبيانات باستخدام MERGEFIELDs.
 /// </summary>
 private class MailMergeTagReplacementCounter : IMailMergeCallback
 {

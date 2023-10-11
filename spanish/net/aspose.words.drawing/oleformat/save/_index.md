@@ -1,14 +1,14 @@
 ---
 title: OleFormat.Save
 second_title: Referencia de API de Aspose.Words para .NET
-description: OleFormat método. Guarda los datos del objeto incrustado en el flujo especificado.
+description: OleFormat método. Guarda los datos del objeto incrustado en la secuencia especificada.
 type: docs
 weight: 160
 url: /es/net/aspose.words.drawing/oleformat/save/
 ---
 ## Save(Stream) {#save}
 
-Guarda los datos del objeto incrustado en el flujo especificado.
+Guarda los datos del objeto incrustado en la secuencia especificada.
 
 ```csharp
 public void Save(Stream stream)
@@ -26,7 +26,7 @@ public void Save(Stream stream)
 
 ### Observaciones
 
-Es responsabilidad de la persona que llama disponer de la transmisión.
+Es responsabilidad de la persona que llama deshacerse de la transmisión.
 
 ### Ejemplos
 
@@ -41,7 +41,7 @@ OleFormat oleFormat = shape.OleFormat;
 
 Assert.AreEqual("Excel.Sheet.12", oleFormat.ProgId);
 
-// Nuestro objeto no se actualiza automáticamente ni está bloqueado para actualizaciones.
+// Nuestro objeto no se actualiza automáticamente ni está bloqueado para recibir actualizaciones.
 Assert.False(oleFormat.AutoUpdate);
 Assert.AreEqual(false, oleFormat.IsLocked);
 
@@ -50,13 +50,13 @@ Assert.AreEqual(false, oleFormat.IsLocked);
 Assert.AreEqual(".xlsx", oleFormat.SuggestedExtension);
 
 // A continuación se muestran dos formas de guardar un objeto OLE en un archivo en el sistema de archivos local.
-// 1 - Guárdelo a través de una transmisión:
+// 1 - Guárdalo a través de una secuencia:
 using (FileStream fs = new FileStream(ArtifactsDir + "OLE spreadsheet extracted via stream" + oleFormat.SuggestedExtension, FileMode.Create))
 {
     oleFormat.Save(fs);
 }
 
-// 2 - Guardarlo directamente en un nombre de archivo:
+// 2 - Guárdalo directamente en un nombre de archivo:
 oleFormat.Save(ArtifactsDir + "OLE spreadsheet saved directly" + oleFormat.SuggestedExtension);
 ```
 
@@ -99,7 +99,7 @@ OleFormat oleFormat = shape.OleFormat;
 
 Assert.AreEqual("Excel.Sheet.12", oleFormat.ProgId);
 
-// Nuestro objeto no se actualiza automáticamente ni está bloqueado para actualizaciones.
+// Nuestro objeto no se actualiza automáticamente ni está bloqueado para recibir actualizaciones.
 Assert.False(oleFormat.AutoUpdate);
 Assert.AreEqual(false, oleFormat.IsLocked);
 
@@ -108,13 +108,13 @@ Assert.AreEqual(false, oleFormat.IsLocked);
 Assert.AreEqual(".xlsx", oleFormat.SuggestedExtension);
 
 // A continuación se muestran dos formas de guardar un objeto OLE en un archivo en el sistema de archivos local.
-// 1 - Guárdelo a través de una transmisión:
+// 1 - Guárdalo a través de una secuencia:
 using (FileStream fs = new FileStream(ArtifactsDir + "OLE spreadsheet extracted via stream" + oleFormat.SuggestedExtension, FileMode.Create))
 {
     oleFormat.Save(fs);
 }
 
-// 2 - Guardarlo directamente en un nombre de archivo:
+// 2 - Guárdalo directamente en un nombre de archivo:
 oleFormat.Save(ArtifactsDir + "OLE spreadsheet saved directly" + oleFormat.SuggestedExtension);
 ```
 

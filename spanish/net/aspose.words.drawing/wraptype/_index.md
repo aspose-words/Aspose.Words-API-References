@@ -1,14 +1,14 @@
 ---
 title: Enum WrapType
 second_title: Referencia de API de Aspose.Words para .NET
-description: Aspose.Words.Drawing.WrapType enumeración. Especifica cómo se envuelve el texto alrededor de una forma o imagen.
+description: Aspose.Words.Drawing.WrapType enumeración. Especifica cómo se ajusta el texto alrededor de una forma o imagen.
 type: docs
-weight: 1250
+weight: 1400
 url: /es/net/aspose.words.drawing/wraptype/
 ---
 ## WrapType enumeration
 
-Especifica cómo se envuelve el texto alrededor de una forma o imagen.
+Especifica cómo se ajusta el texto alrededor de una forma o imagen.
 
 ```csharp
 public enum WrapType
@@ -18,12 +18,12 @@ public enum WrapType
 
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
-| None | `3` | No hay texto que envuelva la forma. La forma se coloca detrás o delante del texto. |
+| None | `3` | No hay texto alrededor de la forma. La forma se coloca detrás o delante del texto. |
 | Inline | `0` | La forma permanece en la misma capa que el texto y se trata como un carácter. |
 | TopBottom | `1` | El texto se detiene en la parte superior de la forma y se reinicia en la línea debajo de la forma. |
 | Square | `2` | Envuelve el texto alrededor de todos los lados del cuadro delimitador cuadrado de la forma. |
-| Tight | `4` | Envuelve firmemente los bordes de la forma, en lugar de envolver alrededor del cuadro delimitador. |
-| Through | `5` | Igual que Tight, pero envuelve cualquier parte de la forma que esté abierta. |
+| Tight | `4` | Se ajusta firmemente alrededor de los bordes de la forma, en lugar de ajustarse alrededor del cuadro delimitador. |
+| Through | `5` | Igual que Tight, pero se envuelve dentro de cualquier parte de la forma que esté abierta. |
 
 ### Ejemplos
 
@@ -45,7 +45,7 @@ shape.VerticalAlignment = VerticalAlignment.Center;
 doc.Save(ArtifactsDir + "Image.CreateFloatingPageCenter.docx");
 ```
 
-Muestra cómo insertar una imagen y usarla como marca de agua.
+Muestra cómo insertar una imagen y utilizarla como marca de agua.
 
 ```csharp
 Document doc = new Document();

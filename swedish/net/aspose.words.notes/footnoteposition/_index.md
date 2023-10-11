@@ -3,7 +3,7 @@ title: Enum FootnotePosition
 second_title: Aspose.Words för .NET API Referens
 description: Aspose.Words.Notes.FootnotePosition uppräkning. Definierar fotnotspositionen.
 type: docs
-weight: 4050
+weight: 4290
 url: /sv/net/aspose.words.notes/footnoteposition/
 ---
 ## FootnotePosition enumeration
@@ -30,7 +30,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // En fotnot är ett sätt att bifoga en referens eller en sidokommentar till text
-// som inte stör flödet i huvudtexten.  
+ // som inte stör flödet i huvudtexten.
 // Att infoga en fotnot lägger till en liten upphöjd referenssymbol
 // vid huvudtexten där vi infogar fotnoten.
 // Varje fotnot skapar också en post längst ner på sidan, bestående av en symbol

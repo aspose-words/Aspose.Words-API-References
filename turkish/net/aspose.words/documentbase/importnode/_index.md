@@ -1,14 +1,14 @@
 ---
 title: DocumentBase.ImportNode
 second_title: Aspose.Words for .NET API Referansı
-description: DocumentBase yöntem. Bir düğümü başka bir belgeden geçerli belgeye aktarır.
+description: DocumentBase yöntem. Başka bir belgedeki bir düğümü geçerli belgeye aktarır.
 type: docs
 weight: 100
 url: /tr/net/aspose.words/documentbase/importnode/
 ---
 ## ImportNode(Node, bool) {#importnode}
 
-Bir düğümü başka bir belgeden geçerli belgeye aktarır.
+Başka bir belgedeki bir düğümü geçerli belgeye aktarır.
 
 ```csharp
 public Node ImportNode(Node srcNode, bool isImportChildren)
@@ -16,8 +16,8 @@ public Node ImportNode(Node srcNode, bool isImportChildren)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| srcNode | Node | Düğüm içe aktarılıyor. |
-| isImportChildren | Boolean | Tüm alt düğümleri yinelemeli olarak içe aktarmak için doğru; aksi halde yanlış. |
+| srcNode | Node | İçe aktarılan düğüm. |
+| isImportChildren | Boolean | `doğru` tüm alt düğümleri yinelemeli olarak içe aktarmak için; aksi takdirde,`YANLIŞ`. |
 
 ### Geri dönüş değeri
 
@@ -25,13 +25,13 @@ Geçerli belgeye ait klonlanmış düğüm.
 
 ### Notlar
 
-Bu yöntem,UseDestinationStyles biçimlendirmeyi çözme seçeneği.
+Bu yöntem şunları kullanır:UseDestinationStyles biçimlendirmeyi çözme seçeneği.
 
-Bir düğümü içe aktarmak, içe aktarma belgesine ait kaynak düğümün bir kopyasını oluşturur. Döndürülen düğümün üst öğesi yok. Kaynak düğüm değiştirilmez veya orijinal belgeden kaldırılmaz.
+Bir düğümün içe aktarılması, içe aktarılan belgeye ait kaynak düğümün bir kopyasını oluşturur. Döndürülen düğümün üst öğesi yok. Kaynak düğüm değiştirilmez veya orijinal belgeden kaldırılmaz.
 
-Başka bir belgeden bir düğüm bu belgeye eklenmeden önce içe aktarılmalıdır. İçe aktarma sırasında, stillere ve listelere referanslar gibi belgeye özgü özellikler orijinalden içe aktarılan belgeye çevrilir. Düğüm içe aktarıldıktan sonra, kullanılarak belgedeki uygun yere eklenebilir.[`InsertBefore`](../../compositenode/insertbefore/) veya [`InsertAfter`](../../compositenode/insertafter/).
+Başka bir belgedeki bir düğümün bu belgeye eklenmeden önce içe aktarılması gerekir. İçe aktarma sırasında, stillere ve listelere yapılan referanslar gibi belgeye özgü özellikler orijinalden içe aktarılan belgeye çevrilir . Düğüm içe aktarıldıktan sonra, kullanılarak belgedeki uygun yere eklenebilir.Node) veya Node).
 
-Kaynak düğüm zaten hedef belgeye aitse, kaynak düğümün derin bir klonu oluşturulur.
+Kaynak düğüm zaten hedef belgeye aitse, kaynak düğümün derin clone 'si oluşturulur.
 
 ### Örnekler
 
@@ -46,13 +46,13 @@ srcDoc.FirstSection.Body.FirstParagraph.AppendChild(
 dstDoc.FirstSection.Body.FirstParagraph.AppendChild(
     new Run(dstDoc, "Destination document first paragraph text."));
 
-// Her düğümün, düğümü içeren belge olan bir üst belgesi vardır.
-// Düğümün ait olmadığı bir belgeye bir düğüm eklemek bir istisna atar.
+// Her düğümün, düğümü içeren belge olan bir ana belgesi vardır.
+// Düğümün ait olmadığı bir belgeye bir düğüm eklemek bir istisna oluşturacaktır.
 Assert.AreNotEqual(dstDoc, srcDoc.FirstSection.Document);
 Assert.Throws<ArgumentException>(() => { dstDoc.AppendChild(srcDoc.FirstSection); });
 
-// Belgeye sahip olacak bir düğümün kopyasını oluşturmak için ImportNode yöntemini kullanın
-// yeni sahip belgesi olarak ayarlanmış ImportNode yöntemini çağıran.
+// Belgeyi içerecek bir düğümün kopyasını oluşturmak için ImportNode yöntemini kullanın
+// yeni sahip belgesi olarak ImportNode yöntem kümesini çağıran.
 Section importedSection = (Section)dstDoc.ImportNode(srcDoc.FirstSection, true);
 
 Assert.AreEqual(dstDoc, importedSection.Document);
@@ -75,7 +75,7 @@ Assert.AreEqual("Destination document first paragraph text.\r\nSource document f
 
 ## ImportNode(Node, bool, ImportFormatMode) {#importnode_1}
 
-Biçimlendirmeyi kontrol etme seçeneği ile bir düğümü başka bir belgeden geçerli belgeye aktarır.
+Biçimlendirmeyi kontrol etme seçeneğiyle birlikte başka bir belgedeki bir düğümü geçerli belgeye aktarır.
 
 ```csharp
 public Node ImportNode(Node srcNode, bool isImportChildren, ImportFormatMode importFormatMode)
@@ -84,30 +84,30 @@ public Node ImportNode(Node srcNode, bool isImportChildren, ImportFormatMode imp
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
 | srcNode | Node | İçe aktarılacak düğüm. |
-| isImportChildren | Boolean | Tüm alt düğümleri yinelemeli olarak içe aktarmak için doğru; aksi halde yanlış. |
-| importFormatMode | ImportFormatMode | Çakışan stil biçimlendirmesinin nasıl birleştirileceğini belirtir. |
+| isImportChildren | Boolean | `doğru` tüm alt düğümleri yinelemeli olarak içe aktarmak için; aksi takdirde,`YANLIŞ`. |
+| importFormatMode | ImportFormatMode | Çakışan stil formatlamasının nasıl birleştirileceğini belirtir. |
 
 ### Geri dönüş değeri
 
-Klonlanmış, içe aktarılan düğüm. Düğüm, hedef belgeye aittir, ancak üst öğesi yoktur.
+Klonlanmış, içe aktarılmış düğüm. Düğüm hedef belgeye aittir ancak üst öğesi yoktur.
 
 ### Notlar
 
-Bu aşırı yükleme, stillerin ve liste biçimlendirmesinin nasıl içe aktarıldığını kontrol etmek için kullanışlıdır.
+Bu aşırı yükleme, stillerin ve liste formatının nasıl içe aktarıldığını kontrol etmek için kullanışlıdır.
 
-Bir düğümü içe aktarmak, içe aktarma belgesine ait kaynak düğümün bir kopyasını oluşturur. Döndürülen düğümün üst öğesi yok. Kaynak düğüm değiştirilmez veya orijinal belgeden kaldırılmaz.
+Bir düğümün içe aktarılması, içe aktarılan belgeye ait kaynak düğümün bir kopyasını oluşturur. Döndürülen düğümün üst öğesi yok. Kaynak düğüm değiştirilmez veya orijinal belgeden kaldırılmaz.
 
-Başka bir belgeden bir düğüm bu belgeye eklenmeden önce içe aktarılmalıdır. İçe aktarma sırasında, stillere ve listelere referanslar gibi belgeye özgü özellikler orijinalden içe aktarılan belgeye çevrilir. Düğüm içe aktarıldıktan sonra, kullanılarak belgedeki uygun yere eklenebilir.[`InsertBefore`](../../compositenode/insertbefore/) veya [`InsertAfter`](../../compositenode/insertafter/).
+Başka bir belgedeki bir düğümün bu belgeye eklenmeden önce içe aktarılması gerekir. İçe aktarma sırasında, stillere ve listelere yapılan referanslar gibi belgeye özgü özellikler orijinalden içe aktarılan belgeye çevrilir . Düğüm içe aktarıldıktan sonra, kullanılarak belgedeki uygun yere eklenebilir.Node) veya Node).
 
-Kaynak düğüm zaten hedef belgeye aitse, kaynak düğümün derin bir klonu oluşturulur.
+Kaynak düğüm zaten hedef belgeye aitse, kaynak düğümün derin clone 'si oluşturulur.
 
 ### Örnekler
 
-Belirli seçeneklerle düğümün kaynak belgeden hedef belgeye nasıl aktarılacağını gösterir.
+Düğümün kaynak belgeden hedef belgeye belirli seçeneklerle nasıl aktarılacağını gösterir.
 
 ```csharp
 // İki belge oluşturun ve her belgeye bir karakter stili ekleyin.
-// Stilleri aynı ada, ancak farklı metin biçimlendirmesine sahip olacak şekilde yapılandırın.
+// Stilleri aynı ada ancak farklı metin formatına sahip olacak şekilde yapılandırın.
 Document srcDoc = new Document();
 Style srcStyle = srcDoc.Styles.Add(StyleType.Character, "My style");
 srcStyle.Font.Name = "Courier New";
@@ -122,14 +122,14 @@ DocumentBuilder dstBuilder = new DocumentBuilder(dstDoc);
 dstBuilder.Font.Style = dstStyle;
 dstBuilder.Writeln("Destination document text.");
 
-// Bölüm'ü hedef belgeden kaynak belgeye aktararak stil adı çakışmasına neden olur.
+// Bölümü hedef belgeden kaynak belgeye aktararak stil adı çakışmasına neden olun.
 // Hedef stilleri kullanırsak, aynı stil adına sahip içe aktarılan kaynak metin
-// hedef metin olarak hedef stili benimser.
+// hedef metni hedef stilini benimseyecektir.
 Section importedSection = (Section)dstDoc.ImportNode(srcDoc.FirstSection, true, ImportFormatMode.UseDestinationStyles);
 Assert.AreEqual(dstStyle.Font.Name, importedSection.Body.FirstParagraph.Runs[0].Font.Name);
 Assert.AreEqual(dstStyle.Name, importedSection.Body.FirstParagraph.Runs[0].Font.StyleName);
 
-// ImportFormatMode.KeepDifferentStyles kullanırsak, kaynak stil korunur,
+// ImportFormatMode.KeepDifferentStyles kullanırsak kaynak stili korunur,
 // ve adlandırma çakışması bir sonek eklenerek çözülür.
 dstDoc.ImportNode(srcDoc.FirstSection, true, ImportFormatMode.KeepDifferentStyles);
 Assert.AreEqual(dstStyle.Font.Name, dstDoc.Styles["My style"].Font.Name);

@@ -1,14 +1,14 @@
 ---
 title: OoxmlSaveOptions.Password
 second_title: Aspose.Words لمراجع .NET API
-description: OoxmlSaveOptions ملكية. الحصول على / تعيين كلمة مرور لتشفير المستند باستخدام خوارزمية التشفير القياسي ECMA376.
+description: OoxmlSaveOptions ملكية. الحصول على/تعيين كلمة مرور لتشفير المستند باستخدام خوارزمية التشفير القياسية ECMA376.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.saving/ooxmlsaveoptions/password/
 ---
 ## OoxmlSaveOptions.Password property
 
-الحصول على / تعيين كلمة مرور لتشفير المستند باستخدام خوارزمية التشفير القياسي ECMA376.
+الحصول على/تعيين كلمة مرور لتشفير المستند باستخدام خوارزمية التشفير القياسية ECMA376.
 
 ```csharp
 public string Password { get; set; }
@@ -16,7 +16,7 @@ public string Password { get; set; }
 
 ### ملاحظات
 
-لحفظ المستند بدون تشفير ، يجب أن تكون هذه الخاصية خالية أو سلسلة فارغة.
+من أجل حفظ المستند بدون تشفير، يجب أن تكون هذه الخاصية`باطل` أو سلسلة فارغة.
 
 ### أمثلة
 
@@ -33,7 +33,7 @@ saveOptions.Password = "MyPassword";
 doc.Save(ArtifactsDir + "OoxmlSaveOptions.Password.docx", saveOptions);
 
 // لن نتمكن من فتح هذا المستند باستخدام Microsoft Word أو
-// Aspose.Words بدون توفير كلمة المرور الصحيحة.
+// Aspose.Words دون توفير كلمة المرور الصحيحة.
 Assert.Throws<IncorrectPasswordException>(() =>
     doc = new Document(ArtifactsDir + "OoxmlSaveOptions.Password.docx"));
 

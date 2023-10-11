@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTagRangeStart.RemoveSelfOnly
 second_title: Referencia de API de Aspose.Words para .NET
-description: StructuredDocumentTagRangeStart método. Elimina este inicio de rango y los nodos finales de rango apropiados de la etiqueta del documento estructurado pero mantiene su contenido dentro del árbol del documento.
+description: StructuredDocumentTagRangeStart método. Elimina este inicio de rango y los nodos de final de rango apropiados de la etiqueta del documento estructurado pero mantiene su contenido dentro del árbol del documento.
 type: docs
 weight: 240
 url: /es/net/aspose.words.markup/structureddocumenttagrangestart/removeselfonly/
 ---
 ## StructuredDocumentTagRangeStart.RemoveSelfOnly method
 
-Elimina este inicio de rango y los nodos finales de rango apropiados de la etiqueta del documento estructurado, pero mantiene su contenido dentro del árbol del documento.
+Elimina este inicio de rango y los nodos de final de rango apropiados de la etiqueta del documento estructurado, pero mantiene su contenido dentro del árbol del documento.
 
 ```csharp
 public void RemoveSelfOnly()
@@ -16,9 +16,10 @@ public void RemoveSelfOnly()
 
 ### Ejemplos
 
-Muestra cómo crear/eliminar una etiqueta de documento estructurado y su contenido.
+Muestra cómo crear/eliminar etiquetas de documentos estructurados y su contenido.
 
 ```csharp
+public void SdtRangeExtendedMethods()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -45,7 +46,7 @@ Muestra cómo crear/eliminar una etiqueta de documento estructurado y su conteni
     Node paragraphNode = rangeStart.LastOrDefault();
     Assert.AreEqual("StructuredDocumentTag element", paragraphNode?.GetText().Trim());
 
-    // Elimina la etiqueta del documento estructurado por rangos y el contenido interno.
+    // Elimina la etiqueta del documento estructurado por rangos y el contenido del interior.
     rangeStart.RemoveAllChildren();
 
     paragraphNode = rangeStart.LastOrDefault();

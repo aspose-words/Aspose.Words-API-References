@@ -1,14 +1,14 @@
 ---
 title: FieldDatabase.InsertHeadings
 second_title: Aspose.Words per .NET API Reference
-description: FieldDatabase proprietà. Ottiene o imposta se inserire i nomi dei campi dal database come intestazioni di colonna in la tabella risultante.
+description: FieldDatabase proprietà. Ottiene o imposta se inserire i nomi dei campi dal database come intestazioni di colonna nella tabella risultante.
 type: docs
 weight: 60
 url: /it/net/aspose.words.fields/fielddatabase/insertheadings/
 ---
 ## FieldDatabase.InsertHeadings property
 
-Ottiene o imposta se inserire i nomi dei campi dal database come intestazioni di colonna in la tabella risultante.
+Ottiene o imposta se inserire i nomi dei campi dal database come intestazioni di colonna nella tabella risultante.
 
 ```csharp
 public bool InsertHeadings { get; set; }
@@ -24,17 +24,16 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Questo campo DATABASE eseguirà una query su un database e visualizzerà il risultato in una tabella.
 FieldDatabase field = (FieldDatabase)builder.InsertField(FieldType.FieldDatabase, true);
-field.FileName = MyDir + @"Database\Northwind.mdb";
-field.Connection = "DSN=MS Access Databases";
+field.FileName = DatabaseDir + "Northwind.accdb";
+field.Connection = "Provider=Microsoft.ACE.OLEDB.12.0";
 field.Query = "SELECT * FROM [Products]";
 
-Assert.AreEqual($" DATABASE  \\d \"{DatabaseDir.Replace("\\", "\\\\") + "Northwind.mdb"}\" \\c \"DSN=MS Access Databases\" \\s \"SELECT * FROM [Products]\"", 
-    field.GetFieldCode());
+Assert.AreEqual($" DATABASE  \\d {DatabaseDir.Replace("\\", "\\\\") + "Northwind.accdb"} \\c Provider=Microsoft.ACE.OLEDB.12.0 \\s \"SELECT * FROM [Products]\"", field.GetFieldCode());
 
-// Inserisce un altro campo DATABASE con una query più complessa che ordina tutti i prodotti in ordine decrescente in base alle vendite lorde.
+// Inserisci un altro campo DATABASE con una query più complessa che ordina tutti i prodotti in ordine decrescente in base alle vendite lorde.
 field = (FieldDatabase)builder.InsertField(FieldType.FieldDatabase, true);
-field.FileName = MyDir + @"Database\Northwind.mdb";
-field.Connection = "DSN=MS Access Databases";
+field.FileName = DatabaseDir + "Northwind.accdb";
+field.Connection = "Provider=Microsoft.ACE.OLEDB.12.0";
 field.Query =
     "SELECT [Products].ProductName, FORMAT(SUM([Order Details].UnitPrice * (1 - [Order Details].Discount) * [Order Details].Quantity), 'Currency') AS GrossSales " +
     "FROM([Products] " +
@@ -47,19 +46,21 @@ field.Query =
 field.FirstRecord = "1";
 field.LastRecord = "10";
 
-// Questa proprietà è l'indice del formato che vogliamo usare per la nostra tabella. L'elenco dei formati di tabella si trova nel menu "Formattazione automatica tabella..."
-// che appare quando creiamo un campo DATABASE in Microsoft Word. L'indice #10 corrisponde al formato "Colorful 3".
+// Questa proprietà è l'indice del formato che vogliamo utilizzare per la nostra tabella. L'elenco dei formati tabella si trova nel menu "Formattazione automatica tabella...".
+// che viene visualizzato quando creiamo un campo DATABASE in Microsoft Word. L'indice n. 10 corrisponde al formato "Colorato 3".
 field.TableFormat = "10";
 
 // La proprietà FormatAttribute è una rappresentazione di stringa di un numero intero che memorizza più flag.
-// Possiamo applicare in modo patriarcale il formato a cui punta la proprietà TableFormat impostando diversi flag in questa proprietà.
+// Possiamo applicare patriarcale il formato a cui punta la proprietà TableFormat impostando flag diversi in questa proprietà.
 // Il numero che utilizziamo è la somma di una combinazione di valori corrispondenti a diversi aspetti dello stile della tabella.
 // 63 rappresenta 1 (bordi) + 2 (ombreggiatura) + 4 (carattere) + 8 (colore) + 16 (adattamento automatico) + 32 (righe di intestazione).
 field.FormatAttributes = "63";
 field.InsertHeadings = true;
 field.InsertOnceOnMailMerge = true;
 
+doc.FieldOptions.FieldDatabaseProvider = new OleDbFieldDatabaseProvider();
 doc.UpdateFields();
+
 doc.Save(ArtifactsDir + "Field.DATABASE.docx");
 ```
 

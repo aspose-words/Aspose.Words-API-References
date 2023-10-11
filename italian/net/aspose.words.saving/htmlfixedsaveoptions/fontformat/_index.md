@@ -16,7 +16,7 @@ public ExportFontFormat FontFormat { get; set; }
 
 ### Esempi
 
-Mostra come utilizzare i font solo dalla macchina di destinazione durante il salvataggio di un documento in HTML.
+Mostra come utilizzare i caratteri solo dal computer di destinazione quando si salva un documento in HTML.
 
 ```csharp
 Document doc = new Document(MyDir + "Bullet points with alternative font.docx");

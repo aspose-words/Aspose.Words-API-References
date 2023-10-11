@@ -1,14 +1,14 @@
 ---
 title: Table.LeftPadding
 second_title: Aspose.Words für .NET-API-Referenz
-description: Table eigendom. Ruft den Platz in Punkten ab oder legt ihn fest der links vom Inhalt der Zellen hinzugefügt werden soll.
+description: Table eigendom. Ruft den Abstand in Punkten ab der links vom Zellinhalt hinzugefügt werden soll oder legt diesen fest.
 type: docs
 weight: 200
 url: /de/net/aspose.words.tables/table/leftpadding/
 ---
 ## Table.LeftPadding property
 
-Ruft den Platz (in Punkten) ab oder legt ihn fest, der links vom Inhalt der Zellen hinzugefügt werden soll.
+Ruft den Abstand (in Punkten) ab, der links vom Zellinhalt hinzugefügt werden soll, oder legt diesen fest.
 
 ```csharp
 public double LeftPadding { get; set; }
@@ -29,7 +29,7 @@ builder.InsertCell();
 builder.Write("Row 1, cell 2.");
 builder.EndTable();
 
-// Legen Sie für jede Zelle in der Tabelle den Abstand zwischen ihrem Inhalt und jedem ihrer Ränder fest. 
+ // Für jede Zelle in der Tabelle den Abstand zwischen ihrem Inhalt und jedem ihrer Ränder festlegen.
 // Diese Tabelle behält den minimalen Füllabstand bei, indem Text umbrochen wird.
 table.LeftPadding = 30;
 table.RightPadding = 60;

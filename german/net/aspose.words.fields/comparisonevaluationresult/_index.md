@@ -3,12 +3,14 @@ title: Class ComparisonEvaluationResult
 second_title: Aspose.Words für .NET-API-Referenz
 description: Aspose.Words.Fields.ComparisonEvaluationResult klas. Das Ergebnis der Vergleichsauswertung.
 type: docs
-weight: 1330
+weight: 1480
 url: /de/net/aspose.words.fields/comparisonevaluationresult/
 ---
 ## ComparisonEvaluationResult class
 
 Das Ergebnis der Vergleichsauswertung.
+
+Um mehr zu erfahren, besuchen Sie die[Arbeiten mit Feldern](https://docs.aspose.com/words/net/working-with-fields/) Dokumentationsartikel.
 
 ```csharp
 public sealed class ComparisonEvaluationResult
@@ -18,14 +20,14 @@ public sealed class ComparisonEvaluationResult
 
 | Name | Beschreibung |
 | --- | --- |
-| [ComparisonEvaluationResult](comparisonevaluationresult/#constructor)(bool) | Erstellt ein Vergleichsbewertungsergebnis. |
+| [ComparisonEvaluationResult](comparisonevaluationresult/#constructor)(bool) | Erstellt ein Vergleichsauswertungsergebnis. |
 | [ComparisonEvaluationResult](comparisonevaluationresult/#constructor_1)(string) | Erstellt ein fehlgeschlagenes Vergleichsauswertungsergebnis mit der entsprechenden Fehlermeldung. |
 
 ## Eigenschaften
 
 | Name | Beschreibung |
 | --- | --- |
-| [ErrorMessage](../../aspose.words.fields/comparisonevaluationresult/errormessage/) { get; } | Ruft die Fehlermeldung des fehlgeschlagenen Vergleichsbewertungsergebnisses ab. |
+| [ErrorMessage](../../aspose.words.fields/comparisonevaluationresult/errormessage/) { get; } | Ruft die Fehlermeldung des Ergebnisses der fehlgeschlagenen Vergleichsauswertung ab. |
 | [Result](../../aspose.words.fields/comparisonevaluationresult/result/) { get; } | Ruft das Ergebnis der Vergleichsauswertung ab. |
 
 ### Beispiele
@@ -44,10 +46,10 @@ public void ConditionEvaluationExtensionPoint(string fieldCode, sbyte comparison
 
     // Feldcodes, die wir in diesem Beispiel verwenden:
     // 1. " IF {0} {1} {2} \"wahres Argument\" \"falsches Argument\" ".
-    // 2. " VERGLEICHEN {0} {1} {2} ".
+    // 2. " COMPARE {0} {1} {2} ".
     Field field = builder.InsertField(string.Format(fieldCode, left, @operator, right), null);
 
-    // Wenn "comparisonResult" nicht definiert ist, erstellen wir "ComparisonEvaluationResult" mit String statt mit bool.
+    // Wenn „comparisonResult“ undefiniert ist, erstellen wir „ComparisonEvaluationResult“ mit einer Zeichenfolge anstelle von bool.
     ComparisonEvaluationResult result = comparisonResult != -1
         ? new ComparisonEvaluationResult(comparisonResult == 1)
         : comparisonError != null ? new ComparisonEvaluationResult(comparisonError) : null;
