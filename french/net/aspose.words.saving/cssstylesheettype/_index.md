@@ -3,7 +3,7 @@ title: Enum CssStyleSheetType
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Aspose.Words.Saving.CssStyleSheetType énumération. Spécifie comment les styles CSS Cascading Style Sheet sont exportés vers HTML.
 type: docs
-weight: 4630
+weight: 4890
 url: /fr/net/aspose.words.saving/cssstylesheettype/
 ---
 ## CssStyleSheetType enumeration
@@ -20,7 +20,7 @@ public enum CssStyleSheetType
 | --- | --- | --- |
 | Inline | `0` | Les styles CSS sont écrits en ligne (en tant que valeur du **style** attribut sur chaque élément). |
 | Embedded | `1` | Les styles CSS sont écrits séparément du contenu dans une feuille de style intégrée au fichier HTML. |
-| External | `2` | Les styles CSS sont écrits séparément du contenu d'une feuille de style dans un fichier externe. Le fichier HTML relie la feuille de style. |
+| External | `2` | Les styles CSS sont écrits séparément du contenu dans une feuille de style dans un fichier externe. Le fichier HTML lie la feuille de style. |
 
 ### Exemples
 
@@ -31,16 +31,16 @@ public void ExternalCssFilenames()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
-    // Crée un objet "HtmlFixedSaveOptions", que nous pouvons passer à la méthode "Save" du document
+    // Crée un objet "HtmlFixedSaveOptions", que l'on peut passer à la méthode "Save" du document
     // pour modifier la façon dont nous convertissons le document en HTML.
     HtmlSaveOptions options = new HtmlSaveOptions();
 
     // Définissez la propriété "CssStylesheetType" sur "CssStyleSheetType.External" pour
-    // accompagne un document HTML enregistré d'un fichier de feuille de style CSS externe.
+    // accompagne un document HTML enregistré avec un fichier de feuille de style CSS externe.
     options.CssStyleSheetType = CssStyleSheetType.External;
 
     // Vous trouverez ci-dessous deux manières de spécifier des répertoires et des noms de fichiers pour les feuilles de style CSS de sortie.
-    // 1 - Utilisez la propriété "CssStyleSheetFileName" pour attribuer un nom de fichier à notre feuille de style :
+    // 1 - Utilisez la propriété "CssStyleSheetFileName" pour attribuer un nom de fichier à notre feuille de style :
     options.CssStyleSheetFileName = ArtifactsDir + "SavingCallback.ExternalCssFilenames.css";
 
     // 2 - Utilisez un rappel personnalisé pour nommer notre feuille de style :
@@ -64,7 +64,7 @@ private class CustomCssSavingCallback : ICssSavingCallback
 
     public void CssSaving(CssSavingArgs args)
     {
-        // Nous pouvons accéder à l'intégralité du document source via la propriété "Document".
+        // On peut accéder à l'intégralité du document source via la propriété "Document".
         Assert.True(args.Document.OriginalFileName.EndsWith("Rendering.docx"));
 
         args.CssStream = new FileStream(mCssTextFileName, FileMode.Create);

@@ -1,14 +1,14 @@
 ---
 title: DocumentBase.ResourceLoadingCallback
 second_title: Référence de l'API Aspose.Words pour .NET
-description: DocumentBase propriété. Permet de contrôler le chargement des ressources externes.
+description: DocumentBase propriété. Permet de contrôler la manière dont les ressources externes sont chargées.
 type: docs
 weight: 70
 url: /fr/net/aspose.words/documentbase/resourceloadingcallback/
 ---
 ## DocumentBase.ResourceLoadingCallback property
 
-Permet de contrôler le chargement des ressources externes.
+Permet de contrôler la manière dont les ressources externes sont chargées.
 
 ```csharp
 public IResourceLoadingCallback ResourceLoadingCallback { get; set; }
@@ -19,6 +19,7 @@ public IResourceLoadingCallback ResourceLoadingCallback { get; set; }
 Montre comment personnaliser le processus de chargement de ressources externes dans un document.
 
 ```csharp
+public void ResourceLoadingCallback()
 {
     Document doc = new Document();
     doc.ResourceLoadingCallback = new ImageNameHandler();
@@ -26,7 +27,7 @@ Montre comment personnaliser le processus de chargement de ressources externes d
     DocumentBuilder builder = new DocumentBuilder(doc);
 
     // Les images sont généralement insérées à l'aide d'un URI ou d'un tableau d'octets.
-    // Chaque instance d'un chargement de ressources appellera la méthode ResourceLoading de notre rappel.
+    // Chaque instance d'un chargement de ressource appellera la méthode ResourceLoading de notre rappel.
     builder.InsertImage("Google logo");
     builder.InsertImage("Aspose logo");
     builder.InsertImage("Watermark");
@@ -34,9 +35,10 @@ Montre comment personnaliser le processus de chargement de ressources externes d
     Assert.AreEqual(3, doc.GetChildNodes(NodeType.Shape, true).Count);
 
     doc.Save(ArtifactsDir + "DocumentBase.ResourceLoadingCallback.docx");
+}
 
 /// <summary>
-/// Nous permet de charger des images dans un document en utilisant des raccourcis prédéfinis, par opposition aux URI.
+/// Nous permet de charger des images dans un document à l'aide de raccourcis prédéfinis, par opposition aux URI.
 /// Cela séparera la logique de chargement de l'image du reste de la construction du document.
 /// </summary>
 private class ImageNameHandler : IResourceLoadingCallback
@@ -51,7 +53,7 @@ private class ImageNameHandler : IResourceLoadingCallback
                 case "Google logo":
                     using (WebClient webClient = new WebClient())
                     {
-                        args.SetData(webClient.DownloadData("http://www.google.com/images/logos/ps_logo2.png") );
+                        args.SetData(webClient.DownloadData("http://www.google.com/images/logos/ps_logo2.png"));
                     }
 
                     return ResourceLoadingAction.UserProvided;

@@ -1,14 +1,14 @@
 ---
 title: ImageSaveOptions.ThresholdForFloydSteinbergDithering
 second_title: Référence de l'API Aspose.Words pour .NET
-description: ImageSaveOptions propriété. Obtient ou définit le seuil qui détermine la valeur de lerreur de binarisation dans la méthode FloydSteinberg. lorsqueImageBinarizationMethod est ImageBinarizationMethod.FloydSteinbergDithering.
+description: ImageSaveOptions propriété. Obtient ou définit le seuil qui détermine la valeur de lerreur de binarisation dans la méthode FloydSteinberg. lorsqueImageBinarizationMethod estFloydSteinbergDithering .
 type: docs
-weight: 150
+weight: 160
 url: /fr/net/aspose.words.saving/imagesaveoptions/thresholdforfloydsteinbergdithering/
 ---
 ## ImageSaveOptions.ThresholdForFloydSteinbergDithering property
 
-Obtient ou définit le seuil qui détermine la valeur de l'erreur de binarisation dans la méthode Floyd-Steinberg. lorsque[`ImageBinarizationMethod`](../../imagebinarizationmethod/) est ImageBinarizationMethod.FloydSteinbergDithering.
+Obtient ou définit le seuil qui détermine la valeur de l'erreur de binarisation dans la méthode Floyd-Steinberg. lorsque[`ImageBinarizationMethod`](../../imagebinarizationmethod/) estFloydSteinbergDithering .
 
 ```csharp
 public byte ThresholdForFloydSteinbergDithering { get; set; }
@@ -20,7 +20,7 @@ La valeur par défaut est 128.
 
 ### Exemples
 
-Montre comment définir le seuil d'erreur de binarisation TIFF lors de l'utilisation de la méthode Floyd-Steinberg pour restituer une image TIFF.
+Montre comment définir le seuil d’erreur de binarisation TIFF lors de l’utilisation de la méthode Floyd-Steinberg pour restituer une image TIFF.
 
 ```csharp
 Document doc = new Document();

@@ -1,14 +1,14 @@
 ---
 title: Paragraph.FrameFormat
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Paragraph propriété. Donne accès aux propriétés de formatage des paragraphes.
+description: Paragraph propriété. Donne accès aux propriétés de formatage du cadre.
 type: docs
 weight: 30
 url: /fr/net/aspose.words/paragraph/frameformat/
 ---
 ## Paragraph.FrameFormat property
 
-Donne accès aux propriétés de formatage des paragraphes.
+Donne accès aux propriétés de formatage du cadre.
 
 ```csharp
 public FrameFormat FrameFormat { get; }

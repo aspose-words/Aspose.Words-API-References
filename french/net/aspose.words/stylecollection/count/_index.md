@@ -16,19 +16,17 @@ public int Count { get; }
 
 ### Exemples
 
-Montre comment ajouter un style à la collection de styles d'un document.
+Montre comment ajouter un style à la collection de styles d’un document.
 
 ```csharp
 Document doc = new Document();
-StyleCollection styles = doc.Styles;
 
+StyleCollection styles = doc.Styles;
 // Définissez les paramètres par défaut pour les nouveaux styles que nous pourrons ajouter ultérieurement à cette collection.
 styles.DefaultFont.Name = "Courier New";
-
-// Si nous ajoutons un style du "StyleType.Paragraph", la collection appliquera les valeurs de
+// Si on ajoute un style du "StyleType.Paragraph", la collection appliquera les valeurs de
 // sa propriété "DefaultParagraphFormat" à la propriété "ParagraphFormat" du style.
 styles.DefaultParagraphFormat.FirstLineIndent = 15.0;
-
 // Ajoutez un style, puis vérifiez qu'il possède les paramètres par défaut.
 styles.Add(StyleType.Paragraph, "MyStyle");
 

@@ -1,14 +1,14 @@
 ---
 title: SaveOptions.PrettyFormat
 second_title: Référence de l'API Aspose.Words pour .NET
-description: SaveOptions propriété. Quandvrai  jolis formats de sortie le cas échéant. La valeur par défaut est faux .
+description: SaveOptions propriété. Quandvrai jolis formats de sortie le cas échéant. La valeur par défaut estFAUX .
 type: docs
-weight: 120
+weight: 110
 url: /fr/net/aspose.words.saving/saveoptions/prettyformat/
 ---
 ## SaveOptions.PrettyFormat property
 
-Quand`vrai` , jolis formats de sortie le cas échéant. La valeur par défaut est **faux** .
+Quand`vrai` jolis formats de sortie le cas échéant. La valeur par défaut est`FAUX` .
 
 ```csharp
 public bool PrettyFormat { get; set; }
@@ -16,11 +16,11 @@ public bool PrettyFormat { get; set; }
 
 ### Remarques
 
-Mis à **vrai** pour rendre les sorties HTML, MHTML, EPUB, WordML, RTF, DOCX et ODT lisibles par l'homme. Utile pour tester ou déboguer.
+Mis à`vrai` pour rendre les sorties HTML, MHTML, EPUB, WordML, RTF, DOCX et ODT lisibles par l'homme. Utile pour les tests ou le débogage.
 
 ### Exemples
 
-Montre comment améliorer la lisibilité du code brut d'un document .html enregistré.
+Montre comment améliorer la lisibilité du code brut d’un document .html enregistré.
 
 ```csharp
 Document doc = new Document();
@@ -31,7 +31,7 @@ HtmlSaveOptions htmlOptions = new HtmlSaveOptions(SaveFormat.Html) { PrettyForma
 
 doc.Save(ArtifactsDir + "HtmlSaveOptions.PrettyFormat.html", htmlOptions);
 
-// L'activation du joli format rend le code html brut plus lisible en ajoutant des taquets de tabulation et des caractères de nouvelle ligne.
+// L'activation du joli format rend le code HTML brut plus lisible en ajoutant des taquets de tabulation et des caractères de nouvelle ligne.
 string html = File.ReadAllText(ArtifactsDir + "HtmlSaveOptions.PrettyFormat.html");
 
 if (usePrettyFormat)

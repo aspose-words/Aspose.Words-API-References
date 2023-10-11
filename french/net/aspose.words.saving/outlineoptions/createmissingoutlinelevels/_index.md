@@ -10,7 +10,7 @@ url: /fr/net/aspose.words.saving/outlineoptions/createmissingoutlinelevels/
 
 Obtient ou définit une valeur déterminant s'il faut ou non créer des niveaux hiérarchiques manquants lorsque le document est exporté.
 
-La valeur par défaut pour cette propriété est **faux**.
+La valeur par défaut de cette propriété est`FAUX`.
 
 ```csharp
 public bool CreateMissingOutlineLevels { get; set; }
@@ -18,13 +18,13 @@ public bool CreateMissingOutlineLevels { get; set; }
 
 ### Exemples
 
-Montre comment travailler avec des niveaux hiérarchiques qui ne contiennent aucun en-tête correspondant lors de l'enregistrement d'un document PDF.
+Montre comment travailler avec des niveaux hiérarchiques qui ne contiennent aucun titre correspondant lors de l'enregistrement d'un document PDF.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Insérer des en-têtes pouvant servir d'entrées de table des matières des niveaux 1 et 5.
+// Insère des titres pouvant servir d'entrées de table des matières des niveaux 1 et 5.
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
 
 Assert.True(builder.ParagraphFormat.IsHeading);
@@ -36,21 +36,21 @@ builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading5;
 builder.Writeln("Heading 1.1.1.1.1");
 builder.Writeln("Heading 1.1.1.1.2");
 
-// Crée un objet "PdfSaveOptions" que nous pouvons passer à la méthode "Save" du document
+// Crée un objet "PdfSaveOptions" que l'on peut passer à la méthode "Save" du document
 // pour modifier la façon dont cette méthode convertit le document en .PDF.
 PdfSaveOptions saveOptions = new PdfSaveOptions();
 
-// Le document PDF de sortie contiendra un plan, qui est une table des matières qui répertorie les en-têtes dans le corps du document.
-// Cliquer sur une entrée dans ce plan nous amènera à l'emplacement de son en-tête respectif.
-// Définissez la propriété "HeadingsOutlineLevels" sur "5" pour inclure tous les titres de niveaux 5 et inférieurs dans le plan.
+// Le document PDF de sortie contiendra un plan, qui est une table des matières répertoriant les titres dans le corps du document.
+// Cliquer sur une entrée de ce plan nous amènera à l'emplacement de son en-tête respectif.
+// Définissez la propriété "HeadingsOutlineLevels" sur "5" pour inclure tous les titres des niveaux 5 et inférieurs dans le plan.
 saveOptions.OutlineOptions.HeadingsOutlineLevels = 5;
 
- // Ce document contient des titres de niveaux 1 et 5, et aucun titre de niveaux 2, 3 et 4.
-// Le document PDF de sortie traitera les niveaux hiérarchiques 2, 3 et 4 comme "manquants".
-// Définissez la propriété "CreateMissingOutlineLevels" sur "true" pour inclure tous les niveaux manquants dans le plan,
-// laissant des entrées de contour vides car il n'y a pas d'en-têtes utilisables.
-// Définissez la propriété "CreateMissingOutlineLevels" sur "false" pour ignorer les niveaux hiérarchiques manquants,
-// et traiter les en-têtes de niveau hiérarchique 5 comme niveau 2.
+// Ce document contient des titres de niveaux 1 et 5, et aucun titre de niveaux 2, 3 et 4.
+// Le document PDF de sortie traitera les niveaux de plan 2, 3 et 4 comme "manquants".
+// Fixe la propriété "CreateMissingOutlineLevels" à "true" pour inclure tous les niveaux manquants dans le plan,
+// laissant les entrées de plan vides car il n'y a pas de titres utilisables.
+// Fixe la propriété "CreateMissingOutlineLevels" à "false" pour ignorer les niveaux hiérarchiques manquants,
+// et traite les titres du plan de niveau 5 comme étant de niveau 2.
 saveOptions.OutlineOptions.CreateMissingOutlineLevels = createMissingOutlineLevels;
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.CreateMissingOutlineLevels.pdf", saveOptions);

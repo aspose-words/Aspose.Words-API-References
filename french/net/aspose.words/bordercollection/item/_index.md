@@ -1,14 +1,14 @@
 ---
 title: BorderCollection.Item
 second_title: Référence de l'API Aspose.Words pour .NET
-description: BorderCollection propriété. Récupère un objet Border par type de bordure.
+description: BorderCollection propriété. Récupère unBorder objet par type de bordure.
 type: docs
 weight: 60
 url: /fr/net/aspose.words/bordercollection/item/
 ---
 ## BorderCollection indexer (1 of 2)
 
-Récupère un objet Border par type de bordure.
+Récupère un[`Border`](../../border/) objet par type de bordure.
 
 ```csharp
 public Border this[BorderType borderType] { get; }
@@ -20,11 +20,11 @@ public Border this[BorderType borderType] { get; }
 
 ### Remarques
 
-Notez que toutes les bordures ne sont pas présentes pour différents éléments de document. Cette méthode lève une exception si vous demandez une bordure non applicable à l'objet actuel.
+Notez que toutes les bordures ne sont pas présentes pour les différents éléments du document. Cette méthode lève une exception si vous demandez une bordure non applicable à l'objet actuel.
 
 ### Exemples
 
-Montre comment décorer du texte avec des bordures et des ombres.
+Montre comment décorer du texte avec des bordures et des ombrages.
 
 ```csharp
 Document doc = new Document();
@@ -58,7 +58,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.ApplyBordersAndShading.docx");
 
 ## BorderCollection indexer (2 of 2)
 
-Récupère un objet Border par index.
+Récupère un[`Border`](../../border/) objet par index.
 
 ```csharp
 public Border this[int index] { get; }
@@ -83,7 +83,6 @@ builder.Write("Paragraph 2.");
 // ces paragraphes, leurs collections de bordures partagent les mêmes éléments.
 BorderCollection firstParagraphBorders = doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Borders;
 BorderCollection secondParagraphBorders = builder.CurrentParagraph.ParagraphFormat.Borders;
-
 for (int i = 0; i < firstParagraphBorders.Count; i++)
 {
     Assert.IsTrue(firstParagraphBorders[i].Equals(secondParagraphBorders[i]));
@@ -94,7 +93,7 @@ for (int i = 0; i < firstParagraphBorders.Count; i++)
 foreach (Border border in secondParagraphBorders)
     border.LineStyle = LineStyle.DotDash;
 
-// Après avoir changé le style de ligne des bordures dans le deuxième paragraphe seulement,
+// Après avoir modifié le style de ligne des bordures uniquement dans le deuxième paragraphe,
 // les collections de bordures ne partagent plus les mêmes éléments.
 for (int i = 0; i < firstParagraphBorders.Count; i++)
 {

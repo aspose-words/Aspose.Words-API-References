@@ -16,11 +16,11 @@ public void Remove(string formField)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| formField | String | Nom non sensible à la casse du champ de formulaire à supprimer. |
+| formField | String | Le nom, qui ne respecte pas la casse, du champ de formulaire à supprimer. |
 
 ### Remarques
 
-Si un signet est associé au champ de formulaire, le signet n'est pas supprimé.
+S'il existe un signet associé au champ du formulaire, le signet n'est pas supprimé.
 
 ### Exemples
 
@@ -32,7 +32,7 @@ public void Visitor()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Utilise un générateur de document pour insérer une zone de liste déroulante.
+    // Utilisez un générateur de documents pour insérer une zone de liste déroulante.
     builder.Write("Choose a value from this combo box: ");
     FormField comboBox = builder.InsertComboBox("MyComboBox", new[] { "One", "Two", "Three" }, 0);
     comboBox.CalculateOnExit = true;
@@ -42,7 +42,7 @@ public void Visitor()
 
     builder.InsertBreak(BreakType.ParagraphBreak);
 
-    // Utilisez un générateur de document pour insérer une case à cocher.
+    // Utilisez un générateur de documents pour insérer une case à cocher.
     builder.Write("Click this check box to tick/untick it: ");
     FormField checkBox = builder.InsertCheckBox("MyCheckBox", false, 50);
     checkBox.IsCheckBoxExactSize = true;
@@ -56,7 +56,7 @@ public void Visitor()
 
     builder.InsertBreak(BreakType.ParagraphBreak);
 
-    // Utilisez un générateur de document pour insérer un champ de formulaire de saisie de texte.
+    // Utilisez un générateur de documents pour insérer un champ de formulaire de saisie de texte.
     builder.Write("Enter text here: ");
     FormField textInput = builder.InsertTextInput("MyTextInput", TextFormFieldType.Regular, "", "Placeholder text", 50);
     textInput.EntryMacro = "EntryMacro";
@@ -79,7 +79,7 @@ public void Visitor()
     Assert.AreEqual(" FORMCHECKBOX \u0001", doc.Range.Fields[1].GetFieldCode());
     Assert.AreEqual(" FORMTEXT \u0001", doc.Range.Fields[2].GetFieldCode());
 
-    // Autoriser chaque champ de formulaire à accepter un visiteur de document.
+    // Autorise chaque champ du formulaire à accepter un visiteur du document.
     FormFieldVisitor formFieldVisitor = new FormFieldVisitor();
 
     using (IEnumerator<FormField> fieldEnumerator = formFields.GetEnumerator())
@@ -93,7 +93,7 @@ public void Visitor()
 }
 
 /// <summary>
-/// Implémentation de visiteur qui imprime les détails des champs de formulaire qu'il visite. 
+ /// Implémentation du visiteur qui imprime les détails des champs de formulaire qu'il visite.
 /// </summary>
 public class FormFieldVisitor : DocumentVisitor
 {
@@ -129,12 +129,12 @@ public class FormFieldVisitor : DocumentVisitor
                 break;
         }
 
-        // Laisser le visiteur continuer à visiter d'autres nœuds.
+        // Laissez le visiteur continuer à visiter d'autres nœuds.
         return VisitorAction.Continue;
     }
 
     /// <summary>
-    /// Ajoute du texte terminé par un caractère de saut de ligne à la sortie actuelle.
+    /// Ajoute du texte terminé par un caractère de nouvelle ligne à la sortie actuelle.
     /// </summary>
     private void AppendLine(string text)
     {
@@ -142,7 +142,7 @@ public class FormFieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Obtient le texte brut du document qui a été accumulé par le visiteur.
+    /// Obtient le texte brut du document accumulé par le visiteur.
     /// </summary>
     public string GetText()
     {

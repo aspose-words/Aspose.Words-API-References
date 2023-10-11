@@ -1,14 +1,16 @@
 ---
 title: Class SectionCollection
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.SectionCollection classe. Une collection de Section objets dans le document.
+description: Aspose.Words.SectionCollection classe. Une collection deSection objets dans le document.
 type: docs
-weight: 5450
+weight: 5740
 url: /fr/net/aspose.words/sectioncollection/
 ---
 ## SectionCollection class
 
-Une collection de **Section** objets dans le document.
+Une collection de[`Section`](../section/) objets dans le document.
+
+Pour en savoir plus, visitez le[Travailler avec des sections](https://docs.aspose.com/words/net/working-with-sections/) article documentaire.
 
 ```csharp
 public class SectionCollection : NodeCollection
@@ -27,19 +29,19 @@ public class SectionCollection : NodeCollection
 | --- | --- |
 | [Add](../../aspose.words/nodecollection/add/)(Node) | Ajoute un nœud à la fin de la collection. |
 | [Clear](../../aspose.words/nodecollection/clear/)() | Supprime tous les nœuds de cette collection et du document. |
-| [Contains](../../aspose.words/nodecollection/contains/)(Node) | Détermine si un nœud est dans la collection. |
+| [Contains](../../aspose.words/nodecollection/contains/)(Node) | Détermine si un nœud fait partie de la collection. |
 | [GetEnumerator](../../aspose.words/nodecollection/getenumerator/)() | Fournit une simple itération de style "foreach" sur la collection de nœuds. |
 | [IndexOf](../../aspose.words/nodecollection/indexof/)(Node) | Renvoie l'index de base zéro du nœud spécifié. |
 | [Insert](../../aspose.words/nodecollection/insert/)(int, Node) | Insère un nœud dans la collection à l'index spécifié. |
 | [Remove](../../aspose.words/nodecollection/remove/)(Node) | Supprime le nœud de la collection et du document. |
 | [RemoveAt](../../aspose.words/nodecollection/removeat/)(int) | Supprime le nœud à l'index spécifié de la collection et du document. |
-| [ToArray](../../aspose.words/sectioncollection/toarray/#toarray_1)() | Copie toutes les sections de la collection dans un nouveau tableau de sections. (2 methods) |
+| [ToArray](../../aspose.words/sectioncollection/toarray/#toarray_1)() | Copie toutes les sections de la collection vers un nouveau tableau de sections. (2 methods) |
 
 ### Remarques
 
-Un document Microsoft Word peut contenir plusieurs sections. Pour créer une section dans un Microsoft Word, sélectionnez la commande Insert/Break et sélectionnez un type de saut. Le saut spécifie si la section commence sur une nouvelle page ou sur la même page.
+Un document Microsoft Word peut contenir plusieurs sections. Pour créer une section dans Microsoft Word, sélectionnez la commande Insérer/Sauter et sélectionnez un type de saut. Le saut précise si la section démarre sur une nouvelle page ou sur la même page.
 
-L'insertion et la suppression de sections par programmation peuvent être utilisées pour personnaliser les documents produits lors du publipostage. Si un document doit avoir un contenu différent ou des parties du contenu de the en fonction de certains critères, vous pouvez créer un document "maître" qui contient plusieurs sections et supprimer certaines des sections avant ou après le publipostage.
+L'insertion et la suppression de sections par programme peuvent être utilisées pour personnaliser les documents produits lors du publipostage. Si un document doit avoir un contenu différent ou des parties du contenu en fonction de certains critères, vous pouvez alors créer un document « maître » qui contient plusieurs sections et supprimer certaines des sections avant ou après le publipostage.
 
 ### Exemples
 

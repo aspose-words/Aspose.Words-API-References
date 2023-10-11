@@ -3,12 +3,14 @@ title: Class ImageSize
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Aspose.Words.Drawing.ImageSize classe. Contient des informations sur la taille et la résolution de limage.
 type: docs
-weight: 940
+weight: 1070
 url: /fr/net/aspose.words.drawing/imagesize/
 ---
 ## ImageSize class
 
 Contient des informations sur la taille et la résolution de l'image.
+
+Pour en savoir plus, visitez le[Travailler avec des images](https://docs.aspose.com/words/net/working-with-images/) article documentaire.
 
 ```csharp
 public class ImageSize
@@ -26,11 +28,11 @@ public class ImageSize
 | Nom | La description |
 | --- | --- |
 | [HeightPixels](../../aspose.words.drawing/imagesize/heightpixels/) { get; } | Obtient la hauteur de l'image en pixels. |
-| [HeightPoints](../../aspose.words.drawing/imagesize/heightpoints/) { get; } | Obtient la hauteur de l'image en points. 1 point correspond à 1/72 de pouce. |
+| [HeightPoints](../../aspose.words.drawing/imagesize/heightpoints/) { get; } | Obtient la hauteur de l'image en points. 1 point équivaut à 1/72 de pouce. |
 | [HorizontalResolution](../../aspose.words.drawing/imagesize/horizontalresolution/) { get; } | Obtient la résolution horizontale en DPI. |
 | [VerticalResolution](../../aspose.words.drawing/imagesize/verticalresolution/) { get; } | Obtient la résolution verticale en DPI. |
 | [WidthPixels](../../aspose.words.drawing/imagesize/widthpixels/) { get; } | Obtient la largeur de l'image en pixels. |
-| [WidthPoints](../../aspose.words.drawing/imagesize/widthpoints/) { get; } | Obtient la largeur de l'image en points. 1 point correspond à 1/72 de pouce. |
+| [WidthPoints](../../aspose.words.drawing/imagesize/widthpoints/) { get; } | Obtient la largeur de l'image en points. 1 point équivaut à 1/72 de pouce. |
 
 ### Exemples
 
@@ -49,8 +51,8 @@ Montre comment redimensionner une forme avec une image.
             Assert.AreEqual(400, image.Height);
 #endif
 
-            // Lorsque nous insérons une image à l'aide de la méthode "InsertImage", le constructeur redimensionne la forme qui affiche l'image de sorte que,
-            // lorsque nous visualisons le document en utilisant un zoom de 100 % dans Microsoft Word, la forme affiche l'image dans sa taille réelle.
+            // Lorsque nous insérons une image à l'aide de la méthode "InsertImage", le générateur met à l'échelle la forme qui affiche l'image de sorte que,
+            // lorsque nous visualisons le document en utilisant un zoom à 100 % dans Microsoft Word, la forme affiche l'image dans sa taille réelle.
             Document doc = new Document();
             DocumentBuilder builder = new DocumentBuilder(doc);
             Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
@@ -61,7 +63,7 @@ Montre comment redimensionner une forme avec une image.
             Assert.AreEqual(300.0d, imageSize.WidthPoints);
             Assert.AreEqual(300.0d, imageSize.HeightPoints);
 
-            // Si les dimensions d'une forme correspondent aux dimensions des données de l'image,
+            // Si les dimensions d'une forme correspondent aux dimensions des données d'image,
             // alors la forme affiche l'image dans sa taille d'origine.
             Assert.AreEqual(300.0d, shape.Width);
             Assert.AreEqual(300.0d, shape.Height);

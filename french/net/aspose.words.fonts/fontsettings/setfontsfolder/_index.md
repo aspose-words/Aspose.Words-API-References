@@ -32,9 +32,9 @@ builder.Writeln("Hello world!");
 builder.Font.Name = "Amethysta";
 builder.Writeln("The quick brown fox jumps over the lazy dog.");
 
-// Nos sources de polices ne contiennent pas la police que nous avons utilisée pour le texte de ce document.
+// Nos sources de polices ne contiennent pas la police que nous avons utilisée pour le texte dans ce document.
 // Si nous utilisons ces paramètres de police lors du rendu de ce document,
-// Aspose.Words appliquera une police de secours au texte qui a une police qu'Aspose.Words ne peut pas localiser.
+// Aspose.Words appliquera une police de secours au texte dont la police ne peut pas être localisée par Aspose.Words.
 FontSourceBase[] originalFontSources = FontSettings.DefaultInstance.GetFontsSources();
 
 Assert.AreEqual(1, originalFontSources.Length);
@@ -44,11 +44,11 @@ Assert.True(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName =
 Assert.False(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arvo"));
 Assert.False(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Amethysta"));
 
-// Utilisez la méthode "SetFontsFolder" pour définir un répertoire qui agira comme une nouvelle source de police.
-// Passez "false" comme argument "récursif" pour inclure les polices de tous les fichiers de polices qui se trouvent dans le répertoire
+// Utilisez la méthode "SetFontsFolder" pour définir un répertoire qui fera office de nouvelle source de polices.
+// Passez "false" comme argument "récursif" pour inclure les polices de tous les fichiers de polices présents dans le répertoire
 // que nous transmettons dans le premier argument, mais n'incluons aucune police dans aucun des sous-dossiers de ce répertoire.
-// Passez "true" comme argument "récursif" pour inclure tous les fichiers de polices dans le répertoire que nous passons
-// dans le premier argument, ainsi que toutes les polices dans ses sous-répertoires.
+// Passez "true" comme argument "récursif" pour inclure tous les fichiers de polices dans le répertoire que nous transmettons
+// dans le premier argument, ainsi que toutes les polices de ses sous-répertoires.
 FontSettings.DefaultInstance.SetFontsFolder(FontsDir, recursive);
 
 FontSourceBase[] newFontSources = FontSettings.DefaultInstance.GetFontsSources();

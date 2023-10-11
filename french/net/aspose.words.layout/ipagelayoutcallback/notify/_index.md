@@ -1,14 +1,14 @@
 ---
 title: IPageLayoutCallback.Notify
 second_title: Référence de l'API Aspose.Words pour .NET
-description: IPageLayoutCallback méthode. Ceci est appelé pour notifier la construction de la mise en page et la progression du rendu.
+description: IPageLayoutCallback méthode. Ceci est appelé pour informer de la construction de la mise en page et de la progression du rendu.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.layout/ipagelayoutcallback/notify/
 ---
 ## IPageLayoutCallback.Notify method
 
-Ceci est appelé pour notifier la construction de la mise en page et la progression du rendu.
+Ceci est appelé pour informer de la construction de la mise en page et de la progression du rendu.
 
 ```csharp
 public void Notify(PageLayoutCallbackArgs args)
@@ -20,14 +20,13 @@ public void Notify(PageLayoutCallbackArgs args)
 
 ### Remarques
 
-L'exception lorsqu'elle est lancée par l'implémentation annule le processus de construction de la mise en page.
+Une exception levée par l'implémentation abandonne le processus de création de la mise en page.
 
 ### Exemples
 
 Montre comment suivre les modifications de mise en page avec un rappel de mise en page.
 
 ```csharp
-[Test]
 public void PageLayoutCallback()
 {
     Document doc = new Document();
@@ -44,7 +43,7 @@ public void PageLayoutCallback()
 
 /// <summary>
 /// Nous avertit lorsque nous enregistrons le document dans un format de page fixe
-/// et affiche une page sur laquelle nous effectuons une redistribution de page vers une image dans le système de fichiers local.
+/// et restitue une page sur laquelle nous effectuons une redistribution de page sur une image dans le système de fichiers local.
 /// </summary>
 private class RenderPageLayoutCallback : IPageLayoutCallback
 {

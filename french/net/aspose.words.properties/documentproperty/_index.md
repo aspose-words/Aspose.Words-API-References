@@ -3,12 +3,14 @@ title: Class DocumentProperty
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Aspose.Words.Properties.DocumentProperty classe. Représente une propriété de document personnalisée ou intégrée.
 type: docs
-weight: 4220
+weight: 4470
 url: /fr/net/aspose.words.properties/documentproperty/
 ---
 ## DocumentProperty class
 
 Représente une propriété de document personnalisée ou intégrée.
+
+Pour en savoir plus, visitez le[Travailler avec les propriétés du document](https://docs.aspose.com/words/net/work-with-document-properties/) article documentaire.
 
 ```csharp
 public class DocumentProperty
@@ -19,7 +21,7 @@ public class DocumentProperty
 | Nom | La description |
 | --- | --- |
 | [IsLinkToContent](../../aspose.words.properties/documentproperty/islinktocontent/) { get; } | Indique si cette propriété est liée au contenu ou non. |
-| [LinkSource](../../aspose.words.properties/documentproperty/linksource/) { get; } | Obtient la source d'une propriété de document personnalisé lié. |
+| [LinkSource](../../aspose.words.properties/documentproperty/linksource/) { get; } | Obtient la source d'une propriété de document personnalisé liée. |
 | [Name](../../aspose.words.properties/documentproperty/name/) { get; } | Renvoie le nom de la propriété. |
 | [Type](../../aspose.words.properties/documentproperty/type/) { get; } | Obtient le type de données de la propriété. |
 | [Value](../../aspose.words.properties/documentproperty/value/) { get; set; } | Obtient ou définit la valeur de la propriété. |
@@ -28,11 +30,11 @@ public class DocumentProperty
 
 | Nom | La description |
 | --- | --- |
-| [ToBool](../../aspose.words.properties/documentproperty/tobool/)() | Renvoie la valeur de la propriété sous la forme bool. |
+| [ToBool](../../aspose.words.properties/documentproperty/tobool/)() | Renvoie la valeur de la propriété sous forme bool. |
 | [ToByteArray](../../aspose.words.properties/documentproperty/tobytearray/)() | Renvoie la valeur de la propriété sous forme de tableau d'octets. |
-| [ToDateTime](../../aspose.words.properties/documentproperty/todatetime/)() | Renvoie la valeur de la propriété sous la forme DateTime en UTC. |
+| [ToDateTime](../../aspose.words.properties/documentproperty/todatetime/)() | Renvoie la valeur de la propriété sous la forme **DateHeure** en UTC. |
 | [ToDouble](../../aspose.words.properties/documentproperty/todouble/)() | Renvoie la valeur de la propriété sous la forme double. |
-| [ToInt](../../aspose.words.properties/documentproperty/toint/)() | Renvoie la valeur de la propriété sous forme d'entier. |
+| [ToInt](../../aspose.words.properties/documentproperty/toint/)() | Renvoie la valeur de la propriété sous forme entière. |
 | override [ToString](../../aspose.words.properties/documentproperty/tostring/)() | Renvoie la valeur de la propriété sous forme de chaîne formatée selon les paramètres régionaux actuels. |
 
 ### Exemples

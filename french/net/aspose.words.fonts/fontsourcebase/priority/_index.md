@@ -1,14 +1,14 @@
 ---
 title: FontSourceBase.Priority
 second_title: Référence de l'API Aspose.Words pour .NET
-description: FontSourceBase propriété. Renvoie la priorité de la source de la police.
+description: FontSourceBase propriété. Renvoie la priorité de la source de police.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.fonts/fontsourcebase/priority/
 ---
 ## FontSourceBase.Priority property
 
-Renvoie la priorité de la source de la police.
+Renvoie la priorité de la source de police.
 
 ```csharp
 public int Priority { get; }

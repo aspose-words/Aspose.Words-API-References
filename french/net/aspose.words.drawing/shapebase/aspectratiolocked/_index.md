@@ -16,27 +16,27 @@ public bool AspectRatioLocked { get; set; }
 
 ### Remarques
 
-La valeur par défaut dépend de la[`ShapeType`](../shapetype/) , pour le ShapeType.Image c'est **vrai** mais pour les autres types de forme c'est **faux**.
+La valeur par défaut dépend du[`ShapeType`](../../shapetype/) , pour leImage c'est`vrai` mais pour les autres types de forme, c'est le cas`FAUX`.
 
-N'a d'effet que sur les formes de niveau supérieur.
+A un effet uniquement sur les formes de niveau supérieur.
 
 ### Exemples
 
-Montre comment verrouiller/déverrouiller le rapport d'aspect d'une forme.
+Montre comment verrouiller/déverrouiller les proportions d’une forme.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Insère une forme. Si nous ouvrons ce document dans Microsoft Word, nous pouvons faire un clic gauche sur la forme pour révéler
+// Insère une forme. Si nous ouvrons ce document dans Microsoft Word, nous pouvons cliquer avec le bouton gauche sur la forme pour révéler
 // huit poignées de redimensionnement autour de son périmètre, sur lesquelles nous pouvons cliquer et faire glisser pour modifier sa taille.
 Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
 
-// Définissez la propriété "AspectRatioLocked" sur "true" pour conserver le rapport d'aspect de la forme
-// lors de l'utilisation de l'une des quatre poignées de redimensionnement en diagonale, qui modifient à la fois la hauteur et la largeur de l'image.
-// L'utilisation de poignées de redimensionnement orthogonales qui modifient la hauteur ou la largeur modifiera toujours le rapport d'aspect.
-// Définissez la propriété "AspectRatioLocked" sur "false" pour nous permettre de
-// changez librement le rapport d'aspect de l'image avec toutes les poignées de redimensionnement.
+// Définissez la propriété "AspectRatioLocked" sur "true" pour préserver les proportions de la forme
+// lors de l'utilisation de l'une des quatre poignées de redimensionnement diagonales, qui modifient à la fois la hauteur et la largeur de l'image.
+// L'utilisation de poignées de dimensionnement orthogonales qui modifient la hauteur ou la largeur modifiera toujours le rapport hauteur/largeur.
+// Fixe la propriété "AspectRatioLocked" à "false" pour nous permettre de
+// modifie librement le rapport hauteur/largeur de l'image avec toutes les poignées de dimensionnement.
 shape.AspectRatioLocked = lockAspectRatio;
 
 doc.Save(ArtifactsDir + "Shape.AspectRatio.docx");

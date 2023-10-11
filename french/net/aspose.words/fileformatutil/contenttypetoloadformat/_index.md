@@ -1,14 +1,14 @@
 ---
 title: FileFormatUtil.ContentTypeToLoadFormat
 second_title: Référence de l'API Aspose.Words pour .NET
-description: FileFormatUtil méthode. Convertit le type de contenu IANA en une valeur énumérée de format de chargement.
+description: FileFormatUtil méthode. Convertit le type de contenu IANA en une valeur énumérée au format de chargement.
 type: docs
 weight: 10
 url: /fr/net/aspose.words/fileformatutil/contenttypetoloadformat/
 ---
 ## FileFormatUtil.ContentTypeToLoadFormat method
 
-Convertit le type de contenu IANA en une valeur énumérée de format de chargement.
+Convertit le type de contenu IANA en une valeur énumérée au format de chargement.
 
 ```csharp
 public static LoadFormat ContentTypeToLoadFormat(string contentType)
@@ -18,14 +18,14 @@ public static LoadFormat ContentTypeToLoadFormat(string contentType)
 
 | exception | condition |
 | --- | --- |
-| ArgumentException | Lance lorsqu'il est impossible de convertir. |
+| ArgumentException | Lance quand on ne peut pas convertir. |
 
 ### Exemples
 
 Montre comment trouver le format de chargement/enregistrement Aspose correspondant à partir de chaque chaîne de type de média.
 
 ```csharp
-// Les méthodes ContentTypeToSaveFormat/ContentTypeToLoadFormat n'acceptent que les noms officiels de type de média IANA, également appelés types MIME. 
+ // Les méthodes ContentTypeToSaveFormat/ContentTypeToLoadFormat n'acceptent que les noms de types de médias IANA officiels, également appelés types MIME.
 // Tous les types de médias valides sont répertoriés ici : https://www.iana.org/assignments/media-types/media-types.xhtml.
 
 // Essayer d'associer un SaveFormat à une chaîne de type de média partielle ne fonctionnera pas.
@@ -34,7 +34,7 @@ Assert.Throws<ArgumentException>(() => FileFormatUtil.ContentTypeToSaveFormat("j
 // Si Aspose.Words n'a pas de format de sauvegarde/chargement correspondant pour un type de contenu, une exception sera également levée.
 Assert.Throws<ArgumentException>(() => FileFormatUtil.ContentTypeToSaveFormat("application/zip"));
 
-// Les fichiers des types répertoriés ci-dessous peuvent être enregistrés, mais pas chargés à l'aide de Aspose.Words.
+// Les fichiers des types répertoriés ci-dessous peuvent être enregistrés, mais pas chargés à l'aide d'Aspose.Words.
 Assert.Throws<ArgumentException>(() => FileFormatUtil.ContentTypeToLoadFormat("image/jpeg"));
 
 Assert.AreEqual(SaveFormat.Jpeg, FileFormatUtil.ContentTypeToSaveFormat("image/jpeg"));
@@ -47,7 +47,7 @@ Assert.AreEqual(SaveFormat.Pdf, FileFormatUtil.ContentTypeToSaveFormat("applicat
 Assert.AreEqual(SaveFormat.Svg, FileFormatUtil.ContentTypeToSaveFormat("image/svg+xml"));
 Assert.AreEqual(SaveFormat.Epub, FileFormatUtil.ContentTypeToSaveFormat("application/epub+zip"));
 
-// Pour les types de fichiers qui peuvent être enregistrés et chargés, nous pouvons faire correspondre un type de média à la fois à un format de chargement et à un format d'enregistrement.
+// Pour les types de fichiers pouvant être enregistrés et chargés, nous pouvons faire correspondre un type de média à la fois à un format de chargement et à un format de sauvegarde.
 Assert.AreEqual(LoadFormat.Doc, FileFormatUtil.ContentTypeToLoadFormat("application/msword"));
 Assert.AreEqual(SaveFormat.Doc, FileFormatUtil.ContentTypeToSaveFormat("application/msword"));
 

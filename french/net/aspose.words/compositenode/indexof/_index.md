@@ -3,7 +3,7 @@ title: CompositeNode.IndexOf
 second_title: Référence de l'API Aspose.Words pour .NET
 description: CompositeNode méthode. Renvoie lindex du nœud enfant spécifié dans le tableau de nœuds enfants.
 type: docs
-weight: 130
+weight: 140
 url: /fr/net/aspose.words/compositenode/indexof/
 ---
 ## CompositeNode.IndexOf method
@@ -27,8 +27,8 @@ Document doc = new Document(MyDir + "Rendering.docx");
 
 Body body = doc.FirstSection.Body;
 
-// Récupère l'index du dernier paragraphe dans le corps de la première section.
-Assert.AreEqual(24, body.ChildNodes.IndexOf(body.LastParagraph));
+// Récupère l'index du dernier paragraphe du corps de la première section.
+Assert.AreEqual(24, body.GetChildNodes(NodeType.Any, false).IndexOf(body.LastParagraph));
 ```
 
 ### Voir également

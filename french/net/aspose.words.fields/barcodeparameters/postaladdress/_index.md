@@ -1,14 +1,14 @@
 ---
 title: BarcodeParameters.PostalAddress
 second_title: Référence de l'API Aspose.Words pour .NET
-description: BarcodeParameters propriété. Codebarres adresse postale.
+description: BarcodeParameters propriété. Adresse postale du codebarres.
 type: docs
 weight: 150
 url: /fr/net/aspose.words.fields/barcodeparameters/postaladdress/
 ---
 ## BarcodeParameters.PostalAddress property
 
-Code-barres adresse postale.
+Adresse postale du code-barres.
 
 ```csharp
 public string PostalAddress { get; set; }
@@ -16,20 +16,19 @@ public string PostalAddress { get; set; }
 
 ### Exemples
 
-Montre comment utiliser un générateur de code-barres.
+Montre comment utiliser un générateur de codes-barres.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
-
 // Nous pouvons utiliser une implémentation IBarcodeGenerator personnalisée pour générer des codes-barres,
-// puis insérez-les dans le document en tant qu'images.
+// puis insérez-les dans le document sous forme d'images.
 doc.FieldOptions.BarcodeGenerator = new CustomBarcodeGenerator();
 
 // Vous trouverez ci-dessous quatre exemples de différents types de codes-barres que nous pouvons créer à l'aide de notre générateur.
 // Pour chaque code-barres, nous spécifions un nouvel ensemble de paramètres de code-barres, puis générons l'image.
-// Ensuite, nous pouvons insérer l'image dans le document ou l'enregistrer dans le système de fichiers local.
-// 1 - Code QR :
+// Ensuite, nous pouvons insérer l'image dans le document ou la sauvegarder dans le système de fichiers local.
+// 1 - Code QR :
 BarcodeParameters barcodeParameters = new BarcodeParameters
 {
     BarcodeType = "QR",
@@ -73,7 +72,7 @@ img = doc.FieldOptions.BarcodeGenerator.GetBarcodeImage(barcodeParameters);
 img.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.CODE39.jpg");
 builder.InsertImage(img);
 
-// 4 - Code barre ITF14 :
+// 4 - Code barre ITF14 :
 barcodeParameters = new BarcodeParameters
 {
     BarcodeType = "ITF14",

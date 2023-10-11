@@ -28,7 +28,7 @@ public void ConditionEvaluationExtensionPoint(string fieldCode, sbyte comparison
 
     DocumentBuilder builder = new DocumentBuilder();
 
-    // Codes de champ que nous utilisons dans cet exemple :
+    // Codes de champs que nous utilisons dans cet exemple :
     // 1. " SI {0} {1} {2} \"vrai argument\" \"faux argument\" ".
     // 2. " COMPARER {0} {1} {2} ".
     Field field = builder.InsertField(string.Format(fieldCode, left, @operator, right), null);

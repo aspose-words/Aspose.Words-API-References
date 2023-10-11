@@ -3,12 +3,14 @@ title: Class FieldMergingArgsBase
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Aspose.Words.MailMerging.FieldMergingArgsBase classe. Classe de base pourFieldMergingArgs etImageFieldMergingArgs .
 type: docs
-weight: 3560
+weight: 3780
 url: /fr/net/aspose.words.mailmerging/fieldmergingargsbase/
 ---
 ## FieldMergingArgsBase class
 
 Classe de base pour[`FieldMergingArgs`](../fieldmergingargs/) et[`ImageFieldMergingArgs`](../imagefieldmergingargs/) .
+
+Pour en savoir plus, visitez le[Fusion et publipostage et création de rapports](https://docs.aspose.com/words/net/mail-merge-and-reporting/) article documentaire.
 
 ```csharp
 public abstract class FieldMergingArgsBase
@@ -31,6 +33,7 @@ public abstract class FieldMergingArgsBase
 Montre comment exécuter un publipostage avec un rappel personnalisé qui gère les données de fusion sous la forme de documents HTML.
 
 ```csharp
+public void MergeHtml()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -78,7 +81,7 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
             builder.InsertHtml((string)args.FieldValue);
 
             // Puisque nous avons déjà inséré manuellement le contenu fusionné,
-             // nous n'aurons pas besoin de répondre à cet événement en renvoyant du contenu via la propriété "Texte".
+             // nous n'aurons pas besoin de répondre à cet événement en renvoyant du contenu via la propriété "Text".
             args.Text = string.Empty;
         }
     }

@@ -1,14 +1,14 @@
 ---
 title: FontInfoCollection.Contains
 second_title: Référence de l'API Aspose.Words pour .NET
-description: FontInfoCollection méthode. Détermine si la collection contient une police avec le nom donné.
+description: FontInfoCollection méthode. Détermine si la collection contient une police portant le nom donné.
 type: docs
 weight: 60
 url: /fr/net/aspose.words.fonts/fontinfocollection/contains/
 ---
 ## FontInfoCollection.Contains method
 
-Détermine si la collection contient une police avec le nom donné.
+Détermine si la collection contient une police portant le nom donné.
 
 ```csharp
 public bool Contains(string name)
@@ -16,11 +16,11 @@ public bool Contains(string name)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| name | String | Nom insensible à la casse de la police à localiser. |
+| name | String | Nom de la police à localiser, qui ne respecte pas la casse. |
 
 ### Return_Value
 
-True si l'élément se trouve dans la collection ; sinon, faux.
+`vrai` si l'objet est trouvé dans la collection ; sinon,`FAUX`.
 
 ### Exemples
 

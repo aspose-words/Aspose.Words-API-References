@@ -18,7 +18,7 @@ public double LineWidth { get; set; }
 
 Renvoie la largeur de la première bordure de la collection.
 
-Définit la largeur de toutes les bordures de la collection, à l'exception des bordures diagonales.
+Définit la largeur de toutes les bordures de la collection, à l'exclusion des bordures diagonales.
 
 ### Exemples
 

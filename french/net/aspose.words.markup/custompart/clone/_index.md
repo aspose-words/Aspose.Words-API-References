@@ -1,14 +1,14 @@
 ---
 title: CustomPart.Clone
 second_title: Référence de l'API Aspose.Words pour .NET
-description: CustomPart méthode. Fait une copie assez profonde de lobjet. Ne duplique pas les octets duData valeur.
+description: CustomPart méthode. Crée une copie suffisamment profonde de lobjet. Ne duplique pas les octets duData valeur.
 type: docs
 weight: 70
 url: /fr/net/aspose.words.markup/custompart/clone/
 ---
 ## CustomPart.Clone method
 
-Fait une copie "assez profonde" de l'objet. Ne duplique pas les octets du[`Data`](../data/) valeur.
+Crée une copie "suffisamment profonde" de l'objet. Ne duplique pas les octets du[`Data`](../data/) valeur.
 
 ```csharp
 public CustomPart Clone()
@@ -16,14 +16,14 @@ public CustomPart Clone()
 
 ### Exemples
 
-Montre comment accéder à la collection de parties personnalisées arbitraires d'un document.
+Montre comment accéder à la collection de pièces personnalisées arbitraires d’un document.
 
 ```csharp
 Document doc = new Document(MyDir + "Custom parts OOXML package.docx");
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);
 
-// Clone la deuxième partie, puis ajoute le clone à la collection.
+// Clonez la deuxième partie, puis ajoutez le clone à la collection.
 CustomPart clonedPart = doc.PackageCustomParts[1].Clone();
 doc.PackageCustomParts.Add(clonedPart);
 Assert.AreEqual(3, doc.PackageCustomParts.Count);
@@ -45,7 +45,7 @@ using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator
     }
 }
 
-// Nous pouvons supprimer des éléments de cette collection individuellement ou tous à la fois.
+// Nous pouvons supprimer des éléments de cette collection individuellement ou tous en même temps.
 doc.PackageCustomParts.RemoveAt(2);
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);

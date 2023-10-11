@@ -1,14 +1,14 @@
 ---
 title: PageInfo.Landscape
 second_title: Référence de l'API Aspose.Words pour .NET
-description: PageInfo propriété. Renvoie true si lorientation de page spécifiée dans le document pour cette page est paysage.
+description: PageInfo propriété. Retoursvrai si lorientation de la page spécifiée dans le document pour cette page est paysage.
 type: docs
-weight: 20
+weight: 30
 url: /fr/net/aspose.words.rendering/pageinfo/landscape/
 ---
 ## PageInfo.Landscape property
 
-Renvoie true si l'orientation de page spécifiée dans le document pour cette page est paysage.
+Retours`vrai` si l'orientation de la page spécifiée dans le document pour cette page est paysage.
 
 ```csharp
 public bool Landscape { get; }
@@ -16,13 +16,13 @@ public bool Landscape { get; }
 
 ### Exemples
 
-Montre comment imprimer des informations sur la taille et l'orientation de la page pour chaque page d'un document Word.
+Montre comment imprimer les informations sur la taille et l’orientation de chaque page d’un document Word.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// La première section comporte 2 pages. Nous attribuerons un bac à papier d'imprimante différent à chacun,
-// dont le numéro correspondra à un type de source papier. Ces sources et leurs types varieront
+// La première section comporte 2 pages. Nous attribuerons à chacun un bac à papier d'imprimante différent,
+// dont le numéro correspondra à une sorte de source papier. Ces sources et leurs types varient
 // en fonction du pilote d'imprimante installé.
 PrinterSettings.PaperSourceCollection paperSources = new PrinterSettings().PaperSources;
 
@@ -36,10 +36,10 @@ float dpi = 96;
 
 for (int i = 0; i < doc.PageCount; i++)
 {
-    // Chaque page a un objet PageInfo, dont l'index est le numéro de la page respective.
+    // Chaque page possède un objet PageInfo, dont l'index est le numéro de la page respective.
     PageInfo pageInfo = doc.GetPageInfo(i);
 
-    // Affiche l'orientation et les dimensions de la page.
+    // Imprime l'orientation et les dimensions de la page.
     Console.WriteLine($"Page {i + 1}:");
     Console.WriteLine($"\tOrientation:\t{(pageInfo.Landscape ? "Landscape" : "Portrait")}");
     Console.WriteLine($"\tPaper size:\t\t{pageInfo.PaperSize} ({pageInfo.WidthInPoints:F0}x{pageInfo.HeightInPoints:F0}pt)");
@@ -53,7 +53,7 @@ for (int i = 0; i < doc.PageCount; i++)
 }
 ```
 
-Montre comment personnaliser l'impression des documents Aspose.Words.
+Montre comment personnaliser l’impression des documents Aspose.Words.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
@@ -99,33 +99,33 @@ public class MyPrintDocument : PrintDocument
     }
 
     /// <summary>
-    /// Appelé avant l'impression de chaque page. 
+     /// Appelé avant l'impression de chaque page.
     /// </summary>
     protected override void OnQueryPageSettings(QueryPageSettingsEventArgs e)
     {
         base.OnQueryPageSettings(e);
 
-        // Un seul document Microsoft Word peut avoir plusieurs sections qui spécifient des pages de tailles différentes, 
-        // orientations et bacs à papier. Le framework d'impression .NET appelle ce code avant 
-        // chaque page est imprimée, ce qui nous permet de spécifier comment imprimer la page courante.
+         // Un seul document Microsoft Word peut comporter plusieurs sections qui spécifient des pages de tailles différentes,
+         // orientations et bacs à papier. Le framework d'impression .NET appelle ce code avant
+        // chaque page est imprimée, ce qui nous donne la possibilité de spécifier comment imprimer la page en cours.
         PageInfo pageInfo = mDocument.GetPageInfo(mCurrentPage - 1);
         e.PageSettings.PaperSize = pageInfo.GetDotNetPaperSize(PrinterSettings.PaperSizes);
 
         // Microsoft Word stocke la source de papier (bac de l'imprimante) pour chaque section en tant que valeur spécifique à l'imprimante.
-        // Pour obtenir la bonne valeur de bac, vous devrez utiliser la propriété "RawKind", que votre imprimante doit renvoyer.
+        // Pour obtenir la valeur correcte du bac, vous devrez utiliser la propriété "RawKind", que votre imprimante doit renvoyer.
         e.PageSettings.PaperSource.RawKind = pageInfo.PaperTray;
         e.PageSettings.Landscape = pageInfo.Landscape;
     }
 
     /// <summary>
-    /// Appelé pour chaque page afin de la rendre pour l'impression. 
+     /// Appelé pour chaque page afin de la restituer pour l'impression.
     /// </summary>
     protected override void OnPrintPage(PrintPageEventArgs e)
     {
         base.OnPrintPage(e);
 
         // Le moteur de rendu Aspose.Words crée une page dessinée à partir de l'origine (x = 0, y = 0) du papier.
-        // Il y aura une marge dure dans l'imprimante, qui rendra chaque page. Nous devons compenser par cette marge dure.
+        // Il y aura une marge dure dans l'imprimante, qui rendra chaque page. Nous devons compenser par cette marge solide.
         float hardOffsetX, hardOffsetY;
 
         // Vous trouverez ci-dessous deux manières de définir une marge ferme.
@@ -137,7 +137,7 @@ public class MyPrintDocument : PrintDocument
         }
         else
         {
-            // 2 - En utilisant nos propres valeurs, si la propriété "PageSettings" n'est pas disponible.
+            // 2 - Utiliser nos propres valeurs, si la propriété "PageSettings" n'est pas disponible.
             hardOffsetX = 20;
             hardOffsetY = 20;
         }

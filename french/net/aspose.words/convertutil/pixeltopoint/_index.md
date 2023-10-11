@@ -31,22 +31,22 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // La "Mise en page" d'une section définit la taille des marges de la page en points.
-// On peut aussi utiliser la classe "ConvertUtil" pour utiliser une autre unité de mesure,
-// tels que les pixels lors de la définition des limites.
+// On peut aussi utiliser la classe "ConvertUtil" pour utiliser une unité de mesure différente,
+// comme les pixels lors de la définition des limites.
 PageSetup pageSetup = builder.PageSetup;
 pageSetup.TopMargin = ConvertUtil.PixelToPoint(100);
 pageSetup.BottomMargin = ConvertUtil.PixelToPoint(200);
 pageSetup.LeftMargin = ConvertUtil.PixelToPoint(225);
 pageSetup.RightMargin = ConvertUtil.PixelToPoint(125);
 
-// Un pixel vaut 0,75 points.
+// Un pixel vaut 0,75 point.
 Assert.AreEqual(0.75d, ConvertUtil.PixelToPoint(1));
 Assert.AreEqual(1.0d, ConvertUtil.PointToPixel(0.75));
 
 // La valeur DPI par défaut utilisée est 96.
 Assert.AreEqual(0.75d, ConvertUtil.PixelToPoint(1, 96));
 
-// Ajoutez du contenu pour montrer les nouvelles marges.
+// Ajoutez du contenu pour démontrer les nouvelles marges.
 builder.Writeln($"This Text is {pageSetup.LeftMargin} points/{ConvertUtil.PointToPixel(pageSetup.LeftMargin)} pixels from the left, " +
                 $"{pageSetup.RightMargin} points/{ConvertUtil.PointToPixel(pageSetup.RightMargin)} pixels from the right, " +
                 $"{pageSetup.TopMargin} points/{ConvertUtil.PointToPixel(pageSetup.TopMargin)} pixels from the top, " +
@@ -82,7 +82,7 @@ public static double PixelToPoint(double pixels, double resolution)
 
 ### Exemples
 
-Montre comment convertir des points en pixels avec une résolution par défaut et personnalisée.
+Montre comment utiliser la conversion de points en pixels avec une résolution par défaut et personnalisée.
 
 ```csharp
 Document doc = new Document();
@@ -96,7 +96,7 @@ pageSetup.TopMargin = ConvertUtil.PixelToPoint(100, myDpi);
 
 Assert.AreEqual(37.5d, pageSetup.TopMargin, 0.01d);
 
-// Au DPI par défaut de 96, un pixel vaut 0,75 points.
+// Au DPI par défaut de 96, un pixel vaut 0,75 point.
 Assert.AreEqual(0.75d, ConvertUtil.PixelToPoint(1));
 
 builder.Writeln($"This Text is {pageSetup.TopMargin} points/{ConvertUtil.PointToPixel(pageSetup.TopMargin, myDpi)} " +

@@ -1,14 +1,14 @@
 ---
 title: PageInfo.GetSpecifiedPrinterPaperSource
 second_title: Référence de l'API Aspose.Words pour .NET
-description: PageInfo méthode. Obtient lePaperSource objet adapté à limpression la page représentée par cePageInfo .
+description: PageInfo méthode. Obtient lePaperSource objet adapté à limpression la page représentée par ceciPageInfo .
 type: docs
-weight: 90
+weight: 100
 url: /fr/net/aspose.words.rendering/pageinfo/getspecifiedprinterpapersource/
 ---
 ## PageInfo.GetSpecifiedPrinterPaperSource method
 
-Obtient lePaperSource objet adapté à l'impression la page représentée par ce[`PageInfo`](../) .
+Obtient lePaperSource objet adapté à l'impression la page représentée par ceci[`PageInfo`](../) .
 
 ```csharp
 public PaperSource GetSpecifiedPrinterPaperSource(PaperSourceCollection paperSources, 
@@ -22,7 +22,7 @@ public PaperSource GetSpecifiedPrinterPaperSource(PaperSourceCollection paperSou
 
 ### Return_Value
 
-Objet que vous pouvez utiliser dans l'infrastructure d'impression .NET pour spécifier la source du papier.
+Objet que vous pouvez utiliser dans le framework d'impression .NET pour spécifier la source de papier.
 
 ### Remarques
 
@@ -30,13 +30,13 @@ Cette méthode nécessite .NET Framework 2.0 ou version ultérieure.
 
 ### Exemples
 
-Montre comment imprimer des informations sur la taille et l'orientation de la page pour chaque page d'un document Word.
+Montre comment imprimer les informations sur la taille et l’orientation de chaque page d’un document Word.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// La première section comporte 2 pages. Nous attribuerons un bac à papier d'imprimante différent à chacun,
-// dont le numéro correspondra à un type de source papier. Ces sources et leurs types varieront
+// La première section comporte 2 pages. Nous attribuerons à chacun un bac à papier d'imprimante différent,
+// dont le numéro correspondra à une sorte de source papier. Ces sources et leurs types varient
 // en fonction du pilote d'imprimante installé.
 PrinterSettings.PaperSourceCollection paperSources = new PrinterSettings().PaperSources;
 
@@ -50,10 +50,10 @@ float dpi = 96;
 
 for (int i = 0; i < doc.PageCount; i++)
 {
-    // Chaque page a un objet PageInfo, dont l'index est le numéro de la page respective.
+    // Chaque page possède un objet PageInfo, dont l'index est le numéro de la page respective.
     PageInfo pageInfo = doc.GetPageInfo(i);
 
-    // Affiche l'orientation et les dimensions de la page.
+    // Imprime l'orientation et les dimensions de la page.
     Console.WriteLine($"Page {i + 1}:");
     Console.WriteLine($"\tOrientation:\t{(pageInfo.Landscape ? "Landscape" : "Portrait")}");
     Console.WriteLine($"\tPaper size:\t\t{pageInfo.PaperSize} ({pageInfo.WidthInPoints:F0}x{pageInfo.HeightInPoints:F0}pt)");

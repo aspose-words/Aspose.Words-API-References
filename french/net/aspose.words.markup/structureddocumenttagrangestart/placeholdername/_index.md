@@ -10,7 +10,7 @@ url: /fr/net/aspose.words.markup/structureddocumenttagrangestart/placeholdername
 
 Obtient ou définit le nom du[`BuildingBlock`](../../../aspose.words.buildingblocks/buildingblock/) contenant du texte d'espace réservé.
 
-BuildingBlock avec ce nom[`Name`](../../../aspose.words.buildingblocks/buildingblock/name/) doit être présent dans[`GlossaryDocument`](../../../aspose.words/document/glossarydocument/) sinonInvalidOperationException arrivera.
+[`BuildingBlock`](../../../aspose.words.buildingblocks/buildingblock/) avec ce nom[`Name`](../../../aspose.words.buildingblocks/buildingblock/name/) doit être présent dans[`GlossaryDocument`](../../../aspose.words/document/glossarydocument/) sinonInvalidOperationException arrivera.
 
 ```csharp
 public string PlaceholderName { get; set; }
@@ -18,7 +18,7 @@ public string PlaceholderName { get; set; }
 
 ### Exemples
 
-Montre comment obtenir les propriétés des balises de document structuré à plusieurs sections.
+Montre comment obtenir les propriétés des balises de documents structurés à plusieurs sections.
 
 ```csharp
 Document doc = new Document(MyDir + "Multi-section structured document tags.docx");

@@ -3,7 +3,7 @@ title: PdfSaveOptions.ZoomBehavior
 second_title: Référence de l'API Aspose.Words pour .NET
 description: PdfSaveOptions propriété. Obtient ou définit une valeur déterminant le type de zoom à appliquer lorsquun document est ouvert avec une visionneuse PDF.
 type: docs
-weight: 290
+weight: 320
 url: /fr/net/aspose.words.saving/pdfsaveoptions/zoombehavior/
 ---
 ## PdfSaveOptions.ZoomBehavior property
@@ -27,11 +27,11 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 
-// Crée un objet "PdfSaveOptions" que nous pouvons passer à la méthode "Save" du document
+// Crée un objet "PdfSaveOptions" que l'on peut passer à la méthode "Save" du document
 // pour modifier la façon dont cette méthode convertit le document en .PDF.
-// Définissez la propriété "ZoomBehavior" sur "PdfZoomBehavior.ZoomFactor" pour obtenir un lecteur PDF
+// Définissez la propriété "ZoomBehavior" sur "PdfZoomBehavior.ZoomFactor" pour qu'un lecteur PDF
 // applique un facteur de zoom basé sur un pourcentage lorsque nous ouvrons le document avec.
-// Définissez la propriété "ZoomFactor" sur "25" pour donner au facteur de zoom une valeur de 25 %.
+// Fixez la propriété "ZoomFactor" à "25" pour donner au facteur de zoom une valeur de 25%.
 PdfSaveOptions options = new PdfSaveOptions
 {
     ZoomBehavior = PdfZoomBehavior.ZoomFactor,

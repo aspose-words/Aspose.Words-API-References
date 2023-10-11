@@ -16,13 +16,13 @@ public Style Style { get; set; }
 
 ### Exemples
 
-Applique un double soulignement à toutes les séquences d'un document mises en forme avec des styles de caractères personnalisés.
+Applique un double soulignement à toutes les exécutions d'un document formatées avec des styles de caractères personnalisés.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Insère un style personnalisé et l'applique au texte créé à l'aide d'un générateur de document.
+// Insère un style personnalisé et l'applique au texte créé à l'aide d'un générateur de documents.
 Style style = doc.Styles.Add(StyleType.Character, "MyStyle");
 style.Font.Color = Color.Red;
 style.Font.Name = "Courier New";
@@ -30,7 +30,7 @@ style.Font.Name = "Courier New";
 builder.Font.StyleName = "MyStyle";
 builder.Write("This text is in a custom style.");
 
-// Itérer sur chaque exécution et ajouter un double soulignement à chaque style personnalisé.
+// Parcourez chaque exécution et ajoutez un double soulignement à chaque style personnalisé.
 foreach (Run run in doc.GetChildNodes(NodeType.Run, true).OfType<Run>())
 {
     Style charStyle = run.Font.Style;

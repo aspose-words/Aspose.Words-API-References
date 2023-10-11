@@ -16,7 +16,7 @@ public LegendPosition Position { get; set; }
 
 ### Exemples
 
-Montre comment modifier l'apparence de la légende d'un graphique.
+Montre comment modifier l’apparence de la légende d’un graphique.
 
 ```csharp
 Document doc = new Document();
@@ -30,11 +30,11 @@ Assert.AreEqual("Series 1", chart.Series[0].Name);
 Assert.AreEqual("Series 2", chart.Series[1].Name);
 Assert.AreEqual("Series 3", chart.Series[2].Name);
 
-// Déplace la légende du graphique dans le coin supérieur droit.
+// Déplace la légende du graphique vers le coin supérieur droit.
 ChartLegend legend = chart.Legend;
 legend.Position = LegendPosition.TopRight;
 
-// Donnez aux autres éléments du graphique, tels que le graphique, plus d'espace en leur permettant de chevaucher la légende.
+// Donnez plus d'espace aux autres éléments du graphique, tels que le graphique, en leur permettant de chevaucher la légende.
 legend.Overlay = true;
 
 doc.Save(ArtifactsDir + "Charts.ChartLegend.docx");

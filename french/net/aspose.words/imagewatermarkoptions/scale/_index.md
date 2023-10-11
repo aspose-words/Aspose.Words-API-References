@@ -18,23 +18,23 @@ public double Scale { get; set; }
 
 | exception | condition |
 | --- | --- |
-| ArgumentOutOfRangeException | Lance lorsque l'argument est en dehors de la plage de valeurs valides. |
+| ArgumentOutOfRangeException | Lance lorsque l'argument est hors de la plage des valeurs valides. |
 
 ### Remarques
 
-Les valeurs valides sont comprises entre 0 et 65,5 inclus.
+Les valeurs valides vont de 0 à 65,5 inclus.
 
-L'échelle automatique signifie que le filigrane sera mis à l'échelle à sa largeur maximale et sa hauteur maximale par rapport à les marges de la page.
+L'échelle automatique signifie que le filigrane sera mis à l'échelle à sa largeur maximale et à sa hauteur maximale par rapport à les marges de la page.
 
 ### Exemples
 
-Montre comment créer un filigrane à partir d'une image dans le système de fichiers local.
+Montre comment créer un filigrane à partir d’une image dans le système de fichiers local.
 
 ```csharp
 Document doc = new Document();
 
             // Modifier l'apparence du filigrane de l'image avec un objet ImageWatermarkOptions,
-            // puis passez-le lors de la création d'un filigrane à partir d'un fichier image.
+            // puis transmettez-le en créant un filigrane à partir d'un fichier image.
             ImageWatermarkOptions imageWatermarkOptions = new ImageWatermarkOptions();
             imageWatermarkOptions.Scale = 5;
             imageWatermarkOptions.IsWashout = false;

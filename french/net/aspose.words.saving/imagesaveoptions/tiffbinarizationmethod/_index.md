@@ -1,14 +1,14 @@
 ---
 title: ImageSaveOptions.TiffBinarizationMethod
 second_title: Référence de l'API Aspose.Words pour .NET
-description: ImageSaveOptions propriété. Obtient ou définit la méthode utilisée lors de la conversion des images au format 1 bpp lorsqueSaveFormat est SaveFormat.Tiff and TiffCompression est égal à TiffCompression.Ccitt3 ou TiffCompression.Ccitt4.
+description: ImageSaveOptions propriété. Obtient ou définit la méthode utilisée lors de la conversion des images au format 1 bpp lorsqueSaveFormat estTiff et TiffCompression est égal àCcitt3 ouCcitt4 .
 type: docs
-weight: 160
+weight: 170
 url: /fr/net/aspose.words.saving/imagesaveoptions/tiffbinarizationmethod/
 ---
 ## ImageSaveOptions.TiffBinarizationMethod property
 
-Obtient ou définit la méthode utilisée lors de la conversion des images au format 1 bpp lorsque[`SaveFormat`](../saveformat/) est SaveFormat.Tiff and [`TiffCompression`](../tiffcompression/) est égal à TiffCompression.Ccitt3 ou TiffCompression.Ccitt4.
+Obtient ou définit la méthode utilisée lors de la conversion des images au format 1 bpp lorsque[`SaveFormat`](../saveformat/) estTiff et [`TiffCompression`](../tiffcompression/) est égal àCcitt3 ouCcitt4 .
 
 ```csharp
 public ImageBinarizationMethod TiffBinarizationMethod { get; set; }
@@ -16,11 +16,11 @@ public ImageBinarizationMethod TiffBinarizationMethod { get; set; }
 
 ### Remarques
 
-La valeur par défaut est ImageBinarizationMethod.Threshold.
+La valeur par défaut estThreshold.
 
 ### Exemples
 
-Montre comment définir le seuil d'erreur de binarisation TIFF lors de l'utilisation de la méthode Floyd-Steinberg pour restituer une image TIFF.
+Montre comment définir le seuil d’erreur de binarisation TIFF lors de l’utilisation de la méthode Floyd-Steinberg pour restituer une image TIFF.
 
 ```csharp
 Document doc = new Document();

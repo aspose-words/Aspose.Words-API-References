@@ -1,14 +1,14 @@
 ---
 title: DropDownItemCollection.GetEnumerator
 second_title: Référence de l'API Aspose.Words pour .NET
-description: DropDownItemCollection méthode. Renvoie un objet énumérateur qui peut être utilisé pour itérer sur tous les éléments de la collection.
+description: DropDownItemCollection méthode. Renvoie un objet énumérateur qui peut être utilisé pour parcourir tous les éléments de la collection.
 type: docs
 weight: 60
 url: /fr/net/aspose.words.fields/dropdownitemcollection/getenumerator/
 ---
 ## DropDownItemCollection.GetEnumerator method
 
-Renvoie un objet énumérateur qui peut être utilisé pour itérer sur tous les éléments de la collection.
+Renvoie un objet énumérateur qui peut être utilisé pour parcourir tous les éléments de la collection.
 
 ```csharp
 public IEnumerator<string> GetEnumerator()
@@ -34,8 +34,8 @@ Assert.AreEqual("One", dropDownItems[0]);
 Assert.AreEqual(1, dropDownItems.IndexOf("Two"));
 Assert.IsTrue(dropDownItems.Contains("Three"));
 
-// Il existe deux manières d'ajouter un nouvel élément à une collection existante d'éléments de la liste déroulante.
-// 1 - Ajoute un élément à la fin de la collection :
+// Il existe deux manières d'ajouter un nouvel élément à une collection existante d'éléments de liste déroulante.
+// 1 - Ajouter un élément à la fin de la collection :
 dropDownItems.Add("Four");
 
 // 2 - Insère un élément avant un autre élément à un index spécifié :
@@ -43,7 +43,7 @@ dropDownItems.Insert(3, "Three and a half");
 
 Assert.AreEqual(5, dropDownItems.Count);
 
-// Itérer sur la collection et imprimer chaque élément.
+// Parcourez la collection et imprimez chaque élément.
 using (IEnumerator<string> dropDownCollectionEnumerator = dropDownItems.GetEnumerator())
     while (dropDownCollectionEnumerator.MoveNext())
         Console.WriteLine(dropDownCollectionEnumerator.Current);
@@ -52,7 +52,7 @@ using (IEnumerator<string> dropDownCollectionEnumerator = dropDownItems.GetEnume
 // 1 - Supprime un élément dont le contenu est égal à la chaîne passée :
 dropDownItems.Remove("Four");
 
-// 2 - Supprimer un élément à un index :
+// 2 - Supprime un élément à un index :
 dropDownItems.RemoveAt(3);
 
 Assert.AreEqual(3, dropDownItems.Count);

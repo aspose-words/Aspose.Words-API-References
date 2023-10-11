@@ -1,14 +1,14 @@
 ---
 title: Fill.Visible
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Fill propriété. Obtient ou définit la valeur qui estvrai si la mise en forme appliquée à cette instance est visible.
+description: Fill propriété. Obtient ou définit la valeur qui estvrai si le formatage appliqué à cette instance est visible.
 type: docs
-weight: 150
+weight: 210
 url: /fr/net/aspose.words.drawing/fill/visible/
 ---
 ## Fill.Visible property
 
-Obtient ou définit la valeur qui est`vrai` si la mise en forme appliquée à cette instance, est visible.
+Obtient ou définit la valeur qui est`vrai` si le formatage appliqué à cette instance, est visible.
 
 ```csharp
 public bool Visible { get; set; }
@@ -16,7 +16,7 @@ public bool Visible { get; set; }
 
 ### Exemples
 
-Spectacles pour créer une variété de formes.
+Montre pour créer une variété de formes.
 
 ```csharp
 Document doc = new Document();
@@ -41,7 +41,7 @@ Assert.AreEqual(JoinStyle.Miter, arrow.Stroke.JoinStyle);
 
 builder.InsertNode(arrow);
 
-// 2 - Ligne diagonale noire épaisse aux extrémités arrondies :
+// 2 - Ligne diagonale noire épaisse aux extrémités arrondies :
 Shape line = new Shape(doc, ShapeType.Line);
 line.Top = 40;
 line.Width = 200;
@@ -51,7 +51,7 @@ line.Stroke.EndCap = EndCap.Round;
 
 builder.InsertNode(line);
 
-// 3 - Flèche avec un remplissage vert :
+// 3 - Flèche avec un remplissage vert :
 Shape filledInArrow = new Shape(doc, ShapeType.Arrow);
 filledInArrow.Width = 200;
 filledInArrow.Height = 40;
@@ -61,7 +61,7 @@ filledInArrow.Fill.Visible = true;
 
 builder.InsertNode(filledInArrow);
 
-// 4 - Flèche d'orientation renversée remplie du logo Aspose :
+// 4 - Flèche d'orientation inversée remplie du logo Aspose :
 Shape filledInArrowImg = new Shape(doc, ShapeType.Arrow);
 filledInArrowImg.Width = 200;
 filledInArrowImg.Height = 40;
@@ -74,7 +74,7 @@ using (MemoryStream stream = new MemoryStream(imageBytes))
 {
     Image image = Image.FromStream(stream);
     // Lorsque nous inversons l'orientation de notre flèche, nous inversons également l'image que contient la flèche.
-    // Retournez l'image dans l'autre sens pour annuler cela avant d'obtenir la forme pour l'afficher.
+    // Retournez l'image dans l'autre sens pour l'annuler avant que la forme ne l'affiche.
     image.RotateFlip(RotateFlipType.RotateNoneFlipXY);
 
     filledInArrowImg.ImageData.SetImage(image);

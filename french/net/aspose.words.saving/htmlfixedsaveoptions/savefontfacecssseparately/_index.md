@@ -1,14 +1,14 @@
 ---
 title: HtmlFixedSaveOptions.SaveFontFaceCssSeparately
 second_title: Référence de l'API Aspose.Words pour .NET
-description: HtmlFixedSaveOptions propriété. Flag indique si les règles CSS fontface doivent être placées dans un fichier séparé fontFaces.css lorsquun document est enregistré avec une feuille de style externe cestàdire lorsqueExportEmbeddedCss estfaux . La valeur par défaut estfaux  toutes les règles CSS sont écrites dans un seul fichier styles.css.
+description: HtmlFixedSaveOptions propriété. Lindicateur indique si les règles CSS fontface doivent être placées dans un fichier séparé fontFaces.css lorsquun document est enregistré avec une feuille de style externe cestàdire lorsquExportEmbeddedCss estFAUX . La valeur par défaut estFAUX  toutes les règles CSS sont écrites dans un seul fichier styles.css.
 type: docs
 weight: 160
 url: /fr/net/aspose.words.saving/htmlfixedsaveoptions/savefontfacecssseparately/
 ---
 ## HtmlFixedSaveOptions.SaveFontFaceCssSeparately property
 
-Flag indique si les règles CSS "@font-face" doivent être placées dans un fichier séparé "fontFaces.css" lorsqu'un document est enregistré avec une feuille de style externe (c'est-à-dire lorsque[`ExportEmbeddedCss`](../exportembeddedcss/) est`faux` ). La valeur par défaut est`faux` , toutes les règles CSS sont écrites dans un seul fichier "styles.css".
+L'indicateur indique si les règles CSS "@font-face" doivent être placées dans un fichier séparé "fontFaces.css" lorsqu'un document est enregistré avec une feuille de style externe (c'est-à-dire lorsqu'[`ExportEmbeddedCss`](../exportembeddedcss/) est`FAUX` ). La valeur par défaut est`FAUX` , toutes les règles CSS sont écrites dans un seul fichier "styles.css".
 
 ```csharp
 public bool SaveFontFaceCssSeparately { get; set; }
@@ -16,7 +16,7 @@ public bool SaveFontFaceCssSeparately { get; set; }
 
 ### Remarques
 
-Définir cette propriété sur`vrai` restaure l'ancien comportement (fichiers séparés) pour la compatibilité avec le code hérité.
+Définir cette propriété sur`vrai` restaure l'ancien comportement (fichiers séparés) pour la compatibilité avec le code existant.
 
 ### Exemples
 

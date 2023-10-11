@@ -22,8 +22,8 @@ Montre comment insérer un champ dans un document à l'aide de FieldType.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Insère deux champs en passant un indicateur qui détermine s'il faut les mettre à jour au fur et à mesure que le générateur les insère.
-// Dans certains cas, la mise à jour des champs peut être coûteuse en temps de calcul, et il peut être judicieux de différer la mise à jour.
+// Insère deux champs en passant un indicateur qui détermine s'il faut les mettre à jour au fur et à mesure que le constructeur les insère.
+// Dans certains cas, la mise à jour des champs peut être coûteuse en calcul, et il peut être judicieux de différer la mise à jour.
 doc.BuiltInDocumentProperties.Author = "John Doe";
 builder.Write("This document was written by ");
 builder.InsertField(FieldType.FieldAuthor, updateInsertedFieldsImmediately);
@@ -45,7 +45,7 @@ else
     Assert.AreEqual(string.Empty, doc.Range.Fields[0].Result);
     Assert.AreEqual(string.Empty, doc.Range.Fields[1].Result);
 
-    // Nous devrons mettre à jour ces champs manuellement à l'aide des méthodes de mise à jour.
+    // Nous devrons mettre à jour ces champs manuellement en utilisant les méthodes de mise à jour.
     doc.Range.Fields[0].Update();
 
     Assert.AreEqual("John Doe", doc.Range.Fields[0].Result);
@@ -56,13 +56,13 @@ else
 }
 ```
 
-Montre comment formater les résultats de champ.
+Montre comment formater les résultats des champs.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Utilisez un générateur de document pour insérer un champ qui affiche un résultat sans format appliqué.
+// Utilisez un générateur de documents pour insérer un champ qui affiche un résultat sans aucun format appliqué.
 Field field = builder.InsertField("= 2 + 3");
 
 Assert.AreEqual("= 2 + 3", field.GetFieldCode());
@@ -70,7 +70,7 @@ Assert.AreEqual("5", field.Result);
 
 // Nous pouvons appliquer un format au résultat d'un champ en utilisant les propriétés du champ.
 // Vous trouverez ci-dessous trois types de formats que nous pouvons appliquer au résultat d'un champ.
-// 1 - Format numérique :
+// 1 - Format numérique :
 FieldFormat format = field.Format;
 format.NumericFormat = "$###.00";
 field.Update();
@@ -104,7 +104,7 @@ Assert.AreEqual("LVIII", field.Result);
 Assert.AreEqual(2, format.GeneralFormats.Count);
 Assert.AreEqual(GeneralFormat.LowercaseRoman, format.GeneralFormats[0]);
 
-// Nous pouvons supprimer nos formats pour rétablir le résultat du champ dans sa forme d'origine.
+// Nous pouvons supprimer nos formats pour rétablir le résultat du champ dans sa forme originale.
 format.GeneralFormats.Remove(GeneralFormat.LowercaseRoman);
 format.GeneralFormats.RemoveAt(0);
 Assert.AreEqual(0, format.GeneralFormats.Count);
@@ -133,11 +133,11 @@ public void Update(bool ignoreMergeFormat)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| ignoreMergeFormat | Boolean | Si`vrai` alors le formatage des résultats de champ direct est abandonné, quel que soit le commutateur MERGEFORMAT, sinon la mise à jour normale est effectuée. |
+| ignoreMergeFormat | Boolean | Si`vrai` alors le formatage des résultats du champ direct est abandonné, quel que soit le commutateur MERGEFORMAT, sinon une mise à jour normale est effectuée. |
 
 ### Exemples
 
-Montre comment conserver ou ignorer les champs INCLUDEPICTURE lors du chargement d'un document.
+Montre comment conserver ou supprimer les champs INCLUDEPICTURE lors du chargement d’un document.
 
 ```csharp
 Document doc = new Document();
@@ -151,7 +151,7 @@ using (MemoryStream docStream = new MemoryStream())
 {
     doc.Save(docStream, new OoxmlSaveOptions(SaveFormat.Docx));
 
-    // Nous pouvons définir un indicateur dans un objet LoadOptions pour décider de convertir tous les champs INCLUDEPICTURE
+    // Nous pouvons définir un indicateur dans un objet LoadOptions pour décider s'il faut convertir tous les champs INCLUDEPICTURE
     // dans les formes d'image lors du chargement d'un document qui les contient.
     LoadOptions loadOptions = new LoadOptions
     {

@@ -1,14 +1,14 @@
 ---
 title: Document.SpellingChecked
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Document propriété. Retours vrai si le document a été vérifié pour lorthographe.
+description: Document propriété. Retoursvrai si lorthographe du document a été vérifiée.
 type: docs
-weight: 390
+weight: 410
 url: /fr/net/aspose.words/document/spellingchecked/
 ---
 ## Document.SpellingChecked property
 
-Retours **vrai** si le document a été vérifié pour l'orthographe.
+Retours`vrai` si l'orthographe du document a été vérifiée.
 
 ```csharp
 public bool SpellingChecked { get; set; }
@@ -16,7 +16,7 @@ public bool SpellingChecked { get; set; }
 
 ### Remarques
 
-Pour revérifier l'orthographe dans le document, définissez cette propriété sur **faux** .
+Pour revérifier l'orthographe dans le document, définissez cette propriété sur`FAUX` .
 
 ### Exemples
 
@@ -25,12 +25,12 @@ Montre comment définir la vérification orthographique ou grammaticale.
 ```csharp
 Document doc = new Document();
 
-// La chaîne avec des fautes d'orthographe.
+// La chaîne avec les fautes d'orthographe.
 doc.FirstSection.Body.FirstParagraph.Runs.Add(new Run(doc, "The speeling in this documentz is all broked."));
 
- // La vérification orthographique/grammaticale commence si nous définissons les propriétés sur false.
-// Nous pouvons voir toutes les erreurs dans Microsoft Word via Review -> Orthographe & Grammaire.
-// Notez que Microsoft Word ne démarre pas automatiquement la vérification de la grammaire/orthographe pour les formats de document DOC et RTF.
+ // La vérification orthographique/grammaire démarre si nous définissons les propriétés sur false.
+// Nous pouvons voir toutes les erreurs dans Microsoft Word via Review -> Orthographe et amp; Grammaire.
+// Notez que Microsoft Word ne démarre pas automatiquement la vérification grammaticale/orthographe pour les formats de document DOC et RTF.
 doc.SpellingChecked = checkSpellingGrammar;
 doc.GrammarChecked = checkSpellingGrammar;
 

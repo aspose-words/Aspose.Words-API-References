@@ -1,14 +1,14 @@
 ---
 title: MemoryFontSource.Type
 second_title: Référence de l'API Aspose.Words pour .NET
-description: MemoryFontSource propriété. Renvoie le type de la source de la police.
+description: MemoryFontSource propriété. Renvoie le type de la source de police.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.fonts/memoryfontsource/type/
 ---
 ## MemoryFontSource.Type property
 
-Renvoie le type de la source de la police.
+Renvoie le type de la source de police.
 
 ```csharp
 public override FontSourceType Type { get; }

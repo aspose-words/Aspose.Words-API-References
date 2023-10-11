@@ -1,14 +1,14 @@
 ---
 title: Table.FirstRow
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Table propriété. Renvoie le premier Ligne nœud dans la table.
+description: Table propriété. Renvoie le premierRow nœud dans la table.
 type: docs
 weight: 160
 url: /fr/net/aspose.words.tables/table/firstrow/
 ---
 ## Table.FirstRow property
 
-Renvoie le premier **Ligne** nœud dans la table.
+Renvoie le premier[`Row`](../../row/) nœud dans la table.
 
 ```csharp
 public Row FirstRow { get; }
@@ -16,7 +16,7 @@ public Row FirstRow { get; }
 
 ### Exemples
 
-Montre comment supprimer les première et dernière lignes de tous les tableaux d'un document.
+Montre comment supprimer les première et dernière lignes de tous les tableaux d’un document.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
@@ -42,7 +42,7 @@ Montre comment combiner les lignes de deux tables en une seule.
 Document doc = new Document(MyDir + "Tables.docx");
 
 // Vous trouverez ci-dessous deux manières d'obtenir un tableau à partir d'un document.
-// 1 - Depuis la collection "Tables" d'un noeud Body :
+// 1 - Depuis la collection "Tables" d'un nœud Body :
 Table firstTable = doc.FirstSection.Body.Tables[0];
 
 // 2 - Utilisation de la méthode "GetChild" :

@@ -16,11 +16,11 @@ public void LinkToPrevious(bool isLinkToPrevious)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| isLinkToPrevious | Boolean | True pour lier les en-têtes et pieds de page à la section précédente ; false pour les dissocier. |
+| isLinkToPrevious | Boolean | `vrai` pour lier les en-têtes et pieds de page à la section précédente ; `FAUX` pour les dissocier. |
 
 ### Remarques
 
-Si l'un des en-têtes ou pieds de page n'existe pas, les crée automatiquement.
+Si l’un des en-têtes ou pieds de page n’existe pas, il les crée automatiquement.
 
 ### Exemples
 
@@ -51,24 +51,24 @@ builder.Write("This is the footer, which will be displayed in sections 1, 2 and 
 doc.Sections[1].HeadersFooters.LinkToPrevious(true);
 
 // Chaque section aura toujours ses propres objets d'en-tête/pied de page. Lorsque nous lions des sections,
-// la section de liaison affichera les en-têtes/pieds de page de la section liée tout en gardant les siens.
+// la section de liaison affichera l'en-tête/pied de page de la section liée tout en conservant les siens.
 Assert.AreNotEqual(doc.Sections[0].HeadersFooters[0], doc.Sections[1].HeadersFooters[0]);
 Assert.AreNotEqual(doc.Sections[0].HeadersFooters[0].ParentSection, doc.Sections[1].HeadersFooters[0].ParentSection);
 
-// Lie les en-têtes/pieds de page de la troisième section aux en-têtes/pieds de page de la deuxième section.
+// Liez les en-têtes/pieds de page de la troisième section aux en-têtes/pieds de page de la deuxième section.
 // La deuxième section est déjà liée aux en-têtes/pieds de page de la première section,
-// donc la liaison à la deuxième section créera une chaîne de liens.
-// La première, la deuxième et maintenant la troisième section afficheront toutes les en-têtes de la première section.
+// donc créer un lien vers la deuxième section créera une chaîne de liens.
+// Les première, deuxième et maintenant troisième sections afficheront toutes les en-têtes de la première section.
 doc.Sections[2].HeadersFooters.LinkToPrevious(true);
 
-// Nous pouvons dissocier les en-têtes/pieds de page d'une section précédente en passant "false" lors de l'appel de la méthode LinkToPrevious.
+// Nous pouvons dissocier l'en-tête/pied de page d'une section précédente en passant "false" lors de l'appel de la méthode LinkToPrevious.
 doc.Sections[2].HeadersFooters.LinkToPrevious(false);
 
-// Nous pouvons également sélectionner uniquement un type spécifique d'en-tête/de pied de page à lier à l'aide de cette méthode.
+// Nous pouvons également sélectionner uniquement un type spécifique d'en-tête/pied de page à lier en utilisant cette méthode.
 // La troisième section aura désormais le même pied de page que les deuxième et première sections, mais pas l'en-tête.
 doc.Sections[2].HeadersFooters.LinkToPrevious(HeaderFooterType.FooterPrimary, true);
 
-// Les en-têtes/pieds de page de la première section ne peuvent pas se lier à quoi que ce soit car il n'y a pas de section précédente.
+// L'en-tête/pied de page de la première section ne peut pas se lier à quoi que ce soit car il n'y a pas de section précédente.
 Assert.AreEqual(2, doc.Sections[0].HeadersFooters.Count);
 Assert.AreEqual(2, doc.Sections[0].HeadersFooters.Count(hf => !((HeaderFooter)hf).IsLinkedToPrevious));
 
@@ -94,7 +94,7 @@ doc.Save(ArtifactsDir + "HeaderFooter.Link.docx");
 
 ## LinkToPrevious(HeaderFooterType, bool) {#linktoprevious}
 
-Lie ou dissocie l'en-tête ou le pied de page spécifié de l'en-tête ou du pied de page correspondant dans la section précédente.
+Lie ou dissocie l'en-tête ou le pied de page spécifié à l'en-tête ou au pied de page correspondant dans la section précédente.
 
 ```csharp
 public void LinkToPrevious(HeaderFooterType headerFooterType, bool isLinkToPrevious)
@@ -103,7 +103,7 @@ public void LinkToPrevious(HeaderFooterType headerFooterType, bool isLinkToPrevi
 | Paramètre | Taper | La description |
 | --- | --- | --- |
 | headerFooterType | HeaderFooterType | UN[`HeaderFooterType`](../../headerfootertype/) value qui spécifie l'en-tête ou le pied de page à lier/dissocier. |
-| isLinkToPrevious | Boolean | True pour lier l'en-tête ou le pied de page à la section précédente ; false pour dissocier. |
+| isLinkToPrevious | Boolean | `vrai`pour lier l'en-tête ou le pied de page à la section précédente ; `FAUX` pour dissocier. |
 
 ### Remarques
 
@@ -138,24 +138,24 @@ builder.Write("This is the footer, which will be displayed in sections 1, 2 and 
 doc.Sections[1].HeadersFooters.LinkToPrevious(true);
 
 // Chaque section aura toujours ses propres objets d'en-tête/pied de page. Lorsque nous lions des sections,
-// la section de liaison affichera les en-têtes/pieds de page de la section liée tout en gardant les siens.
+// la section de liaison affichera l'en-tête/pied de page de la section liée tout en conservant les siens.
 Assert.AreNotEqual(doc.Sections[0].HeadersFooters[0], doc.Sections[1].HeadersFooters[0]);
 Assert.AreNotEqual(doc.Sections[0].HeadersFooters[0].ParentSection, doc.Sections[1].HeadersFooters[0].ParentSection);
 
-// Lie les en-têtes/pieds de page de la troisième section aux en-têtes/pieds de page de la deuxième section.
+// Liez les en-têtes/pieds de page de la troisième section aux en-têtes/pieds de page de la deuxième section.
 // La deuxième section est déjà liée aux en-têtes/pieds de page de la première section,
-// donc la liaison à la deuxième section créera une chaîne de liens.
-// La première, la deuxième et maintenant la troisième section afficheront toutes les en-têtes de la première section.
+// donc créer un lien vers la deuxième section créera une chaîne de liens.
+// Les première, deuxième et maintenant troisième sections afficheront toutes les en-têtes de la première section.
 doc.Sections[2].HeadersFooters.LinkToPrevious(true);
 
-// Nous pouvons dissocier les en-têtes/pieds de page d'une section précédente en passant "false" lors de l'appel de la méthode LinkToPrevious.
+// Nous pouvons dissocier l'en-tête/pied de page d'une section précédente en passant "false" lors de l'appel de la méthode LinkToPrevious.
 doc.Sections[2].HeadersFooters.LinkToPrevious(false);
 
-// Nous pouvons également sélectionner uniquement un type spécifique d'en-tête/de pied de page à lier à l'aide de cette méthode.
+// Nous pouvons également sélectionner uniquement un type spécifique d'en-tête/pied de page à lier en utilisant cette méthode.
 // La troisième section aura désormais le même pied de page que les deuxième et première sections, mais pas l'en-tête.
 doc.Sections[2].HeadersFooters.LinkToPrevious(HeaderFooterType.FooterPrimary, true);
 
-// Les en-têtes/pieds de page de la première section ne peuvent pas se lier à quoi que ce soit car il n'y a pas de section précédente.
+// L'en-tête/pied de page de la première section ne peut pas se lier à quoi que ce soit car il n'y a pas de section précédente.
 Assert.AreEqual(2, doc.Sections[0].HeadersFooters.Count);
 Assert.AreEqual(2, doc.Sections[0].HeadersFooters.Count(hf => !((HeaderFooter)hf).IsLinkedToPrevious));
 

@@ -1,14 +1,14 @@
 ---
 title: ParagraphFormat.HangingPunctuation
 second_title: Référence de l'API Aspose.Words pour .NET
-description: ParagraphFormat propriété. Obtient ou définit un indicateur indiquant si la ponctuation hors justification est activée pour le paragraphe actuel.
+description: ParagraphFormat propriété. Obtient ou définit un indicateur indiquant si la ponctuation suspendue est activée pour le paragraphe actuel.
 type: docs
-weight: 120
+weight: 130
 url: /fr/net/aspose.words/paragraphformat/hangingpunctuation/
 ---
 ## ParagraphFormat.HangingPunctuation property
 
-Obtient ou définit un indicateur indiquant si la ponctuation hors justification est activée pour le paragraphe actuel.
+Obtient ou définit un indicateur indiquant si la ponctuation suspendue est activée pour le paragraphe actuel.
 
 ```csharp
 public bool HangingPunctuation { get; set; }

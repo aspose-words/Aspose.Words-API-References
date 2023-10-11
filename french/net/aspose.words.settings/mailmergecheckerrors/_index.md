@@ -3,7 +3,7 @@ title: Enum MailMergeCheckErrors
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Aspose.Words.Settings.MailMergeCheckErrors énumération. Spécifie comment Microsoft Word signalera les erreurs détectées lors du publipostage.
 type: docs
-weight: 5510
+weight: 5810
 url: /fr/net/aspose.words.settings/mailmergecheckerrors/
 ---
 ## MailMergeCheckErrors enumeration
@@ -18,14 +18,14 @@ public enum MailMergeCheckErrors
 
 | Nom | Évaluer | La description |
 | --- | --- | --- |
-| Simulate | `1` | Simuler la fusion et signaler les erreurs dans un nouveau document. |
+| Simulate | `1` | Simulez la fusion et signalez les erreurs dans un nouveau document. |
 | PauseOnError | `2` | Terminez la fusion et faites une pause pour signaler les erreurs. |
 | CollectErrors | `3` | Terminez la fusion et signalez les erreurs dans un nouveau document. |
-| Default | `2` | Égal à laPauseOnError valeur. |
+| Default | `2` | Égal àPauseOnError valeur. |
 
 ### Exemples
 
-Montre comment exécuter un publipostage avec des données provenant d'un objet de source de données Office.
+Montre comment exécuter un publipostage avec des données provenant d’un objet source de données Office.
 
 ```csharp
 Document doc = new Document();
@@ -38,8 +38,8 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// Crée une source de données sous la forme d'un fichier ASCII, avec le "|" personnage
-// agissant comme le délimiteur qui sépare les colonnes. La première ligne contient les noms des trois colonnes,
+// Crée une source de données sous forme de fichier ASCII, avec le "|" personnage
+// agissant comme délimiteur qui sépare les colonnes. La première ligne contient les noms des trois colonnes,
 // et chaque ligne suivante est une ligne avec leurs valeurs respectives.
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };
@@ -68,7 +68,7 @@ odso.FirstRowContainsColumnNames = true;
 Assert.AreNotSame(odso, odso.Clone());
 Assert.AreNotSame(settings, settings.Clone());
 
-// L'ouverture de ce document dans Microsoft Word exécutera le publipostage avant d'afficher le contenu. 
+ // L'ouverture de ce document dans Microsoft Word exécutera le publipostage avant d'afficher le contenu.
 doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ```
 

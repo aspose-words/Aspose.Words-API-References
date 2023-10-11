@@ -16,7 +16,7 @@ public Paragraph AppendParagraph(string text)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| text | String | Le texte du paragraphe. Peut être une chaîne nulle ou vide. |
+| text | String | Le texte du paragraphe. Peut être`nul` ou une chaîne vide. |
 
 ### Return_Value
 
@@ -29,7 +29,7 @@ Montre comment créer un en-tête et un pied de page.
 ```csharp
 Document doc = new Document();
 
-// Crée un en-tête et y ajoute un paragraphe. Le texte de ce paragraphe
+// Créez un en-tête et ajoutez-y un paragraphe. Le texte de ce paragraphe
 // apparaîtra en haut de chaque page de cette section, au-dessus du corps du texte principal.
 HeaderFooter header = new HeaderFooter(doc, HeaderFooterType.HeaderPrimary);
 doc.FirstSection.HeadersFooters.Add(header);
@@ -39,7 +39,7 @@ Paragraph para = header.AppendParagraph("My header.");
 Assert.True(header.IsHeader);
 Assert.True(para.IsEndOfHeaderFooter);
 
-// Crée un pied de page et y ajoute un paragraphe. Le texte de ce paragraphe
+// Créez un pied de page et ajoutez-y un paragraphe. Le texte de ce paragraphe
 // apparaîtra au bas de chaque page de cette section, sous le corps du texte principal.
 HeaderFooter footer = new HeaderFooter(doc, HeaderFooterType.FooterPrimary);
 doc.FirstSection.HeadersFooters.Add(footer);

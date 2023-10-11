@@ -1,14 +1,14 @@
 ---
 title: HtmlFixedSaveOptions.Encoding
 second_title: Référence de l'API Aspose.Words pour .NET
-description: HtmlFixedSaveOptions propriété. Spécifie lencodage à utiliser lors de lexportation vers HTML. La valeur par défaut estnouveau codage UTF8 vrai UTF8 avec nomenclature.
+description: HtmlFixedSaveOptions propriété. Spécifie lencodage à utiliser lors de lexportation au format HTML. La valeur par défaut estnouveau codage UTF8 vrai UTF8 avec nomenclature.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.saving/htmlfixedsaveoptions/encoding/
 ---
 ## HtmlFixedSaveOptions.Encoding property
 
-Spécifie l'encodage à utiliser lors de l'exportation vers HTML. La valeur par défaut est`nouveau codage UTF8 (vrai)` (UTF-8 avec nomenclature).
+Spécifie l'encodage à utiliser lors de l'exportation au format HTML. La valeur par défaut est`nouveau codage UTF8 (vrai)` (UTF-8 avec nomenclature).
 
 ```csharp
 public Encoding Encoding { get; set; }
@@ -16,7 +16,7 @@ public Encoding Encoding { get; set; }
 
 ### Exemples
 
-Montre comment définir l'encodage à utiliser lors de l'exportation d'un document au format HTML.
+Montre comment définir le codage à utiliser lors de l'exportation d'un document au format HTML.
 
 ```csharp
 Document doc = new Document();

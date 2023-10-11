@@ -16,13 +16,13 @@ public static SaveFormat ExtensionToSaveFormat(string extension)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| extension | String | L'extension de fichier. Peut être avec ou sans point de début. Insensible à la casse. |
+| extension | String | L'extension du fichier. Peut être avec ou sans point initial. Insensible à la casse. |
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| ArgumentNullException | Lève si le paramètre est nul. |
+| ArgumentNullException | Lance si le paramètre est`nul`. |
 
 ### Remarques
 
@@ -41,15 +41,15 @@ using (FileStream docStream = File.OpenRead(MyDir + "Word document with missing 
 
     Assert.AreEqual(LoadFormat.Doc, loadFormat);
 
-    // Vous trouverez ci-dessous deux méthodes de conversion d'un LoadFormat en son SaveFormat correspondant.
-    // 1 - Récupère la chaîne d'extension de fichier pour le LoadFormat, puis récupère le SaveFormat correspondant à partir de cette chaîne :
+    // Vous trouverez ci-dessous deux méthodes pour convertir un LoadFormat en son SaveFormat correspondant.
+    // 1 - Récupère la chaîne d'extension de fichier pour LoadFormat, puis récupère le SaveFormat correspondant à partir de cette chaîne :
     string fileExtension = FileFormatUtil.LoadFormatToExtension(loadFormat);
     SaveFormat saveFormat = FileFormatUtil.ExtensionToSaveFormat(fileExtension);
 
-    // 2 - Convertit directement le LoadFormat en son SaveFormat :
+    // 2 - Convertir le LoadFormat directement en son SaveFormat :
     saveFormat = FileFormatUtil.LoadFormatToSaveFormat(loadFormat);
 
-    // Chargez un document à partir du flux, puis enregistrez-le dans l'extension de fichier détectée automatiquement.
+    // Charge un document à partir du flux, puis enregistre-le sous l'extension de fichier automatiquement détectée.
     Document doc = new Document(docStream);
 
     Assert.AreEqual(".doc", FileFormatUtil.SaveFormatToExtension(saveFormat));

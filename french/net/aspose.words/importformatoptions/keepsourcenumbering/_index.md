@@ -1,14 +1,14 @@
 ---
 title: ImportFormatOptions.KeepSourceNumbering
 second_title: Référence de l'API Aspose.Words pour .NET
-description: ImportFormatOptions propriété. Obtient ou définit une valeur booléenne qui spécifie comment la numérotation sera importée en cas de conflit dans les documents source et destination. La valeur par défaut estfaux .
+description: ImportFormatOptions propriété. Obtient ou définit une valeur booléenne qui spécifie comment la numérotation sera importée en cas de conflit dans les documents source et de destination. La valeur par défaut estFAUX .
 type: docs
-weight: 50
+weight: 60
 url: /fr/net/aspose.words/importformatoptions/keepsourcenumbering/
 ---
 ## ImportFormatOptions.KeepSourceNumbering property
 
-Obtient ou définit une valeur booléenne qui spécifie comment la numérotation sera importée en cas de conflit dans les documents source et destination. La valeur par défaut est`faux` .
+Obtient ou définit une valeur booléenne qui spécifie comment la numérotation sera importée en cas de conflit dans les documents source et de destination. La valeur par défaut est`FAUX` .
 
 ```csharp
 public bool KeepSourceNumbering { get; set; }
@@ -23,7 +23,7 @@ Document srcDoc = new Document(MyDir + "List with the same definition identifier
 Document dstDoc = new Document(MyDir + "List with the same definition identifier - destination.docx");
 
 // Définissez la propriété "KeepSourceNumbering" sur "true" pour appliquer un ID de définition de liste différent
-// aux styles identiques car Aspose.Words les importe dans les documents de destination.
+// vers des styles identiques car Aspose.Words les importe dans les documents de destination.
 ImportFormatOptions importFormatOptions = new ImportFormatOptions { KeepSourceNumbering = true };
 
 dstDoc.AppendDocument(srcDoc, ImportFormatMode.UseDestinationStyles, importFormatOptions);
@@ -40,10 +40,10 @@ Assert.AreEqual(4, dstDoc.Lists.Count);
 
 ImportFormatOptions options = new ImportFormatOptions();
 
-// S'il y a un conflit de styles de liste, applique le format de liste du document source.
+// S'il y a un conflit de styles de liste, appliquez le format de liste du document source.
 // Définissez la propriété "KeepSourceNumbering" sur "false" pour ne pas importer de numéros de liste dans le document de destination.
-// Définit la propriété "KeepSourceNumbering" sur "true" importe tous les conflits
-// liste la numérotation des styles avec la même apparence que celle qu'elle avait dans le document source.
+// Définir la propriété "KeepSourceNumbering" sur "true" importer tous les conflits
+// Numérotation de style de liste avec la même apparence que celle du document source.
 options.KeepSourceNumbering = isKeepSourceNumbering;
 
 dstDoc.AppendDocument(srcDoc, ImportFormatMode.KeepSourceFormatting, options);
@@ -55,18 +55,18 @@ Assert.AreEqual(isKeepSourceNumbering ? 5 : 4, dstDoc.Lists.Count);
 Montre comment résoudre les conflits de numérotation de liste dans les documents source et de destination.
 
 ```csharp
-// Ouvre un document avec un schéma de numérotation de liste personnalisé, puis le clone.
+// Ouvrez un document avec un schéma de numérotation de liste personnalisé, puis clonez-le.
 // Puisque les deux ont le même format de numérotation, les formats entreront en conflit si nous importons un document dans l'autre.
 Document srcDoc = new Document(MyDir + "Custom list numbering.docx");
 Document dstDoc = srcDoc.Clone();
 
-// Lorsque nous importons le clone du document dans l'original, puis l'ajoutons,
-// alors les deux listes avec le même format de liste se rejoindront.
-// Si nous définissons le drapeau "KeepSourceNumbering" sur "false", alors la liste du document clone
-// que nous ajoutons à l'original portera la numérotation de la liste à laquelle nous l'ajoutons.
-// Cela fusionnera efficacement les deux listes en une seule.
-// Si nous définissons le drapeau "KeepSourceNumbering" sur "true", alors le document clone
-// list conservera sa numérotation d'origine, faisant apparaître les deux listes comme des listes séparées. 
+// Lorsque nous importons le clone du document dans l'original et que nous l'ajoutons,
+// alors les deux listes avec le même format de liste se joindront.
+// Si nous définissons l'indicateur "KeepSourceNumbering" sur "false", alors la liste du clone du document
+// que nous ajoutons à l'original conservera la numérotation de la liste à laquelle nous l'ajoutons.
+// Cela fusionnera effectivement les deux listes en une seule.
+// Si nous définissons le flag "KeepSourceNumbering" sur "true", alors le clone du document
+ // list conservera sa numérotation d'origine, faisant apparaître les deux listes comme des listes distinctes.
 ImportFormatOptions importFormatOptions = new ImportFormatOptions();
 importFormatOptions.KeepSourceNumbering = keepSourceNumbering;
 

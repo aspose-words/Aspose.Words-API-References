@@ -1,14 +1,14 @@
 ---
 title: FieldStyleRef.SearchFromBottom
 second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldStyleRef propriété. Obtient ou définit sil faut rechercher à partir du bas de la page actuelle plutôt quà partir du haut.
+description: FieldStyleRef propriété. Obtient ou définit sil faut rechercher à partir du bas de la page actuelle plutôt que depuis le haut.
 type: docs
 weight: 60
 url: /fr/net/aspose.words.fields/fieldstyleref/searchfrombottom/
 ---
 ## FieldStyleRef.SearchFromBottom property
 
-Obtient ou définit s'il faut rechercher à partir du bas de la page actuelle, plutôt qu'à partir du haut.
+Obtient ou définit s'il faut rechercher à partir du bas de la page actuelle, plutôt que depuis le haut.
 
 ```csharp
 public bool SearchFromBottom { get; set; }
@@ -22,7 +22,7 @@ Montre comment utiliser les champs STYLEREF.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Crée une liste basée sur un modèle de liste Microsoft Word.
+// Créez une liste basée sur un modèle de liste Microsoft Word.
 Aspose.Words.Lists.List list = doc.Lists.Add(Aspose.Words.Lists.ListTemplate.NumberDefault);
 
 // Cette liste générée affichera "1.a )".
@@ -30,7 +30,7 @@ Aspose.Words.Lists.List list = doc.Lists.Add(Aspose.Words.Lists.ListTemplate.Num
 list.ListLevels[0].NumberFormat = "\x0000.";
 list.ListLevels[1].NumberFormat = "\x0001 )";
 
-// Ajoute du texte et applique des styles de paragraphe auxquels les champs STYLEREF feront référence.
+// Ajoutez du texte et appliquez des styles de paragraphe auxquels les champs STYLEREF référenceront.
 builder.ListFormat.List = list;
 builder.ListFormat.ListIndent();
 builder.ParagraphFormat.Style = doc.Styles["List Paragraph"];
@@ -47,7 +47,7 @@ builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 FieldStyleRef field = (FieldStyleRef)builder.InsertField(FieldType.FieldStyleRef, true);
 field.StyleName = "List Paragraph";
 
-// Place un champ STYLEREF dans le pied de page et affiche le dernier texte.
+// Placez un champ STYLEREF dans le pied de page et faites-lui afficher le dernier texte.
 builder.MoveToHeaderFooter(HeaderFooterType.FooterPrimary);
 field = (FieldStyleRef)builder.InsertField(FieldType.FieldStyleRef, true);
 field.StyleName = "List Paragraph";
@@ -77,6 +77,7 @@ field.StyleName = "Quote";
 field.InsertParagraphNumberInFullContext = true;
 field.SuppressNonDelimiters = true;
 
+doc.UpdatePageLayout();
 doc.UpdateFields();
 doc.Save(ArtifactsDir + "Field.STYLEREF.docx");
 ```

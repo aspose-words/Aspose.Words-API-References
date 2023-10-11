@@ -1,14 +1,14 @@
 ---
 title: MailMergeSettings.MailAsAttachment
 second_title: Référence de l'API Aspose.Words pour .NET
-description: MailMergeSettings propriété. Spécifie que les documents produits lors dune opération de fusion et publipostage doivent être envoyés par courrier électronique en tant que pièce jointe plutôt que dans le corps du courrier électronique réel. La valeur par défaut estfaux .
+description: MailMergeSettings propriété. Spécifie que les documents produits lors dune opération de fusion et publipostage doivent être envoyés par courrier électronique sous forme de pièce jointe plutôt que et non comme corps de lemail luimême. La valeur par défaut estFAUX .
 type: docs
 weight: 120
 url: /fr/net/aspose.words.settings/mailmergesettings/mailasattachment/
 ---
 ## MailMergeSettings.MailAsAttachment property
 
-Spécifie que les documents produits lors d'une opération de fusion et publipostage doivent être envoyés par courrier électronique en tant que pièce jointe plutôt que dans le corps du courrier électronique réel. La valeur par défaut est`faux` .
+Spécifie que les documents produits lors d'une opération de fusion et publipostage doivent être envoyés par courrier électronique sous forme de pièce jointe plutôt que et non comme corps de l'e-mail lui-même. La valeur par défaut est`FAUX` .
 
 ```csharp
 public bool MailAsAttachment { get; set; }

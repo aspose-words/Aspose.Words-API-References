@@ -40,7 +40,7 @@ footer.Range.Replace("(C) 2006 Aspose Pty Ltd.", $"Copyright (C) {currentYear} b
 doc.Save(ArtifactsDir + "HeaderFooter.ReplaceText.docx");
 ```
 
-Montre comment créer une nouvelle section avec un générateur de document.
+Montre comment créer une nouvelle section avec un générateur de documents.
 
 ```csharp
 Document doc = new Document();
@@ -49,11 +49,11 @@ Document doc = new Document();
 // qui contient des nœuds enfants que nous pouvons modifier.
 Assert.AreEqual(1, doc.Sections.Count);
 
-// Utilisez un générateur de document pour ajouter du texte à la première section.
+// Utilisez un générateur de documents pour ajouter du texte à la première section.
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 
-// Crée une deuxième section en insérant un saut de section.
+// Créez une deuxième section en insérant un saut de section.
 builder.InsertBreak(BreakType.SectionBreakNewPage);
 
 Assert.AreEqual(2, doc.Sections.Count);
@@ -72,7 +72,7 @@ Assert.AreEqual(2, doc.LastSection.PageSetup.TextColumns.Count);
 doc.Save(ArtifactsDir + "Section.Create.docx");
 ```
 
-Montre comment parcourir les enfants d'un nœud composite.
+Montre comment parcourir les enfants d’un nœud composite.
 
 ```csharp
 Document doc = new Document();
@@ -87,7 +87,7 @@ builder.Write("Primary footer");
 Section section = doc.FirstSection;
 
 // Une Section est un nœud composite et peut contenir des nœuds enfants,
-// mais uniquement si ces nœuds enfants sont de type "Body" ou "HeaderFooter".
+// mais seulement si ces nœuds enfants sont de type nœud "Body" ou "HeaderFooter".
 foreach (Node node in section)
 {
     switch (node.NodeType)

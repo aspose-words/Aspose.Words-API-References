@@ -3,7 +3,7 @@ title: Document.LastSection
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Document propriété. Obtient la dernière section du document.
 type: docs
-weight: 220
+weight: 240
 url: /fr/net/aspose.words/document/lastsection/
 ---
 ## Document.LastSection property
@@ -20,7 +20,7 @@ Retours`nul` s'il n'y a pas de sections.
 
 ### Exemples
 
-Montre comment créer une nouvelle section avec un générateur de document.
+Montre comment créer une nouvelle section avec un générateur de documents.
 
 ```csharp
 Document doc = new Document();
@@ -29,11 +29,11 @@ Document doc = new Document();
 // qui contient des nœuds enfants que nous pouvons modifier.
 Assert.AreEqual(1, doc.Sections.Count);
 
-// Utilisez un générateur de document pour ajouter du texte à la première section.
+// Utilisez un générateur de documents pour ajouter du texte à la première section.
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 
-// Crée une deuxième section en insérant un saut de section.
+// Créez une deuxième section en insérant un saut de section.
 builder.InsertBreak(BreakType.SectionBreakNewPage);
 
 Assert.AreEqual(2, doc.Sections.Count);

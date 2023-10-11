@@ -1,14 +1,14 @@
 ---
 title: DocumentPropertyCollection.Contains
 second_title: Référence de l'API Aspose.Words pour .NET
-description: DocumentPropertyCollection méthode. Renvoie vrai si une propriété avec le nom spécifié existe dans la collection.
+description: DocumentPropertyCollection méthode. Retoursvrai si une propriété avec le nom spécifié existe dans la collection.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.properties/documentpropertycollection/contains/
 ---
 ## DocumentPropertyCollection.Contains method
 
-Renvoie vrai si une propriété avec le nom spécifié existe dans la collection.
+Retours`vrai` si une propriété avec le nom spécifié existe dans la collection.
 
 ```csharp
 public bool Contains(string name)
@@ -16,11 +16,11 @@ public bool Contains(string name)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| name | String | Nom non sensible à la casse de la propriété. |
+| name | String | Nom de la propriété qui ne respecte pas la casse. |
 
 ### Return_Value
 
-True si la propriété existe dans la collection ; faux sinon.
+`vrai` si la propriété existe dans la collection ;`FAUX` sinon.
 
 ### Exemples
 
@@ -32,7 +32,7 @@ CustomDocumentProperties properties = doc.CustomDocumentProperties;
 
 Assert.AreEqual(0, properties.Count);
 
-// Les propriétés de document personnalisées sont des paires clé-valeur que nous pouvons ajouter au document.
+// Les propriétés du document personnalisé sont des paires clé-valeur que nous pouvons ajouter au document.
 properties.Add("Authorized", true);
 properties.Add("Authorized By", "John Doe");
 properties.Add("Authorized Date", DateTime.Today);
@@ -43,7 +43,7 @@ properties.Add("Authorized Amount", 123.45);
 Assert.AreEqual(1, properties.IndexOf("Authorized Amount"));
 Assert.AreEqual(5, properties.Count);
 
-// Imprime chaque propriété personnalisée dans le document.
+// Imprime chaque propriété personnalisée du document.
 using (IEnumerator<DocumentProperty> enumerator = properties.GetEnumerator())
 {
     while (enumerator.MoveNext())
@@ -57,10 +57,10 @@ field.Update();
 
 Assert.AreEqual("John Doe", field.Result);
 
-// Nous pouvons trouver ces propriétés personnalisées dans Microsoft Word via "Fichier" -> "Propriétés" > "Propriétés avancées" > "Personnalisé".
+// Nous pouvons retrouver ces propriétés personnalisées dans Microsoft Word via "Fichier" -> "Propriétés" > "Propriétés avancées" > "Coutume".
 doc.Save(ArtifactsDir + "DocumentProperties.DocumentPropertyCollection.docx");
 
-// Vous trouverez ci-dessous trois façons de supprimer les propriétés personnalisées d'un document.
+// Vous trouverez ci-dessous trois manières de supprimer les propriétés personnalisées d'un document.
 // 1 - Supprimer par index :
 properties.RemoveAt(1);
 
@@ -73,7 +73,7 @@ properties.Remove("Authorized Revision");
 Assert.False(properties.Contains("Authorized Revision"));
 Assert.AreEqual(3, properties.Count);
 
-// 3 - Vide toute la collection d'un coup :
+// 3 - Vider toute la collection d'un coup :
 properties.Clear();
 
 Assert.AreEqual(0, properties.Count);

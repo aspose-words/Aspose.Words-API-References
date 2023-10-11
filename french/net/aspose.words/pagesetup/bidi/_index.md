@@ -16,11 +16,11 @@ public bool Bidi { get; set; }
 
 ### Remarques
 
-Lorsque true, les colonnes de cette section sont disposées de droite à gauche.
+Quand`vrai`les colonnes de cette section sont disposées de droite à gauche.
 
 ### Exemples
 
-Montre comment définir l'ordre des colonnes de texte dans une section.
+Montre comment définir l’ordre des colonnes de texte dans une section.
 
 ```csharp
 Document doc = new Document();
@@ -35,9 +35,9 @@ builder.Write("Column 2.");
 builder.InsertBreak(BreakType.ColumnBreak);
 builder.Write("Column 3.");
 
-// Définissez la propriété "Bidi" sur "true" pour organiser les colonnes en partant du côté droit de la page.
+// Définissez la propriété "Bidi" sur "true" pour organiser les colonnes en commençant par le côté droit de la page.
 // L'ordre des colonnes correspondra à la direction du texte de droite à gauche.
-// Définissez la propriété "Bidi" sur "false" pour organiser les colonnes en partant du côté gauche de la page.
+// Définissez la propriété "Bidi" sur "false" pour organiser les colonnes en commençant par le côté gauche de la page.
 // L'ordre des colonnes correspondra à la direction du texte de gauche à droite.
 pageSetup.Bidi = reverseColumns;
 

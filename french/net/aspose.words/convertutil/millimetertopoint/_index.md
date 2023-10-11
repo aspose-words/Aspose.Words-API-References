@@ -31,7 +31,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // La "Mise en page" d'une section définit la taille des marges de la page en points.
-// On peut aussi utiliser la classe "ConvertUtil" pour utiliser une unité de mesure plus familière,
+// On peut également utiliser la classe "ConvertUtil" pour utiliser une unité de mesure plus familière,
 // comme les millimètres lors de la définition des limites.
 PageSetup pageSetup = builder.PageSetup;
 pageSetup.TopMargin = ConvertUtil.MillimeterToPoint(30);
@@ -39,10 +39,10 @@ pageSetup.BottomMargin = ConvertUtil.MillimeterToPoint(50);
 pageSetup.LeftMargin = ConvertUtil.MillimeterToPoint(80);
 pageSetup.RightMargin = ConvertUtil.MillimeterToPoint(40);
 
-// Un centimètre vaut environ 28,3 points.
+// Un centimètre équivaut à environ 28,3 points.
 Assert.AreEqual(28.34d, ConvertUtil.MillimeterToPoint(10), 0.01d);
 
-// Ajoutez du contenu pour montrer les nouvelles marges.
+// Ajoutez du contenu pour démontrer les nouvelles marges.
 builder.Writeln($"This Text is {pageSetup.LeftMargin} points from the left, " +
                 $"{pageSetup.RightMargin} points from the right, " +
                 $"{pageSetup.TopMargin} points from the top, " +

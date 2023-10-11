@@ -1,14 +1,14 @@
 ---
 title: Enum BuildingBlockType
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.BuildingBlocks.BuildingBlockType énumération. Spécifie un type de bloc de construction. Le type peut affecter la visibilité et le comportement du bloc de construction dans Microsoft Word.
+description: Aspose.Words.BuildingBlocks.BuildingBlockType énumération. Spécifie un type de bloc de construction. Le type peut affecter la visibilité et le comportement du building block dans Microsoft Word.
 type: docs
-weight: 160
+weight: 170
 url: /fr/net/aspose.words.buildingblocks/buildingblocktype/
 ---
 ## BuildingBlockType enumeration
 
-Spécifie un type de bloc de construction. Le type peut affecter la visibilité et le comportement du bloc de construction dans Microsoft Word.
+Spécifie un type de bloc de construction. Le type peut affecter la visibilité et le comportement du building block dans Microsoft Word.
 
 ```csharp
 public enum BuildingBlockType
@@ -19,9 +19,9 @@ public enum BuildingBlockType
 | Nom | Évaluer | La description |
 | --- | --- | --- |
 | None | `0` | Aucune information de type n'est spécifiée pour le bloc de construction. |
-| AutomaticallyReplaceNameWithContent | `1` | Permet au bloc de construction d'être automatiquement inséré dans le document chaque fois que son nom est entré dans une application. |
+| AutomaticallyReplaceNameWithContent | `1` | Permet au building block d'être automatiquement inséré dans le document chaque fois que son nom est saisi dans une application. |
 | StructuredDocumentTagPlaceholderText | `2` | Le bloc de construction est un texte d'espace réservé de balise de document structuré. |
-| FormFieldHelpText | `3` | Le bloc de construction est un texte d'aide de champ de formulaire. |
+| FormFieldHelpText | `3` | Le bloc de construction est un texte d'aide pour un champ de formulaire. |
 | Normal | `4` | Le bloc de construction est une entrée de document de glossaire normale (c'est-à-dire régulière). |
 | AutoCorrect | `5` | Le bloc de construction est associé aux outils d'orthographe et de grammaire. |
 | AutoText | `6` | Le bloc de construction est une entrée d'insertion automatique. |
@@ -30,7 +30,7 @@ public enum BuildingBlockType
 
 ### Remarques
 
-Correspond à la **ST_DocPartType** tapez OOXML.
+Correspond au **ST_DocPartType** tapez OOXML.
 
 ### Exemples
 
@@ -39,12 +39,12 @@ Montre comment ajouter un bloc de construction personnalisé à un document.
 ```csharp
 public void CreateAndInsert()
 {
-    // Le document glossaire d'un document stocke les blocs de construction.
+    // Le glossaire d'un document stocke les éléments de base.
     Document doc = new Document();
     GlossaryDocument glossaryDoc = new GlossaryDocument();
     doc.GlossaryDocument = glossaryDoc;
 
-    // Crée un bloc de construction, nomme-le, puis ajoute-le au document de glossaire.
+    // Créez un bloc de construction, nommez-le, puis ajoutez-le au document glossaire.
     BuildingBlock block = new BuildingBlock(glossaryDoc)
     {
         Name = "Custom Block"
@@ -52,20 +52,20 @@ public void CreateAndInsert()
 
     glossaryDoc.AppendChild(block);
 
-    // Tous les nouveaux GUID de bloc de construction ont la même valeur zéro par défaut, et nous pouvons leur donner une nouvelle valeur unique.
+    // Tous les nouveaux GUID de blocs de construction ont la même valeur zéro par défaut et nous pouvons leur attribuer une nouvelle valeur unique.
     Assert.AreEqual("00000000-0000-0000-0000-000000000000", block.Guid.ToString());
 
     block.Guid = Guid.NewGuid();
 
     // Les propriétés suivantes catégorisent les blocs de construction
-    // dans le menu auquel nous pouvons accéder dans Microsoft Word via "Insérer" -> "Parties rapides" -> "Organisateur de blocs de construction".
+    // dans le menu auquel nous pouvons accéder dans Microsoft Word via "Insérer" -> "Pièces rapides" -> "Organisateur de blocs de construction".
     Assert.AreEqual("(Empty Category)", block.Category);
     Assert.AreEqual(BuildingBlockType.None, block.Type);
     Assert.AreEqual(BuildingBlockGallery.All, block.Gallery);
     Assert.AreEqual(BuildingBlockBehavior.Content, block.Behavior);
 
-    // Avant de pouvoir ajouter ce bloc de construction à notre document, nous devrons lui donner un contenu,
-    // que nous ferons en utilisant un visiteur de document. Ce visiteur définira également une catégorie, une galerie et un comportement.
+    // Avant de pouvoir ajouter cette brique à notre document, nous devrons lui donner du contenu,
+    // ce que nous ferons en utilisant un visiteur de document. Ce visiteur définira également une catégorie, une galerie et un comportement.
     BuildingBlockVisitor visitor = new BuildingBlockVisitor(glossaryDoc);
     block.Accept(visitor);
 
@@ -76,7 +76,6 @@ public void CreateAndInsert()
     // Le bloc lui-même est une section qui contient le texte.
     Assert.AreEqual($"Text inside {customBlock.Name}\f", customBlock.FirstSection.Body.FirstParagraph.GetText());
     Assert.AreEqual(customBlock.FirstSection, customBlock.LastSection);
-
     // Maintenant, nous pouvons l'insérer dans le document en tant que nouvelle section.
     doc.AppendChild(doc.ImportNode(customBlock.FirstSection, true));
 

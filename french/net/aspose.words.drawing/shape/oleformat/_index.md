@@ -1,14 +1,14 @@
 ---
 title: Shape.OleFormat
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Shape propriété. Permet daccéder aux données OLE dune forme. Pour une forme qui nest pas un objet OLE ou un contrôle ActiveX renvoie null.
+description: Shape propriété. Fournit un accès aux données OLE dune forme. Pour une forme qui nest pas un objet OLE ou un contrôle ActiveX renvoienul .
 type: docs
 weight: 140
 url: /fr/net/aspose.words.drawing/shape/oleformat/
 ---
 ## Shape.OleFormat property
 
-Permet d'accéder aux données OLE d'une forme. Pour une forme qui n'est pas un objet OLE ou un contrôle ActiveX, renvoie null.
+Fournit un accès aux données OLE d'une forme. Pour une forme qui n'est pas un objet OLE ou un contrôle ActiveX, renvoie`nul` .
 
 ```csharp
 public OleFormat OleFormat { get; }
@@ -16,9 +16,10 @@ public OleFormat OleFormat { get; }
 
 ### Exemples
 
-Montre comment parcourir toutes les formes d'un document.
+Montre comment parcourir toutes les formes d’un document.
 
 ```csharp
+public void VisitShapes()
 {
     Document doc = new Document(MyDir + "Revision shape.docx");
     ShapeAppearancePrinter visitor = new ShapeAppearancePrinter();
@@ -28,7 +29,7 @@ Montre comment parcourir toutes les formes d'un document.
 }
 
 /// <summary>
-/// Consigne les informations relatives à l'apparence des formes visitées.
+/// Enregistre les informations relatives à l'apparence des formes visitées.
 /// </summary>
 private class ShapeAppearancePrinter : DocumentVisitor
 {
@@ -50,7 +51,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Renvoie tout le texte que le StringBuilder a accumulé.
+    /// Renvoie tout le texte accumulé par StringBuilder.
     /// </summary>
     public string GetText()
     {

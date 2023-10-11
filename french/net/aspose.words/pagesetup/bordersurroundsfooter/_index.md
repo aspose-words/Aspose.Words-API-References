@@ -38,10 +38,10 @@ PageSetup pageSetup = doc.Sections[0].PageSetup;
 pageSetup.Borders.LineStyle = LineStyle.Double;
 pageSetup.Borders.Color = Color.Blue;
 
-// L'objet PageSetup d'une section a des indicateurs "BorderSurroundsHeader" et "BorderSurroundsFooter" qui déterminent
-// si une bordure de page entoure le corps du texte principal, inclut également l'en-tête ou le pied de page, respectivement.
-// Définissez le drapeau "BorderSurroundsHeader" sur "true" pour entourer l'en-tête avec notre bordure,
-// puis définissez le drapeau "BorderSurroundsFooter" pour laisser le pied de page en dehors de la bordure.
+// L'objet PageSetup d'une section possède les indicateurs "BorderSurroundsHeader" et "BorderSurroundsFooter" qui déterminent
+// si une bordure de page entoure le corps du texte principal, inclut également respectivement l'en-tête ou le pied de page.
+// Met le flag "BorderSurroundsHeader" à "true" pour entourer l'en-tête de notre bordure,
+// puis définissez l'indicateur "BorderSurroundsFooter" pour laisser le pied de page en dehors de la bordure.
 pageSetup.BorderSurroundsHeader = true;
 pageSetup.BorderSurroundsFooter = false;
 

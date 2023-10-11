@@ -1,12 +1,12 @@
 ---
 title: Aspose.Words.Loading
 second_title: Référence de l'API Aspose.Words pour .NET
-description: La Aspose.Words.Loading namespace fournit des classes et des énumérations qui permettent de spécifier des options supplémentaires lors du chargement de documents.
+description: Le Aspose.Words.Loadinglespace de noms fournit des classes et des énumérations qui permettent de spécifier des options supplémentaires lors du chargement de documents.
 type: docs
 weight: 130
 url: /fr/net/aspose.words.loading/
 ---
-La **Aspose.Words.Loading** namespace fournit des classes et des énumérations qui permettent de spécifier des options supplémentaires lors du chargement de documents.
+Le **Aspose.Words.Loading**l'espace de noms fournit des classes et des énumérations qui permettent de spécifier des options supplémentaires lors du chargement de documents.
 
 ## Des classes
 
@@ -16,28 +16,28 @@ La **Aspose.Words.Loading** namespace fournit des classes et des énumérations 
 | [DocumentLoadingArgs](./documentloadingargs/) | Un argument passé dans[`Notify`](../aspose.words.loading/idocumentloadingcallback/notify/) . |
 | [HtmlLoadOptions](./htmlloadoptions/) | Permet de spécifier des options supplémentaires lors du chargement d'un document HTML dans un[`Document`](../aspose.words/document/) objet. |
 | [LanguagePreferences](./languagepreferences/) | Permet de configurer les préférences de langue. |
-| [LoadOptions](./loadoptions/) | Permet de spécifier des options supplémentaires (telles que le mot de passe ou l'URI de base) lors du chargement d'un document dans un[`Document`](../aspose.words/document/) objet. |
-| [PdfLoadOptions](./pdfloadoptions/) | Permet de spécifier des options supplémentaires lors du chargement d'un document Pdf dans un[`Document`](../aspose.words/document/) objet. |
+| [LoadOptions](./loadoptions/) | Permet de spécifier des options supplémentaires (telles que le mot de passe ou l'URI de base) lorsque charge un document dans un[`Document`](../aspose.words/document/) objet. |
+| [PdfLoadOptions](./pdfloadoptions/) | Permet de spécifier des options supplémentaires lors du chargement d'un document PDF dans un[`Document`](../aspose.words/document/) objet. |
 | [ResourceLoadingArgs](./resourceloadingargs/) | Fournit des données pour le[`ResourceLoading`](../aspose.words.loading/iresourceloadingcallback/resourceloading/) méthode. |
-| [RtfLoadOptions](./rtfloadoptions/) | Permet de spécifier des options supplémentaires lors du chargementRtf document dans un[`Document`](../aspose.words/document/) objet. |
-| [TxtLoadOptions](./txtloadoptions/) | Permet de spécifier des options supplémentaires lors du chargementText document dans un[`Document`](../aspose.words/document/) objet. |
+| [RtfLoadOptions](./rtfloadoptions/) | Permet de spécifier des options supplémentaires lors du chargementRtf documenter dans un[`Document`](../aspose.words/document/) objet. |
+| [TxtLoadOptions](./txtloadoptions/) | Permet de spécifier des options supplémentaires lors du chargementText documenter dans un[`Document`](../aspose.words/document/) objet. |
 ## Interfaces
 
 | Interface | La description |
 | --- | --- |
 | [IDocumentLoadingCallback](./idocumentloadingcallback/) | Implémentez cette interface si vous souhaitez que votre propre méthode personnalisée soit appelée lors du chargement d'un document. |
-| [IResourceLoadingCallback](./iresourceloadingcallback/) | Implémentez cette interface si vous souhaitez contrôler la manière dont Aspose.Words charge les ressources externes lors de l'importation d'un document et l'insertion d'images à l'aide de[`DocumentBuilder`](../aspose.words/documentbuilder/) . |
+| [IResourceLoadingCallback](./iresourceloadingcallback/) | Implémentez cette interface si vous souhaitez contrôler la façon dont Aspose.Words charge les ressources externes lors de l'importation d'un document et l'insertion d'images à l'aide de[`DocumentBuilder`](../aspose.words/documentbuilder/) . |
 ## Énumération
 
 | Énumération | La description |
 | --- | --- |
 | [BlockImportMode](./blockimportmode/) | Spécifie comment les propriétés des éléments de niveau bloc sont importées à partir de documents HTML. |
-| [DocumentDirection](./documentdirection/) | Permet de spécifier le sens dans lequel couler le texte dans un document. |
+| [DocumentDirection](./documentdirection/) | Permet de spécifier la direction dans laquelle circule le texte dans un document. |
 | [EditingLanguage](./editinglanguage/) | Spécifie la langue d'édition. |
 | [HtmlControlType](./htmlcontroltype/) | Type de nœuds de document qui représentent les éléments &lt;input&gt; et &lt;select&gt; importés depuis HTML. |
 | [ResourceLoadingAction](./resourceloadingaction/) | Spécifie le mode de chargement des ressources. |
 | [ResourceType](./resourcetype/) | Type de ressource chargée. |
-| [TxtLeadingSpacesOptions](./txtleadingspacesoptions/) | Spécifie les options disponibles pour la gestion de l'espace de tête lors de l'importation depuisText fichier. |
+| [TxtLeadingSpacesOptions](./txtleadingspacesoptions/) | Spécifie les options disponibles pour la gestion de l'espace principal lors de l'importation depuisText fichier. |
 | [TxtTrailingSpacesOptions](./txttrailingspacesoptions/) | Spécifie les options disponibles pour la gestion des espaces de fin lors de l'importation depuisText fichier. |
 
 

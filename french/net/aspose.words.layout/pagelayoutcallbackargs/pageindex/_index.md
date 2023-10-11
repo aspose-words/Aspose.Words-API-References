@@ -19,7 +19,6 @@ public int PageIndex { get; }
 Montre comment suivre les modifications de mise en page avec un rappel de mise en page.
 
 ```csharp
-[Test]
 public void PageLayoutCallback()
 {
     Document doc = new Document();
@@ -36,7 +35,7 @@ public void PageLayoutCallback()
 
 /// <summary>
 /// Nous avertit lorsque nous enregistrons le document dans un format de page fixe
-/// et affiche une page sur laquelle nous effectuons une redistribution de page vers une image dans le système de fichiers local.
+/// et restitue une page sur laquelle nous effectuons une redistribution de page sur une image dans le système de fichiers local.
 /// </summary>
 private class RenderPageLayoutCallback : IPageLayoutCallback
 {

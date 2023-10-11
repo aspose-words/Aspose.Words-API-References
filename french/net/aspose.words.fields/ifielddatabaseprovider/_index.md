@@ -1,14 +1,14 @@
 ---
 title: Interface IFieldDatabaseProvider
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Fields.IFieldDatabaseProvider interface. Implémentez cette interface pour fournir des données auFieldDatabase champ lorsquil est mis à jour.
+description: Aspose.Words.Fields.IFieldDatabaseProvider interface. Implémentez cette interface pour fournir des données pour leFieldDatabase champ lorsquil est mis à jour.
 type: docs
-weight: 2520
+weight: 2690
 url: /fr/net/aspose.words.fields/ifielddatabaseprovider/
 ---
 ## IFieldDatabaseProvider interface
 
-Implémentez cette interface pour fournir des données au[`FieldDatabase`](../fielddatabase/) champ lorsqu'il est mis à jour.
+Implémentez cette interface pour fournir des données pour le[`FieldDatabase`](../fielddatabase/) champ lorsqu'il est mis à jour.
 
 ```csharp
 public interface IFieldDatabaseProvider

@@ -1,14 +1,14 @@
 ---
 title: LayoutOptions.ShowParagraphMarks
 second_title: Référence de l'API Aspose.Words pour .NET
-description: LayoutOptions propriété. Obtient ou définit lindication du rendu des marques de paragraphe. La valeur par défaut est False.
+description: LayoutOptions propriété. Obtient ou définit une indication indiquant si les marques de paragraphe sont rendues. La valeur par défaut estFAUX .
 type: docs
-weight: 80
+weight: 90
 url: /fr/net/aspose.words.layout/layoutoptions/showparagraphmarks/
 ---
 ## LayoutOptions.ShowParagraphMarks property
 
-Obtient ou définit l'indication du rendu des marques de paragraphe. La valeur par défaut est False.
+Obtient ou définit une indication indiquant si les marques de paragraphe sont rendues. La valeur par défaut est`FAUX` .
 
 ```csharp
 public bool ShowParagraphMarks { get; set; }
@@ -21,8 +21,8 @@ Montre comment afficher les marques de paragraphe dans un document de sortie ren
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
-// Ajoutez des paragraphes, puis activez les marques de paragraphe pour afficher la fin des paragraphes
-// avec un symbole pilcrow (¶) lors du rendu du document.
+// Ajoutez quelques paragraphes, puis activez les marques de paragraphe pour afficher la fin des paragraphes
+// avec un symbole pillcrow (¶) lorsque nous rendons le document.
 builder.Writeln("Hello world!");
 builder.Writeln("Hello again!");
 

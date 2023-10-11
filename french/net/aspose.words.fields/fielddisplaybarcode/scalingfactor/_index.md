@@ -1,14 +1,14 @@
 ---
 title: FieldDisplayBarcode.ScalingFactor
 second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldDisplayBarcode propriété. Obtient ou définit un facteur déchelle pour le symbole. La valeur est en points de pourcentage entiers et les valeurs valides sont 10 1000
+description: FieldDisplayBarcode propriété. Obtient ou définit un facteur de mise à léchelle pour le symbole. La valeur est en points de pourcentage entiers et les valeurs valides sont 10 1000
 type: docs
 weight: 120
 url: /fr/net/aspose.words.fields/fielddisplaybarcode/scalingfactor/
 ---
 ## FieldDisplayBarcode.ScalingFactor property
 
-Obtient ou définit un facteur d'échelle pour le symbole. La valeur est en points de pourcentage entiers et les valeurs valides sont [10, 1000]
+Obtient ou définit un facteur de mise à l'échelle pour le symbole. La valeur est en points de pourcentage entiers et les valeurs valides sont [10, 1000]
 
 ```csharp
 public string ScalingFactor { get; set; }
@@ -25,7 +25,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 FieldDisplayBarcode field = (FieldDisplayBarcode)builder.InsertField(FieldType.FieldDisplayBarcode, true);
 
 // Vous trouverez ci-dessous quatre types de codes-barres, décorés de différentes manières, que le champ DISPLAYBARCODE peut afficher.
-// 1 - QR code avec des couleurs personnalisées :
+// 1 - QR code avec couleurs personnalisées :
 field.BarcodeType = "QR";
 field.BarcodeValue = "ABC123";
 field.BackgroundColor = "0xF8BD69";
@@ -58,7 +58,7 @@ field.AddStartStopChar = true;
 Assert.AreEqual(" DISPLAYBARCODE  12345ABCDE CODE39 \\d", field.GetFieldCode());
 builder.Writeln();
 
-// 4 - Code-barres ITF4, avec un code de cas spécifié :
+// 4 - Code-barres ITF4, avec un code cas spécifié :
 field = (FieldDisplayBarcode)builder.InsertField(FieldType.FieldDisplayBarcode, true);
 field.BarcodeType = "ITF14";
 field.BarcodeValue = "09312345678907";

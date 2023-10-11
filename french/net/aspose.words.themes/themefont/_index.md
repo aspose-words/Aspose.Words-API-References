@@ -1,14 +1,14 @@
 ---
 title: Enum ThemeFont
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Themes.ThemeFont énumération. Spécifie les types de noms de police de thème pour les thèmes de document.
+description: Aspose.Words.Themes.ThemeFont énumération. Spécifie les types de noms de polices de thème pour les thèmes de document.
 type: docs
-weight: 6190
+weight: 6490
 url: /fr/net/aspose.words.themes/themefont/
 ---
 ## ThemeFont enumeration
 
-Spécifie les types de noms de police de thème pour les thèmes de document.
+Spécifie les types de noms de polices de thème pour les thèmes de document.
 
 ```csharp
 public enum ThemeFont
@@ -19,8 +19,8 @@ public enum ThemeFont
 | Nom | Évaluer | La description |
 | --- | --- | --- |
 | None | `0` | Aucune police de thème. |
-| Major | `1` | Police principale du thème. |
-| Minor | `2` | Police de thème secondaire. |
+| Major | `1` | Police du thème principal. |
+| Minor | `2` | Police de thème mineur. |
 
 ### Remarques
 
@@ -36,7 +36,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln();
 
-// Crée un style avec les propriétés de police du thème.
+// Créez un style avec les propriétés de police du thème.
 Style style = doc.Styles.Add(StyleType.Paragraph, "ThemedStyle");
 style.Font.ThemeFont = ThemeFont.Major;
 style.Font.ThemeColor = ThemeColor.Accent5;
@@ -46,12 +46,12 @@ builder.ParagraphFormat.StyleName = "ThemedStyle";
 builder.Writeln("Text with themed style");
 ```
 
-Montre comment travailler avec les polices et les couleurs de thème.
+Montre comment utiliser les polices et les couleurs du thème.
 
 ```csharp
 Document doc = new Document();
 
-// Définit les polices pour les langues utilisées par défaut.
+// Définir les polices pour les langues utilisées par défaut.
 doc.Theme.MinorFonts.Latin = "Algerian";
 doc.Theme.MinorFonts.EastAsian = "Aharoni";
 doc.Theme.MinorFonts.ComplexScript = "Andalus";
@@ -81,7 +81,7 @@ Assert.AreEqual("Algerian", font.NameOther);
 Assert.AreEqual(ThemeColor.Accent2, font.ThemeColor);
 Assert.AreEqual(Color.Empty, font.Color);
 
-// Il existe plusieurs façons de réinitialiser leur police et leur couleur.
+// Il existe plusieurs façons de réinitialiser la police et la couleur.
 // 1 - En définissant ThemeFont.None/ThemeColor.None :
 font.ThemeFont = ThemeFont.None;
 font.ThemeColor = ThemeColor.None;

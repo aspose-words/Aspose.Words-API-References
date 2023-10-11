@@ -18,15 +18,14 @@ public abstract string LibId { get; }
 
 Selon le type de référence, la valeur de cette propriété peut être :
 
-* une LibidReference spécifiée à 2.1.1.8 LibidReference de [MS-OVBA] : https://docs.microsoft.com/en-us/openspecs/office_file_formats/ms-ovba/3737ef6e-d819-4186-a5f2-6e258ddf66a5
-* un ProjectReference spécifié à 2.1.1.12 ProjectReference de [MS-OVBA] : https://docs.microsoft.com/en-us/openspecs/office_file_formats/ms-ovba/9a45ac1a-f1ff-4ebd-958e-537701aa8131
+* une LibidReference spécifiée à 2.1.1.8 LibidReference de [MS-OVBA]: https://docs.microsoft.com/en-us/openspecs/office_file_formats/ms-ovba/3737ef6e-d819-4186-a5f2-6e258ddf66a5
+* un ProjectReference spécifié à 2.1.1.12 ProjectReference de [MS-OVBA]: https://docs.microsoft.com/en-us/openspecs/office_file_formats/ms-ovba/9a45ac1a-f1ff-4ebd-958e-537701aa8131
 
 ### Exemples
 
 Montre comment obtenir/supprimer un élément de la collection de référence VBA.
 
 ```csharp
-[Test]
 public void RemoveVbaReference()
 {
     const string brokenPath = @"X:\broken.dll";
@@ -52,7 +51,7 @@ public void RemoveVbaReference()
 }
 
 /// <summary>
-/// Renvoie une chaîne représentant le chemin LibId d'une référence spécifiée. 
+ /// Renvoie une chaîne représentant le chemin LibId d'une référence spécifiée.
 /// </summary>
 private static string GetLibIdPath(VbaReference reference)
 {
@@ -70,7 +69,7 @@ private static string GetLibIdPath(VbaReference reference)
 }
 
 /// <summary>
-/// Renvoie le chemin à partir d'un identifiant spécifié d'une bibliothèque de types Automation.
+/// Renvoie le chemin d'un identifiant spécifié d'une bibliothèque de types Automation.
 /// </summary>
 private static string GetLibIdReferencePath(string libIdReference)
 {
@@ -85,7 +84,7 @@ private static string GetLibIdReferencePath(string libIdReference)
 }
 
 /// <summary>
-/// Renvoie le chemin à partir d'un identifiant spécifié d'une bibliothèque de types Automation.
+/// Renvoie le chemin d'un identifiant spécifié d'une bibliothèque de types Automation.
 /// </summary>
 private static string GetLibIdProjectPath(string libIdProject)
 {

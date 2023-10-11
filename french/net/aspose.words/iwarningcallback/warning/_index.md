@@ -1,14 +1,14 @@
 ---
 title: IWarningCallback.Warning
 second_title: Référence de l'API Aspose.Words pour .NET
-description: IWarningCallback méthode. Aspose.Words appelle cette méthode lorsquil rencontre un problème lors du chargement du document ou de lenregistrement qui peut entraîner une perte de formatage ou de fidélité des données.
+description: IWarningCallback méthode. Aspose.Words appelle cette méthode lorsquil rencontre un problème lors du chargement ou de lenregistrement dun document pouvant entraîner une perte de formatage ou de fidélité des données.
 type: docs
 weight: 10
 url: /fr/net/aspose.words/iwarningcallback/warning/
 ---
 ## IWarningCallback.Warning method
 
-Aspose.Words appelle cette méthode lorsqu'il rencontre un problème lors du chargement du document ou de l'enregistrement qui peut entraîner une perte de formatage ou de fidélité des données.
+Aspose.Words appelle cette méthode lorsqu'il rencontre un problème lors du chargement ou de l'enregistrement d'un document pouvant entraîner une perte de formatage ou de fidélité des données.
 
 ```csharp
 public void Warning(WarningInfo info)
@@ -16,24 +16,26 @@ public void Warning(WarningInfo info)
 
 ### Exemples
 
-Montre comment définir la propriété pour rechercher la correspondance la plus proche pour une police manquante à partir des sources de polices disponibles.
+Montre comment définir la propriété permettant de trouver la correspondance la plus proche pour une police manquante à partir des sources de polices disponibles.
 
 ```csharp
-[Test]
 public void EnableFontSubstitution()
 {
     // Ouvre un document contenant du texte formaté avec une police qui n'existe dans aucune de nos sources de polices.
     Document doc = new Document(MyDir + "Missing font.docx");
 
-    // Affecte un rappel pour gérer les avertissements de substitution de police.
+    // Attribue un rappel pour gérer les avertissements de substitution de police.
     HandleDocumentSubstitutionWarnings substitutionWarningHandler = new HandleDocumentSubstitutionWarnings();
     doc.WarningCallback = substitutionWarningHandler;
 
-    // Définir un nom de police par défaut et activer la substitution de police.
+    // Définit un nom de police par défaut et active la substitution de police.
     FontSettings fontSettings = new FontSettings();
     fontSettings.SubstitutionSettings.DefaultFontSubstitution.DefaultFontName = "Arial";
     ;
     fontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
+
+    // Les métriques de police d'origine doivent être utilisées après la substitution de police.
+    doc.LayoutOptions.KeepOriginalFontMetrics = true;
 
     // Nous recevrons un avertissement de substitution de police si nous enregistrons un document avec une police manquante.
     doc.FontSettings = fontSettings;
@@ -43,7 +45,7 @@ public void EnableFontSubstitution()
         while (warnings.MoveNext())
             Console.WriteLine(warnings.Current.Description);
 
-    // Nous pouvons également vérifier les avertissements dans la collection et les effacer.
+    // Nous pouvons également vérifier les avertissements de la collection et les effacer.
     Assert.AreEqual(WarningSource.Layout, substitutionWarningHandler.FontWarnings[0].Source);
     Assert.AreEqual(
         "Font '28 Days Later' has not been found. Using 'Calibri' font instead. Reason: alternative name from document.",
@@ -57,7 +59,7 @@ public void EnableFontSubstitution()
 public class HandleDocumentSubstitutionWarnings : IWarningCallback
 {
     /// <summary>
-    /// Appelé chaque fois qu'un avertissement se produit lors du chargement/sauvegarde.
+    /// Appelé à chaque fois qu'un avertissement se produit lors du chargement/sauvegarde.
     /// </summary>
     public void Warning(WarningInfo info)
     {

@@ -16,20 +16,22 @@ public IWarningCallback WarningCallback { get; set; }
 
 ### Exemples
 
-Montre comment imprimer et stocker les avertissements qui se produisent pendant le chargement du document.
+Montre comment imprimer et stocker les avertissements qui se produisent lors du chargement du document.
 
 ```csharp
+public void LoadOptionsWarningCallback()
 {
-    // Crée un nouvel objet LoadOptions et définit son attribut WarningCallback
+    // Créez un nouvel objet LoadOptions et définissez son attribut WarningCallback
     // en tant qu'instance de notre implémentation IWarningCallback.
     LoadOptions loadOptions = new LoadOptions();
     loadOptions.WarningCallback = new DocumentLoadingWarningCallback();
 
-    // Notre rappel imprimera tous les avertissements qui surviendront pendant l'opération de chargement.
+    // Notre rappel imprimera tous les avertissements qui surviennent pendant l'opération de chargement.
     Document doc = new Document(MyDir + "Document.docx", loadOptions);
 
     List<WarningInfo> warnings = ((DocumentLoadingWarningCallback)loadOptions.WarningCallback).GetWarnings();
     Assert.AreEqual(3, warnings.Count);
+}
 
 /// <summary>
 /// IWarningCallback qui imprime les avertissements et leurs détails au fur et à mesure qu'ils surviennent lors du chargement du document.

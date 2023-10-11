@@ -1,14 +1,16 @@
 ---
 title: Class FileFormatInfo
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.FileFormatInfo classe. Contient les données renvoyées parFileFormatUtil méthodes de détection de format de document.
+description: Aspose.Words.FileFormatInfo classe. Contient les données renvoyées parFileFormatUtil méthodes de détection du format de document.
 type: docs
-weight: 2630
+weight: 2810
 url: /fr/net/aspose.words/fileformatinfo/
 ---
 ## FileFormatInfo class
 
-Contient les données renvoyées par[`FileFormatUtil`](../fileformatutil/) méthodes de détection de format de document.
+Contient les données renvoyées par[`FileFormatUtil`](../fileformatutil/) méthodes de détection du format de document.
+
+Pour en savoir plus, visitez le[Détecter le format de fichier et vérifier la compatibilité des formats](https://docs.aspose.com/words/net/detect-file-format-and-check-format-compatibility/) article documentaire.
 
 ```csharp
 public class FileFormatInfo
@@ -18,14 +20,14 @@ public class FileFormatInfo
 
 | Nom | La description |
 | --- | --- |
-| [Encoding](../../aspose.words/fileformatinfo/encoding/) { get; } | Obtient l'encodage détecté si applicable au format de document actuel. Détecte actuellement l'encodage uniquement pour les documents HTML. |
-| [HasDigitalSignature](../../aspose.words/fileformatinfo/hasdigitalsignature/) { get; } | Renvoie vrai si ce document contient une signature numérique. Cette propriété informe simplement qu'une signature numérique est présente sur un document, mais elle ne précise pas si la signature est valide ou non. |
-| [IsEncrypted](../../aspose.words/fileformatinfo/isencrypted/) { get; } | Renvoie true si le document est crypté et nécessite un mot de passe pour s'ouvrir. |
+| [Encoding](../../aspose.words/fileformatinfo/encoding/) { get; } | Obtient l'encodage détecté s'il est applicable au format de document actuel. Détecte pour le moment l'encodage uniquement pour les documents HTML. |
+| [HasDigitalSignature](../../aspose.words/fileformatinfo/hasdigitalsignature/) { get; } | Retours`vrai`si ce document contient une signature numérique. Cette propriété informe simplement qu'une signature numérique est présente sur un document, mais elle ne précise pas si la signature est valide ou non. |
+| [IsEncrypted](../../aspose.words/fileformatinfo/isencrypted/) { get; } | Retours`vrai` si le document est crypté et nécessite un mot de passe pour s'ouvrir. |
 | [LoadFormat](../../aspose.words/fileformatinfo/loadformat/) { get; } | Obtient le format de document détecté. |
 
 ### Remarques
 
-Vous ne créez pas d'instances de cette classe directement. Les objets de cette classe sont retournés par [`DetectFileFormat`](../fileformatutil/detectfileformat/)méthodes.
+Vous ne créez pas directement des instances de cette classe. Les objets de cette classe sont renvoyés par [`DetectFileFormat`](../fileformatutil/detectfileformat/) méthodes.
 
 ### Exemples
 
@@ -35,13 +37,13 @@ Montre comment utiliser la classe FileFormatUtil pour détecter le format et le 
 Document doc = new Document();
 
 // Configure un objet SaveOptions pour chiffrer le document
-// avec un mot de passe lorsque nous l'enregistrons, puis enregistrez le document.
+// avec un mot de passe lorsque nous l'enregistrons, puis enregistrons le document.
 OdtSaveOptions saveOptions = new OdtSaveOptions(SaveFormat.Odt);
 saveOptions.Password = "MyPassword";
 
 doc.Save(ArtifactsDir + "File.DetectDocumentEncryption.odt", saveOptions);
 
-// Vérifiez le type de fichier de notre document et son statut de cryptage.
+// Vérifiez le type de fichier de notre document et son état de cryptage.
 FileFormatInfo info = FileFormatUtil.DetectFileFormat(ArtifactsDir + "File.DetectDocumentEncryption.odt");
 
 Assert.AreEqual(".odt", FileFormatUtil.LoadFormatToExtension(info.LoadFormat));

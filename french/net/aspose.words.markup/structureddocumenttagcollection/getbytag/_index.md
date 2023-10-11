@@ -16,11 +16,11 @@ public IStructuredDocumentTag GetByTag(string tag)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| tag | String | La balise de la balise de document structuré. |
+| tag | String | La balise de la balise du document structuré. |
 
 ### Remarques
 
-Renvoie null si la balise de document structuré avec la balise spécifiée est introuvable.
+Renvoie null si la balise du document structuré avec la balise spécifiée est introuvable.
 
 ### Voir également
 

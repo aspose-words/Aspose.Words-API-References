@@ -1,14 +1,14 @@
 ---
 title: PageInfo.GetDotNetPaperSize
 second_title: Référence de l'API Aspose.Words pour .NET
-description: PageInfo méthode. Obtient lePaperSize objet adapté à limpression la page représentée par cePageInfo .
+description: PageInfo méthode. Obtient lePaperSize objet adapté à limpression la page représentée par ceciPageInfo .
 type: docs
-weight: 70
+weight: 80
 url: /fr/net/aspose.words.rendering/pageinfo/getdotnetpapersize/
 ---
 ## PageInfo.GetDotNetPaperSize method
 
-Obtient lePaperSize objet adapté à l'impression la page représentée par ce[`PageInfo`](../) .
+Obtient lePaperSize objet adapté à l'impression la page représentée par ceci[`PageInfo`](../) .
 
 ```csharp
 public PaperSize GetDotNetPaperSize(PaperSizeCollection paperSizes)
@@ -20,11 +20,11 @@ public PaperSize GetDotNetPaperSize(PaperSizeCollection paperSizes)
 
 ### Return_Value
 
-Objet que vous pouvez utiliser dans l'infrastructure d'impression .NET pour spécifier le format de papier.
+Objet que vous pouvez utiliser dans le framework d'impression .NET pour spécifier le format du papier.
 
 ### Exemples
 
-Montre comment personnaliser l'impression des documents Aspose.Words.
+Montre comment personnaliser l’impression des documents Aspose.Words.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
@@ -70,33 +70,33 @@ public class MyPrintDocument : PrintDocument
     }
 
     /// <summary>
-    /// Appelé avant l'impression de chaque page. 
+     /// Appelé avant l'impression de chaque page.
     /// </summary>
     protected override void OnQueryPageSettings(QueryPageSettingsEventArgs e)
     {
         base.OnQueryPageSettings(e);
 
-        // Un seul document Microsoft Word peut avoir plusieurs sections qui spécifient des pages de tailles différentes, 
-        // orientations et bacs à papier. Le framework d'impression .NET appelle ce code avant 
-        // chaque page est imprimée, ce qui nous permet de spécifier comment imprimer la page courante.
+         // Un seul document Microsoft Word peut comporter plusieurs sections qui spécifient des pages de tailles différentes,
+         // orientations et bacs à papier. Le framework d'impression .NET appelle ce code avant
+        // chaque page est imprimée, ce qui nous donne la possibilité de spécifier comment imprimer la page en cours.
         PageInfo pageInfo = mDocument.GetPageInfo(mCurrentPage - 1);
         e.PageSettings.PaperSize = pageInfo.GetDotNetPaperSize(PrinterSettings.PaperSizes);
 
         // Microsoft Word stocke la source de papier (bac de l'imprimante) pour chaque section en tant que valeur spécifique à l'imprimante.
-        // Pour obtenir la bonne valeur de bac, vous devrez utiliser la propriété "RawKind", que votre imprimante doit renvoyer.
+        // Pour obtenir la valeur correcte du bac, vous devrez utiliser la propriété "RawKind", que votre imprimante doit renvoyer.
         e.PageSettings.PaperSource.RawKind = pageInfo.PaperTray;
         e.PageSettings.Landscape = pageInfo.Landscape;
     }
 
     /// <summary>
-    /// Appelé pour chaque page afin de la rendre pour l'impression. 
+     /// Appelé pour chaque page afin de la restituer pour l'impression.
     /// </summary>
     protected override void OnPrintPage(PrintPageEventArgs e)
     {
         base.OnPrintPage(e);
 
         // Le moteur de rendu Aspose.Words crée une page dessinée à partir de l'origine (x = 0, y = 0) du papier.
-        // Il y aura une marge dure dans l'imprimante, qui rendra chaque page. Nous devons compenser par cette marge dure.
+        // Il y aura une marge dure dans l'imprimante, qui rendra chaque page. Nous devons compenser par cette marge solide.
         float hardOffsetX, hardOffsetY;
 
         // Vous trouverez ci-dessous deux manières de définir une marge ferme.
@@ -108,7 +108,7 @@ public class MyPrintDocument : PrintDocument
         }
         else
         {
-            // 2 - En utilisant nos propres valeurs, si la propriété "PageSettings" n'est pas disponible.
+            // 2 - Utiliser nos propres valeurs, si la propriété "PageSettings" n'est pas disponible.
             hardOffsetX = 20;
             hardOffsetY = 20;
         }

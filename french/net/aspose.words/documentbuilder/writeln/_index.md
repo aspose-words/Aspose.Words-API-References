@@ -3,7 +3,7 @@ title: DocumentBuilder.Writeln
 second_title: Référence de l'API Aspose.Words pour .NET
 description: DocumentBuilder méthode. Insère une chaîne et un saut de paragraphe dans le document.
 type: docs
-weight: 630
+weight: 670
 url: /fr/net/aspose.words/documentbuilder/writeln/
 ---
 ## Writeln(string) {#writeln_1}
@@ -16,11 +16,11 @@ public void Writeln(string text)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| text | String | Chaîne à insérer dans le document. |
+| text | String | La chaîne à insérer dans le document. |
 
 ### Remarques
 
-Police actuelle et mise en forme des paragraphes spécifiée par le[`Font`](../font/) et[`ParagraphFormat`](../paragraphformat/) les propriétés sont utilisées.
+Formatage actuel de la police et du paragraphe spécifié par le[`Font`](../font/) et[`ParagraphFormat`](../paragraphformat/) les propriétés sont utilisées.
 
 ### Exemples
 
@@ -54,7 +54,7 @@ builder.Write("Row 2, cell 2.");
 builder.EndRow();
 builder.EndTable();
 
-// Les lignes et les cellules ajoutées précédemment ne sont pas affectées rétroactivement par les modifications apportées à la mise en forme du générateur.
+// Les lignes et cellules précédemment ajoutées ne sont pas affectées rétroactivement par les modifications apportées au formatage du générateur.
 Assert.AreEqual(0, table.Rows[0].RowFormat.Height);
 Assert.AreEqual(HeightRule.Auto, table.Rows[0].RowFormat.HeightRule);
 Assert.AreEqual(100, table.Rows[1].RowFormat.Height);
@@ -93,11 +93,11 @@ Montre comment créer des en-têtes et des pieds de page dans un document à l'a
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Spécifiez que nous voulons des en-têtes et des pieds de page différents pour les premières pages, paires et impaires.
+// Spécifie que nous voulons des en-têtes et pieds de page différents pour les premières pages, paires et impaires.
 builder.PageSetup.DifferentFirstPageHeaderFooter = true;
 builder.PageSetup.OddAndEvenPagesHeaderFooter = true;
 
-// Crée les en-têtes, puis ajoute trois pages au document pour afficher chaque type d'en-tête.
+// Créez les en-têtes, puis ajoutez trois pages au document pour afficher chaque type d'en-tête.
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderFirst);
 builder.Write("Header for the first page");
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderEven);

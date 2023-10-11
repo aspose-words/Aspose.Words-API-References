@@ -16,13 +16,13 @@ public string Text { get; set; }
 
 ### Exemples
 
-Indique d'insérer un champ KEYWORDS.
+Montre pour insérer un champ KEYWORDS.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Ajoutez des mots-clés, également appelés "tags" dans l'explorateur de fichiers.
+// Ajoutez quelques mots-clés, également appelés « balises » dans l'Explorateur de fichiers.
 doc.BuiltInDocumentProperties.Keywords = "Keyword1, Keyword2";
 
 // Le champ KEYWORDS affiche la valeur de cette propriété.
@@ -33,7 +33,7 @@ Assert.AreEqual(" KEYWORDS ", field.GetFieldCode());
 Assert.AreEqual("Keyword1, Keyword2", field.Result);
 
 // Définition d'une valeur pour la propriété Text du champ,
-// puis la mise à jour du champ écrasera également la propriété intégrée correspondante avec la nouvelle valeur.
+// puis la mise à jour du champ écrasera également la propriété intégrée correspondante par la nouvelle valeur.
 field.Text = "OverridingKeyword";
 field.Update();
 

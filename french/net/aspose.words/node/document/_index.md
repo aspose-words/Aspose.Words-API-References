@@ -1,14 +1,14 @@
 ---
 title: Node.Document
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Node propriété. Obtient le document auquel ce nœud appartient.
+description: Node propriété. Obtient le document auquel appartient ce nœud.
 type: docs
 weight: 20
 url: /fr/net/aspose.words/node/document/
 ---
 ## Node.Document property
 
-Obtient le document auquel ce nœud appartient.
+Obtient le document auquel appartient ce nœud.
 
 ```csharp
 public virtual DocumentBase Document { get; }
@@ -31,13 +31,13 @@ para.AppendChild(new Run(doc, "Hello world!"));
 Assert.IsNull(para.ParentNode);
 
 // Si un nœud est un type de nœud enfant approprié d'un autre nœud composite,
-// nous ne pouvons l'attacher en tant qu'enfant que si les deux nœuds ont le même document propriétaire.
-// Le document propriétaire est le document que nous avons passé au constructeur du nœud.
-// Nous n'avons pas attaché ce paragraphe au document, donc le document ne contient pas son texte.
+// nous pouvons l'attacher en tant qu'enfant uniquement si les deux nœuds ont le même document propriétaire.
+// Le document propriétaire est le document que nous avons transmis au constructeur du nœud.
+// Nous n'avons pas joint ce paragraphe au document, le document ne contient donc pas son texte.
 Assert.AreEqual(para.Document, doc);
 Assert.AreEqual(string.Empty, doc.GetText().Trim());
 
-// Puisque le document possède ce paragraphe, nous pouvons appliquer un de ses styles au contenu du paragraphe.
+// Puisque le document possède ce paragraphe, nous pouvons appliquer l'un de ses styles au contenu du paragraphe.
 para.ParagraphFormat.Style = doc.Styles["Heading 1"];
 
 // Ajoutez ce nœud au document, puis vérifiez son contenu.

@@ -10,7 +10,7 @@ url: /fr/net/aspose.words.drawing/signatureline/id/
 
 Obtient ou définit l'identifiant de cette ligne de signature.
 
-Cet identifiant peut être associé à une signature numérique, lors de la signature d'un document à l'aide de[`DigitalSignatureUtil`](../../../aspose.words.digitalsignatures/digitalsignatureutil/). Cette valeur doit être unique et par défaut, il s'agit d'un nouveau Guid généré aléatoirement (NewGuid).
+Cet identifiant peut être associé à une signature numérique, lors de la signature d'un document à l'aide de[`DigitalSignatureUtil`](../../../aspose.words.digitalsignatures/digitalsignatureutil/). Cette valeur doit être unique et par défaut il s'agit d'un nouveau Guid généré aléatoirement (NewGuid).
 
 ```csharp
 public Guid Id { get; set; }
@@ -21,7 +21,8 @@ public Guid Id { get; set; }
 Montre comment ajouter une ligne de signature à un document, puis le signer à l'aide d'un certificat numérique.
 
 ```csharp
-public static void Sign()
+[Description("WORDSNET-16868")]
+        public static void Sign()
         {
             string signeeName = "Ron Williams";
             string srcDocumentPath = MyDir + "Document.docx";
@@ -48,7 +49,7 @@ public static void Sign()
             Document document = new Document(srcDocumentPath);
             DocumentBuilder builder = new DocumentBuilder(document);
 
-            // Configurez et insérez une ligne de signature, un objet dans le document qui affichera une signature avec laquelle nous le signerons.
+            // Configurer et insérer une ligne de signature, un objet dans le document qui affichera une signature avec laquelle nous le signons.
             SignatureLineOptions signatureLineOptions = new SignatureLineOptions
             {
                 Signer = signeeInfo.Name, 
@@ -75,7 +76,7 @@ public static void Sign()
 
 #if NET48 || JAVA
         /// <summary>
-        /// Convertit une image en un tableau d'octets.
+        /// Convertit une image en tableau d'octets.
         /// </summary>
         private static byte[] ImageToByteArray(Image imageIn)
         {

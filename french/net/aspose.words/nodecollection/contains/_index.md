@@ -1,14 +1,14 @@
 ---
 title: NodeCollection.Contains
 second_title: Référence de l'API Aspose.Words pour .NET
-description: NodeCollection méthode. Détermine si un nœud est dans la collection.
+description: NodeCollection méthode. Détermine si un nœud fait partie de la collection.
 type: docs
 weight: 50
 url: /fr/net/aspose.words/nodecollection/contains/
 ---
 ## NodeCollection.Contains method
 
-Détermine si un nœud est dans la collection.
+Détermine si un nœud fait partie de la collection.
 
 ```csharp
 public bool Contains(Node node)
@@ -20,21 +20,21 @@ public bool Contains(Node node)
 
 ### Return_Value
 
-True si l'élément est trouvé dans la collection ; sinon, faux.
+`vrai` si l'article est trouvé dans la collection ; sinon,`FAUX`.
 
 ### Remarques
 
-Cette méthode effectue une recherche linéaire ; par conséquent, le temps d'exécution moyen est proportionnel à Count.
+Cette méthode effectue une recherche linéaire ; par conséquent, le temps d'exécution moyen est proportionnel à[`Count`](../count/).
 
 ### Exemples
 
-Montre comment travailler avec une NodeCollection.
+Montre comment travailler avec un NodeCollection.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Ajoutez du texte au document en insérant Runs using a DocumentBuilder.
+// Ajoutez du texte au document en insérant des Runs à l'aide d'un DocumentBuilder.
 builder.Write("Run 1. ");
 builder.Write("Run 2. ");
 
@@ -44,7 +44,7 @@ RunCollection runs = doc.FirstSection.Body.FirstParagraph.Runs;
 
 Assert.AreEqual(2, runs.Count);
 
-// Nous pouvons également insérer manuellement un nœud dans la RunCollection.
+// Nous pouvons également insérer manuellement un nœud dans RunCollection.
 Run newRun = new Run(doc, "Run 3. ");
 runs.Insert(3, newRun);
 

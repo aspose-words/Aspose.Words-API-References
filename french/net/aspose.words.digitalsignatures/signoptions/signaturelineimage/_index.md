@@ -1,14 +1,14 @@
 ---
 title: SignOptions.SignatureLineImage
 second_title: Référence de l'API Aspose.Words pour .NET
-description: SignOptions propriété. Limage qui sera affichée dans lesSignatureLine . La valeur par défaut estnul .
+description: SignOptions propriété. Limage qui sera affichée dans le fichier associéSignatureLine . La valeur par défaut estnul .
 type: docs
 weight: 60
 url: /fr/net/aspose.words.digitalsignatures/signoptions/signaturelineimage/
 ---
 ## SignOptions.SignatureLineImage property
 
-L'image qui sera affichée dans les[`SignatureLine`](../../../aspose.words.drawing/signatureline/) . La valeur par défaut est`nul` .
+L'image qui sera affichée dans le fichier associé[`SignatureLine`](../../../aspose.words.drawing/signatureline/) . La valeur par défaut est`nul` .
 
 ```csharp
 public byte[] SignatureLineImage { get; set; }
@@ -19,7 +19,8 @@ public byte[] SignatureLineImage { get; set; }
 Montre comment ajouter une ligne de signature à un document, puis le signer à l'aide d'un certificat numérique.
 
 ```csharp
-public static void Sign()
+[Description("WORDSNET-16868")]
+        public static void Sign()
         {
             string signeeName = "Ron Williams";
             string srcDocumentPath = MyDir + "Document.docx";
@@ -46,7 +47,7 @@ public static void Sign()
             Document document = new Document(srcDocumentPath);
             DocumentBuilder builder = new DocumentBuilder(document);
 
-            // Configurez et insérez une ligne de signature, un objet dans le document qui affichera une signature avec laquelle nous le signerons.
+            // Configurer et insérer une ligne de signature, un objet dans le document qui affichera une signature avec laquelle nous le signons.
             SignatureLineOptions signatureLineOptions = new SignatureLineOptions
             {
                 Signer = signeeInfo.Name, 
@@ -73,7 +74,7 @@ public static void Sign()
 
 #if NET48 || JAVA
         /// <summary>
-        /// Convertit une image en un tableau d'octets.
+        /// Convertit une image en tableau d'octets.
         /// </summary>
         private static byte[] ImageToByteArray(Image imageIn)
         {

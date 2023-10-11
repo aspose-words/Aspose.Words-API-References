@@ -1,14 +1,14 @@
 ---
 title: ShapeBase.CanHaveImage
 second_title: Référence de l'API Aspose.Words pour .NET
-description: ShapeBase propriété. Renvoie vrai si le type de forme permet à la forme davoir une image.
+description: ShapeBase propriété. Retoursvrai si le type de forme permet à la forme davoir une image.
 type: docs
 weight: 100
 url: /fr/net/aspose.words.drawing/shapebase/canhaveimage/
 ---
 ## ShapeBase.CanHaveImage property
 
-Renvoie vrai si le type de forme permet à la forme d'avoir une image.
+Retours`vrai` si le type de forme permet à la forme d'avoir une image.
 
 ```csharp
 public bool CanHaveImage { get; }
@@ -16,7 +16,7 @@ public bool CanHaveImage { get; }
 
 ### Remarques
 
-Bien que Microsoft Word ait un type de forme spécial pour les images, il semble que dans les documents Microsoft Word, toute forme à l'exception d'une forme de groupe peut avoir une image, par conséquent cette propriété renvoie true pour toutes les formes sauf[`GroupShape`](../../groupshape/).
+Bien que Microsoft Word ait un type de forme spécial pour les images, il semble que dans les documents Microsoft Word, tout shape , à l'exception d'une forme de groupe, peut avoir une image. Cette propriété renvoie donc`vrai` pour toutes les formes sauf[`GroupShape`](../../groupshape/).
 
 ### Exemples
 

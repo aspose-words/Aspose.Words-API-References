@@ -21,10 +21,10 @@ Montre comment créer un filigrane de texte.
 ```csharp
 Document doc = new Document();
 
-// Ajouter un filigrane en texte brut.
+// Ajoute un filigrane en texte brut.
 doc.Watermark.SetText("Aspose Watermark");
 
-// Si nous souhaitons modifier la mise en forme du texte en l'utilisant comme filigrane,
+// Si l'on souhaite éditer la mise en forme du texte en l'utilisant comme filigrane,
 // nous pouvons le faire en passant un objet TextWatermarkOptions lors de la création du filigrane.
 TextWatermarkOptions textWatermarkOptions = new TextWatermarkOptions();
 textWatermarkOptions.FontFamily = "Arial";

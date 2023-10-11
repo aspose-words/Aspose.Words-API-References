@@ -22,7 +22,7 @@ public string CssClassNamePrefix { get; set; }
 
 ### Remarques
 
-Si cette valeur n'est pas vide, toutes les classes CSS générées par Aspose.Words commenceront par le préfixe spécifié. Cela peut être utile, par exemple, si vous ajoutez des CSS personnalisés aux documents générés et que vous souhaitez éviter les conflits de noms class .
+Si cette valeur n'est pas vide, toutes les classes CSS générées par Aspose.Words commenceront par le préfixe spécifié. Cela peut être utile, par exemple, si vous ajoutez du CSS personnalisé aux documents générés et que vous souhaitez éviter les conflits de noms class .
 
 Si la valeur n'est pas`nul` ou vide, il doit s'agir d'un identifiant CSS valide.
 

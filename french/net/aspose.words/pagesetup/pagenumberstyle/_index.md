@@ -3,7 +3,7 @@ title: PageSetup.PageNumberStyle
 second_title: Référence de l'API Aspose.Words pour .NET
 description: PageSetup propriété. Obtient ou définit le format du numéro de page.
 type: docs
-weight: 310
+weight: 320
 url: /fr/net/aspose.words/pagesetup/pagenumberstyle/
 ---
 ## PageSetup.PageNumberStyle property
@@ -34,7 +34,7 @@ builder.Writeln("Section 2, page 2.");
 builder.InsertBreak(BreakType.PageBreak);
 builder.Writeln("Section 2, page 3.");
 
-// Déplace le générateur de document vers l'en-tête principal de la première section,
+// Déplace le générateur de documents vers l'en-tête principal de la première section,
 // que chaque page de cette section affichera.
 builder.MoveToSection(0);
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
@@ -43,14 +43,14 @@ builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 builder.Write("Page ");
 builder.InsertField("PAGE", "");
 
-// Configurez la section pour que le nombre de pages que les champs PAGE affichent commencent à 5.
-// Configurez également tous les champs PAGE pour afficher leurs numéros de page en chiffres romains majuscules.
+// Configurez la section pour que le nombre de pages affiché par les champs PAGE commence à 5.
+// Configurez également tous les champs PAGE pour afficher leurs numéros de page en utilisant des chiffres romains majuscules.
 PageSetup pageSetup = doc.Sections[0].PageSetup;
 pageSetup.RestartPageNumbering = true;
 pageSetup.PageStartingNumber = 5;
 pageSetup.PageNumberStyle = NumberStyle.UppercaseRoman;
 
-// Crée un autre en-tête principal pour la deuxième section, avec un autre champ PAGE.
+// Créez un autre en-tête principal pour la deuxième section, avec un autre champ PAGE.
 builder.MoveToSection(1);
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
@@ -58,8 +58,8 @@ builder.Write(" - ");
 builder.InsertField("PAGE", "");
 builder.Write(" - ");
 
-// Configurez la section pour que le nombre de pages que les champs PAGE affichent commence à 10.
-// Configurez également tous les champs PAGE pour afficher leurs numéros de page en chiffres arabes.
+// Configurez la section pour que le nombre de pages affiché par les champs PAGE commence à 10.
+// Configurez également tous les champs PAGE pour afficher leurs numéros de page en utilisant des chiffres arabes.
 pageSetup = doc.Sections[1].PageSetup;
 pageSetup.PageStartingNumber = 10;
 pageSetup.RestartPageNumbering = true;

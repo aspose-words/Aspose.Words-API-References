@@ -31,8 +31,8 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // La "Mise en page" d'une section définit la taille des marges de la page en points.
-// On peut aussi utiliser la classe "ConvertUtil" pour utiliser une unité de mesure plus familière,
-// tels que les pouces lors de la définition des limites.
+// On peut également utiliser la classe "ConvertUtil" pour utiliser une unité de mesure plus familière,
+// comme les pouces lors de la définition des limites.
 PageSetup pageSetup = builder.PageSetup;
 pageSetup.TopMargin = ConvertUtil.InchToPoint(1.0);
 pageSetup.BottomMargin = ConvertUtil.InchToPoint(2.0);
@@ -43,7 +43,7 @@ pageSetup.RightMargin = ConvertUtil.InchToPoint(1.5);
 Assert.AreEqual(72.0d, ConvertUtil.InchToPoint(1));
 Assert.AreEqual(1.0d, ConvertUtil.PointToInch(72));
 
-// Ajoutez du contenu pour montrer les nouvelles marges.
+// Ajoutez du contenu pour démontrer les nouvelles marges.
 builder.Writeln($"This Text is {pageSetup.LeftMargin} points/{ConvertUtil.PointToInch(pageSetup.LeftMargin)} inches from the left, " +
                 $"{pageSetup.RightMargin} points/{ConvertUtil.PointToInch(pageSetup.RightMargin)} inches from the right, " +
                 $"{pageSetup.TopMargin} points/{ConvertUtil.PointToInch(pageSetup.TopMargin)} inches from the top, " +

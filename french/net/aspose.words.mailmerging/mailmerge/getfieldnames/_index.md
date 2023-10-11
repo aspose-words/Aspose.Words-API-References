@@ -16,15 +16,15 @@ public string[] GetFieldNames()
 
 ### Remarques
 
-Renvoie les noms complets des champs de fusion, y compris le préfixe facultatif. N'élimine pas les noms de champ en double.
+Renvoie les noms complets des champs de fusion, y compris le préfixe facultatif. N'élimine pas les noms de champs en double.
 
-Un nouveau tableau string[] est créé à chaque appel.
+Un nouveau tableau de chaînes est créé à chaque appel.
 
-Inclut les noms de champ "moustache" si[`UseNonMergeFields`](../usenonmergefields/) est **vrai**.
+Inclut les noms de champs « moustache » si[`UseNonMergeFields`](../usenonmergefields/) est`vrai`.
 
 ### Exemples
 
-Montre comment obtenir les noms de tous les champs de fusion d'un document.
+Montre comment obtenir les noms de tous les champs de fusion dans un document.
 
 ```csharp
 Document doc = new Document();
@@ -43,8 +43,8 @@ dataTable.Columns.Add("City");
 dataTable.Rows.Add(new object[] { "John", "Doe", "New York" });
 dataTable.Rows.Add(new object[] { "Joe", "Bloggs", "Washington" });
 
-// Pour chaque nom de MERGEFIELD dans le document, assurez-vous que la table de données contient une colonne
-// avec le même nom, puis exécutez le publipostage. 
+// Pour chaque nom MERGEFIELD dans le document, assurez-vous que la table de données contient une colonne
+ // avec le même nom, puis exécutez le publipostage.
 string[] fieldNames = doc.MailMerge.GetFieldNames();
 
 Assert.AreEqual(3, fieldNames.Length);

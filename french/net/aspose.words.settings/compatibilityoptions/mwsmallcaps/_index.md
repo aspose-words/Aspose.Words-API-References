@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.MWSmallCaps
 second_title: Référence de l'API Aspose.Words pour .NET
-description: CompatibilityOptions propriété. Émuler Word 5.x pour le formatage des petites majuscules Macintosh.
+description: CompatibilityOptions propriété. Émuler Word 5.x pour le formatage Macintosh en petites majuscules.
 type: docs
 weight: 320
 url: /fr/net/aspose.words.settings/compatibilityoptions/mwsmallcaps/
 ---
 ## CompatibilityOptions.MWSmallCaps property
 
-Émuler Word 5.x pour le formatage des petites majuscules Macintosh.
+Émuler Word 5.x pour le formatage Macintosh en petites majuscules.
 
 ```csharp
 public bool MWSmallCaps { get; set; }

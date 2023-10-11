@@ -1,14 +1,14 @@
 ---
 title: SaveOptions.DmlRenderingMode
 second_title: Référence de l'API Aspose.Words pour .NET
-description: SaveOptions propriété. Obtient ou définit une valeur déterminant le rendu des formes DrawingML.
+description: SaveOptions propriété. Obtient ou définit une valeur déterminant la façon dont les formes DrawingML sont rendues.
 type: docs
 weight: 70
 url: /fr/net/aspose.words.saving/saveoptions/dmlrenderingmode/
 ---
 ## SaveOptions.DmlRenderingMode property
 
-Obtient ou définit une valeur déterminant le rendu des formes DrawingML.
+Obtient ou définit une valeur déterminant la façon dont les formes DrawingML sont rendues.
 
 ```csharp
 public DmlRenderingMode DmlRenderingMode { get; set; }
@@ -22,18 +22,18 @@ Cette propriété est utilisée lorsque le document est exporté vers des format
 
 ### Exemples
 
-Montre comment rendre les formes de secours lors de l'enregistrement au format PDF.
+Montre comment restituer des formes de secours lors de l’enregistrement au format PDF.
 
 ```csharp
 Document doc = new Document(MyDir + "DrawingML shape fallbacks.docx");
 
-// Crée un objet "PdfSaveOptions" que nous pouvons passer à la méthode "Save" du document
+// Crée un objet "PdfSaveOptions" que l'on peut passer à la méthode "Save" du document
 // pour modifier la façon dont cette méthode convertit le document en .PDF.
 PdfSaveOptions options = new PdfSaveOptions();
 
-// Définissez la propriété "DmlRenderingMode" sur "DmlRenderingMode.Fallback"
+// Définit la propriété "DmlRenderingMode" sur "DmlRenderingMode.Fallback"
 // pour remplacer les formes DML par leurs formes de secours.
-// Définissez la propriété "DmlRenderingMode" sur "DmlRenderingMode.DrawingML"
+// Définit la propriété "DmlRenderingMode" sur "DmlRenderingMode.DrawingML"
 // pour restituer les formes DML elles-mêmes.
 options.DmlRenderingMode = dmlRenderingMode;
 
@@ -45,15 +45,15 @@ Montre comment configurer la qualité de rendu des effets DrawingML dans un docu
 ```csharp
 Document doc = new Document(MyDir + "DrawingML shape effects.docx");
 
-// Crée un objet "PdfSaveOptions" que nous pouvons passer à la méthode "Save" du document
+// Crée un objet "PdfSaveOptions" que l'on peut passer à la méthode "Save" du document
 // pour modifier la façon dont cette méthode convertit le document en .PDF.
 PdfSaveOptions options = new PdfSaveOptions();
 
 // Définissez la propriété "DmlEffectsRenderingMode" sur "DmlEffectsRenderingMode.None" pour supprimer tous les effets DrawingML.
-// Définissez la propriété "DmlEffectsRenderingMode" sur "DmlEffectsRenderingMode.Simplified"
-// pour rendre une version simplifiée des effets DrawingML.
+// Définit la propriété "DmlEffectsRenderingMode" sur "DmlEffectsRenderingMode.Simplified"
+// pour afficher une version simplifiée des effets DrawingML.
 // Définissez la propriété "DmlEffectsRenderingMode" sur "DmlEffectsRenderingMode.Fine" pour
-// Rendre les effets DrawingML avec plus de précision et aussi avec plus de coût de traitement.
+// rend les effets DrawingML avec plus de précision et également avec un coût de traitement plus élevé.
 options.DmlEffectsRenderingMode = effectsRenderingMode;
 
 Assert.AreEqual(DmlRenderingMode.DrawingML, options.DmlRenderingMode);

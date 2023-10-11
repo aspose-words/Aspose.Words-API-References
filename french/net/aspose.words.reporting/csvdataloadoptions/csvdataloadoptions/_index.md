@@ -24,7 +24,7 @@ public CsvDataLoadOptions()
 
 ## CsvDataLoadOptions(bool) {#constructor_1}
 
-Initialise une nouvelle instance de cette classe en spécifiant si les données CSV contiennent des noms de colonne sur la première ligne.
+Initialise une nouvelle instance de cette classe en spécifiant si les données CSV contiennent des noms de colonnes sur la première ligne.
 
 ```csharp
 public CsvDataLoadOptions(bool hasHeaders)

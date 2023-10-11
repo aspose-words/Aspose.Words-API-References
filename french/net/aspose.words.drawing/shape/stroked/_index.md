@@ -18,13 +18,14 @@ public bool Stroked { get; set; }
 
 Il s'agit d'un raccourci vers le[`On`](../../stroke/on/) propriété.
 
-La valeur par défaut est **vrai**.
+La valeur par défaut est`vrai`.
 
 ### Exemples
 
-Montre comment parcourir toutes les formes d'un document.
+Montre comment parcourir toutes les formes d’un document.
 
 ```csharp
+public void VisitShapes()
 {
     Document doc = new Document(MyDir + "Revision shape.docx");
     ShapeAppearancePrinter visitor = new ShapeAppearancePrinter();
@@ -34,7 +35,7 @@ Montre comment parcourir toutes les formes d'un document.
 }
 
 /// <summary>
-/// Consigne les informations relatives à l'apparence des formes visitées.
+/// Enregistre les informations relatives à l'apparence des formes visitées.
 /// </summary>
 private class ShapeAppearancePrinter : DocumentVisitor
 {
@@ -56,7 +57,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Renvoie tout le texte que le StringBuilder a accumulé.
+    /// Renvoie tout le texte accumulé par StringBuilder.
     /// </summary>
     public string GetText()
     {

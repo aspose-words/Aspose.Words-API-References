@@ -3,7 +3,7 @@ title: DocumentBuilder.InsertHorizontalRule
 second_title: Référence de l'API Aspose.Words pour .NET
 description: DocumentBuilder méthode. Insère une forme de règle horizontale dans le document.
 type: docs
-weight: 320
+weight: 350
 url: /fr/net/aspose.words/documentbuilder/inserthorizontalrule/
 ---
 ## DocumentBuilder.InsertHorizontalRule method

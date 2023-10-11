@@ -1,14 +1,14 @@
 ---
 title: Font.Border
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Font propriété. Renvoie un objet Border qui spécifie la bordure de la police.
+description: Font propriété. Renvoie unBorder objet qui spécifie la bordure de la police.
 type: docs
 weight: 60
 url: /fr/net/aspose.words/font/border/
 ---
 ## Font.Border property
 
-Renvoie un objet Border qui spécifie la bordure de la police.
+Renvoie un[`Border`](../../border/) objet qui spécifie la bordure de la police.
 
 ```csharp
 public Border Border { get; }

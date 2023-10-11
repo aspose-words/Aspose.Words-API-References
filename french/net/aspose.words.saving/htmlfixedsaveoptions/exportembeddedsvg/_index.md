@@ -16,17 +16,17 @@ public bool ExportEmbeddedSvg { get; set; }
 
 ### Exemples
 
-Montre comment déterminer où stocker les objets SVG lors de l'exportation d'un document vers Html.
+Montre comment déterminer où stocker les objets SVG lors de l’exportation d’un document au format HTML.
 
 ```csharp
 Document doc = new Document(MyDir + "Images.docx");
 
 // Lorsque nous exportons un document avec des objets SVG vers .html,
-// Aspose.Words peut placer ces objets dans deux emplacements possibles.
-// Définir le drapeau "ExportEmbeddedSvg" sur "true" intégrera toutes les données brutes de l'objet SVG
+// Aspose.Words peut placer ces objets à deux emplacements possibles.
+// Définir l'indicateur "ExportEmbeddedSvg" sur "true" intégrera toutes les données brutes des objets SVG
 // dans le HTML de sortie, à l'intérieur de <image> Mots clés.
 // Définir cet indicateur sur "false" créera un fichier dans le système de fichiers local pour chaque objet SVG.
-// Le HTML créera un lien vers chaque fichier en utilisant l'attribut "data" d'un <object> étiquette.
+// Le HTML créera un lien vers chaque fichier en utilisant l'attribut "data" d'un <objet> étiqueter.
 HtmlFixedSaveOptions htmlFixedSaveOptions = new HtmlFixedSaveOptions
 {
     ExportEmbeddedSvg = exportSvgs

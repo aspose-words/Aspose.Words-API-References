@@ -3,12 +3,14 @@ title: Class WebExtensionReferenceCollection
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Aspose.Words.WebExtensions.WebExtensionReferenceCollection classe. Spécifie une liste de références dextensions Web.
 type: docs
-weight: 6500
+weight: 6810
 url: /fr/net/aspose.words.webextensions/webextensionreferencecollection/
 ---
 ## WebExtensionReferenceCollection class
 
 Spécifie une liste de références d'extensions Web.
+
+Pour en savoir plus, visitez le[Travailler avec les compléments Office](https://docs.aspose.com/words/net/work-with-office-add-ins/) article documentaire.
 
 ```csharp
 public class WebExtensionReferenceCollection : BaseWebExtensionCollection<WebExtensionReference>

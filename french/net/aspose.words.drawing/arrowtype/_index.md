@@ -1,14 +1,14 @@
 ---
 title: Enum ArrowType
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Drawing.ArrowType énumération. Spécifie le type dune flèche en fin de ligne.
+description: Aspose.Words.Drawing.ArrowType énumération. Spécifie le type dune flèche à la fin dune ligne.
 type: docs
-weight: 480
+weight: 490
 url: /fr/net/aspose.words.drawing/arrowtype/
 ---
 ## ArrowType enumeration
 
-Spécifie le type d'une flèche en fin de ligne.
+Spécifie le type d'une flèche à la fin d'une ligne.
 
 ```csharp
 public enum ArrowType
@@ -19,16 +19,16 @@ public enum ArrowType
 | Nom | Évaluer | La description |
 | --- | --- | --- |
 | None | `0` | La ligne n'a pas de flèche à la fin. |
-| Arrow | `1` | La flèche est un triangle solide. |
+| Arrow | `1` | La flèche est un triangle plein. |
 | Stealth | `2` | La flèche est une flèche "furtive". |
-| Diamond | `3` | L'extrémité de la ligne est un diamant solide. |
-| Oval | `4` | L'extrémité de la ligne est un ovale solide. |
+| Diamond | `3` | La fin de la ligne est un diamant solide. |
+| Oval | `4` | La fin de la ligne est un ovale plein. |
 | Open | `5` | La flèche est une flèche ouverte. |
 | Default | `0` | Identique àNone . |
 
 ### Exemples
 
-Spectacles pour créer une variété de formes.
+Montre pour créer une variété de formes.
 
 ```csharp
 Document doc = new Document();
@@ -53,7 +53,7 @@ Assert.AreEqual(JoinStyle.Miter, arrow.Stroke.JoinStyle);
 
 builder.InsertNode(arrow);
 
-// 2 - Ligne diagonale noire épaisse aux extrémités arrondies :
+// 2 - Ligne diagonale noire épaisse aux extrémités arrondies :
 Shape line = new Shape(doc, ShapeType.Line);
 line.Top = 40;
 line.Width = 200;
@@ -63,7 +63,7 @@ line.Stroke.EndCap = EndCap.Round;
 
 builder.InsertNode(line);
 
-// 3 - Flèche avec un remplissage vert :
+// 3 - Flèche avec un remplissage vert :
 Shape filledInArrow = new Shape(doc, ShapeType.Arrow);
 filledInArrow.Width = 200;
 filledInArrow.Height = 40;
@@ -73,7 +73,7 @@ filledInArrow.Fill.Visible = true;
 
 builder.InsertNode(filledInArrow);
 
-// 4 - Flèche d'orientation renversée remplie du logo Aspose :
+// 4 - Flèche d'orientation inversée remplie du logo Aspose :
 Shape filledInArrowImg = new Shape(doc, ShapeType.Arrow);
 filledInArrowImg.Width = 200;
 filledInArrowImg.Height = 40;
@@ -86,7 +86,7 @@ using (MemoryStream stream = new MemoryStream(imageBytes))
 {
     Image image = Image.FromStream(stream);
     // Lorsque nous inversons l'orientation de notre flèche, nous inversons également l'image que contient la flèche.
-    // Retournez l'image dans l'autre sens pour annuler cela avant d'obtenir la forme pour l'afficher.
+    // Retournez l'image dans l'autre sens pour l'annuler avant que la forme ne l'affiche.
     image.RotateFlip(RotateFlipType.RotateNoneFlipXY);
 
     filledInArrowImg.ImageData.SetImage(image);

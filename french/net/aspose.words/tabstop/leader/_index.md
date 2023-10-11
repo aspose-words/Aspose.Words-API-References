@@ -1,14 +1,14 @@
 ---
 title: TabStop.Leader
 second_title: Référence de l'API Aspose.Words pour .NET
-description: TabStop propriété. Obtient ou définit le type de la ligne de repère affichée sous le caractère de tabulation.
+description: TabStop propriété. Obtient ou définit le type de ligne de repère affichée sous le caractère de tabulation.
 type: docs
 weight: 40
 url: /fr/net/aspose.words/tabstop/leader/
 ---
 ## TabStop.Leader property
 
-Obtient ou définit le type de la ligne de repère affichée sous le caractère de tabulation.
+Obtient ou définit le type de ligne de repère affichée sous le caractère de tabulation.
 
 ```csharp
 public TabLeader Leader { get; set; }
@@ -21,15 +21,15 @@ Montre comment modifier la position du taquet de tabulation droit dans les parag
 ```csharp
 Document doc = new Document(MyDir + "Table of contents.docx");
 
-// Parcourt tous les paragraphes avec des styles basés sur les résultats TOC ; c'est n'importe quel style entre TOC et TOC9.
+// Parcourez tous les paragraphes avec les styles basés sur les résultats de la table des matières ; c'est n'importe quel style entre TOC et TOC9.
 foreach (Paragraph para in doc.GetChildNodes(NodeType.Paragraph, true).OfType<Paragraph>())
     if (para.ParagraphFormat.Style.StyleIdentifier >= StyleIdentifier.Toc1 &&
         para.ParagraphFormat.Style.StyleIdentifier <= StyleIdentifier.Toc9)
     {
-        // Récupère le premier onglet utilisé dans ce paragraphe, ce devrait être l'onglet utilisé pour aligner les numéros de page.
+        // Récupère le premier onglet utilisé dans ce paragraphe, ce doit être l'onglet utilisé pour aligner les numéros de page.
         TabStop tab = para.ParagraphFormat.TabStops[0];
 
-        // Remplace la première tabulation par défaut, stop par une tabulation personnalisée.
+        // Remplacez la première tabulation par défaut, arrêtez-vous par un taquet de tabulation personnalisé.
         para.ParagraphFormat.TabStops.RemoveByPosition(tab.Position);
         para.ParagraphFormat.TabStops.Add(tab.Position - 50, tab.Alignment, tab.Leader);
     }

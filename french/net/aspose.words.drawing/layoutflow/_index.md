@@ -3,7 +3,7 @@ title: Enum LayoutFlow
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Aspose.Words.Drawing.LayoutFlow énumération. Détermine le flux de la disposition du texte dans une zone de texte.
 type: docs
-weight: 970
+weight: 1100
 url: /fr/net/aspose.words.drawing/layoutflow/
 ---
 ## LayoutFlow enumeration

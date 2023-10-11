@@ -3,7 +3,7 @@ title: Enum CalendarType
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Aspose.Words.CalendarType énumération. Spécifie le type dun calendrier.
 type: docs
-weight: 180
+weight: 190
 url: /fr/net/aspose.words/calendartype/
 ---
 ## CalendarType enumeration
@@ -26,19 +26,20 @@ public enum CalendarType
 
 ### Exemples
 
-Montre comment appliquer automatiquement un format personnalisé aux résultats de champ lors de la mise à jour des champs.
+Montre comment appliquer automatiquement un format personnalisé aux résultats des champs à mesure que les champs sont mis à jour.
 
 ```csharp
+public void FieldResultFormatting()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
     FieldResultFormatter formatter = new FieldResultFormatter("${0}", "Date: {0}", "Item # {0}:");
     doc.FieldOptions.ResultFormatter = formatter;
 
-    // Notre formateur de résultat de champ applique un format personnalisé aux champs nouvellement créés de trois types de formats.
-    // Les formateurs de résultats de champ appliquent une nouvelle mise en forme aux champs lorsqu'ils sont mis à jour,
-    // qui se produit dès que nous les créons à l'aide de cette surcharge de méthode InsertField.
-    // 1 - Numérique :
+    // Notre formateur de résultats de champ applique un format personnalisé aux champs nouvellement créés de trois types de formats.
+    // Les formateurs de résultats de champs appliquent un nouveau formatage aux champs au fur et à mesure de leur mise à jour,
+    // ce qui se produit dès que nous les créons en utilisant cette surcharge de méthode InsertField.
+    // 1 - Numérique :
     builder.InsertField(" = 2 + 3 \\# $###");
 
     Assert.AreEqual("$5", doc.Range.Fields[0].Result);

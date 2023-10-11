@@ -3,7 +3,7 @@ title: Table.AutoFit
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Table méthode. Redimensionne le tableau et les cellules en fonction du comportement dajustement automatique spécifié.
 type: docs
-weight: 360
+weight: 380
 url: /fr/net/aspose.words.tables/table/autofit/
 ---
 ## Table.AutoFit method
@@ -20,7 +20,7 @@ public void AutoFit(AutoFitBehavior behavior)
 
 ### Remarques
 
-Cette méthode imite les commandes disponibles dans le menu Ajustement automatique d'un tableau dans Microsoft Word. Les commandes disponibles sont "Ajustement automatique au contenu", "Ajustement automatique à la fenêtre" et "Largeur de colonne fixe". Dans Microsoft Word , ces commandes définissent les propriétés de table pertinentes, puis mettent à jour la disposition de la table et Aspose.Words fait de même pour vous.
+Cette méthode imite les commandes disponibles dans le menu Ajustement automatique d'un tableau dans Microsoft Word. Les commandes disponibles sont « Ajustement automatique au contenu », « Ajustement automatique à la fenêtre » et « Largeur de colonne fixe ». Dans Microsoft Word , ces commandes définissent les propriétés de table pertinentes, puis mettent à jour la disposition du tableau et Aspose.Words fait de même pour vous.
 
 ### Exemples
 
@@ -31,14 +31,14 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 Table table = builder.StartTable();
 
-// Nous devons insérer au moins une ligne avant de définir la mise en forme du tableau.
+// Nous devons insérer au moins une ligne avant de définir un formatage de tableau.
 builder.InsertCell();
 
 // Définit le style de tableau utilisé en fonction de l'identifiant de style.
 // Notez que tous les styles de tableau ne sont pas disponibles lors de l'enregistrement au format .doc.
 table.StyleIdentifier = StyleIdentifier.MediumShading1Accent1;
 
-// Appliquez partiellement le style aux fonctionnalités de la table en fonction des prédicats, puis construisez la table.
+// Applique partiellement le style aux fonctionnalités de la table en fonction des prédicats, puis construit la table.
 table.StyleOptions =
     TableStyleOptions.FirstColumn | TableStyleOptions.RowBands | TableStyleOptions.FirstRow;
 table.AutoFit(AutoFitBehavior.AutoFitToContents);

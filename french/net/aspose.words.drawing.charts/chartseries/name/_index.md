@@ -1,14 +1,14 @@
 ---
 title: ChartSeries.Name
 second_title: Référence de l'API Aspose.Words pour .NET
-description: ChartSeries propriété. Obtient ou définit le nom de la série si le nom nest pas défini explicitement il est généré à laide de lindex. Par défaut renvoie la série plus un index basé.
+description: ChartSeries propriété. Obtient ou définit le nom de la série si le nom nest pas défini explicitement il est généré à laide de index. Par défaut renvoie la série plus un index basé.
 type: docs
-weight: 100
+weight: 110
 url: /fr/net/aspose.words.drawing.charts/chartseries/name/
 ---
 ## ChartSeries.Name property
 
-Obtient ou définit le nom de la série, si le nom n'est pas défini explicitement, il est généré à l'aide de l'index. Par défaut, renvoie la série plus un index basé.
+Obtient ou définit le nom de la série, si le nom n'est pas défini explicitement, il est généré à l'aide de index. Par défaut, renvoie la série plus un index basé.
 
 ```csharp
 public string Name { get; set; }
@@ -16,9 +16,10 @@ public string Name { get; set; }
 
 ### Exemples
 
-Montre comment appliquer des étiquettes aux points de données dans un graphique en courbes.
+Montre comment appliquer des étiquettes aux points de données dans un graphique linéaire.
 
 ```csharp
+public void DataLabels()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -31,7 +32,7 @@ Montre comment appliquer des étiquettes aux points de données dans un graphiqu
     Assert.AreEqual("Series 2", chart.Series[1].Name);
     Assert.AreEqual("Series 3", chart.Series[2].Name);
 
-    // Appliquez des étiquettes de données à chaque série du graphique.
+    // Applique des étiquettes de données à chaque série du graphique.
     // Ces étiquettes apparaîtront à côté de chaque point de données dans le graphique et afficheront sa valeur.
     foreach (ChartSeries series in chart.Series)
     {
@@ -59,7 +60,7 @@ Montre comment appliquer des étiquettes aux points de données dans un graphiqu
 }
 
 /// <summary>
-/// Appliquez des étiquettes de données avec un format de nombre et un séparateur personnalisés à plusieurs points de données d'une série.
+/// Appliquez des étiquettes de données avec un format numérique personnalisé et un séparateur à plusieurs points de données d'une série.
 /// </summary>
 private static void ApplyDataLabels(ChartSeries series, int labelsCount, string numberFormat, string separator)
 {

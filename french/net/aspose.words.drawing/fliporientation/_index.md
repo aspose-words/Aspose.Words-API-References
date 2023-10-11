@@ -3,7 +3,7 @@ title: Enum FlipOrientation
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Aspose.Words.Drawing.FlipOrientation énumération. Valeurs possibles pour lorientation dune forme.
 type: docs
-weight: 840
+weight: 970
 url: /fr/net/aspose.words.drawing/fliporientation/
 ---
 ## FlipOrientation enumeration
@@ -21,7 +21,7 @@ public enum FlipOrientation
 | --- | --- | --- |
 | None | `0` | Les coordonnées ne sont pas inversées. |
 | Horizontal | `1` | Retourner le long de l'axe y, en inversant les coordonnées x. |
-| Vertical | `2` | Retourner le long de l'axe des x, en inversant les coordonnées y. |
+| Vertical | `2` | Retourner le long de l'axe x, en inversant les coordonnées y. |
 | Both | `3` | Retourner le long des axes y et x. |
 
 ### Exemples
@@ -43,7 +43,7 @@ shape = builder.InsertShape(ShapeType.Rectangle, RelativeHorizontalPosition.Left
     RelativeVerticalPosition.TopMargin, 100, 100, 100, WrapType.None);
 shape.ImageData.SetImage(ImageDir + "Logo.jpg");
 
-// Définissez la propriété "FlipOrientation" sur "FlipOrientation.Horizontal" pour retourner la deuxième forme sur l'axe des ordonnées,
+// Définissez la propriété "FlipOrientation" sur "FlipOrientation.Horizontal" pour retourner la deuxième forme sur l'axe y,
 // en faisant une image miroir horizontale de la première forme.
 shape.FlipOrientation = FlipOrientation.Horizontal;
 

@@ -1,14 +1,14 @@
 ---
 title: HtmlSaveOptions.ExportImagesAsBase64
 second_title: Référence de l'API Aspose.Words pour .NET
-description: HtmlSaveOptions propriété. Spécifie si les images sont enregistrées au format Base64 dans la sortie HTML MHTML ou EPUB. La valeur par défaut estfaux .
+description: HtmlSaveOptions propriété. Spécifie si les images sont enregistrées au format Base64 dans la sortie HTML MHTML ou EPUB. La valeur par défaut estFAUX .
 type: docs
-weight: 180
+weight: 170
 url: /fr/net/aspose.words.saving/htmlsaveoptions/exportimagesasbase64/
 ---
 ## HtmlSaveOptions.ExportImagesAsBase64 property
 
-Spécifie si les images sont enregistrées au format Base64 dans la sortie HTML, MHTML ou EPUB. La valeur par défaut est`faux` .
+Spécifie si les images sont enregistrées au format Base64 dans la sortie HTML, MHTML ou EPUB. La valeur par défaut est`FAUX` .
 
 ```csharp
 public bool ExportImagesAsBase64 { get; set; }
@@ -16,11 +16,11 @@ public bool ExportImagesAsBase64 { get; set; }
 
 ### Remarques
 
-Lorsque cette propriété est définie sur`vrai`les données des images sont exportées directement dans le **image** les éléments et les fichiers séparés ne sont pas créés.
+Lorsque cette propriété est définie sur`vrai` les données des images sont exportées directement dans le **img** les éléments et les fichiers séparés ne sont pas créés.
 
 ### Exemples
 
-Montre comment incorporer des polices dans un document HTML enregistré.
+Montre comment intégrer des polices dans un document HTML enregistré.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
@@ -35,7 +35,7 @@ HtmlSaveOptions options = new HtmlSaveOptions
 doc.Save(ArtifactsDir + "HtmlSaveOptions.ExportFontsAsBase64.html", options);
 ```
 
-Montre comment enregistrer un document .html avec des images intégrées à l'intérieur.
+Montre comment enregistrer un document .html contenant des images intégrées.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

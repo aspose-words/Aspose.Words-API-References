@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTagRangeEnd.Id
 second_title: Référence de l'API Aspose.Words pour .NET
-description: StructuredDocumentTagRangeEnd propriété. Spécifie un identifiant numérique persistant unique en lecture seule pour ce StructuredDocumentTagRangeStructuredDocumentTagRange node. correspondantStructuredDocumentTagRangeStart nœud a le mêmeId .
+description: StructuredDocumentTagRangeEnd propriété. Spécifie un identifiant numérique persistant unique en lecture seule pour cet StructuredDocumentTagRange node. CorrespondantStructuredDocumentTagRangeStart le nœud a le mêmeId .
 type: docs
 weight: 20
 url: /fr/net/aspose.words.markup/structureddocumenttagrangeend/id/
 ---
 ## StructuredDocumentTagRangeEnd.Id property
 
-Spécifie un identifiant numérique persistant unique en lecture seule pour ce **StructuredDocumentTagRangeStructuredDocumentTagRange** node. correspondant[`StructuredDocumentTagRangeStart`](../../structureddocumenttagrangestart/) nœud a le même[`Id`](../../structureddocumenttagrangestart/id/) .
+Spécifie un identifiant numérique persistant unique en lecture seule pour cet **StructuredDocumentTagRange** node. Correspondant[`StructuredDocumentTagRangeStart`](../../structureddocumenttagrangestart/) le nœud a le même[`Id`](../../structureddocumenttagrangestart/id/) .
 
 ```csharp
 public int Id { get; }
@@ -16,7 +16,7 @@ public int Id { get; }
 
 ### Exemples
 
-Montre comment obtenir les propriétés des balises de document structuré à plusieurs sections.
+Montre comment obtenir les propriétés des balises de documents structurés à plusieurs sections.
 
 ```csharp
 Document doc = new Document(MyDir + "Multi-section structured document tags.docx");

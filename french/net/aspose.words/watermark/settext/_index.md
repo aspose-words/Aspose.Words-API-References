@@ -16,18 +16,18 @@ public void SetText(string text)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| text | String | Texte affiché en filigrane. |
+| text | String | Texte affiché sous forme de filigrane. |
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| ArgumentOutOfRangeException | Lance lorsque la longueur du texte est hors limites ou que le texte ne contient que des espaces. |
-| ArgumentNullException | Lance lorsque le texte est nul. |
+| ArgumentOutOfRangeException | Lance lorsque la longueur du texte est hors plage ou que le texte ne contient que des espaces. |
+| ArgumentNullException | Lance lorsque le texte est`nul` . |
 
 ### Remarques
 
-La longueur du texte doit être comprise entre 1 et 200 inclus. Le texte ne peut pas être nul ou contenir uniquement des espaces.
+La longueur du texte doit être comprise entre 1 et 200 inclus. Le texte ne peut pas être`nul` ou ne contiennent que des espaces.
 
 ### Exemples
 
@@ -36,10 +36,10 @@ Montre comment créer un filigrane de texte.
 ```csharp
 Document doc = new Document();
 
-// Ajouter un filigrane en texte brut.
+// Ajoute un filigrane en texte brut.
 doc.Watermark.SetText("Aspose Watermark");
 
-// Si nous souhaitons modifier la mise en forme du texte en l'utilisant comme filigrane,
+// Si l'on souhaite éditer la mise en forme du texte en l'utilisant comme filigrane,
 // nous pouvons le faire en passant un objet TextWatermarkOptions lors de la création du filigrane.
 TextWatermarkOptions textWatermarkOptions = new TextWatermarkOptions();
 textWatermarkOptions.FontFamily = "Arial";
@@ -75,21 +75,21 @@ public void SetText(string text, TextWatermarkOptions options)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| text | String | Texte affiché en filigrane. |
+| text | String | Texte affiché sous forme de filigrane. |
 | options | TextWatermarkOptions | Définit des options supplémentaires pour le filigrane de texte. |
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| ArgumentOutOfRangeException | Lance lorsque la longueur du texte est hors limites ou que le texte ne contient que des espaces blancs. |
-| ArgumentNullException | Lance lorsque le texte est nul. |
+| ArgumentOutOfRangeException | Lance lorsque la longueur du texte est hors plage ou que le texte ne contient que des espaces. |
+| ArgumentNullException | Lance lorsque le texte est`nul` . |
 
 ### Remarques
 
-La longueur du texte doit être comprise entre 1 et 200 inclus. Le texte ne peut pas être nul ou contenir uniquement des espaces.
+La longueur du texte doit être comprise entre 1 et 200 inclus. Le texte ne peut pas être`nul` ou ne contiennent que des espaces.
 
-Si[`TextWatermarkOptions`](../../textwatermarkoptions/) est nul, le filigrane sera défini avec les options par défaut.
+Si[`TextWatermarkOptions`](../../textwatermarkoptions/) est`nul`, le filigrane sera défini avec les options par défaut.
 
 ### Exemples
 
@@ -98,10 +98,10 @@ Montre comment créer un filigrane de texte.
 ```csharp
 Document doc = new Document();
 
-// Ajouter un filigrane en texte brut.
+// Ajoute un filigrane en texte brut.
 doc.Watermark.SetText("Aspose Watermark");
 
-// Si nous souhaitons modifier la mise en forme du texte en l'utilisant comme filigrane,
+// Si l'on souhaite éditer la mise en forme du texte en l'utilisant comme filigrane,
 // nous pouvons le faire en passant un objet TextWatermarkOptions lors de la création du filigrane.
 TextWatermarkOptions textWatermarkOptions = new TextWatermarkOptions();
 textWatermarkOptions.FontFamily = "Arial";

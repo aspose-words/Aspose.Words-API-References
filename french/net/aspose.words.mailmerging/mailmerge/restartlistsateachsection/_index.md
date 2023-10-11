@@ -16,11 +16,11 @@ public bool RestartListsAtEachSection { get; set; }
 
 ### Remarques
 
-La valeur par défaut est **vrai** .
+La valeur par défaut est`vrai` .
 
 ### Exemples
 
-Montre comment contrôler si la numérotation de la liste est redémarrée ou non à chaque section lorsque le publipostage est effectué.
+Montre comment contrôler si la numérotation des listes est redémarrée ou non à chaque section lors de la fusion et du publipostage.
 
 ```csharp
 Document doc = new Document(MyDir + "Section breaks with numbering.docx");

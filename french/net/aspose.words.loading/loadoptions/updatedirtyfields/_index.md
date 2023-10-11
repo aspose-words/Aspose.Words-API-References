@@ -22,25 +22,25 @@ Montre comment utiliser une propriété spéciale pour mettre à jour le résult
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Donnez la valeur de la propriété intégrée "Auteur" du document, puis affichez-la avec un champ.
+// Donne la valeur de la propriété "Auteur" intégrée au document, puis affiche-la avec un champ.
 doc.BuiltInDocumentProperties.Author = "John Doe";
 FieldAuthor field = (FieldAuthor)builder.InsertField(FieldType.FieldAuthor, true);
 
 Assert.False(field.IsDirty);
 Assert.AreEqual("John Doe", field.Result);
 
-// Mettre à jour la propriété. Le champ affiche toujours l'ancienne valeur.
+// Mettez à jour la propriété. Le champ affiche toujours l'ancienne valeur.
 doc.BuiltInDocumentProperties.Author = "John & Jane Doe";
 
 Assert.AreEqual("John Doe", field.Result);
 
-// Puisque la valeur du champ est obsolète, nous pouvons la marquer comme "modifiée".
+// Puisque la valeur du champ est obsolète, nous pouvons le marquer comme "sale".
 // Cette valeur restera obsolète jusqu'à ce que nous mettions à jour le champ manuellement avec la méthode Field.Update().
 field.IsDirty = true;
 
 using (MemoryStream docStream = new MemoryStream())
 {
-    // Si nous sauvegardons sans appeler de méthode de mise à jour,
+    // Si on sauvegarde sans appeler de méthode update,
     // le champ continuera d'afficher la valeur obsolète dans le document de sortie.
     doc.Save(docStream, SaveFormat.Docx);
 
@@ -54,7 +54,7 @@ using (MemoryStream docStream = new MemoryStream())
 
     field = (FieldAuthor)doc.Range.Fields[0];
 
-    // La mise à jour de champs modifiés comme celui-ci définit automatiquement leur indicateur "IsDirty" sur false.
+    // La mise à jour de champs sales comme celui-ci définit automatiquement leur indicateur "IsDirty" sur false.
     if (updateDirtyFields)
     {
         Assert.AreEqual("John & Jane Doe", field.Result);

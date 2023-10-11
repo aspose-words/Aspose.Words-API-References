@@ -16,7 +16,7 @@ public bool AutofitToFirstFixedWidthCell { get; set; }
 
 ### Remarques
 
-L'option s'appelle "Utiliser les règles d'ajustement automatique des tableaux de Word 2003" dans l'interface utilisateur de MS Word 2013. Elle affecte également la façon dont la grille est calculée pour les tableaux à disposition fixe (dans certains cas).
+L'option est appelée "Utiliser les règles d'ajustement automatique des tableaux Word 2003" dans l'interface utilisateur de MS Word 2013. Elle affecte également la façon dont la grille est calculée pour les tableaux à disposition fixe (dans certains cas).
 
 ### Voir également
 

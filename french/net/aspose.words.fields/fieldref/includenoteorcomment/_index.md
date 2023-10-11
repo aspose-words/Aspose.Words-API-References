@@ -1,14 +1,14 @@
 ---
 title: FieldRef.IncludeNoteOrComment
 second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldRef propriété. Obtient ou définit sil faut incrémenter les numéros de note de bas de page de note de fin et dannotation qui sont marqués par le signet et insérer la note de bas de page la note de fin et le texte de commentaire correspondants.
+description: FieldRef propriété. Obtient ou définit sil faut incrémenter les numéros de note de bas de page de fin et dannotation qui sont marqués par le signet et insérer le texte de note de bas de page de fin et de commentaire correspondant.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.fields/fieldref/includenoteorcomment/
 ---
 ## FieldRef.IncludeNoteOrComment property
 
-Obtient ou définit s'il faut incrémenter les numéros de note de bas de page, de note de fin et d'annotation qui sont marqués par le signet, et insérer la note de bas de page, la note de fin et le texte de commentaire correspondants.
+Obtient ou définit s'il faut incrémenter les numéros de note de bas de page, de fin et d'annotation qui sont marqués par le signet, et insérer le texte de note de bas de page, de fin et de commentaire correspondant.
 
 ```csharp
 public bool IncludeNoteOrComment { get; set; }
@@ -35,14 +35,14 @@ public void FieldRef()
     builder.ListFormat.ApplyNumberDefault();
     builder.ListFormat.ListLevel.NumberFormat = "> \x0000";
 
-    // Insère un champ REF qui contiendra le texte dans notre signet, agira comme un lien hypertexte et clonera les notes de bas de page du signet.
+    // Insérez un champ REF qui contiendra le texte dans notre signet, agira comme un lien hypertexte et clonera les notes de bas de page du signet.
     FieldRef field = InsertFieldRef(builder, "MyBookmark", "", "\n");
     field.IncludeNoteOrComment = true;
     field.InsertHyperlink = true;
 
     Assert.AreEqual(" REF  MyBookmark \\f \\h", field.GetFieldCode());
 
-    // Insère un champ REF et affiche si le signet référencé est au-dessus ou en dessous.
+    // Insère un champ REF et affiche si le signet référencé est au-dessus ou en dessous de celui-ci.
     field = InsertFieldRef(builder, "MyBookmark", "The referenced paragraph is ", " this field.\n");
     field.InsertRelativePosition = true;
 
@@ -54,14 +54,14 @@ public void FieldRef()
 
     Assert.AreEqual(" REF  MyBookmark \\n", field.GetFieldCode());
 
-    // Affiche le numéro de liste du signet, mais avec les caractères non délimiteurs, tels que les crochets angulaires, omis.
+    // Affiche le numéro de liste du signet, mais en omettant les caractères non délimiteurs, tels que les crochets angulaires.
     field = InsertFieldRef(builder, "MyBookmark", "The bookmark's paragraph number, non-delimiters suppressed, is ", "\n");
     field.InsertParagraphNumber = true;
     field.SuppressNonDelimiters = true;
 
     Assert.AreEqual(" REF  MyBookmark \\n \\t", field.GetFieldCode());
 
-    // Descend d'un niveau de liste.
+    // Descendre d'un niveau de liste.
     builder.ListFormat.ListLevelNumber++;
     builder.ListFormat.ListLevel.NumberFormat = ">> \x0001";
 
@@ -79,16 +79,17 @@ public void FieldRef()
 
     Assert.AreEqual(" REF  MyBookmark \\r", field.GetFieldCode());
 
-    // À la fin du document, le signet apparaîtra comme un élément de liste ici.
+    // À la fin du document, le signet apparaîtra ici comme élément de liste.
     builder.Writeln("List level above bookmark");
     builder.ListFormat.ListLevelNumber++;
     builder.ListFormat.ListLevel.NumberFormat = ">>> \x0002";
 
     doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.REF.docx");
+}
 
 /// <summary>
-/// Demandez au générateur de document d'insérer un champ REF, de référencer un signet avec celui-ci et d'ajouter du texte avant et après.
+/// Demandez au générateur de documents d'insérer un champ REF, de référencer un signet avec celui-ci et d'ajouter du texte avant et après celui-ci.
 /// </summary>
 private static FieldRef InsertFieldRef(DocumentBuilder builder, string bookmarkName, string textBefore, string textAfter)
 {

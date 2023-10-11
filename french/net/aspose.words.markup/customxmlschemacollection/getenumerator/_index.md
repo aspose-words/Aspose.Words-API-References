@@ -1,14 +1,14 @@
 ---
 title: CustomXmlSchemaCollection.GetEnumerator
 second_title: Référence de l'API Aspose.Words pour .NET
-description: CustomXmlSchemaCollection méthode. Renvoie un objet énumérateur qui peut être utilisé pour itérer sur tous les éléments de la collection.
+description: CustomXmlSchemaCollection méthode. Renvoie un objet énumérateur qui peut être utilisé pour parcourir tous les éléments de la collection.
 type: docs
 weight: 60
 url: /fr/net/aspose.words.markup/customxmlschemacollection/getenumerator/
 ---
 ## CustomXmlSchemaCollection.GetEnumerator method
 
-Renvoie un objet énumérateur qui peut être utilisé pour itérer sur tous les éléments de la collection.
+Renvoie un objet énumérateur qui peut être utilisé pour parcourir tous les éléments de la collection.
 
 ```csharp
 public IEnumerator<string> GetEnumerator()
@@ -16,7 +16,7 @@ public IEnumerator<string> GetEnumerator()
 
 ### Exemples
 
-Montre comment travailler avec une collection de schémas XML.
+Montre comment utiliser une collection de schémas XML.
 
 ```csharp
 Document doc = new Document();
@@ -25,10 +25,10 @@ string xmlPartId = Guid.NewGuid().ToString("B");
 string xmlPartContent = "<root><text>Hello, World!</text></root>";
 CustomXmlPart xmlPart = doc.CustomXmlParts.Add(xmlPartId, xmlPartContent);
 
-// Ajouter une association de schéma XML.
+// Ajout d'une association de schéma XML.
 xmlPart.Schemas.Add("http://www.w3.org/2001/XMLSchema");
 
-// Clone la collection d'associations de schémas XML de la partie XML personnalisée,
+// Cloner la collection d'associations de schéma XML de la partie XML personnalisée,
 // puis ajoutez quelques nouveaux schémas au clone.
 CustomXmlSchemaCollection schemas = xmlPart.Schemas.Clone();
 schemas.Add("http://www.w3.org/2001/XMLSchema-instance");
@@ -45,10 +45,10 @@ using (IEnumerator<string> enumerator = schemas.GetEnumerator())
 }
 
 // Vous trouverez ci-dessous trois façons de supprimer des schémas de la collection.
-// 1 - Supprimer un schéma par index :
+// 1 - Supprimer un schéma par index :
 schemas.RemoveAt(2);
 
-// 2 - Supprimer un schéma par valeur :
+// 2 - Supprimer un schéma par valeur :
 schemas.Remove("http://www.w3.org/2001/XMLSchema");
 
 // 3 - Utilisez la méthode "Clear" pour vider la collection d'un coup.

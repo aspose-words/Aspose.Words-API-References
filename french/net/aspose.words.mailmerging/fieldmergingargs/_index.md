@@ -3,12 +3,14 @@ title: Class FieldMergingArgs
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Aspose.Words.MailMerging.FieldMergingArgs classe. Fournit des données pour le Champ de fusion événement.
 type: docs
-weight: 3550
+weight: 3770
 url: /fr/net/aspose.words.mailmerging/fieldmergingargs/
 ---
 ## FieldMergingArgs class
 
 Fournit des données pour le **Champ de fusion** événement.
+
+Pour en savoir plus, visitez le[Fusion et publipostage et création de rapports](https://docs.aspose.com/words/net/mail-merge-and-reporting/) article documentaire.
 
 ```csharp
 public class FieldMergingArgs : FieldMergingArgsBase
@@ -29,13 +31,14 @@ public class FieldMergingArgs : FieldMergingArgsBase
 
 ### Remarques
 
-La **Champ de fusion** se produit pendant le publipostage lorsqu'un simple champ publipostage est rencontré dans le document. Vous pouvez répondre à cet événement en retournant texte pour que le moteur de publipostage l'insère dans le document.
+Le **Champ de fusion** L'événement se produit lors du publipostage lorsqu'un simple champ mail merge est rencontré dans le document. Vous pouvez répondre à cet événement en renvoyant texte pour que le moteur de publipostage l'insère dans le document.
 
 ### Exemples
 
 Montre comment exécuter un publipostage avec un rappel personnalisé qui gère les données de fusion sous la forme de documents HTML.
 
 ```csharp
+public void MergeHtml()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -83,7 +86,7 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
             builder.InsertHtml((string)args.FieldValue);
 
             // Puisque nous avons déjà inséré manuellement le contenu fusionné,
-             // nous n'aurons pas besoin de répondre à cet événement en renvoyant du contenu via la propriété "Texte".
+             // nous n'aurons pas besoin de répondre à cet événement en renvoyant du contenu via la propriété "Text".
             args.Text = string.Empty;
         }
     }

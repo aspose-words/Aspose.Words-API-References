@@ -16,15 +16,15 @@ public virtual VisitorAction VisitCellEnd(Cell cell)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| cell | Cell | L'objet visité. |
+| cell | Cell | L'objet qui est visité. |
 
 ### Return_Value
 
-UN[`VisitorAction`](../../visitoraction/) valeur qui spécifie comment poursuivre l'énumération.
+UN[`VisitorAction`](../../visitoraction/) valeur qui spécifie comment continuer l’énumération.
 
 ### Exemples
 
-Montre comment imprimer la structure de nœud de chaque table dans un document.
+Montre comment imprimer la structure des nœuds de chaque table d'un document.
 
 ```csharp
 public void TableToText()
@@ -32,8 +32,8 @@ public void TableToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     TableStructurePrinter visitor = new TableStructurePrinter();
 
-    // Lorsque nous obtenons un nœud composite pour accepter un visiteur de document, le visiteur visite le nœud acceptant,
-    // puis parcourt tous les enfants du nœud en profondeur d'abord.
+    // Lorsque nous obtenons qu'un nœud composite accepte un visiteur de document, le visiteur visite le nœud accepteur,
+    // puis parcourt tous les enfants du nœud en profondeur.
     // Le visiteur peut lire et modifier chaque nœud visité.
     doc.Accept(visitor);
 
@@ -58,8 +58,8 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Appelé lorsqu'un noeud Run est rencontré dans le document.
-    /// Les exécutions qui ne sont pas dans les tables ne sont pas enregistrées.
+    /// Appelé lorsqu'un nœud Run est rencontré dans le document.
+    /// Les exécutions qui ne se trouvent pas dans les tables ne sont pas enregistrées.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -69,7 +69,7 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Appelé lorsqu'un tableau est rencontré dans le document.
+    /// Appelé lorsqu'une table est rencontrée dans le document.
     /// </summary>
     public override VisitorAction VisitTableStart(Table table)
     {
@@ -133,7 +133,7 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Appelé lorsqu'un noeud Cellule est rencontré dans le document.
+    /// Appelé lorsqu'un nœud Cell est rencontré dans le document.
     /// </summary>
     public override VisitorAction VisitCellStart(Cell cell)
     {
@@ -152,7 +152,7 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Appelé après que tous les nœuds enfants d'un nœud Cell aient été visités.
+    /// Appelé après que tous les nœuds enfants d'un nœud Cell ont été visités.
     /// </summary>
     public override VisitorAction VisitCellEnd(Cell cell)
     {
@@ -165,7 +165,7 @@ public class TableStructurePrinter : DocumentVisitor
     /// Ajoutez une ligne au StringBuilder et indentez-la en fonction de la profondeur du visiteur
     /// dans l'arborescence des nœuds enfants de la table actuelle.
     /// </summary>
-    /// <nom du paramètre="texte"></param>
+    /// <param name="text"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++)
@@ -182,28 +182,29 @@ public class TableStructurePrinter : DocumentVisitor
 }
 ```
 
-Montre comment utiliser une implémentation DocumentVisitor pour supprimer tout le contenu masqué d'un document.
+Montre comment utiliser une implémentation de DocumentVisitor pour supprimer tout le contenu masqué d'un document.
 
 ```csharp
+public void RemoveHiddenContentFromDocument()
 {
     Document doc = new Document(MyDir + "Hidden content.docx");
-
     RemoveHiddenContentVisitor hiddenContentRemover = new RemoveHiddenContentVisitor();
 
-    // Ci-dessous trois types de champs pouvant accepter un visiteur de document,
-    // qui lui permettra de visiter le nœud acceptant, puis de parcourir ses nœuds enfants en profondeur d'abord.
-    // 1 - Nœud Paragraphe :
-    Paragraph para = (Paragraph) doc.GetChild(NodeType.Paragraph, 4, true);
+    // Vous trouverez ci-dessous trois types de champs pouvant accepter un visiteur de document,
+    // ce qui lui permettra de visiter le nœud accepteur, puis de parcourir ses nœuds enfants en profondeur d'abord.
+    // 1 - Nœud de paragraphe :
+    Paragraph para = (Paragraph)doc.GetChild(NodeType.Paragraph, 4, true);
     para.Accept(hiddenContentRemover);
 
-    // 2 - Noeud Table :
+    // 2 - Nœud table :
     Table table = doc.FirstSection.Body.Tables[0];
     table.Accept(hiddenContentRemover);
 
-    // 3 - Noeud document :
+    // 3 - Nœud Document :
     doc.Accept(hiddenContentRemover);
 
     doc.Save(ArtifactsDir + "Font.RemoveHiddenContentFromDocument.docx");
+}
 
 /// <summary>
 /// Supprime tous les nœuds visités marqués comme "contenu caché".
@@ -244,7 +245,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Appelé lorsqu'un noeud Run est rencontré dans le document.
+    /// Appelé lorsqu'un nœud Run est rencontré dans le document.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -288,7 +289,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Appelé lorsqu'un Shape est rencontré dans le document.
+    /// Appelé lorsqu'une forme est rencontrée dans le document.
     /// </summary>
     public override VisitorAction VisitShapeStart(Shape shape)
     {
@@ -337,10 +338,10 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     public override VisitorAction VisitTableEnd(Table table)
     {
         // Le contenu à l'intérieur des cellules du tableau peut avoir l'indicateur de contenu masqué, mais les tableaux eux-mêmes ne le peuvent pas.
-        // Si ce tableau n'avait que du contenu caché, ce visiteur l'aurait tout supprimé,
+        // Si cette table n'avait que du contenu caché, ce visiteur l'aurait tout supprimé,
         // et il n'y aurait plus de nœuds enfants.
-        // Ainsi, nous pouvons également traiter le tableau lui-même comme un contenu caché et le supprimer.
-        // Les tableaux qui sont vides mais qui n'ont pas de contenu caché auront des cellules avec des paragraphes vides à l'intérieur,
+        // Ainsi, nous pouvons également traiter la table elle-même comme un contenu caché et la supprimer.
+        // Les tableaux vides mais sans contenu masqué auront des cellules avec des paragraphes vides à l'intérieur,
         // que ce visiteur ne supprimera pas.
         if (!table.HasChildNodes)
             table.Remove();
@@ -349,7 +350,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Appelé lorsque la visite d'un noeud Cellule est terminée dans le document.
+    /// Appelé lorsque la visite d'un nœud Cell est terminée dans le document.
     /// </summary>
     public override VisitorAction VisitCellEnd(Cell cell)
     {

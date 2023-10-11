@@ -16,11 +16,11 @@ public string Password { get; set; }
 
 ### Remarques
 
-Afin d'enregistrer le document sans cryptage, cette propriété doit être nulle ou une chaîne vide.
+Afin d'enregistrer le document sans cryptage, cette propriété doit être`nul` ou une chaîne vide.
 
 ### Exemples
 
-Montre comment définir les options d'enregistrement pour les anciens formats Microsoft Word.
+Montre comment définir les options d’enregistrement pour les anciens formats Microsoft Word.
 
 ```csharp
 Document doc = new Document();
@@ -33,7 +33,7 @@ DocSaveOptions options = new DocSaveOptions(SaveFormat.Doc);
 // Notez que cela ne crypte en aucun cas le contenu du document.
 options.Password = "MyPassword";
 
-// Si le document contient un bordereau de routage, nous pouvons le conserver lors de l'enregistrement en définissant ce drapeau sur true.
+// Si le document contient un bordereau de routage, nous pouvons le conserver lors de l'enregistrement en mettant cet indicateur à true.
 options.SaveRoutingSlip = true;
 
 doc.Save(ArtifactsDir + "DocSaveOptions.SaveAsDoc.doc", options);

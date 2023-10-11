@@ -3,12 +3,14 @@ title: Class LanguagePreferences
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Aspose.Words.Loading.LanguagePreferences classe. Permet de configurer les préférences de langue.
 type: docs
-weight: 3450
+weight: 3650
 url: /fr/net/aspose.words.loading/languagepreferences/
 ---
 ## LanguagePreferences class
 
 Permet de configurer les préférences de langue.
+
+Pour en savoir plus, visitez le[Spécifier les options de chargement](https://docs.aspose.com/words/net/specify-load-options/) article documentaire.
 
 ```csharp
 public class LanguagePreferences
@@ -35,7 +37,7 @@ public class LanguagePreferences
 
 ### Remarques
 
-Implémente la boîte de dialogue "Définir les préférences linguistiques d'Office" dans Word.
+Implémente la boîte de dialogue « Définir les préférences linguistiques d'Office » dans Word.
 
 ### Exemples
 

@@ -1,14 +1,14 @@
 ---
 title: FindReplaceOptions.UseSubstitutions
 second_title: Référence de l'API Aspose.Words pour .NET
-description: FindReplaceOptions propriété. Obtient ou définit une valeur booléenne indiquant sil faut reconnaître et utiliser des substitutions dans les modèles de remplacement. La valeur par défaut estfaux .
+description: FindReplaceOptions propriété. Obtient ou définit une valeur booléenne indiquant sil faut reconnaître et utiliser des substitutions dans les modèles de remplacement. La valeur par défaut estFAUX .
 type: docs
-weight: 160
+weight: 180
 url: /fr/net/aspose.words.replacing/findreplaceoptions/usesubstitutions/
 ---
 ## FindReplaceOptions.UseSubstitutions property
 
-Obtient ou définit une valeur booléenne indiquant s'il faut reconnaître et utiliser des substitutions dans les modèles de remplacement. La valeur par défaut est`faux` .
+Obtient ou définit une valeur booléenne indiquant s'il faut reconnaître et utiliser des substitutions dans les modèles de remplacement. La valeur par défaut est`FAUX` .
 
 ```csharp
 public bool UseSubstitutions { get; set; }
@@ -16,11 +16,11 @@ public bool UseSubstitutions { get; set; }
 
 ### Remarques
 
-Pour plus de détails sur les éléments de substitution, veuillez consulter : https://docs.microsoft.com/en-us/dotnet/standard/base-types/substitutions-in-regular-expressions.
+Pour plus de détails sur les éléments de substitution, veuillez vous référer à : https://docs.microsoft.com/en-us/dotnet/standard/base-types/substitutions-in-regular-expressions.
 
 ### Exemples
 
-Montre comment reconnaître et utiliser des substitutions dans des modèles de remplacement.
+Montre comment reconnaître et utiliser les substitutions dans les modèles de remplacement.
 
 ```csharp
 Document doc = new Document();
@@ -33,7 +33,7 @@ Regex regex = new Regex(@"([A-z]+) gave money to ([A-z]+)");
 FindReplaceOptions options = new FindReplaceOptions();
 options.UseSubstitutions = true;
 
-// L'utilisation du mode hérité ne prend pas en charge de nombreuses fonctionnalités avancées, nous devons donc le définir sur "false".
+// L'utilisation du mode hérité ne prend pas en charge de nombreuses fonctionnalités avancées, nous devons donc le définir sur « false ».
 options.LegacyMode = false;
 
 doc.Range.Replace(regex, @"$2 took money from $1", options);
@@ -53,7 +53,7 @@ builder.Writeln("Jane sold a house to Joe.");
 // Nous pouvons utiliser un objet "FindReplaceOptions" pour modifier le processus de recherche et de remplacement.
 FindReplaceOptions options = new FindReplaceOptions();
 
-// Définissez la propriété "UseSubstitutions" sur "true" pour obtenir
+// Définit la propriété "UseSubstitutions" sur "true" pour obtenir
 // l'opération de recherche et de remplacement pour reconnaître les éléments de substitution.
 // Définissez la propriété "UseSubstitutions" sur "false" pour ignorer les éléments de substitution.
 options.UseSubstitutions = useSubstitutions;

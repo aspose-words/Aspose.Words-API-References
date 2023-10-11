@@ -3,7 +3,7 @@ title: PageSetup.PageHeight
 second_title: Référence de l'API Aspose.Words pour .NET
 description: PageSetup propriété. Renvoie ou définit la hauteur de la page en points.
 type: docs
-weight: 300
+weight: 310
 url: /fr/net/aspose.words/pagesetup/pageheight/
 ---
 ## PageSetup.PageHeight property
@@ -22,7 +22,7 @@ Montre comment insérer une image et l'utiliser comme filigrane.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Insérez l'image dans l'en-tête afin qu'elle soit visible sur chaque page.
+// Insère l'image dans l'en-tête afin qu'elle soit visible sur chaque page.
 Image image = Image.FromFile(ImageDir + "Transparent background logo.png");
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 Shape shape = builder.InsertImage(image);
@@ -44,7 +44,7 @@ Montre comment insérer une image et l'utiliser comme filigrane (.NetStandard 2.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Insérez l'image dans l'en-tête afin qu'elle soit visible sur chaque page.
+// Insère l'image dans l'en-tête afin qu'elle soit visible sur chaque page.
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 
 using (SKBitmap image = SKBitmap.Decode(ImageDir + "Transparent background logo.png"))

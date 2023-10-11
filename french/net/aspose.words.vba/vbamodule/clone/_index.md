@@ -16,7 +16,7 @@ public VbaModule Clone()
 
 ### Return_Value
 
-Le VbaModule cloné.
+Le cloné[`VbaModule`](../).
 
 ### Exemples
 

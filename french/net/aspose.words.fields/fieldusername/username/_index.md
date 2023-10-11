@@ -28,8 +28,8 @@ doc.FieldOptions.CurrentUser = userInformation;
 
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Crée un champ USERNAME pour afficher le nom de l'utilisateur courant,
-// tiré de l'objet UserInformation que nous avons créé ci-dessus.
+// Crée un champ USERNAME pour afficher le nom de l'utilisateur actuel,
+// extrait de l'objet UserInformation que nous avons créé ci-dessus.
 FieldUserName fieldUserName = (FieldUserName)builder.InsertField(FieldType.FieldUserName, true);
 Assert.AreEqual(userInformation.Name, fieldUserName.Result);
 

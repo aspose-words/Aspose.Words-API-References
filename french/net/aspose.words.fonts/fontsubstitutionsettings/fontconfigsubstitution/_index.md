@@ -1,14 +1,14 @@
 ---
 title: FontSubstitutionSettings.FontConfigSubstitution
 second_title: Référence de l'API Aspose.Words pour .NET
-description: FontSubstitutionSettings propriété. Paramètres liés à la règle de substitution de la configuration des polices.
+description: FontSubstitutionSettings propriété. Paramètres liés à la règle de substitution de configuration de police.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.fonts/fontsubstitutionsettings/fontconfigsubstitution/
 ---
 ## FontSubstitutionSettings.FontConfigSubstitution property
 
-Paramètres liés à la règle de substitution de la configuration des polices.
+Paramètres liés à la règle de substitution de configuration de police.
 
 ```csharp
 public FontConfigSubstitutionRule FontConfigSubstitution { get; }
@@ -16,7 +16,7 @@ public FontConfigSubstitutionRule FontConfigSubstitution { get; }
 
 ### Exemples
 
-Affiche la substitution de la configuration des polices en fonction du système d'exploitation.
+Affiche la substitution de configuration de police dépendante du système d'exploitation.
 
 ```csharp
 FontSettings fontSettings = new FontSettings();
@@ -26,7 +26,7 @@ FontConfigSubstitutionRule fontConfigSubstitution =
 bool isWindows = new[] {PlatformID.Win32NT, PlatformID.Win32S, PlatformID.Win32Windows, PlatformID.WinCE}
     .Any(p => Environment.OSVersion.Platform == p);
 
-// L'objet FontConfigSubstitutionRule fonctionne différemment sur les plates-formes Windows/non Windows.
+// L'objet FontConfigSubstitutionRule fonctionne différemment sur les plateformes Windows/non Windows.
 // Sous Windows, il n'est pas disponible.
 if (isWindows)
 {

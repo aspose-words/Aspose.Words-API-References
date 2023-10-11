@@ -1,14 +1,14 @@
 ---
 title: ImageSize.HeightPoints
 second_title: Référence de l'API Aspose.Words pour .NET
-description: ImageSize propriété. Obtient la hauteur de limage en points. 1 point correspond à 1/72 de pouce.
+description: ImageSize propriété. Obtient la hauteur de limage en points. 1 point équivaut à 1/72 de pouce.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.drawing/imagesize/heightpoints/
 ---
 ## ImageSize.HeightPoints property
 
-Obtient la hauteur de l'image en points. 1 point correspond à 1/72 de pouce.
+Obtient la hauteur de l'image en points. 1 point équivaut à 1/72 de pouce.
 
 ```csharp
 public double HeightPoints { get; }
@@ -31,8 +31,8 @@ Montre comment redimensionner une forme avec une image.
             Assert.AreEqual(400, image.Height);
 #endif
 
-            // Lorsque nous insérons une image à l'aide de la méthode "InsertImage", le constructeur redimensionne la forme qui affiche l'image de sorte que,
-            // lorsque nous visualisons le document en utilisant un zoom de 100 % dans Microsoft Word, la forme affiche l'image dans sa taille réelle.
+            // Lorsque nous insérons une image à l'aide de la méthode "InsertImage", le générateur met à l'échelle la forme qui affiche l'image de sorte que,
+            // lorsque nous visualisons le document en utilisant un zoom à 100 % dans Microsoft Word, la forme affiche l'image dans sa taille réelle.
             Document doc = new Document();
             DocumentBuilder builder = new DocumentBuilder(doc);
             Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
@@ -43,7 +43,7 @@ Montre comment redimensionner une forme avec une image.
             Assert.AreEqual(300.0d, imageSize.WidthPoints);
             Assert.AreEqual(300.0d, imageSize.HeightPoints);
 
-            // Si les dimensions d'une forme correspondent aux dimensions des données de l'image,
+            // Si les dimensions d'une forme correspondent aux dimensions des données d'image,
             // alors la forme affiche l'image dans sa taille d'origine.
             Assert.AreEqual(300.0d, shape.Width);
             Assert.AreEqual(300.0d, shape.Height);

@@ -1,14 +1,14 @@
 ---
 title: Enum TabLeader
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.TabLeader énumération. Spécifie le type de la ligne de repère affichée sous le caractère de tabulation.
+description: Aspose.Words.TabLeader énumération. Spécifie le type de ligne de repère affichée sous le caractère de tabulation.
 type: docs
-weight: 5890
+weight: 6190
 url: /fr/net/aspose.words/tableader/
 ---
 ## TabLeader enumeration
 
-Spécifie le type de la ligne de repère affichée sous le caractère de tabulation.
+Spécifie le type de ligne de repère affichée sous le caractère de tabulation.
 
 ```csharp
 public enum TabLeader

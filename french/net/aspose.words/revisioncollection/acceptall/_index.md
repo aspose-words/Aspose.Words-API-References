@@ -31,14 +31,15 @@ builder.Writeln("This is the edited document.");
 if (docOriginal.Revisions.Count == 0 && docEdited.Revisions.Count == 0)
     docOriginal.Compare(docEdited, "authorName", DateTime.Now);
 
-// Après la comparaison, le document d'origine recevra une nouvelle révision
+// Après la comparaison, le document original recevra une nouvelle révision
 // pour chaque élément différent dans le document édité.
+foreach (Revision r in docOriginal.Revisions)
 {
     Console.WriteLine($"Revision type: {r.RevisionType}, on a node of type \"{r.ParentNode.NodeType}\"");
     Console.WriteLine($"\tChanged text: \"{r.ParentNode.GetText()}\"");
 }
 
-// L'acceptation de ces révisions transformera le document d'origine en document modifié.
+// Accepter ces révisions transformera le document original en document édité.
 docOriginal.Revisions.AcceptAll();
 
 Assert.AreEqual(docOriginal.GetText(), docEdited.GetText());

@@ -19,11 +19,12 @@ public void NodeInserting(NodeChangingArgs args)
 Montre comment personnaliser le changement de nœud avec un rappel.
 
 ```csharp
+public void FontChangeViaCallback()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Définissez le rappel de changement de nœud sur une implémentation personnalisée,
+    // Définit le rappel de changement de nœud sur une implémentation personnalisée,
     // puis ajoutez/supprimez des nœuds pour qu'il génère un journal.
     HandleNodeChangingFontChanger callback = new HandleNodeChangingFontChanger();
     doc.NodeChangingCallback = callback;
@@ -36,10 +37,11 @@ Montre comment personnaliser le changement de nœud avec un rappel.
     doc.Range.Fields[0].Remove();
 
     Console.WriteLine(callback.GetLog());
+}
 
 /// <summary>
 /// Enregistre la date et l'heure de chaque insertion et suppression de nœud.
-/// Définit un nom/une taille de police personnalisée pour le contenu textuel des nœuds Run.
+/// Définit un nom/une taille de police personnalisée pour le contenu du texte des nœuds Run.
 /// </summary>
 public class HandleNodeChangingFontChanger : INodeChangingCallback
 {

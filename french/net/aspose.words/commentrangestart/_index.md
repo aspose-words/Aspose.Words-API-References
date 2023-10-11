@@ -1,14 +1,16 @@
 ---
 title: Class CommentRangeStart
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.CommentRangeStart classe. Indique le début dune zone de texte à laquelle un commentaire est associé.
+description: Aspose.Words.CommentRangeStart classe. Désigne le début dune zone de texte à laquelle est associé un commentaire.
 type: docs
-weight: 250
+weight: 260
 url: /fr/net/aspose.words/commentrangestart/
 ---
 ## CommentRangeStart class
 
-Indique le début d'une zone de texte à laquelle un commentaire est associé.
+Désigne le début d'une zone de texte à laquelle est associé un commentaire.
+
+Pour en savoir plus, visitez le[Travailler avec des commentaires](https://docs.aspose.com/words/net/working-with-comments/) article documentaire.
 
 ```csharp
 public sealed class CommentRangeStart : Node
@@ -25,33 +27,33 @@ public sealed class CommentRangeStart : Node
 | Nom | La description |
 | --- | --- |
 | [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Spécifie l'identifiant de nœud personnalisé. |
-| virtual [Document](../../aspose.words/node/document/) { get; } | Obtient le document auquel ce nœud appartient. |
-| [Id](../../aspose.words/commentrangestart/id/) { get; set; } | Spécifie l'identifiant du commentaire auquel cette région est liée. |
-| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Renvoie true si ce nœud peut contenir d'autres nœuds. |
+| virtual [Document](../../aspose.words/node/document/) { get; } | Obtient le document auquel appartient ce nœud. |
+| [Id](../../aspose.words/commentrangestart/id/) { get; set; } | Précise l'identifiant du commentaire auquel cette région est liée. |
+| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Retours`vrai` si ce nœud peut contenir d'autres nœuds. |
 | [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Obtient le nœud suivant immédiatement ce nœud. |
 | override [NodeType](../../aspose.words/commentrangestart/nodetype/) { get; } | RetoursCommentRangeStart . |
 | [ParentNode](../../aspose.words/node/parentnode/) { get; } | Obtient le parent immédiat de ce nœud. |
 | [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Obtient le nœud précédant immédiatement ce nœud. |
-| [Range](../../aspose.words/node/range/) { get; } | Renvoie un **Intervalle** objet qui représente la partie d'un document contenue dans ce nœud. |
+| [Range](../../aspose.words/node/range/) { get; } | Renvoie un[`Range`](../range/) objet qui représente la partie d'un document contenue dans ce nœud. |
 
 ## Méthodes
 
 | Nom | La description |
 | --- | --- |
 | override [Accept](../../aspose.words/commentrangestart/accept/)(DocumentVisitor) | Accepte un visiteur. |
-| [Clone](../../aspose.words/node/clone/)(bool) | Crée un doublon du nœud. |
+| [Clone](../../aspose.words/node/clone/)(bool) | Crée un duplicata du nœud. |
 | [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Obtient le premier ancêtre du spécifié[`NodeType`](../nodetype/) . |
 | [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Obtient le premier ancêtre du type d'objet spécifié. |
-| virtual [GetText](../../aspose.words/node/gettext/)() | Obtient le texte de ce nœud et de tous ses enfants. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Obtient le nœud suivant selon l'algorithme de traversée de l'arbre de pré-ordre. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Obtient le nœud précédent selon l'algorithme de parcours de l'arbre de pré-ordre. |
+| virtual [GetText](../../aspose.words/node/gettext/)() | Récupère le texte de ce nœud et de tous ses enfants. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Obtient le nœud suivant selon l'algorithme de traversée de l'arbre de pré-commande. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Obtient le nœud précédent selon l'algorithme de traversée d'arbre de pré-commande. |
 | [Remove](../../aspose.words/node/remove/)() | Se supprime du parent. |
 | [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Exporte le contenu du nœud dans une chaîne au format spécifié. |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Exporte le contenu du nœud dans une chaîne à l'aide des options d'enregistrement spécifiées. |
+| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Exporte le contenu du nœud dans une chaîne à l'aide des options de sauvegarde spécifiées. |
 
 ### Remarques
 
-Pour créer un commentaire ancré à une zone de texte, vous devez créer un[`Comment`](../comment/) and puis créer`CommentRangeStart` et[`CommentRangeEnd`](../commentrangeend/)et définissez leurs identifiants sur le même[`Id`](../comment/id/) évaluer.
+Pour créer un commentaire ancré à une zone de texte, vous devez créer un[`Comment`](../comment/) and puis créez`CommentRangeStart` et[`CommentRangeEnd`](../commentrangeend/)et définissez leurs identifiants sur le même[`Id`](../comment/id/) valeur.
 
 `CommentRangeStart` est un nœud de niveau en ligne et ne peut être qu'un enfant de[`Paragraph`](../paragraph/).
 
@@ -88,13 +90,13 @@ public void CreateCommentsAndPrintAllInfo()
 }
 
 /// <summary>
-/// Itère sur chaque commentaire de niveau supérieur et imprime sa plage de commentaires, son contenu et ses réponses.
+/// Parcourt chaque commentaire de niveau supérieur et imprime sa plage de commentaires, son contenu et ses réponses.
 /// </summary>
 private static void PrintAllCommentInfo(NodeCollection comments)
 {
     CommentInfoPrinter commentVisitor = new CommentInfoPrinter();
 
-    // Itération sur tous les commentaires de niveau supérieur. Contrairement aux commentaires de type réponse, les commentaires de niveau supérieur n'ont pas d'ancêtre.
+    // Parcourez tous les commentaires de niveau supérieur. Contrairement aux commentaires de type réponse, les commentaires de niveau supérieur n'ont pas d'ancêtre.
     foreach (Comment comment in comments.Where(c => ((Comment)c).Ancestor == null))
     {
         // Tout d'abord, visitez le début de la plage de commentaires.
@@ -127,7 +129,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Obtient le texte brut du document qui a été accumulé par le visiteur.
+    /// Obtient le texte brut du document accumulé par le visiteur.
     /// </summary>
     public string GetText()
     {
@@ -135,7 +137,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Appelé lorsqu'un noeud Run est rencontré dans le document.
+    /// Appelé lorsqu'un nœud Run est rencontré dans le document.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -196,7 +198,7 @@ public class CommentInfoPrinter : DocumentVisitor
     /// <summary>
     /// Ajoutez une ligne au StringBuilder et indentez-la en fonction de la profondeur du visiteur dans l'arborescence du document.
     /// </summary>
-    /// <nom du paramètre="texte"></param>
+    /// <param name="text"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++)

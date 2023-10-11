@@ -1,14 +1,14 @@
 ---
 title: Style.ListFormat
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Style propriété. Fournit laccès aux propriétés de formatage de liste dun style de paragraphe.
+description: Style propriété. Permet daccéder aux propriétés de formatage de liste dun style de paragraphe.
 type: docs
-weight: 100
+weight: 110
 url: /fr/net/aspose.words/style/listformat/
 ---
 ## Style.ListFormat property
 
-Fournit l'accès aux propriétés de formatage de liste d'un style de paragraphe.
+Permet d'accéder aux propriétés de formatage de liste d'un style de paragraphe.
 
 ```csharp
 public ListFormat ListFormat { get; }
@@ -16,7 +16,7 @@ public ListFormat ListFormat { get; }
 
 ### Remarques
 
-Cette propriété n'est valide que pour les styles de paragraphe. Pour les autres types de style, cette propriété renvoie null.
+Cette propriété n'est valide que pour les styles de paragraphe. Pour les autres types de style, cette propriété renvoie`nul`.
 
 ### Exemples
 
@@ -36,11 +36,11 @@ style.ParagraphFormat.SpaceAfter = 12;
 style.ListFormat.List = doc.Lists.Add(ListTemplate.BulletDefault);
 style.ListFormat.ListLevelNumber = 0;
 
-// Appliquez le style de paragraphe au paragraphe actuel du générateur de document, puis ajoutez du texte.
+// Applique le style de paragraphe au paragraphe actuel du générateur de documents, puis ajoute du texte.
 builder.ParagraphFormat.Style = style;
 builder.Writeln("Hello World: MyStyle1, bulleted list.");
 
-// Modifiez le style du générateur de document en un style qui n'a pas de formatage de liste et écrivez un autre paragraphe.
+// Changez le style du générateur de documents en un style sans formatage de liste et écrivez un autre paragraphe.
 builder.ParagraphFormat.Style = doc.Styles["Normal"];
 builder.Writeln("Hello World: Normal.");
 

@@ -16,7 +16,7 @@ public string DefaultFontName { get; set; }
 
 ### Remarques
 
-La valeur par défaut est 'Times New Roman'.
+La valeur par défaut est « Times New Roman ».
 
 ### Exemples
 
@@ -34,11 +34,11 @@ DefaultFontSubstitutionRule defaultFontSubstitutionRule =
 Assert.True(defaultFontSubstitutionRule.Enabled);
 Assert.AreEqual("Times New Roman", defaultFontSubstitutionRule.DefaultFontName);
 
-// Définit le substitut de police par défaut sur "Courier New".
+// Définissez le substitut de police par défaut sur "Courier New".
 defaultFontSubstitutionRule.DefaultFontName = "Courier New";
 
-// A l'aide d'un constructeur de document, ajoutez du texte dans une police dont nous n'avons pas besoin pour voir la substitution se produire,
-// puis affichez le résultat dans un PDF.
+// A l'aide d'un générateur de documents, on ajoute du texte dans une police dont on n'est pas obligé pour voir la substitution s'effectuer,
+// puis affiche le résultat dans un PDF.
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Font.Name = "Missing Font";
@@ -66,12 +66,12 @@ Assert.True(fontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arial
 Assert.False(fontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arvo"));
 
 // Définissez la propriété "DefaultFontName" sur "Courier New" pour,
- // lors du rendu du document, appliquez cette police dans tous les cas où une autre police n'est pas disponible.
+ // lors du rendu du document, applique cette police dans tous les cas où une autre police n'est pas disponible.
 FontSettings.DefaultInstance.SubstitutionSettings.DefaultFontSubstitution.DefaultFontName = "Courier New";
 
 Assert.True(fontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Courier New"));
 
-// Aspose.Words utilisera désormais la police par défaut à la place des polices manquantes lors des appels de rendu.
+// Aspose.Words utilisera désormais la police par défaut à la place de toutes les polices manquantes lors de tout appel de rendu.
 doc.Save(ArtifactsDir + "FontSettings.DefaultFontName.pdf");
 ```
 

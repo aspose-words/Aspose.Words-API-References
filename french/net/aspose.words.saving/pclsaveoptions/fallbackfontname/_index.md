@@ -1,14 +1,14 @@
 ---
 title: PclSaveOptions.FallbackFontName
 second_title: Référence de l'API Aspose.Words pour .NET
-description: PclSaveOptions propriété. Nom de la police qui sera utilisée si aucune police attendue nest trouvée dans limprimante et les collections de polices intégrées.
+description: PclSaveOptions propriété. Nom de la police qui sera utilisée si aucune police attendue nest trouvée dans les collections de polices dimprimante et intégrées.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.saving/pclsaveoptions/fallbackfontname/
 ---
 ## PclSaveOptions.FallbackFontName property
 
-Nom de la police qui sera utilisée si aucune police attendue n'est trouvée dans l'imprimante et les collections de polices intégrées.
+Nom de la police qui sera utilisée si aucune police attendue n'est trouvée dans les collections de polices d'imprimante et intégrées.
 
 ```csharp
 public string FallbackFontName { get; set; }
@@ -20,7 +20,7 @@ Si aucune solution de secours n'est trouvée, un avertissement est généré et 
 
 ### Exemples
 
-Montre comment déclarer une police qu'une imprimante appliquera au texte imprimé comme substitut si sa police d'origine n'est pas disponible.
+Montre comment déclarer une police qu'une imprimante appliquera au texte imprimé en remplacement si sa police d'origine n'est pas disponible.
 
 ```csharp
 Document doc = new Document();
@@ -32,8 +32,8 @@ builder.Write("Hello world!");
 PclSaveOptions saveOptions = new PclSaveOptions();
 saveOptions.FallbackFontName = "Times New Roman";
 
-// Ce document demandera à l'imprimante d'appliquer "Times New Roman" au texte avec la police manquante.
-// Si "Times New Roman" est également indisponible, l'imprimante utilisera par défaut la police "Arial".
+// Ce document demandera à l'imprimeur d'appliquer "Times New Roman" au texte avec la police manquante.
+// Si "Times New Roman" n'est également pas disponible, l'imprimante utilisera par défaut la police "Arial".
 doc.Save(ArtifactsDir + "PclSaveOptions.SetPrinterFont.pcl", saveOptions);
 ```
 

@@ -1,14 +1,14 @@
 ---
 title: Odso.TableName
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Odso propriété. Spécifie lensemble de données particulier auquel une source doit être connectée au sein dune source de données externe. La valeur par défaut est une chaîne vide.
+description: Odso propriété. Spécifie lensemble particulier de données auquel une source doit être connectée au sein dune source de données externe. La valeur par défaut est une chaîne vide.
 type: docs
 weight: 80
 url: /fr/net/aspose.words.settings/odso/tablename/
 ---
 ## Odso.TableName property
 
-Spécifie l'ensemble de données particulier auquel une source doit être connectée au sein d'une source de données externe. La valeur par défaut est une chaîne vide.
+Spécifie l'ensemble particulier de données auquel une source doit être connectée au sein d'une source de données externe. La valeur par défaut est une chaîne vide.
 
 ```csharp
 public string TableName { get; set; }

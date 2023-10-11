@@ -1,14 +1,14 @@
 ---
 title: ChartDataLabel.ShowLeaderLines
 second_title: Référence de l'API Aspose.Words pour .NET
-description: ChartDataLabel propriété. Permet de spécifier si les lignes de repère des étiquettes de données doivent être affichées. La valeur par défaut est false.
+description: ChartDataLabel propriété. Permet de spécifier si les lignes de repère des étiquettes de données doivent être affichées. La valeur par défaut estFAUX .
 type: docs
-weight: 90
+weight: 110
 url: /fr/net/aspose.words.drawing.charts/chartdatalabel/showleaderlines/
 ---
 ## ChartDataLabel.ShowLeaderLines property
 
-Permet de spécifier si les lignes de repère des étiquettes de données doivent être affichées. La valeur par défaut est false.
+Permet de spécifier si les lignes de repère des étiquettes de données doivent être affichées. La valeur par défaut est`FAUX` .
 
 ```csharp
 public bool ShowLeaderLines { get; set; }
@@ -16,13 +16,14 @@ public bool ShowLeaderLines { get; set; }
 
 ### Remarques
 
-S'applique uniquement aux graphiques à secteurs. Les lignes de repère créent une connexion visuelle entre une étiquette de données et son point de données correspondant.
+S'applique uniquement aux diagrammes circulaires. Les lignes de repère créent une connexion visuelle entre une étiquette de données et son point de données correspondant.
 
 ### Exemples
 
-Montre comment appliquer des étiquettes aux points de données dans un graphique en courbes.
+Montre comment appliquer des étiquettes aux points de données dans un graphique linéaire.
 
 ```csharp
+public void DataLabels()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -35,7 +36,7 @@ Montre comment appliquer des étiquettes aux points de données dans un graphiqu
     Assert.AreEqual("Series 2", chart.Series[1].Name);
     Assert.AreEqual("Series 3", chart.Series[2].Name);
 
-    // Appliquez des étiquettes de données à chaque série du graphique.
+    // Applique des étiquettes de données à chaque série du graphique.
     // Ces étiquettes apparaîtront à côté de chaque point de données dans le graphique et afficheront sa valeur.
     foreach (ChartSeries series in chart.Series)
     {
@@ -63,7 +64,7 @@ Montre comment appliquer des étiquettes aux points de données dans un graphiqu
 }
 
 /// <summary>
-/// Appliquez des étiquettes de données avec un format de nombre et un séparateur personnalisés à plusieurs points de données d'une série.
+/// Appliquez des étiquettes de données avec un format numérique personnalisé et un séparateur à plusieurs points de données d'une série.
 /// </summary>
 private static void ApplyDataLabels(ChartSeries series, int labelsCount, string numberFormat, string separator)
 {

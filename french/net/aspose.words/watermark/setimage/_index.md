@@ -16,13 +16,13 @@ public void SetImage(Image image)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| image | Image | Image affichée en filigrane. |
+| image | Image | Image affichée sous forme de filigrane. |
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| ArgumentNullException | Lance lorsque l'image est nulle. |
+| ArgumentNullException | Lance lorsque l'image est`nul` . |
 
 ### Voir également
 
@@ -42,28 +42,28 @@ public void SetImage(Image image, ImageWatermarkOptions options)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| image | Image | Image affichée en filigrane. |
-| options | ImageWatermarkOptions | Définit des options supplémentaires pour le filigrane d'image. |
+| image | Image | Image affichée sous forme de filigrane. |
+| options | ImageWatermarkOptions | Définit des options supplémentaires pour le filigrane de l'image. |
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| ArgumentNullException | Lance lorsque l'image est nulle. |
+| ArgumentNullException | Lance lorsque l'image est`nul` . |
 
 ### Remarques
 
-Si[`ImageWatermarkOptions`](../../imagewatermarkoptions/) est nul, le filigrane sera défini avec les options par défaut.
+Si[`ImageWatermarkOptions`](../../imagewatermarkoptions/) est`nul`, le filigrane sera défini avec les options par défaut.
 
 ### Exemples
 
-Montre comment créer un filigrane à partir d'une image dans le système de fichiers local.
+Montre comment créer un filigrane à partir d’une image dans le système de fichiers local.
 
 ```csharp
 Document doc = new Document();
 
             // Modifier l'apparence du filigrane de l'image avec un objet ImageWatermarkOptions,
-            // puis passez-le lors de la création d'un filigrane à partir d'un fichier image.
+            // puis transmettez-le en créant un filigrane à partir d'un fichier image.
             ImageWatermarkOptions imageWatermarkOptions = new ImageWatermarkOptions();
             imageWatermarkOptions.Scale = 5;
             imageWatermarkOptions.IsWashout = false;
@@ -99,18 +99,18 @@ public void SetImage(string imagePath, ImageWatermarkOptions options)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| imagePath | String | Chemin d'accès au fichier image affiché en filigrane. |
-| options | ImageWatermarkOptions | Définit des options supplémentaires pour le filigrane d'image. |
+| imagePath | String | Chemin d'accès au fichier image affiché sous forme de filigrane. |
+| options | ImageWatermarkOptions | Définit des options supplémentaires pour le filigrane de l'image. |
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| ArgumentNullException | Lance lorsque le chemin est nul. |
+| ArgumentNullException | Lance lorsque le chemin est`nul` . |
 
 ### Remarques
 
-Si[`ImageWatermarkOptions`](../../imagewatermarkoptions/) est nul, le filigrane sera défini avec les options par défaut.
+Si[`ImageWatermarkOptions`](../../imagewatermarkoptions/) est`nul`, le filigrane sera défini avec les options par défaut.
 
 ### Voir également
 

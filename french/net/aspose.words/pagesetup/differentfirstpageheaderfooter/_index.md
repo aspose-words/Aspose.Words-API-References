@@ -1,14 +1,14 @@
 ---
 title: PageSetup.DifferentFirstPageHeaderFooter
 second_title: Référence de l'API Aspose.Words pour .NET
-description: PageSetup propriété. Vrai si un entête ou un pied de page différent est utilisé sur la première page.
+description: PageSetup propriété. True si un entête ou un pied de page différent est utilisé sur la première page.
 type: docs
 weight: 110
 url: /fr/net/aspose.words/pagesetup/differentfirstpageheaderfooter/
 ---
 ## PageSetup.DifferentFirstPageHeaderFooter property
 
-**Vrai** si un en-tête ou un pied de page différent est utilisé sur la première page.
+True si un en-tête ou un pied de page différent est utilisé sur la première page.
 
 ```csharp
 public bool DifferentFirstPageHeaderFooter { get; set; }
@@ -22,11 +22,11 @@ Montre comment créer des en-têtes et des pieds de page dans un document à l'a
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Spécifiez que nous voulons des en-têtes et des pieds de page différents pour les premières pages, paires et impaires.
+// Spécifie que nous voulons des en-têtes et pieds de page différents pour les premières pages, paires et impaires.
 builder.PageSetup.DifferentFirstPageHeaderFooter = true;
 builder.PageSetup.OddAndEvenPagesHeaderFooter = true;
 
-// Crée les en-têtes, puis ajoute trois pages au document pour afficher chaque type d'en-tête.
+// Créez les en-têtes, puis ajoutez trois pages au document pour afficher chaque type d'en-tête.
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderFirst);
 builder.Write("Header for the first page");
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderEven);
@@ -59,7 +59,7 @@ builder.MoveToHeaderFooter(HeaderFooterType.FooterFirst);
 builder.Writeln("First page footer.");
 
 // 2 - L'en-tête/pied de page "Primaire", qui apparaît sur chaque page de la section.
-// Nous pouvons remplacer l'en-tête/pied de page principal par un premier et un en-tête/pied de page pair.
+ // Nous pouvons remplacer l'en-tête/pied de page principal par un premier en-tête/pied de page pair.
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 builder.Writeln("Primary header.");
 
@@ -73,17 +73,17 @@ builder.Writeln("Page 2.");
 builder.InsertBreak(BreakType.PageBreak);
 builder.Writeln("Page 3.");
 
-// Chaque section a un objet "PageSetup" qui spécifie les propriétés liées à l'apparence de la page
-// tels que l'orientation, la taille et les bordures.
+// Chaque section possède un objet "PageSetup" qui spécifie les propriétés liées à l'apparence de la page
+// comme l'orientation, la taille et les bordures.
 // Définissez la propriété "DifferentFirstPageHeaderFooter" sur "true" pour appliquer le premier en-tête/pied de page à la première page.
-// Définissez la propriété "DifferentFirstPageHeaderFooter" sur "false"
-// pour que la première page affiche l'en-tête/le pied de page principal.
+// Définit la propriété "DifferentFirstPageHeaderFooter" sur "false"
+// pour que la première page affiche l'en-tête/pied de page principal.
 builder.PageSetup.DifferentFirstPageHeaderFooter = differentFirstPageHeaderFooter;
 
 doc.Save(ArtifactsDir + "PageSetup.DifferentFirstPageHeaderFooter.docx");
 ```
 
-Montre comment suivre l'ordre dans lequel une opération de remplacement de texte traverse les nœuds.
+Montre comment suivre l’ordre dans lequel une opération de remplacement de texte traverse les nœuds.
 
 ```csharp
 public void Order(bool differentFirstPageHeaderFooter)
@@ -115,9 +115,9 @@ public void Order(bool differentFirstPageHeaderFooter)
         }
 
         /// <summary>
-        /// Au cours d'une opération de recherche et de remplacement, enregistre le contenu de chaque nœud contenant du texte que l'opération "trouve",
+        /// Lors d'une opération de recherche et de remplacement, enregistre le contenu de chaque nœud contenant du texte que l'opération « trouve »,
         /// dans l'état dans lequel il se trouve avant le remplacement.
-        /// Cela affichera l'ordre dans lequel l'opération de remplacement de texte traverse les nœuds.
+        /// Ceci affichera l'ordre dans lequel l'opération de remplacement de texte traverse les nœuds.
         /// </summary>
         private class ReplaceLog : IReplacingCallback
         {

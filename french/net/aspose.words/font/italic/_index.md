@@ -1,14 +1,14 @@
 ---
 title: Font.Italic
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Font propriété. Vrai si la police est formatée en italique.
+description: Font propriété. True si la police est au format italique.
 type: docs
 weight: 160
 url: /fr/net/aspose.words/font/italic/
 ---
 ## Font.Italic property
 
-Vrai si la police est formatée en italique.
+True si la police est au format italique.
 
 ```csharp
 public bool Italic { get; set; }
@@ -16,7 +16,7 @@ public bool Italic { get; set; }
 
 ### Exemples
 
-Montre comment écrire du texte en italique à l'aide d'un générateur de document.
+Montre comment écrire du texte en italique à l’aide d’un générateur de documents.
 
 ```csharp
 Document doc = new Document();

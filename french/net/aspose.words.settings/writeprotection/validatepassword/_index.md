@@ -1,14 +1,14 @@
 ---
 title: WriteProtection.ValidatePassword
 second_title: Référence de l'API Aspose.Words pour .NET
-description: WriteProtection méthode. Renvoie vrai si le mot de passe spécifié est le même que le mot de passe de protection en écriture avec lequel le document était protégé. Si le document nest pas protégé en écriture par mot de passe renvoie faux.
+description: WriteProtection méthode. Retoursvrai si le mot de passe spécifié est le même que le mot de passe de protection en écriture avec lequel le document a été protégé. Si le document nest pas protégé en écriture avec un mot de passe renvoieFAUX .
 type: docs
 weight: 40
 url: /fr/net/aspose.words.settings/writeprotection/validatepassword/
 ---
 ## WriteProtection.ValidatePassword method
 
-Renvoie vrai si le mot de passe spécifié est le même que le mot de passe de protection en écriture avec lequel le document était protégé. Si le document n'est pas protégé en écriture par mot de passe, renvoie faux.
+Retours`vrai` si le mot de passe spécifié est le même que le mot de passe de protection en écriture avec lequel le document a été protégé. Si le document n'est pas protégé en écriture avec un mot de passe, renvoie`FAUX` .
 
 ```csharp
 public bool ValidatePassword(string password)
@@ -22,15 +22,14 @@ Montre comment protéger un document avec un mot de passe.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world! This document is protected.");
-
-// Entrez un mot de passe de 15 caractères maximum, puis vérifiez l'état de protection du document.
+// Saisissez un mot de passe de 15 caractères maximum, puis vérifiez l'état de protection du document.
 doc.WriteProtection.SetPassword("MyPassword");
 doc.WriteProtection.ReadOnlyRecommended = true;
 
 Assert.IsTrue(doc.WriteProtection.IsWriteProtected);
 Assert.IsTrue(doc.WriteProtection.ValidatePassword("MyPassword"));
 
-// La protection n'empêche pas le document d'être modifié par programmation, ni ne crypte le contenu.
+// La protection n'empêche pas la modification du document par programme et ne crypte pas non plus son contenu.
 doc.Save(ArtifactsDir + "Document.WriteProtection.docx");
 doc = new Document(ArtifactsDir + "Document.WriteProtection.docx");
 

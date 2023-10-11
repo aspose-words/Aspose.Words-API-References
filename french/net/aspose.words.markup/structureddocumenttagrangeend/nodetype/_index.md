@@ -1,12 +1,14 @@
 ---
 title: StructuredDocumentTagRangeEnd.NodeType
 second_title: Référence de l'API Aspose.Words pour .NET
-description: StructuredDocumentTagRangeEnd propriété. 
+description: StructuredDocumentTagRangeEnd propriété. RetoursStructuredDocumentTagRangeEnd .
 type: docs
 weight: 30
 url: /fr/net/aspose.words.markup/structureddocumenttagrangeend/nodetype/
 ---
 ## StructuredDocumentTagRangeEnd.NodeType property
+
+RetoursStructuredDocumentTagRangeEnd .
 
 ```csharp
 public override NodeType NodeType { get; }

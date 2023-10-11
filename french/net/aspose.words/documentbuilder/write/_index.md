@@ -3,7 +3,7 @@ title: DocumentBuilder.Write
 second_title: Référence de l'API Aspose.Words pour .NET
 description: DocumentBuilder méthode. Insère une chaîne dans le document à la position dinsertion actuelle.
 type: docs
-weight: 620
+weight: 660
 url: /fr/net/aspose.words/documentbuilder/write/
 ---
 ## DocumentBuilder.Write method
@@ -16,11 +16,11 @@ public void Write(string text)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| text | String | Chaîne à insérer dans le document. |
+| text | String | La chaîne à insérer dans le document. |
 
 ### Remarques
 
-Format de police actuel spécifié par le[`Font`](../font/)propriété est utilisée.
+Formatage de police actuel spécifié par le[`Font`](../font/) la propriété est utilisée.
 
 ### Exemples
 
@@ -39,7 +39,7 @@ builder.Write("Text surrounded by green border.");
 doc.Save(ArtifactsDir + "Border.FontBorder.docx");
 ```
 
-Montre comment utiliser un générateur de document pour créer un tableau.
+Montre comment utiliser un générateur de documents pour créer un tableau.
 
 ```csharp
 Document doc = new Document();
@@ -52,7 +52,7 @@ builder.Write("Row 1, Cell 1.");
 builder.InsertCell();
 builder.Write("Row 1, Cell 2.");
 
-// Appelez la méthode "EndRow" du générateur pour démarrer une nouvelle ligne.
+// Appelez la méthode "EndRow" du constructeur pour démarrer une nouvelle ligne.
 builder.EndRow();
 builder.InsertCell();
 builder.Write("Row 2, Cell 1.");
@@ -93,7 +93,7 @@ builder.Write("Row 2, cell 2.");
 builder.EndRow();
 builder.EndTable();
 
-// Les lignes et les cellules ajoutées précédemment ne sont pas affectées rétroactivement par les modifications apportées à la mise en forme du générateur.
+// Les lignes et cellules précédemment ajoutées ne sont pas affectées rétroactivement par les modifications apportées au formatage du générateur.
 Assert.AreEqual(0, table.Rows[0].RowFormat.Height);
 Assert.AreEqual(HeightRule.Auto, table.Rows[0].RowFormat.HeightRule);
 Assert.AreEqual(100, table.Rows[1].RowFormat.Height);
@@ -112,7 +112,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.StartTable();
 
-// Définition des options de formatage de tableau pour un générateur de document
+// Définition des options de formatage de tableau pour un générateur de documents
 // les appliquera à chaque ligne et cellule que nous ajouterons avec.
 builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
@@ -136,8 +136,8 @@ builder.InsertCell();
 builder.Write("Row 1, Col 2");
 builder.EndRow();
 
-// Changer la mise en forme l'appliquera à la cellule courante,
-// et toutes les nouvelles cellules que nous créons avec le constructeur par la suite.
+// Changer le formatage l'appliquera à la cellule actuelle,
+// et toutes les nouvelles cellules que nous créons ensuite avec le constructeur.
 // Cela n'affectera pas les cellules que nous avons ajoutées précédemment.
 builder.CellFormat.Shading.ClearFormatting();
 
@@ -149,7 +149,7 @@ builder.Write("Row 2, Col 2");
 
 builder.EndRow();
 
-// Augmente la hauteur de ligne pour s'adapter au texte vertical.
+// Augmente la hauteur de la ligne pour l'adapter au texte vertical.
 builder.InsertCell();
 builder.RowFormat.Height = 150;
 builder.CellFormat.Orientation = TextOrientation.Upward;

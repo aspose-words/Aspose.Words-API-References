@@ -1,14 +1,16 @@
 ---
 title: Class FontSubstitutionSettings
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Fonts.FontSubstitutionSettings classe. Spécifie les paramètres du mécanisme de substitution de polices.
+description: Aspose.Words.Fonts.FontSubstitutionSettings classe. Spécifie les paramètres du mécanisme de substitution de police.
 type: docs
-weight: 2830
+weight: 3010
 url: /fr/net/aspose.words.fonts/fontsubstitutionsettings/
 ---
 ## FontSubstitutionSettings class
 
-Spécifie les paramètres du mécanisme de substitution de polices.
+Spécifie les paramètres du mécanisme de substitution de police.
+
+Pour en savoir plus, visitez le[Travailler avec des polices](https://docs.aspose.com/words/net/working-with-fonts/) article documentaire.
 
 ```csharp
 public class FontSubstitutionSettings
@@ -19,24 +21,24 @@ public class FontSubstitutionSettings
 | Nom | La description |
 | --- | --- |
 | [DefaultFontSubstitution](../../aspose.words.fonts/fontsubstitutionsettings/defaultfontsubstitution/) { get; } | Paramètres liés à la règle de substitution de police par défaut. |
-| [FontConfigSubstitution](../../aspose.words.fonts/fontsubstitutionsettings/fontconfigsubstitution/) { get; } | Paramètres liés à la règle de substitution de la configuration des polices. |
+| [FontConfigSubstitution](../../aspose.words.fonts/fontsubstitutionsettings/fontconfigsubstitution/) { get; } | Paramètres liés à la règle de substitution de configuration de police. |
 | [FontInfoSubstitution](../../aspose.words.fonts/fontsubstitutionsettings/fontinfosubstitution/) { get; } | Paramètres liés à la règle de substitution des informations de police. |
 | [FontNameSubstitution](../../aspose.words.fonts/fontsubstitutionsettings/fontnamesubstitution/) { get; } | Paramètres liés à la règle de substitution du nom de police. |
 | [TableSubstitution](../../aspose.words.fonts/fontsubstitutionsettings/tablesubstitution/) { get; } | Paramètres liés à la règle de substitution de table. |
 
 ### Remarques
 
-Le processus de substitution de police consiste en plusieurs règles qui sont vérifiées une par une dans un ordre spécifique. Si la première règle ne peut pas résoudre la police, la deuxième règle est vérifiée et ainsi de suite.
+Le processus de substitution de police se compose de plusieurs règles qui sont vérifiées une par une dans un ordre spécifique. Si la première règle ne peut pas résoudre la police, la deuxième règle est vérifiée et ainsi de suite.
 
-L'ordre des règles est le suivant : 1. Règle de substitution de nom de police (activée par défaut) 2. Règle de substitution de configuration de police (désactivée par défaut) 3. Règle de substitution de table (activée par défaut) 4. Règle de substitution d'informations de police (activé par défaut) 5. Règle de police par défaut (activé par défaut)
+L'ordre des règles est le suivant : 1. Règle de substitution du nom de police (activée par défaut) 2. Règle de substitution de la configuration de la police (désactivée par défaut) 3. Règle de substitution de table (activée par défaut) 4. Règle de substitution des informations de police (activé par défaut) 5. Règle de police par défaut (activée par défaut)
 
-Notez que la règle de substitution des informations de police résoudra toujours la police si[`FontInfo`](../fontinfo/) est available et remplacera la règle de police par défaut. Si vous souhaitez utiliser la règle de police par défaut, vous devez désactiver la règle de substitution des informations de police .
+Notez que la règle de substitution des informations sur la police résoudra toujours la police si[`FontInfo`](../fontinfo/) est disponible et remplacera la règle de police par défaut. Si vous souhaitez utiliser la règle de police par défaut, vous devez désactiver la règle de substitution des informations de police .
 
-Notez que la règle de substitution de la configuration des polices résoudra la police dans la plupart des cas et remplacera donc toutes les autres règles.
+Notez que la règle de substitution de configuration de police résoudra la police dans la plupart des cas et remplacera ainsi toutes les autres règles.
 
 ### Exemples
 
-Montre comment accéder à la source de police système d'un document et définir des substituts de police.
+Montre comment accéder à la source de police système d’un document et définir des substituts de police.
 
 ```csharp
 Document doc = new Document();
@@ -64,7 +66,7 @@ foreach (string systemFontFolder in SystemFontSource.GetSystemFontFolders())
     Console.WriteLine(systemFontFolder);
 }
 
-// Définit une police qui existe dans le répertoire Windows Fonts en remplacement de celle qui n'existe pas.
+// Définit une police qui existe dans le répertoire des polices Windows en remplacement d'une autre qui n'existe pas.
 doc.FontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
 doc.FontSettings.SubstitutionSettings.TableSubstitution.AddSubstitutes("Kreon-Regular", new[] {"Calibri"});
 
@@ -78,7 +80,7 @@ FolderFontSource folderFontSource = new FolderFontSource(FontsDir, false);
 doc.FontSettings.SetFontsSources(new FontSourceBase[] {systemFontSource, folderFontSource});
 Assert.AreEqual(2, doc.FontSettings.GetFontsSources().Length);
 
-// La réinitialisation des sources de police nous laisse toujours avec la source de police système ainsi que nos substituts.
+// La réinitialisation des sources de polices nous laisse toujours la source de police système ainsi que nos substituts.
 doc.FontSettings.ResetFontSources();
 
 Assert.AreEqual(1, doc.FontSettings.GetFontsSources().Length);

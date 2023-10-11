@@ -16,17 +16,17 @@ public bool SupportVml { get; set; }
 
 ### Exemples
 
-Montre comment prendre en charge les commentaires conditionnels lors du chargement d'un document HTML.
+Montre comment prendre en charge les commentaires conditionnels lors du chargement d’un document HTML.
 
 ```csharp
 HtmlLoadOptions loadOptions = new HtmlLoadOptions();
 
-// Si la valeur est true, alors nous prenons en compte le code VML lors de l'analyse du document chargé.
+// Si la valeur est vraie, alors nous prenons en compte le code VML lors de l'analyse du document chargé.
 loadOptions.SupportVml = supportVml;
 
 // Ce document contient une image JPEG dans "<!--[if gte vml 1]>" Mots clés,
 // et une image PNG différente dans "<![if !vml]>" Mots clés.
-// Si nous définissons le drapeau "SupportVml" sur "true", alors Aspose.Words chargera le JPEG.
+// Si nous définissons l'indicateur "SupportVml" sur "true", alors Aspose.Words chargera le JPEG.
 // Si nous définissons cet indicateur sur "false", alors Aspose.Words ne chargera que le PNG.
 Document doc = new Document(MyDir + "VML conditional.htm", loadOptions);
 

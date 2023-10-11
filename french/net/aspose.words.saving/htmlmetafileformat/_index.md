@@ -3,7 +3,7 @@ title: Enum HtmlMetafileFormat
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Aspose.Words.Saving.HtmlMetafileFormat énumération. Indique le format dans lequel les métafichiers sont enregistrés dans les documents HTML.
 type: docs
-weight: 4830
+weight: 5090
 url: /fr/net/aspose.words.saving/htmlmetafileformat/
 ---
 ## HtmlMetafileFormat enumeration
@@ -19,7 +19,7 @@ public enum HtmlMetafileFormat
 | Nom | Évaluer | La description |
 | --- | --- | --- |
 | Png | `0` | Les métafichiers sont rendus en images PNG raster. |
-| Svg | `1` | Les métafichiers sont convertis en images vectorielles SVG. |
+| Svg | `1` | Les métafichiers sont convertis en images SVG vectorielles. |
 | EmfOrWmf | `2` | Les métafichiers sont enregistrés tels quels, sans conversion. |
 
 ### Exemples
@@ -34,10 +34,10 @@ string html =
         </svg>
     </html>";
 
-// Utilisez 'ConvertSvgToEmf' pour rétablir le comportement hérité
+// Utilisez 'ConvertSvgToEmf' pour annuler le comportement hérité
 // où toutes les images SVG chargées à partir d'un document HTML ont été converties en EMF.
-// Maintenant les images SVG sont chargées sans conversion
-// si la version de MS Word spécifiée dans les options de chargement prend en charge les images SVG de manière native.
+// Désormais, les images SVG sont chargées sans conversion
+// si la version MS Word spécifiée dans les options de chargement prend en charge les images SVG de manière native.
 HtmlLoadOptions loadOptions = new HtmlLoadOptions { ConvertSvgToEmf = true };
 
 Document doc = new Document(new MemoryStream(Encoding.UTF8.GetBytes(html)), loadOptions);
@@ -46,7 +46,7 @@ Document doc = new Document(new MemoryStream(Encoding.UTF8.GetBytes(html)), load
 // Lorsque nous enregistrons le document au format HTML, nous pouvons passer un objet SaveOptions
 // pour déterminer comment l'opération de sauvegarde gère cet objet.
 // Définition de la propriété "MetafileFormat" sur "HtmlMetafileFormat.Png" pour la convertir en image PNG.
-// La définition de la propriété "MetafileFormat" sur "HtmlMetafileFormat.Svg" la conserve en tant qu'objet SVG.
+// La définition de la propriété "MetafileFormat" sur "HtmlMetafileFormat.Svg" la préserve en tant qu'objet SVG.
 // Définition de la propriété "MetafileFormat" sur "HtmlMetafileFormat.EmfOrWmf" pour la convertir en métafichier.
 HtmlSaveOptions options = new HtmlSaveOptions { MetafileFormat = htmlMetafileFormat };
 
@@ -66,7 +66,7 @@ switch (htmlMetafileFormat)
     case HtmlMetafileFormat.Svg:
         Assert.True(outDocContents.Contains(
             "<span style=\"-aw-left-pos:0pt; -aw-rel-hpos:column; -aw-rel-vpos:paragraph; -aw-top-pos:0pt; -aw-wrap-type:inline\">" +
-            "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"1.1\" width=\"499\" height= \"40\">") );
+            "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"1.1\" width=\"499\" height= \"40\">"));
         break;
     case HtmlMetafileFormat.EmfOrWmf:
         Assert.True(outDocContents.Contains(

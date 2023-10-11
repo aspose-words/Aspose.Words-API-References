@@ -24,9 +24,9 @@ L'indice est de base zéro.
 
 Les index négatifs sont autorisés et indiquent un accès depuis l'arrière de la collection. Par exemple -1 signifie le dernier élément, -2 signifie l'avant-dernier et ainsi de suite.
 
-Si index est supérieur ou égal au nombre d'éléments de la liste, cela renvoie une référence nulle.
+Si l'index est supérieur ou égal au nombre d'éléments de la liste, cela renvoie une référence nulle.
 
-Si index est négatif et que sa valeur absolue est supérieure au nombre d'éléments de la liste, cela renvoie une référence nulle.
+Si l'index est négatif et que sa valeur absolue est supérieure au nombre d'éléments de la liste, cela renvoie une référence nulle.
 
 ### Exemples
 
@@ -38,10 +38,9 @@ public void CreateUpdateAndPrintBookmarks()
     // Créez un document avec trois signets, puis utilisez une implémentation de visiteur de document personnalisée pour imprimer leur contenu.
     Document doc = CreateDocumentWithBookmarks(3);
     BookmarkCollection bookmarks = doc.Range.Bookmarks;
-
     PrintAllBookmarkInfo(bookmarks);
 
-    // Les signets sont accessibles dans la collection de signets par index ou nom, et leurs noms peuvent être mis à jour.
+    // Les signets sont accessibles dans la collection de signets par index ou par nom, et leurs noms peuvent être mis à jour.
     bookmarks[0].Name = $"{bookmarks[0].Name}_NewName";
     bookmarks["MyBookmark_2"].Text = $"Updated text contents of {bookmarks[1].Name}";
 
@@ -78,7 +77,7 @@ private static void PrintAllBookmarkInfo(BookmarkCollection bookmarks)
 {
     BookmarkInfoPrinter bookmarkVisitor = new BookmarkInfoPrinter();
 
-    // Obtient chaque signet de la collection pour accepter un visiteur qui imprimera son contenu.
+    // Demande à chaque signet de la collection d'accepter un visiteur qui imprimera son contenu.
     using (IEnumerator<Bookmark> enumerator = bookmarks.GetEnumerator())
     {
         while (enumerator.MoveNext())
@@ -134,11 +133,11 @@ public Bookmark this[string bookmarkName] { get; }
 
 | Paramètre | La description |
 | --- | --- |
-| bookmarkName | Nom du signet insensible à la casse. |
+| bookmarkName | Nom du signet qui ne respecte pas la casse. |
 
 ### Remarques
 
-Renvoie null si le signet portant le nom spécifié est introuvable.
+Retour`nul`si le signet portant le nom spécifié est introuvable.
 
 ### Exemples
 
@@ -150,10 +149,9 @@ public void CreateUpdateAndPrintBookmarks()
     // Créez un document avec trois signets, puis utilisez une implémentation de visiteur de document personnalisée pour imprimer leur contenu.
     Document doc = CreateDocumentWithBookmarks(3);
     BookmarkCollection bookmarks = doc.Range.Bookmarks;
-
     PrintAllBookmarkInfo(bookmarks);
 
-    // Les signets sont accessibles dans la collection de signets par index ou nom, et leurs noms peuvent être mis à jour.
+    // Les signets sont accessibles dans la collection de signets par index ou par nom, et leurs noms peuvent être mis à jour.
     bookmarks[0].Name = $"{bookmarks[0].Name}_NewName";
     bookmarks["MyBookmark_2"].Text = $"Updated text contents of {bookmarks[1].Name}";
 
@@ -190,7 +188,7 @@ private static void PrintAllBookmarkInfo(BookmarkCollection bookmarks)
 {
     BookmarkInfoPrinter bookmarkVisitor = new BookmarkInfoPrinter();
 
-    // Obtient chaque signet de la collection pour accepter un visiteur qui imprimera son contenu.
+    // Demande à chaque signet de la collection d'accepter un visiteur qui imprimera son contenu.
     using (IEnumerator<Bookmark> enumerator = bookmarks.GetEnumerator())
     {
         while (enumerator.MoveNext())

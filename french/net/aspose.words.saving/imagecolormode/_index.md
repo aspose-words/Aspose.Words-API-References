@@ -1,14 +1,14 @@
 ---
 title: Enum ImageColorMode
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Saving.ImageColorMode énumération. Spécifie le mode de couleur pour les images générées des pages de document.
+description: Aspose.Words.Saving.ImageColorMode énumération. Spécifie le mode de couleur pour les images générées des pages du document.
 type: docs
-weight: 4950
+weight: 5210
 url: /fr/net/aspose.words.saving/imagecolormode/
 ---
 ## ImageColorMode enumeration
 
-Spécifie le mode de couleur pour les images générées des pages de document.
+Spécifie le mode de couleur pour les images générées des pages du document.
 
 ```csharp
 public enum ImageColorMode
@@ -24,7 +24,7 @@ public enum ImageColorMode
 
 ### Exemples
 
-Montre comment définir un mode couleur lors du rendu de documents.
+Montre comment définir un mode couleur lors du rendu des documents.
 
 ```csharp
 Document doc = new Document();
@@ -36,14 +36,14 @@ Document doc = new Document();
 
             Assert.That(20000, Is.LessThan(new FileInfo(ImageDir + "Logo.jpg").Length));
 
-            // Lorsque nous enregistrons le document en tant qu'image, nous pouvons passer un objet SaveOptions à
-            // sélectionne un mode couleur pour l'image que l'opération de sauvegarde va générer.
-            // Si nous définissons la propriété "ImageColorMode" sur "ImageColorMode.BlackAndWhite",
-            // l'opération d'enregistrement appliquera une réduction de couleur en niveaux de gris lors du rendu du document.
-             // Si nous définissons la propriété "ImageColorMode" sur "ImageColorMode.Grayscale",
+            // Lorsque nous enregistrons le document sous forme d'image, nous pouvons passer un objet SaveOptions à
+            // sélectionne un mode de couleur pour l'image que l'opération de sauvegarde générera.
+            // Si on fixe la propriété "ImageColorMode" à "ImageColorMode.BlackAndWhite",
+            // l'opération de sauvegarde appliquera une réduction des couleurs en niveaux de gris lors du rendu du document.
+            // Si on fixe la propriété "ImageColorMode" à "ImageColorMode.Grayscale",
             // l'opération de sauvegarde rendra le document dans une image monochrome.
-            // Si nous définissons la propriété "ImageColorMode" sur "None", l'opération de sauvegarde appliquera la méthode par défaut
-            // et conserve toutes les couleurs du document dans l'image de sortie.
+            // Si nous définissons la propriété "ImageColorMode" sur "Aucun", l'opération de sauvegarde appliquera la méthode par défaut
+            // et préserve toutes les couleurs du document dans l'image de sortie.
             ImageSaveOptions imageSaveOptions = new ImageSaveOptions(SaveFormat.Png);
             imageSaveOptions.ImageColorMode = imageColorMode;
 

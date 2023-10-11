@@ -3,7 +3,7 @@ title: Enum TextEffect
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Aspose.Words.TextEffect énumération. Effet danimation pour les passages de texte.
 type: docs
-weight: 6120
+weight: 6420
 url: /fr/net/aspose.words/texteffect/
 ---
 ## TextEffect enumeration

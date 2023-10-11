@@ -3,7 +3,7 @@ title: FieldOptions.FieldUpdateCultureProvider
 second_title: Référence de l'API Aspose.Words pour .NET
 description: FieldOptions propriété. Obtient ou définit un fournisseur qui renvoie un objet de culture spécifique à chaque champ particulier.
 type: docs
-weight: 90
+weight: 100
 url: /fr/net/aspose.words.fields/fieldoptions/fieldupdatecultureprovider/
 ---
 ## FieldOptions.FieldUpdateCultureProvider property
@@ -16,16 +16,15 @@ public IFieldUpdateCultureProvider FieldUpdateCultureProvider { get; set; }
 
 ### Remarques
 
-Le fournisseur est sollicité lorsque la valeur de[`FieldUpdateCultureSource`](../fieldupdateculturesource/) est **FieldUpdateCultureSource.FieldCode**.
+Le fournisseur est sollicité lorsque la valeur de[`FieldUpdateCultureSource`](../fieldupdateculturesource/) estFieldCode.
 
-Si le fournisseur est présent, l'objet de culture qu'il renvoie est utilisé pour la mise à jour du champ. Sinon, une culture système est utilisée.
+Si le fournisseur est présent, alors l'objet culture qu'il renvoie est utilisé pour la mise à jour du champ. Sinon, une culture système est utilisée.
 
 ### Exemples
 
-Montre comment spécifier une culture qui analyse le formatage de date/heure pour chaque champ.
+Montre comment spécifier une culture qui analyse le formatage date/heure pour chaque champ.
 
 ```csharp
-[Test]
 public void DefineDateTimeFormatting()
 {
     Document doc = new Document();
@@ -35,7 +34,7 @@ public void DefineDateTimeFormatting()
 
     doc.FieldOptions.FieldUpdateCultureSource = FieldUpdateCultureSource.FieldCode;
 
-    // Définissez un fournisseur qui renvoie un objet de culture spécifique à chaque champ.
+    // Définit un fournisseur qui renvoie un objet de culture spécifique à chaque champ.
     doc.FieldOptions.FieldUpdateCultureProvider = new FieldUpdateCultureProvider();
 
     FieldTime fieldDate = (FieldTime)doc.Range.Fields[0];

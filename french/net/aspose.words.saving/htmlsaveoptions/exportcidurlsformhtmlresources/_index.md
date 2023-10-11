@@ -1,14 +1,14 @@
 ---
 title: HtmlSaveOptions.ExportCidUrlsForMhtmlResources
 second_title: Référence de l'API Aspose.Words pour .NET
-description: HtmlSaveOptions propriété. Spécifie sil faut utiliser les URL CID ContentID pour référencer les ressources images polices CSS incluses dans les documents MHTML . La valeur par défaut estfaux .
+description: HtmlSaveOptions propriété. Spécifie sil faut utiliser les URL CID ContentID pour référencer les ressources images polices CSS incluses dans les documents MHTML . La valeur par défaut estFAUX .
 type: docs
-weight: 120
+weight: 110
 url: /fr/net/aspose.words.saving/htmlsaveoptions/exportcidurlsformhtmlresources/
 ---
 ## HtmlSaveOptions.ExportCidUrlsForMhtmlResources property
 
-Spécifie s'il faut utiliser les URL CID (Content-ID) pour référencer les ressources (images, polices, CSS) incluses dans les documents MHTML . La valeur par défaut est`faux` .
+Spécifie s'il faut utiliser les URL CID (Content-ID) pour référencer les ressources (images, polices, CSS) incluses dans les documents MHTML . La valeur par défaut est`FAUX` .
 
 ```csharp
 public bool ExportCidUrlsForMhtmlResources { get; set; }
@@ -16,13 +16,13 @@ public bool ExportCidUrlsForMhtmlResources { get; set; }
 
 ### Remarques
 
-Cette option n'affecte que les documents enregistrés en MHTML.
+Cette option affecte uniquement les documents enregistrés au format MHTML.
 
-Par défaut, les ressources dans les documents MHTML sont référencées par nom de fichier (par exemple, "image.png"), lequel correspond aux en-têtes "Content-Location" des parties MIME.
+Par défaut, les ressources dans les documents MHTML sont référencées par nom de fichier (par exemple, "image.png"), which correspondent aux en-têtes "Content-Location" des parties MIME.
 
-Cette option active une méthode alternative, où les références aux fichiers de ressources sont écrites sous la forme d'URL CID (Content-ID) (par exemple, "cid:image.png") et sont comparées aux en-têtes "Content-ID".
+Cette option active une méthode alternative, dans laquelle les références aux fichiers de ressources sont écrites sous forme d'URL CID (Content-ID) (par exemple, "cid:image.png") et sont comparées aux en-têtes "Content-ID".
 
-En théorie, il ne devrait y avoir aucune différence entre les deux méthodes de référencement et l'une ou l'autre devrait fonctionner correctement dans n'importe quel navigateur ou agent de messagerie. En pratique, cependant, certains agents ne parviennent pas à récupérer les ressources par nom de fichier. Si votre navigateur ou votre agent de messagerie refuse de charger les ressources incluses dans un document MTHML (n'affiche pas les images ou ne charge pas les styles CSS ), essayez d'exporter le document avec les URL CID.
+En théorie, il ne devrait y avoir aucune différence entre les deux méthodes de référencement et l'une ou l'autre devrait fonctionner correctement dans n'importe quel navigateur ou agent de messagerie. Toutefois, dans la pratique, certains agents ne parviennent pas à récupérer les ressources par nom de fichier. Si votre navigateur ou agent de messagerie refuse de charger les ressources incluses dans un document MTHML (n'affiche pas d'images ou ne charge pas les styles CSS ), essayez d'exporter le document avec les URL CID.
 
 ### Exemples
 
@@ -31,7 +31,7 @@ Montre comment activer les ID de contenu pour les documents MHTML de sortie.
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// La définition de ce drapeau remplacera les balises "Content-Location"
+// La définition de cet indicateur remplacera les balises "Content-Location"
 // avec des balises "Content-ID" pour chaque ressource du document d'entrée.
 HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.Mhtml)
 {

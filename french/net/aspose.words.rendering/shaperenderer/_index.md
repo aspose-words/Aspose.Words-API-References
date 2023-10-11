@@ -1,14 +1,16 @@
 ---
 title: Class ShapeRenderer
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Rendering.ShapeRenderer classe. Fournit des méthodes pour rendre un individuShape ouGroupShape à une image raster ou vectorielle ou à un objet Graphics.
+description: Aspose.Words.Rendering.ShapeRenderer classe. Fournit des méthodes pour restituer un individuShape ouGroupShape vers une image raster ou vectorielle ou vers un objet graphique.
 type: docs
-weight: 4330
+weight: 4590
 url: /fr/net/aspose.words.rendering/shaperenderer/
 ---
 ## ShapeRenderer class
 
-Fournit des méthodes pour rendre un individu[`Shape`](../../aspose.words.drawing/shape/) ou[`GroupShape`](../../aspose.words.drawing/groupshape/) à une image raster ou vectorielle ou à un objet Graphics.
+Fournit des méthodes pour restituer un individu[`Shape`](../../aspose.words.drawing/shape/) ou[`GroupShape`](../../aspose.words.drawing/groupshape/) vers une image raster ou vectorielle ou vers un objet graphique.
+
+Pour en savoir plus, visitez le[Travailler avec des formes](https://docs.aspose.com/words/net/working-with-shapes/) article documentaire.
 
 ```csharp
 public class ShapeRenderer : NodeRendererBase
@@ -38,24 +40,25 @@ public class ShapeRenderer : NodeRendererBase
 | [GetOpaqueBoundsInPixels](../../aspose.words.rendering/noderendererbase/getopaqueboundsinpixels/)(float, float, float) | Calcule les limites opaques de la forme en pixels pour un facteur de zoom et une résolution spécifiés. |
 | [GetSizeInPixels](../../aspose.words.rendering/noderendererbase/getsizeinpixels/)(float, float) | Calcule la taille de la forme en pixels pour un facteur de zoom et une résolution spécifiés. |
 | [GetSizeInPixels](../../aspose.words.rendering/noderendererbase/getsizeinpixels/)(float, float, float) | Calcule la taille de la forme en pixels pour un facteur de zoom et une résolution spécifiés. |
-| [RenderToScale](../../aspose.words.rendering/noderendererbase/rendertoscale/)(Graphics, float, float, float) | Rend la forme en unGraphics objet à une échelle spécifiée. |
-| [RenderToSize](../../aspose.words.rendering/noderendererbase/rendertosize/)(Graphics, float, float, float, float) | Rend la forme en unGraphics objet à une taille spécifiée. |
-| [Save](../../aspose.words.rendering/noderendererbase/save/)(Stream, ImageSaveOptions) | Rend la forme dans une image et enregistre dans un flux. |
+| [RenderToScale](../../aspose.words.rendering/noderendererbase/rendertoscale/)(Graphics, float, float, float) | Rend la forme dans unGraphics objet à une échelle spécifiée. |
+| [RenderToSize](../../aspose.words.rendering/noderendererbase/rendertosize/)(Graphics, float, float, float, float) | Rend la forme dans unGraphics objet à une taille spécifiée. |
+| [Save](../../aspose.words.rendering/noderendererbase/save/)(Stream, ImageSaveOptions) | Rend la forme dans une image et l'enregistre dans un flux. |
 | [Save](../../aspose.words.rendering/noderendererbase/save/)(string, ImageSaveOptions) | Rend la forme dans une image et l'enregistre dans un fichier. |
 
 ### Exemples
 
-Montre comment rendre une forme avec un objet Graphics et l'afficher à l'aide d'un Windows Form.
+Montre comment restituer une forme avec un objet Graphics et l’afficher à l’aide d’un Windows Form.
 
 ```csharp
+public void RenderShapesOnForm()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
     ShapeForm shapeForm = new ShapeForm(new Size(1017, 840));
 
-    // Vous trouverez ci-dessous deux manières d'utiliser la classe "ShapeRenderer" pour restituer une forme à un objet Graphics.
-    // 1 - Créez une forme avec un graphique et affichez-la à une échelle spécifique.
+    // Vous trouverez ci-dessous deux manières d'utiliser la classe "ShapeRenderer" pour restituer une forme dans un objet Graphics.
+    // 1 - Créez une forme avec un graphique et restituez-la à une échelle spécifique.
     Chart chart = builder.InsertChart(ChartType.Pie, 500, 400).Chart;
     chart.Series.Clear();
     chart.Series.Add("Desktop Browser Market Share (Oct. 2020)",
@@ -66,7 +69,7 @@ Montre comment rendre une forme avec un objet Graphics et l'afficher à l'aide d
 
     shapeForm.AddShapeToRenderToScale(chartShape, 0, 0, 1.5f);
 
-    // 2 - Créez un groupe de formes et rendez-le à une taille spécifique.
+    // 2 - Créez un groupe de formes et affichez-le à une taille spécifique.
     GroupShape group = new GroupShape(doc);
     group.Bounds = new RectangleF(0, 0, 100, 100);
     group.CoordSize = new Size(500, 500);
@@ -145,6 +148,7 @@ private class ShapeForm : Form
         }
     }
 
+    private readonly List<KeyValuePair<ShapeBase, float[]>> mShapesToRender;
 }
 ```
 

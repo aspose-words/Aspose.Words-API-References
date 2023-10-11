@@ -1,14 +1,14 @@
 ---
 title: OleFormat.GetOleEntry
 second_title: Référence de l'API Aspose.Words pour .NET
-description: OleFormat méthode. Obtient lentrée de données dobjet OLE.
+description: OleFormat méthode. Obtient la saisie des données de lobjet OLE.
 type: docs
 weight: 140
 url: /fr/net/aspose.words.drawing/oleformat/getoleentry/
 ---
 ## OleFormat.GetOleEntry method
 
-Obtient l'entrée de données d'objet OLE.
+Obtient la saisie des données de l'objet OLE.
 
 ```csharp
 public MemoryStream GetOleEntry(string oleEntryName)
@@ -20,7 +20,7 @@ public MemoryStream GetOleEntry(string oleEntryName)
 
 ### Return_Value
 
-Un flux de données OLE ou null.
+Un flux de données OLE ou`nul`.
 
 ### Exemples
 
@@ -61,7 +61,7 @@ Assert.AreEqual("Microsoft Visio drawing.vsd", oleFormat.IconCaption);
 
 doc.Save(ArtifactsDir + "Shape.OleLinks.docx");
 
-// Si l'objet contient des données OLE, nous pouvons y accéder à l'aide d'un flux.
+// Si l'objet contient des données OLE, nous pouvons y accéder via un flux.
 using (MemoryStream stream = oleFormat.GetOleEntry("\x0001CompObj"))
 {
     byte[] oleEntryBytes = stream.ToArray();

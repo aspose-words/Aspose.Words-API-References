@@ -16,13 +16,13 @@ public string Result { get; set; }
 
 ### Remarques
 
-Pour un champ de formulaire texte, le résultat est le texte qui se trouve dans le champ.
+Pour un champ de formulaire de texte, le résultat est le texte qui se trouve dans le champ.
 
-Pour un champ de formulaire de case à cocher, le résultat peut être "1" ou "0" pour indiquer coché ou non coché.
+Pour un champ de formulaire de case à cocher, le résultat peut être « 1 » ou « 0 » pour indiquer coché ou décoché.
 
 Pour un champ de formulaire déroulant, le résultat est la chaîne sélectionnée dans la liste déroulante.
 
-Paramètre`Result` pour un champ de formulaire texte n'applique pas le format de texte spécifié dans[`TextInputFormat`](../textinputformat/) . Si vous souhaitez définir une valeur et appliquer le format , utilisez le[`SetTextInputValue`](../settextinputvalue/) méthode.
+Paramètre`Result` pour un champ de formulaire de texte n'applique pas le format de texte spécifié dans[`TextInputFormat`](../textinputformat/) . Si vous souhaitez définir une valeur et appliquer le format , utilisez le[`SetTextInputValue`](../settextinputvalue/) méthode.
 
 Pour un champ de formulaire texte, le[`TextInputDefault`](../textinputdefault/) la valeur est appliquée si*value* est`nul`.
 

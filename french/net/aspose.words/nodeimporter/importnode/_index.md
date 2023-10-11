@@ -17,7 +17,7 @@ public Node ImportNode(Node srcNode, bool isImportChildren)
 | Paramètre | Taper | La description |
 | --- | --- | --- |
 | srcNode | Node | Le nœud à importer. |
-| isImportChildren | Boolean | True pour importer tous les nœuds enfants de manière récursive ; sinon, faux. |
+| isImportChildren | Boolean | `vrai` pour importer tous les nœuds enfants de manière récursive ; sinon,`FAUX`. |
 
 ### Return_Value
 
@@ -25,18 +25,17 @@ Le nœud cloné et importé. Le nœud appartient au document de destination, mai
 
 ### Remarques
 
-L'importation d'un nœud crée une copie du nœud source appartenant au document d'importation. Le nœud retourné n'a pas de parent. Le nœud source n'est pas modifié ou supprimé du document d'origine.
+L'importation d'un nœud crée une copie du nœud source appartenant au document importateur. Le nœud renvoyé n'a pas de parent. Le nœud source n'est ni modifié ni supprimé du document d'origine.
 
-Avant qu'un nœud d'un autre document puisse être inséré dans ce document, il doit être importé. Lors de l'importation, les propriétés spécifiques au document telles que les références aux styles et aux listes sont traduites de l'original vers le document d'importation. Une fois le nœud importé, il peut être inséré à l'endroit approprié dans le document à l'aide de[`InsertBefore`](../../compositenode/insertbefore/) ou [`InsertAfter`](../../compositenode/insertafter/).
+Avant qu'un nœud d'un autre document puisse être inséré dans ce document, il doit être importé. Lors de l'importation, les propriétés spécifiques au document telles que les références aux styles et aux listes sont traduites de l'original vers le document d'importation. Une fois le nœud importé, il peut être inséré à l'endroit approprié dans le document en utilisantNode) ou Node).
 
 Si le nœud source appartient déjà au document de destination, alors simplement un clone profond du nœud source est créé.
 
 ### Exemples
 
-Montre comment insérer le contenu d'un document dans un signet d'un autre document.
+Montre comment insérer le contenu d’un document dans un signet dans un autre document.
 
 ```csharp
-[Test]
 public void InsertAtBookmark()
 {
     Document doc = new Document();
@@ -72,7 +71,7 @@ static void InsertDocument(Node insertionDestination, Document docToInsert)
         NodeImporter importer =
             new NodeImporter(docToInsert, insertionDestination.Document, ImportFormatMode.KeepSourceFormatting);
 
-        // Boucle sur tous les nœuds de niveau bloc dans le corps de la section,
+        // Parcourez tous les nœuds de niveau bloc dans le corps de la section,
         // puis clonez et insérez chaque nœud qui n'est pas le dernier paragraphe vide d'une section.
         foreach (Section srcSection in docToInsert.Sections.OfType<Section>())
             foreach (Node srcNode in srcSection.Body)

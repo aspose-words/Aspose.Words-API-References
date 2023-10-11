@@ -1,16 +1,16 @@
 ---
 title: ParagraphFormat.CharacterUnitFirstLineIndent
 second_title: Référence de l'API Aspose.Words pour .NET
-description: ParagraphFormat propriété. Obtient ou définit la valeur en caractères du retrait de première ligne ou du retrait négatif.
+description: ParagraphFormat propriété. Obtient ou définit la valeur en caractères du retrait de première ligne ou du retrait suspendu.
 type: docs
-weight: 60
+weight: 70
 url: /fr/net/aspose.words/paragraphformat/characterunitfirstlineindent/
 ---
 ## ParagraphFormat.CharacterUnitFirstLineIndent property
 
-Obtient ou définit la valeur (en caractères) du retrait de première ligne ou du retrait négatif.
+Obtient ou définit la valeur (en caractères) du retrait de première ligne ou du retrait suspendu.
 
-Utilisez des valeurs positives pour définir le retrait de première ligne et des valeurs négatives pour définir le retrait négatif.
+Utilisez des valeurs positives pour définir le retrait de la première ligne et des valeurs négatives pour définir le retrait négatif.
 
 ```csharp
 public double CharacterUnitFirstLineIndent { get; set; }
@@ -18,7 +18,7 @@ public double CharacterUnitFirstLineIndent { get; set; }
 
 ### Exemples
 
-Montre comment modifier l'espacement des paragraphes et les retraits.
+Montre comment modifier l’espacement et le retrait des paragraphes.
 
 ```csharp
 Document doc = new Document();
@@ -40,7 +40,7 @@ format.CharacterUnitRightIndent = -5.5;
 
 Assert.AreEqual(format.RightIndent, -66.0d);
 
-// 3 - Retrait négatif :
+// 3 - Retrait suspendu :
 Assert.AreEqual(format.FirstLineIndent, 0.0d);
 
 format.CharacterUnitFirstLineIndent = 20.3;
@@ -54,7 +54,7 @@ format.LineUnitBefore = 5.1;
 
 Assert.AreEqual(format.SpaceBefore, 61.1d, 0.1d);
 
-// 5 - Interligne après les paragraphes :
+// 5 - Interligne après les paragraphes :
 Assert.AreEqual(format.SpaceAfter, 0.0d);
 
 format.LineUnitAfter = 10.9;

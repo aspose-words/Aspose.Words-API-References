@@ -16,7 +16,7 @@ public void RemoveAt(int index)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| index | Int32 | Index de base zéro de l'élément. |
+| index | Int32 | L'index de base zéro de l'élément. |
 
 ### Exemples
 
@@ -45,7 +45,7 @@ using (IEnumerator<OdsoRecipientData> enumerator = dataCollection.GetEnumerator(
 // Nous pouvons cloner les éléments de cette collection.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// Nous pouvons également supprimer des éléments individuellement ou effacer toute la collection en une seule fois.
+// Nous pouvons également supprimer des éléments individuellement ou effacer toute la collection en même temps.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(69, dataCollection.Count);

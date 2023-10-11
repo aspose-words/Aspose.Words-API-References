@@ -1,12 +1,14 @@
 ---
 title: Class Cluster
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Shaping.Cluster classe. 
+description: Aspose.Words.Shaping.Cluster classe. Encapsule les points de code et les glyphes composant un graphème.
 type: docs
-weight: 5710
+weight: 6010
 url: /fr/net/aspose.words.shaping/cluster/
 ---
 ## Cluster class
+
+Encapsule les points de code et les glyphes composant un graphème.
 
 ```csharp
 public class Cluster
@@ -16,24 +18,24 @@ public class Cluster
 
 | Nom | La description |
 | --- | --- |
-| [Cluster](cluster/)(int[], Glyph[]) |  |
+| [Cluster](cluster/)(int[], Glyph[]) | Initialise une nouvelle instance de cette classe. |
 
 ## Propriétés
 
 | Nom | La description |
 | --- | --- |
-| [Codepoints](../../aspose.words.shaping/cluster/codepoints/) { get; } |  |
-| [CodepointsLength](../../aspose.words.shaping/cluster/codepointslength/) { get; } |  |
-| [Glyphs](../../aspose.words.shaping/cluster/glyphs/) { get; } |  |
+| [Codepoints](../../aspose.words.shaping/cluster/codepoints/) { get; } | Obtient les points de code du cluster. |
+| [CodepointsLength](../../aspose.words.shaping/cluster/codepointslength/) { get; } | Obtient le nombre total de points de code dans le`Cluster` . |
+| [Glyphs](../../aspose.words.shaping/cluster/glyphs/) { get; } | Récupère les glyphes du cluster. |
 
 ## Méthodes
 
 | Nom | La description |
 | --- | --- |
-| [DeepClone](../../aspose.words.shaping/cluster/deepclone/)() |  |
-| [GetString](../../aspose.words.shaping/cluster/getstring/)() |  |
-| [GetWidth](../../aspose.words.shaping/cluster/getwidth/)(int, float) |  |
-| static [GetString](../../aspose.words.shaping/cluster/getstring/)(Cluster[]) |  |
+| [DeepClone](../../aspose.words.shaping/cluster/deepclone/)() | Renvoie un clone profond de cette instance. |
+| [GetString](../../aspose.words.shaping/cluster/getstring/)() | CréeString en utilisant les points de code de ce cluster. |
+| [GetWidth](../../aspose.words.shaping/cluster/getwidth/)(int, float) | Renvoie la largeur du cluster. |
+| static [GetString](../../aspose.words.shaping/cluster/getstring/)(Cluster[]) | CréeString en utilisant les points de code des clusters spécifiés. |
 
 ### Voir également
 

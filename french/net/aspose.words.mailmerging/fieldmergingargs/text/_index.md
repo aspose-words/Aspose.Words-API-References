@@ -16,9 +16,9 @@ public string Text { get; set; }
 
 ### Remarques
 
-Lorsque votre gestionnaire d'événements est appelé, cette propriété est définie sur null.
+Lorsque votre gestionnaire d'événements est appelé, cette propriété est définie sur`nul`.
 
-Si vous laissez Text comme null, le moteur de fusion et publipostage insérera[`FieldValue`](../../fieldmergingargsbase/fieldvalue/) à la place du champ de fusion.
+Si vous laissez Texte comme`nul` , le moteur de publipostage insérera[`FieldValue`](../../fieldmergingargsbase/fieldvalue/) à la place du champ de fusion.
 
 Si vous définissez Texte sur n'importe quelle chaîne (y compris vide), la chaîne sera insérée dans le document à la place du champ de fusion.
 
@@ -27,6 +27,7 @@ Si vous définissez Texte sur n'importe quelle chaîne (y compris vide), la cha�
 Montre comment exécuter un publipostage avec un rappel personnalisé qui gère les données de fusion sous la forme de documents HTML.
 
 ```csharp
+public void MergeHtml()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -74,7 +75,7 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
             builder.InsertHtml((string)args.FieldValue);
 
             // Puisque nous avons déjà inséré manuellement le contenu fusionné,
-             // nous n'aurons pas besoin de répondre à cet événement en renvoyant du contenu via la propriété "Texte".
+             // nous n'aurons pas besoin de répondre à cet événement en renvoyant du contenu via la propriété "Text".
             args.Text = string.Empty;
         }
     }

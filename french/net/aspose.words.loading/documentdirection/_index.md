@@ -1,14 +1,14 @@
 ---
 title: Enum DocumentDirection
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Loading.DocumentDirection énumération. Permet de spécifier le sens dans lequel couler le texte dans un document.
+description: Aspose.Words.Loading.DocumentDirection énumération. Permet de spécifier la direction dans laquelle circule le texte dans un document.
 type: docs
-weight: 3380
+weight: 3580
 url: /fr/net/aspose.words.loading/documentdirection/
 ---
 ## DocumentDirection enumeration
 
-Permet de spécifier le sens dans lequel couler le texte dans un document.
+Permet de spécifier la direction dans laquelle circule le texte dans un document.
 
 ```csharp
 public enum DocumentDirection
@@ -18,8 +18,8 @@ public enum DocumentDirection
 
 | Nom | Évaluer | La description |
 | --- | --- | --- |
-| LeftToRight | `0` | Sens de gauche à droite. |
-| RightToLeft | `1` | Sens de droite à gauche. |
+| LeftToRight | `0` | Direction de gauche à droite. |
+| RightToLeft | `1` | Direction de droite à gauche. |
 | Auto | `2` | Détection automatique de la direction. |
 
 ### Voir également

@@ -16,14 +16,14 @@ public string StyleName { get; set; }
 
 ### Exemples
 
-Montre comment modifier le style d'un texte existant.
+Montre comment modifier le style du texte existant.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Vous trouverez ci-dessous deux façons de référencer les styles.
-// 1 - En utilisant le nom du style :
+// Vous trouverez ci-dessous deux manières de référencer les styles.
+// 1 - Utilisation du nom du style :
 builder.Font.StyleName = "Emphasis";
 builder.Writeln("Text originally in \"Emphasis\" style");
 
@@ -31,8 +31,8 @@ builder.Writeln("Text originally in \"Emphasis\" style");
 builder.Font.StyleIdentifier = StyleIdentifier.IntenseEmphasis;
 builder.Writeln("Text originally in \"Intense Emphasis\" style");
 
-// Convertit toutes les utilisations d'un style vers un autre,
-// en utilisant les méthodes ci-dessus pour référencer les anciens et les nouveaux styles.
+// Convertit toutes les utilisations d'un style en un autre,
+// utilisant les méthodes ci-dessus pour référencer les anciens et les nouveaux styles.
 foreach (Run run in doc.GetChildNodes(NodeType.Run, true).OfType<Run>())
 {
     if (run.Font.StyleName == "Emphasis")

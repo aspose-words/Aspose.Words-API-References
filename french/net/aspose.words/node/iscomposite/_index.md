@@ -1,14 +1,14 @@
 ---
 title: Node.IsComposite
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Node propriété. Renvoie true si ce nœud peut contenir dautres nœuds.
+description: Node propriété. Retoursvrai si ce nœud peut contenir dautres nœuds.
 type: docs
 weight: 30
 url: /fr/net/aspose.words/node/iscomposite/
 ---
 ## Node.IsComposite property
 
-Renvoie true si ce nœud peut contenir d'autres nœuds.
+Retours`vrai` si ce nœud peut contenir d'autres nœuds.
 
 ```csharp
 public virtual bool IsComposite { get; }
@@ -16,13 +16,14 @@ public virtual bool IsComposite { get; }
 
 ### Valeur de la propriété
 
-Cette méthode renvoie false car Node ne peut pas avoir de nœuds enfants.
+Cette méthode renvoie`FAUX` comme[`Node`](../) ne peut pas avoir de nœuds enfants.
 
 ### Exemples
 
-Montre comment parcourir l'arborescence des nœuds enfants d'un nœud composite.
+Montre comment parcourir l’arborescence des nœuds enfants d’un nœud composite.
 
 ```csharp
+public void RecurseChildren()
 {
     Document doc = new Document(MyDir + "Paragraphs.docx");
 
@@ -34,7 +35,7 @@ Montre comment parcourir l'arborescence des nœuds enfants d'un nœud composite.
 }
 
 /// <summary>
-/// Parcourt récursivement une arborescence de nœuds tout en affichant le type de chaque nœud
+/// Parcourt récursivement une arborescence de nœuds tout en imprimant le type de chaque nœud
 /// avec un retrait en fonction de la profondeur ainsi que du contenu de tous les nœuds en ligne.
 /// </summary>
 public void TraverseAllNodes(CompositeNode parentNode, int depth)
@@ -43,7 +44,7 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
     {
         Console.Write($"{new string('\t', depth)}{Node.NodeTypeToString(childNode.NodeType)}");
 
-        // Recurse dans le nœud s'il s'agit d'un nœud composite. Sinon, imprimez son contenu s'il s'agit d'un nœud en ligne.
+        // Récursion dans le nœud s'il s'agit d'un nœud composite. Sinon, imprimez son contenu s'il s'agit d'un nœud en ligne.
         if (childNode.IsComposite)
         {
             Console.WriteLine();

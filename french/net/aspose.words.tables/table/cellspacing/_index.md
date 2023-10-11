@@ -16,7 +16,7 @@ public double CellSpacing { get; set; }
 
 ### Exemples
 
-Montre comment activer l'espacement entre les cellules individuelles d'un tableau.
+Montre comment activer l’espacement entre les cellules individuelles d’un tableau.
 
 ```csharp
 Document doc = new Document();
@@ -37,14 +37,14 @@ builder.EndTable();
 table.CellSpacing = 3;
 
 // Définissez la propriété "AllowCellSpacing" sur "true" pour activer l'espacement entre les cellules
-// avec une magnitude égale à la valeur de la propriété "CellSpacing", en points.
+// d'une grandeur égale à la valeur de la propriété "CellSpacing", en points.
 // Définissez la propriété "AllowCellSpacing" sur "false" pour désactiver l'espacement des cellules
-// et ignorez la valeur de la propriété "CellSpacing".
+// et ignore la valeur de la propriété "CellSpacing".
 table.AllowCellSpacing = allowCellSpacing;
 
 doc.Save(ArtifactsDir + "Table.AllowCellSpacing.html");
 
-// Ajuster la propriété "CellSpacing" activera automatiquement l'espacement des cellules.
+// L'ajustement de la propriété "CellSpacing" activera automatiquement l'espacement des cellules.
 table.CellSpacing = 5;
 
 Assert.True(table.AllowCellSpacing);

@@ -3,7 +3,7 @@ title: MailMergeRegionInfo.Name
 second_title: Référence de l'API Aspose.Words pour .NET
 description: MailMergeRegionInfo propriété. Renvoie le nom de la région.
 type: docs
-weight: 40
+weight: 60
 url: /fr/net/aspose.words.mailmerging/mailmergeregioninfo/name/
 ---
 ## MailMergeRegionInfo.Name property
@@ -16,7 +16,7 @@ public string Name { get; }
 
 ### Exemples
 
-Montre comment vérifier les régions de fusion et publipostage.
+Montre comment vérifier les régions de publipostage.
 
 ```csharp
 Document doc = new Document(MyDir + "Mail merge regions.docx");
@@ -24,7 +24,7 @@ Document doc = new Document(MyDir + "Mail merge regions.docx");
 // Renvoie une hiérarchie complète des régions de fusion contenant les MERGEFIELD disponibles dans le document.
 MailMergeRegionInfo regionInfo = doc.MailMerge.GetRegionsHierarchy();
 
-// Récupère les régions supérieures dans le document.
+// Récupère les principales régions du document.
 IList<MailMergeRegionInfo> topRegions = regionInfo.Regions;
 
 Assert.AreEqual(2, topRegions.Count);

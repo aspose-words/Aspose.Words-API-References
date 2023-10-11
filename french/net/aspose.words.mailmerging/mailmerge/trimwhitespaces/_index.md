@@ -16,11 +16,11 @@ public bool TrimWhitespaces { get; set; }
 
 ### Remarques
 
-La valeur par défaut est **vrai** .
+La valeur par défaut est`vrai` .
 
 ### Exemples
 
-Montre comment supprimer les espaces blancs des valeurs d'une source de données lors de l'exécution d'un publipostage.
+Montre comment supprimer les espaces des valeurs d’une source de données lors de l’exécution d’un publipostage.
 
 ```csharp
 Document doc = new Document();

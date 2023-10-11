@@ -1,14 +1,14 @@
 ---
 title: Document.UnlinkFields
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Document méthode. Dissocie les champs de tout le document.
+description: Document méthode. Dissocie les champs dans tout le document.
 type: docs
-weight: 710
+weight: 750
 url: /fr/net/aspose.words/document/unlinkfields/
 ---
 ## Document.UnlinkFields method
 
-Dissocie les champs de tout le document.
+Dissocie les champs dans tout le document.
 
 ```csharp
 public void UnlinkFields()

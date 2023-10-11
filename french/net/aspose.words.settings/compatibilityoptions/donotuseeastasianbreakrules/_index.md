@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.DoNotUseEastAsianBreakRules
 second_title: Référence de l'API Aspose.Words pour .NET
-description: CompatibilityOptions propriété. Ne pas compresser les caractères compressibles lors de lutilisation de la grille de document.
+description: CompatibilityOptions propriété. Ne pas compresser les caractères compressibles lors de lutilisation de Document Grid.
 type: docs
 weight: 200
 url: /fr/net/aspose.words.settings/compatibilityoptions/donotuseeastasianbreakrules/
 ---
 ## CompatibilityOptions.DoNotUseEastAsianBreakRules property
 
-Ne pas compresser les caractères compressibles lors de l'utilisation de la grille de document.
+Ne pas compresser les caractères compressibles lors de l'utilisation de Document Grid.
 
 ```csharp
 public bool DoNotUseEastAsianBreakRules { get; set; }

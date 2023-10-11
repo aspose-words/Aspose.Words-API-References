@@ -16,7 +16,7 @@ public Underline Underline { get; set; }
 
 ### Exemples
 
-Montre comment configurer le style et la couleur d'un texte souligné.
+Montre comment configurer le style et la couleur du soulignement d’un texte.
 
 ```csharp
 Document doc = new Document();
@@ -30,13 +30,13 @@ builder.Writeln("Underlined text.");
 doc.Save(ArtifactsDir + "Font.Underlines.docx");
 ```
 
-Montre comment insérer du texte formaté à l'aide de DocumentBuilder.
+Montre comment insérer du texte formaté à l’aide de DocumentBuilder.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Spécifiez la mise en forme de la police, puis ajoutez du texte.
+// Spécifiez le formatage de la police, puis ajoutez du texte.
 Aspose.Words.Font font = builder.Font;
 font.Size = 16;
 font.Bold = true;
@@ -55,7 +55,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Write("For more information, please visit the ");
 
-// Insère un lien hypertexte et le met en valeur avec une mise en forme personnalisée.
+// Insère un lien hypertexte et soulignez-le avec un formatage personnalisé.
 // Le lien hypertexte sera un morceau de texte cliquable qui nous amènera à l'emplacement spécifié dans l'URL.
 builder.Font.Color = Color.Blue;
 builder.Font.Underline = Underline.Single;

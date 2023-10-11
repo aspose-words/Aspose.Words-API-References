@@ -1,14 +1,14 @@
 ---
 title: CompatibilityOptions.TransparentMetafiles
 second_title: Référence de l'API Aspose.Words pour .NET
-description: CompatibilityOptions propriété. Spécifie de ne pas vider la zone derrière les images de métafichier.
+description: CompatibilityOptions propriété. Spécifie de ne pas vider la zone derrière les images du métafichier.
 type: docs
 weight: 550
 url: /fr/net/aspose.words.settings/compatibilityoptions/transparentmetafiles/
 ---
 ## CompatibilityOptions.TransparentMetafiles property
 
-Spécifie de ne pas vider la zone derrière les images de métafichier.
+Spécifie de ne pas vider la zone derrière les images du métafichier.
 
 ```csharp
 public bool TransparentMetafiles { get; set; }

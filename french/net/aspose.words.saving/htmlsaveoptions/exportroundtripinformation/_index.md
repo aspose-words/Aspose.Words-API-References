@@ -1,14 +1,14 @@
 ---
 title: HtmlSaveOptions.ExportRoundtripInformation
 second_title: Référence de l'API Aspose.Words pour .NET
-description: HtmlSaveOptions propriété. Spécifie sil faut écrire les informations dallerretour lors de lenregistrement au format HTML MHTML ou EPUB. La valeur par défaut estvrai pour HTML etfaux pour MHTML et EPUB.
+description: HtmlSaveOptions propriété. Spécifie sil faut écrire les informations allerretour lors de lenregistrement au format HTML MHTML ou EPUB. La valeur par défaut estvrai pour HTML etFAUX pour MHTML et EPUB.
 type: docs
-weight: 250
+weight: 240
 url: /fr/net/aspose.words.saving/htmlsaveoptions/exportroundtripinformation/
 ---
 ## HtmlSaveOptions.ExportRoundtripInformation property
 
-Spécifie s'il faut écrire les informations d'aller-retour lors de l'enregistrement au format HTML, MHTML ou EPUB. La valeur par défaut est`vrai` pour HTML et`faux` pour MHTML et EPUB.
+Spécifie s'il faut écrire les informations aller-retour lors de l'enregistrement au format HTML, MHTML ou EPUB. La valeur par défaut est`vrai` pour HTML et`FAUX` pour MHTML et EPUB.
 
 ```csharp
 public bool ExportRoundtripInformation { get; set; }
@@ -16,30 +16,30 @@ public bool ExportRoundtripInformation { get; set; }
 
 ### Remarques
 
-L'enregistrement des informations d'aller-retour permet de restaurer les propriétés du document telles que les taquets de tabulation, les commentaires , les en-têtes et les pieds de page lors du chargement des documents HTML dans un[`Document`](../../../aspose.words/document/) objet.
+L'enregistrement des informations aller-retour permet de restaurer les propriétés du document telles que les taquets de tabulation, les commentaires , les en-têtes et les pieds de page lors du chargement des documents HTML dans un[`Document`](../../../aspose.words/document/) objet.
 
-Lorsque`vrai`, les informations aller-retour sont exportées en tant que -aw-* CSS properties des éléments HTML correspondants.
+Quand`vrai`, les informations aller-retour sont exportées sous la forme -aw-* CSS Properties des éléments HTML correspondants.
 
-Lorsque`faux`, n'entraîne la sortie d'aucune information d'aller-retour dans les fichiers produits.
+Quand`FAUX`, n'entraîne aucune information aller-retour dans les fichiers produits.
 
 ### Exemples
 
-Montre comment conserver les éléments masqués lors de la conversion en .html.
+Montre comment conserver les éléments cachés lors de la conversion en .html.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// Lors de la conversion d'un document en .html, certains éléments tels que les signets masqués, les positions de la forme d'origine,
-// ou les notes de bas de page seront soit supprimées, soit converties en texte brut et effectivement perdues.
+// Lors de la conversion d'un document en .html, certains éléments tels que les signets cachés, les positions de forme d'origine,
+// ou les notes de bas de page seront soit supprimées, soit converties en texte brut et seront effectivement perdues.
 // L'enregistrement avec un objet HtmlSaveOptions avec ExportRoundtripInformation défini sur true préservera ces éléments.
 
 // Lorsque nous enregistrons le document au format HTML, nous pouvons passer un objet SaveOptions pour déterminer
 // comment l'opération de sauvegarde exportera les éléments du document que HTML ne prend pas en charge ou n'utilise pas,
-// tels que les signets masqués et les positions de forme d'origine.
-// Si nous définissons le drapeau "ExportRoundtripInformation" sur "true", l'opération de sauvegarde conservera ces éléments.
-// Si nous définissons le drapeau "ExportRoundTripInformation" sur "false", l'opération de sauvegarde supprimera ces éléments.
-// Nous voudrons conserver ces éléments si nous avons l'intention de charger le HTML enregistré en utilisant Aspose.Words,
-// car ils pourraient être utiles une fois de plus.
+// tels que les signets cachés et les positions de forme d'origine.
+// Si nous définissons le flag "ExportRoundtripInformation" sur "true", l'opération de sauvegarde conservera ces éléments.
+// Si nous définissons l'indicateur "ExportRoundTripInformation" sur "false", l'opération de sauvegarde supprimera ces éléments.
+// Nous souhaiterons conserver ces éléments si nous avons l'intention de charger le code HTML enregistré à l'aide d'Aspose.Words,
+// car ils pourraient être à nouveau utiles.
 HtmlSaveOptions options = new HtmlSaveOptions { ExportRoundtripInformation = exportRoundtripInformation };
 
 doc.Save(ArtifactsDir + "HtmlSaveOptions.RoundTripInformation.html", options);

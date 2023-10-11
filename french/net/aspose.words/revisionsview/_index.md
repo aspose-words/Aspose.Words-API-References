@@ -3,7 +3,7 @@ title: Enum RevisionsView
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Aspose.Words.RevisionsView énumération. Permet de spécifier sil faut travailler avec la version originale ou révisée dun document.
 type: docs
-weight: 4550
+weight: 4810
 url: /fr/net/aspose.words/revisionsview/
 ---
 ## RevisionsView enumeration
@@ -23,7 +23,7 @@ public enum RevisionsView
 
 ### Exemples
 
-Montre comment basculer entre la vue révisée et la vue d'origine d'un document.
+Montre comment basculer entre la vue révisée et la vue originale d'un document.
 
 ```csharp
 Document doc = new Document(MyDir + "Revisions at list levels.docx");

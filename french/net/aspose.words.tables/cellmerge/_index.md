@@ -3,7 +3,7 @@ title: Enum CellMerge
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Aspose.Words.Tables.CellMerge énumération. Spécifie comment une cellule dun tableau est fusionnée avec dautres cellules.
 type: docs
-weight: 5970
+weight: 6270
 url: /fr/net/aspose.words.tables/cellmerge/
 ---
 ## CellMerge enumeration
@@ -24,7 +24,7 @@ public enum CellMerge
 
 ### Exemples
 
-Montre comment fusionner des cellules de tableau horizontalement.
+Montre comment fusionner les cellules d’un tableau horizontalement.
 
 ```csharp
 Document doc = new Document();
@@ -42,7 +42,7 @@ builder.InsertCell();
 builder.CellFormat.HorizontalMerge = CellMerge.Previous;
 builder.EndRow();
 
-// Insère deux autres cellules non fusionnées dans la deuxième ligne.
+// Insère deux cellules supplémentaires non fusionnées dans la deuxième ligne.
 builder.CellFormat.HorizontalMerge = CellMerge.None;
 builder.InsertCell();
 builder.Write("Text in unmerged cell.");
@@ -83,14 +83,14 @@ public string PrintCellMergeType(Cell cell)
 }
 ```
 
-Montre comment fusionner verticalement des cellules de tableau.
+Montre comment fusionner verticalement les cellules d’un tableau.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Insère une cellule dans la première colonne de la première ligne.
-// Cette cellule sera la première d'une série de cellules fusionnées verticalement.
+// Cette cellule sera la première d'une plage de cellules fusionnées verticalement.
 builder.InsertCell();
 builder.CellFormat.VerticalMerge = CellMerge.First;
 builder.Write("Text in merged cells.");
@@ -102,8 +102,8 @@ builder.CellFormat.VerticalMerge = CellMerge.None;
 builder.Write("Text in unmerged cell.");
 builder.EndRow();
 
-// Insère une cellule dans la première colonne de la deuxième ligne. 
-// Au lieu d'ajouter du contenu textuel, nous fusionnerons cette cellule avec la première cellule que nous avons ajoutée directement au-dessus.
+ // Insère une cellule dans la première colonne de la deuxième ligne.
+// Au lieu d'ajouter du contenu textuel, nous fusionnerons cette cellule avec la première cellule que nous avons ajoutée directement ci-dessus.
 builder.InsertCell();
 builder.CellFormat.VerticalMerge = CellMerge.Previous;
 

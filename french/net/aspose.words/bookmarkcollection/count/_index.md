@@ -16,7 +16,7 @@ public int Count { get; }
 
 ### Exemples
 
-Montre comment supprimer des signets d'un document.
+Montre comment supprimer des signets d’un document.
 
 ```csharp
 Document doc = new Document();
@@ -39,18 +39,18 @@ BookmarkCollection bookmarks = doc.Range.Bookmarks;
 Assert.AreEqual(5, bookmarks.Count);
 
 // Il existe plusieurs façons de supprimer des signets.
-// 1 - Appel de la méthode Remove du signet :
+// 1 - Appel de la méthode Remove du favori :
 bookmarks["MyBookmark_1"].Remove();
 
 Assert.False(bookmarks.Any(b => b.Name == "MyBookmark_1"));
 
-// 2 - Passage du signet à la méthode Remove de la collection :
+// 2 - Passage du signet à la méthode Remove de la collection :
 Bookmark bookmark = doc.Range.Bookmarks[0];
 doc.Range.Bookmarks.Remove(bookmark);
 
 Assert.False(bookmarks.Any(b => b.Name == "MyBookmark_2"));
 
-// 3 - Suppression d'un signet de la collection par son nom :
+// 3 - Suppression d'un signet de la collection par nom :
 doc.Range.Bookmarks.Remove("MyBookmark_3");
 
 Assert.False(bookmarks.Any(b => b.Name == "MyBookmark_3"));
@@ -63,7 +63,7 @@ Assert.False(bookmarks.Any(b => b.Name == "MyBookmark_4"));
 // Nous pouvons effacer toute la collection de signets.
 bookmarks.Clear();
 
-// Le texte qui était à l'intérieur des signets est toujours présent dans le document.
+// Le texte qui se trouvait à l'intérieur des signets est toujours présent dans le document.
 Assert.That(bookmarks, Is.Empty);
 Assert.AreEqual("Text inside MyBookmark_1.\r" +
                 "Text inside MyBookmark_2.\r" +

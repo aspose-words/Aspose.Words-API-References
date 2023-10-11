@@ -1,14 +1,14 @@
 ---
 title: LoadOptions.PreserveIncludePictureField
 second_title: Référence de l'API Aspose.Words pour .NET
-description: LoadOptions propriété. Obtient ou définit sil faut conserver le champ INCLUDEPICTURE lors de la lecture des formats Microsoft Word. La valeur par défaut est false.
+description: LoadOptions propriété. Obtient ou définit sil faut conserver le champ INCLUDEPICTURE lors de la lecture des formats Microsoft Word. La valeur par défaut estFAUX .
 type: docs
 weight: 120
 url: /fr/net/aspose.words.loading/loadoptions/preserveincludepicturefield/
 ---
 ## LoadOptions.PreserveIncludePictureField property
 
-Obtient ou définit s'il faut conserver le champ INCLUDEPICTURE lors de la lecture des formats Microsoft Word. La valeur par défaut est false.
+Obtient ou définit s'il faut conserver le champ INCLUDEPICTURE lors de la lecture des formats Microsoft Word. La valeur par défaut est`FAUX` .
 
 ```csharp
 public bool PreserveIncludePictureField { get; set; }
@@ -16,13 +16,13 @@ public bool PreserveIncludePictureField { get; set; }
 
 ### Remarques
 
-Par défaut, le champ INCLUDEPICTURE est converti en un objet forme. Vous pouvez remplacer cela si vous avez besoin du champ à conserver, par exemple, si vous souhaitez le mettre à jour par programmation. Notez cependant que cette approche n'est pas courante pour Aspose.Words. Utilisez-le à vos risques et périls.
+Par défaut, le champ INCLUDEPICTURE est converti en objet forme. Vous pouvez remplacer cela si vous avez besoin que le champ soit préservé, par exemple, si vous souhaitez le mettre à jour par programme. Notez cependant que l'approche this n'est pas courante pour Aspose.Words. Utilisez-le à vos propres risques.
 
-L'un des cas d'utilisation possibles peut être l'utilisation d'un MERGEFIELD comme champ enfant pour modifier dynamiquement le chemin source de l'image. Dans ce cas, vous avez besoin que l'INCLUDEPICTURE soit conservé dans le modèle.
+L'un des cas d'utilisation possibles peut consister à utiliser un MERGEFIELD comme champ enfant pour modifier dynamiquement le chemin source de l'image. Dans ce cas, vous devez conserver INCLUDEPICTURE dans le modèle.
 
 ### Exemples
 
-Montre comment conserver ou ignorer les champs INCLUDEPICTURE lors du chargement d'un document.
+Montre comment conserver ou supprimer les champs INCLUDEPICTURE lors du chargement d’un document.
 
 ```csharp
 Document doc = new Document();
@@ -36,7 +36,7 @@ using (MemoryStream docStream = new MemoryStream())
 {
     doc.Save(docStream, new OoxmlSaveOptions(SaveFormat.Docx));
 
-    // Nous pouvons définir un indicateur dans un objet LoadOptions pour décider de convertir tous les champs INCLUDEPICTURE
+    // Nous pouvons définir un indicateur dans un objet LoadOptions pour décider s'il faut convertir tous les champs INCLUDEPICTURE
     // dans les formes d'image lors du chargement d'un document qui les contient.
     LoadOptions loadOptions = new LoadOptions
     {

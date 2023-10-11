@@ -3,7 +3,7 @@ title: Enum FontFamily
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Aspose.Words.Fonts.FontFamily énumération. Représente la famille de polices.
 type: docs
-weight: 2730
+weight: 2910
 url: /fr/net/aspose.words.fonts/fontfamily/
 ---
 ## FontFamily enumeration
@@ -19,19 +19,19 @@ public enum FontFamily
 | Nom | Évaluer | La description |
 | --- | --- | --- |
 | Auto | `0` | Spécifie un nom de famille générique. Ce nom est utilisé lorsque les informations sur une police n'existent pas ou n'ont pas d'importance. La police par défaut est utilisée. |
-| Roman | `1` | Spécifie une police proportionnelle avec empattements. Un exemple est Times New Roman. |
+| Roman | `1` | Spécifie une police proportionnelle avec des empattements. Un exemple est Times New Roman. |
 | Swiss | `2` | Spécifie une police proportionnelle sans empattements. Un exemple est Arial. |
-| Modern | `3` | Spécifie une police monospace avec ou sans empattements. Les polices à espacement fixe sont généralement modernes ; les exemples incluent Pica, Elite et Courier New. |
+| Modern | `3` | Spécifie une police à espacement fixe avec ou sans empattements. Les polices monospaces sont généralement modernes ; les exemples incluent Pica, Elite et Courier New. |
 | Script | `4` | Spécifie une police conçue pour ressembler à une écriture manuscrite ; les exemples incluent Script et Cursive. |
 | Decorative | `5` | Spécifie une police de nouveauté. Un exemple est le vieil anglais. |
 
 ### Remarques
 
-Une famille de polices est un ensemble de polices ayant des caractéristiques communes d'épaisseur de trait et d'empattement.
+Une famille de polices est un ensemble de polices ayant des caractéristiques communes de largeur de trait et d’empattement.
 
 ### Exemples
 
-Montre comment accéder aux détails de chaque police dans un document et les imprimer.
+Montre comment accéder et imprimer les détails de chaque police dans un document.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");

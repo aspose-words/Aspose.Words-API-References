@@ -1,14 +1,14 @@
 ---
 title: PageSetup.BorderDistanceFrom
 second_title: Référence de l'API Aspose.Words pour .NET
-description: PageSetup propriété. Obtient ou définit une valeur qui indique si la bordure de page spécifiée est mesurée à partir du bord de la page ou du texte quelle entoure.
+description: PageSetup propriété. Obtient ou définit une valeur qui indique si la bordure de page spécifiée est mesurée à partir du bord de la page ou à partir du texte quelle entoure.
 type: docs
 weight: 40
 url: /fr/net/aspose.words/pagesetup/borderdistancefrom/
 ---
 ## PageSetup.BorderDistanceFrom property
 
-Obtient ou définit une valeur qui indique si la bordure de page spécifiée est mesurée à partir du bord de la page ou du texte qu'elle entoure.
+Obtient ou définit une valeur qui indique si la bordure de page spécifiée est mesurée à partir du bord de la page ou à partir du texte qu'elle entoure.
 
 ```csharp
 public PageBorderDistanceFrom BorderDistanceFrom { get; set; }
@@ -16,7 +16,7 @@ public PageBorderDistanceFrom BorderDistanceFrom { get; set; }
 
 ### Exemples
 
-Montre comment créer une bordure à large bande bleue en haut de la première page.
+Montre comment créer une large bordure bleue en haut de la première page.
 
 ```csharp
 Document doc = new Document();

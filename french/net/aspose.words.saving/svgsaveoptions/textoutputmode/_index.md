@@ -1,14 +1,14 @@
 ---
 title: SvgSaveOptions.TextOutputMode
 second_title: Référence de l'API Aspose.Words pour .NET
-description: SvgSaveOptions propriété. Obtient ou définit une valeur déterminant comment le texte doit être rendu en SVG.
+description: SvgSaveOptions propriété. Obtient ou définit une valeur déterminant la façon dont le texte doit être rendu dans SVG.
 type: docs
 weight: 90
 url: /fr/net/aspose.words.saving/svgsaveoptions/textoutputmode/
 ---
 ## SvgSaveOptions.TextOutputMode property
 
-Obtient ou définit une valeur déterminant comment le texte doit être rendu en SVG.
+Obtient ou définit une valeur déterminant la façon dont le texte doit être rendu dans SVG.
 
 ```csharp
 public SvgTextOutputMode TextOutputMode { get; set; }
@@ -27,7 +27,7 @@ Montre comment imiter les propriétés des images lors de la conversion d'un doc
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
 
-// Configurez l'objet SvgSaveOptions pour enregistrer sans bordures de page ni texte sélectionnable.
+// Configurez l'objet SvgSaveOptions pour qu'il soit enregistré sans bordure de page ni texte sélectionnable.
 SvgSaveOptions options = new SvgSaveOptions
 {
     FitToViewPort = true,

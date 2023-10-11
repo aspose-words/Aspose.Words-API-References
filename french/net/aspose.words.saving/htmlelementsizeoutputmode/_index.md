@@ -1,14 +1,14 @@
 ---
 title: Enum HtmlElementSizeOutputMode
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Saving.HtmlElementSizeOutputMode énumération. Spécifie comment Aspose.Words exporte les largeurs et hauteurs des éléments vers HTML MHTML et EPUB.
+description: Aspose.Words.Saving.HtmlElementSizeOutputMode énumération. Spécifie comment Aspose.Words exporte les largeurs et hauteurs des éléments au format HTML MHTML et EPUB.
 type: docs
-weight: 4800
+weight: 5060
 url: /fr/net/aspose.words.saving/htmlelementsizeoutputmode/
 ---
 ## HtmlElementSizeOutputMode enumeration
 
-Spécifie comment Aspose.Words exporte les largeurs et hauteurs des éléments vers HTML, MHTML et EPUB.
+Spécifie comment Aspose.Words exporte les largeurs et hauteurs des éléments au format HTML, MHTML et EPUB.
 
 ```csharp
 public enum HtmlElementSizeOutputMode
@@ -30,7 +30,7 @@ Montre comment conserver les retraits négatifs dans le fichier .html de sortie.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Insère un tableau avec un retrait négatif, qui le poussera vers la gauche au-delà de la limite de page gauche.
+// Insère un tableau avec un retrait négatif, ce qui le poussera vers la gauche au-delà de la limite gauche de la page.
 Table table = builder.StartTable();
 builder.InsertCell();
 builder.Write("Row 1, Cell 1");
@@ -53,8 +53,8 @@ table.LeftIndent = 36;
 table.PreferredWidth = PreferredWidth.FromPoints(144);
 
 // Lorsque nous enregistrons un document au format HTML, Aspose.Words ne conservera que les retraits négatifs
-// tel que celui que nous avons appliqué à la première table si nous définissons le drapeau "AllowNegativeIndent"
-// dans un objet SaveOptions que nous passerons à "true".
+// comme celui que nous avons appliqué à la première table si nous définissons le flag "AllowNegativeIndent"
+// dans un objet SaveOptions que l'on passera à "true".
 HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.Html)
 {
     AllowNegativeIndent = allowNegativeIndent,

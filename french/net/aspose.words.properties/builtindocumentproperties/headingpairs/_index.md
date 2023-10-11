@@ -1,14 +1,14 @@
 ---
 title: BuiltInDocumentProperties.HeadingPairs
 second_title: Référence de l'API Aspose.Words pour .NET
-description: BuiltInDocumentProperties propriété. Spécifie les entêtes de document et leurs noms.
+description: BuiltInDocumentProperties propriété. Spécifie les entêtes des documents et leurs noms.
 type: docs
 weight: 110
 url: /fr/net/aspose.words.properties/builtindocumentproperties/headingpairs/
 ---
 ## BuiltInDocumentProperties.HeadingPairs property
 
-Spécifie les en-têtes de document et leurs noms.
+Spécifie les en-têtes des documents et leurs noms.
 
 ```csharp
 public object[] HeadingPairs { get; set; }
@@ -16,28 +16,28 @@ public object[] HeadingPairs { get; set; }
 
 ### Remarques
 
-Chaque paire d'en-tête occupe deux éléments dans ce tableau.
+Chaque paire de titres occupe deux éléments de ce tableau.
 
-Le premier élément de la paire est unString et spécifie le nom de la rubrique. Le deuxième élément de la paire est unInt32 et spécifie le nombre de pièces document pour cet en-tête dans le[`TitlesOfParts`](../titlesofparts/) propriété.
+Le premier élément de la paire est unString et précise le nom de la rubrique. Le deuxième élément de la paire est unInt32 et spécifie le nombre de parties document pour cet en-tête dans le[`TitlesOfParts`](../titlesofparts/) propriété.
 
-La somme totale des décomptes pour toutes les paires d'en-têtes de cette propriété doit être égale au nombre d'éléments dans le[`TitlesOfParts`](../titlesofparts/) propriété.
+La somme totale des comptes pour toutes les paires de titres de cette propriété doit être égale au nombre d'éléments dans la propriété.[`TitlesOfParts`](../titlesofparts/) propriété.
 
 Aspose.Words ne met pas à jour cette propriété.
 
 ### Exemples
 
-Affiche la relation entre les propriétés "HeadingPairs" et "TitlesOfParts".
+Affiche la relation entre les propriétés « HeadingPairs » et « TitlesOfParts ».
 
 ```csharp
 Document doc = new Document(MyDir + "Heading pairs and titles of parts.docx");
 
-// Nous pouvons trouver les valeurs combinées de ces collections via
+// On peut trouver les valeurs combinées de ces collections via
 // "Fichier" -> "Propriétés" -> "Propriétés avancées" -> Onglet "Contenu".
-// La propriété HeadingPairs est une collection de <string, int> paires qui
-// détermine le nombre de parties de document sur lesquelles un titre s'étend.
+// La propriété HeadingPairs est une collection de <string, int> des paires qui
+// détermine le nombre de parties de document qu'un en-tête couvre.
 object[] headingPairs = doc.BuiltInDocumentProperties.HeadingPairs;
 
-// La propriété TitlesOfParts contient les noms des parties qui appartiennent aux en-têtes ci-dessus.
+// La propriété TitlesOfParts contient les noms des parties appartenant aux en-têtes ci-dessus.
 string[] titlesOfParts = doc.BuiltInDocumentProperties.TitlesOfParts;
 
 int headingPairsIndex = 0;

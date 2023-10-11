@@ -3,7 +3,7 @@ title: Enum CellVerticalAlignment
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Aspose.Words.Tables.CellVerticalAlignment énumération. Spécifie la justification verticale du texte à lintérieur dune cellule de tableau.
 type: docs
-weight: 5980
+weight: 6280
 url: /fr/net/aspose.words.tables/cellverticalalignment/
 ---
 ## CellVerticalAlignment enumeration
@@ -54,7 +54,7 @@ builder.Write("Row 2, cell 2.");
 builder.EndRow();
 builder.EndTable();
 
-// Les lignes et les cellules ajoutées précédemment ne sont pas affectées rétroactivement par les modifications apportées à la mise en forme du générateur.
+// Les lignes et cellules précédemment ajoutées ne sont pas affectées rétroactivement par les modifications apportées au formatage du générateur.
 Assert.AreEqual(0, table.Rows[0].RowFormat.Height);
 Assert.AreEqual(HeightRule.Auto, table.Rows[0].RowFormat.HeightRule);
 Assert.AreEqual(100, table.Rows[1].RowFormat.Height);

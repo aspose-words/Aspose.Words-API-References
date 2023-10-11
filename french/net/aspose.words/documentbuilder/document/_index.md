@@ -1,14 +1,14 @@
 ---
 title: DocumentBuilder.Document
 second_title: Référence de l'API Aspose.Words pour .NET
-description: DocumentBuilder propriété. Obtient ou définit leDocument objet auquel cet objet est attaché.
+description: DocumentBuilder propriété. Obtient ou définit leDocumentobjet auquel cet objet est attaché.
 type: docs
-weight: 80
+weight: 90
 url: /fr/net/aspose.words/documentbuilder/document/
 ---
 ## DocumentBuilder.Document property
 
-Obtient ou définit le`Document` objet auquel cet objet est attaché.
+Obtient ou définit le`Document`objet auquel cet objet est attaché.
 
 ```csharp
 public Document Document { get; set; }
@@ -16,19 +16,19 @@ public Document Document { get; set; }
 
 ### Exemples
 
-Montre comment appliquer et rétablir les paramètres de mise en page aux sections d'un document.
+Montre comment appliquer et rétablir les paramètres de mise en page aux sections d’un document.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Modifie les propriétés de mise en page pour la section actuelle du générateur et ajoute du texte.
+// Modifie les propriétés de mise en page de la section actuelle du générateur et ajoute du texte.
 builder.PageSetup.Orientation = Orientation.Landscape;
 builder.PageSetup.VerticalAlignment = PageVerticalAlignment.Center;
 builder.Writeln("This is the first section, which landscape oriented with vertically centered text.");
 
-// Si nous commençons une nouvelle section en utilisant un générateur de document,
-// il héritera des propriétés de configuration de page actuelles du générateur.
+// Si on démarre une nouvelle section en utilisant un générateur de documents,
+// il héritera des propriétés de mise en page actuelles du constructeur.
 builder.InsertBreak(BreakType.SectionBreakNewPage);
 
 Assert.AreEqual(Orientation.Landscape, doc.Sections[1].PageSetup.Orientation);

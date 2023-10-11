@@ -16,7 +16,7 @@ public Color UnderlineColor { get; set; }
 
 ### Exemples
 
-Montre comment configurer le style et la couleur d'un texte souligné.
+Montre comment configurer le style et la couleur du soulignement d’un texte.
 
 ```csharp
 Document doc = new Document();

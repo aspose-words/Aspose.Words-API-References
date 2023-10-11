@@ -1,14 +1,14 @@
 ---
 title: MailMergeRegionInfo.Level
 second_title: Référence de l'API Aspose.Words pour .NET
-description: MailMergeRegionInfo propriété. Renvoie le niveau dimbrication de la région.
+description: MailMergeRegionInfo propriété. Renvoie le niveau dimbrication pour la région.
 type: docs
-weight: 30
+weight: 40
 url: /fr/net/aspose.words.mailmerging/mailmergeregioninfo/level/
 ---
 ## MailMergeRegionInfo.Level property
 
-Renvoie le niveau d'imbrication de la région.
+Renvoie le niveau d'imbrication pour la région.
 
 ```csharp
 public int Level { get; }
@@ -16,7 +16,7 @@ public int Level { get; }
 
 ### Exemples
 
-Montre comment vérifier les régions de fusion et publipostage.
+Montre comment vérifier les régions de publipostage.
 
 ```csharp
 Document doc = new Document(MyDir + "Mail merge regions.docx");
@@ -24,7 +24,7 @@ Document doc = new Document(MyDir + "Mail merge regions.docx");
 // Renvoie une hiérarchie complète des régions de fusion contenant les MERGEFIELD disponibles dans le document.
 MailMergeRegionInfo regionInfo = doc.MailMerge.GetRegionsHierarchy();
 
-// Récupère les régions supérieures dans le document.
+// Récupère les principales régions du document.
 IList<MailMergeRegionInfo> topRegions = regionInfo.Regions;
 
 Assert.AreEqual(2, topRegions.Count);

@@ -3,7 +3,7 @@ title: TxtLoadOptions.DocumentDirection
 second_title: Référence de l'API Aspose.Words pour .NET
 description: TxtLoadOptions propriété. Obtient ou définit une direction de document. La valeur par défaut estLeftToRight .
 type: docs
-weight: 30
+weight: 50
 url: /fr/net/aspose.words.loading/txtloadoptions/documentdirection/
 ---
 ## TxtLoadOptions.DocumentDirection property
@@ -16,15 +16,15 @@ public DocumentDirection DocumentDirection { get; set; }
 
 ### Exemples
 
-Montre comment détecter la direction du texte d'un document en clair.
+Montre comment détecter la direction du texte d'un document en texte brut.
 
 ```csharp
-// Crée un objet "TxtLoadOptions", que nous pouvons passer au constructeur d'un document
-// pour modifier la façon dont nous chargeons un document en clair.
+// Crée un objet "TxtLoadOptions", que l'on peut transmettre au constructeur d'un document
+// pour modifier la façon dont nous chargeons un document en texte brut.
 TxtLoadOptions loadOptions = new TxtLoadOptions();
 
-// Définir la propriété "DocumentDirection" sur "DocumentDirection.Auto" détecte automatiquement
-// la direction de chaque paragraphe de texte qu'Aspose.Words charge à partir du texte brut.
+// Définissez la propriété "DocumentDirection" sur "DocumentDirection.Auto" détecte automatiquement
+// la direction de chaque paragraphe de texte chargé par Aspose.Words à partir du texte brut.
 // La propriété "Bidi" de chaque paragraphe stockera sa direction.
 loadOptions.DocumentDirection = DocumentDirection.Auto;
 

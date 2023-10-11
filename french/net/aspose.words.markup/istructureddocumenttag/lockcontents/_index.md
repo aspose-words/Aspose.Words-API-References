@@ -1,14 +1,14 @@
 ---
 title: IStructuredDocumentTag.LockContents
 second_title: Référence de l'API Aspose.Words pour .NET
-description: IStructuredDocumentTag propriété. Lorsquelle est définie sur true cette propriété interdit à un utilisateur de modifier le contenu de ce TDS .
+description: IStructuredDocumentTag propriété. Lorsquelle est définie sur true cette propriété interdira à un utilisateur de modifier le contenu de ce TSD .
 type: docs
 weight: 60
 url: /fr/net/aspose.words.markup/istructureddocumenttag/lockcontents/
 ---
 ## IStructuredDocumentTag.LockContents property
 
-Lorsqu'elle est définie sur true, cette propriété interdit à un utilisateur de modifier le contenu de ce **TDS** .
+Lorsqu'elle est définie sur true, cette propriété interdira à un utilisateur de modifier le contenu de ce **TSD** .
 
 ```csharp
 public bool LockContents { get; set; }

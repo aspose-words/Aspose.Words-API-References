@@ -1,14 +1,14 @@
 ---
 title: Paragraph.ListFormat
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Paragraph propriété. Permet daccéder aux propriétés de formatage de la liste du paragraphe.
+description: Paragraph propriété. Donne accès aux propriétés de formatage de liste du paragraphe.
 type: docs
 weight: 150
 url: /fr/net/aspose.words/paragraph/listformat/
 ---
 ## Paragraph.ListFormat property
 
-Permet d'accéder aux propriétés de formatage de la liste du paragraphe.
+Donne accès aux propriétés de formatage de liste du paragraphe.
 
 ```csharp
 public ListFormat ListFormat { get; }
@@ -16,7 +16,7 @@ public ListFormat ListFormat { get; }
 
 ### Exemples
 
-Montre comment sortir tous les paragraphes d'un document qui sont des éléments de liste.
+Montre comment afficher tous les paragraphes d’un document qui sont des éléments de liste.
 
 ```csharp
 Document doc = new Document();

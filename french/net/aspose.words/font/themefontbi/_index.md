@@ -1,14 +1,14 @@
 ---
 title: Font.ThemeFontBi
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Font propriété. Obtient ou définit la police de thème dans le jeu de polices appliqué qui est associé à cet objet Font dans un document de langue de droite à gauche.
+description: Font propriété. Obtient ou définit la police du thème dans le jeu de polices appliqué associé à ce thème.Font object dans un document linguistique rédigé de droite à gauche.
 type: docs
 weight: 490
 url: /fr/net/aspose.words/font/themefontbi/
 ---
 ## Font.ThemeFontBi property
 
-Obtient ou définit la police de thème dans le jeu de polices appliqué qui est associé à cet objet Font dans un document de langue de droite à gauche.
+Obtient ou définit la police du thème dans le jeu de polices appliqué associé à ce thème.[`Font`](../) object dans un document linguistique rédigé de droite à gauche.
 
 ```csharp
 public ThemeFont ThemeFontBi { get; set; }
@@ -16,12 +16,12 @@ public ThemeFont ThemeFontBi { get; set; }
 
 ### Exemples
 
-Montre comment travailler avec les polices et les couleurs de thème.
+Montre comment utiliser les polices et les couleurs du thème.
 
 ```csharp
 Document doc = new Document();
 
-// Définit les polices pour les langues utilisées par défaut.
+// Définir les polices pour les langues utilisées par défaut.
 doc.Theme.MinorFonts.Latin = "Algerian";
 doc.Theme.MinorFonts.EastAsian = "Aharoni";
 doc.Theme.MinorFonts.ComplexScript = "Andalus";
@@ -51,7 +51,7 @@ Assert.AreEqual("Algerian", font.NameOther);
 Assert.AreEqual(ThemeColor.Accent2, font.ThemeColor);
 Assert.AreEqual(Color.Empty, font.Color);
 
-// Il existe plusieurs façons de réinitialiser leur police et leur couleur.
+// Il existe plusieurs façons de réinitialiser la police et la couleur.
 // 1 - En définissant ThemeFont.None/ThemeColor.None :
 font.ThemeFont = ThemeFont.None;
 font.ThemeColor = ThemeColor.None;

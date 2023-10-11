@@ -3,12 +3,14 @@ title: Class ImageFieldMergingArgs
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Aspose.Words.MailMerging.ImageFieldMergingArgs classe. Fournit des données pour leImageFieldMerging événement.
 type: docs
-weight: 3610
+weight: 3830
 url: /fr/net/aspose.words.mailmerging/imagefieldmergingargs/
 ---
 ## ImageFieldMergingArgs class
 
 Fournit des données pour le[`ImageFieldMerging`](../ifieldmergingcallback/imagefieldmerging/) événement.
+
+Pour en savoir plus, visitez le[Fusion et publipostage et création de rapports](https://docs.aspose.com/words/net/mail-merge-and-reporting/) article documentaire.
 
 ```csharp
 public class ImageFieldMergingArgs : FieldMergingArgsBase
@@ -26,7 +28,7 @@ public class ImageFieldMergingArgs : FieldMergingArgsBase
 | [Image](../../aspose.words.mailmerging/imagefieldmergingargs/image/) { get; set; } | Spécifie l'image que le moteur de publipostage doit insérer dans le document. |
 | [ImageFileName](../../aspose.words.mailmerging/imagefieldmergingargs/imagefilename/) { get; set; } | Définit le nom de fichier de l'image que le moteur de publipostage doit insérer dans le document. |
 | [ImageHeight](../../aspose.words.mailmerging/imagefieldmergingargs/imageheight/) { get; set; } | Spécifie la hauteur de l'image à insérer dans le document. |
-| [ImageStream](../../aspose.words.mailmerging/imagefieldmergingargs/imagestream/) { get; set; } | Spécifie le flux à partir duquel le moteur de publipostage lit une image. |
+| [ImageStream](../../aspose.words.mailmerging/imagefieldmergingargs/imagestream/) { get; set; } | Spécifie le flux à partir duquel le moteur de publipostage doit lire une image. |
 | [ImageWidth](../../aspose.words.mailmerging/imagefieldmergingargs/imagewidth/) { get; set; } | Spécifie la largeur de l'image à insérer dans le document. |
 | [RecordIndex](../../aspose.words.mailmerging/fieldmergingargsbase/recordindex/) { get; } | Obtient l'index de base zéro de l'enregistrement en cours de fusion. |
 | [Shape](../../aspose.words.mailmerging/imagefieldmergingargs/shape/) { get; set; } | Spécifie la forme que le moteur de publipostage doit insérer dans le document. |
@@ -34,11 +36,11 @@ public class ImageFieldMergingArgs : FieldMergingArgsBase
 
 ### Remarques
 
-Cet événement se produit lors du publipostage lorsqu'un champ image mail merge est rencontré dans le document. Vous pouvez répondre à cet événement pour renvoyer un nom de fichier, un flux ou unImage objet au moteur de publipostage afin qu'il soit inséré dans le document.
+Cet événement se produit lors d'un publipostage lorsqu'un champ image mail merge est rencontré dans le document. Vous pouvez répondre à cet événement pour renvoyer un nom de fichier a , un flux ou unImage objet au moteur mail merge afin qu'il soit inséré dans le document.
 
 Il y a trois propriétés disponibles[`ImageFileName`](./imagefilename/) , [`ImageStream`](./imagestream/) et[`Image`](./image/) pour spécifier d'où l'image doit être prise. Définissez une seule de ces propriétés.
 
-Pour insérer un champ de fusion et publipostage d'image dans un document dans Word, sélectionnez la commande Insert/Field, puis sélectionnez MergeField et tapez Image:MyFieldName.
+Pour insérer un champ de fusion et publipostage image dans un document dans Word, sélectionnez Commande Insérer/Champ, puis sélectionnez MergeField et tapez Image:MyFieldName.
 
 ### Exemples
 
@@ -51,14 +53,14 @@ public void ImageFromBlob()
 
     doc.MailMerge.FieldMergingCallback = new HandleMergeImageFieldFromBlob();
 
-    string connString = $"Provider=Microsoft.Jet.OLEDB.4.0;Data Source={DatabaseDir + "Northwind.mdb"};";
+    string connString = $"Provider=Microsoft.ACE.OLEDB.12.0;Data Source={DatabaseDir + "Northwind.accdb"};";
     string query = "SELECT FirstName, LastName, Title, Address, City, Region, Country, PhotoBLOB FROM Employees";
 
     using (OleDbConnection conn = new OleDbConnection(connString))
     {
         conn.Open();
 
-        // Ouvre le lecteur de données, qui doit être dans un mode qui lit tous les enregistrements à la fois.
+        // Ouvrez le lecteur de données, qui doit être dans un mode permettant de lire tous les enregistrements en même temps.
         OleDbCommand cmd = new OleDbCommand(query, conn);
         IDataReader dataReader = cmd.ExecuteReader();
 
@@ -66,6 +68,7 @@ public void ImageFromBlob()
     }
 
     doc.Save(ArtifactsDir + "MailMergeEvent.ImageFromBlob.docx");
+}
 
 private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
 {
@@ -75,7 +78,7 @@ private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
     }
 
     /// <summary>
-    /// Ceci est appelé lorsqu'un publipostage rencontre un MERGEFIELD dans le document avec une balise "Image :" dans son nom.
+    /// Ceci est appelé lorsqu'un publipostage rencontre un MERGEFIELD dans le document avec une balise "Image:" dans son nom.
     /// </summary>
     void IFieldMergingCallback.ImageFieldMerging(ImageFieldMergingArgs e)
     {
@@ -85,9 +88,10 @@ private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
 }
 ```
 
-Montre comment définir les dimensions des images lorsque MERGEFIELDS les accepte lors d'un publipostage.
+Montre comment définir les dimensions des images telles que MERGEFIELDS les accepte lors d'un publipostage.
 
 ```csharp
+public void MergeFieldImageDimension()
 {
     Document doc = new Document();
 
@@ -99,22 +103,23 @@ Montre comment définir les dimensions des images lorsque MERGEFIELDS les accept
     // La source de données doit avoir une telle colonne nommée "ImageColumn".
     Assert.AreEqual("Image:ImageColumn", field.FieldName);
 
-    // Crée une source de données appropriée.
+    // Créez une source de données appropriée.
     DataTable dataTable = new DataTable("Images");
     dataTable.Columns.Add(new DataColumn("ImageColumn"));
     dataTable.Rows.Add(ImageDir + "Logo.jpg");
     dataTable.Rows.Add(ImageDir + "Transparent background logo.png");
     dataTable.Rows.Add(ImageDir + "Enhanced Windows MetaFile.emf");
 
-    // Configurez un rappel pour modifier la taille des images au moment de la fusion, puis exécutez le publipostage.
+    // Configurez un rappel pour modifier les tailles des images au moment de la fusion, puis exécutez le publipostage.
     doc.MailMerge.FieldMergingCallback = new MergedImageResizer(200, 200, MergeFieldImageDimensionUnit.Point);
     doc.MailMerge.Execute(dataTable);
 
     doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.MERGEFIELD.ImageDimension.docx");
+}
 
 /// <summary>
-/// Définit la taille de toutes les images fusionnées par courrier à une largeur et une hauteur définies.
+/// Définit la taille de toutes les images fusionnées par courrier sur une largeur et une hauteur définies.
 /// </summary>
 private class MergedImageResizer : IFieldMergingCallback
 {

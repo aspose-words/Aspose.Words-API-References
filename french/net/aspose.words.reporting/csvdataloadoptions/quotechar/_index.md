@@ -18,7 +18,7 @@ public char QuoteChar { get; set; }
 
 La valeur par défaut est '"' (guillemet).
 
-Doublez le caractère pour le placer dans le texte entre guillemets.
+Doublez le caractère pour le placer dans le texte cité.
 
 ### Voir également
 

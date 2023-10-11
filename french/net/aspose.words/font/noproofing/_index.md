@@ -23,7 +23,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Normalement, Microsoft Word met l'accent sur les fautes d'orthographe avec un soulignement rouge irrégulier.
-// Nous pouvons désactiver le drapeau "NoProofing" pour créer une portion de texte qui
+// Nous pouvons désactiver l'indicateur "NoProofing" pour créer une partie de texte qui
 // contourne le correcteur orthographique tout en le désactivant complètement.
 builder.Font.NoProofing = true;
 

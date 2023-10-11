@@ -1,14 +1,14 @@
 ---
 title: PageSetup.OddAndEvenPagesHeaderFooter
 second_title: Référence de l'API Aspose.Words pour .NET
-description: PageSetup propriété. Vraisi le document a des entêtes et des pieds de page différents pour les pages paires et impaires.
+description: PageSetup propriété. Vrai si le document comporte des entêtes et des pieds de page différents pour les pages impaires et paires.
 type: docs
-weight: 270
+weight: 280
 url: /fr/net/aspose.words/pagesetup/oddandevenpagesheaderfooter/
 ---
 ## PageSetup.OddAndEvenPagesHeaderFooter property
 
-**Vrai**si le document a des en-têtes et des pieds de page différents pour les pages paires et impaires.
+Vrai si le document comporte des en-têtes et des pieds de page différents pour les pages impaires et paires.
 
 ```csharp
 public bool OddAndEvenPagesHeaderFooter { get; set; }
@@ -26,11 +26,11 @@ Montre comment créer des en-têtes et des pieds de page dans un document à l'a
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Spécifiez que nous voulons des en-têtes et des pieds de page différents pour les premières pages, paires et impaires.
+// Spécifie que nous voulons des en-têtes et pieds de page différents pour les premières pages, paires et impaires.
 builder.PageSetup.DifferentFirstPageHeaderFooter = true;
 builder.PageSetup.OddAndEvenPagesHeaderFooter = true;
 
-// Crée les en-têtes, puis ajoute trois pages au document pour afficher chaque type d'en-tête.
+// Créez les en-têtes, puis ajoutez trois pages au document pour afficher chaque type d'en-tête.
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderFirst);
 builder.Write("Header for the first page");
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderEven);
@@ -56,7 +56,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Vous trouverez ci-dessous deux types d'en-tête/pied de page.
 // 1 - L'en-tête/pied de page "Primaire", qui apparaît sur chaque page de la section.
-// Nous pouvons remplacer l'en-tête/pied de page principal par un premier et un en-tête/pied de page pair.
+ // Nous pouvons remplacer l'en-tête/pied de page principal par un premier en-tête/pied de page pair.
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 builder.Writeln("Primary header.");
 
@@ -77,11 +77,11 @@ builder.Writeln("Page 2.");
 builder.InsertBreak(BreakType.PageBreak);
 builder.Writeln("Page 3.");
 
-// Chaque section a un objet "PageSetup" qui spécifie les propriétés liées à l'apparence de la page
-// tels que l'orientation, la taille et les bordures.
-// Définissez la propriété "OddAndEvenPagesHeaderFooter" sur "true"
+// Chaque section possède un objet "PageSetup" qui spécifie les propriétés liées à l'apparence de la page
+// comme l'orientation, la taille et les bordures.
+// Définit la propriété "OddAndEvenPagesHeaderFooter" sur "true"
 // pour afficher l'en-tête/pied de page pair sur les pages paires.
-// Définissez la propriété "OddAndEvenPagesHeaderFooter" sur "false"
+// Définit la propriété "OddAndEvenPagesHeaderFooter" sur "false"
 // pour afficher l'en-tête/pied de page principal sur les pages paires.
 builder.PageSetup.OddAndEvenPagesHeaderFooter = oddAndEvenPagesHeaderFooter;
 

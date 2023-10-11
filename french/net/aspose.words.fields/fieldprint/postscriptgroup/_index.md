@@ -16,7 +16,7 @@ public string PostScriptGroup { get; set; }
 
 ### Exemples
 
-Indique d'insérer un champ PRINT.
+Montre pour insérer un champ PRINT.
 
 ```csharp
 Document doc = new Document();
@@ -27,7 +27,7 @@ builder.Write("My paragraph");
 // Le champ PRINT peut envoyer des instructions à l'imprimante.
 FieldPrint field = (FieldPrint)builder.InsertField(FieldType.FieldPrint, true);
 
-// Définit la zone sur laquelle l'imprimante exécutera les instructions.
+// Définit la zone sur laquelle l'imprimante doit exécuter les instructions.
 // Dans ce cas, ce sera le paragraphe qui contient notre champ PRINT.
 field.PostScriptGroup = "para";
 

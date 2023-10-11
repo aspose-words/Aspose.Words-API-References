@@ -20,19 +20,19 @@ public override bool Accept(DocumentVisitor visitor)
 
 ### Return_Value
 
-Vrai si tous les nœuds ont été visités ; false si DocumentVisitor a arrêté l'opération avant de visiter tous les nœuds.
+Vrai si tous les nœuds ont été visités ; faux si[`DocumentVisitor`](../../../aspose.words/documentvisitor/) arrêté l'opération avant de visiter tous les nœuds.
 
 ### Remarques
 
-Énumère ce nœud et tous ses enfants. Chaque nœud appelle une méthode correspondante sur DocumentVisitor.
+Énumère ce nœud et tous ses enfants. Chaque nœud appelle une méthode correspondante sur[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
 
-Pour plus d'informations, consultez le modèle de conception Visiteur.
+Pour plus d’informations, consultez le modèle de conception Visiteur.
 
-Appels[`VisitGroupShapeStart`](../../../aspose.words/documentvisitor/visitgroupshapestart/) , puis appelle[`Accept`](../../../aspose.words/node/accept/) pour toutes les formes enfant de cette forme de groupe et appels[`VisitGroupShapeEnd`](../../../aspose.words/documentvisitor/visitgroupshapeend/) à la fin.
+Appels[`VisitGroupShapeStart`](../../../aspose.words/documentvisitor/visitgroupshapestart/) , puis appelle[`Accept`](../../../aspose.words/node/accept/) pour toutes les formes enfants de cette forme et de ces appels de groupe[`VisitGroupShapeEnd`](../../../aspose.words/documentvisitor/visitgroupshapeend/) à la fin.
 
 ### Exemples
 
-Montre comment créer un groupe de formes et imprimer son contenu à l'aide d'un visiteur de document.
+Montre comment créer un groupe de formes et imprimer son contenu à l’aide d’un visiteur de document.
 
 ```csharp
 public void GroupOfShapes()
@@ -40,7 +40,7 @@ public void GroupOfShapes()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Si vous avez besoin de créer des formes "NonPrimitives", telles que SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
+    // Si vous devez créer des formes "NonPrimitive", telles que SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
     // TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded, DiagonalCornersRounded
     // veuillez utiliser les méthodes DocumentBuilder.InsertShape.
     Shape balloon = new Shape(doc, ShapeType.Balloon)

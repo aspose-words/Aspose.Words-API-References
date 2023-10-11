@@ -1,14 +1,16 @@
 ---
 title: Class ShadowFormat
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Drawing.ShadowFormat classe. Représente la mise en forme de lombre pour un objet.
+description: Aspose.Words.Drawing.ShadowFormat classe. Représente le formatage de lombre pour un objet.
 type: docs
-weight: 1080
+weight: 1230
 url: /fr/net/aspose.words.drawing/shadowformat/
 ---
 ## ShadowFormat class
 
-Représente la mise en forme de l'ombre pour un objet.
+Représente le formatage de l'ombre pour un objet.
+
+Pour en savoir plus, visitez le[Travailler avec des éléments graphiques](https://docs.aspose.com/words/net/working-with-graphic-elements/) article documentaire.
 
 ```csharp
 public class ShadowFormat

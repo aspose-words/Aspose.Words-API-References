@@ -3,12 +3,14 @@ title: Class FieldRevNum
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Aspose.Words.Fields.FieldRevNum classe. Implémente le champ REVNUM.
 type: docs
-weight: 2190
+weight: 2340
 url: /fr/net/aspose.words.fields/fieldrevnum/
 ---
 ## FieldRevNum class
 
 Implémente le champ REVNUM.
+
+Pour en savoir plus, visitez le[Travailler avec des champs](https://docs.aspose.com/words/net/working-with-fields/) article documentaire.
 
 ```csharp
 public class FieldRevNum : Field
@@ -30,8 +32,8 @@ public class FieldRevNum : Field
 | [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | Obtient ou définit si le résultat actuel du champ n'est plus correct (périmé) en raison d'autres modifications apportées au document. |
 | [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Obtient ou définit si le champ est verrouillé (ne doit pas recalculer son résultat). |
 | [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | Obtient ou définit le LCID du champ. |
-| [Result](../../aspose.words.fields/field/result/) { get; set; } | Obtient ou définit le texte qui se trouve entre le séparateur de champ et la fin du champ. |
-| [Separator](../../aspose.words.fields/field/separator/) { get; } | Obtient le nœud qui représente le séparateur de champs. Peut être null. |
+| [Result](../../aspose.words.fields/field/result/) { get; set; } | Obtient ou définit le texte situé entre le séparateur de champ et la fin du champ. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | Obtient le nœud qui représente le séparateur de champ. Peut être`nul` . |
 | [Start](../../aspose.words.fields/field/start/) { get; } | Obtient le nœud qui représente le début du champ. |
 | virtual [Type](../../aspose.words.fields/field/type/) { get; } | Obtient le type de champ Microsoft Word. |
 
@@ -41,18 +43,18 @@ public class FieldRevNum : Field
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Renvoie le texte entre le début du champ et le séparateur de champ (ou la fin du champ s'il n'y a pas de séparateur). Le code de champ et le résultat du champ des champs enfants sont inclus. |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Renvoie le texte entre le début du champ et le séparateur de champ (ou la fin du champ s'il n'y a pas de séparateur). |
-| [Remove](../../aspose.words.fields/field/remove/)() | Supprime le champ du document. Renvoie un nœud juste après le champ. Si la fin du champ est le dernier enfant de son nœud parent, renvoie son paragraphe parent. Si le champ est déjà supprimé, renvoie **nul** . |
+| [Remove](../../aspose.words.fields/field/remove/)() | Supprime le champ du document. Renvoie un nœud juste après le champ. Si la fin du champ est le dernier child de son nœud parent, renvoie son paragraphe parent. Si le champ est déjà supprimé, renvoie`nul` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Effectue la dissociation du champ. |
 | [Update](../../aspose.words.fields/field/update/)() | Effectue la mise à jour du champ. Lance si le champ est déjà mis à jour. |
 | [Update](../../aspose.words.fields/field/update/)(bool) | Effectue une mise à jour du champ. Lance si le champ est déjà mis à jour. |
 
 ### Remarques
 
-Récupère le numéro de révision du document, tel qu'enregistré dans le **Révision**propriété des propriétés de document intégrées .
+Récupère le numéro de révision du document, tel qu'enregistré dans le **Révision** propriété des propriétés du document intégré .
 
 ### Exemples
 
-Montre comment utiliser les champs REVNUM.
+Montre comment travailler avec les champs REVNUM.
 
 ```csharp
 Document doc = new Document();
@@ -60,7 +62,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Write("Current revision #");
 
-// Insère un champ REVNUM, qui affiche la propriété de numéro de révision actuelle du document.
+// Insère un champ REVNUM, qui affiche la propriété du numéro de révision actuel du document.
 FieldRevNum field = (FieldRevNum)builder.InsertField(FieldType.FieldRevisionNum, true);
 
 Assert.AreEqual(" REVNUM ", field.GetFieldCode());
@@ -68,9 +70,10 @@ Assert.AreEqual("1", field.Result);
 Assert.AreEqual(1, doc.BuiltInDocumentProperties.RevisionNumber);
 
 // Cette propriété compte combien de fois un document a été enregistré dans Microsoft Word,
-// et n'est pas lié aux révisions suivies. Nous pouvons le trouver en cliquant avec le bouton droit sur le document dans l'explorateur Windows
+// et n'est pas lié aux révisions suivies. Nous pouvons le trouver en cliquant avec le bouton droit sur le document dans l'Explorateur Windows
 // via Propriétés -> Détails. Nous pouvons mettre à jour cette propriété manuellement.
 doc.BuiltInDocumentProperties.RevisionNumber++;
+field.Update();
 
 Assert.AreEqual("2", field.Result);
 ```

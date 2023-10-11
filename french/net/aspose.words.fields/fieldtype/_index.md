@@ -3,7 +3,7 @@ title: Enum FieldType
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Aspose.Words.Fields.FieldType énumération. Spécifie les types de champs Microsoft Word.
 type: docs
-weight: 2390
+weight: 2540
 url: /fr/net/aspose.words.fields/fieldtype/
 ---
 ## FieldType enumeration
@@ -22,13 +22,13 @@ public enum FieldType
 | FieldCannotParse | `1` | Spécifie que le champ n'a pas pu être analysé. |
 | FieldAddin | `81` | Spécifie le champ ADDIN. |
 | FieldAddressBlock | `93` | Spécifie le champ ADDRESSBLOCK. |
-| FieldAdvance | `84` | Spécifie le champ AVANCE. |
+| FieldAdvance | `84` | Spécifie le champ ADVANCE. |
 | FieldAsk | `38` | Spécifie le champ ASK. |
 | FieldAuthor | `17` | Spécifie le champ AUTEUR. |
 | FieldAutoNum | `54` | Spécifie le champ AUTONUM. |
 | FieldAutoNumLegal | `53` | Spécifie le champ AUTONUMLGL. |
 | FieldAutoNumOutline | `52` | Spécifie le champ AUTONUMOUT. |
-| FieldAutoText | `79` | Spécifie le champ AUTOTEXT. |
+| FieldAutoText | `79` | Spécifie le champ AUTOTEXTE. |
 | FieldAutoTextList | `89` | Spécifie le champ AUTOTEXTLIST. |
 | FieldBarcode | `63` | Spécifie le champ BARCODE. |
 | FieldBibliography | `100500` | Spécifie le champ BIBLIOGRAPHIE. |
@@ -70,15 +70,15 @@ public enum FieldType
 | FieldIndexEntry | `4` | Spécifie le champ XE. |
 | FieldInfo | `14` | Spécifie le champ INFO. |
 | FieldImport | `55` | Spécifie le champ IMPORT. |
-| FieldKeyword | `18` | Spécifie le champ KEYWORDS. |
+| FieldKeyword | `18` | Spécifie le champ MOTS CLÉS. |
 | FieldLastSavedBy | `20` | Spécifie le champ LASTSAVEDBY. |
-| FieldLink | `56` | Spécifie le champ LINK. |
+| FieldLink | `56` | Spécifie le champ LIEN. |
 | FieldListNum | `90` | Spécifie le champ LISTNUM. |
 | FieldMacroButton | `51` | Spécifie le champ MACROBUTTON. |
 | FieldMergeField | `59` | Spécifie le champ MERGEFIELD. |
 | FieldMergeRec | `44` | Spécifie le champ MERGEREC. |
 | FieldMergeSeq | `75` | Spécifie le champ MERGESEQ. |
-| FieldNext | `41` | Spécifie le champ NEXT. |
+| FieldNext | `41` | Spécifie le champ SUIVANT. |
 | FieldNextIf | `42` | Spécifie le champ NEXTIF. |
 | FieldNoteRef | `72` | Spécifie le champ NOTEREF. |
 | FieldNumChars | `28` | Spécifie le champ NUMCHARS. |
@@ -103,11 +103,11 @@ public enum FieldType
 | FieldShape | `95` | Spécifie le champ FORME. |
 | FieldSkipIf | `43` | Spécifie le champ SKIPIF. |
 | FieldStyleRef | `10` | Spécifie le champ STYLEREF. |
-| FieldSubject | `16` | Spécifie le champ SUBJECT. |
+| FieldSubject | `16` | Spécifie le champ SUJET. |
 | FieldSymbol | `57` | Spécifie le champ SYMBOLE. |
 | FieldTemplate | `30` | Spécifie le champ MODÈLE. |
 | FieldTime | `32` | Spécifie le champ TIME. |
-| FieldTitle | `15` | Spécifie le champ TITLE. |
+| FieldTitle | `15` | Spécifie le champ TITRE. |
 | FieldTOA | `73` | Spécifie le champ TOA. |
 | FieldTOAEntry | `74` | Spécifie le champ TA. |
 | FieldTOC | `13` | Spécifie le champ TOC. |
@@ -155,7 +155,7 @@ field = (FieldDate)fieldStart.GetField();
 Assert.AreEqual(false, field.IsLocked);
 Assert.AreEqual(" DATE  \\@ \"dddd, MMMM dd, yyyy\"", field.GetFieldCode());
 
-// Met à jour le champ pour afficher la date actuelle.
+// Mettez à jour le champ pour afficher la date actuelle.
 field.Update();
 ```
 

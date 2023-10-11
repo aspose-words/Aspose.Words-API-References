@@ -1,14 +1,14 @@
 ---
 title: Document.LayoutOptions
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Document propriété. Obtient un Options de mise en page objet qui représente les options pour contrôler le processus de mise en page de ce document.
+description: Document propriété. Obtient unLayoutOptions objet qui représente les options permettant de contrôler le processus de mise en page de ce document.
 type: docs
-weight: 230
+weight: 250
 url: /fr/net/aspose.words/document/layoutoptions/
 ---
 ## Document.LayoutOptions property
 
-Obtient un **Options de mise en page** objet qui représente les options pour contrôler le processus de mise en page de ce document.
+Obtient un[`LayoutOptions`](../../../aspose.words.layout/layoutoptions/) objet qui représente les options permettant de contrôler le processus de mise en page de ce document.
 
 ```csharp
 public LayoutOptions LayoutOptions { get; }
@@ -16,12 +16,12 @@ public LayoutOptions LayoutOptions { get; }
 
 ### Exemples
 
-Montre comment masquer du texte dans un document de sortie rendu.
+Montre comment masquer le texte dans un document de sortie rendu.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
-// Insérer du texte masqué, puis spécifier si nous souhaitons l'omettre d'un document rendu.
+// Insère du texte masqué, puis précise si nous souhaitons l'omettre d'un document rendu.
 builder.Writeln("This text is not hidden.");
 builder.Font.Hidden = true;
 builder.Writeln("This text is hidden.");
@@ -36,8 +36,8 @@ Montre comment afficher les marques de paragraphe dans un document de sortie ren
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
-// Ajoutez des paragraphes, puis activez les marques de paragraphe pour afficher la fin des paragraphes
-// avec un symbole pilcrow (¶) lors du rendu du document.
+// Ajoutez quelques paragraphes, puis activez les marques de paragraphe pour afficher la fin des paragraphes
+// avec un symbole pillcrow (¶) lorsque nous rendons le document.
 builder.Writeln("Hello world!");
 builder.Writeln("Hello again!");
 
@@ -46,7 +46,7 @@ doc.LayoutOptions.ShowParagraphMarks = showParagraphMarks;
 doc.Save(ArtifactsDir + "Document.LayoutOptionsParagraphMarks.pdf");
 ```
 
-Montre comment modifier l'apparence des révisions dans un document de sortie rendu.
+Montre comment modifier l’apparence des révisions dans un document de sortie rendu.
 
 ```csharp
 Document doc = new Document();

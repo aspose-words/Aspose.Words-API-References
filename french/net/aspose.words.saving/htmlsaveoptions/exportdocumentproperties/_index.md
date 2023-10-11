@@ -1,14 +1,14 @@
 ---
 title: HtmlSaveOptions.ExportDocumentProperties
 second_title: Référence de l'API Aspose.Words pour .NET
-description: HtmlSaveOptions propriété. Spécifie sil faut exporter les propriétés de document intégrées et personnalisées vers HTML MHTML ou EPUB. La valeur par défaut estfaux .
+description: HtmlSaveOptions propriété. Spécifie sil faut exporter les propriétés du document intégré et personnalisé au format HTML MHTML ou EPUB. La valeur par défaut estFAUX .
 type: docs
-weight: 130
+weight: 120
 url: /fr/net/aspose.words.saving/htmlsaveoptions/exportdocumentproperties/
 ---
 ## HtmlSaveOptions.ExportDocumentProperties property
 
-Spécifie s'il faut exporter les propriétés de document intégrées et personnalisées vers HTML, MHTML ou EPUB. La valeur par défaut est`faux` .
+Spécifie s'il faut exporter les propriétés du document intégré et personnalisé au format HTML, MHTML ou EPUB. La valeur par défaut est`FAUX` .
 
 ```csharp
 public bool ExportDocumentProperties { get; set; }
@@ -16,7 +16,7 @@ public bool ExportDocumentProperties { get; set; }
 
 ### Exemples
 
-Montre comment utiliser un encodage spécifique lors de l'enregistrement d'un document au format .epub.
+Montre comment utiliser un encodage spécifique lors de l’enregistrement d’un document au format .epub.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
@@ -27,12 +27,12 @@ saveOptions.SaveFormat = SaveFormat.Epub;
 saveOptions.Encoding = Encoding.UTF8;
 
 // Par défaut, un document de sortie .epub aura tout son contenu dans une seule partie HTML.
-// Un critère de découpage permet de segmenter le document en plusieurs parties HTML.
-// Nous allons définir les critères pour diviser le document en paragraphes d'en-tête.
-// Ceci est utile pour les lecteurs qui ne peuvent pas lire les fichiers HTML plus importants qu'une taille spécifique.
+// Un critère de split permet de segmenter le document en plusieurs parties HTML.
+// Nous définirons les critères pour diviser le document en paragraphes de titre.
+// Ceci est utile pour les lecteurs qui ne peuvent pas lire des fichiers HTML d'une taille supérieure à une taille spécifique.
 saveOptions.DocumentSplitCriteria = DocumentSplitCriteria.HeadingParagraph;
 
-// Spécifiez que nous voulons exporter les propriétés du document.
+// Spécifie que nous souhaitons exporter les propriétés du document.
 saveOptions.ExportDocumentProperties = true;
 
 doc.Save(ArtifactsDir + "HtmlSaveOptions.Doc2EpubSaveOptions.epub", saveOptions);

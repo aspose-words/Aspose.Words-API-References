@@ -17,7 +17,7 @@ public Rectangle GetOpaqueBoundsInPixels(float scale, float dpi)
 | Paramètre | Taper | La description |
 | --- | --- | --- |
 | scale | Single | Le facteur de zoom (1,0 correspond à 100 %). |
-| dpi | Single | La résolution pour convertir des points en pixels (points par pouce). |
+| dpi | Single | La résolution à convertir des points en pixels (points par pouce). |
 
 ### Return_Value
 
@@ -25,11 +25,11 @@ Le rectangle opaque de la forme en pixels.
 
 ### Remarques
 
-Cette méthode convertit[`OpaqueBoundsInPoints`](../opaqueboundsinpoints/) en rectangle en pixels et il est utile lorsque vous souhaitez créer un bitmap pour rendre la forme avec seulement une partie opaque de la forme.
+Cette méthode convertit[`OpaqueBoundsInPoints`](../opaqueboundsinpoints/) en rectangle en pixels et c'est utile lorsque vous souhaitez créer un bitmap pour restituer la forme avec seulement une partie opaque de la forme.
 
 ### Exemples
 
-Montre comment mesurer et mettre à l'échelle des formes.
+Montre comment mesurer et mettre à l’échelle des formes.
 
 ```csharp
 Document doc = new Document(MyDir + "Office math.docx");
@@ -48,13 +48,13 @@ Assert.AreEqual(13.0f, renderer.BoundsInPoints.Height, 0.1f);
 Assert.AreEqual(119.0f, renderer.OpaqueBoundsInPoints.Width, 0.2f);
 Assert.AreEqual(14.2f, renderer.OpaqueBoundsInPoints.Height, 0.1f);
 
-// Obtient la taille de la forme en pixels, avec une mise à l'échelle linéaire à un DPI spécifique.
+// Obtenez la taille de la forme en pixels, avec une mise à l'échelle linéaire vers un DPI spécifique.
 Rectangle bounds = renderer.GetBoundsInPixels(1.0f, 96.0f);
 
 Assert.AreEqual(159, bounds.Width);
 Assert.AreEqual(18, bounds.Height);
 
-// Obtient la taille de la forme en pixels, mais avec un DPI différent pour les dimensions horizontales et verticales.
+// Récupère la taille de la forme en pixels, mais avec un DPI différent pour les dimensions horizontales et verticales.
 bounds = renderer.GetBoundsInPixels(1.0f, 96.0f, 150.0f);
 Assert.AreEqual(159, bounds.Width);
 Assert.AreEqual(28, bounds.Height);
@@ -90,8 +90,8 @@ public Rectangle GetOpaqueBoundsInPixels(float scale, float horizontalDpi, float
 | Paramètre | Taper | La description |
 | --- | --- | --- |
 | scale | Single | Le facteur de zoom (1,0 correspond à 100 %). |
-| horizontalDpi | Single | La résolution horizontale pour convertir des points en pixels (points par pouce). |
-| verticalDpi | Single | La résolution verticale pour convertir des points en pixels (points par pouce). |
+| horizontalDpi | Single | La résolution horizontale à convertir des points en pixels (points par pouce). |
+| verticalDpi | Single | La résolution verticale à convertir des points en pixels (points par pouce). |
 
 ### Return_Value
 
@@ -99,11 +99,11 @@ Le rectangle opaque de la forme en pixels.
 
 ### Remarques
 
-Cette méthode convertit[`OpaqueBoundsInPoints`](../opaqueboundsinpoints/) en rectangle en pixels et il est utile lorsque vous souhaitez créer un bitmap pour rendre la forme avec seulement une partie opaque de la forme.
+Cette méthode convertit[`OpaqueBoundsInPoints`](../opaqueboundsinpoints/) en rectangle en pixels et c'est utile lorsque vous souhaitez créer un bitmap pour restituer la forme avec seulement une partie opaque de la forme.
 
 ### Exemples
 
-Montre comment mesurer et mettre à l'échelle des formes.
+Montre comment mesurer et mettre à l’échelle des formes.
 
 ```csharp
 Document doc = new Document(MyDir + "Office math.docx");
@@ -122,13 +122,13 @@ Assert.AreEqual(13.0f, renderer.BoundsInPoints.Height, 0.1f);
 Assert.AreEqual(119.0f, renderer.OpaqueBoundsInPoints.Width, 0.2f);
 Assert.AreEqual(14.2f, renderer.OpaqueBoundsInPoints.Height, 0.1f);
 
-// Obtient la taille de la forme en pixels, avec une mise à l'échelle linéaire à un DPI spécifique.
+// Obtenez la taille de la forme en pixels, avec une mise à l'échelle linéaire vers un DPI spécifique.
 Rectangle bounds = renderer.GetBoundsInPixels(1.0f, 96.0f);
 
 Assert.AreEqual(159, bounds.Width);
 Assert.AreEqual(18, bounds.Height);
 
-// Obtient la taille de la forme en pixels, mais avec un DPI différent pour les dimensions horizontales et verticales.
+// Récupère la taille de la forme en pixels, mais avec un DPI différent pour les dimensions horizontales et verticales.
 bounds = renderer.GetBoundsInPixels(1.0f, 96.0f, 150.0f);
 Assert.AreEqual(159, bounds.Width);
 Assert.AreEqual(28, bounds.Height);

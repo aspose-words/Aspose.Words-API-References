@@ -16,15 +16,15 @@ public virtual VisitorAction VisitOfficeMathStart(OfficeMath officeMath)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| officeMath | OfficeMath | L'objet visité. |
+| officeMath | OfficeMath | L'objet qui est visité. |
 
 ### Return_Value
 
-UN[`VisitorAction`](../../visitoraction/) valeur qui spécifie comment poursuivre l'énumération.
+UN[`VisitorAction`](../../visitoraction/) valeur qui spécifie comment continuer l’énumération.
 
 ### Exemples
 
-Montre comment imprimer la structure de nœud de chaque nœud mathématique de bureau dans un document.
+Montre comment imprimer la structure de chaque nœud mathématique de bureau dans un document.
 
 ```csharp
 public void OfficeMathToText()
@@ -32,8 +32,8 @@ public void OfficeMathToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     OfficeMathStructurePrinter visitor = new OfficeMathStructurePrinter();
 
-    // Lorsque nous obtenons un nœud composite pour accepter un visiteur de document, le visiteur visite le nœud acceptant,
-    // puis parcourt tous les enfants du nœud en profondeur d'abord.
+    // Lorsque nous obtenons qu'un nœud composite accepte un visiteur de document, le visiteur visite le nœud accepteur,
+    // puis parcourt tous les enfants du nœud en profondeur.
     // Le visiteur peut lire et modifier chaque nœud visité.
     doc.Accept(visitor);
 
@@ -53,7 +53,7 @@ public class OfficeMathStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Obtient le texte brut du document qui a été accumulé par le visiteur.
+    /// Obtient le texte brut du document accumulé par le visiteur.
     /// </summary>
     public string GetText()
     {
@@ -61,7 +61,7 @@ public class OfficeMathStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Appelé lorsqu'un noeud Run est rencontré dans le document.
+    /// Appelé lorsqu'un nœud Run est rencontré dans le document.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -97,7 +97,7 @@ public class OfficeMathStructurePrinter : DocumentVisitor
     /// <summary>
     /// Ajoutez une ligne au StringBuilder et indentez-la en fonction de la profondeur du visiteur dans l'arborescence du document.
     /// </summary>
-    /// <nom du paramètre="texte"></param>
+    /// <param name="text"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++) mBuilder.Append("|  ");

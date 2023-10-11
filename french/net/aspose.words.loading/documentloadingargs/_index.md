@@ -3,12 +3,14 @@ title: Class DocumentLoadingArgs
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Aspose.Words.Loading.DocumentLoadingArgs classe. Un argument passé dansNotify .
 type: docs
-weight: 3390
+weight: 3590
 url: /fr/net/aspose.words.loading/documentloadingargs/
 ---
 ## DocumentLoadingArgs class
 
 Un argument passé dans[`Notify`](../idocumentloadingcallback/notify/) .
+
+Pour en savoir plus, visitez le[Spécifier les options de chargement](https://docs.aspose.com/words/net/specify-load-options/) article documentaire.
 
 ```csharp
 public sealed class DocumentLoadingArgs
@@ -18,7 +20,7 @@ public sealed class DocumentLoadingArgs
 
 | Nom | La description |
 | --- | --- |
-| [EstimatedProgress](../../aspose.words.loading/documentloadingargs/estimatedprogress/) { get; } | Pourcentage de progression estimé global. |
+| [EstimatedProgress](../../aspose.words.loading/documentloadingargs/estimatedprogress/) { get; } | Pourcentage de progression global estimé. |
 
 ### Voir également
 

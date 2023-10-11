@@ -3,7 +3,7 @@ title: PageSetup.PageWidth
 second_title: Référence de l'API Aspose.Words pour .NET
 description: PageSetup propriété. Renvoie ou définit la largeur de la page en points.
 type: docs
-weight: 330
+weight: 340
 url: /fr/net/aspose.words/pagesetup/pagewidth/
 ---
 ## PageSetup.PageWidth property
@@ -22,7 +22,7 @@ Montre comment insérer une image et l'utiliser comme filigrane.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Insérez l'image dans l'en-tête afin qu'elle soit visible sur chaque page.
+// Insère l'image dans l'en-tête afin qu'elle soit visible sur chaque page.
 Image image = Image.FromFile(ImageDir + "Transparent background logo.png");
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 Shape shape = builder.InsertImage(image);
@@ -44,7 +44,7 @@ Montre comment insérer une image et l'utiliser comme filigrane (.NetStandard 2.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Insérez l'image dans l'en-tête afin qu'elle soit visible sur chaque page.
+// Insère l'image dans l'en-tête afin qu'elle soit visible sur chaque page.
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 
 using (SKBitmap image = SKBitmap.Decode(ImageDir + "Transparent background logo.png"))
@@ -74,22 +74,22 @@ Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
 shape.WrapType = WrapType.None;
 
 // Configure la propriété "RelativeHorizontalPosition" de la forme pour traiter la valeur de la propriété "Left"
- // comme la distance horizontale de la forme, en points, depuis le côté gauche de la page.
+ // comme distance horizontale de la forme, en points, depuis le côté gauche de la page.
 shape.RelativeHorizontalPosition = RelativeHorizontalPosition.Page;
 
 // Définit la distance horizontale de la forme depuis le côté gauche de la page sur 100.
 shape.Left = 100;
 
-// Utilisez la propriété "RelativeVerticalPosition" de la même manière pour positionner la forme 80 pt sous le haut de la page.
+// Utilisez la propriété "RelativeVerticalPosition" de la même manière pour positionner la forme 80 pt en dessous du haut de la page.
 shape.RelativeVerticalPosition = RelativeVerticalPosition.Page;
 shape.Top = 80;
 
-// Définit la hauteur de la forme, qui redimensionnera automatiquement la largeur pour conserver les dimensions.
+// Définit la hauteur de la forme, qui mettra automatiquement à l'échelle la largeur pour préserver les dimensions.
 shape.Height = 125;
 
 Assert.AreEqual(125.0d, shape.Width);
 
-// Les propriétés "Bottom" et "Right" contiennent les bords bas et droit de l'image.
+// Les propriétés "Bottom" et "Right" contiennent les bords inférieur et droit de l'image.
 Assert.AreEqual(shape.Top + shape.Height, shape.Bottom);
 Assert.AreEqual(shape.Left + shape.Width, shape.Right);
 

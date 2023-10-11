@@ -1,14 +1,14 @@
 ---
 title: Enum WrapSide
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Drawing.WrapSide énumération. Spécifie de quels côtés de la forme ou de limage le texte senroule autour.
+description: Aspose.Words.Drawing.WrapSide énumération. Spécifie les côtés de la forme ou de limage autour duquel le texte senroule.
 type: docs
-weight: 1240
+weight: 1390
 url: /fr/net/aspose.words.drawing/wrapside/
 ---
 ## WrapSide enumeration
 
-Spécifie de quel(s) côté(s) de la forme ou de l'image le texte s'enroule autour.
+Spécifie le(s) côté(s) de la forme ou de l'image autour duquel le texte s'enroule.
 
 ```csharp
 public enum WrapSide
@@ -18,15 +18,15 @@ public enum WrapSide
 
 | Nom | Évaluer | La description |
 | --- | --- | --- |
-| Both | `0` | Le texte du document s'habille des deux côtés de la forme. |
-| Left | `1` | Le texte du document s'habille uniquement sur le côté gauche de la forme. Il y a une zone de texte libre à droite de la forme. |
-| Right | `2` | Le texte du document s'habille sur le côté droit de la forme uniquement. Il y a une zone de texte libre sur le côté gauche de la forme. |
-| Largest | `3` | Le texte du document s'habille du côté de la forme le plus éloigné de la marge de la page, laissant une zone de texte libre de l'autre côté de la forme. |
+| Both | `0` | Le texte du document s'enroule des deux côtés de la forme. |
+| Left | `1` | Le texte du document s'enroule uniquement sur le côté gauche de la forme. Il y a une zone sans texte à droite de la forme. |
+| Right | `2` | Le texte du document s'enroule uniquement sur le côté droit de la forme. Il y a une zone sans texte sur le côté gauche de la forme. |
+| Largest | `3` | Le texte du document s'enroule du côté de la forme le plus éloigné de la marge de la page, laissant une zone libre de texte de l'autre côté de la forme. |
 | Default | `0` | La valeur par défaut estBoth . |
 
 ### Exemples
 
-Montre comment remplacer toutes les formes de zone de texte par des formes d'image.
+Montre comment remplacer toutes les formes de zone de texte par des formes d’image.
 
 ```csharp
 Document doc = new Document(MyDir + "Textboxes in drawing canvas.docx");

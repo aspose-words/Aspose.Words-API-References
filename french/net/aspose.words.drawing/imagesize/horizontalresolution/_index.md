@@ -16,7 +16,7 @@ public double HorizontalResolution { get; }
 
 ### Exemples
 
-Montre comment lire les propriétés d'une image dans une forme.
+Montre comment lire les propriétés d’une image dans une forme.
 
 ```csharp
 Document doc = new Document();
@@ -37,7 +37,7 @@ const double delta = 0.05;
 Assert.AreEqual(95.98d, imageSize.HorizontalResolution, delta);
 Assert.AreEqual(95.98d, imageSize.VerticalResolution, delta);
 
-// Nous pouvons baser la taille de la forme sur la taille de son image pour éviter d'étirer l'image.
+// On peut baser la taille de la forme sur la taille de son image pour éviter d'étirer l'image.
 shape.Width = imageSize.WidthPoints * 2;
 shape.Height = imageSize.HeightPoints * 2;
 

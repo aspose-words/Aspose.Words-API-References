@@ -24,21 +24,21 @@ public void Callback()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Insérez deux balises de publipostage référençant deux colonnes dans une source de données.
+    // Insère deux balises de publipostage référençant deux colonnes dans une source de données.
     builder.Write("{{FirstName}}");
     builder.Write("{{LastName}}");
 
-    // Crée une source de données qui ne contient qu'une des colonnes auxquelles nos merge tags font référence.
+    // Créez une source de données qui ne contient qu'une seule des colonnes référencées par nos balises de fusion.
     DataTable table = new DataTable("Test");
     table.Columns.Add("FirstName");
     table.Rows.Add("John");
     table.Rows.Add("Jane");
 
-    // Configurez notre publipostage pour utiliser d'autres balises de publipostage.
+    // Configurez notre publipostage pour utiliser des balises de publipostage alternatives.
     doc.MailMerge.UseNonMergeFields = true;
 
     // Ensuite, assurez-vous que le publipostage convertira les balises, telles que notre balise "LastName",
-    // dans MERGEFIELDs dans les documents de fusion.
+    // dans les MERGEFIELD dans les documents de fusion.
     doc.MailMerge.PreserveUnusedTags = false;
 
     MailMergeTagReplacementCounter counter = new MailMergeTagReplacementCounter();
@@ -49,7 +49,7 @@ public void Callback()
 }
 
 /// <summary>
-/// Compte le nombre de fois qu'un publipostage remplace les balises de publipostage qu'il n'a pas pu remplir avec des données avec MERGEFIELD.
+/// Compte le nombre de fois qu'un publipostage remplace les balises de publipostage qu'il n'a pas pu remplir avec des données avec des MERGEFIELD.
 /// </summary>
 private class MailMergeTagReplacementCounter : IMailMergeCallback
 {

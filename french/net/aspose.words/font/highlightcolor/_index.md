@@ -16,7 +16,7 @@ public Color HighlightColor { get; set; }
 
 ### Exemples
 
-Montre comment formater une suite de texte à l'aide de sa propriété de police.
+Montre comment formater une séquence de texte à l’aide de sa propriété font.
 
 ```csharp
 Document doc = new Document();

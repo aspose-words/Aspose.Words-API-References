@@ -1,14 +1,14 @@
 ---
 title: MetafileRenderingOptions.RenderingMode
 second_title: Référence de l'API Aspose.Words pour .NET
-description: MetafileRenderingOptions propriété. Obtient ou définit une valeur déterminant le rendu des images de métafichier.
+description: MetafileRenderingOptions propriété. Obtient ou définit une valeur déterminant la façon dont les images de métafichier doivent être rendues.
 type: docs
-weight: 40
+weight: 60
 url: /fr/net/aspose.words.saving/metafilerenderingoptions/renderingmode/
 ---
 ## MetafileRenderingOptions.RenderingMode property
 
-Obtient ou définit une valeur déterminant le rendu des images de métafichier.
+Obtient ou définit une valeur déterminant la façon dont les images de métafichier doivent être rendues.
 
 ```csharp
 public MetafileRenderingMode RenderingMode { get; set; }
@@ -16,28 +16,29 @@ public MetafileRenderingMode RenderingMode { get; set; }
 
 ### Remarques
 
-La valeur par défaut dépend du format d'enregistrement. Pour les images c'estBitmap . Pour les autres formats c'estVectorWithFallback.
+La valeur par défaut dépend du format de sauvegarde. Pour les images c'estBitmap . Pour les autres formats, c'estVectorWithFallback.
 
 ### Exemples
 
-Affiche l'ajout d'un retour au rendu bitmap et la modification du type d'avertissements concernant les enregistrements de métafichiers non pris en charge.
+Affiche l'ajout d'une solution de secours au rendu bitmap et la modification du type d'avertissements concernant les enregistrements de métafichiers non pris en charge.
 
 ```csharp
+public void HandleBinaryRasterWarnings()
 {
     Document doc = new Document(MyDir + "WMF with image.docx");
 
     MetafileRenderingOptions metafileRenderingOptions = new MetafileRenderingOptions();
 
     // Définissez la propriété "EmulateRasterOperations" sur "false" pour revenir au bitmap lorsque
-    // il rencontre un métafichier, qui nécessitera des opérations raster pour s'afficher dans le PDF de sortie.
+    // il rencontre un métafichier, qui nécessitera le rendu des opérations raster dans le PDF de sortie.
     metafileRenderingOptions.EmulateRasterOperations = false;
 
     // Définissez la propriété "RenderingMode" sur "VectorWithFallback" pour essayer de restituer chaque métafichier à l'aide de graphiques vectoriels.
     metafileRenderingOptions.RenderingMode = MetafileRenderingMode.VectorWithFallback;
 
-    // Crée un objet "PdfSaveOptions" que nous pouvons passer à la méthode "Save" du document
+    // Crée un objet "PdfSaveOptions" que l'on peut passer à la méthode "Save" du document
     // pour modifier la façon dont cette méthode convertit le document en .PDF et applique la configuration
-    // dans notre objet MetafileRenderingOptions à l'opération d'enregistrement.
+    // dans notre objet MetafileRenderingOptions à l'opération de sauvegarde.
     PdfSaveOptions saveOptions = new PdfSaveOptions();
     saveOptions.MetafileRenderingOptions = metafileRenderingOptions;
 
@@ -47,12 +48,12 @@ Affiche l'ajout d'un retour au rendu bitmap et la modification du type d'avertis
     doc.Save(ArtifactsDir + "PdfSaveOptions.HandleBinaryRasterWarnings.pdf", saveOptions);
 
     Assert.AreEqual(1, callback.Warnings.Count);
-    Assert.AreEqual("'R2_XORPEN' binary raster operation is partly supported.",
+    Assert.AreEqual("'R2_XORPEN' binary raster operation is not supported.",
         callback.Warnings[0].Description);
 }
 
 /// <summary>
-/// Imprime et collecte les avertissements liés à la perte de mise en forme qui se produisent lors de l'enregistrement d'un document.
+/// Imprime et collecte les avertissements liés à la perte de formatage qui se produisent lors de l'enregistrement d'un document.
 /// </summary>
 public class HandleDocumentWarnings : IWarningCallback
 {

@@ -1,14 +1,14 @@
 ---
 title: ChartFormat.Stroke
 second_title: Référence de l'API Aspose.Words pour .NET
-description: ChartFormat propriété. Obtient la mise en forme des lignes pour lélément de graphique parent.
+description: ChartFormat propriété. Obtient le formatage de ligne pour lélément de graphique parent.
 type: docs
-weight: 20
+weight: 40
 url: /fr/net/aspose.words.drawing.charts/chartformat/stroke/
 ---
 ## ChartFormat.Stroke property
 
-Obtient la mise en forme des lignes pour l'élément de graphique parent.
+Obtient le formatage de ligne pour l'élément de graphique parent.
 
 ```csharp
 public Stroke Stroke { get; }
@@ -16,7 +16,7 @@ public Stroke Stroke { get; }
 
 ### Exemples
 
-Montrez comment définir la mise en forme des marqueurs.
+Montrez comment définir le formatage des marqueurs.
 
 ```csharp
 Document doc = new Document();

@@ -3,7 +3,7 @@ title: Stroke.Visible
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Stroke propriété. Obtient ou définit un indicateur indiquant si le trait est visible.
 type: docs
-weight: 190
+weight: 210
 url: /fr/net/aspose.words.drawing/stroke/visible/
 ---
 ## Stroke.Visible property
@@ -16,11 +16,11 @@ public bool Visible { get; set; }
 
 ### Remarques
 
-La valeur par défaut pour un[`Shape`](../../shape/) est **vrai** .
+La valeur par défaut d'un[`Shape`](../../shape/) est`vrai` .
 
 ### Exemples
 
-Montrez comment définir la mise en forme des marqueurs.
+Montrez comment définir le formatage des marqueurs.
 
 ```csharp
 Document doc = new Document();

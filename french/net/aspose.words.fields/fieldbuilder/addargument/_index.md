@@ -20,14 +20,14 @@ public FieldBuilder AddArgument(string argument)
 
 ### Exemples
 
-Montre comment créer des champs à l'aide d'un générateur de champs, puis les insérer dans le document.
+Montre comment construire des champs à l’aide d’un générateur de champs, puis les insérer dans le document.
 
 ```csharp
 Document doc = new Document();
 
-// Vous trouverez ci-dessous trois exemples de construction de champs réalisés à l'aide d'un constructeur de champs.
+// Vous trouverez ci-dessous trois exemples de construction de champ réalisée à l'aide d'un générateur de champ.
 // 1 - Champ unique :
-// Utilisez un constructeur de champ pour ajouter un champ SYMBOLE qui affiche le symbole ƒ (Florin).
+// Utilisez un générateur de champ pour ajouter un champ SYMBOL qui affiche le symbole ƒ (Florin).
 FieldBuilder builder = new FieldBuilder(FieldType.FieldSymbol);
 builder.AddArgument(402);
 builder.AddSwitch("\\f", "Arial");
@@ -44,21 +44,21 @@ innerFormulaBuilder.AddArgument(100);
 innerFormulaBuilder.AddArgument("+");
 innerFormulaBuilder.AddArgument(74);
 
-// Crée un autre builder pour un autre champ SYMBOL, et insère le champ de formule
+// Créez un autre générateur pour un autre champ SYMBOLE et insérez le champ de formule
  // que nous avons créé ci-dessus dans le champ SYMBOL comme argument.
 builder = new FieldBuilder(FieldType.FieldSymbol);
 builder.AddArgument(innerFormulaBuilder);
 field = builder.BuildAndInsert(doc.FirstSection.Body.AppendParagraph(string.Empty));
 
-// Le champ SYMBOL externe utilisera le résultat du champ de formule, 174, comme argument,
-// ce qui fera que le champ affichera le symbole ® (Signe enregistré) puisque son numéro de caractère est 174.
+// Le champ SYMBOLE externe utilisera le résultat du champ de formule, 174, comme argument,
+// ce qui fera que le champ affichera le symbole ® (Registered Sign) puisque son numéro de caractère est 174.
 Assert.AreEqual(" SYMBOL \u0013 = 100 + 74 \u0014\u0015 ", field.GetFieldCode());
 
 // 3 - Plusieurs champs et arguments imbriqués :
 // Maintenant, nous allons utiliser un générateur pour créer un champ IF, qui affiche l'une des deux valeurs de chaîne personnalisées,
 // en fonction de la valeur vrai/faux de son expression. Pour obtenir une valeur vrai/faux
 // qui détermine quelle chaîne le champ IF affiche, le champ IF testera l'égalité de deux expressions numériques.
-// Nous fournirons les deux expressions sous la forme de champs de formule, que nous imbriquerons dans le champ IF.
+// Nous fournirons les deux expressions sous forme de champs de formule, que nous imbriquerons à l'intérieur du champ IF.
 FieldBuilder leftExpression = new FieldBuilder(FieldType.FieldFormula);
 leftExpression.AddArgument(2);
 leftExpression.AddArgument("+");
@@ -81,7 +81,7 @@ falseOutput.AddField(leftExpression);
 falseOutput.AddNode(new Run(doc, " does not equal "));
 falseOutput.AddField(rightExpression);
 
- // Enfin, nous allons créer un autre générateur de champ pour le champ IF et combiner toutes les expressions.
+ // Enfin, nous allons créer un générateur de champ supplémentaire pour le champ IF et combiner toutes les expressions.
 builder = new FieldBuilder(FieldType.FieldIf);
 builder.AddArgument(leftExpression);
 builder.AddArgument("=");
@@ -120,14 +120,14 @@ public FieldBuilder AddArgument(int argument)
 
 ### Exemples
 
-Montre comment créer des champs à l'aide d'un générateur de champs, puis les insérer dans le document.
+Montre comment construire des champs à l’aide d’un générateur de champs, puis les insérer dans le document.
 
 ```csharp
 Document doc = new Document();
 
-// Vous trouverez ci-dessous trois exemples de construction de champs réalisés à l'aide d'un constructeur de champs.
+// Vous trouverez ci-dessous trois exemples de construction de champ réalisée à l'aide d'un générateur de champ.
 // 1 - Champ unique :
-// Utilisez un constructeur de champ pour ajouter un champ SYMBOLE qui affiche le symbole ƒ (Florin).
+// Utilisez un générateur de champ pour ajouter un champ SYMBOL qui affiche le symbole ƒ (Florin).
 FieldBuilder builder = new FieldBuilder(FieldType.FieldSymbol);
 builder.AddArgument(402);
 builder.AddSwitch("\\f", "Arial");
@@ -144,21 +144,21 @@ innerFormulaBuilder.AddArgument(100);
 innerFormulaBuilder.AddArgument("+");
 innerFormulaBuilder.AddArgument(74);
 
-// Crée un autre builder pour un autre champ SYMBOL, et insère le champ de formule
+// Créez un autre générateur pour un autre champ SYMBOLE et insérez le champ de formule
  // que nous avons créé ci-dessus dans le champ SYMBOL comme argument.
 builder = new FieldBuilder(FieldType.FieldSymbol);
 builder.AddArgument(innerFormulaBuilder);
 field = builder.BuildAndInsert(doc.FirstSection.Body.AppendParagraph(string.Empty));
 
-// Le champ SYMBOL externe utilisera le résultat du champ de formule, 174, comme argument,
-// ce qui fera que le champ affichera le symbole ® (Signe enregistré) puisque son numéro de caractère est 174.
+// Le champ SYMBOLE externe utilisera le résultat du champ de formule, 174, comme argument,
+// ce qui fera que le champ affichera le symbole ® (Registered Sign) puisque son numéro de caractère est 174.
 Assert.AreEqual(" SYMBOL \u0013 = 100 + 74 \u0014\u0015 ", field.GetFieldCode());
 
 // 3 - Plusieurs champs et arguments imbriqués :
 // Maintenant, nous allons utiliser un générateur pour créer un champ IF, qui affiche l'une des deux valeurs de chaîne personnalisées,
 // en fonction de la valeur vrai/faux de son expression. Pour obtenir une valeur vrai/faux
 // qui détermine quelle chaîne le champ IF affiche, le champ IF testera l'égalité de deux expressions numériques.
-// Nous fournirons les deux expressions sous la forme de champs de formule, que nous imbriquerons dans le champ IF.
+// Nous fournirons les deux expressions sous forme de champs de formule, que nous imbriquerons à l'intérieur du champ IF.
 FieldBuilder leftExpression = new FieldBuilder(FieldType.FieldFormula);
 leftExpression.AddArgument(2);
 leftExpression.AddArgument("+");
@@ -181,7 +181,7 @@ falseOutput.AddField(leftExpression);
 falseOutput.AddNode(new Run(doc, " does not equal "));
 falseOutput.AddField(rightExpression);
 
- // Enfin, nous allons créer un autre générateur de champ pour le champ IF et combiner toutes les expressions.
+ // Enfin, nous allons créer un générateur de champ supplémentaire pour le champ IF et combiner toutes les expressions.
 builder = new FieldBuilder(FieldType.FieldIf);
 builder.AddArgument(leftExpression);
 builder.AddArgument("=");
@@ -220,14 +220,14 @@ public FieldBuilder AddArgument(double argument)
 
 ### Exemples
 
-Montre comment créer des champs à l'aide d'un générateur de champs, puis les insérer dans le document.
+Montre comment construire des champs à l’aide d’un générateur de champs, puis les insérer dans le document.
 
 ```csharp
 Document doc = new Document();
 
-// Vous trouverez ci-dessous trois exemples de construction de champs réalisés à l'aide d'un constructeur de champs.
+// Vous trouverez ci-dessous trois exemples de construction de champ réalisée à l'aide d'un générateur de champ.
 // 1 - Champ unique :
-// Utilisez un constructeur de champ pour ajouter un champ SYMBOLE qui affiche le symbole ƒ (Florin).
+// Utilisez un générateur de champ pour ajouter un champ SYMBOL qui affiche le symbole ƒ (Florin).
 FieldBuilder builder = new FieldBuilder(FieldType.FieldSymbol);
 builder.AddArgument(402);
 builder.AddSwitch("\\f", "Arial");
@@ -244,21 +244,21 @@ innerFormulaBuilder.AddArgument(100);
 innerFormulaBuilder.AddArgument("+");
 innerFormulaBuilder.AddArgument(74);
 
-// Crée un autre builder pour un autre champ SYMBOL, et insère le champ de formule
+// Créez un autre générateur pour un autre champ SYMBOLE et insérez le champ de formule
  // que nous avons créé ci-dessus dans le champ SYMBOL comme argument.
 builder = new FieldBuilder(FieldType.FieldSymbol);
 builder.AddArgument(innerFormulaBuilder);
 field = builder.BuildAndInsert(doc.FirstSection.Body.AppendParagraph(string.Empty));
 
-// Le champ SYMBOL externe utilisera le résultat du champ de formule, 174, comme argument,
-// ce qui fera que le champ affichera le symbole ® (Signe enregistré) puisque son numéro de caractère est 174.
+// Le champ SYMBOLE externe utilisera le résultat du champ de formule, 174, comme argument,
+// ce qui fera que le champ affichera le symbole ® (Registered Sign) puisque son numéro de caractère est 174.
 Assert.AreEqual(" SYMBOL \u0013 = 100 + 74 \u0014\u0015 ", field.GetFieldCode());
 
 // 3 - Plusieurs champs et arguments imbriqués :
 // Maintenant, nous allons utiliser un générateur pour créer un champ IF, qui affiche l'une des deux valeurs de chaîne personnalisées,
 // en fonction de la valeur vrai/faux de son expression. Pour obtenir une valeur vrai/faux
 // qui détermine quelle chaîne le champ IF affiche, le champ IF testera l'égalité de deux expressions numériques.
-// Nous fournirons les deux expressions sous la forme de champs de formule, que nous imbriquerons dans le champ IF.
+// Nous fournirons les deux expressions sous forme de champs de formule, que nous imbriquerons à l'intérieur du champ IF.
 FieldBuilder leftExpression = new FieldBuilder(FieldType.FieldFormula);
 leftExpression.AddArgument(2);
 leftExpression.AddArgument("+");
@@ -281,7 +281,7 @@ falseOutput.AddField(leftExpression);
 falseOutput.AddNode(new Run(doc, " does not equal "));
 falseOutput.AddField(rightExpression);
 
- // Enfin, nous allons créer un autre générateur de champ pour le champ IF et combiner toutes les expressions.
+ // Enfin, nous allons créer un générateur de champ supplémentaire pour le champ IF et combiner toutes les expressions.
 builder = new FieldBuilder(FieldType.FieldIf);
 builder.AddArgument(leftExpression);
 builder.AddArgument("=");
@@ -316,18 +316,18 @@ public FieldBuilder AddArgument(FieldBuilder argument)
 
 ### Remarques
 
-Cette surcharge est utilisée lorsque l'argument consiste en un seul champ enfant.
+Cette surcharge est utilisée lorsque l'argument est constitué d'un seul champ enfant.
 
 ### Exemples
 
-Montre comment créer des champs à l'aide d'un générateur de champs, puis les insérer dans le document.
+Montre comment construire des champs à l’aide d’un générateur de champs, puis les insérer dans le document.
 
 ```csharp
 Document doc = new Document();
 
-// Vous trouverez ci-dessous trois exemples de construction de champs réalisés à l'aide d'un constructeur de champs.
+// Vous trouverez ci-dessous trois exemples de construction de champ réalisée à l'aide d'un générateur de champ.
 // 1 - Champ unique :
-// Utilisez un constructeur de champ pour ajouter un champ SYMBOLE qui affiche le symbole ƒ (Florin).
+// Utilisez un générateur de champ pour ajouter un champ SYMBOL qui affiche le symbole ƒ (Florin).
 FieldBuilder builder = new FieldBuilder(FieldType.FieldSymbol);
 builder.AddArgument(402);
 builder.AddSwitch("\\f", "Arial");
@@ -344,21 +344,21 @@ innerFormulaBuilder.AddArgument(100);
 innerFormulaBuilder.AddArgument("+");
 innerFormulaBuilder.AddArgument(74);
 
-// Crée un autre builder pour un autre champ SYMBOL, et insère le champ de formule
+// Créez un autre générateur pour un autre champ SYMBOLE et insérez le champ de formule
  // que nous avons créé ci-dessus dans le champ SYMBOL comme argument.
 builder = new FieldBuilder(FieldType.FieldSymbol);
 builder.AddArgument(innerFormulaBuilder);
 field = builder.BuildAndInsert(doc.FirstSection.Body.AppendParagraph(string.Empty));
 
-// Le champ SYMBOL externe utilisera le résultat du champ de formule, 174, comme argument,
-// ce qui fera que le champ affichera le symbole ® (Signe enregistré) puisque son numéro de caractère est 174.
+// Le champ SYMBOLE externe utilisera le résultat du champ de formule, 174, comme argument,
+// ce qui fera que le champ affichera le symbole ® (Registered Sign) puisque son numéro de caractère est 174.
 Assert.AreEqual(" SYMBOL \u0013 = 100 + 74 \u0014\u0015 ", field.GetFieldCode());
 
 // 3 - Plusieurs champs et arguments imbriqués :
 // Maintenant, nous allons utiliser un générateur pour créer un champ IF, qui affiche l'une des deux valeurs de chaîne personnalisées,
 // en fonction de la valeur vrai/faux de son expression. Pour obtenir une valeur vrai/faux
 // qui détermine quelle chaîne le champ IF affiche, le champ IF testera l'égalité de deux expressions numériques.
-// Nous fournirons les deux expressions sous la forme de champs de formule, que nous imbriquerons dans le champ IF.
+// Nous fournirons les deux expressions sous forme de champs de formule, que nous imbriquerons à l'intérieur du champ IF.
 FieldBuilder leftExpression = new FieldBuilder(FieldType.FieldFormula);
 leftExpression.AddArgument(2);
 leftExpression.AddArgument("+");
@@ -381,7 +381,7 @@ falseOutput.AddField(leftExpression);
 falseOutput.AddNode(new Run(doc, " does not equal "));
 falseOutput.AddField(rightExpression);
 
- // Enfin, nous allons créer un autre générateur de champ pour le champ IF et combiner toutes les expressions.
+ // Enfin, nous allons créer un générateur de champ supplémentaire pour le champ IF et combiner toutes les expressions.
 builder = new FieldBuilder(FieldType.FieldIf);
 builder.AddArgument(leftExpression);
 builder.AddArgument("=");
@@ -408,7 +408,7 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 
 ## AddArgument(FieldArgumentBuilder) {#addargument}
 
-Ajoute un argument de champ représenté par[`FieldArgumentBuilder`](../../fieldargumentbuilder/) au code du champ.
+Ajoute l'argument d'un champ représenté par[`FieldArgumentBuilder`](../../fieldargumentbuilder/) au code du champ.
 
 ```csharp
 public FieldBuilder AddArgument(FieldArgumentBuilder argument)
@@ -416,18 +416,18 @@ public FieldBuilder AddArgument(FieldArgumentBuilder argument)
 
 ### Remarques
 
-Cette surcharge est utilisée lorsque l'argument consiste en un mélange de différentes parties telles que des champs enfants, des nœuds et du texte brut.
+Cette surcharge est utilisée lorsque l'argument est constitué d'un mélange de différentes parties telles que des champs enfants, des nœuds et du texte brut.
 
 ### Exemples
 
-Montre comment créer des champs à l'aide d'un générateur de champs, puis les insérer dans le document.
+Montre comment construire des champs à l’aide d’un générateur de champs, puis les insérer dans le document.
 
 ```csharp
 Document doc = new Document();
 
-// Vous trouverez ci-dessous trois exemples de construction de champs réalisés à l'aide d'un constructeur de champs.
+// Vous trouverez ci-dessous trois exemples de construction de champ réalisée à l'aide d'un générateur de champ.
 // 1 - Champ unique :
-// Utilisez un constructeur de champ pour ajouter un champ SYMBOLE qui affiche le symbole ƒ (Florin).
+// Utilisez un générateur de champ pour ajouter un champ SYMBOL qui affiche le symbole ƒ (Florin).
 FieldBuilder builder = new FieldBuilder(FieldType.FieldSymbol);
 builder.AddArgument(402);
 builder.AddSwitch("\\f", "Arial");
@@ -444,21 +444,21 @@ innerFormulaBuilder.AddArgument(100);
 innerFormulaBuilder.AddArgument("+");
 innerFormulaBuilder.AddArgument(74);
 
-// Crée un autre builder pour un autre champ SYMBOL, et insère le champ de formule
+// Créez un autre générateur pour un autre champ SYMBOLE et insérez le champ de formule
  // que nous avons créé ci-dessus dans le champ SYMBOL comme argument.
 builder = new FieldBuilder(FieldType.FieldSymbol);
 builder.AddArgument(innerFormulaBuilder);
 field = builder.BuildAndInsert(doc.FirstSection.Body.AppendParagraph(string.Empty));
 
-// Le champ SYMBOL externe utilisera le résultat du champ de formule, 174, comme argument,
-// ce qui fera que le champ affichera le symbole ® (Signe enregistré) puisque son numéro de caractère est 174.
+// Le champ SYMBOLE externe utilisera le résultat du champ de formule, 174, comme argument,
+// ce qui fera que le champ affichera le symbole ® (Registered Sign) puisque son numéro de caractère est 174.
 Assert.AreEqual(" SYMBOL \u0013 = 100 + 74 \u0014\u0015 ", field.GetFieldCode());
 
 // 3 - Plusieurs champs et arguments imbriqués :
 // Maintenant, nous allons utiliser un générateur pour créer un champ IF, qui affiche l'une des deux valeurs de chaîne personnalisées,
 // en fonction de la valeur vrai/faux de son expression. Pour obtenir une valeur vrai/faux
 // qui détermine quelle chaîne le champ IF affiche, le champ IF testera l'égalité de deux expressions numériques.
-// Nous fournirons les deux expressions sous la forme de champs de formule, que nous imbriquerons dans le champ IF.
+// Nous fournirons les deux expressions sous forme de champs de formule, que nous imbriquerons à l'intérieur du champ IF.
 FieldBuilder leftExpression = new FieldBuilder(FieldType.FieldFormula);
 leftExpression.AddArgument(2);
 leftExpression.AddArgument("+");
@@ -481,7 +481,7 @@ falseOutput.AddField(leftExpression);
 falseOutput.AddNode(new Run(doc, " does not equal "));
 falseOutput.AddField(rightExpression);
 
- // Enfin, nous allons créer un autre générateur de champ pour le champ IF et combiner toutes les expressions.
+ // Enfin, nous allons créer un générateur de champ supplémentaire pour le champ IF et combiner toutes les expressions.
 builder = new FieldBuilder(FieldType.FieldIf);
 builder.AddArgument(leftExpression);
 builder.AddArgument("=");

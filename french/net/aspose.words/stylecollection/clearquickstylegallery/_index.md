@@ -20,8 +20,7 @@ Montre comment supprimer des styles du panneau Galerie de styles.
 
 ```csharp
 Document doc = new Document();
-
-// Notez que supprimer les styles ne fonctionne qu'avec le format DOCX pour l'instant.
+// Notez que les styles de suppression ne fonctionnent pour l'instant qu'avec le format DOCX.
 doc.Styles.ClearQuickStyleGallery();
 
 doc.Save(ArtifactsDir + "Styles.RemoveStylesFromStyleGallery.docx");

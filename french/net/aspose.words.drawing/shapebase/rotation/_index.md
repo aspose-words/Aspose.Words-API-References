@@ -1,14 +1,14 @@
 ---
 title: ShapeBase.Rotation
 second_title: Référence de l'API Aspose.Words pour .NET
-description: ShapeBase propriété. Définit langle en degrés de rotation dune forme. Une valeur positive correspond à un angle de rotation dans le sens des aiguilles dune montre.
+description: ShapeBase propriété. Définit langle en degrés de rotation dune forme. La valeur positive correspond à langle de rotation dans le sens des aiguilles dune montre.
 type: docs
-weight: 430
+weight: 470
 url: /fr/net/aspose.words.drawing/shapebase/rotation/
 ---
 ## ShapeBase.Rotation property
 
-Définit l'angle (en degrés) de rotation d'une forme. Une valeur positive correspond à un angle de rotation dans le sens des aiguilles d'une montre.
+Définit l'angle (en degrés) de rotation d'une forme. La valeur positive correspond à l'angle de rotation dans le sens des aiguilles d'une montre.
 
 ```csharp
 public double Rotation { get; set; }

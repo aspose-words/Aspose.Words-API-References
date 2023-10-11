@@ -16,13 +16,13 @@ public ImageType ImageType { get; }
 
 ### Exemples
 
-Montre comment extraire des images d'un document et les enregistrer dans le système de fichiers local en tant que fichiers individuels.
+Montre comment extraire des images d'un document et les enregistrer sur le système de fichiers local en tant que fichiers individuels.
 
 ```csharp
 Document doc = new Document(MyDir + "Images.docx");
 
 // Récupère la collection de formes du document,
-// et enregistrez les données d'image de chaque forme avec une image en tant que fichier dans le système de fichiers local.
+// et enregistrez les données d'image de chaque forme avec une image sous forme de fichier dans le système de fichiers local.
 NodeCollection shapes = doc.GetChildNodes(NodeType.Shape, true);
 
 Assert.AreEqual(9, shapes.Count(s => ((Shape)s).HasImage));
@@ -32,7 +32,7 @@ foreach (Shape shape in shapes.OfType<Shape>())
 {
     if (shape.HasImage)
     {
-        // Les données d'image des formes peuvent contenir des images de nombreux formats d'image possibles. 
+         // Les données d'image des formes peuvent contenir des images de nombreux formats d'image possibles.
         // Nous pouvons déterminer automatiquement une extension de fichier pour chaque image, en fonction de son format.
         string imageFileName =
             $"File.ExtractImages.{imageIndex}{FileFormatUtil.ImageTypeToExtension(shape.ImageData.ImageType)}";

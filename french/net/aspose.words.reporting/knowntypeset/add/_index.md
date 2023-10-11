@@ -1,20 +1,20 @@
 ---
 title: KnownTypeSet.Add
 second_title: Référence de l'API Aspose.Words pour .NET
-description: KnownTypeSet méthode. Ajoute le spécifiéType sopposer à lensemble. LanceArgumentException dans les cas suivants 
+description: KnownTypeSet méthode. Ajoute le spécifiéType sopposer à lensemble. JetésArgumentException in les cas suivants 
 type: docs
 weight: 20
 url: /fr/net/aspose.words.reporting/knowntypeset/add/
 ---
 ## KnownTypeSet.Add method
 
-Ajoute le spécifiéType s'opposer à l'ensemble. LanceArgumentException dans les cas suivants :
+Ajoute le spécifiéType s'opposer à l'ensemble. JetésArgumentException in les cas suivants :
 
--*type* est nul.
+-*type* est`nul`.
 
 -*type* représente un type vide.
 
--*type* représente un type invisible, c'est-à-dire un type non public ou un type imbriqué public qui a un type externe non public.
+-*type* représente un type invisible, c'est-à-dire un type non public ou un type public imbriqué qui a un type externe non public.
 
 -*type* représente un type générique.
 

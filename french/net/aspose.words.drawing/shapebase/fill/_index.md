@@ -1,14 +1,14 @@
 ---
 title: ShapeBase.Fill
 second_title: Référence de l'API Aspose.Words pour .NET
-description: ShapeBase propriété. Obtient la mise en forme de remplissage pour la forme.
+description: ShapeBase propriété. Obtient le formatage de remplissage pour la forme.
 type: docs
 weight: 170
 url: /fr/net/aspose.words.drawing/shapebase/fill/
 ---
 ## ShapeBase.Fill property
 
-Obtient la mise en forme de remplissage pour la forme.
+Obtient le formatage de remplissage pour la forme.
 
 ```csharp
 public Fill Fill { get; }
@@ -35,9 +35,9 @@ shape.StrokeColor = Color.CadetBlue;
 // Utilisez la propriété "FillColor" pour définir la couleur de la zone intérieure de la forme.
 shape.FillColor = Color.LightBlue;
 
-// La propriété "Opacité" détermine la transparence de la couleur sur une échelle de 0 à 1,
+// La propriété "Opacité" détermine le degré de transparence de la couleur sur une échelle de 0 à 1,
 // avec 1 étant entièrement opaque et 0 étant invisible.
-// Le remplissage de la forme par défaut est entièrement opaque, nous ne pouvons donc pas voir le texte sur lequel cette forme se trouve.
+// Le remplissage de la forme par défaut est entièrement opaque, nous ne pouvons donc pas voir le texte sur lequel se trouve cette forme.
 Assert.AreEqual(1.0d, shape.Fill.Opacity);
 
 // Définit l'opacité de la couleur de remplissage de la forme sur une valeur inférieure afin que nous puissions voir le texte en dessous.

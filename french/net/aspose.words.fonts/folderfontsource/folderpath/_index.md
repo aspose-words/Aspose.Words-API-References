@@ -19,7 +19,7 @@ public string FolderPath { get; }
 Montre comment utiliser un dossier système local contenant des polices comme source de polices.
 
 ```csharp
-// Crée une source de polices à partir d'un dossier contenant des fichiers de polices.
+// Crée une source de police à partir d'un dossier contenant des fichiers de police.
 FolderFontSource folderFontSource = new FolderFontSource(FontsDir, false, 1);
 
 Document doc = new Document();

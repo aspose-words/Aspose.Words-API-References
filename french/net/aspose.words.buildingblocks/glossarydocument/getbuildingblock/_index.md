@@ -1,14 +1,14 @@
 ---
 title: GlossaryDocument.GetBuildingBlock
 second_title: Référence de l'API Aspose.Words pour .NET
-description: GlossaryDocument méthode. Trouve un bloc de construction en utilisant la galerie la catégorie et le nom spécifiés.
+description: GlossaryDocument méthode. Recherche un bloc de construction en utilisant la galerie la catégorie et le nom spécifiés.
 type: docs
-weight: 70
+weight: 90
 url: /fr/net/aspose.words.buildingblocks/glossarydocument/getbuildingblock/
 ---
 ## GlossaryDocument.GetBuildingBlock method
 
-Trouve un bloc de construction en utilisant la galerie, la catégorie et le nom spécifiés.
+Recherche un bloc de construction en utilisant la galerie, la catégorie et le nom spécifiés.
 
 ```csharp
 public BuildingBlock GetBuildingBlock(BuildingBlockGallery gallery, string category, string name)
@@ -17,22 +17,22 @@ public BuildingBlock GetBuildingBlock(BuildingBlockGallery gallery, string categ
 | Paramètre | Taper | La description |
 | --- | --- | --- |
 | gallery | BuildingBlockGallery | Les critères de la galerie. |
-| category | String | Les critères de la catégorie. Peut être nul, auquel cas il ne sera pas utilisé pour la comparaison. |
-| name | String | Les critères de nom de bloc de construction. |
+| category | String | Les critères de catégorie. Peut être`nul`, auquel cas il ne sera pas utilisé à des fins de comparaison. |
+| name | String | Critères de nom du bloc de construction. |
 
 ### Return_Value
 
-Le bloc de construction correspondant ou null si aucune correspondance n'a été trouvée.
+Le bloc de construction correspondant ou`nul` si aucune correspondance n'a été trouvée.
 
 ### Remarques
 
-Il s'agit d'une méthode pratique qui itère sur tous les blocs de construction de cette collection et renvoie le premier bloc de construction qui correspond à la galerie, à la catégorie et au nom spécifiés.
+Il s'agit d'une méthode pratique qui parcourt tous les blocs de construction de cette collection et renvoie le premier bloc de construction qui correspond à la galerie, à la catégorie et au nom spécifiés.
 
-Microsoft Word organise les blocs de construction en galeries. Les galleries sont prédéfinies à l'aide de la[`BuildingBlockGallery`](../../buildingblockgallery/) enum. Dans chaque galerie, les blocs de construction peuvent être organisés en une ou plusieurs catégories. Le nom de la catégorie est une chaîne. Chaque bloc de construction porte un nom. Il n'est pas garanti qu'un nom de bloc de construction soit unique.
+Microsoft Word organise les blocs de construction en galeries. Les galeries sont prédéfinies à l'aide du[`BuildingBlockGallery`](../../buildingblockgallery/) enum. Dans chaque galerie, les blocs de construction peuvent être organisés en une ou plusieurs catégories. Le nom de la catégorie est une chaîne. Chaque élément de construction a un nom. Il n’est pas garanti qu’un nom de bloc de construction soit unique.
 
 ### Exemples
 
-Montre les moyens d'accéder aux blocs de construction dans un document de glossaire.
+Montre les moyens d'accéder aux blocs de construction dans un document glossaire.
 
 ```csharp
 public void GlossaryDocument()
@@ -51,7 +51,7 @@ public void GlossaryDocument()
     doc.GlossaryDocument = glossaryDoc;
 
     // Il existe différentes manières d'accéder aux blocs de construction.
-    // 1 - Récupère les premiers/derniers blocs de construction de la collection :
+    // 1 - Récupère les premier/dernier blocs de construction de la collection :
     Assert.AreEqual("Block 1", glossaryDoc.FirstBuildingBlock.Name);
     Assert.AreEqual("Block 5", glossaryDoc.LastBuildingBlock.Name);
 
@@ -59,18 +59,17 @@ public void GlossaryDocument()
     Assert.AreEqual("Block 2", glossaryDoc.BuildingBlocks[1].Name);
     Assert.AreEqual("Block 3", glossaryDoc.BuildingBlocks.ToArray()[2].Name);
 
-    // 3 - Récupérez le premier bloc de construction qui correspond à une galerie, un nom et une catégorie :
+    // 3 - Obtenez le premier bloc de construction qui correspond à une galerie, un nom et une catégorie :
     Assert.AreEqual("Block 4", 
         glossaryDoc.GetBuildingBlock(BuildingBlockGallery.All, "(Empty Category)", "Block 4").Name);
 
-    // Nous le ferons en utilisant un visiteur personnalisé,
-    // qui donnera à chaque BuildingBlock dans le GlossaryDocument un GUID unique
+    // Nous ferons cela en utilisant un visiteur personnalisé,
+    // qui donnera à chaque BuildingBlock du GlossaryDocument un GUID unique
     GlossaryDocVisitor visitor = new GlossaryDocVisitor();
     glossaryDoc.Accept(visitor);
-
     Console.WriteLine(visitor.GetText());
 
-    // Dans Microsoft Word, nous pouvons accéder aux blocs de construction via "Insérer" -> "Parties rapides" -> "Organisateur de blocs de construction".
+    // Dans Microsoft Word, nous pouvons accéder aux blocs de construction via "Insérer" -> "Pièces rapides" -> "Organisateur de blocs de construction".
     doc.Save(ArtifactsDir + "BuildingBlocks.GlossaryDocument.dotx"); 
 }
 

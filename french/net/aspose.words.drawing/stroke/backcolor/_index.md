@@ -16,11 +16,11 @@ public Color BackColor { get; set; }
 
 ### Remarques
 
-La valeur par défaut pour un[`Shape`](../../shape/) est White.
+La valeur par défaut d'un[`Shape`](../../shape/) est White.
 
 ### Exemples
 
-Montrez comment définir la mise en forme des marqueurs.
+Montrez comment définir le formatage des marqueurs.
 
 ```csharp
 Document doc = new Document();

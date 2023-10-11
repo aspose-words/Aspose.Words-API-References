@@ -1,14 +1,16 @@
 ---
 title: Class RowFormat
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Tables.RowFormat classe. Représente toute la mise en forme dune ligne de tableau.
+description: Aspose.Words.Tables.RowFormat classe. Représente tout le formatage dune ligne de tableau.
 type: docs
-weight: 6030
+weight: 6330
 url: /fr/net/aspose.words.tables/rowformat/
 ---
 ## RowFormat class
 
-Représente toute la mise en forme d'une ligne de tableau.
+Représente tout le formatage d'une ligne de tableau.
+
+Pour en savoir plus, visitez le[Travailler avec des tableaux](https://docs.aspose.com/words/net/working-with-tables/) article documentaire.
 
 ```csharp
 public class RowFormat
@@ -18,11 +20,11 @@ public class RowFormat
 
 | Nom | La description |
 | --- | --- |
-| [AllowBreakAcrossPages](../../aspose.words.tables/rowformat/allowbreakacrosspages/) { get; set; } | Vrai si le texte d'une ligne de tableau est autorisé à être fractionné sur un saut de page. |
+| [AllowBreakAcrossPages](../../aspose.words.tables/rowformat/allowbreakacrosspages/) { get; set; } | True si le texte d'une ligne de tableau est autorisé à être divisé sur un saut de page. |
 | [Borders](../../aspose.words.tables/rowformat/borders/) { get; } | Obtient la collection de bordures de cellule par défaut pour la ligne. |
-| [HeadingFormat](../../aspose.words.tables/rowformat/headingformat/) { get; set; } | Vrai si la ligne est répétée en tant qu'en-tête de tableau sur chaque page lorsque le tableau s'étend sur plusieurs pages. |
+| [HeadingFormat](../../aspose.words.tables/rowformat/headingformat/) { get; set; } | Vrai si la ligne est répétée comme en-tête de tableau sur chaque page lorsque le tableau s'étend sur plusieurs pages. |
 | [Height](../../aspose.words.tables/rowformat/height/) { get; set; } | Obtient ou définit la hauteur de la ligne du tableau en points. |
-| [HeightRule](../../aspose.words.tables/rowformat/heightrule/) { get; set; } | Obtient ou définit la règle pour déterminer la hauteur de la ligne du tableau. |
+| [HeightRule](../../aspose.words.tables/rowformat/heightrule/) { get; set; } | Obtient ou définit la règle permettant de déterminer la hauteur de la ligne du tableau. |
 
 ## Méthodes
 
@@ -32,13 +34,13 @@ public class RowFormat
 
 ### Exemples
 
-Montre comment modifier la mise en forme d'une ligne de tableau.
+Montre comment modifier le formatage d’une ligne de tableau.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
 Table table = doc.FirstSection.Body.Tables[0];
 
-// Utilisez la propriété "RowFormat" de la première ligne pour définir le formatage qui modifie l'apparence de cette ligne entière.
+// Utilisez la propriété "RowFormat" de la première ligne pour définir un formatage qui modifie l'apparence entière de cette ligne.
 Row firstRow = table.FirstRow;
 firstRow.RowFormat.Borders.LineStyle = LineStyle.None;
 firstRow.RowFormat.HeightRule = HeightRule.Auto;
@@ -47,7 +49,7 @@ firstRow.RowFormat.AllowBreakAcrossPages = true;
 doc.Save(ArtifactsDir + "Table.RowFormat.docx");
 ```
 
-Montre comment modifier le format des lignes et des cellules d'un tableau.
+Montre comment modifier le format des lignes et des cellules dans un tableau.
 
 ```csharp
 Document doc = new Document();
@@ -71,7 +73,7 @@ RowFormat rowFormat = table.FirstRow.RowFormat;
 rowFormat.Height = 25;
 rowFormat.Borders[BorderType.Bottom].Color = Color.Red;
 
-// Utilisez la propriété "CellFormat" de la première cellule de la dernière ligne pour modifier la mise en forme du contenu de cette cellule.
+// Utilisez la propriété "CellFormat" de la première cellule de la dernière ligne pour modifier le formatage du contenu de cette cellule.
 CellFormat cellFormat = table.LastRow.FirstCell.CellFormat;
 cellFormat.Width = 100;
 cellFormat.Shading.BackgroundPatternColor = Color.Orange;
@@ -87,7 +89,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.StartTable();
 
-// Définition des options de formatage de tableau pour un générateur de document
+// Définition des options de formatage de tableau pour un générateur de documents
 // les appliquera à chaque ligne et cellule que nous ajouterons avec.
 builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
@@ -111,8 +113,8 @@ builder.InsertCell();
 builder.Write("Row 1, Col 2");
 builder.EndRow();
 
-// Changer la mise en forme l'appliquera à la cellule courante,
-// et toutes les nouvelles cellules que nous créons avec le constructeur par la suite.
+// Changer le formatage l'appliquera à la cellule actuelle,
+// et toutes les nouvelles cellules que nous créons ensuite avec le constructeur.
 // Cela n'affectera pas les cellules que nous avons ajoutées précédemment.
 builder.CellFormat.Shading.ClearFormatting();
 
@@ -124,7 +126,7 @@ builder.Write("Row 2, Col 2");
 
 builder.EndRow();
 
-// Augmente la hauteur de ligne pour s'adapter au texte vertical.
+// Augmente la hauteur de la ligne pour l'adapter au texte vertical.
 builder.InsertCell();
 builder.RowFormat.Height = 150;
 builder.CellFormat.Orientation = TextOrientation.Upward;

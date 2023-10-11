@@ -1,14 +1,14 @@
 ---
 title: CsvDataSource.CsvDataSource
 second_title: Référence de l'API Aspose.Words pour .NET
-description: CsvDataSource constructeur. Crée une nouvelle source de données avec les données dun fichier CSV en utilisant les options par défaut pour lanalyse des données CSV.
+description: CsvDataSource constructeur. Crée une nouvelle source de données avec les données dun fichier CSV en utilisant les options par défaut pour analyser les données CSV.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.reporting/csvdatasource/csvdatasource/
 ---
 ## CsvDataSource(string) {#constructor_2}
 
-Crée une nouvelle source de données avec les données d'un fichier CSV en utilisant les options par défaut pour l'analyse des données CSV.
+Crée une nouvelle source de données avec les données d'un fichier CSV en utilisant les options par défaut pour analyser les données CSV.
 
 ```csharp
 public CsvDataSource(string csvPath)
@@ -16,7 +16,7 @@ public CsvDataSource(string csvPath)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| csvPath | String | Chemin d'accès au fichier CSV à utiliser comme source de données. |
+| csvPath | String | Le chemin d'accès au fichier CSV à utiliser comme source de données. |
 
 ### Voir également
 
@@ -36,7 +36,7 @@ public CsvDataSource(string csvPath, CsvDataLoadOptions options)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| csvPath | String | Chemin d'accès au fichier CSV à utiliser comme source de données. |
+| csvPath | String | Le chemin d'accès au fichier CSV à utiliser comme source de données. |
 | options | CsvDataLoadOptions | Options d'analyse des données CSV. |
 
 ### Voir également
@@ -50,7 +50,7 @@ public CsvDataSource(string csvPath, CsvDataLoadOptions options)
 
 ## CsvDataSource(Stream) {#constructor}
 
-Crée une nouvelle source de données avec les données d'un flux CSV en utilisant les options par défaut pour l'analyse des données CSV.
+Crée une nouvelle source de données avec les données d'un flux CSV à l'aide des options par défaut pour l'analyse des données CSV.
 
 ```csharp
 public CsvDataSource(Stream csvStream)
@@ -58,7 +58,7 @@ public CsvDataSource(Stream csvStream)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| csvStream | Stream | Le flux de données CSV à utiliser comme source de données. |
+| csvStream | Stream | Flux de données CSV à utiliser comme source de données. |
 
 ### Voir également
 
@@ -78,7 +78,7 @@ public CsvDataSource(Stream csvStream, CsvDataLoadOptions options)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| csvStream | Stream | Le flux de données CSV à utiliser comme source de données. |
+| csvStream | Stream | Flux de données CSV à utiliser comme source de données. |
 | options | CsvDataLoadOptions | Options d'analyse des données CSV. |
 
 ### Voir également

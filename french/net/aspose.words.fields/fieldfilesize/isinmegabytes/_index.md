@@ -28,7 +28,7 @@ builder.MoveToDocumentEnd();
 builder.InsertParagraph();
 
 // Vous trouverez ci-dessous trois unités de mesure différentes
-// avec lequel les champs FILESIZE peuvent afficher la taille de fichier du document.
+// avec lequel les champs FILESIZE peuvent afficher la taille du fichier du document.
 // 1 - Octets :
 FieldFileSize field = (FieldFileSize)builder.InsertField(FieldType.FieldFileSize, true);
 field.Update();
@@ -36,7 +36,7 @@ field.Update();
 Assert.AreEqual(" FILESIZE ", field.GetFieldCode());
 Assert.AreEqual("18105", field.Result);
 
-// 2 - Kilo-octets :
+// 2 - Kilooctets :
 builder.InsertParagraph();
 field = (FieldFileSize)builder.InsertField(FieldType.FieldFileSize, true);
 field.IsInKilobytes = true;

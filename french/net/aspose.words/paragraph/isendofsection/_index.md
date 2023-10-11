@@ -1,14 +1,14 @@
 ---
 title: Paragraph.IsEndOfSection
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Paragraph propriété. Vrai si ce paragraphe est le dernier paragraphe de la Corps histoire du texte principal dun Section  faux sinon.
+description: Paragraph propriété. Vrai si ce paragraphe est le dernier paragraphe duBody histoire du texte principal dunSection  faux sinon.
 type: docs
 weight: 80
 url: /fr/net/aspose.words/paragraph/isendofsection/
 ---
 ## Paragraph.IsEndOfSection property
 
-Vrai si ce paragraphe est le dernier paragraphe de la **Corps** (histoire du texte principal) d'un **Section** ; faux sinon.
+Vrai si ce paragraphe est le dernier paragraphe du[`Body`](../../body/) (histoire du texte principal) d'un[`Section`](../../section/) ; faux sinon.
 
 ```csharp
 public bool IsEndOfSection { get; }
@@ -16,10 +16,9 @@ public bool IsEndOfSection { get; }
 
 ### Exemples
 
-Montre comment insérer le contenu d'un document dans un signet d'un autre document.
+Montre comment insérer le contenu d’un document dans un signet dans un autre document.
 
 ```csharp
-[Test]
 public void InsertAtBookmark()
 {
     Document doc = new Document();
@@ -55,7 +54,7 @@ static void InsertDocument(Node insertionDestination, Document docToInsert)
         NodeImporter importer =
             new NodeImporter(docToInsert, insertionDestination.Document, ImportFormatMode.KeepSourceFormatting);
 
-        // Boucle sur tous les nœuds de niveau bloc dans le corps de la section,
+        // Parcourez tous les nœuds de niveau bloc dans le corps de la section,
         // puis clonez et insérez chaque nœud qui n'est pas le dernier paragraphe vide d'une section.
         foreach (Section srcSection in docToInsert.Sections.OfType<Section>())
             foreach (Node srcNode in srcSection.Body)

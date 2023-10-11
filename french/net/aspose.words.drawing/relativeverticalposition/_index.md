@@ -1,14 +1,14 @@
 ---
 title: Enum RelativeVerticalPosition
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Drawing.RelativeVerticalPosition énumération. Spécifie à quoi la position verticale dune forme ou dun cadre de texte est relative.
+description: Aspose.Words.Drawing.RelativeVerticalPosition énumération. Spécifie à quoi est relative la position verticale dune forme ou dun cadre de texte.
 type: docs
-weight: 1070
+weight: 1210
 url: /fr/net/aspose.words.drawing/relativeverticalposition/
 ---
 ## RelativeVerticalPosition enumeration
 
-Spécifie à quoi la position verticale d'une forme ou d'un cadre de texte est relative.
+Spécifie à quoi est relative la position verticale d'une forme ou d'un cadre de texte.
 
 ```csharp
 public enum RelativeVerticalPosition
@@ -21,7 +21,7 @@ public enum RelativeVerticalPosition
 | Margin | `0` | Spécifie que le positionnement vertical doit être relatif aux marges de la page. |
 | Page | `1` | L'objet est positionné par rapport au bord supérieur de la page. |
 | Paragraph | `2` | L'objet est positionné par rapport au haut du paragraphe qui contient l'ancre. |
-| Line | `3` | Non documenté. |
+| Line | `3` | Sans papiers. |
 | TopMargin | `4` | Spécifie que le positionnement vertical doit être relatif à la marge supérieure de la page actuelle. |
 | BottomMargin | `5` | Spécifie que le positionnement vertical doit être relatif à la marge inférieure de la page actuelle. |
 | InsideMargin | `6` | Spécifie que le positionnement vertical doit être relatif à la marge intérieure de la page actuelle. |
@@ -31,13 +31,13 @@ public enum RelativeVerticalPosition
 
 ### Exemples
 
-Montre comment insérer une image flottante au centre d'une page.
+Montre comment insérer une image flottante au centre d’une page.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Insère une image flottante qui apparaîtra derrière le texte superposé et l'aligne au centre de la page.
+// Insère une image flottante qui apparaîtra derrière le texte superposé et alignez-la au centre de la page.
 Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
 shape.WrapType = WrapType.None;
 shape.BehindText = true;
@@ -55,7 +55,7 @@ Montre comment insérer une image et l'utiliser comme filigrane.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Insérez l'image dans l'en-tête afin qu'elle soit visible sur chaque page.
+// Insère l'image dans l'en-tête afin qu'elle soit visible sur chaque page.
 Image image = Image.FromFile(ImageDir + "Transparent background logo.png");
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 Shape shape = builder.InsertImage(image);
@@ -77,7 +77,7 @@ Montre comment insérer une image et l'utiliser comme filigrane (.NetStandard 2.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Insérez l'image dans l'en-tête afin qu'elle soit visible sur chaque page.
+// Insère l'image dans l'en-tête afin qu'elle soit visible sur chaque page.
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 
 using (SKBitmap image = SKBitmap.Decode(ImageDir + "Transparent background logo.png"))

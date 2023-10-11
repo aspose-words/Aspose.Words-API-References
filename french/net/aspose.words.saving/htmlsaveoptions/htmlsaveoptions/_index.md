@@ -16,7 +16,7 @@ public HtmlSaveOptions()
 
 ### Exemples
 
-Montre comment utiliser un encodage spécifique lors de l'enregistrement d'un document au format .epub.
+Montre comment utiliser un encodage spécifique lors de l’enregistrement d’un document au format .epub.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
@@ -27,12 +27,12 @@ saveOptions.SaveFormat = SaveFormat.Epub;
 saveOptions.Encoding = Encoding.UTF8;
 
 // Par défaut, un document de sortie .epub aura tout son contenu dans une seule partie HTML.
-// Un critère de découpage permet de segmenter le document en plusieurs parties HTML.
-// Nous allons définir les critères pour diviser le document en paragraphes d'en-tête.
-// Ceci est utile pour les lecteurs qui ne peuvent pas lire les fichiers HTML plus importants qu'une taille spécifique.
+// Un critère de split permet de segmenter le document en plusieurs parties HTML.
+// Nous définirons les critères pour diviser le document en paragraphes de titre.
+// Ceci est utile pour les lecteurs qui ne peuvent pas lire des fichiers HTML d'une taille supérieure à une taille spécifique.
 saveOptions.DocumentSplitCriteria = DocumentSplitCriteria.HeadingParagraph;
 
-// Spécifiez que nous voulons exporter les propriétés du document.
+// Spécifie que nous souhaitons exporter les propriétés du document.
 saveOptions.ExportDocumentProperties = true;
 
 doc.Save(ArtifactsDir + "HtmlSaveOptions.Doc2EpubSaveOptions.epub", saveOptions);
@@ -48,7 +48,7 @@ doc.Save(ArtifactsDir + "HtmlSaveOptions.Doc2EpubSaveOptions.epub", saveOptions)
 
 ## HtmlSaveOptions(SaveFormat) {#constructor_1}
 
-Initialise une nouvelle instance de cette classe qui peut être utilisée pour enregistrer un document dans leHtml ,Mhtml ouEpub format.
+Initialise une nouvelle instance de cette classe qui peut être utilisée pour enregistrer un document dans leHtml ,Mhtml ,Epub , Azw3 ouMobi format.
 
 ```csharp
 public HtmlSaveOptions(SaveFormat saveFormat)
@@ -56,7 +56,7 @@ public HtmlSaveOptions(SaveFormat saveFormat)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| saveFormat | SaveFormat | Peut êtreHtml ,Mhtml ouEpub. |
+| saveFormat | SaveFormat | Peut êtreHtml ,Mhtml ,Epub , Azw3 ouMobi . |
 
 ### Exemples
 
@@ -73,7 +73,7 @@ HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.Html)
 
 doc.Save(ArtifactsDir + "HtmlSaveOptions.HtmlVersions.html", options);
 
-// Nos documents HTML auront des différences mineures pour être compatibles avec les différentes versions HTML.
+// Nos documents HTML présenteront des différences mineures pour être compatibles avec les différentes versions HTML.
 string outDocContents = File.ReadAllText(ArtifactsDir + "HtmlSaveOptions.HtmlVersions.html");
 
 switch (htmlVersion)

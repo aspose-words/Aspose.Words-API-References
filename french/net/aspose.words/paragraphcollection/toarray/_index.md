@@ -20,7 +20,7 @@ Un tableau de paragraphes.
 
 ### Exemples
 
-Montre comment créer un tableau à partir d'une NodeCollection.
+Montre comment créer un tableau à partir d'un NodeCollection.
 
 ```csharp
 Document doc = new Document(MyDir + "Paragraphs.docx");
@@ -30,7 +30,7 @@ Paragraph[] paras = doc.FirstSection.Body.Paragraphs.ToArray();
 Assert.AreEqual(22, paras.Length);
 ```
 
-Montre comment utiliser "hot remove" pour supprimer un nœud pendant l'énumération.
+Montre comment utiliser « hot remove » pour supprimer un nœud lors de l'énumération.
 
 ```csharp
 Document doc = new Document();

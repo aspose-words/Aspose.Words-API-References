@@ -1,14 +1,14 @@
 ---
 title: GradientStop.Color
 second_title: Référence de l'API Aspose.Words pour .NET
-description: GradientStop propriété. Obtient ou définit une valeur représentant la couleur de larrêt du dégradé.
+description: GradientStop propriété. Obtient ou définit une valeur représentant la couleur du point darrêt du dégradé.
 type: docs
-weight: 20
+weight: 30
 url: /fr/net/aspose.words.drawing/gradientstop/color/
 ---
 ## GradientStop.Color property
 
-Obtient ou définit une valeur représentant la couleur de l'arrêt du dégradé.
+Obtient ou définit une valeur représentant la couleur du point d'arrêt du dégradé.
 
 ```csharp
 public Color Color { get; set; }
@@ -28,18 +28,18 @@ shape.Fill.TwoColorGradient(Color.Green, Color.Red, GradientStyle.Horizontal, Gr
 // Récupère la collection d'arrêts de dégradé.
 GradientStopCollection gradientStops = shape.Fill.GradientStops;
 
-// Changer le premier arrêt du dégradé.
-gradientStops[0].Color = Color.Aqua;
+// Change le premier arrêt du dégradé.            
+gradientStops[0].Color = Color.Aqua;            
 gradientStops[0].Position = 0.1;
 gradientStops[0].Transparency = 0.25;
 
-// Ajoute un nouvel arrêt de dégradé à la fin de la collection.
+// Ajoute un nouveau point de dégradé à la fin de la collection.
 GradientStop gradientStop = new GradientStop(Color.Brown, 0.5);
 gradientStops.Add(gradientStop);
 
 // Supprime l'arrêt du dégradé à l'index 1.
 gradientStops.RemoveAt(1);
-// Et insère un nouvel arrêt de dégradé au même index 1.
+// Et insérez un nouveau point de dégradé au même index 1.
 gradientStops.Insert(1, new GradientStop(Color.Chocolate, 0.75, 0.3));
 
 // Supprime le dernier arrêt de dégradé de la collection.
@@ -48,6 +48,7 @@ gradientStops.Remove(gradientStop);
 
 Assert.AreEqual(2, gradientStops.Count);
 
+Assert.AreEqual(Color.FromArgb(255, 0, 255, 255), gradientStops[0].BaseColor);
 Assert.AreEqual(Color.Aqua.ToArgb(), gradientStops[0].Color.ToArgb());
 Assert.AreEqual(0.1d, gradientStops[0].Position, 0.01d);
 Assert.AreEqual(0.25d, gradientStops[0].Transparency, 0.01d);

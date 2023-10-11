@@ -1,18 +1,18 @@
 ---
 title: Aspose.Words.Math
 second_title: Référence de l'API Aspose.Words pour .NET
-description: La Aspose.Words.Math namespace contient des classes qui représentent des éléments Office Math.
+description: Le Aspose.Words.Math Lespace de noms contient des classes qui représentent des éléments Office Math.
 type: docs
-weight: 160
+weight: 170
 url: /fr/net/aspose.words.math/
 ---
-La **Aspose.Words.Math** namespace contient des classes qui représentent des éléments Office Math.
+Le **Aspose.Words.Math** L’espace de noms contient des classes qui représentent des éléments Office Math.
 
 ## Des classes
 
 | Classer | La description |
 | --- | --- |
-| [OfficeMath](./officemath/) | Représente un objet Office Math tel qu'une fonction, une équation, une matrice ou similaire. Peut contenir des éléments enfants , y compris des séries de texte mathématique, des signets, des commentaires, d'autres[`OfficeMath`](../aspose.words.math/officemath/) instances et quelques autres nœuds. |
+| [OfficeMath](./officemath/) | Représente un objet Office Math tel qu'une fonction, une équation, une matrice ou autre. Peut contenir des éléments enfants , notamment des séquences de texte mathématique, des signets, des commentaires, etc.[`OfficeMath`](../aspose.words.math/officemath/)instances et quelques autres nœuds. |
 ## Énumération
 
 | Énumération | La description |

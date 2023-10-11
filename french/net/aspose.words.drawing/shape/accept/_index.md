@@ -20,21 +20,22 @@ public override bool Accept(DocumentVisitor visitor)
 
 ### Return_Value
 
-Vrai si tous les nœuds ont été visités ; false si DocumentVisitor a arrêté l'opération avant de visiter tous les nœuds.
+Vrai si tous les nœuds ont été visités ; faux si[`DocumentVisitor`](../../../aspose.words/documentvisitor/) arrêté l'opération avant de visiter tous les nœuds.
 
 ### Remarques
 
-Énumère ce nœud et tous ses enfants. Chaque nœud appelle une méthode correspondante sur DocumentVisitor.
+Énumère ce nœud et tous ses enfants. Chaque nœud appelle une méthode correspondante sur[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
 
-Pour plus d'informations, consultez le modèle de conception Visiteur.
+Pour plus d’informations, consultez le modèle de conception Visiteur.
 
 Appels[`VisitShapeStart`](../../../aspose.words/documentvisitor/visitshapestart/) , puis appelle[`Accept`](../../../aspose.words/node/accept/) pour tous les nœuds enfants de la forme et des appels[`VisitShapeEnd`](../../../aspose.words/documentvisitor/visitshapeend/) à la fin.
 
 ### Exemples
 
-Montre comment parcourir toutes les formes d'un document.
+Montre comment parcourir toutes les formes d’un document.
 
 ```csharp
+public void VisitShapes()
 {
     Document doc = new Document(MyDir + "Revision shape.docx");
     ShapeAppearancePrinter visitor = new ShapeAppearancePrinter();
@@ -44,7 +45,7 @@ Montre comment parcourir toutes les formes d'un document.
 }
 
 /// <summary>
-/// Consigne les informations relatives à l'apparence des formes visitées.
+/// Enregistre les informations relatives à l'apparence des formes visitées.
 /// </summary>
 private class ShapeAppearancePrinter : DocumentVisitor
 {
@@ -66,7 +67,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Renvoie tout le texte que le StringBuilder a accumulé.
+    /// Renvoie tout le texte accumulé par StringBuilder.
     /// </summary>
     public string GetText()
     {

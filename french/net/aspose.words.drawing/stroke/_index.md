@@ -3,12 +3,14 @@ title: Class Stroke
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Aspose.Words.Drawing.Stroke classe. Définit un trait pour une forme.
 type: docs
-weight: 1160
+weight: 1310
 url: /fr/net/aspose.words.drawing/stroke/
 ---
 ## Stroke class
 
 Définit un trait pour une forme.
+
+Pour en savoir plus, visitez le[Travailler avec des formes](https://docs.aspose.com/words/net/working-with-shapes/) article documentaire.
 
 ```csharp
 public class Stroke
@@ -19,6 +21,7 @@ public class Stroke
 | Nom | La description |
 | --- | --- |
 | [BackColor](../../aspose.words.drawing/stroke/backcolor/) { get; set; } | Obtient ou définit la couleur d'arrière-plan du trait. |
+| [BaseForeColor](../../aspose.words.drawing/stroke/baseforecolor/) { get; } |  |
 | [Color](../../aspose.words.drawing/stroke/color/) { get; set; } | Définit la couleur d'un trait. |
 | [Color2](../../aspose.words.drawing/stroke/color2/) { get; set; } | Définit une deuxième couleur pour un trait. |
 | [DashStyle](../../aspose.words.drawing/stroke/dashstyle/) { get; set; } | Spécifie le motif de points et de tirets pour un trait. |
@@ -26,10 +29,11 @@ public class Stroke
 | [EndArrowType](../../aspose.words.drawing/stroke/endarrowtype/) { get; set; } | Définit la pointe de flèche pour la fin d'un trait. |
 | [EndArrowWidth](../../aspose.words.drawing/stroke/endarrowwidth/) { get; set; } | Définit la largeur de la pointe de flèche pour la fin d'un trait. |
 | [EndCap](../../aspose.words.drawing/stroke/endcap/) { get; set; } | Définit le style de capuchon pour la fin d'un trait. |
+| [Fill](../../aspose.words.drawing/stroke/fill/) { get; } | Obtient le formatage de remplissage pour le`Stroke` . |
 | [ForeColor](../../aspose.words.drawing/stroke/forecolor/) { get; set; } | Obtient ou définit la couleur de premier plan du trait. |
-| [ImageBytes](../../aspose.words.drawing/stroke/imagebytes/) { get; } | Définit l'image pour une image de contour ou un motif de remplissage. |
+| [ImageBytes](../../aspose.words.drawing/stroke/imagebytes/) { get; } | Définit l'image pour une image de trait ou un remplissage de motif. |
 | [JoinStyle](../../aspose.words.drawing/stroke/joinstyle/) { get; set; } | Définit le style de jointure d'une polyligne. |
-| [LineStyle](../../aspose.words.drawing/stroke/linestyle/) { get; set; } | Définit le style de trait du trait. |
+| [LineStyle](../../aspose.words.drawing/stroke/linestyle/) { get; set; } | Définit le style de ligne du trait. |
 | [On](../../aspose.words.drawing/stroke/on/) { get; set; } | Définit si le chemin sera tracé. |
 | [Opacity](../../aspose.words.drawing/stroke/opacity/) { get; set; } | Définit la quantité de transparence d'un trait. La plage valide est de 0 à 1. |
 | [StartArrowLength](../../aspose.words.drawing/stroke/startarrowlength/) { get; set; } | Définit la longueur de la pointe de flèche pour le début d'un trait. |
@@ -41,11 +45,11 @@ public class Stroke
 
 ### Remarques
 
-Utilisez le[`Stroke`](../shape/stroke/)pour accéder aux propriétés de trait d'une forme. Vous ne créez pas d'instances de la`Stroke` classe directement.
+Utilisez le[`Stroke`](../shape/stroke/) propriété pour accéder aux propriétés de trait d'une forme. Vous ne créez pas d'instances du`Stroke` classe directement.
 
 ### Exemples
 
-Montre comment modifier les propriétés de trait.
+Montre comment modifier les propriétés du trait.
 
 ```csharp
 Document doc = new Document();
@@ -54,12 +58,12 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertShape(ShapeType.Rectangle, RelativeHorizontalPosition.LeftMargin, 100,
     RelativeVerticalPosition.TopMargin, 100, 200, 200, WrapType.None);
 
-// Les formes de base, telles que le rectangle, ont deux parties visibles.
-// 1 - Le remplissage, qui s'applique à la zone à l'intérieur du contour de la forme :
+// Les formes de base, comme le rectangle, comportent deux parties visibles.
+// 1 - Le remplissage, qui s'applique à la zone située à l'intérieur du contour de la forme :
 shape.Fill.ForeColor = Color.White;
 
 // 2 - Le trait, qui marque le contour de la forme :
-// Modifie diverses propriétés du trait de cette forme.
+// Modifier diverses propriétés du trait de cette forme.
 Stroke stroke = shape.Stroke;
 stroke.On = true;
 stroke.Weight = 5;
@@ -68,6 +72,7 @@ stroke.DashStyle = DashStyle.ShortDashDotDot;
 stroke.JoinStyle = JoinStyle.Miter;
 stroke.EndCap = EndCap.Square;
 stroke.LineStyle = ShapeLineStyle.Triple;
+stroke.Fill.TwoColorGradient(Color.Red, Color.Blue, GradientStyle.Vertical, GradientVariant.Variant1);
 
 doc.Save(ArtifactsDir + "Shape.Stroke.docx");
 ```

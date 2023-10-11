@@ -34,7 +34,7 @@ Assert.AreEqual("My comment", field.Result);
 builder.Writeln();
 
 // Définition d'une valeur pour la propriété NewValue du champ et mise à jour
-// le champ écrasera également la propriété intégrée correspondante avec la nouvelle valeur.
+// le champ écrasera également la propriété intégrée correspondante par la nouvelle valeur.
 field = (FieldInfo)builder.InsertField(FieldType.FieldInfo, true);
 field.InfoType = "Comments";
 field.NewValue = "New comment";

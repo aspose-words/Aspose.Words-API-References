@@ -3,7 +3,7 @@ title: ChartSeries.HasDataLabels
 second_title: Référence de l'API Aspose.Words pour .NET
 description: ChartSeries propriété. Obtient ou définit un indicateur indiquant si les étiquettes de données sont affichées pour la série.
 type: docs
-weight: 60
+weight: 70
 url: /fr/net/aspose.words.drawing.charts/chartseries/hasdatalabels/
 ---
 ## ChartSeries.HasDataLabels property

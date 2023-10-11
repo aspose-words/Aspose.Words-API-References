@@ -1,14 +1,14 @@
 ---
 title: PageSet.PageSet
 second_title: Référence de l'API Aspose.Words pour .NET
-description: PageSet constructeur. Crée un ensemble dune page basé sur lindex de page exact.
+description: PageSet constructeur. Crée un ensemble dune page basé sur lindex exact de la page.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.saving/pageset/pageset/
 ---
 ## PageSet(int) {#constructor_1}
 
-Crée un ensemble d'une page basé sur l'index de page exact.
+Crée un ensemble d'une page basé sur l'index exact de la page.
 
 ```csharp
 public PageSet(int page)
@@ -20,7 +20,7 @@ public PageSet(int page)
 
 ### Remarques
 
-Si une page est rencontrée qui n'est pas dans le document, une exception sera levée lors du rendu. MaxValue signifie la dernière page du document.
+Si une page rencontrée ne figure pas dans le document, une exception sera levée lors du rendu. MaxValue signifie la dernière page du document.
 
 ### Voir également
 
@@ -40,11 +40,11 @@ public PageSet(params int[] pages)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| pages | Int32[] | Index de pages de base zéro. |
+| pages | Int32[] | Index des pages de base zéro. |
 
 ### Remarques
 
-Si une page est rencontrée qui n'est pas dans le document, une exception sera levée lors du rendu. MaxValue signifie la dernière page du document.
+Si une page rencontrée ne figure pas dans le document, une exception sera levée lors du rendu. MaxValue signifie la dernière page du document.
 
 ### Exemples
 
@@ -61,12 +61,12 @@ for (int i = 1; i < 6; i++)
     builder.InsertBreak(BreakType.PageBreak);
 }
 
-// Crée un objet "XpsSaveOptions", que nous pouvons passer à la méthode "Save" du document
+// Crée un objet "XpsSaveOptions", que l'on peut passer à la méthode "Save" du document
 // pour modifier la façon dont cette méthode convertit le document en .XPS.
 XpsSaveOptions xpsOptions = new XpsSaveOptions();
 
 // Utilisez la propriété "PageSet" pour sélectionner un ensemble de pages du document à enregistrer dans la sortie XPS.
-// Dans ce cas, on ne choisira, via un index de base zéro, que trois pages : la page 1, la page 2 et la page 4.
+// Dans ce cas, nous choisirons, via un index de base zéro, seulement trois pages : page 1, page 2 et page 4.
 xpsOptions.PageSet = new PageSet(0, 1, 3);
 
 doc.Save(ArtifactsDir + "XpsSaveOptions.ExportExactPages.xps", xpsOptions);
@@ -94,7 +94,7 @@ public PageSet(params PageRange[] ranges)
 
 ### Remarques
 
-Si une plage commençant après la dernière page du document est rencontrée, une exception sera levée lors du rendu. Toutes les plages qui se terminent après la dernière page sont tronquées pour tenir dans le document.
+Si une plage commence après la dernière page du document, une exception sera levée lors du rendu. Toutes les plages qui se terminent après la dernière page sont tronquées pour tenir dans le document.
 
 ### Exemples
 

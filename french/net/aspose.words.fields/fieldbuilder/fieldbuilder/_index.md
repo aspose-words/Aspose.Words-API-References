@@ -16,16 +16,16 @@ public FieldBuilder(FieldType fieldType)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| fieldType | FieldType | Type de champ à créer. |
+| fieldType | FieldType | Le type de champ à construire. |
 
 ### Exemples
 
-Montre comment créer et insérer un champ à l'aide d'un générateur de champs.
+Montre comment créer et insérer un champ à l’aide d’un générateur de champs.
 
 ```csharp
 Document doc = new Document();
 
-// Un moyen pratique d'ajouter du contenu textuel à un document consiste à utiliser un générateur de document.
+// Un moyen pratique d'ajouter du contenu textuel à un document consiste à utiliser un générateur de documents.
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Write(" Hello world! This text is one Run, which is an inline node.");
 

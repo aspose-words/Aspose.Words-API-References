@@ -31,13 +31,13 @@ for (int i = 0; i < 15; i++)
     builder.Write($"Booklet face #{i}");
 }
 
-// Configurez la propriété "PageSetup" de la première section pour imprimer le document sous la forme d'un pli de livre.
-// Quand on imprime ce document recto verso, on peut prendre les pages pour les empiler
-// et pliez-les tous au milieu à la fois. Le contenu du document s'alignera dans un pli de livre.
+// Configure la propriété "PageSetup" de la première section pour imprimer le document sous la forme d'un pli de livre.
+// Lorsqu'on imprime ce document recto verso, on peut prendre les pages pour les empiler
+// et pliez-les tous au milieu en même temps. Le contenu du document s’alignera dans un pli de livre.
 PageSetup pageSetup = doc.Sections[0].PageSetup;
 pageSetup.MultiplePages = MultiplePagesType.BookFoldPrinting;
 
-// Nous ne pouvons spécifier le nombre de feuilles qu'en multiples de 4.
+// On ne peut préciser le nombre de feuilles qu'en multiples de 4.
 pageSetup.SheetsPerBooklet = 4;
 
 doc.Save(ArtifactsDir + "PageSetup.Booklet.docx");
@@ -57,11 +57,11 @@ for (int i = 0; i < 6; i++)
     builder.InsertBreak(BreakType.PageBreak);
 }
 
-// Une gouttière ajoute des espaces blancs à la marge gauche ou droite de la page,
-// qui compense le pliage central des pages d'un livre qui empiète sur la mise en page de la page.
+// Une gouttière ajoute des espaces dans la marge gauche ou droite de la page,
+// qui compense le pliage central des pages d'un livre empiétant sur la mise en page de la page.
 PageSetup pageSetup = doc.Sections[0].PageSetup;
 
- // Déterminez l'espace de nos pages pour le texte dans les marges, puis ajoutez un montant pour remplir une marge.
+// Déterminez l'espace dont disposent nos pages pour le texte dans les marges, puis ajoutez une quantité pour remplir une marge.
 Assert.AreEqual(470.30d, pageSetup.PageWidth - pageSetup.LeftMargin - pageSetup.RightMargin, 0.01d);
 
 pageSetup.Gutter = 100.0d;
@@ -70,7 +70,7 @@ pageSetup.Gutter = 100.0d;
 pageSetup.RtlGutter = true;
 
 // Définissez la propriété "MultiplePages" sur "MultiplePagesType.MirrorMargins" pour alterner
-// la position gauche/droite des marges sur chaque page.
+// la position côté gauche/droite des marges de chaque page.
 pageSetup.MultiplePages = MultiplePagesType.MirrorMargins;
 
 doc.Save(ArtifactsDir + "PageSetup.Gutter.docx");

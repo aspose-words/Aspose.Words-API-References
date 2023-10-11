@@ -16,7 +16,7 @@ public HtmlControlType PreferredControlType { get; set; }
 
 ### Remarques
 
-Veuillez noter que la définition de cette propriété ne garantit pas que tous les contrôles importés seront du type spécifié. Si un contrôle HTML n'est pas représentable avec des nœuds de document du type préféré, Aspose.Words utilisera un contrôle compatible[`HtmlControlType`](../../htmlcontroltype/) pour ce contrôle.
+Veuillez noter que la définition de cette propriété ne garantit pas que tous les contrôles importés seront du type spécifié. Si un contrôle HTML n'est pas représentable avec des nœuds de document du type préféré, Aspose.Words utilisera un contrôle compatible.[`HtmlControlType`](../../htmlcontroltype/) pour ce contrôle.
 
 ### Exemples
 

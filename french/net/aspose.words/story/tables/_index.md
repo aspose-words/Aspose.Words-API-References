@@ -16,7 +16,7 @@ public TableCollection Tables { get; }
 
 ### Exemples
 
-Montre comment supprimer les première et dernière lignes de tous les tableaux d'un document.
+Montre comment supprimer les première et dernière lignes de tous les tableaux d’un document.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");

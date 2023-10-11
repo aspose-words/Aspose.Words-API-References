@@ -1,14 +1,14 @@
 ---
 title: TableCollection.Item
 second_title: Référence de l'API Aspose.Words pour .NET
-description: TableCollection propriété. Récupère un Table à lindex donné.
+description: TableCollection propriété. Récupère unTable à lindex donné.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.tables/tablecollection/item/
 ---
 ## TableCollection indexer
 
-Récupère un **Table** à l'index donné.
+Récupère un[`Table`](../../table/) à l'index donné.
 
 ```csharp
 public Table this[int index] { get; }
@@ -24,9 +24,9 @@ L'indice est de base zéro.
 
 Les index négatifs sont autorisés et indiquent un accès depuis l'arrière de la collection. Par exemple -1 signifie le dernier élément, -2 signifie l'avant-dernier et ainsi de suite.
 
-Si index est supérieur ou égal au nombre d'éléments de la liste, cela renvoie une référence nulle.
+Si l'index est supérieur ou égal au nombre d'éléments de la liste, cela renvoie une référence nulle.
 
-Si index est négatif et que sa valeur absolue est supérieure au nombre d'éléments de la liste, cela renvoie une référence nulle.
+Si l'index est négatif et que sa valeur absolue est supérieure au nombre d'éléments de la liste, cela renvoie une référence nulle.
 
 ### Exemples
 
@@ -44,7 +44,7 @@ for (int i = 0; i < tables.Count; i++)
 
     RowCollection rows = tables[i].Rows;
 
-    // Nous pouvons utiliser la méthode "ToArray" sur une collection de lignes pour la cloner dans un tableau.
+    // On peut utiliser la méthode "ToArray" sur une collection de lignes pour la cloner dans un tableau.
     Assert.AreEqual(rows, rows.ToArray());
     Assert.AreNotSame(rows, rows.ToArray());
 
@@ -54,7 +54,7 @@ for (int i = 0; i < tables.Count; i++)
 
         CellCollection cells = rows[j].Cells;
 
-        // Nous pouvons utiliser la méthode "ToArray" sur une collection de cellules pour la cloner dans un tableau.
+        // On peut utiliser la méthode "ToArray" sur une collection de cellules pour la cloner dans un tableau.
         Assert.AreEqual(cells, cells.ToArray());
         Assert.AreNotSame(cells, cells.ToArray());
 

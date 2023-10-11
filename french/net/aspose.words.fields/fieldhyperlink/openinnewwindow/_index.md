@@ -16,7 +16,7 @@ public bool OpenInNewWindow { get; set; }
 
 ### Exemples
 
-Montre comment utiliser les champs HYPERLINK pour créer un lien vers des documents dans le système de fichiers local.
+Montre comment utiliser les champs HYPERLINK pour créer des liens vers des documents dans le système de fichiers local.
 
 ```csharp
 Document doc = new Document();
@@ -24,7 +24,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 FieldHyperlink field = (FieldHyperlink)builder.InsertField(FieldType.FieldHyperlink, true);
 
-// Lorsque nous cliquons sur ce champ HYPERLINK dans Microsoft Word,
+// Lorsque l'on clique sur ce champ HYPERLIEN dans Microsoft Word,
 // il ouvrira le document lié puis placera le curseur sur le signet spécifié.
 field.Address = MyDir + "Bookmarks.docx";
 field.SubAddress = "MyBookmark3";
@@ -32,7 +32,7 @@ field.ScreenTip = "Open " + field.Address + " on bookmark " + field.SubAddress +
 
 builder.Writeln();
 
-// Lorsque nous cliquons sur ce champ HYPERLINK dans Microsoft Word,
+// Lorsque l'on clique sur ce champ HYPERLIEN dans Microsoft Word,
 // il ouvrira le document lié et défilera automatiquement jusqu'à l'iframe spécifié.
 field = (FieldHyperlink)builder.InsertField(FieldType.FieldHyperlink, true);
 field.Address = MyDir + "Iframes.html";

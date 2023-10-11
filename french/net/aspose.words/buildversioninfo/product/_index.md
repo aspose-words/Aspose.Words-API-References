@@ -16,7 +16,7 @@ public static string Product { get; }
 
 ### Exemples
 
-Montre comment afficher des informations sur votre version installée de Aspose.Words.
+Montre comment afficher des informations sur votre version installée d’Aspose.Words.
 
 ```csharp
 Console.WriteLine($"I am currently using {BuildVersionInfo.Product}, version number {BuildVersionInfo.Version}!");

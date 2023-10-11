@@ -3,7 +3,7 @@ title: CompositeNode.SelectNodes
 second_title: Référence de l'API Aspose.Words pour .NET
 description: CompositeNode méthode. Sélectionne une liste de nœuds correspondant à lexpression XPath.
 type: docs
-weight: 200
+weight: 210
 url: /fr/net/aspose.words/compositenode/selectnodes/
 ---
 ## CompositeNode.SelectNodes method
@@ -33,24 +33,24 @@ Montre comment utiliser une expression XPath pour tester si un nœud se trouve �
 ```csharp
 Document doc = new Document(MyDir + "Mail merge destination - Northwind employees.docx");
 
-// La NodeList qui résulte de cette expression XPath contiendra tous les nœuds que nous trouvons dans un champ.
-// Cependant, les nœuds FieldStart et FieldEnd peuvent être sur la liste s'il y a des champs imbriqués dans le chemin.
-// Actuellement, ne trouve pas de champs rares dans lesquels le FieldCode ou FieldResult s'étend sur plusieurs paragraphes.
+// La NodeList résultant de cette expression XPath contiendra tous les nœuds que nous trouvons à l'intérieur d'un champ.
+// Cependant, les nœuds FieldStart et FieldEnd peuvent figurer dans la liste s'il y a des champs imbriqués dans le chemin.
+// Actuellement, ne trouve pas de champs rares dans lesquels FieldCode ou FieldResult s'étend sur plusieurs paragraphes.
 NodeList resultList =
     doc.SelectNodes("//FieldStart/following-sibling::node()[following-sibling::FieldEnd]");
 
-// Vérifie si l'exécution spécifiée est l'un des nœuds qui se trouvent à l'intérieur du champ.
+// Vérifiez si l'exécution spécifiée est l'un des nœuds qui se trouvent à l'intérieur du champ.
 Console.WriteLine($"Contents of the first Run node that's part of a field: {resultList.First(n => n.NodeType == NodeType.Run).GetText().Trim()}");
 ```
 
-Montre comment sélectionner certains nœuds à l'aide d'une expression XPath.
+Montre comment sélectionner certains nœuds à l’aide d’une expression XPath.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
 
 // Cette expression extraira tous les nœuds de paragraphe,
-// qui sont des descendants de n'importe quel nœud de table dans le document.
-NodeList nodeList = doc.SelectNodes("//Table//Paragraphe");
+// qui sont les descendants de n'importe quel nœud de table du document.
+NodeList nodeList = doc.SelectNodes("//Tableau//Paragraphe");
 
 // Parcourez la liste avec un énumérateur et imprimez le contenu de chaque paragraphe dans chaque cellule du tableau.
 int index = 0;
@@ -59,10 +59,10 @@ using (IEnumerator<Node> e = nodeList.GetEnumerator())
     while (e.MoveNext())
         Console.WriteLine($"Table paragraph index {index++}, contents: \"{e.Current.GetText().Trim()}\"");
 
-// Cette expression sélectionnera tous les paragraphes qui sont des enfants directs de n'importe quel nœud Body dans le document.
+// Cette expression sélectionnera tous les paragraphes qui sont des enfants directs de n'importe quel nœud Body du document.
 nodeList = doc.SelectNodes("//Corps/Paragraphe");
 
-// Nous pouvons traiter la liste comme un tableau.
+// On peut traiter la liste comme un tableau.
 Assert.AreEqual(4, nodeList.ToArray().Length);
 
 // Utilisez SelectSingleNode pour sélectionner le premier résultat de la même expression que ci-dessus.

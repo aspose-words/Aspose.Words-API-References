@@ -3,12 +3,14 @@ title: Class CellFormat
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Aspose.Words.Tables.CellFormat classe. Représente tout le formatage dune cellule de tableau.
 type: docs
-weight: 5960
+weight: 6260
 url: /fr/net/aspose.words.tables/cellformat/
 ---
 ## CellFormat class
 
 Représente tout le formatage d'une cellule de tableau.
+
+Pour en savoir plus, visitez le[Travailler avec des tableaux](https://docs.aspose.com/words/net/working-with-tables/) article documentaire.
 
 ```csharp
 public class CellFormat
@@ -20,29 +22,30 @@ public class CellFormat
 | --- | --- |
 | [Borders](../../aspose.words.tables/cellformat/borders/) { get; } | Obtient la collection de bordures de la cellule. |
 | [BottomPadding](../../aspose.words.tables/cellformat/bottompadding/) { get; set; } | Renvoie ou définit la quantité d'espace (en points) à ajouter sous le contenu de la cellule. |
-| [FitText](../../aspose.words.tables/cellformat/fittext/) { get; set; } | Si vrai, ajuste le texte dans la cellule, en compressant chaque paragraphe à la largeur de la cellule. |
+| [FitText](../../aspose.words.tables/cellformat/fittext/) { get; set; } | Si`vrai` , ajuste le texte dans la cellule, en compressant chaque paragraphe à la largeur de la cellule. |
+| [HideMark](../../aspose.words.tables/cellformat/hidemark/) { get; set; } |  |
 | [HorizontalMerge](../../aspose.words.tables/cellformat/horizontalmerge/) { get; set; } | Spécifie comment la cellule est fusionnée horizontalement avec les autres cellules de la ligne. |
 | [LeftPadding](../../aspose.words.tables/cellformat/leftpadding/) { get; set; } | Renvoie ou définit la quantité d'espace (en points) à ajouter à gauche du contenu de la cellule. |
 | [Orientation](../../aspose.words.tables/cellformat/orientation/) { get; set; } | Renvoie ou définit l'orientation du texte dans une cellule de tableau. |
 | [PreferredWidth](../../aspose.words.tables/cellformat/preferredwidth/) { get; set; } | Renvoie ou définit la largeur préférée de la cellule. |
 | [RightPadding](../../aspose.words.tables/cellformat/rightpadding/) { get; set; } | Renvoie ou définit la quantité d'espace (en points) à ajouter à droite du contenu de la cellule. |
-| [Shading](../../aspose.words.tables/cellformat/shading/) { get; } | Renvoie un objet Shading qui fait référence à la mise en forme de l'ombrage de la cellule. |
+| [Shading](../../aspose.words.tables/cellformat/shading/) { get; } | Renvoie un[`Shading`](../../aspose.words/shading/) objet qui fait référence au formatage d'ombrage de la cellule. |
 | [TopPadding](../../aspose.words.tables/cellformat/toppadding/) { get; set; } | Renvoie ou définit la quantité d'espace (en points) à ajouter au-dessus du contenu de la cellule. |
 | [VerticalAlignment](../../aspose.words.tables/cellformat/verticalalignment/) { get; set; } | Renvoie ou définit l'alignement vertical du texte dans la cellule. |
 | [VerticalMerge](../../aspose.words.tables/cellformat/verticalmerge/) { get; set; } | Spécifie comment la cellule est fusionnée verticalement avec d'autres cellules. |
 | [Width](../../aspose.words.tables/cellformat/width/) { get; set; } | Obtient la largeur de la cellule en points. |
-| [WrapText](../../aspose.words.tables/cellformat/wraptext/) { get; set; } | Si vrai, envelopper le texte pour la cellule. |
+| [WrapText](../../aspose.words.tables/cellformat/wraptext/) { get; set; } | Si`vrai` , enveloppe le texte de la cellule. |
 
 ## Méthodes
 
 | Nom | La description |
 | --- | --- |
-| [ClearFormatting](../../aspose.words.tables/cellformat/clearformatting/)() | Réinitialise le formatage de cellule par défaut. Ne change pas la largeur de la cellule. |
+| [ClearFormatting](../../aspose.words.tables/cellformat/clearformatting/)() | Réinitialise le formatage de cellule par défaut. Ne modifie pas la largeur de la cellule. |
 | [SetPaddings](../../aspose.words.tables/cellformat/setpaddings/)(double, double, double, double) | Définit la quantité d'espace (en points) à ajouter à gauche/en haut/à droite/en bas du contenu de la cellule. |
 
 ### Exemples
 
-Montre comment modifier la mise en forme d'une cellule de tableau.
+Montre comment modifier le formatage d’une cellule de tableau.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
@@ -57,7 +60,7 @@ firstCell.CellFormat.Shading.ForegroundPatternColor = Color.LightGreen;
 doc.Save(ArtifactsDir + "Table.CellFormat.docx");
 ```
 
-Montre comment modifier le format des lignes et des cellules d'un tableau.
+Montre comment modifier le format des lignes et des cellules dans un tableau.
 
 ```csharp
 Document doc = new Document();
@@ -81,7 +84,7 @@ RowFormat rowFormat = table.FirstRow.RowFormat;
 rowFormat.Height = 25;
 rowFormat.Borders[BorderType.Bottom].Color = Color.Red;
 
-// Utilisez la propriété "CellFormat" de la première cellule de la dernière ligne pour modifier la mise en forme du contenu de cette cellule.
+// Utilisez la propriété "CellFormat" de la première cellule de la dernière ligne pour modifier le formatage du contenu de cette cellule.
 CellFormat cellFormat = table.LastRow.FirstCell.CellFormat;
 cellFormat.Width = 100;
 cellFormat.Shading.BackgroundPatternColor = Color.Orange;
@@ -97,7 +100,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.StartTable();
 
-// Définition des options de formatage de tableau pour un générateur de document
+// Définition des options de formatage de tableau pour un générateur de documents
 // les appliquera à chaque ligne et cellule que nous ajouterons avec.
 builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
@@ -121,8 +124,8 @@ builder.InsertCell();
 builder.Write("Row 1, Col 2");
 builder.EndRow();
 
-// Changer la mise en forme l'appliquera à la cellule courante,
-// et toutes les nouvelles cellules que nous créons avec le constructeur par la suite.
+// Changer le formatage l'appliquera à la cellule actuelle,
+// et toutes les nouvelles cellules que nous créons ensuite avec le constructeur.
 // Cela n'affectera pas les cellules que nous avons ajoutées précédemment.
 builder.CellFormat.Shading.ClearFormatting();
 
@@ -134,7 +137,7 @@ builder.Write("Row 2, Col 2");
 
 builder.EndRow();
 
-// Augmente la hauteur de ligne pour s'adapter au texte vertical.
+// Augmente la hauteur de la ligne pour l'adapter au texte vertical.
 builder.InsertCell();
 builder.RowFormat.Height = 150;
 builder.CellFormat.Orientation = TextOrientation.Upward;

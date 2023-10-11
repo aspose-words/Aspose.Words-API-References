@@ -1,14 +1,14 @@
 ---
 title: ShapeBase.IsHorizontalRule
 second_title: Référence de l'API Aspose.Words pour .NET
-description: ShapeBase propriété. Renvoie vrai si cette forme est une règle horizontale.
+description: ShapeBase propriété. Retoursvrai si cette forme est une règle horizontale.
 type: docs
-weight: 260
+weight: 270
 url: /fr/net/aspose.words.drawing/shapebase/ishorizontalrule/
 ---
 ## ShapeBase.IsHorizontalRule property
 
-Renvoie vrai si cette forme est une règle horizontale.
+Retours`vrai` si cette forme est une règle horizontale.
 
 ```csharp
 public bool IsHorizontalRule { get; }

@@ -1,14 +1,14 @@
 ---
 title: SignatureLine.IsValid
 second_title: Référence de l'API Aspose.Words pour .NET
-description: SignatureLine propriété. Indique que la ligne de signature est signée par une signature numérique et que cette signature numérique est valide.
+description: SignatureLine propriété. Indique que la ligne de signature est signée par signature numérique et que cette signature numérique est valide.
 type: docs
 weight: 70
 url: /fr/net/aspose.words.drawing/signatureline/isvalid/
 ---
 ## SignatureLine.IsValid property
 
-Indique que la ligne de signature est signée par une signature numérique et que cette signature numérique est valide.
+Indique que la ligne de signature est signée par signature numérique et que cette signature numérique est valide.
 
 ```csharp
 public bool IsValid { get; }
@@ -54,7 +54,7 @@ CertificateHolder certHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "a
 DigitalSignatureUtil.Sign(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.docx", 
     ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx", certHolder, signOptions);
 
-// Rouvrez notre document enregistré et vérifiez que les propriétés "IsSigned" et "IsValid" sont toutes les deux égales à "true",
+// Rouvrez notre document enregistré et vérifiez que les propriétés "IsSigned" et "IsValid" sont toutes deux égales à "true",
 // indiquant que la ligne de signature contient une signature.
 doc = new Document(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx");
 Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);

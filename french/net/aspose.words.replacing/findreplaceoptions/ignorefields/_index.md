@@ -1,14 +1,14 @@
 ---
 title: FindReplaceOptions.IgnoreFields
 second_title: Référence de l'API Aspose.Words pour .NET
-description: FindReplaceOptions propriété. Obtient ou définit une valeur booléenne indiquant soit dignorer le texte à lintérieur des champs. La valeur par défaut estfaux .
+description: FindReplaceOptions propriété. Obtient ou définit une valeur booléenne indiquant soit dignorer le texte à lintérieur des champs. La valeur par défaut estFAUX .
 type: docs
 weight: 80
 url: /fr/net/aspose.words.replacing/findreplaceoptions/ignorefields/
 ---
 ## FindReplaceOptions.IgnoreFields property
 
-Obtient ou définit une valeur booléenne indiquant soit d'ignorer le texte à l'intérieur des champs. La valeur par défaut est`faux` .
+Obtient ou définit une valeur booléenne indiquant soit d'ignorer le texte à l'intérieur des champs. La valeur par défaut est`FAUX` .
 
 ```csharp
 public bool IgnoreFields { get; set; }
@@ -22,7 +22,7 @@ Pour ignorer uniquement les codes de champ, veuillez utiliser l'option correspon
 
 ### Exemples
 
-Montre comment ignorer le texte à l'intérieur des champs.
+Montre comment ignorer le texte à l’intérieur des champs.
 
 ```csharp
 Document doc = new Document();
@@ -34,9 +34,9 @@ builder.InsertField("QUOTE", "Hello again!");
 // Nous pouvons utiliser un objet "FindReplaceOptions" pour modifier le processus de recherche et de remplacement.
 FindReplaceOptions options = new FindReplaceOptions();
 
-// Définissez le drapeau "IgnoreFields" sur "true" pour obtenir la recherche et le remplacement
+// Définissez l'indicateur "IgnoreFields" sur "true" pour obtenir la recherche et le remplacement
 // opération pour ignorer le texte à l'intérieur des champs.
-// Définissez le drapeau "IgnoreFields" sur "false" pour obtenir la recherche et le remplacement
+// Définissez l'indicateur "IgnoreFields" sur "false" pour obtenir la recherche et le remplacement.
 // opération pour rechercher également du texte à l'intérieur des champs.
 options.IgnoreFields = ignoreTextInsideFields;
 

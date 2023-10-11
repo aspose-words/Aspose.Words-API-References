@@ -18,7 +18,7 @@ public static LoadFormat SaveFormatToLoadFormat(SaveFormat saveFormat)
 
 | exception | condition |
 | --- | --- |
-| ArgumentException | Lance lorsqu'il est impossible de convertir. |
+| ArgumentException | Lance quand on ne peut pas convertir. |
 
 ### Exemples
 
@@ -27,7 +27,7 @@ Montre comment convertir un format de sauvegarde en son format de chargement cor
 ```csharp
 Assert.AreEqual(LoadFormat.Html, FileFormatUtil.SaveFormatToLoadFormat(SaveFormat.Html));
 
-// Certains types de fichiers peuvent avoir des documents enregistrés, mais pas chargés à partir de Aspose.Words.
+// Certains types de fichiers peuvent contenir des documents enregistrés, mais non chargés à l'aide d'Aspose.Words.
 // Si nous tentons de convertir un format de sauvegarde d'un tel type en un format de chargement, une exception sera levée.
 Assert.Throws<ArgumentException>(() => FileFormatUtil.SaveFormatToLoadFormat(SaveFormat.Jpeg));
 ```

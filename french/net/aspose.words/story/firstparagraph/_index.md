@@ -16,7 +16,7 @@ public Paragraph FirstParagraph { get; }
 
 ### Exemples
 
-Montre comment formater une suite de texte à l'aide de sa propriété de police.
+Montre comment formater une séquence de texte à l’aide de sa propriété font.
 
 ```csharp
 Document doc = new Document();
@@ -31,7 +31,7 @@ doc.FirstSection.Body.FirstParagraph.AppendChild(run);
 doc.Save(ArtifactsDir + "Font.CreateFormattedRun.docx");
 ```
 
-Montre comment créer et mettre en forme une zone de texte.
+Montre comment créer et formater une zone de texte.
 
 ```csharp
 Document doc = new Document();
@@ -46,7 +46,7 @@ textBox.Width = 200;
 textBox.HorizontalAlignment = HorizontalAlignment.Center;
 textBox.VerticalAlignment = VerticalAlignment.Top;
 
-// Ajoute un paragraphe à la zone de texte et ajoute une suite de texte que la zone de texte affichera.
+// Ajoutez un paragraphe à la zone de texte et ajoutez une séquence de texte que la zone de texte affichera.
 textBox.AppendChild(new Paragraph(doc));
 Paragraph para = textBox.FirstParagraph;
 para.ParagraphFormat.Alignment = ParagraphAlignment.Center;

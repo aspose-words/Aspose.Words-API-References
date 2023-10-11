@@ -16,7 +16,7 @@ public string Name { get; }
 
 ### Remarques
 
-Ne peut pas être nul et ne peut pas être une chaîne vide.
+C'est pas possible`nul` et ne peut pas être une chaîne vide.
 
 ### Exemples
 

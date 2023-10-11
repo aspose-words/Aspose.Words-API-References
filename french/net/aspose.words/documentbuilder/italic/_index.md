@@ -1,14 +1,14 @@
 ---
 title: DocumentBuilder.Italic
 second_title: Référence de l'API Aspose.Words pour .NET
-description: DocumentBuilder propriété. Vrai si la police est formatée en italique.
+description: DocumentBuilder propriété. True si la police est au format italique.
 type: docs
-weight: 120
+weight: 140
 url: /fr/net/aspose.words/documentbuilder/italic/
 ---
 ## DocumentBuilder.Italic property
 
-Vrai si la police est formatée en italique.
+True si la police est au format italique.
 
 ```csharp
 public bool Italic { get; set; }
@@ -16,7 +16,7 @@ public bool Italic { get; set; }
 
 ### Exemples
 
-Montre comment remplir les MERGEFIELD avec des données avec un générateur de document au lieu d'un publipostage.
+Montre comment remplir les MERGEFIELD avec des données avec un générateur de documents au lieu d'un publipostage.
 
 ```csharp
 Document doc = new Document();

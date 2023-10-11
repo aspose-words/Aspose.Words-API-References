@@ -20,15 +20,15 @@ public override bool Accept(DocumentVisitor visitor)
 
 ### Return_Value
 
-Vrai si tous les nœuds ont été visités ; false si DocumentVisitor a arrêté l'opération avant de visiter tous les nœuds.
+Vrai si tous les nœuds ont été visités ; faux si[`DocumentVisitor`](../../documentvisitor/) arrêté l'opération avant de visiter tous les nœuds.
 
 ### Remarques
 
-Énumère ce nœud et tous ses enfants. Chaque nœud appelle une méthode correspondante sur DocumentVisitor.
+Énumère ce nœud et tous ses enfants. Chaque nœud appelle une méthode correspondante sur[`DocumentVisitor`](../../documentvisitor/).
 
-Pour plus d'informations, consultez le modèle de conception Visiteur.
+Pour plus d’informations, consultez le modèle de conception Visiteur.
 
-Appelle DocumentVisitor.VisitSectionStart, puis appelle Accept pour tous les nœuds enfants de la section et appelle DocumentVisitor.VisitSectionEnd à la fin.
+Appels[`VisitSectionStart`](../../documentvisitor/visitsectionstart/) , puis appelle[`Accept`](../../node/accept/) pour tous les nœuds enfants de la section et des appels[`VisitSectionEnd`](../../documentvisitor/visitsectionend/) à la fin.
 
 ### Voir également
 

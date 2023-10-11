@@ -1,14 +1,14 @@
 ---
 title: Border.IsVisible
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Border propriété. Renvoie vrai si le LineStyle nest pas LineStyle.None.
+description: Border propriété. Retoursvrai si laLineStyle nest pasNone .
 type: docs
 weight: 30
 url: /fr/net/aspose.words/border/isvisible/
 ---
 ## Border.IsVisible property
 
-Renvoie vrai si le LineStyle n'est pas LineStyle.None.
+Retours`vrai` si la[`LineStyle`](../linestyle/) n'est pasNone .
 
 ```csharp
 public bool IsVisible { get; }
@@ -16,13 +16,13 @@ public bool IsVisible { get; }
 
 ### Exemples
 
-Montre comment supprimer les bordures d'un paragraphe.
+Montre comment supprimer les bordures d’un paragraphe.
 
 ```csharp
 Document doc = new Document(MyDir + "Borders.docx");
 
 // Chaque paragraphe a un ensemble individuel de bordures.
-// Nous pouvons accéder aux paramètres d'apparence de ces bordures via l'objet format de paragraphe.
+// On peut accéder aux paramètres d'apparence de ces bordures via l'objet format paragraphe.
 BorderCollection borders = doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Borders;
 
 Assert.AreEqual(Color.Red.ToArgb(), borders[0].Color.ToArgb());
@@ -30,7 +30,7 @@ Assert.AreEqual(3.0d, borders[0].LineWidth);
 Assert.AreEqual(LineStyle.Single, borders[0].LineStyle);
 Assert.True(borders[0].IsVisible);
 
-// Nous pouvons supprimer une bordure immédiatement en exécutant la méthode ClearFormatting. 
+ // Nous pouvons supprimer une bordure d'un coup en exécutant la méthode ClearFormatting.
 // L'exécution de cette méthode sur chaque bordure d'un paragraphe supprimera toutes ses bordures.
 foreach (Border border in borders)
     border.ClearFormatting();

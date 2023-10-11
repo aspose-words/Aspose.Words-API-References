@@ -1,14 +1,14 @@
 ---
 title: TextBox.IsValidLinkTarget
 second_title: Référence de l'API Aspose.Words pour .NET
-description: TextBox méthode. Détermine si ce TextBox peut être lié au Textbox cible.
+description: TextBox méthode. Détermine si ceciTextBox peut être lié à la cibleTextBox .
 type: docs
-weight: 130
+weight: 140
 url: /fr/net/aspose.words.drawing/textbox/isvalidlinktarget/
 ---
 ## TextBox.IsValidLinkTarget method
 
-Détermine si ce TextBox peut être lié au Textbox cible.
+Détermine si ceci[`TextBox`](../) peut être lié à la cible[`TextBox`](../) .
 
 ```csharp
 public bool IsValidLinkTarget(TextBox target)
@@ -37,14 +37,14 @@ builder.Writeln();
 Shape textBoxShape4 = builder.InsertShape(ShapeType.TextBox, 100, 100);
 TextBox textBox4 = textBoxShape4.TextBox;
 
-// Crée des liens entre certaines des zones de texte.
+// Crée des liens entre certaines zones de texte.
 if (textBox1.IsValidLinkTarget(textBox2))
     textBox1.Next = textBox2;
 
 if (textBox2.IsValidLinkTarget(textBox3))
     textBox2.Next = textBox3;
 
-// Seule une zone de texte vide peut avoir un lien.
+// Seule une zone de texte vide peut contenir un lien.
 Assert.True(textBox3.IsValidLinkTarget(textBox4));
 
 builder.MoveTo(textBoxShape4.LastParagraph);

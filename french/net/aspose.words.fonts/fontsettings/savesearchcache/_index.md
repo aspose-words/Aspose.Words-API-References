@@ -24,10 +24,9 @@ Voir[`SetFontsSources`](../setfontssources/) description de la méthode pour plu
 
 ### Exemples
 
-Montre comment accélérer le processus d'initialisation du cache de polices.
+Montre comment accélérer le processus d’initialisation du cache de polices.
 
 ```csharp
-[Test]
 public void LoadFontSearchCache()
 {
     const string cacheKey1 = "Arvo";
@@ -55,8 +54,8 @@ public void LoadFontSearchCache()
 }
 
 /// <summary>
-/// Charger les données de police uniquement lorsque cela est nécessaire au lieu de les stocker dans la mémoire
-/// pour toute la durée de vie de l'objet "FontSettings".
+/// Charge les données de police uniquement lorsque cela est nécessaire au lieu de les stocker dans la mémoire
+/// pendant toute la durée de vie de l'objet "FontSettings".
 /// </summary>
 private class SearchCacheStream : StreamFontSource
 {

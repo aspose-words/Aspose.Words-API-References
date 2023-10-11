@@ -3,7 +3,7 @@ title: Fill.Transparency
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Fill propriété. Obtient ou définit le degré de transparence du remplissage spécifié sous la forme dune valeur comprise entre 00 opaque et 10 clair.
 type: docs
-weight: 140
+weight: 200
 url: /fr/net/aspose.words.drawing/fill/transparency/
 ---
 ## Fill.Transparency property

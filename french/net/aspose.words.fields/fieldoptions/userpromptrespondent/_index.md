@@ -3,7 +3,7 @@ title: FieldOptions.UserPromptRespondent
 second_title: Référence de l'API Aspose.Words pour .NET
 description: FieldOptions propriété. Obtient ou définit le répondant sur les invites de lutilisateur lors de la mise à jour du champ.
 type: docs
-weight: 200
+weight: 220
 url: /fr/net/aspose.words.fields/fieldoptions/userpromptrespondent/
 ---
 ## FieldOptions.UserPromptRespondent property
@@ -16,22 +16,21 @@ public IFieldUserPromptRespondent UserPromptRespondent { get; set; }
 
 ### Remarques
 
-Si la valeur de cette propriété est définie sur **nul** , les champs qui nécessitent une réponse de l'utilisateur sur prompting (tels que[`FieldAsk`](../../fieldask/) ou[`FieldFillIn`](../../fieldfillin/)) ne sont pas mis à jour.
+Si la valeur de cette propriété est définie sur`nul` , les champs qui nécessitent une réponse de l'utilisateur sur prompting (tels que[`FieldAsk`](../../fieldask/) ou[`FieldFillIn`](../../fieldfillin/)) ne sont pas mis à jour.
 
-La valeur par défaut est **nul**.
+La valeur par défaut est`nul`.
 
 ### Exemples
 
 Montre comment créer un champ ASK et définir ses propriétés.
 
 ```csharp
-[Test]
 public void FieldAsk()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Placez un champ où la réponse à notre champ ASK sera placée.
+    // Placez un champ où sera placée la réponse à notre champ ASK.
     FieldRef fieldRef = (FieldRef)builder.InsertField(FieldType.FieldRef, true);
     fieldRef.BookmarkName = "MyAskField";
     builder.Writeln();
@@ -66,6 +65,7 @@ public void FieldAsk()
 
     doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.ASK.docx");
+}
 
 /// <summary>
 /// Ajoute du texte à la réponse par défaut d'un champ ASK lors d'un publipostage.

@@ -1,14 +1,14 @@
 ---
 title: ChartDataLabel.ClearFormat
 second_title: Référence de l'API Aspose.Words pour .NET
-description: ChartDataLabel méthode. Efface le format de cette étiquette de données. Les propriétés sont définies sur les valeurs par défaut définies dans la collection détiquettes data parent.
+description: ChartDataLabel méthode. Efface le format de cette étiquette de données. Les propriétés sont définies sur les valeurs par défaut définies dans la collection détiquettes parent data .
 type: docs
-weight: 140
+weight: 160
 url: /fr/net/aspose.words.drawing.charts/chartdatalabel/clearformat/
 ---
 ## ChartDataLabel.ClearFormat method
 
-Efface le format de cette étiquette de données. Les propriétés sont définies sur les valeurs par défaut définies dans la collection d'étiquettes data parent.
+Efface le format de cette étiquette de données. Les propriétés sont définies sur les valeurs par défaut définies dans la collection d'étiquettes parent data .
 
 ```csharp
 public void ClearFormat()

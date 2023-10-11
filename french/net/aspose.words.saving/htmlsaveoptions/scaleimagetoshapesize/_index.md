@@ -1,14 +1,14 @@
 ---
 title: HtmlSaveOptions.ScaleImageToShapeSize
 second_title: Référence de l'API Aspose.Words pour .NET
-description: HtmlSaveOptions propriété. Spécifie si les images sont mises à léchelle par Aspose.Words à la taille de la forme de délimitation lors de lexportation vers HTML MHTML ou EPUB. La valeur par défaut estvrai .
+description: HtmlSaveOptions propriété. Spécifie si les images sont mises à léchelle par Aspose.Words à la taille de la forme englobante lors de lexportation au format HTML MHTML ou EPUB. La valeur par défaut estvrai .
 type: docs
 weight: 450
 url: /fr/net/aspose.words.saving/htmlsaveoptions/scaleimagetoshapesize/
 ---
 ## HtmlSaveOptions.ScaleImageToShapeSize property
 
-Spécifie si les images sont mises à l'échelle par Aspose.Words à la taille de la forme de délimitation lors de l'exportation vers HTML, MHTML ou EPUB. La valeur par défaut est`vrai` .
+Spécifie si les images sont mises à l'échelle par Aspose.Words à la taille de la forme englobante lors de l'exportation au format HTML, MHTML ou EPUB. La valeur par défaut est`vrai` .
 
 ```csharp
 public bool ScaleImageToShapeSize { get; set; }
@@ -16,17 +16,19 @@ public bool ScaleImageToShapeSize { get; set; }
 
 ### Remarques
 
-Une image dans un document Microsoft Word est une forme. La forme a une taille et l'image a sa propre taille. Les tailles ne sont pas directement liées. Par exemple, l'image peut faire 1024x786 pixels, mais la forme qui affiche cette image peut faire 400x300 points.
+Une image dans un document Microsoft Word est une forme. La forme a une taille et image a sa propre taille. Les tailles ne sont pas directement liées. Par exemple, l'image peut faire 1024 x 786 pixels, mais la forme qui affiche cette image peut faire 400 x 300 points.
 
-Pour afficher une image dans le navigateur, elle doit être mise à l'échelle de la taille de la forme. Le`ScaleImageToShapeSize` La propriété contrôle où la mise à l'échelle de l'image a lieu : dans Aspose.Words lors de l'exportation vers HTML ou dans le navigateur lors de l'affichage du document.
+Afin d'afficher une image dans le navigateur, elle doit être adaptée à la taille de la forme. Le`ScaleImageToShapeSize` La propriété contrôle où la mise à l'échelle de l'image a lieu : dans Aspose.Words lors de l'exportation au format HTML ou dans le navigateur lors de l'affichage du document.
 
-Lorsque`ScaleImageToShapeSize` est`vrai` , l'image est mise à l'échelle par Aspose.Words en utilisant une mise à l'échelle de haute qualité lors de l'exportation vers HTML. Lorsque`ScaleImageToShapeSize` est`faux`l'image est sortie avec sa taille d'origine et le navigateur doit la mettre à l'échelle.
+Quand`ScaleImageToShapeSize` est`vrai` , l'image est mise à l'échelle par Aspose.Words en utilisant une mise à l'échelle de haute qualité lors de l'exportation au format HTML. Quand`ScaleImageToShapeSize` est`FAUX`, l'image est affichée avec sa taille d'origine et le navigateur doit la mettre à l'échelle.
 
-En général, les navigateurs effectuent une mise à l'échelle rapide et de mauvaise qualité. Par conséquent, vous obtiendrez normalement une meilleure qualité d'affichage dans le navigateur et une taille de fichier plus petite lorsque`ScaleImageToShapeSize` est`vrai` , mais une meilleure qualité d'impression et une conversion plus rapide lorsque`ScaleImageToShapeSize` est`faux`.
+En général, les navigateurs effectuent une mise à l'échelle rapide et de mauvaise qualité. En conséquence, vous obtiendrez normalement une meilleure qualité d'affichage dans le navigateur et une taille de fichier plus petite lorsque`ScaleImageToShapeSize` est`vrai` , mais meilleure qualité d'impression et conversion plus rapide lorsque`ScaleImageToShapeSize` est`FAUX`.
+
+En plus des formes contenant des images raster individuelles, cette option affecte également les formes de groupe consistant d'images raster. Si`ScaleImageToShapeSize` est`FAUX` et une forme de groupe contient des images raster dont la résolution intrinsèque est supérieure à la valeur spécifiée dans[`ImageResolution`](../imageresolution/), Aspose.Words will augmentera la résolution de rendu pour ce groupe. Cela permet de mieux préserver la qualité des images groupées haute résolution lors de l'enregistrement au format HTML.
 
 ### Exemples
 
-Montre comment désactiver la mise à l'échelle des images à leurs dimensions de forme parent lors de l'enregistrement au format .html.
+Montre comment désactiver la mise à l’échelle des images selon les dimensions de leur forme parent lors de l’enregistrement au format .html.
 
 ```csharp
 Document doc = new Document();
@@ -50,12 +52,12 @@ Document doc = new Document();
             imageShape.Height = 50;
 
             // L'enregistrement d'un document contenant des formes avec des images au format HTML créera un fichier image dans le système de fichiers local
-            // pour chacune de ces formes. Le document HTML de sortie utilisera <image> balises pour lier et afficher ces images.
+            // pour chacune de ces formes. Le document HTML de sortie utilisera <image> balises pour créer un lien vers et afficher ces images.
             // Lorsque nous enregistrons le document au format HTML, nous pouvons passer un objet SaveOptions pour déterminer
-            // s'il faut redimensionner toutes les images qui sont à l'intérieur des formes aux tailles de leurs formes.
-            // Définir le drapeau "ScaleImageToShapeSize" sur "true" réduira chaque image
-            // à la taille de la forme qui la contient, de sorte qu'aucune image enregistrée ne soit plus grande que le document ne l'exige.
-            // Définir le drapeau "ScaleImageToShapeSize" sur "false" conservera les tailles d'origine de ces images,
+            // s'il faut mettre à l'échelle toutes les images qui se trouvent à l'intérieur des formes selon la taille de leurs formes.
+            // Définir l'indicateur "ScaleImageToShapeSize" sur "true" réduira chaque image
+            // à la taille de la forme qui la contient, afin qu'aucune image enregistrée ne soit plus grande que ce que le document exige.
+            // Définir le flag "ScaleImageToShapeSize" sur "false" conservera les tailles d'origine de ces images,
             // qui prendra plus de place en échange de la préservation de la qualité de l'image.
             HtmlSaveOptions options = new HtmlSaveOptions { ScaleImageToShapeSize = scaleImageToShapeSize };
 

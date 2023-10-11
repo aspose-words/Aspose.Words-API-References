@@ -3,7 +3,7 @@ title: Enum SdtAppearance
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Aspose.Words.Markup.SdtAppearance énumération. Spécifie lapparence dune balise de document structuré.
 type: docs
-weight: 3750
+weight: 3990
 url: /fr/net/aspose.words.markup/sdtappearance/
 ---
 ## SdtAppearance enumeration
@@ -18,10 +18,10 @@ public enum SdtAppearance
 
 | Nom | Évaluer | La description |
 | --- | --- | --- |
-| BoundingBox | `0` | Représente une balise de document structurée affichée sous la forme d'un rectangle ombré ou d'un cadre de délimitation. |
-| Tags | `1` | Représente une balise de document structurée affichée sous forme de marqueurs de début et de fin. |
-| Hidden | `2` | Représente une balise de document structurée qui n'est pas affichée. |
-| Default | `0` | Par défaut àBoundingBox . |
+| BoundingBox | `0` | Représente une balise de document structuré affichée sous la forme d'un rectangle ombré ou d'un cadre de délimitation. |
+| Tags | `1` | Représente une balise de document structuré affichée sous forme de marqueurs de début et de fin. |
+| Hidden | `2` | Représente une balise de document structuré qui n'est pas affichée. |
+| Default | `0` | La valeur par défaut estBoundingBox . |
 
 ### Voir également
 

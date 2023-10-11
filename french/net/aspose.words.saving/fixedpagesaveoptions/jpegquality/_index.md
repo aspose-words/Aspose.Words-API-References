@@ -24,15 +24,15 @@ La valeur par défaut est 95.
 
 ### Exemples
 
-Montre comment configurer la compression lors de l'enregistrement d'un document au format JPEG.
+Montre comment configurer la compression lors de l’enregistrement d’un document au format JPEG.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.InsertImage(ImageDir + "Logo.jpg");
 
-// Crée un objet "ImageSaveOptions" que nous pouvons passer à la méthode "Save" du document
-// pour modifier la façon dont cette méthode rend le document en image.
+// Crée un objet "ImageSaveOptions" que l'on peut passer à la méthode "Save" du document
+// pour modifier la manière dont cette méthode restitue le document en image.
 ImageSaveOptions imageOptions = new ImageSaveOptions(SaveFormat.Jpeg);
 
 // Définissez la propriété "JpegQuality" sur "10" pour utiliser une compression plus forte lors du rendu du document.

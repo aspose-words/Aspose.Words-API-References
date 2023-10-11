@@ -1,14 +1,14 @@
 ---
 title: FontInfo.Panose
 second_title: Référence de l'API Aspose.Words pour .NET
-description: FontInfo propriété. Obtient ou définit le numéro de classification de la police de caractères PANOSE.
+description: FontInfo propriété. Obtient ou définit le numéro de classification de la police PANOSE.
 type: docs
 weight: 60
 url: /fr/net/aspose.words.fonts/fontinfo/panose/
 ---
 ## FontInfo.Panose property
 
-Obtient ou définit le numéro de classification de la police de caractères PANOSE.
+Obtient ou définit le numéro de classification de la police PANOSE.
 
 ```csharp
 public byte[] Panose { get; set; }
@@ -16,13 +16,13 @@ public byte[] Panose { get; set; }
 
 ### Remarques
 
-PANOSE est une description compacte de 10 octets des caractéristiques visuelles essentielles d'une police, telles que le contraste, l'épaisseur et le style serif. Les chiffres représentent le type de famille, le style Serif, le poids , la proportion, le contraste, la variation de trait, le style de bras, la forme de lettre, la ligne médiane et la hauteur X.
+PANOSE est une description compacte de 10 octets des caractéristiques visuelles critiques d'une police, telles que le contraste, l'épaisseur et le style serif. Les chiffres représentent le type de famille, le style Serif, le poids , la proportion, le contraste, la variation de trait, le style de bras, la forme des lettres, la ligne médiane et la hauteur X.
 
 Peut être`nul`.
 
 ### Exemples
 
-Montre comment accéder aux détails de chaque police dans un document et les imprimer.
+Montre comment accéder et imprimer les détails de chaque police dans un document.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");

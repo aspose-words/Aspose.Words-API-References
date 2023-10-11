@@ -1,14 +1,14 @@
 ---
 title: LoadOptions.ConvertMetafilesToPng
 second_title: Référence de l'API Aspose.Words pour .NET
-description: LoadOptions propriété. Obtient ou définit sil faut convertir le métafichier Wmf ouEmf  images àPng format dimage.
+description: LoadOptions propriété. Obtient ou définit sil faut convertir le métafichier Wmf ouEmf  des images àPng format dimage.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.loading/loadoptions/convertmetafilestopng/
 ---
 ## LoadOptions.ConvertMetafilesToPng property
 
-Obtient ou définit s'il faut convertir le métafichier (Wmf ouEmf ) images àPng format d'image.
+Obtient ou définit s'il faut convertir le métafichier (Wmf ouEmf ) des images àPng format d'image.
 
 ```csharp
 public bool ConvertMetafilesToPng { get; set; }

@@ -16,31 +16,30 @@ public CompositeNode GetAncestor(Type ancestorType)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| ancestorType | Type | Le type d'objet de l'ancêtre à récupérer. |
+| ancestorType | Type | Type d'objet de l'ancêtre à récupérer. |
 
 ### Return_Value
 
-L'ancêtre du type spécifié ou null si aucun ancêtre de ce type n'a été trouvé.
+L'ancêtre du type spécifié ou`nul` si aucun ancêtre de ce type n'a été trouvé.
 
 ### Remarques
 
-Le type d'ancêtre correspond s'il est égal à ancestorType ou dérivé de ancestorType.
+Le type d'ancêtre correspond s'il est égal à*ancestorType* ou dérivé de*ancestorType*.
 
 ### Exemples
 
-Montre comment savoir si une table est imbriquée.
+Montre comment savoir si des tables sont imbriquées.
 
 ```csharp
 public void CalculateDepthOfNestedTables()
 {
     Document doc = new Document(MyDir + "Nested tables.docx");
     NodeCollection tables = doc.GetChildNodes(NodeType.Table, true);
-
     for (int i = 0; i < tables.Count; i++)
     {
         Table table = (Table)tables[i];
 
-        // Détermine si des cellules du tableau ont d'autres tableaux comme enfants.
+        // Découvrez si des cellules du tableau ont d'autres tableaux comme enfants.
         int count = GetChildTableCount(table);
         Console.WriteLine("Table #{0} has {1} tables directly within its cells", i, count);
 
@@ -77,11 +76,11 @@ private static int GetNestedDepthOfTable(Table table)
 
 /// <summary>
 /// Détermine si une table contient une table enfant immédiate dans ses cellules.
-/// Ne parcourez pas ces tables de manière récursive pour rechercher d'autres tables.
+/// Ne parcourez pas de manière récursive ces tables pour rechercher d'autres tables.
 /// </summary>
 /// <returns>
-/// Renvoie true si au moins une cellule enfant contient un tableau.
-/// Renvoie faux si aucune cellule du tableau ne contient de tableau.
+/// Renvoie vrai si au moins une cellule enfant contient un tableau.
+/// Renvoie false si aucune cellule du tableau ne contient de tableau.
 /// </returns>
 private static int GetChildTableCount(Table table)
 {
@@ -121,27 +120,26 @@ public CompositeNode GetAncestor(NodeType ancestorType)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| ancestorType | NodeType | Type de nœud de l'ancêtre à récupérer. |
+| ancestorType | NodeType | Le type de nœud de l'ancêtre à récupérer. |
 
 ### Return_Value
 
-L'ancêtre du type spécifié ou null si aucun ancêtre de ce type n'a été trouvé.
+L'ancêtre du type spécifié ou`nul` si aucun ancêtre de ce type n'a été trouvé.
 
 ### Exemples
 
-Montre comment savoir si une table est imbriquée.
+Montre comment savoir si des tables sont imbriquées.
 
 ```csharp
 public void CalculateDepthOfNestedTables()
 {
     Document doc = new Document(MyDir + "Nested tables.docx");
     NodeCollection tables = doc.GetChildNodes(NodeType.Table, true);
-
     for (int i = 0; i < tables.Count; i++)
     {
         Table table = (Table)tables[i];
 
-        // Détermine si des cellules du tableau ont d'autres tableaux comme enfants.
+        // Découvrez si des cellules du tableau ont d'autres tableaux comme enfants.
         int count = GetChildTableCount(table);
         Console.WriteLine("Table #{0} has {1} tables directly within its cells", i, count);
 
@@ -178,11 +176,11 @@ private static int GetNestedDepthOfTable(Table table)
 
 /// <summary>
 /// Détermine si une table contient une table enfant immédiate dans ses cellules.
-/// Ne parcourez pas ces tables de manière récursive pour rechercher d'autres tables.
+/// Ne parcourez pas de manière récursive ces tables pour rechercher d'autres tables.
 /// </summary>
 /// <returns>
-/// Renvoie true si au moins une cellule enfant contient un tableau.
-/// Renvoie faux si aucune cellule du tableau ne contient de tableau.
+/// Renvoie vrai si au moins une cellule enfant contient un tableau.
+/// Renvoie false si aucune cellule du tableau ne contient de tableau.
 /// </returns>
 private static int GetChildTableCount(Table table)
 {

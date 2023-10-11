@@ -3,7 +3,7 @@ title: Enum RevisionColor
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Aspose.Words.Layout.RevisionColor énumération. Permet de spécifier la couleur des révisions du document.
 type: docs
-weight: 3180
+weight: 3380
 url: /fr/net/aspose.words.layout/revisioncolor/
 ---
 ## RevisionColor enumeration
@@ -19,8 +19,8 @@ public enum RevisionColor
 | Nom | Évaluer | La description |
 | --- | --- | --- |
 | Auto | `0` | Par défaut. |
-| Black | `1` | Représente 000000 couleurs. |
-| Blue | `2` | Représente 2e97d3 couleur. |
+| Black | `1` | Représente la couleur 000000. |
+| Blue | `2` | Représente la couleur 2e97d3. |
 | BrightGreen | `3` | Représente la couleur 84a35b. |
 | ClassicBlue | `4` | Représente la couleur 0000ff. |
 | ClassicRed | `5` | Représente la couleur ff0000. |
@@ -37,12 +37,12 @@ public enum RevisionColor
 | Violet | `16` | Représente 633277 couleurs. |
 | White | `17` | Représente la couleur ffffff. |
 | Yellow | `18` | Représente la couleur fad272. |
-| NoHighlight | `19` | Aucune couleur n'est utilisée pour mettre en évidence les changements de révision. |
+| NoHighlight | `19` | Aucune couleur n'est utilisée pour mettre en évidence les modifications de révision. |
 | ByAuthor | `20` | Les révisions de chaque auteur reçoivent leur propre couleur pour la mise en évidence à partir d'un ensemble prédéfini de couleurs à contraste élevé. |
 
 ### Exemples
 
-Montre comment modifier l'apparence des révisions dans un document de sortie rendu.
+Montre comment modifier l’apparence des révisions dans un document de sortie rendu.
 
 ```csharp
 Document doc = new Document();

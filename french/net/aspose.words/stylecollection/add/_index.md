@@ -29,19 +29,17 @@ Lève une exception si un style portant ce nom existe déjà.
 
 ### Exemples
 
-Montre comment ajouter un style à la collection de styles d'un document.
+Montre comment ajouter un style à la collection de styles d’un document.
 
 ```csharp
 Document doc = new Document();
-StyleCollection styles = doc.Styles;
 
+StyleCollection styles = doc.Styles;
 // Définissez les paramètres par défaut pour les nouveaux styles que nous pourrons ajouter ultérieurement à cette collection.
 styles.DefaultFont.Name = "Courier New";
-
-// Si nous ajoutons un style du "StyleType.Paragraph", la collection appliquera les valeurs de
+// Si on ajoute un style du "StyleType.Paragraph", la collection appliquera les valeurs de
 // sa propriété "DefaultParagraphFormat" à la propriété "ParagraphFormat" du style.
 styles.DefaultParagraphFormat.FirstLineIndent = 15.0;
-
 // Ajoutez un style, puis vérifiez qu'il possède les paramètres par défaut.
 styles.Add(StyleType.Paragraph, "MyStyle");
 
@@ -49,14 +47,14 @@ Assert.AreEqual("Courier New", styles[4].Font.Name);
 Assert.AreEqual(15.0, styles["MyStyle"].ParagraphFormat.FirstLineIndent);
 ```
 
-Montre comment créer un style de liste et l'utiliser dans un document.
+Montre comment créer un style de liste et l’utiliser dans un document.
 
 ```csharp
 Document doc = new Document();
 
 // Une liste nous permet d'organiser et de décorer des ensembles de paragraphes avec des symboles de préfixe et des retraits.
-// Nous pouvons créer des listes imbriquées en augmentant le niveau d'indentation. 
-// Nous pouvons commencer et terminer une liste en utilisant la propriété "ListFormat" d'un générateur de document. 
+ // Nous pouvons créer des listes imbriquées en augmentant le niveau d'indentation.
+ // Nous pouvons commencer et terminer une liste en utilisant la propriété "ListFormat" d'un générateur de documents.
 // Chaque paragraphe que nous ajoutons entre le début et la fin d'une liste deviendra un élément de la liste.
 // Nous pouvons contenir un objet List entier dans un style.
 Style listStyle = doc.Styles.Add(StyleType.List, "MyListStyle");
@@ -68,7 +66,7 @@ Assert.False(list1.IsListStyleReference);
 Assert.True(list1.IsMultiLevel);
 Assert.AreEqual(listStyle, list1.Style);
 
-// Modifie l'apparence de tous les niveaux de liste dans notre liste.
+// Change l'apparence de tous les niveaux de liste dans notre liste.
 foreach (ListLevel level in list1.ListLevels)
 {
     level.Font.Name = "Verdana";
@@ -87,7 +85,7 @@ Assert.False(list2.IsListStyleDefinition);
 Assert.True(list2.IsListStyleReference);
 Assert.AreEqual(listStyle, list2.Style);
 
-// Ajoutez des éléments de liste que notre liste formatera.
+// Ajoutez quelques éléments de liste que notre liste formatera.
 builder.ListFormat.List = list2;
 builder.Writeln("Item 1");
 builder.Writeln("Item 2");

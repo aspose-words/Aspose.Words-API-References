@@ -1,14 +1,14 @@
 ---
 title: TableSubstitutionRule.LoadAndroidSettings
 second_title: Référence de l'API Aspose.Words pour .NET
-description: TableSubstitutionRule méthode. Charge les paramètres de substitution de table prédéfinis pour la plateforme Linux.
+description: TableSubstitutionRule méthode. Charge les paramètres de substitution de table prédéfinis pour la plateforme Android.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.fonts/tablesubstitutionrule/loadandroidsettings/
 ---
 ## TableSubstitutionRule.LoadAndroidSettings method
 
-Charge les paramètres de substitution de table prédéfinis pour la plate-forme Linux.
+Charge les paramètres de substitution de table prédéfinis pour la plateforme Android.
 
 ```csharp
 public void LoadAndroidSettings()

@@ -1,14 +1,14 @@
 ---
 title: JsonDataLoadOptions.ExactDateTimeParseFormats
 second_title: Référence de l'API Aspose.Words pour .NET
-description: JsonDataLoadOptions propriété. Obtient ou définit les formats exacts pour lanalyse des valeurs dateheure JSON lors du chargement de JSON. La valeur par défaut est nul .
+description: JsonDataLoadOptions propriété. Obtient ou définit les formats exacts pour analyser les valeurs dateheure JSON lors du chargement de JSON. La valeur par défaut estnul .
 type: docs
 weight: 30
 url: /fr/net/aspose.words.reporting/jsondataloadoptions/exactdatetimeparseformats/
 ---
 ## JsonDataLoadOptions.ExactDateTimeParseFormats property
 
-Obtient ou définit les formats exacts pour l'analyse des valeurs date-heure JSON lors du chargement de JSON. La valeur par défaut est **nul** .
+Obtient ou définit les formats exacts pour analyser les valeurs date-heure JSON lors du chargement de JSON. La valeur par défaut est`nul` .
 
 ```csharp
 public IEnumerable<string> ExactDateTimeParseFormats { get; set; }
@@ -16,11 +16,11 @@ public IEnumerable<string> ExactDateTimeParseFormats { get; set; }
 
 ### Remarques
 
-Les chaînes encodées à l'aide du format date-heure Microsoft® JSON (par exemple, "/Date(1224043200000)/") sont toujours reconnues comme des valeurs date-heure, quelle que soit la valeur de cette propriété. La propriété définit des formats supplémentaires à utiliser lors de l'analyse des valeurs date-heure des chaînes de la manière suivante :
+Les chaînes codées à l'aide du format date-heure Microsoft® JSON (par exemple, "/Date(1224043200000)/") sont toujours reconnues comme valeurs date-heure, quelle que soit la valeur de cette propriété. La propriété définit des formats supplémentaires à utiliser lors de l'analyse des valeurs date-heure des chaînes de la manière suivante :
 
-* Quand`ExactDateTimeParseFormats` est **nul** , le format ISO-8601 et tous les formats date-heure pris en charge pour les cultures actuelles, anglais américain et anglais néo-zélandais sont également utilisés dans l'ordre mentionné.
-* Quand`ExactDateTimeParseFormats` contient des chaînes, elles sont utilisées comme formats de date-heure supplémentaires utilisant la culture actuelle.
-* Quand`ExactDateTimeParseFormats` est vide, aucun format de date-heure supplémentaire n'est utilisé.
+* Quand`ExactDateTimeParseFormats` est`nul` le format ISO-8601 et tous les formats date-heure pris en charge pour les cultures actuelles, anglais des États-Unis et anglais de la Nouvelle-Zélande, sont utilisés en plus dans dans l'ordre mentionné.
+* Quand`ExactDateTimeParseFormats` contient des chaînes, elles sont utilisées comme formats date-time supplémentaires utilisant la culture actuelle.
+* Quand`ExactDateTimeParseFormats` est vide, aucun format date-heure supplémentaire n'est utilisé.
 
 ### Voir également
 

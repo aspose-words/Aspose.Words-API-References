@@ -3,7 +3,7 @@ title: Class ComHelper
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Aspose.Words.ComHelper classe. Fournit des méthodes permettant aux clients COM de charger un document dans Aspose.Words.
 type: docs
-weight: 210
+weight: 220
 url: /fr/net/aspose.words/comhelper/
 ---
 ## ComHelper class
@@ -24,7 +24,7 @@ public class ComHelper
 
 | Nom | La description |
 | --- | --- |
-| [Open](../../aspose.words/comhelper/open/#open)(Stream) | Autorise le chargement d'une application COM[`Document`](../document/) à partir d'un flux. |
+| [Open](../../aspose.words/comhelper/open/#open)(Stream) | Permet de charger une application COM[`Document`](../document/) à partir d'un flux. |
 | [Open](../../aspose.words/comhelper/open/#open_1)(string) | Permet à une application COM de charger un[`Document`](../document/) à partir d'un fichier. |
 | [OpenIStream](../../aspose.words/comhelper/openistream/)(IStream) | Permet à une application COM de charger un[`Document`](../document/) à partir d'un objet IStream. |
 
@@ -32,7 +32,7 @@ public class ComHelper
 
 Utilisez le`ComHelper` classe pour charger un document à partir d'un fichier ou d'un flux dans un [`Document`](../document/) objet dans une application COM.
 
-La[`Document`](../document/)fournit un constructeur par défaut pour créer un nouveau document et fournit également des constructeurs surchargés pour charger un document à partir d'un fichier ou d'un flux. Si vous utilisez Aspose.Words à partir d'une application .NET, vous pouvez utiliser tous les[`Document`](../document/) constructeurs directement, mais si vous utilisez Aspose.Words à partir d'une application COM, uniquement la valeur par défaut[`Document`](../document/) constructeur est disponible.
+Le[`Document`](../document/) La classe fournit un constructeur par défaut pour créer un nouveau document et fournit également des constructeurs surchargés pour charger un document à partir d'un fichier ou d'un flux. Si vous utilisez Aspose.Words à partir d'une application .NET, vous pouvez utiliser tous les[`Document`](../document/) directement les constructeurs, mais si vous utilisez Aspose.Words à partir d'une application COM, uniquement la valeur par défaut[`Document`](../document/) Le constructeur est disponible.
 
 ### Exemples
 
@@ -46,7 +46,7 @@ Dim doc
 Set doc = helper.Open(fileName)
 ```
 
-Montre comment ouvrir des documents à l'aide de la classe ComHelper.
+Montre comment ouvrir des documents à l’aide de la classe ComHelper.
 
 ```csharp
 // La classe ComHelper nous permet de charger des documents depuis des clients COM.
@@ -57,7 +57,7 @@ Document doc = comHelper.Open(MyDir + "Document.docx");
 
 Assert.AreEqual("Hello World!\r\rHello Word!\r\r\rHello World!", doc.GetText().Trim());
 
-// 2 - Depuis un flux :
+// 2 - Depuis un flux :
 using (FileStream stream = new FileStream(MyDir + "Document.docx", FileMode.Open))
 {
     doc = comHelper.Open(stream);

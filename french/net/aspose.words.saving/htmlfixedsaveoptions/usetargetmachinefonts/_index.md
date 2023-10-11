@@ -1,14 +1,14 @@
 ---
 title: HtmlFixedSaveOptions.UseTargetMachineFonts
 second_title: Référence de l'API Aspose.Words pour .NET
-description: HtmlFixedSaveOptions propriété. Lindicateur indique si les polices de la machine cible doivent être utilisées pour afficher le document. Si cet indicateur est défini sur vraiFontFormat etExportEmbeddedFontsles propriétés nont pas deffet égalementResourceSavingCallback nest pas déclenché pour les polices. La valeur par défaut est false.
+description: HtmlFixedSaveOptions propriété. Lindicateur indique si les polices de la machine cible doivent être utilisées pour afficher le document. Si cet indicateur est défini survrai FontFormat etExportEmbeddedFonts les propriétés nont pas deffet égalementResourceSavingCallback nest pas déclenché pour les polices. La valeur par défaut estFAUX .
 type: docs
 weight: 190
 url: /fr/net/aspose.words.saving/htmlfixedsaveoptions/usetargetmachinefonts/
 ---
 ## HtmlFixedSaveOptions.UseTargetMachineFonts property
 
-L'indicateur indique si les polices de la machine cible doivent être utilisées pour afficher le document. Si cet indicateur est défini sur vrai,[`FontFormat`](../fontformat/) et[`ExportEmbeddedFonts`](../exportembeddedfonts/)les propriétés n'ont pas d'effet, également[`ResourceSavingCallback`](../resourcesavingcallback/) n'est pas déclenché pour les polices. La valeur par défaut est false.
+L'indicateur indique si les polices de la machine cible doivent être utilisées pour afficher le document. Si cet indicateur est défini sur`vrai` ,[`FontFormat`](../fontformat/) et[`ExportEmbeddedFonts`](../exportembeddedfonts/) les propriétés n'ont pas d'effet, également[`ResourceSavingCallback`](../resourcesavingcallback/) n'est pas déclenché pour les polices. La valeur par défaut est`FAUX` .
 
 ```csharp
 public bool UseTargetMachineFonts { get; set; }
@@ -16,7 +16,7 @@ public bool UseTargetMachineFonts { get; set; }
 
 ### Exemples
 
-Montre comment utiliser uniquement les polices de la machine cible lors de l'enregistrement d'un document au format HTML.
+Montre comment utiliser les polices uniquement de la machine cible lors de l'enregistrement d'un document au format HTML.
 
 ```csharp
 Document doc = new Document(MyDir + "Bullet points with alternative font.docx");

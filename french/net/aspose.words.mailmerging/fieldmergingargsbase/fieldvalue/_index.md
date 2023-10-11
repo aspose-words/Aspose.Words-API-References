@@ -23,11 +23,12 @@ Cette propriété contient une valeur qui vient d'être sélectionnée dans votr
 Montre comment modifier les valeurs que les MERGEFIELD reçoivent lors d'un publipostage.
 
 ```csharp
+public void FieldFormats()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Insérez des MERGEFIELD avec des commutateurs de format qui modifieront les valeurs qu'ils recevront lors d'un publipostage.
+    // Insère des MERGEFIELD avec des commutateurs de format qui modifieront les valeurs qu'ils recevront lors d'un publipostage.
     builder.InsertField("MERGEFIELD text_Field1 \\* Caps", null);
     builder.Write(", ");
     builder.InsertField("MERGEFIELD text_Field2 \\* Upper", null);

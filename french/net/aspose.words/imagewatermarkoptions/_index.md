@@ -1,14 +1,16 @@
 ---
 title: Class ImageWatermarkOptions
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.ImageWatermarkOptions classe. Contient des options pouvant être spécifiées lors de lajout dun filigrane avec image.
+description: Aspose.Words.ImageWatermarkOptions classe. Contient les options qui peuvent être spécifiées lors de lajout dun filigrane avec image.
 type: docs
-weight: 3020
+weight: 3220
 url: /fr/net/aspose.words/imagewatermarkoptions/
 ---
 ## ImageWatermarkOptions class
 
-Contient des options pouvant être spécifiées lors de l'ajout d'un filigrane avec image.
+Contient les options qui peuvent être spécifiées lors de l'ajout d'un filigrane avec image.
+
+Pour en savoir plus, visitez le[Travailler avec un filigrane](https://docs.aspose.com/words/net/working-with-watermark/) article documentaire.
 
 ```csharp
 public class ImageWatermarkOptions
@@ -24,7 +26,7 @@ public class ImageWatermarkOptions
 
 | Nom | La description |
 | --- | --- |
-| [IsWashout](../../aspose.words/imagewatermarkoptions/iswashout/) { get; set; } | Obtient ou définit une valeur booléenne responsable de l'effet de lavage du filigrane. La valeur par défaut est True. |
+| [IsWashout](../../aspose.words/imagewatermarkoptions/iswashout/) { get; set; } | Obtient ou définit une valeur booléenne responsable de l'effet de délavage du filigrane. La valeur par défaut est`vrai` . |
 | [Scale](../../aspose.words/imagewatermarkoptions/scale/) { get; set; } | Obtient ou définit le facteur d'échelle exprimé en fraction de l'image. La valeur par défaut est 0 - auto. |
 
 ### Voir également

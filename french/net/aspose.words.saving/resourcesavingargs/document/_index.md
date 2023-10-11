@@ -38,7 +38,7 @@ public void ResourceSavingCallback()
 private class FontSavingCallback : IResourceSavingCallback
 {
     /// <summary>
-    /// Appelé quand Aspose.Words enregistre une ressource externe dans une page fixe HTML ou SVG.
+    /// Appelé lorsque Aspose.Words enregistre une ressource externe dans une page HTML ou SVG fixe.
     /// </summary>
     public void ResourceSaving(ResourceSavingArgs args)
     {

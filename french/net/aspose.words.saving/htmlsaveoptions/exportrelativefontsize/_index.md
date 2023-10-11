@@ -1,14 +1,14 @@
 ---
 title: HtmlSaveOptions.ExportRelativeFontSize
 second_title: Référence de l'API Aspose.Words pour .NET
-description: HtmlSaveOptions propriété. Spécifie si les tailles de police doivent être sorties en unités relatives lors de lenregistrement au format HTML MHTML ou EPUB. La valeur par défaut estfaux .
+description: HtmlSaveOptions propriété. Spécifie si les tailles de police doivent être affichées en unités relatives lors de lenregistrement au format HTML MHTML ou EPUB. La valeur par défaut estFAUX .
 type: docs
-weight: 240
+weight: 230
 url: /fr/net/aspose.words.saving/htmlsaveoptions/exportrelativefontsize/
 ---
 ## HtmlSaveOptions.ExportRelativeFontSize property
 
-Spécifie si les tailles de police doivent être sorties en unités relatives lors de l'enregistrement au format HTML, MHTML ou EPUB. La valeur par défaut est`faux` .
+Spécifie si les tailles de police doivent être affichées en unités relatives lors de l'enregistrement au format HTML, MHTML ou EPUB. La valeur par défaut est`FAUX` .
 
 ```csharp
 public bool ExportRelativeFontSize { get; set; }
@@ -16,15 +16,15 @@ public bool ExportRelativeFontSize { get; set; }
 
 ### Remarques
 
-Dans de nombreux documents existants (HTML, IDPF EPUB), les tailles de police sont spécifiées en unités relatives. Cela permet applications d'ajuster la taille du texte lors de l'affichage/du traitement des documents. Par exemple, Microsoft Internet Explorer a un sous-menu "Affichage-&gt;Taille du texte", Adobe Digital Editions a deux boutons : Augmenter/Diminuer la taille du texte. Si vous pensez que cette fonctionnalité fonctionne, définissez`ExportRelativeFontSize` propriété à`vrai` .
+Dans de nombreux documents existants (HTML, IDPF EPUB), les tailles de police sont spécifiées en unités relatives. Cela permet aux applications d'ajuster la taille du texte lors de la visualisation/du traitement des documents. Par exemple, Microsoft Internet Explorer a un sous-menu « Affichage-&gt;Taille du texte », Adobe Digital Editions a deux boutons : Augmenter/Diminuer la taille du texte. Si vous vous attendez à ce que cette fonctionnalité fonctionne, définissez`ExportRelativeFontSize` propriété à`vrai` .
 
-Le modèle de document Aspose Words contient et fonctionne uniquement avec des unités de taille de police absolues. Les unités relatives ont besoin de logique supplémentaire pour être recalculées à partir d'une taille initiale (standard). Taille de police de **Normal** le style de document est pris comme standard. Par exemple, si **Normal** a une police de 12 pt et du texte est de 18 pt, il sera alors sorti comme **1.5em.** au HTML.
+Le modèle de document Aspose Words contient et fonctionne uniquement avec des unités de taille de police absolue. Les unités relatives nécessitent une logique supplémentaire pour être recalculées à partir d'une taille initiale (standard). Taille de police de **Normale** le style de document est pris en standard. Par exemple, si **Normale** a une police de 12 pts et du texte de 18 pts, il sera alors affiché sous la forme **1,5em.** au HTML.
 
-Lorsque cette option est activée, les éléments de document autres que le texte auront toujours des tailles absolues. Certains attributs liés au texte peuvent également être exprimés de manière absolue. En particulier, l'interligne spécifié avec la règle "exactement" peut produire des résultats indésirables lors de la mise à l'échelle du texte. Ainsi, les documents source doivent être correctement conçus et testés lors de l'exportation avec`ExportRelativeFontSize` mis à`vrai`.
+Lorsque cette option est activée, les éléments du document autres que le texte auront toujours des tailles absolues. Certains attributs liés au texte peuvent également être exprimés de manière absolue. En particulier, l'espacement des lignes spécifié avec la règle « exactement » peut produire des résultats indésirables lors de la mise à l'échelle du texte. Les documents sources doivent donc être correctement conçus et testés lors de l'exportation avec`ExportRelativeFontSize` mis à`vrai`.
 
 ### Exemples
 
-Montre comment utiliser des tailles de police relatives lors de l'enregistrement au format .html.
+Montre comment utiliser les tailles de police relatives lors de l'enregistrement au format .html.
 
 ```csharp
 Document doc = new Document();
@@ -38,9 +38,9 @@ builder.Write("8x default font size");
 
 // Lorsque nous enregistrons le document au format HTML, nous pouvons passer un objet SaveOptions
 // pour déterminer s'il faut utiliser des tailles de police relatives ou absolues.
-// Définissez le drapeau "ExportRelativeFontSize" sur "true" pour déclarer les tailles de police
+// Définit le flag "ExportRelativeFontSize" sur "true" pour déclarer les tailles de police
  // en utilisant l'unité de mesure "em", qui est un facteur qui multiplie la taille de police actuelle.
-// Définissez le drapeau "ExportRelativeFontSize" sur "false" pour déclarer les tailles de police
+// Définit le flag "ExportRelativeFontSize" sur "false" pour déclarer les tailles de police
 // en utilisant l'unité de mesure "pt", qui est la taille absolue de la police en points.
 HtmlSaveOptions options = new HtmlSaveOptions { ExportRelativeFontSize = exportRelativeFontSize };
 

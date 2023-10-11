@@ -1,14 +1,14 @@
 ---
 title: Enum HtmlVersion
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Saving.HtmlVersion énumération. Indique la version de HTML utilisée lors de lenregistrement du document dansHtml et Mhtml formats.
+description: Aspose.Words.Saving.HtmlVersion énumération. Indique la version HTML utilisée lors de lenregistrement du document dansHtml et Mhtml formats.
 type: docs
-weight: 4860
+weight: 5120
 url: /fr/net/aspose.words.saving/htmlversion/
 ---
 ## HtmlVersion enumeration
 
-Indique la version de HTML utilisée lors de l'enregistrement du document dansHtml et Mhtml formats.
+Indique la version HTML utilisée lors de l'enregistrement du document dansHtml et Mhtml formats.
 
 ```csharp
 public enum HtmlVersion
@@ -23,7 +23,7 @@ public enum HtmlVersion
 
 ### Exemples
 
-Montre comment afficher un en-tête DOCTYPE lors de la conversion de documents au standard de transition Xhtml 1.0.
+Montre comment afficher un en-tête DOCTYPE lors de la conversion de documents vers la norme de transition Xhtml 1.0.
 
 ```csharp
 Document doc = new Document();
@@ -40,13 +40,13 @@ HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.Html)
 
 doc.Save(ArtifactsDir + "HtmlSaveOptions.ExportXhtmlTransitional.html", options);
 
-// Notre document ne contiendra un en-tête de déclaration DOCTYPE que si nous avons défini le drapeau "ExportXhtmlTransitional" sur "true".
+// Notre document ne contiendra un en-tête de déclaration DOCTYPE que si nous avons mis le flag "ExportXhtmlTransitional" à "true".
 string outDocContents = File.ReadAllText(ArtifactsDir + "HtmlSaveOptions.ExportXhtmlTransitional.html");
 
 if (showDoctypeDeclaration)
     Assert.True(outDocContents.Contains(
         "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"no\"?>\r\n" +
-        "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\r\n" +
+        "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//FR\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\r\n" +
         "<html xmlns=\"http://www.w3.org/1999/xhtml\">"));
 else
     Assert.True(outDocContents.Contains("<html>"));
@@ -65,7 +65,7 @@ HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.Html)
 
 doc.Save(ArtifactsDir + "HtmlSaveOptions.HtmlVersions.html", options);
 
-// Nos documents HTML auront des différences mineures pour être compatibles avec les différentes versions HTML.
+// Nos documents HTML présenteront des différences mineures pour être compatibles avec les différentes versions HTML.
 string outDocContents = File.ReadAllText(ArtifactsDir + "HtmlSaveOptions.HtmlVersions.html");
 
 switch (htmlVersion)

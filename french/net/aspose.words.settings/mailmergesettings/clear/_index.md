@@ -1,14 +1,14 @@
 ---
 title: MailMergeSettings.Clear
 second_title: Référence de l'API Aspose.Words pour .NET
-description: MailMergeSettings méthode. Efface les paramètres de publipostage de telle sorte que lorsque le document est enregistré aucun paramètre de publipostage ne sera enregistré et il deviendra un document normal.
+description: MailMergeSettings méthode. Efface les paramètres de publipostage de telle manière que lorsque le document est enregistré aucun paramètre de publipostage ne sera enregistré et il deviendra un document normal.
 type: docs
 weight: 180
 url: /fr/net/aspose.words.settings/mailmergesettings/clear/
 ---
 ## MailMergeSettings.Clear method
 
-Efface les paramètres de publipostage de telle sorte que lorsque le document est enregistré, aucun paramètre de publipostage ne sera enregistré et il deviendra un document normal.
+Efface les paramètres de publipostage de telle manière que lorsque le document est enregistré, aucun paramètre de publipostage ne sera enregistré et il deviendra un document normal.
 
 ```csharp
 public void Clear()

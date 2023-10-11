@@ -1,14 +1,14 @@
 ---
 title: RevisionGroupCollection.Item
 second_title: Référence de l'API Aspose.Words pour .NET
-description: RevisionGroupCollection propriété. Renvoie un groupe de révision à lindex spécifié.
+description: RevisionGroupCollection propriété. Renvoie un groupe de révisions à lindex spécifié.
 type: docs
 weight: 20
 url: /fr/net/aspose.words/revisiongroupcollection/item/
 ---
 ## RevisionGroupCollection indexer
 
-Renvoie un groupe de révision à l'index spécifié.
+Renvoie un groupe de révisions à l'index spécifié.
 
 ```csharp
 public RevisionGroup this[int index] { get; }

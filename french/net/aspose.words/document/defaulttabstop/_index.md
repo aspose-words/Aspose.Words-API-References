@@ -22,10 +22,10 @@ Montre comment définir un intervalle personnalisé pour les positions des taque
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Définir les taquets de tabulation pour qu'ils apparaissent tous les 72 points (1 pouce).
+// Définit les taquets de tabulation pour qu'ils apparaissent tous les 72 points (1 pouce).
 builder.Document.DefaultTabStop = 72;
 
-// Chaque caractère de tabulation accroche le texte qui le suit à la prochaine position de taquet de tabulation la plus proche.
+// Chaque caractère de tabulation accroche le texte qui le suit à la position de taquet de tabulation la plus proche.
 builder.Writeln("Hello" + ControlChar.Tab + "World!");
 builder.Writeln("Hello" + ControlChar.TabChar + "World!");
 ```

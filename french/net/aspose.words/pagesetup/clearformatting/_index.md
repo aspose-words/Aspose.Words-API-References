@@ -1,14 +1,14 @@
 ---
 title: PageSetup.ClearFormatting
 second_title: Référence de l'API Aspose.Words pour .NET
-description: PageSetup méthode. Réinitialise la configuration de la page au format de papier aux marges et à lorientation par défaut.
+description: PageSetup méthode. Réinitialise la mise en page au format de papier aux marges et à lorientation par défaut.
 type: docs
-weight: 450
+weight: 460
 url: /fr/net/aspose.words/pagesetup/clearformatting/
 ---
 ## PageSetup.ClearFormatting method
 
-Réinitialise la configuration de la page au format de papier, aux marges et à l'orientation par défaut.
+Réinitialise la mise en page au format de papier, aux marges et à l'orientation par défaut.
 
 ```csharp
 public void ClearFormatting()
@@ -16,19 +16,19 @@ public void ClearFormatting()
 
 ### Exemples
 
-Montre comment appliquer et rétablir les paramètres de mise en page aux sections d'un document.
+Montre comment appliquer et rétablir les paramètres de mise en page aux sections d’un document.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Modifie les propriétés de mise en page pour la section actuelle du générateur et ajoute du texte.
+// Modifie les propriétés de mise en page de la section actuelle du générateur et ajoute du texte.
 builder.PageSetup.Orientation = Orientation.Landscape;
 builder.PageSetup.VerticalAlignment = PageVerticalAlignment.Center;
 builder.Writeln("This is the first section, which landscape oriented with vertically centered text.");
 
-// Si nous commençons une nouvelle section en utilisant un générateur de document,
-// il héritera des propriétés de configuration de page actuelles du générateur.
+// Si on démarre une nouvelle section en utilisant un générateur de documents,
+// il héritera des propriétés de mise en page actuelles du constructeur.
 builder.InsertBreak(BreakType.SectionBreakNewPage);
 
 Assert.AreEqual(Orientation.Landscape, doc.Sections[1].PageSetup.Orientation);

@@ -1,14 +1,14 @@
 ---
 title: OdsoFieldMapData.Name
 second_title: Référence de l'API Aspose.Words pour .NET
-description: OdsoFieldMapData propriété. Spécifie le nom de la colonne dans une source de données externe pour la colonne dont lindex est spécifié par leColumn propriété. La valeur par défaut est une chaîne vide.
+description: OdsoFieldMapData propriété. Spécifie le nom de colonne dans une source de données externe pour la colonne dont lindex est spécifié par leColumnproperty. La valeur par défaut est une chaîne vide.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.settings/odsofieldmapdata/name/
 ---
 ## OdsoFieldMapData.Name property
 
-Spécifie le nom de la colonne dans une source de données externe pour la colonne dont l'index est spécifié par le[`Column`](../column/) propriété. La valeur par défaut est une chaîne vide.
+Spécifie le nom de colonne dans une source de données externe pour la colonne dont l'index est spécifié par le[`Column`](../column/)property. La valeur par défaut est une chaîne vide.
 
 ```csharp
 public string Name { get; set; }
@@ -40,15 +40,15 @@ using (IEnumerator<OdsoFieldMapData> enumerator = dataCollection.GetEnumerator()
     }
 }
 
-// Clone les éléments de cette collection.
+// Clonez les éléments de cette collection.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// Utilise les éléments de la méthode "RemoveAt" individuellement par index.
+// Utilisez les éléments de la méthode "RemoveAt" individuellement par index.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(29, dataCollection.Count);
 
-// Utilisez la méthode "Clear" pour effacer toute la collection d'un coup.
+// Utilisez la méthode "Clear" pour effacer toute la collection en une seule fois.
 dataCollection.Clear();
 
 Assert.AreEqual(0, dataCollection.Count);

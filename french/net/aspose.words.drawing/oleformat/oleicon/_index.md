@@ -1,14 +1,14 @@
 ---
 title: OleFormat.OleIcon
 second_title: Référence de l'API Aspose.Words pour .NET
-description: OleFormat propriété. Obtient laspect de dessin de lobjet OLE. Lorsque vrai  lobjet OLE saffiche sous forme dicône. Quand faux  lobjet OLE est affiché en tant que contenu.
+description: OleFormat propriété. Obtient laspect dessin de lobjet OLE. Quandvrai  lobjet OLE saffiche sous forme dicône. LorsqueFAUX  lobjet OLE saffiche sous la forme content.
 type: docs
 weight: 70
 url: /fr/net/aspose.words.drawing/oleformat/oleicon/
 ---
 ## OleFormat.OleIcon property
 
-Obtient l'aspect de dessin de l'objet OLE. Lorsque **vrai** , l'objet OLE s'affiche sous forme d'icône. Quand **faux** , l'objet OLE est affiché en tant que contenu.
+Obtient l'aspect dessin de l'objet OLE. Quand`vrai` , l'objet OLE s'affiche sous forme d'icône. Lorsque`FAUX` , l'objet OLE s'affiche sous la forme content.
 
 ```csharp
 public bool OleIcon { get; }
@@ -16,7 +16,7 @@ public bool OleIcon { get; }
 
 ### Remarques
 
-Aspose.Words ne permet pas de définir cette propriété pour éviter toute confusion. Si vous pouviez changer l'aspect de dessin dans Aspose.Words, Microsoft Word afficherait toujours l'objet OLE dans son aspect de dessin d'origine jusqu'à ce que vous modifiiez ou mettiez à jour l'objet OLE dans Microsoft Word.
+Aspose.Words ne permet pas de définir cette propriété pour éviter toute confusion. Si vous pouviez modifier l'aspect de dessin dans Aspose.Words, Microsoft Word afficherait toujours l'objet OLE dans son aspect de dessin d'origine jusqu'à ce que vous modifiiez ou mettiez à jour l'objet OLE dans Microsoft Word.
 
 ### Exemples
 
@@ -57,7 +57,7 @@ Assert.AreEqual("Microsoft Visio drawing.vsd", oleFormat.IconCaption);
 
 doc.Save(ArtifactsDir + "Shape.OleLinks.docx");
 
-// Si l'objet contient des données OLE, nous pouvons y accéder à l'aide d'un flux.
+// Si l'objet contient des données OLE, nous pouvons y accéder via un flux.
 using (MemoryStream stream = oleFormat.GetOleEntry("\x0001CompObj"))
 {
     byte[] oleEntryBytes = stream.ToArray();

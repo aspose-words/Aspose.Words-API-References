@@ -1,14 +1,14 @@
 ---
 title: TableStyle.LeftIndent
 second_title: Référence de l'API Aspose.Words pour .NET
-description: TableStyle propriété. Obtient ou définit la valeur qui représente le retrait à gauche dun tableau.
+description: TableStyle propriété. Obtient ou définit la valeur qui représente le retrait gauche dune table.
 type: docs
 weight: 90
 url: /fr/net/aspose.words/tablestyle/leftindent/
 ---
 ## TableStyle.LeftIndent property
 
-Obtient ou définit la valeur qui représente le retrait à gauche d'un tableau.
+Obtient ou définit la valeur qui représente le retrait gauche d'une table.
 
 ```csharp
 public double LeftIndent { get; set; }
@@ -22,8 +22,8 @@ Montre comment définir la position d'un tableau.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Vous trouverez ci-dessous deux manières d'aligner une table horizontalement.
-// 1 - Utilisez la propriété "Alignment" pour l'aligner sur un emplacement de la page, tel que le centre :
+// Vous trouverez ci-dessous deux manières d'aligner un tableau horizontalement.
+// 1 - Utilisez la propriété "Alignement" pour l'aligner à un emplacement de la page, comme le centre :
 TableStyle tableStyle = (TableStyle)doc.Styles.Add(StyleType.Table, "MyTableStyle1");
 tableStyle.Alignment = TableAlignment.Center;
 tableStyle.Borders.Color = Color.Blue;

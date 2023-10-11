@@ -3,7 +3,7 @@ title: Document.UpdateThumbnail
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Document méthode. Mises à jourThumbnail du document selon les options spécifiées.
 type: docs
-weight: 760
+weight: 800
 url: /fr/net/aspose.words/document/updatethumbnail/
 ---
 ## UpdateThumbnail(ThumbnailGeneratingOptions) {#updatethumbnail_1}
@@ -20,11 +20,11 @@ public void UpdateThumbnail(ThumbnailGeneratingOptions options)
 
 ### Remarques
 
-Le[`ThumbnailGeneratingOptions`](../../../aspose.words.rendering/thumbnailgeneratingoptions/) vous permet de spécifier la source de la vignette, sa taille et d'autres options. Si la tentative de génération de la vignette échoue, n'en change pas une.
+Le[`ThumbnailGeneratingOptions`](../../../aspose.words.rendering/thumbnailgeneratingoptions/) vous permet de spécifier la source de la vignette, la taille et d'autres options. Si la tentative de génération de vignette échoue, cela n'en change pas.
 
 ### Exemples
 
-Montre comment mettre à jour la vignette d'un document.
+Montre comment mettre à jour la miniature d'un document.
 
 ```csharp
 Document doc = new Document();
@@ -34,11 +34,11 @@ builder.Writeln("Hello world!");
 builder.InsertImage(ImageDir + "Logo.jpg");
 
 // Il existe deux manières de définir une image miniature lors de l'enregistrement d'un document au format .epub.
-// 1 - Utiliser la première page du document :
+// 1 - Utiliser la première page du document :
 doc.UpdateThumbnail();
 doc.Save(ArtifactsDir + "Document.UpdateThumbnail.FirstPage.epub");
 
-// 2 - Utiliser la première image trouvée dans le document :
+// 2 - Utiliser la première image trouvée dans le document :
 ThumbnailGeneratingOptions options = new ThumbnailGeneratingOptions();
 options.ThumbnailSize = new Size(400, 400);
 options.GenerateFromFirstPage = false;
@@ -66,7 +66,7 @@ public void UpdateThumbnail()
 
 ### Exemples
 
-Montre comment mettre à jour la vignette d'un document.
+Montre comment mettre à jour la miniature d'un document.
 
 ```csharp
 Document doc = new Document();
@@ -76,11 +76,11 @@ builder.Writeln("Hello world!");
 builder.InsertImage(ImageDir + "Logo.jpg");
 
 // Il existe deux manières de définir une image miniature lors de l'enregistrement d'un document au format .epub.
-// 1 - Utiliser la première page du document :
+// 1 - Utiliser la première page du document :
 doc.UpdateThumbnail();
 doc.Save(ArtifactsDir + "Document.UpdateThumbnail.FirstPage.epub");
 
-// 2 - Utiliser la première image trouvée dans le document :
+// 2 - Utiliser la première image trouvée dans le document :
 ThumbnailGeneratingOptions options = new ThumbnailGeneratingOptions();
 options.ThumbnailSize = new Size(400, 400);
 options.GenerateFromFirstPage = false;

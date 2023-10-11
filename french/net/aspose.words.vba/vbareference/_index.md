@@ -3,12 +3,14 @@ title: Class VbaReference
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Aspose.Words.Vba.VbaReference classe. Implémente une référence à une bibliothèque de types Automation ou à un projet VBA.
 type: docs
-weight: 6280
+weight: 6590
 url: /fr/net/aspose.words.vba/vbareference/
 ---
 ## VbaReference class
 
 Implémente une référence à une bibliothèque de types Automation ou à un projet VBA.
+
+Pour en savoir plus, visitez le[Travailler avec des macros VBA](https://docs.aspose.com/words/net/working-with-vba-macros/) article documentaire.
 
 ```csharp
 public abstract class VbaReference
@@ -19,14 +21,13 @@ public abstract class VbaReference
 | Nom | La description |
 | --- | --- |
 | abstract [LibId](../../aspose.words.vba/vbareference/libid/) { get; } | Obtient une valeur de chaîne contenant l'identifiant d'une bibliothèque de types Automation. |
-| abstract [Type](../../aspose.words.vba/vbareference/type/) { get; } | Obtient[`VbaReferenceType`](../vbareferencetype/)objet qui indique le type de référence qu'un objet VbaReference représente. |
+| abstract [Type](../../aspose.words.vba/vbareference/type/) { get; } | Obtient[`VbaReferenceType`](../vbareferencetype/) objet qui indique le type de référence qu'un`VbaReference` l'objet représente. |
 
 ### Exemples
 
 Montre comment obtenir/supprimer un élément de la collection de référence VBA.
 
 ```csharp
-[Test]
 public void RemoveVbaReference()
 {
     const string brokenPath = @"X:\broken.dll";
@@ -52,7 +53,7 @@ public void RemoveVbaReference()
 }
 
 /// <summary>
-/// Renvoie une chaîne représentant le chemin LibId d'une référence spécifiée. 
+ /// Renvoie une chaîne représentant le chemin LibId d'une référence spécifiée.
 /// </summary>
 private static string GetLibIdPath(VbaReference reference)
 {
@@ -70,7 +71,7 @@ private static string GetLibIdPath(VbaReference reference)
 }
 
 /// <summary>
-/// Renvoie le chemin à partir d'un identifiant spécifié d'une bibliothèque de types Automation.
+/// Renvoie le chemin d'un identifiant spécifié d'une bibliothèque de types Automation.
 /// </summary>
 private static string GetLibIdReferencePath(string libIdReference)
 {
@@ -85,7 +86,7 @@ private static string GetLibIdReferencePath(string libIdReference)
 }
 
 /// <summary>
-/// Renvoie le chemin à partir d'un identifiant spécifié d'une bibliothèque de types Automation.
+/// Renvoie le chemin d'un identifiant spécifié d'une bibliothèque de types Automation.
 /// </summary>
 private static string GetLibIdProjectPath(string libIdProject)
 {

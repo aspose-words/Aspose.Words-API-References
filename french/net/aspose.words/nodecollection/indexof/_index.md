@@ -24,7 +24,7 @@ L'index de base zéro du nœud dans la collection, s'il est trouvé ; sinon, -1.
 
 ### Remarques
 
-Cette méthode effectue une recherche linéaire ; par conséquent, le temps d'exécution moyen est proportionnel à Count.
+Cette méthode effectue une recherche linéaire ; par conséquent, le temps d'exécution moyen est proportionnel à[`Count`](../count/).
 
 ### Exemples
 

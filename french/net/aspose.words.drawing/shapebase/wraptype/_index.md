@@ -3,7 +3,7 @@ title: ShapeBase.WrapType
 second_title: Référence de l'API Aspose.Words pour .NET
 description: ShapeBase propriété. Définit si la forme est en ligne ou flottante. Pour les formes flottantes définit le mode dhabillage du texte autour de la forme.
 type: docs
-weight: 540
+weight: 600
 url: /fr/net/aspose.words.drawing/shapebase/wraptype/
 ---
 ## ShapeBase.WrapType property
@@ -18,17 +18,17 @@ public WrapType WrapType { get; set; }
 
 La valeur par défaut estNone.
 
-N'a d'effet que pour les formes de niveau supérieur.
+N'a d'effet que sur les formes de niveau supérieur.
 
 ### Exemples
 
-Montre comment insérer une image flottante au centre d'une page.
+Montre comment insérer une image flottante au centre d’une page.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Insère une image flottante qui apparaîtra derrière le texte superposé et l'aligne au centre de la page.
+// Insère une image flottante qui apparaîtra derrière le texte superposé et alignez-la au centre de la page.
 Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
 shape.WrapType = WrapType.None;
 shape.BehindText = true;
@@ -40,7 +40,7 @@ shape.VerticalAlignment = VerticalAlignment.Center;
 doc.Save(ArtifactsDir + "Image.CreateFloatingPageCenter.docx");
 ```
 
-Montre comment créer et mettre en forme une zone de texte.
+Montre comment créer et formater une zone de texte.
 
 ```csharp
 Document doc = new Document();
@@ -55,7 +55,7 @@ textBox.Width = 200;
 textBox.HorizontalAlignment = HorizontalAlignment.Center;
 textBox.VerticalAlignment = VerticalAlignment.Top;
 
-// Ajoute un paragraphe à la zone de texte et ajoute une suite de texte que la zone de texte affichera.
+// Ajoutez un paragraphe à la zone de texte et ajoutez une séquence de texte que la zone de texte affichera.
 textBox.AppendChild(new Paragraph(doc));
 Paragraph para = textBox.FirstParagraph;
 para.ParagraphFormat.Alignment = ParagraphAlignment.Center;

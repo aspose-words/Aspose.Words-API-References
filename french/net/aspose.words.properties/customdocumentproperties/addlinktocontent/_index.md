@@ -1,14 +1,14 @@
 ---
 title: CustomDocumentProperties.AddLinkToContent
 second_title: Référence de l'API Aspose.Words pour .NET
-description: CustomDocumentProperties méthode. Crée une nouvelle propriété de document personnalisée liée au contenu.
+description: CustomDocumentProperties méthode. Crée une nouvelle propriété de document personnalisé liée au contenu.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.properties/customdocumentproperties/addlinktocontent/
 ---
 ## CustomDocumentProperties.AddLinkToContent method
 
-Crée une nouvelle propriété de document personnalisée liée au contenu.
+Crée une nouvelle propriété de document personnalisé liée au contenu.
 
 ```csharp
 public DocumentProperty AddLinkToContent(string name, string linkSource)
@@ -21,7 +21,7 @@ public DocumentProperty AddLinkToContent(string name, string linkSource)
 
 ### Return_Value
 
-L'objet de propriété nouvellement créé ou null lorsque le linkSource n'est pas valide.
+L'objet de propriété nouvellement créé ou`nul` quand le*linkSource* est invalide.
 
 ### Exemples
 
@@ -35,7 +35,7 @@ builder.StartBookmark("MyBookmark");
 builder.Write("Hello world!");
 builder.EndBookmark("MyBookmark");
 
-// Lie une nouvelle propriété personnalisée à un signet. La valeur de ce bien
+// Lier une nouvelle propriété personnalisée à un signet. La valeur de cette propriété
 // sera le contenu du signet auquel il fait référence dans le membre "LinkSource".
 CustomDocumentProperties customProperties = doc.CustomDocumentProperties;
 DocumentProperty customProperty = customProperties.AddLinkToContent("Bookmark", "MyBookmark");

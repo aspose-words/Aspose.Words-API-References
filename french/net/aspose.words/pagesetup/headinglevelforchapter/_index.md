@@ -16,9 +16,23 @@ public int HeadingLevelForChapter { get; set; }
 
 ### Remarques
 
-Peut être un nombre compris entre 0 et 9. 0 signifie qu'il n'y a pas de numéro de chapitre s'il est appliqué au numéro de page.
+Peut être un nombre compris entre 0 et 9. 0 signifie aucun numéro de chapitre s’il est appliqué au numéro de page.
 
-Avant de pouvoir créer des numéros de page qui incluent des numéros de chapitre, les en-têtes de document doivent avoir un format de plan numéroté appliqué.
+Avant de pouvoir créer des numéros de page incluant des numéros de chapitre, les titres du document doivent avoir un format de plan numéroté appliqué.
+
+### Exemples
+
+Montre comment travailler avec les chapitres de page.
+
+```csharp
+Document doc = new Document(MyDir + "Big document.docx");
+
+PageSetup pageSetup = doc.FirstSection.PageSetup;
+
+pageSetup.PageNumberStyle = NumberStyle.UppercaseRoman;
+pageSetup.ChapterPageSeparator = Aspose.Words.ChapterPageSeparator.Colon;
+pageSetup.HeadingLevelForChapter = 1;
+```
 
 ### Voir également
 

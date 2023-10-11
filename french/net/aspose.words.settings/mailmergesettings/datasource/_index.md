@@ -16,10 +16,10 @@ public string DataSource { get; set; }
 
 ### Exemples
 
-Montre comment construire une source de données pour un publipostage à partir d'une source d'en-tête et d'une source de données.
+Montre comment créer une source de données pour un publipostage à partir d’une source d’en-tête et d’une source de données.
 
 ```csharp
-// Crée un fichier d'en-tête de fusion d'étiquette de publipostage, qui consistera en un tableau avec une ligne.
+// Crée un fichier d'en-tête de fusion d'étiquettes de publipostage, qui sera constitué d'un tableau avec une seule ligne.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
@@ -32,8 +32,8 @@ builder.EndTable();
 
 doc.Save(ArtifactsDir + "MailMerge.MailingLabelMerge.Header.docx");
 
-// Crée un fichier de données de fusion d'étiquettes postales composé d'un tableau à une ligne
-// et le même nombre de colonnes que le tableau du document d'en-tête. 
+// Crée un fichier de données de fusion d'étiquettes de publipostage composé d'un tableau avec une seule ligne
+ // et le même nombre de colonnes que le tableau du document d'en-tête.
 doc = new Document();
 builder = new DocumentBuilder(doc);
 
@@ -47,7 +47,7 @@ builder.EndTable();
 doc.Save(ArtifactsDir + "MailMerge.MailingLabelMerge.Data.docx");
 
 // Crée un document de destination de fusion avec MERGEFIELDS avec des noms qui
-// correspond aux noms de colonne dans la table du fichier d'en-tête de fusion.
+// fait correspondre les noms de colonnes dans la table du fichier d'en-tête de fusion.
 doc = new Document();
 builder = new DocumentBuilder(doc);
 
@@ -58,14 +58,14 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 
 MailMergeSettings settings = doc.MailMergeSettings;
 
-// Construire une source de données pour notre publipostage en spécifiant deux noms de fichier de document.
-// La source d'en-tête nommera les colonnes de la table de la source de données.
+// Construisez une source de données pour notre publipostage en spécifiant deux noms de fichiers de documents.
+// La source d'en-tête nommera les colonnes de la table source de données.
 settings.HeaderSource = ArtifactsDir + "MailMerge.MailingLabelMerge.Header.docx";
 
-// La source de données fournira des lignes de données pour toutes les colonnes de la table de document d'en-tête.
+// La source de données fournira des lignes de données pour toutes les colonnes de la table du document d'en-tête.
 settings.DataSource = ArtifactsDir + "MailMerge.MailingLabelMerge.Data.docx";
 
-// Configurez un publipostage de type étiquette de publipostage, que Microsoft Word exécutera
+// Configure un publipostage de type étiquette de publipostage, que Microsoft Word exécutera
 // dès que nous l'utilisons pour charger le document de sortie.
 settings.Query = "SELECT * FROM " + settings.DataSource;
 settings.MainDocumentType = MailMergeMainDocumentType.MailingLabels;

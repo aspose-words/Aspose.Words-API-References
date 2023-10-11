@@ -3,12 +3,14 @@ title: Class FieldCollection
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Aspose.Words.Fields.FieldCollection classe. Une collection deField objets qui représentent les champs dans la plage spécifiée.
 type: docs
-weight: 1540
+weight: 1690
 url: /fr/net/aspose.words.fields/fieldcollection/
 ---
 ## FieldCollection class
 
 Une collection de[`Field`](../field/) objets qui représentent les champs dans la plage spécifiée.
+
+Pour en savoir plus, visitez le[Travailler avec des champs](https://docs.aspose.com/words/net/working-with-fields/) article documentaire.
 
 ```csharp
 public class FieldCollection : IEnumerable<Field>
@@ -32,15 +34,15 @@ public class FieldCollection : IEnumerable<Field>
 
 ### Remarques
 
-Une instance de cette collection itère les champs qui commencent à se situer dans la plage spécifiée.
+Une instance de cette collection itère les champs qui commencent par se situer dans la plage spécifiée.
 
-La`FieldCollection` collection ne possède pas les champs qu'elle contient, mais n'est qu'une sélection de champs.
+Le`FieldCollection` La collection ne possède pas les champs qu'elle contient, mais n'est qu'une sélection de champs.
 
-La`FieldCollection` collection est "en direct", c'est-à-dire que les modifications apportées aux enfants du nœud object à partir duquel elle a été créée sont immédiatement reflétées dans les champs renvoyés par le`FieldCollection` propriétés et méthodes.
+Le`FieldCollection` la collection est "live", c'est-à-dire que les modifications apportées aux enfants du nœud object à partir duquel elle a été créée sont immédiatement reflétées dans les champs renvoyés par le`FieldCollection` Propriétés et méthodes .
 
 ### Exemples
 
-Montre comment supprimer des champs d'une collection de champs.
+Montre comment supprimer des champs d’une collection de champs.
 
 ```csharp
 Document doc = new Document();
@@ -59,16 +61,16 @@ FieldCollection fields = doc.Range.Fields;
 Assert.AreEqual(6, fields.Count);
 
 // Vous trouverez ci-dessous quatre façons de supprimer des champs d'une collection de champs.
-// 1 - Récupère un champ pour se supprimer :
+// 1 - Récupère un champ à supprimer :
 fields[0].Remove();
 Assert.AreEqual(5, fields.Count);
 
-// 2 - Récupérer la collection pour supprimer un champ que nous passons à sa méthode de suppression :
+// 2 - Récupère la collection pour supprimer un champ que l'on passe à sa méthode de suppression :
 Field lastField = fields[3];
 fields.Remove(lastField);
 Assert.AreEqual(4, fields.Count);
 
-// 3 - Supprimer un champ d'une collection à un index :
+// 3 - Supprime un champ d'une collection à un index :
 fields.RemoveAt(2);
 Assert.AreEqual(3, fields.Count);
 
@@ -80,6 +82,7 @@ Assert.AreEqual(0, fields.Count);
 Montre comment travailler avec une collection de champs.
 
 ```csharp
+public void FieldCollection()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -96,8 +99,8 @@ Montre comment travailler avec une collection de champs.
 
     Assert.AreEqual(6, fields.Count);
 
-    // Itérer sur la collection de champs et imprimer le contenu et le type
-    // de chaque champ à l'aide d'une implémentation de visiteur personnalisée.
+    // Parcourir la collection de champs, imprimer le contenu et le type
+    // de chaque champ en utilisant une implémentation de visiteur personnalisée.
     FieldVisitor fieldVisitor = new FieldVisitor();
 
     using (IEnumerator<Field> fieldEnumerator = fields.GetEnumerator())
@@ -118,9 +121,10 @@ Montre comment travailler avec une collection de champs.
     }
 
     Console.WriteLine(fieldVisitor.GetText());
+}
 
 /// <summary>
-/// Documenter l'implémentation du visiteur qui imprime les informations de champ.
+/// Implémentation du visiteur du document qui imprime les informations sur le champ.
 /// </summary>
 public class FieldVisitor : DocumentVisitor
 {
@@ -130,7 +134,7 @@ public class FieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Obtient le texte brut du document qui a été accumulé par le visiteur.
+    /// Obtient le texte brut du document accumulé par le visiteur.
     /// </summary>
     public string GetText()
     {

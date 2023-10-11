@@ -3,7 +3,7 @@ title: ChartAxis.TickMarkSpacing
 second_title: Référence de l'API Aspose.Words pour .NET
 description: ChartAxis propriété. Obtient ou définit lintervalle auquel les graduations sont dessinées.
 type: docs
-weight: 250
+weight: 270
 url: /fr/net/aspose.words.drawing.charts/chartaxis/tickmarkspacing/
 ---
 ## ChartAxis.TickMarkSpacing property
@@ -16,13 +16,13 @@ public int TickMarkSpacing { get; set; }
 
 ### Remarques
 
-La propriété s'applique aux catégories de texte et aux axes de série. Il n'est pas pris en charge par les nouveaux graphiques MS Office 2016 .
+La propriété a un effet sur les axes de catégorie de texte et de série. Il n'est pas pris en charge par les nouveaux graphiques MS Office 2016 .
 
-La plage valide d'une valeur est supérieure ou égale à 1.
+La plage valide d’une valeur est supérieure ou égale à 1.
 
 ### Exemples
 
-Montre comment insérer un graphique et modifier l'apparence de ses axes.
+Montre comment insérer un graphique et modifier l’apparence de ses axes.
 
 ```csharp
 Document doc = new Document();
@@ -31,7 +31,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertChart(ChartType.Column, 500, 300);
 Chart chart = shape.Chart;
 
-// Effacez la série de données de démonstration du graphique pour commencer avec un graphique propre.
+// Efface la série de données de démonstration du graphique pour commencer avec un graphique propre.
 chart.Series.Clear();
 
 // Insère une série de graphiques avec des catégories pour l'axe X et des valeurs numériques respectives pour l'axe Y.
@@ -39,7 +39,7 @@ chart.Series.Add("Aspose Test Series",
     new[] { "Word", "PDF", "Excel", "GoogleDocs", "Note" },
     new double[] { 640, 320, 280, 120, 150 });
 
-// Les axes du graphique ont diverses options qui peuvent changer leur apparence,
+// Les axes du graphique ont diverses options permettant de modifier leur apparence,
 // tels que leur direction, les graduations des unités majeures/mineures et les graduations.
 ChartAxis xAxis = chart.AxisX;
 xAxis.CategoryType = AxisCategoryType.Category;
@@ -64,7 +64,7 @@ yAxis.MajorUnit = 100.0d;
 yAxis.MinorUnit = 20.0d;
 yAxis.TickLabelPosition = AxisTickLabelPosition.NextToAxis;
 
-// Les histogrammes n'ont pas d'axe Z.
+// Les graphiques à colonnes n'ont pas d'axe Z.
 Assert.Null(chart.AxisZ);
 
 doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");

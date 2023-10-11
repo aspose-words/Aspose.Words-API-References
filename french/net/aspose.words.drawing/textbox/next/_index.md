@@ -1,14 +1,14 @@
 ---
 title: TextBox.Next
 second_title: Référence de l'API Aspose.Words pour .NET
-description: TextBox propriété. Renvoie ou définit un TextBox qui représente le TextBox suivant dans une séquence de formes.
+description: TextBox propriété. Renvoie ou définit unTextBox cela représente le prochainTextBox dans une séquence de formes.
 type: docs
 weight: 70
 url: /fr/net/aspose.words.drawing/textbox/next/
 ---
 ## TextBox.Next property
 
-Renvoie ou définit un TextBox qui représente le TextBox suivant dans une séquence de formes.
+Renvoie ou définit un[`TextBox`](../) cela représente le prochain[`TextBox`](../) dans une séquence de formes.
 
 ```csharp
 public TextBox Next { get; set; }
@@ -37,14 +37,14 @@ builder.Writeln();
 Shape textBoxShape4 = builder.InsertShape(ShapeType.TextBox, 100, 100);
 TextBox textBox4 = textBoxShape4.TextBox;
 
-// Crée des liens entre certaines des zones de texte.
+// Crée des liens entre certaines zones de texte.
 if (textBox1.IsValidLinkTarget(textBox2))
     textBox1.Next = textBox2;
 
 if (textBox2.IsValidLinkTarget(textBox3))
     textBox2.Next = textBox3;
 
-// Seule une zone de texte vide peut avoir un lien.
+// Seule une zone de texte vide peut contenir un lien.
 Assert.True(textBox3.IsValidLinkTarget(textBox4));
 
 builder.MoveTo(textBoxShape4.LastParagraph);

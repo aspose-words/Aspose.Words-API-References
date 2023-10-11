@@ -22,7 +22,7 @@ Montre comment combiner les lignes de deux tables en une seule.
 Document doc = new Document(MyDir + "Tables.docx");
 
 // Vous trouverez ci-dessous deux manières d'obtenir un tableau à partir d'un document.
-// 1 - Depuis la collection "Tables" d'un noeud Body :
+// 1 - Depuis la collection "Tables" d'un nœud Body :
 Table firstTable = doc.FirstSection.Body.Tables[0];
 
 // 2 - Utilisation de la méthode "GetChild" :
@@ -52,7 +52,7 @@ for (int i = 0; i < tables.Count; i++)
 
     RowCollection rows = tables[i].Rows;
 
-    // Nous pouvons utiliser la méthode "ToArray" sur une collection de lignes pour la cloner dans un tableau.
+    // On peut utiliser la méthode "ToArray" sur une collection de lignes pour la cloner dans un tableau.
     Assert.AreEqual(rows, rows.ToArray());
     Assert.AreNotSame(rows, rows.ToArray());
 
@@ -62,7 +62,7 @@ for (int i = 0; i < tables.Count; i++)
 
         CellCollection cells = rows[j].Cells;
 
-        // Nous pouvons utiliser la méthode "ToArray" sur une collection de cellules pour la cloner dans un tableau.
+        // On peut utiliser la méthode "ToArray" sur une collection de cellules pour la cloner dans un tableau.
         Assert.AreEqual(cells, cells.ToArray());
         Assert.AreNotSame(cells, cells.ToArray());
 

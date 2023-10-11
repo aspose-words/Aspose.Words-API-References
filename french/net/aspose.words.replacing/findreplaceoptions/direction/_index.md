@@ -16,7 +16,7 @@ public FindReplaceDirection Direction { get; set; }
 
 ### Exemples
 
-Montre comment déterminer la direction dans laquelle une opération de recherche et remplacement parcourt le document.
+Montre comment déterminer dans quelle direction une opération de recherche et de remplacement parcourt le document.
 
 ```csharp
 public void Direction(FindReplaceDirection findReplaceDirection)
@@ -24,7 +24,7 @@ public void Direction(FindReplaceDirection findReplaceDirection)
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Insérez trois exécutions que nous pouvons rechercher à l'aide d'un modèle regex.
+    // Insère trois exécutions que nous pouvons rechercher à l'aide d'un modèle regex.
     // Placez l'une de ces exécutions dans une zone de texte.
     builder.Writeln("Match 1.");
     builder.Writeln("Match 2.");
@@ -34,14 +34,14 @@ public void Direction(FindReplaceDirection findReplaceDirection)
     // Nous pouvons utiliser un objet "FindReplaceOptions" pour modifier le processus de recherche et de remplacement.
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // Attribuez un rappel personnalisé à la propriété "ReplacingCallback".
+    // Attribue un rappel personnalisé à la propriété "ReplacingCallback".
     TextReplacementRecorder callback = new TextReplacementRecorder();
     options.ReplacingCallback = callback;
 
     // Définissez la propriété "Direction" sur "FindReplaceDirection.Backward" pour obtenir la recherche et le remplacement
-    // opération pour commencer à partir de la fin de la plage et revenir au début.
+    // opération pour commencer à la fin de la plage et revenir au début.
     // Définissez la propriété "Direction" sur "FindReplaceDirection.Backward" pour obtenir la recherche et le remplacement
-    // opération pour commencer depuis le début de la plage et parcourir jusqu'à la fin.
+    // opération pour commencer au début de la plage et parcourir jusqu'à la fin.
     options.Direction = findReplaceDirection;
 
     doc.Range.Replace(new Regex(@"Match \d*"), "Replacement", options);

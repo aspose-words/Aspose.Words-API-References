@@ -1,14 +1,14 @@
 ---
 title: FieldDisplayBarcode.CaseCodeStyle
 second_title: Référence de l'API Aspose.Words pour .NET
-description: FieldDisplayBarcode propriété. Obtient ou définit le style dun code de cas pour le type de code à barres ITF14. Les valeurs valides sont STDEXTADD
+description: FieldDisplayBarcode propriété. Obtient ou définit le style dun code de cas pour le type de codebarres ITF14. Les valeurs valides sont STDEXTADD
 type: docs
 weight: 60
 url: /fr/net/aspose.words.fields/fielddisplaybarcode/casecodestyle/
 ---
 ## FieldDisplayBarcode.CaseCodeStyle property
 
-Obtient ou définit le style d'un code de cas pour le type de code à barres ITF14. Les valeurs valides sont [STD&#x7C;EXT&#x7C;ADD]
+Obtient ou définit le style d'un code de cas pour le type de code-barres ITF14. Les valeurs valides sont [STD&#x7C;EXT&#x7C;ADD]
 
 ```csharp
 public string CaseCodeStyle { get; set; }
@@ -25,7 +25,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 FieldDisplayBarcode field = (FieldDisplayBarcode)builder.InsertField(FieldType.FieldDisplayBarcode, true);
 
 // Vous trouverez ci-dessous quatre types de codes-barres, décorés de différentes manières, que le champ DISPLAYBARCODE peut afficher.
-// 1 - QR code avec des couleurs personnalisées :
+// 1 - QR code avec couleurs personnalisées :
 field.BarcodeType = "QR";
 field.BarcodeValue = "ABC123";
 field.BackgroundColor = "0xF8BD69";
@@ -58,7 +58,7 @@ field.AddStartStopChar = true;
 Assert.AreEqual(" DISPLAYBARCODE  12345ABCDE CODE39 \\d", field.GetFieldCode());
 builder.Writeln();
 
-// 4 - Code-barres ITF4, avec un code de cas spécifié :
+// 4 - Code-barres ITF4, avec un code cas spécifié :
 field = (FieldDisplayBarcode)builder.InsertField(FieldType.FieldDisplayBarcode, true);
 field.BarcodeType = "ITF14";
 field.BarcodeValue = "09312345678907";

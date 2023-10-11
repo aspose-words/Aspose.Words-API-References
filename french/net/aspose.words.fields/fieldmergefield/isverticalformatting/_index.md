@@ -42,7 +42,7 @@ fieldMergeField.TextAfter = " ";
 
 Assert.AreEqual(" MERGEFIELD  \"Courtesy Title\" \\m \\b \"Dear \" \\f \" \"", fieldMergeField.GetFieldCode());
 
-// Insérer un autre MERGEFIELD pour une colonne différente dans la source de données.
+// Insère un autre MERGEFIELD pour une colonne différente dans la source de données.
 fieldMergeField = (FieldMergeField)builder.InsertField(FieldType.FieldMergeField, true);
 fieldMergeField.FieldName = "Last Name";
 fieldMergeField.TextAfter = ":";

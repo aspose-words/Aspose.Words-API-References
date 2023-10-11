@@ -3,7 +3,7 @@ title: Enum StyleType
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Aspose.Words.StyleType énumération. Représente le type du style.
 type: docs
-weight: 5860
+weight: 6160
 url: /fr/net/aspose.words/styletype/
 ---
 ## StyleType enumeration
@@ -25,14 +25,14 @@ public enum StyleType
 
 ### Exemples
 
-Montre comment créer un style de liste et l'utiliser dans un document.
+Montre comment créer un style de liste et l’utiliser dans un document.
 
 ```csharp
 Document doc = new Document();
 
 // Une liste nous permet d'organiser et de décorer des ensembles de paragraphes avec des symboles de préfixe et des retraits.
-// Nous pouvons créer des listes imbriquées en augmentant le niveau d'indentation. 
-// Nous pouvons commencer et terminer une liste en utilisant la propriété "ListFormat" d'un générateur de document. 
+ // Nous pouvons créer des listes imbriquées en augmentant le niveau d'indentation.
+ // Nous pouvons commencer et terminer une liste en utilisant la propriété "ListFormat" d'un générateur de documents.
 // Chaque paragraphe que nous ajoutons entre le début et la fin d'une liste deviendra un élément de la liste.
 // Nous pouvons contenir un objet List entier dans un style.
 Style listStyle = doc.Styles.Add(StyleType.List, "MyListStyle");
@@ -44,7 +44,7 @@ Assert.False(list1.IsListStyleReference);
 Assert.True(list1.IsMultiLevel);
 Assert.AreEqual(listStyle, list1.Style);
 
-// Modifie l'apparence de tous les niveaux de liste dans notre liste.
+// Change l'apparence de tous les niveaux de liste dans notre liste.
 foreach (ListLevel level in list1.ListLevels)
 {
     level.Font.Name = "Verdana";
@@ -63,7 +63,7 @@ Assert.False(list2.IsListStyleDefinition);
 Assert.True(list2.IsListStyleReference);
 Assert.AreEqual(listStyle, list2.Style);
 
-// Ajoutez des éléments de liste que notre liste formatera.
+// Ajoutez quelques éléments de liste que notre liste formatera.
 builder.ListFormat.List = list2;
 builder.Writeln("Item 1");
 builder.Writeln("Item 2");

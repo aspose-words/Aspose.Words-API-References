@@ -1,16 +1,16 @@
 ---
 title: IStructuredDocumentTag.IsShowingPlaceholderText
 second_title: Référence de l'API Aspose.Words pour .NET
-description: IStructuredDocumentTag propriété. Spécifie si le contenu de ce TDS doit être interprété comme contenant un espace réservé text par opposition au contenu textuel normal dans le SDT.
+description: IStructuredDocumentTag propriété. Spécifie si le contenu de ce TSD doit être interprété comme contenant un espace réservé text par opposition au contenu textuel normal du SDT.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.markup/istructureddocumenttag/isshowingplaceholdertext/
 ---
 ## IStructuredDocumentTag.IsShowingPlaceholderText property
 
-Spécifie si le contenu de ce **TDS** doit être interprété comme contenant un espace réservé text (par opposition au contenu textuel normal dans le SDT).
+Spécifie si le contenu de ce **TSD** doit être interprété comme contenant un espace réservé text (par opposition au contenu textuel normal du SDT).
 
-si défini sur true, cet état doit être repris (affichant le texte de l'espace réservé) à l'ouverture de ce document.
+s'il est défini sur true, cet état doit être repris (affichant le texte d'espace réservé) lors de l'ouverture de ce document.
 
 ```csharp
 public bool IsShowingPlaceholderText { get; set; }

@@ -16,7 +16,7 @@ public VbaProject Clone()
 
 ### Return_Value
 
-Le VbaProject cloné.
+Le cloné[`VbaProject`](../).
 
 ### Exemples
 

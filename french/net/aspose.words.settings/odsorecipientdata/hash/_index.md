@@ -1,14 +1,14 @@
 ---
 title: OdsoRecipientData.Hash
 second_title: Référence de l'API Aspose.Words pour .NET
-description: OdsoRecipientData propriété. Représente le code de hachage de cet enregistrement. Microsoft Word utilise parfoisHash dun enregistrement entier au lieu dunUniqueTag valeur. La valeur par défaut est 0.
+description: OdsoRecipientData propriété. Représente le code de hachage de cet enregistrement. Parfois Microsoft Word utiliseHash dun enregistrement entier au lieu dunUniqueTag value. La valeur par défaut est 0.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.settings/odsorecipientdata/hash/
 ---
 ## OdsoRecipientData.Hash property
 
-Représente le code de hachage de cet enregistrement. Microsoft Word utilise parfois`Hash` d'un enregistrement entier au lieu d'un[`UniqueTag`](../uniquetag/) valeur. La valeur par défaut est 0.
+Représente le code de hachage de cet enregistrement. Parfois, Microsoft Word utilise`Hash` d'un enregistrement entier au lieu d'un[`UniqueTag`](../uniquetag/) value. La valeur par défaut est 0.
 
 ```csharp
 public int Hash { get; set; }
@@ -41,7 +41,7 @@ using (IEnumerator<OdsoRecipientData> enumerator = dataCollection.GetEnumerator(
 // Nous pouvons cloner les éléments de cette collection.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// Nous pouvons également supprimer des éléments individuellement ou effacer toute la collection en une seule fois.
+// Nous pouvons également supprimer des éléments individuellement ou effacer toute la collection en même temps.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(69, dataCollection.Count);

@@ -1,14 +1,14 @@
 ---
 title: HtmlSaveOptions.CssStyleSheetFileName
 second_title: Référence de l'API Aspose.Words pour .NET
-description: HtmlSaveOptions propriété. Spécifie le chemin et le nom du fichier de feuille de style en cascade CSS écrit lorsquun document est exporté au format HTML. La valeur par défaut est une chaîne vide.
+description: HtmlSaveOptions propriété. Spécifie le chemin et le nom du fichier CSS Cascading Style Sheet écrit lorsquun document est exporté au format HTML. La valeur par défaut est une chaîne vide.
 type: docs
 weight: 50
 url: /fr/net/aspose.words.saving/htmlsaveoptions/cssstylesheetfilename/
 ---
 ## HtmlSaveOptions.CssStyleSheetFileName property
 
-Spécifie le chemin et le nom du fichier de feuille de style en cascade (CSS) écrit lorsqu'un document est exporté au format HTML. La valeur par défaut est une chaîne vide.
+Spécifie le chemin et le nom du fichier CSS (Cascading Style Sheet) écrit lorsqu'un document est exporté au format HTML. La valeur par défaut est une chaîne vide.
 
 ```csharp
 public string CssStyleSheetFileName { get; set; }
@@ -20,9 +20,9 @@ Cette propriété n'a d'effet que lors de l'enregistrement d'un document au form
 
 Si cette propriété est vide, le fichier CSS sera enregistré dans le même dossier et avec le même nom que le document HTML mais avec l'extension ".css".
 
-Si seul le chemin mais aucun nom de fichier n'est spécifié dans cette propriété, le fichier CSS sera enregistré dans le dossier spécifié et aura le même nom que le document HTML mais avec l'extension ".css".
+Si seul le chemin mais aucun nom de fichier est spécifié dans cette propriété, le fichier CSS sera enregistré dans le dossier spécifié et aura le même nom que le document HTML mais avec l'extension ".css".
 
-Si le dossier spécifié par cette propriété n'existe pas, il sera créé automatiquement avant l'enregistrement du fichier CSS .
+Si le dossier spécifié par cette propriété n'existe pas, il sera créé automatiquement avant l'enregistrement du CSS file .
 
 Une autre façon de spécifier un dossier dans lequel le fichier CSS externe est enregistré consiste à utiliser[`ResourceFolder`](../resourcefolder/) .
 
@@ -35,16 +35,16 @@ public void ExternalCssFilenames()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
-    // Crée un objet "HtmlFixedSaveOptions", que nous pouvons passer à la méthode "Save" du document
+    // Crée un objet "HtmlFixedSaveOptions", que l'on peut passer à la méthode "Save" du document
     // pour modifier la façon dont nous convertissons le document en HTML.
     HtmlSaveOptions options = new HtmlSaveOptions();
 
     // Définissez la propriété "CssStylesheetType" sur "CssStyleSheetType.External" pour
-    // accompagne un document HTML enregistré d'un fichier de feuille de style CSS externe.
+    // accompagne un document HTML enregistré avec un fichier de feuille de style CSS externe.
     options.CssStyleSheetType = CssStyleSheetType.External;
 
     // Vous trouverez ci-dessous deux manières de spécifier des répertoires et des noms de fichiers pour les feuilles de style CSS de sortie.
-    // 1 - Utilisez la propriété "CssStyleSheetFileName" pour attribuer un nom de fichier à notre feuille de style :
+    // 1 - Utilisez la propriété "CssStyleSheetFileName" pour attribuer un nom de fichier à notre feuille de style :
     options.CssStyleSheetFileName = ArtifactsDir + "SavingCallback.ExternalCssFilenames.css";
 
     // 2 - Utilisez un rappel personnalisé pour nommer notre feuille de style :
@@ -68,7 +68,7 @@ private class CustomCssSavingCallback : ICssSavingCallback
 
     public void CssSaving(CssSavingArgs args)
     {
-        // Nous pouvons accéder à l'intégralité du document source via la propriété "Document".
+        // On peut accéder à l'intégralité du document source via la propriété "Document".
         Assert.True(args.Document.OriginalFileName.EndsWith("Rendering.docx"));
 
         args.CssStream = new FileStream(mCssTextFileName, FileMode.Create);

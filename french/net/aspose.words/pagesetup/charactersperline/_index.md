@@ -16,19 +16,19 @@ public int CharactersPerLine { get; set; }
 
 ### Remarques
 
-La valeur minimale de la propriété est 1. La valeur maximale dépend de la largeur de la page et de la taille de la police du style Normal . L'espacement minimal des caractères correspond à 90 % de la taille de la police. Par exemple, le nombre maximum de caractères par ligne d'une page Lettre avec des marges d'un pouce est de 43.
+La valeur minimale de la propriété est 1. La valeur maximale dépend de la largeur de la page et de la taille de la police du style Normal . L'espacement minimum des caractères est de 90 pour cent de la taille de la police. Par exemple, le nombre maximum de caractères par ligne d'une page Lettre avec des marges d'un pouce est de 43.
 
-Par défaut, la propriété a une valeur, sur laquelle l'espacement des caractères est égal à la taille de police du style Normal .
+Par défaut, la propriété a une valeur sur laquelle le pas des caractères est égal à la taille de la police du style Normal .
 
 ### Exemples
 
-Montre comment spécifier a pour le nombre de caractères que chaque ligne peut avoir.
+Montre comment spécifier a pour le nombre de caractères que chaque ligne peut contenir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Activez le pas, puis utilisez-le pour définir le nombre de caractères par ligne dans cette section.
+// Activez le pitch, puis utilisez-le pour définir le nombre de caractères par ligne dans cette section.
 builder.PageSetup.LayoutMode = SectionLayoutMode.Grid;
 builder.PageSetup.CharactersPerLine = 10;
 

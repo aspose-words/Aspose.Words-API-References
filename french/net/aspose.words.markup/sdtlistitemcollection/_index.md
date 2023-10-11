@@ -1,14 +1,16 @@
 ---
 title: Class SdtListItemCollection
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Aspose.Words.Markup.SdtListItemCollection classe. Fournit laccès àSdtListIteméléments dune balise de document structuré.
+description: Aspose.Words.Markup.SdtListItemCollection classe. Donne accès àSdtListItem éléments dune balise de document structuré.
 type: docs
-weight: 3790
+weight: 4030
 url: /fr/net/aspose.words.markup/sdtlistitemcollection/
 ---
 ## SdtListItemCollection class
 
-Fournit l'accès à[`SdtListItem`](../sdtlistitem/)éléments d'une balise de document structuré.
+Donne accès à[`SdtListItem`](../sdtlistitem/) éléments d'une balise de document structuré.
+
+Pour en savoir plus, visitez le[Balises de documents structurés ou contrôle de contenu](https://docs.aspose.com/words/net/working-with-content-control-sdt/) article documentaire.
 
 ```csharp
 public class SdtListItemCollection : IEnumerable<SdtListItem>
@@ -28,19 +30,19 @@ public class SdtListItemCollection : IEnumerable<SdtListItem>
 | --- | --- |
 | [Add](../../aspose.words.markup/sdtlistitemcollection/add/)(SdtListItem) | Ajoute un élément à cette collection. |
 | [Clear](../../aspose.words.markup/sdtlistitemcollection/clear/)() | Efface tous les éléments de cette collection. |
-| [GetEnumerator](../../aspose.words.markup/sdtlistitemcollection/getenumerator/)() | Renvoie un objet énumérateur qui peut être utilisé pour itérer sur tous les éléments de la collection. |
+| [GetEnumerator](../../aspose.words.markup/sdtlistitemcollection/getenumerator/)() | Renvoie un objet énumérateur qui peut être utilisé pour parcourir tous les éléments de la collection. |
 | [RemoveAt](../../aspose.words.markup/sdtlistitemcollection/removeat/)(int) | Supprime un élément de liste à l'index spécifié. |
 
 ### Exemples
 
-Montre comment travailler avec des balises de document structurées en liste déroulante.
+Montre comment utiliser les balises de documents structurés à liste déroulante.
 
 ```csharp
 Document doc = new Document();
 StructuredDocumentTag tag = new StructuredDocumentTag(doc, SdtType.DropDownList, MarkupLevel.Block);
 doc.FirstSection.Body.AppendChild(tag);
 
-// Une balise de document structurée par liste déroulante est un formulaire qui permet à l'utilisateur de
+// Une balise de document structuré par liste déroulante est un formulaire qui permet à l'utilisateur de
 // sélectionnez une option dans une liste en cliquant avec le bouton gauche et en ouvrant le formulaire dans Microsoft Word.
 // La propriété "ListItems" contient tous les éléments de la liste, et chaque élément de la liste est un "SdtListItem".
 SdtListItemCollection listItems = tag.ListItems;
@@ -48,8 +50,8 @@ listItems.Add(new SdtListItem("Value 1"));
 
 Assert.AreEqual(listItems[0].DisplayText, listItems[0].Value);
 
-// Ajouter 3 autres éléments de liste. Initialisez ces éléments en utilisant un constructeur différent du premier élément
-// pour afficher les chaînes qui sont différentes de leurs valeurs.
+// Ajoute 3 éléments de liste supplémentaires. Initialisez ces éléments en utilisant un constructeur différent du premier élément
+// pour afficher les chaînes différentes de leurs valeurs.
 listItems.Add(new SdtListItem("Item 2", "Value 2"));
 listItems.Add(new SdtListItem("Item 3", "Value 3"));
 listItems.Add(new SdtListItem("Item 4", "Value 4"));
@@ -74,12 +76,12 @@ listItems.RemoveAt(3);
 
 Assert.AreEqual(3, listItems.Count);
 
-// Étant donné que notre contrôle déroulant est configuré pour afficher l'élément supprimé par défaut, donnez-lui un élément à afficher qui existe.
+// Puisque notre contrôle déroulant est configuré pour afficher l'élément supprimé par défaut, donnez-lui un élément à afficher qui existe.
 listItems.SelectedValue = listItems[1];
 
 doc.Save(ArtifactsDir + "StructuredDocumentTag.ListItemCollection.docx");
 
-// Utilisez la méthode "Clear" pour vider d'un coup toute la collection d'éléments déroulants.
+// Utilisez la méthode "Clear" pour vider toute la collection d'éléments déroulants en une seule fois.
 listItems.Clear();
 
 Assert.AreEqual(0, listItems.Count);

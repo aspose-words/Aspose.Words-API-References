@@ -31,14 +31,14 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.InsertHyperlink("Relative hyperlink", "Document.docx", false);
 
 // Ce lien est relatif. S'il n'y a pas de "Document.docx" dans le même dossier
-// comme le document qui contient ce lien, le lien sera rompu.
+// en tant que document contenant ce lien, le lien sera rompu.
 Assert.False(File.Exists(ArtifactsDir + "Document.docx"));
 doc.Save(ArtifactsDir + "DocumentProperties.HyperlinkBase.BrokenLink.docx");
 
-// Le document auquel nous essayons de créer un lien se trouve dans un répertoire différent de celui dans lequel nous prévoyons d'enregistrer le document.
-// Nous pourrions réparer des liens comme celui-ci en mettant un nom de fichier absolu dans chacun d'eux. 
-// Alternativement, nous pourrions fournir un lien de base que chaque lien hypertexte avec un nom de fichier relatif
-// sera ajouté à son lien lorsque nous cliquons dessus. 
+// Le document vers lequel nous essayons de créer un lien se trouve dans un répertoire différent de celui dans lequel nous prévoyons de sauvegarder le document.
+ // Nous pourrions corriger des liens comme celui-ci en mettant un nom de fichier absolu dans chacun.
+// Alternativement, nous pourrions fournir un lien de base contenant chaque lien hypertexte avec un nom de fichier relatif
+ // sera ajouté à son lien lorsque nous cliquons dessus.
 BuiltInDocumentProperties properties = doc.BuiltInDocumentProperties;
 properties.HyperlinkBase = MyDir;
 

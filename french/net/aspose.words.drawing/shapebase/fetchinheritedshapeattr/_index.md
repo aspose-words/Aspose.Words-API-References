@@ -3,7 +3,7 @@ title: ShapeBase.FetchInheritedShapeAttr
 second_title: Référence de l'API Aspose.Words pour .NET
 description: ShapeBase méthode. Réservé à lutilisation du système. IShapeAttrSource.
 type: docs
-weight: 570
+weight: 630
 url: /fr/net/aspose.words.drawing/shapebase/fetchinheritedshapeattr/
 ---
 ## ShapeBase.FetchInheritedShapeAttr method

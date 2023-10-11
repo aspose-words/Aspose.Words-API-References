@@ -1,14 +1,14 @@
 ---
 title: WordML2003SaveOptions.SaveFormat
 second_title: Référence de l'API Aspose.Words pour .NET
-description: WordML2003SaveOptions propriété. Spécifie le format dans lequel le document sera enregistré si cet objet doptions denregistrement est utilisé. Ne peut êtreWordML .
+description: WordML2003SaveOptions propriété. Spécifie le format dans lequel le document sera enregistré si cet objet doptions de sauvegarde est utilisé. Ne peut êtreWordML .
 type: docs
 weight: 20
 url: /fr/net/aspose.words.saving/wordml2003saveoptions/saveformat/
 ---
 ## WordML2003SaveOptions.SaveFormat property
 
-Spécifie le format dans lequel le document sera enregistré si cet objet d'options d'enregistrement est utilisé. Ne peut êtreWordML .
+Spécifie le format dans lequel le document sera enregistré si cet objet d'options de sauvegarde est utilisé. Ne peut êtreWordML .
 
 ```csharp
 public override SaveFormat SaveFormat { get; set; }
@@ -23,15 +23,15 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 
-// Crée un objet "WordML2003SaveOptions" à passer à la méthode "Save" du document
-// pour modifier la façon dont nous enregistrons le document au format d'enregistrement WordML.
+// Créer un objet "WordML2003SaveOptions" à passer à la méthode "Save" du document
+// pour modifier la façon dont nous enregistrons le document au format de sauvegarde WordML.
 WordML2003SaveOptions options = new WordML2003SaveOptions();
 
 Assert.AreEqual(SaveFormat.WordML, options.SaveFormat);
 
 // Définissez la propriété "PrettyFormat" sur "true" pour appliquer l'indentation des caractères de tabulation et
-// nouvelles lignes pour faciliter la lecture du contenu brut du document de sortie.
-// Définissez la propriété "PrettyFormat" sur "false" pour enregistrer le contenu brut du document dans un corps de texte continu.
+// nouvelles lignes pour rendre le contenu brut du document de sortie plus facile à lire.
+// Définissez la propriété "PrettyFormat" sur "false" pour enregistrer le contenu brut du document dans un corps continu du texte.
 options.PrettyFormat = prettyFormat;
 
 doc.Save(ArtifactsDir + "WordML2003SaveOptions.PrettyFormat.xml", options);

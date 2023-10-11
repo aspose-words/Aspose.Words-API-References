@@ -1,14 +1,14 @@
 ---
 title: TableStyle.Shading
 second_title: Référence de l'API Aspose.Words pour .NET
-description: TableStyle propriété. Obtient unShading objet qui fait référence à la mise en forme de lombrage des cellules du tableau.
+description: TableStyle propriété. Obtient unShading objet qui fait référence au formatage dombrage des cellules du tableau.
 type: docs
 weight: 130
 url: /fr/net/aspose.words/tablestyle/shading/
 ---
 ## TableStyle.Shading property
 
-Obtient un[`Shading`](../../shading/) objet qui fait référence à la mise en forme de l'ombrage des cellules du tableau.
+Obtient un[`Shading`](../../shading/) objet qui fait référence au formatage d'ombrage des cellules du tableau.
 
 ```csharp
 public Shading Shading { get; }

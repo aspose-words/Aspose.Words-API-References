@@ -16,7 +16,7 @@ public double Size { get; set; }
 
 ### Exemples
 
-Montre comment formater une suite de texte à l'aide de sa propriété de police.
+Montre comment formater une séquence de texte à l’aide de sa propriété font.
 
 ```csharp
 Document doc = new Document();
@@ -31,13 +31,13 @@ doc.FirstSection.Body.FirstParagraph.AppendChild(run);
 doc.Save(ArtifactsDir + "Font.CreateFormattedRun.docx");
 ```
 
-Montre comment insérer du texte formaté à l'aide de DocumentBuilder.
+Montre comment insérer du texte formaté à l’aide de DocumentBuilder.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Spécifiez la mise en forme de la police, puis ajoutez du texte.
+// Spécifiez le formatage de la police, puis ajoutez du texte.
 Aspose.Words.Font font = builder.Font;
 font.Size = 16;
 font.Bold = true;

@@ -23,9 +23,9 @@ public PlainTextDocument(string fileName)
 | exception | condition |
 | --- | --- |
 | [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | Le format du document n'est pas reconnu ou n'est pas pris en charge. |
-| [FileCorruptedException](../../filecorruptedexception/) | Le document semble être corrompu et ne peut pas être chargé. |
-| Exception | Il y a un problème avec le document et il doit être signalé aux développeurs Aspose.Words. |
-| IOException | Il y a une exception d'entrée/sortie. |
+| [FileCorruptedException](../../filecorruptedexception/) | Le document semble corrompu et ne peut pas être chargé. |
+| Exception | Il y a un problème avec le document et il doit être signalé aux développeurs d'Aspose.Words. |
+| IOException | Il existe une exception d’entrée/sortie. |
 | [IncorrectPasswordException](../../incorrectpasswordexception/) | Le document est crypté et nécessite un mot de passe pour s'ouvrir, mais vous avez fourni un mot de passe incorrect. |
 | ArgumentException | Le nom du fichier ne peut pas être nul ou une chaîne vide. |
 
@@ -55,7 +55,7 @@ Assert.AreEqual("Hello world!", plaintext.Text.Trim());
 
 ## PlainTextDocument(string, LoadOptions) {#constructor_3}
 
-Crée un document en texte brut à partir d'un fichier. Permet de spécifier des options supplémentaires telles qu'un mot de passe de chiffrement.
+Crée un document en texte brut à partir d'un fichier. Permet de spécifier des options supplémentaires telles qu'un mot de passe de cryptage.
 
 ```csharp
 public PlainTextDocument(string fileName, LoadOptions loadOptions)
@@ -64,22 +64,22 @@ public PlainTextDocument(string fileName, LoadOptions loadOptions)
 | Paramètre | Taper | La description |
 | --- | --- | --- |
 | fileName | String | Nom du fichier à partir duquel extraire le texte. |
-| loadOptions | LoadOptions | Options supplémentaires à utiliser lors du chargement d'un document. Peut être nul. |
+| loadOptions | LoadOptions | Options supplémentaires à utiliser lors du chargement d'un document. Peut être`nul`. |
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
 | [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | Le format du document n'est pas reconnu ou n'est pas pris en charge. |
-| [FileCorruptedException](../../filecorruptedexception/) | Le document semble être corrompu et ne peut pas être chargé. |
-| Exception | Il y a un problème avec le document et il doit être signalé aux développeurs Aspose.Words. |
-| IOException | Il y a une exception d'entrée/sortie. |
+| [FileCorruptedException](../../filecorruptedexception/) | Le document semble corrompu et ne peut pas être chargé. |
+| Exception | Il y a un problème avec le document et il doit être signalé aux développeurs d'Aspose.Words. |
+| IOException | Il existe une exception d’entrée/sortie. |
 | [IncorrectPasswordException](../../incorrectpasswordexception/) | Le document est crypté et nécessite un mot de passe pour s'ouvrir, mais vous avez fourni un mot de passe incorrect. |
 | ArgumentException | Le nom du fichier ne peut pas être nul ou une chaîne vide. |
 
 ### Exemples
 
-Montre comment charger le contenu d'un document Microsoft Word chiffré en texte clair.
+Montre comment charger le contenu d’un document Microsoft Word chiffré en texte brut.
 
 ```csharp
 Document doc = new Document();
@@ -118,20 +118,20 @@ public PlainTextDocument(Stream stream)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| stream | Stream | Le flux d'où extraire le texte. |
+| stream | Stream | Le flux à partir duquel extraire le texte. |
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
 | [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | Le format du document n'est pas reconnu ou n'est pas pris en charge. |
-| [FileCorruptedException](../../filecorruptedexception/) | Le document semble être corrompu et ne peut pas être chargé. |
-| Exception | Il y a un problème avec le document et il doit être signalé aux développeurs Aspose.Words. |
-| IOException | Il y a une exception d'entrée/sortie. |
+| [FileCorruptedException](../../filecorruptedexception/) | Le document semble corrompu et ne peut pas être chargé. |
+| Exception | Il y a un problème avec le document et il doit être signalé aux développeurs d'Aspose.Words. |
+| IOException | Il existe une exception d’entrée/sortie. |
 | [IncorrectPasswordException](../../incorrectpasswordexception/) | Le document est crypté et nécessite un mot de passe pour s'ouvrir, mais vous avez fourni un mot de passe incorrect. |
 | ArgumentNullException | Le flux ne peut pas être nul. |
 | NotSupportedException | Le flux ne prend pas en charge la lecture ou la recherche. |
-| ObjectDisposedException | Le flux est un objet disposé. |
+| ObjectDisposedException | Le flux est un objet supprimé. |
 
 ### Remarques
 
@@ -166,7 +166,7 @@ using (FileStream stream = new FileStream(ArtifactsDir + "PlainTextDocument.Load
 
 ## PlainTextDocument(Stream, LoadOptions) {#constructor_1}
 
-Crée un document en texte brut à partir d'un flux. Permet de spécifier des options supplémentaires telles qu'un mot de passe de chiffrement.
+Crée un document en texte brut à partir d'un flux. Permet de spécifier des options supplémentaires telles qu'un mot de passe de cryptage.
 
 ```csharp
 public PlainTextDocument(Stream stream, LoadOptions loadOptions)
@@ -174,21 +174,21 @@ public PlainTextDocument(Stream stream, LoadOptions loadOptions)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| stream | Stream | Le flux d'où extraire le texte. |
-| loadOptions | LoadOptions | Options supplémentaires à utiliser lors du chargement d'un document. Peut être nul. |
+| stream | Stream | Le flux à partir duquel extraire le texte. |
+| loadOptions | LoadOptions | Options supplémentaires à utiliser lors du chargement d'un document. Peut être`nul`. |
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
 | [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | Le format du document n'est pas reconnu ou n'est pas pris en charge. |
-| [FileCorruptedException](../../filecorruptedexception/) | Le document semble être corrompu et ne peut pas être chargé. |
-| Exception | Il y a un problème avec le document et il doit être signalé aux développeurs Aspose.Words. |
-| IOException | Il y a une exception d'entrée/sortie. |
+| [FileCorruptedException](../../filecorruptedexception/) | Le document semble corrompu et ne peut pas être chargé. |
+| Exception | Il y a un problème avec le document et il doit être signalé aux développeurs d'Aspose.Words. |
+| IOException | Il existe une exception d’entrée/sortie. |
 | [IncorrectPasswordException](../../incorrectpasswordexception/) | Le document est crypté et nécessite un mot de passe pour s'ouvrir, mais vous avez fourni un mot de passe incorrect. |
 | ArgumentNullException | Le flux ne peut pas être nul. |
 | NotSupportedException | Le flux ne prend pas en charge la lecture ou la recherche. |
-| ObjectDisposedException | Le flux est un objet disposé. |
+| ObjectDisposedException | Le flux est un objet supprimé. |
 
 ### Remarques
 
@@ -196,7 +196,7 @@ Le document doit être stocké au début du flux. Le flux doit prendre en charge
 
 ### Exemples
 
-Montre comment charger le contenu d'un document Microsoft Word chiffré en texte brut à l'aide de stream.
+Montre comment charger le contenu d'un document Microsoft Word chiffré en texte brut à l'aide de Stream.
 
 ```csharp
 Document doc = new Document();

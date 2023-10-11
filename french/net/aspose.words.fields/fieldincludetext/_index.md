@@ -3,12 +3,14 @@ title: Class FieldIncludeText
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Aspose.Words.Fields.FieldIncludeText classe. Implémente le champ INCLUDETEXT.
 type: docs
-weight: 1900
+weight: 2050
 url: /fr/net/aspose.words.fields/fieldincludetext/
 ---
 ## FieldIncludeText class
 
 Implémente le champ INCLUDETEXT.
+
+Pour en savoir plus, visitez le[Travailler avec des champs](https://docs.aspose.com/words/net/working-with-fields/) article documentaire.
 
 ```csharp
 public class FieldIncludeText : Field
@@ -35,8 +37,8 @@ public class FieldIncludeText : Field
 | [LockFields](../../aspose.words.fields/fieldincludetext/lockfields/) { get; set; } | Obtient ou définit s'il faut empêcher la mise à jour des champs du document inclus. |
 | [MimeType](../../aspose.words.fields/fieldincludetext/mimetype/) { get; set; } | Obtient ou définit le type MIME du fichier référencé. |
 | [NamespaceMappings](../../aspose.words.fields/fieldincludetext/namespacemappings/) { get; set; } | Obtient ou définit les mappages d'espace de noms pour les requêtes XPath. |
-| [Result](../../aspose.words.fields/field/result/) { get; set; } | Obtient ou définit le texte qui se trouve entre le séparateur de champ et la fin du champ. |
-| [Separator](../../aspose.words.fields/field/separator/) { get; } | Obtient le nœud qui représente le séparateur de champs. Peut être null. |
+| [Result](../../aspose.words.fields/field/result/) { get; set; } | Obtient ou définit le texte situé entre le séparateur de champ et la fin du champ. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | Obtient le nœud qui représente le séparateur de champ. Peut être`nul` . |
 | [SourceFullName](../../aspose.words.fields/fieldincludetext/sourcefullname/) { get; set; } | Obtient ou définit l'emplacement du document à l'aide d'un IRI. |
 | [Start](../../aspose.words.fields/field/start/) { get; } | Obtient le nœud qui représente le début du champ. |
 | [TextConverter](../../aspose.words.fields/fieldincludetext/textconverter/) { get; set; } | Obtient ou définit le nom du convertisseur de texte pour le format du fichier inclus. |
@@ -50,7 +52,7 @@ public class FieldIncludeText : Field
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Renvoie le texte entre le début du champ et le séparateur de champ (ou la fin du champ s'il n'y a pas de séparateur). Le code de champ et le résultat du champ des champs enfants sont inclus. |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Renvoie le texte entre le début du champ et le séparateur de champ (ou la fin du champ s'il n'y a pas de séparateur). |
-| [Remove](../../aspose.words.fields/field/remove/)() | Supprime le champ du document. Renvoie un nœud juste après le champ. Si la fin du champ est le dernier enfant de son nœud parent, renvoie son paragraphe parent. Si le champ est déjà supprimé, renvoie **nul** . |
+| [Remove](../../aspose.words.fields/field/remove/)() | Supprime le champ du document. Renvoie un nœud juste après le champ. Si la fin du champ est le dernier child de son nœud parent, renvoie son paragraphe parent. Si le champ est déjà supprimé, renvoie`nul` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Effectue la dissociation du champ. |
 | [Update](../../aspose.words.fields/field/update/)() | Effectue la mise à jour du champ. Lance si le champ est déjà mis à jour. |
 | [Update](../../aspose.words.fields/field/update/)(bool) | Effectue une mise à jour du champ. Lance si le champ est déjà mis à jour. |
@@ -70,21 +72,23 @@ public void FieldIncludeText()
     DocumentBuilder builder = new DocumentBuilder(doc);
 
     // Vous trouverez ci-dessous deux manières d'utiliser les champs INCLUDETEXT pour afficher le contenu d'un fichier XML dans le système de fichiers local.
-    // 1 - Effectuez une transformation XSL sur un document XML :
+    // 1 - Effectuer une transformation XSL sur un document XML :
     FieldIncludeText fieldIncludeText = CreateFieldIncludeText(builder, MyDir + "CD collection data.xml", false, "text/xml", "XML", "ISO-8859-1");
     fieldIncludeText.XslTransformation = MyDir + "CD collection XSL transformation.xsl";
 
     builder.Writeln();
 
-    // 2 - Utilisez un XPath pour prendre des éléments spécifiques d'un document XML :
+    // 2 - Utiliser un XPath pour récupérer des éléments spécifiques d'un document XML :
     fieldIncludeText = CreateFieldIncludeText(builder, MyDir + "CD collection data.xml", false, "text/xml", "XML", "ISO-8859-1");
     fieldIncludeText.NamespaceMappings = "xmlns:n='myNamespace'";
     fieldIncludeText.XPath = "/catalog/cd/title";
 
+    doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.INCLUDETEXT.docx");
+}
 
 /// <summary>
-/// Utilisez un générateur de document pour insérer un champ INCLUDETEXT avec des propriétés personnalisées.
+/// Utilisez un générateur de documents pour insérer un champ INCLUDETEXT avec des propriétés personnalisées.
 /// </summary>
 public FieldIncludeText CreateFieldIncludeText(DocumentBuilder builder, string sourceFullName, bool lockFields, string mimeType, string textConverter, string encoding)
 {

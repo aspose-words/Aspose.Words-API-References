@@ -1,14 +1,14 @@
 ---
 title: HtmlFixedSaveOptions.ResourceSavingCallback
 second_title: Référence de l'API Aspose.Words pour .NET
-description: HtmlFixedSaveOptions propriété. Permet de contrôler la manière dont les ressources images polices et css sont enregistrées lorsquun document est exporté au format Html à page fixe.
+description: HtmlFixedSaveOptions propriété. Permet de contrôler la façon dont les ressources images polices et CSS sont enregistrées lorsquun document est exporté au format HTML de page fixe.
 type: docs
 weight: 130
 url: /fr/net/aspose.words.saving/htmlfixedsaveoptions/resourcesavingcallback/
 ---
 ## HtmlFixedSaveOptions.ResourceSavingCallback property
 
-Permet de contrôler la manière dont les ressources (images, polices et css) sont enregistrées lorsqu'un document est exporté au format Html à page fixe.
+Permet de contrôler la façon dont les ressources (images, polices et CSS) sont enregistrées lorsqu'un document est exporté au format HTML de page fixe.
 
 ```csharp
 public IResourceSavingCallback ResourceSavingCallback { get; set; }
@@ -36,7 +36,7 @@ public void HtmlFixedResourceFolder()
     };
 
     // Un dossier spécifié par ResourcesFolderAlias contiendra les ressources au lieu de ResourcesFolder.
-    // Nous devons nous assurer que le dossier existe avant que les flux puissent y mettre leurs ressources.
+    // Nous devons nous assurer que le dossier existe avant que les flux puissent y placer leurs ressources.
     Directory.CreateDirectory(options.ResourcesFolderAlias);
 
     doc.Save(ArtifactsDir + "HtmlFixedSaveOptions.HtmlFixedResourceFolder.html", options);
@@ -50,7 +50,7 @@ public void HtmlFixedResourceFolder()
 }
 
 /// <summary>
-/// Compte et imprime les URI des ressources contenues par lorsqu'elles sont converties en HTML fixe.
+/// Compte et imprime les URI des ressources contenues par au fur et à mesure de leur conversion en HTML fixe.
 /// </summary>
 private class ResourceUriPrinter : IResourceSavingCallback
 {
@@ -66,7 +66,7 @@ private class ResourceUriPrinter : IResourceSavingCallback
             case ".woff":
             {
                 // Par défaut, 'ResourceFileUri' utilise le dossier système pour les polices.
-                // Pour éviter des problèmes sur d'autres plates-formes, vous devez spécifier explicitement le chemin des polices.
+                // Pour éviter des problèmes sur d'autres plateformes, vous devez spécifier explicitement le chemin des polices.
                 args.ResourceFileUri = ArtifactsDir + Path.DirectorySeparatorChar + args.ResourceFileName;
                 break;
             }

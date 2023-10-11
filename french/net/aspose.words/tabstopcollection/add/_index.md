@@ -16,7 +16,7 @@ public void Add(TabStop tabStop)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| tabStop | TabStop | Un objet taquet de tabulation à ajouter. |
+| tabStop | TabStop | Un objet de taquet de tabulation à ajouter. |
 
 ### Remarques
 
@@ -30,12 +30,12 @@ Montre comment ajouter des taquets de tabulation personnalisés à un document.
 Document doc = new Document();
 Paragraph paragraph = (Paragraph)doc.GetChild(NodeType.Paragraph, 0, true);
 
-// Vous trouverez ci-dessous deux manières d'ajouter des taquets de tabulation à la collection de taquets de tabulation d'un paragraphe via la propriété "ParagraphFormat".
+// Vous trouverez ci-dessous deux façons d'ajouter des taquets de tabulation à la collection de taquets de tabulation d'un paragraphe via la propriété "ParagraphFormat".
 // 1 - Créez un objet "TabStop", puis ajoutez-le à la collection :
 TabStop tabStop = new TabStop(ConvertUtil.InchToPoint(3), TabAlignment.Left, TabLeader.Dashes);
 paragraph.ParagraphFormat.TabStops.Add(tabStop);
 
-// 2 - Passez les valeurs des propriétés d'un nouveau taquet de tabulation à la méthode "Add":
+// 2 - Passer les valeurs des propriétés d'un nouveau taquet de tabulation à la méthode "Add" :
 paragraph.ParagraphFormat.TabStops.Add(ConvertUtil.MillimeterToPoint(100), TabAlignment.Left,
     TabLeader.Dashes);
 
@@ -46,7 +46,7 @@ foreach (Paragraph para in doc.GetChildNodes(NodeType.Paragraph, true).OfType<Pa
         TabLeader.Dashes);
 }
 
-// Chaque caractère "tab" amène le curseur du générateur à l'emplacement du prochain taquet de tabulation.
+// Chaque caractère "tabulation" amène le curseur du générateur à l'emplacement du prochain taquet de tabulation.
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Start\tTab 1\tTab 2\tTab 3\tTab 4");
 
@@ -73,8 +73,8 @@ public void Add(double position, TabAlignment alignment, TabLeader leader)
 | Paramètre | Taper | La description |
 | --- | --- | --- |
 | position | Double | Une position (en points) où ajouter le taquet de tabulation. |
-| alignment | TabAlignment | UN[`TabAlignment`](../../tabalignment/)la valeur that spécifie l'alignement du texte au taquet de tabulation. |
-| leader | TabLeader | UN[`TabLeader`](../../tableader/) value that spécifie le type de la ligne de repère affichée sous le caractère de tabulation. |
+| alignment | TabAlignment | UN[`TabAlignment`](../../tabalignment/) la valeur that spécifie l'alignement du texte au niveau du taquet de tabulation. |
+| leader | TabLeader | UN[`TabLeader`](../../tableader/) value that spécifie le type de ligne de repère affichée sous le caractère de tabulation. |
 
 ### Remarques
 
@@ -88,12 +88,12 @@ Montre comment ajouter des taquets de tabulation personnalisés à un document.
 Document doc = new Document();
 Paragraph paragraph = (Paragraph)doc.GetChild(NodeType.Paragraph, 0, true);
 
-// Vous trouverez ci-dessous deux manières d'ajouter des taquets de tabulation à la collection de taquets de tabulation d'un paragraphe via la propriété "ParagraphFormat".
+// Vous trouverez ci-dessous deux façons d'ajouter des taquets de tabulation à la collection de taquets de tabulation d'un paragraphe via la propriété "ParagraphFormat".
 // 1 - Créez un objet "TabStop", puis ajoutez-le à la collection :
 TabStop tabStop = new TabStop(ConvertUtil.InchToPoint(3), TabAlignment.Left, TabLeader.Dashes);
 paragraph.ParagraphFormat.TabStops.Add(tabStop);
 
-// 2 - Passez les valeurs des propriétés d'un nouveau taquet de tabulation à la méthode "Add":
+// 2 - Passer les valeurs des propriétés d'un nouveau taquet de tabulation à la méthode "Add" :
 paragraph.ParagraphFormat.TabStops.Add(ConvertUtil.MillimeterToPoint(100), TabAlignment.Left,
     TabLeader.Dashes);
 
@@ -104,7 +104,7 @@ foreach (Paragraph para in doc.GetChildNodes(NodeType.Paragraph, true).OfType<Pa
         TabLeader.Dashes);
 }
 
-// Chaque caractère "tab" amène le curseur du générateur à l'emplacement du prochain taquet de tabulation.
+// Chaque caractère "tabulation" amène le curseur du générateur à l'emplacement du prochain taquet de tabulation.
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Start\tTab 1\tTab 2\tTab 3\tTab 4");
 

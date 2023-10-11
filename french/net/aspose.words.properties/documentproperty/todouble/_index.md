@@ -20,7 +20,7 @@ Lève une exception si le type de propriété n'est pasNumber .
 
 ### Exemples
 
-Affiche diverses méthodes de conversion de type des propriétés de document personnalisées.
+Affiche différentes méthodes de conversion de type des propriétés de document personnalisées.
 
 ```csharp
 Document doc = new Document();

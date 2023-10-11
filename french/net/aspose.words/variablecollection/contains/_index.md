@@ -1,14 +1,14 @@
 ---
 title: VariableCollection.Contains
 second_title: Référence de l'API Aspose.Words pour .NET
-description: VariableCollection méthode. Détermine si la collection contient une variable de document avec le nom donné.
+description: VariableCollection méthode. Détermine si la collection contient une variable de document portant le nom donné.
 type: docs
 weight: 50
 url: /fr/net/aspose.words/variablecollection/contains/
 ---
 ## VariableCollection.Contains method
 
-Détermine si la collection contient une variable de document avec le nom donné.
+Détermine si la collection contient une variable de document portant le nom donné.
 
 ```csharp
 public bool Contains(string name)
@@ -20,24 +20,24 @@ public bool Contains(string name)
 
 ### Return_Value
 
-True si l'élément est trouvé dans la collection ; sinon, faux.
+`vrai` si l'article est trouvé dans la collection ; sinon,`FAUX`.
 
 ### Exemples
 
-Montre comment travailler avec la collection de variables d'un document.
+Montre comment utiliser la collection de variables d'un document.
 
 ```csharp
 Document doc = new Document();
 VariableCollection variables = doc.Variables;
 
-// Chaque document a une collection de variables de paires clé/valeur, auxquelles nous pouvons ajouter des éléments.
+// Chaque document possède une collection de variables de paires clé/valeur, auxquelles nous pouvons ajouter des éléments.
 variables.Add("Home address", "123 Main St.");
 variables.Add("City", "London");
 variables.Add("Bedrooms", "3");
 
 Assert.AreEqual(3, variables.Count);
 
-// On peut afficher les valeurs des variables dans le corps du document en utilisant les champs DOCVARIABLE.
+// Nous pouvons afficher les valeurs des variables dans le corps du document en utilisant les champs DOCVARIABLE.
 DocumentBuilder builder = new DocumentBuilder(doc);
 FieldDocVariable field = (FieldDocVariable)builder.InsertField(FieldType.FieldDocVariable, true);
 field.VariableName = "Home address";
@@ -55,21 +55,21 @@ field.Update();
 
 Assert.AreEqual("456 Queen St.", field.Result);
 
-// Vérifiez que les variables de document avec un certain nom ou une certaine valeur existent.
+// Vérifiez que les variables du document avec un certain nom ou une certaine valeur existent.
 Assert.True(variables.Contains("City"));
 Assert.True(variables.Any(v => v.Value == "London"));
 
-// La collection de variables trie automatiquement les variables par ordre alphabétique de nom.
+// La collection de variables trie automatiquement les variables par ordre alphabétique par nom.
 Assert.AreEqual(0, variables.IndexOfKey("Bedrooms"));
 Assert.AreEqual(1, variables.IndexOfKey("City"));
 Assert.AreEqual(2, variables.IndexOfKey("Home address"));
 
-// Énumération sur la collection de variables.
+// Énumérer la collection de variables.
 using (IEnumerator<KeyValuePair<string, string>> enumerator = doc.Variables.GetEnumerator())
     while (enumerator.MoveNext())
         Console.WriteLine($"Name: {enumerator.Current.Key}, Value: {enumerator.Current.Value}");
 
-// Vous trouverez ci-dessous trois manières de supprimer des variables de document d'une collection.
+// Vous trouverez ci-dessous trois façons de supprimer des variables de document d'une collection.
 // 1 - Par nom :
 variables.Remove("City");
 
@@ -80,7 +80,7 @@ variables.RemoveAt(1);
 
 Assert.False(variables.Contains("Home address"));
 
-// 3 - Efface toute la collection d'un coup :
+// 3 - Effacer toute la collection en même temps :
 variables.Clear();
 
 Assert.That(variables, Is.Empty);

@@ -16,7 +16,7 @@ public bool IsFontConfigAvailable()
 
 ### Exemples
 
-Affiche la substitution de la configuration des polices en fonction du système d'exploitation.
+Affiche la substitution de configuration de police dépendante du système d'exploitation.
 
 ```csharp
 FontSettings fontSettings = new FontSettings();
@@ -26,7 +26,7 @@ FontConfigSubstitutionRule fontConfigSubstitution =
 bool isWindows = new[] {PlatformID.Win32NT, PlatformID.Win32S, PlatformID.Win32Windows, PlatformID.WinCE}
     .Any(p => Environment.OSVersion.Platform == p);
 
-// L'objet FontConfigSubstitutionRule fonctionne différemment sur les plates-formes Windows/non Windows.
+// L'objet FontConfigSubstitutionRule fonctionne différemment sur les plateformes Windows/non Windows.
 // Sous Windows, il n'est pas disponible.
 if (isWindows)
 {

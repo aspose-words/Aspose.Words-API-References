@@ -1,14 +1,14 @@
 ---
 title: Border.DistanceFromText
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Border propriété. Obtient ou définit la distance de la bordure à partir du texte ou du bord de la page en points.
+description: Border propriété. Obtient ou définit la distance de la bordure au texte ou au bord de la page en points.
 type: docs
 weight: 20
 url: /fr/net/aspose.words/border/distancefromtext/
 ---
 ## Border.DistanceFromText property
 
-Obtient ou définit la distance de la bordure à partir du texte ou du bord de la page en points.
+Obtient ou définit la distance de la bordure au texte ou au bord de la page en points.
 
 ```csharp
 public double DistanceFromText { get; set; }
@@ -16,11 +16,11 @@ public double DistanceFromText { get; set; }
 
 ### Remarques
 
-N'a aucun effet et sera automatiquement remis à zéro pour les bordures des cellules de tableau.
+N'a aucun effet et sera automatiquement remis à zéro pour les bordures des cellules du tableau.
 
 ### Exemples
 
-Montre comment créer une bordure à large bande bleue en haut de la première page.
+Montre comment créer une large bordure bleue en haut de la première page.
 
 ```csharp
 Document doc = new Document();

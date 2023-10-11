@@ -1,14 +1,14 @@
 ---
 title: FrameFormat.IsFrame
 second_title: Référence de l'API Aspose.Words pour .NET
-description: FrameFormat propriété. Renvoie vrai si le paragraphe est un cadre.
+description: FrameFormat propriété. Retoursvrai si le paragraphe est un frame.
 type: docs
 weight: 60
 url: /fr/net/aspose.words/frameformat/isframe/
 ---
 ## FrameFormat.IsFrame property
 
-Renvoie vrai si le paragraphe est un cadre.
+Retours`vrai` si le paragraphe est un frame.
 
 ```csharp
 public bool IsFrame { get; }

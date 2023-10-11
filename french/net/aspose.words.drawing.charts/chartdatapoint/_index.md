@@ -3,12 +3,14 @@ title: Class ChartDataPoint
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Aspose.Words.Drawing.Charts.ChartDataPoint classe. Permet de spécifier le formatage dun seul point de données sur le graphique.
 type: docs
-weight: 650
+weight: 690
 url: /fr/net/aspose.words.drawing.charts/chartdatapoint/
 ---
 ## ChartDataPoint class
 
 Permet de spécifier le formatage d'un seul point de données sur le graphique.
+
+Pour en savoir plus, visitez le[Travailler avec des graphiques](https://docs.aspose.com/words/net/working-with-charts/) article documentaire.
 
 ```csharp
 public class ChartDataPoint : IChartDataPoint
@@ -18,12 +20,12 @@ public class ChartDataPoint : IChartDataPoint
 
 | Nom | La description |
 | --- | --- |
-| [Bubble3D](../../aspose.words.drawing.charts/chartdatapoint/bubble3d/) { get; set; } |  |
-| [Explosion](../../aspose.words.drawing.charts/chartdatapoint/explosion/) { get; set; } |  |
-| [Format](../../aspose.words.drawing.charts/chartdatapoint/format/) { get; } | Fournit un accès au remplissage et à la mise en forme des lignes de ce point de données. |
+| [Bubble3D](../../aspose.words.drawing.charts/chartdatapoint/bubble3d/) { get; set; } | Spécifie si les bulles du graphique à bulles doivent avoir un effet 3D appliqué. |
+| [Explosion](../../aspose.words.drawing.charts/chartdatapoint/explosion/) { get; set; } | Spécifie la distance à laquelle le point de données doit être déplacé du centre du secteur. Peut être négatif, négatif signifie que la propriété n'est pas définie et qu'aucune explosion ne doit être appliquée. S'applique uniquement aux diagrammes circulaires. |
+| [Format](../../aspose.words.drawing.charts/chartdatapoint/format/) { get; } | Donne accès au formatage de remplissage et de ligne de ce point de données. |
 | [Index](../../aspose.words.drawing.charts/chartdatapoint/index/) { get; } | Index du point de données auquel cet objet applique le formatage. |
-| [InvertIfNegative](../../aspose.words.drawing.charts/chartdatapoint/invertifnegative/) { get; set; } |  |
-| [Marker](../../aspose.words.drawing.charts/chartdatapoint/marker/) { get; } |  |
+| [InvertIfNegative](../../aspose.words.drawing.charts/chartdatapoint/invertifnegative/) { get; set; } | Spécifie si l'élément parent doit inverser ses couleurs si la valeur est négative. |
+| [Marker](../../aspose.words.drawing.charts/chartdatapoint/marker/) { get; } | Spécifie le marqueur de données du graphique. |
 
 ## Méthodes
 
@@ -37,10 +39,9 @@ Sur une série, le`ChartDataPoint` l'objet est membre du[`ChartDataPointCollecti
 
 ### Exemples
 
-Montre comment travailler avec des points de données sur un graphique en courbes.
+Montre comment utiliser des points de données sur un graphique linéaire.
 
 ```csharp
-[Test]
 public void ChartDataPoint()
 {
     Document doc = new Document();
@@ -54,11 +55,11 @@ public void ChartDataPoint()
     Assert.AreEqual("Series 2", chart.Series[1].Name);
     Assert.AreEqual("Series 3", chart.Series[2].Name);
 
-    // Accentue les points de données du graphique en les faisant apparaître sous forme de losanges.
+    // Accentue les points de données du graphique en les faisant apparaître sous forme de losange.
     foreach (ChartSeries series in chart.Series) 
         ApplyDataPoints(series, 4, MarkerSymbol.Diamond, 15);
 
-    // Lisser la ligne qui représente la première série de données.
+    // Lisse la ligne qui représente la première série de données.
     chart.Series[0].Smooth = true;
 
     // Vérifiez que les points de données de la première série n'inverseront pas leurs couleurs si la valeur est négative.
@@ -73,7 +74,7 @@ public void ChartDataPoint()
     // Pour un graphique plus propre, nous pouvons effacer le format individuellement.
     chart.Series[1].DataPoints[2].ClearFormat();
 
-    // Nous pouvons également supprimer une série entière de points de données à la fois.
+    // Nous pouvons également supprimer toute une série de points de données à la fois.
     chart.Series[2].DataPoints.ClearFormat();
 
     doc.Save(ArtifactsDir + "Charts.ChartDataPoint.docx");

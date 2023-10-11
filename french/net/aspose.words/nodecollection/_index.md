@@ -3,12 +3,14 @@ title: Class NodeCollection
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Aspose.Words.NodeCollection classe. Représente une collection de nœuds dun type spécifique.
 type: docs
-weight: 3960
+weight: 4200
 url: /fr/net/aspose.words/nodecollection/
 ---
 ## NodeCollection class
 
 Représente une collection de nœuds d'un type spécifique.
+
+Pour en savoir plus, visitez le[Modèle objet de document (DOM) Aspose.Words](https://docs.aspose.com/words/net/aspose-words-document-object-model/) article documentaire.
 
 ```csharp
 public class NodeCollection : IEnumerable<Node>
@@ -27,7 +29,7 @@ public class NodeCollection : IEnumerable<Node>
 | --- | --- |
 | [Add](../../aspose.words/nodecollection/add/)(Node) | Ajoute un nœud à la fin de la collection. |
 | [Clear](../../aspose.words/nodecollection/clear/)() | Supprime tous les nœuds de cette collection et du document. |
-| [Contains](../../aspose.words/nodecollection/contains/)(Node) | Détermine si un nœud est dans la collection. |
+| [Contains](../../aspose.words/nodecollection/contains/)(Node) | Détermine si un nœud fait partie de la collection. |
 | [GetEnumerator](../../aspose.words/nodecollection/getenumerator/)() | Fournit une simple itération de style "foreach" sur la collection de nœuds. |
 | [IndexOf](../../aspose.words/nodecollection/indexof/)(Node) | Renvoie l'index de base zéro du nœud spécifié. |
 | [Insert](../../aspose.words/nodecollection/insert/)(int, Node) | Insère un nœud dans la collection à l'index spécifié. |
@@ -37,19 +39,19 @@ public class NodeCollection : IEnumerable<Node>
 
 ### Remarques
 
-**NodeCollection** ne possède pas les nœuds qu'il contient, est plutôt une sélection de nodes du type spécifié, mais les nœuds sont stockés dans l'arborescence sous leurs nœuds parents respectifs.
+`NodeCollection` ne possède pas les nœuds qu'il contient, il s'agit simplement d'une sélection de nodes du type spécifié, mais les nœuds sont stockés dans l'arborescence sous leurs nœuds parents respectifs.
 
-**NodeCollection**prend en charge l'accès indexé, l'itération et fournit des méthodes d'ajout et de suppression.
+`NodeCollection`prend en charge l'accès indexé, l'itération et fournit des méthodes d'ajout et de suppression.
 
-La **NodeCollection** la collection est "en direct", c'est-à-dire que les modifications apportées aux enfants du nœud object à partir duquel elle a été créée sont immédiatement reflétées dans les nœuds renvoyés par le **NodeCollection** propriétés et méthodes.
+Le`NodeCollection` la collection est "live", c'est-à-dire que les modifications apportées aux enfants du nœud object à partir duquel elle a été créée sont immédiatement reflétées dans les nœuds renvoyés par le`NodeCollection` Propriétés et méthodes .
 
-**NodeCollection** est renvoyé par[`GetChildNodes`](../compositenode/getchildnodes/) et sert également de classe de base pour les collections de nœuds typés telles que[`SectionCollection`](../sectioncollection/) , [`ParagraphCollection`](../paragraphcollection/) etc.
+`NodeCollection` est renvoyé par[`GetChildNodes`](../compositenode/getchildnodes/) et sert également de classe de base pour les collections de nœuds typés telles que[`SectionCollection`](../sectioncollection/) , [`ParagraphCollection`](../paragraphcollection/) etc.
 
-**NodeCollection** peut être "plat" et contenir uniquement les enfants immédiats du nœud à partir duquel il a été créé , ou il peut être "profond" et contenir tous les enfants descendants.
+`NodeCollection` peut être "plat" et contenir uniquement les enfants immédiats du nœud à partir duquel il a été créé , ou il peut être "profond" et contenir tous les enfants descendants.
 
 ### Exemples
 
-Montre comment remplacer toutes les formes de zone de texte par des formes d'image.
+Montre comment remplacer toutes les formes de zone de texte par des formes d’image.
 
 ```csharp
 Document doc = new Document(MyDir + "Textboxes in drawing canvas.docx");

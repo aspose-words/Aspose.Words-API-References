@@ -1,14 +1,14 @@
 ---
 title: IStructuredDocumentTag.Id
 second_title: Référence de l'API Aspose.Words pour .NET
-description: IStructuredDocumentTag propriété. Spécifie un identifiant numérique persistant unique en lecture seule pour ce TDS.
+description: IStructuredDocumentTag propriété. Spécifie un identifiant numérique persistant unique en lecture seule pour cet objet. TSD.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.markup/istructureddocumenttag/id/
 ---
 ## IStructuredDocumentTag.Id property
 
-Spécifie un identifiant numérique persistant unique en lecture seule pour ce **TDS**.
+Spécifie un identifiant numérique persistant unique en lecture seule pour cet objet. **TSD**.
 
 ```csharp
 public int Id { get; }

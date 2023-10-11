@@ -1,14 +1,14 @@
 ---
 title: Style.StyleIdentifier
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Style propriété. Obtient lidentificateur de style indépendant des paramètres régionaux pour un style intégré.
+description: Style propriété. Obtient lidentifiant de style indépendant des paramètres régionaux pour un style intégré.
 type: docs
-weight: 140
+weight: 160
 url: /fr/net/aspose.words/style/styleidentifier/
 ---
 ## Style.StyleIdentifier property
 
-Obtient l'identificateur de style indépendant des paramètres régionaux pour un style intégré.
+Obtient l'identifiant de style indépendant des paramètres régionaux pour un style intégré.
 
 ```csharp
 public StyleIdentifier StyleIdentifier { get; }
@@ -25,15 +25,15 @@ Montre comment modifier la position du taquet de tabulation droit dans les parag
 ```csharp
 Document doc = new Document(MyDir + "Table of contents.docx");
 
-// Parcourt tous les paragraphes avec des styles basés sur les résultats TOC ; c'est n'importe quel style entre TOC et TOC9.
+// Parcourez tous les paragraphes avec les styles basés sur les résultats de la table des matières ; c'est n'importe quel style entre TOC et TOC9.
 foreach (Paragraph para in doc.GetChildNodes(NodeType.Paragraph, true).OfType<Paragraph>())
     if (para.ParagraphFormat.Style.StyleIdentifier >= StyleIdentifier.Toc1 &&
         para.ParagraphFormat.Style.StyleIdentifier <= StyleIdentifier.Toc9)
     {
-        // Récupère le premier onglet utilisé dans ce paragraphe, ce devrait être l'onglet utilisé pour aligner les numéros de page.
+        // Récupère le premier onglet utilisé dans ce paragraphe, ce doit être l'onglet utilisé pour aligner les numéros de page.
         TabStop tab = para.ParagraphFormat.TabStops[0];
 
-        // Remplace la première tabulation par défaut, stop par une tabulation personnalisée.
+        // Remplacez la première tabulation par défaut, arrêtez-vous par un taquet de tabulation personnalisé.
         para.ParagraphFormat.TabStops.RemoveByPosition(tab.Position);
         para.ParagraphFormat.TabStops.Add(tab.Position - 50, tab.Alignment, tab.Leader);
     }

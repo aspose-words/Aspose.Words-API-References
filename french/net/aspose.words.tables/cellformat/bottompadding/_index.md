@@ -16,7 +16,7 @@ public double BottomPadding { get; set; }
 
 ### Exemples
 
-Montre comment formater des cellules avec un générateur de document.
+Montre comment formater des cellules avec un générateur de documents.
 
 ```csharp
 Document doc = new Document();
@@ -26,8 +26,8 @@ Table table = builder.StartTable();
 builder.InsertCell();
 builder.Write("Row 1, cell 1.");
 
-// Insérez une deuxième cellule, puis configurez les options de remplissage du texte de la cellule.
-// Le générateur appliquera ces paramètres à sa cellule actuelle et à toutes les nouvelles cellules créées par la suite.
+// Insère une deuxième cellule, puis configure les options de remplissage du texte des cellules.
+// Le générateur appliquera ces paramètres à sa cellule actuelle, et toutes les nouvelles cellules créées par la suite.
 builder.InsertCell();
 
 CellFormat cellFormat = builder.CellFormat;
@@ -41,7 +41,7 @@ builder.Write("Row 1, cell 2.");
 builder.EndRow();
 builder.EndTable();
 
-// La première cellule n'a pas été affectée par la reconfiguration du rembourrage et contient toujours les valeurs par défaut.
+// La première cellule n'a pas été affectée par la reconfiguration du remplissage et contient toujours les valeurs par défaut.
 Assert.AreEqual(0.0d, table.FirstRow.Cells[0].CellFormat.Width);
 Assert.AreEqual(5.4d, table.FirstRow.Cells[0].CellFormat.LeftPadding);
 Assert.AreEqual(5.4d, table.FirstRow.Cells[0].CellFormat.RightPadding);
@@ -54,7 +54,7 @@ Assert.AreEqual(30.0d, table.FirstRow.Cells[1].CellFormat.RightPadding);
 Assert.AreEqual(30.0d, table.FirstRow.Cells[1].CellFormat.TopPadding);
 Assert.AreEqual(30.0d, table.FirstRow.Cells[1].CellFormat.BottomPadding);
 
-// La première cellule grandira toujours dans le document de sortie pour correspondre à la taille de sa cellule voisine.
+// La première cellule continuera à s'agrandir dans le document de sortie pour correspondre à la taille de sa cellule voisine.
 doc.Save(ArtifactsDir + "DocumentBuilder.SetCellFormatting.docx");
 ```
 

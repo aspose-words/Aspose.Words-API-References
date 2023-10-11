@@ -1,14 +1,14 @@
 ---
 title: CompareOptions.IgnoreFootnotes
 second_title: Référence de l'API Aspose.Words pour .NET
-description: CompareOptions propriété. Spécifie sil faut comparer les différences dans les notes de bas de page et les notes de fin. Par défaut les notes de bas de page ne sont pas ignorées.
+description: CompareOptions propriété. Spécifie sil faut comparer les différences entre les notes de bas de page et les notes de fin. Par défaut les notes de bas de page ne sont pas ignorées.
 type: docs
-weight: 70
+weight: 80
 url: /fr/net/aspose.words.comparing/compareoptions/ignorefootnotes/
 ---
 ## CompareOptions.IgnoreFootnotes property
 
-Spécifie s'il faut comparer les différences dans les notes de bas de page et les notes de fin. Par défaut, les notes de bas de page ne sont pas ignorées.
+Spécifie s'il faut comparer les différences entre les notes de bas de page et les notes de fin. Par défaut, les notes de bas de page ne sont pas ignorées.
 
 ```csharp
 public bool IgnoreFootnotes { get; set; }
@@ -16,18 +16,18 @@ public bool IgnoreFootnotes { get; set; }
 
 ### Exemples
 
-Montre comment filtrer des types spécifiques d'éléments de document lors d'une comparaison.
+Montre comment filtrer des types spécifiques d’éléments de document lors d’une comparaison.
 
 ```csharp
-// Crée le document d'origine et le remplit avec différents types d'éléments.
+// Créez le document original et remplissez-le avec différents types d'éléments.
 Document docOriginal = new Document();
 DocumentBuilder builder = new DocumentBuilder(docOriginal);
 
-// Texte de paragraphe référencé avec une note de fin :
+// Texte du paragraphe référencé par une note de fin :
 builder.Writeln("Hello world! This is the first paragraph.");
 builder.InsertFootnote(FootnoteType.Endnote, "Original endnote text.");
 
-// Table:
+// Tableau:
 builder.StartTable();
 builder.InsertCell();
 builder.Write("Original cell 1 text");
@@ -53,7 +53,7 @@ builder.CurrentParagraph.AppendChild(newComment);
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 builder.Writeln("Original header contents.");
 
-// Crée un clone de notre document et effectue une modification rapide sur chacun des éléments du document cloné.
+// Créez un clone de notre document et effectuez une modification rapide sur chacun des éléments du document cloné.
 Document docEdited = (Document)docOriginal.Clone(true);
 Paragraph firstParagraph = docEdited.FirstSection.Body.FirstParagraph;
 
@@ -67,8 +67,8 @@ firstParagraph.ParagraphFormat.Style = docEdited.Styles[StyleIdentifier.Heading1
 docEdited.FirstSection.HeadersFooters[HeaderFooterType.HeaderPrimary].FirstParagraph.Runs[0].Text =
     "Edited header contents.";
 
-// La comparaison de documents crée une révision pour chaque modification dans le document modifié.
-// Un objet CompareOptions a une série de drapeaux qui peuvent supprimer les révisions
+// La comparaison de documents crée une révision pour chaque modification du document édité.
+// Un objet CompareOptions possède une série d'indicateurs qui peuvent supprimer les révisions
 // sur chaque type d'élément respectif, ignorant effectivement leur changement.
 Aspose.Words.Comparing.CompareOptions compareOptions = new Aspose.Words.Comparing.CompareOptions();
 compareOptions.IgnoreFormatting = false;

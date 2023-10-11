@@ -3,12 +3,14 @@ title: Class FieldPrint
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Aspose.Words.Fields.FieldPrint classe. Implémente le champ PRINT.
 type: docs
-weight: 2130
+weight: 2280
 url: /fr/net/aspose.words.fields/fieldprint/
 ---
 ## FieldPrint class
 
 Implémente le champ PRINT.
+
+Pour en savoir plus, visitez le[Travailler avec des champs](https://docs.aspose.com/words/net/working-with-fields/) article documentaire.
 
 ```csharp
 public class FieldPrint : Field
@@ -31,9 +33,9 @@ public class FieldPrint : Field
 | [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Obtient ou définit si le champ est verrouillé (ne doit pas recalculer son résultat). |
 | [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | Obtient ou définit le LCID du champ. |
 | [PostScriptGroup](../../aspose.words.fields/fieldprint/postscriptgroup/) { get; set; } | Obtient ou définit le rectangle de dessin sur lequel les instructions PostScript opèrent. |
-| [PrinterInstructions](../../aspose.words.fields/fieldprint/printerinstructions/) { get; set; } | Obtient ou définit les caractères de code de contrôle spécifiques à l'imprimante ou les instructions PostScript. |
-| [Result](../../aspose.words.fields/field/result/) { get; set; } | Obtient ou définit le texte qui se trouve entre le séparateur de champ et la fin du champ. |
-| [Separator](../../aspose.words.fields/field/separator/) { get; } | Obtient le nœud qui représente le séparateur de champs. Peut être null. |
+| [PrinterInstructions](../../aspose.words.fields/fieldprint/printerinstructions/) { get; set; } | Obtient ou définit les caractères du code de contrôle ou les instructions PostScript spécifiques à l'imprimante. |
+| [Result](../../aspose.words.fields/field/result/) { get; set; } | Obtient ou définit le texte situé entre le séparateur de champ et la fin du champ. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | Obtient le nœud qui représente le séparateur de champ. Peut être`nul` . |
 | [Start](../../aspose.words.fields/field/start/) { get; } | Obtient le nœud qui représente le début du champ. |
 | virtual [Type](../../aspose.words.fields/field/type/) { get; } | Obtient le type de champ Microsoft Word. |
 
@@ -43,18 +45,18 @@ public class FieldPrint : Field
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Renvoie le texte entre le début du champ et le séparateur de champ (ou la fin du champ s'il n'y a pas de séparateur). Le code de champ et le résultat du champ des champs enfants sont inclus. |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Renvoie le texte entre le début du champ et le séparateur de champ (ou la fin du champ s'il n'y a pas de séparateur). |
-| [Remove](../../aspose.words.fields/field/remove/)() | Supprime le champ du document. Renvoie un nœud juste après le champ. Si la fin du champ est le dernier enfant de son nœud parent, renvoie son paragraphe parent. Si le champ est déjà supprimé, renvoie **nul** . |
+| [Remove](../../aspose.words.fields/field/remove/)() | Supprime le champ du document. Renvoie un nœud juste après le champ. Si la fin du champ est le dernier child de son nœud parent, renvoie son paragraphe parent. Si le champ est déjà supprimé, renvoie`nul` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Effectue la dissociation du champ. |
 | [Update](../../aspose.words.fields/field/update/)() | Effectue la mise à jour du champ. Lance si le champ est déjà mis à jour. |
 | [Update](../../aspose.words.fields/field/update/)(bool) | Effectue une mise à jour du champ. Lance si le champ est déjà mis à jour. |
 
 ### Remarques
 
-Une instruction pour envoyer les caractères de code de contrôle spécifiques à l'imprimante à l'imprimante sélectionnée lorsque le document est imprimé.
+Une instruction pour envoyer les caractères du code de contrôle spécifiques à l'imprimante à l'imprimante sélectionnée lorsque le document est imprimé.
 
 ### Exemples
 
-Indique d'insérer un champ PRINT.
+Montre pour insérer un champ PRINT.
 
 ```csharp
 Document doc = new Document();
@@ -65,7 +67,7 @@ builder.Write("My paragraph");
 // Le champ PRINT peut envoyer des instructions à l'imprimante.
 FieldPrint field = (FieldPrint)builder.InsertField(FieldType.FieldPrint, true);
 
-// Définit la zone sur laquelle l'imprimante exécutera les instructions.
+// Définit la zone sur laquelle l'imprimante doit exécuter les instructions.
 // Dans ce cas, ce sera le paragraphe qui contient notre champ PRINT.
 field.PostScriptGroup = "para";
 

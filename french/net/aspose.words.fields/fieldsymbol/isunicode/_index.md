@@ -22,11 +22,11 @@ Montre comment utiliser le champ SYMBOLE.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Vous trouverez ci-dessous trois manières d'utiliser un champ SYMBOLE pour afficher un seul caractère.
-// 1 - Ajouter un champ SYMBOLE qui affiche le symbole © (Copyright), spécifié par un code de caractère ANSI :
+// Vous trouverez ci-dessous trois façons d'utiliser un champ SYMBOL pour afficher un seul caractère.
+// 1 - Ajoutez un champ SYMBOLE qui affiche le symbole © (Copyright), spécifié par un code de caractère ANSI :
 FieldSymbol field = (FieldSymbol)builder.InsertField(FieldType.FieldSymbol, true);
 
-// Le code de caractère ANSI "U+00A9", ou "169" sous forme entière, est réservé au symbole de copyright.
+// Le code de caractère ANSI "U+00A9", ou "169" sous forme entière, est réservé au symbole de droit d'auteur.
 field.CharacterCode = 0x00a9.ToString();
 field.IsAnsi = true;
 
@@ -41,19 +41,19 @@ field = (FieldSymbol)builder.InsertField(FieldType.FieldSymbol, true);
 field.CharacterCode = 0x221E.ToString();
 field.IsUnicode = true;
 
-// Changer la police de notre symbole après avoir utilisé la table des caractères Windows
-// pour s'assurer que la police peut représenter ce symbole.
+// Change la police de notre symbole après avoir utilisé la table de caractères Windows
+// pour garantir que la police peut représenter ce symbole.
 field.FontName = "Calibri";
 field.FontSize = "24";
 
-// Nous pouvons définir cet indicateur pour les grands symboles afin qu'ils ne poussent pas le reste du texte sur leur ligne.
+// Nous pouvons définir cet indicateur pour les symboles de grande taille afin qu'ils ne poussent pas le reste du texte sur leur ligne.
 field.DontAffectsLineSpacing = true;
 
 Assert.AreEqual(" SYMBOL  8734 \\u \\f Calibri \\s 24 \\h", field.GetFieldCode());
 
 builder.Writeln("Line 2");
 
-// 3 - Ajouter un champ SYMBOLE qui affiche le caractère あ,
+// 3 - Ajout d'un champ SYMBOLE qui affiche le caractère あ,
 // avec une police prenant en charge la page de codes Shift-JIS (Windows-932) :
 field = (FieldSymbol)builder.InsertField(FieldType.FieldSymbol, true);
 field.FontName = "MS Gothic";

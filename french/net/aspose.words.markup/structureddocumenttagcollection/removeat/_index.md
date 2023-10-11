@@ -18,6 +18,32 @@ public void RemoveAt(int index)
 | --- | --- | --- |
 | index | Int32 | Un index dans la collection. |
 
+### Exemples
+
+Montre comment supprimer la balise de document structuré.
+
+```csharp
+Document doc = new Document(MyDir + "Structured document tags.docx");
+
+StructuredDocumentTagCollection structuredDocumentTags = doc.Range.StructuredDocumentTags;
+IStructuredDocumentTag sdt;
+for (int i = 0; i < structuredDocumentTags.Count; i++)
+{
+    sdt = structuredDocumentTags[i];
+    Console.WriteLine(sdt.Title);
+}
+
+sdt = structuredDocumentTags.GetById(1691867797);
+Assert.AreEqual(1691867797, sdt.Id);
+
+Assert.AreEqual(5, structuredDocumentTags.Count);
+// Supprime la balise du document structuré par Id.
+structuredDocumentTags.Remove(1691867797);
+// Supprime la balise du document structuré à la position 0.
+structuredDocumentTags.RemoveAt(0);
+Assert.AreEqual(3, structuredDocumentTags.Count);
+```
+
 ### Voir également
 
 * class [StructuredDocumentTagCollection](../)

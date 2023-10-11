@@ -3,12 +3,14 @@ title: Class ParagraphCollection
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Aspose.Words.ParagraphCollection classe. Fournit un accès typé à une collection deParagraph nœuds.
 type: docs
-weight: 4170
+weight: 4410
 url: /fr/net/aspose.words/paragraphcollection/
 ---
 ## ParagraphCollection class
 
 Fournit un accès typé à une collection de[`Paragraph`](../paragraph/) nœuds.
+
+Pour en savoir plus, visitez le[Travailler avec des paragraphes](https://docs.aspose.com/words/net/working-with-paragraphs/) article documentaire.
 
 ```csharp
 public class ParagraphCollection : NodeCollection
@@ -19,7 +21,7 @@ public class ParagraphCollection : NodeCollection
 | Nom | La description |
 | --- | --- |
 | [Count](../../aspose.words/nodecollection/count/) { get; } | Obtient le nombre de nœuds dans la collection. |
-| [Item](../../aspose.words/paragraphcollection/item/) { get; } | Récupère un **Paragraphe** à l'index donné. (2 indexers) |
+| [Item](../../aspose.words/paragraphcollection/item/) { get; } | Récupère un[`Paragraph`](../paragraph/) à l'index donné. (2 indexers) |
 
 ## Méthodes
 
@@ -27,7 +29,7 @@ public class ParagraphCollection : NodeCollection
 | --- | --- |
 | [Add](../../aspose.words/nodecollection/add/)(Node) | Ajoute un nœud à la fin de la collection. |
 | [Clear](../../aspose.words/nodecollection/clear/)() | Supprime tous les nœuds de cette collection et du document. |
-| [Contains](../../aspose.words/nodecollection/contains/)(Node) | Détermine si un nœud est dans la collection. |
+| [Contains](../../aspose.words/nodecollection/contains/)(Node) | Détermine si un nœud fait partie de la collection. |
 | [GetEnumerator](../../aspose.words/nodecollection/getenumerator/)() | Fournit une simple itération de style "foreach" sur la collection de nœuds. |
 | [IndexOf](../../aspose.words/nodecollection/indexof/)(Node) | Renvoie l'index de base zéro du nœud spécifié. |
 | [Insert](../../aspose.words/nodecollection/insert/)(int, Node) | Insère un nœud dans la collection à l'index spécifié. |
@@ -49,20 +51,20 @@ Assert.AreEqual(6, doc.Revisions.Count(r => r.RevisionType == RevisionType.Movin
 
 ParagraphCollection paragraphs = doc.FirstSection.Body.Paragraphs;
 
-// Les révisions de déplacement consistent en des paires de révisions "Déplacer de" et "Déplacer vers". 
+ // Les révisions de déplacement sont constituées de paires de révisions « Déplacer de » et « Déplacer vers ».
 // Ces révisions sont des modifications potentielles du document que nous pouvons accepter ou rejeter.
 // Avant d'accepter/rejeter une révision de déplacement, le document
 // doit garder une trace des destinations de départ et d'arrivée du texte.
-// Le deuxième et le quatrième paragraphe définissent une telle révision, et donc les deux ont le même contenu.
+// Les deuxième et quatrième paragraphes définissent une de ces révisions et ont donc tous deux le même contenu.
 Assert.AreEqual(paragraphs[1].GetText(), paragraphs[3].GetText());
 
-// La révision "Move from" est le paragraphe d'où nous avons fait glisser le texte.
+// La révision "Déplacer depuis" est le paragraphe à partir duquel nous avons fait glisser le texte.
 // Si nous acceptons la révision, ce paragraphe disparaîtra,
-// et l'autre restera et ne sera plus une révision.
+// et l'autre resteront et ne seront plus une révision.
 Assert.True(paragraphs[1].IsMoveFromRevision);
 
 // La révision "Déplacer vers" est le paragraphe vers lequel nous avons fait glisser le texte.
-// Si nous rejetons la révision, ce paragraphe disparaîtra à la place, et l'autre restera.
+// Si nous rejetons la révision, ce paragraphe disparaîtra et l'autre restera.
 Assert.True(paragraphs[3].IsMoveToRevision);
 ```
 

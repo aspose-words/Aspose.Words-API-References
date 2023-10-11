@@ -1,14 +1,14 @@
 ---
 title: Font.StrikeThrough
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Font propriété. Vrai si la police est formatée en tant que texte barré.
+description: Font propriété. Vrai si la police est formatée en texte barré.
 type: docs
 weight: 390
 url: /fr/net/aspose.words/font/strikethrough/
 ---
 ## Font.StrikeThrough property
 
-Vrai si la police est formatée en tant que texte barré.
+Vrai si la police est formatée en texte barré.
 
 ```csharp
 public bool StrikeThrough { get; set; }

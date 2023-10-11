@@ -16,7 +16,7 @@ public ImageData ImageData { get; }
 
 ### Remarques
 
-Si ce niveau ne définit pas l'image, la puce renvoie null. Avant de définir une nouvelle image pour une forme de puce autre qu'une image, veuillez utiliser[`CreatePictureBullet`](../createpicturebullet/) méthode en premier.
+Si ce niveau ne définit pas les retours de puces d'image`nul` . Avant de définir une nouvelle image pour une forme de puce non illustrée, veuillez utiliser[`CreatePictureBullet`](../createpicturebullet/) méthode en premier.
 
 ### Voir également
 

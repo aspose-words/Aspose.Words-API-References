@@ -3,12 +3,14 @@ title: Class ConditionalStyleCollection
 second_title: Référence de l'API Aspose.Words pour .NET
 description: Aspose.Words.ConditionalStyleCollection classe. Représente une collection deConditionalStyle objets.
 type: docs
-weight: 310
+weight: 320
 url: /fr/net/aspose.words/conditionalstylecollection/
 ---
 ## ConditionalStyleCollection class
 
 Représente une collection de[`ConditionalStyle`](../conditionalstyle/) objets.
+
+Pour en savoir plus, visitez le[Travailler avec des tableaux](https://docs.aspose.com/words/net/working-with-tables/) article documentaire.
 
 ```csharp
 public sealed class ConditionalStyleCollection : IEnumerable<ConditionalStyle>
@@ -21,15 +23,15 @@ public sealed class ConditionalStyleCollection : IEnumerable<ConditionalStyle>
 | [BottomLeftCell](../../aspose.words/conditionalstylecollection/bottomleftcell/) { get; } | Obtient le style de cellule en bas à gauche. |
 | [BottomRightCell](../../aspose.words/conditionalstylecollection/bottomrightcell/) { get; } | Obtient le style de cellule en bas à droite. |
 | [Count](../../aspose.words/conditionalstylecollection/count/) { get; } | Obtient le nombre de styles conditionnels dans la collection. |
-| [EvenColumnBanding](../../aspose.words/conditionalstylecollection/evencolumnbanding/) { get; } | Obtient le style de bande de colonne paire. |
+| [EvenColumnBanding](../../aspose.words/conditionalstylecollection/evencolumnbanding/) { get; } | Obtient le style de bandes de colonnes paires. |
 | [EvenRowBanding](../../aspose.words/conditionalstylecollection/evenrowbanding/) { get; } | Obtient le style de bandes de lignes paires. |
-| [FirstColumn](../../aspose.words/conditionalstylecollection/firstcolumn/) { get; } | Obtient le premier style de colonne. |
+| [FirstColumn](../../aspose.words/conditionalstylecollection/firstcolumn/) { get; } | Obtient le style de la première colonne. |
 | [FirstRow](../../aspose.words/conditionalstylecollection/firstrow/) { get; } | Obtient le style de la première ligne. |
 | [Item](../../aspose.words/conditionalstylecollection/item/) { get; } | Récupère un[`ConditionalStyle`](../conditionalstyle/) objet par type de style conditionnel. (2 indexers) |
-| [LastColumn](../../aspose.words/conditionalstylecollection/lastcolumn/) { get; } | Obtient le dernier style de colonne. |
-| [LastRow](../../aspose.words/conditionalstylecollection/lastrow/) { get; } | Obtient le dernier style de ligne. |
-| [OddColumnBanding](../../aspose.words/conditionalstylecollection/oddcolumnbanding/) { get; } | Obtient le style de bande de colonne impaire. |
-| [OddRowBanding](../../aspose.words/conditionalstylecollection/oddrowbanding/) { get; } | Obtient le style de bandes de lignes impaires. |
+| [LastColumn](../../aspose.words/conditionalstylecollection/lastcolumn/) { get; } | Obtient le style de la dernière colonne. |
+| [LastRow](../../aspose.words/conditionalstylecollection/lastrow/) { get; } | Obtient le style de la dernière ligne. |
+| [OddColumnBanding](../../aspose.words/conditionalstylecollection/oddcolumnbanding/) { get; } | Obtient le style de bandes de colonnes impair. |
+| [OddRowBanding](../../aspose.words/conditionalstylecollection/oddrowbanding/) { get; } | Obtient le style de bandes de lignes impair. |
 | [TopLeftCell](../../aspose.words/conditionalstylecollection/topleftcell/) { get; } | Obtient le style de cellule en haut à gauche. |
 | [TopRightCell](../../aspose.words/conditionalstylecollection/toprightcell/) { get; } | Obtient le style de cellule en haut à droite. |
 
@@ -42,11 +44,11 @@ public sealed class ConditionalStyleCollection : IEnumerable<ConditionalStyle>
 
 ### Remarques
 
-Il n'est pas possible d'ajouter ou de supprimer des éléments de cette collection. Il contient un ensemble permanent d'éléments : un élément pour chaque valeur du[`ConditionalStyleType`](../conditionalstyletype/) type d'énumération.
+Il n'est pas possible d'ajouter ou de supprimer des éléments de cette collection. Il contient un ensemble permanent d'éléments : un élément pour pour chaque valeur du[`ConditionalStyleType`](../conditionalstyletype/) type d'énumération.
 
 ### Exemples
 
-Montre comment travailler avec certains styles de zone d'un tableau.
+Montre comment travailler avec certains styles de zones d'un tableau.
 
 ```csharp
 Document doc = new Document();
@@ -67,10 +69,10 @@ builder.EndTable();
 // Crée un style de tableau personnalisé.
 TableStyle tableStyle = (TableStyle)doc.Styles.Add(StyleType.Table, "MyTableStyle1");
 
-// Les styles conditionnels sont des changements de mise en forme qui n'affectent que certaines cellules du tableau
-// basé sur un prédicat, tel que les cellules se trouvant dans la dernière ligne.
-// Vous trouverez ci-dessous trois façons d'accéder aux styles conditionnels d'un style de tableau à partir de la collection "ConditionalStyles".
-// 1 - Par type de style :
+// Les styles conditionnels sont des modifications de formatage qui n'affectent que certaines cellules du tableau
+// basé sur un prédicat, tel que les cellules de la dernière ligne.
+// Vous trouverez ci-dessous trois manières d'accéder aux styles conditionnels d'un style de tableau à partir de la collection "ConditionalStyles".
+// 1 - Par type de style :
 tableStyle.ConditionalStyles[ConditionalStyleType.FirstRow].Shading.BackgroundPatternColor = Color.AliceBlue;
 
 // 2 - Par index :
@@ -78,10 +80,10 @@ tableStyle.ConditionalStyles[0].Borders.Color = Color.Black;
 tableStyle.ConditionalStyles[0].Borders.LineStyle = LineStyle.DotDash;
 Assert.AreEqual(ConditionalStyleType.FirstRow, tableStyle.ConditionalStyles[0].Type);
 
-// 3 - En tant que propriété :
+// 3 - En propriété :
 tableStyle.ConditionalStyles.FirstRow.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
-// Appliquez le rembourrage et la mise en forme du texte aux styles conditionnels.
+// Applique un remplissage et un formatage de texte aux styles conditionnels.
 tableStyle.ConditionalStyles.LastRow.BottomPadding = 10;
 tableStyle.ConditionalStyles.LastRow.LeftPadding = 10;
 tableStyle.ConditionalStyles.LastRow.RightPadding = 10;

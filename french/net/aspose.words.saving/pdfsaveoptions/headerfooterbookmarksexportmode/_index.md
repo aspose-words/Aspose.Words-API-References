@@ -1,14 +1,14 @@
 ---
 title: PdfSaveOptions.HeaderFooterBookmarksExportMode
 second_title: Référence de l'API Aspose.Words pour .NET
-description: PdfSaveOptions propriété. Détermine comment les signets dans les entêtes/pieds de page sont exportés.
+description: PdfSaveOptions propriété. Détermine la manière dont les signets dans les entêtes/pieds de page sont exportés.
 type: docs
-weight: 150
+weight: 180
 url: /fr/net/aspose.words.saving/pdfsaveoptions/headerfooterbookmarksexportmode/
 ---
 ## PdfSaveOptions.HeaderFooterBookmarksExportMode property
 
-Détermine comment les signets dans les en-têtes/pieds de page sont exportés.
+Détermine la manière dont les signets dans les en-têtes/pieds de page sont exportés.
 
 ```csharp
 public HeaderFooterBookmarksExportMode HeaderFooterBookmarksExportMode { get; set; }
@@ -18,30 +18,30 @@ public HeaderFooterBookmarksExportMode HeaderFooterBookmarksExportMode { get; se
 
 La valeur par défaut estAll.
 
-Cette propriété est utilisée conjointement avec la[`OutlineOptions`](../outlineoptions/) option.
+Cette propriété est utilisée conjointement avec le[`OutlineOptions`](../outlineoptions/) option.
 
 ### Exemples
 
-Affiche le traitement des signets dans les en-têtes/pieds de page d'un document que nous rendons au format PDF.
+Montre comment traiter les signets dans les en-têtes/pieds de page d'un document que nous rendons au format PDF.
 
 ```csharp
 Document doc = new Document(MyDir + "Bookmarks in headers and footers.docx");
 
-// Crée un objet "PdfSaveOptions" que nous pouvons passer à la méthode "Save" du document
+// Crée un objet "PdfSaveOptions" que l'on peut passer à la méthode "Save" du document
 // pour modifier la façon dont cette méthode convertit le document en .PDF.
 PdfSaveOptions saveOptions = new PdfSaveOptions();
 
-// Définissez la propriété "PageMode" sur "PdfPageMode.UseOutlines" pour afficher le volet de navigation du plan dans le PDF de sortie.
+// Définissez la propriété "PageMode" sur "PdfPageMode.UseOutlines" pour afficher le volet de navigation hiérarchique dans le PDF de sortie.
 saveOptions.PageMode = PdfPageMode.UseOutlines;
 
-// Définissez la propriété "DefaultBookmarksOutlineLevel" à "1" pour afficher tous
+// Définit la propriété "DefaultBookmarksOutlineLevel" sur "1" pour afficher tous
 // signets au premier niveau du plan dans le PDF de sortie.
 saveOptions.OutlineOptions.DefaultBookmarksOutlineLevel = 1;
 
 // Définissez la propriété "HeaderFooterBookmarksExportMode" sur "HeaderFooterBookmarksExportMode.None" pour
-// n'exporte aucun signet qui se trouve dans les en-têtes/pieds de page.
+// n'exporte aucun signet situé dans les en-têtes/pieds de page.
 // Définissez la propriété "HeaderFooterBookmarksExportMode" sur "HeaderFooterBookmarksExportMode.First" pour
-// exporte uniquement les signets dans l'en-tête/le pied de page de la première section.
+// exporte uniquement les signets dans l'en-tête/pied de page de la première section.
 // Définissez la propriété "HeaderFooterBookmarksExportMode" sur "HeaderFooterBookmarksExportMode.All" pour
 // exporte les signets qui se trouvent dans tous les en-têtes/pieds de page.
 saveOptions.HeaderFooterBookmarksExportMode = headerFooterBookmarksExportMode;

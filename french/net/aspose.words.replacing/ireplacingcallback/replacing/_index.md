@@ -16,13 +16,14 @@ public ReplaceAction Replacing(ReplacingArgs args)
 
 ### Return_Value
 
-A[`ReplaceAction`](../../replaceaction/) valeur qui spécifie l'action à entreprendre pour le match en cours.
+A[`ReplaceAction`](../../replaceaction/) valeur qui spécifie l'action à entreprendre pour la correspondance en cours.
 
 ### Exemples
 
 Montre comment remplacer toutes les occurrences d'un modèle d'expression régulière par une autre chaîne, tout en suivant tous ces remplacements.
 
 ```csharp
+public void ReplaceWithCallback()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -33,7 +34,7 @@ Montre comment remplacer toutes les occurrences d'un modèle d'expression régul
     // Nous pouvons utiliser un objet "FindReplaceOptions" pour modifier le processus de recherche et de remplacement.
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // Définit un rappel qui suit tous les remplacements que la méthode "Replace" effectuera.
+    // Définit un rappel qui suit tous les remplacements effectués par la méthode "Replace".
     TextFindAndReplacementLogger logger = new TextFindAndReplacementLogger();
     options.ReplacingCallback = logger;
 
@@ -47,8 +48,8 @@ Montre comment remplacer toutes les occurrences d'un modèle d'expression régul
 }
 
 /// <summary>
-/// Maintient un journal de chaque remplacement de texte effectué par une opération de recherche et de remplacement
-/// et note la valeur du texte correspondant d'origine.
+/// Tient un journal de chaque remplacement de texte effectué par une opération de recherche et de remplacement
+/// et note la valeur du texte original correspondant.
 /// </summary>
 private class TextFindAndReplacementLogger : IReplacingCallback
 {
@@ -70,9 +71,10 @@ private class TextFindAndReplacementLogger : IReplacingCallback
 }
 ```
 
-Montre comment insérer le contenu d'un document entier en remplacement d'une correspondance dans une opération de recherche et de remplacement.
+Montre comment insérer le contenu entier d’un document en remplacement d’une correspondance dans une opération de recherche et de remplacement.
 
 ```csharp
+public void InsertDocumentAtReplace()
 {
     Document mainDoc = new Document(MyDir + "Document insertion destination.docx");
 
@@ -82,6 +84,8 @@ Montre comment insérer le contenu d'un document entier en remplacement d'une co
 
     mainDoc.Range.Replace(new Regex("\\[MY_DOCUMENT\\]"), "", options);
     mainDoc.Save(ArtifactsDir + "InsertDocument.InsertDocumentAtReplace.docx");
+
+}
 
 private class InsertDocumentAtReplaceHandler : IReplacingCallback
 {

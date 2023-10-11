@@ -1,14 +1,14 @@
 ---
 title: HtmlSaveOptions.ExportFontsAsBase64
 second_title: Référence de l'API Aspose.Words pour .NET
-description: HtmlSaveOptions propriété. Spécifie si les ressources de polices doivent être intégrées au HTML dans lencodage Base64. La valeur par défaut estfaux .
+description: HtmlSaveOptions propriété. Spécifie si les ressources de polices doivent être intégrées au HTML dans lencodage Base64. La valeur par défaut estFAUX .
 type: docs
-weight: 160
+weight: 150
 url: /fr/net/aspose.words.saving/htmlsaveoptions/exportfontsasbase64/
 ---
 ## HtmlSaveOptions.ExportFontsAsBase64 property
 
-Spécifie si les ressources de polices doivent être intégrées au HTML dans l'encodage Base64. La valeur par défaut est`faux` .
+Spécifie si les ressources de polices doivent être intégrées au HTML dans l'encodage Base64. La valeur par défaut est`FAUX` .
 
 ```csharp
 public bool ExportFontsAsBase64 { get; set; }
@@ -16,11 +16,11 @@ public bool ExportFontsAsBase64 { get; set; }
 
 ### Remarques
 
-Par défaut, les polices sont écrites dans des fichiers séparés. Si cette option est définie sur`vrai`, les polices seront intégrées dans le CSS du document en encodage Base64.
+Par défaut, les polices sont écrites dans des fichiers séparés. Si cette option est définie sur`vrai`, les polices seront incorporées dans le CSS du document en encodage Base64.
 
 ### Exemples
 
-Montre comment incorporer des polices dans un document HTML enregistré.
+Montre comment intégrer des polices dans un document HTML enregistré.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
@@ -35,7 +35,7 @@ HtmlSaveOptions options = new HtmlSaveOptions
 doc.Save(ArtifactsDir + "HtmlSaveOptions.ExportFontsAsBase64.html", options);
 ```
 
-Montre comment enregistrer un document .html avec des images intégrées à l'intérieur.
+Montre comment enregistrer un document .html contenant des images intégrées.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

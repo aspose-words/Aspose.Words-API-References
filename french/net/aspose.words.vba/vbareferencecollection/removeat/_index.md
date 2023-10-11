@@ -1,14 +1,14 @@
 ---
 title: VbaReferenceCollection.RemoveAt
 second_title: Référence de l'API Aspose.Words pour .NET
-description: VbaReferenceCollection méthode. Supprime lélément VbaReference à lindex spécifié de la collection.
+description: VbaReferenceCollection méthode. Supprime leVbaReference élément à lindex spécifié de la collection.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.vba/vbareferencecollection/removeat/
 ---
 ## VbaReferenceCollection.RemoveAt method
 
-Supprime l'élément VbaReference à l'index spécifié de la collection.
+Supprime le[`VbaReference`](../../vbareference/) élément à l'index spécifié de la collection.
 
 ```csharp
 public void RemoveAt(int index)
@@ -19,7 +19,6 @@ public void RemoveAt(int index)
 Montre comment obtenir/supprimer un élément de la collection de référence VBA.
 
 ```csharp
-[Test]
 public void RemoveVbaReference()
 {
     const string brokenPath = @"X:\broken.dll";
@@ -45,7 +44,7 @@ public void RemoveVbaReference()
 }
 
 /// <summary>
-/// Renvoie une chaîne représentant le chemin LibId d'une référence spécifiée. 
+ /// Renvoie une chaîne représentant le chemin LibId d'une référence spécifiée.
 /// </summary>
 private static string GetLibIdPath(VbaReference reference)
 {
@@ -63,7 +62,7 @@ private static string GetLibIdPath(VbaReference reference)
 }
 
 /// <summary>
-/// Renvoie le chemin à partir d'un identifiant spécifié d'une bibliothèque de types Automation.
+/// Renvoie le chemin d'un identifiant spécifié d'une bibliothèque de types Automation.
 /// </summary>
 private static string GetLibIdReferencePath(string libIdReference)
 {
@@ -78,7 +77,7 @@ private static string GetLibIdReferencePath(string libIdReference)
 }
 
 /// <summary>
-/// Renvoie le chemin à partir d'un identifiant spécifié d'une bibliothèque de types Automation.
+/// Renvoie le chemin d'un identifiant spécifié d'une bibliothèque de types Automation.
 /// </summary>
 private static string GetLibIdProjectPath(string libIdProject)
 {

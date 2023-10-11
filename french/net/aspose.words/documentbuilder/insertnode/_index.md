@@ -1,14 +1,14 @@
 ---
 title: DocumentBuilder.InsertNode
 second_title: Référence de l'API Aspose.Words pour .NET
-description: DocumentBuilder méthode. Insère un nœud de niveau de texte à lintérieur du paragraphe actuel avant le curseur.
+description: DocumentBuilder méthode. Insère un nœud avant le curseur.
 type: docs
-weight: 360
+weight: 390
 url: /fr/net/aspose.words/documentbuilder/insertnode/
 ---
 ## DocumentBuilder.InsertNode method
 
-Insère un nœud de niveau de texte à l'intérieur du paragraphe actuel avant le curseur.
+Insère un nœud avant le curseur.
 
 ```csharp
 public void InsertNode(Node node)
@@ -25,7 +25,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 string imageFileName = ImageDir + "Windows MetaFile.wmf";
 
 // Vous trouverez ci-dessous deux manières d'appliquer une image à une forme afin qu'elle puisse l'afficher.
-// 1 - Définir la forme pour contenir l'image.
+// 1 - Définit la forme pour contenir l'image.
 Shape shape = new Shape(builder.Document, ShapeType.Image);
 shape.WrapType = WrapType.Inline;
 shape.ImageData.SetImage(imageFileName);
@@ -39,7 +39,7 @@ Assert.True(70000 < new FileInfo(ArtifactsDir + "Image.CreateLinkedImage.Embedde
 
 doc.FirstSection.Body.FirstParagraph.RemoveAllChildren();
 
-// 2 - Définissez la forme à lier à un fichier image dans le système de fichiers local.
+// 2 - Définissez la forme pour qu'elle soit liée à un fichier image dans le système de fichiers local.
 shape = new Shape(builder.Document, ShapeType.Image);
 shape.WrapType = WrapType.Inline;
 shape.ImageData.SourceFullName = imageFileName;
@@ -47,7 +47,7 @@ shape.ImageData.SourceFullName = imageFileName;
 builder.InsertNode(shape);
 doc.Save(ArtifactsDir + "Image.CreateLinkedImage.Linked.docx");
 
-// La création de liens vers des images permet d'économiser de l'espace et d'obtenir un document plus petit.
+// La création de liens vers des images permettra d'économiser de l'espace et d'obtenir un document plus petit.
 // Cependant, le document ne peut afficher correctement l'image que lorsque
 // le fichier image est présent à l'emplacement vers lequel pointe la propriété "SourceFullName" de la forme.
 Assert.True(10000 > new FileInfo(ArtifactsDir + "Image.CreateLinkedImage.Linked.docx").Length);

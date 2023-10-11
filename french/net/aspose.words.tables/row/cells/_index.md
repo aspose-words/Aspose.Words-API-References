@@ -1,14 +1,14 @@
 ---
 title: Row.Cells
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Row propriété. Fournit un accès typé au Cellule nœuds enfants de la ligne.
+description: Row propriété. Fournit un accès typé auCell nœuds enfants de la ligne.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.tables/row/cells/
 ---
 ## Row.Cells property
 
-Fournit un accès typé au **Cellule** nœuds enfants de la ligne.
+Fournit un accès typé au[`Cell`](../../cell/) nœuds enfants de la ligne.
 
 ```csharp
 public CellCollection Cells { get; }
@@ -30,7 +30,7 @@ for (int i = 0; i < tables.Count; i++)
 
     RowCollection rows = tables[i].Rows;
 
-    // Nous pouvons utiliser la méthode "ToArray" sur une collection de lignes pour la cloner dans un tableau.
+    // On peut utiliser la méthode "ToArray" sur une collection de lignes pour la cloner dans un tableau.
     Assert.AreEqual(rows, rows.ToArray());
     Assert.AreNotSame(rows, rows.ToArray());
 
@@ -40,7 +40,7 @@ for (int i = 0; i < tables.Count; i++)
 
         CellCollection cells = rows[j].Cells;
 
-        // Nous pouvons utiliser la méthode "ToArray" sur une collection de cellules pour la cloner dans un tableau.
+        // On peut utiliser la méthode "ToArray" sur une collection de cellules pour la cloner dans un tableau.
         Assert.AreEqual(cells, cells.ToArray());
         Assert.AreNotSame(cells, cells.ToArray());
 

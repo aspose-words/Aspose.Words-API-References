@@ -1,14 +1,14 @@
 ---
 title: Forms2OleControl.Value
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Forms2OleControl propriété. Obtient la propriété Value sousjacente qui représente souvent létat du contrôle. Par exemple le bouton doption coché a la valeur  1  tandis que la case non cochée a la valeur  0 . La valeur par défaut est une chaîne vide.
+description: Forms2OleControl propriété. Obtient la propriété Value sousjacente qui représente souvent létat de contrôle. Par exemple le bouton doption coché a la valeur  1  tandis que non coché a  0 . La valeur par défaut est une chaîne vide.
 type: docs
 weight: 60
 url: /fr/net/aspose.words.drawing.ole/forms2olecontrol/value/
 ---
 ## Forms2OleControl.Value property
 
-Obtient la propriété Value sous-jacente qui représente souvent l'état du contrôle. Par exemple, le bouton d'option coché a la valeur « 1 » tandis que la case non cochée a la valeur « 0 ». La valeur par défaut est une chaîne vide.
+Obtient la propriété Value sous-jacente qui représente souvent l'état de contrôle. Par exemple, le bouton d'option coché a la valeur « 1 » tandis que non coché a « 0 ». La valeur par défaut est une chaîne vide.
 
 ```csharp
 public string Value { get; }
@@ -24,7 +24,7 @@ Document doc = new Document(MyDir + "ActiveX controls.docx");
 Shape shape = (Shape) doc.GetChild(NodeType.Shape, 0, true);
 OleControl oleControl = shape.OleFormat.OleControl;
 
-Assert.AreEqual(null, oleControl.Name);
+Assert.AreEqual("CheckBox1", oleControl.Name);
 
 if (oleControl.IsForms2OleControl)
 {
@@ -34,6 +34,10 @@ if (oleControl.IsForms2OleControl)
     Assert.AreEqual(true, checkBox.Enabled);
     Assert.AreEqual(Forms2OleControlType.CheckBox, checkBox.Type);
     Assert.AreEqual(null, checkBox.ChildNodes);
+    Assert.AreEqual(string.Empty, checkBox.GroupName);
+
+    // Notez que vous ne pouvez pas définir GroupName pour un Frame.
+    checkBox.GroupName = "Aspose group name";
 }
 ```
 

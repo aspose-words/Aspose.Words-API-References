@@ -16,7 +16,7 @@ public PageRange(int from, int to)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| from | Int32 | L'index de base zéro de la page de départ. |
+| from | Int32 | L'index de base zéro de la page de démarrage. |
 | to | Int32 | L'index de base zéro de la page de fin. S'il dépasse l'index de la dernière page du document, il est tronqué pour tenir dans le document lors du rendu. |
 
 ### Remarques

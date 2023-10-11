@@ -1,14 +1,14 @@
 ---
 title: DocumentBuilder.InsertImage
 second_title: Référence de l'API Aspose.Words pour .NET
-description: DocumentBuilder méthode. Insère une image à partir dun .NETImage objet dans le document. Limage est insérée en ligne et à léchelle 100 .
+description: DocumentBuilder méthode. Insère une image à partir dun .NETImage objet dans le document. Limage est insérée en ligne et à une échelle de 100 .
 type: docs
-weight: 350
+weight: 380
 url: /fr/net/aspose.words/documentbuilder/insertimage/
 ---
 ## InsertImage(Image) {#insertimage_3}
 
-Insère une image à partir d'un .NETImage objet dans le document. L'image est insérée en ligne et à l'échelle 100 %.
+Insère une image à partir d'un .NETImage objet dans le document. L'image est insérée en ligne et à une échelle de 100 %.
 
 ```csharp
 public Shape InsertImage(Image image)
@@ -16,7 +16,7 @@ public Shape InsertImage(Image image)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| image | Image | Image à insérer dans le document. |
+| image | Image | L'image à insérer dans le document. |
 
 ### Return_Value
 
@@ -28,7 +28,7 @@ Vous pouvez modifier la taille de l'image, l'emplacement, la méthode de positio
 
 ### Exemples
 
-Montre comment insérer une image à partir d'un objet dans un document.
+Montre comment insérer une image d’un objet dans un document.
 
 ```csharp
 Document doc = new Document();
@@ -36,18 +36,18 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 Image image = Image.FromFile(ImageDir + "Logo.jpg");
 
-// Vous trouverez ci-dessous trois manières d'insérer une image à partir d'une instance d'objet Image.
+// Vous trouverez ci-dessous trois façons d'insérer une image à partir d'une instance d'objet Image.
 // 1 - Forme en ligne avec une taille par défaut basée sur les dimensions d'origine de l'image :
 builder.InsertImage(image);
 
 builder.InsertBreak(BreakType.PageBreak);
 
-// 2 - Forme en ligne avec des dimensions personnalisées :
+// 2 - Forme en ligne avec dimensions personnalisées :
 builder.InsertImage(image, ConvertUtil.PixelToPoint(250), ConvertUtil.PixelToPoint(144));
 
 builder.InsertBreak(BreakType.PageBreak);
 
-// 3 - Forme flottante aux dimensions personnalisées :
+// 3 - Forme flottante avec dimensions personnalisées :
 builder.InsertImage(image, RelativeHorizontalPosition.Margin, 100, RelativeVerticalPosition.Margin,
 100, 200, 100, WrapType.Square);
 
@@ -65,7 +65,7 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromImageObject.docx")
 
 ## InsertImage(string) {#insertimage_9}
 
-Insère une image à partir d'un fichier ou d'une URL dans le document. L'image est insérée en ligne et à l'échelle 100 %.
+Insère une image à partir d'un fichier ou d'une URL dans le document. L'image est insérée en ligne et à une échelle de 100 %.
 
 ```csharp
 public Shape InsertImage(string fileName)
@@ -87,7 +87,7 @@ Vous pouvez modifier la taille de l'image, l'emplacement, la méthode de positio
 
 ### Exemples
 
-Montre comment insérer une image gif dans le document.
+Montre comment insérer une image GIF dans le document.
 
 ```csharp
 DocumentBuilder builder = new DocumentBuilder();
@@ -110,12 +110,12 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Vous trouverez ci-dessous deux emplacements où la méthode "InsertShape" du générateur de documents
 // peut générer l'image que la forme affichera.
-// 1 - Passez un nom de fichier de système de fichiers local d'un fichier image :
+// 1 - Transmettez le nom de fichier du système de fichiers local d'un fichier image :
 builder.Write("Image from local file: ");
 builder.InsertImage(ImageDir + "Logo.jpg");
 builder.Writeln();
 
-// 2 - Passez une URL qui pointe vers une image.
+// 2 - Passer une URL qui pointe vers une image.
 builder.Write("Image from a URL: ");
 builder.InsertImage(ImageUrl);
 builder.Writeln();
@@ -123,13 +123,13 @@ builder.Writeln();
 doc.Save(ArtifactsDir + "Image.FromUrl.docx");
 ```
 
-Montre comment insérer une image flottante au centre d'une page.
+Montre comment insérer une image flottante au centre d’une page.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Insère une image flottante qui apparaîtra derrière le texte superposé et l'aligne au centre de la page.
+// Insère une image flottante qui apparaîtra derrière le texte superposé et alignez-la au centre de la page.
 Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
 shape.WrapType = WrapType.None;
 shape.BehindText = true;
@@ -150,7 +150,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.InsertImage(ImageDir + "Scalable Vector Graphics.svg");
 
 // Aspose.Words insère une image SVG dans le document au format PNG avec l'extension svgBlip
-// qui contient la représentation originale de l'image SVG vectorielle.
+// qui contient la représentation de l'image vectorielle SVG originale.
 doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertSvgImage.SvgWithSvgBlip.docx");
 
 // Aspose.Words insère une image SVG dans le document au format PNG, tout comme Microsoft Word le fait pour l'ancien format.
@@ -168,19 +168,19 @@ Montre comment insérer une image du système de fichiers local dans un document
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Vous trouverez ci-dessous trois manières d'insérer une image à partir d'un nom de fichier système local.
+// Vous trouverez ci-dessous trois façons d'insérer une image à partir d'un nom de fichier système local.
 // 1 - Forme en ligne avec une taille par défaut basée sur les dimensions d'origine de l'image :
 builder.InsertImage(ImageDir + "Logo.jpg");
 
 builder.InsertBreak(BreakType.PageBreak);
 
-// 2 - Forme en ligne avec des dimensions personnalisées :
+// 2 - Forme en ligne avec dimensions personnalisées :
 builder.InsertImage(ImageDir + "Transparent background logo.png", ConvertUtil.PixelToPoint(250),
     ConvertUtil.PixelToPoint(144));
 
 builder.InsertBreak(BreakType.PageBreak);
 
-// 3 - Forme flottante aux dimensions personnalisées :
+// 3 - Forme flottante avec dimensions personnalisées :
 builder.InsertImage(ImageDir + "Windows MetaFile.wmf", RelativeHorizontalPosition.Margin, 100, 
     RelativeVerticalPosition.Margin, 100, 200, 100, WrapType.Square);
 
@@ -198,7 +198,7 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromFilename.docx");
 
 ## InsertImage(Stream) {#insertimage_6}
 
-Insère une image d'un flux dans le document. L'image est insérée en ligne et à l'échelle 100 %.
+Insère une image d'un flux dans le document. L'image est insérée en ligne et à une échelle de 100 %.
 
 ```csharp
 public Shape InsertImage(Stream stream)
@@ -218,7 +218,7 @@ Vous pouvez modifier la taille de l'image, l'emplacement, la méthode de positio
 
 ### Exemples
 
-Montre comment insérer une forme avec une image à partir d'un flux dans un document.
+Montre comment insérer une forme avec une image provenant d’un flux dans un document.
 
 ```csharp
 Document doc = new Document();
@@ -233,7 +233,7 @@ using (Stream stream = File.OpenRead(ImageDir + "Logo.jpg"))
 doc.Save(ArtifactsDir + "Image.FromStream.docx");
 ```
 
-Montre comment insérer une image à partir d'un flux dans un document.
+Montre comment insérer une image d’un flux dans un document.
 
 ```csharp
 Document doc = new Document();
@@ -241,18 +241,18 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 using (Stream stream = File.OpenRead(ImageDir + "Logo.jpg"))
 {
-    // Vous trouverez ci-dessous trois manières d'insérer une image à partir d'un flux.
+    // Vous trouverez ci-dessous trois façons d'insérer une image à partir d'un flux.
     // 1 - Forme en ligne avec une taille par défaut basée sur les dimensions d'origine de l'image :
     builder.InsertImage(stream);
 
     builder.InsertBreak(BreakType.PageBreak);
 
-    // 2 - Forme en ligne avec des dimensions personnalisées :
+    // 2 - Forme en ligne avec dimensions personnalisées :
     builder.InsertImage(stream, ConvertUtil.PixelToPoint(250), ConvertUtil.PixelToPoint(144));
 
     builder.InsertBreak(BreakType.PageBreak);
 
-    // 3 - Forme flottante aux dimensions personnalisées :
+    // 3 - Forme flottante avec dimensions personnalisées :
     builder.InsertImage(stream, RelativeHorizontalPosition.Margin, 100, RelativeVerticalPosition.Margin,
         100, 200, 100, WrapType.Square);
 }
@@ -271,7 +271,7 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromStream.docx");
 
 ## InsertImage(byte[]) {#insertimage}
 
-Insère une image d'un tableau d'octets dans le document. L'image est insérée en ligne et à l'échelle 100 %.
+Insère une image d'un tableau d'octets dans le document. L'image est insérée en ligne et à une échelle de 100 %.
 
 ```csharp
 public Shape InsertImage(byte[] imageBytes)
@@ -291,7 +291,7 @@ Vous pouvez modifier la taille de l'image, l'emplacement, la méthode de positio
 
 ### Exemples
 
-Montre comment insérer une image à partir d'un tableau d'octets dans un document.
+Montre comment insérer une image d’un tableau d’octets dans un document.
 
 ```csharp
 Document doc = new Document();
@@ -304,18 +304,18 @@ using (MemoryStream ms = new MemoryStream())
     image.Save(ms, ImageFormat.Png);
     byte[] imageByteArray = ms.ToArray();
 
-    // Vous trouverez ci-dessous trois manières d'insérer une image à partir d'un tableau d'octets.
+    // Vous trouverez ci-dessous trois façons d'insérer une image à partir d'un tableau d'octets.
     // 1 - Forme en ligne avec une taille par défaut basée sur les dimensions d'origine de l'image :
     builder.InsertImage(imageByteArray);
 
     builder.InsertBreak(BreakType.PageBreak);
 
-    // 2 - Forme en ligne avec des dimensions personnalisées :
+    // 2 - Forme en ligne avec dimensions personnalisées :
     builder.InsertImage(imageByteArray, ConvertUtil.PixelToPoint(250), ConvertUtil.PixelToPoint(144));
 
     builder.InsertBreak(BreakType.PageBreak);
 
-    // 3 - Forme flottante aux dimensions personnalisées :
+    // 3 - Forme flottante avec dimensions personnalisées :
     builder.InsertImage(imageByteArray, RelativeHorizontalPosition.Margin, 100, RelativeVerticalPosition.Margin, 
     100, 200, 100, WrapType.Square);
 }
@@ -323,7 +323,7 @@ using (MemoryStream ms = new MemoryStream())
 doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromByteArray.docx");
 ```
 
-Montre comment insérer une image à partir d'un tableau d'octets dans un document (.NetStandard 2.0).
+Montre comment insérer une image d’un tableau d’octets dans un document (.NetStandard 2.0).
 
 ```csharp
 Document doc = new Document();
@@ -338,18 +338,18 @@ using (SKBitmap bitmap = SKBitmap.Decode(ImageDir + "Logo.jpg"))
         {
             byte[] imageByteArray = data.ToArray();
 
-            // Vous trouverez ci-dessous trois manières d'insérer une image à partir d'un tableau d'octets.
+            // Vous trouverez ci-dessous trois façons d'insérer une image à partir d'un tableau d'octets.
             // 1 - Forme en ligne avec une taille par défaut basée sur les dimensions d'origine de l'image :
             builder.InsertImage(imageByteArray);
 
             builder.InsertBreak(BreakType.PageBreak);
 
-            // 2 - Forme en ligne avec des dimensions personnalisées :
+            // 2 - Forme en ligne avec dimensions personnalisées :
             builder.InsertImage(imageByteArray, ConvertUtil.PixelToPoint(250), ConvertUtil.PixelToPoint(144));
 
             builder.InsertBreak(BreakType.PageBreak);
 
-            // 3 - Forme flottante aux dimensions personnalisées :
+            // 3 - Forme flottante avec dimensions personnalisées :
             builder.InsertImage(imageByteArray, RelativeHorizontalPosition.Margin, 100, RelativeVerticalPosition.Margin,
                 100, 200, 100, WrapType.Square);
         }
@@ -370,7 +370,7 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromByteArrayNetStanda
 
 ## InsertImage(Image, double, double) {#insertimage_5}
 
-Insère une image en ligne à partir d'un .NETImage objet dans le document et le redimensionne à la taille spécifiée.
+Insère une image en ligne à partir d'un .NETImage dans le document et le redimensionne à la taille spécifiée.
 
 ```csharp
 public Shape InsertImage(Image image, double width, double height)
@@ -378,7 +378,7 @@ public Shape InsertImage(Image image, double width, double height)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| image | Image | Image à insérer dans le document. |
+| image | Image | L'image à insérer dans le document. |
 | width | Double | La largeur de l'image en points. Peut être une valeur négative ou nulle pour demander une échelle de 100 %. |
 | height | Double | La hauteur de l'image en points. Peut être une valeur négative ou nulle pour demander une échelle de 100 %. |
 
@@ -392,7 +392,7 @@ Vous pouvez modifier la taille de l'image, l'emplacement, la méthode de positio
 
 ### Exemples
 
-Montre comment insérer une image à partir d'un objet dans un document.
+Montre comment insérer une image d’un objet dans un document.
 
 ```csharp
 Document doc = new Document();
@@ -400,18 +400,18 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 Image image = Image.FromFile(ImageDir + "Logo.jpg");
 
-// Vous trouverez ci-dessous trois manières d'insérer une image à partir d'une instance d'objet Image.
+// Vous trouverez ci-dessous trois façons d'insérer une image à partir d'une instance d'objet Image.
 // 1 - Forme en ligne avec une taille par défaut basée sur les dimensions d'origine de l'image :
 builder.InsertImage(image);
 
 builder.InsertBreak(BreakType.PageBreak);
 
-// 2 - Forme en ligne avec des dimensions personnalisées :
+// 2 - Forme en ligne avec dimensions personnalisées :
 builder.InsertImage(image, ConvertUtil.PixelToPoint(250), ConvertUtil.PixelToPoint(144));
 
 builder.InsertBreak(BreakType.PageBreak);
 
-// 3 - Forme flottante aux dimensions personnalisées :
+// 3 - Forme flottante avec dimensions personnalisées :
 builder.InsertImage(image, RelativeHorizontalPosition.Margin, 100, RelativeVerticalPosition.Margin,
 100, 200, 100, WrapType.Square);
 
@@ -427,18 +427,18 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 // Le décodage de l'image la convertira au format .png.
 using (SKBitmap bitmap = SKBitmap.Decode(ImageDir + "Logo.jpg"))
 {
-    // Vous trouverez ci-dessous trois manières d'insérer une image à partir d'une instance d'objet Image.
+    // Vous trouverez ci-dessous trois façons d'insérer une image à partir d'une instance d'objet Image.
     // 1 - Forme en ligne avec une taille par défaut basée sur les dimensions d'origine de l'image :
     builder.InsertImage(bitmap);
 
     builder.InsertBreak(BreakType.PageBreak);
 
-    // 2 - Forme en ligne avec des dimensions personnalisées :
+    // 2 - Forme en ligne avec dimensions personnalisées :
     builder.InsertImage(bitmap, ConvertUtil.PixelToPoint(250), ConvertUtil.PixelToPoint(144));
 
     builder.InsertBreak(BreakType.PageBreak);
 
-    // 3 - Forme flottante aux dimensions personnalisées :
+    // 3 - Forme flottante avec dimensions personnalisées :
     builder.InsertImage(bitmap, RelativeHorizontalPosition.Margin, 100, RelativeVerticalPosition.Margin,
         100, 200, 100, WrapType.Square);
 }
@@ -485,19 +485,19 @@ Montre comment insérer une image du système de fichiers local dans un document
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Vous trouverez ci-dessous trois manières d'insérer une image à partir d'un nom de fichier système local.
+// Vous trouverez ci-dessous trois façons d'insérer une image à partir d'un nom de fichier système local.
 // 1 - Forme en ligne avec une taille par défaut basée sur les dimensions d'origine de l'image :
 builder.InsertImage(ImageDir + "Logo.jpg");
 
 builder.InsertBreak(BreakType.PageBreak);
 
-// 2 - Forme en ligne avec des dimensions personnalisées :
+// 2 - Forme en ligne avec dimensions personnalisées :
 builder.InsertImage(ImageDir + "Transparent background logo.png", ConvertUtil.PixelToPoint(250),
     ConvertUtil.PixelToPoint(144));
 
 builder.InsertBreak(BreakType.PageBreak);
 
-// 3 - Forme flottante aux dimensions personnalisées :
+// 3 - Forme flottante avec dimensions personnalisées :
 builder.InsertImage(ImageDir + "Windows MetaFile.wmf", RelativeHorizontalPosition.Margin, 100, 
     RelativeVerticalPosition.Margin, 100, 200, 100, WrapType.Square);
 
@@ -515,7 +515,7 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromFilename.docx");
 
 ## InsertImage(Stream, double, double) {#insertimage_8}
 
-Insère une image en ligne à partir d'un flux dans le document et la redimensionne à la taille spécifiée.
+Insère une image en ligne d'un flux dans le document et la redimensionne à la taille spécifiée.
 
 ```csharp
 public Shape InsertImage(Stream stream, double width, double height)
@@ -537,7 +537,7 @@ Vous pouvez modifier la taille de l'image, l'emplacement, la méthode de positio
 
 ### Exemples
 
-Montre comment insérer une image à partir d'un flux dans un document.
+Montre comment insérer une image d’un flux dans un document.
 
 ```csharp
 Document doc = new Document();
@@ -545,18 +545,18 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 using (Stream stream = File.OpenRead(ImageDir + "Logo.jpg"))
 {
-    // Vous trouverez ci-dessous trois manières d'insérer une image à partir d'un flux.
+    // Vous trouverez ci-dessous trois façons d'insérer une image à partir d'un flux.
     // 1 - Forme en ligne avec une taille par défaut basée sur les dimensions d'origine de l'image :
     builder.InsertImage(stream);
 
     builder.InsertBreak(BreakType.PageBreak);
 
-    // 2 - Forme en ligne avec des dimensions personnalisées :
+    // 2 - Forme en ligne avec dimensions personnalisées :
     builder.InsertImage(stream, ConvertUtil.PixelToPoint(250), ConvertUtil.PixelToPoint(144));
 
     builder.InsertBreak(BreakType.PageBreak);
 
-    // 3 - Forme flottante aux dimensions personnalisées :
+    // 3 - Forme flottante avec dimensions personnalisées :
     builder.InsertImage(stream, RelativeHorizontalPosition.Margin, 100, RelativeVerticalPosition.Margin,
         100, 200, 100, WrapType.Square);
 }
@@ -597,7 +597,7 @@ Vous pouvez modifier la taille de l'image, l'emplacement, la méthode de positio
 
 ### Exemples
 
-Montre comment insérer une image à partir d'un tableau d'octets dans un document.
+Montre comment insérer une image d’un tableau d’octets dans un document.
 
 ```csharp
 Document doc = new Document();
@@ -610,18 +610,18 @@ using (MemoryStream ms = new MemoryStream())
     image.Save(ms, ImageFormat.Png);
     byte[] imageByteArray = ms.ToArray();
 
-    // Vous trouverez ci-dessous trois manières d'insérer une image à partir d'un tableau d'octets.
+    // Vous trouverez ci-dessous trois façons d'insérer une image à partir d'un tableau d'octets.
     // 1 - Forme en ligne avec une taille par défaut basée sur les dimensions d'origine de l'image :
     builder.InsertImage(imageByteArray);
 
     builder.InsertBreak(BreakType.PageBreak);
 
-    // 2 - Forme en ligne avec des dimensions personnalisées :
+    // 2 - Forme en ligne avec dimensions personnalisées :
     builder.InsertImage(imageByteArray, ConvertUtil.PixelToPoint(250), ConvertUtil.PixelToPoint(144));
 
     builder.InsertBreak(BreakType.PageBreak);
 
-    // 3 - Forme flottante aux dimensions personnalisées :
+    // 3 - Forme flottante avec dimensions personnalisées :
     builder.InsertImage(imageByteArray, RelativeHorizontalPosition.Margin, 100, RelativeVerticalPosition.Margin, 
     100, 200, 100, WrapType.Square);
 }
@@ -629,7 +629,7 @@ using (MemoryStream ms = new MemoryStream())
 doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromByteArray.docx");
 ```
 
-Montre comment insérer une image à partir d'un tableau d'octets dans un document (.NetStandard 2.0).
+Montre comment insérer une image d’un tableau d’octets dans un document (.NetStandard 2.0).
 
 ```csharp
 Document doc = new Document();
@@ -644,18 +644,18 @@ using (SKBitmap bitmap = SKBitmap.Decode(ImageDir + "Logo.jpg"))
         {
             byte[] imageByteArray = data.ToArray();
 
-            // Vous trouverez ci-dessous trois manières d'insérer une image à partir d'un tableau d'octets.
+            // Vous trouverez ci-dessous trois façons d'insérer une image à partir d'un tableau d'octets.
             // 1 - Forme en ligne avec une taille par défaut basée sur les dimensions d'origine de l'image :
             builder.InsertImage(imageByteArray);
 
             builder.InsertBreak(BreakType.PageBreak);
 
-            // 2 - Forme en ligne avec des dimensions personnalisées :
+            // 2 - Forme en ligne avec dimensions personnalisées :
             builder.InsertImage(imageByteArray, ConvertUtil.PixelToPoint(250), ConvertUtil.PixelToPoint(144));
 
             builder.InsertBreak(BreakType.PageBreak);
 
-            // 3 - Forme flottante aux dimensions personnalisées :
+            // 3 - Forme flottante avec dimensions personnalisées :
             builder.InsertImage(imageByteArray, RelativeHorizontalPosition.Margin, 100, RelativeVerticalPosition.Margin,
                 100, 200, 100, WrapType.Square);
         }
@@ -676,7 +676,7 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromByteArrayNetStanda
 
 ## InsertImage(Image, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) {#insertimage_4}
 
-Insère une image à partir d'un .NETImage objet à la position et à la taille spécifiées.
+Insère une image à partir d'un .NETImageObjet à la position et à la taille spécifiées.
 
 ```csharp
 public Shape InsertImage(Image image, RelativeHorizontalPosition horzPos, double left, 
@@ -685,14 +685,14 @@ public Shape InsertImage(Image image, RelativeHorizontalPosition horzPos, double
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| image | Image | Image à insérer dans le document. |
-| horzPos | RelativeHorizontalPosition | Spécifie l'endroit à partir duquel la distance à l'image est mesurée. |
-| left | Double | Distance en points entre l'origine et le côté gauche de l'image. |
-| vertPos | RelativeVerticalPosition | Spécifie d'où la distance à l'image est mesurée. |
-| top | Double | Distance en points entre l'origine et le haut de l'image. |
+| image | Image | L'image à insérer dans le document. |
+| horzPos | RelativeHorizontalPosition | Spécifie l'endroit à partir duquel la distance jusqu'à l'image est mesurée. |
+| left | Double | Distance en points depuis l'origine jusqu'au côté gauche de l'image. |
+| vertPos | RelativeVerticalPosition | Spécifie l'endroit à partir duquel la distance jusqu'à l'image est mesurée. |
+| top | Double | Distance en points depuis l'origine jusqu'au haut de l'image. |
 | width | Double | La largeur de l'image en points. Peut être une valeur négative ou nulle pour demander une échelle de 100 %. |
 | height | Double | La hauteur de l'image en points. Peut être une valeur négative ou nulle pour demander une échelle de 100 %. |
-| wrapType | WrapType | Spécifie comment habiller le texte autour de l'image. |
+| wrapType | WrapType | Spécifie comment enrouler le texte autour de l'image. |
 
 ### Return_Value
 
@@ -704,7 +704,7 @@ Vous pouvez modifier la taille de l'image, l'emplacement, la méthode de positio
 
 ### Exemples
 
-Montre comment insérer une image à partir d'un objet dans un document.
+Montre comment insérer une image d’un objet dans un document.
 
 ```csharp
 Document doc = new Document();
@@ -712,18 +712,18 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 Image image = Image.FromFile(ImageDir + "Logo.jpg");
 
-// Vous trouverez ci-dessous trois manières d'insérer une image à partir d'une instance d'objet Image.
+// Vous trouverez ci-dessous trois façons d'insérer une image à partir d'une instance d'objet Image.
 // 1 - Forme en ligne avec une taille par défaut basée sur les dimensions d'origine de l'image :
 builder.InsertImage(image);
 
 builder.InsertBreak(BreakType.PageBreak);
 
-// 2 - Forme en ligne avec des dimensions personnalisées :
+// 2 - Forme en ligne avec dimensions personnalisées :
 builder.InsertImage(image, ConvertUtil.PixelToPoint(250), ConvertUtil.PixelToPoint(144));
 
 builder.InsertBreak(BreakType.PageBreak);
 
-// 3 - Forme flottante aux dimensions personnalisées :
+// 3 - Forme flottante avec dimensions personnalisées :
 builder.InsertImage(image, RelativeHorizontalPosition.Margin, 100, RelativeVerticalPosition.Margin,
 100, 200, 100, WrapType.Square);
 
@@ -739,18 +739,18 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 // Le décodage de l'image la convertira au format .png.
 using (SKBitmap bitmap = SKBitmap.Decode(ImageDir + "Logo.jpg"))
 {
-    // Vous trouverez ci-dessous trois manières d'insérer une image à partir d'une instance d'objet Image.
+    // Vous trouverez ci-dessous trois façons d'insérer une image à partir d'une instance d'objet Image.
     // 1 - Forme en ligne avec une taille par défaut basée sur les dimensions d'origine de l'image :
     builder.InsertImage(bitmap);
 
     builder.InsertBreak(BreakType.PageBreak);
 
-    // 2 - Forme en ligne avec des dimensions personnalisées :
+    // 2 - Forme en ligne avec dimensions personnalisées :
     builder.InsertImage(bitmap, ConvertUtil.PixelToPoint(250), ConvertUtil.PixelToPoint(144));
 
     builder.InsertBreak(BreakType.PageBreak);
 
-    // 3 - Forme flottante aux dimensions personnalisées :
+    // 3 - Forme flottante avec dimensions personnalisées :
     builder.InsertImage(bitmap, RelativeHorizontalPosition.Margin, 100, RelativeVerticalPosition.Margin,
         100, 200, 100, WrapType.Square);
 }
@@ -782,13 +782,13 @@ public Shape InsertImage(string fileName, RelativeHorizontalPosition horzPos, do
 | Paramètre | Taper | La description |
 | --- | --- | --- |
 | fileName | String | Le fichier qui contient l'image. |
-| horzPos | RelativeHorizontalPosition | Spécifie l'endroit à partir duquel la distance à l'image est mesurée. |
-| left | Double | Distance en points entre l'origine et le côté gauche de l'image. |
-| vertPos | RelativeVerticalPosition | Spécifie d'où la distance à l'image est mesurée. |
-| top | Double | Distance en points entre l'origine et le haut de l'image. |
+| horzPos | RelativeHorizontalPosition | Spécifie l'endroit à partir duquel la distance jusqu'à l'image est mesurée. |
+| left | Double | Distance en points depuis l'origine jusqu'au côté gauche de l'image. |
+| vertPos | RelativeVerticalPosition | Spécifie l'endroit à partir duquel la distance jusqu'à l'image est mesurée. |
+| top | Double | Distance en points depuis l'origine jusqu'au haut de l'image. |
 | width | Double | La largeur de l'image en points. Peut être une valeur négative ou nulle pour demander une échelle de 100 %. |
 | height | Double | La hauteur de l'image en points. Peut être une valeur négative ou nulle pour demander une échelle de 100 %. |
-| wrapType | WrapType | Spécifie comment habiller le texte autour de l'image. |
+| wrapType | WrapType | Spécifie comment enrouler le texte autour de l'image. |
 
 ### Return_Value
 
@@ -806,12 +806,12 @@ Montre comment insérer une image.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Il existe deux manières d'utiliser un générateur de document pour sourcer une image, puis de l'insérer en tant que forme flottante.
-// 1 - Depuis un fichier du système de fichiers local :
+// Il existe deux manières d'utiliser un générateur de documents pour générer une image, puis de l'insérer sous forme de forme flottante.
+// 1 - Depuis un fichier dans le système de fichiers local :
 builder.InsertImage(ImageDir + "Transparent background logo.png", RelativeHorizontalPosition.Margin, 100,
     RelativeVerticalPosition.Margin, 0, 200, 200, WrapType.Square);
 
-// 2 - A partir d'une URL :
+// 2 - Depuis une URL :
 builder.InsertImage(ImageUrl, RelativeHorizontalPosition.Margin, 100,
     RelativeVerticalPosition.Margin, 250, 200, 200, WrapType.Square);
 
@@ -824,13 +824,13 @@ Montre comment insérer une image du système de fichiers local dans un document
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// La méthode InsertImage crée une forme flottante avec l'image transmise dans ses données d'image.
-// Nous pouvons spécifier les dimensions de la forme en les passant à cette méthode.
+// La méthode InsertImage crée une forme flottante avec l'image passée dans ses données d'image.
+// On peut spécifier les dimensions de la forme en les passant à cette méthode.
 Shape imageShape = builder.InsertImage(ImageDir + "Logo.jpg", RelativeHorizontalPosition.Margin, 0,
     RelativeVerticalPosition.Margin, 0, -1, -1, WrapType.Square);
 
 // Passer des valeurs négatives comme dimensions prévues définira automatiquement
-// les dimensions de la forme basées sur les dimensions de son image.
+// les dimensions de la forme en fonction des dimensions de son image.
 Assert.AreEqual(300.0d, imageShape.Width);
 Assert.AreEqual(300.0d, imageShape.Height);
 
@@ -843,19 +843,19 @@ Montre comment insérer une image du système de fichiers local dans un document
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Vous trouverez ci-dessous trois manières d'insérer une image à partir d'un nom de fichier système local.
+// Vous trouverez ci-dessous trois façons d'insérer une image à partir d'un nom de fichier système local.
 // 1 - Forme en ligne avec une taille par défaut basée sur les dimensions d'origine de l'image :
 builder.InsertImage(ImageDir + "Logo.jpg");
 
 builder.InsertBreak(BreakType.PageBreak);
 
-// 2 - Forme en ligne avec des dimensions personnalisées :
+// 2 - Forme en ligne avec dimensions personnalisées :
 builder.InsertImage(ImageDir + "Transparent background logo.png", ConvertUtil.PixelToPoint(250),
     ConvertUtil.PixelToPoint(144));
 
 builder.InsertBreak(BreakType.PageBreak);
 
-// 3 - Forme flottante aux dimensions personnalisées :
+// 3 - Forme flottante avec dimensions personnalisées :
 builder.InsertImage(ImageDir + "Windows MetaFile.wmf", RelativeHorizontalPosition.Margin, 100, 
     RelativeVerticalPosition.Margin, 100, 200, 100, WrapType.Square);
 
@@ -876,7 +876,7 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromFilename.docx");
 
 ## InsertImage(Stream, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) {#insertimage_7}
 
-Insère une image à partir d'un flux à la position et à la taille spécifiées.
+Insère une image d'un flux à la position et à la taille spécifiées.
 
 ```csharp
 public Shape InsertImage(Stream stream, RelativeHorizontalPosition horzPos, double left, 
@@ -886,13 +886,13 @@ public Shape InsertImage(Stream stream, RelativeHorizontalPosition horzPos, doub
 | Paramètre | Taper | La description |
 | --- | --- | --- |
 | stream | Stream | Le flux qui contient l'image. |
-| horzPos | RelativeHorizontalPosition | Spécifie l'endroit à partir duquel la distance à l'image est mesurée. |
-| left | Double | Distance en points entre l'origine et le côté gauche de l'image. |
-| vertPos | RelativeVerticalPosition | Spécifie d'où la distance à l'image est mesurée. |
-| top | Double | Distance en points entre l'origine et le haut de l'image. |
+| horzPos | RelativeHorizontalPosition | Spécifie l'endroit à partir duquel la distance jusqu'à l'image est mesurée. |
+| left | Double | Distance en points depuis l'origine jusqu'au côté gauche de l'image. |
+| vertPos | RelativeVerticalPosition | Spécifie l'endroit à partir duquel la distance jusqu'à l'image est mesurée. |
+| top | Double | Distance en points depuis l'origine jusqu'au haut de l'image. |
 | width | Double | La largeur de l'image en points. Peut être une valeur négative ou nulle pour demander une échelle de 100 %. |
 | height | Double | La hauteur de l'image en points. Peut être une valeur négative ou nulle pour demander une échelle de 100 %. |
-| wrapType | WrapType | Spécifie comment habiller le texte autour de l'image. |
+| wrapType | WrapType | Spécifie comment enrouler le texte autour de l'image. |
 
 ### Return_Value
 
@@ -904,7 +904,7 @@ Vous pouvez modifier la taille de l'image, l'emplacement, la méthode de positio
 
 ### Exemples
 
-Montre comment insérer une image à partir d'un flux dans un document.
+Montre comment insérer une image d’un flux dans un document.
 
 ```csharp
 Document doc = new Document();
@@ -912,18 +912,18 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 using (Stream stream = File.OpenRead(ImageDir + "Logo.jpg"))
 {
-    // Vous trouverez ci-dessous trois manières d'insérer une image à partir d'un flux.
+    // Vous trouverez ci-dessous trois façons d'insérer une image à partir d'un flux.
     // 1 - Forme en ligne avec une taille par défaut basée sur les dimensions d'origine de l'image :
     builder.InsertImage(stream);
 
     builder.InsertBreak(BreakType.PageBreak);
 
-    // 2 - Forme en ligne avec des dimensions personnalisées :
+    // 2 - Forme en ligne avec dimensions personnalisées :
     builder.InsertImage(stream, ConvertUtil.PixelToPoint(250), ConvertUtil.PixelToPoint(144));
 
     builder.InsertBreak(BreakType.PageBreak);
 
-    // 3 - Forme flottante aux dimensions personnalisées :
+    // 3 - Forme flottante avec dimensions personnalisées :
     builder.InsertImage(stream, RelativeHorizontalPosition.Margin, 100, RelativeVerticalPosition.Margin,
         100, 200, 100, WrapType.Square);
 }
@@ -955,13 +955,13 @@ public Shape InsertImage(byte[] imageBytes, RelativeHorizontalPosition horzPos, 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
 | imageBytes | Byte[] | Le tableau d'octets qui contient l'image. |
-| horzPos | RelativeHorizontalPosition | Spécifie l'endroit à partir duquel la distance à l'image est mesurée. |
-| left | Double | Distance en points entre l'origine et le côté gauche de l'image. |
-| vertPos | RelativeVerticalPosition | Spécifie d'où la distance à l'image est mesurée. |
-| top | Double | Distance en points entre l'origine et le haut de l'image. |
+| horzPos | RelativeHorizontalPosition | Spécifie l'endroit à partir duquel la distance jusqu'à l'image est mesurée. |
+| left | Double | Distance en points depuis l'origine jusqu'au côté gauche de l'image. |
+| vertPos | RelativeVerticalPosition | Spécifie l'endroit à partir duquel la distance jusqu'à l'image est mesurée. |
+| top | Double | Distance en points depuis l'origine jusqu'au haut de l'image. |
 | width | Double | La largeur de l'image en points. Peut être une valeur négative ou nulle pour demander une échelle de 100 %. |
 | height | Double | La hauteur de l'image en points. Peut être une valeur négative ou nulle pour demander une échelle de 100 %. |
-| wrapType | WrapType | Spécifie comment habiller le texte autour de l'image. |
+| wrapType | WrapType | Spécifie comment enrouler le texte autour de l'image. |
 
 ### Return_Value
 
@@ -973,7 +973,7 @@ Vous pouvez modifier la taille de l'image, l'emplacement, la méthode de positio
 
 ### Exemples
 
-Montre comment insérer une image à partir d'un tableau d'octets dans un document.
+Montre comment insérer une image d’un tableau d’octets dans un document.
 
 ```csharp
 Document doc = new Document();
@@ -986,18 +986,18 @@ using (MemoryStream ms = new MemoryStream())
     image.Save(ms, ImageFormat.Png);
     byte[] imageByteArray = ms.ToArray();
 
-    // Vous trouverez ci-dessous trois manières d'insérer une image à partir d'un tableau d'octets.
+    // Vous trouverez ci-dessous trois façons d'insérer une image à partir d'un tableau d'octets.
     // 1 - Forme en ligne avec une taille par défaut basée sur les dimensions d'origine de l'image :
     builder.InsertImage(imageByteArray);
 
     builder.InsertBreak(BreakType.PageBreak);
 
-    // 2 - Forme en ligne avec des dimensions personnalisées :
+    // 2 - Forme en ligne avec dimensions personnalisées :
     builder.InsertImage(imageByteArray, ConvertUtil.PixelToPoint(250), ConvertUtil.PixelToPoint(144));
 
     builder.InsertBreak(BreakType.PageBreak);
 
-    // 3 - Forme flottante aux dimensions personnalisées :
+    // 3 - Forme flottante avec dimensions personnalisées :
     builder.InsertImage(imageByteArray, RelativeHorizontalPosition.Margin, 100, RelativeVerticalPosition.Margin, 
     100, 200, 100, WrapType.Square);
 }
@@ -1005,7 +1005,7 @@ using (MemoryStream ms = new MemoryStream())
 doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromByteArray.docx");
 ```
 
-Montre comment insérer une image à partir d'un tableau d'octets dans un document (.NetStandard 2.0).
+Montre comment insérer une image d’un tableau d’octets dans un document (.NetStandard 2.0).
 
 ```csharp
 Document doc = new Document();
@@ -1020,18 +1020,18 @@ using (SKBitmap bitmap = SKBitmap.Decode(ImageDir + "Logo.jpg"))
         {
             byte[] imageByteArray = data.ToArray();
 
-            // Vous trouverez ci-dessous trois manières d'insérer une image à partir d'un tableau d'octets.
+            // Vous trouverez ci-dessous trois façons d'insérer une image à partir d'un tableau d'octets.
             // 1 - Forme en ligne avec une taille par défaut basée sur les dimensions d'origine de l'image :
             builder.InsertImage(imageByteArray);
 
             builder.InsertBreak(BreakType.PageBreak);
 
-            // 2 - Forme en ligne avec des dimensions personnalisées :
+            // 2 - Forme en ligne avec dimensions personnalisées :
             builder.InsertImage(imageByteArray, ConvertUtil.PixelToPoint(250), ConvertUtil.PixelToPoint(144));
 
             builder.InsertBreak(BreakType.PageBreak);
 
-            // 3 - Forme flottante aux dimensions personnalisées :
+            // 3 - Forme flottante avec dimensions personnalisées :
             builder.InsertImage(imageByteArray, RelativeHorizontalPosition.Margin, 100, RelativeVerticalPosition.Margin,
                 100, 200, 100, WrapType.Square);
         }

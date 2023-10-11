@@ -1,12 +1,14 @@
 ---
 title: Cluster.DeepClone
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Cluster méthode. 
+description: Cluster méthode. Renvoie un clone profond de cette instance.
 type: docs
 weight: 50
 url: /fr/net/aspose.words.shaping/cluster/deepclone/
 ---
 ## Cluster.DeepClone method
+
+Renvoie un clone profond de cette instance.
 
 ```csharp
 public Cluster DeepClone()

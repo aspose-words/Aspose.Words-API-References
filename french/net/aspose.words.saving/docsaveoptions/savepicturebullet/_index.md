@@ -1,14 +1,14 @@
 ---
 title: DocSaveOptions.SavePictureBullet
 second_title: Référence de l'API Aspose.Words pour .NET
-description: DocSaveOptions propriété. Quandfaux  les données PictureBullet ne sont pas enregistrées dans le document de sortie. La valeur par défaut est vrai .
+description: DocSaveOptions propriété. QuandFAUX  les données PictureBullet ne sont pas enregistrées dans le document de sortie. La valeur par défaut estvrai .
 type: docs
 weight: 50
 url: /fr/net/aspose.words.saving/docsaveoptions/savepicturebullet/
 ---
 ## DocSaveOptions.SavePictureBullet property
 
-Quand`faux` , les données PictureBullet ne sont pas enregistrées dans le document de sortie. La valeur par défaut est **vrai** .
+Quand`FAUX` , les données PictureBullet ne sont pas enregistrées dans le document de sortie. La valeur par défaut est`vrai` .
 
 ```csharp
 public bool SavePictureBullet { get; set; }
@@ -24,7 +24,6 @@ Montre comment omettre les données PictureBullet du document lors de l'enregist
 
 ```csharp
 Document doc = new Document(MyDir + "Image bullet points.docx");
-
 // Certains traitements de texte, tels que Microsoft Word 97, sont incompatibles avec les données PictureBullet.
 // En définissant un indicateur dans l'objet SaveOptions,
 // nous pouvons convertir toutes les puces de l'image en puces ordinaires lors de l'enregistrement.

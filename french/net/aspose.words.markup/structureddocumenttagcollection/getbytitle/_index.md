@@ -16,11 +16,28 @@ public IStructuredDocumentTag GetByTitle(string title)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| title | String | Le titre de la balise de document structuré. |
+| title | String | Le titre de la balise du document structuré. |
 
 ### Remarques
 
-Renvoie null si la balise de document structuré avec le titre spécifié est introuvable.
+Renvoie null si la balise du document structuré avec le titre spécifié est introuvable.
+
+### Exemples
+
+Montre comment obtenir une balise de document structuré.
+
+```csharp
+Document doc = new Document(MyDir + "Structured document tags by id.docx");
+
+// Récupère la balise du document structuré par Id.
+IStructuredDocumentTag sdt = doc.Range.StructuredDocumentTags.GetById(1160505028);
+Console.WriteLine(sdt.IsRanged());
+Console.WriteLine(sdt.Title);
+
+// Récupère la balise du document structuré ou la balise à distance par titre.
+sdt = doc.Range.StructuredDocumentTags.GetByTitle("Alias4");
+Console.WriteLine(sdt.Id);
+```
 
 ### Voir également
 
